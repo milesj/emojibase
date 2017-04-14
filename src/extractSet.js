@@ -7,7 +7,7 @@
 import pick from 'lodash/pick';
 import { EXPANDED, FULL, STANDARD, COMPACT, CUSTOM } from './constants';
 
-export default function extractSet(data, format, fields = []) {
+export default function extractSet(data: Object, format: string, fields: string[] = []): Object {
   const { name, hexcode, unicode, codepoint, shortnames, keywords, category } = data;
   const [shortname] = shortnames;
 

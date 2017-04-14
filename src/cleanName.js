@@ -4,6 +4,6 @@
  * @flow
  */
 
-export default function cleanName(name) {
+export default function cleanName(name: string): string {
   return name.toLowerCase().split(';')[0].replace(/[^a-z0-9 ]+/g, '');
 }

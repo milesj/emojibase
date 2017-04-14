@@ -6,7 +6,7 @@
 
 import cleanName from './cleanName';
 
-export default function createShortnames(name) {
+export default function createShortnames(name: string): string[] {
   return [
     `:${cleanName(name).replace(/ /g, '_')}:`,
   ];

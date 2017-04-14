@@ -6,7 +6,7 @@
 
 import cleanName from './cleanName';
 
-export default function createKeywords(name) {
+export default function createKeywords(name: string): string[] {
   let cleanedName = cleanName(name);
 
   // Remove conjunction words

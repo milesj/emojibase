@@ -4,7 +4,14 @@
   "description": "Evergreen emoji datasets and regex patterns.",
   "main": "index.js",
   "scripts": {
-    "build": "babel ./src -d ./lib"
+    "build": "babel ./src -d ./lib",
+    "lint": "eslint ./src ./tests",
+    "flow": "flow check",
+    "jest": "jest --config ./jest.json",
+    "coverage": "yarn run jest -- --coverage",
+    "pretest": "yarn run lint",
+    "test": "yarn run jest",
+    "posttest": "yarn run flow"
   },
   "repository": {
     "type": "git",
@@ -28,14 +35,20 @@
   "homepage": "https://github.com/milesj/emoji-database#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.2",
+    "babel-jest": "^19.0.0",
     "babel-preset-env": "^1.3.3",
+    "babel-preset-stage-2": "^6.24.1",
     "chalk": "^1.1.3",
-    "emojione": "^2.2.7",
-    "jest": "^19.0.2",
-    "lodash": "^4.17.4",
-    "unicode-emoji-data": "^2.1.1"
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-flowtype": "^2.30.4",
+    "eslint-plugin-import": "^2.2.0",
+    "jest": "^19.0.2"
   },
   "dependencies": {
-    "babel-preset-stage-2": "^6.24.1"
+    "emojione": "^2.2.7",
+    "lodash": "^4.17.4",
+    "unicode-emoji-data": "^2.1.1"
   }
 }

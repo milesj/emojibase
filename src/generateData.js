@@ -15,7 +15,7 @@ const EMOJI = expandEmojiData(emojiDataStable);
 // Pre-poluate a mapping of hexcodes to EmojiOne
 const EMOJI_ONE = {};
 
-Object.keys(emojiOneData).forEach((key) => {
+Object.keys(emojiOneData).forEach((key: string) => {
   const emoji = emojiOneData[key];
 
   EMOJI_ONE[emoji.unicode.toUpperCase()] = emoji;
@@ -24,12 +24,12 @@ Object.keys(emojiOneData).forEach((key) => {
 // Cache the results after generation
 const EMOJI_CACHE = [];
 
-export default function generateData() {
+export default function generateData(): Promise<Object[]> {
   if (EMOJI_CACHE.length) {
     return Promise.resolve(EMOJI_CACHE);
   }
 
-  EMOJI.forEach((emoji) => {
+  EMOJI.forEach((emoji: Object) => {
     let hexcode = emoji.codepoint;
 
     if (emoji.presentation && emoji.presentation.default) {

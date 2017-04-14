@@ -4,8 +4,8 @@
  * @flow
  */
 
-export const EXPANDED = 'expanded';
-export const FULL = 'full';
-export const STANDARD = 'standard';
-export const COMPACT = 'compact';
-export const CUSTOM = 'custom';
+export const EXPANDED: string = 'expanded';
+export const FULL: string = 'full';
+export const STANDARD: string = 'standard';
+export const COMPACT: string = 'compact';
+export const CUSTOM: string = 'custom';
