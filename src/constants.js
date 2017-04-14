@@ -8,3 +8,4 @@ export const EXPANDED = 'expanded';
 export const FULL = 'full';
 export const STANDARD = 'standard';
 export const COMPACT = 'compact';
+export const CUSTOM = 'custom';
