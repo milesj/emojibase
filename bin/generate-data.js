@@ -42,7 +42,7 @@ function getAndRemoveKey(keyName) {
 ].forEach((format) => {
   console.log('Generating ' + format + ' datasets');
 
-  generateData()
+  Promise.resolve(generateData())
     // Extract a set
     .then(data => data.map(row => extractSet(row, format)))
     // Save file as array

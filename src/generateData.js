@@ -4,13 +4,13 @@
  * @flow
  */
 
-import { emojiDataStable, expandEmojiData } from 'unicode-emoji-data';
+import { emojiDataBeta, expandEmojiData } from 'unicode-emoji-data';
 import emojiOneData from 'emojione/emoji.json';
 import createKeywords from './createKeywords';
 import createShortnames from './createShortnames';
 
 // Pre-poluate unicode emoji data
-const EMOJI = expandEmojiData(emojiDataStable);
+const EMOJI = expandEmojiData(emojiDataBeta);
 
 // Pre-poluate a mapping of hexcodes to EmojiOne
 const EMOJI_ONE = {};
@@ -24,23 +24,28 @@ Object.keys(emojiOneData).forEach((key: string) => {
 // Cache the results after generation
 const EMOJI_CACHE = [];
 
-export default function generateData(): Promise<Object[]> {
+export default function generateData(): Object[] {
   if (EMOJI_CACHE.length) {
-    return Promise.resolve(EMOJI_CACHE);
+    return EMOJI_CACHE;
   }
 
   EMOJI.forEach((emoji: Object) => {
-    let hexcode = emoji.codepoint;
+    let hexcode = (emoji.presentation && emoji.presentation.default)
+      ? emoji.presentation.default
+      : emoji.codepoint;
 
-    if (emoji.presentation && emoji.presentation.default) {
-      hexcode = emoji.presentation.default.split(' ').join('-');
-    }
-
-    // Omit emoji without a code
+    // Omit emoji without a hexcode
     if (!hexcode) {
       return;
     }
 
+    // Remove any zero width joiners and variation selectors
+    hexcode = hexcode.replace(/ 200D/g, '').replace(/ FE0F/g, '');
+
+    // Match formats with EmojiOne
+    hexcode = hexcode.split(' ').join('-');
+
+    // Build our data
     const codepoint = hexcode.split('-').map(point => parseInt(point, 16));
     const extraEmoji = {
       hexcode,
@@ -64,6 +69,8 @@ export default function generateData(): Promise<Object[]> {
       if (emojiOne.keywords.length) {
         extraEmoji.keywords = emojiOne.keywords;
       }
+
+      delete EMOJI_ONE[hexcode];
     }
 
     EMOJI_CACHE.push({
@@ -72,5 +79,11 @@ export default function generateData(): Promise<Object[]> {
     });
   });
 
-  return Promise.resolve(EMOJI_CACHE);
+  // Verify all of EmojiOne has been used
+  if (!Object.keys(EMOJI_ONE).length) {
+    console.error('Not all EmojiOne definitions have been used!');
+    console.log(EMOJI_ONE);
+  }
+
+  return EMOJI_CACHE;
 }

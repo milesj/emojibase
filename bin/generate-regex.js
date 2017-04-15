@@ -17,7 +17,7 @@ const codePointGroups = {
 
 console.log('Generating regex pattern');
 
-generateData()
+Promise.resolve(generateData())
   // Extract the codepoints from the data set
   .then((data) => {
     data.forEach((emoji) => {
@@ -46,7 +46,7 @@ generateData()
   .then((regex) => {
     fs.writeFile(
       path.join(__dirname, '../regex.js'),
-      'module.exports = \'' + regex.join('|').replace('*', '\\*') + '\';',
+      'module.exports = \'' + regex.join('|').replace('*', '\\*') + '\';\n',
       (error) => {
         if (error) {
           console.error(chalk.red('  regex.js failed to write'));
