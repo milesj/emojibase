@@ -1,0 +1,3 @@
+declare module 'lodash/pick' {
+  declare export default function pick(object: Object, fields: string[]): Object;
+}

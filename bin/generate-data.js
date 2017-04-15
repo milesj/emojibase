@@ -14,9 +14,9 @@ function writeFile(filename, data) {
     JSON.stringify(data),
     (error) => {
       if (error) {
-        console.error(chalk.red(filename + ' failed to write'));
+        console.error(chalk.red('  ' + filename + ' failed to write'));
       } else {
-        console.log(chalk.green(filename + ' created'));
+        console.log(chalk.green('  ' + filename + ' created'));
       }
     }
   );
@@ -40,7 +40,7 @@ function getAndRemoveKey(keyName) {
   constants.STANDARD,
   constants.COMPACT,
 ].forEach((format) => {
-  console.log('Generating ' + format + ' dataset');
+  console.log('Generating ' + format + ' datasets');
 
   generateData()
     // Extract a set
