@@ -17,7 +17,7 @@ describe('regex', () => {
     it(`matches multiple unicode for ${unicode}`, () => {
       const matches = `One ${unicode} Two ${unicode} Three ${unicode}.`.match(regexGlobal);
 
-      // `match` returns an array of surrogates as single items
+      // `match` returns an array of surrogates as separate items
       expect(matches.length).toBeGreaterThanOrEqual(3);
     });
   });
