@@ -6,6 +6,7 @@
 
 import packageData from './packageData';
 import extractSet from './extractSet';
+import toCodepoint from './toCodepoint';
 import { EXPANDED, STANDARD, COMPACT, CUSTOM } from './constants';
 
 if (process.env.NODE_ENV !== 'development') {
@@ -13,4 +14,4 @@ if (process.env.NODE_ENV !== 'development') {
   console.warn('Please use the provided data dumps, or generate your own using these tools.');
 }
 
-export { packageData, extractSet, EXPANDED, STANDARD, COMPACT, CUSTOM };
+export { packageData, extractSet, toCodepoint, EXPANDED, STANDARD, COMPACT, CUSTOM };
