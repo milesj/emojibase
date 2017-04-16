@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
 const keyBy = require('lodash/keyBy');
-const generateData = require('../lib/generateData').default;
+const packageData = require('../lib/packageData').default;
 const extractSet = require('../lib/extractSet').default;
 const constants = require('../lib/constants');
 
@@ -42,7 +42,7 @@ function getAndRemoveKey(keyName) {
 ].forEach((format) => {
   console.log('Generating ' + format + ' datasets');
 
-  Promise.resolve(generateData())
+  Promise.resolve(packageData())
     // Extract a set
     .then(data => data.map(row => extractSet(row, format)))
     // Save file as array

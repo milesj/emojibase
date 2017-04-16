@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
 const regenerate = require('regenerate');
-const generateData = require('../lib/generateData').default;
+const packageData = require('../lib/packageData').default;
 
 // If we separate each surrogate pair into a trie per code point,
 // we can efficiently create nested groups and ranges.
@@ -17,7 +17,7 @@ const codePointGroups = {
 
 console.log('Generating regex pattern');
 
-Promise.resolve(generateData())
+Promise.resolve(packageData())
   // Extract the codepoints from the data set
   .then((data) => {
     data.forEach((emoji) => {

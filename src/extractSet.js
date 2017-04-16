@@ -33,7 +33,6 @@ export default function extractSet(data: Object, format: string, fields: string[
       return {
         name,
         hexcode,
-        unicode,
         codepoint,
         shortname,
       };
