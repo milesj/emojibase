@@ -36,6 +36,7 @@ new Promise((resolve, reject) => {
   ))
   .then((rows) => {
     console.log('| Dump | Filesize | Gzipped |');
+    console.log('| --- | --- | --- |');
 
     rows.sort((a, b) => a.size - b.size);
 
