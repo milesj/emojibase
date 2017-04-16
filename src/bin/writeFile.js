@@ -14,11 +14,14 @@ export default function writeFile(
   filePath: string,
   data: DataDump,
   callback: (data: DataDump) => DataDump,
+  json: boolean = true,
 ): DataDump {
   return new Promise((resolve: *, reject: *) => {
     const fileName = path.basename(filePath);
+    const dump = callback(data);
 
-    fs.writeFile(filePath, JSON.stringify(callback(data)), (error: Error) => {
+    // $FlowIgnore
+    fs.writeFile(filePath, json ? JSON.stringify(dump) : dump, (error: Error) => {
       if (error) {
         console.error(`  ${chalk.red('✖')} ${chalk.gray(fileName)}`);
         reject(error);

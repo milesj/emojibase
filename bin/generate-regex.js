@@ -5,6 +5,7 @@ const path = require('path');
 const chalk = require('chalk');
 const regenerate = require('regenerate');
 const packageData = require('../lib/packageData').default;
+const writeFile = require('../lib/bin/writeFile').default;
 
 // If we separate each surrogate pair into a trie per code point,
 // we can efficiently create nested groups and ranges.
@@ -31,28 +32,32 @@ Promise.resolve(packageData())
         codePointGroups[group][i].add(String.fromCodePoint(codePoint));
       });
     });
+
+    return data;
   })
   // Generate the regex pattern groups
   .then(() => {
     return [4, 3, 2, 1].map((group) => {
       const pattern = codePointGroups[group]
-        .map(trie => ((group === 1) ? trie.toString() : `(?:${trie.toString()})`))
+        .map(trie => `(?:${trie.toString()})`)
         .join('');
 
       return (group === 1) ? pattern : `(?:${pattern})`;
     });
   })
   // Join the groups, escape the asterisk emoj, and write the file
-  .then((regex) => {
-    fs.writeFile(
+  .then((regex) => (
+    writeFile(
       path.join(__dirname, '../regex.js'),
-      'module.exports = \'' + regex.join('|').replace('*', '\\*') + '\';\n',
-      (error) => {
-        if (error) {
-          console.error(chalk.red('  regex.js failed to write'));
-        } else {
-          console.log(chalk.green('  regex.js created'));
-        }
-      }
-    );
+      regex.join('|').replace('*', '\\*'),
+      pattern => `module.exports = '(${pattern})';\n`,
+      false
+    )
+  ))
+  .then(() => {
+    console.log(chalk.green('Regex generated successfully'));
+  })
+  .catch((error) => {
+    console.log(chalk.red('Failed to generate regex pattern'));
+    console.log(chalk.gray(error.message));
   });
