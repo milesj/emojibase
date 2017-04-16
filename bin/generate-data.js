@@ -16,7 +16,6 @@ function createFilePath(name) {
 
 Promise.all([
   constants.EXPANDED,
-  constants.FULL,
   constants.STANDARD,
   constants.COMPACT,
 ].map((format) => {

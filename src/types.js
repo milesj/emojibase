@@ -4,4 +4,4 @@
  * @flow
  */
 
-export type Format = 'expanded' | 'full' | 'standard' | 'compact' | 'custom';
+export type Format = 'expanded' | 'standard' | 'compact' | 'custom';
