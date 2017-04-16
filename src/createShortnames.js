@@ -7,7 +7,5 @@
 import cleanName from './cleanName';
 
 export default function createShortnames(name: string): string[] {
-  return [
-    `:${cleanName(name).replace(/ /g, '_')}:`,
-  ];
+  return [cleanName(name).replace(/ /g, '_')];
 }

@@ -73,10 +73,12 @@ export default function packageData(beta: boolean = false): Object[] {
       const emojiOne = EMOJI_ONE[hexcode];
 
       extraEmoji.category = emojiOne.category;
+
+      // Remove colons for a smaller filesize
       extraEmoji.shortnames = [
         emojiOne.shortname,
         ...emojiOne.aliases,
-      ];
+      ].map(sn => sn.replace(/:/g, ''));
 
       if (emojiOne.keywords.length) {
         extraEmoji.keywords = emojiOne.keywords;

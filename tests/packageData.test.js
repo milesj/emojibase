@@ -43,7 +43,7 @@ describe('packageData()', () => {
     });
 
     it(`defines a default shortname at 0 index for ${emoji.unicode}`, () => {
-      expect(emoji.shortnames[0]).toMatch(/^:[a-z0-9-_]+:$/);
+      expect(emoji.shortnames[0]).toMatch(/^[a-z0-9-_]+$/);
     });
   });
 });

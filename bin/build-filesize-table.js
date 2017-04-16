@@ -2,12 +2,13 @@
 
 const fs = require('fs');
 const path = require('path');
+const glob = require('glob');
 const chalk = require('chalk');
 const gzip = require('gzip-size');
 const size = require('filesize');
 
 new Promise((resolve, reject) => {
-  fs.readdir(path.join(__dirname, '../data'), (error, files) => {
+  glob(path.join(__dirname, '../data/**/*.json'), (error, files) => {
     if (error) {
       reject(error);
     } else {
@@ -18,14 +19,14 @@ new Promise((resolve, reject) => {
   .then((files) => (
     Promise.all(files.map(file => (
       new Promise((resolve, reject) => {
-        fs.readFile(path.join(__dirname, `../data/${file}`), (error, data) => {
+        fs.readFile(file, (error, data) => {
           if (error) {
             reject(error);
             return;
           }
 
           resolve({
-            file,
+            file: path.basename(file),
             size: Buffer.byteLength(data),
             gzip: gzip.sync(data),
           });
