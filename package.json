@@ -4,6 +4,7 @@
   "description": "Evergreen emoji datasets and regex patterns.",
   "main": "index.js",
   "scripts": {
+    "clean": "rimraf ./lib",
     "build": "babel ./src -d ./lib",
     "lint": "eslint ./src ./tests",
     "flow": "flow check",
@@ -11,7 +12,8 @@
     "coverage": "yarn run jest -- --coverage",
     "pretest": "yarn run lint",
     "test": "yarn run jest",
-    "posttest": "yarn run flow"
+    "posttest": "yarn run flow",
+    "preversion": "yarn test && yarn run clean && yarn run build"
   },
   "repository": {
     "type": "git",
@@ -44,13 +46,14 @@
     "eslint-config-airbnb-base": "^11.1.3",
     "eslint-plugin-flowtype": "^2.30.4",
     "eslint-plugin-import": "^2.2.0",
-    "jest": "^19.0.2"
+    "jest": "^19.0.2",
+    "rimraf": "^2.6.1"
   },
   "dependencies": {
     "chalk": "^1.1.3",
     "emojione": "^2.2.7",
     "lodash": "^4.17.4",
-    "unicode-emoji-data": "^2.1.1",
-    "regenerate": "^1.3.2"
+    "regenerate": "^1.3.2",
+    "unicode-emoji-data": "^2.1.1"
   }
 }

@@ -23,7 +23,7 @@ Promise.all([
   console.log(`Generating data for ${format} format`);
 
   return Promise.resolve(packageData())
-    // Save file as array
+    // Save file as a list
     .then(data => (
       writeFile(
         createFilePath(`${format}-list.json`),
@@ -31,7 +31,7 @@ Promise.all([
         dump => mapSet(dump, format)
       )
     ))
-    // Save file as map
+    // Save file as a map
     .then(data => (
       writeFile(
         createFilePath(`${format}-map.json`),
