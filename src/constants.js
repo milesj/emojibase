@@ -4,8 +4,10 @@
  * @flow
  */
 
-export const EXPANDED: string = 'expanded';
-export const FULL: string = 'full';
-export const STANDARD: string = 'standard';
-export const COMPACT: string = 'compact';
-export const CUSTOM: string = 'custom';
+import type { Format } from './types';
+
+export const EXPANDED: Format = 'expanded';
+export const FULL: Format = 'full';
+export const STANDARD: Format = 'standard';
+export const COMPACT: Format = 'compact';
+export const CUSTOM: Format = 'custom';

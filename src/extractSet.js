@@ -4,22 +4,23 @@
  * @flow
  */
 
+import cloneDeep from 'lodash/cloneDeep';
 import pick from 'lodash/pick';
 import { EXPANDED, FULL, STANDARD, COMPACT, CUSTOM } from './constants';
 
-export default function extractSet(data: Object, format: string, fields: string[] = []): Object {
+import type { Format } from './types';
+
+export default function extractSet(data: Object, format: Format, fields: string[] = []): Object {
   const { name, hexcode, unicode, codepoint, shortnames, keywords, category } = data;
   const [shortname] = shortnames;
 
   switch (format) {
     default:
     case EXPANDED:
-      return {
-        ...data,
-      };
+      return cloneDeep(data);
 
     case FULL:
-      return {
+      return cloneDeep({
         name,
         hexcode,
         unicode,
@@ -27,23 +28,23 @@ export default function extractSet(data: Object, format: string, fields: string[
         shortnames,
         keywords,
         category,
-      };
+      });
 
     case STANDARD:
-      return {
+      return cloneDeep({
         name,
         hexcode,
         codepoint,
         shortname,
-      };
+      });
 
     case COMPACT:
-      return {
+      return cloneDeep({
         hexcode,
         shortname,
-      };
+      });
 
     case CUSTOM:
-      return pick(data, fields);
+      return cloneDeep(pick(data, fields));
   }
 }

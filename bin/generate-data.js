@@ -3,50 +3,55 @@
 const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
-const keyBy = require('lodash/keyBy');
 const packageData = require('../lib/packageData').default;
-const extractSet = require('../lib/extractSet').default;
+const writeFile = require('../lib/bin/writeFile').default;
+const mapSet = require('../lib/bin/mapSet').default;
+const mapSetIndexed = require('../lib/bin/mapSetIndexed').default;
+const mapSetGrouped = require('../lib/bin/mapSetGrouped').default;
 const constants = require('../lib/constants');
 
-function writeFile(filename, data) {
-  fs.writeFile(
-    path.join(__dirname, '../data/' + filename),
-    JSON.stringify(data),
-    (error) => {
-      if (error) {
-        console.error(chalk.red('  ' + filename + ' failed to write'));
-      } else {
-        console.log(chalk.green('  ' + filename + ' created'));
-      }
-    }
-  );
-
-  return data;
+function createFilePath(name) {
+  return path.join(__dirname, `../data/${name}`);
 }
 
-function getAndRemoveKey(keyName) {
-  return (data) => {
-    const key = data[keyName];
-
-    delete data[keyName];
-
-    return key;
-  };
-}
-
-[
+Promise.all([
   constants.EXPANDED,
   constants.FULL,
   constants.STANDARD,
   constants.COMPACT,
-].forEach((format) => {
-  console.log('Generating ' + format + ' datasets');
+].map((format) => {
+  console.log(`Generating data for ${format} format`);
 
-  Promise.resolve(packageData())
-    // Extract a set
-    .then(data => data.map(row => extractSet(row, format)))
+  return Promise.resolve(packageData())
     // Save file as array
-    .then(data => writeFile(format + '-list.json', data))
+    .then(data => (
+      writeFile(
+        createFilePath(`${format}-list.json`),
+        data,
+        dump => mapSet(dump, format)
+      )
+    ))
     // Save file as map
-    .then(data => writeFile(format + '-map.json', keyBy(data, getAndRemoveKey('hexcode'))));
-});
+    .then(data => (
+      writeFile(
+        createFilePath(`${format}-map.json`),
+        data,
+        dump => mapSetIndexed(dump, 'hexcode', format)
+      )
+    ))
+    // Save file by category
+    .then(data => (
+      writeFile(
+        createFilePath(`${format}-by-category.json`),
+        data,
+        dump => mapSetGrouped(dump, 'category', format)
+      )
+    ));
+}))
+  .then(() => {
+    console.log(chalk.green('Data dumps generated successfully'));
+  })
+  .catch((error) => {
+    console.log(chalk.red('Failed to generate data dumps'));
+    console.log(chalk.gray(error.message));
+  });

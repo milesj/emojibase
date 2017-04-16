@@ -98,7 +98,7 @@ export default function packageData(beta: boolean = false): Object[] {
     const remainingEmojiOnes = Object.values(EMOJI_ONE);
 
     if (remainingEmojiOnes.length) {
-      console.log(chalk.yellow('packageData(): Not all EmojiOne definitions have been used!'));
+      console.log(chalk.yellow('Not all EmojiOne definitions have been used!'));
 
       remainingEmojiOnes.forEach((emoji: *) => {
         // $FlowIgnore Object.values() is typed incorrectly
