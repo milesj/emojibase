@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf ./lib",
     "build": "babel ./src -d ./lib",
-    "lint": "eslint ./src ./tests",
+    "lint": "eslint ./bin ./src ./tests",
     "flow": "flow check",
     "jest": "NODE_ENV=test jest --config ./jest.json",
     "coverage": "yarn run jest -- --coverage",

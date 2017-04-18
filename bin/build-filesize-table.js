@@ -16,7 +16,7 @@ new Promise((resolve, reject) => {
     }
   });
 })
-  .then((files) => (
+  .then(files => (
     Promise.all(files.map(file => (
       new Promise((resolve, reject) => {
         fs.readFile(file, (error, data) => {

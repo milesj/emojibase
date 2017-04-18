@@ -1,6 +1,5 @@
 #! /usr/bin/env node
 
-const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
 const regenerate = require('regenerate');
@@ -36,17 +35,17 @@ Promise.resolve(packageData())
     return data;
   })
   // Generate the regex pattern groups
-  .then(() => {
-    return [4, 3, 2, 1].map((group) => {
+  .then(() => (
+    [4, 3, 2, 1].map((group) => {
       const pattern = codePointGroups[group]
         .map(trie => `(?:${trie.toString()})`)
         .join('');
 
       return (group === 1) ? pattern : `(?:${pattern})`;
-    });
-  })
+    })
+  ))
   // Join the groups, escape the asterisk emoj, and write the file
-  .then((regex) => (
+  .then(regex => (
     writeFile(
       path.join(__dirname, '../regex.js'),
       regex.join('|').replace('*', '\\*'),

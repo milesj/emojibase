@@ -1,6 +1,5 @@
 #! /usr/bin/env node
 
-const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
 const packageData = require('../lib/packageData').default;
@@ -15,10 +14,10 @@ function createFilePath(name) {
   return path.join(__dirname, `../data/${name}`);
 }
 
-function generateFormat(data, format) {
+function generateFormat(rawData, format) {
   console.log(`Generating data for ${format} format`);
 
-  return Promise.resolve(data)
+  return Promise.resolve(rawData)
     // Save file as a list
     .then(data => (
       writeFile(
@@ -45,38 +44,38 @@ function generateFormat(data, format) {
     ));
 }
 
-function generateExtra(data) {
+function generateExtra(rawData) {
   console.log('Generating extra data');
 
-  return Promise.resolve(data)
+  return Promise.resolve(rawData)
     // Save hexcodes
-    .then((data) => (
+    .then(data => (
       writeFile(
-        createFilePath(`extra/hexcodes.json`),
+        createFilePath('extra/hexcodes.json'),
         data,
         dump => dump.map(row => row.hexcode)
       )
     ))
     // Save shortnames
-    .then((data) => (
+    .then(data => (
       writeFile(
-        createFilePath(`extra/shortnames.json`),
+        createFilePath('extra/shortnames.json'),
         data,
         dump => dump.map(row => row.shortnames[0])
       )
     ))
     // Save unicodes
-    .then((data) => (
+    .then(data => (
       writeFile(
-        createFilePath(`extra/unicode.json`),
+        createFilePath('extra/unicode.json'),
         data,
         dump => dump.map(row => row.unicode)
       )
     ))
     // Save hexcode to shortname
-    .then((data) => (
+    .then(data => (
       writeFile(
-        createFilePath(`extra/hexcode-to-shortname.json`),
+        createFilePath('extra/hexcode-to-shortname.json'),
         data,
         dump => mapKeyToKey(dump, 'hexcode', 'shortname')
       )
