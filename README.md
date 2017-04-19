@@ -1,6 +1,8 @@
 # emoji-database
 
-Up to data emoji datasets and regex patterns.
+A collection of up-to-date, pre-generated, specification compliant, emoji datasets and
+regex patterns. Data is generated with [unicode-emoji-data][unicode-emoji-data] and
+[emojione][emojione] packages, for increased accuracy and customizability.
 
 ## Installation
 
@@ -29,3 +31,6 @@ yarn add emoji-database
 | data/expanded-by-category.json | 862.61 KB | 87.02 KB |
 | data/expanded-map.json | 886.73 KB | 86.93 KB |
 | data/expanded-list.json | 910.06 KB | 87.66 KB |
+
+[emojione]: https://github.com/Ranks/emojione
+[unicode-emoji-data]: https://github.com/dematerializer/unicode-emoji-data
