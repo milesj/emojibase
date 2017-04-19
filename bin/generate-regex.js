@@ -49,7 +49,7 @@ Promise.resolve(packageData())
     writeFile(
       path.join(__dirname, '../regex/index.js'),
       regex.join('|').replace('*', '\\*'),
-      pattern => `module.exports = '(${pattern})';\n`,
+      pattern => `module.exports = '${pattern}';\n`,
       false
     )
   ))
