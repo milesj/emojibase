@@ -8,7 +8,7 @@ const gzip = require('gzip-size');
 const size = require('filesize');
 
 new Promise((resolve, reject) => {
-  glob(path.join(__dirname, '../data/**/*.json'), (error, files) => {
+  glob(path.join(__dirname, '../{data,regex}/**/*.{js,json}'), (error, files) => {
     if (error) {
       reject(error);
     } else {
@@ -26,7 +26,7 @@ new Promise((resolve, reject) => {
           }
 
           resolve({
-            file: path.basename(file),
+            file: file.replace(`${process.cwd()}/`, ''),
             size: Buffer.byteLength(data),
             gzip: gzip.sync(data),
           });
@@ -35,7 +35,7 @@ new Promise((resolve, reject) => {
     )))
   ))
   .then((rows) => {
-    console.log('| Dump | Filesize | Gzipped |');
+    console.log('| File | Filesize | Gzipped |');
     console.log('| --- | --- | --- |');
 
     rows.sort((a, b) => a.size - b.size);

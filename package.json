@@ -2,7 +2,7 @@
   "name": "emoji-database",
   "version": "0.0.0",
   "description": "Evergreen emoji datasets and regex patterns.",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "clean": "rimraf ./lib",
     "build": "babel ./src -d ./lib",
