@@ -47,9 +47,18 @@ Promise.resolve(packageData())
   // Join the groups, escape the asterisk emoj, and write the file
   .then(regex => (
     writeFile(
-      path.join(__dirname, '../regex.js'),
+      path.join(__dirname, '../regex/index.js'),
       regex.join('|').replace('*', '\\*'),
       pattern => `module.exports = '(${pattern})';\n`,
+      false
+    )
+  ))
+  // Create a shortname regex also
+  .then(() => (
+    writeFile(
+      path.join(__dirname, '../regex/shortname.js'),
+      ':[-+\\\\w]+:',
+      pattern => `module.exports = '${pattern}';\n`,
       false
     )
   ))
