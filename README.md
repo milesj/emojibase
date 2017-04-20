@@ -1,4 +1,5 @@
 # emoji-database
+[![Build Status](https://travis-ci.org/milesj/emoji-database.svg?branch=master)](https://travis-ci.org/milesj/emoji-database)
 
 A collection of up-to-date, pre-generated, specification compliant, emoji datasets and
 regex patterns. Data is generated with [unicode-emoji-data][unicode-emoji-data] and
@@ -16,8 +17,8 @@ yarn add emoji-database
 
 | File | Filesize | Gzipped |
 | --- | --- | --- |
-| regex/shortname.js | 31 B | 51 B |
-| regex/index.js | 2.43 KB | 900 B |
+| regex/shortname.js | 30 B | 50 B |
+| regex/index.js | 5.39 KB | 1.34 KB |
 | data/extra/unicode.json | 25.87 KB | 6.18 KB |
 | data/extra/hexcodes.json | 28.63 KB | 5.86 KB |
 | data/extra/shortnames.json | 38.04 KB | 9.35 KB |

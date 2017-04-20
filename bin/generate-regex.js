@@ -2,17 +2,17 @@
 
 const path = require('path');
 const chalk = require('chalk');
-const regenerate = require('regenerate');
+const { Trie } = require('regexgen');
 const packageData = require('../lib/packageData').default;
 const writeFile = require('../lib/bin/writeFile').default;
 
-// If we separate each surrogate pair into a trie per code point,
+// If we separate each surrogate pair into a trie,
 // we can efficiently create nested groups and ranges.
 const codePointGroups = {
-  4: [regenerate(), regenerate(), regenerate(), regenerate()],
-  3: [regenerate(), regenerate(), regenerate()],
-  2: [regenerate(), regenerate()],
-  1: [regenerate()],
+  4: new Trie(),
+  3: new Trie(),
+  2: new Trie(),
+  1: new Trie(),
 };
 
 console.log('Generating regex pattern');
@@ -27,29 +27,21 @@ Promise.resolve(packageData())
         return;
       }
 
-      emoji.codepoint.forEach((codePoint, i) => {
-        codePointGroups[group][i].add(String.fromCodePoint(codePoint));
-      });
+      codePointGroups[group].add(emoji.unicode);
     });
 
     return data;
   })
   // Generate the regex pattern groups
   .then(() => (
-    [4, 3, 2, 1].map((group) => {
-      const pattern = codePointGroups[group]
-        .map(trie => `(?:${trie.toString()})`)
-        .join('');
-
-      return (group === 1) ? pattern : `(?:${pattern})`;
-    })
+    [4, 3, 2, 1].map(group => `(?:${codePointGroups[group].toRegExp().source})`).join('|')
   ))
   // Join the groups, escape the asterisk emoj, and write the file
   .then(regex => (
     writeFile(
       path.join(__dirname, '../regex/index.js'),
-      regex.join('|').replace('*', '\\*'),
-      pattern => `module.exports = '${pattern}';\n`,
+      regex,
+      pattern => `module.exports = /${pattern}/;\n`,
       false
     )
   ))
@@ -57,8 +49,8 @@ Promise.resolve(packageData())
   .then(() => (
     writeFile(
       path.join(__dirname, '../regex/shortname.js'),
-      ':[-+\\\\w]+:',
-      pattern => `module.exports = '${pattern}';\n`,
+      ':[-+\\w]+:',
+      pattern => `module.exports = /${pattern}/;\n`,
       false
     )
   ))
