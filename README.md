@@ -21,17 +21,17 @@ yarn add emoji-database
 | regex/index.js | 5.39 KB | 1.34 KB |
 | data/extra/unicode.json | 25.87 KB | 6.18 KB |
 | data/extra/hexcodes.json | 28.63 KB | 5.86 KB |
-| data/extra/shortnames.json | 38.04 KB | 9.35 KB |
-| data/extra/hexcode-to-shortname.json | 66.68 KB | 15.42 KB |
-| data/compact-map.json | 99.34 KB | 16.24 KB |
-| data/compact-list.json | 122.67 KB | 16.33 KB |
-| data/compact-by-category.json | 122.77 KB | 16.53 KB |
-| data/standard-map.json | 267.39 KB | 36.25 KB |
-| data/standard-list.json | 290.72 KB | 37.02 KB |
-| data/standard-by-category.json | 290.82 KB | 37.75 KB |
-| data/expanded-by-category.json | 862.61 KB | 87.02 KB |
-| data/expanded-map.json | 886.73 KB | 86.93 KB |
-| data/expanded-list.json | 910.06 KB | 87.66 KB |
+| data/extra/shortnames.json | 38.26 KB | 9.39 KB |
+| data/extra/hexcode-to-shortname.json | 66.89 KB | 15.37 KB |
+| data/compact-map.json | 99.55 KB | 16.21 KB |
+| data/compact-list.json | 122.88 KB | 16.34 KB |
+| data/compact-by-category.json | 122.97 KB | 16.27 KB |
+| data/standard-map.json | 267.61 KB | 36.19 KB |
+| data/standard-list.json | 290.94 KB | 36.97 KB |
+| data/standard-by-category.json | 291.03 KB | 37.33 KB |
+| data/expanded-by-category.json | 878.32 KB | 91.89 KB |
+| data/expanded-map.json | 902.13 KB | 92.35 KB |
+| data/expanded-list.json | 925.46 KB | 93.03 KB |
 
 [emojione]: https://github.com/Ranks/emojione
 [unicode-emoji-data]: https://github.com/dematerializer/unicode-emoji-data
