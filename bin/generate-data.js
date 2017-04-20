@@ -79,6 +79,14 @@ function generateExtra(rawData) {
         data,
         dump => mapKeyToKey(dump, 'hexcode', 'shortname')
       )
+    ))
+    // Save shortname to unicode
+    .then(data => (
+      writeFile(
+        createFilePath('extra/shortname-to-unicode.json'),
+        data,
+        dump => mapKeyToKey(dump, 'shortname', 'unicode')
+      )
     ));
 }
 

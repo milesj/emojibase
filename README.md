@@ -22,6 +22,7 @@ yarn add emoji-database
 | data/extra/unicode.json | 25.87 KB | 6.18 KB |
 | data/extra/hexcodes.json | 28.63 KB | 5.86 KB |
 | data/extra/shortnames.json | 38.26 KB | 9.39 KB |
+| data/extra/shortname-to-unicode.json | 64.13 KB | 15.68 KB |
 | data/extra/hexcode-to-shortname.json | 66.89 KB | 15.37 KB |
 | data/compact-map.json | 99.55 KB | 16.21 KB |
 | data/compact-list.json | 122.88 KB | 16.34 KB |
@@ -29,9 +30,9 @@ yarn add emoji-database
 | data/standard-map.json | 267.61 KB | 36.19 KB |
 | data/standard-list.json | 290.94 KB | 36.97 KB |
 | data/standard-by-category.json | 291.03 KB | 37.33 KB |
-| data/expanded-by-category.json | 878.32 KB | 91.89 KB |
-| data/expanded-map.json | 902.13 KB | 92.35 KB |
-| data/expanded-list.json | 925.46 KB | 93.03 KB |
+| data/expanded-by-category.json | 898.46 KB | 93.55 KB |
+| data/expanded-map.json | 922.27 KB | 93.91 KB |
+| data/expanded-list.json | 945.6 KB | 94.59 KB |
 
 [emojione]: https://github.com/Ranks/emojione
 [unicode-emoji-data]: https://github.com/dematerializer/unicode-emoji-data
