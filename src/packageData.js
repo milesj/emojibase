@@ -18,10 +18,8 @@ const BETA_EMOJI = expandEmojiData(emojiDataBeta);
 // Pre-poluate a mapping of hexcodes to EmojiOne
 const EMOJI_ONE = {};
 
-Object.keys(emojiOneData).forEach((key: string) => {
-  const emoji = emojiOneData[key];
-
-  EMOJI_ONE[emoji.unicode.toUpperCase()] = emoji;
+Object.keys(emojiOneData).forEach((hexcode: string) => {
+  EMOJI_ONE[hexcode.toUpperCase()] = emojiOneData[hexcode];
 });
 
 // Cache the results after packaging
@@ -71,17 +69,18 @@ export default function packageData(beta: boolean = false): Object[] {
     // Inherit values from EmojiOne if they exist
     if (EMOJI_ONE[hexcode]) {
       const emojiOne = EMOJI_ONE[hexcode];
+      const keywords = emojiOne.keywords.filter(kw => kw !== '');
 
       extraEmoji.category = emojiOne.category;
 
       // Remove colons for a smaller filesize
       extraEmoji.shortnames = [
         emojiOne.shortname,
-        ...emojiOne.aliases,
+        ...emojiOne.shortname_alternates,
       ].map(sn => sn.replace(/:/g, ''));
 
-      if (emojiOne.keywords.length) {
-        extraEmoji.keywords = emojiOne.keywords;
+      if (keywords.length) {
+        extraEmoji.keywords = keywords;
       }
 
       // Delete the reference so we can infer what's not been used
