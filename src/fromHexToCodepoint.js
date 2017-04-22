@@ -4,6 +4,6 @@
  * @flow
  */
 
-export default function fromHexfromHexToCodepoint(code: string): number[] {
+export default function fromHexToCodepoint(code: string): number[] {
   return code.split('-').map(point => parseInt(point, 16));
 }

@@ -11,7 +11,7 @@ import { EXPANDED, STANDARD, COMPACT, CUSTOM } from './constants';
 import type { Format } from './types';
 
 export default function extractSet(data: Object, format: Format, fields: string[] = []): Object {
-  const { name, hexcode, codepoint, shortnames } = data;
+  const { name, unicode, hexcode, codepoint, shortnames } = data;
   const [shortname] = shortnames;
 
   switch (format) {
@@ -22,6 +22,7 @@ export default function extractSet(data: Object, format: Format, fields: string[
     case STANDARD:
       return cloneDeep({
         name,
+        unicode,
         hexcode,
         codepoint,
         shortname,
@@ -29,6 +30,7 @@ export default function extractSet(data: Object, format: Format, fields: string[
 
     case COMPACT:
       return cloneDeep({
+        unicode,
         hexcode,
         shortname,
       });
