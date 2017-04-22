@@ -6,7 +6,7 @@
 
 import cleanName from './cleanName';
 
-const USED = {};
+const USED_SHORTNAMES = {};
 
 export default function createShortnames(name: string): string[] {
   const type = name.match(/TYPE-(\d)/);
@@ -26,11 +26,11 @@ export default function createShortnames(name: string): string[] {
   }
 
   // Check if the shortname has been used
-  if (USED[shortname]) {
-    USED[shortname] += 1;
-    shortname += USED[shortname];
+  if (USED_SHORTNAMES[shortname]) {
+    USED_SHORTNAMES[shortname] += 1;
+    shortname += USED_SHORTNAMES[shortname];
   } else {
-    USED[shortname] = 1;
+    USED_SHORTNAMES[shortname] = 1;
   }
 
   return [shortname];

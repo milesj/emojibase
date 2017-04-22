@@ -9,7 +9,7 @@ import { emojiDataStable, emojiDataBeta, expandEmojiData } from 'unicode-emoji-d
 import emojiOneData from 'emojione/emoji.json';
 import createKeywords from './createKeywords';
 import createShortnames from './createShortnames';
-import toCodepoint from './toCodepoint';
+import fromHexToCodepoint from './fromHexToCodepoint';
 
 // Pre-poluate unicode emoji data
 const EMOJI = expandEmojiData(emojiDataStable);
@@ -27,6 +27,9 @@ export const CACHE = {
   stable: [],
   beta: [],
 };
+
+const WS_REGEX = /\s/g;
+const JOINER_REGEX = /(-(200D|FE0F))/g;
 
 export default function packageData(beta: boolean = false): Object[] {
   const cacheKey = beta ? 'beta' : 'stable';
@@ -47,13 +50,13 @@ export default function packageData(beta: boolean = false): Object[] {
     }
 
     // Replace spaces with dashes to match EmojiOne
-    hexcodeZWJ = hexcodeZWJ.trim().replace(/\s/g, '-');
+    hexcodeZWJ = hexcodeZWJ.trim().replace(WS_REGEX, '-');
 
     // Create a literal unicode character using ZWJ based hexcodes
-    const unicode = String.fromCodePoint(...toCodepoint(hexcodeZWJ));
+    const unicode = String.fromCodePoint(...fromHexToCodepoint(hexcodeZWJ));
 
     // Create a hexcode without ZWJ and variation selectors
-    const hexcode = hexcodeZWJ.replace(/(-(200D|FE0F))/g, '');
+    const hexcode = hexcodeZWJ.replace(JOINER_REGEX, '');
 
     // Package our data
     const extraEmoji = {
@@ -61,7 +64,7 @@ export default function packageData(beta: boolean = false): Object[] {
       hexcodeZWJ,
       unicode,
       category: 'symbols',
-      codepoint: toCodepoint(hexcode),
+      codepoint: fromHexToCodepoint(hexcode),
       keywords: createKeywords(emoji.name),
       shortnames: createShortnames(emoji.name),
     };
