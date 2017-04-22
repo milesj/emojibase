@@ -23,8 +23,7 @@ import json from 'emoji-database/data/extra/shortname-to-unicode.json';
 const data = JSON.parse(json);
 ```
 
-> Imports will need to be parsed with JSON unless your build process handles it,
-> like with Webpack or Browserify.
+> Imports will need to be parsed with JSON unless your build process handles it.
 
 ## Documentation
 
@@ -54,11 +53,11 @@ import emoji from 'emoji-database/data/compact-list.json';
 For more specialized and granular use cases (like reduced filesizes),
 the following extra datasets are also available.
 
-* `data/extra/unicode.json` - A list of emoji unicode characters.
-* `data/extra/hexcodes.json` - A list of emoji hexadecimal characters.
+* `data/extra/unicode.json` - A list of emoji `unicode` characters.
+* `data/extra/hexcodes.json` - A list of emoji `hexcode` characters.
 * `data/extra/hexcode-to-shortname.json` - A map of `hexcode`s to `shortname`s.
 * `data/extra/shortnames.json` - A list of emoji shortnames.
-* `data/extra/shortname-to-unicode.json` - A map of `shortname`s to unicode characters.
+* `data/extra/shortname-to-unicode.json` - A map of `shortname`s to `unicode` characters.
 
 ```javascript
 import hexcodes from 'emoji-database/data/extra/hexcodes.json';
@@ -71,7 +70,7 @@ Emoji object's within a dataset are composed of the following properties.
 * `name` (string) - The name of the emoji character as described by the unicode spec.
 * `unicode` (string) - The literal unicode character.
 * `hexcode` (string) - The hexadecimal representation of the unicode character,
-  separated by dashes. Does not include ZWJ or variation selector characters.
+  separated by dashes. *Does not include ZWJ or variation selectors.*
 * `hexcodeZWJ` (string) - Like the previous, but includes ZWJ and variation selectors.
 * `codepoint` (number[]) - An array of codepoints parsed from the `hexcode` property.
 * `category` (string) - The category the emoji character is grouped under. Provided by
@@ -114,7 +113,7 @@ const EMOJI_SHORTNAME_REGEX = new RegExp(`^${EMOJI_REGEX.source}|${SHORTNAME_REG
 
 ### Filesizes
 
-The filesizes for all datasets and regex patterns can be found below, in ascending order.
+The filesizes of all datasets and regex patterns can be found below, in ascending order.
 
 | File | Filesize | Gzipped |
 | --- | --- | --- |
