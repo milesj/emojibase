@@ -2,7 +2,7 @@
   "presets": [
     "stage-2",
     ["env", {
-      "targets": { "node": 6.5 },
+      "targets": { "ie": 9 },
       "useBuiltIns": true
     }]
   ],
