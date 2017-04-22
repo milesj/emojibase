@@ -10,6 +10,8 @@
     "flow": "flow check",
     "jest": "NODE_ENV=test jest --config ./jest.json",
     "coverage": "yarn run jest -- --coverage",
+    "generate": "yarn run build && node ./bin/generate-data.js && node ./bin/generate-regex.js",
+    "generate:table": "node ./bin/build-filesize-table.js",
     "pretest": "yarn run lint",
     "test": "yarn run jest",
     "posttest": "yarn run flow",
