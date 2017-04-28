@@ -6,6 +6,6 @@
 
 import cleanName from './cleanName';
 
-export default function createKeywords(name: string): string[] {
+export default function createTags(name: string): string[] {
   return cleanName(name).split(' ');
 }

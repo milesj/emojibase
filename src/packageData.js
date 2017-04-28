@@ -7,7 +7,7 @@
 import chalk from 'chalk';
 import { emojiDataStable, emojiDataBeta, expandEmojiData } from 'unicode-emoji-data';
 import emojiOneData from 'emojione/emoji.json';
-import createKeywords from './createKeywords';
+import createTags from './createTags';
 import createShortnames from './createShortnames';
 import fromHexToCodepoint from './fromHexToCodepoint';
 
@@ -60,41 +60,43 @@ export default function packageData(beta: boolean = false): Object[] {
 
     // Package our data
     const extraEmoji = {
-      hexcode,
-      hexcodeZWJ,
       unicode,
+      hexcode,
+      hexcodeFull: hexcodeZWJ,
       category: 'symbols',
       codepoint: fromHexToCodepoint(hexcode),
-      keywords: createKeywords(emoji.name),
+      tags: createTags(emoji.name),
       shortnames: createShortnames(emoji.name),
+      order: null,
     };
 
     // Inherit values from EmojiOne if they exist
     if (EMOJI_ONE[hexcode]) {
       const emojiOne = EMOJI_ONE[hexcode];
-      const keywords = emojiOne.keywords.filter(kw => kw !== '');
 
       extraEmoji.category = emojiOne.category;
+      extraEmoji.order = emojiOne.order;
+
+      // Pull in tags and strip spaces
+      const tags = emojiOne.keywords
+        .filter(kw => kw !== '')
+        .map(kw => kw.replace(/ /g, '-'));
+
+      if (tags.length) {
+        extraEmoji.tags = tags;
+      }
 
       // Remove colons for a smaller filesize
-      extraEmoji.shortnames = [
-        emojiOne.shortname,
-        ...emojiOne.shortname_alternates,
-      ].map(sn => sn.replace(/:/g, ''));
-
-      if (keywords.length) {
-        extraEmoji.keywords = keywords;
-      }
+      extraEmoji.shortnames = [emojiOne.shortname]
+        .concat(emojiOne.shortname_alternates)
+        .map(sn => sn.replace(/:/g, ''));
 
       // Delete the reference so we can infer what's not been used
       delete EMOJI_ONE[hexcode];
     }
 
     // Cache the merged values
-    CACHE[cacheKey].push({
-      ...emoji,
-      ...extraEmoji,
-    });
+    CACHE[cacheKey].push(extraEmoji);
   });
 
   // Verify all of EmojiOne has been used

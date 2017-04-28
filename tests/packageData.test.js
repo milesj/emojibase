@@ -15,7 +15,7 @@ describe('packageData()', () => {
 
   packageData().forEach((emoji) => {
     it(`formats a hexcode with ZWJ for ${emoji.unicode}`, () => {
-      expect(emoji.hexcodeZWJ).toMatch(/^[A-F0-9]{1}[A-F0-9-]+[A-F0-9]{1}$/);
+      expect(emoji.hexcodeFull).toMatch(/^[A-F0-9]{1}[A-F0-9-]+[A-F0-9]{1}$/);
     });
 
     it(`formats a hexcode without ZWJ for ${emoji.unicode}`, () => {
@@ -34,8 +34,12 @@ describe('packageData()', () => {
       expect(emoji.category).not.toBe('');
     });
 
-    it(`defines keywords for ${emoji.unicode}`, () => {
-      expect(emoji.keywords.length).toBeGreaterThanOrEqual(1);
+    it(`defines an order for ${emoji.unicode}`, () => {
+      expect(emoji.order).toBeGreaterThanOrEqual(1);
+    });
+
+    it(`defines tags for ${emoji.unicode}`, () => {
+      expect(emoji.tags.length).toBeGreaterThanOrEqual(1);
     });
 
     it(`defines shortnames for ${emoji.unicode}`, () => {

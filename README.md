@@ -71,16 +71,15 @@ Emoji object's within a dataset are composed of the following properties.
 * `unicode` (string) - The literal unicode character.
 * `hexcode` (string) - The hexadecimal representation of the unicode character,
   separated by dashes. *Does not include ZWJ or variation selectors.*
-* `hexcodeZWJ` (string) - Like the previous, but includes ZWJ and variation selectors.
-* `codepoint` (number[]) - An array of codepoints parsed from the `hexcode` property.
-* `category` (string) - The category the emoji character is grouped under. Provided by
-  [EmojiOne][emojione].
-* `shortnames` (string[]) - Word representations of the emoji character. Provided by
-  [EmojiOne][emojione] or generated with `name`. *Does not include surrounding colons.*
-* `keywords` (string[]) - Keywords relevant to the emoji character. Provided by
-  [EmojiOne][emojione] or generated with `name`.
+* `hexcodeFull` (string) - Like the previous, but includes ZWJ and variation selectors.
+* `codepoint` (number[]) - An array of code points, parsed from the `hexcode` property.
 
-> A `shortname` property is also referenced, but is simply the zero-index value of `shortnames`.
+The following are provided by [EmojiOne][emojione] or automatically generated.
+
+* `order` (number) - The order the emoji character appears.
+* `category` (string) - The category the emoji character is grouped under.
+* `shortnames` (string[]) - Word representations of the emoji character. *Does not include surrounding colons.*
+* `tags` (string[]) - Tags relevant to the emoji character.
 
 #### Formats
 
@@ -88,8 +87,7 @@ Datasets are grouped into 3 different formats, with each composed of a subset of
 
 * `compact` - Includes the `unicode`, `hexcode`, and `shortname` properties.
 * `standard` - Includes the `unicode`, `hexcode`, `shortname`, `codepoint`, and `name` properties.
-* `expanded` - Includes all properties mentioned above, as well as properties from
-  [unicode-emoji-data][unicode-emoji-data].
+* `expanded` - Includes all properties mentioned above.
 
 ### Regex Patterns
 
@@ -126,13 +124,13 @@ The filesizes of all datasets and regex patterns can be found below, in ascendin
 | data/extra/hexcode-to-shortname.json | 66.89 KB | 15.37 KB |
 | data/compact-map.json | 148.76 KB | 23.97 KB |
 | data/compact-list.json | 172.09 KB | 23.91 KB |
-| data/compact-by-category.json | 172.17 KB | 23.86 KB |
-| data/standard-map.json | 316.81 KB | 44.55 KB |
-| data/standard-list.json | 340.14 KB | 45.32 KB |
-| data/standard-by-category.json | 340.23 KB | 45.47 KB |
-| data/expanded-by-category.json | 898.46 KB | 93.55 KB |
-| data/expanded-map.json | 922.27 KB | 93.91 KB |
-| data/expanded-list.json | 945.6 KB | 94.59 KB |
+| data/compact-by-category.json | 172.19 KB | 23.87 KB |
+| data/standard-map.json | 208.87 KB | 30.23 KB |
+| data/standard-list.json | 232.2 KB | 30.54 KB |
+| data/standard-by-category.json | 232.3 KB | 31.11 KB |
+| data/expanded-by-category.json | 460.26 KB | 65.07 KB |
+| data/expanded-map.json | 484.07 KB | 65.45 KB |
+| data/expanded-list.json | 507.4 KB | 65.76 KB |
 
 [emojione]: https://github.com/Ranks/emojione
 [unicode-emoji-data]: https://github.com/dematerializer/unicode-emoji-data
