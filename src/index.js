@@ -6,6 +6,8 @@
 
 import packageData from './packageData';
 import extractSet from './extractSet';
+import extractGender from './extractGender';
+import extractSkinTone from './extractSkinTone';
 import fromHexToCodepoint from './fromHexToCodepoint';
 import fromUnicodeToHex from './fromUnicodeToHex';
 import { EXPANDED, STANDARD, COMPACT, CUSTOM } from './constants';
@@ -18,6 +20,8 @@ if (process.env.NODE_ENV !== 'development') {
 export {
   packageData,
   extractSet,
+  extractGender,
+  extractSkinTone,
   fromHexToCodepoint,
   fromUnicodeToHex,
   EXPANDED,
