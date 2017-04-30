@@ -71,15 +71,22 @@ Emoji object's within a dataset are composed of the following properties.
 * `unicode` (string) - The literal unicode character.
 * `hexcode` (string) - The hexadecimal representation of the unicode character,
   separated by dashes. *Does not include ZWJ or variation selectors.*
-* `hexcodeFull` (string) - Like the previous, but includes ZWJ and variation selectors.
 * `codepoint` (number[]) - An array of code points, parsed from the `hexcode` property.
+* `display` (number) - The default presentation of the emoji character, 1 for emoji, 0 for text.
+* `skin` (number) - If applicable, the skin tone, between 1 and 5.
+  *Only exists for emojis that support skin tones.*
+* `gender` (string) - If applicable, the gender of the emoji, either "male" or "female".
+  *Only exists for emojis that support genders.*
 
 The following are provided by [EmojiOne][emojione] or automatically generated.
 
-* `order` (number) - The order the emoji character appears.
+* `order` (number) - The sort order of all emoji characters.
 * `category` (string) - The category the emoji character is grouped under.
-* `shortnames` (string[]) - Word representations of the emoji character. *Does not include surrounding colons.*
+* `shortnames` (string[]) - Short word representations of the emoji character.
+  *Does not include surrounding colons.*
 * `tags` (string[]) - Tags relevant to the emoji character.
+
+> Properties with null values are omitted from the generated dataset.
 
 #### Formats
 

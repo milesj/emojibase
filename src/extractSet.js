@@ -4,11 +4,15 @@
  * @flow
  */
 
-import cloneDeep from 'lodash/cloneDeep';
 import pick from 'lodash/pick';
+import pickBy from 'lodash/pickBy';
 import { EXPANDED, STANDARD, COMPACT, CUSTOM } from './constants';
 
 import type { Format } from './types';
+
+function isDefined(value: *): boolean {
+  return (value !== null && typeof value !== 'undefined');
+}
 
 export default function extractSet(data: Object, format: Format, fields: string[] = []): Object {
   const { name, unicode, hexcode, codepoint, shortnames } = data;
@@ -17,25 +21,25 @@ export default function extractSet(data: Object, format: Format, fields: string[
   switch (format) {
     default:
     case EXPANDED:
-      return cloneDeep(data);
+      return pickBy(data, isDefined);
 
     case STANDARD:
-      return cloneDeep({
+      return pickBy({
         name,
         unicode,
         hexcode,
         codepoint,
         shortname,
-      });
+      }, isDefined);
 
     case COMPACT:
-      return cloneDeep({
+      return pickBy({
         unicode,
         hexcode,
         shortname,
-      });
+      }, isDefined);
 
     case CUSTOM:
-      return cloneDeep(pick(data, fields));
+      return pick(data, fields);
   }
 }

@@ -5,11 +5,11 @@
  */
 
 import cleanName from './cleanName';
+import extractSkinTone from './extractSkinTone';
 
 const USED_SHORTNAMES = {};
 
 export default function createShortnames(name: string): string[] {
-  const type = name.match(/TYPE-(\d)/);
   let shortname = cleanName(name).replace(/\s/g, '_');
 
   // Currently doesnt have a shortname defined
@@ -18,11 +18,10 @@ export default function createShortnames(name: string): string[] {
   }
 
   // Add skin tone and match EmojiOne format
-  if (type) {
-    const tone = parseFloat(type[1]);
+  const skinTone = extractSkinTone(name);
 
-    // EmojiOne data is 1, 2, 3, 4, 5, while unicode data is 1-2, 3, 4, 5, 6
-    shortname += `_tone${(tone > 1) ? (tone - 1) : tone}`;
+  if (skinTone) {
+    shortname += `_tone${skinTone}`;
   }
 
   // Check if the shortname has been used

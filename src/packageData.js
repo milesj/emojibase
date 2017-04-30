@@ -5,10 +5,13 @@
  */
 
 import chalk from 'chalk';
+import { remove as removeDiacritics } from 'diacritics';
 import { emojiDataStable, emojiDataBeta, expandEmojiData } from 'unicode-emoji-data';
 import emojiOneData from 'emojione/emoji.json';
 import createTags from './createTags';
 import createShortnames from './createShortnames';
+import extractGender from './extractGender';
+import extractSkinTone from './extractSkinTone';
 import fromHexToCodepoint from './fromHexToCodepoint';
 
 // Pre-poluate unicode emoji data
@@ -49,6 +52,8 @@ export default function packageData(beta: boolean = false): Object[] {
       return;
     }
 
+    const { name, defaultPresentation } = emoji;
+
     // Replace spaces with dashes to match EmojiOne
     hexcodeZWJ = hexcodeZWJ.trim().replace(WS_REGEX, '-');
 
@@ -60,14 +65,17 @@ export default function packageData(beta: boolean = false): Object[] {
 
     // Package our data
     const extraEmoji = {
-      unicode,
-      hexcode,
-      hexcodeFull: hexcodeZWJ,
       category: 'symbols',
       codepoint: fromHexToCodepoint(hexcode),
-      tags: createTags(emoji.name),
-      shortnames: createShortnames(emoji.name),
+      display: (defaultPresentation === 'emoji') ? 1 : 0,
+      gender: extractGender(name),
+      hexcode,
+      name,
       order: null,
+      skin: extractSkinTone(name),
+      shortnames: createShortnames(name),
+      tags: createTags(name),
+      unicode,
     };
 
     // Inherit values from EmojiOne if they exist
@@ -80,7 +88,7 @@ export default function packageData(beta: boolean = false): Object[] {
       // Pull in tags and strip spaces
       const tags = emojiOne.keywords
         .filter(kw => kw !== '')
-        .map(kw => kw.replace(/ /g, '-'));
+        .map(kw => removeDiacritics(kw).replace(/ /g, '-').replace(/\.|“|”|’/g, ''));
 
       if (tags.length) {
         extraEmoji.tags = tags;

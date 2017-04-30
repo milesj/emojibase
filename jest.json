@@ -5,5 +5,6 @@
   "resetMocks": false,
   "resetModules": false,
   "roots": ["./src", "./tests"],
+  "setupTestFrameworkScriptFile": "./tests/setup.js",
   "verbose": false
 }
