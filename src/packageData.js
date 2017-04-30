@@ -107,6 +107,9 @@ export default function packageData(beta: boolean = false): Object[] {
     CACHE[cacheKey].push(extraEmoji);
   });
 
+  // Sort by order
+  CACHE[cacheKey].sort((a, b) => a.order - b.order);
+
   // Verify all of EmojiOne has been used
   if (process.env.NODE_ENV === 'development') {
     const remainingEmojiOnes = Object.values(EMOJI_ONE);

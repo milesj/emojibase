@@ -123,21 +123,21 @@ The filesizes of all datasets and regex patterns can be found below, in ascendin
 | File | Filesize | Gzipped |
 | --- | --- | --- |
 | regex/shortname.js | 30 B | 50 B |
-| regex/index.js | 5.39 KB | 1.34 KB |
-| data/extra/unicode.json | 25.87 KB | 6.18 KB |
-| data/extra/hexcodes.json | 28.63 KB | 5.86 KB |
-| data/extra/shortnames.json | 38.26 KB | 9.39 KB |
-| data/extra/shortname-to-unicode.json | 64.13 KB | 15.68 KB |
-| data/extra/hexcode-to-shortname.json | 66.89 KB | 15.37 KB |
-| data/compact-map.json | 148.76 KB | 23.97 KB |
-| data/compact-list.json | 172.09 KB | 23.91 KB |
-| data/compact-by-category.json | 172.19 KB | 23.87 KB |
-| data/standard-map.json | 208.87 KB | 30.23 KB |
-| data/standard-list.json | 232.2 KB | 30.54 KB |
-| data/standard-by-category.json | 232.3 KB | 31.11 KB |
-| data/expanded-by-category.json | 460.26 KB | 65.07 KB |
-| data/expanded-map.json | 484.07 KB | 65.45 KB |
-| data/expanded-list.json | 507.4 KB | 65.76 KB |
+| regex/index.js | 5.42 KB | 1.34 KB |
+| data/extra/unicode.json | 25.87 KB | 6.21 KB |
+| data/extra/hexcodes.json | 28.63 KB | 5.85 KB |
+| data/extra/shortnames.json | 38.26 KB | 9.16 KB |
+| data/extra/shortname-to-unicode.json | 64.13 KB | 15.48 KB |
+| data/extra/hexcode-to-shortname.json | 66.89 KB | 15.54 KB |
+| data/compact-map.json | 148.76 KB | 24.09 KB |
+| data/compact-list.json | 172.09 KB | 24.03 KB |
+| data/compact-by-category.json | 172.19 KB | 24.09 KB |
+| data/standard-map.json | 316.81 KB | 45.09 KB |
+| data/standard-list.json | 340.14 KB | 45.6 KB |
+| data/standard-by-category.json | 340.24 KB | 45.6 KB |
+| data/expanded-by-category.json | 543.74 KB | 73.07 KB |
+| data/expanded-map.json | 567.55 KB | 74.4 KB |
+| data/expanded-list.json | 590.88 KB | 74.11 KB |
 
 [emojione]: https://github.com/Ranks/emojione
 [unicode-emoji-data]: https://github.com/dematerializer/unicode-emoji-data
