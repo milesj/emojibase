@@ -21,7 +21,7 @@ function generateFormat(rawData, format) {
     // Save file as a list
     .then(data => (
       writeFile(
-        createFilePath(`${format}-list.json`),
+        createFilePath(`${format}/list.json`),
         data,
         dump => mapSet(dump, format)
       )
@@ -29,7 +29,7 @@ function generateFormat(rawData, format) {
     // Save file as a map
     .then(data => (
       writeFile(
-        createFilePath(`${format}-map.json`),
+        createFilePath(`${format}/map.json`),
         data,
         dump => mapSetIndexed(dump, 'hexcode', format)
       )
@@ -37,7 +37,7 @@ function generateFormat(rawData, format) {
     // Save file by category
     .then(data => (
       writeFile(
-        createFilePath(`${format}-by-category.json`),
+        createFilePath(`${format}/by-category.json`),
         data,
         dump => mapSetGrouped(dump, 'category', format)
       )

@@ -39,15 +39,15 @@ Emoji's are generated into files called datasets. Each file is customized to pro
 a subset of data in a specific format. This provides multiple options, so choose the best dataset
 for your application.
 
-* `data/<format>-list.json` - A list of emoji objects in the specified format.
-* `data/<format>-map.json` - A map of `hexcode`s to emoji objects in the specified format.
-* `data/<format>-by-category.json` - A list of emoji objects in the specified format, grouped by
+* `data/<format>/list.json` - A list of emoji objects in the specified format.
+* `data/<format>/map.json` - A map of `hexcode`s to emoji objects in the specified format.
+* `data/<format>/by-category.json` - A list of emoji objects in the specified format, grouped by
   their `category`.
 
 > Replace `<format>` with the format of your choosing.
 
 ```javascript
-import emoji from 'emoji-database/data/compact-list.json';
+import emoji from 'emoji-database/data/compact/list.json';
 ```
 
 For more specialized and granular use cases (like reduced filesizes),
@@ -129,15 +129,15 @@ The filesizes of all datasets and regex patterns can be found below, in ascendin
 | data/extra/shortnames.json | 38.26 KB | 9.16 KB |
 | data/extra/shortname-to-unicode.json | 64.13 KB | 15.48 KB |
 | data/extra/hexcode-to-shortname.json | 66.89 KB | 15.54 KB |
-| data/compact-map.json | 148.76 KB | 24.09 KB |
-| data/compact-list.json | 172.09 KB | 24.03 KB |
-| data/compact-by-category.json | 172.19 KB | 24.09 KB |
-| data/standard-map.json | 316.81 KB | 45.09 KB |
-| data/standard-list.json | 340.14 KB | 45.6 KB |
-| data/standard-by-category.json | 340.24 KB | 45.6 KB |
-| data/expanded-by-category.json | 543.74 KB | 73.07 KB |
-| data/expanded-map.json | 567.55 KB | 74.4 KB |
-| data/expanded-list.json | 590.88 KB | 74.11 KB |
+| data/compact/map.json | 148.76 KB | 24.09 KB |
+| data/compact/list.json | 172.09 KB | 24.03 KB |
+| data/compact/by-category.json | 172.19 KB | 24.09 KB |
+| data/standard/map.json | 316.81 KB | 45.09 KB |
+| data/standard/list.json | 340.14 KB | 45.6 KB |
+| data/standard/by-category.json | 340.24 KB | 45.6 KB |
+| data/expanded/by-category.json | 543.74 KB | 73.07 KB |
+| data/expanded/map.json | 567.55 KB | 74.4 KB |
+| data/expanded/list.json | 590.88 KB | 74.11 KB |
 
 [emojione]: https://github.com/Ranks/emojione
 [unicode-emoji-data]: https://github.com/dematerializer/unicode-emoji-data
