@@ -13,6 +13,7 @@ import createShortnames from './createShortnames';
 import extractGender from './extractGender';
 import extractSkinTone from './extractSkinTone';
 import fromHexToCodepoint from './fromHexToCodepoint';
+import { SEQUENCE_REMOVAL_PATTERN } from './constants';
 
 // Pre-poluate unicode emoji data
 const EMOJI = expandEmojiData(emojiDataStable);
@@ -31,8 +32,7 @@ export const CACHE = {
   beta: [],
 };
 
-const WS_REGEX = /\s/g;
-const JOINER_REGEX = /(-(200D|FE0F))/g;
+const WS_PATTERN = /\s+/g;
 
 export default function packageData(beta: boolean = false): Object[] {
   const cacheKey = beta ? 'beta' : 'stable';
@@ -42,8 +42,8 @@ export default function packageData(beta: boolean = false): Object[] {
   }
 
   (beta ? BETA_EMOJI : EMOJI).forEach((emoji: Object) => {
-    // Includes ZWJ (zero width joiner) and variation selectors
-    let hexcodeZWJ = (emoji.presentation && emoji.presentation.default)
+    // Includes zero width joiner (ZWJ) and variation selectors
+    const hexcodeZWJ = (emoji.presentation && emoji.presentation.default)
       ? emoji.presentation.default
       : emoji.codepoint;
 
@@ -54,18 +54,20 @@ export default function packageData(beta: boolean = false): Object[] {
 
     const { name, defaultPresentation } = emoji;
 
-    // Replace spaces with dashes to match EmojiOne
-    hexcodeZWJ = hexcodeZWJ.trim().replace(WS_REGEX, '-');
+    // Create a unicode character using ZWJ based hexcodes
+    const unicode = String.fromCodePoint(...fromHexToCodepoint(
+      hexcodeZWJ.replace(WS_PATTERN, '-'),
+    ));
 
-    // Create a literal unicode character using ZWJ based hexcodes
-    const unicode = String.fromCodePoint(...fromHexToCodepoint(hexcodeZWJ));
-
-    // Create a hexcode without ZWJ and variation selectors
-    const hexcode = hexcodeZWJ.replace(JOINER_REGEX, '');
+    // Create a hexcode without sequences
+    const hexcode = hexcodeZWJ
+      .replace(SEQUENCE_REMOVAL_PATTERN, '')
+      .trim()
+      .replace(WS_PATTERN, '-');
 
     // Package our data
     const extraEmoji = {
-      category: 'symbols',
+      category: 'other',
       codepoint: fromHexToCodepoint(hexcode),
       display: (defaultPresentation === 'emoji') ? 1 : 0,
       gender: extractGender(name),

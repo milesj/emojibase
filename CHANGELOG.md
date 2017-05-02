@@ -1,3 +1,7 @@
+# 0.3.0
+* Updated default category to `other`.
+* Added new regex pattern constants.
+
 # 0.2.0
 * Moved format datasets into folders.
 * Updated expanded format to no longer merge with `unicode-emoji-data`.

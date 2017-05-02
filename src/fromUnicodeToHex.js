@@ -6,15 +6,15 @@
 
 /* eslint-disable no-restricted-syntax */
 
-const JOINER_REGEX = /^200D|FE0F$/;
+import { SEQUENCE_REMOVAL_PATTERN } from './constants';
 
-export default function fromUnicodeToHex(unicode: string, stripJoiners: boolean = true): string {
+export default function fromUnicodeToHex(unicode: string, strip: boolean = true): string {
   const hexcode = [];
 
   for (const codepoint of unicode) {
     const hex = codepoint.codePointAt(0).toString(16).toUpperCase();
 
-    if (!stripJoiners || (stripJoiners && !hex.match(JOINER_REGEX))) {
+    if (!strip || (strip && !hex.match(SEQUENCE_REMOVAL_PATTERN))) {
       hexcode.push(hex.padStart(4, '0'));
     }
   }
