@@ -37,19 +37,19 @@
   },
   "homepage": "https://github.com/milesj/emoji-database#readme",
   "dependencies": {
-    "babel-runtime": "^6.23.0"
+    "babel-runtime": "^6.23.0",
+    "diacritics": "^1.3.0",
+    "emojione": "^3.0.3",
+    "lodash": "^4.17.4",
+    "unicode-emoji-data": "^3.0.0"
   },
   "devDependencies": {
     "@milesj/build-tool-config": "^0.1.1",
     "chalk": "^1.1.3",
-    "diacritics": "^1.3.0",
-    "emojione": "^3.0.3",
     "filesize": "^3.5.9",
     "glob": "^7.1.1",
     "gzip-size": "^3.0.0",
-    "lodash": "^4.17.4",
-    "regexgen": "^1.2.3",
-    "unicode-emoji-data": "^3.0.0"
+    "regexgen": "^1.2.3"
   },
   "babel": {
     "extends": "./node_modules/@milesj/build-tool-config/babel.json5"

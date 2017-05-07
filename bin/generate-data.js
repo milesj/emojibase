@@ -92,6 +92,20 @@ function generateExtra(rawData) {
 
 const data = packageData();
 
+// Verify all of EmojiOne has been used
+// if (process.env.NODE_ENV === 'development') {
+//   const remainingEmojiOnes = Object.values(EMOJI_ONE);
+//
+//   if (remainingEmojiOnes.length) {
+//     console.log(chalk.yellow('Not all EmojiOne definitions have been used!'));
+//
+//     remainingEmojiOnes.forEach((emoji: *) => {
+//       // $FlowIgnore Object.values() is typed incorrectly
+//       console.log(chalk.gray(`  ${emoji.name}`));
+//     });
+//   }
+// }
+
 Promise.all([
   generateFormat(data, constants.EXPANDED),
   generateFormat(data, constants.STANDARD),

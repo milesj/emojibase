@@ -4,7 +4,6 @@
  * @flow
  */
 
-import chalk from 'chalk';
 import { remove as removeDiacritics } from 'diacritics';
 import { emojiData, expandEmojiData } from 'unicode-emoji-data';
 import emojiOneData from 'emojione/emoji.json';
@@ -15,11 +14,13 @@ import extractSkinTone from './extractSkinTone';
 import fromHexToCodepoint from './fromHexToCodepoint';
 import { SEQUENCE_REMOVAL_PATTERN } from './constants';
 
+const WS_PATTERN = /\s+/g;
+
 // Pre-poluate unicode emoji data
-const EMOJI = expandEmojiData(emojiData);
+export const EMOJI = expandEmojiData(emojiData);
 
 // Pre-poluate a mapping of hexcodes to EmojiOne
-const EMOJI_ONE = {};
+export const EMOJI_ONE = {};
 
 Object.keys(emojiOneData).forEach((hexcode: string) => {
   EMOJI_ONE[hexcode.toUpperCase()] = emojiOneData[hexcode];
@@ -27,8 +28,6 @@ Object.keys(emojiOneData).forEach((hexcode: string) => {
 
 // Cache the results after packaging
 export const CACHE = [];
-
-const WS_PATTERN = /\s+/g;
 
 export default function packageData(): Object[] {
   if (CACHE.length) {
@@ -105,20 +104,6 @@ export default function packageData(): Object[] {
 
   // Sort by order
   CACHE.sort((a, b) => a.order - b.order);
-
-  // Verify all of EmojiOne has been used
-  if (process.env.NODE_ENV === 'development') {
-    const remainingEmojiOnes = Object.values(EMOJI_ONE);
-
-    if (remainingEmojiOnes.length) {
-      console.log(chalk.yellow('Not all EmojiOne definitions have been used!'));
-
-      remainingEmojiOnes.forEach((emoji: *) => {
-        // $FlowIgnore Object.values() is typed incorrectly
-        console.log(chalk.gray(`  ${emoji.name}`));
-      });
-    }
-  }
 
   return CACHE;
 }
