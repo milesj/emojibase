@@ -2,16 +2,10 @@ import packageData, { CACHE } from '../src/packageData';
 import { SEQUENCE_REMOVAL_PATTERN } from '../src/constants';
 
 describe('packageData()', () => {
-  it('caches stable data', () => {
+  it('caches data', () => {
     const data = packageData();
 
-    expect(CACHE.stable.length).toBe(data.length);
-  });
-
-  it('caches beta data', () => {
-    const data = packageData(true);
-
-    expect(CACHE.beta.length).toBe(data.length);
+    expect(CACHE.length).toBe(data.length);
   });
 
   packageData().forEach((emoji) => {

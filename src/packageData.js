@@ -6,7 +6,7 @@
 
 import chalk from 'chalk';
 import { remove as removeDiacritics } from 'diacritics';
-import { emojiDataStable, emojiDataBeta, expandEmojiData } from 'unicode-emoji-data';
+import { emojiData, expandEmojiData } from 'unicode-emoji-data';
 import emojiOneData from 'emojione/emoji.json';
 import createTags from './createTags';
 import createShortnames from './createShortnames';
@@ -16,8 +16,7 @@ import fromHexToCodepoint from './fromHexToCodepoint';
 import { SEQUENCE_REMOVAL_PATTERN } from './constants';
 
 // Pre-poluate unicode emoji data
-const EMOJI = expandEmojiData(emojiDataStable);
-const BETA_EMOJI = expandEmojiData(emojiDataBeta);
+const EMOJI = expandEmojiData(emojiData);
 
 // Pre-poluate a mapping of hexcodes to EmojiOne
 const EMOJI_ONE = {};
@@ -27,21 +26,16 @@ Object.keys(emojiOneData).forEach((hexcode: string) => {
 });
 
 // Cache the results after packaging
-export const CACHE = {
-  stable: [],
-  beta: [],
-};
+export const CACHE = [];
 
 const WS_PATTERN = /\s+/g;
 
-export default function packageData(beta: boolean = false): Object[] {
-  const cacheKey = beta ? 'beta' : 'stable';
-
-  if (CACHE[cacheKey].length) {
-    return CACHE[cacheKey];
+export default function packageData(): Object[] {
+  if (CACHE.length) {
+    return CACHE;
   }
 
-  (beta ? BETA_EMOJI : EMOJI).forEach((emoji: Object) => {
+  EMOJI.forEach((emoji: Object) => {
     // Includes zero width joiner (ZWJ) and variation selectors
     const hexcodeZWJ = (emoji.presentation && emoji.presentation.default)
       ? emoji.presentation.default
@@ -106,11 +100,11 @@ export default function packageData(beta: boolean = false): Object[] {
     }
 
     // Cache the merged values
-    CACHE[cacheKey].push(extraEmoji);
+    CACHE.push(extraEmoji);
   });
 
   // Sort by order
-  CACHE[cacheKey].sort((a, b) => a.order - b.order);
+  CACHE.sort((a, b) => a.order - b.order);
 
   // Verify all of EmojiOne has been used
   if (process.env.NODE_ENV === 'development') {
@@ -126,5 +120,5 @@ export default function packageData(beta: boolean = false): Object[] {
     }
   }
 
-  return CACHE[cacheKey];
+  return CACHE;
 }
