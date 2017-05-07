@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/milesj/emoji-database#readme",
   "devDependencies": {
-    "@milesj/build-tool-config": "^0.0.7",
+    "@milesj/build-tool-config": "^0.1.0",
     "chalk": "^1.1.3",
     "diacritics": "^1.3.0",
     "emojione": "^3.0.3",
@@ -50,5 +50,11 @@
   },
   "babel": {
     "extends": "./node_modules/@milesj/build-tool-config/babel.json5"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/@milesj/build-tool-config/eslint.json5"
+  },
+  "jest": {
+    "preset": "@milesj/build-tool-config"
   }
 }
