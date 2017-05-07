@@ -22,6 +22,7 @@ new Promise((resolve, reject) => {
         fs.readFile(file, (error, data) => {
           if (error) {
             reject(error);
+
             return;
           }
 

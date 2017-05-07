@@ -1,5 +1,4 @@
 declare module 'unicode-emoji-data' {
-  declare export var emojiDataBeta: Object[];
-  declare export var emojiDataStable: Object[];
+  declare export var emojiData: Object[];
   declare export function expandEmojiData(data: Object[]): Object[];
 }

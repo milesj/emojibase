@@ -1,4 +1,5 @@
 #! /usr/bin/env node
+/* eslint-disable no-magic-numbers */
 
 const path = require('path');
 const chalk = require('chalk');
