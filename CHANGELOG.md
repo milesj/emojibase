@@ -1,3 +1,9 @@
+# 0.4.0
+* Updated `unicode-emoji-data` to 3.0.0.
+* Updated to include src/ files in the published package.
+* Moved bin/ files to the src/ folder.
+* Removed beta support from `packageData`.
+
 # 0.3.0
 * Updated default category to `other`.
 * Added new regex pattern constants.
