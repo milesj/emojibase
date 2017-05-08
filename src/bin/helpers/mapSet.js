@@ -4,9 +4,9 @@
  * @flow
  */
 
-import extractSet from '../extractSet';
+import extractSet from '../../extractSet';
 
-import type { Format } from '../types';
+import type { Format } from '../../types';
 
 export default function mapSet(data: Object[], format: Format): Object[] {
   return data.map(row => extractSet(row, format));

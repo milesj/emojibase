@@ -1,11 +1,15 @@
 #! /usr/bin/env node
+/**
+ * @copyright   2017, Miles Johnson
+ * @license     https://opensource.org/licenses/MIT
+ */
 /* eslint-disable no-magic-numbers */
 
-const path = require('path');
-const chalk = require('chalk');
-const { Trie } = require('regexgen');
-const packageData = require('../lib/packageData').default;
-const writeFile = require('../lib/bin/writeFile').default;
+import path from 'path';
+import chalk from 'chalk';
+import { Trie } from 'regexgen';
+import packageData from '../packageData';
+import writeFile from './helpers/writeFile';
 
 // If we separate each surrogate pair into a trie,
 // we can efficiently create nested groups and ranges.
@@ -40,19 +44,19 @@ Promise.resolve(packageData())
   // Join the groups, escape the asterisk emoj, and write the file
   .then(regex => (
     writeFile(
-      path.join(__dirname, '../regex/index.js'),
+      path.join(__dirname, '../../regex/index.js'),
       regex,
       pattern => `module.exports = /${pattern}/;\n`,
-      false
+      false,
     )
   ))
   // Create a shortname regex also
   .then(() => (
     writeFile(
-      path.join(__dirname, '../regex/shortname.js'),
+      path.join(__dirname, '../../regex/shortname.js'),
       ':[-+\\w]+:',
       pattern => `module.exports = /${pattern}/;\n`,
-      false
+      false,
     )
   ))
   .then(() => {

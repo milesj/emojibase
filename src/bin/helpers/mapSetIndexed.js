@@ -4,9 +4,9 @@
  * @flow
  */
 
-import extractSet from '../extractSet';
+import extractSet from '../../extractSet';
 
-import type { Format } from '../types';
+import type { Format } from '../../types';
 
 export default function mapSetIndexed(data: Object[], keyName: string, format: Format): Object {
   const map = {};

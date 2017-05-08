@@ -1,14 +1,18 @@
 #! /usr/bin/env node
+/**
+ * @copyright   2017, Miles Johnson
+ * @license     https://opensource.org/licenses/MIT
+ */
 
-const fs = require('fs');
-const path = require('path');
-const glob = require('glob');
-const chalk = require('chalk');
-const gzip = require('gzip-size');
-const size = require('filesize');
+import fs from 'fs';
+import path from 'path';
+import chalk from 'chalk';
+import glob from 'glob';
+import gzip from 'gzip-size';
+import size from 'filesize';
 
 new Promise((resolve, reject) => {
-  glob(path.join(__dirname, '../{data,regex}/**/*.{js,json}'), (error, files) => {
+  glob(path.join(__dirname, '../../{data,regex}/**/*.{js,json}'), (error, files) => {
     if (error) {
       reject(error);
     } else {

@@ -4,9 +4,9 @@
  * @flow
  */
 
-import extractSet from '../extractSet';
+import extractSet from '../../extractSet';
 
-import type { Format } from '../types';
+import type { Format } from '../../types';
 
 export default function mapSetGrouped(data: Object[], keyName: string, format: Format): Object {
   const groups = {};

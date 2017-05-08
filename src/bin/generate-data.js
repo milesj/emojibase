@@ -1,17 +1,21 @@
 #! /usr/bin/env node
+/**
+ * @copyright   2017, Miles Johnson
+ * @license     https://opensource.org/licenses/MIT
+ */
 
-const path = require('path');
-const chalk = require('chalk');
-const packageData = require('../lib/packageData').default;
-const writeFile = require('../lib/bin/writeFile').default;
-const mapKeyToKey = require('../lib/bin/mapKeyToKey').default;
-const mapSet = require('../lib/bin/mapSet').default;
-const mapSetIndexed = require('../lib/bin/mapSetIndexed').default;
-const mapSetGrouped = require('../lib/bin/mapSetGrouped').default;
-const constants = require('../lib/constants');
+import path from 'path';
+import chalk from 'chalk';
+import packageData, { EMOJI_ONE } from '../packageData';
+import { EXPANDED, STANDARD, COMPACT } from '../constants';
+import mapKeyToKey from './helpers/mapKeyToKey';
+import mapSet from './helpers/mapSet';
+import mapSetIndexed from './helpers/mapSetIndexed';
+import mapSetGrouped from './helpers/mapSetGrouped';
+import writeFile from './helpers/writeFile';
 
 function createFilePath(name) {
-  return path.join(__dirname, `../data/${name}`);
+  return path.join(__dirname, `../../data/${name}`);
 }
 
 function generateFormat(rawData, format) {
@@ -23,7 +27,7 @@ function generateFormat(rawData, format) {
       writeFile(
         createFilePath(`${format}/list.json`),
         data,
-        dump => mapSet(dump, format)
+        dump => mapSet(dump, format),
       )
     ))
     // Save file as a map
@@ -31,7 +35,7 @@ function generateFormat(rawData, format) {
       writeFile(
         createFilePath(`${format}/map.json`),
         data,
-        dump => mapSetIndexed(dump, 'hexcode', format)
+        dump => mapSetIndexed(dump, 'hexcode', format),
       )
     ))
     // Save file by category
@@ -39,7 +43,7 @@ function generateFormat(rawData, format) {
       writeFile(
         createFilePath(`${format}/by-category.json`),
         data,
-        dump => mapSetGrouped(dump, 'category', format)
+        dump => mapSetGrouped(dump, 'category', format),
       )
     ));
 }
@@ -53,7 +57,7 @@ function generateExtra(rawData) {
       writeFile(
         createFilePath('extra/hexcodes.json'),
         data,
-        dump => dump.map(row => row.hexcode)
+        dump => dump.map(row => row.hexcode),
       )
     ))
     // Save shortnames
@@ -61,7 +65,7 @@ function generateExtra(rawData) {
       writeFile(
         createFilePath('extra/shortnames.json'),
         data,
-        dump => dump.map(row => row.shortnames[0])
+        dump => dump.map(row => row.shortnames[0]),
       )
     ))
     // Save unicodes
@@ -69,7 +73,7 @@ function generateExtra(rawData) {
       writeFile(
         createFilePath('extra/unicode.json'),
         data,
-        dump => dump.map(row => row.unicode)
+        dump => dump.map(row => row.unicode),
       )
     ))
     // Save hexcode to shortname
@@ -77,7 +81,7 @@ function generateExtra(rawData) {
       writeFile(
         createFilePath('extra/hexcode-to-shortname.json'),
         data,
-        dump => mapKeyToKey(dump, 'hexcode', 'shortname')
+        dump => mapKeyToKey(dump, 'hexcode', 'shortname'),
       )
     ))
     // Save shortname to unicode
@@ -85,31 +89,29 @@ function generateExtra(rawData) {
       writeFile(
         createFilePath('extra/shortname-to-unicode.json'),
         data,
-        dump => mapKeyToKey(dump, 'shortname', 'unicode')
+        dump => mapKeyToKey(dump, 'shortname', 'unicode'),
       )
     ));
 }
 
+// Package the data
 const data = packageData();
 
 // Verify all of EmojiOne has been used
-// if (process.env.NODE_ENV === 'development') {
-//   const remainingEmojiOnes = Object.values(EMOJI_ONE);
-//
-//   if (remainingEmojiOnes.length) {
-//     console.log(chalk.yellow('Not all EmojiOne definitions have been used!'));
-//
-//     remainingEmojiOnes.forEach((emoji: *) => {
-//       // $FlowIgnore Object.values() is typed incorrectly
-//       console.log(chalk.gray(`  ${emoji.name}`));
-//     });
-//   }
-// }
+const remainingEmojiOnes = Object.values(EMOJI_ONE);
+
+if (remainingEmojiOnes.length) {
+  console.log(chalk.yellow('Not all EmojiOne definitions have been used!'));
+
+  remainingEmojiOnes.forEach((emoji) => {
+    console.log(chalk.gray(`  ${emoji.name}`));
+  });
+}
 
 Promise.all([
-  generateFormat(data, constants.EXPANDED),
-  generateFormat(data, constants.STANDARD),
-  generateFormat(data, constants.COMPACT),
+  generateFormat(data, EXPANDED),
+  generateFormat(data, STANDARD),
+  generateFormat(data, COMPACT),
   generateExtra(data),
 ])
   .then(() => {
