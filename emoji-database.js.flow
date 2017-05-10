@@ -1,0 +1,103 @@
+declare module 'emoji-database' {
+  declare export type Format = 'expanded' | 'standard' | 'compact' | 'custom';
+  declare export function packageData(): Object[];
+  declare export function extractSet(data: Object, format: Format, fields?: string[]): Object;
+  declare export function extractGender(name: string): ?string;
+  declare export function extractSkinTone(name: string): ?number;
+  declare export function fromHexToCodepoint(hexcode: string): number[];
+  declare export function fromUnicodeToHex(unicode: string, strip?: boolean): string;
+}
+
+declare module 'emoji-database/data/extra/hexcode-to-shortname.json' {
+  declare export default { [hexcode: string]: string };
+}
+
+declare module 'emoji-database/data/extra/hexcodes.json' {
+  declare export default string[];
+}
+
+declare module 'emoji-database/data/extra/shortname-to-unicode.json' {
+  declare export default { [shortname: string]: string };
+}
+
+declare module 'emoji-database/data/extra/shortnames.json' {
+  declare export default string[];
+}
+
+declare module 'emoji-database/data/extra/unicode.json' {
+  declare export default string[];
+}
+
+declare module 'emoji-database/data/compact/by-category.json' {
+  declare export default { [category: string]: Object[] };
+}
+
+declare module 'emoji-database/data/compact/list.json' {
+  declare export default Object[];
+}
+
+declare module 'emoji-database/data/compact/map.json' {
+  declare export default { [hexcode: string]: Object };
+}
+
+declare module 'emoji-database/data/expanded/by-category.json' {
+  declare export default { [category: string]: Object[] };
+}
+
+declare module 'emoji-database/data/expanded/list.json' {
+  declare export default Object[];
+}
+
+declare module 'emoji-database/data/expanded/map.json' {
+  declare export default { [hexcode: string]: Object };
+}
+
+declare module 'emoji-database/data/standard/by-category.json' {
+  declare export default { [category: string]: Object[] };
+}
+
+declare module 'emoji-database/data/standard/list.json' {
+  declare export default Object[];
+}
+
+declare module 'emoji-database/data/standard/map.json' {
+  declare export default { [hexcode: string]: Object };
+}
+
+declare module 'emoji-database/regex' {
+  declare export default RegExp;
+}
+
+declare module 'emoji-database/regex/shortname' {
+  declare export default RegExp;
+}
+
+declare module 'emoji-database/lib/extractGender' {
+  import type { extractGender } from 'emoji-database';
+
+  declare export default extractGender;
+}
+
+declare module 'emoji-database/lib/extractSet' {
+  import type { extractSet } from 'emoji-database';
+
+  declare export default extractSet;
+}
+
+declare module 'emoji-database/lib/extractSkinTone' {
+  import type { extractSkinTone } from 'emoji-database';
+
+  declare export default extractSkinTone;
+}
+
+declare module 'emoji-database/lib/fromHexToCodepoint' {
+  import type { fromHexToCodepoint } from 'emoji-database';
+
+  declare export default fromHexToCodepoint;
+}
+
+declare module 'emoji-database/lib/fromUnicodeToHex' {
+  import type { fromUnicodeToHex } from 'emoji-database';
+
+  declare export default fromUnicodeToHex;
+}
