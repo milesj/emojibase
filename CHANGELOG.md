@@ -1,6 +1,6 @@
 # 0.5.0
-* Moved flowtype definition to root of project.
-* Updated flowtype definitions.
+* Moved Flowtype definition to root of project.
+* Updated Flowtype definitions.
 
 # 0.4.0
 * Updated `unicode-emoji-data` to 3.0.0.
