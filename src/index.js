@@ -3,6 +3,7 @@
  * @license     https://opensource.org/licenses/MIT
  * @flow
  */
+/* eslint-disable no-console */
 
 import packageData from './packageData';
 import extractSet from './extractSet';

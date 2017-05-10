@@ -4,8 +4,8 @@
   "description": "Evergreen emoji datasets and regex patterns.",
   "main": "./lib/index.js",
   "scripts": {
-    "babel": "build-lib ./src -d ./lib && cp ./flow/emoji-database.js.flow ./lib",
-    "coverage": "yarn run jest -- --coverage",
+    "babel": "build-lib ./src -d ./lib",
+    "coverage": "run-coverage",
     "eslint": "run-linter ./bin ./src ./tests",
     "flow": "type-check",
     "generate": "yarn run babel && yarn run generate:data && yarn run generate:regex && yarn run generate:table",
@@ -46,7 +46,7 @@
     "unicode-emoji-data": "^3.0.0"
   },
   "devDependencies": {
-    "@milesj/build-tool-config": "^0.1.1",
+    "@milesj/build-tool-config": "^0.3.0",
     "chalk": "^1.1.3",
     "filesize": "^3.5.9",
     "glob": "^7.1.1",
