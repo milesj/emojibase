@@ -1,10 +1,8 @@
-# 0.5.0
-* Moved Flowtype definition to root of project.
-* Updated Flowtype definitions.
-
 # 0.4.0
 * Updated `unicode-emoji-data` to 3.0.0.
 * Updated to include src/ files in the published package.
+* Updated Flowtype definitions.
+* Moved Flowtype definition to root of project.
 * Moved bin/ files to the src/ folder.
 * Removed beta support from `packageData`.
 
