@@ -46,7 +46,7 @@
     "unicode-emoji-data": "^3.0.0"
   },
   "devDependencies": {
-    "@milesj/build-tool-config": "^0.3.0",
+    "@milesj/build-tool-config": "^0.4.0",
     "chalk": "^1.1.3",
     "filesize": "^3.5.9",
     "glob": "^7.1.1",
@@ -54,10 +54,10 @@
     "regexgen": "^1.2.3"
   },
   "babel": {
-    "extends": "./node_modules/@milesj/build-tool-config/babel.json5"
+    "extends": "./node_modules/@milesj/build-tool-config/babel.node.json5"
   },
   "eslintConfig": {
-    "extends": "./node_modules/@milesj/build-tool-config/eslint.json5"
+    "extends": "./node_modules/@milesj/build-tool-config/eslint.node.json5"
   },
   "jest": {
     "preset": "@milesj/build-tool-config"
