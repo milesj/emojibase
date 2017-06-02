@@ -73,7 +73,7 @@ function generateExtra(rawData) {
       writeFile(
         createFilePath('extra/unicode.json'),
         data,
-        dump => dump.map(row => row.unicode),
+        dump => dump.map(row => row[row.display]),
       )
     ))
     // Save hexcode to shortname

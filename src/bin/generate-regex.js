@@ -11,54 +11,81 @@ import { Trie } from 'regexgen';
 import packageData from '../packageData';
 import writeFile from './helpers/writeFile';
 
-// If we separate each surrogate pair into a trie,
-// we can efficiently create nested groups and ranges.
-const codePointGroups = {
-  4: new Trie(),
-  3: new Trie(),
-  2: new Trie(),
-  1: new Trie(),
-};
+function generateRegex(rawData, display) {
+  console.log(`Generating ${display} regex pattern`);
 
-console.log('Generating regex pattern');
+  const fileName = (display === 'both') ? 'index' : display;
+  const codePointGroups = {
+    4: new Trie(),
+    3: new Trie(),
+    2: new Trie(),
+    1: new Trie(),
+  };
 
-Promise.resolve(packageData())
-  // Extract the codepoints from the data set
-  .then((data) => {
-    data.forEach((emoji) => {
-      const group = emoji.codepoint.length;
+  return Promise.resolve(rawData)
+    // Extract the codepoints from the data set
+    .then((data) => {
+      data.forEach((emoji) => {
+        const group = emoji.codepoint.length;
 
-      if (group <= 0 || group > 4) {
-        return;
+        if (group <= 0 || group > 4) {
+          return;
+        }
+
+        if (emoji.emoji && (display === 'emoji' || display === 'both')) {
+          codePointGroups[group].add(emoji.emoji);
+        }
+
+        if (emoji.text && (display === 'text' || display === 'both')) {
+          codePointGroups[group].add(emoji.text);
+        }
+      });
+
+      return codePointGroups;
+    })
+    // Generate the regex pattern groups
+    .then((groups) => {
+      if (display === 'text') {
+        return groups[1].toRegExp().source;
       }
 
-      codePointGroups[group].add(emoji[emoji.display]);
-    });
+      return [4, 3, 2, 1].map(group => `(?:${groups[group].toRegExp().source})`).join('|');
+    })
+    // Save file
+    .then(regex => (
+      writeFile(
+        path.join(__dirname, `../../regex/${fileName}.js`),
+        regex,
+        pattern => `module.exports = /${pattern}/;\n`,
+        false,
+      )
+    ));
+}
 
-    return data;
-  })
-  // Generate the regex pattern groups
-  .then(() => (
-    [4, 3, 2, 1].map(group => `(?:${codePointGroups[group].toRegExp().source})`).join('|')
-  ))
-  // Join the groups, escape the asterisk emoj, and write the file
-  .then(regex => (
-    writeFile(
-      path.join(__dirname, '../../regex/index.js'),
-      regex,
-      pattern => `module.exports = /${pattern}/;\n`,
-      false,
-    )
-  ))
-  // Create a shortname regex also
-  .then(() => (
-    writeFile(
-      path.join(__dirname, '../../regex/shortname.js'),
-      ':[-+\\w]+:',
-      pattern => `module.exports = /${pattern}/;\n`,
-      false,
-    )
-  ))
+function generateExtra(rawData) {
+  console.log('Generating shortnames regex pattern');
+
+  return Promise.resolve(rawData)
+    // Save hexcodes
+    .then(data => (
+      writeFile(
+        path.join(__dirname, '../../regex/shortname.js'),
+        ':[-+\\w]+:',
+        pattern => `module.exports = /${pattern}/;\n`,
+        false,
+      )
+    ));
+}
+
+// Package the data
+const data = packageData();
+
+Promise.all([
+  generateRegex(data, 'both'),
+  generateRegex(data, 'emoji'),
+  generateRegex(data, 'text'),
+  generateExtra(data),
+])
   .then(() => {
     console.log(chalk.green('Regex generated successfully'));
   })

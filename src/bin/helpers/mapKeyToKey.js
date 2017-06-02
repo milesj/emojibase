@@ -5,7 +5,15 @@
  */
 
 function getValue(row: Object, key: string) {
-  return (key === 'shortname') ? row.shortnames[0] : row[key];
+  if (key === 'shortname') {
+    return row.shortnames[0];
+  }
+
+  if (key === 'unicode') {
+    return row[row.display];
+  }
+
+  return row[key];
 }
 
 export default function mapKeyToKey(data: Object[], keyName: string, valueName: string): Object {
