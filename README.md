@@ -68,7 +68,10 @@ import hexcodes from 'emoji-database/data/extra/hexcodes.json';
 Emoji object's within a dataset are composed of the following properties.
 
 * `name` (string) - The name of the emoji character as described by the unicode spec.
-* `unicode` (string) - The literal unicode character.
+* `emoji` (string) - The emoji unicode character.
+* `text` (string) - The text presentation unicode character.
+* `unicode` (string) - The emoji or text unicode character depending on `display`.
+  *Only available in non-expanded formats.*
 * `hexcode` (string) - The hexadecimal representation of the unicode character,
   separated by dashes. *Does not include ZWJ or variation selectors.*
 * `codepoint` (number[]) - An array of code points, parsed from the `hexcode` property.

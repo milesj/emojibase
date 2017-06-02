@@ -12,9 +12,7 @@ import createShortnames from './createShortnames';
 import extractGender from './extractGender';
 import extractSkinTone from './extractSkinTone';
 import fromHexToCodepoint from './fromHexToCodepoint';
-import { SEQUENCE_REMOVAL_PATTERN } from './constants';
-
-const WS_PATTERN = /\s+/g;
+import { WS_PATTERN, SEQUENCE_REMOVAL_PATTERN } from './constants';
 
 // Pre-poluate unicode emoji data
 export const EMOJI = expandEmojiData(emojiData);
@@ -35,25 +33,29 @@ export default function packageData(): Object[] {
   }
 
   EMOJI.forEach((emoji: Object) => {
+    const { name, presentation, defaultPresentation } = emoji;
+    const { variation = {} } = presentation;
+
     // Includes zero width joiner (ZWJ) and variation selectors
-    const hexcodeZWJ = (emoji.presentation && emoji.presentation.default)
-      ? emoji.presentation.default
-      : emoji.codepoint;
+    const emojiHexcode = variation.emoji || presentation.default;
+    const textHexcode = variation.text || '';
 
     // Omit emoji without a hexcode
-    if (!hexcodeZWJ) {
+    if (!emojiHexcode && !textHexcode) {
       return;
     }
 
-    const { name, defaultPresentation } = emoji;
-
     // Create a unicode character using ZWJ based hexcodes
-    const unicode = String.fromCodePoint(...fromHexToCodepoint(
-      hexcodeZWJ.replace(WS_PATTERN, '-'),
-    ));
+    const emojiUnicode = emojiHexcode ? String.fromCodePoint(...fromHexToCodepoint(
+      emojiHexcode.replace(WS_PATTERN, '-'),
+    )) : null;
+
+    const textUnicode = textHexcode ? String.fromCodePoint(...fromHexToCodepoint(
+      textHexcode.replace(WS_PATTERN, '-'),
+    )) : null;
 
     // Create a hexcode without sequences
-    const hexcode = hexcodeZWJ
+    const hexcode = (emojiHexcode || textHexcode)
       .replace(SEQUENCE_REMOVAL_PATTERN, '')
       .trim()
       .replace(WS_PATTERN, '-');
@@ -62,7 +64,8 @@ export default function packageData(): Object[] {
     const extraEmoji = {
       category: 'other',
       codepoint: fromHexToCodepoint(hexcode),
-      display: (defaultPresentation === 'emoji') ? 1 : 0,
+      display: defaultPresentation || 'emoji',
+      emoji: emojiUnicode,
       gender: extractGender(name),
       hexcode,
       name,
@@ -70,7 +73,7 @@ export default function packageData(): Object[] {
       skin: extractSkinTone(name),
       shortnames: createShortnames(name),
       tags: createTags(name),
-      unicode,
+      text: textUnicode,
     };
 
     // Inherit values from EmojiOne if they exist

@@ -15,8 +15,9 @@ function isDefined(value: *): boolean {
 }
 
 export default function extractSet(data: Object, format: Format, fields: string[] = []): Object {
-  const { name, unicode, hexcode, codepoint, shortnames } = data;
+  const { name, display, hexcode, codepoint, shortnames } = data;
   const [shortname] = shortnames;
+  const unicode = data[display];
 
   switch (format) {
     default:

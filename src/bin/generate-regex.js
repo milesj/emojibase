@@ -32,7 +32,7 @@ Promise.resolve(packageData())
         return;
       }
 
-      codePointGroups[group].add(emoji.unicode);
+      codePointGroups[group].add(emoji[emoji.display]);
     });
 
     return data;

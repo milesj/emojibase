@@ -4,7 +4,7 @@ import { EXPANDED, STANDARD, COMPACT } from '../src/constants';
 describe('extractSet()', () => {
   const emoji = {
     name: 'MAN, WOMAN, GIRL, BOY',
-    unicode: '👨‍👩‍👧‍👦',
+    emoji: '👨‍👩‍👧‍👦',
     hexcode: '1F468-1F469-1F467-1F466',
     category: 'people',
     codepoint: [128104, 128105, 128103, 128102],
@@ -12,6 +12,7 @@ describe('extractSet()', () => {
     shortnames: ['family_mwgb'],
     order: 963,
     display: 1,
+    text: null,
     // These aren't part of the real family emoji, just for testing
     skin: null,
     gender: null,
@@ -20,7 +21,7 @@ describe('extractSet()', () => {
   it('returns expanded format without nulls', () => {
     expect(extractSet(emoji, EXPANDED)).toEqual({
       name: 'MAN, WOMAN, GIRL, BOY',
-      unicode: '👨‍👩‍👧‍👦',
+      emoji: '👨‍👩‍👧‍👦',
       hexcode: '1F468-1F469-1F467-1F466',
       category: 'people',
       codepoint: [128104, 128105, 128103, 128102],

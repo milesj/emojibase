@@ -6,7 +6,9 @@ describe('regex', () => {
   const UNICODE_PATTERN_GLOBAL = new RegExp(UNICODE_PATTERN.source, 'g');
   const SHORTNAME_PATTERN_GLOBAL = new RegExp(SHORTNAME_PATTERN.source, 'g');
 
-  packageData().forEach(({ unicode, shortnames }) => {
+  packageData().forEach(({ shortnames, ...emoji }) => {
+    const unicode = emoji[emoji.display];
+
     it(`matches unicode by itself for ${unicode}`, () => {
       const match = unicode.match(UNICODE_PATTERN);
 

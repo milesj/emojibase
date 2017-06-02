@@ -2,7 +2,9 @@ import fromUnicodeToHex from '../src/fromUnicodeToHex';
 import packageData from '../src/packageData';
 
 describe('fromUnicodeToHex()', () => {
-  packageData().forEach(({ unicode, hexcode }) => {
+  packageData().forEach(({ hexcode, ...emoji }) => {
+    const unicode = emoji[emoji.display];
+
     it(`converts unicode to hexcode for ${unicode}`, () => {
       expect(fromUnicodeToHex(unicode, true)).toBe(hexcode);
     });
