@@ -11,7 +11,7 @@ describe('extractSet()', () => {
     tags: ['boy', 'family', 'girl', 'man', 'woman'],
     shortnames: ['family_mwgb'],
     order: 963,
-    display: 1,
+    display: 'emoji',
     text: null,
     // These aren't part of the real family emoji, just for testing
     skin: null,
@@ -28,7 +28,7 @@ describe('extractSet()', () => {
       tags: ['boy', 'family', 'girl', 'man', 'woman'],
       shortnames: ['family_mwgb'],
       order: 963,
-      display: 1,
+      display: 'emoji',
     });
   });
 
