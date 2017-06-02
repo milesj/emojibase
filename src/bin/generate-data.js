@@ -100,7 +100,7 @@ const data = packageData();
 // Verify all of EmojiOne has been used
 const remainingEmojiOnes = Object.values(EMOJI_ONE);
 
-if (remainingEmojiOnes.length) {
+if (remainingEmojiOnes.length > 0) {
   console.log(chalk.yellow('Not all EmojiOne definitions have been used!'));
 
   remainingEmojiOnes.forEach((emoji) => {

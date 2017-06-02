@@ -30,7 +30,7 @@ Object.keys(emojiOneData).forEach((hexcode: string) => {
 export const CACHE = [];
 
 export default function packageData(): Object[] {
-  if (CACHE.length) {
+  if (CACHE.length > 0) {
     return CACHE;
   }
 
@@ -85,7 +85,7 @@ export default function packageData(): Object[] {
         .filter(kw => kw !== '')
         .map(kw => removeDiacritics(kw).replace(/ /g, '-').replace(/\.|“|”|’/g, ''));
 
-      if (tags.length) {
+      if (tags.length > 0) {
         extraEmoji.tags = tags;
       }
 
