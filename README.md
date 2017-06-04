@@ -67,15 +67,15 @@ import hexcodes from 'emoji-database/data/extra/hexcodes.json';
 
 Emoji object's within a dataset are composed of the following properties.
 
-* `name` (string) - The name of the emoji character as described by the unicode spec.
-* `emoji` (string) - The emoji unicode character.
+* `name` (string) - The name of the emoji character.
+* `emoji` (string) - The emoji presentation unicode character.
 * `text` (string) - The text presentation unicode character.
 * `unicode` (string) - The emoji or text unicode character depending on `display`.
   *Only available in non-expanded formats.*
 * `hexcode` (string) - The hexadecimal representation of the unicode character,
   separated by dashes. *Does not include ZWJ or variation selectors.*
 * `codepoint` (number[]) - An array of code points, parsed from the `hexcode` property.
-* `display` (number) - The default presentation of the emoji character, 1 for emoji, 0 for text.
+* `display` (string) - The default presentation of the emoji character, either "emoji" or "text".
 * `skin` (number) - If applicable, the skin tone, between 1 and 5.
   *Only exists for emojis that support skin tones.*
 * `gender` (string) - If applicable, the gender of the emoji, either "male" or "female".

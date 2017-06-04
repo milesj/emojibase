@@ -1,3 +1,11 @@
+# 0.5.0
+* Fixed a bug in which variation selectors were not included in the regex patterns.
+* Updated `regex/index` to match both emoji and text presentation characters.
+* Updated the `unicode` property to the default presentation unicode character.
+* Added new `regex/emoji` and `regex/text` patterns respectively.
+* Added new `emoji` and `text` properties to the expanded format.
+* Removed `unicode` from the expanded format.
+
 # 0.4.0
 * Updated `unicode-emoji-data` to 3.0.0.
 * Updated to include src/ files in the published package.
