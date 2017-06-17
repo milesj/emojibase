@@ -68,36 +68,14 @@ declare module 'emoji-database/regex' {
   declare export default RegExp;
 }
 
-declare module 'emoji-database/regex/shortname' {
+declare module 'emoji-database/regex/emoji' {
   declare export default RegExp;
 }
 
-declare module 'emoji-database/lib/extractGender' {
-  import type { extractGender } from 'emoji-database';
-
-  declare export default extractGender;
+declare module 'emoji-database/regex/text' {
+  declare export default RegExp;
 }
 
-declare module 'emoji-database/lib/extractSet' {
-  import type { extractSet } from 'emoji-database';
-
-  declare export default extractSet;
-}
-
-declare module 'emoji-database/lib/extractSkinTone' {
-  import type { extractSkinTone } from 'emoji-database';
-
-  declare export default extractSkinTone;
-}
-
-declare module 'emoji-database/lib/fromHexToCodepoint' {
-  import type { fromHexToCodepoint } from 'emoji-database';
-
-  declare export default fromHexToCodepoint;
-}
-
-declare module 'emoji-database/lib/fromUnicodeToHex' {
-  import type { fromUnicodeToHex } from 'emoji-database';
-
-  declare export default fromUnicodeToHex;
+declare module 'emoji-database/regex/shortname' {
+  declare export default RegExp;
 }

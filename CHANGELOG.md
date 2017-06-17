@@ -2,6 +2,7 @@
 * Moved all `dependencies` into `devDependencies`.
 * Removed the ability to import `emoji-database` modules and files.
 * Removed lib/ and src/ files from the published package.
+* Fixed Flowtype definitions.
 
 # 0.5.0
 * Fixed a bug in which variation selectors were not included in the regex patterns.
