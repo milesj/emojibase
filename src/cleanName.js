@@ -4,16 +4,19 @@
  * @flow
  */
 
-const CLEAN_PATTERN = /(\b(and|because|but|for|if|in|or|of|the|when|with|without|sign)\b)/g;
+import { WS_PATTERN } from './constants';
+
+const NON_ALNUM_CHARS: RegExp = /[^a-z0-9- ]+/g;
+const UNNECESSARY_WORDS: RegExp = /(\b(and|because|but|for|if|in|or|of|the|when|with|without|sign)\b)/g;
 
 export default function cleanName(name: string): string {
-  let cleaned = name.toLowerCase().split(';')[0].replace(/[^a-z0-9- ]+/g, '');
+  let cleaned = name.toLowerCase().split(';')[0].replace(NON_ALNUM_CHARS, '');
 
   // Remove unnessary words
-  cleaned = cleaned.replace(CLEAN_PATTERN, ' ');
+  cleaned = cleaned.replace(UNNECESSARY_WORDS, ' ');
 
   // Remove extra spaces
-  cleaned = cleaned.replace(/\s+/g, ' ');
+  cleaned = cleaned.replace(WS_PATTERN, ' ');
 
   return cleaned.trim();
 }

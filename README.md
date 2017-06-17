@@ -23,7 +23,7 @@ import json from 'emoji-database/data/extra/shortname-to-unicode.json';
 const data = JSON.parse(json);
 ```
 
-> Imports will need to be parsed with JSON unless your build process handles it.
+> Imports will need to be parsed with JSON unless otherwise configured by a build process.
 
 ## Documentation
 
@@ -73,7 +73,7 @@ Emoji object's within a dataset are composed of the following properties.
 * `unicode` (string) - The emoji or text unicode character depending on `display`.
   *Only available in non-expanded formats.*
 * `hexcode` (string) - The hexadecimal representation of the unicode character,
-  separated by dashes. *Does not include ZWJ or variation selectors.*
+  separated by dashes. *Does not include zero-width-joiner or variation selectors.*
 * `codepoint` (number[]) - An array of code points, parsed from the `hexcode` property.
 * `display` (string) - The default presentation of the emoji character, either "emoji" or "text".
 * `skin` (number) - If applicable, the skin tone, between 1 and 5.
@@ -104,9 +104,9 @@ Datasets are grouped into 3 different formats, with each composed of a subset of
 To match emojis and shortnames within a string, multiple regex patterns are available for import.
 All imports return a `RegExp` object, with no flags, and no outer capture group.
 
-* `index` - Matches both emoji and text display characters.
-* `emoji` - Matches emoji display characters.
-* `text` - Matches text display characters.
+* `index` - Matches both emoji and text presentation characters.
+* `emoji` - Matches emoji presentation characters.
+* `text` - Matches text presentation characters.
 * `shortname` - Matches emoji shortnames.
 
 ```javascript

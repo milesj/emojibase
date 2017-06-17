@@ -6,11 +6,12 @@
 
 import cleanName from './cleanName';
 import extractSkinTone from './extractSkinTone';
+import { WS_PATTERN } from './constants';
 
 const USED_SHORTNAMES = {};
 
 export default function createShortnames(name: string): string[] {
-  let shortname = cleanName(name).replace(/\s/g, '_');
+  let shortname = cleanName(name).replace(WS_PATTERN, '_');
 
   // Currently doesnt have a shortname defined
   if (shortname === 'regional_indicator_symbol_letter_u_regional_indicator_symbol_letter_n') {
