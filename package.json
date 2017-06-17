@@ -2,6 +2,7 @@
   "name": "emoji-database",
   "version": "0.6.0",
   "description": "Evergreen emoji datasets and regex patterns.",
+  "main": "./lib/index.js",
   "scripts": {
     "babel": "build-lib ./src -d ./lib",
     "coverage": "run-coverage",
@@ -37,9 +38,11 @@
     "url": "https://github.com/milesj/emoji-database/issues"
   },
   "homepage": "https://github.com/milesj/emoji-database#readme",
+  "dependencies": {
+    "babel-runtime": "^6.23.0"
+  },
   "devDependencies": {
     "@milesj/build-tool-config": "^0.9.0",
-    "babel-runtime": "^6.23.0",
     "chalk": "^1.1.3",
     "diacritics": "^1.3.0",
     "emojione": "^3.0.0",

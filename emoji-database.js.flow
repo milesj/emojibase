@@ -1,9 +1,4 @@
 declare module 'emoji-database' {
-  declare export type Format = 'expanded' | 'standard' | 'compact' | 'custom';
-  declare export function packageData(): Object[];
-  declare export function extractSet(data: Object, format: Format, fields?: string[]): Object;
-  declare export function extractGender(name: string): ?string;
-  declare export function extractSkinTone(name: string): ?number;
   declare export function fromHexToCodepoint(hexcode: string): number[];
   declare export function fromUnicodeToHex(unicode: string, strip?: boolean): string;
 }

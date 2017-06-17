@@ -1,3 +1,8 @@
+# 0.7.0
+* Reverted change that removed ability to import modules.
+  * Both `fromHexToCodepoint` and `fromUnicodeToHex` are now importable from the index.
+* Removed console warning when importing the index file.
+
 # 0.6.0
 * Moved all `dependencies` into `devDependencies`.
 * Removed the ability to import `emoji-database` modules and files.
