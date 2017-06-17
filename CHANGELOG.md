@@ -1,3 +1,8 @@
+# 0.6.0
+* Moved all `dependencies` into `devDependencies`.
+* Removed the ability to import `emoji-database` modules and files.
+* Removed lib/ and src/ files from the published package.
+
 # 0.5.0
 * Fixed a bug in which variation selectors were not included in the regex patterns.
 * Updated `regex/index` to match both emoji and text presentation characters.
