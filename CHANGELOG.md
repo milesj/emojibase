@@ -1,3 +1,7 @@
+# 0.8.0
+* Fixed IE 10 compiled lib/ issues.
+* Updated `tags` to inherit from the new `unicode-emoji-annotations` dependency.
+
 # 0.7.0
 * Reverted change that removed ability to import modules.
   * Both `fromHexToCodepoint` and `fromUnicodeToHex` are now importable from the index.

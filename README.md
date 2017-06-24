@@ -2,8 +2,9 @@
 [![Build Status](https://travis-ci.org/milesj/emoji-database.svg?branch=master)](https://travis-ci.org/milesj/emoji-database)
 
 A collection of up-to-date, pre-generated, specification compliant, emoji datasets and
-regex patterns. Data is generated with [unicode-emoji-data][unicode-emoji-data] and
-[emojione][emojione] packages, for increased accuracy and customizability.
+regex patterns. Data is generated with [unicode-emoji-data][unicode-emoji-data],
+[unicode-emoji-annotations][unicode-emoji-annotations] and [emojione][emojione] packages,
+for increased accuracy and customizability.
 
 ## Installation
 
@@ -145,9 +146,10 @@ The filesizes of all datasets and regex patterns can be found below, in ascendin
 | data/standard/map.json | 317.57 KB | 45.19 KB |
 | data/standard/list.json | 340.9 KB | 45.65 KB |
 | data/standard/by-category.json | 341 KB | 45.63 KB |
-| data/expanded/by-category.json | 557.77 KB | 74.41 KB |
-| data/expanded/map.json | 581.58 KB | 75.85 KB |
-| data/expanded/list.json | 604.91 KB | 75.47 KB |
+| data/expanded/by-category.json | 553.11 KB | 73.11 KB |
+| data/expanded/map.json | 576.92 KB | 74.42 KB |
+| data/expanded/list.json | 600.25 KB | 74.01 KB |
 
 [emojione]: https://github.com/Ranks/emojione
 [unicode-emoji-data]: https://github.com/dematerializer/unicode-emoji-data
+[unicode-emoji-annotations]: https://github.com/dematerializer/unicode-emoji-annotations

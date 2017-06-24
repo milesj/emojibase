@@ -4,18 +4,30 @@
  * @flow
  */
 
-import { remove as removeDiacritics } from 'diacritics';
 import { emojiData, expandEmojiData } from 'unicode-emoji-data';
+import { combinedAnnotationsForLanguage } from 'unicode-emoji-annotations';
 import emojiOneData from 'emojione/emoji.json';
 import createTags from './createTags';
 import createShortnames from './createShortnames';
 import extractGender from './extractGender';
 import extractSkinTone from './extractSkinTone';
+import formatTag from './formatTag';
 import fromHexToCodepoint from './fromHexToCodepoint';
 import { WS_PATTERN, SEQUENCE_REMOVAL_PATTERN } from './constants';
 
 // Pre-poluate unicode emoji data
 export const EMOJI = expandEmojiData(emojiData);
+
+// Pre-poluate unicode emoji annotations
+export const EMOJI_ANNOTATIONS = {};
+
+combinedAnnotationsForLanguage('en').forEach((annotation) => {
+  EMOJI_ANNOTATIONS[annotation.sequence] = annotation;
+});
+
+function getAnnotation(hexcode: string, key: string): * {
+  return EMOJI_ANNOTATIONS[hexcode] ? EMOJI_ANNOTATIONS[hexcode][key] : null;
+}
 
 // Pre-poluate a mapping of hexcodes to EmojiOne
 export const EMOJI_ONE = {};
@@ -72,9 +84,12 @@ export default function packageData(): Object[] {
       order: null,
       skin: extractSkinTone(name),
       shortnames: createShortnames(name),
-      tags: createTags(name),
+      tags: getAnnotation(hexcode, 'keywords') || createTags(name),
       text: textUnicode,
     };
+
+    // Remove diacritics and special characters from tags
+    extraEmoji.tags = extraEmoji.tags.map(formatTag);
 
     // Inherit values from EmojiOne if they exist
     if (EMOJI_ONE[hexcode]) {
@@ -82,15 +97,6 @@ export default function packageData(): Object[] {
 
       extraEmoji.category = emojiOne.category;
       extraEmoji.order = emojiOne.order;
-
-      // Pull in tags and strip spaces
-      const tags = emojiOne.keywords
-        .filter(kw => kw !== '')
-        .map(kw => removeDiacritics(kw).replace(/ /g, '-').replace(/\.|“|”|’/g, ''));
-
-      if (tags.length > 0) {
-        extraEmoji.tags = tags;
-      }
 
       // Remove colons for a smaller filesize
       extraEmoji.shortnames = [emojiOne.shortname]
