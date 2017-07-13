@@ -11,9 +11,14 @@ import { Trie } from 'regexgen';
 import packageData from '../packageData';
 import writeFile from './helpers/writeFile';
 
-function generateRegex(rawData, display) {
-  console.log(`Generating ${display} regex pattern`);
+function generateRegex(rawData, display, unicode = false) {
+  if (unicode) {
+    console.log(`Generating unicode aware ${display} regex pattern`);
+  } else {
+    console.log(`Generating ${display} regex pattern`);
+  }
 
+  const flags = unicode ? 'u' : '';
   const fileName = (display === 'both') ? 'index' : display;
   const codePointGroups = {
     4: new Trie(),
@@ -46,15 +51,15 @@ function generateRegex(rawData, display) {
     // Generate the regex pattern groups
     .then((groups) => {
       if (display === 'text') {
-        return groups[1].toRegExp().source;
+        return groups[1].toRegExp(flags).source;
       }
 
-      return [4, 3, 2, 1].map(group => `(?:${groups[group].toRegExp().source})`).join('|');
+      return [4, 3, 2, 1].map(group => `(?:${groups[group].toRegExp(flags).source})`).join('|');
     })
     // Save file
     .then(regex => (
       writeFile(
-        path.join(__dirname, `../../regex/${fileName}.js`),
+        path.join(__dirname, `../../regex/${unicode ? 'es/' : ''}${fileName}.js`),
         regex,
         pattern => `module.exports = /${pattern}/;\n`,
         false,
@@ -82,8 +87,11 @@ const data = packageData();
 
 Promise.all([
   generateRegex(data, 'both'),
+  generateRegex(data, 'both', true),
   generateRegex(data, 'emoji'),
+  generateRegex(data, 'emoji', true),
   generateRegex(data, 'text'),
+  generateRegex(data, 'text', true),
   generateExtra(data),
 ])
   .then(() => {

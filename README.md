@@ -32,6 +32,7 @@ const data = JSON.parse(json);
   * [Structure](#structure)
   * [Formats](#formats)
 * [Regex Patterns](#regex-patterns)
+  * [Unicode](#unicode)
 * [Filesizes](#filesizes)
 
 ### Datasets
@@ -125,6 +126,18 @@ const EMOJI_SHORTNAME_REGEX = new RegExp(`^${EMOJI_REGEX.source}|${SHORTNAME_REG
 
 > The `u` (unicode) and `g` (global) flags are not required when using these patterns.
 
+#### Unicode
+
+By default, regex patterns are generated into UCS-2 surrogate pairs. If desired, ES2015+
+unicode aware regex patterns can be used, which can be found in the `regex/es` directory.
+
+```javascript
+import UNICODE_EMOJI_REGEX from 'emoji-database/regex/es';
+import SHORTNAME_REGEX from 'emoji-database/regex/shortname';
+```
+
+> The unicode aware regex patterns are only supported in Node.js and modern browsers.
+
 ### Filesizes
 
 The filesizes of all datasets and regex patterns can be found below, in ascending order.
@@ -133,22 +146,25 @@ The filesizes of all datasets and regex patterns can be found below, in ascendin
 | --- | --- | --- |
 | regex/shortname.js | 30 B | 50 B |
 | regex/text.js | 1.11 KB | 476 B |
+| regex/es/text.js | 1.28 KB | 492 B |
 | regex/emoji.js | 5.75 KB | 1.47 KB |
-| regex/index.js | 5.77 KB | 1.47 KB |
+| regex/index.js | 5.77 KB | 1.48 KB |
+| regex/es/emoji.js | 6.37 KB | 1.5 KB |
+| regex/es/index.js | 6.38 KB | 1.51 KB |
 | data/extra/unicode.json | 26.63 KB | 6.4 KB |
 | data/extra/hexcodes.json | 28.63 KB | 5.85 KB |
 | data/extra/shortnames.json | 38.26 KB | 9.16 KB |
 | data/extra/shortname-to-unicode.json | 64.89 KB | 15.72 KB |
-| data/extra/hexcode-to-shortname.json | 66.89 KB | 15.54 KB |
-| data/compact/map.json | 149.51 KB | 24.29 KB |
-| data/compact/list.json | 172.84 KB | 24.01 KB |
-| data/compact/by-category.json | 172.94 KB | 24.07 KB |
+| data/extra/hexcode-to-shortname.json | 66.9 KB | 15.55 KB |
+| data/compact/map.json | 149.52 KB | 24.29 KB |
+| data/compact/list.json | 172.85 KB | 24.02 KB |
+| data/compact/by-category.json | 172.95 KB | 24.07 KB |
 | data/standard/map.json | 317.57 KB | 45.19 KB |
 | data/standard/list.json | 340.9 KB | 45.65 KB |
-| data/standard/by-category.json | 341 KB | 45.63 KB |
-| data/expanded/by-category.json | 553.11 KB | 73.11 KB |
-| data/expanded/map.json | 576.92 KB | 74.42 KB |
-| data/expanded/list.json | 600.25 KB | 74.01 KB |
+| data/standard/by-category.json | 341 KB | 45.64 KB |
+| data/expanded/by-category.json | 553.12 KB | 73.12 KB |
+| data/expanded/map.json | 576.93 KB | 74.43 KB |
+| data/expanded/list.json | 600.26 KB | 74.03 KB |
 
 [emojione]: https://github.com/Ranks/emojione
 [unicode-emoji-data]: https://github.com/dematerializer/unicode-emoji-data

@@ -1,3 +1,7 @@
+# 0.9.0
+* Updated `emojione` to 3.1.
+* Added ECMA2015+ unicode aware regex patterns. Located in the `regex/es` folder.
+
 # 0.8.0
 * Fixed IE 10 compiled lib/ issues.
 * Updated `tags` to inherit from the new `unicode-emoji-annotations` dependency.
