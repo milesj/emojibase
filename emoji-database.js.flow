@@ -1,4 +1,5 @@
 declare module 'emoji-database' {
+  declare export function fetchFromCDN(dataset: string, version: string): Promise<*>;
   declare export function fromHexToCodepoint(hexcode: string): number[];
   declare export function fromUnicodeToHex(unicode: string, strip?: boolean): string;
 }
@@ -72,5 +73,17 @@ declare module 'emoji-database/regex/text' {
 }
 
 declare module 'emoji-database/regex/shortname' {
+  declare export default RegExp;
+}
+
+declare module 'emoji-database/regex/es' {
+  declare export default RegExp;
+}
+
+declare module 'emoji-database/regex/es/emoji' {
+  declare export default RegExp;
+}
+
+declare module 'emoji-database/regex/es/text' {
   declare export default RegExp;
 }
