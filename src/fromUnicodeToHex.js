@@ -8,8 +8,8 @@
 
 import { SEQUENCE_REMOVAL_PATTERN } from './constants';
 
-const BASE_HEXADECIMAL = 16;
-const HEX_WIDTH = 4;
+const BASE_HEXADECIMAL: number = 16;
+const HEX_WIDTH: number = 4;
 
 export default function fromUnicodeToHex(unicode: string, strip: boolean = true): string {
   const hexcode = [];
