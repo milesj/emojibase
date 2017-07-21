@@ -1,3 +1,3 @@
-const loadNames = require('./lib/loader/loadNames').default;
+const loadNames = require('./lib/loaders/loadNames').default;
 
 loadNames();
