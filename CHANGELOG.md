@@ -1,3 +1,6 @@
+# 0.10.0
+* Added new function, `fetchFromCDN`, which fetches JSON data from jsdelivr.com.
+
 # 0.9.0
 * Updated `emojione` to 3.1.
 * Added ECMA2015+ unicode aware regex patterns. Located in the `regex/es` folder.

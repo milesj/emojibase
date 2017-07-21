@@ -1,10 +1,10 @@
-# emoji-database
+# Emojibase v0.10.0
 [![Build Status](https://travis-ci.org/milesj/emoji-database.svg?branch=master)](https://travis-ci.org/milesj/emoji-database)
 
 A collection of up-to-date, pre-generated, specification compliant, emoji datasets and
 regex patterns. Data is generated with [unicode-emoji-data][unicode-emoji-data],
-[unicode-emoji-annotations][unicode-emoji-annotations] and [emojione][emojione] packages,
-for increased accuracy and customizability.
+[unicode-emoji-annotations][unicode-emoji-annotations], and [emojione][emojione] packages,
+for increased accuracy, interoperability, and customizability.
 
 ## Installation
 
@@ -14,42 +14,37 @@ npm install emoji-database --save
 yarn add emoji-database
 ```
 
-## Usage
-
-Simply import the JSON files and use them!
-
-```javascript
-import json from 'emoji-database/data/extra/shortname-to-unicode.json';
-
-const data = JSON.parse(json);
-```
-
-> Imports will need to be parsed with JSON unless otherwise configured by a build process.
-
 ## Documentation
 
 * [Datasets](#datasets)
-  * [Structure](#structure)
   * [Formats](#formats)
+  * [Properties](#properties)
+  * [CDN Support](#cdn-support)
 * [Regex Patterns](#regex-patterns)
   * [Unicode](#unicode)
+* [Helpers](#helpers)
 * [Filesizes](#filesizes)
 
 ### Datasets
 
-Emoji's are generated into files called datasets. Each file is customized to provide
-a subset of data in a specific format. This provides multiple options, so choose the best dataset
-for your application.
+Emoji's are generated into JSON files called datasets. Each file is customized to provide
+a subset of data in a specific format (below). This provides multiple options,
+so choose the best dataset for your application.
 
 * `data/<format>/list.json` - A list of emoji objects in the specified format.
-* `data/<format>/map.json` - A map of `hexcode`s to emoji objects in the specified format.
+* `data/<format>/map.json` - A mapping of `hexcode`s to emoji objects in the specified format.
 * `data/<format>/by-category.json` - A list of emoji objects in the specified format, grouped by
   their `category`.
 
 > Replace `<format>` with the format of your choosing.
 
+Datasets can be used by simply importing their JSON file, and parsing it,
+unless otherwise configured by a build process.
+
 ```javascript
-import emoji from 'emoji-database/data/compact/list.json';
+import json from 'emoji-database/data/compact/list.json';
+
+const data = JSON.parse(json);
 ```
 
 For more specialized and granular use cases (like reduced filesizes),
@@ -57,41 +52,13 @@ the following extra datasets are also available.
 
 * `data/extra/unicode.json` - A list of emoji `unicode` characters.
 * `data/extra/hexcodes.json` - A list of emoji `hexcode` characters.
-* `data/extra/hexcode-to-shortname.json` - A map of `hexcode`s to `shortname`s.
+* `data/extra/hexcode-to-shortname.json` - A mapping of `hexcode`s to `shortname`s.
 * `data/extra/shortnames.json` - A list of emoji shortnames.
-* `data/extra/shortname-to-unicode.json` - A map of `shortname`s to `unicode` characters.
+* `data/extra/shortname-to-unicode.json` - A mapping of `shortname`s to `unicode` characters.
 
 ```javascript
 import hexcodes from 'emoji-database/data/extra/hexcodes.json';
 ```
-
-#### Structure
-
-Emoji object's within a dataset are composed of the following properties.
-
-* `name` (string) - The name of the emoji character.
-* `emoji` (string) - The emoji presentation unicode character.
-* `text` (string) - The text presentation unicode character.
-* `unicode` (string) - The emoji or text unicode character depending on `display`.
-  *Only available in non-expanded formats.*
-* `hexcode` (string) - The hexadecimal representation of the unicode character,
-  separated by dashes. *Does not include zero-width-joiner or variation selectors.*
-* `codepoint` (number[]) - An array of code points, parsed from the `hexcode` property.
-* `display` (string) - The default presentation of the emoji character, either "emoji" or "text".
-* `skin` (number) - If applicable, the skin tone, between 1 and 5.
-  *Only exists for emojis that support skin tones.*
-* `gender` (string) - If applicable, the gender of the emoji, either "male" or "female".
-  *Only exists for emojis that support genders.*
-
-The following are provided by [EmojiOne][emojione] or automatically generated.
-
-* `order` (number) - The sort order of all emoji characters.
-* `category` (string) - The category the emoji character is grouped under.
-* `shortnames` (string[]) - Short word representations of the emoji character.
-  *Does not include surrounding colons.*
-* `tags` (string[]) - Tags relevant to the emoji character.
-
-> Properties with null values are omitted from the generated dataset.
 
 #### Formats
 
@@ -101,15 +68,59 @@ Datasets are grouped into 3 different formats, with each composed of a subset of
 * `standard` - Includes the `unicode`, `hexcode`, `shortname`, `codepoint`, and `name` properties.
 * `expanded` - Includes all properties mentioned above.
 
+#### Properties
+
+Emoji object's within a dataset are composed of the following properties.
+
+* `category` (string) - The category the emoji character is grouped under.
+* `codepoint` (number[]) - An array of code points, parsed from the `hexcode` property.
+* `display` (string) - The default presentation of the emoji character, either "emoji" or "text".
+* `emoji` (string) - The emoji presentation unicode character.
+* `gender` (string) - If applicable, the gender of the emoji, either "male" or "female".
+*Only exists for emojis that support genders.*
+* `hexcode` (string) - The hexadecimal representation of the unicode character,
+separated by dashes. *Does not include zero-width-joiner or variation selectors.*
+* `name` (string) - The name of the emoji character.
+* `order` (number) - The sort order of all emoji characters.
+* `shortnames` (string[]) - Short word representations of the emoji character.
+*Does not include surrounding colons.*
+* `skin` (number) - If applicable, the skin tone, between 1 and 5.
+*Only exists for emojis that support skin tones.*
+* `tags` (string[]) - Tags and keywords relevant to the emoji character.
+* `text` (string) - The text presentation unicode character.
+* `unicode` (string) - The emoji or text unicode character depending on `display`.
+  *Only available in non-expanded formats.*
+
+> Properties with null or undefined values are omitted from the generated dataset.
+
+#### CDN Support
+
+If you prefer to not inflate your bundle size with these large JSON dumps,
+you can fetch them from our CDN ([provided by jsdelivr.com][cdn]) using `fetchFromCDN`.
+This function returns a promise, with the JSON data already parsed.
+
+```javascript
+import { fetchFromCDN } from 'emoji-database';
+
+fetchFromCDN('extra/hexcodes.json').then((data) => {
+  // Do something with it!
+});
+```
+
+The 1st argument requires a JSON file path, relative to the `data` folder,
+while the 2nd argument is the specified release version (defaults to the latest).
+
+> Only JSON datasets can be fetched from our CDN.
+
 ### Regex Patterns
 
 To match emojis and shortnames within a string, multiple regex patterns are available for import.
 All imports return a `RegExp` object, with no flags, and no outer capture group.
 
-* `index` - Matches both emoji and text presentation characters.
-* `emoji` - Matches emoji presentation characters.
-* `text` - Matches text presentation characters.
-* `shortname` - Matches emoji shortnames.
+* `regex` - Matches both emoji and text presentation characters.
+* `regex/emoji` - Matches emoji presentation characters.
+* `regex/text` - Matches text presentation characters.
+* `regex/shortname` - Matches emoji shortnames.
 
 ```javascript
 import EMOJI_REGEX from 'emoji-database/regex';
@@ -128,7 +139,7 @@ const EMOJI_SHORTNAME_REGEX = new RegExp(`^${EMOJI_REGEX.source}|${SHORTNAME_REG
 
 #### Unicode
 
-By default, regex patterns are generated into UCS-2 surrogate pairs. If desired, ES2015+
+By default, regex patterns are generated as UCS-2 surrogate pairs. If desired, ES2015+
 unicode aware regex patterns can be used, which can be found in the `regex/es` directory.
 
 ```javascript
@@ -137,6 +148,30 @@ import SHORTNAME_REGEX from 'emoji-database/regex/shortname';
 ```
 
 > The unicode aware regex patterns are only supported in Node.js and modern browsers.
+
+### Helpers
+
+Two helper functions are available for converting between emoji data representations.
+
+The first, `fromHexToCodepoint`, can be used to convert a dash separated hexcode into an
+array of numerical codepoints.
+
+```javascript
+import { fromHexToCodepoint } from 'emoji-database';
+
+fromHexToCodepoint('270A-1F3FC'); // [9994, 127996]
+```
+
+While the second, `fromUnicodeToHex`, converts a literal unicode character into a dash
+separated hexcode. Unless `false` is passed as the 2nd argument, zero-width-joiner's
+and variation selectors are removed.
+
+```javascript
+import { fromUnicodeToHex } from 'emoji-database';
+
+fromUnicodeToHex('👨‍👩‍👧‍👦'); // 1F468-1F469-1F467-1F466
+fromUnicodeToHex('👨‍👩‍👧‍👦', false); // 1F468-200D-1F469-200D-1F467-200D-1F466
+```
 
 ### Filesizes
 
@@ -166,6 +201,7 @@ The filesizes of all datasets and regex patterns can be found below, in ascendin
 | data/expanded/map.json | 576.93 KB | 74.43 KB |
 | data/expanded/list.json | 600.26 KB | 74.03 KB |
 
+[cdn]: https://cdn.jsdelivr.net/npm/emoji-database@latest/data/
 [emojione]: https://github.com/Ranks/emojione
 [unicode-emoji-data]: https://github.com/dematerializer/unicode-emoji-data
 [unicode-emoji-annotations]: https://github.com/dematerializer/unicode-emoji-annotations

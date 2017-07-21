@@ -4,7 +4,7 @@
  * @flow
  */
 
-export default function fetchFromCDN(dataset: string, version: string = '0.9.0'): Promise<*> {
+export default function fetchFromCDN(dataset: string, version: string = 'latest'): Promise<*> {
   if (__DEV__) {
     // eslint-disable-next-line
     if (!dataset || dataset.slice(-5) !== '.json') {
