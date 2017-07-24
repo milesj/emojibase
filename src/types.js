@@ -21,6 +21,10 @@ export type UnicodeNamesMap = {
   [hexcode: string]: string,
 };
 
+export type VariationMap = {
+  [hexcode: string]: string, // Description
+};
+
 export type ParsedLine = {
   comment: string,
   fields: string[],
