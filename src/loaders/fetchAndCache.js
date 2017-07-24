@@ -19,6 +19,7 @@ export default async function fetchAndCache<T>(
   log.info('load', `Loading ${name} data from ${url}`);
 
   const cachePath = path.join(CACHE_FOLDER, name);
+  let text = '';
 
   if (fs.existsSync(cachePath)) {
     // log.success('load', `Using ${name} cached data`);
@@ -27,13 +28,19 @@ export default async function fetchAndCache<T>(
   }
 
   // Parse the response
-  const text = await fetch(url)
-    .then(response => response.text())
-    .catch((error) => {
-      log.error('load', `Failed to fetch ${name}: ${error.message}`);
+  try {
+    text = await fetch(url).then((response) => {
+      if (response.ok) {
+        return response.text();
+      }
 
-      throw error;
+      throw new Error(`${response.status} ${response.statusText}`);
     });
+  } catch (error) {
+    log.error('load', `Failed to fetch ${url}: ${error.message}`);
+
+    return {};
+  }
 
   const data = parser(text);
 

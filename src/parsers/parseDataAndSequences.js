@@ -5,24 +5,28 @@
  */
 
 import parse from './parse';
+import extractLineDescription from './extractLineDescription';
 import formatHexcode from '../helpers/formatHexcode';
 import fromHexToCodepoint from '../fromHexToCodepoint';
 
 import type { EmojiDataMap } from '../types';
 
 /**
- * Parses the official unicode emoji data.
+ * Parses the official unicode emoji and emoji-sequences data.
  *
- * Example: http://unicode.org/Public/emoji/5.0/emoji-data.txt
+ * Example:
+ *  http://unicode.org/Public/emoji/5.0/emoji-data.txt
+ *  http://unicode.org/Public/emoji/5.0/emoji-sequences.txt
  */
-export default function parseData(version: string, content: string): EmojiDataMap {
+export default function parseDataAndSequences(version: string, content: string): EmojiDataMap {
   return parse(content).reduce((map, line) => {
     const [rawHexcode, property] = line.fields;
     const unicodeVersion = line.comment.match(/^V?([0-9.]+)/);
     const emoji = {
-      property,
+      description: extractLineDescription(line.comment),
+      property: property || 'Emoji',
       type: 'emoji',
-      unicodeVersion: unicodeVersion ? parseFloat(unicodeVersion[1]) : null,
+      unicodeVersion: unicodeVersion ? parseFloat(unicodeVersion[1]) : 6,
       version: parseFloat(version),
     };
 
@@ -49,7 +53,7 @@ export default function parseData(version: string, content: string): EmojiDataMa
       };
 
       // 1.0 had a different structure
-      if (version === '1.0') {
+      if (version === '1.0' && (property === 'emoji' || property === 'text')) {
         map[hexcode].property = 'Emoji';
         map[hexcode].type = property;
       }

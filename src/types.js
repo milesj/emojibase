@@ -8,6 +8,7 @@ export type Format = 'expanded' | 'standard' | 'compact' | 'custom';
 
 export type EmojiDataMap = {
   [hexcode: string]: {
+    description: string, // Found in each source line comment
     hexcode: string,
     property: string,
     type: 'emoji' | 'text',
