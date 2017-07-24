@@ -4,27 +4,57 @@
  * @flow
  */
 
-export default function parseData(version: string, data: string): string[] {
-  const emojis = [];
+import parse from './parse';
+import formatHexcode from '../helpers/formatHexcode';
+import fromHexToCodepoint from '../fromHexToCodepoint';
 
-  data.split('\n').forEach((line) => {
-    // Skip comment or empty lines
-    if (line.charAt(0) === '#' || !line.trim()) {
-      return;
-    }
+import type { EmojiDataMap } from '../types';
 
-    const emoji = {};
-    const columns = line.split(';');
+/**
+ * Parses the official unicode emoji data.
+ *
+ * Example: http://unicode.org/Public/emoji/5.0/emoji-data.txt
+ */
+export default function parseData(version: string, content: string): EmojiDataMap {
+  return parse(content).reduce((map, line) => {
+    const [rawHexcode, property] = line.fields;
+    const unicodeVersion = line.comment.match(/^V?([0-9.]+)/);
+    const emoji = {
+      property,
+      type: 'emoji',
+      unicodeVersion: unicodeVersion ? parseFloat(unicodeVersion[1]) : null,
+      version: parseFloat(version),
+    };
 
-    // v1 has a different format
-    if (version === '1.0') {
-      emoji.hexcode = columns[0].trim().replace(/ /g, '-');
-      emoji.type = columns[1].trim();
+    // A sequence of emoji
+    if (rawHexcode.includes('..')) {
+      const [lowCodepoint, highCodepoint] = fromHexToCodepoint(rawHexcode, '..');
 
+      for (let codepoint = lowCodepoint; codepoint <= highCodepoint; codepoint += 1) {
+        const hexcode = codepoint.toString(16).padStart(4, '0').toUpperCase();
+
+        map[hexcode] = {
+          ...emoji,
+          hexcode,
+        };
+      }
+
+    // A single emoji
     } else {
+      const hexcode = formatHexcode(rawHexcode);
 
+      map[hexcode] = {
+        ...emoji,
+        hexcode,
+      };
+
+      // 1.0 had a different structure
+      if (version === '1.0') {
+        map[hexcode].property = 'Emoji';
+        map[hexcode].type = property;
+      }
     }
-  });
 
-  return emojis;
+    return map;
+  }, {});
 }

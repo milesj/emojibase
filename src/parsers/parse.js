@@ -13,10 +13,10 @@ import type { ParsedLine } from '../types';
  *  http://unicode.org/Public/10.0.0/ucd/UnicodeData.txt
  *  http://unicode.org/Public/emoji/5.0/emoji-data.txt
  */
-export default function parse(data: string): ParsedLine[] {
+export default function parse(content: string): ParsedLine[] {
   const lines = [];
 
-  data.split('\n').forEach((line) => {
+  content.split('\n').forEach((line) => {
     // Skip comments or empty lines
     if (line.charAt(0) === '#' || !line.trim()) {
       return;
@@ -27,8 +27,8 @@ export default function parse(data: string): ParsedLine[] {
     let comment = '';
 
     if (commentIndex > 0) {
-      comment = line.slice(commentIndex + 1);
-      line = line.slice(0, commentIndex - 1);
+      comment = line.slice(commentIndex + 1).trim();
+      line = line.slice(0, commentIndex - 1).trim();
     }
 
     // Split into fields

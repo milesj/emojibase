@@ -13,8 +13,10 @@ import type { UnicodeNamesMap } from '../types';
  *
  * Example: http://unicode.org/Public/10.0.0/ucd/UnicodeData.txt
  */
-export default function parseNames(data: string): UnicodeNamesMap {
-  return parse(data).reduce((map, [hexcode, name]) => {
+export default function parseNames(content: string): UnicodeNamesMap {
+  return parse(content).reduce((map, line) => {
+    const [hexcode, name] = line.fields;
+
     map[hexcode] = name;
 
     return map;

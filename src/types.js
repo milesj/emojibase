@@ -6,7 +6,19 @@
 
 export type Format = 'expanded' | 'standard' | 'compact' | 'custom';
 
-export type UnicodeNamesMap = { [hexcode: string]: string };
+export type EmojiDataMap = {
+  [hexcode: string]: {
+    hexcode: string,
+    property: string,
+    type: 'emoji' | 'text',
+    unicodeVersion: string,
+    version: string,
+  },
+};
+
+export type UnicodeNamesMap = {
+  [hexcode: string]: string,
+};
 
 export type ParsedLine = {
   comment: string,

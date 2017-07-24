@@ -16,24 +16,26 @@ export default async function fetchAndCache<T>(
   name: string,
   parser: (text: string) => T,
 ): T {
-  log.info('load', `Fetching ${name} data from ${url}`);
+  log.info('load', `Loading ${name} data from ${url}`);
 
   const cachePath = path.join(CACHE_FOLDER, name);
 
   if (fs.existsSync(cachePath)) {
-    log.success('load', `Using ${name} cached data`);
+    // log.success('load', `Using ${name} cached data`);
 
-    return JSON.parse(fs.readFileSync(cachePath, 'utf8'));
+    // return JSON.parse(fs.readFileSync(cachePath, 'utf8'));
   }
 
   // Parse the response
-  const data = await fetch(url)
-    .then(response => parser(String(response.text())))
+  const text = await fetch(url)
+    .then(response => response.text())
     .catch((error) => {
       log.error('load', `Failed to fetch ${name}: ${error.message}`);
 
       throw error;
     });
+
+  const data = parser(text);
 
   // Cache the data
   fs.writeFileSync(cachePath, JSON.stringify(data), 'utf8');
