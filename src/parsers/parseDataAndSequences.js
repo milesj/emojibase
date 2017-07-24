@@ -6,6 +6,7 @@
 
 import parse from './parse';
 import extractLineDescription from './extractLineDescription';
+import extractUnicodeVersion from './extractUnicodeVersion';
 import formatHexcode from '../helpers/formatHexcode';
 import fromHexToCodepoint from '../fromHexToCodepoint';
 
@@ -21,14 +22,18 @@ import type { EmojiDataMap } from '../types';
 export default function parseDataAndSequences(version: string, content: string): EmojiDataMap {
   return parse(content).reduce((map, line) => {
     const [rawHexcode, property] = line.fields;
-    const unicodeVersion = line.comment.match(/^V?([0-9.]+)/);
     const emoji = {
       description: extractLineDescription(line.comment),
       property: property || 'Emoji',
       type: 'emoji',
-      unicodeVersion: unicodeVersion ? parseFloat(unicodeVersion[1]) : 6,
+      unicodeVersion: extractUnicodeVersion(line.comment),
       version: parseFloat(version),
     };
+
+    // Fix legacy data
+    if (property === 'Emoji_Combining_Sequence') {
+      emoji.property = 'Emoji_Keycap_Sequence';
+    }
 
     // A sequence of emoji
     if (rawHexcode.includes('..')) {

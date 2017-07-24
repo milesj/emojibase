@@ -17,12 +17,12 @@ export type EmojiDataMap = {
   },
 };
 
-export type UnicodeNamesMap = {
-  [hexcode: string]: string,
+export type EmojiVariationMap = {
+  [hexcode: string]: string, // Description
 };
 
-export type VariationMap = {
-  [hexcode: string]: string, // Description
+export type UnicodeNamesMap = {
+  [hexcode: string]: string,
 };
 
 export type ParsedLine = {

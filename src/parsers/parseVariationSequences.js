@@ -7,14 +7,14 @@
 import parse from './parse';
 import extractLineDescription from './extractLineDescription';
 
-import type { VariationMap } from '../types';
+import type { EmojiVariationMap } from '../types';
 
 /**
- * Parses the official unicode list for emoji varation sequences.
+ * Parses the official unicode emoji-varation-sequences data.
  *
- * Example: http://unicode.org/Public/10.0.0/ucd/UnicodeData.txt
+ * Example: http://unicode.org/Public/emoji/5.0/emoji-variation-sequences.txt
  */
-export default function parseVariationSequences(content: string): VariationMap {
+export default function parseVariationSequences(content: string): EmojiVariationMap {
   return parse(content).reduce((map, line) => {
     const [hexcode] = line.fields;
 
