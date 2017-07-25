@@ -17,6 +17,14 @@ export type EmojiDataMap = {
   },
 };
 
+export type EmojiGroupMap = {
+  [hexcode: string]: {
+    group: string,
+    order: number,
+    subgroup: string,
+  },
+};
+
 export type EmojiVariationMap = {
   [hexcode: string]: string, // Description
 };
