@@ -3,12 +3,14 @@
  * @license     https://opensource.org/licenses/MIT
  * @flow
  */
+/* eslint-disable no-nested-ternary */
 
 import parse from './parse';
 import extractLineDescription from './extractLineDescription';
 import extractUnicodeVersion from './extractUnicodeVersion';
 import formatHexcode from '../helpers/formatHexcode';
 import fromHexToCodepoint from '../fromHexToCodepoint';
+import { TEXT, EMOJI } from '../constants';
 
 import type { EmojiDataMap } from '../types';
 
@@ -21,11 +23,11 @@ import type { EmojiDataMap } from '../types';
  */
 export default function parseDataAndSequences(version: string, content: string): EmojiDataMap {
   return parse(content).reduce((map, line) => {
-    const [rawHexcode, property] = line.fields;
+    const [rawHexcode, property, , modifier] = line.fields;
     const emoji = {
       description: extractLineDescription(line.comment),
       property: property || 'Emoji',
-      type: 'emoji',
+      type: EMOJI,
       unicodeVersion: extractUnicodeVersion(line.comment),
       version: parseFloat(version),
     };
@@ -58,9 +60,13 @@ export default function parseDataAndSequences(version: string, content: string):
       };
 
       // 1.0 had a different structure
-      if (version === '1.0' && (property === 'emoji' || property === 'text')) {
-        map[hexcode].property = 'Emoji';
-        map[hexcode].type = property;
+      if (version === '1.0') {
+        map[hexcode].type = (property === 'emoji') ? EMOJI : TEXT;
+        map[hexcode].property =
+          (modifier === 'primary' || modifier === 'secondary') ? 'Emoji_Modifier_Base' :
+            (modifier === 'modifier') ? 'Emoji_Modifier' :
+              (property === 'emoji') ? 'Emoji' :
+                'Text';
       }
     }
 

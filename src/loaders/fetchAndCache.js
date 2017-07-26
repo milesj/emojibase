@@ -8,26 +8,26 @@ import 'isomorphic-fetch';
 import fs from 'fs';
 import path from 'path';
 import log from '../helpers/log';
-
-const CACHE_FOLDER: string = path.resolve(__dirname, '../../cache');
+import readCache from '../helpers/readCache';
+import writeCache from '../helpers/writeCache';
 
 export default async function fetchAndCache<T>(
   url: string,
   name: string,
   parser: (text: string) => T,
 ): T {
-  log.info('load', `Loading ${name} data from ${url}`);
+  // Check the cache first
+  const cache = readCache(name);
 
-  const cachePath = path.join(CACHE_FOLDER, name);
-  let text = '';
-
-  if (fs.existsSync(cachePath)) {
-    // log.success('load', `Using ${name} cached data`);
-
-    // return JSON.parse(fs.readFileSync(cachePath, 'utf8'));
+  if (cache) {
+    return cache;
   }
 
+  log.info('load', `Fetching ${name} data from ${url}`);
+
   // Parse the response
+  let text = '';
+
   try {
     text = await fetch(url).then((response) => {
       if (response.ok) {
@@ -42,10 +42,10 @@ export default async function fetchAndCache<T>(
     return {};
   }
 
+  // Cache the data
   const data = parser(text);
 
-  // Cache the data
-  fs.writeFileSync(cachePath, JSON.stringify(data), 'utf8');
+  writeCache(name, data);
 
   log.success('load', `Fetched and cached ${name}`);
 

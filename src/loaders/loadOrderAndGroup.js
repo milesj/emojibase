@@ -13,7 +13,7 @@ import type { EmojiGroupMap } from '../types';
 export default function loadOrderAndGroup(version: string = LATEST_EMOJI_VERSION): EmojiGroupMap {
   return fetchAndCache(
     `http://unicode.org/Public/emoji/${version}/emoji-test.txt`,
-    `grouping-${version}.json`,
+    `group-order-${version}.json`,
     parseOrderAndGroup,
   );
 }

@@ -11,7 +11,7 @@ export type EmojiDataMap = {
     description: string, // Found in each source line comment
     hexcode: string,
     property: string,
-    type: 'emoji' | 'text',
+    type: 0 | 1,
     unicodeVersion: string,
     version: string,
   },
@@ -19,9 +19,9 @@ export type EmojiDataMap = {
 
 export type EmojiGroupMap = {
   [hexcode: string]: {
-    group: string,
+    group: number,
     order: number,
-    subgroup: string,
+    subgroup: number,
   },
 };
 

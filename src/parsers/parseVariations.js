@@ -14,7 +14,7 @@ import type { EmojiVariationMap } from '../types';
  *
  * Example: http://unicode.org/Public/emoji/5.0/emoji-variation-sequences.txt
  */
-export default function parseVariationSequences(content: string): EmojiVariationMap {
+export default function parseVariations(content: string): EmojiVariationMap {
   return parse(content).reduce((map, line) => {
     const [hexcode] = line.fields;
 

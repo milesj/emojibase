@@ -8,6 +8,7 @@ import parse from './parse';
 import extractLineDescription from './extractLineDescription';
 import extractUnicodeVersion from './extractUnicodeVersion';
 import formatHexcode from '../helpers/formatHexcode';
+import { EMOJI } from '../constants'
 
 import type { EmojiDataMap } from '../types';
 
@@ -25,7 +26,7 @@ export default function parseZwjSequences(version: string, content: string): Emo
       hexcode,
       description: description || extractLineDescription(line.comment),
       property: property || 'Emoji_ZWJ_Sequence',
-      type: 'emoji',
+      type: EMOJI,
       unicodeVersion: extractUnicodeVersion(line.comment),
       version: parseFloat(version),
     };

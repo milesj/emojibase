@@ -4,11 +4,10 @@
  * @flow
  */
 
-// The first unicode version in which emoji were included
-const FIRST_UNICODE_RELEASE_VERSION = 6;
+import { FIRST_UNICODE_EMOJI_VERSION } from '../constants';
 
 export default function extractUnicodeVersion(comment: string): ?number {
   const unicodeVersion = comment.match(/^V?([0-9.]+)/);
 
-  return unicodeVersion ? parseFloat(unicodeVersion[1]) : FIRST_UNICODE_RELEASE_VERSION;
+  return parseFloat(unicodeVersion ? unicodeVersion[1] : FIRST_UNICODE_EMOJI_VERSION);
 }

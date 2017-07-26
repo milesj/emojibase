@@ -6,6 +6,7 @@
 
 import formatHexcode from '../helpers/formatHexcode';
 import slug from '../helpers/slug';
+import writeCache from '../helpers/writeCache';
 
 import type { EmojiGroupMap } from '../types';
 
@@ -16,8 +17,13 @@ import type { EmojiGroupMap } from '../types';
  */
 export default function parseOrderAndGroup(content: string): EmojiGroupMap {
   const map = {};
+  const groups = {};
+  const subgroups = {};
+  const hierarchy = {};
   let group = '';
+  let groupIndex = -1;
   let subgroup = '';
+  let subgroupIndex = -1;
   let order = 1;
 
   content.split('\n').forEach((line) => {
@@ -30,24 +36,41 @@ export default function parseOrderAndGroup(content: string): EmojiGroupMap {
     if (line.charAt(0) === '#') {
       if (line.startsWith('# group:')) {
         group = slug(line.slice(8).trim());
+        groupIndex += 1;
+        groups[groupIndex] = group;
 
       } else if (line.startsWith('# subgroup:')) {
         subgroup = slug(line.slice(11).trim());
+        subgroupIndex += 1;
+        subgroups[subgroupIndex] = subgroup;
+
+        if (hierarchy[groupIndex]) {
+          hierarchy[groupIndex].push(subgroupIndex);
+        } else {
+          hierarchy[groupIndex] = [subgroupIndex];
+        }
       }
 
       return;
     }
 
     // Persist order and group
-    const hexcode = formatHexcode(line.slice(0, line.indexOf(' ') + 1).trim());
+    const hexcode = formatHexcode(line.split(';')[0].trim());
 
     map[hexcode] = {
-      group,
-      subgroup,
       order,
+      group: groupIndex,
+      subgroup: subgroupIndex,
     };
 
     order += 1;
+  });
+
+  // Cache groups to reference later for constants
+  writeCache('group-hierarchy.json', {
+    groups,
+    subgroups,
+    hierarchy,
   });
 
   return map;
