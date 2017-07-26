@@ -8,7 +8,7 @@ import parse from './parse';
 import extractLineDescription from './extractLineDescription';
 import extractUnicodeVersion from './extractUnicodeVersion';
 import formatHexcode from '../helpers/formatHexcode';
-import { EMOJI } from '../constants'
+import { EMOJI } from '../constants';
 
 import type { EmojiDataMap } from '../types';
 

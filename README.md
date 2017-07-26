@@ -8,6 +8,9 @@ regex patterns. Data is generated with [unicode-emoji-data][unicode-emoji-data],
 [unicode-emoji-annotations][unicode-emoji-annotations], and [emojione][emojione] packages,
 for increased accuracy, interoperability, and customizability.
 
+* Supports the Emoji 5.0 and Unicode 10.0 specifications.
+* Supports emoji sets [ED-20 through ED-25](http://www.unicode.org/reports/tr51/#def_basic_emoji_set).
+
 ## Installation
 
 ```
