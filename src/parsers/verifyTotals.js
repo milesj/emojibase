@@ -35,7 +35,6 @@ export default function verifyTotals<T: Object>(
   // Check totals
   Object.keys(totals).forEach((property) => {
     if (property in totalsToCheck) {
-      // $FlowIgnore
       const expected = totals[property];
       const actual = totalsToCheck[property];
 

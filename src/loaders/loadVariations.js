@@ -16,6 +16,6 @@ export default function loadVariations(
   return fetchAndCache(
     `http://unicode.org/Public/emoji/${version}/emoji-variation-sequences.txt`,
     `variations-${version}.json`,
-    parseVariations,
+    data => parseVariations(version, data),
   );
 }

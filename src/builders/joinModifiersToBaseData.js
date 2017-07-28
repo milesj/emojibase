@@ -20,7 +20,6 @@ const SKIN_MODIFIERS: string[] = [
   DARK_SKIN_MODIFIER, // 5
 ];
 
-// TODO
 export default function joinModifiersToBaseData(emojis: Object, modifiers: Object) {
   Object.keys(emojis).forEach((hexcode) => {
     const emoji = emojis[hexcode];

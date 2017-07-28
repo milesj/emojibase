@@ -5,22 +5,20 @@
  */
 
 import 'isomorphic-fetch';
-import fs from 'fs';
-import path from 'path';
 import log from '../helpers/log';
 import readCache from '../helpers/readCache';
 import writeCache from '../helpers/writeCache';
 
-export default async function fetchAndCache<T>(
+export default async function fetchAndCache<T: Object>(
   url: string,
   name: string,
   parser: (text: string) => T,
-): T {
+): Promise<T> {
   // Check the cache first
   const cache = readCache(name);
 
   if (cache) {
-    return cache;
+    return Promise.resolve(cache);
   }
 
   log.info('load', `Fetching ${name} data from ${url}`);
@@ -39,7 +37,8 @@ export default async function fetchAndCache<T>(
   } catch (error) {
     log.error('load', `Failed to fetch ${url}: ${error.message}`);
 
-    return {};
+    // $FlowIgnore
+    return Promise.resolve({});
   }
 
   // Cache the data
@@ -49,5 +48,5 @@ export default async function fetchAndCache<T>(
 
   log.success('load', `Fetched and cached ${name}`);
 
-  return data;
+  return Promise.resolve(data);
 }

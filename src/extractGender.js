@@ -7,7 +7,6 @@
 export default function extractGender(name: string): ?string {
   if (name.indexOf(', FEMALE SIGN') >= 0) {
     return 'female';
-
   } else if (name.indexOf(', MALE SIGN') >= 0) {
     return 'male';
   }

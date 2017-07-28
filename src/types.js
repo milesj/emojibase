@@ -3,28 +3,41 @@
  * @license     https://opensource.org/licenses/MIT
  * @flow
  */
-/* eslint-disable no-use-before-define */
+/* eslint-disable */
 
 export type Format = 'expanded' | 'standard' | 'compact' | 'custom';
 
-export type EmojiDataMap = {
-  [hexcode: string]: {
-    description: string, // Found in each source line comment
-    hexcode: string,
-    property: [Property],
-    type: Presentation,
-    unicodeVersion: string,
-    version: string,
-  },
+export type HexcodeMap<T> = { [hexcode: string]: T };
+
+export type Emoji = {
+  ...EmojiData,
+  ...EmojiGroup,
+  modifications?: {
+    ...EmojiData,
+    skin: SkinTone,
+  }[],
 };
 
-export type EmojiGroupMap = {
-  [hexcode: string]: {
-    group: number,
-    order: number,
-    subgroup: number,
-  },
+export type EmojiMap = HexcodeMap<Emoji>;
+
+export type EmojiData = {
+  description: string, // Found in each source line comment
+  hexcode: string,
+  property: Property[],
+  type: Presentation,
+  unicodeVersion: string,
+  version: string,
 };
+
+export type EmojiDataMap = HexcodeMap<EmojiData>;
+
+export type EmojiGroup = {
+  group: number,
+  order: number,
+  subgroup: number,
+};
+
+export type EmojiGroupMap = HexcodeMap<EmojiGroup>;
 
 export type EmojiVariationMap = {
   [hexcode: string]: string, // Description
@@ -37,7 +50,7 @@ export type ParsedLine = {
   fields: string[],
 };
 
-export type ParsedTotals = { [property: Property]: number };
+export type ParsedTotals = { [property: string]: number };
 
 export type Presentation = 0 | 1;
 

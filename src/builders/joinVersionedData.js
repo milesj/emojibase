@@ -9,16 +9,15 @@ import loadData from '../loaders/loadData';
 import mergeEmojiObject from './mergeEmojiObject';
 import { LATEST_EMOJI_VERSION } from '../constants';
 
-import type { UnicodeNamesMap, EmojiGroupMap } from '../types';
+import type { UnicodeNamesMap, EmojiMap, EmojiGroupMap } from '../types';
 
 export default async function joinVersionedData(
   names: UnicodeNamesMap,
   groups: EmojiGroupMap,
-): {
-  // TODO
-  emojis: Object,
-  modifiers: Object,
-} {
+): Promise<{
+  emojis: EmojiMap,
+  modifiers: EmojiMap,
+}> {
   const latestVersion = parseFloat(LATEST_EMOJI_VERSION);
   const emojis = {};
   const modifiers = {};
@@ -67,8 +66,8 @@ export default async function joinVersionedData(
     });
   }
 
-  return {
+  return Promise.resolve({
     emojis,
     modifiers,
-  };
+  });
 }
