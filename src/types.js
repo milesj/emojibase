@@ -3,6 +3,7 @@
  * @license     https://opensource.org/licenses/MIT
  * @flow
  */
+/* eslint-disable no-use-before-define */
 
 export type Format = 'expanded' | 'standard' | 'compact' | 'custom';
 
@@ -10,7 +11,7 @@ export type EmojiDataMap = {
   [hexcode: string]: {
     description: string, // Found in each source line comment
     hexcode: string,
-    property: string,
+    property: [Property],
     type: Presentation,
     unicodeVersion: string,
     version: string,
@@ -36,7 +37,16 @@ export type ParsedLine = {
   fields: string[],
 };
 
+export type ParsedTotals = { [property: Property]: number };
+
 export type Presentation = 0 | 1;
+
+export type Property = 'Emoji' |
+  'Emoji_Presentation' |
+  'Emoji_Modifier' |
+  'Emoji_Modifier_Base' |
+  'Emoji_Component' |
+  'Text'; // Not a real property, but we use it to invalidate emojis
 
 export type SkinTone = 1 | 2 | 3 | 4 | 5;
 

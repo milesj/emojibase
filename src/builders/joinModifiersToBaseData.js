@@ -26,7 +26,7 @@ export default function joinModifiersToBaseData(emojis: Object, modifiers: Objec
     const emoji = emojis[hexcode];
 
     // Only base modifiers may use skin tones
-    if (emoji.property !== 'Emoji_Modifier_Base') {
+    if (!emoji.property.includes('Emoji_Modifier_Base')) {
       return;
     }
 

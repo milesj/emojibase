@@ -43,27 +43,27 @@ export default async function joinVersionedData(
         throw new Error(`Missing name for ${hexcode}`);
       }
 
-      // Partition data based on property
-      switch (emoji.property) {
-        case 'Emoji_Component': // 5.0
-        case 'Emoji_Modifier':
-          modifiers[hexcode] = emoji;
-          break;
-
-        default:
-          // Pull in the official group and order
-          if (groups[hexcode]) {
-            emoji = {
-              ...emoji,
-              ...groups[hexcode],
-            };
-          } else {
-            throw new Error(`Missing group and order for ${hexcode}`);
-          }
-
-          emojis[hexcode] = emoji;
-          break;
+      // Pull in the official group and order
+      if (groups[hexcode]) {
+        emoji = {
+          ...emoji,
+          ...groups[hexcode],
+        };
       }
+
+      // Partition data based on property
+      emoji.property.forEach((property) => {
+        switch (property) {
+          case 'Emoji_Component': // 5.0
+          case 'Emoji_Modifier':
+            modifiers[hexcode] = emoji;
+            break;
+
+          default:
+            emojis[hexcode] = emoji;
+            break;
+        }
+      });
     });
   }
 

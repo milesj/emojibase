@@ -6,6 +6,7 @@
 
 import parse from './parse';
 import extractLineDescription from './extractLineDescription';
+import verifyTotals from './verifyTotals';
 
 import type { EmojiVariationMap } from '../types';
 
@@ -14,12 +15,15 @@ import type { EmojiVariationMap } from '../types';
  *
  * Example: http://unicode.org/Public/emoji/5.0/emoji-variation-sequences.txt
  */
-export default function parseVariations(content: string): EmojiVariationMap {
-  return parse(content).reduce((map, line) => {
+export default function parseVariations(version: string, content: string): EmojiVariationMap {
+  const { lines, totals } = parse(content);
+  const data = lines.reduce((map, line) => {
     const [hexcode] = line.fields;
 
     map[hexcode] = extractLineDescription(line.comment);
 
     return map;
   }, {});
+
+  return verifyTotals(version, data, totals);
 }

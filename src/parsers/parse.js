@@ -4,7 +4,7 @@
  * @flow
  */
 
-import type { ParsedLine } from '../types';
+import type { ParsedLine, ParsedTotals } from '../types';
 
 /**
  * Parses unicode documents in which each line contains tabular data separated by semi-colons.
@@ -13,12 +13,37 @@ import type { ParsedLine } from '../types';
  *  http://unicode.org/Public/10.0.0/ucd/UnicodeData.txt
  *  http://unicode.org/Public/emoji/5.0/emoji-data.txt
  */
-export default function parse(content: string): ParsedLine[] {
+export default function parse(content: string): {
+  lines: ParsedLine[],
+  totals: ParsedTotals,
+} {
   const lines = [];
+  const totals = {};
+  let lastProperty = '';
+  let lastTotal = 0;
 
   content.split('\n').forEach((line) => {
-    // Skip comments or empty lines
-    if (line.charAt(0) === '#' || !line.trim()) {
+    // Skip empty lines
+    if (!line.trim()) {
+      return;
+
+    // Skip comments
+    } else if (line.charAt(0) === '#') {
+      // But extract property
+      if (line.startsWith('# @missing')) {
+        if (lastTotal) {
+          totals[lastProperty] = lastTotal;
+          lastTotal = 0;
+        }
+
+        lastProperty = line.split(';')[1].trim();
+      }
+
+      // And the total
+      if (line.startsWith('# Total')) {
+        lastTotal = parseFloat(line.split(':')[1].trim());
+      }
+
       return;
     }
 
@@ -42,5 +67,13 @@ export default function parse(content: string): ParsedLine[] {
     });
   });
 
-  return lines;
+  // Capture the last property
+  if (lastProperty && lastTotal) {
+    totals[lastProperty] = lastTotal;
+  }
+
+  return {
+    lines,
+    totals,
+  };
 }

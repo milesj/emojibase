@@ -24,7 +24,7 @@ export default async function buildEmojiData() {
   // Join modifiers (skin tones) to base modifiers
   joinModifiersToBaseData(emojis, modifiers);
 
-  console.log(modifiers);
+  // console.log(modifiers);
 
   // Write to cache
   writeCache('final-emoji-data.json', emojis);

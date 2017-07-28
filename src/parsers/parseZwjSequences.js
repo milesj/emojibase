@@ -7,6 +7,7 @@
 import parse from './parse';
 import extractLineDescription from './extractLineDescription';
 import extractUnicodeVersion from './extractUnicodeVersion';
+import verifyTotals from './verifyTotals';
 import formatHexcode from '../helpers/formatHexcode';
 import { EMOJI } from '../constants';
 
@@ -18,14 +19,15 @@ import type { EmojiDataMap } from '../types';
  * Example: http://unicode.org/Public/emoji/5.0/emoji-zwj-sequences.txt
  */
 export default function parseZwjSequences(version: string, content: string): EmojiDataMap {
-  return parse(content).reduce((map, line) => {
+  const { lines, totals } = parse(content);
+  const data = lines.reduce((map, line) => {
     const [rawHexcode, property, description] = line.fields;
     const hexcode = formatHexcode(rawHexcode);
 
     map[hexcode] = {
       hexcode,
       description: description || extractLineDescription(line.comment),
-      property: property || 'Emoji_ZWJ_Sequence',
+      property: [property || 'Emoji_ZWJ_Sequence'],
       type: EMOJI,
       unicodeVersion: extractUnicodeVersion(line.comment),
       version: parseFloat(version),
@@ -33,4 +35,6 @@ export default function parseZwjSequences(version: string, content: string): Emo
 
     return map;
   }, {});
+
+  return verifyTotals(version, data, totals);
 }
