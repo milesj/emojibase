@@ -9,11 +9,12 @@ import loadData from '../loaders/loadData';
 import mergeEmojiObject from './mergeEmojiObject';
 import { LATEST_EMOJI_VERSION } from '../constants';
 
-import type { UnicodeNamesMap, EmojiMap, EmojiGroupMap } from '../types';
+import type { UnicodeNamesMap, EmojiMap, EmojiGroupMap, EmojiVariationMap } from '../types';
 
 export default async function joinVersionedData(
   names: UnicodeNamesMap,
   groups: EmojiGroupMap,
+  variations: EmojiVariationMap,
 ): Promise<{
   emojis: EmojiMap,
   modifiers: EmojiMap,
@@ -48,6 +49,11 @@ export default async function joinVersionedData(
           ...emoji,
           ...groups[hexcode],
         };
+      }
+
+      // Pull in text and emoji variations
+      if (variations[hexcode]) {
+        emoji.variations = variations[hexcode];
       }
 
       // Partition data based on property

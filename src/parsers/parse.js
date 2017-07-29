@@ -19,7 +19,7 @@ export default function parse(content: string): {
 } {
   const lines = [];
   const totals = {};
-  let lastProperty = '';
+  let lastProperty = 'Emoji';
   let lastTotal = 0;
 
   content.split('\n').forEach((line) => {
@@ -40,7 +40,7 @@ export default function parse(content: string): {
       }
 
       // And the total
-      if (line.startsWith('# Total')) {
+      if (line.startsWith('# Total') || line.startsWith('#Total')) {
         lastTotal = parseFloat(line.split(':')[1].trim());
       }
 

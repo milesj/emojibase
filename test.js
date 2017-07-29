@@ -17,4 +17,8 @@
 
 const buildEmojiData = require('./lib/builders/buildEmojiData').default;
 
-buildEmojiData();
+Promise.resolve(buildEmojiData())
+  .then()
+  .catch((error) => {
+    console.error(error);
+  });

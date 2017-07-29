@@ -16,6 +16,7 @@ export type Emoji = {
     ...EmojiData,
     skin: SkinTone,
   }[],
+  variations?: EmojiVariation,
 };
 
 export type EmojiMap = HexcodeMap<Emoji>;
@@ -39,9 +40,13 @@ export type EmojiGroup = {
 
 export type EmojiGroupMap = HexcodeMap<EmojiGroup>;
 
-export type EmojiVariationMap = {
-  [hexcode: string]: string, // Description
+export type EmojiVariation = {
+  text: string,
+  emoji: string,
+  property: Property[],
 };
+
+export type EmojiVariationMap = HexcodeMap<EmojiVariation>;
 
 export type Gender = 0 | 1;
 
@@ -56,9 +61,13 @@ export type Presentation = 0 | 1;
 
 export type Property = 'Emoji' |
   'Emoji_Presentation' |
+  'Emoji_Component' |
   'Emoji_Modifier' |
   'Emoji_Modifier_Base' |
-  'Emoji_Component' |
+  'Emoji_Modifier_Sequence' |
+  'Emoji_Flag_Sequence' |
+  'Emoji_Keycap_Sequence' |
+  'Emoji_ZWJ_Sequence' |
   'Text'; // Not a real property, but we use it to invalidate emojis
 
 export type SkinTone = 1 | 2 | 3 | 4 | 5;
