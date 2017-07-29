@@ -25,10 +25,7 @@ const SKIN_MODIFIERS = {
   [DARK_SKIN]: DARK_SKIN_MODIFIER, // 5
 };
 
-export default function joinModifiersToData(
-  emojis: Object,
-  modifiers: Object,
-) {
+export default function joinModifiersToData(emojis: Object) {
   Object.keys(emojis).forEach((hexcode) => {
     const emoji = emojis[hexcode];
 
@@ -39,7 +36,7 @@ export default function joinModifiersToData(
 
     // Add an array of skin tone modifications
     Object.keys(SKIN_MODIFIERS).forEach((skinTone) => {
-      const mod = modifiers[SKIN_MODIFIERS[skinTone]];
+      const mod = emojis[SKIN_MODIFIERS[skinTone]];
 
       if (!emoji.modifications) {
         emoji.modifications = [];

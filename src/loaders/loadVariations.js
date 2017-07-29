@@ -10,9 +10,7 @@ import { LATEST_EMOJI_VERSION } from '../constants';
 
 import type { EmojiVariationMap } from '../types';
 
-export default function loadVariations(
-  version: string = LATEST_EMOJI_VERSION,
-): EmojiVariationMap {
+export default function loadVariations(version: string = LATEST_EMOJI_VERSION): EmojiVariationMap {
   return fetchAndCache(
     `http://unicode.org/Public/emoji/${version}/emoji-variation-sequences.txt`,
     `variations-${version}.json`,
