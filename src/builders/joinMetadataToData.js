@@ -4,6 +4,9 @@
  * @flow
  */
 
+import hasProperty from '../helpers/hasProperty';
+import { SEQUENCE_REMOVAL_PATTERN } from '../constants';
+
 import type { UnicodeNamesMap, EmojiGroupMap, EmojiVariationMap } from '../types';
 
 export default async function joinMetadataToData(
@@ -15,16 +18,27 @@ export default async function joinMetadataToData(
   Object.keys(emojis).forEach((hexcode) => {
     const emoji = emojis[hexcode];
 
-    // Pull in the official name
-    if (names[hexcode]) {
-      emoji.name = names[hexcode];
+    // Pull in the official name for each hexcode part
+    const name = [];
 
-    } else if (emoji.description) {
-      emoji.name = emoji.description.toUpperCase();
+    // Tag and flag sequences don't have meaningful names,
+    // so use the descriptions parsed from the offical data files
+    if (hasProperty(emoji.property, ['Emoji_Flag_Sequence', 'Emoji_Tag_Sequence'])) {
+      name.push(emoji.description.toUpperCase());
 
     } else {
-      throw new Error(`Unknown name detected for ${hexcode}`);
+      hexcode.split('-').forEach((code) => {
+        if (code.match(SEQUENCE_REMOVAL_PATTERN)) {
+          return;
+        }
+
+        if (names[code]) {
+          name.push(names[code]);
+        }
+      });
     }
+
+    emoji.name = name.join(', ');
 
     // Pull in the official group and order
     if (groups[hexcode]) {

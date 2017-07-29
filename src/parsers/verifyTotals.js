@@ -13,7 +13,7 @@ export default function verifyTotals<T: Object>(
   data: T,
   totals: ParsedTotals,
 ): T {
-  // First version didnt have totals
+  // v1.0 doesnt have totals
   if (version === '1.0') {
     return data;
   }

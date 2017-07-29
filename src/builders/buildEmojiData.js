@@ -39,4 +39,6 @@ export default async function buildEmojiData() {
 
   // Write to cache
   writeCache('final-emoji-data.json', emojis);
+
+  log.success('build', 'Built emoji data');
 }

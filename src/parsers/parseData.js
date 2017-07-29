@@ -59,6 +59,7 @@ export default function parseData(version: string, content: string): EmojiDataMa
 
     // A single emoji
     } else {
+      // v1.0 had a different structure
       if (version === '1.0') {
         emoji.type = (property === 'emoji') ? EMOJI : TEXT;
         emoji.property = [

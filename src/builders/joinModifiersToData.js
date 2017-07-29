@@ -4,6 +4,7 @@
  * @flow
  */
 
+import hasProperty from '../helpers/hasProperty';
 import {
   LIGHT_SKIN,
   LIGHT_SKIN_MODIFIER,
@@ -30,7 +31,7 @@ export default function joinModifiersToData(emojis: Object) {
     const emoji = emojis[hexcode];
 
     // Only base modifiers may use skin tones
-    if (!emoji.property.includes('Emoji_Modifier_Base')) {
+    if (!hasProperty(emoji.property, ['Emoji_Modifier_Base'])) {
       return;
     }
 
@@ -44,7 +45,7 @@ export default function joinModifiersToData(emojis: Object) {
 
       emoji.modifications.push({
         ...mod,
-        name: `${emoji.name}; ${mod.name}`,
+        name: `${emoji.name}, ${mod.name}`,
         hexcode: `${emoji.hexcode}-${mod.hexcode}`,
         skin: skinTone,
       });

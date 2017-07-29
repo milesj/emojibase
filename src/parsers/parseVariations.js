@@ -4,6 +4,7 @@
  * @flow
  */
 
+import formatHexcode from '../helpers/formatHexcode';
 import parse from './parse';
 import verifyTotals from './verifyTotals';
 
@@ -17,8 +18,9 @@ import type { EmojiVariationMap } from '../types';
 export default function parseVariations(version: string, content: string): EmojiVariationMap {
   const { lines, totals } = parse(content);
   const data = lines.reduce((map, line) => {
-    const [hexcode, style] = line.fields;
-    const baseHexcode = hexcode.split(' ')[0].trim();
+    const [rawHexcode, style] = line.fields;
+    const baseHexcode = rawHexcode.split(' ')[0].trim();
+    const hexcode = formatHexcode(rawHexcode);
     const type = style.replace('style', '').trim();
 
     if (map[baseHexcode]) {

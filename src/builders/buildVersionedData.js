@@ -62,4 +62,6 @@ export default async function buildVersionedData() {
   // Cache the partitioned files
   writeCache('emoji-versions.json', emojiVersions);
   writeCache('unicode-versions.json', unicodeVersions);
+
+  log.success('build', 'Built versioned data');
 }
