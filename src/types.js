@@ -21,6 +21,7 @@ export type EmojiMap = HexcodeMap<Emoji>;
 
 export type EmojiData = {
   description: string,
+  gender?: ?Gender,
   hexcode: string,
   property: Property[],
   type: Presentation,

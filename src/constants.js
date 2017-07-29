@@ -29,6 +29,8 @@ export const MEDIUM_LIGHT_SKIN_MODIFIER: string = '1F3FC'; // EMOJI MODIFIER FIT
 export const MEDIUM_SKIN_MODIFIER: string = '1F3FD'; // EMOJI MODIFIER FITZPATRICK TYPE-4
 export const MEDIUM_DARK_SKIN_MODIFIER: string = '1F3FE'; // EMOJI MODIFIER FITZPATRICK TYPE-5
 export const DARK_SKIN_MODIFIER: string = '1F3FF'; // EMOJI MODIFIER FITZPATRICK TYPE-6
+export const FEMALE_SIGN: string = '2640'; // FEMALE SIGN
+export const MALE_SIGN: string = '2642'; // MALE SIGN
 
 // Important release versions in generating accurate data.
 

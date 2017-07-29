@@ -5,6 +5,7 @@
  */
 
 import parse from './parse';
+import extractGender from './extractGender';
 import extractLineDescription from './extractLineDescription';
 import extractUnicodeVersion from './extractUnicodeVersion';
 import verifyTotals from './verifyTotals';
@@ -37,6 +38,7 @@ export default function parseSequences(
       type: EMOJI,
       unicodeVersion: extractUnicodeVersion(line.comment),
       version: parseFloat(version),
+      gender: extractGender(hexcode),
     };
 
     return map;
