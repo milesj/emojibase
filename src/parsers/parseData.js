@@ -16,23 +16,17 @@ import { TEXT, EMOJI } from '../constants';
 import type { EmojiDataMap } from '../types';
 
 /**
- * Parses the official unicode emoji and emoji-sequences data.
+ * Parses the official unicode emoji data.
  *
- * Example:
- *  http://unicode.org/Public/emoji/5.0/emoji-data.txt
- *  http://unicode.org/Public/emoji/5.0/emoji-sequences.txt
+ * Example: http://unicode.org/Public/emoji/5.0/emoji-data.txt
  */
-export default function parseDataAndSequences(version: string, content: string): EmojiDataMap {
+export default function parseData(version: string, content: string): EmojiDataMap {
   const { lines, totals } = parse(content);
   const data = lines.reduce((map, line) => {
-    const [rawHexcode, property, , modifier] = line.fields;
+    const [rawHexcode, property,, modifier] = line.fields;
     const emoji = {
       description: extractLineDescription(line.comment),
-      property: [
-        (property === 'Emoji_Combining_Sequence')
-          ? 'Emoji_Keycap_Sequence'
-          : (property || 'Emoji'),
-      ],
+      property: [property || 'Emoji'],
       type: EMOJI,
       unicodeVersion: extractUnicodeVersion(line.comment),
       version: parseFloat(version),

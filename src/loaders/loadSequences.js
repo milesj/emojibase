@@ -5,7 +5,7 @@
  */
 
 import fetchAndCache from './fetchAndCache';
-import parseDataAndSequences from '../parsers/parseDataAndSequences';
+import parseSequences from '../parsers/parseSequences';
 import { LATEST_EMOJI_VERSION } from '../constants';
 
 import type { EmojiDataMap } from '../types';
@@ -14,6 +14,6 @@ export default function loadSequences(version: string = LATEST_EMOJI_VERSION): E
   return fetchAndCache(
     `http://unicode.org/Public/emoji/${version}/emoji-sequences.txt`,
     `sequences-${version}.json`,
-    data => parseDataAndSequences(version, data),
+    data => parseSequences(version, data, 'Emoji_Modifier_Sequence'),
   );
 }

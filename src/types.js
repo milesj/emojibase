@@ -50,6 +50,8 @@ export type EmojiVariationMap = HexcodeMap<EmojiVariation>;
 
 export type Gender = 0 | 1;
 
+export type Loader<T> = (version: string) => HexcodeMap<T>;
+
 export type ParsedLine = {
   comment: string,
   fields: string[],

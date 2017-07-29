@@ -5,7 +5,7 @@
  */
 
 import fetchAndCache from './fetchAndCache';
-import parseZwjSequences from '../parsers/parseZwjSequences';
+import parseSequences from '../parsers/parseSequences';
 import { LATEST_EMOJI_VERSION } from '../constants';
 
 import type { EmojiDataMap } from '../types';
@@ -14,6 +14,6 @@ export default function loadZwjSequences(version: string = LATEST_EMOJI_VERSION)
   return fetchAndCache(
     `http://unicode.org/Public/emoji/${version}/emoji-zwj-sequences.txt`,
     `zwj-sequences-${version}.json`,
-    data => parseZwjSequences(version, data),
+    data => parseSequences(version, data, 'Emoji_ZWJ_Sequence'),
   );
 }

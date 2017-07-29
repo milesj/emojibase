@@ -14,11 +14,17 @@ import { EMOJI } from '../constants';
 import type { EmojiDataMap } from '../types';
 
 /**
- * Parses the official unicode emoji zero-width-joiner sequences data.
+ * Parses the official unicode emoji sequences data.
  *
- * Example: http://unicode.org/Public/emoji/5.0/emoji-zwj-sequences.txt
+ * Example:
+ *  http://unicode.org/Public/emoji/5.0/emoji-sequences.txt
+ *  http://unicode.org/Public/emoji/5.0/emoji-zwj-sequences.txt
  */
-export default function parseZwjSequences(version: string, content: string): EmojiDataMap {
+export default function parseSequences(
+  version: string,
+  content: string,
+  defaultProperty: string,
+): EmojiDataMap {
   const { lines, totals } = parse(content);
   const data = lines.reduce((map, line) => {
     const [rawHexcode, property, description] = line.fields;
@@ -27,7 +33,7 @@ export default function parseZwjSequences(version: string, content: string): Emo
     map[hexcode] = {
       hexcode,
       description: description || extractLineDescription(line.comment),
-      property: [property || 'Emoji_ZWJ_Sequence'],
+      property: [property || defaultProperty],
       type: EMOJI,
       unicodeVersion: extractUnicodeVersion(line.comment),
       version: parseFloat(version),
