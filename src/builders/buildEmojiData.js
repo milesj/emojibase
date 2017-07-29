@@ -4,6 +4,7 @@
  * @flow
  */
 
+import log from '../helpers/log';
 import writeCache from '../helpers/writeCache';
 import loadData from '../loaders/loadData';
 import loadNames from '../loaders/loadNames';
@@ -15,9 +16,9 @@ import loadAndJoinVersionedData from './loadAndJoinVersionedData';
 import joinMetadataToData from './joinMetadataToData';
 import joinModifiersToData from './joinModifiersToData';
 
-import type { EmojiMap } from '../types';
+export default async function buildEmojiData() {
+  log.title('build', 'Building emoji data');
 
-export default async function buildEmojiData(): Promise<EmojiMap> {
   // Load names, groups, order, and variations first
   const names = await loadNames();
   const groups = await loadOrderAndGroup();
@@ -37,6 +38,4 @@ export default async function buildEmojiData(): Promise<EmojiMap> {
 
   // Write to cache
   writeCache('final-emoji-data.json', emojis);
-
-  return Promise.resolve(emojis);
 }

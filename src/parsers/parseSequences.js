@@ -42,5 +42,10 @@ export default function parseSequences(
     return map;
   }, {});
 
+  // v2.0 doesnt have totals
+  if (version === '2.0') {
+    return data;
+  }
+
   return verifyTotals(version, data, totals);
 }

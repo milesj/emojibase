@@ -5,6 +5,7 @@
  */
 
 import 'isomorphic-fetch';
+import chalk from 'chalk';
 import log from '../helpers/log';
 import readCache from '../helpers/readCache';
 import writeCache from '../helpers/writeCache';
@@ -21,7 +22,7 @@ export default async function fetchAndCache<T: Object>(
     return Promise.resolve(cache);
   }
 
-  log.info('load', `Fetching ${name} data from ${url}`);
+  log.info('load', `Fetching ${name} data from ${chalk.gray(url)}`);
 
   // Parse the response
   let text = '';

@@ -16,8 +16,12 @@
 // }
 
 const buildEmojiData = require('./lib/builders/buildEmojiData').default;
+const buildVersionedData = require('./lib/builders/buildVersionedData').default;
 
-Promise.resolve(buildEmojiData())
+Promise.all([
+  buildEmojiData(),
+  buildVersionedData(),
+])
   .then()
   .catch((error) => {
     console.error(error);

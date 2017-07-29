@@ -1,6 +1,7 @@
 declare module 'chalk' {
   declare export type Chalk = {
     blue(msg: string): string,
+    cyan(msg: string): string,
     gray(msg: string): string,
     green(msg: string): string,
     magenta(msg: string): string,
