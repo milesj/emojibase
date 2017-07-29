@@ -5,7 +5,7 @@
  */
 
 import hasProperty from '../helpers/hasProperty';
-import { SEQUENCE_REMOVAL_PATTERN } from '../constants';
+import { SKIN_MODIFIER_PATTERN, SEQUENCE_REMOVAL_PATTERN } from '../constants';
 
 import type { UnicodeNamesMap, EmojiGroupMap, EmojiVariationMap } from '../types';
 
@@ -27,15 +27,25 @@ export default async function joinMetadataToData(
       name.push(emoji.description.toUpperCase());
 
     } else {
+      let hasSkinTone = '';
+
       hexcode.split('-').forEach((code) => {
         if (code.match(SEQUENCE_REMOVAL_PATTERN)) {
-          return;
-        }
+          // Skip joiners
 
-        if (names[code]) {
+        } else if (code.match(SKIN_MODIFIER_PATTERN)) {
+          hasSkinTone = code;
+
+        } else if (names[code]) {
           name.push(names[code]);
         }
       });
+
+      // If an emoji sequence utilizes a skin tone, let's move that part of
+      // the name to the very end, as it's quite jarring otherwise.
+      if (hasSkinTone) {
+        name.push(names[hasSkinTone]);
+      }
     }
 
     emoji.name = name.join(', ');
@@ -49,7 +59,10 @@ export default async function joinMetadataToData(
 
     // Pull in text and emoji variations
     if (variations[hexcode]) {
-      emoji.variations = variations[hexcode];
+      emoji.variations = {
+        emoji: variations[hexcode].emoji,
+        text: variations[hexcode].text,
+      };
     }
   });
 }

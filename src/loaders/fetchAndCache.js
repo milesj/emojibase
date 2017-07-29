@@ -28,6 +28,7 @@ export default async function fetchAndCache<T: Object>(
   let text = '';
 
   try {
+    // eslint-disable-next-line no-undef
     text = await fetch(url).then((response) => {
       if (response.ok) {
         return response.text();
