@@ -5,22 +5,32 @@
  */
 
 import {
+  LIGHT_SKIN,
   LIGHT_SKIN_MODIFIER,
+  MEDIUM_LIGHT_SKIN,
   MEDIUM_LIGHT_SKIN_MODIFIER,
+  MEDIUM_SKIN,
   MEDIUM_SKIN_MODIFIER,
+  MEDIUM_DARK_SKIN,
   MEDIUM_DARK_SKIN_MODIFIER,
+  DARK_SKIN,
   DARK_SKIN_MODIFIER,
 } from '../constants';
 
-const SKIN_MODIFIERS: string[] = [
-  LIGHT_SKIN_MODIFIER, // 1
-  MEDIUM_LIGHT_SKIN_MODIFIER, // 2
-  MEDIUM_SKIN_MODIFIER, // 3
-  MEDIUM_DARK_SKIN_MODIFIER, // 4
-  DARK_SKIN_MODIFIER, // 5
-];
+import type { EmojiMap } from '../types';
 
-export default function joinModifiersToBaseData(emojis: Object, modifiers: Object) {
+const SKIN_MODIFIERS = {
+  [LIGHT_SKIN]: LIGHT_SKIN_MODIFIER, // 1
+  [MEDIUM_LIGHT_SKIN]: MEDIUM_LIGHT_SKIN_MODIFIER, // 2
+  [MEDIUM_SKIN]: MEDIUM_SKIN_MODIFIER, // 3
+  [MEDIUM_DARK_SKIN]: MEDIUM_DARK_SKIN_MODIFIER, // 4
+  [DARK_SKIN]: DARK_SKIN_MODIFIER, // 5
+};
+
+export default function joinModifiersToData(
+  emojis: EmojiMap,
+  modifiers: EmojiMap,
+) {
   Object.keys(emojis).forEach((hexcode) => {
     const emoji = emojis[hexcode];
 
@@ -30,16 +40,18 @@ export default function joinModifiersToBaseData(emojis: Object, modifiers: Objec
     }
 
     // Add an array of skin tone modifications
-    emoji.modifications = [];
+    Object.keys(SKIN_MODIFIERS).forEach((skinTone) => {
+      const mod = modifiers[SKIN_MODIFIERS[skinTone]];
 
-    SKIN_MODIFIERS.forEach((modHexcode, i) => {
-      const mod = modifiers[modHexcode];
+      if (!emoji.modifications) {
+        emoji.modifications = [];
+      }
 
       emoji.modifications.push({
         ...mod,
         name: `${emoji.name}; ${mod.name}`,
         hexcode: `${emoji.hexcode}-${mod.hexcode}`,
-        skin: (i + 1), // 1-5
+        skin: skinTone,
       });
     });
   });

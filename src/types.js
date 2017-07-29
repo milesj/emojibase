@@ -16,6 +16,7 @@ export type Emoji = {
     ...EmojiData,
     skin: SkinTone,
   }[],
+  name: string,
   variations?: EmojiVariation,
 };
 
@@ -69,8 +70,8 @@ export type Property = 'Emoji' |
   'Emoji_Modifier_Sequence' |
   'Emoji_Flag_Sequence' |
   'Emoji_Keycap_Sequence' |
-  'Emoji_ZWJ_Sequence' |
-  'Text'; // Not a real property, but we use it to invalidate emojis
+  'Emoji_Tag_Sequence' |
+  'Emoji_ZWJ_Sequence';
 
 export type SkinTone = 1 | 2 | 3 | 4 | 5;
 

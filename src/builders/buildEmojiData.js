@@ -12,8 +12,9 @@ import loadVariations from '../loaders/loadVariations';
 import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
 import loadAndJoinVersionedData from './loadAndJoinVersionedData';
-import joinModifiersToBaseData from './joinModifiersToBaseData';
-import joinVersionedData from './joinVersionedData';
+import extractModifiersFromData from './extractModifiersFromData';
+import joinMetadataToData from './joinMetadataToData';
+import joinModifiersToData from './joinModifiersToData';
 
 export default async function buildEmojiData() {
   // Load names, groups, order, and variations first
@@ -29,10 +30,12 @@ export default async function buildEmojiData() {
   await loadAndJoinVersionedData(emojis, loadSequences, 3); // v3.0+
   await loadAndJoinVersionedData(emojis, loadZwjSequences, 3); // v3.0+
 
-  // Join modifiers (skin tones) to base modifiers
-  // joinModifiersToBaseData(emojis, modifiers);
+  // Extract and join modifiers (skin tones) to base modifier emoji data
+  extractModifiersFromData(emojis, modifiers);
+  joinModifiersToData(emojis, modifiers);
 
-  // console.log(modifiers);
+  // Join names, groups, and variations to primary data
+  joinMetadataToData(emojis, names, groups, variations);
 
   // Write to cache
   writeCache('final-emoji-data.json', emojis);

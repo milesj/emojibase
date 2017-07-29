@@ -63,8 +63,7 @@ export default function parseData(version: string, content: string): EmojiDataMa
         emoji.type = (property === 'emoji') ? EMOJI : TEXT;
         emoji.property = [
           (modifier === 'primary' || modifier === 'secondary') ? 'Emoji_Modifier_Base' :
-            (modifier === 'modifier') ? 'Emoji_Modifier' :
-              (property === 'emoji') ? 'Emoji' : 'Text',
+            (modifier === 'modifier') ? 'Emoji_Modifier' : 'Emoji',
         ];
       }
 
