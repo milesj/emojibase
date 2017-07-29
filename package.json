@@ -1,5 +1,5 @@
 {
-  "name": "emoji-database",
+  "name": "emojibase",
   "version": "0.11.0",
   "description": "Evergreen emoji datasets and regex patterns.",
   "main": "./lib/index.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/milesj/emoji-database.git"
+    "url": "git+https://github.com/milesj/emojibase.git"
   },
   "keywords": [
     "emoji",
@@ -38,9 +38,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/milesj/emoji-database/issues"
+    "url": "https://github.com/milesj/emojibase/issues"
   },
-  "homepage": "https://github.com/milesj/emoji-database#readme",
+  "homepage": "https://github.com/milesj/emojibase#readme",
   "dependencies": {
     "babel-runtime": "^6.25.0"
   },

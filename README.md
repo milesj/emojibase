@@ -1,8 +1,7 @@
-# Emojibase v0.11.0
+# Emojibase v0.12.0
 [![Build Status](https://travis-ci.org/milesj/emojibase.svg?branch=master)](https://travis-ci.org/milesj/emojibase)
 
-> This project was renamed to Emojibase from emoji-database, and has moved to
-> [emojibase](https://github.com/milesj/emojibase), please update your dependencies!
+> Emojibase, the ultimate emoji database.
 
 A collection of up-to-date, pre-generated, specification compliant, emoji datasets and
 regex patterns. Data is generated with [unicode-emoji-data][unicode-emoji-data],

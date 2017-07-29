@@ -16,7 +16,7 @@ export default function fetchFromCDN(dataset: string, version: string = 'latest'
     }
   }
 
-  return fetch(`https://cdn.jsdelivr.net/npm/emoji-database@${version}/data/${dataset}`, {
+  return fetch(`https://cdn.jsdelivr.net/npm/emojibase@${version}/data/${dataset}`, {
     mode: 'cors',
     redirect: 'error',
     credentials: 'omit',
@@ -25,6 +25,6 @@ export default function fetchFromCDN(dataset: string, version: string = 'latest'
       return response.json();
     }
 
-    throw new Error('Failed to load emoji-database dataset.');
+    throw new Error('Failed to load emojibase dataset.');
   });
 }

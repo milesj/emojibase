@@ -1,3 +1,7 @@
+# 0.12.0
+* New release under the new `emojibase` name.
+* Updated `fetchFromCDN` to fetch from `emojibase` instead of `emoji-database`.
+
 # 0.11.0
 * Renamed to `emojibase`. Please update your dependencies!
 * Moved `emoji-database.js.flow` to `emojibase.js.flow`.
