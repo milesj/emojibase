@@ -12,14 +12,35 @@ export const STANDARD: Format = 'standard';
 export const COMPACT: Format = 'compact';
 export const CUSTOM: Format = 'custom';
 
+// Regex patterns to make my job easier.
+
 export const WS_PATTERN: RegExp = /\s+/g;
 export const ZWJ_PATTERN: RegExp = /200D/g;
 export const VARIATION_PATTERN: RegExp = /FE0E|FE0F/g;
 export const SKIN_MODIFIER_PATTERN: RegExp = /1F3FB|1F3FC|1F3FD|1F3FE|1F3FF/g;
 export const SEQUENCE_REMOVAL_PATTERN: RegExp = /200D|FE0E|FE0F/g;
 
-// The only valid presentation/variation sequences are those found in the
-// official `emoji-variation-sequences.txt` unicode document.
+// Use numbers instead of string values, as the filesize is greatly reduced.
+
+export const TEXT: Presentation = 0;
+export const EMOJI: Presentation = 1;
+
+export const FEMALE: Gender = 0;
+export const MALE: Gender = 1;
+
+export const LIGHT_SKIN: SkinTone = 1;
+export const MEDIUM_LIGHT_SKIN: SkinTone = 2;
+export const MEDIUM_SKIN: SkinTone = 3;
+export const MEDIUM_DARK_SKIN: SkinTone = 4;
+export const DARK_SKIN: SkinTone = 5;
+
+// Important release versions in generating accurate data.
+
+export const LATEST_EMOJI_VERSION: string = '5.0';
+export const LATEST_UNICODE_VERSION: string = '10.0.0';
+export const FIRST_UNICODE_EMOJI_VERSION: string = '6.0.0';
+
+// Important hexadecimal codepoints when dealing with diversity and sequences.
 
 export const ZERO_WIDTH_JOINER: string = '200D'; // ZERO WIDTH JOINER (ZWJ)
 export const TEXT_VARIATION_SELECTOR: string = 'FE0E'; // VARIATION SELECTOR-15
@@ -31,26 +52,6 @@ export const MEDIUM_DARK_SKIN_MODIFIER: string = '1F3FE'; // EMOJI MODIFIER FITZ
 export const DARK_SKIN_MODIFIER: string = '1F3FF'; // EMOJI MODIFIER FITZPATRICK TYPE-6
 export const FEMALE_SIGN: string = '2640'; // FEMALE SIGN
 export const MALE_SIGN: string = '2642'; // MALE SIGN
-
-// Important release versions in generating accurate data.
-
-export const LATEST_EMOJI_VERSION: string = '5.0';
-export const LATEST_UNICODE_VERSION: string = '10.0.0';
-export const FIRST_UNICODE_EMOJI_VERSION: string = '6.0.0';
-
-// Use numbers instead of string values, as the filesize is greatly reduced.
-
-export const TEXT: Presentation = 0;
-export const EMOJI: Presentation = 1;
-
-export const MALE: Gender = 0;
-export const FEMALE: Gender = 1;
-
-export const LIGHT_SKIN: SkinTone = 1;
-export const MEDIUM_LIGHT_SKIN: SkinTone = 2;
-export const MEDIUM_SKIN: SkinTone = 3;
-export const MEDIUM_DARK_SKIN: SkinTone = 4;
-export const DARK_SKIN: SkinTone = 5;
 
 // Group and subgroup constants are automatically generated during
 // the `loadOrderAndGroup` loader and parse phase. I'm not 100% positive

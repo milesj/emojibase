@@ -9,8 +9,8 @@ import { combinedAnnotationsForLanguage } from 'unicode-emoji-annotations';
 import emojiOneData from 'emojione/emoji.json';
 import createTags from './createTags';
 import createShortnames from './createShortnames';
-import extractGender from './extractGender';
-import extractSkinTone from './extractSkinTone';
+// import extractGender from './extractGender';
+// import extractSkinTone from './extractSkinTone';
 import formatTag from './formatTag';
 import fromHexToCodepoint from './fromHexToCodepoint';
 import { WS_PATTERN, SEQUENCE_REMOVAL_PATTERN } from './constants';
@@ -78,11 +78,11 @@ export default function packageData(): Object[] {
       codepoint: fromHexToCodepoint(hexcode),
       display: defaultPresentation || 'emoji',
       emoji: emojiUnicode,
-      gender: extractGender(name),
+      // gender: extractGender(name),
       hexcode,
       name,
       order: null,
-      skin: extractSkinTone(name),
+      // skin: extractSkinTone(name),
       shortnames: createShortnames(name),
       tags: getAnnotation(hexcode, 'keywords') || createTags(name),
       text: textUnicode,
