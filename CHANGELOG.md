@@ -1,3 +1,7 @@
+# 0.11.0
+* Renamed to `emojibase`. Please update your dependencies!
+* Moved `emoji-database.js.flow` to `emojibase.js.flow`.
+
 # 0.10.0
 * Added new function, `fetchFromCDN`, which fetches JSON data from jsdelivr.com.
 

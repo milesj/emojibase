@@ -1,0 +1,89 @@
+declare module 'emojibase' {
+  declare export function fetchFromCDN(dataset: string, version: string): Promise<*>;
+  declare export function fromHexToCodepoint(hexcode: string): number[];
+  declare export function fromUnicodeToHex(unicode: string, strip?: boolean): string;
+}
+
+declare module 'emojibase/data/extra/hexcode-to-shortname.json' {
+  declare export default { [hexcode: string]: string };
+}
+
+declare module 'emojibase/data/extra/hexcodes.json' {
+  declare export default string[];
+}
+
+declare module 'emojibase/data/extra/shortname-to-unicode.json' {
+  declare export default { [shortname: string]: string };
+}
+
+declare module 'emojibase/data/extra/shortnames.json' {
+  declare export default string[];
+}
+
+declare module 'emojibase/data/extra/unicode.json' {
+  declare export default string[];
+}
+
+declare module 'emojibase/data/compact/by-category.json' {
+  declare export default { [category: string]: Object[] };
+}
+
+declare module 'emojibase/data/compact/list.json' {
+  declare export default Object[];
+}
+
+declare module 'emojibase/data/compact/map.json' {
+  declare export default { [hexcode: string]: Object };
+}
+
+declare module 'emojibase/data/expanded/by-category.json' {
+  declare export default { [category: string]: Object[] };
+}
+
+declare module 'emojibase/data/expanded/list.json' {
+  declare export default Object[];
+}
+
+declare module 'emojibase/data/expanded/map.json' {
+  declare export default { [hexcode: string]: Object };
+}
+
+declare module 'emojibase/data/standard/by-category.json' {
+  declare export default { [category: string]: Object[] };
+}
+
+declare module 'emojibase/data/standard/list.json' {
+  declare export default Object[];
+}
+
+declare module 'emojibase/data/standard/map.json' {
+  declare export default { [hexcode: string]: Object };
+}
+
+declare module 'emojibase/regex' {
+  declare export default RegExp;
+}
+
+declare module 'emojibase/regex/emoji' {
+  declare export default RegExp;
+}
+
+declare module 'emojibase/regex/text' {
+  declare export default RegExp;
+}
+
+declare module 'emojibase/regex/shortname' {
+  declare export default RegExp;
+}
+
+declare module 'emojibase/regex/es' {
+  declare export default RegExp;
+}
+
+declare module 'emojibase/regex/es/emoji' {
+  declare export default RegExp;
+}
+
+declare module 'emojibase/regex/es/text' {
+  declare export default RegExp;
+}

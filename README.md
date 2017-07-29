@@ -1,5 +1,8 @@
-# Emojibase v0.10.0
-[![Build Status](https://travis-ci.org/milesj/emoji-database.svg?branch=master)](https://travis-ci.org/milesj/emoji-database)
+# Emojibase v0.11.0
+[![Build Status](https://travis-ci.org/milesj/emojibase.svg?branch=master)](https://travis-ci.org/milesj/emojibase)
+
+> This project was renamed to Emojibase from emoji-database, and has moved to
+> [emojibase](https://github.com/milesj/emojibase), please update your dependencies!
 
 A collection of up-to-date, pre-generated, specification compliant, emoji datasets and
 regex patterns. Data is generated with [unicode-emoji-data][unicode-emoji-data],
@@ -9,9 +12,9 @@ for increased accuracy, interoperability, and customizability.
 ## Installation
 
 ```
-npm install emoji-database --save
+npm install emojibase --save
 // Or
-yarn add emoji-database
+yarn add emojibase
 ```
 
 ## Documentation
@@ -42,7 +45,7 @@ Datasets can be used by simply importing their JSON file, and parsing it,
 unless otherwise configured by a build process.
 
 ```javascript
-import json from 'emoji-database/data/compact/list.json';
+import json from 'emojibase/data/compact/list.json';
 
 const data = JSON.parse(json);
 ```
@@ -57,7 +60,7 @@ the following extra datasets are also available.
 * `data/extra/shortname-to-unicode.json` - A mapping of `shortname`s to `unicode` characters.
 
 ```javascript
-import hexcodes from 'emoji-database/data/extra/hexcodes.json';
+import hexcodes from 'emojibase/data/extra/hexcodes.json';
 ```
 
 #### Formats
@@ -100,7 +103,7 @@ you can fetch them from our CDN ([provided by jsdelivr.com][cdn]) using `fetchFr
 This function returns a promise, with the JSON data already parsed.
 
 ```javascript
-import { fetchFromCDN } from 'emoji-database';
+import { fetchFromCDN } from 'emojibase';
 
 fetchFromCDN('extra/hexcodes.json').then((data) => {
   // Do something with it!
@@ -123,8 +126,8 @@ All imports return a `RegExp` object, with no flags, and no outer capture group.
 * `regex/shortname` - Matches emoji shortnames.
 
 ```javascript
-import EMOJI_REGEX from 'emoji-database/regex';
-import SHORTNAME_REGEX from 'emoji-database/regex/shortname';
+import EMOJI_REGEX from 'emojibase/regex';
+import SHORTNAME_REGEX from 'emojibase/regex/shortname';
 
 '🦍'.match(EMOJI_REGEX); // Matches Harambe!
 ```
@@ -143,8 +146,8 @@ By default, regex patterns are generated as UCS-2 surrogate pairs. If desired, E
 unicode aware regex patterns can be used, which can be found in the `regex/es` directory.
 
 ```javascript
-import UNICODE_EMOJI_REGEX from 'emoji-database/regex/es';
-import SHORTNAME_REGEX from 'emoji-database/regex/shortname';
+import UNICODE_EMOJI_REGEX from 'emojibase/regex/es';
+import SHORTNAME_REGEX from 'emojibase/regex/shortname';
 ```
 
 > The unicode aware regex patterns are only supported in Node.js and modern browsers.
@@ -157,7 +160,7 @@ The first, `fromHexToCodepoint`, can be used to convert a dash separated hexcode
 array of numerical codepoints.
 
 ```javascript
-import { fromHexToCodepoint } from 'emoji-database';
+import { fromHexToCodepoint } from 'emojibase';
 
 fromHexToCodepoint('270A-1F3FC'); // [9994, 127996]
 ```
@@ -167,7 +170,7 @@ separated hexcode. Unless `false` is passed as the 2nd argument, zero-width-join
 and variation selectors are removed.
 
 ```javascript
-import { fromUnicodeToHex } from 'emoji-database';
+import { fromUnicodeToHex } from 'emojibase';
 
 fromUnicodeToHex('👨‍👩‍👧‍👦'); // 1F468-1F469-1F467-1F466
 fromUnicodeToHex('👨‍👩‍👧‍👦', false); // 1F468-200D-1F469-200D-1F467-200D-1F466
@@ -201,7 +204,7 @@ The filesizes of all datasets and regex patterns can be found below, in ascendin
 | data/expanded/map.json | 576.93 KB | 74.43 KB |
 | data/expanded/list.json | 600.26 KB | 74.03 KB |
 
-[cdn]: https://cdn.jsdelivr.net/npm/emoji-database@latest/data/
+[cdn]: https://cdn.jsdelivr.net/npm/emojibase@latest/data/
 [emojione]: https://github.com/Ranks/emojione
 [unicode-emoji-data]: https://github.com/dematerializer/unicode-emoji-data
 [unicode-emoji-annotations]: https://github.com/dematerializer/unicode-emoji-annotations
