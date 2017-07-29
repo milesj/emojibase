@@ -12,6 +12,7 @@ import type { EmojiMap, Loader } from '../types';
 
 export default async function loadAndJoinVersionedData<T: Object>(
   emojis: EmojiMap,
+  modifiers: EmojiMap,
   loader: Loader<T>,
   startVersion: number = 1,
   stopVersion: number = parseFloat(LATEST_EMOJI_VERSION),
@@ -20,7 +21,18 @@ export default async function loadAndJoinVersionedData<T: Object>(
     const data = await loader(`${i}.0`);
 
     Object.keys(data).forEach((hexcode) => {
-      emojis[hexcode] = mergeEmojiObject(emojis[hexcode], data[hexcode]);
+      const emoji = mergeEmojiObject(emojis[hexcode], data[hexcode]);
+
+      if (
+        // v5.0+
+        emoji.property.includes('Emoji_Component') ||
+        // v4.0-
+        emoji.property.includes('Emoji_Modifier')
+      ) {
+        modifiers[hexcode] = emoji;
+      } else {
+        emojis[hexcode] = emoji;
+      }
     });
   }
 }

@@ -4,10 +4,10 @@
  * @flow
  */
 
-import type { UnicodeNamesMap, EmojiMap, EmojiGroupMap, EmojiVariationMap } from '../types';
+import type { UnicodeNamesMap, EmojiGroupMap, EmojiVariationMap } from '../types';
 
 export default async function joinMetadataToData(
-  emojis: EmojiMap,
+  emojis: Object,
   names: UnicodeNamesMap,
   groups: EmojiGroupMap,
   variations: EmojiVariationMap,

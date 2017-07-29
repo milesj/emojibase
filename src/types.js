@@ -12,10 +12,7 @@ export type HexcodeMap<T> = { [hexcode: string]: T };
 export type Emoji = {
   ...EmojiData,
   ...EmojiGroup,
-  modifications?: {
-    ...EmojiData,
-    skin: SkinTone,
-  }[],
+  modifications?: EmojiModification[],
   name: string,
   variations?: EmojiVariation,
 };
@@ -23,7 +20,7 @@ export type Emoji = {
 export type EmojiMap = HexcodeMap<Emoji>;
 
 export type EmojiData = {
-  description: string, // Found in each source line comment
+  description: string,
   hexcode: string,
   property: Property[],
   type: Presentation,
@@ -40,6 +37,12 @@ export type EmojiGroup = {
 };
 
 export type EmojiGroupMap = HexcodeMap<EmojiGroup>;
+
+export type EmojiModification = {
+  hexcode: string,
+  name: string,
+  skin: SkinTone,
+};
 
 export type EmojiVariation = {
   text: string,

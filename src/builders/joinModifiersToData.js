@@ -17,8 +17,6 @@ import {
   DARK_SKIN_MODIFIER,
 } from '../constants';
 
-import type { EmojiMap } from '../types';
-
 const SKIN_MODIFIERS = {
   [LIGHT_SKIN]: LIGHT_SKIN_MODIFIER, // 1
   [MEDIUM_LIGHT_SKIN]: MEDIUM_LIGHT_SKIN_MODIFIER, // 2
@@ -28,8 +26,8 @@ const SKIN_MODIFIERS = {
 };
 
 export default function joinModifiersToData(
-  emojis: EmojiMap,
-  modifiers: EmojiMap,
+  emojis: Object,
+  modifiers: Object,
 ) {
   Object.keys(emojis).forEach((hexcode) => {
     const emoji = emojis[hexcode];

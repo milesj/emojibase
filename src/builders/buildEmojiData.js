@@ -12,11 +12,12 @@ import loadVariations from '../loaders/loadVariations';
 import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
 import loadAndJoinVersionedData from './loadAndJoinVersionedData';
-import extractModifiersFromData from './extractModifiersFromData';
 import joinMetadataToData from './joinMetadataToData';
 import joinModifiersToData from './joinModifiersToData';
 
-export default async function buildEmojiData() {
+import type { EmojiMap } from '../types';
+
+export default async function buildEmojiData(): Promise<EmojiMap> {
   // Load names, groups, order, and variations first
   const names = await loadNames();
   const groups = await loadOrderAndGroup();
@@ -26,19 +27,16 @@ export default async function buildEmojiData() {
   const emojis = {};
   const modifiers = {};
 
-  await loadAndJoinVersionedData(emojis, loadData, 1); // v1.0+
-  await loadAndJoinVersionedData(emojis, loadSequences, 3); // v3.0+
-  await loadAndJoinVersionedData(emojis, loadZwjSequences, 3); // v3.0+
+  await loadAndJoinVersionedData(emojis, modifiers, loadData, 1); // v1.0+
+  await loadAndJoinVersionedData(emojis, modifiers, loadSequences, 3); // v3.0+
+  await loadAndJoinVersionedData(emojis, modifiers, loadZwjSequences, 3); // v3.0+
 
-  // Extract and join modifiers (skin tones) to base modifier emoji data
-  extractModifiersFromData(emojis, modifiers);
-  joinModifiersToData(emojis, modifiers);
-
-  // Join names, groups, and variations to primary data
+  // Join additional data to primary data (order is important here!)
   joinMetadataToData(emojis, names, groups, variations);
+  joinModifiersToData(emojis, modifiers); // Requires names
 
   // Write to cache
   writeCache('final-emoji-data.json', emojis);
 
-  return emojis;
+  return Promise.resolve(emojis);
 }
