@@ -6,6 +6,7 @@
 /* eslint-disable no-await-in-loop */
 
 import log from '../helpers/log';
+import readCache from '../helpers/readCache';
 import writeCache from '../helpers/writeCache';
 import loadData from '../loaders/loadData';
 import loadSequences from '../loaders/loadSequences';
@@ -14,8 +15,19 @@ import { LATEST_EMOJI_VERSION } from '../constants';
 
 import type { EmojiDataMap } from '../types';
 
-export default async function buildVersionedData() {
+type VersionMap = { [version: string]: EmojiDataMap };
+
+export default async function buildVersionedData(): Promise<{
+  emojiVersions: VersionMap,
+  unicodeVersions: VersionMap,
+}> {
   log.title('build', 'Building versioned data');
+
+  const cache = readCache('emoji-unicode-versions.json');
+
+  if (cache) {
+    return Promise.resolve(cache);
+  }
 
   const used = {};
   const emojiVersions = {};
@@ -60,8 +72,15 @@ export default async function buildVersionedData() {
   }
 
   // Cache the partitioned files
-  writeCache('emoji-versions.json', emojiVersions);
-  writeCache('unicode-versions.json', unicodeVersions);
+  writeCache('emoji-unicode-versions.json', {
+    emojiVersions,
+    unicodeVersions,
+  });
 
   log.success('build', 'Built versioned data');
+
+  return Promise.resolve({
+    emojiVersions,
+    unicodeVersions,
+  });
 }

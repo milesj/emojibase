@@ -15,14 +15,10 @@
 //   loadZwjSequences(`${i}.0`);
 // }
 
-const buildEmojiData = require('./lib/builders/buildEmojiData').default;
-const buildVersionedData = require('./lib/builders/buildVersionedData').default;
-const buildAnnotationData = require('./lib/builders/buildAnnotationData').default;
+const generateVersions = require('./lib/generators/generateVersions').default;
 
 Promise.all([
-  buildEmojiData(),
-  buildVersionedData(),
-  buildAnnotationData(),
+  generateVersions(),
 ])
   .then()
   .catch((error) => {
