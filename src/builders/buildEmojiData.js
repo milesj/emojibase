@@ -15,30 +15,34 @@ import loadZwjSequences from '../loaders/loadZwjSequences';
 import joinData from './joinData';
 import joinMetadataToData from './joinMetadataToData';
 import joinModifiersToData from './joinModifiersToData';
+import verifyData from './verifyData';
 
-export default async function buildEmojiData() {
+import type { EmojiMap } from '../types';
+
+export default async function buildEmojiData(): EmojiMap {
   log.title('build', 'Building emoji data');
 
-  // 1) Load metadata
-  const names = await loadNames();
-  const groups = await loadOrderAndGroup();
-  const variations = await loadVariations();
-
-  // 2) Load and merge all emoji data from the latest version release
+  // 1) Load and merge all emoji data from the latest version release
   const emojis = {};
 
   joinData(emojis, await loadData());
   joinData(emojis, await loadSequences());
   joinData(emojis, await loadZwjSequences());
 
-  // 3) Merge metadata into the emoji data
+  // 2) Load and merge metadata into the emoji data
+  const names = await loadNames();
+  const groups = await loadOrderAndGroup();
+  const variations = await loadVariations();
+
   joinMetadataToData(emojis, names, groups, variations);
 
-  // 4) Append skin tone modifications
+  // 3) Append skin tone modifications
   joinModifiersToData(emojis); // Requires names
 
-  // Write to cache
-  writeCache('final-emoji-data.json', emojis);
+  // 4) Verify and cache the data
+  writeCache('final-emoji-data.json', verifyData(emojis));
 
   log.success('build', 'Built emoji data');
+
+  return emojis;
 }

@@ -10,11 +10,22 @@ export type Format = 'expanded' | 'standard' | 'compact' | 'custom';
 export type HexcodeMap<T> = { [hexcode: string]: T };
 
 export type Emoji = {
-  ...EmojiData,
-  ...EmojiGroup,
-  modifications?: EmojiModification[],
+  // Data
+  description: string,
+  gender?: ?Gender,
+  hexcode: string,
+  property: Property[],
+  type: Presentation,
+  unicodeVersion: string,
+  version: string,
+  // Group
+  group: number,
+  order: number,
+  subgroup: number,
+  // Metadata
+  modifications: { [skin: string]: EmojiModification },
   name: string,
-  variations?: EmojiVariation,
+  variations: EmojiVariation,
 };
 
 export type EmojiMap = HexcodeMap<Emoji>;
