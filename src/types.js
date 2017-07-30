@@ -30,6 +30,13 @@ export type Emoji = {
 
 export type EmojiMap = HexcodeMap<Emoji>;
 
+export type EmojiAnnotation = {
+  shortname: string,
+  tags: string[],
+};
+
+export type EmojiAnnotationMap = HexcodeMap<EmojiAnnotation>;
+
 export type EmojiData = {
   description: string,
   gender?: ?Gender,

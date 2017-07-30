@@ -17,10 +17,12 @@
 
 const buildEmojiData = require('./lib/builders/buildEmojiData').default;
 const buildVersionedData = require('./lib/builders/buildVersionedData').default;
+const buildAnnotationData = require('./lib/builders/buildAnnotationData').default;
 
 Promise.all([
   buildEmojiData(),
   buildVersionedData(),
+  buildAnnotationData(),
 ])
   .then()
   .catch((error) => {

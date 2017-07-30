@@ -34,11 +34,24 @@ export const MEDIUM_SKIN: SkinTone = 3;
 export const MEDIUM_DARK_SKIN: SkinTone = 4;
 export const DARK_SKIN: SkinTone = 5;
 
-// Important release versions in generating accurate data.
+// Important release versions and locales in generating accurate data.
 
 export const LATEST_EMOJI_VERSION: string = '5.0';
 export const LATEST_UNICODE_VERSION: string = '10.0.0';
+export const LATEST_CLDR_VERSION: string = '31.0.1';
 export const FIRST_UNICODE_EMOJI_VERSION: string = '6.0.0';
+export const SUPPORTED_LOCALES: string[] = [
+  'da', // Danish
+  'de', // German
+  'en', // English
+  'es', // Spanish
+  'fr', // French
+  'it', // Italian
+  'ja', // Japanese
+  'ko', // Korean
+  'ru', // Russian
+  'zh', // Chinese
+];
 
 // Important hexadecimal codepoints when dealing with diversity and sequences.
 
