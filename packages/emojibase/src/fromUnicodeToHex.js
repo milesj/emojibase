@@ -6,8 +6,7 @@
 
 /* eslint-disable no-restricted-syntax */
 
-import { SEQUENCE_REMOVAL_PATTERN } from './constants';
-
+const JOINER_HEXCODE_PATTERN: RegExp = /200D|FE0E|FE0F/;
 const BASE_HEXADECIMAL: number = 16;
 const HEX_WIDTH: number = 4;
 
@@ -21,7 +20,7 @@ export default function fromUnicodeToHex(unicode: string, strip: boolean = true)
       hex = `0${hex}`;
     }
 
-    if (!strip || (strip && !hex.match(SEQUENCE_REMOVAL_PATTERN))) {
+    if (!strip || (strip && !hex.match(JOINER_HEXCODE_PATTERN))) {
       hexcode.push(hex);
     }
   }

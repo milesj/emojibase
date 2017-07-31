@@ -16,7 +16,8 @@ export default function fetchFromCDN(dataset: string, version: string = 'latest'
     }
   }
 
-  return fetch(`https://cdn.jsdelivr.net/npm/emojibase@${version}/data/${dataset}`, {
+  // eslint-disable-next-line no-undef
+  return fetch(`https://cdn.jsdelivr.net/npm/emojibase-data@${version}/${dataset}`, {
     mode: 'cors',
     redirect: 'error',
     credentials: 'omit',

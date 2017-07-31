@@ -6,7 +6,7 @@
 
 // $FlowIgnore Lazyiness
 import cheerio from 'cheerio';
-import fromUnicodeToHex from '../fromUnicodeToHex';
+import fromUnicodeToHex from '../../packages/emojibase/src/fromUnicodeToHex';
 
 import type { EmojiAnnotationMap } from '../types';
 
