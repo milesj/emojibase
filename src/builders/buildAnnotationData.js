@@ -4,20 +4,65 @@
  * @flow
  */
 
+import cleanHexcode from '../helpers/cleanHexcode';
 import log from '../helpers/log';
+import hasProperty from '../helpers/hasProperty';
+import writeCache from '../helpers/writeCache';
 import loadAnnotations from '../loaders/loadAnnotations';
-import { SUPPORTED_LOCALES } from '../constants';
+import loadLocalization from '../loaders/loadLocalization';
+import loadSequences from '../loaders/loadSequences';
+import loadZwjSequences from '../loaders/loadZwjSequences';
+import { REGIONAL_INDICATORS } from '../constants';
 
-import type { EmojiAnnotationMap } from '../types';
+import type { CLDRAnnotationMap } from '../types';
 
-export default async function buildAnnotationData(): { [locale: string]: EmojiAnnotationMap } {
+export default async function buildAnnotationData(locale: string): CLDRAnnotationMap {
   log.title('build', 'Building localized annotation data');
 
-  const annotations = {};
+  // Load the base annotations and localization datasets
+  const annotations = await loadAnnotations(locale);
+  const localization = await loadLocalization(locale);
 
-  SUPPORTED_LOCALES.forEach(async (locale) => {
-    annotations[locale] = await loadAnnotations(locale);
+  // http://unicode.org/repos/cldr/trunk/specs/ldml/tr35-general.html#SynthesizingNames
+  // ZWJ and Flag sequences do not have annotations, so let's add them
+  const sequences = {
+    ...await loadSequences(),
+    ...await loadZwjSequences(),
+  };
+
+  Object.keys(sequences).forEach((fullHexcode) => {
+    const hexcode = cleanHexcode(fullHexcode);
+
+    // Annotations already exist for this hexcode
+    if (annotations[hexcode]) {
+      return;
+    }
+
+    const emoji = sequences[fullHexcode];
+
+    // Use the localized territory name
+    if (hasProperty(emoji.property, ['Emoji_Flag_Sequence'])) {
+      const countryCode = fullHexcode
+        .split('-')
+        .map(hex => REGIONAL_INDICATORS[hex])
+        .join('');
+
+      annotations[hexcode] = {
+        tags: [],
+        shortname: localization.territories[countryCode].toLowerCase(),
+      };
+
+    // Use the localized subdivision name
+    } else if (hasProperty(emoji.property, ['Emoji_Flag_Sequence'])) {
+      // TODO - Worthwhile fetching subdivisions for <5 tag emojis?
+
+    // Reuse shortnames and tags for ZWJ family emoji
+    } else if (hasProperty(emoji.property, ['Emoji_ZWJ_Sequence'])) {
+      // TODO
+    }
   });
+
+  writeCache(`final-${locale}-annotations.json`, annotations);
 
   log.success('build', 'Built localized annotation data');
 

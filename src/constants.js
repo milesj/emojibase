@@ -41,16 +41,16 @@ export const LATEST_UNICODE_VERSION: string = '10.0.0';
 export const LATEST_CLDR_VERSION: string = '31.0.1';
 export const FIRST_UNICODE_EMOJI_VERSION: string = '6.0.0';
 export const SUPPORTED_LOCALES: string[] = [
-  'da', // Danish
-  'de', // German
+  // 'da', // Danish
+  // 'de', // German
   'en', // English
-  'es', // Spanish
-  'fr', // French
-  'it', // Italian
-  'ja', // Japanese
-  'ko', // Korean
-  'ru', // Russian
-  'zh', // Chinese
+  // 'es', // Spanish
+  // 'fr', // French
+  // 'it', // Italian
+  // 'ja', // Japanese
+  // 'ko', // Korean
+  // 'ru', // Russian
+  // 'zh', // Chinese
 ];
 
 // Important hexadecimal codepoints when dealing with diversity and sequences.
@@ -65,6 +65,34 @@ export const MEDIUM_DARK_SKIN_MODIFIER: string = '1F3FE'; // EMOJI MODIFIER FITZ
 export const DARK_SKIN_MODIFIER: string = '1F3FF'; // EMOJI MODIFIER FITZPATRICK TYPE-6
 export const FEMALE_SIGN: string = '2640'; // FEMALE SIGN
 export const MALE_SIGN: string = '2642'; // MALE SIGN
+export const REGIONAL_INDICATORS: { [hex: string]: string } = {
+  '1F1E6': 'A',
+  '1F1E7': 'B',
+  '1F1E8': 'C',
+  '1F1E9': 'D',
+  '1F1EA': 'E',
+  '1F1EB': 'F',
+  '1F1EC': 'G',
+  '1F1ED': 'H',
+  '1F1EE': 'I',
+  '1F1EF': 'J',
+  '1F1F0': 'K',
+  '1F1F1': 'L',
+  '1F1F2': 'M',
+  '1F1F3': 'N',
+  '1F1F4': 'O',
+  '1F1F5': 'P',
+  '1F1F6': 'Q',
+  '1F1F7': 'R',
+  '1F1F8': 'S',
+  '1F1F9': 'T',
+  '1F1FA': 'U',
+  '1F1FB': 'V',
+  '1F1FC': 'W',
+  '1F1FD': 'X',
+  '1F1FE': 'Y',
+  '1F1FF': 'Z',
+};
 
 // Group and subgroup constants are automatically generated during
 // the `loadOrderAndGroup` loader and parse phase. I'm not 100% positive

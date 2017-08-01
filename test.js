@@ -15,10 +15,12 @@
 //   loadZwjSequences(`${i}.0`);
 // }
 
+const generateData = require('./lib/generators/generateData').default;
 const generateVersions = require('./lib/generators/generateVersions').default;
 
 Promise.all([
-  generateVersions(),
+  generateData(),
+  // generateVersions(),
 ])
   .then()
   .catch((error) => {

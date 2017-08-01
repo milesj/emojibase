@@ -5,6 +5,17 @@
  */
 /* eslint-disable */
 
+export type CLDRAnnotation = {
+  shortname: string,
+  tags: string[],
+};
+
+export type CLDRAnnotationMap = HexcodeMap<CLDRAnnotation>;
+
+export type CLDRLocaleMap = {
+  territories: { [key: string]: string },
+};
+
 export type Format = 'expanded' | 'standard' | 'compact' | 'custom';
 
 export type HexcodeMap<T> = { [hexcode: string]: T };
@@ -29,13 +40,6 @@ export type Emoji = {
 };
 
 export type EmojiMap = HexcodeMap<Emoji>;
-
-export type EmojiAnnotation = {
-  shortname: string,
-  tags: string[],
-};
-
-export type EmojiAnnotationMap = HexcodeMap<EmojiAnnotation>;
 
 export type EmojiData = {
   description: string,

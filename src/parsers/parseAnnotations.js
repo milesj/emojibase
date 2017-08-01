@@ -6,16 +6,16 @@
 
 // $FlowIgnore Lazyiness
 import cheerio from 'cheerio';
-import fromUnicodeToHex from '../../packages/emojibase/src/fromUnicodeToHex';
+import fromUnicodeToHex from '../fromUnicodeToHex';
 
-import type { EmojiAnnotationMap } from '../types';
+import type { CLDRAnnotationMap } from '../types';
 
 /**
  * Parses the official unicode CLDR annotation data.
  *
  * Example: http://unicode.org/repos/cldr/tags/release-31-0-1/common/annotations/en.xml
  */
-export default function parseAnnotations(version: string, content: string): EmojiAnnotationMap {
+export default function parseAnnotations(version: string, content: string): CLDRAnnotationMap {
   const xml = cheerio.load(content, { xmlMode: true });
   const data = {};
 
@@ -28,9 +28,9 @@ export default function parseAnnotations(version: string, content: string): Emoj
     }
 
     if (row.attr('type') === 'tts') {
-      data[hexcode].shortname = row.text().trim();
+      data[hexcode].shortname = row.text().trim().toLowerCase();
     } else {
-      data[hexcode].tags = row.text().trim().split('|').map(tag => tag.trim());
+      data[hexcode].tags = row.text().trim().split('|').map(tag => tag.trim().toLowerCase());
     }
   });
 
