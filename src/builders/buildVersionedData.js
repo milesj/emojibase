@@ -21,13 +21,13 @@ export default async function buildVersionedData(): Promise<{
   emojiVersions: VersionMap,
   unicodeVersions: VersionMap,
 }> {
-  log.title('build', 'Building versioned data');
-
   const cache = readCache('emoji-unicode-versions.json');
 
   if (cache) {
     return Promise.resolve(cache);
   }
+
+  log.title('build', 'Building versioned data');
 
   const used = {};
   const emojiVersions = {};

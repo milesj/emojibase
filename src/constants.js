@@ -16,6 +16,7 @@ export const CUSTOM: Format = 'custom';
 
 export const WS_PATTERN: RegExp = /\s+/g;
 export const ZWJ_PATTERN: RegExp = /200D/g;
+export const GENDER_PATTERN: RegExp = /2640|2642/g;
 export const VARIATION_PATTERN: RegExp = /FE0E|FE0F/g;
 export const SKIN_MODIFIER_PATTERN: RegExp = /1F3FB|1F3FC|1F3FD|1F3FE|1F3FF/g;
 export const SEQUENCE_REMOVAL_PATTERN: RegExp = /200D|FE0E|FE0F/g;
@@ -41,16 +42,16 @@ export const LATEST_UNICODE_VERSION: string = '10.0.0';
 export const LATEST_CLDR_VERSION: string = '31.0.1';
 export const FIRST_UNICODE_EMOJI_VERSION: string = '6.0.0';
 export const SUPPORTED_LOCALES: string[] = [
-  // 'da', // Danish
-  // 'de', // German
+  'da', // Danish
+  'de', // German
   'en', // English
-  // 'es', // Spanish
-  // 'fr', // French
-  // 'it', // Italian
-  // 'ja', // Japanese
-  // 'ko', // Korean
-  // 'ru', // Russian
-  // 'zh', // Chinese
+  'es', // Spanish
+  'fr', // French
+  'it', // Italian
+  'ja', // Japanese
+  'ko', // Korean
+  'ru', // Russian
+  'zh', // Chinese
 ];
 
 // Important hexadecimal codepoints when dealing with diversity, sequences, and more.

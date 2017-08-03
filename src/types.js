@@ -6,7 +6,7 @@
 /* eslint-disable */
 
 export type CLDRAnnotation = {
-  shortname: string,
+  annotation: string,
   tags: string[],
 };
 

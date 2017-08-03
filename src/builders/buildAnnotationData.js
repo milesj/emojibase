@@ -13,6 +13,8 @@ import loadLocalization from '../loaders/loadLocalization';
 import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
 import {
+  SEQUENCE_REMOVAL_PATTERN,
+  SKIN_MODIFIER_PATTERN,
   REGIONAL_INDICATORS,
   TAG_LATIN_SMALL_LETTERS,
 } from '../constants';
@@ -20,7 +22,7 @@ import {
 import type { CLDRAnnotationMap } from '../types';
 
 export default async function buildAnnotationData(locale: string): CLDRAnnotationMap {
-  log.title('build', 'Building localized annotation data');
+  log.title('build', `Building ${locale} annotation data`);
 
   // Load the base annotations and localization datasets
   const annotations = await loadAnnotations(locale);
@@ -39,6 +41,10 @@ export default async function buildAnnotationData(locale: string): CLDRAnnotatio
     // Annotations already exist for this hexcode
     if (annotations[hexcode]) {
       return;
+
+    // Skip skin tones as they are nested within their parent
+    } else if (hexcode.match(SKIN_MODIFIER_PATTERN)) {
+      return;
     }
 
     const emoji = sequences[fullHexcode];
@@ -52,7 +58,7 @@ export default async function buildAnnotationData(locale: string): CLDRAnnotatio
 
       annotations[hexcode] = {
         tags: [],
-        shortname: localization.territories[countryCode],
+        annotation: localization.territories[countryCode],
       };
 
     // Use the localized subdivision name
@@ -64,18 +70,36 @@ export default async function buildAnnotationData(locale: string): CLDRAnnotatio
 
       annotations[hexcode] = {
         tags: [],
-        shortname: localization.subdivisions[divisionName],
+        annotation: localization.subdivisions[divisionName],
       };
 
-    // Reuse shortnames and tags for ZWJ family emoji
+    // Reuse annotations and tags for ZWJ emoji
     } else if (hasProperty(emoji.property, ['Emoji_ZWJ_Sequence'])) {
-      // TODO
+      const tags = [];
+      const annos = [];
+
+      hexcode.split('-').forEach((hex) => {
+        if (!hex.match(SEQUENCE_REMOVAL_PATTERN) && annotations[hex]) {
+          if (annotations[hex].tags) {
+            tags.push(...annotations[hex].tags);
+          }
+
+          if (annotations[hex].annotation) {
+            annos.push(annotations[hex].annotation);
+          }
+        }
+      });
+
+      annotations[hexcode] = {
+        annotation: Array.from(new Set(annos)).join(', '),
+        tags: Array.from(new Set(tags)),
+      };
     }
   });
 
   writeCache(`final-${locale}-annotations.json`, annotations);
 
-  log.success('build', 'Built localized annotation data');
+  log.success('build', `Built ${locale} annotation data`);
 
   return annotations;
 }
