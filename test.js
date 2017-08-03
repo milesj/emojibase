@@ -18,6 +18,10 @@
 const generateData = require('./lib/generators/generateData').default;
 const generateVersions = require('./lib/generators/generateVersions').default;
 
+process.on('unhandledRejection', (error) => {
+  console.error('unhandledRejection', error.stack);
+});
+
 Promise.all([
   generateData(),
   // generateVersions(),

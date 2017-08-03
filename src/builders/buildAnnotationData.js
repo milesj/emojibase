@@ -7,6 +7,7 @@
 import cleanHexcode from '../helpers/cleanHexcode';
 import log from '../helpers/log';
 import hasProperty from '../helpers/hasProperty';
+import readCache from '../helpers/readCache';
 import writeCache from '../helpers/writeCache';
 import loadAnnotations from '../loaders/loadAnnotations';
 import loadLocalization from '../loaders/loadLocalization';
@@ -21,7 +22,13 @@ import {
 
 import type { CLDRAnnotationMap } from '../types';
 
-export default async function buildAnnotationData(locale: string): CLDRAnnotationMap {
+export default async function buildAnnotationData(locale: string): Promise<CLDRAnnotationMap> {
+  const cache = readCache(`final-${locale}-annotations.json`);
+
+  if (cache) {
+    return Promise.resolve(cache);
+  }
+
   log.title('build', `Building ${locale} annotation data`);
 
   // Load the base annotations and localization datasets
@@ -31,8 +38,8 @@ export default async function buildAnnotationData(locale: string): CLDRAnnotatio
   // http://unicode.org/repos/cldr/trunk/specs/ldml/tr35-general.html#SynthesizingNames
   // ZWJ and Flag sequences do not have annotations, so let's add them
   const sequences = {
-    ...await loadSequences(),
-    ...await loadZwjSequences(),
+    ...(await loadSequences()),
+    ...(await loadZwjSequences()),
   };
 
   Object.keys(sequences).forEach((fullHexcode) => {
@@ -57,7 +64,7 @@ export default async function buildAnnotationData(locale: string): CLDRAnnotatio
         .join('');
 
       annotations[hexcode] = {
-        tags: [],
+        tags: [countryCode],
         annotation: localization.territories[countryCode],
       };
 
@@ -69,11 +76,12 @@ export default async function buildAnnotationData(locale: string): CLDRAnnotatio
         .join('');
 
       annotations[hexcode] = {
-        tags: [],
+        tags: [divisionName],
         annotation: localization.subdivisions[divisionName],
       };
 
-    // Reuse annotations and tags for ZWJ emoji
+    // This doesn't match the CLDR spec, as it doesn't seem necessary,
+    // instead, lets reuse parent annotations and tags for ZWJ emoji
     } else if (hasProperty(emoji.property, ['Emoji_ZWJ_Sequence'])) {
       const tags = [];
       const annos = [];
@@ -101,5 +109,5 @@ export default async function buildAnnotationData(locale: string): CLDRAnnotatio
 
   log.success('build', `Built ${locale} annotation data`);
 
-  return annotations;
+  return Promise.resolve(annotations);
 }
