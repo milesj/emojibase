@@ -6,7 +6,7 @@
 
 // $FlowIgnore Lazyiness
 import cheerio from 'cheerio';
-import fromUnicodeToHex from '../fromUnicodeToHex';
+import fromUnicodeToHexcode from '../fromUnicodeToHexcode';
 
 import type { CLDRAnnotationMap } from '../types';
 
@@ -21,7 +21,7 @@ export default function parseAnnotations(version: string, content: string): CLDR
 
   xml('annotation').each((i, rawRow) => {
     const row = xml(rawRow);
-    const hexcode = fromUnicodeToHex(row.attr('cp'));
+    const hexcode = fromUnicodeToHexcode(row.attr('cp'));
 
     if (!data[hexcode]) {
       data[hexcode] = {};

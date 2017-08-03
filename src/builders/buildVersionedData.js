@@ -3,6 +3,7 @@
  * @license     https://opensource.org/licenses/MIT
  * @flow
  */
+
 /* eslint-disable no-await-in-loop */
 
 import log from '../helpers/log';

@@ -3,6 +3,7 @@
  * @license     https://opensource.org/licenses/MIT
  * @flow
  */
+
 /* eslint-disable quote-props */
 
 import type { Format, Gender, Presentation, SkinTone } from './types';
@@ -10,11 +11,9 @@ import type { Format, Gender, Presentation, SkinTone } from './types';
 export const EXPANDED: Format = 'expanded';
 export const STANDARD: Format = 'standard';
 export const COMPACT: Format = 'compact';
-export const CUSTOM: Format = 'custom';
 
 // Regex patterns to make my job easier.
 
-export const WS_PATTERN: RegExp = /\s+/g;
 export const ZWJ_PATTERN: RegExp = /200D/g;
 export const GENDER_PATTERN: RegExp = /2640|2642/g;
 export const VARIATION_PATTERN: RegExp = /FE0E|FE0F/g;

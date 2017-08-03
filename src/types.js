@@ -3,6 +3,7 @@
  * @license     https://opensource.org/licenses/MIT
  * @flow
  */
+
 /* eslint-disable */
 
 export type CLDRAnnotation = {
@@ -18,10 +19,6 @@ export type CLDRLocaleMap = {
   subdivisions: CLDRDataMap,
   territories: CLDRDataMap,
 };
-
-export type Format = 'expanded' | 'standard' | 'compact' | 'custom';
-
-export type HexcodeMap<T> = { [hexcode: string]: T };
 
 export type Emoji = {
   // Data
@@ -78,9 +75,11 @@ export type EmojiVariation = {
 
 export type EmojiVariationMap = HexcodeMap<EmojiVariation>;
 
+export type Format = 'expanded' | 'standard' | 'compact';
+
 export type Gender = 0 | 1;
 
-export type Loader<T> = (version: string) => HexcodeMap<T>;
+export type HexcodeMap<T> = { [hexcode: string]: T };
 
 export type ParsedLine = {
   comment: string,

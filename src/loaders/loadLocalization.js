@@ -16,14 +16,14 @@ export default async function loadLocalization(
 ): Promise<CLDRLocaleMap> {
   const releaseVersion = version.replace(/\./g, '-');
 
-  // Load territory names from main datasource
+  // Load territory names from main XML
   const territories = await fetchAndCache(
     `http://unicode.org/repos/cldr/tags/release-${releaseVersion}/common/main/${locale}.xml`,
-    `locales-${locale}-${version}.json`,
+    `messages-${locale}-${version}.json`,
     data => parseLocalization(version, data, 'territory'),
   );
 
-  // Load subdivision names from subdivision datasource
+  // Load subdivision names from subdivision XML
   const subdivisions = await fetchAndCache(
     `http://unicode.org/repos/cldr/tags/release-${releaseVersion}/common/subdivisions/${locale}.xml`,
     `subdivisions-${locale}-${version}.json`,

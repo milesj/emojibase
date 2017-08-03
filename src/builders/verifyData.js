@@ -3,6 +3,7 @@
  * @license     https://opensource.org/licenses/MIT
  * @flow
  */
+
 /* eslint-disable complexity */
 
 import log from '../helpers/log';

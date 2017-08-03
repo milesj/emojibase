@@ -6,12 +6,12 @@
 
 import fetchFromCDN from './fetchFromCDN';
 import fromCodepointToUnicode from './fromCodepointToUnicode';
-import fromHexToCodepoint from './fromHexToCodepoint';
-import fromUnicodeToHex from './fromUnicodeToHex';
+import fromHexcodeToCodepoint from './fromHexcodeToCodepoint';
+import fromUnicodeToHexcode from './fromUnicodeToHexcode';
 
 export {
   fetchFromCDN,
   fromCodepointToUnicode,
-  fromHexToCodepoint,
-  fromUnicodeToHex,
+  fromHexcodeToCodepoint,
+  fromUnicodeToHexcode,
 };

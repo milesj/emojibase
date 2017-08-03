@@ -5,7 +5,6 @@
  */
 
 import buildVersionedData from '../builders/buildVersionedData';
-import cleanHexcode from '../helpers/cleanHexcode';
 import log from '../helpers/log';
 import writeDataset from '../helpers/writeDataset';
 
@@ -17,16 +16,16 @@ export default async function generateVersions() {
   const unicode = {};
 
   Object.keys(emojiVersions).forEach((version) => {
-    emoji[version] = Object.keys(emojiVersions[version]).map(cleanHexcode);
+    emoji[version] = Object.keys(emojiVersions[version]);
   });
 
-  writeDataset('emoji-versions.json', emoji);
+  writeDataset('versions/emoji.json', emoji);
 
   Object.keys(unicodeVersions).forEach((version) => {
-    unicode[version] = Object.keys(unicodeVersions[version]).map(cleanHexcode);
+    unicode[version] = Object.keys(unicodeVersions[version]);
   });
 
-  writeDataset('unicode-versions.json', unicode);
+  writeDataset('versions/unicode.json', unicode);
 
   log.success('dump', 'Generated versioned dumps');
 }

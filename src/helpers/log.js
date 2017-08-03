@@ -3,6 +3,7 @@
  * @license     https://opensource.org/licenses/MIT
  * @flow
  */
+
 /* eslint-disable no-console */
 
 import chalk from 'chalk';

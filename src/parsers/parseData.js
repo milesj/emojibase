@@ -3,6 +3,7 @@
  * @license     https://opensource.org/licenses/MIT
  * @flow
  */
+
 /* eslint-disable no-nested-ternary */
 
 import parse from './parse';
@@ -10,7 +11,7 @@ import extractLineDescription from './extractLineDescription';
 import extractUnicodeVersion from './extractUnicodeVersion';
 import verifyTotals from './verifyTotals';
 import formatHexcode from '../helpers/formatHexcode';
-import fromHexToCodepoint from '../fromHexToCodepoint';
+import fromHexcodeToCodepoint from '../fromHexcodeToCodepoint';
 import { TEXT, EMOJI } from '../constants';
 
 import type { EmojiDataMap } from '../types';
@@ -51,7 +52,7 @@ export default function parseData(version: string, content: string): EmojiDataMa
 
     // A sequence of emoji
     if (rawHexcode.includes('..')) {
-      const [lowCodepoint, highCodepoint] = fromHexToCodepoint(rawHexcode, '..');
+      const [lowCodepoint, highCodepoint] = fromHexcodeToCodepoint(rawHexcode, '..');
 
       for (let codepoint = lowCodepoint; codepoint <= highCodepoint; codepoint += 1) {
         mapHexcode(codepoint.toString(16).padStart(4, '0').toUpperCase());

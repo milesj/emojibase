@@ -10,13 +10,13 @@ import cleanHexcode from '../helpers/cleanHexcode';
 import hasProperty from '../helpers/hasProperty';
 import writeDataset from '../helpers/writeDataset';
 import fromCodepointToUnicode from '../fromCodepointToUnicode';
-import fromHexToCodepoint from '../fromHexToCodepoint';
+import fromHexcodeToCodepoint from '../fromHexcodeToCodepoint';
 import { SUPPORTED_LOCALES } from '../constants';
 
 import type { CLDRAnnotationMap } from '../types';
 
 function toUnicode(hexcode: string): string {
-  return fromCodepointToUnicode(fromHexToCodepoint(hexcode));
+  return fromCodepointToUnicode(fromHexcodeToCodepoint(hexcode));
 }
 
 function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): Object {
@@ -74,7 +74,7 @@ function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): Object 
   return emoji;
 }
 
-export default function generateData() {
+export default async function generateData() {
   SUPPORTED_LOCALES.forEach(async (locale) => {
     const annotations = await buildAnnotationData(locale);
     const data = await buildEmojiData();
