@@ -12,7 +12,10 @@ import loadAnnotations from '../loaders/loadAnnotations';
 import loadLocalization from '../loaders/loadLocalization';
 import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
-import { REGIONAL_INDICATORS } from '../constants';
+import {
+  REGIONAL_INDICATORS,
+  TAG_LATIN_SMALL_LETTERS,
+} from '../constants';
 
 import type { CLDRAnnotationMap } from '../types';
 
@@ -49,12 +52,20 @@ export default async function buildAnnotationData(locale: string): CLDRAnnotatio
 
       annotations[hexcode] = {
         tags: [],
-        shortname: localization.territories[countryCode].toLowerCase(),
+        shortname: localization.territories[countryCode],
       };
 
     // Use the localized subdivision name
-    } else if (hasProperty(emoji.property, ['Emoji_Flag_Sequence'])) {
-      // TODO - Worthwhile fetching subdivisions for <5 tag emojis?
+    } else if (hasProperty(emoji.property, ['Emoji_Tag_Sequence'])) {
+      const divisionName = hexcode
+        .split('-')
+        .map(hex => TAG_LATIN_SMALL_LETTERS[hex])
+        .join('');
+
+      annotations[hexcode] = {
+        tags: [],
+        shortname: localization.subdivisions[divisionName],
+      };
 
     // Reuse shortnames and tags for ZWJ family emoji
     } else if (hasProperty(emoji.property, ['Emoji_ZWJ_Sequence'])) {

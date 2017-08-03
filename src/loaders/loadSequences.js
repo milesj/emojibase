@@ -10,7 +10,9 @@ import { LATEST_EMOJI_VERSION } from '../constants';
 
 import type { EmojiDataMap } from '../types';
 
-export default function loadSequences(version: string = LATEST_EMOJI_VERSION): EmojiDataMap {
+export default function loadSequences(
+  version: string = LATEST_EMOJI_VERSION,
+): Promise<EmojiDataMap> {
   return fetchAndCache(
     `http://unicode.org/Public/emoji/${version}/emoji-sequences.txt`,
     `sequences-${version}.json`,

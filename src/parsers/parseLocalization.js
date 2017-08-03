@@ -7,24 +7,29 @@
 // $FlowIgnore Lazyiness
 import cheerio from 'cheerio';
 
-import type { CLDRLocaleMap } from '../types';
+import type { CLDRDataMap } from '../types';
 
 /**
- * Parses the official unicode CLDR main localization data.
+ * Parses an official unicode CLDR XML datasource.
  *
- * Example: http://unicode.org/repos/cldr/tags/release-31-0-1/common/main/en.xml
+ * Example:
+ *  http://unicode.org/repos/cldr/tags/release-31-0-1/common/main/en.xml
+ *  http://unicode.org/repos/cldr/tags/release-31-0-1/common/subdivisions/en.xml
  */
-export default function parseLocalization(version: string, content: string): CLDRLocaleMap {
+export default function parseLocalization(
+  version: string,
+  content: string,
+  nodeName: string,
+  attrName: string = 'type',
+): CLDRDataMap {
   const xml = cheerio.load(content, { xmlMode: true });
-  const territories = {};
+  const data = {};
 
-  xml('territory').each((i, rawRow) => {
+  xml(nodeName).each((i, rawRow) => {
     const row = xml(rawRow);
 
-    territories[row.attr('type')] = row.text().trim();
+    data[row.attr(attrName)] = row.text().trim();
   });
 
-  return {
-    territories,
-  };
+  return data;
 }

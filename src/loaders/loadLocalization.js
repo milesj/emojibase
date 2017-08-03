@@ -10,15 +10,28 @@ import { LATEST_CLDR_VERSION } from '../constants';
 
 import type { CLDRLocaleMap } from '../types';
 
-export default function loadLocalization(
+export default async function loadLocalization(
   locale: string,
   version: string = LATEST_CLDR_VERSION,
-): CLDRLocaleMap {
+): Promise<CLDRLocaleMap> {
   const releaseVersion = version.replace(/\./g, '-');
 
-  return fetchAndCache(
+  // Load territory names from main datasource
+  const territories = await fetchAndCache(
     `http://unicode.org/repos/cldr/tags/release-${releaseVersion}/common/main/${locale}.xml`,
-    `locale-${locale}-${version}.json`,
-    data => parseLocalization(version, data),
+    `locales-${locale}-${version}.json`,
+    data => parseLocalization(version, data, 'territory'),
   );
+
+  // Load subdivision names from subdivision datasource
+  const subdivisions = await fetchAndCache(
+    `http://unicode.org/repos/cldr/tags/release-${releaseVersion}/common/subdivisions/${locale}.xml`,
+    `subdivisions-${locale}-${version}.json`,
+    data => parseLocalization(version, data, 'subdivision'),
+  );
+
+  return Promise.resolve({
+    subdivisions,
+    territories,
+  });
 }

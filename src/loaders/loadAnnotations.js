@@ -13,7 +13,7 @@ import type { CLDRAnnotationMap } from '../types';
 export default function loadAnnotations(
   locale: string,
   version: string = LATEST_CLDR_VERSION,
-): CLDRAnnotationMap {
+): Promise<CLDRAnnotationMap> {
   const releaseVersion = version.replace(/\./g, '-');
 
   return fetchAndCache(

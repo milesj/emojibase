@@ -12,8 +12,11 @@ export type CLDRAnnotation = {
 
 export type CLDRAnnotationMap = HexcodeMap<CLDRAnnotation>;
 
+export type CLDRDataMap = { [key: string]: string };
+
 export type CLDRLocaleMap = {
-  territories: { [key: string]: string },
+  subdivisions: CLDRDataMap,
+  territories: CLDRDataMap,
 };
 
 export type Format = 'expanded' | 'standard' | 'compact' | 'custom';

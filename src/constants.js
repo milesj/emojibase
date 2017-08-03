@@ -53,7 +53,7 @@ export const SUPPORTED_LOCALES: string[] = [
   // 'zh', // Chinese
 ];
 
-// Important hexadecimal codepoints when dealing with diversity and sequences.
+// Important hexadecimal codepoints when dealing with diversity, sequences, and more.
 
 export const ZERO_WIDTH_JOINER: string = '200D'; // ZERO WIDTH JOINER (ZWJ)
 export const TEXT_VARIATION_SELECTOR: string = 'FE0E'; // VARIATION SELECTOR-15
@@ -65,6 +65,7 @@ export const MEDIUM_DARK_SKIN_MODIFIER: string = '1F3FE'; // EMOJI MODIFIER FITZ
 export const DARK_SKIN_MODIFIER: string = '1F3FF'; // EMOJI MODIFIER FITZPATRICK TYPE-6
 export const FEMALE_SIGN: string = '2640'; // FEMALE SIGN
 export const MALE_SIGN: string = '2642'; // MALE SIGN
+export const BLACK_FLAG: string = '1F3F4'; // WAVING BLACK FLAG
 export const REGIONAL_INDICATORS: { [hex: string]: string } = {
   '1F1E6': 'A',
   '1F1E7': 'B',
@@ -92,6 +93,34 @@ export const REGIONAL_INDICATORS: { [hex: string]: string } = {
   '1F1FD': 'X',
   '1F1FE': 'Y',
   '1F1FF': 'Z',
+};
+export const TAG_LATIN_SMALL_LETTERS: { [hex: string]: string } = {
+  'E0061': 'a',
+  'E0062': 'b',
+  'E0063': 'c',
+  'E0064': 'd',
+  'E0065': 'e',
+  'E0066': 'f',
+  'E0067': 'g',
+  'E0068': 'h',
+  'E0069': 'i',
+  'E006A': 'j',
+  'E006B': 'k',
+  'E006C': 'l',
+  'E006D': 'm',
+  'E006E': 'n',
+  'E006F': 'o',
+  'E0070': 'p',
+  'E0071': 'q',
+  'E0072': 'r',
+  'E0073': 's',
+  'E0074': 't',
+  'E0075': 'u',
+  'E0076': 'v',
+  'E0077': 'w',
+  'E0078': 'x',
+  'E0079': 'y',
+  'E007A': 'z',
 };
 
 // Group and subgroup constants are automatically generated during
