@@ -73,16 +73,46 @@ function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): Object 
 export default async function generateData() {
   log.title('data', 'Generating emoji datasets');
 
+  const data = await buildEmojiData();
+  const filteredData = flattenAndFilterData(data);
+  const flatData = flattenAndFilterData(data, true);
+
+  // Generate datasets for each locale
   SUPPORTED_LOCALES.forEach(async (locale) => {
     const annotations = await buildAnnotationData(locale);
-    const data = flattenAndFilterData(await buildEmojiData());
-    const emojis = Object.keys(data).map(hexcode => createEmoji(data[hexcode], annotations));
+    const emojis = Object.keys(filteredData).map(hexcode => (
+      createEmoji(filteredData[hexcode], annotations)
+    ));
 
     // Sort by order
     emojis.sort((a, b) => a.order - b.order);
 
     writeDataset(`${locale}/data.json`, emojis);
   });
+
+  // Generate metadata and specialized datasets
+  const unicode = new Set();
+  const hexcodes = new Set();
+  // const shortcodes = new Set(); TODO
+
+  Object.keys(flatData).forEach((hexcode) => {
+    const { variations } = flatData[hexcode];
+
+    unicode.add(toUnicode(hexcode));
+    hexcodes.add(hexcode);
+
+    if (variations) {
+      unicode.add(toUnicode(variations.emoji));
+      hexcodes.add(variations.emoji);
+
+      unicode.add(toUnicode(variations.text));
+      hexcodes.add(variations.text);
+    }
+  });
+
+  writeDataset('meta/unicode.json', unicode);
+  writeDataset('meta/hexcodes.json', hexcodes);
+  // writeDataset('meta/shortcodes.json', shortcodes);
 
   log.success('data', 'Generated emoji datasets');
 }
