@@ -17,5 +17,5 @@ export default function writeDataset(name: string, data: *) {
     JSON.stringify(data, null, '  '), // Easier diffing
   );
 
-  log.info('data', `Dumping ${name}`);
+  log.info('data', `Creating ${name} dataset`);
 }

@@ -9,7 +9,7 @@ import log from '../helpers/log';
 import writeDataset from '../helpers/writeDataset';
 
 export default async function generateVersions() {
-  log.title('dump', 'Generating versioned data dumps');
+  log.title('data', 'Generating versioned datasets');
 
   const { emojiVersions, unicodeVersions } = await buildVersionedData();
   const emoji = {};
@@ -27,5 +27,5 @@ export default async function generateVersions() {
 
   writeDataset('versions/unicode.json', unicode);
 
-  log.success('dump', 'Generated versioned dumps');
+  log.success('data', 'Generated versioned datasets');
 }

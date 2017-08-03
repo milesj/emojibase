@@ -7,17 +7,13 @@
 import buildEmojiData from '../builders/buildEmojiData';
 import buildAnnotationData from '../builders/buildAnnotationData';
 import cleanHexcode from '../helpers/cleanHexcode';
-import hasProperty from '../helpers/hasProperty';
+import log from '../helpers/log';
 import writeDataset from '../helpers/writeDataset';
-import fromCodepointToUnicode from '../fromCodepointToUnicode';
-import fromHexcodeToCodepoint from '../fromHexcodeToCodepoint';
+import flattenAndFilterData from './flattenAndFilterData';
+import toUnicode from './toUnicode';
 import { SUPPORTED_LOCALES } from '../constants';
 
 import type { CLDRAnnotationMap } from '../types';
-
-function toUnicode(hexcode: string): string {
-  return fromCodepointToUnicode(fromHexcodeToCodepoint(hexcode));
-}
 
 function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): Object {
   const emoji: Object = {
@@ -75,26 +71,18 @@ function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): Object 
 }
 
 export default async function generateData() {
+  log.title('data', 'Generating emoji datasets');
+
   SUPPORTED_LOCALES.forEach(async (locale) => {
     const annotations = await buildAnnotationData(locale);
-    const data = await buildEmojiData();
-    const emojis = [];
-
-    Object.keys(data).forEach((hexcode) => {
-      const emoji = data[hexcode];
-
-      // Omit modifiers and components from the final output,
-      // as they're not emoji characters to be used directly
-      if (hasProperty(emoji.property, ['Emoji_Modifier', 'Emoji_Component'])) {
-        return;
-      }
-
-      emojis.push(createEmoji(emoji, annotations));
-    });
+    const data = flattenAndFilterData(await buildEmojiData());
+    const emojis = Object.keys(data).map(hexcode => createEmoji(data[hexcode], annotations));
 
     // Sort by order
     emojis.sort((a, b) => a.order - b.order);
 
     writeDataset(`${locale}/data.json`, emojis);
   });
+
+  log.success('data', 'Generated emoji datasets');
 }
