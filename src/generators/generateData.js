@@ -8,6 +8,7 @@ import buildEmojiData from '../builders/buildEmojiData';
 import buildAnnotationData from '../builders/buildAnnotationData';
 import cleanHexcode from '../helpers/cleanHexcode';
 import log from '../helpers/log';
+import readCache from '../helpers/readCache';
 import writeDataset from '../helpers/writeDataset';
 import flattenAndFilterData from './flattenAndFilterData';
 import toUnicode from './toUnicode';
@@ -75,7 +76,6 @@ export default async function generateData() {
 
   const data = await buildEmojiData();
   const filteredData = flattenAndFilterData(data);
-  const flatData = flattenAndFilterData(data, true);
 
   // Generate datasets for each locale
   SUPPORTED_LOCALES.forEach(async (locale) => {
@@ -95,21 +95,29 @@ export default async function generateData() {
   const hexcodes = new Set();
   // const shortcodes = new Set(); TODO
 
-  Object.keys(flatData).forEach((hexcode) => {
-    const { variations } = flatData[hexcode];
-
+  const addMetadata = (hexcode) => {
     unicode.add(toUnicode(hexcode));
     hexcodes.add(hexcode);
+  };
+
+  Object.keys(filteredData).forEach((hexcode) => {
+    const { modifications, variations } = filteredData[hexcode];
+
+    addMetadata(hexcode);
 
     if (variations) {
-      unicode.add(toUnicode(variations.emoji));
-      hexcodes.add(variations.emoji);
+      addMetadata(variations.emoji);
+      addMetadata(variations.text);
+    }
 
-      unicode.add(toUnicode(variations.text));
-      hexcodes.add(variations.text);
+    if (modifications) {
+      Object.keys(modifications).forEach((skinTone) => {
+        addMetadata(modifications[skinTone].hexcode);
+      });
     }
   });
 
+  writeDataset('meta/groups.json', readCache('group-hierarchy.json'));
   writeDataset('meta/unicode.json', unicode);
   writeDataset('meta/hexcodes.json', hexcodes);
   // writeDataset('meta/shortcodes.json', shortcodes);

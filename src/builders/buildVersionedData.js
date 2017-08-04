@@ -22,7 +22,7 @@ export default async function buildVersionedData(): Promise<{
   emojiVersions: VersionMap,
   unicodeVersions: VersionMap,
 }> {
-  const cache = readCache('emoji-unicode-versions.json');
+  const cache = readCache('final-emoji-unicode-versions.json');
 
   if (cache) {
     return Promise.resolve(cache);
@@ -73,7 +73,7 @@ export default async function buildVersionedData(): Promise<{
   }
 
   // Cache the partitioned files
-  writeCache('emoji-unicode-versions.json', {
+  writeCache('final-emoji-unicode-versions.json', {
     emojiVersions,
     unicodeVersions,
   });
