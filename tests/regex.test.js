@@ -1,6 +1,7 @@
 import EMOJI_PATTERN from '../packages/emojibase-regex';
 // import EMOJI_UNICODE_PATTERN from '../packages/emojibase-regex/unicode';
-// import SHORTNAME_PATTERN from '../packages/emojibase-regex/shortname';
+// import EMOJI_UNICODE_PROPERTY_PATTERN from '../packages/emojibase-regex/property';
+// import SHORTCODE_PATTERN from '../packages/emojibase-regex/shortcode';
 import { loadData } from './helpers';
 
 const PATTERN_DESCRIPTIONS = [
@@ -10,7 +11,7 @@ const PATTERN_DESCRIPTIONS = [
 ];
 
 describe('regex', () => {
-  // const SHORTNAME_PATTERN_GLOBAL = new RegExp(SHORTNAME_PATTERN.source, 'g');
+  // const SHORTCODE_PATTERN_GLOBAL = new RegExp(SHORTCODE_PATTERN.source, 'g');
 
   loadData().forEach((emoji) => {
     const unicode = emoji.emoji || emoji.text;
@@ -41,26 +42,27 @@ describe('regex', () => {
         it(`matches multiple unicode for ${unicode}`, () => {
           const matches = `One ${unicode} Two ${unicode} Three ${unicode}.`.match(globalPattern);
 
+          expect(matches).not.toBe(null);
           expect(matches.length).toBe(3);
           expect(matches).toEqual([unicode, unicode, unicode]);
         });
       });
     });
 
-    // shortnames.forEach((name) => {
+    // shortcodes.forEach((name) => {
     //   // Does not include colons by default
-    //   const shortname = `:${name}:`;
+    //   const shortcode = `:${name}:`;
     //
-    //   it(`matches shortname by itself for ${shortname}`, () => {
-    //     expect(shortname).toMatch(SHORTNAME_PATTERN);
+    //   it(`matches shortcode by itself for ${shortcode}`, () => {
+    //     expect(shortcode).toMatch(SHORTCODE_PATTERN);
     //   });
     //
-    //   it(`matches shortname in the middle of a string for ${shortname}`, () => {
-    //     expect(`In the middle ${shortname} of a string.`).toMatch(SHORTNAME_PATTERN);
+    //   it(`matches shortcode in the middle of a string for ${shortcode}`, () => {
+    //     expect(`In the middle ${shortcode} of a string.`).toMatch(SHORTCODE_PATTERN);
     //   });
     //
-    //   it(`matches multiple shortname for ${shortname}`, () => {
-    //     const matches = `One ${shortname} Two ${shortname} Three ${shortname}.`.match(SHORTNAME_PATTERN_GLOBAL);
+    //   it(`matches multiple shortcode for ${shortcode}`, () => {
+    //     const matches = `One ${shortcode} Two ${shortcode} Three ${shortcode}.`.match(SHORTCODE_PATTERN_GLOBAL);
     //
     //     expect(matches.length).toBe(3);
     //   });
