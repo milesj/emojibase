@@ -6,11 +6,7 @@
 
 /* eslint-disable quote-props */
 
-import type { Format, Gender, Presentation, SkinTone } from './types';
-
-export const EXPANDED: Format = 'expanded';
-export const STANDARD: Format = 'standard';
-export const COMPACT: Format = 'compact';
+import type { Gender, Presentation, SkinTone } from './types';
 
 // Regex patterns to make my job easier.
 

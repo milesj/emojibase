@@ -75,8 +75,6 @@ export type EmojiVariation = {
 
 export type EmojiVariationMap = HexcodeMap<EmojiVariation>;
 
-export type Format = 'expanded' | 'standard' | 'compact';
-
 export type Gender = 0 | 1;
 
 export type HexcodeMap<T> = { [hexcode: string]: T };
