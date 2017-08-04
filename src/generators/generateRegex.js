@@ -15,8 +15,23 @@ import writeRegex from '../helpers/writeRegex';
 import flattenAndFilterData from './flattenAndFilterData';
 import toUnicode from './toUnicode';
 
-function createRegexTrie(data: Object, display: string = 'both', unicode: boolean = false) {
+function createRegexPattern(
+  codePointGroups: *,
+  display: string = 'both',
+  unicode: boolean = false,
+): string {
   const flags = unicode ? 'u' : '';
+
+  if (display === 'text') {
+    return codePointGroups[1].toRegExp(flags).source;
+  }
+
+  return [4, 3, 2, 1].map(group => (
+    `(?:${codePointGroups[group].toRegExp(flags).source})`
+  )).join('|');
+}
+
+function createRegexTrie(data: Object, display: string = 'both') {
   const fileName = (display === 'both') ? 'index' : display;
   const codePointGroups = {
     '4': new Trie(),
@@ -35,7 +50,9 @@ function createRegexTrie(data: Object, display: string = 'both', unicode: boolea
       return;
     }
 
-    codePointGroups[group].add(toUnicode(hexcode));
+    if (display === 'both') {
+      codePointGroups[group].add(toUnicode(hexcode));
+    }
 
     if (variations) {
       if (variations.emoji && (display === 'emoji' || display === 'both')) {
@@ -48,12 +65,8 @@ function createRegexTrie(data: Object, display: string = 'both', unicode: boolea
     }
   });
 
-  // Create the regex patterns
-  const pattern = (display === 'text')
-    ? codePointGroups[1].toRegExp(flags).source
-    : [4, 3, 2, 1].map(group => `(?:${codePointGroups[group].toRegExp(flags).source})`).join('|');
-
-  writeRegex(`${unicode ? 'unicode/' : ''}${fileName}.js`, pattern);
+  writeRegex(`${fileName}.js`, createRegexPattern(codePointGroups, display));
+  writeRegex(`unicode/${fileName}.js`, createRegexPattern(codePointGroups, display, true));
 
   return codePointGroups;
 }
@@ -64,11 +77,8 @@ export default async function generateRegex() {
   const data = flattenAndFilterData(await buildEmojiData(), true);
 
   createRegexTrie(data, 'both');
-  createRegexTrie(data, 'both', true);
   createRegexTrie(data, 'emoji');
-  createRegexTrie(data, 'emoji', true);
   createRegexTrie(data, 'text');
-  createRegexTrie(data, 'text', true);
 
   log.success('regex', 'Generated regex patterns');
 }

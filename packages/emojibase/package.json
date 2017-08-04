@@ -1,7 +1,7 @@
 {
   "name": "emojibase",
   "version": "0.0.0",
-  "description": "Utility functions for working with emoji and Emojibase.",
+  "description": "Emojibase utility functions for working with emoji.",
   "keywords": [
     "emoji",
     "emojibase",
@@ -11,5 +11,6 @@
     "loader",
     "cdn"
   ],
-  "repository": "https://github.com/milesj/emojibase/tree/master/packages/emojibase"
+  "repository": "https://github.com/milesj/emojibase/tree/master/packages/emojibase",
+  "main": "./lib/index.js"
 }

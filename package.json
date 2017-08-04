@@ -1,10 +1,10 @@
 {
+  "private": true,
   "name": "emojibase",
   "version": "0.12.0",
   "description": "Evergreen emoji datasets and regex patterns.",
-  "main": "./lib/index.js",
   "scripts": {
-    "babel": "build-lib ./src -d ./lib",
+    "babel": "build-lib ./src -d ./lib && cp ./lib/*.js ./packages/emojibase/lib/",
     "coverage": "run-coverage",
     "eslint": "run-linter ./bin ./src ./tests",
     "flow": "type-check",
