@@ -15,8 +15,8 @@ describe('regex', () => {
   loadData().forEach((emoji) => {
     const unicode = emoji.emoji || emoji.text;
 
-    // Currently has unicode issues
-    if (emoji.name === 'WAVING BLACK FLAG') {
+    // Emoji_Tag_Sequences currently do not work
+    if (['ENGLAND', 'SCOTLAND', 'WALES'].includes(emoji.name)) {
       return;
     }
 

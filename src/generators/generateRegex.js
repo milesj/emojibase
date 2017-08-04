@@ -50,10 +50,6 @@ function createRegexTrie(data: Object, display: string = 'both') {
       return;
     }
 
-    if (display === 'both') {
-      codePointGroups[group].add(toUnicode(hexcode));
-    }
-
     if (variations) {
       if (variations.emoji && (display === 'emoji' || display === 'both')) {
         codePointGroups[group].add(toUnicode(variations.emoji));
@@ -62,6 +58,8 @@ function createRegexTrie(data: Object, display: string = 'both') {
       if (variations.text && (display === 'text' || display === 'both')) {
         codePointGroups[group].add(toUnicode(variations.text));
       }
+    } else {
+      codePointGroups[group].add(toUnicode(hexcode));
     }
   });
 
