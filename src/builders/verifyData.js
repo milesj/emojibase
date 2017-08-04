@@ -8,6 +8,7 @@
 
 import log from '../helpers/log';
 import isObject from '../helpers/isObject';
+import hasProperty from '../helpers/hasProperty';
 import {
   SKIN_MODIFIER_PATTERN,
   EMOJI_VARIATION_SELECTOR,
@@ -17,9 +18,16 @@ import {
 import type { EmojiMap } from '../types';
 
 export default function verifyData(emojis: EmojiMap): EmojiMap {
+  const usedShortcodes = {};
+
   Object.keys(emojis).forEach((hexcode) => {
     const emoji = emojis[hexcode];
     const errors = [];
+
+    // Skip modifiers and components
+    if (hasProperty(emoji.property, ['Emoji_Modifier', 'Emoji_Component', 'Emoji_Keycap_Sequence'])) {
+      return;
+    }
 
     // Verify no skin tone modifications are in the root,
     // excluding the Fitzpatrick modifiers themselves.
@@ -68,6 +76,26 @@ export default function verifyData(emojis: EmojiMap): EmojiMap {
       errors.push('Missing Unicode name.');
     }
 
+    // Verify that shortcodes exist and that none have been duplicated
+    if (!emoji.shortcodes || emoji.shortcodes.length === 0) {
+      errors.push('No shortcodes defined.');
+    } else {
+      const used = [];
+
+      emoji.shortcodes.forEach((shortcode) => {
+        if (usedShortcodes[shortcode]) {
+          used.push(`${shortcode} (${usedShortcodes[shortcode].name})`);
+        } else {
+          usedShortcodes[shortcode] = emoji;
+        }
+      });
+
+      if (used.length > 0) {
+        errors.push(`Shortcodes have been used elsewhere: ${used.join(', ')}`);
+      }
+    }
+
+    // Display errors
     if (errors.length > 0) {
       log.error(
         'verify',

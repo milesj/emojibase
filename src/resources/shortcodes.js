@@ -6,11 +6,20 @@
 
 /* eslint-disable */
 
-export default {
+/**
+ *  - Gender neutral emoji must be prefixed with "person_",
+ *    while female emoji use "woman_", and male "man_".
+ *
+ *  - Animals depicted from the side use the animal name,
+ *    while animals depicted with a head, or a face,
+ *    use the animal name suffixed with "_face".
+ */
+
+module.exports = {
   // 😀 grinning face
   '1F600': ['grin'],
   // 😁 grinning face with smiling eyes
-  '1F601': ['wide_grin'],
+  '1F601': ['happy_grin'],
   // 😂 face with tears of joy
   '1F602': ['joy'],
   // 🤣 rolling on the floor laughing
@@ -38,7 +47,7 @@ export default {
   // 😗 kissing face
   '1F617': ['kissing'],
   // 😙 kissing face with smiling eyes
-  '1F619': ['kissing_smiling_eyes'],
+  '1F619': ['happy_kissing'],
   // 😚 kissing face with closed eyes
   '1F61A': ['kissing_closed_eyes'],
   // ☺️ smiling face
@@ -223,1048 +232,178 @@ export default {
   '1F64A': ['speak_no_evil'],
   // 👶 baby
   '1F476': ['baby'],
-  // 👶🏻 baby, light skin tone
-  '1F476-1F3FB': ['baby_tone1'],
-  // 👶🏼 baby, medium light skin tone
-  '1F476-1F3FC': ['baby_tone2'],
-  // 👶🏽 baby, medium skin tone
-  '1F476-1F3FD': ['baby_tone3'],
-  // 👶🏾 baby, medium dark skin tone
-  '1F476-1F3FE': ['baby_tone4'],
-  // 👶🏿 baby, dark skin tone
-  '1F476-1F3FF': ['baby_tone5'],
   // 🧒 child
   '1F9D2': ['child'],
-  // 🧒🏻 child, light skin tone
-  '1F9D2-1F3FB': ['child_tone1'],
-  // 🧒🏼 child, medium light skin tone
-  '1F9D2-1F3FC': ['child_tone2'],
-  // 🧒🏽 child, medium skin tone
-  '1F9D2-1F3FD': ['child_tone3'],
-  // 🧒🏾 child, medium dark skin tone
-  '1F9D2-1F3FE': ['child_tone4'],
-  // 🧒🏿 child, dark skin tone
-  '1F9D2-1F3FF': ['child_tone5'],
   // 👦 boy
   '1F466': ['boy'],
-  // 👦🏻 boy, light skin tone
-  '1F466-1F3FB': ['boy_tone1'],
-  // 👦🏼 boy, medium light skin tone
-  '1F466-1F3FC': ['boy_tone2'],
-  // 👦🏽 boy, medium skin tone
-  '1F466-1F3FD': ['boy_tone3'],
-  // 👦🏾 boy, medium dark skin tone
-  '1F466-1F3FE': ['boy_tone4'],
-  // 👦🏿 boy, dark skin tone
-  '1F466-1F3FF': ['boy_tone5'],
   // 👧 girl
   '1F467': ['girl'],
-  // 👧🏻 girl, light skin tone
-  '1F467-1F3FB': ['girl_tone1'],
-  // 👧🏼 girl, medium light skin tone
-  '1F467-1F3FC': ['girl_tone2'],
-  // 👧🏽 girl, medium skin tone
-  '1F467-1F3FD': ['girl_tone3'],
-  // 👧🏾 girl, medium dark skin tone
-  '1F467-1F3FE': ['girl_tone4'],
-  // 👧🏿 girl, dark skin tone
-  '1F467-1F3FF': ['girl_tone5'],
   // 🧑 adult
   '1F9D1': ['adult'],
-  // 🧑🏻 adult, light skin tone
-  '1F9D1-1F3FB': ['adult_tone1'],
-  // 🧑🏼 adult, medium light skin tone
-  '1F9D1-1F3FC': ['adult_tone2'],
-  // 🧑🏽 adult, medium skin tone
-  '1F9D1-1F3FD': ['adult_tone3'],
-  // 🧑🏾 adult, medium dark skin tone
-  '1F9D1-1F3FE': ['adult_tone4'],
-  // 🧑🏿 adult, dark skin tone
-  '1F9D1-1F3FF': ['adult_tone5'],
   // 👨 man
   '1F468': ['man'],
-  // 👨🏻 man, light skin tone
-  '1F468-1F3FB': ['man_tone1'],
-  // 👨🏼 man, medium light skin tone
-  '1F468-1F3FC': ['man_tone2'],
-  // 👨🏽 man, medium skin tone
-  '1F468-1F3FD': ['man_tone3'],
-  // 👨🏾 man, medium dark skin tone
-  '1F468-1F3FE': ['man_tone4'],
-  // 👨🏿 man, dark skin tone
-  '1F468-1F3FF': ['man_tone5'],
   // 👩 woman
   '1F469': ['woman'],
-  // 👩🏻 woman, light skin tone
-  '1F469-1F3FB': ['woman_tone1'],
-  // 👩🏼 woman, medium light skin tone
-  '1F469-1F3FC': ['woman_tone2'],
-  // 👩🏽 woman, medium skin tone
-  '1F469-1F3FD': ['woman_tone3'],
-  // 👩🏾 woman, medium dark skin tone
-  '1F469-1F3FE': ['woman_tone4'],
-  // 👩🏿 woman, dark skin tone
-  '1F469-1F3FF': ['woman_tone5'],
   // 🧓 older adult
   '1F9D3': ['older_adult'],
-  // 🧓🏻 older adult, light skin tone
-  '1F9D3-1F3FB': ['older_adult_tone1'],
-  // 🧓🏼 older adult, medium light skin tone
-  '1F9D3-1F3FC': ['older_adult_tone2'],
-  // 🧓🏽 older adult, medium skin tone
-  '1F9D3-1F3FD': ['older_adult_tone3'],
-  // 🧓🏾 older adult, medium dark skin tone
-  '1F9D3-1F3FE': ['older_adult_tone4'],
-  // 🧓🏿 older adult, dark skin tone
-  '1F9D3-1F3FF': ['older_adult_tone5'],
   // 👴 old man
   '1F474': ['older_man'],
-  // 👴🏻 old man, light skin tone
-  '1F474-1F3FB': ['older_man_tone1'],
-  // 👴🏼 old man, medium light skin tone
-  '1F474-1F3FC': ['older_man_tone2'],
-  // 👴🏽 old man, medium skin tone
-  '1F474-1F3FD': ['older_man_tone3'],
-  // 👴🏾 old man, medium dark skin tone
-  '1F474-1F3FE': ['older_man_tone4'],
-  // 👴🏿 old man, dark skin tone
-  '1F474-1F3FF': ['older_man_tone5'],
   // 👵 old woman
   '1F475': ['older_woman'],
-  // 👵🏻 old woman, light skin tone
-  '1F475-1F3FB': ['older_woman_tone1'],
-  // 👵🏼 old woman, medium light skin tone
-  '1F475-1F3FC': ['older_woman_tone2'],
-  // 👵🏽 old woman, medium skin tone
-  '1F475-1F3FD': ['older_woman_tone3'],
-  // 👵🏾 old woman, medium dark skin tone
-  '1F475-1F3FE': ['older_woman_tone4'],
-  // 👵🏿 old woman, dark skin tone
-  '1F475-1F3FF': ['older_woman_tone5'],
   // 👨‍⚕️ man health worker
   '1F468-200D-2695-FE0F': ['man_health_worker'],
-  // 👨🏻‍⚕️ man health worker, light skin tone
-  '1F468-1F3FB-200D-2695-FE0F': ['man_health_worker_tone1'],
-  // 👨🏼‍⚕️ man health worker, medium light skin tone
-  '1F468-1F3FC-200D-2695-FE0F': ['man_health_worker_tone2'],
-  // 👨🏽‍⚕️ man health worker, medium skin tone
-  '1F468-1F3FD-200D-2695-FE0F': ['man_health_worker_tone3'],
-  // 👨🏾‍⚕️ man health worker, medium dark skin tone
-  '1F468-1F3FE-200D-2695-FE0F': ['man_health_worker_tone4'],
-  // 👨🏿‍⚕️ man health worker, dark skin tone
-  '1F468-1F3FF-200D-2695-FE0F': ['man_health_worker_tone5'],
   // 👩‍⚕️ woman health worker
   '1F469-200D-2695-FE0F': ['woman_health_worker'],
-  // 👩🏻‍⚕️ woman health worker, light skin tone
-  '1F469-1F3FB-200D-2695-FE0F': ['woman_health_worker_tone1'],
-  // 👩🏼‍⚕️ woman health worker, medium light skin tone
-  '1F469-1F3FC-200D-2695-FE0F': ['woman_health_worker_tone2'],
-  // 👩🏽‍⚕️ woman health worker, medium skin tone
-  '1F469-1F3FD-200D-2695-FE0F': ['woman_health_worker_tone3'],
-  // 👩🏾‍⚕️ woman health worker, medium dark skin tone
-  '1F469-1F3FE-200D-2695-FE0F': ['woman_health_worker_tone4'],
-  // 👩🏿‍⚕️ woman health worker, dark skin tone
-  '1F469-1F3FF-200D-2695-FE0F': ['woman_health_worker_tone5'],
   // 👨‍🎓 man student
   '1F468-200D-1F393': ['man_student'],
-  // 👨🏻‍🎓 man student, light skin tone
-  '1F468-1F3FB-200D-1F393': ['man_student_tone1'],
-  // 👨🏼‍🎓 man student, medium light skin tone
-  '1F468-1F3FC-200D-1F393': ['man_student_tone2'],
-  // 👨🏽‍🎓 man student, medium skin tone
-  '1F468-1F3FD-200D-1F393': ['man_student_tone3'],
-  // 👨🏾‍🎓 man student, medium dark skin tone
-  '1F468-1F3FE-200D-1F393': ['man_student_tone4'],
-  // 👨🏿‍🎓 man student, dark skin tone
-  '1F468-1F3FF-200D-1F393': ['man_student_tone5'],
   // 👩‍🎓 woman student
   '1F469-200D-1F393': ['woman_student'],
-  // 👩🏻‍🎓 woman student, light skin tone
-  '1F469-1F3FB-200D-1F393': ['woman_student_tone1'],
-  // 👩🏼‍🎓 woman student, medium light skin tone
-  '1F469-1F3FC-200D-1F393': ['woman_student_tone2'],
-  // 👩🏽‍🎓 woman student, medium skin tone
-  '1F469-1F3FD-200D-1F393': ['woman_student_tone3'],
-  // 👩🏾‍🎓 woman student, medium dark skin tone
-  '1F469-1F3FE-200D-1F393': ['woman_student_tone4'],
-  // 👩🏿‍🎓 woman student, dark skin tone
-  '1F469-1F3FF-200D-1F393': ['woman_student_tone5'],
   // 👨‍🏫 man teacher
   '1F468-200D-1F3EB': ['man_teacher'],
-  // 👨🏻‍🏫 man teacher, light skin tone
-  '1F468-1F3FB-200D-1F3EB': ['man_teacher_tone1'],
-  // 👨🏼‍🏫 man teacher, medium light skin tone
-  '1F468-1F3FC-200D-1F3EB': ['man_teacher_tone2'],
-  // 👨🏽‍🏫 man teacher, medium skin tone
-  '1F468-1F3FD-200D-1F3EB': ['man_teacher_tone3'],
-  // 👨🏾‍🏫 man teacher, medium dark skin tone
-  '1F468-1F3FE-200D-1F3EB': ['man_teacher_tone4'],
-  // 👨🏿‍🏫 man teacher, dark skin tone
-  '1F468-1F3FF-200D-1F3EB': ['man_teacher_tone5'],
   // 👩‍🏫 woman teacher
   '1F469-200D-1F3EB': ['woman_teacher'],
-  // 👩🏻‍🏫 woman teacher, light skin tone
-  '1F469-1F3FB-200D-1F3EB': ['woman_teacher_tone1'],
-  // 👩🏼‍🏫 woman teacher, medium light skin tone
-  '1F469-1F3FC-200D-1F3EB': ['woman_teacher_tone2'],
-  // 👩🏽‍🏫 woman teacher, medium skin tone
-  '1F469-1F3FD-200D-1F3EB': ['woman_teacher_tone3'],
-  // 👩🏾‍🏫 woman teacher, medium dark skin tone
-  '1F469-1F3FE-200D-1F3EB': ['woman_teacher_tone4'],
-  // 👩🏿‍🏫 woman teacher, dark skin tone
-  '1F469-1F3FF-200D-1F3EB': ['woman_teacher_tone5'],
   // 👨‍⚖️ man judge
   '1F468-200D-2696-FE0F': ['man_judge'],
-  // 👨🏻‍⚖️ man judge, light skin tone
-  '1F468-1F3FB-200D-2696-FE0F': ['man_judge_tone1'],
-  // 👨🏼‍⚖️ man judge, medium light skin tone
-  '1F468-1F3FC-200D-2696-FE0F': ['man_judge_tone2'],
-  // 👨🏽‍⚖️ man judge, medium skin tone
-  '1F468-1F3FD-200D-2696-FE0F': ['man_judge_tone3'],
-  // 👨🏾‍⚖️ man judge, medium dark skin tone
-  '1F468-1F3FE-200D-2696-FE0F': ['man_judge_tone4'],
-  // 👨🏿‍⚖️ man judge, dark skin tone
-  '1F468-1F3FF-200D-2696-FE0F': ['man_judge_tone5'],
   // 👩‍⚖️ woman judge
   '1F469-200D-2696-FE0F': ['woman_judge'],
-  // 👩🏻‍⚖️ woman judge, light skin tone
-  '1F469-1F3FB-200D-2696-FE0F': ['woman_judge_tone1'],
-  // 👩🏼‍⚖️ woman judge, medium light skin tone
-  '1F469-1F3FC-200D-2696-FE0F': ['woman_judge_tone2'],
-  // 👩🏽‍⚖️ woman judge, medium skin tone
-  '1F469-1F3FD-200D-2696-FE0F': ['woman_judge_tone3'],
-  // 👩🏾‍⚖️ woman judge, medium dark skin tone
-  '1F469-1F3FE-200D-2696-FE0F': ['woman_judge_tone4'],
-  // 👩🏿‍⚖️ woman judge, dark skin tone
-  '1F469-1F3FF-200D-2696-FE0F': ['woman_judge_tone5'],
   // 👨‍🌾 man farmer
   '1F468-200D-1F33E': ['man_farmer'],
-  // 👨🏻‍🌾 man farmer, light skin tone
-  '1F468-1F3FB-200D-1F33E': ['man_farmer_tone1'],
-  // 👨🏼‍🌾 man farmer, medium light skin tone
-  '1F468-1F3FC-200D-1F33E': ['man_farmer_tone2'],
-  // 👨🏽‍🌾 man farmer, medium skin tone
-  '1F468-1F3FD-200D-1F33E': ['man_farmer_tone3'],
-  // 👨🏾‍🌾 man farmer, medium dark skin tone
-  '1F468-1F3FE-200D-1F33E': ['man_farmer_tone4'],
-  // 👨🏿‍🌾 man farmer, dark skin tone
-  '1F468-1F3FF-200D-1F33E': ['man_farmer_tone5'],
   // 👩‍🌾 woman farmer
   '1F469-200D-1F33E': ['woman_farmer'],
-  // 👩🏻‍🌾 woman farmer, light skin tone
-  '1F469-1F3FB-200D-1F33E': ['woman_farmer_tone1'],
-  // 👩🏼‍🌾 woman farmer, medium light skin tone
-  '1F469-1F3FC-200D-1F33E': ['woman_farmer_tone2'],
-  // 👩🏽‍🌾 woman farmer, medium skin tone
-  '1F469-1F3FD-200D-1F33E': ['woman_farmer_tone3'],
-  // 👩🏾‍🌾 woman farmer, medium dark skin tone
-  '1F469-1F3FE-200D-1F33E': ['woman_farmer_tone4'],
-  // 👩🏿‍🌾 woman farmer, dark skin tone
-  '1F469-1F3FF-200D-1F33E': ['woman_farmer_tone5'],
   // 👨‍🍳 man cook
   '1F468-200D-1F373': ['man_cook'],
-  // 👨🏻‍🍳 man cook, light skin tone
-  '1F468-1F3FB-200D-1F373': ['man_cook_tone1'],
-  // 👨🏼‍🍳 man cook, medium light skin tone
-  '1F468-1F3FC-200D-1F373': ['man_cook_tone2'],
-  // 👨🏽‍🍳 man cook, medium skin tone
-  '1F468-1F3FD-200D-1F373': ['man_cook_tone3'],
-  // 👨🏾‍🍳 man cook, medium dark skin tone
-  '1F468-1F3FE-200D-1F373': ['man_cook_tone4'],
-  // 👨🏿‍🍳 man cook, dark skin tone
-  '1F468-1F3FF-200D-1F373': ['man_cook_tone5'],
   // 👩‍🍳 woman cook
   '1F469-200D-1F373': ['woman_cook'],
-  // 👩🏻‍🍳 woman cook, light skin tone
-  '1F469-1F3FB-200D-1F373': ['woman_cook_tone1'],
-  // 👩🏼‍🍳 woman cook, medium light skin tone
-  '1F469-1F3FC-200D-1F373': ['woman_cook_tone2'],
-  // 👩🏽‍🍳 woman cook, medium skin tone
-  '1F469-1F3FD-200D-1F373': ['woman_cook_tone3'],
-  // 👩🏾‍🍳 woman cook, medium dark skin tone
-  '1F469-1F3FE-200D-1F373': ['woman_cook_tone4'],
-  // 👩🏿‍🍳 woman cook, dark skin tone
-  '1F469-1F3FF-200D-1F373': ['woman_cook_tone5'],
   // 👨‍🔧 man mechanic
   '1F468-200D-1F527': ['man_mechanic'],
-  // 👨🏻‍🔧 man mechanic, light skin tone
-  '1F468-1F3FB-200D-1F527': ['man_mechanic_tone1'],
-  // 👨🏼‍🔧 man mechanic, medium light skin tone
-  '1F468-1F3FC-200D-1F527': ['man_mechanic_tone2'],
-  // 👨🏽‍🔧 man mechanic, medium skin tone
-  '1F468-1F3FD-200D-1F527': ['man_mechanic_tone3'],
-  // 👨🏾‍🔧 man mechanic, medium dark skin tone
-  '1F468-1F3FE-200D-1F527': ['man_mechanic_tone4'],
-  // 👨🏿‍🔧 man mechanic, dark skin tone
-  '1F468-1F3FF-200D-1F527': ['man_mechanic_tone5'],
   // 👩‍🔧 woman mechanic
   '1F469-200D-1F527': ['woman_mechanic'],
-  // 👩🏻‍🔧 woman mechanic, light skin tone
-  '1F469-1F3FB-200D-1F527': ['woman_mechanic_tone1'],
-  // 👩🏼‍🔧 woman mechanic, medium light skin tone
-  '1F469-1F3FC-200D-1F527': ['woman_mechanic_tone2'],
-  // 👩🏽‍🔧 woman mechanic, medium skin tone
-  '1F469-1F3FD-200D-1F527': ['woman_mechanic_tone3'],
-  // 👩🏾‍🔧 woman mechanic, medium dark skin tone
-  '1F469-1F3FE-200D-1F527': ['woman_mechanic_tone4'],
-  // 👩🏿‍🔧 woman mechanic, dark skin tone
-  '1F469-1F3FF-200D-1F527': ['woman_mechanic_tone5'],
   // 👨‍🏭 man factory worker
   '1F468-200D-1F3ED': ['man_factory_worker'],
-  // 👨🏻‍🏭 man factory worker, light skin tone
-  '1F468-1F3FB-200D-1F3ED': ['man_factory_worker_tone1'],
-  // 👨🏼‍🏭 man factory worker, medium light skin tone
-  '1F468-1F3FC-200D-1F3ED': ['man_factory_worker_tone2'],
-  // 👨🏽‍🏭 man factory worker, medium skin tone
-  '1F468-1F3FD-200D-1F3ED': ['man_factory_worker_tone3'],
-  // 👨🏾‍🏭 man factory worker, medium dark skin tone
-  '1F468-1F3FE-200D-1F3ED': ['man_factory_worker_tone4'],
-  // 👨🏿‍🏭 man factory worker, dark skin tone
-  '1F468-1F3FF-200D-1F3ED': ['man_factory_worker_tone5'],
   // 👩‍🏭 woman factory worker
   '1F469-200D-1F3ED': ['woman_factory_worker'],
-  // 👩🏻‍🏭 woman factory worker, light skin tone
-  '1F469-1F3FB-200D-1F3ED': ['woman_factory_worker_tone1'],
-  // 👩🏼‍🏭 woman factory worker, medium light skin tone
-  '1F469-1F3FC-200D-1F3ED': ['woman_factory_worker_tone2'],
-  // 👩🏽‍🏭 woman factory worker, medium skin tone
-  '1F469-1F3FD-200D-1F3ED': ['woman_factory_worker_tone3'],
-  // 👩🏾‍🏭 woman factory worker, medium dark skin tone
-  '1F469-1F3FE-200D-1F3ED': ['woman_factory_worker_tone4'],
-  // 👩🏿‍🏭 woman factory worker, dark skin tone
-  '1F469-1F3FF-200D-1F3ED': ['woman_factory_worker_tone5'],
   // 👨‍💼 man office worker
   '1F468-200D-1F4BC': ['man_office_worker'],
-  // 👨🏻‍💼 man office worker, light skin tone
-  '1F468-1F3FB-200D-1F4BC': ['man_office_worker_tone1'],
-  // 👨🏼‍💼 man office worker, medium light skin tone
-  '1F468-1F3FC-200D-1F4BC': ['man_office_worker_tone2'],
-  // 👨🏽‍💼 man office worker, medium skin tone
-  '1F468-1F3FD-200D-1F4BC': ['man_office_worker_tone3'],
-  // 👨🏾‍💼 man office worker, medium dark skin tone
-  '1F468-1F3FE-200D-1F4BC': ['man_office_worker_tone4'],
-  // 👨🏿‍💼 man office worker, dark skin tone
-  '1F468-1F3FF-200D-1F4BC': ['man_office_worker_tone5'],
   // 👩‍💼 woman office worker
   '1F469-200D-1F4BC': ['woman_office_worker'],
-  // 👩🏻‍💼 woman office worker, light skin tone
-  '1F469-1F3FB-200D-1F4BC': ['woman_office_worker_tone1'],
-  // 👩🏼‍💼 woman office worker, medium light skin tone
-  '1F469-1F3FC-200D-1F4BC': ['woman_office_worker_tone2'],
-  // 👩🏽‍💼 woman office worker, medium skin tone
-  '1F469-1F3FD-200D-1F4BC': ['woman_office_worker_tone3'],
-  // 👩🏾‍💼 woman office worker, medium dark skin tone
-  '1F469-1F3FE-200D-1F4BC': ['woman_office_worker_tone4'],
-  // 👩🏿‍💼 woman office worker, dark skin tone
-  '1F469-1F3FF-200D-1F4BC': ['woman_office_worker_tone5'],
   // 👨‍🔬 man scientist
   '1F468-200D-1F52C': ['man_scientist'],
-  // 👨🏻‍🔬 man scientist, light skin tone
-  '1F468-1F3FB-200D-1F52C': ['man_scientist_tone1'],
-  // 👨🏼‍🔬 man scientist, medium light skin tone
-  '1F468-1F3FC-200D-1F52C': ['man_scientist_tone2'],
-  // 👨🏽‍🔬 man scientist, medium skin tone
-  '1F468-1F3FD-200D-1F52C': ['man_scientist_tone3'],
-  // 👨🏾‍🔬 man scientist, medium dark skin tone
-  '1F468-1F3FE-200D-1F52C': ['man_scientist_tone4'],
-  // 👨🏿‍🔬 man scientist, dark skin tone
-  '1F468-1F3FF-200D-1F52C': ['man_scientist_tone5'],
   // 👩‍🔬 woman scientist
   '1F469-200D-1F52C': ['woman_scientist'],
-  // 👩🏻‍🔬 woman scientist, light skin tone
-  '1F469-1F3FB-200D-1F52C': ['woman_scientist_tone1'],
-  // 👩🏼‍🔬 woman scientist, medium light skin tone
-  '1F469-1F3FC-200D-1F52C': ['woman_scientist_tone2'],
-  // 👩🏽‍🔬 woman scientist, medium skin tone
-  '1F469-1F3FD-200D-1F52C': ['woman_scientist_tone3'],
-  // 👩🏾‍🔬 woman scientist, medium dark skin tone
-  '1F469-1F3FE-200D-1F52C': ['woman_scientist_tone4'],
-  // 👩🏿‍🔬 woman scientist, dark skin tone
-  '1F469-1F3FF-200D-1F52C': ['woman_scientist_tone5'],
   // 👨‍💻 man technologist
   '1F468-200D-1F4BB': ['man_technologist'],
-  // 👨🏻‍💻 man technologist, light skin tone
-  '1F468-1F3FB-200D-1F4BB': ['man_technologist_tone1'],
-  // 👨🏼‍💻 man technologist, medium light skin tone
-  '1F468-1F3FC-200D-1F4BB': ['man_technologist_tone2'],
-  // 👨🏽‍💻 man technologist, medium skin tone
-  '1F468-1F3FD-200D-1F4BB': ['man_technologist_tone3'],
-  // 👨🏾‍💻 man technologist, medium dark skin tone
-  '1F468-1F3FE-200D-1F4BB': ['man_technologist_tone4'],
-  // 👨🏿‍💻 man technologist, dark skin tone
-  '1F468-1F3FF-200D-1F4BB': ['man_technologist_tone5'],
   // 👩‍💻 woman technologist
   '1F469-200D-1F4BB': ['woman_technologist'],
-  // 👩🏻‍💻 woman technologist, light skin tone
-  '1F469-1F3FB-200D-1F4BB': ['woman_technologist_tone1'],
-  // 👩🏼‍💻 woman technologist, medium light skin tone
-  '1F469-1F3FC-200D-1F4BB': ['woman_technologist_tone2'],
-  // 👩🏽‍💻 woman technologist, medium skin tone
-  '1F469-1F3FD-200D-1F4BB': ['woman_technologist_tone3'],
-  // 👩🏾‍💻 woman technologist, medium dark skin tone
-  '1F469-1F3FE-200D-1F4BB': ['woman_technologist_tone4'],
-  // 👩🏿‍💻 woman technologist, dark skin tone
-  '1F469-1F3FF-200D-1F4BB': ['woman_technologist_tone5'],
   // 👨‍🎤 man singer
   '1F468-200D-1F3A4': ['man_singer'],
-  // 👨🏻‍🎤 man singer, light skin tone
-  '1F468-1F3FB-200D-1F3A4': ['man_singer_tone1'],
-  // 👨🏼‍🎤 man singer, medium light skin tone
-  '1F468-1F3FC-200D-1F3A4': ['man_singer_tone2'],
-  // 👨🏽‍🎤 man singer, medium skin tone
-  '1F468-1F3FD-200D-1F3A4': ['man_singer_tone3'],
-  // 👨🏾‍🎤 man singer, medium dark skin tone
-  '1F468-1F3FE-200D-1F3A4': ['man_singer_tone4'],
-  // 👨🏿‍🎤 man singer, dark skin tone
-  '1F468-1F3FF-200D-1F3A4': ['man_singer_tone5'],
   // 👩‍🎤 woman singer
   '1F469-200D-1F3A4': ['woman_singer'],
-  // 👩🏻‍🎤 woman singer, light skin tone
-  '1F469-1F3FB-200D-1F3A4': ['woman_singer_tone1'],
-  // 👩🏼‍🎤 woman singer, medium light skin tone
-  '1F469-1F3FC-200D-1F3A4': ['woman_singer_tone2'],
-  // 👩🏽‍🎤 woman singer, medium skin tone
-  '1F469-1F3FD-200D-1F3A4': ['woman_singer_tone3'],
-  // 👩🏾‍🎤 woman singer, medium dark skin tone
-  '1F469-1F3FE-200D-1F3A4': ['woman_singer_tone4'],
-  // 👩🏿‍🎤 woman singer, dark skin tone
-  '1F469-1F3FF-200D-1F3A4': ['woman_singer_tone5'],
   // 👨‍🎨 man artist
   '1F468-200D-1F3A8': ['man_artist'],
-  // 👨🏻‍🎨 man artist, light skin tone
-  '1F468-1F3FB-200D-1F3A8': ['man_artist_tone1'],
-  // 👨🏼‍🎨 man artist, medium light skin tone
-  '1F468-1F3FC-200D-1F3A8': ['man_artist_tone2'],
-  // 👨🏽‍🎨 man artist, medium skin tone
-  '1F468-1F3FD-200D-1F3A8': ['man_artist_tone3'],
-  // 👨🏾‍🎨 man artist, medium dark skin tone
-  '1F468-1F3FE-200D-1F3A8': ['man_artist_tone4'],
-  // 👨🏿‍🎨 man artist, dark skin tone
-  '1F468-1F3FF-200D-1F3A8': ['man_artist_tone5'],
   // 👩‍🎨 woman artist
   '1F469-200D-1F3A8': ['woman_artist'],
-  // 👩🏻‍🎨 woman artist, light skin tone
-  '1F469-1F3FB-200D-1F3A8': ['woman_artist_tone1'],
-  // 👩🏼‍🎨 woman artist, medium light skin tone
-  '1F469-1F3FC-200D-1F3A8': ['woman_artist_tone2'],
-  // 👩🏽‍🎨 woman artist, medium skin tone
-  '1F469-1F3FD-200D-1F3A8': ['woman_artist_tone3'],
-  // 👩🏾‍🎨 woman artist, medium dark skin tone
-  '1F469-1F3FE-200D-1F3A8': ['woman_artist_tone4'],
-  // 👩🏿‍🎨 woman artist, dark skin tone
-  '1F469-1F3FF-200D-1F3A8': ['woman_artist_tone5'],
   // 👨‍✈️ man pilot
   '1F468-200D-2708-FE0F': ['man_pilot'],
-  // 👨🏻‍✈️ man pilot, light skin tone
-  '1F468-1F3FB-200D-2708-FE0F': ['man_pilot_tone1'],
-  // 👨🏼‍✈️ man pilot, medium light skin tone
-  '1F468-1F3FC-200D-2708-FE0F': ['man_pilot_tone2'],
-  // 👨🏽‍✈️ man pilot, medium skin tone
-  '1F468-1F3FD-200D-2708-FE0F': ['man_pilot_tone3'],
-  // 👨🏾‍✈️ man pilot, medium dark skin tone
-  '1F468-1F3FE-200D-2708-FE0F': ['man_pilot_tone4'],
-  // 👨🏿‍✈️ man pilot, dark skin tone
-  '1F468-1F3FF-200D-2708-FE0F': ['man_pilot_tone5'],
   // 👩‍✈️ woman pilot
   '1F469-200D-2708-FE0F': ['woman_pilot'],
-  // 👩🏻‍✈️ woman pilot, light skin tone
-  '1F469-1F3FB-200D-2708-FE0F': ['woman_pilot_tone1'],
-  // 👩🏼‍✈️ woman pilot, medium light skin tone
-  '1F469-1F3FC-200D-2708-FE0F': ['woman_pilot_tone2'],
-  // 👩🏽‍✈️ woman pilot, medium skin tone
-  '1F469-1F3FD-200D-2708-FE0F': ['woman_pilot_tone3'],
-  // 👩🏾‍✈️ woman pilot, medium dark skin tone
-  '1F469-1F3FE-200D-2708-FE0F': ['woman_pilot_tone4'],
-  // 👩🏿‍✈️ woman pilot, dark skin tone
-  '1F469-1F3FF-200D-2708-FE0F': ['woman_pilot_tone5'],
   // 👨‍🚀 man astronaut
   '1F468-200D-1F680': ['man_astronaut'],
-  // 👨🏻‍🚀 man astronaut, light skin tone
-  '1F468-1F3FB-200D-1F680': ['man_astronaut_tone1'],
-  // 👨🏼‍🚀 man astronaut, medium light skin tone
-  '1F468-1F3FC-200D-1F680': ['man_astronaut_tone2'],
-  // 👨🏽‍🚀 man astronaut, medium skin tone
-  '1F468-1F3FD-200D-1F680': ['man_astronaut_tone3'],
-  // 👨🏾‍🚀 man astronaut, medium dark skin tone
-  '1F468-1F3FE-200D-1F680': ['man_astronaut_tone4'],
-  // 👨🏿‍🚀 man astronaut, dark skin tone
-  '1F468-1F3FF-200D-1F680': ['man_astronaut_tone5'],
   // 👩‍🚀 woman astronaut
   '1F469-200D-1F680': ['woman_astronaut'],
-  // 👩🏻‍🚀 woman astronaut, light skin tone
-  '1F469-1F3FB-200D-1F680': ['woman_astronaut_tone1'],
-  // 👩🏼‍🚀 woman astronaut, medium light skin tone
-  '1F469-1F3FC-200D-1F680': ['woman_astronaut_tone2'],
-  // 👩🏽‍🚀 woman astronaut, medium skin tone
-  '1F469-1F3FD-200D-1F680': ['woman_astronaut_tone3'],
-  // 👩🏾‍🚀 woman astronaut, medium dark skin tone
-  '1F469-1F3FE-200D-1F680': ['woman_astronaut_tone4'],
-  // 👩🏿‍🚀 woman astronaut, dark skin tone
-  '1F469-1F3FF-200D-1F680': ['woman_astronaut_tone5'],
   // 👨‍🚒 man firefighter
   '1F468-200D-1F692': ['man_firefighter'],
-  // 👨🏻‍🚒 man firefighter, light skin tone
-  '1F468-1F3FB-200D-1F692': ['man_firefighter_tone1'],
-  // 👨🏼‍🚒 man firefighter, medium light skin tone
-  '1F468-1F3FC-200D-1F692': ['man_firefighter_tone2'],
-  // 👨🏽‍🚒 man firefighter, medium skin tone
-  '1F468-1F3FD-200D-1F692': ['man_firefighter_tone3'],
-  // 👨🏾‍🚒 man firefighter, medium dark skin tone
-  '1F468-1F3FE-200D-1F692': ['man_firefighter_tone4'],
-  // 👨🏿‍🚒 man firefighter, dark skin tone
-  '1F468-1F3FF-200D-1F692': ['man_firefighter_tone5'],
   // 👩‍🚒 woman firefighter
   '1F469-200D-1F692': ['woman_firefighter'],
-  // 👩🏻‍🚒 woman firefighter, light skin tone
-  '1F469-1F3FB-200D-1F692': ['woman_firefighter_tone1'],
-  // 👩🏼‍🚒 woman firefighter, medium light skin tone
-  '1F469-1F3FC-200D-1F692': ['woman_firefighter_tone2'],
-  // 👩🏽‍🚒 woman firefighter, medium skin tone
-  '1F469-1F3FD-200D-1F692': ['woman_firefighter_tone3'],
-  // 👩🏾‍🚒 woman firefighter, medium dark skin tone
-  '1F469-1F3FE-200D-1F692': ['woman_firefighter_tone4'],
-  // 👩🏿‍🚒 woman firefighter, dark skin tone
-  '1F469-1F3FF-200D-1F692': ['woman_firefighter_tone5'],
   // 👮 police officer
   '1F46E': ['police_officer'],
-  // 👮🏻 police officer, light skin tone
-  '1F46E-1F3FB': ['police_officer_tone1'],
-  // 👮🏼 police officer, medium light skin tone
-  '1F46E-1F3FC': ['police_officer_tone2'],
-  // 👮🏽 police officer, medium skin tone
-  '1F46E-1F3FD': ['police_officer_tone3'],
-  // 👮🏾 police officer, medium dark skin tone
-  '1F46E-1F3FE': ['police_officer_tone4'],
-  // 👮🏿 police officer, dark skin tone
-  '1F46E-1F3FF': ['police_officer_tone5'],
   // 👮‍♂️ man police officer
   '1F46E-200D-2642-FE0F': ['man_police_officer'],
-  // 👮🏻‍♂️ man police officer, light skin tone
-  '1F46E-1F3FB-200D-2642-FE0F': ['man_police_officer_tone1'],
-  // 👮🏼‍♂️ man police officer, medium light skin tone
-  '1F46E-1F3FC-200D-2642-FE0F': ['man_police_officer_tone2'],
-  // 👮🏽‍♂️ man police officer, medium skin tone
-  '1F46E-1F3FD-200D-2642-FE0F': ['man_police_officer_tone3'],
-  // 👮🏾‍♂️ man police officer, medium dark skin tone
-  '1F46E-1F3FE-200D-2642-FE0F': ['man_police_officer_tone4'],
-  // 👮🏿‍♂️ man police officer, dark skin tone
-  '1F46E-1F3FF-200D-2642-FE0F': ['man_police_officer_tone5'],
   // 👮‍♀️ woman police officer
   '1F46E-200D-2640-FE0F': ['woman_police_officer'],
-  // 👮🏻‍♀️ woman police officer, light skin tone
-  '1F46E-1F3FB-200D-2640-FE0F': ['woman_police_officer_tone1'],
-  // 👮🏼‍♀️ woman police officer, medium light skin tone
-  '1F46E-1F3FC-200D-2640-FE0F': ['woman_police_officer_tone2'],
-  // 👮🏽‍♀️ woman police officer, medium skin tone
-  '1F46E-1F3FD-200D-2640-FE0F': ['woman_police_officer_tone3'],
-  // 👮🏾‍♀️ woman police officer, medium dark skin tone
-  '1F46E-1F3FE-200D-2640-FE0F': ['woman_police_officer_tone4'],
-  // 👮🏿‍♀️ woman police officer, dark skin tone
-  '1F46E-1F3FF-200D-2640-FE0F': ['woman_police_officer_tone5'],
   // 🕵️ detective
   '1F575': ['detective'],
-  // 🕵🏻 detective, light skin tone
-  '1F575-1F3FB': ['detective_tone1'],
-  // 🕵🏼 detective, medium light skin tone
-  '1F575-1F3FC': ['detective_tone2'],
-  // 🕵🏽 detective, medium skin tone
-  '1F575-1F3FD': ['detective_tone3'],
-  // 🕵🏾 detective, medium dark skin tone
-  '1F575-1F3FE': ['detective_tone4'],
-  // 🕵🏿 detective, dark skin tone
-  '1F575-1F3FF': ['detective_tone5'],
   // 🕵️‍♂️ man detective
   '1F575-FE0F-200D-2642-FE0F': ['man_detective'],
-  // 🕵🏻‍♂️ man detective, light skin tone
-  '1F575-1F3FB-200D-2642-FE0F': ['man_detective_tone1'],
-  // 🕵🏼‍♂️ man detective, medium light skin tone
-  '1F575-1F3FC-200D-2642-FE0F': ['man_detective_tone2'],
-  // 🕵🏽‍♂️ man detective, medium skin tone
-  '1F575-1F3FD-200D-2642-FE0F': ['man_detective_tone3'],
-  // 🕵🏾‍♂️ man detective, medium dark skin tone
-  '1F575-1F3FE-200D-2642-FE0F': ['man_detective_tone4'],
-  // 🕵🏿‍♂️ man detective, dark skin tone
-  '1F575-1F3FF-200D-2642-FE0F': ['man_detective_tone5'],
   // 🕵️‍♀️ woman detective
   '1F575-FE0F-200D-2640-FE0F': ['woman_detective'],
-  // 🕵🏻‍♀️ woman detective, light skin tone
-  '1F575-1F3FB-200D-2640-FE0F': ['woman_detective_tone1'],
-  // 🕵🏼‍♀️ woman detective, medium light skin tone
-  '1F575-1F3FC-200D-2640-FE0F': ['woman_detective_tone2'],
-  // 🕵🏽‍♀️ woman detective, medium skin tone
-  '1F575-1F3FD-200D-2640-FE0F': ['woman_detective_tone3'],
-  // 🕵🏾‍♀️ woman detective, medium dark skin tone
-  '1F575-1F3FE-200D-2640-FE0F': ['woman_detective_tone4'],
-  // 🕵🏿‍♀️ woman detective, dark skin tone
-  '1F575-1F3FF-200D-2640-FE0F': ['woman_detective_tone5'],
   // 💂 guard
   '1F482': ['guard'],
-  // 💂🏻 guard, light skin tone
-  '1F482-1F3FB': ['guard_tone1'],
-  // 💂🏼 guard, medium light skin tone
-  '1F482-1F3FC': ['guard_tone2'],
-  // 💂🏽 guard, medium skin tone
-  '1F482-1F3FD': ['guard_tone3'],
-  // 💂🏾 guard, medium dark skin tone
-  '1F482-1F3FE': ['guard_tone4'],
-  // 💂🏿 guard, dark skin tone
-  '1F482-1F3FF': ['guard_tone5'],
   // 💂‍♂️ man guard
   '1F482-200D-2642-FE0F': ['man_guard'],
-  // 💂🏻‍♂️ man guard, light skin tone
-  '1F482-1F3FB-200D-2642-FE0F': ['man_guard_tone1'],
-  // 💂🏼‍♂️ man guard, medium light skin tone
-  '1F482-1F3FC-200D-2642-FE0F': ['man_guard_tone2'],
-  // 💂🏽‍♂️ man guard, medium skin tone
-  '1F482-1F3FD-200D-2642-FE0F': ['man_guard_tone3'],
-  // 💂🏾‍♂️ man guard, medium dark skin tone
-  '1F482-1F3FE-200D-2642-FE0F': ['man_guard_tone4'],
-  // 💂🏿‍♂️ man guard, dark skin tone
-  '1F482-1F3FF-200D-2642-FE0F': ['man_guard_tone5'],
   // 💂‍♀️ woman guard
   '1F482-200D-2640-FE0F': ['woman_guard'],
-  // 💂🏻‍♀️ woman guard, light skin tone
-  '1F482-1F3FB-200D-2640-FE0F': ['woman_guard_tone1'],
-  // 💂🏼‍♀️ woman guard, medium light skin tone
-  '1F482-1F3FC-200D-2640-FE0F': ['woman_guard_tone2'],
-  // 💂🏽‍♀️ woman guard, medium skin tone
-  '1F482-1F3FD-200D-2640-FE0F': ['woman_guard_tone3'],
-  // 💂🏾‍♀️ woman guard, medium dark skin tone
-  '1F482-1F3FE-200D-2640-FE0F': ['woman_guard_tone4'],
-  // 💂🏿‍♀️ woman guard, dark skin tone
-  '1F482-1F3FF-200D-2640-FE0F': ['woman_guard_tone5'],
   // 👷 construction worker
   '1F477': ['construction_worker'],
-  // 👷🏻 construction worker, light skin tone
-  '1F477-1F3FB': ['construction_worker_tone1'],
-  // 👷🏼 construction worker, medium light skin tone
-  '1F477-1F3FC': ['construction_worker_tone2'],
-  // 👷🏽 construction worker, medium skin tone
-  '1F477-1F3FD': ['construction_worker_tone3'],
-  // 👷🏾 construction worker, medium dark skin tone
-  '1F477-1F3FE': ['construction_worker_tone4'],
-  // 👷🏿 construction worker, dark skin tone
-  '1F477-1F3FF': ['construction_worker_tone5'],
   // 👷‍♂️ man construction worker
   '1F477-200D-2642-FE0F': ['man_construction_worker'],
-  // 👷🏻‍♂️ man construction worker, light skin tone
-  '1F477-1F3FB-200D-2642-FE0F': ['man_construction_worker_tone1'],
-  // 👷🏼‍♂️ man construction worker, medium light skin tone
-  '1F477-1F3FC-200D-2642-FE0F': ['man_construction_worker_tone2'],
-  // 👷🏽‍♂️ man construction worker, medium skin tone
-  '1F477-1F3FD-200D-2642-FE0F': ['man_construction_worker_tone3'],
-  // 👷🏾‍♂️ man construction worker, medium dark skin tone
-  '1F477-1F3FE-200D-2642-FE0F': ['man_construction_worker_tone4'],
-  // 👷🏿‍♂️ man construction worker, dark skin tone
-  '1F477-1F3FF-200D-2642-FE0F': ['man_construction_worker_tone5'],
   // 👷‍♀️ woman construction worker
   '1F477-200D-2640-FE0F': ['woman_construction_worker'],
-  // 👷🏻‍♀️ woman construction worker, light skin tone
-  '1F477-1F3FB-200D-2640-FE0F': ['woman_construction_worker_tone1'],
-  // 👷🏼‍♀️ woman construction worker, medium light skin tone
-  '1F477-1F3FC-200D-2640-FE0F': ['woman_construction_worker_tone2'],
-  // 👷🏽‍♀️ woman construction worker, medium skin tone
-  '1F477-1F3FD-200D-2640-FE0F': ['woman_construction_worker_tone3'],
-  // 👷🏾‍♀️ woman construction worker, medium dark skin tone
-  '1F477-1F3FE-200D-2640-FE0F': ['woman_construction_worker_tone4'],
-  // 👷🏿‍♀️ woman construction worker, dark skin tone
-  '1F477-1F3FF-200D-2640-FE0F': ['woman_construction_worker_tone5'],
   // 🤴 prince
   '1F934': ['prince'],
-  // 🤴🏻 prince, light skin tone
-  '1F934-1F3FB': ['prince_tone1'],
-  // 🤴🏼 prince, medium light skin tone
-  '1F934-1F3FC': ['prince_tone2'],
-  // 🤴🏽 prince, medium skin tone
-  '1F934-1F3FD': ['prince_tone3'],
-  // 🤴🏾 prince, medium dark skin tone
-  '1F934-1F3FE': ['prince_tone4'],
-  // 🤴🏿 prince, dark skin tone
-  '1F934-1F3FF': ['prince_tone5'],
   // 👸 princess
   '1F478': ['princess'],
-  // 👸🏻 princess, light skin tone
-  '1F478-1F3FB': ['princess_tone1'],
-  // 👸🏼 princess, medium light skin tone
-  '1F478-1F3FC': ['princess_tone2'],
-  // 👸🏽 princess, medium skin tone
-  '1F478-1F3FD': ['princess_tone3'],
-  // 👸🏾 princess, medium dark skin tone
-  '1F478-1F3FE': ['princess_tone4'],
-  // 👸🏿 princess, dark skin tone
-  '1F478-1F3FF': ['princess_tone5'],
   // 👳 person wearing turban
   '1F473': ['person_turban'],
-  // 👳🏻 person wearing turban, light skin tone
-  '1F473-1F3FB': ['person_turban_tone1'],
-  // 👳🏼 person wearing turban, medium light skin tone
-  '1F473-1F3FC': ['person_turban_tone2'],
-  // 👳🏽 person wearing turban, medium skin tone
-  '1F473-1F3FD': ['person_turban_tone3'],
-  // 👳🏾 person wearing turban, medium dark skin tone
-  '1F473-1F3FE': ['person_turban_tone4'],
-  // 👳🏿 person wearing turban, dark skin tone
-  '1F473-1F3FF': ['person_turban_tone5'],
   // 👳‍♂️ man wearing turban
   '1F473-200D-2642-FE0F': ['man_turban'],
-  // 👳🏻‍♂️ man wearing turban, light skin tone
-  '1F473-1F3FB-200D-2642-FE0F': ['man_turban_tone1'],
-  // 👳🏼‍♂️ man wearing turban, medium light skin tone
-  '1F473-1F3FC-200D-2642-FE0F': ['man_turban_tone2'],
-  // 👳🏽‍♂️ man wearing turban, medium skin tone
-  '1F473-1F3FD-200D-2642-FE0F': ['man_turban_tone3'],
-  // 👳🏾‍♂️ man wearing turban, medium dark skin tone
-  '1F473-1F3FE-200D-2642-FE0F': ['man_turban_tone4'],
-  // 👳🏿‍♂️ man wearing turban, dark skin tone
-  '1F473-1F3FF-200D-2642-FE0F': ['man_turban_tone5'],
   // 👳‍♀️ woman wearing turban
   '1F473-200D-2640-FE0F': ['woman_turban'],
-  // 👳🏻‍♀️ woman wearing turban, light skin tone
-  '1F473-1F3FB-200D-2640-FE0F': ['woman_turban_tone1'],
-  // 👳🏼‍♀️ woman wearing turban, medium light skin tone
-  '1F473-1F3FC-200D-2640-FE0F': ['woman_turban_tone2'],
-  // 👳🏽‍♀️ woman wearing turban, medium skin tone
-  '1F473-1F3FD-200D-2640-FE0F': ['woman_turban_tone3'],
-  // 👳🏾‍♀️ woman wearing turban, medium dark skin tone
-  '1F473-1F3FE-200D-2640-FE0F': ['woman_turban_tone4'],
-  // 👳🏿‍♀️ woman wearing turban, dark skin tone
-  '1F473-1F3FF-200D-2640-FE0F': ['woman_turban_tone5'],
   // 👲 man with Chinese cap
   '1F472': ['man_chinese_cap'],
-  // 👲🏻 man with Chinese cap, light skin tone
-  '1F472-1F3FB': ['man_chinese_cap_tone1'],
-  // 👲🏼 man with Chinese cap, medium light skin tone
-  '1F472-1F3FC': ['man_chinese_cap_tone2'],
-  // 👲🏽 man with Chinese cap, medium skin tone
-  '1F472-1F3FD': ['man_chinese_cap_tone3'],
-  // 👲🏾 man with Chinese cap, medium dark skin tone
-  '1F472-1F3FE': ['man_chinese_cap_tone4'],
-  // 👲🏿 man with Chinese cap, dark skin tone
-  '1F472-1F3FF': ['man_chinese_cap_tone5'],
   // 🧕 woman with headscarf
   '1F9D5': ['woman_headscarf'],
-  // 🧕🏻 woman with headscarf, light skin tone
-  '1F9D5-1F3FB': ['woman_headscarf_tone1'],
-  // 🧕🏼 woman with headscarf, medium light skin tone
-  '1F9D5-1F3FC': ['woman_headscarf_tone2'],
-  // 🧕🏽 woman with headscarf, medium skin tone
-  '1F9D5-1F3FD': ['woman_headscarf_tone3'],
-  // 🧕🏾 woman with headscarf, medium dark skin tone
-  '1F9D5-1F3FE': ['woman_headscarf_tone4'],
-  // 🧕🏿 woman with headscarf, dark skin tone
-  '1F9D5-1F3FF': ['woman_headscarf_tone5'],
   // 🧔 bearded person
   '1F9D4': ['bearded_person'],
-  // 🧔🏻 bearded person, light skin tone
-  '1F9D4-1F3FB': ['bearded_person_tone1'],
-  // 🧔🏼 bearded person, medium light skin tone
-  '1F9D4-1F3FC': ['bearded_person_tone2'],
-  // 🧔🏽 bearded person, medium skin tone
-  '1F9D4-1F3FD': ['bearded_person_tone3'],
-  // 🧔🏾 bearded person, medium dark skin tone
-  '1F9D4-1F3FE': ['bearded_person_tone4'],
-  // 🧔🏿 bearded person, dark skin tone
-  '1F9D4-1F3FF': ['bearded_person_tone5'],
   // 👱 blond-haired person
   '1F471': ['blond_person'],
-  // 👱🏻 blond-haired person, light skin tone
-  '1F471-1F3FB': ['blond_person_tone1'],
-  // 👱🏼 blond-haired person, medium light skin tone
-  '1F471-1F3FC': ['blond_person_tone2'],
-  // 👱🏽 blond-haired person, medium skin tone
-  '1F471-1F3FD': ['blond_person_tone3'],
-  // 👱🏾 blond-haired person, medium dark skin tone
-  '1F471-1F3FE': ['blond_person_tone4'],
-  // 👱🏿 blond-haired person, dark skin tone
-  '1F471-1F3FF': ['blond_person_tone5'],
   // 👱‍♂️ blond-haired man
   '1F471-200D-2642-FE0F': ['blond_man'],
-  // 👱🏻‍♂️ blond-haired man, light skin tone
-  '1F471-1F3FB-200D-2642-FE0F': ['blond_man_tone1'],
-  // 👱🏼‍♂️ blond-haired man, medium light skin tone
-  '1F471-1F3FC-200D-2642-FE0F': ['blond_man_tone2'],
-  // 👱🏽‍♂️ blond-haired man, medium skin tone
-  '1F471-1F3FD-200D-2642-FE0F': ['blond_man_tone3'],
-  // 👱🏾‍♂️ blond-haired man, medium dark skin tone
-  '1F471-1F3FE-200D-2642-FE0F': ['blond_man_tone4'],
-  // 👱🏿‍♂️ blond-haired man, dark skin tone
-  '1F471-1F3FF-200D-2642-FE0F': ['blond_man_tone5'],
   // 👱‍♀️ blond-haired woman
   '1F471-200D-2640-FE0F': ['blond_woman'],
-  // 👱🏻‍♀️ blond-haired woman, light skin tone
-  '1F471-1F3FB-200D-2640-FE0F': ['blond_woman_tone1'],
-  // 👱🏼‍♀️ blond-haired woman, medium light skin tone
-  '1F471-1F3FC-200D-2640-FE0F': ['blond_woman_tone2'],
-  // 👱🏽‍♀️ blond-haired woman, medium skin tone
-  '1F471-1F3FD-200D-2640-FE0F': ['blond_woman_tone3'],
-  // 👱🏾‍♀️ blond-haired woman, medium dark skin tone
-  '1F471-1F3FE-200D-2640-FE0F': ['blond_woman_tone4'],
-  // 👱🏿‍♀️ blond-haired woman, dark skin tone
-  '1F471-1F3FF-200D-2640-FE0F': ['blond_woman_tone5'],
   // 🤵 man in tuxedo
   '1F935': ['man_tuxedo'],
-  // 🤵🏻 man in tuxedo, light skin tone
-  '1F935-1F3FB': ['man_tuxedo_tone1'],
-  // 🤵🏼 man in tuxedo, medium light skin tone
-  '1F935-1F3FC': ['man_tuxedo_tone2'],
-  // 🤵🏽 man in tuxedo, medium skin tone
-  '1F935-1F3FD': ['man_tuxedo_tone3'],
-  // 🤵🏾 man in tuxedo, medium dark skin tone
-  '1F935-1F3FE': ['man_tuxedo_tone4'],
-  // 🤵🏿 man in tuxedo, dark skin tone
-  '1F935-1F3FF': ['man_tuxedo_tone5'],
   // 👰 bride with veil
   '1F470': ['bride_veil'],
-  // 👰🏻 bride with veil, light skin tone
-  '1F470-1F3FB': ['bride_veil_tone1'],
-  // 👰🏼 bride with veil, medium light skin tone
-  '1F470-1F3FC': ['bride_veil_tone2'],
-  // 👰🏽 bride with veil, medium skin tone
-  '1F470-1F3FD': ['bride_veil_tone3'],
-  // 👰🏾 bride with veil, medium dark skin tone
-  '1F470-1F3FE': ['bride_veil_tone4'],
-  // 👰🏿 bride with veil, dark skin tone
-  '1F470-1F3FF': ['bride_veil_tone5'],
   // 🤰 pregnant woman
   '1F930': ['pregnant_woman'],
-  // 🤰🏻 pregnant woman, light skin tone
-  '1F930-1F3FB': ['pregnant_woman_tone1'],
-  // 🤰🏼 pregnant woman, medium light skin tone
-  '1F930-1F3FC': ['pregnant_woman_tone2'],
-  // 🤰🏽 pregnant woman, medium skin tone
-  '1F930-1F3FD': ['pregnant_woman_tone3'],
-  // 🤰🏾 pregnant woman, medium dark skin tone
-  '1F930-1F3FE': ['pregnant_woman_tone4'],
-  // 🤰🏿 pregnant woman, dark skin tone
-  '1F930-1F3FF': ['pregnant_woman_tone5'],
   // 🤱 breast-feeding
   '1F931': ['breast_feeding'],
-  // 🤱🏻 breast-feeding, light skin tone
-  '1F931-1F3FB': ['breast_feeding_tone1'],
-  // 🤱🏼 breast-feeding, medium light skin tone
-  '1F931-1F3FC': ['breast_feeding_tone2'],
-  // 🤱🏽 breast-feeding, medium skin tone
-  '1F931-1F3FD': ['breast_feeding_tone3'],
-  // 🤱🏾 breast-feeding, medium dark skin tone
-  '1F931-1F3FE': ['breast_feeding_tone4'],
-  // 🤱🏿 breast-feeding, dark skin tone
-  '1F931-1F3FF': ['breast_feeding_tone5'],
   // 👼 baby angel
   '1F47C': ['angel'],
-  // 👼🏻 baby angel, light skin tone
-  '1F47C-1F3FB': ['angel_tone1'],
-  // 👼🏼 baby angel, medium light skin tone
-  '1F47C-1F3FC': ['angel_tone2'],
-  // 👼🏽 baby angel, medium skin tone
-  '1F47C-1F3FD': ['angel_tone3'],
-  // 👼🏾 baby angel, medium dark skin tone
-  '1F47C-1F3FE': ['angel_tone4'],
-  // 👼🏿 baby angel, dark skin tone
-  '1F47C-1F3FF': ['angel_tone5'],
   // 🎅 Santa Claus
   '1F385': ['santa'],
-  // 🎅🏻 Santa Claus, light skin tone
-  '1F385-1F3FB': ['santa_tone1'],
-  // 🎅🏼 Santa Claus, medium light skin tone
-  '1F385-1F3FC': ['santa_tone2'],
-  // 🎅🏽 Santa Claus, medium skin tone
-  '1F385-1F3FD': ['santa_tone3'],
-  // 🎅🏾 Santa Claus, medium dark skin tone
-  '1F385-1F3FE': ['santa_tone4'],
-  // 🎅🏿 Santa Claus, dark skin tone
-  '1F385-1F3FF': ['santa_tone5'],
   // 🤶 Mrs. Claus
   '1F936': ['mrs_claus'],
-  // 🤶🏻 Mrs. Claus, light skin tone
-  '1F936-1F3FB': ['mrs_claus_tone1'],
-  // 🤶🏼 Mrs. Claus, medium light skin tone
-  '1F936-1F3FC': ['mrs_claus_tone2'],
-  // 🤶🏽 Mrs. Claus, medium skin tone
-  '1F936-1F3FD': ['mrs_claus_tone3'],
-  // 🤶🏾 Mrs. Claus, medium dark skin tone
-  '1F936-1F3FE': ['mrs_claus_tone4'],
-  // 🤶🏿 Mrs. Claus, dark skin tone
-  '1F936-1F3FF': ['mrs_claus_tone5'],
   // 🧙 mage
   '1F9D9': ['mage'],
-  // 🧙🏻 mage, light skin tone
-  '1F9D9-1F3FB': ['mage_tone1'],
-  // 🧙🏼 mage, medium light skin tone
-  '1F9D9-1F3FC': ['mage_tone2'],
-  // 🧙🏽 mage, medium skin tone
-  '1F9D9-1F3FD': ['mage_tone3'],
-  // 🧙🏾 mage, medium dark skin tone
-  '1F9D9-1F3FE': ['mage_tone4'],
-  // 🧙🏿 mage, dark skin tone
-  '1F9D9-1F3FF': ['mage_tone5'],
   // 🧙‍♀️ woman mage
   '1F9D9-200D-2640-FE0F': ['woman_mage'],
-  // 🧙🏻‍♀️ woman mage, light skin tone
-  '1F9D9-1F3FB-200D-2640-FE0F': ['woman_mage_tone1'],
-  // 🧙🏼‍♀️ woman mage, medium light skin tone
-  '1F9D9-1F3FC-200D-2640-FE0F': ['woman_mage_tone2'],
-  // 🧙🏽‍♀️ woman mage, medium skin tone
-  '1F9D9-1F3FD-200D-2640-FE0F': ['woman_mage_tone3'],
-  // 🧙🏾‍♀️ woman mage, medium dark skin tone
-  '1F9D9-1F3FE-200D-2640-FE0F': ['woman_mage_tone4'],
-  // 🧙🏿‍♀️ woman mage, dark skin tone
-  '1F9D9-1F3FF-200D-2640-FE0F': ['woman_mage_tone5'],
   // 🧙‍♂️ man mage
   '1F9D9-200D-2642-FE0F': ['man_mage'],
-  // 🧙🏻‍♂️ man mage, light skin tone
-  '1F9D9-1F3FB-200D-2642-FE0F': ['man_mage_tone1'],
-  // 🧙🏼‍♂️ man mage, medium light skin tone
-  '1F9D9-1F3FC-200D-2642-FE0F': ['man_mage_tone2'],
-  // 🧙🏽‍♂️ man mage, medium skin tone
-  '1F9D9-1F3FD-200D-2642-FE0F': ['man_mage_tone3'],
-  // 🧙🏾‍♂️ man mage, medium dark skin tone
-  '1F9D9-1F3FE-200D-2642-FE0F': ['man_mage_tone4'],
-  // 🧙🏿‍♂️ man mage, dark skin tone
-  '1F9D9-1F3FF-200D-2642-FE0F': ['man_mage_tone5'],
   // 🧚 fairy
   '1F9DA': ['fairy'],
-  // 🧚🏻 fairy, light skin tone
-  '1F9DA-1F3FB': ['fairy_tone1'],
-  // 🧚🏼 fairy, medium light skin tone
-  '1F9DA-1F3FC': ['fairy_tone2'],
-  // 🧚🏽 fairy, medium skin tone
-  '1F9DA-1F3FD': ['fairy_tone3'],
-  // 🧚🏾 fairy, medium dark skin tone
-  '1F9DA-1F3FE': ['fairy_tone4'],
-  // 🧚🏿 fairy, dark skin tone
-  '1F9DA-1F3FF': ['fairy_tone5'],
   // 🧚‍♀️ woman fairy
   '1F9DA-200D-2640-FE0F': ['woman_fairy'],
-  // 🧚🏻‍♀️ woman fairy, light skin tone
-  '1F9DA-1F3FB-200D-2640-FE0F': ['woman_fairy_tone1'],
-  // 🧚🏼‍♀️ woman fairy, medium light skin tone
-  '1F9DA-1F3FC-200D-2640-FE0F': ['woman_fairy_tone2'],
-  // 🧚🏽‍♀️ woman fairy, medium skin tone
-  '1F9DA-1F3FD-200D-2640-FE0F': ['woman_fairy_tone3'],
-  // 🧚🏾‍♀️ woman fairy, medium dark skin tone
-  '1F9DA-1F3FE-200D-2640-FE0F': ['woman_fairy_tone4'],
-  // 🧚🏿‍♀️ woman fairy, dark skin tone
-  '1F9DA-1F3FF-200D-2640-FE0F': ['woman_fairy_tone5'],
   // 🧚‍♂️ man fairy
   '1F9DA-200D-2642-FE0F': ['man_fairy'],
-  // 🧚🏻‍♂️ man fairy, light skin tone
-  '1F9DA-1F3FB-200D-2642-FE0F': ['man_fairy_tone1'],
-  // 🧚🏼‍♂️ man fairy, medium light skin tone
-  '1F9DA-1F3FC-200D-2642-FE0F': ['man_fairy_tone2'],
-  // 🧚🏽‍♂️ man fairy, medium skin tone
-  '1F9DA-1F3FD-200D-2642-FE0F': ['man_fairy_tone3'],
-  // 🧚🏾‍♂️ man fairy, medium dark skin tone
-  '1F9DA-1F3FE-200D-2642-FE0F': ['man_fairy_tone4'],
-  // 🧚🏿‍♂️ man fairy, dark skin tone
-  '1F9DA-1F3FF-200D-2642-FE0F': ['man_fairy_tone5'],
   // 🧛 vampire
   '1F9DB': ['vampire'],
-  // 🧛🏻 vampire, light skin tone
-  '1F9DB-1F3FB': ['vampire_tone1'],
-  // 🧛🏼 vampire, medium light skin tone
-  '1F9DB-1F3FC': ['vampire_tone2'],
-  // 🧛🏽 vampire, medium skin tone
-  '1F9DB-1F3FD': ['vampire_tone3'],
-  // 🧛🏾 vampire, medium dark skin tone
-  '1F9DB-1F3FE': ['vampire_tone4'],
-  // 🧛🏿 vampire, dark skin tone
-  '1F9DB-1F3FF': ['vampire_tone5'],
   // 🧛‍♀️ woman vampire
   '1F9DB-200D-2640-FE0F': ['woman_vampire'],
-  // 🧛🏻‍♀️ woman vampire, light skin tone
-  '1F9DB-1F3FB-200D-2640-FE0F': ['woman_vampire_tone1'],
-  // 🧛🏼‍♀️ woman vampire, medium light skin tone
-  '1F9DB-1F3FC-200D-2640-FE0F': ['woman_vampire_tone2'],
-  // 🧛🏽‍♀️ woman vampire, medium skin tone
-  '1F9DB-1F3FD-200D-2640-FE0F': ['woman_vampire_tone3'],
-  // 🧛🏾‍♀️ woman vampire, medium dark skin tone
-  '1F9DB-1F3FE-200D-2640-FE0F': ['woman_vampire_tone4'],
-  // 🧛🏿‍♀️ woman vampire, dark skin tone
-  '1F9DB-1F3FF-200D-2640-FE0F': ['woman_vampire_tone5'],
   // 🧛‍♂️ man vampire
   '1F9DB-200D-2642-FE0F': ['man_vampire'],
-  // 🧛🏻‍♂️ man vampire, light skin tone
-  '1F9DB-1F3FB-200D-2642-FE0F': ['man_vampire_tone1'],
-  // 🧛🏼‍♂️ man vampire, medium light skin tone
-  '1F9DB-1F3FC-200D-2642-FE0F': ['man_vampire_tone2'],
-  // 🧛🏽‍♂️ man vampire, medium skin tone
-  '1F9DB-1F3FD-200D-2642-FE0F': ['man_vampire_tone3'],
-  // 🧛🏾‍♂️ man vampire, medium dark skin tone
-  '1F9DB-1F3FE-200D-2642-FE0F': ['man_vampire_tone4'],
-  // 🧛🏿‍♂️ man vampire, dark skin tone
-  '1F9DB-1F3FF-200D-2642-FE0F': ['man_vampire_tone5'],
   // 🧜 merperson
   '1F9DC': ['merperson'],
-  // 🧜🏻 merperson, light skin tone
-  '1F9DC-1F3FB': ['merperson_tone1'],
-  // 🧜🏼 merperson, medium light skin tone
-  '1F9DC-1F3FC': ['merperson_tone2'],
-  // 🧜🏽 merperson, medium skin tone
-  '1F9DC-1F3FD': ['merperson_tone3'],
-  // 🧜🏾 merperson, medium dark skin tone
-  '1F9DC-1F3FE': ['merperson_tone4'],
-  // 🧜🏿 merperson, dark skin tone
-  '1F9DC-1F3FF': ['merperson_tone5'],
   // 🧜‍♀️ mermaid
   '1F9DC-200D-2640-FE0F': ['mermaid'],
-  // 🧜🏻‍♀️ mermaid, light skin tone
-  '1F9DC-1F3FB-200D-2640-FE0F': ['mermaid_tone1'],
-  // 🧜🏼‍♀️ mermaid, medium light skin tone
-  '1F9DC-1F3FC-200D-2640-FE0F': ['mermaid_tone2'],
-  // 🧜🏽‍♀️ mermaid, medium skin tone
-  '1F9DC-1F3FD-200D-2640-FE0F': ['mermaid_tone3'],
-  // 🧜🏾‍♀️ mermaid, medium dark skin tone
-  '1F9DC-1F3FE-200D-2640-FE0F': ['mermaid_tone4'],
-  // 🧜🏿‍♀️ mermaid, dark skin tone
-  '1F9DC-1F3FF-200D-2640-FE0F': ['mermaid_tone5'],
   // 🧜‍♂️ merman
   '1F9DC-200D-2642-FE0F': ['merman'],
-  // 🧜🏻‍♂️ merman, light skin tone
-  '1F9DC-1F3FB-200D-2642-FE0F': ['merman_tone1'],
-  // 🧜🏼‍♂️ merman, medium light skin tone
-  '1F9DC-1F3FC-200D-2642-FE0F': ['merman_tone2'],
-  // 🧜🏽‍♂️ merman, medium skin tone
-  '1F9DC-1F3FD-200D-2642-FE0F': ['merman_tone3'],
-  // 🧜🏾‍♂️ merman, medium dark skin tone
-  '1F9DC-1F3FE-200D-2642-FE0F': ['merman_tone4'],
-  // 🧜🏿‍♂️ merman, dark skin tone
-  '1F9DC-1F3FF-200D-2642-FE0F': ['merman_tone5'],
   // 🧝 elf
   '1F9DD': ['elf'],
-  // 🧝🏻 elf, light skin tone
-  '1F9DD-1F3FB': ['elf_tone1'],
-  // 🧝🏼 elf, medium light skin tone
-  '1F9DD-1F3FC': ['elf_tone2'],
-  // 🧝🏽 elf, medium skin tone
-  '1F9DD-1F3FD': ['elf_tone3'],
-  // 🧝🏾 elf, medium dark skin tone
-  '1F9DD-1F3FE': ['elf_tone4'],
-  // 🧝🏿 elf, dark skin tone
-  '1F9DD-1F3FF': ['elf_tone5'],
   // 🧝‍♀️ woman elf
   '1F9DD-200D-2640-FE0F': ['woman_elf'],
-  // 🧝🏻‍♀️ woman elf, light skin tone
-  '1F9DD-1F3FB-200D-2640-FE0F': ['woman_elf_tone1'],
-  // 🧝🏼‍♀️ woman elf, medium light skin tone
-  '1F9DD-1F3FC-200D-2640-FE0F': ['woman_elf_tone2'],
-  // 🧝🏽‍♀️ woman elf, medium skin tone
-  '1F9DD-1F3FD-200D-2640-FE0F': ['woman_elf_tone3'],
-  // 🧝🏾‍♀️ woman elf, medium dark skin tone
-  '1F9DD-1F3FE-200D-2640-FE0F': ['woman_elf_tone4'],
-  // 🧝🏿‍♀️ woman elf, dark skin tone
-  '1F9DD-1F3FF-200D-2640-FE0F': ['woman_elf_tone5'],
   // 🧝‍♂️ man elf
   '1F9DD-200D-2642-FE0F': ['man_elf'],
-  // 🧝🏻‍♂️ man elf, light skin tone
-  '1F9DD-1F3FB-200D-2642-FE0F': ['man_elf_tone1'],
-  // 🧝🏼‍♂️ man elf, medium light skin tone
-  '1F9DD-1F3FC-200D-2642-FE0F': ['man_elf_tone2'],
-  // 🧝🏽‍♂️ man elf, medium skin tone
-  '1F9DD-1F3FD-200D-2642-FE0F': ['man_elf_tone3'],
-  // 🧝🏾‍♂️ man elf, medium dark skin tone
-  '1F9DD-1F3FE-200D-2642-FE0F': ['man_elf_tone4'],
-  // 🧝🏿‍♂️ man elf, dark skin tone
-  '1F9DD-1F3FF-200D-2642-FE0F': ['man_elf_tone5'],
   // 🧞 genie
   '1F9DE': ['genie'],
   // 🧞‍♀️ woman genie
@@ -1279,496 +418,86 @@ export default {
   '1F9DF-200D-2642-FE0F': ['man_zombie'],
   // 🙍 person frowning
   '1F64D': ['person_frowning'],
-  // 🙍🏻 person frowning, light skin tone
-  '1F64D-1F3FB': ['person_frowning_tone1'],
-  // 🙍🏼 person frowning, medium light skin tone
-  '1F64D-1F3FC': ['person_frowning_tone2'],
-  // 🙍🏽 person frowning, medium skin tone
-  '1F64D-1F3FD': ['person_frowning_tone3'],
-  // 🙍🏾 person frowning, medium dark skin tone
-  '1F64D-1F3FE': ['person_frowning_tone4'],
-  // 🙍🏿 person frowning, dark skin tone
-  '1F64D-1F3FF': ['person_frowning_tone5'],
   // 🙍‍♂️ man frowning
   '1F64D-200D-2642-FE0F': ['man_frowning'],
-  // 🙍🏻‍♂️ man frowning, light skin tone
-  '1F64D-1F3FB-200D-2642-FE0F': ['man_frowning_tone1'],
-  // 🙍🏼‍♂️ man frowning, medium light skin tone
-  '1F64D-1F3FC-200D-2642-FE0F': ['man_frowning_tone2'],
-  // 🙍🏽‍♂️ man frowning, medium skin tone
-  '1F64D-1F3FD-200D-2642-FE0F': ['man_frowning_tone3'],
-  // 🙍🏾‍♂️ man frowning, medium dark skin tone
-  '1F64D-1F3FE-200D-2642-FE0F': ['man_frowning_tone4'],
-  // 🙍🏿‍♂️ man frowning, dark skin tone
-  '1F64D-1F3FF-200D-2642-FE0F': ['man_frowning_tone5'],
   // 🙍‍♀️ woman frowning
   '1F64D-200D-2640-FE0F': ['woman_frowning'],
-  // 🙍🏻‍♀️ woman frowning, light skin tone
-  '1F64D-1F3FB-200D-2640-FE0F': ['woman_frowning_tone1'],
-  // 🙍🏼‍♀️ woman frowning, medium light skin tone
-  '1F64D-1F3FC-200D-2640-FE0F': ['woman_frowning_tone2'],
-  // 🙍🏽‍♀️ woman frowning, medium skin tone
-  '1F64D-1F3FD-200D-2640-FE0F': ['woman_frowning_tone3'],
-  // 🙍🏾‍♀️ woman frowning, medium dark skin tone
-  '1F64D-1F3FE-200D-2640-FE0F': ['woman_frowning_tone4'],
-  // 🙍🏿‍♀️ woman frowning, dark skin tone
-  '1F64D-1F3FF-200D-2640-FE0F': ['woman_frowning_tone5'],
   // 🙎 person pouting
   '1F64E': ['person_pouting'],
-  // 🙎🏻 person pouting, light skin tone
-  '1F64E-1F3FB': ['person_pouting_tone1'],
-  // 🙎🏼 person pouting, medium light skin tone
-  '1F64E-1F3FC': ['person_pouting_tone2'],
-  // 🙎🏽 person pouting, medium skin tone
-  '1F64E-1F3FD': ['person_pouting_tone3'],
-  // 🙎🏾 person pouting, medium dark skin tone
-  '1F64E-1F3FE': ['person_pouting_tone4'],
-  // 🙎🏿 person pouting, dark skin tone
-  '1F64E-1F3FF': ['person_pouting_tone5'],
   // 🙎‍♂️ man pouting
   '1F64E-200D-2642-FE0F': ['man_pouting'],
-  // 🙎🏻‍♂️ man pouting, light skin tone
-  '1F64E-1F3FB-200D-2642-FE0F': ['man_pouting_tone1'],
-  // 🙎🏼‍♂️ man pouting, medium light skin tone
-  '1F64E-1F3FC-200D-2642-FE0F': ['man_pouting_tone2'],
-  // 🙎🏽‍♂️ man pouting, medium skin tone
-  '1F64E-1F3FD-200D-2642-FE0F': ['man_pouting_tone3'],
-  // 🙎🏾‍♂️ man pouting, medium dark skin tone
-  '1F64E-1F3FE-200D-2642-FE0F': ['man_pouting_tone4'],
-  // 🙎🏿‍♂️ man pouting, dark skin tone
-  '1F64E-1F3FF-200D-2642-FE0F': ['man_pouting_tone5'],
   // 🙎‍♀️ woman pouting
   '1F64E-200D-2640-FE0F': ['woman_pouting'],
-  // 🙎🏻‍♀️ woman pouting, light skin tone
-  '1F64E-1F3FB-200D-2640-FE0F': ['woman_pouting_tone1'],
-  // 🙎🏼‍♀️ woman pouting, medium light skin tone
-  '1F64E-1F3FC-200D-2640-FE0F': ['woman_pouting_tone2'],
-  // 🙎🏽‍♀️ woman pouting, medium skin tone
-  '1F64E-1F3FD-200D-2640-FE0F': ['woman_pouting_tone3'],
-  // 🙎🏾‍♀️ woman pouting, medium dark skin tone
-  '1F64E-1F3FE-200D-2640-FE0F': ['woman_pouting_tone4'],
-  // 🙎🏿‍♀️ woman pouting, dark skin tone
-  '1F64E-1F3FF-200D-2640-FE0F': ['woman_pouting_tone5'],
   // 🙅 person gesturing NO
   '1F645': ['person_gesturing_no'],
-  // 🙅🏻 person gesturing NO, light skin tone
-  '1F645-1F3FB': ['person_gesturing_no_tone1'],
-  // 🙅🏼 person gesturing NO, medium light skin tone
-  '1F645-1F3FC': ['person_gesturing_no_tone2'],
-  // 🙅🏽 person gesturing NO, medium skin tone
-  '1F645-1F3FD': ['person_gesturing_no_tone3'],
-  // 🙅🏾 person gesturing NO, medium dark skin tone
-  '1F645-1F3FE': ['person_gesturing_no_tone4'],
-  // 🙅🏿 person gesturing NO, dark skin tone
-  '1F645-1F3FF': ['person_gesturing_no_tone5'],
   // 🙅‍♂️ man gesturing NO
   '1F645-200D-2642-FE0F': ['man_gesturing_no'],
-  // 🙅🏻‍♂️ man gesturing NO, light skin tone
-  '1F645-1F3FB-200D-2642-FE0F': ['man_gesturing_no_tone1'],
-  // 🙅🏼‍♂️ man gesturing NO, medium light skin tone
-  '1F645-1F3FC-200D-2642-FE0F': ['man_gesturing_no_tone2'],
-  // 🙅🏽‍♂️ man gesturing NO, medium skin tone
-  '1F645-1F3FD-200D-2642-FE0F': ['man_gesturing_no_tone3'],
-  // 🙅🏾‍♂️ man gesturing NO, medium dark skin tone
-  '1F645-1F3FE-200D-2642-FE0F': ['man_gesturing_no_tone4'],
-  // 🙅🏿‍♂️ man gesturing NO, dark skin tone
-  '1F645-1F3FF-200D-2642-FE0F': ['man_gesturing_no_tone5'],
   // 🙅‍♀️ woman gesturing NO
   '1F645-200D-2640-FE0F': ['woman_gesturing_no'],
-  // 🙅🏻‍♀️ woman gesturing NO, light skin tone
-  '1F645-1F3FB-200D-2640-FE0F': ['woman_gesturing_no_tone1'],
-  // 🙅🏼‍♀️ woman gesturing NO, medium light skin tone
-  '1F645-1F3FC-200D-2640-FE0F': ['woman_gesturing_no_tone2'],
-  // 🙅🏽‍♀️ woman gesturing NO, medium skin tone
-  '1F645-1F3FD-200D-2640-FE0F': ['woman_gesturing_no_tone3'],
-  // 🙅🏾‍♀️ woman gesturing NO, medium dark skin tone
-  '1F645-1F3FE-200D-2640-FE0F': ['woman_gesturing_no_tone4'],
-  // 🙅🏿‍♀️ woman gesturing NO, dark skin tone
-  '1F645-1F3FF-200D-2640-FE0F': ['woman_gesturing_no_tone5'],
   // 🙆 person gesturing OK
   '1F646': ['person_gesturing_ok'],
-  // 🙆🏻 person gesturing OK, light skin tone
-  '1F646-1F3FB': ['person_gesturing_ok_tone1'],
-  // 🙆🏼 person gesturing OK, medium light skin tone
-  '1F646-1F3FC': ['person_gesturing_ok_tone2'],
-  // 🙆🏽 person gesturing OK, medium skin tone
-  '1F646-1F3FD': ['person_gesturing_ok_tone3'],
-  // 🙆🏾 person gesturing OK, medium dark skin tone
-  '1F646-1F3FE': ['person_gesturing_ok_tone4'],
-  // 🙆🏿 person gesturing OK, dark skin tone
-  '1F646-1F3FF': ['person_gesturing_ok_tone5'],
   // 🙆‍♂️ man gesturing OK
   '1F646-200D-2642-FE0F': ['man_gesturing_ok'],
-  // 🙆🏻‍♂️ man gesturing OK, light skin tone
-  '1F646-1F3FB-200D-2642-FE0F': ['man_gesturing_ok_tone1'],
-  // 🙆🏼‍♂️ man gesturing OK, medium light skin tone
-  '1F646-1F3FC-200D-2642-FE0F': ['man_gesturing_ok_tone2'],
-  // 🙆🏽‍♂️ man gesturing OK, medium skin tone
-  '1F646-1F3FD-200D-2642-FE0F': ['man_gesturing_ok_tone3'],
-  // 🙆🏾‍♂️ man gesturing OK, medium dark skin tone
-  '1F646-1F3FE-200D-2642-FE0F': ['man_gesturing_ok_tone4'],
-  // 🙆🏿‍♂️ man gesturing OK, dark skin tone
-  '1F646-1F3FF-200D-2642-FE0F': ['man_gesturing_ok_tone5'],
   // 🙆‍♀️ woman gesturing OK
   '1F646-200D-2640-FE0F': ['woman_gesturing_ok'],
-  // 🙆🏻‍♀️ woman gesturing OK, light skin tone
-  '1F646-1F3FB-200D-2640-FE0F': ['woman_gesturing_ok_tone1'],
-  // 🙆🏼‍♀️ woman gesturing OK, medium light skin tone
-  '1F646-1F3FC-200D-2640-FE0F': ['woman_gesturing_ok_tone2'],
-  // 🙆🏽‍♀️ woman gesturing OK, medium skin tone
-  '1F646-1F3FD-200D-2640-FE0F': ['woman_gesturing_ok_tone3'],
-  // 🙆🏾‍♀️ woman gesturing OK, medium dark skin tone
-  '1F646-1F3FE-200D-2640-FE0F': ['woman_gesturing_ok_tone4'],
-  // 🙆🏿‍♀️ woman gesturing OK, dark skin tone
-  '1F646-1F3FF-200D-2640-FE0F': ['woman_gesturing_ok_tone5'],
   // 💁 person tipping hand
   '1F481': ['person_tipping_hand'],
-  // 💁🏻 person tipping hand, light skin tone
-  '1F481-1F3FB': ['person_tipping_hand_tone1'],
-  // 💁🏼 person tipping hand, medium light skin tone
-  '1F481-1F3FC': ['person_tipping_hand_tone2'],
-  // 💁🏽 person tipping hand, medium skin tone
-  '1F481-1F3FD': ['person_tipping_hand_tone3'],
-  // 💁🏾 person tipping hand, medium dark skin tone
-  '1F481-1F3FE': ['person_tipping_hand_tone4'],
-  // 💁🏿 person tipping hand, dark skin tone
-  '1F481-1F3FF': ['person_tipping_hand_tone5'],
   // 💁‍♂️ man tipping hand
   '1F481-200D-2642-FE0F': ['man_tipping_hand'],
-  // 💁🏻‍♂️ man tipping hand, light skin tone
-  '1F481-1F3FB-200D-2642-FE0F': ['man_tipping_hand_tone1'],
-  // 💁🏼‍♂️ man tipping hand, medium light skin tone
-  '1F481-1F3FC-200D-2642-FE0F': ['man_tipping_hand_tone2'],
-  // 💁🏽‍♂️ man tipping hand, medium skin tone
-  '1F481-1F3FD-200D-2642-FE0F': ['man_tipping_hand_tone3'],
-  // 💁🏾‍♂️ man tipping hand, medium dark skin tone
-  '1F481-1F3FE-200D-2642-FE0F': ['man_tipping_hand_tone4'],
-  // 💁🏿‍♂️ man tipping hand, dark skin tone
-  '1F481-1F3FF-200D-2642-FE0F': ['man_tipping_hand_tone5'],
   // 💁‍♀️ woman tipping hand
   '1F481-200D-2640-FE0F': ['woman_tipping_hand'],
-  // 💁🏻‍♀️ woman tipping hand, light skin tone
-  '1F481-1F3FB-200D-2640-FE0F': ['woman_tipping_hand_tone1'],
-  // 💁🏼‍♀️ woman tipping hand, medium light skin tone
-  '1F481-1F3FC-200D-2640-FE0F': ['woman_tipping_hand_tone2'],
-  // 💁🏽‍♀️ woman tipping hand, medium skin tone
-  '1F481-1F3FD-200D-2640-FE0F': ['woman_tipping_hand_tone3'],
-  // 💁🏾‍♀️ woman tipping hand, medium dark skin tone
-  '1F481-1F3FE-200D-2640-FE0F': ['woman_tipping_hand_tone4'],
-  // 💁🏿‍♀️ woman tipping hand, dark skin tone
-  '1F481-1F3FF-200D-2640-FE0F': ['woman_tipping_hand_tone5'],
   // 🙋 person raising hand
   '1F64B': ['person_raising_hand'],
-  // 🙋🏻 person raising hand, light skin tone
-  '1F64B-1F3FB': ['person_raising_hand_tone1'],
-  // 🙋🏼 person raising hand, medium light skin tone
-  '1F64B-1F3FC': ['person_raising_hand_tone2'],
-  // 🙋🏽 person raising hand, medium skin tone
-  '1F64B-1F3FD': ['person_raising_hand_tone3'],
-  // 🙋🏾 person raising hand, medium dark skin tone
-  '1F64B-1F3FE': ['person_raising_hand_tone4'],
-  // 🙋🏿 person raising hand, dark skin tone
-  '1F64B-1F3FF': ['person_raising_hand_tone5'],
   // 🙋‍♂️ man raising hand
   '1F64B-200D-2642-FE0F': ['man_raising_hand'],
-  // 🙋🏻‍♂️ man raising hand, light skin tone
-  '1F64B-1F3FB-200D-2642-FE0F': ['man_raising_hand_tone1'],
-  // 🙋🏼‍♂️ man raising hand, medium light skin tone
-  '1F64B-1F3FC-200D-2642-FE0F': ['man_raising_hand_tone2'],
-  // 🙋🏽‍♂️ man raising hand, medium skin tone
-  '1F64B-1F3FD-200D-2642-FE0F': ['man_raising_hand_tone3'],
-  // 🙋🏾‍♂️ man raising hand, medium dark skin tone
-  '1F64B-1F3FE-200D-2642-FE0F': ['man_raising_hand_tone4'],
-  // 🙋🏿‍♂️ man raising hand, dark skin tone
-  '1F64B-1F3FF-200D-2642-FE0F': ['man_raising_hand_tone5'],
   // 🙋‍♀️ woman raising hand
   '1F64B-200D-2640-FE0F': ['woman_raising_hand'],
-  // 🙋🏻‍♀️ woman raising hand, light skin tone
-  '1F64B-1F3FB-200D-2640-FE0F': ['woman_raising_hand_tone1'],
-  // 🙋🏼‍♀️ woman raising hand, medium light skin tone
-  '1F64B-1F3FC-200D-2640-FE0F': ['woman_raising_hand_tone2'],
-  // 🙋🏽‍♀️ woman raising hand, medium skin tone
-  '1F64B-1F3FD-200D-2640-FE0F': ['woman_raising_hand_tone3'],
-  // 🙋🏾‍♀️ woman raising hand, medium dark skin tone
-  '1F64B-1F3FE-200D-2640-FE0F': ['woman_raising_hand_tone4'],
-  // 🙋🏿‍♀️ woman raising hand, dark skin tone
-  '1F64B-1F3FF-200D-2640-FE0F': ['woman_raising_hand_tone5'],
   // 🙇 person bowing
   '1F647': ['person_bowing'],
-  // 🙇🏻 person bowing, light skin tone
-  '1F647-1F3FB': ['person_bowing_tone1'],
-  // 🙇🏼 person bowing, medium light skin tone
-  '1F647-1F3FC': ['person_bowing_tone2'],
-  // 🙇🏽 person bowing, medium skin tone
-  '1F647-1F3FD': ['person_bowing_tone3'],
-  // 🙇🏾 person bowing, medium dark skin tone
-  '1F647-1F3FE': ['person_bowing_tone4'],
-  // 🙇🏿 person bowing, dark skin tone
-  '1F647-1F3FF': ['person_bowing_tone5'],
   // 🙇‍♂️ man bowing
   '1F647-200D-2642-FE0F': ['man_bowing'],
-  // 🙇🏻‍♂️ man bowing, light skin tone
-  '1F647-1F3FB-200D-2642-FE0F': ['man_bowing_tone1'],
-  // 🙇🏼‍♂️ man bowing, medium light skin tone
-  '1F647-1F3FC-200D-2642-FE0F': ['man_bowing_tone2'],
-  // 🙇🏽‍♂️ man bowing, medium skin tone
-  '1F647-1F3FD-200D-2642-FE0F': ['man_bowing_tone3'],
-  // 🙇🏾‍♂️ man bowing, medium dark skin tone
-  '1F647-1F3FE-200D-2642-FE0F': ['man_bowing_tone4'],
-  // 🙇🏿‍♂️ man bowing, dark skin tone
-  '1F647-1F3FF-200D-2642-FE0F': ['man_bowing_tone5'],
   // 🙇‍♀️ woman bowing
   '1F647-200D-2640-FE0F': ['woman_bowing'],
-  // 🙇🏻‍♀️ woman bowing, light skin tone
-  '1F647-1F3FB-200D-2640-FE0F': ['woman_bowing_tone1'],
-  // 🙇🏼‍♀️ woman bowing, medium light skin tone
-  '1F647-1F3FC-200D-2640-FE0F': ['woman_bowing_tone2'],
-  // 🙇🏽‍♀️ woman bowing, medium skin tone
-  '1F647-1F3FD-200D-2640-FE0F': ['woman_bowing_tone3'],
-  // 🙇🏾‍♀️ woman bowing, medium dark skin tone
-  '1F647-1F3FE-200D-2640-FE0F': ['woman_bowing_tone4'],
-  // 🙇🏿‍♀️ woman bowing, dark skin tone
-  '1F647-1F3FF-200D-2640-FE0F': ['woman_bowing_tone5'],
   // 🤦 person facepalming
   '1F926': ['person_facepalming'],
-  // 🤦🏻 person facepalming, light skin tone
-  '1F926-1F3FB': ['person_facepalming_tone1'],
-  // 🤦🏼 person facepalming, medium light skin tone
-  '1F926-1F3FC': ['person_facepalming_tone2'],
-  // 🤦🏽 person facepalming, medium skin tone
-  '1F926-1F3FD': ['person_facepalming_tone3'],
-  // 🤦🏾 person facepalming, medium dark skin tone
-  '1F926-1F3FE': ['person_facepalming_tone4'],
-  // 🤦🏿 person facepalming, dark skin tone
-  '1F926-1F3FF': ['person_facepalming_tone5'],
   // 🤦‍♂️ man facepalming
   '1F926-200D-2642-FE0F': ['man_facepalming'],
-  // 🤦🏻‍♂️ man facepalming, light skin tone
-  '1F926-1F3FB-200D-2642-FE0F': ['man_facepalming_tone1'],
-  // 🤦🏼‍♂️ man facepalming, medium light skin tone
-  '1F926-1F3FC-200D-2642-FE0F': ['man_facepalming_tone2'],
-  // 🤦🏽‍♂️ man facepalming, medium skin tone
-  '1F926-1F3FD-200D-2642-FE0F': ['man_facepalming_tone3'],
-  // 🤦🏾‍♂️ man facepalming, medium dark skin tone
-  '1F926-1F3FE-200D-2642-FE0F': ['man_facepalming_tone4'],
-  // 🤦🏿‍♂️ man facepalming, dark skin tone
-  '1F926-1F3FF-200D-2642-FE0F': ['man_facepalming_tone5'],
   // 🤦‍♀️ woman facepalming
   '1F926-200D-2640-FE0F': ['woman_facepalming'],
-  // 🤦🏻‍♀️ woman facepalming, light skin tone
-  '1F926-1F3FB-200D-2640-FE0F': ['woman_facepalming_tone1'],
-  // 🤦🏼‍♀️ woman facepalming, medium light skin tone
-  '1F926-1F3FC-200D-2640-FE0F': ['woman_facepalming_tone2'],
-  // 🤦🏽‍♀️ woman facepalming, medium skin tone
-  '1F926-1F3FD-200D-2640-FE0F': ['woman_facepalming_tone3'],
-  // 🤦🏾‍♀️ woman facepalming, medium dark skin tone
-  '1F926-1F3FE-200D-2640-FE0F': ['woman_facepalming_tone4'],
-  // 🤦🏿‍♀️ woman facepalming, dark skin tone
-  '1F926-1F3FF-200D-2640-FE0F': ['woman_facepalming_tone5'],
   // 🤷 person shrugging
   '1F937': ['person_shrugging'],
-  // 🤷🏻 person shrugging, light skin tone
-  '1F937-1F3FB': ['person_shrugging_tone1'],
-  // 🤷🏼 person shrugging, medium light skin tone
-  '1F937-1F3FC': ['person_shrugging_tone2'],
-  // 🤷🏽 person shrugging, medium skin tone
-  '1F937-1F3FD': ['person_shrugging_tone3'],
-  // 🤷🏾 person shrugging, medium dark skin tone
-  '1F937-1F3FE': ['person_shrugging_tone4'],
-  // 🤷🏿 person shrugging, dark skin tone
-  '1F937-1F3FF': ['person_shrugging_tone5'],
   // 🤷‍♂️ man shrugging
   '1F937-200D-2642-FE0F': ['man_shrugging'],
-  // 🤷🏻‍♂️ man shrugging, light skin tone
-  '1F937-1F3FB-200D-2642-FE0F': ['man_shrugging_tone1'],
-  // 🤷🏼‍♂️ man shrugging, medium light skin tone
-  '1F937-1F3FC-200D-2642-FE0F': ['man_shrugging_tone2'],
-  // 🤷🏽‍♂️ man shrugging, medium skin tone
-  '1F937-1F3FD-200D-2642-FE0F': ['man_shrugging_tone3'],
-  // 🤷🏾‍♂️ man shrugging, medium dark skin tone
-  '1F937-1F3FE-200D-2642-FE0F': ['man_shrugging_tone4'],
-  // 🤷🏿‍♂️ man shrugging, dark skin tone
-  '1F937-1F3FF-200D-2642-FE0F': ['man_shrugging_tone5'],
   // 🤷‍♀️ woman shrugging
   '1F937-200D-2640-FE0F': ['woman_shrugging'],
-  // 🤷🏻‍♀️ woman shrugging, light skin tone
-  '1F937-1F3FB-200D-2640-FE0F': ['woman_shrugging_tone1'],
-  // 🤷🏼‍♀️ woman shrugging, medium light skin tone
-  '1F937-1F3FC-200D-2640-FE0F': ['woman_shrugging_tone2'],
-  // 🤷🏽‍♀️ woman shrugging, medium skin tone
-  '1F937-1F3FD-200D-2640-FE0F': ['woman_shrugging_tone3'],
-  // 🤷🏾‍♀️ woman shrugging, medium dark skin tone
-  '1F937-1F3FE-200D-2640-FE0F': ['woman_shrugging_tone4'],
-  // 🤷🏿‍♀️ woman shrugging, dark skin tone
-  '1F937-1F3FF-200D-2640-FE0F': ['woman_shrugging_tone5'],
   // 💆 person getting massage
   '1F486': ['person_getting_massage'],
-  // 💆🏻 person getting massage, light skin tone
-  '1F486-1F3FB': ['person_getting_massage_tone1'],
-  // 💆🏼 person getting massage, medium light skin tone
-  '1F486-1F3FC': ['person_getting_massage_tone2'],
-  // 💆🏽 person getting massage, medium skin tone
-  '1F486-1F3FD': ['person_getting_massage_tone3'],
-  // 💆🏾 person getting massage, medium dark skin tone
-  '1F486-1F3FE': ['person_getting_massage_tone4'],
-  // 💆🏿 person getting massage, dark skin tone
-  '1F486-1F3FF': ['person_getting_massage_tone5'],
   // 💆‍♂️ man getting massage
   '1F486-200D-2642-FE0F': ['man_getting_face_massage'],
-  // 💆🏻‍♂️ man getting massage, light skin tone
-  '1F486-1F3FB-200D-2642-FE0F': ['man_getting_face_massage_tone1'],
-  // 💆🏼‍♂️ man getting massage, medium light skin tone
-  '1F486-1F3FC-200D-2642-FE0F': ['man_getting_face_massage_tone2'],
-  // 💆🏽‍♂️ man getting massage, medium skin tone
-  '1F486-1F3FD-200D-2642-FE0F': ['man_getting_face_massage_tone3'],
-  // 💆🏾‍♂️ man getting massage, medium dark skin tone
-  '1F486-1F3FE-200D-2642-FE0F': ['man_getting_face_massage_tone4'],
-  // 💆🏿‍♂️ man getting massage, dark skin tone
-  '1F486-1F3FF-200D-2642-FE0F': ['man_getting_face_massage_tone5'],
   // 💆‍♀️ woman getting massage
   '1F486-200D-2640-FE0F': ['woman_getting_face_massage'],
-  // 💆🏻‍♀️ woman getting massage, light skin tone
-  '1F486-1F3FB-200D-2640-FE0F': ['woman_getting_face_massage_tone1'],
-  // 💆🏼‍♀️ woman getting massage, medium light skin tone
-  '1F486-1F3FC-200D-2640-FE0F': ['woman_getting_face_massage_tone2'],
-  // 💆🏽‍♀️ woman getting massage, medium skin tone
-  '1F486-1F3FD-200D-2640-FE0F': ['woman_getting_face_massage_tone3'],
-  // 💆🏾‍♀️ woman getting massage, medium dark skin tone
-  '1F486-1F3FE-200D-2640-FE0F': ['woman_getting_face_massage_tone4'],
-  // 💆🏿‍♀️ woman getting massage, dark skin tone
-  '1F486-1F3FF-200D-2640-FE0F': ['woman_getting_face_massage_tone5'],
   // 💇 person getting haircut
   '1F487': ['person_getting_haircut'],
-  // 💇🏻 person getting haircut, light skin tone
-  '1F487-1F3FB': ['person_getting_haircut_tone1'],
-  // 💇🏼 person getting haircut, medium light skin tone
-  '1F487-1F3FC': ['person_getting_haircut_tone2'],
-  // 💇🏽 person getting haircut, medium skin tone
-  '1F487-1F3FD': ['person_getting_haircut_tone3'],
-  // 💇🏾 person getting haircut, medium dark skin tone
-  '1F487-1F3FE': ['person_getting_haircut_tone4'],
-  // 💇🏿 person getting haircut, dark skin tone
-  '1F487-1F3FF': ['person_getting_haircut_tone5'],
   // 💇‍♂️ man getting haircut
   '1F487-200D-2642-FE0F': ['man_getting_haircut'],
-  // 💇🏻‍♂️ man getting haircut, light skin tone
-  '1F487-1F3FB-200D-2642-FE0F': ['man_getting_haircut_tone1'],
-  // 💇🏼‍♂️ man getting haircut, medium light skin tone
-  '1F487-1F3FC-200D-2642-FE0F': ['man_getting_haircut_tone2'],
-  // 💇🏽‍♂️ man getting haircut, medium skin tone
-  '1F487-1F3FD-200D-2642-FE0F': ['man_getting_haircut_tone3'],
-  // 💇🏾‍♂️ man getting haircut, medium dark skin tone
-  '1F487-1F3FE-200D-2642-FE0F': ['man_getting_haircut_tone4'],
-  // 💇🏿‍♂️ man getting haircut, dark skin tone
-  '1F487-1F3FF-200D-2642-FE0F': ['man_getting_haircut_tone5'],
   // 💇‍♀️ woman getting haircut
   '1F487-200D-2640-FE0F': ['woman_getting_haircut'],
-  // 💇🏻‍♀️ woman getting haircut, light skin tone
-  '1F487-1F3FB-200D-2640-FE0F': ['woman_getting_haircut_tone1'],
-  // 💇🏼‍♀️ woman getting haircut, medium light skin tone
-  '1F487-1F3FC-200D-2640-FE0F': ['woman_getting_haircut_tone2'],
-  // 💇🏽‍♀️ woman getting haircut, medium skin tone
-  '1F487-1F3FD-200D-2640-FE0F': ['woman_getting_haircut_tone3'],
-  // 💇🏾‍♀️ woman getting haircut, medium dark skin tone
-  '1F487-1F3FE-200D-2640-FE0F': ['woman_getting_haircut_tone4'],
-  // 💇🏿‍♀️ woman getting haircut, dark skin tone
-  '1F487-1F3FF-200D-2640-FE0F': ['woman_getting_haircut_tone5'],
   // 🚶 person walking
   '1F6B6': ['person_walking'],
-  // 🚶🏻 person walking, light skin tone
-  '1F6B6-1F3FB': ['person_walking_tone1'],
-  // 🚶🏼 person walking, medium light skin tone
-  '1F6B6-1F3FC': ['person_walking_tone2'],
-  // 🚶🏽 person walking, medium skin tone
-  '1F6B6-1F3FD': ['person_walking_tone3'],
-  // 🚶🏾 person walking, medium dark skin tone
-  '1F6B6-1F3FE': ['person_walking_tone4'],
-  // 🚶🏿 person walking, dark skin tone
-  '1F6B6-1F3FF': ['person_walking_tone5'],
   // 🚶‍♂️ man walking
   '1F6B6-200D-2642-FE0F': ['man_walking'],
-  // 🚶🏻‍♂️ man walking, light skin tone
-  '1F6B6-1F3FB-200D-2642-FE0F': ['man_walking_tone1'],
-  // 🚶🏼‍♂️ man walking, medium light skin tone
-  '1F6B6-1F3FC-200D-2642-FE0F': ['man_walking_tone2'],
-  // 🚶🏽‍♂️ man walking, medium skin tone
-  '1F6B6-1F3FD-200D-2642-FE0F': ['man_walking_tone3'],
-  // 🚶🏾‍♂️ man walking, medium dark skin tone
-  '1F6B6-1F3FE-200D-2642-FE0F': ['man_walking_tone4'],
-  // 🚶🏿‍♂️ man walking, dark skin tone
-  '1F6B6-1F3FF-200D-2642-FE0F': ['man_walking_tone5'],
   // 🚶‍♀️ woman walking
   '1F6B6-200D-2640-FE0F': ['woman_walking'],
-  // 🚶🏻‍♀️ woman walking, light skin tone
-  '1F6B6-1F3FB-200D-2640-FE0F': ['woman_walking_tone1'],
-  // 🚶🏼‍♀️ woman walking, medium light skin tone
-  '1F6B6-1F3FC-200D-2640-FE0F': ['woman_walking_tone2'],
-  // 🚶🏽‍♀️ woman walking, medium skin tone
-  '1F6B6-1F3FD-200D-2640-FE0F': ['woman_walking_tone3'],
-  // 🚶🏾‍♀️ woman walking, medium dark skin tone
-  '1F6B6-1F3FE-200D-2640-FE0F': ['woman_walking_tone4'],
-  // 🚶🏿‍♀️ woman walking, dark skin tone
-  '1F6B6-1F3FF-200D-2640-FE0F': ['woman_walking_tone5'],
   // 🏃 person running
   '1F3C3': ['person_running'],
-  // 🏃🏻 person running, light skin tone
-  '1F3C3-1F3FB': ['person_running_tone1'],
-  // 🏃🏼 person running, medium light skin tone
-  '1F3C3-1F3FC': ['person_running_tone2'],
-  // 🏃🏽 person running, medium skin tone
-  '1F3C3-1F3FD': ['person_running_tone3'],
-  // 🏃🏾 person running, medium dark skin tone
-  '1F3C3-1F3FE': ['person_running_tone4'],
-  // 🏃🏿 person running, dark skin tone
-  '1F3C3-1F3FF': ['person_running_tone5'],
   // 🏃‍♂️ man running
   '1F3C3-200D-2642-FE0F': ['man_running'],
-  // 🏃🏻‍♂️ man running, light skin tone
-  '1F3C3-1F3FB-200D-2642-FE0F': ['man_running_tone1'],
-  // 🏃🏼‍♂️ man running, medium light skin tone
-  '1F3C3-1F3FC-200D-2642-FE0F': ['man_running_tone2'],
-  // 🏃🏽‍♂️ man running, medium skin tone
-  '1F3C3-1F3FD-200D-2642-FE0F': ['man_running_tone3'],
-  // 🏃🏾‍♂️ man running, medium dark skin tone
-  '1F3C3-1F3FE-200D-2642-FE0F': ['man_running_tone4'],
-  // 🏃🏿‍♂️ man running, dark skin tone
-  '1F3C3-1F3FF-200D-2642-FE0F': ['man_running_tone5'],
   // 🏃‍♀️ woman running
   '1F3C3-200D-2640-FE0F': ['woman_running'],
-  // 🏃🏻‍♀️ woman running, light skin tone
-  '1F3C3-1F3FB-200D-2640-FE0F': ['woman_running_tone1'],
-  // 🏃🏼‍♀️ woman running, medium light skin tone
-  '1F3C3-1F3FC-200D-2640-FE0F': ['woman_running_tone2'],
-  // 🏃🏽‍♀️ woman running, medium skin tone
-  '1F3C3-1F3FD-200D-2640-FE0F': ['woman_running_tone3'],
-  // 🏃🏾‍♀️ woman running, medium dark skin tone
-  '1F3C3-1F3FE-200D-2640-FE0F': ['woman_running_tone4'],
-  // 🏃🏿‍♀️ woman running, dark skin tone
-  '1F3C3-1F3FF-200D-2640-FE0F': ['woman_running_tone5'],
   // 💃 woman dancing
   '1F483': ['dancer'],
-  // 💃🏻 woman dancing, light skin tone
-  '1F483-1F3FB': ['dancer_tone1'],
-  // 💃🏼 woman dancing, medium light skin tone
-  '1F483-1F3FC': ['dancer_tone2'],
-  // 💃🏽 woman dancing, medium skin tone
-  '1F483-1F3FD': ['dancer_tone3'],
-  // 💃🏾 woman dancing, medium dark skin tone
-  '1F483-1F3FE': ['dancer_tone4'],
-  // 💃🏿 woman dancing, dark skin tone
-  '1F483-1F3FF': ['dancer_tone5'],
   // 🕺 man dancing
   '1F57A': ['man_dancing'],
-  // 🕺🏻 man dancing, light skin tone
-  '1F57A-1F3FB': ['man_dancing_tone1'],
-  // 🕺🏼 man dancing, medium light skin tone
-  '1F57A-1F3FC': ['man_dancing_tone2'],
-  // 🕺🏽 man dancing, medium skin tone
-  '1F57A-1F3FD': ['man_dancing_tone3'],
-  // 🕺🏾 man dancing, medium dark skin tone
-  '1F57A-1F3FE': ['man_dancing_tone4'],
-  // 🕺🏿 man dancing, dark skin tone
-  '1F57A-1F3FF': ['man_dancing_tone5'],
   // 👯 people with bunny ears partying
   '1F46F': ['people_bunny_ears_partying'],
   // 👯‍♂️ men with bunny ears partying
@@ -1777,148 +506,28 @@ export default {
   '1F46F-200D-2640-FE0F': ['women_bunny_ears_partying'],
   // 🧖 person in steamy room
   '1F9D6': ['person_steamy_room'],
-  // 🧖🏻 person in steamy room, light skin tone
-  '1F9D6-1F3FB': ['person_steamy_room_tone1'],
-  // 🧖🏼 person in steamy room, medium light skin tone
-  '1F9D6-1F3FC': ['person_steamy_room_tone2'],
-  // 🧖🏽 person in steamy room, medium skin tone
-  '1F9D6-1F3FD': ['person_steamy_room_tone3'],
-  // 🧖🏾 person in steamy room, medium dark skin tone
-  '1F9D6-1F3FE': ['person_steamy_room_tone4'],
-  // 🧖🏿 person in steamy room, dark skin tone
-  '1F9D6-1F3FF': ['person_steamy_room_tone5'],
   // 🧖‍♀️ woman in steamy room
   '1F9D6-200D-2640-FE0F': ['woman_steamy_room'],
-  // 🧖🏻‍♀️ woman in steamy room, light skin tone
-  '1F9D6-1F3FB-200D-2640-FE0F': ['woman_steamy_room_tone1'],
-  // 🧖🏼‍♀️ woman in steamy room, medium light skin tone
-  '1F9D6-1F3FC-200D-2640-FE0F': ['woman_steamy_room_tone2'],
-  // 🧖🏽‍♀️ woman in steamy room, medium skin tone
-  '1F9D6-1F3FD-200D-2640-FE0F': ['woman_steamy_room_tone3'],
-  // 🧖🏾‍♀️ woman in steamy room, medium dark skin tone
-  '1F9D6-1F3FE-200D-2640-FE0F': ['woman_steamy_room_tone4'],
-  // 🧖🏿‍♀️ woman in steamy room, dark skin tone
-  '1F9D6-1F3FF-200D-2640-FE0F': ['woman_steamy_room_tone5'],
   // 🧖‍♂️ man in steamy room
   '1F9D6-200D-2642-FE0F': ['man_steamy_room'],
-  // 🧖🏻‍♂️ man in steamy room, light skin tone
-  '1F9D6-1F3FB-200D-2642-FE0F': ['man_steamy_room_tone1'],
-  // 🧖🏼‍♂️ man in steamy room, medium light skin tone
-  '1F9D6-1F3FC-200D-2642-FE0F': ['man_steamy_room_tone2'],
-  // 🧖🏽‍♂️ man in steamy room, medium skin tone
-  '1F9D6-1F3FD-200D-2642-FE0F': ['man_steamy_room_tone3'],
-  // 🧖🏾‍♂️ man in steamy room, medium dark skin tone
-  '1F9D6-1F3FE-200D-2642-FE0F': ['man_steamy_room_tone4'],
-  // 🧖🏿‍♂️ man in steamy room, dark skin tone
-  '1F9D6-1F3FF-200D-2642-FE0F': ['man_steamy_room_tone5'],
   // 🧗 person climbing
   '1F9D7': ['person_climbing'],
-  // 🧗🏻 person climbing, light skin tone
-  '1F9D7-1F3FB': ['person_climbing_tone1'],
-  // 🧗🏼 person climbing, medium light skin tone
-  '1F9D7-1F3FC': ['person_climbing_tone2'],
-  // 🧗🏽 person climbing, medium skin tone
-  '1F9D7-1F3FD': ['person_climbing_tone3'],
-  // 🧗🏾 person climbing, medium dark skin tone
-  '1F9D7-1F3FE': ['person_climbing_tone4'],
-  // 🧗🏿 person climbing, dark skin tone
-  '1F9D7-1F3FF': ['person_climbing_tone5'],
   // 🧗‍♀️ woman climbing
   '1F9D7-200D-2640-FE0F': ['woman_climbing'],
-  // 🧗🏻‍♀️ woman climbing, light skin tone
-  '1F9D7-1F3FB-200D-2640-FE0F': ['woman_climbing_tone1'],
-  // 🧗🏼‍♀️ woman climbing, medium light skin tone
-  '1F9D7-1F3FC-200D-2640-FE0F': ['woman_climbing_tone2'],
-  // 🧗🏽‍♀️ woman climbing, medium skin tone
-  '1F9D7-1F3FD-200D-2640-FE0F': ['woman_climbing_tone3'],
-  // 🧗🏾‍♀️ woman climbing, medium dark skin tone
-  '1F9D7-1F3FE-200D-2640-FE0F': ['woman_climbing_tone4'],
-  // 🧗🏿‍♀️ woman climbing, dark skin tone
-  '1F9D7-1F3FF-200D-2640-FE0F': ['woman_climbing_tone5'],
   // 🧗‍♂️ man climbing
   '1F9D7-200D-2642-FE0F': ['man_climbing'],
-  // 🧗🏻‍♂️ man climbing, light skin tone
-  '1F9D7-1F3FB-200D-2642-FE0F': ['man_climbing_tone1'],
-  // 🧗🏼‍♂️ man climbing, medium light skin tone
-  '1F9D7-1F3FC-200D-2642-FE0F': ['man_climbing_tone2'],
-  // 🧗🏽‍♂️ man climbing, medium skin tone
-  '1F9D7-1F3FD-200D-2642-FE0F': ['man_climbing_tone3'],
-  // 🧗🏾‍♂️ man climbing, medium dark skin tone
-  '1F9D7-1F3FE-200D-2642-FE0F': ['man_climbing_tone4'],
-  // 🧗🏿‍♂️ man climbing, dark skin tone
-  '1F9D7-1F3FF-200D-2642-FE0F': ['man_climbing_tone5'],
   // 🧘 person in lotus position
   '1F9D8': ['person_lotus_position'],
-  // 🧘🏻 person in lotus position, light skin tone
-  '1F9D8-1F3FB': ['person_lotus_position_tone1'],
-  // 🧘🏼 person in lotus position, medium light skin tone
-  '1F9D8-1F3FC': ['person_lotus_position_tone2'],
-  // 🧘🏽 person in lotus position, medium skin tone
-  '1F9D8-1F3FD': ['person_lotus_position_tone3'],
-  // 🧘🏾 person in lotus position, medium dark skin tone
-  '1F9D8-1F3FE': ['person_lotus_position_tone4'],
-  // 🧘🏿 person in lotus position, dark skin tone
-  '1F9D8-1F3FF': ['person_lotus_position_tone5'],
   // 🧘‍♀️ woman in lotus position
   '1F9D8-200D-2640-FE0F': ['woman_lotus_position'],
-  // 🧘🏻‍♀️ woman in lotus position, light skin tone
-  '1F9D8-1F3FB-200D-2640-FE0F': ['woman_lotus_position_tone1'],
-  // 🧘🏼‍♀️ woman in lotus position, medium light skin tone
-  '1F9D8-1F3FC-200D-2640-FE0F': ['woman_lotus_position_tone2'],
-  // 🧘🏽‍♀️ woman in lotus position, medium skin tone
-  '1F9D8-1F3FD-200D-2640-FE0F': ['woman_lotus_position_tone3'],
-  // 🧘🏾‍♀️ woman in lotus position, medium dark skin tone
-  '1F9D8-1F3FE-200D-2640-FE0F': ['woman_lotus_position_tone4'],
-  // 🧘🏿‍♀️ woman in lotus position, dark skin tone
-  '1F9D8-1F3FF-200D-2640-FE0F': ['woman_lotus_position_tone5'],
   // 🧘‍♂️ man in lotus position
   '1F9D8-200D-2642-FE0F': ['man_lotus_position'],
-  // 🧘🏻‍♂️ man in lotus position, light skin tone
-  '1F9D8-1F3FB-200D-2642-FE0F': ['man_lotus_position_tone1'],
-  // 🧘🏼‍♂️ man in lotus position, medium light skin tone
-  '1F9D8-1F3FC-200D-2642-FE0F': ['man_lotus_position_tone2'],
-  // 🧘🏽‍♂️ man in lotus position, medium skin tone
-  '1F9D8-1F3FD-200D-2642-FE0F': ['man_lotus_position_tone3'],
-  // 🧘🏾‍♂️ man in lotus position, medium dark skin tone
-  '1F9D8-1F3FE-200D-2642-FE0F': ['man_lotus_position_tone4'],
-  // 🧘🏿‍♂️ man in lotus position, dark skin tone
-  '1F9D8-1F3FF-200D-2642-FE0F': ['man_lotus_position_tone5'],
   // 🛀 person taking bath
   '1F6C0': ['bath'],
-  // 🛀🏻 person taking bath, light skin tone
-  '1F6C0-1F3FB': ['bath_tone1'],
-  // 🛀🏼 person taking bath, medium light skin tone
-  '1F6C0-1F3FC': ['bath_tone2'],
-  // 🛀🏽 person taking bath, medium skin tone
-  '1F6C0-1F3FD': ['bath_tone3'],
-  // 🛀🏾 person taking bath, medium dark skin tone
-  '1F6C0-1F3FE': ['bath_tone4'],
-  // 🛀🏿 person taking bath, dark skin tone
-  '1F6C0-1F3FF': ['bath_tone5'],
   // 🛌 person in bed
-  '1F6CC': ['sleeping_accommodation'],
-  // 🛌🏻 person in bed, light skin tone
-  '1F6CC-1F3FB': ['person_bed_tone1'],
-  // 🛌🏼 person in bed, medium light skin tone
-  '1F6CC-1F3FC': ['person_bed_tone2'],
-  // 🛌🏽 person in bed, medium skin tone
-  '1F6CC-1F3FD': ['person_bed_tone3'],
-  // 🛌🏾 person in bed, medium dark skin tone
-  '1F6CC-1F3FE': ['person_bed_tone4'],
-  // 🛌🏿 person in bed, dark skin tone
-  '1F6CC-1F3FF': ['person_bed_tone5'],
+  '1F6CC': ['in_bed'],
   // 🕴️ man in business suit levitating
   '1F574': ['levitate'],
-  // 🕴🏻 man in business suit levitating, light skin tone
-  '1F574-1F3FB': ['man_business_suit_levitating_tone1'],
-  // 🕴🏼 man in business suit levitating, medium light skin tone
-  '1F574-1F3FC': ['man_business_suit_levitating_tone2'],
-  // 🕴🏽 man in business suit levitating, medium skin tone
-  '1F574-1F3FD': ['man_business_suit_levitating_tone3'],
-  // 🕴🏾 man in business suit levitating, medium dark skin tone
-  '1F574-1F3FE': ['man_business_suit_levitating_tone4'],
-  // 🕴🏿 man in business suit levitating, dark skin tone
-  '1F574-1F3FF': ['man_business_suit_levitating_tone5'],
   // 🗣️ speaking head
   '1F5E3': ['speaking_head'],
   // 👤 bust in silhouette
@@ -1929,358 +538,68 @@ export default {
   '1F93A': ['person_fencing'],
   // 🏇 horse racing
   '1F3C7': ['horse_racing'],
-  // 🏇🏻 horse racing, light skin tone
-  '1F3C7-1F3FB': ['horse_racing_tone1'],
-  // 🏇🏼 horse racing, medium light skin tone
-  '1F3C7-1F3FC': ['horse_racing_tone2'],
-  // 🏇🏽 horse racing, medium skin tone
-  '1F3C7-1F3FD': ['horse_racing_tone3'],
-  // 🏇🏾 horse racing, medium dark skin tone
-  '1F3C7-1F3FE': ['horse_racing_tone4'],
-  // 🏇🏿 horse racing, dark skin tone
-  '1F3C7-1F3FF': ['horse_racing_tone5'],
   // ⛷️ skier
   '26F7': ['skier'],
   // 🏂️ snowboarder
   '1F3C2': ['snowboarder'],
-  // 🏂🏻 snowboarder, light skin tone
-  '1F3C2-1F3FB': ['snowboarder_tone1'],
-  // 🏂🏼 snowboarder, medium light skin tone
-  '1F3C2-1F3FC': ['snowboarder_tone2'],
-  // 🏂🏽 snowboarder, medium skin tone
-  '1F3C2-1F3FD': ['snowboarder_tone3'],
-  // 🏂🏾 snowboarder, medium dark skin tone
-  '1F3C2-1F3FE': ['snowboarder_tone4'],
-  // 🏂🏿 snowboarder, dark skin tone
-  '1F3C2-1F3FF': ['snowboarder_tone5'],
   // 🏌️ person golfing
   '1F3CC': ['person_golfing'],
-  // 🏌🏻 person golfing, light skin tone
-  '1F3CC-1F3FB': ['person_golfing_tone1'],
-  // 🏌🏼 person golfing, medium light skin tone
-  '1F3CC-1F3FC': ['person_golfing_tone2'],
-  // 🏌🏽 person golfing, medium skin tone
-  '1F3CC-1F3FD': ['person_golfing_tone3'],
-  // 🏌🏾 person golfing, medium dark skin tone
-  '1F3CC-1F3FE': ['person_golfing_tone4'],
-  // 🏌🏿 person golfing, dark skin tone
-  '1F3CC-1F3FF': ['person_golfing_tone5'],
   // 🏌️‍♂️ man golfing
   '1F3CC-FE0F-200D-2642-FE0F': ['man_golfing'],
-  // 🏌🏻‍♂️ man golfing, light skin tone
-  '1F3CC-1F3FB-200D-2642-FE0F': ['man_golfing_tone1'],
-  // 🏌🏼‍♂️ man golfing, medium light skin tone
-  '1F3CC-1F3FC-200D-2642-FE0F': ['man_golfing_tone2'],
-  // 🏌🏽‍♂️ man golfing, medium skin tone
-  '1F3CC-1F3FD-200D-2642-FE0F': ['man_golfing_tone3'],
-  // 🏌🏾‍♂️ man golfing, medium dark skin tone
-  '1F3CC-1F3FE-200D-2642-FE0F': ['man_golfing_tone4'],
-  // 🏌🏿‍♂️ man golfing, dark skin tone
-  '1F3CC-1F3FF-200D-2642-FE0F': ['man_golfing_tone5'],
   // 🏌️‍♀️ woman golfing
   '1F3CC-FE0F-200D-2640-FE0F': ['woman_golfing'],
-  // 🏌🏻‍♀️ woman golfing, light skin tone
-  '1F3CC-1F3FB-200D-2640-FE0F': ['woman_golfing_tone1'],
-  // 🏌🏼‍♀️ woman golfing, medium light skin tone
-  '1F3CC-1F3FC-200D-2640-FE0F': ['woman_golfing_tone2'],
-  // 🏌🏽‍♀️ woman golfing, medium skin tone
-  '1F3CC-1F3FD-200D-2640-FE0F': ['woman_golfing_tone3'],
-  // 🏌🏾‍♀️ woman golfing, medium dark skin tone
-  '1F3CC-1F3FE-200D-2640-FE0F': ['woman_golfing_tone4'],
-  // 🏌🏿‍♀️ woman golfing, dark skin tone
-  '1F3CC-1F3FF-200D-2640-FE0F': ['woman_golfing_tone5'],
   // 🏄️ person surfing
   '1F3C4': ['person_surfing'],
-  // 🏄🏻 person surfing, light skin tone
-  '1F3C4-1F3FB': ['person_surfing_tone1'],
-  // 🏄🏼 person surfing, medium light skin tone
-  '1F3C4-1F3FC': ['person_surfing_tone2'],
-  // 🏄🏽 person surfing, medium skin tone
-  '1F3C4-1F3FD': ['person_surfing_tone3'],
-  // 🏄🏾 person surfing, medium dark skin tone
-  '1F3C4-1F3FE': ['person_surfing_tone4'],
-  // 🏄🏿 person surfing, dark skin tone
-  '1F3C4-1F3FF': ['person_surfing_tone5'],
   // 🏄‍♂️ man surfing
   '1F3C4-200D-2642-FE0F': ['man_surfing'],
-  // 🏄🏻‍♂️ man surfing, light skin tone
-  '1F3C4-1F3FB-200D-2642-FE0F': ['man_surfing_tone1'],
-  // 🏄🏼‍♂️ man surfing, medium light skin tone
-  '1F3C4-1F3FC-200D-2642-FE0F': ['man_surfing_tone2'],
-  // 🏄🏽‍♂️ man surfing, medium skin tone
-  '1F3C4-1F3FD-200D-2642-FE0F': ['man_surfing_tone3'],
-  // 🏄🏾‍♂️ man surfing, medium dark skin tone
-  '1F3C4-1F3FE-200D-2642-FE0F': ['man_surfing_tone4'],
-  // 🏄🏿‍♂️ man surfing, dark skin tone
-  '1F3C4-1F3FF-200D-2642-FE0F': ['man_surfing_tone5'],
   // 🏄‍♀️ woman surfing
   '1F3C4-200D-2640-FE0F': ['woman_surfing'],
-  // 🏄🏻‍♀️ woman surfing, light skin tone
-  '1F3C4-1F3FB-200D-2640-FE0F': ['woman_surfing_tone1'],
-  // 🏄🏼‍♀️ woman surfing, medium light skin tone
-  '1F3C4-1F3FC-200D-2640-FE0F': ['woman_surfing_tone2'],
-  // 🏄🏽‍♀️ woman surfing, medium skin tone
-  '1F3C4-1F3FD-200D-2640-FE0F': ['woman_surfing_tone3'],
-  // 🏄🏾‍♀️ woman surfing, medium dark skin tone
-  '1F3C4-1F3FE-200D-2640-FE0F': ['woman_surfing_tone4'],
-  // 🏄🏿‍♀️ woman surfing, dark skin tone
-  '1F3C4-1F3FF-200D-2640-FE0F': ['woman_surfing_tone5'],
   // 🚣 person rowing boat
   '1F6A3': ['person_rowing_boat'],
-  // 🚣🏻 person rowing boat, light skin tone
-  '1F6A3-1F3FB': ['person_rowing_boat_tone1'],
-  // 🚣🏼 person rowing boat, medium light skin tone
-  '1F6A3-1F3FC': ['person_rowing_boat_tone2'],
-  // 🚣🏽 person rowing boat, medium skin tone
-  '1F6A3-1F3FD': ['person_rowing_boat_tone3'],
-  // 🚣🏾 person rowing boat, medium dark skin tone
-  '1F6A3-1F3FE': ['person_rowing_boat_tone4'],
-  // 🚣🏿 person rowing boat, dark skin tone
-  '1F6A3-1F3FF': ['person_rowing_boat_tone5'],
   // 🚣‍♂️ man rowing boat
   '1F6A3-200D-2642-FE0F': ['man_rowing_boat'],
-  // 🚣🏻‍♂️ man rowing boat, light skin tone
-  '1F6A3-1F3FB-200D-2642-FE0F': ['man_rowing_boat_tone1'],
-  // 🚣🏼‍♂️ man rowing boat, medium light skin tone
-  '1F6A3-1F3FC-200D-2642-FE0F': ['man_rowing_boat_tone2'],
-  // 🚣🏽‍♂️ man rowing boat, medium skin tone
-  '1F6A3-1F3FD-200D-2642-FE0F': ['man_rowing_boat_tone3'],
-  // 🚣🏾‍♂️ man rowing boat, medium dark skin tone
-  '1F6A3-1F3FE-200D-2642-FE0F': ['man_rowing_boat_tone4'],
-  // 🚣🏿‍♂️ man rowing boat, dark skin tone
-  '1F6A3-1F3FF-200D-2642-FE0F': ['man_rowing_boat_tone5'],
   // 🚣‍♀️ woman rowing boat
   '1F6A3-200D-2640-FE0F': ['woman_rowing_boat'],
-  // 🚣🏻‍♀️ woman rowing boat, light skin tone
-  '1F6A3-1F3FB-200D-2640-FE0F': ['woman_rowing_boat_tone1'],
-  // 🚣🏼‍♀️ woman rowing boat, medium light skin tone
-  '1F6A3-1F3FC-200D-2640-FE0F': ['woman_rowing_boat_tone2'],
-  // 🚣🏽‍♀️ woman rowing boat, medium skin tone
-  '1F6A3-1F3FD-200D-2640-FE0F': ['woman_rowing_boat_tone3'],
-  // 🚣🏾‍♀️ woman rowing boat, medium dark skin tone
-  '1F6A3-1F3FE-200D-2640-FE0F': ['woman_rowing_boat_tone4'],
-  // 🚣🏿‍♀️ woman rowing boat, dark skin tone
-  '1F6A3-1F3FF-200D-2640-FE0F': ['woman_rowing_boat_tone5'],
   // 🏊️ person swimming
   '1F3CA': ['person_swimming'],
-  // 🏊🏻 person swimming, light skin tone
-  '1F3CA-1F3FB': ['person_swimming_tone1'],
-  // 🏊🏼 person swimming, medium light skin tone
-  '1F3CA-1F3FC': ['person_swimming_tone2'],
-  // 🏊🏽 person swimming, medium skin tone
-  '1F3CA-1F3FD': ['person_swimming_tone3'],
-  // 🏊🏾 person swimming, medium dark skin tone
-  '1F3CA-1F3FE': ['person_swimming_tone4'],
-  // 🏊🏿 person swimming, dark skin tone
-  '1F3CA-1F3FF': ['person_swimming_tone5'],
   // 🏊‍♂️ man swimming
   '1F3CA-200D-2642-FE0F': ['man_swimming'],
-  // 🏊🏻‍♂️ man swimming, light skin tone
-  '1F3CA-1F3FB-200D-2642-FE0F': ['man_swimming_tone1'],
-  // 🏊🏼‍♂️ man swimming, medium light skin tone
-  '1F3CA-1F3FC-200D-2642-FE0F': ['man_swimming_tone2'],
-  // 🏊🏽‍♂️ man swimming, medium skin tone
-  '1F3CA-1F3FD-200D-2642-FE0F': ['man_swimming_tone3'],
-  // 🏊🏾‍♂️ man swimming, medium dark skin tone
-  '1F3CA-1F3FE-200D-2642-FE0F': ['man_swimming_tone4'],
-  // 🏊🏿‍♂️ man swimming, dark skin tone
-  '1F3CA-1F3FF-200D-2642-FE0F': ['man_swimming_tone5'],
   // 🏊‍♀️ woman swimming
   '1F3CA-200D-2640-FE0F': ['woman_swimming'],
-  // 🏊🏻‍♀️ woman swimming, light skin tone
-  '1F3CA-1F3FB-200D-2640-FE0F': ['woman_swimming_tone1'],
-  // 🏊🏼‍♀️ woman swimming, medium light skin tone
-  '1F3CA-1F3FC-200D-2640-FE0F': ['woman_swimming_tone2'],
-  // 🏊🏽‍♀️ woman swimming, medium skin tone
-  '1F3CA-1F3FD-200D-2640-FE0F': ['woman_swimming_tone3'],
-  // 🏊🏾‍♀️ woman swimming, medium dark skin tone
-  '1F3CA-1F3FE-200D-2640-FE0F': ['woman_swimming_tone4'],
-  // 🏊🏿‍♀️ woman swimming, dark skin tone
-  '1F3CA-1F3FF-200D-2640-FE0F': ['woman_swimming_tone5'],
   // ⛹️ person bouncing ball
   '26F9': ['person_bouncing_ball'],
-  // ⛹🏻 person bouncing ball, light skin tone
-  '26F9-1F3FB': ['person_bouncing_ball_tone1'],
-  // ⛹🏼 person bouncing ball, medium light skin tone
-  '26F9-1F3FC': ['person_bouncing_ball_tone2'],
-  // ⛹🏽 person bouncing ball, medium skin tone
-  '26F9-1F3FD': ['person_bouncing_ball_tone3'],
-  // ⛹🏾 person bouncing ball, medium dark skin tone
-  '26F9-1F3FE': ['person_bouncing_ball_tone4'],
-  // ⛹🏿 person bouncing ball, dark skin tone
-  '26F9-1F3FF': ['person_bouncing_ball_tone5'],
   // ⛹️‍♂️ man bouncing ball
   '26F9-FE0F-200D-2642-FE0F': ['man_bouncing_ball'],
-  // ⛹🏻‍♂️ man bouncing ball, light skin tone
-  '26F9-1F3FB-200D-2642-FE0F': ['man_bouncing_ball_tone1'],
-  // ⛹🏼‍♂️ man bouncing ball, medium light skin tone
-  '26F9-1F3FC-200D-2642-FE0F': ['man_bouncing_ball_tone2'],
-  // ⛹🏽‍♂️ man bouncing ball, medium skin tone
-  '26F9-1F3FD-200D-2642-FE0F': ['man_bouncing_ball_tone3'],
-  // ⛹🏾‍♂️ man bouncing ball, medium dark skin tone
-  '26F9-1F3FE-200D-2642-FE0F': ['man_bouncing_ball_tone4'],
-  // ⛹🏿‍♂️ man bouncing ball, dark skin tone
-  '26F9-1F3FF-200D-2642-FE0F': ['man_bouncing_ball_tone5'],
   // ⛹️‍♀️ woman bouncing ball
   '26F9-FE0F-200D-2640-FE0F': ['woman_bouncing_ball'],
-  // ⛹🏻‍♀️ woman bouncing ball, light skin tone
-  '26F9-1F3FB-200D-2640-FE0F': ['woman_bouncing_ball_tone1'],
-  // ⛹🏼‍♀️ woman bouncing ball, medium light skin tone
-  '26F9-1F3FC-200D-2640-FE0F': ['woman_bouncing_ball_tone2'],
-  // ⛹🏽‍♀️ woman bouncing ball, medium skin tone
-  '26F9-1F3FD-200D-2640-FE0F': ['woman_bouncing_ball_tone3'],
-  // ⛹🏾‍♀️ woman bouncing ball, medium dark skin tone
-  '26F9-1F3FE-200D-2640-FE0F': ['woman_bouncing_ball_tone4'],
-  // ⛹🏿‍♀️ woman bouncing ball, dark skin tone
-  '26F9-1F3FF-200D-2640-FE0F': ['woman_bouncing_ball_tone5'],
   // 🏋️ person lifting weights
   '1F3CB': ['person_lifting_weights'],
-  // 🏋🏻 person lifting weights, light skin tone
-  '1F3CB-1F3FB': ['person_lifting_weights_tone1'],
-  // 🏋🏼 person lifting weights, medium light skin tone
-  '1F3CB-1F3FC': ['person_lifting_weights_tone2'],
-  // 🏋🏽 person lifting weights, medium skin tone
-  '1F3CB-1F3FD': ['person_lifting_weights_tone3'],
-  // 🏋🏾 person lifting weights, medium dark skin tone
-  '1F3CB-1F3FE': ['person_lifting_weights_tone4'],
-  // 🏋🏿 person lifting weights, dark skin tone
-  '1F3CB-1F3FF': ['person_lifting_weights_tone5'],
   // 🏋️‍♂️ man lifting weights
   '1F3CB-FE0F-200D-2642-FE0F': ['man_lifting_weights'],
-  // 🏋🏻‍♂️ man lifting weights, light skin tone
-  '1F3CB-1F3FB-200D-2642-FE0F': ['man_lifting_weights_tone1'],
-  // 🏋🏼‍♂️ man lifting weights, medium light skin tone
-  '1F3CB-1F3FC-200D-2642-FE0F': ['man_lifting_weights_tone2'],
-  // 🏋🏽‍♂️ man lifting weights, medium skin tone
-  '1F3CB-1F3FD-200D-2642-FE0F': ['man_lifting_weights_tone3'],
-  // 🏋🏾‍♂️ man lifting weights, medium dark skin tone
-  '1F3CB-1F3FE-200D-2642-FE0F': ['man_lifting_weights_tone4'],
-  // 🏋🏿‍♂️ man lifting weights, dark skin tone
-  '1F3CB-1F3FF-200D-2642-FE0F': ['man_lifting_weights_tone5'],
   // 🏋️‍♀️ woman lifting weights
   '1F3CB-FE0F-200D-2640-FE0F': ['woman_lifting_weights'],
-  // 🏋🏻‍♀️ woman lifting weights, light skin tone
-  '1F3CB-1F3FB-200D-2640-FE0F': ['woman_lifting_weights_tone1'],
-  // 🏋🏼‍♀️ woman lifting weights, medium light skin tone
-  '1F3CB-1F3FC-200D-2640-FE0F': ['woman_lifting_weights_tone2'],
-  // 🏋🏽‍♀️ woman lifting weights, medium skin tone
-  '1F3CB-1F3FD-200D-2640-FE0F': ['woman_lifting_weights_tone3'],
-  // 🏋🏾‍♀️ woman lifting weights, medium dark skin tone
-  '1F3CB-1F3FE-200D-2640-FE0F': ['woman_lifting_weights_tone4'],
-  // 🏋🏿‍♀️ woman lifting weights, dark skin tone
-  '1F3CB-1F3FF-200D-2640-FE0F': ['woman_lifting_weights_tone5'],
   // 🚴 person biking
   '1F6B4': ['person_biking'],
-  // 🚴🏻 person biking, light skin tone
-  '1F6B4-1F3FB': ['person_biking_tone1'],
-  // 🚴🏼 person biking, medium light skin tone
-  '1F6B4-1F3FC': ['person_biking_tone2'],
-  // 🚴🏽 person biking, medium skin tone
-  '1F6B4-1F3FD': ['person_biking_tone3'],
-  // 🚴🏾 person biking, medium dark skin tone
-  '1F6B4-1F3FE': ['person_biking_tone4'],
-  // 🚴🏿 person biking, dark skin tone
-  '1F6B4-1F3FF': ['person_biking_tone5'],
   // 🚴‍♂️ man biking
   '1F6B4-200D-2642-FE0F': ['man_biking'],
-  // 🚴🏻‍♂️ man biking, light skin tone
-  '1F6B4-1F3FB-200D-2642-FE0F': ['man_biking_tone1'],
-  // 🚴🏼‍♂️ man biking, medium light skin tone
-  '1F6B4-1F3FC-200D-2642-FE0F': ['man_biking_tone2'],
-  // 🚴🏽‍♂️ man biking, medium skin tone
-  '1F6B4-1F3FD-200D-2642-FE0F': ['man_biking_tone3'],
-  // 🚴🏾‍♂️ man biking, medium dark skin tone
-  '1F6B4-1F3FE-200D-2642-FE0F': ['man_biking_tone4'],
-  // 🚴🏿‍♂️ man biking, dark skin tone
-  '1F6B4-1F3FF-200D-2642-FE0F': ['man_biking_tone5'],
   // 🚴‍♀️ woman biking
   '1F6B4-200D-2640-FE0F': ['woman_biking'],
-  // 🚴🏻‍♀️ woman biking, light skin tone
-  '1F6B4-1F3FB-200D-2640-FE0F': ['woman_biking_tone1'],
-  // 🚴🏼‍♀️ woman biking, medium light skin tone
-  '1F6B4-1F3FC-200D-2640-FE0F': ['woman_biking_tone2'],
-  // 🚴🏽‍♀️ woman biking, medium skin tone
-  '1F6B4-1F3FD-200D-2640-FE0F': ['woman_biking_tone3'],
-  // 🚴🏾‍♀️ woman biking, medium dark skin tone
-  '1F6B4-1F3FE-200D-2640-FE0F': ['woman_biking_tone4'],
-  // 🚴🏿‍♀️ woman biking, dark skin tone
-  '1F6B4-1F3FF-200D-2640-FE0F': ['woman_biking_tone5'],
   // 🚵 person mountain biking
   '1F6B5': ['person_mountain_biking'],
-  // 🚵🏻 person mountain biking, light skin tone
-  '1F6B5-1F3FB': ['person_mountain_biking_tone1'],
-  // 🚵🏼 person mountain biking, medium light skin tone
-  '1F6B5-1F3FC': ['person_mountain_biking_tone2'],
-  // 🚵🏽 person mountain biking, medium skin tone
-  '1F6B5-1F3FD': ['person_mountain_biking_tone3'],
-  // 🚵🏾 person mountain biking, medium dark skin tone
-  '1F6B5-1F3FE': ['person_mountain_biking_tone4'],
-  // 🚵🏿 person mountain biking, dark skin tone
-  '1F6B5-1F3FF': ['person_mountain_biking_tone5'],
   // 🚵‍♂️ man mountain biking
   '1F6B5-200D-2642-FE0F': ['man_mountain_biking'],
-  // 🚵🏻‍♂️ man mountain biking, light skin tone
-  '1F6B5-1F3FB-200D-2642-FE0F': ['man_mountain_biking_tone1'],
-  // 🚵🏼‍♂️ man mountain biking, medium light skin tone
-  '1F6B5-1F3FC-200D-2642-FE0F': ['man_mountain_biking_tone2'],
-  // 🚵🏽‍♂️ man mountain biking, medium skin tone
-  '1F6B5-1F3FD-200D-2642-FE0F': ['man_mountain_biking_tone3'],
-  // 🚵🏾‍♂️ man mountain biking, medium dark skin tone
-  '1F6B5-1F3FE-200D-2642-FE0F': ['man_mountain_biking_tone4'],
-  // 🚵🏿‍♂️ man mountain biking, dark skin tone
-  '1F6B5-1F3FF-200D-2642-FE0F': ['man_mountain_biking_tone5'],
   // 🚵‍♀️ woman mountain biking
   '1F6B5-200D-2640-FE0F': ['woman_mountain_biking'],
-  // 🚵🏻‍♀️ woman mountain biking, light skin tone
-  '1F6B5-1F3FB-200D-2640-FE0F': ['woman_mountain_biking_tone1'],
-  // 🚵🏼‍♀️ woman mountain biking, medium light skin tone
-  '1F6B5-1F3FC-200D-2640-FE0F': ['woman_mountain_biking_tone2'],
-  // 🚵🏽‍♀️ woman mountain biking, medium skin tone
-  '1F6B5-1F3FD-200D-2640-FE0F': ['woman_mountain_biking_tone3'],
-  // 🚵🏾‍♀️ woman mountain biking, medium dark skin tone
-  '1F6B5-1F3FE-200D-2640-FE0F': ['woman_mountain_biking_tone4'],
-  // 🚵🏿‍♀️ woman mountain biking, dark skin tone
-  '1F6B5-1F3FF-200D-2640-FE0F': ['woman_mountain_biking_tone5'],
   // 🏎️ racing car
   '1F3CE': ['race_car'],
   // 🏍️ motorcycle
   '1F3CD': ['motorcycle'],
   // 🤸 person cartwheeling
   '1F938': ['person_cartwheel'],
-  // 🤸🏻 person cartwheeling, light skin tone
-  '1F938-1F3FB': ['person_cartwheel_tone1'],
-  // 🤸🏼 person cartwheeling, medium light skin tone
-  '1F938-1F3FC': ['person_cartwheel_tone2'],
-  // 🤸🏽 person cartwheeling, medium skin tone
-  '1F938-1F3FD': ['person_cartwheel_tone3'],
-  // 🤸🏾 person cartwheeling, medium dark skin tone
-  '1F938-1F3FE': ['person_cartwheel_tone4'],
-  // 🤸🏿 person cartwheeling, dark skin tone
-  '1F938-1F3FF': ['person_cartwheel_tone5'],
   // 🤸‍♂️ man cartwheeling
   '1F938-200D-2642-FE0F': ['man_cartwheeling'],
-  // 🤸🏻‍♂️ man cartwheeling, light skin tone
-  '1F938-1F3FB-200D-2642-FE0F': ['man_cartwheeling_tone1'],
-  // 🤸🏼‍♂️ man cartwheeling, medium light skin tone
-  '1F938-1F3FC-200D-2642-FE0F': ['man_cartwheeling_tone2'],
-  // 🤸🏽‍♂️ man cartwheeling, medium skin tone
-  '1F938-1F3FD-200D-2642-FE0F': ['man_cartwheeling_tone3'],
-  // 🤸🏾‍♂️ man cartwheeling, medium dark skin tone
-  '1F938-1F3FE-200D-2642-FE0F': ['man_cartwheeling_tone4'],
-  // 🤸🏿‍♂️ man cartwheeling, dark skin tone
-  '1F938-1F3FF-200D-2642-FE0F': ['man_cartwheeling_tone5'],
   // 🤸‍♀️ woman cartwheeling
   '1F938-200D-2640-FE0F': ['woman_cartwheeling'],
-  // 🤸🏻‍♀️ woman cartwheeling, light skin tone
-  '1F938-1F3FB-200D-2640-FE0F': ['woman_cartwheeling_tone1'],
-  // 🤸🏼‍♀️ woman cartwheeling, medium light skin tone
-  '1F938-1F3FC-200D-2640-FE0F': ['woman_cartwheeling_tone2'],
-  // 🤸🏽‍♀️ woman cartwheeling, medium skin tone
-  '1F938-1F3FD-200D-2640-FE0F': ['woman_cartwheeling_tone3'],
-  // 🤸🏾‍♀️ woman cartwheeling, medium dark skin tone
-  '1F938-1F3FE-200D-2640-FE0F': ['woman_cartwheeling_tone4'],
-  // 🤸🏿‍♀️ woman cartwheeling, dark skin tone
-  '1F938-1F3FF-200D-2640-FE0F': ['woman_cartwheeling_tone5'],
   // 🤼 people wrestling
   '1F93C': ['people_wrestling'],
   // 🤼‍♂️ men wrestling
@@ -2289,112 +608,22 @@ export default {
   '1F93C-200D-2640-FE0F': ['women_wrestling'],
   // 🤽 person playing water polo
   '1F93D': ['person_water_polo'],
-  // 🤽🏻 person playing water polo, light skin tone
-  '1F93D-1F3FB': ['person_water_polo_tone1'],
-  // 🤽🏼 person playing water polo, medium light skin tone
-  '1F93D-1F3FC': ['person_water_polo_tone2'],
-  // 🤽🏽 person playing water polo, medium skin tone
-  '1F93D-1F3FD': ['person_water_polo_tone3'],
-  // 🤽🏾 person playing water polo, medium dark skin tone
-  '1F93D-1F3FE': ['person_water_polo_tone4'],
-  // 🤽🏿 person playing water polo, dark skin tone
-  '1F93D-1F3FF': ['person_water_polo_tone5'],
   // 🤽‍♂️ man playing water polo
   '1F93D-200D-2642-FE0F': ['man_water_polo'],
-  // 🤽🏻‍♂️ man playing water polo, light skin tone
-  '1F93D-1F3FB-200D-2642-FE0F': ['man_water_polo_tone1'],
-  // 🤽🏼‍♂️ man playing water polo, medium light skin tone
-  '1F93D-1F3FC-200D-2642-FE0F': ['man_water_polo_tone2'],
-  // 🤽🏽‍♂️ man playing water polo, medium skin tone
-  '1F93D-1F3FD-200D-2642-FE0F': ['man_water_polo_tone3'],
-  // 🤽🏾‍♂️ man playing water polo, medium dark skin tone
-  '1F93D-1F3FE-200D-2642-FE0F': ['man_water_polo_tone4'],
-  // 🤽🏿‍♂️ man playing water polo, dark skin tone
-  '1F93D-1F3FF-200D-2642-FE0F': ['man_water_polo_tone5'],
   // 🤽‍♀️ woman playing water polo
   '1F93D-200D-2640-FE0F': ['woman_water_polo'],
-  // 🤽🏻‍♀️ woman playing water polo, light skin tone
-  '1F93D-1F3FB-200D-2640-FE0F': ['woman_water_polo_tone1'],
-  // 🤽🏼‍♀️ woman playing water polo, medium light skin tone
-  '1F93D-1F3FC-200D-2640-FE0F': ['woman_water_polo_tone2'],
-  // 🤽🏽‍♀️ woman playing water polo, medium skin tone
-  '1F93D-1F3FD-200D-2640-FE0F': ['woman_water_polo_tone3'],
-  // 🤽🏾‍♀️ woman playing water polo, medium dark skin tone
-  '1F93D-1F3FE-200D-2640-FE0F': ['woman_water_polo_tone4'],
-  // 🤽🏿‍♀️ woman playing water polo, dark skin tone
-  '1F93D-1F3FF-200D-2640-FE0F': ['woman_water_polo_tone5'],
   // 🤾 person playing handball
   '1F93E': ['person_handball'],
-  // 🤾🏻 person playing handball, light skin tone
-  '1F93E-1F3FB': ['person_handball_tone1'],
-  // 🤾🏼 person playing handball, medium light skin tone
-  '1F93E-1F3FC': ['person_handball_tone2'],
-  // 🤾🏽 person playing handball, medium skin tone
-  '1F93E-1F3FD': ['person_handball_tone3'],
-  // 🤾🏾 person playing handball, medium dark skin tone
-  '1F93E-1F3FE': ['person_handball_tone4'],
-  // 🤾🏿 person playing handball, dark skin tone
-  '1F93E-1F3FF': ['person_handball_tone5'],
   // 🤾‍♂️ man playing handball
   '1F93E-200D-2642-FE0F': ['man_handball'],
-  // 🤾🏻‍♂️ man playing handball, light skin tone
-  '1F93E-1F3FB-200D-2642-FE0F': ['man_handball_tone1'],
-  // 🤾🏼‍♂️ man playing handball, medium light skin tone
-  '1F93E-1F3FC-200D-2642-FE0F': ['man_handball_tone2'],
-  // 🤾🏽‍♂️ man playing handball, medium skin tone
-  '1F93E-1F3FD-200D-2642-FE0F': ['man_handball_tone3'],
-  // 🤾🏾‍♂️ man playing handball, medium dark skin tone
-  '1F93E-1F3FE-200D-2642-FE0F': ['man_handball_tone4'],
-  // 🤾🏿‍♂️ man playing handball, dark skin tone
-  '1F93E-1F3FF-200D-2642-FE0F': ['man_handball_tone5'],
   // 🤾‍♀️ woman playing handball
   '1F93E-200D-2640-FE0F': ['woman_handball'],
-  // 🤾🏻‍♀️ woman playing handball, light skin tone
-  '1F93E-1F3FB-200D-2640-FE0F': ['woman_handball_tone1'],
-  // 🤾🏼‍♀️ woman playing handball, medium light skin tone
-  '1F93E-1F3FC-200D-2640-FE0F': ['woman_handball_tone2'],
-  // 🤾🏽‍♀️ woman playing handball, medium skin tone
-  '1F93E-1F3FD-200D-2640-FE0F': ['woman_handball_tone3'],
-  // 🤾🏾‍♀️ woman playing handball, medium dark skin tone
-  '1F93E-1F3FE-200D-2640-FE0F': ['woman_handball_tone4'],
-  // 🤾🏿‍♀️ woman playing handball, dark skin tone
-  '1F93E-1F3FF-200D-2640-FE0F': ['woman_handball_tone5'],
   // 🤹 person juggling
   '1F939': ['person_juggling'],
-  // 🤹🏻 person juggling, light skin tone
-  '1F939-1F3FB': ['person_juggling_tone1'],
-  // 🤹🏼 person juggling, medium light skin tone
-  '1F939-1F3FC': ['person_juggling_tone2'],
-  // 🤹🏽 person juggling, medium skin tone
-  '1F939-1F3FD': ['person_juggling_tone3'],
-  // 🤹🏾 person juggling, medium dark skin tone
-  '1F939-1F3FE': ['person_juggling_tone4'],
-  // 🤹🏿 person juggling, dark skin tone
-  '1F939-1F3FF': ['person_juggling_tone5'],
   // 🤹‍♂️ man juggling
   '1F939-200D-2642-FE0F': ['man_juggling'],
-  // 🤹🏻‍♂️ man juggling, light skin tone
-  '1F939-1F3FB-200D-2642-FE0F': ['man_juggling_tone1'],
-  // 🤹🏼‍♂️ man juggling, medium light skin tone
-  '1F939-1F3FC-200D-2642-FE0F': ['man_juggling_tone2'],
-  // 🤹🏽‍♂️ man juggling, medium skin tone
-  '1F939-1F3FD-200D-2642-FE0F': ['man_juggling_tone3'],
-  // 🤹🏾‍♂️ man juggling, medium dark skin tone
-  '1F939-1F3FE-200D-2642-FE0F': ['man_juggling_tone4'],
-  // 🤹🏿‍♂️ man juggling, dark skin tone
-  '1F939-1F3FF-200D-2642-FE0F': ['man_juggling_tone5'],
   // 🤹‍♀️ woman juggling
   '1F939-200D-2640-FE0F': ['woman_juggling'],
-  // 🤹🏻‍♀️ woman juggling, light skin tone
-  '1F939-1F3FB-200D-2640-FE0F': ['woman_juggling_tone1'],
-  // 🤹🏼‍♀️ woman juggling, medium light skin tone
-  '1F939-1F3FC-200D-2640-FE0F': ['woman_juggling_tone2'],
-  // 🤹🏽‍♀️ woman juggling, medium skin tone
-  '1F939-1F3FD-200D-2640-FE0F': ['woman_juggling_tone3'],
-  // 🤹🏾‍♀️ woman juggling, medium dark skin tone
-  '1F939-1F3FE-200D-2640-FE0F': ['woman_juggling_tone4'],
-  // 🤹🏿‍♀️ woman juggling, dark skin tone
-  '1F939-1F3FF-200D-2640-FE0F': ['woman_juggling_tone5'],
   // 👫 man and woman holding hands
   '1F46B': ['holding_hands_mw', 'holding_hands_wm'],
   // 👬 two men holding hands
@@ -2471,414 +700,74 @@ export default {
   '1F469-200D-1F467-200D-1F467': ['family_wgg'],
   // 🤳 selfie
   '1F933': ['selfie'],
-  // 🤳🏻 selfie, light skin tone
-  '1F933-1F3FB': ['selfie_tone1'],
-  // 🤳🏼 selfie, medium light skin tone
-  '1F933-1F3FC': ['selfie_tone2'],
-  // 🤳🏽 selfie, medium skin tone
-  '1F933-1F3FD': ['selfie_tone3'],
-  // 🤳🏾 selfie, medium dark skin tone
-  '1F933-1F3FE': ['selfie_tone4'],
-  // 🤳🏿 selfie, dark skin tone
-  '1F933-1F3FF': ['selfie_tone5'],
   // 💪 flexed biceps
   '1F4AA': ['muscle'],
-  // 💪🏻 flexed biceps, light skin tone
-  '1F4AA-1F3FB': ['muscle_tone1'],
-  // 💪🏼 flexed biceps, medium light skin tone
-  '1F4AA-1F3FC': ['muscle_tone2'],
-  // 💪🏽 flexed biceps, medium skin tone
-  '1F4AA-1F3FD': ['muscle_tone3'],
-  // 💪🏾 flexed biceps, medium dark skin tone
-  '1F4AA-1F3FE': ['muscle_tone4'],
-  // 💪🏿 flexed biceps, dark skin tone
-  '1F4AA-1F3FF': ['muscle_tone5'],
   // 👈️ backhand index pointing left
   '1F448': ['point_left'],
-  // 👈🏻 backhand index pointing left, light skin tone
-  '1F448-1F3FB': ['point_left_tone1'],
-  // 👈🏼 backhand index pointing left, medium light skin tone
-  '1F448-1F3FC': ['point_left_tone2'],
-  // 👈🏽 backhand index pointing left, medium skin tone
-  '1F448-1F3FD': ['point_left_tone3'],
-  // 👈🏾 backhand index pointing left, medium dark skin tone
-  '1F448-1F3FE': ['point_left_tone4'],
-  // 👈🏿 backhand index pointing left, dark skin tone
-  '1F448-1F3FF': ['point_left_tone5'],
   // 👉️ backhand index pointing right
   '1F449': ['point_right'],
-  // 👉🏻 backhand index pointing right, light skin tone
-  '1F449-1F3FB': ['point_right_tone1'],
-  // 👉🏼 backhand index pointing right, medium light skin tone
-  '1F449-1F3FC': ['point_right_tone2'],
-  // 👉🏽 backhand index pointing right, medium skin tone
-  '1F449-1F3FD': ['point_right_tone3'],
-  // 👉🏾 backhand index pointing right, medium dark skin tone
-  '1F449-1F3FE': ['point_right_tone4'],
-  // 👉🏿 backhand index pointing right, dark skin tone
-  '1F449-1F3FF': ['point_right_tone5'],
   // ☝️ index pointing up
   '261D': ['point_up'],
-  // ☝🏻 index pointing up, light skin tone
-  '261D-1F3FB': ['point_up_tone1'],
-  // ☝🏼 index pointing up, medium light skin tone
-  '261D-1F3FC': ['point_up_tone2'],
-  // ☝🏽 index pointing up, medium skin tone
-  '261D-1F3FD': ['point_up_tone3'],
-  // ☝🏾 index pointing up, medium dark skin tone
-  '261D-1F3FE': ['point_up_tone4'],
-  // ☝🏿 index pointing up, dark skin tone
-  '261D-1F3FF': ['point_up_tone5'],
   // 👆️ backhand index pointing up
-  '1F446': ['point_up_2'],
-  // 👆🏻 backhand index pointing up, light skin tone
-  '1F446-1F3FB': ['point_up_2_tone1'],
-  // 👆🏼 backhand index pointing up, medium light skin tone
-  '1F446-1F3FC': ['point_up_2_tone2'],
-  // 👆🏽 backhand index pointing up, medium skin tone
-  '1F446-1F3FD': ['point_up_2_tone3'],
-  // 👆🏾 backhand index pointing up, medium dark skin tone
-  '1F446-1F3FE': ['point_up_2_tone4'],
-  // 👆🏿 backhand index pointing up, dark skin tone
-  '1F446-1F3FF': ['point_up_2_tone5'],
+  '1F446': ['backhand_point_up'],
   // 🖕 middle finger
   '1F595': ['middle_finger'],
-  // 🖕🏻 middle finger, light skin tone
-  '1F595-1F3FB': ['middle_finger_tone1'],
-  // 🖕🏼 middle finger, medium light skin tone
-  '1F595-1F3FC': ['middle_finger_tone2'],
-  // 🖕🏽 middle finger, medium skin tone
-  '1F595-1F3FD': ['middle_finger_tone3'],
-  // 🖕🏾 middle finger, medium dark skin tone
-  '1F595-1F3FE': ['middle_finger_tone4'],
-  // 🖕🏿 middle finger, dark skin tone
-  '1F595-1F3FF': ['middle_finger_tone5'],
   // 👇️ backhand index pointing down
   '1F447': ['point_down'],
-  // 👇🏻 backhand index pointing down, light skin tone
-  '1F447-1F3FB': ['point_down_tone1'],
-  // 👇🏼 backhand index pointing down, medium light skin tone
-  '1F447-1F3FC': ['point_down_tone2'],
-  // 👇🏽 backhand index pointing down, medium skin tone
-  '1F447-1F3FD': ['point_down_tone3'],
-  // 👇🏾 backhand index pointing down, medium dark skin tone
-  '1F447-1F3FE': ['point_down_tone4'],
-  // 👇🏿 backhand index pointing down, dark skin tone
-  '1F447-1F3FF': ['point_down_tone5'],
   // ✌️ victory hand
-  '270C': ['v'],
-  // ✌🏻 victory hand, light skin tone
-  '270C-1F3FB': ['v_tone1'],
-  // ✌🏼 victory hand, medium light skin tone
-  '270C-1F3FC': ['v_tone2'],
-  // ✌🏽 victory hand, medium skin tone
-  '270C-1F3FD': ['v_tone3'],
-  // ✌🏾 victory hand, medium dark skin tone
-  '270C-1F3FE': ['v_tone4'],
-  // ✌🏿 victory hand, dark skin tone
-  '270C-1F3FF': ['v_tone5'],
+  '270C': ['victory'],
   // 🤞 crossed fingers
   '1F91E': ['fingers_crossed'],
-  // 🤞🏻 crossed fingers, light skin tone
-  '1F91E-1F3FB': ['fingers_crossed_tone1'],
-  // 🤞🏼 crossed fingers, medium light skin tone
-  '1F91E-1F3FC': ['fingers_crossed_tone2'],
-  // 🤞🏽 crossed fingers, medium skin tone
-  '1F91E-1F3FD': ['fingers_crossed_tone3'],
-  // 🤞🏾 crossed fingers, medium dark skin tone
-  '1F91E-1F3FE': ['fingers_crossed_tone4'],
-  // 🤞🏿 crossed fingers, dark skin tone
-  '1F91E-1F3FF': ['fingers_crossed_tone5'],
   // 🖖 vulcan salute
   '1F596': ['vulcan'],
-  // 🖖🏻 vulcan salute, light skin tone
-  '1F596-1F3FB': ['vulcan_tone1'],
-  // 🖖🏼 vulcan salute, medium light skin tone
-  '1F596-1F3FC': ['vulcan_tone2'],
-  // 🖖🏽 vulcan salute, medium skin tone
-  '1F596-1F3FD': ['vulcan_tone3'],
-  // 🖖🏾 vulcan salute, medium dark skin tone
-  '1F596-1F3FE': ['vulcan_tone4'],
-  // 🖖🏿 vulcan salute, dark skin tone
-  '1F596-1F3FF': ['vulcan_tone5'],
   // 🤘 sign of the horns
   '1F918': ['metal'],
-  // 🤘🏻 sign of the horns, light skin tone
-  '1F918-1F3FB': ['metal_tone1'],
-  // 🤘🏼 sign of the horns, medium light skin tone
-  '1F918-1F3FC': ['metal_tone2'],
-  // 🤘🏽 sign of the horns, medium skin tone
-  '1F918-1F3FD': ['metal_tone3'],
-  // 🤘🏾 sign of the horns, medium dark skin tone
-  '1F918-1F3FE': ['metal_tone4'],
-  // 🤘🏿 sign of the horns, dark skin tone
-  '1F918-1F3FF': ['metal_tone5'],
   // 🤙 call me hand
   '1F919': ['call_me'],
-  // 🤙🏻 call me hand, light skin tone
-  '1F919-1F3FB': ['call_me_tone1'],
-  // 🤙🏼 call me hand, medium light skin tone
-  '1F919-1F3FC': ['call_me_tone2'],
-  // 🤙🏽 call me hand, medium skin tone
-  '1F919-1F3FD': ['call_me_tone3'],
-  // 🤙🏾 call me hand, medium dark skin tone
-  '1F919-1F3FE': ['call_me_tone4'],
-  // 🤙🏿 call me hand, dark skin tone
-  '1F919-1F3FF': ['call_me_tone5'],
   // 🖐️ raised hand with fingers splayed
-  '1F590': ['hand_splayed'],
-  // 🖐🏻 raised hand with fingers splayed, light skin tone
-  '1F590-1F3FB': ['hand_splayed_tone1'],
-  // 🖐🏼 raised hand with fingers splayed, medium light skin tone
-  '1F590-1F3FC': ['hand_splayed_tone2'],
-  // 🖐🏽 raised hand with fingers splayed, medium skin tone
-  '1F590-1F3FD': ['hand_splayed_tone3'],
-  // 🖐🏾 raised hand with fingers splayed, medium dark skin tone
-  '1F590-1F3FE': ['hand_splayed_tone4'],
-  // 🖐🏿 raised hand with fingers splayed, dark skin tone
-  '1F590-1F3FF': ['hand_splayed_tone5'],
+  '1F590': ['splayed_hand'],
   // ✋ raised hand
   '270B': ['raised_hand'],
-  // ✋🏻 raised hand, light skin tone
-  '270B-1F3FB': ['raised_hand_tone1'],
-  // ✋🏼 raised hand, medium light skin tone
-  '270B-1F3FC': ['raised_hand_tone2'],
-  // ✋🏽 raised hand, medium skin tone
-  '270B-1F3FD': ['raised_hand_tone3'],
-  // ✋🏾 raised hand, medium dark skin tone
-  '270B-1F3FE': ['raised_hand_tone4'],
-  // ✋🏿 raised hand, dark skin tone
-  '270B-1F3FF': ['raised_hand_tone5'],
   // 👌 OK hand
   '1F44C': ['ok_hand'],
-  // 👌🏻 OK hand, light skin tone
-  '1F44C-1F3FB': ['ok_hand_tone1'],
-  // 👌🏼 OK hand, medium light skin tone
-  '1F44C-1F3FC': ['ok_hand_tone2'],
-  // 👌🏽 OK hand, medium skin tone
-  '1F44C-1F3FD': ['ok_hand_tone3'],
-  // 👌🏾 OK hand, medium dark skin tone
-  '1F44C-1F3FE': ['ok_hand_tone4'],
-  // 👌🏿 OK hand, dark skin tone
-  '1F44C-1F3FF': ['ok_hand_tone5'],
   // 👍️ thumbs up
   '1F44D': ['thumbsup', '+1'],
-  // 👍🏻 thumbs up, light skin tone
-  '1F44D-1F3FB': ['thumbsup_tone1', '+1_tone1'],
-  // 👍🏼 thumbs up, medium light skin tone
-  '1F44D-1F3FC': ['thumbsup_tone2', '+1_tone2'],
-  // 👍🏽 thumbs up, medium skin tone
-  '1F44D-1F3FD': ['thumbsup_tone3', '+1_tone3'],
-  // 👍🏾 thumbs up, medium dark skin tone
-  '1F44D-1F3FE': ['thumbsup_tone4', '+1_tone4'],
-  // 👍🏿 thumbs up, dark skin tone
-  '1F44D-1F3FF': ['thumbsup_tone5', '+1_tone5'],
   // 👎️ thumbs down
   '1F44E': ['thumbsdown', '-1'],
-  // 👎🏻 thumbs down, light skin tone
-  '1F44E-1F3FB': ['thumbsdown_tone1', '-1_tone1'],
-  // 👎🏼 thumbs down, medium light skin tone
-  '1F44E-1F3FC': ['thumbsdown_tone2', '-1_tone2'],
-  // 👎🏽 thumbs down, medium skin tone
-  '1F44E-1F3FD': ['thumbsdown_tone3', '-1_tone3'],
-  // 👎🏾 thumbs down, medium dark skin tone
-  '1F44E-1F3FE': ['thumbsdown_tone4', '-1_tone4'],
-  // 👎🏿 thumbs down, dark skin tone
-  '1F44E-1F3FF': ['thumbsdown_tone5', '-1_tone5'],
   // ✊ raised fist
   '270A': ['fist'],
-  // ✊🏻 raised fist, light skin tone
-  '270A-1F3FB': ['fist_tone1'],
-  // ✊🏼 raised fist, medium light skin tone
-  '270A-1F3FC': ['fist_tone2'],
-  // ✊🏽 raised fist, medium skin tone
-  '270A-1F3FD': ['fist_tone3'],
-  // ✊🏾 raised fist, medium dark skin tone
-  '270A-1F3FE': ['fist_tone4'],
-  // ✊🏿 raised fist, dark skin tone
-  '270A-1F3FF': ['fist_tone5'],
   // 👊 oncoming fist
   '1F44A': ['punch'],
-  // 👊🏻 oncoming fist, light skin tone
-  '1F44A-1F3FB': ['punch_tone1'],
-  // 👊🏼 oncoming fist, medium light skin tone
-  '1F44A-1F3FC': ['punch_tone2'],
-  // 👊🏽 oncoming fist, medium skin tone
-  '1F44A-1F3FD': ['punch_tone3'],
-  // 👊🏾 oncoming fist, medium dark skin tone
-  '1F44A-1F3FE': ['punch_tone4'],
-  // 👊🏿 oncoming fist, dark skin tone
-  '1F44A-1F3FF': ['punch_tone5'],
   // 🤛 left-facing fist
   '1F91B': ['left_facing_fist'],
-  // 🤛🏻 left-facing fist, light skin tone
-  '1F91B-1F3FB': ['left_facing_fist_tone1'],
-  // 🤛🏼 left-facing fist, medium light skin tone
-  '1F91B-1F3FC': ['left_facing_fist_tone2'],
-  // 🤛🏽 left-facing fist, medium skin tone
-  '1F91B-1F3FD': ['left_facing_fist_tone3'],
-  // 🤛🏾 left-facing fist, medium dark skin tone
-  '1F91B-1F3FE': ['left_facing_fist_tone4'],
-  // 🤛🏿 left-facing fist, dark skin tone
-  '1F91B-1F3FF': ['left_facing_fist_tone5'],
   // 🤜 right-facing fist
   '1F91C': ['right_facing_fist'],
-  // 🤜🏻 right-facing fist, light skin tone
-  '1F91C-1F3FB': ['right_facing_fist_tone1'],
-  // 🤜🏼 right-facing fist, medium light skin tone
-  '1F91C-1F3FC': ['right_facing_fist_tone2'],
-  // 🤜🏽 right-facing fist, medium skin tone
-  '1F91C-1F3FD': ['right_facing_fist_tone3'],
-  // 🤜🏾 right-facing fist, medium dark skin tone
-  '1F91C-1F3FE': ['right_facing_fist_tone4'],
-  // 🤜🏿 right-facing fist, dark skin tone
-  '1F91C-1F3FF': ['right_facing_fist_tone5'],
   // 🤚 raised back of hand
   '1F91A': ['raised_backhand'],
-  // 🤚🏻 raised back of hand, light skin tone
-  '1F91A-1F3FB': ['raised_backhand_tone1'],
-  // 🤚🏼 raised back of hand, medium light skin tone
-  '1F91A-1F3FC': ['raised_backhand_tone2'],
-  // 🤚🏽 raised back of hand, medium skin tone
-  '1F91A-1F3FD': ['raised_backhand_tone3'],
-  // 🤚🏾 raised back of hand, medium dark skin tone
-  '1F91A-1F3FE': ['raised_backhand_tone4'],
-  // 🤚🏿 raised back of hand, dark skin tone
-  '1F91A-1F3FF': ['raised_backhand_tone5'],
   // 👋 waving hand
   '1F44B': ['wave'],
-  // 👋🏻 waving hand, light skin tone
-  '1F44B-1F3FB': ['wave_tone1'],
-  // 👋🏼 waving hand, medium light skin tone
-  '1F44B-1F3FC': ['wave_tone2'],
-  // 👋🏽 waving hand, medium skin tone
-  '1F44B-1F3FD': ['wave_tone3'],
-  // 👋🏾 waving hand, medium dark skin tone
-  '1F44B-1F3FE': ['wave_tone4'],
-  // 👋🏿 waving hand, dark skin tone
-  '1F44B-1F3FF': ['wave_tone5'],
   // 🤟 love-you gesture
   '1F91F': ['love_you_gesture'],
-  // 🤟🏻 love-you gesture, light skin tone
-  '1F91F-1F3FB': ['love_you_gesture_tone1'],
-  // 🤟🏼 love-you gesture, medium light skin tone
-  '1F91F-1F3FC': ['love_you_gesture_tone2'],
-  // 🤟🏽 love-you gesture, medium skin tone
-  '1F91F-1F3FD': ['love_you_gesture_tone3'],
-  // 🤟🏾 love-you gesture, medium dark skin tone
-  '1F91F-1F3FE': ['love_you_gesture_tone4'],
-  // 🤟🏿 love-you gesture, dark skin tone
-  '1F91F-1F3FF': ['love_you_gesture_tone5'],
   // ✍️ writing hand
   '270D': ['writing_hand'],
-  // ✍🏻 writing hand, light skin tone
-  '270D-1F3FB': ['writing_hand_tone1'],
-  // ✍🏼 writing hand, medium light skin tone
-  '270D-1F3FC': ['writing_hand_tone2'],
-  // ✍🏽 writing hand, medium skin tone
-  '270D-1F3FD': ['writing_hand_tone3'],
-  // ✍🏾 writing hand, medium dark skin tone
-  '270D-1F3FE': ['writing_hand_tone4'],
-  // ✍🏿 writing hand, dark skin tone
-  '270D-1F3FF': ['writing_hand_tone5'],
   // 👏 clapping hands
   '1F44F': ['clap'],
-  // 👏🏻 clapping hands, light skin tone
-  '1F44F-1F3FB': ['clap_tone1'],
-  // 👏🏼 clapping hands, medium light skin tone
-  '1F44F-1F3FC': ['clap_tone2'],
-  // 👏🏽 clapping hands, medium skin tone
-  '1F44F-1F3FD': ['clap_tone3'],
-  // 👏🏾 clapping hands, medium dark skin tone
-  '1F44F-1F3FE': ['clap_tone4'],
-  // 👏🏿 clapping hands, dark skin tone
-  '1F44F-1F3FF': ['clap_tone5'],
   // 👐 open hands
   '1F450': ['open_hands'],
-  // 👐🏻 open hands, light skin tone
-  '1F450-1F3FB': ['open_hands_tone1'],
-  // 👐🏼 open hands, medium light skin tone
-  '1F450-1F3FC': ['open_hands_tone2'],
-  // 👐🏽 open hands, medium skin tone
-  '1F450-1F3FD': ['open_hands_tone3'],
-  // 👐🏾 open hands, medium dark skin tone
-  '1F450-1F3FE': ['open_hands_tone4'],
-  // 👐🏿 open hands, dark skin tone
-  '1F450-1F3FF': ['open_hands_tone5'],
   // 🙌 raising hands
   '1F64C': ['raised_hands'],
-  // 🙌🏻 raising hands, light skin tone
-  '1F64C-1F3FB': ['raised_hands_tone1'],
-  // 🙌🏼 raising hands, medium light skin tone
-  '1F64C-1F3FC': ['raised_hands_tone2'],
-  // 🙌🏽 raising hands, medium skin tone
-  '1F64C-1F3FD': ['raised_hands_tone3'],
-  // 🙌🏾 raising hands, medium dark skin tone
-  '1F64C-1F3FE': ['raised_hands_tone4'],
-  // 🙌🏿 raising hands, dark skin tone
-  '1F64C-1F3FF': ['raised_hands_tone5'],
   // 🤲 palms up together
   '1F932': ['palms_up'],
-  // 🤲🏻 palms up together, light skin tone
-  '1F932-1F3FB': ['palms_up_tone1'],
-  // 🤲🏼 palms up together, medium light skin tone
-  '1F932-1F3FC': ['palms_up_tone2'],
-  // 🤲🏽 palms up together, medium skin tone
-  '1F932-1F3FD': ['palms_up_tone3'],
-  // 🤲🏾 palms up together, medium dark skin tone
-  '1F932-1F3FE': ['palms_up_tone4'],
-  // 🤲🏿 palms up together, dark skin tone
-  '1F932-1F3FF': ['palms_up_tone5'],
   // 🙏 folded hands
   '1F64F': ['pray'],
-  // 🙏🏻 folded hands, light skin tone
-  '1F64F-1F3FB': ['pray_tone1'],
-  // 🙏🏼 folded hands, medium light skin tone
-  '1F64F-1F3FC': ['pray_tone2'],
-  // 🙏🏽 folded hands, medium skin tone
-  '1F64F-1F3FD': ['pray_tone3'],
-  // 🙏🏾 folded hands, medium dark skin tone
-  '1F64F-1F3FE': ['pray_tone4'],
-  // 🙏🏿 folded hands, dark skin tone
-  '1F64F-1F3FF': ['pray_tone5'],
   // 🤝 handshake
   '1F91D': ['handshake'],
   // 💅 nail polish
   '1F485': ['nail_care'],
-  // 💅🏻 nail polish, light skin tone
-  '1F485-1F3FB': ['nail_care_tone1'],
-  // 💅🏼 nail polish, medium light skin tone
-  '1F485-1F3FC': ['nail_care_tone2'],
-  // 💅🏽 nail polish, medium skin tone
-  '1F485-1F3FD': ['nail_care_tone3'],
-  // 💅🏾 nail polish, medium dark skin tone
-  '1F485-1F3FE': ['nail_care_tone4'],
-  // 💅🏿 nail polish, dark skin tone
-  '1F485-1F3FF': ['nail_care_tone5'],
   // 👂️ ear
   '1F442': ['ear'],
-  // 👂🏻 ear, light skin tone
-  '1F442-1F3FB': ['ear_tone1'],
-  // 👂🏼 ear, medium light skin tone
-  '1F442-1F3FC': ['ear_tone2'],
-  // 👂🏽 ear, medium skin tone
-  '1F442-1F3FD': ['ear_tone3'],
-  // 👂🏾 ear, medium dark skin tone
-  '1F442-1F3FE': ['ear_tone4'],
-  // 👂🏿 ear, dark skin tone
-  '1F442-1F3FF': ['ear_tone5'],
   // 👃 nose
   '1F443': ['nose'],
-  // 👃🏻 nose, light skin tone
-  '1F443-1F3FB': ['nose_tone1'],
-  // 👃🏼 nose, medium light skin tone
-  '1F443-1F3FC': ['nose_tone2'],
-  // 👃🏽 nose, medium skin tone
-  '1F443-1F3FD': ['nose_tone3'],
-  // 👃🏾 nose, medium dark skin tone
-  '1F443-1F3FE': ['nose_tone4'],
-  // 👃🏿 nose, dark skin tone
-  '1F443-1F3FF': ['nose_tone5'],
   // 👣 footprints
   '1F463': ['footprints'],
   // 👀 eyes
@@ -2944,7 +833,7 @@ export default {
   // 💨 dashing away
   '1F4A8': ['dash'],
   // 💫 dizzy
-  '1F4AB': ['dizzy'],
+  '1F4AB': ['dizzy_star'],
   // 💬 speech balloon
   '1F4AC': ['speech'],
   // 🗨️ left speech bubble
@@ -2986,7 +875,7 @@ export default {
   // 👜 handbag
   '1F45C': ['handbag'],
   // 👝 clutch bag
-  '1F45D': ['pouch', 'clutch_bah'],
+  '1F45D': ['pouch', 'clutch_bag'],
   // 🛍️ shopping bags
   '1F6CD': ['shopping_bags'],
   // 🎒 school backpack
@@ -5227,4 +3116,6 @@ export default {
   '1F3F4-E0067-E0062-E0073-E0063-E0074-E007F': ['flag_gbsct', 'scotland'],
   // 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales
   '1F3F4-E0067-E0062-E0077-E006C-E0073-E007F': ['flag_gbwls', 'wales'],
+  // 🔟 keycap 10
+  '1F51F': ['ten'],
 };

@@ -7,13 +7,14 @@
 import hasProperty from '../helpers/hasProperty';
 import { SKIN_MODIFIER_PATTERN, SEQUENCE_REMOVAL_PATTERN } from '../constants';
 
-import type { UnicodeNamesMap, EmojiGroupMap, EmojiVariationMap } from '../types';
+import type { UnicodeNamesMap, EmojiGroupMap, EmojiVariationMap, ShortcodeMap } from '../types';
 
 export default async function joinMetadataToData(
   emojis: Object,
   names: UnicodeNamesMap,
   groups: EmojiGroupMap,
   variations: EmojiVariationMap,
+  shortcodes: ShortcodeMap,
 ) {
   Object.keys(emojis).forEach((hexcode) => {
     const emoji = emojis[hexcode];
@@ -64,5 +65,8 @@ export default async function joinMetadataToData(
         text: variations[hexcode].text,
       };
     }
+
+    // Pull in the shortcodes
+    emoji.shortcodes = shortcodes[hexcode] || [];
   });
 }

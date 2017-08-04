@@ -19,8 +19,9 @@ import type { CLDRAnnotationMap } from '../types';
 function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): Object {
   const emoji: Object = {
     // Classification
-    hexcode: baseEmoji.hexcode,
     name: baseEmoji.name || baseEmoji.description.toUpperCase(),
+    hexcode: baseEmoji.hexcode,
+    shortcodes: baseEmoji.shortcodes || [],
     // Presentation
     emoji: toUnicode(baseEmoji.hexcode),
     type: baseEmoji.type,
@@ -47,9 +48,13 @@ function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): Object 
 
   // Skin modifications
   if ('modifications' in baseEmoji) {
-    emoji.skins = Object.keys(baseEmoji.modifications).map(skinTone => (
-      createEmoji(baseEmoji.modifications[skinTone], annotations)
-    ));
+    emoji.skins = Object.keys(baseEmoji.modifications).map((skinTone) => {
+      const skin = createEmoji(baseEmoji.modifications[skinTone], annotations);
+
+      skin.shortcodes = emoji.shortcodes.map(code => `${code}_tone${skinTone}`);
+
+      return skin;
+    });
   }
 
   // Annotations
@@ -65,8 +70,6 @@ function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): Object 
       emoji.tags = annotation.tags;
     }
   }
-
-  // TODO shortcode
 
   return emoji;
 }

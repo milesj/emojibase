@@ -99,7 +99,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       });
 
       annotations[hexcode] = {
-        annotation: Array.from(new Set(annos)).join(', '),
+        annotation: annos.join(', '),
         tags: Array.from(new Set(tags)),
       };
     }

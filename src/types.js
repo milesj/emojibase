@@ -37,6 +37,7 @@ export type Emoji = {
   modifications: { [skin: string]: EmojiModification },
   name: string,
   variations: EmojiVariation,
+  shortcodes: string[],
 };
 
 export type EmojiMap = HexcodeMap<Emoji>;
@@ -98,6 +99,8 @@ export type Property = 'Emoji' |
   'Emoji_Keycap_Sequence' |
   'Emoji_Tag_Sequence' |
   'Emoji_ZWJ_Sequence';
+
+export type ShortcodeMap = { [hexcode: string]: string[] };
 
 export type SkinTone = 1 | 2 | 3 | 4 | 5;
 
