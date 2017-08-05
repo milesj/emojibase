@@ -120,10 +120,7 @@ export const TAG_LATIN_SMALL_LETTERS: { [hex: string]: string } = {
 };
 
 // Group and subgroup constants are automatically generated during
-// the `loadOrderAndGroup` loader and parse phase. I'm not 100% positive
-// these numbers are fixed and will not change. I'll need to
-// manually verify the numbers each version release and persist backwards
-// compatibility. Hopefully they don't change...
+// the `loadOrderAndGroup` loader and parse phase.
 
 export const GROUPS = {
   '0': 'smileys-people',
