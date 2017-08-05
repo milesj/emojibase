@@ -1,11 +1,12 @@
 #! /usr/bin/env node
+/* eslint-disable no-console */
 
 const generateData = require('../lib/generators/generateData').default;
 const generateRegex = require('../lib/generators/generateRegex').default;
 const generateVersions = require('../lib/generators/generateVersions').default;
 
 function handleError(error) {
-  console.log(error.message, error.stack);
+  console.error(error.message, error.stack);
 }
 
 process.on('unhandledRejection', handleError);

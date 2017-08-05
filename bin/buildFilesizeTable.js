@@ -1,55 +1,46 @@
 #! /usr/bin/env node
-/**
- * @copyright   2017, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
+/* eslint-disable no-console */
 
-import fs from 'fs';
-import path from 'path';
-import chalk from 'chalk';
-import glob from 'glob';
-import gzip from 'gzip-size';
-import size from 'filesize';
+const fs = require('fs');
+const path = require('path');
+const glob = require('glob');
+const gzip = require('gzip-size');
+const size = require('filesize');
 
-new Promise((resolve, reject) => {
-  glob(path.join(__dirname, '../../{data,regex}/**/*.{js,json}'), (error, files) => {
+function calculatePackage(packageName) {
+  glob(path.resolve(__dirname, `../packages/${packageName}/**/*.{js,json}`), (error, files) => {
     if (error) {
-      reject(error);
-    } else {
-      resolve(files);
+      console.error(error.message, error.stack);
+
+      return;
     }
-  });
-})
-  .then(files => (
-    Promise.all(files.map(file => (
-      new Promise((resolve, reject) => {
-        fs.readFile(file, (error, data) => {
-          if (error) {
-            reject(error);
 
-            return;
-          }
+    const rows = files.map((file) => {
+      const data = fs.readFileSync(file, 'utf8');
 
-          resolve({
-            file: file.replace(`${process.cwd()}/`, ''),
-            size: Buffer.byteLength(data),
-            gzip: gzip.sync(data),
-          });
-        });
-      })
-    )))
-  ))
-  .then((rows) => {
-    console.log('| File | Filesize | Gzipped |');
-    console.log('| --- | --- | --- |');
+      return {
+        file: file.replace(`${process.cwd()}/packages/${packageName}/`, ''),
+        size: Buffer.byteLength(data),
+        gzip: gzip.sync(data),
+      };
+    });
 
     rows.sort((a, b) => a.size - b.size);
 
+    console.log('| File | Filesize | Gzipped |');
+    console.log('| --- | --- | --- |');
+
     rows.forEach((row) => {
+      if (row.file === 'package.json') {
+        return;
+      }
+
       console.log(`| ${row.file} | ${size(row.size)} | ${size(row.gzip)} |`);
     });
-  })
-  .catch((error) => {
-    console.log(chalk.red('Failed to generate filesize table'));
-    console.log(chalk.gray(error.message));
+
+    console.log('');
   });
+}
+
+calculatePackage('emojibase-data');
+calculatePackage('emojibase-regex');
