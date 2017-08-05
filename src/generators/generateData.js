@@ -12,7 +12,7 @@ import readCache from '../helpers/readCache';
 import writeDataset from '../helpers/writeDataset';
 import filterData from '../helpers/filterData';
 import toUnicode from './toUnicode';
-import { SUPPORTED_LOCALES } from '../constants';
+import { SKIN_MODIFIER_PATTERN, SUPPORTED_LOCALES } from '../constants';
 
 import type { CLDRAnnotationMap } from '../types';
 
@@ -46,17 +46,6 @@ function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): Object 
     emoji.text = toUnicode(baseEmoji.variations.text);
   }
 
-  // Skin modifications
-  if ('modifications' in baseEmoji) {
-    emoji.skins = Object.keys(baseEmoji.modifications).map((skinTone) => {
-      const skin = createEmoji(baseEmoji.modifications[skinTone], annotations);
-
-      skin.shortcodes = emoji.shortcodes.map(code => `${code}_tone${skinTone}`);
-
-      return skin;
-    });
-  }
-
   // Annotations
   const hexcodeWithoutModifiers = cleanHexcode(baseEmoji.hexcode); // No ZWJ, selectors
   const annotation = annotations[hexcodeWithoutModifiers];
@@ -69,6 +58,20 @@ function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): Object 
     if (annotation.tags && annotation.tags.length > 0) {
       emoji.tags = annotation.tags;
     }
+  }
+
+  // Skin modifications
+  if ('modifications' in baseEmoji) {
+    emoji.skins = Object.keys(baseEmoji.modifications).map((skinTone) => {
+      const skin = createEmoji(baseEmoji.modifications[skinTone], annotations);
+      const skinHexcode = skin.hexcode.match(SKIN_MODIFIER_PATTERN);
+
+      // Inherit values from the parent
+      skin.annotation = `${emoji.annotation}, ${annotations[skinHexcode].annotation}`;
+      skin.shortcodes = emoji.shortcodes.map(code => `${code}_tone${skinTone}`);
+
+      return skin;
+    });
   }
 
   return emoji;
