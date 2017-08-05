@@ -4,7 +4,9 @@
  * @flow
  */
 
-export default function flattenEmojiData(data: Object[]): Object[] {
+import type { FinalEmoji } from './types';
+
+export default function flattenEmojiData(data: FinalEmoji[]): FinalEmoji[] {
   const emojis = [];
 
   data.forEach((emoji) => {

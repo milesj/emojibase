@@ -1,6 +1,26 @@
 declare module 'emojibase' {
-  declare export function fetchFromCDN(path: string, version: string): Promise<*>;
-  declare export function flattenEmojiData(data: Object[]): Object[];
+  declare export type Gender = 0 | 1; // female, male
+  declare export type Presentation = 0 | 1; // text, emoji
+  declare export type SkinTone = 1 | 2 | 3 | 4 | 5; // light - dark
+  declare export type Emoji = {
+    annotation?: string,
+    emoji: string,
+    gender?: Gender,
+    group?: number,
+    hexcode: string,
+    name?: string,
+    order?: number,
+    shortcodes?: string[],
+    skin?: SkinTone,
+    skins?: Emoji[],
+    subgroup?: number,
+    tags?: string[],
+    text?: string,
+    type?: Presentation,
+  };
+
+  declare export function fetchFromCDN(path: string, version: string): Promise<Emoji[]>;
+  declare export function flattenEmojiData(data: Emoji[]): Emoji[];
   declare export function fromCodepointToUnicode(codepoint: number[]): string;
   declare export function fromHexcodeToCodepoint(hexcode: string, joiner?: string): number[];
   declare export function fromUnicodeToHexcode(unicode: string, strip?: boolean): string;

@@ -4,14 +4,16 @@
  * @flow
  */
 
-export default function extractSubset(data: Object[], format: string): Object[] {
+import type { FinalEmoji } from '../types';
+
+export default function extractSubset(data: FinalEmoji[], format: string): FinalEmoji[] {
   const emojis = [];
 
   data.forEach((datum) => {
     switch (format) {
       case 'compact': {
         const { hexcode, shortcodes, emoji, order, group, annotation, tags, skins } = datum;
-        const nextDatum = {
+        const nextDatum: FinalEmoji = {
           hexcode,
           shortcodes,
           emoji,

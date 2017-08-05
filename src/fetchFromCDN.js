@@ -4,7 +4,12 @@
  * @flow
  */
 
-export default function fetchFromCDN(path: string, version: string = 'latest'): Promise<*> {
+import type { FinalEmoji } from './types';
+
+export default function fetchFromCDN(
+  path: string,
+  version: string = 'latest',
+): Promise<FinalEmoji[]> {
   if (__DEV__) {
     // eslint-disable-next-line
     if (!path || path.slice(-5) !== '.json') {

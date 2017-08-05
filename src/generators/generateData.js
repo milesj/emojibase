@@ -15,9 +15,9 @@ import extractSubset from './extractSubset';
 import toUnicode from './toUnicode';
 import { SKIN_MODIFIER_PATTERN, SUPPORTED_LOCALES } from '../constants';
 
-import type { CLDRAnnotationMap } from '../types';
+import type { CLDRAnnotationMap, FinalEmoji } from '../types';
 
-function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): Object {
+function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): FinalEmoji {
   const emoji: Object = {
     // Classification
     name: baseEmoji.name || baseEmoji.description.toUpperCase(),
@@ -68,7 +68,8 @@ function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): Object 
       const skinHexcode = skin.hexcode.match(SKIN_MODIFIER_PATTERN);
 
       // Inherit values from the parent
-      skin.annotation = `${emoji.annotation}, ${annotations[skinHexcode].annotation}`;
+      // $FlowIgnore We know the modifier hexcode exists
+      skin.annotation = `${emoji.annotation}, ${annotations[skinHexcode[0]].annotation}`;
       skin.shortcodes = emoji.shortcodes.map(code => `${code}_tone${skinTone}`);
 
       return skin;
@@ -92,7 +93,7 @@ export default async function generateData() {
     ));
 
     // Sort by order
-    emojis.sort((a, b) => a.order - b.order);
+    emojis.sort((a, b) => (a.order || 0) - (b.order || 0));
 
     writeDataset(`${locale}/data.json`, emojis);
     writeDataset(`${locale}/compact.json`, extractSubset(emojis, 'compact'));

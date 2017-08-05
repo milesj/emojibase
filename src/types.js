@@ -84,6 +84,23 @@ export type EmojiVariation = {
 
 export type EmojiVariationMap = HexcodeMap<EmojiVariation>;
 
+export type FinalEmoji = {
+  annotation?: string,
+  emoji: string,
+  gender?: Gender,
+  group?: number,
+  hexcode: string,
+  name?: string,
+  order?: number,
+  shortcodes?: string[],
+  skin?: SkinTone,
+  skins?: FinalEmoji[],
+  subgroup?: number,
+  tags?: string[],
+  text?: string,
+  type?: Presentation,
+};
+
 export type Gender = 0 | 1;
 
 export type HexcodeMap<T> = { [hexcode: string]: T };
