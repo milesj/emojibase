@@ -64,7 +64,7 @@ function createRegexTrie(data: Object, display: string = 'both') {
   });
 
   writeRegex(`${fileName}.js`, createRegexPattern(codePointGroups, display));
-  writeRegex(`unicode/${fileName}.js`, createRegexPattern(codePointGroups, display, true));
+  writeRegex(`unicode/${fileName}.js`, createRegexPattern(codePointGroups, display, true), 'u');
 
   return codePointGroups;
 }

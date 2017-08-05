@@ -10,11 +10,11 @@ import writeFile from './writeFile';
 
 const REGEX_FOLDER = path.resolve(__dirname, '../../packages/emojibase-regex');
 
-export default function writeRegex(name: string, pattern: *) {
+export default function writeRegex(name: string, pattern: *, flags: string = '') {
   writeFile(
     REGEX_FOLDER,
     name,
-    `module.exports = /${pattern}/;\n`,
+    `module.exports = /${pattern}/${flags};\n`,
   );
 
   log.info('regex', `Creating ${name} regex pattern`);

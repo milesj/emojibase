@@ -1,7 +1,7 @@
 import EMOJI_PATTERN from '../packages/emojibase-regex';
-// import EMOJI_UNICODE_PATTERN from '../packages/emojibase-regex/unicode';
+import EMOJI_UNICODE_PATTERN from '../packages/emojibase-regex/unicode';
 // import EMOJI_UNICODE_PROPERTY_PATTERN from '../packages/emojibase-regex/property';
-// import SHORTCODE_PATTERN from '../packages/emojibase-regex/shortcode';
+import SHORTCODE_PATTERN from '../packages/emojibase-regex/shortcode';
 import { loadData } from './helpers';
 
 const PATTERN_DESCRIPTIONS = [
@@ -11,8 +11,6 @@ const PATTERN_DESCRIPTIONS = [
 ];
 
 describe('regex', () => {
-  // const SHORTCODE_PATTERN_GLOBAL = new RegExp(SHORTCODE_PATTERN.source, 'g');
-
   loadData().forEach((emoji) => {
     const unicode = emoji.emoji || emoji.text;
 
@@ -21,9 +19,9 @@ describe('regex', () => {
       return;
     }
 
-    [EMOJI_PATTERN].forEach((pattern, i) => {
+    [EMOJI_PATTERN, EMOJI_UNICODE_PATTERN].forEach((pattern, i) => {
       describe(PATTERN_DESCRIPTIONS[i], () => {
-        const globalPattern = new RegExp(pattern.source, 'g');
+        const globalPattern = new RegExp(pattern.source, `g${pattern.flags}`);
 
         it(`matches unicode by itself for ${unicode}`, () => {
           const match = unicode.match(pattern);
@@ -49,23 +47,24 @@ describe('regex', () => {
       });
     });
 
-    // shortcodes.forEach((name) => {
-    //   // Does not include colons by default
-    //   const shortcode = `:${name}:`;
-    //
-    //   it(`matches shortcode by itself for ${shortcode}`, () => {
-    //     expect(shortcode).toMatch(SHORTCODE_PATTERN);
-    //   });
-    //
-    //   it(`matches shortcode in the middle of a string for ${shortcode}`, () => {
-    //     expect(`In the middle ${shortcode} of a string.`).toMatch(SHORTCODE_PATTERN);
-    //   });
-    //
-    //   it(`matches multiple shortcode for ${shortcode}`, () => {
-    //     const matches = `One ${shortcode} Two ${shortcode} Three ${shortcode}.`.match(SHORTCODE_PATTERN_GLOBAL);
-    //
-    //     expect(matches.length).toBe(3);
-    //   });
-    // });
+    emoji.shortcodes.forEach((code) => {
+      // Does not include colons by default
+      const shortcode = `:${code}:`;
+
+      it(`matches shortcode by itself for ${shortcode}`, () => {
+        expect(shortcode).toMatch(SHORTCODE_PATTERN);
+      });
+
+      it(`matches shortcode in the middle of a string for ${shortcode}`, () => {
+        expect(`In the middle ${shortcode} of a string.`).toMatch(SHORTCODE_PATTERN);
+      });
+
+      it(`matches multiple shortcode for ${shortcode}`, () => {
+        const globalPattern = new RegExp(SHORTCODE_PATTERN.source, 'g');
+        const matches = `One ${shortcode} Two ${shortcode} Three ${shortcode}.`.match(globalPattern);
+
+        expect(matches.length).toBe(3);
+      });
+    });
   });
 });
