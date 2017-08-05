@@ -96,7 +96,7 @@ export default async function generateData() {
   // Generate metadata and specialized datasets
   const unicode = new Set();
   const hexcodes = new Set();
-  // const shortcodes = new Set(); TODO
+  const shortcodes = new Set();
 
   const addMetadata = (hexcode) => {
     unicode.add(toUnicode(hexcode));
@@ -104,7 +104,7 @@ export default async function generateData() {
   };
 
   Object.keys(filteredData).forEach((hexcode) => {
-    const { modifications, variations } = filteredData[hexcode];
+    const { modifications, variations, shortcodes: codes } = filteredData[hexcode];
 
     addMetadata(hexcode);
 
@@ -118,12 +118,16 @@ export default async function generateData() {
         addMetadata(modifications[skinTone].hexcode);
       });
     }
+
+    codes.forEach((code) => {
+      shortcodes.add(code);
+    });
   });
 
   writeDataset('meta/groups.json', readCache('group-hierarchy.json'));
   writeDataset('meta/unicode.json', unicode);
   writeDataset('meta/hexcodes.json', hexcodes);
-  // writeDataset('meta/shortcodes.json', shortcodes);
+  writeDataset('meta/shortcodes.json', shortcodes);
 
   log.success('data', 'Generated emoji datasets');
 }
