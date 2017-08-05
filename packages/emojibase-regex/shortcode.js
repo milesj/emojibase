@@ -1,1 +1,1 @@
-module.exports = /:[-+\w]+:/;
+module.exports = /:[-+_a-z0-9]+:/;

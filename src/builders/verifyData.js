@@ -25,7 +25,7 @@ export default function verifyData(emojis: EmojiMap): EmojiMap {
     const errors = [];
 
     // Skip modifiers and components
-    if (hasProperty(emoji.property, ['Emoji_Modifier', 'Emoji_Component', 'Emoji_Keycap_Sequence'])) {
+    if (hasProperty(emoji.property, ['Emoji_Modifier', 'Emoji_Component'])) {
       return;
     }
 

@@ -12,14 +12,23 @@
  *
  *  - Animals depicted from the side use the animal name,
  *    while animals depicted with a head, or a face,
- *    use the animal name suffixed with "_face".
+ *    must use the animal name suffixed with "_face".
+ *
+ *  - Japenese specific emoji must be prefixed with "jp_".
+ *
+ *  - Specifiers, like color or size, must be used as a
+ *    prefix. For example, "small_", or "red_".
+ *
+ *  - Use a more descriptive term over the annotation if
+ *    applicable. For example, "storm" over the annotation
+ *    "cloud with lightning and rain".
  */
 
 module.exports = {
   // 😀 grinning face
   '1F600': ['grin'],
   // 😁 grinning face with smiling eyes
-  '1F601': ['happy_grin'],
+  '1F601': ['cheesy_grin'],
   // 😂 face with tears of joy
   '1F602': ['joy'],
   // 🤣 rolling on the floor laughing
@@ -31,7 +40,7 @@ module.exports = {
   // 😅 smiling face with open mouth & cold sweat
   '1F605': ['sweat_smile'],
   // 😆 smiling face with open mouth & closed eyes
-  '1F606': ['laughing'],
+  '1F606': ['lol', 'laughing'],
   // 😉 winking face
   '1F609': ['wink'],
   // 😊 smiling face with smiling eyes
@@ -185,23 +194,23 @@ module.exports = {
   // 🤓 nerd face
   '1F913': ['nerd'],
   // 😈 smiling face with horns
-  '1F608': ['smiling_imp'],
+  '1F608': ['imp'],
   // 👿 angry face with horns
-  '1F47F': ['imp'],
+  '1F47F': ['angry_imp'],
   // 👹 ogre
-  '1F479': ['japanese_ogre'],
+  '1F479': ['ogre'],
   // 👺 goblin
-  '1F47A': ['japanese_goblin'],
+  '1F47A': ['goblin'],
   // 💀 skull
   '1F480': ['skull'],
   // ☠️ skull and crossbones
-  '2620': ['skull_crossbones'],
+  '2620': ['crossbones'],
   // 👻 ghost
   '1F47B': ['ghost'],
   // 👽️ alien
   '1F47D': ['alien'],
   // 👾 alien monster
-  '1F47E': ['space_invader'],
+  '1F47E': ['alien_monster', 'space_invader'],
   // 🤖 robot face
   '1F916': ['robot'],
   // 💩 pile of poo
@@ -731,9 +740,9 @@ module.exports = {
   // 👌 OK hand
   '1F44C': ['ok_hand'],
   // 👍️ thumbs up
-  '1F44D': ['thumbsup', '+1'],
+  '1F44D': ['thumbsup', '+1', 'yes'],
   // 👎️ thumbs down
-  '1F44E': ['thumbsdown', '-1'],
+  '1F44E': ['thumbsdown', '-1', 'no'],
   // ✊ raised fist
   '270A': ['fist'],
   // 👊 oncoming fist
@@ -1531,13 +1540,13 @@ module.exports = {
   // 🛵 motor scooter
   '1F6F5': ['motor_scooter'],
   // 🚏 bus stop
-  '1F68F': ['busstop'],
+  '1F68F': ['bus_stop'],
   // 🛣️ motorway
   '1F6E3': ['motorway'],
   // 🛤️ railway track
   '1F6E4': ['railway_track'],
   // ⛽️ fuel pump
-  '26FD': ['fuelpump'],
+  '26FD': ['fuel_pump'],
   // 🚨 police car light
   '1F6A8': ['rotating_light', 'police_light'],
   // 🚥 horizontal traffic light
@@ -1707,21 +1716,21 @@ module.exports = {
   // ⛅️ sun behind cloud
   '26C5': ['partly_sunny'],
   // ⛈️ cloud with lightning and rain
-  '26C8': ['thunder_cloud_rain'],
+  '26C8': ['storm'],
   // 🌤️ sun behind small cloud
-  '1F324': ['white_sun_small_cloud'],
+  '1F324': ['overcast'],
   // 🌥️ sun behind large cloud
-  '1F325': ['white_sun_cloud'],
+  '1F325': ['cloudy'],
   // 🌦️ sun behind rain cloud
-  '1F326': ['white_sun_rain_cloud'],
+  '1F326': ['sunny_rain_cloud'],
   // 🌧️ cloud with rain
-  '1F327': ['cloud_rain'],
+  '1F327': ['rain_cloud'],
   // 🌨️ cloud with snow
-  '1F328': ['cloud_snow'],
+  '1F328': ['snow_cloud'],
   // 🌩️ cloud with lightning
-  '1F329': ['cloud_lightning'],
+  '1F329': ['lightning_cloud'],
   // 🌪️ tornado
-  '1F32A': ['cloud_tornado'],
+  '1F32A': ['tornado'],
   // 🌫️ fog
   '1F32B': ['fog'],
   // 🌬️ wind face
@@ -1923,7 +1932,7 @@ module.exports = {
   // 🥁 drum
   '1F941': ['drum'],
   // 📱 mobile phone
-  '1F4F1': ['mobile'],
+  '1F4F1': ['mobile', 'iphone', 'android'],
   // 📲 mobile phone with arrow
   '1F4F2': ['mobile_calling'],
   // ☎️ telephone
@@ -2153,7 +2162,7 @@ module.exports = {
   // ⚒️ hammer and pick
   '2692': ['hammer_pick'],
   // 🛠️ hammer and wrench
-  '1F6E0': ['tools'],
+  '1F6E0': ['tools', 'hammer_wrench'],
   // 🗡️ dagger
   '1F5E1': ['dagger'],
   // ⚔️ crossed swords
@@ -2269,9 +2278,9 @@ module.exports = {
   // ↕️ up-down arrow
   '2195': ['arrow_up_down'],
   // ↔️ left-right arrow
-  '2194': ['left_right_arrow'],
+  '2194': ['arrow_left_right'],
   // ↩️ right arrow curving left
-  '21A9': ['leftwards_arrow_hook'],
+  '21A9': ['arrow_left_hook'],
   // ↪️ left arrow curving right
   '21AA': ['arrow_right_hook'],
   // ⤴️ right arrow curving up
@@ -2279,9 +2288,9 @@ module.exports = {
   // ⤵️ right arrow curving down
   '2935': ['arrow_heading_down'],
   // 🔃 clockwise vertical arrows
-  '1F503': ['arrows_clockwise'],
+  '1F503': ['clockwise'],
   // 🔄 anticlockwise arrows button
-  '1F504': ['arrows_counterclockwise'],
+  '1F504': ['counter_clockwise'],
   // 🔙 BACK arrow
   '1F519': ['back'],
   // 🔚 END arrow
@@ -2347,13 +2356,13 @@ module.exports = {
   // 🔁 repeat button
   '1F501': ['repeat'],
   // 🔂 repeat single button
-  '1F502': ['repeat_one'],
+  '1F502': ['repeat_single'],
   // ▶️ play button
   '25B6': ['play'],
   // ⏩️ fast-forward button
   '23E9': ['fast_forward'],
   // ⏭️ next track button
-  '23ED': ['track_next'],
+  '23ED': ['next_track'],
   // ⏯️ play or pause button
   '23EF': ['play_pause'],
   // ◀️ reverse button
@@ -2361,15 +2370,15 @@ module.exports = {
   // ⏪️ fast reverse button
   '23EA': ['rewind'],
   // ⏮️ last track button
-  '23EE': ['track_previous'],
+  '23EE': ['previous_track'],
   // 🔼 up button
-  '1F53C': ['up_arrow'],
+  '1F53C': ['up_button'],
   // ⏫ fast up button
-  '23EB': ['fast_up_arrow'],
+  '23EB': ['fast_up_button'],
   // 🔽 down button
-  '1F53D': ['down_arrow'],
+  '1F53D': ['down_button'],
   // ⏬ fast down button
-  '23EC': ['fast_down_arrow'],
+  '23EC': ['fast_down_button'],
   // ⏸️ pause button
   '23F8': ['pause'],
   // ⏹️ stop button
@@ -2411,7 +2420,7 @@ module.exports = {
   // ✅ white heavy check mark
   '2705': ['white_check_mark'],
   // ☑️ ballot box with check
-  '2611': ['ballot_box_check'],
+  '2611': ['checked_ballot'],
   // ✔️ heavy check mark
   '2714': ['check_mark'],
   // ✖️ heavy multiplication x
@@ -2471,11 +2480,11 @@ module.exports = {
   // 🔤 input latin letters
   '1F524': ['abc'],
   // 🅰️ A button (blood type)
-  '1F170': ['a'],
+  '1F170': ['a_blood'],
   // 🆎 AB button (blood type)
-  '1F18E': ['ab'],
+  '1F18E': ['ab_blood'],
   // 🅱️ B button (blood type)
-  '1F171': ['b'],
+  '1F171': ['b_blood'],
   // 🆑 CL button
   '1F191': ['cl'],
   // 🆒 COOL button
@@ -2493,11 +2502,11 @@ module.exports = {
   // 🆖 NG button
   '1F196': ['ng'],
   // 🅾️ O button (blood type)
-  '1F17E': ['o2'],
+  '1F17E': ['o_blood'],
   // 🆗 OK button
   '1F197': ['ok'],
   // 🅿️ P button
-  '1F17F': ['parking'],
+  '1F17F': ['p'],
   // 🆘 SOS button
   '1F198': ['sos'],
   // 🆙 UP! button
@@ -2535,9 +2544,9 @@ module.exports = {
   // ㊙️ Japanese “secret” button
   '3299': ['jp_secret'],
   // 🈺 Japanese “open for business” button
-  '1F23A': ['open_for_business'],
+  '1F23A': ['jp_open_for_business'],
   // 🈵 Japanese “no vacancy” button
-  '1F235': ['no_vacancy'],
+  '1F235': ['jp_no_vacancy'],
   // ▪️ black small square
   '25AA': ['small_black_square'],
   // ▫️ white small square
@@ -2563,9 +2572,9 @@ module.exports = {
   // 🔹 small blue diamond
   '1F539': ['small_blue_diamond'],
   // 🔺 red triangle pointed up
-  '1F53A': ['small_red_triangle'],
+  '1F53A': ['up_red_triangle'],
   // 🔻 red triangle pointed down
-  '1F53B': ['small_red_triangle_down'],
+  '1F53B': ['down_red_triangle'],
   // 💠 diamond with a dot
   '1F4A0': ['diamond_dot'],
   // 🔘 radio button
@@ -3116,6 +3125,54 @@ module.exports = {
   '1F3F4-E0067-E0062-E0073-E0063-E0074-E007F': ['flag_gbsct', 'scotland'],
   // 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales
   '1F3F4-E0067-E0062-E0077-E006C-E0073-E007F': ['flag_gbwls', 'wales'],
-  // 🔟 keycap 10
+  // asterisk
+  '002A': ['base_asterisk'],
+  // number sign
+  '0023': ['base_hash'],
+  // digit 0
+  '0030': ['base_zero'],
+  // digit 1
+  '0031': ['base_one'],
+  // digit 2
+  '0032': ['base_two'],
+  // digit 3
+  '0033': ['base_three'],
+  // digit 4
+  '0034': ['base_four'],
+  // digit 5
+  '0035': ['base_five'],
+  // digit 6
+  '0036': ['base_six'],
+  // digit 7
+  '0037': ['base_seven'],
+  // digit 8
+  '0038': ['base_eight'],
+  // digit 9
+  '0039': ['base_nine'],
+  // 🔟 digit 10
   '1F51F': ['ten'],
+  // *️⃣ combining enclosing keycap asterisk
+  '002A-FE0F-20E3': ['asterisk'],
+  // #️⃣ combining enclosing keycap number sign
+  '0023-FE0F-20E3': ['hash'],
+  // 0️⃣ combining enclosing keycap 0
+  '0030-FE0F-20E3': ['zero'],
+  // 1️⃣ combining enclosing keycap 1
+  '0031-FE0F-20E3': ['one'],
+  // 2️⃣ combining enclosing keycap 2
+  '0032-FE0F-20E3': ['two'],
+  // 3️⃣ combining enclosing keycap 3
+  '0033-FE0F-20E3': ['three'],
+  // 4️⃣ combining enclosing keycap 4
+  '0034-FE0F-20E3': ['four'],
+  // 5️⃣ combining enclosing keycap 5
+  '0035-FE0F-20E3': ['five'],
+  // 6️⃣ combining enclosing keycap 6
+  '0036-FE0F-20E3': ['six'],
+  // 7️⃣ combining enclosing keycap 7
+  '0037-FE0F-20E3': ['seven'],
+  // 8️⃣ combining enclosing keycap 8
+  '0038-FE0F-20E3': ['eight'],
+  // 9️⃣ combining enclosing keycap 9
+  '0039-FE0F-20E3': ['nine'],
 };
