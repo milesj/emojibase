@@ -4,16 +4,17 @@
   "version": "0.12.0",
   "description": "Evergreen emoji datasets and regex patterns.",
   "scripts": {
-    "babel": "build-lib ./src -d ./lib && cp ./lib/*.js ./packages/emojibase/lib/",
+    "babel": "build-lib ./src -d ./lib",
+    "build": "cp ./lib/*.js ./packages/emojibase/lib/",
     "coverage": "run-coverage",
     "eslint": "run-linter ./bin ./src ./tests",
     "flow": "type-check",
     "generate": "node ./bin/generateEmoji.js",
-    "generate:table": "node ./bin/buildFilesizeTable.js",
+    "table": "node ./bin/buildFilesizeTable.js",
     "jest": "NODE_ENV=test run-tests",
     "posttest": "yarn run flow",
     "pretest": "yarn run eslint",
-    "preversion": "yarn test && yarn run babel",
+    "preversion": "yarn test && yarn run babel && yarn run build",
     "test": "yarn run jest"
   },
   "repository": {

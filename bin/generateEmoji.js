@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-/* eslint-disable no-console */
+/* eslint-disable no-console, import/no-unresolved */
 
 const generateData = require('../lib/generators/generateData').default;
 const generateRegex = require('../lib/generators/generateRegex').default;
