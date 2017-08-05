@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@milesj/build-tool-config@^0.17.4":
-  version "0.17.4"
-  resolved "https://registry.yarnpkg.com/@milesj/build-tool-config/-/build-tool-config-0.17.4.tgz#3c3661f90e2668a669aabe73b5226cd837a5290c"
+"@milesj/build-tool-config@^0.17.5":
+  version "0.17.5"
+  resolved "https://registry.yarnpkg.com/@milesj/build-tool-config/-/build-tool-config-0.17.5.tgz#86ccc146d6810be20e95bbf855cc6ff0b3660c28"
   dependencies:
     babel-cli "^6.24.1"
     babel-eslint "^7.2.0"
@@ -29,7 +29,7 @@
     eslint-plugin-promise "^3.5.0"
     eslint-plugin-react "^7.1.0"
     eslint-plugin-unicorn "^2.1.2"
-    flow-bin "^0.51.1"
+    flow-bin "^0.52.0"
     jest "^20.0.4"
     json5 "^0.5.1"
     react "^15.6.1"
@@ -38,7 +38,7 @@
     rimraf "^2.6.1"
     rollup "^0.45.2"
     rollup-plugin-babel "^2.7.1"
-    rollup-plugin-commonjs "^8.0.2"
+    rollup-plugin-commonjs "^8.1.0"
     rollup-plugin-json "^2.3.0"
     rollup-plugin-node-resolve "^3.0.0"
     rollup-plugin-replace "^1.1.1"
@@ -1950,9 +1950,9 @@ flat-cache@^1.2.1:
     graceful-fs "^4.1.2"
     write "^0.2.1"
 
-flow-bin@^0.51.1:
-  version "0.51.1"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.51.1.tgz#7929c6f0a94e765429fcb2ee6e468278faa9c732"
+flow-bin@^0.52.0:
+  version "0.52.0"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.52.0.tgz#b6d9abe8bcd1ee5c62df386451a4e2553cadc3a3"
 
 for-in@^1.0.1:
   version "1.0.2"
@@ -3773,9 +3773,9 @@ rollup-plugin-babel@^2.7.1:
     object-assign "^4.1.0"
     rollup-pluginutils "^1.5.0"
 
-rollup-plugin-commonjs@^8.0.2:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-commonjs/-/rollup-plugin-commonjs-8.0.2.tgz#98b1589bfe32a6c0f67790b60c0b499972afed89"
+rollup-plugin-commonjs@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-commonjs/-/rollup-plugin-commonjs-8.1.0.tgz#8ac9a87e6ea4c0d136e3e0e25ef41058957622b0"
   dependencies:
     acorn "^4.0.1"
     estree-walker "^0.3.0"
