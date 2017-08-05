@@ -4,10 +4,10 @@
  * @flow
  */
 
-export default function fetchFromCDN(dataset: string, version: string = 'latest'): Promise<*> {
+export default function fetchFromCDN(path: string, version: string = 'latest'): Promise<*> {
   if (__DEV__) {
     // eslint-disable-next-line
-    if (!dataset || dataset.slice(-5) !== '.json') {
+    if (!path || path.slice(-5) !== '.json') {
       throw new Error('A valid JSON dataset is required to fetch.');
     }
 
@@ -16,7 +16,8 @@ export default function fetchFromCDN(dataset: string, version: string = 'latest'
     }
   }
 
-  return fetch(`https://cdn.jsdelivr.net/npm/emojibase@${version}/data/${dataset}`, {
+  // eslint-disable-next-line no-undef
+  return fetch(`https://cdn.jsdelivr.net/npm/emojibase-data@${version}/${path}`, {
     mode: 'cors',
     redirect: 'error',
     credentials: 'omit',

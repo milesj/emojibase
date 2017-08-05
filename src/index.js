@@ -5,11 +5,13 @@
  */
 
 import fetchFromCDN from './fetchFromCDN';
-import fromHexToCodepoint from './fromHexToCodepoint';
-import fromUnicodeToHex from './fromUnicodeToHex';
+import fromCodepointToUnicode from './fromCodepointToUnicode';
+import fromHexcodeToCodepoint from './fromHexcodeToCodepoint';
+import fromUnicodeToHexcode from './fromUnicodeToHexcode';
 
 export {
   fetchFromCDN,
-  fromHexToCodepoint,
-  fromUnicodeToHex,
+  fromCodepointToUnicode,
+  fromHexcodeToCodepoint,
+  fromUnicodeToHexcode,
 };
