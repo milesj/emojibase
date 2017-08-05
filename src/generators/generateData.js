@@ -11,6 +11,7 @@ import log from '../helpers/log';
 import readCache from '../helpers/readCache';
 import writeDataset from '../helpers/writeDataset';
 import filterData from '../helpers/filterData';
+import extractSubset from './extractSubset';
 import toUnicode from './toUnicode';
 import { SKIN_MODIFIER_PATTERN, SUPPORTED_LOCALES } from '../constants';
 
@@ -94,6 +95,7 @@ export default async function generateData() {
     emojis.sort((a, b) => a.order - b.order);
 
     writeDataset(`${locale}/data.json`, emojis);
+    writeDataset(`${locale}/compact.json`, extractSubset(emojis, 'compact'));
   });
 
   // Generate metadata and specialized datasets
