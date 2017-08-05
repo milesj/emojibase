@@ -42,15 +42,15 @@ export default function verifyData(emojis: EmojiMap): EmojiMap {
       Object.keys(emoji.modifications).forEach((skinTone) => {
         const mod = emoji.modifications[skinTone];
 
-        if (parseFloat(skinTone) !== mod.skin) {
-          errors.push(`Mismatch skin modification. Expected ${mod.skin}, found ${skinTone}.`);
+        if (parseFloat(skinTone) !== mod.tone) {
+          errors.push(`Mismatch skin tone modification. Expected ${mod.tone}, found ${skinTone}.`);
         }
 
         count += 1;
       });
 
       if (count !== 5) {
-        errors.push(`Invalid number of skin modifications. Expect 5, found ${count}.`);
+        errors.push(`Invalid number of skin tone modifications. Expect 5, found ${count}.`);
       }
     }
 

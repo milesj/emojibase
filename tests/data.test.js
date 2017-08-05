@@ -3,7 +3,7 @@ import { loadData } from './helpers';
 
 describe('data', () => {
   // Skin modifications and specific sequences are missing specific
-  // fields, like tags, annotation, and more. And since we flattened
+  // fields, like tags, annotations, and more. And since we flattened
   // our data, we'll need to wrap tests in conditional blocks.
   loadData().forEach((emoji) => {
     const unicode = emoji.emoji || emoji.text;

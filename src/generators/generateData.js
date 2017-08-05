@@ -37,8 +37,8 @@ function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): FinalEm
     emoji.gender = baseEmoji.gender;
   }
 
-  if ('skin' in baseEmoji && baseEmoji.skin !== null) {
-    emoji.skin = baseEmoji.skin;
+  if ('tone' in baseEmoji && baseEmoji.tone !== null) {
+    emoji.tone = baseEmoji.tone;
   }
 
   // Presentation variations

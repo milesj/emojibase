@@ -34,7 +34,7 @@ export type Emoji = {
   order: number,
   subgroup: number,
   // Metadata
-  modifications: { [skin: string]: EmojiModification },
+  modifications: { [tone: string]: EmojiModification },
   name: string,
   variations: EmojiVariation,
   shortcodes: string[],
@@ -73,7 +73,7 @@ export type EmojiSourceMap = HexcodeMap<EmojiSource>;
 export type EmojiModification = {
   hexcode: string,
   name: string,
-  skin: SkinTone,
+  tone: SkinTone,
 };
 
 export type EmojiVariation = {
@@ -93,11 +93,11 @@ export type FinalEmoji = {
   name?: string,
   order?: number,
   shortcodes?: string[],
-  skin?: SkinTone,
   skins?: FinalEmoji[],
   subgroup?: number,
   tags?: string[],
   text?: string,
+  tone?: SkinTone,
   type?: Presentation,
 };
 

@@ -25,7 +25,7 @@ import type { SkinTone } from '../types';
 
 const SKIN_HEXCODE_PATTERN: RegExp = new RegExp(`-(${SKIN_MODIFIER_PATTERN.source})`, 'g');
 
-const SKIN_MODIFIERS: { [skin: SkinTone]: string } = {
+const SKIN_MODIFIERS: { [tone: SkinTone]: string } = {
   [LIGHT_SKIN]: LIGHT_SKIN_MODIFIER, // 1
   [MEDIUM_LIGHT_SKIN]: MEDIUM_LIGHT_SKIN_MODIFIER, // 2
   [MEDIUM_SKIN]: MEDIUM_SKIN_MODIFIER, // 3
@@ -37,19 +37,19 @@ export default function joinModifiersToData(emojis: Object) {
   Object.keys(emojis).forEach((hexcode) => {
     const emoji = emojis[hexcode];
 
-    // Handle appending a skin modification
+    // Handle appending a skin tone modification
     const addModification = (parent, mod) => {
       if (!parent.modifications) {
         parent.modifications = {};
       }
 
-      if (parent.modifications[mod.skin]) {
-        parent.modifications[mod.skin] = {
-          ...parent.modifications[mod.skin],
+      if (parent.modifications[mod.tone]) {
+        parent.modifications[mod.tone] = {
+          ...parent.modifications[mod.tone],
           ...mod,
         };
       } else {
-        parent.modifications[mod.skin] = mod;
+        parent.modifications[mod.tone] = mod;
       }
     };
 
@@ -72,7 +72,7 @@ export default function joinModifiersToData(emojis: Object) {
 
       addModification(parentEmoji, {
         ...emoji,
-        skin: extractSkinTone(emoji.name),
+        tone: extractSkinTone(emoji.name),
       });
 
       // Remove the modification from the root
@@ -87,7 +87,7 @@ export default function joinModifiersToData(emojis: Object) {
         addModification(emoji, {
           name: `${emoji.name}, ${mod.name}`,
           hexcode: `${emoji.hexcode}-${mod.hexcode}`,
-          skin: parseFloat(skinTone),
+          tone: parseFloat(skinTone),
         });
       });
     }
