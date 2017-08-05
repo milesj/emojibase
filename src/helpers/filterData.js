@@ -5,11 +5,10 @@
  */
 
 import hasProperty from '../helpers/hasProperty';
-import isObject from '../helpers/isObject';
 
 import type { EmojiMap } from '../types';
 
-export default function flattenAndFilterData(data: EmojiMap, flatten: boolean = false): EmojiMap {
+export default function filterData(data: EmojiMap): EmojiMap {
   const cleaned = {};
 
   Object.keys(data).forEach((hexcode) => {
@@ -22,15 +21,6 @@ export default function flattenAndFilterData(data: EmojiMap, flatten: boolean = 
     }
 
     cleaned[hexcode] = emoji;
-
-    // Move modifications up to the root
-    if (flatten && isObject(emoji.modifications)) {
-      Object.keys(emoji.modifications).forEach((skinTone) => {
-        const mod = emoji.modifications[skinTone];
-
-        cleaned[mod.hexcode] = mod;
-      });
-    }
   });
 
   return cleaned;

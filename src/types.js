@@ -62,6 +62,14 @@ export type EmojiGroup = {
 
 export type EmojiGroupMap = HexcodeMap<EmojiGroup>;
 
+export type EmojiSource = {
+  hexcode: string,
+  group: number,
+  subgroup: number,
+};
+
+export type EmojiSourceMap = HexcodeMap<EmojiSource>;
+
 export type EmojiModification = {
   hexcode: string,
   name: string,

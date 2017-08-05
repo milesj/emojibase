@@ -10,7 +10,7 @@ import cleanHexcode from '../helpers/cleanHexcode';
 import log from '../helpers/log';
 import readCache from '../helpers/readCache';
 import writeDataset from '../helpers/writeDataset';
-import flattenAndFilterData from './flattenAndFilterData';
+import filterData from '../helpers/filterData';
 import toUnicode from './toUnicode';
 import { SUPPORTED_LOCALES } from '../constants';
 
@@ -78,7 +78,7 @@ export default async function generateData() {
   log.title('data', 'Generating emoji datasets');
 
   const data = await buildEmojiData();
-  const filteredData = flattenAndFilterData(data);
+  const filteredData = filterData(data);
 
   // Generate datasets for each locale
   SUPPORTED_LOCALES.forEach(async (locale) => {

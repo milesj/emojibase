@@ -12,7 +12,8 @@ import buildEmojiData from '../builders/buildEmojiData';
 import cleanHexcode from '../helpers/cleanHexcode';
 import log from '../helpers/log';
 import writeRegex from '../helpers/writeRegex';
-import flattenAndFilterData from './flattenAndFilterData';
+import filterData from '../helpers/filterData';
+import flattenData from '../helpers/flattenData';
 import toUnicode from './toUnicode';
 
 function createRegexPattern(
@@ -72,7 +73,7 @@ function createRegexTrie(data: Object, display: string = 'both') {
 export default async function generateRegex() {
   log.title('regex', 'Generating regex patterns');
 
-  const data = flattenAndFilterData(await buildEmojiData(), true);
+  const data = flattenData(filterData(await buildEmojiData()));
 
   createRegexTrie(data, 'both');
   createRegexTrie(data, 'emoji');
