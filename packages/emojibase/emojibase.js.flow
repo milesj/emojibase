@@ -1,5 +1,6 @@
 declare module 'emojibase' {
   declare export function fetchFromCDN(path: string, version: string): Promise<*>;
+  declare export function flattenEmojiData(data: Object[]): Object[];
   declare export function fromCodepointToUnicode(codepoint: number[]): string;
   declare export function fromHexcodeToCodepoint(hexcode: string, joiner?: string): number[];
   declare export function fromUnicodeToHexcode(unicode: string, strip?: boolean): string;
