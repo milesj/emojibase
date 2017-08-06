@@ -19,9 +19,27 @@ declare module 'emojibase' {
     type?: Presentation,
   };
 
-  declare export function fetchFromCDN(path: string, version: string): Promise<Emoji[]>;
+  declare export function fetchFromCDN(path: string, version?: string): Promise<Emoji[]>;
   declare export function flattenEmojiData(data: Emoji[]): Emoji[];
   declare export function fromCodepointToUnicode(codepoint: number[]): string;
   declare export function fromHexcodeToCodepoint(hexcode: string, joiner?: string): number[];
   declare export function fromUnicodeToHexcode(unicode: string, strip?: boolean): string;
+}
+
+declare module 'emojibase/lib/constants' {
+  import type { Gender, Presentation, SkinTone } from 'emojibase';
+
+  declare export var FEMALE: Gender;
+  declare export var MALE: Gender;
+
+  declare export var TEXT: Presentation;
+  declare export var EMOJI: Presentation;
+
+  declare export var LIGHT_SKIN: SkinTone;
+  declare export var MEDIUM_LIGHT_SKIN: SkinTone;
+  declare export var MEDIUM_SKIN: SkinTone;
+  declare export var MEDIUM_DARK_SKIN: SkinTone;
+  declare export var DARK_SKIN: SkinTone;
+
+  declare export var SUPPORTED_LOCALES: string[];
 }
