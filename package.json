@@ -13,8 +13,9 @@
     "table": "node ./bin/buildFilesizeTable.js",
     "jest": "NODE_ENV=test run-tests",
     "posttest": "yarn run flow",
+    "postversion": "yarn run babel && yarn run generate && yarn run build",
     "pretest": "yarn run eslint",
-    "preversion": "yarn test && yarn run babel && yarn run build",
+    "preversion": "yarn test",
     "test": "yarn run jest"
   },
   "repository": {
