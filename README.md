@@ -154,9 +154,57 @@ import data from 'emojibase-data/en/compact.json';
 
 ### Regex Patterns
 
+Matching emoji characters within a string can be difficult, as multiple codepoints,
+surrogate pairs, variation selectors, zero width joiners, so on and so forth,
+must be taken into account.
+
+To make this whole process easier, four regex patterns are available for import.
+One for matching  emoji presentation characters, one for matching text presentation characters,
+one for matching both types of characters, and the last to match shortcodes.
+
+* `emojibase-regex` - Matches both emoji and text presentation characters.
+* `emojibase-regex/emoji` - Matches only emoji presentation characters.
+* `emojibase-regex/text` - Matches only text presentation characters.
+* `emojibase-regex/shortcode` - Matches only emoji shortcodes.
+
+Each of these imports return a `RegExp` instance with no flags defined.
+
+```js
+import EMOJI_REGEX from 'emojibase-regex';
+import SHORTCODE_REGEX from 'emojibase-regex/shortcode';
+
+`🏰`.match(EMOJI_REGEX);
+':castle:'.match(SHORTCODE_REGEX);
+```
+
+> The `u` (unicode) and `g` (global) flags are not defined on these patterns.
+
 #### Unicode Codepoint Support
 
+By default, regex patterns are generated using hexadecimal Unicode ranges. If desired, ES2015+
+Unicode codepoint aware regex patterns can be used, which can be found in the `codepoint` directory.
+
+```javascript
+import CODEPOINT_EMOJI_REGEX from 'emojibase-regex/codepoint';
+```
+
+> Codepoint regex patterns are only supported in Node.js and modern browsers.
+
+> The `u` (unicode) flag is required (defined by default) when using these patterns.
+
 #### Unicode Property Support
+
+An [ECMAScript proposal](https://github.com/tc39/proposal-regexp-unicode-property-escapes) to
+support Unicode property escapes within regex is currently in the works. This proposal,
+if passed, would enable regex patterns like the following: `/\p{Emoji}/`. This feature would
+greatly reduce the filesize of our regex patterns while being more accurate to the Unicode
+standard.
+
+These patterns can be found in the `property` directory, but use at your own risk!
+
+```javascript
+import PROPERTY_EMOJI_REGEX from 'emojibase-regex/property';
+```
 
 ### Shortcodes
 
@@ -198,11 +246,11 @@ import data from 'emojibase-data/en/compact.json';
 | property/emoji.js | 102 B | 92 B |
 | property/index.js | 114 B | 101 B |
 | text.js | 2.53 KB | 1006 B |
-| unicode/text.js | 3.28 KB | 1.04 KB |
+| codepoint/text.js | 3.28 KB | 1.04 KB |
 | emoji.js | 6.63 KB | 1.79 KB |
 | index.js | 6.64 KB | 1.79 KB |
-| unicode/emoji.js | 7.71 KB | 1.84 KB |
-| unicode/index.js | 7.71 KB | 1.85 KB |
+| codepoint/emoji.js | 7.71 KB | 1.84 KB |
+| codepoint/index.js | 7.71 KB | 1.85 KB |
 
 
 
@@ -269,43 +317,6 @@ while the 2nd argument is the specified release version (defaults to the latest)
 
 > Only JSON datasets can be fetched from our CDN.
 
-### Regex Patterns
-
-To match emojis and shortnames within a string, multiple regex patterns are available for import.
-All imports return a `RegExp` object, with no flags, and no outer capture group.
-
-* `regex` - Matches both emoji and text presentation characters.
-* `regex/emoji` - Matches emoji presentation characters.
-* `regex/text` - Matches text presentation characters.
-* `regex/shortname` - Matches emoji shortnames.
-
-```javascript
-import EMOJI_REGEX from 'emojibase/regex';
-import SHORTNAME_REGEX from 'emojibase/regex/shortname';
-
-'🦍'.match(EMOJI_REGEX); // Matches Harambe!
-```
-
-To compose new regex patterns, simply use the `source` property.
-
-```javascript
-const EMOJI_SHORTNAME_REGEX = new RegExp(`^${EMOJI_REGEX.source}|${SHORTNAME_REGEX.source}$`, 'g');
-```
-
-> The `u` (unicode) and `g` (global) flags are not required when using these patterns.
-
-#### Unicode
-
-By default, regex patterns are generated as UCS-2 surrogate pairs. If desired, ES2015+
-unicode aware regex patterns can be used, which can be found in the `regex/es` directory.
-
-```javascript
-import UNICODE_EMOJI_REGEX from 'emojibase/regex/es';
-import SHORTNAME_REGEX from 'emojibase/regex/shortname';
-```
-
-> The unicode aware regex patterns are only supported in Node.js and modern browsers.
-
 ### Helpers
 
 Two helper functions are available for converting between emoji data representations.
@@ -329,34 +340,6 @@ import { fromUnicodeToHex } from 'emojibase';
 fromUnicodeToHex('👨‍👩‍👧‍👦'); // 1F468-1F469-1F467-1F466
 fromUnicodeToHex('👨‍👩‍👧‍👦', false); // 1F468-200D-1F469-200D-1F467-200D-1F466
 ```
-
-### Filesizes
-
-The filesizes of all datasets and regex patterns can be found below, in ascending order.
-
-| File | Filesize | Gzipped |
-| --- | --- | --- |
-| regex/shortname.js | 30 B | 50 B |
-| regex/text.js | 1.11 KB | 476 B |
-| regex/es/text.js | 1.28 KB | 492 B |
-| regex/emoji.js | 5.75 KB | 1.47 KB |
-| regex/index.js | 5.77 KB | 1.48 KB |
-| regex/es/emoji.js | 6.37 KB | 1.5 KB |
-| regex/es/index.js | 6.38 KB | 1.51 KB |
-| data/extra/unicode.json | 26.63 KB | 6.4 KB |
-| data/extra/hexcodes.json | 28.63 KB | 5.85 KB |
-| data/extra/shortnames.json | 38.26 KB | 9.16 KB |
-| data/extra/shortname-to-unicode.json | 64.89 KB | 15.72 KB |
-| data/extra/hexcode-to-shortname.json | 66.9 KB | 15.55 KB |
-| data/compact/map.json | 149.52 KB | 24.29 KB |
-| data/compact/list.json | 172.85 KB | 24.02 KB |
-| data/compact/by-category.json | 172.95 KB | 24.07 KB |
-| data/standard/map.json | 317.57 KB | 45.19 KB |
-| data/standard/list.json | 340.9 KB | 45.65 KB |
-| data/standard/by-category.json | 341 KB | 45.64 KB |
-| data/expanded/by-category.json | 553.12 KB | 73.12 KB |
-| data/expanded/map.json | 576.93 KB | 74.43 KB |
-| data/expanded/list.json | 600.26 KB | 74.03 KB |
 
 [cdn]: https://cdn.jsdelivr.net/npm/emojibase-data@latest/
 [cldr]: http://cldr.unicode.org/index/downloads/cldr-31
