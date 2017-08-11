@@ -24,7 +24,7 @@ emoji JSON datasets and regex patterns.
   * [Unicode Property Support](#unicode-property-support)
 * [Shortcodes](#shortcodes)
 * [Filesizes](#filesizes)
-* [API](#helpers)
+* [API](#api)
   * [fetchFromCDN](#fetchFromCDN)
   * [flattenEmojiData](#flattenEmojiData)
   * [fromCodepointToUnicode](#fromCodepointToUnicode)
@@ -33,9 +33,26 @@ emoji JSON datasets and regex patterns.
 
 ### Datasets
 
+TODO
+
 #### Installing Locally
 
+TODO
+
 #### Fetching From A CDN
+
+If you prefer to not inflate your bundle size with these large JSON datasets,
+you can fetch them from our CDN ([provided by jsdelivr.com][cdn]) using `fetchFromCDN`.
+
+```javascript
+import { fetchFromCDN } from 'emojibase';
+
+fetchFromCDN('en/data.json').then((emojis) => {
+  // Do something with it!
+});
+```
+
+Learn more about the [`fetchFromCDN` API](#fetchFromCDN).
 
 #### Data Structure
 
@@ -208,6 +225,8 @@ import PROPERTY_EMOJI_REGEX from 'emojibase-regex/property';
 
 ### Shortcodes
 
+TODO
+
 ### Filesizes
 
 | Dataset | Filesize | Gzipped |
@@ -239,7 +258,7 @@ import PROPERTY_EMOJI_REGEX from 'emojibase-regex/property';
 | ja/data.json | 894.23 KB | 81.63 KB |
 | ru/data.json | 935.82 KB | 91.09 KB |
 
-| Pattern | Filesize | Gzipped |
+| Regex Pattern | Filesize | Gzipped |
 | --- | --- | --- |
 | shortcode.js | 35 B | 55 B |
 | property/text.js | 37 B | 57 B |
@@ -252,8 +271,98 @@ import PROPERTY_EMOJI_REGEX from 'emojibase-regex/property';
 | codepoint/emoji.js | 7.71 KB | 1.84 KB |
 | codepoint/index.js | 7.71 KB | 1.85 KB |
 
+### API
 
+What kind of emoji database would this be without a few helper functions for easily
+using and working with emoji characters.
 
+#### fetchFromCDN
+
+This function will fetch `emojibase-data` JSON files from our [CDN][cdn], parse them,
+and return an array of emoji objects. It requires a file path relative to the `emojibase-data`
+package as the 1st argument, and the Emojibase release version as the 2nd argument
+(defaults to the latest).
+
+```javascript
+import { fetchFromCDN, flattenEmojiData } from 'emojibase';
+
+fetchFromCDN('jp/compact.json', '2.1.3').then(flattenEmojiData);
+```
+
+> Only JSON datasets can be fetched from the CDN.
+
+#### flattenEmojiData
+
+By default, emoji [skin modifications are nested](#data-structure) under the base neutral skin
+tone emoji. To flatten the data into a single dimension array, use the `flattenEmojiData` function.
+
+```javascript
+import { flattenEmojiData } from 'emojibase';
+
+flattenEmojiData([
+  {
+    hexcode: '1F3CB-FE0F-200D-2642-FE0F',
+    // ...
+    skins: [
+      {
+        hexcode: '1F3CB-1F3FB-200D-2642-FE0F',
+        // ...
+      },
+      // ...
+    ],
+  },
+]);
+
+/*
+[
+  {
+    hexcode: '1F3CB-FE0F-200D-2642-FE0F',
+    // ...
+  },
+  {
+    hexcode: '1F3CB-1F3FB-200D-2642-FE0F',
+    // ...
+  },
+]
+*/
+```
+
+> Tags from the parent emoji will be passed down to the skin modifications.
+
+#### fromCodepointToUnicode
+
+This function will convert an array of numerical codepoints to a literal emoji Unicode character.
+
+```javascript
+import { fromCodepointToUnicode } from 'emojibase';
+
+fromCodepointToUnicode([128104, 8205, 128105, 8205, 128103, 8205, 128102]); // 👨‍👩‍👧‍👦
+```
+
+#### fromHexcodeToCodepoint
+
+This function will convert a hexadecimal codepoint to an array of numerical codepoints.
+By default, it will split the hexcode using a dash, but can be customized with the 2nd argument.
+
+```javascript
+import { fromHexcodeToCodepoint } from 'emojibase';
+
+fromHexcodeToCodepoint('270A-1F3FC'); // [9994, 127996]
+fromHexcodeToCodepoint('270A 1F3FC', ' '); // [9994, 127996]
+```
+
+#### fromUnicodeToHexcode
+
+This function will convert a literal emoji Unicode character into a dash separated
+hexadecimal codepoint. Unless `false` is passed as the 2nd argument, zero width joiner's
+and variation selectors are removed.
+
+```javascript
+import { fromUnicodeToHexcode } from 'emojibase';
+
+fromUnicodeToHexcode('👨‍👩‍👧‍👦'); // 1F468-1F469-1F467-1F466
+fromUnicodeToHexcode('👨‍👩‍👧‍👦', false); // 1F468-200D-1F469-200D-1F467-200D-1F466
+```
 
 -------
 
@@ -288,57 +397,6 @@ the following extra datasets are also available.
 
 ```javascript
 import hexcodes from 'emojibase/data/extra/hexcodes.json';
-```
-
-#### Formats
-
-Datasets are grouped into 3 different formats, with each composed of a subset of properties.
-
-* `compact` - Includes the `unicode`, `hexcode`, and `shortname` properties.
-* `standard` - Includes the `unicode`, `hexcode`, `shortname`, `codepoint`, and `name` properties.
-* `expanded` - Includes all properties mentioned above.
-
-#### CDN Support
-
-If you prefer to not inflate your bundle size with these large JSON dumps,
-you can fetch them from our CDN ([provided by jsdelivr.com][cdn]) using `fetchFromCDN`.
-This function returns a promise, with the JSON data already parsed.
-
-```javascript
-import { fetchFromCDN } from 'emojibase';
-
-fetchFromCDN('extra/hexcodes.json').then((data) => {
-  // Do something with it!
-});
-```
-
-The 1st argument requires a JSON file path, relative to the `data` folder,
-while the 2nd argument is the specified release version (defaults to the latest).
-
-> Only JSON datasets can be fetched from our CDN.
-
-### Helpers
-
-Two helper functions are available for converting between emoji data representations.
-
-The first, `fromHexToCodepoint`, can be used to convert a dash separated hexcode into an
-array of numerical codepoints.
-
-```javascript
-import { fromHexToCodepoint } from 'emojibase';
-
-fromHexToCodepoint('270A-1F3FC'); // [9994, 127996]
-```
-
-While the second, `fromUnicodeToHex`, converts a literal unicode character into a dash
-separated hexcode. Unless `false` is passed as the 2nd argument, zero-width-joiner's
-and variation selectors are removed.
-
-```javascript
-import { fromUnicodeToHex } from 'emojibase';
-
-fromUnicodeToHex('👨‍👩‍👧‍👦'); // 1F468-1F469-1F467-1F466
-fromUnicodeToHex('👨‍👩‍👧‍👦', false); // 1F468-200D-1F469-200D-1F467-200D-1F466
 ```
 
 [cdn]: https://cdn.jsdelivr.net/npm/emojibase-data@latest/
