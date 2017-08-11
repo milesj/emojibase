@@ -1,12 +1,12 @@
 import EMOJI_PATTERN from '../packages/emojibase-regex';
-import EMOJI_UNICODE_PATTERN from '../packages/emojibase-regex/unicode';
+import EMOJI_CODEPOINT_PATTERN from '../packages/emojibase-regex/codepoint';
 // import EMOJI_UNICODE_PROPERTY_PATTERN from '../packages/emojibase-regex/property';
 import SHORTCODE_PATTERN from '../packages/emojibase-regex/shortcode';
 import { loadData } from './helpers';
 
 const PATTERN_DESCRIPTIONS = [
   'standard regex',
-  'unicode regex',
+  'unicode codepoint regex',
   'unicode property regex',
 ];
 
@@ -19,7 +19,7 @@ describe('regex', () => {
       return;
     }
 
-    [EMOJI_PATTERN, EMOJI_UNICODE_PATTERN].forEach((pattern, i) => {
+    [EMOJI_PATTERN, EMOJI_CODEPOINT_PATTERN].forEach((pattern, i) => {
       describe(PATTERN_DESCRIPTIONS[i], () => {
         const globalPattern = new RegExp(pattern.source, `g${pattern.flags}`);
 
