@@ -8,7 +8,7 @@ yarn add emojibase-regex
 
 Import and use the `RegExp` pattern.
 
-```js
+```javascript
 import EMOJI_REGEX from 'emojibase-regex';
 import SHORTCODE_REGEX from 'emojibase-regex/shortcode';
 

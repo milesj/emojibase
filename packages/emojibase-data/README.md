@@ -8,13 +8,13 @@ yarn add emojibase-data
 
 Import and use the localized JSON dataset.
 
-```js
+```javascript
 import data from 'emojibase-data/en/data.json';
 ```
 
 Or fetch the dataset from our CDN.
 
-```js
+```javascript
 import { fetchFromCDN } from 'emojibase';
 
 fetchFromCDN('en/data.json').then(data => data);
