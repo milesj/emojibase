@@ -4,11 +4,11 @@
 > Emojibase, the ultimate emoji database.
 
 A collection of lightweight, up-to-date, pre-generated, specification compliant,
-emoji JSON datasets and regex patterns.
+localized emoji JSON datasets and regex patterns.
 
 * Supports the latest [Emoji 5](https://emojipedia.org/emoji-5.0/),
   [Unicode 10](http://unicode.org/versions/Unicode10.0.0/), and [CLDR 31][cldr] version releases
-* Built directly from the [Emoji source data files](http://unicode.org/Public/emoji/)
+* Built directly from the [emoji source data files](http://unicode.org/Public/emoji/)
 * Based on the official [Unicode Technical Standard #51](http://www.unicode.org/reports/tr51/)
 * With localization provided by [Unicode Technical Standard #35](http://unicode.org/reports/tr35/tr35-general.html#Annotations)
 
@@ -395,31 +395,31 @@ fromUnicodeToHexcode('👨‍👩‍👧‍👦', false); // 1F468-200D-1F469-20
 | emojibase-data | Filesize | Gzipped |
 | --- | --- | --- |
 | meta/groups.json | 2.85 KB | 943 B |
-| meta/shortcodes.json | 23.87 KB | 7.17 KB |
+| meta/shortcodes.json | 23.93 KB | 7.18 KB |
 | meta/unicode.json | 45.08 KB | 8.55 KB |
 | versions/emoji.json | 52.29 KB | 7.23 KB |
 | versions/unicode.json | 52.41 KB | 7.35 KB |
 | meta/hexcodes.json | 56.24 KB | 8.52 KB |
-| zh/compact.json | 592.23 KB | 60.89 KB |
-| fr/compact.json | 592.34 KB | 57.51 KB |
-| da/compact.json | 609.4 KB | 60.21 KB |
-| de/compact.json | 614.92 KB | 61.81 KB |
-| en/compact.json | 627.17 KB | 60.28 KB |
-| ko/compact.json | 628.85 KB | 65.8 KB |
-| es/compact.json | 629.83 KB | 62.9 KB |
-| it/compact.json | 630.73 KB | 63.26 KB |
-| ja/compact.json | 638.09 KB | 60.43 KB |
-| ru/compact.json | 679.67 KB | 69.11 KB |
-| zh/data.json | 848.37 KB | 82.44 KB |
-| fr/data.json | 848.48 KB | 79.04 KB |
-| da/data.json | 865.54 KB | 81.67 KB |
-| de/data.json | 871.06 KB | 83.17 KB |
-| en/data.json | 883.31 KB | 81.31 KB |
-| ko/data.json | 884.99 KB | 87.72 KB |
-| es/data.json | 885.97 KB | 84.45 KB |
-| it/data.json | 886.87 KB | 84.78 KB |
-| ja/data.json | 894.23 KB | 81.63 KB |
-| ru/data.json | 935.82 KB | 91.09 KB |
+| zh/compact.json | 592.33 KB | 60.93 KB |
+| fr/compact.json | 592.43 KB | 57.53 KB |
+| da/compact.json | 609.5 KB | 60.23 KB |
+| de/compact.json | 615.02 KB | 61.82 KB |
+| en/compact.json | 627.26 KB | 60.29 KB |
+| ko/compact.json | 628.95 KB | 65.82 KB |
+| es/compact.json | 629.93 KB | 62.92 KB |
+| it/compact.json | 630.83 KB | 63.29 KB |
+| ja/compact.json | 638.19 KB | 60.47 KB |
+| ru/compact.json | 679.77 KB | 69.14 KB |
+| zh/data.json | 848.47 KB | 82.47 KB |
+| fr/data.json | 848.57 KB | 79.06 KB |
+| da/data.json | 865.64 KB | 81.69 KB |
+| de/data.json | 871.16 KB | 83.18 KB |
+| en/data.json | 883.4 KB | 81.31 KB |
+| ko/data.json | 885.09 KB | 87.76 KB |
+| es/data.json | 886.07 KB | 84.47 KB |
+| it/data.json | 886.97 KB | 84.81 KB |
+| ja/data.json | 894.33 KB | 81.67 KB |
+| ru/data.json | 935.91 KB | 91.13 KB |
 
 | emojibase-regex | Filesize | Gzipped |
 | --- | --- | --- |

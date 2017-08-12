@@ -27,7 +27,7 @@ function calculatePackage(packageName) {
 
     rows.sort((a, b) => a.size - b.size);
 
-    console.log('| File | Filesize | Gzipped |');
+    console.log(`| ${packageName} | Filesize | Gzipped |`);
     console.log('| --- | --- | --- |');
 
     rows.forEach((row) => {
