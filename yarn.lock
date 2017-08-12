@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@milesj/build-tool-config@^0.17.5":
-  version "0.17.6"
-  resolved "https://registry.yarnpkg.com/@milesj/build-tool-config/-/build-tool-config-0.17.6.tgz#a80e49f1d90ed00ed0b6f8cd2e0f4dd15791e869"
+"@milesj/build-tool-config@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@milesj/build-tool-config/-/build-tool-config-0.18.0.tgz#41901165fcd49427ccdb9bfba7996b9646daae42"
   dependencies:
     babel-cli "^6.24.1"
     babel-eslint "^7.2.0"
@@ -27,7 +27,7 @@
     eslint-plugin-jest "^20.0.3"
     eslint-plugin-jsx-a11y "^5.1.1"
     eslint-plugin-promise "^3.5.0"
-    eslint-plugin-react "^7.1.0"
+    eslint-plugin-react "^7.2.0"
     eslint-plugin-unicorn "^2.1.2"
     flow-bin "^0.52.0"
     jest "^20.0.4"
@@ -36,7 +36,7 @@
     react-dom "^15.6.1"
     react-test-renderer "^15.6.1"
     rimraf "^2.6.1"
-    rollup "^0.45.2"
+    rollup "^0.46.3"
     rollup-plugin-babel "^3.0.1"
     rollup-plugin-commonjs "^8.1.0"
     rollup-plugin-json "^2.3.0"
@@ -1631,13 +1631,13 @@ eslint-plugin-promise@^3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.5.0.tgz#78fbb6ffe047201627569e85a6c5373af2a68fca"
 
-eslint-plugin-react@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.1.0.tgz#27770acf39f5fd49cd0af4083ce58104eb390d4c"
+eslint-plugin-react@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.2.0.tgz#25c77a4ec307e3eebb248ea3350960e372ab6406"
   dependencies:
     doctrine "^2.0.0"
     has "^1.0.1"
-    jsx-ast-utils "^1.4.1"
+    jsx-ast-utils "^2.0.0"
 
 eslint-plugin-unicorn@^2.1.2:
   version "2.1.2"
@@ -2869,9 +2869,15 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
-jsx-ast-utils@^1.4.0, jsx-ast-utils@^1.4.1:
+jsx-ast-utils@^1.4.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/jsx-ast-utils/-/jsx-ast-utils-1.4.1.tgz#3867213e8dd79bf1e8f2300c0cfc1efb182c0df1"
+
+jsx-ast-utils@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/jsx-ast-utils/-/jsx-ast-utils-2.0.0.tgz#ec06a3d60cf307e5e119dac7bad81e89f096f0f8"
+  dependencies:
+    array-includes "^3.0.3"
 
 kind-of@^3.0.2:
   version "3.2.2"
@@ -3816,11 +3822,9 @@ rollup-watch@^4.3.1:
     require-relative "0.8.7"
     rollup-pluginutils "^2.0.1"
 
-rollup@^0.45.2:
-  version "0.45.2"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.45.2.tgz#63a284c2b31234656f24e9e9717fabb6a7f0fa43"
-  dependencies:
-    source-map-support "^0.4.0"
+rollup@^0.46.3:
+  version "0.46.3"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.46.3.tgz#40b408a202b2273ba0318e9672c51290fe33ea11"
 
 run-async@^2.2.0:
   version "2.3.0"
@@ -3912,7 +3916,7 @@ sntp@1.x.x:
   dependencies:
     hoek "2.x.x"
 
-source-map-support@^0.4.0, source-map-support@^0.4.2:
+source-map-support@^0.4.2:
   version "0.4.15"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.15.tgz#03202df65c06d2bd8c7ec2362a193056fef8d3b1"
   dependencies:

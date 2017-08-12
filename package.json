@@ -9,13 +9,12 @@
     "coverage": "run-coverage",
     "eslint": "run-linter ./bin ./src ./tests",
     "flow": "type-check",
-    "generate": "node ./bin/generateEmoji.js",
+    "generate": "yarn run babel && node ./bin/generateEmoji.js",
     "table": "node ./bin/buildFilesizeTable.js",
     "jest": "NODE_ENV=test run-tests",
     "posttest": "yarn run flow",
-    "postversion": "yarn run babel && yarn run generate && yarn run build",
     "pretest": "yarn run eslint",
-    "preversion": "yarn test",
+    "prerelease": "yarn run babel && yarn run generate && yarn run build && yarn test",
     "test": "yarn run jest"
   },
   "repository": {
@@ -49,7 +48,7 @@
     "babel-runtime": "^6.25.0"
   },
   "devDependencies": {
-    "@milesj/build-tool-config": "^0.17.5",
+    "@milesj/build-tool-config": "^0.18.0",
     "chalk": "^2.0.1",
     "cheerio": "^1.0.0-rc.2",
     "filesize": "^3.5.10",
