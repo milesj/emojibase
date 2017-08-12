@@ -7,14 +7,17 @@
 /* eslint-disable */
 
 /**
+ * NAMING GUIDELINES
+ *
  *  - Gender neutral emoji must be prefixed with "person_",
  *    while female emoji use "woman_", and male "man_".
+ *    Plural forms use "people_", "women_", and "men_".
  *
  *  - Animals depicted from the side use the animal name,
  *    while animals depicted with a head, or a face,
  *    must use the animal name suffixed with "_face".
  *
- *  - Japenese specific emoji must be prefixed with "jp_".
+ *  - Japenese specific emoji must be prefixed with "ja_".
  *
  *  - Specifiers, like color or size, must be used as a
  *    prefix. For example, "small_", or "red_".
@@ -22,6 +25,17 @@
  *  - Use a more descriptive term over the annotation if
  *    applicable. For example, "storm" over the annotation
  *    "cloud with lightning and rain".
+ *
+ * CHANGING SHORTCODES
+ *
+ * Shortcodes are meant to be permanent, and should never
+ * change (excluding typos), as to not destroy historical
+ * usage of the shortcode. If a more descriptive term
+ * is wanted, or the Unicode standard has changed meaning
+ * or naming, we should persist the original shortcode.
+ * We can do this by shifting the old shortcode to the end
+ * of the array, while placing the new shortcode at the
+ * beginning. This allows for backwards compatible changes.
  */
 
 module.exports = {
@@ -36,7 +50,7 @@ module.exports = {
   // 😃 smiling face with open mouth
   '1F603': ['smile'],
   // 😄 smiling face with open mouth & smiling eyes
-  '1F604': ['happy_smile'],
+  '1F604': ['happy'],
   // 😅 smiling face with open mouth & cold sweat
   '1F605': ['sweat_smile'],
   // 😆 smiling face with open mouth & closed eyes
@@ -46,7 +60,7 @@ module.exports = {
   // 😊 smiling face with smiling eyes
   '1F60A': ['blush'],
   // 😋 face savouring delicious food
-  '1F60B': ['yum'],
+  '1F60B': ['yum', 'savior'],
   // 😎 smiling face with sunglasses
   '1F60E': ['cool_smile'],
   // 😍 smiling face with heart-eyes
@@ -160,7 +174,7 @@ module.exports = {
   // 😵 dizzy face
   '1F635': ['dizzy'],
   // 😡 pouting face
-  '1F621': ['rage'],
+  '1F621': ['rage', 'pout'],
   // 😠 angry face
   '1F620': ['angry'],
   // 🤬 face with symbols over mouth
@@ -640,7 +654,7 @@ module.exports = {
   // 👭 two women holding hands
   '1F46D': ['holding_hands_ww'],
   // 💏 kiss
-  '1F48F': ['couple_kiss'],
+  '1F48F': ['couple'],
   // 👩‍❤️‍💋‍👨 woman, red heart, kiss mark, man
   '1F469-200D-2764-FE0F-200D-1F48B-200D-1F468': ['kiss_mw', 'kiss_wm'],
   // 👨‍❤️‍💋‍👨 man, red heart, kiss mark
@@ -858,7 +872,7 @@ module.exports = {
   // 🕶️ sunglasses
   '1F576': ['sunglasses'],
   // 👔 necktie
-  '1F454': ['necktie'],
+  '1F454': ['necktie', 'tie'],
   // 👕 t-shirt
   '1F455': ['shirt'],
   // 👖 jeans
@@ -878,7 +892,7 @@ module.exports = {
   // 👙 bikini
   '1F459': ['bikini'],
   // 👚 woman’s clothes
-  '1F45A': ['womans_clothes'],
+  '1F45A': ['blouse', 'womans_clothes'],
   // 👛 purse
   '1F45B': ['purse'],
   // 👜 handbag
@@ -892,7 +906,7 @@ module.exports = {
   // 👞 man’s shoe
   '1F45E': ['mans_shoe'],
   // 👟 running shoe
-  '1F45F': ['athletic_shoe'],
+  '1F45F': ['sneaker', 'athletic_shoe'],
   // 👠 high-heeled shoe
   '1F460': ['high_heel'],
   // 👡 woman’s sandal
@@ -904,7 +918,7 @@ module.exports = {
   // 👒 woman’s hat
   '1F452': ['womans_hat'],
   // 🎩 top hat
-  '1F3A9': ['tophat'],
+  '1F3A9': ['top_hat'],
   // 🎓️ graduation cap
   '1F393': ['graduation_cap'],
   // 🧢 billed cap
@@ -1040,7 +1054,7 @@ module.exports = {
   // 🦉 owl
   '1F989': ['owl'],
   // 🐸 frog face
-  '1F438': ['frog'],
+  '1F438': ['frog_face'],
   // 🐊 crocodile
   '1F40A': ['crocodile'],
   // 🐢 turtle
@@ -1054,13 +1068,13 @@ module.exports = {
   // 🐉 dragon
   '1F409': ['dragon'],
   // 🦕 sauropod
-  '1F995': ['sauropod', 'bronto'],
+  '1F995': ['sauropod'],
   // 🦖 T-Rex
   '1F996': ['trex'],
   // 🐳 spouting whale
-  '1F433': ['whale'],
+  '1F433': ['spouting_whale'],
   // 🐋 whale
-  '1F40B': ['whale2'],
+  '1F40B': ['whale'],
   // 🐬 dolphin
   '1F42C': ['dolphin'],
   // 🐟️ fish
@@ -1342,7 +1356,7 @@ module.exports = {
   // 🍽️ fork and knife with plate
   '1F37D': ['fork_knife_plate'],
   // 🍴 fork and knife
-  '1F374': ['fork_and_knife'],
+  '1F374': ['utensils'],
   // 🥄 spoon
   '1F944': ['spoon'],
   // 🔪 kitchen knife
@@ -1356,7 +1370,7 @@ module.exports = {
   // 🌏️ globe showing Asia-Australia
   '1F30F': ['earth_asia'],
   // 🌐 globe with meridians
-  '1F310': ['grid_globe'],
+  '1F310': ['globe'],
   // 🗺️ world map
   '1F5FA': ['map'],
   // 🗾 map of Japan
@@ -1398,7 +1412,7 @@ module.exports = {
   // 🏢 office building
   '1F3E2': ['office'],
   // 🏣 Japanese post office
-  '1F3E3': ['jp_post_office'],
+  '1F3E3': ['ja_post_office'],
   // 🏤 post office
   '1F3E4': ['post_office'],
   // 🏥 hospital
@@ -1486,7 +1500,7 @@ module.exports = {
   // 🚅 high-speed train with bullet nose
   '1F685': ['bullettrain'],
   // 🚆 train
-  '1F686': ['train2'],
+  '1F686': ['train'],
   // 🚇️ metro
   '1F687': ['metro'],
   // 🚈 light rail
@@ -1500,7 +1514,7 @@ module.exports = {
   // 🚞 mountain railway
   '1F69E': ['mountain_railway'],
   // 🚋 tram car
-  '1F68B': ['train'],
+  '1F68B': ['tram_car'],
   // 🚌 bus
   '1F68C': ['bus'],
   // 🚍️ oncoming bus
@@ -1556,7 +1570,7 @@ module.exports = {
   // 🚧 construction
   '1F6A7': ['construction'],
   // 🛑 stop sign
-  '1F6D1': ['octagonal_sign'],
+  '1F6D1': ['stop_sign', 'octagonal_sign'],
   // ⚓️ anchor
   '2693': ['anchor'],
   // ⛵️ sailboat
@@ -1576,7 +1590,7 @@ module.exports = {
   // ✈️ airplane
   '2708': ['airplane'],
   // 🛩️ small airplane
-  '1F6E9': ['airplane_small'],
+  '1F6E9': ['small_airplane'],
   // 🛫 airplane departure
   '1F6EB': ['airplane_departure'],
   // 🛬 airplane arrival
@@ -1614,7 +1628,7 @@ module.exports = {
   // ⌛️ hourglass
   '231B': ['hourglass'],
   // ⏳️ hourglass with flowing sand
-  '23F3': ['hourglass_flowing_sand'],
+  '23F3': ['hourglass_flowing'],
   // ⌚️ watch
   '231A': ['watch'],
   // ⏰ alarm clock
@@ -1722,13 +1736,13 @@ module.exports = {
   // 🌥️ sun behind large cloud
   '1F325': ['cloudy'],
   // 🌦️ sun behind rain cloud
-  '1F326': ['sunny_rain_cloud'],
+  '1F326': ['sunshower'],
   // 🌧️ cloud with rain
-  '1F327': ['rain_cloud'],
+  '1F327': ['rain'],
   // 🌨️ cloud with snow
-  '1F328': ['snow_cloud'],
+  '1F328': ['snow'],
   // 🌩️ cloud with lightning
-  '1F329': ['lightning_cloud'],
+  '1F329': ['lightning'],
   // 🌪️ tornado
   '1F32A': ['tornado'],
   // 🌫️ fog
@@ -1766,7 +1780,7 @@ module.exports = {
   // 🎃 jack-o-lantern
   '1F383': ['jack_o_lantern'],
   // 🎄 Christmas tree
-  '1F384': ['christmas_tree'],
+  '1F384': ['christmas_tree', 'xmas_tree'],
   // 🎆 fireworks
   '1F386': ['fireworks'],
   // 🎇 sparkler
@@ -1776,7 +1790,7 @@ module.exports = {
   // 🎈 balloon
   '1F388': ['balloon'],
   // 🎉 party popper
-  '1F389': ['tada'],
+  '1F389': ['tada', 'party'],
   // 🎊 confetti ball
   '1F38A': ['confetti_ball'],
   // 🎋 tanabata tree
@@ -1844,7 +1858,7 @@ module.exports = {
   // 🥊 boxing glove
   '1F94A': ['boxing_glove'],
   // 🥋 martial arts uniform
-  '1F94B': ['martial_arts_uniform', 'gi'],
+  '1F94B': ['gi', 'martial_arts_uniform'],
   // 🥅 goal net
   '1F945': ['goal'],
   // 🎯 direct hit
@@ -1884,7 +1898,7 @@ module.exports = {
   // 🎴 flower playing cards
   '1F3B4': ['flower_cards'],
   // 🔇 muted speaker
-  '1F507': ['mute'],
+  '1F507': ['mute', 'no_sound'],
   // 🔈️ speaker low volume
   '1F508': ['speaker', 'low_sound'],
   // 🔉 speaker medium volume
@@ -2002,7 +2016,7 @@ module.exports = {
   // 🔦 flashlight
   '1F526': ['flashlight'],
   // 🏮 red paper lantern
-  '1F3EE': ['izakaya_lantern', 'red_lantern'],
+  '1F3EE': ['red_lantern'],
   // 📔 notebook with decorative cover
   '1F4D4': ['decorative_notebook'],
   // 📕 closed book
@@ -2052,7 +2066,7 @@ module.exports = {
   // 💳️ credit card
   '1F4B3': ['credit_card'],
   // 💹 chart increasing with yen
-  '1F4B9': ['jp_chart'],
+  '1F4B9': ['ja_chart'],
   // 💱 currency exchange
   '1F4B1': ['currency_exchange'],
   // 💲 heavy dollar sign
@@ -2114,7 +2128,7 @@ module.exports = {
   // 🗓️ spiral calendar
   '1F5D3': ['calendar_spiral'],
   // 📇 card index
-  '1F4C7': ['carddex'],
+  '1F4C7': ['card_index'],
   // 📈 chart increasing
   '1F4C8': ['chart_up'],
   // 📉 chart decreasing
@@ -2168,9 +2182,9 @@ module.exports = {
   // ⚔️ crossed swords
   '2694': ['crossed_swords'],
   // 🔫 pistol
-  '1F52B': ['gun'],
+  '1F52B': ['gun', 'pistol'],
   // 🏹 bow and arrow
-  '1F3F9': ['bow_and_arrow'],
+  '1F3F9': ['bow'],
   // 🛡️ shield
   '1F6E1': ['shield'],
   // 🔧 wrench
@@ -2180,7 +2194,7 @@ module.exports = {
   // ⚙️ gear
   '2699': ['gear'],
   // 🗜️ clamp
-  '1F5DC': ['compression'],
+  '1F5DC': ['clamp', 'compression'],
   // ⚗️ alembic
   '2697': ['alembic'],
   // ⚖️ balance scale
@@ -2200,9 +2214,9 @@ module.exports = {
   // ⚱️ funeral urn
   '26B1': ['urn'],
   // 🗿 moai
-  '1F5FF': ['moyai'],
+  '1F5FF': ['moai'],
   // 🛢️ oil drum
-  '1F6E2': ['oil'],
+  '1F6E2': ['oil_drum'],
   // 🔮 crystal ball
   '1F52E': ['crystal_ball'],
   // 🛒 shopping cart
@@ -2248,7 +2262,7 @@ module.exports = {
   // 🚯 no littering
   '1F6AF': ['do_not_litter'],
   // 🚱 non-potable water
-  '1F6B1': ['nonpotable_water'],
+  '1F6B1': ['non_potable_water'],
   // 🚷 no pedestrians
   '1F6B7': ['no_pedestrians'],
   // 📵 no mobile phones
@@ -2414,7 +2428,7 @@ module.exports = {
   // 📛 name badge
   '1F4DB': ['name_badge'],
   // 🔰 Japanese symbol for beginner
-  '1F530': ['jp_beginner'],
+  '1F530': ['ja_beginner'],
   // ⭕️ heavy large circle
   '2B55': ['o'],
   // ✅ white heavy check mark
@@ -2514,39 +2528,39 @@ module.exports = {
   // 🆚 VS button
   '1F19A': ['vs'],
   // 🈁 Japanese “here” button
-  '1F201': ['jp_here', 'koko'],
+  '1F201': ['ja_here', 'koko'],
   // 🈂️ Japanese “service charge” button
-  '1F202': ['jp_service_charge'],
+  '1F202': ['ja_service_charge'],
   // 🈷️ Japanese “monthly amount” button
-  '1F237': ['jp_monthly_amount'],
+  '1F237': ['ja_monthly_amount'],
   // 🈶 Japanese “not free of charge” button
-  '1F236': ['jp_not_free_of_carge'],
+  '1F236': ['ja_not_free_of_carge'],
   // 🈯️ Japanese “reserved” button
-  '1F22F': ['jp_reserved'],
+  '1F22F': ['ja_reserved'],
   // 🉐 Japanese “bargain” button
-  '1F250': ['jp_bargain'],
+  '1F250': ['ja_bargain'],
   // 🈹 Japanese “discount” button
-  '1F239': ['jp_discount'],
+  '1F239': ['ja_discount'],
   // 🈚️ Japanese “free of charge” button
-  '1F21A': ['jp_free_of_charge'],
+  '1F21A': ['ja_free_of_charge'],
   // 🈲 Japanese “prohibited” button
-  '1F232': ['jp_prohibited'],
+  '1F232': ['ja_prohibited'],
   // 🉑 Japanese “acceptable” button
-  '1F251': ['jp_acceptable'],
+  '1F251': ['ja_acceptable'],
   // 🈸 Japanese “application” button
-  '1F238': ['jp_application'],
+  '1F238': ['ja_application'],
   // 🈴 Japanese “passing grade” button
-  '1F234': ['jp_passing_grade'],
+  '1F234': ['ja_passing_grade'],
   // 🈳 Japanese “vacancy” button
-  '1F233': ['jp_vacancy'],
+  '1F233': ['ja_vacancy'],
   // ㊗️ Japanese “congratulations” button
-  '3297': ['jp_congratulations'],
+  '3297': ['ja_congratulations'],
   // ㊙️ Japanese “secret” button
-  '3299': ['jp_secret'],
+  '3299': ['ja_secret'],
   // 🈺 Japanese “open for business” button
-  '1F23A': ['jp_open_for_business'],
+  '1F23A': ['ja_open_for_business'],
   // 🈵 Japanese “no vacancy” button
-  '1F235': ['jp_no_vacancy'],
+  '1F235': ['ja_no_vacancy'],
   // ▪️ black small square
   '25AA': ['small_black_square'],
   // ▫️ white small square
