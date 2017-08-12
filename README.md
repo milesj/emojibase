@@ -1,4 +1,4 @@
-# Emojibase v1.0.0
+# Emojibase
 [![Build Status](https://travis-ci.org/milesj/emojibase.svg?branch=master)](https://travis-ci.org/milesj/emojibase)
 
 > Emojibase, the ultimate emoji database.

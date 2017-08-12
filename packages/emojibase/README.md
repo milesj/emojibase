@@ -1,4 +1,4 @@
-# Emojibase
+# Emojibase v1.0.0
 
 > Emojibase, the ultimate emoji database.
 

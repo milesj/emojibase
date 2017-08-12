@@ -1,11 +1,11 @@
 {
   "private": true,
   "name": "emojibase",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0-rc.2",
   "description": "Evergreen emoji datasets and regex patterns.",
   "scripts": {
     "babel": "build-lib ./src -d ./lib",
-    "build": "cp ./lib/*.js ./packages/emojibase/lib/",
+    "build": "mkdir -p ./packages/emojibase/lib/ && cp ./lib/*.js ./packages/emojibase/lib/",
     "coverage": "run-coverage",
     "eslint": "run-linter ./bin ./src ./tests",
     "flow": "type-check",
@@ -14,7 +14,7 @@
     "jest": "NODE_ENV=test run-tests",
     "posttest": "yarn run flow",
     "pretest": "yarn run eslint",
-    "prerelease": "yarn run babel && yarn run generate && yarn run build && yarn test",
+    "prerelease": "yarn run generate && yarn run build && yarn test",
     "test": "yarn run jest"
   },
   "repository": {
