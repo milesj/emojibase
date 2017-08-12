@@ -24,6 +24,7 @@ localized emoji JSON datasets and regex patterns.
   * [Unicode Codepoint Support](#unicode-codepoint-support)
   * [Unicode Property Support](#unicode-property-support)
 * [Shortcodes](#shortcodes)
+  * [Official List][scodes]
 * [API](#api)
   * [fetchFromCDN](#fetchfromcdn)
   * [flattenEmojiData](#flattenemojidata)
@@ -113,8 +114,8 @@ most property values have been implemented using integers,
 * `name` (string) - The generated name according to the official [Unicode data][ucd].
 * `order` (number) - The order in which emoji should be displayed on a device,
   through a keyboard or picker.
-* `shortcodes` (string[]) - An array of community curated shortcodes for use within forums,
-  comments, and messages. *Does not include surrounding colons*.
+* `shortcodes` (string[]) - An array of community curated shortcodes.
+  *Does not include surrounding colons*.
 * `skins` (emoji[]) - If applicable, an array of emoji objects for each skin tone modification,
   starting at light skin, and ending with dark skin.
 * `subgroup` (number) - The categorical subgroup the emoji belongs to, ranging from `0` to `75`.
@@ -289,7 +290,27 @@ import PROPERTY_EMOJI_REGEX from 'emojibase-regex/property';
 
 ### Shortcodes
 
-TODO
+Shortcodes are short and succinct words, surrounded by colons, representing emoji (`:cat:`).
+They're primarily used within forums, comments, message posts, and basically anywhere with
+user-to-user communication. They exist for situations where an emoji keyboard is not present,
+but emoji should be supported.
+
+That being said, shortcodes are not officially supported by Unicode or any standard,
+and are entirely community driven. Because of this, shortcodes (also known as shortnames),
+may differ between implementations, websites, or libraries.
+
+Emojibase aims to solve this problem with a [maintained and curated list of shortcodes][scodes]
+that abide the following guidelines:
+
+* Must be short and succinct. Easy to type, easy to remember. This infers a small filesize.
+* Must be descriptive nouns over verbose phrases. For example, "storm" over "cloud with
+  lightning and rain".
+* Must be consistent across locales and languages by utilizing English shortcodes.
+  It's a language common amongst supported locales.
+* Must keep backwards compatibility and historical integrity by never removing and
+  renaming shortcodes.
+* Must support multiple shortcodes per emoji character, for usage within different contexts.
+* Must align with or base off [CLDR 31][cldr] annotations.
 
 ### API
 
@@ -436,4 +457,5 @@ fromUnicodeToHexcode('👨‍👩‍👧‍👦', false); // 1F468-200D-1F469-20
 
 [cdn]: https://cdn.jsdelivr.net/npm/emojibase-data@latest/
 [cldr]: http://cldr.unicode.org/index/downloads/cldr-31
+[scodes]: https://github.com/milesj/emojibase/blob/master/src/resources/shortcodes.js
 [ucd]: http://unicode.org/Public/10.0.0/ucd/UnicodeData.txt

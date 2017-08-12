@@ -7,6 +7,8 @@
 /* eslint-disable */
 
 /**
+ * Official Emojibase shortcodes list.
+ *
  * NAMING GUIDELINES
  *
  *  - Gender neutral emoji must be prefixed with "person_",
@@ -26,7 +28,12 @@
  *    applicable. For example, "storm" over the annotation
  *    "cloud with lightning and rain".
  *
- * CHANGING SHORTCODES
+ * ADDING SHORTCODES
+ *
+ * Please submit a PR with the addition so that it
+ * may be discussed.
+ *
+ * RENAMING/REMOVING SHORTCODES
  *
  * Shortcodes are meant to be permanent, and should never
  * change (excluding typos), as to not destroy historical
