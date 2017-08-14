@@ -5,7 +5,7 @@
   "description": "Evergreen emoji datasets and regex patterns.",
   "scripts": {
     "babel": "build-lib ./src -d ./lib",
-    "build": "mkdir -p ./packages/emojibase/lib/ && cp ./lib/*.js ./packages/emojibase/lib/",
+    "build": "mkdir -p ./packages/emojibase/lib/ && cp ./lib/*.js ./packages/emojibase/lib/ && cp ./packages/emojibase-data/en/data.json ./packages/emojibase-test-utils/test-data.json",
     "coverage": "run-coverage",
     "eslint": "run-linter ./bin ./src ./tests",
     "flow": "type-check",
