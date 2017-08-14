@@ -4,7 +4,8 @@
  * @flow
  */
 
-import { fromCodepointToUnicode, fromHexcodeToCodepoint } from '../../packages/emojibase/lib';
+import fromCodepointToUnicode from '../../packages/emojibase/lib/fromCodepointToUnicode';
+import fromHexcodeToCodepoint from '../../packages/emojibase/lib/fromHexcodeToCodepoint';
 
 export default function toUnicode(hexcode: string): string {
   return fromCodepointToUnicode(fromHexcodeToCodepoint(hexcode));

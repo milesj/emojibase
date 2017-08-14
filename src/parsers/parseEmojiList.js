@@ -8,7 +8,7 @@
 
 // $FlowIgnore Lazyiness
 import cheerio from 'cheerio';
-import { GROUPS, SUBGROUPS } from '../../packages/emojibase/lib/constants';
+import readCache from '../helpers/readCache';
 import slug from '../helpers/slug';
 
 import type { EmojiSourceMap } from '../types';
@@ -30,8 +30,9 @@ function swapKeyValues(data: Object): Object {
  */
 export default function parseEmojiList(content: string): EmojiSourceMap {
   const xml = cheerio.load(content, { xmlMode: true });
-  const groups = swapKeyValues(GROUPS);
-  const subgroups = swapKeyValues(SUBGROUPS);
+  const groupCache = readCache('group-hierarchy.json') || {};
+  const groups = swapKeyValues(groupCache.groups);
+  const subgroups = swapKeyValues(groupCache.subgroups);
   const data = {};
   let group = '';
   let subgroup = '';
