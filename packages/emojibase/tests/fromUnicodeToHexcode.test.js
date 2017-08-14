@@ -1,4 +1,4 @@
-import { loadFlatEmojiData } from 'emojibase-test-utils';
+import loadFlatEmojiData from '../../emojibase-test-utils/src/loadFlatEmojiData';
 import fromUnicodeToHexcode from '../src/fromUnicodeToHexcode';
 import {
   TEXT,

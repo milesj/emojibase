@@ -1,4 +1,4 @@
-import { loadFlatEmojiData } from 'emojibase-test-utils';
+import loadFlatEmojiData from '../../emojibase-test-utils/src/loadFlatEmojiData';
 import EMOJI_PATTERN from '../index';
 import EMOJI_CODEPOINT_PATTERN from '../codepoint';
 // import EMOJI_UNICODE_PROPERTY_PATTERN from '../property';
