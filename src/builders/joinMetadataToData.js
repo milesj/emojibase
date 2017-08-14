@@ -4,8 +4,8 @@
  * @flow
  */
 
+import { SKIN_MODIFIER_PATTERN, SEQUENCE_REMOVAL_PATTERN } from '../../packages/emojibase/lib/constants';
 import hasProperty from '../helpers/hasProperty';
-import { SKIN_MODIFIER_PATTERN, SEQUENCE_REMOVAL_PATTERN } from '../constants';
 
 import type { UnicodeNamesMap, EmojiGroupMap, EmojiVariationMap, ShortcodeMap } from '../types';
 

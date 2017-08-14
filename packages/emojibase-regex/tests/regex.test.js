@@ -1,8 +1,8 @@
-import EMOJI_PATTERN from '../packages/emojibase-regex';
-import EMOJI_CODEPOINT_PATTERN from '../packages/emojibase-regex/codepoint';
-// import EMOJI_UNICODE_PROPERTY_PATTERN from '../packages/emojibase-regex/property';
-import SHORTCODE_PATTERN from '../packages/emojibase-regex/shortcode';
-import { loadData } from './helpers';
+import { loadFlatEmojiData } from 'emojibase-test-utils';
+import EMOJI_PATTERN from '../index';
+import EMOJI_CODEPOINT_PATTERN from '../codepoint';
+// import EMOJI_UNICODE_PROPERTY_PATTERN from '../property';
+import SHORTCODE_PATTERN from '../shortcode';
 
 const PATTERN_DESCRIPTIONS = [
   'standard regex',
@@ -11,7 +11,7 @@ const PATTERN_DESCRIPTIONS = [
 ];
 
 describe('regex', () => {
-  loadData().forEach((emoji) => {
+  loadFlatEmojiData().forEach((emoji) => {
     const unicode = emoji.emoji || emoji.text;
 
     // Emoji_Tag_Sequences currently do not work

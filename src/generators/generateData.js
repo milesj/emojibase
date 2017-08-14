@@ -4,6 +4,7 @@
  * @flow
  */
 
+import { SKIN_MODIFIER_PATTERN, SUPPORTED_LOCALES } from '../../packages/emojibase/lib/constants';
 import buildEmojiData from '../builders/buildEmojiData';
 import buildAnnotationData from '../builders/buildAnnotationData';
 import cleanHexcode from '../helpers/cleanHexcode';
@@ -13,7 +14,6 @@ import writeDataset from '../helpers/writeDataset';
 import filterData from '../helpers/filterData';
 import extractSubset from './extractSubset';
 import toUnicode from './toUnicode';
-import { SKIN_MODIFIER_PATTERN, SUPPORTED_LOCALES } from '../constants';
 
 import type { CLDRAnnotationMap, FinalEmoji } from '../types';
 

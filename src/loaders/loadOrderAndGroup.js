@@ -4,9 +4,9 @@
  * @flow
  */
 
+import { LATEST_EMOJI_VERSION } from '../../packages/emojibase/lib/constants';
 import fetchAndCache from './fetchAndCache';
 import parseOrderAndGroup from '../parsers/parseOrderAndGroup';
-import { LATEST_EMOJI_VERSION } from '../constants';
 
 import type { EmojiGroupMap } from '../types';
 

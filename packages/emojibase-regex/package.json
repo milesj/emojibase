@@ -8,5 +8,8 @@
     "regex",
     "unicode"
   ],
-  "repository": "https://github.com/milesj/emojibase/tree/master/packages/emojibase-regex"
+  "repository": "https://github.com/milesj/emojibase/tree/master/packages/emojibase-regex",
+  "devDependencies": {
+    "emojibase-test-utils": "1.0.0-rc.2"
+  }
 }

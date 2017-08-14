@@ -3,6 +3,7 @@ node_js:
   - "6"
   - "7"
   - "node"
+before_script: yarn run bootstrap:slow && yarn run build
 script: yarn test
 notifications:
   email: false

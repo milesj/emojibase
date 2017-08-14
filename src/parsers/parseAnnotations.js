@@ -6,7 +6,7 @@
 
 // $FlowIgnore Lazyiness
 import cheerio from 'cheerio';
-import fromUnicodeToHexcode from '../fromUnicodeToHexcode';
+import { fromUnicodeToHexcode } from '../../packages/emojibase/lib';
 
 import type { CLDRAnnotationMap } from '../types';
 

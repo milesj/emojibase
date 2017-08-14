@@ -4,7 +4,7 @@
  * @flow
  */
 
-import { SEQUENCE_REMOVAL_PATTERN } from '../constants';
+import { SEQUENCE_REMOVAL_PATTERN } from '../../packages/emojibase/lib/constants';
 
 const SEQUENCE_HEXCODE_PATTERN = new RegExp(`-(${SEQUENCE_REMOVAL_PATTERN.source})`, 'g');
 

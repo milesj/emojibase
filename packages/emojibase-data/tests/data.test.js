@@ -1,11 +1,11 @@
-import { EMOJI, TEXT, MALE, FEMALE } from '../src/constants';
-import { loadData } from './helpers';
+import { loadFlatEmojiData } from 'emojibase-test-utils';
+import { EMOJI, TEXT, MALE, FEMALE } from '../../emojibase/src/constants';
 
 describe('data', () => {
   // Skin modifications and specific sequences are missing specific
   // fields, like tags, annotations, and more. And since we flattened
   // our data, we'll need to wrap tests in conditional blocks.
-  loadData().forEach((emoji) => {
+  loadFlatEmojiData().forEach((emoji) => {
     const unicode = emoji.emoji || emoji.text;
 
     it(`defines a name for ${unicode}`, () => {

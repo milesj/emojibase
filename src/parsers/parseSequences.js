@@ -4,13 +4,13 @@
  * @flow
  */
 
+import { EMOJI } from '../../packages/emojibase/lib/constants';
 import parse from './parse';
 import extractGender from './extractGender';
 import extractLineDescription from './extractLineDescription';
 import extractUnicodeVersion from './extractUnicodeVersion';
 import verifyTotals from './verifyTotals';
 import formatHexcode from '../helpers/formatHexcode';
-import { EMOJI } from '../constants';
 
 import type { EmojiDataMap } from '../types';
 

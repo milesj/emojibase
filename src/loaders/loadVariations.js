@@ -4,9 +4,9 @@
  * @flow
  */
 
+import { LATEST_EMOJI_VERSION } from '../../packages/emojibase/lib/constants';
 import fetchAndCache from './fetchAndCache';
 import parseVariations from '../parsers/parseVariations';
-import { LATEST_EMOJI_VERSION } from '../constants';
 
 import type { EmojiVariationMap } from '../types';
 

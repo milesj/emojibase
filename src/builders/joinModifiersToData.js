@@ -4,8 +4,6 @@
  * @flow
  */
 
-import hasProperty from '../helpers/hasProperty';
-import extractSkinTone from '../parsers/extractSkinTone';
 import {
   LIGHT_SKIN,
   LIGHT_SKIN_MODIFIER,
@@ -19,7 +17,9 @@ import {
   DARK_SKIN_MODIFIER,
   SKIN_MODIFIER_PATTERN,
   EMOJI_VARIATION_SELECTOR,
-} from '../constants';
+} from '../../packages/emojibase/lib/constants';
+import hasProperty from '../helpers/hasProperty';
+import extractSkinTone from '../parsers/extractSkinTone';
 
 import type { SkinTone } from '../types';
 

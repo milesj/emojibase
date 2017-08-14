@@ -4,6 +4,12 @@
  * @flow
  */
 
+import {
+  SEQUENCE_REMOVAL_PATTERN,
+  SKIN_MODIFIER_PATTERN,
+  REGIONAL_INDICATORS,
+  TAG_LATIN_SMALL_LETTERS,
+} from '../../packages/emojibase/lib/constants';
 import cleanHexcode from '../helpers/cleanHexcode';
 import log from '../helpers/log';
 import hasProperty from '../helpers/hasProperty';
@@ -13,12 +19,6 @@ import loadAnnotations from '../loaders/loadAnnotations';
 import loadLocalization from '../loaders/loadLocalization';
 import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
-import {
-  SEQUENCE_REMOVAL_PATTERN,
-  SKIN_MODIFIER_PATTERN,
-  REGIONAL_INDICATORS,
-  TAG_LATIN_SMALL_LETTERS,
-} from '../constants';
 
 import type { CLDRAnnotationMap } from '../types';
 

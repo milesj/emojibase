@@ -6,13 +6,13 @@
 
 /* eslint-disable no-nested-ternary */
 
+import { fromHexcodeToCodepoint } from '../../packages/emojibase/lib';
+import { TEXT, EMOJI } from '../../packages/emojibase/lib/constants';
 import parse from './parse';
 import extractLineDescription from './extractLineDescription';
 import extractUnicodeVersion from './extractUnicodeVersion';
 import verifyTotals from './verifyTotals';
 import formatHexcode from '../helpers/formatHexcode';
-import fromHexcodeToCodepoint from '../fromHexcodeToCodepoint';
-import { TEXT, EMOJI } from '../constants';
 
 import type { EmojiDataMap } from '../types';
 

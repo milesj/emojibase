@@ -1,0 +1,4 @@
+declare module 'emojibase-test-utils' {
+  declare export function loadEmojiData(): Object[];
+  declare export function loadFlatEmojiData(): Object[];
+}

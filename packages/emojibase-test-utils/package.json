@@ -8,5 +8,9 @@
     "tests",
     "utils"
   ],
-  "repository": "https://github.com/milesj/emojibase/tree/master/packages/emojibase-test-utils"
+  "repository": "https://github.com/milesj/emojibase/tree/master/packages/emojibase-test-utils",
+  "main": "./lib/index.js",
+  "devDependencies": {
+    "emojibase": "1.0.0-rc.2"
+  }
 }

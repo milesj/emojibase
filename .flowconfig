@@ -1,5 +1,6 @@
 [include]
 ./src
+./packages
 
 [ignore]
 .*/node_modules/.*
@@ -10,6 +11,7 @@
 ./packages/emojibase/emojibase.js.flow
 ./packages/emojibase-data/emojibase-data.js.flow
 ./packages/emojibase-regex/emojibase-regex.js.flow
+./packages/emojibase-test-utils/emojibase-test-utils.js.flow
 
 [options]
 emoji=true

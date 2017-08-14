@@ -4,7 +4,7 @@
  * @flow
  */
 
-import type { FinalEmoji } from './types';
+import type { FinalEmoji } from '../../../src/types';
 
 export default function fetchFromCDN(
   path: string,

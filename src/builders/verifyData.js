@@ -6,14 +6,14 @@
 
 /* eslint-disable complexity */
 
-import log from '../helpers/log';
-import isObject from '../helpers/isObject';
-import hasProperty from '../helpers/hasProperty';
 import {
   SKIN_MODIFIER_PATTERN,
   EMOJI_VARIATION_SELECTOR,
   TEXT_VARIATION_SELECTOR,
-} from '../constants';
+} from '../../packages/emojibase/lib/constants';
+import log from '../helpers/log';
+import isObject from '../helpers/isObject';
+import hasProperty from '../helpers/hasProperty';
 
 import type { EmojiMap } from '../types';
 

@@ -4,9 +4,9 @@
  * @flow
  */
 
+import { LATEST_UNICODE_VERSION } from '../../packages/emojibase/lib/constants';
 import fetchAndCache from './fetchAndCache';
 import parseNames from '../parsers/parseNames';
-import { LATEST_UNICODE_VERSION } from '../constants';
 
 import type { UnicodeNamesMap } from '../types';
 

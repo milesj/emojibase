@@ -4,9 +4,9 @@
  * @flow
  */
 
+import { LATEST_CLDR_VERSION } from '../../packages/emojibase/lib/constants';
 import fetchAndCache from './fetchAndCache';
 import parseLocalization from '../parsers/parseLocalization';
-import { LATEST_CLDR_VERSION } from '../constants';
 
 import type { CLDRLocaleMap } from '../types';
 

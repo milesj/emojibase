@@ -4,7 +4,7 @@
  * @flow
  */
 
-import type { FinalEmoji } from './types';
+import type { FinalEmoji } from '../../../src/types';
 
 export default function flattenEmojiData(data: FinalEmoji[]): FinalEmoji[] {
   const emojis = [];
@@ -13,13 +13,19 @@ export default function flattenEmojiData(data: FinalEmoji[]): FinalEmoji[] {
     if (emoji.skins) {
       const { skins, ...restEmoji } = emoji;
 
+      // Dont include nested skins array
       emojis.push(restEmoji);
 
+      // Push each skin modification into the root list
       skins.forEach((skin) => {
-        emojis.push({
-          ...skin,
-          tags: emoji.tags,
-        });
+        const skinEmoji = { ...skin };
+
+        // Inherit tags from parent if they exist
+        if (emoji.tags) {
+          skinEmoji.tags = emoji.tags;
+        }
+
+        emojis.push(skinEmoji);
       });
     } else {
       emojis.push(emoji);

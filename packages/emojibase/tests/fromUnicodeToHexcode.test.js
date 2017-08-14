@@ -1,10 +1,16 @@
-import cleanHexcode from '../src/helpers/cleanHexcode';
+import { loadFlatEmojiData } from 'emojibase-test-utils';
 import fromUnicodeToHexcode from '../src/fromUnicodeToHexcode';
-import { TEXT, TEXT_VARIATION_SELECTOR, EMOJI_VARIATION_SELECTOR } from '../src/constants';
-import { loadData } from './helpers';
+import {
+  TEXT,
+  TEXT_VARIATION_SELECTOR,
+  EMOJI_VARIATION_SELECTOR,
+  SEQUENCE_REMOVAL_PATTERN,
+} from '../src/constants';
+
+const SEQUENCE_HEXCODE_PATTERN = new RegExp(`-(${SEQUENCE_REMOVAL_PATTERN.source})`, 'g');
 
 describe('fromUnicodeToHexcode()', () => {
-  loadData().forEach((emoji) => {
+  loadFlatEmojiData().forEach((emoji) => {
     const unicode = (emoji.type === TEXT) ? emoji.text : emoji.emoji;
 
     // The `hexcode` does not include variation selectors,
@@ -17,7 +23,7 @@ describe('fromUnicodeToHexcode()', () => {
         hexcode.length <= 10 &&
         (hexcode.endsWith(TEXT_VARIATION_SELECTOR) || hexcode.endsWith(EMOJI_VARIATION_SELECTOR))
       ) {
-        expect(cleanHexcode(hexcode)).toBe(emoji.hexcode);
+        expect(hexcode.replace(SEQUENCE_HEXCODE_PATTERN, '')).toBe(emoji.hexcode);
       } else {
         expect(hexcode).toBe(emoji.hexcode);
       }

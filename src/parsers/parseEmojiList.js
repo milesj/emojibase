@@ -8,8 +8,8 @@
 
 // $FlowIgnore Lazyiness
 import cheerio from 'cheerio';
+import { GROUPS, SUBGROUPS } from '../../packages/emojibase/lib/constants';
 import slug from '../helpers/slug';
-import { GROUPS, SUBGROUPS } from '../constants';
 
 import type { EmojiSourceMap } from '../types';
 

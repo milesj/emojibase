@@ -6,13 +6,13 @@
 
 /* eslint-disable no-await-in-loop */
 
+import { LATEST_EMOJI_VERSION } from '../../packages/emojibase/lib/constants';
 import log from '../helpers/log';
 import readCache from '../helpers/readCache';
 import writeCache from '../helpers/writeCache';
 import loadData from '../loaders/loadData';
 import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
-import { LATEST_EMOJI_VERSION } from '../constants';
 
 import type { EmojiDataMap } from '../types';
 
