@@ -28,6 +28,11 @@
  *    applicable. For example, "storm" over the annotation
  *    "cloud with lightning and rain".
  *
+ *  - Use emotions when describing smiley faces. For example,
+ *    "happy" over the annotation "smiling face with open
+ *    mouth & smiling eyes".
+ *    https://www.dailywritingtips.com/100-words-for-facial-expressions/
+ *
  * ADDING SHORTCODES
  *
  * Please submit a PR with the addition so that it
@@ -47,69 +52,69 @@
 
 module.exports = {
   // 😀 grinning face
-  '1F600': ['grin'],
+  '1F600': ['gleeful'],
   // 😁 grinning face with smiling eyes
-  '1F601': ['cheesy_grin'],
+  '1F601': ['blissful', 'grin'],
   // 😂 face with tears of joy
-  '1F602': ['joy'],
+  '1F602': ['joyful', 'haha'],
   // 🤣 rolling on the floor laughing
-  '1F923': ['rofl'],
+  '1F923': ['entertained', 'rofl'],
   // 😃 smiling face with open mouth
-  '1F603': ['smile'],
+  '1F603': ['glad', 'smile'],
   // 😄 smiling face with open mouth & smiling eyes
   '1F604': ['happy'],
   // 😅 smiling face with open mouth & cold sweat
-  '1F605': ['sweat_smile'],
+  '1F605': ['embarassed'],
   // 😆 smiling face with open mouth & closed eyes
-  '1F606': ['lol', 'laughing'],
+  '1F606': ['amused', 'laugh', 'lol'],
   // 😉 winking face
-  '1F609': ['wink'],
+  '1F609': ['coy', 'wink'],
   // 😊 smiling face with smiling eyes
-  '1F60A': ['blush'],
+  '1F60A': ['anxious', 'blush'],
   // 😋 face savouring delicious food
-  '1F60B': ['yum', 'savior'],
+  '1F60B': ['yum', 'savour'],
   // 😎 smiling face with sunglasses
-  '1F60E': ['cool_smile'],
+  '1F60E': ['confident'],
   // 😍 smiling face with heart-eyes
-  '1F60D': ['heart_eyes'],
+  '1F60D': ['lovestruck'],
   // 😘 face blowing a kiss
-  '1F618': ['blowing_kiss'],
+  '1F618': ['flirty'],
   // 😗 kissing face
-  '1F617': ['kissing'],
+  '1F617': ['kiss'],
   // 😙 kissing face with smiling eyes
-  '1F619': ['happy_kissing'],
+  '1F619': ['happy_kiss'],
   // 😚 kissing face with closed eyes
-  '1F61A': ['kissing_closed_eyes'],
+  '1F61A': ['loving_kiss'],
   // ☺️ smiling face
   '263A': ['relaxed'],
   // 🙂 slightly smiling face
-  '1F642': ['slight_smile'],
+  '1F642': ['pleased'],
   // 🤗 hugging face
   '1F917': ['hugging'],
   // 🤩 star-struck
-  '1F929': ['star_struck'],
+  '1F929': ['starstruck'],
   // 🤔 thinking face
-  '1F914': ['thinking'],
+  '1F914': ['curious', 'thinking'],
   // 🤨 face with raised eyebrow
-  '1F928': ['raised_eyebrow'],
+  '1F928': ['contempt'],
   // 😐️ neutral face
-  '1F610': ['neutral'],
+  '1F610': ['indifferent', 'neutral'],
   // 😑 expressionless face
-  '1F611': ['expressionless'],
+  '1F611': ['apathetic', 'expressionless'],
   // 😶 face without mouth
-  '1F636': ['no_mouth'],
+  '1F636': ['vacant', 'no_mouth'],
   // 🙄 face with rolling eyes
-  '1F644': ['rolling_eyes'],
+  '1F644': ['disbelief'],
   // 😏 smirking face
-  '1F60F': ['smirk'],
+  '1F60F': ['cocky', 'smirk'],
   // 😣 persevering face
-  '1F623': ['persevere'],
+  '1F623': ['persevered'],
   // 😥 disappointed but relieved face
-  '1F625': ['disappointed_relieved'],
+  '1F625': ['hopeful'],
   // 😮 face with open mouth
-  '1F62E': ['open_mouth'],
+  '1F62E': ['surprised'],
   // 🤐 zipper-mouth face
-  '1F910': ['zipper_mouth'],
+  '1F910': ['silenced', 'zipper_mouth'],
   // 😯 hushed face
   '1F62F': ['hushed'],
   // 😪 sleepy face
@@ -117,35 +122,35 @@ module.exports = {
   // 😫 tired face
   '1F62B': ['tired'],
   // 😴 sleeping face
-  '1F634': ['sleeping'],
+  '1F634': ['exhausted', 'sleeping'],
   // 😌 relieved face
   '1F60C': ['relieved'],
   // 😛 face with stuck-out tongue
-  '1F61B': ['tongue_out'],
+  '1F61B': ['playful', 'tongue_out'],
   // 😜 face with stuck-out tongue & winking eye
-  '1F61C': ['tongue_out_wink'],
+  '1F61C': ['mischievous'],
   // 😝 face with stuck-out tongue & closed eyes
-  '1F61D': ['tongue_out_closed_eyes'],
+  '1F61D': ['facetious', 'lmao'],
   // 🤤 drooling face
   '1F924': ['drooling'],
   // 😒 unamused face
   '1F612': ['unamused'],
   // 😓 face with cold sweat
-  '1F613': ['sweat'],
+  '1F613': ['shamed'],
   // 😔 pensive face
   '1F614': ['pensive'],
   // 😕 confused face
   '1F615': ['confused'],
   // 🙃 upside-down face
-  '1F643': ['upside_down'],
+  '1F643': ['ecstatic', 'upside_down'],
   // 🤑 money-mouth face
-  '1F911': ['money_mouth'],
+  '1F911': ['pretentious', 'money_mouth'],
   // 😲 astonished face
   '1F632': ['astonished'],
   // ☹️ frowning face
-  '2639': ['frowning'],
+  '2639': ['sad', 'frowning'],
   // 🙁 slightly frowning face
-  '1F641': ['slight_frown'],
+  '1F641': ['cheerless'],
   // 😖 confounded face
   '1F616': ['confounded'],
   // 😞 disappointed face
@@ -153,27 +158,27 @@ module.exports = {
   // 😟 worried face
   '1F61F': ['worried'],
   // 😤 face with steam from nose
-  '1F624': ['hrmph'],
+  '1F624': ['annoyed', 'hrmph'],
   // 😢 crying face
-  '1F622': ['cry'],
+  '1F622': ['upset', 'cry'],
   // 😭 loudly crying face
-  '1F62D': ['sob'],
+  '1F62D': ['distressed', 'sob'],
   // 😦 frowning face with open mouth
-  '1F626': ['wide_frowning'],
+  '1F626': ['bored'],
   // 😧 anguished face
-  '1F627': ['anguished'],
+  '1F627': ['anguished', 'wtf'],
   // 😨 fearful face
   '1F628': ['fearful'],
   // 😩 weary face
   '1F629': ['weary'],
   // 🤯 exploding head
-  '1F92F': ['exploding_head'],
+  '1F92F': ['shocked', 'exploding_head'],
   // 😬 grimacing face
-  '1F62C': ['grimacing'],
+  '1F62C': ['grimaced'],
   // 😰 face with open mouth & cold sweat
-  '1F630': ['cold_sweat'],
+  '1F630': ['frustrated'],
   // 😱 face screaming in fear
-  '1F631': ['scream'],
+  '1F631': ['frightened', 'scream'],
   // 😳 flushed face
   '1F633': ['flushed'],
   // 🤪 crazy face
@@ -181,17 +186,17 @@ module.exports = {
   // 😵 dizzy face
   '1F635': ['dizzy'],
   // 😡 pouting face
-  '1F621': ['rage', 'pout'],
+  '1F621': ['enraged', 'pout'],
   // 😠 angry face
   '1F620': ['angry'],
   // 🤬 face with symbols over mouth
   '1F92C': ['censored'],
   // 😷 face with medical mask
-  '1F637': ['mask'],
+  '1F637': ['ill', 'mask'],
   // 🤒 face with thermometer
   '1F912': ['sick'],
   // 🤕 face with head-bandage
-  '1F915': ['head_bandage'],
+  '1F915': ['injured'],
   // 🤢 nauseated face
   '1F922': ['nauseated'],
   // 🤮 face vomiting
@@ -241,11 +246,11 @@ module.exports = {
   // 😸 grinning cat face with smiling eyes
   '1F638': ['grinning_cat'],
   // 😹 cat face with tears of joy
-  '1F639': ['joy_cat'],
+  '1F639': ['joyful_cat'],
   // 😻 smiling cat face with heart-eyes
-  '1F63B': ['heart_eyes_cat'],
+  '1F63B': ['lovestruck_cat'],
   // 😼 cat face with wry smile
-  '1F63C': ['smirk_cat'],
+  '1F63C': ['smirking_cat'],
   // 😽 kissing cat face with closed eyes
   '1F63D': ['kissing_cat'],
   // 🙀 weary cat face
@@ -813,7 +818,7 @@ module.exports = {
   // 👄 mouth
   '1F444': ['lips'],
   // 💋 kiss mark
-  '1F48B': ['kiss'],
+  '1F48B': ['kiss_lips'],
   // 💘 heart with arrow
   '1F498': ['cupid'],
   // ❤️ red heart
@@ -911,7 +916,7 @@ module.exports = {
   // 🎒 school backpack
   '1F392': ['backpack'],
   // 👞 man’s shoe
-  '1F45E': ['mans_shoe'],
+  '1F45E': ['dress_shoe', 'mans_shoe'],
   // 👟 running shoe
   '1F45F': ['sneaker', 'athletic_shoe'],
   // 👠 high-heeled shoe

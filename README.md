@@ -303,10 +303,12 @@ Emojibase aims to solve this problem with a [maintained and curated list of shor
 that abide the following guidelines:
 
 * Must be short and succinct. Easy to type, easy to remember. This infers a small filesize.
-* Must be descriptive nouns over verbose phrases. For example, "storm" over "cloud with
-  lightning and rain".
 * Must be consistent across locales and languages by utilizing English shortcodes.
   It's a language common amongst supported locales.
+* Must use descriptive nouns over verbose phrases. For example, "storm" over "cloud with
+  lightning and rain".
+* Must use emotions when describing smileys. For example, "happy" over "smiling face with
+  open mouth & smiling eyes".
 * Must keep backwards compatibility and historical integrity by never removing and
   renaming shortcodes.
 * Must support multiple shortcodes per emoji character, for usage within different contexts.
@@ -416,31 +418,31 @@ fromUnicodeToHexcode('👨‍👩‍👧‍👦', false); // 1F468-200D-1F469-20
 | emojibase-data | Filesize | Gzipped |
 | --- | --- | --- |
 | meta/groups.json | 2.85 KB | 943 B |
-| meta/shortcodes.json | 23.93 KB | 7.18 KB |
+| meta/shortcodes.json | 24.16 KB | 7.29 KB |
 | meta/unicode.json | 45.08 KB | 8.55 KB |
 | versions/emoji.json | 52.29 KB | 7.23 KB |
 | versions/unicode.json | 52.41 KB | 7.35 KB |
 | meta/hexcodes.json | 56.24 KB | 8.52 KB |
-| zh/compact.json | 592.33 KB | 60.93 KB |
-| fr/compact.json | 592.43 KB | 57.53 KB |
-| da/compact.json | 609.5 KB | 60.23 KB |
-| de/compact.json | 615.02 KB | 61.82 KB |
-| en/compact.json | 627.26 KB | 60.29 KB |
-| ko/compact.json | 628.95 KB | 65.82 KB |
-| es/compact.json | 629.93 KB | 62.92 KB |
-| it/compact.json | 630.83 KB | 63.29 KB |
-| ja/compact.json | 638.19 KB | 60.47 KB |
-| ru/compact.json | 679.77 KB | 69.14 KB |
-| zh/data.json | 848.47 KB | 82.47 KB |
-| fr/data.json | 848.57 KB | 79.06 KB |
-| da/data.json | 865.64 KB | 81.69 KB |
-| de/data.json | 871.16 KB | 83.18 KB |
-| en/data.json | 883.4 KB | 81.31 KB |
-| ko/data.json | 885.09 KB | 87.76 KB |
-| es/data.json | 886.07 KB | 84.47 KB |
-| it/data.json | 886.97 KB | 84.81 KB |
-| ja/data.json | 894.33 KB | 81.67 KB |
-| ru/data.json | 935.91 KB | 91.13 KB |
+| zh/compact.json | 592.65 KB | 61.11 KB |
+| fr/compact.json | 592.75 KB | 57.68 KB |
+| da/compact.json | 609.82 KB | 60.38 KB |
+| de/compact.json | 615.34 KB | 61.99 KB |
+| en/compact.json | 627.58 KB | 60.44 KB |
+| ko/compact.json | 629.27 KB | 66.02 KB |
+| es/compact.json | 630.25 KB | 63.07 KB |
+| it/compact.json | 631.15 KB | 63.45 KB |
+| ja/compact.json | 638.51 KB | 60.62 KB |
+| ru/compact.json | 680.09 KB | 69.33 KB |
+| zh/data.json | 848.79 KB | 82.69 KB |
+| fr/data.json | 848.89 KB | 79.24 KB |
+| da/data.json | 865.96 KB | 81.87 KB |
+| de/data.json | 871.48 KB | 83.38 KB |
+| en/data.json | 883.72 KB | 81.49 KB |
+| ko/data.json | 885.41 KB | 87.96 KB |
+| es/data.json | 886.39 KB | 84.65 KB |
+| it/data.json | 887.29 KB | 84.98 KB |
+| ja/data.json | 894.65 KB | 81.85 KB |
+| ru/data.json | 936.23 KB | 91.32 KB |
 
 | emojibase-regex | Filesize | Gzipped |
 | --- | --- | --- |
