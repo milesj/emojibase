@@ -47,6 +47,10 @@ function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): FinalEm
     emoji.text = toUnicode(baseEmoji.variations.text);
   }
 
+  if ('emoticon' in baseEmoji) {
+    emoji.emoticon = baseEmoji.emoticon;
+  }
+
   // Annotations
   const hexcodeWithoutModifiers = cleanHexcode(baseEmoji.hexcode); // No ZWJ, selectors
   const annotation = annotations[hexcodeWithoutModifiers];
