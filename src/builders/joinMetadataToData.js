@@ -10,7 +10,13 @@ import {
 } from '../../packages/emojibase/lib/constants';
 import hasProperty from '../helpers/hasProperty';
 
-import type { UnicodeNamesMap, EmojiGroupMap, EmojiVariationMap, ShortcodeMap } from '../types';
+import type {
+  UnicodeNamesMap,
+  EmojiGroupMap,
+  EmojiVariationMap,
+  ShortcodeMap,
+  EmoticonMap,
+} from '../types';
 
 export default async function joinMetadataToData(
   emojis: Object,
@@ -18,6 +24,7 @@ export default async function joinMetadataToData(
   groups: EmojiGroupMap,
   variations: EmojiVariationMap,
   shortcodes: ShortcodeMap,
+  emoticons: EmoticonMap,
 ) {
   Object.keys(emojis).forEach((hexcode) => {
     const emoji = emojis[hexcode];
@@ -67,6 +74,11 @@ export default async function joinMetadataToData(
         emoji: variations[hexcode].emoji,
         text: variations[hexcode].text,
       };
+    }
+
+    // Pull in emoticon
+    if (emoticons[hexcode]) {
+      emoji.emoticon = emoticons[hexcode];
     }
 
     // Pull in the shortcodes

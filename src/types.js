@@ -84,6 +84,8 @@ export type EmojiVariation = {
 
 export type EmojiVariationMap = HexcodeMap<EmojiVariation>;
 
+export type EmoticonMap = { [hexcode: string]: string };
+
 export type FinalEmoji = {
   annotation?: string,
   emoji: string,
