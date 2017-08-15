@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@milesj/build-tool-config@^0.18.0":
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/@milesj/build-tool-config/-/build-tool-config-0.18.0.tgz#41901165fcd49427ccdb9bfba7996b9646daae42"
+"@milesj/build-tool-config@^0.18.1":
+  version "0.18.1"
+  resolved "https://registry.yarnpkg.com/@milesj/build-tool-config/-/build-tool-config-0.18.1.tgz#1f54b00c08cfb2a45353f6fa70e4a9abe305d0f9"
   dependencies:
     babel-cli "^6.24.1"
     babel-eslint "^7.2.0"
@@ -27,7 +27,7 @@
     eslint-plugin-jest "^20.0.3"
     eslint-plugin-jsx-a11y "^5.1.1"
     eslint-plugin-promise "^3.5.0"
-    eslint-plugin-react "^7.2.0"
+    eslint-plugin-react "^7.2.1"
     eslint-plugin-unicorn "^2.1.2"
     flow-bin "^0.52.0"
     jest "^20.0.4"
@@ -36,7 +36,7 @@
     react-dom "^15.6.1"
     react-test-renderer "^15.6.1"
     rimraf "^2.6.1"
-    rollup "^0.46.3"
+    rollup "^0.47.4"
     rollup-plugin-babel "^3.0.1"
     rollup-plugin-commonjs "^8.1.0"
     rollup-plugin-json "^2.3.0"
@@ -1888,9 +1888,9 @@ eslint-plugin-promise@^3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.5.0.tgz#78fbb6ffe047201627569e85a6c5373af2a68fca"
 
-eslint-plugin-react@^7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.2.0.tgz#25c77a4ec307e3eebb248ea3350960e372ab6406"
+eslint-plugin-react@^7.2.1:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.2.1.tgz#c2673526ed6571b08c69c5f453d03f5f13e8ddbe"
   dependencies:
     doctrine "^2.0.0"
     has "^1.0.1"
@@ -4357,9 +4357,9 @@ rollup-watch@^4.3.1:
     require-relative "0.8.7"
     rollup-pluginutils "^2.0.1"
 
-rollup@^0.46.3:
-  version "0.46.3"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.46.3.tgz#40b408a202b2273ba0318e9672c51290fe33ea11"
+rollup@^0.47.4:
+  version "0.47.4"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.47.4.tgz#e3a55de83a78221d232ce29619a8d68189ae845e"
 
 run-async@^2.2.0:
   version "2.3.0"
