@@ -9,6 +9,7 @@ import flattenEmojiData from './flattenEmojiData';
 import fromCodepointToUnicode from './fromCodepointToUnicode';
 import fromHexcodeToCodepoint from './fromHexcodeToCodepoint';
 import fromUnicodeToHexcode from './fromUnicodeToHexcode';
+import generateEmoticonPermutations from './generateEmoticonPermutations';
 
 export {
   fetchFromCDN,
@@ -16,4 +17,5 @@ export {
   fromCodepointToUnicode,
   fromHexcodeToCodepoint,
   fromUnicodeToHexcode,
+  generateEmoticonPermutations,
 };
