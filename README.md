@@ -25,6 +25,8 @@ localized emoji JSON datasets and regex patterns.
   * [Unicode Property Support](#unicode-property-support)
 * [Shortcodes](#shortcodes)
   * [Official List][scodes]
+* [Emoticons](#emoticons)
+  * [Official List][emos]
 * [API](#api)
   * [fetchFromCDN](#fetchfromcdn)
   * [flattenEmojiData](#flattenemojidata)
@@ -247,19 +249,24 @@ and the last to match shortcodes.
 * `emojibase-regex` - Matches both emoji and text presentation characters.
 * `emojibase-regex/emoji` - Matches only emoji presentation characters.
 * `emojibase-regex/text` - Matches only text presentation characters.
-* `emojibase-regex/shortcode` - Matches only emoji shortcodes.
+* `emojibase-regex/emoticon` - Matches supported emoticons and their permutations.
+* `emojibase-regex/shortcode` - Matches supported shortcodes.
 
 Each of these imports return a `RegExp` instance with no flags defined.
 
 ```javascript
 import EMOJI_REGEX from 'emojibase-regex';
+import EMOTICON_REGEX from 'emojibase-regex/emoticon';
 import SHORTCODE_REGEX from 'emojibase-regex/shortcode';
 
 `🏰`.match(EMOJI_REGEX);
+':)'.match(EMOTICON_REGEX);
 ':castle:'.match(SHORTCODE_REGEX);
 ```
 
 > The `u` (unicode) and `g` (global) flags are not defined on these patterns.
+
+> The emoticon regex does not include word boundaries.
 
 #### Unicode Codepoint Support
 
@@ -313,6 +320,10 @@ that abide the following guidelines:
   renaming shortcodes.
 * Must support multiple shortcodes per emoji character, for usage within different contexts.
 * Must align with or base off [CLDR 31][cldr] annotations.
+
+### Emoticons
+
+TODO
 
 ### API
 
@@ -418,31 +429,31 @@ fromUnicodeToHexcode('👨‍👩‍👧‍👦', false); // 1F468-200D-1F469-20
 | emojibase-data | Filesize | Gzipped |
 | --- | --- | --- |
 | meta/groups.json | 2.85 KB | 943 B |
-| meta/shortcodes.json | 24.16 KB | 7.29 KB |
+| meta/shortcodes.json | 24.2 KB | 7.31 KB |
 | meta/unicode.json | 45.08 KB | 8.55 KB |
 | versions/emoji.json | 52.29 KB | 7.23 KB |
 | versions/unicode.json | 52.41 KB | 7.35 KB |
 | meta/hexcodes.json | 56.24 KB | 8.52 KB |
-| zh/compact.json | 592.65 KB | 61.11 KB |
-| fr/compact.json | 592.75 KB | 57.68 KB |
-| da/compact.json | 609.82 KB | 60.38 KB |
-| de/compact.json | 615.34 KB | 61.99 KB |
-| en/compact.json | 627.58 KB | 60.44 KB |
-| ko/compact.json | 629.27 KB | 66.02 KB |
-| es/compact.json | 630.25 KB | 63.07 KB |
-| it/compact.json | 631.15 KB | 63.45 KB |
-| ja/compact.json | 638.51 KB | 60.62 KB |
-| ru/compact.json | 680.09 KB | 69.33 KB |
-| zh/data.json | 848.79 KB | 82.69 KB |
-| fr/data.json | 848.89 KB | 79.24 KB |
-| da/data.json | 865.96 KB | 81.87 KB |
-| de/data.json | 871.48 KB | 83.38 KB |
-| en/data.json | 883.72 KB | 81.49 KB |
-| ko/data.json | 885.41 KB | 87.96 KB |
-| es/data.json | 886.39 KB | 84.65 KB |
-| it/data.json | 887.29 KB | 84.98 KB |
-| ja/data.json | 894.65 KB | 81.85 KB |
-| ru/data.json | 936.23 KB | 91.32 KB |
+| zh/compact.json | 592.7 KB | 61.12 KB |
+| fr/compact.json | 592.81 KB | 57.7 KB |
+| da/compact.json | 609.87 KB | 60.4 KB |
+| de/compact.json | 615.39 KB | 62.01 KB |
+| en/compact.json | 627.64 KB | 60.46 KB |
+| ko/compact.json | 629.32 KB | 66.04 KB |
+| es/compact.json | 630.3 KB | 63.09 KB |
+| it/compact.json | 631.2 KB | 63.47 KB |
+| ja/compact.json | 638.56 KB | 60.64 KB |
+| ru/compact.json | 680.14 KB | 69.36 KB |
+| zh/data.json | 849.6 KB | 82.9 KB |
+| fr/data.json | 849.71 KB | 79.47 KB |
+| da/data.json | 866.77 KB | 82.1 KB |
+| de/data.json | 872.29 KB | 83.6 KB |
+| en/data.json | 884.54 KB | 81.69 KB |
+| ko/data.json | 886.22 KB | 88.18 KB |
+| es/data.json | 887.2 KB | 84.84 KB |
+| it/data.json | 888.1 KB | 85.18 KB |
+| ja/data.json | 895.46 KB | 82.09 KB |
+| ru/data.json | 937.04 KB | 91.52 KB |
 
 | emojibase-regex | Filesize | Gzipped |
 | --- | --- | --- |
@@ -450,6 +461,7 @@ fromUnicodeToHexcode('👨‍👩‍👧‍👦', false); // 1F468-200D-1F469-20
 | property/text.js | 37 B | 57 B |
 | property/emoji.js | 102 B | 92 B |
 | property/index.js | 114 B | 101 B |
+| emoticon.js | 389 B | 199 B |
 | text.js | 2.53 KB | 1006 B |
 | codepoint/text.js | 3.28 KB | 1.04 KB |
 | emoji.js | 6.63 KB | 1.79 KB |
@@ -459,5 +471,6 @@ fromUnicodeToHexcode('👨‍👩‍👧‍👦', false); // 1F468-200D-1F469-20
 
 [cdn]: https://cdn.jsdelivr.net/npm/emojibase-data@latest/
 [cldr]: http://cldr.unicode.org/index/downloads/cldr-31
+[emos]: https://github.com/milesj/emojibase/blob/master/src/resources/emoticons.js
 [scodes]: https://github.com/milesj/emojibase/blob/master/src/resources/shortcodes.js
 [ucd]: http://unicode.org/Public/10.0.0/ucd/UnicodeData.txt

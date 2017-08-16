@@ -8,6 +8,7 @@
 
 // $FlowIgnore Laziness
 import { Trie } from 'regexgen';
+import generateEmoticonPermutations from '../../packages/emojibase/lib/generateEmoticonPermutations';
 import buildEmojiData from '../builders/buildEmojiData';
 import cleanHexcode from '../helpers/cleanHexcode';
 import log from '../helpers/log';
@@ -32,7 +33,7 @@ function createRegexPattern(
   )).join('|');
 }
 
-function createRegexTrie(data: Object, display: string = 'both') {
+function createEmojiRegex(data: Object, display: string = 'both') {
   const fileName = (display === 'both') ? 'index' : display;
   const codePointGroups = {
     '4': new Trie(),
@@ -66,8 +67,32 @@ function createRegexTrie(data: Object, display: string = 'both') {
 
   writeRegex(`${fileName}.js`, createRegexPattern(codePointGroups, display));
   writeRegex(`codepoint/${fileName}.js`, createRegexPattern(codePointGroups, display, true), 'u');
+}
 
-  return codePointGroups;
+function createEmoticonRegex(data: Object) {
+  const trie = new Trie();
+  let emoticons = [];
+
+  Object.keys(data).forEach((hexcode) => {
+    const { emoticon } = data[hexcode];
+
+    if (emoticon) {
+      emoticons = emoticons.concat(generateEmoticonPermutations(emoticon));
+    }
+  });
+
+  // Remove duplicates
+  emoticons = Array.from(new Set(emoticons));
+
+  // Sort with longest first
+  emoticons.sort((a, b) => b.length - a.length);
+
+  // Add to trie and generate
+  emoticons.forEach((emoticon) => {
+    trie.add(emoticon);
+  });
+
+  writeRegex('emoticon.js', trie.toRegExp().source);
 }
 
 export default async function generateRegex() {
@@ -75,9 +100,10 @@ export default async function generateRegex() {
 
   const data = flattenData(filterData(await buildEmojiData()));
 
-  createRegexTrie(data, 'both');
-  createRegexTrie(data, 'emoji');
-  createRegexTrie(data, 'text');
+  createEmojiRegex(data, 'both');
+  createEmojiRegex(data, 'emoji');
+  createEmojiRegex(data, 'text');
+  createEmoticonRegex(data);
 
   log.success('regex', 'Generated regex patterns');
 }

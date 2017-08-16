@@ -1,8 +1,10 @@
 import loadFlatEmojiData from '../../emojibase-test-utils/src/loadFlatEmojiData';
+import generateEmoticonPermutations from '../../emojibase/src/generateEmoticonPermutations';
 import EMOJI_PATTERN from '../index';
 import EMOJI_CODEPOINT_PATTERN from '../codepoint';
 // import EMOJI_UNICODE_PROPERTY_PATTERN from '../property';
 import SHORTCODE_PATTERN from '../shortcode';
+import EMOTICON_PATTERN from '../emoticon';
 
 const PATTERN_DESCRIPTIONS = [
   'standard regex',
@@ -66,5 +68,13 @@ describe('regex', () => {
         expect(matches.length).toBe(3);
       });
     });
+
+    if (emoji.emoticon) {
+      generateEmoticonPermutations(emoji.emoticon).forEach((emoticon) => {
+        it(`matches emoticon variation ${emoticon}`, () => {
+          expect(emoticon).toMatch(EMOTICON_PATTERN);
+        });
+      });
+    }
   });
 });

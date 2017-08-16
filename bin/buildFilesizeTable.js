@@ -15,15 +15,17 @@ function calculatePackage(packageName) {
       return;
     }
 
-    const rows = files.map((file) => {
-      const data = fs.readFileSync(file, 'utf8');
+    const rows = files
+      .filter(file => !file.includes('tests'))
+      .map((file) => {
+        const data = fs.readFileSync(file, 'utf8');
 
-      return {
-        file: file.replace(`${process.cwd()}/packages/${packageName}/`, ''),
-        size: Buffer.byteLength(data),
-        gzip: gzip.sync(data),
-      };
-    });
+        return {
+          file: file.replace(`${process.cwd()}/packages/${packageName}/`, ''),
+          size: Buffer.byteLength(data),
+          gzip: gzip.sync(data),
+        };
+      });
 
     rows.sort((a, b) => a.size - b.size);
 
