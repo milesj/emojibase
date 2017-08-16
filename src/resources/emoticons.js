@@ -22,6 +22,9 @@
  *  - Only use "/". The opposite "\" variant is
  *    automatically generated.
  *
+ *  - Only use ":" for eyes. The alternate "=" variant
+ *    is automatically generated.
+ *
  *  - Lowercase all letters excluding "D". Uppercase
  *    variants are automatically generated.
  */

@@ -12,7 +12,17 @@ export default function extractSubset(data: FinalEmoji[], format: string): Final
   data.forEach((datum) => {
     switch (format) {
       case 'compact': {
-        const { hexcode, shortcodes, emoji, order, group, annotation, tags, skins } = datum;
+        const {
+          hexcode,
+          shortcodes,
+          emoji,
+          emoticon,
+          order,
+          group,
+          annotation,
+          tags,
+          skins,
+        } = datum;
         const nextDatum: FinalEmoji = {
           hexcode,
           shortcodes,
@@ -22,6 +32,10 @@ export default function extractSubset(data: FinalEmoji[], format: string): Final
           annotation,
           tags,
         };
+
+        if (emoticon) {
+          nextDatum.emoticon = emoticon;
+        }
 
         if (skins) {
           nextDatum.skins = extractSubset(skins, format);
