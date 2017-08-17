@@ -57,6 +57,8 @@ module.exports = {
   '1F606': 'xD',
   // 😛 face with stuck-out tongue
   '1F61B': ':p',
+  // 😜 face with stuck-out tongue & winking eye
+  '1F61C': ';p',
   // 😝 face with stuck-out tongue & closed eyes
   '1F61D': 'xp',
   // 😏 smirking face
@@ -101,6 +103,8 @@ module.exports = {
   '1F621': '>:/',
   // 👿 angry face with horns
   '1F47F': '>:(',
+  // 😫 tired face
+  '1F62B': ':c',
 
   // MISC
   // 🤔 thinking face
@@ -117,4 +121,22 @@ module.exports = {
   '1F633': ':$',
   // 😶 face without mouth
   '1F636': ':#',
+
+  // SPECIAL
+  // 🤓 nerd face
+  '1F913': ':B',
+  // 🧙 mage
+  '1F9D9': '<:)',
+  // 🧛 vampire
+  '1F9DB': ':E',
+  // 🧟 zombie
+  '1F9DF': '8#',
+
+  // SYMBOLS
+  // ❤️ red heart
+  '2764': '<3',
+  // 💔 broken heart
+  '1F494': '</3',
+  // 🤘 sign of the horns
+  '1F918': '\\m/',
 };

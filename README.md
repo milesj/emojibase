@@ -324,7 +324,16 @@ that abide the following guidelines:
 
 ### Emoticons
 
-TODO
+Emoticons, like shortcodes, are [maintained and curated][emos] for integrity and accuracy,
+seeing as how there are so many variations (`:)` vs `=]` vs `;}`). Do we support `:` or `=`
+for eyes? What about `)`, `]`, or `}` for mouths? Or maybe a nose with `-`?
+
+Emojibase solves this with a set of naming guidelines and the ability to
+[generate emoticon permutations](#generateemoticonpermutations). With this in place,
+a single emoticon can be defined per emoji, reducing the overall filesize and
+maintenance overhead.
+
+> Only Western styled emoticons are currently supported.
 
 ### API
 
@@ -455,26 +464,26 @@ generateEmoticonPermutations(':)'); // =-), =-}, :-], =-], :-}, :-), =}, =], =),
 | versions/emoji.json | 52.29 KB | 7.23 KB |
 | versions/unicode.json | 52.41 KB | 7.35 KB |
 | meta/hexcodes.json | 56.24 KB | 8.52 KB |
-| zh/compact.json | 593.53 KB | 61.33 KB |
-| fr/compact.json | 593.63 KB | 57.89 KB |
-| da/compact.json | 610.7 KB | 60.6 KB |
-| de/compact.json | 616.21 KB | 62.21 KB |
-| en/compact.json | 628.46 KB | 60.62 KB |
-| ko/compact.json | 630.14 KB | 66.26 KB |
-| es/compact.json | 631.13 KB | 63.28 KB |
-| it/compact.json | 632.03 KB | 63.67 KB |
-| ja/compact.json | 639.38 KB | 60.83 KB |
-| ru/compact.json | 680.97 KB | 69.55 KB |
-| zh/data.json | 849.67 KB | 82.91 KB |
-| fr/data.json | 849.77 KB | 79.48 KB |
-| da/data.json | 866.84 KB | 82.1 KB |
-| de/data.json | 872.36 KB | 83.6 KB |
-| en/data.json | 884.6 KB | 81.69 KB |
-| ko/data.json | 886.28 KB | 88.18 KB |
-| es/data.json | 887.27 KB | 84.85 KB |
-| it/data.json | 888.17 KB | 85.19 KB |
-| ja/data.json | 895.53 KB | 82.1 KB |
-| ru/data.json | 937.11 KB | 91.53 KB |
+| zh/compact.json | 593.75 KB | 61.4 KB |
+| fr/compact.json | 593.85 KB | 57.96 KB |
+| da/compact.json | 610.92 KB | 60.68 KB |
+| de/compact.json | 616.44 KB | 62.28 KB |
+| en/compact.json | 628.69 KB | 60.67 KB |
+| ko/compact.json | 630.37 KB | 66.34 KB |
+| es/compact.json | 631.35 KB | 63.35 KB |
+| it/compact.json | 632.25 KB | 63.73 KB |
+| ja/compact.json | 639.61 KB | 60.9 KB |
+| ru/compact.json | 681.19 KB | 69.64 KB |
+| zh/data.json | 849.89 KB | 82.99 KB |
+| fr/data.json | 850 KB | 79.55 KB |
+| da/data.json | 867.06 KB | 82.18 KB |
+| de/data.json | 872.58 KB | 83.68 KB |
+| en/data.json | 884.83 KB | 81.76 KB |
+| ko/data.json | 886.51 KB | 88.26 KB |
+| es/data.json | 887.49 KB | 84.92 KB |
+| it/data.json | 888.39 KB | 85.25 KB |
+| ja/data.json | 895.75 KB | 82.18 KB |
+| ru/data.json | 937.33 KB | 91.61 KB |
 
 | emojibase-regex | Filesize | Gzipped |
 | --- | --- | --- |
@@ -482,7 +491,7 @@ generateEmoticonPermutations(':)'); // =-), =-}, :-], =-], :-}, :-), =}, =], =),
 | property/text.js | 37 B | 57 B |
 | property/emoji.js | 102 B | 92 B |
 | property/index.js | 114 B | 101 B |
-| emoticon.js | 391 B | 204 B |
+| emoticon.js | 479 B | 245 B |
 | text.js | 2.53 KB | 1006 B |
 | codepoint/text.js | 3.28 KB | 1.04 KB |
 | emoji.js | 6.63 KB | 1.79 KB |

@@ -404,7 +404,7 @@ module.exports = {
   // 🤱 breast-feeding
   '1F931': ['breast_feeding'],
   // 👼 baby angel
-  '1F47C': ['angel'],
+  '1F47C': ['baby_angel'],
   // 🎅 Santa Claus
   '1F385': ['santa'],
   // 🤶 Mrs. Claus
