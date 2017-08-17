@@ -38,6 +38,7 @@ export type Emoji = {
   name: string,
   variations: EmojiVariation,
   shortcodes: string[],
+  emoticon: string,
 };
 
 export type EmojiMap = HexcodeMap<Emoji>;

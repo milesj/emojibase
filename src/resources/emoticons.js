@@ -31,8 +31,8 @@
 
 module.exports = {
   // HAPPY
-  // 😄 smiling face with open mouth & smiling eyes
-  '1F604': ':)',
+  // 🙂 slightly smiling face
+  '1F642': ':)',
   // 😁 grinning face with smiling eyes
   '1F601': ':D',
   // 😊 smiling face with smiling eyes
@@ -50,9 +50,11 @@ module.exports = {
 
   // PLAYFUL
   // 😂 face with tears of joy
-  '1F602': 'xD',
+  '1F602': ':\')',
   // 🤣 rolling on the floor laughing
-  '1F923': ':\')',
+  '1F923': ':\'D',
+  // 😆 smiling face with open mouth & closed eyes
+  '1F606': 'xD',
   // 😛 face with stuck-out tongue
   '1F61B': ':p',
   // 😝 face with stuck-out tongue & closed eyes
@@ -61,10 +63,12 @@ module.exports = {
   '1F60F': ':j',
 
   // FLIRTY
-  // 😗 kissing face
-  '1F617': ':3',
+  // 😽 kissing cat face with closed eyes
+  '1F63D': ':3',
   // 😚 kissing face with closed eyes
   '1F61A': ':*',
+  // 😘 face blowing a kiss
+  '1F618': ':x',
 
   // NEUTRAL
   // 😐️ neutral face
@@ -76,7 +80,7 @@ module.exports = {
   // 😓 face with cold sweat
   '1F613': ':<',
   // 🤐 zipper-mouth face
-  '1F910': ':x',
+  '1F910': ':z',
 
   // SAD
   // ☹️ frowning face
@@ -91,6 +95,8 @@ module.exports = {
   '1F62D': ':\'o',
   // 😩 weary face
   '1F629': 'D:',
+  // 😱 face screaming in fear
+  '1F631': 'Dx',
   // 😡 pouting face
   '1F621': '>:/',
   // 👿 angry face with horns

@@ -19,6 +19,7 @@ import type { EmojiMap } from '../types';
 
 export default function verifyData(emojis: EmojiMap): EmojiMap {
   const usedShortcodes = {};
+  const usedEmoticons = {};
 
   Object.keys(emojis).forEach((hexcode) => {
     const emoji = emojis[hexcode];
@@ -92,6 +93,17 @@ export default function verifyData(emojis: EmojiMap): EmojiMap {
 
       if (used.length > 0) {
         errors.push(`Shortcodes have been used elsewhere: ${used.join(', ')}`);
+      }
+    }
+
+    // Verify that no emoticons have been duplicated
+    if (emoji.emoticon) {
+      const { emoticon } = emoji;
+
+      if (usedEmoticons[emoticon]) {
+        errors.push(`Emoticon has been used elsewhere: ${usedEmoticons[emoticon].name}`);
+      } else {
+        usedEmoticons[emoticon] = emoji;
       }
     }
 

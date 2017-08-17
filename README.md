@@ -4,10 +4,10 @@
 > Emojibase, the ultimate emoji database.
 
 A collection of lightweight, up-to-date, pre-generated, specification compliant,
-localized emoji JSON datasets and regex patterns.
+localized emoji JSON datasets, regex patterns, and more.
 
 * Supports the latest [Emoji 5](https://emojipedia.org/emoji-5.0/),
-  [Unicode 10](http://unicode.org/versions/Unicode10.0.0/), and [CLDR 31][cldr] version releases
+  [Unicode 10](http://unicode.org/versions/Unicode10.0.0/), and [CLDR 31][cldr] release versions
 * Built directly from the [emoji source data files](http://unicode.org/Public/emoji/)
 * Based on the official [Unicode Technical Standard #51](http://www.unicode.org/reports/tr51/)
 * With localization provided by [Unicode Technical Standard #35](http://unicode.org/reports/tr35/tr35-general.html#Annotations)
@@ -33,6 +33,7 @@ localized emoji JSON datasets and regex patterns.
   * [fromCodepointToUnicode](#fromcodepointtounicode)
   * [fromHexcodeToCodepoint](#fromhexcodetocodepoint)
   * [fromUnicodeToHexcode](#fromunicodetohexcode)
+  * [generateEmoticonPermutations](#generateemoticonpermutations)
 * [Filesizes](#filesizes)
 
 ### Datasets
@@ -51,9 +52,9 @@ yarn add emojibase-data
 
 #### Usage
 
-As stated previously, there are 3 groups of datasets, each serving a specific purpose.
+As stated, there are 3 groups of datasets, each serving a specific purpose.
 The first group, localized data, is exactly that, datasets with localization provided by
-[CLDR 31][cldr]. The following locales are current supported:
+[CLDR 31][cldr]. The following locales and languages are currently supported:
 
 * `emojibase-data/zh/data.json` - Chinese (zh)
 * `emojibase-data/da/data.json` - Danish (da)
@@ -73,9 +74,9 @@ These datasets return an array of emoji objects that adhere to the defined
 import emojis from 'emojibase-data/en/data.json';
 ```
 
-The second group, versioned data, provides datasets for emoji and Unicode version releases.
+The second group, versioned data, provides datasets for emoji and Unicode release versions.
 These datasets return a map, with the key being the version, and the value being an array of
-emoji hexcodes included in this version release.
+emoji hexcodes included in the associated release version.
 
 * `emojibase-data/versions/emoji.json` - Emoji characters grouped by emoji version.
 * `emojibase-data/versions/unicode.json` - Emoji characters grouped by Unicode version.
@@ -101,12 +102,12 @@ import { groups, subgroups, hierarchy } from 'emojibase-data/meta/groups.json';
 
 Each emoji character found within the pre-generated datasets are represented by an object
 composed of the properties listed below. In an effort to reduce the overall dataset filesize,
-most property values have been implemented using integers,
-[with associated constants](https://github.com/milesj/emojibase/blob/master/src/constants.js).
+most property values have been implemented using integers, [with associated constants][constants].
 
-* `annotation` (string) - A localized description, provided by [CLDR][cldr], primarily used
+* `annotation` (string) - A localized description, provided by [CLDR 31][cldr], primarily used
   for text-to-speech (TTS) and accessibility.
 * `emoji` (string) - The emoji presentation Unicode character.
+* `emoticon` (string) - If applicable, an emoticon representing the emoji character.
 * `gender` (number) - If applicable, the gender of the emoji character. `0` for female,
   `1` for male.
 * `group` (number) - The categorical group the emoji belongs to, ranging from `0` (smileys)
@@ -115,13 +116,13 @@ most property values have been implemented using integers,
   including zero width joiners and variation selectors.
 * `name` (string) - The generated name according to the official [Unicode data][ucd].
 * `order` (number) - The order in which emoji should be displayed on a device,
-  through a keyboard or picker.
+  through a keyboard or emoji picker.
 * `shortcodes` (string[]) - An array of community curated shortcodes.
   *Does not include surrounding colons*.
 * `skins` (emoji[]) - If applicable, an array of emoji objects for each skin tone modification,
   starting at light skin, and ending with dark skin.
 * `subgroup` (number) - The categorical subgroup the emoji belongs to, ranging from `0` to `75`.
-* `tags` (string[]) - An array of localized keywords, provided by [CLDR][cldr],
+* `tags` (string[]) - An array of localized keywords, provided by [CLDR 31][cldr],
   to use for searching and filtering.
 * `text` (string) - The text presentation Unicode character.
 * `tone` (number) - If applicable, the skin tone of the emoji character. `1` for light skin,
@@ -231,8 +232,8 @@ Learn more about the [`fetchFromCDN` API](#fetchFromCDN).
 
 Matching emoji characters within a string can be difficult, as multiple codepoints,
 surrogate pairs, variation selectors, zero width joiners, so on and so forth,
-must be taken into account. To make this whole process easier, 4 regex patterns
-are available in the `emojibase-regex` package for import.
+must be taken into account. To make this whole process easier, pre-built regex patterns
+are available in the `emojibase-regex` package.
 
 ```
 npm install emojibase-regex --save
@@ -242,9 +243,9 @@ yarn add emojibase-regex
 
 #### Usage
 
-As stated previously, there are 4 regex patterns. One for matching emoji presentation characters,
+As stated, there are 5 regex patterns. One for matching emoji presentation characters,
 one for matching text presentation characters, one for matching both types of characters,
-and the last to match shortcodes.
+and the last for matching shortcodes or emoticons.
 
 * `emojibase-regex` - Matches both emoji and text presentation characters.
 * `emojibase-regex/emoji` - Matches only emoji presentation characters.
@@ -259,9 +260,9 @@ import EMOJI_REGEX from 'emojibase-regex';
 import EMOTICON_REGEX from 'emojibase-regex/emoticon';
 import SHORTCODE_REGEX from 'emojibase-regex/shortcode';
 
-`🏰`.match(EMOJI_REGEX);
+`🙂`.match(EMOJI_REGEX);
 ':)'.match(EMOTICON_REGEX);
-':castle:'.match(SHORTCODE_REGEX);
+':pleased:'.match(SHORTCODE_REGEX);
 ```
 
 > The `u` (unicode) and `g` (global) flags are not defined on these patterns.
@@ -300,7 +301,7 @@ import PROPERTY_EMOJI_REGEX from 'emojibase-regex/property';
 Shortcodes are short and succinct words, surrounded by colons, representing emoji (`:cat:`).
 They're primarily used within forums, comments, message posts, and basically anywhere with
 user-to-user communication. They exist for situations where an emoji keyboard is not present,
-but emoji should be supported.
+but emoji characters should be supported.
 
 That being said, shortcodes are not officially supported by Unicode or any standard,
 and are entirely community driven. Because of this, shortcodes (also known as shortnames),
@@ -328,7 +329,8 @@ TODO
 ### API
 
 What kind of emoji database would this be without a few helper functions for easily
-using and working with emoji characters. These functions can be found in the `emojibase` package.
+using and working with emoji characters? A bad one, and thus, a handful of functions
+can be found in the `emojibase` package.
 
 ```
 npm install emojibase --save
@@ -424,6 +426,25 @@ fromUnicodeToHexcode('👨‍👩‍👧‍👦'); // 1F468-1F469-1F467-1F466
 fromUnicodeToHexcode('👨‍👩‍👧‍👦', false); // 1F468-200D-1F469-200D-1F467-200D-1F466
 ```
 
+#### generateEmoticonPermutations
+
+This function will generate multiple permutations of a base emoticon character.
+The following permutations will occur:
+
+* `)` mouth will be replaced with `]` and `}`. The same applies to sad/frowning mouths.
+* `/` mouth will be replaced with `\`.
+* `:` eyes will be replaced with `=`.
+* Supports a `-` nose, by injecting between the eyes and mouth.
+* Supports both uppercase and lowercase variants.
+
+```javascript
+import { generateEmoticonPermutations } from 'emojibase';
+
+generateEmoticonPermutations(':)'); // =-), =-}, :-], =-], :-}, :-), =}, =], =), :}, :], :)
+```
+
+> The base emoticon must follow a set of [naming guidelines][emos] to work properly.
+
 ### Filesizes
 
 | emojibase-data | Filesize | Gzipped |
@@ -434,26 +455,26 @@ fromUnicodeToHexcode('👨‍👩‍👧‍👦', false); // 1F468-200D-1F469-20
 | versions/emoji.json | 52.29 KB | 7.23 KB |
 | versions/unicode.json | 52.41 KB | 7.35 KB |
 | meta/hexcodes.json | 56.24 KB | 8.52 KB |
-| zh/compact.json | 592.7 KB | 61.12 KB |
-| fr/compact.json | 592.81 KB | 57.7 KB |
-| da/compact.json | 609.87 KB | 60.4 KB |
-| de/compact.json | 615.39 KB | 62.01 KB |
-| en/compact.json | 627.64 KB | 60.46 KB |
-| ko/compact.json | 629.32 KB | 66.04 KB |
-| es/compact.json | 630.3 KB | 63.09 KB |
-| it/compact.json | 631.2 KB | 63.47 KB |
-| ja/compact.json | 638.56 KB | 60.64 KB |
-| ru/compact.json | 680.14 KB | 69.36 KB |
-| zh/data.json | 849.6 KB | 82.9 KB |
-| fr/data.json | 849.71 KB | 79.47 KB |
-| da/data.json | 866.77 KB | 82.1 KB |
-| de/data.json | 872.29 KB | 83.6 KB |
-| en/data.json | 884.54 KB | 81.69 KB |
-| ko/data.json | 886.22 KB | 88.18 KB |
-| es/data.json | 887.2 KB | 84.84 KB |
-| it/data.json | 888.1 KB | 85.18 KB |
-| ja/data.json | 895.46 KB | 82.09 KB |
-| ru/data.json | 937.04 KB | 91.52 KB |
+| zh/compact.json | 593.53 KB | 61.33 KB |
+| fr/compact.json | 593.63 KB | 57.89 KB |
+| da/compact.json | 610.7 KB | 60.6 KB |
+| de/compact.json | 616.21 KB | 62.21 KB |
+| en/compact.json | 628.46 KB | 60.62 KB |
+| ko/compact.json | 630.14 KB | 66.26 KB |
+| es/compact.json | 631.13 KB | 63.28 KB |
+| it/compact.json | 632.03 KB | 63.67 KB |
+| ja/compact.json | 639.38 KB | 60.83 KB |
+| ru/compact.json | 680.97 KB | 69.55 KB |
+| zh/data.json | 849.67 KB | 82.91 KB |
+| fr/data.json | 849.77 KB | 79.48 KB |
+| da/data.json | 866.84 KB | 82.1 KB |
+| de/data.json | 872.36 KB | 83.6 KB |
+| en/data.json | 884.6 KB | 81.69 KB |
+| ko/data.json | 886.28 KB | 88.18 KB |
+| es/data.json | 887.27 KB | 84.85 KB |
+| it/data.json | 888.17 KB | 85.19 KB |
+| ja/data.json | 895.53 KB | 82.1 KB |
+| ru/data.json | 937.11 KB | 91.53 KB |
 
 | emojibase-regex | Filesize | Gzipped |
 | --- | --- | --- |
@@ -461,7 +482,7 @@ fromUnicodeToHexcode('👨‍👩‍👧‍👦', false); // 1F468-200D-1F469-20
 | property/text.js | 37 B | 57 B |
 | property/emoji.js | 102 B | 92 B |
 | property/index.js | 114 B | 101 B |
-| emoticon.js | 389 B | 199 B |
+| emoticon.js | 391 B | 204 B |
 | text.js | 2.53 KB | 1006 B |
 | codepoint/text.js | 3.28 KB | 1.04 KB |
 | emoji.js | 6.63 KB | 1.79 KB |
@@ -471,6 +492,7 @@ fromUnicodeToHexcode('👨‍👩‍👧‍👦', false); // 1F468-200D-1F469-20
 
 [cdn]: https://cdn.jsdelivr.net/npm/emojibase-data@latest/
 [cldr]: http://cldr.unicode.org/index/downloads/cldr-31
+[constants]: https://github.com/milesj/emojibase/blob/master/packages/emojibase/src/constants.js
 [emos]: https://github.com/milesj/emojibase/blob/master/src/resources/emoticons.js
 [scodes]: https://github.com/milesj/emojibase/blob/master/src/resources/shortcodes.js
 [ucd]: http://unicode.org/Public/10.0.0/ucd/UnicodeData.txt
