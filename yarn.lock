@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@milesj/build-tool-config@^0.18.2":
-  version "0.18.2"
-  resolved "https://registry.yarnpkg.com/@milesj/build-tool-config/-/build-tool-config-0.18.2.tgz#0ecf0e5b24f13ed74784c71451f36aa9c25a90de"
+"@milesj/build-tool-config@^0.18.3":
+  version "0.18.3"
+  resolved "https://registry.yarnpkg.com/@milesj/build-tool-config/-/build-tool-config-0.18.3.tgz#7bd7fa9bcf1aad7c626fe0005f5078570f6c6a9b"
   dependencies:
     babel-cli "^6.26.0"
     babel-eslint "^7.2.0"
@@ -29,7 +29,7 @@
     eslint-plugin-promise "^3.5.0"
     eslint-plugin-react "^7.2.1"
     eslint-plugin-unicorn "^2.1.2"
-    flow-bin "^0.53.0"
+    flow-bin "^0.53.1"
     jest "^20.0.4"
     json5 "^0.5.1"
     react "^15.6.1"
@@ -2321,9 +2321,9 @@ flat-cache@^1.2.1:
     graceful-fs "^4.1.2"
     write "^0.2.1"
 
-flow-bin@^0.53.0:
-  version "0.53.0"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.53.0.tgz#f7830e609ca02b12db4127114213cccc7c0771b9"
+flow-bin@^0.53.1:
+  version "0.53.1"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.53.1.tgz#9b22b63a23c99763ae533ebbab07f88c88c97d84"
 
 for-in@^1.0.1:
   version "1.0.2"
