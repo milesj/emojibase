@@ -14,8 +14,8 @@
     "jest": "NODE_ENV=test run-tests",
     "posttest": "yarn run flow",
     "pretest": "yarn run eslint",
-    "prerelease": "yarn run generate && yarn test",
-    "release": "lerna publish",
+    "publish": "yarn run build && yarn run test && lerna publish",
+    "publish:force": "npm run publish -- --force-publish=*",
     "test": "yarn run jest"
   },
   "repository": {
