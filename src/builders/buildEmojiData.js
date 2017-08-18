@@ -32,7 +32,7 @@ export default async function buildEmojiData(): Promise<EmojiMap> {
 
   log.title('build', 'Building emoji data');
 
-  // 1) Load and merge all emoji data from the latest version release
+  // 1) Load and merge all emoji data from the latest release version
   const emojis = {};
 
   joinData(emojis, await loadData());

@@ -9,9 +9,9 @@ import type { FinalEmoji } from '../../../src/types';
 export default function fetchFromCDN(
   path: string,
   version: string = 'latest',
+  options: Object = {},
 ): Promise<FinalEmoji[]> {
   if (__DEV__) {
-    // eslint-disable-next-line
     if (!path || path.slice(-5) !== '.json') {
       throw new Error('A valid JSON dataset is required to fetch.');
     }
@@ -26,6 +26,7 @@ export default function fetchFromCDN(
     mode: 'cors',
     redirect: 'error',
     credentials: 'omit',
+    ...options,
   }).then((response) => {
     if (response.ok) {
       return response.json();
