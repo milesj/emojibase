@@ -1,4 +1,4 @@
-# Emojibase Regex v1.0.0
+# Emojibase Regex
 
 Install the package.
 

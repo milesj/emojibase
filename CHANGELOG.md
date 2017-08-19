@@ -1,3 +1,5 @@
+> Individual changelogs can be found within each package.
+
 # 1.0.0
 * Much has changed so take a look at the [migration guide](./MIGRATING_TO_V1.md).
 * Emojibase now generates its data directly from the official Unicode data files.

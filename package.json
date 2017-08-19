@@ -1,8 +1,7 @@
 {
   "private": true,
   "name": "emojibase",
-  "version": "1.0.0-rc.2",
-  "description": "Evergreen emoji datasets and regex patterns.",
+  "description": "Evergreen emoji datasets, regex patterns, and more.",
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "bootstrap:slow": "lerna bootstrap --concurrency=1",

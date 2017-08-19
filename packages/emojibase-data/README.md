@@ -1,4 +1,4 @@
-# Emojibase Data v1.0.0
+# Emojibase Data
 
 Install the package.
 
