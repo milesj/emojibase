@@ -21,17 +21,32 @@ export default function fetchFromCDN(
     }
   }
 
-  // eslint-disable-next-line no-undef
+  const cacheKey = `emojibase/${version}/${path}`;
+  const cachedData = sessionStorage.getItem(cacheKey);
+
+  // Check the cache first
+  if (cachedData) {
+    return Promise.resolve(JSON.parse(cachedData));
+  }
+
   return fetch(`https://cdn.jsdelivr.net/npm/emojibase-data@${version}/${path}`, {
     mode: 'cors',
     redirect: 'error',
     credentials: 'omit',
     ...options,
   }).then((response) => {
-    if (response.ok) {
-      return response.json();
+    if (!response.ok) {
+      throw new Error('Failed to load emojibase dataset.');
     }
 
-    throw new Error('Failed to load emojibase dataset.');
+    const data = response.json();
+
+    try {
+      sessionStorage.setItem(cacheKey, JSON.stringify(data));
+    } catch (error) {
+      // Do not allow quota errors to break the app
+    }
+
+    return data;
   });
 }

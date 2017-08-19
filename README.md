@@ -363,6 +363,8 @@ fetchFromCDN('ja/compact.json', '2.1.3').then(flattenEmojiData);
 
 > Only JSON datasets can be fetched from the CDN.
 
+> Successfully fetched data will be cached in session storage.
+
 #### flattenEmojiData
 
 By default, emoji [skin modifications are nested](#data-structure) under the base neutral skin
