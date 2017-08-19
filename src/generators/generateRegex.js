@@ -9,8 +9,8 @@
 // $FlowIgnore Laziness
 import { Trie } from 'regexgen';
 import generateEmoticonPermutations from '../../packages/emojibase/lib/generateEmoticonPermutations';
+import stripHexcode from '../../packages/emojibase/lib/stripHexcode';
 import buildEmojiData from '../builders/buildEmojiData';
-import cleanHexcode from '../helpers/cleanHexcode';
 import log from '../helpers/log';
 import writeRegex from '../helpers/writeRegex';
 import filterData from '../helpers/filterData';
@@ -46,7 +46,7 @@ function createEmojiRegex(data: Object, display: string = 'both') {
   // grouped by the number of codepoints
   Object.keys(data).forEach((hexcode) => {
     const { variations } = data[hexcode];
-    const group = cleanHexcode(hexcode).split('-').length;
+    const group = stripHexcode(hexcode).split('-').length;
 
     if (group <= 0 || group > 4) {
       return;

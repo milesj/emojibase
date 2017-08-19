@@ -26,6 +26,7 @@ declare module 'emojibase' {
   declare export function fromHexcodeToCodepoint(hexcode: string, joiner?: string): number[];
   declare export function fromUnicodeToHexcode(unicode: string, strip?: boolean): string;
   declare export function generateEmoticonPermutations(emoticon: string, withNose?: boolean): string[];
+  declare export function stripHexcode(hexcode: string): string;
 }
 
 declare module 'emojibase/lib/constants' {

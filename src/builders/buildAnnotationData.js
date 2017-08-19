@@ -10,7 +10,7 @@ import {
   REGIONAL_INDICATORS,
   TAG_LATIN_SMALL_LETTERS,
 } from '../../packages/emojibase/lib/constants';
-import cleanHexcode from '../helpers/cleanHexcode';
+import stripHexcode from '../../packages/emojibase/lib/stripHexcode';
 import log from '../helpers/log';
 import hasProperty from '../helpers/hasProperty';
 import readCache from '../helpers/readCache';
@@ -43,7 +43,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
   };
 
   Object.keys(sequences).forEach((fullHexcode) => {
-    const hexcode = cleanHexcode(fullHexcode);
+    const hexcode = stripHexcode(fullHexcode);
 
     // Annotations already exist for this hexcode
     if (annotations[hexcode]) {

@@ -5,9 +5,9 @@
  */
 
 import { SKIN_MODIFIER_PATTERN, SUPPORTED_LOCALES } from '../../packages/emojibase/lib/constants';
+import stripHexcode from '../../packages/emojibase/lib/stripHexcode';
 import buildEmojiData from '../builders/buildEmojiData';
 import buildAnnotationData from '../builders/buildAnnotationData';
-import cleanHexcode from '../helpers/cleanHexcode';
 import log from '../helpers/log';
 import readCache from '../helpers/readCache';
 import writeDataset from '../helpers/writeDataset';
@@ -52,7 +52,7 @@ function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): FinalEm
   }
 
   // Annotations
-  const hexcodeWithoutModifiers = cleanHexcode(baseEmoji.hexcode); // No ZWJ, selectors
+  const hexcodeWithoutModifiers = stripHexcode(baseEmoji.hexcode); // No ZWJ, selectors
   const annotation = annotations[hexcodeWithoutModifiers];
 
   if (annotation) {

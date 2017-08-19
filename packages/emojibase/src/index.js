@@ -10,6 +10,7 @@ import fromCodepointToUnicode from './fromCodepointToUnicode';
 import fromHexcodeToCodepoint from './fromHexcodeToCodepoint';
 import fromUnicodeToHexcode from './fromUnicodeToHexcode';
 import generateEmoticonPermutations from './generateEmoticonPermutations';
+import stripHexcode from './stripHexcode';
 
 export {
   fetchFromCDN,
@@ -18,4 +19,5 @@ export {
   fromHexcodeToCodepoint,
   fromUnicodeToHexcode,
   generateEmoticonPermutations,
+  stripHexcode,
 };

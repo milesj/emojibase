@@ -34,6 +34,7 @@ localized emoji JSON datasets, regex patterns, and more.
   * [fromHexcodeToCodepoint](#fromhexcodetocodepoint)
   * [fromUnicodeToHexcode](#fromunicodetohexcode)
   * [generateEmoticonPermutations](#generateemoticonpermutations)
+  * [stripHexcode](#striphexcode)
 * [Filesizes](#filesizes)
 
 ### Datasets
@@ -453,6 +454,17 @@ generateEmoticonPermutations(':)'); // =-), =-}, :-], =-], :-}, :-), =}, =], =),
 ```
 
 > The base emoticon must follow a set of [naming guidelines][emos] to work properly.
+
+#### stripHexcode
+
+This function will strip zero width joiners (`200D`) and variation selectors
+(`FE0E`, `FE0F`) from a hexadecimal codepoint.
+
+```javascript
+import { stripHexcode } from 'emojibase';
+
+stripHexcode('1F468-200D-2695-FE0F'); // 1F468-2695
+```
 
 ### Filesizes
 
