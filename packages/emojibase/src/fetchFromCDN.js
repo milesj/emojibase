@@ -8,8 +8,8 @@ import type { FinalEmoji } from '../../../src/types';
 
 export default function fetchFromCDN(
   path: string,
-  version: string = 'latest',
-  options: Object = {},
+  version?: string = 'latest',
+  options?: Object = {},
 ): Promise<FinalEmoji[]> {
   if (__DEV__) {
     if (!path || path.slice(-5) !== '.json') {

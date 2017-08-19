@@ -5,6 +5,7 @@ declare module 'emojibase' {
   declare export type Emoji = {
     annotation?: string,
     emoji: string,
+    emoticon?: string,
     gender?: Gender,
     group?: number,
     hexcode: string,
@@ -19,12 +20,12 @@ declare module 'emojibase' {
     type?: Presentation,
   };
 
-  declare export function fetchFromCDN(path: string, version?: string): Promise<Emoji[]>;
+  declare export function fetchFromCDN(path: string, version?: string, options?: Object): Promise<Emoji[]>;
   declare export function flattenEmojiData(data: Emoji[]): Emoji[];
   declare export function fromCodepointToUnicode(codepoint: number[]): string;
   declare export function fromHexcodeToCodepoint(hexcode: string, joiner?: string): number[];
   declare export function fromUnicodeToHexcode(unicode: string, strip?: boolean): string;
-  declare export function generateEmoticonPermutations(emoticon: string, withNose: boolean): string[];
+  declare export function generateEmoticonPermutations(emoticon: string, withNose?: boolean): string[];
 }
 
 declare module 'emojibase/lib/constants' {

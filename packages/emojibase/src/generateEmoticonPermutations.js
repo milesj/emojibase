@@ -6,7 +6,7 @@
 
 export default function generateEmoticonPermutations(
   emoticon: string,
-  withNose: boolean = true,
+  withNose?: boolean = true,
 ): string[] {
   const list = [emoticon];
 

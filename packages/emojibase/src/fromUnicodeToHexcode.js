@@ -8,7 +8,7 @@
 
 import { SEQUENCE_REMOVAL_PATTERN } from './constants';
 
-export default function fromUnicodeToHexcode(unicode: string, strip: boolean = true): string {
+export default function fromUnicodeToHexcode(unicode: string, strip?: boolean = true): string {
   const hexcode = [];
 
   for (const codepoint of unicode) {
