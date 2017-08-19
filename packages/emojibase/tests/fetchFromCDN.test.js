@@ -4,7 +4,7 @@ describe('fetchFromCDN()', () => {
   beforeEach(() => {
     global.fetch = jest.fn(() => Promise.resolve({
       ok: true,
-      json: () => ([1, 2, 3]),
+      json: () => Promise.resolve([1, 2, 3]),
     }));
 
     global.sessionStorage = {
