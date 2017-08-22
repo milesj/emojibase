@@ -1,20 +1,30 @@
 > Individual changelogs can be found within each package.
 
 # 1.0.0
+#### 🎉 Release
 * Much has changed so take a look at the [migration guide](./MIGRATING_TO_V1.md).
-* Emojibase now generates its data directly from the official Unicode data files.
+
+#### 💥 Breaking
 * Moved helper functions to the `emojibase` package.
+* Moved datasets to the `emojibase-data` package.
+* Moved regex patterns to the `emojibase-regex` package.
+* Refactored the emoji data structures.
+* Removed dataset formats.
+
+#### 🚀 New
+* `emojibase`
   * Added new `fromCodepointToUnicode` function.
   * Added new `generateEmoticonPermutations` function.
   * Renamed `fromHexToCodepoint` to `fromHexcodeToCodepoint`.
   * Renamed `fromUnicodeToHex` to `fromUnicodeToHexcode`.
-* Moved datasets to the `emojibase-data` package.
+* `emojibase-data`
   * Added localization support.
-* Moved regex patterns to the `emojibase-regex` package.
+* `emojibase-regex`
   * Added Unicode property support.
   * Added new emoticon regex pattern.
-* Refactored the emoji data structures.
-* Removed dataset formats.
+
+#### 🛠 Internal
+* Emojibase now generates its data directly from the official Unicode data files.
 
 # 0.12.0
 * New release under the new `emojibase` name.
