@@ -126,11 +126,13 @@ module.exports = {
   // 🤓 nerd face
   '1F913': ':B',
   // 🧙 mage
-  '1F9D9': '<:)',
+  '1F9D9': ':{>',
   // 🧛 vampire
   '1F9DB': ':E',
   // 🧟 zombie
   '1F9DF': '8#',
+  // 👹 ogre
+  '1F479': '0)',
 
   // SYMBOLS
   // ❤️ red heart
