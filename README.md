@@ -1,4 +1,4 @@
-# Emojibase v1.2.1
+# Emojibase v1.2.2
 [![Build Status](https://travis-ci.org/milesj/emojibase.svg?branch=master)](https://travis-ci.org/milesj/emojibase)
 
 > Emojibase, the ultimate emoji database.
@@ -326,7 +326,7 @@ that abide the following guidelines:
 ### Emoticons
 
 Emoticons, like shortcodes, are [maintained and curated][emos] for integrity and accuracy,
-seeing as how there are so many variations (`:)` vs `=]` vs `;}`). Do we support `:` or `=`
+seeing as how there are so many variations (`:)` vs `=]` vs `:}`). Do we support `:` or `=`
 for eyes? What about `)`, `]`, or `}` for mouths? Or maybe a nose with `-`?
 
 Emojibase solves this with a set of naming guidelines and the ability to
