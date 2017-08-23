@@ -13,8 +13,6 @@ import {
 import stripHexcode from '../../packages/emojibase/lib/stripHexcode';
 import log from '../helpers/log';
 import hasProperty from '../helpers/hasProperty';
-import readCache from '../helpers/readCache';
-import writeCache from '../helpers/writeCache';
 import loadAnnotations from '../loaders/loadAnnotations';
 import loadLocalization from '../loaders/loadLocalization';
 import loadSequences from '../loaders/loadSequences';
@@ -23,12 +21,6 @@ import loadZwjSequences from '../loaders/loadZwjSequences';
 import type { CLDRAnnotationMap } from '../types';
 
 export default async function buildAnnotationData(locale: string): Promise<CLDRAnnotationMap> {
-  const cache = readCache(`final-${locale}-annotations.json`);
-
-  if (cache) {
-    return Promise.resolve(cache);
-  }
-
   log.title('build', `Building ${locale} annotation data`);
 
   // Load the base annotations and localization datasets
@@ -104,8 +96,6 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       };
     }
   });
-
-  writeCache(`final-${locale}-annotations.json`, annotations);
 
   log.success('build', `Built ${locale} annotation data`);
 

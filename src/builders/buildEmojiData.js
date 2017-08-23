@@ -5,8 +5,6 @@
  */
 
 import log from '../helpers/log';
-import readCache from '../helpers/readCache';
-import writeCache from '../helpers/writeCache';
 import loadData from '../loaders/loadData';
 import loadEmoticons from '../loaders/loadEmoticons';
 import loadNames from '../loaders/loadNames';
@@ -24,12 +22,6 @@ import verifyData from './verifyData';
 import type { EmojiMap } from '../types';
 
 export default async function buildEmojiData(): Promise<EmojiMap> {
-  const cache = readCache('final-emoji-data.json');
-
-  if (cache) {
-    return Promise.resolve(cache);
-  }
-
   log.title('build', 'Building emoji data');
 
   // 1) Load and merge all emoji data from the latest release version
@@ -63,8 +55,6 @@ export default async function buildEmojiData(): Promise<EmojiMap> {
 
   // 5) Validate the built data against the official unicode emoji list
   await validateData(emojis);
-
-  writeCache('final-emoji-data.json', emojis);
 
   log.success('build', 'Built emoji data');
 
