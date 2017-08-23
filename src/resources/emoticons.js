@@ -125,8 +125,8 @@ module.exports = {
   // SPECIAL
   // 🤓 nerd face
   '1F913': ':B',
-  // 🧙 mage
-  '1F9D9': { emoticon: ':{>', withNose: false },
+  // 🧙‍♂️ man mage
+  '1F9D9-200D-2642-FE0F': { emoticon: ':{>', withNose: false },
   // 🧛 vampire
   '1F9DB': ':E',
   // 🧟 zombie
