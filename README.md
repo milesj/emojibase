@@ -1,4 +1,4 @@
-# Emojibase v1.2.2
+# Emojibase v1.3.0
 [![Build Status](https://travis-ci.org/milesj/emojibase.svg?branch=master)](https://travis-ci.org/milesj/emojibase)
 
 > Emojibase, the ultimate emoji database.
@@ -456,6 +456,17 @@ generateEmoticonPermutations(':)'); // =-), =-}, :-], =-], :-}, :-), =}, =], =),
 ```
 
 > The base emoticon must follow a set of [naming guidelines][emos] to work properly.
+
+Furthermore, this function accepts an options object as the 2nd argument,
+as a means to customize the output.
+
+* `isFace` (bool) - Toggles face permutations (mouth and eye variants). Defaults to `true`.
+* `withNose` (bool) - Toggles nose inclusion. Defaults to `true`.
+
+```javascript
+generateEmoticonPermutations(':)', { withNose: false }); // =}, =], =), :}, :], :)
+generateEmoticonPermutations('\\m/', { isFace: false }); // \m/, \M/
+```
 
 #### stripHexcode
 
