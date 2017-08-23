@@ -478,26 +478,26 @@ stripHexcode('1F468-200D-2695-FE0F'); // 1F468-2695
 | versions/emoji.json | 52.29 KB | 7.23 KB |
 | versions/unicode.json | 52.41 KB | 7.35 KB |
 | meta/hexcodes.json | 56.24 KB | 8.52 KB |
-| zh/compact.json | 593.75 KB | 61.41 KB |
-| fr/compact.json | 593.86 KB | 57.96 KB |
-| da/compact.json | 610.92 KB | 60.68 KB |
-| de/compact.json | 616.44 KB | 62.28 KB |
-| en/compact.json | 628.69 KB | 60.67 KB |
-| ko/compact.json | 630.37 KB | 66.34 KB |
-| es/compact.json | 631.35 KB | 63.35 KB |
-| it/compact.json | 632.25 KB | 63.74 KB |
-| ja/compact.json | 639.61 KB | 60.91 KB |
-| ru/compact.json | 681.2 KB | 69.64 KB |
-| zh/data.json | 849.89 KB | 83 KB |
-| fr/data.json | 850 KB | 79.55 KB |
-| da/data.json | 867.06 KB | 82.18 KB |
-| de/data.json | 872.58 KB | 83.68 KB |
-| en/data.json | 884.83 KB | 81.77 KB |
-| ko/data.json | 886.51 KB | 88.26 KB |
-| es/data.json | 887.49 KB | 84.92 KB |
-| it/data.json | 888.39 KB | 85.25 KB |
-| ja/data.json | 895.75 KB | 82.18 KB |
-| ru/data.json | 937.34 KB | 91.62 KB |
+| zh/compact.json | 593.78 KB | 61.41 KB |
+| fr/compact.json | 593.88 KB | 57.96 KB |
+| da/compact.json | 610.94 KB | 60.68 KB |
+| de/compact.json | 616.46 KB | 62.29 KB |
+| en/compact.json | 628.71 KB | 60.68 KB |
+| ko/compact.json | 630.39 KB | 66.35 KB |
+| es/compact.json | 631.37 KB | 63.36 KB |
+| it/compact.json | 632.28 KB | 63.74 KB |
+| ja/compact.json | 639.63 KB | 60.91 KB |
+| ru/compact.json | 681.22 KB | 69.65 KB |
+| zh/data.json | 849.92 KB | 83.01 KB |
+| fr/data.json | 850.02 KB | 79.56 KB |
+| da/data.json | 867.08 KB | 82.19 KB |
+| de/data.json | 872.6 KB | 83.69 KB |
+| en/data.json | 884.85 KB | 81.77 KB |
+| ko/data.json | 886.53 KB | 88.27 KB |
+| es/data.json | 887.51 KB | 84.93 KB |
+| it/data.json | 888.42 KB | 85.26 KB |
+| ja/data.json | 895.77 KB | 82.19 KB |
+| ru/data.json | 937.36 KB | 91.63 KB |
 
 | emojibase-regex | Filesize | Gzipped |
 | --- | --- | --- |
@@ -505,7 +505,7 @@ stripHexcode('1F468-200D-2695-FE0F'); // 1F468-2695
 | property/text.js | 37 B | 57 B |
 | property/emoji.js | 102 B | 92 B |
 | property/index.js | 114 B | 101 B |
-| emoticon.js | 481 B | 245 B |
+| emoticon.js | 440 B | 243 B |
 | text.js | 2.53 KB | 1006 B |
 | codepoint/text.js | 3.28 KB | 1.04 KB |
 | emoji.js | 6.63 KB | 1.79 KB |

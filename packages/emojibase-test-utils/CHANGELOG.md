@@ -1,3 +1,7 @@
+# 1.0.5
+#### 🛠 Internal
+* Updated test data.
+
 # 1.0.4
 #### 🛠 Internal
 * Updated changelogs.

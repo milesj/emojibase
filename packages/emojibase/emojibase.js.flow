@@ -34,7 +34,7 @@ declare module 'emojibase' {
 }
 
 declare module 'emojibase/lib/constants' {
-  import type { Gender, Presentation, SkinTone } from 'emojibase';
+  import type { Gender, PermutationOptions, Presentation, SkinTone } from 'emojibase';
 
   declare export var FEMALE: Gender;
   declare export var MALE: Gender;
@@ -49,4 +49,5 @@ declare module 'emojibase/lib/constants' {
   declare export var DARK_SKIN: SkinTone;
 
   declare export var SUPPORTED_LOCALES: string[];
+  declare export var EMOTICON_OPTIONS: { [emoticon: string]: PermutationOptions };
 }

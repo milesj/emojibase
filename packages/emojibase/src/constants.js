@@ -6,7 +6,7 @@
 
 /* eslint-disable quote-props */
 
-import type { Gender, Presentation, SkinTone } from '../../../src/types';
+import type { Gender, PermutationOptions, Presentation, SkinTone } from '../../../src/types';
 
 // Regex patterns to make my job easier.
 
@@ -117,4 +117,19 @@ export const TAG_LATIN_SMALL_LETTERS: { [hex: string]: string } = {
   'E0078': 'x',
   'E0079': 'y',
   'E007A': 'z',
+};
+
+// Special options for emoticon permutations.
+
+export const EMOTICON_OPTIONS: { [emoticon: string]: PermutationOptions } = {
+  // 🧙‍♂️ man mage
+  ':{>': { withNose: false },
+  // 👹 ogre
+  '0)': { withNose: false },
+  // ❤️ red heart
+  '<3': { isFace: false },
+  // 💔 broken heart
+  '</3': { isFace: false },
+  // 🤘 sign of the horns
+  '\\m/': { isFace: false },
 };

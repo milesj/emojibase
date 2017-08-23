@@ -1,3 +1,8 @@
+# 1.0.4
+#### 🐞 Fixed
+* Added missing emoticons to `emoticon` regex.
+* Removed unwanted emoticon permutations from `emoticon` regex.
+
 # 1.0.3
 #### 🛠 Internal
 * Updated changelogs.

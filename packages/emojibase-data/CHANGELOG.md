@@ -1,5 +1,6 @@
 # 1.0.4
 #### 🛠 Internal
+* Updated mage emoticon to `:{>`.
 * Moved mage emoticon to 🧙‍♂️ (`1F9D9-200D-2642-FE0F`).
 
 # 1.0.3

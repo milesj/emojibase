@@ -1,4 +1,5 @@
 import loadFlatEmojiData from '../../emojibase-test-utils/src/loadFlatEmojiData';
+import { EMOTICON_OPTIONS } from '../../emojibase/src/constants';
 import generateEmoticonPermutations from '../../emojibase/src/generateEmoticonPermutations';
 import EMOJI_PATTERN from '../index';
 import EMOJI_CODEPOINT_PATTERN from '../codepoint';
@@ -70,7 +71,10 @@ describe('regex', () => {
     });
 
     if (emoji.emoticon) {
-      generateEmoticonPermutations(emoji.emoticon).forEach((emoticon) => {
+      generateEmoticonPermutations(
+        emoji.emoticon,
+        EMOTICON_OPTIONS[emoji.emoticon] || {},
+      ).forEach((emoticon) => {
         it(`matches emoticon variation ${emoticon}`, () => {
           expect(emoticon).toMatch(EMOTICON_PATTERN);
         });

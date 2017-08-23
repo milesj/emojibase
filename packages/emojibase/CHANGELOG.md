@@ -3,6 +3,8 @@
 * Added an options object to `generateEmoticonPermutations`.
   * Pass `isFace` to toggle face specific permutations (mouth, eyes, etc).
   * Pass `withNose` to toggle nose specific permutations.
+* Added `EMOTICON_OPTIONS` constant, which defines custom options for specific
+  emoticon permutations.
 
 # 1.2.2
 #### 🚀 New

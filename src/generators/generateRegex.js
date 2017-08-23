@@ -8,6 +8,7 @@
 
 // $FlowIgnore Laziness
 import { Trie } from 'regexgen';
+import { EMOTICON_OPTIONS } from '../../packages/emojibase/lib/constants';
 import generateEmoticonPermutations from '../../packages/emojibase/lib/generateEmoticonPermutations';
 import stripHexcode from '../../packages/emojibase/lib/stripHexcode';
 import buildEmojiData from '../builders/buildEmojiData';
@@ -77,7 +78,9 @@ function createEmoticonRegex(data: Object) {
     const { emoticon } = data[hexcode];
 
     if (emoticon) {
-      emoticons = emoticons.concat(generateEmoticonPermutations(emoticon));
+      emoticons.push(
+        ...generateEmoticonPermutations(emoticon, EMOTICON_OPTIONS[emoticon] || {}),
+      );
     }
   });
 
