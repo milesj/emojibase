@@ -22,7 +22,12 @@ describe('generateEmoticonPermutations()', () => {
   });
 
   it('doesnt include nose variations', () => {
-    expect(generateEmoticonPermutations(':|', false))
+    expect(generateEmoticonPermutations(':|', { withNose: false }))
       .toEqual([':|', '=|']);
+  });
+
+  it('doesnt assume a face', () => {
+    expect(generateEmoticonPermutations('\\m/', { isFace: false }))
+      .toEqual(['\\m/', '\\M/']);
   });
 });

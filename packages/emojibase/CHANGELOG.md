@@ -1,3 +1,9 @@
+# 1.3.0
+#### 🚀 New
+* Added an options object to `generateEmoticonPermutations`.
+  * Pass `isFace` to toggle face specific permutations (mouth, eyes, etc).
+  * Pass `withNose` to toggle nose specific permutations.
+
 # 1.2.2
 #### 🚀 New
 * Added new ogre emoticon `0)`.

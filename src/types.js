@@ -116,6 +116,11 @@ export type ParsedLine = {
 
 export type ParsedTotals = { [property: string]: number };
 
+export type PermutationOptions = {
+  isFace?: boolean,
+  withNose?: boolean,
+};
+
 export type Presentation = 0 | 1;
 
 export type Property = 'Emoji' |

@@ -126,19 +126,19 @@ module.exports = {
   // 🤓 nerd face
   '1F913': ':B',
   // 🧙 mage
-  '1F9D9': ':{>',
+  '1F9D9': { emoticon: ':{>', withNose: false },
   // 🧛 vampire
   '1F9DB': ':E',
   // 🧟 zombie
   '1F9DF': '8#',
   // 👹 ogre
-  '1F479': '0)',
+  '1F479': { emoticon: '0)', withNose: false },
 
   // SYMBOLS
   // ❤️ red heart
-  '2764': '<3',
+  '2764': { emoticon: '<3', isFace: false },
   // 💔 broken heart
-  '1F494': '</3',
+  '1F494': { emoticon: '</3', isFace: false },
   // 🤘 sign of the horns
-  '1F918': '\\m/',
+  '1F918': { emoticon: '\\m/', isFace: false },
 };
