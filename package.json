@@ -15,7 +15,6 @@
     "jest": "run-tests",
     "outdated": "yarn outdated; for dir in `find ./packages/ -type d -maxdepth 1`; do (cd \"$dir\" && yarn outdated); done;",
     "posttest": "yarn run flow",
-    "prepublish": "yarn run assemble",
     "pretest": "yarn run eslint",
     "publish": "lerna publish",
     "publish:force": "lerna publish --force-publish=*",
