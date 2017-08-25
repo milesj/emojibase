@@ -9,8 +9,13 @@
     "utils"
   ],
   "repository": "https://github.com/milesj/emojibase/tree/master/packages/emojibase-test-utils",
+  "license": "MIT",
   "main": "./lib/index.js",
+  "scripts": {
+    "build": "build-lib ./src -d ./lib"
+  },
   "devDependencies": {
+    "@milesj/build-tool-config": "^0.21.1",
     "emojibase": "^1.3.0"
   }
 }

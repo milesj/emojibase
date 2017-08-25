@@ -13,10 +13,18 @@
 ./packages/emojibase-regex/emojibase-regex.js.flow
 ./packages/emojibase-test-utils/emojibase-test-utils.js.flow
 
+[lints]
+all=warn
+sketchy-null-bool=off
+sketchy-null-mixed=off
+sketchy-null-number=off
+sketchy-null-string=off
+
 [options]
 emoji=true
 esproposal.class_instance_fields=enable
 esproposal.class_static_fields=enable
 esproposal.export_star_as=enable
+include_warnings=true
 module.ignore_non_literal_requires=true
 suppress_comment=\\(.\\|\n\\)*\\$FlowIgnore
