@@ -484,31 +484,31 @@ stripHexcode('1F468-200D-2695-FE0F'); // 1F468-2695
 | emojibase-data | Filesize | Gzipped |
 | --- | --- | --- |
 | meta/groups.json | 2.85 KB | 943 B |
-| meta/shortcodes.json | 24.2 KB | 7.31 KB |
+| meta/shortcodes.json | 24.19 KB | 7.3 KB |
 | meta/unicode.json | 45.08 KB | 8.55 KB |
 | versions/emoji.json | 52.29 KB | 7.23 KB |
 | versions/unicode.json | 52.41 KB | 7.35 KB |
 | meta/hexcodes.json | 56.24 KB | 8.52 KB |
-| zh/compact.json | 593.78 KB | 61.41 KB |
-| fr/compact.json | 593.88 KB | 57.96 KB |
-| da/compact.json | 610.94 KB | 60.68 KB |
-| de/compact.json | 616.46 KB | 62.29 KB |
-| en/compact.json | 628.71 KB | 60.68 KB |
-| ko/compact.json | 630.39 KB | 66.35 KB |
-| es/compact.json | 631.37 KB | 63.36 KB |
-| it/compact.json | 632.28 KB | 63.74 KB |
-| ja/compact.json | 639.63 KB | 60.91 KB |
-| ru/compact.json | 681.22 KB | 69.65 KB |
-| zh/data.json | 849.92 KB | 83.01 KB |
-| fr/data.json | 850.02 KB | 79.56 KB |
-| da/data.json | 867.08 KB | 82.19 KB |
-| de/data.json | 872.6 KB | 83.69 KB |
-| en/data.json | 884.85 KB | 81.77 KB |
-| ko/data.json | 886.53 KB | 88.27 KB |
-| es/data.json | 887.51 KB | 84.93 KB |
-| it/data.json | 888.42 KB | 85.26 KB |
-| ja/data.json | 895.77 KB | 82.19 KB |
-| ru/data.json | 937.36 KB | 91.63 KB |
+| fr/compact.json | 598.52 KB | 58.76 KB |
+| zh/compact.json | 600.06 KB | 62.42 KB |
+| da/compact.json | 615.86 KB | 61.57 KB |
+| de/compact.json | 621.01 KB | 63.14 KB |
+| en/compact.json | 629.66 KB | 60.72 KB |
+| ko/compact.json | 635.02 KB | 67.38 KB |
+| it/compact.json | 636.38 KB | 64.59 KB |
+| es/compact.json | 636.72 KB | 64.23 KB |
+| ja/compact.json | 643.6 KB | 61.76 KB |
+| ru/compact.json | 685.36 KB | 70.62 KB |
+| fr/data.json | 854.67 KB | 80.7 KB |
+| zh/data.json | 856.2 KB | 84.25 KB |
+| da/data.json | 872 KB | 83.27 KB |
+| de/data.json | 877.15 KB | 84.72 KB |
+| en/data.json | 885.8 KB | 81.81 KB |
+| ko/data.json | 891.16 KB | 89.43 KB |
+| it/data.json | 892.52 KB | 86.3 KB |
+| es/data.json | 892.86 KB | 86.01 KB |
+| ja/data.json | 899.74 KB | 83.38 KB |
+| ru/data.json | 941.5 KB | 92.68 KB |
 
 | emojibase-regex | Filesize | Gzipped |
 | --- | --- | --- |
