@@ -1,3 +1,7 @@
+# 1.0.5
+#### 🛠 Internal
+* Updated regex pattern.
+
 # 1.0.4
 #### 🐞 Fixed
 * Added missing emoticons to `emoticon` regex.
