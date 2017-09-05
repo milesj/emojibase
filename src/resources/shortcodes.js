@@ -240,7 +240,7 @@ module.exports = {
   // 🤖 robot face
   '1F916': ['robot'],
   // 💩 pile of poo
-  '1F4A9': ['poop', 'poo', 'shit'],
+  '1F4A9': ['poop', 'poo'],
   // 😺 smiling cat face with open mouth
   '1F63A': ['smiling_cat'],
   // 😸 grinning cat face with smiling eyes
