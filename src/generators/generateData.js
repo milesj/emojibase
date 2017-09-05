@@ -77,7 +77,7 @@ function createEmoji(
 
       // Inherit values from the parent
       // $FlowIgnore We know the modifier hexcode exists
-      skin.annotation = `${emoji.annotation}, ${annotations[skinHexcode[0]].annotation}`;
+      skin.annotation = `${emoji.annotation}: ${annotations[skinHexcode[0]].annotation}`;
       skin.shortcodes = emoji.shortcodes.map(code => `${code}_tone${skinTone}`);
 
       return skin;
