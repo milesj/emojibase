@@ -4,15 +4,19 @@
  * @flow
  */
 
+/* eslint-disable complexity */
+
 import {
-  SEQUENCE_REMOVAL_PATTERN,
+  GENDER_PATTERN,
   SKIN_MODIFIER_PATTERN,
   REGIONAL_INDICATORS,
   TAG_LATIN_SMALL_LETTERS,
+  MALE_SIGN,
 } from '../../packages/emojibase/lib/constants';
 import stripHexcode from '../../packages/emojibase/lib/stripHexcode';
 import log from '../helpers/log';
 import hasProperty from '../helpers/hasProperty';
+import writeCache from '../helpers/writeCache';
 import loadAnnotations from '../loaders/loadAnnotations';
 import loadLocalization from '../loaders/loadLocalization';
 import loadSequences from '../loaders/loadSequences';
@@ -25,6 +29,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
 
   // Load the base annotations and localization datasets
   const annotations = await loadAnnotations(locale);
+  const englishAnnotations = await loadAnnotations('en'); // Fallback
   const localization = await loadLocalization(locale);
 
   // http://unicode.org/repos/cldr/trunk/specs/ldml/tr35-general.html#SynthesizingNames
@@ -47,6 +52,8 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     }
 
     const emoji = sequences[fullHexcode];
+    const tags = [];
+    let annotation = '';
 
     // Use the localized territory name
     if (hasProperty(emoji.property, ['Emoji_Flag_Sequence'])) {
@@ -55,10 +62,8 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
         .map(hex => REGIONAL_INDICATORS[hex])
         .join('');
 
-      annotations[hexcode] = {
-        tags: [countryCode],
-        annotation: localization.territories[countryCode],
-      };
+      tags.push(countryCode);
+      annotation = localization.territories[countryCode];
 
     // Use the localized subdivision name
     } else if (hasProperty(emoji.property, ['Emoji_Tag_Sequence'])) {
@@ -67,35 +72,100 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
         .map(hex => TAG_LATIN_SMALL_LETTERS[hex])
         .join('');
 
-      annotations[hexcode] = {
-        tags: [divisionName],
-        annotation: localization.subdivisions[divisionName],
-      };
+      tags.push(divisionName);
+      annotation = localization.subdivisions[divisionName];
 
-    // This doesn't match the CLDR spec, as it doesn't seem necessary,
-    // instead, lets reuse parent annotations and tags for ZWJ emoji
+    // Step 3) Label with keycap and use sequence
+    } else if (hasProperty(emoji.property, ['Emoji_Keycap_Sequence'])) {
+      // Most locales dont localize these fields,
+      // but CLDR instructs it. What to do?
+      if (hexcode.startsWith('0023')) {
+        annotation = 'keycap #';
+      } else {
+        annotation = emoji.description.replace(':', '');
+      }
+
+      tags.push(annotation);
+
+    // ZWJ sequences require special treatment
     } else if (hasProperty(emoji.property, ['Emoji_ZWJ_Sequence'])) {
-      const tags = [];
-      const annos = [];
+      const suffix = [];
+      let prefixName = '';
+      let suffixName = '';
+      let sequence = hexcode.split('-');
 
-      hexcode.split('-').forEach((hex) => {
-        if (!hex.match(SEQUENCE_REMOVAL_PATTERN) && annotations[hex]) {
-          if (annotations[hex].tags) {
-            tags.push(...annotations[hex].tags);
-          }
-
-          if (annotations[hex].annotation) {
-            annos.push(annotations[hex].annotation);
-          }
+      // Inherit tags
+      sequence.forEach((hex) => {
+        if (annotations[hex] && annotations[hex].tags) {
+          tags.push(...annotations[hex].tags);
         }
       });
 
-      annotations[hexcode] = {
-        annotation: annos.join(', '),
-        tags: Array.from(new Set(tags)),
-      };
+      // Step 6) Move KISS, HEART, FAMILY to start of suffix and reset sequence
+      if (
+        emoji.description.startsWith('kiss:') ||
+        emoji.description.startsWith('family:') ||
+        emoji.description.startsWith('couple with heart:')
+      ) {
+        sequence.forEach((hex) => {
+          // Kiss mark, Heavy black heart
+          if (hex !== '1F48B' && hex !== '2764') {
+            suffix.push(hex);
+          }
+        });
+
+        if (emoji.description.startsWith('kiss:')) {
+          sequence = ['1F48F'];
+        } else if (emoji.description.startsWith('couple with heart:')) {
+          sequence = ['1F491'];
+        } else if (emoji.description.startsWith('family:')) {
+          sequence = ['1F46A'];
+        }
+      }
+
+      // Step 7) Move genders and reset sequence
+      if (sequence[sequence.length - 1].match(GENDER_PATTERN)) {
+        suffix.push(...sequence.slice(0, -1));
+
+        if (sequence.includes(MALE_SIGN)) {
+          sequence = ['1F468'];
+        } else {
+          sequence = ['1F469'];
+        }
+      }
+
+      // Step 8) Transform sequence into prefix name
+      if (sequence.length > 0) {
+        const prefixHexcode = sequence.join('-');
+
+        prefixName = (annotations[prefixHexcode] || englishAnnotations[prefixHexcode]).annotation;
+      }
+
+      // Step 9) Transform suffix into suffix name
+      if (suffix.length > 0) {
+        suffixName = suffix
+          .map(hex => annotations[hex] || englishAnnotations[hex])
+          .filter(Boolean)
+          .map(anno => anno.annotation)
+          .join(', ');
+      }
+
+      // Step 10) Join the 2 names together
+      if (prefixName && suffixName) {
+        annotation = `${prefixName}: ${suffixName}`;
+      } else {
+        annotation = prefixName || suffixName || '';
+      }
     }
+
+    // Add the new custom annotation
+    annotations[hexcode] = {
+      annotation,
+      tags: Array.from(new Set(tags)),
+    };
   });
+
+  writeCache(`final-${locale}-annotation-data.json`, annotations);
 
   log.success('build', `Built ${locale} annotation data`);
 

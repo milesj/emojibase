@@ -419,7 +419,14 @@
     "type": 1,
     "order": 22,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "star-struck",
+    "tags": [
+      "grinning",
+      "face",
+      "star",
+      "eyes"
+    ]
   },
   {
     "name": "THINKING FACE",
@@ -452,7 +459,12 @@
     "type": 1,
     "order": 24,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "face with raised eyebrow",
+    "tags": [
+      "skeptic",
+      "distrust"
+    ]
   },
   {
     "name": "NEUTRAL FACE",
@@ -1217,7 +1229,11 @@
     "type": 1,
     "order": 63,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "exploding head",
+    "tags": [
+      "shocked"
+    ]
   },
   {
     "name": "GRIMACING FACE",
@@ -1312,7 +1328,13 @@
     "type": 1,
     "order": 68,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "crazy face",
+    "tags": [
+      "large",
+      "small",
+      "eye"
+    ]
   },
   {
     "name": "DIZZY FACE",
@@ -1383,7 +1405,8 @@
     "order": 72,
     "group": 0,
     "subgroup": 0,
-    "emoticon": ":@"
+    "emoticon": ":@",
+    "annotation": "face with symbols over mouth"
   },
   {
     "name": "FACE WITH MEDICAL MASK",
@@ -1474,7 +1497,12 @@
     "type": 1,
     "order": 77,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "face vomiting",
+    "tags": [
+      "vomit",
+      "sick"
+    ]
   },
   {
     "name": "SNEEZING FACE",
@@ -1577,7 +1605,8 @@
     "type": 1,
     "order": 83,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "shushing face"
   },
   {
     "name": "SMILING FACE WITH SMILING EYES AND HAND COVERING MOUTH",
@@ -1589,7 +1618,11 @@
     "type": 1,
     "order": 84,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "face with hand over mouth",
+    "tags": [
+      "whoops"
+    ]
   },
   {
     "name": "FACE WITH MONOCLE",
@@ -1601,7 +1634,11 @@
     "type": 1,
     "order": 85,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "face with monocle",
+    "tags": [
+      "stuffy"
+    ]
   },
   {
     "name": "NERD FACE",
@@ -2188,6 +2225,11 @@
     "order": 117,
     "group": 0,
     "subgroup": 0,
+    "annotation": "child",
+    "tags": [
+      "gender-neutral",
+      "young"
+    ],
     "skins": [
       {
         "name": "CHILD, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -2201,7 +2243,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, цвет кожи 1–2"
+        "annotation": "child, цвет кожи 1–2"
       },
       {
         "name": "CHILD, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -2215,7 +2257,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, цвет кожи 3"
+        "annotation": "child, цвет кожи 3"
       },
       {
         "name": "CHILD, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -2229,7 +2271,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, цвет кожи 4"
+        "annotation": "child, цвет кожи 4"
       },
       {
         "name": "CHILD, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -2243,7 +2285,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, цвет кожи 5"
+        "annotation": "child, цвет кожи 5"
       },
       {
         "name": "CHILD, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -2257,7 +2299,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, цвет кожи 6"
+        "annotation": "child, цвет кожи 6"
       }
     ]
   },
@@ -2451,6 +2493,10 @@
     "order": 135,
     "group": 0,
     "subgroup": 0,
+    "annotation": "adult",
+    "tags": [
+      "gender-neutral"
+    ],
     "skins": [
       {
         "name": "ADULT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -2464,7 +2510,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, цвет кожи 1–2"
+        "annotation": "adult, цвет кожи 1–2"
       },
       {
         "name": "ADULT, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -2478,7 +2524,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, цвет кожи 3"
+        "annotation": "adult, цвет кожи 3"
       },
       {
         "name": "ADULT, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -2492,7 +2538,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, цвет кожи 4"
+        "annotation": "adult, цвет кожи 4"
       },
       {
         "name": "ADULT, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -2506,7 +2552,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, цвет кожи 5"
+        "annotation": "adult, цвет кожи 5"
       },
       {
         "name": "ADULT, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -2520,7 +2566,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, цвет кожи 6"
+        "annotation": "adult, цвет кожи 6"
       }
     ]
   },
@@ -2716,6 +2762,11 @@
     "order": 153,
     "group": 0,
     "subgroup": 0,
+    "annotation": "older adult",
+    "tags": [
+      "gender-neutral",
+      "old"
+    ],
     "skins": [
       {
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -2729,7 +2780,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, цвет кожи 1–2"
+        "annotation": "older adult, цвет кожи 1–2"
       },
       {
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -2743,7 +2794,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, цвет кожи 3"
+        "annotation": "older adult, цвет кожи 3"
       },
       {
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -2757,7 +2808,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, цвет кожи 4"
+        "annotation": "older adult, цвет кожи 4"
       },
       {
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -2771,7 +2822,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, цвет кожи 5"
+        "annotation": "older adult, цвет кожи 5"
       },
       {
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -2785,7 +2836,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, цвет кожи 6"
+        "annotation": "older adult, цвет кожи 6"
       }
     ]
   },
@@ -7561,6 +7612,13 @@
     "order": 572,
     "group": 0,
     "subgroup": 0,
+    "annotation": "woman with headscarf",
+    "tags": [
+      "headscarf",
+      "hijab",
+      "tichel",
+      "mantilla"
+    ],
     "skins": [
       {
         "name": "PERSON WITH HEADSCARF, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -7574,7 +7632,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, цвет кожи 1–2"
+        "annotation": "woman with headscarf, цвет кожи 1–2"
       },
       {
         "name": "PERSON WITH HEADSCARF, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -7588,7 +7646,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, цвет кожи 3"
+        "annotation": "woman with headscarf, цвет кожи 3"
       },
       {
         "name": "PERSON WITH HEADSCARF, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -7602,7 +7660,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, цвет кожи 4"
+        "annotation": "woman with headscarf, цвет кожи 4"
       },
       {
         "name": "PERSON WITH HEADSCARF, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -7616,7 +7674,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, цвет кожи 5"
+        "annotation": "woman with headscarf, цвет кожи 5"
       },
       {
         "name": "PERSON WITH HEADSCARF, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -7630,7 +7688,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, цвет кожи 6"
+        "annotation": "woman with headscarf, цвет кожи 6"
       }
     ]
   },
@@ -7645,6 +7703,7 @@
     "order": 578,
     "group": 0,
     "subgroup": 0,
+    "annotation": "bearded person",
     "skins": [
       {
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -7658,7 +7717,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, цвет кожи 1–2"
+        "annotation": "bearded person, цвет кожи 1–2"
       },
       {
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -7672,7 +7731,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, цвет кожи 3"
+        "annotation": "bearded person, цвет кожи 3"
       },
       {
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -7686,7 +7745,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, цвет кожи 4"
+        "annotation": "bearded person, цвет кожи 4"
       },
       {
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -7700,7 +7759,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, цвет кожи 5"
+        "annotation": "bearded person, цвет кожи 5"
       },
       {
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -7714,7 +7773,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, цвет кожи 6"
+        "annotation": "bearded person, цвет кожи 6"
       }
     ]
   },
@@ -8276,6 +8335,7 @@
     "order": 632,
     "group": 0,
     "subgroup": 0,
+    "annotation": "breast-feeding",
     "skins": [
       {
         "name": "BREAST-FEEDING, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -8289,7 +8349,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, цвет кожи 1–2"
+        "annotation": "breast-feeding, цвет кожи 1–2"
       },
       {
         "name": "BREAST-FEEDING, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8303,7 +8363,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, цвет кожи 3"
+        "annotation": "breast-feeding, цвет кожи 3"
       },
       {
         "name": "BREAST-FEEDING, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8317,7 +8377,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, цвет кожи 4"
+        "annotation": "breast-feeding, цвет кожи 4"
       },
       {
         "name": "BREAST-FEEDING, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8331,7 +8391,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, цвет кожи 5"
+        "annotation": "breast-feeding, цвет кожи 5"
       },
       {
         "name": "BREAST-FEEDING, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8345,7 +8405,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, цвет кожи 6"
+        "annotation": "breast-feeding, цвет кожи 6"
       }
     ]
   },
@@ -8631,6 +8691,13 @@
     "order": 656,
     "group": 0,
     "subgroup": 0,
+    "annotation": "mage",
+    "tags": [
+      "wizard",
+      "witch",
+      "sorcerer",
+      "sorceress"
+    ],
     "skins": [
       {
         "name": "MAGE, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -8644,7 +8711,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, цвет кожи 1–2"
+        "annotation": "mage, цвет кожи 1–2"
       },
       {
         "name": "MAGE, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8658,7 +8725,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, цвет кожи 3"
+        "annotation": "mage, цвет кожи 3"
       },
       {
         "name": "MAGE, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8672,7 +8739,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, цвет кожи 4"
+        "annotation": "mage, цвет кожи 4"
       },
       {
         "name": "MAGE, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8686,7 +8753,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, цвет кожи 5"
+        "annotation": "mage, цвет кожи 5"
       },
       {
         "name": "MAGE, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8700,7 +8767,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, цвет кожи 6"
+        "annotation": "mage, цвет кожи 6"
       }
     ]
   },
@@ -8716,7 +8783,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "женский символ",
+    "annotation": "женщина: mage",
     "tags": [
       "женщина",
       "символ",
@@ -8736,7 +8803,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 1,
-        "annotation": "женский символ, цвет кожи 1–2"
+        "annotation": "женщина: mage, цвет кожи 1–2"
       },
       {
         "name": "MAGE, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8751,7 +8818,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 2,
-        "annotation": "женский символ, цвет кожи 3"
+        "annotation": "женщина: mage, цвет кожи 3"
       },
       {
         "name": "MAGE, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8766,7 +8833,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 3,
-        "annotation": "женский символ, цвет кожи 4"
+        "annotation": "женщина: mage, цвет кожи 4"
       },
       {
         "name": "MAGE, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8781,7 +8848,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 4,
-        "annotation": "женский символ, цвет кожи 5"
+        "annotation": "женщина: mage, цвет кожи 5"
       },
       {
         "name": "MAGE, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8796,7 +8863,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 5,
-        "annotation": "женский символ, цвет кожи 6"
+        "annotation": "женщина: mage, цвет кожи 6"
       }
     ]
   },
@@ -8813,7 +8880,7 @@
     "subgroup": 0,
     "gender": 1,
     "emoticon": ":{>",
-    "annotation": "мужской символ",
+    "annotation": "мужчина: mage",
     "tags": [
       "мужчина",
       "символ",
@@ -8833,7 +8900,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 1,
-        "annotation": "мужской символ, цвет кожи 1–2"
+        "annotation": "мужчина: mage, цвет кожи 1–2"
       },
       {
         "name": "MAGE, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8848,7 +8915,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 2,
-        "annotation": "мужской символ, цвет кожи 3"
+        "annotation": "мужчина: mage, цвет кожи 3"
       },
       {
         "name": "MAGE, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8863,7 +8930,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 3,
-        "annotation": "мужской символ, цвет кожи 4"
+        "annotation": "мужчина: mage, цвет кожи 4"
       },
       {
         "name": "MAGE, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8878,7 +8945,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 4,
-        "annotation": "мужской символ, цвет кожи 5"
+        "annotation": "мужчина: mage, цвет кожи 5"
       },
       {
         "name": "MAGE, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8893,7 +8960,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 5,
-        "annotation": "мужской символ, цвет кожи 6"
+        "annotation": "мужчина: mage, цвет кожи 6"
       }
     ]
   },
@@ -8908,6 +8975,12 @@
     "order": 686,
     "group": 0,
     "subgroup": 0,
+    "annotation": "fairy",
+    "tags": [
+      "titania",
+      "puck",
+      "oberon"
+    ],
     "skins": [
       {
         "name": "FAIRY, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -8921,7 +8994,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, цвет кожи 1–2"
+        "annotation": "fairy, цвет кожи 1–2"
       },
       {
         "name": "FAIRY, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8935,7 +9008,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, цвет кожи 3"
+        "annotation": "fairy, цвет кожи 3"
       },
       {
         "name": "FAIRY, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8949,7 +9022,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, цвет кожи 4"
+        "annotation": "fairy, цвет кожи 4"
       },
       {
         "name": "FAIRY, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8963,7 +9036,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, цвет кожи 5"
+        "annotation": "fairy, цвет кожи 5"
       },
       {
         "name": "FAIRY, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8977,7 +9050,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, цвет кожи 6"
+        "annotation": "fairy, цвет кожи 6"
       }
     ]
   },
@@ -8993,7 +9066,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "женский символ",
+    "annotation": "женщина: fairy",
     "tags": [
       "женщина",
       "символ",
@@ -9013,7 +9086,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 1,
-        "annotation": "женский символ, цвет кожи 1–2"
+        "annotation": "женщина: fairy, цвет кожи 1–2"
       },
       {
         "name": "FAIRY, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9028,7 +9101,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 2,
-        "annotation": "женский символ, цвет кожи 3"
+        "annotation": "женщина: fairy, цвет кожи 3"
       },
       {
         "name": "FAIRY, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9043,7 +9116,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 3,
-        "annotation": "женский символ, цвет кожи 4"
+        "annotation": "женщина: fairy, цвет кожи 4"
       },
       {
         "name": "FAIRY, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9058,7 +9131,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 4,
-        "annotation": "женский символ, цвет кожи 5"
+        "annotation": "женщина: fairy, цвет кожи 5"
       },
       {
         "name": "FAIRY, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9073,7 +9146,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 5,
-        "annotation": "женский символ, цвет кожи 6"
+        "annotation": "женщина: fairy, цвет кожи 6"
       }
     ]
   },
@@ -9089,7 +9162,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "мужской символ",
+    "annotation": "мужчина: fairy",
     "tags": [
       "мужчина",
       "символ",
@@ -9109,7 +9182,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 1,
-        "annotation": "мужской символ, цвет кожи 1–2"
+        "annotation": "мужчина: fairy, цвет кожи 1–2"
       },
       {
         "name": "FAIRY, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9124,7 +9197,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 2,
-        "annotation": "мужской символ, цвет кожи 3"
+        "annotation": "мужчина: fairy, цвет кожи 3"
       },
       {
         "name": "FAIRY, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9139,7 +9212,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 3,
-        "annotation": "мужской символ, цвет кожи 4"
+        "annotation": "мужчина: fairy, цвет кожи 4"
       },
       {
         "name": "FAIRY, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9154,7 +9227,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 4,
-        "annotation": "мужской символ, цвет кожи 5"
+        "annotation": "мужчина: fairy, цвет кожи 5"
       },
       {
         "name": "FAIRY, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9169,7 +9242,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 5,
-        "annotation": "мужской символ, цвет кожи 6"
+        "annotation": "мужчина: fairy, цвет кожи 6"
       }
     ]
   },
@@ -9185,6 +9258,11 @@
     "group": 0,
     "subgroup": 0,
     "emoticon": ":E",
+    "annotation": "vampire",
+    "tags": [
+      "dracula",
+      "undead"
+    ],
     "skins": [
       {
         "name": "VAMPIRE, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -9198,7 +9276,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, цвет кожи 1–2"
+        "annotation": "vampire, цвет кожи 1–2"
       },
       {
         "name": "VAMPIRE, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9212,7 +9290,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, цвет кожи 3"
+        "annotation": "vampire, цвет кожи 3"
       },
       {
         "name": "VAMPIRE, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9226,7 +9304,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, цвет кожи 4"
+        "annotation": "vampire, цвет кожи 4"
       },
       {
         "name": "VAMPIRE, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9240,7 +9318,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, цвет кожи 5"
+        "annotation": "vampire, цвет кожи 5"
       },
       {
         "name": "VAMPIRE, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9254,7 +9332,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, цвет кожи 6"
+        "annotation": "vampire, цвет кожи 6"
       }
     ]
   },
@@ -9270,7 +9348,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "женский символ",
+    "annotation": "женщина: vampire",
     "tags": [
       "женщина",
       "символ",
@@ -9290,7 +9368,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 1,
-        "annotation": "женский символ, цвет кожи 1–2"
+        "annotation": "женщина: vampire, цвет кожи 1–2"
       },
       {
         "name": "VAMPIRE, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9305,7 +9383,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 2,
-        "annotation": "женский символ, цвет кожи 3"
+        "annotation": "женщина: vampire, цвет кожи 3"
       },
       {
         "name": "VAMPIRE, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9320,7 +9398,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 3,
-        "annotation": "женский символ, цвет кожи 4"
+        "annotation": "женщина: vampire, цвет кожи 4"
       },
       {
         "name": "VAMPIRE, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9335,7 +9413,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 4,
-        "annotation": "женский символ, цвет кожи 5"
+        "annotation": "женщина: vampire, цвет кожи 5"
       },
       {
         "name": "VAMPIRE, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9350,7 +9428,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 5,
-        "annotation": "женский символ, цвет кожи 6"
+        "annotation": "женщина: vampire, цвет кожи 6"
       }
     ]
   },
@@ -9366,7 +9444,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "мужской символ",
+    "annotation": "мужчина: vampire",
     "tags": [
       "мужчина",
       "символ",
@@ -9386,7 +9464,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 1,
-        "annotation": "мужской символ, цвет кожи 1–2"
+        "annotation": "мужчина: vampire, цвет кожи 1–2"
       },
       {
         "name": "VAMPIRE, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9401,7 +9479,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 2,
-        "annotation": "мужской символ, цвет кожи 3"
+        "annotation": "мужчина: vampire, цвет кожи 3"
       },
       {
         "name": "VAMPIRE, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9416,7 +9494,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 3,
-        "annotation": "мужской символ, цвет кожи 4"
+        "annotation": "мужчина: vampire, цвет кожи 4"
       },
       {
         "name": "VAMPIRE, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9431,7 +9509,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 4,
-        "annotation": "мужской символ, цвет кожи 5"
+        "annotation": "мужчина: vampire, цвет кожи 5"
       },
       {
         "name": "VAMPIRE, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9446,7 +9524,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 5,
-        "annotation": "мужской символ, цвет кожи 6"
+        "annotation": "мужчина: vampire, цвет кожи 6"
       }
     ]
   },
@@ -9461,6 +9539,12 @@
     "order": 746,
     "group": 0,
     "subgroup": 0,
+    "annotation": "merperson",
+    "tags": [
+      "mermaid",
+      "merman",
+      "merwoman"
+    ],
     "skins": [
       {
         "name": "MERPERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -9474,7 +9558,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, цвет кожи 1–2"
+        "annotation": "merperson, цвет кожи 1–2"
       },
       {
         "name": "MERPERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9488,7 +9572,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, цвет кожи 3"
+        "annotation": "merperson, цвет кожи 3"
       },
       {
         "name": "MERPERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9502,7 +9586,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, цвет кожи 4"
+        "annotation": "merperson, цвет кожи 4"
       },
       {
         "name": "MERPERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9516,7 +9600,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, цвет кожи 5"
+        "annotation": "merperson, цвет кожи 5"
       },
       {
         "name": "MERPERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9530,7 +9614,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, цвет кожи 6"
+        "annotation": "merperson, цвет кожи 6"
       }
     ]
   },
@@ -9546,7 +9630,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "женский символ",
+    "annotation": "женщина: merperson",
     "tags": [
       "женщина",
       "символ",
@@ -9566,7 +9650,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 1,
-        "annotation": "женский символ, цвет кожи 1–2"
+        "annotation": "женщина: merperson, цвет кожи 1–2"
       },
       {
         "name": "MERPERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9581,7 +9665,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 2,
-        "annotation": "женский символ, цвет кожи 3"
+        "annotation": "женщина: merperson, цвет кожи 3"
       },
       {
         "name": "MERPERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9596,7 +9680,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 3,
-        "annotation": "женский символ, цвет кожи 4"
+        "annotation": "женщина: merperson, цвет кожи 4"
       },
       {
         "name": "MERPERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9611,7 +9695,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 4,
-        "annotation": "женский символ, цвет кожи 5"
+        "annotation": "женщина: merperson, цвет кожи 5"
       },
       {
         "name": "MERPERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9626,7 +9710,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 5,
-        "annotation": "женский символ, цвет кожи 6"
+        "annotation": "женщина: merperson, цвет кожи 6"
       }
     ]
   },
@@ -9642,7 +9726,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "мужской символ",
+    "annotation": "мужчина: merperson",
     "tags": [
       "мужчина",
       "символ",
@@ -9662,7 +9746,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 1,
-        "annotation": "мужской символ, цвет кожи 1–2"
+        "annotation": "мужчина: merperson, цвет кожи 1–2"
       },
       {
         "name": "MERPERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9677,7 +9761,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 2,
-        "annotation": "мужской символ, цвет кожи 3"
+        "annotation": "мужчина: merperson, цвет кожи 3"
       },
       {
         "name": "MERPERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9692,7 +9776,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 3,
-        "annotation": "мужской символ, цвет кожи 4"
+        "annotation": "мужчина: merperson, цвет кожи 4"
       },
       {
         "name": "MERPERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9707,7 +9791,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 4,
-        "annotation": "мужской символ, цвет кожи 5"
+        "annotation": "мужчина: merperson, цвет кожи 5"
       },
       {
         "name": "MERPERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9722,7 +9806,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 5,
-        "annotation": "мужской символ, цвет кожи 6"
+        "annotation": "мужчина: merperson, цвет кожи 6"
       }
     ]
   },
@@ -9737,6 +9821,7 @@
     "order": 776,
     "group": 0,
     "subgroup": 0,
+    "annotation": "elf",
     "skins": [
       {
         "name": "ELF, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -9750,7 +9835,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, цвет кожи 1–2"
+        "annotation": "elf, цвет кожи 1–2"
       },
       {
         "name": "ELF, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9764,7 +9849,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, цвет кожи 3"
+        "annotation": "elf, цвет кожи 3"
       },
       {
         "name": "ELF, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9778,7 +9863,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, цвет кожи 4"
+        "annotation": "elf, цвет кожи 4"
       },
       {
         "name": "ELF, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9792,7 +9877,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, цвет кожи 5"
+        "annotation": "elf, цвет кожи 5"
       },
       {
         "name": "ELF, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9806,7 +9891,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, цвет кожи 6"
+        "annotation": "elf, цвет кожи 6"
       }
     ]
   },
@@ -9822,7 +9907,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "женский символ",
+    "annotation": "женщина: elf",
     "tags": [
       "женщина",
       "символ",
@@ -9842,7 +9927,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 1,
-        "annotation": "женский символ, цвет кожи 1–2"
+        "annotation": "женщина: elf, цвет кожи 1–2"
       },
       {
         "name": "ELF, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9857,7 +9942,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 2,
-        "annotation": "женский символ, цвет кожи 3"
+        "annotation": "женщина: elf, цвет кожи 3"
       },
       {
         "name": "ELF, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9872,7 +9957,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 3,
-        "annotation": "женский символ, цвет кожи 4"
+        "annotation": "женщина: elf, цвет кожи 4"
       },
       {
         "name": "ELF, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9887,7 +9972,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 4,
-        "annotation": "женский символ, цвет кожи 5"
+        "annotation": "женщина: elf, цвет кожи 5"
       },
       {
         "name": "ELF, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9902,7 +9987,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 5,
-        "annotation": "женский символ, цвет кожи 6"
+        "annotation": "женщина: elf, цвет кожи 6"
       }
     ]
   },
@@ -9918,7 +10003,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "мужской символ",
+    "annotation": "мужчина: elf",
     "tags": [
       "мужчина",
       "символ",
@@ -9938,7 +10023,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 1,
-        "annotation": "мужской символ, цвет кожи 1–2"
+        "annotation": "мужчина: elf, цвет кожи 1–2"
       },
       {
         "name": "ELF, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9953,7 +10038,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 2,
-        "annotation": "мужской символ, цвет кожи 3"
+        "annotation": "мужчина: elf, цвет кожи 3"
       },
       {
         "name": "ELF, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9968,7 +10053,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 3,
-        "annotation": "мужской символ, цвет кожи 4"
+        "annotation": "мужчина: elf, цвет кожи 4"
       },
       {
         "name": "ELF, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9983,7 +10068,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 4,
-        "annotation": "мужской символ, цвет кожи 5"
+        "annotation": "мужчина: elf, цвет кожи 5"
       },
       {
         "name": "ELF, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9998,7 +10083,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 5,
-        "annotation": "мужской символ, цвет кожи 6"
+        "annotation": "мужчина: elf, цвет кожи 6"
       }
     ]
   },
@@ -10012,7 +10097,11 @@
     "type": 1,
     "order": 806,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "genie",
+    "tags": [
+      "djinn"
+    ]
   },
   {
     "name": "GENIE, FEMALE SIGN",
@@ -10026,7 +10115,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "женский символ",
+    "annotation": "женщина: genie",
     "tags": [
       "женщина",
       "символ",
@@ -10045,7 +10134,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "мужской символ",
+    "annotation": "мужчина: genie",
     "tags": [
       "мужчина",
       "символ",
@@ -10063,7 +10152,12 @@
     "order": 811,
     "group": 0,
     "subgroup": 0,
-    "emoticon": "8#"
+    "emoticon": "8#",
+    "annotation": "zombie",
+    "tags": [
+      "undead",
+      "walking dead"
+    ]
   },
   {
     "name": "ZOMBIE, FEMALE SIGN",
@@ -10077,7 +10171,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "женский символ",
+    "annotation": "женщина: zombie",
     "tags": [
       "женщина",
       "символ",
@@ -10096,7 +10190,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "мужской символ",
+    "annotation": "мужчина: zombie",
     "tags": [
       "мужчина",
       "символ",
@@ -14051,6 +14145,11 @@
     "order": 1223,
     "group": 0,
     "subgroup": 0,
+    "annotation": "person in steamy room",
+    "tags": [
+      "sauna",
+      "steam room"
+    ],
     "skins": [
       {
         "name": "PERSON IN STEAMY ROOM, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -14064,7 +14163,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, цвет кожи 1–2"
+        "annotation": "person in steamy room, цвет кожи 1–2"
       },
       {
         "name": "PERSON IN STEAMY ROOM, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -14078,7 +14177,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, цвет кожи 3"
+        "annotation": "person in steamy room, цвет кожи 3"
       },
       {
         "name": "PERSON IN STEAMY ROOM, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -14092,7 +14191,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, цвет кожи 4"
+        "annotation": "person in steamy room, цвет кожи 4"
       },
       {
         "name": "PERSON IN STEAMY ROOM, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -14106,7 +14205,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, цвет кожи 5"
+        "annotation": "person in steamy room, цвет кожи 5"
       },
       {
         "name": "PERSON IN STEAMY ROOM, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -14120,7 +14219,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, цвет кожи 6"
+        "annotation": "person in steamy room, цвет кожи 6"
       }
     ]
   },
@@ -14136,7 +14235,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "женский символ",
+    "annotation": "женщина: person in steamy room",
     "tags": [
       "женщина",
       "символ",
@@ -14156,7 +14255,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 1,
-        "annotation": "женский символ, цвет кожи 1–2"
+        "annotation": "женщина: person in steamy room, цвет кожи 1–2"
       },
       {
         "name": "PERSON IN STEAMY ROOM, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -14171,7 +14270,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 2,
-        "annotation": "женский символ, цвет кожи 3"
+        "annotation": "женщина: person in steamy room, цвет кожи 3"
       },
       {
         "name": "PERSON IN STEAMY ROOM, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -14186,7 +14285,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 3,
-        "annotation": "женский символ, цвет кожи 4"
+        "annotation": "женщина: person in steamy room, цвет кожи 4"
       },
       {
         "name": "PERSON IN STEAMY ROOM, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -14201,7 +14300,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 4,
-        "annotation": "женский символ, цвет кожи 5"
+        "annotation": "женщина: person in steamy room, цвет кожи 5"
       },
       {
         "name": "PERSON IN STEAMY ROOM, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -14216,7 +14315,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 5,
-        "annotation": "женский символ, цвет кожи 6"
+        "annotation": "женщина: person in steamy room, цвет кожи 6"
       }
     ]
   },
@@ -14232,7 +14331,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "мужской символ",
+    "annotation": "мужчина: person in steamy room",
     "tags": [
       "мужчина",
       "символ",
@@ -14252,7 +14351,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 1,
-        "annotation": "мужской символ, цвет кожи 1–2"
+        "annotation": "мужчина: person in steamy room, цвет кожи 1–2"
       },
       {
         "name": "PERSON IN STEAMY ROOM, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -14267,7 +14366,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 2,
-        "annotation": "мужской символ, цвет кожи 3"
+        "annotation": "мужчина: person in steamy room, цвет кожи 3"
       },
       {
         "name": "PERSON IN STEAMY ROOM, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -14282,7 +14381,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 3,
-        "annotation": "мужской символ, цвет кожи 4"
+        "annotation": "мужчина: person in steamy room, цвет кожи 4"
       },
       {
         "name": "PERSON IN STEAMY ROOM, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -14297,7 +14396,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 4,
-        "annotation": "мужской символ, цвет кожи 5"
+        "annotation": "мужчина: person in steamy room, цвет кожи 5"
       },
       {
         "name": "PERSON IN STEAMY ROOM, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -14312,7 +14411,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 5,
-        "annotation": "мужской символ, цвет кожи 6"
+        "annotation": "мужчина: person in steamy room, цвет кожи 6"
       }
     ]
   },
@@ -14327,6 +14426,7 @@
     "order": 1253,
     "group": 0,
     "subgroup": 0,
+    "annotation": "person climbing",
     "skins": [
       {
         "name": "PERSON CLIMBING, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -14340,7 +14440,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, цвет кожи 1–2"
+        "annotation": "person climbing, цвет кожи 1–2"
       },
       {
         "name": "PERSON CLIMBING, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -14354,7 +14454,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, цвет кожи 3"
+        "annotation": "person climbing, цвет кожи 3"
       },
       {
         "name": "PERSON CLIMBING, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -14368,7 +14468,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, цвет кожи 4"
+        "annotation": "person climbing, цвет кожи 4"
       },
       {
         "name": "PERSON CLIMBING, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -14382,7 +14482,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, цвет кожи 5"
+        "annotation": "person climbing, цвет кожи 5"
       },
       {
         "name": "PERSON CLIMBING, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -14396,7 +14496,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, цвет кожи 6"
+        "annotation": "person climbing, цвет кожи 6"
       }
     ]
   },
@@ -14412,7 +14512,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "женский символ",
+    "annotation": "женщина: person climbing",
     "tags": [
       "женщина",
       "символ",
@@ -14432,7 +14532,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 1,
-        "annotation": "женский символ, цвет кожи 1–2"
+        "annotation": "женщина: person climbing, цвет кожи 1–2"
       },
       {
         "name": "PERSON CLIMBING, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -14447,7 +14547,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 2,
-        "annotation": "женский символ, цвет кожи 3"
+        "annotation": "женщина: person climbing, цвет кожи 3"
       },
       {
         "name": "PERSON CLIMBING, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -14462,7 +14562,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 3,
-        "annotation": "женский символ, цвет кожи 4"
+        "annotation": "женщина: person climbing, цвет кожи 4"
       },
       {
         "name": "PERSON CLIMBING, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -14477,7 +14577,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 4,
-        "annotation": "женский символ, цвет кожи 5"
+        "annotation": "женщина: person climbing, цвет кожи 5"
       },
       {
         "name": "PERSON CLIMBING, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -14492,7 +14592,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 5,
-        "annotation": "женский символ, цвет кожи 6"
+        "annotation": "женщина: person climbing, цвет кожи 6"
       }
     ]
   },
@@ -14508,7 +14608,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "мужской символ",
+    "annotation": "мужчина: person climbing",
     "tags": [
       "мужчина",
       "символ",
@@ -14528,7 +14628,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 1,
-        "annotation": "мужской символ, цвет кожи 1–2"
+        "annotation": "мужчина: person climbing, цвет кожи 1–2"
       },
       {
         "name": "PERSON CLIMBING, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -14543,7 +14643,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 2,
-        "annotation": "мужской символ, цвет кожи 3"
+        "annotation": "мужчина: person climbing, цвет кожи 3"
       },
       {
         "name": "PERSON CLIMBING, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -14558,7 +14658,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 3,
-        "annotation": "мужской символ, цвет кожи 4"
+        "annotation": "мужчина: person climbing, цвет кожи 4"
       },
       {
         "name": "PERSON CLIMBING, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -14573,7 +14673,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 4,
-        "annotation": "мужской символ, цвет кожи 5"
+        "annotation": "мужчина: person climbing, цвет кожи 5"
       },
       {
         "name": "PERSON CLIMBING, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -14588,7 +14688,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 5,
-        "annotation": "мужской символ, цвет кожи 6"
+        "annotation": "мужчина: person climbing, цвет кожи 6"
       }
     ]
   },
@@ -14603,6 +14703,11 @@
     "order": 1283,
     "group": 0,
     "subgroup": 0,
+    "annotation": "person in lotus position",
+    "tags": [
+      "yoga",
+      "meditation"
+    ],
     "skins": [
       {
         "name": "PERSON IN LOTUS POSITION, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -14616,7 +14721,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, цвет кожи 1–2"
+        "annotation": "person in lotus position, цвет кожи 1–2"
       },
       {
         "name": "PERSON IN LOTUS POSITION, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -14630,7 +14735,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, цвет кожи 3"
+        "annotation": "person in lotus position, цвет кожи 3"
       },
       {
         "name": "PERSON IN LOTUS POSITION, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -14644,7 +14749,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, цвет кожи 4"
+        "annotation": "person in lotus position, цвет кожи 4"
       },
       {
         "name": "PERSON IN LOTUS POSITION, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -14658,7 +14763,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, цвет кожи 5"
+        "annotation": "person in lotus position, цвет кожи 5"
       },
       {
         "name": "PERSON IN LOTUS POSITION, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -14672,7 +14777,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, цвет кожи 6"
+        "annotation": "person in lotus position, цвет кожи 6"
       }
     ]
   },
@@ -14688,7 +14793,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "женский символ",
+    "annotation": "женщина: person in lotus position",
     "tags": [
       "женщина",
       "символ",
@@ -14708,7 +14813,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 1,
-        "annotation": "женский символ, цвет кожи 1–2"
+        "annotation": "женщина: person in lotus position, цвет кожи 1–2"
       },
       {
         "name": "PERSON IN LOTUS POSITION, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -14723,7 +14828,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 2,
-        "annotation": "женский символ, цвет кожи 3"
+        "annotation": "женщина: person in lotus position, цвет кожи 3"
       },
       {
         "name": "PERSON IN LOTUS POSITION, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -14738,7 +14843,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 3,
-        "annotation": "женский символ, цвет кожи 4"
+        "annotation": "женщина: person in lotus position, цвет кожи 4"
       },
       {
         "name": "PERSON IN LOTUS POSITION, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -14753,7 +14858,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 4,
-        "annotation": "женский символ, цвет кожи 5"
+        "annotation": "женщина: person in lotus position, цвет кожи 5"
       },
       {
         "name": "PERSON IN LOTUS POSITION, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -14768,7 +14873,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 5,
-        "annotation": "женский символ, цвет кожи 6"
+        "annotation": "женщина: person in lotus position, цвет кожи 6"
       }
     ]
   },
@@ -14784,7 +14889,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "мужской символ",
+    "annotation": "мужчина: person in lotus position",
     "tags": [
       "мужчина",
       "символ",
@@ -14804,7 +14909,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 1,
-        "annotation": "мужской символ, цвет кожи 1–2"
+        "annotation": "мужчина: person in lotus position, цвет кожи 1–2"
       },
       {
         "name": "PERSON IN LOTUS POSITION, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -14819,7 +14924,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 2,
-        "annotation": "мужской символ, цвет кожи 3"
+        "annotation": "мужчина: person in lotus position, цвет кожи 3"
       },
       {
         "name": "PERSON IN LOTUS POSITION, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -14834,7 +14939,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 3,
-        "annotation": "мужской символ, цвет кожи 4"
+        "annotation": "мужчина: person in lotus position, цвет кожи 4"
       },
       {
         "name": "PERSON IN LOTUS POSITION, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -14849,7 +14954,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 4,
-        "annotation": "мужской символ, цвет кожи 5"
+        "annotation": "мужчина: person in lotus position, цвет кожи 5"
       },
       {
         "name": "PERSON IN LOTUS POSITION, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -14864,7 +14969,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 5,
-        "annotation": "мужской символ, цвет кожи 6"
+        "annotation": "мужчина: person in lotus position, цвет кожи 6"
       }
     ]
   },
@@ -19022,7 +19127,7 @@
     "order": 1739,
     "group": 0,
     "subgroup": 0,
-    "annotation": "женщина, алое сердце, значок поцелуя, мужчина",
+    "annotation": "поцелуй: женщина, мужчина",
     "tags": [
       "человек",
       "волосы",
@@ -19050,7 +19155,7 @@
     "order": 1741,
     "group": 0,
     "subgroup": 0,
-    "annotation": "мужчина, алое сердце, значок поцелуя, мужчина",
+    "annotation": "поцелуй: мужчина, мужчина",
     "tags": [
       "человек",
       "усы",
@@ -19075,7 +19180,7 @@
     "order": 1743,
     "group": 0,
     "subgroup": 0,
-    "annotation": "женщина, алое сердце, значок поцелуя, женщина",
+    "annotation": "поцелуй: женщина, женщина",
     "tags": [
       "человек",
       "волосы",
@@ -19122,7 +19227,7 @@
     "order": 1746,
     "group": 0,
     "subgroup": 0,
-    "annotation": "женщина, алое сердце, мужчина",
+    "annotation": "влюбленная пара: женщина, мужчина",
     "tags": [
       "человек",
       "волосы",
@@ -19147,7 +19252,7 @@
     "order": 1748,
     "group": 0,
     "subgroup": 0,
-    "annotation": "мужчина, алое сердце, мужчина",
+    "annotation": "влюбленная пара: мужчина, мужчина",
     "tags": [
       "человек",
       "усы",
@@ -19169,7 +19274,7 @@
     "order": 1750,
     "group": 0,
     "subgroup": 0,
-    "annotation": "женщина, алое сердце, женщина",
+    "annotation": "влюбленная пара: женщина, женщина",
     "tags": [
       "человек",
       "волосы",
@@ -19212,7 +19317,7 @@
     "order": 1753,
     "group": 0,
     "subgroup": 0,
-    "annotation": "мужчина, женщина, мальчик",
+    "annotation": "семья: мужчина, женщина, мальчик",
     "tags": [
       "человек",
       "усы",
@@ -19235,7 +19340,7 @@
     "order": 1754,
     "group": 0,
     "subgroup": 0,
-    "annotation": "мужчина, женщина, девочка",
+    "annotation": "семья: мужчина, женщина, девочка",
     "tags": [
       "человек",
       "усы",
@@ -19259,7 +19364,7 @@
     "order": 1755,
     "group": 0,
     "subgroup": 0,
-    "annotation": "мужчина, женщина, девочка, мальчик",
+    "annotation": "семья: мужчина, женщина, девочка, мальчик",
     "tags": [
       "человек",
       "усы",
@@ -19284,7 +19389,7 @@
     "order": 1756,
     "group": 0,
     "subgroup": 0,
-    "annotation": "мужчина, женщина, мальчик, мальчик",
+    "annotation": "семья: мужчина, женщина, мальчик, мальчик",
     "tags": [
       "человек",
       "усы",
@@ -19307,7 +19412,7 @@
     "order": 1757,
     "group": 0,
     "subgroup": 0,
-    "annotation": "мужчина, женщина, девочка, девочка",
+    "annotation": "семья: мужчина, женщина, девочка, девочка",
     "tags": [
       "человек",
       "усы",
@@ -19331,7 +19436,7 @@
     "order": 1758,
     "group": 0,
     "subgroup": 0,
-    "annotation": "мужчина, мужчина, мальчик",
+    "annotation": "семья: мужчина, мужчина, мальчик",
     "tags": [
       "человек",
       "усы",
@@ -19351,7 +19456,7 @@
     "order": 1759,
     "group": 0,
     "subgroup": 0,
-    "annotation": "мужчина, мужчина, девочка",
+    "annotation": "семья: мужчина, мужчина, девочка",
     "tags": [
       "человек",
       "усы",
@@ -19372,7 +19477,7 @@
     "order": 1760,
     "group": 0,
     "subgroup": 0,
-    "annotation": "мужчина, мужчина, девочка, мальчик",
+    "annotation": "семья: мужчина, мужчина, девочка, мальчик",
     "tags": [
       "человек",
       "усы",
@@ -19394,7 +19499,7 @@
     "order": 1761,
     "group": 0,
     "subgroup": 0,
-    "annotation": "мужчина, мужчина, мальчик, мальчик",
+    "annotation": "семья: мужчина, мужчина, мальчик, мальчик",
     "tags": [
       "человек",
       "усы",
@@ -19414,7 +19519,7 @@
     "order": 1762,
     "group": 0,
     "subgroup": 0,
-    "annotation": "мужчина, мужчина, девочка, девочка",
+    "annotation": "семья: мужчина, мужчина, девочка, девочка",
     "tags": [
       "человек",
       "усы",
@@ -19435,7 +19540,7 @@
     "order": 1763,
     "group": 0,
     "subgroup": 0,
-    "annotation": "женщина, женщина, мальчик",
+    "annotation": "семья: женщина, женщина, мальчик",
     "tags": [
       "человек",
       "волосы",
@@ -19456,7 +19561,7 @@
     "order": 1764,
     "group": 0,
     "subgroup": 0,
-    "annotation": "женщина, женщина, девочка",
+    "annotation": "семья: женщина, женщина, девочка",
     "tags": [
       "человек",
       "волосы",
@@ -19478,7 +19583,7 @@
     "order": 1765,
     "group": 0,
     "subgroup": 0,
-    "annotation": "женщина, женщина, девочка, мальчик",
+    "annotation": "семья: женщина, женщина, девочка, мальчик",
     "tags": [
       "человек",
       "волосы",
@@ -19501,7 +19606,7 @@
     "order": 1766,
     "group": 0,
     "subgroup": 0,
-    "annotation": "женщина, женщина, мальчик, мальчик",
+    "annotation": "семья: женщина, женщина, мальчик, мальчик",
     "tags": [
       "человек",
       "волосы",
@@ -19522,7 +19627,7 @@
     "order": 1767,
     "group": 0,
     "subgroup": 0,
-    "annotation": "женщина, женщина, девочка, девочка",
+    "annotation": "семья: женщина, женщина, девочка, девочка",
     "tags": [
       "человек",
       "волосы",
@@ -19544,7 +19649,7 @@
     "order": 1768,
     "group": 0,
     "subgroup": 0,
-    "annotation": "мужчина, мальчик",
+    "annotation": "семья: мужчина, мальчик",
     "tags": [
       "человек",
       "усы",
@@ -19564,7 +19669,7 @@
     "order": 1769,
     "group": 0,
     "subgroup": 0,
-    "annotation": "мужчина, мальчик, мальчик",
+    "annotation": "семья: мужчина, мальчик, мальчик",
     "tags": [
       "человек",
       "усы",
@@ -19584,7 +19689,7 @@
     "order": 1770,
     "group": 0,
     "subgroup": 0,
-    "annotation": "мужчина, девочка",
+    "annotation": "семья: мужчина, девочка",
     "tags": [
       "человек",
       "усы",
@@ -19605,7 +19710,7 @@
     "order": 1771,
     "group": 0,
     "subgroup": 0,
-    "annotation": "мужчина, девочка, мальчик",
+    "annotation": "семья: мужчина, девочка, мальчик",
     "tags": [
       "человек",
       "усы",
@@ -19627,7 +19732,7 @@
     "order": 1772,
     "group": 0,
     "subgroup": 0,
-    "annotation": "мужчина, девочка, девочка",
+    "annotation": "семья: мужчина, девочка, девочка",
     "tags": [
       "человек",
       "усы",
@@ -19648,7 +19753,7 @@
     "order": 1773,
     "group": 0,
     "subgroup": 0,
-    "annotation": "женщина, мальчик",
+    "annotation": "семья: женщина, мальчик",
     "tags": [
       "человек",
       "волосы",
@@ -19669,7 +19774,7 @@
     "order": 1774,
     "group": 0,
     "subgroup": 0,
-    "annotation": "женщина, мальчик, мальчик",
+    "annotation": "семья: женщина, мальчик, мальчик",
     "tags": [
       "человек",
       "волосы",
@@ -19690,7 +19795,7 @@
     "order": 1775,
     "group": 0,
     "subgroup": 0,
-    "annotation": "женщина, девочка",
+    "annotation": "семья: женщина, девочка",
     "tags": [
       "человек",
       "волосы",
@@ -19712,7 +19817,7 @@
     "order": 1776,
     "group": 0,
     "subgroup": 0,
-    "annotation": "женщина, девочка, мальчик",
+    "annotation": "семья: женщина, девочка, мальчик",
     "tags": [
       "человек",
       "волосы",
@@ -19735,7 +19840,7 @@
     "order": 1777,
     "group": 0,
     "subgroup": 0,
-    "annotation": "женщина, девочка, девочка",
+    "annotation": "семья: женщина, девочка, девочка",
     "tags": [
       "человек",
       "волосы",
@@ -21964,6 +22069,11 @@
     "order": 1925,
     "group": 0,
     "subgroup": 0,
+    "annotation": "love-you gesture",
+    "tags": [
+      "ily",
+      "hand"
+    ],
     "skins": [
       {
         "name": "I LOVE YOU HAND SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -21977,7 +22087,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, цвет кожи 1–2"
+        "annotation": "love-you gesture, цвет кожи 1–2"
       },
       {
         "name": "I LOVE YOU HAND SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -21991,7 +22101,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, цвет кожи 3"
+        "annotation": "love-you gesture, цвет кожи 3"
       },
       {
         "name": "I LOVE YOU HAND SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -22005,7 +22115,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, цвет кожи 4"
+        "annotation": "love-you gesture, цвет кожи 4"
       },
       {
         "name": "I LOVE YOU HAND SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -22019,7 +22129,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, цвет кожи 5"
+        "annotation": "love-you gesture, цвет кожи 5"
       },
       {
         "name": "I LOVE YOU HAND SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -22033,7 +22143,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, цвет кожи 6"
+        "annotation": "love-you gesture, цвет кожи 6"
       }
     ]
   },
@@ -22416,6 +22526,10 @@
     "order": 1956,
     "group": 0,
     "subgroup": 0,
+    "annotation": "palms up together",
+    "tags": [
+      "prayer"
+    ],
     "skins": [
       {
         "name": "PALMS UP TOGETHER, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -22429,7 +22543,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, цвет кожи 1–2"
+        "annotation": "palms up together, цвет кожи 1–2"
       },
       {
         "name": "PALMS UP TOGETHER, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -22443,7 +22557,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, цвет кожи 3"
+        "annotation": "palms up together, цвет кожи 3"
       },
       {
         "name": "PALMS UP TOGETHER, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -22457,7 +22571,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, цвет кожи 4"
+        "annotation": "palms up together, цвет кожи 4"
       },
       {
         "name": "PALMS UP TOGETHER, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -22471,7 +22585,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, цвет кожи 5"
+        "annotation": "palms up together, цвет кожи 5"
       },
       {
         "name": "PALMS UP TOGETHER, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -22485,7 +22599,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, цвет кожи 6"
+        "annotation": "palms up together, цвет кожи 6"
       }
     ]
   },
@@ -22953,7 +23067,11 @@
     "type": 1,
     "order": 1995,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "brain",
+    "tags": [
+      "intelligent"
+    ]
   },
   {
     "name": "TONGUE",
@@ -23201,7 +23319,8 @@
     "type": 1,
     "order": 2010,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "orange heart"
   },
   {
     "name": "PURPLE HEART",
@@ -23652,7 +23771,11 @@
     "type": 1,
     "order": 2040,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "scarf",
+    "tags": [
+      "neck"
+    ]
   },
   {
     "name": "GLOVES",
@@ -23664,7 +23787,8 @@
     "type": 1,
     "order": 2041,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "gloves"
   },
   {
     "name": "COAT",
@@ -23676,7 +23800,11 @@
     "type": 1,
     "order": 2042,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "coat",
+    "tags": [
+      "jacket"
+    ]
   },
   {
     "name": "SOCKS",
@@ -23688,7 +23816,8 @@
     "type": 1,
     "order": 2043,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "socks"
   },
   {
     "name": "DRESS",
@@ -24023,7 +24152,11 @@
     "type": 1,
     "order": 2063,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "billed cap",
+    "tags": [
+      "baseball cap"
+    ]
   },
   {
     "name": "HELMET WITH WHITE CROSS",
@@ -24428,7 +24561,8 @@
     "type": 1,
     "order": 2087,
     "group": 1,
-    "subgroup": 1
+    "subgroup": 1,
+    "annotation": "zebra"
   },
   {
     "name": "DEER",
@@ -24685,7 +24819,8 @@
     "type": 1,
     "order": 2102,
     "group": 1,
-    "subgroup": 1
+    "subgroup": 1,
+    "annotation": "giraffe"
   },
   {
     "name": "ELEPHANT",
@@ -24850,7 +24985,8 @@
     "type": 1,
     "order": 2113,
     "group": 1,
-    "subgroup": 1
+    "subgroup": 1,
+    "annotation": "hedgehog"
   },
   {
     "name": "BAT",
@@ -25282,7 +25418,13 @@
     "type": 1,
     "order": 2139,
     "group": 1,
-    "subgroup": 1
+    "subgroup": 1,
+    "annotation": "sauropod",
+    "tags": [
+      "brontosaurus",
+      "diplodocus",
+      "brachiosaurus"
+    ]
   },
   {
     "name": "T-REX",
@@ -25294,7 +25436,11 @@
     "type": 1,
     "order": 2140,
     "group": 1,
-    "subgroup": 1
+    "subgroup": 1,
+    "annotation": "T-Rex",
+    "tags": [
+      "tyrannosaurus rex"
+    ]
   },
   {
     "name": "SPOUTING WHALE",
@@ -25614,7 +25760,8 @@
     "type": 1,
     "order": 2159,
     "group": 1,
-    "subgroup": 1
+    "subgroup": 1,
+    "annotation": "cricket"
   },
   {
     "name": "SPIDER",
@@ -26287,7 +26434,8 @@
     "type": 1,
     "order": 2204,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "coconut"
   },
   {
     "name": "AVOCADO",
@@ -26424,7 +26572,8 @@
     "type": 1,
     "order": 2213,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "broccoli"
   },
   {
     "name": "MUSHROOM",
@@ -26544,7 +26693,11 @@
     "type": 1,
     "order": 2220,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "pretzel",
+    "tags": [
+      "twisted"
+    ]
   },
   {
     "name": "PANCAKES",
@@ -26624,7 +26777,14 @@
     "type": 1,
     "order": 2225,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "cut of meat",
+    "tags": [
+      "porkchop",
+      "lambchop",
+      "chop",
+      "steak"
+    ]
   },
   {
     "name": "BACON",
@@ -26724,7 +26884,8 @@
     "type": 1,
     "order": 2231,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "sandwich"
   },
   {
     "name": "TACO",
@@ -26858,7 +27019,13 @@
     "type": 1,
     "order": 2239,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "bowl with spoon",
+    "tags": [
+      "breakfast",
+      "cereal",
+      "congee"
+    ]
   },
   {
     "name": "GREEN SALAD",
@@ -26905,7 +27072,11 @@
     "type": 1,
     "order": 2242,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "canned food",
+    "tags": [
+      "can"
+    ]
   },
   {
     "name": "BENTO BOX",
@@ -27132,7 +27303,15 @@
     "type": 1,
     "order": 2256,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "dumpling",
+    "tags": [
+      "potsticker",
+      "gyōza",
+      "jiaozi",
+      "pierogi",
+      "empanada"
+    ]
   },
   {
     "name": "FORTUNE COOKIE",
@@ -27144,7 +27323,8 @@
     "type": 1,
     "order": 2257,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "fortune cookie"
   },
   {
     "name": "TAKEOUT BOX",
@@ -27156,7 +27336,11 @@
     "type": 1,
     "order": 2258,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "takeout box",
+    "tags": [
+      "oyster pail"
+    ]
   },
   {
     "name": "SOFT ICE CREAM",
@@ -27289,7 +27473,8 @@
     "type": 1,
     "order": 2266,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "pie"
   },
   {
     "name": "CHOCOLATE BAR",
@@ -27618,7 +27803,12 @@
     "type": 1,
     "order": 2285,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "cup with straw",
+    "tags": [
+      "soda",
+      "juice"
+    ]
   },
   {
     "name": "CHOPSTICKS",
@@ -27630,7 +27820,11 @@
     "type": 1,
     "order": 2286,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "chopsticks",
+    "tags": [
+      "hashi"
+    ]
   },
   {
     "name": "FORK AND KNIFE WITH PLATE",
@@ -29901,7 +30095,11 @@
     "type": 1,
     "order": 2441,
     "group": 3,
-    "subgroup": 3
+    "subgroup": 3,
+    "annotation": "flying saucer",
+    "tags": [
+      "ufo"
+    ]
   },
   {
     "name": "BELLHOP BELL",
@@ -32334,7 +32532,12 @@
     "type": 1,
     "order": 2601,
     "group": 4,
-    "subgroup": 4
+    "subgroup": 4,
+    "annotation": "sled",
+    "tags": [
+      "sledge",
+      "sleigh"
+    ]
   },
   {
     "name": "CURLING STONE",
@@ -32346,7 +32549,8 @@
     "type": 1,
     "order": 2602,
     "group": 4,
-    "subgroup": 4
+    "subgroup": 4,
+    "annotation": "curling stone"
   },
   {
     "name": "VIDEO GAME",

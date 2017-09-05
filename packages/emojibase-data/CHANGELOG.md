@@ -1,3 +1,16 @@
+# 1.1.0
+#### 🚀 New
+* Updated ZWJ sequence annotations to more closely follow the CLDR guidelines.
+  * Kiss emojis are now prefixed with localized "kiss:" messages.
+  * Couple emojis are now prefixed with localized "couple with heart:" messages.
+  * Family emojis are now prefixed with localized "family:" messages.
+  * Gender emojis are now prefixed with localized "man" or "woman" messages.
+* Added annotations for keycap sequences.
+
+#### 🐞 Fixed
+* Gender annotations will now use "man" or "woman" instead of "male sign" or "female sign".
+* Missing annotations will now fallback to the english annotation if available.
+
 # 1.0.4
 #### 🛠 Internal
 * Updated mage emoticon to `:{>`.

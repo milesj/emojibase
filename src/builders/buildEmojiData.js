@@ -5,6 +5,7 @@
  */
 
 import log from '../helpers/log';
+import writeCache from '../helpers/writeCache';
 import loadData from '../loaders/loadData';
 import loadEmoticons from '../loaders/loadEmoticons';
 import loadNames from '../loaders/loadNames';
@@ -55,6 +56,8 @@ export default async function buildEmojiData(): Promise<EmojiMap> {
 
   // 5) Validate the built data against the official unicode emoji list
   await validateData(emojis);
+
+  writeCache('final-emoji-data.json', emojis);
 
   log.success('build', 'Built emoji data');
 

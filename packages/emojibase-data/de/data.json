@@ -384,7 +384,14 @@
     "type": 1,
     "order": 22,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "star-struck",
+    "tags": [
+      "grinning",
+      "face",
+      "star",
+      "eyes"
+    ]
   },
   {
     "name": "THINKING FACE",
@@ -416,7 +423,12 @@
     "type": 1,
     "order": 24,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "face with raised eyebrow",
+    "tags": [
+      "skeptic",
+      "distrust"
+    ]
   },
   {
     "name": "NEUTRAL FACE",
@@ -1107,7 +1119,11 @@
     "type": 1,
     "order": 63,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "exploding head",
+    "tags": [
+      "shocked"
+    ]
   },
   {
     "name": "GRIMACING FACE",
@@ -1195,7 +1211,13 @@
     "type": 1,
     "order": 68,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "crazy face",
+    "tags": [
+      "large",
+      "small",
+      "eye"
+    ]
   },
   {
     "name": "DIZZY FACE",
@@ -1263,7 +1285,8 @@
     "order": 72,
     "group": 0,
     "subgroup": 0,
-    "emoticon": ":@"
+    "emoticon": ":@",
+    "annotation": "face with symbols over mouth"
   },
   {
     "name": "FACE WITH MEDICAL MASK",
@@ -1350,7 +1373,12 @@
     "type": 1,
     "order": 77,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "face vomiting",
+    "tags": [
+      "vomit",
+      "sick"
+    ]
   },
   {
     "name": "SNEEZING FACE",
@@ -1452,7 +1480,8 @@
     "type": 1,
     "order": 83,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "shushing face"
   },
   {
     "name": "SMILING FACE WITH SMILING EYES AND HAND COVERING MOUTH",
@@ -1464,7 +1493,11 @@
     "type": 1,
     "order": 84,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "face with hand over mouth",
+    "tags": [
+      "whoops"
+    ]
   },
   {
     "name": "FACE WITH MONOCLE",
@@ -1476,7 +1509,11 @@
     "type": 1,
     "order": 85,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "face with monocle",
+    "tags": [
+      "stuffy"
+    ]
   },
   {
     "name": "NERD FACE",
@@ -2034,6 +2071,11 @@
     "order": 117,
     "group": 0,
     "subgroup": 0,
+    "annotation": "child",
+    "tags": [
+      "gender-neutral",
+      "young"
+    ],
     "skins": [
       {
         "name": "CHILD, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -2047,7 +2089,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, Hauttyp 1–2"
+        "annotation": "child, Hauttyp 1–2"
       },
       {
         "name": "CHILD, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -2061,7 +2103,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, Hauttyp 3"
+        "annotation": "child, Hauttyp 3"
       },
       {
         "name": "CHILD, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -2075,7 +2117,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, Hauttyp 4"
+        "annotation": "child, Hauttyp 4"
       },
       {
         "name": "CHILD, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -2089,7 +2131,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, Hauttyp 5"
+        "annotation": "child, Hauttyp 5"
       },
       {
         "name": "CHILD, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -2103,7 +2145,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, Hauttyp 6"
+        "annotation": "child, Hauttyp 6"
       }
     ]
   },
@@ -2294,6 +2336,10 @@
     "order": 135,
     "group": 0,
     "subgroup": 0,
+    "annotation": "adult",
+    "tags": [
+      "gender-neutral"
+    ],
     "skins": [
       {
         "name": "ADULT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -2307,7 +2353,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, Hauttyp 1–2"
+        "annotation": "adult, Hauttyp 1–2"
       },
       {
         "name": "ADULT, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -2321,7 +2367,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, Hauttyp 3"
+        "annotation": "adult, Hauttyp 3"
       },
       {
         "name": "ADULT, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -2335,7 +2381,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, Hauttyp 4"
+        "annotation": "adult, Hauttyp 4"
       },
       {
         "name": "ADULT, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -2349,7 +2395,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, Hauttyp 5"
+        "annotation": "adult, Hauttyp 5"
       },
       {
         "name": "ADULT, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -2363,7 +2409,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, Hauttyp 6"
+        "annotation": "adult, Hauttyp 6"
       }
     ]
   },
@@ -2554,6 +2600,11 @@
     "order": 153,
     "group": 0,
     "subgroup": 0,
+    "annotation": "older adult",
+    "tags": [
+      "gender-neutral",
+      "old"
+    ],
     "skins": [
       {
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -2567,7 +2618,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, Hauttyp 1–2"
+        "annotation": "older adult, Hauttyp 1–2"
       },
       {
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -2581,7 +2632,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, Hauttyp 3"
+        "annotation": "older adult, Hauttyp 3"
       },
       {
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -2595,7 +2646,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, Hauttyp 4"
+        "annotation": "older adult, Hauttyp 4"
       },
       {
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -2609,7 +2660,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, Hauttyp 5"
+        "annotation": "older adult, Hauttyp 5"
       },
       {
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -2623,7 +2674,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, Hauttyp 6"
+        "annotation": "older adult, Hauttyp 6"
       }
     ]
   },
@@ -7380,6 +7431,13 @@
     "order": 572,
     "group": 0,
     "subgroup": 0,
+    "annotation": "woman with headscarf",
+    "tags": [
+      "headscarf",
+      "hijab",
+      "tichel",
+      "mantilla"
+    ],
     "skins": [
       {
         "name": "PERSON WITH HEADSCARF, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -7393,7 +7451,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, Hauttyp 1–2"
+        "annotation": "woman with headscarf, Hauttyp 1–2"
       },
       {
         "name": "PERSON WITH HEADSCARF, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -7407,7 +7465,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, Hauttyp 3"
+        "annotation": "woman with headscarf, Hauttyp 3"
       },
       {
         "name": "PERSON WITH HEADSCARF, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -7421,7 +7479,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, Hauttyp 4"
+        "annotation": "woman with headscarf, Hauttyp 4"
       },
       {
         "name": "PERSON WITH HEADSCARF, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -7435,7 +7493,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, Hauttyp 5"
+        "annotation": "woman with headscarf, Hauttyp 5"
       },
       {
         "name": "PERSON WITH HEADSCARF, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -7449,7 +7507,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, Hauttyp 6"
+        "annotation": "woman with headscarf, Hauttyp 6"
       }
     ]
   },
@@ -7464,6 +7522,7 @@
     "order": 578,
     "group": 0,
     "subgroup": 0,
+    "annotation": "bearded person",
     "skins": [
       {
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -7477,7 +7536,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, Hauttyp 1–2"
+        "annotation": "bearded person, Hauttyp 1–2"
       },
       {
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -7491,7 +7550,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, Hauttyp 3"
+        "annotation": "bearded person, Hauttyp 3"
       },
       {
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -7505,7 +7564,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, Hauttyp 4"
+        "annotation": "bearded person, Hauttyp 4"
       },
       {
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -7519,7 +7578,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, Hauttyp 5"
+        "annotation": "bearded person, Hauttyp 5"
       },
       {
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -7533,7 +7592,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, Hauttyp 6"
+        "annotation": "bearded person, Hauttyp 6"
       }
     ]
   },
@@ -8101,6 +8160,7 @@
     "order": 632,
     "group": 0,
     "subgroup": 0,
+    "annotation": "breast-feeding",
     "skins": [
       {
         "name": "BREAST-FEEDING, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -8114,7 +8174,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, Hauttyp 1–2"
+        "annotation": "breast-feeding, Hauttyp 1–2"
       },
       {
         "name": "BREAST-FEEDING, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8128,7 +8188,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, Hauttyp 3"
+        "annotation": "breast-feeding, Hauttyp 3"
       },
       {
         "name": "BREAST-FEEDING, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8142,7 +8202,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, Hauttyp 4"
+        "annotation": "breast-feeding, Hauttyp 4"
       },
       {
         "name": "BREAST-FEEDING, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8156,7 +8216,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, Hauttyp 5"
+        "annotation": "breast-feeding, Hauttyp 5"
       },
       {
         "name": "BREAST-FEEDING, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8170,7 +8230,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, Hauttyp 6"
+        "annotation": "breast-feeding, Hauttyp 6"
       }
     ]
   },
@@ -8452,6 +8512,13 @@
     "order": 656,
     "group": 0,
     "subgroup": 0,
+    "annotation": "mage",
+    "tags": [
+      "wizard",
+      "witch",
+      "sorcerer",
+      "sorceress"
+    ],
     "skins": [
       {
         "name": "MAGE, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -8465,7 +8532,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, Hauttyp 1–2"
+        "annotation": "mage, Hauttyp 1–2"
       },
       {
         "name": "MAGE, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8479,7 +8546,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, Hauttyp 3"
+        "annotation": "mage, Hauttyp 3"
       },
       {
         "name": "MAGE, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8493,7 +8560,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, Hauttyp 4"
+        "annotation": "mage, Hauttyp 4"
       },
       {
         "name": "MAGE, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8507,7 +8574,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, Hauttyp 5"
+        "annotation": "mage, Hauttyp 5"
       },
       {
         "name": "MAGE, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8521,7 +8588,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, Hauttyp 6"
+        "annotation": "mage, Hauttyp 6"
       }
     ]
   },
@@ -8537,7 +8604,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "Frauensymbol",
+    "annotation": "Frau: mage",
     "tags": [
       "frau",
       "weiblich",
@@ -8557,7 +8624,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 1,
-        "annotation": "Frauensymbol, Hauttyp 1–2"
+        "annotation": "Frau: mage, Hauttyp 1–2"
       },
       {
         "name": "MAGE, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8572,7 +8639,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 2,
-        "annotation": "Frauensymbol, Hauttyp 3"
+        "annotation": "Frau: mage, Hauttyp 3"
       },
       {
         "name": "MAGE, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8587,7 +8654,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 3,
-        "annotation": "Frauensymbol, Hauttyp 4"
+        "annotation": "Frau: mage, Hauttyp 4"
       },
       {
         "name": "MAGE, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8602,7 +8669,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 4,
-        "annotation": "Frauensymbol, Hauttyp 5"
+        "annotation": "Frau: mage, Hauttyp 5"
       },
       {
         "name": "MAGE, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8617,7 +8684,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 5,
-        "annotation": "Frauensymbol, Hauttyp 6"
+        "annotation": "Frau: mage, Hauttyp 6"
       }
     ]
   },
@@ -8634,7 +8701,7 @@
     "subgroup": 0,
     "gender": 1,
     "emoticon": ":{>",
-    "annotation": "Männersymbol",
+    "annotation": "Mann: mage",
     "tags": [
       "mann",
       "zeichen",
@@ -8654,7 +8721,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 1,
-        "annotation": "Männersymbol, Hauttyp 1–2"
+        "annotation": "Mann: mage, Hauttyp 1–2"
       },
       {
         "name": "MAGE, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8669,7 +8736,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 2,
-        "annotation": "Männersymbol, Hauttyp 3"
+        "annotation": "Mann: mage, Hauttyp 3"
       },
       {
         "name": "MAGE, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8684,7 +8751,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 3,
-        "annotation": "Männersymbol, Hauttyp 4"
+        "annotation": "Mann: mage, Hauttyp 4"
       },
       {
         "name": "MAGE, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8699,7 +8766,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 4,
-        "annotation": "Männersymbol, Hauttyp 5"
+        "annotation": "Mann: mage, Hauttyp 5"
       },
       {
         "name": "MAGE, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8714,7 +8781,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 5,
-        "annotation": "Männersymbol, Hauttyp 6"
+        "annotation": "Mann: mage, Hauttyp 6"
       }
     ]
   },
@@ -8729,6 +8796,12 @@
     "order": 686,
     "group": 0,
     "subgroup": 0,
+    "annotation": "fairy",
+    "tags": [
+      "titania",
+      "puck",
+      "oberon"
+    ],
     "skins": [
       {
         "name": "FAIRY, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -8742,7 +8815,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, Hauttyp 1–2"
+        "annotation": "fairy, Hauttyp 1–2"
       },
       {
         "name": "FAIRY, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8756,7 +8829,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, Hauttyp 3"
+        "annotation": "fairy, Hauttyp 3"
       },
       {
         "name": "FAIRY, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8770,7 +8843,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, Hauttyp 4"
+        "annotation": "fairy, Hauttyp 4"
       },
       {
         "name": "FAIRY, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8784,7 +8857,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, Hauttyp 5"
+        "annotation": "fairy, Hauttyp 5"
       },
       {
         "name": "FAIRY, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8798,7 +8871,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, Hauttyp 6"
+        "annotation": "fairy, Hauttyp 6"
       }
     ]
   },
@@ -8814,7 +8887,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "Frauensymbol",
+    "annotation": "Frau: fairy",
     "tags": [
       "frau",
       "weiblich",
@@ -8834,7 +8907,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 1,
-        "annotation": "Frauensymbol, Hauttyp 1–2"
+        "annotation": "Frau: fairy, Hauttyp 1–2"
       },
       {
         "name": "FAIRY, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8849,7 +8922,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 2,
-        "annotation": "Frauensymbol, Hauttyp 3"
+        "annotation": "Frau: fairy, Hauttyp 3"
       },
       {
         "name": "FAIRY, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8864,7 +8937,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 3,
-        "annotation": "Frauensymbol, Hauttyp 4"
+        "annotation": "Frau: fairy, Hauttyp 4"
       },
       {
         "name": "FAIRY, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8879,7 +8952,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 4,
-        "annotation": "Frauensymbol, Hauttyp 5"
+        "annotation": "Frau: fairy, Hauttyp 5"
       },
       {
         "name": "FAIRY, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8894,7 +8967,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 5,
-        "annotation": "Frauensymbol, Hauttyp 6"
+        "annotation": "Frau: fairy, Hauttyp 6"
       }
     ]
   },
@@ -8910,7 +8983,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "Männersymbol",
+    "annotation": "Mann: fairy",
     "tags": [
       "mann",
       "zeichen",
@@ -8930,7 +9003,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 1,
-        "annotation": "Männersymbol, Hauttyp 1–2"
+        "annotation": "Mann: fairy, Hauttyp 1–2"
       },
       {
         "name": "FAIRY, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8945,7 +9018,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 2,
-        "annotation": "Männersymbol, Hauttyp 3"
+        "annotation": "Mann: fairy, Hauttyp 3"
       },
       {
         "name": "FAIRY, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8960,7 +9033,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 3,
-        "annotation": "Männersymbol, Hauttyp 4"
+        "annotation": "Mann: fairy, Hauttyp 4"
       },
       {
         "name": "FAIRY, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8975,7 +9048,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 4,
-        "annotation": "Männersymbol, Hauttyp 5"
+        "annotation": "Mann: fairy, Hauttyp 5"
       },
       {
         "name": "FAIRY, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8990,7 +9063,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 5,
-        "annotation": "Männersymbol, Hauttyp 6"
+        "annotation": "Mann: fairy, Hauttyp 6"
       }
     ]
   },
@@ -9006,6 +9079,11 @@
     "group": 0,
     "subgroup": 0,
     "emoticon": ":E",
+    "annotation": "vampire",
+    "tags": [
+      "dracula",
+      "undead"
+    ],
     "skins": [
       {
         "name": "VAMPIRE, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -9019,7 +9097,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, Hauttyp 1–2"
+        "annotation": "vampire, Hauttyp 1–2"
       },
       {
         "name": "VAMPIRE, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9033,7 +9111,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, Hauttyp 3"
+        "annotation": "vampire, Hauttyp 3"
       },
       {
         "name": "VAMPIRE, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9047,7 +9125,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, Hauttyp 4"
+        "annotation": "vampire, Hauttyp 4"
       },
       {
         "name": "VAMPIRE, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9061,7 +9139,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, Hauttyp 5"
+        "annotation": "vampire, Hauttyp 5"
       },
       {
         "name": "VAMPIRE, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9075,7 +9153,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, Hauttyp 6"
+        "annotation": "vampire, Hauttyp 6"
       }
     ]
   },
@@ -9091,7 +9169,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "Frauensymbol",
+    "annotation": "Frau: vampire",
     "tags": [
       "frau",
       "weiblich",
@@ -9111,7 +9189,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 1,
-        "annotation": "Frauensymbol, Hauttyp 1–2"
+        "annotation": "Frau: vampire, Hauttyp 1–2"
       },
       {
         "name": "VAMPIRE, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9126,7 +9204,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 2,
-        "annotation": "Frauensymbol, Hauttyp 3"
+        "annotation": "Frau: vampire, Hauttyp 3"
       },
       {
         "name": "VAMPIRE, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9141,7 +9219,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 3,
-        "annotation": "Frauensymbol, Hauttyp 4"
+        "annotation": "Frau: vampire, Hauttyp 4"
       },
       {
         "name": "VAMPIRE, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9156,7 +9234,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 4,
-        "annotation": "Frauensymbol, Hauttyp 5"
+        "annotation": "Frau: vampire, Hauttyp 5"
       },
       {
         "name": "VAMPIRE, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9171,7 +9249,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 5,
-        "annotation": "Frauensymbol, Hauttyp 6"
+        "annotation": "Frau: vampire, Hauttyp 6"
       }
     ]
   },
@@ -9187,7 +9265,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "Männersymbol",
+    "annotation": "Mann: vampire",
     "tags": [
       "mann",
       "zeichen",
@@ -9207,7 +9285,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 1,
-        "annotation": "Männersymbol, Hauttyp 1–2"
+        "annotation": "Mann: vampire, Hauttyp 1–2"
       },
       {
         "name": "VAMPIRE, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9222,7 +9300,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 2,
-        "annotation": "Männersymbol, Hauttyp 3"
+        "annotation": "Mann: vampire, Hauttyp 3"
       },
       {
         "name": "VAMPIRE, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9237,7 +9315,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 3,
-        "annotation": "Männersymbol, Hauttyp 4"
+        "annotation": "Mann: vampire, Hauttyp 4"
       },
       {
         "name": "VAMPIRE, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9252,7 +9330,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 4,
-        "annotation": "Männersymbol, Hauttyp 5"
+        "annotation": "Mann: vampire, Hauttyp 5"
       },
       {
         "name": "VAMPIRE, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9267,7 +9345,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 5,
-        "annotation": "Männersymbol, Hauttyp 6"
+        "annotation": "Mann: vampire, Hauttyp 6"
       }
     ]
   },
@@ -9282,6 +9360,12 @@
     "order": 746,
     "group": 0,
     "subgroup": 0,
+    "annotation": "merperson",
+    "tags": [
+      "mermaid",
+      "merman",
+      "merwoman"
+    ],
     "skins": [
       {
         "name": "MERPERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -9295,7 +9379,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, Hauttyp 1–2"
+        "annotation": "merperson, Hauttyp 1–2"
       },
       {
         "name": "MERPERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9309,7 +9393,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, Hauttyp 3"
+        "annotation": "merperson, Hauttyp 3"
       },
       {
         "name": "MERPERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9323,7 +9407,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, Hauttyp 4"
+        "annotation": "merperson, Hauttyp 4"
       },
       {
         "name": "MERPERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9337,7 +9421,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, Hauttyp 5"
+        "annotation": "merperson, Hauttyp 5"
       },
       {
         "name": "MERPERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9351,7 +9435,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, Hauttyp 6"
+        "annotation": "merperson, Hauttyp 6"
       }
     ]
   },
@@ -9367,7 +9451,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "Frauensymbol",
+    "annotation": "Frau: merperson",
     "tags": [
       "frau",
       "weiblich",
@@ -9387,7 +9471,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 1,
-        "annotation": "Frauensymbol, Hauttyp 1–2"
+        "annotation": "Frau: merperson, Hauttyp 1–2"
       },
       {
         "name": "MERPERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9402,7 +9486,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 2,
-        "annotation": "Frauensymbol, Hauttyp 3"
+        "annotation": "Frau: merperson, Hauttyp 3"
       },
       {
         "name": "MERPERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9417,7 +9501,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 3,
-        "annotation": "Frauensymbol, Hauttyp 4"
+        "annotation": "Frau: merperson, Hauttyp 4"
       },
       {
         "name": "MERPERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9432,7 +9516,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 4,
-        "annotation": "Frauensymbol, Hauttyp 5"
+        "annotation": "Frau: merperson, Hauttyp 5"
       },
       {
         "name": "MERPERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9447,7 +9531,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 5,
-        "annotation": "Frauensymbol, Hauttyp 6"
+        "annotation": "Frau: merperson, Hauttyp 6"
       }
     ]
   },
@@ -9463,7 +9547,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "Männersymbol",
+    "annotation": "Mann: merperson",
     "tags": [
       "mann",
       "zeichen",
@@ -9483,7 +9567,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 1,
-        "annotation": "Männersymbol, Hauttyp 1–2"
+        "annotation": "Mann: merperson, Hauttyp 1–2"
       },
       {
         "name": "MERPERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9498,7 +9582,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 2,
-        "annotation": "Männersymbol, Hauttyp 3"
+        "annotation": "Mann: merperson, Hauttyp 3"
       },
       {
         "name": "MERPERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9513,7 +9597,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 3,
-        "annotation": "Männersymbol, Hauttyp 4"
+        "annotation": "Mann: merperson, Hauttyp 4"
       },
       {
         "name": "MERPERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9528,7 +9612,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 4,
-        "annotation": "Männersymbol, Hauttyp 5"
+        "annotation": "Mann: merperson, Hauttyp 5"
       },
       {
         "name": "MERPERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9543,7 +9627,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 5,
-        "annotation": "Männersymbol, Hauttyp 6"
+        "annotation": "Mann: merperson, Hauttyp 6"
       }
     ]
   },
@@ -9558,6 +9642,7 @@
     "order": 776,
     "group": 0,
     "subgroup": 0,
+    "annotation": "elf",
     "skins": [
       {
         "name": "ELF, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -9571,7 +9656,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, Hauttyp 1–2"
+        "annotation": "elf, Hauttyp 1–2"
       },
       {
         "name": "ELF, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9585,7 +9670,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, Hauttyp 3"
+        "annotation": "elf, Hauttyp 3"
       },
       {
         "name": "ELF, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9599,7 +9684,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, Hauttyp 4"
+        "annotation": "elf, Hauttyp 4"
       },
       {
         "name": "ELF, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9613,7 +9698,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, Hauttyp 5"
+        "annotation": "elf, Hauttyp 5"
       },
       {
         "name": "ELF, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9627,7 +9712,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, Hauttyp 6"
+        "annotation": "elf, Hauttyp 6"
       }
     ]
   },
@@ -9643,7 +9728,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "Frauensymbol",
+    "annotation": "Frau: elf",
     "tags": [
       "frau",
       "weiblich",
@@ -9663,7 +9748,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 1,
-        "annotation": "Frauensymbol, Hauttyp 1–2"
+        "annotation": "Frau: elf, Hauttyp 1–2"
       },
       {
         "name": "ELF, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9678,7 +9763,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 2,
-        "annotation": "Frauensymbol, Hauttyp 3"
+        "annotation": "Frau: elf, Hauttyp 3"
       },
       {
         "name": "ELF, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9693,7 +9778,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 3,
-        "annotation": "Frauensymbol, Hauttyp 4"
+        "annotation": "Frau: elf, Hauttyp 4"
       },
       {
         "name": "ELF, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9708,7 +9793,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 4,
-        "annotation": "Frauensymbol, Hauttyp 5"
+        "annotation": "Frau: elf, Hauttyp 5"
       },
       {
         "name": "ELF, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9723,7 +9808,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 5,
-        "annotation": "Frauensymbol, Hauttyp 6"
+        "annotation": "Frau: elf, Hauttyp 6"
       }
     ]
   },
@@ -9739,7 +9824,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "Männersymbol",
+    "annotation": "Mann: elf",
     "tags": [
       "mann",
       "zeichen",
@@ -9759,7 +9844,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 1,
-        "annotation": "Männersymbol, Hauttyp 1–2"
+        "annotation": "Mann: elf, Hauttyp 1–2"
       },
       {
         "name": "ELF, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9774,7 +9859,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 2,
-        "annotation": "Männersymbol, Hauttyp 3"
+        "annotation": "Mann: elf, Hauttyp 3"
       },
       {
         "name": "ELF, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9789,7 +9874,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 3,
-        "annotation": "Männersymbol, Hauttyp 4"
+        "annotation": "Mann: elf, Hauttyp 4"
       },
       {
         "name": "ELF, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9804,7 +9889,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 4,
-        "annotation": "Männersymbol, Hauttyp 5"
+        "annotation": "Mann: elf, Hauttyp 5"
       },
       {
         "name": "ELF, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9819,7 +9904,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 5,
-        "annotation": "Männersymbol, Hauttyp 6"
+        "annotation": "Mann: elf, Hauttyp 6"
       }
     ]
   },
@@ -9833,7 +9918,11 @@
     "type": 1,
     "order": 806,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "genie",
+    "tags": [
+      "djinn"
+    ]
   },
   {
     "name": "GENIE, FEMALE SIGN",
@@ -9847,7 +9936,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "Frauensymbol",
+    "annotation": "Frau: genie",
     "tags": [
       "frau",
       "weiblich",
@@ -9866,7 +9955,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "Männersymbol",
+    "annotation": "Mann: genie",
     "tags": [
       "mann",
       "zeichen",
@@ -9884,7 +9973,12 @@
     "order": 811,
     "group": 0,
     "subgroup": 0,
-    "emoticon": "8#"
+    "emoticon": "8#",
+    "annotation": "zombie",
+    "tags": [
+      "undead",
+      "walking dead"
+    ]
   },
   {
     "name": "ZOMBIE, FEMALE SIGN",
@@ -9898,7 +9992,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "Frauensymbol",
+    "annotation": "Frau: zombie",
     "tags": [
       "frau",
       "weiblich",
@@ -9917,7 +10011,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "Männersymbol",
+    "annotation": "Mann: zombie",
     "tags": [
       "mann",
       "zeichen",
@@ -13834,6 +13928,11 @@
     "order": 1223,
     "group": 0,
     "subgroup": 0,
+    "annotation": "person in steamy room",
+    "tags": [
+      "sauna",
+      "steam room"
+    ],
     "skins": [
       {
         "name": "PERSON IN STEAMY ROOM, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -13847,7 +13946,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, Hauttyp 1–2"
+        "annotation": "person in steamy room, Hauttyp 1–2"
       },
       {
         "name": "PERSON IN STEAMY ROOM, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -13861,7 +13960,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, Hauttyp 3"
+        "annotation": "person in steamy room, Hauttyp 3"
       },
       {
         "name": "PERSON IN STEAMY ROOM, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -13875,7 +13974,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, Hauttyp 4"
+        "annotation": "person in steamy room, Hauttyp 4"
       },
       {
         "name": "PERSON IN STEAMY ROOM, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -13889,7 +13988,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, Hauttyp 5"
+        "annotation": "person in steamy room, Hauttyp 5"
       },
       {
         "name": "PERSON IN STEAMY ROOM, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -13903,7 +14002,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, Hauttyp 6"
+        "annotation": "person in steamy room, Hauttyp 6"
       }
     ]
   },
@@ -13919,7 +14018,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "Frauensymbol",
+    "annotation": "Frau: person in steamy room",
     "tags": [
       "frau",
       "weiblich",
@@ -13939,7 +14038,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 1,
-        "annotation": "Frauensymbol, Hauttyp 1–2"
+        "annotation": "Frau: person in steamy room, Hauttyp 1–2"
       },
       {
         "name": "PERSON IN STEAMY ROOM, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -13954,7 +14053,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 2,
-        "annotation": "Frauensymbol, Hauttyp 3"
+        "annotation": "Frau: person in steamy room, Hauttyp 3"
       },
       {
         "name": "PERSON IN STEAMY ROOM, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -13969,7 +14068,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 3,
-        "annotation": "Frauensymbol, Hauttyp 4"
+        "annotation": "Frau: person in steamy room, Hauttyp 4"
       },
       {
         "name": "PERSON IN STEAMY ROOM, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -13984,7 +14083,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 4,
-        "annotation": "Frauensymbol, Hauttyp 5"
+        "annotation": "Frau: person in steamy room, Hauttyp 5"
       },
       {
         "name": "PERSON IN STEAMY ROOM, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -13999,7 +14098,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 5,
-        "annotation": "Frauensymbol, Hauttyp 6"
+        "annotation": "Frau: person in steamy room, Hauttyp 6"
       }
     ]
   },
@@ -14015,7 +14114,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "Männersymbol",
+    "annotation": "Mann: person in steamy room",
     "tags": [
       "mann",
       "zeichen",
@@ -14035,7 +14134,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 1,
-        "annotation": "Männersymbol, Hauttyp 1–2"
+        "annotation": "Mann: person in steamy room, Hauttyp 1–2"
       },
       {
         "name": "PERSON IN STEAMY ROOM, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -14050,7 +14149,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 2,
-        "annotation": "Männersymbol, Hauttyp 3"
+        "annotation": "Mann: person in steamy room, Hauttyp 3"
       },
       {
         "name": "PERSON IN STEAMY ROOM, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -14065,7 +14164,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 3,
-        "annotation": "Männersymbol, Hauttyp 4"
+        "annotation": "Mann: person in steamy room, Hauttyp 4"
       },
       {
         "name": "PERSON IN STEAMY ROOM, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -14080,7 +14179,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 4,
-        "annotation": "Männersymbol, Hauttyp 5"
+        "annotation": "Mann: person in steamy room, Hauttyp 5"
       },
       {
         "name": "PERSON IN STEAMY ROOM, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -14095,7 +14194,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 5,
-        "annotation": "Männersymbol, Hauttyp 6"
+        "annotation": "Mann: person in steamy room, Hauttyp 6"
       }
     ]
   },
@@ -14110,6 +14209,7 @@
     "order": 1253,
     "group": 0,
     "subgroup": 0,
+    "annotation": "person climbing",
     "skins": [
       {
         "name": "PERSON CLIMBING, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -14123,7 +14223,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, Hauttyp 1–2"
+        "annotation": "person climbing, Hauttyp 1–2"
       },
       {
         "name": "PERSON CLIMBING, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -14137,7 +14237,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, Hauttyp 3"
+        "annotation": "person climbing, Hauttyp 3"
       },
       {
         "name": "PERSON CLIMBING, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -14151,7 +14251,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, Hauttyp 4"
+        "annotation": "person climbing, Hauttyp 4"
       },
       {
         "name": "PERSON CLIMBING, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -14165,7 +14265,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, Hauttyp 5"
+        "annotation": "person climbing, Hauttyp 5"
       },
       {
         "name": "PERSON CLIMBING, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -14179,7 +14279,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, Hauttyp 6"
+        "annotation": "person climbing, Hauttyp 6"
       }
     ]
   },
@@ -14195,7 +14295,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "Frauensymbol",
+    "annotation": "Frau: person climbing",
     "tags": [
       "frau",
       "weiblich",
@@ -14215,7 +14315,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 1,
-        "annotation": "Frauensymbol, Hauttyp 1–2"
+        "annotation": "Frau: person climbing, Hauttyp 1–2"
       },
       {
         "name": "PERSON CLIMBING, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -14230,7 +14330,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 2,
-        "annotation": "Frauensymbol, Hauttyp 3"
+        "annotation": "Frau: person climbing, Hauttyp 3"
       },
       {
         "name": "PERSON CLIMBING, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -14245,7 +14345,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 3,
-        "annotation": "Frauensymbol, Hauttyp 4"
+        "annotation": "Frau: person climbing, Hauttyp 4"
       },
       {
         "name": "PERSON CLIMBING, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -14260,7 +14360,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 4,
-        "annotation": "Frauensymbol, Hauttyp 5"
+        "annotation": "Frau: person climbing, Hauttyp 5"
       },
       {
         "name": "PERSON CLIMBING, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -14275,7 +14375,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 5,
-        "annotation": "Frauensymbol, Hauttyp 6"
+        "annotation": "Frau: person climbing, Hauttyp 6"
       }
     ]
   },
@@ -14291,7 +14391,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "Männersymbol",
+    "annotation": "Mann: person climbing",
     "tags": [
       "mann",
       "zeichen",
@@ -14311,7 +14411,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 1,
-        "annotation": "Männersymbol, Hauttyp 1–2"
+        "annotation": "Mann: person climbing, Hauttyp 1–2"
       },
       {
         "name": "PERSON CLIMBING, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -14326,7 +14426,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 2,
-        "annotation": "Männersymbol, Hauttyp 3"
+        "annotation": "Mann: person climbing, Hauttyp 3"
       },
       {
         "name": "PERSON CLIMBING, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -14341,7 +14441,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 3,
-        "annotation": "Männersymbol, Hauttyp 4"
+        "annotation": "Mann: person climbing, Hauttyp 4"
       },
       {
         "name": "PERSON CLIMBING, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -14356,7 +14456,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 4,
-        "annotation": "Männersymbol, Hauttyp 5"
+        "annotation": "Mann: person climbing, Hauttyp 5"
       },
       {
         "name": "PERSON CLIMBING, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -14371,7 +14471,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 5,
-        "annotation": "Männersymbol, Hauttyp 6"
+        "annotation": "Mann: person climbing, Hauttyp 6"
       }
     ]
   },
@@ -14386,6 +14486,11 @@
     "order": 1283,
     "group": 0,
     "subgroup": 0,
+    "annotation": "person in lotus position",
+    "tags": [
+      "yoga",
+      "meditation"
+    ],
     "skins": [
       {
         "name": "PERSON IN LOTUS POSITION, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -14399,7 +14504,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, Hauttyp 1–2"
+        "annotation": "person in lotus position, Hauttyp 1–2"
       },
       {
         "name": "PERSON IN LOTUS POSITION, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -14413,7 +14518,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, Hauttyp 3"
+        "annotation": "person in lotus position, Hauttyp 3"
       },
       {
         "name": "PERSON IN LOTUS POSITION, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -14427,7 +14532,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, Hauttyp 4"
+        "annotation": "person in lotus position, Hauttyp 4"
       },
       {
         "name": "PERSON IN LOTUS POSITION, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -14441,7 +14546,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, Hauttyp 5"
+        "annotation": "person in lotus position, Hauttyp 5"
       },
       {
         "name": "PERSON IN LOTUS POSITION, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -14455,7 +14560,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, Hauttyp 6"
+        "annotation": "person in lotus position, Hauttyp 6"
       }
     ]
   },
@@ -14471,7 +14576,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 0,
-    "annotation": "Frauensymbol",
+    "annotation": "Frau: person in lotus position",
     "tags": [
       "frau",
       "weiblich",
@@ -14491,7 +14596,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 1,
-        "annotation": "Frauensymbol, Hauttyp 1–2"
+        "annotation": "Frau: person in lotus position, Hauttyp 1–2"
       },
       {
         "name": "PERSON IN LOTUS POSITION, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -14506,7 +14611,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 2,
-        "annotation": "Frauensymbol, Hauttyp 3"
+        "annotation": "Frau: person in lotus position, Hauttyp 3"
       },
       {
         "name": "PERSON IN LOTUS POSITION, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -14521,7 +14626,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 3,
-        "annotation": "Frauensymbol, Hauttyp 4"
+        "annotation": "Frau: person in lotus position, Hauttyp 4"
       },
       {
         "name": "PERSON IN LOTUS POSITION, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -14536,7 +14641,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 4,
-        "annotation": "Frauensymbol, Hauttyp 5"
+        "annotation": "Frau: person in lotus position, Hauttyp 5"
       },
       {
         "name": "PERSON IN LOTUS POSITION, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -14551,7 +14656,7 @@
         "subgroup": 0,
         "gender": 0,
         "tone": 5,
-        "annotation": "Frauensymbol, Hauttyp 6"
+        "annotation": "Frau: person in lotus position, Hauttyp 6"
       }
     ]
   },
@@ -14567,7 +14672,7 @@
     "group": 0,
     "subgroup": 0,
     "gender": 1,
-    "annotation": "Männersymbol",
+    "annotation": "Mann: person in lotus position",
     "tags": [
       "mann",
       "zeichen",
@@ -14587,7 +14692,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 1,
-        "annotation": "Männersymbol, Hauttyp 1–2"
+        "annotation": "Mann: person in lotus position, Hauttyp 1–2"
       },
       {
         "name": "PERSON IN LOTUS POSITION, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -14602,7 +14707,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 2,
-        "annotation": "Männersymbol, Hauttyp 3"
+        "annotation": "Mann: person in lotus position, Hauttyp 3"
       },
       {
         "name": "PERSON IN LOTUS POSITION, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -14617,7 +14722,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 3,
-        "annotation": "Männersymbol, Hauttyp 4"
+        "annotation": "Mann: person in lotus position, Hauttyp 4"
       },
       {
         "name": "PERSON IN LOTUS POSITION, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -14632,7 +14737,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 4,
-        "annotation": "Männersymbol, Hauttyp 5"
+        "annotation": "Mann: person in lotus position, Hauttyp 5"
       },
       {
         "name": "PERSON IN LOTUS POSITION, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -14647,7 +14752,7 @@
         "subgroup": 0,
         "gender": 1,
         "tone": 5,
-        "annotation": "Männersymbol, Hauttyp 6"
+        "annotation": "Mann: person in lotus position, Hauttyp 6"
       }
     ]
   },
@@ -18758,7 +18863,7 @@
     "order": 1739,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Frau, Rotes Herz, Kussabdruck, Mann",
+    "annotation": "Küssendes Paar: Frau, Mann",
     "tags": [
       "gesicht",
       "herz",
@@ -18777,7 +18882,7 @@
     "order": 1741,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Mann, Rotes Herz, Kussabdruck, Mann",
+    "annotation": "Küssendes Paar: Mann, Mann",
     "tags": [
       "gesicht",
       "herz",
@@ -18796,7 +18901,7 @@
     "order": 1743,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Frau, Rotes Herz, Kussabdruck, Frau",
+    "annotation": "Küssendes Paar: Frau, Frau",
     "tags": [
       "gesicht",
       "herz",
@@ -18834,7 +18939,7 @@
     "order": 1746,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Frau, Rotes Herz, Mann",
+    "annotation": "Paar: Frau, Mann",
     "tags": [
       "gesicht",
       "herz"
@@ -18851,7 +18956,7 @@
     "order": 1748,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Mann, Rotes Herz, Mann",
+    "annotation": "Paar: Mann, Mann",
     "tags": [
       "gesicht",
       "herz"
@@ -18868,7 +18973,7 @@
     "order": 1750,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Frau, Rotes Herz, Frau",
+    "annotation": "Paar: Frau, Frau",
     "tags": [
       "gesicht",
       "herz"
@@ -18904,7 +19009,7 @@
     "order": 1753,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Mann, Frau, Junge",
+    "annotation": "Familie: Mann, Frau, Junge",
     "tags": [
       "gesicht"
     ]
@@ -18920,7 +19025,7 @@
     "order": 1754,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Mann, Frau, Mädchen",
+    "annotation": "Familie: Mann, Frau, Mädchen",
     "tags": [
       "gesicht"
     ]
@@ -18936,7 +19041,7 @@
     "order": 1755,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Mann, Frau, Mädchen, Junge",
+    "annotation": "Familie: Mann, Frau, Mädchen, Junge",
     "tags": [
       "gesicht"
     ]
@@ -18952,7 +19057,7 @@
     "order": 1756,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Mann, Frau, Junge, Junge",
+    "annotation": "Familie: Mann, Frau, Junge, Junge",
     "tags": [
       "gesicht"
     ]
@@ -18968,7 +19073,7 @@
     "order": 1757,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Mann, Frau, Mädchen, Mädchen",
+    "annotation": "Familie: Mann, Frau, Mädchen, Mädchen",
     "tags": [
       "gesicht"
     ]
@@ -18984,7 +19089,7 @@
     "order": 1758,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Mann, Mann, Junge",
+    "annotation": "Familie: Mann, Mann, Junge",
     "tags": [
       "gesicht"
     ]
@@ -19000,7 +19105,7 @@
     "order": 1759,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Mann, Mann, Mädchen",
+    "annotation": "Familie: Mann, Mann, Mädchen",
     "tags": [
       "gesicht"
     ]
@@ -19016,7 +19121,7 @@
     "order": 1760,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Mann, Mann, Mädchen, Junge",
+    "annotation": "Familie: Mann, Mann, Mädchen, Junge",
     "tags": [
       "gesicht"
     ]
@@ -19032,7 +19137,7 @@
     "order": 1761,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Mann, Mann, Junge, Junge",
+    "annotation": "Familie: Mann, Mann, Junge, Junge",
     "tags": [
       "gesicht"
     ]
@@ -19048,7 +19153,7 @@
     "order": 1762,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Mann, Mann, Mädchen, Mädchen",
+    "annotation": "Familie: Mann, Mann, Mädchen, Mädchen",
     "tags": [
       "gesicht"
     ]
@@ -19064,7 +19169,7 @@
     "order": 1763,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Frau, Frau, Junge",
+    "annotation": "Familie: Frau, Frau, Junge",
     "tags": [
       "gesicht"
     ]
@@ -19080,7 +19185,7 @@
     "order": 1764,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Frau, Frau, Mädchen",
+    "annotation": "Familie: Frau, Frau, Mädchen",
     "tags": [
       "gesicht"
     ]
@@ -19096,7 +19201,7 @@
     "order": 1765,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Frau, Frau, Mädchen, Junge",
+    "annotation": "Familie: Frau, Frau, Mädchen, Junge",
     "tags": [
       "gesicht"
     ]
@@ -19112,7 +19217,7 @@
     "order": 1766,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Frau, Frau, Junge, Junge",
+    "annotation": "Familie: Frau, Frau, Junge, Junge",
     "tags": [
       "gesicht"
     ]
@@ -19128,7 +19233,7 @@
     "order": 1767,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Frau, Frau, Mädchen, Mädchen",
+    "annotation": "Familie: Frau, Frau, Mädchen, Mädchen",
     "tags": [
       "gesicht"
     ]
@@ -19144,7 +19249,7 @@
     "order": 1768,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Mann, Junge",
+    "annotation": "Familie: Mann, Junge",
     "tags": [
       "gesicht"
     ]
@@ -19160,7 +19265,7 @@
     "order": 1769,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Mann, Junge, Junge",
+    "annotation": "Familie: Mann, Junge, Junge",
     "tags": [
       "gesicht"
     ]
@@ -19176,7 +19281,7 @@
     "order": 1770,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Mann, Mädchen",
+    "annotation": "Familie: Mann, Mädchen",
     "tags": [
       "gesicht"
     ]
@@ -19192,7 +19297,7 @@
     "order": 1771,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Mann, Mädchen, Junge",
+    "annotation": "Familie: Mann, Mädchen, Junge",
     "tags": [
       "gesicht"
     ]
@@ -19208,7 +19313,7 @@
     "order": 1772,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Mann, Mädchen, Mädchen",
+    "annotation": "Familie: Mann, Mädchen, Mädchen",
     "tags": [
       "gesicht"
     ]
@@ -19224,7 +19329,7 @@
     "order": 1773,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Frau, Junge",
+    "annotation": "Familie: Frau, Junge",
     "tags": [
       "gesicht"
     ]
@@ -19240,7 +19345,7 @@
     "order": 1774,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Frau, Junge, Junge",
+    "annotation": "Familie: Frau, Junge, Junge",
     "tags": [
       "gesicht"
     ]
@@ -19256,7 +19361,7 @@
     "order": 1775,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Frau, Mädchen",
+    "annotation": "Familie: Frau, Mädchen",
     "tags": [
       "gesicht"
     ]
@@ -19272,7 +19377,7 @@
     "order": 1776,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Frau, Mädchen, Junge",
+    "annotation": "Familie: Frau, Mädchen, Junge",
     "tags": [
       "gesicht"
     ]
@@ -19288,7 +19393,7 @@
     "order": 1777,
     "group": 0,
     "subgroup": 0,
-    "annotation": "Frau, Mädchen, Mädchen",
+    "annotation": "Familie: Frau, Mädchen, Mädchen",
     "tags": [
       "gesicht"
     ]
@@ -21492,6 +21597,11 @@
     "order": 1925,
     "group": 0,
     "subgroup": 0,
+    "annotation": "love-you gesture",
+    "tags": [
+      "ily",
+      "hand"
+    ],
     "skins": [
       {
         "name": "I LOVE YOU HAND SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -21505,7 +21615,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, Hauttyp 1–2"
+        "annotation": "love-you gesture, Hauttyp 1–2"
       },
       {
         "name": "I LOVE YOU HAND SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -21519,7 +21629,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, Hauttyp 3"
+        "annotation": "love-you gesture, Hauttyp 3"
       },
       {
         "name": "I LOVE YOU HAND SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -21533,7 +21643,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, Hauttyp 4"
+        "annotation": "love-you gesture, Hauttyp 4"
       },
       {
         "name": "I LOVE YOU HAND SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -21547,7 +21657,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, Hauttyp 5"
+        "annotation": "love-you gesture, Hauttyp 5"
       },
       {
         "name": "I LOVE YOU HAND SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -21561,7 +21671,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, Hauttyp 6"
+        "annotation": "love-you gesture, Hauttyp 6"
       }
     ]
   },
@@ -21933,6 +22043,10 @@
     "order": 1956,
     "group": 0,
     "subgroup": 0,
+    "annotation": "palms up together",
+    "tags": [
+      "prayer"
+    ],
     "skins": [
       {
         "name": "PALMS UP TOGETHER, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -21946,7 +22060,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 1,
-        "annotation": "undefined, Hauttyp 1–2"
+        "annotation": "palms up together, Hauttyp 1–2"
       },
       {
         "name": "PALMS UP TOGETHER, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -21960,7 +22074,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 2,
-        "annotation": "undefined, Hauttyp 3"
+        "annotation": "palms up together, Hauttyp 3"
       },
       {
         "name": "PALMS UP TOGETHER, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -21974,7 +22088,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 3,
-        "annotation": "undefined, Hauttyp 4"
+        "annotation": "palms up together, Hauttyp 4"
       },
       {
         "name": "PALMS UP TOGETHER, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -21988,7 +22102,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 4,
-        "annotation": "undefined, Hauttyp 5"
+        "annotation": "palms up together, Hauttyp 5"
       },
       {
         "name": "PALMS UP TOGETHER, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -22002,7 +22116,7 @@
         "group": 0,
         "subgroup": 0,
         "tone": 5,
-        "annotation": "undefined, Hauttyp 6"
+        "annotation": "palms up together, Hauttyp 6"
       }
     ]
   },
@@ -22462,7 +22576,11 @@
     "type": 1,
     "order": 1995,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "brain",
+    "tags": [
+      "intelligent"
+    ]
   },
   {
     "name": "TONGUE",
@@ -22698,7 +22816,8 @@
     "type": 1,
     "order": 2010,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "orange heart"
   },
   {
     "name": "PURPLE HEART",
@@ -23135,7 +23254,11 @@
     "type": 1,
     "order": 2040,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "scarf",
+    "tags": [
+      "neck"
+    ]
   },
   {
     "name": "GLOVES",
@@ -23147,7 +23270,8 @@
     "type": 1,
     "order": 2041,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "gloves"
   },
   {
     "name": "COAT",
@@ -23159,7 +23283,11 @@
     "type": 1,
     "order": 2042,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "coat",
+    "tags": [
+      "jacket"
+    ]
   },
   {
     "name": "SOCKS",
@@ -23171,7 +23299,8 @@
     "type": 1,
     "order": 2043,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "socks"
   },
   {
     "name": "DRESS",
@@ -23503,7 +23632,11 @@
     "type": 1,
     "order": 2063,
     "group": 0,
-    "subgroup": 0
+    "subgroup": 0,
+    "annotation": "billed cap",
+    "tags": [
+      "baseball cap"
+    ]
   },
   {
     "name": "HELMET WITH WHITE CROSS",
@@ -23902,7 +24035,8 @@
     "type": 1,
     "order": 2087,
     "group": 1,
-    "subgroup": 1
+    "subgroup": 1,
+    "annotation": "zebra"
   },
   {
     "name": "DEER",
@@ -24162,7 +24296,8 @@
     "type": 1,
     "order": 2102,
     "group": 1,
-    "subgroup": 1
+    "subgroup": 1,
+    "annotation": "giraffe"
   },
   {
     "name": "ELEPHANT",
@@ -24328,7 +24463,8 @@
     "type": 1,
     "order": 2113,
     "group": 1,
-    "subgroup": 1
+    "subgroup": 1,
+    "annotation": "hedgehog"
   },
   {
     "name": "BAT",
@@ -24762,7 +24898,13 @@
     "type": 1,
     "order": 2139,
     "group": 1,
-    "subgroup": 1
+    "subgroup": 1,
+    "annotation": "sauropod",
+    "tags": [
+      "brontosaurus",
+      "diplodocus",
+      "brachiosaurus"
+    ]
   },
   {
     "name": "T-REX",
@@ -24774,7 +24916,11 @@
     "type": 1,
     "order": 2140,
     "group": 1,
-    "subgroup": 1
+    "subgroup": 1,
+    "annotation": "T-Rex",
+    "tags": [
+      "tyrannosaurus rex"
+    ]
   },
   {
     "name": "SPOUTING WHALE",
@@ -25096,7 +25242,8 @@
     "type": 1,
     "order": 2159,
     "group": 1,
-    "subgroup": 1
+    "subgroup": 1,
+    "annotation": "cricket"
   },
   {
     "name": "SPIDER",
@@ -25818,7 +25965,8 @@
     "type": 1,
     "order": 2204,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "coconut"
   },
   {
     "name": "AVOCADO",
@@ -25954,7 +26102,8 @@
     "type": 1,
     "order": 2213,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "broccoli"
   },
   {
     "name": "MUSHROOM",
@@ -26067,7 +26216,11 @@
     "type": 1,
     "order": 2220,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "pretzel",
+    "tags": [
+      "twisted"
+    ]
   },
   {
     "name": "PANCAKES",
@@ -26148,7 +26301,14 @@
     "type": 1,
     "order": 2225,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "cut of meat",
+    "tags": [
+      "porkchop",
+      "lambchop",
+      "chop",
+      "steak"
+    ]
   },
   {
     "name": "BACON",
@@ -26249,7 +26409,8 @@
     "type": 1,
     "order": 2231,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "sandwich"
   },
   {
     "name": "TACO",
@@ -26382,7 +26543,13 @@
     "type": 1,
     "order": 2239,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "bowl with spoon",
+    "tags": [
+      "breakfast",
+      "cereal",
+      "congee"
+    ]
   },
   {
     "name": "GREEN SALAD",
@@ -26428,7 +26595,11 @@
     "type": 1,
     "order": 2242,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "canned food",
+    "tags": [
+      "can"
+    ]
   },
   {
     "name": "BENTO BOX",
@@ -26664,7 +26835,15 @@
     "type": 1,
     "order": 2256,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "dumpling",
+    "tags": [
+      "potsticker",
+      "gyōza",
+      "jiaozi",
+      "pierogi",
+      "empanada"
+    ]
   },
   {
     "name": "FORTUNE COOKIE",
@@ -26676,7 +26855,8 @@
     "type": 1,
     "order": 2257,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "fortune cookie"
   },
   {
     "name": "TAKEOUT BOX",
@@ -26688,7 +26868,11 @@
     "type": 1,
     "order": 2258,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "takeout box",
+    "tags": [
+      "oyster pail"
+    ]
   },
   {
     "name": "SOFT ICE CREAM",
@@ -26817,7 +27001,8 @@
     "type": 1,
     "order": 2266,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "pie"
   },
   {
     "name": "CHOCOLATE BAR",
@@ -27158,7 +27343,12 @@
     "type": 1,
     "order": 2285,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "cup with straw",
+    "tags": [
+      "soda",
+      "juice"
+    ]
   },
   {
     "name": "CHOPSTICKS",
@@ -27170,7 +27360,11 @@
     "type": 1,
     "order": 2286,
     "group": 2,
-    "subgroup": 2
+    "subgroup": 2,
+    "annotation": "chopsticks",
+    "tags": [
+      "hashi"
+    ]
   },
   {
     "name": "FORK AND KNIFE WITH PLATE",
@@ -29469,7 +29663,11 @@
     "type": 1,
     "order": 2441,
     "group": 3,
-    "subgroup": 3
+    "subgroup": 3,
+    "annotation": "flying saucer",
+    "tags": [
+      "ufo"
+    ]
   },
   {
     "name": "BELLHOP BELL",
@@ -31805,7 +32003,12 @@
     "type": 1,
     "order": 2601,
     "group": 4,
-    "subgroup": 4
+    "subgroup": 4,
+    "annotation": "sled",
+    "tags": [
+      "sledge",
+      "sleigh"
+    ]
   },
   {
     "name": "CURLING STONE",
@@ -31817,7 +32020,8 @@
     "type": 1,
     "order": 2602,
     "group": 4,
-    "subgroup": 4
+    "subgroup": 4,
+    "annotation": "curling stone"
   },
   {
     "name": "VIDEO GAME",

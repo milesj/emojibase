@@ -17,12 +17,16 @@ import toUnicode from './toUnicode';
 
 import type { CLDRAnnotationMap, FinalEmoji } from '../types';
 
-function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): FinalEmoji {
+function createEmoji(
+  baseEmoji: Object,
+  annotations: CLDRAnnotationMap,
+  englishAnnotations: CLDRAnnotationMap,
+): FinalEmoji {
   const emoji: Object = {
     // Classification
     name: baseEmoji.name || baseEmoji.description.toUpperCase(),
     hexcode: baseEmoji.hexcode,
-    shortcodes: baseEmoji.shortcodes || [],
+    shortcodes: baseEmoji.shortcodes,
     // Presentation
     emoji: toUnicode(baseEmoji.hexcode),
     type: baseEmoji.type,
@@ -52,8 +56,8 @@ function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): FinalEm
   }
 
   // Annotations
-  const hexcodeWithoutModifiers = stripHexcode(baseEmoji.hexcode); // No ZWJ, selectors
-  const annotation = annotations[hexcodeWithoutModifiers];
+  const cleanHexcode = stripHexcode(baseEmoji.hexcode); // No ZWJ, selectors
+  const annotation = annotations[cleanHexcode] || englishAnnotations[cleanHexcode];
 
   if (annotation) {
     if (annotation.annotation) {
@@ -68,7 +72,7 @@ function createEmoji(baseEmoji: Object, annotations: CLDRAnnotationMap): FinalEm
   // Skin modifications
   if ('modifications' in baseEmoji) {
     emoji.skins = Object.keys(baseEmoji.modifications).map((skinTone) => {
-      const skin = createEmoji(baseEmoji.modifications[skinTone], annotations);
+      const skin = createEmoji(baseEmoji.modifications[skinTone], annotations, englishAnnotations);
       const skinHexcode = skin.hexcode.match(SKIN_MODIFIER_PATTERN);
 
       // Inherit values from the parent
@@ -88,12 +92,13 @@ export default async function generateData() {
 
   const data = await buildEmojiData();
   const filteredData = filterData(data);
+  const englishAnnotations = await buildAnnotationData('en');
 
   // Generate datasets for each locale
   SUPPORTED_LOCALES.forEach(async (locale) => {
     const annotations = await buildAnnotationData(locale);
     const emojis = Object.keys(filteredData).map(hexcode => (
-      createEmoji(filteredData[hexcode], annotations)
+      createEmoji(filteredData[hexcode], annotations, englishAnnotations)
     ));
 
     // Sort by order

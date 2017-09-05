@@ -4,9 +4,7 @@
  * @flow
  */
 
-import type { EmojiMap } from '../types';
-
-export default async function joinData(emojis: EmojiMap, data: EmojiMap) {
+export default async function joinData(emojis: Object, data: Object) {
   Object.keys(data).forEach((hexcode) => {
     emojis[hexcode] = data[hexcode];
   });
