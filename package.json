@@ -1,13 +1,12 @@
 {
   "private": true,
   "name": "emojibase",
-  "description": "Evergreen emoji datasets, regex patterns, and more.",
   "scripts": {
     "assemble": "yarn run clean && yarn run build && yarn test",
     "bootstrap": "lerna bootstrap --hoist",
     "bootstrap:slow": "yarn run bootstrap -- --concurrency=1",
     "build": "build-lib ./src -d ./lib && lerna run build",
-    "clean": "rimraf ./packages/{*}/lib/ && yrun clean:cache && lerna clean --yes",
+    "clean": "rimraf ./packages/{*}/lib/ && yarn run clean:cache && lerna clean --yes",
     "clean:cache": "rimraf ./cache",
     "coverage": "run-coverage",
     "eslint": "run-linter ./bin ./src ./tests ./packages/*/{src,tests}",
@@ -22,38 +21,8 @@
     "test": "yarn run jest",
     "updated": "lerna updated"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/milesj/emojibase.git"
-  },
-  "keywords": [
-    "emoji",
-    "emojibase",
-    "data",
-    "dataset",
-    "database",
-    "db",
-    "regex",
-    "shortname",
-    "shortcode",
-    "unicode",
-    "cldr",
-    "cdn"
-  ],
-  "author": {
-    "name": "Miles Johnson",
-    "url": "http://milesj.me"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/milesj/emojibase/issues"
-  },
-  "homepage": "https://github.com/milesj/emojibase#readme",
-  "dependencies": {
-    "babel-runtime": "^6.26.0"
-  },
   "devDependencies": {
-    "@milesj/build-tool-config": "^0.22.0",
+    "@milesj/build-tool-config": "^0.23.0",
     "chalk": "^2.0.1",
     "cheerio": "^1.0.0-rc.2",
     "filesize": "^3.5.10",
@@ -85,5 +54,6 @@
       "./tests"
     ],
     "testRegex": "./packages/([-a-z]+)?/tests/.*\\.test\\.js$"
-  }
+  },
+  "workspaces": ["packages/*"]
 }
