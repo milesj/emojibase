@@ -3,20 +3,20 @@ declare module 'emojibase' {
   declare export type Presentation = 0 | 1; // text, emoji
   declare export type SkinTone = 1 | 2 | 3 | 4 | 5; // light - dark
   declare export type Emoji = {
-    annotation?: string,
+    annotation: string,
     emoji: string,
     emoticon?: string,
     gender?: Gender,
-    group?: number,
+    group: number,
     hexcode: string,
     name?: string,
-    order?: number,
-    shortcodes?: string[],
-    skin?: SkinTone,
+    order: number,
+    shortcodes: string[],
     skins?: Emoji[],
     subgroup?: number,
-    tags?: string[],
+    tags: string[],
     text?: string,
+    tone?: SkinTone,
     type?: Presentation,
   };
   declare export type PermutationOptions = {
@@ -25,7 +25,7 @@ declare module 'emojibase' {
   };
 
   declare export function fetchFromCDN(path: string, version?: string, options?: Object): Promise<Emoji[]>;
-  declare export function flattenEmojiData(data: Emoji[]): Emoji[];
+  declare export function <T: Emoji>flattenEmojiData(data: T[]): T[];
   declare export function fromCodepointToUnicode(codepoint: number[]): string;
   declare export function fromHexcodeToCodepoint(hexcode: string, joiner?: string): number[];
   declare export function fromUnicodeToHexcode(unicode: string, strip?: boolean): string;

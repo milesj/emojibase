@@ -2,7 +2,7 @@
   "private": true,
   "name": "emojibase",
   "scripts": {
-    "assemble": "yarn run clean && yarn run build && yarn test",
+    "assemble": "yarn run clean && yarn run bootstrap && yarn run build && yarn test",
     "bootstrap": "lerna bootstrap --hoist",
     "bootstrap:slow": "yarn run bootstrap -- --concurrency=1",
     "build": "build-lib ./src -d ./lib && lerna run build",
@@ -55,5 +55,7 @@
     ],
     "testRegex": "./packages/([-a-z]+)?/tests/.*\\.test\\.js$"
   },
-  "workspaces": ["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ]
 }

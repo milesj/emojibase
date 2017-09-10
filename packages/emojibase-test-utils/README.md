@@ -13,7 +13,7 @@ Use `loadEmojiData` to return an array of English emoji data.
 ```javascript
 import { loadEmojiData } from 'emojibase-test-utils';
 
-loadEmojiData().forEach();
+loadEmojiData().forEach(emoji => {});
 ```
 
 Or use `loadFlatEmojiData` to return a flat array of emoji data
