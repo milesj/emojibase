@@ -2,6 +2,9 @@
 #### 🐞 Fixed
 * Updated `Emoji` type to not have all optional properties.
 
+#### 🛠 Internal
+* Updated to Yarn workspaces.
+
 # 1.3.1
 #### 🛠 Internal
 * Updated dependencies.
