@@ -1,3 +1,7 @@
+# 1.0.6 - 9/10/17
+#### 🛠 Internal
+* Updated to Yarn workspaces.
+
 # 1.0.5 - 9/5/17
 #### 🛠 Internal
 * Updated regex patterns.

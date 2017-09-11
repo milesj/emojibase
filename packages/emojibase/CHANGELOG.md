@@ -1,11 +1,12 @@
-# 1.3.2
+# 1.3.2 - 9/10/17
 #### 🐞 Fixed
-* Updated `Emoji` type to not have all optional properties.
+* Updated `Emoji` type to use less optional properties.
+* Added missing `tone` property to `Emoji` type.
 
 #### 🛠 Internal
 * Updated to Yarn workspaces.
 
-# 1.3.1
+# 1.3.1 - 9/5/17
 #### 🛠 Internal
 * Updated dependencies.
 

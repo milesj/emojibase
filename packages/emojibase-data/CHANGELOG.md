@@ -1,3 +1,7 @@
+# 1.1.1 - 9/10/17
+#### 🛠 Internal
+* Updated to Yarn workspaces.
+
 # 1.1.0 - 9/5/17
 #### 🚀 New
 * Updated ZWJ sequence annotations to more closely follow the CLDR guidelines.
