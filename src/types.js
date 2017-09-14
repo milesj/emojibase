@@ -89,7 +89,7 @@ export type EmoticonMap = { [hexcode: string]: string };
 
 export type FinalEmoji = {
   annotation?: string,
-  emoji: string,
+  emoji?: string,
   emoticon?: string,
   gender?: Gender,
   group?: number,
@@ -103,6 +103,7 @@ export type FinalEmoji = {
   text?: string,
   tone?: SkinTone,
   type?: Presentation,
+  unicode?: string,
 };
 
 export type Gender = 0 | 1;

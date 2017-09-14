@@ -1,3 +1,7 @@
+# 1.3.3 - 9/14/17
+#### 🚀 New
+* Added optional `unicode` property to `Emoji` type.
+
 # 1.3.2 - 9/10/17
 #### 🐞 Fixed
 * Updated `Emoji` type to use less optional properties.

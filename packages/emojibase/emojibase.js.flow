@@ -18,6 +18,7 @@ declare module 'emojibase' {
     text?: string,
     tone?: SkinTone,
     type?: Presentation,
+    unicode?: string,
   };
   declare export type PermutationOptions = {
     isFace?: boolean,

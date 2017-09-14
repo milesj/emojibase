@@ -4,6 +4,7 @@
  * @flow
  */
 
+import { TEXT } from '../../packages/emojibase/lib/constants';
 import type { FinalEmoji } from '../types';
 
 export default function extractSubset(data: FinalEmoji[], format: string): FinalEmoji[] {
@@ -21,16 +22,18 @@ export default function extractSubset(data: FinalEmoji[], format: string): Final
           group,
           annotation,
           tags,
+          text,
+          type,
           skins,
         } = datum;
-        const nextDatum: FinalEmoji = {
-          hexcode,
-          shortcodes,
-          emoji,
-          order,
-          group,
+        const nextDatum: Object = {
           annotation,
+          group,
+          hexcode,
+          order,
+          shortcodes,
           tags,
+          unicode: (text && type === TEXT) ? text : emoji,
         };
 
         if (emoticon) {

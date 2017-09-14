@@ -1,3 +1,11 @@
+# 2.0.0 - 9/14/17
+#### 💥 Breaking
+* Removed `emoji` from compact datasets.
+
+#### 🚀 New
+* Added `unicode` to compact datasets, which is the value of `emoji` or `text`,
+  depending on the default presentation of `type`.
+
 # 1.1.1 - 9/10/17
 #### 🛠 Internal
 * Updated to Yarn workspaces.
