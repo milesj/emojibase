@@ -36,7 +36,7 @@ describe('fetchFromCDN()', () => {
     try {
       await fetchFromCDN('en/data.json');
     } catch (error) {
-      expect(error).toEqual(new Error('Failed to load emojibase dataset.'));
+      expect(error).toEqual(new Error('Failed to load Emojibase dataset.'));
     }
   });
 

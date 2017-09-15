@@ -2,7 +2,7 @@ import loadFlatEmojiData from '../../emojibase-test-utils/src/loadFlatEmojiData'
 import { EMOJI, TEXT, MALE, FEMALE } from '../../emojibase/src/constants';
 
 describe('data', () => {
-  // Skin modifications and specific sequences are missing specific
+  // Skin modifications and certain sequences are missing specific
   // fields, like tags, annotations, and more. And since we flattened
   // our data, we'll need to wrap tests in conditional blocks.
   loadFlatEmojiData().forEach((emoji) => {
@@ -19,6 +19,10 @@ describe('data', () => {
 
     it(`defines an order for ${unicode}`, () => {
       expect(emoji.order).toBeDefined();
+    });
+
+    it(`defines an emoji version for ${unicode}`, () => {
+      expect(emoji.version).toBeDefined();
     });
 
     it(`defines a type presentation for ${unicode}`, () => {
