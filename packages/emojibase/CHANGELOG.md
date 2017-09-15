@@ -1,4 +1,4 @@
-# 1.3.3 - 9/14/17
+# 1.4.0 - 9/14/17
 #### 🚀 New
 * Added optional `unicode` and `version` properties to `Emoji` type.
 * Added more constants to `lib/constants` type definition.

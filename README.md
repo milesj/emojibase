@@ -129,6 +129,9 @@ most property values have been implemented using integers, [with associated cons
 * `tone` (number) - If applicable, the skin tone of the emoji character. `1` for light skin,
   `2` for medium-light skin, `3` for medium skin, `4` for medium-dark skin, and `5` for dark skin.
 * `type` (number) - The default presentation of the emoji character. `0` for text, `1` for emoji.
+* `unicode` (string) - Either the emoji or text presentation Unicode character. *Only available
+  in the compact dataset.*
+* `version` (number) - The version in which the emoji character was released.
 
 > Not all properties will be found in the emoji object, as properties without an applicable
 > value are omitted from the emoji object.
@@ -151,9 +154,10 @@ most property values have been implemented using integers, [with associated cons
     'man',
   ],
   type: 1,
+  version: 4,
   skins: [
     {
-      annotation: 'man lifting weights, light skin tone',
+      annotation: 'man lifting weights: light skin tone',
       emoji: '🏋🏻‍♂️',
       gender: 1,
       group: 0,
@@ -166,6 +170,7 @@ most property values have been implemented using integers, [with associated cons
       subgroup: 0,
       type: 1,
       tone: 1,
+      version: 4,
     },
     // ...
   ],
@@ -175,10 +180,10 @@ most property values have been implemented using integers, [with associated cons
 #### Compact Format
 
 While the emoji data is pretty thorough, not all of it may be required, and as such,
-a compact dataset is supported. This dataset supports the properties mentioned above,
-excluding `gender`, `name`, `subgroup`, `text`, `tone`, and `type`.
+a compact dataset is supported. This dataset supports the following properties: `annotation`,
+`emoticon`, `group`, `hexcode`, `order`, `shortcodes`, `skins`, `tags`, and `unicode`.
 
-To use a compact dataset, replace `data.json` with `compact.json` when importing.
+To use a compact dataset, replace `data.json` with `compact.json`.
 
 ```javascript
 import data from 'emojibase-data/en/compact.json';
@@ -187,7 +192,6 @@ import data from 'emojibase-data/en/compact.json';
 ```javascript
 {
   annotation: 'man lifting weights',
-  emoji: '🏋️‍♂️',
   group: 0,
   hexcode: '1F3CB-FE0F-200D-2642-FE0F',
   order: 1518,
@@ -198,16 +202,17 @@ import data from 'emojibase-data/en/compact.json';
     'weight lifter',
     'man',
   ],
+  unicode: '🏋️‍♂️',
   skins: [
     {
-      annotation: 'man lifting weights, light skin tone',
-      emoji: '🏋🏻‍♂️',
+      annotation: 'man lifting weights: light skin tone',
       group: 0,
       hexcode: '1F3CB-1F3FB-200D-2642-FE0F',
       order: 1522,
       shortcodes: [
         'man_lifting_weights_tone1',
       ],
+      unicode: '🏋🏻‍♂️',
     },
     // ...
   ],
@@ -489,26 +494,26 @@ stripHexcode('1F468-200D-2695-FE0F'); // 1F468-2695
 | versions/emoji.json | 52.29 KB | 7.23 KB |
 | versions/unicode.json | 52.41 KB | 7.35 KB |
 | meta/hexcodes.json | 56.24 KB | 8.52 KB |
-| fr/compact.json | 598.51 KB | 58.76 KB |
-| zh/compact.json | 600.05 KB | 62.42 KB |
-| da/compact.json | 615.85 KB | 61.56 KB |
-| de/compact.json | 621 KB | 63.14 KB |
-| en/compact.json | 629.65 KB | 60.71 KB |
-| ko/compact.json | 635 KB | 67.38 KB |
-| it/compact.json | 636.36 KB | 64.59 KB |
-| es/compact.json | 636.71 KB | 64.22 KB |
-| ja/compact.json | 643.59 KB | 61.76 KB |
-| ru/compact.json | 685.34 KB | 70.62 KB |
-| fr/data.json | 854.65 KB | 80.7 KB |
-| zh/data.json | 856.19 KB | 84.25 KB |
-| da/data.json | 871.99 KB | 83.27 KB |
-| de/data.json | 877.14 KB | 84.71 KB |
-| en/data.json | 885.79 KB | 81.81 KB |
-| ko/data.json | 891.15 KB | 89.42 KB |
-| it/data.json | 892.5 KB | 86.3 KB |
-| es/data.json | 892.85 KB | 86.01 KB |
-| ja/data.json | 899.73 KB | 83.38 KB |
-| ru/data.json | 941.48 KB | 92.67 KB |
+| fr/compact.json | 603.63 KB | 58.97 KB |
+| zh/compact.json | 605.17 KB | 62.64 KB |
+| da/compact.json | 620.97 KB | 61.67 KB |
+| de/compact.json | 626.12 KB | 63.44 KB |
+| en/compact.json | 634.77 KB | 60.66 KB |
+| ko/compact.json | 640.13 KB | 67.63 KB |
+| it/compact.json | 641.49 KB | 64.77 KB |
+| es/compact.json | 641.83 KB | 64.42 KB |
+| ja/compact.json | 648.71 KB | 62.15 KB |
+| ru/compact.json | 690.47 KB | 70.97 KB |
+| fr/data.json | 904.9 KB | 81.46 KB |
+| zh/data.json | 906.44 KB | 84.93 KB |
+| da/data.json | 922.24 KB | 84.04 KB |
+| de/data.json | 927.38 KB | 85.52 KB |
+| en/data.json | 936.04 KB | 82.59 KB |
+| ko/data.json | 941.39 KB | 90.21 KB |
+| it/data.json | 942.75 KB | 86.99 KB |
+| es/data.json | 943.09 KB | 86.73 KB |
+| ja/data.json | 949.98 KB | 84.16 KB |
+| ru/data.json | 991.73 KB | 93.53 KB |
 
 | emojibase-regex | Filesize | Gzipped |
 | --- | --- | --- |
