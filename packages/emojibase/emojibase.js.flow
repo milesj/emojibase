@@ -58,3 +58,46 @@ declare module 'emojibase/lib/constants' {
   declare export var SUPPORTED_LOCALES: string[];
   declare export var EMOTICON_OPTIONS: { [emoticon: string]: PermutationOptions };
 }
+
+declare module 'emojibase/lib/fetchFromCDN' {
+  import typeof { fetchFromCDN } from 'emojibase';
+
+  declare export default fetchFromCDN;
+}
+
+declare module 'emojibase/lib/flattenEmojiData' {
+  import type { Emoji } from 'emojibase';
+  import typeof { flattenEmojiData } from 'emojibase';
+
+  declare export default flattenEmojiData<Emoji>;
+}
+
+declare module 'emojibase/lib/fromCodepointToUnicode' {
+  import typeof { fromCodepointToUnicode } from 'emojibase';
+
+  declare export default fromCodepointToUnicode;
+}
+
+declare module 'emojibase/lib/fromHexcodeToCodepoint' {
+  import typeof { fromHexcodeToCodepoint } from 'emojibase';
+
+  declare export default fromHexcodeToCodepoint;
+}
+
+declare module 'emojibase/lib/fromUnicodeToHexcode' {
+  import typeof { fromUnicodeToHexcode } from 'emojibase';
+
+  declare export default fromUnicodeToHexcode;
+}
+
+declare module 'emojibase/lib/generateEmoticonPermutations' {
+  import typeof { generateEmoticonPermutations } from 'emojibase';
+
+  declare export default generateEmoticonPermutations;
+}
+
+declare module 'emojibase/lib/stripHexcode' {
+  import typeof { stripHexcode } from 'emojibase';
+
+  declare export default stripHexcode;
+}
