@@ -36,7 +36,7 @@ export default function fetchFromCDN(
     ...options,
   }).then((response) => {
     if (!response.ok) {
-      throw new Error('Failed to load emojibase dataset.');
+      throw new Error('Failed to load Emojibase dataset.');
     }
 
     return response.json();

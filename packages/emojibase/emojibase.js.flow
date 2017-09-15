@@ -19,6 +19,7 @@ declare module 'emojibase' {
     tone?: SkinTone,
     type?: Presentation,
     unicode?: string,
+    version?: string,
   };
   declare export type PermutationOptions = {
     isFace?: boolean,
@@ -49,6 +50,11 @@ declare module 'emojibase/lib/constants' {
   declare export var MEDIUM_DARK_SKIN: SkinTone;
   declare export var DARK_SKIN: SkinTone;
 
+  declare export var LATEST_EMOJIBASE_VERSION: string;
+  declare export var LATEST_EMOJI_VERSION: string;
+  declare export var LATEST_UNICODE_VERSION: string;
+  declare export var LATEST_CLDR_VERSION: string;
+  declare export var FIRST_UNICODE_EMOJI_VERSION: string;
   declare export var SUPPORTED_LOCALES: string[];
   declare export var EMOTICON_OPTIONS: { [emoticon: string]: PermutationOptions };
 }

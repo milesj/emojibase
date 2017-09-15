@@ -4,6 +4,8 @@
  * @flow
  */
 
+/* eslint-disable complexity */
+
 import { SKIN_MODIFIER_PATTERN, SUPPORTED_LOCALES } from '../../packages/emojibase/lib/constants';
 import stripHexcode from '../../packages/emojibase/lib/stripHexcode';
 import buildEmojiData from '../builders/buildEmojiData';
@@ -17,8 +19,11 @@ import toUnicode from './toUnicode';
 
 import type { CLDRAnnotationMap, FinalEmoji } from '../types';
 
+type VersionMap = { [hexcode: string]: number };
+
 function createEmoji(
   baseEmoji: Object,
+  versions: VersionMap,
   annotations: CLDRAnnotationMap,
   englishAnnotations: CLDRAnnotationMap,
 ): FinalEmoji {
@@ -35,6 +40,11 @@ function createEmoji(
     group: baseEmoji.group,
     subgroup: baseEmoji.group,
   };
+
+  // Release version
+  if (versions[baseEmoji.hexcode]) {
+    emoji.version = versions[baseEmoji.hexcode];
+  }
 
   // Diversity
   if ('gender' in baseEmoji && baseEmoji.gender !== null) {
@@ -72,7 +82,12 @@ function createEmoji(
   // Skin modifications
   if ('modifications' in baseEmoji) {
     emoji.skins = Object.keys(baseEmoji.modifications).map((skinTone) => {
-      const skin = createEmoji(baseEmoji.modifications[skinTone], annotations, englishAnnotations);
+      const skin = createEmoji(
+        baseEmoji.modifications[skinTone],
+        versions,
+        annotations,
+        englishAnnotations,
+      );
       const skinHexcode = skin.hexcode.match(SKIN_MODIFIER_PATTERN);
 
       // Inherit values from the parent
@@ -87,18 +102,39 @@ function createEmoji(
   return emoji;
 }
 
+function createVersionMap(): VersionMap {
+  const cache = readCache('final-emoji-unicode-versions.json');
+  const versions = {};
+
+  if (!cache) {
+    return versions;
+  }
+
+  Object.keys(cache.emojiVersions).forEach((version) => {
+    Object.keys(cache.emojiVersions[version]).forEach((hexcode) => {
+      versions[hexcode] = Number(version);
+    });
+  });
+
+  return versions;
+}
+
 export default async function generateData() {
   log.title('data', 'Generating emoji datasets');
 
   const data = await buildEmojiData();
   const filteredData = filterData(data);
+  const versions = createVersionMap();
   const englishAnnotations = await buildAnnotationData('en');
 
   // Generate datasets for each locale
   SUPPORTED_LOCALES.forEach(async (locale) => {
     const annotations = await buildAnnotationData(locale);
-    const emojis = Object.keys(filteredData).map(hexcode => (
-      createEmoji(filteredData[hexcode], annotations, englishAnnotations)
+    const emojis = Object.keys(filteredData).map(hexcode => createEmoji(
+      filteredData[hexcode],
+      versions,
+      annotations,
+      englishAnnotations,
     ));
 
     // Sort by order

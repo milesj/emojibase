@@ -5,6 +5,7 @@
 #### 🚀 New
 * Added `unicode` to compact datasets, which is the value of `emoji` or `text`,
   depending on the default presentation of `type`.
+* Added `version` to full datasets, which is the version in which the emoji was released.
 
 # 1.1.1 - 9/10/17
 #### 🛠 Internal

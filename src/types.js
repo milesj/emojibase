@@ -104,6 +104,7 @@ export type FinalEmoji = {
   tone?: SkinTone,
   type?: Presentation,
   unicode?: string,
+  version?: number,
 };
 
 export type Gender = 0 | 1;
