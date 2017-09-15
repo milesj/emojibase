@@ -1,3 +1,7 @@
+# 2.0.0 - 9/14/17
+#### 🛠 Internal
+* Updated test data ([view breaking changes](../emojibase-data/CHANGELOG.md)).
+
 # 1.0.7 - 9/10/17
 #### 🛠 Internal
 * Updated to Yarn workspaces.
