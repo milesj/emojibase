@@ -29,7 +29,8 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
 
   // Load the base annotations and localization datasets
   const annotations = await loadAnnotations(locale);
-  const englishAnnotations = await loadAnnotations('en'); // Fallback
+  const derivedAnnotations = await loadAnnotations(locale, true); // Modifiers and sequences
+  const englishAnnotations = await loadAnnotations('en'); // Fallback to English
   const localization = await loadLocalization(locale);
 
   // http://unicode.org/repos/cldr/trunk/specs/ldml/tr35-general.html#SynthesizingNames
@@ -51,9 +52,9 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       return;
     }
 
+    // eslint-disable-next-line prefer-const
+    let { annotation = '', tags = [] } = derivedAnnotations[hexcode] || {};
     const emoji = sequences[fullHexcode];
-    const tags = [];
-    let annotation = '';
 
     // Use the localized territory name
     if (hasProperty(emoji.property, ['Emoji_Flag_Sequence'])) {
@@ -62,8 +63,11 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
         .map(hex => REGIONAL_INDICATORS[hex])
         .join('');
 
+      if (!annotation) {
+        annotation = localization.territories[countryCode];
+      }
+
       tags.push(countryCode);
-      annotation = localization.territories[countryCode];
 
     // Use the localized subdivision name
     } else if (hasProperty(emoji.property, ['Emoji_Tag_Sequence'])) {
@@ -72,17 +76,16 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
         .map(hex => TAG_LATIN_SMALL_LETTERS[hex])
         .join('');
 
+      if (!annotation) {
+        annotation = localization.subdivisions[divisionName];
+      }
+
       tags.push(divisionName);
-      annotation = localization.subdivisions[divisionName];
 
     // Step 3) Label with keycap and use sequence
     } else if (hasProperty(emoji.property, ['Emoji_Keycap_Sequence'])) {
-      // Most locales dont localize these fields,
-      // but CLDR instructs it. What to do?
-      if (hexcode.startsWith('0023')) {
-        annotation = 'keycap #';
-      } else {
-        annotation = emoji.description.replace(':', '');
+      if (!annotation) {
+        annotation = emoji.description;
       }
 
       tags.push(annotation);
@@ -94,12 +97,14 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       let suffixName = '';
       let sequence = hexcode.split('-');
 
-      // Inherit tags
-      sequence.forEach((hex) => {
-        if (annotations[hex] && annotations[hex].tags) {
-          tags.push(...annotations[hex].tags);
-        }
-      });
+      // Inherit tags if none were defined
+      if (tags.length === 0) {
+        sequence.forEach((hex) => {
+          if (annotations[hex] && annotations[hex].tags) {
+            tags.push(...annotations[hex].tags);
+          }
+        });
+      }
 
       // Step 6) Move KISS, HEART, FAMILY to start of suffix and reset sequence
       if (
@@ -151,10 +156,12 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       }
 
       // Step 10) Join the 2 names together
-      if (prefixName && suffixName) {
-        annotation = `${prefixName}: ${suffixName}`;
-      } else {
-        annotation = prefixName || suffixName || '';
+      if (!annotation) {
+        if (prefixName && suffixName) {
+          annotation = `${prefixName}: ${suffixName}`;
+        } else {
+          annotation = prefixName || suffixName || '';
+        }
       }
     }
 

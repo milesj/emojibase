@@ -1,4 +1,7 @@
 # 1.4.1 - 9/25/17
+#### 🐞 Fixed
+* Updated `Emoji.version` Flowtype property to `number`.
+
 #### 🛠 Internal
 * Updated `LATEST_CLDR_VERSION` to `32-alpha`.
 

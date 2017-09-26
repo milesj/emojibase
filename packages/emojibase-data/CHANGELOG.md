@@ -2,6 +2,8 @@
 #### 🚀 New
 * Updated to [CLDR 32 Alpha](http://cldr.unicode.org/index/downloads/cldr-32) which includes
   new annotations and tags for all locales.
+* Updated to use derived annotations, which includes official translations for emoji modifiers
+  and sequences.
 
 # 2.0.0 - 9/14/17
 #### 💥 Breaking

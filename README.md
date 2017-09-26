@@ -494,26 +494,26 @@ stripHexcode('1F468-200D-2695-FE0F'); // 1F468-2695
 | versions/emoji.json | 52.29 KB | 7.23 KB |
 | versions/unicode.json | 52.41 KB | 7.35 KB |
 | meta/hexcodes.json | 56.24 KB | 8.52 KB |
-| zh/compact.json | 609.62 KB | 62.89 KB |
-| fr/compact.json | 610.09 KB | 59.51 KB |
-| da/compact.json | 628.87 KB | 62.16 KB |
-| en/compact.json | 637.14 KB | 60.89 KB |
-| it/compact.json | 640.08 KB | 65.01 KB |
-| ja/compact.json | 642.33 KB | 65.75 KB |
-| ko/compact.json | 643.98 KB | 67.42 KB |
-| es/compact.json | 659.5 KB | 65.48 KB |
-| de/compact.json | 664.23 KB | 68.95 KB |
-| ru/compact.json | 701.24 KB | 72 KB |
-| zh/data.json | 910.89 KB | 85.47 KB |
-| fr/data.json | 911.36 KB | 82 KB |
-| da/data.json | 930.14 KB | 84.6 KB |
-| en/data.json | 938.4 KB | 82.88 KB |
-| it/data.json | 941.35 KB | 87.26 KB |
-| ja/data.json | 943.6 KB | 88.28 KB |
-| ko/data.json | 945.25 KB | 90.01 KB |
-| es/data.json | 960.77 KB | 88.13 KB |
-| de/data.json | 965.49 KB | 91.8 KB |
-| ru/data.json | 1002.51 KB | 94.64 KB |
+| zh/compact.json | 611.74 KB | 62.88 KB |
+| fr/compact.json | 615.33 KB | 59.52 KB |
+| da/compact.json | 633.33 KB | 62.18 KB |
+| en/compact.json | 640.25 KB | 60.93 KB |
+| it/compact.json | 644.81 KB | 65 KB |
+| ja/compact.json | 645.29 KB | 65.82 KB |
+| ko/compact.json | 648.07 KB | 67.4 KB |
+| es/compact.json | 664.45 KB | 65.49 KB |
+| de/compact.json | 669.43 KB | 69.01 KB |
+| ru/compact.json | 704.29 KB | 72.01 KB |
+| zh/data.json | 913 KB | 85.52 KB |
+| fr/data.json | 916.6 KB | 82.12 KB |
+| da/data.json | 934.6 KB | 84.69 KB |
+| en/data.json | 941.52 KB | 82.97 KB |
+| it/data.json | 946.07 KB | 87.33 KB |
+| ja/data.json | 946.56 KB | 88.39 KB |
+| ko/data.json | 949.33 KB | 90.04 KB |
+| es/data.json | 965.71 KB | 88.21 KB |
+| de/data.json | 970.69 KB | 91.91 KB |
+| ru/data.json | 1005.56 KB | 94.64 KB |
 
 | emojibase-regex | Filesize | Gzipped |
 | --- | --- | --- |
