@@ -7,7 +7,7 @@ A collection of lightweight, up-to-date, pre-generated, specification compliant,
 localized emoji JSON datasets, regex patterns, and more.
 
 * Supports the latest [Emoji 5](https://emojipedia.org/emoji-5.0/),
-  [Unicode 10](http://unicode.org/versions/Unicode10.0.0/), and [CLDR 31][cldr] release versions
+  [Unicode 10](http://unicode.org/versions/Unicode10.0.0/), and [CLDR 32 Alpha][cldr] release versions
 * Built directly from the [emoji source data files](http://unicode.org/Public/emoji/)
 * Based on the official [Unicode Technical Standard #51](http://www.unicode.org/reports/tr51/)
 * With localization provided by [Unicode Technical Standard #35](http://unicode.org/reports/tr35/tr35-general.html#Annotations)
@@ -55,7 +55,7 @@ yarn add emojibase-data
 
 As stated, there are 3 groups of datasets, each serving a specific purpose.
 The first group, localized data, is exactly that, datasets with localization provided by
-[CLDR 31][cldr]. The following locales and languages are currently supported:
+[CLDR 32 Alpha][cldr]. The following locales and languages are currently supported:
 
 * `emojibase-data/zh/data.json` - Chinese (zh)
 * `emojibase-data/da/data.json` - Danish (da)
@@ -105,7 +105,7 @@ Each emoji character found within the pre-generated datasets are represented by 
 composed of the properties listed below. In an effort to reduce the overall dataset filesize,
 most property values have been implemented using integers, [with associated constants][constants].
 
-* `annotation` (string) - A localized description, provided by [CLDR 31][cldr], primarily used
+* `annotation` (string) - A localized description, provided by [CLDR 32 Alpha][cldr], primarily used
   for text-to-speech (TTS) and accessibility.
 * `emoji` (string) - The emoji presentation Unicode character.
 * `emoticon` (string) - If applicable, an emoticon representing the emoji character.
@@ -123,7 +123,7 @@ most property values have been implemented using integers, [with associated cons
 * `skins` (emoji[]) - If applicable, an array of emoji objects for each skin tone modification,
   starting at light skin, and ending with dark skin.
 * `subgroup` (number) - The categorical subgroup the emoji belongs to, ranging from `0` to `75`.
-* `tags` (string[]) - An array of localized keywords, provided by [CLDR 31][cldr],
+* `tags` (string[]) - An array of localized keywords, provided by [CLDR 32 Alpha][cldr],
   to use for searching and filtering.
 * `text` (string) - The text presentation Unicode character.
 * `tone` (number) - If applicable, the skin tone of the emoji character. `1` for light skin,
@@ -326,7 +326,7 @@ that abide the following guidelines:
 * Must keep backwards compatibility and historical integrity by never removing and
   renaming shortcodes.
 * Must support multiple shortcodes per emoji character, for usage within different contexts.
-* Must align with or base off [CLDR 31][cldr] annotations.
+* Must align with or base off [CLDR 32 Alpha][cldr] annotations.
 
 ### Emoticons
 
@@ -494,26 +494,26 @@ stripHexcode('1F468-200D-2695-FE0F'); // 1F468-2695
 | versions/emoji.json | 52.29 KB | 7.23 KB |
 | versions/unicode.json | 52.41 KB | 7.35 KB |
 | meta/hexcodes.json | 56.24 KB | 8.52 KB |
-| fr/compact.json | 603.63 KB | 58.97 KB |
-| zh/compact.json | 605.17 KB | 62.64 KB |
-| da/compact.json | 620.97 KB | 61.67 KB |
-| de/compact.json | 626.12 KB | 63.44 KB |
-| en/compact.json | 634.77 KB | 60.66 KB |
-| ko/compact.json | 640.13 KB | 67.63 KB |
-| it/compact.json | 641.49 KB | 64.77 KB |
-| es/compact.json | 641.83 KB | 64.42 KB |
-| ja/compact.json | 648.71 KB | 62.15 KB |
-| ru/compact.json | 690.47 KB | 70.97 KB |
-| fr/data.json | 904.9 KB | 81.46 KB |
-| zh/data.json | 906.44 KB | 84.93 KB |
-| da/data.json | 922.24 KB | 84.04 KB |
-| de/data.json | 927.38 KB | 85.52 KB |
-| en/data.json | 936.04 KB | 82.59 KB |
-| ko/data.json | 941.39 KB | 90.21 KB |
-| it/data.json | 942.75 KB | 86.99 KB |
-| es/data.json | 943.09 KB | 86.73 KB |
-| ja/data.json | 949.98 KB | 84.16 KB |
-| ru/data.json | 991.73 KB | 93.53 KB |
+| zh/compact.json | 609.62 KB | 62.89 KB |
+| fr/compact.json | 610.09 KB | 59.51 KB |
+| da/compact.json | 628.87 KB | 62.16 KB |
+| en/compact.json | 637.14 KB | 60.89 KB |
+| it/compact.json | 640.08 KB | 65.01 KB |
+| ja/compact.json | 642.33 KB | 65.75 KB |
+| ko/compact.json | 643.98 KB | 67.42 KB |
+| es/compact.json | 659.5 KB | 65.48 KB |
+| de/compact.json | 664.23 KB | 68.95 KB |
+| ru/compact.json | 701.24 KB | 72 KB |
+| zh/data.json | 910.89 KB | 85.47 KB |
+| fr/data.json | 911.36 KB | 82 KB |
+| da/data.json | 930.14 KB | 84.6 KB |
+| en/data.json | 938.4 KB | 82.88 KB |
+| it/data.json | 941.35 KB | 87.26 KB |
+| ja/data.json | 943.6 KB | 88.28 KB |
+| ko/data.json | 945.25 KB | 90.01 KB |
+| es/data.json | 960.77 KB | 88.13 KB |
+| de/data.json | 965.49 KB | 91.8 KB |
+| ru/data.json | 1002.51 KB | 94.64 KB |
 
 | emojibase-regex | Filesize | Gzipped |
 | --- | --- | --- |
@@ -530,7 +530,7 @@ stripHexcode('1F468-200D-2695-FE0F'); // 1F468-2695
 | codepoint/index.js | 7.71 KB | 1.85 KB |
 
 [cdn]: https://cdn.jsdelivr.net/npm/emojibase-data@latest/
-[cldr]: http://cldr.unicode.org/index/downloads/cldr-31
+[cldr]: http://cldr.unicode.org/index/downloads/cldr-32
 [constants]: https://github.com/milesj/emojibase/blob/master/packages/emojibase/src/constants.js
 [emos]: https://github.com/milesj/emojibase/blob/master/src/resources/emoticons.js
 [scodes]: https://github.com/milesj/emojibase/blob/master/src/resources/shortcodes.js

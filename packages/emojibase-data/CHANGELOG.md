@@ -1,3 +1,8 @@
+# 2.1.0 - 9/25/17
+#### 🚀 New
+* Updated to [CLDR 32 Alpha](http://cldr.unicode.org/index/downloads/cldr-32) which includes
+  new annotations and tags for all locales.
+
 # 2.0.0 - 9/14/17
 #### 💥 Breaking
 * Removed `emoji` from compact datasets.

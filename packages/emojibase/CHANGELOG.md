@@ -1,3 +1,7 @@
+# 1.4.1 - 9/25/17
+#### 🛠 Internal
+* Updated `LATEST_CLDR_VERSION` to `32-alpha`.
+
 # 1.4.0 - 9/14/17
 #### 🚀 New
 * Added optional `unicode` and `version` properties to `Emoji` type.

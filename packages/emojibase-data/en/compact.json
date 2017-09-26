@@ -14,7 +14,7 @@
     "unicode": "😀"
   },
   {
-    "annotation": "grinning face with smiling eyes",
+    "annotation": "beaming face with smiling eyes",
     "group": 0,
     "hexcode": "1F601",
     "order": 2,
@@ -59,16 +59,16 @@
       "rofl"
     ],
     "tags": [
+      "face",
       "floor",
       "laugh",
-      "rolling",
-      "face"
+      "rolling"
     ],
     "unicode": "🤣",
     "emoticon": ":'D"
   },
   {
-    "annotation": "smiling face with open mouth",
+    "annotation": "grinning face with big eyes",
     "group": 0,
     "hexcode": "1F603",
     "order": 5,
@@ -85,7 +85,7 @@
     "unicode": "😃"
   },
   {
-    "annotation": "smiling face with open mouth & smiling eyes",
+    "annotation": "grinning face with smiling eyes",
     "group": 0,
     "hexcode": "1F604",
     "order": 6,
@@ -102,7 +102,7 @@
     "unicode": "😄"
   },
   {
-    "annotation": "smiling face with open mouth & cold sweat",
+    "annotation": "grinning face with sweat",
     "group": 0,
     "hexcode": "1F605",
     "order": 7,
@@ -119,7 +119,7 @@
     "unicode": "😅"
   },
   {
-    "annotation": "smiling face with open mouth & closed eyes",
+    "annotation": "grinning squinting face",
     "group": 0,
     "hexcode": "1F606",
     "order": 8,
@@ -174,7 +174,7 @@
     "emoticon": ":>"
   },
   {
-    "annotation": "face savouring delicious food",
+    "annotation": "face savoring food",
     "group": 0,
     "hexcode": "1F60B",
     "order": 11,
@@ -347,10 +347,10 @@
       "starstruck"
     ],
     "tags": [
-      "grinning",
+      "eyes",
       "face",
-      "star",
-      "eyes"
+      "grinning",
+      "star"
     ],
     "unicode": "🤩"
   },
@@ -379,8 +379,8 @@
       "contempt"
     ],
     "tags": [
-      "skeptic",
-      "distrust"
+      "distrust",
+      "skeptic"
     ],
     "unicode": "🤨"
   },
@@ -482,7 +482,7 @@
     "unicode": "😣"
   },
   {
-    "annotation": "disappointed but relieved face",
+    "annotation": "sad but relieved face",
     "group": 0,
     "hexcode": "1F625",
     "order": 31,
@@ -606,7 +606,7 @@
     "unicode": "😌"
   },
   {
-    "annotation": "face with stuck-out tongue",
+    "annotation": "face with tongue",
     "group": 0,
     "hexcode": "1F61B",
     "order": 39,
@@ -622,7 +622,7 @@
     "emoticon": ":p"
   },
   {
-    "annotation": "face with stuck-out tongue & winking eye",
+    "annotation": "winking face with tongue",
     "group": 0,
     "hexcode": "1F61C",
     "order": 40,
@@ -640,7 +640,7 @@
     "emoticon": ";p"
   },
   {
-    "annotation": "face with stuck-out tongue & closed eyes",
+    "annotation": "squinting face with tongue",
     "group": 0,
     "hexcode": "1F61D",
     "order": 41,
@@ -689,7 +689,7 @@
     "emoticon": ":?"
   },
   {
-    "annotation": "face with cold sweat",
+    "annotation": "downcast face with sweat",
     "group": 0,
     "hexcode": "1F613",
     "order": 44,
@@ -1002,7 +1002,7 @@
     "emoticon": "8D"
   },
   {
-    "annotation": "face with open mouth & cold sweat",
+    "annotation": "anxious face with sweat",
     "group": 0,
     "hexcode": "1F630",
     "order": 65,
@@ -1057,7 +1057,7 @@
     "emoticon": ":$"
   },
   {
-    "annotation": "crazy face",
+    "annotation": "zany face",
     "group": 0,
     "hexcode": "1F92A",
     "order": 68,
@@ -1065,9 +1065,10 @@
       "crazy"
     ],
     "tags": [
+      "eye",
+      "goofy",
       "large",
-      "small",
-      "eye"
+      "small"
     ],
     "unicode": "🤪"
   },
@@ -1122,12 +1123,15 @@
     "unicode": "😠"
   },
   {
-    "annotation": "face with symbols over mouth",
+    "annotation": "face with symbols on mouth",
     "group": 0,
     "hexcode": "1F92C",
     "order": 72,
     "shortcodes": [
       "censored"
+    ],
+    "tags": [
+      "swearing"
     ],
     "unicode": "🤬",
     "emoticon": ":@"
@@ -1208,8 +1212,8 @@
       "vomiting"
     ],
     "tags": [
-      "vomit",
-      "sick"
+      "sick",
+      "vomit"
     ],
     "unicode": "🤮"
   },
@@ -1259,9 +1263,9 @@
     ],
     "tags": [
       "cowboy",
+      "cowgirl",
       "face",
-      "hat",
-      "cowgirl"
+      "hat"
     ],
     "unicode": "🤠"
   },
@@ -1301,6 +1305,10 @@
     "order": 83,
     "shortcodes": [
       "shushing"
+    ],
+    "tags": [
+      "quiet",
+      "shush"
     ],
     "unicode": "🤫"
   },
@@ -1375,10 +1383,10 @@
     "tags": [
       "demon",
       "devil",
-      "imp",
       "face",
       "fairy tale",
-      "fantasy"
+      "fantasy",
+      "imp"
     ],
     "unicode": "👿",
     "emoticon": ">:("
@@ -1542,7 +1550,7 @@
     "unicode": "💩"
   },
   {
-    "annotation": "smiling cat face with open mouth",
+    "annotation": "grinning cat face",
     "group": 0,
     "hexcode": "1F63A",
     "order": 99,
@@ -1626,7 +1634,7 @@
     "unicode": "😼"
   },
   {
-    "annotation": "kissing cat face with closed eyes",
+    "annotation": "kissing cat face",
     "group": 0,
     "hexcode": "1F63D",
     "order": 104,
@@ -1763,7 +1771,6 @@
       "baby"
     ],
     "tags": [
-      "baby",
       "young"
     ],
     "unicode": "👶",
@@ -1895,7 +1902,6 @@
       "boy"
     ],
     "tags": [
-      "boy",
       "young"
     ],
     "unicode": "👦",
@@ -2421,9 +2427,9 @@
       "man_health_worker"
     ],
     "tags": [
-      "man",
-      "healthcare",
       "doctor",
+      "healthcare",
+      "man",
       "nurse",
       "therapist"
     ],
@@ -2490,11 +2496,11 @@
       "woman_health_worker"
     ],
     "tags": [
-      "woman",
-      "healthcare",
       "doctor",
+      "healthcare",
       "nurse",
-      "therapist"
+      "therapist",
+      "woman"
     ],
     "unicode": "👩‍⚕️",
     "skins": [
@@ -2559,9 +2565,9 @@
       "man_student"
     ],
     "tags": [
+      "graduate",
       "man",
-      "student",
-      "graduate"
+      "student"
     ],
     "unicode": "👨‍🎓",
     "skins": [
@@ -2626,9 +2632,9 @@
       "woman_student"
     ],
     "tags": [
-      "woman",
+      "graduate",
       "student",
-      "graduate"
+      "woman"
     ],
     "unicode": "👩‍🎓",
     "skins": [
@@ -2693,9 +2699,9 @@
       "man_teacher"
     ],
     "tags": [
+      "instructor",
       "man",
       "professor",
-      "instructor",
       "teacher"
     ],
     "unicode": "👨‍🏫",
@@ -2761,10 +2767,10 @@
       "woman_teacher"
     ],
     "tags": [
-      "woman",
-      "professor",
       "instructor",
-      "teacher"
+      "professor",
+      "teacher",
+      "woman"
     ],
     "unicode": "👩‍🏫",
     "skins": [
@@ -2897,8 +2903,8 @@
     ],
     "tags": [
       "judge",
-      "woman",
-      "scales"
+      "scales",
+      "woman"
     ],
     "unicode": "👩‍⚖️",
     "skins": [
@@ -2963,10 +2969,10 @@
       "man_farmer"
     ],
     "tags": [
-      "man",
       "farmer",
-      "rancher",
-      "gardener"
+      "gardener",
+      "man",
+      "rancher"
     ],
     "unicode": "👨‍🌾",
     "skins": [
@@ -3031,10 +3037,10 @@
       "woman_farmer"
     ],
     "tags": [
-      "woman",
       "farmer",
+      "gardener",
       "rancher",
-      "gardener"
+      "woman"
     ],
     "unicode": "👩‍🌾",
     "skins": [
@@ -3099,9 +3105,9 @@
       "man_cook"
     ],
     "tags": [
-      "man",
+      "chef",
       "cook",
-      "chef"
+      "man"
     ],
     "unicode": "👨‍🍳",
     "skins": [
@@ -3166,9 +3172,9 @@
       "woman_cook"
     ],
     "tags": [
-      "woman",
+      "chef",
       "cook",
-      "chef"
+      "woman"
     ],
     "unicode": "👩‍🍳",
     "skins": [
@@ -3233,11 +3239,11 @@
       "man_mechanic"
     ],
     "tags": [
+      "electrician",
       "man",
-      "tradesperson",
       "mechanic",
       "plumber",
-      "electrician"
+      "tradesperson"
     ],
     "unicode": "👨‍🔧",
     "skins": [
@@ -3302,11 +3308,11 @@
       "woman_mechanic"
     ],
     "tags": [
-      "woman",
-      "tradesperson",
+      "electrician",
       "mechanic",
       "plumber",
-      "electrician"
+      "tradesperson",
+      "woman"
     ],
     "unicode": "👩‍🔧",
     "skins": [
@@ -3371,10 +3377,10 @@
       "man_factory_worker"
     ],
     "tags": [
-      "man",
-      "industrial",
       "assembly",
       "factory",
+      "industrial",
+      "man",
       "worker"
     ],
     "unicode": "👨‍🏭",
@@ -3440,10 +3446,10 @@
       "woman_factory_worker"
     ],
     "tags": [
-      "woman",
-      "industrial",
       "assembly",
       "factory",
+      "industrial",
+      "woman",
       "worker"
     ],
     "unicode": "👩‍🏭",
@@ -3509,11 +3515,11 @@
       "man_office_worker"
     ],
     "tags": [
-      "man",
-      "office",
-      "business",
-      "manager",
       "architect",
+      "business",
+      "man",
+      "manager",
+      "office",
       "white-collar"
     ],
     "unicode": "👨‍💼",
@@ -3579,12 +3585,12 @@
       "woman_office_worker"
     ],
     "tags": [
-      "woman",
-      "office",
+      "architect",
       "business",
       "manager",
-      "architect",
-      "white-collar"
+      "office",
+      "white-collar",
+      "woman"
     ],
     "unicode": "👩‍💼",
     "skins": [
@@ -3649,13 +3655,13 @@
       "man_scientist"
     ],
     "tags": [
-      "man",
-      "scientist",
-      "engineer",
-      "mathematician",
+      "biologist",
       "chemist",
+      "engineer",
+      "man",
+      "mathematician",
       "physicist",
-      "biologist"
+      "scientist"
     ],
     "unicode": "👨‍🔬",
     "skins": [
@@ -3720,13 +3726,13 @@
       "woman_scientist"
     ],
     "tags": [
-      "woman",
-      "scientist",
+      "biologist",
+      "chemist",
       "engineer",
       "mathematician",
-      "chemist",
       "physicist",
-      "biologist"
+      "scientist",
+      "woman"
     ],
     "unicode": "👩‍🔬",
     "skins": [
@@ -3791,12 +3797,12 @@
       "man_technologist"
     ],
     "tags": [
-      "man",
-      "technologist",
       "coder",
-      "software",
       "developer",
-      "inventor"
+      "inventor",
+      "man",
+      "software",
+      "technologist"
     ],
     "unicode": "👨‍💻",
     "skins": [
@@ -3861,12 +3867,12 @@
       "woman_technologist"
     ],
     "tags": [
-      "woman",
-      "technologist",
       "coder",
-      "software",
       "developer",
-      "inventor"
+      "inventor",
+      "software",
+      "technologist",
+      "woman"
     ],
     "unicode": "👩‍💻",
     "skins": [
@@ -3931,12 +3937,12 @@
       "man_singer"
     ],
     "tags": [
-      "man",
-      "singer",
+      "actor",
       "entertainer",
+      "man",
       "rock",
-      "star",
-      "actor"
+      "singer",
+      "star"
     ],
     "unicode": "👨‍🎤",
     "skins": [
@@ -4001,12 +4007,12 @@
       "woman_singer"
     ],
     "tags": [
-      "woman",
-      "singer",
+      "actor",
       "entertainer",
       "rock",
+      "singer",
       "star",
-      "actor"
+      "woman"
     ],
     "unicode": "👩‍🎤",
     "skins": [
@@ -4474,8 +4480,8 @@
     ],
     "tags": [
       "firefighter",
-      "man",
-      "firetruck"
+      "firetruck",
+      "man"
     ],
     "unicode": "👨‍🚒",
     "skins": [
@@ -4811,8 +4817,7 @@
     ],
     "tags": [
       "sleuth",
-      "spy",
-      "detective"
+      "spy"
     ],
     "unicode": "🕵️",
     "skins": [
@@ -4877,10 +4882,10 @@
       "man_detective"
     ],
     "tags": [
+      "detective",
       "man",
       "sleuth",
-      "spy",
-      "detective"
+      "spy"
     ],
     "unicode": "🕵️‍♂️",
     "skins": [
@@ -4945,10 +4950,10 @@
       "woman_detective"
     ],
     "tags": [
+      "detective",
       "sleuth",
       "spy",
-      "woman",
-      "detective"
+      "woman"
     ],
     "unicode": "🕵️‍♀️",
     "skins": [
@@ -5741,7 +5746,8 @@
     "tags": [
       "gua pi mao",
       "hat",
-      "man"
+      "man",
+      "man with chinese cap"
     ],
     "unicode": "👲",
     "skins": [
@@ -5808,8 +5814,8 @@
     "tags": [
       "headscarf",
       "hijab",
-      "tichel",
-      "mantilla"
+      "mantilla",
+      "tichel"
     ],
     "unicode": "🧕",
     "skins": [
@@ -5872,6 +5878,9 @@
     "order": 578,
     "shortcodes": [
       "bearded_person"
+    ],
+    "tags": [
+      "beard"
     ],
     "unicode": "🧔",
     "skins": [
@@ -6332,6 +6341,11 @@
     "shortcodes": [
       "breast_feeding"
     ],
+    "tags": [
+      "baby",
+      "breast",
+      "nursing"
+    ],
     "unicode": "🤱",
     "skins": [
       {
@@ -6464,11 +6478,12 @@
       "santa"
     ],
     "tags": [
-      "christmas",
       "celebration",
+      "christmas",
+      "claus",
       "father",
       "santa",
-      "claus"
+      "santa claus"
     ],
     "unicode": "🎅",
     "skins": [
@@ -6533,11 +6548,12 @@
       "mrs_claus"
     ],
     "tags": [
-      "christmas",
       "celebration",
+      "christmas",
+      "claus",
       "mother",
       "mrs.",
-      "claus"
+      "mrs. claus"
     ],
     "unicode": "🤶",
     "skins": [
@@ -6602,10 +6618,10 @@
       "mage"
     ],
     "tags": [
-      "wizard",
-      "witch",
       "sorcerer",
-      "sorceress"
+      "sorceress",
+      "witch",
+      "wizard"
     ],
     "unicode": "🧙",
     "skins": [
@@ -6670,8 +6686,8 @@
       "woman_mage"
     ],
     "tags": [
-      "witch",
-      "sorceress"
+      "sorceress",
+      "witch"
     ],
     "unicode": "🧙‍♀️",
     "skins": [
@@ -6736,8 +6752,8 @@
       "man_mage"
     ],
     "tags": [
-      "wizard",
-      "sorcerer"
+      "sorcerer",
+      "wizard"
     ],
     "unicode": "🧙‍♂️",
     "emoticon": ":{>",
@@ -6803,9 +6819,9 @@
       "fairy"
     ],
     "tags": [
-      "titania",
+      "oberon",
       "puck",
-      "oberon"
+      "titania"
     ],
     "unicode": "🧚",
     "skins": [
@@ -6935,8 +6951,8 @@
       "man_fairy"
     ],
     "tags": [
-      "puck",
-      "oberon"
+      "oberon",
+      "puck"
     ],
     "unicode": "🧚‍♂️",
     "skins": [
@@ -7330,6 +7346,9 @@
     "shortcodes": [
       "merman"
     ],
+    "tags": [
+      "triton"
+    ],
     "unicode": "🧜‍♂️",
     "skins": [
       {
@@ -7391,6 +7410,9 @@
     "order": 776,
     "shortcodes": [
       "elf"
+    ],
+    "tags": [
+      "magical"
     ],
     "unicode": "🧝",
     "skins": [
@@ -7454,6 +7476,9 @@
     "shortcodes": [
       "woman_elf"
     ],
+    "tags": [
+      "magical"
+    ],
     "unicode": "🧝‍♀️",
     "skins": [
       {
@@ -7515,6 +7540,9 @@
     "order": 794,
     "shortcodes": [
       "man_elf"
+    ],
+    "tags": [
+      "magical"
     ],
     "unicode": "🧝‍♂️",
     "skins": [
@@ -8066,6 +8094,7 @@
       "hand",
       "no",
       "not",
+      "person gesturing no",
       "prohibited"
     ],
     "unicode": "🙅",
@@ -8135,6 +8164,7 @@
       "gesture",
       "hand",
       "man",
+      "man gesturing no",
       "no",
       "prohibited"
     ],
@@ -8206,7 +8236,8 @@
       "hand",
       "no",
       "prohibited",
-      "woman"
+      "woman",
+      "woman gesturing no"
     ],
     "unicode": "🙅‍♀️",
     "skins": [
@@ -8273,7 +8304,8 @@
     "tags": [
       "gesture",
       "hand",
-      "ok"
+      "ok",
+      "person gesturing ok"
     ],
     "unicode": "🙆",
     "skins": [
@@ -8341,6 +8373,7 @@
       "gesture",
       "hand",
       "man",
+      "man gesturing ok",
       "ok"
     ],
     "unicode": "🙆‍♂️",
@@ -8409,7 +8442,8 @@
       "gesture",
       "hand",
       "ok",
-      "woman"
+      "woman",
+      "woman gesturing ok"
     ],
     "unicode": "🙆‍♀️",
     "skins": [
@@ -8475,10 +8509,10 @@
     ],
     "tags": [
       "hand",
-      "tipping",
       "help",
       "information",
-      "sassy"
+      "sassy",
+      "tipping"
     ],
     "unicode": "💁",
     "skins": [
@@ -8948,8 +8982,8 @@
     ],
     "tags": [
       "apology",
-      "favor",
       "bowing",
+      "favor",
       "gesture",
       "man",
       "sorry"
@@ -9018,8 +9052,8 @@
     ],
     "tags": [
       "apology",
-      "favor",
       "bowing",
+      "favor",
       "gesture",
       "sorry",
       "woman"
@@ -9087,10 +9121,10 @@
       "person_facepalming"
     ],
     "tags": [
-      "face",
-      "palm",
       "disbelief",
-      "exasperation"
+      "exasperation",
+      "face",
+      "palm"
     ],
     "unicode": "🤦",
     "skins": [
@@ -9291,10 +9325,10 @@
       "person_shrugging"
     ],
     "tags": [
-      "shrug",
       "doubt",
       "ignorance",
-      "indifference"
+      "indifference",
+      "shrug"
     ],
     "unicode": "🤷",
     "skins": [
@@ -9497,9 +9531,9 @@
       "person_getting_massage"
     ],
     "tags": [
+      "face",
       "massage",
-      "salon",
-      "face"
+      "salon"
     ],
     "unicode": "💆",
     "skins": [
@@ -9700,8 +9734,8 @@
     "tags": [
       "barber",
       "beauty",
-      "parlor",
-      "haircut"
+      "haircut",
+      "parlor"
     ],
     "unicode": "💇",
     "skins": [
@@ -10167,8 +10201,8 @@
     "tags": [
       "man",
       "marathon",
-      "running",
-      "racing"
+      "racing",
+      "running"
     ],
     "unicode": "🏃‍♂️",
     "skins": [
@@ -10234,9 +10268,9 @@
     ],
     "tags": [
       "marathon",
+      "racing",
       "running",
-      "woman",
-      "racing"
+      "woman"
     ],
     "unicode": "🏃‍♀️",
     "skins": [
@@ -10301,8 +10335,8 @@
       "dancer"
     ],
     "tags": [
-      "woman",
-      "dancing"
+      "dancing",
+      "woman"
     ],
     "unicode": "💃",
     "skins": [
@@ -10425,7 +10459,7 @@
     ]
   },
   {
-    "annotation": "people with bunny ears partying",
+    "annotation": "people with bunny ears",
     "group": 0,
     "hexcode": "1F46F",
     "order": 1218,
@@ -10440,7 +10474,7 @@
     "unicode": "👯"
   },
   {
-    "annotation": "men with bunny ears partying",
+    "annotation": "men with bunny ears",
     "group": 0,
     "hexcode": "1F46F-200D-2642-FE0F",
     "order": 1219,
@@ -10456,7 +10490,7 @@
     "unicode": "👯‍♂️"
   },
   {
-    "annotation": "women with bunny ears partying",
+    "annotation": "women with bunny ears",
     "group": 0,
     "hexcode": "1F46F-200D-2640-FE0F",
     "order": 1221,
@@ -10677,6 +10711,9 @@
     "shortcodes": [
       "person_climbing"
     ],
+    "tags": [
+      "climber"
+    ],
     "unicode": "🧗",
     "skins": [
       {
@@ -10739,6 +10776,9 @@
     "shortcodes": [
       "woman_climbing"
     ],
+    "tags": [
+      "climber"
+    ],
     "unicode": "🧗‍♀️",
     "skins": [
       {
@@ -10800,6 +10840,9 @@
     "order": 1271,
     "shortcodes": [
       "man_climbing"
+    ],
+    "tags": [
+      "climber"
     ],
     "unicode": "🧗‍♂️",
     "skins": [
@@ -10864,8 +10907,8 @@
       "person_lotus_position"
     ],
     "tags": [
-      "yoga",
-      "meditation"
+      "meditation",
+      "yoga"
     ],
     "unicode": "🧘",
     "skins": [
@@ -10930,8 +10973,8 @@
       "woman_lotus_position"
     ],
     "tags": [
-      "yoga",
-      "meditation"
+      "meditation",
+      "yoga"
     ],
     "unicode": "🧘‍♀️",
     "skins": [
@@ -10996,8 +11039,8 @@
       "man_lotus_position"
     ],
     "tags": [
-      "yoga",
-      "meditation"
+      "meditation",
+      "yoga"
     ],
     "unicode": "🧘‍♂️",
     "skins": [
@@ -11062,8 +11105,8 @@
       "bath"
     ],
     "tags": [
-      "bathtub",
-      "bath"
+      "bath",
+      "bathtub"
     ],
     "unicode": "🛀",
     "skins": [
@@ -11186,7 +11229,7 @@
     ]
   },
   {
-    "annotation": "man in business suit levitating",
+    "annotation": "man in suit levitating",
     "group": 0,
     "hexcode": "1F574",
     "order": 1326,
@@ -11201,7 +11244,7 @@
     "unicode": "🕴️",
     "skins": [
       {
-        "annotation": "man in business suit levitating: light skin tone",
+        "annotation": "man in suit levitating: light skin tone",
         "group": 0,
         "hexcode": "1F574-1F3FB",
         "order": 1327,
@@ -11211,7 +11254,7 @@
         "unicode": "🕴🏻"
       },
       {
-        "annotation": "man in business suit levitating: medium-light skin tone",
+        "annotation": "man in suit levitating: medium-light skin tone",
         "group": 0,
         "hexcode": "1F574-1F3FC",
         "order": 1328,
@@ -11221,7 +11264,7 @@
         "unicode": "🕴🏼"
       },
       {
-        "annotation": "man in business suit levitating: medium skin tone",
+        "annotation": "man in suit levitating: medium skin tone",
         "group": 0,
         "hexcode": "1F574-1F3FD",
         "order": 1329,
@@ -11231,7 +11274,7 @@
         "unicode": "🕴🏽"
       },
       {
-        "annotation": "man in business suit levitating: medium-dark skin tone",
+        "annotation": "man in suit levitating: medium-dark skin tone",
         "group": 0,
         "hexcode": "1F574-1F3FE",
         "order": 1330,
@@ -11241,7 +11284,7 @@
         "unicode": "🕴🏾"
       },
       {
-        "annotation": "man in business suit levitating: dark skin tone",
+        "annotation": "man in suit levitating: dark skin tone",
         "group": 0,
         "hexcode": "1F574-1F3FF",
         "order": 1331,
@@ -12460,8 +12503,7 @@
     ],
     "tags": [
       "lifter",
-      "weight",
-      "lifter"
+      "weight"
     ],
     "unicode": "🏋️",
     "skins": [
@@ -12526,8 +12568,8 @@
       "man_lifting_weights"
     ],
     "tags": [
-      "weight lifter",
-      "man"
+      "man",
+      "weight lifter"
     ],
     "unicode": "🏋️‍♂️",
     "skins": [
@@ -12931,8 +12973,8 @@
     ],
     "tags": [
       "bicycle",
-      "cyclist",
       "bike",
+      "cyclist",
       "man",
       "mountain"
     ],
@@ -13000,9 +13042,9 @@
     ],
     "tags": [
       "bicycle",
-      "cyclist",
       "bike",
       "biking",
+      "cyclist",
       "mountain",
       "woman"
     ],
@@ -13296,8 +13338,8 @@
       "people_wrestling"
     ],
     "tags": [
-      "wrestler",
-      "wrestle"
+      "wrestle",
+      "wrestler"
     ],
     "unicode": "🤼"
   },
@@ -13536,8 +13578,8 @@
       "person_handball"
     ],
     "tags": [
-      "handball",
-      "ball"
+      "ball",
+      "handball"
     ],
     "unicode": "🤾",
     "skins": [
@@ -13734,9 +13776,9 @@
       "person_juggling"
     ],
     "tags": [
+      "balance",
       "juggle",
       "multitask",
-      "balance",
       "skill"
     ],
     "unicode": "🤹",
@@ -14003,11 +14045,13 @@
       "kiss_wm"
     ],
     "tags": [
-      "woman",
       "heart",
       "kiss",
+      "kiss mark",
       "lips",
-      "man"
+      "man",
+      "red heart",
+      "woman"
     ],
     "unicode": "👩‍❤️‍💋‍👨"
   },
@@ -14020,10 +14064,12 @@
       "kiss_mm"
     ],
     "tags": [
-      "man",
       "heart",
       "kiss",
-      "lips"
+      "kiss mark",
+      "lips",
+      "man",
+      "red heart"
     ],
     "unicode": "👨‍❤️‍💋‍👨"
   },
@@ -14036,10 +14082,12 @@
       "kiss_ww"
     ],
     "tags": [
-      "woman",
       "heart",
       "kiss",
-      "lips"
+      "kiss mark",
+      "lips",
+      "red heart",
+      "woman"
     ],
     "unicode": "👩‍❤️‍💋‍👩"
   },
@@ -14067,9 +14115,10 @@
       "couple_wm"
     ],
     "tags": [
-      "woman",
       "heart",
-      "man"
+      "man",
+      "red heart",
+      "woman"
     ],
     "unicode": "👩‍❤️‍👨"
   },
@@ -14082,8 +14131,9 @@
       "couple_mm"
     ],
     "tags": [
+      "heart",
       "man",
-      "heart"
+      "red heart"
     ],
     "unicode": "👨‍❤️‍👨"
   },
@@ -14096,8 +14146,9 @@
       "couple_ww"
     ],
     "tags": [
-      "woman",
-      "heart"
+      "heart",
+      "red heart",
+      "woman"
     ],
     "unicode": "👩‍❤️‍👩"
   },
@@ -14123,9 +14174,9 @@
       "family_mwb"
     ],
     "tags": [
+      "boy",
       "man",
       "woman",
-      "boy",
       "young"
     ],
     "unicode": "👨‍👩‍👦"
@@ -14139,9 +14190,10 @@
       "family_mwg"
     ],
     "tags": [
+      "girl",
       "man",
-      "woman",
       "virgo",
+      "woman",
       "young",
       "zodiac"
     ],
@@ -14156,12 +14208,13 @@
       "family_mwgb"
     ],
     "tags": [
+      "boy",
+      "girl",
       "man",
-      "woman",
       "virgo",
+      "woman",
       "young",
-      "zodiac",
-      "boy"
+      "zodiac"
     ],
     "unicode": "👨‍👩‍👧‍👦"
   },
@@ -14174,9 +14227,9 @@
       "family_mwbb"
     ],
     "tags": [
+      "boy",
       "man",
       "woman",
-      "boy",
       "young"
     ],
     "unicode": "👨‍👩‍👦‍👦"
@@ -14190,9 +14243,10 @@
       "family_mwgg"
     ],
     "tags": [
+      "girl",
       "man",
-      "woman",
       "virgo",
+      "woman",
       "young",
       "zodiac"
     ],
@@ -14207,8 +14261,8 @@
       "family_mmb"
     ],
     "tags": [
-      "man",
       "boy",
+      "man",
       "young"
     ],
     "unicode": "👨‍👨‍👦"
@@ -14222,6 +14276,7 @@
       "family_mmg"
     ],
     "tags": [
+      "girl",
       "man",
       "virgo",
       "young",
@@ -14238,11 +14293,12 @@
       "family_mmgb"
     ],
     "tags": [
+      "boy",
+      "girl",
       "man",
       "virgo",
       "young",
-      "zodiac",
-      "boy"
+      "zodiac"
     ],
     "unicode": "👨‍👨‍👧‍👦"
   },
@@ -14255,8 +14311,8 @@
       "family_mmbb"
     ],
     "tags": [
-      "man",
       "boy",
+      "man",
       "young"
     ],
     "unicode": "👨‍👨‍👦‍👦"
@@ -14270,6 +14326,7 @@
       "family_mmgg"
     ],
     "tags": [
+      "girl",
       "man",
       "virgo",
       "young",
@@ -14286,8 +14343,8 @@
       "family_wwb"
     ],
     "tags": [
-      "woman",
       "boy",
+      "woman",
       "young"
     ],
     "unicode": "👩‍👩‍👦"
@@ -14301,8 +14358,9 @@
       "family_wwg"
     ],
     "tags": [
-      "woman",
+      "girl",
       "virgo",
+      "woman",
       "young",
       "zodiac"
     ],
@@ -14317,11 +14375,12 @@
       "family_wwgb"
     ],
     "tags": [
-      "woman",
+      "boy",
+      "girl",
       "virgo",
+      "woman",
       "young",
-      "zodiac",
-      "boy"
+      "zodiac"
     ],
     "unicode": "👩‍👩‍👧‍👦"
   },
@@ -14334,8 +14393,8 @@
       "family_wwbb"
     ],
     "tags": [
-      "woman",
       "boy",
+      "woman",
       "young"
     ],
     "unicode": "👩‍👩‍👦‍👦"
@@ -14349,8 +14408,9 @@
       "family_wwgg"
     ],
     "tags": [
-      "woman",
+      "girl",
       "virgo",
+      "woman",
       "young",
       "zodiac"
     ],
@@ -14365,8 +14425,8 @@
       "family_mb"
     ],
     "tags": [
-      "man",
       "boy",
+      "man",
       "young"
     ],
     "unicode": "👨‍👦"
@@ -14380,8 +14440,8 @@
       "family_mbb"
     ],
     "tags": [
-      "man",
       "boy",
+      "man",
       "young"
     ],
     "unicode": "👨‍👦‍👦"
@@ -14395,6 +14455,7 @@
       "family_mg"
     ],
     "tags": [
+      "girl",
       "man",
       "virgo",
       "young",
@@ -14411,11 +14472,12 @@
       "family_mgb"
     ],
     "tags": [
+      "boy",
+      "girl",
       "man",
       "virgo",
       "young",
-      "zodiac",
-      "boy"
+      "zodiac"
     ],
     "unicode": "👨‍👧‍👦"
   },
@@ -14428,6 +14490,7 @@
       "family_mgg"
     ],
     "tags": [
+      "girl",
       "man",
       "virgo",
       "young",
@@ -14444,8 +14507,8 @@
       "family_wb"
     ],
     "tags": [
-      "woman",
       "boy",
+      "woman",
       "young"
     ],
     "unicode": "👩‍👦"
@@ -14459,8 +14522,8 @@
       "family_wbb"
     ],
     "tags": [
-      "woman",
       "boy",
+      "woman",
       "young"
     ],
     "unicode": "👩‍👦‍👦"
@@ -14474,8 +14537,9 @@
       "family_wg"
     ],
     "tags": [
-      "woman",
+      "girl",
       "virgo",
+      "woman",
       "young",
       "zodiac"
     ],
@@ -14490,11 +14554,12 @@
       "family_wgb"
     ],
     "tags": [
-      "woman",
+      "boy",
+      "girl",
       "virgo",
+      "woman",
       "young",
-      "zodiac",
-      "boy"
+      "zodiac"
     ],
     "unicode": "👩‍👧‍👦"
   },
@@ -14507,8 +14572,9 @@
       "family_wgg"
     ],
     "tags": [
-      "woman",
+      "girl",
       "virgo",
+      "woman",
       "young",
       "zodiac"
     ],
@@ -14523,7 +14589,6 @@
       "selfie"
     ],
     "tags": [
-      "selfie",
       "camera",
       "phone"
     ],
@@ -15401,7 +15466,7 @@
     ]
   },
   {
-    "annotation": "raised hand with fingers splayed",
+    "annotation": "hand with fingers splayed",
     "group": 0,
     "hexcode": "1F590",
     "order": 1859,
@@ -15416,7 +15481,7 @@
     "unicode": "🖐️",
     "skins": [
       {
-        "annotation": "raised hand with fingers splayed: light skin tone",
+        "annotation": "hand with fingers splayed: light skin tone",
         "group": 0,
         "hexcode": "1F590-1F3FB",
         "order": 1860,
@@ -15426,7 +15491,7 @@
         "unicode": "🖐🏻"
       },
       {
-        "annotation": "raised hand with fingers splayed: medium-light skin tone",
+        "annotation": "hand with fingers splayed: medium-light skin tone",
         "group": 0,
         "hexcode": "1F590-1F3FC",
         "order": 1861,
@@ -15436,7 +15501,7 @@
         "unicode": "🖐🏼"
       },
       {
-        "annotation": "raised hand with fingers splayed: medium skin tone",
+        "annotation": "hand with fingers splayed: medium skin tone",
         "group": 0,
         "hexcode": "1F590-1F3FD",
         "order": 1862,
@@ -15446,7 +15511,7 @@
         "unicode": "🖐🏽"
       },
       {
-        "annotation": "raised hand with fingers splayed: medium-dark skin tone",
+        "annotation": "hand with fingers splayed: medium-dark skin tone",
         "group": 0,
         "hexcode": "1F590-1F3FE",
         "order": 1863,
@@ -15456,7 +15521,7 @@
         "unicode": "🖐🏾"
       },
       {
-        "annotation": "raised hand with fingers splayed: dark skin tone",
+        "annotation": "hand with fingers splayed: dark skin tone",
         "group": 0,
         "hexcode": "1F590-1F3FF",
         "order": 1864,
@@ -15542,7 +15607,8 @@
     ],
     "tags": [
       "hand",
-      "ok"
+      "ok",
+      "ok hand"
     ],
     "unicode": "👌",
     "skins": [
@@ -16168,8 +16234,8 @@
       "love_you_gesture"
     ],
     "tags": [
-      "ily",
-      "hand"
+      "hand",
+      "ily"
     ],
     "unicode": "🤟",
     "skins": [
@@ -16638,11 +16704,10 @@
       "handshake"
     ],
     "tags": [
-      "handshake",
       "agreement",
+      "hand",
       "meeting",
-      "shake",
-      "hand"
+      "shake"
     ],
     "unicode": "🤝"
   },
@@ -17051,8 +17116,8 @@
     "tags": [
       "excited",
       "growing",
-      "pulse",
-      "nervous"
+      "nervous",
+      "pulse"
     ],
     "unicode": "💗"
   },
@@ -17102,6 +17167,9 @@
     "order": 2010,
     "shortcodes": [
       "orange_heart"
+    ],
+    "tags": [
+      "orange"
     ],
     "unicode": "🧡"
   },
@@ -17478,6 +17546,9 @@
     "shortcodes": [
       "gloves"
     ],
+    "tags": [
+      "hand"
+    ],
     "unicode": "🧤"
   },
   {
@@ -17500,6 +17571,9 @@
     "order": 2043,
     "shortcodes": [
       "socks"
+    ],
+    "tags": [
+      "stocking"
     ],
     "unicode": "🧦"
   },
@@ -18082,9 +18156,9 @@
       "horse"
     ],
     "tags": [
+      "equestrian",
       "racehorse",
-      "racing",
-      "equestrian"
+      "racing"
     ],
     "unicode": "🐎"
   },
@@ -18109,6 +18183,9 @@
     "order": 2087,
     "shortcodes": [
       "zebra"
+    ],
+    "tags": [
+      "stripe"
     ],
     "unicode": "🦓"
   },
@@ -18246,9 +18323,9 @@
     ],
     "tags": [
       "aries",
+      "male",
       "sheep",
-      "zodiac",
-      "male"
+      "zodiac"
     ],
     "unicode": "🐏"
   },
@@ -18261,8 +18338,8 @@
       "sheep"
     ],
     "tags": [
-      "sheep",
-      "female"
+      "female",
+      "sheep"
     ],
     "unicode": "🐑"
   },
@@ -18316,6 +18393,9 @@
     "order": 2102,
     "shortcodes": [
       "giraffe"
+    ],
+    "tags": [
+      "spots"
     ],
     "unicode": "🦒"
   },
@@ -18451,6 +18531,9 @@
     "shortcodes": [
       "hedgehog"
     ],
+    "tags": [
+      "spiny"
+    ],
     "unicode": "🦔"
   },
   {
@@ -18462,7 +18545,6 @@
       "bat"
     ],
     "tags": [
-      "bat",
       "vampire"
     ],
     "unicode": "🦇"
@@ -18532,7 +18614,6 @@
       "turkey"
     ],
     "tags": [
-      "turkey",
       "bird"
     ],
     "unicode": "🦃"
@@ -18546,7 +18627,6 @@
       "chicken"
     ],
     "tags": [
-      "chicken",
       "bird"
     ],
     "unicode": "🐔"
@@ -18560,7 +18640,6 @@
       "rooster"
     ],
     "tags": [
-      "rooster",
       "bird"
     ],
     "unicode": "🐓"
@@ -18575,9 +18654,9 @@
     ],
     "tags": [
       "baby",
+      "bird",
       "chick",
-      "hatching",
-      "bird"
+      "hatching"
     ],
     "unicode": "🐣"
   },
@@ -18591,8 +18670,8 @@
     ],
     "tags": [
       "baby",
-      "chick",
-      "bird"
+      "bird",
+      "chick"
     ],
     "unicode": "🐤"
   },
@@ -18606,8 +18685,8 @@
     ],
     "tags": [
       "baby",
-      "chick",
-      "bird"
+      "bird",
+      "chick"
     ],
     "unicode": "🐥"
   },
@@ -18633,7 +18712,6 @@
       "penguin"
     ],
     "tags": [
-      "penguin",
       "bird"
     ],
     "unicode": "🐧"
@@ -18662,7 +18740,6 @@
       "eagle"
     ],
     "tags": [
-      "eagle",
       "bird"
     ],
     "unicode": "🦅"
@@ -18676,7 +18753,6 @@
       "duck"
     ],
     "tags": [
-      "duck",
       "bird"
     ],
     "unicode": "🦆"
@@ -18690,9 +18766,8 @@
       "owl"
     ],
     "tags": [
-      "owl",
-      "wise",
-      "bird"
+      "bird",
+      "wise"
     ],
     "unicode": "🦉"
   },
@@ -18732,9 +18807,8 @@
       "turtle"
     ],
     "tags": [
-      "turtle",
-      "tortoise",
-      "terrapin"
+      "terrapin",
+      "tortoise"
     ],
     "unicode": "🐢"
   },
@@ -18747,7 +18821,6 @@
       "lizard"
     ],
     "tags": [
-      "lizard",
       "reptile"
     ],
     "unicode": "🦎"
@@ -18805,9 +18878,9 @@
       "sauropod"
     ],
     "tags": [
+      "brachiosaurus",
       "brontosaurus",
-      "diplodocus",
-      "brachiosaurus"
+      "diplodocus"
     ],
     "unicode": "🦕"
   },
@@ -18820,6 +18893,7 @@
       "trex"
     ],
     "tags": [
+      "t-rex",
       "tyrannosaurus rex"
     ],
     "unicode": "🦖"
@@ -18915,7 +18989,6 @@
       "shark"
     ],
     "tags": [
-      "shark",
       "fish"
     ],
     "unicode": "🦈"
@@ -18970,10 +19043,9 @@
       "shrimp"
     ],
     "tags": [
-      "shrimp",
-      "small",
+      "food",
       "shellfish",
-      "food"
+      "small"
     ],
     "unicode": "🦐"
   },
@@ -18986,9 +19058,8 @@
       "squid"
     ],
     "tags": [
-      "squid",
-      "molusc",
-      "food"
+      "food",
+      "molusc"
     ],
     "unicode": "🦑"
   },
@@ -19014,7 +19085,6 @@
       "butterfly"
     ],
     "tags": [
-      "butterfly",
       "insect",
       "pretty"
     ],
@@ -19084,6 +19154,9 @@
     "shortcodes": [
       "cricket"
     ],
+    "tags": [
+      "grasshopper"
+    ],
     "unicode": "🦗"
   },
   {
@@ -19123,7 +19196,7 @@
     ],
     "tags": [
       "scorpio",
-      "scorpius",
+      "scorpio",
       "zodiac"
     ],
     "unicode": "🦂"
@@ -19340,8 +19413,8 @@
     ],
     "tags": [
       "ear",
-      "rice",
-      "grain"
+      "grain",
+      "rice"
     ],
     "unicode": "🌾"
   },
@@ -19591,8 +19664,10 @@
       "cherries"
     ],
     "tags": [
+      "berries",
       "cherry",
-      "fruit"
+      "fruit",
+      "red"
     ],
     "unicode": "🍒"
   },
@@ -19619,9 +19694,9 @@
       "kiwi"
     ],
     "tags": [
-      "kiwi",
+      "food",
       "fruit",
-      "food"
+      "kiwi"
     ],
     "unicode": "🥝"
   },
@@ -19647,6 +19722,10 @@
     "shortcodes": [
       "coconut"
     ],
+    "tags": [
+      "palm",
+      "piña colada"
+    ],
     "unicode": "🥥"
   },
   {
@@ -19658,9 +19737,8 @@
       "avocado"
     ],
     "tags": [
-      "avocado",
-      "fruit",
-      "food"
+      "food",
+      "fruit"
     ],
     "unicode": "🥑"
   },
@@ -19687,9 +19765,8 @@
       "potato"
     ],
     "tags": [
-      "potato",
-      "vegetable",
-      "food"
+      "food",
+      "vegetable"
     ],
     "unicode": "🥔"
   },
@@ -19702,9 +19779,8 @@
       "carrot"
     ],
     "tags": [
-      "carrot",
-      "vegetable",
-      "food"
+      "food",
+      "vegetable"
     ],
     "unicode": "🥕"
   },
@@ -19747,10 +19823,9 @@
       "cucumber"
     ],
     "tags": [
-      "cucumber",
+      "food",
       "pickle",
-      "vegetable",
-      "food"
+      "vegetable"
     ],
     "unicode": "🥒"
   },
@@ -19761,6 +19836,9 @@
     "order": 2213,
     "shortcodes": [
       "broccoli"
+    ],
+    "tags": [
+      "wild cabbage"
     ],
     "unicode": "🥦"
   },
@@ -19786,9 +19864,9 @@
       "peanuts"
     ],
     "tags": [
-      "peanut",
-      "nut",
       "food",
+      "nut",
+      "peanut",
       "vegetable"
     ],
     "unicode": "🥜"
@@ -19828,11 +19906,10 @@
       "croissant"
     ],
     "tags": [
-      "croissant",
+      "bread",
       "crescent roll",
-      "french",
       "food",
-      "bread"
+      "french"
     ],
     "unicode": "🥐"
   },
@@ -19847,8 +19924,8 @@
     "tags": [
       "baguette",
       "bread",
-      "french",
-      "food"
+      "food",
+      "french"
     ],
     "unicode": "🥖"
   },
@@ -19874,10 +19951,10 @@
       "pancakes"
     ],
     "tags": [
-      "hotcake",
       "crêpe",
-      "pancake",
-      "food"
+      "food",
+      "hotcake",
+      "pancake"
     ],
     "unicode": "🥞"
   },
@@ -19933,9 +20010,9 @@
       "cut_of_meat"
     ],
     "tags": [
-      "porkchop",
-      "lambchop",
       "chop",
+      "lambchop",
+      "porkchop",
       "steak"
     ],
     "unicode": "🥩"
@@ -19949,9 +20026,8 @@
       "bacon"
     ],
     "tags": [
-      "bacon",
-      "meat",
-      "food"
+      "food",
+      "meat"
     ],
     "unicode": "🥓"
   },
@@ -20019,6 +20095,9 @@
     "shortcodes": [
       "sandwich"
     ],
+    "tags": [
+      "bread"
+    ],
     "unicode": "🥪"
   },
   {
@@ -20057,12 +20136,12 @@
       "stuffed_flatbread"
     ],
     "tags": [
-      "kebab",
       "falafel",
-      "gyro",
       "flatbread",
-      "stuffed",
-      "food"
+      "food",
+      "gyro",
+      "kebab",
+      "stuffed"
     ],
     "unicode": "🥙"
   },
@@ -20075,7 +20154,6 @@
       "egg"
     ],
     "tags": [
-      "egg",
       "food"
     ],
     "unicode": "🥚"
@@ -20104,11 +20182,11 @@
       "shallow_pan_of_food"
     ],
     "tags": [
-      "paella",
       "casserole",
+      "food",
+      "paella",
       "pan",
-      "shallow",
-      "food"
+      "shallow"
     ],
     "unicode": "🥘"
   },
@@ -20150,9 +20228,9 @@
       "salad"
     ],
     "tags": [
+      "food",
       "green",
-      "salad",
-      "food"
+      "salad"
     ],
     "unicode": "🥗"
   },
@@ -20384,11 +20462,11 @@
       "dumpling"
     ],
     "tags": [
-      "potsticker",
+      "empanada",
       "gyōza",
       "jiaozi",
       "pierogi",
-      "empanada"
+      "potsticker"
     ],
     "unicode": "🥟"
   },
@@ -20399,6 +20477,9 @@
     "order": 2257,
     "shortcodes": [
       "fortune_cookie"
+    ],
+    "tags": [
+      "prophecy"
     ],
     "unicode": "🥠"
   },
@@ -20537,6 +20618,10 @@
     "shortcodes": [
       "pie"
     ],
+    "tags": [
+      "filling",
+      "pastry"
+    ],
     "unicode": "🥧"
   },
   {
@@ -20640,9 +20725,9 @@
       "milk"
     ],
     "tags": [
+      "drink",
       "glass",
-      "milk",
-      "drink"
+      "milk"
     ],
     "unicode": "🥛"
   },
@@ -20805,10 +20890,10 @@
       "champagne_glass"
     ],
     "tags": [
+      "celebrate",
       "clink",
-      "glass",
       "drink",
-      "celebrate"
+      "glass"
     ],
     "unicode": "🥂"
   },
@@ -20822,10 +20907,10 @@
     ],
     "tags": [
       "glass",
-      "tumbler",
-      "whisky",
       "liquor",
-      "shot"
+      "shot",
+      "tumbler",
+      "whisky"
     ],
     "unicode": "🥃"
   },
@@ -20838,8 +20923,8 @@
       "cup_straw"
     ],
     "tags": [
-      "soda",
-      "juice"
+      "juice",
+      "soda"
     ],
     "unicode": "🥤"
   },
@@ -20896,7 +20981,6 @@
       "spoon"
     ],
     "tags": [
-      "spoon",
       "tableware"
     ],
     "unicode": "🥄"
@@ -20950,6 +21034,7 @@
       "earth",
       "europe",
       "globe",
+      "globe showing europe-africa",
       "world"
     ],
     "unicode": "🌍️"
@@ -20966,6 +21051,7 @@
       "americas",
       "earth",
       "globe",
+      "globe showing americas",
       "world"
     ],
     "unicode": "🌎️"
@@ -20983,6 +21069,7 @@
       "australia",
       "earth",
       "globe",
+      "globe showing asia-australia",
       "world"
     ],
     "unicode": "🌏️"
@@ -21027,7 +21114,8 @@
     ],
     "tags": [
       "japan",
-      "map"
+      "map",
+      "map of japan"
     ],
     "unicode": "🗾"
   },
@@ -21242,8 +21330,7 @@
       "house"
     ],
     "tags": [
-      "home",
-      "house"
+      "home"
     ],
     "unicode": "🏠️"
   },
@@ -21285,6 +21372,7 @@
     ],
     "tags": [
       "japanese",
+      "japanese post office",
       "post"
     ],
     "unicode": "🏣"
@@ -21421,7 +21509,8 @@
     ],
     "tags": [
       "castle",
-      "japanese"
+      "japanese",
+      "japanese castle"
     ],
     "unicode": "🏯"
   },
@@ -21463,6 +21552,7 @@
     ],
     "tags": [
       "tokyo",
+      "tokyo tower",
       "tower"
     ],
     "unicode": "🗼"
@@ -21477,7 +21567,8 @@
     ],
     "tags": [
       "liberty",
-      "statue"
+      "statue",
+      "statue of liberty"
     ],
     "unicode": "🗽"
   },
@@ -21904,7 +21995,7 @@
     "unicode": "🚄"
   },
   {
-    "annotation": "high-speed train with bullet nose",
+    "annotation": "bullet train",
     "group": 3,
     "hexcode": "1F685",
     "order": 2377,
@@ -22275,8 +22366,8 @@
       "scooter"
     ],
     "tags": [
-      "scooter",
-      "kick"
+      "kick",
+      "scooter"
     ],
     "unicode": "🛴"
   },
@@ -22470,7 +22561,6 @@
       "canoe"
     ],
     "tags": [
-      "canoe",
       "boat"
     ],
     "unicode": "🛶"
@@ -22553,8 +22643,7 @@
       "airplane"
     ],
     "tags": [
-      "aeroplane",
-      "airplane"
+      "aeroplane"
     ],
     "unicode": "✈️"
   },
@@ -22814,7 +22903,7 @@
     "unicode": "🛁"
   },
   {
-    "annotation": "hourglass",
+    "annotation": "hourglass done",
     "group": 3,
     "hexcode": "231B",
     "order": 2452,
@@ -22828,7 +22917,7 @@
     "unicode": "⌛️"
   },
   {
-    "annotation": "hourglass with flowing sand",
+    "annotation": "hourglass not done",
     "group": 3,
     "hexcode": "23F3",
     "order": 2453,
@@ -22958,8 +23047,8 @@
       "1",
       "1:00",
       "clock",
-      "o’clock",
-      "one"
+      "one",
+      "o’clock"
     ],
     "unicode": "🕐️"
   },
@@ -23045,8 +23134,8 @@
     ],
     "tags": [
       "3",
-      "3:30",
       "30",
+      "3:30",
       "clock",
       "thirty",
       "three"
@@ -23486,7 +23575,7 @@
     "unicode": "🌚"
   },
   {
-    "annotation": "first quarter moon with face",
+    "annotation": "first quarter moon face",
     "group": 3,
     "hexcode": "1F31B",
     "order": 2496,
@@ -23501,7 +23590,7 @@
     "unicode": "🌛"
   },
   {
-    "annotation": "last quarter moon with face",
+    "annotation": "last quarter moon face",
     "group": 3,
     "hexcode": "1F31C",
     "order": 2497,
@@ -23544,7 +23633,7 @@
     "unicode": "☀️"
   },
   {
-    "annotation": "full moon with face",
+    "annotation": "full moon face",
     "group": 3,
     "hexcode": "1F31D",
     "order": 2502,
@@ -24028,6 +24117,7 @@
     "tags": [
       "celebration",
       "christmas",
+      "christmas tree",
       "tree"
     ],
     "unicode": "🎄"
@@ -24164,7 +24254,8 @@
       "celebration",
       "doll",
       "festival",
-      "japanese"
+      "japanese",
+      "japanese dolls"
     ],
     "unicode": "🎎"
   },
@@ -24384,8 +24475,8 @@
     ],
     "tags": [
       "ball",
-      "soccer",
-      "football"
+      "football",
+      "soccer"
     ],
     "unicode": "⚽️"
   },
@@ -24568,8 +24659,7 @@
       "bat",
       "game",
       "paddle",
-      "table tennis",
-      "ping pong"
+      "table tennis"
     ],
     "unicode": "🏓"
   },
@@ -24615,8 +24705,8 @@
     "tags": [
       "judo",
       "karate",
-      "taekwondo",
       "martial arts",
+      "taekwondo",
       "uniform"
     ],
     "unicode": "🥋"
@@ -24705,10 +24795,10 @@
       "running_shirt"
     ],
     "tags": [
+      "athletics",
       "running",
       "sash",
-      "shirt",
-      "athletics"
+      "shirt"
     ],
     "unicode": "🎽"
   },
@@ -24747,6 +24837,10 @@
     "order": 2602,
     "shortcodes": [
       "curling_stone"
+    ],
+    "tags": [
+      "game",
+      "rock"
     ],
     "unicode": "🥌"
   },
@@ -25239,7 +25333,6 @@
       "drum"
     ],
     "tags": [
-      "drum",
       "drumsticks",
       "music"
     ],
@@ -25457,8 +25550,8 @@
     "tags": [
       "computer",
       "disk",
-      "optical",
-      "minidisk"
+      "minidisk",
+      "optical"
     ],
     "unicode": "💽"
   },
@@ -25504,7 +25597,6 @@
     ],
     "tags": [
       "blu-ray",
-      "dvd",
       "computer",
       "disk",
       "optical"
@@ -25645,7 +25737,7 @@
     "unicode": "📼"
   },
   {
-    "annotation": "left-pointing magnifying glass",
+    "annotation": "magnifying glass tilted left",
     "group": 5,
     "hexcode": "1F50D",
     "order": 2680,
@@ -25661,7 +25753,7 @@
     "unicode": "🔍️"
   },
   {
-    "annotation": "right-pointing magnifying glass",
+    "annotation": "magnifying glass tilted right",
     "group": 5,
     "hexcode": "1F50E",
     "order": 2681,
@@ -25685,8 +25777,8 @@
       "microscope"
     ],
     "tags": [
-      "tool",
-      "science"
+      "science",
+      "tool"
     ],
     "unicode": "🔬"
   },
@@ -25699,8 +25791,8 @@
       "telescope"
     ],
     "tags": [
-      "tool",
-      "science"
+      "science",
+      "tool"
     ],
     "unicode": "🔭"
   },
@@ -26212,8 +26304,8 @@
       "envelope"
     ],
     "tags": [
-      "letter",
-      "email"
+      "email",
+      "letter"
     ],
     "unicode": "✉️"
   },
@@ -26791,8 +26883,8 @@
       "scissors"
     ],
     "tags": [
-      "tool",
-      "cutting"
+      "cutting",
+      "tool"
     ],
     "unicode": "✂️"
   },
@@ -26984,9 +27076,9 @@
     ],
     "tags": [
       "hammer",
+      "spanner",
       "tool",
-      "wrench",
-      "spanner"
+      "wrench"
     ],
     "unicode": "🛠️"
   },
@@ -27079,9 +27171,8 @@
       "wrench"
     ],
     "tags": [
-      "tool",
-      "wrench",
-      "spanner"
+      "spanner",
+      "tool"
     ],
     "unicode": "🔧"
   },
@@ -27123,9 +27214,9 @@
       "compression"
     ],
     "tags": [
+      "compress",
       "tool",
-      "vice",
-      "compress"
+      "vice"
     ],
     "unicode": "🗜️"
   },
@@ -27257,10 +27348,10 @@
       "urn"
     ],
     "tags": [
+      "ashes",
       "death",
       "funeral",
-      "urn",
-      "ashes"
+      "urn"
     ],
     "unicode": "⚱️"
   },
@@ -27320,8 +27411,8 @@
       "shopping_cart"
     ],
     "tags": [
-      "shopping",
       "cart",
+      "shopping",
       "trolley"
     ],
     "unicode": "🛒"
@@ -27336,6 +27427,7 @@
     ],
     "tags": [
       "atm",
+      "atm sign",
       "automated",
       "bank",
       "teller"
@@ -27427,8 +27519,7 @@
     ],
     "tags": [
       "lavatory",
-      "wc",
-      "restroom"
+      "wc"
     ],
     "unicode": "🚻"
   },
@@ -27643,8 +27734,8 @@
       "non_potable_water"
     ],
     "tags": [
-      "non-potable",
       "non-drinking",
+      "non-potable",
       "water"
     ],
     "unicode": "🚱"
@@ -27715,7 +27806,6 @@
       "radioactive"
     ],
     "tags": [
-      "radioactive",
       "sign"
     ],
     "unicode": "☢️"
@@ -27729,7 +27819,6 @@
       "biohazard"
     ],
     "tags": [
-      "biohazard",
       "sign"
     ],
     "unicode": "☣️"
@@ -27958,7 +28047,7 @@
     "unicode": "🔃"
   },
   {
-    "annotation": "anticlockwise arrows button",
+    "annotation": "counterclockwise arrows button",
     "group": 6,
     "hexcode": "1F504",
     "order": 2883,
@@ -27983,7 +28072,8 @@
     ],
     "tags": [
       "arrow",
-      "back"
+      "back",
+      "back arrow"
     ],
     "unicode": "🔙"
   },
@@ -27997,7 +28087,8 @@
     ],
     "tags": [
       "arrow",
-      "end"
+      "end",
+      "end arrow"
     ],
     "unicode": "🔚"
   },
@@ -28012,7 +28103,8 @@
     "tags": [
       "arrow",
       "mark",
-      "on"
+      "on",
+      "on! arrow"
     ],
     "unicode": "🔛"
   },
@@ -28026,7 +28118,8 @@
     ],
     "tags": [
       "arrow",
-      "soon"
+      "soon",
+      "soon arrow"
     ],
     "unicode": "🔜"
   },
@@ -28041,6 +28134,7 @@
     "tags": [
       "arrow",
       "top",
+      "top arrow",
       "up"
     ],
     "unicode": "🔝"
@@ -28100,7 +28194,8 @@
       "jew",
       "jewish",
       "religion",
-      "star"
+      "star",
+      "star of david"
     ],
     "unicode": "✡️"
   },
@@ -28233,6 +28328,7 @@
       "aries"
     ],
     "tags": [
+      "aries",
       "ram",
       "zodiac"
     ],
@@ -28249,6 +28345,7 @@
     "tags": [
       "bull",
       "ox",
+      "taurus",
       "zodiac"
     ],
     "unicode": "♉️"
@@ -28262,6 +28359,7 @@
       "gemini"
     ],
     "tags": [
+      "gemini",
       "twins",
       "zodiac"
     ],
@@ -28276,6 +28374,7 @@
       "cancer"
     ],
     "tags": [
+      "cancer",
       "crab",
       "zodiac"
     ],
@@ -28290,6 +28389,7 @@
       "leo"
     ],
     "tags": [
+      "leo",
       "lion",
       "zodiac"
     ],
@@ -28304,6 +28404,7 @@
       "virgo"
     ],
     "tags": [
+      "virgo",
       "zodiac"
     ],
     "unicode": "♍️"
@@ -28319,13 +28420,14 @@
     "tags": [
       "balance",
       "justice",
+      "libra",
       "scales",
       "zodiac"
     ],
     "unicode": "♎️"
   },
   {
-    "annotation": "Scorpius",
+    "annotation": "Scorpio",
     "group": 6,
     "hexcode": "264F",
     "order": 2917,
@@ -28335,6 +28437,7 @@
     "tags": [
       "scorpio",
       "scorpion",
+      "scorpius",
       "zodiac"
     ],
     "unicode": "♏️"
@@ -28349,6 +28452,7 @@
     ],
     "tags": [
       "archer",
+      "sagittarius",
       "zodiac"
     ],
     "unicode": "♐️"
@@ -28362,6 +28466,7 @@
       "capricorn"
     ],
     "tags": [
+      "capricorn",
       "goat",
       "zodiac"
     ],
@@ -28376,6 +28481,7 @@
       "aquarius"
     ],
     "tags": [
+      "aquarius",
       "bearer",
       "water",
       "zodiac"
@@ -28392,6 +28498,7 @@
     ],
     "tags": [
       "fish",
+      "pisces",
       "zodiac"
     ],
     "unicode": "♓️"
@@ -28406,6 +28513,7 @@
     ],
     "tags": [
       "bearer",
+      "ophiuchus",
       "serpent",
       "snake",
       "zodiac"
@@ -28569,7 +28677,7 @@
     "unicode": "⏮️"
   },
   {
-    "annotation": "up button",
+    "annotation": "upwards button",
     "group": 6,
     "hexcode": "1F53C",
     "order": 2938,
@@ -28598,7 +28706,7 @@
     "unicode": "⏫"
   },
   {
-    "annotation": "down button",
+    "annotation": "downwards button",
     "group": 6,
     "hexcode": "1F53D",
     "order": 2940,
@@ -28823,9 +28931,9 @@
       "medical"
     ],
     "tags": [
-      "staff",
+      "aesculapius",
       "medicine",
-      "aesculapius"
+      "staff"
     ],
     "unicode": "⚕️"
   },
@@ -28899,6 +29007,7 @@
       "chevron",
       "green",
       "japanese",
+      "japanese symbol for beginner",
       "leaf",
       "tool",
       "yellow"
@@ -29444,15 +29553,11 @@
     "unicode": "9️⃣"
   },
   {
-    "annotation": "keycap 10",
     "group": 6,
     "hexcode": "1F51F",
     "order": 3032,
     "shortcodes": [
       "ten"
-    ],
-    "tags": [
-      "keycap 10"
     ],
     "unicode": "🔟"
   },
@@ -29530,8 +29635,8 @@
       "symbols"
     ],
     "tags": [
-      "〒♪&%",
-      "input"
+      "input",
+      "〒♪&%"
     ],
     "unicode": "🔣"
   },
@@ -29562,6 +29667,7 @@
     ],
     "tags": [
       "a",
+      "a button (blood type)",
       "blood type"
     ],
     "unicode": "🅰️"
@@ -29576,6 +29682,7 @@
     ],
     "tags": [
       "ab",
+      "ab button (blood type)",
       "blood type"
     ],
     "unicode": "🆎"
@@ -29590,6 +29697,7 @@
     ],
     "tags": [
       "b",
+      "b button (blood type)",
       "blood type"
     ],
     "unicode": "🅱️"
@@ -29603,7 +29711,8 @@
       "cl"
     ],
     "tags": [
-      "cl"
+      "cl",
+      "cl button"
     ],
     "unicode": "🆑"
   },
@@ -29616,7 +29725,8 @@
       "cool"
     ],
     "tags": [
-      "cool"
+      "cool",
+      "cool button"
     ],
     "unicode": "🆒"
   },
@@ -29629,7 +29739,8 @@
       "free"
     ],
     "tags": [
-      "free"
+      "free",
+      "free button"
     ],
     "unicode": "🆓"
   },
@@ -29642,8 +29753,7 @@
       "info"
     ],
     "tags": [
-      "i",
-      "information"
+      "i"
     ],
     "unicode": "ℹ️"
   },
@@ -29657,6 +29767,7 @@
     ],
     "tags": [
       "id",
+      "id button",
       "identity"
     ],
     "unicode": "🆔"
@@ -29671,6 +29782,7 @@
     ],
     "tags": [
       "circle",
+      "circled m",
       "m"
     ],
     "unicode": "Ⓜ️"
@@ -29684,7 +29796,8 @@
       "new"
     ],
     "tags": [
-      "new"
+      "new",
+      "new button"
     ],
     "unicode": "🆕"
   },
@@ -29697,7 +29810,8 @@
       "ng"
     ],
     "tags": [
-      "ng"
+      "ng",
+      "ng button"
     ],
     "unicode": "🆖"
   },
@@ -29711,7 +29825,8 @@
     ],
     "tags": [
       "blood type",
-      "o"
+      "o",
+      "o button (blood type)"
     ],
     "unicode": "🅾️"
   },
@@ -29724,7 +29839,8 @@
       "ok"
     ],
     "tags": [
-      "ok"
+      "ok",
+      "ok button"
     ],
     "unicode": "🆗"
   },
@@ -29737,6 +29853,7 @@
       "p"
     ],
     "tags": [
+      "p button",
       "parking"
     ],
     "unicode": "🅿️"
@@ -29751,7 +29868,8 @@
     ],
     "tags": [
       "help",
-      "sos"
+      "sos",
+      "sos button"
     ],
     "unicode": "🆘"
   },
@@ -29765,7 +29883,8 @@
     ],
     "tags": [
       "mark",
-      "up"
+      "up",
+      "up! button"
     ],
     "unicode": "🆙"
   },
@@ -29779,7 +29898,8 @@
     ],
     "tags": [
       "versus",
-      "vs"
+      "vs",
+      "vs button"
     ],
     "unicode": "🆚"
   },
@@ -29794,9 +29914,10 @@
     ],
     "tags": [
       "japanese",
+      "japanese “here” button",
       "katakana",
-      "ココ",
-      "“here”"
+      "“here”",
+      "ココ"
     ],
     "unicode": "🈁"
   },
@@ -29810,9 +29931,10 @@
     ],
     "tags": [
       "japanese",
+      "japanese “service charge” button",
       "katakana",
-      "サ",
-      "“service charge”"
+      "“service charge”",
+      "サ"
     ],
     "unicode": "🈂️"
   },
@@ -29825,10 +29947,11 @@
       "ja_monthly_amount"
     ],
     "tags": [
-      "japanese",
       "ideograph",
-      "月",
-      "“monthly amount”"
+      "japanese",
+      "japanese “monthly amount” button",
+      "“monthly amount”",
+      "月"
     ],
     "unicode": "🈷️"
   },
@@ -29841,10 +29964,11 @@
       "ja_not_free_of_carge"
     ],
     "tags": [
-      "japanese",
       "ideograph",
-      "有",
-      "“not free of charge”"
+      "japanese",
+      "japanese “not free of charge” button",
+      "“not free of charge”",
+      "有"
     ],
     "unicode": "🈶"
   },
@@ -29857,10 +29981,11 @@
       "ja_reserved"
     ],
     "tags": [
-      "japanese",
       "ideograph",
-      "指",
-      "“reserved”"
+      "japanese",
+      "japanese “reserved” button",
+      "“reserved”",
+      "指"
     ],
     "unicode": "🈯️"
   },
@@ -29873,10 +29998,11 @@
       "ja_bargain"
     ],
     "tags": [
-      "japanese",
       "ideograph",
-      "得",
-      "“bargain”"
+      "japanese",
+      "japanese “bargain” button",
+      "“bargain”",
+      "得"
     ],
     "unicode": "🉐"
   },
@@ -29889,10 +30015,11 @@
       "ja_discount"
     ],
     "tags": [
-      "japanese",
       "ideograph",
-      "割",
-      "“discount”"
+      "japanese",
+      "japanese “discount” button",
+      "“discount”",
+      "割"
     ],
     "unicode": "🈹"
   },
@@ -29905,10 +30032,11 @@
       "ja_free_of_charge"
     ],
     "tags": [
-      "japanese",
       "ideograph",
-      "無",
-      "“free of charge”"
+      "japanese",
+      "japanese “free of charge” button",
+      "“free of charge”",
+      "無"
     ],
     "unicode": "🈚️"
   },
@@ -29921,10 +30049,11 @@
       "ja_prohibited"
     ],
     "tags": [
-      "japanese",
       "ideograph",
-      "禁",
-      "“prohibited”"
+      "japanese",
+      "japanese “prohibited” button",
+      "“prohibited”",
+      "禁"
     ],
     "unicode": "🈲"
   },
@@ -29937,10 +30066,11 @@
       "ja_acceptable"
     ],
     "tags": [
-      "japanese",
       "ideograph",
-      "可",
-      "“acceptable”"
+      "japanese",
+      "japanese “acceptable” button",
+      "“acceptable”",
+      "可"
     ],
     "unicode": "🉑"
   },
@@ -29953,10 +30083,11 @@
       "ja_application"
     ],
     "tags": [
-      "japanese",
       "ideograph",
-      "申",
-      "“application”"
+      "japanese",
+      "japanese “application” button",
+      "“application”",
+      "申"
     ],
     "unicode": "🈸"
   },
@@ -29969,10 +30100,11 @@
       "ja_passing_grade"
     ],
     "tags": [
-      "japanese",
       "ideograph",
-      "合",
-      "“passing grade”"
+      "japanese",
+      "japanese “passing grade” button",
+      "“passing grade”",
+      "合"
     ],
     "unicode": "🈴"
   },
@@ -29985,10 +30117,11 @@
       "ja_vacancy"
     ],
     "tags": [
-      "japanese",
       "ideograph",
-      "空",
-      "“vacancy”"
+      "japanese",
+      "japanese “vacancy” button",
+      "“vacancy”",
+      "空"
     ],
     "unicode": "🈳"
   },
@@ -30001,10 +30134,11 @@
       "ja_congratulations"
     ],
     "tags": [
-      "japanese",
       "ideograph",
-      "祝",
-      "“congratulations”"
+      "japanese",
+      "japanese “congratulations” button",
+      "“congratulations”",
+      "祝"
     ],
     "unicode": "㊗️"
   },
@@ -30017,10 +30151,11 @@
       "ja_secret"
     ],
     "tags": [
-      "japanese",
       "ideograph",
-      "秘",
-      "“secret”"
+      "japanese",
+      "japanese “secret” button",
+      "“secret”",
+      "秘"
     ],
     "unicode": "㊙️"
   },
@@ -30033,10 +30168,11 @@
       "ja_open_for_business"
     ],
     "tags": [
-      "japanese",
       "ideograph",
-      "営",
-      "“open for business”"
+      "japanese",
+      "japanese “open for business” button",
+      "“open for business”",
+      "営"
     ],
     "unicode": "🈺"
   },
@@ -30049,10 +30185,11 @@
       "ja_no_vacancy"
     ],
     "tags": [
-      "japanese",
       "ideograph",
-      "満",
-      "“no vacancy”"
+      "japanese",
+      "japanese “no vacancy” button",
+      "“no vacancy”",
+      "満"
     ],
     "unicode": "🈵"
   },

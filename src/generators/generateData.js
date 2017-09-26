@@ -76,6 +76,14 @@ function createEmoji(
 
     if (annotation.tags && annotation.tags.length > 0) {
       emoji.tags = annotation.tags;
+
+      // Sort the tags for easier diffs
+      emoji.tags.sort();
+
+      // Some locales duplicate the annotation in the tag list
+      if (emoji.tags.length > 1) {
+        emoji.tags = emoji.tags.filter(tag => tag !== emoji.annotation);
+      }
     }
   }
 
