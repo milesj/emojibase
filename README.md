@@ -522,10 +522,10 @@ stripHexcode('1F468-200D-2695-FE0F'); // 1F468-2695
 | property/emoji.js | 102 B | 92 B |
 | property/index.js | 114 B | 101 B |
 | emoticon.js | 440 B | 243 B |
-| text.js | 2.53 KB | 1006 B |
-| codepoint/text.js | 3.28 KB | 1.04 KB |
+| text.js | 2.54 KB | 1007 B |
+| codepoint/text.js | 3.29 KB | 1.04 KB |
 | emoji.js | 6.63 KB | 1.79 KB |
-| index.js | 6.64 KB | 1.79 KB |
+| index.js | 6.64 KB | 1.8 KB |
 | codepoint/emoji.js | 7.71 KB | 1.84 KB |
 | codepoint/index.js | 7.71 KB | 1.85 KB |
 

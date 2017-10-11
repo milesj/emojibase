@@ -1,3 +1,8 @@
+# 1.0.7 - 10/10/17
+#### 🐞 Fixed
+* Emojis with newly added variation selectors will now properly match hexcodes without
+  trailing `FE0E`/`FE0F` (their legacy variant).
+
 # 1.0.6 - 9/10/17
 #### 🛠 Internal
 * Updated to Yarn workspaces.

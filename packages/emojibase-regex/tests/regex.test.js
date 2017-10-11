@@ -1,58 +1,113 @@
 import loadFlatEmojiData from '../../emojibase-test-utils/src/loadFlatEmojiData';
 import { EMOTICON_OPTIONS } from '../../emojibase/src/constants';
 import generateEmoticonPermutations from '../../emojibase/src/generateEmoticonPermutations';
-import EMOJI_PATTERN from '../index';
-import EMOJI_CODEPOINT_PATTERN from '../codepoint';
+import toUnicode from '../../../src/generators/toUnicode';
+import COMBO_PATTERN from '../index';
+import EMOJI_PATTERN from '../emoji';
+import TEXT_PATTERN from '../text';
+import COMBO_CODEPOINT_PATTERN from '../codepoint';
+import EMOJI_CODEPOINT_PATTERN from '../codepoint/emoji';
+import TEXT_CODEPOINT_PATTERN from '../codepoint/text';
 // import EMOJI_UNICODE_PROPERTY_PATTERN from '../property';
 import SHORTCODE_PATTERN from '../shortcode';
 import EMOTICON_PATTERN from '../emoticon';
 
-const PATTERN_DESCRIPTIONS = [
-  'standard regex',
-  'unicode codepoint regex',
-  'unicode property regex',
+const PATTERN_DESCRIPTIONS = {
+  standard: 'standard regex',
+  codepoint: 'unicode codepoint regex',
+  property: 'unicode property regex',
+};
+
+const VARIATION_DESCRIPTIONS = {
+  emoji: 'emoji presentation',
+  text: 'text presentation',
+  none: 'no presentation',
+};
+
+const BASE_PATTERNS = [
+  { pattern: COMBO_PATTERN, type: 'standard' },
+  { pattern: COMBO_CODEPOINT_PATTERN, type: 'codepoint' },
 ];
 
 describe('regex', () => {
   loadFlatEmojiData().forEach((emoji) => {
-    const unicode = emoji.emoji || emoji.text;
-
     // Emoji_Tag_Sequences currently do not work
     if (['ENGLAND', 'SCOTLAND', 'WALES'].includes(emoji.name)) {
       return;
     }
 
-    [EMOJI_PATTERN, EMOJI_CODEPOINT_PATTERN].forEach((pattern, i) => {
-      describe(PATTERN_DESCRIPTIONS[i], () => {
-        const globalPattern = new RegExp(pattern.source, `g${pattern.flags}`);
+    const variations = [];
 
-        it(`matches unicode by itself for ${unicode}`, () => {
-          const match = unicode.match(pattern);
+    // Has variation selectors
+    if (emoji.emoji && emoji.text) {
+      variations.push({
+        variation: 'none',
+        unicode: toUnicode(emoji.hexcode), // No FE0E/FE0F
+        patterns: BASE_PATTERNS,
+      });
 
-          expect(match).not.toBe(null);
-          expect(match[0]).toBe(unicode);
-        });
+      variations.push({
+        variation: 'emoji',
+        unicode: emoji.emoji,
+        patterns: [
+          ...BASE_PATTERNS,
+          { pattern: EMOJI_PATTERN, type: 'standard' },
+          { pattern: EMOJI_CODEPOINT_PATTERN, type: 'codepoint' },
+        ],
+      });
 
-        it(`matches unicode in the middle of a string for ${unicode}`, () => {
-          const match = `In the middle ${unicode} of a string.`.match(pattern);
+      variations.push({
+        variation: 'text',
+        unicode: emoji.text,
+        patterns: [
+          ...BASE_PATTERNS,
+          { pattern: TEXT_PATTERN, type: 'standard' },
+          { pattern: TEXT_CODEPOINT_PATTERN, type: 'codepoint' },
+        ],
+      });
 
-          expect(match).not.toBe(null);
-          expect(match[0]).toBe(unicode);
-        });
+    // No variation selectors
+    } else {
+      variations.push({
+        variation: 'base',
+        unicode: emoji.emoji,
+        patterns: BASE_PATTERNS,
+      });
+    }
 
-        it(`matches multiple unicode for ${unicode}`, () => {
-          const matches = `One ${unicode} Two ${unicode} Three ${unicode}.`.match(globalPattern);
+    variations.forEach(({ unicode, variation, patterns }) => {
+      describe(VARIATION_DESCRIPTIONS[variation], () => {
+        patterns.forEach(({ pattern, type }) => {
+          describe(PATTERN_DESCRIPTIONS[type], () => {
+            it(`matches unicode by itself for ${unicode}`, () => {
+              const match = unicode.match(pattern);
 
-          expect(matches).not.toBe(null);
-          expect(matches.length).toBe(3);
-          expect(matches).toEqual([unicode, unicode, unicode]);
+              expect(match).not.toBe(null);
+              expect(match[0]).toBe(unicode);
+            });
+
+            it(`matches unicode in the middle of a string for ${unicode}`, () => {
+              const match = `In the middle ${unicode} of a string.`.match(pattern);
+
+              expect(match).not.toBe(null);
+              expect(match[0]).toBe(unicode);
+            });
+
+            it(`matches multiple unicode for ${unicode}`, () => {
+              const matches = `One ${unicode} Two ${unicode} Three ${unicode}.`
+                .match(new RegExp(pattern.source, `g${pattern.flags}`));
+
+              expect(matches).not.toBe(null);
+              expect(matches.length).toBe(3);
+              expect(matches).toEqual([unicode, unicode, unicode]);
+            });
+          });
         });
       });
     });
 
     emoji.shortcodes.forEach((code) => {
-      // Does not include colons by default
-      const shortcode = `:${code}:`;
+      const shortcode = `:${code}:`; // Does not include colons by default
 
       it(`matches shortcode by itself for ${shortcode}`, () => {
         expect(shortcode).toMatch(SHORTCODE_PATTERN);

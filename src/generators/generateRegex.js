@@ -53,6 +53,12 @@ function createEmojiRegex(data: Object, display: string = 'both') {
       return;
     }
 
+    // Variation selectors are sometimes added to old emojis,
+    // but we still need to support the old non-variation selector,
+    // so include the unicode character that does not include FE0E/FE0F
+    codePointGroups[group].add(toUnicode(hexcode));
+
+    // If variations do exist, include them alongside the non-variation above
     if (variations) {
       if (variations.emoji && (display === 'emoji' || display === 'both')) {
         codePointGroups[group].add(toUnicode(variations.emoji));
@@ -61,8 +67,6 @@ function createEmojiRegex(data: Object, display: string = 'both') {
       if (variations.text && (display === 'text' || display === 'both')) {
         codePointGroups[group].add(toUnicode(variations.text));
       }
-    } else {
-      codePointGroups[group].add(toUnicode(hexcode));
     }
   });
 
