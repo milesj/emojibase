@@ -7,7 +7,7 @@ A collection of lightweight, up-to-date, pre-generated, specification compliant,
 localized emoji JSON datasets, regex patterns, and more.
 
 * Supports the latest [Emoji 5](https://emojipedia.org/emoji-5.0/),
-  [Unicode 10](http://unicode.org/versions/Unicode10.0.0/), and [CLDR 32 Alpha][cldr] release versions
+  [Unicode 10](http://unicode.org/versions/Unicode10.0.0/), and [CLDR 32 Beta][cldr] release versions
 * Built directly from the [emoji source data files](http://unicode.org/Public/emoji/)
 * Based on the official [Unicode Technical Standard #51](http://www.unicode.org/reports/tr51/)
 * With localization provided by [Unicode Technical Standard #35](http://unicode.org/reports/tr35/tr35-general.html#Annotations)
@@ -55,7 +55,7 @@ yarn add emojibase-data
 
 As stated, there are 3 groups of datasets, each serving a specific purpose.
 The first group, localized data, is exactly that, datasets with localization provided by
-[CLDR 32 Alpha][cldr]. The following locales and languages are currently supported:
+[CLDR 32 Beta][cldr]. The following locales and languages are currently supported:
 
 * `emojibase-data/zh/data.json` - Chinese (zh)
 * `emojibase-data/da/data.json` - Danish (da)
@@ -105,7 +105,7 @@ Each emoji character found within the pre-generated datasets are represented by 
 composed of the properties listed below. In an effort to reduce the overall dataset filesize,
 most property values have been implemented using integers, [with associated constants][constants].
 
-* `annotation` (string) - A localized description, provided by [CLDR 32 Alpha][cldr], primarily used
+* `annotation` (string) - A localized description, provided by [CLDR 32 Beta][cldr], primarily used
   for text-to-speech (TTS) and accessibility.
 * `emoji` (string) - The emoji presentation Unicode character.
 * `emoticon` (string) - If applicable, an emoticon representing the emoji character.
@@ -123,7 +123,7 @@ most property values have been implemented using integers, [with associated cons
 * `skins` (emoji[]) - If applicable, an array of emoji objects for each skin tone modification,
   starting at light skin, and ending with dark skin.
 * `subgroup` (number) - The categorical subgroup the emoji belongs to, ranging from `0` to `75`.
-* `tags` (string[]) - An array of localized keywords, provided by [CLDR 32 Alpha][cldr],
+* `tags` (string[]) - An array of localized keywords, provided by [CLDR 32 Beta][cldr],
   to use for searching and filtering.
 * `text` (string) - The text presentation Unicode character.
 * `tone` (number) - If applicable, the skin tone of the emoji character. `1` for light skin,
@@ -326,7 +326,7 @@ that abide the following guidelines:
 * Must keep backwards compatibility and historical integrity by never removing and
   renaming shortcodes.
 * Must support multiple shortcodes per emoji character, for usage within different contexts.
-* Must align with or base off [CLDR 32 Alpha][cldr] annotations.
+* Must align with or base off [CLDR 32 Beta][cldr] annotations.
 
 ### Emoticons
 

@@ -13,7 +13,6 @@
     "flow": "type-check",
     "generate": "yarn run build && node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/emojibase-data/en/data.json ./packages/emojibase-test-utils/test-data.json",
     "jest": "run-tests",
-    "outdated": "yarn outdated; for dir in `find ./packages/ -type d -maxdepth 1`; do (cd \"$dir\" && yarn outdated); done;",
     "posttest": "yarn run flow",
     "pretest": "yarn run eslint",
     "publish": "lerna publish",
