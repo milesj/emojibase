@@ -4,13 +4,10 @@
  * @flow
  */
 
-/* eslint-disable quote-props */
-
 // $FlowIgnore Laziness
 import { Trie } from 'regexgen';
 import { EMOTICON_OPTIONS } from '../../packages/emojibase/lib/constants';
 import generateEmoticonPermutations from '../../packages/emojibase/lib/generateEmoticonPermutations';
-import stripHexcode from '../../packages/emojibase/lib/stripHexcode';
 import buildEmojiData from '../builders/buildEmojiData';
 import log from '../helpers/log';
 import writeRegex from '../helpers/writeRegex';
@@ -24,48 +21,73 @@ function createRegexPattern(
   unicode: boolean = false,
 ): string {
   const flags = unicode ? 'u' : '';
+  const groups = Object.keys(codePointGroups);
 
-  if (display === 'text') {
-    return codePointGroups[1].toRegExp(flags).source;
-  }
+  // Sort from largest to smallest, as we need to match
+  // combination characters before base or single characters
+  groups.sort((a, b) => Number(b) - Number(a));
 
-  return [4, 3, 2, 1].map(group => (
-    `(?:${codePointGroups[group].toRegExp(flags).source})`
-  )).join('|');
+  return groups
+    .map(group => codePointGroups[group].toRegExp(flags).source)
+    .join('|');
 }
 
 function createEmojiRegex(data: Object, display: string = 'both') {
   const fileName = (display === 'both') ? 'index' : display;
-  const codePointGroups = {
-    '4': new Trie(),
-    '3': new Trie(),
-    '2': new Trie(),
-    '1': new Trie(),
-  };
+  const codePointGroups = {};
 
   // Push the unicode characters into the trie,
   // grouped by the number of codepoints
-  Object.keys(data).forEach((hexcode) => {
-    const { variations } = data[hexcode];
-    const group = stripHexcode(hexcode).split('-').length;
-
-    if (group <= 0 || group > 4) {
+  const addCodePoint = (hexcode) => {
+    if (!hexcode) {
       return;
     }
 
-    // Variation selectors are sometimes added to old emojis,
-    // but we still need to support the old non-variation selector,
-    // so include the unicode character that does not include FE0E/FE0F
-    codePointGroups[group].add(toUnicode(hexcode));
+    const group = String(hexcode.split('-').length);
 
-    // If variations do exist, include them alongside the non-variation above
-    if (variations) {
-      if (variations.emoji && (display === 'emoji' || display === 'both')) {
-        codePointGroups[group].add(toUnicode(variations.emoji));
+    if (!codePointGroups[group]) {
+      codePointGroups[group] = new Trie();
+    }
+
+    codePointGroups[group].add(toUnicode(hexcode));
+  };
+
+  // Note: variation selectors are sometimes added to old emojis,
+  // but we still need to support the old non-variation selector,
+  // so include the unicode character that does not include FE0E/FE0F
+  Object.keys(data).forEach((hexcode) => {
+    const { variations = {} } = data[hexcode];
+
+    switch (display) {
+      // Should contain everything
+      default: {
+        addCodePoint(hexcode);
+        addCodePoint(variations.emoji);
+        addCodePoint(variations.text);
+
+        break;
       }
 
-      if (variations.text && (display === 'text' || display === 'both')) {
-        codePointGroups[group].add(toUnicode(variations.text));
+      // Should only contain emoji and no presentation
+      case 'emoji': {
+        if (variations.emoji) {
+          addCodePoint(hexcode);
+          addCodePoint(variations.emoji);
+        } else if (!variations.text) {
+          addCodePoint(hexcode);
+        }
+
+        break;
+      }
+
+      // Should only contain text presentation
+      case 'text': {
+        if (variations.text) {
+          addCodePoint(hexcode);
+          addCodePoint(variations.text);
+        }
+
+        break;
       }
     }
   });
@@ -91,13 +113,11 @@ function createEmoticonRegex(data: Object) {
   // Remove duplicates
   emoticons = Array.from(new Set(emoticons));
 
-  // Sort with longest first
+  // Sort by longest first
   emoticons.sort((a, b) => b.length - a.length);
 
   // Add to trie and generate
-  emoticons.forEach((emoticon) => {
-    trie.add(emoticon);
-  });
+  trie.addAll(emoticons);
 
   writeRegex('emoticon.js', trie.toRegExp().source);
 }

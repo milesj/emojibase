@@ -522,12 +522,12 @@ stripHexcode('1F468-200D-2695-FE0F'); // 1F468-2695
 | property/emoji.js | 102 B | 92 B |
 | property/index.js | 114 B | 101 B |
 | emoticon.js | 440 B | 243 B |
-| text.js | 2.54 KB | 1007 B |
-| codepoint/text.js | 3.29 KB | 1.04 KB |
-| emoji.js | 6.63 KB | 1.79 KB |
-| index.js | 6.64 KB | 1.8 KB |
-| codepoint/emoji.js | 7.71 KB | 1.84 KB |
-| codepoint/index.js | 7.71 KB | 1.85 KB |
+| text.js | 2.91 KB | 626 B |
+| codepoint/text.js | 3.59 KB | 660 B |
+| emoji.js | 6.83 KB | 1.63 KB |
+| index.js | 6.84 KB | 1.63 KB |
+| codepoint/emoji.js | 7.62 KB | 1.65 KB |
+| codepoint/index.js | 7.64 KB | 1.65 KB |
 
 [cdn]: https://cdn.jsdelivr.net/npm/emojibase-data@latest/
 [cldr]: http://cldr.unicode.org/index/downloads/cldr-32

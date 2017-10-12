@@ -69,7 +69,7 @@ describe('regex', () => {
     // No variation selectors
     } else {
       variations.push({
-        variation: 'base',
+        variation: 'none',
         unicode: emoji.emoji,
         patterns: BASE_PATTERNS,
       });

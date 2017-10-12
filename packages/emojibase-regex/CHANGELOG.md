@@ -1,3 +1,7 @@
+# 1.0.8 - 10/11/17
+#### 🐞 Fixed
+* Improved the accuracy of `emoji` and `text` presentation specific patterns.
+
 # 1.0.7 - 10/10/17
 #### 🐞 Fixed
 * Emojis with newly added variation selectors will now properly match hexcodes without
