@@ -36,8 +36,10 @@ export default function parseData(version: string, content: string): EmojiDataMa
     // Handle mapping each hexcode
     const mapHexcode = (hexcode) => {
       if (map[hexcode]) {
-        // An emoji may belong to multiple properties,
-        // so keep a unique list of all applicable.
+        /*
+         * An emoji may belong to multiple properties,
+         * so keep a unique list of all applicable.
+         */
         map[hexcode].property = Array.from(new Set([
           ...map[hexcode].property,
           ...emoji.property,

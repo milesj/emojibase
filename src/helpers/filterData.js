@@ -14,8 +14,10 @@ export default function filterData(data: EmojiMap): EmojiMap {
   Object.keys(data).forEach((hexcode) => {
     const emoji = data[hexcode];
 
-    // Omit modifiers and components from the final output,
-    // as they're not emoji characters to be used directly
+    /*
+     * Omit modifiers and components from the final output,
+     * as they're not emoji characters to be used directly
+     */
     if (hasProperty(emoji.property, ['Emoji_Modifier', 'Emoji_Component'])) {
       return;
     }

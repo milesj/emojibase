@@ -30,8 +30,10 @@ export default function verifyData(emojis: EmojiMap): EmojiMap {
       return;
     }
 
-    // Verify no skin tone modifications are in the root,
-    // excluding the Fitzpatrick modifiers themselves.
+    /*
+     * Verify no skin tone modifications are in the root,
+     * excluding the Fitzpatrick modifiers themselves.
+     */
     if (hexcode.match(SKIN_MODIFIER_PATTERN) && hexcode.length !== 5) {
       errors.push('Emoji with Fitzpatrick modifier found at the root.');
     }

@@ -4,7 +4,7 @@
  * @flow
  */
 
-/* eslint-disable quote-props */
+/* eslint-disable quote-props, sort-keys */
 
 import type { Gender, PermutationOptions, Presentation, SkinTone } from '../../../src/types';
 

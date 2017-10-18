@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@milesj/build-tool-config@^0.31.0":
-  version "0.31.0"
-  resolved "https://registry.yarnpkg.com/@milesj/build-tool-config/-/build-tool-config-0.31.0.tgz#0c2c02ab0bd7ae7d6c99d1657d65970739a7db48"
+"@milesj/build-tool-config@^0.33.0":
+  version "0.33.0"
+  resolved "https://registry.yarnpkg.com/@milesj/build-tool-config/-/build-tool-config-0.33.0.tgz#fdeabecf0aa1fc33b277d633401238c34b07fb9e"
   dependencies:
     babel-cli "^6.26.0"
     babel-core "^6.26.0"
@@ -15,7 +15,7 @@
     babel-plugin-transform-dev "^2.0.0"
     babel-plugin-transform-export-extensions "^6.22.0"
     babel-plugin-transform-runtime "^6.23.0"
-    babel-preset-env "^1.6.0"
+    babel-preset-env "^1.6.1"
     babel-preset-flow "^6.23.0"
     babel-preset-react "^6.24.1"
     babel-preset-stage-2 "^6.24.1"
@@ -23,24 +23,24 @@
     clean-webpack-plugin "^0.1.17"
     copy "^0.3.1"
     enzyme "^3.1.0"
-    enzyme-adapter-react-16 "^1.0.1"
-    eslint "^4.8.0"
-    eslint-config-airbnb "^16.0.0"
-    eslint-plugin-flowtype "2.34.1"
+    enzyme-adapter-react-16 "^1.0.2"
+    eslint "^4.9.0"
+    eslint-config-airbnb "^16.1.0"
+    eslint-plugin-flowtype "^2.39.1"
     eslint-plugin-import "^2.7.0"
     eslint-plugin-jest "^21.2.0"
     eslint-plugin-jsx-a11y "^6.0.2"
-    eslint-plugin-promise "^3.5.0"
+    eslint-plugin-promise "^3.6.0"
     eslint-plugin-react "^7.4.0"
     eslint-plugin-unicorn "^2.1.2"
-    flow-bin "^0.56.0"
+    flow-bin "^0.57.3"
     jest "^21.2.1"
     react "^16.0.0"
     react-dom "^16.0.0"
     react-test-renderer "^16.0.0"
     rimraf "^2.6.1"
     uglifyjs-webpack-plugin "1.0.0-beta.3"
-    webpack "^3.6.0"
+    webpack "^3.8.1"
     yargs-parser "^8.0.0"
 
 "@types/node@^6.0.46":
@@ -972,9 +972,9 @@ babel-polyfill@^6.26.0:
     core-js "^2.5.0"
     regenerator-runtime "^0.10.5"
 
-babel-preset-env@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/babel-preset-env/-/babel-preset-env-1.6.0.tgz#2de1c782a780a0a5d605d199c957596da43c44e4"
+babel-preset-env@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/babel-preset-env/-/babel-preset-env-1.6.1.tgz#a18b564cc9b9afdf4aae57ae3c1b0d99188e6f48"
   dependencies:
     babel-plugin-check-es2015-constants "^6.22.0"
     babel-plugin-syntax-trailing-function-commas "^6.22.0"
@@ -2154,15 +2154,16 @@ entities@^1.1.1, entities@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
 
-enzyme-adapter-react-16@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.1.tgz#066cb1735e65d8d95841a023f94dab3ce6109e17"
+enzyme-adapter-react-16@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.0.2.tgz#8c6f431f17c69e1e9eeb25ca4bd92f31971eb2dd"
   dependencies:
     enzyme-adapter-utils "^1.0.0"
     lodash "^4.17.4"
     object.assign "^4.0.4"
     object.values "^1.0.4"
     prop-types "^15.5.10"
+    react-test-renderer "^16.0.0-0"
 
 enzyme-adapter-utils@^1.0.0:
   version "1.0.1"
@@ -2293,17 +2294,17 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-airbnb-base@^12.0.2:
-  version "12.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-12.0.2.tgz#45fea317d71b8f1da323c730f3a8471988757793"
+eslint-config-airbnb-base@^12.1.0:
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-12.1.0.tgz#386441e54a12ccd957b0a92564a4bafebd747944"
   dependencies:
     eslint-restricted-globals "^0.1.1"
 
-eslint-config-airbnb@^16.0.0:
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-airbnb/-/eslint-config-airbnb-16.0.0.tgz#21e81476ab7f5f27c1a900ff415cac9e1e12f3ed"
+eslint-config-airbnb@^16.1.0:
+  version "16.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-airbnb/-/eslint-config-airbnb-16.1.0.tgz#2546bfb02cc9fe92284bf1723ccf2e87bc45ca46"
   dependencies:
-    eslint-config-airbnb-base "^12.0.2"
+    eslint-config-airbnb-base "^12.1.0"
 
 eslint-import-resolver-node@^0.3.1:
   version "0.3.1"
@@ -2319,9 +2320,9 @@ eslint-module-utils@^2.1.1:
     debug "^2.6.8"
     pkg-dir "^1.0.0"
 
-eslint-plugin-flowtype@2.34.1:
-  version "2.34.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-2.34.1.tgz#ea109175645b05d37baeac53b9b65066d79b9446"
+eslint-plugin-flowtype@^2.39.1:
+  version "2.39.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-2.39.1.tgz#b5624622a0388bcd969f4351131232dcb9649cd5"
   dependencies:
     lodash "^4.15.0"
 
@@ -2356,9 +2357,9 @@ eslint-plugin-jsx-a11y@^6.0.2:
     emoji-regex "^6.1.0"
     jsx-ast-utils "^1.4.0"
 
-eslint-plugin-promise@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.5.0.tgz#78fbb6ffe047201627569e85a6c5373af2a68fca"
+eslint-plugin-promise@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.6.0.tgz#54b7658c8f454813dc2a870aff8152ec4969ba75"
 
 eslint-plugin-react@^7.4.0:
   version "7.4.0"
@@ -2390,9 +2391,9 @@ eslint-scope@^3.7.1:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint@^4.8.0:
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.8.0.tgz#229ef0e354e0e61d837c7a80fdfba825e199815e"
+eslint@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.9.0.tgz#76879d274068261b191fe0f2f56c74c2f4208e8b"
   dependencies:
     ajv "^5.2.0"
     babel-code-frame "^6.22.0"
@@ -2729,9 +2730,9 @@ flat-cache@^1.2.1:
     graceful-fs "^4.1.2"
     write "^0.2.1"
 
-flow-bin@^0.56.0:
-  version "0.56.0"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.56.0.tgz#ce43092203a344ba9bf63c0cabe95d95145f6cad"
+flow-bin@^0.57.3:
+  version "0.57.3"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.57.3.tgz#843fb80a821b6d0c5847f7bb3f42365ffe53b27b"
 
 flush-write-stream@^1.0.0:
   version "1.0.2"
@@ -4887,7 +4888,7 @@ react-dom@^16.0.0:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-test-renderer@^16.0.0:
+react-test-renderer@^16.0.0, react-test-renderer@^16.0.0-0:
   version "16.0.0"
   resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.0.0.tgz#9fe7b8308f2f71f29fc356d4102086f131c9cb15"
   dependencies:
@@ -5864,9 +5865,9 @@ webpack-sources@^1.0.1:
     source-list-map "^2.0.0"
     source-map "~0.5.3"
 
-webpack@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.6.0.tgz#a89a929fbee205d35a4fa2cc487be9cbec8898bc"
+webpack@^3.8.1:
+  version "3.8.1"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.8.1.tgz#b16968a81100abe61608b0153c9159ef8bb2bd83"
   dependencies:
     acorn "^5.0.0"
     acorn-dynamic-import "^2.0.0"

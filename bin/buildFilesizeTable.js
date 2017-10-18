@@ -22,8 +22,8 @@ function calculatePackage(packageName) {
 
         return {
           file: file.replace(`${process.cwd()}/packages/${packageName}/`, ''),
-          size: Buffer.byteLength(data),
           gzip: gzip.sync(data),
+          size: Buffer.byteLength(data),
         };
       });
 

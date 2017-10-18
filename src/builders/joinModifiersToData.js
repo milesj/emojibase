@@ -4,6 +4,8 @@
  * @flow
  */
 
+/* eslint-disable sort-keys */
+
 import {
   LIGHT_SKIN,
   LIGHT_SKIN_MODIFIER,
@@ -64,10 +66,12 @@ export default function joinModifiersToData(emojis: Object) {
         EMOJI_VARIATION_SELECTOR,
       );
 
-      // Some ZWJ parent emoji can easily be found by removing their skin tone modifier:
-      // 1F468 1F3FB 200D 2695 FE0F -> 1F468 200D 2695 FE0F
-      // While others need to replace their skin tone modifier with the emoji variation selector:
-      // 26F9 1F3FB 200D 2640 FE0F -> 26F9 FE0F 200D 2640 FE0F
+      /*
+       * Some ZWJ parent emoji can easily be found by removing their skin tone modifier:
+       * 1F468 1F3FB 200D 2695 FE0F -> 1F468 200D 2695 FE0F
+       * While others need to replace their skin tone modifier with the emoji variation selector:
+       * 26F9 1F3FB 200D 2640 FE0F -> 26F9 FE0F 200D 2640 FE0F
+       */
       const parentEmoji = emojis[parentHexcode] || emojis[parentHexcodeWithVariation];
 
       addModification(parentEmoji, {
@@ -85,8 +89,8 @@ export default function joinModifiersToData(emojis: Object) {
         const mod = emojis[SKIN_MODIFIERS[skinTone]];
 
         addModification(emoji, {
-          name: `${emoji.name}, ${mod.name}`,
           hexcode: `${emoji.hexcode}-${mod.hexcode}`,
+          name: `${emoji.name}, ${mod.name}`,
           tone: parseFloat(skinTone),
         });
       });

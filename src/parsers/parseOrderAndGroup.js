@@ -58,8 +58,8 @@ export default function parseOrderAndGroup(content: string): EmojiGroupMap {
     const hexcode = formatHexcode(line.split(';')[0].trim());
 
     map[hexcode] = {
-      order,
       group: groupIndex,
+      order,
       subgroup: subgroupIndex,
     };
 
@@ -69,8 +69,8 @@ export default function parseOrderAndGroup(content: string): EmojiGroupMap {
   // Cache groups to reference later for constants
   writeCache('group-hierarchy.json', {
     groups,
-    subgroups,
     hierarchy,
+    subgroups,
   });
 
   return map;

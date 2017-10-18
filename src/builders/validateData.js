@@ -12,7 +12,7 @@ import loadEmojiList from '../loaders/loadEmojiList';
 
 import type { EmojiMap } from '../types';
 
-export default async function validateData(data: EmojiMap) {
+export default async function validateData(data: EmojiMap): Promise<void> {
   const officialSource = await loadEmojiList();
   const emojis = flattenData(data);
 

@@ -53,16 +53,15 @@ export default function parseEmojiList(content: string): EmojiSourceMap {
 
     // Header
     } else if (headerRow.length > 0) {
-      // Skip
+      // Skip emoji
 
-    // Emoji
     } else {
       const tds = tr.find('td');
       const hexcode = String(tds.eq(1).find('a').attr('name')).toUpperCase().replace(/_/g, '-');
 
       data[hexcode] = {
-        hexcode,
         group,
+        hexcode,
         subgroup,
       };
     }

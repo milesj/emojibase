@@ -4,7 +4,7 @@
  * @flow
  */
 
-export default async function joinData(emojis: Object, data: Object) {
+export default function joinData(emojis: Object, data: Object) {
   Object.keys(data).forEach((hexcode) => {
     emojis[hexcode] = data[hexcode];
   });

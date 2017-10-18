@@ -22,8 +22,10 @@ export default function parseAnnotations(version: string, content: string): CLDR
   xml('annotation').each((i, rawRow) => {
     const row = xml(rawRow);
 
-    // Variation selectors are not present in the locale files
-    // So lets just strip unnecessary codepoints
+    /*
+     * Variation selectors are not present in the locale files
+     * So lets just strip unnecessary codepoints
+     */
     const hexcode = fromUnicodeToHexcode(row.attr('cp'));
 
     if (!data[hexcode]) {

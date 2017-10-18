@@ -9,7 +9,7 @@ import loadEmojiData from './loadEmojiData';
 
 let DATA = [];
 
-export default function loadFlatEmojiData() {
+export default function loadFlatEmojiData(): Object[] {
   if (DATA.length > 0) {
     return DATA;
   }

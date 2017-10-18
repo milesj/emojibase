@@ -32,13 +32,13 @@ export default function parseSequences(
     const hexcode = formatHexcode(rawHexcode);
 
     map[hexcode] = {
-      hexcode,
       description: description || extractLineDescription(line.comment),
+      gender: extractGender(hexcode),
+      hexcode,
       property: [property || defaultProperty],
       type: EMOJI,
       unicodeVersion: extractUnicodeVersion(line.comment),
       version: parseFloat(version),
-      gender: extractGender(hexcode),
     };
 
     return map;

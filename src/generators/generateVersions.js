@@ -8,7 +8,7 @@ import buildVersionedData from '../builders/buildVersionedData';
 import log from '../helpers/log';
 import writeDataset from '../helpers/writeDataset';
 
-export default async function generateVersions() {
+export default async function generateVersions(): Promise<void> {
   log.title('data', 'Generating versioned datasets');
 
   const { emojiVersions, unicodeVersions } = await buildVersionedData();

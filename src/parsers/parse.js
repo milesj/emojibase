@@ -6,19 +6,21 @@
 
 import type { ParsedLine, ParsedTotals } from '../types';
 
-// Trying to detect the start of each property group is quite complicated,
-// so let's take the easy route and match the start of the line.
+/*
+ * Trying to detect the start of each property group is quite complicated,
+ * so let's take the easy route and match the start of the line.
+ */
 const PROPERTY_CAPTURES = {
   '# Combining sequences': 'Emoji_Combining_Sequence',
-  '# Flag sequences': 'Emoji_Flag_Sequence',
-  '# Modifier sequences': 'Emoji_Modifier_Sequence',
-  '# ZWJ sequences': 'Emoji_ZWJ_Sequence',
   '# Emoji Combining Sequence': 'Emoji_Combining_Sequence',
   '# Emoji Flag Sequence': 'Emoji_Flag_Sequence',
   '# Emoji Keycap Sequence': 'Emoji_Keycap_Sequence',
   '# Emoji Modifier Sequence': 'Emoji_Modifier_Sequence',
   '# Emoji Tag Sequence': 'Emoji_Tag_Sequence',
   '# Emoji ZWJ Sequence': 'Emoji_ZWJ_Sequence',
+  '# Flag sequences': 'Emoji_Flag_Sequence',
+  '# Modifier sequences': 'Emoji_Modifier_Sequence',
+  '# ZWJ sequences': 'Emoji_ZWJ_Sequence',
 };
 
 

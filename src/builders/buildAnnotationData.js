@@ -33,8 +33,10 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
   const englishAnnotations = await loadAnnotations('en'); // Fallback to English
   const localization = await loadLocalization(locale);
 
-  // http://unicode.org/repos/cldr/trunk/specs/ldml/tr35-general.html#SynthesizingNames
-  // ZWJ and Flag sequences do not have annotations, so let's add them
+  /*
+   * http://unicode.org/repos/cldr/trunk/specs/ldml/tr35-general.html#SynthesizingNames
+   * ZWJ and Flag sequences do not have annotations, so let's add them
+   */
   const sequences = {
     ...(await loadSequences()),
     ...(await loadZwjSequences()),

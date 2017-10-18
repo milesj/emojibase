@@ -27,6 +27,7 @@ function createEmoji(
   annotations: CLDRAnnotationMap,
   englishAnnotations: CLDRAnnotationMap,
 ): FinalEmoji {
+  /* eslint-disable sort-keys */
   const emoji: Object = {
     // Classification
     name: baseEmoji.name || baseEmoji.description.toUpperCase(),
@@ -40,6 +41,7 @@ function createEmoji(
     group: baseEmoji.group,
     subgroup: baseEmoji.group,
   };
+  /* eslint-enable sort-keys */
 
   // Release version
   if (versions[baseEmoji.hexcode]) {
@@ -98,8 +100,10 @@ function createEmoji(
       );
       const skinHexcode = skin.hexcode.match(SKIN_MODIFIER_PATTERN);
 
-      // Inherit values from the parent
-      // $FlowIgnore We know the modifier hexcode exists
+      /*
+       * Inherit values from the parent
+       * $FlowIgnore We know the modifier hexcode exists
+       */
       skin.annotation = `${emoji.annotation}: ${annotations[skinHexcode[0]].annotation}`;
       skin.shortcodes = emoji.shortcodes.map(code => `${code}_tone${skinTone}`);
 
@@ -127,7 +131,7 @@ function createVersionMap(): VersionMap {
   return versions;
 }
 
-export default async function generateData() {
+export default async function generateData(): Promise<void> {
   log.title('data', 'Generating emoji datasets');
 
   const data = await buildEmojiData();

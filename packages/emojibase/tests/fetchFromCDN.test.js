@@ -3,8 +3,8 @@ import fetchFromCDN from '../src/fetchFromCDN';
 describe('fetchFromCDN()', () => {
   beforeEach(() => {
     global.fetch = jest.fn(() => Promise.resolve({
-      ok: true,
       json: () => Promise.resolve([1, 2, 3]),
+      ok: true,
     }));
 
     global.sessionStorage = {
@@ -54,9 +54,9 @@ describe('fetchFromCDN()', () => {
     expect(global.fetch).toBeCalledWith(
       'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/data.json',
       {
+        credentials: 'omit',
         mode: 'cors',
         redirect: 'error',
-        credentials: 'omit',
       },
     );
   });
@@ -67,9 +67,9 @@ describe('fetchFromCDN()', () => {
     expect(global.fetch).toBeCalledWith(
       'https://cdn.jsdelivr.net/npm/emojibase-data@1.2.3/ja/compact.json',
       {
+        credentials: 'omit',
         mode: 'cors',
         redirect: false,
-        credentials: 'omit',
       },
     );
   });

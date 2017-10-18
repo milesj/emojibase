@@ -23,8 +23,10 @@ function createRegexPattern(
   const flags = unicode ? 'u' : '';
   const groups = Object.keys(codePointGroups);
 
-  // Sort from largest to smallest, as we need to match
-  // combination characters before base or single characters
+  /*
+   * Sort from largest to smallest, as we need to match
+   * combination characters before base or single characters
+   */
   groups.sort((a, b) => Number(b) - Number(a));
 
   return groups
@@ -36,8 +38,10 @@ function createEmojiRegex(data: Object, display: string = 'both') {
   const fileName = (display === 'both') ? 'index' : display;
   const codePointGroups = {};
 
-  // Push the unicode characters into the trie,
-  // grouped by the number of codepoints
+  /*
+   * Push the unicode characters into the trie,
+   * grouped by the number of codepoints
+   */
   const addCodePoint = (hexcode) => {
     if (!hexcode) {
       return;
@@ -52,9 +56,11 @@ function createEmojiRegex(data: Object, display: string = 'both') {
     codePointGroups[group].add(toUnicode(hexcode));
   };
 
-  // Note: variation selectors are sometimes added to old emojis,
-  // but we still need to support the old non-variation selector,
-  // so include the unicode character that does not include FE0E/FE0F
+  /*
+   * Note: variation selectors are sometimes added to old emojis,
+   * but we still need to support the old non-variation selector,
+   * so include the unicode character that does not include FE0E/FE0F
+   */
   Object.keys(data).forEach((hexcode) => {
     const { variations = {} } = data[hexcode];
 
@@ -122,7 +128,7 @@ function createEmoticonRegex(data: Object) {
   writeRegex('emoticon.js', trie.toRegExp().source);
 }
 
-export default async function generateRegex() {
+export default async function generateRegex(): Promise<void> {
   log.title('regex', 'Generating regex patterns');
 
   const data = flattenData(filterData(await buildEmojiData()));

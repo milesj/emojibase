@@ -6,7 +6,7 @@
 
 let DATA = [];
 
-export default function loadEmojiData() {
+export default function loadEmojiData(): Object[] {
   if (DATA.length > 0) {
     return DATA;
   }

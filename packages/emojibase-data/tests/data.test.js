@@ -2,9 +2,11 @@ import loadFlatEmojiData from '../../emojibase-test-utils/src/loadFlatEmojiData'
 import { EMOJI, TEXT, MALE, FEMALE } from '../../emojibase/src/constants';
 
 describe('data', () => {
-  // Skin modifications and certain sequences are missing specific
-  // fields, like tags, annotations, and more. And since we flattened
-  // our data, we'll need to wrap tests in conditional blocks.
+  /*
+   * Skin modifications and certain sequences are missing specific
+   * fields, like tags, annotations, and more. And since we flattened
+   * our data, we'll need to wrap tests in conditional blocks.
+   */
   loadFlatEmojiData().forEach((emoji) => {
     const unicode = emoji.emoji || emoji.text;
 

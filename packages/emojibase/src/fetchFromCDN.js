@@ -30,9 +30,9 @@ export default function fetchFromCDN(
   }
 
   return fetch(`https://cdn.jsdelivr.net/npm/emojibase-data@${version}/${path}`, {
+    credentials: 'omit',
     mode: 'cors',
     redirect: 'error',
-    credentials: 'omit',
     ...options,
   }).then((response) => {
     if (!response.ok) {
