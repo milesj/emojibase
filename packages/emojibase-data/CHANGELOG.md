@@ -1,3 +1,7 @@
+# 2.1.1 - 11/10/17
+#### 🚀 New
+* Updated to [CLDR 32](http://cldr.unicode.org/index/downloads/cldr-32) official release.
+
 # 2.1.0 - 9/25/17
 #### 🚀 New
 * Updated to [CLDR 32 Beta](http://cldr.unicode.org/index/downloads/cldr-32) which includes

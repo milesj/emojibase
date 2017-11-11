@@ -1,3 +1,7 @@
+# 1.0.9 - 11/10/17
+#### 🚀 New
+* Updated to [CLDR 32](http://cldr.unicode.org/index/downloads/cldr-32) official release.
+
 # 1.0.8 - 10/11/17
 #### 🐞 Fixed
 * Improved the accuracy of `emoji` and `text` presentation specific patterns.
