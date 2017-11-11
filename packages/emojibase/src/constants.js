@@ -34,7 +34,7 @@ export const DARK_SKIN: SkinTone = 5;
 
 export const LATEST_EMOJI_VERSION: string = '5.0';
 export const LATEST_UNICODE_VERSION: string = '10.0.0';
-export const LATEST_CLDR_VERSION: string = '32-beta';
+export const LATEST_CLDR_VERSION: string = '32';
 export const FIRST_UNICODE_EMOJI_VERSION: string = '6.0.0';
 export const SUPPORTED_LOCALES: string[] = [
   'da', // Danish

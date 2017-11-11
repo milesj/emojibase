@@ -1,3 +1,7 @@
+# 1.4.3 - 11/10/17
+#### 🛠 Internal
+* Updated `LATEST_CLDR_VERSION` to `32`.
+
 # 1.4.2 - 10/10/17
 #### 🛠 Internal
 * Updated `LATEST_CLDR_VERSION` to `32-beta`.
