@@ -4,7 +4,7 @@ import loadFlatEmojiData from '../../emojibase-test-utils/src/loadFlatEmojiData'
 import { EMOTICON_OPTIONS } from '../../emojibase/src/constants';
 import generateEmoticonPermutations from '../../emojibase/src/generateEmoticonPermutations';
 import toUnicode from '../../../src/generators/toUnicode';
-import COMBO_PATTERN from '../index';
+import COMBO_PATTERN from '..';
 import EMOJI_PATTERN from '../emoji';
 import TEXT_PATTERN from '../text';
 import COMBO_CODEPOINT_PATTERN from '../codepoint';
@@ -100,7 +100,7 @@ describe('regex', () => {
                 .match(new RegExp(pattern.source, `g${pattern.flags}`));
 
               expect(matches).not.toBe(null);
-              expect(matches.length).toBe(3);
+              expect(matches).toHaveLength(3);
               expect(matches).toEqual([unicode, unicode, unicode]);
             });
           });
@@ -123,7 +123,7 @@ describe('regex', () => {
         const globalPattern = new RegExp(SHORTCODE_PATTERN.source, 'g');
         const matches = `One ${shortcode} Two ${shortcode} Three ${shortcode}.`.match(globalPattern);
 
-        expect(matches.length).toBe(3);
+        expect(matches).toHaveLength(3);
       });
     });
 

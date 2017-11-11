@@ -4,8 +4,6 @@
  * @flow
  */
 
-/* eslint-disable newline-per-chained-call */
-
 // $FlowIgnore Lazyiness
 import cheerio from 'cheerio';
 import readCache from '../helpers/readCache';

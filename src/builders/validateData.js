@@ -4,8 +4,6 @@
  * @flow
  */
 
-/* eslint-disable complexity */
-
 import log from '../helpers/log';
 import flattenData from '../helpers/flattenData';
 import loadEmojiList from '../loaders/loadEmojiList';

@@ -72,7 +72,7 @@ describe('data', () => {
 
     if ('skins' in emoji) {
       it(`defines skin modifications for ${unicode}`, () => {
-        expect(emoji.skins.length).toBe(5);
+        expect(emoji.skins).toHaveLength(5);
       });
     }
   });

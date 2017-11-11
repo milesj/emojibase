@@ -15,9 +15,9 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "scripts": {
-    "build": "build-lib ./src -d ./lib"
+    "build": "build-lib"
   },
   "devDependencies": {
-    "@milesj/build-tool-config": "^0.33.0"
+    "@milesj/build-tool-config": "^0.41.1"
   }
 }
