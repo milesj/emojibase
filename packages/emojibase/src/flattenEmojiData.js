@@ -32,5 +32,6 @@ export default function flattenEmojiData(data: FinalEmoji[]): FinalEmoji[] {
     }
   });
 
+  // $FlowIgnore
   return emojis;
 }
