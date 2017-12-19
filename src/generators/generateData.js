@@ -39,7 +39,7 @@ function createEmoji(
     // Categorization
     order: baseEmoji.order,
     group: baseEmoji.group,
-    subgroup: baseEmoji.group,
+    subgroup: baseEmoji.subgroup,
   };
   /* eslint-enable sort-keys */
 
@@ -100,10 +100,8 @@ function createEmoji(
       );
       const skinHexcode = skin.hexcode.match(SKIN_MODIFIER_PATTERN);
 
-      /*
-       * Inherit values from the parent
-       * $FlowIgnore We know the modifier hexcode exists
-       */
+      // Inherit values from the parent
+      // $FlowIgnore We know the modifier hexcode exists
       skin.annotation = `${emoji.annotation}: ${annotations[skinHexcode[0]].annotation}`;
       skin.shortcodes = emoji.shortcodes.map(code => `${code}_tone${skinTone}`);
 
