@@ -1,3 +1,7 @@
+# 1.4.4 - 12/19/17
+#### 🛠 Internal
+* Updated dependencies.
+
 # 1.4.3 - 11/10/17
 #### 🛠 Internal
 * Updated `LATEST_CLDR_VERSION` to `32`.
