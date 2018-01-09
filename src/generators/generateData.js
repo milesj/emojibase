@@ -100,9 +100,11 @@ function createEmoji(
       );
       const skinHexcode = skin.hexcode.match(SKIN_MODIFIER_PATTERN);
 
-      // Inherit values from the parent
       // $FlowIgnore We know the modifier hexcode exists
-      skin.annotation = `${emoji.annotation}: ${annotations[skinHexcode[0]].annotation}`;
+      const skinAnnotation = annotations[skinHexcode[0]] || englishAnnotations[skinHexcode[0]];
+
+      // Inherit values from the parent
+      skin.annotation = `${emoji.annotation}: ${skinAnnotation.annotation}`;
       skin.shortcodes = emoji.shortcodes.map(code => `${code}_tone${skinTone}`);
 
       return skin;
@@ -140,6 +142,7 @@ export default async function generateData(): Promise<void> {
   // Generate datasets for each locale
   SUPPORTED_LOCALES.forEach(async (locale) => {
     const annotations = await buildAnnotationData(locale);
+    const localePath = locale.toLowerCase().replace('_', '-');
     const emojis = Object.keys(filteredData).map(hexcode => createEmoji(
       filteredData[hexcode],
       versions,
@@ -150,8 +153,8 @@ export default async function generateData(): Promise<void> {
     // Sort by order
     emojis.sort((a, b) => (a.order || 0) - (b.order || 0));
 
-    writeDataset(`${locale}/data.json`, emojis);
-    writeDataset(`${locale}/compact.json`, extractSubset(emojis, 'compact'));
+    writeDataset(`${localePath}/data.json`, emojis);
+    writeDataset(`${localePath}/compact.json`, extractSubset(emojis, 'compact'));
   });
 
   // Generate metadata and specialized datasets

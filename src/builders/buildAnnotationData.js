@@ -54,8 +54,10 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       return;
     }
 
-    // eslint-disable-next-line prefer-const
-    let { annotation = '', tags = [] } = derivedAnnotations[hexcode] || {};
+    let {
+      annotation = '',
+      tags = [], // eslint-disable-line prefer-const
+    } = derivedAnnotations[hexcode] || englishAnnotations[hexcode] || {};
     const emoji = sequences[fullHexcode];
 
     // Use the localized territory name
