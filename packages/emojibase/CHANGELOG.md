@@ -1,3 +1,10 @@
+# 1.5.0 - 01/08/18
+#### 🚀 New
+* Added `en-gb`, `es-mx`, `pl`, `pt`, `th`, and `zh-hant` locales to `SUPPORTED_LOCALES`.
+
+#### 🐞 Fixed
+* Fixed some issues with localized annotation resolving.
+
 # 1.4.4 - 12/19/17
 #### 🛠 Internal
 * Updated dependencies.

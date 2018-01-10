@@ -40,9 +40,9 @@ export const SUPPORTED_LOCALES: string[] = [
   'da', // Danish
   'de', // German
   'en', // English
-  'en_GB', // English (Great Britain)
+  'en-gb', // English (Great Britain)
   'es', // Spanish
-  'es_MX', // Spanish (Mexico)
+  'es-mx', // Spanish (Mexico)
   'fr', // French
   'it', // Italian
   'ja', // Japanese
@@ -52,7 +52,7 @@ export const SUPPORTED_LOCALES: string[] = [
   'ru', // Russian
   'th', // Thai
   'zh', // Chinese
-  'zh_Hant', // Chinese (Traditional)
+  'zh-hant', // Chinese (Traditional)
 ];
 
 // Important hexadecimal codepoints when dealing with diversity, sequences, and more.

@@ -174,7 +174,7 @@
     "emoticon": ":>"
   },
   {
-    "annotation": "face savoring food",
+    "annotation": "face savouring food",
     "group": 0,
     "hexcode": "1F60B",
     "order": 11,
@@ -371,7 +371,6 @@
     "emoticon": ":l"
   },
   {
-    "annotation": "face with raised eyebrow",
     "group": 0,
     "hexcode": "1F928",
     "order": 24,
@@ -380,6 +379,7 @@
     ],
     "tags": [
       "distrust",
+      "sceptic",
       "skeptic"
     ],
     "unicode": "🤨"
@@ -514,7 +514,6 @@
     "unicode": "😮"
   },
   {
-    "annotation": "zipper-mouth face",
     "group": 0,
     "hexcode": "1F910",
     "order": 33,
@@ -525,6 +524,7 @@
     "tags": [
       "face",
       "mouth",
+      "zip",
       "zipper"
     ],
     "unicode": "🤐",
@@ -1172,7 +1172,7 @@
     "unicode": "🤒"
   },
   {
-    "annotation": "face with head-bandage",
+    "annotation": "face with head bandage",
     "group": 0,
     "hexcode": "1F915",
     "order": 75,
@@ -1218,7 +1218,6 @@
     "unicode": "🤮"
   },
   {
-    "annotation": "sneezing face",
     "group": 0,
     "hexcode": "1F927",
     "order": 78,
@@ -1226,6 +1225,7 @@
       "sneezing"
     ],
     "tags": [
+      "bless you",
       "face",
       "gesundheit",
       "sneeze"
@@ -1313,7 +1313,6 @@
     "unicode": "🤫"
   },
   {
-    "annotation": "face with hand over mouth",
     "group": 0,
     "hexcode": "1F92D",
     "order": 84,
@@ -1321,6 +1320,7 @@
       "gasp"
     ],
     "tags": [
+      "oops",
       "whoops"
     ],
     "unicode": "🤭"
@@ -1828,7 +1828,6 @@
     ]
   },
   {
-    "annotation": "child",
     "group": 0,
     "hexcode": "1F9D2",
     "order": 117,
@@ -1837,12 +1836,13 @@
     ],
     "tags": [
       "gender-neutral",
+      "toddler",
       "young"
     ],
     "unicode": "🧒",
     "skins": [
       {
-        "annotation": "child: light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F9D2-1F3FB",
         "order": 118,
@@ -1852,7 +1852,7 @@
         "unicode": "🧒🏻"
       },
       {
-        "annotation": "child: medium-light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F9D2-1F3FC",
         "order": 119,
@@ -1862,7 +1862,7 @@
         "unicode": "🧒🏼"
       },
       {
-        "annotation": "child: medium skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F9D2-1F3FD",
         "order": 120,
@@ -1872,7 +1872,7 @@
         "unicode": "🧒🏽"
       },
       {
-        "annotation": "child: medium-dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F9D2-1F3FE",
         "order": 121,
@@ -1882,7 +1882,7 @@
         "unicode": "🧒🏾"
       },
       {
-        "annotation": "child: dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F9D2-1F3FF",
         "order": 122,
@@ -2961,7 +2961,6 @@
     ]
   },
   {
-    "annotation": "man farmer",
     "group": 0,
     "hexcode": "1F468-200D-1F33E",
     "order": 243,
@@ -2971,13 +2970,12 @@
     "tags": [
       "farmer",
       "gardener",
-      "man",
-      "rancher"
+      "man"
     ],
     "unicode": "👨‍🌾",
     "skins": [
       {
-        "annotation": "man farmer: light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F468-1F3FB-200D-1F33E",
         "order": 244,
@@ -2987,7 +2985,7 @@
         "unicode": "👨🏻‍🌾"
       },
       {
-        "annotation": "man farmer: medium-light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F468-1F3FC-200D-1F33E",
         "order": 245,
@@ -2997,7 +2995,7 @@
         "unicode": "👨🏼‍🌾"
       },
       {
-        "annotation": "man farmer: medium skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F468-1F3FD-200D-1F33E",
         "order": 246,
@@ -3007,7 +3005,7 @@
         "unicode": "👨🏽‍🌾"
       },
       {
-        "annotation": "man farmer: medium-dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F468-1F3FE-200D-1F33E",
         "order": 247,
@@ -3017,7 +3015,7 @@
         "unicode": "👨🏾‍🌾"
       },
       {
-        "annotation": "man farmer: dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F468-1F3FF-200D-1F33E",
         "order": 248,
@@ -3029,7 +3027,6 @@
     ]
   },
   {
-    "annotation": "woman farmer",
     "group": 0,
     "hexcode": "1F469-200D-1F33E",
     "order": 249,
@@ -3039,13 +3036,12 @@
     "tags": [
       "farmer",
       "gardener",
-      "rancher",
       "woman"
     ],
     "unicode": "👩‍🌾",
     "skins": [
       {
-        "annotation": "woman farmer: light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F469-1F3FB-200D-1F33E",
         "order": 250,
@@ -3055,7 +3051,7 @@
         "unicode": "👩🏻‍🌾"
       },
       {
-        "annotation": "woman farmer: medium-light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F469-1F3FC-200D-1F33E",
         "order": 251,
@@ -3065,7 +3061,7 @@
         "unicode": "👩🏼‍🌾"
       },
       {
-        "annotation": "woman farmer: medium skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F469-1F3FD-200D-1F33E",
         "order": 252,
@@ -3075,7 +3071,7 @@
         "unicode": "👩🏽‍🌾"
       },
       {
-        "annotation": "woman farmer: medium-dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F469-1F3FE-200D-1F33E",
         "order": 253,
@@ -3085,7 +3081,7 @@
         "unicode": "👩🏾‍🌾"
       },
       {
-        "annotation": "woman farmer: dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F469-1F3FF-200D-1F33E",
         "order": 254,
@@ -4471,7 +4467,6 @@
     ]
   },
   {
-    "annotation": "man firefighter",
     "group": 0,
     "hexcode": "1F468-200D-1F692",
     "order": 387,
@@ -4479,14 +4474,14 @@
       "man_firefighter"
     ],
     "tags": [
+      "fire engine",
       "firefighter",
-      "firetruck",
       "man"
     ],
     "unicode": "👨‍🚒",
     "skins": [
       {
-        "annotation": "man firefighter: light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F468-1F3FB-200D-1F692",
         "order": 388,
@@ -4496,7 +4491,7 @@
         "unicode": "👨🏻‍🚒"
       },
       {
-        "annotation": "man firefighter: medium-light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F468-1F3FC-200D-1F692",
         "order": 389,
@@ -4506,7 +4501,7 @@
         "unicode": "👨🏼‍🚒"
       },
       {
-        "annotation": "man firefighter: medium skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F468-1F3FD-200D-1F692",
         "order": 390,
@@ -4516,7 +4511,7 @@
         "unicode": "👨🏽‍🚒"
       },
       {
-        "annotation": "man firefighter: medium-dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F468-1F3FE-200D-1F692",
         "order": 391,
@@ -4526,7 +4521,7 @@
         "unicode": "👨🏾‍🚒"
       },
       {
-        "annotation": "man firefighter: dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F468-1F3FF-200D-1F692",
         "order": 392,
@@ -4538,7 +4533,6 @@
     ]
   },
   {
-    "annotation": "woman firefighter",
     "group": 0,
     "hexcode": "1F469-200D-1F692",
     "order": 393,
@@ -4546,14 +4540,14 @@
       "woman_firefighter"
     ],
     "tags": [
+      "fire engine",
       "firefighter",
-      "firetruck",
       "woman"
     ],
     "unicode": "👩‍🚒",
     "skins": [
       {
-        "annotation": "woman firefighter: light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F469-1F3FB-200D-1F692",
         "order": 394,
@@ -4563,7 +4557,7 @@
         "unicode": "👩🏻‍🚒"
       },
       {
-        "annotation": "woman firefighter: medium-light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F469-1F3FC-200D-1F692",
         "order": 395,
@@ -4573,7 +4567,7 @@
         "unicode": "👩🏼‍🚒"
       },
       {
-        "annotation": "woman firefighter: medium skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F469-1F3FD-200D-1F692",
         "order": 396,
@@ -4583,7 +4577,7 @@
         "unicode": "👩🏽‍🚒"
       },
       {
-        "annotation": "woman firefighter: medium-dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F469-1F3FE-200D-1F692",
         "order": 397,
@@ -4593,7 +4587,7 @@
         "unicode": "👩🏾‍🚒"
       },
       {
-        "annotation": "woman firefighter: dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F469-1F3FF-200D-1F692",
         "order": 398,
@@ -5207,7 +5201,6 @@
     ]
   },
   {
-    "annotation": "construction worker",
     "group": 0,
     "hexcode": "1F477",
     "order": 494,
@@ -5215,6 +5208,7 @@
       "construction_worker"
     ],
     "tags": [
+      "builder",
       "construction",
       "hat",
       "worker"
@@ -5222,7 +5216,7 @@
     "unicode": "👷",
     "skins": [
       {
-        "annotation": "construction worker: light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F477-1F3FB",
         "order": 495,
@@ -5232,7 +5226,7 @@
         "unicode": "👷🏻"
       },
       {
-        "annotation": "construction worker: medium-light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F477-1F3FC",
         "order": 496,
@@ -5242,7 +5236,7 @@
         "unicode": "👷🏼"
       },
       {
-        "annotation": "construction worker: medium skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F477-1F3FD",
         "order": 497,
@@ -5252,7 +5246,7 @@
         "unicode": "👷🏽"
       },
       {
-        "annotation": "construction worker: medium-dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F477-1F3FE",
         "order": 498,
@@ -5262,7 +5256,7 @@
         "unicode": "👷🏾"
       },
       {
-        "annotation": "construction worker: dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F477-1F3FF",
         "order": 499,
@@ -5274,7 +5268,7 @@
     ]
   },
   {
-    "annotation": "man construction worker",
+    "annotation": "man",
     "group": 0,
     "hexcode": "1F477-200D-2642-FE0F",
     "order": 500,
@@ -5282,14 +5276,14 @@
       "man_construction_worker"
     ],
     "tags": [
+      "builder",
       "construction",
-      "man",
       "worker"
     ],
     "unicode": "👷‍♂️",
     "skins": [
       {
-        "annotation": "man construction worker: light skin tone",
+        "annotation": "man: , light skin tone",
         "group": 0,
         "hexcode": "1F477-1F3FB-200D-2642-FE0F",
         "order": 502,
@@ -5299,7 +5293,7 @@
         "unicode": "👷🏻‍♂️"
       },
       {
-        "annotation": "man construction worker: medium-light skin tone",
+        "annotation": "man: , medium-light skin tone",
         "group": 0,
         "hexcode": "1F477-1F3FC-200D-2642-FE0F",
         "order": 504,
@@ -5309,7 +5303,7 @@
         "unicode": "👷🏼‍♂️"
       },
       {
-        "annotation": "man construction worker: medium skin tone",
+        "annotation": "man: , medium skin tone",
         "group": 0,
         "hexcode": "1F477-1F3FD-200D-2642-FE0F",
         "order": 506,
@@ -5319,7 +5313,7 @@
         "unicode": "👷🏽‍♂️"
       },
       {
-        "annotation": "man construction worker: medium-dark skin tone",
+        "annotation": "man: , medium-dark skin tone",
         "group": 0,
         "hexcode": "1F477-1F3FE-200D-2642-FE0F",
         "order": 508,
@@ -5329,7 +5323,7 @@
         "unicode": "👷🏾‍♂️"
       },
       {
-        "annotation": "man construction worker: dark skin tone",
+        "annotation": "man: , dark skin tone",
         "group": 0,
         "hexcode": "1F477-1F3FF-200D-2642-FE0F",
         "order": 510,
@@ -5341,7 +5335,7 @@
     ]
   },
   {
-    "annotation": "woman construction worker",
+    "annotation": "woman",
     "group": 0,
     "hexcode": "1F477-200D-2640-FE0F",
     "order": 512,
@@ -5349,14 +5343,14 @@
       "woman_construction_worker"
     ],
     "tags": [
+      "builder",
       "construction",
-      "woman",
       "worker"
     ],
     "unicode": "👷‍♀️",
     "skins": [
       {
-        "annotation": "woman construction worker: light skin tone",
+        "annotation": "woman: , light skin tone",
         "group": 0,
         "hexcode": "1F477-1F3FB-200D-2640-FE0F",
         "order": 514,
@@ -5366,7 +5360,7 @@
         "unicode": "👷🏻‍♀️"
       },
       {
-        "annotation": "woman construction worker: medium-light skin tone",
+        "annotation": "woman: , medium-light skin tone",
         "group": 0,
         "hexcode": "1F477-1F3FC-200D-2640-FE0F",
         "order": 516,
@@ -5376,7 +5370,7 @@
         "unicode": "👷🏼‍♀️"
       },
       {
-        "annotation": "woman construction worker: medium skin tone",
+        "annotation": "woman: , medium skin tone",
         "group": 0,
         "hexcode": "1F477-1F3FD-200D-2640-FE0F",
         "order": 518,
@@ -5386,7 +5380,7 @@
         "unicode": "👷🏽‍♀️"
       },
       {
-        "annotation": "woman construction worker: medium-dark skin tone",
+        "annotation": "woman: , medium-dark skin tone",
         "group": 0,
         "hexcode": "1F477-1F3FE-200D-2640-FE0F",
         "order": 520,
@@ -5396,7 +5390,7 @@
         "unicode": "👷🏾‍♀️"
       },
       {
-        "annotation": "woman construction worker: dark skin tone",
+        "annotation": "woman: , dark skin tone",
         "group": 0,
         "hexcode": "1F477-1F3FF-200D-2640-FE0F",
         "order": 522,
@@ -6334,7 +6328,7 @@
     ]
   },
   {
-    "annotation": "breast-feeding",
+    "annotation": "breastfeeding",
     "group": 0,
     "hexcode": "1F931",
     "order": 632,
@@ -6349,7 +6343,7 @@
     "unicode": "🤱",
     "skins": [
       {
-        "annotation": "breast-feeding: light skin tone",
+        "annotation": "breastfeeding: light skin tone",
         "group": 0,
         "hexcode": "1F931-1F3FB",
         "order": 633,
@@ -6359,7 +6353,7 @@
         "unicode": "🤱🏻"
       },
       {
-        "annotation": "breast-feeding: medium-light skin tone",
+        "annotation": "breastfeeding: medium-light skin tone",
         "group": 0,
         "hexcode": "1F931-1F3FC",
         "order": 634,
@@ -6369,7 +6363,7 @@
         "unicode": "🤱🏼"
       },
       {
-        "annotation": "breast-feeding: medium skin tone",
+        "annotation": "breastfeeding: medium skin tone",
         "group": 0,
         "hexcode": "1F931-1F3FD",
         "order": 635,
@@ -6379,7 +6373,7 @@
         "unicode": "🤱🏽"
       },
       {
-        "annotation": "breast-feeding: medium-dark skin tone",
+        "annotation": "breastfeeding: medium-dark skin tone",
         "group": 0,
         "hexcode": "1F931-1F3FE",
         "order": 636,
@@ -6389,7 +6383,7 @@
         "unicode": "🤱🏾"
       },
       {
-        "annotation": "breast-feeding: dark skin tone",
+        "annotation": "breastfeeding: dark skin tone",
         "group": 0,
         "hexcode": "1F931-1F3FF",
         "order": 637,
@@ -6540,7 +6534,6 @@
     ]
   },
   {
-    "annotation": "Mrs. Claus",
     "group": 0,
     "hexcode": "1F936",
     "order": 650,
@@ -6552,8 +6545,7 @@
       "christmas",
       "claus",
       "mother",
-      "mrs.",
-      "mrs. claus"
+      "mrs"
     ],
     "unicode": "🤶",
     "skins": [
@@ -8973,7 +8965,7 @@
     ]
   },
   {
-    "annotation": "man bowing",
+    "annotation": "man: person bowing",
     "group": 0,
     "hexcode": "1F647-200D-2642-FE0F",
     "order": 1002,
@@ -8983,7 +8975,7 @@
     "tags": [
       "apology",
       "bowing",
-      "favor",
+      "favour",
       "gesture",
       "man",
       "sorry"
@@ -8991,7 +8983,7 @@
     "unicode": "🙇‍♂️",
     "skins": [
       {
-        "annotation": "man bowing: light skin tone",
+        "annotation": "man: person bowing, light skin tone",
         "group": 0,
         "hexcode": "1F647-1F3FB-200D-2642-FE0F",
         "order": 1004,
@@ -9001,7 +8993,7 @@
         "unicode": "🙇🏻‍♂️"
       },
       {
-        "annotation": "man bowing: medium-light skin tone",
+        "annotation": "man: person bowing, medium-light skin tone",
         "group": 0,
         "hexcode": "1F647-1F3FC-200D-2642-FE0F",
         "order": 1006,
@@ -9011,7 +9003,7 @@
         "unicode": "🙇🏼‍♂️"
       },
       {
-        "annotation": "man bowing: medium skin tone",
+        "annotation": "man: person bowing, medium skin tone",
         "group": 0,
         "hexcode": "1F647-1F3FD-200D-2642-FE0F",
         "order": 1008,
@@ -9021,7 +9013,7 @@
         "unicode": "🙇🏽‍♂️"
       },
       {
-        "annotation": "man bowing: medium-dark skin tone",
+        "annotation": "man: person bowing, medium-dark skin tone",
         "group": 0,
         "hexcode": "1F647-1F3FE-200D-2642-FE0F",
         "order": 1010,
@@ -9031,7 +9023,7 @@
         "unicode": "🙇🏾‍♂️"
       },
       {
-        "annotation": "man bowing: dark skin tone",
+        "annotation": "man: person bowing, dark skin tone",
         "group": 0,
         "hexcode": "1F647-1F3FF-200D-2642-FE0F",
         "order": 1012,
@@ -9043,7 +9035,7 @@
     ]
   },
   {
-    "annotation": "woman bowing",
+    "annotation": "woman: person bowing",
     "group": 0,
     "hexcode": "1F647-200D-2640-FE0F",
     "order": 1014,
@@ -9053,7 +9045,7 @@
     "tags": [
       "apology",
       "bowing",
-      "favor",
+      "favour",
       "gesture",
       "sorry",
       "woman"
@@ -9061,7 +9053,7 @@
     "unicode": "🙇‍♀️",
     "skins": [
       {
-        "annotation": "woman bowing: light skin tone",
+        "annotation": "woman: person bowing, light skin tone",
         "group": 0,
         "hexcode": "1F647-1F3FB-200D-2640-FE0F",
         "order": 1016,
@@ -9071,7 +9063,7 @@
         "unicode": "🙇🏻‍♀️"
       },
       {
-        "annotation": "woman bowing: medium-light skin tone",
+        "annotation": "woman: person bowing, medium-light skin tone",
         "group": 0,
         "hexcode": "1F647-1F3FC-200D-2640-FE0F",
         "order": 1018,
@@ -9081,7 +9073,7 @@
         "unicode": "🙇🏼‍♀️"
       },
       {
-        "annotation": "woman bowing: medium skin tone",
+        "annotation": "woman: person bowing, medium skin tone",
         "group": 0,
         "hexcode": "1F647-1F3FD-200D-2640-FE0F",
         "order": 1020,
@@ -9091,7 +9083,7 @@
         "unicode": "🙇🏽‍♀️"
       },
       {
-        "annotation": "woman bowing: medium-dark skin tone",
+        "annotation": "woman: person bowing, medium-dark skin tone",
         "group": 0,
         "hexcode": "1F647-1F3FE-200D-2640-FE0F",
         "order": 1022,
@@ -9101,7 +9093,7 @@
         "unicode": "🙇🏾‍♀️"
       },
       {
-        "annotation": "woman bowing: dark skin tone",
+        "annotation": "woman: person bowing, dark skin tone",
         "group": 0,
         "hexcode": "1F647-1F3FF-200D-2640-FE0F",
         "order": 1024,
@@ -9724,7 +9716,6 @@
     ]
   },
   {
-    "annotation": "person getting haircut",
     "group": 0,
     "hexcode": "1F487",
     "order": 1116,
@@ -9735,12 +9726,13 @@
       "barber",
       "beauty",
       "haircut",
-      "parlor"
+      "hairdresser",
+      "parlour"
     ],
     "unicode": "💇",
     "skins": [
       {
-        "annotation": "person getting haircut: light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F487-1F3FB",
         "order": 1117,
@@ -9750,7 +9742,7 @@
         "unicode": "💇🏻"
       },
       {
-        "annotation": "person getting haircut: medium-light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F487-1F3FC",
         "order": 1118,
@@ -9760,7 +9752,7 @@
         "unicode": "💇🏼"
       },
       {
-        "annotation": "person getting haircut: medium skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F487-1F3FD",
         "order": 1119,
@@ -9770,7 +9762,7 @@
         "unicode": "💇🏽"
       },
       {
-        "annotation": "person getting haircut: medium-dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F487-1F3FE",
         "order": 1120,
@@ -9780,7 +9772,7 @@
         "unicode": "💇🏾"
       },
       {
-        "annotation": "person getting haircut: dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F487-1F3FF",
         "order": 1121,
@@ -11900,7 +11892,6 @@
     ]
   },
   {
-    "annotation": "person rowing boat",
     "group": 0,
     "hexcode": "1F6A3",
     "order": 1416,
@@ -11909,12 +11900,13 @@
     ],
     "tags": [
       "boat",
-      "rowboat"
+      "rowboat",
+      "rowing boat"
     ],
     "unicode": "🚣",
     "skins": [
       {
-        "annotation": "person rowing boat: light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F6A3-1F3FB",
         "order": 1417,
@@ -11924,7 +11916,7 @@
         "unicode": "🚣🏻"
       },
       {
-        "annotation": "person rowing boat: medium-light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F6A3-1F3FC",
         "order": 1418,
@@ -11934,7 +11926,7 @@
         "unicode": "🚣🏼"
       },
       {
-        "annotation": "person rowing boat: medium skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F6A3-1F3FD",
         "order": 1419,
@@ -11944,7 +11936,7 @@
         "unicode": "🚣🏽"
       },
       {
-        "annotation": "person rowing boat: medium-dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F6A3-1F3FE",
         "order": 1420,
@@ -11954,7 +11946,7 @@
         "unicode": "🚣🏾"
       },
       {
-        "annotation": "person rowing boat: dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F6A3-1F3FF",
         "order": 1421,
@@ -11966,7 +11958,7 @@
     ]
   },
   {
-    "annotation": "man rowing boat",
+    "annotation": "man",
     "group": 0,
     "hexcode": "1F6A3-200D-2642-FE0F",
     "order": 1422,
@@ -11975,13 +11967,13 @@
     ],
     "tags": [
       "boat",
-      "man",
-      "rowboat"
+      "rowboat",
+      "rowing boat"
     ],
     "unicode": "🚣‍♂️",
     "skins": [
       {
-        "annotation": "man rowing boat: light skin tone",
+        "annotation": "man: , light skin tone",
         "group": 0,
         "hexcode": "1F6A3-1F3FB-200D-2642-FE0F",
         "order": 1424,
@@ -11991,7 +11983,7 @@
         "unicode": "🚣🏻‍♂️"
       },
       {
-        "annotation": "man rowing boat: medium-light skin tone",
+        "annotation": "man: , medium-light skin tone",
         "group": 0,
         "hexcode": "1F6A3-1F3FC-200D-2642-FE0F",
         "order": 1426,
@@ -12001,7 +11993,7 @@
         "unicode": "🚣🏼‍♂️"
       },
       {
-        "annotation": "man rowing boat: medium skin tone",
+        "annotation": "man: , medium skin tone",
         "group": 0,
         "hexcode": "1F6A3-1F3FD-200D-2642-FE0F",
         "order": 1428,
@@ -12011,7 +12003,7 @@
         "unicode": "🚣🏽‍♂️"
       },
       {
-        "annotation": "man rowing boat: medium-dark skin tone",
+        "annotation": "man: , medium-dark skin tone",
         "group": 0,
         "hexcode": "1F6A3-1F3FE-200D-2642-FE0F",
         "order": 1430,
@@ -12021,7 +12013,7 @@
         "unicode": "🚣🏾‍♂️"
       },
       {
-        "annotation": "man rowing boat: dark skin tone",
+        "annotation": "man: , dark skin tone",
         "group": 0,
         "hexcode": "1F6A3-1F3FF-200D-2642-FE0F",
         "order": 1432,
@@ -12033,7 +12025,7 @@
     ]
   },
   {
-    "annotation": "woman rowing boat",
+    "annotation": "woman",
     "group": 0,
     "hexcode": "1F6A3-200D-2640-FE0F",
     "order": 1434,
@@ -12043,12 +12035,12 @@
     "tags": [
       "boat",
       "rowboat",
-      "woman"
+      "rowing boat"
     ],
     "unicode": "🚣‍♀️",
     "skins": [
       {
-        "annotation": "woman rowing boat: light skin tone",
+        "annotation": "woman: , light skin tone",
         "group": 0,
         "hexcode": "1F6A3-1F3FB-200D-2640-FE0F",
         "order": 1436,
@@ -12058,7 +12050,7 @@
         "unicode": "🚣🏻‍♀️"
       },
       {
-        "annotation": "woman rowing boat: medium-light skin tone",
+        "annotation": "woman: , medium-light skin tone",
         "group": 0,
         "hexcode": "1F6A3-1F3FC-200D-2640-FE0F",
         "order": 1438,
@@ -12068,7 +12060,7 @@
         "unicode": "🚣🏼‍♀️"
       },
       {
-        "annotation": "woman rowing boat: medium skin tone",
+        "annotation": "woman: , medium skin tone",
         "group": 0,
         "hexcode": "1F6A3-1F3FD-200D-2640-FE0F",
         "order": 1440,
@@ -12078,7 +12070,7 @@
         "unicode": "🚣🏽‍♀️"
       },
       {
-        "annotation": "woman rowing boat: medium-dark skin tone",
+        "annotation": "woman: , medium-dark skin tone",
         "group": 0,
         "hexcode": "1F6A3-1F3FE-200D-2640-FE0F",
         "order": 1442,
@@ -12088,7 +12080,7 @@
         "unicode": "🚣🏾‍♀️"
       },
       {
-        "annotation": "woman rowing boat: dark skin tone",
+        "annotation": "woman: , dark skin tone",
         "group": 0,
         "hexcode": "1F6A3-1F3FF-200D-2640-FE0F",
         "order": 1444,
@@ -12560,7 +12552,7 @@
     ]
   },
   {
-    "annotation": "man lifting weights",
+    "annotation": "man: person lifting weights",
     "group": 0,
     "hexcode": "1F3CB-FE0F-200D-2642-FE0F",
     "order": 1518,
@@ -12569,12 +12561,12 @@
     ],
     "tags": [
       "man",
-      "weight lifter"
+      "weightlifter"
     ],
     "unicode": "🏋️‍♂️",
     "skins": [
       {
-        "annotation": "man lifting weights: light skin tone",
+        "annotation": "man: person lifting weights, light skin tone",
         "group": 0,
         "hexcode": "1F3CB-1F3FB-200D-2642-FE0F",
         "order": 1522,
@@ -12584,7 +12576,7 @@
         "unicode": "🏋🏻‍♂️"
       },
       {
-        "annotation": "man lifting weights: medium-light skin tone",
+        "annotation": "man: person lifting weights, medium-light skin tone",
         "group": 0,
         "hexcode": "1F3CB-1F3FC-200D-2642-FE0F",
         "order": 1524,
@@ -12594,7 +12586,7 @@
         "unicode": "🏋🏼‍♂️"
       },
       {
-        "annotation": "man lifting weights: medium skin tone",
+        "annotation": "man: person lifting weights, medium skin tone",
         "group": 0,
         "hexcode": "1F3CB-1F3FD-200D-2642-FE0F",
         "order": 1526,
@@ -12604,7 +12596,7 @@
         "unicode": "🏋🏽‍♂️"
       },
       {
-        "annotation": "man lifting weights: medium-dark skin tone",
+        "annotation": "man: person lifting weights, medium-dark skin tone",
         "group": 0,
         "hexcode": "1F3CB-1F3FE-200D-2642-FE0F",
         "order": 1528,
@@ -12614,7 +12606,7 @@
         "unicode": "🏋🏾‍♂️"
       },
       {
-        "annotation": "man lifting weights: dark skin tone",
+        "annotation": "man: person lifting weights, dark skin tone",
         "group": 0,
         "hexcode": "1F3CB-1F3FF-200D-2642-FE0F",
         "order": 1530,
@@ -12626,7 +12618,7 @@
     ]
   },
   {
-    "annotation": "woman lifting weights",
+    "annotation": "woman: person lifting weights",
     "group": 0,
     "hexcode": "1F3CB-FE0F-200D-2640-FE0F",
     "order": 1532,
@@ -12634,13 +12626,13 @@
       "woman_lifting_weights"
     ],
     "tags": [
-      "weight lifter",
+      "weightlifter",
       "woman"
     ],
     "unicode": "🏋️‍♀️",
     "skins": [
       {
-        "annotation": "woman lifting weights: light skin tone",
+        "annotation": "woman: person lifting weights, light skin tone",
         "group": 0,
         "hexcode": "1F3CB-1F3FB-200D-2640-FE0F",
         "order": 1536,
@@ -12650,7 +12642,7 @@
         "unicode": "🏋🏻‍♀️"
       },
       {
-        "annotation": "woman lifting weights: medium-light skin tone",
+        "annotation": "woman: person lifting weights, medium-light skin tone",
         "group": 0,
         "hexcode": "1F3CB-1F3FC-200D-2640-FE0F",
         "order": 1538,
@@ -12660,7 +12652,7 @@
         "unicode": "🏋🏼‍♀️"
       },
       {
-        "annotation": "woman lifting weights: medium skin tone",
+        "annotation": "woman: person lifting weights, medium skin tone",
         "group": 0,
         "hexcode": "1F3CB-1F3FD-200D-2640-FE0F",
         "order": 1540,
@@ -12670,7 +12662,7 @@
         "unicode": "🏋🏽‍♀️"
       },
       {
-        "annotation": "woman lifting weights: medium-dark skin tone",
+        "annotation": "woman: person lifting weights, medium-dark skin tone",
         "group": 0,
         "hexcode": "1F3CB-1F3FE-200D-2640-FE0F",
         "order": 1542,
@@ -12680,7 +12672,7 @@
         "unicode": "🏋🏾‍♀️"
       },
       {
-        "annotation": "woman lifting weights: dark skin tone",
+        "annotation": "woman: person lifting weights, dark skin tone",
         "group": 0,
         "hexcode": "1F3CB-1F3FF-200D-2640-FE0F",
         "order": 1544,
@@ -13117,7 +13109,6 @@
     "unicode": "🏎️"
   },
   {
-    "annotation": "motorcycle",
     "group": 0,
     "hexcode": "1F3CD",
     "order": 1609,
@@ -13125,6 +13116,7 @@
       "motorcycle"
     ],
     "tags": [
+      "motorbike",
       "racing"
     ],
     "unicode": "🏍️"
@@ -15295,7 +15287,6 @@
     ]
   },
   {
-    "annotation": "sign of the horns",
     "group": 0,
     "hexcode": "1F918",
     "order": 1846,
@@ -15306,13 +15297,13 @@
       "finger",
       "hand",
       "horns",
-      "rock-on"
+      "rock on"
     ],
     "unicode": "🤘",
     "emoticon": "\\m/",
     "skins": [
       {
-        "annotation": "sign of the horns: light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F918-1F3FB",
         "order": 1847,
@@ -15322,7 +15313,7 @@
         "unicode": "🤘🏻"
       },
       {
-        "annotation": "sign of the horns: medium-light skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F918-1F3FC",
         "order": 1848,
@@ -15332,7 +15323,7 @@
         "unicode": "🤘🏼"
       },
       {
-        "annotation": "sign of the horns: medium skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F918-1F3FD",
         "order": 1849,
@@ -15342,7 +15333,7 @@
         "unicode": "🤘🏽"
       },
       {
-        "annotation": "sign of the horns: medium-dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F918-1F3FE",
         "order": 1850,
@@ -15352,7 +15343,7 @@
         "unicode": "🤘🏾"
       },
       {
-        "annotation": "sign of the horns: dark skin tone",
+        "annotation": "",
         "group": 0,
         "hexcode": "1F918-1F3FF",
         "order": 1851,
@@ -15364,7 +15355,7 @@
     ]
   },
   {
-    "annotation": "call me hand",
+    "annotation": "call-me hand",
     "group": 0,
     "hexcode": "1F919",
     "order": 1852,
@@ -15378,7 +15369,7 @@
     "unicode": "🤙",
     "skins": [
       {
-        "annotation": "call me hand: light skin tone",
+        "annotation": "call-me hand: light skin tone",
         "group": 0,
         "hexcode": "1F919-1F3FB",
         "order": 1853,
@@ -15388,7 +15379,7 @@
         "unicode": "🤙🏻"
       },
       {
-        "annotation": "call me hand: medium-light skin tone",
+        "annotation": "call-me hand: medium-light skin tone",
         "group": 0,
         "hexcode": "1F919-1F3FC",
         "order": 1854,
@@ -15398,7 +15389,7 @@
         "unicode": "🤙🏼"
       },
       {
-        "annotation": "call me hand: medium skin tone",
+        "annotation": "call-me hand: medium skin tone",
         "group": 0,
         "hexcode": "1F919-1F3FD",
         "order": 1855,
@@ -15408,7 +15399,7 @@
         "unicode": "🤙🏽"
       },
       {
-        "annotation": "call me hand: medium-dark skin tone",
+        "annotation": "call-me hand: medium-dark skin tone",
         "group": 0,
         "hexcode": "1F919-1F3FE",
         "order": 1856,
@@ -15418,7 +15409,7 @@
         "unicode": "🤙🏾"
       },
       {
-        "annotation": "call me hand: dark skin tone",
+        "annotation": "call-me hand: dark skin tone",
         "group": 0,
         "hexcode": "1F919-1F3FF",
         "order": 1857,
@@ -17338,7 +17329,6 @@
     "unicode": "💫"
   },
   {
-    "annotation": "speech balloon",
     "group": 0,
     "hexcode": "1F4AC",
     "order": 2026,
@@ -17349,13 +17339,12 @@
       "balloon",
       "bubble",
       "comic",
-      "dialog",
+      "dialogue",
       "speech"
     ],
     "unicode": "💬"
   },
   {
-    "annotation": "left speech bubble",
     "group": 0,
     "hexcode": "1F5E8",
     "order": 2028,
@@ -17363,7 +17352,7 @@
       "left_speech"
     ],
     "tags": [
-      "dialog",
+      "dialogue",
       "speech"
     ],
     "unicode": "🗨️"
@@ -17385,7 +17374,7 @@
     "unicode": "🗯️"
   },
   {
-    "annotation": "thought balloon",
+    "annotation": "thought bubble",
     "group": 0,
     "hexcode": "1F4AD",
     "order": 2031,
@@ -17414,7 +17403,6 @@
     "unicode": "🕳️"
   },
   {
-    "annotation": "glasses",
     "group": 0,
     "hexcode": "1F453",
     "order": 2034,
@@ -17425,7 +17413,9 @@
       "clothing",
       "eye",
       "eyeglasses",
-      "eyewear"
+      "eyewear",
+      "specs",
+      "spectacles"
     ],
     "unicode": "👓️"
   },
@@ -17460,7 +17450,6 @@
     "unicode": "👔"
   },
   {
-    "annotation": "t-shirt",
     "group": 0,
     "hexcode": "1F455",
     "order": 2038,
@@ -17470,12 +17459,12 @@
     "tags": [
       "clothing",
       "shirt",
+      "t-shirt",
       "tshirt"
     ],
     "unicode": "👕"
   },
   {
-    "annotation": "jeans",
     "group": 0,
     "hexcode": "1F456",
     "order": 2039,
@@ -17484,7 +17473,6 @@
     ],
     "tags": [
       "clothing",
-      "pants",
       "trousers"
     ],
     "unicode": "👖"
@@ -17657,7 +17645,6 @@
     "unicode": "🛍️"
   },
   {
-    "annotation": "school backpack",
     "group": 0,
     "hexcode": "1F392",
     "order": 2053,
@@ -17666,6 +17653,7 @@
     ],
     "tags": [
       "bag",
+      "rucksack",
       "satchel",
       "school"
     ],
@@ -17688,7 +17676,6 @@
     "unicode": "👞"
   },
   {
-    "annotation": "running shoe",
     "group": 0,
     "hexcode": "1F45F",
     "order": 2055,
@@ -17700,12 +17687,11 @@
       "athletic",
       "clothing",
       "shoe",
-      "sneaker"
+      "trainer"
     ],
     "unicode": "👟"
   },
   {
-    "annotation": "high-heeled shoe",
     "group": 0,
     "hexcode": "1F460",
     "order": 2056,
@@ -17716,6 +17702,7 @@
       "clothing",
       "heel",
       "shoe",
+      "stiletto",
       "woman"
     ],
     "unicode": "👠"
@@ -17799,7 +17786,6 @@
     "unicode": "🎩"
   },
   {
-    "annotation": "graduation cap",
     "group": 0,
     "hexcode": "1F393",
     "order": 2062,
@@ -17811,7 +17797,8 @@
       "celebration",
       "clothing",
       "graduation",
-      "hat"
+      "hat",
+      "mortarboard"
     ],
     "unicode": "🎓️"
   },
@@ -18596,7 +18583,7 @@
     "unicode": "🐔"
   },
   {
-    "annotation": "rooster",
+    "annotation": "cockerel",
     "group": 1,
     "hexcode": "1F413",
     "order": 2121,
@@ -18604,7 +18591,8 @@
       "rooster"
     ],
     "tags": [
-      "bird"
+      "bird",
+      "rooster"
     ],
     "unicode": "🐓"
   },
@@ -19014,7 +19002,6 @@
     "unicode": "🦐"
   },
   {
-    "annotation": "squid",
     "group": 1,
     "hexcode": "1F991",
     "order": 2152,
@@ -19023,7 +19010,8 @@
     ],
     "tags": [
       "food",
-      "molusc"
+      "mollusc",
+      "squid"
     ],
     "unicode": "🦑"
   },
@@ -19095,7 +19083,7 @@
     "unicode": "🐝"
   },
   {
-    "annotation": "lady beetle",
+    "annotation": "ladybird",
     "group": 1,
     "hexcode": "1F41E",
     "order": 2158,
@@ -19105,7 +19093,7 @@
     "tags": [
       "beetle",
       "insect",
-      "ladybird",
+      "ladybeetle",
       "ladybug"
     ],
     "unicode": "🐞"
@@ -19137,7 +19125,7 @@
     "unicode": "🕷️"
   },
   {
-    "annotation": "spider web",
+    "annotation": "spider’s web",
     "group": 1,
     "hexcode": "1F578",
     "order": 2163,
@@ -19368,7 +19356,7 @@
     "unicode": "🌵"
   },
   {
-    "annotation": "sheaf of rice",
+    "annotation": "ear of rice",
     "group": 1,
     "hexcode": "1F33E",
     "order": 2181,
@@ -19376,9 +19364,9 @@
       "ear_of_rice"
     ],
     "tags": [
-      "ear",
       "grain",
-      "rice"
+      "rice",
+      "sheaf"
     ],
     "unicode": "🌾"
   },
@@ -19409,7 +19397,7 @@
     "unicode": "☘️"
   },
   {
-    "annotation": "four leaf clover",
+    "annotation": "four-leaf clover",
     "group": 1,
     "hexcode": "1F340",
     "order": 2185,
@@ -19765,7 +19753,7 @@
     "unicode": "🌽"
   },
   {
-    "annotation": "hot pepper",
+    "annotation": "chilli",
     "group": 2,
     "hexcode": "1F336",
     "order": 2211,
@@ -19878,7 +19866,7 @@
     "unicode": "🥐"
   },
   {
-    "annotation": "baguette bread",
+    "annotation": "baguette",
     "group": 2,
     "hexcode": "1F956",
     "order": 2219,
@@ -19886,7 +19874,6 @@
       "french_bread"
     ],
     "tags": [
-      "baguette",
       "bread",
       "food",
       "french"
@@ -19996,7 +19983,7 @@
     "unicode": "🥓"
   },
   {
-    "annotation": "hamburger",
+    "annotation": "beefburger",
     "group": 2,
     "hexcode": "1F354",
     "order": 2227,
@@ -20009,7 +19996,7 @@
     "unicode": "🍔"
   },
   {
-    "annotation": "french fries",
+    "annotation": "chips",
     "group": 2,
     "hexcode": "1F35F",
     "order": 2228,
@@ -20369,7 +20356,7 @@
     "unicode": "🍣"
   },
   {
-    "annotation": "fried shrimp",
+    "annotation": "fried prawn",
     "group": 2,
     "hexcode": "1F364",
     "order": 2253,
@@ -20526,7 +20513,7 @@
     "unicode": "🍩"
   },
   {
-    "annotation": "cookie",
+    "annotation": "biscuit",
     "group": 2,
     "hexcode": "1F36A",
     "order": 2263,
@@ -20558,7 +20545,7 @@
     "unicode": "🎂"
   },
   {
-    "annotation": "shortcake",
+    "annotation": "cake",
     "group": 2,
     "hexcode": "1F370",
     "order": 2265,
@@ -20566,7 +20553,6 @@
       "cake"
     ],
     "tags": [
-      "cake",
       "dessert",
       "pastry",
       "slice",
@@ -20605,7 +20591,7 @@
     "unicode": "🍫"
   },
   {
-    "annotation": "candy",
+    "annotation": "sweets",
     "group": 2,
     "hexcode": "1F36C",
     "order": 2268,
@@ -20634,7 +20620,7 @@
     "unicode": "🍭"
   },
   {
-    "annotation": "custard",
+    "annotation": "egg custard",
     "group": 2,
     "hexcode": "1F36E",
     "order": 2270,
@@ -20906,7 +20892,7 @@
     "unicode": "🥢"
   },
   {
-    "annotation": "fork and knife with plate",
+    "annotation": "knife and fork with plate",
     "group": 2,
     "hexcode": "1F37D",
     "order": 2288,
@@ -20922,7 +20908,7 @@
     "unicode": "🍽️"
   },
   {
-    "annotation": "fork and knife",
+    "annotation": "knife and fork",
     "group": 2,
     "hexcode": "1F374",
     "order": 2289,
@@ -21800,7 +21786,7 @@
     "unicode": "🎡"
   },
   {
-    "annotation": "roller coaster",
+    "annotation": "rollercoaster",
     "group": 3,
     "hexcode": "1F3A2",
     "order": 2366,
@@ -21815,7 +21801,7 @@
     "unicode": "🎢"
   },
   {
-    "annotation": "barber pole",
+    "annotation": "barber’s pole",
     "group": 3,
     "hexcode": "1F488",
     "order": 2367,
@@ -21925,7 +21911,7 @@
     "unicode": "🚂"
   },
   {
-    "annotation": "railway car",
+    "annotation": "railway carriage",
     "group": 3,
     "hexcode": "1F683",
     "order": 2375,
@@ -22225,7 +22211,7 @@
     "unicode": "🚖"
   },
   {
-    "annotation": "automobile",
+    "annotation": "car",
     "group": 3,
     "hexcode": "1F697",
     "order": 2396,
@@ -22238,7 +22224,7 @@
     "unicode": "🚗"
   },
   {
-    "annotation": "oncoming automobile",
+    "annotation": "oncoming car",
     "group": 3,
     "hexcode": "1F698",
     "order": 2397,
@@ -22267,7 +22253,7 @@
     "unicode": "🚙"
   },
   {
-    "annotation": "delivery truck",
+    "annotation": "delivery van",
     "group": 3,
     "hexcode": "1F69A",
     "order": 2399,
@@ -22813,7 +22799,7 @@
     "unicode": "🛏️"
   },
   {
-    "annotation": "couch and lamp",
+    "annotation": "sofa and lamp",
     "group": 3,
     "hexcode": "1F6CB",
     "order": 2448,
@@ -24054,7 +24040,7 @@
     "unicode": "🌊"
   },
   {
-    "annotation": "jack-o-lantern",
+    "annotation": "jack-o’-lantern",
     "group": 4,
     "hexcode": "1F383",
     "order": 2549,
@@ -24690,7 +24676,7 @@
     "unicode": "🥅"
   },
   {
-    "annotation": "direct hit",
+    "annotation": "bullseye",
     "group": 4,
     "hexcode": "1F3AF",
     "order": 2594,
@@ -24699,7 +24685,6 @@
     ],
     "tags": [
       "bull",
-      "bullseye",
       "dart",
       "eye",
       "game",
@@ -24781,7 +24766,7 @@
     "unicode": "🎿"
   },
   {
-    "annotation": "sled",
+    "annotation": "sledge",
     "group": 4,
     "hexcode": "1F6F7",
     "order": 2601,
@@ -24789,7 +24774,6 @@
       "sled"
     ],
     "tags": [
-      "sledge",
       "sleigh"
     ],
     "unicode": "🛷"
@@ -24837,7 +24821,7 @@
     "unicode": "🕹️"
   },
   {
-    "annotation": "game die",
+    "annotation": "game dice",
     "group": 4,
     "hexcode": "1F3B2",
     "order": 2606,
@@ -25012,7 +24996,7 @@
     "unicode": "🔊"
   },
   {
-    "annotation": "loudspeaker",
+    "annotation": "loudhailer",
     "group": 5,
     "hexcode": "1F4E2",
     "order": 2622,
@@ -25616,7 +25600,7 @@
     "unicode": "📽️"
   },
   {
-    "annotation": "clapper board",
+    "annotation": "clapperboard",
     "group": 5,
     "hexcode": "1F3AC",
     "order": 2674,
@@ -25807,7 +25791,7 @@
     "unicode": "💡"
   },
   {
-    "annotation": "flashlight",
+    "annotation": "torch",
     "group": 5,
     "hexcode": "1F526",
     "order": 2688,
@@ -25817,8 +25801,7 @@
     "tags": [
       "electric",
       "light",
-      "tool",
-      "torch"
+      "tool"
     ],
     "unicode": "🔦"
   },
@@ -26274,7 +26257,7 @@
     "unicode": "✉️"
   },
   {
-    "annotation": "e-mail",
+    "annotation": "email",
     "group": 5,
     "hexcode": "1F4E7",
     "order": 2721,
@@ -26282,7 +26265,6 @@
       "email"
     ],
     "tags": [
-      "email",
       "letter",
       "mail"
     ],
@@ -26824,7 +26806,7 @@
     "unicode": "📏"
   },
   {
-    "annotation": "triangular ruler",
+    "annotation": "set square",
     "group": 5,
     "hexcode": "1F4D0",
     "order": 2769,
@@ -27441,7 +27423,7 @@
     "unicode": "♿️"
   },
   {
-    "annotation": "men’s room",
+    "annotation": "men’s toilet",
     "group": 6,
     "hexcode": "1F6B9",
     "order": 2829,
@@ -27457,7 +27439,7 @@
     "unicode": "🚹️"
   },
   {
-    "annotation": "women’s room",
+    "annotation": "women’s toilet",
     "group": 6,
     "hexcode": "1F6BA",
     "order": 2830,
@@ -27473,7 +27455,7 @@
     "unicode": "🚺️"
   },
   {
-    "annotation": "restroom",
+    "annotation": "toilets",
     "group": 6,
     "hexcode": "1F6BB",
     "order": 2831,
@@ -27483,6 +27465,7 @@
     ],
     "tags": [
       "lavatory",
+      "restroom",
       "wc"
     ],
     "unicode": "🚻"
@@ -28993,7 +28976,7 @@
     "unicode": "⭕️"
   },
   {
-    "annotation": "white heavy check mark",
+    "annotation": "white heavy tick",
     "group": 6,
     "hexcode": "2705",
     "order": 2970,
@@ -29007,7 +28990,7 @@
     "unicode": "✅"
   },
   {
-    "annotation": "ballot box with check",
+    "annotation": "ballot box with tick",
     "group": 6,
     "hexcode": "2611",
     "order": 2972,
@@ -29022,7 +29005,7 @@
     "unicode": "☑️"
   },
   {
-    "annotation": "heavy check mark",
+    "annotation": "heavy tick",
     "group": 6,
     "hexcode": "2714",
     "order": 2974,
@@ -29346,7 +29329,7 @@
     "unicode": "®️"
   },
   {
-    "annotation": "trade mark",
+    "annotation": "trademark",
     "group": 6,
     "hexcode": "2122",
     "order": 3007,
@@ -29355,8 +29338,7 @@
     ],
     "tags": [
       "mark",
-      "tm",
-      "trademark"
+      "tm"
     ],
     "unicode": "™️"
   },
@@ -30930,7 +30912,7 @@
     "unicode": "🇧🇯"
   },
   {
-    "annotation": "St. Barthélemy",
+    "annotation": "St Barthélemy",
     "group": 7,
     "hexcode": "1F1E7-1F1F1",
     "order": 3143,
@@ -30938,8 +30920,7 @@
       "flag_bl"
     ],
     "tags": [
-      "BL",
-      "flag"
+      "BL"
     ],
     "unicode": "🇧🇱"
   },
@@ -32316,7 +32297,7 @@
     "unicode": "🇰🇲"
   },
   {
-    "annotation": "St. Kitts & Nevis",
+    "annotation": "St Kitts & Nevis",
     "group": 7,
     "hexcode": "1F1F0-1F1F3",
     "order": 3242,
@@ -32324,8 +32305,7 @@
       "flag_kn"
     ],
     "tags": [
-      "KN",
-      "flag"
+      "KN"
     ],
     "unicode": "🇰🇳"
   },
@@ -32428,7 +32408,7 @@
     "unicode": "🇱🇧"
   },
   {
-    "annotation": "St. Lucia",
+    "annotation": "St Lucia",
     "group": 7,
     "hexcode": "1F1F1-1F1E8",
     "order": 3250,
@@ -32436,8 +32416,7 @@
       "flag_lc"
     ],
     "tags": [
-      "LC",
-      "flag"
+      "LC"
     ],
     "unicode": "🇱🇨"
   },
@@ -32610,7 +32589,7 @@
     "unicode": "🇲🇪"
   },
   {
-    "annotation": "St. Martin",
+    "annotation": "St Martin",
     "group": 7,
     "hexcode": "1F1F2-1F1EB",
     "order": 3263,
@@ -32618,8 +32597,7 @@
       "flag_mf"
     ],
     "tags": [
-      "MF",
-      "flag"
+      "MF"
     ],
     "unicode": "🇲🇫"
   },
@@ -33156,7 +33134,7 @@
     "unicode": "🇵🇱"
   },
   {
-    "annotation": "St. Pierre & Miquelon",
+    "annotation": "St Pierre & Miquelon",
     "group": 7,
     "hexcode": "1F1F5-1F1F2",
     "order": 3302,
@@ -33164,8 +33142,7 @@
       "flag_pm"
     ],
     "tags": [
-      "PM",
-      "flag"
+      "PM"
     ],
     "unicode": "🇵🇲"
   },
@@ -33422,7 +33399,7 @@
     "unicode": "🇸🇬"
   },
   {
-    "annotation": "St. Helena",
+    "annotation": "St Helena",
     "group": 7,
     "hexcode": "1F1F8-1F1ED",
     "order": 3321,
@@ -33430,8 +33407,7 @@
       "flag_sh"
     ],
     "tags": [
-      "SH",
-      "flag"
+      "SH"
     ],
     "unicode": "🇸🇭"
   },
@@ -33898,7 +33874,7 @@
     "unicode": "🇺🇬"
   },
   {
-    "annotation": "U.S. Outlying Islands",
+    "annotation": "US Outlying Islands",
     "group": 7,
     "hexcode": "1F1FA-1F1F2",
     "order": 3355,
@@ -33906,8 +33882,7 @@
       "flag_um"
     ],
     "tags": [
-      "UM",
-      "flag"
+      "UM"
     ],
     "unicode": "🇺🇲"
   },
@@ -33983,7 +33958,7 @@
     "unicode": "🇻🇦"
   },
   {
-    "annotation": "St. Vincent & Grenadines",
+    "annotation": "St Vincent & Grenadines",
     "group": 7,
     "hexcode": "1F1FB-1F1E8",
     "order": 3361,
@@ -33991,8 +33966,7 @@
       "flag_vc"
     ],
     "tags": [
-      "VC",
-      "flag"
+      "VC"
     ],
     "unicode": "🇻🇨"
   },
@@ -34025,7 +33999,7 @@
     "unicode": "🇻🇬"
   },
   {
-    "annotation": "U.S. Virgin Islands",
+    "annotation": "US Virgin Islands",
     "group": 7,
     "hexcode": "1F1FB-1F1EE",
     "order": 3364,
@@ -34033,8 +34007,7 @@
       "flag_vi"
     ],
     "tags": [
-      "VI",
-      "flag"
+      "VI"
     ],
     "unicode": "🇻🇮"
   },

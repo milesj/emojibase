@@ -7,6 +7,7 @@
 import { LATEST_CLDR_VERSION } from '../../packages/emojibase/lib/constants';
 import fetchAndCache from './fetchAndCache';
 import parseAnnotations from '../parsers/parseAnnotations';
+import formatLocale from '../helpers/formatLocale';
 
 import type { CLDRAnnotationMap } from '../types';
 
@@ -17,9 +18,10 @@ export default function loadAnnotations(
 ): Promise<CLDRAnnotationMap> {
   const releaseVersion = version.replace(/\./g, '-');
   const folderName = derived ? 'annotationsDerived' : 'annotations';
+  const pathLocale = formatLocale(locale);
 
   return fetchAndCache(
-    `http://unicode.org/repos/cldr/tags/release-${releaseVersion}/common/${folderName}/${locale}.xml`,
+    `http://unicode.org/repos/cldr/tags/release-${releaseVersion}/common/${folderName}/${pathLocale}.xml`,
     `${folderName}-${locale}-${version}.json`,
     data => parseAnnotations(version, data),
   );

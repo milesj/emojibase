@@ -25,7 +25,6 @@ function createEmoji(
   baseEmoji: Object,
   versions: VersionMap,
   annotations: CLDRAnnotationMap,
-  englishAnnotations: CLDRAnnotationMap,
 ): FinalEmoji {
   /* eslint-disable sort-keys */
   const emoji: Object = {
@@ -68,8 +67,7 @@ function createEmoji(
   }
 
   // Annotations
-  const cleanHexcode = stripHexcode(baseEmoji.hexcode); // No ZWJ, selectors
-  const annotation = annotations[cleanHexcode] || englishAnnotations[cleanHexcode];
+  const annotation = annotations[stripHexcode(emoji.hexcode)]; // No ZWJ, selectors
 
   if (annotation) {
     if (annotation.annotation) {
@@ -96,16 +94,14 @@ function createEmoji(
         baseEmoji.modifications[skinTone],
         versions,
         annotations,
-        englishAnnotations,
       );
-      const skinHexcode = skin.hexcode.match(SKIN_MODIFIER_PATTERN);
-
-      // $FlowIgnore We know the modifier hexcode exists
-      const skinAnnotation = annotations[skinHexcode[0]] || englishAnnotations[skinHexcode[0]];
 
       // Inherit values from the parent
-      skin.annotation = `${emoji.annotation}: ${skinAnnotation.annotation}`;
+      skin.annotation = annotations[stripHexcode(skin.hexcode)].annotation;
       skin.shortcodes = emoji.shortcodes.map(code => `${code}_tone${skinTone}`);
+
+      // Remove any tags
+      delete skin.tags;
 
       return skin;
     });
@@ -137,24 +133,21 @@ export default async function generateData(): Promise<void> {
   const data = await buildEmojiData();
   const filteredData = filterData(data);
   const versions = createVersionMap();
-  const englishAnnotations = await buildAnnotationData('en');
 
   // Generate datasets for each locale
   SUPPORTED_LOCALES.forEach(async (locale) => {
     const annotations = await buildAnnotationData(locale);
-    const localePath = locale.toLowerCase().replace('_', '-');
     const emojis = Object.keys(filteredData).map(hexcode => createEmoji(
       filteredData[hexcode],
       versions,
       annotations,
-      englishAnnotations,
     ));
 
     // Sort by order
     emojis.sort((a, b) => (a.order || 0) - (b.order || 0));
 
-    writeDataset(`${localePath}/data.json`, emojis);
-    writeDataset(`${localePath}/compact.json`, extractSubset(emojis, 'compact'));
+    writeDataset(`${locale}/data.json`, emojis);
+    writeDataset(`${locale}/compact.json`, extractSubset(emojis, 'compact'));
   });
 
   // Generate metadata and specialized datasets
