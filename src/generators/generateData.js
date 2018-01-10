@@ -6,7 +6,7 @@
 
 /* eslint-disable complexity */
 
-import { SKIN_MODIFIER_PATTERN, SUPPORTED_LOCALES } from '../../packages/emojibase/lib/constants';
+import { SUPPORTED_LOCALES } from '../../packages/emojibase/lib/constants';
 import stripHexcode from '../../packages/emojibase/lib/stripHexcode';
 import buildEmojiData from '../builders/buildEmojiData';
 import buildAnnotationData from '../builders/buildAnnotationData';
@@ -96,7 +96,6 @@ function createEmoji(
         annotations,
       );
 
-      // Inherit values from the parent
       skin.annotation = annotations[stripHexcode(skin.hexcode)].annotation;
       skin.shortcodes = emoji.shortcodes.map(code => `${code}_tone${skinTone}`);
 
