@@ -8,7 +8,6 @@
 
 import {
   GENDER_PATTERN,
-  SKIN_MODIFIER_PATTERN,
   REGIONAL_INDICATORS,
   TAG_LATIN_SMALL_LETTERS,
   MALE_SIGN,
@@ -50,13 +49,23 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     ...annotationsDerived,
   };
 
-  function extractAnnotation(hexcode: string): Object {
-    return annotationsDerived[hexcode] ||
-      annotations[hexcode] ||
-      parentAnnotationsDerived[hexcode] ||
-      parentAnnotations[hexcode] ||
-      englishAnnotations[hexcode] ||
-      {};
+  function extractField(hexcode: string, field: string): * {
+    const sets = [
+      annotationsDerived,
+      annotations,
+      parentAnnotationsDerived,
+      parentAnnotations,
+      englishAnnotations,
+    ];
+
+    // eslint-disable-next-line no-cond-assign
+    for (let i = 0, set; set = sets[i]; i += 1) {
+      if (set[hexcode] && set[hexcode][field]) {
+        return set[hexcode][field];
+      }
+    }
+
+    return null;
   }
 
   // http://unicode.org/repos/cldr/trunk/specs/ldml/tr35-general.html#SynthesizingNames
@@ -69,8 +78,8 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
   Object.keys(sequences).forEach((fullHexcode) => {
     const hexcode = stripHexcode(fullHexcode);
     const emoji = sequences[fullHexcode];
-    // eslint-disable-next-line prefer-const
-    let { annotation = '', tags = [] } = extractAnnotation(hexcode);
+    const tags: string[] = extractField(hexcode, 'tags') || [];
+    let annotation: string = extractField(hexcode, 'annotation') || '';
 
     // Use the localized territory name
     if (hasProperty(emoji.property, ['Emoji_Flag_Sequence'])) {
@@ -116,11 +125,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       // Inherit tags if none were defined
       if (tags.length === 0) {
         sequence.forEach((hex) => {
-          const zwjAnnotation = extractAnnotation(hex);
-
-          if (zwjAnnotation && zwjAnnotation.tags) {
-            tags.push(...zwjAnnotation.tags);
-          }
+          tags.push(...(extractField(hex, 'tags') || []));
         });
       }
 
@@ -161,15 +166,14 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       if (sequence.length > 0) {
         const prefixHexcode = sequence.join('-');
 
-        prefixName = extractAnnotation(prefixHexcode).annotation;
+        prefixName = extractField(prefixHexcode, 'annotation');
       }
 
       // Step 9) Transform suffix into suffix name
       if (suffix.length > 0) {
         suffixName = suffix
-          .map(hex => extractAnnotation(hex))
+          .map(hex => extractField(hex, 'annotation'))
           .filter(Boolean)
-          .map(anno => anno.annotation)
           .join(', ');
       }
 
