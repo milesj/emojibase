@@ -21,8 +21,10 @@ export default function fetchFromCDN(
     }
   }
 
+  const { local = false, ...opts } = options;
+  const storage = local ? localStorage : sessionStorage;
   const cacheKey = `emojibase/${version}/${path}`;
-  const cachedData = sessionStorage.getItem(cacheKey);
+  const cachedData = storage.getItem(cacheKey);
 
   // Check the cache first
   if (cachedData) {
@@ -33,7 +35,7 @@ export default function fetchFromCDN(
     credentials: 'omit',
     mode: 'cors',
     redirect: 'error',
-    ...options,
+    ...opts,
   }).then((response) => {
     if (!response.ok) {
       throw new Error('Failed to load Emojibase dataset.');
@@ -42,7 +44,7 @@ export default function fetchFromCDN(
     return response.json();
   }).then((data) => {
     try {
-      sessionStorage.setItem(cacheKey, JSON.stringify(data));
+      storage.setItem(cacheKey, JSON.stringify(data));
     } catch (error) {
       // Do not allow quota errors to break the app
     }

@@ -11,6 +11,11 @@ describe('fetchFromCDN()', () => {
       getItem: jest.fn(),
       setItem: jest.fn(),
     };
+
+    global.localStorage = {
+      getItem: jest.fn(),
+      setItem: jest.fn(),
+    };
   });
 
   it('errors if no path', () => {
@@ -84,6 +89,13 @@ describe('fetchFromCDN()', () => {
     await fetchFromCDN('en/data.json');
 
     expect(global.sessionStorage.setItem)
+      .toBeCalledWith('emojibase/latest/en/data.json', '[1,2,3]');
+  });
+
+  it('caches data to local storage', async () => {
+    await fetchFromCDN('en/data.json', 'latest', { local: true });
+
+    expect(global.localStorage.setItem)
       .toBeCalledWith('emojibase/latest/en/data.json', '[1,2,3]');
   });
 });
