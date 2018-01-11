@@ -58,15 +58,21 @@ The first group, localized data, is exactly that, datasets with localization pro
 [CLDR 32][cldr]. The following locales and languages are currently supported:
 
 * `emojibase-data/zh/data.json` - Chinese (zh)
+* `emojibase-data/zh-hant/data.json` - Chinese, Traditional (zh-hant)
 * `emojibase-data/da/data.json` - Danish (da)
 * `emojibase-data/en/data.json` - English (en)
+* `emojibase-data/en-gb/data.json` - English, Great Britain (en-gb)
 * `emojibase-data/fr/data.json` - French (fr)
 * `emojibase-data/de/data.json` - German (de)
 * `emojibase-data/it/data.json` - Italian (it)
 * `emojibase-data/ja/data.json` - Japanese (ja)
 * `emojibase-data/ko/data.json` - Korean (ko)
+* `emojibase-data/pl/data.json` - Polish (pl)
+* `emojibase-data/pt/data.json` - Portuguese (pt)
 * `emojibase-data/ru/data.json` - Russian (ru)
 * `emojibase-data/es/data.json` - Spanish (es)
+* `emojibase-data/es-mx/data.json` - Spanish, Mexico (es-mx)
+* `emojibase-data/th/data.json` - Thai (th)
 
 These datasets return an array of emoji objects that adhere to the defined
 [data structure](#data-structure).
