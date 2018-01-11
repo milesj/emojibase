@@ -8,7 +8,7 @@
     "build": "build-lib && lerna run build",
     "clean": "rimraf ./packages/{*}/lib/ && yarn run clean:cache && lerna clean --yes",
     "clean:cache": "rimraf ./cache",
-    "coverage": "run-coverage",
+    "coverage": "run-tests --coverage",
     "eslint": "run-linter ./bin",
     "flow": "type-check",
     "generate": "yarn run build && node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/emojibase-data/en/data.json ./packages/emojibase-test-utils/test-data.json",

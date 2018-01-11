@@ -77,6 +77,8 @@ The first group, localized data, is exactly that, datasets with localization pro
 These datasets return an array of emoji objects that adhere to the defined
 [data structure](#data-structure).
 
+> Missing localizations will fallback to English.
+
 ```javascript
 import emojis from 'emojibase-data/en/data.json';
 ```
@@ -363,8 +365,8 @@ yarn add emojibase
 
 This function will fetch `emojibase-data` JSON files from our [CDN][cdn], parse them,
 and return an array of emoji objects. It requires a file path relative to the `emojibase-data`
-package as the 1st argument, and the Emojibase release version as the 2nd argument
-(defaults to the latest).
+package as the 1st argument, the Emojibase release version as the 2nd argument
+(defaults to the latest), and an object of options to pass to `fetch` as the 3rd argument.
 
 ```javascript
 import { fetchFromCDN, flattenEmojiData } from 'emojibase';
@@ -374,7 +376,8 @@ fetchFromCDN('ja/compact.json', '2.1.3').then(flattenEmojiData);
 
 > Only JSON datasets can be fetched from the CDN.
 
-> Successfully fetched data will be cached in session storage.
+> Successfully fetched data will be cached in session storage. If `local` is passed as an option,
+> local storage will be used instead. Be sure to invalidate manually if used!
 
 #### flattenEmojiData
 
@@ -500,38 +503,38 @@ stripHexcode('1F468-200D-2695-FE0F'); // 1F468-2695
 | versions/emoji.json | 52.29 KB | 7.23 KB |
 | versions/unicode.json | 52.41 KB | 7.35 KB |
 | meta/hexcodes.json | 56.24 KB | 8.52 KB |
-| zh-hant/compact.json | 593.54 KB | 58.58 KB |
-| zh/compact.json | 611.8 KB | 62.88 KB |
+| zh-hant/compact.json | 593.51 KB | 58.57 KB |
+| zh/compact.json | 611.77 KB | 62.87 KB |
 | fr/compact.json | 616.46 KB | 59.56 KB |
-| da/compact.json | 633.4 KB | 62.19 KB |
-| en-gb/compact.json | 639.74 KB | 60.94 KB |
-| en/compact.json | 640.32 KB | 60.93 KB |
-| it/compact.json | 644.89 KB | 65.01 KB |
+| da/compact.json | 633.38 KB | 62.18 KB |
+| en/compact.json | 640.3 KB | 60.93 KB |
+| en-gb/compact.json | 640.43 KB | 60.99 KB |
+| it/compact.json | 644.85 KB | 65 KB |
 | ja/compact.json | 645.37 KB | 65.82 KB |
 | ko/compact.json | 648.13 KB | 67.4 KB |
 | pt/compact.json | 648.42 KB | 65.18 KB |
-| pl/compact.json | 656.89 KB | 68.69 KB |
-| es-mx/compact.json | 662.57 KB | 65.26 KB |
+| pl/compact.json | 656.55 KB | 68.65 KB |
+| es-mx/compact.json | 662.6 KB | 65.26 KB |
 | es/compact.json | 664.51 KB | 65.5 KB |
-| de/compact.json | 669.49 KB | 69.01 KB |
-| ru/compact.json | 704.37 KB | 72.01 KB |
-| th/compact.json | 715.06 KB | 65.82 KB |
-| zh-hant/data.json | 896.85 KB | 81.85 KB |
-| zh/data.json | 915.12 KB | 86.16 KB |
+| de/compact.json | 669.3 KB | 69 KB |
+| ru/compact.json | 704.35 KB | 72.01 KB |
+| th/compact.json | 715.1 KB | 65.83 KB |
+| zh-hant/data.json | 896.83 KB | 81.85 KB |
+| zh/data.json | 915.08 KB | 86.15 KB |
 | fr/data.json | 919.78 KB | 82.71 KB |
-| da/data.json | 936.72 KB | 85.31 KB |
-| en-gb/data.json | 943.06 KB | 83.64 KB |
-| en/data.json | 943.64 KB | 83.64 KB |
-| it/data.json | 948.21 KB | 87.93 KB |
+| da/data.json | 936.7 KB | 85.3 KB |
+| en/data.json | 943.62 KB | 83.64 KB |
+| en-gb/data.json | 943.75 KB | 83.71 KB |
+| it/data.json | 948.17 KB | 87.93 KB |
 | ja/data.json | 948.69 KB | 89.01 KB |
 | ko/data.json | 951.45 KB | 90.73 KB |
 | pt/data.json | 951.74 KB | 88.46 KB |
-| pl/data.json | 960.2 KB | 91.7 KB |
-| es-mx/data.json | 965.89 KB | 88.62 KB |
+| pl/data.json | 959.87 KB | 91.66 KB |
+| es-mx/data.json | 965.92 KB | 88.61 KB |
 | es/data.json | 967.83 KB | 88.8 KB |
-| de/data.json | 972.81 KB | 92.63 KB |
-| ru/data.json | 1007.69 KB | 95.27 KB |
-| th/data.json | 1018.38 KB | 89.14 KB |
+| de/data.json | 972.62 KB | 92.61 KB |
+| ru/data.json | 1007.66 KB | 95.27 KB |
+| th/data.json | 1018.41 KB | 89.15 KB |
 
 | emojibase-regex | Filesize | Gzipped |
 | --- | --- | --- |

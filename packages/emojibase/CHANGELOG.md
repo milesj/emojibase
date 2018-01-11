@@ -7,6 +7,7 @@
   * `pt` - Portuguese
   * `th` - Thai
   * `zh-hant` - // Chinese (Traditional)
+* Added `local` option to `fetchFromCDN` to cache in local storage instead of session storage.
 
 # 1.4.4 - 12/19/17
 #### 🛠 Internal
