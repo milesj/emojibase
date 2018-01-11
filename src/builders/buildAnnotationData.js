@@ -17,6 +17,7 @@ import log from '../helpers/log';
 import hasProperty from '../helpers/hasProperty';
 import writeCache from '../helpers/writeCache';
 import loadAnnotations from '../loaders/loadAnnotations';
+import loadData from '../loaders/loadData';
 import loadLocalization from '../loaders/loadLocalization';
 import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
@@ -27,6 +28,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
   log.title('build', `Building ${locale} annotation data`);
 
   // Load the base annotations and localization datasets
+  const data = {};
   const localization = await loadLocalization(locale);
   const englishAnnotations = await loadAnnotations('en'); // Fallback to English
   const annotations = await loadAnnotations(locale);
@@ -40,14 +42,6 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     parentAnnotations = await loadAnnotations(parentLocale);
     parentAnnotationsDerived = await loadAnnotations(parentLocale, true);
   }
-
-  const data = {
-    ...englishAnnotations,
-    ...parentAnnotations,
-    ...parentAnnotationsDerived,
-    ...annotations,
-    ...annotationsDerived,
-  };
 
   function extractField(hexcode: string, field: string): * {
     const sets = [
@@ -71,6 +65,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
   // http://unicode.org/repos/cldr/trunk/specs/ldml/tr35-general.html#SynthesizingNames
   // ZWJ and Flag sequences do not have annotations, so let's add them
   const sequences = {
+    ...(await loadData()),
     ...(await loadSequences()),
     ...(await loadZwjSequences()),
   };
