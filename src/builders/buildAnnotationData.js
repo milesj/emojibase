@@ -8,7 +8,6 @@
 
 import {
   GENDER_PATTERN,
-  SKIN_MODIFIER_PATTERN,
   REGIONAL_INDICATORS,
   TAG_LATIN_SMALL_LETTERS,
   MALE_SIGN,
@@ -18,6 +17,7 @@ import log from '../helpers/log';
 import hasProperty from '../helpers/hasProperty';
 import writeCache from '../helpers/writeCache';
 import loadAnnotations from '../loaders/loadAnnotations';
+import loadData from '../loaders/loadData';
 import loadLocalization from '../loaders/loadLocalization';
 import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
@@ -28,35 +28,53 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
   log.title('build', `Building ${locale} annotation data`);
 
   // Load the base annotations and localization datasets
-  const annotations = await loadAnnotations(locale);
-  const derivedAnnotations = await loadAnnotations(locale, true); // Modifiers and sequences
-  const englishAnnotations = await loadAnnotations('en'); // Fallback to English
+  const data = {};
   const localization = await loadLocalization(locale);
+  const englishAnnotations = await loadAnnotations('en'); // Fallback to English
+  const annotations = await loadAnnotations(locale);
+  const annotationsDerived = await loadAnnotations(locale, true); // Modifiers and sequences
+  let parentAnnotations = {};
+  let parentAnnotationsDerived = {};
 
-  /*
-   * http://unicode.org/repos/cldr/trunk/specs/ldml/tr35-general.html#SynthesizingNames
-   * ZWJ and Flag sequences do not have annotations, so let's add them
-   */
+  if (locale.includes('-')) {
+    const parentLocale = locale.split('-')[0];
+
+    parentAnnotations = await loadAnnotations(parentLocale);
+    parentAnnotationsDerived = await loadAnnotations(parentLocale, true);
+  }
+
+  function extractField(hexcode: string, field: string): * {
+    const sets = [
+      annotationsDerived,
+      annotations,
+      parentAnnotationsDerived,
+      parentAnnotations,
+      englishAnnotations,
+    ];
+
+    // eslint-disable-next-line no-cond-assign
+    for (let i = 0, set; set = sets[i]; i += 1) {
+      if (set[hexcode] && set[hexcode][field]) {
+        return set[hexcode][field];
+      }
+    }
+
+    return null;
+  }
+
+  // http://unicode.org/repos/cldr/trunk/specs/ldml/tr35-general.html#SynthesizingNames
+  // ZWJ and Flag sequences do not have annotations, so let's add them
   const sequences = {
+    ...(await loadData()),
     ...(await loadSequences()),
     ...(await loadZwjSequences()),
   };
 
   Object.keys(sequences).forEach((fullHexcode) => {
     const hexcode = stripHexcode(fullHexcode);
-
-    // Annotations already exist for this hexcode
-    if (annotations[hexcode]) {
-      return;
-
-    // Skip skin tones as they are nested within their parent
-    } else if (hexcode.match(SKIN_MODIFIER_PATTERN)) {
-      return;
-    }
-
-    // eslint-disable-next-line prefer-const
-    let { annotation = '', tags = [] } = derivedAnnotations[hexcode] || {};
     const emoji = sequences[fullHexcode];
+    const tags: string[] = extractField(hexcode, 'tags') || [];
+    let annotation: string = extractField(hexcode, 'annotation') || '';
 
     // Use the localized territory name
     if (hasProperty(emoji.property, ['Emoji_Flag_Sequence'])) {
@@ -102,9 +120,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       // Inherit tags if none were defined
       if (tags.length === 0) {
         sequence.forEach((hex) => {
-          if (annotations[hex] && annotations[hex].tags) {
-            tags.push(...annotations[hex].tags);
-          }
+          tags.push(...(extractField(hex, 'tags') || []));
         });
       }
 
@@ -145,15 +161,14 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       if (sequence.length > 0) {
         const prefixHexcode = sequence.join('-');
 
-        prefixName = (annotations[prefixHexcode] || englishAnnotations[prefixHexcode]).annotation;
+        prefixName = extractField(prefixHexcode, 'annotation');
       }
 
       // Step 9) Transform suffix into suffix name
       if (suffix.length > 0) {
         suffixName = suffix
-          .map(hex => annotations[hex] || englishAnnotations[hex])
+          .map(hex => extractField(hex, 'annotation'))
           .filter(Boolean)
-          .map(anno => anno.annotation)
           .join(', ');
       }
 
@@ -168,15 +183,15 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     }
 
     // Add the new custom annotation
-    annotations[hexcode] = {
+    data[hexcode] = {
       annotation,
       tags: Array.from(new Set(tags)),
     };
   });
 
-  writeCache(`final-${locale}-annotation-data.json`, annotations);
+  writeCache(`final-${locale}-annotation-data.json`, data);
 
   log.success('build', `Built ${locale} annotation data`);
 
-  return Promise.resolve(annotations);
+  return Promise.resolve(data);
 }

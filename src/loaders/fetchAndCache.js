@@ -38,8 +38,7 @@ export default async function fetchAndCache<T: Object>(
   } catch (error) {
     log.error('load', `Failed to fetch ${url}: ${error.message}`);
 
-    // $FlowIgnore
-    return Promise.resolve({});
+    return Promise.reject(error);
   }
 
   // Cache the data

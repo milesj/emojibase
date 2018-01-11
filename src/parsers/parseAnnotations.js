@@ -7,6 +7,7 @@
 // $FlowIgnore Lazyiness
 import cheerio from 'cheerio';
 import fromUnicodeToHexcode from '../../packages/emojibase/lib/fromUnicodeToHexcode';
+import stripHexcode from '../../packages/emojibase/lib/stripHexcode';
 
 import type { CLDRAnnotationMap } from '../types';
 
@@ -22,11 +23,9 @@ export default function parseAnnotations(version: string, content: string): CLDR
   xml('annotation').each((i, rawRow) => {
     const row = xml(rawRow);
 
-    /*
-     * Variation selectors are not present in the locale files
-     * So lets just strip unnecessary codepoints
-     */
-    const hexcode = fromUnicodeToHexcode(row.attr('cp'));
+    // Variation selectors are not present in the locale files
+    // So lets just strip unnecessary codepoints
+    const hexcode = stripHexcode(fromUnicodeToHexcode(row.attr('cp')));
 
     if (!data[hexcode]) {
       data[hexcode] = {};

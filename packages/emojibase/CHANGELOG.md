@@ -1,3 +1,13 @@
+# 1.5.0 - 01/10/18
+#### 🚀 New
+* Added support for the following locales:
+  * `en-gb` - English (Great Britain)
+  * `es-mx` - Spanish (Mexico)
+  * `pl` - Polish
+  * `pt` - Portuguese
+  * `th` - Thai
+  * `zh-hant` - // Chinese (Traditional)
+
 # 1.4.4 - 12/19/17
 #### 🛠 Internal
 * Updated dependencies.

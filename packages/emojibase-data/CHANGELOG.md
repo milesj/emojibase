@@ -1,3 +1,17 @@
+# 2.2.0 - 01/10/18
+#### 🚀 New
+* Added support for the following locales:
+  * `en-gb` - English (Great Britain)
+  * `es-mx` - Spanish (Mexico)
+  * `pl` - Polish
+  * `pt` - Portuguese
+  * `th` - Thai
+  * `zh-hant` - // Chinese (Traditional)
+
+#### 🐞 Fixed
+* Fixed some issues with localized annotation resolving.
+* Added missing `annotation` and `tags` to 🔟.
+
 # 2.1.2 - 12/19/17
 #### 🐞 Fixed
 * Fixed invalid `subgroup` indices.

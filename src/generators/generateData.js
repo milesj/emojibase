@@ -6,7 +6,7 @@
 
 /* eslint-disable complexity */
 
-import { SKIN_MODIFIER_PATTERN, SUPPORTED_LOCALES } from '../../packages/emojibase/lib/constants';
+import { SUPPORTED_LOCALES } from '../../packages/emojibase/lib/constants';
 import stripHexcode from '../../packages/emojibase/lib/stripHexcode';
 import buildEmojiData from '../builders/buildEmojiData';
 import buildAnnotationData from '../builders/buildAnnotationData';
@@ -25,7 +25,6 @@ function createEmoji(
   baseEmoji: Object,
   versions: VersionMap,
   annotations: CLDRAnnotationMap,
-  englishAnnotations: CLDRAnnotationMap,
 ): FinalEmoji {
   /* eslint-disable sort-keys */
   const emoji: Object = {
@@ -68,8 +67,7 @@ function createEmoji(
   }
 
   // Annotations
-  const cleanHexcode = stripHexcode(baseEmoji.hexcode); // No ZWJ, selectors
-  const annotation = annotations[cleanHexcode] || englishAnnotations[cleanHexcode];
+  const annotation = annotations[stripHexcode(emoji.hexcode)]; // No ZWJ, selectors
 
   if (annotation) {
     if (annotation.annotation) {
@@ -96,14 +94,13 @@ function createEmoji(
         baseEmoji.modifications[skinTone],
         versions,
         annotations,
-        englishAnnotations,
       );
-      const skinHexcode = skin.hexcode.match(SKIN_MODIFIER_PATTERN);
 
-      // Inherit values from the parent
-      // $FlowIgnore We know the modifier hexcode exists
-      skin.annotation = `${emoji.annotation}: ${annotations[skinHexcode[0]].annotation}`;
+      skin.annotation = annotations[stripHexcode(skin.hexcode)].annotation;
       skin.shortcodes = emoji.shortcodes.map(code => `${code}_tone${skinTone}`);
+
+      // Remove any tags
+      delete skin.tags;
 
       return skin;
     });
@@ -135,7 +132,6 @@ export default async function generateData(): Promise<void> {
   const data = await buildEmojiData();
   const filteredData = filterData(data);
   const versions = createVersionMap();
-  const englishAnnotations = await buildAnnotationData('en');
 
   // Generate datasets for each locale
   SUPPORTED_LOCALES.forEach(async (locale) => {
@@ -144,7 +140,6 @@ export default async function generateData(): Promise<void> {
       filteredData[hexcode],
       versions,
       annotations,
-      englishAnnotations,
     ));
 
     // Sort by order
