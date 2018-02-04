@@ -26,7 +26,7 @@ export default function parseOrderAndGroup(content: string): EmojiGroupMap {
   let subgroupIndex = -1;
   let order = 1;
 
-  content.split('\n').forEach((line) => {
+  content.split('\n').forEach(line => {
     // Skip empty lines
     if (!line.trim()) {
       return;
@@ -38,7 +38,6 @@ export default function parseOrderAndGroup(content: string): EmojiGroupMap {
         group = slug(line.slice(8).trim());
         groupIndex += 1;
         groups[groupIndex] = group;
-
       } else if (line.startsWith('# subgroup:')) {
         subgroup = slug(line.slice(11).trim());
         subgroupIndex += 1;

@@ -11,7 +11,6 @@ import type { Gender } from '../types';
 export default function extractGender(hexcode: string): ?Gender {
   if (hexcode.includes(FEMALE_SIGN)) {
     return FEMALE;
-
   } else if (hexcode.includes(MALE_SIGN)) {
     return MALE;
   }

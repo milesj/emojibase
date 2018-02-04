@@ -53,7 +53,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     ];
 
     // eslint-disable-next-line no-cond-assign
-    for (let i = 0, set; set = sets[i]; i += 1) {
+    for (let i = 0, set; (set = sets[i]); i += 1) {
       if (set[hexcode] && set[hexcode][field]) {
         return set[hexcode][field];
       }
@@ -70,7 +70,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     ...(await loadZwjSequences()),
   };
 
-  Object.keys(sequences).forEach((fullHexcode) => {
+  Object.keys(sequences).forEach(fullHexcode => {
     const hexcode = stripHexcode(fullHexcode);
     const emoji = sequences[fullHexcode];
     const tags: string[] = extractField(hexcode, 'tags') || [];
@@ -89,7 +89,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
 
       tags.push(countryCode);
 
-    // Use the localized subdivision name
+      // Use the localized subdivision name
     } else if (hasProperty(emoji.property, ['Emoji_Tag_Sequence'])) {
       const divisionName = hexcode
         .split('-')
@@ -102,7 +102,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
 
       tags.push(divisionName);
 
-    // Step 3) Label with keycap and use sequence
+      // Step 3) Label with keycap and use sequence
     } else if (hasProperty(emoji.property, ['Emoji_Keycap_Sequence'])) {
       if (!annotation) {
         annotation = emoji.description;
@@ -110,7 +110,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
 
       tags.push(annotation);
 
-    // ZWJ sequences require special treatment
+      // ZWJ sequences require special treatment
     } else if (hasProperty(emoji.property, ['Emoji_ZWJ_Sequence'])) {
       const suffix = [];
       let prefixName = '';
@@ -119,7 +119,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
 
       // Inherit tags if none were defined
       if (tags.length === 0) {
-        sequence.forEach((hex) => {
+        sequence.forEach(hex => {
           tags.push(...(extractField(hex, 'tags') || []));
         });
       }
@@ -130,7 +130,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
         emoji.description.startsWith('family:') ||
         emoji.description.startsWith('couple with heart:')
       ) {
-        sequence.forEach((hex) => {
+        sequence.forEach(hex => {
           // Kiss mark, Heavy black heart
           if (hex !== '1F48B' && hex !== '2764') {
             suffix.push(hex);

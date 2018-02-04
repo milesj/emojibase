@@ -21,7 +21,7 @@ export default function verifyData(emojis: EmojiMap): EmojiMap {
   const usedShortcodes = {};
   const usedEmoticons = {};
 
-  Object.keys(emojis).forEach((hexcode) => {
+  Object.keys(emojis).forEach(hexcode => {
     const emoji = emojis[hexcode];
     const errors = [];
 
@@ -42,7 +42,7 @@ export default function verifyData(emojis: EmojiMap): EmojiMap {
     if (isObject(emoji.modifications)) {
       let count = 0;
 
-      Object.keys(emoji.modifications).forEach((skinTone) => {
+      Object.keys(emoji.modifications).forEach(skinTone => {
         const mod = emoji.modifications[skinTone];
 
         if (parseFloat(skinTone) !== mod.tone) {
@@ -85,7 +85,7 @@ export default function verifyData(emojis: EmojiMap): EmojiMap {
     } else {
       const used = [];
 
-      emoji.shortcodes.forEach((shortcode) => {
+      emoji.shortcodes.forEach(shortcode => {
         if (usedShortcodes[shortcode]) {
           used.push(`${shortcode} (${usedShortcodes[shortcode].name})`);
         } else {
@@ -111,11 +111,7 @@ export default function verifyData(emojis: EmojiMap): EmojiMap {
 
     // Display errors
     if (errors.length > 0) {
-      log.error(
-        'verify',
-        `Error(s) detected for ${emoji.name} (${hexcode}):\n`,
-        errors.join('\n'),
-      );
+      log.error('verify', `Error(s) detected for ${emoji.name} (${hexcode}):\n`, errors.join('\n'));
     }
   });
 

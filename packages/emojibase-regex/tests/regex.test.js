@@ -32,7 +32,7 @@ const BASE_PATTERNS = [
 ];
 
 describe('regex', () => {
-  loadFlatEmojiData().forEach((emoji) => {
+  loadFlatEmojiData().forEach(emoji => {
     // Emoji_Tag_Sequences currently do not work
     if (['ENGLAND', 'SCOTLAND', 'WALES'].includes(emoji.name)) {
       return;
@@ -68,7 +68,7 @@ describe('regex', () => {
         ],
       });
 
-    // No variation selectors
+      // No variation selectors
     } else {
       variations.push({
         variation: 'none',
@@ -96,8 +96,9 @@ describe('regex', () => {
             });
 
             it(`matches multiple unicode for ${unicode}`, () => {
-              const matches = `One ${unicode} Two ${unicode} Three ${unicode}.`
-                .match(new RegExp(pattern.source, `g${pattern.flags}`));
+              const matches = `One ${unicode} Two ${unicode} Three ${unicode}.`.match(
+                new RegExp(pattern.source, `g${pattern.flags}`),
+              );
 
               expect(matches).not.toBe(null);
               expect(matches).toHaveLength(3);
@@ -108,7 +109,7 @@ describe('regex', () => {
       });
     });
 
-    emoji.shortcodes.forEach((code) => {
+    emoji.shortcodes.forEach(code => {
       const shortcode = `:${code}:`; // Does not include colons by default
 
       it(`matches shortcode by itself for ${shortcode}`, () => {
@@ -121,21 +122,22 @@ describe('regex', () => {
 
       it(`matches multiple shortcode for ${shortcode}`, () => {
         const globalPattern = new RegExp(SHORTCODE_PATTERN.source, 'g');
-        const matches = `One ${shortcode} Two ${shortcode} Three ${shortcode}.`.match(globalPattern);
+        const matches = `One ${shortcode} Two ${shortcode} Three ${shortcode}.`.match(
+          globalPattern,
+        );
 
         expect(matches).toHaveLength(3);
       });
     });
 
     if (emoji.emoticon) {
-      generateEmoticonPermutations(
-        emoji.emoticon,
-        EMOTICON_OPTIONS[emoji.emoticon] || {},
-      ).forEach((emoticon) => {
-        it(`matches emoticon variation ${emoticon}`, () => {
-          expect(emoticon).toMatch(EMOTICON_PATTERN);
-        });
-      });
+      generateEmoticonPermutations(emoji.emoticon, EMOTICON_OPTIONS[emoji.emoticon] || {}).forEach(
+        emoticon => {
+          it(`matches emoticon variation ${emoticon}`, () => {
+            expect(emoticon).toMatch(EMOTICON_PATTERN);
+          });
+        },
+      );
     }
   });
 });

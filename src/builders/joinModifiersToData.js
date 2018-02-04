@@ -36,7 +36,7 @@ const SKIN_MODIFIERS: { [tone: SkinTone]: string } = {
 };
 
 export default function joinModifiersToData(emojis: Object) {
-  Object.keys(emojis).forEach((hexcode) => {
+  Object.keys(emojis).forEach(hexcode => {
     const emoji = emojis[hexcode];
 
     // Handle appending a skin tone modification
@@ -82,9 +82,9 @@ export default function joinModifiersToData(emojis: Object) {
       // Remove the modification from the root
       delete emojis[hexcode];
 
-    // Generate Emoji_Modifier_Base modifications manually
+      // Generate Emoji_Modifier_Base modifications manually
     } else if (hasProperty(emoji.property, ['Emoji_Modifier_Base'])) {
-      Object.keys(SKIN_MODIFIERS).forEach((skinTone) => {
+      Object.keys(SKIN_MODIFIERS).forEach(skinTone => {
         // $FlowIgnore
         const mod = emojis[SKIN_MODIFIERS[skinTone]];
 

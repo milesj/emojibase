@@ -7,7 +7,7 @@ describe('data', () => {
    * fields, like tags, annotations, and more. And since we flattened
    * our data, we'll need to wrap tests in conditional blocks.
    */
-  loadFlatEmojiData().forEach((emoji) => {
+  loadFlatEmojiData().forEach(emoji => {
     const unicode = emoji.emoji || emoji.text;
 
     it(`defines a name for ${unicode}`, () => {
@@ -41,7 +41,7 @@ describe('data', () => {
       it(`defines tags for ${unicode}`, () => {
         expect(emoji.tags.length).toBeGreaterThanOrEqual(1);
 
-        emoji.tags.forEach((tag) => {
+        emoji.tags.forEach(tag => {
           expect(tag).not.toBe('');
         });
       });
@@ -51,7 +51,7 @@ describe('data', () => {
       it(`defines shortcodes for ${unicode}`, () => {
         expect(emoji.shortcodes.length).toBeGreaterThanOrEqual(1);
 
-        emoji.shortcodes.forEach((shortcode) => {
+        emoji.shortcodes.forEach(shortcode => {
           expect(shortcode).not.toBe('');
         });
       });

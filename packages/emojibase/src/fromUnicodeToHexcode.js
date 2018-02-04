@@ -12,7 +12,10 @@ export default function fromUnicodeToHexcode(unicode: string, strip?: boolean = 
   const hexcode = [];
 
   for (const codepoint of unicode) {
-    let hex = codepoint.codePointAt(0).toString(16).toUpperCase();
+    let hex = codepoint
+      .codePointAt(0)
+      .toString(16)
+      .toUpperCase();
 
     while (hex.length < 4) {
       hex = `0${hex}`;

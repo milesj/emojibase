@@ -36,19 +36,21 @@ export default function fetchFromCDN(
     mode: 'cors',
     redirect: 'error',
     ...opts,
-  }).then((response) => {
-    if (!response.ok) {
-      throw new Error('Failed to load Emojibase dataset.');
-    }
+  })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Failed to load Emojibase dataset.');
+      }
 
-    return response.json();
-  }).then((data) => {
-    try {
-      storage.setItem(cacheKey, JSON.stringify(data));
-    } catch (error) {
-      // Do not allow quota errors to break the app
-    }
+      return response.json();
+    })
+    .then(data => {
+      try {
+        storage.setItem(cacheKey, JSON.stringify(data));
+      } catch (error) {
+        // Do not allow quota errors to break the app
+      }
 
-    return data;
-  });
+      return data;
+    });
 }

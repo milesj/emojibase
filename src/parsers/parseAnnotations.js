@@ -34,7 +34,11 @@ export default function parseAnnotations(version: string, content: string): CLDR
     if (row.attr('type') === 'tts') {
       data[hexcode].annotation = row.text().trim();
     } else {
-      data[hexcode].tags = row.text().trim().split('|').map(tag => tag.trim().toLowerCase());
+      data[hexcode].tags = row
+        .text()
+        .trim()
+        .split('|')
+        .map(tag => tag.trim().toLowerCase());
     }
   });
 

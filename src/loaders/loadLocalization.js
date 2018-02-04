@@ -32,7 +32,9 @@ export default async function loadLocalization(
 
   // Load subdivision names from subdivision XML
   const subdivisions = await fetchAndCache(
-    `http://unicode.org/repos/cldr/tags/release-${releaseVersion}/common/subdivisions/${SUBDIVISION_FALLBACK_LOCALES[locale] || pathLocale}.xml`,
+    `http://unicode.org/repos/cldr/tags/release-${releaseVersion}/common/subdivisions/${SUBDIVISION_FALLBACK_LOCALES[
+      locale
+    ] || pathLocale}.xml`,
     `subdivisions-${locale}-${version}.json`,
     data => parseLocalization(version, data, 'subdivision'),
   );

@@ -29,7 +29,7 @@ export default async function buildVersionedData(): Promise<{
 
   // Handle partitioning each emoji into a specific version
   const partitionVersions = (data: EmojiDataMap) => {
-    Object.keys(data).forEach((hexcode) => {
+    Object.keys(data).forEach(hexcode => {
       const emoji = data[hexcode];
       const { version, unicodeVersion } = data[hexcode];
 

@@ -10,7 +10,7 @@ import type { FinalEmoji } from '../types';
 export default function extractSubset(data: FinalEmoji[], format: string): FinalEmoji[] {
   const emojis = [];
 
-  data.forEach((datum) => {
+  data.forEach(datum => {
     switch (format) {
       case 'compact': {
         const {
@@ -33,7 +33,7 @@ export default function extractSubset(data: FinalEmoji[], format: string): Final
           order,
           shortcodes,
           tags,
-          unicode: (text && type === TEXT) ? text : emoji,
+          unicode: text && type === TEXT ? text : emoji,
         };
 
         if (emoticon) {

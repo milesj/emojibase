@@ -39,14 +39,7 @@ export default async function buildEmojiData(): Promise<EmojiMap> {
   const shortcodes = await loadShortcodes();
   const emoticons = await loadEmoticons();
 
-  joinMetadataToData(
-    emojis,
-    names,
-    groups,
-    variations,
-    shortcodes,
-    emoticons,
-  );
+  joinMetadataToData(emojis, names, groups, variations, shortcodes, emoticons);
 
   // 3) Append skin tone modifications
   joinModifiersToData(emojis); // Requires names

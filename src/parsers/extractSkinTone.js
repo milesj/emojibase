@@ -18,5 +18,5 @@ export default function extractSkinTone(name: string): ?number {
    * This is because type 1 and 2 on the Fitzpatrick scale are a combined tone.
    * https://en.wikipedia.org/wiki/Fitzpatrick_scale
    */
-  return (tone > 1) ? (tone - 1) : tone;
+  return tone > 1 ? tone - 1 : tone;
 }

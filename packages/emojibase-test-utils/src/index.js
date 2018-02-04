@@ -7,7 +7,4 @@
 import loadEmojiData from './loadEmojiData';
 import loadFlatEmojiData from './loadFlatEmojiData';
 
-export {
-  loadEmojiData,
-  loadFlatEmojiData,
-};
+export { loadEmojiData, loadFlatEmojiData };

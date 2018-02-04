@@ -17,7 +17,7 @@
     "pretest": "yarn run eslint --silent",
     "test": "yarn run jest --silent",
     "updated": "lerna updated",
-    "prettier": "beemo prettier --write ./README.md ./packages/*/{src,tests}/**/*.{js,json,md}",
+    "prettier": "beemo prettier --write ./README.md ./src/**/*.{js,json,md} ./packages/*/{src,tests}/**/*.{js,md}",
     "package": "yarn run clean && yarn run bootstrap && yarn run build && yarn test",
     "release": "lerna publish",
     "release:force": "yarn run release --force-publish=*",

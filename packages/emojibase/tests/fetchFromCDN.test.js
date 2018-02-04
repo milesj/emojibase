@@ -2,10 +2,12 @@ import fetchFromCDN from '../src/fetchFromCDN';
 
 describe('fetchFromCDN()', () => {
   beforeEach(() => {
-    global.fetch = jest.fn(() => Promise.resolve({
-      json: () => Promise.resolve([1, 2, 3]),
-      ok: true,
-    }));
+    global.fetch = jest.fn(() =>
+      Promise.resolve({
+        json: () => Promise.resolve([1, 2, 3]),
+        ok: true,
+      }),
+    );
 
     global.sessionStorage = {
       getItem: jest.fn(),
@@ -19,24 +21,26 @@ describe('fetchFromCDN()', () => {
   });
 
   it('errors if no path', () => {
-    expect(() => fetchFromCDN())
-      .toThrowError('A valid JSON dataset is required to fetch.');
+    expect(() => fetchFromCDN()).toThrowError('A valid JSON dataset is required to fetch.');
   });
 
   it('errors if path doesnt end in JSON', () => {
-    expect(() => fetchFromCDN('en/data'))
-      .toThrowError('A valid JSON dataset is required to fetch.');
+    expect(() => fetchFromCDN('en/data')).toThrowError(
+      'A valid JSON dataset is required to fetch.',
+    );
   });
 
   it('errors if no version', () => {
-    expect(() => fetchFromCDN('en/data.json', ''))
-      .toThrowError('A valid release version is required.');
+    expect(() => fetchFromCDN('en/data.json', '')).toThrowError(
+      'A valid release version is required.',
+    );
   });
 
   it('errors if response is not ok', async () => {
-    global.fetch = () => Promise.resolve({
-      ok: false,
-    });
+    global.fetch = () =>
+      Promise.resolve({
+        ok: false,
+      });
 
     try {
       await fetchFromCDN('en/data.json');
@@ -88,14 +92,15 @@ describe('fetchFromCDN()', () => {
   it('caches data to session storage', async () => {
     await fetchFromCDN('en/data.json');
 
-    expect(global.sessionStorage.setItem)
-      .toBeCalledWith('emojibase/latest/en/data.json', '[1,2,3]');
+    expect(global.sessionStorage.setItem).toBeCalledWith(
+      'emojibase/latest/en/data.json',
+      '[1,2,3]',
+    );
   });
 
   it('caches data to local storage', async () => {
     await fetchFromCDN('en/data.json', 'latest', { local: true });
 
-    expect(global.localStorage.setItem)
-      .toBeCalledWith('emojibase/latest/en/data.json', '[1,2,3]');
+    expect(global.localStorage.setItem).toBeCalledWith('emojibase/latest/en/data.json', '[1,2,3]');
   });
 });

@@ -10,8 +10,8 @@ import {
 const SEQUENCE_HEXCODE_PATTERN = new RegExp(`-(${SEQUENCE_REMOVAL_PATTERN.source})`, 'g');
 
 describe('fromUnicodeToHexcode()', () => {
-  loadFlatEmojiData().forEach((emoji) => {
-    const unicode = (emoji.type === TEXT) ? emoji.text : emoji.emoji;
+  loadFlatEmojiData().forEach(emoji => {
+    const unicode = emoji.type === TEXT ? emoji.text : emoji.emoji;
 
     /*
      * The `hexcode` does not include variation selectors,

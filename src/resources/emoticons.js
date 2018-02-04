@@ -50,9 +50,9 @@ module.exports = {
 
   // PLAYFUL
   // 😂 face with tears of joy
-  '1F602': ':\')',
+  '1F602': ":')",
   // 🤣 rolling on the floor laughing
-  '1F923': ':\'D',
+  '1F923': ":'D",
   // 😆 smiling face with open mouth & closed eyes
   '1F606': 'xD',
   // 😛 face with stuck-out tongue
@@ -92,9 +92,9 @@ module.exports = {
   // 😖 confounded face
   '1F616': 'x(',
   // 😢 crying face
-  '1F622': ':\'(',
+  '1F622': ":'(",
   // 😭 loudly crying face
-  '1F62D': ':\'o',
+  '1F62D': ":'o",
   // 😩 weary face
   '1F629': 'D:',
   // 😱 face screaming in fear

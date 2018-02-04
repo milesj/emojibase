@@ -10,9 +10,8 @@ export default function formatLocale(locale: string): string {
 
   if (region) {
     newLocale += '_';
-    newLocale += (region.length === 2)
-      ? region.toUpperCase()
-      : (region.charAt(0).toUpperCase() + region.slice(1));
+    newLocale +=
+      region.length === 2 ? region.toUpperCase() : region.charAt(0).toUpperCase() + region.slice(1);
   }
 
   return newLocale;

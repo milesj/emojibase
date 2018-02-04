@@ -8,11 +8,7 @@ import log from '../helpers/log';
 
 import type { ParsedTotals } from '../types';
 
-export default function verifyTotals<T: Object>(
-  version: string,
-  data: T,
-  totals: ParsedTotals,
-): T {
+export default function verifyTotals<T: Object>(version: string, data: T, totals: ParsedTotals): T {
   // v1.0 doesnt have totals
   if (version === '1.0') {
     return data;
@@ -21,9 +17,9 @@ export default function verifyTotals<T: Object>(
   const totalsToCheck = {};
 
   // Gather totals
-  Object.values(data).forEach((emoji) => {
+  Object.values(data).forEach(emoji => {
     // $FlowIgnore
-    emoji.property.forEach((property) => {
+    emoji.property.forEach(property => {
       if (totalsToCheck[property]) {
         totalsToCheck[property] += 1;
       } else {
@@ -33,7 +29,7 @@ export default function verifyTotals<T: Object>(
   });
 
   // Check totals
-  Object.keys(totals).forEach((property) => {
+  Object.keys(totals).forEach(property => {
     if (property in totalsToCheck) {
       const expected = totals[property];
       const actual = totalsToCheck[property];
@@ -42,7 +38,7 @@ export default function verifyTotals<T: Object>(
         log.error(
           'verify',
           `Invalid ${version} ${property} count detected. ` +
-          `Expected ${expected}, found ${actual}`,
+            `Expected ${expected}, found ${actual}`,
         );
       }
     }
@@ -51,7 +47,7 @@ export default function verifyTotals<T: Object>(
   });
 
   // Check for unknowns
-  Object.keys(totalsToCheck).forEach((property) => {
+  Object.keys(totalsToCheck).forEach(property => {
     log.error('verify', `Unknown ${version} property ${property}`);
   });
 

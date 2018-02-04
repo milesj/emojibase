@@ -14,7 +14,7 @@ import type { EmojiSourceMap } from '../types';
 function swapKeyValues(data: Object): Object {
   const object = {};
 
-  Object.keys(data).forEach((key) => {
+  Object.keys(data).forEach(key => {
     object[data[key]] = Number(key);
   });
 
@@ -35,35 +35,44 @@ export default function parseEmojiList(content: string): EmojiSourceMap {
   let group = '';
   let subgroup = '';
 
-  xml('table').first().find('tr').each((i, row) => {
-    const tr = xml(row);
-    const groupRow = tr.find('.bighead');
-    const subgroupRow = tr.find('.mediumhead');
-    const headerRow = tr.find('.center');
+  xml('table')
+    .first()
+    .find('tr')
+    .each((i, row) => {
+      const tr = xml(row);
+      const groupRow = tr.find('.bighead');
+      const subgroupRow = tr.find('.mediumhead');
+      const headerRow = tr.find('.center');
 
-    // Group
-    if (groupRow.length > 0) {
-      group = groups[slug(groupRow.find('a').text())];
+      // Group
+      if (groupRow.length > 0) {
+        group = groups[slug(groupRow.find('a').text())];
 
-    // Subgroup
-    } else if (subgroupRow.length > 0) {
-      subgroup = subgroups[slug(subgroupRow.find('a').text())];
+        // Subgroup
+      } else if (subgroupRow.length > 0) {
+        subgroup = subgroups[slug(subgroupRow.find('a').text())];
 
-    // Header
-    } else if (headerRow.length > 0) {
-      // Skip emoji
+        // Header
+      } else if (headerRow.length > 0) {
+        // Skip emoji
+      } else {
+        const tds = tr.find('td');
+        const hexcode = String(
+          tds
+            .eq(1)
+            .find('a')
+            .attr('name'),
+        )
+          .toUpperCase()
+          .replace(/_/g, '-');
 
-    } else {
-      const tds = tr.find('td');
-      const hexcode = String(tds.eq(1).find('a').attr('name')).toUpperCase().replace(/_/g, '-');
-
-      data[hexcode] = {
-        group,
-        hexcode,
-        subgroup,
-      };
-    }
-  });
+        data[hexcode] = {
+          group,
+          hexcode,
+          subgroup,
+        };
+      }
+    });
 
   return data;
 }

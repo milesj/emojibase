@@ -23,7 +23,6 @@ const PROPERTY_CAPTURES = {
   '# ZWJ sequences': 'Emoji_ZWJ_Sequence',
 };
 
-
 /**
  * Parses unicode documents in which each line contains tabular data separated by semi-colons.
  *
@@ -31,7 +30,9 @@ const PROPERTY_CAPTURES = {
  *  http://unicode.org/Public/10.0.0/ucd/UnicodeData.txt
  *  http://unicode.org/Public/emoji/5.0/emoji-data.txt
  */
-export default function parse(content: string): {
+export default function parse(
+  content: string,
+): {
   lines: ParsedLine[],
   totals: ParsedTotals,
 } {
@@ -50,20 +51,19 @@ export default function parse(content: string): {
     lastTotal = 0;
   };
 
-  content.split('\n').forEach((line) => {
+  content.split('\n').forEach(line => {
     // Skip empty lines
     if (!line.trim()) {
       return;
 
-    // Skip comments
+      // Skip comments
     } else if (line.charAt(0) === '#') {
       // But extract property
       if (line.startsWith('# @missing')) {
         addTotal();
         lastProperty = line.split(';')[1].trim();
-
       } else {
-        Object.keys(PROPERTY_CAPTURES).some((start) => {
+        Object.keys(PROPERTY_CAPTURES).some(start => {
           if (line.startsWith(start)) {
             addTotal();
             lastProperty = PROPERTY_CAPTURES[start];
@@ -93,7 +93,8 @@ export default function parse(content: string): {
     }
 
     // Split into fields
-    const fields = line.split(';')
+    const fields = line
+      .split(';')
       .map(col => col.trim())
       .slice(0, 4);
 

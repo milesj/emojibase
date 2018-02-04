@@ -5,7 +5,7 @@
  */
 
 export default function joinData(emojis: Object, data: Object) {
-  Object.keys(data).forEach((hexcode) => {
+  Object.keys(data).forEach(hexcode => {
     emojis[hexcode] = data[hexcode];
   });
 }

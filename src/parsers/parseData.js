@@ -24,7 +24,7 @@ import type { EmojiDataMap } from '../types';
 export default function parseData(version: string, content: string): EmojiDataMap {
   const { lines, totals } = parse(content);
   const data = lines.reduce((map, line) => {
-    const [rawHexcode, property,, modifier] = line.fields;
+    const [rawHexcode, property, , modifier] = line.fields;
     const emoji = {
       description: extractLineDescription(line.comment),
       property: [property || 'Emoji'],
@@ -34,16 +34,13 @@ export default function parseData(version: string, content: string): EmojiDataMa
     };
 
     // Handle mapping each hexcode
-    const mapHexcode = (hexcode) => {
+    const mapHexcode = hexcode => {
       if (map[hexcode]) {
         /*
          * An emoji may belong to multiple properties,
          * so keep a unique list of all applicable.
          */
-        map[hexcode].property = Array.from(new Set([
-          ...map[hexcode].property,
-          ...emoji.property,
-        ]));
+        map[hexcode].property = Array.from(new Set([...map[hexcode].property, ...emoji.property]));
       } else {
         map[hexcode] = {
           ...emoji,
@@ -57,17 +54,23 @@ export default function parseData(version: string, content: string): EmojiDataMa
       const [lowCodepoint, highCodepoint] = fromHexcodeToCodepoint(rawHexcode, '..');
 
       for (let codepoint = lowCodepoint; codepoint <= highCodepoint; codepoint += 1) {
-        mapHexcode(codepoint.toString(16).padStart(4, '0').toUpperCase());
+        mapHexcode(
+          codepoint
+            .toString(16)
+            .padStart(4, '0')
+            .toUpperCase(),
+        );
       }
 
-    // A single emoji
+      // A single emoji
     } else {
       // v1.0 had a different structure
       if (version === '1.0') {
-        emoji.type = (property === 'emoji') ? EMOJI : TEXT;
+        emoji.type = property === 'emoji' ? EMOJI : TEXT;
         emoji.property = [
-          (modifier === 'primary' || modifier === 'secondary') ? 'Emoji_Modifier_Base' :
-            (modifier === 'modifier') ? 'Emoji_Modifier' : 'Emoji',
+          modifier === 'primary' || modifier === 'secondary'
+            ? 'Emoji_Modifier_Base'
+            : modifier === 'modifier' ? 'Emoji_Modifier' : 'Emoji',
         ];
       }
 

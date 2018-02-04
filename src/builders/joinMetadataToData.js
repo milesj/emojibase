@@ -26,7 +26,7 @@ export default function joinMetadataToData(
   shortcodes: ShortcodeMap,
   emoticons: EmoticonMap,
 ) {
-  Object.keys(emojis).forEach((hexcode) => {
+  Object.keys(emojis).forEach(hexcode => {
     const emoji = emojis[hexcode];
 
     // Pull in the official name for each hexcode part
@@ -38,17 +38,14 @@ export default function joinMetadataToData(
      */
     if (hasProperty(emoji.property, ['Emoji_Flag_Sequence', 'Emoji_Tag_Sequence'])) {
       name.push(emoji.description.toUpperCase());
-
     } else {
       let hasSkinTone = '';
 
-      hexcode.split('-').forEach((code) => {
+      hexcode.split('-').forEach(code => {
         if (code.match(SEQUENCE_REMOVAL_PATTERN)) {
           // Skip joiners
-
         } else if (code.match(SKIN_MODIFIER_PATTERN)) {
           hasSkinTone = code;
-
         } else if (names[code]) {
           name.push(names[code]);
         }

@@ -11,7 +11,7 @@ import type { EmojiMap } from '../types';
 export default function filterData(data: EmojiMap): EmojiMap {
   const cleaned = {};
 
-  Object.keys(data).forEach((hexcode) => {
+  Object.keys(data).forEach(hexcode => {
     const emoji = data[hexcode];
 
     /*

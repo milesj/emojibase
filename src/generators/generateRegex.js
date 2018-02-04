@@ -29,20 +29,18 @@ function createRegexPattern(
    */
   groups.sort((a, b) => Number(b) - Number(a));
 
-  return groups
-    .map(group => codePointGroups[group].toRegExp(flags).source)
-    .join('|');
+  return groups.map(group => codePointGroups[group].toRegExp(flags).source).join('|');
 }
 
 function createEmojiRegex(data: Object, display: string = 'both') {
-  const fileName = (display === 'both') ? 'index' : display;
+  const fileName = display === 'both' ? 'index' : display;
   const codePointGroups = {};
 
   /*
    * Push the unicode characters into the trie,
    * grouped by the number of codepoints
    */
-  const addCodePoint = (hexcode) => {
+  const addCodePoint = hexcode => {
     if (!hexcode) {
       return;
     }
@@ -61,7 +59,7 @@ function createEmojiRegex(data: Object, display: string = 'both') {
    * but we still need to support the old non-variation selector,
    * so include the unicode character that does not include FE0E/FE0F
    */
-  Object.keys(data).forEach((hexcode) => {
+  Object.keys(data).forEach(hexcode => {
     const { variations = {} } = data[hexcode];
 
     switch (display) {
@@ -106,13 +104,11 @@ function createEmoticonRegex(data: Object) {
   const trie = new Trie();
   let emoticons = [];
 
-  Object.keys(data).forEach((hexcode) => {
+  Object.keys(data).forEach(hexcode => {
     const { emoticon } = data[hexcode];
 
     if (emoticon) {
-      emoticons.push(
-        ...generateEmoticonPermutations(emoticon, EMOTICON_OPTIONS[emoticon] || {}),
-      );
+      emoticons.push(...generateEmoticonPermutations(emoticon, EMOTICON_OPTIONS[emoticon] || {}));
     }
   });
 
