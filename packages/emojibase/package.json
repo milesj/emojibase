@@ -13,11 +13,5 @@
   ],
   "repository": "https://github.com/milesj/emojibase/tree/master/packages/emojibase",
   "license": "MIT",
-  "main": "./lib/index.js",
-  "scripts": {
-    "build": "build-lib"
-  },
-  "devDependencies": {
-    "@milesj/build-tool-config": "^0.50.0"
-  }
+  "main": "./lib/index.js"
 }
