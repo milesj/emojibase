@@ -2,10 +2,12 @@ import fetchFromCDN from '../src/fetchFromCDN';
 
 describe('fetchFromCDN()', () => {
   beforeEach(() => {
-    global.fetch = jest.fn(() => Promise.resolve({
+    global.fetch = jest.fn(() =>
+      Promise.resolve({
         json: () => Promise.resolve([1, 2, 3]),
         ok: true,
-      }));
+      }),
+    );
 
     global.sessionStorage = {
       getItem: jest.fn(),
@@ -35,7 +37,8 @@ describe('fetchFromCDN()', () => {
   });
 
   it('errors if response is not ok', async () => {
-    global.fetch = () => Promise.resolve({
+    global.fetch = () =>
+      Promise.resolve({
         ok: false,
       });
 

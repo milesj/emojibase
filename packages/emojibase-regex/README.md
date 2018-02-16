@@ -18,4 +18,5 @@ import SHORTCODE_REGEX from 'emojibase-regex/shortcode';
 ':castle:'.match(SHORTCODE_REGEX);
 ```
 
-Please refer to the [official documentation](https://github.com/milesj/emojibase) for more information.
+Please refer to the [official documentation](https://github.com/milesj/emojibase) for more
+information.
