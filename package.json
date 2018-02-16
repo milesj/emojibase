@@ -55,10 +55,10 @@
     },
     "flow": {
       "libs": [
-        "./packages/emojibase/emojibase.js.flow",
-        "./packages/emojibase-data/emojibase-data.js.flow",
-        "./packages/emojibase-regex/emojibase-regex.js.flow",
-        "./packages/emojibase-test-utils/emojibase-test-utils.js.flow"
+        "./packages/core/emojibase.js.flow",
+        "./packages/data/emojibase-data.js.flow",
+        "./packages/regex/emojibase-regex.js.flow",
+        "./packages/test-utils/emojibase-test-utils.js.flow"
       ]
     }
   }

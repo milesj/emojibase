@@ -1,8 +1,8 @@
 /* eslint-disable sort-keys */
 
-import loadFlatEmojiData from '../../emojibase-test-utils/src/loadFlatEmojiData';
-import { EMOTICON_OPTIONS } from '../../emojibase/src/constants';
-import generateEmoticonPermutations from '../../emojibase/src/generateEmoticonPermutations';
+import loadFlatEmojiData from '../../test-utils/src/loadFlatEmojiData';
+import { EMOTICON_OPTIONS } from '../../core/src/constants';
+import generateEmoticonPermutations from '../../core/src/generateEmoticonPermutations';
 import toUnicode from '../../../src/generators/toUnicode';
 import COMBO_PATTERN from '..';
 import EMOJI_PATTERN from '../emoji';

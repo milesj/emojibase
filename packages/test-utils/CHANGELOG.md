@@ -4,7 +4,7 @@
 
 #### 🛠 Internal
 
-* Updated test data ([view breaking changes](../emojibase-data/CHANGELOG.md)).
+* Updated test data ([view breaking changes](../data/CHANGELOG.md)).
 
 # 1.0.7 - 9/10/17
 

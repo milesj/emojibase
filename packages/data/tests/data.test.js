@@ -1,5 +1,5 @@
-import loadFlatEmojiData from '../../emojibase-test-utils/src/loadFlatEmojiData';
-import { EMOJI, TEXT, MALE, FEMALE } from '../../emojibase/src/constants';
+import loadFlatEmojiData from '../../test-utils/src/loadFlatEmojiData';
+import { EMOJI, TEXT, MALE, FEMALE } from '../../core/src/constants';
 
 describe('data', () => {
   /*
