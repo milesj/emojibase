@@ -54,19 +54,19 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@beemo/cli@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.npmjs.org/@beemo/cli/-/cli-0.10.0.tgz#87213781fd73569b0cb685463661ff37c8e4803e"
+"@beemo/cli@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.npmjs.org/@beemo/cli/-/cli-0.10.1.tgz#7a27134f2aefa5839e3002cce973af3117b67dd1"
   dependencies:
     chalk "^2.3.0"
     semver "^5.5.0"
     yargs "^11.0.0"
 
-"@beemo/core@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.npmjs.org/@beemo/core/-/core-0.10.0.tgz#87d562699d95191b6a90124ca72c650565ad49f1"
+"@beemo/core@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.npmjs.org/@beemo/core/-/core-0.10.1.tgz#f8a96be98511315f1191149d0e05d3bca519f5e1"
   dependencies:
-    boost "^0.30.0"
+    boost "^0.31.0"
     chalk "^2.3.0"
     copy "^0.3.1"
     fs-extra "^5.0.0"
@@ -74,39 +74,39 @@
     optimal "^0.14.0"
     yargs-parser "^9.0.2"
 
-"@beemo/driver-babel@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.npmjs.org/@beemo/driver-babel/-/driver-babel-0.10.0.tgz#15b7d52a49dd108dc64997867ed9f813b19e380d"
+"@beemo/driver-babel@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.npmjs.org/@beemo/driver-babel/-/driver-babel-0.10.1.tgz#ef4b1f4995a92aa9e27005e6c9d731ee3b08b1a7"
   dependencies:
     rimraf "^2.6.2"
 
-"@beemo/driver-eslint@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.npmjs.org/@beemo/driver-eslint/-/driver-eslint-0.10.0.tgz#f7af0fb464f2fea4781f3ddf5f5417bdfea6bff1"
+"@beemo/driver-eslint@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.npmjs.org/@beemo/driver-eslint/-/driver-eslint-0.10.1.tgz#aec0575f9ffe999fbc2bfd120e2b507e9b5d4ae8"
 
-"@beemo/driver-flow@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.npmjs.org/@beemo/driver-flow/-/driver-flow-0.10.0.tgz#14c2e6c2dfce2c54c3789868bb43fa4835d5da21"
+"@beemo/driver-flow@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.npmjs.org/@beemo/driver-flow/-/driver-flow-0.10.1.tgz#718e4610f4099a70387d81766ca277074caf3d16"
 
-"@beemo/driver-jest@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.npmjs.org/@beemo/driver-jest/-/driver-jest-0.10.0.tgz#12d7f7b715c05ad7194c1680438ffa240442980f"
+"@beemo/driver-jest@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.npmjs.org/@beemo/driver-jest/-/driver-jest-0.10.1.tgz#dab69c1844c75e31dd48331f0145749231ad0c35"
 
-"@beemo/driver-prettier@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.npmjs.org/@beemo/driver-prettier/-/driver-prettier-0.10.0.tgz#270be505b0d0e1a19d245fac49712592bd4e3337"
+"@beemo/driver-prettier@^0.10.1":
+  version "0.10.1"
+  resolved "https://registry.npmjs.org/@beemo/driver-prettier/-/driver-prettier-0.10.1.tgz#70e185eb8721937043be9c8254a04a5edc52ea32"
 
-"@milesj/build-tool-config@^0.60.0":
-  version "0.60.0"
-  resolved "https://registry.npmjs.org/@milesj/build-tool-config/-/build-tool-config-0.60.0.tgz#c218819849a2fe9f36751f96f91f2208fd07d0e9"
+"@milesj/build-tool-config@^0.61.0":
+  version "0.61.0"
+  resolved "https://registry.npmjs.org/@milesj/build-tool-config/-/build-tool-config-0.61.0.tgz#60380a3e1df478f5cd8f6caaf79f76e5e3c62dfe"
   dependencies:
-    "@beemo/cli" "^0.10.0"
-    "@beemo/core" "^0.10.0"
-    "@beemo/driver-babel" "^0.10.0"
-    "@beemo/driver-eslint" "^0.10.0"
-    "@beemo/driver-flow" "^0.10.0"
-    "@beemo/driver-jest" "^0.10.0"
-    "@beemo/driver-prettier" "^0.10.0"
+    "@beemo/cli" "^0.10.1"
+    "@beemo/core" "^0.10.1"
+    "@beemo/driver-babel" "^0.10.1"
+    "@beemo/driver-eslint" "^0.10.1"
+    "@beemo/driver-flow" "^0.10.1"
+    "@beemo/driver-jest" "^0.10.1"
+    "@beemo/driver-prettier" "^0.10.1"
     babel-cli "^6.26.0"
     babel-core "^6.26.0"
     babel-eslint "^8.2.1"
@@ -1355,9 +1355,9 @@ boom@5.x.x:
   dependencies:
     hoek "4.x.x"
 
-boost@^0.30.0:
-  version "0.30.0"
-  resolved "https://registry.npmjs.org/boost/-/boost-0.30.0.tgz#b7248d8dd87397c7cd8238775fbb9e1c2d6943e3"
+boost@^0.31.0:
+  version "0.31.0"
+  resolved "https://registry.npmjs.org/boost/-/boost-0.31.0.tgz#8288dfc20275279df9a44e530f9736aa65701d43"
   dependencies:
     chalk "^2.3.0"
     elegant-spinner "^1.0.1"
@@ -1365,7 +1365,7 @@ boost@^0.30.0:
     figures "^2.0.0"
     glob "^7.1.2"
     json5 "^0.5.1"
-    lodash "^4.17.2"
+    lodash "^4.17.5"
     log-update "^2.3.0"
     optimal "^0.14.0"
     pluralize "^7.0.0"
@@ -4563,7 +4563,7 @@ lodash@^4.0.0, lodash@^4.1.0, lodash@^4.13.1, lodash@^4.14.0, lodash@^4.15.0, lo
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
-lodash@^4.17.2, lodash@^4.17.5:
+lodash@^4.17.5:
   version "4.17.5"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
 

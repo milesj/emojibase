@@ -84,14 +84,14 @@ describe('regex', () => {
             it(`matches unicode by itself for ${unicode}`, () => {
               const match = unicode.match(pattern);
 
-              expect(match).not.toBe(null);
+              expect(match).not.toBeNull();
               expect(match[0]).toBe(unicode);
             });
 
             it(`matches unicode in the middle of a string for ${unicode}`, () => {
               const match = `In the middle ${unicode} of a string.`.match(pattern);
 
-              expect(match).not.toBe(null);
+              expect(match).not.toBeNull();
               expect(match[0]).toBe(unicode);
             });
 
@@ -100,7 +100,7 @@ describe('regex', () => {
                 new RegExp(pattern.source, `g${pattern.flags}`),
               );
 
-              expect(matches).not.toBe(null);
+              expect(matches).not.toBeNull();
               expect(matches).toHaveLength(3);
               expect(matches).toEqual([unicode, unicode, unicode]);
             });
