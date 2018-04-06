@@ -4,10 +4,7 @@
  * @flow
  */
 
-import {
-  SKIN_MODIFIER_PATTERN,
-  SEQUENCE_REMOVAL_PATTERN,
-} from '../../packages/core/lib/constants';
+import { SKIN_MODIFIER_PATTERN, SEQUENCE_REMOVAL_PATTERN } from '../../packages/core/lib/constants';
 import hasProperty from '../helpers/hasProperty';
 
 import type {

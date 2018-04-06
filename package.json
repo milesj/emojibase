@@ -18,7 +18,7 @@
     "posttest": "yarn run eslint",
     "pretest": "yarn run type",
     "test": "yarn run jest",
-    "prettier": "beemo prettier",
+    "prettier": "beemo prettier \"./src/**/*.js\"",
     "package": "yarn run clean && yarn run build && yarn test",
     "prerelease": "yarn run package",
     "release": "lerna publish",

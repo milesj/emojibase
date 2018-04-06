@@ -132,7 +132,9 @@ export default async function generateData(): Promise<void> {
   // Generate datasets for each locale
   SUPPORTED_LOCALES.forEach(async locale => {
     const annotations = await buildAnnotationData(locale);
-    const emojis = Object.keys(filteredData).map(hexcode => createEmoji(filteredData[hexcode], versions, annotations),);
+    const emojis = Object.keys(filteredData).map(hexcode =>
+      createEmoji(filteredData[hexcode], versions, annotations),
+    );
 
     // Sort by order
     emojis.sort((a, b) => (a.order || 0) - (b.order || 0));

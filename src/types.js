@@ -125,16 +125,17 @@ export type PermutationOptions = {
 
 export type Presentation = 0 | 1;
 
-export type Property = 'Emoji' |
-  'Emoji_Presentation' |
-  'Emoji_Component' |
-  'Emoji_Modifier' |
-  'Emoji_Modifier_Base' |
-  'Emoji_Modifier_Sequence' |
-  'Emoji_Flag_Sequence' |
-  'Emoji_Keycap_Sequence' |
-  'Emoji_Tag_Sequence' |
-  'Emoji_ZWJ_Sequence';
+export type Property =
+  | 'Emoji'
+  | 'Emoji_Presentation'
+  | 'Emoji_Component'
+  | 'Emoji_Modifier'
+  | 'Emoji_Modifier_Base'
+  | 'Emoji_Modifier_Sequence'
+  | 'Emoji_Flag_Sequence'
+  | 'Emoji_Keycap_Sequence'
+  | 'Emoji_Tag_Sequence'
+  | 'Emoji_ZWJ_Sequence';
 
 export type ShortcodeMap = { [hexcode: string]: string[] };
 
