@@ -4,7 +4,6 @@
  * @flow
  */
 
-// $FlowIgnore Laziness
 import { Trie } from 'regexgen';
 import { EMOTICON_OPTIONS } from '../../packages/core/lib/constants';
 import generateEmoticonPermutations from '../../packages/core/lib/generateEmoticonPermutations';

@@ -1,0 +1,115 @@
+/**
+ * @copyright   2017, Miles Johnson
+ * @license     https://opensource.org/licenses/MIT
+ */
+
+import { ParsedLine, ParsedTotals } from '../types';
+
+/*
+ * Trying to detect the start of each property group is quite complicated,
+ * so let's take the easy route and match the start of the line.
+ */
+const PROPERTY_CAPTURES = {
+  '# Combining sequences': 'Emoji_Combining_Sequence',
+  '# Emoji Combining Sequence': 'Emoji_Combining_Sequence',
+  '# Emoji Flag Sequence': 'Emoji_Flag_Sequence',
+  '# Emoji Keycap Sequence': 'Emoji_Keycap_Sequence',
+  '# Emoji Modifier Sequence': 'Emoji_Modifier_Sequence',
+  '# Emoji Tag Sequence': 'Emoji_Tag_Sequence',
+  '# Emoji ZWJ Sequence': 'Emoji_ZWJ_Sequence',
+  '# Flag sequences': 'Emoji_Flag_Sequence',
+  '# Modifier sequences': 'Emoji_Modifier_Sequence',
+  '# ZWJ sequences': 'Emoji_ZWJ_Sequence',
+};
+
+/**
+ * Parses unicode documents in which each line contains tabular data separated by semi-colons.
+ *
+ * Examples:
+ *  http://unicode.org/Public/10.0.0/ucd/UnicodeData.txt
+ *  http://unicode.org/Public/emoji/5.0/emoji-data.txt
+ */
+export default function parse(
+  content: string,
+): {
+  lines: ParsedLine[];
+  totals: ParsedTotals;
+} {
+  const lines = [];
+  const totals = {};
+  let lastProperty = 'Emoji';
+  let lastTotal = 0;
+
+  // Handle totals
+  const addTotal = () => {
+    if (!lastTotal) {
+      return;
+    }
+
+    totals[lastProperty] = (totals[lastProperty] || 0) + lastTotal;
+    lastTotal = 0;
+  };
+
+  content.split('\n').forEach(line => {
+    // Skip empty lines
+    if (!line.trim()) {
+      return;
+
+      // Skip comments
+    } else if (line.charAt(0) === '#') {
+      // But extract property
+      if (line.startsWith('# @missing')) {
+        addTotal();
+        lastProperty = line.split(';')[1].trim();
+      } else {
+        Object.keys(PROPERTY_CAPTURES).some(start => {
+          if (line.startsWith(start)) {
+            addTotal();
+            lastProperty = PROPERTY_CAPTURES[start];
+
+            return true;
+          }
+
+          return false;
+        });
+      }
+
+      // And the total
+      if (line.startsWith('# Total') || line.startsWith('#Total')) {
+        lastTotal = parseFloat(line.split(':')[1].trim());
+      }
+
+      return;
+    }
+
+    // Extract the trailing comment
+    const commentIndex = line.indexOf('#');
+    let comment = '';
+
+    if (commentIndex > 0) {
+      comment = line.slice(commentIndex + 1).trim();
+      line = line.slice(0, commentIndex - 1).trim();
+    }
+
+    // Split into fields
+    const fields = line
+      .split(';')
+      .map(col => col.trim())
+      .slice(0, 4);
+
+    lines.push({
+      comment,
+      fields,
+    });
+  });
+
+  // Capture the last property
+  if (lastProperty && lastTotal) {
+    addTotal();
+  }
+
+  return {
+    lines,
+    totals,
+  };
+}

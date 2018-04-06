@@ -12,8 +12,7 @@
     "docs:serve": "gitbook serve",
     "docs:install": "gitbook install",
     "eslint": "beemo eslint",
-    "generate":
-      "yarn run build && node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/emojibase-data/en/data.json ./packages/emojibase-test-utils/test-data.json",
+    "generate": "yarn run build && node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/emojibase-data/en/data.json ./packages/emojibase-test-utils/test-data.json",
     "jest": "beemo jest",
     "posttest": "yarn run eslint",
     "pretest": "yarn run type",
@@ -27,6 +26,11 @@
   },
   "devDependencies": {
     "@milesj/build-tool-config": "^0.80.0",
+    "@types/chalk": "^2.2.0",
+    "@types/cheerio": "^0.22.7",
+    "@types/isomorphic-fetch": "^0.0.34",
+    "@types/node": "^9.6.2",
+    "@types/node-fetch": "^1.6.8",
     "chalk": "^2.3.2",
     "cheerio": "^1.0.0-rc.2",
     "filesize": "^3.6.1",
@@ -36,10 +40,18 @@
     "lerna": "^2.9.1",
     "regexgen": "^1.3.0"
   },
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "beemo": {
     "module": "@milesj/build-tool-config",
-    "drivers": ["babel", "eslint", "jest", "prettier", "typescript"],
+    "drivers": [
+      "babel",
+      "eslint",
+      "jest",
+      "prettier",
+      "typescript"
+    ],
     "eslint": {
       "rules": {
         "no-magic-numbers": "off",
@@ -47,5 +59,7 @@
       }
     }
   },
-  "browserslist": ["ie 10"]
+  "browserslist": [
+    "ie 10"
+  ]
 }

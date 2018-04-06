@@ -85,7 +85,6 @@ export default function joinModifiersToData(emojis: Object) {
       // Generate Emoji_Modifier_Base modifications manually
     } else if (hasProperty(emoji.property, ['Emoji_Modifier_Base'])) {
       Object.keys(SKIN_MODIFIERS).forEach(skinTone => {
-        // $FlowIgnore
         const mod = emojis[SKIN_MODIFIERS[skinTone]];
 
         addModification(emoji, {
