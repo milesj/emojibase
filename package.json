@@ -2,67 +2,50 @@
   "name": "emojibase-root",
   "private": true,
   "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "bootstrap:slow": "yarn run bootstrap --concurrency=1",
-    "build": "beemo run-script build-packages",
+    "babel": "beemo run-script build-packages",
+    "build": "yarn run babel",
+    "build:dts": "beemo run-script generate-dts",
     "clean": "rimraf ./packages/*/{lib,esm}/ && lerna clean --yes",
     "clean:cache": "rimraf ./cache",
     "coverage": "yarn run jest --coverage",
-    "eslint": "beemo eslint --color --report-unused-disable-directives ./src ./packages/*/{src,tests}",
-    "flow": "beemo flow check --workspaces",
-    "generate": "yarn run build && node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/emojibase-data/en/data.json ./packages/emojibase-test-utils/test-data.json",
+    "docs": "gitbook build --debug --log=debug",
+    "docs:serve": "gitbook serve",
+    "docs:install": "gitbook install",
+    "eslint": "beemo eslint",
+    "generate":
+      "yarn run build && node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/emojibase-data/en/data.json ./packages/emojibase-test-utils/test-data.json",
     "jest": "beemo jest",
-    "posttest": "yarn run flow --silent",
-    "pretest": "yarn run eslint --silent",
-    "test": "yarn run jest --silent",
-    "prettier": "beemo prettier --write ./README.md \"./packages/*/{bin,src,tests}/**/*.js\" \"./packages/*/*.{md,json}\"",
-    "package": "yarn run clean && yarn run bootstrap && yarn run build && yarn test",
+    "posttest": "yarn run eslint",
+    "pretest": "yarn run type",
+    "test": "yarn run jest",
+    "prettier": "beemo prettier",
+    "package": "yarn run clean && yarn run build && yarn test",
+    "prerelease": "yarn run package",
     "release": "lerna publish",
     "release:force": "yarn run release --force-publish=*",
-    "prerelease": "yarn run package",
-    "docs": "gitbook build --log=debug --debug",
-    "docs:serve": "gitbook serve",
-    "docs:install": "gitbook install"
+    "type": "beemo typescript --noEmit"
   },
   "devDependencies": {
-    "@milesj/build-tool-config": "^0.63.0",
-    "chalk": "^2.3.1",
+    "@milesj/build-tool-config": "^0.80.0",
+    "chalk": "^2.3.2",
     "cheerio": "^1.0.0-rc.2",
-    "filesize": "^3.6.0",
+    "filesize": "^3.6.1",
     "glob": "^7.1.2",
     "gzip-size": "^4.1.0",
     "isomorphic-fetch": "^2.2.1",
-    "lerna": "^2.9.0",
+    "lerna": "^2.9.1",
     "regexgen": "^1.3.0"
   },
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": ["packages/*"],
   "beemo": {
     "module": "@milesj/build-tool-config",
-    "drivers": [
-      "babel",
-      "eslint",
-      "flow",
-      "jest",
-      "prettier"
-    ],
+    "drivers": ["babel", "eslint", "jest", "prettier", "typescript"],
     "eslint": {
       "rules": {
-        "no-magic-numbers": 0,
-        "no-param-reassign": 0,
-        "unicorn/prefer-spread": 0,
-        "implicit-arrow-linebreak": 0,
-        "function-paren-newline": 0
+        "no-magic-numbers": "off",
+        "no-param-reassign": "off"
       }
-    },
-    "flow": {
-      "libs": [
-        "./packages/core/emojibase.js.flow",
-        "./packages/data/emojibase-data.js.flow",
-        "./packages/regex/emojibase-regex.js.flow",
-        "./packages/test-utils/emojibase-test-utils.js.flow"
-      ]
     }
-  }
+  },
+  "browserslist": ["ie 10"]
 }

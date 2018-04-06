@@ -1,12 +1,10 @@
 language: node_js
 node_js:
-  - "7"
   - "8"
   - "node"
 before_script:
   - curl -o- -L https://yarnpkg.com/install.sh | bash
   - export PATH=$HOME/.yarn/bin:$PATH
-  - yarn run bootstrap:slow && yarn run build
 script: yarn test
 notifications:
   email: false
