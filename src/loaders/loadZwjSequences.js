@@ -4,7 +4,7 @@
  * @flow
  */
 
-import { LATEST_EMOJI_VERSION } from '../../packages/emojibase/lib/constants';
+import { LATEST_EMOJI_VERSION } from '../../packages/core/lib/constants';
 import fetchAndCache from './fetchAndCache';
 import parseSequences from '../parsers/parseSequences';
 

@@ -6,8 +6,8 @@
 
 /* eslint-disable no-nested-ternary */
 
-import fromHexcodeToCodepoint from '../../packages/emojibase/lib/fromHexcodeToCodepoint';
-import { TEXT, EMOJI } from '../../packages/emojibase/lib/constants';
+import fromHexcodeToCodepoint from '../../packages/core/lib/fromHexcodeToCodepoint';
+import { TEXT, EMOJI } from '../../packages/core/lib/constants';
 import parse from './parse';
 import extractLineDescription from './extractLineDescription';
 import extractUnicodeVersion from './extractUnicodeVersion';

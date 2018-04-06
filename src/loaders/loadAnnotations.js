@@ -4,7 +4,7 @@
  * @flow
  */
 
-import { LATEST_CLDR_VERSION } from '../../packages/emojibase/lib/constants';
+import { LATEST_CLDR_VERSION } from '../../packages/core/lib/constants';
 import fetchAndCache from './fetchAndCache';
 import parseAnnotations from '../parsers/parseAnnotations';
 import formatLocale from '../helpers/formatLocale';

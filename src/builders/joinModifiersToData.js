@@ -19,7 +19,7 @@ import {
   DARK_SKIN_MODIFIER,
   SKIN_MODIFIER_PATTERN,
   EMOJI_VARIATION_SELECTOR,
-} from '../../packages/emojibase/lib/constants';
+} from '../../packages/core/lib/constants';
 import hasProperty from '../helpers/hasProperty';
 import extractSkinTone from '../parsers/extractSkinTone';
 

@@ -4,7 +4,7 @@
  * @flow
  */
 
-import { FIRST_UNICODE_EMOJI_VERSION } from '../../packages/emojibase/lib/constants';
+import { FIRST_UNICODE_EMOJI_VERSION } from '../../packages/core/lib/constants';
 
 export default function extractUnicodeVersion(comment: string): ?number {
   const unicodeVersion = comment.match(/^V?([0-9.]+)/);

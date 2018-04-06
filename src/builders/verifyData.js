@@ -10,7 +10,7 @@ import {
   SKIN_MODIFIER_PATTERN,
   EMOJI_VARIATION_SELECTOR,
   TEXT_VARIATION_SELECTOR,
-} from '../../packages/emojibase/lib/constants';
+} from '../../packages/core/lib/constants';
 import log from '../helpers/log';
 import isObject from '../helpers/isObject';
 import hasProperty from '../helpers/hasProperty';

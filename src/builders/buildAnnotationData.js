@@ -11,8 +11,8 @@ import {
   REGIONAL_INDICATORS,
   TAG_LATIN_SMALL_LETTERS,
   MALE_SIGN,
-} from '../../packages/emojibase/lib/constants';
-import stripHexcode from '../../packages/emojibase/lib/stripHexcode';
+} from '../../packages/core/lib/constants';
+import stripHexcode from '../../packages/core/lib/stripHexcode';
 import log from '../helpers/log';
 import hasProperty from '../helpers/hasProperty';
 import writeCache from '../helpers/writeCache';

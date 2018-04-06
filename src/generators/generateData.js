@@ -6,8 +6,8 @@
 
 /* eslint-disable complexity */
 
-import { SUPPORTED_LOCALES } from '../../packages/emojibase/lib/constants';
-import stripHexcode from '../../packages/emojibase/lib/stripHexcode';
+import { SUPPORTED_LOCALES } from '../../packages/core/lib/constants';
+import stripHexcode from '../../packages/core/lib/stripHexcode';
 import buildEmojiData from '../builders/buildEmojiData';
 import buildAnnotationData from '../builders/buildAnnotationData';
 import log from '../helpers/log';

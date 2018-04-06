@@ -78,9 +78,9 @@ describe('regex', () => {
     }
 
     variations.forEach(({ unicode, variation, patterns }) => {
-      describe(VARIATION_DESCRIPTIONS[variation], () => {
+      describe(`${VARIATION_DESCRIPTIONS[variation]}`, () => {
         patterns.forEach(({ pattern, type }) => {
-          describe(PATTERN_DESCRIPTIONS[type], () => {
+          describe(`${PATTERN_DESCRIPTIONS[type]}`, () => {
             it(`matches unicode by itself for ${unicode}`, () => {
               const match = unicode.match(pattern);
 

@@ -4,7 +4,7 @@
  * @flow
  */
 
-import { EMOJI } from '../../packages/emojibase/lib/constants';
+import { EMOJI } from '../../packages/core/lib/constants';
 import parse from './parse';
 import extractGender from './extractGender';
 import extractLineDescription from './extractLineDescription';

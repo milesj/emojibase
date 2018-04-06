@@ -6,8 +6,8 @@
 
 // $FlowIgnore Laziness
 import { Trie } from 'regexgen';
-import { EMOTICON_OPTIONS } from '../../packages/emojibase/lib/constants';
-import generateEmoticonPermutations from '../../packages/emojibase/lib/generateEmoticonPermutations';
+import { EMOTICON_OPTIONS } from '../../packages/core/lib/constants';
+import generateEmoticonPermutations from '../../packages/core/lib/generateEmoticonPermutations';
 import buildEmojiData from '../builders/buildEmojiData';
 import log from '../helpers/log';
 import writeRegex from '../helpers/writeRegex';

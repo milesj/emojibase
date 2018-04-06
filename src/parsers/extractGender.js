@@ -4,7 +4,7 @@
  * @flow
  */
 
-import { FEMALE, FEMALE_SIGN, MALE, MALE_SIGN } from '../../packages/emojibase/lib/constants';
+import { FEMALE, FEMALE_SIGN, MALE, MALE_SIGN } from '../../packages/core/lib/constants';
 
 import type { Gender } from '../types';
 

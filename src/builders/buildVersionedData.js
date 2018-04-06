@@ -6,7 +6,7 @@
 
 /* eslint-disable no-await-in-loop */
 
-import { LATEST_EMOJI_VERSION } from '../../packages/emojibase/lib/constants';
+import { LATEST_EMOJI_VERSION } from '../../packages/core/lib/constants';
 import log from '../helpers/log';
 import writeCache from '../helpers/writeCache';
 import loadData from '../loaders/loadData';

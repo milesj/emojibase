@@ -11,7 +11,7 @@
     "eslint": "beemo eslint --color --report-unused-disable-directives ./src ./packages/*/{src,tests}",
     "flow": "beemo flow check --workspaces",
     "generate": "yarn run build && node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/emojibase-data/en/data.json ./packages/emojibase-test-utils/test-data.json",
-    "jest": "beemo jest --colors --logHeapUsage --workspaces",
+    "jest": "beemo jest",
     "posttest": "yarn run flow --silent",
     "pretest": "yarn run eslint --silent",
     "test": "yarn run jest --silent",
@@ -50,7 +50,10 @@
     "eslint": {
       "rules": {
         "no-magic-numbers": 0,
-        "no-param-reassign": 0
+        "no-param-reassign": 0,
+        "unicorn/prefer-spread": 0,
+        "implicit-arrow-linebreak": 0,
+        "function-paren-newline": 0
       }
     },
     "flow": {

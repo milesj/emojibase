@@ -4,7 +4,7 @@
  * @flow
  */
 
-import { TEXT } from '../../packages/emojibase/lib/constants';
+import { TEXT } from '../../packages/core/lib/constants';
 import type { FinalEmoji } from '../types';
 
 export default function extractSubset(data: FinalEmoji[], format: string): FinalEmoji[] {
