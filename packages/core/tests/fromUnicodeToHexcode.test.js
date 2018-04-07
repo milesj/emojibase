@@ -13,11 +13,9 @@ describe('fromUnicodeToHexcode()', () => {
   loadFlatEmojiData().forEach(emoji => {
     const unicode = emoji.type === TEXT ? emoji.text : emoji.emoji;
 
-    /*
-     * The `hexcode` does not include variation selectors,
-     * while the converted hexcode might, so let's just
-     * remove them all together as assertion is still the same.
-     */
+    // The `hexcode` does not include variation selectors,
+    // while the converted hexcode might, so let's just
+    // remove them all together as assertion is still the same.
     it(`converts unicode to hexcode for ${unicode}`, () => {
       const hexcode = fromUnicodeToHexcode(unicode, false);
 

@@ -6,8 +6,8 @@
 
 /* eslint-disable complexity */
 
-import { SUPPORTED_LOCALES } from '../../packages/core/lib/constants';
-import stripHexcode from '../../packages/core/lib/stripHexcode';
+import { SUPPORTED_LOCALES } from '../../packages/core/src/constants';
+import stripHexcode from '../../packages/core/src/stripHexcode';
 import buildEmojiData from '../builders/buildEmojiData';
 import buildAnnotationData from '../builders/buildAnnotationData';
 import log from '../helpers/log';
@@ -16,8 +16,7 @@ import writeDataset from '../helpers/writeDataset';
 import filterData from '../helpers/filterData';
 import extractSubset from './extractSubset';
 import toUnicode from './toUnicode';
-
-import type { CLDRAnnotationMap, FinalEmoji } from '../types';
+import { CLDRAnnotationMap, FinalEmoji } from '../types';
 
 type VersionMap = { [hexcode: string]: number };
 

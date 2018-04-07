@@ -8,16 +8,24 @@ import slug from '../helpers/slug';
 import writeCache from '../helpers/writeCache';
 import { EmojiGroupMap } from '../types';
 
+interface GroupNameMap {
+  [index: number]: string;
+}
+
+interface GroupHierarchy {
+  [index: number]: number[];
+}
+
 /**
  * Parses the official unicode emoji-test data, which includes order and grouping.
  *
  * Example: http://unicode.org/Public/emoji/5.0/emoji-test.txt
  */
 export default function parseOrderAndGroup(content: string): EmojiGroupMap {
-  const map = {};
-  const groups = {};
-  const subgroups = {};
-  const hierarchy = {};
+  const map: EmojiGroupMap = {};
+  const groups: GroupNameMap = {};
+  const subgroups: GroupNameMap = {};
+  const hierarchy: GroupHierarchy = {};
   let group = '';
   let groupIndex = -1;
   let subgroup = '';

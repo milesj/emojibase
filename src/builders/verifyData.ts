@@ -1,7 +1,6 @@
 /**
  * @copyright   2017, Miles Johnson
  * @license     https://opensource.org/licenses/MIT
- * @flow
  */
 
 /* eslint-disable complexity */
@@ -10,12 +9,11 @@ import {
   SKIN_MODIFIER_PATTERN,
   EMOJI_VARIATION_SELECTOR,
   TEXT_VARIATION_SELECTOR,
-} from '../../packages/core/lib/constants';
+} from '../../packages/core/src/constants';
 import log from '../helpers/log';
 import isObject from '../helpers/isObject';
 import hasProperty from '../helpers/hasProperty';
-
-import type { EmojiMap } from '../types';
+import { EmojiMap } from '../types';
 
 export default function verifyData(emojis: EmojiMap): EmojiMap {
   const usedShortcodes = {};
@@ -30,10 +28,8 @@ export default function verifyData(emojis: EmojiMap): EmojiMap {
       return;
     }
 
-    /*
-     * Verify no skin tone modifications are in the root,
-     * excluding the Fitzpatrick modifiers themselves.
-     */
+    // Verify no skin tone modifications are in the root,
+    // excluding the Fitzpatrick modifiers themselves.
     if (hexcode.match(SKIN_MODIFIER_PATTERN) && hexcode.length !== 5) {
       errors.push('Emoji with Fitzpatrick modifier found at the root.');
     }

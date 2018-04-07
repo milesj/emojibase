@@ -48,8 +48,8 @@ export interface EmojiData {
   hexcode: Hexcode;
   property: Property[];
   type: Presentation;
-  unicodeVersion: string;
-  version: string;
+  unicodeVersion: number | null;
+  version: number;
 }
 
 export type EmojiDataMap = HexcodeMap<EmojiData>;

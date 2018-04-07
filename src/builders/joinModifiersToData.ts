@@ -1,7 +1,6 @@
 /**
  * @copyright   2017, Miles Johnson
  * @license     https://opensource.org/licenses/MIT
- * @flow
  */
 
 /* eslint-disable sort-keys */
@@ -19,15 +18,14 @@ import {
   DARK_SKIN_MODIFIER,
   SKIN_MODIFIER_PATTERN,
   EMOJI_VARIATION_SELECTOR,
-} from '../../packages/core/lib/constants';
+} from '../../packages/core/src/constants';
 import hasProperty from '../helpers/hasProperty';
 import extractSkinTone from '../parsers/extractSkinTone';
-
-import type { SkinTone } from '../types';
+import { SkinTone } from '../types';
 
 const SKIN_HEXCODE_PATTERN: RegExp = new RegExp(`-(${SKIN_MODIFIER_PATTERN.source})`, 'g');
 
-const SKIN_MODIFIERS: { [tone: SkinTone]: string } = {
+const SKIN_MODIFIERS: { [tone: string]: string } = {
   [LIGHT_SKIN]: LIGHT_SKIN_MODIFIER, // 1
   [MEDIUM_LIGHT_SKIN]: MEDIUM_LIGHT_SKIN_MODIFIER, // 2
   [MEDIUM_SKIN]: MEDIUM_SKIN_MODIFIER, // 3
@@ -66,12 +64,10 @@ export default function joinModifiersToData(emojis: Object) {
         EMOJI_VARIATION_SELECTOR,
       );
 
-      /*
-       * Some ZWJ parent emoji can easily be found by removing their skin tone modifier:
-       * 1F468 1F3FB 200D 2695 FE0F -> 1F468 200D 2695 FE0F
-       * While others need to replace their skin tone modifier with the emoji variation selector:
-       * 26F9 1F3FB 200D 2640 FE0F -> 26F9 FE0F 200D 2640 FE0F
-       */
+      // Some ZWJ parent emoji can easily be found by removing their skin tone modifier:
+      // 1F468 1F3FB 200D 2695 FE0F -> 1F468 200D 2695 FE0F
+      // While others need to replace their skin tone modifier with the emoji variation selector:
+      // 26F9 1F3FB 200D 2640 FE0F -> 26F9 FE0F 200D 2640 FE0F
       const parentEmoji = emojis[parentHexcode] || emojis[parentHexcodeWithVariation];
 
       addModification(parentEmoji, {

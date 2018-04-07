@@ -5,11 +5,9 @@
 
 import { ParsedLine, ParsedTotals } from '../types';
 
-/*
- * Trying to detect the start of each property group is quite complicated,
- * so let's take the easy route and match the start of the line.
- */
-const PROPERTY_CAPTURES = {
+// Trying to detect the start of each property group is quite complicated,
+// so let's take the easy route and match the start of the line.
+const PROPERTY_CAPTURES: { [key: string]: string } = {
   '# Combining sequences': 'Emoji_Combining_Sequence',
   '# Emoji Combining Sequence': 'Emoji_Combining_Sequence',
   '# Emoji Flag Sequence': 'Emoji_Flag_Sequence',
@@ -35,8 +33,8 @@ export default function parse(
   lines: ParsedLine[];
   totals: ParsedTotals;
 } {
-  const lines = [];
-  const totals = {};
+  const lines: ParsedLine[] = [];
+  const totals: ParsedTotals = {};
   let lastProperty = 'Emoji';
   let lastTotal = 0;
 

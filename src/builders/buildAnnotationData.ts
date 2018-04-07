@@ -1,7 +1,6 @@
 /**
  * @copyright   2017, Miles Johnson
  * @license     https://opensource.org/licenses/MIT
- * @flow
  */
 
 /* eslint-disable complexity */
@@ -11,8 +10,8 @@ import {
   REGIONAL_INDICATORS,
   TAG_LATIN_SMALL_LETTERS,
   MALE_SIGN,
-} from '../../packages/core/lib/constants';
-import stripHexcode from '../../packages/core/lib/stripHexcode';
+} from '../../packages/core/src/constants';
+import stripHexcode from '../../packages/core/src/stripHexcode';
 import log from '../helpers/log';
 import hasProperty from '../helpers/hasProperty';
 import writeCache from '../helpers/writeCache';
@@ -21,8 +20,7 @@ import loadData from '../loaders/loadData';
 import loadLocalization from '../loaders/loadLocalization';
 import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
-
-import type { CLDRAnnotationMap } from '../types';
+import { CLDRAnnotationMap } from '../types';
 
 export default async function buildAnnotationData(locale: string): Promise<CLDRAnnotationMap> {
   log.title('build', `Building ${locale} annotation data`);

@@ -1,13 +1,11 @@
 /**
  * @copyright   2017, Miles Johnson
  * @license     https://opensource.org/licenses/MIT
- * @flow
  */
 
-import { SKIN_MODIFIER_PATTERN, SEQUENCE_REMOVAL_PATTERN } from '../../packages/core/lib/constants';
+import { SKIN_MODIFIER_PATTERN, SEQUENCE_REMOVAL_PATTERN } from '../../packages/core/src/constants';
 import hasProperty from '../helpers/hasProperty';
-
-import type {
+import {
   UnicodeNamesMap,
   EmojiGroupMap,
   EmojiVariationMap,
@@ -29,10 +27,8 @@ export default function joinMetadataToData(
     // Pull in the official name for each hexcode part
     const name = [];
 
-    /*
-     * Tag and flag sequences don't have meaningful names,
-     * so use the descriptions parsed from the offical data files
-     */
+    // Tag and flag sequences don't have meaningful names,
+    // so use the descriptions parsed from the offical data files
     if (hasProperty(emoji.property, ['Emoji_Flag_Sequence', 'Emoji_Tag_Sequence'])) {
       name.push(emoji.description.toUpperCase());
     } else {

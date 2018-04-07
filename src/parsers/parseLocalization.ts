@@ -20,7 +20,7 @@ export default function parseLocalization(
   attrName: string = 'type',
 ): CLDRDataMap {
   const xml = cheerio.load(content, { xmlMode: true });
-  const data = {};
+  const data: CLDRDataMap = {};
 
   xml(nodeName).each((i, rawRow) => {
     const row = xml(rawRow);

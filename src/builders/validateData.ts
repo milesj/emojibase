@@ -1,14 +1,12 @@
 /**
  * @copyright   2017, Miles Johnson
  * @license     https://opensource.org/licenses/MIT
- * @flow
  */
 
 import log from '../helpers/log';
 import flattenData from '../helpers/flattenData';
 import loadEmojiList from '../loaders/loadEmojiList';
-
-import type { EmojiMap } from '../types';
+import { EmojiMap } from '../types';
 
 export default async function validateData(data: EmojiMap): Promise<void> {
   const officialSource = await loadEmojiList();

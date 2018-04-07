@@ -1,25 +1,23 @@
 /**
  * @copyright   2017, Miles Johnson
  * @license     https://opensource.org/licenses/MIT
- * @flow
  */
 
 /* eslint-disable no-await-in-loop */
 
-import { LATEST_EMOJI_VERSION } from '../../packages/core/lib/constants';
+import { LATEST_EMOJI_VERSION } from '../../packages/core/src/constants';
 import log from '../helpers/log';
 import writeCache from '../helpers/writeCache';
 import loadData from '../loaders/loadData';
 import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
-
-import type { EmojiDataMap } from '../types';
+import { EmojiDataMap } from '../types';
 
 type VersionMap = { [version: string]: EmojiDataMap };
 
 export default async function buildVersionedData(): Promise<{
-  emojiVersions: VersionMap,
-  unicodeVersions: VersionMap,
+  emojiVersions: VersionMap;
+  unicodeVersions: VersionMap;
 }> {
   log.title('build', 'Building versioned data');
 

@@ -1,7 +1,6 @@
 /**
  * @copyright   2017, Miles Johnson
  * @license     https://opensource.org/licenses/MIT
- * @flow
  */
 
 import log from '../helpers/log';
@@ -19,8 +18,7 @@ import joinMetadataToData from './joinMetadataToData';
 import joinModifiersToData from './joinModifiersToData';
 import validateData from './validateData';
 import verifyData from './verifyData';
-
-import type { EmojiMap } from '../types';
+import { EmojiMap } from '../types';
 
 export default async function buildEmojiData(): Promise<EmojiMap> {
   log.title('build', 'Building emoji data');

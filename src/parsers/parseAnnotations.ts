@@ -15,7 +15,7 @@ import { CLDRAnnotationMap } from '../types';
  */
 export default function parseAnnotations(version: string, content: string): CLDRAnnotationMap {
   const xml = cheerio.load(content, { xmlMode: true });
-  const data = {};
+  const data: CLDRAnnotationMap = {};
 
   xml('annotation').each((i, rawRow) => {
     const row = xml(rawRow);
@@ -25,7 +25,10 @@ export default function parseAnnotations(version: string, content: string): CLDR
     const hexcode = stripHexcode(fromUnicodeToHexcode(row.attr('cp')));
 
     if (!data[hexcode]) {
-      data[hexcode] = {};
+      data[hexcode] = {
+        annotation: '',
+        tags: [],
+      };
     }
 
     if (row.attr('type') === 'tts') {

@@ -4,7 +4,7 @@
  */
 
 import parse from './parse';
-import { UnicodeNamesMap } from '../types';
+import { UnicodeNamesMap, ParsedLine } from '../types';
 
 /**
  * Parses the official unicode list for all character names.
@@ -14,7 +14,7 @@ import { UnicodeNamesMap } from '../types';
 export default function parseNames(content: string): UnicodeNamesMap {
   const { lines } = parse(content);
 
-  return lines.reduce((map, line) => {
+  return lines.reduce((map: UnicodeNamesMap, line: ParsedLine) => {
     const [hexcode, name] = line.fields;
 
     map[hexcode] = name;

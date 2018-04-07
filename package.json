@@ -5,6 +5,7 @@
     "babel": "beemo run-script build-packages",
     "build": "yarn run babel",
     "build:dts": "beemo run-script generate-dts",
+    "build:src": "beemo typescript --allowJs",
     "clean": "rimraf ./packages/*/{lib,esm}/ && lerna clean --yes",
     "clean:cache": "rimraf ./cache",
     "coverage": "yarn run jest --coverage",
@@ -12,7 +13,7 @@
     "docs:serve": "gitbook serve",
     "docs:install": "gitbook install",
     "eslint": "beemo eslint",
-    "generate": "yarn run build && node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/emojibase-data/en/data.json ./packages/emojibase-test-utils/test-data.json",
+    "generate": "yarn run build:src && node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/data/en/data.json ./packages/test-utils/test-data.json",
     "jest": "beemo jest",
     "posttest": "yarn run eslint",
     "pretest": "yarn run type",
@@ -57,6 +58,9 @@
         "no-magic-numbers": "off",
         "no-param-reassign": "off"
       }
+    },
+    "typescript": {
+      "include": ["./packages/*/src/**/*", "./src/**/*", "./types/**/*"]
     }
   },
   "browserslist": [

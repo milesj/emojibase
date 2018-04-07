@@ -12,11 +12,11 @@ export default function verifyTotals<T>(version: string, data: T, totals: Parsed
     return data;
   }
 
-  const totalsToCheck = {};
+  const totalsToCheck: { [key: string]: number } = {};
 
   // Gather totals
   Object.values(data).forEach(emoji => {
-    emoji.property.forEach(property => {
+    emoji.property.forEach((property: string) => {
       if (totalsToCheck[property]) {
         totalsToCheck[property] += 1;
       } else {

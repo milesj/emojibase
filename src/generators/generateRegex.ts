@@ -1,12 +1,11 @@
 /**
  * @copyright   2017, Miles Johnson
  * @license     https://opensource.org/licenses/MIT
- * @flow
  */
 
 import { Trie } from 'regexgen';
-import { EMOTICON_OPTIONS } from '../../packages/core/lib/constants';
-import generateEmoticonPermutations from '../../packages/core/lib/generateEmoticonPermutations';
+import { EMOTICON_OPTIONS } from '../../packages/core/src/constants';
+import generateEmoticonPermutations from '../../packages/core/src/generateEmoticonPermutations';
 import buildEmojiData from '../builders/buildEmojiData';
 import log from '../helpers/log';
 import writeRegex from '../helpers/writeRegex';
@@ -15,17 +14,15 @@ import flattenData from '../helpers/flattenData';
 import toUnicode from './toUnicode';
 
 function createRegexPattern(
-  codePointGroups: *,
+  codePointGroups: any,
   display: string = 'both',
   unicode: boolean = false,
 ): string {
   const flags = unicode ? 'u' : '';
   const groups = Object.keys(codePointGroups);
 
-  /*
-   * Sort from largest to smallest, as we need to match
-   * combination characters before base or single characters
-   */
+  // Sort from largest to smallest, as we need to match
+  // combination characters before base or single characters
   groups.sort((a, b) => Number(b) - Number(a));
 
   return groups.map(group => codePointGroups[group].toRegExp(flags).source).join('|');
@@ -35,10 +32,8 @@ function createEmojiRegex(data: Object, display: string = 'both') {
   const fileName = display === 'both' ? 'index' : display;
   const codePointGroups = {};
 
-  /*
-   * Push the unicode characters into the trie,
-   * grouped by the number of codepoints
-   */
+  // Push the unicode characters into the trie,
+  // grouped by the number of codepoints
   const addCodePoint = hexcode => {
     if (!hexcode) {
       return;
@@ -53,11 +48,9 @@ function createEmojiRegex(data: Object, display: string = 'both') {
     codePointGroups[group].add(toUnicode(hexcode));
   };
 
-  /*
-   * Note: variation selectors are sometimes added to old emojis,
-   * but we still need to support the old non-variation selector,
-   * so include the unicode character that does not include FE0E/FE0F
-   */
+  // Note: variation selectors are sometimes added to old emojis,
+  // but we still need to support the old non-variation selector,
+  // so include the unicode character that does not include FE0E/FE0F
   Object.keys(data).forEach(hexcode => {
     const { variations = {} } = data[hexcode];
 

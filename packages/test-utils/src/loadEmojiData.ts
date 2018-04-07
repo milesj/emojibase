@@ -1,12 +1,12 @@
 /**
  * @copyright   2017, Miles Johnson
  * @license     https://opensource.org/licenses/MIT
- * @flow
  */
 
 let DATA = [];
 
-export default function loadEmojiData(): Object[] {
+// TODO
+export default function loadEmojiData(): object[] {
   if (DATA.length > 0) {
     return DATA;
   }

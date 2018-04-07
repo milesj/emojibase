@@ -8,8 +8,21 @@ import readCache from '../helpers/readCache';
 import slug from '../helpers/slug';
 import { EmojiSourceMap } from '../types';
 
-function swapKeyValues(data: object): object {
-  const object = {};
+interface GroupNameMap {
+  [name: string]: number;
+}
+
+interface GroupIndexMap {
+  [index: string]: string;
+}
+
+interface GroupCache {
+  groups: GroupIndexMap;
+  subgroups: GroupIndexMap;
+}
+
+function swapKeyValues(data: GroupIndexMap): GroupNameMap {
+  const object: GroupNameMap = {};
 
   Object.keys(data).forEach(key => {
     object[data[key]] = Number(key);
@@ -25,12 +38,12 @@ function swapKeyValues(data: object): object {
  */
 export default function parseEmojiList(content: string): EmojiSourceMap {
   const xml = cheerio.load(content, { xmlMode: true });
-  const groupCache = readCache('group-hierarchy.json') || {};
-  const groups = swapKeyValues(groupCache.groups);
-  const subgroups = swapKeyValues(groupCache.subgroups);
-  const data = {};
-  let group = '';
-  let subgroup = '';
+  const groupCache = (readCache('group-hierarchy.json') || {}) as GroupCache;
+  const groups: GroupNameMap = swapKeyValues(groupCache.groups);
+  const subgroups: GroupNameMap = swapKeyValues(groupCache.subgroups);
+  const data: EmojiSourceMap = {};
+  let group = 0;
+  let subgroup = 0;
 
   xml('table')
     .first()
@@ -44,11 +57,9 @@ export default function parseEmojiList(content: string): EmojiSourceMap {
       // Group
       if (groupRow.length > 0) {
         group = groups[slug(groupRow.find('a').text())];
-
         // Subgroup
       } else if (subgroupRow.length > 0) {
         subgroup = subgroups[slug(subgroupRow.find('a').text())];
-
         // Header
       } else if (headerRow.length > 0) {
         // Skip emoji

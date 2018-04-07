@@ -1,11 +1,10 @@
 /**
  * @copyright   2017, Miles Johnson
  * @license     https://opensource.org/licenses/MIT
- * @flow
  */
 
 import { TEXT } from '../../packages/core/lib/constants';
-import type { FinalEmoji } from '../types';
+import { FinalEmoji } from '../types';
 
 export default function extractSubset(data: FinalEmoji[], format: string): FinalEmoji[] {
   const emojis = [];
