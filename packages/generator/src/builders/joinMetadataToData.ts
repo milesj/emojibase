@@ -7,6 +7,7 @@ import { SKIN_MODIFIER_PATTERN, SEQUENCE_REMOVAL_PATTERN } from 'emojibase';
 import hasProperty from '../helpers/hasProperty';
 import {
   UnicodeNamesMap,
+  EmojiMap,
   EmojiGroupMap,
   EmojiVariationMap,
   ShortcodeMap,
@@ -14,7 +15,7 @@ import {
 } from '../types';
 
 export default function joinMetadataToData(
-  emojis: Object,
+  emojis: EmojiMap,
   names: UnicodeNamesMap,
   groups: EmojiGroupMap,
   variations: EmojiVariationMap,
@@ -25,7 +26,7 @@ export default function joinMetadataToData(
     const emoji = emojis[hexcode];
 
     // Pull in the official name for each hexcode part
-    const name = [];
+    const name: string[] = [];
 
     // Tag and flag sequences don't have meaningful names,
     // so use the descriptions parsed from the offical data files
@@ -63,6 +64,7 @@ export default function joinMetadataToData(
     // Pull in text and emoji variations
     if (variations[hexcode]) {
       emoji.variations = {
+        property: ['Emoji'],
         emoji: variations[hexcode].emoji,
         text: variations[hexcode].text,
       };

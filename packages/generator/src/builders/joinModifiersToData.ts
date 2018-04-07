@@ -21,7 +21,7 @@ import {
 } from 'emojibase';
 import hasProperty from '../helpers/hasProperty';
 import extractSkinTone from '../parsers/extractSkinTone';
-import { SkinTone } from '../types';
+import { Emoji, EmojiModification, EmojiMap, SkinTone } from '../types';
 
 const SKIN_HEXCODE_PATTERN: RegExp = new RegExp(`-(${SKIN_MODIFIER_PATTERN.source})`, 'g');
 
@@ -33,12 +33,16 @@ const SKIN_MODIFIERS: { [tone: string]: string } = {
   [DARK_SKIN]: DARK_SKIN_MODIFIER, // 5
 };
 
-export default function joinModifiersToData(emojis: Object) {
+export default function joinModifiersToData(emojis: EmojiMap) {
   Object.keys(emojis).forEach(hexcode => {
     const emoji = emojis[hexcode];
 
     // Handle appending a skin tone modification
-    const addModification = (parent, mod) => {
+    const addModification = (parent: Emoji, mod: EmojiModification) => {
+      if (!mod.tone) {
+        return;
+      }
+
       if (!parent.modifications) {
         parent.modifications = {};
       }
@@ -84,9 +88,10 @@ export default function joinModifiersToData(emojis: Object) {
         const mod = emojis[SKIN_MODIFIERS[skinTone]];
 
         addModification(emoji, {
+          ...emoji,
           hexcode: `${emoji.hexcode}-${mod.hexcode}`,
           name: `${emoji.name}, ${mod.name}`,
-          tone: parseFloat(skinTone),
+          tone: parseFloat(skinTone) as SkinTone,
         });
       });
     }

@@ -26,7 +26,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
   log.title('build', `Building ${locale} annotation data`);
 
   // Load the base annotations and localization datasets
-  const data = {};
+  const data: CLDRAnnotationMap = {};
   const localization = await loadLocalization(locale);
   const englishAnnotations = await loadAnnotations('en'); // Fallback to English
   const annotations = await loadAnnotations(locale);
@@ -41,7 +41,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     parentAnnotationsDerived = await loadAnnotations(parentLocale, true);
   }
 
-  function extractField(hexcode: string, field: string): any {
+  function extractField(hexcode: string, field: 'annotation' | 'tags'): any {
     const sets = [
       annotationsDerived,
       annotations,
@@ -51,8 +51,10 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     ];
 
     // eslint-disable-next-line no-cond-assign
-    for (let i = 0, set; (set = sets[i]); i += 1) {
-      if (set[hexcode] && set[hexcode][field]) {
+    for (let i = 0, set; i <= sets.length; i += 1) {
+      set = sets[i] as CLDRAnnotationMap;
+
+      if (set && set[hexcode] && set[hexcode][field]) {
         return set[hexcode][field];
       }
     }
@@ -78,7 +80,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     if (hasProperty(emoji.property, ['Emoji_Flag_Sequence'])) {
       const countryCode = fullHexcode
         .split('-')
-        .map(hex => REGIONAL_INDICATORS[hex])
+        .map((hex: string) => REGIONAL_INDICATORS[hex])
         .join('');
 
       if (!annotation) {
@@ -91,7 +93,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     } else if (hasProperty(emoji.property, ['Emoji_Tag_Sequence'])) {
       const divisionName = hexcode
         .split('-')
-        .map(hex => TAG_LATIN_SMALL_LETTERS[hex])
+        .map((hex: string) => TAG_LATIN_SMALL_LETTERS[hex])
         .join('');
 
       if (!annotation) {
@@ -110,14 +112,14 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
 
       // ZWJ sequences require special treatment
     } else if (hasProperty(emoji.property, ['Emoji_ZWJ_Sequence'])) {
-      const suffix = [];
+      const suffix: string[] = [];
       let prefixName = '';
       let suffixName = '';
       let sequence = hexcode.split('-');
 
       // Inherit tags if none were defined
       if (tags.length === 0) {
-        sequence.forEach(hex => {
+        sequence.forEach((hex: string) => {
           tags.push(...(extractField(hex, 'tags') || []));
         });
       }
@@ -128,7 +130,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
         emoji.description.startsWith('family:') ||
         emoji.description.startsWith('couple with heart:')
       ) {
-        sequence.forEach(hex => {
+        sequence.forEach((hex: string) => {
           // Kiss mark, Heavy black heart
           if (hex !== '1F48B' && hex !== '2764') {
             suffix.push(hex);

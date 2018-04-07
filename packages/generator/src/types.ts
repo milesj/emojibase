@@ -71,7 +71,7 @@ export interface EmojiSource {
 export type EmojiSourceMap = HexcodeMap<EmojiSource>;
 
 export interface EmojiModification extends Emoji {
-  tone: SkinTone;
+  tone: SkinTone | null;
 }
 
 export interface EmojiVariation {

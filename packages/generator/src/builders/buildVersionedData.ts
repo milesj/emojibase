@@ -13,17 +13,19 @@ import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
 import { EmojiDataMap } from '../types';
 
-type VersionMap = { [version: string]: EmojiDataMap };
+interface VersionDataMap {
+  [version: string]: EmojiDataMap;
+}
 
 export default async function buildVersionedData(): Promise<{
-  emojiVersions: VersionMap;
-  unicodeVersions: VersionMap;
+  emojiVersions: VersionDataMap;
+  unicodeVersions: VersionDataMap;
 }> {
   log.title('build', 'Building versioned data');
 
-  const used = {};
-  const emojiVersions = {};
-  const unicodeVersions = {};
+  const used: { [hexcode: string]: boolean } = {};
+  const emojiVersions: VersionDataMap = {};
+  const unicodeVersions: VersionDataMap = {};
 
   // Handle partitioning each emoji into a specific version
   const partitionVersions = (data: EmojiDataMap) => {
@@ -44,10 +46,12 @@ export default async function buildVersionedData(): Promise<{
         emojiVersions[version] = { [hexcode]: emoji };
       }
 
-      if (unicodeVersions[unicodeVersion]) {
-        unicodeVersions[unicodeVersion][hexcode] = emoji;
-      } else {
-        unicodeVersions[unicodeVersion] = { [hexcode]: emoji };
+      if (unicodeVersion) {
+        if (unicodeVersions[unicodeVersion]) {
+          unicodeVersions[unicodeVersion][hexcode] = emoji;
+        } else {
+          unicodeVersions[unicodeVersion] = { [hexcode]: emoji };
+        }
       }
     });
   };

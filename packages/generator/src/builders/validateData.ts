@@ -6,7 +6,7 @@
 import log from '../helpers/log';
 import flattenData from '../helpers/flattenData';
 import loadEmojiList from '../loaders/loadEmojiList';
-import { EmojiMap } from '../types';
+import { Emoji, EmojiMap, EmojiSource } from '../types';
 
 export default async function validateData(data: EmojiMap): Promise<void> {
   const officialSource = await loadEmojiList();
@@ -23,7 +23,7 @@ export default async function validateData(data: EmojiMap): Promise<void> {
     }
 
     // Compare and validate fields
-    const emoji = emojis[hexcode];
+    const emoji: Emoji = emojis[hexcode];
     const errors: string[] = [];
 
     Object.keys(officialEmoji).forEach(fieldName => {

@@ -3,7 +3,9 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
-export default function joinData(emojis: object, data: object) {
+import { EmojiDataMap } from '../types';
+
+export default function joinData(emojis: EmojiDataMap, data: EmojiDataMap) {
   Object.keys(data).forEach(hexcode => {
     emojis[hexcode] = data[hexcode];
   });
