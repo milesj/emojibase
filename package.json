@@ -22,7 +22,7 @@
     "prerelease": "yarn run package",
     "release": "lerna publish",
     "release:force": "yarn run release --force-publish=*",
-    "type": "beemo typescript --noEmit"
+    "type": "beemo typescript --noEmit --workspaces"
   },
   "devDependencies": {
     "@milesj/build-tool-config": "^0.80.0",

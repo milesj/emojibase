@@ -14,17 +14,26 @@ import writeDataset from '../helpers/writeDataset';
 import filterData from '../helpers/filterData';
 import extractSubset from './extractSubset';
 import toUnicode from './toUnicode';
-import { CLDRAnnotationMap, FinalEmoji, Hexcode } from '../types';
+import {
+  CLDRAnnotationMap,
+  Emoji,
+  EmojiModification,
+  FinalEmoji,
+  Hexcode,
+  VersionMap,
+} from '../types';
 
-type VersionMap = { [hexcode: string]: number };
+interface HexcodeVersionMap {
+  [hexcode: string]: number;
+}
 
 function createEmoji(
-  baseEmoji: object,
-  versions: VersionMap,
+  baseEmoji: Emoji | EmojiModification,
+  versions: HexcodeVersionMap,
   annotations: CLDRAnnotationMap,
 ): FinalEmoji {
   /* eslint-disable sort-keys */
-  const emoji: Object = {
+  const emoji: FinalEmoji = {
     // Classification
     name: baseEmoji.name || baseEmoji.description.toUpperCase(),
     hexcode: baseEmoji.hexcode,
@@ -90,7 +99,7 @@ function createEmoji(
       const skin = createEmoji(baseEmoji.modifications[skinTone], versions, annotations);
 
       skin.annotation = annotations[stripHexcode(skin.hexcode)].annotation;
-      skin.shortcodes = emoji.shortcodes.map(code => `${code}_tone${skinTone}`);
+      skin.shortcodes = (emoji.shortcodes || []).map(code => `${code}_tone${skinTone}`);
 
       // Remove any tags
       delete skin.tags;
@@ -102,9 +111,11 @@ function createEmoji(
   return emoji;
 }
 
-function createVersionMap(): VersionMap {
-  const cache = readCache('final-emoji-unicode-versions.json');
-  const versions = {};
+function createVersionMap(): HexcodeVersionMap {
+  const cache: { emojiVersions: VersionMap } | null = readCache(
+    'final-emoji-unicode-versions.json',
+  );
+  const versions: HexcodeVersionMap = {};
 
   if (!cache) {
     return versions;
@@ -127,7 +138,7 @@ export default async function generateData(): Promise<void> {
   const versions = createVersionMap();
 
   // Generate datasets for each locale
-  SUPPORTED_LOCALES.forEach(async locale => {
+  SUPPORTED_LOCALES.forEach(async (locale: string) => {
     const annotations = await buildAnnotationData(locale);
     const emojis = Object.keys(filteredData).map(hexcode =>
       createEmoji(filteredData[hexcode], versions, annotations),

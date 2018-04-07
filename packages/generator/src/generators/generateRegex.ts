@@ -11,10 +11,14 @@ import writeRegex from '../helpers/writeRegex';
 import filterData from '../helpers/filterData';
 import flattenData from '../helpers/flattenData';
 import toUnicode from './toUnicode';
-import { Hexcode } from '../types';
+import { EmojiMap, Hexcode } from '../types';
+
+interface TrieMap {
+  [group: string]: Trie;
+}
 
 function createRegexPattern(
-  codePointGroups: any,
+  codePointGroups: TrieMap,
   display: string = 'both',
   unicode: boolean = false,
 ): string {
@@ -28,9 +32,9 @@ function createRegexPattern(
   return groups.map(group => codePointGroups[group].toRegExp(flags).source).join('|');
 }
 
-function createEmojiRegex(data: Object, display: string = 'both') {
+function createEmojiRegex(data: EmojiMap, display: string = 'both') {
   const fileName = display === 'both' ? 'index' : display;
-  const codePointGroups = {};
+  const codePointGroups: TrieMap = {};
 
   // Push the unicode characters into the trie,
   // grouped by the number of codepoints
@@ -52,7 +56,11 @@ function createEmojiRegex(data: Object, display: string = 'both') {
   // but we still need to support the old non-variation selector,
   // so include the unicode character that does not include FE0E/FE0F
   Object.keys(data).forEach(hexcode => {
-    const { variations = {} } = data[hexcode];
+    const { variations } = data[hexcode];
+
+    if (!variations) {
+      return;
+    }
 
     switch (display) {
       // Should contain everything
@@ -92,7 +100,7 @@ function createEmojiRegex(data: Object, display: string = 'both') {
   writeRegex(`codepoint/${fileName}.js`, createRegexPattern(codePointGroups, display, true), 'u');
 }
 
-function createEmoticonRegex(data: Object) {
+function createEmoticonRegex(data: EmojiMap) {
   const trie = new Trie();
   let emoticons: string[] = [];
 

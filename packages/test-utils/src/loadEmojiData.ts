@@ -3,7 +3,7 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
-let DATA = [];
+let DATA: object[] = [];
 
 // TODO
 export default function loadEmojiData(): object[] {

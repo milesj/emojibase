@@ -6,7 +6,7 @@
 import { flattenEmojiData } from 'emojibase';
 import loadEmojiData from './loadEmojiData';
 
-let DATA = [];
+let DATA: object[] = [];
 
 // TODO
 export default function loadFlatEmojiData(): object[] {
