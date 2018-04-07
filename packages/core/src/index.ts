@@ -11,6 +11,8 @@ import fromUnicodeToHexcode from './fromUnicodeToHexcode';
 import generateEmoticonPermutations from './generateEmoticonPermutations';
 import stripHexcode from './stripHexcode';
 
+export * from './constants';
+
 export {
   fetchFromCDN,
   flattenEmojiData,

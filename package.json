@@ -5,7 +5,6 @@
     "babel": "beemo run-script build-packages",
     "build": "yarn run babel",
     "build:dts": "beemo run-script generate-dts",
-    "build:src": "beemo typescript --allowJs",
     "clean": "rimraf ./packages/*/{lib,esm}/ && lerna clean --yes",
     "clean:cache": "rimraf ./cache",
     "coverage": "yarn run jest --coverage",
@@ -18,7 +17,7 @@
     "posttest": "yarn run eslint",
     "pretest": "yarn run type",
     "test": "yarn run jest",
-    "prettier": "beemo prettier \"./src/**/*.js\"",
+    "prettier": "beemo prettier",
     "package": "yarn run clean && yarn run build && yarn test",
     "prerelease": "yarn run package",
     "release": "lerna publish",
@@ -27,18 +26,10 @@
   },
   "devDependencies": {
     "@milesj/build-tool-config": "^0.80.0",
-    "@types/chalk": "^2.2.0",
-    "@types/cheerio": "^0.22.7",
-    "@types/node": "^9.6.2",
-    "@types/node-fetch": "^1.6.8",
-    "chalk": "^2.3.2",
-    "cheerio": "^1.0.0-rc.2",
     "filesize": "^3.6.1",
     "glob": "^7.1.2",
     "gzip-size": "^4.1.0",
-    "lerna": "^2.9.1",
-    "node-fetch": "^2.1.2",
-    "regexgen": "^1.3.0"
+    "lerna": "^2.9.1"
   },
   "workspaces": [
     "packages/*"
@@ -57,13 +48,6 @@
         "no-magic-numbers": "off",
         "no-param-reassign": "off"
       }
-    },
-    "typescript": {
-      "include": [
-        "./packages/*/src/**/*",
-        "./src/**/*",
-        "./types/**/*"
-      ]
     }
   },
   "browserslist": [
