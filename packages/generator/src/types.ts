@@ -3,6 +3,10 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
+import { Gender, Hexcode, Presentation, Shortcode, SkinTone } from 'emojibase';
+
+export { Gender, Hexcode, Presentation, Shortcode, SkinTone };
+
 export interface CLDRAnnotation {
   annotation: string;
   tags: string[];
@@ -86,30 +90,6 @@ export interface EmoticonMap {
   [hexcode: string]: string;
 }
 
-export interface FinalEmoji {
-  annotation?: string;
-  emoji?: string;
-  emoticon?: string;
-  gender?: Gender;
-  group?: number;
-  hexcode: Hexcode;
-  name?: string;
-  order?: number;
-  shortcodes?: Shortcode[];
-  skins?: FinalEmoji[];
-  subgroup?: number;
-  tags?: string[];
-  text?: string;
-  tone?: SkinTone;
-  type?: Presentation;
-  unicode?: string;
-  version?: number;
-}
-
-export type Gender = 0 | 1;
-
-export type Hexcode = string;
-
 export type HexcodeMap<T> = { [hexcode: string]: T };
 
 export interface ParsedLine {
@@ -120,8 +100,6 @@ export interface ParsedLine {
 export interface ParsedTotals {
   [property: string]: number;
 }
-
-export type Presentation = 0 | 1;
 
 export type Property =
   | 'Emoji'
@@ -135,13 +113,9 @@ export type Property =
   | 'Emoji_Tag_Sequence'
   | 'Emoji_ZWJ_Sequence';
 
-export type Shortcode = string;
-
 export interface ShortcodeMap {
   [hexcode: string]: Shortcode[];
 }
-
-export type SkinTone = 1 | 2 | 3 | 4 | 5;
 
 export interface UnicodeNamesMap {
   [hexcode: string]: string;

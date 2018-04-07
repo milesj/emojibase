@@ -5,7 +5,7 @@
 
 /* eslint-disable complexity */
 
-import { SUPPORTED_LOCALES, stripHexcode } from 'emojibase';
+import { SUPPORTED_LOCALES, stripHexcode, Emoji as FinalEmoji } from 'emojibase';
 import buildEmojiData from '../builders/buildEmojiData';
 import buildAnnotationData from '../builders/buildAnnotationData';
 import log from '../helpers/log';
@@ -14,14 +14,7 @@ import writeDataset from '../helpers/writeDataset';
 import filterData from '../helpers/filterData';
 import extractSubset from './extractSubset';
 import toUnicode from './toUnicode';
-import {
-  CLDRAnnotationMap,
-  Emoji,
-  EmojiModification,
-  FinalEmoji,
-  Hexcode,
-  VersionMap,
-} from '../types';
+import { CLDRAnnotationMap, Emoji, EmojiModification, Hexcode, VersionMap } from '../types';
 
 interface HexcodeVersionMap {
   [hexcode: string]: number;

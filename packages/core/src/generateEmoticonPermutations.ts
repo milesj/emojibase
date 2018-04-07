@@ -3,15 +3,17 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
+import { Emoticon } from './types';
+
 export interface PermutationOptions {
   isFace?: boolean;
   withNose?: boolean;
 }
 
 export default function generateEmoticonPermutations(
-  emoticon: string,
+  emoticon: Emoticon,
   options: PermutationOptions = {},
-): string[] {
+): Emoticon[] {
   const { isFace = true, withNose = true } = options;
   const list = [emoticon];
 

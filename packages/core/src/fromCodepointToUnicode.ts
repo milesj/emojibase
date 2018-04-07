@@ -3,6 +3,8 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
-export default function fromCodepointToUnicode(codepoint: number[]): string {
+import { CodePoint, Unicode } from './types';
+
+export default function fromCodepointToUnicode(codepoint: CodePoint[]): Unicode {
   return String.fromCodePoint(...codepoint);
 }

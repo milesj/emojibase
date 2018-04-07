@@ -12,6 +12,7 @@ import generateEmoticonPermutations from './generateEmoticonPermutations';
 import stripHexcode from './stripHexcode';
 
 export * from './constants';
+export * from './types';
 
 export {
   fetchFromCDN,

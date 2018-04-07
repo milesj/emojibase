@@ -3,10 +3,10 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
-import { FinalEmoji } from '../../../src/types';
+import { Emoji } from './types';
 
-export default function flattenEmojiData(data: FinalEmoji[]): FinalEmoji[] {
-  const emojis = [];
+export default function flattenEmojiData(data: Emoji[]): Emoji[] {
+  const emojis: Emoji[] = [];
 
   data.forEach(emoji => {
     if (emoji.skins) {
@@ -21,7 +21,7 @@ export default function flattenEmojiData(data: FinalEmoji[]): FinalEmoji[] {
 
         // Inherit tags from parent if they exist
         if (emoji.tags) {
-          skinEmoji.tags = emoji.tags;
+          skinEmoji.tags = [...emoji.tags];
         }
 
         emojis.push(skinEmoji);

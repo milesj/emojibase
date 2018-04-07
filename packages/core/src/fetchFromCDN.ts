@@ -3,7 +3,7 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
-import { FinalEmoji } from '../../../src/types';
+import { Emoji } from './types';
 
 export interface FetchCDNOptions extends RequestInit {
   local?: boolean;
@@ -13,7 +13,7 @@ export default function fetchFromCDN(
   path: string,
   version: string = 'latest',
   options: FetchCDNOptions = {},
-): Promise<FinalEmoji[]> {
+): Promise<Emoji[]> {
   if (process.env.NODE_ENV !== 'production') {
     if (!path || path.slice(-5) !== '.json') {
       throw new Error('A valid JSON dataset is required to fetch.');
@@ -34,12 +34,13 @@ export default function fetchFromCDN(
     return Promise.resolve(JSON.parse(cachedData));
   }
 
-  return fetch(`https://cdn.jsdelivr.net/npm/emojibase-data@${version}/${path}`, {
-    credentials: 'omit',
-    mode: 'cors',
-    redirect: 'error',
-    ...opts,
-  })
+  return window
+    .fetch(`https://cdn.jsdelivr.net/npm/emojibase-data@${version}/${path}`, {
+      credentials: 'omit',
+      mode: 'cors',
+      redirect: 'error',
+      ...opts,
+    })
     .then(response => {
       if (!response.ok) {
         throw new Error('Failed to load Emojibase dataset.');

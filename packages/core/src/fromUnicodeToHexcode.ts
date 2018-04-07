@@ -6,8 +6,9 @@
 /* eslint-disable no-restricted-syntax */
 
 import { SEQUENCE_REMOVAL_PATTERN } from './constants';
+import { Hexcode, Unicode } from './types';
 
-export default function fromUnicodeToHexcode(unicode: string, strip: boolean = true): string {
+export default function fromUnicodeToHexcode(unicode: Unicode, strip: boolean = true): Hexcode {
   const hexcode = [];
 
   for (const codepoint of unicode) {

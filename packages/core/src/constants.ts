@@ -6,7 +6,7 @@
 /* eslint-disable sort-keys */
 
 import { PermutationOptions } from './generateEmoticonPermutations';
-import { Gender, Hexcode, Presentation, SkinTone } from '../../../src/types';
+import { Gender, Hexcode, Presentation, SkinTone } from './types';
 
 // Regex patterns to make my job easier.
 
