@@ -44,10 +44,8 @@ export default function joinMetadataToData(
         }
       });
 
-      /*
-       * If an emoji sequence utilizes a skin tone, let's move that part of
-       * the name to the very end, as it's quite jarring otherwise.
-       */
+      // If an emoji sequence utilizes a skin tone, let's move that part of
+      // the name to the very end, as it's quite jarring otherwise.
       if (hasSkinTone) {
         name.push(names[hasSkinTone]);
       }

@@ -1,7 +1,6 @@
 /**
  * @copyright   2017-2018, Miles Johnson
  * @license     https://opensource.org/licenses/MIT
- * @flow
  */
 
 /* eslint-disable complexity */
@@ -16,12 +15,12 @@ import writeDataset from '../helpers/writeDataset';
 import filterData from '../helpers/filterData';
 import extractSubset from './extractSubset';
 import toUnicode from './toUnicode';
-import { CLDRAnnotationMap, FinalEmoji } from '../types';
+import { CLDRAnnotationMap, FinalEmoji, Hexcode } from '../types';
 
 type VersionMap = { [hexcode: string]: number };
 
 function createEmoji(
-  baseEmoji: Object,
+  baseEmoji: object,
   versions: VersionMap,
   annotations: CLDRAnnotationMap,
 ): FinalEmoji {
@@ -147,7 +146,7 @@ export default async function generateData(): Promise<void> {
   const hexcodes = new Set();
   const shortcodes = new Set();
 
-  const addMetadata = hexcode => {
+  const addMetadata = (hexcode: Hexcode) => {
     unicode.add(toUnicode(hexcode));
     hexcodes.add(hexcode);
   };

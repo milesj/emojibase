@@ -12,6 +12,7 @@ import writeRegex from '../helpers/writeRegex';
 import filterData from '../helpers/filterData';
 import flattenData from '../helpers/flattenData';
 import toUnicode from './toUnicode';
+import { Hexcode } from '../types';
 
 function createRegexPattern(
   codePointGroups: any,
@@ -34,7 +35,7 @@ function createEmojiRegex(data: Object, display: string = 'both') {
 
   // Push the unicode characters into the trie,
   // grouped by the number of codepoints
-  const addCodePoint = hexcode => {
+  const addCodePoint = (hexcode: Hexcode) => {
     if (!hexcode) {
       return;
     }
@@ -94,7 +95,7 @@ function createEmojiRegex(data: Object, display: string = 'both') {
 
 function createEmoticonRegex(data: Object) {
   const trie = new Trie();
-  let emoticons = [];
+  let emoticons: string[] = [];
 
   Object.keys(data).forEach(hexcode => {
     const { emoticon } = data[hexcode];

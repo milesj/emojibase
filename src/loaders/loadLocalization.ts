@@ -9,7 +9,7 @@ import parseLocalization from '../parsers/parseLocalization';
 import formatLocale from '../helpers/formatLocale';
 import { CLDRLocaleMap } from '../types';
 
-const SUBDIVISION_FALLBACK_LOCALES = {
+const SUBDIVISION_FALLBACK_LOCALES: { [key: string]: string } = {
   'en-gb': 'en',
   'es-mx': 'es',
 };

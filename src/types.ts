@@ -70,9 +70,7 @@ export interface EmojiSource {
 
 export type EmojiSourceMap = HexcodeMap<EmojiSource>;
 
-export interface EmojiModification {
-  hexcode: Hexcode;
-  name: string;
+export interface EmojiModification extends Emoji {
   tone: SkinTone;
 }
 
@@ -147,4 +145,8 @@ export type SkinTone = 1 | 2 | 3 | 4 | 5;
 
 export interface UnicodeNamesMap {
   [hexcode: string]: string;
+}
+
+export interface VersionMap {
+  [version: string]: Hexcode[];
 }

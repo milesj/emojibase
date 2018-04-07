@@ -16,12 +16,12 @@ import hasProperty from '../helpers/hasProperty';
 import { EmojiMap } from '../types';
 
 export default function verifyData(emojis: EmojiMap): EmojiMap {
-  const usedShortcodes = {};
-  const usedEmoticons = {};
+  const usedShortcodes: EmojiMap = {};
+  const usedEmoticons: EmojiMap = {};
 
   Object.keys(emojis).forEach(hexcode => {
     const emoji = emojis[hexcode];
-    const errors = [];
+    const errors: string[] = [];
 
     // Skip modifiers and components
     if (hasProperty(emoji.property, ['Emoji_Modifier', 'Emoji_Component'])) {
@@ -79,7 +79,7 @@ export default function verifyData(emojis: EmojiMap): EmojiMap {
     if (!emoji.shortcodes || emoji.shortcodes.length === 0) {
       errors.push('No shortcodes defined.');
     } else {
-      const used = [];
+      const used: string[] = [];
 
       emoji.shortcodes.forEach(shortcode => {
         if (usedShortcodes[shortcode]) {

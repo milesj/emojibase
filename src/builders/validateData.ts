@@ -24,7 +24,7 @@ export default async function validateData(data: EmojiMap): Promise<void> {
 
     // Compare and validate fields
     const emoji = emojis[hexcode];
-    const errors = [];
+    const errors: string[] = [];
 
     Object.keys(officialEmoji).forEach(fieldName => {
       if (officialEmoji[fieldName] !== emoji[fieldName]) {

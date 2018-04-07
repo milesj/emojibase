@@ -3,7 +3,7 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
-import 'isomorphic-fetch';
+import fetch from 'node-fetch';
 import chalk from 'chalk';
 import log from '../helpers/log';
 import readCache from '../helpers/readCache';
@@ -18,7 +18,7 @@ export default async function fetchAndCache<T>(
   const cache = readCache(name);
 
   if (cache) {
-    return Promise.resolve(cache);
+    return Promise.resolve(cache as T);
   }
 
   log.info('load', `Fetching ${name} data from ${chalk.gray(url)}`);

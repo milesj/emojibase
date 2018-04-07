@@ -3,7 +3,7 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
-import { LATEST_EMOJI_VERSION } from '../../packages/core/lib/constants';
+import { LATEST_EMOJI_VERSION } from '../../packages/core/src/constants';
 import fetchAndCache from './fetchAndCache';
 import parseVariations from '../parsers/parseVariations';
 import { EmojiVariationMap } from '../types';
