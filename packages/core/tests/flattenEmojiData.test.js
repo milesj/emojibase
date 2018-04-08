@@ -1,5 +1,3 @@
-/* eslint-disable sort-keys */
-
 import flattenEmojiData from '../src/flattenEmojiData';
 
 describe('flattenEmojiData()', () => {

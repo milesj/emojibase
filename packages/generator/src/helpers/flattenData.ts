@@ -3,7 +3,7 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
-import isObject from '../helpers/isObject';
+import isObject from './isObject';
 import { EmojiMap } from '../types';
 
 export default function flattenData(data: EmojiMap): EmojiMap {

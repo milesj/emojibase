@@ -3,6 +3,8 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
+/* eslint-disable sort-keys */
+
 import { Hexcode } from 'emojibase';
 
 // Regex patterns to make my job easier.

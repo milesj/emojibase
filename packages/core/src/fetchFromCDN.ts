@@ -34,6 +34,7 @@ export default function fetchFromCDN(
     return Promise.resolve(JSON.parse(cachedData));
   }
 
+  // eslint-disable-next-line compat/compat
   return fetch(`https://cdn.jsdelivr.net/npm/emojibase-data@${version}/${path}`, {
     credentials: 'omit',
     mode: 'cors',

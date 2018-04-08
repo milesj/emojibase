@@ -52,12 +52,12 @@ export const SUPPORTED_LOCALES: string[] = [
 export const EMOTICON_OPTIONS: { [emoticon: string]: PermutationOptions } = {
   // 🧙‍♂️ man mage
   ':{>': { withNose: false },
-  // 👹 ogre
-  '0)': { withNose: false },
-  // ❤️ red heart
-  '<3': { isFace: false },
   // 💔 broken heart
   '</3': { isFace: false },
+  // ❤️ red heart
+  '<3': { isFace: false },
   // 🤘 sign of the horns
   '\\m/': { isFace: false },
+  // 👹 ogre
+  '0)': { withNose: false },
 };

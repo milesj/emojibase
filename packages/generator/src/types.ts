@@ -7,6 +7,20 @@ import { Gender, Hexcode, Presentation, Shortcode, SkinTone } from 'emojibase';
 
 export { Gender, Hexcode, Presentation, Shortcode, SkinTone };
 
+export type HexcodeMap<T> = { [hexcode: string]: T };
+
+export type Property =
+  | 'Emoji'
+  | 'Emoji_Presentation'
+  | 'Emoji_Component'
+  | 'Emoji_Modifier'
+  | 'Emoji_Modifier_Base'
+  | 'Emoji_Modifier_Sequence'
+  | 'Emoji_Flag_Sequence'
+  | 'Emoji_Keycap_Sequence'
+  | 'Emoji_Tag_Sequence'
+  | 'Emoji_ZWJ_Sequence';
+
 export interface CLDRAnnotation {
   annotation: string;
   tags: string[];
@@ -90,8 +104,6 @@ export interface EmoticonMap {
   [hexcode: string]: string;
 }
 
-export type HexcodeMap<T> = { [hexcode: string]: T };
-
 export interface ParsedLine {
   comment: string;
   fields: string[];
@@ -100,18 +112,6 @@ export interface ParsedLine {
 export interface ParsedTotals {
   [property: string]: number;
 }
-
-export type Property =
-  | 'Emoji'
-  | 'Emoji_Presentation'
-  | 'Emoji_Component'
-  | 'Emoji_Modifier'
-  | 'Emoji_Modifier_Base'
-  | 'Emoji_Modifier_Sequence'
-  | 'Emoji_Flag_Sequence'
-  | 'Emoji_Keycap_Sequence'
-  | 'Emoji_Tag_Sequence'
-  | 'Emoji_ZWJ_Sequence';
 
 export interface ShortcodeMap {
   [hexcode: string]: Shortcode[];

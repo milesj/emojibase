@@ -27,9 +27,12 @@ export default async function validateData(data: EmojiMap): Promise<void> {
     const errors: string[] = [];
 
     Object.keys(officialEmoji).forEach(fieldName => {
+      // @ts-ignore
       if (officialEmoji[fieldName] !== emoji[fieldName]) {
         errors.push(
+          // @ts-ignore
           `Invalid field ${fieldName}. Found ${emoji[fieldName]}, require ${
+            // @ts-ignore
             officialEmoji[fieldName]
           }`,
         );

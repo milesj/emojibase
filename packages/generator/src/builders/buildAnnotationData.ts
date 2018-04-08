@@ -50,7 +50,6 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       englishAnnotations,
     ];
 
-    // eslint-disable-next-line no-cond-assign
     for (let i = 0, set; i <= sets.length; i += 1) {
       set = sets[i] as CLDRAnnotationMap;
 

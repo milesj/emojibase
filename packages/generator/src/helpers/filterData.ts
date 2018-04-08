@@ -3,7 +3,7 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
-import hasProperty from '../helpers/hasProperty';
+import hasProperty from './hasProperty';
 import { EmojiMap } from '../types';
 
 export default function filterData(data: EmojiMap): EmojiMap {

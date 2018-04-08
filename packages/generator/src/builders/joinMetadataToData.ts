@@ -64,8 +64,8 @@ export default function joinMetadataToData(
     // Pull in text and emoji variations
     if (variations[hexcode]) {
       emoji.variations = {
-        property: ['Emoji'],
         emoji: variations[hexcode].emoji,
+        property: ['Emoji'],
         text: variations[hexcode].text,
       };
     }

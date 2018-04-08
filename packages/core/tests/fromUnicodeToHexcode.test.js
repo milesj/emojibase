@@ -1,11 +1,11 @@
 import loadFlatEmojiData from '../../test-utils/src/loadFlatEmojiData';
-import fromUnicodeToHexcode from '../src/fromUnicodeToHexcode';
 import {
-  TEXT,
   TEXT_VARIATION_SELECTOR,
   EMOJI_VARIATION_SELECTOR,
   SEQUENCE_REMOVAL_PATTERN,
-} from '../src/constants';
+} from '../../generator/src/constants';
+import fromUnicodeToHexcode from '../src/fromUnicodeToHexcode';
+import { TEXT } from '../src/constants';
 
 const SEQUENCE_HEXCODE_PATTERN = new RegExp(`-(${SEQUENCE_REMOVAL_PATTERN.source})`, 'g');
 
