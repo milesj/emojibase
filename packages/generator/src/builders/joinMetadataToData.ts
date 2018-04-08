@@ -3,7 +3,6 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
-import { SKIN_MODIFIER_PATTERN, SEQUENCE_REMOVAL_PATTERN } from 'emojibase';
 import hasProperty from '../helpers/hasProperty';
 import {
   UnicodeNamesMap,
@@ -13,6 +12,7 @@ import {
   ShortcodeMap,
   EmoticonMap,
 } from '../types';
+import { SKIN_MODIFIER_PATTERN, SEQUENCE_REMOVAL_PATTERN } from '../constants';
 
 export default function joinMetadataToData(
   emojis: EmojiMap,

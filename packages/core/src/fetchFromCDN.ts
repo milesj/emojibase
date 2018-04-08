@@ -34,13 +34,12 @@ export default function fetchFromCDN(
     return Promise.resolve(JSON.parse(cachedData));
   }
 
-  return window
-    .fetch(`https://cdn.jsdelivr.net/npm/emojibase-data@${version}/${path}`, {
-      credentials: 'omit',
-      mode: 'cors',
-      redirect: 'error',
-      ...opts,
-    })
+  return fetch(`https://cdn.jsdelivr.net/npm/emojibase-data@${version}/${path}`, {
+    credentials: 'omit',
+    mode: 'cors',
+    redirect: 'error',
+    ...opts,
+  })
     .then(response => {
       if (!response.ok) {
         throw new Error('Failed to load Emojibase dataset.');

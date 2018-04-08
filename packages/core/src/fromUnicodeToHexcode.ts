@@ -12,6 +12,7 @@ export default function fromUnicodeToHexcode(unicode: Unicode, strip: boolean = 
   const hexcode = [];
 
   for (const codepoint of unicode) {
+    // @ts-ignore
     let hex = codepoint
       .codePointAt(0)
       .toString(16)

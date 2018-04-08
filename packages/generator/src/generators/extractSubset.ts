@@ -3,11 +3,10 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
-import { TEXT } from 'emojibase';
-import { FinalEmoji } from '../types';
+import { TEXT, Emoji } from 'emojibase';
 
-export default function extractSubset(data: FinalEmoji[], format: string): FinalEmoji[] {
-  const emojis: FinalEmoji[] = [];
+export default function extractSubset(data: Emoji[], format: string): Emoji[] {
+  const emojis: Emoji[] = [];
 
   data.forEach(datum => {
     switch (format) {
@@ -25,7 +24,7 @@ export default function extractSubset(data: FinalEmoji[], format: string): Final
           type,
           skins,
         } = datum;
-        const nextDatum: FinalEmoji = {
+        const nextDatum: Emoji = {
           annotation,
           group,
           hexcode,

@@ -5,15 +5,15 @@
 
 /* eslint-disable complexity */
 
-import {
-  SKIN_MODIFIER_PATTERN,
-  EMOJI_VARIATION_SELECTOR,
-  TEXT_VARIATION_SELECTOR,
-} from 'emojibase';
 import log from '../helpers/log';
 import isObject from '../helpers/isObject';
 import hasProperty from '../helpers/hasProperty';
 import { EmojiMap } from '../types';
+import {
+  SKIN_MODIFIER_PATTERN,
+  EMOJI_VARIATION_SELECTOR,
+  TEXT_VARIATION_SELECTOR,
+} from '../constants';
 
 export default function verifyData(emojis: EmojiMap): EmojiMap {
   const usedShortcodes: EmojiMap = {};

@@ -5,13 +5,7 @@
 
 /* eslint-disable complexity */
 
-import {
-  GENDER_PATTERN,
-  REGIONAL_INDICATORS,
-  TAG_LATIN_SMALL_LETTERS,
-  MALE_SIGN,
-  stripHexcode,
-} from 'emojibase';
+import { stripHexcode } from 'emojibase';
 import log from '../helpers/log';
 import hasProperty from '../helpers/hasProperty';
 import writeCache from '../helpers/writeCache';
@@ -21,6 +15,12 @@ import loadLocalization from '../loaders/loadLocalization';
 import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
 import { CLDRAnnotationMap } from '../types';
+import {
+  GENDER_PATTERN,
+  REGIONAL_INDICATORS,
+  TAG_LATIN_SMALL_LETTERS,
+  MALE_SIGN,
+} from '../constants';
 
 export default async function buildAnnotationData(locale: string): Promise<CLDRAnnotationMap> {
   log.title('build', `Building ${locale} annotation data`);

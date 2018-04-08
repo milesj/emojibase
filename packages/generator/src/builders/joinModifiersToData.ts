@@ -5,23 +5,19 @@
 
 /* eslint-disable sort-keys */
 
-import {
-  LIGHT_SKIN,
-  LIGHT_SKIN_MODIFIER,
-  MEDIUM_LIGHT_SKIN,
-  MEDIUM_LIGHT_SKIN_MODIFIER,
-  MEDIUM_SKIN,
-  MEDIUM_SKIN_MODIFIER,
-  MEDIUM_DARK_SKIN,
-  MEDIUM_DARK_SKIN_MODIFIER,
-  DARK_SKIN,
-  DARK_SKIN_MODIFIER,
-  SKIN_MODIFIER_PATTERN,
-  EMOJI_VARIATION_SELECTOR,
-} from 'emojibase';
+import { LIGHT_SKIN, MEDIUM_LIGHT_SKIN, MEDIUM_SKIN, MEDIUM_DARK_SKIN, DARK_SKIN } from 'emojibase';
 import hasProperty from '../helpers/hasProperty';
 import extractSkinTone from '../parsers/extractSkinTone';
 import { Emoji, EmojiModification, EmojiMap, SkinTone } from '../types';
+import {
+  LIGHT_SKIN_MODIFIER,
+  MEDIUM_LIGHT_SKIN_MODIFIER,
+  MEDIUM_SKIN_MODIFIER,
+  MEDIUM_DARK_SKIN_MODIFIER,
+  DARK_SKIN_MODIFIER,
+  SKIN_MODIFIER_PATTERN,
+  EMOJI_VARIATION_SELECTOR,
+} from '../constants';
 
 const SKIN_HEXCODE_PATTERN: RegExp = new RegExp(`-(${SKIN_MODIFIER_PATTERN.source})`, 'g');
 

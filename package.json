@@ -25,11 +25,11 @@
     "type": "beemo typescript --noEmit --workspaces"
   },
   "devDependencies": {
-    "@milesj/build-tool-config": "^0.80.0",
+    "@milesj/build-tool-config": "^0.81.0",
     "filesize": "^3.6.1",
     "glob": "^7.1.2",
     "gzip-size": "^4.1.0",
-    "lerna": "^2.9.1"
+    "lerna": "^2.10.0"
   },
   "workspaces": [
     "packages/*"

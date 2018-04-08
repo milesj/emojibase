@@ -3,13 +3,12 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
-import { flattenEmojiData } from 'emojibase';
+import { flattenEmojiData, Emoji } from 'emojibase';
 import loadEmojiData from './loadEmojiData';
 
-let DATA: object[] = [];
+let DATA: Emoji[] = [];
 
-// TODO
-export default function loadFlatEmojiData(): object[] {
+export default function loadFlatEmojiData(): Emoji[] {
   if (DATA.length > 0) {
     return DATA;
   }
