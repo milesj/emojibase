@@ -8,6 +8,8 @@ import flattenData from '../helpers/flattenData';
 import loadEmojiList from '../loaders/loadEmojiList';
 import { Emoji, EmojiMap, EmojiSource } from '../types';
 
+// This current logs errors as the source emoji list has been updated with emoji v6,
+// but our source files are still v5.
 export default async function validateData(data: EmojiMap): Promise<void> {
   const officialSource = await loadEmojiList();
   const emojis = flattenData(data);
@@ -17,7 +19,7 @@ export default async function validateData(data: EmojiMap): Promise<void> {
 
     // Start off by checking if the emoji actually exists
     if (!emojis[hexcode]) {
-      log.error('verify', `Emoji ${hexcode} does not exist.`);
+      log.error('validate', `Emoji ${hexcode} does not exist.`);
 
       return;
     }
@@ -41,7 +43,11 @@ export default async function validateData(data: EmojiMap): Promise<void> {
 
     // Display errors
     if (errors.length > 0) {
-      log.error('verify', `Error(s) detected for ${emoji.name} (${hexcode}):\n`, errors.join('\n'));
+      log.error(
+        'validate',
+        `Error(s) detected for ${emoji.name} (${hexcode}):\n`,
+        errors.join('\n'),
+      );
     }
   });
 }

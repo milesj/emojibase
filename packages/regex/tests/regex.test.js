@@ -65,7 +65,6 @@ describe('regex', () => {
           { pattern: TEXT_CODEPOINT_PATTERN, type: 'codepoint' },
         ],
       });
-
       // No variation selectors
     } else {
       variations.push({
@@ -81,14 +80,12 @@ describe('regex', () => {
           describe(`${PATTERN_DESCRIPTIONS[type]}`, () => {
             it(`matches unicode by itself for ${unicode}`, () => {
               const match = unicode.match(pattern);
-
               expect(match).not.toBeNull();
               expect(match[0]).toBe(unicode);
             });
 
             it(`matches unicode in the middle of a string for ${unicode}`, () => {
               const match = `In the middle ${unicode} of a string.`.match(pattern);
-
               expect(match).not.toBeNull();
               expect(match[0]).toBe(unicode);
             });
@@ -97,7 +94,6 @@ describe('regex', () => {
               const matches = `One ${unicode} Two ${unicode} Three ${unicode}.`.match(
                 new RegExp(pattern.source, `g${pattern.flags}`),
               );
-
               expect(matches).not.toBeNull();
               expect(matches).toHaveLength(3);
               expect(matches).toEqual([unicode, unicode, unicode]);
@@ -123,7 +119,6 @@ describe('regex', () => {
         const matches = `One ${shortcode} Two ${shortcode} Three ${shortcode}.`.match(
           globalPattern,
         );
-
         expect(matches).toHaveLength(3);
       });
     });
