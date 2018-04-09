@@ -73,6 +73,12 @@ export default function parseEmojiList(content: string): EmojiSourceMap {
         )
           .toUpperCase()
           .replace(/_/g, '-');
+        const name = tds.eq(3).text();
+
+        // Recently added, not in an official emoji release
+        if (name.includes('⊛')) {
+          return;
+        }
 
         data[hexcode] = {
           group,

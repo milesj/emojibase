@@ -12,7 +12,7 @@
     "docs:serve": "gitbook serve",
     "docs:install": "gitbook install",
     "eslint": "beemo eslint",
-    "generate": "yarn run build:src && node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/data/en/data.json ./packages/test-utils/test-data.json",
+    "generate": "node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/data/en/data.json ./packages/test-utils/test-data.json",
     "jest": "beemo jest",
     "posttest": "yarn run eslint",
     "pretest": "yarn run type",

@@ -13,7 +13,7 @@ import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
 import { EmojiDataMap } from '../types';
 
-interface VersionDataMap {
+export interface VersionDataMap {
   [version: string]: EmojiDataMap;
 }
 

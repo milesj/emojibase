@@ -89,13 +89,13 @@ export interface EmojiSource {
 export type EmojiSourceMap = HexcodeMap<EmojiSource>;
 
 export interface EmojiModification extends Emoji {
-  tone: SkinTone | null;
+  tone: SkinTone;
 }
 
 export interface EmojiVariation {
   text: string;
   emoji: string;
-  property: Property[];
+  property?: Property[];
 }
 
 export type EmojiVariationMap = HexcodeMap<EmojiVariation>;

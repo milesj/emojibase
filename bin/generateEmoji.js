@@ -1,9 +1,9 @@
 #! /usr/bin/env node
 /* eslint-disable */
 
-const generateData = require('../lib/generators/generateData').default;
-const generateRegex = require('../lib/generators/generateRegex').default;
-const generateVersions = require('../lib/generators/generateVersions').default;
+const generateData = require('../packages/generator/lib/generators/generateData').default;
+const generateRegex = require('../packages/generator/lib/generators/generateRegex').default;
+const generateVersions = require('../packages/generator/lib/generators/generateVersions').default;
 
 function handleError(error) {
   console.error(error.message, error.stack);

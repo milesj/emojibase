@@ -7,7 +7,7 @@ import path from 'path';
 import log from './log';
 import writeFile from './writeFile';
 
-const CACHE_FOLDER = path.resolve(__dirname, '../../../cache');
+const CACHE_FOLDER = path.resolve(__dirname, '../../../../cache');
 
 export default function writeCache(name: string, data: any) {
   writeFile(

@@ -35,10 +35,6 @@ export default function joinModifiersToData(emojis: EmojiMap) {
 
     // Handle appending a skin tone modification
     const addModification = (parent: Emoji, mod: EmojiModification) => {
-      if (!mod.tone) {
-        return;
-      }
-
       if (!parent.modifications) {
         parent.modifications = {};
       }
@@ -69,11 +65,14 @@ export default function joinModifiersToData(emojis: EmojiMap) {
       // While others need to replace their skin tone modifier with the emoji variation selector:
       // 26F9 1F3FB 200D 2640 FE0F -> 26F9 FE0F 200D 2640 FE0F
       const parentEmoji = emojis[parentHexcode] || emojis[parentHexcodeWithVariation];
+      const tone = extractSkinTone(emoji.name);
 
-      addModification(parentEmoji, {
-        ...emoji,
-        tone: extractSkinTone(emoji.name),
-      });
+      if (tone) {
+        addModification(parentEmoji, {
+          ...emoji,
+          tone,
+        });
+      }
 
       // Remove the modification from the root
       delete emojis[hexcode];
@@ -83,8 +82,8 @@ export default function joinModifiersToData(emojis: EmojiMap) {
       Object.keys(SKIN_MODIFIERS).forEach(skinTone => {
         const mod = emojis[SKIN_MODIFIERS[skinTone]];
 
+        // @ts-ignore
         addModification(emoji, {
-          ...emoji,
           hexcode: `${emoji.hexcode}-${mod.hexcode}`,
           name: `${emoji.name}, ${mod.name}`,
           tone: parseFloat(skinTone) as SkinTone,
