@@ -1,55 +1,56 @@
 {
+  "name": "emojibase-root",
   "private": true,
-  "name": "emojibase",
   "scripts": {
-    "assemble": "yarn run clean && yarn run bootstrap && yarn run build && yarn test",
-    "bootstrap": "lerna bootstrap",
-    "bootstrap:slow": "yarn run bootstrap -- --concurrency=1",
-    "build": "build-lib && lerna run build",
-    "clean": "rimraf ./packages/{*}/lib/ && yarn run clean:cache && lerna clean --yes",
+    "babel": "beemo run-script build-packages",
+    "build": "yarn run babel",
+    "build:dts": "beemo run-script generate-dts",
+    "clean": "rimraf ./packages/*/{lib,esm}/ && lerna clean --yes",
     "clean:cache": "rimraf ./cache",
-    "coverage": "run-tests --coverage",
-    "eslint": "run-linter ./bin",
-    "flow": "type-check",
-    "generate": "yarn run build && node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/emojibase-data/en/data.json ./packages/emojibase-test-utils/test-data.json",
-    "jest": "run-tests",
-    "posttest": "yarn run flow",
-    "pretest": "yarn run eslint",
-    "publish": "lerna publish",
-    "publish:force": "lerna publish --force-publish=*",
+    "coverage": "yarn run jest --coverage",
+    "docs": "gitbook build --debug --log=debug",
+    "docs:serve": "gitbook serve",
+    "docs:install": "gitbook install",
+    "eslint": "beemo eslint",
+    "generate": "node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/data/en/data.json ./packages/test-utils/test-data.json",
+    "jest": "beemo jest",
+    "posttest": "yarn run eslint",
+    "pretest": "yarn run type",
     "test": "yarn run jest",
-    "updated": "lerna updated"
+    "prettier": "beemo prettier",
+    "package": "yarn run clean && yarn run build && yarn test",
+    "prerelease": "yarn run package",
+    "release": "lerna publish",
+    "release:force": "yarn run release --force-publish=*",
+    "type": "beemo typescript --noEmit --workspaces"
   },
   "devDependencies": {
-    "@milesj/build-tool-config": "^0.50.0",
-    "chalk": "^2.3.0",
-    "cheerio": "^1.0.0-rc.2",
-    "filesize": "^3.5.11",
+    "@milesj/build-tool-config": "^0.82.2",
+    "filesize": "^3.6.1",
     "glob": "^7.1.2",
     "gzip-size": "^4.1.0",
-    "isomorphic-fetch": "^2.2.1",
-    "lerna": "^2.8.0",
-    "regexgen": "^1.3.0"
+    "lerna": "^2.10.0"
   },
-  "babel": {
-    "presets": [
-      "./node_modules/@milesj/build-tool-config/babel.js"
-    ]
-  },
-  "eslintConfig": {
-    "extends": "./node_modules/@milesj/build-tool-config/eslint.js",
-    "rules": {
-      "no-magic-numbers": 0,
-      "no-param-reassign": 0
-    }
-  },
-  "eslintIgnore": [
-    "esm/",
-    "lib/",
-    "*.min.js",
-    "*.map"
-  ],
   "workspaces": [
     "packages/*"
+  ],
+  "beemo": {
+    "module": "@milesj/build-tool-config",
+    "drivers": [
+      "babel",
+      "eslint",
+      "jest",
+      "prettier",
+      "typescript"
+    ],
+    "eslint": {
+      "rules": {
+        "no-magic-numbers": "off",
+        "no-param-reassign": "off"
+      }
+    }
+  },
+  "browserslist": [
+    "ie 10"
   ]
 }

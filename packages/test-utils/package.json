@@ -1,0 +1,12 @@
+{
+  "name": "emojibase-test-utils",
+  "version": "2.2.0",
+  "description": "Test utilities for working with Emojibase data.",
+  "keywords": ["emoji", "emojibase", "tests", "utils"],
+  "repository": "https://github.com/milesj/emojibase/tree/master/packages/test-utils",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "peerDependencies": {
+    "emojibase": "^1.5.0"
+  }
+}

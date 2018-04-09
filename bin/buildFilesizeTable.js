@@ -29,7 +29,7 @@ function calculatePackage(packageName) {
 
     rows.sort((a, b) => a.size - b.size);
 
-    console.log(`| ${packageName} | Filesize | Gzipped |`);
+    console.log(`| emojibase-${packageName} | Filesize | Gzipped |`);
     console.log('| --- | --- | --- |');
 
     rows.forEach((row) => {
@@ -44,5 +44,5 @@ function calculatePackage(packageName) {
   });
 }
 
-calculatePackage('emojibase-data');
-calculatePackage('emojibase-regex');
+calculatePackage('data');
+calculatePackage('regex');
