@@ -56,11 +56,7 @@ function createEmojiRegex(data: EmojiMap, display: string = 'both') {
   // but we still need to support the old non-variation selector,
   // so include the unicode character that does not include FE0E/FE0F
   Object.keys(data).forEach(hexcode => {
-    const { variations } = data[hexcode];
-
-    if (!variations) {
-      return;
-    }
+    const { variations = { emoji: '', text: '' } } = data[hexcode];
 
     switch (display) {
       // Should contain everything

@@ -15,7 +15,7 @@ export default async function validateData(data: EmojiMap): Promise<void> {
   const emojis = flattenData(data);
 
   Object.keys(officialSource).forEach(hexcode => {
-    const officialEmoji = officialSource[hexcode];
+    const officialEmoji: EmojiSource = officialSource[hexcode];
 
     // Start off by checking if the emoji actually exists
     if (!emojis[hexcode]) {
@@ -29,14 +29,11 @@ export default async function validateData(data: EmojiMap): Promise<void> {
     const errors: string[] = [];
 
     Object.keys(officialEmoji).forEach(fieldName => {
-      // @ts-ignore
-      if (officialEmoji[fieldName] !== emoji[fieldName]) {
+      const name = fieldName as keyof EmojiSource;
+
+      if (officialEmoji[name] !== emoji[name]) {
         errors.push(
-          // @ts-ignore
-          `Invalid field ${fieldName}. Found ${emoji[fieldName]}, require ${
-            // @ts-ignore
-            officialEmoji[fieldName]
-          }`,
+          `Invalid field ${fieldName}. Found ${emoji[name]}, require ${officialEmoji[name]}`,
         );
       }
     });
