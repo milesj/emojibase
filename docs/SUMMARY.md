@@ -12,11 +12,9 @@
   * [Unicode Property Support](./regex.md#unicode-property-support)
   * [Filesizes](./regex.md#filesizes)
 * [Shortcodes](./shortcodes.md)
-  * [Official
-    List][https://github.com/milesj/emojibase/blob/master/packages/generator/src/resources/shortcodes.ts]
+  * [Official List](https://github.com/milesj/emojibase/blob/master/packages/generator/src/resources/shortcodes.ts)
 * [Emoticons](./emoticons.md)
-  * [Official
-    List][https://github.com/milesj/emojibase/blob/master/packages/generator/src/resources/emoticons.ts]
+  * [Official List](https://github.com/milesj/emojibase/blob/master/packages/generator/src/resources/emoticons.ts)
 * [API](./api.md)
   * [fetchFromCDN](./api.md#fetchfromcdn)
   * [flattenEmojiData](./api.md#flattenemojidata)

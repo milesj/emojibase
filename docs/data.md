@@ -203,7 +203,7 @@ fetchFromCDN('en/data.json').then(emojis => {
 });
 ```
 
-Learn more about the [`fetchFromCDN` API](#fetchFromCDN).
+Learn more about the [`fetchFromCDN` API](./api.md#fetchFromCDN).
 
 [cldr]: http://cldr.unicode.org/index/downloads/cldr-32
 [ucd]: http://unicode.org/Public/10.0.0/ucd/UnicodeData.txt
