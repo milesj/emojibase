@@ -5,10 +5,12 @@
   * [Data Structure](./data.md#data-structure)
   * [Compact Format](./data.md#compact-format)
   * [Fetching From A CDN](./data.md#fetching-from-a-cdn)
+  * [Filesizes](./data.md#filesizes)
 * [Regex Patterns](./regex.md)
   * [Usage](./regex.md#usage)
   * [Unicode Codepoint Support](./regex.md#unicode-codepoint-support)
   * [Unicode Property Support](./regex.md#unicode-property-support)
+  * [Filesizes](./regex.md#filesizes)
 * [Shortcodes](./shortcodes.md)
   * [Official
     List][https://github.com/milesj/emojibase/blob/master/packages/generator/src/resources/shortcodes.ts]
