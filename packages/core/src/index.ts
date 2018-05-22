@@ -39,14 +39,4 @@ export {
   EMOTICON_OPTIONS,
 } from './constants';
 
-export {
-  CodePoint,
-  Emoji,
-  Emoticon,
-  Gender,
-  Hexcode,
-  Presentation,
-  Shortcode,
-  SkinTone,
-  Unicode,
-} from './types';
+export * from './types';

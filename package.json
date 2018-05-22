@@ -2,9 +2,7 @@
   "name": "emojibase-root",
   "private": true,
   "scripts": {
-    "babel": "beemo run-script build-packages",
-    "build": "yarn run babel",
-    "build:dts": "beemo run-script generate-dts",
+    "build": "beemo typescript --workspaces=core,generator,test-utils --priority=core",
     "clean": "rimraf ./packages/*/{lib,esm}/ && lerna clean --yes",
     "clean:cache": "rimraf ./cache",
     "coverage": "yarn run jest --coverage",
@@ -22,14 +20,14 @@
     "prerelease": "yarn run package",
     "release": "lerna publish",
     "release:force": "yarn run release --force-publish=*",
-    "type": "beemo typescript --noEmit --workspaces"
+    "type": "beemo typescript --workspaces=core,generator,test-utils --noEmit"
   },
   "devDependencies": {
-    "@milesj/build-tool-config": "^0.82.2",
+    "@milesj/build-tool-config": "^0.93.0",
     "filesize": "^3.6.1",
     "glob": "^7.1.2",
     "gzip-size": "^4.1.0",
-    "lerna": "^2.10.0"
+    "lerna": "^2.11.0"
   },
   "workspaces": [
     "packages/*"
@@ -39,7 +37,10 @@
     "drivers": [
       "babel",
       "eslint",
-      "jest",
+      {
+        "driver": "jest",
+        "dependencies": ["typescript"]
+      },
       "prettier",
       "typescript"
     ],

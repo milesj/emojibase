@@ -4,5 +4,8 @@
   "description": "Evergreen emoji regex patterns.",
   "keywords": ["emoji", "emojibase", "regex", "unicode"],
   "repository": "https://github.com/milesj/emojibase/tree/master/packages/regex",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }

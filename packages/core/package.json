@@ -5,5 +5,9 @@
   "keywords": ["emoji", "emojibase", "data", "regex", "helper", "loader", "cdn"],
   "repository": "https://github.com/milesj/emojibase/tree/master/packages/core",
   "license": "MIT",
-  "main": "./lib/index.js"
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  }
 }

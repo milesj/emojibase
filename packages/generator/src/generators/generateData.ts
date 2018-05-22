@@ -81,7 +81,7 @@ function createEmoji(
 
       // Some locales duplicate the annotation in the tag list
       if (emoji.tags.length > 1) {
-        emoji.tags = emoji.tags.filter(tag => tag !== emoji.annotation);
+        emoji.tags = emoji.tags.filter((tag: string) => tag !== emoji.annotation);
       }
     }
   }
@@ -92,7 +92,7 @@ function createEmoji(
       const skin = createEmoji(baseEmoji.modifications[skinTone], versions, annotations);
 
       skin.annotation = annotations[stripHexcode(skin.hexcode)].annotation;
-      skin.shortcodes = (emoji.shortcodes || []).map(code => `${code}_tone${skinTone}`);
+      skin.shortcodes = (emoji.shortcodes || []).map((code: string) => `${code}_tone${skinTone}`);
 
       // Remove any tags
       delete skin.tags;

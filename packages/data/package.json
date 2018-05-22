@@ -4,5 +4,8 @@
   "description": "Evergreen emoji datasets.",
   "keywords": ["emoji", "emojibase", "data", "dataset", "json"],
   "repository": "https://github.com/milesj/emojibase/tree/master/packages/data",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }

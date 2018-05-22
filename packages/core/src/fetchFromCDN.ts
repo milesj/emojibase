@@ -5,14 +5,14 @@
 
 import { Emoji } from './types';
 
-export interface FetchCDNOptions extends RequestInit {
+export interface FetchFromCDNOptions extends RequestInit {
   local?: boolean;
 }
 
 export default function fetchFromCDN(
   path: string,
   version: string = 'latest',
-  options: FetchCDNOptions = {},
+  options: FetchFromCDNOptions = {},
 ): Promise<Emoji[]> {
   if (process.env.NODE_ENV !== 'production') {
     if (!path || path.slice(-5) !== '.json') {
