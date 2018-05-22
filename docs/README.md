@@ -3,7 +3,7 @@
 A collection of lightweight, up-to-date, pre-generated, specification compliant, localized emoji
 JSON datasets, regex patterns, and more.
 
-## Features
+#### Features
 
 * Supports the latest [Emoji 5](https://emojipedia.org/emoji-5.0/),
   [Unicode 10](http://unicode.org/versions/Unicode10.0.0/), and
