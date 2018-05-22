@@ -508,7 +508,7 @@ stripHexcode('1F468-200D-2695-FE0F'); // 1F468-2695
 | fr/compact.json       | 616.46 KB  | 59.56 KB |
 | da/compact.json       | 633.38 KB  | 62.18 KB |
 | en/compact.json       | 640.3 KB   | 60.93 KB |
-| en-gb/compact.json    | 640.43 KB  | 60.99 KB |
+| en-gb/compact.json    | 640.31 KB  | 60.99 KB |
 | it/compact.json       | 644.85 KB  | 65 KB    |
 | ja/compact.json       | 645.37 KB  | 65.82 KB |
 | ko/compact.json       | 648.13 KB  | 67.4 KB  |
@@ -524,7 +524,7 @@ stripHexcode('1F468-200D-2695-FE0F'); // 1F468-2695
 | fr/data.json          | 919.78 KB  | 82.71 KB |
 | da/data.json          | 936.7 KB   | 85.3 KB  |
 | en/data.json          | 943.62 KB  | 83.64 KB |
-| en-gb/data.json       | 943.75 KB  | 83.71 KB |
+| en-gb/data.json       | 943.62 KB  | 83.72 KB |
 | it/data.json          | 948.17 KB  | 87.93 KB |
 | ja/data.json          | 948.69 KB  | 89.01 KB |
 | ko/data.json          | 951.45 KB  | 90.73 KB |

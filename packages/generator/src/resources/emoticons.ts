@@ -28,7 +28,7 @@
  *    variants are automatically generated.
  */
 
-module.exports = {
+export default {
   // HAPPY
   // 🙂 slightly smiling face
   '1F642': ':)',

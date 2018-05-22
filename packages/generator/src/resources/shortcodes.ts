@@ -49,7 +49,7 @@
  * beginning. This allows for backwards compatible changes.
  */
 
-module.exports = {
+export default {
   // 😀 grinning face
   '1F600': ['gleeful'],
   // 😁 grinning face with smiling eyes
