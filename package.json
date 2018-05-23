@@ -16,7 +16,7 @@
     "pretest": "yarn run type",
     "test": "yarn run jest",
     "prettier": "beemo prettier",
-    "package": "yarn run clean && yarn run build && yarn test",
+    "package": "yarn run clean && yarn install && yarn run build && yarn test",
     "prerelease": "yarn run package",
     "release": "lerna publish",
     "release:force": "yarn run release --force-publish=*",
