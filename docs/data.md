@@ -210,43 +210,43 @@ Learn more about the [`fetchFromCDN` API](./api.md#fetchFromCDN).
 
 ## Filesizes
 
-| File                  | Size       | Gzipped  |
-| --------------------- | ---------- | -------- |
-| meta/groups.json      | 2.85 KB    | 951 B    |
-| meta/shortcodes.json  | 24.18 KB   | 7.3 KB   |
-| meta/unicode.json     | 45.08 KB   | 8.55 KB  |
-| versions/emoji.json   | 52.29 KB   | 7.23 KB  |
-| versions/unicode.json | 52.41 KB   | 7.35 KB  |
-| meta/hexcodes.json    | 56.24 KB   | 8.52 KB  |
-| zh-hant/compact.json  | 593.51 KB  | 58.57 KB |
-| zh/compact.json       | 611.77 KB  | 62.87 KB |
-| fr/compact.json       | 616.46 KB  | 59.56 KB |
-| da/compact.json       | 633.38 KB  | 62.18 KB |
-| en/compact.json       | 640.3 KB   | 60.93 KB |
-| en-gb/compact.json    | 640.31 KB  | 60.99 KB |
-| it/compact.json       | 644.85 KB  | 65 KB    |
-| ja/compact.json       | 645.37 KB  | 65.82 KB |
-| ko/compact.json       | 648.13 KB  | 67.4 KB  |
-| pt/compact.json       | 648.42 KB  | 65.18 KB |
-| pl/compact.json       | 656.55 KB  | 68.65 KB |
-| es-mx/compact.json    | 662.6 KB   | 65.26 KB |
-| es/compact.json       | 664.51 KB  | 65.5 KB  |
-| de/compact.json       | 669.3 KB   | 69 KB    |
-| ru/compact.json       | 704.35 KB  | 72.01 KB |
-| th/compact.json       | 715.1 KB   | 65.83 KB |
-| zh-hant/data.json     | 896.83 KB  | 81.85 KB |
-| zh/data.json          | 915.08 KB  | 86.15 KB |
-| fr/data.json          | 919.78 KB  | 82.71 KB |
-| da/data.json          | 936.7 KB   | 85.3 KB  |
-| en/data.json          | 943.62 KB  | 83.64 KB |
-| en-gb/data.json       | 943.62 KB  | 83.72 KB |
-| it/data.json          | 948.17 KB  | 87.93 KB |
-| ja/data.json          | 948.69 KB  | 89.01 KB |
-| ko/data.json          | 951.45 KB  | 90.73 KB |
-| pt/data.json          | 951.74 KB  | 88.46 KB |
-| pl/data.json          | 959.87 KB  | 91.66 KB |
-| es-mx/data.json       | 965.92 KB  | 88.61 KB |
-| es/data.json          | 967.83 KB  | 88.8 KB  |
-| de/data.json          | 972.62 KB  | 92.61 KB |
-| ru/data.json          | 1007.66 KB | 95.27 KB |
-| th/data.json          | 1018.41 KB | 89.15 KB |
+| File                  | Size       | Gzipped   |
+| --------------------- | ---------- | --------- |
+| meta/groups.json      | 2.85 KB    | 951 B     |
+| meta/shortcodes.json  | 24.18 KB   | 7.3 KB    |
+| meta/unicode.json     | 45.08 KB   | 8.55 KB   |
+| versions/emoji.json   | 52.29 KB   | 7.23 KB   |
+| versions/unicode.json | 52.41 KB   | 7.35 KB   |
+| meta/hexcodes.json    | 56.24 KB   | 8.52 KB   |
+| zh-hant/compact.json  | 593.51 KB  | 58.57 KB  |
+| zh/compact.json       | 611.54 KB  | 62.83 KB  |
+| fr/compact.json       | 616.44 KB  | 59.55 KB  |
+| da/compact.json       | 633.28 KB  | 62.16 KB  |
+| en-gb/compact.json    | 640.21 KB  | 60.94 KB  |
+| en/compact.json       | 640.34 KB  | 60.95 KB  |
+| it/compact.json       | 644.01 KB  | 64.84 KB  |
+| ja/compact.json       | 646.93 KB  | 66.22 KB  |
+| ko/compact.json       | 647.74 KB  | 67.3 KB   |
+| pt/compact.json       | 647.88 KB  | 65.09 KB  |
+| pl/compact.json       | 656.55 KB  | 68.65 KB  |
+| es-mx/compact.json    | 662.12 KB  | 65.09 KB  |
+| es/compact.json       | 663.99 KB  | 65.35 KB  |
+| de/compact.json       | 670.44 KB  | 69.33 KB  |
+| th/compact.json       | 715.09 KB  | 65.82 KB  |
+| ru/compact.json       | 745.48 KB  | 77.63 KB  |
+| zh-hant/data.json     | 896.83 KB  | 81.85 KB  |
+| zh/data.json          | 914.86 KB  | 86.11 KB  |
+| fr/data.json          | 919.75 KB  | 82.7 KB   |
+| da/data.json          | 936.6 KB   | 85.29 KB  |
+| en-gb/data.json       | 943.52 KB  | 83.66 KB  |
+| en/data.json          | 943.66 KB  | 83.66 KB  |
+| it/data.json          | 947.33 KB  | 87.79 KB  |
+| ja/data.json          | 950.25 KB  | 89.4 KB   |
+| ko/data.json          | 951.06 KB  | 90.63 KB  |
+| pt/data.json          | 951.2 KB   | 88.38 KB  |
+| pl/data.json          | 959.87 KB  | 91.66 KB  |
+| es-mx/data.json       | 965.44 KB  | 88.48 KB  |
+| es/data.json          | 967.31 KB  | 88.69 KB  |
+| de/data.json          | 973.75 KB  | 93 KB     |
+| th/data.json          | 1018.41 KB | 89.14 KB  |
+| ru/data.json          | 1.02 MB    | 101.18 KB |
