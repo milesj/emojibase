@@ -27,7 +27,7 @@
     "filesize": "^3.6.1",
     "glob": "^7.1.2",
     "gzip-size": "^4.1.0",
-    "lerna": "3.0.0-beta.21"
+    "lerna": "^2.11.0"
   },
   "workspaces": [
     "packages/*"
@@ -39,7 +39,9 @@
       "eslint",
       {
         "driver": "jest",
-        "dependencies": ["typescript"]
+        "dependencies": [
+          "typescript"
+        ]
       },
       "prettier",
       "typescript"

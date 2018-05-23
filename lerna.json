@@ -1,11 +1,11 @@
 {
-  "lerna": "3.0.0-beta.21",
+  "lerna": "2.11.0",
   "version": "independent",
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "command": {
+  "commands": {
     "publish": {
-      "ignoreChanges": [
+      "ignore": [
         "*.md"
       ]
     }
