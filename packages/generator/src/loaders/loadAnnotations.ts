@@ -18,9 +18,15 @@ export default function loadAnnotations(
   const folderName = derived ? 'annotationsDerived' : 'annotations';
   const pathLocale = formatLocale(locale);
 
-  return fetchAndCache(
-    `http://unicode.org/repos/cldr/tags/release-${releaseVersion}/common/${folderName}/${pathLocale}.xml`,
-    `${folderName}-${locale}-${version}.json`,
-    data => parseAnnotations(version, data),
+  return (
+    fetchAndCache(
+      `http://unicode.org/repos/cldr/tags/release-${releaseVersion}/common/${folderName}/${pathLocale}.xml`,
+      `${folderName}-${locale}-${version}.json`,
+      data => parseAnnotations(version, data),
+    )
+      // Some annotation files do not exist for specific locales,
+      // so instead of crashing the entire generator process,
+      // just return an empty object and log.
+      .catch(() => ({}))
   );
 }

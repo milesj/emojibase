@@ -15,7 +15,7 @@ npm install emojibase-data --save
 ## Usage
 
 As stated, there are 3 groups of datasets, each serving a specific purpose. The first group,
-localized data, is exactly that, datasets with localization provided by [CLDR 32][cldr]. The
+localized data, is exactly that, datasets with localization provided by [CLDR 33][cldr]. The
 following locales and languages are currently supported:
 
 * `emojibase-data/zh/data.json` - Chinese (zh)
@@ -75,7 +75,7 @@ of the properties listed below. In an effort to reduce the overall dataset files
 values have been implemented using integers,
 [with associated constants](https://github.com/milesj/emojibase/blob/master/packages/core/src/constants.ts).
 
-* `annotation` (string) - A localized description, provided by [CLDR 32][cldr], primarily used for
+* `annotation` (string) - A localized description, provided by [CLDR 33][cldr], primarily used for
   text-to-speech (TTS) and accessibility.
 * `emoji` (string) - The emoji presentation Unicode character.
 * `emoticon` (string) - If applicable, an emoticon representing the emoji character.
@@ -93,7 +93,7 @@ values have been implemented using integers,
 * `skins` (emoji[]) - If applicable, an array of emoji objects for each skin tone modification,
   starting at light skin, and ending with dark skin.
 * `subgroup` (number) - The categorical subgroup the emoji belongs to, ranging from `0` to `75`.
-* `tags` (string[]) - An array of localized keywords, provided by [CLDR 32][cldr], to use for
+* `tags` (string[]) - An array of localized keywords, provided by [CLDR 33][cldr], to use for
   searching and filtering.
 * `text` (string) - The text presentation Unicode character.
 * `tone` (number) - If applicable, the skin tone of the emoji character. `1` for light skin, `2` for
@@ -205,7 +205,7 @@ fetchFromCDN('en/data.json').then(emojis => {
 
 Learn more about the [`fetchFromCDN` API](./api.md#fetchFromCDN).
 
-[cldr]: http://cldr.unicode.org/index/downloads/cldr-32
+[cldr]: http://cldr.unicode.org/index/downloads/cldr-33
 [ucd]: http://unicode.org/Public/10.0.0/ucd/UnicodeData.txt
 
 ## Filesizes

@@ -81,8 +81,7 @@
     "tags": [
       "gesicht",
       "lachen",
-      "sich vor lachen auf dem boden wälzen",
-      "wälzen"
+      "sich vor lachen auf dem boden wälzen"
     ]
   },
   {
@@ -103,7 +102,8 @@
       "gesicht",
       "grinsendes gesicht mit großen augen",
       "lol",
-      "lustig"
+      "lustig",
+      "lächeln"
     ]
   },
   {
@@ -207,6 +207,7 @@
     "emoticon": ":>",
     "annotation": "lächelndes Gesicht mit lachenden Augen",
     "tags": [
+      "erröten",
       "freude",
       "gesicht",
       "lächelndes gesicht mit lachenden augen",
@@ -229,6 +230,7 @@
     "annotation": "sich die Lippen leckendes Gesicht",
     "tags": [
       "gesicht",
+      "lecker",
       "leckeres essen",
       "sich die lippen leckendes gesicht"
     ]
@@ -875,11 +877,12 @@
     "subgroup": 1,
     "version": 1,
     "emoticon": ":<",
-    "annotation": "Smiley mit kaltem Schweiß",
+    "annotation": "bedrücktes Gesicht mit Schweiß",
     "tags": [
-      "geschlossene augen",
-      "gesicht",
-      "smiley mit kaltem schweiß"
+      "angstschweiß",
+      "bedrückt",
+      "bedrücktes gesicht mit schweiß",
+      "gesicht"
     ]
   },
   {
@@ -1036,11 +1039,12 @@
     "subgroup": 2,
     "version": 1,
     "emoticon": "x(",
-    "annotation": "bestürztes Gesicht",
+    "annotation": "verwirrtes Gesicht",
     "tags": [
-      "bestürzt",
-      "bestürztes gesicht",
-      "gesicht"
+      "gesicht",
+      "verwirrt",
+      "verwirrtes gesich",
+      "verwirrtes gesicht"
     ]
   },
   {
@@ -1324,6 +1328,7 @@
     "emoticon": ":$",
     "annotation": "errötetes Gesicht mit großen Augen",
     "tags": [
+      "errötetes gesicht",
       "errötetes gesicht mit großen augen",
       "gesicht",
       "rote wangen",
@@ -1684,7 +1689,7 @@
     "annotation": "Gesicht mit Monokel",
     "tags": [
       "gesicht mit monokel",
-      "stickig"
+      "monokel"
     ]
   },
   {
@@ -2134,10 +2139,7 @@
     "annotation": "sich die Augen zuhaltendes Affengesicht",
     "tags": [
       "affe",
-      "böse",
-      "gemein",
-      "geste",
-      "sehen",
+      "nichts sehen",
       "sich die augen zuhaltendes affengesicht",
       "verboten"
     ]
@@ -2157,10 +2159,7 @@
     "annotation": "sich die Ohren zuhaltendes Affengesicht",
     "tags": [
       "affe",
-      "böse",
-      "gemein",
-      "geste",
-      "hören",
+      "nichts hören",
       "sich die ohren zuhaltendes affengesicht",
       "verboten"
     ]
@@ -2180,11 +2179,8 @@
     "annotation": "sich den Mund zuhaltendes Affengesicht",
     "tags": [
       "affe",
-      "böse",
-      "gemein",
-      "geste",
+      "nichts sagen",
       "sich den mund zuhaltendes affengesicht",
-      "sprechen",
       "verboten"
     ]
   },
@@ -10207,6 +10203,7 @@
     "annotation": "Meerjungfrau",
     "tags": [
       "meerjungfrau",
+      "nixe",
       "wasserfrau"
     ],
     "skins": [
@@ -10407,6 +10404,9 @@
     "version": 5,
     "annotation": "Elf(e)",
     "tags": [
+      "elbe",
+      "elben",
+      "elbin",
       "elf(e)",
       "magisch"
     ],
@@ -10503,6 +10503,7 @@
     "gender": 0,
     "annotation": "Elfe",
     "tags": [
+      "elbin",
       "elfe",
       "magisch"
     ],
@@ -10604,6 +10605,8 @@
     "gender": 1,
     "annotation": "Elf",
     "tags": [
+      "alb",
+      "elbe",
       "elf",
       "magisch"
     ],
@@ -11121,7 +11124,7 @@
     "version": 1,
     "annotation": "schmollende Person",
     "tags": [
-      "gesicht",
+      "schmollen",
       "schmollende person"
     ],
     "skins": [
@@ -16277,7 +16280,7 @@
     "group": 0,
     "subgroup": 13,
     "version": 1,
-    "annotation": "Jockey auf Pferd",
+    "annotation": "Pferderennen",
     "tags": [
       "jockey auf pferd",
       "pferderennen",
@@ -16297,7 +16300,7 @@
         "subgroup": 13,
         "version": 4,
         "tone": 1,
-        "annotation": "Jockey auf Pferd: helle Hautfarbe"
+        "annotation": "Pferderennen: helle Hautfarbe"
       },
       {
         "name": "HORSE RACING, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -16312,7 +16315,7 @@
         "subgroup": 13,
         "version": 4,
         "tone": 2,
-        "annotation": "Jockey auf Pferd: mittelhelle Hautfarbe"
+        "annotation": "Pferderennen: mittelhelle Hautfarbe"
       },
       {
         "name": "HORSE RACING, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -16327,7 +16330,7 @@
         "subgroup": 13,
         "version": 4,
         "tone": 3,
-        "annotation": "Jockey auf Pferd: mittlere Hautfarbe"
+        "annotation": "Pferderennen: mittlere Hautfarbe"
       },
       {
         "name": "HORSE RACING, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -16342,7 +16345,7 @@
         "subgroup": 13,
         "version": 4,
         "tone": 4,
-        "annotation": "Jockey auf Pferd: mitteldunkle Hautfarbe"
+        "annotation": "Pferderennen: mitteldunkle Hautfarbe"
       },
       {
         "name": "HORSE RACING, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -16357,7 +16360,7 @@
         "subgroup": 13,
         "version": 4,
         "tone": 5,
-        "annotation": "Jockey auf Pferd: dunkle Hautfarbe"
+        "annotation": "Pferderennen: dunkle Hautfarbe"
       }
     ]
   },
@@ -16378,7 +16381,9 @@
     "tags": [
       "schnee",
       "ski",
+      "skifahrer",
       "skifahrer(in)",
+      "skifahrerin",
       "sport"
     ]
   },
@@ -16399,7 +16404,9 @@
     "tags": [
       "snowboard",
       "snowboarden",
+      "snowboarder",
       "snowboarder(in)",
+      "snowboarderin",
       "sport"
     ],
     "skins": [
@@ -16799,10 +16806,15 @@
     "text": "🏄︎",
     "annotation": "Surfer(in)",
     "tags": [
-      "meer",
       "sport",
       "surfen",
-      "surfer(in)"
+      "surfer",
+      "surfer(in)",
+      "surferin",
+      "wassersport",
+      "wellenreiten",
+      "wellenreiter",
+      "wellenreiterin"
     ],
     "skins": [
       {
@@ -16897,7 +16909,7 @@
     "gender": 1,
     "annotation": "Surfer",
     "tags": [
-      "man",
+      "mann",
       "surfer",
       "wellenreiten"
     ],
@@ -22009,12 +22021,15 @@
     "group": 0,
     "subgroup": 15,
     "version": 1,
-    "annotation": "Vulkanischer Gruß",
+    "annotation": "vulkanischer Gruß",
     "tags": [
       "finger",
+      "gespreizt",
       "hand",
+      "lebe lang und in frieden",
       "spock",
-      "vulkanier(in)",
+      "spreizen",
+      "star trek",
       "vulkanisch",
       "vulkanischer gruß"
     ],
@@ -22032,7 +22047,7 @@
         "subgroup": 15,
         "version": 2,
         "tone": 1,
-        "annotation": "Vulkanischer Gruß: helle Hautfarbe"
+        "annotation": "vulkanischer Gruß: helle Hautfarbe"
       },
       {
         "name": "RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -22047,7 +22062,7 @@
         "subgroup": 15,
         "version": 2,
         "tone": 2,
-        "annotation": "Vulkanischer Gruß: mittelhelle Hautfarbe"
+        "annotation": "vulkanischer Gruß: mittelhelle Hautfarbe"
       },
       {
         "name": "RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -22062,7 +22077,7 @@
         "subgroup": 15,
         "version": 2,
         "tone": 3,
-        "annotation": "Vulkanischer Gruß: mittlere Hautfarbe"
+        "annotation": "vulkanischer Gruß: mittlere Hautfarbe"
       },
       {
         "name": "RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -22077,7 +22092,7 @@
         "subgroup": 15,
         "version": 2,
         "tone": 4,
-        "annotation": "Vulkanischer Gruß: mitteldunkle Hautfarbe"
+        "annotation": "vulkanischer Gruß: mitteldunkle Hautfarbe"
       },
       {
         "name": "RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -22092,7 +22107,7 @@
         "subgroup": 15,
         "version": 2,
         "tone": 5,
-        "annotation": "Vulkanischer Gruß: dunkle Hautfarbe"
+        "annotation": "vulkanischer Gruß: dunkle Hautfarbe"
       }
     ]
   },
@@ -22307,7 +22322,9 @@
     "text": "🖐︎",
     "annotation": "Hand mit gespreizten Fingern",
     "tags": [
+      "5",
       "finger",
+      "fünf",
       "gespreizt",
       "hand",
       "hand mit gespreizten fingern"
@@ -22499,9 +22516,12 @@
     "version": 1,
     "annotation": "OK-Zeichen",
     "tags": [
+      "exzellent",
       "hand",
+      "in ordnung",
       "ok",
-      "ok-zeichen"
+      "ok-zeichen",
+      "perfekt"
     ],
     "skins": [
       {
@@ -23198,9 +23218,10 @@
     "group": 0,
     "subgroup": 15,
     "version": 3,
-    "annotation": "erhobener Handrücken",
+    "annotation": "erhobene Hand von hinten",
     "tags": [
       "erhoben",
+      "erhobene hand von hinten",
       "erhobener handrücken",
       "hand"
     ],
@@ -23218,7 +23239,7 @@
         "subgroup": 15,
         "version": 3,
         "tone": 1,
-        "annotation": "erhobener Handrücken: helle Hautfarbe"
+        "annotation": "erhobene Hand von hinten: helle Hautfarbe"
       },
       {
         "name": "RAISED BACK OF HAND, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -23233,7 +23254,7 @@
         "subgroup": 15,
         "version": 3,
         "tone": 2,
-        "annotation": "erhobener Handrücken: mittelhelle Hautfarbe"
+        "annotation": "erhobene Hand von hinten: mittelhelle Hautfarbe"
       },
       {
         "name": "RAISED BACK OF HAND, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -23248,7 +23269,7 @@
         "subgroup": 15,
         "version": 3,
         "tone": 3,
-        "annotation": "erhobener Handrücken: mittlere Hautfarbe"
+        "annotation": "erhobene Hand von hinten: mittlere Hautfarbe"
       },
       {
         "name": "RAISED BACK OF HAND, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -23263,7 +23284,7 @@
         "subgroup": 15,
         "version": 3,
         "tone": 4,
-        "annotation": "erhobener Handrücken: mitteldunkle Hautfarbe"
+        "annotation": "erhobene Hand von hinten: mitteldunkle Hautfarbe"
       },
       {
         "name": "RAISED BACK OF HAND, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -23278,7 +23299,7 @@
         "subgroup": 15,
         "version": 3,
         "tone": 5,
-        "annotation": "erhobener Handrücken: dunkle Hautfarbe"
+        "annotation": "erhobene Hand von hinten: dunkle Hautfarbe"
       }
     ]
   },
@@ -23585,6 +23606,8 @@
     "version": 1,
     "annotation": "klatschende Hände",
     "tags": [
+      "applaudieren",
+      "beifall",
       "hände",
       "klatschen",
       "klatschende hände"
@@ -23965,11 +23988,12 @@
     "group": 0,
     "subgroup": 15,
     "version": 1,
-    "annotation": "gefaltete Hände",
+    "annotation": "betende Hände",
     "tags": [
       "beten",
-      "gebet",
-      "gefaltete hände"
+      "betende hände",
+      "bitte",
+      "gebet"
     ],
     "skins": [
       {
@@ -23985,7 +24009,7 @@
         "subgroup": 15,
         "version": 2,
         "tone": 1,
-        "annotation": "gefaltete Hände: helle Hautfarbe"
+        "annotation": "betende Hände: helle Hautfarbe"
       },
       {
         "name": "PERSON WITH FOLDED HANDS, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -24000,7 +24024,7 @@
         "subgroup": 15,
         "version": 2,
         "tone": 2,
-        "annotation": "gefaltete Hände: mittelhelle Hautfarbe"
+        "annotation": "betende Hände: mittelhelle Hautfarbe"
       },
       {
         "name": "PERSON WITH FOLDED HANDS, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -24015,7 +24039,7 @@
         "subgroup": 15,
         "version": 2,
         "tone": 3,
-        "annotation": "gefaltete Hände: mittlere Hautfarbe"
+        "annotation": "betende Hände: mittlere Hautfarbe"
       },
       {
         "name": "PERSON WITH FOLDED HANDS, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -24030,7 +24054,7 @@
         "subgroup": 15,
         "version": 2,
         "tone": 4,
-        "annotation": "gefaltete Hände: mitteldunkle Hautfarbe"
+        "annotation": "betende Hände: mitteldunkle Hautfarbe"
       },
       {
         "name": "PERSON WITH FOLDED HANDS, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -24045,7 +24069,7 @@
         "subgroup": 15,
         "version": 2,
         "tone": 5,
-        "annotation": "gefaltete Hände: dunkle Hautfarbe"
+        "annotation": "betende Hände: dunkle Hautfarbe"
       }
     ]
   },
@@ -24374,6 +24398,7 @@
     "tags": [
       "abdruck",
       "fuß",
+      "fußabdruck",
       "fußabdrücke"
     ]
   },
@@ -24737,8 +24762,7 @@
     "annotation": "lila Herz",
     "tags": [
       "herz",
-      "lila",
-      "lila herz"
+      "lila"
     ]
   },
   {
@@ -24988,7 +25012,7 @@
     "group": 0,
     "subgroup": 16,
     "version": 1,
-    "annotation": "Benommenheit",
+    "annotation": "schwindlig",
     "tags": [
       "benommenheit",
       "comic",
@@ -25011,9 +25035,11 @@
     "annotation": "Sprechblase mit drei Punkten",
     "tags": [
       "comic",
+      "dialog",
       "gespräch",
       "sprechblase",
-      "sprechblase mit drei punkten"
+      "sprechblase mit drei punkten",
+      "unterhaltung"
     ]
   },
   {
@@ -25153,6 +25179,7 @@
     "tags": [
       "hemd mit krawatte",
       "kleidung",
+      "kragen",
       "schlips"
     ]
   },
@@ -25263,7 +25290,7 @@
     "annotation": "Socken",
     "tags": [
       "socken",
-      "strumpf"
+      "strümpfe"
     ]
   },
   {
@@ -25338,7 +25365,9 @@
     "annotation": "Bluse",
     "tags": [
       "bluse",
-      "kleidung"
+      "damenmode",
+      "kleidung",
+      "oberbekleidung"
     ]
   },
   {
@@ -25356,6 +25385,7 @@
     "annotation": "Geldbörse",
     "tags": [
       "accessoire",
+      "brieftasche",
       "geldbörse",
       "portemonnaie"
     ]
@@ -25439,7 +25469,8 @@
       "ranzen",
       "rucksack",
       "schule",
-      "schulranzen"
+      "schulranzen",
+      "tornister"
     ]
   },
   {
@@ -25495,12 +25526,14 @@
     "group": 0,
     "subgroup": 17,
     "version": 1,
-    "annotation": "Absatzschuh",
+    "annotation": "Stöckelschuh",
     "tags": [
-      "absatz",
       "absatzschuh",
       "damen",
-      "schuh"
+      "highheels",
+      "pumps",
+      "schuh",
+      "stöckelschuh"
     ]
   },
   {
@@ -25557,7 +25590,6 @@
     "version": 1,
     "annotation": "Krone",
     "tags": [
-      "kopfbedeckung",
       "krone",
       "könig",
       "königin"
@@ -25575,8 +25607,9 @@
     "group": 0,
     "subgroup": 17,
     "version": 1,
-    "annotation": "Damenhut mit Schleife",
+    "annotation": "Damenhut",
     "tags": [
+      "damenhut",
       "damenhut mit schleife",
       "hut",
       "kopfbedeckung",
@@ -25595,10 +25628,11 @@
     "group": 0,
     "subgroup": 17,
     "version": 1,
-    "annotation": "Zylinderhut",
+    "annotation": "Zylinder",
     "tags": [
       "hut",
-      "unterhaltung",
+      "kopfbedeckung",
+      "zylinder",
       "zylinderhut"
     ]
   },
@@ -25633,9 +25667,10 @@
     "group": 0,
     "subgroup": 17,
     "version": 5,
-    "annotation": "Schirmkappe",
+    "annotation": "Baseballmütze",
     "tags": [
       "baseballkappe",
+      "baseballmütze",
       "schirmkappe"
     ]
   },
@@ -25652,12 +25687,15 @@
     "subgroup": 17,
     "version": 1,
     "text": "⛑︎",
-    "annotation": "Helm mit weißem Kreuz",
+    "annotation": "Rettungshelm",
     "tags": [
+      "bergen",
       "helm",
       "helm mit weißem kreuz",
       "hilfe",
-      "kreuz"
+      "kreuz",
+      "retten",
+      "rettungshelm"
     ]
   },
   {
@@ -25678,7 +25716,8 @@
       "gebet",
       "gebetskette",
       "kette",
-      "religion"
+      "religion",
+      "rosenkranz"
     ]
   },
   {
@@ -25697,7 +25736,8 @@
     "tags": [
       "kosmetik",
       "lippenstift",
-      "make-up"
+      "make-up",
+      "schminke"
     ]
   },
   {
@@ -25714,8 +25754,11 @@
     "version": 1,
     "annotation": "Ring",
     "tags": [
+      "diamantring",
       "edelstein",
-      "ring"
+      "ring",
+      "schmuck",
+      "verlobung"
     ]
   },
   {
@@ -26428,11 +26471,11 @@
     "group": 1,
     "subgroup": 18,
     "version": 1,
-    "annotation": "Mausgesicht",
+    "annotation": "Mäusegesicht",
     "tags": [
       "gesicht",
       "maus",
-      "mausgesicht",
+      "mäusegesicht",
       "tier"
     ]
   },
@@ -26699,9 +26742,10 @@
     "version": 1,
     "annotation": "Huhn",
     "tags": [
+      "geflügel",
+      "henne",
       "huhn",
-      "tier",
-      "tierkopf"
+      "tier"
     ]
   },
   {
@@ -26772,10 +26816,11 @@
     "group": 1,
     "subgroup": 19,
     "version": 1,
-    "annotation": "Küken in Frontansicht",
+    "annotation": "Küken von vorne",
     "tags": [
+      "geflügel",
       "küken",
-      "küken in frontansicht",
+      "küken von vorne",
       "tier"
     ]
   },
@@ -26794,8 +26839,8 @@
     "text": "🐦︎",
     "annotation": "Vogel",
     "tags": [
+      "papagei",
       "taube",
-      "tier",
       "vogel"
     ]
   },
@@ -27044,7 +27089,10 @@
     "tags": [
       "brachiosaurus",
       "brontosaurus",
+      "dino",
+      "dinosaurier",
       "diplodocus",
+      "saurier",
       "sauropode"
     ]
   },
@@ -27062,6 +27110,9 @@
     "version": 5,
     "annotation": "T-Rex",
     "tags": [
+      "dino",
+      "dinosaurier",
+      "saurier",
       "t-rex",
       "tyrannosaurus rex"
     ]
@@ -28454,6 +28505,7 @@
     "annotation": "Brot",
     "tags": [
       "brot",
+      "brotlaib",
       "laib brot"
     ]
   },
@@ -28471,10 +28523,10 @@
     "version": 3,
     "annotation": "Croissant",
     "tags": [
-      "corissant",
       "croissant",
       "französisch",
-      "frühstück"
+      "frühstück",
+      "frühstückshörnchen"
     ]
   },
   {
@@ -28684,6 +28736,7 @@
     "annotation": "Pizza",
     "tags": [
       "pizza",
+      "pizzastück",
       "pizzeria"
     ]
   },
@@ -29063,7 +29116,6 @@
     "tags": [
       "nudeln mit tomatensoße",
       "pasta",
-      "restaurant",
       "spaghetti"
     ]
   },
@@ -29136,7 +29188,7 @@
     "group": 2,
     "subgroup": 29,
     "version": 1,
-    "annotation": "Frittierte Garnele",
+    "annotation": "frittierte Garnele",
     "tags": [
       "frittierte garnele",
       "garnele",
@@ -29158,9 +29210,7 @@
     "annotation": "Fischfrikadelle",
     "tags": [
       "fisch",
-      "fischfrikadelle",
-      "restaurant",
-      "spirale"
+      "fischfrikadelle"
     ]
   },
   {
@@ -29274,8 +29324,8 @@
     "annotation": "Wassereis",
     "tags": [
       "eis",
-      "wassereis",
-      "zerstoßen"
+      "sorbet",
+      "wassereis"
     ]
   },
   {
@@ -29368,8 +29418,10 @@
     "annotation": "Torte",
     "tags": [
       "kuchen",
+      "kuchenstück",
       "stück torte",
-      "torte"
+      "torte",
+      "tortenstück"
     ]
   },
   {
@@ -29502,7 +29554,7 @@
     "tags": [
       "baby",
       "babyflasche",
-      "flasche",
+      "fläschchen",
       "kind",
       "milch",
       "trinken"
@@ -29524,7 +29576,6 @@
     "tags": [
       "getränk",
       "glas",
-      "glas milch",
       "milch"
     ]
   },
@@ -29789,7 +29840,8 @@
     "annotation": "Essstäbchen",
     "tags": [
       "essstäbchen",
-      "hashi"
+      "hashi",
+      "stäbchen"
     ]
   },
   {
@@ -31380,7 +31432,8 @@
     "annotation": "Einschienenbahn",
     "tags": [
       "bahn",
-      "einschienenbahn"
+      "einschienenbahn",
+      "magnetschwebebahn"
     ]
   },
   {
@@ -32159,8 +32212,9 @@
     "group": 3,
     "subgroup": 40,
     "version": 1,
-    "annotation": "Start eines Flugzeugs",
+    "annotation": "Abflug",
     "tags": [
+      "abflug",
       "flugzeug",
       "start",
       "start eines flugzeugs"
@@ -32796,8 +32850,9 @@
     "subgroup": 42,
     "version": 1,
     "text": "🕟︎",
-    "annotation": "Ziffernblatt 4:30 Uhr",
+    "annotation": "4:30 Uhr",
     "tags": [
+      "4:30 uhr",
       "halb fünf",
       "uhr",
       "ziffernblatt 4:30 uhr"
@@ -32816,9 +32871,10 @@
     "subgroup": 42,
     "version": 1,
     "text": "🕔︎",
-    "annotation": "Ziffernblatt 5:00 Uhr",
+    "annotation": "5:00 Uhr",
     "tags": [
       "5",
+      "5:00 uhr",
       "uhr",
       "ziffernblatt 5:00 uhr"
     ]
@@ -32836,8 +32892,9 @@
     "subgroup": 42,
     "version": 1,
     "text": "🕠︎",
-    "annotation": "Ziffernblatt 5:30 Uhr",
+    "annotation": "5:30 Uhr",
     "tags": [
+      "5:30 uhr",
       "halb sechs",
       "uhr",
       "ziffernblatt 5:30 uhr"
@@ -32856,9 +32913,10 @@
     "subgroup": 42,
     "version": 1,
     "text": "🕕︎",
-    "annotation": "Ziffernblatt 6:00 Uhr",
+    "annotation": "6:00 Uhr",
     "tags": [
       "6",
+      "6:00 uhr",
       "uhr",
       "ziffernblatt 6:00 uhr"
     ]
@@ -32876,8 +32934,9 @@
     "subgroup": 42,
     "version": 1,
     "text": "🕡︎",
-    "annotation": "Ziffernblatt 6:30 Uhr",
+    "annotation": "6:30 Uhr",
     "tags": [
+      "6:30 uhr",
       "halb sieben",
       "uhr",
       "ziffernblatt 6:30 uhr"
@@ -32956,8 +33015,9 @@
     "subgroup": 42,
     "version": 1,
     "text": "🕣︎",
-    "annotation": "Ziffernblatt 8:30 Uhr",
+    "annotation": "8:30 Uhr",
     "tags": [
+      "8:30 uhr",
       "halb neun",
       "uhr",
       "ziffernblatt 8:30 uhr"
@@ -32976,9 +33036,10 @@
     "subgroup": 42,
     "version": 1,
     "text": "🕘︎",
-    "annotation": "Ziffernblatt 9:00 Uhr",
+    "annotation": "9:00 Uhr",
     "tags": [
       "9",
+      "9:00 uhr",
       "uhr",
       "ziffernblatt 9:00 uhr"
     ]
@@ -34262,7 +34323,7 @@
     "group": 4,
     "subgroup": 44,
     "version": 1,
-    "annotation": "Pinke Schleife",
+    "annotation": "pinke Schleife",
     "tags": [
       "feier",
       "pinke schleife",
@@ -34414,7 +34475,7 @@
     "group": 4,
     "subgroup": 45,
     "version": 3,
-    "annotation": "Medaille 1. Platz",
+    "annotation": "Goldmedaille",
     "tags": [
       "erster",
       "goldmedaille",
@@ -34433,7 +34494,7 @@
     "group": 4,
     "subgroup": 45,
     "version": 3,
-    "annotation": "Medaille 2. Platz",
+    "annotation": "Silbermedaille",
     "tags": [
       "medaille 2. platz",
       "silbermedaille",
@@ -34452,7 +34513,7 @@
     "group": 4,
     "subgroup": 45,
     "version": 3,
-    "annotation": "Medaille 3. Platz",
+    "annotation": "Bronzemedaille",
     "tags": [
       "bronzemedaille",
       "dritter",
@@ -35192,10 +35253,10 @@
     "group": 5,
     "subgroup": 48,
     "version": 1,
-    "annotation": "Lautsprecher mit einer Schallwelle",
+    "annotation": "Lautsprecher mit mittlerer Lautstärke",
     "tags": [
-      "lautsprecher mit einer schallwelle",
-      "leise"
+      "lautsprecher mit mittlerer lautstärke",
+      "mittellaut"
     ]
   },
   {
@@ -35210,10 +35271,10 @@
     "group": 5,
     "subgroup": 48,
     "version": 1,
-    "annotation": "Lautsprecher mit drei Schallwellen",
+    "annotation": "Lautsprecher mit hoher Lautstärke",
     "tags": [
       "laut",
-      "lautsprecher mit drei schallwellen"
+      "lautsprecher mit hoher lautstärke"
     ]
   },
   {
@@ -35769,12 +35830,11 @@
     "subgroup": 52,
     "version": 1,
     "text": "💻︎",
-    "annotation": "Computermonitor",
+    "annotation": "Laptop",
     "tags": [
-      "bildschirm",
       "computer",
-      "computermonitor",
-      "monitor",
+      "laptop",
+      "notebook",
       "pc"
     ]
   },
@@ -36851,7 +36911,7 @@
     "group": 5,
     "subgroup": 56,
     "version": 1,
-    "annotation": "E-Mail-Symbol",
+    "annotation": "E-Mail",
     "tags": [
       "brief",
       "e-mail",
@@ -37464,7 +37524,7 @@
     "text": "📋︎",
     "annotation": "Zwischenablage",
     "tags": [
-      "clpboard",
+      "clipboard",
       "klemmbrett",
       "zwischenablage"
     ]
@@ -37537,7 +37597,7 @@
     "subgroup": 58,
     "version": 1,
     "text": "🖇︎",
-    "annotation": "Verhakte Büroklammern",
+    "annotation": "verhakte Büroklammern",
     "tags": [
       "büroklammer",
       "büroklammern",
@@ -37574,7 +37634,7 @@
     "group": 5,
     "subgroup": 58,
     "version": 1,
-    "annotation": "Dreieckiges Lineal",
+    "annotation": "dreieckiges Lineal",
     "tags": [
       "dreieckiges lineal",
       "geodreieck",
@@ -38085,6 +38145,7 @@
     "version": 1,
     "annotation": "Verknüpfungssymbol",
     "tags": [
+      "kettenglieder",
       "verknüpfungssymbol",
       "zwei ringe"
     ]
@@ -39454,11 +39515,11 @@
     "subgroup": 67,
     "version": 1,
     "text": "♈︎",
-    "annotation": "Sternzeichen Widder",
+    "annotation": "Widder (Sternzeichen)",
     "tags": [
       "sternzeichen",
-      "sternzeichen widder",
-      "widder"
+      "widder",
+      "widder (sternzeichen)"
     ]
   },
   {
@@ -39474,11 +39535,11 @@
     "subgroup": 67,
     "version": 1,
     "text": "♉︎",
-    "annotation": "Sternzeichen Stier",
+    "annotation": "Stier (Sternzeichen)",
     "tags": [
       "sternzeichen",
-      "sternzeichen stier",
-      "stier"
+      "stier",
+      "stier (sternzeichen)"
     ]
   },
   {
@@ -39494,11 +39555,11 @@
     "subgroup": 67,
     "version": 1,
     "text": "♊︎",
-    "annotation": "Sternzeichen Zwilling",
+    "annotation": "Zwilling (Sternzeichen)",
     "tags": [
       "sternzeichen",
-      "sternzeichen zwilling",
-      "zwilling"
+      "zwilling",
+      "zwilling (sternzeichen)"
     ]
   },
   {
@@ -39514,11 +39575,11 @@
     "subgroup": 67,
     "version": 1,
     "text": "♋︎",
-    "annotation": "Sternzeichen Krebs",
+    "annotation": "Krebs (Sternzeichen)",
     "tags": [
       "krebs",
-      "sternzeichen",
-      "sternzeichen krebs"
+      "krebs (sternzeichen)",
+      "sternzeichen"
     ]
   },
   {
@@ -39534,11 +39595,11 @@
     "subgroup": 67,
     "version": 1,
     "text": "♌︎",
-    "annotation": "Sternzeichen Löwe",
+    "annotation": "Löwe (Sternzeichen)",
     "tags": [
       "löwe",
-      "sternzeichen",
-      "sternzeichen löwe"
+      "löwe (sternzeichen)",
+      "sternzeichen"
     ]
   },
   {
@@ -39554,11 +39615,11 @@
     "subgroup": 67,
     "version": 1,
     "text": "♍︎",
-    "annotation": "Sternzeichen Jungfrau",
+    "annotation": "Jungfrau (Sternzeichen)",
     "tags": [
       "jungfrau",
-      "sternzeichen",
-      "sternzeichen jungfrau"
+      "jungfrau (sternzeichen)",
+      "sternzeichen"
     ]
   },
   {
@@ -39574,11 +39635,11 @@
     "subgroup": 67,
     "version": 1,
     "text": "♎︎",
-    "annotation": "Sternzeichen Waage",
+    "annotation": "Waage (Sternzeichen)",
     "tags": [
       "sternzeichen",
-      "sternzeichen waage",
-      "waage"
+      "waage",
+      "waage (sternzeichen)"
     ]
   },
   {
@@ -39594,11 +39655,11 @@
     "subgroup": 67,
     "version": 1,
     "text": "♏︎",
-    "annotation": "Sternzeichen Skorpion",
+    "annotation": "Skorpion (Sternzeichen)",
     "tags": [
       "skorpion",
-      "sternzeichen",
-      "sternzeichen skorpion"
+      "skorpion (sternzeichen)",
+      "sternzeichen"
     ]
   },
   {
@@ -39617,8 +39678,7 @@
     "annotation": "Sternzeichen Schütze",
     "tags": [
       "schütze",
-      "sternzeichen",
-      "sternzeichen schütze"
+      "sternzeichen"
     ]
   },
   {
@@ -39634,11 +39694,11 @@
     "subgroup": 67,
     "version": 1,
     "text": "♑︎",
-    "annotation": "Sternzeichen Steinbock",
+    "annotation": "Steinbock (Sternzeichen)",
     "tags": [
       "steinbock",
-      "sternzeichen",
-      "sternzeichen steinbock"
+      "steinbock (sternzeichen)",
+      "sternzeichen"
     ]
   },
   {
@@ -39654,11 +39714,11 @@
     "subgroup": 67,
     "version": 1,
     "text": "♒︎",
-    "annotation": "Sternzeichen Wassermann",
+    "annotation": "Wassermann (Sternzeichen)",
     "tags": [
       "sternzeichen",
-      "sternzeichen wassermann",
-      "wassermann"
+      "wassermann",
+      "wassermann (sternzeichen)"
     ]
   },
   {
@@ -39674,11 +39734,11 @@
     "subgroup": 67,
     "version": 1,
     "text": "♓︎",
-    "annotation": "Sternzeichen Fische",
+    "annotation": "Fische (Sternzeichen)",
     "tags": [
       "fische",
-      "sternzeichen",
-      "sternzeichen fische"
+      "fische (sternzeichen)",
+      "sternzeichen"
     ]
   },
   {
@@ -39750,12 +39810,13 @@
     "group": 6,
     "subgroup": 68,
     "version": 1,
-    "annotation": "Einmal Wiederholen",
+    "annotation": "Titel wiederholen",
     "tags": [
       "einmal",
       "einmal wiederholen",
       "im uhrzeigersinn",
       "pfeile",
+      "titel wiederholen",
       "wiederholen"
     ]
   },
@@ -39866,7 +39927,6 @@
       "dreieck",
       "links",
       "pfeil",
-      "pfeil zurück",
       "zurück"
     ]
   },
@@ -39883,14 +39943,15 @@
     "subgroup": 68,
     "version": 1,
     "text": "⏪︎",
-    "annotation": "Doppelpfeile nach links",
+    "annotation": "Zurückspulen",
     "tags": [
       "doppelpfeil",
       "doppelpfeile nach links",
       "dreieck",
       "pfeil",
       "vorheriger titel",
-      "zurück"
+      "zurück",
+      "zurückspulen"
     ]
   },
   {
@@ -40113,11 +40174,13 @@
     "group": 6,
     "subgroup": 68,
     "version": 1,
-    "annotation": "Schwache Helligkeit",
+    "annotation": "Taste Dimmen",
     "tags": [
+      "dimmen",
       "gedimmt",
       "helligkeit",
-      "schwache helligkeit"
+      "schwache helligkeit",
+      "taste dimmen"
     ]
   },
   {
@@ -40133,10 +40196,11 @@
     "group": 6,
     "subgroup": 68,
     "version": 1,
-    "annotation": "Starke Helligkeit",
+    "annotation": "Taste Heller",
     "tags": [
       "helligkeit",
-      "starke helligkeit"
+      "starke helligkeit",
+      "taste heller"
     ]
   },
   {
@@ -40152,7 +40216,7 @@
     "group": 6,
     "subgroup": 68,
     "version": 1,
-    "annotation": "Balkenförmige Signalstärkenanzeige",
+    "annotation": "balkenförmige Signalstärkenanzeige",
     "tags": [
       "balkenförmige signalstärkenanzeige",
       "empfang",
@@ -40257,11 +40321,12 @@
     "subgroup": 69,
     "version": 4,
     "text": "⚕︎",
-    "annotation": "Asklepiosstab",
+    "annotation": "Äskulapstab",
     "tags": [
       "apotheke",
       "asklepiosstab",
-      "medizin"
+      "medizin",
+      "äskulapstab"
     ]
   },
   {

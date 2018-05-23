@@ -12,7 +12,7 @@ JSON datasets, regex patterns, and more.
 
 * Supports the latest [Emoji 5](https://emojipedia.org/emoji-5.0/),
   [Unicode 10](http://unicode.org/versions/Unicode10.0.0/), and
-  [CLDR 32](http://cldr.unicode.org/index/downloads/cldr-32) release versions
+  [CLDR 33](http://cldr.unicode.org/index/downloads/cldr-33) release versions
 * Built directly from the [emoji data source files](http://unicode.org/Public/emoji/)
 * Based on the official [Unicode Technical Standard #51](http://www.unicode.org/reports/tr51/)
 * With localization provided by
