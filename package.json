@@ -18,8 +18,8 @@
     "prettier": "beemo prettier",
     "package": "yarn run clean && yarn install && yarn run build && yarn test",
     "prerelease": "yarn run package",
-    "release": "lerna publish",
-    "release:force": "yarn run release --force-publish=*",
+    "release": "lerna publish --ignore=emojibase-generator",
+    "release:force": "npm run release -- --force-publish=*",
     "type": "beemo typescript --workspaces=core,generator,test-utils --noEmit"
   },
   "devDependencies": {
