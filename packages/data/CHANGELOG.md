@@ -1,3 +1,13 @@
+# 2.3.0 - 05/22/18
+
+#### 🚀 New
+
+* Updated to [CLDR 33](http://cldr.unicode.org/index/downloads/cldr-33) official release.
+
+#### 🛠 Internal
+
+* Converted from Flow to TypeScript.
+
 # 2.2.0 - 01/10/18
 
 #### 🚀 New
@@ -8,7 +18,7 @@
   * `pl` - Polish
   * `pt` - Portuguese
   * `th` - Thai
-  * `zh-hant` - // Chinese (Traditional)
+  * `zh-hant` - Chinese (Traditional)
 
 #### 🐞 Fixed
 
