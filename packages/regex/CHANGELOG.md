@@ -1,3 +1,9 @@
+# 1.1.1 - 05/24/18
+
+#### 🐞 Fixed
+
+* Fixed invalid `index.d.ts` declaration.
+
 # 1.1.0 - 05/22/18
 
 #### 🚀 New

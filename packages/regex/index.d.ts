@@ -1,43 +1,54 @@
 declare module 'emojibase-regex' {
-  export default RegExp;
+  const pattern: RegExp;
+  export default pattern;
 }
 
 declare module 'emojibase-regex/emoji' {
-  export default RegExp;
+  const pattern: RegExp;
+  export default pattern;
 }
 
 declare module 'emojibase-regex/text' {
-  export default RegExp;
+  const pattern: RegExp;
+  export default pattern;
 }
 
 declare module 'emojibase-regex/emoticon' {
-  export default RegExp;
+  const pattern: RegExp;
+  export default pattern;
 }
 
 declare module 'emojibase-regex/shortcode' {
-  export default RegExp;
+  const pattern: RegExp;
+  export default pattern;
 }
 
 declare module 'emojibase-regex/unicode' {
-  export default RegExp;
+  const pattern: RegExp;
+  export default pattern;
 }
 
 declare module 'emojibase-regex/unicode/emoji' {
-  export default RegExp;
+  const pattern: RegExp;
+  export default pattern;
 }
 
 declare module 'emojibase-regex/unicode/text' {
-  export default RegExp;
+  const pattern: RegExp;
+  export default pattern;
 }
 
 declare module 'emojibase-regex/property' {
-  export default RegExp;
+  const pattern: RegExp;
+  export default pattern;
 }
 
 declare module 'emojibase-regex/property/emoji' {
-  export default RegExp;
+  const pattern: RegExp;
+  export default pattern;
 }
 
 declare module 'emojibase-regex/property/text' {
-  export default RegExp;
+  const pattern: RegExp;
+  export default pattern;
 }
