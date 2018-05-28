@@ -4,38 +4,38 @@
 
 #### 🚀 New
 
-* Updated to [CLDR 33](http://cldr.unicode.org/index/downloads/cldr-33) official release.
+- Updated to [CLDR 33](http://cldr.unicode.org/index/downloads/cldr-33) official release.
 
 #### 🛠 Internal
 
-* Converted from Flow to TypeScript.
+- Converted from Flow to TypeScript.
 
 # 2.0.0 - 9/14/17
 
 #### 🛠 Internal
 
-* Updated test data ([view breaking changes](../data/CHANGELOG.md)).
+- Updated test data ([view breaking changes](../data/CHANGELOG.md)).
 
 # 1.0.7 - 9/10/17
 
 #### 🛠 Internal
 
-* Updated to Yarn workspaces.
+- Updated to Yarn workspaces.
 
 # 1.0.2 - 8/19/17
 
 #### 🐞 Fixed
 
-* Removed tests from distribution files.
+- Removed tests from distribution files.
 
 # 1.0.1 - 8/18/17
 
 #### 🐞 Fixed
 
-* Fixed Flowtype definitions.
+- Fixed Flowtype definitions.
 
 # 1.0.0 - 8/17/17
 
 #### 🎉 Release
 
-* Initial release!
+- Initial release!
