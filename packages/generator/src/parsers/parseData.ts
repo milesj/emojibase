@@ -11,7 +11,7 @@ import extractLineDescription from './extractLineDescription';
 import extractUnicodeVersion from './extractUnicodeVersion';
 import verifyTotals from './verifyTotals';
 import formatHexcode from '../helpers/formatHexcode';
-import { EmojiDataMap, ParsedLine, Property } from '../types';
+import { EmojiData, EmojiDataMap, ParsedLine, Property } from '../types';
 
 /**
  * Parses the official unicode emoji data.
@@ -22,8 +22,9 @@ export default function parseData(version: string, content: string): EmojiDataMa
   const { lines, totals } = parse(content);
   const data = lines.reduce((map: EmojiDataMap, line: ParsedLine) => {
     const [rawHexcode, property, , modifier] = line.fields;
-    const emoji = {
+    const emoji: EmojiData = {
       description: extractLineDescription(line.comment),
+      hexcode: '',
       property: [(property as Property) || 'Emoji'],
       type: EMOJI,
       unicodeVersion: extractUnicodeVersion(line.comment),

@@ -9,11 +9,11 @@ export interface FetchFromCDNOptions extends RequestInit {
   local?: boolean;
 }
 
-export default function fetchFromCDN(
+export default function fetchFromCDN<T extends Emoji>(
   path: string,
   version: string = 'latest',
   options: FetchFromCDNOptions = {},
-): Promise<Emoji[]> {
+): Promise<T[]> {
   if (process.env.NODE_ENV !== 'production') {
     if (!path || path.slice(-5) !== '.json') {
       throw new Error('A valid JSON dataset is required to fetch.');

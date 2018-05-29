@@ -9,25 +9,25 @@ import { Hexcode } from 'emojibase';
 
 // Regex patterns to make my job easier.
 
-export const ZWJ_PATTERN: RegExp = /200D/g;
-export const GENDER_PATTERN: RegExp = /2640|2642/g;
-export const VARIATION_PATTERN: RegExp = /FE0E|FE0F/g;
-export const SKIN_MODIFIER_PATTERN: RegExp = /1F3FB|1F3FC|1F3FD|1F3FE|1F3FF/g;
-export const SEQUENCE_REMOVAL_PATTERN: RegExp = /200D|FE0E|FE0F/g;
+export const ZWJ_PATTERN = /200D/g;
+export const GENDER_PATTERN = /2640|2642/g;
+export const VARIATION_PATTERN = /FE0E|FE0F/g;
+export const SKIN_MODIFIER_PATTERN = /1F3FB|1F3FC|1F3FD|1F3FE|1F3FF/g;
+export const SEQUENCE_REMOVAL_PATTERN = /200D|FE0E|FE0F/g;
 
 // Important hexadecimal codepoints when dealing with diversity, sequences, and more.
 
-export const ZERO_WIDTH_JOINER: Hexcode = '200D'; // ZERO WIDTH JOINER (ZWJ)
-export const TEXT_VARIATION_SELECTOR: Hexcode = 'FE0E'; // VARIATION SELECTOR-15
-export const EMOJI_VARIATION_SELECTOR: Hexcode = 'FE0F'; // VARIATION SELECTOR-16
-export const LIGHT_SKIN_MODIFIER: Hexcode = '1F3FB'; // EMOJI MODIFIER FITZPATRICK TYPE-1-2
-export const MEDIUM_LIGHT_SKIN_MODIFIER: Hexcode = '1F3FC'; // EMOJI MODIFIER FITZPATRICK TYPE-3
-export const MEDIUM_SKIN_MODIFIER: Hexcode = '1F3FD'; // EMOJI MODIFIER FITZPATRICK TYPE-4
-export const MEDIUM_DARK_SKIN_MODIFIER: Hexcode = '1F3FE'; // EMOJI MODIFIER FITZPATRICK TYPE-5
-export const DARK_SKIN_MODIFIER: Hexcode = '1F3FF'; // EMOJI MODIFIER FITZPATRICK TYPE-6
-export const FEMALE_SIGN: Hexcode = '2640'; // FEMALE SIGN
-export const MALE_SIGN: Hexcode = '2642'; // MALE SIGN
-export const BLACK_FLAG: Hexcode = '1F3F4'; // WAVING BLACK FLAG
+export const ZERO_WIDTH_JOINER = '200D'; // ZERO WIDTH JOINER (ZWJ)
+export const TEXT_VARIATION_SELECTOR = 'FE0E'; // VARIATION SELECTOR-15
+export const EMOJI_VARIATION_SELECTOR = 'FE0F'; // VARIATION SELECTOR-16
+export const LIGHT_SKIN_MODIFIER = '1F3FB'; // EMOJI MODIFIER FITZPATRICK TYPE-1-2
+export const MEDIUM_LIGHT_SKIN_MODIFIER = '1F3FC'; // EMOJI MODIFIER FITZPATRICK TYPE-3
+export const MEDIUM_SKIN_MODIFIER = '1F3FD'; // EMOJI MODIFIER FITZPATRICK TYPE-4
+export const MEDIUM_DARK_SKIN_MODIFIER = '1F3FE'; // EMOJI MODIFIER FITZPATRICK TYPE-5
+export const DARK_SKIN_MODIFIER = '1F3FF'; // EMOJI MODIFIER FITZPATRICK TYPE-6
+export const FEMALE_SIGN = '2640'; // FEMALE SIGN
+export const MALE_SIGN = '2642'; // MALE SIGN
+export const BLACK_FLAG = '1F3F4'; // WAVING BLACK FLAG
 
 export const REGIONAL_INDICATORS: { [hexcode: string]: string } = {
   '1F1E6': 'A',
