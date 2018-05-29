@@ -5,7 +5,7 @@
 
 import { TEXT, Emoji } from 'emojibase';
 
-export default function extractSubset(data: Emoji[], format: string): Emoji[] {
+export default function extractSubset(data: Emoji[], format: 'full' | 'compact'): Emoji[] {
   const emojis: Emoji[] = [];
 
   data.forEach(datum => {

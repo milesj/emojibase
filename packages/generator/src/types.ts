@@ -3,9 +3,19 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
-import { Gender, Hexcode, Presentation, Shortcode, SkinTone } from 'emojibase';
+import {
+  Emoticon,
+  Gender,
+  Group,
+  Hexcode,
+  Presentation,
+  Shortcode,
+  SkinTone,
+  Subgroup,
+  Unicode,
+} from 'emojibase';
 
-export { Gender, Hexcode, Presentation, Shortcode, SkinTone };
+export { Emoticon, Gender, Group, Hexcode, Presentation, Shortcode, SkinTone, Subgroup, Unicode };
 
 export type HexcodeMap<T> = { [hexcode: string]: T };
 
@@ -47,15 +57,15 @@ export interface Emoji {
   unicodeVersion: string;
   version: string;
   // Group
-  group: number;
+  group: Group;
   order: number;
-  subgroup: number;
+  subgroup: Subgroup;
   // Metadata
   modifications: { [tone: string]: EmojiModification };
   name: string;
   variations: EmojiVariation;
   shortcodes: Shortcode[];
-  emoticon: string;
+  emoticon: Emoticon;
 }
 
 export type EmojiMap = HexcodeMap<Emoji>;
@@ -73,17 +83,17 @@ export interface EmojiData {
 export type EmojiDataMap = HexcodeMap<EmojiData>;
 
 export interface EmojiGroup {
-  group: number;
+  group: Group;
   order: number;
-  subgroup: number;
+  subgroup: Subgroup;
 }
 
 export type EmojiGroupMap = HexcodeMap<EmojiGroup>;
 
 export interface EmojiSource {
   hexcode: Hexcode;
-  group: number;
-  subgroup: number;
+  group: Group;
+  subgroup: Subgroup;
 }
 
 export type EmojiSourceMap = HexcodeMap<EmojiSource>;

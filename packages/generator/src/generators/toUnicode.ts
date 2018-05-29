@@ -4,8 +4,8 @@
  */
 
 import { fromCodepointToUnicode, fromHexcodeToCodepoint } from 'emojibase';
-import { Hexcode } from '../types';
+import { Hexcode, Unicode } from '../types';
 
-export default function toUnicode(hexcode: Hexcode): string {
+export default function toUnicode(hexcode: Hexcode): Unicode {
   return fromCodepointToUnicode(fromHexcodeToCodepoint(hexcode));
 }
