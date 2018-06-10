@@ -1,6 +1,6 @@
 # Changelog
 
-* [core](./packages/core/CHANGELOG.md)
-* [data](./packages/data/CHANGELOG.md)
-* [regex](./packages/regex/CHANGELOG.md)
-* [test-utils](./packages/test-utils/CHANGELOG.md)
+- [emojibase](./packages/core/CHANGELOG.md)
+- [emojibase-data](./packages/data/CHANGELOG.md)
+- [emojibase-regex](./packages/regex/CHANGELOG.md)
+- [emojibase-test-utils](./packages/test-utils/CHANGELOG.md)
