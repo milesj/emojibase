@@ -18,22 +18,22 @@ As stated, there are 3 groups of datasets, each serving a specific purpose. The 
 localized data, is exactly that, datasets with localization provided by [CLDR 33][cldr]. The
 following locales and languages are currently supported:
 
-* `emojibase-data/zh/data.json` - Chinese (zh)
-* `emojibase-data/zh-hant/data.json` - Chinese, Traditional (zh-hant)
-* `emojibase-data/da/data.json` - Danish (da)
-* `emojibase-data/en/data.json` - English (en)
-* `emojibase-data/en-gb/data.json` - English, Great Britain (en-gb)
-* `emojibase-data/fr/data.json` - French (fr)
-* `emojibase-data/de/data.json` - German (de)
-* `emojibase-data/it/data.json` - Italian (it)
-* `emojibase-data/ja/data.json` - Japanese (ja)
-* `emojibase-data/ko/data.json` - Korean (ko)
-* `emojibase-data/pl/data.json` - Polish (pl)
-* `emojibase-data/pt/data.json` - Portuguese (pt)
-* `emojibase-data/ru/data.json` - Russian (ru)
-* `emojibase-data/es/data.json` - Spanish (es)
-* `emojibase-data/es-mx/data.json` - Spanish, Mexico (es-mx)
-* `emojibase-data/th/data.json` - Thai (th)
+- `emojibase-data/zh/data.json` - Chinese (zh)
+- `emojibase-data/zh-hant/data.json` - Chinese, Traditional (zh-hant)
+- `emojibase-data/da/data.json` - Danish (da)
+- `emojibase-data/en/data.json` - English (en)
+- `emojibase-data/en-gb/data.json` - English, Great Britain (en-gb)
+- `emojibase-data/fr/data.json` - French (fr)
+- `emojibase-data/de/data.json` - German (de)
+- `emojibase-data/it/data.json` - Italian (it)
+- `emojibase-data/ja/data.json` - Japanese (ja)
+- `emojibase-data/ko/data.json` - Korean (ko)
+- `emojibase-data/pl/data.json` - Polish (pl)
+- `emojibase-data/pt/data.json` - Portuguese (pt)
+- `emojibase-data/ru/data.json` - Russian (ru)
+- `emojibase-data/es/data.json` - Spanish (es)
+- `emojibase-data/es-mx/data.json` - Spanish, Mexico (es-mx)
+- `emojibase-data/th/data.json` - Thai (th)
 
 These datasets return an array of emoji objects that adhere to the defined
 [data structure](#data-structure).
@@ -48,8 +48,8 @@ The second group, versioned data, provides datasets for emoji and Unicode releas
 datasets return a map, with the key being the version, and the value being an array of emoji
 hexcodes included in the associated release version.
 
-* `emojibase-data/versions/emoji.json` - Emoji characters grouped by emoji version.
-* `emojibase-data/versions/unicode.json` - Emoji characters grouped by Unicode version.
+- `emojibase-data/versions/emoji.json` - Emoji characters grouped by emoji version.
+- `emojibase-data/versions/unicode.json` - Emoji characters grouped by Unicode version.
 
 ```javascript
 import unicodeVersions from 'emojibase-data/versions/unicode.json';
@@ -57,11 +57,11 @@ import unicodeVersions from 'emojibase-data/versions/unicode.json';
 
 The third and last group, metadata, provides specialized datasets for unique use cases.
 
-* `emojibase-data/meta/groups.json` - A map of non-localized emoji groups (Smileys & People),
+- `emojibase-data/meta/groups.json` - A map of non-localized emoji groups (Smileys & People),
   subgroups (Sky & Weather), and hierarchy, according to the official Unicode data files.
-* `emojibase-data/meta/hexcodes.json` - An array of all emoji hexcodes (hexadecimal codepoints).
-* `emojibase-data/meta/shortcodes.json` - An array of all emoji shortcodes.
-* `emojibase-data/meta/unicode.json` - An array of all emoji unicode characters, including text and
+- `emojibase-data/meta/hexcodes.json` - An array of all emoji hexcodes (hexadecimal codepoints).
+- `emojibase-data/meta/shortcodes.json` - An array of all emoji shortcodes.
+- `emojibase-data/meta/unicode.json` - An array of all emoji unicode characters, including text and
   emoji presentation characters.
 
 ```javascript
@@ -75,33 +75,33 @@ of the properties listed below. In an effort to reduce the overall dataset files
 values have been implemented using integers,
 [with associated constants](https://github.com/milesj/emojibase/blob/master/packages/core/src/constants.ts).
 
-* `annotation` (string) - A localized description, provided by [CLDR 33][cldr], primarily used for
+- `annotation` (string) - A localized description, provided by [CLDR 33][cldr], primarily used for
   text-to-speech (TTS) and accessibility.
-* `emoji` (string) - The emoji presentation Unicode character.
-* `emoticon` (string) - If applicable, an emoticon representing the emoji character.
-* `gender` (number) - If applicable, the gender of the emoji character. `0` for female, `1` for
+- `emoji` (string) - The emoji presentation Unicode character.
+- `emoticon` (string) - If applicable, an emoticon representing the emoji character.
+- `gender` (number) - If applicable, the gender of the emoji character. `0` for female, `1` for
   male.
-* `group` (number) - The categorical group the emoji belongs to, ranging from `0` (smileys) to `7`
+- `group` (number) - The categorical group the emoji belongs to, ranging from `0` (smileys) to `7`
   (flags).
-* `hexcode` (string) - The hexadecimal representation of the emoji Unicode codepoint, including zero
+- `hexcode` (string) - The hexadecimal representation of the emoji Unicode codepoint, including zero
   width joiners and variation selectors.
-* `name` (string) - The generated name according to the official [Unicode data][ucd].
-* `order` (number) - The order in which emoji should be displayed on a device, through a keyboard or
+- `name` (string) - The generated name according to the official [Unicode data][ucd].
+- `order` (number) - The order in which emoji should be displayed on a device, through a keyboard or
   emoji picker.
-* `shortcodes` (string[]) - An array of community curated shortcodes. _Does not include surrounding
+- `shortcodes` (string[]) - An array of community curated shortcodes. _Does not include surrounding
   colons_.
-* `skins` (emoji[]) - If applicable, an array of emoji objects for each skin tone modification,
+- `skins` (emoji[]) - If applicable, an array of emoji objects for each skin tone modification,
   starting at light skin, and ending with dark skin.
-* `subgroup` (number) - The categorical subgroup the emoji belongs to, ranging from `0` to `75`.
-* `tags` (string[]) - An array of localized keywords, provided by [CLDR 33][cldr], to use for
+- `subgroup` (number) - The categorical subgroup the emoji belongs to, ranging from `0` to `75`.
+- `tags` (string[]) - An array of localized keywords, provided by [CLDR 33][cldr], to use for
   searching and filtering.
-* `text` (string) - The text presentation Unicode character.
-* `tone` (number) - If applicable, the skin tone of the emoji character. `1` for light skin, `2` for
+- `text` (string) - The text presentation Unicode character.
+- `tone` (number) - If applicable, the skin tone of the emoji character. `1` for light skin, `2` for
   medium-light skin, `3` for medium skin, `4` for medium-dark skin, and `5` for dark skin.
-* `type` (number) - The default presentation of the emoji character. `0` for text, `1` for emoji.
-* `unicode` (string) - Either the emoji or text presentation Unicode character. _Only available in
+- `type` (number) - The default presentation of the emoji character. `0` for text, `1` for emoji.
+- `unicode` (string) - Either the emoji or text presentation Unicode character. _Only available in
   the compact dataset._
-* `version` (number) - The version in which the emoji character was released.
+- `version` (number) - The version in which the emoji character was released.
 
 > Not all properties will be found in the emoji object, as properties without an applicable value
 > are omitted from the emoji object.

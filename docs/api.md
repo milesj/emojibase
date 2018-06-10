@@ -108,11 +108,11 @@ fromUnicodeToHexcode('👨‍👩‍👧‍👦', false); // 1F468-200D-1F469-20
 This function will generate multiple permutations of a base emoticon character. The following
 permutations will occur:
 
-* `)` mouth will be replaced with `]` and `}`. The same applies to sad/frowning mouths.
-* `/` mouth will be replaced with `\`.
-* `:` eyes will be replaced with `=`.
-* Supports a `-` nose, by injecting between the eyes and mouth.
-* Supports both uppercase and lowercase variants.
+- `)` mouth will be replaced with `]` and `}`. The same applies to sad/frowning mouths.
+- `/` mouth will be replaced with `\`.
+- `:` eyes will be replaced with `=`.
+- Supports a `-` nose, by injecting between the eyes and mouth.
+- Supports both uppercase and lowercase variants.
 
 ```javascript
 import { generateEmoticonPermutations } from 'emojibase';
@@ -125,8 +125,8 @@ generateEmoticonPermutations(':)'); // =-), =-}, :-], =-], :-}, :-), =}, =], =),
 Furthermore, this function accepts an options object as the 2nd argument, as a means to customize
 the output.
 
-* `isFace` (bool) - Toggles face permutations (mouth and eye variants). Defaults to `true`.
-* `withNose` (bool) - Toggles nose inclusion. Defaults to `true`.
+- `isFace` (bool) - Toggles face permutations (mouth and eye variants). Defaults to `true`.
+- `withNose` (bool) - Toggles nose inclusion. Defaults to `true`.
 
 ```javascript
 generateEmoticonPermutations(':)', { withNose: false }); // =}, =], =), :}, :], :)

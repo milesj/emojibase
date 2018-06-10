@@ -10,4 +10,5 @@ single emoticon can be defined per emoji, reducing the overall filesize and main
 
 > Only western styled emoticons are currently supported.
 
-[emos]: https://github.com/milesj/emojibase/blob/master/packages/generator/src/resources/emoticons.ts
+[emos]:
+  https://github.com/milesj/emojibase/blob/master/packages/generator/src/resources/emoticons.ts

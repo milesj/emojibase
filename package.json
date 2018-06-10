@@ -15,11 +15,10 @@
     "posttest": "yarn run eslint",
     "pretest": "yarn run type",
     "test": "yarn run jest",
-    "package": "yarn run clean && yarn install && yarn run build && yarn test",
+    "package": "yarn run clean && yarn install && yarn test && yarn run build",
     "prettier": "beemo prettier",
     "prerelease": "yarn run package",
     "release": "lerna publish --ignore=emojibase-generator",
-    "release:force": "npm run release -- --force-publish=*",
     "type": "beemo typescript --workspaces=core,generator,test-utils --noEmit"
   },
   "devDependencies": {

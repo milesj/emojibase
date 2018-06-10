@@ -16,11 +16,11 @@ As stated, there are 5 regex patterns. One for matching emoji presentation chara
 matching text presentation characters, one for matching both types of characters, and the last for
 matching shortcodes or emoticons.
 
-* `emojibase-regex` - Matches both emoji and text presentation characters.
-* `emojibase-regex/emoji` - Matches only emoji presentation characters.
-* `emojibase-regex/text` - Matches only text presentation characters.
-* `emojibase-regex/emoticon` - Matches supported emoticons and their permutations.
-* `emojibase-regex/shortcode` - Matches supported shortcodes.
+- `emojibase-regex` - Matches both emoji and text presentation characters.
+- `emojibase-regex/emoji` - Matches only emoji presentation characters.
+- `emojibase-regex/text` - Matches only text presentation characters.
+- `emojibase-regex/emoticon` - Matches supported emoticons and their permutations.
+- `emojibase-regex/shortcode` - Matches supported shortcodes.
 
 Each of these imports return a `RegExp` instance with no flags defined.
 

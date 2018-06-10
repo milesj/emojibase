@@ -12,17 +12,18 @@ between implementations, websites, or libraries.
 Emojibase aims to solve this problem with a [maintained and curated list of shortcodes][scodes] that
 abide the following guidelines:
 
-* Must be short and succinct. Easy to type, easy to remember. This infers a small filesize.
-* Must be consistent across locales and languages by utilizing English shortcodes. It's a language
+- Must be short and succinct. Easy to type, easy to remember. This infers a small filesize.
+- Must be consistent across locales and languages by utilizing English shortcodes. It's a language
   common amongst supported locales.
-* Must use descriptive nouns over verbose phrases. For example, "storm" over "cloud with lightning
+- Must use descriptive nouns over verbose phrases. For example, "storm" over "cloud with lightning
   and rain".
-* Must use emotions when describing smileys. For example, "happy" over "smiling face with open mouth
+- Must use emotions when describing smileys. For example, "happy" over "smiling face with open mouth
   & smiling eyes".
-* Must keep backwards compatibility and historical integrity by never removing and renaming
+- Must keep backwards compatibility and historical integrity by never removing and renaming
   shortcodes.
-* Must support multiple shortcodes per emoji character, for usage within different contexts.
-* Must align with or base off [CLDR 33][cldr] annotations.
+- Must support multiple shortcodes per emoji character, for usage within different contexts.
+- Must align with or base off [CLDR 33][cldr] annotations.
 
 [cldr]: http://cldr.unicode.org/index/downloads/cldr-33
-[scodes]: https://github.com/milesj/emojibase/blob/master/packages/generator/src/resources/shortcodes.ts
+[scodes]:
+  https://github.com/milesj/emojibase/blob/master/packages/generator/src/resources/shortcodes.ts
