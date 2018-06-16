@@ -9,11 +9,11 @@ import writeFile from './writeFile';
 
 const CACHE_FOLDER = path.resolve(__dirname, '../../../../cache');
 
-export default function writeCache(name: string, data: any) {
+export default function writeCache(name: string, data: any, encode: boolean = true) {
   writeFile(
     CACHE_FOLDER,
     name,
-    JSON.stringify(data, null, '  '), // Easier debugging
+    encode ? JSON.stringify(data, null, '  ') : data, // Easier debugging
   );
 
   log.info('cache', `Caching ${name}`);

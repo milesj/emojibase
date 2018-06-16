@@ -29,7 +29,8 @@ export type Property =
   | 'Emoji_Flag_Sequence'
   | 'Emoji_Keycap_Sequence'
   | 'Emoji_Tag_Sequence'
-  | 'Emoji_ZWJ_Sequence';
+  | 'Emoji_ZWJ_Sequence'
+  | 'Extended_Pictographic';
 
 export interface CLDRAnnotation {
   annotation: string;

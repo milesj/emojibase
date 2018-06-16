@@ -58,6 +58,12 @@ export default async function buildVersionedData(): Promise<{
 
   // Loop through each version, starting at the earliest
   for (let i = 1; i <= parseFloat(LATEST_EMOJI_VERSION); i += 1) {
+    // Emoji versions jumped from 5 to 11 to align with the Unicode versions
+    if (i >= 6 && i <= 10) {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
     partitionVersions(await loadData(`${i}.0`));
 
     // Sequences were introduced in v2.0+

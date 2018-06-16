@@ -3200,4 +3200,160 @@ export default {
   '0038-FE0F-20E3': ['eight'],
   // 9️⃣ combining enclosing keycap 9
   '0039-FE0F-20E3': ['nine'],
+
+  // VERSION 11.0
+  // BLACK CHESS PAWN
+  '265F': [],
+  // PERMANENT PAPER SIGN
+  '267E': [],
+  // SKATEBOARD
+  '1F6F9': [],
+  // LACROSSE STICK AND BALL
+  '1F94D': [],
+  // SOFTBALL
+  '1F94E': [],
+  // FLYING DISC
+  '1F94F': [],
+  // LEAFY GREEN
+  '1F96C': [],
+  // MANGO
+  '1F96D': [],
+  // MOON CAKE
+  '1F96E': [],
+  // BAGEL
+  '1F96F': [],
+  // SMILING FACE WITH SMILING EYES AND THREE HEARTS
+  '1F970': [],
+  // FACE WITH PARTY HORN AND PARTY HAT
+  '1F973': [],
+  // FACE WITH UNEVEN EYES AND WAVY MOUTH
+  '1F974': [],
+  // OVERHEATED FACE
+  '1F975': [],
+  // FREEZING FACE
+  '1F976': [],
+  // FACE WITH PLEADING EYES
+  '1F97A': [],
+  // LAB COAT
+  '1F97C': [],
+  // GOGGLES
+  '1F97D': [],
+  // HIKING BOOT
+  '1F97E': [],
+  // FLAT SHOE
+  '1F97F': [],
+  // KANGAROO
+  '1F998': [],
+  // LLAMA
+  '1F999': [],
+  // PEACOCK
+  '1F99A': [],
+  // HIPPOPOTAMUS
+  '1F99B': [],
+  // PARROT
+  '1F99C': [],
+  // RACCOON
+  '1F99D': [],
+  // LOBSTER
+  '1F99E': [],
+  // MOSQUITO
+  '1F99F': [],
+  // MICROBE
+  '1F9A0': [],
+  // BADGER
+  '1F9A1': [],
+  // SWAN
+  '1F9A2': [],
+  // BONE
+  '1F9B4': [],
+  // LEG
+  '1F9B5': [],
+  // FOOT
+  '1F9B6': [],
+  // TOOTH
+  '1F9B7': [],
+  // SUPERHERO
+  '1F9B8': [],
+  // SUPERVILLAIN
+  '1F9B9': [],
+  // CUPCAKE
+  '1F9C1': [],
+  // SALT SHAKER
+  '1F9C2': [],
+  // RED GIFT ENVELOPE
+  '1F9E7': [],
+  // FIRECRACKER
+  '1F9E8': [],
+  // JIGSAW PUZZLE PIECE
+  '1F9E9': [],
+  // TEST TUBE
+  '1F9EA': [],
+  // PETRI DISH
+  '1F9EB': [],
+  // DNA DOUBLE HELIX
+  '1F9EC': [],
+  // COMPASS
+  '1F9ED': [],
+  // ABACUS
+  '1F9EE': [],
+  // FIRE EXTINGUISHER
+  '1F9EF': [],
+  // TOOLBOX
+  '1F9F0': [],
+  // BRICK
+  '1F9F1': [],
+  // MAGNET
+  '1F9F2': [],
+  // LUGGAGE
+  '1F9F3': [],
+  // LOTION BOTTLE
+  '1F9F4': [],
+  // SPOOL OF THREAD
+  '1F9F5': [],
+  // BALL OF YARN
+  '1F9F6': [],
+  // SAFETY PIN
+  '1F9F7': [],
+  // TEDDY BEAR
+  '1F9F8': [],
+  // BROOM
+  '1F9F9': [],
+  // BASKET
+  '1F9FA': [],
+  // ROLL OF PAPER
+  '1F9FB': [],
+  // BAR OF SOAP
+  '1F9FC': [],
+  // SPONGE
+  '1F9FD': [],
+  // RECEIPT
+  '1F9FE': [],
+  // NAZAR AMULET
+  '1F9FF': [],
+  // MAN, EMOJI COMPONENT RED HAIR
+  '1F468-200D-1F9B0': [],
+  // MAN, EMOJI COMPONENT CURLY HAIR
+  '1F468-200D-1F9B1': [],
+  // MAN, EMOJI COMPONENT BALD
+  '1F468-200D-1F9B2': [],
+  // MAN, EMOJI COMPONENT WHITE HAIR
+  '1F468-200D-1F9B3': [],
+  // WOMAN, EMOJI COMPONENT RED HAIR
+  '1F469-200D-1F9B0': [],
+  // WOMAN, EMOJI COMPONENT CURLY HAIR
+  '1F469-200D-1F9B1': [],
+  // WOMAN, EMOJI COMPONENT BALD
+  '1F469-200D-1F9B2': [],
+  // WOMAN, EMOJI COMPONENT WHITE HAIR
+  '1F469-200D-1F9B3': [],
+  // SUPERHERO, FEMALE SIGN
+  '1F9B8-200D-2640-FE0F': [],
+  // SUPERHERO, MALE SIGN
+  '1F9B8-200D-2642-FE0F': [],
+  // SUPERVILLAIN, FEMALE SIGN
+  '1F9B9-200D-2640-FE0F': [],
+  // SUPERVILLAIN, MALE SIGN
+  '1F9B9-200D-2642-FE0F': [],
+  // WAVING BLACK FLAG, SKULL AND CROSSBONES
+  '1F3F4-200D-2620-FE0F': [],
 };

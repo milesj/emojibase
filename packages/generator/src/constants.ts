@@ -5,8 +5,6 @@
 
 /* eslint-disable sort-keys */
 
-import { Hexcode } from 'emojibase';
-
 // Regex patterns to make my job easier.
 
 export const ZWJ_PATTERN = /200D/g;
