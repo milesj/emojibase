@@ -13,6 +13,8 @@
  *  - Gender neutral emoji must be prefixed with "person_",
  *    while female emoji use "woman_", and male "man_".
  *    Plural forms use "people_", "women_", and "men_".
+ *    In rare occasions, the gender can be suffixed,
+ *    like "bald_man" or "blonde_woman".
  *
  *  - Animals depicted from the side use the animal name,
  *    while animals depicted with a head, or a face,
@@ -529,7 +531,7 @@ export default {
   // 🏃‍♀️ woman running
   '1F3C3-200D-2640-FE0F': ['woman_running'],
   // 💃 woman dancing
-  '1F483': ['dancer'],
+  '1F483': ['dancer', 'woman_dancing'],
   // 🕺 man dancing
   '1F57A': ['man_dancing'],
   // 👯 people with bunny ears partying
@@ -735,7 +737,7 @@ export default {
   // 🤳 selfie
   '1F933': ['selfie'],
   // 💪 flexed biceps
-  '1F4AA': ['muscle'],
+  '1F4AA': ['muscle', 'right_bicep'],
   // 👈️ backhand index pointing left
   '1F448': ['point_left'],
   // 👉️ backhand index pointing right
@@ -3203,157 +3205,157 @@ export default {
 
   // VERSION 11.0
   // BLACK CHESS PAWN
-  '265F': [],
+  '265F': ['chess_pawn'],
   // PERMANENT PAPER SIGN
-  '267E': [],
+  '267E': ['infinity'],
   // SKATEBOARD
-  '1F6F9': [],
+  '1F6F9': ['skateboard'],
   // LACROSSE STICK AND BALL
-  '1F94D': [],
+  '1F94D': ['lacrosse'],
   // SOFTBALL
-  '1F94E': [],
+  '1F94E': ['softball'],
   // FLYING DISC
-  '1F94F': [],
+  '1F94F': ['flying_disc'],
   // LEAFY GREEN
-  '1F96C': [],
+  '1F96C': ['leafy_green'],
   // MANGO
-  '1F96D': [],
+  '1F96D': ['mango'],
   // MOON CAKE
-  '1F96E': [],
+  '1F96E': ['moon_cake'],
   // BAGEL
-  '1F96F': [],
+  '1F96F': ['bagel'],
   // SMILING FACE WITH SMILING EYES AND THREE HEARTS
-  '1F970': [],
+  '1F970': ['love'],
   // FACE WITH PARTY HORN AND PARTY HAT
-  '1F973': [],
+  '1F973': ['partying', 'celebrating'],
   // FACE WITH UNEVEN EYES AND WAVY MOUTH
-  '1F974': [],
+  '1F974': ['woozy'],
   // OVERHEATED FACE
-  '1F975': [],
+  '1F975': ['overheating'],
   // FREEZING FACE
-  '1F976': [],
+  '1F976': ['freezing'],
   // FACE WITH PLEADING EYES
-  '1F97A': [],
+  '1F97A': ['pleading'],
   // LAB COAT
-  '1F97C': [],
+  '1F97C': ['lab_coat'],
   // GOGGLES
-  '1F97D': [],
+  '1F97D': ['goggles'],
   // HIKING BOOT
-  '1F97E': [],
+  '1F97E': ['hiking_boot'],
   // FLAT SHOE
-  '1F97F': [],
+  '1F97F': ['flat_shoe'],
   // KANGAROO
-  '1F998': [],
+  '1F998': ['kangaroo'],
   // LLAMA
-  '1F999': [],
+  '1F999': ['llama'],
   // PEACOCK
-  '1F99A': [],
+  '1F99A': ['peacock'],
   // HIPPOPOTAMUS
-  '1F99B': [],
+  '1F99B': ['hippo'],
   // PARROT
-  '1F99C': [],
+  '1F99C': ['parrot'],
   // RACCOON
-  '1F99D': [],
+  '1F99D': ['raccoon'],
   // LOBSTER
-  '1F99E': [],
+  '1F99E': ['lobster'],
   // MOSQUITO
-  '1F99F': [],
+  '1F99F': ['mosquito'],
   // MICROBE
-  '1F9A0': [],
+  '1F9A0': ['microbe', 'germ'],
   // BADGER
-  '1F9A1': [],
+  '1F9A1': ['badger'],
   // SWAN
-  '1F9A2': [],
+  '1F9A2': ['swan'],
   // BONE
-  '1F9B4': [],
+  '1F9B4': ['bone'],
   // LEG
-  '1F9B5': [],
+  '1F9B5': ['leg'],
   // FOOT
-  '1F9B6': [],
+  '1F9B6': ['foot'],
   // TOOTH
-  '1F9B7': [],
+  '1F9B7': ['tooth'],
   // SUPERHERO
-  '1F9B8': [],
+  '1F9B8': ['hero', 'superhero'],
   // SUPERVILLAIN
-  '1F9B9': [],
+  '1F9B9': ['villain', 'supervillain'],
   // CUPCAKE
-  '1F9C1': [],
+  '1F9C1': ['cupcake'],
   // SALT SHAKER
-  '1F9C2': [],
+  '1F9C2': ['salt'],
   // RED GIFT ENVELOPE
-  '1F9E7': [],
+  '1F9E7': ['red_envelope'],
   // FIRECRACKER
-  '1F9E8': [],
+  '1F9E8': ['firecracker'],
   // JIGSAW PUZZLE PIECE
-  '1F9E9': [],
+  '1F9E9': ['jigsaw', 'puzzle_piece'],
   // TEST TUBE
-  '1F9EA': [],
+  '1F9EA': ['test_tube'],
   // PETRI DISH
-  '1F9EB': [],
+  '1F9EB': ['petri_dish'],
   // DNA DOUBLE HELIX
-  '1F9EC': [],
+  '1F9EC': ['dna', 'double_helix'],
   // COMPASS
-  '1F9ED': [],
+  '1F9ED': ['compass'],
   // ABACUS
-  '1F9EE': [],
+  '1F9EE': ['abacus'],
   // FIRE EXTINGUISHER
-  '1F9EF': [],
+  '1F9EF': ['fire_extinguisher'],
   // TOOLBOX
-  '1F9F0': [],
+  '1F9F0': ['toolbox'],
   // BRICK
-  '1F9F1': [],
+  '1F9F1': ['brick'],
   // MAGNET
-  '1F9F2': [],
+  '1F9F2': ['magnet'],
   // LUGGAGE
-  '1F9F3': [],
+  '1F9F3': ['luggage'],
   // LOTION BOTTLE
-  '1F9F4': [],
+  '1F9F4': ['lotion'],
   // SPOOL OF THREAD
-  '1F9F5': [],
+  '1F9F5': ['spool'],
   // BALL OF YARN
-  '1F9F6': [],
+  '1F9F6': ['yarn'],
   // SAFETY PIN
-  '1F9F7': [],
+  '1F9F7': ['safety_pin'],
   // TEDDY BEAR
-  '1F9F8': [],
+  '1F9F8': ['teddy_bear'],
   // BROOM
-  '1F9F9': [],
+  '1F9F9': ['broom'],
   // BASKET
-  '1F9FA': [],
+  '1F9FA': ['basket'],
   // ROLL OF PAPER
-  '1F9FB': [],
+  '1F9FB': ['toilet_paper'],
   // BAR OF SOAP
-  '1F9FC': [],
+  '1F9FC': ['soap'],
   // SPONGE
-  '1F9FD': [],
+  '1F9FD': ['sponge'],
   // RECEIPT
-  '1F9FE': [],
+  '1F9FE': ['receipt'],
   // NAZAR AMULET
-  '1F9FF': [],
+  '1F9FF': ['nazar_amulet'],
   // MAN, EMOJI COMPONENT RED HAIR
-  '1F468-200D-1F9B0': [],
+  '1F468-200D-1F9B0': ['red_haired_man'],
   // MAN, EMOJI COMPONENT CURLY HAIR
-  '1F468-200D-1F9B1': [],
+  '1F468-200D-1F9B1': ['curly_haired_man'],
   // MAN, EMOJI COMPONENT BALD
-  '1F468-200D-1F9B2': [],
+  '1F468-200D-1F9B2': ['bald_man'],
   // MAN, EMOJI COMPONENT WHITE HAIR
-  '1F468-200D-1F9B3': [],
+  '1F468-200D-1F9B3': ['white_haired_man'],
   // WOMAN, EMOJI COMPONENT RED HAIR
-  '1F469-200D-1F9B0': [],
+  '1F469-200D-1F9B0': ['red_haired_woman'],
   // WOMAN, EMOJI COMPONENT CURLY HAIR
-  '1F469-200D-1F9B1': [],
+  '1F469-200D-1F9B1': ['curly_haired_woman'],
   // WOMAN, EMOJI COMPONENT BALD
-  '1F469-200D-1F9B2': [],
+  '1F469-200D-1F9B2': ['bald_woman'],
   // WOMAN, EMOJI COMPONENT WHITE HAIR
-  '1F469-200D-1F9B3': [],
+  '1F469-200D-1F9B3': ['white_haired_woman'],
   // SUPERHERO, FEMALE SIGN
-  '1F9B8-200D-2640-FE0F': [],
+  '1F9B8-200D-2640-FE0F': ['woman_hero'],
   // SUPERHERO, MALE SIGN
-  '1F9B8-200D-2642-FE0F': [],
+  '1F9B8-200D-2642-FE0F': ['man_hero'],
   // SUPERVILLAIN, FEMALE SIGN
-  '1F9B9-200D-2640-FE0F': [],
+  '1F9B9-200D-2640-FE0F': ['woman_villain'],
   // SUPERVILLAIN, MALE SIGN
-  '1F9B9-200D-2642-FE0F': [],
+  '1F9B9-200D-2642-FE0F': ['man_villain'],
   // WAVING BLACK FLAG, SKULL AND CROSSBONES
-  '1F3F4-200D-2620-FE0F': [],
+  '1F3F4-200D-2620-FE0F': ['pirate_flag', 'jolly_roger'],
 };
