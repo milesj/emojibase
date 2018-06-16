@@ -68,9 +68,9 @@
   dependencies:
     rimraf "^2.6.2"
 
-"@milesj/build-tool-config@^0.102.1":
-  version "0.102.1"
-  resolved "https://registry.npmjs.org/@milesj/build-tool-config/-/build-tool-config-0.102.1.tgz#1ad4e372b9e0d70b9b4db4c5524422a83f91c4a0"
+"@milesj/build-tool-config@^0.102.3":
+  version "0.102.3"
+  resolved "https://registry.npmjs.org/@milesj/build-tool-config/-/build-tool-config-0.102.3.tgz#8f8b254f3e04c614fb6b1f54d6f7d8aeaea56df9"
   dependencies:
     "@beemo/cli" "^0.18.0"
     "@beemo/core" "^0.18.0"
@@ -80,7 +80,7 @@
     "@beemo/driver-prettier" "^0.18.0"
     "@beemo/driver-typescript" "^0.7.0"
     "@types/enzyme" "^3.1.10"
-    "@types/jest" "^23.0.0"
+    "@types/jest" "^23.1.0"
     babel-cli "^6.26.0"
     babel-core "^6.26.3"
     babel-jest "^23.0.1"
@@ -114,12 +114,12 @@
     jest-runner-eslint "^0.6.0"
     np "^3.0.4"
     prettier "^1.13.5"
-    react "^16.4.0"
-    react-dom "^16.4.0"
-    react-test-renderer "^16.4.0"
+    react "^16.4.1"
+    react-dom "^16.4.1"
+    react-test-renderer "^16.4.1"
     rimraf "^2.6.2"
     ts-jest "^22.4.6"
-    typescript "^2.9.1"
+    typescript "^2.9.2"
     typescript-eslint-parser "^16.0.0"
 
 "@samverschueren/stream-to-observable@^0.3.0":
@@ -181,9 +181,9 @@
   version "4.0.0"
   resolved "https://registry.npmjs.org/@types/is-glob/-/is-glob-4.0.0.tgz#fb8a2bff539025d4dcd6d5efe7689e03341b876d"
 
-"@types/jest@^23.0.0":
-  version "23.0.0"
-  resolved "https://registry.npmjs.org/@types/jest/-/jest-23.0.0.tgz#760cac74f00bb9c3075587716d2b3b4435663bc0"
+"@types/jest@^23.1.0":
+  version "23.1.0"
+  resolved "https://registry.npmjs.org/@types/jest/-/jest-23.1.0.tgz#8054dd838ba23dc331794d26456b86c7e50bf0f6"
 
 "@types/json5@^0.0.29":
   version "0.0.29"
@@ -217,9 +217,9 @@
   version "10.3.1"
   resolved "https://registry.npmjs.org/@types/node/-/node-10.3.1.tgz#51092fbacaed768a122a293814474fbf6e5e8b6d"
 
-"@types/node@^10.3.2":
-  version "10.3.2"
-  resolved "https://registry.npmjs.org/@types/node/-/node-10.3.2.tgz#3840ec6c12556fdda6e0e6d036df853101d732a4"
+"@types/node@^10.3.3":
+  version "10.3.3"
+  resolved "https://registry.npmjs.org/@types/node/-/node-10.3.3.tgz#8798d9e39af2fa604f715ee6a6b19796528e46c3"
 
 "@types/node@^6.0.46":
   version "6.0.85"
@@ -7009,18 +7009,18 @@ rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-dom@^16.4.0:
-  version "16.4.0"
-  resolved "https://registry.npmjs.org/react-dom/-/react-dom-16.4.0.tgz#099f067dd5827ce36a29eaf9a6cdc7cbf6216b1e"
+react-dom@^16.4.1:
+  version "16.4.1"
+  resolved "https://registry.npmjs.org/react-dom/-/react-dom-16.4.1.tgz#7f8b0223b3a5fbe205116c56deb85de32685dad6"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-is@^16.4.0:
-  version "16.4.0"
-  resolved "https://registry.npmjs.org/react-is/-/react-is-16.4.0.tgz#cc9fdc855ac34d2e7d9d2eb7059bbc240d35ffcf"
+react-is@^16.4.1:
+  version "16.4.1"
+  resolved "https://registry.npmjs.org/react-is/-/react-is-16.4.1.tgz#d624c4650d2c65dbd52c72622bbf389435d9776e"
 
 react-reconciler@^0.7.0:
   version "0.7.0"
@@ -7038,18 +7038,18 @@ react-test-renderer@^16.0.0-0:
     fbjs "^0.8.16"
     object-assign "^4.1.1"
 
-react-test-renderer@^16.4.0:
-  version "16.4.0"
-  resolved "https://registry.npmjs.org/react-test-renderer/-/react-test-renderer-16.4.0.tgz#0dbe0e24263e94e1830c7afb1f403707fad313a3"
+react-test-renderer@^16.4.1:
+  version "16.4.1"
+  resolved "https://registry.npmjs.org/react-test-renderer/-/react-test-renderer-16.4.1.tgz#f2fb30c2c7b517db6e5b10ed20bb6b0a7ccd8d70"
   dependencies:
     fbjs "^0.8.16"
     object-assign "^4.1.1"
     prop-types "^15.6.0"
-    react-is "^16.4.0"
+    react-is "^16.4.1"
 
-react@^16.4.0:
-  version "16.4.0"
-  resolved "https://registry.npmjs.org/react/-/react-16.4.0.tgz#402c2db83335336fba1962c08b98c6272617d585"
+react@^16.4.1:
+  version "16.4.1"
+  resolved "https://registry.npmjs.org/react/-/react-16.4.1.tgz#de51ba5764b5dbcd1f9079037b862bd26b82fe32"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
@@ -8394,9 +8394,9 @@ typescript-eslint-parser@^16.0.0:
     lodash.unescape "4.0.1"
     semver "5.5.0"
 
-typescript@^2.9.1:
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-2.9.1.tgz#fdb19d2c67a15d11995fd15640e373e09ab09961"
+typescript@^2.9.2:
+  version "2.9.2"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
 
 ua-parser-js@^0.7.9:
   version "0.7.14"
