@@ -26,11 +26,12 @@ export type Property =
   | 'Emoji_Modifier'
   | 'Emoji_Modifier_Base'
   | 'Emoji_Modifier_Sequence'
-  | 'Emoji_Flag_Sequence'
   | 'Emoji_Keycap_Sequence'
+  | 'Emoji_Flag_Sequence'
   | 'Emoji_Tag_Sequence'
   | 'Emoji_ZWJ_Sequence'
-  | 'Extended_Pictographic';
+  | 'Extended_Pictographic'
+  | 'Regional_Indicator';
 
 export interface CLDRAnnotation {
   annotation: string;
