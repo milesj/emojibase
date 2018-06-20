@@ -7,6 +7,7 @@ import cheerio from 'cheerio';
 import readCache from '../helpers/readCache';
 import slug from '../helpers/slug';
 import { EmojiSourceMap } from '../types';
+import { HIDDEN_SUBGROUPS } from '../constants';
 
 interface GroupNameMap {
   [name: string]: number;
@@ -43,7 +44,9 @@ export default function parseEmojiList(content: string): EmojiSourceMap {
   const subgroups: GroupNameMap = swapKeyValues(groupCache.subgroups);
   const data: EmojiSourceMap = {};
   let group = 0;
+  let groupName = '';
   let subgroup = 0;
+  let subgroupName = '';
 
   xml('table')
     .first()
@@ -56,10 +59,12 @@ export default function parseEmojiList(content: string): EmojiSourceMap {
 
       // Group
       if (groupRow.length > 0) {
-        group = groups[slug(groupRow.find('a').text())];
+        groupName = slug(groupRow.find('a').text());
+        group = groups[groupName];
         // Subgroup
       } else if (subgroupRow.length > 0) {
-        subgroup = subgroups[slug(subgroupRow.find('a').text())];
+        subgroupName = slug(subgroupRow.find('a').text());
+        subgroup = subgroups[subgroupName];
         // Header
       } else if (headerRow.length > 0) {
         // Skip emoji
@@ -77,6 +82,11 @@ export default function parseEmojiList(content: string): EmojiSourceMap {
 
         // Recently added, not in an official emoji release
         if (name.includes('⊛')) {
+          return;
+        }
+
+        // Skip emojis that are hidden
+        if (HIDDEN_SUBGROUPS.includes(subgroupName)) {
           return;
         }
 

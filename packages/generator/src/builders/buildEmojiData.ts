@@ -20,12 +20,16 @@ import validateData from './validateData';
 import verifyData from './verifyData';
 import { EmojiMap } from '../types';
 
+const emojis = {};
+
 export default async function buildEmojiData(): Promise<EmojiMap> {
+  if (Object.keys(emojis).length > 0) {
+    return Promise.resolve(emojis);
+  }
+
   log.title('build', 'Building emoji data');
 
   // 1) Load and merge all emoji data from the latest release version
-  const emojis = {};
-
   joinData(emojis, await loadData());
   joinData(emojis, await loadSequences());
   joinData(emojis, await loadZwjSequences());
