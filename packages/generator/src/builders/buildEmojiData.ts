@@ -16,8 +16,8 @@ import loadShortcodes from '../loaders/loadShortcodes';
 import joinData from './joinData';
 import joinMetadataToData from './joinMetadataToData';
 import joinModifiersToData from './joinModifiersToData';
-import validateData from './validateData';
-import verifyData from './verifyData';
+import validateDataAgainstOfficialList from './validateDataAgainstOfficialList';
+import verifyDataIntegrity from './verifyDataIntegrity';
 import { EmojiMap } from '../types';
 
 const emojis = {};
@@ -47,10 +47,10 @@ export default async function buildEmojiData(): Promise<EmojiMap> {
   joinModifiersToData(emojis); // Requires names
 
   // 4) Verify we joined the data correctly
-  await verifyData(emojis);
+  await verifyDataIntegrity(emojis);
 
   // 5) Validate the built data against the official unicode emoji list
-  await validateData(emojis);
+  await validateDataAgainstOfficialList(emojis);
 
   writeCache('final-emoji-data.json', emojis);
 

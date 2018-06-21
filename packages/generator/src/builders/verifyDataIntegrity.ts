@@ -16,7 +16,7 @@ import {
 } from '../constants';
 import writeCache from '../helpers/writeCache';
 
-export default function verifyData(emojis: EmojiMap): EmojiMap {
+export default function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
   const usedShortcodes: EmojiMap = {};
   const usedEmoticons: EmojiMap = {};
   const shortcodeDump: string[] = [];
