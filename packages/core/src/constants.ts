@@ -53,9 +53,12 @@ export const SUPPORTED_LOCALES = [
   'it', // Italian
   'ja', // Japanese
   'ko', // Korean
+  'ms', // Malay
+  'nl', // Dutch
   'pl', // Polish
   'pt', // Portuguese
   'ru', // Russian
+  'sv', // Swedish
   'th', // Thai
   'zh', // Chinese
   'zh-hant', // Chinese (Traditional)
