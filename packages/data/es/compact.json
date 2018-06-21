@@ -64,8 +64,7 @@
       "cara",
       "carcajada",
       "ojos cerrados",
-      "risa",
-      "sonrisa"
+      "risa"
     ],
     "unicode": "🤣",
     "emoticon": ":'D"
@@ -81,7 +80,6 @@
     ],
     "tags": [
       "cara",
-      "cara sonriente con boca abierta",
       "divertido",
       "risa",
       "sonriendo"
@@ -116,7 +114,6 @@
       "cara",
       "frío",
       "risa",
-      "sonrisa",
       "sudor"
     ],
     "unicode": "😅"
@@ -135,8 +132,7 @@
       "abierta",
       "boca",
       "cara",
-      "risa",
-      "sonrisa"
+      "risa"
     ],
     "unicode": "😆",
     "emoticon": "xD"
@@ -169,7 +165,6 @@
     "tags": [
       "cara",
       "ojo",
-      "risa",
       "rubor",
       "sonrisa"
     ],
@@ -189,9 +184,7 @@
       "cara",
       "delicioso",
       "hambre",
-      "saboreando",
-      "sonrisa",
-      "ñam"
+      "rico"
     ],
     "unicode": "😋"
   },
@@ -207,10 +200,7 @@
       "cara",
       "gafas",
       "guay",
-      "ojo",
-      "radiante",
-      "sol",
-      "sonrisa"
+      "sol"
     ],
     "unicode": "😎",
     "emoticon": "8)"
@@ -227,7 +217,6 @@
       "amor",
       "cara",
       "corazón",
-      "ojo",
       "sonrisa"
     ],
     "unicode": "😍"
@@ -248,11 +237,17 @@
     "emoticon": ":x"
   },
   {
+    "annotation": "cara sonriendo con 3 corazones",
     "group": 0,
     "hexcode": "1F970",
     "order": 15,
     "shortcodes": [
       "love"
+    ],
+    "tags": [
+      "adorar",
+      "enamorada",
+      "enamorado"
     ],
     "unicode": "🥰"
   },
@@ -506,7 +501,7 @@
       "aliviado",
       "cara",
       "decepcionado",
-      "vaya"
+      "menos mal"
     ],
     "unicode": "😥"
   },
@@ -643,7 +638,6 @@
       "mischievous"
     ],
     "tags": [
-      "broma",
       "cara",
       "guiño",
       "lengua",
@@ -663,7 +657,6 @@
     ],
     "tags": [
       "cara",
-      "horrible",
       "lengua",
       "ojo",
       "sabor"
@@ -921,7 +914,6 @@
       "cara",
       "llorar",
       "lágrima",
-      "sollozo",
       "triste"
     ],
     "unicode": "😭",
@@ -1031,12 +1023,8 @@
     ],
     "tags": [
       "ansiedad",
-      "ansioso",
-      "azul",
-      "boca",
       "cara",
       "frío",
-      "preocupado",
       "sudor"
     ],
     "unicode": "😰"
@@ -1060,20 +1048,35 @@
     "emoticon": "Dx"
   },
   {
+    "annotation": "cara con calor",
     "group": 0,
     "hexcode": "1F975",
     "order": 68,
     "shortcodes": [
       "overheating"
     ],
+    "tags": [
+      "calor",
+      "cara roja",
+      "fiebre",
+      "golpe de calor",
+      "sudor"
+    ],
     "unicode": "🥵"
   },
   {
+    "annotation": "cara con frío",
     "group": 0,
     "hexcode": "1F976",
     "order": 69,
     "shortcodes": [
       "freezing"
+    ],
+    "tags": [
+      "cara congelada",
+      "congelado",
+      "frío",
+      "helado"
     ],
     "unicode": "🥶"
   },
@@ -1136,9 +1139,7 @@
       "cabreo",
       "cara",
       "enfadado",
-      "furia",
-      "rabia",
-      "rojo"
+      "furia"
     ],
     "unicode": "😡",
     "emoticon": ">:/"
@@ -1187,11 +1188,7 @@
       "cara",
       "enfermo",
       "malo",
-      "mascarilla",
-      "medicina",
-      "máscara",
-      "médico",
-      "resfriado"
+      "máscara"
     ],
     "unicode": "😷"
   },
@@ -1270,8 +1267,7 @@
       "cara",
       "estornudar",
       "estornudo",
-      "pañuelo",
-      "salud"
+      "pañuelo"
     ],
     "unicode": "🤧"
   },
@@ -1286,9 +1282,7 @@
     ],
     "tags": [
       "cara",
-      "fantasía",
       "halo",
-      "inocente",
       "sonrisa",
       "ángel"
     ],
@@ -1311,6 +1305,7 @@
     "unicode": "🤠"
   },
   {
+    "annotation": "cara de fiesta",
     "group": 0,
     "hexcode": "1F973",
     "order": 84,
@@ -1318,24 +1313,46 @@
       "partying",
       "celebrating"
     ],
+    "tags": [
+      "capirote",
+      "celebración",
+      "fiesta",
+      "gorro",
+      "matasuegras"
+    ],
     "unicode": "🥳"
   },
   {
+    "annotation": "cara de grogui",
     "group": 0,
     "hexcode": "1F974",
     "order": 85,
     "shortcodes": [
       "woozy"
     ],
+    "tags": [
+      "atontado",
+      "entonado",
+      "grogui",
+      "intoxicado",
+      "mareado"
+    ],
     "unicode": "🥴",
     "emoticon": ":&"
   },
   {
+    "annotation": "cara de por favor",
     "group": 0,
     "hexcode": "1F97A",
     "order": 86,
     "shortcodes": [
       "pleading"
+    ],
+    "tags": [
+      "implorar",
+      "ojos adorables",
+      "piedad",
+      "por favor"
     ],
     "unicode": "🥺"
   },
@@ -1349,8 +1366,6 @@
     ],
     "tags": [
       "cara",
-      "mentir",
-      "mentira",
       "mentiroso",
       "nariz",
       "pinocho"
@@ -1429,7 +1444,6 @@
       "cara",
       "cuernos",
       "demonio",
-      "fantasía",
       "sonrisa"
     ],
     "unicode": "😈",
@@ -1447,8 +1461,7 @@
       "cara",
       "cuernos",
       "demonio",
-      "diablo",
-      "fantasía"
+      "diablo"
     ],
     "unicode": "👿",
     "emoticon": ">:("
@@ -1479,7 +1492,6 @@
       "cara",
       "cuento",
       "cuernos",
-      "fantasía",
       "sonrisa"
     ],
     "unicode": "👹",
@@ -1529,9 +1541,7 @@
     "tags": [
       "calavera",
       "cara",
-      "cruzados",
       "huesos",
-      "monstruo",
       "muerte"
     ],
     "unicode": "☠️"
@@ -1548,7 +1558,6 @@
       "cara",
       "criatura",
       "cuento",
-      "fantasía",
       "monstruo"
     ],
     "unicode": "👻"
@@ -1565,10 +1574,7 @@
       "alien",
       "cara",
       "criatura",
-      "cuento",
       "extraterrestre",
-      "fantasía",
-      "monstruo",
       "ovni"
     ],
     "unicode": "👽️"
@@ -1584,13 +1590,9 @@
     ],
     "tags": [
       "alien",
-      "alienígena",
       "cara",
       "criatura",
-      "cuento",
       "extraterrestre",
-      "fantasía",
-      "monstruo",
       "ovni"
     ],
     "unicode": "👾"
@@ -1636,10 +1638,8 @@
     ],
     "tags": [
       "abierta",
-      "boca",
       "cara",
       "gato",
-      "risa",
       "sonrisa"
     ],
     "unicode": "😺"
@@ -1655,8 +1655,6 @@
     "tags": [
       "cara",
       "gato",
-      "ojo",
-      "risa",
       "sonrisa"
     ],
     "unicode": "😸"
@@ -1686,12 +1684,9 @@
       "lovestruck_cat"
     ],
     "tags": [
-      "amor",
       "cara",
       "corazón",
       "gato",
-      "ojo",
-      "risa",
       "sonrisa"
     ],
     "unicode": "😻"
@@ -1707,9 +1702,7 @@
     "tags": [
       "cara",
       "gato",
-      "ironía",
       "irónico",
-      "risa",
       "sonrisa"
     ],
     "unicode": "😼"
@@ -1725,7 +1718,6 @@
     "tags": [
       "beso",
       "cara",
-      "cerrado",
       "gato",
       "ojo"
     ],
@@ -1741,10 +1733,8 @@
       "weary_cat"
     ],
     "tags": [
-      "asustado",
       "cara",
       "gato",
-      "oh",
       "pánico",
       "sorpresa"
     ],
@@ -1761,8 +1751,7 @@
     "tags": [
       "cara",
       "gato",
-      "la´grima",
-      "llorar",
+      "lágrima",
       "triste"
     ],
     "unicode": "😿"
@@ -1792,14 +1781,9 @@
     ],
     "tags": [
       "cara",
-      "gesto",
       "mal",
       "mono",
-      "no",
-      "ojos",
-      "prohibido",
-      "tapado",
-      "ver"
+      "prohibido"
     ],
     "unicode": "🙈"
   },
@@ -1813,15 +1797,9 @@
     ],
     "tags": [
       "cara",
-      "escuchar",
-      "gesto",
       "mal",
       "mono",
-      "no",
-      "oídos",
-      "oír",
-      "prohibido",
-      "tapado"
+      "prohibido"
     ],
     "unicode": "🙉"
   },
@@ -1834,13 +1812,9 @@
       "speak_no_evil"
     ],
     "tags": [
-      "boca",
       "cara",
-      "gesto",
-      "hablar",
       "mal",
       "mono",
-      "no",
       "prohibido"
     ],
     "unicode": "🙊"
@@ -1912,7 +1886,7 @@
     ]
   },
   {
-    "annotation": "pequeño",
+    "annotation": "infante",
     "group": 0,
     "hexcode": "1F9D2",
     "order": 123,
@@ -1920,15 +1894,15 @@
       "child"
     ],
     "tags": [
+      "crío",
       "género",
       "joven",
-      "neutro",
-      "niño"
+      "neutro"
     ],
     "unicode": "🧒",
     "skins": [
       {
-        "annotation": "pequeño: tono de piel claro",
+        "annotation": "infante: tono de piel claro",
         "group": 0,
         "hexcode": "1F9D2-1F3FB",
         "order": 124,
@@ -1938,7 +1912,7 @@
         "unicode": "🧒🏻"
       },
       {
-        "annotation": "pequeño: tono de piel claro medio",
+        "annotation": "infante: tono de piel claro medio",
         "group": 0,
         "hexcode": "1F9D2-1F3FC",
         "order": 125,
@@ -1948,7 +1922,7 @@
         "unicode": "🧒🏼"
       },
       {
-        "annotation": "pequeño: tono de piel medio",
+        "annotation": "infante: tono de piel medio",
         "group": 0,
         "hexcode": "1F9D2-1F3FD",
         "order": 126,
@@ -1958,7 +1932,7 @@
         "unicode": "🧒🏽"
       },
       {
-        "annotation": "pequeño: tono de piel oscuro medio",
+        "annotation": "infante: tono de piel oscuro medio",
         "group": 0,
         "hexcode": "1F9D2-1F3FE",
         "order": 127,
@@ -1968,7 +1942,7 @@
         "unicode": "🧒🏾"
       },
       {
-        "annotation": "pequeño: tono de piel oscuro",
+        "annotation": "infante: tono de piel oscuro",
         "group": 0,
         "hexcode": "1F9D2-1F3FF",
         "order": 128,
@@ -2111,7 +2085,7 @@
     ]
   },
   {
-    "annotation": "adulto",
+    "annotation": "persona adulta",
     "group": 0,
     "hexcode": "1F9D1",
     "order": 141,
@@ -2125,7 +2099,7 @@
     "unicode": "🧑",
     "skins": [
       {
-        "annotation": "adulto: tono de piel claro",
+        "annotation": "persona adulta: tono de piel claro",
         "group": 0,
         "hexcode": "1F9D1-1F3FB",
         "order": 142,
@@ -2135,7 +2109,7 @@
         "unicode": "🧑🏻"
       },
       {
-        "annotation": "adulto: tono de piel claro medio",
+        "annotation": "persona adulta: tono de piel claro medio",
         "group": 0,
         "hexcode": "1F9D1-1F3FC",
         "order": 143,
@@ -2145,7 +2119,7 @@
         "unicode": "🧑🏼"
       },
       {
-        "annotation": "adulto: tono de piel medio",
+        "annotation": "persona adulta: tono de piel medio",
         "group": 0,
         "hexcode": "1F9D1-1F3FD",
         "order": 144,
@@ -2155,7 +2129,7 @@
         "unicode": "🧑🏽"
       },
       {
-        "annotation": "adulto: tono de piel oscuro medio",
+        "annotation": "persona adulta: tono de piel oscuro medio",
         "group": 0,
         "hexcode": "1F9D1-1F3FE",
         "order": 145,
@@ -2165,7 +2139,7 @@
         "unicode": "🧑🏾"
       },
       {
-        "annotation": "adulto: tono de piel oscuro",
+        "annotation": "persona adulta: tono de piel oscuro",
         "group": 0,
         "hexcode": "1F9D1-1F3FF",
         "order": 146,
@@ -2185,7 +2159,7 @@
       "man"
     ],
     "tags": [
-      "hombre"
+      "adulto"
     ],
     "unicode": "👨",
     "skins": [
@@ -2250,7 +2224,7 @@
       "woman"
     ],
     "tags": [
-      "mujer"
+      "adulta"
     ],
     "unicode": "👩",
     "skins": [
@@ -2307,7 +2281,7 @@
     ]
   },
   {
-    "annotation": "adulto maduro",
+    "annotation": "persona adulta madura",
     "group": 0,
     "hexcode": "1F9D3",
     "order": 159,
@@ -2323,7 +2297,7 @@
     "unicode": "🧓",
     "skins": [
       {
-        "annotation": "adulto maduro: tono de piel claro",
+        "annotation": "persona adulta madura: tono de piel claro",
         "group": 0,
         "hexcode": "1F9D3-1F3FB",
         "order": 160,
@@ -2333,7 +2307,7 @@
         "unicode": "🧓🏻"
       },
       {
-        "annotation": "adulto maduro: tono de piel claro medio",
+        "annotation": "persona adulta madura: tono de piel claro medio",
         "group": 0,
         "hexcode": "1F9D3-1F3FC",
         "order": 161,
@@ -2343,7 +2317,7 @@
         "unicode": "🧓🏼"
       },
       {
-        "annotation": "adulto maduro: tono de piel medio",
+        "annotation": "persona adulta madura: tono de piel medio",
         "group": 0,
         "hexcode": "1F9D3-1F3FD",
         "order": 162,
@@ -2353,7 +2327,7 @@
         "unicode": "🧓🏽"
       },
       {
-        "annotation": "adulto maduro: tono de piel oscuro medio",
+        "annotation": "persona adulta madura: tono de piel oscuro medio",
         "group": 0,
         "hexcode": "1F9D3-1F3FE",
         "order": 163,
@@ -2363,7 +2337,7 @@
         "unicode": "🧓🏾"
       },
       {
-        "annotation": "adulto maduro: tono de piel oscuro",
+        "annotation": "persona adulta madura: tono de piel oscuro",
         "group": 0,
         "hexcode": "1F9D3-1F3FF",
         "order": 164,
@@ -2517,10 +2491,9 @@
     "tags": [
       "doctor",
       "enfermero",
-      "hombre",
       "médico",
       "sanitario",
-      "terapeuta"
+      "terapeuta hombre"
     ],
     "unicode": "👨‍⚕️",
     "skins": [
@@ -2587,10 +2560,9 @@
     "tags": [
       "doctora",
       "enfermera",
-      "mujer",
       "médica",
       "sanitaria",
-      "terapeuta"
+      "terapeuta mujer"
     ],
     "unicode": "👩‍⚕️",
     "skins": [
@@ -3472,8 +3444,7 @@
     ],
     "tags": [
       "fábrica",
-      "hombre",
-      "industria",
+      "montaje",
       "obrero",
       "trabajador"
     ],
@@ -3541,8 +3512,7 @@
     ],
     "tags": [
       "fábrica",
-      "industria",
-      "mujer",
+      "montaje",
       "obrera",
       "trabajadora"
     ],
@@ -3609,7 +3579,6 @@
       "man_office_worker"
     ],
     "tags": [
-      "arquitecto",
       "director",
       "empresa",
       "hombre",
@@ -3679,7 +3648,6 @@
       "woman_office_worker"
     ],
     "tags": [
-      "arquitecta",
       "directora",
       "empresa",
       "mujer",
@@ -3752,7 +3720,6 @@
       "biólogo",
       "físico",
       "hombre",
-      "investigador",
       "químico"
     ],
     "unicode": "👨‍🔬",
@@ -3820,7 +3787,6 @@
     "tags": [
       "bióloga",
       "física",
-      "investigadora",
       "mujer",
       "química"
     ],
@@ -3890,8 +3856,7 @@
       "desarrollador",
       "hombre",
       "informático",
-      "programador",
-      "tecnología"
+      "programador"
     ],
     "unicode": "👨‍💻",
     "skins": [
@@ -3959,8 +3924,7 @@
       "desarrolladora",
       "informática",
       "mujer",
-      "programadora",
-      "tecnología"
+      "programadora"
     ],
     "unicode": "👩‍💻",
     "skins": [
@@ -4028,7 +3992,6 @@
       "artista",
       "estrella",
       "hombre",
-      "pop",
       "rock"
     ],
     "unicode": "👨‍🎤",
@@ -4097,7 +4060,6 @@
       "artista",
       "estrella",
       "mujer",
-      "pop",
       "rock"
     ],
     "unicode": "👩‍🎤",
@@ -5845,13 +5807,10 @@
       "man_chinese_cap"
     ],
     "tags": [
-      "chino",
       "gorro",
       "gua",
       "hombre",
-      "mao",
-      "personas",
-      "pi"
+      "mao"
     ],
     "unicode": "👲",
     "skins": [
@@ -6039,7 +5998,7 @@
     ]
   },
   {
-    "annotation": "persona rubia",
+    "annotation": "persona adulta rubia",
     "group": 0,
     "hexcode": "1F471",
     "order": 590,
@@ -6053,7 +6012,7 @@
     "unicode": "👱",
     "skins": [
       {
-        "annotation": "persona rubia: tono de piel claro",
+        "annotation": "persona adulta rubia: tono de piel claro",
         "group": 0,
         "hexcode": "1F471-1F3FB",
         "order": 591,
@@ -6063,7 +6022,7 @@
         "unicode": "👱🏻"
       },
       {
-        "annotation": "persona rubia: tono de piel claro medio",
+        "annotation": "persona adulta rubia: tono de piel claro medio",
         "group": 0,
         "hexcode": "1F471-1F3FC",
         "order": 592,
@@ -6073,7 +6032,7 @@
         "unicode": "👱🏼"
       },
       {
-        "annotation": "persona rubia: tono de piel medio",
+        "annotation": "persona adulta rubia: tono de piel medio",
         "group": 0,
         "hexcode": "1F471-1F3FD",
         "order": 593,
@@ -6083,7 +6042,7 @@
         "unicode": "👱🏽"
       },
       {
-        "annotation": "persona rubia: tono de piel oscuro medio",
+        "annotation": "persona adulta rubia: tono de piel oscuro medio",
         "group": 0,
         "hexcode": "1F471-1F3FE",
         "order": 594,
@@ -6093,7 +6052,7 @@
         "unicode": "👱🏾"
       },
       {
-        "annotation": "persona rubia: tono de piel oscuro",
+        "annotation": "persona adulta rubia: tono de piel oscuro",
         "group": 0,
         "hexcode": "1F471-1F3FF",
         "order": 595,
@@ -6239,6 +6198,7 @@
     ]
   },
   {
+    "annotation": "hombre: pelo pelirrojo",
     "group": 0,
     "hexcode": "1F468-200D-1F9B0",
     "order": 620,
@@ -6246,12 +6206,14 @@
       "red_haired_man"
     ],
     "tags": [
-      "hombre"
+      "adulto",
+      "hombre",
+      "pelo pelirrojo"
     ],
     "unicode": "👨‍🦰",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel claro y pelo pelirrojo",
         "group": 0,
         "hexcode": "1F468-1F3FB-200D-1F9B0",
         "order": 621,
@@ -6261,7 +6223,7 @@
         "unicode": "👨🏻‍🦰"
       },
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel claro medio y pelo pelirrojo",
         "group": 0,
         "hexcode": "1F468-1F3FC-200D-1F9B0",
         "order": 622,
@@ -6271,7 +6233,7 @@
         "unicode": "👨🏼‍🦰"
       },
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel medio y pelo pelirrojo",
         "group": 0,
         "hexcode": "1F468-1F3FD-200D-1F9B0",
         "order": 623,
@@ -6281,7 +6243,7 @@
         "unicode": "👨🏽‍🦰"
       },
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel oscuro medio y pelo pelirrojo",
         "group": 0,
         "hexcode": "1F468-1F3FE-200D-1F9B0",
         "order": 624,
@@ -6291,7 +6253,7 @@
         "unicode": "👨🏾‍🦰"
       },
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel oscuro y pelo pelirrojo",
         "group": 0,
         "hexcode": "1F468-1F3FF-200D-1F9B0",
         "order": 625,
@@ -6303,6 +6265,7 @@
     ]
   },
   {
+    "annotation": "mujer: pelo pelirrojo",
     "group": 0,
     "hexcode": "1F469-200D-1F9B0",
     "order": 626,
@@ -6310,12 +6273,14 @@
       "red_haired_woman"
     ],
     "tags": [
-      "mujer"
+      "adulta",
+      "mujer",
+      "pelo pelirrojo"
     ],
     "unicode": "👩‍🦰",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel claro y pelo pelirrojo",
         "group": 0,
         "hexcode": "1F469-1F3FB-200D-1F9B0",
         "order": 627,
@@ -6325,7 +6290,7 @@
         "unicode": "👩🏻‍🦰"
       },
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel claro medio y pelo pelirrojo",
         "group": 0,
         "hexcode": "1F469-1F3FC-200D-1F9B0",
         "order": 628,
@@ -6335,7 +6300,7 @@
         "unicode": "👩🏼‍🦰"
       },
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel medio y pelo pelirrojo",
         "group": 0,
         "hexcode": "1F469-1F3FD-200D-1F9B0",
         "order": 629,
@@ -6345,7 +6310,7 @@
         "unicode": "👩🏽‍🦰"
       },
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel oscuro medio y pelo pelirrojo",
         "group": 0,
         "hexcode": "1F469-1F3FE-200D-1F9B0",
         "order": 630,
@@ -6355,7 +6320,7 @@
         "unicode": "👩🏾‍🦰"
       },
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel oscuro y pelo pelirrojo",
         "group": 0,
         "hexcode": "1F469-1F3FF-200D-1F9B0",
         "order": 631,
@@ -6367,6 +6332,7 @@
     ]
   },
   {
+    "annotation": "hombre: pelo rizado",
     "group": 0,
     "hexcode": "1F468-200D-1F9B1",
     "order": 632,
@@ -6374,12 +6340,14 @@
       "curly_haired_man"
     ],
     "tags": [
-      "hombre"
+      "adulto",
+      "hombre",
+      "pelo rizado"
     ],
     "unicode": "👨‍🦱",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel claro y pelo rizado",
         "group": 0,
         "hexcode": "1F468-1F3FB-200D-1F9B1",
         "order": 633,
@@ -6389,7 +6357,7 @@
         "unicode": "👨🏻‍🦱"
       },
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel claro medio y pelo rizado",
         "group": 0,
         "hexcode": "1F468-1F3FC-200D-1F9B1",
         "order": 634,
@@ -6399,7 +6367,7 @@
         "unicode": "👨🏼‍🦱"
       },
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel medio y pelo rizado",
         "group": 0,
         "hexcode": "1F468-1F3FD-200D-1F9B1",
         "order": 635,
@@ -6409,7 +6377,7 @@
         "unicode": "👨🏽‍🦱"
       },
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel oscuro medio y pelo rizado",
         "group": 0,
         "hexcode": "1F468-1F3FE-200D-1F9B1",
         "order": 636,
@@ -6419,7 +6387,7 @@
         "unicode": "👨🏾‍🦱"
       },
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel oscuro y pelo rizado",
         "group": 0,
         "hexcode": "1F468-1F3FF-200D-1F9B1",
         "order": 637,
@@ -6431,6 +6399,7 @@
     ]
   },
   {
+    "annotation": "mujer: pelo rizado",
     "group": 0,
     "hexcode": "1F469-200D-1F9B1",
     "order": 638,
@@ -6438,12 +6407,14 @@
       "curly_haired_woman"
     ],
     "tags": [
-      "mujer"
+      "adulta",
+      "mujer",
+      "pelo rizado"
     ],
     "unicode": "👩‍🦱",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel claro y pelo rizado",
         "group": 0,
         "hexcode": "1F469-1F3FB-200D-1F9B1",
         "order": 639,
@@ -6453,7 +6424,7 @@
         "unicode": "👩🏻‍🦱"
       },
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel claro medio y pelo rizado",
         "group": 0,
         "hexcode": "1F469-1F3FC-200D-1F9B1",
         "order": 640,
@@ -6463,7 +6434,7 @@
         "unicode": "👩🏼‍🦱"
       },
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel medio y pelo rizado",
         "group": 0,
         "hexcode": "1F469-1F3FD-200D-1F9B1",
         "order": 641,
@@ -6473,7 +6444,7 @@
         "unicode": "👩🏽‍🦱"
       },
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel oscuro medio y pelo rizado",
         "group": 0,
         "hexcode": "1F469-1F3FE-200D-1F9B1",
         "order": 642,
@@ -6483,7 +6454,7 @@
         "unicode": "👩🏾‍🦱"
       },
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel oscuro y pelo rizado",
         "group": 0,
         "hexcode": "1F469-1F3FF-200D-1F9B1",
         "order": 643,
@@ -6495,6 +6466,7 @@
     ]
   },
   {
+    "annotation": "hombre: calvo",
     "group": 0,
     "hexcode": "1F468-200D-1F9B2",
     "order": 644,
@@ -6502,12 +6474,14 @@
       "bald_man"
     ],
     "tags": [
+      "adulto",
+      "calvo",
       "hombre"
     ],
     "unicode": "👨‍🦲",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel claro y calvo",
         "group": 0,
         "hexcode": "1F468-1F3FB-200D-1F9B2",
         "order": 645,
@@ -6517,7 +6491,7 @@
         "unicode": "👨🏻‍🦲"
       },
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel claro medio y calvo",
         "group": 0,
         "hexcode": "1F468-1F3FC-200D-1F9B2",
         "order": 646,
@@ -6527,7 +6501,7 @@
         "unicode": "👨🏼‍🦲"
       },
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel medio y calvo",
         "group": 0,
         "hexcode": "1F468-1F3FD-200D-1F9B2",
         "order": 647,
@@ -6537,7 +6511,7 @@
         "unicode": "👨🏽‍🦲"
       },
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel oscuro medio y calvo",
         "group": 0,
         "hexcode": "1F468-1F3FE-200D-1F9B2",
         "order": 648,
@@ -6547,7 +6521,7 @@
         "unicode": "👨🏾‍🦲"
       },
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel oscuro y calvo",
         "group": 0,
         "hexcode": "1F468-1F3FF-200D-1F9B2",
         "order": 649,
@@ -6559,6 +6533,7 @@
     ]
   },
   {
+    "annotation": "mujer: calvo",
     "group": 0,
     "hexcode": "1F469-200D-1F9B2",
     "order": 650,
@@ -6566,12 +6541,14 @@
       "bald_woman"
     ],
     "tags": [
+      "adulta",
+      "calvo",
       "mujer"
     ],
     "unicode": "👩‍🦲",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel claro y calvo",
         "group": 0,
         "hexcode": "1F469-1F3FB-200D-1F9B2",
         "order": 651,
@@ -6581,7 +6558,7 @@
         "unicode": "👩🏻‍🦲"
       },
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel claro medio y calvo",
         "group": 0,
         "hexcode": "1F469-1F3FC-200D-1F9B2",
         "order": 652,
@@ -6591,7 +6568,7 @@
         "unicode": "👩🏼‍🦲"
       },
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel medio y calvo",
         "group": 0,
         "hexcode": "1F469-1F3FD-200D-1F9B2",
         "order": 653,
@@ -6601,7 +6578,7 @@
         "unicode": "👩🏽‍🦲"
       },
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel oscuro medio y calvo",
         "group": 0,
         "hexcode": "1F469-1F3FE-200D-1F9B2",
         "order": 654,
@@ -6611,7 +6588,7 @@
         "unicode": "👩🏾‍🦲"
       },
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel oscuro y calvo",
         "group": 0,
         "hexcode": "1F469-1F3FF-200D-1F9B2",
         "order": 655,
@@ -6623,6 +6600,7 @@
     ]
   },
   {
+    "annotation": "hombre: pelo blanco",
     "group": 0,
     "hexcode": "1F468-200D-1F9B3",
     "order": 656,
@@ -6630,12 +6608,14 @@
       "white_haired_man"
     ],
     "tags": [
-      "hombre"
+      "adulto",
+      "hombre",
+      "pelo blanco"
     ],
     "unicode": "👨‍🦳",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel claro y pelo blanco",
         "group": 0,
         "hexcode": "1F468-1F3FB-200D-1F9B3",
         "order": 657,
@@ -6645,7 +6625,7 @@
         "unicode": "👨🏻‍🦳"
       },
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel claro medio y pelo blanco",
         "group": 0,
         "hexcode": "1F468-1F3FC-200D-1F9B3",
         "order": 658,
@@ -6655,7 +6635,7 @@
         "unicode": "👨🏼‍🦳"
       },
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel medio y pelo blanco",
         "group": 0,
         "hexcode": "1F468-1F3FD-200D-1F9B3",
         "order": 659,
@@ -6665,7 +6645,7 @@
         "unicode": "👨🏽‍🦳"
       },
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel oscuro medio y pelo blanco",
         "group": 0,
         "hexcode": "1F468-1F3FE-200D-1F9B3",
         "order": 660,
@@ -6675,7 +6655,7 @@
         "unicode": "👨🏾‍🦳"
       },
       {
-        "annotation": "",
+        "annotation": "hombre: tono de piel oscuro y pelo blanco",
         "group": 0,
         "hexcode": "1F468-1F3FF-200D-1F9B3",
         "order": 661,
@@ -6687,6 +6667,7 @@
     ]
   },
   {
+    "annotation": "mujer: pelo blanco",
     "group": 0,
     "hexcode": "1F469-200D-1F9B3",
     "order": 662,
@@ -6694,12 +6675,14 @@
       "white_haired_woman"
     ],
     "tags": [
-      "mujer"
+      "adulta",
+      "mujer",
+      "pelo blanco"
     ],
     "unicode": "👩‍🦳",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel claro y pelo blanco",
         "group": 0,
         "hexcode": "1F469-1F3FB-200D-1F9B3",
         "order": 663,
@@ -6709,7 +6692,7 @@
         "unicode": "👩🏻‍🦳"
       },
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel claro medio y pelo blanco",
         "group": 0,
         "hexcode": "1F469-1F3FC-200D-1F9B3",
         "order": 664,
@@ -6719,7 +6702,7 @@
         "unicode": "👩🏼‍🦳"
       },
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel medio y pelo blanco",
         "group": 0,
         "hexcode": "1F469-1F3FD-200D-1F9B3",
         "order": 665,
@@ -6729,7 +6712,7 @@
         "unicode": "👩🏽‍🦳"
       },
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel oscuro medio y pelo blanco",
         "group": 0,
         "hexcode": "1F469-1F3FE-200D-1F9B3",
         "order": 666,
@@ -6739,7 +6722,7 @@
         "unicode": "👩🏾‍🦳"
       },
       {
-        "annotation": "",
+        "annotation": "mujer: tono de piel oscuro y pelo blanco",
         "group": 0,
         "hexcode": "1F469-1F3FF-200D-1F9B3",
         "order": 667,
@@ -6829,7 +6812,6 @@
       "boda",
       "mujer",
       "novia",
-      "personas",
       "velo"
     ],
     "unicode": "👰",
@@ -7226,6 +7208,7 @@
     ]
   },
   {
+    "annotation": "superhéroe",
     "group": 0,
     "hexcode": "1F9B8",
     "order": 710,
@@ -7233,10 +7216,16 @@
       "hero",
       "superhero"
     ],
+    "tags": [
+      "bueno",
+      "heroína",
+      "héroe",
+      "superpoder"
+    ],
     "unicode": "🦸",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "superhéroe: tono de piel claro",
         "group": 0,
         "hexcode": "1F9B8-1F3FB",
         "order": 711,
@@ -7247,7 +7236,7 @@
         "unicode": "🦸🏻"
       },
       {
-        "annotation": "",
+        "annotation": "superhéroe: tono de piel claro medio",
         "group": 0,
         "hexcode": "1F9B8-1F3FC",
         "order": 712,
@@ -7258,7 +7247,7 @@
         "unicode": "🦸🏼"
       },
       {
-        "annotation": "",
+        "annotation": "superhéroe: tono de piel medio",
         "group": 0,
         "hexcode": "1F9B8-1F3FD",
         "order": 713,
@@ -7269,7 +7258,7 @@
         "unicode": "🦸🏽"
       },
       {
-        "annotation": "",
+        "annotation": "superhéroe: tono de piel oscuro medio",
         "group": 0,
         "hexcode": "1F9B8-1F3FE",
         "order": 714,
@@ -7280,7 +7269,7 @@
         "unicode": "🦸🏾"
       },
       {
-        "annotation": "",
+        "annotation": "superhéroe: tono de piel oscuro",
         "group": 0,
         "hexcode": "1F9B8-1F3FF",
         "order": 715,
@@ -7293,7 +7282,7 @@
     ]
   },
   {
-    "annotation": "mujer",
+    "annotation": "mujer superhéroe",
     "group": 0,
     "hexcode": "1F9B8-200D-2640-FE0F",
     "order": 716,
@@ -7301,14 +7290,16 @@
       "woman_hero"
     ],
     "tags": [
-      "signo",
-      "signo femenino",
-      "símbolo"
+      "heroína",
+      "héroe",
+      "mujer",
+      "superhéroe",
+      "superpoder"
     ],
     "unicode": "🦸‍♀️",
     "skins": [
       {
-        "annotation": "mujer: tono de piel claro",
+        "annotation": "mujer superhéroe: tono de piel claro",
         "group": 0,
         "hexcode": "1F9B8-1F3FB-200D-2640-FE0F",
         "order": 718,
@@ -7318,7 +7309,7 @@
         "unicode": "🦸🏻‍♀️"
       },
       {
-        "annotation": "mujer: tono de piel claro medio",
+        "annotation": "mujer superhéroe: tono de piel claro medio",
         "group": 0,
         "hexcode": "1F9B8-1F3FC-200D-2640-FE0F",
         "order": 720,
@@ -7328,7 +7319,7 @@
         "unicode": "🦸🏼‍♀️"
       },
       {
-        "annotation": "mujer: tono de piel medio",
+        "annotation": "mujer superhéroe: tono de piel medio",
         "group": 0,
         "hexcode": "1F9B8-1F3FD-200D-2640-FE0F",
         "order": 722,
@@ -7338,7 +7329,7 @@
         "unicode": "🦸🏽‍♀️"
       },
       {
-        "annotation": "mujer: tono de piel oscuro medio",
+        "annotation": "mujer superhéroe: tono de piel oscuro medio",
         "group": 0,
         "hexcode": "1F9B8-1F3FE-200D-2640-FE0F",
         "order": 724,
@@ -7348,7 +7339,7 @@
         "unicode": "🦸🏾‍♀️"
       },
       {
-        "annotation": "mujer: tono de piel oscuro",
+        "annotation": "mujer superhéroe: tono de piel oscuro",
         "group": 0,
         "hexcode": "1F9B8-1F3FF-200D-2640-FE0F",
         "order": 726,
@@ -7360,7 +7351,7 @@
     ]
   },
   {
-    "annotation": "hombre",
+    "annotation": "hombre superhéroe",
     "group": 0,
     "hexcode": "1F9B8-200D-2642-FE0F",
     "order": 728,
@@ -7368,14 +7359,16 @@
       "man_hero"
     ],
     "tags": [
-      "signo",
-      "signo masculino",
-      "símbolo"
+      "bueno",
+      "hombre",
+      "héroe",
+      "superhéroe",
+      "superpoder"
     ],
     "unicode": "🦸‍♂️",
     "skins": [
       {
-        "annotation": "hombre: tono de piel claro",
+        "annotation": "hombre superhéroe: tono de piel claro",
         "group": 0,
         "hexcode": "1F9B8-1F3FB-200D-2642-FE0F",
         "order": 730,
@@ -7385,7 +7378,7 @@
         "unicode": "🦸🏻‍♂️"
       },
       {
-        "annotation": "hombre: tono de piel claro medio",
+        "annotation": "hombre superhéroe: tono de piel claro medio",
         "group": 0,
         "hexcode": "1F9B8-1F3FC-200D-2642-FE0F",
         "order": 732,
@@ -7395,7 +7388,7 @@
         "unicode": "🦸🏼‍♂️"
       },
       {
-        "annotation": "hombre: tono de piel medio",
+        "annotation": "hombre superhéroe: tono de piel medio",
         "group": 0,
         "hexcode": "1F9B8-1F3FD-200D-2642-FE0F",
         "order": 734,
@@ -7405,7 +7398,7 @@
         "unicode": "🦸🏽‍♂️"
       },
       {
-        "annotation": "hombre: tono de piel oscuro medio",
+        "annotation": "hombre superhéroe: tono de piel oscuro medio",
         "group": 0,
         "hexcode": "1F9B8-1F3FE-200D-2642-FE0F",
         "order": 736,
@@ -7415,7 +7408,7 @@
         "unicode": "🦸🏾‍♂️"
       },
       {
-        "annotation": "hombre: tono de piel oscuro",
+        "annotation": "hombre superhéroe: tono de piel oscuro",
         "group": 0,
         "hexcode": "1F9B8-1F3FF-200D-2642-FE0F",
         "order": 738,
@@ -7427,6 +7420,7 @@
     ]
   },
   {
+    "annotation": "supervillano",
     "group": 0,
     "hexcode": "1F9B9",
     "order": 740,
@@ -7434,10 +7428,17 @@
       "villain",
       "supervillain"
     ],
+    "tags": [
+      "criminal",
+      "malo",
+      "malvado",
+      "superpoder",
+      "villano"
+    ],
     "unicode": "🦹",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "supervillano: tono de piel claro",
         "group": 0,
         "hexcode": "1F9B9-1F3FB",
         "order": 741,
@@ -7448,7 +7449,7 @@
         "unicode": "🦹🏻"
       },
       {
-        "annotation": "",
+        "annotation": "supervillano: tono de piel claro medio",
         "group": 0,
         "hexcode": "1F9B9-1F3FC",
         "order": 742,
@@ -7459,7 +7460,7 @@
         "unicode": "🦹🏼"
       },
       {
-        "annotation": "",
+        "annotation": "supervillano: tono de piel medio",
         "group": 0,
         "hexcode": "1F9B9-1F3FD",
         "order": 743,
@@ -7470,7 +7471,7 @@
         "unicode": "🦹🏽"
       },
       {
-        "annotation": "",
+        "annotation": "supervillano: tono de piel oscuro medio",
         "group": 0,
         "hexcode": "1F9B9-1F3FE",
         "order": 744,
@@ -7481,7 +7482,7 @@
         "unicode": "🦹🏾"
       },
       {
-        "annotation": "",
+        "annotation": "supervillano: tono de piel oscuro",
         "group": 0,
         "hexcode": "1F9B9-1F3FF",
         "order": 745,
@@ -7494,7 +7495,7 @@
     ]
   },
   {
-    "annotation": "mujer",
+    "annotation": "mujer supervillana",
     "group": 0,
     "hexcode": "1F9B9-200D-2640-FE0F",
     "order": 746,
@@ -7502,14 +7503,16 @@
       "woman_villain"
     ],
     "tags": [
-      "signo",
-      "signo femenino",
-      "símbolo"
+      "criminal",
+      "malvada",
+      "mujer",
+      "superpoder",
+      "villana"
     ],
     "unicode": "🦹‍♀️",
     "skins": [
       {
-        "annotation": "mujer: tono de piel claro",
+        "annotation": "mujer supervillana: tono de piel claro",
         "group": 0,
         "hexcode": "1F9B9-1F3FB-200D-2640-FE0F",
         "order": 748,
@@ -7519,7 +7522,7 @@
         "unicode": "🦹🏻‍♀️"
       },
       {
-        "annotation": "mujer: tono de piel claro medio",
+        "annotation": "mujer supervillana: tono de piel claro medio",
         "group": 0,
         "hexcode": "1F9B9-1F3FC-200D-2640-FE0F",
         "order": 750,
@@ -7529,7 +7532,7 @@
         "unicode": "🦹🏼‍♀️"
       },
       {
-        "annotation": "mujer: tono de piel medio",
+        "annotation": "mujer supervillana: tono de piel medio",
         "group": 0,
         "hexcode": "1F9B9-1F3FD-200D-2640-FE0F",
         "order": 752,
@@ -7539,7 +7542,7 @@
         "unicode": "🦹🏽‍♀️"
       },
       {
-        "annotation": "mujer: tono de piel oscuro medio",
+        "annotation": "mujer supervillana: tono de piel oscuro medio",
         "group": 0,
         "hexcode": "1F9B9-1F3FE-200D-2640-FE0F",
         "order": 754,
@@ -7549,7 +7552,7 @@
         "unicode": "🦹🏾‍♀️"
       },
       {
-        "annotation": "mujer: tono de piel oscuro",
+        "annotation": "mujer supervillana: tono de piel oscuro",
         "group": 0,
         "hexcode": "1F9B9-1F3FF-200D-2640-FE0F",
         "order": 756,
@@ -7561,7 +7564,7 @@
     ]
   },
   {
-    "annotation": "hombre",
+    "annotation": "hombre supervillano",
     "group": 0,
     "hexcode": "1F9B9-200D-2642-FE0F",
     "order": 758,
@@ -7569,14 +7572,16 @@
       "man_villain"
     ],
     "tags": [
-      "signo",
-      "signo masculino",
-      "símbolo"
+      "criminal",
+      "hombre",
+      "malvado",
+      "superpoder",
+      "villano"
     ],
     "unicode": "🦹‍♂️",
     "skins": [
       {
-        "annotation": "hombre: tono de piel claro",
+        "annotation": "hombre supervillano: tono de piel claro",
         "group": 0,
         "hexcode": "1F9B9-1F3FB-200D-2642-FE0F",
         "order": 760,
@@ -7586,7 +7591,7 @@
         "unicode": "🦹🏻‍♂️"
       },
       {
-        "annotation": "hombre: tono de piel claro medio",
+        "annotation": "hombre supervillano: tono de piel claro medio",
         "group": 0,
         "hexcode": "1F9B9-1F3FC-200D-2642-FE0F",
         "order": 762,
@@ -7596,7 +7601,7 @@
         "unicode": "🦹🏼‍♂️"
       },
       {
-        "annotation": "hombre: tono de piel medio",
+        "annotation": "hombre supervillano: tono de piel medio",
         "group": 0,
         "hexcode": "1F9B9-1F3FD-200D-2642-FE0F",
         "order": 764,
@@ -7606,7 +7611,7 @@
         "unicode": "🦹🏽‍♂️"
       },
       {
-        "annotation": "hombre: tono de piel oscuro medio",
+        "annotation": "hombre supervillano: tono de piel oscuro medio",
         "group": 0,
         "hexcode": "1F9B9-1F3FE-200D-2642-FE0F",
         "order": 766,
@@ -7616,7 +7621,7 @@
         "unicode": "🦹🏾‍♂️"
       },
       {
-        "annotation": "hombre: tono de piel oscuro",
+        "annotation": "hombre supervillano: tono de piel oscuro",
         "group": 0,
         "hexcode": "1F9B9-1F3FF-200D-2642-FE0F",
         "order": 768,
@@ -8792,9 +8797,7 @@
       "ceño",
       "fruncido",
       "gesto",
-      "hombre",
-      "persona",
-      "triste"
+      "hombre"
     ],
     "unicode": "🙍‍♂️",
     "skins": [
@@ -8862,9 +8865,7 @@
       "ceño",
       "fruncido",
       "gesto",
-      "mujer",
-      "persona",
-      "triste"
+      "mujer"
     ],
     "unicode": "🙍‍♀️",
     "skins": [
@@ -9133,7 +9134,6 @@
       "gesto",
       "mano",
       "no",
-      "persona",
       "prohibido"
     ],
     "unicode": "🙅",
@@ -9202,7 +9202,6 @@
       "gesto",
       "hombre",
       "mano",
-      "no",
       "prohibido"
     ],
     "unicode": "🙅‍♂️",
@@ -9271,7 +9270,6 @@
       "gesto",
       "mano",
       "mujer",
-      "no",
       "prohibido"
     ],
     "unicode": "🙅‍♀️",
@@ -9337,7 +9335,6 @@
       "person_gesturing_ok"
     ],
     "tags": [
-      "acuerdo",
       "gesto",
       "mano",
       "ok",
@@ -9406,9 +9403,7 @@
       "man_gesturing_ok"
     ],
     "tags": [
-      "acuerdo",
       "gesto",
-      "hombre",
       "mano",
       "ok",
       "vale"
@@ -9476,9 +9471,8 @@
       "woman_gesturing_ok"
     ],
     "tags": [
-      "aceptación",
-      "acuerdo",
       "gesto",
+      "mano",
       "ok",
       "vale"
     ],
@@ -9817,7 +9811,6 @@
       "man_raising_hand"
     ],
     "tags": [
-      "feliz",
       "gesto",
       "hombre",
       "levantar",
@@ -9886,7 +9879,6 @@
       "woman_raising_hand"
     ],
     "tags": [
-      "feliz",
       "gesto",
       "levantar",
       "mano",
@@ -9958,7 +9950,6 @@
       "disculpa",
       "gesto",
       "perdón",
-      "persona",
       "reverencia"
     ],
     "unicode": "🙇",
@@ -10026,7 +10017,6 @@
     "tags": [
       "disculpa",
       "gesto",
-      "hombre",
       "perdón",
       "reverencia"
     ],
@@ -10095,7 +10085,6 @@
     "tags": [
       "disculpa",
       "gesto",
-      "mujer",
       "perdón",
       "reverencia"
     ],
@@ -10162,8 +10151,6 @@
       "person_facepalming"
     ],
     "tags": [
-      "cara",
-      "exasperación",
       "facepalm",
       "frente",
       "incredulidad",
@@ -10232,11 +10219,8 @@
       "man_facepalming"
     ],
     "tags": [
-      "cara",
-      "exasperación",
       "facepalm",
       "frente",
-      "hombre",
       "incredulidad",
       "mano"
     ],
@@ -10303,13 +10287,10 @@
       "woman_facepalming"
     ],
     "tags": [
-      "cara",
-      "exasperación",
       "facepalm",
       "frente",
       "incredulidad",
-      "mano",
-      "mujer"
+      "mano"
     ],
     "unicode": "🤦‍♀️",
     "skins": [
@@ -10377,7 +10358,6 @@
       "duda",
       "encogerse",
       "hombros",
-      "ignorancia",
       "indiferencia"
     ],
     "unicode": "🤷",
@@ -10445,9 +10425,7 @@
     "tags": [
       "duda",
       "encogerse",
-      "hombre",
       "hombros",
-      "ignorancia",
       "indiferencia"
     ],
     "unicode": "🤷‍♂️",
@@ -10516,9 +10494,7 @@
       "duda",
       "encogerse",
       "hombros",
-      "ignorancia",
-      "indiferencia",
-      "mujer"
+      "indiferencia"
     ],
     "unicode": "🤷‍♀️",
     "skins": [
@@ -10583,7 +10559,6 @@
       "person_getting_massage"
     ],
     "tags": [
-      "cabeza",
       "cara",
       "facial",
       "masaje",
@@ -10652,10 +10627,8 @@
       "man_getting_face_massage"
     ],
     "tags": [
-      "cabeza",
       "cara",
       "facial",
-      "hombre",
       "masaje",
       "salón"
     ],
@@ -10722,11 +10695,9 @@
       "woman_getting_face_massage"
     ],
     "tags": [
-      "cabeza",
       "cara",
       "facial",
       "masaje",
-      "mujer",
       "salón"
     ],
     "unicode": "💆‍♀️",
@@ -10792,13 +10763,10 @@
       "person_getting_haircut"
     ],
     "tags": [
-      "barbero",
       "belleza",
       "corte",
       "pelo",
-      "peluquero",
-      "salón",
-      "tijeras"
+      "peluquero"
     ],
     "unicode": "💇",
     "skins": [
@@ -10863,14 +10831,10 @@
       "man_getting_haircut"
     ],
     "tags": [
-      "barbero",
       "belleza",
       "corte",
-      "hombre",
       "pelo",
-      "peluquero",
-      "salón",
-      "tijeras"
+      "peluquero"
     ],
     "unicode": "💇‍♂️",
     "skins": [
@@ -10935,14 +10899,10 @@
       "woman_getting_haircut"
     ],
     "tags": [
-      "barbero",
       "belleza",
       "corte",
-      "mujer",
       "pelo",
-      "peluquero",
-      "salón",
-      "tijeras"
+      "peluquero"
     ],
     "unicode": "💇‍♀️",
     "skins": [
@@ -12458,7 +12418,6 @@
       "caballo",
       "caballo de carreras",
       "carreras",
-      "deporte",
       "jinete"
     ],
     "unicode": "🏇",
@@ -14085,7 +14044,6 @@
     "tags": [
       "bicicleta",
       "ciclista",
-      "hombre",
       "montaña",
       "mountain bike"
     ],
@@ -14155,8 +14113,7 @@
       "bicicleta",
       "ciclista",
       "montaña",
-      "mountain bike",
-      "mujer"
+      "mountain bike"
     ],
     "unicode": "🚵‍♀️",
     "skins": [
@@ -14251,10 +14208,8 @@
     ],
     "tags": [
       "acrobacia",
-      "deporte",
       "gimnasia",
-      "lateral",
-      "persona",
+      "persona haciendo voltereta",
       "pirueta",
       "voltereta"
     ],
@@ -14575,7 +14530,6 @@
     "tags": [
       "agua",
       "deporte",
-      "hombre",
       "waterpolista",
       "waterpolo"
     ],
@@ -14644,7 +14598,6 @@
     "tags": [
       "agua",
       "deporte",
-      "mujer",
       "waterpolista",
       "waterpolo"
     ],
@@ -14916,11 +14869,9 @@
     ],
     "tags": [
       "equilibrio",
-      "habilidad",
       "malabares",
       "malabarismo",
-      "malabarista",
-      "multitarea"
+      "malabarista"
     ],
     "unicode": "🤹",
     "skins": [
@@ -15125,8 +15076,7 @@
       "hombre",
       "mano",
       "mujer",
-      "pareja",
-      "personas"
+      "pareja"
     ],
     "unicode": "👫"
   },
@@ -15141,10 +15091,8 @@
     "tags": [
       "gays",
       "hombre",
-      "homosexuales",
       "mano",
-      "pareja",
-      "personas"
+      "pareja"
     ],
     "unicode": "👬"
   },
@@ -15157,12 +15105,10 @@
       "holding_hands_ww"
     ],
     "tags": [
-      "homosexuales",
       "lesbianas",
       "mano",
       "mujer",
-      "pareja",
-      "personas"
+      "pareja"
     ],
     "unicode": "👭"
   },
@@ -15319,7 +15265,7 @@
     "unicode": "👪️"
   },
   {
-    "annotation": "familia: hombre y mujer y niño",
+    "annotation": "familia: hombre, mujer, niño",
     "group": 0,
     "hexcode": "1F468-200D-1F469-200D-1F466",
     "order": 1867,
@@ -15338,7 +15284,7 @@
     "unicode": "👨‍👩‍👦"
   },
   {
-    "annotation": "familia: hombre y mujer y niña",
+    "annotation": "familia: hombre, mujer, niña",
     "group": 0,
     "hexcode": "1F468-200D-1F469-200D-1F467",
     "order": 1868,
@@ -15358,7 +15304,7 @@
     "unicode": "👨‍👩‍👧"
   },
   {
-    "annotation": "familia: hombre y mujer y niña y niño",
+    "annotation": "familia: hombre, mujer, niña, niño",
     "group": 0,
     "hexcode": "1F468-200D-1F469-200D-1F467-200D-1F466",
     "order": 1869,
@@ -15378,7 +15324,7 @@
     "unicode": "👨‍👩‍👧‍👦"
   },
   {
-    "annotation": "familia: hombre y mujer y niño y niño",
+    "annotation": "familia: hombre, mujer, niño, niño",
     "group": 0,
     "hexcode": "1F468-200D-1F469-200D-1F466-200D-1F466",
     "order": 1870,
@@ -15397,7 +15343,7 @@
     "unicode": "👨‍👩‍👦‍👦"
   },
   {
-    "annotation": "familia: hombre y mujer y niña y niña",
+    "annotation": "familia: hombre, mujer, niña, niña",
     "group": 0,
     "hexcode": "1F468-200D-1F469-200D-1F467-200D-1F467",
     "order": 1871,
@@ -15417,7 +15363,7 @@
     "unicode": "👨‍👩‍👧‍👧"
   },
   {
-    "annotation": "familia: hombre y hombre y niño",
+    "annotation": "familia: hombre, hombre, niño",
     "group": 0,
     "hexcode": "1F468-200D-1F468-200D-1F466",
     "order": 1872,
@@ -15435,7 +15381,7 @@
     "unicode": "👨‍👨‍👦"
   },
   {
-    "annotation": "familia: hombre y hombre y niña",
+    "annotation": "familia: hombre, hombre, niña",
     "group": 0,
     "hexcode": "1F468-200D-1F468-200D-1F467",
     "order": 1873,
@@ -15454,7 +15400,7 @@
     "unicode": "👨‍👨‍👧"
   },
   {
-    "annotation": "familia: hombre y hombre y niña y niño",
+    "annotation": "familia: hombre, hombre, niña, niño",
     "group": 0,
     "hexcode": "1F468-200D-1F468-200D-1F467-200D-1F466",
     "order": 1874,
@@ -15473,7 +15419,7 @@
     "unicode": "👨‍👨‍👧‍👦"
   },
   {
-    "annotation": "familia: hombre y hombre y niño y niño",
+    "annotation": "familia: hombre, hombre, niño, niño",
     "group": 0,
     "hexcode": "1F468-200D-1F468-200D-1F466-200D-1F466",
     "order": 1875,
@@ -15491,7 +15437,7 @@
     "unicode": "👨‍👨‍👦‍👦"
   },
   {
-    "annotation": "familia: hombre y hombre y niña y niña",
+    "annotation": "familia: hombre, hombre, niña, niña",
     "group": 0,
     "hexcode": "1F468-200D-1F468-200D-1F467-200D-1F467",
     "order": 1876,
@@ -15510,7 +15456,7 @@
     "unicode": "👨‍👨‍👧‍👧"
   },
   {
-    "annotation": "familia: mujer y mujer y niño",
+    "annotation": "familia: mujer, mujer, niño",
     "group": 0,
     "hexcode": "1F469-200D-1F469-200D-1F466",
     "order": 1877,
@@ -15528,7 +15474,7 @@
     "unicode": "👩‍👩‍👦"
   },
   {
-    "annotation": "familia: mujer y mujer y niña",
+    "annotation": "familia: mujer, mujer, niña",
     "group": 0,
     "hexcode": "1F469-200D-1F469-200D-1F467",
     "order": 1878,
@@ -15547,7 +15493,7 @@
     "unicode": "👩‍👩‍👧"
   },
   {
-    "annotation": "familia: mujer y mujer y niña y niño",
+    "annotation": "familia: mujer, mujer, niña, niño",
     "group": 0,
     "hexcode": "1F469-200D-1F469-200D-1F467-200D-1F466",
     "order": 1879,
@@ -15566,7 +15512,7 @@
     "unicode": "👩‍👩‍👧‍👦"
   },
   {
-    "annotation": "familia: mujer y mujer y niño y niño",
+    "annotation": "familia: mujer, mujer, niño, niño",
     "group": 0,
     "hexcode": "1F469-200D-1F469-200D-1F466-200D-1F466",
     "order": 1880,
@@ -15584,7 +15530,7 @@
     "unicode": "👩‍👩‍👦‍👦"
   },
   {
-    "annotation": "familia: mujer y mujer y niña y niña",
+    "annotation": "familia: mujer, mujer, niña, niña",
     "group": 0,
     "hexcode": "1F469-200D-1F469-200D-1F467-200D-1F467",
     "order": 1881,
@@ -15621,7 +15567,7 @@
     "unicode": "👨‍👦"
   },
   {
-    "annotation": "familia: hombre y niño y niño",
+    "annotation": "familia: hombre, niño, niño",
     "group": 0,
     "hexcode": "1F468-200D-1F466-200D-1F466",
     "order": 1883,
@@ -15658,7 +15604,7 @@
     "unicode": "👨‍👧"
   },
   {
-    "annotation": "familia: hombre y niña y niño",
+    "annotation": "familia: hombre, niña, niño",
     "group": 0,
     "hexcode": "1F468-200D-1F467-200D-1F466",
     "order": 1885,
@@ -15677,7 +15623,7 @@
     "unicode": "👨‍👧‍👦"
   },
   {
-    "annotation": "familia: hombre y niña y niña",
+    "annotation": "familia: hombre, niña, niña",
     "group": 0,
     "hexcode": "1F468-200D-1F467-200D-1F467",
     "order": 1886,
@@ -15714,7 +15660,7 @@
     "unicode": "👩‍👦"
   },
   {
-    "annotation": "familia: mujer y niño y niño",
+    "annotation": "familia: mujer, niño, niño",
     "group": 0,
     "hexcode": "1F469-200D-1F466-200D-1F466",
     "order": 1888,
@@ -15751,7 +15697,7 @@
     "unicode": "👩‍👧"
   },
   {
-    "annotation": "familia: mujer y niña y niño",
+    "annotation": "familia: mujer, niña, niño",
     "group": 0,
     "hexcode": "1F469-200D-1F467-200D-1F466",
     "order": 1890,
@@ -15770,7 +15716,7 @@
     "unicode": "👩‍👧‍👦"
   },
   {
-    "annotation": "familia: mujer y niña y niña",
+    "annotation": "familia: mujer, niña, niña",
     "group": 0,
     "hexcode": "1F469-200D-1F467-200D-1F467",
     "order": 1891,
@@ -15932,16 +15878,21 @@
     ]
   },
   {
+    "annotation": "pierna",
     "group": 0,
     "hexcode": "1F9B5",
     "order": 1904,
     "shortcodes": [
       "leg"
     ],
+    "tags": [
+      "extremidad",
+      "patada"
+    ],
     "unicode": "🦵",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "pierna: tono de piel claro",
         "group": 0,
         "hexcode": "1F9B5-1F3FB",
         "order": 1905,
@@ -15951,7 +15902,7 @@
         "unicode": "🦵🏻"
       },
       {
-        "annotation": "",
+        "annotation": "pierna: tono de piel claro medio",
         "group": 0,
         "hexcode": "1F9B5-1F3FC",
         "order": 1906,
@@ -15961,7 +15912,7 @@
         "unicode": "🦵🏼"
       },
       {
-        "annotation": "",
+        "annotation": "pierna: tono de piel medio",
         "group": 0,
         "hexcode": "1F9B5-1F3FD",
         "order": 1907,
@@ -15971,7 +15922,7 @@
         "unicode": "🦵🏽"
       },
       {
-        "annotation": "",
+        "annotation": "pierna: tono de piel oscuro medio",
         "group": 0,
         "hexcode": "1F9B5-1F3FE",
         "order": 1908,
@@ -15981,7 +15932,7 @@
         "unicode": "🦵🏾"
       },
       {
-        "annotation": "",
+        "annotation": "pierna: tono de piel oscuro",
         "group": 0,
         "hexcode": "1F9B5-1F3FF",
         "order": 1909,
@@ -15993,16 +15944,21 @@
     ]
   },
   {
+    "annotation": "pie",
     "group": 0,
     "hexcode": "1F9B6",
     "order": 1910,
     "shortcodes": [
       "foot"
     ],
+    "tags": [
+      "patada",
+      "pisotón"
+    ],
     "unicode": "🦶",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "pie: tono de piel claro",
         "group": 0,
         "hexcode": "1F9B6-1F3FB",
         "order": 1911,
@@ -16012,7 +15968,7 @@
         "unicode": "🦶🏻"
       },
       {
-        "annotation": "",
+        "annotation": "pie: tono de piel claro medio",
         "group": 0,
         "hexcode": "1F9B6-1F3FC",
         "order": 1912,
@@ -16022,7 +15978,7 @@
         "unicode": "🦶🏼"
       },
       {
-        "annotation": "",
+        "annotation": "pie: tono de piel medio",
         "group": 0,
         "hexcode": "1F9B6-1F3FD",
         "order": 1913,
@@ -16032,7 +15988,7 @@
         "unicode": "🦶🏽"
       },
       {
-        "annotation": "",
+        "annotation": "pie: tono de piel oscuro medio",
         "group": 0,
         "hexcode": "1F9B6-1F3FE",
         "order": 1914,
@@ -16042,7 +15998,7 @@
         "unicode": "🦶🏾"
       },
       {
-        "annotation": "",
+        "annotation": "pie: tono de piel oscuro",
         "group": 0,
         "hexcode": "1F9B6-1F3FF",
         "order": 1915,
@@ -16062,13 +16018,9 @@
       "point_left"
     ],
     "tags": [
-      "apuntar",
       "dedo",
-      "dorso",
       "izquierda",
       "mano",
-      "puño",
-      "señalar",
       "índice"
     ],
     "unicode": "👈️",
@@ -16134,13 +16086,9 @@
       "point_right"
     ],
     "tags": [
-      "apuntar",
       "dedo",
       "derecha",
-      "dorso",
       "mano",
-      "puño",
-      "señalar",
       "índice"
     ],
     "unicode": "👉️",
@@ -16209,11 +16157,7 @@
       "apuntar",
       "arriba",
       "dedo",
-      "dorso",
-      "mano",
-      "puño",
-      "señalar",
-      "índice"
+      "mano"
     ],
     "unicode": "☝️",
     "skins": [
@@ -16281,11 +16225,7 @@
       "apuntar",
       "arriba",
       "dedo",
-      "dorso",
-      "mano",
-      "puño",
-      "señalar",
-      "índice"
+      "mano"
     ],
     "unicode": "👆️",
     "skins": [
@@ -16353,8 +16293,7 @@
       "corazón",
       "dedo",
       "mano",
-      "peineta",
-      "puño"
+      "peineta"
     ],
     "unicode": "🖕",
     "skins": [
@@ -16422,11 +16361,7 @@
       "abajo",
       "apuntar",
       "dedo",
-      "dorso",
-      "mano",
-      "puño",
-      "señalar",
-      "índice"
+      "mano"
     ],
     "unicode": "👇️",
     "skins": [
@@ -17993,7 +17928,6 @@
       "pray"
     ],
     "tags": [
-      "gesto",
       "mano",
       "oración",
       "orar",
@@ -18078,10 +18012,8 @@
     ],
     "tags": [
       "cosmética",
-      "cuidado",
       "esmalte",
       "manicura",
-      "pintura",
       "uñas"
     ],
     "unicode": "💅",
@@ -18338,20 +18270,28 @@
     "unicode": "🧠"
   },
   {
+    "annotation": "hueso",
     "group": 0,
     "hexcode": "1F9B4",
     "order": 2126,
     "shortcodes": [
       "bone"
     ],
+    "tags": [
+      "esqueleto"
+    ],
     "unicode": "🦴"
   },
   {
+    "annotation": "diente",
     "group": 0,
     "hexcode": "1F9B7",
     "order": 2127,
     "shortcodes": [
       "tooth"
+    ],
+    "tags": [
+      "dentista"
     ],
     "unicode": "🦷"
   },
@@ -18684,8 +18624,6 @@
     "tags": [
       "cómic",
       "dormir",
-      "emoción",
-      "ronquido",
       "sueño",
       "zzz"
     ],
@@ -18701,7 +18639,6 @@
     ],
     "tags": [
       "cómic",
-      "emoción",
       "enfadado",
       "enfado"
     ],
@@ -18792,7 +18729,6 @@
     ],
     "tags": [
       "bocadillo",
-      "burbuja",
       "conversación",
       "cómic",
       "diálogo"
@@ -18825,7 +18761,6 @@
     ],
     "tags": [
       "bocadillo",
-      "burbuja",
       "cabreo",
       "enfado",
       "rabia"
@@ -18893,20 +18828,34 @@
     "unicode": "🕶️"
   },
   {
+    "annotation": "gafas de protección",
     "group": 0,
     "hexcode": "1F97D",
     "order": 2169,
     "shortcodes": [
       "goggles"
     ],
+    "tags": [
+      "gafas",
+      "nadar",
+      "protección ocular",
+      "soldar"
+    ],
     "unicode": "🥽"
   },
   {
+    "annotation": "bata de laboratorio",
     "group": 0,
     "hexcode": "1F97C",
     "order": 2170,
     "shortcodes": [
       "lab_coat"
+    ],
+    "tags": [
+      "científico",
+      "doctor",
+      "experimento",
+      "médico"
     ],
     "unicode": "🥼"
   },
@@ -18962,8 +18911,7 @@
     ],
     "tags": [
       "abrigo",
-      "cuello",
-      "ropa"
+      "cuello"
     ],
     "unicode": "🧣"
   },
@@ -18976,8 +18924,7 @@
       "gloves"
     ],
     "tags": [
-      "mano",
-      "ropa"
+      "mano"
     ],
     "unicode": "🧤"
   },
@@ -19064,7 +19011,6 @@
       "blusa",
       "camisa",
       "femenina",
-      "mujer",
       "ropa"
     ],
     "unicode": "👚"
@@ -19113,8 +19059,7 @@
       "accesorios",
       "bolso",
       "cartera",
-      "complementos",
-      "mujer"
+      "complementos"
     ],
     "unicode": "👝"
   },
@@ -19175,27 +19120,39 @@
     "tags": [
       "calzado",
       "correr",
-      "deporte",
       "ropa",
       "tenis"
     ],
     "unicode": "👟"
   },
   {
+    "annotation": "bota de senderismo",
     "group": 0,
     "hexcode": "1F97E",
     "order": 2190,
     "shortcodes": [
       "hiking_boot"
     ],
+    "tags": [
+      "bota",
+      "camping",
+      "mochilero",
+      "senderismo"
+    ],
     "unicode": "🥾"
   },
   {
+    "annotation": "bailarina",
     "group": 0,
     "hexcode": "1F97F",
     "order": 2191,
     "shortcodes": [
       "flat_shoe"
+    ],
+    "tags": [
+      "calzado",
+      "mujer",
+      "zapato"
     ],
     "unicode": "🥿"
   },
@@ -19287,9 +19244,7 @@
       "top_hat"
     ],
     "tags": [
-      "accesorios",
       "chistera",
-      "complementos",
       "copa",
       "ropa",
       "sombrero"
@@ -19338,8 +19293,7 @@
       "ayuda",
       "cara",
       "casco",
-      "cruz",
-      "sombrero"
+      "cruz"
     ],
     "unicode": "⛑️"
   },
@@ -19520,11 +19474,17 @@
     "unicode": "🦊"
   },
   {
+    "annotation": "mapache",
     "group": 1,
     "hexcode": "1F99D",
     "order": 2214,
     "shortcodes": [
       "raccoon"
+    ],
+    "tags": [
+      "astuto",
+      "curioso",
+      "ladino"
     ],
     "unicode": "🦝"
   },
@@ -19793,7 +19753,6 @@
       "pig_nose"
     ],
     "tags": [
-      "animal",
       "cara",
       "cerdo",
       "morro",
@@ -19879,11 +19838,18 @@
     "unicode": "🐫"
   },
   {
+    "annotation": "llama",
     "group": 1,
     "hexcode": "1F999",
     "order": 2239,
     "shortcodes": [
       "llama"
+    ],
+    "tags": [
+      "alpaca",
+      "guanaco",
+      "lana",
+      "vicuña"
     ],
     "unicode": "🦙"
   },
@@ -19928,11 +19894,15 @@
     "unicode": "🦏"
   },
   {
+    "annotation": "hipopótamo",
     "group": 1,
     "hexcode": "1F99B",
     "order": 2243,
     "shortcodes": [
       "hippo"
+    ],
+    "tags": [
+      "paquidermo"
     ],
     "unicode": "🦛"
   },
@@ -20108,20 +20078,32 @@
     "unicode": "🐼"
   },
   {
+    "annotation": "canguro",
     "group": 1,
     "hexcode": "1F998",
     "order": 2257,
     "shortcodes": [
       "kangaroo"
     ],
+    "tags": [
+      "australia",
+      "marsupial",
+      "salto"
+    ],
     "unicode": "🦘"
   },
   {
+    "annotation": "tejón",
     "group": 1,
     "hexcode": "1F9A1",
     "order": 2258,
     "shortcodes": [
       "badger"
+    ],
+    "tags": [
+      "ratel",
+      "tejón de la miel",
+      "tejón melero"
     ],
     "unicode": "🦡"
   },
@@ -20194,10 +20176,8 @@
       "hatching_chick"
     ],
     "tags": [
-      "animal",
       "ave",
       "huevo",
-      "nacimiento de pollito",
       "pollito",
       "pollo"
     ],
@@ -20303,11 +20283,16 @@
     "unicode": "🦆"
   },
   {
+    "annotation": "cisne",
     "group": 1,
     "hexcode": "1F9A2",
     "order": 2272,
     "shortcodes": [
       "swan"
+    ],
+    "tags": [
+      "ave",
+      "patito feo"
     ],
     "unicode": "🦢"
   },
@@ -20327,20 +20312,34 @@
     "unicode": "🦉"
   },
   {
+    "annotation": "pavo real",
     "group": 1,
     "hexcode": "1F99A",
     "order": 2274,
     "shortcodes": [
       "peacock"
     ],
+    "tags": [
+      "ave",
+      "orgulloso",
+      "pavo",
+      "plumas"
+    ],
     "unicode": "🦚"
   },
   {
+    "annotation": "loro",
     "group": 1,
     "hexcode": "1F99C",
     "order": 2275,
     "shortcodes": [
       "parrot"
+    ],
+    "tags": [
+      "ave",
+      "hablar",
+      "papagayo",
+      "pirata"
     ],
     "unicode": "🦜"
   },
@@ -20423,7 +20422,6 @@
       "dragon_face"
     ],
     "tags": [
-      "animal",
       "cara",
       "cuento",
       "dragón",
@@ -20620,11 +20618,16 @@
     "unicode": "🦀"
   },
   {
+    "annotation": "langosta",
     "group": 1,
     "hexcode": "1F99E",
     "order": 2295,
     "shortcodes": [
       "lobster"
+    ],
+    "tags": [
+      "marisco",
+      "pinzas"
     ],
     "unicode": "🦞"
   },
@@ -20798,21 +20801,35 @@
     "unicode": "🦂"
   },
   {
+    "annotation": "mosquito",
     "group": 1,
     "hexcode": "1F99F",
     "order": 2310,
     "shortcodes": [
       "mosquito"
     ],
+    "tags": [
+      "fiebre",
+      "insecto",
+      "malaria",
+      "virus"
+    ],
     "unicode": "🦟"
   },
   {
+    "annotation": "microbio",
     "group": 1,
     "hexcode": "1F9A0",
     "order": 2311,
     "shortcodes": [
       "microbe",
       "germ"
+    ],
+    "tags": [
+      "ameba",
+      "bacteria",
+      "germen",
+      "virus"
     ],
     "unicode": "🦠"
   },
@@ -21233,11 +21250,16 @@
     "unicode": "🍍"
   },
   {
+    "annotation": "mango",
     "group": 2,
     "hexcode": "1F96D",
     "order": 2343,
     "shortcodes": [
       "mango"
+    ],
+    "tags": [
+      "fruta",
+      "tropical"
     ],
     "unicode": "🥭"
   },
@@ -21476,11 +21498,19 @@
     "unicode": "🥒"
   },
   {
+    "annotation": "verdura de hoja verde",
     "group": 2,
     "hexcode": "1F96C",
     "order": 2361,
     "shortcodes": [
       "leafy_green"
+    ],
+    "tags": [
+      "bok choy",
+      "kale",
+      "lechuga",
+      "pak choi",
+      "verdura de hoja"
     ],
     "unicode": "🥬"
   },
@@ -21605,11 +21635,17 @@
     "unicode": "🥨"
   },
   {
+    "annotation": "bagel",
     "group": 2,
     "hexcode": "1F96F",
     "order": 2370,
     "shortcodes": [
       "bagel"
+    ],
+    "tags": [
+      "bocadillo",
+      "pan",
+      "panadería"
     ],
     "unicode": "🥯"
   },
@@ -21815,7 +21851,6 @@
     "tags": [
       "comida",
       "durum",
-      "dürüm",
       "falafel",
       "kebab",
       "pan de pita"
@@ -21921,11 +21956,16 @@
     "unicode": "🍿"
   },
   {
+    "annotation": "sal",
     "group": 2,
     "hexcode": "1F9C2",
     "order": 2392,
     "shortcodes": [
       "salt"
+    ],
+    "tags": [
+      "condimento",
+      "salero"
     ],
     "unicode": "🧂"
   },
@@ -22064,7 +22104,7 @@
     "unicode": "🍠"
   },
   {
-    "annotation": "oden",
+    "annotation": "brocheta",
     "group": 2,
     "hexcode": "1F362",
     "order": 2402,
@@ -22072,11 +22112,10 @@
       "oden"
     ],
     "tags": [
-      "brocheta",
+      "japonés",
       "marisco",
-      "pincho",
-      "pincho japonés",
-      "restaurante"
+      "oden",
+      "pincho"
     ],
     "unicode": "🍢"
   },
@@ -22124,11 +22163,18 @@
     "unicode": "🍥"
   },
   {
+    "annotation": "pastel de luna",
     "group": 2,
     "hexcode": "1F96E",
     "order": 2406,
     "shortcodes": [
       "moon_cake"
+    ],
+    "tags": [
+      "festival",
+      "luna",
+      "otoño",
+      "yuebing"
     ],
     "unicode": "🥮"
   },
@@ -22301,11 +22347,17 @@
     "unicode": "🍰"
   },
   {
+    "annotation": "magdalena",
     "group": 2,
     "hexcode": "1F9C1",
     "order": 2418,
     "shortcodes": [
       "cupcake"
+    ],
+    "tags": [
+      "cupcake",
+      "dulce",
+      "repostería"
     ],
     "unicode": "🧁"
   },
@@ -22508,7 +22560,6 @@
       "bar",
       "bebida",
       "copa",
-      "restaurante",
       "vaso",
       "vino"
     ],
@@ -22727,7 +22778,6 @@
     ],
     "tags": [
       "europa",
-      "globo",
       "globo terráqueo mostrando europa y áfrica",
       "mundo",
       "tierra",
@@ -22763,7 +22813,6 @@
     "tags": [
       "asia",
       "australia",
-      "globo",
       "globo terráqueo mostrando asia y australia",
       "mundo",
       "tierra"
@@ -22817,11 +22866,17 @@
     "unicode": "🗾"
   },
   {
+    "annotation": "brújula",
     "group": 3,
     "hexcode": "1F9ED",
     "order": 2453,
     "shortcodes": [
       "compass"
+    ],
+    "tags": [
+      "magnético",
+      "navegación",
+      "orientación"
     ],
     "unicode": "🧭"
   },
@@ -22993,11 +23048,18 @@
     "unicode": "🏗️"
   },
   {
+    "annotation": "ladrillo",
     "group": 3,
     "hexcode": "1F9F1",
     "order": 2476,
     "shortcodes": [
       "brick"
+    ],
+    "tags": [
+      "arcilla",
+      "cemento",
+      "muro",
+      "pared"
     ],
     "unicode": "🧱"
   },
@@ -24072,11 +24134,16 @@
     "unicode": "🛴"
   },
   {
+    "annotation": "monopatín",
     "group": 3,
     "hexcode": "1F6F9",
     "order": 2554,
     "shortcodes": [
       "skateboard"
+    ],
+    "tags": [
+      "skateboard",
+      "tabla"
     ],
     "unicode": "🛹"
   },
@@ -24320,7 +24387,7 @@
     "unicode": "🛳️"
   },
   {
-    "annotation": "ferry",
+    "annotation": "ferri",
     "group": 3,
     "hexcode": "26F4",
     "order": 2576,
@@ -24328,7 +24395,8 @@
       "ferry"
     ],
     "tags": [
-      "barco"
+      "barco",
+      "ferry"
     ],
     "unicode": "⛴️"
   },
@@ -24475,9 +24543,9 @@
     ],
     "tags": [
       "cable",
+      "funicular",
       "montaña",
       "teleférico",
-      "vagón",
       "vehículo"
     ],
     "unicode": "🚠"
@@ -24555,11 +24623,16 @@
     "unicode": "🛎️"
   },
   {
+    "annotation": "equipaje",
     "group": 3,
     "hexcode": "1F9F3",
     "order": 2597,
     "shortcodes": [
       "luggage"
+    ],
+    "tags": [
+      "maleta",
+      "viajar"
     ],
     "unicode": "🧳"
   },
@@ -25563,7 +25636,6 @@
       "high_voltage"
     ],
     "tags": [
-      "alto",
       "peligro",
       "peligro de alto voltaje",
       "señal",
@@ -25731,11 +25803,17 @@
     "unicode": "🎇"
   },
   {
+    "annotation": "petardo",
     "group": 4,
     "hexcode": "1F9E8",
     "order": 2699,
     "shortcodes": [
       "firecracker"
+    ],
+    "tags": [
+      "dinamita",
+      "explosivo",
+      "fuegos artificiales"
     ],
     "unicode": "🧨"
   },
@@ -25798,7 +25876,7 @@
     "unicode": "🎊"
   },
   {
-    "annotation": "árbol de Tanabata",
+    "annotation": "árbol de tanabata",
     "group": 4,
     "hexcode": "1F38B",
     "order": 2704,
@@ -25807,12 +25885,9 @@
     ],
     "tags": [
       "celebración",
-      "festividad de estrellas",
-      "japonés",
+      "festividad",
       "tanabata",
-      "trozos papel",
-      "árbol",
-      "árbol de tanabata"
+      "árbol"
     ],
     "unicode": "🎋"
   },
@@ -25827,10 +25902,10 @@
     ],
     "tags": [
       "año nuevo japonés",
+      "bambú",
       "celebración",
       "decoración",
-      "kadomatsu",
-      "pino"
+      "kadomatsu"
     ],
     "unicode": "🎍"
   },
@@ -25899,11 +25974,18 @@
     "unicode": "🎑"
   },
   {
+    "annotation": "sobre rojo",
     "group": 4,
     "hexcode": "1F9E7",
     "order": 2710,
     "shortcodes": [
       "red_envelope"
+    ],
+    "tags": [
+      "buena suerte",
+      "hóngbāo",
+      "lai see",
+      "regalo"
     ],
     "unicode": "🧧"
   },
@@ -26097,10 +26179,16 @@
     "unicode": "⚾️"
   },
   {
+    "annotation": "pelota de softball",
     "group": 4,
     "hexcode": "1F94E",
     "order": 2727,
     "shortcodes": [
+      "softball"
+    ],
+    "tags": [
+      "bola",
+      "pelota",
       "softball"
     ],
     "unicode": "🥎"
@@ -26181,11 +26269,16 @@
     "unicode": "🎾"
   },
   {
+    "annotation": "disco volador",
     "group": 4,
     "hexcode": "1F94F",
     "order": 2733,
     "shortcodes": [
       "flying_disc"
+    ],
+    "tags": [
+      "disco",
+      "frisbee"
     ],
     "unicode": "🥏"
   },
@@ -26227,7 +26320,6 @@
       "field_hockey"
     ],
     "tags": [
-      "césped",
       "hierba",
       "hockey",
       "juego",
@@ -26253,11 +26345,18 @@
     "unicode": "🏒"
   },
   {
+    "annotation": "lacrosse",
     "group": 4,
     "hexcode": "1F94D",
     "order": 2738,
     "shortcodes": [
       "lacrosse"
+    ],
+    "tags": [
+      "bola",
+      "palo",
+      "pelota",
+      "raqueta"
     ],
     "unicode": "🥍"
   },
@@ -26318,12 +26417,9 @@
     ],
     "tags": [
       "artes marciales",
-      "deporte",
       "judo",
       "kárate",
-      "taekwondo",
-      "uniforme",
-      "yudo"
+      "taekwondo"
     ],
     "unicode": "🥋"
   },
@@ -26493,11 +26589,18 @@
     "unicode": "🔮"
   },
   {
+    "annotation": "ojo turco",
     "group": 4,
     "hexcode": "1F9FF",
     "order": 2755,
     "shortcodes": [
       "nazar_amulet"
+    ],
+    "tags": [
+      "amuleto",
+      "mal de ojo",
+      "nazar",
+      "talismán"
     ],
     "unicode": "🧿"
   },
@@ -26560,6 +26663,7 @@
     "unicode": "🎲"
   },
   {
+    "annotation": "puzle",
     "group": 4,
     "hexcode": "1F9E9",
     "order": 2761,
@@ -26567,14 +26671,25 @@
       "jigsaw",
       "puzzle_piece"
     ],
+    "tags": [
+      "conectar",
+      "pieza",
+      "pista"
+    ],
     "unicode": "🧩"
   },
   {
+    "annotation": "osito de peluche",
     "group": 4,
     "hexcode": "1F9F8",
     "order": 2762,
     "shortcodes": [
       "teddy_bear"
+    ],
+    "tags": [
+      "juguete",
+      "oso",
+      "peluche"
     ],
     "unicode": "🧸"
   },
@@ -26643,11 +26758,16 @@
     "unicode": "♣️"
   },
   {
+    "annotation": "peón de ajedrez",
     "group": 4,
     "hexcode": "265F",
     "order": 2772,
     "shortcodes": [
       "chess_pawn"
+    ],
+    "tags": [
+      "ajedrez",
+      "peón"
     ],
     "unicode": "♟️"
   },
@@ -26691,10 +26811,7 @@
       "carta",
       "flor",
       "hanafuda",
-      "juego",
-      "juego cartas",
-      "naipe",
-      "naipe de flor"
+      "naipe"
     ],
     "unicode": "🎴"
   },
@@ -26746,20 +26863,34 @@
     "unicode": "🎨"
   },
   {
+    "annotation": "hilo",
     "group": 4,
     "hexcode": "1F9F5",
     "order": 2780,
     "shortcodes": [
       "spool"
     ],
+    "tags": [
+      "aguja",
+      "carrete",
+      "coser",
+      "costura"
+    ],
     "unicode": "🧵"
   },
   {
+    "annotation": "ovillo",
     "group": 4,
     "hexcode": "1F9F6",
     "order": 2781,
     "shortcodes": [
       "yarn"
+    ],
+    "tags": [
+      "bola",
+      "croché",
+      "punto",
+      "tejer"
     ],
     "unicode": "🧶"
   },
@@ -26790,8 +26921,7 @@
       "low_sound"
     ],
     "tags": [
-      "altavoz",
-      "volumen"
+      "volumen bajo"
     ],
     "unicode": "🔈️"
   },
@@ -27376,11 +27506,15 @@
     "unicode": "📀"
   },
   {
+    "annotation": "ábaco",
     "group": 5,
     "hexcode": "1F9EE",
     "order": 2833,
     "shortcodes": [
       "abacus"
+    ],
+    "tags": [
+      "cálculo"
     ],
     "unicode": "🧮"
   },
@@ -27943,11 +28077,18 @@
     "unicode": "💳️"
   },
   {
+    "annotation": "recibo",
     "group": 5,
     "hexcode": "1F9FE",
     "order": 2878,
     "shortcodes": [
       "receipt"
+    ],
+    "tags": [
+      "contabilidad",
+      "prueba",
+      "teneduría de libros",
+      "testimonio"
     ],
     "unicode": "🧾"
   },
@@ -28040,7 +28181,6 @@
       "comunicación",
       "correo",
       "correo electrónico",
-      "correo recibido",
       "sobre"
     ],
     "unicode": "📨"
@@ -28058,7 +28198,6 @@
       "comunicación",
       "correo",
       "correo electrónico",
-      "correo enviado",
       "sobre"
     ],
     "unicode": "📩"
@@ -28680,8 +28819,7 @@
       "cerrado",
       "estilográfica",
       "pluma",
-      "privacidad",
-      "tinta"
+      "privacidad"
     ],
     "unicode": "🔏"
   },
@@ -28841,7 +28979,6 @@
     ],
     "tags": [
       "arco",
-      "arma",
       "arquero",
       "flecha",
       "sagitario",
@@ -28961,20 +29098,32 @@
     "unicode": "⛓️"
   },
   {
+    "annotation": "caja de herramientas",
     "group": 5,
     "hexcode": "1F9F0",
     "order": 2974,
     "shortcodes": [
       "toolbox"
     ],
+    "tags": [
+      "armario",
+      "herramienta",
+      "mecánico"
+    ],
     "unicode": "🧰"
   },
   {
+    "annotation": "imán",
     "group": 5,
     "hexcode": "1F9F2",
     "order": 2975,
     "shortcodes": [
       "magnet"
+    ],
+    "tags": [
+      "atracción",
+      "herradura",
+      "magnético"
     ],
     "unicode": "🧲"
   },
@@ -28993,30 +29142,54 @@
     "unicode": "⚗️"
   },
   {
+    "annotation": "tubo de ensayo",
     "group": 5,
     "hexcode": "1F9EA",
     "order": 2978,
     "shortcodes": [
       "test_tube"
     ],
+    "tags": [
+      "ciencia",
+      "experimento",
+      "laboratorio",
+      "química",
+      "químico"
+    ],
     "unicode": "🧪"
   },
   {
+    "annotation": "placa de petri",
     "group": 5,
     "hexcode": "1F9EB",
     "order": 2979,
     "shortcodes": [
       "petri_dish"
     ],
+    "tags": [
+      "bacterias",
+      "biología",
+      "biólogo",
+      "cultivo",
+      "laboratorio"
+    ],
     "unicode": "🧫"
   },
   {
+    "annotation": "adn",
     "group": 5,
     "hexcode": "1F9EC",
     "order": 2980,
     "shortcodes": [
       "dna",
       "double_helix"
+    ],
+    "tags": [
+      "biólogo",
+      "evolución",
+      "gen",
+      "genética",
+      "vida"
     ],
     "unicode": "🧬"
   },
@@ -29180,74 +29353,123 @@
     "unicode": "🛁"
   },
   {
+    "annotation": "bote de crema",
     "group": 5,
     "hexcode": "1F9F4",
     "order": 2994,
     "shortcodes": [
       "lotion"
     ],
+    "tags": [
+      "champú",
+      "crema",
+      "hidratante",
+      "protector solar"
+    ],
     "unicode": "🧴"
   },
   {
+    "annotation": "imperdible",
     "group": 5,
     "hexcode": "1F9F7",
     "order": 2995,
     "shortcodes": [
       "safety_pin"
     ],
+    "tags": [
+      "pañal",
+      "punk rock"
+    ],
     "unicode": "🧷"
   },
   {
+    "annotation": "escoba",
     "group": 5,
     "hexcode": "1F9F9",
     "order": 2996,
     "shortcodes": [
       "broom"
     ],
+    "tags": [
+      "barrer",
+      "bruja",
+      "fregar"
+    ],
     "unicode": "🧹"
   },
   {
+    "annotation": "cesta",
     "group": 5,
     "hexcode": "1F9FA",
     "order": 2997,
     "shortcodes": [
       "basket"
     ],
+    "tags": [
+      "colada",
+      "cosecha",
+      "pícnic"
+    ],
     "unicode": "🧺"
   },
   {
+    "annotation": "rollo de papel",
     "group": 5,
     "hexcode": "1F9FB",
     "order": 2998,
     "shortcodes": [
       "toilet_paper"
     ],
+    "tags": [
+      "papel absorbente",
+      "papel higiénico"
+    ],
     "unicode": "🧻"
   },
   {
+    "annotation": "jabón",
     "group": 5,
     "hexcode": "1F9FC",
     "order": 2999,
     "shortcodes": [
       "soap"
     ],
+    "tags": [
+      "bañarse",
+      "enjabonarse",
+      "jabonera",
+      "lavarse",
+      "pastilla"
+    ],
     "unicode": "🧼"
   },
   {
+    "annotation": "esponja",
     "group": 5,
     "hexcode": "1F9FD",
     "order": 3000,
     "shortcodes": [
       "sponge"
     ],
+    "tags": [
+      "absorbente",
+      "limpiar",
+      "poroso"
+    ],
     "unicode": "🧽"
   },
   {
+    "annotation": "extintor",
     "group": 5,
     "hexcode": "1F9EF",
     "order": 3001,
     "shortcodes": [
       "fire_extinguisher"
+    ],
+    "tags": [
+      "apagar",
+      "extinguir",
+      "incendio"
     ],
     "unicode": "🧯"
   },
@@ -29397,7 +29619,7 @@
     ],
     "tags": [
       "aseo de caballeros",
-      "lavabo",
+      "baño",
       "servicio",
       "señal",
       "señal con un hombre"
@@ -29414,7 +29636,7 @@
     ],
     "tags": [
       "aseo de señoras",
-      "lavabo",
+      "baño",
       "servicio",
       "señal",
       "señal con una mujer"
@@ -29750,7 +29972,6 @@
       "derecha",
       "dirección",
       "flecha",
-      "flecha esquina derecha",
       "noreste"
     ],
     "unicode": "↗️"
@@ -29784,7 +30005,6 @@
       "derecha",
       "dirección",
       "flecha",
-      "flecha esquina derecha",
       "sudeste"
     ],
     "unicode": "↘️"
@@ -29817,7 +30037,6 @@
       "abajo",
       "dirección",
       "flecha",
-      "flecha esquina izquierda",
       "izquierda",
       "suroeste"
     ],
@@ -29850,7 +30069,6 @@
       "arriba",
       "dirección",
       "flecha",
-      "flecha esquina izquierda",
       "izquierda",
       "noroeste"
     ],
@@ -29979,7 +30197,6 @@
     "tags": [
       "dirección",
       "flechas",
-      "flechas verticales sentido antihorario",
       "sentido antihorario",
       "señal de recarga"
     ],
@@ -30012,7 +30229,6 @@
       "end"
     ],
     "tags": [
-      "back",
       "final",
       "final con flecha izquierda",
       "flecha",
@@ -30030,13 +30246,11 @@
       "on"
     ],
     "tags": [
-      "atrás con flecha izquierda",
-      "back",
       "flecha",
-      "flecha a la izquierda",
-      "flecha atrás",
+      "flecha de doble punta con la palabra \"on\" encima",
       "flecha on!",
-      "on"
+      "on",
+      "señal"
     ],
     "unicode": "🔛"
   },
@@ -30775,9 +30989,7 @@
     ],
     "tags": [
       "antena",
-      "antena con barras",
-      "barras",
-      "intensidad de señal",
+      "celular",
       "móvil",
       "señal",
       "teléfono"
@@ -30860,19 +31072,22 @@
       "asclepio",
       "esculapio",
       "medicina",
-      "médico",
-      "serpiente",
-      "símbolo",
-      "vara"
+      "serpiente"
     ],
     "unicode": "⚕️"
   },
   {
+    "annotation": "infinito",
     "group": 6,
     "hexcode": "267E",
     "order": 3147,
     "shortcodes": [
       "infinity"
+    ],
+    "tags": [
+      "ilimitado",
+      "siempre",
+      "universal"
     ],
     "unicode": "♾️"
   },
@@ -32538,6 +32753,7 @@
     "unicode": "🏳️‍🌈"
   },
   {
+    "annotation": "bandera pirata",
     "group": 7,
     "hexcode": "1F3F4-200D-2620-FE0F",
     "order": 3303,
@@ -32546,21 +32762,15 @@
       "jolly_roger"
     ],
     "tags": [
-      "bandera",
-      "calavera",
-      "calavera y huesos cruzados",
-      "cara",
-      "cruzados",
-      "huesos",
-      "monstruo",
-      "muerte",
-      "negra",
-      "ondear"
+      "botín",
+      "jolly roger",
+      "pirata",
+      "tesoro"
     ],
     "unicode": "🏴‍☠️"
   },
   {
-    "annotation": "Isla de la Ascensión",
+    "annotation": "Bandera: Isla de la Ascensión",
     "group": 7,
     "hexcode": "1F1E6-1F1E8",
     "order": 3305,
@@ -32574,7 +32784,7 @@
     "unicode": "🇦🇨"
   },
   {
-    "annotation": "Andorra",
+    "annotation": "Bandera: Andorra",
     "group": 7,
     "hexcode": "1F1E6-1F1E9",
     "order": 3306,
@@ -32588,7 +32798,7 @@
     "unicode": "🇦🇩"
   },
   {
-    "annotation": "Emiratos Árabes Unidos",
+    "annotation": "Bandera: Emiratos Árabes Unidos",
     "group": 7,
     "hexcode": "1F1E6-1F1EA",
     "order": 3307,
@@ -32602,7 +32812,7 @@
     "unicode": "🇦🇪"
   },
   {
-    "annotation": "Afganistán",
+    "annotation": "Bandera: Afganistán",
     "group": 7,
     "hexcode": "1F1E6-1F1EB",
     "order": 3308,
@@ -32616,7 +32826,7 @@
     "unicode": "🇦🇫"
   },
   {
-    "annotation": "Antigua y Barbuda",
+    "annotation": "Bandera: Antigua y Barbuda",
     "group": 7,
     "hexcode": "1F1E6-1F1EC",
     "order": 3309,
@@ -32630,7 +32840,7 @@
     "unicode": "🇦🇬"
   },
   {
-    "annotation": "Anguila",
+    "annotation": "Bandera: Anguila",
     "group": 7,
     "hexcode": "1F1E6-1F1EE",
     "order": 3310,
@@ -32644,7 +32854,7 @@
     "unicode": "🇦🇮"
   },
   {
-    "annotation": "Albania",
+    "annotation": "Bandera: Albania",
     "group": 7,
     "hexcode": "1F1E6-1F1F1",
     "order": 3311,
@@ -32658,7 +32868,7 @@
     "unicode": "🇦🇱"
   },
   {
-    "annotation": "Armenia",
+    "annotation": "Bandera: Armenia",
     "group": 7,
     "hexcode": "1F1E6-1F1F2",
     "order": 3312,
@@ -32672,7 +32882,7 @@
     "unicode": "🇦🇲"
   },
   {
-    "annotation": "Angola",
+    "annotation": "Bandera: Angola",
     "group": 7,
     "hexcode": "1F1E6-1F1F4",
     "order": 3313,
@@ -32686,7 +32896,7 @@
     "unicode": "🇦🇴"
   },
   {
-    "annotation": "Antártida",
+    "annotation": "Bandera: Antártida",
     "group": 7,
     "hexcode": "1F1E6-1F1F6",
     "order": 3314,
@@ -32700,7 +32910,7 @@
     "unicode": "🇦🇶"
   },
   {
-    "annotation": "Argentina",
+    "annotation": "Bandera: Argentina",
     "group": 7,
     "hexcode": "1F1E6-1F1F7",
     "order": 3315,
@@ -32714,7 +32924,7 @@
     "unicode": "🇦🇷"
   },
   {
-    "annotation": "Samoa Americana",
+    "annotation": "Bandera: Samoa Americana",
     "group": 7,
     "hexcode": "1F1E6-1F1F8",
     "order": 3316,
@@ -32728,7 +32938,7 @@
     "unicode": "🇦🇸"
   },
   {
-    "annotation": "Austria",
+    "annotation": "Bandera: Austria",
     "group": 7,
     "hexcode": "1F1E6-1F1F9",
     "order": 3317,
@@ -32742,7 +32952,7 @@
     "unicode": "🇦🇹"
   },
   {
-    "annotation": "Australia",
+    "annotation": "Bandera: Australia",
     "group": 7,
     "hexcode": "1F1E6-1F1FA",
     "order": 3318,
@@ -32756,7 +32966,7 @@
     "unicode": "🇦🇺"
   },
   {
-    "annotation": "Aruba",
+    "annotation": "Bandera: Aruba",
     "group": 7,
     "hexcode": "1F1E6-1F1FC",
     "order": 3319,
@@ -32770,7 +32980,7 @@
     "unicode": "🇦🇼"
   },
   {
-    "annotation": "Islas Åland",
+    "annotation": "Bandera: Islas Åland",
     "group": 7,
     "hexcode": "1F1E6-1F1FD",
     "order": 3320,
@@ -32784,7 +32994,7 @@
     "unicode": "🇦🇽"
   },
   {
-    "annotation": "Azerbaiyán",
+    "annotation": "Bandera: Azerbaiyán",
     "group": 7,
     "hexcode": "1F1E6-1F1FF",
     "order": 3321,
@@ -32798,7 +33008,7 @@
     "unicode": "🇦🇿"
   },
   {
-    "annotation": "Bosnia y Herzegovina",
+    "annotation": "Bandera: Bosnia y Herzegovina",
     "group": 7,
     "hexcode": "1F1E7-1F1E6",
     "order": 3322,
@@ -32812,7 +33022,7 @@
     "unicode": "🇧🇦"
   },
   {
-    "annotation": "Barbados",
+    "annotation": "Bandera: Barbados",
     "group": 7,
     "hexcode": "1F1E7-1F1E7",
     "order": 3323,
@@ -32826,7 +33036,7 @@
     "unicode": "🇧🇧"
   },
   {
-    "annotation": "Bangladés",
+    "annotation": "Bandera: Bangladés",
     "group": 7,
     "hexcode": "1F1E7-1F1E9",
     "order": 3324,
@@ -32840,7 +33050,7 @@
     "unicode": "🇧🇩"
   },
   {
-    "annotation": "Bélgica",
+    "annotation": "Bandera: Bélgica",
     "group": 7,
     "hexcode": "1F1E7-1F1EA",
     "order": 3325,
@@ -32854,7 +33064,7 @@
     "unicode": "🇧🇪"
   },
   {
-    "annotation": "Burkina Faso",
+    "annotation": "Bandera: Burkina Faso",
     "group": 7,
     "hexcode": "1F1E7-1F1EB",
     "order": 3326,
@@ -32868,7 +33078,7 @@
     "unicode": "🇧🇫"
   },
   {
-    "annotation": "Bulgaria",
+    "annotation": "Bandera: Bulgaria",
     "group": 7,
     "hexcode": "1F1E7-1F1EC",
     "order": 3327,
@@ -32882,7 +33092,7 @@
     "unicode": "🇧🇬"
   },
   {
-    "annotation": "Baréin",
+    "annotation": "Bandera: Baréin",
     "group": 7,
     "hexcode": "1F1E7-1F1ED",
     "order": 3328,
@@ -32896,7 +33106,7 @@
     "unicode": "🇧🇭"
   },
   {
-    "annotation": "Burundi",
+    "annotation": "Bandera: Burundi",
     "group": 7,
     "hexcode": "1F1E7-1F1EE",
     "order": 3329,
@@ -32910,7 +33120,7 @@
     "unicode": "🇧🇮"
   },
   {
-    "annotation": "Benín",
+    "annotation": "Bandera: Benín",
     "group": 7,
     "hexcode": "1F1E7-1F1EF",
     "order": 3330,
@@ -32924,7 +33134,7 @@
     "unicode": "🇧🇯"
   },
   {
-    "annotation": "San Bartolomé",
+    "annotation": "Bandera: San Bartolomé",
     "group": 7,
     "hexcode": "1F1E7-1F1F1",
     "order": 3331,
@@ -32938,7 +33148,7 @@
     "unicode": "🇧🇱"
   },
   {
-    "annotation": "Bermudas",
+    "annotation": "Bandera: Bermudas",
     "group": 7,
     "hexcode": "1F1E7-1F1F2",
     "order": 3332,
@@ -32952,7 +33162,7 @@
     "unicode": "🇧🇲"
   },
   {
-    "annotation": "Brunéi",
+    "annotation": "Bandera: Brunéi",
     "group": 7,
     "hexcode": "1F1E7-1F1F3",
     "order": 3333,
@@ -32966,7 +33176,7 @@
     "unicode": "🇧🇳"
   },
   {
-    "annotation": "Bolivia",
+    "annotation": "Bandera: Bolivia",
     "group": 7,
     "hexcode": "1F1E7-1F1F4",
     "order": 3334,
@@ -32980,7 +33190,7 @@
     "unicode": "🇧🇴"
   },
   {
-    "annotation": "Caribe neerlandés",
+    "annotation": "Bandera: Caribe neerlandés",
     "group": 7,
     "hexcode": "1F1E7-1F1F6",
     "order": 3335,
@@ -32994,7 +33204,7 @@
     "unicode": "🇧🇶"
   },
   {
-    "annotation": "Brasil",
+    "annotation": "Bandera: Brasil",
     "group": 7,
     "hexcode": "1F1E7-1F1F7",
     "order": 3336,
@@ -33008,7 +33218,7 @@
     "unicode": "🇧🇷"
   },
   {
-    "annotation": "Bahamas",
+    "annotation": "Bandera: Bahamas",
     "group": 7,
     "hexcode": "1F1E7-1F1F8",
     "order": 3337,
@@ -33022,7 +33232,7 @@
     "unicode": "🇧🇸"
   },
   {
-    "annotation": "Bután",
+    "annotation": "Bandera: Bután",
     "group": 7,
     "hexcode": "1F1E7-1F1F9",
     "order": 3338,
@@ -33036,7 +33246,7 @@
     "unicode": "🇧🇹"
   },
   {
-    "annotation": "Isla Bouvet",
+    "annotation": "Bandera: Isla Bouvet",
     "group": 7,
     "hexcode": "1F1E7-1F1FB",
     "order": 3339,
@@ -33050,7 +33260,7 @@
     "unicode": "🇧🇻"
   },
   {
-    "annotation": "Botsuana",
+    "annotation": "Bandera: Botsuana",
     "group": 7,
     "hexcode": "1F1E7-1F1FC",
     "order": 3340,
@@ -33064,7 +33274,7 @@
     "unicode": "🇧🇼"
   },
   {
-    "annotation": "Bielorrusia",
+    "annotation": "Bandera: Bielorrusia",
     "group": 7,
     "hexcode": "1F1E7-1F1FE",
     "order": 3341,
@@ -33078,7 +33288,7 @@
     "unicode": "🇧🇾"
   },
   {
-    "annotation": "Belice",
+    "annotation": "Bandera: Belice",
     "group": 7,
     "hexcode": "1F1E7-1F1FF",
     "order": 3342,
@@ -33092,7 +33302,7 @@
     "unicode": "🇧🇿"
   },
   {
-    "annotation": "Canadá",
+    "annotation": "Bandera: Canadá",
     "group": 7,
     "hexcode": "1F1E8-1F1E6",
     "order": 3343,
@@ -33106,7 +33316,7 @@
     "unicode": "🇨🇦"
   },
   {
-    "annotation": "Islas Cocos",
+    "annotation": "Bandera: Islas Cocos",
     "group": 7,
     "hexcode": "1F1E8-1F1E8",
     "order": 3344,
@@ -33120,7 +33330,7 @@
     "unicode": "🇨🇨"
   },
   {
-    "annotation": "República Democrática del Congo",
+    "annotation": "Bandera: República Democrática del Congo",
     "group": 7,
     "hexcode": "1F1E8-1F1E9",
     "order": 3345,
@@ -33134,7 +33344,7 @@
     "unicode": "🇨🇩"
   },
   {
-    "annotation": "República Centroafricana",
+    "annotation": "Bandera: República Centroafricana",
     "group": 7,
     "hexcode": "1F1E8-1F1EB",
     "order": 3346,
@@ -33148,7 +33358,7 @@
     "unicode": "🇨🇫"
   },
   {
-    "annotation": "República del Congo",
+    "annotation": "Bandera: República del Congo",
     "group": 7,
     "hexcode": "1F1E8-1F1EC",
     "order": 3347,
@@ -33162,7 +33372,7 @@
     "unicode": "🇨🇬"
   },
   {
-    "annotation": "Suiza",
+    "annotation": "Bandera: Suiza",
     "group": 7,
     "hexcode": "1F1E8-1F1ED",
     "order": 3348,
@@ -33176,7 +33386,7 @@
     "unicode": "🇨🇭"
   },
   {
-    "annotation": "Côte d’Ivoire",
+    "annotation": "Bandera: Côte d’Ivoire",
     "group": 7,
     "hexcode": "1F1E8-1F1EE",
     "order": 3349,
@@ -33190,7 +33400,7 @@
     "unicode": "🇨🇮"
   },
   {
-    "annotation": "Islas Cook",
+    "annotation": "Bandera: Islas Cook",
     "group": 7,
     "hexcode": "1F1E8-1F1F0",
     "order": 3350,
@@ -33204,7 +33414,7 @@
     "unicode": "🇨🇰"
   },
   {
-    "annotation": "Chile",
+    "annotation": "Bandera: Chile",
     "group": 7,
     "hexcode": "1F1E8-1F1F1",
     "order": 3351,
@@ -33218,7 +33428,7 @@
     "unicode": "🇨🇱"
   },
   {
-    "annotation": "Camerún",
+    "annotation": "Bandera: Camerún",
     "group": 7,
     "hexcode": "1F1E8-1F1F2",
     "order": 3352,
@@ -33232,7 +33442,7 @@
     "unicode": "🇨🇲"
   },
   {
-    "annotation": "China",
+    "annotation": "Bandera: China",
     "group": 7,
     "hexcode": "1F1E8-1F1F3",
     "order": 3353,
@@ -33246,7 +33456,7 @@
     "unicode": "🇨🇳"
   },
   {
-    "annotation": "Colombia",
+    "annotation": "Bandera: Colombia",
     "group": 7,
     "hexcode": "1F1E8-1F1F4",
     "order": 3354,
@@ -33260,7 +33470,7 @@
     "unicode": "🇨🇴"
   },
   {
-    "annotation": "Isla Clipperton",
+    "annotation": "Bandera: Isla Clipperton",
     "group": 7,
     "hexcode": "1F1E8-1F1F5",
     "order": 3355,
@@ -33274,7 +33484,7 @@
     "unicode": "🇨🇵"
   },
   {
-    "annotation": "Costa Rica",
+    "annotation": "Bandera: Costa Rica",
     "group": 7,
     "hexcode": "1F1E8-1F1F7",
     "order": 3356,
@@ -33288,7 +33498,7 @@
     "unicode": "🇨🇷"
   },
   {
-    "annotation": "Cuba",
+    "annotation": "Bandera: Cuba",
     "group": 7,
     "hexcode": "1F1E8-1F1FA",
     "order": 3357,
@@ -33302,7 +33512,7 @@
     "unicode": "🇨🇺"
   },
   {
-    "annotation": "Cabo Verde",
+    "annotation": "Bandera: Cabo Verde",
     "group": 7,
     "hexcode": "1F1E8-1F1FB",
     "order": 3358,
@@ -33316,7 +33526,7 @@
     "unicode": "🇨🇻"
   },
   {
-    "annotation": "Curazao",
+    "annotation": "Bandera: Curazao",
     "group": 7,
     "hexcode": "1F1E8-1F1FC",
     "order": 3359,
@@ -33330,7 +33540,7 @@
     "unicode": "🇨🇼"
   },
   {
-    "annotation": "Isla de Navidad",
+    "annotation": "Bandera: Isla de Navidad",
     "group": 7,
     "hexcode": "1F1E8-1F1FD",
     "order": 3360,
@@ -33344,7 +33554,7 @@
     "unicode": "🇨🇽"
   },
   {
-    "annotation": "Chipre",
+    "annotation": "Bandera: Chipre",
     "group": 7,
     "hexcode": "1F1E8-1F1FE",
     "order": 3361,
@@ -33358,7 +33568,7 @@
     "unicode": "🇨🇾"
   },
   {
-    "annotation": "Chequia",
+    "annotation": "Bandera: Chequia",
     "group": 7,
     "hexcode": "1F1E8-1F1FF",
     "order": 3362,
@@ -33372,7 +33582,7 @@
     "unicode": "🇨🇿"
   },
   {
-    "annotation": "Alemania",
+    "annotation": "Bandera: Alemania",
     "group": 7,
     "hexcode": "1F1E9-1F1EA",
     "order": 3363,
@@ -33386,7 +33596,7 @@
     "unicode": "🇩🇪"
   },
   {
-    "annotation": "Diego García",
+    "annotation": "Bandera: Diego García",
     "group": 7,
     "hexcode": "1F1E9-1F1EC",
     "order": 3364,
@@ -33400,7 +33610,7 @@
     "unicode": "🇩🇬"
   },
   {
-    "annotation": "Yibuti",
+    "annotation": "Bandera: Yibuti",
     "group": 7,
     "hexcode": "1F1E9-1F1EF",
     "order": 3365,
@@ -33414,7 +33624,7 @@
     "unicode": "🇩🇯"
   },
   {
-    "annotation": "Dinamarca",
+    "annotation": "Bandera: Dinamarca",
     "group": 7,
     "hexcode": "1F1E9-1F1F0",
     "order": 3366,
@@ -33428,7 +33638,7 @@
     "unicode": "🇩🇰"
   },
   {
-    "annotation": "Dominica",
+    "annotation": "Bandera: Dominica",
     "group": 7,
     "hexcode": "1F1E9-1F1F2",
     "order": 3367,
@@ -33442,7 +33652,7 @@
     "unicode": "🇩🇲"
   },
   {
-    "annotation": "República Dominicana",
+    "annotation": "Bandera: República Dominicana",
     "group": 7,
     "hexcode": "1F1E9-1F1F4",
     "order": 3368,
@@ -33456,7 +33666,7 @@
     "unicode": "🇩🇴"
   },
   {
-    "annotation": "Argelia",
+    "annotation": "Bandera: Argelia",
     "group": 7,
     "hexcode": "1F1E9-1F1FF",
     "order": 3369,
@@ -33470,7 +33680,7 @@
     "unicode": "🇩🇿"
   },
   {
-    "annotation": "Ceuta y Melilla",
+    "annotation": "Bandera: Ceuta y Melilla",
     "group": 7,
     "hexcode": "1F1EA-1F1E6",
     "order": 3370,
@@ -33484,7 +33694,7 @@
     "unicode": "🇪🇦"
   },
   {
-    "annotation": "Ecuador",
+    "annotation": "Bandera: Ecuador",
     "group": 7,
     "hexcode": "1F1EA-1F1E8",
     "order": 3371,
@@ -33498,7 +33708,7 @@
     "unicode": "🇪🇨"
   },
   {
-    "annotation": "Estonia",
+    "annotation": "Bandera: Estonia",
     "group": 7,
     "hexcode": "1F1EA-1F1EA",
     "order": 3372,
@@ -33512,7 +33722,7 @@
     "unicode": "🇪🇪"
   },
   {
-    "annotation": "Egipto",
+    "annotation": "Bandera: Egipto",
     "group": 7,
     "hexcode": "1F1EA-1F1EC",
     "order": 3373,
@@ -33526,7 +33736,7 @@
     "unicode": "🇪🇬"
   },
   {
-    "annotation": "Sáhara Occidental",
+    "annotation": "Bandera: Sáhara Occidental",
     "group": 7,
     "hexcode": "1F1EA-1F1ED",
     "order": 3374,
@@ -33540,7 +33750,7 @@
     "unicode": "🇪🇭"
   },
   {
-    "annotation": "Eritrea",
+    "annotation": "Bandera: Eritrea",
     "group": 7,
     "hexcode": "1F1EA-1F1F7",
     "order": 3375,
@@ -33554,7 +33764,7 @@
     "unicode": "🇪🇷"
   },
   {
-    "annotation": "España",
+    "annotation": "Bandera: España",
     "group": 7,
     "hexcode": "1F1EA-1F1F8",
     "order": 3376,
@@ -33568,7 +33778,7 @@
     "unicode": "🇪🇸"
   },
   {
-    "annotation": "Etiopía",
+    "annotation": "Bandera: Etiopía",
     "group": 7,
     "hexcode": "1F1EA-1F1F9",
     "order": 3377,
@@ -33582,7 +33792,7 @@
     "unicode": "🇪🇹"
   },
   {
-    "annotation": "Unión Europea",
+    "annotation": "Bandera: Unión Europea",
     "group": 7,
     "hexcode": "1F1EA-1F1FA",
     "order": 3378,
@@ -33596,7 +33806,7 @@
     "unicode": "🇪🇺"
   },
   {
-    "annotation": "Finlandia",
+    "annotation": "Bandera: Finlandia",
     "group": 7,
     "hexcode": "1F1EB-1F1EE",
     "order": 3379,
@@ -33610,7 +33820,7 @@
     "unicode": "🇫🇮"
   },
   {
-    "annotation": "Fiyi",
+    "annotation": "Bandera: Fiyi",
     "group": 7,
     "hexcode": "1F1EB-1F1EF",
     "order": 3380,
@@ -33624,7 +33834,7 @@
     "unicode": "🇫🇯"
   },
   {
-    "annotation": "Islas Malvinas",
+    "annotation": "Bandera: Islas Malvinas",
     "group": 7,
     "hexcode": "1F1EB-1F1F0",
     "order": 3381,
@@ -33638,7 +33848,7 @@
     "unicode": "🇫🇰"
   },
   {
-    "annotation": "Micronesia",
+    "annotation": "Bandera: Micronesia",
     "group": 7,
     "hexcode": "1F1EB-1F1F2",
     "order": 3382,
@@ -33652,7 +33862,7 @@
     "unicode": "🇫🇲"
   },
   {
-    "annotation": "Islas Feroe",
+    "annotation": "Bandera: Islas Feroe",
     "group": 7,
     "hexcode": "1F1EB-1F1F4",
     "order": 3383,
@@ -33666,7 +33876,7 @@
     "unicode": "🇫🇴"
   },
   {
-    "annotation": "Francia",
+    "annotation": "Bandera: Francia",
     "group": 7,
     "hexcode": "1F1EB-1F1F7",
     "order": 3384,
@@ -33680,7 +33890,7 @@
     "unicode": "🇫🇷"
   },
   {
-    "annotation": "Gabón",
+    "annotation": "Bandera: Gabón",
     "group": 7,
     "hexcode": "1F1EC-1F1E6",
     "order": 3385,
@@ -33694,7 +33904,7 @@
     "unicode": "🇬🇦"
   },
   {
-    "annotation": "Reino Unido",
+    "annotation": "Bandera: Reino Unido",
     "group": 7,
     "hexcode": "1F1EC-1F1E7",
     "order": 3386,
@@ -33708,7 +33918,7 @@
     "unicode": "🇬🇧"
   },
   {
-    "annotation": "Granada",
+    "annotation": "Bandera: Granada",
     "group": 7,
     "hexcode": "1F1EC-1F1E9",
     "order": 3387,
@@ -33722,7 +33932,7 @@
     "unicode": "🇬🇩"
   },
   {
-    "annotation": "Georgia",
+    "annotation": "Bandera: Georgia",
     "group": 7,
     "hexcode": "1F1EC-1F1EA",
     "order": 3388,
@@ -33736,7 +33946,7 @@
     "unicode": "🇬🇪"
   },
   {
-    "annotation": "Guayana Francesa",
+    "annotation": "Bandera: Guayana Francesa",
     "group": 7,
     "hexcode": "1F1EC-1F1EB",
     "order": 3389,
@@ -33750,7 +33960,7 @@
     "unicode": "🇬🇫"
   },
   {
-    "annotation": "Guernsey",
+    "annotation": "Bandera: Guernsey",
     "group": 7,
     "hexcode": "1F1EC-1F1EC",
     "order": 3390,
@@ -33764,7 +33974,7 @@
     "unicode": "🇬🇬"
   },
   {
-    "annotation": "Ghana",
+    "annotation": "Bandera: Ghana",
     "group": 7,
     "hexcode": "1F1EC-1F1ED",
     "order": 3391,
@@ -33778,7 +33988,7 @@
     "unicode": "🇬🇭"
   },
   {
-    "annotation": "Gibraltar",
+    "annotation": "Bandera: Gibraltar",
     "group": 7,
     "hexcode": "1F1EC-1F1EE",
     "order": 3392,
@@ -33792,7 +34002,7 @@
     "unicode": "🇬🇮"
   },
   {
-    "annotation": "Groenlandia",
+    "annotation": "Bandera: Groenlandia",
     "group": 7,
     "hexcode": "1F1EC-1F1F1",
     "order": 3393,
@@ -33806,7 +34016,7 @@
     "unicode": "🇬🇱"
   },
   {
-    "annotation": "Gambia",
+    "annotation": "Bandera: Gambia",
     "group": 7,
     "hexcode": "1F1EC-1F1F2",
     "order": 3394,
@@ -33820,7 +34030,7 @@
     "unicode": "🇬🇲"
   },
   {
-    "annotation": "Guinea",
+    "annotation": "Bandera: Guinea",
     "group": 7,
     "hexcode": "1F1EC-1F1F3",
     "order": 3395,
@@ -33834,7 +34044,7 @@
     "unicode": "🇬🇳"
   },
   {
-    "annotation": "Guadalupe",
+    "annotation": "Bandera: Guadalupe",
     "group": 7,
     "hexcode": "1F1EC-1F1F5",
     "order": 3396,
@@ -33848,7 +34058,7 @@
     "unicode": "🇬🇵"
   },
   {
-    "annotation": "Guinea Ecuatorial",
+    "annotation": "Bandera: Guinea Ecuatorial",
     "group": 7,
     "hexcode": "1F1EC-1F1F6",
     "order": 3397,
@@ -33862,7 +34072,7 @@
     "unicode": "🇬🇶"
   },
   {
-    "annotation": "Grecia",
+    "annotation": "Bandera: Grecia",
     "group": 7,
     "hexcode": "1F1EC-1F1F7",
     "order": 3398,
@@ -33876,7 +34086,7 @@
     "unicode": "🇬🇷"
   },
   {
-    "annotation": "Islas Georgia del Sur y Sandwich del Sur",
+    "annotation": "Bandera: Islas Georgia del Sur y Sandwich del Sur",
     "group": 7,
     "hexcode": "1F1EC-1F1F8",
     "order": 3399,
@@ -33890,7 +34100,7 @@
     "unicode": "🇬🇸"
   },
   {
-    "annotation": "Guatemala",
+    "annotation": "Bandera: Guatemala",
     "group": 7,
     "hexcode": "1F1EC-1F1F9",
     "order": 3400,
@@ -33904,7 +34114,7 @@
     "unicode": "🇬🇹"
   },
   {
-    "annotation": "Guam",
+    "annotation": "Bandera: Guam",
     "group": 7,
     "hexcode": "1F1EC-1F1FA",
     "order": 3401,
@@ -33918,7 +34128,7 @@
     "unicode": "🇬🇺"
   },
   {
-    "annotation": "Guinea-Bisáu",
+    "annotation": "Bandera: Guinea-Bisáu",
     "group": 7,
     "hexcode": "1F1EC-1F1FC",
     "order": 3402,
@@ -33932,7 +34142,7 @@
     "unicode": "🇬🇼"
   },
   {
-    "annotation": "Guyana",
+    "annotation": "Bandera: Guyana",
     "group": 7,
     "hexcode": "1F1EC-1F1FE",
     "order": 3403,
@@ -33946,7 +34156,7 @@
     "unicode": "🇬🇾"
   },
   {
-    "annotation": "RAE de Hong Kong (China)",
+    "annotation": "Bandera: RAE de Hong Kong (China)",
     "group": 7,
     "hexcode": "1F1ED-1F1F0",
     "order": 3404,
@@ -33960,7 +34170,7 @@
     "unicode": "🇭🇰"
   },
   {
-    "annotation": "Islas Heard y McDonald",
+    "annotation": "Bandera: Islas Heard y McDonald",
     "group": 7,
     "hexcode": "1F1ED-1F1F2",
     "order": 3405,
@@ -33974,7 +34184,7 @@
     "unicode": "🇭🇲"
   },
   {
-    "annotation": "Honduras",
+    "annotation": "Bandera: Honduras",
     "group": 7,
     "hexcode": "1F1ED-1F1F3",
     "order": 3406,
@@ -33988,7 +34198,7 @@
     "unicode": "🇭🇳"
   },
   {
-    "annotation": "Croacia",
+    "annotation": "Bandera: Croacia",
     "group": 7,
     "hexcode": "1F1ED-1F1F7",
     "order": 3407,
@@ -34002,7 +34212,7 @@
     "unicode": "🇭🇷"
   },
   {
-    "annotation": "Haití",
+    "annotation": "Bandera: Haití",
     "group": 7,
     "hexcode": "1F1ED-1F1F9",
     "order": 3408,
@@ -34016,7 +34226,7 @@
     "unicode": "🇭🇹"
   },
   {
-    "annotation": "Hungría",
+    "annotation": "Bandera: Hungría",
     "group": 7,
     "hexcode": "1F1ED-1F1FA",
     "order": 3409,
@@ -34030,7 +34240,7 @@
     "unicode": "🇭🇺"
   },
   {
-    "annotation": "Canarias",
+    "annotation": "Bandera: Canarias",
     "group": 7,
     "hexcode": "1F1EE-1F1E8",
     "order": 3410,
@@ -34044,7 +34254,7 @@
     "unicode": "🇮🇨"
   },
   {
-    "annotation": "Indonesia",
+    "annotation": "Bandera: Indonesia",
     "group": 7,
     "hexcode": "1F1EE-1F1E9",
     "order": 3411,
@@ -34058,7 +34268,7 @@
     "unicode": "🇮🇩"
   },
   {
-    "annotation": "Irlanda",
+    "annotation": "Bandera: Irlanda",
     "group": 7,
     "hexcode": "1F1EE-1F1EA",
     "order": 3412,
@@ -34072,7 +34282,7 @@
     "unicode": "🇮🇪"
   },
   {
-    "annotation": "Israel",
+    "annotation": "Bandera: Israel",
     "group": 7,
     "hexcode": "1F1EE-1F1F1",
     "order": 3413,
@@ -34086,7 +34296,7 @@
     "unicode": "🇮🇱"
   },
   {
-    "annotation": "Isla de Man",
+    "annotation": "Bandera: Isla de Man",
     "group": 7,
     "hexcode": "1F1EE-1F1F2",
     "order": 3414,
@@ -34100,7 +34310,7 @@
     "unicode": "🇮🇲"
   },
   {
-    "annotation": "India",
+    "annotation": "Bandera: India",
     "group": 7,
     "hexcode": "1F1EE-1F1F3",
     "order": 3415,
@@ -34114,7 +34324,7 @@
     "unicode": "🇮🇳"
   },
   {
-    "annotation": "Territorio Británico del Océano Índico",
+    "annotation": "Bandera: Territorio Británico del Océano Índico",
     "group": 7,
     "hexcode": "1F1EE-1F1F4",
     "order": 3416,
@@ -34128,7 +34338,7 @@
     "unicode": "🇮🇴"
   },
   {
-    "annotation": "Irak",
+    "annotation": "Bandera: Irak",
     "group": 7,
     "hexcode": "1F1EE-1F1F6",
     "order": 3417,
@@ -34142,7 +34352,7 @@
     "unicode": "🇮🇶"
   },
   {
-    "annotation": "Irán",
+    "annotation": "Bandera: Irán",
     "group": 7,
     "hexcode": "1F1EE-1F1F7",
     "order": 3418,
@@ -34156,7 +34366,7 @@
     "unicode": "🇮🇷"
   },
   {
-    "annotation": "Islandia",
+    "annotation": "Bandera: Islandia",
     "group": 7,
     "hexcode": "1F1EE-1F1F8",
     "order": 3419,
@@ -34170,7 +34380,7 @@
     "unicode": "🇮🇸"
   },
   {
-    "annotation": "Italia",
+    "annotation": "Bandera: Italia",
     "group": 7,
     "hexcode": "1F1EE-1F1F9",
     "order": 3420,
@@ -34184,7 +34394,7 @@
     "unicode": "🇮🇹"
   },
   {
-    "annotation": "Jersey",
+    "annotation": "Bandera: Jersey",
     "group": 7,
     "hexcode": "1F1EF-1F1EA",
     "order": 3421,
@@ -34198,7 +34408,7 @@
     "unicode": "🇯🇪"
   },
   {
-    "annotation": "Jamaica",
+    "annotation": "Bandera: Jamaica",
     "group": 7,
     "hexcode": "1F1EF-1F1F2",
     "order": 3422,
@@ -34212,7 +34422,7 @@
     "unicode": "🇯🇲"
   },
   {
-    "annotation": "Jordania",
+    "annotation": "Bandera: Jordania",
     "group": 7,
     "hexcode": "1F1EF-1F1F4",
     "order": 3423,
@@ -34226,7 +34436,7 @@
     "unicode": "🇯🇴"
   },
   {
-    "annotation": "Japón",
+    "annotation": "Bandera: Japón",
     "group": 7,
     "hexcode": "1F1EF-1F1F5",
     "order": 3424,
@@ -34240,7 +34450,7 @@
     "unicode": "🇯🇵"
   },
   {
-    "annotation": "Kenia",
+    "annotation": "Bandera: Kenia",
     "group": 7,
     "hexcode": "1F1F0-1F1EA",
     "order": 3425,
@@ -34254,7 +34464,7 @@
     "unicode": "🇰🇪"
   },
   {
-    "annotation": "Kirguistán",
+    "annotation": "Bandera: Kirguistán",
     "group": 7,
     "hexcode": "1F1F0-1F1EC",
     "order": 3426,
@@ -34268,7 +34478,7 @@
     "unicode": "🇰🇬"
   },
   {
-    "annotation": "Camboya",
+    "annotation": "Bandera: Camboya",
     "group": 7,
     "hexcode": "1F1F0-1F1ED",
     "order": 3427,
@@ -34282,7 +34492,7 @@
     "unicode": "🇰🇭"
   },
   {
-    "annotation": "Kiribati",
+    "annotation": "Bandera: Kiribati",
     "group": 7,
     "hexcode": "1F1F0-1F1EE",
     "order": 3428,
@@ -34296,7 +34506,7 @@
     "unicode": "🇰🇮"
   },
   {
-    "annotation": "Comoras",
+    "annotation": "Bandera: Comoras",
     "group": 7,
     "hexcode": "1F1F0-1F1F2",
     "order": 3429,
@@ -34310,7 +34520,7 @@
     "unicode": "🇰🇲"
   },
   {
-    "annotation": "San Cristóbal y Nieves",
+    "annotation": "Bandera: San Cristóbal y Nieves",
     "group": 7,
     "hexcode": "1F1F0-1F1F3",
     "order": 3430,
@@ -34324,7 +34534,7 @@
     "unicode": "🇰🇳"
   },
   {
-    "annotation": "Corea del Norte",
+    "annotation": "Bandera: Corea del Norte",
     "group": 7,
     "hexcode": "1F1F0-1F1F5",
     "order": 3431,
@@ -34338,7 +34548,7 @@
     "unicode": "🇰🇵"
   },
   {
-    "annotation": "Corea del Sur",
+    "annotation": "Bandera: Corea del Sur",
     "group": 7,
     "hexcode": "1F1F0-1F1F7",
     "order": 3432,
@@ -34352,7 +34562,7 @@
     "unicode": "🇰🇷"
   },
   {
-    "annotation": "Kuwait",
+    "annotation": "Bandera: Kuwait",
     "group": 7,
     "hexcode": "1F1F0-1F1FC",
     "order": 3433,
@@ -34366,7 +34576,7 @@
     "unicode": "🇰🇼"
   },
   {
-    "annotation": "Islas Caimán",
+    "annotation": "Bandera: Islas Caimán",
     "group": 7,
     "hexcode": "1F1F0-1F1FE",
     "order": 3434,
@@ -34380,7 +34590,7 @@
     "unicode": "🇰🇾"
   },
   {
-    "annotation": "Kazajistán",
+    "annotation": "Bandera: Kazajistán",
     "group": 7,
     "hexcode": "1F1F0-1F1FF",
     "order": 3435,
@@ -34394,7 +34604,7 @@
     "unicode": "🇰🇿"
   },
   {
-    "annotation": "Laos",
+    "annotation": "Bandera: Laos",
     "group": 7,
     "hexcode": "1F1F1-1F1E6",
     "order": 3436,
@@ -34408,7 +34618,7 @@
     "unicode": "🇱🇦"
   },
   {
-    "annotation": "Líbano",
+    "annotation": "Bandera: Líbano",
     "group": 7,
     "hexcode": "1F1F1-1F1E7",
     "order": 3437,
@@ -34422,7 +34632,7 @@
     "unicode": "🇱🇧"
   },
   {
-    "annotation": "Santa Lucía",
+    "annotation": "Bandera: Santa Lucía",
     "group": 7,
     "hexcode": "1F1F1-1F1E8",
     "order": 3438,
@@ -34436,7 +34646,7 @@
     "unicode": "🇱🇨"
   },
   {
-    "annotation": "Liechtenstein",
+    "annotation": "Bandera: Liechtenstein",
     "group": 7,
     "hexcode": "1F1F1-1F1EE",
     "order": 3439,
@@ -34450,7 +34660,7 @@
     "unicode": "🇱🇮"
   },
   {
-    "annotation": "Sri Lanka",
+    "annotation": "Bandera: Sri Lanka",
     "group": 7,
     "hexcode": "1F1F1-1F1F0",
     "order": 3440,
@@ -34464,7 +34674,7 @@
     "unicode": "🇱🇰"
   },
   {
-    "annotation": "Liberia",
+    "annotation": "Bandera: Liberia",
     "group": 7,
     "hexcode": "1F1F1-1F1F7",
     "order": 3441,
@@ -34478,7 +34688,7 @@
     "unicode": "🇱🇷"
   },
   {
-    "annotation": "Lesoto",
+    "annotation": "Bandera: Lesoto",
     "group": 7,
     "hexcode": "1F1F1-1F1F8",
     "order": 3442,
@@ -34492,7 +34702,7 @@
     "unicode": "🇱🇸"
   },
   {
-    "annotation": "Lituania",
+    "annotation": "Bandera: Lituania",
     "group": 7,
     "hexcode": "1F1F1-1F1F9",
     "order": 3443,
@@ -34506,7 +34716,7 @@
     "unicode": "🇱🇹"
   },
   {
-    "annotation": "Luxemburgo",
+    "annotation": "Bandera: Luxemburgo",
     "group": 7,
     "hexcode": "1F1F1-1F1FA",
     "order": 3444,
@@ -34520,7 +34730,7 @@
     "unicode": "🇱🇺"
   },
   {
-    "annotation": "Letonia",
+    "annotation": "Bandera: Letonia",
     "group": 7,
     "hexcode": "1F1F1-1F1FB",
     "order": 3445,
@@ -34534,7 +34744,7 @@
     "unicode": "🇱🇻"
   },
   {
-    "annotation": "Libia",
+    "annotation": "Bandera: Libia",
     "group": 7,
     "hexcode": "1F1F1-1F1FE",
     "order": 3446,
@@ -34548,7 +34758,7 @@
     "unicode": "🇱🇾"
   },
   {
-    "annotation": "Marruecos",
+    "annotation": "Bandera: Marruecos",
     "group": 7,
     "hexcode": "1F1F2-1F1E6",
     "order": 3447,
@@ -34562,7 +34772,7 @@
     "unicode": "🇲🇦"
   },
   {
-    "annotation": "Mónaco",
+    "annotation": "Bandera: Mónaco",
     "group": 7,
     "hexcode": "1F1F2-1F1E8",
     "order": 3448,
@@ -34576,7 +34786,7 @@
     "unicode": "🇲🇨"
   },
   {
-    "annotation": "Moldavia",
+    "annotation": "Bandera: Moldavia",
     "group": 7,
     "hexcode": "1F1F2-1F1E9",
     "order": 3449,
@@ -34590,7 +34800,7 @@
     "unicode": "🇲🇩"
   },
   {
-    "annotation": "Montenegro",
+    "annotation": "Bandera: Montenegro",
     "group": 7,
     "hexcode": "1F1F2-1F1EA",
     "order": 3450,
@@ -34604,7 +34814,7 @@
     "unicode": "🇲🇪"
   },
   {
-    "annotation": "San Martín",
+    "annotation": "Bandera: San Martín",
     "group": 7,
     "hexcode": "1F1F2-1F1EB",
     "order": 3451,
@@ -34618,7 +34828,7 @@
     "unicode": "🇲🇫"
   },
   {
-    "annotation": "Madagascar",
+    "annotation": "Bandera: Madagascar",
     "group": 7,
     "hexcode": "1F1F2-1F1EC",
     "order": 3452,
@@ -34632,7 +34842,7 @@
     "unicode": "🇲🇬"
   },
   {
-    "annotation": "Islas Marshall",
+    "annotation": "Bandera: Islas Marshall",
     "group": 7,
     "hexcode": "1F1F2-1F1ED",
     "order": 3453,
@@ -34646,7 +34856,7 @@
     "unicode": "🇲🇭"
   },
   {
-    "annotation": "Macedonia",
+    "annotation": "Bandera: Macedonia",
     "group": 7,
     "hexcode": "1F1F2-1F1F0",
     "order": 3454,
@@ -34660,7 +34870,7 @@
     "unicode": "🇲🇰"
   },
   {
-    "annotation": "Mali",
+    "annotation": "Bandera: Mali",
     "group": 7,
     "hexcode": "1F1F2-1F1F1",
     "order": 3455,
@@ -34674,7 +34884,7 @@
     "unicode": "🇲🇱"
   },
   {
-    "annotation": "Myanmar (Birmania)",
+    "annotation": "Bandera: Myanmar (Birmania)",
     "group": 7,
     "hexcode": "1F1F2-1F1F2",
     "order": 3456,
@@ -34688,7 +34898,7 @@
     "unicode": "🇲🇲"
   },
   {
-    "annotation": "Mongolia",
+    "annotation": "Bandera: Mongolia",
     "group": 7,
     "hexcode": "1F1F2-1F1F3",
     "order": 3457,
@@ -34702,7 +34912,7 @@
     "unicode": "🇲🇳"
   },
   {
-    "annotation": "RAE de Macao (China)",
+    "annotation": "Bandera: RAE de Macao (China)",
     "group": 7,
     "hexcode": "1F1F2-1F1F4",
     "order": 3458,
@@ -34716,7 +34926,7 @@
     "unicode": "🇲🇴"
   },
   {
-    "annotation": "Islas Marianas del Norte",
+    "annotation": "Bandera: Islas Marianas del Norte",
     "group": 7,
     "hexcode": "1F1F2-1F1F5",
     "order": 3459,
@@ -34730,7 +34940,7 @@
     "unicode": "🇲🇵"
   },
   {
-    "annotation": "Martinica",
+    "annotation": "Bandera: Martinica",
     "group": 7,
     "hexcode": "1F1F2-1F1F6",
     "order": 3460,
@@ -34744,7 +34954,7 @@
     "unicode": "🇲🇶"
   },
   {
-    "annotation": "Mauritania",
+    "annotation": "Bandera: Mauritania",
     "group": 7,
     "hexcode": "1F1F2-1F1F7",
     "order": 3461,
@@ -34758,7 +34968,7 @@
     "unicode": "🇲🇷"
   },
   {
-    "annotation": "Montserrat",
+    "annotation": "Bandera: Montserrat",
     "group": 7,
     "hexcode": "1F1F2-1F1F8",
     "order": 3462,
@@ -34772,7 +34982,7 @@
     "unicode": "🇲🇸"
   },
   {
-    "annotation": "Malta",
+    "annotation": "Bandera: Malta",
     "group": 7,
     "hexcode": "1F1F2-1F1F9",
     "order": 3463,
@@ -34786,7 +34996,7 @@
     "unicode": "🇲🇹"
   },
   {
-    "annotation": "Mauricio",
+    "annotation": "Bandera: Mauricio",
     "group": 7,
     "hexcode": "1F1F2-1F1FA",
     "order": 3464,
@@ -34800,7 +35010,7 @@
     "unicode": "🇲🇺"
   },
   {
-    "annotation": "Maldivas",
+    "annotation": "Bandera: Maldivas",
     "group": 7,
     "hexcode": "1F1F2-1F1FB",
     "order": 3465,
@@ -34814,7 +35024,7 @@
     "unicode": "🇲🇻"
   },
   {
-    "annotation": "Malaui",
+    "annotation": "Bandera: Malaui",
     "group": 7,
     "hexcode": "1F1F2-1F1FC",
     "order": 3466,
@@ -34828,7 +35038,7 @@
     "unicode": "🇲🇼"
   },
   {
-    "annotation": "México",
+    "annotation": "Bandera: México",
     "group": 7,
     "hexcode": "1F1F2-1F1FD",
     "order": 3467,
@@ -34842,7 +35052,7 @@
     "unicode": "🇲🇽"
   },
   {
-    "annotation": "Malasia",
+    "annotation": "Bandera: Malasia",
     "group": 7,
     "hexcode": "1F1F2-1F1FE",
     "order": 3468,
@@ -34856,7 +35066,7 @@
     "unicode": "🇲🇾"
   },
   {
-    "annotation": "Mozambique",
+    "annotation": "Bandera: Mozambique",
     "group": 7,
     "hexcode": "1F1F2-1F1FF",
     "order": 3469,
@@ -34870,7 +35080,7 @@
     "unicode": "🇲🇿"
   },
   {
-    "annotation": "Namibia",
+    "annotation": "Bandera: Namibia",
     "group": 7,
     "hexcode": "1F1F3-1F1E6",
     "order": 3470,
@@ -34884,7 +35094,7 @@
     "unicode": "🇳🇦"
   },
   {
-    "annotation": "Nueva Caledonia",
+    "annotation": "Bandera: Nueva Caledonia",
     "group": 7,
     "hexcode": "1F1F3-1F1E8",
     "order": 3471,
@@ -34898,7 +35108,7 @@
     "unicode": "🇳🇨"
   },
   {
-    "annotation": "Níger",
+    "annotation": "Bandera: Níger",
     "group": 7,
     "hexcode": "1F1F3-1F1EA",
     "order": 3472,
@@ -34912,7 +35122,7 @@
     "unicode": "🇳🇪"
   },
   {
-    "annotation": "Isla Norfolk",
+    "annotation": "Bandera: Isla Norfolk",
     "group": 7,
     "hexcode": "1F1F3-1F1EB",
     "order": 3473,
@@ -34926,7 +35136,7 @@
     "unicode": "🇳🇫"
   },
   {
-    "annotation": "Nigeria",
+    "annotation": "Bandera: Nigeria",
     "group": 7,
     "hexcode": "1F1F3-1F1EC",
     "order": 3474,
@@ -34940,7 +35150,7 @@
     "unicode": "🇳🇬"
   },
   {
-    "annotation": "Nicaragua",
+    "annotation": "Bandera: Nicaragua",
     "group": 7,
     "hexcode": "1F1F3-1F1EE",
     "order": 3475,
@@ -34954,7 +35164,7 @@
     "unicode": "🇳🇮"
   },
   {
-    "annotation": "Países Bajos",
+    "annotation": "Bandera: Países Bajos",
     "group": 7,
     "hexcode": "1F1F3-1F1F1",
     "order": 3476,
@@ -34968,7 +35178,7 @@
     "unicode": "🇳🇱"
   },
   {
-    "annotation": "Noruega",
+    "annotation": "Bandera: Noruega",
     "group": 7,
     "hexcode": "1F1F3-1F1F4",
     "order": 3477,
@@ -34982,7 +35192,7 @@
     "unicode": "🇳🇴"
   },
   {
-    "annotation": "Nepal",
+    "annotation": "Bandera: Nepal",
     "group": 7,
     "hexcode": "1F1F3-1F1F5",
     "order": 3478,
@@ -34996,7 +35206,7 @@
     "unicode": "🇳🇵"
   },
   {
-    "annotation": "Nauru",
+    "annotation": "Bandera: Nauru",
     "group": 7,
     "hexcode": "1F1F3-1F1F7",
     "order": 3479,
@@ -35010,7 +35220,7 @@
     "unicode": "🇳🇷"
   },
   {
-    "annotation": "Niue",
+    "annotation": "Bandera: Niue",
     "group": 7,
     "hexcode": "1F1F3-1F1FA",
     "order": 3480,
@@ -35024,7 +35234,7 @@
     "unicode": "🇳🇺"
   },
   {
-    "annotation": "Nueva Zelanda",
+    "annotation": "Bandera: Nueva Zelanda",
     "group": 7,
     "hexcode": "1F1F3-1F1FF",
     "order": 3481,
@@ -35038,7 +35248,7 @@
     "unicode": "🇳🇿"
   },
   {
-    "annotation": "Omán",
+    "annotation": "Bandera: Omán",
     "group": 7,
     "hexcode": "1F1F4-1F1F2",
     "order": 3482,
@@ -35052,7 +35262,7 @@
     "unicode": "🇴🇲"
   },
   {
-    "annotation": "Panamá",
+    "annotation": "Bandera: Panamá",
     "group": 7,
     "hexcode": "1F1F5-1F1E6",
     "order": 3483,
@@ -35066,7 +35276,7 @@
     "unicode": "🇵🇦"
   },
   {
-    "annotation": "Perú",
+    "annotation": "Bandera: Perú",
     "group": 7,
     "hexcode": "1F1F5-1F1EA",
     "order": 3484,
@@ -35080,7 +35290,7 @@
     "unicode": "🇵🇪"
   },
   {
-    "annotation": "Polinesia Francesa",
+    "annotation": "Bandera: Polinesia Francesa",
     "group": 7,
     "hexcode": "1F1F5-1F1EB",
     "order": 3485,
@@ -35094,7 +35304,7 @@
     "unicode": "🇵🇫"
   },
   {
-    "annotation": "Papúa Nueva Guinea",
+    "annotation": "Bandera: Papúa Nueva Guinea",
     "group": 7,
     "hexcode": "1F1F5-1F1EC",
     "order": 3486,
@@ -35108,7 +35318,7 @@
     "unicode": "🇵🇬"
   },
   {
-    "annotation": "Filipinas",
+    "annotation": "Bandera: Filipinas",
     "group": 7,
     "hexcode": "1F1F5-1F1ED",
     "order": 3487,
@@ -35122,7 +35332,7 @@
     "unicode": "🇵🇭"
   },
   {
-    "annotation": "Pakistán",
+    "annotation": "Bandera: Pakistán",
     "group": 7,
     "hexcode": "1F1F5-1F1F0",
     "order": 3488,
@@ -35136,7 +35346,7 @@
     "unicode": "🇵🇰"
   },
   {
-    "annotation": "Polonia",
+    "annotation": "Bandera: Polonia",
     "group": 7,
     "hexcode": "1F1F5-1F1F1",
     "order": 3489,
@@ -35150,7 +35360,7 @@
     "unicode": "🇵🇱"
   },
   {
-    "annotation": "San Pedro y Miquelón",
+    "annotation": "Bandera: San Pedro y Miquelón",
     "group": 7,
     "hexcode": "1F1F5-1F1F2",
     "order": 3490,
@@ -35164,7 +35374,7 @@
     "unicode": "🇵🇲"
   },
   {
-    "annotation": "Islas Pitcairn",
+    "annotation": "Bandera: Islas Pitcairn",
     "group": 7,
     "hexcode": "1F1F5-1F1F3",
     "order": 3491,
@@ -35178,7 +35388,7 @@
     "unicode": "🇵🇳"
   },
   {
-    "annotation": "Puerto Rico",
+    "annotation": "Bandera: Puerto Rico",
     "group": 7,
     "hexcode": "1F1F5-1F1F7",
     "order": 3492,
@@ -35192,7 +35402,7 @@
     "unicode": "🇵🇷"
   },
   {
-    "annotation": "Territorios Palestinos",
+    "annotation": "Bandera: Territorios Palestinos",
     "group": 7,
     "hexcode": "1F1F5-1F1F8",
     "order": 3493,
@@ -35206,7 +35416,7 @@
     "unicode": "🇵🇸"
   },
   {
-    "annotation": "Portugal",
+    "annotation": "Bandera: Portugal",
     "group": 7,
     "hexcode": "1F1F5-1F1F9",
     "order": 3494,
@@ -35220,7 +35430,7 @@
     "unicode": "🇵🇹"
   },
   {
-    "annotation": "Palaos",
+    "annotation": "Bandera: Palaos",
     "group": 7,
     "hexcode": "1F1F5-1F1FC",
     "order": 3495,
@@ -35234,7 +35444,7 @@
     "unicode": "🇵🇼"
   },
   {
-    "annotation": "Paraguay",
+    "annotation": "Bandera: Paraguay",
     "group": 7,
     "hexcode": "1F1F5-1F1FE",
     "order": 3496,
@@ -35248,7 +35458,7 @@
     "unicode": "🇵🇾"
   },
   {
-    "annotation": "Catar",
+    "annotation": "Bandera: Catar",
     "group": 7,
     "hexcode": "1F1F6-1F1E6",
     "order": 3497,
@@ -35262,7 +35472,7 @@
     "unicode": "🇶🇦"
   },
   {
-    "annotation": "Reunión",
+    "annotation": "Bandera: Reunión",
     "group": 7,
     "hexcode": "1F1F7-1F1EA",
     "order": 3498,
@@ -35276,7 +35486,7 @@
     "unicode": "🇷🇪"
   },
   {
-    "annotation": "Rumanía",
+    "annotation": "Bandera: Rumanía",
     "group": 7,
     "hexcode": "1F1F7-1F1F4",
     "order": 3499,
@@ -35290,7 +35500,7 @@
     "unicode": "🇷🇴"
   },
   {
-    "annotation": "Serbia",
+    "annotation": "Bandera: Serbia",
     "group": 7,
     "hexcode": "1F1F7-1F1F8",
     "order": 3500,
@@ -35304,7 +35514,7 @@
     "unicode": "🇷🇸"
   },
   {
-    "annotation": "Rusia",
+    "annotation": "Bandera: Rusia",
     "group": 7,
     "hexcode": "1F1F7-1F1FA",
     "order": 3501,
@@ -35318,7 +35528,7 @@
     "unicode": "🇷🇺"
   },
   {
-    "annotation": "Ruanda",
+    "annotation": "Bandera: Ruanda",
     "group": 7,
     "hexcode": "1F1F7-1F1FC",
     "order": 3502,
@@ -35332,7 +35542,7 @@
     "unicode": "🇷🇼"
   },
   {
-    "annotation": "Arabia Saudí",
+    "annotation": "Bandera: Arabia Saudí",
     "group": 7,
     "hexcode": "1F1F8-1F1E6",
     "order": 3503,
@@ -35346,7 +35556,7 @@
     "unicode": "🇸🇦"
   },
   {
-    "annotation": "Islas Salomón",
+    "annotation": "Bandera: Islas Salomón",
     "group": 7,
     "hexcode": "1F1F8-1F1E7",
     "order": 3504,
@@ -35360,7 +35570,7 @@
     "unicode": "🇸🇧"
   },
   {
-    "annotation": "Seychelles",
+    "annotation": "Bandera: Seychelles",
     "group": 7,
     "hexcode": "1F1F8-1F1E8",
     "order": 3505,
@@ -35374,7 +35584,7 @@
     "unicode": "🇸🇨"
   },
   {
-    "annotation": "Sudán",
+    "annotation": "Bandera: Sudán",
     "group": 7,
     "hexcode": "1F1F8-1F1E9",
     "order": 3506,
@@ -35388,7 +35598,7 @@
     "unicode": "🇸🇩"
   },
   {
-    "annotation": "Suecia",
+    "annotation": "Bandera: Suecia",
     "group": 7,
     "hexcode": "1F1F8-1F1EA",
     "order": 3507,
@@ -35402,7 +35612,7 @@
     "unicode": "🇸🇪"
   },
   {
-    "annotation": "Singapur",
+    "annotation": "Bandera: Singapur",
     "group": 7,
     "hexcode": "1F1F8-1F1EC",
     "order": 3508,
@@ -35416,7 +35626,7 @@
     "unicode": "🇸🇬"
   },
   {
-    "annotation": "Santa Elena",
+    "annotation": "Bandera: Santa Elena",
     "group": 7,
     "hexcode": "1F1F8-1F1ED",
     "order": 3509,
@@ -35430,7 +35640,7 @@
     "unicode": "🇸🇭"
   },
   {
-    "annotation": "Eslovenia",
+    "annotation": "Bandera: Eslovenia",
     "group": 7,
     "hexcode": "1F1F8-1F1EE",
     "order": 3510,
@@ -35444,7 +35654,7 @@
     "unicode": "🇸🇮"
   },
   {
-    "annotation": "Svalbard y Jan Mayen",
+    "annotation": "Bandera: Svalbard y Jan Mayen",
     "group": 7,
     "hexcode": "1F1F8-1F1EF",
     "order": 3511,
@@ -35458,7 +35668,7 @@
     "unicode": "🇸🇯"
   },
   {
-    "annotation": "Eslovaquia",
+    "annotation": "Bandera: Eslovaquia",
     "group": 7,
     "hexcode": "1F1F8-1F1F0",
     "order": 3512,
@@ -35472,7 +35682,7 @@
     "unicode": "🇸🇰"
   },
   {
-    "annotation": "Sierra Leona",
+    "annotation": "Bandera: Sierra Leona",
     "group": 7,
     "hexcode": "1F1F8-1F1F1",
     "order": 3513,
@@ -35486,7 +35696,7 @@
     "unicode": "🇸🇱"
   },
   {
-    "annotation": "San Marino",
+    "annotation": "Bandera: San Marino",
     "group": 7,
     "hexcode": "1F1F8-1F1F2",
     "order": 3514,
@@ -35500,7 +35710,7 @@
     "unicode": "🇸🇲"
   },
   {
-    "annotation": "Senegal",
+    "annotation": "Bandera: Senegal",
     "group": 7,
     "hexcode": "1F1F8-1F1F3",
     "order": 3515,
@@ -35514,7 +35724,7 @@
     "unicode": "🇸🇳"
   },
   {
-    "annotation": "Somalia",
+    "annotation": "Bandera: Somalia",
     "group": 7,
     "hexcode": "1F1F8-1F1F4",
     "order": 3516,
@@ -35528,7 +35738,7 @@
     "unicode": "🇸🇴"
   },
   {
-    "annotation": "Surinam",
+    "annotation": "Bandera: Surinam",
     "group": 7,
     "hexcode": "1F1F8-1F1F7",
     "order": 3517,
@@ -35542,7 +35752,7 @@
     "unicode": "🇸🇷"
   },
   {
-    "annotation": "Sudán del Sur",
+    "annotation": "Bandera: Sudán del Sur",
     "group": 7,
     "hexcode": "1F1F8-1F1F8",
     "order": 3518,
@@ -35556,7 +35766,7 @@
     "unicode": "🇸🇸"
   },
   {
-    "annotation": "Santo Tomé y Príncipe",
+    "annotation": "Bandera: Santo Tomé y Príncipe",
     "group": 7,
     "hexcode": "1F1F8-1F1F9",
     "order": 3519,
@@ -35570,7 +35780,7 @@
     "unicode": "🇸🇹"
   },
   {
-    "annotation": "El Salvador",
+    "annotation": "Bandera: El Salvador",
     "group": 7,
     "hexcode": "1F1F8-1F1FB",
     "order": 3520,
@@ -35584,7 +35794,7 @@
     "unicode": "🇸🇻"
   },
   {
-    "annotation": "Sint Maarten",
+    "annotation": "Bandera: Sint Maarten",
     "group": 7,
     "hexcode": "1F1F8-1F1FD",
     "order": 3521,
@@ -35598,7 +35808,7 @@
     "unicode": "🇸🇽"
   },
   {
-    "annotation": "Siria",
+    "annotation": "Bandera: Siria",
     "group": 7,
     "hexcode": "1F1F8-1F1FE",
     "order": 3522,
@@ -35612,7 +35822,7 @@
     "unicode": "🇸🇾"
   },
   {
-    "annotation": "Suazilandia",
+    "annotation": "Bandera: Suazilandia",
     "group": 7,
     "hexcode": "1F1F8-1F1FF",
     "order": 3523,
@@ -35626,7 +35836,7 @@
     "unicode": "🇸🇿"
   },
   {
-    "annotation": "Tristán de Acuña",
+    "annotation": "Bandera: Tristán de Acuña",
     "group": 7,
     "hexcode": "1F1F9-1F1E6",
     "order": 3524,
@@ -35640,7 +35850,7 @@
     "unicode": "🇹🇦"
   },
   {
-    "annotation": "Islas Turcas y Caicos",
+    "annotation": "Bandera: Islas Turcas y Caicos",
     "group": 7,
     "hexcode": "1F1F9-1F1E8",
     "order": 3525,
@@ -35654,7 +35864,7 @@
     "unicode": "🇹🇨"
   },
   {
-    "annotation": "Chad",
+    "annotation": "Bandera: Chad",
     "group": 7,
     "hexcode": "1F1F9-1F1E9",
     "order": 3526,
@@ -35668,7 +35878,7 @@
     "unicode": "🇹🇩"
   },
   {
-    "annotation": "Territorios Australes Franceses",
+    "annotation": "Bandera: Territorios Australes Franceses",
     "group": 7,
     "hexcode": "1F1F9-1F1EB",
     "order": 3527,
@@ -35682,7 +35892,7 @@
     "unicode": "🇹🇫"
   },
   {
-    "annotation": "Togo",
+    "annotation": "Bandera: Togo",
     "group": 7,
     "hexcode": "1F1F9-1F1EC",
     "order": 3528,
@@ -35696,7 +35906,7 @@
     "unicode": "🇹🇬"
   },
   {
-    "annotation": "Tailandia",
+    "annotation": "Bandera: Tailandia",
     "group": 7,
     "hexcode": "1F1F9-1F1ED",
     "order": 3529,
@@ -35710,7 +35920,7 @@
     "unicode": "🇹🇭"
   },
   {
-    "annotation": "Tayikistán",
+    "annotation": "Bandera: Tayikistán",
     "group": 7,
     "hexcode": "1F1F9-1F1EF",
     "order": 3530,
@@ -35724,7 +35934,7 @@
     "unicode": "🇹🇯"
   },
   {
-    "annotation": "Tokelau",
+    "annotation": "Bandera: Tokelau",
     "group": 7,
     "hexcode": "1F1F9-1F1F0",
     "order": 3531,
@@ -35738,7 +35948,7 @@
     "unicode": "🇹🇰"
   },
   {
-    "annotation": "Timor-Leste",
+    "annotation": "Bandera: Timor-Leste",
     "group": 7,
     "hexcode": "1F1F9-1F1F1",
     "order": 3532,
@@ -35752,7 +35962,7 @@
     "unicode": "🇹🇱"
   },
   {
-    "annotation": "Turkmenistán",
+    "annotation": "Bandera: Turkmenistán",
     "group": 7,
     "hexcode": "1F1F9-1F1F2",
     "order": 3533,
@@ -35766,7 +35976,7 @@
     "unicode": "🇹🇲"
   },
   {
-    "annotation": "Túnez",
+    "annotation": "Bandera: Túnez",
     "group": 7,
     "hexcode": "1F1F9-1F1F3",
     "order": 3534,
@@ -35780,7 +35990,7 @@
     "unicode": "🇹🇳"
   },
   {
-    "annotation": "Tonga",
+    "annotation": "Bandera: Tonga",
     "group": 7,
     "hexcode": "1F1F9-1F1F4",
     "order": 3535,
@@ -35794,7 +36004,7 @@
     "unicode": "🇹🇴"
   },
   {
-    "annotation": "Turquía",
+    "annotation": "Bandera: Turquía",
     "group": 7,
     "hexcode": "1F1F9-1F1F7",
     "order": 3536,
@@ -35808,7 +36018,7 @@
     "unicode": "🇹🇷"
   },
   {
-    "annotation": "Trinidad y Tobago",
+    "annotation": "Bandera: Trinidad y Tobago",
     "group": 7,
     "hexcode": "1F1F9-1F1F9",
     "order": 3537,
@@ -35822,7 +36032,7 @@
     "unicode": "🇹🇹"
   },
   {
-    "annotation": "Tuvalu",
+    "annotation": "Bandera: Tuvalu",
     "group": 7,
     "hexcode": "1F1F9-1F1FB",
     "order": 3538,
@@ -35836,7 +36046,7 @@
     "unicode": "🇹🇻"
   },
   {
-    "annotation": "Taiwán",
+    "annotation": "Bandera: Taiwán",
     "group": 7,
     "hexcode": "1F1F9-1F1FC",
     "order": 3539,
@@ -35850,7 +36060,7 @@
     "unicode": "🇹🇼"
   },
   {
-    "annotation": "Tanzania",
+    "annotation": "Bandera: Tanzania",
     "group": 7,
     "hexcode": "1F1F9-1F1FF",
     "order": 3540,
@@ -35864,7 +36074,7 @@
     "unicode": "🇹🇿"
   },
   {
-    "annotation": "Ucrania",
+    "annotation": "Bandera: Ucrania",
     "group": 7,
     "hexcode": "1F1FA-1F1E6",
     "order": 3541,
@@ -35878,7 +36088,7 @@
     "unicode": "🇺🇦"
   },
   {
-    "annotation": "Uganda",
+    "annotation": "Bandera: Uganda",
     "group": 7,
     "hexcode": "1F1FA-1F1EC",
     "order": 3542,
@@ -35892,7 +36102,7 @@
     "unicode": "🇺🇬"
   },
   {
-    "annotation": "Islas menores alejadas de EE. UU.",
+    "annotation": "Bandera: Islas menores alejadas de EE. UU.",
     "group": 7,
     "hexcode": "1F1FA-1F1F2",
     "order": 3543,
@@ -35906,7 +36116,7 @@
     "unicode": "🇺🇲"
   },
   {
-    "annotation": "Naciones Unidas",
+    "annotation": "Bandera: Naciones Unidas",
     "group": 7,
     "hexcode": "1F1FA-1F1F3",
     "order": 3544,
@@ -35920,7 +36130,7 @@
     "unicode": "🇺🇳"
   },
   {
-    "annotation": "Estados Unidos",
+    "annotation": "Bandera: Estados Unidos",
     "group": 7,
     "hexcode": "1F1FA-1F1F8",
     "order": 3545,
@@ -35935,7 +36145,7 @@
     "unicode": "🇺🇸"
   },
   {
-    "annotation": "Uruguay",
+    "annotation": "Bandera: Uruguay",
     "group": 7,
     "hexcode": "1F1FA-1F1FE",
     "order": 3546,
@@ -35949,7 +36159,7 @@
     "unicode": "🇺🇾"
   },
   {
-    "annotation": "Uzbekistán",
+    "annotation": "Bandera: Uzbekistán",
     "group": 7,
     "hexcode": "1F1FA-1F1FF",
     "order": 3547,
@@ -35963,7 +36173,7 @@
     "unicode": "🇺🇿"
   },
   {
-    "annotation": "Ciudad del Vaticano",
+    "annotation": "Bandera: Ciudad del Vaticano",
     "group": 7,
     "hexcode": "1F1FB-1F1E6",
     "order": 3548,
@@ -35977,7 +36187,7 @@
     "unicode": "🇻🇦"
   },
   {
-    "annotation": "San Vicente y las Granadinas",
+    "annotation": "Bandera: San Vicente y las Granadinas",
     "group": 7,
     "hexcode": "1F1FB-1F1E8",
     "order": 3549,
@@ -35991,7 +36201,7 @@
     "unicode": "🇻🇨"
   },
   {
-    "annotation": "Venezuela",
+    "annotation": "Bandera: Venezuela",
     "group": 7,
     "hexcode": "1F1FB-1F1EA",
     "order": 3550,
@@ -36005,7 +36215,7 @@
     "unicode": "🇻🇪"
   },
   {
-    "annotation": "Islas Vírgenes Británicas",
+    "annotation": "Bandera: Islas Vírgenes Británicas",
     "group": 7,
     "hexcode": "1F1FB-1F1EC",
     "order": 3551,
@@ -36019,7 +36229,7 @@
     "unicode": "🇻🇬"
   },
   {
-    "annotation": "Islas Vírgenes de EE. UU.",
+    "annotation": "Bandera: Islas Vírgenes de EE. UU.",
     "group": 7,
     "hexcode": "1F1FB-1F1EE",
     "order": 3552,
@@ -36033,7 +36243,7 @@
     "unicode": "🇻🇮"
   },
   {
-    "annotation": "Vietnam",
+    "annotation": "Bandera: Vietnam",
     "group": 7,
     "hexcode": "1F1FB-1F1F3",
     "order": 3553,
@@ -36047,7 +36257,7 @@
     "unicode": "🇻🇳"
   },
   {
-    "annotation": "Vanuatu",
+    "annotation": "Bandera: Vanuatu",
     "group": 7,
     "hexcode": "1F1FB-1F1FA",
     "order": 3554,
@@ -36061,7 +36271,7 @@
     "unicode": "🇻🇺"
   },
   {
-    "annotation": "Wallis y Futuna",
+    "annotation": "Bandera: Wallis y Futuna",
     "group": 7,
     "hexcode": "1F1FC-1F1EB",
     "order": 3555,
@@ -36075,7 +36285,7 @@
     "unicode": "🇼🇫"
   },
   {
-    "annotation": "Samoa",
+    "annotation": "Bandera: Samoa",
     "group": 7,
     "hexcode": "1F1FC-1F1F8",
     "order": 3556,
@@ -36089,7 +36299,7 @@
     "unicode": "🇼🇸"
   },
   {
-    "annotation": "Kosovo",
+    "annotation": "Bandera: Kosovo",
     "group": 7,
     "hexcode": "1F1FD-1F1F0",
     "order": 3557,
@@ -36103,7 +36313,7 @@
     "unicode": "🇽🇰"
   },
   {
-    "annotation": "Yemen",
+    "annotation": "Bandera: Yemen",
     "group": 7,
     "hexcode": "1F1FE-1F1EA",
     "order": 3558,
@@ -36117,7 +36327,7 @@
     "unicode": "🇾🇪"
   },
   {
-    "annotation": "Mayotte",
+    "annotation": "Bandera: Mayotte",
     "group": 7,
     "hexcode": "1F1FE-1F1F9",
     "order": 3559,
@@ -36131,7 +36341,7 @@
     "unicode": "🇾🇹"
   },
   {
-    "annotation": "Sudáfrica",
+    "annotation": "Bandera: Sudáfrica",
     "group": 7,
     "hexcode": "1F1FF-1F1E6",
     "order": 3560,
@@ -36145,7 +36355,7 @@
     "unicode": "🇿🇦"
   },
   {
-    "annotation": "Zambia",
+    "annotation": "Bandera: Zambia",
     "group": 7,
     "hexcode": "1F1FF-1F1F2",
     "order": 3561,
@@ -36159,7 +36369,7 @@
     "unicode": "🇿🇲"
   },
   {
-    "annotation": "Zimbabue",
+    "annotation": "Bandera: Zimbabue",
     "group": 7,
     "hexcode": "1F1FF-1F1FC",
     "order": 3562,
@@ -36173,7 +36383,7 @@
     "unicode": "🇿🇼"
   },
   {
-    "annotation": "Inglaterra",
+    "annotation": "Bandera: Inglaterra",
     "group": 7,
     "hexcode": "1F3F4-E0067-E0062-E0065-E006E-E0067-E007F",
     "order": 3563,
@@ -36188,7 +36398,7 @@
     "unicode": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
   },
   {
-    "annotation": "Escocia",
+    "annotation": "Bandera: Escocia",
     "group": 7,
     "hexcode": "1F3F4-E0067-E0062-E0073-E0063-E0074-E007F",
     "order": 3564,
@@ -36203,7 +36413,7 @@
     "unicode": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
   },
   {
-    "annotation": "Gales",
+    "annotation": "Bandera: Gales",
     "group": 7,
     "hexcode": "1F3F4-E0067-E0062-E0077-E006C-E0073-E007F",
     "order": 3565,

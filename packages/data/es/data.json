@@ -82,8 +82,7 @@
       "cara",
       "carcajada",
       "ojos cerrados",
-      "risa",
-      "sonrisa"
+      "risa"
     ]
   },
   {
@@ -102,7 +101,6 @@
     "annotation": "cara sonriendo con ojos grandes",
     "tags": [
       "cara",
-      "cara sonriente con boca abierta",
       "divertido",
       "risa",
       "sonriendo"
@@ -145,7 +143,6 @@
       "cara",
       "frío",
       "risa",
-      "sonrisa",
       "sudor"
     ]
   },
@@ -169,8 +166,7 @@
       "abierta",
       "boca",
       "cara",
-      "risa",
-      "sonrisa"
+      "risa"
     ]
   },
   {
@@ -211,7 +207,6 @@
     "tags": [
       "cara",
       "ojo",
-      "risa",
       "rubor",
       "sonrisa"
     ]
@@ -234,9 +229,7 @@
       "cara",
       "delicioso",
       "hambre",
-      "saboreando",
-      "sonrisa",
-      "ñam"
+      "rico"
     ]
   },
   {
@@ -257,10 +250,7 @@
       "cara",
       "gafas",
       "guay",
-      "ojo",
-      "radiante",
-      "sol",
-      "sonrisa"
+      "sol"
     ]
   },
   {
@@ -280,7 +270,6 @@
       "amor",
       "cara",
       "corazón",
-      "ojo",
       "sonrisa"
     ]
   },
@@ -314,7 +303,13 @@
     "order": 15,
     "group": 0,
     "subgroup": 0,
-    "version": 11
+    "version": 11,
+    "annotation": "cara sonriendo con 3 corazones",
+    "tags": [
+      "adorar",
+      "enamorada",
+      "enamorado"
+    ]
   },
   {
     "name": "KISSING FACE",
@@ -633,7 +628,7 @@
       "aliviado",
       "cara",
       "decepcionado",
-      "vaya"
+      "menos mal"
     ]
   },
   {
@@ -807,7 +802,6 @@
     "emoticon": ";p",
     "annotation": "cara sacando la lengua y guiñando un ojo",
     "tags": [
-      "broma",
       "cara",
       "guiño",
       "lengua",
@@ -831,7 +825,6 @@
     "annotation": "cara con ojos cerrados y lengua fuera",
     "tags": [
       "cara",
-      "horrible",
       "lengua",
       "ojo",
       "sabor"
@@ -1154,7 +1147,6 @@
       "cara",
       "llorar",
       "lágrima",
-      "sollozo",
       "triste"
     ]
   },
@@ -1291,12 +1283,8 @@
     "annotation": "cara con ansiedad y sudor",
     "tags": [
       "ansiedad",
-      "ansioso",
-      "azul",
-      "boca",
       "cara",
       "frío",
-      "preocupado",
       "sudor"
     ]
   },
@@ -1333,7 +1321,15 @@
     "order": 68,
     "group": 0,
     "subgroup": 2,
-    "version": 11
+    "version": 11,
+    "annotation": "cara con calor",
+    "tags": [
+      "calor",
+      "cara roja",
+      "fiebre",
+      "golpe de calor",
+      "sudor"
+    ]
   },
   {
     "name": "FREEZING FACE",
@@ -1346,7 +1342,14 @@
     "order": 69,
     "group": 0,
     "subgroup": 2,
-    "version": 11
+    "version": 11,
+    "annotation": "cara con frío",
+    "tags": [
+      "cara congelada",
+      "congelado",
+      "frío",
+      "helado"
+    ]
   },
   {
     "name": "FLUSHED FACE",
@@ -1425,9 +1428,7 @@
       "cabreo",
       "cara",
       "enfadado",
-      "furia",
-      "rabia",
-      "rojo"
+      "furia"
     ]
   },
   {
@@ -1487,11 +1488,7 @@
       "cara",
       "enfermo",
       "malo",
-      "mascarilla",
-      "medicina",
-      "máscara",
-      "médico",
-      "resfriado"
+      "máscara"
     ]
   },
   {
@@ -1590,8 +1587,7 @@
       "cara",
       "estornudar",
       "estornudo",
-      "pañuelo",
-      "salud"
+      "pañuelo"
     ]
   },
   {
@@ -1611,9 +1607,7 @@
     "annotation": "cara sonriendo con aureola",
     "tags": [
       "cara",
-      "fantasía",
       "halo",
-      "inocente",
       "sonrisa",
       "ángel"
     ]
@@ -1649,7 +1643,15 @@
     "order": 84,
     "group": 0,
     "subgroup": 4,
-    "version": 11
+    "version": 11,
+    "annotation": "cara de fiesta",
+    "tags": [
+      "capirote",
+      "celebración",
+      "fiesta",
+      "gorro",
+      "matasuegras"
+    ]
   },
   {
     "name": "FACE WITH UNEVEN EYES AND WAVY MOUTH",
@@ -1663,7 +1665,15 @@
     "group": 0,
     "subgroup": 4,
     "version": 11,
-    "emoticon": ":&"
+    "emoticon": ":&",
+    "annotation": "cara de grogui",
+    "tags": [
+      "atontado",
+      "entonado",
+      "grogui",
+      "intoxicado",
+      "mareado"
+    ]
   },
   {
     "name": "FACE WITH PLEADING EYES",
@@ -1676,7 +1686,14 @@
     "order": 86,
     "group": 0,
     "subgroup": 4,
-    "version": 11
+    "version": 11,
+    "annotation": "cara de por favor",
+    "tags": [
+      "implorar",
+      "ojos adorables",
+      "piedad",
+      "por favor"
+    ]
   },
   {
     "name": "LYING FACE",
@@ -1693,8 +1710,6 @@
     "annotation": "cara de mentiroso",
     "tags": [
       "cara",
-      "mentir",
-      "mentira",
       "mentiroso",
       "nariz",
       "pinocho"
@@ -1794,7 +1809,6 @@
       "cara",
       "cuernos",
       "demonio",
-      "fantasía",
       "sonrisa"
     ]
   },
@@ -1816,8 +1830,7 @@
       "cara",
       "cuernos",
       "demonio",
-      "diablo",
-      "fantasía"
+      "diablo"
     ]
   },
   {
@@ -1856,7 +1869,6 @@
       "cara",
       "cuento",
       "cuernos",
-      "fantasía",
       "sonrisa"
     ]
   },
@@ -1918,9 +1930,7 @@
     "tags": [
       "calavera",
       "cara",
-      "cruzados",
       "huesos",
-      "monstruo",
       "muerte"
     ]
   },
@@ -1941,7 +1951,6 @@
       "cara",
       "criatura",
       "cuento",
-      "fantasía",
       "monstruo"
     ]
   },
@@ -1963,10 +1972,7 @@
       "alien",
       "cara",
       "criatura",
-      "cuento",
       "extraterrestre",
-      "fantasía",
-      "monstruo",
       "ovni"
     ]
   },
@@ -1986,13 +1992,9 @@
     "annotation": "monstruo alienígena",
     "tags": [
       "alien",
-      "alienígena",
       "cara",
       "criatura",
-      "cuento",
       "extraterrestre",
-      "fantasía",
-      "monstruo",
       "ovni"
     ]
   },
@@ -2050,10 +2052,8 @@
     "annotation": "cara de gato sonriendo",
     "tags": [
       "abierta",
-      "boca",
       "cara",
       "gato",
-      "risa",
       "sonrisa"
     ]
   },
@@ -2073,8 +2073,6 @@
     "tags": [
       "cara",
       "gato",
-      "ojo",
-      "risa",
       "sonrisa"
     ]
   },
@@ -2112,12 +2110,9 @@
     "version": 1,
     "annotation": "cara de gato sonriendo y ojos de corazón",
     "tags": [
-      "amor",
       "cara",
       "corazón",
       "gato",
-      "ojo",
-      "risa",
       "sonrisa"
     ]
   },
@@ -2137,9 +2132,7 @@
     "tags": [
       "cara",
       "gato",
-      "ironía",
       "irónico",
-      "risa",
       "sonrisa"
     ]
   },
@@ -2160,7 +2153,6 @@
     "tags": [
       "beso",
       "cara",
-      "cerrado",
       "gato",
       "ojo"
     ]
@@ -2179,10 +2171,8 @@
     "version": 1,
     "annotation": "cara de gato asustado",
     "tags": [
-      "asustado",
       "cara",
       "gato",
-      "oh",
       "pánico",
       "sorpresa"
     ]
@@ -2203,8 +2193,7 @@
     "tags": [
       "cara",
       "gato",
-      "la´grima",
-      "llorar",
+      "lágrima",
       "triste"
     ]
   },
@@ -2242,14 +2231,9 @@
     "annotation": "mono con los ojos tapados",
     "tags": [
       "cara",
-      "gesto",
       "mal",
       "mono",
-      "no",
-      "ojos",
-      "prohibido",
-      "tapado",
-      "ver"
+      "prohibido"
     ]
   },
   {
@@ -2267,15 +2251,9 @@
     "annotation": "mono con los oídos tapados",
     "tags": [
       "cara",
-      "escuchar",
-      "gesto",
       "mal",
       "mono",
-      "no",
-      "oídos",
-      "oír",
-      "prohibido",
-      "tapado"
+      "prohibido"
     ]
   },
   {
@@ -2292,13 +2270,9 @@
     "version": 1,
     "annotation": "mono con la boca tapada",
     "tags": [
-      "boca",
       "cara",
-      "gesto",
-      "hablar",
       "mal",
       "mono",
-      "no",
       "prohibido"
     ]
   },
@@ -2409,12 +2383,12 @@
     "group": 0,
     "subgroup": 8,
     "version": 5,
-    "annotation": "pequeño",
+    "annotation": "infante",
     "tags": [
+      "crío",
       "género",
       "joven",
-      "neutro",
-      "niño"
+      "neutro"
     ],
     "skins": [
       {
@@ -2430,7 +2404,7 @@
         "subgroup": 8,
         "version": 5,
         "tone": 1,
-        "annotation": "pequeño: tono de piel claro"
+        "annotation": "infante: tono de piel claro"
       },
       {
         "name": "CHILD, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -2445,7 +2419,7 @@
         "subgroup": 8,
         "version": 5,
         "tone": 2,
-        "annotation": "pequeño: tono de piel claro medio"
+        "annotation": "infante: tono de piel claro medio"
       },
       {
         "name": "CHILD, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -2460,7 +2434,7 @@
         "subgroup": 8,
         "version": 5,
         "tone": 3,
-        "annotation": "pequeño: tono de piel medio"
+        "annotation": "infante: tono de piel medio"
       },
       {
         "name": "CHILD, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -2475,7 +2449,7 @@
         "subgroup": 8,
         "version": 5,
         "tone": 4,
-        "annotation": "pequeño: tono de piel oscuro medio"
+        "annotation": "infante: tono de piel oscuro medio"
       },
       {
         "name": "CHILD, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -2490,7 +2464,7 @@
         "subgroup": 8,
         "version": 5,
         "tone": 5,
-        "annotation": "pequeño: tono de piel oscuro"
+        "annotation": "infante: tono de piel oscuro"
       }
     ]
   },
@@ -2695,7 +2669,7 @@
     "group": 0,
     "subgroup": 8,
     "version": 5,
-    "annotation": "adulto",
+    "annotation": "persona adulta",
     "tags": [
       "género",
       "neutro"
@@ -2714,7 +2688,7 @@
         "subgroup": 8,
         "version": 5,
         "tone": 1,
-        "annotation": "adulto: tono de piel claro"
+        "annotation": "persona adulta: tono de piel claro"
       },
       {
         "name": "ADULT, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -2729,7 +2703,7 @@
         "subgroup": 8,
         "version": 5,
         "tone": 2,
-        "annotation": "adulto: tono de piel claro medio"
+        "annotation": "persona adulta: tono de piel claro medio"
       },
       {
         "name": "ADULT, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -2744,7 +2718,7 @@
         "subgroup": 8,
         "version": 5,
         "tone": 3,
-        "annotation": "adulto: tono de piel medio"
+        "annotation": "persona adulta: tono de piel medio"
       },
       {
         "name": "ADULT, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -2759,7 +2733,7 @@
         "subgroup": 8,
         "version": 5,
         "tone": 4,
-        "annotation": "adulto: tono de piel oscuro medio"
+        "annotation": "persona adulta: tono de piel oscuro medio"
       },
       {
         "name": "ADULT, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -2774,7 +2748,7 @@
         "subgroup": 8,
         "version": 5,
         "tone": 5,
-        "annotation": "adulto: tono de piel oscuro"
+        "annotation": "persona adulta: tono de piel oscuro"
       }
     ]
   },
@@ -2792,7 +2766,7 @@
     "version": 1,
     "annotation": "hombre",
     "tags": [
-      "hombre"
+      "adulto"
     ],
     "skins": [
       {
@@ -2886,7 +2860,7 @@
     "version": 1,
     "annotation": "mujer",
     "tags": [
-      "mujer"
+      "adulta"
     ],
     "skins": [
       {
@@ -2978,7 +2952,7 @@
     "group": 0,
     "subgroup": 8,
     "version": 5,
-    "annotation": "adulto maduro",
+    "annotation": "persona adulta madura",
     "tags": [
       "género",
       "maduro",
@@ -2999,7 +2973,7 @@
         "subgroup": 8,
         "version": 5,
         "tone": 1,
-        "annotation": "adulto maduro: tono de piel claro"
+        "annotation": "persona adulta madura: tono de piel claro"
       },
       {
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -3014,7 +2988,7 @@
         "subgroup": 8,
         "version": 5,
         "tone": 2,
-        "annotation": "adulto maduro: tono de piel claro medio"
+        "annotation": "persona adulta madura: tono de piel claro medio"
       },
       {
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -3029,7 +3003,7 @@
         "subgroup": 8,
         "version": 5,
         "tone": 3,
-        "annotation": "adulto maduro: tono de piel medio"
+        "annotation": "persona adulta madura: tono de piel medio"
       },
       {
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -3044,7 +3018,7 @@
         "subgroup": 8,
         "version": 5,
         "tone": 4,
-        "annotation": "adulto maduro: tono de piel oscuro medio"
+        "annotation": "persona adulta madura: tono de piel oscuro medio"
       },
       {
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -3059,7 +3033,7 @@
         "subgroup": 8,
         "version": 5,
         "tone": 5,
-        "annotation": "adulto maduro: tono de piel oscuro"
+        "annotation": "persona adulta madura: tono de piel oscuro"
       }
     ]
   },
@@ -3269,10 +3243,9 @@
     "tags": [
       "doctor",
       "enfermero",
-      "hombre",
       "médico",
       "sanitario",
-      "terapeuta"
+      "terapeuta hombre"
     ],
     "skins": [
       {
@@ -3368,10 +3341,9 @@
     "tags": [
       "doctora",
       "enfermera",
-      "mujer",
       "médica",
       "sanitaria",
-      "terapeuta"
+      "terapeuta mujer"
     ],
     "skins": [
       {
@@ -4630,8 +4602,7 @@
     "annotation": "operario",
     "tags": [
       "fábrica",
-      "hombre",
-      "industria",
+      "montaje",
       "obrero",
       "trabajador"
     ],
@@ -4728,8 +4699,7 @@
     "annotation": "operaria",
     "tags": [
       "fábrica",
-      "industria",
-      "mujer",
+      "montaje",
       "obrera",
       "trabajadora"
     ],
@@ -4825,7 +4795,6 @@
     "version": 4,
     "annotation": "oficinista hombre",
     "tags": [
-      "arquitecto",
       "director",
       "empresa",
       "hombre",
@@ -4924,7 +4893,6 @@
     "version": 4,
     "annotation": "oficinista mujer",
     "tags": [
-      "arquitecta",
       "directora",
       "empresa",
       "mujer",
@@ -5026,7 +4994,6 @@
       "biólogo",
       "físico",
       "hombre",
-      "investigador",
       "químico"
     ],
     "skins": [
@@ -5123,7 +5090,6 @@
     "tags": [
       "bióloga",
       "física",
-      "investigadora",
       "mujer",
       "química"
     ],
@@ -5222,8 +5188,7 @@
       "desarrollador",
       "hombre",
       "informático",
-      "programador",
-      "tecnología"
+      "programador"
     ],
     "skins": [
       {
@@ -5320,8 +5285,7 @@
       "desarrolladora",
       "informática",
       "mujer",
-      "programadora",
-      "tecnología"
+      "programadora"
     ],
     "skins": [
       {
@@ -5418,7 +5382,6 @@
       "artista",
       "estrella",
       "hombre",
-      "pop",
       "rock"
     ],
     "skins": [
@@ -5516,7 +5479,6 @@
       "artista",
       "estrella",
       "mujer",
-      "pop",
       "rock"
     ],
     "skins": [
@@ -8079,13 +8041,10 @@
     "version": 1,
     "annotation": "hombre con gorro chino",
     "tags": [
-      "chino",
       "gorro",
       "gua",
       "hombre",
-      "mao",
-      "personas",
-      "pi"
+      "mao"
     ],
     "skins": [
       {
@@ -8366,7 +8325,7 @@
     "group": 0,
     "subgroup": 8,
     "version": 1,
-    "annotation": "persona rubia",
+    "annotation": "persona adulta rubia",
     "tags": [
       "personas",
       "rubio"
@@ -8385,7 +8344,7 @@
         "subgroup": 9,
         "version": 2,
         "tone": 1,
-        "annotation": "persona rubia: tono de piel claro"
+        "annotation": "persona adulta rubia: tono de piel claro"
       },
       {
         "name": "PERSON WITH BLOND HAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8400,7 +8359,7 @@
         "subgroup": 9,
         "version": 2,
         "tone": 2,
-        "annotation": "persona rubia: tono de piel claro medio"
+        "annotation": "persona adulta rubia: tono de piel claro medio"
       },
       {
         "name": "PERSON WITH BLOND HAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8415,7 +8374,7 @@
         "subgroup": 9,
         "version": 2,
         "tone": 3,
-        "annotation": "persona rubia: tono de piel medio"
+        "annotation": "persona adulta rubia: tono de piel medio"
       },
       {
         "name": "PERSON WITH BLOND HAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8430,7 +8389,7 @@
         "subgroup": 9,
         "version": 2,
         "tone": 4,
-        "annotation": "persona rubia: tono de piel oscuro medio"
+        "annotation": "persona adulta rubia: tono de piel oscuro medio"
       },
       {
         "name": "PERSON WITH BLOND HAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8445,7 +8404,7 @@
         "subgroup": 9,
         "version": 2,
         "tone": 5,
-        "annotation": "persona rubia: tono de piel oscuro"
+        "annotation": "persona adulta rubia: tono de piel oscuro"
       }
     ]
   },
@@ -8665,8 +8624,11 @@
     "group": 0,
     "subgroup": 9,
     "version": 11,
+    "annotation": "hombre: pelo pelirrojo",
     "tags": [
-      "hombre"
+      "adulto",
+      "hombre",
+      "pelo pelirrojo"
     ],
     "skins": [
       {
@@ -8682,7 +8644,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "hombre: tono de piel claro y pelo pelirrojo"
       },
       {
         "name": "MAN, EMOJI COMPONENT RED HAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8697,7 +8659,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "hombre: tono de piel claro medio y pelo pelirrojo"
       },
       {
         "name": "MAN, EMOJI COMPONENT RED HAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8712,7 +8674,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "hombre: tono de piel medio y pelo pelirrojo"
       },
       {
         "name": "MAN, EMOJI COMPONENT RED HAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8727,7 +8689,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "hombre: tono de piel oscuro medio y pelo pelirrojo"
       },
       {
         "name": "MAN, EMOJI COMPONENT RED HAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8742,7 +8704,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "hombre: tono de piel oscuro y pelo pelirrojo"
       }
     ]
   },
@@ -8758,8 +8720,11 @@
     "group": 0,
     "subgroup": 9,
     "version": 11,
+    "annotation": "mujer: pelo pelirrojo",
     "tags": [
-      "mujer"
+      "adulta",
+      "mujer",
+      "pelo pelirrojo"
     ],
     "skins": [
       {
@@ -8775,7 +8740,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "mujer: tono de piel claro y pelo pelirrojo"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT RED HAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8790,7 +8755,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "mujer: tono de piel claro medio y pelo pelirrojo"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT RED HAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8805,7 +8770,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "mujer: tono de piel medio y pelo pelirrojo"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT RED HAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8820,7 +8785,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "mujer: tono de piel oscuro medio y pelo pelirrojo"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT RED HAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8835,7 +8800,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "mujer: tono de piel oscuro y pelo pelirrojo"
       }
     ]
   },
@@ -8851,8 +8816,11 @@
     "group": 0,
     "subgroup": 9,
     "version": 11,
+    "annotation": "hombre: pelo rizado",
     "tags": [
-      "hombre"
+      "adulto",
+      "hombre",
+      "pelo rizado"
     ],
     "skins": [
       {
@@ -8868,7 +8836,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "hombre: tono de piel claro y pelo rizado"
       },
       {
         "name": "MAN, EMOJI COMPONENT CURLY HAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8883,7 +8851,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "hombre: tono de piel claro medio y pelo rizado"
       },
       {
         "name": "MAN, EMOJI COMPONENT CURLY HAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8898,7 +8866,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "hombre: tono de piel medio y pelo rizado"
       },
       {
         "name": "MAN, EMOJI COMPONENT CURLY HAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8913,7 +8881,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "hombre: tono de piel oscuro medio y pelo rizado"
       },
       {
         "name": "MAN, EMOJI COMPONENT CURLY HAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8928,7 +8896,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "hombre: tono de piel oscuro y pelo rizado"
       }
     ]
   },
@@ -8944,8 +8912,11 @@
     "group": 0,
     "subgroup": 9,
     "version": 11,
+    "annotation": "mujer: pelo rizado",
     "tags": [
-      "mujer"
+      "adulta",
+      "mujer",
+      "pelo rizado"
     ],
     "skins": [
       {
@@ -8961,7 +8932,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "mujer: tono de piel claro y pelo rizado"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT CURLY HAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8976,7 +8947,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "mujer: tono de piel claro medio y pelo rizado"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT CURLY HAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8991,7 +8962,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "mujer: tono de piel medio y pelo rizado"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT CURLY HAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9006,7 +8977,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "mujer: tono de piel oscuro medio y pelo rizado"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT CURLY HAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9021,7 +8992,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "mujer: tono de piel oscuro y pelo rizado"
       }
     ]
   },
@@ -9037,7 +9008,10 @@
     "group": 0,
     "subgroup": 9,
     "version": 11,
+    "annotation": "hombre: calvo",
     "tags": [
+      "adulto",
+      "calvo",
       "hombre"
     ],
     "skins": [
@@ -9054,7 +9028,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "hombre: tono de piel claro y calvo"
       },
       {
         "name": "MAN, EMOJI COMPONENT BALD, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9069,7 +9043,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "hombre: tono de piel claro medio y calvo"
       },
       {
         "name": "MAN, EMOJI COMPONENT BALD, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9084,7 +9058,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "hombre: tono de piel medio y calvo"
       },
       {
         "name": "MAN, EMOJI COMPONENT BALD, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9099,7 +9073,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "hombre: tono de piel oscuro medio y calvo"
       },
       {
         "name": "MAN, EMOJI COMPONENT BALD, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9114,7 +9088,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "hombre: tono de piel oscuro y calvo"
       }
     ]
   },
@@ -9130,7 +9104,10 @@
     "group": 0,
     "subgroup": 9,
     "version": 11,
+    "annotation": "mujer: calvo",
     "tags": [
+      "adulta",
+      "calvo",
       "mujer"
     ],
     "skins": [
@@ -9147,7 +9124,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "mujer: tono de piel claro y calvo"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT BALD, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9162,7 +9139,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "mujer: tono de piel claro medio y calvo"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT BALD, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9177,7 +9154,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "mujer: tono de piel medio y calvo"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT BALD, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9192,7 +9169,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "mujer: tono de piel oscuro medio y calvo"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT BALD, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9207,7 +9184,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "mujer: tono de piel oscuro y calvo"
       }
     ]
   },
@@ -9223,8 +9200,11 @@
     "group": 0,
     "subgroup": 9,
     "version": 11,
+    "annotation": "hombre: pelo blanco",
     "tags": [
-      "hombre"
+      "adulto",
+      "hombre",
+      "pelo blanco"
     ],
     "skins": [
       {
@@ -9240,7 +9220,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "hombre: tono de piel claro y pelo blanco"
       },
       {
         "name": "MAN, EMOJI COMPONENT WHITE HAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9255,7 +9235,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "hombre: tono de piel claro medio y pelo blanco"
       },
       {
         "name": "MAN, EMOJI COMPONENT WHITE HAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9270,7 +9250,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "hombre: tono de piel medio y pelo blanco"
       },
       {
         "name": "MAN, EMOJI COMPONENT WHITE HAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9285,7 +9265,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "hombre: tono de piel oscuro medio y pelo blanco"
       },
       {
         "name": "MAN, EMOJI COMPONENT WHITE HAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9300,7 +9280,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "hombre: tono de piel oscuro y pelo blanco"
       }
     ]
   },
@@ -9316,8 +9296,11 @@
     "group": 0,
     "subgroup": 9,
     "version": 11,
+    "annotation": "mujer: pelo blanco",
     "tags": [
-      "mujer"
+      "adulta",
+      "mujer",
+      "pelo blanco"
     ],
     "skins": [
       {
@@ -9333,7 +9316,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "mujer: tono de piel claro y pelo blanco"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT WHITE HAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9348,7 +9331,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "mujer: tono de piel claro medio y pelo blanco"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT WHITE HAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9363,7 +9346,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "mujer: tono de piel medio y pelo blanco"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT WHITE HAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9378,7 +9361,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "mujer: tono de piel oscuro medio y pelo blanco"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT WHITE HAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9393,7 +9376,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "mujer: tono de piel oscuro y pelo blanco"
       }
     ]
   },
@@ -9510,7 +9493,6 @@
       "boda",
       "mujer",
       "novia",
-      "personas",
       "velo"
     ],
     "skins": [
@@ -10088,6 +10070,13 @@
     "group": 0,
     "subgroup": 10,
     "version": 11,
+    "annotation": "superhéroe",
+    "tags": [
+      "bueno",
+      "heroína",
+      "héroe",
+      "superpoder"
+    ],
     "skins": [
       {
         "name": "SUPERHERO, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -10103,7 +10092,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "superhéroe: tono de piel claro"
       },
       {
         "name": "SUPERHERO, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -10119,7 +10108,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "superhéroe: tono de piel claro medio"
       },
       {
         "name": "SUPERHERO, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -10135,7 +10124,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "superhéroe: tono de piel medio"
       },
       {
         "name": "SUPERHERO, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -10151,7 +10140,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "superhéroe: tono de piel oscuro medio"
       },
       {
         "name": "SUPERHERO, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -10167,7 +10156,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "superhéroe: tono de piel oscuro"
       }
     ]
   },
@@ -10184,11 +10173,13 @@
     "subgroup": 10,
     "version": 11,
     "gender": 0,
-    "annotation": "mujer",
+    "annotation": "mujer superhéroe",
     "tags": [
-      "signo",
-      "signo femenino",
-      "símbolo"
+      "heroína",
+      "héroe",
+      "mujer",
+      "superhéroe",
+      "superpoder"
     ],
     "skins": [
       {
@@ -10205,7 +10196,7 @@
         "version": 11,
         "gender": 0,
         "tone": 1,
-        "annotation": "mujer: tono de piel claro"
+        "annotation": "mujer superhéroe: tono de piel claro"
       },
       {
         "name": "SUPERHERO, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -10221,7 +10212,7 @@
         "version": 11,
         "gender": 0,
         "tone": 2,
-        "annotation": "mujer: tono de piel claro medio"
+        "annotation": "mujer superhéroe: tono de piel claro medio"
       },
       {
         "name": "SUPERHERO, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -10237,7 +10228,7 @@
         "version": 11,
         "gender": 0,
         "tone": 3,
-        "annotation": "mujer: tono de piel medio"
+        "annotation": "mujer superhéroe: tono de piel medio"
       },
       {
         "name": "SUPERHERO, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -10253,7 +10244,7 @@
         "version": 11,
         "gender": 0,
         "tone": 4,
-        "annotation": "mujer: tono de piel oscuro medio"
+        "annotation": "mujer superhéroe: tono de piel oscuro medio"
       },
       {
         "name": "SUPERHERO, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -10269,7 +10260,7 @@
         "version": 11,
         "gender": 0,
         "tone": 5,
-        "annotation": "mujer: tono de piel oscuro"
+        "annotation": "mujer superhéroe: tono de piel oscuro"
       }
     ]
   },
@@ -10286,11 +10277,13 @@
     "subgroup": 10,
     "version": 11,
     "gender": 1,
-    "annotation": "hombre",
+    "annotation": "hombre superhéroe",
     "tags": [
-      "signo",
-      "signo masculino",
-      "símbolo"
+      "bueno",
+      "hombre",
+      "héroe",
+      "superhéroe",
+      "superpoder"
     ],
     "skins": [
       {
@@ -10307,7 +10300,7 @@
         "version": 11,
         "gender": 1,
         "tone": 1,
-        "annotation": "hombre: tono de piel claro"
+        "annotation": "hombre superhéroe: tono de piel claro"
       },
       {
         "name": "SUPERHERO, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -10323,7 +10316,7 @@
         "version": 11,
         "gender": 1,
         "tone": 2,
-        "annotation": "hombre: tono de piel claro medio"
+        "annotation": "hombre superhéroe: tono de piel claro medio"
       },
       {
         "name": "SUPERHERO, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -10339,7 +10332,7 @@
         "version": 11,
         "gender": 1,
         "tone": 3,
-        "annotation": "hombre: tono de piel medio"
+        "annotation": "hombre superhéroe: tono de piel medio"
       },
       {
         "name": "SUPERHERO, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -10355,7 +10348,7 @@
         "version": 11,
         "gender": 1,
         "tone": 4,
-        "annotation": "hombre: tono de piel oscuro medio"
+        "annotation": "hombre superhéroe: tono de piel oscuro medio"
       },
       {
         "name": "SUPERHERO, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -10371,7 +10364,7 @@
         "version": 11,
         "gender": 1,
         "tone": 5,
-        "annotation": "hombre: tono de piel oscuro"
+        "annotation": "hombre superhéroe: tono de piel oscuro"
       }
     ]
   },
@@ -10388,6 +10381,14 @@
     "group": 0,
     "subgroup": 10,
     "version": 11,
+    "annotation": "supervillano",
+    "tags": [
+      "criminal",
+      "malo",
+      "malvado",
+      "superpoder",
+      "villano"
+    ],
     "skins": [
       {
         "name": "SUPERVILLAIN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -10403,7 +10404,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "supervillano: tono de piel claro"
       },
       {
         "name": "SUPERVILLAIN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -10419,7 +10420,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "supervillano: tono de piel claro medio"
       },
       {
         "name": "SUPERVILLAIN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -10435,7 +10436,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "supervillano: tono de piel medio"
       },
       {
         "name": "SUPERVILLAIN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -10451,7 +10452,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "supervillano: tono de piel oscuro medio"
       },
       {
         "name": "SUPERVILLAIN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -10467,7 +10468,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "supervillano: tono de piel oscuro"
       }
     ]
   },
@@ -10484,11 +10485,13 @@
     "subgroup": 10,
     "version": 11,
     "gender": 0,
-    "annotation": "mujer",
+    "annotation": "mujer supervillana",
     "tags": [
-      "signo",
-      "signo femenino",
-      "símbolo"
+      "criminal",
+      "malvada",
+      "mujer",
+      "superpoder",
+      "villana"
     ],
     "skins": [
       {
@@ -10505,7 +10508,7 @@
         "version": 11,
         "gender": 0,
         "tone": 1,
-        "annotation": "mujer: tono de piel claro"
+        "annotation": "mujer supervillana: tono de piel claro"
       },
       {
         "name": "SUPERVILLAIN, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -10521,7 +10524,7 @@
         "version": 11,
         "gender": 0,
         "tone": 2,
-        "annotation": "mujer: tono de piel claro medio"
+        "annotation": "mujer supervillana: tono de piel claro medio"
       },
       {
         "name": "SUPERVILLAIN, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -10537,7 +10540,7 @@
         "version": 11,
         "gender": 0,
         "tone": 3,
-        "annotation": "mujer: tono de piel medio"
+        "annotation": "mujer supervillana: tono de piel medio"
       },
       {
         "name": "SUPERVILLAIN, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -10553,7 +10556,7 @@
         "version": 11,
         "gender": 0,
         "tone": 4,
-        "annotation": "mujer: tono de piel oscuro medio"
+        "annotation": "mujer supervillana: tono de piel oscuro medio"
       },
       {
         "name": "SUPERVILLAIN, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -10569,7 +10572,7 @@
         "version": 11,
         "gender": 0,
         "tone": 5,
-        "annotation": "mujer: tono de piel oscuro"
+        "annotation": "mujer supervillana: tono de piel oscuro"
       }
     ]
   },
@@ -10586,11 +10589,13 @@
     "subgroup": 10,
     "version": 11,
     "gender": 1,
-    "annotation": "hombre",
+    "annotation": "hombre supervillano",
     "tags": [
-      "signo",
-      "signo masculino",
-      "símbolo"
+      "criminal",
+      "hombre",
+      "malvado",
+      "superpoder",
+      "villano"
     ],
     "skins": [
       {
@@ -10607,7 +10612,7 @@
         "version": 11,
         "gender": 1,
         "tone": 1,
-        "annotation": "hombre: tono de piel claro"
+        "annotation": "hombre supervillano: tono de piel claro"
       },
       {
         "name": "SUPERVILLAIN, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -10623,7 +10628,7 @@
         "version": 11,
         "gender": 1,
         "tone": 2,
-        "annotation": "hombre: tono de piel claro medio"
+        "annotation": "hombre supervillano: tono de piel claro medio"
       },
       {
         "name": "SUPERVILLAIN, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -10639,7 +10644,7 @@
         "version": 11,
         "gender": 1,
         "tone": 3,
-        "annotation": "hombre: tono de piel medio"
+        "annotation": "hombre supervillano: tono de piel medio"
       },
       {
         "name": "SUPERVILLAIN, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -10655,7 +10660,7 @@
         "version": 11,
         "gender": 1,
         "tone": 4,
-        "annotation": "hombre: tono de piel oscuro medio"
+        "annotation": "hombre supervillano: tono de piel oscuro medio"
       },
       {
         "name": "SUPERVILLAIN, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -10671,7 +10676,7 @@
         "version": 11,
         "gender": 1,
         "tone": 5,
-        "annotation": "hombre: tono de piel oscuro"
+        "annotation": "hombre supervillano: tono de piel oscuro"
       }
     ]
   },
@@ -12398,9 +12403,7 @@
       "ceño",
       "fruncido",
       "gesto",
-      "hombre",
-      "persona",
-      "triste"
+      "hombre"
     ],
     "skins": [
       {
@@ -12503,9 +12506,7 @@
       "ceño",
       "fruncido",
       "gesto",
-      "mujer",
-      "persona",
-      "triste"
+      "mujer"
     ],
     "skins": [
       {
@@ -12907,7 +12908,6 @@
       "gesto",
       "mano",
       "no",
-      "persona",
       "prohibido"
     ],
     "skins": [
@@ -13006,7 +13006,6 @@
       "gesto",
       "hombre",
       "mano",
-      "no",
       "prohibido"
     ],
     "skins": [
@@ -13110,7 +13109,6 @@
       "gesto",
       "mano",
       "mujer",
-      "no",
       "prohibido"
     ],
     "skins": [
@@ -13210,7 +13208,6 @@
     "version": 1,
     "annotation": "persona haciendo el gesto de \"de acuerdo\"",
     "tags": [
-      "acuerdo",
       "gesto",
       "mano",
       "ok",
@@ -13309,9 +13306,7 @@
     "gender": 1,
     "annotation": "hombre haciendo el gesto de \"de acuerdo\"",
     "tags": [
-      "acuerdo",
       "gesto",
-      "hombre",
       "mano",
       "ok",
       "vale"
@@ -13414,9 +13409,8 @@
     "gender": 0,
     "annotation": "mujer haciendo el gesto de \"de acuerdo\"",
     "tags": [
-      "aceptación",
-      "acuerdo",
       "gesto",
+      "mano",
       "ok",
       "vale"
     ],
@@ -13918,7 +13912,6 @@
     "gender": 1,
     "annotation": "hombre con la mano levantada",
     "tags": [
-      "feliz",
       "gesto",
       "hombre",
       "levantar",
@@ -14022,7 +14015,6 @@
     "gender": 0,
     "annotation": "mujer con la mano levantada",
     "tags": [
-      "feliz",
       "gesto",
       "levantar",
       "mano",
@@ -14128,7 +14120,6 @@
       "disculpa",
       "gesto",
       "perdón",
-      "persona",
       "reverencia"
     ],
     "skins": [
@@ -14226,7 +14217,6 @@
     "tags": [
       "disculpa",
       "gesto",
-      "hombre",
       "perdón",
       "reverencia"
     ],
@@ -14330,7 +14320,6 @@
     "tags": [
       "disculpa",
       "gesto",
-      "mujer",
       "perdón",
       "reverencia"
     ],
@@ -14431,8 +14420,6 @@
     "version": 3,
     "annotation": "persona con la mano en la frente",
     "tags": [
-      "cara",
-      "exasperación",
       "facepalm",
       "frente",
       "incredulidad",
@@ -14531,11 +14518,8 @@
     "gender": 1,
     "annotation": "hombre con la mano en la frente",
     "tags": [
-      "cara",
-      "exasperación",
       "facepalm",
       "frente",
-      "hombre",
       "incredulidad",
       "mano"
     ],
@@ -14637,13 +14621,10 @@
     "gender": 0,
     "annotation": "mujer con la mano en la frente",
     "tags": [
-      "cara",
-      "exasperación",
       "facepalm",
       "frente",
       "incredulidad",
-      "mano",
-      "mujer"
+      "mano"
     ],
     "skins": [
       {
@@ -14745,7 +14726,6 @@
       "duda",
       "encogerse",
       "hombros",
-      "ignorancia",
       "indiferencia"
     ],
     "skins": [
@@ -14843,9 +14823,7 @@
     "tags": [
       "duda",
       "encogerse",
-      "hombre",
       "hombros",
-      "ignorancia",
       "indiferencia"
     ],
     "skins": [
@@ -14949,9 +14927,7 @@
       "duda",
       "encogerse",
       "hombros",
-      "ignorancia",
-      "indiferencia",
-      "mujer"
+      "indiferencia"
     ],
     "skins": [
       {
@@ -15050,7 +15026,6 @@
     "version": 1,
     "annotation": "persona recibiendo masaje",
     "tags": [
-      "cabeza",
       "cara",
       "facial",
       "masaje",
@@ -15149,10 +15124,8 @@
     "gender": 1,
     "annotation": "hombre recibiendo masaje",
     "tags": [
-      "cabeza",
       "cara",
       "facial",
-      "hombre",
       "masaje",
       "salón"
     ],
@@ -15254,11 +15227,9 @@
     "gender": 0,
     "annotation": "mujer recibiendo masaje",
     "tags": [
-      "cabeza",
       "cara",
       "facial",
       "masaje",
-      "mujer",
       "salón"
     ],
     "skins": [
@@ -15358,13 +15329,10 @@
     "version": 1,
     "annotation": "persona cortándose el pelo",
     "tags": [
-      "barbero",
       "belleza",
       "corte",
       "pelo",
-      "peluquero",
-      "salón",
-      "tijeras"
+      "peluquero"
     ],
     "skins": [
       {
@@ -15459,14 +15427,10 @@
     "gender": 1,
     "annotation": "hombre cortándose el pelo",
     "tags": [
-      "barbero",
       "belleza",
       "corte",
-      "hombre",
       "pelo",
-      "peluquero",
-      "salón",
-      "tijeras"
+      "peluquero"
     ],
     "skins": [
       {
@@ -15566,14 +15530,10 @@
     "gender": 0,
     "annotation": "mujer cortándose el pelo",
     "tags": [
-      "barbero",
       "belleza",
       "corte",
-      "mujer",
       "pelo",
-      "peluquero",
-      "salón",
-      "tijeras"
+      "peluquero"
     ],
     "skins": [
       {
@@ -17795,7 +17755,6 @@
       "caballo",
       "caballo de carreras",
       "carreras",
-      "deporte",
       "jinete"
     ],
     "skins": [
@@ -20214,7 +20173,6 @@
     "tags": [
       "bicicleta",
       "ciclista",
-      "hombre",
       "montaña",
       "mountain bike"
     ],
@@ -20319,8 +20277,7 @@
       "bicicleta",
       "ciclista",
       "montaña",
-      "mountain bike",
-      "mujer"
+      "mountain bike"
     ],
     "skins": [
       {
@@ -20459,10 +20416,8 @@
     "annotation": "persona haciendo voltereta lateral",
     "tags": [
       "acrobacia",
-      "deporte",
       "gimnasia",
-      "lateral",
-      "persona",
+      "persona haciendo voltereta",
       "pirueta",
       "voltereta"
     ],
@@ -20926,7 +20881,6 @@
     "tags": [
       "agua",
       "deporte",
-      "hombre",
       "waterpolista",
       "waterpolo"
     ],
@@ -21030,7 +20984,6 @@
     "tags": [
       "agua",
       "deporte",
-      "mujer",
       "waterpolista",
       "waterpolo"
     ],
@@ -21435,11 +21388,9 @@
     "annotation": "persona haciendo malabares",
     "tags": [
       "equilibrio",
-      "habilidad",
       "malabares",
       "malabarismo",
-      "malabarista",
-      "multitarea"
+      "malabarista"
     ],
     "skins": [
       {
@@ -21743,8 +21694,7 @@
       "hombre",
       "mano",
       "mujer",
-      "pareja",
-      "personas"
+      "pareja"
     ]
   },
   {
@@ -21763,10 +21713,8 @@
     "tags": [
       "gays",
       "hombre",
-      "homosexuales",
       "mano",
-      "pareja",
-      "personas"
+      "pareja"
     ]
   },
   {
@@ -21783,12 +21731,10 @@
     "version": 1,
     "annotation": "dos mujeres de la mano",
     "tags": [
-      "homosexuales",
       "lesbianas",
       "mano",
       "mujer",
-      "pareja",
-      "personas"
+      "pareja"
     ]
   },
   {
@@ -21992,7 +21938,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 2,
-    "annotation": "familia: hombre y mujer y niño",
+    "annotation": "familia: hombre, mujer, niño",
     "tags": [
       "familia",
       "hombre",
@@ -22015,7 +21961,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 2,
-    "annotation": "familia: hombre y mujer y niña",
+    "annotation": "familia: hombre, mujer, niña",
     "tags": [
       "familia",
       "hombre",
@@ -22039,7 +21985,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 2,
-    "annotation": "familia: hombre y mujer y niña y niño",
+    "annotation": "familia: hombre, mujer, niña, niño",
     "tags": [
       "familia",
       "hombre",
@@ -22063,7 +22009,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 2,
-    "annotation": "familia: hombre y mujer y niño y niño",
+    "annotation": "familia: hombre, mujer, niño, niño",
     "tags": [
       "familia",
       "hombre",
@@ -22086,7 +22032,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 2,
-    "annotation": "familia: hombre y mujer y niña y niña",
+    "annotation": "familia: hombre, mujer, niña, niña",
     "tags": [
       "familia",
       "hombre",
@@ -22110,7 +22056,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 2,
-    "annotation": "familia: hombre y hombre y niño",
+    "annotation": "familia: hombre, hombre, niño",
     "tags": [
       "familia",
       "hombre",
@@ -22132,7 +22078,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 2,
-    "annotation": "familia: hombre y hombre y niña",
+    "annotation": "familia: hombre, hombre, niña",
     "tags": [
       "familia",
       "hombre",
@@ -22155,7 +22101,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 2,
-    "annotation": "familia: hombre y hombre y niña y niño",
+    "annotation": "familia: hombre, hombre, niña, niño",
     "tags": [
       "familia",
       "hombre",
@@ -22178,7 +22124,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 2,
-    "annotation": "familia: hombre y hombre y niño y niño",
+    "annotation": "familia: hombre, hombre, niño, niño",
     "tags": [
       "familia",
       "hombre",
@@ -22200,7 +22146,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 2,
-    "annotation": "familia: hombre y hombre y niña y niña",
+    "annotation": "familia: hombre, hombre, niña, niña",
     "tags": [
       "familia",
       "hombre",
@@ -22223,7 +22169,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 2,
-    "annotation": "familia: mujer y mujer y niño",
+    "annotation": "familia: mujer, mujer, niño",
     "tags": [
       "familia",
       "madre",
@@ -22245,7 +22191,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 2,
-    "annotation": "familia: mujer y mujer y niña",
+    "annotation": "familia: mujer, mujer, niña",
     "tags": [
       "familia",
       "madre",
@@ -22268,7 +22214,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 2,
-    "annotation": "familia: mujer y mujer y niña y niño",
+    "annotation": "familia: mujer, mujer, niña, niño",
     "tags": [
       "familia",
       "madre",
@@ -22291,7 +22237,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 2,
-    "annotation": "familia: mujer y mujer y niño y niño",
+    "annotation": "familia: mujer, mujer, niño, niño",
     "tags": [
       "familia",
       "madre",
@@ -22313,7 +22259,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 2,
-    "annotation": "familia: mujer y mujer y niña y niña",
+    "annotation": "familia: mujer, mujer, niña, niña",
     "tags": [
       "familia",
       "madre",
@@ -22358,7 +22304,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 4,
-    "annotation": "familia: hombre y niño y niño",
+    "annotation": "familia: hombre, niño, niño",
     "tags": [
       "familia",
       "hombre",
@@ -22403,7 +22349,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 4,
-    "annotation": "familia: hombre y niña y niño",
+    "annotation": "familia: hombre, niña, niño",
     "tags": [
       "familia",
       "hombre",
@@ -22426,7 +22372,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 4,
-    "annotation": "familia: hombre y niña y niña",
+    "annotation": "familia: hombre, niña, niña",
     "tags": [
       "familia",
       "hombre",
@@ -22471,7 +22417,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 4,
-    "annotation": "familia: mujer y niño y niño",
+    "annotation": "familia: mujer, niño, niño",
     "tags": [
       "familia",
       "madre",
@@ -22516,7 +22462,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 4,
-    "annotation": "familia: mujer y niña y niño",
+    "annotation": "familia: mujer, niña, niño",
     "tags": [
       "familia",
       "madre",
@@ -22539,7 +22485,7 @@
     "group": 0,
     "subgroup": 14,
     "version": 4,
-    "annotation": "familia: mujer y niña y niña",
+    "annotation": "familia: mujer, niña, niña",
     "tags": [
       "familia",
       "madre",
@@ -22763,6 +22709,11 @@
     "group": 0,
     "subgroup": 15,
     "version": 11,
+    "annotation": "pierna",
+    "tags": [
+      "extremidad",
+      "patada"
+    ],
     "skins": [
       {
         "name": "LEG, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -22777,7 +22728,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "pierna: tono de piel claro"
       },
       {
         "name": "LEG, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -22792,7 +22743,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "pierna: tono de piel claro medio"
       },
       {
         "name": "LEG, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -22807,7 +22758,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "pierna: tono de piel medio"
       },
       {
         "name": "LEG, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -22822,7 +22773,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "pierna: tono de piel oscuro medio"
       },
       {
         "name": "LEG, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -22837,7 +22788,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "pierna: tono de piel oscuro"
       }
     ]
   },
@@ -22853,6 +22804,11 @@
     "group": 0,
     "subgroup": 15,
     "version": 11,
+    "annotation": "pie",
+    "tags": [
+      "patada",
+      "pisotón"
+    ],
     "skins": [
       {
         "name": "FOOT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -22867,7 +22823,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "pie: tono de piel claro"
       },
       {
         "name": "FOOT, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -22882,7 +22838,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "pie: tono de piel claro medio"
       },
       {
         "name": "FOOT, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -22897,7 +22853,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "pie: tono de piel medio"
       },
       {
         "name": "FOOT, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -22912,7 +22868,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "pie: tono de piel oscuro medio"
       },
       {
         "name": "FOOT, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -22927,7 +22883,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "pie: tono de piel oscuro"
       }
     ]
   },
@@ -22946,13 +22902,9 @@
     "text": "👈︎",
     "annotation": "dorso de mano con índice a la izquierda",
     "tags": [
-      "apuntar",
       "dedo",
-      "dorso",
       "izquierda",
       "mano",
-      "puño",
-      "señalar",
       "índice"
     ],
     "skins": [
@@ -23048,13 +23000,9 @@
     "text": "👉︎",
     "annotation": "dorso de mano con índice a la derecha",
     "tags": [
-      "apuntar",
       "dedo",
       "derecha",
-      "dorso",
       "mano",
-      "puño",
-      "señalar",
       "índice"
     ],
     "skins": [
@@ -23153,11 +23101,7 @@
       "apuntar",
       "arriba",
       "dedo",
-      "dorso",
-      "mano",
-      "puño",
-      "señalar",
-      "índice"
+      "mano"
     ],
     "skins": [
       {
@@ -23255,11 +23199,7 @@
       "apuntar",
       "arriba",
       "dedo",
-      "dorso",
-      "mano",
-      "puño",
-      "señalar",
-      "índice"
+      "mano"
     ],
     "skins": [
       {
@@ -23356,8 +23296,7 @@
       "corazón",
       "dedo",
       "mano",
-      "peineta",
-      "puño"
+      "peineta"
     ],
     "skins": [
       {
@@ -23455,11 +23394,7 @@
       "abajo",
       "apuntar",
       "dedo",
-      "dorso",
-      "mano",
-      "puño",
-      "señalar",
-      "índice"
+      "mano"
     ],
     "skins": [
       {
@@ -25698,7 +25633,6 @@
     "version": 1,
     "annotation": "manos en oración",
     "tags": [
-      "gesto",
       "mano",
       "oración",
       "orar",
@@ -25816,10 +25750,8 @@
     "annotation": "pintarse las uñas",
     "tags": [
       "cosmética",
-      "cuidado",
       "esmalte",
       "manicura",
-      "pintura",
       "uñas"
     ],
     "skins": [
@@ -26190,7 +26122,11 @@
     "order": 2126,
     "group": 0,
     "subgroup": 15,
-    "version": 11
+    "version": 11,
+    "annotation": "hueso",
+    "tags": [
+      "esqueleto"
+    ]
   },
   {
     "name": "TOOTH",
@@ -26203,7 +26139,11 @@
     "order": 2127,
     "group": 0,
     "subgroup": 15,
-    "version": 11
+    "version": 11,
+    "annotation": "diente",
+    "tags": [
+      "dentista"
+    ]
   },
   {
     "name": "TONGUE",
@@ -26625,8 +26565,6 @@
     "tags": [
       "cómic",
       "dormir",
-      "emoción",
-      "ronquido",
       "sueño",
       "zzz"
     ]
@@ -26646,7 +26584,6 @@
     "annotation": "símbolo de enfado",
     "tags": [
       "cómic",
-      "emoción",
       "enfadado",
       "enfado"
     ]
@@ -26762,7 +26699,6 @@
     "annotation": "bocadillo de diálogo",
     "tags": [
       "bocadillo",
-      "burbuja",
       "conversación",
       "cómic",
       "diálogo"
@@ -26805,7 +26741,6 @@
     "annotation": "bocadillo de enfado por la derecha",
     "tags": [
       "bocadillo",
-      "burbuja",
       "cabreo",
       "enfado",
       "rabia"
@@ -26901,7 +26836,14 @@
     "order": 2169,
     "group": 0,
     "subgroup": 17,
-    "version": 11
+    "version": 11,
+    "annotation": "gafas de protección",
+    "tags": [
+      "gafas",
+      "nadar",
+      "protección ocular",
+      "soldar"
+    ]
   },
   {
     "name": "LAB COAT",
@@ -26914,7 +26856,14 @@
     "order": 2170,
     "group": 0,
     "subgroup": 17,
-    "version": 11
+    "version": 11,
+    "annotation": "bata de laboratorio",
+    "tags": [
+      "científico",
+      "doctor",
+      "experimento",
+      "médico"
+    ]
   },
   {
     "name": "NECKTIE",
@@ -26985,8 +26934,7 @@
     "annotation": "bufanda",
     "tags": [
       "abrigo",
-      "cuello",
-      "ropa"
+      "cuello"
     ]
   },
   {
@@ -27003,8 +26951,7 @@
     "version": 5,
     "annotation": "guantes",
     "tags": [
-      "mano",
-      "ropa"
+      "mano"
     ]
   },
   {
@@ -27115,7 +27062,6 @@
       "blusa",
       "camisa",
       "femenina",
-      "mujer",
       "ropa"
     ]
   },
@@ -27176,8 +27122,7 @@
       "accesorios",
       "bolso",
       "cartera",
-      "complementos",
-      "mujer"
+      "complementos"
     ]
   },
   {
@@ -27255,7 +27200,6 @@
     "tags": [
       "calzado",
       "correr",
-      "deporte",
       "ropa",
       "tenis"
     ]
@@ -27271,7 +27215,14 @@
     "order": 2190,
     "group": 0,
     "subgroup": 17,
-    "version": 11
+    "version": 11,
+    "annotation": "bota de senderismo",
+    "tags": [
+      "bota",
+      "camping",
+      "mochilero",
+      "senderismo"
+    ]
   },
   {
     "name": "FLAT SHOE",
@@ -27284,7 +27235,13 @@
     "order": 2191,
     "group": 0,
     "subgroup": 17,
-    "version": 11
+    "version": 11,
+    "annotation": "bailarina",
+    "tags": [
+      "calzado",
+      "mujer",
+      "zapato"
+    ]
   },
   {
     "name": "HIGH-HEELED SHOE",
@@ -27399,9 +27356,7 @@
     "version": 1,
     "annotation": "sombrero de copa",
     "tags": [
-      "accesorios",
       "chistera",
-      "complementos",
       "copa",
       "ropa",
       "sombrero"
@@ -27464,8 +27419,7 @@
       "ayuda",
       "cara",
       "casco",
-      "cruz",
-      "sombrero"
+      "cruz"
     ]
   },
   {
@@ -27704,7 +27658,13 @@
     "order": 2214,
     "group": 1,
     "subgroup": 18,
-    "version": 11
+    "version": 11,
+    "annotation": "mapache",
+    "tags": [
+      "astuto",
+      "curioso",
+      "ladino"
+    ]
   },
   {
     "name": "CAT FACE",
@@ -28049,7 +28009,6 @@
     "version": 1,
     "annotation": "nariz de cerdo",
     "tags": [
-      "animal",
       "cara",
       "cerdo",
       "morro",
@@ -28164,7 +28123,14 @@
     "order": 2239,
     "group": 1,
     "subgroup": 18,
-    "version": 11
+    "version": 11,
+    "annotation": "llama",
+    "tags": [
+      "alpaca",
+      "guanaco",
+      "lana",
+      "vicuña"
+    ]
   },
   {
     "name": "GIRAFFE FACE",
@@ -28229,7 +28195,11 @@
     "order": 2243,
     "group": 1,
     "subgroup": 18,
-    "version": 11
+    "version": 11,
+    "annotation": "hipopótamo",
+    "tags": [
+      "paquidermo"
+    ]
   },
   {
     "name": "MOUSE FACE",
@@ -28462,7 +28432,13 @@
     "order": 2257,
     "group": 1,
     "subgroup": 18,
-    "version": 11
+    "version": 11,
+    "annotation": "canguro",
+    "tags": [
+      "australia",
+      "marsupial",
+      "salto"
+    ]
   },
   {
     "name": "BADGER",
@@ -28475,7 +28451,13 @@
     "order": 2258,
     "group": 1,
     "subgroup": 18,
-    "version": 11
+    "version": 11,
+    "annotation": "tejón",
+    "tags": [
+      "ratel",
+      "tejón de la miel",
+      "tejón melero"
+    ]
   },
   {
     "name": "PAW PRINTS",
@@ -28567,10 +28549,8 @@
     "version": 1,
     "annotation": "pollito rompiendo el cascarón",
     "tags": [
-      "animal",
       "ave",
       "huevo",
-      "nacimiento de pollito",
       "pollito",
       "pollo"
     ]
@@ -28715,7 +28695,12 @@
     "order": 2272,
     "group": 1,
     "subgroup": 19,
-    "version": 11
+    "version": 11,
+    "annotation": "cisne",
+    "tags": [
+      "ave",
+      "patito feo"
+    ]
   },
   {
     "name": "OWL",
@@ -28747,7 +28732,14 @@
     "order": 2274,
     "group": 1,
     "subgroup": 19,
-    "version": 11
+    "version": 11,
+    "annotation": "pavo real",
+    "tags": [
+      "ave",
+      "orgulloso",
+      "pavo",
+      "plumas"
+    ]
   },
   {
     "name": "PARROT",
@@ -28760,7 +28752,14 @@
     "order": 2275,
     "group": 1,
     "subgroup": 19,
-    "version": 11
+    "version": 11,
+    "annotation": "loro",
+    "tags": [
+      "ave",
+      "hablar",
+      "papagayo",
+      "pirata"
+    ]
   },
   {
     "name": "FROG FACE",
@@ -28866,7 +28865,6 @@
     "version": 1,
     "annotation": "cara de dragón",
     "tags": [
-      "animal",
       "cara",
       "cuento",
       "dragón",
@@ -29125,7 +29123,12 @@
     "order": 2295,
     "group": 1,
     "subgroup": 22,
-    "version": 11
+    "version": 11,
+    "annotation": "langosta",
+    "tags": [
+      "marisco",
+      "pinzas"
+    ]
   },
   {
     "name": "SHRIMP",
@@ -29357,7 +29360,14 @@
     "order": 2310,
     "group": 1,
     "subgroup": 23,
-    "version": 11
+    "version": 11,
+    "annotation": "mosquito",
+    "tags": [
+      "fiebre",
+      "insecto",
+      "malaria",
+      "virus"
+    ]
   },
   {
     "name": "MICROBE",
@@ -29371,7 +29381,14 @@
     "order": 2311,
     "group": 1,
     "subgroup": 23,
-    "version": 11
+    "version": 11,
+    "annotation": "microbio",
+    "tags": [
+      "ameba",
+      "bacteria",
+      "germen",
+      "virus"
+    ]
   },
   {
     "name": "BOUQUET",
@@ -29918,7 +29935,12 @@
     "order": 2343,
     "group": 2,
     "subgroup": 26,
-    "version": 11
+    "version": 11,
+    "annotation": "mango",
+    "tags": [
+      "fruta",
+      "tropical"
+    ]
   },
   {
     "name": "RED APPLE",
@@ -30230,7 +30252,15 @@
     "order": 2361,
     "group": 2,
     "subgroup": 27,
-    "version": 11
+    "version": 11,
+    "annotation": "verdura de hoja verde",
+    "tags": [
+      "bok choy",
+      "kale",
+      "lechuga",
+      "pak choi",
+      "verdura de hoja"
+    ]
   },
   {
     "name": "BROCCOLI",
@@ -30395,7 +30425,13 @@
     "order": 2370,
     "group": 2,
     "subgroup": 28,
-    "version": 11
+    "version": 11,
+    "annotation": "bagel",
+    "tags": [
+      "bocadillo",
+      "pan",
+      "panadería"
+    ]
   },
   {
     "name": "PANCAKES",
@@ -30656,7 +30692,6 @@
     "tags": [
       "comida",
       "durum",
-      "dürüm",
       "falafel",
       "kebab",
       "pan de pita"
@@ -30799,7 +30834,12 @@
     "order": 2392,
     "group": 2,
     "subgroup": 28,
-    "version": 11
+    "version": 11,
+    "annotation": "sal",
+    "tags": [
+      "condimento",
+      "salero"
+    ]
   },
   {
     "name": "CANNED FOOD",
@@ -30983,13 +31023,12 @@
     "group": 2,
     "subgroup": 29,
     "version": 1,
-    "annotation": "oden",
+    "annotation": "brocheta",
     "tags": [
-      "brocheta",
+      "japonés",
       "marisco",
-      "pincho",
-      "pincho japonés",
-      "restaurante"
+      "oden",
+      "pincho"
     ]
   },
   {
@@ -31058,7 +31097,14 @@
     "order": 2406,
     "group": 2,
     "subgroup": 29,
-    "version": 11
+    "version": 11,
+    "annotation": "pastel de luna",
+    "tags": [
+      "festival",
+      "luna",
+      "otoño",
+      "yuebing"
+    ]
   },
   {
     "name": "DANGO",
@@ -31283,7 +31329,13 @@
     "order": 2418,
     "group": 2,
     "subgroup": 30,
-    "version": 11
+    "version": 11,
+    "annotation": "magdalena",
+    "tags": [
+      "cupcake",
+      "dulce",
+      "repostería"
+    ]
   },
   {
     "name": "PIE",
@@ -31538,7 +31590,6 @@
       "bar",
       "bebida",
       "copa",
-      "restaurante",
       "vaso",
       "vino"
     ]
@@ -31816,7 +31867,6 @@
     "annotation": "globo terráqueo mostrando Europa y África",
     "tags": [
       "europa",
-      "globo",
       "globo terráqueo mostrando europa y áfrica",
       "mundo",
       "tierra",
@@ -31862,7 +31912,6 @@
     "tags": [
       "asia",
       "australia",
-      "globo",
       "globo terráqueo mostrando asia y australia",
       "mundo",
       "tierra"
@@ -31938,7 +31987,13 @@
     "order": 2453,
     "group": 3,
     "subgroup": 33,
-    "version": 11
+    "version": 11,
+    "annotation": "brújula",
+    "tags": [
+      "magnético",
+      "navegación",
+      "orientación"
+    ]
   },
   {
     "name": "SNOW CAPPED MOUNTAIN",
@@ -32176,7 +32231,14 @@
     "order": 2476,
     "group": 3,
     "subgroup": 35,
-    "version": 11
+    "version": 11,
+    "annotation": "ladrillo",
+    "tags": [
+      "arcilla",
+      "cemento",
+      "muro",
+      "pared"
+    ]
   },
   {
     "name": "HOUSE BUILDINGS",
@@ -33563,7 +33625,12 @@
     "order": 2554,
     "group": 3,
     "subgroup": 38,
-    "version": 11
+    "version": 11,
+    "annotation": "monopatín",
+    "tags": [
+      "skateboard",
+      "tabla"
+    ]
   },
   {
     "name": "MOTOR SCOOTER",
@@ -33888,9 +33955,10 @@
     "subgroup": 39,
     "version": 1,
     "text": "⛴︎",
-    "annotation": "ferry",
+    "annotation": "ferri",
     "tags": [
-      "barco"
+      "barco",
+      "ferry"
     ]
   },
   {
@@ -34080,9 +34148,9 @@
     "annotation": "teleférico de montaña",
     "tags": [
       "cable",
+      "funicular",
       "montaña",
       "teleférico",
-      "vagón",
       "vehículo"
     ]
   },
@@ -34191,7 +34259,12 @@
     "order": 2597,
     "group": 3,
     "subgroup": 41,
-    "version": 11
+    "version": 11,
+    "annotation": "equipaje",
+    "tags": [
+      "maleta",
+      "viajar"
+    ]
   },
   {
     "name": "HOURGLASS",
@@ -35521,7 +35594,6 @@
     "text": "⚡︎",
     "annotation": "alto voltaje",
     "tags": [
-      "alto",
       "peligro",
       "peligro de alto voltaje",
       "señal",
@@ -35746,7 +35818,13 @@
     "order": 2699,
     "group": 4,
     "subgroup": 44,
-    "version": 11
+    "version": 11,
+    "annotation": "petardo",
+    "tags": [
+      "dinamita",
+      "explosivo",
+      "fuegos artificiales"
+    ]
   },
   {
     "name": "SPARKLES",
@@ -35834,15 +35912,12 @@
     "group": 4,
     "subgroup": 44,
     "version": 1,
-    "annotation": "árbol de Tanabata",
+    "annotation": "árbol de tanabata",
     "tags": [
       "celebración",
-      "festividad de estrellas",
-      "japonés",
+      "festividad",
       "tanabata",
-      "trozos papel",
-      "árbol",
-      "árbol de tanabata"
+      "árbol"
     ]
   },
   {
@@ -35861,10 +35936,10 @@
     "annotation": "decoración de pino",
     "tags": [
       "año nuevo japonés",
+      "bambú",
       "celebración",
       "decoración",
-      "kadomatsu",
-      "pino"
+      "kadomatsu"
     ]
   },
   {
@@ -35958,7 +36033,14 @@
     "order": 2710,
     "group": 4,
     "subgroup": 44,
-    "version": 11
+    "version": 11,
+    "annotation": "sobre rojo",
+    "tags": [
+      "buena suerte",
+      "hóngbāo",
+      "lai see",
+      "regalo"
+    ]
   },
   {
     "name": "RIBBON",
@@ -36218,7 +36300,13 @@
     "order": 2727,
     "group": 4,
     "subgroup": 46,
-    "version": 11
+    "version": 11,
+    "annotation": "pelota de softball",
+    "tags": [
+      "bola",
+      "pelota",
+      "softball"
+    ]
   },
   {
     "name": "BASKETBALL AND HOOP",
@@ -36326,7 +36414,12 @@
     "order": 2733,
     "group": 4,
     "subgroup": 46,
-    "version": 11
+    "version": 11,
+    "annotation": "disco volador",
+    "tags": [
+      "disco",
+      "frisbee"
+    ]
   },
   {
     "name": "BOWLING",
@@ -36379,7 +36472,6 @@
     "version": 1,
     "annotation": "hockey sobre hierba",
     "tags": [
-      "césped",
       "hierba",
       "hockey",
       "juego",
@@ -36418,7 +36510,14 @@
     "order": 2738,
     "group": 4,
     "subgroup": 46,
-    "version": 11
+    "version": 11,
+    "annotation": "lacrosse",
+    "tags": [
+      "bola",
+      "palo",
+      "pelota",
+      "raqueta"
+    ]
   },
   {
     "name": "TABLE TENNIS PADDLE AND BALL",
@@ -36494,12 +36593,9 @@
     "annotation": "uniforme de artes marciales",
     "tags": [
       "artes marciales",
-      "deporte",
       "judo",
       "kárate",
-      "taekwondo",
-      "uniforme",
-      "yudo"
+      "taekwondo"
     ]
   },
   {
@@ -36724,7 +36820,14 @@
     "order": 2755,
     "group": 4,
     "subgroup": 47,
-    "version": 11
+    "version": 11,
+    "annotation": "ojo turco",
+    "tags": [
+      "amuleto",
+      "mal de ojo",
+      "nazar",
+      "talismán"
+    ]
   },
   {
     "name": "VIDEO GAME",
@@ -36814,7 +36917,13 @@
     "order": 2761,
     "group": 4,
     "subgroup": 47,
-    "version": 11
+    "version": 11,
+    "annotation": "puzle",
+    "tags": [
+      "conectar",
+      "pieza",
+      "pista"
+    ]
   },
   {
     "name": "TEDDY BEAR",
@@ -36827,7 +36936,13 @@
     "order": 2762,
     "group": 4,
     "subgroup": 47,
-    "version": 11
+    "version": 11,
+    "annotation": "osito de peluche",
+    "tags": [
+      "juguete",
+      "oso",
+      "peluche"
+    ]
   },
   {
     "name": "BLACK SPADE SUIT",
@@ -36925,7 +37040,12 @@
     "group": 4,
     "subgroup": 47,
     "version": 11,
-    "text": "♟︎"
+    "text": "♟︎",
+    "annotation": "peón de ajedrez",
+    "tags": [
+      "ajedrez",
+      "peón"
+    ]
   },
   {
     "name": "PLAYING CARD BLACK JOKER",
@@ -36981,10 +37101,7 @@
       "carta",
       "flor",
       "hanafuda",
-      "juego",
-      "juego cartas",
-      "naipe",
-      "naipe de flor"
+      "naipe"
     ]
   },
   {
@@ -37059,7 +37176,14 @@
     "order": 2780,
     "group": 4,
     "subgroup": 48,
-    "version": 11
+    "version": 11,
+    "annotation": "hilo",
+    "tags": [
+      "aguja",
+      "carrete",
+      "coser",
+      "costura"
+    ]
   },
   {
     "name": "BALL OF YARN",
@@ -37072,7 +37196,14 @@
     "order": 2781,
     "group": 4,
     "subgroup": 48,
-    "version": 11
+    "version": 11,
+    "annotation": "ovillo",
+    "tags": [
+      "bola",
+      "croché",
+      "punto",
+      "tejer"
+    ]
   },
   {
     "name": "SPEAKER WITH CANCELLATION STROKE",
@@ -37111,8 +37242,7 @@
     "text": "🔈︎",
     "annotation": "altavoz a volumen bajo",
     "tags": [
-      "altavoz",
-      "volumen"
+      "volumen bajo"
     ]
   },
   {
@@ -37880,7 +38010,11 @@
     "order": 2833,
     "group": 5,
     "subgroup": 53,
-    "version": 11
+    "version": 11,
+    "annotation": "ábaco",
+    "tags": [
+      "cálculo"
+    ]
   },
   {
     "name": "MOVIE CAMERA",
@@ -38620,7 +38754,14 @@
     "order": 2878,
     "group": 5,
     "subgroup": 56,
-    "version": 11
+    "version": 11,
+    "annotation": "recibo",
+    "tags": [
+      "contabilidad",
+      "prueba",
+      "teneduría de libros",
+      "testimonio"
+    ]
   },
   {
     "name": "CHART WITH UPWARDS TREND AND YEN SIGN",
@@ -38737,7 +38878,6 @@
       "comunicación",
       "correo",
       "correo electrónico",
-      "correo recibido",
       "sobre"
     ]
   },
@@ -38759,7 +38899,6 @@
       "comunicación",
       "correo",
       "correo electrónico",
-      "correo enviado",
       "sobre"
     ]
   },
@@ -39574,8 +39713,7 @@
       "cerrado",
       "estilográfica",
       "pluma",
-      "privacidad",
-      "tinta"
+      "privacidad"
     ]
   },
   {
@@ -39785,7 +39923,6 @@
     "annotation": "arco y flecha",
     "tags": [
       "arco",
-      "arma",
       "arquero",
       "flecha",
       "sagitario",
@@ -39951,7 +40088,13 @@
     "order": 2974,
     "group": 5,
     "subgroup": 61,
-    "version": 11
+    "version": 11,
+    "annotation": "caja de herramientas",
+    "tags": [
+      "armario",
+      "herramienta",
+      "mecánico"
+    ]
   },
   {
     "name": "MAGNET",
@@ -39964,7 +40107,13 @@
     "order": 2975,
     "group": 5,
     "subgroup": 61,
-    "version": 11
+    "version": 11,
+    "annotation": "imán",
+    "tags": [
+      "atracción",
+      "herradura",
+      "magnético"
+    ]
   },
   {
     "name": "ALEMBIC",
@@ -39996,7 +40145,15 @@
     "order": 2978,
     "group": 5,
     "subgroup": 62,
-    "version": 11
+    "version": 11,
+    "annotation": "tubo de ensayo",
+    "tags": [
+      "ciencia",
+      "experimento",
+      "laboratorio",
+      "química",
+      "químico"
+    ]
   },
   {
     "name": "PETRI DISH",
@@ -40009,7 +40166,15 @@
     "order": 2979,
     "group": 5,
     "subgroup": 62,
-    "version": 11
+    "version": 11,
+    "annotation": "placa de petri",
+    "tags": [
+      "bacterias",
+      "biología",
+      "biólogo",
+      "cultivo",
+      "laboratorio"
+    ]
   },
   {
     "name": "DNA DOUBLE HELIX",
@@ -40023,7 +40188,15 @@
     "order": 2980,
     "group": 5,
     "subgroup": 62,
-    "version": 11
+    "version": 11,
+    "annotation": "adn",
+    "tags": [
+      "biólogo",
+      "evolución",
+      "gen",
+      "genética",
+      "vida"
+    ]
   },
   {
     "name": "MICROSCOPE",
@@ -40241,7 +40414,14 @@
     "order": 2994,
     "group": 5,
     "subgroup": 64,
-    "version": 11
+    "version": 11,
+    "annotation": "bote de crema",
+    "tags": [
+      "champú",
+      "crema",
+      "hidratante",
+      "protector solar"
+    ]
   },
   {
     "name": "SAFETY PIN",
@@ -40254,7 +40434,12 @@
     "order": 2995,
     "group": 5,
     "subgroup": 64,
-    "version": 11
+    "version": 11,
+    "annotation": "imperdible",
+    "tags": [
+      "pañal",
+      "punk rock"
+    ]
   },
   {
     "name": "BROOM",
@@ -40267,7 +40452,13 @@
     "order": 2996,
     "group": 5,
     "subgroup": 64,
-    "version": 11
+    "version": 11,
+    "annotation": "escoba",
+    "tags": [
+      "barrer",
+      "bruja",
+      "fregar"
+    ]
   },
   {
     "name": "BASKET",
@@ -40280,7 +40471,13 @@
     "order": 2997,
     "group": 5,
     "subgroup": 64,
-    "version": 11
+    "version": 11,
+    "annotation": "cesta",
+    "tags": [
+      "colada",
+      "cosecha",
+      "pícnic"
+    ]
   },
   {
     "name": "ROLL OF PAPER",
@@ -40293,7 +40490,12 @@
     "order": 2998,
     "group": 5,
     "subgroup": 64,
-    "version": 11
+    "version": 11,
+    "annotation": "rollo de papel",
+    "tags": [
+      "papel absorbente",
+      "papel higiénico"
+    ]
   },
   {
     "name": "BAR OF SOAP",
@@ -40306,7 +40508,15 @@
     "order": 2999,
     "group": 5,
     "subgroup": 64,
-    "version": 11
+    "version": 11,
+    "annotation": "jabón",
+    "tags": [
+      "bañarse",
+      "enjabonarse",
+      "jabonera",
+      "lavarse",
+      "pastilla"
+    ]
   },
   {
     "name": "SPONGE",
@@ -40319,7 +40529,13 @@
     "order": 3000,
     "group": 5,
     "subgroup": 64,
-    "version": 11
+    "version": 11,
+    "annotation": "esponja",
+    "tags": [
+      "absorbente",
+      "limpiar",
+      "poroso"
+    ]
   },
   {
     "name": "FIRE EXTINGUISHER",
@@ -40332,7 +40548,13 @@
     "order": 3001,
     "group": 5,
     "subgroup": 64,
-    "version": 11
+    "version": 11,
+    "annotation": "extintor",
+    "tags": [
+      "apagar",
+      "extinguir",
+      "incendio"
+    ]
   },
   {
     "name": "SHOPPING TROLLEY",
@@ -40525,7 +40747,7 @@
     "annotation": "aseo para hombres",
     "tags": [
       "aseo de caballeros",
-      "lavabo",
+      "baño",
       "servicio",
       "señal",
       "señal con un hombre"
@@ -40547,7 +40769,7 @@
     "annotation": "señal de aseo para mujeres",
     "tags": [
       "aseo de señoras",
-      "lavabo",
+      "baño",
       "servicio",
       "señal",
       "señal con una mujer"
@@ -40979,7 +41201,6 @@
       "derecha",
       "dirección",
       "flecha",
-      "flecha esquina derecha",
       "noreste"
     ]
   },
@@ -41023,7 +41244,6 @@
       "derecha",
       "dirección",
       "flecha",
-      "flecha esquina derecha",
       "sudeste"
     ]
   },
@@ -41066,7 +41286,6 @@
       "abajo",
       "dirección",
       "flecha",
-      "flecha esquina izquierda",
       "izquierda",
       "suroeste"
     ]
@@ -41109,7 +41328,6 @@
       "arriba",
       "dirección",
       "flecha",
-      "flecha esquina izquierda",
       "izquierda",
       "noroeste"
     ]
@@ -41276,7 +41494,6 @@
     "tags": [
       "dirección",
       "flechas",
-      "flechas verticales sentido antihorario",
       "sentido antihorario",
       "señal de recarga"
     ]
@@ -41317,7 +41534,6 @@
     "version": 1,
     "annotation": "flecha END",
     "tags": [
-      "back",
       "final",
       "final con flecha izquierda",
       "flecha",
@@ -41339,13 +41555,11 @@
     "version": 1,
     "annotation": "flecha ON!",
     "tags": [
-      "atrás con flecha izquierda",
-      "back",
       "flecha",
-      "flecha a la izquierda",
-      "flecha atrás",
+      "flecha de doble punta con la palabra \"on\" encima",
       "flecha on!",
-      "on"
+      "on",
+      "señal"
     ]
   },
   {
@@ -42312,9 +42526,7 @@
     "annotation": "barras de cobertura",
     "tags": [
       "antena",
-      "antena con barras",
-      "barras",
-      "intensidad de señal",
+      "celular",
       "móvil",
       "señal",
       "teléfono"
@@ -42420,10 +42632,7 @@
       "asclepio",
       "esculapio",
       "medicina",
-      "médico",
-      "serpiente",
-      "símbolo",
-      "vara"
+      "serpiente"
     ]
   },
   {
@@ -42438,7 +42647,13 @@
     "group": 6,
     "subgroup": 72,
     "version": 11,
-    "text": "♾︎"
+    "text": "♾︎",
+    "annotation": "infinito",
+    "tags": [
+      "ilimitado",
+      "siempre",
+      "universal"
+    ]
   },
   {
     "name": "BLACK UNIVERSAL RECYCLING SYMBOL",
@@ -44603,17 +44818,12 @@
     "group": 7,
     "subgroup": 76,
     "version": 11,
+    "annotation": "bandera pirata",
     "tags": [
-      "bandera",
-      "calavera",
-      "calavera y huesos cruzados",
-      "cara",
-      "cruzados",
-      "huesos",
-      "monstruo",
-      "muerte",
-      "negra",
-      "ondear"
+      "botín",
+      "jolly roger",
+      "pirata",
+      "tesoro"
     ]
   },
   {
@@ -44628,7 +44838,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Isla de la Ascensión",
+    "annotation": "Bandera: Isla de la Ascensión",
     "tags": [
       "AC",
       "bandera"
@@ -44646,7 +44856,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Andorra",
+    "annotation": "Bandera: Andorra",
     "tags": [
       "AD",
       "bandera"
@@ -44664,7 +44874,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Emiratos Árabes Unidos",
+    "annotation": "Bandera: Emiratos Árabes Unidos",
     "tags": [
       "AE",
       "bandera"
@@ -44682,7 +44892,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Afganistán",
+    "annotation": "Bandera: Afganistán",
     "tags": [
       "AF",
       "bandera"
@@ -44700,7 +44910,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Antigua y Barbuda",
+    "annotation": "Bandera: Antigua y Barbuda",
     "tags": [
       "AG",
       "bandera"
@@ -44718,7 +44928,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Anguila",
+    "annotation": "Bandera: Anguila",
     "tags": [
       "AI",
       "bandera"
@@ -44736,7 +44946,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Albania",
+    "annotation": "Bandera: Albania",
     "tags": [
       "AL",
       "bandera"
@@ -44754,7 +44964,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Armenia",
+    "annotation": "Bandera: Armenia",
     "tags": [
       "AM",
       "bandera"
@@ -44772,7 +44982,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Angola",
+    "annotation": "Bandera: Angola",
     "tags": [
       "AO",
       "bandera"
@@ -44790,7 +45000,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Antártida",
+    "annotation": "Bandera: Antártida",
     "tags": [
       "AQ",
       "bandera"
@@ -44808,7 +45018,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Argentina",
+    "annotation": "Bandera: Argentina",
     "tags": [
       "AR",
       "bandera"
@@ -44826,7 +45036,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Samoa Americana",
+    "annotation": "Bandera: Samoa Americana",
     "tags": [
       "AS",
       "bandera"
@@ -44844,7 +45054,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Austria",
+    "annotation": "Bandera: Austria",
     "tags": [
       "AT",
       "bandera"
@@ -44862,7 +45072,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Australia",
+    "annotation": "Bandera: Australia",
     "tags": [
       "AU",
       "bandera"
@@ -44880,7 +45090,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Aruba",
+    "annotation": "Bandera: Aruba",
     "tags": [
       "AW",
       "bandera"
@@ -44898,7 +45108,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Islas Åland",
+    "annotation": "Bandera: Islas Åland",
     "tags": [
       "AX",
       "bandera"
@@ -44916,7 +45126,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Azerbaiyán",
+    "annotation": "Bandera: Azerbaiyán",
     "tags": [
       "AZ",
       "bandera"
@@ -44934,7 +45144,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Bosnia y Herzegovina",
+    "annotation": "Bandera: Bosnia y Herzegovina",
     "tags": [
       "BA",
       "bandera"
@@ -44952,7 +45162,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Barbados",
+    "annotation": "Bandera: Barbados",
     "tags": [
       "BB",
       "bandera"
@@ -44970,7 +45180,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Bangladés",
+    "annotation": "Bandera: Bangladés",
     "tags": [
       "BD",
       "bandera"
@@ -44988,7 +45198,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Bélgica",
+    "annotation": "Bandera: Bélgica",
     "tags": [
       "BE",
       "bandera"
@@ -45006,7 +45216,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Burkina Faso",
+    "annotation": "Bandera: Burkina Faso",
     "tags": [
       "BF",
       "bandera"
@@ -45024,7 +45234,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Bulgaria",
+    "annotation": "Bandera: Bulgaria",
     "tags": [
       "BG",
       "bandera"
@@ -45042,7 +45252,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Baréin",
+    "annotation": "Bandera: Baréin",
     "tags": [
       "BH",
       "bandera"
@@ -45060,7 +45270,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Burundi",
+    "annotation": "Bandera: Burundi",
     "tags": [
       "BI",
       "bandera"
@@ -45078,7 +45288,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Benín",
+    "annotation": "Bandera: Benín",
     "tags": [
       "BJ",
       "bandera"
@@ -45096,7 +45306,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "San Bartolomé",
+    "annotation": "Bandera: San Bartolomé",
     "tags": [
       "BL",
       "bandera"
@@ -45114,7 +45324,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Bermudas",
+    "annotation": "Bandera: Bermudas",
     "tags": [
       "BM",
       "bandera"
@@ -45132,7 +45342,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Brunéi",
+    "annotation": "Bandera: Brunéi",
     "tags": [
       "BN",
       "bandera"
@@ -45150,7 +45360,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Bolivia",
+    "annotation": "Bandera: Bolivia",
     "tags": [
       "BO",
       "bandera"
@@ -45168,7 +45378,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Caribe neerlandés",
+    "annotation": "Bandera: Caribe neerlandés",
     "tags": [
       "BQ",
       "bandera"
@@ -45186,7 +45396,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Brasil",
+    "annotation": "Bandera: Brasil",
     "tags": [
       "BR",
       "bandera"
@@ -45204,7 +45414,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Bahamas",
+    "annotation": "Bandera: Bahamas",
     "tags": [
       "BS",
       "bandera"
@@ -45222,7 +45432,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Bután",
+    "annotation": "Bandera: Bután",
     "tags": [
       "BT",
       "bandera"
@@ -45240,7 +45450,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Isla Bouvet",
+    "annotation": "Bandera: Isla Bouvet",
     "tags": [
       "BV",
       "bandera"
@@ -45258,7 +45468,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Botsuana",
+    "annotation": "Bandera: Botsuana",
     "tags": [
       "BW",
       "bandera"
@@ -45276,7 +45486,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Bielorrusia",
+    "annotation": "Bandera: Bielorrusia",
     "tags": [
       "BY",
       "bandera"
@@ -45294,7 +45504,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Belice",
+    "annotation": "Bandera: Belice",
     "tags": [
       "BZ",
       "bandera"
@@ -45312,7 +45522,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Canadá",
+    "annotation": "Bandera: Canadá",
     "tags": [
       "CA",
       "bandera"
@@ -45330,7 +45540,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Islas Cocos",
+    "annotation": "Bandera: Islas Cocos",
     "tags": [
       "CC",
       "bandera"
@@ -45348,7 +45558,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "República Democrática del Congo",
+    "annotation": "Bandera: República Democrática del Congo",
     "tags": [
       "CD",
       "bandera"
@@ -45366,7 +45576,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "República Centroafricana",
+    "annotation": "Bandera: República Centroafricana",
     "tags": [
       "CF",
       "bandera"
@@ -45384,7 +45594,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "República del Congo",
+    "annotation": "Bandera: República del Congo",
     "tags": [
       "CG",
       "bandera"
@@ -45402,7 +45612,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Suiza",
+    "annotation": "Bandera: Suiza",
     "tags": [
       "CH",
       "bandera"
@@ -45420,7 +45630,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Côte d’Ivoire",
+    "annotation": "Bandera: Côte d’Ivoire",
     "tags": [
       "CI",
       "bandera"
@@ -45438,7 +45648,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Islas Cook",
+    "annotation": "Bandera: Islas Cook",
     "tags": [
       "CK",
       "bandera"
@@ -45456,7 +45666,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Chile",
+    "annotation": "Bandera: Chile",
     "tags": [
       "CL",
       "bandera"
@@ -45474,7 +45684,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Camerún",
+    "annotation": "Bandera: Camerún",
     "tags": [
       "CM",
       "bandera"
@@ -45492,7 +45702,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "China",
+    "annotation": "Bandera: China",
     "tags": [
       "CN",
       "bandera"
@@ -45510,7 +45720,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Colombia",
+    "annotation": "Bandera: Colombia",
     "tags": [
       "CO",
       "bandera"
@@ -45528,7 +45738,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Isla Clipperton",
+    "annotation": "Bandera: Isla Clipperton",
     "tags": [
       "CP",
       "bandera"
@@ -45546,7 +45756,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Costa Rica",
+    "annotation": "Bandera: Costa Rica",
     "tags": [
       "CR",
       "bandera"
@@ -45564,7 +45774,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Cuba",
+    "annotation": "Bandera: Cuba",
     "tags": [
       "CU",
       "bandera"
@@ -45582,7 +45792,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Cabo Verde",
+    "annotation": "Bandera: Cabo Verde",
     "tags": [
       "CV",
       "bandera"
@@ -45600,7 +45810,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Curazao",
+    "annotation": "Bandera: Curazao",
     "tags": [
       "CW",
       "bandera"
@@ -45618,7 +45828,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Isla de Navidad",
+    "annotation": "Bandera: Isla de Navidad",
     "tags": [
       "CX",
       "bandera"
@@ -45636,7 +45846,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Chipre",
+    "annotation": "Bandera: Chipre",
     "tags": [
       "CY",
       "bandera"
@@ -45654,7 +45864,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Chequia",
+    "annotation": "Bandera: Chequia",
     "tags": [
       "CZ",
       "bandera"
@@ -45672,7 +45882,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Alemania",
+    "annotation": "Bandera: Alemania",
     "tags": [
       "DE",
       "bandera"
@@ -45690,7 +45900,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Diego García",
+    "annotation": "Bandera: Diego García",
     "tags": [
       "DG",
       "bandera"
@@ -45708,7 +45918,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Yibuti",
+    "annotation": "Bandera: Yibuti",
     "tags": [
       "DJ",
       "bandera"
@@ -45726,7 +45936,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Dinamarca",
+    "annotation": "Bandera: Dinamarca",
     "tags": [
       "DK",
       "bandera"
@@ -45744,7 +45954,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Dominica",
+    "annotation": "Bandera: Dominica",
     "tags": [
       "DM",
       "bandera"
@@ -45762,7 +45972,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "República Dominicana",
+    "annotation": "Bandera: República Dominicana",
     "tags": [
       "DO",
       "bandera"
@@ -45780,7 +45990,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Argelia",
+    "annotation": "Bandera: Argelia",
     "tags": [
       "DZ",
       "bandera"
@@ -45798,7 +46008,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Ceuta y Melilla",
+    "annotation": "Bandera: Ceuta y Melilla",
     "tags": [
       "EA",
       "bandera"
@@ -45816,7 +46026,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Ecuador",
+    "annotation": "Bandera: Ecuador",
     "tags": [
       "EC",
       "bandera"
@@ -45834,7 +46044,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Estonia",
+    "annotation": "Bandera: Estonia",
     "tags": [
       "EE",
       "bandera"
@@ -45852,7 +46062,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Egipto",
+    "annotation": "Bandera: Egipto",
     "tags": [
       "EG",
       "bandera"
@@ -45870,7 +46080,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Sáhara Occidental",
+    "annotation": "Bandera: Sáhara Occidental",
     "tags": [
       "EH",
       "bandera"
@@ -45888,7 +46098,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Eritrea",
+    "annotation": "Bandera: Eritrea",
     "tags": [
       "ER",
       "bandera"
@@ -45906,7 +46116,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "España",
+    "annotation": "Bandera: España",
     "tags": [
       "ES",
       "bandera"
@@ -45924,7 +46134,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Etiopía",
+    "annotation": "Bandera: Etiopía",
     "tags": [
       "ET",
       "bandera"
@@ -45942,7 +46152,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Unión Europea",
+    "annotation": "Bandera: Unión Europea",
     "tags": [
       "EU",
       "bandera"
@@ -45960,7 +46170,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Finlandia",
+    "annotation": "Bandera: Finlandia",
     "tags": [
       "FI",
       "bandera"
@@ -45978,7 +46188,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Fiyi",
+    "annotation": "Bandera: Fiyi",
     "tags": [
       "FJ",
       "bandera"
@@ -45996,7 +46206,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Islas Malvinas",
+    "annotation": "Bandera: Islas Malvinas",
     "tags": [
       "FK",
       "bandera"
@@ -46014,7 +46224,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Micronesia",
+    "annotation": "Bandera: Micronesia",
     "tags": [
       "FM",
       "bandera"
@@ -46032,7 +46242,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Islas Feroe",
+    "annotation": "Bandera: Islas Feroe",
     "tags": [
       "FO",
       "bandera"
@@ -46050,7 +46260,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Francia",
+    "annotation": "Bandera: Francia",
     "tags": [
       "FR",
       "bandera"
@@ -46068,7 +46278,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Gabón",
+    "annotation": "Bandera: Gabón",
     "tags": [
       "GA",
       "bandera"
@@ -46086,7 +46296,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Reino Unido",
+    "annotation": "Bandera: Reino Unido",
     "tags": [
       "GB",
       "bandera"
@@ -46104,7 +46314,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Granada",
+    "annotation": "Bandera: Granada",
     "tags": [
       "GD",
       "bandera"
@@ -46122,7 +46332,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Georgia",
+    "annotation": "Bandera: Georgia",
     "tags": [
       "GE",
       "bandera"
@@ -46140,7 +46350,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Guayana Francesa",
+    "annotation": "Bandera: Guayana Francesa",
     "tags": [
       "GF",
       "bandera"
@@ -46158,7 +46368,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Guernsey",
+    "annotation": "Bandera: Guernsey",
     "tags": [
       "GG",
       "bandera"
@@ -46176,7 +46386,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Ghana",
+    "annotation": "Bandera: Ghana",
     "tags": [
       "GH",
       "bandera"
@@ -46194,7 +46404,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Gibraltar",
+    "annotation": "Bandera: Gibraltar",
     "tags": [
       "GI",
       "bandera"
@@ -46212,7 +46422,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Groenlandia",
+    "annotation": "Bandera: Groenlandia",
     "tags": [
       "GL",
       "bandera"
@@ -46230,7 +46440,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Gambia",
+    "annotation": "Bandera: Gambia",
     "tags": [
       "GM",
       "bandera"
@@ -46248,7 +46458,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Guinea",
+    "annotation": "Bandera: Guinea",
     "tags": [
       "GN",
       "bandera"
@@ -46266,7 +46476,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Guadalupe",
+    "annotation": "Bandera: Guadalupe",
     "tags": [
       "GP",
       "bandera"
@@ -46284,7 +46494,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Guinea Ecuatorial",
+    "annotation": "Bandera: Guinea Ecuatorial",
     "tags": [
       "GQ",
       "bandera"
@@ -46302,7 +46512,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Grecia",
+    "annotation": "Bandera: Grecia",
     "tags": [
       "GR",
       "bandera"
@@ -46320,7 +46530,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Islas Georgia del Sur y Sandwich del Sur",
+    "annotation": "Bandera: Islas Georgia del Sur y Sandwich del Sur",
     "tags": [
       "GS",
       "bandera"
@@ -46338,7 +46548,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Guatemala",
+    "annotation": "Bandera: Guatemala",
     "tags": [
       "GT",
       "bandera"
@@ -46356,7 +46566,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Guam",
+    "annotation": "Bandera: Guam",
     "tags": [
       "GU",
       "bandera"
@@ -46374,7 +46584,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Guinea-Bisáu",
+    "annotation": "Bandera: Guinea-Bisáu",
     "tags": [
       "GW",
       "bandera"
@@ -46392,7 +46602,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Guyana",
+    "annotation": "Bandera: Guyana",
     "tags": [
       "GY",
       "bandera"
@@ -46410,7 +46620,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "RAE de Hong Kong (China)",
+    "annotation": "Bandera: RAE de Hong Kong (China)",
     "tags": [
       "HK",
       "bandera"
@@ -46428,7 +46638,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Islas Heard y McDonald",
+    "annotation": "Bandera: Islas Heard y McDonald",
     "tags": [
       "HM",
       "bandera"
@@ -46446,7 +46656,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Honduras",
+    "annotation": "Bandera: Honduras",
     "tags": [
       "HN",
       "bandera"
@@ -46464,7 +46674,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Croacia",
+    "annotation": "Bandera: Croacia",
     "tags": [
       "HR",
       "bandera"
@@ -46482,7 +46692,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Haití",
+    "annotation": "Bandera: Haití",
     "tags": [
       "HT",
       "bandera"
@@ -46500,7 +46710,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Hungría",
+    "annotation": "Bandera: Hungría",
     "tags": [
       "HU",
       "bandera"
@@ -46518,7 +46728,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Canarias",
+    "annotation": "Bandera: Canarias",
     "tags": [
       "IC",
       "bandera"
@@ -46536,7 +46746,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Indonesia",
+    "annotation": "Bandera: Indonesia",
     "tags": [
       "ID",
       "bandera"
@@ -46554,7 +46764,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Irlanda",
+    "annotation": "Bandera: Irlanda",
     "tags": [
       "IE",
       "bandera"
@@ -46572,7 +46782,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Israel",
+    "annotation": "Bandera: Israel",
     "tags": [
       "IL",
       "bandera"
@@ -46590,7 +46800,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Isla de Man",
+    "annotation": "Bandera: Isla de Man",
     "tags": [
       "IM",
       "bandera"
@@ -46608,7 +46818,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "India",
+    "annotation": "Bandera: India",
     "tags": [
       "IN",
       "bandera"
@@ -46626,7 +46836,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Territorio Británico del Océano Índico",
+    "annotation": "Bandera: Territorio Británico del Océano Índico",
     "tags": [
       "IO",
       "bandera"
@@ -46644,7 +46854,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Irak",
+    "annotation": "Bandera: Irak",
     "tags": [
       "IQ",
       "bandera"
@@ -46662,7 +46872,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Irán",
+    "annotation": "Bandera: Irán",
     "tags": [
       "IR",
       "bandera"
@@ -46680,7 +46890,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Islandia",
+    "annotation": "Bandera: Islandia",
     "tags": [
       "IS",
       "bandera"
@@ -46698,7 +46908,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Italia",
+    "annotation": "Bandera: Italia",
     "tags": [
       "IT",
       "bandera"
@@ -46716,7 +46926,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Jersey",
+    "annotation": "Bandera: Jersey",
     "tags": [
       "JE",
       "bandera"
@@ -46734,7 +46944,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Jamaica",
+    "annotation": "Bandera: Jamaica",
     "tags": [
       "JM",
       "bandera"
@@ -46752,7 +46962,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Jordania",
+    "annotation": "Bandera: Jordania",
     "tags": [
       "JO",
       "bandera"
@@ -46770,7 +46980,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Japón",
+    "annotation": "Bandera: Japón",
     "tags": [
       "JP",
       "bandera"
@@ -46788,7 +46998,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Kenia",
+    "annotation": "Bandera: Kenia",
     "tags": [
       "KE",
       "bandera"
@@ -46806,7 +47016,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Kirguistán",
+    "annotation": "Bandera: Kirguistán",
     "tags": [
       "KG",
       "bandera"
@@ -46824,7 +47034,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Camboya",
+    "annotation": "Bandera: Camboya",
     "tags": [
       "KH",
       "bandera"
@@ -46842,7 +47052,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Kiribati",
+    "annotation": "Bandera: Kiribati",
     "tags": [
       "KI",
       "bandera"
@@ -46860,7 +47070,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Comoras",
+    "annotation": "Bandera: Comoras",
     "tags": [
       "KM",
       "bandera"
@@ -46878,7 +47088,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "San Cristóbal y Nieves",
+    "annotation": "Bandera: San Cristóbal y Nieves",
     "tags": [
       "KN",
       "bandera"
@@ -46896,7 +47106,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Corea del Norte",
+    "annotation": "Bandera: Corea del Norte",
     "tags": [
       "KP",
       "bandera"
@@ -46914,7 +47124,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Corea del Sur",
+    "annotation": "Bandera: Corea del Sur",
     "tags": [
       "KR",
       "bandera"
@@ -46932,7 +47142,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Kuwait",
+    "annotation": "Bandera: Kuwait",
     "tags": [
       "KW",
       "bandera"
@@ -46950,7 +47160,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Islas Caimán",
+    "annotation": "Bandera: Islas Caimán",
     "tags": [
       "KY",
       "bandera"
@@ -46968,7 +47178,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Kazajistán",
+    "annotation": "Bandera: Kazajistán",
     "tags": [
       "KZ",
       "bandera"
@@ -46986,7 +47196,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Laos",
+    "annotation": "Bandera: Laos",
     "tags": [
       "LA",
       "bandera"
@@ -47004,7 +47214,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Líbano",
+    "annotation": "Bandera: Líbano",
     "tags": [
       "LB",
       "bandera"
@@ -47022,7 +47232,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Santa Lucía",
+    "annotation": "Bandera: Santa Lucía",
     "tags": [
       "LC",
       "bandera"
@@ -47040,7 +47250,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Liechtenstein",
+    "annotation": "Bandera: Liechtenstein",
     "tags": [
       "LI",
       "bandera"
@@ -47058,7 +47268,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Sri Lanka",
+    "annotation": "Bandera: Sri Lanka",
     "tags": [
       "LK",
       "bandera"
@@ -47076,7 +47286,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Liberia",
+    "annotation": "Bandera: Liberia",
     "tags": [
       "LR",
       "bandera"
@@ -47094,7 +47304,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Lesoto",
+    "annotation": "Bandera: Lesoto",
     "tags": [
       "LS",
       "bandera"
@@ -47112,7 +47322,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Lituania",
+    "annotation": "Bandera: Lituania",
     "tags": [
       "LT",
       "bandera"
@@ -47130,7 +47340,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Luxemburgo",
+    "annotation": "Bandera: Luxemburgo",
     "tags": [
       "LU",
       "bandera"
@@ -47148,7 +47358,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Letonia",
+    "annotation": "Bandera: Letonia",
     "tags": [
       "LV",
       "bandera"
@@ -47166,7 +47376,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Libia",
+    "annotation": "Bandera: Libia",
     "tags": [
       "LY",
       "bandera"
@@ -47184,7 +47394,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Marruecos",
+    "annotation": "Bandera: Marruecos",
     "tags": [
       "MA",
       "bandera"
@@ -47202,7 +47412,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Mónaco",
+    "annotation": "Bandera: Mónaco",
     "tags": [
       "MC",
       "bandera"
@@ -47220,7 +47430,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Moldavia",
+    "annotation": "Bandera: Moldavia",
     "tags": [
       "MD",
       "bandera"
@@ -47238,7 +47448,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Montenegro",
+    "annotation": "Bandera: Montenegro",
     "tags": [
       "ME",
       "bandera"
@@ -47256,7 +47466,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "San Martín",
+    "annotation": "Bandera: San Martín",
     "tags": [
       "MF",
       "bandera"
@@ -47274,7 +47484,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Madagascar",
+    "annotation": "Bandera: Madagascar",
     "tags": [
       "MG",
       "bandera"
@@ -47292,7 +47502,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Islas Marshall",
+    "annotation": "Bandera: Islas Marshall",
     "tags": [
       "MH",
       "bandera"
@@ -47310,7 +47520,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Macedonia",
+    "annotation": "Bandera: Macedonia",
     "tags": [
       "MK",
       "bandera"
@@ -47328,7 +47538,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Mali",
+    "annotation": "Bandera: Mali",
     "tags": [
       "ML",
       "bandera"
@@ -47346,7 +47556,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Myanmar (Birmania)",
+    "annotation": "Bandera: Myanmar (Birmania)",
     "tags": [
       "MM",
       "bandera"
@@ -47364,7 +47574,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Mongolia",
+    "annotation": "Bandera: Mongolia",
     "tags": [
       "MN",
       "bandera"
@@ -47382,7 +47592,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "RAE de Macao (China)",
+    "annotation": "Bandera: RAE de Macao (China)",
     "tags": [
       "MO",
       "bandera"
@@ -47400,7 +47610,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Islas Marianas del Norte",
+    "annotation": "Bandera: Islas Marianas del Norte",
     "tags": [
       "MP",
       "bandera"
@@ -47418,7 +47628,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Martinica",
+    "annotation": "Bandera: Martinica",
     "tags": [
       "MQ",
       "bandera"
@@ -47436,7 +47646,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Mauritania",
+    "annotation": "Bandera: Mauritania",
     "tags": [
       "MR",
       "bandera"
@@ -47454,7 +47664,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Montserrat",
+    "annotation": "Bandera: Montserrat",
     "tags": [
       "MS",
       "bandera"
@@ -47472,7 +47682,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Malta",
+    "annotation": "Bandera: Malta",
     "tags": [
       "MT",
       "bandera"
@@ -47490,7 +47700,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Mauricio",
+    "annotation": "Bandera: Mauricio",
     "tags": [
       "MU",
       "bandera"
@@ -47508,7 +47718,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Maldivas",
+    "annotation": "Bandera: Maldivas",
     "tags": [
       "MV",
       "bandera"
@@ -47526,7 +47736,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Malaui",
+    "annotation": "Bandera: Malaui",
     "tags": [
       "MW",
       "bandera"
@@ -47544,7 +47754,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "México",
+    "annotation": "Bandera: México",
     "tags": [
       "MX",
       "bandera"
@@ -47562,7 +47772,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Malasia",
+    "annotation": "Bandera: Malasia",
     "tags": [
       "MY",
       "bandera"
@@ -47580,7 +47790,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Mozambique",
+    "annotation": "Bandera: Mozambique",
     "tags": [
       "MZ",
       "bandera"
@@ -47598,7 +47808,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Namibia",
+    "annotation": "Bandera: Namibia",
     "tags": [
       "NA",
       "bandera"
@@ -47616,7 +47826,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Nueva Caledonia",
+    "annotation": "Bandera: Nueva Caledonia",
     "tags": [
       "NC",
       "bandera"
@@ -47634,7 +47844,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Níger",
+    "annotation": "Bandera: Níger",
     "tags": [
       "NE",
       "bandera"
@@ -47652,7 +47862,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Isla Norfolk",
+    "annotation": "Bandera: Isla Norfolk",
     "tags": [
       "NF",
       "bandera"
@@ -47670,7 +47880,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Nigeria",
+    "annotation": "Bandera: Nigeria",
     "tags": [
       "NG",
       "bandera"
@@ -47688,7 +47898,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Nicaragua",
+    "annotation": "Bandera: Nicaragua",
     "tags": [
       "NI",
       "bandera"
@@ -47706,7 +47916,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Países Bajos",
+    "annotation": "Bandera: Países Bajos",
     "tags": [
       "NL",
       "bandera"
@@ -47724,7 +47934,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Noruega",
+    "annotation": "Bandera: Noruega",
     "tags": [
       "NO",
       "bandera"
@@ -47742,7 +47952,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Nepal",
+    "annotation": "Bandera: Nepal",
     "tags": [
       "NP",
       "bandera"
@@ -47760,7 +47970,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Nauru",
+    "annotation": "Bandera: Nauru",
     "tags": [
       "NR",
       "bandera"
@@ -47778,7 +47988,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Niue",
+    "annotation": "Bandera: Niue",
     "tags": [
       "NU",
       "bandera"
@@ -47796,7 +48006,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Nueva Zelanda",
+    "annotation": "Bandera: Nueva Zelanda",
     "tags": [
       "NZ",
       "bandera"
@@ -47814,7 +48024,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Omán",
+    "annotation": "Bandera: Omán",
     "tags": [
       "OM",
       "bandera"
@@ -47832,7 +48042,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Panamá",
+    "annotation": "Bandera: Panamá",
     "tags": [
       "PA",
       "bandera"
@@ -47850,7 +48060,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Perú",
+    "annotation": "Bandera: Perú",
     "tags": [
       "PE",
       "bandera"
@@ -47868,7 +48078,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Polinesia Francesa",
+    "annotation": "Bandera: Polinesia Francesa",
     "tags": [
       "PF",
       "bandera"
@@ -47886,7 +48096,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Papúa Nueva Guinea",
+    "annotation": "Bandera: Papúa Nueva Guinea",
     "tags": [
       "PG",
       "bandera"
@@ -47904,7 +48114,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Filipinas",
+    "annotation": "Bandera: Filipinas",
     "tags": [
       "PH",
       "bandera"
@@ -47922,7 +48132,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Pakistán",
+    "annotation": "Bandera: Pakistán",
     "tags": [
       "PK",
       "bandera"
@@ -47940,7 +48150,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Polonia",
+    "annotation": "Bandera: Polonia",
     "tags": [
       "PL",
       "bandera"
@@ -47958,7 +48168,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "San Pedro y Miquelón",
+    "annotation": "Bandera: San Pedro y Miquelón",
     "tags": [
       "PM",
       "bandera"
@@ -47976,7 +48186,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Islas Pitcairn",
+    "annotation": "Bandera: Islas Pitcairn",
     "tags": [
       "PN",
       "bandera"
@@ -47994,7 +48204,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Puerto Rico",
+    "annotation": "Bandera: Puerto Rico",
     "tags": [
       "PR",
       "bandera"
@@ -48012,7 +48222,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Territorios Palestinos",
+    "annotation": "Bandera: Territorios Palestinos",
     "tags": [
       "PS",
       "bandera"
@@ -48030,7 +48240,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Portugal",
+    "annotation": "Bandera: Portugal",
     "tags": [
       "PT",
       "bandera"
@@ -48048,7 +48258,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Palaos",
+    "annotation": "Bandera: Palaos",
     "tags": [
       "PW",
       "bandera"
@@ -48066,7 +48276,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Paraguay",
+    "annotation": "Bandera: Paraguay",
     "tags": [
       "PY",
       "bandera"
@@ -48084,7 +48294,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Catar",
+    "annotation": "Bandera: Catar",
     "tags": [
       "QA",
       "bandera"
@@ -48102,7 +48312,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Reunión",
+    "annotation": "Bandera: Reunión",
     "tags": [
       "RE",
       "bandera"
@@ -48120,7 +48330,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Rumanía",
+    "annotation": "Bandera: Rumanía",
     "tags": [
       "RO",
       "bandera"
@@ -48138,7 +48348,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Serbia",
+    "annotation": "Bandera: Serbia",
     "tags": [
       "RS",
       "bandera"
@@ -48156,7 +48366,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Rusia",
+    "annotation": "Bandera: Rusia",
     "tags": [
       "RU",
       "bandera"
@@ -48174,7 +48384,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Ruanda",
+    "annotation": "Bandera: Ruanda",
     "tags": [
       "RW",
       "bandera"
@@ -48192,7 +48402,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Arabia Saudí",
+    "annotation": "Bandera: Arabia Saudí",
     "tags": [
       "SA",
       "bandera"
@@ -48210,7 +48420,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Islas Salomón",
+    "annotation": "Bandera: Islas Salomón",
     "tags": [
       "SB",
       "bandera"
@@ -48228,7 +48438,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Seychelles",
+    "annotation": "Bandera: Seychelles",
     "tags": [
       "SC",
       "bandera"
@@ -48246,7 +48456,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Sudán",
+    "annotation": "Bandera: Sudán",
     "tags": [
       "SD",
       "bandera"
@@ -48264,7 +48474,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Suecia",
+    "annotation": "Bandera: Suecia",
     "tags": [
       "SE",
       "bandera"
@@ -48282,7 +48492,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Singapur",
+    "annotation": "Bandera: Singapur",
     "tags": [
       "SG",
       "bandera"
@@ -48300,7 +48510,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Santa Elena",
+    "annotation": "Bandera: Santa Elena",
     "tags": [
       "SH",
       "bandera"
@@ -48318,7 +48528,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Eslovenia",
+    "annotation": "Bandera: Eslovenia",
     "tags": [
       "SI",
       "bandera"
@@ -48336,7 +48546,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Svalbard y Jan Mayen",
+    "annotation": "Bandera: Svalbard y Jan Mayen",
     "tags": [
       "SJ",
       "bandera"
@@ -48354,7 +48564,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Eslovaquia",
+    "annotation": "Bandera: Eslovaquia",
     "tags": [
       "SK",
       "bandera"
@@ -48372,7 +48582,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Sierra Leona",
+    "annotation": "Bandera: Sierra Leona",
     "tags": [
       "SL",
       "bandera"
@@ -48390,7 +48600,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "San Marino",
+    "annotation": "Bandera: San Marino",
     "tags": [
       "SM",
       "bandera"
@@ -48408,7 +48618,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Senegal",
+    "annotation": "Bandera: Senegal",
     "tags": [
       "SN",
       "bandera"
@@ -48426,7 +48636,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Somalia",
+    "annotation": "Bandera: Somalia",
     "tags": [
       "SO",
       "bandera"
@@ -48444,7 +48654,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Surinam",
+    "annotation": "Bandera: Surinam",
     "tags": [
       "SR",
       "bandera"
@@ -48462,7 +48672,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Sudán del Sur",
+    "annotation": "Bandera: Sudán del Sur",
     "tags": [
       "SS",
       "bandera"
@@ -48480,7 +48690,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Santo Tomé y Príncipe",
+    "annotation": "Bandera: Santo Tomé y Príncipe",
     "tags": [
       "ST",
       "bandera"
@@ -48498,7 +48708,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "El Salvador",
+    "annotation": "Bandera: El Salvador",
     "tags": [
       "SV",
       "bandera"
@@ -48516,7 +48726,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Sint Maarten",
+    "annotation": "Bandera: Sint Maarten",
     "tags": [
       "SX",
       "bandera"
@@ -48534,7 +48744,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Siria",
+    "annotation": "Bandera: Siria",
     "tags": [
       "SY",
       "bandera"
@@ -48552,7 +48762,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Suazilandia",
+    "annotation": "Bandera: Suazilandia",
     "tags": [
       "SZ",
       "bandera"
@@ -48570,7 +48780,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Tristán de Acuña",
+    "annotation": "Bandera: Tristán de Acuña",
     "tags": [
       "TA",
       "bandera"
@@ -48588,7 +48798,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Islas Turcas y Caicos",
+    "annotation": "Bandera: Islas Turcas y Caicos",
     "tags": [
       "TC",
       "bandera"
@@ -48606,7 +48816,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Chad",
+    "annotation": "Bandera: Chad",
     "tags": [
       "TD",
       "bandera"
@@ -48624,7 +48834,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Territorios Australes Franceses",
+    "annotation": "Bandera: Territorios Australes Franceses",
     "tags": [
       "TF",
       "bandera"
@@ -48642,7 +48852,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Togo",
+    "annotation": "Bandera: Togo",
     "tags": [
       "TG",
       "bandera"
@@ -48660,7 +48870,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Tailandia",
+    "annotation": "Bandera: Tailandia",
     "tags": [
       "TH",
       "bandera"
@@ -48678,7 +48888,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Tayikistán",
+    "annotation": "Bandera: Tayikistán",
     "tags": [
       "TJ",
       "bandera"
@@ -48696,7 +48906,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Tokelau",
+    "annotation": "Bandera: Tokelau",
     "tags": [
       "TK",
       "bandera"
@@ -48714,7 +48924,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Timor-Leste",
+    "annotation": "Bandera: Timor-Leste",
     "tags": [
       "TL",
       "bandera"
@@ -48732,7 +48942,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Turkmenistán",
+    "annotation": "Bandera: Turkmenistán",
     "tags": [
       "TM",
       "bandera"
@@ -48750,7 +48960,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Túnez",
+    "annotation": "Bandera: Túnez",
     "tags": [
       "TN",
       "bandera"
@@ -48768,7 +48978,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Tonga",
+    "annotation": "Bandera: Tonga",
     "tags": [
       "TO",
       "bandera"
@@ -48786,7 +48996,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Turquía",
+    "annotation": "Bandera: Turquía",
     "tags": [
       "TR",
       "bandera"
@@ -48804,7 +49014,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Trinidad y Tobago",
+    "annotation": "Bandera: Trinidad y Tobago",
     "tags": [
       "TT",
       "bandera"
@@ -48822,7 +49032,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Tuvalu",
+    "annotation": "Bandera: Tuvalu",
     "tags": [
       "TV",
       "bandera"
@@ -48840,7 +49050,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Taiwán",
+    "annotation": "Bandera: Taiwán",
     "tags": [
       "TW",
       "bandera"
@@ -48858,7 +49068,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Tanzania",
+    "annotation": "Bandera: Tanzania",
     "tags": [
       "TZ",
       "bandera"
@@ -48876,7 +49086,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Ucrania",
+    "annotation": "Bandera: Ucrania",
     "tags": [
       "UA",
       "bandera"
@@ -48894,7 +49104,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Uganda",
+    "annotation": "Bandera: Uganda",
     "tags": [
       "UG",
       "bandera"
@@ -48912,7 +49122,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Islas menores alejadas de EE. UU.",
+    "annotation": "Bandera: Islas menores alejadas de EE. UU.",
     "tags": [
       "UM",
       "bandera"
@@ -48930,7 +49140,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 4,
-    "annotation": "Naciones Unidas",
+    "annotation": "Bandera: Naciones Unidas",
     "tags": [
       "UN",
       "bandera"
@@ -48949,7 +49159,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Estados Unidos",
+    "annotation": "Bandera: Estados Unidos",
     "tags": [
       "US",
       "bandera"
@@ -48967,7 +49177,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Uruguay",
+    "annotation": "Bandera: Uruguay",
     "tags": [
       "UY",
       "bandera"
@@ -48985,7 +49195,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Uzbekistán",
+    "annotation": "Bandera: Uzbekistán",
     "tags": [
       "UZ",
       "bandera"
@@ -49003,7 +49213,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Ciudad del Vaticano",
+    "annotation": "Bandera: Ciudad del Vaticano",
     "tags": [
       "VA",
       "bandera"
@@ -49021,7 +49231,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "San Vicente y las Granadinas",
+    "annotation": "Bandera: San Vicente y las Granadinas",
     "tags": [
       "VC",
       "bandera"
@@ -49039,7 +49249,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Venezuela",
+    "annotation": "Bandera: Venezuela",
     "tags": [
       "VE",
       "bandera"
@@ -49057,7 +49267,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Islas Vírgenes Británicas",
+    "annotation": "Bandera: Islas Vírgenes Británicas",
     "tags": [
       "VG",
       "bandera"
@@ -49075,7 +49285,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Islas Vírgenes de EE. UU.",
+    "annotation": "Bandera: Islas Vírgenes de EE. UU.",
     "tags": [
       "VI",
       "bandera"
@@ -49093,7 +49303,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Vietnam",
+    "annotation": "Bandera: Vietnam",
     "tags": [
       "VN",
       "bandera"
@@ -49111,7 +49321,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Vanuatu",
+    "annotation": "Bandera: Vanuatu",
     "tags": [
       "VU",
       "bandera"
@@ -49129,7 +49339,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Wallis y Futuna",
+    "annotation": "Bandera: Wallis y Futuna",
     "tags": [
       "WF",
       "bandera"
@@ -49147,7 +49357,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Samoa",
+    "annotation": "Bandera: Samoa",
     "tags": [
       "WS",
       "bandera"
@@ -49165,7 +49375,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Kosovo",
+    "annotation": "Bandera: Kosovo",
     "tags": [
       "XK",
       "bandera"
@@ -49183,7 +49393,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Yemen",
+    "annotation": "Bandera: Yemen",
     "tags": [
       "YE",
       "bandera"
@@ -49201,7 +49411,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Mayotte",
+    "annotation": "Bandera: Mayotte",
     "tags": [
       "YT",
       "bandera"
@@ -49219,7 +49429,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Sudáfrica",
+    "annotation": "Bandera: Sudáfrica",
     "tags": [
       "ZA",
       "bandera"
@@ -49237,7 +49447,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Zambia",
+    "annotation": "Bandera: Zambia",
     "tags": [
       "ZM",
       "bandera"
@@ -49255,7 +49465,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "Zimbabue",
+    "annotation": "Bandera: Zimbabue",
     "tags": [
       "ZW",
       "bandera"
@@ -49274,7 +49484,7 @@
     "group": 7,
     "subgroup": 78,
     "version": 5,
-    "annotation": "Inglaterra",
+    "annotation": "Bandera: Inglaterra",
     "tags": [
       "bandera",
       "gbeng"
@@ -49293,7 +49503,7 @@
     "group": 7,
     "subgroup": 78,
     "version": 5,
-    "annotation": "Escocia",
+    "annotation": "Bandera: Escocia",
     "tags": [
       "bandera",
       "gbsct"
@@ -49312,7 +49522,7 @@
     "group": 7,
     "subgroup": 78,
     "version": 5,
-    "annotation": "Gales",
+    "annotation": "Bandera: Gales",
     "tags": [
       "bandera",
       "gbwls"

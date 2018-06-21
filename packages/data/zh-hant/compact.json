@@ -208,11 +208,17 @@
     "emoticon": ":x"
   },
   {
+    "annotation": "三個愛心的笑臉",
     "group": 0,
     "hexcode": "1F970",
     "order": 15,
     "shortcodes": [
       "love"
+    ],
+    "tags": [
+      "一見鐘情",
+      "喜歡",
+      "戀愛了"
     ],
     "unicode": "🥰"
   },
@@ -925,20 +931,34 @@
     "emoticon": "Dx"
   },
   {
+    "annotation": "熱臉",
     "group": 0,
     "hexcode": "1F975",
     "order": 68,
     "shortcodes": [
       "overheating"
     ],
+    "tags": [
+      "好熱",
+      "流汗",
+      "發熱",
+      "臉紅"
+    ],
     "unicode": "🥵"
   },
   {
+    "annotation": "冷臉",
     "group": 0,
     "hexcode": "1F976",
     "order": 69,
     "shortcodes": [
       "freezing"
+    ],
+    "tags": [
+      "冰凍",
+      "冷",
+      "結霜",
+      "藍色的臉"
     ],
     "unicode": "🥶"
   },
@@ -957,7 +977,7 @@
     "emoticon": ":$"
   },
   {
-    "annotation": "瘋狂的臉",
+    "annotation": "發瘋",
     "group": 0,
     "hexcode": "1F92A",
     "order": 71,
@@ -965,6 +985,7 @@
       "crazy"
     ],
     "tags": [
+      "大小眼",
       "瘋狂的臉"
     ],
     "unicode": "🤪"
@@ -1084,7 +1105,7 @@
     "emoticon": "%("
   },
   {
-    "annotation": "吐臉",
+    "annotation": "狂吐中",
     "group": 0,
     "hexcode": "1F92E",
     "order": 80,
@@ -1092,7 +1113,9 @@
       "vomiting"
     ],
     "tags": [
-      "吐臉"
+      "吐",
+      "吐臉",
+      "病懨懨"
     ],
     "unicode": "🤮"
   },
@@ -1141,6 +1164,7 @@
     "unicode": "🤠"
   },
   {
+    "annotation": "慶祝的表情",
     "group": 0,
     "hexcode": "1F973",
     "order": 84,
@@ -1148,24 +1172,41 @@
       "partying",
       "celebrating"
     ],
+    "tags": [
+      "帽子",
+      "慶祝",
+      "紙喇叭"
+    ],
     "unicode": "🥳"
   },
   {
+    "annotation": "頭昏眼花",
     "group": 0,
     "hexcode": "1F974",
     "order": 85,
     "shortcodes": [
       "woozy"
     ],
+    "tags": [
+      "大小眼",
+      "波浪嘴",
+      "頭暈"
+    ],
     "unicode": "🥴",
     "emoticon": ":&"
   },
   {
+    "annotation": "請求的臉",
     "group": 0,
     "hexcode": "1F97A",
     "order": 86,
     "shortcodes": [
       "pleading"
+    ],
+    "tags": [
+      "拜託",
+      "求求你",
+      "無辜臉"
     ],
     "unicode": "🥺"
   },
@@ -5867,6 +5908,7 @@
     ]
   },
   {
+    "annotation": "男人: 紅髮",
     "group": 0,
     "hexcode": "1F468-200D-1F9B0",
     "order": 620,
@@ -5876,12 +5918,13 @@
     "tags": [
       "男",
       "男人",
-      "男性"
+      "男性",
+      "紅髮"
     ],
     "unicode": "👨‍🦰",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "男人: 白皮膚 紅髮",
         "group": 0,
         "hexcode": "1F468-1F3FB-200D-1F9B0",
         "order": 621,
@@ -5891,7 +5934,7 @@
         "unicode": "👨🏻‍🦰"
       },
       {
-        "annotation": "",
+        "annotation": "男人: 黃皮膚 紅髮",
         "group": 0,
         "hexcode": "1F468-1F3FC-200D-1F9B0",
         "order": 622,
@@ -5901,7 +5944,7 @@
         "unicode": "👨🏼‍🦰"
       },
       {
-        "annotation": "",
+        "annotation": "男人: 淺褐皮膚 紅髮",
         "group": 0,
         "hexcode": "1F468-1F3FD-200D-1F9B0",
         "order": 623,
@@ -5911,7 +5954,7 @@
         "unicode": "👨🏽‍🦰"
       },
       {
-        "annotation": "",
+        "annotation": "男人: 褐皮膚 紅髮",
         "group": 0,
         "hexcode": "1F468-1F3FE-200D-1F9B0",
         "order": 624,
@@ -5921,7 +5964,7 @@
         "unicode": "👨🏾‍🦰"
       },
       {
-        "annotation": "",
+        "annotation": "男人: 黑皮膚 紅髮",
         "group": 0,
         "hexcode": "1F468-1F3FF-200D-1F9B0",
         "order": 625,
@@ -5933,6 +5976,7 @@
     ]
   },
   {
+    "annotation": "女人: 紅髮",
     "group": 0,
     "hexcode": "1F469-200D-1F9B0",
     "order": 626,
@@ -5942,12 +5986,13 @@
     "tags": [
       "女",
       "女人",
-      "女性"
+      "女性",
+      "紅髮"
     ],
     "unicode": "👩‍🦰",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "女人: 白皮膚 紅髮",
         "group": 0,
         "hexcode": "1F469-1F3FB-200D-1F9B0",
         "order": 627,
@@ -5957,7 +6002,7 @@
         "unicode": "👩🏻‍🦰"
       },
       {
-        "annotation": "",
+        "annotation": "女人: 黃皮膚 紅髮",
         "group": 0,
         "hexcode": "1F469-1F3FC-200D-1F9B0",
         "order": 628,
@@ -5967,7 +6012,7 @@
         "unicode": "👩🏼‍🦰"
       },
       {
-        "annotation": "",
+        "annotation": "女人: 淺褐皮膚 紅髮",
         "group": 0,
         "hexcode": "1F469-1F3FD-200D-1F9B0",
         "order": 629,
@@ -5977,7 +6022,7 @@
         "unicode": "👩🏽‍🦰"
       },
       {
-        "annotation": "",
+        "annotation": "女人: 褐皮膚 紅髮",
         "group": 0,
         "hexcode": "1F469-1F3FE-200D-1F9B0",
         "order": 630,
@@ -5987,7 +6032,7 @@
         "unicode": "👩🏾‍🦰"
       },
       {
-        "annotation": "",
+        "annotation": "女人: 黑皮膚 紅髮",
         "group": 0,
         "hexcode": "1F469-1F3FF-200D-1F9B0",
         "order": 631,
@@ -5999,6 +6044,7 @@
     ]
   },
   {
+    "annotation": "男人: 卷髮",
     "group": 0,
     "hexcode": "1F468-200D-1F9B1",
     "order": 632,
@@ -6006,6 +6052,7 @@
       "curly_haired_man"
     ],
     "tags": [
+      "卷髮",
       "男",
       "男人",
       "男性"
@@ -6013,7 +6060,7 @@
     "unicode": "👨‍🦱",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "男人: 白皮膚 卷髮",
         "group": 0,
         "hexcode": "1F468-1F3FB-200D-1F9B1",
         "order": 633,
@@ -6023,7 +6070,7 @@
         "unicode": "👨🏻‍🦱"
       },
       {
-        "annotation": "",
+        "annotation": "男人: 黃皮膚 卷髮",
         "group": 0,
         "hexcode": "1F468-1F3FC-200D-1F9B1",
         "order": 634,
@@ -6033,7 +6080,7 @@
         "unicode": "👨🏼‍🦱"
       },
       {
-        "annotation": "",
+        "annotation": "男人: 淺褐皮膚 卷髮",
         "group": 0,
         "hexcode": "1F468-1F3FD-200D-1F9B1",
         "order": 635,
@@ -6043,7 +6090,7 @@
         "unicode": "👨🏽‍🦱"
       },
       {
-        "annotation": "",
+        "annotation": "男人: 褐皮膚 卷髮",
         "group": 0,
         "hexcode": "1F468-1F3FE-200D-1F9B1",
         "order": 636,
@@ -6053,7 +6100,7 @@
         "unicode": "👨🏾‍🦱"
       },
       {
-        "annotation": "",
+        "annotation": "男人: 黑皮膚 卷髮",
         "group": 0,
         "hexcode": "1F468-1F3FF-200D-1F9B1",
         "order": 637,
@@ -6065,6 +6112,7 @@
     ]
   },
   {
+    "annotation": "女人: 卷髮",
     "group": 0,
     "hexcode": "1F469-200D-1F9B1",
     "order": 638,
@@ -6072,6 +6120,7 @@
       "curly_haired_woman"
     ],
     "tags": [
+      "卷髮",
       "女",
       "女人",
       "女性"
@@ -6079,7 +6128,7 @@
     "unicode": "👩‍🦱",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "女人: 白皮膚 卷髮",
         "group": 0,
         "hexcode": "1F469-1F3FB-200D-1F9B1",
         "order": 639,
@@ -6089,7 +6138,7 @@
         "unicode": "👩🏻‍🦱"
       },
       {
-        "annotation": "",
+        "annotation": "女人: 黃皮膚 卷髮",
         "group": 0,
         "hexcode": "1F469-1F3FC-200D-1F9B1",
         "order": 640,
@@ -6099,7 +6148,7 @@
         "unicode": "👩🏼‍🦱"
       },
       {
-        "annotation": "",
+        "annotation": "女人: 淺褐皮膚 卷髮",
         "group": 0,
         "hexcode": "1F469-1F3FD-200D-1F9B1",
         "order": 641,
@@ -6109,7 +6158,7 @@
         "unicode": "👩🏽‍🦱"
       },
       {
-        "annotation": "",
+        "annotation": "女人: 褐皮膚 卷髮",
         "group": 0,
         "hexcode": "1F469-1F3FE-200D-1F9B1",
         "order": 642,
@@ -6119,7 +6168,7 @@
         "unicode": "👩🏾‍🦱"
       },
       {
-        "annotation": "",
+        "annotation": "女人: 黑皮膚 卷髮",
         "group": 0,
         "hexcode": "1F469-1F3FF-200D-1F9B1",
         "order": 643,
@@ -6131,6 +6180,7 @@
     ]
   },
   {
+    "annotation": "男人: 禿頭",
     "group": 0,
     "hexcode": "1F468-200D-1F9B2",
     "order": 644,
@@ -6140,12 +6190,13 @@
     "tags": [
       "男",
       "男人",
-      "男性"
+      "男性",
+      "禿頭"
     ],
     "unicode": "👨‍🦲",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "男人: 白皮膚 禿頭",
         "group": 0,
         "hexcode": "1F468-1F3FB-200D-1F9B2",
         "order": 645,
@@ -6155,7 +6206,7 @@
         "unicode": "👨🏻‍🦲"
       },
       {
-        "annotation": "",
+        "annotation": "男人: 黃皮膚 禿頭",
         "group": 0,
         "hexcode": "1F468-1F3FC-200D-1F9B2",
         "order": 646,
@@ -6165,7 +6216,7 @@
         "unicode": "👨🏼‍🦲"
       },
       {
-        "annotation": "",
+        "annotation": "男人: 淺褐皮膚 禿頭",
         "group": 0,
         "hexcode": "1F468-1F3FD-200D-1F9B2",
         "order": 647,
@@ -6175,7 +6226,7 @@
         "unicode": "👨🏽‍🦲"
       },
       {
-        "annotation": "",
+        "annotation": "男人: 褐皮膚 禿頭",
         "group": 0,
         "hexcode": "1F468-1F3FE-200D-1F9B2",
         "order": 648,
@@ -6185,7 +6236,7 @@
         "unicode": "👨🏾‍🦲"
       },
       {
-        "annotation": "",
+        "annotation": "男人: 黑皮膚 禿頭",
         "group": 0,
         "hexcode": "1F468-1F3FF-200D-1F9B2",
         "order": 649,
@@ -6197,6 +6248,7 @@
     ]
   },
   {
+    "annotation": "女人: 禿頭",
     "group": 0,
     "hexcode": "1F469-200D-1F9B2",
     "order": 650,
@@ -6206,12 +6258,13 @@
     "tags": [
       "女",
       "女人",
-      "女性"
+      "女性",
+      "禿頭"
     ],
     "unicode": "👩‍🦲",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "女人: 白皮膚 禿頭",
         "group": 0,
         "hexcode": "1F469-1F3FB-200D-1F9B2",
         "order": 651,
@@ -6221,7 +6274,7 @@
         "unicode": "👩🏻‍🦲"
       },
       {
-        "annotation": "",
+        "annotation": "女人: 黃皮膚 禿頭",
         "group": 0,
         "hexcode": "1F469-1F3FC-200D-1F9B2",
         "order": 652,
@@ -6231,7 +6284,7 @@
         "unicode": "👩🏼‍🦲"
       },
       {
-        "annotation": "",
+        "annotation": "女人: 淺褐皮膚 禿頭",
         "group": 0,
         "hexcode": "1F469-1F3FD-200D-1F9B2",
         "order": 653,
@@ -6241,7 +6294,7 @@
         "unicode": "👩🏽‍🦲"
       },
       {
-        "annotation": "",
+        "annotation": "女人: 褐皮膚 禿頭",
         "group": 0,
         "hexcode": "1F469-1F3FE-200D-1F9B2",
         "order": 654,
@@ -6251,7 +6304,7 @@
         "unicode": "👩🏾‍🦲"
       },
       {
-        "annotation": "",
+        "annotation": "女人: 黑皮膚 禿頭",
         "group": 0,
         "hexcode": "1F469-1F3FF-200D-1F9B2",
         "order": 655,
@@ -6263,6 +6316,7 @@
     ]
   },
   {
+    "annotation": "男人: 白髮",
     "group": 0,
     "hexcode": "1F468-200D-1F9B3",
     "order": 656,
@@ -6272,12 +6326,13 @@
     "tags": [
       "男",
       "男人",
-      "男性"
+      "男性",
+      "白髮"
     ],
     "unicode": "👨‍🦳",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "男人: 白皮膚 白髮",
         "group": 0,
         "hexcode": "1F468-1F3FB-200D-1F9B3",
         "order": 657,
@@ -6287,7 +6342,7 @@
         "unicode": "👨🏻‍🦳"
       },
       {
-        "annotation": "",
+        "annotation": "男人: 黃皮膚 白髮",
         "group": 0,
         "hexcode": "1F468-1F3FC-200D-1F9B3",
         "order": 658,
@@ -6297,7 +6352,7 @@
         "unicode": "👨🏼‍🦳"
       },
       {
-        "annotation": "",
+        "annotation": "男人: 淺褐皮膚 白髮",
         "group": 0,
         "hexcode": "1F468-1F3FD-200D-1F9B3",
         "order": 659,
@@ -6307,7 +6362,7 @@
         "unicode": "👨🏽‍🦳"
       },
       {
-        "annotation": "",
+        "annotation": "男人: 褐皮膚 白髮",
         "group": 0,
         "hexcode": "1F468-1F3FE-200D-1F9B3",
         "order": 660,
@@ -6317,7 +6372,7 @@
         "unicode": "👨🏾‍🦳"
       },
       {
-        "annotation": "",
+        "annotation": "男人: 黑皮膚 白髮",
         "group": 0,
         "hexcode": "1F468-1F3FF-200D-1F9B3",
         "order": 661,
@@ -6329,6 +6384,7 @@
     ]
   },
   {
+    "annotation": "女人: 白髮",
     "group": 0,
     "hexcode": "1F469-200D-1F9B3",
     "order": 662,
@@ -6338,12 +6394,13 @@
     "tags": [
       "女",
       "女人",
-      "女性"
+      "女性",
+      "白髮"
     ],
     "unicode": "👩‍🦳",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "女人: 白皮膚 白髮",
         "group": 0,
         "hexcode": "1F469-1F3FB-200D-1F9B3",
         "order": 663,
@@ -6353,7 +6410,7 @@
         "unicode": "👩🏻‍🦳"
       },
       {
-        "annotation": "",
+        "annotation": "女人: 黃皮膚 白髮",
         "group": 0,
         "hexcode": "1F469-1F3FC-200D-1F9B3",
         "order": 664,
@@ -6363,7 +6420,7 @@
         "unicode": "👩🏼‍🦳"
       },
       {
-        "annotation": "",
+        "annotation": "女人: 淺褐皮膚 白髮",
         "group": 0,
         "hexcode": "1F469-1F3FD-200D-1F9B3",
         "order": 665,
@@ -6373,7 +6430,7 @@
         "unicode": "👩🏽‍🦳"
       },
       {
-        "annotation": "",
+        "annotation": "女人: 褐皮膚 白髮",
         "group": 0,
         "hexcode": "1F469-1F3FE-200D-1F9B3",
         "order": 666,
@@ -6383,7 +6440,7 @@
         "unicode": "👩🏾‍🦳"
       },
       {
-        "annotation": "",
+        "annotation": "女人: 黑皮膚 白髮",
         "group": 0,
         "hexcode": "1F469-1F3FF-200D-1F9B3",
         "order": 667,
@@ -6859,6 +6916,7 @@
     ]
   },
   {
+    "annotation": "超級英雄",
     "group": 0,
     "hexcode": "1F9B8",
     "order": 710,
@@ -6866,10 +6924,16 @@
       "hero",
       "superhero"
     ],
+    "tags": [
+      "天賦",
+      "女英雄",
+      "英雄",
+      "超能力"
+    ],
     "unicode": "🦸",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "超級英雄: 白皮膚",
         "group": 0,
         "hexcode": "1F9B8-1F3FB",
         "order": 711,
@@ -6880,7 +6944,7 @@
         "unicode": "🦸🏻"
       },
       {
-        "annotation": "",
+        "annotation": "超級英雄: 黃皮膚",
         "group": 0,
         "hexcode": "1F9B8-1F3FC",
         "order": 712,
@@ -6891,7 +6955,7 @@
         "unicode": "🦸🏼"
       },
       {
-        "annotation": "",
+        "annotation": "超級英雄: 淺褐皮膚",
         "group": 0,
         "hexcode": "1F9B8-1F3FD",
         "order": 713,
@@ -6902,7 +6966,7 @@
         "unicode": "🦸🏽"
       },
       {
-        "annotation": "",
+        "annotation": "超級英雄: 褐皮膚",
         "group": 0,
         "hexcode": "1F9B8-1F3FE",
         "order": 714,
@@ -6913,7 +6977,7 @@
         "unicode": "🦸🏾"
       },
       {
-        "annotation": "",
+        "annotation": "超級英雄: 黑皮膚",
         "group": 0,
         "hexcode": "1F9B8-1F3FF",
         "order": 715,
@@ -6926,7 +6990,7 @@
     ]
   },
   {
-    "annotation": "女人",
+    "annotation": "女超人",
     "group": 0,
     "hexcode": "1F9B8-200D-2640-FE0F",
     "order": 716,
@@ -6934,12 +6998,15 @@
       "woman_hero"
     ],
     "tags": [
-      "女"
+      "天賦",
+      "女英雄",
+      "英雄",
+      "超能力"
     ],
     "unicode": "🦸‍♀️",
     "skins": [
       {
-        "annotation": "女人: 白皮膚",
+        "annotation": "女超人: 白皮膚",
         "group": 0,
         "hexcode": "1F9B8-1F3FB-200D-2640-FE0F",
         "order": 718,
@@ -6949,7 +7016,7 @@
         "unicode": "🦸🏻‍♀️"
       },
       {
-        "annotation": "女人: 黃皮膚",
+        "annotation": "女超人: 黃皮膚",
         "group": 0,
         "hexcode": "1F9B8-1F3FC-200D-2640-FE0F",
         "order": 720,
@@ -6959,7 +7026,7 @@
         "unicode": "🦸🏼‍♀️"
       },
       {
-        "annotation": "女人: 淺褐皮膚",
+        "annotation": "女超人: 淺褐皮膚",
         "group": 0,
         "hexcode": "1F9B8-1F3FD-200D-2640-FE0F",
         "order": 722,
@@ -6969,7 +7036,7 @@
         "unicode": "🦸🏽‍♀️"
       },
       {
-        "annotation": "女人: 褐皮膚",
+        "annotation": "女超人: 褐皮膚",
         "group": 0,
         "hexcode": "1F9B8-1F3FE-200D-2640-FE0F",
         "order": 724,
@@ -6979,7 +7046,7 @@
         "unicode": "🦸🏾‍♀️"
       },
       {
-        "annotation": "女人: 黑皮膚",
+        "annotation": "女超人: 黑皮膚",
         "group": 0,
         "hexcode": "1F9B8-1F3FF-200D-2640-FE0F",
         "order": 726,
@@ -6991,7 +7058,7 @@
     ]
   },
   {
-    "annotation": "男人",
+    "annotation": "超人",
     "group": 0,
     "hexcode": "1F9B8-200D-2642-FE0F",
     "order": 728,
@@ -6999,12 +7066,15 @@
       "man_hero"
     ],
     "tags": [
-      "男"
+      "天賦",
+      "男人",
+      "英雄",
+      "超能力"
     ],
     "unicode": "🦸‍♂️",
     "skins": [
       {
-        "annotation": "男人: 白皮膚",
+        "annotation": "超人: 白皮膚",
         "group": 0,
         "hexcode": "1F9B8-1F3FB-200D-2642-FE0F",
         "order": 730,
@@ -7014,7 +7084,7 @@
         "unicode": "🦸🏻‍♂️"
       },
       {
-        "annotation": "男人: 黃皮膚",
+        "annotation": "超人: 黃皮膚",
         "group": 0,
         "hexcode": "1F9B8-1F3FC-200D-2642-FE0F",
         "order": 732,
@@ -7024,7 +7094,7 @@
         "unicode": "🦸🏼‍♂️"
       },
       {
-        "annotation": "男人: 淺褐皮膚",
+        "annotation": "超人: 淺褐皮膚",
         "group": 0,
         "hexcode": "1F9B8-1F3FD-200D-2642-FE0F",
         "order": 734,
@@ -7034,7 +7104,7 @@
         "unicode": "🦸🏽‍♂️"
       },
       {
-        "annotation": "男人: 褐皮膚",
+        "annotation": "超人: 褐皮膚",
         "group": 0,
         "hexcode": "1F9B8-1F3FE-200D-2642-FE0F",
         "order": 736,
@@ -7044,7 +7114,7 @@
         "unicode": "🦸🏾‍♂️"
       },
       {
-        "annotation": "男人: 黑皮膚",
+        "annotation": "超人: 黑皮膚",
         "group": 0,
         "hexcode": "1F9B8-1F3FF-200D-2642-FE0F",
         "order": 738,
@@ -7056,6 +7126,7 @@
     ]
   },
   {
+    "annotation": "超級反派",
     "group": 0,
     "hexcode": "1F9B9",
     "order": 740,
@@ -7063,10 +7134,16 @@
       "villain",
       "supervillain"
     ],
+    "tags": [
+      "反派",
+      "犯罪",
+      "超能力",
+      "邪惡"
+    ],
     "unicode": "🦹",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "超級反派: 白皮膚",
         "group": 0,
         "hexcode": "1F9B9-1F3FB",
         "order": 741,
@@ -7077,7 +7154,7 @@
         "unicode": "🦹🏻"
       },
       {
-        "annotation": "",
+        "annotation": "超級反派: 黃皮膚",
         "group": 0,
         "hexcode": "1F9B9-1F3FC",
         "order": 742,
@@ -7088,7 +7165,7 @@
         "unicode": "🦹🏼"
       },
       {
-        "annotation": "",
+        "annotation": "超級反派: 淺褐皮膚",
         "group": 0,
         "hexcode": "1F9B9-1F3FD",
         "order": 743,
@@ -7099,7 +7176,7 @@
         "unicode": "🦹🏽"
       },
       {
-        "annotation": "",
+        "annotation": "超級反派: 褐皮膚",
         "group": 0,
         "hexcode": "1F9B9-1F3FE",
         "order": 744,
@@ -7110,7 +7187,7 @@
         "unicode": "🦹🏾"
       },
       {
-        "annotation": "",
+        "annotation": "超級反派: 黑皮膚",
         "group": 0,
         "hexcode": "1F9B9-1F3FF",
         "order": 745,
@@ -7123,7 +7200,7 @@
     ]
   },
   {
-    "annotation": "女人",
+    "annotation": "女超級反派",
     "group": 0,
     "hexcode": "1F9B9-200D-2640-FE0F",
     "order": 746,
@@ -7131,12 +7208,16 @@
       "woman_villain"
     ],
     "tags": [
-      "女"
+      "反派",
+      "女人",
+      "犯罪",
+      "超能力",
+      "邪惡"
     ],
     "unicode": "🦹‍♀️",
     "skins": [
       {
-        "annotation": "女人: 白皮膚",
+        "annotation": "女超級反派: 白皮膚",
         "group": 0,
         "hexcode": "1F9B9-1F3FB-200D-2640-FE0F",
         "order": 748,
@@ -7146,7 +7227,7 @@
         "unicode": "🦹🏻‍♀️"
       },
       {
-        "annotation": "女人: 黃皮膚",
+        "annotation": "女超級反派: 黃皮膚",
         "group": 0,
         "hexcode": "1F9B9-1F3FC-200D-2640-FE0F",
         "order": 750,
@@ -7156,7 +7237,7 @@
         "unicode": "🦹🏼‍♀️"
       },
       {
-        "annotation": "女人: 淺褐皮膚",
+        "annotation": "女超級反派: 淺褐皮膚",
         "group": 0,
         "hexcode": "1F9B9-1F3FD-200D-2640-FE0F",
         "order": 752,
@@ -7166,7 +7247,7 @@
         "unicode": "🦹🏽‍♀️"
       },
       {
-        "annotation": "女人: 褐皮膚",
+        "annotation": "女超級反派: 褐皮膚",
         "group": 0,
         "hexcode": "1F9B9-1F3FE-200D-2640-FE0F",
         "order": 754,
@@ -7176,7 +7257,7 @@
         "unicode": "🦹🏾‍♀️"
       },
       {
-        "annotation": "女人: 黑皮膚",
+        "annotation": "女超級反派: 黑皮膚",
         "group": 0,
         "hexcode": "1F9B9-1F3FF-200D-2640-FE0F",
         "order": 756,
@@ -7188,7 +7269,7 @@
     ]
   },
   {
-    "annotation": "男人",
+    "annotation": "男超級反派",
     "group": 0,
     "hexcode": "1F9B9-200D-2642-FE0F",
     "order": 758,
@@ -7196,12 +7277,16 @@
       "man_villain"
     ],
     "tags": [
-      "男"
+      "反派",
+      "犯罪",
+      "男人",
+      "超能力",
+      "邪惡"
     ],
     "unicode": "🦹‍♂️",
     "skins": [
       {
-        "annotation": "男人: 白皮膚",
+        "annotation": "男超級反派: 白皮膚",
         "group": 0,
         "hexcode": "1F9B9-1F3FB-200D-2642-FE0F",
         "order": 760,
@@ -7211,7 +7296,7 @@
         "unicode": "🦹🏻‍♂️"
       },
       {
-        "annotation": "男人: 黃皮膚",
+        "annotation": "男超級反派: 黃皮膚",
         "group": 0,
         "hexcode": "1F9B9-1F3FC-200D-2642-FE0F",
         "order": 762,
@@ -7221,7 +7306,7 @@
         "unicode": "🦹🏼‍♂️"
       },
       {
-        "annotation": "男人: 淺褐皮膚",
+        "annotation": "男超級反派: 淺褐皮膚",
         "group": 0,
         "hexcode": "1F9B9-1F3FD-200D-2642-FE0F",
         "order": 764,
@@ -7231,7 +7316,7 @@
         "unicode": "🦹🏽‍♂️"
       },
       {
-        "annotation": "男人: 褐皮膚",
+        "annotation": "男超級反派: 褐皮膚",
         "group": 0,
         "hexcode": "1F9B9-1F3FE-200D-2642-FE0F",
         "order": 766,
@@ -7241,7 +7326,7 @@
         "unicode": "🦹🏾‍♂️"
       },
       {
-        "annotation": "男人: 黑皮膚",
+        "annotation": "男超級反派: 黑皮膚",
         "group": 0,
         "hexcode": "1F9B9-1F3FF-200D-2642-FE0F",
         "order": 768,
@@ -15234,16 +15319,21 @@
     ]
   },
   {
+    "annotation": "腿",
     "group": 0,
     "hexcode": "1F9B5",
     "order": 1904,
     "shortcodes": [
       "leg"
     ],
+    "tags": [
+      "腳",
+      "踢"
+    ],
     "unicode": "🦵",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "腿: 白皮膚",
         "group": 0,
         "hexcode": "1F9B5-1F3FB",
         "order": 1905,
@@ -15253,7 +15343,7 @@
         "unicode": "🦵🏻"
       },
       {
-        "annotation": "",
+        "annotation": "腿: 黃皮膚",
         "group": 0,
         "hexcode": "1F9B5-1F3FC",
         "order": 1906,
@@ -15263,7 +15353,7 @@
         "unicode": "🦵🏼"
       },
       {
-        "annotation": "",
+        "annotation": "腿: 淺褐皮膚",
         "group": 0,
         "hexcode": "1F9B5-1F3FD",
         "order": 1907,
@@ -15273,7 +15363,7 @@
         "unicode": "🦵🏽"
       },
       {
-        "annotation": "",
+        "annotation": "腿: 褐皮膚",
         "group": 0,
         "hexcode": "1F9B5-1F3FE",
         "order": 1908,
@@ -15283,7 +15373,7 @@
         "unicode": "🦵🏾"
       },
       {
-        "annotation": "",
+        "annotation": "腿: 黑皮膚",
         "group": 0,
         "hexcode": "1F9B5-1F3FF",
         "order": 1909,
@@ -15295,16 +15385,21 @@
     ]
   },
   {
+    "annotation": "腳",
     "group": 0,
     "hexcode": "1F9B6",
     "order": 1910,
     "shortcodes": [
       "foot"
     ],
+    "tags": [
+      "踢",
+      "踩"
+    ],
     "unicode": "🦶",
     "skins": [
       {
-        "annotation": "",
+        "annotation": "腳: 白皮膚",
         "group": 0,
         "hexcode": "1F9B6-1F3FB",
         "order": 1911,
@@ -15314,7 +15409,7 @@
         "unicode": "🦶🏻"
       },
       {
-        "annotation": "",
+        "annotation": "腳: 黃皮膚",
         "group": 0,
         "hexcode": "1F9B6-1F3FC",
         "order": 1912,
@@ -15324,7 +15419,7 @@
         "unicode": "🦶🏼"
       },
       {
-        "annotation": "",
+        "annotation": "腳: 淺褐皮膚",
         "group": 0,
         "hexcode": "1F9B6-1F3FD",
         "order": 1913,
@@ -15334,7 +15429,7 @@
         "unicode": "🦶🏽"
       },
       {
-        "annotation": "",
+        "annotation": "腳: 褐皮膚",
         "group": 0,
         "hexcode": "1F9B6-1F3FE",
         "order": 1914,
@@ -15344,7 +15439,7 @@
         "unicode": "🦶🏾"
       },
       {
-        "annotation": "",
+        "annotation": "腳: 黑皮膚",
         "group": 0,
         "hexcode": "1F9B6-1F3FF",
         "order": 1915,
@@ -17221,7 +17316,7 @@
     ]
   },
   {
-    "annotation": "阿彌陀佛",
+    "annotation": "感恩",
     "group": 0,
     "hexcode": "1F64F",
     "order": 2088,
@@ -17234,7 +17329,7 @@
     "unicode": "🙏",
     "skins": [
       {
-        "annotation": "阿彌陀佛: 白皮膚",
+        "annotation": "感恩: 白皮膚",
         "group": 0,
         "hexcode": "1F64F-1F3FB",
         "order": 2089,
@@ -17244,7 +17339,7 @@
         "unicode": "🙏🏻"
       },
       {
-        "annotation": "阿彌陀佛: 黃皮膚",
+        "annotation": "感恩: 黃皮膚",
         "group": 0,
         "hexcode": "1F64F-1F3FC",
         "order": 2090,
@@ -17254,7 +17349,7 @@
         "unicode": "🙏🏼"
       },
       {
-        "annotation": "阿彌陀佛: 淺褐皮膚",
+        "annotation": "感恩: 淺褐皮膚",
         "group": 0,
         "hexcode": "1F64F-1F3FD",
         "order": 2091,
@@ -17264,7 +17359,7 @@
         "unicode": "🙏🏽"
       },
       {
-        "annotation": "阿彌陀佛: 褐皮膚",
+        "annotation": "感恩: 褐皮膚",
         "group": 0,
         "hexcode": "1F64F-1F3FE",
         "order": 2092,
@@ -17274,7 +17369,7 @@
         "unicode": "🙏🏾"
       },
       {
-        "annotation": "阿彌陀佛: 黑皮膚",
+        "annotation": "感恩: 黑皮膚",
         "group": 0,
         "hexcode": "1F64F-1F3FF",
         "order": 2093,
@@ -17560,20 +17655,28 @@
     "unicode": "🧠"
   },
   {
+    "annotation": "骨頭",
     "group": 0,
     "hexcode": "1F9B4",
     "order": 2126,
     "shortcodes": [
       "bone"
     ],
+    "tags": [
+      "骨頭"
+    ],
     "unicode": "🦴"
   },
   {
+    "annotation": "牙齒",
     "group": 0,
     "hexcode": "1F9B7",
     "order": 2127,
     "shortcodes": [
       "tooth"
+    ],
+    "tags": [
+      "牙醫"
     ],
     "unicode": "🦷"
   },
@@ -17818,7 +17921,7 @@
     "unicode": "💞"
   },
   {
-    "annotation": "心在框框裏",
+    "annotation": "心在框框裡",
     "group": 0,
     "hexcode": "1F49F",
     "order": 2147,
@@ -18043,20 +18146,32 @@
     "unicode": "🕶️"
   },
   {
+    "annotation": "蛙鏡",
     "group": 0,
     "hexcode": "1F97D",
     "order": 2169,
     "shortcodes": [
       "goggles"
     ],
+    "tags": [
+      "保護眼睛",
+      "游泳",
+      "焊工"
+    ],
     "unicode": "🥽"
   },
   {
+    "annotation": "實驗袍",
     "group": 0,
     "hexcode": "1F97C",
     "order": 2170,
     "shortcodes": [
       "lab_coat"
+    ],
+    "tags": [
+      "實驗",
+      "科學家",
+      "醫生"
     ],
     "unicode": "🥼"
   },
@@ -18301,20 +18416,33 @@
     "unicode": "👟"
   },
   {
+    "annotation": "登山靴",
     "group": 0,
     "hexcode": "1F97E",
     "order": 2190,
     "shortcodes": [
       "hiking_boot"
     ],
+    "tags": [
+      "健行",
+      "背包",
+      "露營",
+      "靴子"
+    ],
     "unicode": "🥾"
   },
   {
+    "annotation": "平底鞋",
     "group": 0,
     "hexcode": "1F97F",
     "order": 2191,
     "shortcodes": [
       "flat_shoe"
+    ],
+    "tags": [
+      "懶人鞋",
+      "拖鞋",
+      "芭蕾舞鞋"
     ],
     "unicode": "🥿"
   },
@@ -18594,11 +18722,16 @@
     "unicode": "🦊"
   },
   {
+    "annotation": "浣熊",
     "group": 1,
     "hexcode": "1F99D",
     "order": 2214,
     "shortcodes": [
       "raccoon"
+    ],
+    "tags": [
+      "好奇",
+      "狡猾"
     ],
     "unicode": "🦝"
   },
@@ -18915,11 +19048,18 @@
     "unicode": "🐫"
   },
   {
+    "annotation": "羊駝",
     "group": 1,
     "hexcode": "1F999",
     "order": 2239,
     "shortcodes": [
       "llama"
+    ],
+    "tags": [
+      "小羊駝",
+      "毛",
+      "羊駝毛",
+      "美野生羊駝"
     ],
     "unicode": "🦙"
   },
@@ -18963,11 +19103,15 @@
     "unicode": "🦏"
   },
   {
+    "annotation": "河馬",
     "group": 1,
     "hexcode": "1F99B",
     "order": 2243,
     "shortcodes": [
       "hippo"
+    ],
+    "tags": [
+      "河馬"
     ],
     "unicode": "🦛"
   },
@@ -19131,20 +19275,30 @@
     "unicode": "🐼"
   },
   {
+    "annotation": "袋鼠",
     "group": 1,
     "hexcode": "1F998",
     "order": 2257,
     "shortcodes": [
       "kangaroo"
     ],
+    "tags": [
+      "有袋動物",
+      "澳洲",
+      "跳"
+    ],
     "unicode": "🦘"
   },
   {
+    "annotation": "獾",
     "group": 1,
     "hexcode": "1F9A1",
     "order": 2258,
     "shortcodes": [
       "badger"
+    ],
+    "tags": [
+      "蜜獾"
     ],
     "unicode": "🦡"
   },
@@ -19306,11 +19460,17 @@
     "unicode": "🦆"
   },
   {
+    "annotation": "天鵝",
     "group": 1,
     "hexcode": "1F9A2",
     "order": 2272,
     "shortcodes": [
       "swan"
+    ],
+    "tags": [
+      "小天鵝",
+      "醜小鴨",
+      "鳥"
     ],
     "unicode": "🦢"
   },
@@ -19330,20 +19490,33 @@
     "unicode": "🦉"
   },
   {
+    "annotation": "孔雀",
     "group": 1,
     "hexcode": "1F99A",
     "order": 2274,
     "shortcodes": [
       "peacock"
     ],
+    "tags": [
+      "賣弄",
+      "雌孔雀",
+      "驕傲",
+      "鳥"
+    ],
     "unicode": "🦚"
   },
   {
+    "annotation": "鸚鵡",
     "group": 1,
     "hexcode": "1F99C",
     "order": 2275,
     "shortcodes": [
       "parrot"
+    ],
+    "tags": [
+      "海盜",
+      "說話",
+      "鳥"
     ],
     "unicode": "🦜"
   },
@@ -19596,11 +19769,17 @@
     "unicode": "🦀"
   },
   {
+    "annotation": "龍蝦",
     "group": 1,
     "hexcode": "1F99E",
     "order": 2295,
     "shortcodes": [
       "lobster"
+    ],
+    "tags": [
+      "海鮮",
+      "濃湯",
+      "爪"
     ],
     "unicode": "🦞"
   },
@@ -19765,21 +19944,35 @@
     "unicode": "🦂"
   },
   {
+    "annotation": "蚊子",
     "group": 1,
     "hexcode": "1F99F",
     "order": 2310,
     "shortcodes": [
       "mosquito"
     ],
+    "tags": [
+      "疾病",
+      "病毒",
+      "瘧疾",
+      "發燒",
+      "蟲"
+    ],
     "unicode": "🦟"
   },
   {
+    "annotation": "微生物",
     "group": 1,
     "hexcode": "1F9A0",
     "order": 2311,
     "shortcodes": [
       "microbe",
       "germ"
+    ],
+    "tags": [
+      "病毒",
+      "細菌",
+      "阿米巴"
     ],
     "unicode": "🦠"
   },
@@ -20168,11 +20361,16 @@
     "unicode": "🍍"
   },
   {
+    "annotation": "芒果",
     "group": 2,
     "hexcode": "1F96D",
     "order": 2343,
     "shortcodes": [
       "mango"
+    ],
+    "tags": [
+      "水果",
+      "熱帶"
     ],
     "unicode": "🥭"
   },
@@ -20395,11 +20593,18 @@
     "unicode": "🥒"
   },
   {
+    "annotation": "綠葉蔬菜",
     "group": 2,
     "hexcode": "1F96C",
     "order": 2361,
     "shortcodes": [
       "leafy_green"
+    ],
+    "tags": [
+      "小白菜",
+      "甘藍菜",
+      "羽衣甘藍",
+      "萵苣"
     ],
     "unicode": "🥬"
   },
@@ -20481,7 +20686,6 @@
     "tags": [
       "法式",
       "牛角麵包",
-      "食物",
       "麵包"
     ],
     "unicode": "🥐"
@@ -20515,11 +20719,16 @@
     "unicode": "🥨"
   },
   {
+    "annotation": "貝果",
     "group": 2,
     "hexcode": "1F96F",
     "order": 2370,
     "shortcodes": [
       "bagel"
+    ],
+    "tags": [
+      "醬",
+      "麵包"
     ],
     "unicode": "🥯"
   },
@@ -20717,7 +20926,7 @@
       "egg"
     ],
     "tags": [
-      "食物"
+      "雞蛋"
     ],
     "unicode": "🥚"
   },
@@ -20745,8 +20954,7 @@
     "tags": [
       "平底鍋",
       "料理",
-      "淺鍋",
-      "食物"
+      "淺鍋"
     ],
     "unicode": "🥘"
   },
@@ -20786,8 +20994,7 @@
     ],
     "tags": [
       "沙拉",
-      "生菜",
-      "食物"
+      "生菜"
     ],
     "unicode": "🥗"
   },
@@ -20805,11 +21012,16 @@
     "unicode": "🍿"
   },
   {
+    "annotation": "鹽",
     "group": 2,
     "hexcode": "1F9C2",
     "order": 2392,
     "shortcodes": [
       "salt"
+    ],
+    "tags": [
+      "調味品",
+      "調味瓶"
     ],
     "unicode": "🧂"
   },
@@ -20983,11 +21195,15 @@
     "unicode": "🍥"
   },
   {
+    "annotation": "月餅",
     "group": 2,
     "hexcode": "1F96E",
     "order": 2406,
     "shortcodes": [
       "moon_cake"
+    ],
+    "tags": [
+      "中秋"
     ],
     "unicode": "🥮"
   },
@@ -21137,11 +21353,16 @@
     "unicode": "🍰"
   },
   {
+    "annotation": "杯子蛋糕",
     "group": 2,
     "hexcode": "1F9C1",
     "order": 2418,
     "shortcodes": [
       "cupcake"
+    ],
+    "tags": [
+      "烘焙",
+      "甜點"
     ],
     "unicode": "🧁"
   },
@@ -21206,8 +21427,8 @@
       "custard"
     ],
     "tags": [
-      "吉士",
-      "蛋奶凍"
+      "布丁",
+      "甜點"
     ],
     "unicode": "🍮"
   },
@@ -21571,11 +21792,17 @@
     "unicode": "🗾"
   },
   {
+    "annotation": "指南針",
     "group": 3,
     "hexcode": "1F9ED",
     "order": 2453,
     "shortcodes": [
       "compass"
+    ],
+    "tags": [
+      "定向",
+      "導航",
+      "磁鐵"
     ],
     "unicode": "🧭"
   },
@@ -21736,11 +21963,17 @@
     "unicode": "🏗️"
   },
   {
+    "annotation": "磚塊",
     "group": 3,
     "hexcode": "1F9F1",
     "order": 2476,
     "shortcodes": [
       "brick"
+    ],
+    "tags": [
+      "泥土",
+      "灰泥",
+      "牆壁"
     ],
     "unicode": "🧱"
   },
@@ -22683,11 +22916,15 @@
     "unicode": "🛴"
   },
   {
+    "annotation": "滑板",
     "group": 3,
     "hexcode": "1F6F9",
     "order": 2554,
     "shortcodes": [
       "skateboard"
+    ],
+    "tags": [
+      "滑板"
     ],
     "unicode": "🛹"
   },
@@ -23111,11 +23348,16 @@
     "unicode": "🛎️"
   },
   {
+    "annotation": "行李",
     "group": 3,
     "hexcode": "1F9F3",
     "order": 2597,
     "shortcodes": [
       "luggage"
+    ],
+    "tags": [
+      "打包",
+      "旅行"
     ],
     "unicode": "🧳"
   },
@@ -24175,11 +24417,17 @@
     "unicode": "🎇"
   },
   {
+    "annotation": "鞭炮",
     "group": 4,
     "hexcode": "1F9E8",
     "order": 2699,
     "shortcodes": [
       "firecracker"
+    ],
+    "tags": [
+      "火藥",
+      "煙火",
+      "爆炸"
     ],
     "unicode": "🧨"
   },
@@ -24317,11 +24565,18 @@
     "unicode": "🎑"
   },
   {
+    "annotation": "紅包",
     "group": 4,
     "hexcode": "1F9E7",
     "order": 2710,
     "shortcodes": [
       "red_envelope"
+    ],
+    "tags": [
+      "吉利",
+      "壓歲錢",
+      "禮物",
+      "紅包袋"
     ],
     "unicode": "🧧"
   },
@@ -24500,11 +24755,17 @@
     "unicode": "⚾️"
   },
   {
+    "annotation": "壘球",
     "group": 4,
     "hexcode": "1F94E",
     "order": 2727,
     "shortcodes": [
       "softball"
+    ],
+    "tags": [
+      "低手",
+      "手套",
+      "球"
     ],
     "unicode": "🥎"
   },
@@ -24574,11 +24835,15 @@
     "unicode": "🎾"
   },
   {
+    "annotation": "飛盤",
     "group": 4,
     "hexcode": "1F94F",
     "order": 2733,
     "shortcodes": [
       "flying_disc"
+    ],
+    "tags": [
+      "極限"
     ],
     "unicode": "🥏"
   },
@@ -24635,11 +24900,17 @@
     "unicode": "🏒"
   },
   {
+    "annotation": "長曲棍球",
     "group": 4,
     "hexcode": "1F94D",
     "order": 2738,
     "shortcodes": [
       "lacrosse"
+    ],
+    "tags": [
+      "得分",
+      "球",
+      "球竿"
     ],
     "unicode": "🥍"
   },
@@ -24752,7 +25023,7 @@
       "fishing_pole"
     ],
     "tags": [
-      "釣魚"
+      "釣竿"
     ],
     "unicode": "🎣"
   },
@@ -24844,16 +25115,23 @@
       "crystal_ball"
     ],
     "tags": [
-      "水晶球"
+      "占卜",
+      "算命"
     ],
     "unicode": "🔮"
   },
   {
+    "annotation": "邪眼",
     "group": 4,
     "hexcode": "1F9FF",
     "order": 2755,
     "shortcodes": [
       "nazar_amulet"
+    ],
+    "tags": [
+      "珠子",
+      "護身符",
+      "避邪"
     ],
     "unicode": "🧿"
   },
@@ -24910,6 +25188,7 @@
     "unicode": "🎲"
   },
   {
+    "annotation": "拼圖",
     "group": 4,
     "hexcode": "1F9E9",
     "order": 2761,
@@ -24917,14 +25196,27 @@
       "jigsaw",
       "puzzle_piece"
     ],
+    "tags": [
+      "拼",
+      "片",
+      "線索",
+      "謎題"
+    ],
     "unicode": "🧩"
   },
   {
+    "annotation": "泰迪熊",
     "group": 4,
     "hexcode": "1F9F8",
     "order": 2762,
     "shortcodes": [
       "teddy_bear"
+    ],
+    "tags": [
+      "填充",
+      "娃娃",
+      "毛茸茸",
+      "玩具"
     ],
     "unicode": "🧸"
   },
@@ -24981,11 +25273,17 @@
     "unicode": "♣️"
   },
   {
+    "annotation": "卒",
     "group": 4,
     "hexcode": "265F",
     "order": 2772,
     "shortcodes": [
       "chess_pawn"
+    ],
+    "tags": [
+      "戰略",
+      "棋子",
+      "鬥智"
     ],
     "unicode": "♟️"
   },
@@ -25069,20 +25367,32 @@
     "unicode": "🎨"
   },
   {
+    "annotation": "線",
     "group": 4,
     "hexcode": "1F9F5",
     "order": 2780,
     "shortcodes": [
       "spool"
     ],
+    "tags": [
+      "線軸",
+      "縫紉",
+      "針"
+    ],
     "unicode": "🧵"
   },
   {
+    "annotation": "毛線球",
     "group": 4,
     "hexcode": "1F9F6",
     "order": 2781,
     "shortcodes": [
       "yarn"
+    ],
+    "tags": [
+      "球",
+      "織",
+      "鉤針"
     ],
     "unicode": "🧶"
   },
@@ -25551,7 +25861,7 @@
       "printer"
     ],
     "tags": [
-      "印表機"
+      "列表機"
     ],
     "unicode": "🖨️"
   },
@@ -25649,11 +25959,15 @@
     "unicode": "📀"
   },
   {
+    "annotation": "算盤",
     "group": 5,
     "hexcode": "1F9EE",
     "order": 2833,
     "shortcodes": [
       "abacus"
+    ],
+    "tags": [
+      "計算"
     ],
     "unicode": "🧮"
   },
@@ -25757,7 +26071,7 @@
       "video_camera"
     ],
     "tags": [
-      "攝影機"
+      "錄影"
     ],
     "unicode": "📹️"
   },
@@ -25770,7 +26084,7 @@
       "vhs"
     ],
     "tags": [
-      "錄影帶"
+      "vhs"
     ],
     "unicode": "📼"
   },
@@ -25796,7 +26110,8 @@
       "mag_right"
     ],
     "tags": [
-      "放大鏡"
+      "搜尋",
+      "放大"
     ],
     "unicode": "🔎"
   },
@@ -25940,6 +26255,7 @@
       "books"
     ],
     "tags": [
+      "書",
       "書籍"
     ],
     "unicode": "📚️"
@@ -26176,11 +26492,18 @@
     "unicode": "💳️"
   },
   {
+    "annotation": "收據",
     "group": 5,
     "hexcode": "1F9FE",
     "order": 2878,
     "shortcodes": [
       "receipt"
+    ],
+    "tags": [
+      "收執聯",
+      "發票",
+      "紙本",
+      "證明"
     ],
     "unicode": "🧾"
   },
@@ -26248,6 +26571,7 @@
       "email"
     ],
     "tags": [
+      "email",
       "郵件"
     ],
     "unicode": "📧"
@@ -26567,7 +26891,7 @@
       "torn_calendar"
     ],
     "tags": [
-      "日曆"
+      "撕日曆"
     ],
     "unicode": "📆"
   },
@@ -26753,7 +27077,8 @@
       "scissors"
     ],
     "tags": [
-      "剪刀"
+      "剪",
+      "工具"
     ],
     "unicode": "✂️"
   },
@@ -26860,7 +27185,8 @@
       "key"
     ],
     "tags": [
-      "鑰匙"
+      "密碼",
+      "鎖"
     ],
     "unicode": "🔑"
   },
@@ -26899,7 +27225,7 @@
       "pick"
     ],
     "tags": [
-      "十字鎬"
+      "鑿"
     ],
     "unicode": "⛏️"
   },
@@ -26981,7 +27307,7 @@
       "bow"
     ],
     "tags": [
-      "弓箭"
+      "射手"
     ],
     "unicode": "🏹"
   },
@@ -27065,7 +27391,7 @@
     "unicode": "⚖️"
   },
   {
-    "annotation": "連接",
+    "annotation": "連結",
     "group": 5,
     "hexcode": "1F517",
     "order": 2971,
@@ -27073,7 +27399,7 @@
       "link"
     ],
     "tags": [
-      "連接"
+      "鏈結"
     ],
     "unicode": "🔗"
   },
@@ -27091,20 +27417,31 @@
     "unicode": "⛓️"
   },
   {
+    "annotation": "工具箱",
     "group": 5,
     "hexcode": "1F9F0",
     "order": 2974,
     "shortcodes": [
       "toolbox"
     ],
+    "tags": [
+      "器具",
+      "工具",
+      "箱子"
+    ],
     "unicode": "🧰"
   },
   {
+    "annotation": "磁鐵",
     "group": 5,
     "hexcode": "1F9F2",
     "order": 2975,
     "shortcodes": [
       "magnet"
+    ],
+    "tags": [
+      "五金",
+      "磁力"
     ],
     "unicode": "🧲"
   },
@@ -27123,30 +27460,51 @@
     "unicode": "⚗️"
   },
   {
+    "annotation": "試管",
     "group": 5,
     "hexcode": "1F9EA",
     "order": 2978,
     "shortcodes": [
       "test_tube"
     ],
+    "tags": [
+      "化學",
+      "實驗",
+      "科學"
+    ],
     "unicode": "🧪"
   },
   {
+    "annotation": "培養皿",
     "group": 5,
     "hexcode": "1F9EB",
     "order": 2979,
     "shortcodes": [
       "petri_dish"
     ],
+    "tags": [
+      "基因",
+      "實驗",
+      "生物學家",
+      "細菌"
+    ],
     "unicode": "🧫"
   },
   {
+    "annotation": "DNA",
     "group": 5,
     "hexcode": "1F9EC",
     "order": 2980,
     "shortcodes": [
       "dna",
       "double_helix"
+    ],
+    "tags": [
+      "dna",
+      "基因",
+      "演化",
+      "生命",
+      "生物學家"
     ],
     "unicode": "🧬"
   },
@@ -27172,7 +27530,7 @@
       "telescope"
     ],
     "tags": [
-      "望遠鏡"
+      "觀測"
     ],
     "unicode": "🔭"
   },
@@ -27211,7 +27569,7 @@
       "pill"
     ],
     "tags": [
-      "藥丸"
+      "藥"
     ],
     "unicode": "💊"
   },
@@ -27237,7 +27595,7 @@
       "bed"
     ],
     "tags": [
-      "床"
+      "睡覺"
     ],
     "unicode": "🛏️"
   },
@@ -27250,7 +27608,8 @@
       "couch"
     ],
     "tags": [
-      "沙發和立燈"
+      "沙發",
+      "立燈"
     ],
     "unicode": "🛋️"
   },
@@ -27294,74 +27653,121 @@
     "unicode": "🛁"
   },
   {
+    "annotation": "乳液瓶",
     "group": 5,
     "hexcode": "1F9F4",
     "order": 2994,
     "shortcodes": [
       "lotion"
     ],
+    "tags": [
+      "乳液",
+      "保濕",
+      "洗髮精",
+      "防曬"
+    ],
     "unicode": "🧴"
   },
   {
+    "annotation": "安全別針",
     "group": 5,
     "hexcode": "1F9F7",
     "order": 2995,
     "shortcodes": [
       "safety_pin"
     ],
+    "tags": [
+      "尿布",
+      "龐克搖滾"
+    ],
     "unicode": "🧷"
   },
   {
+    "annotation": "掃帚",
     "group": 5,
     "hexcode": "1F9F9",
     "order": 2996,
     "shortcodes": [
       "broom"
     ],
+    "tags": [
+      "巫婆",
+      "掃",
+      "清潔"
+    ],
     "unicode": "🧹"
   },
   {
+    "annotation": "籃子",
     "group": 5,
     "hexcode": "1F9FA",
     "order": 2997,
     "shortcodes": [
       "basket"
     ],
+    "tags": [
+      "洗衣",
+      "種植",
+      "野餐"
+    ],
     "unicode": "🧺"
   },
   {
+    "annotation": "捲筒衛生紙",
     "group": 5,
     "hexcode": "1F9FB",
     "order": 2998,
     "shortcodes": [
       "toilet_paper"
     ],
+    "tags": [
+      "紙巾",
+      "衛生紙"
+    ],
     "unicode": "🧻"
   },
   {
+    "annotation": "肥皂",
     "group": 5,
     "hexcode": "1F9FC",
     "order": 2999,
     "shortcodes": [
       "soap"
     ],
+    "tags": [
+      "泡沫",
+      "洗澡",
+      "清潔",
+      "肥皂盤"
+    ],
     "unicode": "🧼"
   },
   {
+    "annotation": "海綿",
     "group": 5,
     "hexcode": "1F9FD",
     "order": 3000,
     "shortcodes": [
       "sponge"
     ],
+    "tags": [
+      "吸水",
+      "清潔",
+      "透氣"
+    ],
     "unicode": "🧽"
   },
   {
+    "annotation": "滅火器",
     "group": 5,
     "hexcode": "1F9EF",
     "order": 3001,
     "shortcodes": [
       "fire_extinguisher"
+    ],
+    "tags": [
+      "撲滅",
+      "滅火"
     ],
     "unicode": "🧯"
   },
@@ -28731,11 +29137,17 @@
     "unicode": "⚕️"
   },
   {
+    "annotation": "無限大",
     "group": 6,
     "hexcode": "267E",
     "order": 3147,
     "shortcodes": [
       "infinity"
+    ],
+    "tags": [
+      "全體",
+      "永遠",
+      "無限"
     ],
     "unicode": "♾️"
   },
@@ -30220,6 +30632,7 @@
     "unicode": "🏳️‍🌈"
   },
   {
+    "annotation": "海盜旗",
     "group": 7,
     "hexcode": "1F3F4-200D-2620-FE0F",
     "order": 3303,
@@ -30228,14 +30641,15 @@
       "jolly_roger"
     ],
     "tags": [
-      "交叉骷髏頭",
-      "骷髏頭",
-      "黑旗"
+      "寶藏",
+      "掠奪",
+      "海盜",
+      "骷髏旗"
     ],
     "unicode": "🏴‍☠️"
   },
   {
-    "annotation": "阿森松島",
+    "annotation": "旗子: 阿森松島",
     "group": 7,
     "hexcode": "1F1E6-1F1E8",
     "order": 3305,
@@ -30249,7 +30663,7 @@
     "unicode": "🇦🇨"
   },
   {
-    "annotation": "安道爾",
+    "annotation": "旗子: 安道爾",
     "group": 7,
     "hexcode": "1F1E6-1F1E9",
     "order": 3306,
@@ -30263,7 +30677,7 @@
     "unicode": "🇦🇩"
   },
   {
-    "annotation": "阿拉伯聯合大公國",
+    "annotation": "旗子: 阿拉伯聯合大公國",
     "group": 7,
     "hexcode": "1F1E6-1F1EA",
     "order": 3307,
@@ -30277,7 +30691,7 @@
     "unicode": "🇦🇪"
   },
   {
-    "annotation": "阿富汗",
+    "annotation": "旗子: 阿富汗",
     "group": 7,
     "hexcode": "1F1E6-1F1EB",
     "order": 3308,
@@ -30291,7 +30705,7 @@
     "unicode": "🇦🇫"
   },
   {
-    "annotation": "安地卡及巴布達",
+    "annotation": "旗子: 安地卡及巴布達",
     "group": 7,
     "hexcode": "1F1E6-1F1EC",
     "order": 3309,
@@ -30305,7 +30719,7 @@
     "unicode": "🇦🇬"
   },
   {
-    "annotation": "安奎拉",
+    "annotation": "旗子: 安奎拉",
     "group": 7,
     "hexcode": "1F1E6-1F1EE",
     "order": 3310,
@@ -30319,7 +30733,7 @@
     "unicode": "🇦🇮"
   },
   {
-    "annotation": "阿爾巴尼亞",
+    "annotation": "旗子: 阿爾巴尼亞",
     "group": 7,
     "hexcode": "1F1E6-1F1F1",
     "order": 3311,
@@ -30333,7 +30747,7 @@
     "unicode": "🇦🇱"
   },
   {
-    "annotation": "亞美尼亞",
+    "annotation": "旗子: 亞美尼亞",
     "group": 7,
     "hexcode": "1F1E6-1F1F2",
     "order": 3312,
@@ -30347,7 +30761,7 @@
     "unicode": "🇦🇲"
   },
   {
-    "annotation": "安哥拉",
+    "annotation": "旗子: 安哥拉",
     "group": 7,
     "hexcode": "1F1E6-1F1F4",
     "order": 3313,
@@ -30361,7 +30775,7 @@
     "unicode": "🇦🇴"
   },
   {
-    "annotation": "南極洲",
+    "annotation": "旗子: 南極洲",
     "group": 7,
     "hexcode": "1F1E6-1F1F6",
     "order": 3314,
@@ -30375,7 +30789,7 @@
     "unicode": "🇦🇶"
   },
   {
-    "annotation": "阿根廷",
+    "annotation": "旗子: 阿根廷",
     "group": 7,
     "hexcode": "1F1E6-1F1F7",
     "order": 3315,
@@ -30389,7 +30803,7 @@
     "unicode": "🇦🇷"
   },
   {
-    "annotation": "美屬薩摩亞",
+    "annotation": "旗子: 美屬薩摩亞",
     "group": 7,
     "hexcode": "1F1E6-1F1F8",
     "order": 3316,
@@ -30403,7 +30817,7 @@
     "unicode": "🇦🇸"
   },
   {
-    "annotation": "奧地利",
+    "annotation": "旗子: 奧地利",
     "group": 7,
     "hexcode": "1F1E6-1F1F9",
     "order": 3317,
@@ -30417,7 +30831,7 @@
     "unicode": "🇦🇹"
   },
   {
-    "annotation": "澳洲",
+    "annotation": "旗子: 澳洲",
     "group": 7,
     "hexcode": "1F1E6-1F1FA",
     "order": 3318,
@@ -30431,7 +30845,7 @@
     "unicode": "🇦🇺"
   },
   {
-    "annotation": "荷屬阿魯巴",
+    "annotation": "旗子: 荷屬阿魯巴",
     "group": 7,
     "hexcode": "1F1E6-1F1FC",
     "order": 3319,
@@ -30445,7 +30859,7 @@
     "unicode": "🇦🇼"
   },
   {
-    "annotation": "奧蘭群島",
+    "annotation": "旗子: 奧蘭群島",
     "group": 7,
     "hexcode": "1F1E6-1F1FD",
     "order": 3320,
@@ -30459,7 +30873,7 @@
     "unicode": "🇦🇽"
   },
   {
-    "annotation": "亞塞拜然",
+    "annotation": "旗子: 亞塞拜然",
     "group": 7,
     "hexcode": "1F1E6-1F1FF",
     "order": 3321,
@@ -30473,7 +30887,7 @@
     "unicode": "🇦🇿"
   },
   {
-    "annotation": "波士尼亞與赫塞哥維納",
+    "annotation": "旗子: 波士尼亞與赫塞哥維納",
     "group": 7,
     "hexcode": "1F1E7-1F1E6",
     "order": 3322,
@@ -30487,7 +30901,7 @@
     "unicode": "🇧🇦"
   },
   {
-    "annotation": "巴貝多",
+    "annotation": "旗子: 巴貝多",
     "group": 7,
     "hexcode": "1F1E7-1F1E7",
     "order": 3323,
@@ -30501,7 +30915,7 @@
     "unicode": "🇧🇧"
   },
   {
-    "annotation": "孟加拉",
+    "annotation": "旗子: 孟加拉",
     "group": 7,
     "hexcode": "1F1E7-1F1E9",
     "order": 3324,
@@ -30515,7 +30929,7 @@
     "unicode": "🇧🇩"
   },
   {
-    "annotation": "比利時",
+    "annotation": "旗子: 比利時",
     "group": 7,
     "hexcode": "1F1E7-1F1EA",
     "order": 3325,
@@ -30529,7 +30943,7 @@
     "unicode": "🇧🇪"
   },
   {
-    "annotation": "布吉納法索",
+    "annotation": "旗子: 布吉納法索",
     "group": 7,
     "hexcode": "1F1E7-1F1EB",
     "order": 3326,
@@ -30543,7 +30957,7 @@
     "unicode": "🇧🇫"
   },
   {
-    "annotation": "保加利亞",
+    "annotation": "旗子: 保加利亞",
     "group": 7,
     "hexcode": "1F1E7-1F1EC",
     "order": 3327,
@@ -30557,7 +30971,7 @@
     "unicode": "🇧🇬"
   },
   {
-    "annotation": "巴林",
+    "annotation": "旗子: 巴林",
     "group": 7,
     "hexcode": "1F1E7-1F1ED",
     "order": 3328,
@@ -30571,7 +30985,7 @@
     "unicode": "🇧🇭"
   },
   {
-    "annotation": "蒲隆地",
+    "annotation": "旗子: 蒲隆地",
     "group": 7,
     "hexcode": "1F1E7-1F1EE",
     "order": 3329,
@@ -30585,7 +30999,7 @@
     "unicode": "🇧🇮"
   },
   {
-    "annotation": "貝南",
+    "annotation": "旗子: 貝南",
     "group": 7,
     "hexcode": "1F1E7-1F1EF",
     "order": 3330,
@@ -30599,7 +31013,7 @@
     "unicode": "🇧🇯"
   },
   {
-    "annotation": "聖巴瑟米",
+    "annotation": "旗子: 聖巴瑟米",
     "group": 7,
     "hexcode": "1F1E7-1F1F1",
     "order": 3331,
@@ -30613,7 +31027,7 @@
     "unicode": "🇧🇱"
   },
   {
-    "annotation": "百慕達",
+    "annotation": "旗子: 百慕達",
     "group": 7,
     "hexcode": "1F1E7-1F1F2",
     "order": 3332,
@@ -30627,7 +31041,7 @@
     "unicode": "🇧🇲"
   },
   {
-    "annotation": "汶萊",
+    "annotation": "旗子: 汶萊",
     "group": 7,
     "hexcode": "1F1E7-1F1F3",
     "order": 3333,
@@ -30641,7 +31055,7 @@
     "unicode": "🇧🇳"
   },
   {
-    "annotation": "玻利維亞",
+    "annotation": "旗子: 玻利維亞",
     "group": 7,
     "hexcode": "1F1E7-1F1F4",
     "order": 3334,
@@ -30655,7 +31069,7 @@
     "unicode": "🇧🇴"
   },
   {
-    "annotation": "荷蘭加勒比區",
+    "annotation": "旗子: 荷蘭加勒比區",
     "group": 7,
     "hexcode": "1F1E7-1F1F6",
     "order": 3335,
@@ -30669,7 +31083,7 @@
     "unicode": "🇧🇶"
   },
   {
-    "annotation": "巴西",
+    "annotation": "旗子: 巴西",
     "group": 7,
     "hexcode": "1F1E7-1F1F7",
     "order": 3336,
@@ -30683,7 +31097,7 @@
     "unicode": "🇧🇷"
   },
   {
-    "annotation": "巴哈馬",
+    "annotation": "旗子: 巴哈馬",
     "group": 7,
     "hexcode": "1F1E7-1F1F8",
     "order": 3337,
@@ -30697,7 +31111,7 @@
     "unicode": "🇧🇸"
   },
   {
-    "annotation": "不丹",
+    "annotation": "旗子: 不丹",
     "group": 7,
     "hexcode": "1F1E7-1F1F9",
     "order": 3338,
@@ -30711,7 +31125,7 @@
     "unicode": "🇧🇹"
   },
   {
-    "annotation": "布威島",
+    "annotation": "旗子: 布威島",
     "group": 7,
     "hexcode": "1F1E7-1F1FB",
     "order": 3339,
@@ -30725,7 +31139,7 @@
     "unicode": "🇧🇻"
   },
   {
-    "annotation": "波札那",
+    "annotation": "旗子: 波札那",
     "group": 7,
     "hexcode": "1F1E7-1F1FC",
     "order": 3340,
@@ -30739,7 +31153,7 @@
     "unicode": "🇧🇼"
   },
   {
-    "annotation": "白俄羅斯",
+    "annotation": "旗子: 白俄羅斯",
     "group": 7,
     "hexcode": "1F1E7-1F1FE",
     "order": 3341,
@@ -30753,7 +31167,7 @@
     "unicode": "🇧🇾"
   },
   {
-    "annotation": "貝里斯",
+    "annotation": "旗子: 貝里斯",
     "group": 7,
     "hexcode": "1F1E7-1F1FF",
     "order": 3342,
@@ -30767,7 +31181,7 @@
     "unicode": "🇧🇿"
   },
   {
-    "annotation": "加拿大",
+    "annotation": "旗子: 加拿大",
     "group": 7,
     "hexcode": "1F1E8-1F1E6",
     "order": 3343,
@@ -30781,7 +31195,7 @@
     "unicode": "🇨🇦"
   },
   {
-    "annotation": "科克斯（基靈）群島",
+    "annotation": "旗子: 科克斯（基靈）群島",
     "group": 7,
     "hexcode": "1F1E8-1F1E8",
     "order": 3344,
@@ -30795,7 +31209,7 @@
     "unicode": "🇨🇨"
   },
   {
-    "annotation": "剛果（金夏沙）",
+    "annotation": "旗子: 剛果（金夏沙）",
     "group": 7,
     "hexcode": "1F1E8-1F1E9",
     "order": 3345,
@@ -30809,7 +31223,7 @@
     "unicode": "🇨🇩"
   },
   {
-    "annotation": "中非共和國",
+    "annotation": "旗子: 中非共和國",
     "group": 7,
     "hexcode": "1F1E8-1F1EB",
     "order": 3346,
@@ -30823,7 +31237,7 @@
     "unicode": "🇨🇫"
   },
   {
-    "annotation": "剛果（布拉薩）",
+    "annotation": "旗子: 剛果（布拉薩）",
     "group": 7,
     "hexcode": "1F1E8-1F1EC",
     "order": 3347,
@@ -30837,7 +31251,7 @@
     "unicode": "🇨🇬"
   },
   {
-    "annotation": "瑞士",
+    "annotation": "旗子: 瑞士",
     "group": 7,
     "hexcode": "1F1E8-1F1ED",
     "order": 3348,
@@ -30851,7 +31265,7 @@
     "unicode": "🇨🇭"
   },
   {
-    "annotation": "象牙海岸",
+    "annotation": "旗子: 象牙海岸",
     "group": 7,
     "hexcode": "1F1E8-1F1EE",
     "order": 3349,
@@ -30865,7 +31279,7 @@
     "unicode": "🇨🇮"
   },
   {
-    "annotation": "庫克群島",
+    "annotation": "旗子: 庫克群島",
     "group": 7,
     "hexcode": "1F1E8-1F1F0",
     "order": 3350,
@@ -30879,7 +31293,7 @@
     "unicode": "🇨🇰"
   },
   {
-    "annotation": "智利",
+    "annotation": "旗子: 智利",
     "group": 7,
     "hexcode": "1F1E8-1F1F1",
     "order": 3351,
@@ -30893,7 +31307,7 @@
     "unicode": "🇨🇱"
   },
   {
-    "annotation": "喀麥隆",
+    "annotation": "旗子: 喀麥隆",
     "group": 7,
     "hexcode": "1F1E8-1F1F2",
     "order": 3352,
@@ -30907,7 +31321,7 @@
     "unicode": "🇨🇲"
   },
   {
-    "annotation": "中國",
+    "annotation": "旗子: 中國",
     "group": 7,
     "hexcode": "1F1E8-1F1F3",
     "order": 3353,
@@ -30921,7 +31335,7 @@
     "unicode": "🇨🇳"
   },
   {
-    "annotation": "哥倫比亞",
+    "annotation": "旗子: 哥倫比亞",
     "group": 7,
     "hexcode": "1F1E8-1F1F4",
     "order": 3354,
@@ -30935,7 +31349,7 @@
     "unicode": "🇨🇴"
   },
   {
-    "annotation": "克里派頓島",
+    "annotation": "旗子: 克里派頓島",
     "group": 7,
     "hexcode": "1F1E8-1F1F5",
     "order": 3355,
@@ -30949,7 +31363,7 @@
     "unicode": "🇨🇵"
   },
   {
-    "annotation": "哥斯大黎加",
+    "annotation": "旗子: 哥斯大黎加",
     "group": 7,
     "hexcode": "1F1E8-1F1F7",
     "order": 3356,
@@ -30963,7 +31377,7 @@
     "unicode": "🇨🇷"
   },
   {
-    "annotation": "古巴",
+    "annotation": "旗子: 古巴",
     "group": 7,
     "hexcode": "1F1E8-1F1FA",
     "order": 3357,
@@ -30977,7 +31391,7 @@
     "unicode": "🇨🇺"
   },
   {
-    "annotation": "維德角",
+    "annotation": "旗子: 維德角",
     "group": 7,
     "hexcode": "1F1E8-1F1FB",
     "order": 3358,
@@ -30991,7 +31405,7 @@
     "unicode": "🇨🇻"
   },
   {
-    "annotation": "庫拉索",
+    "annotation": "旗子: 庫拉索",
     "group": 7,
     "hexcode": "1F1E8-1F1FC",
     "order": 3359,
@@ -31005,7 +31419,7 @@
     "unicode": "🇨🇼"
   },
   {
-    "annotation": "聖誕島",
+    "annotation": "旗子: 聖誕島",
     "group": 7,
     "hexcode": "1F1E8-1F1FD",
     "order": 3360,
@@ -31019,7 +31433,7 @@
     "unicode": "🇨🇽"
   },
   {
-    "annotation": "賽普勒斯",
+    "annotation": "旗子: 賽普勒斯",
     "group": 7,
     "hexcode": "1F1E8-1F1FE",
     "order": 3361,
@@ -31033,7 +31447,7 @@
     "unicode": "🇨🇾"
   },
   {
-    "annotation": "捷克",
+    "annotation": "旗子: 捷克",
     "group": 7,
     "hexcode": "1F1E8-1F1FF",
     "order": 3362,
@@ -31047,7 +31461,7 @@
     "unicode": "🇨🇿"
   },
   {
-    "annotation": "德國",
+    "annotation": "旗子: 德國",
     "group": 7,
     "hexcode": "1F1E9-1F1EA",
     "order": 3363,
@@ -31061,7 +31475,7 @@
     "unicode": "🇩🇪"
   },
   {
-    "annotation": "迪亞哥加西亞島",
+    "annotation": "旗子: 迪亞哥加西亞島",
     "group": 7,
     "hexcode": "1F1E9-1F1EC",
     "order": 3364,
@@ -31075,7 +31489,7 @@
     "unicode": "🇩🇬"
   },
   {
-    "annotation": "吉布地",
+    "annotation": "旗子: 吉布地",
     "group": 7,
     "hexcode": "1F1E9-1F1EF",
     "order": 3365,
@@ -31089,7 +31503,7 @@
     "unicode": "🇩🇯"
   },
   {
-    "annotation": "丹麥",
+    "annotation": "旗子: 丹麥",
     "group": 7,
     "hexcode": "1F1E9-1F1F0",
     "order": 3366,
@@ -31103,7 +31517,7 @@
     "unicode": "🇩🇰"
   },
   {
-    "annotation": "多米尼克",
+    "annotation": "旗子: 多米尼克",
     "group": 7,
     "hexcode": "1F1E9-1F1F2",
     "order": 3367,
@@ -31117,7 +31531,7 @@
     "unicode": "🇩🇲"
   },
   {
-    "annotation": "多明尼加共和國",
+    "annotation": "旗子: 多明尼加共和國",
     "group": 7,
     "hexcode": "1F1E9-1F1F4",
     "order": 3368,
@@ -31131,7 +31545,7 @@
     "unicode": "🇩🇴"
   },
   {
-    "annotation": "阿爾及利亞",
+    "annotation": "旗子: 阿爾及利亞",
     "group": 7,
     "hexcode": "1F1E9-1F1FF",
     "order": 3369,
@@ -31145,7 +31559,7 @@
     "unicode": "🇩🇿"
   },
   {
-    "annotation": "休達與梅利利亞",
+    "annotation": "旗子: 休達與梅利利亞",
     "group": 7,
     "hexcode": "1F1EA-1F1E6",
     "order": 3370,
@@ -31159,7 +31573,7 @@
     "unicode": "🇪🇦"
   },
   {
-    "annotation": "厄瓜多",
+    "annotation": "旗子: 厄瓜多",
     "group": 7,
     "hexcode": "1F1EA-1F1E8",
     "order": 3371,
@@ -31173,7 +31587,7 @@
     "unicode": "🇪🇨"
   },
   {
-    "annotation": "愛沙尼亞",
+    "annotation": "旗子: 愛沙尼亞",
     "group": 7,
     "hexcode": "1F1EA-1F1EA",
     "order": 3372,
@@ -31187,7 +31601,7 @@
     "unicode": "🇪🇪"
   },
   {
-    "annotation": "埃及",
+    "annotation": "旗子: 埃及",
     "group": 7,
     "hexcode": "1F1EA-1F1EC",
     "order": 3373,
@@ -31201,7 +31615,7 @@
     "unicode": "🇪🇬"
   },
   {
-    "annotation": "西撒哈拉",
+    "annotation": "旗子: 西撒哈拉",
     "group": 7,
     "hexcode": "1F1EA-1F1ED",
     "order": 3374,
@@ -31215,7 +31629,7 @@
     "unicode": "🇪🇭"
   },
   {
-    "annotation": "厄利垂亞",
+    "annotation": "旗子: 厄利垂亞",
     "group": 7,
     "hexcode": "1F1EA-1F1F7",
     "order": 3375,
@@ -31229,7 +31643,7 @@
     "unicode": "🇪🇷"
   },
   {
-    "annotation": "西班牙",
+    "annotation": "旗子: 西班牙",
     "group": 7,
     "hexcode": "1F1EA-1F1F8",
     "order": 3376,
@@ -31243,7 +31657,7 @@
     "unicode": "🇪🇸"
   },
   {
-    "annotation": "衣索比亞",
+    "annotation": "旗子: 衣索比亞",
     "group": 7,
     "hexcode": "1F1EA-1F1F9",
     "order": 3377,
@@ -31257,7 +31671,7 @@
     "unicode": "🇪🇹"
   },
   {
-    "annotation": "歐盟",
+    "annotation": "旗子: 歐盟",
     "group": 7,
     "hexcode": "1F1EA-1F1FA",
     "order": 3378,
@@ -31271,7 +31685,7 @@
     "unicode": "🇪🇺"
   },
   {
-    "annotation": "芬蘭",
+    "annotation": "旗子: 芬蘭",
     "group": 7,
     "hexcode": "1F1EB-1F1EE",
     "order": 3379,
@@ -31285,7 +31699,7 @@
     "unicode": "🇫🇮"
   },
   {
-    "annotation": "斐濟",
+    "annotation": "旗子: 斐濟",
     "group": 7,
     "hexcode": "1F1EB-1F1EF",
     "order": 3380,
@@ -31299,7 +31713,7 @@
     "unicode": "🇫🇯"
   },
   {
-    "annotation": "福克蘭群島",
+    "annotation": "旗子: 福克蘭群島",
     "group": 7,
     "hexcode": "1F1EB-1F1F0",
     "order": 3381,
@@ -31313,7 +31727,7 @@
     "unicode": "🇫🇰"
   },
   {
-    "annotation": "密克羅尼西亞",
+    "annotation": "旗子: 密克羅尼西亞",
     "group": 7,
     "hexcode": "1F1EB-1F1F2",
     "order": 3382,
@@ -31327,7 +31741,7 @@
     "unicode": "🇫🇲"
   },
   {
-    "annotation": "法羅群島",
+    "annotation": "旗子: 法羅群島",
     "group": 7,
     "hexcode": "1F1EB-1F1F4",
     "order": 3383,
@@ -31341,7 +31755,7 @@
     "unicode": "🇫🇴"
   },
   {
-    "annotation": "法國",
+    "annotation": "旗子: 法國",
     "group": 7,
     "hexcode": "1F1EB-1F1F7",
     "order": 3384,
@@ -31355,7 +31769,7 @@
     "unicode": "🇫🇷"
   },
   {
-    "annotation": "加彭",
+    "annotation": "旗子: 加彭",
     "group": 7,
     "hexcode": "1F1EC-1F1E6",
     "order": 3385,
@@ -31369,7 +31783,7 @@
     "unicode": "🇬🇦"
   },
   {
-    "annotation": "英國",
+    "annotation": "旗子: 英國",
     "group": 7,
     "hexcode": "1F1EC-1F1E7",
     "order": 3386,
@@ -31383,7 +31797,7 @@
     "unicode": "🇬🇧"
   },
   {
-    "annotation": "格瑞那達",
+    "annotation": "旗子: 格瑞那達",
     "group": 7,
     "hexcode": "1F1EC-1F1E9",
     "order": 3387,
@@ -31397,7 +31811,7 @@
     "unicode": "🇬🇩"
   },
   {
-    "annotation": "喬治亞",
+    "annotation": "旗子: 喬治亞",
     "group": 7,
     "hexcode": "1F1EC-1F1EA",
     "order": 3388,
@@ -31411,7 +31825,7 @@
     "unicode": "🇬🇪"
   },
   {
-    "annotation": "法屬圭亞那",
+    "annotation": "旗子: 法屬圭亞那",
     "group": 7,
     "hexcode": "1F1EC-1F1EB",
     "order": 3389,
@@ -31425,7 +31839,7 @@
     "unicode": "🇬🇫"
   },
   {
-    "annotation": "根息",
+    "annotation": "旗子: 根息",
     "group": 7,
     "hexcode": "1F1EC-1F1EC",
     "order": 3390,
@@ -31439,7 +31853,7 @@
     "unicode": "🇬🇬"
   },
   {
-    "annotation": "迦納",
+    "annotation": "旗子: 迦納",
     "group": 7,
     "hexcode": "1F1EC-1F1ED",
     "order": 3391,
@@ -31453,7 +31867,7 @@
     "unicode": "🇬🇭"
   },
   {
-    "annotation": "直布羅陀",
+    "annotation": "旗子: 直布羅陀",
     "group": 7,
     "hexcode": "1F1EC-1F1EE",
     "order": 3392,
@@ -31467,7 +31881,7 @@
     "unicode": "🇬🇮"
   },
   {
-    "annotation": "格陵蘭",
+    "annotation": "旗子: 格陵蘭",
     "group": 7,
     "hexcode": "1F1EC-1F1F1",
     "order": 3393,
@@ -31481,7 +31895,7 @@
     "unicode": "🇬🇱"
   },
   {
-    "annotation": "甘比亞",
+    "annotation": "旗子: 甘比亞",
     "group": 7,
     "hexcode": "1F1EC-1F1F2",
     "order": 3394,
@@ -31495,7 +31909,7 @@
     "unicode": "🇬🇲"
   },
   {
-    "annotation": "幾內亞",
+    "annotation": "旗子: 幾內亞",
     "group": 7,
     "hexcode": "1F1EC-1F1F3",
     "order": 3395,
@@ -31509,7 +31923,7 @@
     "unicode": "🇬🇳"
   },
   {
-    "annotation": "瓜地洛普",
+    "annotation": "旗子: 瓜地洛普",
     "group": 7,
     "hexcode": "1F1EC-1F1F5",
     "order": 3396,
@@ -31523,7 +31937,7 @@
     "unicode": "🇬🇵"
   },
   {
-    "annotation": "赤道幾內亞",
+    "annotation": "旗子: 赤道幾內亞",
     "group": 7,
     "hexcode": "1F1EC-1F1F6",
     "order": 3397,
@@ -31537,7 +31951,7 @@
     "unicode": "🇬🇶"
   },
   {
-    "annotation": "希臘",
+    "annotation": "旗子: 希臘",
     "group": 7,
     "hexcode": "1F1EC-1F1F7",
     "order": 3398,
@@ -31551,7 +31965,7 @@
     "unicode": "🇬🇷"
   },
   {
-    "annotation": "南喬治亞與南三明治群島",
+    "annotation": "旗子: 南喬治亞與南三明治群島",
     "group": 7,
     "hexcode": "1F1EC-1F1F8",
     "order": 3399,
@@ -31565,7 +31979,7 @@
     "unicode": "🇬🇸"
   },
   {
-    "annotation": "瓜地馬拉",
+    "annotation": "旗子: 瓜地馬拉",
     "group": 7,
     "hexcode": "1F1EC-1F1F9",
     "order": 3400,
@@ -31579,7 +31993,7 @@
     "unicode": "🇬🇹"
   },
   {
-    "annotation": "關島",
+    "annotation": "旗子: 關島",
     "group": 7,
     "hexcode": "1F1EC-1F1FA",
     "order": 3401,
@@ -31593,7 +32007,7 @@
     "unicode": "🇬🇺"
   },
   {
-    "annotation": "幾內亞比索",
+    "annotation": "旗子: 幾內亞比索",
     "group": 7,
     "hexcode": "1F1EC-1F1FC",
     "order": 3402,
@@ -31607,7 +32021,7 @@
     "unicode": "🇬🇼"
   },
   {
-    "annotation": "蓋亞那",
+    "annotation": "旗子: 蓋亞那",
     "group": 7,
     "hexcode": "1F1EC-1F1FE",
     "order": 3403,
@@ -31621,7 +32035,7 @@
     "unicode": "🇬🇾"
   },
   {
-    "annotation": "中國香港特別行政區",
+    "annotation": "旗子: 中國香港特別行政區",
     "group": 7,
     "hexcode": "1F1ED-1F1F0",
     "order": 3404,
@@ -31635,7 +32049,7 @@
     "unicode": "🇭🇰"
   },
   {
-    "annotation": "赫德島及麥唐納群島",
+    "annotation": "旗子: 赫德島及麥唐納群島",
     "group": 7,
     "hexcode": "1F1ED-1F1F2",
     "order": 3405,
@@ -31649,7 +32063,7 @@
     "unicode": "🇭🇲"
   },
   {
-    "annotation": "宏都拉斯",
+    "annotation": "旗子: 宏都拉斯",
     "group": 7,
     "hexcode": "1F1ED-1F1F3",
     "order": 3406,
@@ -31663,7 +32077,7 @@
     "unicode": "🇭🇳"
   },
   {
-    "annotation": "克羅埃西亞",
+    "annotation": "旗子: 克羅埃西亞",
     "group": 7,
     "hexcode": "1F1ED-1F1F7",
     "order": 3407,
@@ -31677,7 +32091,7 @@
     "unicode": "🇭🇷"
   },
   {
-    "annotation": "海地",
+    "annotation": "旗子: 海地",
     "group": 7,
     "hexcode": "1F1ED-1F1F9",
     "order": 3408,
@@ -31691,7 +32105,7 @@
     "unicode": "🇭🇹"
   },
   {
-    "annotation": "匈牙利",
+    "annotation": "旗子: 匈牙利",
     "group": 7,
     "hexcode": "1F1ED-1F1FA",
     "order": 3409,
@@ -31705,7 +32119,7 @@
     "unicode": "🇭🇺"
   },
   {
-    "annotation": "加那利群島",
+    "annotation": "旗子: 加那利群島",
     "group": 7,
     "hexcode": "1F1EE-1F1E8",
     "order": 3410,
@@ -31719,7 +32133,7 @@
     "unicode": "🇮🇨"
   },
   {
-    "annotation": "印尼",
+    "annotation": "旗子: 印尼",
     "group": 7,
     "hexcode": "1F1EE-1F1E9",
     "order": 3411,
@@ -31733,7 +32147,7 @@
     "unicode": "🇮🇩"
   },
   {
-    "annotation": "愛爾蘭",
+    "annotation": "旗子: 愛爾蘭",
     "group": 7,
     "hexcode": "1F1EE-1F1EA",
     "order": 3412,
@@ -31747,7 +32161,7 @@
     "unicode": "🇮🇪"
   },
   {
-    "annotation": "以色列",
+    "annotation": "旗子: 以色列",
     "group": 7,
     "hexcode": "1F1EE-1F1F1",
     "order": 3413,
@@ -31761,7 +32175,7 @@
     "unicode": "🇮🇱"
   },
   {
-    "annotation": "曼島",
+    "annotation": "旗子: 曼島",
     "group": 7,
     "hexcode": "1F1EE-1F1F2",
     "order": 3414,
@@ -31775,7 +32189,7 @@
     "unicode": "🇮🇲"
   },
   {
-    "annotation": "印度",
+    "annotation": "旗子: 印度",
     "group": 7,
     "hexcode": "1F1EE-1F1F3",
     "order": 3415,
@@ -31789,7 +32203,7 @@
     "unicode": "🇮🇳"
   },
   {
-    "annotation": "英屬印度洋領地",
+    "annotation": "旗子: 英屬印度洋領地",
     "group": 7,
     "hexcode": "1F1EE-1F1F4",
     "order": 3416,
@@ -31803,7 +32217,7 @@
     "unicode": "🇮🇴"
   },
   {
-    "annotation": "伊拉克",
+    "annotation": "旗子: 伊拉克",
     "group": 7,
     "hexcode": "1F1EE-1F1F6",
     "order": 3417,
@@ -31817,7 +32231,7 @@
     "unicode": "🇮🇶"
   },
   {
-    "annotation": "伊朗",
+    "annotation": "旗子: 伊朗",
     "group": 7,
     "hexcode": "1F1EE-1F1F7",
     "order": 3418,
@@ -31831,7 +32245,7 @@
     "unicode": "🇮🇷"
   },
   {
-    "annotation": "冰島",
+    "annotation": "旗子: 冰島",
     "group": 7,
     "hexcode": "1F1EE-1F1F8",
     "order": 3419,
@@ -31845,7 +32259,7 @@
     "unicode": "🇮🇸"
   },
   {
-    "annotation": "義大利",
+    "annotation": "旗子: 義大利",
     "group": 7,
     "hexcode": "1F1EE-1F1F9",
     "order": 3420,
@@ -31859,7 +32273,7 @@
     "unicode": "🇮🇹"
   },
   {
-    "annotation": "澤西島",
+    "annotation": "旗子: 澤西島",
     "group": 7,
     "hexcode": "1F1EF-1F1EA",
     "order": 3421,
@@ -31873,7 +32287,7 @@
     "unicode": "🇯🇪"
   },
   {
-    "annotation": "牙買加",
+    "annotation": "旗子: 牙買加",
     "group": 7,
     "hexcode": "1F1EF-1F1F2",
     "order": 3422,
@@ -31887,7 +32301,7 @@
     "unicode": "🇯🇲"
   },
   {
-    "annotation": "約旦",
+    "annotation": "旗子: 約旦",
     "group": 7,
     "hexcode": "1F1EF-1F1F4",
     "order": 3423,
@@ -31901,7 +32315,7 @@
     "unicode": "🇯🇴"
   },
   {
-    "annotation": "日本",
+    "annotation": "旗子: 日本",
     "group": 7,
     "hexcode": "1F1EF-1F1F5",
     "order": 3424,
@@ -31915,7 +32329,7 @@
     "unicode": "🇯🇵"
   },
   {
-    "annotation": "肯亞",
+    "annotation": "旗子: 肯亞",
     "group": 7,
     "hexcode": "1F1F0-1F1EA",
     "order": 3425,
@@ -31929,7 +32343,7 @@
     "unicode": "🇰🇪"
   },
   {
-    "annotation": "吉爾吉斯",
+    "annotation": "旗子: 吉爾吉斯",
     "group": 7,
     "hexcode": "1F1F0-1F1EC",
     "order": 3426,
@@ -31943,7 +32357,7 @@
     "unicode": "🇰🇬"
   },
   {
-    "annotation": "柬埔寨",
+    "annotation": "旗子: 柬埔寨",
     "group": 7,
     "hexcode": "1F1F0-1F1ED",
     "order": 3427,
@@ -31957,7 +32371,7 @@
     "unicode": "🇰🇭"
   },
   {
-    "annotation": "吉里巴斯",
+    "annotation": "旗子: 吉里巴斯",
     "group": 7,
     "hexcode": "1F1F0-1F1EE",
     "order": 3428,
@@ -31971,7 +32385,7 @@
     "unicode": "🇰🇮"
   },
   {
-    "annotation": "葛摩",
+    "annotation": "旗子: 葛摩",
     "group": 7,
     "hexcode": "1F1F0-1F1F2",
     "order": 3429,
@@ -31985,7 +32399,7 @@
     "unicode": "🇰🇲"
   },
   {
-    "annotation": "聖克里斯多福及尼維斯",
+    "annotation": "旗子: 聖克里斯多福及尼維斯",
     "group": 7,
     "hexcode": "1F1F0-1F1F3",
     "order": 3430,
@@ -31999,7 +32413,7 @@
     "unicode": "🇰🇳"
   },
   {
-    "annotation": "北韓",
+    "annotation": "旗子: 北韓",
     "group": 7,
     "hexcode": "1F1F0-1F1F5",
     "order": 3431,
@@ -32013,7 +32427,7 @@
     "unicode": "🇰🇵"
   },
   {
-    "annotation": "南韓",
+    "annotation": "旗子: 南韓",
     "group": 7,
     "hexcode": "1F1F0-1F1F7",
     "order": 3432,
@@ -32027,7 +32441,7 @@
     "unicode": "🇰🇷"
   },
   {
-    "annotation": "科威特",
+    "annotation": "旗子: 科威特",
     "group": 7,
     "hexcode": "1F1F0-1F1FC",
     "order": 3433,
@@ -32041,7 +32455,7 @@
     "unicode": "🇰🇼"
   },
   {
-    "annotation": "開曼群島",
+    "annotation": "旗子: 開曼群島",
     "group": 7,
     "hexcode": "1F1F0-1F1FE",
     "order": 3434,
@@ -32055,7 +32469,7 @@
     "unicode": "🇰🇾"
   },
   {
-    "annotation": "哈薩克",
+    "annotation": "旗子: 哈薩克",
     "group": 7,
     "hexcode": "1F1F0-1F1FF",
     "order": 3435,
@@ -32069,7 +32483,7 @@
     "unicode": "🇰🇿"
   },
   {
-    "annotation": "寮國",
+    "annotation": "旗子: 寮國",
     "group": 7,
     "hexcode": "1F1F1-1F1E6",
     "order": 3436,
@@ -32083,7 +32497,7 @@
     "unicode": "🇱🇦"
   },
   {
-    "annotation": "黎巴嫩",
+    "annotation": "旗子: 黎巴嫩",
     "group": 7,
     "hexcode": "1F1F1-1F1E7",
     "order": 3437,
@@ -32097,7 +32511,7 @@
     "unicode": "🇱🇧"
   },
   {
-    "annotation": "聖露西亞",
+    "annotation": "旗子: 聖露西亞",
     "group": 7,
     "hexcode": "1F1F1-1F1E8",
     "order": 3438,
@@ -32111,7 +32525,7 @@
     "unicode": "🇱🇨"
   },
   {
-    "annotation": "列支敦斯登",
+    "annotation": "旗子: 列支敦斯登",
     "group": 7,
     "hexcode": "1F1F1-1F1EE",
     "order": 3439,
@@ -32125,7 +32539,7 @@
     "unicode": "🇱🇮"
   },
   {
-    "annotation": "斯里蘭卡",
+    "annotation": "旗子: 斯里蘭卡",
     "group": 7,
     "hexcode": "1F1F1-1F1F0",
     "order": 3440,
@@ -32139,7 +32553,7 @@
     "unicode": "🇱🇰"
   },
   {
-    "annotation": "賴比瑞亞",
+    "annotation": "旗子: 賴比瑞亞",
     "group": 7,
     "hexcode": "1F1F1-1F1F7",
     "order": 3441,
@@ -32153,7 +32567,7 @@
     "unicode": "🇱🇷"
   },
   {
-    "annotation": "賴索托",
+    "annotation": "旗子: 賴索托",
     "group": 7,
     "hexcode": "1F1F1-1F1F8",
     "order": 3442,
@@ -32167,7 +32581,7 @@
     "unicode": "🇱🇸"
   },
   {
-    "annotation": "立陶宛",
+    "annotation": "旗子: 立陶宛",
     "group": 7,
     "hexcode": "1F1F1-1F1F9",
     "order": 3443,
@@ -32181,7 +32595,7 @@
     "unicode": "🇱🇹"
   },
   {
-    "annotation": "盧森堡",
+    "annotation": "旗子: 盧森堡",
     "group": 7,
     "hexcode": "1F1F1-1F1FA",
     "order": 3444,
@@ -32195,7 +32609,7 @@
     "unicode": "🇱🇺"
   },
   {
-    "annotation": "拉脫維亞",
+    "annotation": "旗子: 拉脫維亞",
     "group": 7,
     "hexcode": "1F1F1-1F1FB",
     "order": 3445,
@@ -32209,7 +32623,7 @@
     "unicode": "🇱🇻"
   },
   {
-    "annotation": "利比亞",
+    "annotation": "旗子: 利比亞",
     "group": 7,
     "hexcode": "1F1F1-1F1FE",
     "order": 3446,
@@ -32223,7 +32637,7 @@
     "unicode": "🇱🇾"
   },
   {
-    "annotation": "摩洛哥",
+    "annotation": "旗子: 摩洛哥",
     "group": 7,
     "hexcode": "1F1F2-1F1E6",
     "order": 3447,
@@ -32237,7 +32651,7 @@
     "unicode": "🇲🇦"
   },
   {
-    "annotation": "摩納哥",
+    "annotation": "旗子: 摩納哥",
     "group": 7,
     "hexcode": "1F1F2-1F1E8",
     "order": 3448,
@@ -32251,7 +32665,7 @@
     "unicode": "🇲🇨"
   },
   {
-    "annotation": "摩爾多瓦",
+    "annotation": "旗子: 摩爾多瓦",
     "group": 7,
     "hexcode": "1F1F2-1F1E9",
     "order": 3449,
@@ -32265,7 +32679,7 @@
     "unicode": "🇲🇩"
   },
   {
-    "annotation": "蒙特內哥羅",
+    "annotation": "旗子: 蒙特內哥羅",
     "group": 7,
     "hexcode": "1F1F2-1F1EA",
     "order": 3450,
@@ -32279,7 +32693,7 @@
     "unicode": "🇲🇪"
   },
   {
-    "annotation": "法屬聖馬丁",
+    "annotation": "旗子: 法屬聖馬丁",
     "group": 7,
     "hexcode": "1F1F2-1F1EB",
     "order": 3451,
@@ -32293,7 +32707,7 @@
     "unicode": "🇲🇫"
   },
   {
-    "annotation": "馬達加斯加",
+    "annotation": "旗子: 馬達加斯加",
     "group": 7,
     "hexcode": "1F1F2-1F1EC",
     "order": 3452,
@@ -32307,7 +32721,7 @@
     "unicode": "🇲🇬"
   },
   {
-    "annotation": "馬紹爾群島",
+    "annotation": "旗子: 馬紹爾群島",
     "group": 7,
     "hexcode": "1F1F2-1F1ED",
     "order": 3453,
@@ -32321,7 +32735,7 @@
     "unicode": "🇲🇭"
   },
   {
-    "annotation": "馬其頓",
+    "annotation": "旗子: 馬其頓",
     "group": 7,
     "hexcode": "1F1F2-1F1F0",
     "order": 3454,
@@ -32335,7 +32749,7 @@
     "unicode": "🇲🇰"
   },
   {
-    "annotation": "馬利",
+    "annotation": "旗子: 馬利",
     "group": 7,
     "hexcode": "1F1F2-1F1F1",
     "order": 3455,
@@ -32349,7 +32763,7 @@
     "unicode": "🇲🇱"
   },
   {
-    "annotation": "緬甸",
+    "annotation": "旗子: 緬甸",
     "group": 7,
     "hexcode": "1F1F2-1F1F2",
     "order": 3456,
@@ -32363,7 +32777,7 @@
     "unicode": "🇲🇲"
   },
   {
-    "annotation": "蒙古",
+    "annotation": "旗子: 蒙古",
     "group": 7,
     "hexcode": "1F1F2-1F1F3",
     "order": 3457,
@@ -32377,7 +32791,7 @@
     "unicode": "🇲🇳"
   },
   {
-    "annotation": "中國澳門特別行政區",
+    "annotation": "旗子: 中國澳門特別行政區",
     "group": 7,
     "hexcode": "1F1F2-1F1F4",
     "order": 3458,
@@ -32391,7 +32805,7 @@
     "unicode": "🇲🇴"
   },
   {
-    "annotation": "北馬利安納群島",
+    "annotation": "旗子: 北馬利安納群島",
     "group": 7,
     "hexcode": "1F1F2-1F1F5",
     "order": 3459,
@@ -32405,7 +32819,7 @@
     "unicode": "🇲🇵"
   },
   {
-    "annotation": "馬丁尼克",
+    "annotation": "旗子: 馬丁尼克",
     "group": 7,
     "hexcode": "1F1F2-1F1F6",
     "order": 3460,
@@ -32419,7 +32833,7 @@
     "unicode": "🇲🇶"
   },
   {
-    "annotation": "茅利塔尼亞",
+    "annotation": "旗子: 茅利塔尼亞",
     "group": 7,
     "hexcode": "1F1F2-1F1F7",
     "order": 3461,
@@ -32433,7 +32847,7 @@
     "unicode": "🇲🇷"
   },
   {
-    "annotation": "蒙哲臘",
+    "annotation": "旗子: 蒙哲臘",
     "group": 7,
     "hexcode": "1F1F2-1F1F8",
     "order": 3462,
@@ -32447,7 +32861,7 @@
     "unicode": "🇲🇸"
   },
   {
-    "annotation": "馬爾他",
+    "annotation": "旗子: 馬爾他",
     "group": 7,
     "hexcode": "1F1F2-1F1F9",
     "order": 3463,
@@ -32461,7 +32875,7 @@
     "unicode": "🇲🇹"
   },
   {
-    "annotation": "模里西斯",
+    "annotation": "旗子: 模里西斯",
     "group": 7,
     "hexcode": "1F1F2-1F1FA",
     "order": 3464,
@@ -32475,7 +32889,7 @@
     "unicode": "🇲🇺"
   },
   {
-    "annotation": "馬爾地夫",
+    "annotation": "旗子: 馬爾地夫",
     "group": 7,
     "hexcode": "1F1F2-1F1FB",
     "order": 3465,
@@ -32489,7 +32903,7 @@
     "unicode": "🇲🇻"
   },
   {
-    "annotation": "馬拉威",
+    "annotation": "旗子: 馬拉威",
     "group": 7,
     "hexcode": "1F1F2-1F1FC",
     "order": 3466,
@@ -32503,7 +32917,7 @@
     "unicode": "🇲🇼"
   },
   {
-    "annotation": "墨西哥",
+    "annotation": "旗子: 墨西哥",
     "group": 7,
     "hexcode": "1F1F2-1F1FD",
     "order": 3467,
@@ -32517,7 +32931,7 @@
     "unicode": "🇲🇽"
   },
   {
-    "annotation": "馬來西亞",
+    "annotation": "旗子: 馬來西亞",
     "group": 7,
     "hexcode": "1F1F2-1F1FE",
     "order": 3468,
@@ -32531,7 +32945,7 @@
     "unicode": "🇲🇾"
   },
   {
-    "annotation": "莫三比克",
+    "annotation": "旗子: 莫三比克",
     "group": 7,
     "hexcode": "1F1F2-1F1FF",
     "order": 3469,
@@ -32545,7 +32959,7 @@
     "unicode": "🇲🇿"
   },
   {
-    "annotation": "納米比亞",
+    "annotation": "旗子: 納米比亞",
     "group": 7,
     "hexcode": "1F1F3-1F1E6",
     "order": 3470,
@@ -32559,7 +32973,7 @@
     "unicode": "🇳🇦"
   },
   {
-    "annotation": "新喀里多尼亞",
+    "annotation": "旗子: 新喀里多尼亞",
     "group": 7,
     "hexcode": "1F1F3-1F1E8",
     "order": 3471,
@@ -32573,7 +32987,7 @@
     "unicode": "🇳🇨"
   },
   {
-    "annotation": "尼日",
+    "annotation": "旗子: 尼日",
     "group": 7,
     "hexcode": "1F1F3-1F1EA",
     "order": 3472,
@@ -32587,7 +33001,7 @@
     "unicode": "🇳🇪"
   },
   {
-    "annotation": "諾福克島",
+    "annotation": "旗子: 諾福克島",
     "group": 7,
     "hexcode": "1F1F3-1F1EB",
     "order": 3473,
@@ -32601,7 +33015,7 @@
     "unicode": "🇳🇫"
   },
   {
-    "annotation": "奈及利亞",
+    "annotation": "旗子: 奈及利亞",
     "group": 7,
     "hexcode": "1F1F3-1F1EC",
     "order": 3474,
@@ -32615,7 +33029,7 @@
     "unicode": "🇳🇬"
   },
   {
-    "annotation": "尼加拉瓜",
+    "annotation": "旗子: 尼加拉瓜",
     "group": 7,
     "hexcode": "1F1F3-1F1EE",
     "order": 3475,
@@ -32629,7 +33043,7 @@
     "unicode": "🇳🇮"
   },
   {
-    "annotation": "荷蘭",
+    "annotation": "旗子: 荷蘭",
     "group": 7,
     "hexcode": "1F1F3-1F1F1",
     "order": 3476,
@@ -32643,7 +33057,7 @@
     "unicode": "🇳🇱"
   },
   {
-    "annotation": "挪威",
+    "annotation": "旗子: 挪威",
     "group": 7,
     "hexcode": "1F1F3-1F1F4",
     "order": 3477,
@@ -32657,7 +33071,7 @@
     "unicode": "🇳🇴"
   },
   {
-    "annotation": "尼泊爾",
+    "annotation": "旗子: 尼泊爾",
     "group": 7,
     "hexcode": "1F1F3-1F1F5",
     "order": 3478,
@@ -32671,7 +33085,7 @@
     "unicode": "🇳🇵"
   },
   {
-    "annotation": "諾魯",
+    "annotation": "旗子: 諾魯",
     "group": 7,
     "hexcode": "1F1F3-1F1F7",
     "order": 3479,
@@ -32685,7 +33099,7 @@
     "unicode": "🇳🇷"
   },
   {
-    "annotation": "紐埃島",
+    "annotation": "旗子: 紐埃島",
     "group": 7,
     "hexcode": "1F1F3-1F1FA",
     "order": 3480,
@@ -32699,7 +33113,7 @@
     "unicode": "🇳🇺"
   },
   {
-    "annotation": "紐西蘭",
+    "annotation": "旗子: 紐西蘭",
     "group": 7,
     "hexcode": "1F1F3-1F1FF",
     "order": 3481,
@@ -32713,7 +33127,7 @@
     "unicode": "🇳🇿"
   },
   {
-    "annotation": "阿曼",
+    "annotation": "旗子: 阿曼",
     "group": 7,
     "hexcode": "1F1F4-1F1F2",
     "order": 3482,
@@ -32727,7 +33141,7 @@
     "unicode": "🇴🇲"
   },
   {
-    "annotation": "巴拿馬",
+    "annotation": "旗子: 巴拿馬",
     "group": 7,
     "hexcode": "1F1F5-1F1E6",
     "order": 3483,
@@ -32741,7 +33155,7 @@
     "unicode": "🇵🇦"
   },
   {
-    "annotation": "秘魯",
+    "annotation": "旗子: 秘魯",
     "group": 7,
     "hexcode": "1F1F5-1F1EA",
     "order": 3484,
@@ -32755,7 +33169,7 @@
     "unicode": "🇵🇪"
   },
   {
-    "annotation": "法屬玻里尼西亞",
+    "annotation": "旗子: 法屬玻里尼西亞",
     "group": 7,
     "hexcode": "1F1F5-1F1EB",
     "order": 3485,
@@ -32769,7 +33183,7 @@
     "unicode": "🇵🇫"
   },
   {
-    "annotation": "巴布亞紐幾內亞",
+    "annotation": "旗子: 巴布亞紐幾內亞",
     "group": 7,
     "hexcode": "1F1F5-1F1EC",
     "order": 3486,
@@ -32783,7 +33197,7 @@
     "unicode": "🇵🇬"
   },
   {
-    "annotation": "菲律賓",
+    "annotation": "旗子: 菲律賓",
     "group": 7,
     "hexcode": "1F1F5-1F1ED",
     "order": 3487,
@@ -32797,7 +33211,7 @@
     "unicode": "🇵🇭"
   },
   {
-    "annotation": "巴基斯坦",
+    "annotation": "旗子: 巴基斯坦",
     "group": 7,
     "hexcode": "1F1F5-1F1F0",
     "order": 3488,
@@ -32811,7 +33225,7 @@
     "unicode": "🇵🇰"
   },
   {
-    "annotation": "波蘭",
+    "annotation": "旗子: 波蘭",
     "group": 7,
     "hexcode": "1F1F5-1F1F1",
     "order": 3489,
@@ -32825,7 +33239,7 @@
     "unicode": "🇵🇱"
   },
   {
-    "annotation": "聖皮埃與密克隆群島",
+    "annotation": "旗子: 聖皮埃與密克隆群島",
     "group": 7,
     "hexcode": "1F1F5-1F1F2",
     "order": 3490,
@@ -32839,7 +33253,7 @@
     "unicode": "🇵🇲"
   },
   {
-    "annotation": "皮特肯群島",
+    "annotation": "旗子: 皮特肯群島",
     "group": 7,
     "hexcode": "1F1F5-1F1F3",
     "order": 3491,
@@ -32853,7 +33267,7 @@
     "unicode": "🇵🇳"
   },
   {
-    "annotation": "波多黎各",
+    "annotation": "旗子: 波多黎各",
     "group": 7,
     "hexcode": "1F1F5-1F1F7",
     "order": 3492,
@@ -32867,7 +33281,7 @@
     "unicode": "🇵🇷"
   },
   {
-    "annotation": "巴勒斯坦自治區",
+    "annotation": "旗子: 巴勒斯坦自治區",
     "group": 7,
     "hexcode": "1F1F5-1F1F8",
     "order": 3493,
@@ -32881,7 +33295,7 @@
     "unicode": "🇵🇸"
   },
   {
-    "annotation": "葡萄牙",
+    "annotation": "旗子: 葡萄牙",
     "group": 7,
     "hexcode": "1F1F5-1F1F9",
     "order": 3494,
@@ -32895,7 +33309,7 @@
     "unicode": "🇵🇹"
   },
   {
-    "annotation": "帛琉",
+    "annotation": "旗子: 帛琉",
     "group": 7,
     "hexcode": "1F1F5-1F1FC",
     "order": 3495,
@@ -32909,7 +33323,7 @@
     "unicode": "🇵🇼"
   },
   {
-    "annotation": "巴拉圭",
+    "annotation": "旗子: 巴拉圭",
     "group": 7,
     "hexcode": "1F1F5-1F1FE",
     "order": 3496,
@@ -32923,7 +33337,7 @@
     "unicode": "🇵🇾"
   },
   {
-    "annotation": "卡達",
+    "annotation": "旗子: 卡達",
     "group": 7,
     "hexcode": "1F1F6-1F1E6",
     "order": 3497,
@@ -32937,7 +33351,7 @@
     "unicode": "🇶🇦"
   },
   {
-    "annotation": "留尼旺",
+    "annotation": "旗子: 留尼旺",
     "group": 7,
     "hexcode": "1F1F7-1F1EA",
     "order": 3498,
@@ -32951,7 +33365,7 @@
     "unicode": "🇷🇪"
   },
   {
-    "annotation": "羅馬尼亞",
+    "annotation": "旗子: 羅馬尼亞",
     "group": 7,
     "hexcode": "1F1F7-1F1F4",
     "order": 3499,
@@ -32965,7 +33379,7 @@
     "unicode": "🇷🇴"
   },
   {
-    "annotation": "塞爾維亞",
+    "annotation": "旗子: 塞爾維亞",
     "group": 7,
     "hexcode": "1F1F7-1F1F8",
     "order": 3500,
@@ -32979,7 +33393,7 @@
     "unicode": "🇷🇸"
   },
   {
-    "annotation": "俄羅斯",
+    "annotation": "旗子: 俄羅斯",
     "group": 7,
     "hexcode": "1F1F7-1F1FA",
     "order": 3501,
@@ -32993,7 +33407,7 @@
     "unicode": "🇷🇺"
   },
   {
-    "annotation": "盧安達",
+    "annotation": "旗子: 盧安達",
     "group": 7,
     "hexcode": "1F1F7-1F1FC",
     "order": 3502,
@@ -33007,7 +33421,7 @@
     "unicode": "🇷🇼"
   },
   {
-    "annotation": "沙烏地阿拉伯",
+    "annotation": "旗子: 沙烏地阿拉伯",
     "group": 7,
     "hexcode": "1F1F8-1F1E6",
     "order": 3503,
@@ -33021,7 +33435,7 @@
     "unicode": "🇸🇦"
   },
   {
-    "annotation": "索羅門群島",
+    "annotation": "旗子: 索羅門群島",
     "group": 7,
     "hexcode": "1F1F8-1F1E7",
     "order": 3504,
@@ -33035,7 +33449,7 @@
     "unicode": "🇸🇧"
   },
   {
-    "annotation": "塞席爾",
+    "annotation": "旗子: 塞席爾",
     "group": 7,
     "hexcode": "1F1F8-1F1E8",
     "order": 3505,
@@ -33049,7 +33463,7 @@
     "unicode": "🇸🇨"
   },
   {
-    "annotation": "蘇丹",
+    "annotation": "旗子: 蘇丹",
     "group": 7,
     "hexcode": "1F1F8-1F1E9",
     "order": 3506,
@@ -33063,7 +33477,7 @@
     "unicode": "🇸🇩"
   },
   {
-    "annotation": "瑞典",
+    "annotation": "旗子: 瑞典",
     "group": 7,
     "hexcode": "1F1F8-1F1EA",
     "order": 3507,
@@ -33077,7 +33491,7 @@
     "unicode": "🇸🇪"
   },
   {
-    "annotation": "新加坡",
+    "annotation": "旗子: 新加坡",
     "group": 7,
     "hexcode": "1F1F8-1F1EC",
     "order": 3508,
@@ -33091,7 +33505,7 @@
     "unicode": "🇸🇬"
   },
   {
-    "annotation": "聖赫勒拿島",
+    "annotation": "旗子: 聖赫勒拿島",
     "group": 7,
     "hexcode": "1F1F8-1F1ED",
     "order": 3509,
@@ -33105,7 +33519,7 @@
     "unicode": "🇸🇭"
   },
   {
-    "annotation": "斯洛維尼亞",
+    "annotation": "旗子: 斯洛維尼亞",
     "group": 7,
     "hexcode": "1F1F8-1F1EE",
     "order": 3510,
@@ -33119,7 +33533,7 @@
     "unicode": "🇸🇮"
   },
   {
-    "annotation": "挪威屬斯瓦巴及尖棉",
+    "annotation": "旗子: 挪威屬斯瓦巴及尖棉",
     "group": 7,
     "hexcode": "1F1F8-1F1EF",
     "order": 3511,
@@ -33133,7 +33547,7 @@
     "unicode": "🇸🇯"
   },
   {
-    "annotation": "斯洛伐克",
+    "annotation": "旗子: 斯洛伐克",
     "group": 7,
     "hexcode": "1F1F8-1F1F0",
     "order": 3512,
@@ -33147,7 +33561,7 @@
     "unicode": "🇸🇰"
   },
   {
-    "annotation": "獅子山",
+    "annotation": "旗子: 獅子山",
     "group": 7,
     "hexcode": "1F1F8-1F1F1",
     "order": 3513,
@@ -33161,7 +33575,7 @@
     "unicode": "🇸🇱"
   },
   {
-    "annotation": "聖馬利諾",
+    "annotation": "旗子: 聖馬利諾",
     "group": 7,
     "hexcode": "1F1F8-1F1F2",
     "order": 3514,
@@ -33175,7 +33589,7 @@
     "unicode": "🇸🇲"
   },
   {
-    "annotation": "塞內加爾",
+    "annotation": "旗子: 塞內加爾",
     "group": 7,
     "hexcode": "1F1F8-1F1F3",
     "order": 3515,
@@ -33189,7 +33603,7 @@
     "unicode": "🇸🇳"
   },
   {
-    "annotation": "索馬利亞",
+    "annotation": "旗子: 索馬利亞",
     "group": 7,
     "hexcode": "1F1F8-1F1F4",
     "order": 3516,
@@ -33203,7 +33617,7 @@
     "unicode": "🇸🇴"
   },
   {
-    "annotation": "蘇利南",
+    "annotation": "旗子: 蘇利南",
     "group": 7,
     "hexcode": "1F1F8-1F1F7",
     "order": 3517,
@@ -33217,7 +33631,7 @@
     "unicode": "🇸🇷"
   },
   {
-    "annotation": "南蘇丹",
+    "annotation": "旗子: 南蘇丹",
     "group": 7,
     "hexcode": "1F1F8-1F1F8",
     "order": 3518,
@@ -33231,7 +33645,7 @@
     "unicode": "🇸🇸"
   },
   {
-    "annotation": "聖多美普林西比",
+    "annotation": "旗子: 聖多美普林西比",
     "group": 7,
     "hexcode": "1F1F8-1F1F9",
     "order": 3519,
@@ -33245,7 +33659,7 @@
     "unicode": "🇸🇹"
   },
   {
-    "annotation": "薩爾瓦多",
+    "annotation": "旗子: 薩爾瓦多",
     "group": 7,
     "hexcode": "1F1F8-1F1FB",
     "order": 3520,
@@ -33259,7 +33673,7 @@
     "unicode": "🇸🇻"
   },
   {
-    "annotation": "荷屬聖馬丁",
+    "annotation": "旗子: 荷屬聖馬丁",
     "group": 7,
     "hexcode": "1F1F8-1F1FD",
     "order": 3521,
@@ -33273,7 +33687,7 @@
     "unicode": "🇸🇽"
   },
   {
-    "annotation": "敘利亞",
+    "annotation": "旗子: 敘利亞",
     "group": 7,
     "hexcode": "1F1F8-1F1FE",
     "order": 3522,
@@ -33287,7 +33701,7 @@
     "unicode": "🇸🇾"
   },
   {
-    "annotation": "史瓦濟蘭",
+    "annotation": "旗子: 史瓦濟蘭",
     "group": 7,
     "hexcode": "1F1F8-1F1FF",
     "order": 3523,
@@ -33301,7 +33715,7 @@
     "unicode": "🇸🇿"
   },
   {
-    "annotation": "特里斯坦達庫尼亞群島",
+    "annotation": "旗子: 特里斯坦達庫尼亞群島",
     "group": 7,
     "hexcode": "1F1F9-1F1E6",
     "order": 3524,
@@ -33315,7 +33729,7 @@
     "unicode": "🇹🇦"
   },
   {
-    "annotation": "土克斯及開科斯群島",
+    "annotation": "旗子: 土克斯及開科斯群島",
     "group": 7,
     "hexcode": "1F1F9-1F1E8",
     "order": 3525,
@@ -33329,7 +33743,7 @@
     "unicode": "🇹🇨"
   },
   {
-    "annotation": "查德",
+    "annotation": "旗子: 查德",
     "group": 7,
     "hexcode": "1F1F9-1F1E9",
     "order": 3526,
@@ -33343,7 +33757,7 @@
     "unicode": "🇹🇩"
   },
   {
-    "annotation": "法屬南部屬地",
+    "annotation": "旗子: 法屬南部屬地",
     "group": 7,
     "hexcode": "1F1F9-1F1EB",
     "order": 3527,
@@ -33357,7 +33771,7 @@
     "unicode": "🇹🇫"
   },
   {
-    "annotation": "多哥",
+    "annotation": "旗子: 多哥",
     "group": 7,
     "hexcode": "1F1F9-1F1EC",
     "order": 3528,
@@ -33371,7 +33785,7 @@
     "unicode": "🇹🇬"
   },
   {
-    "annotation": "泰國",
+    "annotation": "旗子: 泰國",
     "group": 7,
     "hexcode": "1F1F9-1F1ED",
     "order": 3529,
@@ -33385,7 +33799,7 @@
     "unicode": "🇹🇭"
   },
   {
-    "annotation": "塔吉克",
+    "annotation": "旗子: 塔吉克",
     "group": 7,
     "hexcode": "1F1F9-1F1EF",
     "order": 3530,
@@ -33399,7 +33813,7 @@
     "unicode": "🇹🇯"
   },
   {
-    "annotation": "托克勞群島",
+    "annotation": "旗子: 托克勞群島",
     "group": 7,
     "hexcode": "1F1F9-1F1F0",
     "order": 3531,
@@ -33413,7 +33827,7 @@
     "unicode": "🇹🇰"
   },
   {
-    "annotation": "東帝汶",
+    "annotation": "旗子: 東帝汶",
     "group": 7,
     "hexcode": "1F1F9-1F1F1",
     "order": 3532,
@@ -33427,7 +33841,7 @@
     "unicode": "🇹🇱"
   },
   {
-    "annotation": "土庫曼",
+    "annotation": "旗子: 土庫曼",
     "group": 7,
     "hexcode": "1F1F9-1F1F2",
     "order": 3533,
@@ -33441,7 +33855,7 @@
     "unicode": "🇹🇲"
   },
   {
-    "annotation": "突尼西亞",
+    "annotation": "旗子: 突尼西亞",
     "group": 7,
     "hexcode": "1F1F9-1F1F3",
     "order": 3534,
@@ -33455,7 +33869,7 @@
     "unicode": "🇹🇳"
   },
   {
-    "annotation": "東加",
+    "annotation": "旗子: 東加",
     "group": 7,
     "hexcode": "1F1F9-1F1F4",
     "order": 3535,
@@ -33469,7 +33883,7 @@
     "unicode": "🇹🇴"
   },
   {
-    "annotation": "土耳其",
+    "annotation": "旗子: 土耳其",
     "group": 7,
     "hexcode": "1F1F9-1F1F7",
     "order": 3536,
@@ -33483,7 +33897,7 @@
     "unicode": "🇹🇷"
   },
   {
-    "annotation": "千里達及托巴哥",
+    "annotation": "旗子: 千里達及托巴哥",
     "group": 7,
     "hexcode": "1F1F9-1F1F9",
     "order": 3537,
@@ -33497,7 +33911,7 @@
     "unicode": "🇹🇹"
   },
   {
-    "annotation": "吐瓦魯",
+    "annotation": "旗子: 吐瓦魯",
     "group": 7,
     "hexcode": "1F1F9-1F1FB",
     "order": 3538,
@@ -33511,7 +33925,7 @@
     "unicode": "🇹🇻"
   },
   {
-    "annotation": "台灣",
+    "annotation": "旗子: 台灣",
     "group": 7,
     "hexcode": "1F1F9-1F1FC",
     "order": 3539,
@@ -33525,7 +33939,7 @@
     "unicode": "🇹🇼"
   },
   {
-    "annotation": "坦尚尼亞",
+    "annotation": "旗子: 坦尚尼亞",
     "group": 7,
     "hexcode": "1F1F9-1F1FF",
     "order": 3540,
@@ -33539,7 +33953,7 @@
     "unicode": "🇹🇿"
   },
   {
-    "annotation": "烏克蘭",
+    "annotation": "旗子: 烏克蘭",
     "group": 7,
     "hexcode": "1F1FA-1F1E6",
     "order": 3541,
@@ -33553,7 +33967,7 @@
     "unicode": "🇺🇦"
   },
   {
-    "annotation": "烏干達",
+    "annotation": "旗子: 烏干達",
     "group": 7,
     "hexcode": "1F1FA-1F1EC",
     "order": 3542,
@@ -33567,7 +33981,7 @@
     "unicode": "🇺🇬"
   },
   {
-    "annotation": "美國本土外小島嶼",
+    "annotation": "旗子: 美國本土外小島嶼",
     "group": 7,
     "hexcode": "1F1FA-1F1F2",
     "order": 3543,
@@ -33581,7 +33995,7 @@
     "unicode": "🇺🇲"
   },
   {
-    "annotation": "聯合國",
+    "annotation": "旗子: 聯合國",
     "group": 7,
     "hexcode": "1F1FA-1F1F3",
     "order": 3544,
@@ -33595,7 +34009,7 @@
     "unicode": "🇺🇳"
   },
   {
-    "annotation": "美國",
+    "annotation": "旗子: 美國",
     "group": 7,
     "hexcode": "1F1FA-1F1F8",
     "order": 3545,
@@ -33610,7 +34024,7 @@
     "unicode": "🇺🇸"
   },
   {
-    "annotation": "烏拉圭",
+    "annotation": "旗子: 烏拉圭",
     "group": 7,
     "hexcode": "1F1FA-1F1FE",
     "order": 3546,
@@ -33624,7 +34038,7 @@
     "unicode": "🇺🇾"
   },
   {
-    "annotation": "烏茲別克",
+    "annotation": "旗子: 烏茲別克",
     "group": 7,
     "hexcode": "1F1FA-1F1FF",
     "order": 3547,
@@ -33638,7 +34052,7 @@
     "unicode": "🇺🇿"
   },
   {
-    "annotation": "梵蒂岡",
+    "annotation": "旗子: 梵蒂岡",
     "group": 7,
     "hexcode": "1F1FB-1F1E6",
     "order": 3548,
@@ -33652,7 +34066,7 @@
     "unicode": "🇻🇦"
   },
   {
-    "annotation": "聖文森及格瑞那丁",
+    "annotation": "旗子: 聖文森及格瑞那丁",
     "group": 7,
     "hexcode": "1F1FB-1F1E8",
     "order": 3549,
@@ -33666,7 +34080,7 @@
     "unicode": "🇻🇨"
   },
   {
-    "annotation": "委內瑞拉",
+    "annotation": "旗子: 委內瑞拉",
     "group": 7,
     "hexcode": "1F1FB-1F1EA",
     "order": 3550,
@@ -33680,7 +34094,7 @@
     "unicode": "🇻🇪"
   },
   {
-    "annotation": "英屬維京群島",
+    "annotation": "旗子: 英屬維京群島",
     "group": 7,
     "hexcode": "1F1FB-1F1EC",
     "order": 3551,
@@ -33694,7 +34108,7 @@
     "unicode": "🇻🇬"
   },
   {
-    "annotation": "美屬維京群島",
+    "annotation": "旗子: 美屬維京群島",
     "group": 7,
     "hexcode": "1F1FB-1F1EE",
     "order": 3552,
@@ -33708,7 +34122,7 @@
     "unicode": "🇻🇮"
   },
   {
-    "annotation": "越南",
+    "annotation": "旗子: 越南",
     "group": 7,
     "hexcode": "1F1FB-1F1F3",
     "order": 3553,
@@ -33722,7 +34136,7 @@
     "unicode": "🇻🇳"
   },
   {
-    "annotation": "萬那杜",
+    "annotation": "旗子: 萬那杜",
     "group": 7,
     "hexcode": "1F1FB-1F1FA",
     "order": 3554,
@@ -33736,7 +34150,7 @@
     "unicode": "🇻🇺"
   },
   {
-    "annotation": "瓦利斯群島和富圖那群島",
+    "annotation": "旗子: 瓦利斯群島和富圖那群島",
     "group": 7,
     "hexcode": "1F1FC-1F1EB",
     "order": 3555,
@@ -33750,7 +34164,7 @@
     "unicode": "🇼🇫"
   },
   {
-    "annotation": "薩摩亞",
+    "annotation": "旗子: 薩摩亞",
     "group": 7,
     "hexcode": "1F1FC-1F1F8",
     "order": 3556,
@@ -33764,7 +34178,7 @@
     "unicode": "🇼🇸"
   },
   {
-    "annotation": "科索沃",
+    "annotation": "旗子: 科索沃",
     "group": 7,
     "hexcode": "1F1FD-1F1F0",
     "order": 3557,
@@ -33778,7 +34192,7 @@
     "unicode": "🇽🇰"
   },
   {
-    "annotation": "葉門",
+    "annotation": "旗子: 葉門",
     "group": 7,
     "hexcode": "1F1FE-1F1EA",
     "order": 3558,
@@ -33792,7 +34206,7 @@
     "unicode": "🇾🇪"
   },
   {
-    "annotation": "馬約特島",
+    "annotation": "旗子: 馬約特島",
     "group": 7,
     "hexcode": "1F1FE-1F1F9",
     "order": 3559,
@@ -33806,7 +34220,7 @@
     "unicode": "🇾🇹"
   },
   {
-    "annotation": "南非",
+    "annotation": "旗子: 南非",
     "group": 7,
     "hexcode": "1F1FF-1F1E6",
     "order": 3560,
@@ -33820,7 +34234,7 @@
     "unicode": "🇿🇦"
   },
   {
-    "annotation": "尚比亞",
+    "annotation": "旗子: 尚比亞",
     "group": 7,
     "hexcode": "1F1FF-1F1F2",
     "order": 3561,
@@ -33834,7 +34248,7 @@
     "unicode": "🇿🇲"
   },
   {
-    "annotation": "辛巴威",
+    "annotation": "旗子: 辛巴威",
     "group": 7,
     "hexcode": "1F1FF-1F1FC",
     "order": 3562,
@@ -33848,7 +34262,7 @@
     "unicode": "🇿🇼"
   },
   {
-    "annotation": "英格蘭",
+    "annotation": "旗子: 英格蘭",
     "group": 7,
     "hexcode": "1F3F4-E0067-E0062-E0065-E006E-E0067-E007F",
     "order": 3563,
@@ -33863,7 +34277,7 @@
     "unicode": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
   },
   {
-    "annotation": "蘇格蘭",
+    "annotation": "旗子: 蘇格蘭",
     "group": 7,
     "hexcode": "1F3F4-E0067-E0062-E0073-E0063-E0074-E007F",
     "order": 3564,
@@ -33878,7 +34292,7 @@
     "unicode": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
   },
   {
-    "annotation": "威爾斯",
+    "annotation": "旗子: 威爾斯",
     "group": 7,
     "hexcode": "1F3F4-E0067-E0062-E0077-E006C-E0073-E007F",
     "order": 3565,

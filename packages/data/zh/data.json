@@ -283,7 +283,11 @@
     "order": 15,
     "group": 0,
     "subgroup": 0,
-    "version": 11
+    "version": 11,
+    "annotation": "喜笑颜开",
+    "tags": [
+      "爱慕"
+    ]
   },
   {
     "name": "KISSING FACE",
@@ -1243,7 +1247,15 @@
     "order": 68,
     "group": 0,
     "subgroup": 2,
-    "version": 11
+    "version": 11,
+    "annotation": "脸发烧",
+    "tags": [
+      "出汗",
+      "发烧",
+      "发热",
+      "心狂跳",
+      "脸红"
+    ]
   },
   {
     "name": "FREEZING FACE",
@@ -1256,7 +1268,14 @@
     "order": 69,
     "group": 0,
     "subgroup": 2,
-    "version": 11
+    "version": 11,
+    "annotation": "冷脸",
+    "tags": [
+      "冷",
+      "冷冰冰",
+      "冻僵",
+      "满面寒霜"
+    ]
   },
   {
     "name": "FLUSHED FACE",
@@ -1535,7 +1554,12 @@
     "order": 84,
     "group": 0,
     "subgroup": 4,
-    "version": 11
+    "version": 11,
+    "annotation": "聚会笑脸",
+    "tags": [
+      "庆祝",
+      "聚会"
+    ]
   },
   {
     "name": "FACE WITH UNEVEN EYES AND WAVY MOUTH",
@@ -1549,7 +1573,11 @@
     "group": 0,
     "subgroup": 4,
     "version": 11,
-    "emoticon": ":&"
+    "emoticon": ":&",
+    "annotation": "头昏眼花",
+    "tags": [
+      "醉醺醺"
+    ]
   },
   {
     "name": "FACE WITH PLEADING EYES",
@@ -1562,7 +1590,13 @@
     "order": 86,
     "group": 0,
     "subgroup": 4,
-    "version": 11
+    "version": 11,
+    "annotation": "恳求的脸",
+    "tags": [
+      "可怜兮兮的眼神",
+      "怜悯",
+      "祈求"
+    ]
   },
   {
     "name": "LYING FACE",
@@ -1632,7 +1666,7 @@
     "version": 5,
     "annotation": "带单片眼镜的脸",
     "tags": [
-      "闷热"
+      "古板"
     ]
   },
   {
@@ -1650,9 +1684,7 @@
     "emoticon": ":B",
     "annotation": "书呆子脸",
     "tags": [
-      "书呆子",
-      "极客",
-      "眼镜"
+      "奇葩"
     ]
   },
   {
@@ -2220,7 +2252,8 @@
     "annotation": "儿童",
     "tags": [
       "年轻人",
-      "性别中性"
+      "性别不明",
+      "性别中立"
     ],
     "skins": [
       {
@@ -2508,7 +2541,8 @@
     "version": 5,
     "annotation": "成人",
     "tags": [
-      "性别中性"
+      "性别中立",
+      "性格不明"
     ],
     "skins": [
       {
@@ -2790,7 +2824,9 @@
     "version": 5,
     "annotation": "老年人",
     "tags": [
+      "性别不明",
       "性别中性",
+      "成人",
       "老人"
     ],
     "skins": [
@@ -3075,10 +3111,11 @@
     "version": 4,
     "annotation": "男医生",
     "tags": [
-      "健康",
+      "医护人员",
       "医生",
       "护士",
-      "男"
+      "治疗师",
+      "男人"
     ],
     "skins": [
       {
@@ -3172,10 +3209,11 @@
     "version": 4,
     "annotation": "女医生",
     "tags": [
-      "健康",
+      "医护人员",
       "医生",
-      "女",
-      "护士"
+      "女人",
+      "护士",
+      "治疗师"
     ],
     "skins": [
       {
@@ -4235,8 +4273,8 @@
     "version": 4,
     "annotation": "男技工",
     "tags": [
-      "修理",
       "技工",
+      "水管工",
       "电工",
       "男"
     ],
@@ -4332,9 +4370,9 @@
     "version": 4,
     "annotation": "女技工",
     "tags": [
-      "修理",
       "女",
       "技工",
+      "水管工",
       "电工"
     ],
     "skins": [
@@ -4429,9 +4467,9 @@
     "version": 4,
     "annotation": "男工人",
     "tags": [
-      "工人",
+      "工业",
       "工厂",
-      "男"
+      "装配"
     ],
     "skins": [
       {
@@ -4525,9 +4563,9 @@
     "version": 4,
     "annotation": "女工人",
     "tags": [
-      "女",
-      "工人",
-      "工厂"
+      "工业",
+      "工厂",
+      "装配"
     ],
     "skins": [
       {
@@ -4622,8 +4660,7 @@
     "annotation": "男白领",
     "tags": [
       "商人",
-      "男",
-      "白领",
+      "建筑师",
       "经理"
     ],
     "skins": [
@@ -4719,8 +4756,7 @@
     "annotation": "女白领",
     "tags": [
       "商人",
-      "女",
-      "白领",
+      "建筑师",
       "经理"
     ],
     "skins": [
@@ -4815,7 +4851,10 @@
     "version": 4,
     "annotation": "男科学家",
     "tags": [
-      "工程师",
+      "化学家",
+      "工程学家",
+      "物理学家",
+      "生物学家",
       "男",
       "科学家"
     ],
@@ -4911,8 +4950,11 @@
     "version": 4,
     "annotation": "女科学家",
     "tags": [
+      "化学家",
       "女",
-      "工程师",
+      "工程学家",
+      "物理学家",
+      "生物学家",
       "科学家"
     ],
     "skins": [
@@ -5007,10 +5049,12 @@
     "version": 4,
     "annotation": "男程序员",
     "tags": [
-      "工程师",
+      "发明家",
+      "开发人员",
       "男",
       "码农",
-      "程序员"
+      "程序员",
+      "软件"
     ],
     "skins": [
       {
@@ -5104,10 +5148,12 @@
     "version": 4,
     "annotation": "女程序员",
     "tags": [
+      "发明家",
       "女",
-      "工程师",
+      "开发人员",
       "码农",
-      "程序员"
+      "程序员",
+      "软件"
     ],
     "skins": [
       {
@@ -5201,9 +5247,10 @@
     "version": 4,
     "annotation": "男歌手",
     "tags": [
+      "摇滚歌手",
       "明星",
-      "歌手",
       "男",
+      "男演员",
       "艺人"
     ],
     "skins": [
@@ -5299,8 +5346,9 @@
     "annotation": "女歌手",
     "tags": [
       "女",
+      "摇滚歌手",
       "明星",
-      "歌手",
+      "男演员",
       "艺人"
     ],
     "skins": [
@@ -7654,8 +7702,7 @@
     "annotation": "戴头巾的男人",
     "tags": [
       "头巾",
-      "男",
-      "穆斯林"
+      "男"
     ],
     "skins": [
       {
@@ -7756,8 +7803,7 @@
     "annotation": "戴头巾的女人",
     "tags": [
       "头巾",
-      "女",
-      "穆斯林"
+      "女"
     ],
     "skins": [
       {
@@ -7951,8 +7997,9 @@
     "version": 5,
     "annotation": "带头饰的女人",
     "tags": [
+      "头巾",
       "头饰",
-      "披风"
+      "希贾布"
     ],
     "skins": [
       {
@@ -8434,9 +8481,11 @@
     "group": 0,
     "subgroup": 9,
     "version": 11,
+    "annotation": "男人: 红发",
     "tags": [
       "男",
-      "男人"
+      "男人",
+      "红发"
     ],
     "skins": [
       {
@@ -8452,7 +8501,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "男人: 较浅肤色红发"
       },
       {
         "name": "MAN, EMOJI COMPONENT RED HAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8467,7 +8516,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "男人: 中等-浅肤色红发"
       },
       {
         "name": "MAN, EMOJI COMPONENT RED HAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8482,7 +8531,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "男人: 中等肤色红发"
       },
       {
         "name": "MAN, EMOJI COMPONENT RED HAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8497,7 +8546,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "男人: 中等-深肤色红发"
       },
       {
         "name": "MAN, EMOJI COMPONENT RED HAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8512,7 +8561,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "男人: 较深肤色红发"
       }
     ]
   },
@@ -8528,9 +8577,11 @@
     "group": 0,
     "subgroup": 9,
     "version": 11,
+    "annotation": "女人: 红发",
     "tags": [
       "女",
-      "女人"
+      "女人",
+      "红发"
     ],
     "skins": [
       {
@@ -8546,7 +8597,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "女人: 较浅肤色红发"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT RED HAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8561,7 +8612,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "女人: 中等-浅肤色红发"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT RED HAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8576,7 +8627,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "女人: 中等肤色红发"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT RED HAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8591,7 +8642,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "女人: 中等-深肤色红发"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT RED HAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8606,7 +8657,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "女人: 较深肤色红发"
       }
     ]
   },
@@ -8622,7 +8673,9 @@
     "group": 0,
     "subgroup": 9,
     "version": 11,
+    "annotation": "男人: 卷发",
     "tags": [
+      "卷发",
       "男",
       "男人"
     ],
@@ -8640,7 +8693,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "男人: 较浅肤色卷发"
       },
       {
         "name": "MAN, EMOJI COMPONENT CURLY HAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8655,7 +8708,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "男人: 中等-浅肤色卷发"
       },
       {
         "name": "MAN, EMOJI COMPONENT CURLY HAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8670,7 +8723,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "男人: 中等肤色卷发"
       },
       {
         "name": "MAN, EMOJI COMPONENT CURLY HAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8685,7 +8738,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "男人: 中等-深肤色卷发"
       },
       {
         "name": "MAN, EMOJI COMPONENT CURLY HAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8700,7 +8753,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "男人: 较深肤色卷发"
       }
     ]
   },
@@ -8716,7 +8769,9 @@
     "group": 0,
     "subgroup": 9,
     "version": 11,
+    "annotation": "女人: 卷发",
     "tags": [
+      "卷发",
       "女",
       "女人"
     ],
@@ -8734,7 +8789,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "女人: 较浅肤色卷发"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT CURLY HAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8749,7 +8804,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "女人: 中等-浅肤色卷发"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT CURLY HAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8764,7 +8819,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "女人: 中等肤色卷发"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT CURLY HAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8779,7 +8834,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "女人: 中等-深肤色卷发"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT CURLY HAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8794,7 +8849,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "女人: 较深肤色卷发"
       }
     ]
   },
@@ -8810,9 +8865,11 @@
     "group": 0,
     "subgroup": 9,
     "version": 11,
+    "annotation": "男人: 秃顶",
     "tags": [
       "男",
-      "男人"
+      "男人",
+      "秃顶"
     ],
     "skins": [
       {
@@ -8828,7 +8885,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "男人: 较浅肤色秃顶"
       },
       {
         "name": "MAN, EMOJI COMPONENT BALD, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8843,7 +8900,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "男人: 中等-浅肤色秃顶"
       },
       {
         "name": "MAN, EMOJI COMPONENT BALD, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8858,7 +8915,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "男人: 中等肤色秃顶"
       },
       {
         "name": "MAN, EMOJI COMPONENT BALD, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8873,7 +8930,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "男人: 中等-深肤色秃顶"
       },
       {
         "name": "MAN, EMOJI COMPONENT BALD, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8888,7 +8945,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "男人: 较深肤色秃顶"
       }
     ]
   },
@@ -8904,9 +8961,11 @@
     "group": 0,
     "subgroup": 9,
     "version": 11,
+    "annotation": "女人: 秃顶",
     "tags": [
       "女",
-      "女人"
+      "女人",
+      "秃顶"
     ],
     "skins": [
       {
@@ -8922,7 +8981,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "女人: 较浅肤色秃顶"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT BALD, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -8937,7 +8996,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "女人: 中等-浅肤色秃顶"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT BALD, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -8952,7 +9011,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "女人: 中等肤色秃顶"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT BALD, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -8967,7 +9026,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "女人: 中等-深肤色秃顶"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT BALD, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -8982,7 +9041,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "女人: 较深肤色秃顶"
       }
     ]
   },
@@ -8998,9 +9057,11 @@
     "group": 0,
     "subgroup": 9,
     "version": 11,
+    "annotation": "男人: 白发",
     "tags": [
       "男",
-      "男人"
+      "男人",
+      "白发"
     ],
     "skins": [
       {
@@ -9016,7 +9077,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "男人: 较浅肤色白发"
       },
       {
         "name": "MAN, EMOJI COMPONENT WHITE HAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9031,7 +9092,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "男人: 中等-浅肤色白发"
       },
       {
         "name": "MAN, EMOJI COMPONENT WHITE HAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9046,7 +9107,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "男人: 中等肤色白发"
       },
       {
         "name": "MAN, EMOJI COMPONENT WHITE HAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9061,7 +9122,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "男人: 中等-深肤色白发"
       },
       {
         "name": "MAN, EMOJI COMPONENT WHITE HAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9076,7 +9137,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "男人: 较深肤色白发"
       }
     ]
   },
@@ -9092,9 +9153,11 @@
     "group": 0,
     "subgroup": 9,
     "version": 11,
+    "annotation": "女人: 白发",
     "tags": [
       "女",
-      "女人"
+      "女人",
+      "白发"
     ],
     "skins": [
       {
@@ -9110,7 +9173,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "女人: 较浅肤色白发"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT WHITE HAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9125,7 +9188,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "女人: 中等-浅肤色白发"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT WHITE HAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9140,7 +9203,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "女人: 中等肤色白发"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT WHITE HAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9155,7 +9218,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "女人: 中等-深肤色白发"
       },
       {
         "name": "WOMAN, EMOJI COMPONENT WHITE HAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9170,7 +9233,7 @@
         "subgroup": 9,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "女人: 较深肤色白发"
       }
     ]
   },
@@ -9856,6 +9919,13 @@
     "group": 0,
     "subgroup": 10,
     "version": 11,
+    "annotation": "超级英雄",
+    "tags": [
+      "女英雄",
+      "好人",
+      "英雄",
+      "超能力"
+    ],
     "skins": [
       {
         "name": "SUPERHERO, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -9871,7 +9941,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "超级英雄: 较浅肤色"
       },
       {
         "name": "SUPERHERO, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9887,7 +9957,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "超级英雄: 中等-浅肤色"
       },
       {
         "name": "SUPERHERO, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -9903,7 +9973,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "超级英雄: 中等肤色"
       },
       {
         "name": "SUPERHERO, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -9919,7 +9989,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "超级英雄: 中等-深肤色"
       },
       {
         "name": "SUPERHERO, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -9935,7 +10005,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "超级英雄: 较深肤色"
       }
     ]
   },
@@ -9952,9 +10022,12 @@
     "subgroup": 10,
     "version": 11,
     "gender": 0,
-    "annotation": "女人",
+    "annotation": "女超级英雄",
     "tags": [
-      "女"
+      "女人",
+      "好人",
+      "英雄",
+      "超能力"
     ],
     "skins": [
       {
@@ -9971,7 +10044,7 @@
         "version": 11,
         "gender": 0,
         "tone": 1,
-        "annotation": "女人: 较浅肤色"
+        "annotation": "女超级英雄: 较浅肤色"
       },
       {
         "name": "SUPERHERO, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -9987,7 +10060,7 @@
         "version": 11,
         "gender": 0,
         "tone": 2,
-        "annotation": "女人: 中等-浅肤色"
+        "annotation": "女超级英雄: 中等-浅肤色"
       },
       {
         "name": "SUPERHERO, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -10003,7 +10076,7 @@
         "version": 11,
         "gender": 0,
         "tone": 3,
-        "annotation": "女人: 中等肤色"
+        "annotation": "女超级英雄: 中等肤色"
       },
       {
         "name": "SUPERHERO, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -10019,7 +10092,7 @@
         "version": 11,
         "gender": 0,
         "tone": 4,
-        "annotation": "女人: 中等-深肤色"
+        "annotation": "女超级英雄: 中等-深肤色"
       },
       {
         "name": "SUPERHERO, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -10035,7 +10108,7 @@
         "version": 11,
         "gender": 0,
         "tone": 5,
-        "annotation": "女人: 较深肤色"
+        "annotation": "女超级英雄: 较深肤色"
       }
     ]
   },
@@ -10052,9 +10125,12 @@
     "subgroup": 10,
     "version": 11,
     "gender": 1,
-    "annotation": "男人",
+    "annotation": "男超级英雄",
     "tags": [
-      "男"
+      "好人",
+      "男人",
+      "英雄",
+      "超能力"
     ],
     "skins": [
       {
@@ -10071,7 +10147,7 @@
         "version": 11,
         "gender": 1,
         "tone": 1,
-        "annotation": "男人: 较浅肤色"
+        "annotation": "男超级英雄: 较浅肤色"
       },
       {
         "name": "SUPERHERO, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -10087,7 +10163,7 @@
         "version": 11,
         "gender": 1,
         "tone": 2,
-        "annotation": "男人: 中等-浅肤色"
+        "annotation": "男超级英雄: 中等-浅肤色"
       },
       {
         "name": "SUPERHERO, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -10103,7 +10179,7 @@
         "version": 11,
         "gender": 1,
         "tone": 3,
-        "annotation": "男人: 中等肤色"
+        "annotation": "男超级英雄: 中等肤色"
       },
       {
         "name": "SUPERHERO, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -10119,7 +10195,7 @@
         "version": 11,
         "gender": 1,
         "tone": 4,
-        "annotation": "男人: 中等-深肤色"
+        "annotation": "男超级英雄: 中等-深肤色"
       },
       {
         "name": "SUPERHERO, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -10135,7 +10211,7 @@
         "version": 11,
         "gender": 1,
         "tone": 5,
-        "annotation": "男人: 较深肤色"
+        "annotation": "男超级英雄: 较深肤色"
       }
     ]
   },
@@ -10152,6 +10228,13 @@
     "group": 0,
     "subgroup": 10,
     "version": 11,
+    "annotation": "超级大坏蛋",
+    "tags": [
+      "坏蛋",
+      "恶魔",
+      "罪犯",
+      "超能力"
+    ],
     "skins": [
       {
         "name": "SUPERVILLAIN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -10167,7 +10250,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "超级大坏蛋: 较浅肤色"
       },
       {
         "name": "SUPERVILLAIN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -10183,7 +10266,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "超级大坏蛋: 中等-浅肤色"
       },
       {
         "name": "SUPERVILLAIN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -10199,7 +10282,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "超级大坏蛋: 中等肤色"
       },
       {
         "name": "SUPERVILLAIN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -10215,7 +10298,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "超级大坏蛋: 中等-深肤色"
       },
       {
         "name": "SUPERVILLAIN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -10231,7 +10314,7 @@
         "subgroup": 10,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "超级大坏蛋: 较深肤色"
       }
     ]
   },
@@ -10248,9 +10331,12 @@
     "subgroup": 10,
     "version": 11,
     "gender": 0,
-    "annotation": "女人",
+    "annotation": "女超级大坏蛋",
     "tags": [
-      "女"
+      "坏蛋",
+      "女人",
+      "罪犯",
+      "超能力"
     ],
     "skins": [
       {
@@ -10267,7 +10353,7 @@
         "version": 11,
         "gender": 0,
         "tone": 1,
-        "annotation": "女人: 较浅肤色"
+        "annotation": "女超级大坏蛋: 较浅肤色"
       },
       {
         "name": "SUPERVILLAIN, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -10283,7 +10369,7 @@
         "version": 11,
         "gender": 0,
         "tone": 2,
-        "annotation": "女人: 中等-浅肤色"
+        "annotation": "女超级大坏蛋: 中等-浅肤色"
       },
       {
         "name": "SUPERVILLAIN, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -10299,7 +10385,7 @@
         "version": 11,
         "gender": 0,
         "tone": 3,
-        "annotation": "女人: 中等肤色"
+        "annotation": "女超级大坏蛋: 中等肤色"
       },
       {
         "name": "SUPERVILLAIN, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -10315,7 +10401,7 @@
         "version": 11,
         "gender": 0,
         "tone": 4,
-        "annotation": "女人: 中等-深肤色"
+        "annotation": "女超级大坏蛋: 中等-深肤色"
       },
       {
         "name": "SUPERVILLAIN, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -10331,7 +10417,7 @@
         "version": 11,
         "gender": 0,
         "tone": 5,
-        "annotation": "女人: 较深肤色"
+        "annotation": "女超级大坏蛋: 较深肤色"
       }
     ]
   },
@@ -10348,9 +10434,12 @@
     "subgroup": 10,
     "version": 11,
     "gender": 1,
-    "annotation": "男人",
+    "annotation": "男超级大坏蛋",
     "tags": [
-      "男"
+      "坏蛋",
+      "男人",
+      "罪犯",
+      "超能力"
     ],
     "skins": [
       {
@@ -10367,7 +10456,7 @@
         "version": 11,
         "gender": 1,
         "tone": 1,
-        "annotation": "男人: 较浅肤色"
+        "annotation": "男超级大坏蛋: 较浅肤色"
       },
       {
         "name": "SUPERVILLAIN, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -10383,7 +10472,7 @@
         "version": 11,
         "gender": 1,
         "tone": 2,
-        "annotation": "男人: 中等-浅肤色"
+        "annotation": "男超级大坏蛋: 中等-浅肤色"
       },
       {
         "name": "SUPERVILLAIN, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -10399,7 +10488,7 @@
         "version": 11,
         "gender": 1,
         "tone": 3,
-        "annotation": "男人: 中等肤色"
+        "annotation": "男超级大坏蛋: 中等肤色"
       },
       {
         "name": "SUPERVILLAIN, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -10415,7 +10504,7 @@
         "version": 11,
         "gender": 1,
         "tone": 4,
-        "annotation": "男人: 中等-深肤色"
+        "annotation": "男超级大坏蛋: 中等-深肤色"
       },
       {
         "name": "SUPERVILLAIN, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -10431,7 +10520,7 @@
         "version": 11,
         "gender": 1,
         "tone": 5,
-        "annotation": "男人: 较深肤色"
+        "annotation": "男超级大坏蛋: 较深肤色"
       }
     ]
   },
@@ -10945,8 +11034,9 @@
     "subgroup": 10,
     "version": 5,
     "gender": 1,
-    "annotation": "仙男",
+    "annotation": "仙人",
     "tags": [
+      "仙男",
       "天卫十五",
       "天卫四",
       "男精灵"
@@ -10966,7 +11056,7 @@
         "version": 5,
         "gender": 1,
         "tone": 1,
-        "annotation": "仙男: 较浅肤色"
+        "annotation": "仙人: 较浅肤色"
       },
       {
         "name": "FAIRY, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -10982,7 +11072,7 @@
         "version": 5,
         "gender": 1,
         "tone": 2,
-        "annotation": "仙男: 中等-浅肤色"
+        "annotation": "仙人: 中等-浅肤色"
       },
       {
         "name": "FAIRY, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -10998,7 +11088,7 @@
         "version": 5,
         "gender": 1,
         "tone": 3,
-        "annotation": "仙男: 中等肤色"
+        "annotation": "仙人: 中等肤色"
       },
       {
         "name": "FAIRY, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -11014,7 +11104,7 @@
         "version": 5,
         "gender": 1,
         "tone": 4,
-        "annotation": "仙男: 中等-深肤色"
+        "annotation": "仙人: 中等-深肤色"
       },
       {
         "name": "FAIRY, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -11030,7 +11120,7 @@
         "version": 5,
         "gender": 1,
         "tone": 5,
-        "annotation": "仙男: 较深肤色"
+        "annotation": "仙人: 较深肤色"
       }
     ]
   },
@@ -11540,7 +11630,8 @@
     "gender": 1,
     "annotation": "男人鱼",
     "tags": [
-      "氚核"
+      "人鱼",
+      "特里同"
     ],
     "skins": [
       {
@@ -12645,7 +12736,9 @@
     "annotation": "禁止手势",
     "tags": [
       "不行",
-      "禁止"
+      "手势",
+      "禁止",
+      "表情"
     ],
     "skins": [
       {
@@ -12742,8 +12835,10 @@
     "tags": [
       "不行",
       "反对",
+      "手势",
       "男",
-      "禁止"
+      "禁止",
+      "表情"
     ],
     "skins": [
       {
@@ -12846,7 +12941,9 @@
       "不行",
       "反对",
       "女",
-      "禁止"
+      "手势",
+      "禁止",
+      "表情"
     ],
     "skins": [
       {
@@ -13045,7 +13142,9 @@
       "ok",
       "可以",
       "同意",
-      "男"
+      "手势",
+      "男",
+      "表情"
     ],
     "skins": [
       {
@@ -13148,7 +13247,9 @@
       "ok",
       "可以",
       "同意",
-      "女"
+      "女",
+      "手势",
+      "表情"
     ],
     "skins": [
       {
@@ -13247,6 +13348,9 @@
     "version": 1,
     "annotation": "前台",
     "tags": [
+      "信息",
+      "小费",
+      "帮助",
       "时髦"
     ],
     "skins": [
@@ -13849,7 +13953,9 @@
     "annotation": "鞠躬",
     "tags": [
       "不好意思",
+      "姿势",
       "对不起",
+      "手势",
       "抱歉",
       "道歉"
     ],
@@ -13946,7 +14052,9 @@
     "gender": 1,
     "annotation": "男生鞠躬",
     "tags": [
+      "姿势",
       "对不起",
+      "手势",
       "男",
       "道歉",
       "鞠躬"
@@ -14050,7 +14158,9 @@
     "annotation": "女生鞠躬",
     "tags": [
       "女",
+      "姿势",
       "对不起",
+      "手势",
       "道歉",
       "鞠躬"
     ],
@@ -14454,6 +14564,7 @@
     "version": 3,
     "annotation": "耸肩",
     "tags": [
+      "不关心",
       "怀疑",
       "无知",
       "无视"
@@ -15352,6 +15463,8 @@
     "version": 1,
     "annotation": "行人",
     "tags": [
+      "徒步",
+      "走路",
       "路人"
     ],
     "skins": [
@@ -15447,8 +15560,10 @@
     "gender": 1,
     "annotation": "男行人",
     "tags": [
+      "徒步",
       "男",
       "走",
+      "走路",
       "路人"
     ],
     "skins": [
@@ -15550,7 +15665,9 @@
     "annotation": "女行人",
     "tags": [
       "女",
+      "徒步",
       "走",
+      "走路",
       "路人"
     ],
     "skins": [
@@ -15650,7 +15767,6 @@
     "version": 1,
     "annotation": "跑步者",
     "tags": [
-      "奔跑",
       "跑步",
       "马拉松"
     ],
@@ -15951,7 +16067,9 @@
     "version": 1,
     "annotation": "舞者",
     "tags": [
-      "跳舞"
+      "女人",
+      "跳舞",
+      "跳舞的女人"
     ],
     "skins": [
       {
@@ -16146,6 +16264,7 @@
     "annotation": "派对",
     "tags": [
       "兔耳朵",
+      "戴兔耳朵的人",
       "聚会",
       "跳舞"
     ]
@@ -16165,6 +16284,7 @@
     "gender": 1,
     "annotation": "男生派对",
     "tags": [
+      "兔先生",
       "兔耳朵",
       "派对",
       "聚会",
@@ -16186,6 +16306,7 @@
     "gender": 0,
     "annotation": "女生派对",
     "tags": [
+      "兔女郎",
       "兔耳朵",
       "派对",
       "聚会",
@@ -16302,7 +16423,8 @@
     "gender": 0,
     "annotation": "蒸房里的女人",
     "tags": [
-      "女性桑拿"
+      "女性桑拿",
+      "桑拿"
     ],
     "skins": [
       {
@@ -16402,6 +16524,7 @@
     "gender": 1,
     "annotation": "蒸房里的男人",
     "tags": [
+      "桑拿",
       "男性桑拿"
     ],
     "skins": [
@@ -16596,7 +16719,8 @@
     "gender": 0,
     "annotation": "攀爬的女人",
     "tags": [
-      "女性登山者"
+      "女性登山者",
+      "登山者"
     ],
     "skins": [
       {
@@ -16696,7 +16820,8 @@
     "gender": 1,
     "annotation": "攀爬的男人",
     "tags": [
-      "男性登山者"
+      "男性登山者",
+      "登山者"
     ],
     "skins": [
       {
@@ -17096,6 +17221,7 @@
     "annotation": "盆浴",
     "tags": [
       "洗澡",
+      "洗澡的人",
       "浴盆",
       "浴缸",
       "澡盆"
@@ -22293,6 +22419,11 @@
     "group": 0,
     "subgroup": 15,
     "version": 11,
+    "annotation": "腿",
+    "tags": [
+      "跛行",
+      "踢"
+    ],
     "skins": [
       {
         "name": "LEG, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -22307,7 +22438,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "腿: 较浅肤色"
       },
       {
         "name": "LEG, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -22322,7 +22453,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "腿: 中等-浅肤色"
       },
       {
         "name": "LEG, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -22337,7 +22468,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "腿: 中等肤色"
       },
       {
         "name": "LEG, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -22352,7 +22483,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "腿: 中等-深肤色"
       },
       {
         "name": "LEG, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -22367,7 +22498,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "腿: 较深肤色"
       }
     ]
   },
@@ -22383,6 +22514,11 @@
     "group": 0,
     "subgroup": 15,
     "version": 11,
+    "annotation": "脚",
+    "tags": [
+      "踢",
+      "踩"
+    ],
     "skins": [
       {
         "name": "FOOT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
@@ -22397,7 +22533,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 1,
-        "annotation": ""
+        "annotation": "脚: 较浅肤色"
       },
       {
         "name": "FOOT, EMOJI MODIFIER FITZPATRICK TYPE-3",
@@ -22412,7 +22548,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 2,
-        "annotation": ""
+        "annotation": "脚: 中等-浅肤色"
       },
       {
         "name": "FOOT, EMOJI MODIFIER FITZPATRICK TYPE-4",
@@ -22427,7 +22563,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 3,
-        "annotation": ""
+        "annotation": "脚: 中等肤色"
       },
       {
         "name": "FOOT, EMOJI MODIFIER FITZPATRICK TYPE-5",
@@ -22442,7 +22578,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 4,
-        "annotation": ""
+        "annotation": "脚: 中等-深肤色"
       },
       {
         "name": "FOOT, EMOJI MODIFIER FITZPATRICK TYPE-6",
@@ -22457,7 +22593,7 @@
         "subgroup": 15,
         "version": 11,
         "tone": 5,
-        "annotation": ""
+        "annotation": "脚: 较深肤色"
       }
     ]
   },
@@ -23733,9 +23869,7 @@
     "annotation": "OK",
     "tags": [
       "ok",
-      "同意",
-      "好的",
-      "确定"
+      "手"
     ],
     "skins": [
       {
@@ -25679,7 +25813,11 @@
     "order": 2126,
     "group": 0,
     "subgroup": 15,
-    "version": 11
+    "version": 11,
+    "annotation": "骨头",
+    "tags": [
+      "骨骼"
+    ]
   },
   {
     "name": "TOOTH",
@@ -25692,7 +25830,11 @@
     "order": 2127,
     "group": 0,
     "subgroup": 15,
-    "version": 11
+    "version": 11,
+    "annotation": "牙齿",
+    "tags": [
+      "牙医"
+    ]
   },
   {
     "name": "TONGUE",
@@ -26349,7 +26491,13 @@
     "order": 2169,
     "group": 0,
     "subgroup": 17,
-    "version": 11
+    "version": 11,
+    "annotation": "护目镜",
+    "tags": [
+      "护眼",
+      "游泳",
+      "焊接"
+    ]
   },
   {
     "name": "LAB COAT",
@@ -26362,7 +26510,13 @@
     "order": 2170,
     "group": 0,
     "subgroup": 17,
-    "version": 11
+    "version": 11,
+    "annotation": "白大褂",
+    "tags": [
+      "医生",
+      "实验人员",
+      "科学家"
+    ]
   },
   {
     "name": "NECKTIE",
@@ -26500,7 +26654,7 @@
     "version": 1,
     "annotation": "连衣裙",
     "tags": [
-      "裙子"
+      "衣服"
     ]
   },
   {
@@ -26697,7 +26851,14 @@
     "order": 2190,
     "group": 0,
     "subgroup": 17,
-    "version": 11
+    "version": 11,
+    "annotation": "登山鞋",
+    "tags": [
+      "徒步",
+      "登山",
+      "远足野营",
+      "露营"
+    ]
   },
   {
     "name": "FLAT SHOE",
@@ -26710,7 +26871,13 @@
     "order": 2191,
     "group": 0,
     "subgroup": 17,
-    "version": 11
+    "version": 11,
+    "annotation": "平底鞋",
+    "tags": [
+      "一脚蹬",
+      "便鞋",
+      "平底芭蕾舞鞋"
+    ]
   },
   {
     "name": "HIGH-HEELED SHOE",
@@ -27011,7 +27178,9 @@
     "version": 1,
     "annotation": "狗脸",
     "tags": [
-      "汪星人"
+      "宠物",
+      "汪星人",
+      "狗狗"
     ]
   },
   {
@@ -27029,7 +27198,9 @@
     "text": "🐕︎",
     "annotation": "狗",
     "tags": [
-      "汪星人"
+      "宠物",
+      "汪星人",
+      "狗狗"
     ]
   },
   {
@@ -27081,7 +27252,6 @@
     "version": 3,
     "annotation": "狐狸的脸",
     "tags": [
-      "动物",
       "狐狸",
       "脸"
     ]
@@ -27097,7 +27267,12 @@
     "order": 2214,
     "group": 1,
     "subgroup": 18,
-    "version": 11
+    "version": 11,
+    "annotation": "浣熊",
+    "tags": [
+      "好奇",
+      "淘气"
+    ]
   },
   {
     "name": "CAT FACE",
@@ -27113,7 +27288,9 @@
     "version": 1,
     "annotation": "猫脸",
     "tags": [
-      "喵星人"
+      "喵星人",
+      "宠物",
+      "猫"
     ]
   },
   {
@@ -27131,7 +27308,8 @@
     "text": "🐈︎",
     "annotation": "猫",
     "tags": [
-      "喵星人"
+      "喵星人",
+      "宠物"
     ]
   },
   {
@@ -27200,6 +27378,7 @@
     "version": 1,
     "annotation": "豹子",
     "tags": [
+      "猎豹",
       "豹"
     ]
   },
@@ -27524,7 +27703,14 @@
     "order": 2239,
     "group": 1,
     "subgroup": 18,
-    "version": 11
+    "version": 11,
+    "annotation": "美洲鸵",
+    "tags": [
+      "原驼",
+      "小羊驼",
+      "羊毛",
+      "羊驼"
+    ]
   },
   {
     "name": "GIRAFFE FACE",
@@ -27588,7 +27774,11 @@
     "order": 2243,
     "group": 1,
     "subgroup": 18,
-    "version": 11
+    "version": 11,
+    "annotation": "河马",
+    "tags": [
+      "河马"
+    ]
   },
   {
     "name": "MOUSE FACE",
@@ -27808,7 +27998,14 @@
     "order": 2257,
     "group": 1,
     "subgroup": 18,
-    "version": 11
+    "version": 11,
+    "annotation": "袋鼠",
+    "tags": [
+      "小袋鼠",
+      "有袋类动物",
+      "澳大利亚",
+      "跳"
+    ]
   },
   {
     "name": "BADGER",
@@ -27821,7 +28018,12 @@
     "order": 2258,
     "group": 1,
     "subgroup": 18,
-    "version": 11
+    "version": 11,
+    "annotation": "獾",
+    "tags": [
+      "纠缠",
+      "蜜獾"
+    ]
   },
   {
     "name": "PAW PRINTS",
@@ -28012,6 +28214,7 @@
     "version": 3,
     "annotation": "鹰",
     "tags": [
+      "老鹰",
       "鸟"
     ]
   },
@@ -28044,7 +28247,13 @@
     "order": 2272,
     "group": 1,
     "subgroup": 19,
-    "version": 11
+    "version": 11,
+    "annotation": "天鹅",
+    "tags": [
+      "丑小鸭",
+      "小天鹅",
+      "鸟"
+    ]
   },
   {
     "name": "OWL",
@@ -28075,7 +28284,14 @@
     "order": 2274,
     "group": 1,
     "subgroup": 19,
-    "version": 11
+    "version": 11,
+    "annotation": "孔雀",
+    "tags": [
+      "招摇",
+      "雌孔雀",
+      "骄傲",
+      "鸟"
+    ]
   },
   {
     "name": "PARROT",
@@ -28088,7 +28304,13 @@
     "order": 2275,
     "group": 1,
     "subgroup": 19,
-    "version": 11
+    "version": 11,
+    "annotation": "鹦鹉",
+    "tags": [
+      "剽窃",
+      "说话",
+      "鸟"
+    ]
   },
   {
     "name": "FROG FACE",
@@ -28433,7 +28655,13 @@
     "order": 2295,
     "group": 1,
     "subgroup": 22,
-    "version": 11
+    "version": 11,
+    "annotation": "龙虾",
+    "tags": [
+      "浓汤",
+      "海鲜",
+      "钳"
+    ]
   },
   {
     "name": "SHRIMP",
@@ -28658,7 +28886,15 @@
     "order": 2310,
     "group": 1,
     "subgroup": 23,
-    "version": 11
+    "version": 11,
+    "annotation": "蚊子",
+    "tags": [
+      "发热",
+      "昆虫",
+      "疟疾",
+      "疾病",
+      "病毒"
+    ]
   },
   {
     "name": "MICROBE",
@@ -28672,7 +28908,12 @@
     "order": 2311,
     "group": 1,
     "subgroup": 23,
-    "version": 11
+    "version": 11,
+    "annotation": "细菌",
+    "tags": [
+      "变形虫",
+      "病毒"
+    ]
   },
   {
     "name": "BOUQUET",
@@ -28774,8 +29015,6 @@
     "version": 3,
     "annotation": "枯萎的花",
     "tags": [
-      "凋谢",
-      "枯萎",
       "花"
     ]
   },
@@ -28811,7 +29050,8 @@
     "version": 1,
     "annotation": "向日葵",
     "tags": [
-      "向日葵"
+      "太阳花",
+      "花"
     ]
   },
   {
@@ -28845,7 +29085,7 @@
     "version": 1,
     "annotation": "郁金香",
     "tags": [
-      "郁金香"
+      "花"
     ]
   },
   {
@@ -29135,6 +29375,7 @@
     "version": 1,
     "annotation": "橘子",
     "tags": [
+      "柑桔",
       "桔子",
       "水果"
     ]
@@ -29201,7 +29442,12 @@
     "order": 2343,
     "group": 2,
     "subgroup": 26,
-    "version": 11
+    "version": 11,
+    "annotation": "芒果",
+    "tags": [
+      "水果",
+      "热带"
+    ]
   },
   {
     "name": "RED APPLE",
@@ -29378,6 +29624,7 @@
     "annotation": "鳄梨",
     "tags": [
       "水果",
+      "牛油果",
       "食物"
     ]
   },
@@ -29413,7 +29660,8 @@
     "annotation": "土豆",
     "tags": [
       "蔬菜",
-      "食物"
+      "食物",
+      "马铃薯"
     ]
   },
   {
@@ -29485,6 +29733,7 @@
     "tags": [
       "泡菜",
       "蔬菜",
+      "青瓜",
       "食物"
     ]
   },
@@ -29499,7 +29748,14 @@
     "order": 2361,
     "group": 2,
     "subgroup": 27,
-    "version": 11
+    "version": 11,
+    "annotation": "绿叶蔬菜",
+    "tags": [
+      "圆白菜",
+      "小白菜",
+      "甘蓝",
+      "莴苣"
+    ]
   },
   {
     "name": "BROCCOLI",
@@ -29655,7 +29911,12 @@
     "order": 2370,
     "group": 2,
     "subgroup": 28,
-    "version": 11
+    "version": 11,
+    "annotation": "面包圈",
+    "tags": [
+      "奶酪酱",
+      "烘烤食品"
+    ]
   },
   {
     "name": "PANCAKES",
@@ -29689,6 +29950,7 @@
     "version": 1,
     "annotation": "芝士",
     "tags": [
+      "奶酪",
       "起司"
     ]
   },
@@ -29762,6 +30024,7 @@
     "version": 3,
     "annotation": "培根",
     "tags": [
+      "熏肉",
       "肉",
       "食物"
     ]
@@ -29978,6 +30241,7 @@
     "version": 1,
     "annotation": "一碗食物",
     "tags": [
+      "一锅食物",
       "食物"
     ]
   },
@@ -30047,7 +30311,12 @@
     "order": 2392,
     "group": 2,
     "subgroup": 28,
-    "version": 11
+    "version": 11,
+    "annotation": "盐",
+    "tags": [
+      "佐料瓶",
+      "调味品"
+    ]
   },
   {
     "name": "CANNED FOOD",
@@ -30168,7 +30437,9 @@
     "version": 1,
     "annotation": "面条",
     "tags": [
-      "拉面"
+      "拉面",
+      "热气腾腾",
+      "碗"
     ]
   },
   {
@@ -30223,7 +30494,7 @@
     "annotation": "关东煮",
     "tags": [
       "串",
-      "日本"
+      "海鲜"
     ]
   },
   {
@@ -30288,7 +30559,12 @@
     "order": 2406,
     "group": 2,
     "subgroup": 29,
-    "version": 11
+    "version": 11,
+    "annotation": "月饼",
+    "tags": [
+      "秋天",
+      "节日"
+    ]
   },
   {
     "name": "DANGO",
@@ -30324,7 +30600,6 @@
     "annotation": "饺子",
     "tags": [
       "半圆酥饼",
-      "日本饺子",
       "煎饺",
       "肉馅饼"
     ]
@@ -30396,6 +30671,7 @@
     "version": 1,
     "annotation": "刨冰",
     "tags": [
+      "冰沙",
       "沙冰",
       "甜点"
     ]
@@ -30502,7 +30778,12 @@
     "order": 2418,
     "group": 2,
     "subgroup": 30,
-    "version": 11
+    "version": 11,
+    "annotation": "纸杯蛋糕",
+    "tags": [
+      "烘焙食品",
+      "甜点"
+    ]
   },
   {
     "name": "PIE",
@@ -30536,7 +30817,8 @@
     "version": 1,
     "annotation": "巧克力",
     "tags": [
-      "巧克力"
+      "甜品",
+      "甜点"
     ]
   },
   {
@@ -30607,6 +30889,7 @@
     "version": 1,
     "annotation": "蜂蜜",
     "tags": [
+      "蜜糖",
       "蜜罐"
     ]
   },
@@ -30624,6 +30907,7 @@
     "version": 1,
     "annotation": "奶瓶",
     "tags": [
+      "奶",
       "婴儿"
     ]
   },
@@ -30662,7 +30946,8 @@
     "annotation": "热饮",
     "tags": [
       "咖啡",
-      "茶"
+      "茶",
+      "饮料"
     ]
   },
   {
@@ -30680,8 +30965,10 @@
     "annotation": "热茶",
     "tags": [
       "杯",
+      "没有把手的茶杯",
       "热饮",
-      "茶"
+      "茶",
+      "饮料"
     ]
   },
   {
@@ -30698,7 +30985,10 @@
     "version": 1,
     "annotation": "清酒",
     "tags": [
-      "酒"
+      "瓶",
+      "酒",
+      "酒杯",
+      "饮料"
     ]
   },
   {
@@ -30844,8 +31134,8 @@
     "version": 3,
     "annotation": "塔博杯",
     "tags": [
-      "塔博",
       "威士忌",
+      "平底杯",
       "杯",
       "酒"
     ]
@@ -30960,7 +31250,9 @@
     "version": 1,
     "annotation": "菜刀",
     "tags": [
-      "刀"
+      "刀",
+      "武器",
+      "烹饪"
     ]
   },
   {
@@ -30996,8 +31288,12 @@
     "text": "🌍︎",
     "annotation": "地球上的欧洲非洲",
     "tags": [
+      "全球",
       "地球",
+      "地球仪",
       "欧洲",
+      "环球",
+      "非欧大陆",
       "非洲"
     ]
   },
@@ -31016,7 +31312,12 @@
     "text": "🌎︎",
     "annotation": "地球上的美洲",
     "tags": [
+      "全球",
+      "北美",
+      "南美",
       "地球",
+      "地球仪",
+      "环球",
       "美洲"
     ]
   },
@@ -31036,7 +31337,9 @@
     "annotation": "地球上的亚洲",
     "tags": [
       "亚洲",
-      "地球"
+      "全球",
+      "地球",
+      "澳大利亚"
     ]
   },
   {
@@ -31055,6 +31358,7 @@
     "tags": [
       "世界",
       "全球",
+      "带子午线的地球",
       "经纬"
     ]
   },
@@ -31106,7 +31410,13 @@
     "order": 2453,
     "group": 3,
     "subgroup": 33,
-    "version": 11
+    "version": 11,
+    "annotation": "指南针",
+    "tags": [
+      "定向",
+      "导航",
+      "磁性"
+    ]
   },
   {
     "name": "SNOW CAPPED MOUNTAIN",
@@ -31123,6 +31433,7 @@
     "text": "🏔︎",
     "annotation": "雪山",
     "tags": [
+      "冷",
       "山",
       "雪",
       "雪顶"
@@ -31160,6 +31471,8 @@
     "version": 1,
     "annotation": "火山",
     "tags": [
+      "喷发",
+      "山",
       "爆发"
     ]
   },
@@ -31234,7 +31547,7 @@
     "text": "🏜︎",
     "annotation": "沙漠",
     "tags": [
-      "沙漠"
+      "荒漠"
     ]
   },
   {
@@ -31252,7 +31565,8 @@
     "text": "🏝︎",
     "annotation": "无人荒岛",
     "tags": [
-      "沙滩孤岛"
+      "孤岛",
+      "荒岛"
     ]
   },
   {
@@ -31341,7 +31655,13 @@
     "order": 2476,
     "group": 3,
     "subgroup": 35,
-    "version": 11
+    "version": 11,
+    "annotation": "砖",
+    "tags": [
+      "墙",
+      "砂浆",
+      "黏土"
+    ]
   },
   {
     "name": "HOUSE BUILDINGS",
@@ -31416,7 +31736,8 @@
     "annotation": "别墅",
     "tags": [
       "家",
-      "房子"
+      "房子",
+      "花园"
     ]
   },
   {
@@ -31486,6 +31807,7 @@
     "version": 1,
     "annotation": "医院",
     "tags": [
+      "医生",
       "看病"
     ]
   },
@@ -31503,7 +31825,7 @@
     "version": 1,
     "annotation": "银行",
     "tags": [
-      "银行"
+      "建筑"
     ]
   },
   {
@@ -31520,6 +31842,7 @@
     "version": 1,
     "annotation": "酒店",
     "tags": [
+      "建筑",
       "旅馆"
     ]
   },
@@ -31573,6 +31896,7 @@
     "version": 1,
     "annotation": "学校",
     "tags": [
+      "建筑",
       "教学楼"
     ]
   },
@@ -31608,7 +31932,7 @@
     "text": "🏭︎",
     "annotation": "工厂",
     "tags": [
-      "污染"
+      "建筑"
     ]
   },
   {
@@ -31738,6 +32062,7 @@
     "annotation": "清真寺",
     "tags": [
       "伊斯兰",
+      "宗教",
       "穆斯林"
     ]
   },
@@ -31756,6 +32081,7 @@
     "annotation": "犹太教堂",
     "tags": [
       "会堂",
+      "宗教",
       "犹太"
     ]
   },
@@ -31774,6 +32100,7 @@
     "text": "⛩︎",
     "annotation": "神社",
     "tags": [
+      "宗教",
       "日本",
       "神道教"
     ]
@@ -31794,6 +32121,7 @@
     "tags": [
       "伊斯兰",
       "天房",
+      "宗教",
       "穆斯林"
     ]
   },
@@ -31903,7 +32231,10 @@
     "version": 1,
     "annotation": "山顶日出",
     "tags": [
-      "日出"
+      "太阳",
+      "山",
+      "日出",
+      "清晨"
     ]
   },
   {
@@ -31920,7 +32251,8 @@
     "version": 1,
     "annotation": "日出",
     "tags": [
-      "太阳"
+      "太阳",
+      "清晨"
     ]
   },
   {
@@ -32065,7 +32397,7 @@
     "version": 1,
     "annotation": "过山车",
     "tags": [
-      "过山车"
+      "游乐园"
     ]
   },
   {
@@ -32249,6 +32581,7 @@
     "version": 1,
     "annotation": "车站",
     "tags": [
+      "火车",
       "铁路"
     ]
   },
@@ -32300,9 +32633,10 @@
     "version": 1,
     "annotation": "铁路隧道",
     "tags": [
+      "山",
+      "山区铁路",
       "火车",
-      "铁路",
-      "隧道"
+      "铁路"
     ]
   },
   {
@@ -32376,6 +32710,7 @@
     "annotation": "老式电车",
     "tags": [
       "公共汽车",
+      "无轨电车",
       "电车"
     ]
   },
@@ -32464,7 +32799,9 @@
     "text": "🚔︎",
     "annotation": "迎面驶来的警车",
     "tags": [
-      "警车"
+      "警察",
+      "警车",
+      "车"
     ]
   },
   {
@@ -32551,8 +32888,9 @@
     "version": 1,
     "annotation": "休闲车",
     "tags": [
-      "房车",
-      "轿车"
+      "suv",
+      "运动型多用途车",
+      "运动多功能"
     ]
   },
   {
@@ -32655,7 +32993,11 @@
     "order": 2554,
     "group": 3,
     "subgroup": 38,
-    "version": 11
+    "version": 11,
+    "annotation": "滑板",
+    "tags": [
+      "板"
+    ]
   },
   {
     "name": "MOTOR SCOOTER",
@@ -32671,7 +33013,7 @@
     "version": 3,
     "annotation": "电动车",
     "tags": [
-      "电动车"
+      "小型摩托车"
     ]
   },
   {
@@ -33186,7 +33528,7 @@
     "text": "🛰︎",
     "annotation": "卫星",
     "tags": [
-      "卫星"
+      "太空"
     ]
   },
   {
@@ -33203,7 +33545,7 @@
     "version": 1,
     "annotation": "火箭",
     "tags": [
-      "火箭"
+      "太空"
     ]
   },
   {
@@ -33220,6 +33562,7 @@
     "version": 5,
     "annotation": "飞碟",
     "tags": [
+      "ufo",
       "不明飞行物"
     ]
   },
@@ -33253,7 +33596,12 @@
     "order": 2597,
     "group": 3,
     "subgroup": 41,
-    "version": 11
+    "version": 11,
+    "annotation": "行李箱",
+    "tags": [
+      "包装",
+      "旅行"
+    ]
   },
   {
     "name": "HOURGLASS",
@@ -33270,7 +33618,9 @@
     "text": "⌛︎",
     "annotation": "沙漏",
     "tags": [
-      "计时"
+      "沙",
+      "计时",
+      "计时器"
     ]
   },
   {
@@ -33288,7 +33638,10 @@
     "text": "⏳︎",
     "annotation": "沙正往下流的沙漏",
     "tags": [
-      "沙漏"
+      "沙",
+      "沙漏",
+      "计时",
+      "计时器"
     ]
   },
   {
@@ -33342,6 +33695,7 @@
     "annotation": "秒表",
     "tags": [
       "时间",
+      "码表",
       "表",
       "计时"
     ]
@@ -33361,9 +33715,9 @@
     "text": "⏲︎",
     "annotation": "定时器",
     "tags": [
-      "时间",
       "表",
       "计时",
+      "计时器",
       "钟"
     ]
   },
@@ -33382,6 +33736,7 @@
     "text": "🕰︎",
     "annotation": "座钟",
     "tags": [
+      "台钟",
       "壁炉钟"
     ]
   },
@@ -34098,6 +34453,7 @@
     "text": "🌡︎",
     "annotation": "温度计",
     "tags": [
+      "天气",
       "气温",
       "温度"
     ]
@@ -34230,6 +34586,7 @@
     "tags": [
       "云彩",
       "云朵",
+      "天气",
       "阴"
     ]
   },
@@ -34287,6 +34644,7 @@
     "annotation": "晴偶有云",
     "tags": [
       "云",
+      "太阳",
       "阴"
     ]
   },
@@ -34306,6 +34664,7 @@
     "annotation": "多云",
     "tags": [
       "云",
+      "太阳",
       "阴"
     ]
   },
@@ -34324,6 +34683,8 @@
     "text": "🌦︎",
     "annotation": "晴转雨",
     "tags": [
+      "云",
+      "太阳",
       "雨"
     ]
   },
@@ -34342,6 +34703,7 @@
     "text": "🌧︎",
     "annotation": "下雨",
     "tags": [
+      "云",
       "雨"
     ]
   },
@@ -34360,6 +34722,7 @@
     "text": "🌨︎",
     "annotation": "下雪",
     "tags": [
+      "云",
       "雪"
     ]
   },
@@ -34378,6 +34741,8 @@
     "text": "🌩︎",
     "annotation": "打雷",
     "tags": [
+      "云",
+      "闪电",
       "雷"
     ]
   },
@@ -34396,6 +34761,7 @@
     "text": "🌪︎",
     "annotation": "龙卷风",
     "tags": [
+      "云",
       "旋风"
     ]
   },
@@ -34449,7 +34815,9 @@
     "version": 1,
     "annotation": "台风",
     "tags": [
-      "晕"
+      "旋风",
+      "晕",
+      "飓风"
     ]
   },
   {
@@ -34484,6 +34852,7 @@
     "annotation": "收起的伞",
     "tags": [
       "伞",
+      "雨",
       "雨伞"
     ]
   },
@@ -34502,6 +34871,7 @@
     "text": "☂︎",
     "annotation": "伞",
     "tags": [
+      "雨",
       "雨伞"
     ]
   },
@@ -34558,6 +34928,7 @@
     "text": "⚡︎",
     "annotation": "高压",
     "tags": [
+      "危险",
       "有电",
       "闪电"
     ]
@@ -34577,6 +34948,7 @@
     "text": "❄︎",
     "annotation": "雪花",
     "tags": [
+      "冷",
       "雪"
     ]
   },
@@ -34632,7 +35004,8 @@
     "text": "☄︎",
     "annotation": "彗星",
     "tags": [
-      "彗星"
+      "天空",
+      "太空"
     ]
   },
   {
@@ -34649,6 +35022,7 @@
     "version": 1,
     "annotation": "火焰",
     "tags": [
+      "工具",
       "火"
     ]
   },
@@ -34666,6 +35040,7 @@
     "version": 1,
     "annotation": "水滴",
     "tags": [
+      "冷",
       "水"
     ]
   },
@@ -34703,6 +35078,8 @@
     "tags": [
       "万圣节",
       "南瓜",
+      "南瓜灯笼",
+      "庆祝",
       "灯"
     ]
   },
@@ -34722,6 +35099,8 @@
     "annotation": "圣诞树",
     "tags": [
       "圣诞",
+      "庆祝",
+      "树",
       "节日",
       "装饰"
     ]
@@ -34740,6 +35119,7 @@
     "version": 1,
     "annotation": "焰火",
     "tags": [
+      "庆祝",
       "烟花"
     ]
   },
@@ -34757,6 +35137,9 @@
     "version": 1,
     "annotation": "烟花",
     "tags": [
+      "庆祝",
+      "火花",
+      "烟火",
       "焰火"
     ]
   },
@@ -34771,7 +35154,13 @@
     "order": 2699,
     "group": 4,
     "subgroup": 44,
-    "version": 11
+    "version": 11,
+    "annotation": "爆竹",
+    "tags": [
+      "炸药",
+      "烟花",
+      "爆炸"
+    ]
   },
   {
     "name": "SPARKLES",
@@ -34788,8 +35177,9 @@
     "annotation": "闪亮",
     "tags": [
       "星星",
+      "火花",
       "闪光",
-      "闪闪"
+      "闪耀"
     ]
   },
   {
@@ -34825,9 +35215,11 @@
     "version": 1,
     "annotation": "拉炮彩带",
     "tags": [
+      "庆祝",
       "彩带",
       "拉炮",
-      "派对"
+      "派对",
+      "派对礼宾花"
     ]
   },
   {
@@ -34844,6 +35236,7 @@
     "version": 1,
     "annotation": "五彩纸屑",
     "tags": [
+      "五彩纸屑球",
       "庆祝"
     ]
   },
@@ -34861,7 +35254,10 @@
     "version": 1,
     "annotation": "七夕",
     "tags": [
-      "七夕树"
+      "七夕树",
+      "庆祝",
+      "日本",
+      "树"
     ]
   },
   {
@@ -34879,7 +35275,9 @@
     "version": 1,
     "annotation": "门松",
     "tags": [
+      "庆祝",
       "日本",
+      "松树",
       "盆栽",
       "竹"
     ]
@@ -34900,7 +35298,9 @@
     "tags": [
       "人偶",
       "娃娃",
+      "庆祝",
       "日本",
+      "日本人形",
       "雏祭"
     ]
   },
@@ -34918,8 +35318,10 @@
     "version": 1,
     "annotation": "鲤鱼旗",
     "tags": [
+      "庆祝",
       "日本",
       "男孩节",
+      "长旗",
       "鲤鱼"
     ]
   },
@@ -34937,7 +35339,9 @@
     "version": 1,
     "annotation": "风铃",
     "tags": [
-      "风铃"
+      "庆祝",
+      "铃铛",
+      "风"
     ]
   },
   {
@@ -34956,6 +35360,8 @@
     "annotation": "赏月",
     "tags": [
       "中秋",
+      "庆祝",
+      "月亮",
       "祭月"
     ]
   },
@@ -34970,7 +35376,14 @@
     "order": 2710,
     "group": 4,
     "subgroup": 44,
-    "version": 11
+    "version": 11,
+    "annotation": "红包",
+    "tags": [
+      "利是",
+      "礼物",
+      "运气",
+      "钱"
+    ]
   },
   {
     "name": "RIBBON",
@@ -34986,6 +35399,8 @@
     "version": 1,
     "annotation": "蝴蝶结",
     "tags": [
+      "丝带",
+      "庆祝",
       "缎带"
     ]
   },
@@ -35003,7 +35418,10 @@
     "version": 1,
     "annotation": "礼物",
     "tags": [
-      "礼物"
+      "包装",
+      "庆祝",
+      "盒子",
+      "礼品"
     ]
   },
   {
@@ -35021,6 +35439,9 @@
     "text": "🎗︎",
     "annotation": "丝带",
     "tags": [
+      "庆祝",
+      "提示",
+      "暗示",
       "飘带"
     ]
   },
@@ -35040,6 +35461,7 @@
     "text": "🎟︎",
     "annotation": "入场券",
     "tags": [
+      "票",
       "门票"
     ]
   },
@@ -35080,7 +35502,9 @@
     "tags": [
       "军队",
       "功名",
-      "奖章"
+      "勋章",
+      "奖章",
+      "庆祝"
     ]
   },
   {
@@ -35098,7 +35522,9 @@
     "text": "🏆︎",
     "annotation": "奖杯",
     "tags": [
-      "奖励"
+      "奖励",
+      "奖品",
+      "奖赏"
     ]
   },
   {
@@ -35115,8 +35541,7 @@
     "version": 1,
     "annotation": "奖牌",
     "tags": [
-      "运动员",
-      "金牌"
+      "运动会奖牌"
     ]
   },
   {
@@ -35134,7 +35559,8 @@
     "annotation": "金牌",
     "tags": [
       "奖牌",
-      "第一"
+      "第一",
+      "金"
     ]
   },
   {
@@ -35152,7 +35578,8 @@
     "annotation": "银牌",
     "tags": [
       "奖牌",
-      "第二"
+      "第二",
+      "银"
     ]
   },
   {
@@ -35170,7 +35597,8 @@
     "annotation": "铜牌",
     "tags": [
       "奖牌",
-      "第三"
+      "第三",
+      "铜"
     ]
   },
   {
@@ -35188,7 +35616,8 @@
     "text": "⚽︎",
     "annotation": "足球",
     "tags": [
-      "足球"
+      "球",
+      "英式足球"
     ]
   },
   {
@@ -35206,7 +35635,7 @@
     "text": "⚾︎",
     "annotation": "棒球",
     "tags": [
-      "棒球"
+      "球"
     ]
   },
   {
@@ -35220,7 +35649,13 @@
     "order": 2727,
     "group": 4,
     "subgroup": 46,
-    "version": 11
+    "version": 11,
+    "annotation": "垒球",
+    "tags": [
+      "手套",
+      "球",
+      "腋下"
+    ]
   },
   {
     "name": "BASKETBALL AND HOOP",
@@ -35236,7 +35671,8 @@
     "version": 1,
     "annotation": "篮球",
     "tags": [
-      "篮球"
+      "球",
+      "篮筐"
     ]
   },
   {
@@ -35253,7 +35689,7 @@
     "version": 1,
     "annotation": "排球",
     "tags": [
-      "排球"
+      "球"
     ]
   },
   {
@@ -35271,6 +35707,7 @@
     "annotation": "美式橄榄球",
     "tags": [
       "橄榄球",
+      "球",
       "美式"
     ]
   },
@@ -35289,6 +35726,7 @@
     "annotation": "英式橄榄球",
     "tags": [
       "橄榄球",
+      "球",
       "英式"
     ]
   },
@@ -35306,7 +35744,8 @@
     "version": 1,
     "annotation": "网球",
     "tags": [
-      "网球"
+      "球",
+      "球拍"
     ]
   },
   {
@@ -35320,7 +35759,13 @@
     "order": 2733,
     "group": 4,
     "subgroup": 46,
-    "version": 11
+    "version": 11,
+    "annotation": "飞盘",
+    "tags": [
+      "极限",
+      "极限运动",
+      "终极"
+    ]
   },
   {
     "name": "BOWLING",
@@ -35336,7 +35781,7 @@
     "version": 1,
     "annotation": "保龄球",
     "tags": [
-      "保龄球"
+      "球"
     ]
   },
   {
@@ -35353,7 +35798,8 @@
     "version": 1,
     "annotation": "板球",
     "tags": [
-      "板球"
+      "球",
+      "球拍"
     ]
   },
   {
@@ -35370,7 +35816,8 @@
     "version": 1,
     "annotation": "曲棍球",
     "tags": [
-      "曲棍球"
+      "球",
+      "球棍"
     ]
   },
   {
@@ -35387,7 +35834,8 @@
     "version": 1,
     "annotation": "冰球",
     "tags": [
-      "冰球"
+      "球",
+      "球棍"
     ]
   },
   {
@@ -35401,7 +35849,13 @@
     "order": 2738,
     "group": 4,
     "subgroup": 46,
-    "version": 11
+    "version": 11,
+    "annotation": "袋棍球",
+    "tags": [
+      "球",
+      "球棍",
+      "球门"
+    ]
   },
   {
     "name": "TABLE TENNIS PADDLE AND BALL",
@@ -35417,7 +35871,9 @@
     "version": 1,
     "annotation": "乒乓球",
     "tags": [
-      "乒乓"
+      "乒乓",
+      "球",
+      "球拍"
     ]
   },
   {
@@ -35434,7 +35890,7 @@
     "version": 1,
     "annotation": "羽毛球",
     "tags": [
-      "羽毛球"
+      "球拍"
     ]
   },
   {
@@ -35512,7 +35968,7 @@
     "text": "⛳︎",
     "annotation": "高尔夫",
     "tags": [
-      "高尔夫"
+      "高尔夫球洞"
     ]
   },
   {
@@ -35585,7 +36041,7 @@
     "version": 1,
     "annotation": "滑雪",
     "tags": [
-      "滑雪"
+      "雪"
     ]
   },
   {
@@ -35675,7 +36131,11 @@
     "version": 1,
     "annotation": "水晶球",
     "tags": [
-      "命运"
+      "命运",
+      "工具",
+      "水晶",
+      "球",
+      "财富"
     ]
   },
   {
@@ -35689,7 +36149,15 @@
     "order": 2755,
     "group": 4,
     "subgroup": 47,
-    "version": 11
+    "version": 11,
+    "annotation": "纳扎尔护身符",
+    "tags": [
+      "小装饰品",
+      "恶魔之眼",
+      "护身符",
+      "珠子",
+      "纳扎尔"
+    ]
   },
   {
     "name": "VIDEO GAME",
@@ -35777,7 +36245,14 @@
     "order": 2761,
     "group": 4,
     "subgroup": 47,
-    "version": 11
+    "version": 11,
+    "annotation": "拼图",
+    "tags": [
+      "图片",
+      "智力游戏",
+      "线索",
+      "联锁"
+    ]
   },
   {
     "name": "TEDDY BEAR",
@@ -35790,7 +36265,14 @@
     "order": 2762,
     "group": 4,
     "subgroup": 47,
-    "version": 11
+    "version": 11,
+    "annotation": "泰迪熊",
+    "tags": [
+      "填充",
+      "毛绒玩具",
+      "玩偶",
+      "玩具"
+    ]
   },
   {
     "name": "BLACK SPADE SUIT",
@@ -35885,7 +36367,13 @@
     "group": 4,
     "subgroup": 47,
     "version": 11,
-    "text": "♟︎"
+    "text": "♟︎",
+    "annotation": "兵",
+    "tags": [
+      "受骗者",
+      "国际象棋",
+      "牺牲品"
+    ]
   },
   {
     "name": "PLAYING CARD BLACK JOKER",
@@ -35962,6 +36450,7 @@
     "tags": [
       "剧院",
       "戏剧",
+      "艺术",
       "表演"
     ]
   },
@@ -35980,7 +36469,10 @@
     "text": "🖼︎",
     "annotation": "带框的画",
     "tags": [
-      "画"
+      "博物馆",
+      "框",
+      "画",
+      "艺术"
     ]
   },
   {
@@ -35998,6 +36490,7 @@
     "version": 1,
     "annotation": "调色盘",
     "tags": [
+      "博物馆",
       "画画",
       "艺术",
       "调色板"
@@ -36014,7 +36507,14 @@
     "order": 2780,
     "group": 4,
     "subgroup": 48,
-    "version": 11
+    "version": 11,
+    "annotation": "线",
+    "tags": [
+      "线轴",
+      "绳子",
+      "缝纫",
+      "针"
+    ]
   },
   {
     "name": "BALL OF YARN",
@@ -36027,7 +36527,13 @@
     "order": 2781,
     "group": 4,
     "subgroup": 48,
-    "version": 11
+    "version": 11,
+    "annotation": "毛线",
+    "tags": [
+      "毛线球",
+      "编织",
+      "钩针编织物"
+    ]
   },
   {
     "name": "SPEAKER WITH CANCELLATION STROKE",
@@ -36046,8 +36552,8 @@
     "tags": [
       "安静",
       "扬声器",
-      "静音",
-      "音量"
+      "无声",
+      "静音"
     ]
   },
   {
@@ -36066,9 +36572,10 @@
     "text": "🔈︎",
     "annotation": "扬声器",
     "tags": [
-      "喇叭",
-      "通知",
-      "音量"
+      "低音量",
+      "小声",
+      "小音量",
+      "轻声"
     ]
   },
   {
@@ -36085,10 +36592,9 @@
     "version": 1,
     "annotation": "小音量",
     "tags": [
-      "低",
-      "小",
-      "扬声器",
-      "音量"
+      "中等",
+      "中等音量",
+      "扬声器"
     ]
   },
   {
@@ -36105,10 +36611,10 @@
     "version": 1,
     "annotation": "大音量",
     "tags": [
-      "大",
+      "大声",
       "扬声器",
-      "音量",
-      "高"
+      "高声",
+      "高音量"
     ]
   },
   {
@@ -36125,7 +36631,10 @@
     "version": 1,
     "annotation": "喇叭",
     "tags": [
-      "扩音器"
+      "公共广播",
+      "大声",
+      "广播",
+      "通知"
     ]
   },
   {
@@ -36142,7 +36651,11 @@
     "version": 1,
     "annotation": "扩音器",
     "tags": [
-      "喇叭"
+      "呼喊",
+      "喇叭筒",
+      "大声",
+      "扩音",
+      "通知"
     ]
   },
   {
@@ -36161,7 +36674,8 @@
     "tags": [
       "号",
       "号角",
-      "喇叭"
+      "喇叭",
+      "邮政"
     ]
   },
   {
@@ -36178,7 +36692,9 @@
     "version": 1,
     "annotation": "铃铛",
     "tags": [
-      "铃铛"
+      "叮当",
+      "响铃",
+      "铃"
     ]
   },
   {
@@ -36195,8 +36711,10 @@
     "version": 1,
     "annotation": "禁止响铃",
     "tags": [
-      "响铃",
-      "禁止",
+      "响铃关闭",
+      "安静",
+      "无声",
+      "铃铛",
       "静音"
     ]
   },
@@ -36214,7 +36732,9 @@
     "version": 1,
     "annotation": "乐谱",
     "tags": [
-      "五线谱"
+      "五线谱",
+      "音乐",
+      "音符"
     ]
   },
   {
@@ -36231,6 +36751,9 @@
     "version": 1,
     "annotation": "音符",
     "tags": [
+      "乐谱",
+      "五线谱",
+      "八分音符",
       "音乐"
     ]
   },
@@ -36248,6 +36771,10 @@
     "version": 1,
     "annotation": "多个音符",
     "tags": [
+      "乐谱",
+      "五线谱",
+      "八分音符",
+      "音乐",
       "音符"
     ]
   },
@@ -36267,6 +36794,9 @@
     "annotation": "录音室麦克风",
     "tags": [
       "录音室",
+      "音乐",
+      "麦",
+      "麦克",
       "麦克风"
     ]
   },
@@ -36285,10 +36815,10 @@
     "text": "🎚︎",
     "annotation": "调节滑块",
     "tags": [
-      "控制",
       "滑块",
+      "电平",
       "调节",
-      "音量"
+      "音乐"
     ]
   },
   {
@@ -36326,9 +36856,11 @@
     "version": 1,
     "annotation": "麦克风",
     "tags": [
-      "k歌",
       "卡拉ok",
-      "唱歌"
+      "唱k",
+      "唱歌",
+      "麦",
+      "麦克"
     ]
   },
   {
@@ -36346,7 +36878,9 @@
     "text": "🎧︎",
     "annotation": "耳机",
     "tags": [
-      "耳塞"
+      "听歌",
+      "头戴式耳机",
+      "耳罩"
     ]
   },
   {
@@ -36364,6 +36898,9 @@
     "text": "📻︎",
     "annotation": "收音机",
     "tags": [
+      "广播",
+      "广播电台",
+      "无线电",
       "电台"
     ]
   },
@@ -36382,7 +36919,10 @@
     "annotation": "萨克斯风",
     "tags": [
       "乐器",
-      "萨克斯管"
+      "吹奏",
+      "演奏",
+      "萨克斯",
+      "音乐"
     ]
   },
   {
@@ -36399,7 +36939,10 @@
     "version": 1,
     "annotation": "吉他",
     "tags": [
-      "乐器"
+      "乐器",
+      "弹奏",
+      "演奏",
+      "音乐"
     ]
   },
   {
@@ -36417,7 +36960,11 @@
     "annotation": "音乐键盘",
     "tags": [
       "乐器",
-      "钢琴"
+      "弹奏",
+      "演奏",
+      "钢琴",
+      "键盘",
+      "音乐"
     ]
   },
   {
@@ -36434,7 +36981,11 @@
     "version": 1,
     "annotation": "小号",
     "tags": [
-      "乐器"
+      "乐器",
+      "吹奏",
+      "喇叭",
+      "弹奏",
+      "音乐"
     ]
   },
   {
@@ -36451,7 +37002,10 @@
     "version": 1,
     "annotation": "小提琴",
     "tags": [
-      "乐器"
+      "乐器",
+      "提琴",
+      "演奏",
+      "音乐"
     ]
   },
   {
@@ -36469,6 +37023,7 @@
     "annotation": "鼓",
     "tags": [
       "音乐",
+      "鼓声",
       "鼓槌"
     ]
   },
@@ -36488,7 +37043,10 @@
     "version": 1,
     "annotation": "手机",
     "tags": [
-      "电话"
+      "手提电话",
+      "智能手机",
+      "电话",
+      "移动"
     ]
   },
   {
@@ -36507,8 +37065,11 @@
     "tags": [
       "手机",
       "接收",
+      "接电话",
+      "智能手机",
+      "来电",
       "电话",
-      "箭头"
+      "移动"
     ]
   },
   {
@@ -36526,6 +37087,8 @@
     "text": "☎︎",
     "annotation": "电话",
     "tags": [
+      "固定电话",
+      "固话",
       "座机"
     ]
   },
@@ -36543,6 +37106,9 @@
     "version": 1,
     "annotation": "听筒",
     "tags": [
+      "固定电话",
+      "固话",
+      "座机",
       "电话"
     ]
   },
@@ -36561,7 +37127,9 @@
     "text": "📟︎",
     "annotation": "寻呼机",
     "tags": [
-      "传呼机"
+      "bb 机",
+      "传呼机",
+      "呼机"
     ]
   },
   {
@@ -36578,8 +37146,9 @@
     "version": 1,
     "annotation": "传真机",
     "tags": [
-      "fax",
-      "传真"
+      "传真",
+      "传真号",
+      "发传真"
     ]
   },
   {
@@ -36596,7 +37165,12 @@
     "version": 1,
     "annotation": "电池",
     "tags": [
-      "电"
+      "正极",
+      "电",
+      "电极",
+      "电源",
+      "蓄电池",
+      "负极"
     ]
   },
   {
@@ -36614,7 +37188,9 @@
     "annotation": "电源插头",
     "tags": [
       "插头",
-      "电源"
+      "电插头",
+      "电源",
+      "电线"
     ]
   },
   {
@@ -36633,6 +37209,9 @@
     "annotation": "笔记本电脑",
     "tags": [
       "pc",
+      "个人电脑",
+      "便携式电脑",
+      "手提电脑",
       "电脑",
       "笔记本",
       "计算机"
@@ -36655,6 +37234,7 @@
     "annotation": "台式电脑",
     "tags": [
       "pc",
+      "个人电脑",
       "台式",
       "显示器",
       "显示屏",
@@ -36677,9 +37257,12 @@
     "text": "🖨︎",
     "annotation": "打印机",
     "tags": [
+      "印刷机",
+      "喷墨打印",
       "复印",
       "打印",
-      "扫描"
+      "扫描",
+      "激光打印"
     ]
   },
   {
@@ -36697,7 +37280,10 @@
     "text": "⌨︎",
     "annotation": "键盘",
     "tags": [
-      "按键"
+      "打字",
+      "按键",
+      "电脑",
+      "输入"
     ]
   },
   {
@@ -36715,7 +37301,12 @@
     "text": "🖱︎",
     "annotation": "鼠标",
     "tags": [
-      "鼠标"
+      "指针",
+      "有线鼠标",
+      "激光鼠标",
+      "点击",
+      "点按",
+      "电脑"
     ]
   },
   {
@@ -36733,7 +37324,10 @@
     "text": "🖲︎",
     "annotation": "轨迹球",
     "tags": [
-      "追踪球"
+      "有线鼠标",
+      "电脑",
+      "追踪球",
+      "鼠标"
     ]
   },
   {
@@ -36751,7 +37345,10 @@
     "annotation": "迷你光盘",
     "tags": [
       "minidisk",
-      "光盘"
+      "mini光盘",
+      "光盘",
+      "迷你光碟",
+      "迷你唱片"
     ]
   },
   {
@@ -36768,6 +37365,9 @@
     "version": 1,
     "annotation": "软盘",
     "tags": [
+      "3.5英寸",
+      "便携",
+      "存储",
       "磁盘"
     ]
   },
@@ -36788,8 +37388,12 @@
     "annotation": "光盘",
     "tags": [
       "cd",
+      "专辑",
       "光碟",
-      "蓝光"
+      "存储",
+      "影片",
+      "蓝光",
+      "音乐"
     ]
   },
   {
@@ -36807,8 +37411,12 @@
     "annotation": "DVD",
     "tags": [
       "dvd",
+      "专辑",
       "光盘",
-      "光碟"
+      "光碟",
+      "存储",
+      "影片",
+      "音乐"
     ]
   },
   {
@@ -36822,7 +37430,11 @@
     "order": 2833,
     "group": 5,
     "subgroup": 53,
-    "version": 11
+    "version": 11,
+    "annotation": "算盘",
+    "tags": [
+      "计算"
+    ]
   },
   {
     "name": "MOVIE CAMERA",
@@ -36838,9 +37450,12 @@
     "version": 1,
     "annotation": "摄影机",
     "tags": [
-      "录像",
+      "录影机",
+      "摄像机",
+      "摄录机",
       "摄影",
-      "电影"
+      "电影",
+      "视频"
     ]
   },
   {
@@ -36858,7 +37473,10 @@
     "text": "🎞︎",
     "annotation": "电影胶卷",
     "tags": [
+      "帧",
+      "影片",
       "电影",
+      "电影胶片",
       "胶卷",
       "胶片"
     ]
@@ -36878,6 +37496,7 @@
     "text": "📽︎",
     "annotation": "电影放映机",
     "tags": [
+      "影片",
       "投影仪",
       "放映机",
       "电影",
@@ -36900,6 +37519,7 @@
     "annotation": "场记板",
     "tags": [
       "场记",
+      "打板",
       "拍电影"
     ]
   },
@@ -36918,6 +37538,8 @@
     "text": "📺︎",
     "annotation": "电视",
     "tags": [
+      "看电视",
+      "节目",
       "视频"
     ]
   },
@@ -36936,8 +37558,13 @@
     "text": "📷︎",
     "annotation": "相机",
     "tags": [
+      "卡片相机",
+      "拍摄",
       "拍照",
-      "摄影"
+      "摄像头",
+      "摄影",
+      "照片",
+      "照相机"
     ]
   },
   {
@@ -36954,8 +37581,11 @@
     "version": 1,
     "annotation": "带闪光灯的相机",
     "tags": [
+      "拍照",
       "相机",
-      "闪光灯"
+      "补光",
+      "闪光灯",
+      "闪光灯打开"
     ]
   },
   {
@@ -36974,7 +37604,10 @@
     "annotation": "录像机",
     "tags": [
       "录像",
-      "摄影机"
+      "录影",
+      "拍摄",
+      "摄影机",
+      "视频"
     ]
   },
   {
@@ -36991,6 +37624,7 @@
     "version": 1,
     "annotation": "录像带",
     "tags": [
+      "vhs",
       "录影带",
       "磁带"
     ]
@@ -37010,8 +37644,12 @@
     "text": "🔍︎",
     "annotation": "左斜的放大镜",
     "tags": [
+      "工具",
+      "左",
       "搜索",
-      "放大镜"
+      "放大",
+      "放大镜",
+      "查找"
     ]
   },
   {
@@ -37028,8 +37666,12 @@
     "version": 1,
     "annotation": "右斜的放大镜",
     "tags": [
+      "右",
+      "工具",
       "搜索",
-      "放大镜"
+      "放大",
+      "放大镜",
+      "查找"
     ]
   },
   {
@@ -37048,7 +37690,10 @@
     "annotation": "蜡烛",
     "tags": [
       "光",
-      "烛光"
+      "烛光",
+      "烛火",
+      "照明",
+      "燃烧"
     ]
   },
   {
@@ -37067,7 +37712,12 @@
     "annotation": "灯泡",
     "tags": [
       "主意",
-      "电"
+      "想法",
+      "明亮",
+      "灯",
+      "照明",
+      "电灯泡",
+      "白炽灯"
     ]
   },
   {
@@ -37084,7 +37734,10 @@
     "version": 1,
     "annotation": "手电",
     "tags": [
-      "光"
+      "光",
+      "工具",
+      "照明",
+      "电筒"
     ]
   },
   {
@@ -37101,6 +37754,9 @@
     "version": 1,
     "annotation": "红灯笼",
     "tags": [
+      "光",
+      "喜庆",
+      "春节",
       "灯笼",
       "节日"
     ]
@@ -37119,7 +37775,11 @@
     "version": 1,
     "annotation": "精装笔记本",
     "tags": [
-      "笔记本"
+      "封面",
+      "本子",
+      "笔记",
+      "笔记本",
+      "记录"
     ]
   },
   {
@@ -37137,7 +37797,8 @@
     "annotation": "书本",
     "tags": [
       "书",
-      "合上"
+      "合上",
+      "合上的书本"
     ]
   },
   {
@@ -37155,7 +37816,10 @@
     "annotation": "打开的书本",
     "tags": [
       "书",
-      "打开"
+      "书本",
+      "打开",
+      "读书",
+      "阅读"
     ]
   },
   {
@@ -37173,6 +37837,8 @@
     "annotation": "绿色书本",
     "tags": [
       "书",
+      "书本",
+      "绿",
       "绿色"
     ]
   },
@@ -37191,6 +37857,8 @@
     "annotation": "蓝色书本",
     "tags": [
       "书",
+      "书本",
+      "篮",
       "蓝色"
     ]
   },
@@ -37209,6 +37877,7 @@
     "annotation": "橙色书本",
     "tags": [
       "书",
+      "书本",
       "橙色"
     ]
   },
@@ -37227,7 +37896,10 @@
     "text": "📚︎",
     "annotation": "书",
     "tags": [
+      "书堆",
       "书本",
+      "书籍",
+      "图书",
       "学习"
     ]
   },
@@ -37245,6 +37917,8 @@
     "version": 1,
     "annotation": "笔记本",
     "tags": [
+      "日记本",
+      "本子",
       "笔记",
       "记事本",
       "记录"
@@ -37266,6 +37940,7 @@
     "tags": [
       "笔记本",
       "记事本",
+      "记账",
       "账簿"
     ]
   },
@@ -37283,7 +37958,10 @@
     "version": 1,
     "annotation": "纸张",
     "tags": [
+      "卷边",
+      "带卷边的页面",
       "文书",
+      "文件",
       "文档"
     ]
   },
@@ -37302,7 +37980,9 @@
     "annotation": "卷轴",
     "tags": [
       "画卷",
-      "纸"
+      "纸",
+      "纸卷",
+      "羊皮纸"
     ]
   },
   {
@@ -37320,7 +38000,9 @@
     "annotation": "文件",
     "tags": [
       "文书",
-      "文档"
+      "文档",
+      "朝上",
+      "正面"
     ]
   },
   {
@@ -37337,7 +38019,12 @@
     "version": 1,
     "annotation": "报纸",
     "tags": [
-      "新闻"
+      "小报",
+      "报",
+      "报道",
+      "新闻",
+      "看报",
+      "读报"
     ]
   },
   {
@@ -37355,6 +38042,8 @@
     "text": "🗞︎",
     "annotation": "报纸卷",
     "tags": [
+      "卷着的报纸",
+      "卷起的报纸",
       "报纸"
     ]
   },
@@ -37372,7 +38061,9 @@
     "version": 1,
     "annotation": "标签页",
     "tags": [
-      "书签"
+      "书签",
+      "有书签的页面",
+      "有标记的页面"
     ]
   },
   {
@@ -37389,7 +38080,9 @@
     "version": 1,
     "annotation": "书签",
     "tags": [
-      "标签"
+      "标签",
+      "读书",
+      "阅读"
     ]
   },
   {
@@ -37407,6 +38100,8 @@
     "text": "🏷︎",
     "annotation": "标签",
     "tags": [
+      "吊牌",
+      "标记",
       "行李牌"
     ]
   },
@@ -37425,7 +38120,9 @@
     "text": "💰︎",
     "annotation": "钱袋",
     "tags": [
-      "钱"
+      "美元",
+      "钱",
+      "钱包"
     ]
   },
   {
@@ -37442,8 +38139,11 @@
     "version": 1,
     "annotation": "日元",
     "tags": [
+      "现金",
       "纸币",
       "货币",
+      "金钱",
+      "钞票",
       "钱"
     ]
   },
@@ -37461,6 +38161,8 @@
     "version": 1,
     "annotation": "美元",
     "tags": [
+      "刀",
+      "现金",
       "纸币",
       "美刀",
       "货币",
@@ -37481,8 +38183,11 @@
     "version": 1,
     "annotation": "欧元",
     "tags": [
+      "现金",
       "纸币",
       "货币",
+      "金钱",
+      "钞票",
       "钱"
     ]
   },
@@ -37500,8 +38205,11 @@
     "version": 1,
     "annotation": "英镑",
     "tags": [
+      "现金",
       "纸币",
       "货币",
+      "金钱",
+      "钞票",
       "钱"
     ]
   },
@@ -37521,6 +38229,7 @@
     "tags": [
       "纸币",
       "翅膀",
+      "花钱",
       "钱",
       "飞"
     ]
@@ -37540,6 +38249,11 @@
     "text": "💳︎",
     "annotation": "信用卡",
     "tags": [
+      "借记卡",
+      "刷卡",
+      "卡",
+      "卡片",
+      "贷记卡",
       "银行卡"
     ]
   },
@@ -37554,7 +38268,15 @@
     "order": 2878,
     "group": 5,
     "subgroup": 56,
-    "version": 11
+    "version": 11,
+    "annotation": "收据",
+    "tags": [
+      "凭据",
+      "发票",
+      "记账",
+      "证明",
+      "账单"
+    ]
   },
   {
     "name": "CHART WITH UPWARDS TREND AND YEN SIGN",
@@ -37571,6 +38293,8 @@
     "annotation": "货币升值图表",
     "tags": [
       "上扬",
+      "上涨",
+      "日元汇率",
       "货币",
       "走势"
     ]
@@ -37589,8 +38313,10 @@
     "version": 1,
     "annotation": "换汇",
     "tags": [
+      "兑换",
       "外汇",
-      "汇率"
+      "汇率",
+      "流通"
     ]
   },
   {
@@ -37628,6 +38354,8 @@
     "annotation": "信封",
     "tags": [
       "信件",
+      "信息",
+      "来信",
       "邮件"
     ]
   },
@@ -37645,6 +38373,7 @@
     "version": 1,
     "annotation": "邮件",
     "tags": [
+      "信封",
       "电子邮件"
     ]
   },
@@ -37665,6 +38394,8 @@
       "信件",
       "信封",
       "接收",
+      "收信",
+      "收到来信",
       "邮件"
     ]
   },
@@ -37684,6 +38415,8 @@
     "tags": [
       "信件",
       "信封",
+      "发信",
+      "发出",
       "发送",
       "邮件"
     ]
@@ -37704,8 +38437,10 @@
     "annotation": "发件箱",
     "tags": [
       "信件",
+      "发信",
+      "发出",
       "发送",
-      "收件箱",
+      "发邮件",
       "邮件"
     ]
   },
@@ -37726,6 +38461,8 @@
     "tags": [
       "信件",
       "接收",
+      "收信",
+      "收到邮件",
       "邮件"
     ]
   },
@@ -37745,7 +38482,10 @@
     "annotation": "包裹",
     "tags": [
       "快递",
+      "盒子",
       "箱子",
+      "装货",
+      "运送",
       "集装箱"
     ]
   },
@@ -37764,7 +38504,9 @@
     "text": "📫︎",
     "annotation": "有待收信件",
     "tags": [
-      "信箱"
+      "信箱",
+      "旗标",
+      "有新信件"
     ]
   },
   {
@@ -37782,7 +38524,9 @@
     "text": "📪︎",
     "annotation": "无待收信件",
     "tags": [
-      "信箱"
+      "信箱",
+      "旗标",
+      "无新信件"
     ]
   },
   {
@@ -37800,7 +38544,10 @@
     "text": "📬︎",
     "annotation": "有新信件",
     "tags": [
-      "信箱"
+      "信箱",
+      "打开",
+      "旗标",
+      "有待收信件"
     ]
   },
   {
@@ -37818,7 +38565,9 @@
     "text": "📭︎",
     "annotation": "无新信件",
     "tags": [
-      "信箱"
+      "信箱",
+      "旗标",
+      "无待收信件"
     ]
   },
   {
@@ -37835,7 +38584,10 @@
     "version": 1,
     "annotation": "邮筒",
     "tags": [
-      "信"
+      "信",
+      "寄信",
+      "投递",
+      "邮箱"
     ]
   },
   {
@@ -37853,7 +38605,10 @@
     "text": "🗳︎",
     "annotation": "投票箱",
     "tags": [
-      "投票"
+      "已投",
+      "投票",
+      "选举",
+      "选票"
     ]
   },
   {
@@ -37871,7 +38626,12 @@
     "text": "✏︎",
     "annotation": "铅笔",
     "tags": [
-      "笔"
+      "橡皮",
+      "橡皮擦",
+      "画画",
+      "画笔",
+      "笔",
+      "绘画"
     ]
   },
   {
@@ -37889,6 +38649,8 @@
     "text": "✒︎",
     "annotation": "钢笔尖",
     "tags": [
+      "写字",
+      "硬笔",
       "笔尖",
       "钢笔"
     ]
@@ -37908,6 +38670,8 @@
     "text": "🖋︎",
     "annotation": "钢笔",
     "tags": [
+      "写字",
+      "硬笔",
       "笔"
     ]
   },
@@ -37926,6 +38690,8 @@
     "text": "🖊︎",
     "annotation": "笔",
     "tags": [
+      "原子笔",
+      "圆珠笔",
       "油笔"
     ]
   },
@@ -37945,7 +38711,9 @@
     "annotation": "毛笔",
     "tags": [
       "刷",
-      "画笔"
+      "画刷",
+      "画笔",
+      "笔刷"
     ]
   },
   {
@@ -37963,7 +38731,8 @@
     "text": "🖍︎",
     "annotation": "蜡笔",
     "tags": [
-      "蜡笔"
+      "油画棒",
+      "画棒"
     ]
   },
   {
@@ -37980,7 +38749,12 @@
     "version": 1,
     "annotation": "备忘录",
     "tags": [
-      "备注"
+      "便条",
+      "便条簿",
+      "便笺",
+      "备注",
+      "本子",
+      "笔记"
     ]
   },
   {
@@ -37997,8 +38771,10 @@
     "version": 1,
     "annotation": "公文包",
     "tags": [
-      "上班",
-      "文件"
+      "公事包",
+      "包",
+      "手提包",
+      "文件夹"
     ]
   },
   {
@@ -38015,7 +38791,10 @@
     "version": 1,
     "annotation": "文件夹",
     "tags": [
-      "文件"
+      "办公",
+      "文件",
+      "文具",
+      "硬纸夹"
     ]
   },
   {
@@ -38032,8 +38811,11 @@
     "version": 1,
     "annotation": "打开文件夹",
     "tags": [
+      "办公",
       "打开",
-      "文件"
+      "打开的文件夹",
+      "文件",
+      "文具"
     ]
   },
   {
@@ -38071,7 +38853,9 @@
     "version": 1,
     "annotation": "日历",
     "tags": [
-      "日期"
+      "日期",
+      "月份",
+      "月历"
     ]
   },
   {
@@ -38088,7 +38872,11 @@
     "version": 1,
     "annotation": "手撕日历",
     "tags": [
-      "日历"
+      "已撕掉的日历",
+      "日历",
+      "日期",
+      "月份",
+      "月历"
     ]
   },
   {
@@ -38106,6 +38894,9 @@
     "text": "🗒︎",
     "annotation": "线圈本",
     "tags": [
+      "文具",
+      "笔记",
+      "笔记本",
       "线圈",
       "记事本"
     ]
@@ -38126,6 +38917,9 @@
     "annotation": "线圈日历",
     "tags": [
       "日历",
+      "日期",
+      "月份",
+      "月历",
       "线圈"
     ]
   },
@@ -38144,6 +38938,7 @@
     "annotation": "卡牌索引",
     "tags": [
       "卡片",
+      "卡片索引",
       "目录",
       "索引"
     ]
@@ -38164,7 +38959,9 @@
     "tags": [
       "上升",
       "上涨",
-      "图表"
+      "向上",
+      "图表",
+      "趋势"
     ]
   },
   {
@@ -38183,7 +38980,9 @@
     "tags": [
       "下跌",
       "下降",
-      "图表"
+      "向下",
+      "图表",
+      "趋势"
     ]
   },
   {
@@ -38200,6 +38999,7 @@
     "version": 1,
     "annotation": "柱形图",
     "tags": [
+      "图表",
       "条形图",
       "直方图"
     ]
@@ -38220,7 +39020,9 @@
     "annotation": "剪贴板",
     "tags": [
       "写字板",
-      "夹子"
+      "剪贴簿",
+      "夹子",
+      "纸张"
     ]
   },
   {
@@ -38255,6 +39057,7 @@
     "version": 1,
     "annotation": "圆图钉",
     "tags": [
+      "固定",
       "图钉"
     ]
   },
@@ -38272,7 +39075,10 @@
     "version": 1,
     "annotation": "回形针",
     "tags": [
-      "曲别针"
+      "万字夹",
+      "回纹针",
+      "曲别针",
+      "纸夹"
     ]
   },
   {
@@ -38290,8 +39096,12 @@
     "text": "🖇︎",
     "annotation": "两个回形针",
     "tags": [
+      "万字夹",
+      "两个",
       "回形针",
-      "曲别针"
+      "回纹针",
+      "曲别针",
+      "纸夹"
     ]
   },
   {
@@ -38309,7 +39119,10 @@
     "annotation": "直尺",
     "tags": [
       "尺",
-      "量"
+      "尺子",
+      "文具",
+      "测量",
+      "长度"
     ]
   },
   {
@@ -38326,7 +39139,12 @@
     "version": 1,
     "annotation": "三角尺",
     "tags": [
-      "三角"
+      "三角",
+      "尺",
+      "尺子",
+      "文具",
+      "测量",
+      "角度"
     ]
   },
   {
@@ -38344,8 +39162,11 @@
     "text": "✂︎",
     "annotation": "剪刀",
     "tags": [
+      "修剪",
+      "剪",
       "剪子",
-      "剪裁"
+      "剪裁",
+      "工具"
     ]
   },
   {
@@ -38364,7 +39185,9 @@
     "annotation": "卡片盒",
     "tags": [
       "卡片",
+      "存档",
       "文件",
+      "标签",
       "档案",
       "索引"
     ]
@@ -38384,8 +39207,12 @@
     "text": "🗄︎",
     "annotation": "文件柜",
     "tags": [
+      "存档",
+      "归档",
       "收纳",
-      "柜"
+      "文件",
+      "柜",
+      "档案"
     ]
   },
   {
@@ -38405,7 +39232,10 @@
     "annotation": "垃圾桶",
     "tags": [
       "垃圾",
+      "垃圾箱",
+      "垃圾篓",
       "废品",
+      "废纸篓",
       "扔掉"
     ]
   },
@@ -38424,8 +39254,11 @@
     "text": "🔒︎",
     "annotation": "锁",
     "tags": [
+      "上锁",
+      "落锁",
       "锁住",
-      "锁头"
+      "锁头",
+      "锁定"
     ]
   },
   {
@@ -38443,8 +39276,10 @@
     "text": "🔓︎",
     "annotation": "打开的锁",
     "tags": [
+      "取消锁定",
       "开锁",
       "打开",
+      "解锁",
       "锁"
     ]
   },
@@ -38462,8 +39297,12 @@
     "version": 1,
     "annotation": "墨水笔和锁",
     "tags": [
+      "墨水笔",
       "笔",
+      "笔尖",
+      "钢笔",
       "锁",
+      "锁头",
       "隐私"
     ]
   },
@@ -38483,7 +39322,8 @@
     "tags": [
       "安全",
       "钥匙",
-      "锁"
+      "锁",
+      "锁头"
     ]
   },
   {
@@ -38500,7 +39340,11 @@
     "version": 1,
     "annotation": "钥匙",
     "tags": [
-      "密码"
+      "密码",
+      "密钥",
+      "开锁",
+      "秘钥",
+      "解锁"
     ]
   },
   {
@@ -38518,6 +39362,8 @@
     "text": "🗝︎",
     "annotation": "老式钥匙",
     "tags": [
+      "古老的钥匙",
+      "旧钥匙",
       "钥匙"
     ]
   },
@@ -38535,7 +39381,12 @@
     "version": 1,
     "annotation": "锤子",
     "tags": [
-      "锤子"
+      "工具",
+      "敲",
+      "施工",
+      "砸",
+      "铁锤",
+      "锤"
     ]
   },
   {
@@ -38553,8 +39404,11 @@
     "text": "⛏︎",
     "annotation": "锄头",
     "tags": [
-      "挖",
+      "工具",
+      "挖掘",
+      "采掘",
       "采矿",
+      "铁镐",
       "鹤嘴锄"
     ]
   },
@@ -38573,8 +39427,12 @@
     "text": "⚒︎",
     "annotation": "锤子与镐",
     "tags": [
+      "工具",
+      "铁锤",
+      "铁镐",
       "锤子",
-      "镐"
+      "锤子与镐子",
+      "镐子"
     ]
   },
   {
@@ -38593,7 +39451,9 @@
     "text": "🛠︎",
     "annotation": "锤子与扳手",
     "tags": [
+      "工具",
       "扳手",
+      "铁锤",
       "锤子"
     ]
   },
@@ -38613,6 +39473,8 @@
     "annotation": "匕首",
     "tags": [
       "剑",
+      "武器",
+      "短刀",
       "短剑"
     ]
   },
@@ -38631,6 +39493,7 @@
     "text": "⚔︎",
     "annotation": "双剑",
     "tags": [
+      "交叉",
       "剑"
     ]
   },
@@ -38649,8 +39512,11 @@
     "version": 1,
     "annotation": "手枪",
     "tags": [
+      "工具",
       "左轮",
-      "枪"
+      "枪",
+      "武器",
+      "水枪"
     ]
   },
   {
@@ -38667,7 +39533,12 @@
     "version": 1,
     "annotation": "弓箭",
     "tags": [
+      "射手",
+      "射手座",
+      "射箭",
       "弓",
+      "弓和箭",
+      "星座",
       "箭"
     ]
   },
@@ -38686,7 +39557,9 @@
     "text": "🛡︎",
     "annotation": "盾牌",
     "tags": [
-      "盾"
+      "武器",
+      "盾",
+      "防御"
     ]
   },
   {
@@ -38703,7 +39576,8 @@
     "version": 1,
     "annotation": "扳手",
     "tags": [
-      "扳手"
+      "工具",
+      "螺丝扳手"
     ]
   },
   {
@@ -38720,10 +39594,12 @@
     "version": 1,
     "annotation": "螺母与螺栓",
     "tags": [
+      "工具",
       "螺丝",
       "螺帽",
       "螺栓",
       "螺母",
+      "螺母及螺栓",
       "螺钉"
     ]
   },
@@ -38742,6 +39618,9 @@
     "text": "⚙︎",
     "annotation": "齿轮",
     "tags": [
+      "传动",
+      "工具",
+      "机械",
       "零件"
     ]
   },
@@ -38761,7 +39640,12 @@
     "text": "🗜︎",
     "annotation": "压缩机",
     "tags": [
-      "压缩"
+      "加持",
+      "夹具",
+      "夹钳",
+      "工具",
+      "机械",
+      "紧固"
     ]
   },
   {
@@ -38779,9 +39663,12 @@
     "text": "⚖︎",
     "annotation": "天平",
     "tags": [
+      "公平",
       "公正",
       "天秤",
-      "法律"
+      "正义",
+      "法律",
+      "秤"
     ]
   },
   {
@@ -38798,7 +39685,9 @@
     "version": 1,
     "annotation": "链接",
     "tags": [
-      "链条"
+      "网址",
+      "链条",
+      "锁链"
     ]
   },
   {
@@ -38816,6 +39705,7 @@
     "text": "⛓︎",
     "annotation": "链条",
     "tags": [
+      "铁链",
       "链",
       "锁链"
     ]
@@ -38831,7 +39721,13 @@
     "order": 2974,
     "group": 5,
     "subgroup": 61,
-    "version": 11
+    "version": 11,
+    "annotation": "工具箱",
+    "tags": [
+      "工具",
+      "机修",
+      "箱子"
+    ]
   },
   {
     "name": "MAGNET",
@@ -38844,7 +39740,13 @@
     "order": 2975,
     "group": 5,
     "subgroup": 61,
-    "version": 11
+    "version": 11,
+    "annotation": "磁铁",
+    "tags": [
+      "吸引力",
+      "磁性",
+      "马蹄铁"
+    ]
   },
   {
     "name": "ALEMBIC",
@@ -38861,8 +39763,12 @@
     "text": "⚗︎",
     "annotation": "蒸馏器",
     "tags": [
+      "净化",
       "化学",
-      "蒸馏"
+      "实验",
+      "工具",
+      "蒸馏",
+      "蒸馏瓶"
     ]
   },
   {
@@ -38876,7 +39782,15 @@
     "order": 2978,
     "group": 5,
     "subgroup": 62,
-    "version": 11
+    "version": 11,
+    "annotation": "试管",
+    "tags": [
+      "化学",
+      "化学家",
+      "实验",
+      "实验室",
+      "科学"
+    ]
   },
   {
     "name": "PETRI DISH",
@@ -38889,7 +39803,15 @@
     "order": 2979,
     "group": 5,
     "subgroup": 62,
-    "version": 11
+    "version": 11,
+    "annotation": "培养皿",
+    "tags": [
+      "培养",
+      "实验室",
+      "生物学",
+      "生物学家",
+      "细菌"
+    ]
   },
   {
     "name": "DNA DOUBLE HELIX",
@@ -38903,7 +39825,16 @@
     "order": 2980,
     "group": 5,
     "subgroup": 62,
-    "version": 11
+    "version": 11,
+    "annotation": "DNA",
+    "tags": [
+      "dna",
+      "基因",
+      "生命",
+      "生物学家",
+      "进化",
+      "遗传学"
+    ]
   },
   {
     "name": "MICROSCOPE",
@@ -38919,7 +39850,12 @@
     "version": 1,
     "annotation": "显微镜",
     "tags": [
-      "显微镜"
+      "实验",
+      "实验室",
+      "工具",
+      "生物",
+      "科学",
+      "细胞"
     ]
   },
   {
@@ -38936,7 +39872,11 @@
     "version": 1,
     "annotation": "望远镜",
     "tags": [
-      "望远镜"
+      "天体",
+      "天文",
+      "天文学",
+      "工具",
+      "观星"
     ]
   },
   {
@@ -38953,7 +39893,10 @@
     "version": 1,
     "annotation": "卫星天线",
     "tags": [
+      "信号接收",
       "卫星",
+      "卫星接收天线",
+      "卫星碟形天线",
       "天线"
     ]
   },
@@ -38971,7 +39914,12 @@
     "version": 1,
     "annotation": "注射器",
     "tags": [
-      "打针"
+      "医学",
+      "打针",
+      "治疗",
+      "注射",
+      "针头",
+      "针筒"
     ]
   },
   {
@@ -38989,7 +39937,10 @@
     "annotation": "药丸",
     "tags": [
       "吃药",
-      "胶囊"
+      "治疗",
+      "胶囊",
+      "药",
+      "药物"
     ]
   },
   {
@@ -39006,7 +39957,11 @@
     "version": 1,
     "annotation": "门",
     "tags": [
-      "门"
+      "出入口",
+      "大门",
+      "屋门",
+      "房门",
+      "房间"
     ]
   },
   {
@@ -39024,7 +39979,12 @@
     "text": "🛏︎",
     "annotation": "床",
     "tags": [
-      "宾馆"
+      "宾馆",
+      "床垫",
+      "床铺",
+      "睡眠",
+      "睡觉",
+      "铺盖"
     ]
   },
   {
@@ -39042,6 +40002,7 @@
     "text": "🛋︎",
     "annotation": "沙发和灯",
     "tags": [
+      "家",
       "沙发",
       "灯",
       "阅读"
@@ -39061,7 +40022,11 @@
     "version": 1,
     "annotation": "马桶",
     "tags": [
-      "卫生间"
+      "wc",
+      "卫生间",
+      "厕所",
+      "抽水马桶",
+      "洗手间"
     ]
   },
   {
@@ -39079,6 +40044,10 @@
     "annotation": "淋浴",
     "tags": [
       "喷头",
+      "喷水",
+      "水",
+      "洗澡",
+      "淋浴头",
       "花洒"
     ]
   },
@@ -39096,6 +40065,9 @@
     "version": 1,
     "annotation": "澡盆",
     "tags": [
+      "沐浴",
+      "泡沫浴",
+      "泡澡",
       "洗澡",
       "浴盆",
       "浴缸"
@@ -39112,7 +40084,14 @@
     "order": 2994,
     "group": 5,
     "subgroup": 64,
-    "version": 11
+    "version": 11,
+    "annotation": "乳液瓶",
+    "tags": [
+      "乳液",
+      "护肤霜",
+      "洗发水",
+      "防晒霜"
+    ]
   },
   {
     "name": "SAFETY PIN",
@@ -39125,7 +40104,12 @@
     "order": 2995,
     "group": 5,
     "subgroup": 64,
-    "version": 11
+    "version": 11,
+    "annotation": "安全别针",
+    "tags": [
+      "别针",
+      "扣针"
+    ]
   },
   {
     "name": "BROOM",
@@ -39138,7 +40122,13 @@
     "order": 2996,
     "group": 5,
     "subgroup": 64,
-    "version": 11
+    "version": 11,
+    "annotation": "扫帚",
+    "tags": [
+      "女巫",
+      "打扫",
+      "扫地"
+    ]
   },
   {
     "name": "BASKET",
@@ -39151,7 +40141,13 @@
     "order": 2997,
     "group": 5,
     "subgroup": 64,
-    "version": 11
+    "version": 11,
+    "annotation": "筐",
+    "tags": [
+      "农作",
+      "脏衣篮",
+      "野餐"
+    ]
   },
   {
     "name": "ROLL OF PAPER",
@@ -39164,7 +40160,12 @@
     "order": 2998,
     "group": 5,
     "subgroup": 64,
-    "version": 11
+    "version": 11,
+    "annotation": "卷纸",
+    "tags": [
+      "卫生纸",
+      "纸巾"
+    ]
   },
   {
     "name": "BAR OF SOAP",
@@ -39177,7 +40178,15 @@
     "order": 2999,
     "group": 5,
     "subgroup": 64,
-    "version": 11
+    "version": 11,
+    "annotation": "皂",
+    "tags": [
+      "杀菌",
+      "洗手",
+      "清洁",
+      "肥皂泡",
+      "肥皂盒"
+    ]
   },
   {
     "name": "SPONGE",
@@ -39190,7 +40199,13 @@
     "order": 3000,
     "group": 5,
     "subgroup": 64,
-    "version": 11
+    "version": 11,
+    "annotation": "海绵",
+    "tags": [
+      "吸水",
+      "清洁",
+      "渗透"
+    ]
   },
   {
     "name": "FIRE EXTINGUISHER",
@@ -39203,7 +40218,12 @@
     "order": 3001,
     "group": 5,
     "subgroup": 64,
-    "version": 11
+    "version": 11,
+    "annotation": "灭火器",
+    "tags": [
+      "火灾",
+      "灭火"
+    ]
   },
   {
     "name": "SHOPPING TROLLEY",
@@ -39220,7 +40240,8 @@
     "annotation": "购物车",
     "tags": [
       "手推车",
-      "购物"
+      "购物",
+      "购物手推车"
     ]
   },
   {
@@ -39238,7 +40259,11 @@
     "version": 1,
     "annotation": "吸烟",
     "tags": [
-      "烟"
+      "卷烟",
+      "抽烟",
+      "烟",
+      "烟草",
+      "香烟"
     ]
   },
   {
@@ -39256,7 +40281,12 @@
     "text": "⚰︎",
     "annotation": "棺材",
     "tags": [
-      "棺材"
+      "丧礼",
+      "埋葬",
+      "死亡",
+      "灵柩",
+      "葬礼",
+      "陵墓"
     ]
   },
   {
@@ -39274,6 +40304,10 @@
     "text": "⚱︎",
     "annotation": "骨灰缸",
     "tags": [
+      "瓮",
+      "葬礼",
+      "骨灰坛",
+      "骨灰瓮",
       "骨灰罐"
     ]
   },
@@ -39291,7 +40325,9 @@
     "version": 1,
     "annotation": "摩艾石像",
     "tags": [
+      "复活岛",
       "复活节岛",
+      "复活节岛石像",
       "摩埃",
       "摩艾",
       "毛埃"
@@ -39331,7 +40367,8 @@
     "version": 1,
     "annotation": "倒垃圾",
     "tags": [
-      "垃圾丢弃处"
+      "垃圾丢弃处",
+      "垃圾入篓"
     ]
   },
   {
@@ -39371,7 +40408,8 @@
     "tags": [
       "无障碍",
       "残疾",
-      "残障"
+      "残障",
+      "轮椅符号"
     ]
   },
   {
@@ -39392,6 +40430,7 @@
       "卫生间",
       "厕所",
       "洗手间",
+      "男厕所",
       "男士"
     ]
   },
@@ -39412,6 +40451,7 @@
     "tags": [
       "卫生间",
       "厕所",
+      "女厕所",
       "女士",
       "洗手间"
     ]
@@ -39450,7 +40490,8 @@
     "text": "🚼︎",
     "annotation": "宝宝",
     "tags": [
-      "婴儿"
+      "婴儿",
+      "母婴室"
     ]
   },
   {
@@ -39468,6 +40509,7 @@
     "annotation": "厕所",
     "tags": [
       "卫生间",
+      "洗手间",
       "盥洗室"
     ]
   },
@@ -39596,7 +40638,10 @@
     "text": "⛔︎",
     "annotation": "禁止通行",
     "tags": [
+      "交通",
+      "禁止",
       "禁止入内",
+      "禁止驶入",
       "禁行"
     ]
   },
@@ -39614,7 +40659,10 @@
     "version": 1,
     "annotation": "禁止",
     "tags": [
-      "禁行"
+      "不准",
+      "不许",
+      "严禁",
+      "阻止"
     ]
   },
   {
@@ -39634,7 +40682,8 @@
       "交通",
       "指示牌",
       "禁止",
-      "自行车"
+      "自行车",
+      "非机动车"
     ]
   },
   {
@@ -39652,6 +40701,7 @@
     "text": "🚭︎",
     "annotation": "禁止吸烟",
     "tags": [
+      "严禁",
       "吸烟",
       "烟",
       "禁止"
@@ -39671,6 +40721,7 @@
     "version": 1,
     "annotation": "禁止乱扔垃圾",
     "tags": [
+      "严禁",
       "卫生",
       "垃圾",
       "禁止"
@@ -39691,7 +40742,7 @@
     "annotation": "非饮用水",
     "tags": [
       "水",
-      "饮用水"
+      "非直饮水"
     ]
   },
   {
@@ -39708,6 +40759,7 @@
     "version": 1,
     "annotation": "禁止行人通行",
     "tags": [
+      "严禁",
       "交通",
       "安全",
       "行人"
@@ -39727,6 +40779,7 @@
     "version": 1,
     "annotation": "禁止使用手机",
     "tags": [
+      "严禁",
       "手机",
       "电话",
       "禁止"
@@ -39747,7 +40800,9 @@
     "annotation": "18禁",
     "tags": [
       "儿童不宜",
-      "未成年人不宜"
+      "年龄限制",
+      "未成年人不宜",
+      "禁止"
     ]
   },
   {
@@ -39765,7 +40820,9 @@
     "text": "☢︎",
     "annotation": "辐射",
     "tags": [
-      "标识"
+      "放射性",
+      "标识",
+      "电离辐射"
     ]
   },
   {
@@ -39783,8 +40840,8 @@
     "text": "☣︎",
     "annotation": "生物危害",
     "tags": [
-      "污染",
-      "警告"
+      "当心感染",
+      "污染"
     ]
   },
   {
@@ -39803,7 +40860,9 @@
     "annotation": "向上箭头",
     "tags": [
       "上",
+      "上箭头",
       "北",
+      "方向",
       "箭头"
     ]
   },
@@ -39824,6 +40883,7 @@
     "tags": [
       "东北",
       "右上",
+      "方向",
       "箭头"
     ]
   },
@@ -39844,6 +40904,7 @@
     "tags": [
       "东",
       "右",
+      "方向",
       "箭头"
     ]
   },
@@ -39864,6 +40925,7 @@
     "tags": [
       "东南",
       "右下",
+      "方向",
       "箭头"
     ]
   },
@@ -39884,6 +40946,7 @@
     "tags": [
       "下",
       "南",
+      "方向",
       "箭头"
     ]
   },
@@ -39903,6 +40966,7 @@
     "annotation": "左下箭头",
     "tags": [
       "左下",
+      "方向",
       "箭头",
       "西南"
     ]
@@ -39923,6 +40987,7 @@
     "annotation": "向左箭头",
     "tags": [
       "左",
+      "方向",
       "箭头",
       "西"
     ]
@@ -39943,6 +41008,7 @@
     "annotation": "左上箭头",
     "tags": [
       "左上",
+      "方向",
       "箭头",
       "西北"
     ]
@@ -40001,6 +41067,7 @@
     "annotation": "右转弯箭头",
     "tags": [
       "右转弯",
+      "向左弯曲的右箭头",
       "箭头"
     ]
   },
@@ -40019,6 +41086,7 @@
     "text": "↪︎",
     "annotation": "左转弯箭头",
     "tags": [
+      "向右弯曲的左箭头",
       "左转弯",
       "箭头"
     ]
@@ -40039,6 +41107,7 @@
     "annotation": "右上弯箭头",
     "tags": [
       "右上弯",
+      "向上弯曲的右箭头",
       "箭头"
     ]
   },
@@ -40058,6 +41127,7 @@
     "annotation": "右下弯箭头",
     "tags": [
       "右下弯",
+      "向下弯曲的右箭头",
       "箭头"
     ]
   },
@@ -40076,7 +41146,9 @@
     "annotation": "顺时针箭头",
     "tags": [
       "箭头",
-      "顺时针"
+      "重新载入",
+      "顺时针",
+      "顺时针垂直箭头"
     ]
   },
   {
@@ -40094,7 +41166,8 @@
     "annotation": "逆时针箭头",
     "tags": [
       "箭头",
-      "逆时针"
+      "逆时针",
+      "逆时针箭头按钮"
     ]
   },
   {
@@ -40111,7 +41184,9 @@
     "version": 1,
     "annotation": "返回",
     "tags": [
-      "回退"
+      "回退",
+      "箭头",
+      "返回箭头"
     ]
   },
   {
@@ -40128,7 +41203,8 @@
     "version": 1,
     "annotation": "结束",
     "tags": [
-      "箭头"
+      "箭头",
+      "结束箭头"
     ]
   },
   {
@@ -40146,7 +41222,10 @@
     "annotation": "ON",
     "tags": [
       "on",
-      "开始"
+      "on! 箭头",
+      "开始",
+      "标识",
+      "箭头"
     ]
   },
   {
@@ -40163,6 +41242,7 @@
     "version": 1,
     "annotation": "马上",
     "tags": [
+      "soon 箭头",
       "箭头"
     ]
   },
@@ -40181,7 +41261,9 @@
     "annotation": "置顶",
     "tags": [
       "向上",
-      "顶"
+      "箭头",
+      "顶",
+      "顶部箭头"
     ]
   },
   {
@@ -40199,6 +41281,7 @@
     "annotation": "宗教场所",
     "tags": [
       "宗教",
+      "礼拜",
       "祈祷"
     ]
   },
@@ -40217,6 +41300,7 @@
     "text": "⚛︎",
     "annotation": "原子",
     "tags": [
+      "原子符号",
       "无神论"
     ]
   },
@@ -40235,9 +41319,9 @@
     "text": "🕉︎",
     "annotation": "奥姆",
     "tags": [
-      "冥想",
       "印度",
-      "噢呣"
+      "印度教",
+      "宗教"
     ]
   },
   {
@@ -40255,6 +41339,9 @@
     "text": "✡︎",
     "annotation": "六芒星",
     "tags": [
+      "大卫",
+      "大卫之星",
+      "宗教",
       "犹太"
     ]
   },
@@ -40274,8 +41361,10 @@
     "annotation": "法轮",
     "tags": [
       "佛",
-      "方向盘",
-      "舵",
+      "佛教",
+      "宗教",
+      "法",
+      "轮",
       "达摩"
     ]
   },
@@ -40294,6 +41383,8 @@
     "text": "☯︎",
     "annotation": "太极",
     "tags": [
+      "宗教",
+      "道",
       "道教",
       "阳",
       "阴"
@@ -40315,7 +41406,8 @@
     "annotation": "十字架",
     "tags": [
       "基督",
-      "天主教"
+      "天主教",
+      "宗教"
     ]
   },
   {
@@ -40334,7 +41426,9 @@
     "annotation": "东正教十字架",
     "tags": [
       "东正教",
-      "十字架"
+      "十字架",
+      "基督",
+      "宗教"
     ]
   },
   {
@@ -40353,6 +41447,7 @@
     "annotation": "星月",
     "tags": [
       "伊斯兰",
+      "宗教",
       "穆斯林"
     ]
   },
@@ -40371,7 +41466,7 @@
     "text": "☮︎",
     "annotation": "和平",
     "tags": [
-      "和平"
+      "和平符号"
     ]
   },
   {
@@ -40389,8 +41484,9 @@
     "annotation": "烛台",
     "tags": [
       "光明节",
+      "宗教",
       "灯台",
-      "犹太教"
+      "犹太教灯台"
     ]
   },
   {
@@ -40408,7 +41504,10 @@
     "annotation": "六芒星加圆点",
     "tags": [
       "六芒星",
-      "六角星"
+      "六角星",
+      "命运",
+      "带中间点的六芒星",
+      "星"
     ]
   },
   {
@@ -40426,6 +41525,8 @@
     "text": "♈︎",
     "annotation": "白羊座",
     "tags": [
+      "公羊",
+      "星座",
       "牡羊座"
     ]
   },
@@ -40444,6 +41545,8 @@
     "text": "♉︎",
     "annotation": "金牛座",
     "tags": [
+      "公牛",
+      "星座",
       "金牛"
     ]
   },
@@ -40462,7 +41565,8 @@
     "text": "♊︎",
     "annotation": "双子座",
     "tags": [
-      "双子"
+      "双子",
+      "星座"
     ]
   },
   {
@@ -40480,7 +41584,9 @@
     "text": "♋︎",
     "annotation": "巨蟹座",
     "tags": [
-      "巨蟹"
+      "巨蟹",
+      "星座",
+      "螃蟹"
     ]
   },
   {
@@ -40498,7 +41604,9 @@
     "text": "♌︎",
     "annotation": "狮子座",
     "tags": [
-      "狮子座"
+      "星座",
+      "狮",
+      "狮子"
     ]
   },
   {
@@ -40516,7 +41624,8 @@
     "text": "♍︎",
     "annotation": "处女座",
     "tags": [
-      "室女座"
+      "室女座",
+      "星座"
     ]
   },
   {
@@ -40534,7 +41643,10 @@
     "text": "♎︎",
     "annotation": "天秤座",
     "tags": [
-      "天秤座"
+      "天平",
+      "平衡",
+      "星座",
+      "正义"
     ]
   },
   {
@@ -40552,7 +41664,9 @@
     "text": "♏︎",
     "annotation": "天蝎座",
     "tags": [
-      "天蝎"
+      "天蝎",
+      "星座",
+      "蝎子"
     ]
   },
   {
@@ -40570,7 +41684,9 @@
     "text": "♐︎",
     "annotation": "射手座",
     "tags": [
-      "射手"
+      "射手",
+      "弓箭手",
+      "星座"
     ]
   },
   {
@@ -40588,7 +41704,9 @@
     "text": "♑︎",
     "annotation": "摩羯座",
     "tags": [
-      "摩羯"
+      "山羊",
+      "摩羯",
+      "星座"
     ]
   },
   {
@@ -40606,7 +41724,9 @@
     "text": "♒︎",
     "annotation": "水瓶座",
     "tags": [
-      "水瓶座"
+      "宝瓶座",
+      "星座",
+      "水"
     ]
   },
   {
@@ -40624,7 +41744,9 @@
     "text": "♓︎",
     "annotation": "双鱼座",
     "tags": [
-      "双鱼"
+      "双鱼",
+      "星座",
+      "鱼"
     ]
   },
   {
@@ -40641,6 +41763,8 @@
     "version": 1,
     "annotation": "蛇夫座",
     "tags": [
+      "星座",
+      "蛇",
       "蛇夫"
     ]
   },
@@ -40660,7 +41784,8 @@
     "tags": [
       "交叉",
       "打乱",
-      "随机"
+      "随机",
+      "随机播放音轨按钮"
     ]
   },
   {
@@ -40678,6 +41803,9 @@
     "annotation": "循环播放",
     "tags": [
       "循环",
+      "箭头",
+      "重复",
+      "重复按钮",
       "顺时针"
     ]
   },
@@ -40695,7 +41823,11 @@
     "version": 1,
     "annotation": "单曲循环",
     "tags": [
-      "循环"
+      "循环",
+      "箭头",
+      "重复",
+      "重复一次按钮",
+      "顺时针"
     ]
   },
   {
@@ -40714,7 +41846,9 @@
     "annotation": "播放",
     "tags": [
       "三角",
-      "右"
+      "向右",
+      "播放按钮",
+      "箭头"
     ]
   },
   {
@@ -40732,7 +41866,11 @@
     "text": "⏩︎",
     "annotation": "快进",
     "tags": [
-      "快进"
+      "双箭头",
+      "向前",
+      "快进按钮",
+      "快速",
+      "箭头"
     ]
   },
   {
@@ -40750,8 +41888,11 @@
     "text": "⏭︎",
     "annotation": "下一首",
     "tags": [
+      "三角",
       "下一个",
-      "下一曲"
+      "下一个音轨按钮",
+      "下一曲",
+      "箭头"
     ]
   },
   {
@@ -40769,8 +41910,12 @@
     "text": "⏯︎",
     "annotation": "播放暂停",
     "tags": [
+      "三角",
+      "向右",
       "播放",
-      "暂停"
+      "播放或暂停按钮",
+      "暂停",
+      "箭头"
     ]
   },
   {
@@ -40789,8 +41934,9 @@
     "annotation": "后退",
     "tags": [
       "三角",
-      "左",
-      "翻转"
+      "倒退按钮",
+      "向左",
+      "箭头"
     ]
   },
   {
@@ -40808,7 +41954,10 @@
     "text": "⏪︎",
     "annotation": "快退",
     "tags": [
-      "快退"
+      "倒回",
+      "双箭头",
+      "快退按钮",
+      "箭头"
     ]
   },
   {
@@ -40826,8 +41975,11 @@
     "text": "⏮︎",
     "annotation": "上一首",
     "tags": [
+      "三角",
       "上一个",
-      "上一曲"
+      "上一个音轨",
+      "上一曲",
+      "箭头"
     ]
   },
   {
@@ -40844,7 +41996,10 @@
     "version": 1,
     "annotation": "向上",
     "tags": [
-      "上"
+      "上",
+      "向上按钮",
+      "按钮",
+      "箭头"
     ]
   },
   {
@@ -40861,7 +42016,10 @@
     "version": 1,
     "annotation": "快速向上",
     "tags": [
-      "上"
+      "上",
+      "双箭头",
+      "快速上升按钮",
+      "箭头"
     ]
   },
   {
@@ -40878,7 +42036,10 @@
     "version": 1,
     "annotation": "向下",
     "tags": [
-      "下"
+      "下",
+      "向下三角形按钮",
+      "按钮",
+      "箭头"
     ]
   },
   {
@@ -40895,7 +42056,10 @@
     "version": 1,
     "annotation": "快速向下",
     "tags": [
-      "下"
+      "下",
+      "双箭头",
+      "快速下降按钮",
+      "箭头"
     ]
   },
   {
@@ -40914,7 +42078,10 @@
     "annotation": "暂停",
     "tags": [
       "停止",
-      "终止"
+      "双条形",
+      "垂直",
+      "暂停按钮",
+      "条形"
     ]
   },
   {
@@ -40933,7 +42100,8 @@
     "annotation": "终止",
     "tags": [
       "停止",
-      "正方形"
+      "停止按钮",
+      "方形"
     ]
   },
   {
@@ -40953,7 +42121,8 @@
     "tags": [
       "圆",
       "录像",
-      "录制"
+      "录制",
+      "录制按钮"
     ]
   },
   {
@@ -40972,7 +42141,8 @@
     "annotation": "退出",
     "tags": [
       "弹出",
-      "推出"
+      "推出",
+      "推出按钮"
     ]
   },
   {
@@ -40990,6 +42160,7 @@
     "annotation": "电影院",
     "tags": [
       "剧院",
+      "影片",
       "电影"
     ]
   },
@@ -41009,7 +42180,9 @@
     "annotation": "低亮度",
     "tags": [
       "亮度",
-      "低"
+      "低",
+      "低亮度按钮",
+      "昏暗"
     ]
   },
   {
@@ -41028,7 +42201,9 @@
     "annotation": "高亮度",
     "tags": [
       "亮度",
-      "高"
+      "明亮",
+      "高",
+      "高亮度按钮"
     ]
   },
   {
@@ -41047,7 +42222,12 @@
     "annotation": "信号栏",
     "tags": [
       "信号",
-      "强度"
+      "信号强度条",
+      "天线",
+      "手机",
+      "条",
+      "电话",
+      "蜂窝网络"
     ]
   },
   {
@@ -41065,7 +42245,9 @@
     "annotation": "振动模式",
     "tags": [
       "手机",
-      "振动"
+      "振动",
+      "模式",
+      "蜂窝网络"
     ]
   },
   {
@@ -41082,7 +42264,10 @@
     "version": 1,
     "annotation": "关闭手机",
     "tags": [
-      "关机"
+      "关机",
+      "手机",
+      "手机关机",
+      "蜂窝网络"
     ]
   },
   {
@@ -41101,7 +42286,11 @@
     "text": "♀︎",
     "annotation": "女",
     "tags": [
-      "女"
+      "女人",
+      "女性",
+      "女性符号",
+      "雌",
+      "雌性"
     ]
   },
   {
@@ -41120,7 +42309,11 @@
     "text": "♂︎",
     "annotation": "男",
     "tags": [
-      "男"
+      "男人",
+      "男性",
+      "男性符号",
+      "雄",
+      "雄性"
     ]
   },
   {
@@ -41140,7 +42333,9 @@
     "tags": [
       "医学",
       "医疗",
-      "蛇杖"
+      "工作人员",
+      "蛇杖",
+      "阿斯克勒庇俄斯"
     ]
   },
   {
@@ -41155,7 +42350,12 @@
     "group": 6,
     "subgroup": 72,
     "version": 11,
-    "text": "♾︎"
+    "text": "♾︎",
+    "annotation": "无限",
+    "tags": [
+      "宇宙",
+      "永恒"
+    ]
   },
   {
     "name": "BLACK UNIVERSAL RECYCLING SYMBOL",
@@ -41172,6 +42372,9 @@
     "text": "♻︎",
     "annotation": "回收",
     "tags": [
+      "再利用",
+      "再循环",
+      "回收标志",
       "循环"
     ]
   },
@@ -41190,6 +42393,7 @@
     "text": "⚜︎",
     "annotation": "百合花饰",
     "tags": [
+      "鸢尾",
       "鸢尾花"
     ]
   },
@@ -41207,6 +42411,9 @@
     "version": 1,
     "annotation": "三叉戟",
     "tags": [
+      "工具",
+      "徽章",
+      "船",
       "锚"
     ]
   },
@@ -41224,7 +42431,9 @@
     "version": 1,
     "annotation": "名牌",
     "tags": [
-      "胸牌"
+      "姓名牌",
+      "胸牌",
+      "证章"
     ]
   },
   {
@@ -41241,10 +42450,12 @@
     "version": 1,
     "annotation": "日本新手上路标志",
     "tags": [
+      "v形图案",
+      "叶状",
       "实习",
       "新手",
-      "箭尾",
-      "若叶"
+      "日本新手驾驶标志",
+      "箭尾"
     ]
   },
   {
@@ -41262,6 +42473,9 @@
     "text": "⭕︎",
     "annotation": "大圆圈",
     "tags": [
+      "o形",
+      "加粗大圆圈",
+      "圆",
       "圆圈"
     ]
   },
@@ -41279,7 +42493,10 @@
     "version": 1,
     "annotation": "空心对勾",
     "tags": [
-      "对勾"
+      "勾",
+      "勾号",
+      "打勾",
+      "白色加粗勾号"
     ]
   },
   {
@@ -41298,7 +42515,9 @@
     "annotation": "勾选框",
     "tags": [
       "勾选",
+      "复选框",
       "对勾",
+      "带勾方格",
       "框"
     ]
   },
@@ -41317,6 +42536,9 @@
     "text": "✔︎",
     "annotation": "对勾",
     "tags": [
+      "加粗勾号",
+      "勾",
+      "勾选",
       "对",
       "正确"
     ]
@@ -41338,6 +42560,7 @@
     "tags": [
       "x",
       "乘",
+      "加粗乘号",
       "取消"
     ]
   },
@@ -41357,7 +42580,11 @@
     "annotation": "叉",
     "tags": [
       "x",
-      "取消"
+      "乘",
+      "乘号",
+      "叉号",
+      "取消",
+      "相乘"
     ]
   },
   {
@@ -41374,7 +42601,10 @@
     "version": 1,
     "annotation": "叉符号按钮",
     "tags": [
-      "叉"
+      "叉",
+      "叉号",
+      "叉号按钮",
+      "方形"
     ]
   },
   {
@@ -41391,7 +42621,10 @@
     "version": 1,
     "annotation": "加号",
     "tags": [
-      "加"
+      "加",
+      "加粗加号",
+      "数学",
+      "相加"
     ]
   },
   {
@@ -41408,7 +42641,10 @@
     "version": 1,
     "annotation": "减号",
     "tags": [
-      "减"
+      "减",
+      "加粗减号",
+      "数学",
+      "相减"
     ]
   },
   {
@@ -41425,6 +42661,9 @@
     "version": 1,
     "annotation": "除号",
     "tags": [
+      "加粗除号",
+      "数学",
+      "相除",
       "除"
     ]
   },
@@ -41442,7 +42681,10 @@
     "version": 1,
     "annotation": "日本单环标志",
     "tags": [
-      "单环"
+      "单环",
+      "卷曲",
+      "卷曲环",
+      "环"
     ]
   },
   {
@@ -41459,7 +42701,10 @@
     "version": 1,
     "annotation": "日本免费电话标志",
     "tags": [
-      "免费电话"
+      "卷曲",
+      "卷曲环",
+      "双卷曲环",
+      "双环"
     ]
   },
   {
@@ -41478,7 +42723,9 @@
     "annotation": "庵点",
     "tags": [
       "开始歌唱",
-      "歌记号"
+      "标记",
+      "歌记号",
+      "部分替换标记"
     ]
   },
   {
@@ -41496,7 +42743,8 @@
     "text": "✳︎",
     "annotation": "八芒星",
     "tags": [
-      "八芒星"
+      "八轮辐星号",
+      "星号"
     ]
   },
   {
@@ -41514,7 +42762,8 @@
     "text": "✴︎",
     "annotation": "八角星",
     "tags": [
-      "八角星"
+      "星",
+      "星号"
     ]
   },
   {
@@ -41532,7 +42781,8 @@
     "text": "❇︎",
     "annotation": "火花",
     "tags": [
-      "烟火"
+      "烟火",
+      "闪耀"
     ]
   },
   {
@@ -41551,9 +42801,11 @@
     "text": "‼︎",
     "annotation": "双叹号",
     "tags": [
+      "双感叹号",
       "叹号",
       "惊叹",
-      "感叹"
+      "感叹",
+      "标点符号"
     ]
   },
   {
@@ -41574,6 +42826,8 @@
     "tags": [
       "叹号",
       "吃惊",
+      "感叹疑问号",
+      "标点符号",
       "问号"
     ]
   },
@@ -41593,6 +42847,7 @@
     "annotation": "问号",
     "tags": [
       "为什么",
+      "标点符号",
       "疑问"
     ]
   },
@@ -41610,6 +42865,9 @@
     "version": 1,
     "annotation": "空心问号",
     "tags": [
+      "标点符号",
+      "白色问号",
+      "轮廓",
       "问号"
     ]
   },
@@ -41627,7 +42885,10 @@
     "version": 1,
     "annotation": "空心叹号",
     "tags": [
-      "叹号"
+      "叹号",
+      "标点符号",
+      "白色感叹号",
+      "轮廓"
     ]
   },
   {
@@ -41646,7 +42907,9 @@
     "annotation": "叹号",
     "tags": [
       "吃惊",
-      "感叹"
+      "感叹",
+      "感叹号",
+      "标点符号"
     ]
   },
   {
@@ -41664,7 +42927,8 @@
     "text": "〰︎",
     "annotation": "波浪线",
     "tags": [
-      "波浪线"
+      "标点符号",
+      "破折号"
     ]
   },
   {
@@ -41700,7 +42964,7 @@
     "text": "®︎",
     "annotation": "注册",
     "tags": [
-      "注册"
+      "注册标记"
     ]
   },
   {
@@ -41718,7 +42982,11 @@
     "text": "™︎",
     "annotation": "商标",
     "tags": [
-      "商标"
+      "tm",
+      "商标标志",
+      "商标符号",
+      "标志",
+      "注册商标"
     ]
   },
   {
@@ -41957,7 +43225,12 @@
     "annotation": "一百分",
     "tags": [
       "100",
-      "满分"
+      "分数",
+      "完美",
+      "满分",
+      "考试",
+      "试卷",
+      "高分"
     ]
   },
   {
@@ -41974,7 +43247,13 @@
     "version": 1,
     "annotation": "大写字母键",
     "tags": [
-      "大写字母"
+      "abcd",
+      "大写字母",
+      "大小写",
+      "字母",
+      "拉丁字母",
+      "英文",
+      "输入法"
     ]
   },
   {
@@ -41991,7 +43270,13 @@
     "version": 1,
     "annotation": "小写字母键",
     "tags": [
-      "小写字母"
+      "abcd",
+      "大小写",
+      "字母",
+      "小写字母",
+      "拉丁字母",
+      "英文",
+      "输入法"
     ]
   },
   {
@@ -42009,7 +43294,10 @@
     "annotation": "输入数字",
     "tags": [
       "1234",
-      "数字"
+      "打字",
+      "数字",
+      "输入法",
+      "阿拉伯数字"
     ]
   },
   {
@@ -42026,7 +43314,10 @@
     "version": 1,
     "annotation": "输入符号",
     "tags": [
-      "符号"
+      "打字",
+      "特殊符号",
+      "符号",
+      "输入法"
     ]
   },
   {
@@ -42043,7 +43334,12 @@
     "version": 1,
     "annotation": "拉丁字母键",
     "tags": [
-      "拉丁字母"
+      "abc",
+      "字母",
+      "打字",
+      "拉丁字母",
+      "英文",
+      "输入法"
     ]
   },
   {
@@ -42063,7 +43359,12 @@
     "tags": [
       "a",
       "a 型血",
-      "血型"
+      "a型血",
+      "献血",
+      "血型",
+      "血液",
+      "输血",
+      "配型"
     ]
   },
   {
@@ -42082,7 +43383,12 @@
     "tags": [
       "ab",
       "ab 型血",
-      "血型"
+      "ab型血",
+      "献血",
+      "血型",
+      "血液",
+      "输血",
+      "配型"
     ]
   },
   {
@@ -42102,7 +43408,12 @@
     "tags": [
       "b",
       "b 型血",
-      "血型"
+      "b型血",
+      "献血",
+      "血型",
+      "血液",
+      "输血",
+      "配型"
     ]
   },
   {
@@ -42119,7 +43430,11 @@
     "version": 1,
     "annotation": "字母cl",
     "tags": [
-      "cl"
+      "cl",
+      "字母",
+      "手机",
+      "清理",
+      "清除"
     ]
   },
   {
@@ -42136,7 +43451,11 @@
     "version": 1,
     "annotation": "酷",
     "tags": [
-      "cool"
+      "cool",
+      "冷酷",
+      "凉快",
+      "凉爽",
+      "炫酷"
     ]
   },
   {
@@ -42154,7 +43473,11 @@
     "annotation": "免费",
     "tags": [
       "free",
-      "自由"
+      "不收费",
+      "不限",
+      "自由",
+      "释放",
+      "随意"
     ]
   },
   {
@@ -42172,7 +43495,11 @@
     "text": "ℹ︎",
     "annotation": "信息中心",
     "tags": [
-      "信息"
+      "i",
+      "信息",
+      "信息台",
+      "咨询",
+      "查询"
     ]
   },
   {
@@ -42189,7 +43516,11 @@
     "version": 1,
     "annotation": "身份",
     "tags": [
-      "id"
+      "id",
+      "号码",
+      "标识",
+      "识别",
+      "身份证"
     ]
   },
   {
@@ -42207,7 +43538,12 @@
     "text": "Ⓜ︎",
     "annotation": "m",
     "tags": [
-      "m"
+      "中号",
+      "中等",
+      "圆",
+      "圈",
+      "字母",
+      "米"
     ]
   },
   {
@@ -42224,7 +43560,11 @@
     "version": 1,
     "annotation": "新",
     "tags": [
-      "new"
+      "new",
+      "全新",
+      "崭新",
+      "新建",
+      "新的"
     ]
   },
   {
@@ -42241,7 +43581,12 @@
     "version": 1,
     "annotation": "ng",
     "tags": [
-      "ng"
+      "天然气",
+      "电影",
+      "电视剧",
+      "硝化甘油",
+      "纳克",
+      "花絮"
     ]
   },
   {
@@ -42261,7 +43606,12 @@
     "tags": [
       "o",
       "o 型血",
-      "血型"
+      "o型血",
+      "献血",
+      "血型",
+      "血液",
+      "输血",
+      "配型"
     ]
   },
   {
@@ -42278,7 +43628,11 @@
     "version": 1,
     "annotation": "ok按钮",
     "tags": [
-      "ok"
+      "ok",
+      "同意",
+      "好",
+      "好的",
+      "没问题"
     ]
   },
   {
@@ -42296,7 +43650,11 @@
     "text": "🅿︎",
     "annotation": "停车",
     "tags": [
-      "p"
+      "p",
+      "停放",
+      "停车场",
+      "汽车",
+      "泊车"
     ]
   },
   {
@@ -42314,7 +43672,11 @@
     "annotation": "SOS",
     "tags": [
       "sos",
-      "救命"
+      "呼救",
+      "救助",
+      "救命",
+      "求救",
+      "紧急"
     ]
   },
   {
@@ -42331,6 +43693,9 @@
     "version": 1,
     "annotation": "up",
     "tags": [
+      "上升",
+      "上涨",
+      "加油",
       "向上"
     ]
   },
@@ -42348,7 +43713,11 @@
     "version": 1,
     "annotation": "VS",
     "tags": [
-      "vs"
+      "pk",
+      "vs",
+      "对决",
+      "比赛",
+      "胜负"
     ]
   },
   {
@@ -42364,11 +43733,13 @@
     "group": 6,
     "subgroup": 74,
     "version": 1,
-    "annotation": "日文koko",
+    "annotation": "日文的“这里”按钮",
     "tags": [
-      "koko",
+      "日文",
       "日语",
-      "片假名",
+      "此处",
+      "这",
+      "这儿",
       "这里"
     ]
   },
@@ -42385,11 +43756,14 @@
     "subgroup": 74,
     "version": 1,
     "text": "🈂︎",
-    "annotation": "日文sa",
+    "annotation": "日文的“服务费”按钮",
     "tags": [
-      "sa",
+      "小费",
+      "收费",
+      "日文",
       "日语",
-      "片假名"
+      "服务",
+      "服务费"
     ]
   },
   {
@@ -42407,7 +43781,12 @@
     "text": "🈷︎",
     "annotation": "月",
     "tags": [
-      "月"
+      "总量",
+      "日文",
+      "日语",
+      "月份",
+      "月度",
+      "统计"
     ]
   },
   {
@@ -42424,7 +43803,11 @@
     "version": 1,
     "annotation": "有",
     "tags": [
-      "有"
+      "价格",
+      "收费",
+      "日文",
+      "日语",
+      "费用"
     ]
   },
   {
@@ -42442,7 +43825,12 @@
     "text": "🈯︎",
     "annotation": "指",
     "tags": [
-      "指"
+      "保留",
+      "日文",
+      "日语",
+      "预定",
+      "预留",
+      "预订"
     ]
   },
   {
@@ -42459,7 +43847,12 @@
     "version": 1,
     "annotation": "得",
     "tags": [
-      "得"
+      "优惠",
+      "便宜",
+      "日文",
+      "日语",
+      "讨价还价",
+      "议价"
     ]
   },
   {
@@ -42476,7 +43869,11 @@
     "version": 1,
     "annotation": "割",
     "tags": [
-      "割"
+      "优惠",
+      "打折",
+      "折扣",
+      "日文",
+      "日语"
     ]
   },
   {
@@ -42494,7 +43891,10 @@
     "text": "🈚︎",
     "annotation": "无",
     "tags": [
-      "无"
+      "不收费",
+      "免费",
+      "日文",
+      "日语"
     ]
   },
   {
@@ -42511,7 +43911,11 @@
     "version": 1,
     "annotation": "禁",
     "tags": [
-      "禁"
+      "严禁",
+      "日文",
+      "日语",
+      "禁令",
+      "禁止"
     ]
   },
   {
@@ -42528,7 +43932,11 @@
     "version": 1,
     "annotation": "可",
     "tags": [
-      "可"
+      "同意",
+      "接受",
+      "日文",
+      "日语",
+      "许可"
     ]
   },
   {
@@ -42545,7 +43953,11 @@
     "version": 1,
     "annotation": "申",
     "tags": [
-      "申请"
+      "日文",
+      "日语",
+      "申请",
+      "申请书",
+      "申请表"
     ]
   },
   {
@@ -42562,7 +43974,10 @@
     "version": 1,
     "annotation": "合",
     "tags": [
-      "一起"
+      "合格",
+      "日文",
+      "日语",
+      "通过"
     ]
   },
   {
@@ -42579,7 +43994,11 @@
     "version": 1,
     "annotation": "空",
     "tags": [
-      "空"
+      "日文",
+      "日语",
+      "有空位",
+      "空位",
+      "空闲"
     ]
   },
   {
@@ -42597,6 +44016,10 @@
     "text": "㊗︎",
     "annotation": "祝",
     "tags": [
+      "庆贺",
+      "恭喜",
+      "日文",
+      "日语",
       "祝福",
       "祝贺"
     ]
@@ -42616,6 +44039,10 @@
     "text": "㊙︎",
     "annotation": "秘",
     "tags": [
+      "保密",
+      "日文",
+      "日语",
+      "机密",
       "秘密"
     ]
   },
@@ -42633,7 +44060,12 @@
     "version": 1,
     "annotation": "营",
     "tags": [
-      "营业"
+      "开始营业",
+      "开门",
+      "日文",
+      "日语",
+      "营业",
+      "营业中"
     ]
   },
   {
@@ -42650,7 +44082,10 @@
     "version": 1,
     "annotation": "满",
     "tags": [
-      "满"
+      "无空位",
+      "日文",
+      "日语",
+      "没有空位"
     ]
   },
   {
@@ -42668,7 +44103,11 @@
     "text": "▪︎",
     "annotation": "黑色小方块",
     "tags": [
-      "方形"
+      "方块",
+      "方形",
+      "方框",
+      "正方形",
+      "黑色"
     ]
   },
   {
@@ -42686,7 +44125,12 @@
     "text": "▫︎",
     "annotation": "白色小方块",
     "tags": [
-      "方形"
+      "小方框",
+      "方块",
+      "方形",
+      "方框",
+      "正方形",
+      "白色"
     ]
   },
   {
@@ -42704,7 +44148,12 @@
     "text": "◻︎",
     "annotation": "白色中方块",
     "tags": [
-      "方形"
+      "中等方框",
+      "方块",
+      "方形",
+      "方框",
+      "正方形",
+      "白色"
     ]
   },
   {
@@ -42722,7 +44171,12 @@
     "text": "◼︎",
     "annotation": "黑色中方块",
     "tags": [
-      "方形"
+      "中等方框",
+      "方块",
+      "方形",
+      "方框",
+      "正方形",
+      "黑色"
     ]
   },
   {
@@ -42740,7 +44194,12 @@
     "text": "◽︎",
     "annotation": "白色中小方块",
     "tags": [
-      "方形"
+      "中小方框",
+      "方块",
+      "方形",
+      "方框",
+      "正方形",
+      "白色"
     ]
   },
   {
@@ -42758,7 +44217,12 @@
     "text": "◾︎",
     "annotation": "黑色中小方块",
     "tags": [
-      "方形"
+      "中小方框",
+      "方块",
+      "方形",
+      "方框",
+      "正方形",
+      "黑色"
     ]
   },
   {
@@ -42776,7 +44240,13 @@
     "text": "⬛︎",
     "annotation": "白色大方块",
     "tags": [
-      "方形"
+      "大方框",
+      "方块",
+      "方形",
+      "方框",
+      "正方形",
+      "黑色",
+      "黑色大方块"
     ]
   },
   {
@@ -42794,7 +44264,13 @@
     "text": "⬜︎",
     "annotation": "黑色大方块",
     "tags": [
-      "方形"
+      "大方框",
+      "方块",
+      "方形",
+      "方框",
+      "正方形",
+      "白色",
+      "白色大方块"
     ]
   },
   {
@@ -42811,7 +44287,10 @@
     "version": 1,
     "annotation": "橙色大菱形",
     "tags": [
+      "大菱形",
       "方片",
+      "橘黄色",
+      "橙色",
       "菱形"
     ]
   },
@@ -42829,8 +44308,10 @@
     "version": 1,
     "annotation": "蓝色大菱形",
     "tags": [
+      "大菱形",
       "方片",
-      "菱形"
+      "菱形",
+      "蓝色"
     ]
   },
   {
@@ -42847,7 +44328,10 @@
     "version": 1,
     "annotation": "橙色小菱形",
     "tags": [
+      "小菱形",
       "方片",
+      "橘黄色",
+      "橙色",
       "菱形"
     ]
   },
@@ -42865,8 +44349,10 @@
     "version": 1,
     "annotation": "蓝色小菱形",
     "tags": [
+      "小菱形",
       "方片",
-      "菱形"
+      "菱形",
+      "蓝色"
     ]
   },
   {
@@ -42883,8 +44369,10 @@
     "version": 1,
     "annotation": "红色正三角",
     "tags": [
-      "上",
-      "正三角"
+      "三角形",
+      "向上",
+      "正三角",
+      "红色"
     ]
   },
   {
@@ -42901,8 +44389,10 @@
     "version": 1,
     "annotation": "红色倒三角",
     "tags": [
-      "下",
-      "倒三角"
+      "三角形",
+      "倒三角",
+      "向下",
+      "红色"
     ]
   },
   {
@@ -42921,8 +44411,10 @@
     "tags": [
       "中心",
       "内部",
+      "几何形状",
       "梅花",
-      "菱形"
+      "菱形",
+      "钻石"
     ]
   },
   {
@@ -42940,8 +44432,10 @@
     "annotation": "按钮",
     "tags": [
       "中心",
+      "单选",
+      "圆形",
       "圆心",
-      "靶子"
+      "选中"
     ]
   },
   {
@@ -42959,7 +44453,11 @@
     "annotation": "黑色方形按钮",
     "tags": [
       "按钮",
-      "方形"
+      "黑线方形按钮",
+      "黑线正方形按钮",
+      "黑色正方形按钮",
+      "黑边线方形按钮",
+      "黑边线正方形按钮"
     ]
   },
   {
@@ -42977,7 +44475,11 @@
     "annotation": "白色方形按钮",
     "tags": [
       "按钮",
-      "方形"
+      "白线方形按钮",
+      "白线正方形按钮",
+      "白色正方形按钮",
+      "白边线方形按钮",
+      "白边线正方形按钮"
     ]
   },
   {
@@ -42997,7 +44499,8 @@
     "tags": [
       "圆",
       "圈",
-      "白"
+      "白",
+      "白色"
     ]
   },
   {
@@ -43017,7 +44520,8 @@
     "tags": [
       "圆",
       "圈",
-      "黑"
+      "黑",
+      "黑色"
     ]
   },
   {
@@ -43036,7 +44540,8 @@
     "tags": [
       "圆",
       "圈",
-      "红"
+      "红",
+      "红色"
     ]
   },
   {
@@ -43055,7 +44560,8 @@
     "tags": [
       "圆",
       "圈",
-      "蓝"
+      "蓝",
+      "蓝色"
     ]
   },
   {
@@ -43090,7 +44596,10 @@
     "annotation": "三角旗",
     "tags": [
       "升旗",
-      "旗"
+      "旗",
+      "旗杆上的三角旗",
+      "旗杆上的旗帜",
+      "红色旗帜"
     ]
   },
   {
@@ -43108,6 +44617,7 @@
     "annotation": "交叉旗",
     "tags": [
       "交叉",
+      "交叉放置的旗帜",
       "旗",
       "日本"
     ]
@@ -43126,7 +44636,10 @@
     "version": 1,
     "annotation": "举黑旗",
     "tags": [
-      "黑旗"
+      "黑旗",
+      "黑色旗",
+      "黑色旗子",
+      "黑色旗帜"
     ]
   },
   {
@@ -43144,7 +44657,9 @@
     "text": "🏳︎",
     "annotation": "举白旗",
     "tags": [
-      "白旗"
+      "白旗",
+      "白色旗子",
+      "白色旗帜"
     ]
   },
   {
@@ -43161,9 +44676,9 @@
     "version": 4,
     "annotation": "彩虹旗",
     "tags": [
+      "同志旗",
       "同性",
-      "彩虹",
-      "旗"
+      "彩虹"
     ]
   },
   {
@@ -43179,14 +44694,12 @@
     "group": 7,
     "subgroup": 76,
     "version": 11,
+    "annotation": "海盗旗",
     "tags": [
-      "举黑旗",
-      "头骨",
-      "怪物",
-      "死亡",
-      "骨头",
-      "骷髅",
-      "黑旗"
+      "掠夺",
+      "海盗",
+      "海盗骷髅旗",
+      "财宝"
     ]
   },
   {
@@ -43201,7 +44714,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "阿森松岛",
+    "annotation": "旗: 阿森松岛",
     "tags": [
       "AC",
       "旗"
@@ -43219,7 +44732,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "安道尔",
+    "annotation": "旗: 安道尔",
     "tags": [
       "AD",
       "旗"
@@ -43237,7 +44750,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "阿拉伯联合酋长国",
+    "annotation": "旗: 阿拉伯联合酋长国",
     "tags": [
       "AE",
       "旗"
@@ -43255,7 +44768,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "阿富汗",
+    "annotation": "旗: 阿富汗",
     "tags": [
       "AF",
       "旗"
@@ -43273,7 +44786,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "安提瓜和巴布达",
+    "annotation": "旗: 安提瓜和巴布达",
     "tags": [
       "AG",
       "旗"
@@ -43291,7 +44804,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "安圭拉",
+    "annotation": "旗: 安圭拉",
     "tags": [
       "AI",
       "旗"
@@ -43309,7 +44822,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "阿尔巴尼亚",
+    "annotation": "旗: 阿尔巴尼亚",
     "tags": [
       "AL",
       "旗"
@@ -43327,7 +44840,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "亚美尼亚",
+    "annotation": "旗: 亚美尼亚",
     "tags": [
       "AM",
       "旗"
@@ -43345,7 +44858,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "安哥拉",
+    "annotation": "旗: 安哥拉",
     "tags": [
       "AO",
       "旗"
@@ -43363,7 +44876,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "南极洲",
+    "annotation": "旗: 南极洲",
     "tags": [
       "AQ",
       "旗"
@@ -43381,7 +44894,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "阿根廷",
+    "annotation": "旗: 阿根廷",
     "tags": [
       "AR",
       "旗"
@@ -43399,7 +44912,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "美属萨摩亚",
+    "annotation": "旗: 美属萨摩亚",
     "tags": [
       "AS",
       "旗"
@@ -43417,7 +44930,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "奥地利",
+    "annotation": "旗: 奥地利",
     "tags": [
       "AT",
       "旗"
@@ -43435,7 +44948,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "澳大利亚",
+    "annotation": "旗: 澳大利亚",
     "tags": [
       "AU",
       "旗"
@@ -43453,7 +44966,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "阿鲁巴",
+    "annotation": "旗: 阿鲁巴",
     "tags": [
       "AW",
       "旗"
@@ -43471,7 +44984,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "奥兰群岛",
+    "annotation": "旗: 奥兰群岛",
     "tags": [
       "AX",
       "旗"
@@ -43489,7 +45002,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "阿塞拜疆",
+    "annotation": "旗: 阿塞拜疆",
     "tags": [
       "AZ",
       "旗"
@@ -43507,7 +45020,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "波斯尼亚和黑塞哥维那",
+    "annotation": "旗: 波斯尼亚和黑塞哥维那",
     "tags": [
       "BA",
       "旗"
@@ -43525,7 +45038,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "巴巴多斯",
+    "annotation": "旗: 巴巴多斯",
     "tags": [
       "BB",
       "旗"
@@ -43543,7 +45056,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "孟加拉国",
+    "annotation": "旗: 孟加拉国",
     "tags": [
       "BD",
       "旗"
@@ -43561,7 +45074,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "比利时",
+    "annotation": "旗: 比利时",
     "tags": [
       "BE",
       "旗"
@@ -43579,7 +45092,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "布基纳法索",
+    "annotation": "旗: 布基纳法索",
     "tags": [
       "BF",
       "旗"
@@ -43597,7 +45110,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "保加利亚",
+    "annotation": "旗: 保加利亚",
     "tags": [
       "BG",
       "旗"
@@ -43615,7 +45128,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "巴林",
+    "annotation": "旗: 巴林",
     "tags": [
       "BH",
       "旗"
@@ -43633,7 +45146,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "布隆迪",
+    "annotation": "旗: 布隆迪",
     "tags": [
       "BI",
       "旗"
@@ -43651,7 +45164,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "贝宁",
+    "annotation": "旗: 贝宁",
     "tags": [
       "BJ",
       "旗"
@@ -43669,7 +45182,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "圣巴泰勒米",
+    "annotation": "旗: 圣巴泰勒米",
     "tags": [
       "BL",
       "旗"
@@ -43687,7 +45200,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "百慕大",
+    "annotation": "旗: 百慕大",
     "tags": [
       "BM",
       "旗"
@@ -43705,7 +45218,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "文莱",
+    "annotation": "旗: 文莱",
     "tags": [
       "BN",
       "旗"
@@ -43723,7 +45236,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "玻利维亚",
+    "annotation": "旗: 玻利维亚",
     "tags": [
       "BO",
       "旗"
@@ -43741,7 +45254,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "荷属加勒比区",
+    "annotation": "旗: 荷属加勒比区",
     "tags": [
       "BQ",
       "旗"
@@ -43759,7 +45272,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "巴西",
+    "annotation": "旗: 巴西",
     "tags": [
       "BR",
       "旗"
@@ -43777,7 +45290,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "巴哈马",
+    "annotation": "旗: 巴哈马",
     "tags": [
       "BS",
       "旗"
@@ -43795,7 +45308,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "不丹",
+    "annotation": "旗: 不丹",
     "tags": [
       "BT",
       "旗"
@@ -43813,7 +45326,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "布韦岛",
+    "annotation": "旗: 布韦岛",
     "tags": [
       "BV",
       "旗"
@@ -43831,7 +45344,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "博茨瓦纳",
+    "annotation": "旗: 博茨瓦纳",
     "tags": [
       "BW",
       "旗"
@@ -43849,7 +45362,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "白俄罗斯",
+    "annotation": "旗: 白俄罗斯",
     "tags": [
       "BY",
       "旗"
@@ -43867,7 +45380,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "伯利兹",
+    "annotation": "旗: 伯利兹",
     "tags": [
       "BZ",
       "旗"
@@ -43885,7 +45398,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "加拿大",
+    "annotation": "旗: 加拿大",
     "tags": [
       "CA",
       "旗"
@@ -43903,7 +45416,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "科科斯（基林）群岛",
+    "annotation": "旗: 科科斯（基林）群岛",
     "tags": [
       "CC",
       "旗"
@@ -43921,7 +45434,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "刚果（金）",
+    "annotation": "旗: 刚果（金）",
     "tags": [
       "CD",
       "旗"
@@ -43939,7 +45452,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "中非共和国",
+    "annotation": "旗: 中非共和国",
     "tags": [
       "CF",
       "旗"
@@ -43957,7 +45470,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "刚果（布）",
+    "annotation": "旗: 刚果（布）",
     "tags": [
       "CG",
       "旗"
@@ -43975,7 +45488,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "瑞士",
+    "annotation": "旗: 瑞士",
     "tags": [
       "CH",
       "旗"
@@ -43993,7 +45506,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "科特迪瓦",
+    "annotation": "旗: 科特迪瓦",
     "tags": [
       "CI",
       "旗"
@@ -44011,7 +45524,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "库克群岛",
+    "annotation": "旗: 库克群岛",
     "tags": [
       "CK",
       "旗"
@@ -44029,7 +45542,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "智利",
+    "annotation": "旗: 智利",
     "tags": [
       "CL",
       "旗"
@@ -44047,7 +45560,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "喀麦隆",
+    "annotation": "旗: 喀麦隆",
     "tags": [
       "CM",
       "旗"
@@ -44065,7 +45578,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "中国",
+    "annotation": "旗: 中国",
     "tags": [
       "CN",
       "旗"
@@ -44083,7 +45596,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "哥伦比亚",
+    "annotation": "旗: 哥伦比亚",
     "tags": [
       "CO",
       "旗"
@@ -44101,7 +45614,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "克利珀顿岛",
+    "annotation": "旗: 克利珀顿岛",
     "tags": [
       "CP",
       "旗"
@@ -44119,7 +45632,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "哥斯达黎加",
+    "annotation": "旗: 哥斯达黎加",
     "tags": [
       "CR",
       "旗"
@@ -44137,7 +45650,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "古巴",
+    "annotation": "旗: 古巴",
     "tags": [
       "CU",
       "旗"
@@ -44155,7 +45668,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "佛得角",
+    "annotation": "旗: 佛得角",
     "tags": [
       "CV",
       "旗"
@@ -44173,7 +45686,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "库拉索",
+    "annotation": "旗: 库拉索",
     "tags": [
       "CW",
       "旗"
@@ -44191,7 +45704,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "圣诞岛",
+    "annotation": "旗: 圣诞岛",
     "tags": [
       "CX",
       "旗"
@@ -44209,7 +45722,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "塞浦路斯",
+    "annotation": "旗: 塞浦路斯",
     "tags": [
       "CY",
       "旗"
@@ -44227,7 +45740,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "捷克",
+    "annotation": "旗: 捷克",
     "tags": [
       "CZ",
       "旗"
@@ -44245,7 +45758,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "德国",
+    "annotation": "旗: 德国",
     "tags": [
       "DE",
       "旗"
@@ -44263,7 +45776,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "迪戈加西亚岛",
+    "annotation": "旗: 迪戈加西亚岛",
     "tags": [
       "DG",
       "旗"
@@ -44281,7 +45794,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "吉布提",
+    "annotation": "旗: 吉布提",
     "tags": [
       "DJ",
       "旗"
@@ -44299,7 +45812,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "丹麦",
+    "annotation": "旗: 丹麦",
     "tags": [
       "DK",
       "旗"
@@ -44317,7 +45830,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "多米尼克",
+    "annotation": "旗: 多米尼克",
     "tags": [
       "DM",
       "旗"
@@ -44335,7 +45848,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "多米尼加共和国",
+    "annotation": "旗: 多米尼加共和国",
     "tags": [
       "DO",
       "旗"
@@ -44353,7 +45866,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "阿尔及利亚",
+    "annotation": "旗: 阿尔及利亚",
     "tags": [
       "DZ",
       "旗"
@@ -44371,7 +45884,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "休达及梅利利亚",
+    "annotation": "旗: 休达及梅利利亚",
     "tags": [
       "EA",
       "旗"
@@ -44389,7 +45902,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "厄瓜多尔",
+    "annotation": "旗: 厄瓜多尔",
     "tags": [
       "EC",
       "旗"
@@ -44407,7 +45920,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "爱沙尼亚",
+    "annotation": "旗: 爱沙尼亚",
     "tags": [
       "EE",
       "旗"
@@ -44425,7 +45938,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "埃及",
+    "annotation": "旗: 埃及",
     "tags": [
       "EG",
       "旗"
@@ -44443,7 +45956,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "西撒哈拉",
+    "annotation": "旗: 西撒哈拉",
     "tags": [
       "EH",
       "旗"
@@ -44461,7 +45974,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "厄立特里亚",
+    "annotation": "旗: 厄立特里亚",
     "tags": [
       "ER",
       "旗"
@@ -44479,7 +45992,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "西班牙",
+    "annotation": "旗: 西班牙",
     "tags": [
       "ES",
       "旗"
@@ -44497,7 +46010,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "埃塞俄比亚",
+    "annotation": "旗: 埃塞俄比亚",
     "tags": [
       "ET",
       "旗"
@@ -44515,7 +46028,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "欧盟",
+    "annotation": "旗: 欧盟",
     "tags": [
       "EU",
       "旗"
@@ -44533,7 +46046,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "芬兰",
+    "annotation": "旗: 芬兰",
     "tags": [
       "FI",
       "旗"
@@ -44551,7 +46064,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "斐济",
+    "annotation": "旗: 斐济",
     "tags": [
       "FJ",
       "旗"
@@ -44569,7 +46082,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "福克兰群岛",
+    "annotation": "旗: 福克兰群岛",
     "tags": [
       "FK",
       "旗"
@@ -44587,7 +46100,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "密克罗尼西亚",
+    "annotation": "旗: 密克罗尼西亚",
     "tags": [
       "FM",
       "旗"
@@ -44605,7 +46118,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "法罗群岛",
+    "annotation": "旗: 法罗群岛",
     "tags": [
       "FO",
       "旗"
@@ -44623,7 +46136,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "法国",
+    "annotation": "旗: 法国",
     "tags": [
       "FR",
       "旗"
@@ -44641,7 +46154,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "加蓬",
+    "annotation": "旗: 加蓬",
     "tags": [
       "GA",
       "旗"
@@ -44659,7 +46172,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "英国",
+    "annotation": "旗: 英国",
     "tags": [
       "GB",
       "旗"
@@ -44677,7 +46190,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "格林纳达",
+    "annotation": "旗: 格林纳达",
     "tags": [
       "GD",
       "旗"
@@ -44695,7 +46208,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "格鲁吉亚",
+    "annotation": "旗: 格鲁吉亚",
     "tags": [
       "GE",
       "旗"
@@ -44713,7 +46226,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "法属圭亚那",
+    "annotation": "旗: 法属圭亚那",
     "tags": [
       "GF",
       "旗"
@@ -44731,7 +46244,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "根西岛",
+    "annotation": "旗: 根西岛",
     "tags": [
       "GG",
       "旗"
@@ -44749,7 +46262,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "加纳",
+    "annotation": "旗: 加纳",
     "tags": [
       "GH",
       "旗"
@@ -44767,7 +46280,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "直布罗陀",
+    "annotation": "旗: 直布罗陀",
     "tags": [
       "GI",
       "旗"
@@ -44785,7 +46298,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "格陵兰",
+    "annotation": "旗: 格陵兰",
     "tags": [
       "GL",
       "旗"
@@ -44803,7 +46316,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "冈比亚",
+    "annotation": "旗: 冈比亚",
     "tags": [
       "GM",
       "旗"
@@ -44821,7 +46334,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "几内亚",
+    "annotation": "旗: 几内亚",
     "tags": [
       "GN",
       "旗"
@@ -44839,7 +46352,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "瓜德罗普",
+    "annotation": "旗: 瓜德罗普",
     "tags": [
       "GP",
       "旗"
@@ -44857,7 +46370,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "赤道几内亚",
+    "annotation": "旗: 赤道几内亚",
     "tags": [
       "GQ",
       "旗"
@@ -44875,7 +46388,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "希腊",
+    "annotation": "旗: 希腊",
     "tags": [
       "GR",
       "旗"
@@ -44893,7 +46406,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "南乔治亚和南桑威奇群岛",
+    "annotation": "旗: 南乔治亚和南桑威奇群岛",
     "tags": [
       "GS",
       "旗"
@@ -44911,7 +46424,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "危地马拉",
+    "annotation": "旗: 危地马拉",
     "tags": [
       "GT",
       "旗"
@@ -44929,7 +46442,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "关岛",
+    "annotation": "旗: 关岛",
     "tags": [
       "GU",
       "旗"
@@ -44947,7 +46460,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "几内亚比绍",
+    "annotation": "旗: 几内亚比绍",
     "tags": [
       "GW",
       "旗"
@@ -44965,7 +46478,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "圭亚那",
+    "annotation": "旗: 圭亚那",
     "tags": [
       "GY",
       "旗"
@@ -44983,7 +46496,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "中国香港特别行政区",
+    "annotation": "旗: 中国香港特别行政区",
     "tags": [
       "HK",
       "旗"
@@ -45001,7 +46514,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "赫德岛和麦克唐纳群岛",
+    "annotation": "旗: 赫德岛和麦克唐纳群岛",
     "tags": [
       "HM",
       "旗"
@@ -45019,7 +46532,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "洪都拉斯",
+    "annotation": "旗: 洪都拉斯",
     "tags": [
       "HN",
       "旗"
@@ -45037,7 +46550,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "克罗地亚",
+    "annotation": "旗: 克罗地亚",
     "tags": [
       "HR",
       "旗"
@@ -45055,7 +46568,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "海地",
+    "annotation": "旗: 海地",
     "tags": [
       "HT",
       "旗"
@@ -45073,7 +46586,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "匈牙利",
+    "annotation": "旗: 匈牙利",
     "tags": [
       "HU",
       "旗"
@@ -45091,7 +46604,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "加纳利群岛",
+    "annotation": "旗: 加纳利群岛",
     "tags": [
       "IC",
       "旗"
@@ -45109,7 +46622,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "印度尼西亚",
+    "annotation": "旗: 印度尼西亚",
     "tags": [
       "ID",
       "旗"
@@ -45127,7 +46640,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "爱尔兰",
+    "annotation": "旗: 爱尔兰",
     "tags": [
       "IE",
       "旗"
@@ -45145,7 +46658,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "以色列",
+    "annotation": "旗: 以色列",
     "tags": [
       "IL",
       "旗"
@@ -45163,7 +46676,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "马恩岛",
+    "annotation": "旗: 马恩岛",
     "tags": [
       "IM",
       "旗"
@@ -45181,7 +46694,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "印度",
+    "annotation": "旗: 印度",
     "tags": [
       "IN",
       "旗"
@@ -45199,7 +46712,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "英属印度洋领地",
+    "annotation": "旗: 英属印度洋领地",
     "tags": [
       "IO",
       "旗"
@@ -45217,7 +46730,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "伊拉克",
+    "annotation": "旗: 伊拉克",
     "tags": [
       "IQ",
       "旗"
@@ -45235,7 +46748,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "伊朗",
+    "annotation": "旗: 伊朗",
     "tags": [
       "IR",
       "旗"
@@ -45253,7 +46766,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "冰岛",
+    "annotation": "旗: 冰岛",
     "tags": [
       "IS",
       "旗"
@@ -45271,7 +46784,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "意大利",
+    "annotation": "旗: 意大利",
     "tags": [
       "IT",
       "旗"
@@ -45289,7 +46802,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "泽西岛",
+    "annotation": "旗: 泽西岛",
     "tags": [
       "JE",
       "旗"
@@ -45307,7 +46820,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "牙买加",
+    "annotation": "旗: 牙买加",
     "tags": [
       "JM",
       "旗"
@@ -45325,7 +46838,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "约旦",
+    "annotation": "旗: 约旦",
     "tags": [
       "JO",
       "旗"
@@ -45343,7 +46856,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "日本",
+    "annotation": "旗: 日本",
     "tags": [
       "JP",
       "旗"
@@ -45361,7 +46874,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "肯尼亚",
+    "annotation": "旗: 肯尼亚",
     "tags": [
       "KE",
       "旗"
@@ -45379,7 +46892,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "吉尔吉斯斯坦",
+    "annotation": "旗: 吉尔吉斯斯坦",
     "tags": [
       "KG",
       "旗"
@@ -45397,7 +46910,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "柬埔寨",
+    "annotation": "旗: 柬埔寨",
     "tags": [
       "KH",
       "旗"
@@ -45415,7 +46928,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "基里巴斯",
+    "annotation": "旗: 基里巴斯",
     "tags": [
       "KI",
       "旗"
@@ -45433,7 +46946,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "科摩罗",
+    "annotation": "旗: 科摩罗",
     "tags": [
       "KM",
       "旗"
@@ -45451,7 +46964,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "圣基茨和尼维斯",
+    "annotation": "旗: 圣基茨和尼维斯",
     "tags": [
       "KN",
       "旗"
@@ -45469,7 +46982,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "朝鲜",
+    "annotation": "旗: 朝鲜",
     "tags": [
       "KP",
       "旗"
@@ -45487,7 +47000,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "韩国",
+    "annotation": "旗: 韩国",
     "tags": [
       "KR",
       "旗"
@@ -45505,7 +47018,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "科威特",
+    "annotation": "旗: 科威特",
     "tags": [
       "KW",
       "旗"
@@ -45523,7 +47036,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "开曼群岛",
+    "annotation": "旗: 开曼群岛",
     "tags": [
       "KY",
       "旗"
@@ -45541,7 +47054,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "哈萨克斯坦",
+    "annotation": "旗: 哈萨克斯坦",
     "tags": [
       "KZ",
       "旗"
@@ -45559,7 +47072,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "老挝",
+    "annotation": "旗: 老挝",
     "tags": [
       "LA",
       "旗"
@@ -45577,7 +47090,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "黎巴嫩",
+    "annotation": "旗: 黎巴嫩",
     "tags": [
       "LB",
       "旗"
@@ -45595,7 +47108,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "圣卢西亚",
+    "annotation": "旗: 圣卢西亚",
     "tags": [
       "LC",
       "旗"
@@ -45613,7 +47126,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "列支敦士登",
+    "annotation": "旗: 列支敦士登",
     "tags": [
       "LI",
       "旗"
@@ -45631,7 +47144,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "斯里兰卡",
+    "annotation": "旗: 斯里兰卡",
     "tags": [
       "LK",
       "旗"
@@ -45649,7 +47162,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "利比里亚",
+    "annotation": "旗: 利比里亚",
     "tags": [
       "LR",
       "旗"
@@ -45667,7 +47180,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "莱索托",
+    "annotation": "旗: 莱索托",
     "tags": [
       "LS",
       "旗"
@@ -45685,7 +47198,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "立陶宛",
+    "annotation": "旗: 立陶宛",
     "tags": [
       "LT",
       "旗"
@@ -45703,7 +47216,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "卢森堡",
+    "annotation": "旗: 卢森堡",
     "tags": [
       "LU",
       "旗"
@@ -45721,7 +47234,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "拉脱维亚",
+    "annotation": "旗: 拉脱维亚",
     "tags": [
       "LV",
       "旗"
@@ -45739,7 +47252,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "利比亚",
+    "annotation": "旗: 利比亚",
     "tags": [
       "LY",
       "旗"
@@ -45757,7 +47270,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "摩洛哥",
+    "annotation": "旗: 摩洛哥",
     "tags": [
       "MA",
       "旗"
@@ -45775,7 +47288,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "摩纳哥",
+    "annotation": "旗: 摩纳哥",
     "tags": [
       "MC",
       "旗"
@@ -45793,7 +47306,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "摩尔多瓦",
+    "annotation": "旗: 摩尔多瓦",
     "tags": [
       "MD",
       "旗"
@@ -45811,7 +47324,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "黑山",
+    "annotation": "旗: 黑山",
     "tags": [
       "ME",
       "旗"
@@ -45829,7 +47342,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "法属圣马丁",
+    "annotation": "旗: 法属圣马丁",
     "tags": [
       "MF",
       "旗"
@@ -45847,7 +47360,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "马达加斯加",
+    "annotation": "旗: 马达加斯加",
     "tags": [
       "MG",
       "旗"
@@ -45865,7 +47378,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "马绍尔群岛",
+    "annotation": "旗: 马绍尔群岛",
     "tags": [
       "MH",
       "旗"
@@ -45883,7 +47396,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "马其顿",
+    "annotation": "旗: 马其顿",
     "tags": [
       "MK",
       "旗"
@@ -45901,7 +47414,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "马里",
+    "annotation": "旗: 马里",
     "tags": [
       "ML",
       "旗"
@@ -45919,7 +47432,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "缅甸",
+    "annotation": "旗: 缅甸",
     "tags": [
       "MM",
       "旗"
@@ -45937,7 +47450,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "蒙古",
+    "annotation": "旗: 蒙古",
     "tags": [
       "MN",
       "旗"
@@ -45955,7 +47468,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "中国澳门特别行政区",
+    "annotation": "旗: 中国澳门特别行政区",
     "tags": [
       "MO",
       "旗"
@@ -45973,7 +47486,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "北马里亚纳群岛",
+    "annotation": "旗: 北马里亚纳群岛",
     "tags": [
       "MP",
       "旗"
@@ -45991,7 +47504,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "马提尼克",
+    "annotation": "旗: 马提尼克",
     "tags": [
       "MQ",
       "旗"
@@ -46009,7 +47522,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "毛里塔尼亚",
+    "annotation": "旗: 毛里塔尼亚",
     "tags": [
       "MR",
       "旗"
@@ -46027,7 +47540,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "蒙特塞拉特",
+    "annotation": "旗: 蒙特塞拉特",
     "tags": [
       "MS",
       "旗"
@@ -46045,7 +47558,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "马耳他",
+    "annotation": "旗: 马耳他",
     "tags": [
       "MT",
       "旗"
@@ -46063,7 +47576,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "毛里求斯",
+    "annotation": "旗: 毛里求斯",
     "tags": [
       "MU",
       "旗"
@@ -46081,7 +47594,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "马尔代夫",
+    "annotation": "旗: 马尔代夫",
     "tags": [
       "MV",
       "旗"
@@ -46099,7 +47612,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "马拉维",
+    "annotation": "旗: 马拉维",
     "tags": [
       "MW",
       "旗"
@@ -46117,7 +47630,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "墨西哥",
+    "annotation": "旗: 墨西哥",
     "tags": [
       "MX",
       "旗"
@@ -46135,7 +47648,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "马来西亚",
+    "annotation": "旗: 马来西亚",
     "tags": [
       "MY",
       "旗"
@@ -46153,7 +47666,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "莫桑比克",
+    "annotation": "旗: 莫桑比克",
     "tags": [
       "MZ",
       "旗"
@@ -46171,7 +47684,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "纳米比亚",
+    "annotation": "旗: 纳米比亚",
     "tags": [
       "NA",
       "旗"
@@ -46189,7 +47702,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "新喀里多尼亚",
+    "annotation": "旗: 新喀里多尼亚",
     "tags": [
       "NC",
       "旗"
@@ -46207,7 +47720,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "尼日尔",
+    "annotation": "旗: 尼日尔",
     "tags": [
       "NE",
       "旗"
@@ -46225,7 +47738,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "诺福克岛",
+    "annotation": "旗: 诺福克岛",
     "tags": [
       "NF",
       "旗"
@@ -46243,7 +47756,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "尼日利亚",
+    "annotation": "旗: 尼日利亚",
     "tags": [
       "NG",
       "旗"
@@ -46261,7 +47774,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "尼加拉瓜",
+    "annotation": "旗: 尼加拉瓜",
     "tags": [
       "NI",
       "旗"
@@ -46279,7 +47792,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "荷兰",
+    "annotation": "旗: 荷兰",
     "tags": [
       "NL",
       "旗"
@@ -46297,7 +47810,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "挪威",
+    "annotation": "旗: 挪威",
     "tags": [
       "NO",
       "旗"
@@ -46315,7 +47828,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "尼泊尔",
+    "annotation": "旗: 尼泊尔",
     "tags": [
       "NP",
       "旗"
@@ -46333,7 +47846,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "瑙鲁",
+    "annotation": "旗: 瑙鲁",
     "tags": [
       "NR",
       "旗"
@@ -46351,7 +47864,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "纽埃",
+    "annotation": "旗: 纽埃",
     "tags": [
       "NU",
       "旗"
@@ -46369,7 +47882,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "新西兰",
+    "annotation": "旗: 新西兰",
     "tags": [
       "NZ",
       "旗"
@@ -46387,7 +47900,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "阿曼",
+    "annotation": "旗: 阿曼",
     "tags": [
       "OM",
       "旗"
@@ -46405,7 +47918,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "巴拿马",
+    "annotation": "旗: 巴拿马",
     "tags": [
       "PA",
       "旗"
@@ -46423,7 +47936,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "秘鲁",
+    "annotation": "旗: 秘鲁",
     "tags": [
       "PE",
       "旗"
@@ -46441,7 +47954,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "法属波利尼西亚",
+    "annotation": "旗: 法属波利尼西亚",
     "tags": [
       "PF",
       "旗"
@@ -46459,7 +47972,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "巴布亚新几内亚",
+    "annotation": "旗: 巴布亚新几内亚",
     "tags": [
       "PG",
       "旗"
@@ -46477,7 +47990,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "菲律宾",
+    "annotation": "旗: 菲律宾",
     "tags": [
       "PH",
       "旗"
@@ -46495,7 +48008,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "巴基斯坦",
+    "annotation": "旗: 巴基斯坦",
     "tags": [
       "PK",
       "旗"
@@ -46513,7 +48026,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "波兰",
+    "annotation": "旗: 波兰",
     "tags": [
       "PL",
       "旗"
@@ -46531,7 +48044,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "圣皮埃尔和密克隆群岛",
+    "annotation": "旗: 圣皮埃尔和密克隆群岛",
     "tags": [
       "PM",
       "旗"
@@ -46549,7 +48062,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "皮特凯恩群岛",
+    "annotation": "旗: 皮特凯恩群岛",
     "tags": [
       "PN",
       "旗"
@@ -46567,7 +48080,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "波多黎各",
+    "annotation": "旗: 波多黎各",
     "tags": [
       "PR",
       "旗"
@@ -46585,7 +48098,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "巴勒斯坦领土",
+    "annotation": "旗: 巴勒斯坦领土",
     "tags": [
       "PS",
       "旗"
@@ -46603,7 +48116,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "葡萄牙",
+    "annotation": "旗: 葡萄牙",
     "tags": [
       "PT",
       "旗"
@@ -46621,7 +48134,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "帕劳",
+    "annotation": "旗: 帕劳",
     "tags": [
       "PW",
       "旗"
@@ -46639,7 +48152,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "巴拉圭",
+    "annotation": "旗: 巴拉圭",
     "tags": [
       "PY",
       "旗"
@@ -46657,7 +48170,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "卡塔尔",
+    "annotation": "旗: 卡塔尔",
     "tags": [
       "QA",
       "旗"
@@ -46675,7 +48188,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "留尼汪",
+    "annotation": "旗: 留尼汪",
     "tags": [
       "RE",
       "旗"
@@ -46693,7 +48206,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "罗马尼亚",
+    "annotation": "旗: 罗马尼亚",
     "tags": [
       "RO",
       "旗"
@@ -46711,7 +48224,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "塞尔维亚",
+    "annotation": "旗: 塞尔维亚",
     "tags": [
       "RS",
       "旗"
@@ -46729,7 +48242,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "俄罗斯",
+    "annotation": "旗: 俄罗斯",
     "tags": [
       "RU",
       "旗"
@@ -46747,7 +48260,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "卢旺达",
+    "annotation": "旗: 卢旺达",
     "tags": [
       "RW",
       "旗"
@@ -46765,7 +48278,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "沙特阿拉伯",
+    "annotation": "旗: 沙特阿拉伯",
     "tags": [
       "SA",
       "旗"
@@ -46783,7 +48296,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "所罗门群岛",
+    "annotation": "旗: 所罗门群岛",
     "tags": [
       "SB",
       "旗"
@@ -46801,7 +48314,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "塞舌尔",
+    "annotation": "旗: 塞舌尔",
     "tags": [
       "SC",
       "旗"
@@ -46819,7 +48332,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "苏丹",
+    "annotation": "旗: 苏丹",
     "tags": [
       "SD",
       "旗"
@@ -46837,7 +48350,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "瑞典",
+    "annotation": "旗: 瑞典",
     "tags": [
       "SE",
       "旗"
@@ -46855,7 +48368,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "新加坡",
+    "annotation": "旗: 新加坡",
     "tags": [
       "SG",
       "旗"
@@ -46873,7 +48386,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "圣赫勒拿",
+    "annotation": "旗: 圣赫勒拿",
     "tags": [
       "SH",
       "旗"
@@ -46891,7 +48404,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "斯洛文尼亚",
+    "annotation": "旗: 斯洛文尼亚",
     "tags": [
       "SI",
       "旗"
@@ -46909,7 +48422,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "斯瓦尔巴和扬马延",
+    "annotation": "旗: 斯瓦尔巴和扬马延",
     "tags": [
       "SJ",
       "旗"
@@ -46927,7 +48440,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "斯洛伐克",
+    "annotation": "旗: 斯洛伐克",
     "tags": [
       "SK",
       "旗"
@@ -46945,7 +48458,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "塞拉利昂",
+    "annotation": "旗: 塞拉利昂",
     "tags": [
       "SL",
       "旗"
@@ -46963,7 +48476,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "圣马力诺",
+    "annotation": "旗: 圣马力诺",
     "tags": [
       "SM",
       "旗"
@@ -46981,7 +48494,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "塞内加尔",
+    "annotation": "旗: 塞内加尔",
     "tags": [
       "SN",
       "旗"
@@ -46999,7 +48512,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "索马里",
+    "annotation": "旗: 索马里",
     "tags": [
       "SO",
       "旗"
@@ -47017,7 +48530,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "苏里南",
+    "annotation": "旗: 苏里南",
     "tags": [
       "SR",
       "旗"
@@ -47035,7 +48548,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "南苏丹",
+    "annotation": "旗: 南苏丹",
     "tags": [
       "SS",
       "旗"
@@ -47053,7 +48566,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "圣多美和普林西比",
+    "annotation": "旗: 圣多美和普林西比",
     "tags": [
       "ST",
       "旗"
@@ -47071,7 +48584,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "萨尔瓦多",
+    "annotation": "旗: 萨尔瓦多",
     "tags": [
       "SV",
       "旗"
@@ -47089,7 +48602,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "荷属圣马丁",
+    "annotation": "旗: 荷属圣马丁",
     "tags": [
       "SX",
       "旗"
@@ -47107,7 +48620,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "叙利亚",
+    "annotation": "旗: 叙利亚",
     "tags": [
       "SY",
       "旗"
@@ -47125,7 +48638,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "斯威士兰",
+    "annotation": "旗: 斯威士兰",
     "tags": [
       "SZ",
       "旗"
@@ -47143,7 +48656,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "特里斯坦-达库尼亚群岛",
+    "annotation": "旗: 特里斯坦-达库尼亚群岛",
     "tags": [
       "TA",
       "旗"
@@ -47161,7 +48674,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "特克斯和凯科斯群岛",
+    "annotation": "旗: 特克斯和凯科斯群岛",
     "tags": [
       "TC",
       "旗"
@@ -47179,7 +48692,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "乍得",
+    "annotation": "旗: 乍得",
     "tags": [
       "TD",
       "旗"
@@ -47197,7 +48710,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "法属南部领地",
+    "annotation": "旗: 法属南部领地",
     "tags": [
       "TF",
       "旗"
@@ -47215,7 +48728,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "多哥",
+    "annotation": "旗: 多哥",
     "tags": [
       "TG",
       "旗"
@@ -47233,7 +48746,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "泰国",
+    "annotation": "旗: 泰国",
     "tags": [
       "TH",
       "旗"
@@ -47251,7 +48764,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "塔吉克斯坦",
+    "annotation": "旗: 塔吉克斯坦",
     "tags": [
       "TJ",
       "旗"
@@ -47269,7 +48782,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "托克劳",
+    "annotation": "旗: 托克劳",
     "tags": [
       "TK",
       "旗"
@@ -47287,7 +48800,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "东帝汶",
+    "annotation": "旗: 东帝汶",
     "tags": [
       "TL",
       "旗"
@@ -47305,7 +48818,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "土库曼斯坦",
+    "annotation": "旗: 土库曼斯坦",
     "tags": [
       "TM",
       "旗"
@@ -47323,7 +48836,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "突尼斯",
+    "annotation": "旗: 突尼斯",
     "tags": [
       "TN",
       "旗"
@@ -47341,7 +48854,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "汤加",
+    "annotation": "旗: 汤加",
     "tags": [
       "TO",
       "旗"
@@ -47359,7 +48872,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "土耳其",
+    "annotation": "旗: 土耳其",
     "tags": [
       "TR",
       "旗"
@@ -47377,7 +48890,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "特立尼达和多巴哥",
+    "annotation": "旗: 特立尼达和多巴哥",
     "tags": [
       "TT",
       "旗"
@@ -47395,7 +48908,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "图瓦卢",
+    "annotation": "旗: 图瓦卢",
     "tags": [
       "TV",
       "旗"
@@ -47413,7 +48926,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "台湾",
+    "annotation": "旗: 台湾",
     "tags": [
       "TW",
       "旗"
@@ -47431,7 +48944,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "坦桑尼亚",
+    "annotation": "旗: 坦桑尼亚",
     "tags": [
       "TZ",
       "旗"
@@ -47449,7 +48962,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "乌克兰",
+    "annotation": "旗: 乌克兰",
     "tags": [
       "UA",
       "旗"
@@ -47467,7 +48980,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "乌干达",
+    "annotation": "旗: 乌干达",
     "tags": [
       "UG",
       "旗"
@@ -47485,7 +48998,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "美国本土外小岛屿",
+    "annotation": "旗: 美国本土外小岛屿",
     "tags": [
       "UM",
       "旗"
@@ -47503,7 +49016,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 4,
-    "annotation": "联合国",
+    "annotation": "旗: 联合国",
     "tags": [
       "UN",
       "旗"
@@ -47522,7 +49035,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "美国",
+    "annotation": "旗: 美国",
     "tags": [
       "US",
       "旗"
@@ -47540,7 +49053,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "乌拉圭",
+    "annotation": "旗: 乌拉圭",
     "tags": [
       "UY",
       "旗"
@@ -47558,7 +49071,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "乌兹别克斯坦",
+    "annotation": "旗: 乌兹别克斯坦",
     "tags": [
       "UZ",
       "旗"
@@ -47576,7 +49089,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "梵蒂冈",
+    "annotation": "旗: 梵蒂冈",
     "tags": [
       "VA",
       "旗"
@@ -47594,7 +49107,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "圣文森特和格林纳丁斯",
+    "annotation": "旗: 圣文森特和格林纳丁斯",
     "tags": [
       "VC",
       "旗"
@@ -47612,7 +49125,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "委内瑞拉",
+    "annotation": "旗: 委内瑞拉",
     "tags": [
       "VE",
       "旗"
@@ -47630,7 +49143,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "英属维尔京群岛",
+    "annotation": "旗: 英属维尔京群岛",
     "tags": [
       "VG",
       "旗"
@@ -47648,7 +49161,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "美属维尔京群岛",
+    "annotation": "旗: 美属维尔京群岛",
     "tags": [
       "VI",
       "旗"
@@ -47666,7 +49179,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "越南",
+    "annotation": "旗: 越南",
     "tags": [
       "VN",
       "旗"
@@ -47684,7 +49197,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "瓦努阿图",
+    "annotation": "旗: 瓦努阿图",
     "tags": [
       "VU",
       "旗"
@@ -47702,7 +49215,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "瓦利斯和富图纳",
+    "annotation": "旗: 瓦利斯和富图纳",
     "tags": [
       "WF",
       "旗"
@@ -47720,7 +49233,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "萨摩亚",
+    "annotation": "旗: 萨摩亚",
     "tags": [
       "WS",
       "旗"
@@ -47738,7 +49251,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "科索沃",
+    "annotation": "旗: 科索沃",
     "tags": [
       "XK",
       "旗"
@@ -47756,7 +49269,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "也门",
+    "annotation": "旗: 也门",
     "tags": [
       "YE",
       "旗"
@@ -47774,7 +49287,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "马约特",
+    "annotation": "旗: 马约特",
     "tags": [
       "YT",
       "旗"
@@ -47792,7 +49305,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "南非",
+    "annotation": "旗: 南非",
     "tags": [
       "ZA",
       "旗"
@@ -47810,7 +49323,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "赞比亚",
+    "annotation": "旗: 赞比亚",
     "tags": [
       "ZM",
       "旗"
@@ -47828,7 +49341,7 @@
     "group": 7,
     "subgroup": 77,
     "version": 1,
-    "annotation": "津巴布韦",
+    "annotation": "旗: 津巴布韦",
     "tags": [
       "ZW",
       "旗"
@@ -47847,7 +49360,7 @@
     "group": 7,
     "subgroup": 78,
     "version": 5,
-    "annotation": "英格兰",
+    "annotation": "旗: 英格兰",
     "tags": [
       "gbeng",
       "旗"
@@ -47866,7 +49379,7 @@
     "group": 7,
     "subgroup": 78,
     "version": 5,
-    "annotation": "苏格兰",
+    "annotation": "旗: 苏格兰",
     "tags": [
       "gbsct",
       "旗"
@@ -47885,7 +49398,7 @@
     "group": 7,
     "subgroup": 78,
     "version": 5,
-    "annotation": "威尔士",
+    "annotation": "旗: 威尔士",
     "tags": [
       "gbwls",
       "旗"
