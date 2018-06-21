@@ -1,3 +1,19 @@
+# 2.0.0 - 06/21/18
+
+#### 🎉 Release
+
+- Updated to [Emoji 11](https://emojipedia.org/emoji-11.0/) and
+  [Unicode 11](http://unicode.org/versions/Unicode11.0.0/).
+  - 77 new emoji (157 including skin tones variations).
+  - 4 new components (bald, curly hair, red hair, white hair).
+- Updated to [CLDR 33.1](http://cldr.unicode.org/index/downloads/cldr-33-1).
+  - Tons of new annotations and keywords.
+- Updated shortcodes.
+
+#### 💥 Breaking
+
+- Changed the Ogre emoticon from `O)` to `>O)`.
+
 # 1.1.1 - 05/24/18
 
 #### 🐞 Fixed
