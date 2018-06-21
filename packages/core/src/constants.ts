@@ -38,9 +38,9 @@ export const SKIN_KEY_DARK = 'dark';
 
 // Important release versions and locales in generating accurate data.
 
-export const LATEST_EMOJI_VERSION = '5.0';
-export const LATEST_UNICODE_VERSION = '10.0.0';
-export const LATEST_CLDR_VERSION = '33';
+export const LATEST_EMOJI_VERSION = '11.0';
+export const LATEST_UNICODE_VERSION = '11.0.0';
+export const LATEST_CLDR_VERSION = '33.1';
 export const FIRST_UNICODE_EMOJI_VERSION = '6.0.0';
 export const SUPPORTED_LOCALES = [
   'da', // Danish
@@ -53,9 +53,12 @@ export const SUPPORTED_LOCALES = [
   'it', // Italian
   'ja', // Japanese
   'ko', // Korean
+  'ms', // Malay
+  'nl', // Dutch
   'pl', // Polish
   'pt', // Portuguese
   'ru', // Russian
+  'sv', // Swedish
   'th', // Thai
   'zh', // Chinese
   'zh-hant', // Chinese (Traditional)

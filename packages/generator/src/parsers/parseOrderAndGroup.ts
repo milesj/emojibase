@@ -7,6 +7,7 @@ import formatHexcode from '../helpers/formatHexcode';
 import slug from '../helpers/slug';
 import writeCache from '../helpers/writeCache';
 import { EmojiGroupMap } from '../types';
+import { HIDDEN_SUBGROUPS } from '../constants';
 
 interface GroupNameMap {
   [index: number]: string;
@@ -15,6 +16,23 @@ interface GroupNameMap {
 interface GroupHierarchy {
   [index: number]: number[];
 }
+
+// Some emojis do not match the official emoji list table.
+// So instead of mismatching, we'll opt to match the table.
+const OVERRIDES: { [hexcode: string]: object } = {
+  '1F9D4': {
+    subgroup: 8,
+  },
+  '1F471': {
+    subgroup: 8,
+  },
+  '1F471-200D-2640-FE0F': {
+    subgroup: 8,
+  },
+  '1F471-200D-2642-FE0F': {
+    subgroup: 8,
+  },
+};
 
 /**
  * Parses the official unicode emoji-test data, which includes order and grouping.
@@ -46,6 +64,11 @@ export default function parseOrderAndGroup(content: string): EmojiGroupMap {
         groups[groupIndex] = group;
       } else if (line.startsWith('# subgroup:')) {
         subgroup = slug(line.slice(11).trim());
+
+        if (HIDDEN_SUBGROUPS.includes(subgroup)) {
+          return;
+        }
+
         subgroupIndex += 1;
         subgroups[subgroupIndex] = subgroup;
 
@@ -59,6 +82,11 @@ export default function parseOrderAndGroup(content: string): EmojiGroupMap {
       return;
     }
 
+    // Skip emojis that are hidden
+    if (HIDDEN_SUBGROUPS.includes(subgroup)) {
+      return;
+    }
+
     // Persist order and group
     const hexcode = formatHexcode(line.split(';')[0].trim());
 
@@ -66,6 +94,7 @@ export default function parseOrderAndGroup(content: string): EmojiGroupMap {
       group: groupIndex,
       order,
       subgroup: subgroupIndex,
+      ...OVERRIDES[hexcode],
     };
 
     order += 1;

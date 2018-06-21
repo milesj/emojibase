@@ -13,18 +13,20 @@ import {
   SKIN_MODIFIER_PATTERN,
   EMOJI_VARIATION_SELECTOR,
   TEXT_VARIATION_SELECTOR,
+  HIDDEN_EMOJI_PROPERTIES,
 } from '../constants';
+import writeCache from '../helpers/writeCache';
 
-export default function verifyData(emojis: EmojiMap): EmojiMap {
+export default function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
   const usedShortcodes: EmojiMap = {};
   const usedEmoticons: EmojiMap = {};
+  const shortcodeDump: string[] = [];
 
   Object.keys(emojis).forEach(hexcode => {
     const emoji = emojis[hexcode];
     const errors: string[] = [];
 
-    // Skip modifiers and components
-    if (hasProperty(emoji.property, ['Emoji_Modifier', 'Emoji_Component'])) {
+    if (hasProperty(emoji.property, HIDDEN_EMOJI_PROPERTIES)) {
       return;
     }
 
@@ -78,6 +80,9 @@ export default function verifyData(emojis: EmojiMap): EmojiMap {
     // Verify that shortcodes exist and that none have been duplicated
     if (!emoji.shortcodes || emoji.shortcodes.length === 0) {
       errors.push('No shortcodes defined.');
+
+      shortcodeDump.push(`// ${emoji.name}`);
+      shortcodeDump.push(`'${hexcode}': [],`);
     } else {
       const used: string[] = [];
 
@@ -110,6 +115,10 @@ export default function verifyData(emojis: EmojiMap): EmojiMap {
       log.error('verify', `Error(s) detected for ${emoji.name} (${hexcode}):\n`, errors.join('\n'));
     }
   });
+
+  if (shortcodeDump.length > 0) {
+    writeCache('missing-shortcodes.txt', shortcodeDump.join('\n'), false);
+  }
 
   return emojis;
 }

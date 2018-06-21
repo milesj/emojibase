@@ -22,6 +22,13 @@ export default function parseData(version: string, content: string): EmojiDataMa
   const { lines, totals } = parse(content);
   const data = lines.reduce((map: EmojiDataMap, line: ParsedLine) => {
     const [rawHexcode, property, , modifier] = line.fields;
+
+    // v11.0 included EP, which reserves slots for future emoji.
+    // We don't need to pull these in at this time.
+    if (property === 'Extended_Pictographic') {
+      return map;
+    }
+
     const emoji: EmojiData = {
       description: extractLineDescription(line.comment),
       hexcode: '',

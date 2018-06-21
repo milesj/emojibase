@@ -104,6 +104,8 @@ export default {
   '1F47F': '>:(',
   // 😫 tired face
   '1F62B': ':c',
+  // woozy face
+  '1F974': ':&',
 
   // MISC
   // 🤔 thinking face
@@ -131,7 +133,7 @@ export default {
   // 🧟 zombie
   '1F9DF': '8#',
   // 👹 ogre
-  '1F479': '0)',
+  '1F479': '>0)',
 
   // SYMBOLS
   // ❤️ red heart

@@ -22,8 +22,8 @@ abide the following guidelines:
 - Must keep backwards compatibility and historical integrity by never removing and renaming
   shortcodes.
 - Must support multiple shortcodes per emoji character, for usage within different contexts.
-- Must align with or base off [CLDR 33][cldr] annotations.
+- Must align with or base off [CLDR 33.1][cldr] annotations.
 
-[cldr]: http://cldr.unicode.org/index/downloads/cldr-33
+[cldr]: http://cldr.unicode.org/index/downloads/cldr-33-1
 [scodes]:
   https://github.com/milesj/emojibase/blob/master/packages/generator/src/resources/shortcodes.ts

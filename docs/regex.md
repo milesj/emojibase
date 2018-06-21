@@ -69,13 +69,13 @@ import PROPERTY_EMOJI_REGEX from 'emojibase-regex/property';
 | File               | Size    | Gzipped |
 | ------------------ | ------- | ------- |
 | shortcode.js       | 35 B    | 55 B    |
-| property/text.js   | 37 B    | 57 B    |
+| property/text.js   | 60 B    | 76 B    |
 | property/emoji.js  | 102 B   | 92 B    |
 | property/index.js  | 114 B   | 101 B   |
-| emoticon.js        | 440 B   | 243 B   |
-| text.js            | 2.91 KB | 626 B   |
-| codepoint/text.js  | 3.59 KB | 660 B   |
-| emoji.js           | 6.83 KB | 1.63 KB |
-| index.js           | 6.84 KB | 1.63 KB |
-| codepoint/emoji.js | 7.62 KB | 1.65 KB |
-| codepoint/index.js | 7.64 KB | 1.65 KB |
+| emoticon.js        | 458 B   | 245 B   |
+| text.js            | 2.93 KB | 631 B   |
+| codepoint/text.js  | 3.61 KB | 667 B   |
+| emoji.js           | 6.99 KB | 1.65 KB |
+| index.js           | 7.01 KB | 1.66 KB |
+| codepoint/emoji.js | 7.82 KB | 1.68 KB |
+| codepoint/index.js | 7.83 KB | 1.69 KB |

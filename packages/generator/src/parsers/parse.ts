@@ -86,7 +86,7 @@ export default function parse(
 
     if (commentIndex > 0) {
       comment = line.slice(commentIndex + 1).trim();
-      line = line.slice(0, commentIndex - 1).trim();
+      line = line.slice(0, commentIndex).trim();
     }
 
     // Split into fields

@@ -131,18 +131,20 @@ export default async function generateData(): Promise<void> {
   const versions = createVersionMap();
 
   // Generate datasets for each locale
-  SUPPORTED_LOCALES.forEach(async (locale: string) => {
-    const annotations = await buildAnnotationData(locale);
-    const emojis = Object.keys(filteredData).map(hexcode =>
-      createEmoji(filteredData[hexcode], versions, annotations),
-    );
+  await Promise.all(
+    SUPPORTED_LOCALES.map(async (locale: string) => {
+      const annotations = await buildAnnotationData(locale);
+      const emojis = Object.keys(filteredData).map(hexcode =>
+        createEmoji(filteredData[hexcode], versions, annotations),
+      );
 
-    // Sort by order
-    emojis.sort((a, b) => (a.order || 0) - (b.order || 0));
+      // Sort by order
+      emojis.sort((a, b) => (a.order || 0) - (b.order || 0));
 
-    writeDataset(`${locale}/data.json`, emojis);
-    writeDataset(`${locale}/compact.json`, extractSubset(emojis, 'compact'));
-  });
+      writeDataset(`${locale}/data.json`, emojis);
+      writeDataset(`${locale}/compact.json`, extractSubset(emojis, 'compact'));
+    }),
+  );
 
   // Generate metadata and specialized datasets
   const unicode = new Set();

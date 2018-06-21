@@ -61,7 +61,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     return null;
   }
 
-  // http://unicode.org/repos/cldr/trunk/specs/ldml/tr35-general.html#SynthesizingNames
+  // http://unicode.org/reports/tr35/tr35-general.html#SynthesizingNames
   // ZWJ and Flag sequences do not have annotations, so let's add them
   const sequences = {
     ...(await loadData()),
@@ -101,8 +101,11 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
 
       tags.push(divisionName);
 
-      // Step 3) Label with keycap and use sequence
-    } else if (hasProperty(emoji.property, ['Emoji_Keycap_Sequence'])) {
+      // Label with keycap and use sequence
+    } else if (
+      hasProperty(emoji.property, ['Emoji_Keycap_Sequence']) ||
+      emoji.hexcode === '1F51F' // Keycap 10
+    ) {
       if (!annotation) {
         annotation = emoji.description;
       }
