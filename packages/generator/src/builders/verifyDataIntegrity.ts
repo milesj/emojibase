@@ -13,6 +13,7 @@ import {
   SKIN_MODIFIER_PATTERN,
   EMOJI_VARIATION_SELECTOR,
   TEXT_VARIATION_SELECTOR,
+  HIDDEN_EMOJI_PROPERTIES,
 } from '../constants';
 import writeCache from '../helpers/writeCache';
 
@@ -25,8 +26,7 @@ export default function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
     const emoji = emojis[hexcode];
     const errors: string[] = [];
 
-    // Skip modifiers and components
-    if (hasProperty(emoji.property, ['Emoji_Modifier', 'Emoji_Component'])) {
+    if (hasProperty(emoji.property, HIDDEN_EMOJI_PROPERTIES)) {
       return;
     }
 

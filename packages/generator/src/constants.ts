@@ -5,6 +5,8 @@
 
 /* eslint-disable sort-keys */
 
+import { Property } from './types';
+
 // Regex patterns to make my job easier
 
 export const ZWJ_PATTERN = /200D/g;
@@ -27,7 +29,16 @@ export const FEMALE_SIGN = '2640'; // FEMALE SIGN
 export const MALE_SIGN = '2642'; // MALE SIGN
 export const BLACK_FLAG = '1F3F4'; // WAVING BLACK FLAG
 
+// Emoji groups that should be omitted from the final output
 export const HIDDEN_SUBGROUPS = ['skin-tone', 'hair-style'];
+
+// Emoji property types that should be omitted from the final dataset
+export const HIDDEN_EMOJI_PROPERTIES: Property[] = [
+  'Emoji_Modifier',
+  'Emoji_Component',
+  'Extended_Pictographic',
+  'Regional_Indicator',
+];
 
 export const REGIONAL_INDICATORS: { [hexcode: string]: string } = {
   '1F1E6': 'A',

@@ -4,6 +4,7 @@
  */
 
 import hasProperty from './hasProperty';
+import { HIDDEN_EMOJI_PROPERTIES } from '../constants';
 import { EmojiMap } from '../types';
 
 export default function filterData(data: EmojiMap): EmojiMap {
@@ -12,9 +13,7 @@ export default function filterData(data: EmojiMap): EmojiMap {
   Object.keys(data).forEach(hexcode => {
     const emoji = data[hexcode];
 
-    // Omit modifiers and components from the final output,
-    // as they're not emoji characters to be used directly
-    if (hasProperty(emoji.property, ['Emoji_Modifier', 'Emoji_Component'])) {
+    if (hasProperty(emoji.property, HIDDEN_EMOJI_PROPERTIES)) {
       return;
     }
 
