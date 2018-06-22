@@ -74,9 +74,9 @@
   dependencies:
     rimraf "^2.6.2"
 
-"@milesj/build-tool-config@^0.103.0":
-  version "0.103.0"
-  resolved "https://registry.npmjs.org/@milesj/build-tool-config/-/build-tool-config-0.103.0.tgz#5885da63804a234f572100d8886f1182f04a3cbc"
+"@milesj/build-tool-config@^0.104.2":
+  version "0.104.2"
+  resolved "https://registry.npmjs.org/@milesj/build-tool-config/-/build-tool-config-0.104.2.tgz#13a8d79d08d66c89b47d94f3961ee218635469b3"
   dependencies:
     "@beemo/cli" "^0.18.0"
     "@beemo/core" "^0.18.0"
@@ -102,7 +102,7 @@
     enzyme-adapter-react-16 "^1.1.1"
     enzyme-to-json "^3.3.4"
     eslint "^4.19.1"
-    eslint-config-airbnb "^16.1.0"
+    eslint-config-airbnb "^17.0.0"
     eslint-config-prettier "^2.9.0"
     eslint-plugin-babel "^5.1.0"
     eslint-plugin-compat "^2.4.0"
@@ -123,7 +123,6 @@
     react "^16.4.1"
     react-dom "^16.4.1"
     react-test-renderer "^16.4.1"
-    rimraf "^2.6.2"
     ts-jest "^22.4.6"
     typescript "^2.9.2"
     typescript-eslint-parser "^16.0.0"
@@ -2621,17 +2620,21 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-airbnb-base@^12.1.0:
-  version "12.1.0"
-  resolved "https://registry.npmjs.org/eslint-config-airbnb-base/-/eslint-config-airbnb-base-12.1.0.tgz#386441e54a12ccd957b0a92564a4bafebd747944"
+eslint-config-airbnb-base@^13.0.0:
+  version "13.0.0"
+  resolved "https://registry.npmjs.org/eslint-config-airbnb-base/-/eslint-config-airbnb-base-13.0.0.tgz#2ee6279c4891128e49d6445b24aa13c2d1a21450"
   dependencies:
     eslint-restricted-globals "^0.1.1"
+    object.assign "^4.1.0"
+    object.entries "^1.0.4"
 
-eslint-config-airbnb@^16.1.0:
-  version "16.1.0"
-  resolved "https://registry.npmjs.org/eslint-config-airbnb/-/eslint-config-airbnb-16.1.0.tgz#2546bfb02cc9fe92284bf1723ccf2e87bc45ca46"
+eslint-config-airbnb@^17.0.0:
+  version "17.0.0"
+  resolved "https://registry.npmjs.org/eslint-config-airbnb/-/eslint-config-airbnb-17.0.0.tgz#1bb8c4255483320bb68c3b614f71ae6058b0b2db"
   dependencies:
-    eslint-config-airbnb-base "^12.1.0"
+    eslint-config-airbnb-base "^13.0.0"
+    object.assign "^4.1.0"
+    object.entries "^1.0.4"
 
 eslint-config-prettier@^2.9.0:
   version "2.9.0"
