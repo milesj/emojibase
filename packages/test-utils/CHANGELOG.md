@@ -1,6 +1,6 @@
 > Versions that only update `test-data.json` are omitted from the changelog.
 
-# 3.0.0 - 06/21/18
+# 3.0.0 - 06/23/18
 
 #### 🎉 Release
 
