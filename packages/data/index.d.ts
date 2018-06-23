@@ -1,4 +1,4 @@
-import { CompactEmoji, Emoji } from 'emojibase';
+import { Emoji, CompactEmoji, GroupDataset, VersionDataset } from 'emojibase';
 
 declare module 'emojibase-data/da/data.json' {
   const data: Emoji[];
@@ -191,11 +191,7 @@ declare module 'emojibase-data/zh/compact.json' {
 }
 
 declare module 'emojibase-data/meta/groups.json' {
-  const data: {
-    groups: { [index: string]: string };
-    subgroups: { [index: string]: string };
-    hierarchy: { [index: string]: number[] };
-  };
+  const data: GroupDataset;
   export default data;
 }
 
@@ -215,11 +211,11 @@ declare module 'emojibase-data/meta/unicode.json' {
 }
 
 declare module 'emojibase-data/versions/emoji.json' {
-  const data: { [version: string]: string[] };
+  const data: VersionDataset;
   export default data;
 }
 
 declare module 'emojibase-data/versions/unicode.json' {
-  const data: { [version: string]: string[] };
+  const data: VersionDataset;
   export default data;
 }

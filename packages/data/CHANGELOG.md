@@ -16,13 +16,15 @@
   - `nl` - Dutch
   - `ms` - Malay
   - `sv` - Swedish
-- Updated compact datasets to use the new `CompactEmoji` type.
+- Updated `*/compact.json` datasets to use the new `CompactEmoji` type.
+- Updated `meta/groups.json` dataset to use the new `GroupDataset` type.
+- Updated `versions/*json` datasets to use the new `VersionDataset` type.
 
 # 2.3.0 - 05/22/18
 
 #### 🚀 New
 
-- Updated to [CLDR 33](http://cldr.unicode.org/index/downloads/cldr-33) official release.
+- Updated to [CLDR 33](http://cldr.unicode.org/index/downloads/cldr-33).
 
 #### 🛠 Internal
 
@@ -55,7 +57,7 @@
 
 #### 🚀 New
 
-- Updated to [CLDR 32](http://cldr.unicode.org/index/downloads/cldr-32) official release.
+- Updated to [CLDR 32](http://cldr.unicode.org/index/downloads/cldr-32).
 
 # 2.1.0 - 9/25/17
 

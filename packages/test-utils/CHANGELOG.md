@@ -16,7 +16,7 @@
 
 #### 🚀 New
 
-- Updated to [CLDR 33](http://cldr.unicode.org/index/downloads/cldr-33) official release.
+- Updated to [CLDR 33](http://cldr.unicode.org/index/downloads/cldr-33).
 
 #### 🛠 Internal
 

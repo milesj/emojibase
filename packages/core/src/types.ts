@@ -65,3 +65,13 @@ export interface Emoji {
   type: Presentation;
   version: number;
 }
+
+export interface GroupDataset {
+  groups: { [index: string]: string };
+  subgroups: { [index: string]: string };
+  hierarchy: { [index: string]: number[] };
+}
+
+export interface VersionDataset {
+  [version: string]: string[];
+}

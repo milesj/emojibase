@@ -16,7 +16,7 @@
   - `nl` - Dutch
   - `ms` - Malay
   - `sv` - Swedish
-- Added `CompactEmoji` type.
+- Added `CompactEmoji`, `GroupDataset`, and `VersionDataset` types.
 - Updated `Emoji` type with correct optional/required properties.
 
 #### 🛠 Internal
