@@ -3,13 +3,11 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
-import { Emoji } from './types';
-
 export interface FetchFromCDNOptions extends RequestInit {
   local?: boolean;
 }
 
-export default function fetchFromCDN<T extends Emoji>(
+export default function fetchFromCDN<T>(
   path: string,
   version: string = 'latest',
   options: FetchFromCDNOptions = {},

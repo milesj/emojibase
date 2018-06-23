@@ -1,4 +1,4 @@
-import { Emoji } from 'emojibase';
+import { CompactEmoji, Emoji } from 'emojibase';
 
 declare module 'emojibase-data/da/data.json' {
   const data: Emoji[];
@@ -6,7 +6,7 @@ declare module 'emojibase-data/da/data.json' {
 }
 
 declare module 'emojibase-data/da/compact.json' {
-  const data: Emoji[];
+  const data: CompactEmoji[];
   export default data;
 }
 
@@ -16,7 +16,7 @@ declare module 'emojibase-data/de/data.json' {
 }
 
 declare module 'emojibase-data/de/compact.json' {
-  const data: Emoji[];
+  const data: CompactEmoji[];
   export default data;
 }
 
@@ -26,7 +26,7 @@ declare module 'emojibase-data/en-gb/data.json' {
 }
 
 declare module 'emojibase-data/en-gb/compact.json' {
-  const data: Emoji[];
+  const data: CompactEmoji[];
   export default data;
 }
 
@@ -36,7 +36,7 @@ declare module 'emojibase-data/en/data.json' {
 }
 
 declare module 'emojibase-data/en/compact.json' {
-  const data: Emoji[];
+  const data: CompactEmoji[];
   export default data;
 }
 
@@ -46,7 +46,7 @@ declare module 'emojibase-data/es-mx/data.json' {
 }
 
 declare module 'emojibase-data/es-mx/compact.json' {
-  const data: Emoji[];
+  const data: CompactEmoji[];
   export default data;
 }
 
@@ -56,7 +56,7 @@ declare module 'emojibase-data/es/data.json' {
 }
 
 declare module 'emojibase-data/es/compact.json' {
-  const data: Emoji[];
+  const data: CompactEmoji[];
   export default data;
 }
 
@@ -66,7 +66,7 @@ declare module 'emojibase-data/fr/data.json' {
 }
 
 declare module 'emojibase-data/fr/compact.json' {
-  const data: Emoji[];
+  const data: CompactEmoji[];
   export default data;
 }
 
@@ -76,7 +76,7 @@ declare module 'emojibase-data/it/data.json' {
 }
 
 declare module 'emojibase-data/it/compact.json' {
-  const data: Emoji[];
+  const data: CompactEmoji[];
   export default data;
 }
 
@@ -86,7 +86,7 @@ declare module 'emojibase-data/ja/data.json' {
 }
 
 declare module 'emojibase-data/ja/compact.json' {
-  const data: Emoji[];
+  const data: CompactEmoji[];
   export default data;
 }
 
@@ -96,7 +96,7 @@ declare module 'emojibase-data/ko/data.json' {
 }
 
 declare module 'emojibase-data/ko/compact.json' {
-  const data: Emoji[];
+  const data: CompactEmoji[];
   export default data;
 }
 
@@ -106,7 +106,7 @@ declare module 'emojibase-data/pl/data.json' {
 }
 
 declare module 'emojibase-data/pl/compact.json' {
-  const data: Emoji[];
+  const data: CompactEmoji[];
   export default data;
 }
 
@@ -116,7 +116,7 @@ declare module 'emojibase-data/pt/data.json' {
 }
 
 declare module 'emojibase-data/pt/compact.json' {
-  const data: Emoji[];
+  const data: CompactEmoji[];
   export default data;
 }
 
@@ -126,7 +126,7 @@ declare module 'emojibase-data/ru/data.json' {
 }
 
 declare module 'emojibase-data/ru/compact.json' {
-  const data: Emoji[];
+  const data: CompactEmoji[];
   export default data;
 }
 
@@ -136,7 +136,7 @@ declare module 'emojibase-data/th/data.json' {
 }
 
 declare module 'emojibase-data/th/compact.json' {
-  const data: Emoji[];
+  const data: CompactEmoji[];
   export default data;
 }
 
@@ -146,7 +146,7 @@ declare module 'emojibase-data/zh-hant/data.json' {
 }
 
 declare module 'emojibase-data/zh-hant/compact.json' {
-  const data: Emoji[];
+  const data: CompactEmoji[];
   export default data;
 }
 
@@ -156,7 +156,7 @@ declare module 'emojibase-data/zh/data.json' {
 }
 
 declare module 'emojibase-data/zh/compact.json' {
-  const data: Emoji[];
+  const data: CompactEmoji[];
   export default data;
 }
 

@@ -35,22 +35,33 @@ export type Subgroup = number;
 
 export type Unicode = string;
 
+export interface CompactEmoji {
+  annotation: string;
+  emoticon?: Emoticon;
+  group: Group;
+  hexcode: Hexcode;
+  order: number;
+  shortcodes: Shortcode[];
+  skins?: CompactEmoji[];
+  tags: string[];
+  unicode: Unicode;
+}
+
 export interface Emoji {
-  annotation?: string;
-  emoji?: Unicode;
+  annotation: string;
+  emoji: Unicode;
   emoticon?: Emoticon;
   gender?: Gender;
-  group?: Group;
+  group: Group;
   hexcode: Hexcode;
-  name?: string;
-  order?: number;
-  shortcodes?: Shortcode[];
+  name: string;
+  order: number;
+  shortcodes: Shortcode[];
   skins?: Emoji[];
-  subgroup?: Subgroup;
-  tags?: string[];
-  text?: Unicode;
+  subgroup: Subgroup;
+  tags: string[];
+  text: Unicode;
   tone?: SkinTone;
-  type?: Presentation;
-  unicode?: Unicode;
-  version?: number;
+  type: Presentation;
+  version: number;
 }

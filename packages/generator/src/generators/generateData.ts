@@ -12,7 +12,7 @@ import log from '../helpers/log';
 import readCache from '../helpers/readCache';
 import writeDataset from '../helpers/writeDataset';
 import filterData from '../helpers/filterData';
-import extractSubset from './extractSubset';
+import extractCompact from './extractCompact';
 import toUnicode from './toUnicode';
 import { CLDRAnnotationMap, Emoji, EmojiModification, Hexcode, VersionMap } from '../types';
 
@@ -28,16 +28,20 @@ function createEmoji(
   /* eslint-disable sort-keys */
   const emoji: FinalEmoji = {
     // Classification
+    annotation: '',
     name: baseEmoji.name || baseEmoji.description.toUpperCase(),
     hexcode: baseEmoji.hexcode,
     shortcodes: baseEmoji.shortcodes,
+    tags: [],
     // Presentation
     emoji: toUnicode(baseEmoji.hexcode),
+    text: '',
     type: baseEmoji.type,
     // Categorization
     order: baseEmoji.order,
     group: baseEmoji.group,
     subgroup: baseEmoji.subgroup,
+    version: 0,
   };
   /* eslint-enable sort-keys */
 
@@ -142,7 +146,7 @@ export default async function generateData(): Promise<void> {
       emojis.sort((a, b) => (a.order || 0) - (b.order || 0));
 
       writeDataset(`${locale}/data.json`, emojis);
-      writeDataset(`${locale}/compact.json`, extractSubset(emojis, 'compact'));
+      writeDataset(`${locale}/compact.json`, extractCompact(emojis));
     }),
   );
 

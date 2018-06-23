@@ -16,6 +16,8 @@
   - `nl` - Dutch
   - `ms` - Malay
   - `sv` - Swedish
+- Added `CompactEmoji` type.
+- Updated `Emoji` type with correct optional/required properties.
 
 #### 🛠 Internal
 
