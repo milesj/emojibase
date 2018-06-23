@@ -9,8 +9,9 @@ That being said, shortcodes are not officially supported by Unicode or any stand
 entirely community driven. Because of this, shortcodes (also known as shortnames), may differ
 between implementations, websites, or libraries.
 
-Emojibase aims to solve this problem with a [maintained and curated list of shortcodes][scodes] that
-abide the following guidelines:
+Emojibase aims to solve this problem with a
+[maintained and curated list of shortcodes](https://github.com/milesj/emojibase/blob/master/packages/generator/src/resources/shortcodes.ts)
+that abide the following guidelines:
 
 - Must be short and succinct. Easy to type, easy to remember. This infers a small filesize.
 - Must be consistent across locales and languages by utilizing English shortcodes. It's a language
@@ -22,8 +23,5 @@ abide the following guidelines:
 - Must keep backwards compatibility and historical integrity by never removing and renaming
   shortcodes.
 - Must support multiple shortcodes per emoji character, for usage within different contexts.
-- Must align with or base off [CLDR 33.1][cldr] annotations.
-
-[cldr]: http://cldr.unicode.org/index/downloads/cldr-33-1
-[scodes]:
-  https://github.com/milesj/emojibase/blob/master/packages/generator/src/resources/shortcodes.ts
+- Must align with or base off [CLDR 33.1](http://cldr.unicode.org/index/downloads/cldr-33-1)
+  annotations.
