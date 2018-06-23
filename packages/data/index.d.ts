@@ -100,6 +100,26 @@ declare module 'emojibase-data/ko/compact.json' {
   export default data;
 }
 
+declare module 'emojibase-data/ms/data.json' {
+  const data: Emoji[];
+  export default data;
+}
+
+declare module 'emojibase-data/ms/compact.json' {
+  const data: CompactEmoji[];
+  export default data;
+}
+
+declare module 'emojibase-data/nl/data.json' {
+  const data: Emoji[];
+  export default data;
+}
+
+declare module 'emojibase-data/nl/compact.json' {
+  const data: CompactEmoji[];
+  export default data;
+}
+
 declare module 'emojibase-data/pl/data.json' {
   const data: Emoji[];
   export default data;
@@ -126,6 +146,16 @@ declare module 'emojibase-data/ru/data.json' {
 }
 
 declare module 'emojibase-data/ru/compact.json' {
+  const data: CompactEmoji[];
+  export default data;
+}
+
+declare module 'emojibase-data/sv/data.json' {
+  const data: Emoji[];
+  export default data;
+}
+
+declare module 'emojibase-data/sv/compact.json' {
   const data: CompactEmoji[];
   export default data;
 }

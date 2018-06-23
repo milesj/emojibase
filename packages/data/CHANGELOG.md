@@ -16,6 +16,7 @@
   - `nl` - Dutch
   - `ms` - Malay
   - `sv` - Swedish
+- Updated compact datasets to use the new `CompactEmoji` type.
 
 # 2.3.0 - 05/22/18
 

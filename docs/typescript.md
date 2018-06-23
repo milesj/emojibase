@@ -7,3 +7,6 @@ named imports from the index of `emojibase`!
 ```js
 import { Emoji, Emoticon, Shortcode } from 'emojibase';
 ```
+
+The 2 most important types are `Emoji` and `CompactEmoji`, which represent the `data.json` and
+`compact.json` dataset structures.
