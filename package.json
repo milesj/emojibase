@@ -5,9 +5,6 @@
     "build": "beemo typescript --workspaces=emojibase,emojibase-generator,emojibase-test-utils --priority",
     "clean:cache": "rimraf ./cache",
     "coverage": "yarn run jest --coverage",
-    "docs": "gitbook build --debug --log=debug",
-    "docs:serve": "gitbook serve",
-    "docs:install": "gitbook install",
     "eslint": "beemo eslint",
     "generate": "node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/data/en/data.json ./packages/test-utils/test-data.json",
     "generate:shortcodes": "node ./bin/generateShortcodes.js",
@@ -21,7 +18,7 @@
     "type": "beemo typescript --workspaces=emojibase,emojibase-generator,emojibase-test-utils --noEmit"
   },
   "devDependencies": {
-    "@milesj/build-tool-config": "^0.108.3",
+    "@milesj/build-tool-config": "^0.109.0",
     "filesize": "^3.6.1",
     "glob": "^7.1.2",
     "gzip-size": "^4.1.0",

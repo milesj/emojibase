@@ -21,4 +21,4 @@ JSON datasets, regex patterns, and more.
 
 ## Documentation
 
-[https://milesj.gitbooks.io/emojibase](https://milesj.gitbooks.io/emojibase)
+[https://milesj.gitbook.io/emojibase](https://milesj.gitbook.io/emojibase)
