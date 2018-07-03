@@ -44,6 +44,12 @@
         "no-magic-numbers": "off",
         "no-param-reassign": "off"
       }
+    },
+    "prettier": {
+      "ignore": [
+        "packages/generator/src/resources/*.ts",
+        "packages/test-utils/test-data.json"
+      ]
     }
   },
   "browserslist": [
