@@ -1,6 +1,6 @@
 expect.extend({
   toBeOneOf(received, argument) {
-    const pass = (Array.isArray(argument) && argument.indexOf(received) >= 0);
+    const pass = Array.isArray(argument) && argument.indexOf(received) >= 0;
 
     if (pass) {
       return {

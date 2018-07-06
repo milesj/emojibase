@@ -1,19 +1,33 @@
 import fetchFromCDN from '../src/fetchFromCDN';
 
+declare global {
+  namespace NodeJS {
+    interface Global {
+      fetch: any;
+      sessionStorage: any;
+      localStorage: any;
+    }
+  }
+}
+
 describe('fetchFromCDN()', () => {
   beforeEach(() => {
-    window.fetch = jest.fn(() =>
+    global.fetch = jest.fn(() =>
       Promise.resolve({
         json: () => Promise.resolve([1, 2, 3]),
         ok: true,
       }),
     );
 
-    window.sessionStorage.getItem = jest.fn();
-    window.sessionStorage.setItem = jest.fn();
+    global.sessionStorage = {
+      getItem: jest.fn(),
+      setItem: jest.fn(),
+    };
 
-    window.localStorage.getItem = jest.fn();
-    window.localStorage.setItem = jest.fn();
+    global.localStorage = {
+      getItem: jest.fn(),
+      setItem: jest.fn(),
+    };
   });
 
   it('errors if no path', () => {
@@ -34,7 +48,7 @@ describe('fetchFromCDN()', () => {
   });
 
   it('errors if response is not ok', async () => {
-    window.fetch = jest.fn(() =>
+    global.fetch = jest.fn(() =>
       Promise.resolve({
         ok: false,
       }),
@@ -48,7 +62,7 @@ describe('fetchFromCDN()', () => {
   });
 
   it('returns the value from session storage', async () => {
-    window.sessionStorage.getItem = jest.fn(() => JSON.stringify([1, 2, 3, 4, 5]));
+    global.sessionStorage.getItem = jest.fn(() => JSON.stringify([1, 2, 3, 4, 5]));
 
     const data = await fetchFromCDN('en/data.json');
 
@@ -58,7 +72,7 @@ describe('fetchFromCDN()', () => {
   it('triggers a fetch', async () => {
     await fetchFromCDN('en/data.json');
 
-    expect(window.fetch).toBeCalledWith(
+    expect(global.fetch).toBeCalledWith(
       'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/data.json',
       {
         credentials: 'omit',
@@ -71,12 +85,12 @@ describe('fetchFromCDN()', () => {
   it('can customize fetch', async () => {
     await fetchFromCDN('ja/compact.json', '1.2.3', { redirect: 'follow' });
 
-    expect(window.fetch).toBeCalledWith(
+    expect(global.fetch).toBeCalledWith(
       'https://cdn.jsdelivr.net/npm/emojibase-data@1.2.3/ja/compact.json',
       {
         credentials: 'omit',
         mode: 'cors',
-        redirect: false,
+        redirect: 'follow',
       },
     );
   });
@@ -90,7 +104,7 @@ describe('fetchFromCDN()', () => {
   it('caches data to session storage', async () => {
     await fetchFromCDN('en/data.json');
 
-    expect(window.sessionStorage.setItem).toBeCalledWith(
+    expect(global.sessionStorage.setItem).toBeCalledWith(
       'emojibase/latest/en/data.json',
       '[1,2,3]',
     );
@@ -99,6 +113,6 @@ describe('fetchFromCDN()', () => {
   it('caches data to local storage', async () => {
     await fetchFromCDN('en/data.json', 'latest', { local: true });
 
-    expect(window.localStorage.setItem).toBeCalledWith('emojibase/latest/en/data.json', '[1,2,3]');
+    expect(global.localStorage.setItem).toBeCalledWith('emojibase/latest/en/data.json', '[1,2,3]');
   });
 });
