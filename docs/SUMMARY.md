@@ -24,6 +24,6 @@
   - [generateEmoticonPermutations](./api.md#generateemoticonpermutations)
   - [stripHexcode](./api.md#striphexcode)
 - [TypeScript Support](./typescript.md)
-- [Changelog](https://github.com/milesj/emojibase/blob/master/CHANGELOG.md)
-- Migration
+- Migration Guide
   - [1.0](./migrate/1.0.md)
+- [Changelog](https://github.com/milesj/emojibase/blob/master/CHANGELOG.md)
