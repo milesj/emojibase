@@ -1,7 +1,8 @@
 import flattenEmojiData from '../src/flattenEmojiData';
+import { Emoji } from '../src/types';
 
 describe('flattenEmojiData()', () => {
-  const data = [
+  const data: Emoji[] = [
     {
       name: 'BABY',
       hexcode: '1F476',
@@ -13,6 +14,8 @@ describe('flattenEmojiData()', () => {
       subgroup: 0,
       annotation: 'baby',
       tags: ['baby', 'young'],
+      text: '',
+      version: 1,
       skins: [
         {
           name: 'BABY, EMOJI MODIFIER FITZPATRICK TYPE-1-2',
@@ -23,8 +26,11 @@ describe('flattenEmojiData()', () => {
           order: 112,
           group: 0,
           subgroup: 0,
-          skin: 1,
+          tone: 1,
           annotation: 'baby, light skin tone',
+          tags: [],
+          text: '',
+          version: 1,
         },
         {
           name: 'BABY, EMOJI MODIFIER FITZPATRICK TYPE-3',
@@ -35,8 +41,11 @@ describe('flattenEmojiData()', () => {
           order: 113,
           group: 0,
           subgroup: 0,
-          skin: 2,
+          tone: 2,
           annotation: 'baby, medium-light skin tone',
+          tags: [],
+          text: '',
+          version: 1,
         },
         {
           name: 'BABY, EMOJI MODIFIER FITZPATRICK TYPE-4',
@@ -47,8 +56,11 @@ describe('flattenEmojiData()', () => {
           order: 114,
           group: 0,
           subgroup: 0,
-          skin: 3,
+          tone: 3,
           annotation: 'baby, medium skin tone',
+          tags: [],
+          text: '',
+          version: 1,
         },
         {
           name: 'BABY, EMOJI MODIFIER FITZPATRICK TYPE-5',
@@ -59,8 +71,11 @@ describe('flattenEmojiData()', () => {
           order: 115,
           group: 0,
           subgroup: 0,
-          skin: 4,
+          tone: 4,
           annotation: 'baby, medium-dark skin tone',
+          tags: [],
+          text: '',
+          version: 1,
         },
         {
           name: 'BABY, EMOJI MODIFIER FITZPATRICK TYPE-6',
@@ -71,8 +86,11 @@ describe('flattenEmojiData()', () => {
           order: 116,
           group: 0,
           subgroup: 0,
-          skin: 5,
+          tone: 5,
           annotation: 'baby, dark skin tone',
+          tags: [],
+          text: '',
+          version: 1,
         },
       ],
     },

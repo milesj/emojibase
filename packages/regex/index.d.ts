@@ -3,6 +3,11 @@ declare module 'emojibase-regex' {
   export default pattern;
 }
 
+declare module 'emojibase-regex/index' {
+  const pattern: RegExp;
+  export default pattern;
+}
+
 declare module 'emojibase-regex/emoji' {
   const pattern: RegExp;
   export default pattern;

@@ -1,5 +1,6 @@
 import loadFlatEmojiData from '../../test-utils/src/loadFlatEmojiData';
 import { EMOJI, TEXT, MALE, FEMALE } from '../../core/src/constants';
+import { Emoji } from '../../generator/src/types';
 
 describe('data', () => {
   // Skin modifications and certain sequences are missing specific
@@ -26,6 +27,7 @@ describe('data', () => {
     });
 
     it(`defines a type presentation for ${unicode}`, () => {
+      // @ts-ignore
       expect(emoji.type).toBeOneOf([EMOJI, TEXT]);
     });
 
@@ -57,14 +59,15 @@ describe('data', () => {
 
     if ('gender' in emoji) {
       it(`defines a gender for ${unicode}`, () => {
+        // @ts-ignore
         expect(emoji.gender).toBeOneOf([MALE, FEMALE]);
       });
     }
 
     if ('variations' in emoji) {
       it(`defines variations for ${unicode}`, () => {
-        expect(emoji.variations.emoji).toBeDefined();
-        expect(emoji.variations.text).toBeDefined();
+        expect((emoji as Emoji).variations.emoji).toBeDefined();
+        expect((emoji as Emoji).variations.text).toBeDefined();
       });
     }
 
