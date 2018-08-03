@@ -145,8 +145,9 @@ export default async function generateData(): Promise<void> {
       // Sort by order
       emojis.sort((a, b) => (a.order || 0) - (b.order || 0));
 
-      writeDataset(`${locale}/data.json`, emojis);
-      writeDataset(`${locale}/compact.json`, extractCompact(emojis));
+      writeDataset(`${locale}/raw.json`, emojis);
+      writeDataset(`${locale}/data.json`, emojis, true);
+      writeDataset(`${locale}/compact.json`, extractCompact(emojis), true);
     }),
   );
 
