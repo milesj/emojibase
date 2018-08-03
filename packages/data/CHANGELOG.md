@@ -1,3 +1,9 @@
+# 3.1.0 - 08/02/18
+
+#### 🚀 New
+
+- Datasets are now minified for a much smaller filesize.
+
 # 3.0.0 - 06/23/18
 
 #### 🎉 Release
