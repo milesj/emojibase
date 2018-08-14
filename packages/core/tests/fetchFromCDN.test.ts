@@ -12,22 +12,31 @@ declare global {
 
 describe('fetchFromCDN()', () => {
   beforeEach(() => {
-    global.fetch = jest.fn(() =>
-      Promise.resolve({
-        json: () => Promise.resolve([1, 2, 3]),
-        ok: true,
-      }),
-    );
+    Object.defineProperty(global, 'fetch', {
+      value: jest.fn(() =>
+        Promise.resolve({
+          json: () => [1, 2, 3],
+          ok: true,
+        }),
+      ),
+      configurable: true,
+    });
 
-    global.sessionStorage = {
-      getItem: jest.fn(),
-      setItem: jest.fn(),
-    };
+    Object.defineProperty(global, 'sessionStorage', {
+      value: {
+        getItem: jest.fn(),
+        setItem: jest.fn(),
+      },
+      configurable: true,
+    });
 
-    global.localStorage = {
-      getItem: jest.fn(),
-      setItem: jest.fn(),
-    };
+    Object.defineProperty(global, 'localStorage', {
+      value: {
+        getItem: jest.fn(),
+        setItem: jest.fn(),
+      },
+      configurable: true,
+    });
   });
 
   it('errors if no path', () => {
@@ -48,11 +57,14 @@ describe('fetchFromCDN()', () => {
   });
 
   it('errors if response is not ok', async () => {
-    global.fetch = jest.fn(() =>
-      Promise.resolve({
-        ok: false,
-      }),
-    );
+    Object.defineProperty(global, 'fetch', {
+      value: jest.fn(() =>
+        Promise.resolve({
+          ok: false,
+        }),
+      ),
+      configurable: true,
+    });
 
     try {
       await fetchFromCDN('en/data.json');
@@ -62,11 +74,13 @@ describe('fetchFromCDN()', () => {
   });
 
   it('returns the value from session storage', async () => {
-    global.sessionStorage.getItem = jest.fn(() => JSON.stringify([1, 2, 3, 4, 5]));
+    global.sessionStorage.getItem.mockImplementation(() => JSON.stringify([1, 2, 3, 4, 5]));
 
     const data = await fetchFromCDN('en/data.json');
 
     expect(data).toEqual([1, 2, 3, 4, 5]);
+
+    global.sessionStorage.getItem.mockReset();
   });
 
   it('triggers a fetch', async () => {
