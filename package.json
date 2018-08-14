@@ -18,11 +18,11 @@
     "type": "beemo typescript --workspaces=emojibase,emojibase-generator,emojibase-test-utils --noEmit"
   },
   "devDependencies": {
-    "@milesj/build-tool-config": "^0.115.2",
+    "@milesj/build-tool-config": "^0.117.1",
     "filesize": "^3.6.1",
     "glob": "^7.1.2",
     "gzip-size": "^5.0.0",
-    "lerna": "^2.11.0"
+    "lerna": "^3.0.4"
   },
   "workspaces": [
     "packages/*"
@@ -39,7 +39,8 @@
     "eslint": {
       "rules": {
         "no-magic-numbers": "off",
-        "no-param-reassign": "off"
+        "no-param-reassign": "off",
+        "require-unicode-regexp": "off"
       }
     },
     "prettier": {
