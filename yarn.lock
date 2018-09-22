@@ -1267,9 +1267,9 @@
     npmlog "^4.1.2"
     write-file-atomic "^2.3.0"
 
-"@milesj/build-tool-config@^0.123.0":
-  version "0.123.0"
-  resolved "https://registry.npmjs.org/@milesj/build-tool-config/-/build-tool-config-0.123.0.tgz#d617821386f6be89c326ab965db070b1180a7f1b"
+"@milesj/build-tool-config@^0.123.1":
+  version "0.123.1"
+  resolved "https://registry.npmjs.org/@milesj/build-tool-config/-/build-tool-config-0.123.1.tgz#91fe33a18578387bfafd4ebb0d8326ce580a62a9"
   dependencies:
     "@babel/cli" "^7.1.0"
     "@babel/core" "^7.1.0"
@@ -1293,7 +1293,7 @@
     enzyme-to-json "^3.3.4"
     eslint "^5.6.0"
     eslint-config-airbnb "^17.1.0"
-    eslint-config-prettier "^3.0.1"
+    eslint-config-prettier "^3.1.0"
     eslint-plugin-babel "^5.2.0"
     eslint-plugin-compat "^2.5.1"
     eslint-plugin-import "^2.14.0"
@@ -1332,11 +1332,11 @@
     prettier "^1.14.3"
     typescript "^3.0.3"
 
-"@milesj/build-tools@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/@milesj/build-tools/-/build-tools-0.1.0.tgz#3570a25516a7de3dab554a7325b1fc00e4feeefe"
+"@milesj/build-tools@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.npmjs.org/@milesj/build-tools/-/build-tools-0.1.1.tgz#a4d4951a6ce69d1844b879ef2cbc126dfc40ff7c"
   dependencies:
-    "@milesj/build-tool-config" "^0.123.0"
+    "@milesj/build-tool-config" "^0.123.1"
     "@milesj/build-tool-runtime" "^0.1.0"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
@@ -3015,7 +3015,7 @@ eslint-config-airbnb@^17.1.0:
     object.assign "^4.1.0"
     object.entries "^1.0.4"
 
-eslint-config-prettier@^3.0.1:
+eslint-config-prettier@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-3.1.0.tgz#2c26d2cdcfa3a05f0642cd7e6e4ef3316cdabfa2"
   dependencies:
