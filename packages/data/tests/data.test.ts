@@ -1,6 +1,22 @@
-import loadFlatEmojiData from '../../test-utils/src/loadFlatEmojiData';
+import path from 'path';
+import flattenEmojiData from '../../core/src/flattenEmojiData';
 import { EMOJI, TEXT, MALE, FEMALE } from '../../core/src/constants';
-import { Emoji } from '../../generator/src/types';
+import { Emoji } from '../../core/src/types';
+
+const localeCache = {};
+
+function loadFlatEmojiData(): Emoji[] {
+  const locale = process.env.TEST_LOCALE || 'en';
+
+  if (localeCache[locale]) {
+    return localeCache[locale];
+  }
+
+  // eslint-disable-next-line
+  localeCache[locale] = flattenEmojiData(require(path.join(__dirname, '..', locale, 'raw.json')));
+
+  return localeCache[locale];
+}
 
 describe('data', () => {
   // Skin modifications and certain sequences are missing specific
@@ -61,13 +77,6 @@ describe('data', () => {
       it(`defines a gender for ${unicode}`, () => {
         // @ts-ignore
         expect(emoji.gender).toBeOneOf([MALE, FEMALE]);
-      });
-    }
-
-    if ('variations' in emoji) {
-      it(`defines variations for ${unicode}`, () => {
-        expect((emoji as Emoji).variations.emoji).toBeDefined();
-        expect((emoji as Emoji).variations.text).toBeDefined();
       });
     }
 
