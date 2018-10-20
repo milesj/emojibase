@@ -88,7 +88,7 @@
     "emoticon": ":'D"
   },
   {
-    "annotation": "smilende ansigt med åben mund",
+    "annotation": "grinende ansigt med store øjne",
     "name": "SMILING FACE WITH OPEN MOUTH",
     "hexcode": "1F603",
     "shortcodes": [
@@ -109,7 +109,7 @@
     "version": 1
   },
   {
-    "annotation": "smilende ansigt med åben mund og smilende øjne",
+    "annotation": "grinende ansigt med smilende øjne",
     "name": "SMILING FACE WITH OPEN MOUTH AND SMILING EYES",
     "hexcode": "1F604",
     "shortcodes": [
@@ -130,14 +130,16 @@
     "version": 1
   },
   {
-    "annotation": "smilende ansigt med åben mund og sved",
+    "annotation": "grinende ansigt med sveddråbe",
     "name": "SMILING FACE WITH OPEN MOUTH AND COLD SWEAT",
     "hexcode": "1F605",
     "shortcodes": [
       "embarassed"
     ],
     "tags": [
-      "smil med koldsved"
+      "grine",
+      "sved",
+      "åben mund"
     ],
     "emoji": "😅",
     "text": "",
@@ -148,7 +150,7 @@
     "version": 1
   },
   {
-    "annotation": "smilende ansigt med åben mund og lukkede øjne",
+    "annotation": "grinende ansigt med lukkede øjne",
     "name": "SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES",
     "hexcode": "1F606",
     "shortcodes": [
@@ -158,6 +160,7 @@
     ],
     "tags": [
       "glad",
+      "grinende ansigt med åben mund og lukkede øjne",
       "lukkede øjne",
       "smil",
       "smil med lukkede øjne"
@@ -243,7 +246,7 @@
       "confident"
     ],
     "tags": [
-      "ansigt",
+      "cool",
       "sej",
       "smil med solbriller",
       "solbriller"
@@ -386,7 +389,9 @@
       "relaxed"
     ],
     "tags": [
-      "smil"
+      "afslappet",
+      "smil",
+      "tilpas"
     ],
     "emoji": "☺️",
     "text": "☺︎",
@@ -631,7 +636,8 @@
       "hopeful"
     ],
     "tags": [
-      "skuffet men lettet"
+      "puha",
+      "skuffet med lettet"
     ],
     "emoji": "😥",
     "text": "",
@@ -788,7 +794,8 @@
       "tongue_out"
     ],
     "tags": [
-      "ansigt"
+      "ansigt",
+      "række tunge"
     ],
     "emoji": "😛",
     "text": "",
@@ -807,9 +814,10 @@
       "mischievous"
     ],
     "tags": [
-      "ansigt",
       "blink",
-      "driller"
+      "blinke",
+      "drille",
+      "række tunge"
     ],
     "emoji": "😜",
     "text": "",
@@ -949,7 +957,8 @@
     ],
     "tags": [
       "ansigt",
-      "omvendt"
+      "omvendt",
+      "på hovedet"
     ],
     "emoji": "🙃",
     "text": "",
@@ -1140,7 +1149,7 @@
     "emoticon": ":'("
   },
   {
-    "annotation": "grådkvalt ansigt",
+    "annotation": "stortudende ansigt",
     "name": "LOUDLY CRYING FACE",
     "hexcode": "1F62D",
     "shortcodes": [
@@ -1148,8 +1157,10 @@
       "sob"
     ],
     "tags": [
-      "græder",
-      "tårer"
+      "græde",
+      "hulke",
+      "stortude",
+      "ulykkelig"
     ],
     "emoji": "😭",
     "text": "",
@@ -1169,7 +1180,6 @@
     ],
     "tags": [
       "ansigt",
-      "rynkede bryn",
       "åben mund"
     ],
     "emoji": "😦",
@@ -1459,7 +1469,8 @@
       "angry"
     ],
     "tags": [
-      "ansigt"
+      "ansigt",
+      "vred"
     ],
     "emoji": "😠",
     "text": "",
@@ -1497,11 +1508,11 @@
       "mask"
     ],
     "tags": [
-      "ansigt",
       "doktor",
-      "forkølelse",
+      "forkølet",
+      "læge",
       "maske",
-      "medicin",
+      "mundbind",
       "syg"
     ],
     "emoji": "😷",
@@ -1561,14 +1572,11 @@
       "nauseated"
     ],
     "tags": [
-      "ansigt",
       "bræk",
-      "kaster op",
+      "kaste op",
       "kvalme",
-      "kvalmeansigt",
       "opkast",
-      "syg",
-      "sygdom"
+      "syg"
     ],
     "emoji": "🤢",
     "text": "",
@@ -1632,9 +1640,10 @@
       "halo"
     ],
     "tags": [
-      "ansigt",
+      "engel",
       "glorie",
-      "smil"
+      "smil",
+      "uskyldig"
     ],
     "emoji": "😇",
     "text": "",
@@ -1831,15 +1840,15 @@
     "emoticon": ":B"
   },
   {
-    "annotation": "smilende ansigt med horn",
+    "annotation": "glad lilla djævel",
     "name": "SMILING FACE WITH HORNS",
     "hexcode": "1F608",
     "shortcodes": [
       "imp"
     ],
     "tags": [
-      "ansigt",
-      "horn",
+      "fantasi",
+      "griner",
       "smil"
     ],
     "emoji": "😈",
@@ -1852,14 +1861,16 @@
     "emoticon": ">:)"
   },
   {
-    "annotation": "lilla djævel",
+    "annotation": "sur lilla djævel",
     "name": "IMP",
     "hexcode": "1F47F",
     "shortcodes": [
       "angry_imp"
     ],
     "tags": [
-      "lille djævel"
+      "dæmon",
+      "horn",
+      "sur"
     ],
     "emoji": "👿",
     "text": "",
@@ -1947,19 +1958,17 @@
     "version": 1
   },
   {
-    "annotation": "kranie og korslagte knogler",
+    "annotation": "kranium og korslagte knogler",
     "name": "SKULL AND CROSSBONES",
     "hexcode": "2620",
     "shortcodes": [
       "crossbones"
     ],
     "tags": [
-      "ansigt",
       "død",
       "korslagte knogler",
       "kranie",
       "kranium",
-      "krop",
       "monster"
     ],
     "emoji": "☠️",
@@ -2022,10 +2031,6 @@
     ],
     "tags": [
       "alien",
-      "ansigt",
-      "eventyr",
-      "fantasi",
-      "monster",
       "rummet",
       "rumvæsen",
       "ufo"
@@ -2066,7 +2071,9 @@
       "poop"
     ],
     "tags": [
-      "bunke bæ"
+      "bunke bæ",
+      "dynge lort",
+      "lort"
     ],
     "emoji": "💩",
     "text": "",
@@ -2187,14 +2194,14 @@
     "emoticon": ":3"
   },
   {
-    "annotation": "træt kat",
+    "annotation": "overrasket kat",
     "name": "WEARY CAT FACE",
     "hexcode": "1F640",
     "shortcodes": [
       "weary_cat"
     ],
     "tags": [
-      "overrasket kat"
+      "chokeret kat"
     ],
     "emoji": "🙀",
     "text": "",
@@ -2504,7 +2511,8 @@
     ],
     "tags": [
       "menneske",
-      "person"
+      "person",
+      "ung"
     ],
     "emoji": "👦",
     "text": "",
@@ -2605,7 +2613,8 @@
     ],
     "tags": [
       "menneske",
-      "person"
+      "person",
+      "ung"
     ],
     "emoji": "👧",
     "text": "",
@@ -10483,7 +10492,6 @@
       "fru julemand",
       "jul",
       "julekvinde",
-      "julemandinde",
       "kvinde"
     ],
     "emoji": "🤶",
@@ -12394,7 +12402,8 @@
     ],
     "tags": [
       "hav",
-      "mand"
+      "mand",
+      "triton"
     ],
     "emoji": "🧜‍♂️",
     "text": "",
@@ -12925,15 +12934,17 @@
     "gender": 1
   },
   {
-    "annotation": "rynkede bryn",
+    "annotation": "Utilfreds person",
     "name": "PERSON FROWNING",
     "hexcode": "1F64D",
     "shortcodes": [
       "person_frowning"
     ],
     "tags": [
+      "alvorlig mine",
       "udtryk",
-      "utilfreds"
+      "utilfreds",
+      "utilfreds person"
     ],
     "emoji": "🙍",
     "text": "",
@@ -13026,7 +13037,7 @@
     ]
   },
   {
-    "annotation": "mand med rynkede bryn",
+    "annotation": "Utilfreds mand",
     "name": "PERSON FROWNING, MALE SIGN",
     "hexcode": "1F64D-200D-2642-FE0F",
     "shortcodes": [
@@ -13034,10 +13045,10 @@
     ],
     "tags": [
       "mand",
-      "rynke panden",
-      "rynkede bryn",
-      "rynket pande",
-      "utilfreds"
+      "mand med alvorlig mine",
+      "panderynken",
+      "utilfreds",
+      "utilfreds mand"
     ],
     "emoji": "🙍‍♂️",
     "text": "",
@@ -13136,7 +13147,7 @@
     ]
   },
   {
-    "annotation": "kvinde med rynkede bryn",
+    "annotation": "Utilfreds kvinde",
     "name": "PERSON FROWNING, FEMALE SIGN",
     "hexcode": "1F64D-200D-2640-FE0F",
     "shortcodes": [
@@ -13144,10 +13155,10 @@
     ],
     "tags": [
       "kvinde",
-      "rynke panden",
-      "rynkede bryn",
-      "rynket pande",
-      "utilfreds"
+      "kvinde med alvorlig mine",
+      "panderynken",
+      "utilfreds",
+      "utilfreds kvinde"
     ],
     "emoji": "🙍‍♀️",
     "text": "",
@@ -17395,7 +17406,7 @@
     "gender": 0
   },
   {
-    "annotation": "person i damptåge",
+    "annotation": "person i dampbad",
     "name": "PERSON IN STEAMY ROOM",
     "hexcode": "1F9D6",
     "shortcodes": [
@@ -17496,7 +17507,7 @@
     ]
   },
   {
-    "annotation": "kvinde i damptåge",
+    "annotation": "kvinde i dampbad",
     "name": "PERSON IN STEAMY ROOM, FEMALE SIGN",
     "hexcode": "1F9D6-200D-2640-FE0F",
     "shortcodes": [
@@ -17604,7 +17615,7 @@
     ]
   },
   {
-    "annotation": "mand i damptåge",
+    "annotation": "mand i dampbad",
     "name": "PERSON IN STEAMY ROOM, MALE SIGN",
     "hexcode": "1F9D6-200D-2642-FE0F",
     "shortcodes": [
@@ -18353,7 +18364,8 @@
       "bath"
     ],
     "tags": [
-      "badekar"
+      "badekar",
+      "karbad"
     ],
     "emoji": "🛀",
     "text": "",
@@ -19271,7 +19283,7 @@
     ]
   },
   {
-    "annotation": "surfing",
+    "annotation": "surfer",
     "name": "SURFER",
     "hexcode": "1F3C4",
     "shortcodes": [
@@ -19279,7 +19291,7 @@
     ],
     "tags": [
       "sport",
-      "surfer"
+      "surfing"
     ],
     "emoji": "🏄️",
     "text": "🏄︎",
@@ -19588,14 +19600,15 @@
     ]
   },
   {
-    "annotation": "robåd",
+    "annotation": "roer",
     "name": "ROWBOAT",
     "hexcode": "1F6A3",
     "shortcodes": [
       "person_rowing_boat"
     ],
     "tags": [
-      "båd"
+      "båd",
+      "robåd"
     ],
     "emoji": "🚣",
     "text": "",
@@ -20223,14 +20236,16 @@
     ]
   },
   {
-    "annotation": "person med bold",
+    "annotation": "person, der dribler med en bold",
     "name": "PERSON WITH BALL",
     "hexcode": "26F9",
     "shortcodes": [
       "person_bouncing_ball"
     ],
     "tags": [
-      "bold"
+      "bold",
+      "drible",
+      "person, der dibler med en bold"
     ],
     "emoji": "⛹️",
     "text": "⛹︎",
@@ -20323,7 +20338,7 @@
     ]
   },
   {
-    "annotation": "mand med bold",
+    "annotation": "mand, der dribler med en bold",
     "name": "PERSON WITH BALL, MALE SIGN",
     "hexcode": "26F9-FE0F-200D-2642-FE0F",
     "shortcodes": [
@@ -20432,7 +20447,7 @@
     ]
   },
   {
-    "annotation": "kvinde med bold",
+    "annotation": "kvinde, der dribler med en bold",
     "name": "PERSON WITH BALL, FEMALE SIGN",
     "hexcode": "26F9-FE0F-200D-2640-FE0F",
     "shortcodes": [
@@ -20967,9 +20982,9 @@
       "man_biking"
     ],
     "tags": [
-      "cykel",
       "cykelrytter",
       "cykle",
+      "cyklist",
       "mand"
     ],
     "emoji": "🚴‍♂️",
@@ -21076,7 +21091,6 @@
       "woman_biking"
     ],
     "tags": [
-      "cykel",
       "cykelrytter",
       "cykle",
       "cyklist",
@@ -21535,7 +21549,7 @@
     "version": 1
   },
   {
-    "annotation": "vejrmølle",
+    "annotation": "person slår vejrmølle",
     "name": "PERSON DOING CARTWHEEL",
     "hexcode": "1F938",
     "shortcodes": [
@@ -21545,7 +21559,8 @@
       "gymnastik",
       "menneske",
       "person",
-      "sport"
+      "sport",
+      "vejrmølle"
     ],
     "emoji": "🤸",
     "text": "",
@@ -21919,7 +21934,7 @@
     "gender": 0
   },
   {
-    "annotation": "vandpolo",
+    "annotation": "vandpolospiller",
     "name": "WATER POLO",
     "hexcode": "1F93D",
     "shortcodes": [
@@ -21929,6 +21944,7 @@
       "polo",
       "sport",
       "vand",
+      "vandpolo",
       "vandsport"
     ],
     "emoji": "🤽",
@@ -22236,7 +22252,7 @@
     ]
   },
   {
-    "annotation": "håndbold",
+    "annotation": "håndboldspiller",
     "name": "HANDBALL",
     "hexcode": "1F93E",
     "shortcodes": [
@@ -22244,7 +22260,7 @@
     ],
     "tags": [
       "bold",
-      "person",
+      "håndbold",
       "sport"
     ],
     "emoji": "🤾",
@@ -22554,7 +22570,7 @@
     ]
   },
   {
-    "annotation": "Jonglør",
+    "annotation": "jonglør",
     "name": "JUGGLING",
     "hexcode": "1F939",
     "shortcodes": [
@@ -22566,7 +22582,6 @@
       "dygtighed",
       "jonglere",
       "jonglerer",
-      "jonglør",
       "multitaske",
       "multitasking"
     ],
@@ -25611,7 +25626,8 @@
       "yes"
     ],
     "tags": [
-      "håndtegn"
+      "håndtegn",
+      "ok"
     ],
     "emoji": "👍️",
     "text": "👍︎",
@@ -25723,7 +25739,8 @@
       "no"
     ],
     "tags": [
-      "håndtegn"
+      "håndtegn",
+      "nedstemt"
     ],
     "emoji": "👎️",
     "text": "👎︎",
@@ -25836,7 +25853,6 @@
       "hånd",
       "knytnæve",
       "knyttet",
-      "krop",
       "slå"
     ],
     "emoji": "✊",
@@ -26042,7 +26058,6 @@
       "hånd knyttet mod venstre",
       "knytnæve",
       "knyttet hånd",
-      "krop",
       "venstre",
       "venstrevendt"
     ],
@@ -26149,8 +26164,7 @@
       "højre",
       "højrevendt",
       "knytnæve",
-      "knyttet hånd",
-      "krop"
+      "knyttet hånd"
     ],
     "emoji": "🤜",
     "text": "",
@@ -26243,17 +26257,17 @@
     ]
   },
   {
-    "annotation": "løftet baghånd",
+    "annotation": "løftet håndryg",
     "name": "RAISED BACK OF HAND",
     "hexcode": "1F91A",
     "shortcodes": [
       "raised_backhand"
     ],
     "tags": [
-      "baghånd",
+      "bagside af hånd",
       "hånd",
-      "krop",
-      "løftet"
+      "håndryg",
+      "løftet hånd"
     ],
     "emoji": "🤚",
     "text": "",
@@ -26555,7 +26569,6 @@
     ],
     "tags": [
       "hånd",
-      "krop",
       "skrive"
     ],
     "emoji": "✍️",
@@ -26656,8 +26669,10 @@
       "clap"
     ],
     "tags": [
-      "håndtegn",
-      "klapper"
+      "applaus",
+      "bifald",
+      "klapper",
+      "klapsalve"
     ],
     "emoji": "👏",
     "text": "",
@@ -26851,14 +26866,17 @@
     ]
   },
   {
-    "annotation": "hurra",
+    "annotation": "løftede hænder",
     "name": "PERSON RAISING BOTH HANDS IN CELEBRATION",
     "hexcode": "1F64C",
     "shortcodes": [
       "raised_hands"
     ],
     "tags": [
-      "begge hænder oppe"
+      "begge hænder oppe",
+      "hurra",
+      "hænderne over hovedet",
+      "juhu"
     ],
     "emoji": "🙌",
     "text": "",
@@ -27058,7 +27076,9 @@
       "pray"
     ],
     "tags": [
-      "bøn"
+      "bøn",
+      "namaste",
+      "namasté"
     ],
     "emoji": "🙏",
     "text": "",
@@ -27656,6 +27676,7 @@
       "kiss_lips"
     ],
     "tags": [
+      "kys",
       "læber",
       "romantik"
     ],
@@ -27675,10 +27696,10 @@
       "cupid"
     ],
     "tags": [
+      "amor",
       "følelser",
       "hjerte",
-      "kærlighed",
-      "pil"
+      "kærlighed"
     ],
     "emoji": "💘",
     "text": "",
@@ -27773,8 +27794,8 @@
       "sparkling_heart"
     ],
     "tags": [
+      "funkle",
       "følelser",
-      "gnister",
       "kærlighed"
     ],
     "emoji": "💖",
@@ -28206,7 +28227,7 @@
     "tags": [
       "ballon",
       "boble",
-      "mad",
+      "udråb",
       "vred"
     ],
     "emoji": "🗯️",
@@ -28581,7 +28602,7 @@
     "version": 1
   },
   {
-    "annotation": "taske",
+    "annotation": "clutch",
     "name": "POUCH",
     "hexcode": "1F45D",
     "shortcodes": [
@@ -28589,7 +28610,8 @@
       "clutch_bag"
     ],
     "tags": [
-      "pung"
+      "pung",
+      "taske"
     ],
     "emoji": "👝",
     "text": "",
@@ -28730,7 +28752,8 @@
     ],
     "tags": [
       "højhælet sko",
-      "sko"
+      "sko",
+      "stiletter"
     ],
     "emoji": "👠",
     "text": "",
@@ -28784,7 +28807,9 @@
       "crown"
     ],
     "tags": [
-      "beklædning"
+      "diadem",
+      "dronning",
+      "konge"
     ],
     "emoji": "👑",
     "text": "",
@@ -28852,14 +28877,15 @@
     "version": 1
   },
   {
-    "annotation": "reklamekasket",
+    "annotation": "kasket",
     "name": "BILLED CAP",
     "hexcode": "1F9E2",
     "shortcodes": [
       "billed_cap"
     ],
     "tags": [
-      "baseballkasket"
+      "baseballkasket",
+      "cap"
     ],
     "emoji": "🧢",
     "text": "",
@@ -29015,8 +29041,8 @@
     ],
     "tags": [
       "abe",
-      "ansigt",
-      "dyr"
+      "dyr",
+      "hoved"
     ],
     "emoji": "🦍",
     "text": "",
@@ -29036,7 +29062,8 @@
     "tags": [
       "dyr",
       "hoved",
-      "hund"
+      "hund",
+      "kæledyr"
     ],
     "emoji": "🐶",
     "text": "",
@@ -29054,7 +29081,8 @@
       "dog"
     ],
     "tags": [
-      "dyr"
+      "dyr",
+      "kæledyr"
     ],
     "emoji": "🐕️",
     "text": "🐕︎",
@@ -29093,7 +29121,7 @@
     "tags": [
       "dyr",
       "hoved",
-      "ræv"
+      "ulv"
     ],
     "emoji": "🐺",
     "text": "",
@@ -29111,8 +29139,8 @@
       "fox_face"
     ],
     "tags": [
-      "ansigt",
       "dyr",
+      "hoved",
       "listig",
       "ræv",
       "snedig"
@@ -29172,7 +29200,8 @@
       "cat"
     ],
     "tags": [
-      "dyr"
+      "dyr",
+      "kæledyr"
     ],
     "emoji": "🐈️",
     "text": "🐈︎",
@@ -29286,7 +29315,9 @@
       "horse"
     ],
     "tags": [
-      "dyr"
+      "dyr",
+      "hestevæddeløb",
+      "væddeløbshest"
     ],
     "emoji": "🐎",
     "text": "",
@@ -29341,10 +29372,9 @@
       "deer"
     ],
     "tags": [
-      "ansigt",
-      "dyr",
       "gevir",
-      "hjortetakker"
+      "rensdyr",
+      "rådyr"
     ],
     "emoji": "🦌",
     "text": "",
@@ -29513,7 +29543,9 @@
       "ram"
     ],
     "tags": [
-      "dyr"
+      "dyr",
+      "stjernetegn",
+      "vædderen"
     ],
     "emoji": "🐏",
     "text": "",
@@ -29682,7 +29714,7 @@
       "hippo"
     ],
     "tags": [
-      "flodhest"
+      "dyr"
     ],
     "emoji": "🦛",
     "text": "",
@@ -29814,7 +29846,7 @@
       "chipmunk"
     ],
     "tags": [
-      "jordegern"
+      "egern"
     ],
     "emoji": "🐿️",
     "text": "🐿︎",
@@ -29986,7 +30018,7 @@
       "turkey"
     ],
     "tags": [
-      "kalkun"
+      "fugl"
     ],
     "emoji": "🦃",
     "text": "",
@@ -30427,8 +30459,8 @@
       "trex"
     ],
     "tags": [
-      "show examples tyrannosaurus rex",
-      "t-rex"
+      "t-rex",
+      "tyrannosaurus rex"
     ],
     "emoji": "🦖",
     "text": "",
@@ -30698,7 +30730,8 @@
       "snail"
     ],
     "tags": [
-      "dyr"
+      "dyr",
+      "langsom"
     ],
     "emoji": "🐌",
     "text": "",
@@ -30961,14 +30994,14 @@
     "version": 1
   },
   {
-    "annotation": "blomsterstempel",
+    "annotation": "hvid blomst",
     "name": "WHITE FLOWER",
     "hexcode": "1F4AE",
     "shortcodes": [
       "white_flower"
     ],
     "tags": [
-      "stempel"
+      "blomst"
     ],
     "emoji": "💮",
     "text": "",
@@ -31847,18 +31880,18 @@
     "version": 1
   },
   {
-    "annotation": "peanuts",
+    "annotation": "jordnødder",
     "name": "PEANUTS",
     "hexcode": "1F95C",
     "shortcodes": [
       "peanuts"
     ],
     "tags": [
-      "mad",
-      "mellemmåltid",
+      "jordnød",
       "nød",
       "nødder",
       "peanut",
+      "peanuts",
       "snack"
     ],
     "emoji": "🥜",
@@ -32282,6 +32315,7 @@
     ],
     "tags": [
       "madlavning",
+      "spejlæg",
       "stegepande med æg"
     ],
     "emoji": "🍳",
@@ -32643,14 +32677,14 @@
     "version": 1
   },
   {
-    "annotation": "fiskebolle",
+    "annotation": "fiskekage",
     "name": "FISH CAKE WITH SWIRL DESIGN",
     "hexcode": "1F365",
     "shortcodes": [
       "fish_cake"
     ],
     "tags": [
-      "fiskebolle med spiral"
+      "fiskekage med spiral"
     ],
     "emoji": "🍥",
     "text": "",
@@ -32738,14 +32772,16 @@
     "version": 5
   },
   {
-    "annotation": "china box",
+    "annotation": "kinesisk takeaway",
     "name": "TAKEOUT BOX",
     "hexcode": "1F961",
     "shortcodes": [
       "takeout_box"
     ],
     "tags": [
-      "kinesisk"
+      "china box",
+      "kinaboks",
+      "takeaway"
     ],
     "emoji": "🥡",
     "text": "",
@@ -32782,7 +32818,8 @@
     ],
     "tags": [
       "is",
-      "snedessert"
+      "slush ice",
+      "snow cone"
     ],
     "emoji": "🍧",
     "text": "",
@@ -32960,7 +32997,7 @@
     "version": 1
   },
   {
-    "annotation": "slikpind",
+    "annotation": "slikkepind",
     "name": "LOLLIPOP",
     "hexcode": "1F36D",
     "shortcodes": [
@@ -33245,14 +33282,10 @@
       "champagne_glass"
     ],
     "tags": [
-      "alkohol",
       "drikke",
-      "drikker",
-      "fejrer",
       "fejring",
-      "fest",
       "glas",
-      "skåler"
+      "skåle"
     ],
     "emoji": "🥂",
     "text": "",
@@ -33270,17 +33303,11 @@
       "tumbler_glass"
     ],
     "tags": [
-      "drikke",
-      "drikker",
-      "fladbundet",
-      "glas",
-      "shot",
       "shotglas",
+      "shots",
       "spiritus",
-      "spiritusglas",
       "sprut",
-      "whisky",
-      "whiskyglas"
+      "whisky"
     ],
     "emoji": "🥃",
     "text": "",
@@ -33493,14 +33520,15 @@
     "version": 1
   },
   {
-    "annotation": "globus med længdegrader",
+    "annotation": "globus med meridianer",
     "name": "GLOBE WITH MERIDIANS",
     "hexcode": "1F310",
     "shortcodes": [
       "globe"
     ],
     "tags": [
-      "meridianer"
+      "breddegrader",
+      "længdegrader"
     ],
     "emoji": "🌐",
     "text": "",
@@ -33959,7 +33987,8 @@
       "bygning",
       "doktor",
       "læge",
-      "medicin"
+      "medicin",
+      "sygehus"
     ],
     "emoji": "🏥",
     "text": "",
@@ -34361,6 +34390,7 @@
       "night_stars"
     ],
     "tags": [
+      "nat",
       "stjerner"
     ],
     "emoji": "🌃",
@@ -34622,13 +34652,14 @@
     "version": 1
   },
   {
-    "annotation": "damplokomotiv",
+    "annotation": "lokomotiv",
     "name": "STEAM LOCOMOTIVE",
     "hexcode": "1F682",
     "shortcodes": [
       "steam_locomotive"
     ],
     "tags": [
+      "damplokomotiv",
       "tog"
     ],
     "emoji": "🚂",
@@ -34719,7 +34750,9 @@
       "metro"
     ],
     "tags": [
-      "køretøj"
+      "køretøj",
+      "undergrund",
+      "undergrundsbane"
     ],
     "emoji": "🚇️",
     "text": "🚇︎",
@@ -35003,7 +35036,8 @@
     ],
     "tags": [
       "bil",
-      "køretøj"
+      "køretøj",
+      "taxi"
     ],
     "emoji": "🚕",
     "text": "",
@@ -35317,7 +35351,7 @@
     "version": 1
   },
   {
-    "annotation": "blinklys",
+    "annotation": "politiblink",
     "name": "POLICE CARS REVOLVING LIGHT",
     "hexcode": "1F6A8",
     "shortcodes": [
@@ -35325,7 +35359,10 @@
       "police_light"
     ],
     "tags": [
-      "politi"
+      "politi",
+      "politilys",
+      "rotorblink",
+      "rødt blink"
     ],
     "emoji": "🚨",
     "text": "",
@@ -35654,6 +35691,7 @@
       "seat"
     ],
     "tags": [
+      "plads",
       "stol"
     ],
     "emoji": "💺",
@@ -36602,7 +36640,7 @@
       "crescent_moon"
     ],
     "tags": [
-      "aftagende måne"
+      "tiltagende måne"
     ],
     "emoji": "🌙",
     "text": "",
@@ -36651,7 +36689,7 @@
     "version": 1
   },
   {
-    "annotation": "måne med ansigt 2. fjerdedel",
+    "annotation": "måne med ansigt 4. fjerdedel",
     "name": "LAST QUARTER MOON WITH FACE",
     "hexcode": "1F31C",
     "shortcodes": [
@@ -36696,7 +36734,6 @@
     ],
     "tags": [
       "lys",
-      "rum",
       "solskin",
       "stråler",
       "vejr"
@@ -36710,7 +36747,7 @@
     "version": 1
   },
   {
-    "annotation": "fuldmåneansigt",
+    "annotation": "fuldmåne med ansigt",
     "name": "FULL MOON WITH FACE",
     "hexcode": "1F31D",
     "shortcodes": [
@@ -36718,7 +36755,7 @@
     ],
     "tags": [
       "fuldmåne",
-      "fuldmåne med ansigt",
+      "fuldmåneansigt",
       "måne med ansigt",
       "måneansigt"
     ],
@@ -36750,7 +36787,7 @@
     "version": 1
   },
   {
-    "annotation": "hvid mellemstor stjerne",
+    "annotation": "stjerne",
     "name": "WHITE MEDIUM STAR",
     "hexcode": "2B50",
     "shortcodes": [
@@ -37139,7 +37176,6 @@
       "dråbe",
       "paraply",
       "regn",
-      "tøj",
       "vejr"
     ],
     "emoji": "☔️",
@@ -37325,7 +37361,7 @@
     "version": 1
   },
   {
-    "annotation": "græskarlygte",
+    "annotation": "græskarmand",
     "name": "JACK-O-LANTERN",
     "hexcode": "1F383",
     "shortcodes": [
@@ -37333,6 +37369,7 @@
     ],
     "tags": [
       "græskar",
+      "græskarlygte",
       "halloween"
     ],
     "emoji": "🎃",
@@ -37507,7 +37544,9 @@
       "tanabata_tree"
     ],
     "tags": [
-      "festival"
+      "festival",
+      "japansk",
+      "tanabata"
     ],
     "emoji": "🎋",
     "text": "",
@@ -37518,7 +37557,7 @@
     "version": 1
   },
   {
-    "annotation": "fyrtræsdekoration",
+    "annotation": "fyrretræsdekoration",
     "name": "PINE DECORATION",
     "hexcode": "1F38D",
     "shortcodes": [
@@ -37544,7 +37583,9 @@
       "dolls"
     ],
     "tags": [
-      "japanske dukker"
+      "fejring",
+      "festival",
+      "japansk"
     ],
     "emoji": "🎎",
     "text": "",
@@ -37702,7 +37743,9 @@
     ],
     "tags": [
       "adgang",
-      "billet"
+      "billet",
+      "entré",
+      "entrébillet"
     ],
     "emoji": "🎟️",
     "text": "🎟︎",
@@ -37720,6 +37763,7 @@
       "ticket"
     ],
     "tags": [
+      "entré",
       "forlystelse",
       "underholdning"
     ],
@@ -38391,7 +38435,8 @@
       "8ball"
     ],
     "tags": [
-      "billardkugle"
+      "billardkugle",
+      "pool"
     ],
     "emoji": "🎱",
     "text": "",
@@ -38700,7 +38745,8 @@
       "flower_cards"
     ],
     "tags": [
-      "spillekort med blomster"
+      "japansk",
+      "kortspil"
     ],
     "emoji": "🎴",
     "text": "",
@@ -38893,15 +38939,16 @@
     "version": 1
   },
   {
-    "annotation": "højttaler med håndtag",
+    "annotation": "elektrisk megafon",
     "name": "PUBLIC ADDRESS LOUDSPEAKER",
     "hexcode": "1F4E2",
     "shortcodes": [
       "loudspeaker"
     ],
     "tags": [
-      "højt",
-      "offentlig"
+      "højttaler",
+      "offentlig tale",
+      "tale"
     ],
     "emoji": "📢",
     "text": "",
@@ -39306,7 +39353,9 @@
       "mobile_calling"
     ],
     "tags": [
-      "lav et opkald"
+      "indgående opkald",
+      "lav et opkald",
+      "modtag et opkald"
     ],
     "emoji": "📲",
     "text": "",
@@ -39324,7 +39373,7 @@
       "telephone"
     ],
     "tags": [
-      "telefon"
+      "fastnet"
     ],
     "emoji": "☎️",
     "text": "☎︎",
@@ -39399,7 +39448,8 @@
       "battery"
     ],
     "tags": [
-      "batteri"
+      "opladet",
+      "opladning"
     ],
     "emoji": "🔋",
     "text": "",
@@ -39418,7 +39468,8 @@
     ],
     "tags": [
       "elektricitet",
-      "elektrisk"
+      "elektrisk",
+      "ledning"
     ],
     "emoji": "🔌",
     "text": "",
@@ -39882,6 +39933,7 @@
     ],
     "tags": [
       "ide",
+      "idé",
       "lys ide"
     ],
     "emoji": "💡",
@@ -39973,7 +40025,8 @@
       "book"
     ],
     "tags": [
-      "bog"
+      "bog",
+      "læse"
     ],
     "emoji": "📖",
     "text": "",
@@ -40343,6 +40396,7 @@
       "money_wings"
     ],
     "tags": [
+      "forbrug",
       "penge",
       "penge med vinger"
     ],
@@ -40461,7 +40515,9 @@
       "envelope"
     ],
     "tags": [
-      "e-mail"
+      "brev",
+      "e-mail",
+      "mail"
     ],
     "emoji": "✉️",
     "text": "✉︎",
@@ -40707,7 +40763,7 @@
       "pencil"
     ],
     "tags": [
-      "blyant"
+      "skrive"
     ],
     "emoji": "✏️",
     "text": "✏︎",
@@ -41289,6 +41345,7 @@
       "unlock"
     ],
     "tags": [
+      "låst op",
       "åben lås"
     ],
     "emoji": "🔓️",
@@ -41458,13 +41515,14 @@
     "version": 1
   },
   {
-    "annotation": "daggert",
+    "annotation": "dolk",
     "name": "DAGGER KNIFE",
     "hexcode": "1F5E1",
     "shortcodes": [
       "dagger"
     ],
     "tags": [
+      "daggert",
       "kniv",
       "våben"
     ],
@@ -41566,6 +41624,7 @@
       "wrench"
     ],
     "tags": [
+      "svensknøgle",
       "værktøj"
     ],
     "emoji": "🔧",
@@ -41604,6 +41663,7 @@
       "gear"
     ],
     "tags": [
+      "gear",
       "værktøj"
     ],
     "emoji": "⚙️",
@@ -41826,7 +41886,9 @@
       "microscope"
     ],
     "tags": [
+      "naturfag",
       "redskab",
+      "videnskab",
       "værktøj"
     ],
     "emoji": "🔬",
@@ -41845,7 +41907,9 @@
       "telescope"
     ],
     "tags": [
+      "astronomi",
       "redskab",
+      "videnskab",
       "værktøj"
     ],
     "emoji": "🔭",
@@ -41864,7 +41928,8 @@
       "satellite_antenna"
     ],
     "tags": [
-      "kommunikation"
+      "parabol",
+      "satellit"
     ],
     "emoji": "📡",
     "text": "",
@@ -41922,7 +41987,7 @@
       "door"
     ],
     "tags": [
-      "åben dør"
+      "lukket dør"
     ],
     "emoji": "🚪",
     "text": "",
@@ -42015,7 +42080,8 @@
       "bathtub"
     ],
     "tags": [
-      "bad"
+      "bad",
+      "karbad"
     ],
     "emoji": "🛁",
     "text": "",
@@ -42033,7 +42099,10 @@
       "lotion"
     ],
     "tags": [
-      "bodylotion"
+      "fugtighedscreme",
+      "lotion",
+      "shampoo",
+      "solcreme"
     ],
     "emoji": "🧴",
     "text": "",
@@ -42233,6 +42302,7 @@
       "coffin"
     ],
     "tags": [
+      "begravelse",
       "død"
     ],
     "emoji": "⚰️",
@@ -42270,7 +42340,9 @@
       "moai"
     ],
     "tags": [
-      "moyai-statue"
+      "moai",
+      "moai-statue",
+      "stenstatue"
     ],
     "emoji": "🗿",
     "text": "",
@@ -42288,7 +42360,7 @@
       "atm"
     ],
     "tags": [
-      "dankortsautomat",
+      "dankortautomat",
       "hæve penge"
     ],
     "emoji": "🏧",
@@ -42357,13 +42429,14 @@
     "version": 1
   },
   {
-    "annotation": "mænd",
+    "annotation": "herretoilet",
     "name": "MENS SYMBOL",
     "hexcode": "1F6B9",
     "shortcodes": [
       "mens"
     ],
     "tags": [
+      "herrer",
       "toilet",
       "wc"
     ],
@@ -42376,13 +42449,14 @@
     "version": 1
   },
   {
-    "annotation": "kvinder",
+    "annotation": "dametoilet",
     "name": "WOMENS SYMBOL",
     "hexcode": "1F6BA",
     "shortcodes": [
       "womens"
     ],
     "tags": [
+      "damer",
       "toilet",
       "wc"
     ],
@@ -42403,7 +42477,8 @@
       "bathroom"
     ],
     "tags": [
-      "toilet-skilt"
+      "toilet",
+      "wc"
     ],
     "emoji": "🚻",
     "text": "",
@@ -42421,7 +42496,9 @@
       "baby_symbol"
     ],
     "tags": [
-      "baby-skilt",
+      "baby",
+      "babyskilt",
+      "bleskift",
       "skifte"
     ],
     "emoji": "🚼️",
@@ -43048,15 +43125,18 @@
     "version": 1
   },
   {
-    "annotation": "genindlæs",
+    "annotation": "lodrette cirkulære pile med uret",
     "name": "CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS",
     "hexcode": "1F503",
     "shortcodes": [
       "clockwise"
     ],
     "tags": [
-      "genindlæs-tegn",
-      "vertikale pile med uret"
+      "cirkulære pile",
+      "genindlæs",
+      "lodrette pile",
+      "med uret",
+      "vertikale pile"
     ],
     "emoji": "🔃",
     "text": "",
@@ -43067,15 +43147,16 @@
     "version": 1
   },
   {
-    "annotation": "mod uret",
+    "annotation": "vandrette cirkulære pile mod uret",
     "name": "ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS",
     "hexcode": "1F504",
     "shortcodes": [
       "counter_clockwise"
     ],
     "tags": [
-      "pile",
-      "pile mod uret"
+      "cirkulære pile",
+      "mod uret",
+      "vandrette pile"
     ],
     "emoji": "🔄",
     "text": "",
@@ -43125,16 +43206,17 @@
     "version": 1
   },
   {
-    "annotation": "ON-pil",
+    "annotation": "ON!-dobbeltpil",
     "name": "ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE",
     "hexcode": "1F51B",
     "shortcodes": [
       "on"
     ],
     "tags": [
-      "on med udråbstegn",
-      "on-pil",
-      "på"
+      "dobbeltpil",
+      "on!",
+      "on!-dobbeltpil",
+      "on!-pil"
     ],
     "emoji": "🔛",
     "text": "",
@@ -43657,15 +43739,16 @@
     "version": 1
   },
   {
-    "annotation": "krydsede pile",
+    "annotation": "pile for bland",
     "name": "TWISTED RIGHTWARDS ARROWS",
     "hexcode": "1F500",
     "shortcodes": [
       "shuffle"
     ],
     "tags": [
-      "pile",
-      "pile mod højre"
+      "bland sange",
+      "krydsende pile",
+      "mod højre"
     ],
     "emoji": "🔀",
     "text": "",
@@ -44333,7 +44416,7 @@
     "version": 1
   },
   {
-    "annotation": "flueben",
+    "annotation": "hvidt flueben",
     "name": "WHITE HEAVY CHECK MARK",
     "hexcode": "2705",
     "shortcodes": [
@@ -44719,7 +44802,10 @@
       "white_exclamation"
     ],
     "tags": [
-      "fixed to avoid duplicate"
+      "omrids",
+      "tegnsætning",
+      "udråb",
+      "udråbstegn"
     ],
     "emoji": "❕",
     "text": "",
@@ -45085,6 +45171,7 @@
       "upper_abcd"
     ],
     "tags": [
+      "abcd",
       "symbol for store bogstaver"
     ],
     "emoji": "🔠",
@@ -45103,6 +45190,7 @@
       "abcd"
     ],
     "tags": [
+      "abcd",
       "symbol for små bogstaver"
     ],
     "emoji": "🔡",
@@ -45121,6 +45209,7 @@
       "1234"
     ],
     "tags": [
+      "1234",
       "symbol for tal"
     ],
     "emoji": "🔢",
@@ -45157,6 +45246,7 @@
       "abc"
     ],
     "tags": [
+      "abc",
       "symbol for latinske alfabet"
     ],
     "emoji": "🔤",
@@ -45289,7 +45379,7 @@
     "version": 1
   },
   {
-    "annotation": "informationskilde",
+    "annotation": "information",
     "name": "INFORMATION SOURCE",
     "hexcode": "2139",
     "shortcodes": [
@@ -45297,7 +45387,7 @@
     ],
     "tags": [
       "i",
-      "information",
+      "informationskilde",
       "turistinformation"
     ],
     "emoji": "ℹ️",
@@ -45579,7 +45669,7 @@
     "version": 1
   },
   {
-    "annotation": "kvadratisk ideogram for finger",
+    "annotation": "kvadratisk ideogram for reserveret",
     "name": "SQUARED CJK UNIFIED IDEOGRAPH-6307",
     "hexcode": "1F22F",
     "shortcodes": [
@@ -45676,7 +45766,7 @@
       "ja_acceptable"
     ],
     "tags": [
-      "kinesisk"
+      "japansk"
     ],
     "emoji": "🉑",
     "text": "",
@@ -45694,7 +45784,7 @@
       "ja_application"
     ],
     "tags": [
-      "kinesisk"
+      "japansk"
     ],
     "emoji": "🈸",
     "text": "",
@@ -45712,7 +45802,7 @@
       "ja_passing_grade"
     ],
     "tags": [
-      "kinesisk"
+      "japansk"
     ],
     "emoji": "🈴",
     "text": "",
@@ -45730,7 +45820,7 @@
       "ja_vacancy"
     ],
     "tags": [
-      "kinesisk"
+      "japansk"
     ],
     "emoji": "🈳",
     "text": "",
@@ -45771,7 +45861,7 @@
     "tags": [
       "hemmelighed",
       "ideogram",
-      "kinesisk"
+      "japansk"
     ],
     "emoji": "㊙️",
     "text": "㊙︎",
@@ -45789,7 +45879,7 @@
       "ja_open_for_business"
     ],
     "tags": [
-      "kinesisk"
+      "japansk"
     ],
     "emoji": "🈺",
     "text": "",
@@ -45807,7 +45897,7 @@
       "ja_no_vacancy"
     ],
     "tags": [
-      "kinesisk"
+      "japansk"
     ],
     "emoji": "🈵",
     "text": "",
@@ -45970,16 +46060,16 @@
     "version": 1
   },
   {
-    "annotation": "stor orange diamant",
+    "annotation": "stor orange ruder",
     "name": "LARGE ORANGE DIAMOND",
     "hexcode": "1F536",
     "shortcodes": [
       "large_orange_diamond"
     ],
     "tags": [
-      "diamant",
       "geometrisk",
-      "orange"
+      "orange",
+      "ruder"
     ],
     "emoji": "🔶",
     "text": "",
@@ -45990,7 +46080,7 @@
     "version": 1
   },
   {
-    "annotation": "stor blå diamant",
+    "annotation": "stor blå ruder",
     "name": "LARGE BLUE DIAMOND",
     "hexcode": "1F537",
     "shortcodes": [
@@ -45998,8 +46088,8 @@
     ],
     "tags": [
       "blå",
-      "diamant",
-      "geometrisk"
+      "geometrisk",
+      "ruder"
     ],
     "emoji": "🔷",
     "text": "",
@@ -46010,16 +46100,16 @@
     "version": 1
   },
   {
-    "annotation": "lille orange diamant",
+    "annotation": "lille orange ruder",
     "name": "SMALL ORANGE DIAMOND",
     "hexcode": "1F538",
     "shortcodes": [
       "small_orange_diamond"
     ],
     "tags": [
-      "diamant",
       "geometrisk",
-      "orange"
+      "orange",
+      "ruder"
     ],
     "emoji": "🔸",
     "text": "",
@@ -46030,7 +46120,7 @@
     "version": 1
   },
   {
-    "annotation": "lille blå diamant",
+    "annotation": "lille blå ruder",
     "name": "SMALL BLUE DIAMOND",
     "hexcode": "1F539",
     "shortcodes": [
@@ -46038,8 +46128,8 @@
     ],
     "tags": [
       "blå",
-      "diamant",
-      "geometrisk"
+      "geometrisk",
+      "ruder"
     ],
     "emoji": "🔹",
     "text": "",
@@ -46090,14 +46180,15 @@
     "version": 1
   },
   {
-    "annotation": "diamant med prik",
+    "annotation": "ruder med prik",
     "name": "DIAMOND SHAPE WITH A DOT INSIDE",
     "hexcode": "1F4A0",
     "shortcodes": [
       "diamond_dot"
     ],
     "tags": [
-      "følelse"
+      "geometisk",
+      "ruder"
     ],
     "emoji": "💠",
     "text": "",

@@ -1,3 +1,9 @@
+# 3.2.0 - 10/20/18
+
+#### 🚀 New
+
+- Updated to [CLDR 34](http://cldr.unicode.org/index/downloads/cldr-34).
+
 # 3.1.0 - 08/02/18
 
 #### 🚀 New

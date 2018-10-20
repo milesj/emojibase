@@ -524,6 +524,7 @@
     "tags": [
       "deadpan",
       "face",
+      "meh",
       "neutral"
     ],
     "emoji": "😐️",
@@ -547,6 +548,7 @@
       "expressionless",
       "face",
       "inexpressive",
+      "meh",
       "unexpressive"
     ],
     "emoji": "😑",
@@ -588,6 +590,7 @@
       "disbelief"
     ],
     "tags": [
+      "eyeroll",
       "eyes",
       "face",
       "rolling"
@@ -962,7 +965,8 @@
     ],
     "tags": [
       "confused",
-      "face"
+      "face",
+      "meh"
     ],
     "emoji": "😕",
     "text": "",
@@ -20889,8 +20893,7 @@
     "tags": [
       "bicycle",
       "biking",
-      "cyclist",
-      "person cycling"
+      "cyclist"
     ],
     "emoji": "🚴",
     "text": "",
@@ -20993,7 +20996,7 @@
       "bicycle",
       "biking",
       "cyclist",
-      "man cycling"
+      "man"
     ],
     "emoji": "🚴‍♂️",
     "text": "",
@@ -21102,7 +21105,7 @@
       "bicycle",
       "biking",
       "cyclist",
-      "woman cycling"
+      "woman"
     ],
     "emoji": "🚴‍♀️",
     "text": "",
@@ -30192,8 +30195,7 @@
       "crocodile"
     ],
     "tags": [
-      "alligator",
-      "croc"
+      "crocodile"
     ],
     "emoji": "🐊",
     "text": "",
@@ -30328,7 +30330,6 @@
     ],
     "tags": [
       "t-rex",
-      "t. rex",
       "tyrannosaurus rex"
     ],
     "emoji": "🦖",
@@ -31571,13 +31572,16 @@
     "version": 3
   },
   {
-    "annotation": "aubergine",
+    "annotation": "eggplant",
     "name": "AUBERGINE",
     "hexcode": "1F346",
     "shortcodes": [
       "eggplant"
     ],
-    "tags": [],
+    "tags": [
+      "aubergine",
+      "vegetable"
+    ],
     "emoji": "🍆",
     "text": "",
     "type": 1,
@@ -31695,8 +31699,7 @@
       "bok choy",
       "cabbage",
       "kale",
-      "lettuce",
-      "pak choi"
+      "lettuce"
     ],
     "emoji": "🥬",
     "text": "",
@@ -31831,8 +31834,7 @@
       "baguette",
       "bread",
       "food",
-      "french",
-      "french stick"
+      "french"
     ],
     "emoji": "🥖",
     "text": "",
@@ -32652,7 +32654,9 @@
     "shortcodes": [
       "takeout_box"
     ],
-    "tags": [],
+    "tags": [
+      "oyster pail"
+    ],
     "emoji": "🥡",
     "text": "",
     "type": 1,
@@ -32916,7 +32920,6 @@
       "custard"
     ],
     "tags": [
-      "crème caramel",
       "dessert",
       "pudding",
       "sweet"
@@ -33602,7 +33605,7 @@
       "camping"
     ],
     "tags": [
-      "tent"
+      "camping"
     ],
     "emoji": "🏕️",
     "text": "🏕︎",
@@ -34458,7 +34461,6 @@
       "milky_way"
     ],
     "tags": [
-      "galaxy",
       "space"
     ],
     "emoji": "🌌",
@@ -35115,8 +35117,7 @@
       "bike"
     ],
     "tags": [
-      "bike",
-      "cycle"
+      "bike"
     ],
     "emoji": "🚲️",
     "text": "🚲︎",
@@ -35537,13 +35538,15 @@
     "version": 1
   },
   {
-    "annotation": "aeroplane",
+    "annotation": "airplane",
     "name": "AIRPLANE",
     "hexcode": "2708",
     "shortcodes": [
       "airplane"
     ],
-    "tags": [],
+    "tags": [
+      "aeroplane"
+    ],
     "emoji": "✈️",
     "text": "✈︎",
     "type": 1,
@@ -35553,7 +35556,7 @@
     "version": 1
   },
   {
-    "annotation": "small aeroplane",
+    "annotation": "small airplane",
     "name": "SMALL AIRPLANE",
     "hexcode": "1F6E9",
     "shortcodes": [
@@ -35561,8 +35564,7 @@
     ],
     "tags": [
       "aeroplane",
-      "airplane",
-      "small airplane"
+      "airplane"
     ],
     "emoji": "🛩️",
     "text": "🛩︎",
@@ -35573,13 +35575,19 @@
     "version": 1
   },
   {
-    "annotation": "aeroplane departure",
+    "annotation": "airplane departure",
     "name": "AIRPLANE DEPARTURE",
     "hexcode": "1F6EB",
     "shortcodes": [
       "airplane_departure"
     ],
-    "tags": [],
+    "tags": [
+      "aeroplane",
+      "airplane",
+      "check-in",
+      "departure",
+      "departures"
+    ],
     "emoji": "🛫",
     "text": "",
     "type": 1,
@@ -35589,7 +35597,7 @@
     "version": 1
   },
   {
-    "annotation": "aeroplane arrival",
+    "annotation": "airplane arrival",
     "name": "AIRPLANE ARRIVING",
     "hexcode": "1F6EC",
     "shortcodes": [
@@ -35598,7 +35606,6 @@
     "tags": [
       "aeroplane",
       "airplane",
-      "airplane arrival",
       "arrivals",
       "arriving",
       "landing"
@@ -35676,8 +35683,7 @@
     "tags": [
       "cable",
       "gondola",
-      "mountain",
-      "mountain cablecar"
+      "mountain"
     ],
     "emoji": "🚠",
     "text": "",
@@ -35923,8 +35929,7 @@
       "clock"
     ],
     "tags": [
-      "clock",
-      "mantel clock"
+      "clock"
     ],
     "emoji": "🕰️",
     "text": "🕰︎",
@@ -36514,14 +36519,15 @@
     "version": 1
   },
   {
-    "annotation": "first-quarter moon",
+    "annotation": "first quarter moon",
     "name": "FIRST QUARTER MOON SYMBOL",
     "hexcode": "1F313",
     "shortcodes": [
       "first_quarter_moon"
     ],
     "tags": [
-      "first-quarter moon"
+      "moon",
+      "quarter"
     ],
     "emoji": "🌓",
     "text": "",
@@ -36591,14 +36597,15 @@
     "version": 1
   },
   {
-    "annotation": "last-quarter moon",
+    "annotation": "last quarter moon",
     "name": "LAST QUARTER MOON SYMBOL",
     "hexcode": "1F317",
     "shortcodes": [
       "last_quarter_moon"
     ],
     "tags": [
-      "last-quarter moon"
+      "moon",
+      "quarter"
     ],
     "emoji": "🌗",
     "text": "",
@@ -36667,14 +36674,16 @@
     "version": 1
   },
   {
-    "annotation": "first-quarter moon face",
+    "annotation": "first quarter moon face",
     "name": "FIRST QUARTER MOON WITH FACE",
     "hexcode": "1F31B",
     "shortcodes": [
       "first_quarter_moon_face"
     ],
     "tags": [
-      "first-quarter moon face"
+      "face",
+      "moon",
+      "quarter"
     ],
     "emoji": "🌛",
     "text": "",
@@ -36685,14 +36694,16 @@
     "version": 1
   },
   {
-    "annotation": "last-quarter moon face",
+    "annotation": "last quarter moon face",
     "name": "LAST QUARTER MOON WITH FACE",
     "hexcode": "1F31C",
     "shortcodes": [
       "last_quarter_moon_face"
     ],
     "tags": [
-      "last-quarter moon face"
+      "face",
+      "moon",
+      "quarter"
     ],
     "emoji": "🌜️",
     "text": "🌜︎",
@@ -37895,14 +37906,16 @@
     "version": 3
   },
   {
-    "annotation": "football",
+    "annotation": "soccer ball",
     "name": "SOCCER BALL",
     "hexcode": "26BD",
     "shortcodes": [
       "soccer"
     ],
     "tags": [
-      "football"
+      "ball",
+      "football",
+      "soccer"
     ],
     "emoji": "⚽️",
     "text": "⚽︎",
@@ -38105,14 +38118,18 @@
     "version": 1
   },
   {
-    "annotation": "hockey",
+    "annotation": "field hockey",
     "name": "FIELD HOCKEY STICK AND BALL",
     "hexcode": "1F3D1",
     "shortcodes": [
       "field_hockey"
     ],
     "tags": [
-      "hockey"
+      "ball",
+      "field",
+      "game",
+      "hockey",
+      "stick"
     ],
     "emoji": "🏑",
     "text": "",
@@ -38165,13 +38182,17 @@
     "version": 11
   },
   {
-    "annotation": "table tennis",
+    "annotation": "ping pong",
     "name": "TABLE TENNIS PADDLE AND BALL",
     "hexcode": "1F3D3",
     "shortcodes": [
       "ping_pong"
     ],
     "tags": [
+      "ball",
+      "bat",
+      "game",
+      "paddle",
       "table tennis"
     ],
     "emoji": "🏓",
@@ -38310,7 +38331,6 @@
       "fishing_pole"
     ],
     "tags": [
-      "angling",
       "fish",
       "pole"
     ],
@@ -41240,7 +41260,6 @@
       "pushpin"
     ],
     "tags": [
-      "map pin",
       "pin"
     ],
     "emoji": "📌",
@@ -41603,7 +41622,7 @@
     "version": 1
   },
   {
-    "annotation": "hammer and spanner",
+    "annotation": "hammer and wrench",
     "name": "HAMMER AND WRENCH",
     "hexcode": "1F6E0",
     "shortcodes": [
@@ -41611,7 +41630,10 @@
       "hammer_wrench"
     ],
     "tags": [
-      "hammer and spanner"
+      "hammer",
+      "spanner",
+      "tool",
+      "wrench"
     ],
     "emoji": "🛠️",
     "text": "🛠︎",
@@ -41724,14 +41746,15 @@
     "version": 1
   },
   {
-    "annotation": "spanner",
+    "annotation": "wrench",
     "name": "WRENCH",
     "hexcode": "1F527",
     "shortcodes": [
       "wrench"
     ],
     "tags": [
-      "spanner"
+      "spanner",
+      "tool"
     ],
     "emoji": "🔧",
     "text": "",
@@ -42205,7 +42228,7 @@
     ],
     "tags": [
       "lotion",
-      "moisturiser",
+      "moisturizer",
       "shampoo",
       "sunscreen"
     ],
@@ -42225,7 +42248,7 @@
       "safety_pin"
     ],
     "tags": [
-      "nappy",
+      "diaper",
       "punk rock"
     ],
     "emoji": "🧷",
@@ -42285,8 +42308,7 @@
     ],
     "tags": [
       "paper towels",
-      "toilet paper",
-      "toilet roll"
+      "toilet paper"
     ],
     "emoji": "🧻",
     "text": "",
@@ -42359,14 +42381,16 @@
     "version": 11
   },
   {
-    "annotation": "shopping trolley",
+    "annotation": "shopping cart",
     "name": "SHOPPING TROLLEY",
     "hexcode": "1F6D2",
     "shortcodes": [
       "shopping_cart"
     ],
     "tags": [
-      "shopping trolley"
+      "cart",
+      "shopping",
+      "trolley"
     ],
     "emoji": "🛒",
     "text": "",
@@ -42496,14 +42520,16 @@
     "version": 1
   },
   {
-    "annotation": "drinking water",
+    "annotation": "potable water",
     "name": "POTABLE WATER SYMBOL",
     "hexcode": "1F6B0",
     "shortcodes": [
       "potable_water"
     ],
     "tags": [
-      "drinking water"
+      "drinking",
+      "potable",
+      "water"
     ],
     "emoji": "🚰",
     "text": "",
@@ -42860,14 +42886,16 @@
     "version": 1
   },
   {
-    "annotation": "non-drinking water",
+    "annotation": "non-potable water",
     "name": "NON-POTABLE WATER SYMBOL",
     "hexcode": "1F6B1",
     "shortcodes": [
       "non_potable_water"
     ],
     "tags": [
-      "non-drinking water"
+      "non-drinking",
+      "non-potable",
+      "water"
     ],
     "emoji": "🚱",
     "text": "",
@@ -43278,14 +43306,17 @@
     "version": 1
   },
   {
-    "annotation": "anticlockwise arrows button",
+    "annotation": "counterclockwise arrows button",
     "name": "ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS",
     "hexcode": "1F504",
     "shortcodes": [
       "counter_clockwise"
     ],
     "tags": [
-      "anticlockwise arrows button"
+      "anticlockwise",
+      "arrow",
+      "counterclockwise",
+      "withershins"
     ],
     "emoji": "🔄",
     "text": "",
@@ -44069,14 +44100,16 @@
     "version": 1
   },
   {
-    "annotation": "fast-reverse button",
+    "annotation": "fast reverse button",
     "name": "BLACK LEFT-POINTING DOUBLE TRIANGLE",
     "hexcode": "23EA",
     "shortcodes": [
       "rewind"
     ],
     "tags": [
-      "fast-reverse button"
+      "arrow",
+      "double",
+      "rewind"
     ],
     "emoji": "⏪️",
     "text": "⏪︎",

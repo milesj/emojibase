@@ -40,7 +40,7 @@ export const SKIN_KEY_DARK = 'dark';
 
 export const LATEST_EMOJI_VERSION = '11.0';
 export const LATEST_UNICODE_VERSION = '11.0.0';
-export const LATEST_CLDR_VERSION = '33.1';
+export const LATEST_CLDR_VERSION = '34';
 export const FIRST_UNICODE_EMOJI_VERSION = '6.0.0';
 export const SUPPORTED_LOCALES = [
   'da', // Danish
