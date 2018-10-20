@@ -14,7 +14,7 @@
     "test": "yarn run jest",
     "prettier": "beemo prettier",
     "prerelease": "yarn test && yarn run build",
-    "release": "lerna publish --ignore=emojibase-generator",
+    "release": "lerna publish --ignore-changes=emojibase-generator",
     "type": "beemo typescript --workspaces=emojibase,emojibase-generator,emojibase-test-utils --noEmit --no-priority"
   },
   "devDependencies": {
