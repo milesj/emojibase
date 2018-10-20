@@ -18,11 +18,11 @@
     "type": "beemo typescript --workspaces=emojibase,emojibase-generator,emojibase-test-utils --noEmit"
   },
   "devDependencies": {
-    "@milesj/build-tools": "^0.1.1",
+    "@milesj/build-tools": "^0.4.2",
     "filesize": "^3.6.1",
     "glob": "^7.1.3",
     "gzip-size": "^5.0.0",
-    "lerna": "^3.4.0"
+    "lerna": "^3.4.3"
   },
   "workspaces": [
     "packages/*"
