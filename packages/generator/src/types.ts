@@ -17,7 +17,9 @@ import {
 
 export { Emoticon, Gender, Group, Hexcode, Presentation, Shortcode, SkinTone, Subgroup, Unicode };
 
-export type HexcodeMap<T> = { [hexcode: string]: T };
+export interface HexcodeMap<T> {
+  [hexcode: string]: T;
+}
 
 export type Property =
   // An emoji character.
