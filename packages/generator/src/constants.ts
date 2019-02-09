@@ -1,8 +1,3 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 /* eslint-disable sort-keys */
 
 import { Property } from './types';

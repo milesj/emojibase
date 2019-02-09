@@ -1,8 +1,3 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 import { EMOJI } from 'emojibase';
 import parse from './parse';
 import extractGender from './extractGender';

@@ -1,8 +1,3 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 import { ParsedLine, ParsedTotals } from '../types';
 
 // Trying to detect the start of each property group is quite complicated,

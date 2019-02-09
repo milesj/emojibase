@@ -1,8 +1,3 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 import log from '../helpers/log';
 import flattenData from '../helpers/flattenData';
 import loadEmojiList from '../loaders/loadEmojiList';

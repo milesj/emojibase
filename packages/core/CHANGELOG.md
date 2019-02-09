@@ -1,3 +1,18 @@
+# 2.2.0
+
+#### 🚀 New
+
+- Added ECMAScript module support via `esm/` built files.
+- Removed docblocks from source files to reduce bundle size.
+
+#### 🐞 Fixed
+
+- Fixed a bug where an invalid cache would error trying to parse JSON.
+
+#### 🛠 Internal
+
+- Dependency updates.
+
 # 2.1.0 - 10/20/18
 
 #### 🚀 New

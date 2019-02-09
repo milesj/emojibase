@@ -2,7 +2,7 @@
   "name": "emojibase-root",
   "private": true,
   "scripts": {
-    "build": "beemo typescript --workspaces=emojibase,emojibase-generator,emojibase-test-utils",
+    "build": "beemo run-script build",
     "clean:cache": "rimraf ./cache",
     "coverage": "yarn run jest --coverage",
     "eslint": "beemo eslint",
@@ -18,11 +18,11 @@
     "type": "beemo typescript --workspaces=emojibase,emojibase-generator,emojibase-test-utils --noEmit --no-priority"
   },
   "devDependencies": {
-    "@milesj/build-tools": "^0.24.1",
+    "@milesj/build-tools": "^0.25.3",
     "filesize": "^4.0.0",
     "glob": "^7.1.3",
     "gzip-size": "^5.0.0",
-    "lerna": "^3.10.8"
+    "lerna": "^3.11.0"
   },
   "workspaces": [
     "packages/*"

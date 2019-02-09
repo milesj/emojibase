@@ -1,8 +1,3 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 export interface FetchFromCDNOptions extends RequestInit {
   local?: boolean;
 }
@@ -12,7 +7,7 @@ export default function fetchFromCDN<T>(
   version: string = 'latest',
   options: FetchFromCDNOptions = {},
 ): Promise<T[]> {
-  if (process.env.NODE_ENV !== 'production') {
+  if (__DEV__) {
     if (!path || path.slice(-5) !== '.json') {
       throw new Error('A valid JSON dataset is required to fetch.');
     }
@@ -29,7 +24,11 @@ export default function fetchFromCDN<T>(
 
   // Check the cache first
   if (cachedData) {
-    return Promise.resolve(JSON.parse(cachedData));
+    try {
+      return Promise.resolve(JSON.parse(cachedData));
+    } catch (error) {
+      return Promise.resolve([]);
+    }
   }
 
   // eslint-disable-next-line compat/compat

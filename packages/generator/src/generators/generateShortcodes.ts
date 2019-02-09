@@ -1,16 +1,6 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 import path from 'path';
 import { Emoji, TEXT } from 'emojibase';
 import writeFile from '../helpers/writeFile';
-
-const COPYRIGHT = `/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */`;
 
 const GUIDELINES = `/**
  * Official Emojibase shortcodes list.
@@ -62,8 +52,6 @@ export default function generateShortcodes() {
   // eslint-disable-next-line
   const data: Required<Emoji>[] = require(path.join(process.cwd(), 'packages/data/en/data.json'));
   const output: string[] = [
-    COPYRIGHT,
-    '',
     '/* eslint-disable sort-keys */',
     '',
     GUIDELINES,

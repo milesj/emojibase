@@ -1,8 +1,3 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 import { PermutationOptions } from './generateEmoticonPermutations';
 
 export const SEQUENCE_REMOVAL_PATTERN = /200D|FE0E|FE0F/g;

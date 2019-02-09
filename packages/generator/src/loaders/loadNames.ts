@@ -1,8 +1,3 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 import { LATEST_UNICODE_VERSION } from 'emojibase';
 import fetchAndCache from './fetchAndCache';
 import parseNames from '../parsers/parseNames';

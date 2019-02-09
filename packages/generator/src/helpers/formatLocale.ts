@@ -1,8 +1,3 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 export default function formatLocale(locale: string): string {
   const [lang, region] = locale.split('-');
   let newLocale = lang;

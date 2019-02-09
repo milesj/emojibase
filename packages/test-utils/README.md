@@ -1,16 +1,20 @@
 # Emojibase Test Utils
 
+[![Build Status](https://travis-ci.org/milesj/emojibase.svg?branch=master)](https://travis-ci.org/milesj/emojibase)
+[![npm version](https://badge.fury.io/js/emojibase-test-utils.svg)](https://www.npmjs.com/package/emojibase-test-utils)
+[![npm deps](https://david-dm.org/milesj/emojibase.svg?path=packages/test-utils)](https://www.npmjs.com/package/emojibase-test-utils)
+
 Provides utility functions for testing Emojibase data.
 
 ```
-npm install emojibase-test-utils --save-dev
-// Or
 yarn add emojibase-test-utils --dev
+// Or
+npm install emojibase-test-utils --save-dev
 ```
 
 Use `loadEmojiData` to return an array of English emoji data.
 
-```javascript
+```ts
 import { loadEmojiData } from 'emojibase-test-utils';
 
 loadEmojiData().forEach(emoji => {
@@ -21,6 +25,6 @@ loadEmojiData().forEach(emoji => {
 Or use `loadFlatEmojiData` to return a flat array of emoji data (skin modifications are moved to the
 root).
 
-```javascript
+```ts
 import { loadFlatEmojiData } from 'emojibase-test-utils';
 ```

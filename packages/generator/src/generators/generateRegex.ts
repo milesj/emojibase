@@ -1,8 +1,3 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 import { Trie } from 'regexgen';
 import { EMOTICON_OPTIONS, generateEmoticonPermutations } from 'emojibase';
 import buildEmojiData from '../builders/buildEmojiData';

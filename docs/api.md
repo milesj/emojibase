@@ -7,7 +7,7 @@ working with emoji characters? A bad one, and thus, a handful of functions can b
 ```
 yarn add emojibase
 // Or
-npm install emojibase --save
+npm install emojibase
 ```
 
 ## fetchFromCDN
@@ -20,7 +20,7 @@ objects. It requires a file path relative to the `emojibase-data` package as the
 Emojibase release version as the 2nd argument (defaults to the latest), and an object of options to
 pass to `fetch` as the 3rd argument.
 
-```javascript
+```ts
 import { fetchFromCDN, flattenEmojiData } from 'emojibase';
 
 fetchFromCDN('ja/compact.json', '2.1.3').then(flattenEmojiData);
@@ -39,7 +39,7 @@ By default, emoji [skin modifications are nested](./data.md#data-structure) unde
 skin tone emoji. To flatten the data into a single dimension array, use the `flattenEmojiData`
 function.
 
-```javascript
+```ts
 import { flattenEmojiData } from 'emojibase';
 
 flattenEmojiData([
@@ -78,7 +78,7 @@ flattenEmojiData([
 
 This function will convert an array of numerical codepoints to a literal emoji Unicode character.
 
-```javascript
+```ts
 import { fromCodepointToUnicode } from 'emojibase';
 
 fromCodepointToUnicode([128104, 8205, 128105, 8205, 128103, 8205, 128102]); // 👨‍👩‍👧‍👦
@@ -91,7 +91,7 @@ fromCodepointToUnicode([128104, 8205, 128105, 8205, 128103, 8205, 128102]); // �
 This function will convert a hexadecimal codepoint to an array of numerical codepoints. By default,
 it will split the hexcode using a dash, but can be customized with the 2nd argument.
 
-```javascript
+```ts
 import { fromHexcodeToCodepoint } from 'emojibase';
 
 fromHexcodeToCodepoint('270A-1F3FC'); // [9994, 127996]
@@ -106,7 +106,7 @@ This function will convert a literal emoji Unicode character into a dash separat
 codepoint. Unless `false` is passed as the 2nd argument, zero width joiner's and variation selectors
 are removed.
 
-```javascript
+```ts
 import { fromUnicodeToHexcode } from 'emojibase';
 
 fromUnicodeToHexcode('👨‍👩‍👧‍👦'); // 1F468-1F469-1F467-1F466
@@ -126,7 +126,7 @@ permutations will occur:
 - Supports a `-` nose, by injecting between the eyes and mouth.
 - Supports both uppercase and lowercase variants.
 
-```javascript
+```ts
 import { generateEmoticonPermutations } from 'emojibase';
 
 generateEmoticonPermutations(':)'); // =-), =-}, :-], =-], :-}, :-), =}, =], =), :}, :], :)
@@ -140,7 +140,7 @@ the output.
 - `isFace` (bool) - Toggles face permutations (mouth and eye variants). Defaults to `true`.
 - `withNose` (bool) - Toggles nose inclusion. Defaults to `true`.
 
-```javascript
+```ts
 generateEmoticonPermutations(':)', { withNose: false }); // =}, =], =), :}, :], :)
 generateEmoticonPermutations('\\m/', { isFace: false }); // \m/, \M/
 ```
@@ -152,7 +152,7 @@ generateEmoticonPermutations('\\m/', { isFace: false }); // \m/, \M/
 This function will strip zero width joiners (`200D`) and variation selectors (`FE0E`, `FE0F`) from a
 hexadecimal codepoint.
 
-```javascript
+```ts
 import { stripHexcode } from 'emojibase';
 
 stripHexcode('1F468-200D-2695-FE0F'); // 1F468-2695

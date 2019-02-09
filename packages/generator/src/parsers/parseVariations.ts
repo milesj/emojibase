@@ -1,8 +1,3 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 import formatHexcode from '../helpers/formatHexcode';
 import parse from './parse';
 import verifyTotals from './verifyTotals';

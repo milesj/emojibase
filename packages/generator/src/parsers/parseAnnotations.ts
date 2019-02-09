@@ -1,8 +1,3 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 import cheerio from 'cheerio';
 import { fromUnicodeToHexcode, stripHexcode } from 'emojibase';
 import { CLDRAnnotationMap } from '../types';

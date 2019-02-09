@@ -1,8 +1,3 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 import hasProperty from './hasProperty';
 import { HIDDEN_EMOJI_PROPERTIES } from '../constants';
 import { EmojiMap } from '../types';

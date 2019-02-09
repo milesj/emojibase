@@ -1,8 +1,3 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 import chalk from 'chalk';
 import fetch from 'node-fetch';
 import log from '../helpers/log';

@@ -7,7 +7,7 @@ the following: localized data, versioned data, and metadata. These datasets can 
 ```
 yarn add emojibase-data
 // Or
-npm install emojibase-data --save
+npm install emojibase-data
 ```
 
 > JSON files will need to be parsed manually unless handled by a build/bundle process.
@@ -43,7 +43,7 @@ These datasets return an array of emoji objects that adhere to the defined
 
 > Missing localizations will fallback to English.
 
-```javascript
+```ts
 import emojis from 'emojibase-data/en/data.json';
 ```
 
@@ -54,7 +54,7 @@ hexcodes included in the associated release version.
 - `emojibase-data/versions/emoji.json` - Emoji characters grouped by emoji version.
 - `emojibase-data/versions/unicode.json` - Emoji characters grouped by Unicode version.
 
-```javascript
+```ts
 import unicodeVersions from 'emojibase-data/versions/unicode.json';
 ```
 
@@ -67,7 +67,7 @@ The third and last group, metadata, provides specialized datasets for unique use
 - `emojibase-data/meta/unicode.json` - An array of all emoji unicode characters, including text and
   emoji presentation characters.
 
-```javascript
+```ts
 import { groups, subgroups, hierarchy } from 'emojibase-data/meta/groups.json';
 ```
 
@@ -109,7 +109,7 @@ values have been implemented using integers,
 > Not all properties will be found in the emoji object, as properties without an applicable value
 > are omitted from the emoji object.
 
-```javascript
+```js
 {
   annotation: 'man lifting weights',
   emoji: '🏋️‍♂️',
@@ -158,11 +158,11 @@ dataset is supported. This dataset supports the following properties: `annotatio
 
 To use a compact dataset, replace `data.json` with `compact.json`.
 
-```javascript
+```ts
 import data from 'emojibase-data/en/compact.json';
 ```
 
-```javascript
+```js
 {
   annotation: 'man lifting weights',
   group: 0,
@@ -198,7 +198,7 @@ If you prefer to not inflate your bundle size with these large JSON datasets, yo
 from our CDN ([provided by jsdelivr.com](https://cdn.jsdelivr.net/npm/emojibase-data@latest/)) using
 `fetchFromCDN`.
 
-```javascript
+```ts
 import { fetchFromCDN } from 'emojibase';
 
 fetchFromCDN('en/data.json').then(emojis => {

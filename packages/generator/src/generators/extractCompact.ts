@@ -1,8 +1,3 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 import { TEXT, CompactEmoji, Emoji } from 'emojibase';
 
 export default function extractCompact(data: Emoji[]): CompactEmoji[] {

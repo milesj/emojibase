@@ -7,7 +7,7 @@ this whole process easier, pre-built regex patterns are available in the `emojib
 ```
 yarn add emojibase-regex
 // Or
-npm install emojibase-regex --save
+npm install emojibase-regex
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ matching shortcodes or emoticons.
 
 Each of these imports return a `RegExp` instance with no flags defined.
 
-```javascript
+```ts
 import EMOJI_REGEX from 'emojibase-regex';
 import EMOTICON_REGEX from 'emojibase-regex/emoticon';
 import SHORTCODE_REGEX from 'emojibase-regex/shortcode';
@@ -43,7 +43,7 @@ import SHORTCODE_REGEX from 'emojibase-regex/shortcode';
 By default, regex patterns are generated using hexadecimal Unicode ranges. If desired, ES2015+
 Unicode codepoint aware regex patterns can be used, which can be found in the `codepoint` directory.
 
-```javascript
+```ts
 import CODEPOINT_EMOJI_REGEX from 'emojibase-regex/codepoint';
 ```
 
@@ -60,7 +60,7 @@ filesize of our regex patterns while being more accurate to the Unicode standard
 
 These patterns can be found in the `property` directory, but use at your own risk!
 
-```javascript
+```ts
 import PROPERTY_EMOJI_REGEX from 'emojibase-regex/property';
 ```
 

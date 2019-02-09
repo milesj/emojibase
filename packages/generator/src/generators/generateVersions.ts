@@ -1,8 +1,3 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 import buildVersionedData from '../builders/buildVersionedData';
 import log from '../helpers/log';
 import writeDataset from '../helpers/writeDataset';

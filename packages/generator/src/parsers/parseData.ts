@@ -1,8 +1,3 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 /* eslint-disable no-nested-ternary */
 
 import { fromHexcodeToCodepoint, TEXT, EMOJI } from 'emojibase';
@@ -74,8 +69,8 @@ export default function parseData(version: string, content: string): EmojiDataMa
           modifier === 'primary' || modifier === 'secondary'
             ? 'Emoji_Modifier_Base'
             : modifier === 'modifier'
-              ? 'Emoji_Modifier'
-              : 'Emoji',
+            ? 'Emoji_Modifier'
+            : 'Emoji',
         ];
       }
 

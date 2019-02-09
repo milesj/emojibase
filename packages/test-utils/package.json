@@ -11,6 +11,7 @@
   "repository": "https://github.com/milesj/emojibase/tree/master/packages/test-utils",
   "license": "MIT",
   "main": "./lib/index.js",
+  "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
   "publishConfig": {
     "access": "public"

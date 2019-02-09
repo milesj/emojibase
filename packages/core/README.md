@@ -1,6 +1,8 @@
 # Emojibase
 
 [![Build Status](https://travis-ci.org/milesj/emojibase.svg?branch=master)](https://travis-ci.org/milesj/emojibase)
+[![npm version](https://badge.fury.io/js/emojibase.svg)](https://www.npmjs.com/package/emojibase)
+[![npm deps](https://david-dm.org/milesj/emojibase.svg?path=packages/core)](https://www.npmjs.com/package/emojibase)
 [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/emojibase-data/badge?style=rounded)](https://www.jsdelivr.com/package/npm/emojibase-data)
 
 > Emojibase, the ultimate emoji database.

@@ -1,8 +1,3 @@
-/**
- * @copyright   2017-2018, Miles Johnson
- * @license     https://opensource.org/licenses/MIT
- */
-
 import log from '../helpers/log';
 import { ParsedTotals } from '../types';
 
@@ -15,6 +10,7 @@ export default function verifyTotals<T>(version: string, data: T, totals: Parsed
   const totalsToCheck: { [key: string]: number } = {};
 
   // Gather totals
+  // eslint-disable-next-line compat/compat
   Object.values(data).forEach(emoji => {
     emoji.property.forEach((property: string) => {
       if (totalsToCheck[property]) {
