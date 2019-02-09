@@ -1,15 +1,11 @@
 > Versions that only update `test-data.json` are omitted from the changelog.
 
-# 3.2.0
+# 3.2.0 - 2019-02-08
 
 #### 🚀 New
 
 - Added ECMAScript module support via `esm/` built files.
 - Removed docblocks from source files to reduce bundle size.
-
-#### 🛠 Internal
-
-- Dependency updates.
 
 # 3.1.0 - 2018-10-20
 
