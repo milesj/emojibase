@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - '9'
+  - '10'
   - 'node'
 before_script:
   - curl -o- -L https://yarnpkg.com/install.sh | bash
@@ -16,39 +16,39 @@ cache:
 matrix:
   fast_finish: true
   include:
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=da
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=de
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=en-gb
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=es
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=es-mx
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=fr
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=it
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=ja
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=ko
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=ms
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=nl
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=pl
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=pt
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=ru
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=sv
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=th
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=zh
-    - node_js: 'node'
+    - node_js: '10'
       env: TEST_LOCALE=zh-hant
