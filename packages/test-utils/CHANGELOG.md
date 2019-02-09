@@ -11,13 +11,13 @@
 
 - Dependency updates.
 
-# 3.1.0 - 10/20/18
+# 3.1.0 - 2018-10-20
 
 #### 🚀 New
 
 - Updated to [CLDR 34](http://cldr.unicode.org/index/downloads/cldr-34).
 
-# 3.0.0 - 06/23/18
+# 3.0.0 - 2018-06-23
 
 #### 🎉 Release
 
@@ -29,7 +29,7 @@
   - Tons of new annotations and keywords.
 - Updated shortcodes.
 
-# 2.3.0 - 05/22/18
+# 2.3.0 - 2018-05-22
 
 #### 🚀 New
 
@@ -39,31 +39,31 @@
 
 - Converted from Flow to TypeScript.
 
-# 2.0.0 - 9/14/17
+# 2.0.0 - 2017-09-14
 
 #### 🛠 Internal
 
 - Updated test data ([view breaking changes](../data/CHANGELOG.md)).
 
-# 1.0.7 - 9/10/17
+# 1.0.7 - 2017-09-10
 
 #### 🛠 Internal
 
 - Updated to Yarn workspaces.
 
-# 1.0.2 - 8/19/17
+# 1.0.2 - 2017-08-19
 
 #### 🐞 Fixed
 
 - Removed tests from distribution files.
 
-# 1.0.1 - 8/18/17
+# 1.0.1 - 2017-08-18
 
 #### 🐞 Fixed
 
 - Fixed Flowtype definitions.
 
-# 1.0.0 - 8/17/17
+# 1.0.0 - 2017-08-17
 
 #### 🎉 Release
 

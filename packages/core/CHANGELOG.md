@@ -13,13 +13,13 @@
 
 - Dependency updates.
 
-# 2.1.0 - 10/20/18
+# 2.1.0 - 2018-10-20
 
 #### 🚀 New
 
 - Updated to [CLDR 34](http://cldr.unicode.org/index/downloads/cldr-34).
 
-# 2.0.0 - 06/23/18
+# 2.0.0 - 2018-06-23
 
 #### 🎉 Release
 
@@ -46,13 +46,13 @@
 - Updated `LATEST_UNICODE_VERSION` to `11.0.0`.
 - Updated `LATEST_CLDR_VERSION` to `33.1`.
 
-# 1.7.1 - 05/29/18
+# 1.7.1 - 2018-05-29
 
 #### 🛠 Internal
 
 - Updated constants to use inferred types instead of explicity types.
 
-# 1.7.0 - 05/28/18
+# 1.7.0 - 2018-05-28
 
 #### 🚀 New
 
@@ -60,7 +60,7 @@
 - Added `GROUP_KEY_*` and `SKIN_KEY_*` constants for the types mentioned previously.
 - Updated the index to export all constants.
 
-# 1.6.0 - 05/22/18
+# 1.6.0 - 2018-05-22
 
 #### 🚀 New
 
@@ -70,7 +70,7 @@
 
 - Converted from Flow to TypeScript.
 
-# 1.5.0 - 01/10/18
+# 1.5.0 - 2018-01-10
 
 #### 🚀 New
 
@@ -83,25 +83,25 @@
   - `zh-hant` - Chinese (Traditional)
 - Added `local` option to `fetchFromCDN` to cache in local storage instead of session storage.
 
-# 1.4.4 - 12/19/17
+# 1.4.4 - 2017-12-19
 
 #### 🛠 Internal
 
 - Updated dependencies.
 
-# 1.4.3 - 11/10/17
+# 1.4.3 - 2017-11-10
 
 #### 🛠 Internal
 
 - Updated `LATEST_CLDR_VERSION` to `32`.
 
-# 1.4.2 - 10/10/17
+# 1.4.2 - 2017-10-10
 
 #### 🛠 Internal
 
 - Updated `LATEST_CLDR_VERSION` to `32-beta`.
 
-# 1.4.1 - 9/25/17
+# 1.4.1 - 2017-09-25
 
 #### 🐞 Fixed
 
@@ -111,14 +111,14 @@
 
 - Updated `LATEST_CLDR_VERSION` to `32-alpha`.
 
-# 1.4.0 - 9/14/17
+# 1.4.0 - 2017-09-14
 
 #### 🚀 New
 
 - Added optional `unicode` and `version` properties to `Emoji` type.
 - Added more constants to `lib/constants` type definition.
 
-# 1.3.2 - 9/10/17
+# 1.3.2 - 2017-09-10
 
 #### 🐞 Fixed
 
@@ -129,13 +129,13 @@
 
 - Updated to Yarn workspaces.
 
-# 1.3.1 - 9/5/17
+# 1.3.1 - 2017-09-05
 
 #### 🛠 Internal
 
 - Updated dependencies.
 
-# 1.3.0 - 8/22/17
+# 1.3.0 - 2017-08-22
 
 #### 🚀 New
 
@@ -145,20 +145,20 @@
 - Added `EMOTICON_OPTIONS` constant, which defines custom options for specific emoticon
   permutations.
 
-# 1.2.2 - 8/21/17
+# 1.2.2 - 2017-08-21
 
 #### 🚀 New
 
 - Added new ogre emoticon `0)`.
 - Updated mage emoticon to `:{>`.
 
-# 1.2.1 - 8/19/17
+# 1.2.1 - 2017-08-19
 
 #### 🐞 Fixed
 
 - Fixed a bug with session storage caching an invalid dataset.
 
-# 1.2.0 - 8/19/17
+# 1.2.0 - 2017-08-19
 
 #### 🚀 New
 
@@ -168,7 +168,7 @@
 
 - Removed tests from distribution files.
 
-# 1.1.0 - 8/18/17
+# 1.1.0 - 2017-08-18
 
 #### 🚀 New
 
@@ -178,7 +178,7 @@
 
 - Fixed Flowtype definitions.
 
-# 1.0.0 - 8/17/17
+# 1.0.0 - 2017-08-17
 
 #### 🎉 Release
 
@@ -209,44 +209,44 @@
 
 - Emojibase now generates its data directly from the official Unicode data files.
 
-# 0.12.0 - 7/29/17
+# 0.12.0 - 2017-07-29
 
 - New release under the new `emojibase` name.
 - Updated `fetchFromCDN` to fetch from `emojibase` instead of `emoji-database`.
 
-# 0.11.0 - 7/29/17
+# 0.11.0 - 2017-07-29
 
 - Renamed to `emojibase`. Please update your dependencies!
 - Moved `emoji-database.js.flow` to `emojibase.js.flow`.
 
-# 0.10.0 - 7/21/17
+# 0.10.0 - 2017-07-21
 
 - Added new function, `fetchFromCDN`, which fetches JSON data from jsdelivr.com.
 
-# 0.9.0 - 7/12/17
+# 0.9.0 - 2017-07-12
 
 - Updated `emojione` to 3.1.
 - Added ECMA2015+ unicode aware regex patterns. Located in the `regex/es` folder.
 
-# 0.8.0 - 6/23/17
+# 0.8.0 - 2017-06-23
 
 - Fixed IE 10 compiled lib/ issues.
 - Updated `tags` to inherit from the new `unicode-emoji-annotations` dependency.
 
-# 0.7.0 - 6/16/17
+# 0.7.0 - 2017-06-16
 
 - Reverted change that removed ability to import modules.
   - Both `fromHexToCodepoint` and `fromUnicodeToHex` are now importable from the index.
 - Removed console warning when importing the index file.
 
-# 0.6.0 - 6/16/17
+# 0.6.0 - 2017-06-16
 
 - Moved all `dependencies` into `devDependencies`.
 - Removed the ability to import `emoji-database` modules and files.
 - Removed lib/ and src/ files from the published package.
 - Fixed Flowtype definitions.
 
-# 0.5.0 - 6/3/17
+# 0.5.0 - 2017-06-03
 
 - Fixed a bug in which variation selectors were not included in the regex patterns.
 - Updated `regex/index` to match both emoji and text presentation characters.
@@ -255,7 +255,7 @@
 - Added new `emoji` and `text` properties to the expanded format.
 - Removed `unicode` from the expanded format.
 
-# 0.4.0 - 5/9/17
+# 0.4.0 - 2017-05-09
 
 - Updated `unicode-emoji-data` to 3.0.0.
 - Updated to include src/ files in the published package.
@@ -264,12 +264,12 @@
 - Moved bin/ files to the src/ folder.
 - Removed beta support from `packageData`.
 
-# 0.3.0 - 5/7/17
+# 0.3.0 - 2017-05-07
 
 - Updated default category to `other`.
 - Added new regex pattern constants.
 
-# 0.2.0 - 4/29/17
+# 0.2.0 - 2017-04-29
 
 - Moved format datasets into folders.
 - Updated expanded format to no longer merge with `unicode-emoji-data`.
@@ -280,6 +280,6 @@
 - Replaced spaces in tags with dashes.
 - Replaced diacritics in tags with alphanumeric characters.
 
-# 0.1.0 - 4/21/17
+# 0.1.0 - 2017-04-21
 
 - Initial release.

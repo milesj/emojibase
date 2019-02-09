@@ -1,16 +1,18 @@
-# 3.2.0 - 10/20/18
+# 3.3.0
+
+# 3.2.0 - 2018-10-20
 
 #### 🚀 New
 
 - Updated to [CLDR 34](http://cldr.unicode.org/index/downloads/cldr-34).
 
-# 3.1.0 - 08/02/18
+# 3.1.0 - 2018-08-02
 
 #### 🚀 New
 
 - Datasets are now minified for a much smaller filesize.
 
-# 3.0.0 - 06/23/18
+# 3.0.0 - 2018-06-23
 
 #### 🎉 Release
 
@@ -32,7 +34,7 @@
 - Updated `meta/groups.json` dataset to use the new `GroupDataset` type.
 - Updated `versions/*json` datasets to use the new `VersionDataset` type.
 
-# 2.3.0 - 05/22/18
+# 2.3.0 - 2018-05-22
 
 #### 🚀 New
 
@@ -42,7 +44,7 @@
 
 - Converted from Flow to TypeScript.
 
-# 2.2.0 - 01/10/18
+# 2.2.0 - 2018-01-10
 
 #### 🚀 New
 
@@ -59,19 +61,19 @@
 - Fixed some issues with localized annotation resolving.
 - Added missing `annotation` and `tags` to 🔟.
 
-# 2.1.2 - 12/19/17
+# 2.1.2 - 2017-12-19
 
 #### 🐞 Fixed
 
 - Fixed invalid `subgroup` indices.
 
-# 2.1.1 - 11/10/17
+# 2.1.1 - 2017-11-10
 
 #### 🚀 New
 
 - Updated to [CLDR 32](http://cldr.unicode.org/index/downloads/cldr-32).
 
-# 2.1.0 - 9/25/17
+# 2.1.0 - 2017-09-25
 
 #### 🚀 New
 
@@ -80,7 +82,7 @@
 - Updated to use derived annotations, which includes official translations for emoji modifiers and
   sequences.
 
-# 2.0.0 - 9/14/17
+# 2.0.0 - 2017-09-14
 
 #### 💥 Breaking
 
@@ -92,13 +94,13 @@
   default presentation of `type`.
 - Added `version` to full datasets, which is the version in which the emoji was released.
 
-# 1.1.1 - 9/10/17
+# 1.1.1 - 2017-09-10
 
 #### 🛠 Internal
 
 - Updated to Yarn workspaces.
 
-# 1.1.0 - 9/5/17
+# 1.1.0 - 2017-09-05
 
 #### 🚀 New
 
@@ -114,32 +116,32 @@
 - Gender annotations will now use "man" or "woman" instead of "male sign" or "female sign".
 - Missing annotations will now fallback to the english annotation if available.
 
-# 1.0.4 - 8/22/17
+# 1.0.4 - 2017-08-22
 
 #### 🛠 Internal
 
 - Updated mage emoticon to `:{>`.
 - Moved mage emoticon to 🧙‍♂️ (`1F9D9-200D-2642-FE0F`).
 
-# 1.0.3 - 8/21/17
+# 1.0.3 - 2017-08-21
 
 #### 🛠 Internal
 
 - Updated changelogs.
 
-# 1.0.2 - 8/19/17
+# 1.0.2 - 2017-08-19
 
 #### 🐞 Fixed
 
 - Removed tests from distribution files.
 
-# 1.0.1 - 8/18/17
+# 1.0.1 - 2017-08-18
 
 #### 🐞 Fixed
 
 - Fixed Flowtype definitions.
 
-# 1.0.0 - 8/17/17
+# 1.0.0 - 2017-08-17
 
 #### 🎉 Release
 
