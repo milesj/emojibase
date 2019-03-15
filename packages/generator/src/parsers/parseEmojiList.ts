@@ -2,7 +2,7 @@ import cheerio from 'cheerio';
 import readCache from '../helpers/readCache';
 import slug from '../helpers/slug';
 import { EmojiSourceMap } from '../types';
-import { HIDDEN_SUBGROUPS } from '../constants';
+import { HIDDEN_GROUPS, HIDDEN_SUBGROUPS } from '../constants';
 
 interface GroupNameMap {
   [name: string]: number;
@@ -64,16 +64,18 @@ export default function parseEmojiList(content: string): EmojiSourceMap {
       } else if (headerRow.length > 0) {
         // Skip emoji
       } else {
-        const tds = tr.find('td');
         const hexcode = String(
-          tds
-            .eq(1)
+          tr
+            .find('.code')
             .find('a')
             .attr('name'),
         )
           .toUpperCase()
           .replace(/_/g, '-');
-        const name = tds.eq(3).text();
+        const name = tr
+          .find('.name')
+          .eq(0)
+          .text();
 
         // Recently added, not in an official emoji release
         if (name.includes('⊛')) {
@@ -81,7 +83,7 @@ export default function parseEmojiList(content: string): EmojiSourceMap {
         }
 
         // Skip emojis that are hidden
-        if (HIDDEN_SUBGROUPS.includes(subgroupName)) {
+        if (HIDDEN_GROUPS.includes(groupName) || HIDDEN_SUBGROUPS.includes(subgroupName)) {
           return;
         }
 

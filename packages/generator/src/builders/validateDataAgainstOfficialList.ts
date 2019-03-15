@@ -27,6 +27,7 @@ export default async function validateDataAgainstOfficialList(data: EmojiMap): P
       const name = fieldName as keyof EmojiSource;
 
       if (officialEmoji[name] !== emoji[name]) {
+        // console.log({ emoji, officialEmoji });
         errors.push(
           `Invalid field ${fieldName}. Found ${emoji[name]}, require ${officialEmoji[name]}`,
         );

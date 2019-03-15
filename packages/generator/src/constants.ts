@@ -25,6 +25,7 @@ export const MALE_SIGN = '2642'; // MALE SIGN
 export const BLACK_FLAG = '1F3F4'; // WAVING BLACK FLAG
 
 // Emoji groups that should be omitted from the final output
+export const HIDDEN_GROUPS = ['component'];
 export const HIDDEN_SUBGROUPS = ['skin-tone', 'hair-style'];
 
 // Emoji property types that should be omitted from the final dataset

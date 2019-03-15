@@ -80,5 +80,5 @@ export default function parseData(version: string, content: string): EmojiDataMa
     return map;
   }, {});
 
-  return verifyTotals(version, data, totals);
+  return verifyTotals('data', version, data, totals);
 }

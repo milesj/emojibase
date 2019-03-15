@@ -1,4 +1,4 @@
-import { EMOJI } from 'emojibase';
+import { fromHexcodeToCodepoint, EMOJI } from 'emojibase';
 import parse from './parse';
 import extractGender from './extractGender';
 import extractLineDescription from './extractLineDescription';
@@ -22,17 +22,37 @@ export default function parseSequences(
   const { lines, totals } = parse(content);
   const data = lines.reduce((map: EmojiDataMap, line: ParsedLine) => {
     const [rawHexcode, property, description] = line.fields;
-    const hexcode = formatHexcode(rawHexcode);
 
-    map[hexcode] = {
-      description: description || extractLineDescription(line.comment),
-      gender: extractGender(hexcode),
-      hexcode,
-      property: [(property as Property) || defaultProperty],
-      type: EMOJI,
-      unicodeVersion: extractUnicodeVersion(line.comment),
-      version: parseFloat(version),
+    // Handle mapping each hexcode
+    const mapHexcode = (hexcode: string) => {
+      map[hexcode] = {
+        description: description || extractLineDescription(line.comment),
+        gender: extractGender(hexcode),
+        hexcode,
+        property: [(property as Property) || defaultProperty],
+        type: EMOJI,
+        unicodeVersion: extractUnicodeVersion(line.comment),
+        version: parseFloat(version),
+      };
     };
+
+    // A sequence of emoji
+    if (rawHexcode.includes('..')) {
+      const [lowCodepoint, highCodepoint] = fromHexcodeToCodepoint(rawHexcode, '..');
+
+      for (let codepoint = lowCodepoint; codepoint <= highCodepoint; codepoint += 1) {
+        mapHexcode(
+          codepoint
+            .toString(16)
+            .padStart(4, '0')
+            .toUpperCase(),
+        );
+      }
+
+      // A single emoji
+    } else {
+      mapHexcode(formatHexcode(rawHexcode));
+    }
 
     return map;
   }, {});
@@ -42,5 +62,5 @@ export default function parseSequences(
     return data;
   }
 
-  return verifyTotals(version, data, totals);
+  return verifyTotals('sequences', version, data, totals);
 }
