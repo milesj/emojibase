@@ -16,7 +16,7 @@ export default function loadAnnotations(
   return (
     fetchAndCache(
       `http://unicode.org/repos/cldr/tags/release-${releaseVersion}/common/${folderName}/${pathLocale}.xml`,
-      `cldr-${version}/${folderName}-${locale}.json`,
+      `cldr-${releaseVersion}/${folderName}-${locale}.json`,
       data => parseAnnotations(version, data),
     )
       // Some annotation files do not exist for specific locales,

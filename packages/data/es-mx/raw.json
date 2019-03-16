@@ -428,6 +428,7 @@
     ],
     "tags": [
       "adoración",
+      "cara sonriente con 3 corazones",
       "enamoramiento",
       "flechazo"
     ],
@@ -1935,11 +1936,17 @@
     "emoticon": ":c"
   },
   {
-    "annotation": "",
+    "annotation": "cara de bostezo",
     "name": "YAWNING FACE",
     "hexcode": "1F971",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "aburrido",
+      "bostezo",
+      "cansado",
+      "dormido",
+      "sueño"
+    ],
     "emoji": "🥱",
     "text": "",
     "type": 1,
@@ -2345,10 +2352,11 @@
       "joyful_cat"
     ],
     "tags": [
+      "alegría",
       "cara",
       "gato",
-      "lágrima",
-      "risa"
+      "llorando",
+      "lágrimas"
     ],
     "emoji": "😹",
     "text": "",
@@ -2359,7 +2367,7 @@
     "version": 1
   },
   {
-    "annotation": "cara de gato sonriendo con ojos de corazón",
+    "annotation": "gato con ojos de corazón",
     "name": "SMILING CAT FACE WITH HEART-SHAPED EYES",
     "hexcode": "1F63B",
     "shortcodes": [
@@ -2368,6 +2376,7 @@
     "tags": [
       "amor",
       "cara",
+      "cara de gato sonriendo con ojos de corazón",
       "corazones",
       "gato"
     ],
@@ -2429,12 +2438,7 @@
     "shortcodes": [
       "weary_cat"
     ],
-    "tags": [
-      "cara",
-      "gato",
-      "pánico",
-      "sorpresa"
-    ],
+    "tags": [],
     "emoji": "🙀",
     "text": "",
     "type": 1,
@@ -2466,7 +2470,7 @@
     "version": 1
   },
   {
-    "annotation": "cara de gato enfadado",
+    "annotation": "gato enfadado",
     "name": "POUTING CAT FACE",
     "hexcode": "1F63E",
     "shortcodes": [
@@ -2474,6 +2478,7 @@
     ],
     "tags": [
       "cara",
+      "cara de gato enfadado",
       "enfadado",
       "enojado",
       "gato"
@@ -2953,11 +2958,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "corazón café",
     "name": "BROWN HEART",
     "hexcode": "1F90E",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "corazón café"
+    ],
     "emoji": "🤎",
     "text": "",
     "type": 1,
@@ -2986,11 +2993,15 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "corazón blanco",
     "name": "WHITE HEART",
     "hexcode": "1F90D",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "blanco",
+      "corazón",
+      "emoción"
+    ],
     "emoji": "🤍",
     "text": "",
     "type": 1,
@@ -3979,11 +3990,15 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "mano pellizcando",
     "name": "PINCHING HAND",
     "hexcode": "1F90F",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "pellizco",
+      "poco",
+      "poquito"
+    ],
     "emoji": "🤏",
     "text": "",
     "type": 1,
@@ -3993,7 +4008,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mano pellizcando: tono de piel claro",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F90F-1F3FB",
         "shortcodes": [],
@@ -4007,7 +4022,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "mano pellizcando: tono de piel claro medio",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F90F-1F3FC",
         "shortcodes": [],
@@ -4021,7 +4036,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "mano pellizcando: tono de piel medio",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F90F-1F3FD",
         "shortcodes": [],
@@ -4035,7 +4050,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "mano pellizcando: tono de piel oscuro medio",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F90F-1F3FE",
         "shortcodes": [],
@@ -4049,7 +4064,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "mano pellizcando: tono de piel oscuro",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F90F-1F3FF",
         "shortcodes": [],
@@ -6833,11 +6848,15 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "brazo mecánico",
     "name": "MECHANICAL ARM",
     "hexcode": "1F9BE",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "accesibilidad",
+      "ortopedia",
+      "prótesis"
+    ],
     "emoji": "🦾",
     "text": "",
     "type": 1,
@@ -6847,11 +6866,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "pierna mecánica",
     "name": "MECHANICAL LEG",
     "hexcode": "1F9BF",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "accesibilidad",
+      "ortopedia",
+      "prótesis"
+    ],
     "emoji": "🦿",
     "text": "",
     "type": 1,
@@ -7163,11 +7186,16 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "oreja con audífono",
     "name": "EAR WITH HEARING AID",
     "hexcode": "1F9BB",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "accesibilidad",
+      "audífono",
+      "prótesis auditiva",
+      "sordo"
+    ],
     "emoji": "🦻",
     "text": "",
     "type": 1,
@@ -7177,7 +7205,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "oreja con audífono: tono de piel claro",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9BB-1F3FB",
         "shortcodes": [],
@@ -7191,7 +7219,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "oreja con audífono: tono de piel claro medio",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9BB-1F3FC",
         "shortcodes": [],
@@ -7205,7 +7233,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "oreja con audífono: tono de piel medio",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9BB-1F3FD",
         "shortcodes": [],
@@ -7219,7 +7247,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "oreja con audífono: tono de piel oscuro medio",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9BB-1F3FE",
         "shortcodes": [],
@@ -7233,7 +7261,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "oreja con audífono: tono de piel oscuro",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9BB-1F3FF",
         "shortcodes": [],
@@ -8200,7 +8228,7 @@
     ]
   },
   {
-    "annotation": "persona con barba",
+    "annotation": "hombre con barba",
     "name": "BEARDED PERSON",
     "hexcode": "1F9D4",
     "shortcodes": [
@@ -8209,7 +8237,8 @@
     "tags": [
       "barba",
       "barbón",
-      "cara"
+      "cara",
+      "persona con barba"
     ],
     "emoji": "🧔",
     "text": "",
@@ -8220,7 +8249,7 @@
     "version": 5,
     "skins": [
       {
-        "annotation": "persona con barba: tono de piel claro",
+        "annotation": "hombre con barba: tono de piel claro",
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9D4-1F3FB",
         "shortcodes": [
@@ -8236,7 +8265,7 @@
         "tone": 1
       },
       {
-        "annotation": "persona con barba: tono de piel claro medio",
+        "annotation": "hombre con barba: tono de piel claro medio",
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9D4-1F3FC",
         "shortcodes": [
@@ -8252,7 +8281,7 @@
         "tone": 2
       },
       {
-        "annotation": "persona con barba: tono de piel medio",
+        "annotation": "hombre con barba: tono de piel medio",
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9D4-1F3FD",
         "shortcodes": [
@@ -8268,7 +8297,7 @@
         "tone": 3
       },
       {
-        "annotation": "persona con barba: tono de piel oscuro medio",
+        "annotation": "hombre con barba: tono de piel oscuro medio",
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9D4-1F3FE",
         "shortcodes": [
@@ -8284,7 +8313,7 @@
         "tone": 4
       },
       {
-        "annotation": "persona con barba: tono de piel oscuro",
+        "annotation": "hombre con barba: tono de piel oscuro",
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9D4-1F3FF",
         "shortcodes": [
@@ -11032,7 +11061,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "empleada en mostrador de información: tono de piel claro",
+        "annotation": "persona de mostrador de información: tono de piel claro",
         "name": "INFORMATION DESK PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F481-1F3FB",
         "shortcodes": [
@@ -11048,7 +11077,7 @@
         "tone": 1
       },
       {
-        "annotation": "empleada en mostrador de información: tono de piel claro medio",
+        "annotation": "persona de mostrador de información: tono de piel claro medio",
         "name": "INFORMATION DESK PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F481-1F3FC",
         "shortcodes": [
@@ -11064,7 +11093,7 @@
         "tone": 2
       },
       {
-        "annotation": "empleada en mostrador de información: tono de piel medio",
+        "annotation": "persona de mostrador de información: tono de piel medio",
         "name": "INFORMATION DESK PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F481-1F3FD",
         "shortcodes": [
@@ -11080,7 +11109,7 @@
         "tone": 3
       },
       {
-        "annotation": "empleada en mostrador de información: tono de piel oscuro medio",
+        "annotation": "persona de mostrador de información: tono de piel oscuro medio",
         "name": "INFORMATION DESK PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F481-1F3FE",
         "shortcodes": [
@@ -11096,7 +11125,7 @@
         "tone": 4
       },
       {
-        "annotation": "empleada en mostrador de información: tono de piel oscuro",
+        "annotation": "persona de mostrador de información: tono de piel oscuro",
         "name": "INFORMATION DESK PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F481-1F3FF",
         "shortcodes": [
@@ -11656,11 +11685,17 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "persona sorda",
     "name": "DEAF PERSON",
     "hexcode": "1F9CF",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "accesibilidad",
+      "escuchar",
+      "oído",
+      "oír",
+      "sordera"
+    ],
     "emoji": "🧏",
     "text": "",
     "type": 1,
@@ -11670,7 +11705,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "persona sorda: tono de piel claro",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CF-1F3FB",
         "shortcodes": [],
@@ -11684,7 +11719,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "persona sorda: tono de piel claro medio",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CF-1F3FC",
         "shortcodes": [],
@@ -11698,7 +11733,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "persona sorda: tono de piel medio",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CF-1F3FD",
         "shortcodes": [],
@@ -11712,7 +11747,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "persona sorda: tono de piel oscuro medio",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CF-1F3FE",
         "shortcodes": [],
@@ -11726,7 +11761,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "persona sorda: tono de piel oscuro",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CF-1F3FF",
         "shortcodes": [],
@@ -11742,14 +11777,14 @@
     ]
   },
   {
-    "annotation": "hombre",
+    "annotation": "hombre sordo",
     "name": "DEAF PERSON, MALE SIGN",
     "hexcode": "1F9CF-200D-2642-FE0F",
     "shortcodes": [],
     "tags": [
-      "signo",
-      "signo masculino",
-      "símbolo"
+      "hombre",
+      "sordera",
+      "sordo"
     ],
     "emoji": "🧏‍♂️",
     "text": "",
@@ -11761,7 +11796,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "hombre: tono de piel claro",
+        "annotation": "hombre sordo: tono de piel claro",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CF-1F3FB-200D-2642-FE0F",
         "shortcodes": [],
@@ -11776,7 +11811,7 @@
         "tone": 1
       },
       {
-        "annotation": "hombre: tono de piel claro medio",
+        "annotation": "hombre sordo: tono de piel claro medio",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CF-1F3FC-200D-2642-FE0F",
         "shortcodes": [],
@@ -11791,7 +11826,7 @@
         "tone": 2
       },
       {
-        "annotation": "hombre: tono de piel medio",
+        "annotation": "hombre sordo: tono de piel medio",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CF-1F3FD-200D-2642-FE0F",
         "shortcodes": [],
@@ -11806,7 +11841,7 @@
         "tone": 3
       },
       {
-        "annotation": "hombre: tono de piel oscuro medio",
+        "annotation": "hombre sordo: tono de piel oscuro medio",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CF-1F3FE-200D-2642-FE0F",
         "shortcodes": [],
@@ -11821,7 +11856,7 @@
         "tone": 4
       },
       {
-        "annotation": "hombre: tono de piel oscuro",
+        "annotation": "hombre sordo: tono de piel oscuro",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CF-1F3FF-200D-2642-FE0F",
         "shortcodes": [],
@@ -11838,14 +11873,14 @@
     ]
   },
   {
-    "annotation": "mujer",
+    "annotation": "mujer sorda",
     "name": "DEAF PERSON, FEMALE SIGN",
     "hexcode": "1F9CF-200D-2640-FE0F",
     "shortcodes": [],
     "tags": [
-      "signo",
-      "signo femenino",
-      "símbolo"
+      "mujer",
+      "sorda",
+      "sordera"
     ],
     "emoji": "🧏‍♀️",
     "text": "",
@@ -11857,7 +11892,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "mujer: tono de piel claro",
+        "annotation": "mujer sorda: tono de piel claro",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CF-1F3FB-200D-2640-FE0F",
         "shortcodes": [],
@@ -11872,7 +11907,7 @@
         "tone": 1
       },
       {
-        "annotation": "mujer: tono de piel claro medio",
+        "annotation": "mujer sorda: tono de piel claro medio",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CF-1F3FC-200D-2640-FE0F",
         "shortcodes": [],
@@ -11887,7 +11922,7 @@
         "tone": 2
       },
       {
-        "annotation": "mujer: tono de piel medio",
+        "annotation": "mujer sorda: tono de piel medio",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CF-1F3FD-200D-2640-FE0F",
         "shortcodes": [],
@@ -11902,7 +11937,7 @@
         "tone": 3
       },
       {
-        "annotation": "mujer: tono de piel oscuro medio",
+        "annotation": "mujer sorda: tono de piel oscuro medio",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CF-1F3FE-200D-2640-FE0F",
         "shortcodes": [],
@@ -11917,7 +11952,7 @@
         "tone": 4
       },
       {
-        "annotation": "mujer: tono de piel oscuro",
+        "annotation": "mujer sorda: tono de piel oscuro",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CF-1F3FF-200D-2640-FE0F",
         "shortcodes": [],
@@ -18534,7 +18569,7 @@
     "version": 5,
     "skins": [
       {
-        "annotation": "dar pecho: tono de piel claro",
+        "annotation": "lactancia materna: tono de piel claro",
         "name": "BREAST-FEEDING, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F931-1F3FB",
         "shortcodes": [
@@ -18550,7 +18585,7 @@
         "tone": 1
       },
       {
-        "annotation": "dar pecho: tono de piel claro medio",
+        "annotation": "lactancia materna: tono de piel claro medio",
         "name": "BREAST-FEEDING, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F931-1F3FC",
         "shortcodes": [
@@ -18566,7 +18601,7 @@
         "tone": 2
       },
       {
-        "annotation": "dar pecho: tono de piel medio",
+        "annotation": "lactancia materna: tono de piel medio",
         "name": "BREAST-FEEDING, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F931-1F3FD",
         "shortcodes": [
@@ -18582,7 +18617,7 @@
         "tone": 3
       },
       {
-        "annotation": "dar pecho: tono de piel oscuro medio",
+        "annotation": "lactancia materna: tono de piel oscuro medio",
         "name": "BREAST-FEEDING, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F931-1F3FE",
         "shortcodes": [
@@ -18598,7 +18633,7 @@
         "tone": 4
       },
       {
-        "annotation": "dar pecho: tono de piel oscuro",
+        "annotation": "lactancia materna: tono de piel oscuro",
         "name": "BREAST-FEEDING, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F931-1F3FF",
         "shortcodes": [
@@ -22239,11 +22274,16 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "persona de pie",
     "name": "STANDING PERSON",
     "hexcode": "1F9CD",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "de pie",
+      "levantada",
+      "levantado",
+      "levantarse"
+    ],
     "emoji": "🧍",
     "text": "",
     "type": 1,
@@ -22253,7 +22293,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "persona de pie: tono de piel claro",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CD-1F3FB",
         "shortcodes": [],
@@ -22267,7 +22307,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "persona de pie: tono de piel claro medio",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CD-1F3FC",
         "shortcodes": [],
@@ -22281,7 +22321,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "persona de pie: tono de piel medio",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CD-1F3FD",
         "shortcodes": [],
@@ -22295,7 +22335,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "persona de pie: tono de piel oscuro medio",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CD-1F3FE",
         "shortcodes": [],
@@ -22309,7 +22349,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "persona de pie: tono de piel oscuro",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CD-1F3FF",
         "shortcodes": [],
@@ -22325,14 +22365,15 @@
     ]
   },
   {
-    "annotation": "hombre",
+    "annotation": "hombre de pie",
     "name": "STANDING PERSON, MALE SIGN",
     "hexcode": "1F9CD-200D-2642-FE0F",
     "shortcodes": [],
     "tags": [
-      "signo",
-      "signo masculino",
-      "símbolo"
+      "de pie",
+      "hombre",
+      "levantado",
+      "levantarse"
     ],
     "emoji": "🧍‍♂️",
     "text": "",
@@ -22344,7 +22385,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "hombre: tono de piel claro",
+        "annotation": "hombre de pie: tono de piel claro",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CD-1F3FB-200D-2642-FE0F",
         "shortcodes": [],
@@ -22359,7 +22400,7 @@
         "tone": 1
       },
       {
-        "annotation": "hombre: tono de piel claro medio",
+        "annotation": "hombre de pie: tono de piel claro medio",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CD-1F3FC-200D-2642-FE0F",
         "shortcodes": [],
@@ -22374,7 +22415,7 @@
         "tone": 2
       },
       {
-        "annotation": "hombre: tono de piel medio",
+        "annotation": "hombre de pie: tono de piel medio",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CD-1F3FD-200D-2642-FE0F",
         "shortcodes": [],
@@ -22389,7 +22430,7 @@
         "tone": 3
       },
       {
-        "annotation": "hombre: tono de piel oscuro medio",
+        "annotation": "hombre de pie: tono de piel oscuro medio",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CD-1F3FE-200D-2642-FE0F",
         "shortcodes": [],
@@ -22404,7 +22445,7 @@
         "tone": 4
       },
       {
-        "annotation": "hombre: tono de piel oscuro",
+        "annotation": "hombre de pie: tono de piel oscuro",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CD-1F3FF-200D-2642-FE0F",
         "shortcodes": [],
@@ -22421,14 +22462,15 @@
     ]
   },
   {
-    "annotation": "mujer",
+    "annotation": "mujer de pie",
     "name": "STANDING PERSON, FEMALE SIGN",
     "hexcode": "1F9CD-200D-2640-FE0F",
     "shortcodes": [],
     "tags": [
-      "signo",
-      "signo femenino",
-      "símbolo"
+      "de pie",
+      "levantada",
+      "levantarse",
+      "mujer"
     ],
     "emoji": "🧍‍♀️",
     "text": "",
@@ -22440,7 +22482,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "mujer: tono de piel claro",
+        "annotation": "mujer de pie: tono de piel claro",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CD-1F3FB-200D-2640-FE0F",
         "shortcodes": [],
@@ -22455,7 +22497,7 @@
         "tone": 1
       },
       {
-        "annotation": "mujer: tono de piel claro medio",
+        "annotation": "mujer de pie: tono de piel claro medio",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CD-1F3FC-200D-2640-FE0F",
         "shortcodes": [],
@@ -22470,7 +22512,7 @@
         "tone": 2
       },
       {
-        "annotation": "mujer: tono de piel medio",
+        "annotation": "mujer de pie: tono de piel medio",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CD-1F3FD-200D-2640-FE0F",
         "shortcodes": [],
@@ -22485,7 +22527,7 @@
         "tone": 3
       },
       {
-        "annotation": "mujer: tono de piel oscuro medio",
+        "annotation": "mujer de pie: tono de piel oscuro medio",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CD-1F3FE-200D-2640-FE0F",
         "shortcodes": [],
@@ -22500,7 +22542,7 @@
         "tone": 4
       },
       {
-        "annotation": "mujer: tono de piel oscuro",
+        "annotation": "mujer de pie: tono de piel oscuro",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CD-1F3FF-200D-2640-FE0F",
         "shortcodes": [],
@@ -22517,11 +22559,16 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "persona de rodillas",
     "name": "KNEELING PERSON",
     "hexcode": "1F9CE",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "arrodillada",
+      "arrodillado",
+      "arrodillarse",
+      "de rodillas"
+    ],
     "emoji": "🧎",
     "text": "",
     "type": 1,
@@ -22531,7 +22578,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "persona de rodillas: tono de piel claro",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CE-1F3FB",
         "shortcodes": [],
@@ -22545,7 +22592,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "persona de rodillas: tono de piel claro medio",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CE-1F3FC",
         "shortcodes": [],
@@ -22559,7 +22606,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "persona de rodillas: tono de piel medio",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CE-1F3FD",
         "shortcodes": [],
@@ -22573,7 +22620,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "persona de rodillas: tono de piel oscuro medio",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CE-1F3FE",
         "shortcodes": [],
@@ -22587,7 +22634,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "persona de rodillas: tono de piel oscuro",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CE-1F3FF",
         "shortcodes": [],
@@ -22603,14 +22650,15 @@
     ]
   },
   {
-    "annotation": "hombre",
+    "annotation": "hombre de rodillas",
     "name": "KNEELING PERSON, MALE SIGN",
     "hexcode": "1F9CE-200D-2642-FE0F",
     "shortcodes": [],
     "tags": [
-      "signo",
-      "signo masculino",
-      "símbolo"
+      "arrodillado",
+      "arrodillarse",
+      "de rodillas",
+      "hombre"
     ],
     "emoji": "🧎‍♂️",
     "text": "",
@@ -22622,7 +22670,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "hombre: tono de piel claro",
+        "annotation": "hombre de rodillas: tono de piel claro",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CE-1F3FB-200D-2642-FE0F",
         "shortcodes": [],
@@ -22637,7 +22685,7 @@
         "tone": 1
       },
       {
-        "annotation": "hombre: tono de piel claro medio",
+        "annotation": "hombre de rodillas: tono de piel claro medio",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CE-1F3FC-200D-2642-FE0F",
         "shortcodes": [],
@@ -22652,7 +22700,7 @@
         "tone": 2
       },
       {
-        "annotation": "hombre: tono de piel medio",
+        "annotation": "hombre de rodillas: tono de piel medio",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CE-1F3FD-200D-2642-FE0F",
         "shortcodes": [],
@@ -22667,7 +22715,7 @@
         "tone": 3
       },
       {
-        "annotation": "hombre: tono de piel oscuro medio",
+        "annotation": "hombre de rodillas: tono de piel oscuro medio",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CE-1F3FE-200D-2642-FE0F",
         "shortcodes": [],
@@ -22682,7 +22730,7 @@
         "tone": 4
       },
       {
-        "annotation": "hombre: tono de piel oscuro",
+        "annotation": "hombre de rodillas: tono de piel oscuro",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CE-1F3FF-200D-2642-FE0F",
         "shortcodes": [],
@@ -22699,14 +22747,15 @@
     ]
   },
   {
-    "annotation": "mujer",
+    "annotation": "mujer de rodillas",
     "name": "KNEELING PERSON, FEMALE SIGN",
     "hexcode": "1F9CE-200D-2640-FE0F",
     "shortcodes": [],
     "tags": [
-      "signo",
-      "signo femenino",
-      "símbolo"
+      "arrodillada",
+      "arrodillarse",
+      "de rodillas",
+      "mujer"
     ],
     "emoji": "🧎‍♀️",
     "text": "",
@@ -22718,7 +22767,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "mujer: tono de piel claro",
+        "annotation": "mujer de rodillas: tono de piel claro",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CE-1F3FB-200D-2640-FE0F",
         "shortcodes": [],
@@ -22733,7 +22782,7 @@
         "tone": 1
       },
       {
-        "annotation": "mujer: tono de piel claro medio",
+        "annotation": "mujer de rodillas: tono de piel claro medio",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CE-1F3FC-200D-2640-FE0F",
         "shortcodes": [],
@@ -22748,7 +22797,7 @@
         "tone": 2
       },
       {
-        "annotation": "mujer: tono de piel medio",
+        "annotation": "mujer de rodillas: tono de piel medio",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CE-1F3FD-200D-2640-FE0F",
         "shortcodes": [],
@@ -22763,7 +22812,7 @@
         "tone": 3
       },
       {
-        "annotation": "mujer: tono de piel oscuro medio",
+        "annotation": "mujer de rodillas: tono de piel oscuro medio",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CE-1F3FE-200D-2640-FE0F",
         "shortcodes": [],
@@ -22778,7 +22827,7 @@
         "tone": 4
       },
       {
-        "annotation": "mujer: tono de piel oscuro",
+        "annotation": "mujer de rodillas: tono de piel oscuro",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CE-1F3FF-200D-2640-FE0F",
         "shortcodes": [],
@@ -22795,15 +22844,16 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "hombre con bastón",
     "name": "MAN, PROBING CANE",
     "hexcode": "1F468-200D-1F9AF",
     "shortcodes": [],
     "tags": [
-      "adulto",
-      "cara",
-      "persona",
-      "señor"
+      "accesibilidad",
+      "bastón",
+      "ciego",
+      "hombre",
+      "invidente"
     ],
     "emoji": "👨‍🦯",
     "text": "",
@@ -22814,7 +22864,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "hombre con bastón: tono de piel claro",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F468-1F3FB-200D-1F9AF",
         "shortcodes": [],
@@ -22828,7 +22878,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "hombre con bastón: tono de piel claro medio",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F468-1F3FC-200D-1F9AF",
         "shortcodes": [],
@@ -22842,7 +22892,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "hombre con bastón: tono de piel medio",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F468-1F3FD-200D-1F9AF",
         "shortcodes": [],
@@ -22856,7 +22906,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "hombre con bastón: tono de piel oscuro medio",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F468-1F3FE-200D-1F9AF",
         "shortcodes": [],
@@ -22870,7 +22920,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "hombre con bastón: tono de piel oscuro",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F468-1F3FF-200D-1F9AF",
         "shortcodes": [],
@@ -22886,12 +22936,15 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "mujer con bastón",
     "name": "WOMAN, PROBING CANE",
     "hexcode": "1F469-200D-1F9AF",
     "shortcodes": [],
     "tags": [
-      "adulta",
+      "accesibilidad",
+      "bastón",
+      "ciega",
+      "invidente",
       "mujer"
     ],
     "emoji": "👩‍🦯",
@@ -22903,7 +22956,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mujer con bastón: tono de piel claro",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F469-1F3FB-200D-1F9AF",
         "shortcodes": [],
@@ -22917,7 +22970,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "mujer con bastón: tono de piel claro medio",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F469-1F3FC-200D-1F9AF",
         "shortcodes": [],
@@ -22931,7 +22984,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "mujer con bastón: tono de piel medio",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F469-1F3FD-200D-1F9AF",
         "shortcodes": [],
@@ -22945,7 +22998,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "mujer con bastón: tono de piel oscuro medio",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F469-1F3FE-200D-1F9AF",
         "shortcodes": [],
@@ -22959,7 +23012,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "mujer con bastón: tono de piel oscuro",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F469-1F3FF-200D-1F9AF",
         "shortcodes": [],
@@ -22975,15 +23028,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "hombre en silla de ruedas eléctrica",
     "name": "MAN, MOTORIZED WHEELCHAIR",
     "hexcode": "1F468-200D-1F9BC",
     "shortcodes": [],
     "tags": [
-      "adulto",
-      "cara",
-      "persona",
-      "señor"
+      "accesibilidad",
+      "hombre",
+      "silla de ruedas"
     ],
     "emoji": "👨‍🦼",
     "text": "",
@@ -22994,7 +23046,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "hombre en silla de ruedas eléctrica: tono de piel claro",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F468-1F3FB-200D-1F9BC",
         "shortcodes": [],
@@ -23008,7 +23060,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "hombre en silla de ruedas eléctrica: tono de piel claro medio",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F468-1F3FC-200D-1F9BC",
         "shortcodes": [],
@@ -23022,7 +23074,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "hombre en silla de ruedas eléctrica: tono de piel medio",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F468-1F3FD-200D-1F9BC",
         "shortcodes": [],
@@ -23036,7 +23088,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "hombre en silla de ruedas eléctrica: tono de piel oscuro medio",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F468-1F3FE-200D-1F9BC",
         "shortcodes": [],
@@ -23050,7 +23102,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "hombre en silla de ruedas eléctrica: tono de piel oscuro",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F468-1F3FF-200D-1F9BC",
         "shortcodes": [],
@@ -23066,13 +23118,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "mujer en silla de ruedas eléctrica",
     "name": "WOMAN, MOTORIZED WHEELCHAIR",
     "hexcode": "1F469-200D-1F9BC",
     "shortcodes": [],
     "tags": [
-      "adulta",
-      "mujer"
+      "accesibilidad",
+      "mujer",
+      "silla de ruedas"
     ],
     "emoji": "👩‍🦼",
     "text": "",
@@ -23083,7 +23136,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mujer en silla de ruedas eléctrica: tono de piel claro",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F469-1F3FB-200D-1F9BC",
         "shortcodes": [],
@@ -23097,7 +23150,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "mujer en silla de ruedas eléctrica: tono de piel claro medio",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F469-1F3FC-200D-1F9BC",
         "shortcodes": [],
@@ -23111,7 +23164,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "mujer en silla de ruedas eléctrica: tono de piel medio",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F469-1F3FD-200D-1F9BC",
         "shortcodes": [],
@@ -23125,7 +23178,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "mujer en silla de ruedas eléctrica: tono de piel oscuro medio",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F469-1F3FE-200D-1F9BC",
         "shortcodes": [],
@@ -23139,7 +23192,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "mujer en silla de ruedas eléctrica: tono de piel oscuro",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F469-1F3FF-200D-1F9BC",
         "shortcodes": [],
@@ -23155,15 +23208,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "hombre en silla de ruedas manual",
     "name": "MAN, MANUAL WHEELCHAIR",
     "hexcode": "1F468-200D-1F9BD",
     "shortcodes": [],
     "tags": [
-      "adulto",
-      "cara",
-      "persona",
-      "señor"
+      "accesibilidad",
+      "hombre",
+      "silla de ruedas"
     ],
     "emoji": "👨‍🦽",
     "text": "",
@@ -23174,7 +23226,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "hombre en silla de ruedas manual: tono de piel claro",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F468-1F3FB-200D-1F9BD",
         "shortcodes": [],
@@ -23188,7 +23240,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "hombre en silla de ruedas manual: tono de piel claro medio",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F468-1F3FC-200D-1F9BD",
         "shortcodes": [],
@@ -23202,7 +23254,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "hombre en silla de ruedas manual: tono de piel medio",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F468-1F3FD-200D-1F9BD",
         "shortcodes": [],
@@ -23216,7 +23268,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "hombre en silla de ruedas manual: tono de piel oscuro medio",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F468-1F3FE-200D-1F9BD",
         "shortcodes": [],
@@ -23230,7 +23282,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "hombre en silla de ruedas manual: tono de piel oscuro",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F468-1F3FF-200D-1F9BD",
         "shortcodes": [],
@@ -23246,13 +23298,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "mujer en silla de ruedas manual",
     "name": "WOMAN, MANUAL WHEELCHAIR",
     "hexcode": "1F469-200D-1F9BD",
     "shortcodes": [],
     "tags": [
-      "adulta",
-      "mujer"
+      "accesibilidad",
+      "mujer",
+      "silla de ruedas"
     ],
     "emoji": "👩‍🦽",
     "text": "",
@@ -23263,7 +23316,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mujer en silla de ruedas manual: tono de piel claro",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F469-1F3FB-200D-1F9BD",
         "shortcodes": [],
@@ -23277,7 +23330,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "mujer en silla de ruedas manual: tono de piel claro medio",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F469-1F3FC-200D-1F9BD",
         "shortcodes": [],
@@ -23291,7 +23344,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "mujer en silla de ruedas manual: tono de piel medio",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F469-1F3FD-200D-1F9BD",
         "shortcodes": [],
@@ -23305,7 +23358,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "mujer en silla de ruedas manual: tono de piel oscuro medio",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F469-1F3FE-200D-1F9BD",
         "shortcodes": [],
@@ -23319,7 +23372,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "mujer en silla de ruedas manual: tono de piel oscuro",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F469-1F3FF-200D-1F9BD",
         "shortcodes": [],
@@ -26919,7 +26972,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "ciclista: tono de piel claro",
+        "annotation": "persona en bicicleta: tono de piel claro",
         "name": "BICYCLIST, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F6B4-1F3FB",
         "shortcodes": [
@@ -26935,7 +26988,7 @@
         "tone": 1
       },
       {
-        "annotation": "ciclista: tono de piel claro medio",
+        "annotation": "persona en bicicleta: tono de piel claro medio",
         "name": "BICYCLIST, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F6B4-1F3FC",
         "shortcodes": [
@@ -26951,7 +27004,7 @@
         "tone": 2
       },
       {
-        "annotation": "ciclista: tono de piel medio",
+        "annotation": "persona en bicicleta: tono de piel medio",
         "name": "BICYCLIST, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F6B4-1F3FD",
         "shortcodes": [
@@ -26967,7 +27020,7 @@
         "tone": 3
       },
       {
-        "annotation": "ciclista: tono de piel oscuro medio",
+        "annotation": "persona en bicicleta: tono de piel oscuro medio",
         "name": "BICYCLIST, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F6B4-1F3FE",
         "shortcodes": [
@@ -26983,7 +27036,7 @@
         "tone": 4
       },
       {
-        "annotation": "ciclista: tono de piel oscuro",
+        "annotation": "persona en bicicleta: tono de piel oscuro",
         "name": "BICYCLIST, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F6B4-1F3FF",
         "shortcodes": [
@@ -29393,16 +29446,12 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "dos personas dándose la mano",
     "name": "ADULT, HANDSHAKE, ADULT",
     "hexcode": "1F9D1-200D-1F91D-200D-1F9D1",
     "shortcodes": [],
     "tags": [
-      "acuerdo",
-      "apretón",
-      "apretón de manos",
-      "manos",
-      "persona"
+      "dos personas dándose la mano"
     ],
     "emoji": "🧑‍🤝‍🧑",
     "text": "",
@@ -29413,7 +29462,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "dos personas dándose la mano: tono de piel oscuro y tono de piel claro",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB",
         "shortcodes": [],
@@ -29427,7 +29476,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "dos personas dándose la mano: tono de piel oscuro y tono de piel claro medio",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC",
         "shortcodes": [],
@@ -29441,7 +29490,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "dos personas dándose la mano: tono de piel oscuro y tono de piel medio",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD",
         "shortcodes": [],
@@ -29455,7 +29504,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "dos personas dándose la mano: tono de piel oscuro y tono de piel oscuro medio",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE",
         "shortcodes": [],
@@ -29469,7 +29518,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "dos personas dándose la mano: tono de piel oscuro",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF",
         "shortcodes": [],
@@ -29485,7 +29534,7 @@
     ]
   },
   {
-    "annotation": "dos mujeres de la mano",
+    "annotation": "mujeres de la mano",
     "name": "TWO WOMEN HOLDING HANDS",
     "hexcode": "1F46D",
     "shortcodes": [
@@ -29506,7 +29555,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mujeres de la mano: tono de piel claro",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F46D-1F3FB",
         "shortcodes": [
@@ -29522,7 +29571,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "mujeres de la mano: tono de piel claro medio",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F46D-1F3FC",
         "shortcodes": [
@@ -29538,7 +29587,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "mujeres de la mano: tono de piel medio",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F46D-1F3FD",
         "shortcodes": [
@@ -29554,7 +29603,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "mujeres de la mano: tono de piel oscuro medio",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F46D-1F3FE",
         "shortcodes": [
@@ -29570,7 +29619,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "mujeres de la mano: tono de piel oscuro",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F46D-1F3FF",
         "shortcodes": [
@@ -29588,7 +29637,7 @@
     ]
   },
   {
-    "annotation": "hombre y mujer de la mano",
+    "annotation": "mujer y hombre de la mano",
     "name": "MAN AND WOMAN HOLDING HANDS",
     "hexcode": "1F46B",
     "shortcodes": [
@@ -29596,7 +29645,11 @@
       "holding_hands_wm"
     ],
     "tags": [
-      "hombre y mujer de la mano"
+      "hombre",
+      "hombre y mujer de la mano",
+      "mujer",
+      "novios",
+      "pareja"
     ],
     "emoji": "👫",
     "text": "",
@@ -29607,7 +29660,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mujer y hombre de la mano: tono de piel claro",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F46B-1F3FB",
         "shortcodes": [
@@ -29624,7 +29677,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "mujer y hombre de la mano: tono de piel claro medio",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F46B-1F3FC",
         "shortcodes": [
@@ -29641,7 +29694,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "mujer y hombre de la mano: tono de piel medio",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F46B-1F3FD",
         "shortcodes": [
@@ -29658,7 +29711,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "mujer y hombre de la mano: tono de piel oscuro medio",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F46B-1F3FE",
         "shortcodes": [
@@ -29675,7 +29728,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "mujer y hombre de la mano: tono de piel oscuro",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F46B-1F3FF",
         "shortcodes": [
@@ -29694,7 +29747,7 @@
     ]
   },
   {
-    "annotation": "dos hombres de la mano",
+    "annotation": "hombres de la mano",
     "name": "TWO MEN HOLDING HANDS",
     "hexcode": "1F46C",
     "shortcodes": [
@@ -29715,7 +29768,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "hombres de la mano: tono de piel claro",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F46C-1F3FB",
         "shortcodes": [
@@ -29731,7 +29784,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "hombres de la mano: tono de piel claro medio",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F46C-1F3FC",
         "shortcodes": [
@@ -29747,7 +29800,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "hombres de la mano: tono de piel medio",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F46C-1F3FD",
         "shortcodes": [
@@ -29763,7 +29816,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "hombres de la mano: tono de piel oscuro medio",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F46C-1F3FE",
         "shortcodes": [
@@ -29779,7 +29832,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "hombres de la mano: tono de piel oscuro",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F46C-1F3FF",
         "shortcodes": [
@@ -30739,11 +30792,15 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "orangután",
     "name": "ORANGUTAN",
     "hexcode": "1F9A7",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "mono",
+      "primate",
+      "simio"
+    ],
     "emoji": "🦧",
     "text": "",
     "type": 1,
@@ -30792,11 +30849,17 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "perro guía",
     "name": "GUIDE DOG",
     "hexcode": "1F9AE",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "accesibilidad",
+      "ciego",
+      "guía",
+      "invidente",
+      "lazarillo"
+    ],
     "emoji": "🦮",
     "text": "",
     "type": 1,
@@ -30806,15 +30869,16 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "perro de servicio",
     "name": "DOG, SAFETY VEST",
     "hexcode": "1F415-200D-1F9BA",
     "shortcodes": [],
     "tags": [
-      "animal",
-      "canino",
-      "mascota",
-      "perro"
+      "accesibilidad",
+      "apoyo",
+      "asistencia",
+      "perro",
+      "servicio"
     ],
     "emoji": "🐕‍🦺",
     "text": "",
@@ -30846,15 +30910,14 @@
     "version": 1
   },
   {
-    "annotation": "cara de lobo",
+    "annotation": "lobo",
     "name": "WOLF FACE",
     "hexcode": "1F43A",
     "shortcodes": [
       "wolf_face"
     ],
     "tags": [
-      "cara",
-      "lobo"
+      "cara"
     ],
     "emoji": "🐺",
     "text": "",
@@ -30865,7 +30928,7 @@
     "version": 1
   },
   {
-    "annotation": "cara de zorro",
+    "annotation": "zorro",
     "name": "FOX FACE",
     "hexcode": "1F98A",
     "shortcodes": [
@@ -30873,8 +30936,7 @@
     ],
     "tags": [
       "animal",
-      "cara",
-      "zorro"
+      "cara"
     ],
     "emoji": "🦊",
     "text": "",
@@ -30944,7 +31006,7 @@
     "version": 1
   },
   {
-    "annotation": "cara de león",
+    "annotation": "león",
     "name": "LION FACE",
     "hexcode": "1F981",
     "shortcodes": [
@@ -30953,7 +31015,6 @@
     "tags": [
       "cara",
       "leo",
-      "león",
       "zodiaco"
     ],
     "emoji": "🦁",
@@ -31063,15 +31124,14 @@
     "version": 1
   },
   {
-    "annotation": "cara de unicornio",
+    "annotation": "unicornio",
     "name": "UNICORN FACE",
     "hexcode": "1F984",
     "shortcodes": [
       "unicorn_face"
     ],
     "tags": [
-      "cara",
-      "unicornio"
+      "cara"
     ],
     "emoji": "🦄",
     "text": "",
@@ -31529,7 +31589,7 @@
     "version": 1
   },
   {
-    "annotation": "cara de hámster",
+    "annotation": "hámster",
     "name": "HAMSTER FACE",
     "hexcode": "1F439",
     "shortcodes": [
@@ -31538,7 +31598,6 @@
     "tags": [
       "animal",
       "cara",
-      "hámster",
       "mascota"
     ],
     "emoji": "🐹",
@@ -31658,7 +31717,7 @@
     "version": 3
   },
   {
-    "annotation": "cara de oso",
+    "annotation": "oso",
     "name": "BEAR FACE",
     "hexcode": "1F43B",
     "shortcodes": [
@@ -31666,8 +31725,7 @@
     ],
     "tags": [
       "animal",
-      "cara",
-      "oso"
+      "cara"
     ],
     "emoji": "🐻",
     "text": "",
@@ -31696,7 +31754,7 @@
     "version": 1
   },
   {
-    "annotation": "cara de oso panda",
+    "annotation": "panda",
     "name": "PANDA FACE",
     "hexcode": "1F43C",
     "shortcodes": [
@@ -31705,8 +31763,7 @@
     "tags": [
       "animal",
       "cara",
-      "oso panda",
-      "panda"
+      "oso panda"
     ],
     "emoji": "🐼",
     "text": "",
@@ -31717,11 +31774,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "perezoso",
     "name": "SLOTH",
     "hexcode": "1F9A5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "gandul",
+      "lento",
+      "vago"
+    ],
     "emoji": "🦥",
     "text": "",
     "type": 1,
@@ -31731,11 +31792,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "nutria",
     "name": "OTTER",
     "hexcode": "1F9A6",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bromista",
+      "juguetón",
+      "pesca"
+    ],
     "emoji": "🦦",
     "text": "",
     "type": 1,
@@ -31745,11 +31810,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "zorrillo",
     "name": "SKUNK",
     "hexcode": "1F9A8",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "zorrillo"
+    ],
     "emoji": "🦨",
     "text": "",
     "type": 1,
@@ -32090,11 +32157,15 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "flamenco",
     "name": "FLAMINGO",
     "hexcode": "1F9A9",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "extravangante",
+      "ostentoso",
+      "tropical"
+    ],
     "emoji": "🦩",
     "text": "",
     "type": 1,
@@ -32147,7 +32218,7 @@
     "version": 11
   },
   {
-    "annotation": "cara de rana",
+    "annotation": "rana",
     "name": "FROG FACE",
     "hexcode": "1F438",
     "shortcodes": [
@@ -32155,8 +32226,7 @@
     ],
     "tags": [
       "animal",
-      "cara",
-      "rana"
+      "cara"
     ],
     "emoji": "🐸",
     "text": "",
@@ -33748,11 +33818,14 @@
     "version": 5
   },
   {
-    "annotation": "",
+    "annotation": "ajo",
     "name": "GARLIC",
     "hexcode": "1F9C4",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "condimento",
+      "vampiro"
+    ],
     "emoji": "🧄",
     "text": "",
     "type": 1,
@@ -33762,11 +33835,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "cebolla",
     "name": "ONION",
     "hexcode": "1F9C5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "condimento",
+      "llorar"
+    ],
     "emoji": "🧅",
     "text": "",
     "type": 1,
@@ -33954,11 +34030,13 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "waffle",
     "name": "WAFFLE",
     "hexcode": "1F9C7",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "waffle"
+    ],
     "emoji": "🧇",
     "text": "",
     "type": 1,
@@ -34224,11 +34302,14 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "falafel",
     "name": "FALAFEL",
     "hexcode": "1F9C6",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "albóndigas",
+      "bolas de garbanzo"
+    ],
     "emoji": "🧆",
     "text": "",
     "type": 1,
@@ -34373,11 +34454,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "mantequilla",
     "name": "BUTTER",
     "hexcode": "1F9C8",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "lácteo",
+      "margarina"
+    ],
     "emoji": "🧈",
     "text": "",
     "type": 1,
@@ -34847,11 +34931,13 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "ostión",
     "name": "OYSTER",
     "hexcode": "1F9AA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "ostión"
+    ],
     "emoji": "🦪",
     "text": "",
     "type": 1,
@@ -35433,11 +35519,16 @@
     "version": 5
   },
   {
-    "annotation": "",
+    "annotation": "tetrabrik",
     "name": "BEVERAGE BOX",
     "hexcode": "1F9C3",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "brick",
+      "cartón",
+      "envase",
+      "zumo"
+    ],
     "emoji": "🧃",
     "text": "",
     "type": 1,
@@ -35447,11 +35538,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "mate",
     "name": "MATE DRINK",
     "hexcode": "1F9C9",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bebida",
+      "infusión"
+    ],
     "emoji": "🧉",
     "text": "",
     "type": 1,
@@ -35461,11 +35555,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "hielo",
     "name": "ICE CUBE",
     "hexcode": "1F9CA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "hielo"
+    ],
     "emoji": "🧊",
     "text": "",
     "type": 1,
@@ -36683,11 +36779,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "templo hindú",
     "name": "HINDU TEMPLE",
     "hexcode": "1F6D5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "hindú",
+      "templo"
+    ],
     "emoji": "🛕",
     "text": "",
     "type": 1,
@@ -37780,11 +37879,13 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "silla de ruedas manual",
     "name": "MANUAL WHEELCHAIR",
     "hexcode": "1F9BD",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "accesibilidad"
+    ],
     "emoji": "🦽",
     "text": "",
     "type": 1,
@@ -37794,11 +37895,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "silla de ruedas eléctrica",
     "name": "MOTORIZED WHEELCHAIR",
     "hexcode": "1F9BC",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "accesibilidad"
+    ],
     "emoji": "🦼",
     "text": "",
     "type": 1,
@@ -37808,11 +37911,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "mototaxi",
     "name": "AUTO RICKSHAW",
     "hexcode": "1F6FA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "rickshaw",
+      "tuk tuk"
+    ],
     "emoji": "🛺",
     "text": "",
     "type": 1,
@@ -38469,11 +38575,16 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "paracaídas",
     "name": "PARACHUTE",
     "hexcode": "1FA82",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "ala delta",
+      "paracaidismo",
+      "paravela",
+      "volar"
+    ],
     "emoji": "🪂",
     "text": "",
     "type": 1,
@@ -39750,11 +39861,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "planeta con anillos",
     "name": "RINGED PLANET",
     "hexcode": "1FA90",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "saturnino",
+      "saturno"
+    ],
     "emoji": "🪐",
     "text": "",
     "type": 1,
@@ -40538,11 +40652,12 @@
     "version": 1
   },
   {
-    "annotation": "cometa",
+    "annotation": "meteorito",
     "name": "COMET",
     "hexcode": "2604-FE0F",
     "shortcodes": [],
     "tags": [
+      "cometa",
       "espacio"
     ],
     "emoji": "☄️",
@@ -40554,13 +40669,14 @@
     "version": 12
   },
   {
-    "annotation": "cometa",
+    "annotation": "meteorito",
     "name": "COMET",
     "hexcode": "2604",
     "shortcodes": [
       "comet"
     ],
     "tags": [
+      "cometa",
       "espacio"
     ],
     "emoji": "☄️",
@@ -40737,9 +40853,10 @@
       "sparkles"
     ],
     "tags": [
-      "brillo",
+      "*",
+      "bengala",
       "estrellas",
-      "luces"
+      "estrellas centelleantes"
     ],
     "emoji": "✨",
     "text": "",
@@ -41686,11 +41803,17 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "máscara de buceo",
     "name": "DIVING MASK",
     "hexcode": "1F93F",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bucear",
+      "buzo",
+      "esnórquel",
+      "máscara",
+      "tubo"
+    ],
     "emoji": "🤿",
     "text": "",
     "type": 1,
@@ -41800,11 +41923,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "yoyo",
     "name": "YO-YO",
     "hexcode": "1FA80",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "yoyo"
+    ],
     "emoji": "🪀",
     "text": "",
     "type": 1,
@@ -41814,11 +41939,17 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "cometa",
     "name": "KITE",
     "hexcode": "1FA81",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "juguete",
+      "papalote",
+      "planear",
+      "viento",
+      "volar"
+    ],
     "emoji": "🪁",
     "text": "",
     "type": 1,
@@ -41995,7 +42126,7 @@
     "version": 1
   },
   {
-    "annotation": "rompecabezas",
+    "annotation": "puzle",
     "name": "JIGSAW PUZZLE PIECE",
     "hexcode": "1F9E9",
     "shortcodes": [
@@ -42003,9 +42134,10 @@
       "puzzle_piece"
     ],
     "tags": [
-      "entrelazar",
+      "conectar",
       "pieza",
-      "pista"
+      "pista",
+      "rompecabezas"
     ],
     "emoji": "🧩",
     "text": "",
@@ -42510,11 +42642,15 @@
     "version": 11
   },
   {
-    "annotation": "",
+    "annotation": "chaleco de seguridad",
     "name": "SAFETY VEST",
     "hexcode": "1F9BA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "chaleco",
+      "emergencia",
+      "seguridad"
+    ],
     "emoji": "🦺",
     "text": "",
     "type": 1,
@@ -42700,11 +42836,16 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "sari",
     "name": "SARI",
     "hexcode": "1F97B",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "india",
+      "prenda",
+      "ropa",
+      "vestido"
+    ],
     "emoji": "🥻",
     "text": "",
     "type": 1,
@@ -42714,11 +42855,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "traje de baño de una pieza",
     "name": "ONE-PIECE SWIMSUIT",
     "hexcode": "1FA71",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "traje de baño"
+    ],
     "emoji": "🩱",
     "text": "",
     "type": 1,
@@ -42728,11 +42871,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "ropa interior",
     "name": "BRIEFS",
     "hexcode": "1FA72",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "calzoncillos",
+      "slip",
+      "traje de baño"
+    ],
     "emoji": "🩲",
     "text": "",
     "type": 1,
@@ -42742,11 +42889,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "shorts",
     "name": "SHORTS",
     "hexcode": "1FA73",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "shorts"
+    ],
     "emoji": "🩳",
     "text": "",
     "type": 1,
@@ -43043,11 +43192,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "zapatillas de ballet",
     "name": "BALLET SHOES",
     "hexcode": "1FA70",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bailar",
+      "ballet",
+      "danza"
+    ],
     "emoji": "🩰",
     "text": "",
     "type": 1,
@@ -43804,11 +43957,16 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "banjo",
     "name": "BANJO",
     "hexcode": "1FA95",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "banyo",
+      "cuerda",
+      "instrumento",
+      "música"
+    ],
     "emoji": "🪕",
     "text": "",
     "type": 1,
@@ -44637,11 +44795,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "lámpara de aceite",
     "name": "DIYA LAMP",
     "hexcode": "1FA94",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "aceite",
+      "diya",
+      "lámpara"
+    ],
     "emoji": "🪔",
     "text": "",
     "type": 1,
@@ -46526,11 +46688,17 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "hacha",
     "name": "AXE",
     "hexcode": "1FA93",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "cortar",
+      "dividir",
+      "hachuela",
+      "madera",
+      "talar"
+    ],
     "emoji": "🪓",
     "text": "",
     "type": 1,
@@ -46952,11 +47120,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "bastón",
     "name": "PROBING CANE",
     "hexcode": "1F9AF",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "accesibilidad",
+      "ceguera",
+      "invidente"
+    ],
     "emoji": "🦯",
     "text": "",
     "type": 1,
@@ -47243,11 +47415,17 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "gota de sangre",
     "name": "DROP OF BLOOD",
     "hexcode": "1FA78",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "donación de sangre",
+      "donar sangre",
+      "herida",
+      "medicina",
+      "sangre"
+    ],
     "emoji": "🩸",
     "text": "",
     "type": 1,
@@ -47278,11 +47456,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "curita",
     "name": "ADHESIVE BANDAGE",
     "hexcode": "1FA79",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "curita"
+    ],
     "emoji": "🩹",
     "text": "",
     "type": 1,
@@ -47292,11 +47472,17 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "estetoscopio",
     "name": "STETHOSCOPE",
     "hexcode": "1FA7A",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "corazón",
+      "doctor",
+      "fonendoscopio",
+      "latido",
+      "medicina"
+    ],
     "emoji": "🩺",
     "text": "",
     "type": 1,
@@ -47402,11 +47588,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "silla",
     "name": "CHAIR",
     "hexcode": "1FA91",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "asiento",
+      "sentarse"
+    ],
     "emoji": "🪑",
     "text": "",
     "type": 1,
@@ -47472,11 +47661,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "navaja de afeitar",
     "name": "RAZOR",
     "hexcode": "1FA92",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "navaja de afeitar"
+    ],
     "emoji": "🪒",
     "text": "",
     "type": 1,
@@ -50629,14 +50820,17 @@
     "version": 1
   },
   {
-    "annotation": "círculo grueso",
+    "annotation": "círculo rojo hueco",
     "name": "HEAVY LARGE CIRCLE",
     "hexcode": "2B55",
     "shortcodes": [
       "o"
     ],
     "tags": [
-      "círculo grueso"
+      "aro",
+      "círculo",
+      "o",
+      "rojo"
     ],
     "emoji": "⭕️",
     "text": "⭕︎",
@@ -50647,14 +50841,18 @@
     "version": 1
   },
   {
-    "annotation": "marca de verificación blanca gruesa",
+    "annotation": "botón de marca de verificación",
     "name": "WHITE HEAVY CHECK MARK",
     "hexcode": "2705",
     "shortcodes": [
       "white_check_mark"
     ],
     "tags": [
-      "marca de verificación blanca gruesa"
+      "botón",
+      "marca",
+      "selección",
+      "verificación",
+      "✓"
     ],
     "emoji": "✅",
     "text": "",
@@ -50665,15 +50863,16 @@
     "version": 1
   },
   {
-    "annotation": "verificación en un recuadro",
+    "annotation": "casilla con marca de verificación",
     "name": "BALLOT BOX WITH CHECK",
     "hexcode": "2611-FE0F",
     "shortcodes": [],
     "tags": [
       "casilla",
-      "casilla seleccionada",
-      "seleccionado",
-      "verificación"
+      "marca",
+      "selección",
+      "verificación",
+      "✓"
     ],
     "emoji": "☑️",
     "text": "",
@@ -50684,7 +50883,7 @@
     "version": 12
   },
   {
-    "annotation": "verificación en un recuadro",
+    "annotation": "casilla con marca de verificación",
     "name": "BALLOT BOX WITH CHECK",
     "hexcode": "2611",
     "shortcodes": [
@@ -50692,9 +50891,10 @@
     ],
     "tags": [
       "casilla",
-      "casilla seleccionada",
-      "seleccionado",
-      "verificación"
+      "marca",
+      "selección",
+      "verificación",
+      "✓"
     ],
     "emoji": "☑️",
     "text": "☑︎",
@@ -50705,12 +50905,15 @@
     "version": 1
   },
   {
-    "annotation": "marca de verificación gruesa",
+    "annotation": "marca de verificación",
     "name": "HEAVY CHECK MARK",
     "hexcode": "2714-FE0F",
     "shortcodes": [],
     "tags": [
-      "marca de verificación gruesa"
+      "marca",
+      "selección",
+      "verificación",
+      "✓"
     ],
     "emoji": "✔️",
     "text": "",
@@ -50721,14 +50924,17 @@
     "version": 12
   },
   {
-    "annotation": "marca de verificación gruesa",
+    "annotation": "marca de verificación",
     "name": "HEAVY CHECK MARK",
     "hexcode": "2714",
     "shortcodes": [
       "check_mark"
     ],
     "tags": [
-      "marca de verificación gruesa"
+      "marca",
+      "selección",
+      "verificación",
+      "✓"
     ],
     "emoji": "✔️",
     "text": "✔︎",
@@ -50739,13 +50945,11 @@
     "version": 1
   },
   {
-    "annotation": "signo de multiplicación grueso",
+    "annotation": "signo de multiplicación",
     "name": "HEAVY MULTIPLICATION X",
     "hexcode": "2716-FE0F",
     "shortcodes": [],
-    "tags": [
-      "signo de multiplicación grueso"
-    ],
+    "tags": [],
     "emoji": "✖️",
     "text": "",
     "type": 1,
@@ -50755,15 +50959,13 @@
     "version": 12
   },
   {
-    "annotation": "signo de multiplicación grueso",
+    "annotation": "signo de multiplicación",
     "name": "HEAVY MULTIPLICATION X",
     "hexcode": "2716",
     "shortcodes": [
       "multiplication"
     ],
-    "tags": [
-      "signo de multiplicación grueso"
-    ],
+    "tags": [],
     "emoji": "✖️",
     "text": "✖︎",
     "type": 1,
@@ -50784,7 +50986,8 @@
       "cancelar",
       "cruz",
       "marca de tachado",
-      "tachar"
+      "tachar",
+      "×"
     ],
     "emoji": "❌",
     "text": "",
@@ -50795,17 +50998,18 @@
     "version": 1
   },
   {
-    "annotation": "marca de cruz en un cuadrado",
+    "annotation": "botón con marca de cruz",
     "name": "NEGATIVE SQUARED CROSS MARK",
     "hexcode": "274E",
     "shortcodes": [
       "cross_mark_button"
     ],
     "tags": [
-      "cuadrado",
+      "casilla",
+      "cruz",
       "marca",
-      "selección",
-      "x"
+      "x",
+      "×"
     ],
     "emoji": "❎",
     "text": "",
@@ -50816,14 +51020,17 @@
     "version": 1
   },
   {
-    "annotation": "signo se suma grueso",
+    "annotation": "signo de suma",
     "name": "HEAVY PLUS SIGN",
     "hexcode": "2795",
     "shortcodes": [
       "plus"
     ],
     "tags": [
-      "signo se suma grueso"
+      "+",
+      "más",
+      "signo",
+      "suma"
     ],
     "emoji": "➕",
     "text": "",
@@ -50841,7 +51048,11 @@
       "minus"
     ],
     "tags": [
-      "signo de resta"
+      "-",
+      "menos",
+      "resta",
+      "signo",
+      "−"
     ],
     "emoji": "➖",
     "text": "",
@@ -50859,7 +51070,9 @@
       "division"
     ],
     "tags": [
-      "signo de división"
+      "división",
+      "signo",
+      "÷"
     ],
     "emoji": "➗",
     "text": "",
@@ -50949,6 +51162,7 @@
     "hexcode": "2733-FE0F",
     "shortcodes": [],
     "tags": [
+      "*",
       "asterisco"
     ],
     "emoji": "✳️",
@@ -50967,6 +51181,7 @@
       "eight_spoked_asterisk"
     ],
     "tags": [
+      "*",
       "asterisco"
     ],
     "emoji": "✳️",
@@ -50983,6 +51198,7 @@
     "hexcode": "2734-FE0F",
     "shortcodes": [],
     "tags": [
+      "*",
       "estrella"
     ],
     "emoji": "✴️",
@@ -51001,6 +51217,7 @@
       "eight_pointed_star"
     ],
     "tags": [
+      "*",
       "estrella"
     ],
     "emoji": "✴️",
@@ -51051,8 +51268,10 @@
     "hexcode": "203C-FE0F",
     "shortcodes": [],
     "tags": [
+      "!!",
       "exclamación",
-      "puntuación"
+      "puntuación",
+      "sorpresa"
     ],
     "emoji": "‼️",
     "text": "",
@@ -51071,8 +51290,10 @@
       "double_exclamation"
     ],
     "tags": [
+      "!!",
       "exclamación",
-      "puntuación"
+      "puntuación",
+      "sorpresa"
     ],
     "emoji": "‼️",
     "text": "‼︎",
@@ -51088,6 +51309,9 @@
     "hexcode": "2049-FE0F",
     "shortcodes": [],
     "tags": [
+      "!",
+      "!?",
+      "?",
       "exclamación",
       "interrogación",
       "pregunta",
@@ -51110,6 +51334,9 @@
       "exclamation_question"
     ],
     "tags": [
+      "!",
+      "!?",
+      "?",
       "exclamación",
       "interrogación",
       "pregunta",
@@ -51124,13 +51351,14 @@
     "version": 1
   },
   {
-    "annotation": "interrogación roja",
+    "annotation": "signo de interrogación",
     "name": "BLACK QUESTION MARK ORNAMENT",
     "hexcode": "2753",
     "shortcodes": [
       "question"
     ],
     "tags": [
+      "?",
       "interrogación",
       "pregunta",
       "puntuación"
@@ -51151,6 +51379,7 @@
       "white_question"
     ],
     "tags": [
+      "?",
       "interrogación",
       "pregunta",
       "puntuación"
@@ -51171,6 +51400,7 @@
       "white_exclamation"
     ],
     "tags": [
+      "!",
       "exclamación",
       "puntuación"
     ],
@@ -51183,13 +51413,14 @@
     "version": 1
   },
   {
-    "annotation": "exclamación roja",
+    "annotation": "signo de exclamación",
     "name": "HEAVY EXCLAMATION MARK SYMBOL",
     "hexcode": "2757",
     "shortcodes": [
       "exclamation"
     ],
     "tags": [
+      "!",
       "exclamación",
       "puntuación"
     ],
@@ -51240,12 +51471,15 @@
     "version": 1
   },
   {
-    "annotation": "símbolo de copyright",
+    "annotation": "símbolo de derechos de autor",
     "name": "COPYRIGHT SIGN",
     "hexcode": "00A9-FE0F",
     "shortcodes": [],
     "tags": [
-      "copyright"
+      "autor",
+      "copyright",
+      "derechos",
+      "signo de derechos autor"
     ],
     "emoji": "©️",
     "text": "",
@@ -51256,14 +51490,17 @@
     "version": 12
   },
   {
-    "annotation": "símbolo de copyright",
+    "annotation": "símbolo de derechos de autor",
     "name": "COPYRIGHT SIGN",
     "hexcode": "00A9",
     "shortcodes": [
       "copyright"
     ],
     "tags": [
-      "copyright"
+      "autor",
+      "copyright",
+      "derechos",
+      "signo de derechos autor"
     ],
     "emoji": "©️",
     "text": "©︎",
@@ -51279,7 +51516,9 @@
     "hexcode": "00AE-FE0F",
     "shortcodes": [],
     "tags": [
-      "marca registrada"
+      "marca",
+      "registrada",
+      "signo de marca registrada"
     ],
     "emoji": "®️",
     "text": "",
@@ -51297,7 +51536,9 @@
       "registered"
     ],
     "tags": [
-      "marca registrada"
+      "marca",
+      "registrada",
+      "signo de marca registrada"
     ],
     "emoji": "®️",
     "text": "®︎",
@@ -51308,13 +51549,11 @@
     "version": 1
   },
   {
-    "annotation": "símbolo de marca comercial",
+    "annotation": "marca registrada",
     "name": "TRADE MARK SIGN",
     "hexcode": "2122-FE0F",
     "shortcodes": [],
-    "tags": [
-      "marca comercial"
-    ],
+    "tags": [],
     "emoji": "™️",
     "text": "",
     "type": 1,
@@ -51324,15 +51563,13 @@
     "version": 12
   },
   {
-    "annotation": "símbolo de marca comercial",
+    "annotation": "marca registrada",
     "name": "TRADE MARK SIGN",
     "hexcode": "2122",
     "shortcodes": [
       "tm"
     ],
-    "tags": [
-      "marca comercial"
-    ],
+    "tags": [],
     "emoji": "™️",
     "text": "™︎",
     "type": 1,
@@ -52574,11 +52811,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "círculo naranja",
     "name": "LARGE ORANGE CIRCLE",
     "hexcode": "1F7E0",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "círculo",
+      "naranja"
+    ],
     "emoji": "🟠",
     "text": "",
     "type": 1,
@@ -52588,11 +52828,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "círculo amarillo",
     "name": "LARGE YELLOW CIRCLE",
     "hexcode": "1F7E1",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "amarillo",
+      "círculo"
+    ],
     "emoji": "🟡",
     "text": "",
     "type": 1,
@@ -52602,11 +52845,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "círculo verde",
     "name": "LARGE GREEN CIRCLE",
     "hexcode": "1F7E2",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "círculo",
+      "verde"
+    ],
     "emoji": "🟢",
     "text": "",
     "type": 1,
@@ -52636,11 +52882,16 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "círculo morado",
     "name": "LARGE PURPLE CIRCLE",
     "hexcode": "1F7E3",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "círculo",
+      "lila",
+      "morado",
+      "púrpura"
+    ],
     "emoji": "🟣",
     "text": "",
     "type": 1,
@@ -52650,11 +52901,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "círculo café",
     "name": "LARGE BROWN CIRCLE",
     "hexcode": "1F7E4",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "círculo café"
+    ],
     "emoji": "🟤",
     "text": "",
     "type": 1,
@@ -52702,11 +52955,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "cuadrado rojo",
     "name": "LARGE RED SQUARE",
     "hexcode": "1F7E5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "cuadrado",
+      "rojo"
+    ],
     "emoji": "🟥",
     "text": "",
     "type": 1,
@@ -52716,11 +52972,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "cuadrado naranja",
     "name": "LARGE ORANGE SQUARE",
     "hexcode": "1F7E7",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "cuadrado",
+      "naranja"
+    ],
     "emoji": "🟧",
     "text": "",
     "type": 1,
@@ -52730,11 +52989,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "cuadrado amarillo",
     "name": "LARGE YELLOW SQUARE",
     "hexcode": "1F7E8",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "amarillo",
+      "cuadrado"
+    ],
     "emoji": "🟨",
     "text": "",
     "type": 1,
@@ -52744,11 +53006,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "cuadrado verde",
     "name": "LARGE GREEN SQUARE",
     "hexcode": "1F7E9",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "cuadrado",
+      "verde"
+    ],
     "emoji": "🟩",
     "text": "",
     "type": 1,
@@ -52758,11 +53023,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "cuadrado azul",
     "name": "LARGE BLUE SQUARE",
     "hexcode": "1F7E6",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "azul",
+      "cuadrado"
+    ],
     "emoji": "🟦",
     "text": "",
     "type": 1,
@@ -52772,11 +53040,16 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "cuadrado morado",
     "name": "LARGE PURPLE SQUARE",
     "hexcode": "1F7EA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "cuadrado",
+      "lila",
+      "morado",
+      "púrpura"
+    ],
     "emoji": "🟪",
     "text": "",
     "type": 1,
@@ -52786,11 +53059,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "cuadrado café",
     "name": "LARGE BROWN SQUARE",
     "hexcode": "1F7EB",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "cuadrado café"
+    ],
     "emoji": "🟫",
     "text": "",
     "type": 1,
@@ -53397,7 +53672,7 @@
     "version": 11
   },
   {
-    "annotation": "bandera: Isla Ascensión",
+    "annotation": "Bandera: Isla de la Ascensión",
     "name": "FLAG: ASCENSION ISLAND",
     "hexcode": "1F1E6-1F1E8",
     "shortcodes": [
@@ -53416,7 +53691,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Andorra",
+    "annotation": "Bandera: Andorra",
     "name": "FLAG: ANDORRA",
     "hexcode": "1F1E6-1F1E9",
     "shortcodes": [
@@ -53435,7 +53710,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Emiratos Árabes Unidos",
+    "annotation": "Bandera: Emiratos Árabes Unidos",
     "name": "FLAG: UNITED ARAB EMIRATES",
     "hexcode": "1F1E6-1F1EA",
     "shortcodes": [
@@ -53454,7 +53729,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Afganistán",
+    "annotation": "Bandera: Afganistán",
     "name": "FLAG: AFGHANISTAN",
     "hexcode": "1F1E6-1F1EB",
     "shortcodes": [
@@ -53473,7 +53748,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Antigua y Barbuda",
+    "annotation": "Bandera: Antigua y Barbuda",
     "name": "FLAG: ANTIGUA & BARBUDA",
     "hexcode": "1F1E6-1F1EC",
     "shortcodes": [
@@ -53492,7 +53767,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Anguila",
+    "annotation": "Bandera: Anguila",
     "name": "FLAG: ANGUILLA",
     "hexcode": "1F1E6-1F1EE",
     "shortcodes": [
@@ -53511,7 +53786,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Albania",
+    "annotation": "Bandera: Albania",
     "name": "FLAG: ALBANIA",
     "hexcode": "1F1E6-1F1F1",
     "shortcodes": [
@@ -53530,7 +53805,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Armenia",
+    "annotation": "Bandera: Armenia",
     "name": "FLAG: ARMENIA",
     "hexcode": "1F1E6-1F1F2",
     "shortcodes": [
@@ -53549,7 +53824,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Angola",
+    "annotation": "Bandera: Angola",
     "name": "FLAG: ANGOLA",
     "hexcode": "1F1E6-1F1F4",
     "shortcodes": [
@@ -53568,7 +53843,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Antártida",
+    "annotation": "Bandera: Antártida",
     "name": "FLAG: ANTARCTICA",
     "hexcode": "1F1E6-1F1F6",
     "shortcodes": [
@@ -53587,7 +53862,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Argentina",
+    "annotation": "Bandera: Argentina",
     "name": "FLAG: ARGENTINA",
     "hexcode": "1F1E6-1F1F7",
     "shortcodes": [
@@ -53606,7 +53881,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Samoa Americana",
+    "annotation": "Bandera: Samoa Americana",
     "name": "FLAG: AMERICAN SAMOA",
     "hexcode": "1F1E6-1F1F8",
     "shortcodes": [
@@ -53625,7 +53900,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Austria",
+    "annotation": "Bandera: Austria",
     "name": "FLAG: AUSTRIA",
     "hexcode": "1F1E6-1F1F9",
     "shortcodes": [
@@ -53644,7 +53919,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Australia",
+    "annotation": "Bandera: Australia",
     "name": "FLAG: AUSTRALIA",
     "hexcode": "1F1E6-1F1FA",
     "shortcodes": [
@@ -53663,7 +53938,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Aruba",
+    "annotation": "Bandera: Aruba",
     "name": "FLAG: ARUBA",
     "hexcode": "1F1E6-1F1FC",
     "shortcodes": [
@@ -53682,7 +53957,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Islas Åland",
+    "annotation": "Bandera: Islas Åland",
     "name": "FLAG: ÅLAND ISLANDS",
     "hexcode": "1F1E6-1F1FD",
     "shortcodes": [
@@ -53701,7 +53976,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Azerbaiyán",
+    "annotation": "Bandera: Azerbaiyán",
     "name": "FLAG: AZERBAIJAN",
     "hexcode": "1F1E6-1F1FF",
     "shortcodes": [
@@ -53727,8 +54002,7 @@
       "flag_ba"
     ],
     "tags": [
-      "BA",
-      "bandera"
+      "BA"
     ],
     "emoji": "🇧🇦",
     "text": "",
@@ -53739,7 +54013,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Barbados",
+    "annotation": "Bandera: Barbados",
     "name": "FLAG: BARBADOS",
     "hexcode": "1F1E7-1F1E7",
     "shortcodes": [
@@ -53758,7 +54032,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Bangladés",
+    "annotation": "Bandera: Bangladés",
     "name": "FLAG: BANGLADESH",
     "hexcode": "1F1E7-1F1E9",
     "shortcodes": [
@@ -53777,7 +54051,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Bélgica",
+    "annotation": "Bandera: Bélgica",
     "name": "FLAG: BELGIUM",
     "hexcode": "1F1E7-1F1EA",
     "shortcodes": [
@@ -53796,7 +54070,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Burkina Faso",
+    "annotation": "Bandera: Burkina Faso",
     "name": "FLAG: BURKINA FASO",
     "hexcode": "1F1E7-1F1EB",
     "shortcodes": [
@@ -53815,7 +54089,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Bulgaria",
+    "annotation": "Bandera: Bulgaria",
     "name": "FLAG: BULGARIA",
     "hexcode": "1F1E7-1F1EC",
     "shortcodes": [
@@ -53834,7 +54108,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Baréin",
+    "annotation": "Bandera: Baréin",
     "name": "FLAG: BAHRAIN",
     "hexcode": "1F1E7-1F1ED",
     "shortcodes": [
@@ -53853,7 +54127,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Burundi",
+    "annotation": "Bandera: Burundi",
     "name": "FLAG: BURUNDI",
     "hexcode": "1F1E7-1F1EE",
     "shortcodes": [
@@ -53872,7 +54146,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Benín",
+    "annotation": "Bandera: Benín",
     "name": "FLAG: BENIN",
     "hexcode": "1F1E7-1F1EF",
     "shortcodes": [
@@ -53891,7 +54165,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: San Bartolomé",
+    "annotation": "Bandera: San Bartolomé",
     "name": "FLAG: ST. BARTHÉLEMY",
     "hexcode": "1F1E7-1F1F1",
     "shortcodes": [
@@ -53910,7 +54184,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Bermudas",
+    "annotation": "Bandera: Bermudas",
     "name": "FLAG: BERMUDA",
     "hexcode": "1F1E7-1F1F2",
     "shortcodes": [
@@ -53929,7 +54203,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Brunéi",
+    "annotation": "Bandera: Brunéi",
     "name": "FLAG: BRUNEI",
     "hexcode": "1F1E7-1F1F3",
     "shortcodes": [
@@ -53948,7 +54222,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Bolivia",
+    "annotation": "Bandera: Bolivia",
     "name": "FLAG: BOLIVIA",
     "hexcode": "1F1E7-1F1F4",
     "shortcodes": [
@@ -53967,7 +54241,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Caribe neerlandés",
+    "annotation": "Bandera: Caribe neerlandés",
     "name": "FLAG: CARIBBEAN NETHERLANDS",
     "hexcode": "1F1E7-1F1F6",
     "shortcodes": [
@@ -53986,7 +54260,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Brasil",
+    "annotation": "Bandera: Brasil",
     "name": "FLAG: BRAZIL",
     "hexcode": "1F1E7-1F1F7",
     "shortcodes": [
@@ -54005,7 +54279,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Bahamas",
+    "annotation": "Bandera: Bahamas",
     "name": "FLAG: BAHAMAS",
     "hexcode": "1F1E7-1F1F8",
     "shortcodes": [
@@ -54024,7 +54298,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Bután",
+    "annotation": "Bandera: Bután",
     "name": "FLAG: BHUTAN",
     "hexcode": "1F1E7-1F1F9",
     "shortcodes": [
@@ -54043,7 +54317,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Isla Bouvet",
+    "annotation": "Bandera: Isla Bouvet",
     "name": "FLAG: BOUVET ISLAND",
     "hexcode": "1F1E7-1F1FB",
     "shortcodes": [
@@ -54062,7 +54336,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Botsuana",
+    "annotation": "Bandera: Botsuana",
     "name": "FLAG: BOTSWANA",
     "hexcode": "1F1E7-1F1FC",
     "shortcodes": [
@@ -54081,7 +54355,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Bielorrusia",
+    "annotation": "Bandera: Bielorrusia",
     "name": "FLAG: BELARUS",
     "hexcode": "1F1E7-1F1FE",
     "shortcodes": [
@@ -54100,7 +54374,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Belice",
+    "annotation": "Bandera: Belice",
     "name": "FLAG: BELIZE",
     "hexcode": "1F1E7-1F1FF",
     "shortcodes": [
@@ -54119,7 +54393,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Canadá",
+    "annotation": "Bandera: Canadá",
     "name": "FLAG: CANADA",
     "hexcode": "1F1E8-1F1E6",
     "shortcodes": [
@@ -54138,7 +54412,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Islas Cocos",
+    "annotation": "Bandera: Islas Cocos",
     "name": "FLAG: COCOS (KEELING) ISLANDS",
     "hexcode": "1F1E8-1F1E8",
     "shortcodes": [
@@ -54157,7 +54431,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: República Democrática del Congo",
+    "annotation": "Bandera: República Democrática del Congo",
     "name": "FLAG: CONGO - KINSHASA",
     "hexcode": "1F1E8-1F1E9",
     "shortcodes": [
@@ -54176,7 +54450,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: República Centroafricana",
+    "annotation": "Bandera: República Centroafricana",
     "name": "FLAG: CENTRAL AFRICAN REPUBLIC",
     "hexcode": "1F1E8-1F1EB",
     "shortcodes": [
@@ -54195,7 +54469,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: República del Congo",
+    "annotation": "Bandera: Congo",
     "name": "FLAG: CONGO - BRAZZAVILLE",
     "hexcode": "1F1E8-1F1EC",
     "shortcodes": [
@@ -54214,7 +54488,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Suiza",
+    "annotation": "Bandera: Suiza",
     "name": "FLAG: SWITZERLAND",
     "hexcode": "1F1E8-1F1ED",
     "shortcodes": [
@@ -54240,8 +54514,7 @@
       "flag_ci"
     ],
     "tags": [
-      "CI",
-      "bandera"
+      "CI"
     ],
     "emoji": "🇨🇮",
     "text": "",
@@ -54252,7 +54525,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Islas Cook",
+    "annotation": "Bandera: Islas Cook",
     "name": "FLAG: COOK ISLANDS",
     "hexcode": "1F1E8-1F1F0",
     "shortcodes": [
@@ -54271,7 +54544,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Chile",
+    "annotation": "Bandera: Chile",
     "name": "FLAG: CHILE",
     "hexcode": "1F1E8-1F1F1",
     "shortcodes": [
@@ -54290,7 +54563,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Camerún",
+    "annotation": "Bandera: Camerún",
     "name": "FLAG: CAMEROON",
     "hexcode": "1F1E8-1F1F2",
     "shortcodes": [
@@ -54309,7 +54582,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: China",
+    "annotation": "Bandera: China",
     "name": "FLAG: CHINA",
     "hexcode": "1F1E8-1F1F3",
     "shortcodes": [
@@ -54328,7 +54601,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Colombia",
+    "annotation": "Bandera: Colombia",
     "name": "FLAG: COLOMBIA",
     "hexcode": "1F1E8-1F1F4",
     "shortcodes": [
@@ -54347,7 +54620,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Isla Clipperton",
+    "annotation": "Bandera: Isla Clipperton",
     "name": "FLAG: CLIPPERTON ISLAND",
     "hexcode": "1F1E8-1F1F5",
     "shortcodes": [
@@ -54366,7 +54639,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Costa Rica",
+    "annotation": "Bandera: Costa Rica",
     "name": "FLAG: COSTA RICA",
     "hexcode": "1F1E8-1F1F7",
     "shortcodes": [
@@ -54385,7 +54658,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Cuba",
+    "annotation": "Bandera: Cuba",
     "name": "FLAG: CUBA",
     "hexcode": "1F1E8-1F1FA",
     "shortcodes": [
@@ -54404,7 +54677,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Cabo Verde",
+    "annotation": "Bandera: Cabo Verde",
     "name": "FLAG: CAPE VERDE",
     "hexcode": "1F1E8-1F1FB",
     "shortcodes": [
@@ -54423,7 +54696,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Curazao",
+    "annotation": "Bandera: Curazao",
     "name": "FLAG: CURAÇAO",
     "hexcode": "1F1E8-1F1FC",
     "shortcodes": [
@@ -54442,7 +54715,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Isla de Navidad",
+    "annotation": "Bandera: Isla de Navidad",
     "name": "FLAG: CHRISTMAS ISLAND",
     "hexcode": "1F1E8-1F1FD",
     "shortcodes": [
@@ -54461,7 +54734,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Chipre",
+    "annotation": "Bandera: Chipre",
     "name": "FLAG: CYPRUS",
     "hexcode": "1F1E8-1F1FE",
     "shortcodes": [
@@ -54480,7 +54753,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Chequia",
+    "annotation": "Bandera: Chequia",
     "name": "FLAG: CZECHIA",
     "hexcode": "1F1E8-1F1FF",
     "shortcodes": [
@@ -54499,7 +54772,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Alemania",
+    "annotation": "Bandera: Alemania",
     "name": "FLAG: GERMANY",
     "hexcode": "1F1E9-1F1EA",
     "shortcodes": [
@@ -54518,7 +54791,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Diego García",
+    "annotation": "Bandera: Diego García",
     "name": "FLAG: DIEGO GARCIA",
     "hexcode": "1F1E9-1F1EC",
     "shortcodes": [
@@ -54537,7 +54810,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Yibuti",
+    "annotation": "Bandera: Yibuti",
     "name": "FLAG: DJIBOUTI",
     "hexcode": "1F1E9-1F1EF",
     "shortcodes": [
@@ -54556,7 +54829,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Dinamarca",
+    "annotation": "Bandera: Dinamarca",
     "name": "FLAG: DENMARK",
     "hexcode": "1F1E9-1F1F0",
     "shortcodes": [
@@ -54575,7 +54848,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Dominica",
+    "annotation": "Bandera: Dominica",
     "name": "FLAG: DOMINICA",
     "hexcode": "1F1E9-1F1F2",
     "shortcodes": [
@@ -54594,7 +54867,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: República Dominicana",
+    "annotation": "Bandera: República Dominicana",
     "name": "FLAG: DOMINICAN REPUBLIC",
     "hexcode": "1F1E9-1F1F4",
     "shortcodes": [
@@ -54613,7 +54886,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Argelia",
+    "annotation": "Bandera: Argelia",
     "name": "FLAG: ALGERIA",
     "hexcode": "1F1E9-1F1FF",
     "shortcodes": [
@@ -54632,7 +54905,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Ceuta y Melilla",
+    "annotation": "Bandera: Ceuta y Melilla",
     "name": "FLAG: CEUTA & MELILLA",
     "hexcode": "1F1EA-1F1E6",
     "shortcodes": [
@@ -54651,7 +54924,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Ecuador",
+    "annotation": "Bandera: Ecuador",
     "name": "FLAG: ECUADOR",
     "hexcode": "1F1EA-1F1E8",
     "shortcodes": [
@@ -54670,7 +54943,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Estonia",
+    "annotation": "Bandera: Estonia",
     "name": "FLAG: ESTONIA",
     "hexcode": "1F1EA-1F1EA",
     "shortcodes": [
@@ -54689,7 +54962,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Egipto",
+    "annotation": "Bandera: Egipto",
     "name": "FLAG: EGYPT",
     "hexcode": "1F1EA-1F1EC",
     "shortcodes": [
@@ -54708,7 +54981,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Sáhara Occidental",
+    "annotation": "Bandera: Sáhara Occidental",
     "name": "FLAG: WESTERN SAHARA",
     "hexcode": "1F1EA-1F1ED",
     "shortcodes": [
@@ -54727,7 +55000,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Eritrea",
+    "annotation": "Bandera: Eritrea",
     "name": "FLAG: ERITREA",
     "hexcode": "1F1EA-1F1F7",
     "shortcodes": [
@@ -54746,7 +55019,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: España",
+    "annotation": "Bandera: España",
     "name": "FLAG: SPAIN",
     "hexcode": "1F1EA-1F1F8",
     "shortcodes": [
@@ -54765,7 +55038,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Etiopía",
+    "annotation": "Bandera: Etiopía",
     "name": "FLAG: ETHIOPIA",
     "hexcode": "1F1EA-1F1F9",
     "shortcodes": [
@@ -54784,7 +55057,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Unión Europea",
+    "annotation": "Bandera: Unión Europea",
     "name": "FLAG: EUROPEAN UNION",
     "hexcode": "1F1EA-1F1FA",
     "shortcodes": [
@@ -54803,7 +55076,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Finlandia",
+    "annotation": "Bandera: Finlandia",
     "name": "FLAG: FINLAND",
     "hexcode": "1F1EB-1F1EE",
     "shortcodes": [
@@ -54822,7 +55095,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Fiyi",
+    "annotation": "Bandera: Fiyi",
     "name": "FLAG: FIJI",
     "hexcode": "1F1EB-1F1EF",
     "shortcodes": [
@@ -54841,7 +55114,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Islas Malvinas",
+    "annotation": "Bandera: Islas Malvinas",
     "name": "FLAG: FALKLAND ISLANDS",
     "hexcode": "1F1EB-1F1F0",
     "shortcodes": [
@@ -54860,7 +55133,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Micronesia",
+    "annotation": "Bandera: Micronesia",
     "name": "FLAG: MICRONESIA",
     "hexcode": "1F1EB-1F1F2",
     "shortcodes": [
@@ -54879,7 +55152,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Islas Feroe",
+    "annotation": "Bandera: Islas Feroe",
     "name": "FLAG: FAROE ISLANDS",
     "hexcode": "1F1EB-1F1F4",
     "shortcodes": [
@@ -54898,7 +55171,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Francia",
+    "annotation": "Bandera: Francia",
     "name": "FLAG: FRANCE",
     "hexcode": "1F1EB-1F1F7",
     "shortcodes": [
@@ -54917,7 +55190,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Gabón",
+    "annotation": "Bandera: Gabón",
     "name": "FLAG: GABON",
     "hexcode": "1F1EC-1F1E6",
     "shortcodes": [
@@ -54936,7 +55209,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Reino Unido",
+    "annotation": "Bandera: Reino Unido",
     "name": "FLAG: UNITED KINGDOM",
     "hexcode": "1F1EC-1F1E7",
     "shortcodes": [
@@ -54955,7 +55228,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Granada",
+    "annotation": "Bandera: Granada",
     "name": "FLAG: GRENADA",
     "hexcode": "1F1EC-1F1E9",
     "shortcodes": [
@@ -54974,7 +55247,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Georgia",
+    "annotation": "Bandera: Georgia",
     "name": "FLAG: GEORGIA",
     "hexcode": "1F1EC-1F1EA",
     "shortcodes": [
@@ -54993,7 +55266,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Guayana Francesa",
+    "annotation": "Bandera: Guayana Francesa",
     "name": "FLAG: FRENCH GUIANA",
     "hexcode": "1F1EC-1F1EB",
     "shortcodes": [
@@ -55019,8 +55292,7 @@
       "flag_gg"
     ],
     "tags": [
-      "GG",
-      "bandera"
+      "GG"
     ],
     "emoji": "🇬🇬",
     "text": "",
@@ -55031,7 +55303,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Ghana",
+    "annotation": "Bandera: Ghana",
     "name": "FLAG: GHANA",
     "hexcode": "1F1EC-1F1ED",
     "shortcodes": [
@@ -55050,7 +55322,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Gibraltar",
+    "annotation": "Bandera: Gibraltar",
     "name": "FLAG: GIBRALTAR",
     "hexcode": "1F1EC-1F1EE",
     "shortcodes": [
@@ -55069,7 +55341,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Groenlandia",
+    "annotation": "Bandera: Groenlandia",
     "name": "FLAG: GREENLAND",
     "hexcode": "1F1EC-1F1F1",
     "shortcodes": [
@@ -55088,7 +55360,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Gambia",
+    "annotation": "Bandera: Gambia",
     "name": "FLAG: GAMBIA",
     "hexcode": "1F1EC-1F1F2",
     "shortcodes": [
@@ -55107,7 +55379,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Guinea",
+    "annotation": "Bandera: Guinea",
     "name": "FLAG: GUINEA",
     "hexcode": "1F1EC-1F1F3",
     "shortcodes": [
@@ -55126,7 +55398,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Guadalupe",
+    "annotation": "Bandera: Guadalupe",
     "name": "FLAG: GUADELOUPE",
     "hexcode": "1F1EC-1F1F5",
     "shortcodes": [
@@ -55145,7 +55417,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Guinea Ecuatorial",
+    "annotation": "Bandera: Guinea Ecuatorial",
     "name": "FLAG: EQUATORIAL GUINEA",
     "hexcode": "1F1EC-1F1F6",
     "shortcodes": [
@@ -55164,7 +55436,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Grecia",
+    "annotation": "Bandera: Grecia",
     "name": "FLAG: GREECE",
     "hexcode": "1F1EC-1F1F7",
     "shortcodes": [
@@ -55183,7 +55455,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Islas Georgia del Sur y Sandwich del Sur",
+    "annotation": "Bandera: Islas Georgia del Sur y Sandwich del Sur",
     "name": "FLAG: SOUTH GEORGIA & SOUTH SANDWICH ISLANDS",
     "hexcode": "1F1EC-1F1F8",
     "shortcodes": [
@@ -55202,7 +55474,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Guatemala",
+    "annotation": "Bandera: Guatemala",
     "name": "FLAG: GUATEMALA",
     "hexcode": "1F1EC-1F1F9",
     "shortcodes": [
@@ -55221,7 +55493,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Guam",
+    "annotation": "Bandera: Guam",
     "name": "FLAG: GUAM",
     "hexcode": "1F1EC-1F1FA",
     "shortcodes": [
@@ -55240,7 +55512,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Guinea-Bisáu",
+    "annotation": "Bandera: Guinea-Bisáu",
     "name": "FLAG: GUINEA-BISSAU",
     "hexcode": "1F1EC-1F1FC",
     "shortcodes": [
@@ -55259,7 +55531,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Guyana",
+    "annotation": "Bandera: Guyana",
     "name": "FLAG: GUYANA",
     "hexcode": "1F1EC-1F1FE",
     "shortcodes": [
@@ -55278,7 +55550,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: RAE de Hong Kong (China)",
+    "annotation": "Bandera: RAE de Hong Kong (China)",
     "name": "FLAG: HONG KONG SAR CHINA",
     "hexcode": "1F1ED-1F1F0",
     "shortcodes": [
@@ -55297,7 +55569,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Islas Heard y McDonald",
+    "annotation": "Bandera: Islas Heard y McDonald",
     "name": "FLAG: HEARD & MCDONALD ISLANDS",
     "hexcode": "1F1ED-1F1F2",
     "shortcodes": [
@@ -55316,7 +55588,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Honduras",
+    "annotation": "Bandera: Honduras",
     "name": "FLAG: HONDURAS",
     "hexcode": "1F1ED-1F1F3",
     "shortcodes": [
@@ -55335,7 +55607,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Croacia",
+    "annotation": "Bandera: Croacia",
     "name": "FLAG: CROATIA",
     "hexcode": "1F1ED-1F1F7",
     "shortcodes": [
@@ -55354,7 +55626,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Haití",
+    "annotation": "Bandera: Haití",
     "name": "FLAG: HAITI",
     "hexcode": "1F1ED-1F1F9",
     "shortcodes": [
@@ -55373,7 +55645,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Hungría",
+    "annotation": "Bandera: Hungría",
     "name": "FLAG: HUNGARY",
     "hexcode": "1F1ED-1F1FA",
     "shortcodes": [
@@ -55392,7 +55664,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Islas Canarias",
+    "annotation": "Bandera: Canarias",
     "name": "FLAG: CANARY ISLANDS",
     "hexcode": "1F1EE-1F1E8",
     "shortcodes": [
@@ -55411,7 +55683,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Indonesia",
+    "annotation": "Bandera: Indonesia",
     "name": "FLAG: INDONESIA",
     "hexcode": "1F1EE-1F1E9",
     "shortcodes": [
@@ -55430,7 +55702,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Irlanda",
+    "annotation": "Bandera: Irlanda",
     "name": "FLAG: IRELAND",
     "hexcode": "1F1EE-1F1EA",
     "shortcodes": [
@@ -55449,7 +55721,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Israel",
+    "annotation": "Bandera: Israel",
     "name": "FLAG: ISRAEL",
     "hexcode": "1F1EE-1F1F1",
     "shortcodes": [
@@ -55468,7 +55740,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Isla de Man",
+    "annotation": "Bandera: Isla de Man",
     "name": "FLAG: ISLE OF MAN",
     "hexcode": "1F1EE-1F1F2",
     "shortcodes": [
@@ -55487,7 +55759,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: India",
+    "annotation": "Bandera: India",
     "name": "FLAG: INDIA",
     "hexcode": "1F1EE-1F1F3",
     "shortcodes": [
@@ -55506,7 +55778,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Territorio Británico del Océano Índico",
+    "annotation": "Bandera: Territorio Británico del Océano Índico",
     "name": "FLAG: BRITISH INDIAN OCEAN TERRITORY",
     "hexcode": "1F1EE-1F1F4",
     "shortcodes": [
@@ -55525,7 +55797,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Irak",
+    "annotation": "Bandera: Irak",
     "name": "FLAG: IRAQ",
     "hexcode": "1F1EE-1F1F6",
     "shortcodes": [
@@ -55544,7 +55816,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Irán",
+    "annotation": "Bandera: Irán",
     "name": "FLAG: IRAN",
     "hexcode": "1F1EE-1F1F7",
     "shortcodes": [
@@ -55563,7 +55835,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Islandia",
+    "annotation": "Bandera: Islandia",
     "name": "FLAG: ICELAND",
     "hexcode": "1F1EE-1F1F8",
     "shortcodes": [
@@ -55582,7 +55854,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Italia",
+    "annotation": "Bandera: Italia",
     "name": "FLAG: ITALY",
     "hexcode": "1F1EE-1F1F9",
     "shortcodes": [
@@ -55601,7 +55873,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Jersey",
+    "annotation": "Bandera: Jersey",
     "name": "FLAG: JERSEY",
     "hexcode": "1F1EF-1F1EA",
     "shortcodes": [
@@ -55620,7 +55892,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Jamaica",
+    "annotation": "Bandera: Jamaica",
     "name": "FLAG: JAMAICA",
     "hexcode": "1F1EF-1F1F2",
     "shortcodes": [
@@ -55639,7 +55911,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Jordania",
+    "annotation": "Bandera: Jordania",
     "name": "FLAG: JORDAN",
     "hexcode": "1F1EF-1F1F4",
     "shortcodes": [
@@ -55658,7 +55930,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Japón",
+    "annotation": "Bandera: Japón",
     "name": "FLAG: JAPAN",
     "hexcode": "1F1EF-1F1F5",
     "shortcodes": [
@@ -55677,7 +55949,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Kenia",
+    "annotation": "Bandera: Kenia",
     "name": "FLAG: KENYA",
     "hexcode": "1F1F0-1F1EA",
     "shortcodes": [
@@ -55696,7 +55968,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Kirguistán",
+    "annotation": "Bandera: Kirguistán",
     "name": "FLAG: KYRGYZSTAN",
     "hexcode": "1F1F0-1F1EC",
     "shortcodes": [
@@ -55715,7 +55987,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Camboya",
+    "annotation": "Bandera: Camboya",
     "name": "FLAG: CAMBODIA",
     "hexcode": "1F1F0-1F1ED",
     "shortcodes": [
@@ -55734,7 +56006,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Kiribati",
+    "annotation": "Bandera: Kiribati",
     "name": "FLAG: KIRIBATI",
     "hexcode": "1F1F0-1F1EE",
     "shortcodes": [
@@ -55753,7 +56025,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Comoras",
+    "annotation": "Bandera: Comoras",
     "name": "FLAG: COMOROS",
     "hexcode": "1F1F0-1F1F2",
     "shortcodes": [
@@ -55772,7 +56044,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: San Cristóbal y Nieves",
+    "annotation": "Bandera: San Cristóbal y Nieves",
     "name": "FLAG: ST. KITTS & NEVIS",
     "hexcode": "1F1F0-1F1F3",
     "shortcodes": [
@@ -55791,7 +56063,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Corea del Norte",
+    "annotation": "Bandera: Corea del Norte",
     "name": "FLAG: NORTH KOREA",
     "hexcode": "1F1F0-1F1F5",
     "shortcodes": [
@@ -55810,7 +56082,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Corea del Sur",
+    "annotation": "Bandera: Corea del Sur",
     "name": "FLAG: SOUTH KOREA",
     "hexcode": "1F1F0-1F1F7",
     "shortcodes": [
@@ -55829,7 +56101,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Kuwait",
+    "annotation": "Bandera: Kuwait",
     "name": "FLAG: KUWAIT",
     "hexcode": "1F1F0-1F1FC",
     "shortcodes": [
@@ -55848,7 +56120,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Islas Caimán",
+    "annotation": "Bandera: Islas Caimán",
     "name": "FLAG: CAYMAN ISLANDS",
     "hexcode": "1F1F0-1F1FE",
     "shortcodes": [
@@ -55867,7 +56139,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Kazajistán",
+    "annotation": "Bandera: Kazajistán",
     "name": "FLAG: KAZAKHSTAN",
     "hexcode": "1F1F0-1F1FF",
     "shortcodes": [
@@ -55886,7 +56158,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Laos",
+    "annotation": "Bandera: Laos",
     "name": "FLAG: LAOS",
     "hexcode": "1F1F1-1F1E6",
     "shortcodes": [
@@ -55905,7 +56177,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Líbano",
+    "annotation": "Bandera: Líbano",
     "name": "FLAG: LEBANON",
     "hexcode": "1F1F1-1F1E7",
     "shortcodes": [
@@ -55924,7 +56196,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Santa Lucía",
+    "annotation": "Bandera: Santa Lucía",
     "name": "FLAG: ST. LUCIA",
     "hexcode": "1F1F1-1F1E8",
     "shortcodes": [
@@ -55943,7 +56215,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Liechtenstein",
+    "annotation": "Bandera: Liechtenstein",
     "name": "FLAG: LIECHTENSTEIN",
     "hexcode": "1F1F1-1F1EE",
     "shortcodes": [
@@ -55962,7 +56234,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Sri Lanka",
+    "annotation": "Bandera: Sri Lanka",
     "name": "FLAG: SRI LANKA",
     "hexcode": "1F1F1-1F1F0",
     "shortcodes": [
@@ -55981,7 +56253,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Liberia",
+    "annotation": "Bandera: Liberia",
     "name": "FLAG: LIBERIA",
     "hexcode": "1F1F1-1F1F7",
     "shortcodes": [
@@ -56000,7 +56272,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Lesoto",
+    "annotation": "Bandera: Lesoto",
     "name": "FLAG: LESOTHO",
     "hexcode": "1F1F1-1F1F8",
     "shortcodes": [
@@ -56019,7 +56291,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Lituania",
+    "annotation": "Bandera: Lituania",
     "name": "FLAG: LITHUANIA",
     "hexcode": "1F1F1-1F1F9",
     "shortcodes": [
@@ -56038,7 +56310,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Luxemburgo",
+    "annotation": "Bandera: Luxemburgo",
     "name": "FLAG: LUXEMBOURG",
     "hexcode": "1F1F1-1F1FA",
     "shortcodes": [
@@ -56057,7 +56329,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Letonia",
+    "annotation": "Bandera: Letonia",
     "name": "FLAG: LATVIA",
     "hexcode": "1F1F1-1F1FB",
     "shortcodes": [
@@ -56076,7 +56348,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Libia",
+    "annotation": "Bandera: Libia",
     "name": "FLAG: LIBYA",
     "hexcode": "1F1F1-1F1FE",
     "shortcodes": [
@@ -56095,7 +56367,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Marruecos",
+    "annotation": "Bandera: Marruecos",
     "name": "FLAG: MOROCCO",
     "hexcode": "1F1F2-1F1E6",
     "shortcodes": [
@@ -56114,7 +56386,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Mónaco",
+    "annotation": "Bandera: Mónaco",
     "name": "FLAG: MONACO",
     "hexcode": "1F1F2-1F1E8",
     "shortcodes": [
@@ -56133,7 +56405,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Moldavia",
+    "annotation": "Bandera: Moldavia",
     "name": "FLAG: MOLDOVA",
     "hexcode": "1F1F2-1F1E9",
     "shortcodes": [
@@ -56152,7 +56424,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Montenegro",
+    "annotation": "Bandera: Montenegro",
     "name": "FLAG: MONTENEGRO",
     "hexcode": "1F1F2-1F1EA",
     "shortcodes": [
@@ -56171,7 +56443,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: San Martín",
+    "annotation": "Bandera: San Martín",
     "name": "FLAG: ST. MARTIN",
     "hexcode": "1F1F2-1F1EB",
     "shortcodes": [
@@ -56190,7 +56462,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Madagascar",
+    "annotation": "Bandera: Madagascar",
     "name": "FLAG: MADAGASCAR",
     "hexcode": "1F1F2-1F1EC",
     "shortcodes": [
@@ -56209,7 +56481,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Islas Marshall",
+    "annotation": "Bandera: Islas Marshall",
     "name": "FLAG: MARSHALL ISLANDS",
     "hexcode": "1F1F2-1F1ED",
     "shortcodes": [
@@ -56228,7 +56500,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Macedonia",
+    "annotation": "Bandera: Macedonia",
     "name": "FLAG: MACEDONIA",
     "hexcode": "1F1F2-1F1F0",
     "shortcodes": [
@@ -56247,7 +56519,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Mali",
+    "annotation": "Bandera: Mali",
     "name": "FLAG: MALI",
     "hexcode": "1F1F2-1F1F1",
     "shortcodes": [
@@ -56266,7 +56538,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Myanmar (Birmania)",
+    "annotation": "Bandera: Myanmar (Birmania)",
     "name": "FLAG: MYANMAR (BURMA)",
     "hexcode": "1F1F2-1F1F2",
     "shortcodes": [
@@ -56285,7 +56557,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Mongolia",
+    "annotation": "Bandera: Mongolia",
     "name": "FLAG: MONGOLIA",
     "hexcode": "1F1F2-1F1F3",
     "shortcodes": [
@@ -56304,7 +56576,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: RAE de Macao (China)",
+    "annotation": "Bandera: RAE de Macao (China)",
     "name": "FLAG: MACAO SAR CHINA",
     "hexcode": "1F1F2-1F1F4",
     "shortcodes": [
@@ -56323,7 +56595,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Islas Marianas del Norte",
+    "annotation": "Bandera: Islas Marianas del Norte",
     "name": "FLAG: NORTHERN MARIANA ISLANDS",
     "hexcode": "1F1F2-1F1F5",
     "shortcodes": [
@@ -56342,7 +56614,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Martinica",
+    "annotation": "Bandera: Martinica",
     "name": "FLAG: MARTINIQUE",
     "hexcode": "1F1F2-1F1F6",
     "shortcodes": [
@@ -56361,7 +56633,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Mauritania",
+    "annotation": "Bandera: Mauritania",
     "name": "FLAG: MAURITANIA",
     "hexcode": "1F1F2-1F1F7",
     "shortcodes": [
@@ -56380,7 +56652,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Montserrat",
+    "annotation": "Bandera: Montserrat",
     "name": "FLAG: MONTSERRAT",
     "hexcode": "1F1F2-1F1F8",
     "shortcodes": [
@@ -56399,7 +56671,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Malta",
+    "annotation": "Bandera: Malta",
     "name": "FLAG: MALTA",
     "hexcode": "1F1F2-1F1F9",
     "shortcodes": [
@@ -56418,7 +56690,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Mauricio",
+    "annotation": "Bandera: Mauricio",
     "name": "FLAG: MAURITIUS",
     "hexcode": "1F1F2-1F1FA",
     "shortcodes": [
@@ -56437,7 +56709,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Maldivas",
+    "annotation": "Bandera: Maldivas",
     "name": "FLAG: MALDIVES",
     "hexcode": "1F1F2-1F1FB",
     "shortcodes": [
@@ -56456,7 +56728,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Malaui",
+    "annotation": "Bandera: Malaui",
     "name": "FLAG: MALAWI",
     "hexcode": "1F1F2-1F1FC",
     "shortcodes": [
@@ -56475,7 +56747,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: México",
+    "annotation": "Bandera: México",
     "name": "FLAG: MEXICO",
     "hexcode": "1F1F2-1F1FD",
     "shortcodes": [
@@ -56494,7 +56766,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Malasia",
+    "annotation": "Bandera: Malasia",
     "name": "FLAG: MALAYSIA",
     "hexcode": "1F1F2-1F1FE",
     "shortcodes": [
@@ -56513,7 +56785,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Mozambique",
+    "annotation": "Bandera: Mozambique",
     "name": "FLAG: MOZAMBIQUE",
     "hexcode": "1F1F2-1F1FF",
     "shortcodes": [
@@ -56532,7 +56804,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Namibia",
+    "annotation": "Bandera: Namibia",
     "name": "FLAG: NAMIBIA",
     "hexcode": "1F1F3-1F1E6",
     "shortcodes": [
@@ -56551,7 +56823,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Nueva Caledonia",
+    "annotation": "Bandera: Nueva Caledonia",
     "name": "FLAG: NEW CALEDONIA",
     "hexcode": "1F1F3-1F1E8",
     "shortcodes": [
@@ -56570,7 +56842,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Níger",
+    "annotation": "Bandera: Níger",
     "name": "FLAG: NIGER",
     "hexcode": "1F1F3-1F1EA",
     "shortcodes": [
@@ -56589,7 +56861,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Isla Norfolk",
+    "annotation": "Bandera: Isla Norfolk",
     "name": "FLAG: NORFOLK ISLAND",
     "hexcode": "1F1F3-1F1EB",
     "shortcodes": [
@@ -56608,7 +56880,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Nigeria",
+    "annotation": "Bandera: Nigeria",
     "name": "FLAG: NIGERIA",
     "hexcode": "1F1F3-1F1EC",
     "shortcodes": [
@@ -56627,7 +56899,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Nicaragua",
+    "annotation": "Bandera: Nicaragua",
     "name": "FLAG: NICARAGUA",
     "hexcode": "1F1F3-1F1EE",
     "shortcodes": [
@@ -56646,7 +56918,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Países Bajos",
+    "annotation": "Bandera: Países Bajos",
     "name": "FLAG: NETHERLANDS",
     "hexcode": "1F1F3-1F1F1",
     "shortcodes": [
@@ -56665,7 +56937,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Noruega",
+    "annotation": "Bandera: Noruega",
     "name": "FLAG: NORWAY",
     "hexcode": "1F1F3-1F1F4",
     "shortcodes": [
@@ -56684,7 +56956,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Nepal",
+    "annotation": "Bandera: Nepal",
     "name": "FLAG: NEPAL",
     "hexcode": "1F1F3-1F1F5",
     "shortcodes": [
@@ -56703,7 +56975,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Nauru",
+    "annotation": "Bandera: Nauru",
     "name": "FLAG: NAURU",
     "hexcode": "1F1F3-1F1F7",
     "shortcodes": [
@@ -56722,7 +56994,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Niue",
+    "annotation": "Bandera: Niue",
     "name": "FLAG: NIUE",
     "hexcode": "1F1F3-1F1FA",
     "shortcodes": [
@@ -56741,7 +57013,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Nueva Zelanda",
+    "annotation": "Bandera: Nueva Zelanda",
     "name": "FLAG: NEW ZEALAND",
     "hexcode": "1F1F3-1F1FF",
     "shortcodes": [
@@ -56760,7 +57032,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Omán",
+    "annotation": "Bandera: Omán",
     "name": "FLAG: OMAN",
     "hexcode": "1F1F4-1F1F2",
     "shortcodes": [
@@ -56779,7 +57051,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Panamá",
+    "annotation": "Bandera: Panamá",
     "name": "FLAG: PANAMA",
     "hexcode": "1F1F5-1F1E6",
     "shortcodes": [
@@ -56798,7 +57070,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Perú",
+    "annotation": "Bandera: Perú",
     "name": "FLAG: PERU",
     "hexcode": "1F1F5-1F1EA",
     "shortcodes": [
@@ -56817,7 +57089,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Polinesia Francesa",
+    "annotation": "Bandera: Polinesia Francesa",
     "name": "FLAG: FRENCH POLYNESIA",
     "hexcode": "1F1F5-1F1EB",
     "shortcodes": [
@@ -56836,7 +57108,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Papúa Nueva Guinea",
+    "annotation": "Bandera: Papúa Nueva Guinea",
     "name": "FLAG: PAPUA NEW GUINEA",
     "hexcode": "1F1F5-1F1EC",
     "shortcodes": [
@@ -56855,7 +57127,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Filipinas",
+    "annotation": "Bandera: Filipinas",
     "name": "FLAG: PHILIPPINES",
     "hexcode": "1F1F5-1F1ED",
     "shortcodes": [
@@ -56874,7 +57146,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Pakistán",
+    "annotation": "Bandera: Pakistán",
     "name": "FLAG: PAKISTAN",
     "hexcode": "1F1F5-1F1F0",
     "shortcodes": [
@@ -56893,7 +57165,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Polonia",
+    "annotation": "Bandera: Polonia",
     "name": "FLAG: POLAND",
     "hexcode": "1F1F5-1F1F1",
     "shortcodes": [
@@ -56912,7 +57184,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: San Pedro y Miquelón",
+    "annotation": "Bandera: San Pedro y Miquelón",
     "name": "FLAG: ST. PIERRE & MIQUELON",
     "hexcode": "1F1F5-1F1F2",
     "shortcodes": [
@@ -56931,7 +57203,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Islas Pitcairn",
+    "annotation": "Bandera: Islas Pitcairn",
     "name": "FLAG: PITCAIRN ISLANDS",
     "hexcode": "1F1F5-1F1F3",
     "shortcodes": [
@@ -56950,7 +57222,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Puerto Rico",
+    "annotation": "Bandera: Puerto Rico",
     "name": "FLAG: PUERTO RICO",
     "hexcode": "1F1F5-1F1F7",
     "shortcodes": [
@@ -56969,7 +57241,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Territorios Palestinos",
+    "annotation": "Bandera: Territorios Palestinos",
     "name": "FLAG: PALESTINIAN TERRITORIES",
     "hexcode": "1F1F5-1F1F8",
     "shortcodes": [
@@ -56988,7 +57260,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Portugal",
+    "annotation": "Bandera: Portugal",
     "name": "FLAG: PORTUGAL",
     "hexcode": "1F1F5-1F1F9",
     "shortcodes": [
@@ -57007,7 +57279,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Palaos",
+    "annotation": "Bandera: Palaos",
     "name": "FLAG: PALAU",
     "hexcode": "1F1F5-1F1FC",
     "shortcodes": [
@@ -57026,7 +57298,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Paraguay",
+    "annotation": "Bandera: Paraguay",
     "name": "FLAG: PARAGUAY",
     "hexcode": "1F1F5-1F1FE",
     "shortcodes": [
@@ -57045,7 +57317,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Catar",
+    "annotation": "Bandera: Catar",
     "name": "FLAG: QATAR",
     "hexcode": "1F1F6-1F1E6",
     "shortcodes": [
@@ -57064,7 +57336,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Reunión",
+    "annotation": "Bandera: Reunión",
     "name": "FLAG: RÉUNION",
     "hexcode": "1F1F7-1F1EA",
     "shortcodes": [
@@ -57083,7 +57355,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Rumanía",
+    "annotation": "Bandera: Rumanía",
     "name": "FLAG: ROMANIA",
     "hexcode": "1F1F7-1F1F4",
     "shortcodes": [
@@ -57102,7 +57374,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Serbia",
+    "annotation": "Bandera: Serbia",
     "name": "FLAG: SERBIA",
     "hexcode": "1F1F7-1F1F8",
     "shortcodes": [
@@ -57121,7 +57393,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Rusia",
+    "annotation": "Bandera: Rusia",
     "name": "FLAG: RUSSIA",
     "hexcode": "1F1F7-1F1FA",
     "shortcodes": [
@@ -57140,7 +57412,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Ruanda",
+    "annotation": "Bandera: Ruanda",
     "name": "FLAG: RWANDA",
     "hexcode": "1F1F7-1F1FC",
     "shortcodes": [
@@ -57159,15 +57431,14 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Arabia Saudí",
+    "annotation": "bandera: Arabia Saudita",
     "name": "FLAG: SAUDI ARABIA",
     "hexcode": "1F1F8-1F1E6",
     "shortcodes": [
       "flag_sa"
     ],
     "tags": [
-      "SA",
-      "bandera"
+      "SA"
     ],
     "emoji": "🇸🇦",
     "text": "",
@@ -57178,7 +57449,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Islas Salomón",
+    "annotation": "Bandera: Islas Salomón",
     "name": "FLAG: SOLOMON ISLANDS",
     "hexcode": "1F1F8-1F1E7",
     "shortcodes": [
@@ -57197,7 +57468,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Seychelles",
+    "annotation": "Bandera: Seychelles",
     "name": "FLAG: SEYCHELLES",
     "hexcode": "1F1F8-1F1E8",
     "shortcodes": [
@@ -57216,7 +57487,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Sudán",
+    "annotation": "Bandera: Sudán",
     "name": "FLAG: SUDAN",
     "hexcode": "1F1F8-1F1E9",
     "shortcodes": [
@@ -57235,7 +57506,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Suecia",
+    "annotation": "Bandera: Suecia",
     "name": "FLAG: SWEDEN",
     "hexcode": "1F1F8-1F1EA",
     "shortcodes": [
@@ -57254,7 +57525,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Singapur",
+    "annotation": "Bandera: Singapur",
     "name": "FLAG: SINGAPORE",
     "hexcode": "1F1F8-1F1EC",
     "shortcodes": [
@@ -57273,7 +57544,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Santa Elena",
+    "annotation": "Bandera: Santa Elena",
     "name": "FLAG: ST. HELENA",
     "hexcode": "1F1F8-1F1ED",
     "shortcodes": [
@@ -57292,7 +57563,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Eslovenia",
+    "annotation": "Bandera: Eslovenia",
     "name": "FLAG: SLOVENIA",
     "hexcode": "1F1F8-1F1EE",
     "shortcodes": [
@@ -57311,7 +57582,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Svalbard y Jan Mayen",
+    "annotation": "Bandera: Svalbard y Jan Mayen",
     "name": "FLAG: SVALBARD & JAN MAYEN",
     "hexcode": "1F1F8-1F1EF",
     "shortcodes": [
@@ -57330,7 +57601,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Eslovaquia",
+    "annotation": "Bandera: Eslovaquia",
     "name": "FLAG: SLOVAKIA",
     "hexcode": "1F1F8-1F1F0",
     "shortcodes": [
@@ -57349,7 +57620,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Sierra Leona",
+    "annotation": "Bandera: Sierra Leona",
     "name": "FLAG: SIERRA LEONE",
     "hexcode": "1F1F8-1F1F1",
     "shortcodes": [
@@ -57368,7 +57639,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: San Marino",
+    "annotation": "Bandera: San Marino",
     "name": "FLAG: SAN MARINO",
     "hexcode": "1F1F8-1F1F2",
     "shortcodes": [
@@ -57387,7 +57658,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Senegal",
+    "annotation": "Bandera: Senegal",
     "name": "FLAG: SENEGAL",
     "hexcode": "1F1F8-1F1F3",
     "shortcodes": [
@@ -57406,7 +57677,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Somalia",
+    "annotation": "Bandera: Somalia",
     "name": "FLAG: SOMALIA",
     "hexcode": "1F1F8-1F1F4",
     "shortcodes": [
@@ -57425,7 +57696,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Surinam",
+    "annotation": "Bandera: Surinam",
     "name": "FLAG: SURINAME",
     "hexcode": "1F1F8-1F1F7",
     "shortcodes": [
@@ -57444,7 +57715,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Sudán del Sur",
+    "annotation": "Bandera: Sudán del Sur",
     "name": "FLAG: SOUTH SUDAN",
     "hexcode": "1F1F8-1F1F8",
     "shortcodes": [
@@ -57463,7 +57734,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Santo Tomé y Príncipe",
+    "annotation": "Bandera: Santo Tomé y Príncipe",
     "name": "FLAG: SÃO TOMÉ & PRÍNCIPE",
     "hexcode": "1F1F8-1F1F9",
     "shortcodes": [
@@ -57482,7 +57753,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: El Salvador",
+    "annotation": "Bandera: El Salvador",
     "name": "FLAG: EL SALVADOR",
     "hexcode": "1F1F8-1F1FB",
     "shortcodes": [
@@ -57501,7 +57772,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Sint Maarten",
+    "annotation": "Bandera: Sint Maarten",
     "name": "FLAG: SINT MAARTEN",
     "hexcode": "1F1F8-1F1FD",
     "shortcodes": [
@@ -57520,7 +57791,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Siria",
+    "annotation": "Bandera: Siria",
     "name": "FLAG: SYRIA",
     "hexcode": "1F1F8-1F1FE",
     "shortcodes": [
@@ -57539,15 +57810,14 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Suazilandia",
+    "annotation": "bandera: Eswatini",
     "name": "FLAG: ESWATINI",
     "hexcode": "1F1F8-1F1FF",
     "shortcodes": [
       "flag_sz"
     ],
     "tags": [
-      "SZ",
-      "bandera"
+      "SZ"
     ],
     "emoji": "🇸🇿",
     "text": "",
@@ -57565,8 +57835,7 @@
       "flag_ta"
     ],
     "tags": [
-      "TA",
-      "bandera"
+      "TA"
     ],
     "emoji": "🇹🇦",
     "text": "",
@@ -57577,7 +57846,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Islas Turcas y Caicos",
+    "annotation": "Bandera: Islas Turcas y Caicos",
     "name": "FLAG: TURKS & CAICOS ISLANDS",
     "hexcode": "1F1F9-1F1E8",
     "shortcodes": [
@@ -57596,7 +57865,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Chad",
+    "annotation": "Bandera: Chad",
     "name": "FLAG: CHAD",
     "hexcode": "1F1F9-1F1E9",
     "shortcodes": [
@@ -57615,7 +57884,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Territorios Australes Franceses",
+    "annotation": "Bandera: Territorios Australes Franceses",
     "name": "FLAG: FRENCH SOUTHERN TERRITORIES",
     "hexcode": "1F1F9-1F1EB",
     "shortcodes": [
@@ -57634,7 +57903,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Togo",
+    "annotation": "Bandera: Togo",
     "name": "FLAG: TOGO",
     "hexcode": "1F1F9-1F1EC",
     "shortcodes": [
@@ -57653,7 +57922,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Tailandia",
+    "annotation": "Bandera: Tailandia",
     "name": "FLAG: THAILAND",
     "hexcode": "1F1F9-1F1ED",
     "shortcodes": [
@@ -57672,7 +57941,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Tayikistán",
+    "annotation": "Bandera: Tayikistán",
     "name": "FLAG: TAJIKISTAN",
     "hexcode": "1F1F9-1F1EF",
     "shortcodes": [
@@ -57691,7 +57960,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Tokelau",
+    "annotation": "Bandera: Tokelau",
     "name": "FLAG: TOKELAU",
     "hexcode": "1F1F9-1F1F0",
     "shortcodes": [
@@ -57717,8 +57986,7 @@
       "flag_tl"
     ],
     "tags": [
-      "TL",
-      "bandera"
+      "TL"
     ],
     "emoji": "🇹🇱",
     "text": "",
@@ -57729,7 +57997,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Turkmenistán",
+    "annotation": "Bandera: Turkmenistán",
     "name": "FLAG: TURKMENISTAN",
     "hexcode": "1F1F9-1F1F2",
     "shortcodes": [
@@ -57748,7 +58016,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Túnez",
+    "annotation": "Bandera: Túnez",
     "name": "FLAG: TUNISIA",
     "hexcode": "1F1F9-1F1F3",
     "shortcodes": [
@@ -57767,7 +58035,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Tonga",
+    "annotation": "Bandera: Tonga",
     "name": "FLAG: TONGA",
     "hexcode": "1F1F9-1F1F4",
     "shortcodes": [
@@ -57786,7 +58054,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Turquía",
+    "annotation": "Bandera: Turquía",
     "name": "FLAG: TURKEY",
     "hexcode": "1F1F9-1F1F7",
     "shortcodes": [
@@ -57805,7 +58073,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Trinidad y Tobago",
+    "annotation": "Bandera: Trinidad y Tobago",
     "name": "FLAG: TRINIDAD & TOBAGO",
     "hexcode": "1F1F9-1F1F9",
     "shortcodes": [
@@ -57824,7 +58092,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Tuvalu",
+    "annotation": "Bandera: Tuvalu",
     "name": "FLAG: TUVALU",
     "hexcode": "1F1F9-1F1FB",
     "shortcodes": [
@@ -57843,7 +58111,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Taiwán",
+    "annotation": "Bandera: Taiwán",
     "name": "FLAG: TAIWAN",
     "hexcode": "1F1F9-1F1FC",
     "shortcodes": [
@@ -57862,7 +58130,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Tanzania",
+    "annotation": "Bandera: Tanzania",
     "name": "FLAG: TANZANIA",
     "hexcode": "1F1F9-1F1FF",
     "shortcodes": [
@@ -57881,7 +58149,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Ucrania",
+    "annotation": "Bandera: Ucrania",
     "name": "FLAG: UKRAINE",
     "hexcode": "1F1FA-1F1E6",
     "shortcodes": [
@@ -57900,7 +58168,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Uganda",
+    "annotation": "Bandera: Uganda",
     "name": "FLAG: UGANDA",
     "hexcode": "1F1FA-1F1EC",
     "shortcodes": [
@@ -57926,8 +58194,7 @@
       "flag_um"
     ],
     "tags": [
-      "UM",
-      "bandera"
+      "UM"
     ],
     "emoji": "🇺🇲",
     "text": "",
@@ -57945,8 +58212,7 @@
       "flag_un"
     ],
     "tags": [
-      "UN",
-      "bandera"
+      "UN"
     ],
     "emoji": "🇺🇳",
     "text": "",
@@ -57957,7 +58223,7 @@
     "version": 4
   },
   {
-    "annotation": "bandera: Estados Unidos",
+    "annotation": "Bandera: Estados Unidos",
     "name": "FLAG: UNITED STATES",
     "hexcode": "1F1FA-1F1F8",
     "shortcodes": [
@@ -57977,7 +58243,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Uruguay",
+    "annotation": "Bandera: Uruguay",
     "name": "FLAG: URUGUAY",
     "hexcode": "1F1FA-1F1FE",
     "shortcodes": [
@@ -57996,7 +58262,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Uzbekistán",
+    "annotation": "Bandera: Uzbekistán",
     "name": "FLAG: UZBEKISTAN",
     "hexcode": "1F1FA-1F1FF",
     "shortcodes": [
@@ -58015,7 +58281,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Ciudad del Vaticano",
+    "annotation": "Bandera: Ciudad del Vaticano",
     "name": "FLAG: VATICAN CITY",
     "hexcode": "1F1FB-1F1E6",
     "shortcodes": [
@@ -58034,7 +58300,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: San Vicente y las Granadinas",
+    "annotation": "Bandera: San Vicente y las Granadinas",
     "name": "FLAG: ST. VINCENT & GRENADINES",
     "hexcode": "1F1FB-1F1E8",
     "shortcodes": [
@@ -58053,7 +58319,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Venezuela",
+    "annotation": "Bandera: Venezuela",
     "name": "FLAG: VENEZUELA",
     "hexcode": "1F1FB-1F1EA",
     "shortcodes": [
@@ -58072,7 +58338,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Islas Vírgenes Británicas",
+    "annotation": "Bandera: Islas Vírgenes Británicas",
     "name": "FLAG: BRITISH VIRGIN ISLANDS",
     "hexcode": "1F1FB-1F1EC",
     "shortcodes": [
@@ -58098,8 +58364,7 @@
       "flag_vi"
     ],
     "tags": [
-      "VI",
-      "bandera"
+      "VI"
     ],
     "emoji": "🇻🇮",
     "text": "",
@@ -58110,7 +58375,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Vietnam",
+    "annotation": "Bandera: Vietnam",
     "name": "FLAG: VIETNAM",
     "hexcode": "1F1FB-1F1F3",
     "shortcodes": [
@@ -58129,7 +58394,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Vanuatu",
+    "annotation": "Bandera: Vanuatu",
     "name": "FLAG: VANUATU",
     "hexcode": "1F1FB-1F1FA",
     "shortcodes": [
@@ -58148,7 +58413,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Wallis y Futuna",
+    "annotation": "Bandera: Wallis y Futuna",
     "name": "FLAG: WALLIS & FUTUNA",
     "hexcode": "1F1FC-1F1EB",
     "shortcodes": [
@@ -58167,7 +58432,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Samoa",
+    "annotation": "Bandera: Samoa",
     "name": "FLAG: SAMOA",
     "hexcode": "1F1FC-1F1F8",
     "shortcodes": [
@@ -58186,7 +58451,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Kosovo",
+    "annotation": "Bandera: Kosovo",
     "name": "FLAG: KOSOVO",
     "hexcode": "1F1FD-1F1F0",
     "shortcodes": [
@@ -58205,7 +58470,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Yemen",
+    "annotation": "Bandera: Yemen",
     "name": "FLAG: YEMEN",
     "hexcode": "1F1FE-1F1EA",
     "shortcodes": [
@@ -58224,7 +58489,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Mayotte",
+    "annotation": "Bandera: Mayotte",
     "name": "FLAG: MAYOTTE",
     "hexcode": "1F1FE-1F1F9",
     "shortcodes": [
@@ -58243,7 +58508,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Sudáfrica",
+    "annotation": "Bandera: Sudáfrica",
     "name": "FLAG: SOUTH AFRICA",
     "hexcode": "1F1FF-1F1E6",
     "shortcodes": [
@@ -58262,7 +58527,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Zambia",
+    "annotation": "Bandera: Zambia",
     "name": "FLAG: ZAMBIA",
     "hexcode": "1F1FF-1F1F2",
     "shortcodes": [
@@ -58281,7 +58546,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Zimbabue",
+    "annotation": "Bandera: Zimbabue",
     "name": "FLAG: ZIMBABWE",
     "hexcode": "1F1FF-1F1FC",
     "shortcodes": [
@@ -58300,7 +58565,7 @@
     "version": 1
   },
   {
-    "annotation": "bandera: Inglaterra",
+    "annotation": "Bandera: Inglaterra",
     "name": "FLAG: ENGLAND",
     "hexcode": "1F3F4-E0067-E0062-E0065-E006E-E0067-E007F",
     "shortcodes": [
@@ -58320,7 +58585,7 @@
     "version": 5
   },
   {
-    "annotation": "bandera: Escocia",
+    "annotation": "Bandera: Escocia",
     "name": "FLAG: SCOTLAND",
     "hexcode": "1F3F4-E0067-E0062-E0073-E0063-E0074-E007F",
     "shortcodes": [
@@ -58340,7 +58605,7 @@
     "version": 5
   },
   {
-    "annotation": "bandera: Gales",
+    "annotation": "Bandera: Gales",
     "name": "FLAG: WALES",
     "hexcode": "1F3F4-E0067-E0062-E0077-E006C-E0073-E007F",
     "shortcodes": [

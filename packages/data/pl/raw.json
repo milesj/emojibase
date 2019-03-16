@@ -406,7 +406,7 @@
     "emoticon": "o:)"
   },
   {
-    "annotation": "uśmiechnięta twarz z 3 sercami",
+    "annotation": "uśmiechnięta buźka z sercami",
     "name": "SMILING FACE WITH SMILING EYES AND THREE HEARTS",
     "hexcode": "1F970",
     "shortcodes": [
@@ -414,6 +414,7 @@
     ],
     "tags": [
       "uwielbienie",
+      "uśmiechnięta twarz z 3 sercami",
       "zadurzenie",
       "zakochany"
     ],
@@ -1881,11 +1882,16 @@
     "emoticon": ":c"
   },
   {
-    "annotation": "",
+    "annotation": "ziewająca twarz",
     "name": "YAWNING FACE",
     "hexcode": "1F971",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "nuda",
+      "ziewać",
+      "zmęczenie",
+      "znudzony"
+    ],
     "emoji": "🥱",
     "text": "",
     "type": 1,
@@ -2259,7 +2265,7 @@
     "version": 1
   },
   {
-    "annotation": "uśmiechnięty kot z otwartym pyszczkiem",
+    "annotation": "uśmiechnięty kot",
     "name": "SMILING CAT FACE WITH OPEN MOUTH",
     "hexcode": "1F63A",
     "shortcodes": [
@@ -2268,6 +2274,7 @@
     "tags": [
       "kot",
       "uśmiech",
+      "uśmiechnięty kot z otwartym pyszczkiem",
       "zęby"
     ],
     "emoji": "😺",
@@ -2279,7 +2286,7 @@
     "version": 1
   },
   {
-    "annotation": "szeroko uśmiechnięty kot o roześmianych oczach",
+    "annotation": "uśmiechnięty kot o wesołych oczach",
     "name": "GRINNING CAT FACE WITH SMILING EYES",
     "hexcode": "1F638",
     "shortcodes": [
@@ -2287,8 +2294,10 @@
     ],
     "tags": [
       "kot",
+      "oczy",
+      "roześmiany",
       "uśmiech",
-      "zęby"
+      "wesoły"
     ],
     "emoji": "😸",
     "text": "",
@@ -2364,7 +2373,7 @@
     "version": 1
   },
   {
-    "annotation": "kot przesyłający całusa z zamkniętymi oczami",
+    "annotation": "kot przesyłający całusa",
     "name": "KISSING CAT FACE WITH CLOSED EYES",
     "hexcode": "1F63D",
     "shortcodes": [
@@ -2721,12 +2730,12 @@
     "version": 1
   },
   {
-    "annotation": "czerwony wykrzyknik w kształcie serca",
+    "annotation": "wykrzyknik w kształcie serca",
     "name": "HEAVY HEART EXCLAMATION MARK ORNAMENT",
     "hexcode": "2763-FE0F",
     "shortcodes": [],
     "tags": [
-      "czerwony",
+      "czerwony wykrzyknik",
       "serce",
       "wykrzyknik",
       "znak interpunkcyjny"
@@ -2740,14 +2749,14 @@
     "version": 12
   },
   {
-    "annotation": "czerwony wykrzyknik w kształcie serca",
+    "annotation": "wykrzyknik w kształcie serca",
     "name": "HEAVY HEART EXCLAMATION MARK ORNAMENT",
     "hexcode": "2763",
     "shortcodes": [
       "heart_exclamation"
     ],
     "tags": [
-      "czerwony",
+      "czerwony wykrzyknik",
       "serce",
       "wykrzyknik",
       "znak interpunkcyjny"
@@ -2916,11 +2925,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "brązowe serce",
     "name": "BROWN HEART",
     "hexcode": "1F90E",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "brązowe",
+      "serce"
+    ],
     "emoji": "🤎",
     "text": "",
     "type": 1,
@@ -2950,11 +2962,14 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "białe serce",
     "name": "WHITE HEART",
     "hexcode": "1F90D",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "białe",
+      "serce"
+    ],
     "emoji": "🤍",
     "text": "",
     "type": 1,
@@ -3916,11 +3931,13 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "dłoń z gestem „trochę”",
     "name": "PINCHING HAND",
     "hexcode": "1F90F",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "mała ilość"
+    ],
     "emoji": "🤏",
     "text": "",
     "type": 1,
@@ -3930,7 +3947,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "dłoń z gestem „trochę”: karnacja jasna",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F90F-1F3FB",
         "shortcodes": [],
@@ -3944,7 +3961,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "dłoń z gestem „trochę”: karnacja średnio jasna",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F90F-1F3FC",
         "shortcodes": [],
@@ -3958,7 +3975,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "dłoń z gestem „trochę”: karnacja średnia",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F90F-1F3FD",
         "shortcodes": [],
@@ -3972,7 +3989,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "dłoń z gestem „trochę”: karnacja średnio ciemna",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F90F-1F3FE",
         "shortcodes": [],
@@ -3986,7 +4003,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "dłoń z gestem „trochę”: karnacja ciemna",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F90F-1F3FF",
         "shortcodes": [],
@@ -6773,11 +6790,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "mechaniczne ramię",
     "name": "MECHANICAL ARM",
     "hexcode": "1F9BE",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "dostępność",
+      "proteza"
+    ],
     "emoji": "🦾",
     "text": "",
     "type": 1,
@@ -6787,11 +6807,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "proteza nogi",
     "name": "MECHANICAL LEG",
     "hexcode": "1F9BF",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "dostępność",
+      "proteza"
+    ],
     "emoji": "🦿",
     "text": "",
     "type": 1,
@@ -7103,11 +7126,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "ucho z aparatem słuchowym",
     "name": "EAR WITH HEARING AID",
     "hexcode": "1F9BB",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "niedosłuch",
+      "niedosłyszący"
+    ],
     "emoji": "🦻",
     "text": "",
     "type": 1,
@@ -7117,7 +7143,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "ucho z aparatem słuchowym: karnacja jasna",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9BB-1F3FB",
         "shortcodes": [],
@@ -7131,7 +7157,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "ucho z aparatem słuchowym: karnacja średnio jasna",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9BB-1F3FC",
         "shortcodes": [],
@@ -7145,7 +7171,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "ucho z aparatem słuchowym: karnacja średnia",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9BB-1F3FD",
         "shortcodes": [],
@@ -7159,7 +7185,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "ucho z aparatem słuchowym: karnacja średnio ciemna",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9BB-1F3FE",
         "shortcodes": [],
@@ -7173,7 +7199,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "ucho z aparatem słuchowym: karnacja ciemna",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9BB-1F3FF",
         "shortcodes": [],
@@ -11569,11 +11595,16 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "osoba głucha",
     "name": "DEAF PERSON",
     "hexcode": "1F9CF",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "dostępność",
+      "głuchota",
+      "słuch",
+      "ucho"
+    ],
     "emoji": "🧏",
     "text": "",
     "type": 1,
@@ -11583,7 +11614,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "osoba głucha: karnacja jasna",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CF-1F3FB",
         "shortcodes": [],
@@ -11597,7 +11628,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "osoba głucha: karnacja średnio jasna",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CF-1F3FC",
         "shortcodes": [],
@@ -11611,7 +11642,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "osoba głucha: karnacja średnia",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CF-1F3FD",
         "shortcodes": [],
@@ -11625,7 +11656,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "osoba głucha: karnacja średnio ciemna",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CF-1F3FE",
         "shortcodes": [],
@@ -11639,7 +11670,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "osoba głucha: karnacja ciemna",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CF-1F3FF",
         "shortcodes": [],
@@ -11655,14 +11686,13 @@
     ]
   },
   {
-    "annotation": "mężczyzna",
+    "annotation": "głuchy mężczyzna",
     "name": "DEAF PERSON, MALE SIGN",
     "hexcode": "1F9CF-200D-2642-FE0F",
     "shortcodes": [],
     "tags": [
-      "męski",
-      "znak",
-      "znak mężczyzny"
+      "głuchota",
+      "mężczyzna"
     ],
     "emoji": "🧏‍♂️",
     "text": "",
@@ -11674,7 +11704,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "mężczyzna: karnacja jasna",
+        "annotation": "głuchy mężczyzna: karnacja jasna",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CF-1F3FB-200D-2642-FE0F",
         "shortcodes": [],
@@ -11689,7 +11719,7 @@
         "tone": 1
       },
       {
-        "annotation": "mężczyzna: karnacja średnio jasna",
+        "annotation": "głuchy mężczyzna: karnacja średnio jasna",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CF-1F3FC-200D-2642-FE0F",
         "shortcodes": [],
@@ -11704,7 +11734,7 @@
         "tone": 2
       },
       {
-        "annotation": "mężczyzna: karnacja średnia",
+        "annotation": "głuchy mężczyzna: karnacja średnia",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CF-1F3FD-200D-2642-FE0F",
         "shortcodes": [],
@@ -11719,7 +11749,7 @@
         "tone": 3
       },
       {
-        "annotation": "mężczyzna: karnacja średnio ciemna",
+        "annotation": "głuchy mężczyzna: karnacja średnio ciemna",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CF-1F3FE-200D-2642-FE0F",
         "shortcodes": [],
@@ -11734,7 +11764,7 @@
         "tone": 4
       },
       {
-        "annotation": "mężczyzna: karnacja ciemna",
+        "annotation": "głuchy mężczyzna: karnacja ciemna",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CF-1F3FF-200D-2642-FE0F",
         "shortcodes": [],
@@ -11751,14 +11781,13 @@
     ]
   },
   {
-    "annotation": "kobieta",
+    "annotation": "głucha kobieta",
     "name": "DEAF PERSON, FEMALE SIGN",
     "hexcode": "1F9CF-200D-2640-FE0F",
     "shortcodes": [],
     "tags": [
-      "znak",
-      "znak kobiety",
-      "żeński"
+      "głuchota",
+      "kobieta"
     ],
     "emoji": "🧏‍♀️",
     "text": "",
@@ -11770,7 +11799,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "kobieta: karnacja jasna",
+        "annotation": "głucha kobieta: karnacja jasna",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CF-1F3FB-200D-2640-FE0F",
         "shortcodes": [],
@@ -11785,7 +11814,7 @@
         "tone": 1
       },
       {
-        "annotation": "kobieta: karnacja średnio jasna",
+        "annotation": "głucha kobieta: karnacja średnio jasna",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CF-1F3FC-200D-2640-FE0F",
         "shortcodes": [],
@@ -11800,7 +11829,7 @@
         "tone": 2
       },
       {
-        "annotation": "kobieta: karnacja średnia",
+        "annotation": "głucha kobieta: karnacja średnia",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CF-1F3FD-200D-2640-FE0F",
         "shortcodes": [],
@@ -11815,7 +11844,7 @@
         "tone": 3
       },
       {
-        "annotation": "kobieta: karnacja średnio ciemna",
+        "annotation": "głucha kobieta: karnacja średnio ciemna",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CF-1F3FE-200D-2640-FE0F",
         "shortcodes": [],
@@ -11830,7 +11859,7 @@
         "tone": 4
       },
       {
-        "annotation": "kobieta: karnacja ciemna",
+        "annotation": "głucha kobieta: karnacja ciemna",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CF-1F3FF-200D-2640-FE0F",
         "shortcodes": [],
@@ -22090,11 +22119,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "stojąca osoba",
     "name": "STANDING PERSON",
     "hexcode": "1F9CD",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "stać",
+      "stoi"
+    ],
     "emoji": "🧍",
     "text": "",
     "type": 1,
@@ -22104,7 +22136,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "stojąca osoba: karnacja jasna",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CD-1F3FB",
         "shortcodes": [],
@@ -22118,7 +22150,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "stojąca osoba: karnacja średnio jasna",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CD-1F3FC",
         "shortcodes": [],
@@ -22132,7 +22164,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "stojąca osoba: karnacja średnia",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CD-1F3FD",
         "shortcodes": [],
@@ -22146,7 +22178,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "stojąca osoba: karnacja średnio ciemna",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CD-1F3FE",
         "shortcodes": [],
@@ -22160,7 +22192,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "stojąca osoba: karnacja ciemna",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CD-1F3FF",
         "shortcodes": [],
@@ -22176,14 +22208,13 @@
     ]
   },
   {
-    "annotation": "mężczyzna",
+    "annotation": "stojący mężczyzna",
     "name": "STANDING PERSON, MALE SIGN",
     "hexcode": "1F9CD-200D-2642-FE0F",
     "shortcodes": [],
     "tags": [
-      "męski",
-      "znak",
-      "znak mężczyzny"
+      "mężczyzna",
+      "stać"
     ],
     "emoji": "🧍‍♂️",
     "text": "",
@@ -22195,7 +22226,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "mężczyzna: karnacja jasna",
+        "annotation": "stojący mężczyzna: karnacja jasna",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CD-1F3FB-200D-2642-FE0F",
         "shortcodes": [],
@@ -22210,7 +22241,7 @@
         "tone": 1
       },
       {
-        "annotation": "mężczyzna: karnacja średnio jasna",
+        "annotation": "stojący mężczyzna: karnacja średnio jasna",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CD-1F3FC-200D-2642-FE0F",
         "shortcodes": [],
@@ -22225,7 +22256,7 @@
         "tone": 2
       },
       {
-        "annotation": "mężczyzna: karnacja średnia",
+        "annotation": "stojący mężczyzna: karnacja średnia",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CD-1F3FD-200D-2642-FE0F",
         "shortcodes": [],
@@ -22240,7 +22271,7 @@
         "tone": 3
       },
       {
-        "annotation": "mężczyzna: karnacja średnio ciemna",
+        "annotation": "stojący mężczyzna: karnacja średnio ciemna",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CD-1F3FE-200D-2642-FE0F",
         "shortcodes": [],
@@ -22255,7 +22286,7 @@
         "tone": 4
       },
       {
-        "annotation": "mężczyzna: karnacja ciemna",
+        "annotation": "stojący mężczyzna: karnacja ciemna",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CD-1F3FF-200D-2642-FE0F",
         "shortcodes": [],
@@ -22272,14 +22303,13 @@
     ]
   },
   {
-    "annotation": "kobieta",
+    "annotation": "stojąca kobieta",
     "name": "STANDING PERSON, FEMALE SIGN",
     "hexcode": "1F9CD-200D-2640-FE0F",
     "shortcodes": [],
     "tags": [
-      "znak",
-      "znak kobiety",
-      "żeński"
+      "kobieta",
+      "stać"
     ],
     "emoji": "🧍‍♀️",
     "text": "",
@@ -22291,7 +22321,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "kobieta: karnacja jasna",
+        "annotation": "stojąca kobieta: karnacja jasna",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CD-1F3FB-200D-2640-FE0F",
         "shortcodes": [],
@@ -22306,7 +22336,7 @@
         "tone": 1
       },
       {
-        "annotation": "kobieta: karnacja średnio jasna",
+        "annotation": "stojąca kobieta: karnacja średnio jasna",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CD-1F3FC-200D-2640-FE0F",
         "shortcodes": [],
@@ -22321,7 +22351,7 @@
         "tone": 2
       },
       {
-        "annotation": "kobieta: karnacja średnia",
+        "annotation": "stojąca kobieta: karnacja średnia",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CD-1F3FD-200D-2640-FE0F",
         "shortcodes": [],
@@ -22336,7 +22366,7 @@
         "tone": 3
       },
       {
-        "annotation": "kobieta: karnacja średnio ciemna",
+        "annotation": "stojąca kobieta: karnacja średnio ciemna",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CD-1F3FE-200D-2640-FE0F",
         "shortcodes": [],
@@ -22351,7 +22381,7 @@
         "tone": 4
       },
       {
-        "annotation": "kobieta: karnacja ciemna",
+        "annotation": "stojąca kobieta: karnacja ciemna",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CD-1F3FF-200D-2640-FE0F",
         "shortcodes": [],
@@ -22368,11 +22398,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "klęcząca osoba",
     "name": "KNEELING PERSON",
     "hexcode": "1F9CE",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "klęczeć",
+      "na kolanach"
+    ],
     "emoji": "🧎",
     "text": "",
     "type": 1,
@@ -22382,7 +22415,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "klęcząca osoba: karnacja jasna",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CE-1F3FB",
         "shortcodes": [],
@@ -22396,7 +22429,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "klęcząca osoba: karnacja średnio jasna",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CE-1F3FC",
         "shortcodes": [],
@@ -22410,7 +22443,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "klęcząca osoba: karnacja średnia",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CE-1F3FD",
         "shortcodes": [],
@@ -22424,7 +22457,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "klęcząca osoba: karnacja średnio ciemna",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CE-1F3FE",
         "shortcodes": [],
@@ -22438,7 +22471,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "klęcząca osoba: karnacja ciemna",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CE-1F3FF",
         "shortcodes": [],
@@ -22454,14 +22487,13 @@
     ]
   },
   {
-    "annotation": "mężczyzna",
+    "annotation": "klęczący mężczyzna",
     "name": "KNEELING PERSON, MALE SIGN",
     "hexcode": "1F9CE-200D-2642-FE0F",
     "shortcodes": [],
     "tags": [
-      "męski",
-      "znak",
-      "znak mężczyzny"
+      "klęczeć",
+      "mężczyzna"
     ],
     "emoji": "🧎‍♂️",
     "text": "",
@@ -22473,7 +22505,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "mężczyzna: karnacja jasna",
+        "annotation": "klęczący mężczyzna: karnacja jasna",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CE-1F3FB-200D-2642-FE0F",
         "shortcodes": [],
@@ -22488,7 +22520,7 @@
         "tone": 1
       },
       {
-        "annotation": "mężczyzna: karnacja średnio jasna",
+        "annotation": "klęczący mężczyzna: karnacja średnio jasna",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CE-1F3FC-200D-2642-FE0F",
         "shortcodes": [],
@@ -22503,7 +22535,7 @@
         "tone": 2
       },
       {
-        "annotation": "mężczyzna: karnacja średnia",
+        "annotation": "klęczący mężczyzna: karnacja średnia",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CE-1F3FD-200D-2642-FE0F",
         "shortcodes": [],
@@ -22518,7 +22550,7 @@
         "tone": 3
       },
       {
-        "annotation": "mężczyzna: karnacja średnio ciemna",
+        "annotation": "klęczący mężczyzna: karnacja średnio ciemna",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CE-1F3FE-200D-2642-FE0F",
         "shortcodes": [],
@@ -22533,7 +22565,7 @@
         "tone": 4
       },
       {
-        "annotation": "mężczyzna: karnacja ciemna",
+        "annotation": "klęczący mężczyzna: karnacja ciemna",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CE-1F3FF-200D-2642-FE0F",
         "shortcodes": [],
@@ -22550,14 +22582,13 @@
     ]
   },
   {
-    "annotation": "kobieta",
+    "annotation": "klęcząca kobieta",
     "name": "KNEELING PERSON, FEMALE SIGN",
     "hexcode": "1F9CE-200D-2640-FE0F",
     "shortcodes": [],
     "tags": [
-      "znak",
-      "znak kobiety",
-      "żeński"
+      "klęczeć",
+      "kobieta"
     ],
     "emoji": "🧎‍♀️",
     "text": "",
@@ -22569,7 +22600,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "kobieta: karnacja jasna",
+        "annotation": "klęcząca kobieta: karnacja jasna",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CE-1F3FB-200D-2640-FE0F",
         "shortcodes": [],
@@ -22584,7 +22615,7 @@
         "tone": 1
       },
       {
-        "annotation": "kobieta: karnacja średnio jasna",
+        "annotation": "klęcząca kobieta: karnacja średnio jasna",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CE-1F3FC-200D-2640-FE0F",
         "shortcodes": [],
@@ -22599,7 +22630,7 @@
         "tone": 2
       },
       {
-        "annotation": "kobieta: karnacja średnia",
+        "annotation": "klęcząca kobieta: karnacja średnia",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CE-1F3FD-200D-2640-FE0F",
         "shortcodes": [],
@@ -22614,7 +22645,7 @@
         "tone": 3
       },
       {
-        "annotation": "kobieta: karnacja średnio ciemna",
+        "annotation": "klęcząca kobieta: karnacja średnio ciemna",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CE-1F3FE-200D-2640-FE0F",
         "shortcodes": [],
@@ -22629,7 +22660,7 @@
         "tone": 4
       },
       {
-        "annotation": "kobieta: karnacja ciemna",
+        "annotation": "klęcząca kobieta: karnacja ciemna",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CE-1F3FF-200D-2640-FE0F",
         "shortcodes": [],
@@ -22646,12 +22677,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "mężczyzna z białą laską",
     "name": "MAN, PROBING CANE",
     "hexcode": "1F468-200D-1F9AF",
     "shortcodes": [],
     "tags": [
-      "mężczyzna"
+      "dostępność",
+      "mężczyzna",
+      "niewidomy"
     ],
     "emoji": "👨‍🦯",
     "text": "",
@@ -22662,7 +22695,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mężczyzna z białą laską: karnacja jasna",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F468-1F3FB-200D-1F9AF",
         "shortcodes": [],
@@ -22676,7 +22709,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "mężczyzna z białą laską: karnacja średnio jasna",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F468-1F3FC-200D-1F9AF",
         "shortcodes": [],
@@ -22690,7 +22723,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "mężczyzna z białą laską: karnacja średnia",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F468-1F3FD-200D-1F9AF",
         "shortcodes": [],
@@ -22704,7 +22737,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "mężczyzna z białą laską: karnacja średnio ciemna",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F468-1F3FE-200D-1F9AF",
         "shortcodes": [],
@@ -22718,7 +22751,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "mężczyzna z białą laską: karnacja ciemna",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F468-1F3FF-200D-1F9AF",
         "shortcodes": [],
@@ -22734,12 +22767,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "kobieta z białą laską",
     "name": "WOMAN, PROBING CANE",
     "hexcode": "1F469-200D-1F9AF",
     "shortcodes": [],
     "tags": [
-      "kobieta"
+      "dostępność",
+      "kobieta",
+      "niewidoma"
     ],
     "emoji": "👩‍🦯",
     "text": "",
@@ -22750,7 +22785,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "kobieta z białą laską: karnacja jasna",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F469-1F3FB-200D-1F9AF",
         "shortcodes": [],
@@ -22764,7 +22799,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "kobieta z białą laską: karnacja średnio jasna",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F469-1F3FC-200D-1F9AF",
         "shortcodes": [],
@@ -22778,7 +22813,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "kobieta z białą laską: karnacja średnia",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F469-1F3FD-200D-1F9AF",
         "shortcodes": [],
@@ -22792,7 +22827,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "kobieta z białą laską: karnacja średnio ciemna",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F469-1F3FE-200D-1F9AF",
         "shortcodes": [],
@@ -22806,7 +22841,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "kobieta z białą laską: karnacja ciemna",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F469-1F3FF-200D-1F9AF",
         "shortcodes": [],
@@ -22822,12 +22857,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "mężczyzna na elektrycznym wózku inwalidzkim",
     "name": "MAN, MOTORIZED WHEELCHAIR",
     "hexcode": "1F468-200D-1F9BC",
     "shortcodes": [],
     "tags": [
-      "mężczyzna"
+      "dostępność",
+      "mężczyzna",
+      "wózek inwalidzki"
     ],
     "emoji": "👨‍🦼",
     "text": "",
@@ -22838,7 +22875,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mężczyzna na elektrycznym wózku inwalidzkim: karnacja jasna",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F468-1F3FB-200D-1F9BC",
         "shortcodes": [],
@@ -22852,7 +22889,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "mężczyzna na elektrycznym wózku inwalidzkim: karnacja średnio jasna",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F468-1F3FC-200D-1F9BC",
         "shortcodes": [],
@@ -22866,7 +22903,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "mężczyzna na elektrycznym wózku inwalidzkim: karnacja średnia",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F468-1F3FD-200D-1F9BC",
         "shortcodes": [],
@@ -22880,7 +22917,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "mężczyzna na elektrycznym wózku inwalidzkim: karnacja średnio ciemna",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F468-1F3FE-200D-1F9BC",
         "shortcodes": [],
@@ -22894,7 +22931,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "mężczyzna na elektrycznym wózku inwalidzkim: karnacja ciemna",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F468-1F3FF-200D-1F9BC",
         "shortcodes": [],
@@ -22910,12 +22947,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "kobieta na elektrycznym wózku inwalidzkim",
     "name": "WOMAN, MOTORIZED WHEELCHAIR",
     "hexcode": "1F469-200D-1F9BC",
     "shortcodes": [],
     "tags": [
-      "kobieta"
+      "dostępność",
+      "kobieta",
+      "wózek inwalidzki"
     ],
     "emoji": "👩‍🦼",
     "text": "",
@@ -22926,7 +22965,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "kobieta na elektrycznym wózku inwalidzkim: karnacja jasna",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F469-1F3FB-200D-1F9BC",
         "shortcodes": [],
@@ -22940,7 +22979,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "kobieta na elektrycznym wózku inwalidzkim: karnacja średnio jasna",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F469-1F3FC-200D-1F9BC",
         "shortcodes": [],
@@ -22954,7 +22993,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "kobieta na elektrycznym wózku inwalidzkim: karnacja średnia",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F469-1F3FD-200D-1F9BC",
         "shortcodes": [],
@@ -22968,7 +23007,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "kobieta na elektrycznym wózku inwalidzkim: karnacja średnio ciemna",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F469-1F3FE-200D-1F9BC",
         "shortcodes": [],
@@ -22982,7 +23021,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "kobieta na elektrycznym wózku inwalidzkim: karnacja ciemna",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F469-1F3FF-200D-1F9BC",
         "shortcodes": [],
@@ -22998,12 +23037,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "mężczyzna na wózku inwalidzkim",
     "name": "MAN, MANUAL WHEELCHAIR",
     "hexcode": "1F468-200D-1F9BD",
     "shortcodes": [],
     "tags": [
-      "mężczyzna"
+      "dostępność",
+      "mężczyzna",
+      "wózek inwalidzki"
     ],
     "emoji": "👨‍🦽",
     "text": "",
@@ -23014,7 +23055,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mężczyzna na wózku inwalidzkim: karnacja jasna",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F468-1F3FB-200D-1F9BD",
         "shortcodes": [],
@@ -23028,7 +23069,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "mężczyzna na wózku inwalidzkim: karnacja średnio jasna",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F468-1F3FC-200D-1F9BD",
         "shortcodes": [],
@@ -23042,7 +23083,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "mężczyzna na wózku inwalidzkim: karnacja średnia",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F468-1F3FD-200D-1F9BD",
         "shortcodes": [],
@@ -23056,7 +23097,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "mężczyzna na wózku inwalidzkim: karnacja średnio ciemna",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F468-1F3FE-200D-1F9BD",
         "shortcodes": [],
@@ -23070,7 +23111,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "mężczyzna na wózku inwalidzkim: karnacja ciemna",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F468-1F3FF-200D-1F9BD",
         "shortcodes": [],
@@ -23086,12 +23127,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "kobieta na wózku inwalidzkim",
     "name": "WOMAN, MANUAL WHEELCHAIR",
     "hexcode": "1F469-200D-1F9BD",
     "shortcodes": [],
     "tags": [
-      "kobieta"
+      "dostępność",
+      "kobieta",
+      "wózek inwalidzki"
     ],
     "emoji": "👩‍🦽",
     "text": "",
@@ -23102,7 +23145,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "kobieta na wózku inwalidzkim: karnacja jasna",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F469-1F3FB-200D-1F9BD",
         "shortcodes": [],
@@ -23116,7 +23159,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "kobieta na wózku inwalidzkim: karnacja średnio jasna",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F469-1F3FC-200D-1F9BD",
         "shortcodes": [],
@@ -23130,7 +23173,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "kobieta na wózku inwalidzkim: karnacja średnia",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F469-1F3FD-200D-1F9BD",
         "shortcodes": [],
@@ -23144,7 +23187,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "kobieta na wózku inwalidzkim: karnacja średnio ciemna",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F469-1F3FE-200D-1F9BD",
         "shortcodes": [],
@@ -23158,7 +23201,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "kobieta na wózku inwalidzkim: karnacja ciemna",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F469-1F3FF-200D-1F9BD",
         "shortcodes": [],
@@ -29226,18 +29269,12 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "osoby trzymające się za ręce",
     "name": "ADULT, HANDSHAKE, ADULT",
     "hexcode": "1F9D1-200D-1F91D-200D-1F9D1",
     "shortcodes": [],
     "tags": [
-      "dorosły",
-      "powitanie",
-      "płeć neutralna",
-      "spotkanie",
-      "uścisk",
-      "uścisk dłoni",
-      "zgoda"
+      "osoby trzymające się za ręce"
     ],
     "emoji": "🧑‍🤝‍🧑",
     "text": "",
@@ -29248,7 +29285,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "osoby trzymające się za ręce: karnacja ciemna i karnacja jasna",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB",
         "shortcodes": [],
@@ -29262,7 +29299,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "osoby trzymające się za ręce: karnacja ciemna i karnacja średnio jasna",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC",
         "shortcodes": [],
@@ -29276,7 +29313,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "osoby trzymające się za ręce: karnacja ciemna i karnacja średnia",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD",
         "shortcodes": [],
@@ -29290,7 +29327,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "osoby trzymające się za ręce: karnacja ciemna i karnacja średnio ciemna",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE",
         "shortcodes": [],
@@ -29304,7 +29341,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "osoby trzymające się za ręce: karnacja ciemna",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF",
         "shortcodes": [],
@@ -29341,7 +29378,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "dwie kobiety trzymające się za ręce: karnacja jasna",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F46D-1F3FB",
         "shortcodes": [
@@ -29357,7 +29394,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "dwie kobiety trzymające się za ręce: karnacja średnio jasna",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F46D-1F3FC",
         "shortcodes": [
@@ -29373,7 +29410,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "dwie kobiety trzymające się za ręce: karnacja średnia",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F46D-1F3FD",
         "shortcodes": [
@@ -29389,7 +29426,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "dwie kobiety trzymające się za ręce: karnacja średnio ciemna",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F46D-1F3FE",
         "shortcodes": [
@@ -29405,7 +29442,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "dwie kobiety trzymające się za ręce: karnacja ciemna",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F46D-1F3FF",
         "shortcodes": [
@@ -29445,7 +29482,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mężczyzna i kobieta trzymający się za ręce: karnacja jasna",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F46B-1F3FB",
         "shortcodes": [
@@ -29462,7 +29499,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "mężczyzna i kobieta trzymający się za ręce: karnacja średnio jasna",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F46B-1F3FC",
         "shortcodes": [
@@ -29479,7 +29516,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "mężczyzna i kobieta trzymający się za ręce: karnacja średnia",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F46B-1F3FD",
         "shortcodes": [
@@ -29496,7 +29533,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "mężczyzna i kobieta trzymający się za ręce: karnacja średnio ciemna",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F46B-1F3FE",
         "shortcodes": [
@@ -29513,7 +29550,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "mężczyzna i kobieta trzymający się za ręce: karnacja ciemna",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F46B-1F3FF",
         "shortcodes": [
@@ -29553,7 +29590,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "dwóch mężczyzn trzymających się za ręce: karnacja jasna",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F46C-1F3FB",
         "shortcodes": [
@@ -29569,7 +29606,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "dwóch mężczyzn trzymających się za ręce: karnacja średnio jasna",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F46C-1F3FC",
         "shortcodes": [
@@ -29585,7 +29622,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "dwóch mężczyzn trzymających się za ręce: karnacja średnia",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F46C-1F3FD",
         "shortcodes": [
@@ -29601,7 +29638,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "dwóch mężczyzn trzymających się za ręce: karnacja średnio ciemna",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F46C-1F3FE",
         "shortcodes": [
@@ -29617,7 +29654,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "dwóch mężczyzn trzymających się za ręce: karnacja ciemna",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F46C-1F3FF",
         "shortcodes": [
@@ -30650,11 +30687,13 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "orangutan",
     "name": "ORANGUTAN",
     "hexcode": "1F9A7",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "małpa człekokształtna"
+    ],
     "emoji": "🦧",
     "text": "",
     "type": 1,
@@ -30706,11 +30745,16 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "pies przewodnik",
     "name": "GUIDE DOG",
     "hexcode": "1F9AE",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "dostępność",
+      "niewidomi",
+      "przewodnik",
+      "ułatwienia dostępu"
+    ],
     "emoji": "🦮",
     "text": "",
     "type": 1,
@@ -30720,16 +30764,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "pies pomocnik",
     "name": "DOG, SAFETY VEST",
     "hexcode": "1F415-200D-1F9BA",
     "shortcodes": [],
     "tags": [
+      "dostępność",
+      "opiekun",
       "pies",
-      "piesek",
-      "psiaczek",
-      "psinka",
-      "zwierzę"
+      "pomoc"
     ],
     "emoji": "🐕‍🦺",
     "text": "",
@@ -31613,11 +31656,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "leniwiec",
     "name": "SLOTH",
     "hexcode": "1F9A5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "leniwy",
+      "powolny"
+    ],
     "emoji": "🦥",
     "text": "",
     "type": 1,
@@ -31627,11 +31673,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "wydra",
     "name": "OTTER",
     "hexcode": "1F9A6",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bystre",
+      "łapanie ryb"
+    ],
     "emoji": "🦦",
     "text": "",
     "type": 1,
@@ -31641,11 +31690,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "skunks",
     "name": "SKUNK",
     "hexcode": "1F9A8",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "smród"
+    ],
     "emoji": "🦨",
     "text": "",
     "type": 1,
@@ -31971,11 +32022,14 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "flaming",
     "name": "FLAMINGO",
     "hexcode": "1F9A9",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "ekstrawagancja",
+      "tropikalny"
+    ],
     "emoji": "🦩",
     "text": "",
     "type": 1,
@@ -33604,11 +33658,13 @@
     "version": 5
   },
   {
-    "annotation": "",
+    "annotation": "czosnek",
     "name": "GARLIC",
     "hexcode": "1F9C4",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "aromatyczny"
+    ],
     "emoji": "🧄",
     "text": "",
     "type": 1,
@@ -33618,11 +33674,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "cebula",
     "name": "ONION",
     "hexcode": "1F9C5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "aromatyczna",
+      "nadająca smak"
+    ],
     "emoji": "🧅",
     "text": "",
     "type": 1,
@@ -33809,11 +33868,13 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "gofr",
     "name": "WAFFLE",
     "hexcode": "1F9C7",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "gofrownica"
+    ],
     "emoji": "🧇",
     "text": "",
     "type": 1,
@@ -34072,11 +34133,14 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "falafel",
     "name": "FALAFEL",
     "hexcode": "1F9C6",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "ciecierzyca",
+      "kotlecik z ciecierzycy"
+    ],
     "emoji": "🧆",
     "text": "",
     "type": 1,
@@ -34219,11 +34283,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "masło",
     "name": "BUTTER",
     "hexcode": "1F9C8",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "nabiał"
+    ],
     "emoji": "🧈",
     "text": "",
     "type": 1,
@@ -34668,11 +34734,15 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "ostryga",
     "name": "OYSTER",
     "hexcode": "1F9AA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "małże",
+      "nurkowanie",
+      "perły"
+    ],
     "emoji": "🦪",
     "text": "",
     "type": 1,
@@ -35238,11 +35308,13 @@
     "version": 5
   },
   {
-    "annotation": "",
+    "annotation": "napój w kartoniku",
     "name": "BEVERAGE BOX",
     "hexcode": "1F9C3",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "sok w kartoniku"
+    ],
     "emoji": "🧃",
     "text": "",
     "type": 1,
@@ -35252,11 +35324,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "yerba mate",
     "name": "MATE DRINK",
     "hexcode": "1F9C9",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "napój"
+    ],
     "emoji": "🧉",
     "text": "",
     "type": 1,
@@ -35266,11 +35340,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "kostka lodu",
     "name": "ICE CUBE",
     "hexcode": "1F9CA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "lód",
+      "zimno"
+    ],
     "emoji": "🧊",
     "text": "",
     "type": 1,
@@ -36486,11 +36563,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "świątynia hinduistyczna",
     "name": "HINDU TEMPLE",
     "hexcode": "1F6D5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "hinduizm",
+      "świątynia"
+    ],
     "emoji": "🛕",
     "text": "",
     "type": 1,
@@ -37578,11 +37658,13 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "wózek inwalidzki ręczny",
     "name": "MANUAL WHEELCHAIR",
     "hexcode": "1F9BD",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "dostępność"
+    ],
     "emoji": "🦽",
     "text": "",
     "type": 1,
@@ -37592,11 +37674,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "wózek inwalidzki elektryczny",
     "name": "MOTORIZED WHEELCHAIR",
     "hexcode": "1F9BC",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "dostępność"
+    ],
     "emoji": "🦼",
     "text": "",
     "type": 1,
@@ -37606,11 +37690,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "autoriksza",
     "name": "AUTO RICKSHAW",
     "hexcode": "1F6FA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "tuk-tuk"
+    ],
     "emoji": "🛺",
     "text": "",
     "type": 1,
@@ -38242,11 +38328,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "spadochron",
     "name": "PARACHUTE",
     "hexcode": "1FA82",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "lotnia",
+      "lotniarstwo za łodzią motorową",
+      "spadochroniarstwo"
+    ],
     "emoji": "🪂",
     "text": "",
     "type": 1,
@@ -39573,11 +39663,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "planeta z pierścieniami",
     "name": "RINGED PLANET",
     "hexcode": "1FA90",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "pierścienie",
+      "saturn"
+    ],
     "emoji": "🪐",
     "text": "",
     "type": 1,
@@ -41547,11 +41640,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "maska do nurkowania",
     "name": "DIVING MASK",
     "hexcode": "1F93F",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "akwalung",
+      "nurkowanie",
+      "nurkowanie z rurką"
+    ],
     "emoji": "🤿",
     "text": "",
     "type": 1,
@@ -41658,11 +41755,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "jojo",
     "name": "YO-YO",
     "hexcode": "1FA80",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "gra",
+      "zabawka"
+    ],
     "emoji": "🪀",
     "text": "",
     "type": 1,
@@ -41672,11 +41772,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "latawiec",
     "name": "KITE",
     "hexcode": "1FA81",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "latanie",
+      "puszczanie"
+    ],
     "emoji": "🪁",
     "text": "",
     "type": 1,
@@ -42360,11 +42463,15 @@
     "version": 11
   },
   {
-    "annotation": "",
+    "annotation": "kamizelka ratunkowa",
     "name": "SAFETY VEST",
     "hexcode": "1F9BA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "kamizelka",
+      "ratowanie",
+      "sytuacja awaryjna"
+    ],
     "emoji": "🦺",
     "text": "",
     "type": 1,
@@ -42546,11 +42653,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "sari",
     "name": "SARI",
     "hexcode": "1F97B",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "odzież",
+      "suknia",
+      "ubranie"
+    ],
     "emoji": "🥻",
     "text": "",
     "type": 1,
@@ -42560,11 +42671,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "strój kąpielowy jednoczęściowy",
     "name": "ONE-PIECE SWIMSUIT",
     "hexcode": "1FA71",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "kostium do kąpieli"
+    ],
     "emoji": "🩱",
     "text": "",
     "type": 1,
@@ -42574,11 +42687,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "kąpielówki",
     "name": "BRIEFS",
     "hexcode": "1FA72",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bielizna",
+      "majtki do kąpieli",
+      "strój do kąpieli"
+    ],
     "emoji": "🩲",
     "text": "",
     "type": 1,
@@ -42588,11 +42705,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "szorty",
     "name": "SHORTS",
     "hexcode": "1FA73",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bielizna",
+      "spodenki",
+      "strój do kąpieli"
+    ],
     "emoji": "🩳",
     "text": "",
     "type": 1,
@@ -42880,11 +43001,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "baletki",
     "name": "BALLET SHOES",
     "hexcode": "1FA70",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "balet",
+      "taniec"
+    ],
     "emoji": "🩰",
     "text": "",
     "type": 1,
@@ -43646,11 +43770,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "banjo",
     "name": "BANJO",
     "hexcode": "1FA95",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "instrument",
+      "muzyka",
+      "strunowy"
+    ],
     "emoji": "🪕",
     "text": "",
     "type": 1,
@@ -44513,11 +44641,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "dipa",
     "name": "DIYA LAMP",
     "hexcode": "1FA94",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "lampka",
+      "oliwna"
+    ],
     "emoji": "🪔",
     "text": "",
     "type": 1,
@@ -46451,11 +46582,16 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "siekiera",
     "name": "AXE",
     "hexcode": "1FA93",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "drewno",
+      "rozłupywać",
+      "rąbać",
+      "topór"
+    ],
     "emoji": "🪓",
     "text": "",
     "type": 1,
@@ -46905,11 +47041,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "biała laska",
     "name": "PROBING CANE",
     "hexcode": "1F9AF",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "dostępność",
+      "niewidomy"
+    ],
     "emoji": "🦯",
     "text": "",
     "type": 1,
@@ -47213,11 +47352,16 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "kropla krwi",
     "name": "DROP OF BLOOD",
     "hexcode": "1FA78",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "krwiodawstwo",
+      "medycyna",
+      "menstruacja",
+      "oddawanie krwi"
+    ],
     "emoji": "🩸",
     "text": "",
     "type": 1,
@@ -47246,11 +47390,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "plaster",
     "name": "ADHESIVE BANDAGE",
     "hexcode": "1FA79",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "opatrunek"
+    ],
     "emoji": "🩹",
     "text": "",
     "type": 1,
@@ -47260,11 +47406,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "stetoskop",
     "name": "STETHOSCOPE",
     "hexcode": "1FA7A",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "lekarz",
+      "medycyna",
+      "serce"
+    ],
     "emoji": "🩺",
     "text": "",
     "type": 1,
@@ -47368,11 +47518,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "krzesło",
     "name": "CHAIR",
     "hexcode": "1FA91",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "siadać",
+      "siedzenie"
+    ],
     "emoji": "🪑",
     "text": "",
     "type": 1,
@@ -47440,11 +47593,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "brzytwa",
     "name": "RAZOR",
     "hexcode": "1FA92",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "golenie",
+      "ostre narzędzie"
+    ],
     "emoji": "🪒",
     "text": "",
     "type": 1,
@@ -50679,7 +50835,7 @@
     "version": 1
   },
   {
-    "annotation": "gruby biały znacznik wyboru",
+    "annotation": "przycisk ze znacznikiem wyboru",
     "name": "WHITE HEAVY CHECK MARK",
     "hexcode": "2705",
     "shortcodes": [
@@ -50688,7 +50844,8 @@
     "tags": [
       "parafka",
       "ptaszek",
-      "zaznaczenie"
+      "zaznaczenie",
+      "znacznik wyboru"
     ],
     "emoji": "✅",
     "text": "",
@@ -50737,11 +50894,12 @@
     "version": 1
   },
   {
-    "annotation": "gruby znacznik wyboru",
+    "annotation": "znacznik wyboru",
     "name": "HEAVY CHECK MARK",
     "hexcode": "2714-FE0F",
     "shortcodes": [],
     "tags": [
+      "gruby znacznik wyboru",
       "parafka",
       "ptaszek",
       "zaznaczenie"
@@ -50755,13 +50913,14 @@
     "version": 12
   },
   {
-    "annotation": "gruby znacznik wyboru",
+    "annotation": "znacznik wyboru",
     "name": "HEAVY CHECK MARK",
     "hexcode": "2714",
     "shortcodes": [
       "check_mark"
     ],
     "tags": [
+      "gruby znacznik wyboru",
       "parafka",
       "ptaszek",
       "zaznaczenie"
@@ -50775,12 +50934,13 @@
     "version": 1
   },
   {
-    "annotation": "gruby znak x",
+    "annotation": "znak mnożenia",
     "name": "HEAVY MULTIPLICATION X",
     "hexcode": "2716-FE0F",
     "shortcodes": [],
     "tags": [
       "anuluj",
+      "gruby znak x",
       "iks",
       "mnożenie",
       "x"
@@ -50794,7 +50954,7 @@
     "version": 12
   },
   {
-    "annotation": "gruby znak x",
+    "annotation": "znak mnożenia",
     "name": "HEAVY MULTIPLICATION X",
     "hexcode": "2716",
     "shortcodes": [
@@ -50802,6 +50962,7 @@
     ],
     "tags": [
       "anuluj",
+      "gruby znak x",
       "iks",
       "mnożenie",
       "x"
@@ -50859,14 +51020,19 @@
     "version": 1
   },
   {
-    "annotation": "gruby znak plus",
+    "annotation": "znak plus",
     "name": "HEAVY PLUS SIGN",
     "hexcode": "2795",
     "shortcodes": [
       "plus"
     ],
     "tags": [
-      "dodać"
+      "dodawanie",
+      "dodawać",
+      "dodać",
+      "matematyka",
+      "plus",
+      "znak"
     ],
     "emoji": "➕",
     "text": "",
@@ -50877,14 +51043,17 @@
     "version": 1
   },
   {
-    "annotation": "gruby znak minus",
+    "annotation": "znak minus",
     "name": "HEAVY MINUS SIGN",
     "hexcode": "2796",
     "shortcodes": [
       "minus"
     ],
     "tags": [
-      "odjąć"
+      "-",
+      "matematyka",
+      "odejmowanie",
+      "znak"
     ],
     "emoji": "➖",
     "text": "",
@@ -50895,7 +51064,7 @@
     "version": 1
   },
   {
-    "annotation": "gruby znak dzielenia",
+    "annotation": "znak dzielenia",
     "name": "HEAVY DIVISION SIGN",
     "hexcode": "2797",
     "shortcodes": [
@@ -50903,7 +51072,8 @@
     ],
     "tags": [
       "dzielenie",
-      "matematyka"
+      "matematyka",
+      "znak"
     ],
     "emoji": "➗",
     "text": "",
@@ -51061,7 +51231,7 @@
     "hexcode": "2747-FE0F",
     "shortcodes": [],
     "tags": [
-      "iskra"
+      "*"
     ],
     "emoji": "❇️",
     "text": "",
@@ -51079,7 +51249,7 @@
       "sparkle"
     ],
     "tags": [
-      "iskra"
+      "*"
     ],
     "emoji": "❇️",
     "text": "❇︎",
@@ -51292,14 +51462,13 @@
     "version": 1
   },
   {
-    "annotation": "Znak praw autorskich",
+    "annotation": "znak praw autorskich",
     "name": "COPYRIGHT SIGN",
     "hexcode": "00A9-FE0F",
     "shortcodes": [],
     "tags": [
       "copyright",
-      "prawa autorskie",
-      "znak praw autorskich"
+      "prawa autorskie"
     ],
     "emoji": "©️",
     "text": "",
@@ -51310,7 +51479,7 @@
     "version": 12
   },
   {
-    "annotation": "Znak praw autorskich",
+    "annotation": "znak praw autorskich",
     "name": "COPYRIGHT SIGN",
     "hexcode": "00A9",
     "shortcodes": [
@@ -51318,8 +51487,7 @@
     ],
     "tags": [
       "copyright",
-      "prawa autorskie",
-      "znak praw autorskich"
+      "prawa autorskie"
     ],
     "emoji": "©️",
     "text": "©︎",
@@ -51330,15 +51498,14 @@
     "version": 1
   },
   {
-    "annotation": "Zarejestrowany znak towarowy",
+    "annotation": "zarejestrowany znak towarowy",
     "name": "REGISTERED SIGN",
     "hexcode": "00AE-FE0F",
     "shortcodes": [],
     "tags": [
       "r",
       "towarowy",
-      "zarejestrowany",
-      "zarejestrowany znak towarowy"
+      "zarejestrowany"
     ],
     "emoji": "®️",
     "text": "",
@@ -51349,7 +51516,7 @@
     "version": 12
   },
   {
-    "annotation": "Zarejestrowany znak towarowy",
+    "annotation": "zarejestrowany znak towarowy",
     "name": "REGISTERED SIGN",
     "hexcode": "00AE",
     "shortcodes": [
@@ -51358,8 +51525,7 @@
     "tags": [
       "r",
       "towarowy",
-      "zarejestrowany",
-      "zarejestrowany znak towarowy"
+      "zarejestrowany"
     ],
     "emoji": "®️",
     "text": "®︎",
@@ -52640,11 +52806,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "pomarańczowe koło",
     "name": "LARGE ORANGE CIRCLE",
     "hexcode": "1F7E0",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "koło",
+      "kółko",
+      "pomarańczowe"
+    ],
     "emoji": "🟠",
     "text": "",
     "type": 1,
@@ -52654,11 +52824,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "żółte koło",
     "name": "LARGE YELLOW CIRCLE",
     "hexcode": "1F7E1",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "koło",
+      "kółko",
+      "żółte"
+    ],
     "emoji": "🟡",
     "text": "",
     "type": 1,
@@ -52668,11 +52842,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "zielone koło",
     "name": "LARGE GREEN CIRCLE",
     "hexcode": "1F7E2",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "koło",
+      "kółko",
+      "zielone"
+    ],
     "emoji": "🟢",
     "text": "",
     "type": 1,
@@ -52703,11 +52881,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "fioletowe koło",
     "name": "LARGE PURPLE CIRCLE",
     "hexcode": "1F7E3",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "fioletowe",
+      "koło",
+      "kółko"
+    ],
     "emoji": "🟣",
     "text": "",
     "type": 1,
@@ -52717,11 +52899,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "brązowe koło",
     "name": "LARGE BROWN CIRCLE",
     "hexcode": "1F7E4",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "brązowe",
+      "koło",
+      "kółko"
+    ],
     "emoji": "🟤",
     "text": "",
     "type": 1,
@@ -52773,11 +52959,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "czerwony kwadrat",
     "name": "LARGE RED SQUARE",
     "hexcode": "1F7E5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "czerwony",
+      "kwadrat",
+      "kwadratowy"
+    ],
     "emoji": "🟥",
     "text": "",
     "type": 1,
@@ -52787,11 +52977,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "pomarańczowy kwadrat",
     "name": "LARGE ORANGE SQUARE",
     "hexcode": "1F7E7",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "kwadrat",
+      "kwadratowy",
+      "pomarańczowy"
+    ],
     "emoji": "🟧",
     "text": "",
     "type": 1,
@@ -52801,11 +52995,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "żółty kwadrat",
     "name": "LARGE YELLOW SQUARE",
     "hexcode": "1F7E8",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "kwadrat",
+      "kwadratowy",
+      "żółty"
+    ],
     "emoji": "🟨",
     "text": "",
     "type": 1,
@@ -52815,11 +53013,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "zielony kwadrat",
     "name": "LARGE GREEN SQUARE",
     "hexcode": "1F7E9",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "kwadrat",
+      "kwadratowy",
+      "zielony"
+    ],
     "emoji": "🟩",
     "text": "",
     "type": 1,
@@ -52829,11 +53031,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "niebieski kwadrat",
     "name": "LARGE BLUE SQUARE",
     "hexcode": "1F7E6",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "kwadrat",
+      "kwadratowy",
+      "niebieski"
+    ],
     "emoji": "🟦",
     "text": "",
     "type": 1,
@@ -52843,11 +53049,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "fioletowy kwadrat",
     "name": "LARGE PURPLE SQUARE",
     "hexcode": "1F7EA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "fioletowy",
+      "kwadrat",
+      "kwadratowy"
+    ],
     "emoji": "🟪",
     "text": "",
     "type": 1,
@@ -52857,11 +53067,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "brązowy kwadrat",
     "name": "LARGE BROWN SQUARE",
     "hexcode": "1F7EB",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "brązowy",
+      "kwadrat",
+      "kwadratowy"
+    ],
     "emoji": "🟫",
     "text": "",
     "type": 1,
@@ -54451,7 +54665,7 @@
     "version": 1
   },
   {
-    "annotation": "flaga: Clipperton",
+    "annotation": "flaga: Wyspa Clippertona",
     "name": "FLAG: CLIPPERTON ISLAND",
     "hexcode": "1F1E8-1F1F5",
     "shortcodes": [
@@ -56332,7 +56546,7 @@
     "version": 1
   },
   {
-    "annotation": "flaga: Macedonia",
+    "annotation": "flaga: Macedonia Północna",
     "name": "FLAG: MACEDONIA",
     "hexcode": "1F1F2-1F1F0",
     "shortcodes": [
@@ -57643,7 +57857,7 @@
     "version": 1
   },
   {
-    "annotation": "flaga: Suazi",
+    "annotation": "flaga: Eswatini",
     "name": "FLAG: ESWATINI",
     "hexcode": "1F1F8-1F1FF",
     "shortcodes": [

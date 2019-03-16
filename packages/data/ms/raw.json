@@ -419,7 +419,7 @@
     "emoticon": "o:)"
   },
   {
-    "annotation": "muka tersenyum dengan 3 hati",
+    "annotation": "muka tersenyum dengan hati",
     "name": "SMILING FACE WITH SMILING EYES AND THREE HEARTS",
     "hexcode": "1F970",
     "shortcodes": [
@@ -1957,11 +1957,15 @@
     "emoticon": ":c"
   },
   {
-    "annotation": "",
+    "annotation": "muka menguap",
     "name": "YAWNING FACE",
     "hexcode": "1F971",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bosan",
+      "letih",
+      "menguap"
+    ],
     "emoji": "🥱",
     "text": "",
     "type": 1,
@@ -2328,7 +2332,7 @@
     "version": 1
   },
   {
-    "annotation": "muka robot",
+    "annotation": "robot",
     "name": "ROBOT FACE",
     "hexcode": "1F916",
     "shortcodes": [
@@ -2336,8 +2340,7 @@
     ],
     "tags": [
       "muka",
-      "raksasa",
-      "robot"
+      "raksasa"
     ],
     "emoji": "🤖",
     "text": "",
@@ -2348,7 +2351,7 @@
     "version": 1
   },
   {
-    "annotation": "muka kucing tersengih",
+    "annotation": "kucing tersengih",
     "name": "SMILING CAT FACE WITH OPEN MOUTH",
     "hexcode": "1F63A",
     "shortcodes": [
@@ -2356,10 +2359,11 @@
     ],
     "tags": [
       "kucing",
-      "lebar",
       "muka",
       "mulut",
-      "senyum"
+      "senyuman",
+      "terbuka",
+      "tersengih"
     ],
     "emoji": "😺",
     "text": "",
@@ -2370,7 +2374,7 @@
     "version": 1
   },
   {
-    "annotation": "muka kucing tersengih dengan mata tersenyum",
+    "annotation": "kucing tersengih dengan mata tersenyum",
     "name": "GRINNING CAT FACE WITH SMILING EYES",
     "hexcode": "1F638",
     "shortcodes": [
@@ -2380,8 +2384,8 @@
       "kucing",
       "mata",
       "muka",
-      "sengih",
-      "senyuman"
+      "senyuman",
+      "tersengih"
     ],
     "emoji": "😸",
     "text": "",
@@ -2392,7 +2396,7 @@
     "version": 1
   },
   {
-    "annotation": "muka kucing dengan air mata kegembiraan",
+    "annotation": "kucing dengan air mata kegembiraan",
     "name": "CAT FACE WITH TEARS OF JOY",
     "hexcode": "1F639",
     "shortcodes": [
@@ -2400,7 +2404,7 @@
     ],
     "tags": [
       "air mata",
-      "gembira",
+      "kegembiraan",
       "kucing",
       "muka"
     ],
@@ -2413,19 +2417,19 @@
     "version": 1
   },
   {
-    "annotation": "muka kucing tersenyum dengan mata berbentuk hati",
+    "annotation": "kucing tersenyum dengan mata berbentuk hati",
     "name": "SMILING CAT FACE WITH HEART-SHAPED EYES",
     "hexcode": "1F63B",
     "shortcodes": [
       "lovestruck_cat"
     ],
     "tags": [
+      "cinta",
       "hati",
       "kucing",
       "mata",
       "muka",
-      "senyum",
-      "suka"
+      "senyuman"
     ],
     "emoji": "😻",
     "text": "",
@@ -2445,9 +2449,8 @@
     "tags": [
       "ironis",
       "kucing",
-      "mencong",
       "muka",
-      "senyuman"
+      "sinis"
     ],
     "emoji": "😼",
     "text": "",
@@ -2458,7 +2461,7 @@
     "version": 1
   },
   {
-    "annotation": "muka kucing memberi ciuman dengan mata tertutup",
+    "annotation": "kucing melemparkan ciuman",
     "name": "KISSING CAT FACE WITH CLOSED EYES",
     "hexcode": "1F63D",
     "shortcodes": [
@@ -2811,12 +2814,11 @@
     "version": 1
   },
   {
-    "annotation": "tanda seru berat hati",
+    "annotation": "tanda seru hati",
     "name": "HEAVY HEART EXCLAMATION MARK ORNAMENT",
     "hexcode": "2763-FE0F",
     "shortcodes": [],
     "tags": [
-      "hati",
       "tanda",
       "tanda baca",
       "tanda seru"
@@ -2830,14 +2832,13 @@
     "version": 12
   },
   {
-    "annotation": "tanda seru berat hati",
+    "annotation": "tanda seru hati",
     "name": "HEAVY HEART EXCLAMATION MARK ORNAMENT",
     "hexcode": "2763",
     "shortcodes": [
       "heart_exclamation"
     ],
     "tags": [
-      "hati",
       "tanda",
       "tanda baca",
       "tanda seru"
@@ -3000,11 +3001,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "hati perang",
     "name": "BROWN HEART",
     "hexcode": "1F90E",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "hati",
+      "perang"
+    ],
     "emoji": "🤎",
     "text": "",
     "type": 1,
@@ -3034,11 +3038,14 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "hati putih",
     "name": "WHITE HEART",
     "hexcode": "1F90D",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "hati",
+      "putih"
+    ],
     "emoji": "🤍",
     "text": "",
     "type": 1,
@@ -4010,11 +4017,13 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "tangan mencubit",
     "name": "PINCHING HAND",
     "hexcode": "1F90F",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "sedikit"
+    ],
     "emoji": "🤏",
     "text": "",
     "type": 1,
@@ -4024,7 +4033,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "tangan mencubit: ton kulit cerah",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F90F-1F3FB",
         "shortcodes": [],
@@ -4038,7 +4047,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "tangan mencubit: ton kulit sederhana cerah",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F90F-1F3FC",
         "shortcodes": [],
@@ -4052,7 +4061,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "tangan mencubit: ton kulit sederhana",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F90F-1F3FD",
         "shortcodes": [],
@@ -4066,7 +4075,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "tangan mencubit: ton kulit sederhana gelap",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F90F-1F3FE",
         "shortcodes": [],
@@ -4080,7 +4089,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "tangan mencubit: ton kulit gelap",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F90F-1F3FF",
         "shortcodes": [],
@@ -6881,11 +6890,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "lengan mekanikal",
     "name": "MECHANICAL ARM",
     "hexcode": "1F9BE",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "kebolehsampaian",
+      "prostetik"
+    ],
     "emoji": "🦾",
     "text": "",
     "type": 1,
@@ -6895,11 +6907,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "kaki mekanikal",
     "name": "MECHANICAL LEG",
     "hexcode": "1F9BF",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "kebolehsampaian",
+      "prostetik"
+    ],
     "emoji": "🦿",
     "text": "",
     "type": 1,
@@ -7211,11 +7226,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "telinga dengan alat bantu dengar",
     "name": "EAR WITH HEARING AID",
     "hexcode": "1F9BB",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "kebolehsampaian",
+      "kesukaran mendengar"
+    ],
     "emoji": "🦻",
     "text": "",
     "type": 1,
@@ -7225,7 +7243,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "telinga dengan alat bantu dengar: ton kulit cerah",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9BB-1F3FB",
         "shortcodes": [],
@@ -7239,7 +7257,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "telinga dengan alat bantu dengar: ton kulit sederhana cerah",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9BB-1F3FC",
         "shortcodes": [],
@@ -7253,7 +7271,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "telinga dengan alat bantu dengar: ton kulit sederhana",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9BB-1F3FD",
         "shortcodes": [],
@@ -7267,7 +7285,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "telinga dengan alat bantu dengar: ton kulit sederhana gelap",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9BB-1F3FE",
         "shortcodes": [],
@@ -7281,7 +7299,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "telinga dengan alat bantu dengar: ton kulit gelap",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9BB-1F3FF",
         "shortcodes": [],
@@ -8044,14 +8062,16 @@
     ]
   },
   {
-    "annotation": "orang berambut perang",
+    "annotation": "orang: rambut perang",
     "name": "PERSON WITH BLOND HAIR",
     "hexcode": "1F471",
     "shortcodes": [
       "blond_person"
     ],
     "tags": [
-      "rambut perang"
+      "orang berambut perang",
+      "perang",
+      "rambut"
     ],
     "emoji": "👱",
     "text": "",
@@ -8062,7 +8082,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "orang berambut perang: ton kulit cerah",
+        "annotation": "orang: ton kulit cerah dan rambut perang",
         "name": "PERSON WITH BLOND HAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F471-1F3FB",
         "shortcodes": [
@@ -8078,7 +8098,7 @@
         "tone": 1
       },
       {
-        "annotation": "orang berambut perang: ton kulit sederhana cerah",
+        "annotation": "orang: ton kulit sederhana cerah dan rambut perang",
         "name": "PERSON WITH BLOND HAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F471-1F3FC",
         "shortcodes": [
@@ -8094,7 +8114,7 @@
         "tone": 2
       },
       {
-        "annotation": "orang berambut perang: ton kulit sederhana",
+        "annotation": "orang: ton kulit sederhana dan rambut perang",
         "name": "PERSON WITH BLOND HAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F471-1F3FD",
         "shortcodes": [
@@ -8110,7 +8130,7 @@
         "tone": 3
       },
       {
-        "annotation": "orang berambut perang: ton kulit sederhana gelap",
+        "annotation": "orang: ton kulit sederhana gelap dan rambut perang",
         "name": "PERSON WITH BLOND HAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F471-1F3FE",
         "shortcodes": [
@@ -8126,7 +8146,7 @@
         "tone": 4
       },
       {
-        "annotation": "orang berambut perang: ton kulit gelap",
+        "annotation": "orang: ton kulit gelap dan rambut perang",
         "name": "PERSON WITH BLOND HAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F471-1F3FF",
         "shortcodes": [
@@ -8244,14 +8264,16 @@
     ]
   },
   {
-    "annotation": "orang berjanggut",
+    "annotation": "orang: berjanggut",
     "name": "BEARDED PERSON",
     "hexcode": "1F9D4",
     "shortcodes": [
       "bearded_person"
     ],
     "tags": [
-      "janggut"
+      "janggut",
+      "lelaki",
+      "orang"
     ],
     "emoji": "🧔",
     "text": "",
@@ -8262,7 +8284,7 @@
     "version": 5,
     "skins": [
       {
-        "annotation": "orang berjanggut: ton kulit cerah",
+        "annotation": "orang: ton kulit cerah dan berjanggut",
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9D4-1F3FB",
         "shortcodes": [
@@ -8278,7 +8300,7 @@
         "tone": 1
       },
       {
-        "annotation": "orang berjanggut: ton kulit sederhana cerah",
+        "annotation": "orang: ton kulit sederhana cerah dan berjanggut",
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9D4-1F3FC",
         "shortcodes": [
@@ -8294,7 +8316,7 @@
         "tone": 2
       },
       {
-        "annotation": "orang berjanggut: ton kulit sederhana",
+        "annotation": "orang: ton kulit sederhana dan berjanggut",
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9D4-1F3FD",
         "shortcodes": [
@@ -8310,7 +8332,7 @@
         "tone": 3
       },
       {
-        "annotation": "orang berjanggut: ton kulit sederhana gelap",
+        "annotation": "orang: ton kulit sederhana gelap dan berjanggut",
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9D4-1F3FE",
         "shortcodes": [
@@ -8326,7 +8348,7 @@
         "tone": 4
       },
       {
-        "annotation": "orang berjanggut: ton kulit gelap",
+        "annotation": "orang: ton kulit gelap dan berjanggut",
         "name": "BEARDED PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9D4-1F3FF",
         "shortcodes": [
@@ -8344,7 +8366,7 @@
     ]
   },
   {
-    "annotation": "lelaki berambut perang muda",
+    "annotation": "lelaki: berambut perang muda",
     "name": "PERSON WITH BLOND HAIR, MALE SIGN",
     "hexcode": "1F471-200D-2642-FE0F",
     "shortcodes": [
@@ -8352,7 +8374,9 @@
     ],
     "tags": [
       "lelaki",
-      "rambut perang muda"
+      "lelaki berambut perang muda",
+      "perang muda",
+      "rambut"
     ],
     "emoji": "👱‍♂️",
     "text": "",
@@ -8364,7 +8388,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "lelaki berambut perang muda: ton kulit cerah",
+        "annotation": "lelaki: ton kulit cerah dan berambut perang muda",
         "name": "PERSON WITH BLOND HAIR, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F471-1F3FB-200D-2642-FE0F",
         "shortcodes": [
@@ -8381,7 +8405,7 @@
         "tone": 1
       },
       {
-        "annotation": "lelaki berambut perang muda: ton kulit sederhana cerah",
+        "annotation": "lelaki: ton kulit sederhana cerah dan berambut perang muda",
         "name": "PERSON WITH BLOND HAIR, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F471-1F3FC-200D-2642-FE0F",
         "shortcodes": [
@@ -8398,7 +8422,7 @@
         "tone": 2
       },
       {
-        "annotation": "lelaki berambut perang muda: ton kulit sederhana",
+        "annotation": "lelaki: ton kulit sederhana dan berambut perang muda",
         "name": "PERSON WITH BLOND HAIR, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F471-1F3FD-200D-2642-FE0F",
         "shortcodes": [
@@ -8415,7 +8439,7 @@
         "tone": 3
       },
       {
-        "annotation": "lelaki berambut perang muda: ton kulit sederhana gelap",
+        "annotation": "lelaki: ton kulit sederhana gelap dan berambut perang muda",
         "name": "PERSON WITH BLOND HAIR, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F471-1F3FE-200D-2642-FE0F",
         "shortcodes": [
@@ -8432,7 +8456,7 @@
         "tone": 4
       },
       {
-        "annotation": "lelaki berambut perang muda: ton kulit gelap",
+        "annotation": "lelaki: ton kulit gelap dan berambut perang muda",
         "name": "PERSON WITH BLOND HAIR, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F471-1F3FF-200D-2642-FE0F",
         "shortcodes": [
@@ -8955,16 +8979,16 @@
     ]
   },
   {
-    "annotation": "perempuan berambut perang muda",
+    "annotation": "perempuan: rambut perang",
     "name": "PERSON WITH BLOND HAIR, FEMALE SIGN",
     "hexcode": "1F471-200D-2640-FE0F",
     "shortcodes": [
       "blond_woman"
     ],
     "tags": [
-      "perempuan",
-      "rambut perang muda",
-      "wanita"
+      "perang",
+      "wanita",
+      "wanita rambut perang"
     ],
     "emoji": "👱‍♀️",
     "text": "",
@@ -8976,7 +9000,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "perempuan berambut perang muda: ton kulit cerah",
+        "annotation": "perempuan: ton kulit cerah dan rambut perang",
         "name": "PERSON WITH BLOND HAIR, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F471-1F3FB-200D-2640-FE0F",
         "shortcodes": [
@@ -8993,7 +9017,7 @@
         "tone": 1
       },
       {
-        "annotation": "perempuan berambut perang muda: ton kulit sederhana cerah",
+        "annotation": "perempuan: ton kulit sederhana cerah dan rambut perang",
         "name": "PERSON WITH BLOND HAIR, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F471-1F3FC-200D-2640-FE0F",
         "shortcodes": [
@@ -9010,7 +9034,7 @@
         "tone": 2
       },
       {
-        "annotation": "perempuan berambut perang muda: ton kulit sederhana",
+        "annotation": "perempuan: ton kulit sederhana dan rambut perang",
         "name": "PERSON WITH BLOND HAIR, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F471-1F3FD-200D-2640-FE0F",
         "shortcodes": [
@@ -9027,7 +9051,7 @@
         "tone": 3
       },
       {
-        "annotation": "perempuan berambut perang muda: ton kulit sederhana gelap",
+        "annotation": "perempuan: ton kulit sederhana gelap dan rambut perang",
         "name": "PERSON WITH BLOND HAIR, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F471-1F3FE-200D-2640-FE0F",
         "shortcodes": [
@@ -9044,7 +9068,7 @@
         "tone": 4
       },
       {
-        "annotation": "perempuan berambut perang muda: ton kulit gelap",
+        "annotation": "perempuan: ton kulit gelap dan rambut perang",
         "name": "PERSON WITH BLOND HAIR, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F471-1F3FF-200D-2640-FE0F",
         "shortcodes": [
@@ -11694,11 +11718,16 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "orang pekak",
     "name": "DEAF PERSON",
     "hexcode": "1F9CF",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "dengar",
+      "kebolehsampaian",
+      "pekak",
+      "telinga"
+    ],
     "emoji": "🧏",
     "text": "",
     "type": 1,
@@ -11708,7 +11737,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "orang pekak: ton kulit cerah",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CF-1F3FB",
         "shortcodes": [],
@@ -11722,7 +11751,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "orang pekak: ton kulit sederhana cerah",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CF-1F3FC",
         "shortcodes": [],
@@ -11736,7 +11765,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "orang pekak: ton kulit sederhana",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CF-1F3FD",
         "shortcodes": [],
@@ -11750,7 +11779,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "orang pekak: ton kulit sederhana gelap",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CF-1F3FE",
         "shortcodes": [],
@@ -11764,7 +11793,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "orang pekak: ton kulit gelap",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CF-1F3FF",
         "shortcodes": [],
@@ -11780,12 +11809,13 @@
     ]
   },
   {
-    "annotation": "lelaki",
+    "annotation": "lelaki pekak",
     "name": "DEAF PERSON, MALE SIGN",
     "hexcode": "1F9CF-200D-2642-FE0F",
     "shortcodes": [],
     "tags": [
-      "simbol lelaki"
+      "lelaki",
+      "pekak"
     ],
     "emoji": "🧏‍♂️",
     "text": "",
@@ -11797,7 +11827,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "lelaki: ton kulit cerah",
+        "annotation": "lelaki pekak: ton kulit cerah",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CF-1F3FB-200D-2642-FE0F",
         "shortcodes": [],
@@ -11812,7 +11842,7 @@
         "tone": 1
       },
       {
-        "annotation": "lelaki: ton kulit sederhana cerah",
+        "annotation": "lelaki pekak: ton kulit sederhana cerah",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CF-1F3FC-200D-2642-FE0F",
         "shortcodes": [],
@@ -11827,7 +11857,7 @@
         "tone": 2
       },
       {
-        "annotation": "lelaki: ton kulit sederhana",
+        "annotation": "lelaki pekak: ton kulit sederhana",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CF-1F3FD-200D-2642-FE0F",
         "shortcodes": [],
@@ -11842,7 +11872,7 @@
         "tone": 3
       },
       {
-        "annotation": "lelaki: ton kulit sederhana gelap",
+        "annotation": "lelaki pekak: ton kulit sederhana gelap",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CF-1F3FE-200D-2642-FE0F",
         "shortcodes": [],
@@ -11857,7 +11887,7 @@
         "tone": 4
       },
       {
-        "annotation": "lelaki: ton kulit gelap",
+        "annotation": "lelaki pekak: ton kulit gelap",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CF-1F3FF-200D-2642-FE0F",
         "shortcodes": [],
@@ -11874,12 +11904,12 @@
     ]
   },
   {
-    "annotation": "perempuan",
+    "annotation": "perempuan pekak",
     "name": "DEAF PERSON, FEMALE SIGN",
     "hexcode": "1F9CF-200D-2640-FE0F",
     "shortcodes": [],
     "tags": [
-      "simbol perempuan",
+      "pekak",
       "wanita"
     ],
     "emoji": "🧏‍♀️",
@@ -11892,7 +11922,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "perempuan: ton kulit cerah",
+        "annotation": "perempuan pekak: ton kulit cerah",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CF-1F3FB-200D-2640-FE0F",
         "shortcodes": [],
@@ -11907,7 +11937,7 @@
         "tone": 1
       },
       {
-        "annotation": "perempuan: ton kulit sederhana cerah",
+        "annotation": "perempuan pekak: ton kulit sederhana cerah",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CF-1F3FC-200D-2640-FE0F",
         "shortcodes": [],
@@ -11922,7 +11952,7 @@
         "tone": 2
       },
       {
-        "annotation": "perempuan: ton kulit sederhana",
+        "annotation": "perempuan pekak: ton kulit sederhana",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CF-1F3FD-200D-2640-FE0F",
         "shortcodes": [],
@@ -11937,7 +11967,7 @@
         "tone": 3
       },
       {
-        "annotation": "perempuan: ton kulit sederhana gelap",
+        "annotation": "perempuan pekak: ton kulit sederhana gelap",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CF-1F3FE-200D-2640-FE0F",
         "shortcodes": [],
@@ -11952,7 +11982,7 @@
         "tone": 4
       },
       {
-        "annotation": "perempuan: ton kulit gelap",
+        "annotation": "perempuan pekak: ton kulit gelap",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CF-1F3FF-200D-2640-FE0F",
         "shortcodes": [],
@@ -22273,11 +22303,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "orang berdiri",
     "name": "STANDING PERSON",
     "hexcode": "1F9CD",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bangun",
+      "berdiri"
+    ],
     "emoji": "🧍",
     "text": "",
     "type": 1,
@@ -22287,7 +22320,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "orang berdiri: ton kulit cerah",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CD-1F3FB",
         "shortcodes": [],
@@ -22301,7 +22334,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "orang berdiri: ton kulit sederhana cerah",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CD-1F3FC",
         "shortcodes": [],
@@ -22315,7 +22348,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "orang berdiri: ton kulit sederhana",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CD-1F3FD",
         "shortcodes": [],
@@ -22329,7 +22362,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "orang berdiri: ton kulit sederhana gelap",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CD-1F3FE",
         "shortcodes": [],
@@ -22343,7 +22376,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "orang berdiri: ton kulit gelap",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CD-1F3FF",
         "shortcodes": [],
@@ -22359,12 +22392,13 @@
     ]
   },
   {
-    "annotation": "lelaki",
+    "annotation": "lelaki berdiri",
     "name": "STANDING PERSON, MALE SIGN",
     "hexcode": "1F9CD-200D-2642-FE0F",
     "shortcodes": [],
     "tags": [
-      "simbol lelaki"
+      "berdiri",
+      "lelaki"
     ],
     "emoji": "🧍‍♂️",
     "text": "",
@@ -22376,7 +22410,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "lelaki: ton kulit cerah",
+        "annotation": "lelaki berdiri: ton kulit cerah",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CD-1F3FB-200D-2642-FE0F",
         "shortcodes": [],
@@ -22391,7 +22425,7 @@
         "tone": 1
       },
       {
-        "annotation": "lelaki: ton kulit sederhana cerah",
+        "annotation": "lelaki berdiri: ton kulit sederhana cerah",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CD-1F3FC-200D-2642-FE0F",
         "shortcodes": [],
@@ -22406,7 +22440,7 @@
         "tone": 2
       },
       {
-        "annotation": "lelaki: ton kulit sederhana",
+        "annotation": "lelaki berdiri: ton kulit sederhana",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CD-1F3FD-200D-2642-FE0F",
         "shortcodes": [],
@@ -22421,7 +22455,7 @@
         "tone": 3
       },
       {
-        "annotation": "lelaki: ton kulit sederhana gelap",
+        "annotation": "lelaki berdiri: ton kulit sederhana gelap",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CD-1F3FE-200D-2642-FE0F",
         "shortcodes": [],
@@ -22436,7 +22470,7 @@
         "tone": 4
       },
       {
-        "annotation": "lelaki: ton kulit gelap",
+        "annotation": "lelaki berdiri: ton kulit gelap",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CD-1F3FF-200D-2642-FE0F",
         "shortcodes": [],
@@ -22453,13 +22487,13 @@
     ]
   },
   {
-    "annotation": "perempuan",
+    "annotation": "perempuan berdiri",
     "name": "STANDING PERSON, FEMALE SIGN",
     "hexcode": "1F9CD-200D-2640-FE0F",
     "shortcodes": [],
     "tags": [
-      "simbol perempuan",
-      "wanita"
+      "berdiri",
+      "perempuan"
     ],
     "emoji": "🧍‍♀️",
     "text": "",
@@ -22471,7 +22505,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "perempuan: ton kulit cerah",
+        "annotation": "perempuan berdiri: ton kulit cerah",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CD-1F3FB-200D-2640-FE0F",
         "shortcodes": [],
@@ -22486,7 +22520,7 @@
         "tone": 1
       },
       {
-        "annotation": "perempuan: ton kulit sederhana cerah",
+        "annotation": "perempuan berdiri: ton kulit sederhana cerah",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CD-1F3FC-200D-2640-FE0F",
         "shortcodes": [],
@@ -22501,7 +22535,7 @@
         "tone": 2
       },
       {
-        "annotation": "perempuan: ton kulit sederhana",
+        "annotation": "perempuan berdiri: ton kulit sederhana",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CD-1F3FD-200D-2640-FE0F",
         "shortcodes": [],
@@ -22516,7 +22550,7 @@
         "tone": 3
       },
       {
-        "annotation": "perempuan: ton kulit sederhana gelap",
+        "annotation": "perempuan berdiri: ton kulit sederhana gelap",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CD-1F3FE-200D-2640-FE0F",
         "shortcodes": [],
@@ -22531,7 +22565,7 @@
         "tone": 4
       },
       {
-        "annotation": "perempuan: ton kulit gelap",
+        "annotation": "perempuan berdiri: ton kulit gelap",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CD-1F3FF-200D-2640-FE0F",
         "shortcodes": [],
@@ -22548,11 +22582,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "orang bersimpuh",
     "name": "KNEELING PERSON",
     "hexcode": "1F9CE",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bersimpuh",
+      "melutut"
+    ],
     "emoji": "🧎",
     "text": "",
     "type": 1,
@@ -22562,7 +22599,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "orang bersimpuh: ton kulit cerah",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CE-1F3FB",
         "shortcodes": [],
@@ -22576,7 +22613,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "orang bersimpuh: ton kulit sederhana cerah",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CE-1F3FC",
         "shortcodes": [],
@@ -22590,7 +22627,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "orang bersimpuh: ton kulit sederhana",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CE-1F3FD",
         "shortcodes": [],
@@ -22604,7 +22641,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "orang bersimpuh: ton kulit sederhana gelap",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CE-1F3FE",
         "shortcodes": [],
@@ -22618,7 +22655,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "orang bersimpuh: ton kulit gelap",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CE-1F3FF",
         "shortcodes": [],
@@ -22634,12 +22671,13 @@
     ]
   },
   {
-    "annotation": "lelaki",
+    "annotation": "lelaki bersimpuh",
     "name": "KNEELING PERSON, MALE SIGN",
     "hexcode": "1F9CE-200D-2642-FE0F",
     "shortcodes": [],
     "tags": [
-      "simbol lelaki"
+      "bersimpuh",
+      "lelaki"
     ],
     "emoji": "🧎‍♂️",
     "text": "",
@@ -22651,7 +22689,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "lelaki: ton kulit cerah",
+        "annotation": "lelaki bersimpuh: ton kulit cerah",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CE-1F3FB-200D-2642-FE0F",
         "shortcodes": [],
@@ -22666,7 +22704,7 @@
         "tone": 1
       },
       {
-        "annotation": "lelaki: ton kulit sederhana cerah",
+        "annotation": "lelaki bersimpuh: ton kulit sederhana cerah",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CE-1F3FC-200D-2642-FE0F",
         "shortcodes": [],
@@ -22681,7 +22719,7 @@
         "tone": 2
       },
       {
-        "annotation": "lelaki: ton kulit sederhana",
+        "annotation": "lelaki bersimpuh: ton kulit sederhana",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CE-1F3FD-200D-2642-FE0F",
         "shortcodes": [],
@@ -22696,7 +22734,7 @@
         "tone": 3
       },
       {
-        "annotation": "lelaki: ton kulit sederhana gelap",
+        "annotation": "lelaki bersimpuh: ton kulit sederhana gelap",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CE-1F3FE-200D-2642-FE0F",
         "shortcodes": [],
@@ -22711,7 +22749,7 @@
         "tone": 4
       },
       {
-        "annotation": "lelaki: ton kulit gelap",
+        "annotation": "lelaki bersimpuh: ton kulit gelap",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CE-1F3FF-200D-2642-FE0F",
         "shortcodes": [],
@@ -22728,13 +22766,13 @@
     ]
   },
   {
-    "annotation": "perempuan",
+    "annotation": "perempuan bersimpuh",
     "name": "KNEELING PERSON, FEMALE SIGN",
     "hexcode": "1F9CE-200D-2640-FE0F",
     "shortcodes": [],
     "tags": [
-      "simbol perempuan",
-      "wanita"
+      "bersimpuh",
+      "perempuan"
     ],
     "emoji": "🧎‍♀️",
     "text": "",
@@ -22746,7 +22784,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "perempuan: ton kulit cerah",
+        "annotation": "perempuan bersimpuh: ton kulit cerah",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CE-1F3FB-200D-2640-FE0F",
         "shortcodes": [],
@@ -22761,7 +22799,7 @@
         "tone": 1
       },
       {
-        "annotation": "perempuan: ton kulit sederhana cerah",
+        "annotation": "perempuan bersimpuh: ton kulit sederhana cerah",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CE-1F3FC-200D-2640-FE0F",
         "shortcodes": [],
@@ -22776,7 +22814,7 @@
         "tone": 2
       },
       {
-        "annotation": "perempuan: ton kulit sederhana",
+        "annotation": "perempuan bersimpuh: ton kulit sederhana",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CE-1F3FD-200D-2640-FE0F",
         "shortcodes": [],
@@ -22791,7 +22829,7 @@
         "tone": 3
       },
       {
-        "annotation": "perempuan: ton kulit sederhana gelap",
+        "annotation": "perempuan bersimpuh: ton kulit sederhana gelap",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CE-1F3FE-200D-2640-FE0F",
         "shortcodes": [],
@@ -22806,7 +22844,7 @@
         "tone": 4
       },
       {
-        "annotation": "perempuan: ton kulit gelap",
+        "annotation": "perempuan bersimpuh: ton kulit gelap",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CE-1F3FF-200D-2640-FE0F",
         "shortcodes": [],
@@ -22823,11 +22861,13 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "lelaki dengan tongkat penduga",
     "name": "MAN, PROBING CANE",
     "hexcode": "1F468-200D-1F9AF",
     "shortcodes": [],
     "tags": [
+      "buta",
+      "kebolehsampaian",
       "lelaki"
     ],
     "emoji": "👨‍🦯",
@@ -22839,7 +22879,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "lelaki dengan tongkat penduga: ton kulit cerah",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F468-1F3FB-200D-1F9AF",
         "shortcodes": [],
@@ -22853,7 +22893,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "lelaki dengan tongkat penduga: ton kulit sederhana cerah",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F468-1F3FC-200D-1F9AF",
         "shortcodes": [],
@@ -22867,7 +22907,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "lelaki dengan tongkat penduga: ton kulit sederhana",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F468-1F3FD-200D-1F9AF",
         "shortcodes": [],
@@ -22881,7 +22921,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "lelaki dengan tongkat penduga: ton kulit sederhana gelap",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F468-1F3FE-200D-1F9AF",
         "shortcodes": [],
@@ -22895,7 +22935,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "lelaki dengan tongkat penduga: ton kulit gelap",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F468-1F3FF-200D-1F9AF",
         "shortcodes": [],
@@ -22911,13 +22951,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "perempuan dengan tongkat penduga",
     "name": "WOMAN, PROBING CANE",
     "hexcode": "1F469-200D-1F9AF",
     "shortcodes": [],
     "tags": [
-      "perempuan",
-      "wanita"
+      "buta",
+      "kebolehsampaian",
+      "perempuan"
     ],
     "emoji": "👩‍🦯",
     "text": "",
@@ -22928,7 +22969,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "perempuan dengan tongkat penduga: ton kulit cerah",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F469-1F3FB-200D-1F9AF",
         "shortcodes": [],
@@ -22942,7 +22983,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "perempuan dengan tongkat penduga: ton kulit sederhana cerah",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F469-1F3FC-200D-1F9AF",
         "shortcodes": [],
@@ -22956,7 +22997,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "perempuan dengan tongkat penduga: ton kulit sederhana",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F469-1F3FD-200D-1F9AF",
         "shortcodes": [],
@@ -22970,7 +23011,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "perempuan dengan tongkat penduga: ton kulit sederhana gelap",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F469-1F3FE-200D-1F9AF",
         "shortcodes": [],
@@ -22984,7 +23025,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "perempuan dengan tongkat penduga: ton kulit gelap",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F469-1F3FF-200D-1F9AF",
         "shortcodes": [],
@@ -23000,11 +23041,13 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "lelaki dalam kerusi roda bermotor",
     "name": "MAN, MOTORIZED WHEELCHAIR",
     "hexcode": "1F468-200D-1F9BC",
     "shortcodes": [],
     "tags": [
+      "kebolehsampaian",
+      "kerusi roda",
       "lelaki"
     ],
     "emoji": "👨‍🦼",
@@ -23016,7 +23059,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "lelaki dalam kerusi roda bermotor: ton kulit cerah",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F468-1F3FB-200D-1F9BC",
         "shortcodes": [],
@@ -23030,7 +23073,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "lelaki dalam kerusi roda bermotor: ton kulit sederhana cerah",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F468-1F3FC-200D-1F9BC",
         "shortcodes": [],
@@ -23044,7 +23087,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "lelaki dalam kerusi roda bermotor: ton kulit sederhana",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F468-1F3FD-200D-1F9BC",
         "shortcodes": [],
@@ -23058,7 +23101,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "lelaki dalam kerusi roda bermotor: ton kulit sederhana gelap",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F468-1F3FE-200D-1F9BC",
         "shortcodes": [],
@@ -23072,7 +23115,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "lelaki dalam kerusi roda bermotor: ton kulit gelap",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F468-1F3FF-200D-1F9BC",
         "shortcodes": [],
@@ -23088,13 +23131,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "perempuan dalam kerusi roda bermotor",
     "name": "WOMAN, MOTORIZED WHEELCHAIR",
     "hexcode": "1F469-200D-1F9BC",
     "shortcodes": [],
     "tags": [
-      "perempuan",
-      "wanita"
+      "kebolehsampaian",
+      "kerusi roda",
+      "perempuan"
     ],
     "emoji": "👩‍🦼",
     "text": "",
@@ -23105,7 +23149,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "perempuan dalam kerusi roda bermotor: ton kulit cerah",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F469-1F3FB-200D-1F9BC",
         "shortcodes": [],
@@ -23119,7 +23163,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "perempuan dalam kerusi roda bermotor: ton kulit sederhana cerah",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F469-1F3FC-200D-1F9BC",
         "shortcodes": [],
@@ -23133,7 +23177,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "perempuan dalam kerusi roda bermotor: ton kulit sederhana",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F469-1F3FD-200D-1F9BC",
         "shortcodes": [],
@@ -23147,7 +23191,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "perempuan dalam kerusi roda bermotor: ton kulit sederhana gelap",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F469-1F3FE-200D-1F9BC",
         "shortcodes": [],
@@ -23161,7 +23205,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "perempuan dalam kerusi roda bermotor: ton kulit gelap",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F469-1F3FF-200D-1F9BC",
         "shortcodes": [],
@@ -23177,11 +23221,13 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "lelaki dalam kerusi roda manual",
     "name": "MAN, MANUAL WHEELCHAIR",
     "hexcode": "1F468-200D-1F9BD",
     "shortcodes": [],
     "tags": [
+      "kebolehsampaian",
+      "kerusi roda",
       "lelaki"
     ],
     "emoji": "👨‍🦽",
@@ -23193,7 +23239,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "lelaki dalam kerusi roda manual: ton kulit cerah",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F468-1F3FB-200D-1F9BD",
         "shortcodes": [],
@@ -23207,7 +23253,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "lelaki dalam kerusi roda manual: ton kulit sederhana cerah",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F468-1F3FC-200D-1F9BD",
         "shortcodes": [],
@@ -23221,7 +23267,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "lelaki dalam kerusi roda manual: ton kulit sederhana",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F468-1F3FD-200D-1F9BD",
         "shortcodes": [],
@@ -23235,7 +23281,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "lelaki dalam kerusi roda manual: ton kulit sederhana gelap",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F468-1F3FE-200D-1F9BD",
         "shortcodes": [],
@@ -23249,7 +23295,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "lelaki dalam kerusi roda manual: ton kulit gelap",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F468-1F3FF-200D-1F9BD",
         "shortcodes": [],
@@ -23265,13 +23311,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "perempuan dalam kereta roda manual",
     "name": "WOMAN, MANUAL WHEELCHAIR",
     "hexcode": "1F469-200D-1F9BD",
     "shortcodes": [],
     "tags": [
-      "perempuan",
-      "wanita"
+      "kebolehsampaian",
+      "kerusi roda",
+      "perempuan"
     ],
     "emoji": "👩‍🦽",
     "text": "",
@@ -23282,7 +23329,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "perempuan dalam kereta roda manual: ton kulit cerah",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F469-1F3FB-200D-1F9BD",
         "shortcodes": [],
@@ -23296,7 +23343,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "perempuan dalam kereta roda manual: ton kulit sederhana cerah",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F469-1F3FC-200D-1F9BD",
         "shortcodes": [],
@@ -23310,7 +23357,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "perempuan dalam kereta roda manual: ton kulit sederhana",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F469-1F3FD-200D-1F9BD",
         "shortcodes": [],
@@ -23324,7 +23371,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "perempuan dalam kereta roda manual: ton kulit sederhana gelap",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F469-1F3FE-200D-1F9BD",
         "shortcodes": [],
@@ -23338,7 +23385,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "perempuan dalam kereta roda manual: ton kulit gelap",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F469-1F3FF-200D-1F9BD",
         "shortcodes": [],
@@ -29405,16 +29452,15 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "orang berpegangan tangan",
     "name": "ADULT, HANDSHAKE, ADULT",
     "hexcode": "1F9D1-200D-1F91D-200D-1F9D1",
     "shortcodes": [],
     "tags": [
-      "berjabat tangan",
-      "dewasa",
-      "gender-neutral",
-      "perjumpaan",
-      "persetujuan",
+      "berpegang tangan",
+      "orang",
+      "pasangan",
+      "pegang",
       "tangan"
     ],
     "emoji": "🧑‍🤝‍🧑",
@@ -29426,7 +29472,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "orang berpegangan tangan: ton kulit gelap dan ton kulit cerah",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB",
         "shortcodes": [],
@@ -29440,7 +29486,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "orang berpegangan tangan: ton kulit gelap dan ton kulit sederhana cerah",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC",
         "shortcodes": [],
@@ -29454,7 +29500,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "orang berpegangan tangan: ton kulit gelap dan ton kulit sederhana",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD",
         "shortcodes": [],
@@ -29468,7 +29514,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "orang berpegangan tangan: ton kulit gelap dan ton kulit sederhana gelap",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE",
         "shortcodes": [],
@@ -29482,7 +29528,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "orang berpegangan tangan: ton kulit gelap",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF",
         "shortcodes": [],
@@ -29505,8 +29551,8 @@
       "holding_hands_ww"
     ],
     "tags": [
+      "berpegangan tangan",
       "pasangan",
-      "pegang",
       "tangan",
       "wanita"
     ],
@@ -29519,7 +29565,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "dua wanita berpegangan tangan: ton kulit cerah",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F46D-1F3FB",
         "shortcodes": [
@@ -29535,7 +29581,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "dua wanita berpegangan tangan: ton kulit sederhana cerah",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F46D-1F3FC",
         "shortcodes": [
@@ -29551,7 +29597,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "dua wanita berpegangan tangan: ton kulit sederhana",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F46D-1F3FD",
         "shortcodes": [
@@ -29567,7 +29613,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "dua wanita berpegangan tangan: ton kulit sederhana gelap",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F46D-1F3FE",
         "shortcodes": [
@@ -29583,7 +29629,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "dua wanita berpegangan tangan: ton kulit gelap",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F46D-1F3FF",
         "shortcodes": [
@@ -29609,6 +29655,7 @@
       "holding_hands_wm"
     ],
     "tags": [
+      "berpegangan tangan",
       "lelaki",
       "pasangan",
       "pegang",
@@ -29624,7 +29671,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "lelaki dan wanita berpegangan tangan: ton kulit cerah",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F46B-1F3FB",
         "shortcodes": [
@@ -29641,7 +29688,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "lelaki dan wanita berpegangan tangan: ton kulit sederhana cerah",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F46B-1F3FC",
         "shortcodes": [
@@ -29658,7 +29705,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "lelaki dan wanita berpegangan tangan: ton kulit sederhana",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F46B-1F3FD",
         "shortcodes": [
@@ -29675,7 +29722,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "lelaki dan wanita berpegangan tangan: ton kulit sederhana gelap",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F46B-1F3FE",
         "shortcodes": [
@@ -29692,7 +29739,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "lelaki dan wanita berpegangan tangan: ton kulit gelap",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F46B-1F3FF",
         "shortcodes": [
@@ -29719,11 +29766,11 @@
     ],
     "tags": [
       "gemini",
+      "jejaka",
       "kembar",
       "lelaki",
       "pasangan",
-      "pegang",
-      "tangan",
+      "pegang tangan",
       "zodiak"
     ],
     "emoji": "👬",
@@ -29735,7 +29782,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "dua lelaki berpegangan tangan: ton kulit cerah",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F46C-1F3FB",
         "shortcodes": [
@@ -29751,7 +29798,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "dua lelaki berpegangan tangan: ton kulit sederhana cerah",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F46C-1F3FC",
         "shortcodes": [
@@ -29767,7 +29814,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "dua lelaki berpegangan tangan: ton kulit sederhana",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F46C-1F3FD",
         "shortcodes": [
@@ -29783,7 +29830,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "dua lelaki berpegangan tangan: ton kulit sederhana gelap",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F46C-1F3FE",
         "shortcodes": [
@@ -29799,7 +29846,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "dua lelaki berpegangan tangan: ton kulit gelap",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F46C-1F3FF",
         "shortcodes": [
@@ -30019,7 +30066,6 @@
       "bapa",
       "ibu",
       "kanak-kanak",
-      "kanak-kanak lelaki",
       "keluarga",
       "lelaki",
       "perempuan"
@@ -30068,7 +30114,6 @@
       "budak perempuan",
       "ibu",
       "kanak-kanak",
-      "kanak-kanak lelaki",
       "keluarga",
       "lelaki",
       "perempuan"
@@ -30092,7 +30137,6 @@
       "bapa",
       "ibu",
       "kanak-kanak",
-      "kanak-kanak lelaki",
       "keluarga",
       "lelaki",
       "perempuan"
@@ -30140,7 +30184,6 @@
       "bapa",
       "ibu",
       "kanak-kanak",
-      "kanak-kanak lelaki",
       "keluarga",
       "lelaki"
     ],
@@ -30187,7 +30230,6 @@
       "budak perempuan",
       "ibu",
       "kanak-kanak",
-      "kanak-kanak lelaki",
       "keluarga",
       "lelaki"
     ],
@@ -30210,7 +30252,6 @@
       "bapa",
       "ibu",
       "kanak-kanak",
-      "kanak-kanak lelaki",
       "keluarga",
       "lelaki"
     ],
@@ -30372,7 +30413,6 @@
       "bapa",
       "ibu",
       "kanak-kanak",
-      "kanak-kanak lelaki",
       "keluarga",
       "lelaki"
     ],
@@ -30395,7 +30435,6 @@
       "bapa",
       "ibu",
       "kanak-kanak",
-      "kanak-kanak lelaki",
       "keluarga",
       "lelaki"
     ],
@@ -30442,7 +30481,6 @@
       "budak perempuan",
       "ibu",
       "kanak-kanak",
-      "kanak-kanak lelaki",
       "keluarga",
       "lelaki"
     ],
@@ -30750,11 +30788,13 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "orang utan",
     "name": "ORANGUTAN",
     "hexcode": "1F9A7",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "beruk"
+    ],
     "emoji": "🦧",
     "text": "",
     "type": 1,
@@ -30802,11 +30842,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "anjing pandu",
     "name": "GUIDE DOG",
     "hexcode": "1F9AE",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "buta",
+      "kebolehsampaian",
+      "panduan"
+    ],
     "emoji": "🦮",
     "text": "",
     "type": 1,
@@ -30816,13 +30860,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "anjing khidmat",
     "name": "DOG, SAFETY VEST",
     "hexcode": "1F415-200D-1F9BA",
     "shortcodes": [],
     "tags": [
       "anjing",
-      "haiwan kesayangan"
+      "bantuan",
+      "kebolehsampaian",
+      "khidmat"
     ],
     "emoji": "🐕‍🦺",
     "text": "",
@@ -30851,15 +30897,14 @@
     "version": 1
   },
   {
-    "annotation": "muka serigala",
+    "annotation": "serigala",
     "name": "WOLF FACE",
     "hexcode": "1F43A",
     "shortcodes": [
       "wolf_face"
     ],
     "tags": [
-      "muka",
-      "serigala"
+      "muka"
     ],
     "emoji": "🐺",
     "text": "",
@@ -30870,16 +30915,14 @@
     "version": 1
   },
   {
-    "annotation": "muka rubah",
+    "annotation": "rubah",
     "name": "FOX FACE",
     "hexcode": "1F98A",
     "shortcodes": [
       "fox_face"
     ],
     "tags": [
-      "haiwan",
-      "muka",
-      "rubah"
+      "muka"
     ],
     "emoji": "🦊",
     "text": "",
@@ -30947,7 +30990,7 @@
     "version": 1
   },
   {
-    "annotation": "muka singa",
+    "annotation": "singa",
     "name": "LION FACE",
     "hexcode": "1F981",
     "shortcodes": [
@@ -30956,7 +30999,6 @@
     "tags": [
       "leo",
       "muka",
-      "singa",
       "zodiak"
     ],
     "emoji": "🦁",
@@ -31060,15 +31102,14 @@
     "version": 1
   },
   {
-    "annotation": "muka unikorn",
+    "annotation": "unikorn",
     "name": "UNICORN FACE",
     "hexcode": "1F984",
     "shortcodes": [
       "unicorn_face"
     ],
     "tags": [
-      "muka",
-      "unikorn"
+      "muka"
     ],
     "emoji": "🦄",
     "text": "",
@@ -31510,7 +31551,7 @@
     "version": 1
   },
   {
-    "annotation": "muka hamster",
+    "annotation": "hamster",
     "name": "HAMSTER FACE",
     "hexcode": "1F439",
     "shortcodes": [
@@ -31518,7 +31559,6 @@
     ],
     "tags": [
       "haiwan kesayangan",
-      "hamster",
       "muka"
     ],
     "emoji": "🐹",
@@ -31639,14 +31679,13 @@
     "version": 3
   },
   {
-    "annotation": "muka beruang",
+    "annotation": "beruang",
     "name": "BEAR FACE",
     "hexcode": "1F43B",
     "shortcodes": [
       "bear_face"
     ],
     "tags": [
-      "beruang",
       "muka"
     ],
     "emoji": "🐻",
@@ -31676,15 +31715,14 @@
     "version": 1
   },
   {
-    "annotation": "muka panda",
+    "annotation": "panda",
     "name": "PANDA FACE",
     "hexcode": "1F43C",
     "shortcodes": [
       "panda_face"
     ],
     "tags": [
-      "muka",
-      "panda"
+      "muka"
     ],
     "emoji": "🐼",
     "text": "",
@@ -31695,11 +31733,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "sloth",
     "name": "SLOTH",
     "hexcode": "1F9A5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "malas",
+      "perlahan"
+    ],
     "emoji": "🦥",
     "text": "",
     "type": 1,
@@ -31709,11 +31750,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "memerang",
     "name": "OTTER",
     "hexcode": "1F9A6",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "menangkap ikan",
+      "suka main-main"
+    ],
     "emoji": "🦦",
     "text": "",
     "type": 1,
@@ -31723,11 +31767,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "skunk",
     "name": "SKUNK",
     "hexcode": "1F9A8",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "busuk"
+    ],
     "emoji": "🦨",
     "text": "",
     "type": 1,
@@ -32056,11 +32102,14 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "flamingo",
     "name": "FLAMINGO",
     "hexcode": "1F9A9",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "ranggi",
+      "tropikal"
+    ],
     "emoji": "🦩",
     "text": "",
     "type": 1,
@@ -32111,14 +32160,13 @@
     "version": 11
   },
   {
-    "annotation": "muka katak",
+    "annotation": "katak",
     "name": "FROG FACE",
     "hexcode": "1F438",
     "shortcodes": [
       "frog_face"
     ],
     "tags": [
-      "katak",
       "muka"
     ],
     "emoji": "🐸",
@@ -33670,11 +33718,13 @@
     "version": 5
   },
   {
-    "annotation": "",
+    "annotation": "bawang putih",
     "name": "GARLIC",
     "hexcode": "1F9C4",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "perisa"
+    ],
     "emoji": "🧄",
     "text": "",
     "type": 1,
@@ -33684,11 +33734,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "bawang",
     "name": "ONION",
     "hexcode": "1F9C5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "perisa"
+    ],
     "emoji": "🧅",
     "text": "",
     "type": 1,
@@ -33867,11 +33919,14 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "wafel",
     "name": "WAFFLE",
     "hexcode": "1F9C7",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "besi",
+      "tidak tegas"
+    ],
     "emoji": "🧇",
     "text": "",
     "type": 1,
@@ -34128,11 +34183,14 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "falafel",
     "name": "FALAFEL",
     "hexcode": "1F9C6",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bebola daging",
+      "kacang kuda"
+    ],
     "emoji": "🧆",
     "text": "",
     "type": 1,
@@ -34277,11 +34335,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "mentega",
     "name": "BUTTER",
     "hexcode": "1F9C8",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "tenusu"
+    ],
     "emoji": "🧈",
     "text": "",
     "type": 1,
@@ -34739,11 +34799,14 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "tiram",
     "name": "OYSTER",
     "hexcode": "1F9AA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "menyelam",
+      "mutiara"
+    ],
     "emoji": "🦪",
     "text": "",
     "type": 1,
@@ -35334,11 +35397,13 @@
     "version": 5
   },
   {
-    "annotation": "",
+    "annotation": "minuman air kotak",
     "name": "BEVERAGE BOX",
     "hexcode": "1F9C3",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "jus air kotak"
+    ],
     "emoji": "🧃",
     "text": "",
     "type": 1,
@@ -35348,11 +35413,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "mate",
     "name": "MATE DRINK",
     "hexcode": "1F9C9",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "minuman"
+    ],
     "emoji": "🧉",
     "text": "",
     "type": 1,
@@ -35362,11 +35429,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "kiub ais",
     "name": "ICE CUBE",
     "hexcode": "1F9CA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "aisberg",
+      "sejuk"
+    ],
     "emoji": "🧊",
     "text": "",
     "type": 1,
@@ -36559,11 +36629,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "kuil hindu",
     "name": "HINDU TEMPLE",
     "hexcode": "1F6D5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "hindu",
+      "kuil"
+    ],
     "emoji": "🛕",
     "text": "",
     "type": 1,
@@ -37651,11 +37724,13 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "kerusi roda manual",
     "name": "MANUAL WHEELCHAIR",
     "hexcode": "1F9BD",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "kebolehcapaian"
+    ],
     "emoji": "🦽",
     "text": "",
     "type": 1,
@@ -37665,11 +37740,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "kerosi roda bermotor",
     "name": "MOTORIZED WHEELCHAIR",
     "hexcode": "1F9BC",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "kebolehcapaian"
+    ],
     "emoji": "🦼",
     "text": "",
     "type": 1,
@@ -37679,11 +37756,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "lanca auto",
     "name": "AUTO RICKSHAW",
     "hexcode": "1F6FA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "tuk tuk"
+    ],
     "emoji": "🛺",
     "text": "",
     "type": 1,
@@ -38309,11 +38388,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "paracut",
     "name": "PARACHUTE",
     "hexcode": "1FA82",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "geluncur angin",
+      "parasail",
+      "terjun udara"
+    ],
     "emoji": "🪂",
     "text": "",
     "type": 1,
@@ -39659,11 +39742,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "planet bergelang",
     "name": "RINGED PLANET",
     "hexcode": "1FA90",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "suram",
+      "zuhal"
+    ],
     "emoji": "🪐",
     "text": "",
     "type": 1,
@@ -41616,11 +41702,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "topeng menyelam",
     "name": "DIVING MASK",
     "hexcode": "1F93F",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "menyelam",
+      "skuba",
+      "snorkeling"
+    ],
     "emoji": "🤿",
     "text": "",
     "type": 1,
@@ -41728,11 +41818,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "yo-yo",
     "name": "YO-YO",
     "hexcode": "1FA80",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "mainan",
+      "naik turun"
+    ],
     "emoji": "🪀",
     "text": "",
     "type": 1,
@@ -41742,11 +41835,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "layang-layang",
     "name": "KITE",
     "hexcode": "1FA81",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "melayang",
+      "terbang"
+    ],
     "emoji": "🪁",
     "text": "",
     "type": 1,
@@ -41916,7 +42012,7 @@
     "version": 1
   },
   {
-    "annotation": "suai gambar",
+    "annotation": "kepingan suai gambar",
     "name": "JIGSAW PUZZLE PIECE",
     "hexcode": "1F9E9",
     "shortcodes": [
@@ -41924,10 +42020,11 @@
       "puzzle_piece"
     ],
     "tags": [
-      "bercantum",
+      "cantuman",
       "kepingan",
       "petunjuk",
-      "teka-teki"
+      "suai gambar",
+      "susun"
     ],
     "emoji": "🧩",
     "text": "",
@@ -42454,11 +42551,15 @@
     "version": 11
   },
   {
-    "annotation": "",
+    "annotation": "rompi keselamatan",
     "name": "SAFETY VEST",
     "hexcode": "1F9BA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "kecemasan",
+      "keselamatan",
+      "rompi"
+    ],
     "emoji": "🦺",
     "text": "",
     "type": 1,
@@ -42634,11 +42735,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "sari",
     "name": "SARI",
     "hexcode": "1F97B",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "baju",
+      "pakaian"
+    ],
     "emoji": "🥻",
     "text": "",
     "type": 1,
@@ -42648,11 +42752,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "sut renang terus",
     "name": "ONE-PIECE SWIMSUIT",
     "hexcode": "1FA71",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "sut mandi"
+    ],
     "emoji": "🩱",
     "text": "",
     "type": 1,
@@ -42662,11 +42768,16 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "seluar dalam",
     "name": "BRIEFS",
     "hexcode": "1FA72",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "pakaian dalam",
+      "sut mandi",
+      "sut renang",
+      "terus"
+    ],
     "emoji": "🩲",
     "text": "",
     "type": 1,
@@ -42676,11 +42787,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "seluar pendek",
     "name": "SHORTS",
     "hexcode": "1FA73",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "baju mandi",
+      "pakaian dalam",
+      "seluar"
+    ],
     "emoji": "🩳",
     "text": "",
     "type": 1,
@@ -42971,11 +43086,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "kasut balet",
     "name": "BALLET SHOES",
     "hexcode": "1FA70",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "balet",
+      "tarian"
+    ],
     "emoji": "🩰",
     "text": "",
     "type": 1,
@@ -43724,11 +43842,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "banjo",
     "name": "BANJO",
     "hexcode": "1FA95",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bertali",
+      "muzik"
+    ],
     "emoji": "🪕",
     "text": "",
     "type": 1,
@@ -44580,11 +44701,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "lampu diya",
     "name": "DIYA LAMP",
     "hexcode": "1FA94",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "diya",
+      "lampu",
+      "minyak"
+    ],
     "emoji": "🪔",
     "text": "",
     "type": 1,
@@ -46456,11 +46581,16 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "kapak",
     "name": "AXE",
     "hexcode": "1FA93",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "belah",
+      "kapak kecil",
+      "kayu",
+      "tetak"
+    ],
     "emoji": "🪓",
     "text": "",
     "type": 1,
@@ -46885,11 +47015,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "tongkat penduga",
     "name": "PROBING CANE",
     "hexcode": "1F9AF",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "buta",
+      "kebolehcapaian"
+    ],
     "emoji": "🦯",
     "text": "",
     "type": 1,
@@ -47175,11 +47308,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "titisan darah",
     "name": "DROP OF BLOOD",
     "hexcode": "1FA78",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "derma darah",
+      "haid",
+      "perubatan"
+    ],
     "emoji": "🩸",
     "text": "",
     "type": 1,
@@ -47209,11 +47346,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "pembalut adhesif",
     "name": "ADHESIVE BANDAGE",
     "hexcode": "1FA79",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "pembalut"
+    ],
     "emoji": "🩹",
     "text": "",
     "type": 1,
@@ -47223,11 +47362,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "stetoskop",
     "name": "STETHOSCOPE",
     "hexcode": "1FA7A",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "doktor",
+      "jantung",
+      "perubatan"
+    ],
     "emoji": "🩺",
     "text": "",
     "type": 1,
@@ -47329,11 +47472,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "kerusi",
     "name": "CHAIR",
     "hexcode": "1FA91",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "duduk",
+      "tempat duduk"
+    ],
     "emoji": "🪑",
     "text": "",
     "type": 1,
@@ -47397,11 +47543,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "pisau cukur",
     "name": "RAZOR",
     "hexcode": "1FA92",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "cukur",
+      "tajam"
+    ],
     "emoji": "🪒",
     "text": "",
     "type": 1,
@@ -50553,14 +50702,16 @@
     "version": 1
   },
   {
-    "annotation": "bulatan besar tebal",
+    "annotation": "lohong bulatan besar",
     "name": "HEAVY LARGE CIRCLE",
     "hexcode": "2B55",
     "shortcodes": [
       "o"
     ],
     "tags": [
+      "besar",
       "bulatan",
+      "merah",
       "o"
     ],
     "emoji": "⭕️",
@@ -50572,15 +50723,17 @@
     "version": 1
   },
   {
-    "annotation": "tanda semak tebal putih",
+    "annotation": "butang tanda rait",
     "name": "WHITE HEAVY CHECK MARK",
     "hexcode": "2705",
     "shortcodes": [
       "white_check_mark"
     ],
     "tags": [
-      "semak",
-      "tanda"
+      "butang",
+      "rait",
+      "tanda",
+      "✓"
     ],
     "emoji": "✅",
     "text": "",
@@ -50597,8 +50750,9 @@
     "shortcodes": [],
     "tags": [
       "kotak",
-      "semak",
-      "undi"
+      "peti undi dengan tanda rait",
+      "rait",
+      "✓"
     ],
     "emoji": "☑️",
     "text": "",
@@ -50617,8 +50771,9 @@
     ],
     "tags": [
       "kotak",
-      "semak",
-      "undi"
+      "peti undi dengan tanda rait",
+      "rait",
+      "✓"
     ],
     "emoji": "☑️",
     "text": "☑︎",
@@ -50629,13 +50784,14 @@
     "version": 1
   },
   {
-    "annotation": "tanda semak tebal",
+    "annotation": "tanda rait",
     "name": "HEAVY CHECK MARK",
     "hexcode": "2714-FE0F",
     "shortcodes": [],
     "tags": [
-      "semak",
-      "tanda"
+      "rait",
+      "tanda",
+      "✓"
     ],
     "emoji": "✔️",
     "text": "",
@@ -50646,15 +50802,16 @@
     "version": 12
   },
   {
-    "annotation": "tanda semak tebal",
+    "annotation": "tanda rait",
     "name": "HEAVY CHECK MARK",
     "hexcode": "2714",
     "shortcodes": [
       "check_mark"
     ],
     "tags": [
-      "semak",
-      "tanda"
+      "rait",
+      "tanda",
+      "✓"
     ],
     "emoji": "✔️",
     "text": "✔︎",
@@ -50665,13 +50822,14 @@
     "version": 1
   },
   {
-    "annotation": "darab x tebal",
+    "annotation": "tanda darab",
     "name": "HEAVY MULTIPLICATION X",
     "hexcode": "2716-FE0F",
     "shortcodes": [],
     "tags": [
       "batal",
       "darab",
+      "darab x tebal",
       "pendaraban",
       "x"
     ],
@@ -50684,7 +50842,7 @@
     "version": 12
   },
   {
-    "annotation": "darab x tebal",
+    "annotation": "tanda darab",
     "name": "HEAVY MULTIPLICATION X",
     "hexcode": "2716",
     "shortcodes": [
@@ -50693,6 +50851,7 @@
     "tags": [
       "batal",
       "darab",
+      "darab x tebal",
       "pendaraban",
       "x"
     ],
@@ -50717,7 +50876,8 @@
       "darab",
       "pendaraban",
       "tanda",
-      "x"
+      "x",
+      "×"
     ],
     "emoji": "❌",
     "text": "",
@@ -50736,7 +50896,9 @@
     ],
     "tags": [
       "segi empat sama",
-      "tanda"
+      "tanda",
+      "x",
+      "×"
     ],
     "emoji": "❎",
     "text": "",
@@ -50747,15 +50909,17 @@
     "version": 1
   },
   {
-    "annotation": "tanda campur tebal",
+    "annotation": "tanda campur",
     "name": "HEAVY PLUS SIGN",
     "hexcode": "2795",
     "shortcodes": [
       "plus"
     ],
     "tags": [
+      "+",
       "campur",
-      "matematik"
+      "matematik",
+      "tanda"
     ],
     "emoji": "➕",
     "text": "",
@@ -50766,15 +50930,18 @@
     "version": 1
   },
   {
-    "annotation": "tanda tolak tebal",
+    "annotation": "tanda tolak",
     "name": "HEAVY MINUS SIGN",
     "hexcode": "2796",
     "shortcodes": [
       "minus"
     ],
     "tags": [
+      "-",
       "matematik",
-      "tolak"
+      "tanda",
+      "tolak",
+      "−"
     ],
     "emoji": "➖",
     "text": "",
@@ -50785,7 +50952,7 @@
     "version": 1
   },
   {
-    "annotation": "tanda bahagi tebal",
+    "annotation": "tanda bahagi",
     "name": "HEAVY DIVISION SIGN",
     "hexcode": "2797",
     "shortcodes": [
@@ -50793,7 +50960,9 @@
     ],
     "tags": [
       "bahagi",
-      "matematik"
+      "matematik",
+      "tanda",
+      "÷"
     ],
     "emoji": "➗",
     "text": "",
@@ -50884,6 +51053,7 @@
     "hexcode": "2733-FE0F",
     "shortcodes": [],
     "tags": [
+      "*",
       "asterisk"
     ],
     "emoji": "✳️",
@@ -50902,6 +51072,7 @@
       "eight_spoked_asterisk"
     ],
     "tags": [
+      "*",
       "asterisk"
     ],
     "emoji": "✳️",
@@ -50918,6 +51089,7 @@
     "hexcode": "2734-FE0F",
     "shortcodes": [],
     "tags": [
+      "*",
       "bintang"
     ],
     "emoji": "✴️",
@@ -50936,6 +51108,7 @@
       "eight_pointed_star"
     ],
     "tags": [
+      "*",
       "bintang"
     ],
     "emoji": "✴️",
@@ -50952,7 +51125,7 @@
     "hexcode": "2747-FE0F",
     "shortcodes": [],
     "tags": [
-      "kilauan"
+      "*"
     ],
     "emoji": "❇️",
     "text": "",
@@ -50970,7 +51143,7 @@
       "sparkle"
     ],
     "tags": [
-      "kilauan"
+      "*"
     ],
     "emoji": "❇️",
     "text": "❇︎",
@@ -51072,6 +51245,7 @@
       "question"
     ],
     "tags": [
+      "?",
       "soalan",
       "tanda",
       "tanda baca"
@@ -51092,10 +51266,12 @@
       "white_question"
     ],
     "tags": [
-      "digariskan",
+      "?",
+      "digaris",
       "soalan",
       "tanda",
-      "tanda baca"
+      "tanda baca",
+      "tanda soalan putih"
     ],
     "emoji": "❔",
     "text": "",
@@ -51134,6 +51310,7 @@
       "exclamation"
     ],
     "tags": [
+      "!",
       "seru",
       "tanda",
       "tanda baca"
@@ -51190,7 +51367,7 @@
     "hexcode": "00A9-FE0F",
     "shortcodes": [],
     "tags": [
-      "hak cipta"
+      "c"
     ],
     "emoji": "©️",
     "text": "",
@@ -51208,7 +51385,7 @@
       "copyright"
     ],
     "tags": [
-      "hak cipta"
+      "c"
     ],
     "emoji": "©️",
     "text": "©︎",
@@ -51289,14 +51466,14 @@
     "version": 1
   },
   {
-    "annotation": "keycap: #",
+    "annotation": "butang kekunci: #",
     "name": "NUMBER SIGN, COMBINING ENCLOSING KEYCAP",
     "hexcode": "0023-FE0F-20E3",
     "shortcodes": [
       "hash"
     ],
     "tags": [
-      "keycap"
+      "butang kekunci"
     ],
     "emoji": "#️⃣",
     "text": "",
@@ -51307,14 +51484,14 @@
     "version": 3
   },
   {
-    "annotation": "keycap: *",
+    "annotation": "butang kekunci: *",
     "name": "ASTERISK, COMBINING ENCLOSING KEYCAP",
     "hexcode": "002A-FE0F-20E3",
     "shortcodes": [
       "asterisk"
     ],
     "tags": [
-      "keycap"
+      "butang kekunci"
     ],
     "emoji": "*️⃣",
     "text": "",
@@ -51325,14 +51502,14 @@
     "version": 3
   },
   {
-    "annotation": "keycap: 0",
+    "annotation": "butang kekunci: 0",
     "name": "DIGIT ZERO, COMBINING ENCLOSING KEYCAP",
     "hexcode": "0030-FE0F-20E3",
     "shortcodes": [
       "zero"
     ],
     "tags": [
-      "keycap"
+      "butang kekunci"
     ],
     "emoji": "0️⃣",
     "text": "",
@@ -51343,14 +51520,14 @@
     "version": 3
   },
   {
-    "annotation": "keycap: 1",
+    "annotation": "butang kekunci: 1",
     "name": "DIGIT ONE, COMBINING ENCLOSING KEYCAP",
     "hexcode": "0031-FE0F-20E3",
     "shortcodes": [
       "one"
     ],
     "tags": [
-      "keycap"
+      "butang kekunci"
     ],
     "emoji": "1️⃣",
     "text": "",
@@ -51361,14 +51538,14 @@
     "version": 3
   },
   {
-    "annotation": "keycap: 2",
+    "annotation": "butang kekunci: 2",
     "name": "DIGIT TWO, COMBINING ENCLOSING KEYCAP",
     "hexcode": "0032-FE0F-20E3",
     "shortcodes": [
       "two"
     ],
     "tags": [
-      "keycap"
+      "butang kekunci"
     ],
     "emoji": "2️⃣",
     "text": "",
@@ -51379,14 +51556,14 @@
     "version": 3
   },
   {
-    "annotation": "keycap: 3",
+    "annotation": "butang kekunci: 3",
     "name": "DIGIT THREE, COMBINING ENCLOSING KEYCAP",
     "hexcode": "0033-FE0F-20E3",
     "shortcodes": [
       "three"
     ],
     "tags": [
-      "keycap"
+      "butang kekunci"
     ],
     "emoji": "3️⃣",
     "text": "",
@@ -51397,14 +51574,14 @@
     "version": 3
   },
   {
-    "annotation": "keycap: 4",
+    "annotation": "butang kekunci: 4",
     "name": "DIGIT FOUR, COMBINING ENCLOSING KEYCAP",
     "hexcode": "0034-FE0F-20E3",
     "shortcodes": [
       "four"
     ],
     "tags": [
-      "keycap"
+      "butang kekunci"
     ],
     "emoji": "4️⃣",
     "text": "",
@@ -51415,14 +51592,14 @@
     "version": 3
   },
   {
-    "annotation": "keycap: 5",
+    "annotation": "butang kekunci: 5",
     "name": "DIGIT FIVE, COMBINING ENCLOSING KEYCAP",
     "hexcode": "0035-FE0F-20E3",
     "shortcodes": [
       "five"
     ],
     "tags": [
-      "keycap"
+      "butang kekunci"
     ],
     "emoji": "5️⃣",
     "text": "",
@@ -51433,14 +51610,14 @@
     "version": 3
   },
   {
-    "annotation": "keycap: 6",
+    "annotation": "butang kekunci: 6",
     "name": "DIGIT SIX, COMBINING ENCLOSING KEYCAP",
     "hexcode": "0036-FE0F-20E3",
     "shortcodes": [
       "six"
     ],
     "tags": [
-      "keycap"
+      "butang kekunci"
     ],
     "emoji": "6️⃣",
     "text": "",
@@ -51451,14 +51628,14 @@
     "version": 3
   },
   {
-    "annotation": "keycap: 7",
+    "annotation": "butang kekunci: 7",
     "name": "DIGIT SEVEN, COMBINING ENCLOSING KEYCAP",
     "hexcode": "0037-FE0F-20E3",
     "shortcodes": [
       "seven"
     ],
     "tags": [
-      "keycap"
+      "butang kekunci"
     ],
     "emoji": "7️⃣",
     "text": "",
@@ -51469,14 +51646,14 @@
     "version": 3
   },
   {
-    "annotation": "keycap: 8",
+    "annotation": "butang kekunci: 8",
     "name": "DIGIT EIGHT, COMBINING ENCLOSING KEYCAP",
     "hexcode": "0038-FE0F-20E3",
     "shortcodes": [
       "eight"
     ],
     "tags": [
-      "keycap"
+      "butang kekunci"
     ],
     "emoji": "8️⃣",
     "text": "",
@@ -51487,14 +51664,14 @@
     "version": 3
   },
   {
-    "annotation": "keycap: 9",
+    "annotation": "butang kekunci: 9",
     "name": "DIGIT NINE, COMBINING ENCLOSING KEYCAP",
     "hexcode": "0039-FE0F-20E3",
     "shortcodes": [
       "nine"
     ],
     "tags": [
-      "keycap"
+      "butang kekunci"
     ],
     "emoji": "9️⃣",
     "text": "",
@@ -51505,14 +51682,14 @@
     "version": 3
   },
   {
-    "annotation": "keycap: 10",
+    "annotation": "butang kekunci: 10",
     "name": "KEYCAP TEN",
     "hexcode": "1F51F",
     "shortcodes": [
       "ten"
     ],
     "tags": [
-      "keycap"
+      "butang kekunci"
     ],
     "emoji": "🔟",
     "text": "",
@@ -52538,11 +52715,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "bulatan jingga",
     "name": "LARGE ORANGE CIRCLE",
     "hexcode": "1F7E0",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bulatan",
+      "jingga"
+    ],
     "emoji": "🟠",
     "text": "",
     "type": 1,
@@ -52552,11 +52732,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "bulatan kuning",
     "name": "LARGE YELLOW CIRCLE",
     "hexcode": "1F7E1",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bulatan",
+      "kuning"
+    ],
     "emoji": "🟡",
     "text": "",
     "type": 1,
@@ -52566,11 +52749,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "bulatan hijau",
     "name": "LARGE GREEN CIRCLE",
     "hexcode": "1F7E2",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bulatan",
+      "hijau"
+    ],
     "emoji": "🟢",
     "text": "",
     "type": 1,
@@ -52600,11 +52786,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "bulatan ungu",
     "name": "LARGE PURPLE CIRCLE",
     "hexcode": "1F7E3",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bulatan",
+      "ungu"
+    ],
     "emoji": "🟣",
     "text": "",
     "type": 1,
@@ -52614,11 +52803,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "bulatan perang",
     "name": "LARGE BROWN CIRCLE",
     "hexcode": "1F7E4",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bulatan",
+      "perang"
+    ],
     "emoji": "🟤",
     "text": "",
     "type": 1,
@@ -52666,11 +52858,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "persegi merah",
     "name": "LARGE RED SQUARE",
     "hexcode": "1F7E5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "merah",
+      "persegi"
+    ],
     "emoji": "🟥",
     "text": "",
     "type": 1,
@@ -52680,11 +52875,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "persegi jingga",
     "name": "LARGE ORANGE SQUARE",
     "hexcode": "1F7E7",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "jingga",
+      "persegi"
+    ],
     "emoji": "🟧",
     "text": "",
     "type": 1,
@@ -52694,11 +52892,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "persegi kuning",
     "name": "LARGE YELLOW SQUARE",
     "hexcode": "1F7E8",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "kuning",
+      "persegi"
+    ],
     "emoji": "🟨",
     "text": "",
     "type": 1,
@@ -52708,11 +52909,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "persegi hijau",
     "name": "LARGE GREEN SQUARE",
     "hexcode": "1F7E9",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "hijau",
+      "persegi"
+    ],
     "emoji": "🟩",
     "text": "",
     "type": 1,
@@ -52722,11 +52926,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "persegi biru",
     "name": "LARGE BLUE SQUARE",
     "hexcode": "1F7E6",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "biru",
+      "persegi"
+    ],
     "emoji": "🟦",
     "text": "",
     "type": 1,
@@ -52736,11 +52943,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "persegi ungu",
     "name": "LARGE PURPLE SQUARE",
     "hexcode": "1F7EA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "persegi",
+      "ungu"
+    ],
     "emoji": "🟪",
     "text": "",
     "type": 1,
@@ -52750,11 +52960,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "persegi perang",
     "name": "LARGE BROWN SQUARE",
     "hexcode": "1F7EB",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "perang",
+      "persegi"
+    ],
     "emoji": "🟫",
     "text": "",
     "type": 1,
@@ -53831,7 +54044,7 @@
     "version": 1
   },
   {
-    "annotation": "bendera: Saint Barthélemy",
+    "annotation": "bendera: St. Barthelemy",
     "name": "FLAG: ST. BARTHÉLEMY",
     "hexcode": "1F1E7-1F1F1",
     "shortcodes": [
@@ -56168,7 +56381,7 @@
     "version": 1
   },
   {
-    "annotation": "bendera: Macedonia",
+    "annotation": "bendera: Macedonia Utara",
     "name": "FLAG: MACEDONIA",
     "hexcode": "1F1F2-1F1F0",
     "shortcodes": [

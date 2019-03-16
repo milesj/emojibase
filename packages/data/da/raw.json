@@ -1924,11 +1924,15 @@
     "emoticon": ":c"
   },
   {
-    "annotation": "",
+    "annotation": "gabende ansigt",
     "name": "YAWNING FACE",
     "hexcode": "1F971",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "gab",
+      "træt",
+      "uinteresseret"
+    ],
     "emoji": "🥱",
     "text": "",
     "type": 1,
@@ -2262,7 +2266,7 @@
     "version": 1
   },
   {
-    "annotation": "robotansigt",
+    "annotation": "robot",
     "name": "ROBOT FACE",
     "hexcode": "1F916",
     "shortcodes": [
@@ -2271,7 +2275,7 @@
     "tags": [
       "ansigt",
       "monster",
-      "robot"
+      "robotansigt"
     ],
     "emoji": "🤖",
     "text": "",
@@ -2889,11 +2893,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "brunt hjerte",
     "name": "BROWN HEART",
     "hexcode": "1F90E",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "brun",
+      "hjerte"
+    ],
     "emoji": "🤎",
     "text": "",
     "type": 1,
@@ -2924,11 +2931,14 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "hvidt hjerte",
     "name": "WHITE HEART",
     "hexcode": "1F90D",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "hjerte",
+      "hvid"
+    ],
     "emoji": "🤍",
     "text": "",
     "type": 1,
@@ -3384,7 +3394,7 @@
     "version": 3,
     "skins": [
       {
-        "annotation": "løftet baghånd: lys teint",
+        "annotation": "løftet håndryg: lys teint",
         "name": "RAISED BACK OF HAND, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F91A-1F3FB",
         "shortcodes": [
@@ -3400,7 +3410,7 @@
         "tone": 1
       },
       {
-        "annotation": "løftet baghånd: medium til lys teint",
+        "annotation": "løftet håndryg: medium til lys teint",
         "name": "RAISED BACK OF HAND, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F91A-1F3FC",
         "shortcodes": [
@@ -3416,7 +3426,7 @@
         "tone": 2
       },
       {
-        "annotation": "løftet baghånd: medium teint",
+        "annotation": "løftet håndryg: medium teint",
         "name": "RAISED BACK OF HAND, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F91A-1F3FD",
         "shortcodes": [
@@ -3432,7 +3442,7 @@
         "tone": 3
       },
       {
-        "annotation": "løftet baghånd: medium til mørk teint",
+        "annotation": "løftet håndryg: medium til mørk teint",
         "name": "RAISED BACK OF HAND, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F91A-1F3FE",
         "shortcodes": [
@@ -3448,7 +3458,7 @@
         "tone": 4
       },
       {
-        "annotation": "løftet baghånd: mørk teint",
+        "annotation": "løftet håndryg: mørk teint",
         "name": "RAISED BACK OF HAND, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F91A-1F3FF",
         "shortcodes": [
@@ -3893,11 +3903,13 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "lidt vist med tommel- og pegefinger",
     "name": "PINCHING HAND",
     "hexcode": "1F90F",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "lidt"
+    ],
     "emoji": "🤏",
     "text": "",
     "type": 1,
@@ -3907,7 +3919,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "lidt vist med tommel- og pegefinger: lys teint",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F90F-1F3FB",
         "shortcodes": [],
@@ -3921,7 +3933,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "lidt vist med tommel- og pegefinger: medium til lys teint",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F90F-1F3FC",
         "shortcodes": [],
@@ -3935,7 +3947,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "lidt vist med tommel- og pegefinger: medium teint",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F90F-1F3FD",
         "shortcodes": [],
@@ -3949,7 +3961,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "lidt vist med tommel- og pegefinger: medium til mørk teint",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F90F-1F3FE",
         "shortcodes": [],
@@ -3963,7 +3975,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "lidt vist med tommel- og pegefinger: mørk teint",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F90F-1F3FF",
         "shortcodes": [],
@@ -5918,7 +5930,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "hurra: lys teint",
+        "annotation": "løftede hænder: lys teint",
         "name": "PERSON RAISING BOTH HANDS IN CELEBRATION, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F64C-1F3FB",
         "shortcodes": [
@@ -5934,7 +5946,7 @@
         "tone": 1
       },
       {
-        "annotation": "hurra: medium til lys teint",
+        "annotation": "løftede hænder: medium til lys teint",
         "name": "PERSON RAISING BOTH HANDS IN CELEBRATION, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F64C-1F3FC",
         "shortcodes": [
@@ -5950,7 +5962,7 @@
         "tone": 2
       },
       {
-        "annotation": "hurra: medium teint",
+        "annotation": "løftede hænder: medium teint",
         "name": "PERSON RAISING BOTH HANDS IN CELEBRATION, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F64C-1F3FD",
         "shortcodes": [
@@ -5966,7 +5978,7 @@
         "tone": 3
       },
       {
-        "annotation": "hurra: medium til mørk teint",
+        "annotation": "løftede hænder: medium til mørk teint",
         "name": "PERSON RAISING BOTH HANDS IN CELEBRATION, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F64C-1F3FE",
         "shortcodes": [
@@ -5982,7 +5994,7 @@
         "tone": 4
       },
       {
-        "annotation": "hurra: mørk teint",
+        "annotation": "løftede hænder: mørk teint",
         "name": "PERSON RAISING BOTH HANDS IN CELEBRATION, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F64C-1F3FF",
         "shortcodes": [
@@ -6763,11 +6775,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "mekanisk arm",
     "name": "MECHANICAL ARM",
     "hexcode": "1F9BE",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "handicap",
+      "protese"
+    ],
     "emoji": "🦾",
     "text": "",
     "type": 1,
@@ -6777,11 +6792,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "mekanisk ben",
     "name": "MECHANICAL LEG",
     "hexcode": "1F9BF",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "handicap",
+      "protese"
+    ],
     "emoji": "🦿",
     "text": "",
     "type": 1,
@@ -7095,11 +7113,13 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "øre med høreapparat",
     "name": "EAR WITH HEARING AID",
     "hexcode": "1F9BB",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "øre med høreapparat"
+    ],
     "emoji": "🦻",
     "text": "",
     "type": 1,
@@ -7109,7 +7129,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "øre med høreapparat: lys teint",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9BB-1F3FB",
         "shortcodes": [],
@@ -7123,7 +7143,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "øre med høreapparat: medium til lys teint",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9BB-1F3FC",
         "shortcodes": [],
@@ -7137,7 +7157,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "øre med høreapparat: medium teint",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9BB-1F3FD",
         "shortcodes": [],
@@ -7151,7 +7171,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "øre med høreapparat: medium til mørk teint",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9BB-1F3FE",
         "shortcodes": [],
@@ -7165,7 +7185,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "øre med høreapparat: mørk teint",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9BB-1F3FF",
         "shortcodes": [],
@@ -7941,7 +7961,8 @@
       "blond_person"
     ],
     "tags": [
-      "menneske"
+      "blond",
+      "hår"
     ],
     "emoji": "👱",
     "text": "",
@@ -8142,7 +8163,10 @@
       "bearded_person"
     ],
     "tags": [
-      "fuldskæg"
+      "fuldskæg",
+      "mand",
+      "person",
+      "skæg"
     ],
     "emoji": "🧔",
     "text": "",
@@ -9700,7 +9724,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "rynkede bryn: lys teint",
+        "annotation": "Utilfreds person: lys teint",
         "name": "PERSON FROWNING, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F64D-1F3FB",
         "shortcodes": [
@@ -9716,7 +9740,7 @@
         "tone": 1
       },
       {
-        "annotation": "rynkede bryn: medium til lys teint",
+        "annotation": "Utilfreds person: medium til lys teint",
         "name": "PERSON FROWNING, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F64D-1F3FC",
         "shortcodes": [
@@ -9732,7 +9756,7 @@
         "tone": 2
       },
       {
-        "annotation": "rynkede bryn: medium teint",
+        "annotation": "Utilfreds person: medium teint",
         "name": "PERSON FROWNING, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F64D-1F3FD",
         "shortcodes": [
@@ -9748,7 +9772,7 @@
         "tone": 3
       },
       {
-        "annotation": "rynkede bryn: medium til mørk teint",
+        "annotation": "Utilfreds person: medium til mørk teint",
         "name": "PERSON FROWNING, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F64D-1F3FE",
         "shortcodes": [
@@ -9764,7 +9788,7 @@
         "tone": 4
       },
       {
-        "annotation": "rynkede bryn: mørk teint",
+        "annotation": "Utilfreds person: mørk teint",
         "name": "PERSON FROWNING, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F64D-1F3FF",
         "shortcodes": [
@@ -9805,7 +9829,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "mand med rynkede bryn: lys teint",
+        "annotation": "Utilfreds mand: lys teint",
         "name": "PERSON FROWNING, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F64D-1F3FB-200D-2642-FE0F",
         "shortcodes": [
@@ -9822,7 +9846,7 @@
         "tone": 1
       },
       {
-        "annotation": "mand med rynkede bryn: medium til lys teint",
+        "annotation": "Utilfreds mand: medium til lys teint",
         "name": "PERSON FROWNING, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F64D-1F3FC-200D-2642-FE0F",
         "shortcodes": [
@@ -9839,7 +9863,7 @@
         "tone": 2
       },
       {
-        "annotation": "mand med rynkede bryn: medium teint",
+        "annotation": "Utilfreds mand: medium teint",
         "name": "PERSON FROWNING, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F64D-1F3FD-200D-2642-FE0F",
         "shortcodes": [
@@ -9856,7 +9880,7 @@
         "tone": 3
       },
       {
-        "annotation": "mand med rynkede bryn: medium til mørk teint",
+        "annotation": "Utilfreds mand: medium til mørk teint",
         "name": "PERSON FROWNING, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F64D-1F3FE-200D-2642-FE0F",
         "shortcodes": [
@@ -9873,7 +9897,7 @@
         "tone": 4
       },
       {
-        "annotation": "mand med rynkede bryn: mørk teint",
+        "annotation": "Utilfreds mand: mørk teint",
         "name": "PERSON FROWNING, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F64D-1F3FF-200D-2642-FE0F",
         "shortcodes": [
@@ -9915,7 +9939,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "kvinde med rynkede bryn: lys teint",
+        "annotation": "Utilfreds kvinde: lys teint",
         "name": "PERSON FROWNING, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F64D-1F3FB-200D-2640-FE0F",
         "shortcodes": [
@@ -9932,7 +9956,7 @@
         "tone": 1
       },
       {
-        "annotation": "kvinde med rynkede bryn: medium til lys teint",
+        "annotation": "Utilfreds kvinde: medium til lys teint",
         "name": "PERSON FROWNING, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F64D-1F3FC-200D-2640-FE0F",
         "shortcodes": [
@@ -9949,7 +9973,7 @@
         "tone": 2
       },
       {
-        "annotation": "kvinde med rynkede bryn: medium teint",
+        "annotation": "Utilfreds kvinde: medium teint",
         "name": "PERSON FROWNING, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F64D-1F3FD-200D-2640-FE0F",
         "shortcodes": [
@@ -9966,7 +9990,7 @@
         "tone": 3
       },
       {
-        "annotation": "kvinde med rynkede bryn: medium til mørk teint",
+        "annotation": "Utilfreds kvinde: medium til mørk teint",
         "name": "PERSON FROWNING, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F64D-1F3FE-200D-2640-FE0F",
         "shortcodes": [
@@ -9983,7 +10007,7 @@
         "tone": 4
       },
       {
-        "annotation": "kvinde med rynkede bryn: mørk teint",
+        "annotation": "Utilfreds kvinde: mørk teint",
         "name": "PERSON FROWNING, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F64D-1F3FF-200D-2640-FE0F",
         "shortcodes": [
@@ -11603,11 +11627,13 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "døv person",
     "name": "DEAF PERSON",
     "hexcode": "1F9CF",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "døv person"
+    ],
     "emoji": "🧏",
     "text": "",
     "type": 1,
@@ -11617,7 +11643,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "døv person: lys teint",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CF-1F3FB",
         "shortcodes": [],
@@ -11631,7 +11657,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "døv person: medium til lys teint",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CF-1F3FC",
         "shortcodes": [],
@@ -11645,7 +11671,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "døv person: medium teint",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CF-1F3FD",
         "shortcodes": [],
@@ -11659,7 +11685,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "døv person: medium til mørk teint",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CF-1F3FE",
         "shortcodes": [],
@@ -11673,7 +11699,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "døv person: mørk teint",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CF-1F3FF",
         "shortcodes": [],
@@ -11689,15 +11715,12 @@
     ]
   },
   {
-    "annotation": "mand",
+    "annotation": "døv mand",
     "name": "DEAF PERSON, MALE SIGN",
     "hexcode": "1F9CF-200D-2642-FE0F",
     "shortcodes": [],
     "tags": [
-      "mandesymbol",
-      "mandetegn",
-      "symbol",
-      "tegn"
+      "døv mand"
     ],
     "emoji": "🧏‍♂️",
     "text": "",
@@ -11709,7 +11732,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "mand: lys teint",
+        "annotation": "døv mand: lys teint",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CF-1F3FB-200D-2642-FE0F",
         "shortcodes": [],
@@ -11724,7 +11747,7 @@
         "tone": 1
       },
       {
-        "annotation": "mand: medium til lys teint",
+        "annotation": "døv mand: medium til lys teint",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CF-1F3FC-200D-2642-FE0F",
         "shortcodes": [],
@@ -11739,7 +11762,7 @@
         "tone": 2
       },
       {
-        "annotation": "mand: medium teint",
+        "annotation": "døv mand: medium teint",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CF-1F3FD-200D-2642-FE0F",
         "shortcodes": [],
@@ -11754,7 +11777,7 @@
         "tone": 3
       },
       {
-        "annotation": "mand: medium til mørk teint",
+        "annotation": "døv mand: medium til mørk teint",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CF-1F3FE-200D-2642-FE0F",
         "shortcodes": [],
@@ -11769,7 +11792,7 @@
         "tone": 4
       },
       {
-        "annotation": "mand: mørk teint",
+        "annotation": "døv mand: mørk teint",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CF-1F3FF-200D-2642-FE0F",
         "shortcodes": [],
@@ -11786,15 +11809,12 @@
     ]
   },
   {
-    "annotation": "kvinde",
+    "annotation": "døv kvinde",
     "name": "DEAF PERSON, FEMALE SIGN",
     "hexcode": "1F9CF-200D-2640-FE0F",
     "shortcodes": [],
     "tags": [
-      "kvindesymbol",
-      "kvindetegn",
-      "symbol",
-      "tegn"
+      "døv kvinde"
     ],
     "emoji": "🧏‍♀️",
     "text": "",
@@ -11806,7 +11826,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "kvinde: lys teint",
+        "annotation": "døv kvinde: lys teint",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CF-1F3FB-200D-2640-FE0F",
         "shortcodes": [],
@@ -11821,7 +11841,7 @@
         "tone": 1
       },
       {
-        "annotation": "kvinde: medium til lys teint",
+        "annotation": "døv kvinde: medium til lys teint",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CF-1F3FC-200D-2640-FE0F",
         "shortcodes": [],
@@ -11836,7 +11856,7 @@
         "tone": 2
       },
       {
-        "annotation": "kvinde: medium teint",
+        "annotation": "døv kvinde: medium teint",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CF-1F3FD-200D-2640-FE0F",
         "shortcodes": [],
@@ -11851,7 +11871,7 @@
         "tone": 3
       },
       {
-        "annotation": "kvinde: medium til mørk teint",
+        "annotation": "døv kvinde: medium til mørk teint",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CF-1F3FE-200D-2640-FE0F",
         "shortcodes": [],
@@ -11866,7 +11886,7 @@
         "tone": 4
       },
       {
-        "annotation": "kvinde: mørk teint",
+        "annotation": "døv kvinde: mørk teint",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CF-1F3FF-200D-2640-FE0F",
         "shortcodes": [],
@@ -22236,11 +22256,13 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "stående person",
     "name": "STANDING PERSON",
     "hexcode": "1F9CD",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "stående person"
+    ],
     "emoji": "🧍",
     "text": "",
     "type": 1,
@@ -22250,7 +22272,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "stående person: lys teint",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CD-1F3FB",
         "shortcodes": [],
@@ -22264,7 +22286,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "stående person: medium til lys teint",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CD-1F3FC",
         "shortcodes": [],
@@ -22278,7 +22300,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "stående person: medium teint",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CD-1F3FD",
         "shortcodes": [],
@@ -22292,7 +22314,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "stående person: medium til mørk teint",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CD-1F3FE",
         "shortcodes": [],
@@ -22306,7 +22328,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "stående person: mørk teint",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CD-1F3FF",
         "shortcodes": [],
@@ -22322,15 +22344,12 @@
     ]
   },
   {
-    "annotation": "mand",
+    "annotation": "stående mand",
     "name": "STANDING PERSON, MALE SIGN",
     "hexcode": "1F9CD-200D-2642-FE0F",
     "shortcodes": [],
     "tags": [
-      "mandesymbol",
-      "mandetegn",
-      "symbol",
-      "tegn"
+      "stående mand"
     ],
     "emoji": "🧍‍♂️",
     "text": "",
@@ -22342,7 +22361,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "mand: lys teint",
+        "annotation": "stående mand: lys teint",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CD-1F3FB-200D-2642-FE0F",
         "shortcodes": [],
@@ -22357,7 +22376,7 @@
         "tone": 1
       },
       {
-        "annotation": "mand: medium til lys teint",
+        "annotation": "stående mand: medium til lys teint",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CD-1F3FC-200D-2642-FE0F",
         "shortcodes": [],
@@ -22372,7 +22391,7 @@
         "tone": 2
       },
       {
-        "annotation": "mand: medium teint",
+        "annotation": "stående mand: medium teint",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CD-1F3FD-200D-2642-FE0F",
         "shortcodes": [],
@@ -22387,7 +22406,7 @@
         "tone": 3
       },
       {
-        "annotation": "mand: medium til mørk teint",
+        "annotation": "stående mand: medium til mørk teint",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CD-1F3FE-200D-2642-FE0F",
         "shortcodes": [],
@@ -22402,7 +22421,7 @@
         "tone": 4
       },
       {
-        "annotation": "mand: mørk teint",
+        "annotation": "stående mand: mørk teint",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CD-1F3FF-200D-2642-FE0F",
         "shortcodes": [],
@@ -22419,15 +22438,12 @@
     ]
   },
   {
-    "annotation": "kvinde",
+    "annotation": "stående kvinde",
     "name": "STANDING PERSON, FEMALE SIGN",
     "hexcode": "1F9CD-200D-2640-FE0F",
     "shortcodes": [],
     "tags": [
-      "kvindesymbol",
-      "kvindetegn",
-      "symbol",
-      "tegn"
+      "stående kvinde"
     ],
     "emoji": "🧍‍♀️",
     "text": "",
@@ -22439,7 +22455,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "kvinde: lys teint",
+        "annotation": "stående kvinde: lys teint",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CD-1F3FB-200D-2640-FE0F",
         "shortcodes": [],
@@ -22454,7 +22470,7 @@
         "tone": 1
       },
       {
-        "annotation": "kvinde: medium til lys teint",
+        "annotation": "stående kvinde: medium til lys teint",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CD-1F3FC-200D-2640-FE0F",
         "shortcodes": [],
@@ -22469,7 +22485,7 @@
         "tone": 2
       },
       {
-        "annotation": "kvinde: medium teint",
+        "annotation": "stående kvinde: medium teint",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CD-1F3FD-200D-2640-FE0F",
         "shortcodes": [],
@@ -22484,7 +22500,7 @@
         "tone": 3
       },
       {
-        "annotation": "kvinde: medium til mørk teint",
+        "annotation": "stående kvinde: medium til mørk teint",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CD-1F3FE-200D-2640-FE0F",
         "shortcodes": [],
@@ -22499,7 +22515,7 @@
         "tone": 4
       },
       {
-        "annotation": "kvinde: mørk teint",
+        "annotation": "stående kvinde: mørk teint",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CD-1F3FF-200D-2640-FE0F",
         "shortcodes": [],
@@ -22516,11 +22532,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "knælende person",
     "name": "KNEELING PERSON",
     "hexcode": "1F9CE",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "knælende",
+      "på knæ"
+    ],
     "emoji": "🧎",
     "text": "",
     "type": 1,
@@ -22530,7 +22549,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "knælende person: lys teint",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CE-1F3FB",
         "shortcodes": [],
@@ -22544,7 +22563,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "knælende person: medium til lys teint",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CE-1F3FC",
         "shortcodes": [],
@@ -22558,7 +22577,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "knælende person: medium teint",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CE-1F3FD",
         "shortcodes": [],
@@ -22572,7 +22591,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "knælende person: medium til mørk teint",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CE-1F3FE",
         "shortcodes": [],
@@ -22586,7 +22605,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "knælende person: mørk teint",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CE-1F3FF",
         "shortcodes": [],
@@ -22602,15 +22621,12 @@
     ]
   },
   {
-    "annotation": "mand",
+    "annotation": "knælende mand",
     "name": "KNEELING PERSON, MALE SIGN",
     "hexcode": "1F9CE-200D-2642-FE0F",
     "shortcodes": [],
     "tags": [
-      "mandesymbol",
-      "mandetegn",
-      "symbol",
-      "tegn"
+      "mand"
     ],
     "emoji": "🧎‍♂️",
     "text": "",
@@ -22622,7 +22638,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "mand: lys teint",
+        "annotation": "knælende mand: lys teint",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CE-1F3FB-200D-2642-FE0F",
         "shortcodes": [],
@@ -22637,7 +22653,7 @@
         "tone": 1
       },
       {
-        "annotation": "mand: medium til lys teint",
+        "annotation": "knælende mand: medium til lys teint",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CE-1F3FC-200D-2642-FE0F",
         "shortcodes": [],
@@ -22652,7 +22668,7 @@
         "tone": 2
       },
       {
-        "annotation": "mand: medium teint",
+        "annotation": "knælende mand: medium teint",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CE-1F3FD-200D-2642-FE0F",
         "shortcodes": [],
@@ -22667,7 +22683,7 @@
         "tone": 3
       },
       {
-        "annotation": "mand: medium til mørk teint",
+        "annotation": "knælende mand: medium til mørk teint",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CE-1F3FE-200D-2642-FE0F",
         "shortcodes": [],
@@ -22682,7 +22698,7 @@
         "tone": 4
       },
       {
-        "annotation": "mand: mørk teint",
+        "annotation": "knælende mand: mørk teint",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CE-1F3FF-200D-2642-FE0F",
         "shortcodes": [],
@@ -22699,15 +22715,12 @@
     ]
   },
   {
-    "annotation": "kvinde",
+    "annotation": "knælende kvinde",
     "name": "KNEELING PERSON, FEMALE SIGN",
     "hexcode": "1F9CE-200D-2640-FE0F",
     "shortcodes": [],
     "tags": [
-      "kvindesymbol",
-      "kvindetegn",
-      "symbol",
-      "tegn"
+      "kvinde"
     ],
     "emoji": "🧎‍♀️",
     "text": "",
@@ -22719,7 +22732,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "kvinde: lys teint",
+        "annotation": "knælende kvinde: lys teint",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CE-1F3FB-200D-2640-FE0F",
         "shortcodes": [],
@@ -22734,7 +22747,7 @@
         "tone": 1
       },
       {
-        "annotation": "kvinde: medium til lys teint",
+        "annotation": "knælende kvinde: medium til lys teint",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CE-1F3FC-200D-2640-FE0F",
         "shortcodes": [],
@@ -22749,7 +22762,7 @@
         "tone": 2
       },
       {
-        "annotation": "kvinde: medium teint",
+        "annotation": "knælende kvinde: medium teint",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CE-1F3FD-200D-2640-FE0F",
         "shortcodes": [],
@@ -22764,7 +22777,7 @@
         "tone": 3
       },
       {
-        "annotation": "kvinde: medium til mørk teint",
+        "annotation": "knælende kvinde: medium til mørk teint",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CE-1F3FE-200D-2640-FE0F",
         "shortcodes": [],
@@ -22779,7 +22792,7 @@
         "tone": 4
       },
       {
-        "annotation": "kvinde: mørk teint",
+        "annotation": "knælende kvinde: mørk teint",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CE-1F3FF-200D-2640-FE0F",
         "shortcodes": [],
@@ -22796,14 +22809,12 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "mand med blindestok",
     "name": "MAN, PROBING CANE",
     "hexcode": "1F468-200D-1F9AF",
     "shortcodes": [],
     "tags": [
-      "mand",
-      "menneske",
-      "person"
+      "mand med blindestok"
     ],
     "emoji": "👨‍🦯",
     "text": "",
@@ -22814,7 +22825,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mand med blindestok: lys teint",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F468-1F3FB-200D-1F9AF",
         "shortcodes": [],
@@ -22828,7 +22839,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "mand med blindestok: medium til lys teint",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F468-1F3FC-200D-1F9AF",
         "shortcodes": [],
@@ -22842,7 +22853,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "mand med blindestok: medium teint",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F468-1F3FD-200D-1F9AF",
         "shortcodes": [],
@@ -22856,7 +22867,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "mand med blindestok: medium til mørk teint",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F468-1F3FE-200D-1F9AF",
         "shortcodes": [],
@@ -22870,7 +22881,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "mand med blindestok: mørk teint",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F468-1F3FF-200D-1F9AF",
         "shortcodes": [],
@@ -22886,14 +22897,12 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "kvinde med blindestok",
     "name": "WOMAN, PROBING CANE",
     "hexcode": "1F469-200D-1F9AF",
     "shortcodes": [],
     "tags": [
-      "kvinde",
-      "menneske",
-      "person"
+      "kvinde med blindestok"
     ],
     "emoji": "👩‍🦯",
     "text": "",
@@ -22904,7 +22913,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "kvinde med blindestok: lys teint",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F469-1F3FB-200D-1F9AF",
         "shortcodes": [],
@@ -22918,7 +22927,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "kvinde med blindestok: medium til lys teint",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F469-1F3FC-200D-1F9AF",
         "shortcodes": [],
@@ -22932,7 +22941,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "kvinde med blindestok: medium teint",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F469-1F3FD-200D-1F9AF",
         "shortcodes": [],
@@ -22946,7 +22955,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "kvinde med blindestok: medium til mørk teint",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F469-1F3FE-200D-1F9AF",
         "shortcodes": [],
@@ -22960,7 +22969,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "kvinde med blindestok: mørk teint",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F469-1F3FF-200D-1F9AF",
         "shortcodes": [],
@@ -22976,14 +22985,12 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "mand i elektrisk kørestol",
     "name": "MAN, MOTORIZED WHEELCHAIR",
     "hexcode": "1F468-200D-1F9BC",
     "shortcodes": [],
     "tags": [
-      "mand",
-      "menneske",
-      "person"
+      "mand i elektrisk kørestol"
     ],
     "emoji": "👨‍🦼",
     "text": "",
@@ -22994,7 +23001,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mand i elektrisk kørestol: lys teint",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F468-1F3FB-200D-1F9BC",
         "shortcodes": [],
@@ -23008,7 +23015,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "mand i elektrisk kørestol: medium til lys teint",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F468-1F3FC-200D-1F9BC",
         "shortcodes": [],
@@ -23022,7 +23029,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "mand i elektrisk kørestol: medium teint",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F468-1F3FD-200D-1F9BC",
         "shortcodes": [],
@@ -23036,7 +23043,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "mand i elektrisk kørestol: medium til mørk teint",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F468-1F3FE-200D-1F9BC",
         "shortcodes": [],
@@ -23050,7 +23057,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "mand i elektrisk kørestol: mørk teint",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F468-1F3FF-200D-1F9BC",
         "shortcodes": [],
@@ -23066,14 +23073,12 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "kvinde i elektrisk kørestol",
     "name": "WOMAN, MOTORIZED WHEELCHAIR",
     "hexcode": "1F469-200D-1F9BC",
     "shortcodes": [],
     "tags": [
-      "kvinde",
-      "menneske",
-      "person"
+      "kvinde i elektrisk kørestol"
     ],
     "emoji": "👩‍🦼",
     "text": "",
@@ -23084,7 +23089,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "kvinde i elektrisk kørestol: lys teint",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F469-1F3FB-200D-1F9BC",
         "shortcodes": [],
@@ -23098,7 +23103,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "kvinde i elektrisk kørestol: medium til lys teint",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F469-1F3FC-200D-1F9BC",
         "shortcodes": [],
@@ -23112,7 +23117,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "kvinde i elektrisk kørestol: medium teint",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F469-1F3FD-200D-1F9BC",
         "shortcodes": [],
@@ -23126,7 +23131,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "kvinde i elektrisk kørestol: medium til mørk teint",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F469-1F3FE-200D-1F9BC",
         "shortcodes": [],
@@ -23140,7 +23145,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "kvinde i elektrisk kørestol: mørk teint",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F469-1F3FF-200D-1F9BC",
         "shortcodes": [],
@@ -23156,14 +23161,12 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "mand i manuel kørestol",
     "name": "MAN, MANUAL WHEELCHAIR",
     "hexcode": "1F468-200D-1F9BD",
     "shortcodes": [],
     "tags": [
-      "mand",
-      "menneske",
-      "person"
+      "mand i manuel kørestol"
     ],
     "emoji": "👨‍🦽",
     "text": "",
@@ -23174,7 +23177,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mand i manuel kørestol: lys teint",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F468-1F3FB-200D-1F9BD",
         "shortcodes": [],
@@ -23188,7 +23191,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "mand i manuel kørestol: medium til lys teint",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F468-1F3FC-200D-1F9BD",
         "shortcodes": [],
@@ -23202,7 +23205,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "mand i manuel kørestol: medium teint",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F468-1F3FD-200D-1F9BD",
         "shortcodes": [],
@@ -23216,7 +23219,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "mand i manuel kørestol: medium til mørk teint",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F468-1F3FE-200D-1F9BD",
         "shortcodes": [],
@@ -23230,7 +23233,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "mand i manuel kørestol: mørk teint",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F468-1F3FF-200D-1F9BD",
         "shortcodes": [],
@@ -23246,14 +23249,12 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "kvinde i manuel kørestol",
     "name": "WOMAN, MANUAL WHEELCHAIR",
     "hexcode": "1F469-200D-1F9BD",
     "shortcodes": [],
     "tags": [
-      "kvinde",
-      "menneske",
-      "person"
+      "kvinde i manuel kørestol"
     ],
     "emoji": "👩‍🦽",
     "text": "",
@@ -23264,7 +23265,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "kvinde i manuel kørestol: lys teint",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F469-1F3FB-200D-1F9BD",
         "shortcodes": [],
@@ -23278,7 +23279,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "kvinde i manuel kørestol: medium til lys teint",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F469-1F3FC-200D-1F9BD",
         "shortcodes": [],
@@ -23292,7 +23293,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "kvinde i manuel kørestol: medium teint",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F469-1F3FD-200D-1F9BD",
         "shortcodes": [],
@@ -23306,7 +23307,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "kvinde i manuel kørestol: medium til mørk teint",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F469-1F3FE-200D-1F9BD",
         "shortcodes": [],
@@ -23320,7 +23321,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "kvinde i manuel kørestol: mørk teint",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F469-1F3FF-200D-1F9BD",
         "shortcodes": [],
@@ -24070,7 +24071,7 @@
     "version": 5,
     "skins": [
       {
-        "annotation": "person i damptåge: lys teint",
+        "annotation": "person i dampbad: lys teint",
         "name": "PERSON IN STEAMY ROOM, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9D6-1F3FB",
         "shortcodes": [
@@ -24086,7 +24087,7 @@
         "tone": 1
       },
       {
-        "annotation": "person i damptåge: medium til lys teint",
+        "annotation": "person i dampbad: medium til lys teint",
         "name": "PERSON IN STEAMY ROOM, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9D6-1F3FC",
         "shortcodes": [
@@ -24102,7 +24103,7 @@
         "tone": 2
       },
       {
-        "annotation": "person i damptåge: medium teint",
+        "annotation": "person i dampbad: medium teint",
         "name": "PERSON IN STEAMY ROOM, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9D6-1F3FD",
         "shortcodes": [
@@ -24118,7 +24119,7 @@
         "tone": 3
       },
       {
-        "annotation": "person i damptåge: medium til mørk teint",
+        "annotation": "person i dampbad: medium til mørk teint",
         "name": "PERSON IN STEAMY ROOM, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9D6-1F3FE",
         "shortcodes": [
@@ -24134,7 +24135,7 @@
         "tone": 4
       },
       {
-        "annotation": "person i damptåge: mørk teint",
+        "annotation": "person i dampbad: mørk teint",
         "name": "PERSON IN STEAMY ROOM, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9D6-1F3FF",
         "shortcodes": [
@@ -24173,7 +24174,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "mand i damptåge: lys teint",
+        "annotation": "mand i dampbad: lys teint",
         "name": "PERSON IN STEAMY ROOM, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9D6-1F3FB-200D-2642-FE0F",
         "shortcodes": [
@@ -24190,7 +24191,7 @@
         "tone": 1
       },
       {
-        "annotation": "mand i damptåge: medium til lys teint",
+        "annotation": "mand i dampbad: medium til lys teint",
         "name": "PERSON IN STEAMY ROOM, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9D6-1F3FC-200D-2642-FE0F",
         "shortcodes": [
@@ -24207,7 +24208,7 @@
         "tone": 2
       },
       {
-        "annotation": "mand i damptåge: medium teint",
+        "annotation": "mand i dampbad: medium teint",
         "name": "PERSON IN STEAMY ROOM, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9D6-1F3FD-200D-2642-FE0F",
         "shortcodes": [
@@ -24224,7 +24225,7 @@
         "tone": 3
       },
       {
-        "annotation": "mand i damptåge: medium til mørk teint",
+        "annotation": "mand i dampbad: medium til mørk teint",
         "name": "PERSON IN STEAMY ROOM, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9D6-1F3FE-200D-2642-FE0F",
         "shortcodes": [
@@ -24241,7 +24242,7 @@
         "tone": 4
       },
       {
-        "annotation": "mand i damptåge: mørk teint",
+        "annotation": "mand i dampbad: mørk teint",
         "name": "PERSON IN STEAMY ROOM, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9D6-1F3FF-200D-2642-FE0F",
         "shortcodes": [
@@ -24281,7 +24282,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "kvinde i damptåge: lys teint",
+        "annotation": "kvinde i dampbad: lys teint",
         "name": "PERSON IN STEAMY ROOM, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9D6-1F3FB-200D-2640-FE0F",
         "shortcodes": [
@@ -24298,7 +24299,7 @@
         "tone": 1
       },
       {
-        "annotation": "kvinde i damptåge: medium til lys teint",
+        "annotation": "kvinde i dampbad: medium til lys teint",
         "name": "PERSON IN STEAMY ROOM, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9D6-1F3FC-200D-2640-FE0F",
         "shortcodes": [
@@ -24315,7 +24316,7 @@
         "tone": 2
       },
       {
-        "annotation": "kvinde i damptåge: medium teint",
+        "annotation": "kvinde i dampbad: medium teint",
         "name": "PERSON IN STEAMY ROOM, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9D6-1F3FD-200D-2640-FE0F",
         "shortcodes": [
@@ -24332,7 +24333,7 @@
         "tone": 3
       },
       {
-        "annotation": "kvinde i damptåge: medium til mørk teint",
+        "annotation": "kvinde i dampbad: medium til mørk teint",
         "name": "PERSON IN STEAMY ROOM, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9D6-1F3FE-200D-2640-FE0F",
         "shortcodes": [
@@ -24349,7 +24350,7 @@
         "tone": 4
       },
       {
-        "annotation": "kvinde i damptåge: mørk teint",
+        "annotation": "kvinde i dampbad: mørk teint",
         "name": "PERSON IN STEAMY ROOM, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9D6-1F3FF-200D-2640-FE0F",
         "shortcodes": [
@@ -25301,7 +25302,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "surfing: lys teint",
+        "annotation": "surfer: lys teint",
         "name": "SURFER, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F3C4-1F3FB",
         "shortcodes": [
@@ -25317,7 +25318,7 @@
         "tone": 1
       },
       {
-        "annotation": "surfing: medium til lys teint",
+        "annotation": "surfer: medium til lys teint",
         "name": "SURFER, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F3C4-1F3FC",
         "shortcodes": [
@@ -25333,7 +25334,7 @@
         "tone": 2
       },
       {
-        "annotation": "surfing: medium teint",
+        "annotation": "surfer: medium teint",
         "name": "SURFER, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F3C4-1F3FD",
         "shortcodes": [
@@ -25349,7 +25350,7 @@
         "tone": 3
       },
       {
-        "annotation": "surfing: medium til mørk teint",
+        "annotation": "surfer: medium til mørk teint",
         "name": "SURFER, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F3C4-1F3FE",
         "shortcodes": [
@@ -25365,7 +25366,7 @@
         "tone": 4
       },
       {
-        "annotation": "surfing: mørk teint",
+        "annotation": "surfer: mørk teint",
         "name": "SURFER, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F3C4-1F3FF",
         "shortcodes": [
@@ -25618,7 +25619,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "robåd: lys teint",
+        "annotation": "roer: lys teint",
         "name": "ROWBOAT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F6A3-1F3FB",
         "shortcodes": [
@@ -25634,7 +25635,7 @@
         "tone": 1
       },
       {
-        "annotation": "robåd: medium til lys teint",
+        "annotation": "roer: medium til lys teint",
         "name": "ROWBOAT, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F6A3-1F3FC",
         "shortcodes": [
@@ -25650,7 +25651,7 @@
         "tone": 2
       },
       {
-        "annotation": "robåd: medium teint",
+        "annotation": "roer: medium teint",
         "name": "ROWBOAT, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F6A3-1F3FD",
         "shortcodes": [
@@ -25666,7 +25667,7 @@
         "tone": 3
       },
       {
-        "annotation": "robåd: medium til mørk teint",
+        "annotation": "roer: medium til mørk teint",
         "name": "ROWBOAT, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F6A3-1F3FE",
         "shortcodes": [
@@ -25682,7 +25683,7 @@
         "tone": 4
       },
       {
-        "annotation": "robåd: mørk teint",
+        "annotation": "roer: mørk teint",
         "name": "ROWBOAT, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F6A3-1F3FF",
         "shortcodes": [
@@ -26273,7 +26274,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "person med bold: lys teint",
+        "annotation": "person, der dribler med en bold: lys teint",
         "name": "PERSON WITH BALL, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "26F9-1F3FB",
         "shortcodes": [
@@ -26289,7 +26290,7 @@
         "tone": 1
       },
       {
-        "annotation": "person med bold: medium til lys teint",
+        "annotation": "person, der dribler med en bold: medium til lys teint",
         "name": "PERSON WITH BALL, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "26F9-1F3FC",
         "shortcodes": [
@@ -26305,7 +26306,7 @@
         "tone": 2
       },
       {
-        "annotation": "person med bold: medium teint",
+        "annotation": "person, der dribler med en bold: medium teint",
         "name": "PERSON WITH BALL, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "26F9-1F3FD",
         "shortcodes": [
@@ -26321,7 +26322,7 @@
         "tone": 3
       },
       {
-        "annotation": "person med bold: medium til mørk teint",
+        "annotation": "person, der dribler med en bold: medium til mørk teint",
         "name": "PERSON WITH BALL, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "26F9-1F3FE",
         "shortcodes": [
@@ -26337,7 +26338,7 @@
         "tone": 4
       },
       {
-        "annotation": "person med bold: mørk teint",
+        "annotation": "person, der dribler med en bold: mørk teint",
         "name": "PERSON WITH BALL, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "26F9-1F3FF",
         "shortcodes": [
@@ -26377,7 +26378,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "mand med bold: lys teint",
+        "annotation": "mand, der dribler med en bold: lys teint",
         "name": "PERSON WITH BALL, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "26F9-1F3FB-200D-2642-FE0F",
         "shortcodes": [
@@ -26394,7 +26395,7 @@
         "tone": 1
       },
       {
-        "annotation": "mand med bold: medium til lys teint",
+        "annotation": "mand, der dribler med en bold: medium til lys teint",
         "name": "PERSON WITH BALL, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "26F9-1F3FC-200D-2642-FE0F",
         "shortcodes": [
@@ -26411,7 +26412,7 @@
         "tone": 2
       },
       {
-        "annotation": "mand med bold: medium teint",
+        "annotation": "mand, der dribler med en bold: medium teint",
         "name": "PERSON WITH BALL, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "26F9-1F3FD-200D-2642-FE0F",
         "shortcodes": [
@@ -26428,7 +26429,7 @@
         "tone": 3
       },
       {
-        "annotation": "mand med bold: medium til mørk teint",
+        "annotation": "mand, der dribler med en bold: medium til mørk teint",
         "name": "PERSON WITH BALL, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "26F9-1F3FE-200D-2642-FE0F",
         "shortcodes": [
@@ -26445,7 +26446,7 @@
         "tone": 4
       },
       {
-        "annotation": "mand med bold: mørk teint",
+        "annotation": "mand, der dribler med en bold: mørk teint",
         "name": "PERSON WITH BALL, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "26F9-1F3FF-200D-2642-FE0F",
         "shortcodes": [
@@ -26486,7 +26487,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "kvinde med bold: lys teint",
+        "annotation": "kvinde, der dribler med en bold: lys teint",
         "name": "PERSON WITH BALL, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "26F9-1F3FB-200D-2640-FE0F",
         "shortcodes": [
@@ -26503,7 +26504,7 @@
         "tone": 1
       },
       {
-        "annotation": "kvinde med bold: medium til lys teint",
+        "annotation": "kvinde, der dribler med en bold: medium til lys teint",
         "name": "PERSON WITH BALL, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "26F9-1F3FC-200D-2640-FE0F",
         "shortcodes": [
@@ -26520,7 +26521,7 @@
         "tone": 2
       },
       {
-        "annotation": "kvinde med bold: medium teint",
+        "annotation": "kvinde, der dribler med en bold: medium teint",
         "name": "PERSON WITH BALL, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "26F9-1F3FD-200D-2640-FE0F",
         "shortcodes": [
@@ -26537,7 +26538,7 @@
         "tone": 3
       },
       {
-        "annotation": "kvinde med bold: medium til mørk teint",
+        "annotation": "kvinde, der dribler med en bold: medium til mørk teint",
         "name": "PERSON WITH BALL, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "26F9-1F3FE-200D-2640-FE0F",
         "shortcodes": [
@@ -26554,7 +26555,7 @@
         "tone": 4
       },
       {
-        "annotation": "kvinde med bold: mørk teint",
+        "annotation": "kvinde, der dribler med en bold: mørk teint",
         "name": "PERSON WITH BALL, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "26F9-1F3FF-200D-2640-FE0F",
         "shortcodes": [
@@ -27568,7 +27569,7 @@
     "version": 3,
     "skins": [
       {
-        "annotation": "vejrmølle: lys teint",
+        "annotation": "person slår vejrmølle: lys teint",
         "name": "PERSON DOING CARTWHEEL, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F938-1F3FB",
         "shortcodes": [
@@ -27584,7 +27585,7 @@
         "tone": 1
       },
       {
-        "annotation": "vejrmølle: medium til lys teint",
+        "annotation": "person slår vejrmølle: medium til lys teint",
         "name": "PERSON DOING CARTWHEEL, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F938-1F3FC",
         "shortcodes": [
@@ -27600,7 +27601,7 @@
         "tone": 2
       },
       {
-        "annotation": "vejrmølle: medium teint",
+        "annotation": "person slår vejrmølle: medium teint",
         "name": "PERSON DOING CARTWHEEL, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F938-1F3FD",
         "shortcodes": [
@@ -27616,7 +27617,7 @@
         "tone": 3
       },
       {
-        "annotation": "vejrmølle: medium til mørk teint",
+        "annotation": "person slår vejrmølle: medium til mørk teint",
         "name": "PERSON DOING CARTWHEEL, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F938-1F3FE",
         "shortcodes": [
@@ -27632,7 +27633,7 @@
         "tone": 4
       },
       {
-        "annotation": "vejrmølle: mørk teint",
+        "annotation": "person slår vejrmølle: mørk teint",
         "name": "PERSON DOING CARTWHEEL, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F938-1F3FF",
         "shortcodes": [
@@ -27953,7 +27954,7 @@
     "version": 3,
     "skins": [
       {
-        "annotation": "vandpolo: lys teint",
+        "annotation": "vandpolospiller: lys teint",
         "name": "WATER POLO, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F93D-1F3FB",
         "shortcodes": [
@@ -27969,7 +27970,7 @@
         "tone": 1
       },
       {
-        "annotation": "vandpolo: medium til lys teint",
+        "annotation": "vandpolospiller: medium til lys teint",
         "name": "WATER POLO, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F93D-1F3FC",
         "shortcodes": [
@@ -27985,7 +27986,7 @@
         "tone": 2
       },
       {
-        "annotation": "vandpolo: medium teint",
+        "annotation": "vandpolospiller: medium teint",
         "name": "WATER POLO, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F93D-1F3FD",
         "shortcodes": [
@@ -28001,7 +28002,7 @@
         "tone": 3
       },
       {
-        "annotation": "vandpolo: medium til mørk teint",
+        "annotation": "vandpolospiller: medium til mørk teint",
         "name": "WATER POLO, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F93D-1F3FE",
         "shortcodes": [
@@ -28017,7 +28018,7 @@
         "tone": 4
       },
       {
-        "annotation": "vandpolo: mørk teint",
+        "annotation": "vandpolospiller: mørk teint",
         "name": "WATER POLO, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F93D-1F3FF",
         "shortcodes": [
@@ -28269,7 +28270,7 @@
     "version": 3,
     "skins": [
       {
-        "annotation": "håndbold: lys teint",
+        "annotation": "håndboldspiller: lys teint",
         "name": "HANDBALL, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F93E-1F3FB",
         "shortcodes": [
@@ -28285,7 +28286,7 @@
         "tone": 1
       },
       {
-        "annotation": "håndbold: medium til lys teint",
+        "annotation": "håndboldspiller: medium til lys teint",
         "name": "HANDBALL, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F93E-1F3FC",
         "shortcodes": [
@@ -28301,7 +28302,7 @@
         "tone": 2
       },
       {
-        "annotation": "håndbold: medium teint",
+        "annotation": "håndboldspiller: medium teint",
         "name": "HANDBALL, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F93E-1F3FD",
         "shortcodes": [
@@ -28317,7 +28318,7 @@
         "tone": 3
       },
       {
-        "annotation": "håndbold: medium til mørk teint",
+        "annotation": "håndboldspiller: medium til mørk teint",
         "name": "HANDBALL, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F93E-1F3FE",
         "shortcodes": [
@@ -28333,7 +28334,7 @@
         "tone": 4
       },
       {
-        "annotation": "håndbold: mørk teint",
+        "annotation": "håndboldspiller: mørk teint",
         "name": "HANDBALL, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F93E-1F3FF",
         "shortcodes": [
@@ -28591,7 +28592,7 @@
     "version": 3,
     "skins": [
       {
-        "annotation": "Jonglør: lys teint",
+        "annotation": "jonglør: lys teint",
         "name": "JUGGLING, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F939-1F3FB",
         "shortcodes": [
@@ -28607,7 +28608,7 @@
         "tone": 1
       },
       {
-        "annotation": "Jonglør: medium til lys teint",
+        "annotation": "jonglør: medium til lys teint",
         "name": "JUGGLING, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F939-1F3FC",
         "shortcodes": [
@@ -28623,7 +28624,7 @@
         "tone": 2
       },
       {
-        "annotation": "Jonglør: medium teint",
+        "annotation": "jonglør: medium teint",
         "name": "JUGGLING, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F939-1F3FD",
         "shortcodes": [
@@ -28639,7 +28640,7 @@
         "tone": 3
       },
       {
-        "annotation": "Jonglør: medium til mørk teint",
+        "annotation": "jonglør: medium til mørk teint",
         "name": "JUGGLING, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F939-1F3FE",
         "shortcodes": [
@@ -28655,7 +28656,7 @@
         "tone": 4
       },
       {
-        "annotation": "Jonglør: mørk teint",
+        "annotation": "jonglør: mørk teint",
         "name": "JUGGLING, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F939-1F3FF",
         "shortcodes": [
@@ -29412,21 +29413,12 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "mennesker, der holder hånd",
     "name": "ADULT, HANDSHAKE, ADULT",
     "hexcode": "1F9D1-200D-1F91D-200D-1F9D1",
     "shortcodes": [],
     "tags": [
-      "enighed",
-      "hilsen",
-      "hilser",
-      "hånd",
-      "håndtryk",
-      "hænder",
-      "krop",
-      "mødes",
-      "person",
-      "voksen"
+      "mennesker, der holder hånd"
     ],
     "emoji": "🧑‍🤝‍🧑",
     "text": "",
@@ -29437,7 +29429,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mennesker, der holder hånd: mørk teint og lys teint",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB",
         "shortcodes": [],
@@ -29451,7 +29443,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "mennesker, der holder hånd: mørk teint og medium til lys teint",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC",
         "shortcodes": [],
@@ -29465,7 +29457,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "mennesker, der holder hånd: mørk teint og medium teint",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD",
         "shortcodes": [],
@@ -29479,7 +29471,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "mennesker, der holder hånd: mørk teint og medium til mørk teint",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE",
         "shortcodes": [],
@@ -29493,7 +29485,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "mennesker, der holder hånd: mørk teint",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF",
         "shortcodes": [],
@@ -29527,7 +29519,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "to kvinder hånd i hånd: lys teint",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F46D-1F3FB",
         "shortcodes": [
@@ -29543,7 +29535,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "to kvinder hånd i hånd: medium til lys teint",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F46D-1F3FC",
         "shortcodes": [
@@ -29559,7 +29551,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "to kvinder hånd i hånd: medium teint",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F46D-1F3FD",
         "shortcodes": [
@@ -29575,7 +29567,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "to kvinder hånd i hånd: medium til mørk teint",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F46D-1F3FE",
         "shortcodes": [
@@ -29591,7 +29583,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "to kvinder hånd i hånd: mørk teint",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F46D-1F3FF",
         "shortcodes": [
@@ -29628,7 +29620,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "mand og kvinde hånd i hånd: lys teint",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F46B-1F3FB",
         "shortcodes": [
@@ -29645,7 +29637,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "mand og kvinde hånd i hånd: medium til lys teint",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F46B-1F3FC",
         "shortcodes": [
@@ -29662,7 +29654,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "mand og kvinde hånd i hånd: medium teint",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F46B-1F3FD",
         "shortcodes": [
@@ -29679,7 +29671,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "mand og kvinde hånd i hånd: medium til mørk teint",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F46B-1F3FE",
         "shortcodes": [
@@ -29696,7 +29688,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "mand og kvinde hånd i hånd: mørk teint",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F46B-1F3FF",
         "shortcodes": [
@@ -29722,7 +29714,13 @@
       "holding_hands_mm"
     ],
     "tags": [
-      "par"
+      "hånd i hånd",
+      "mand",
+      "mænd",
+      "par",
+      "stjernetegn",
+      "tvillingen",
+      "tvillinger"
     ],
     "emoji": "👬",
     "text": "",
@@ -29733,7 +29731,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "to mænd hånd i hånd: lys teint",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F46C-1F3FB",
         "shortcodes": [
@@ -29749,7 +29747,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "to mænd hånd i hånd: medium til lys teint",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F46C-1F3FC",
         "shortcodes": [
@@ -29765,7 +29763,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "to mænd hånd i hånd: medium teint",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F46C-1F3FD",
         "shortcodes": [
@@ -29781,7 +29779,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "to mænd hånd i hånd: medium til mørk teint",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F46C-1F3FE",
         "shortcodes": [
@@ -29797,7 +29795,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "to mænd hånd i hånd: mørk teint",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F46C-1F3FF",
         "shortcodes": [
@@ -30772,11 +30770,13 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "orangutang",
     "name": "ORANGUTAN",
     "hexcode": "1F9A7",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "abe"
+    ],
     "emoji": "🦧",
     "text": "",
     "type": 1,
@@ -30826,11 +30826,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "førerhund",
     "name": "GUIDE DOG",
     "hexcode": "1F9AE",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "adgang",
+      "blind"
+    ],
     "emoji": "🦮",
     "text": "",
     "type": 1,
@@ -30840,14 +30843,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "servicehund",
     "name": "DOG, SAFETY VEST",
     "hexcode": "1F415-200D-1F9BA",
     "shortcodes": [],
     "tags": [
-      "dyr",
-      "hund",
-      "kæledyr"
+      "adgang",
+      "førerhund",
+      "hjælp",
+      "hund"
     ],
     "emoji": "🐕‍🦺",
     "text": "",
@@ -30884,8 +30888,6 @@
       "wolf_face"
     ],
     "tags": [
-      "dyr",
-      "hoved",
       "ulv"
     ],
     "emoji": "🐺",
@@ -30904,11 +30906,7 @@
       "fox_face"
     ],
     "tags": [
-      "dyr",
-      "hoved",
-      "listig",
-      "ræv",
-      "snedig"
+      "ræv"
     ],
     "emoji": "🦊",
     "text": "",
@@ -31553,9 +31551,8 @@
       "hamster_face"
     ],
     "tags": [
-      "dyr",
       "hamster",
-      "hoved"
+      "kæledyr"
     ],
     "emoji": "🐹",
     "text": "",
@@ -31683,9 +31680,7 @@
       "bear_face"
     ],
     "tags": [
-      "bjørn",
-      "dyr",
-      "hoved"
+      "bjørn"
     ],
     "emoji": "🐻",
     "text": "",
@@ -31721,8 +31716,6 @@
       "panda_face"
     ],
     "tags": [
-      "dyr",
-      "hoved",
       "panda"
     ],
     "emoji": "🐼",
@@ -31734,11 +31727,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "dovendyr",
     "name": "SLOTH",
     "hexcode": "1F9A5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "doven",
+      "langsom"
+    ],
     "emoji": "🦥",
     "text": "",
     "type": 1,
@@ -31748,11 +31744,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "odder",
     "name": "OTTER",
     "hexcode": "1F9A6",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "fisker",
+      "legesyg"
+    ],
     "emoji": "🦦",
     "text": "",
     "type": 1,
@@ -31762,11 +31761,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "stinkdyr",
     "name": "SKUNK",
     "hexcode": "1F9A8",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "stank"
+    ],
     "emoji": "🦨",
     "text": "",
     "type": 1,
@@ -32101,11 +32102,14 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "flamingo",
     "name": "FLAMINGO",
     "hexcode": "1F9A9",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "flamboyant",
+      "tropisk"
+    ],
     "emoji": "🦩",
     "text": "",
     "type": 1,
@@ -32163,9 +32167,7 @@
       "frog_face"
     ],
     "tags": [
-      "dyr",
-      "frø",
-      "hoved"
+      "frø"
     ],
     "emoji": "🐸",
     "text": "",
@@ -33714,11 +33716,13 @@
     "version": 5
   },
   {
-    "annotation": "",
+    "annotation": "hvidløg",
     "name": "GARLIC",
     "hexcode": "1F9C4",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "smag"
+    ],
     "emoji": "🧄",
     "text": "",
     "type": 1,
@@ -33728,11 +33732,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "løg",
     "name": "ONION",
     "hexcode": "1F9C5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "give smag"
+    ],
     "emoji": "🧅",
     "text": "",
     "type": 1,
@@ -33918,11 +33924,14 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "vaffel",
     "name": "WAFFLE",
     "hexcode": "1F9C7",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "jern",
+      "ubeslutsom"
+    ],
     "emoji": "🧇",
     "text": "",
     "type": 1,
@@ -34183,11 +34192,14 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "falafel",
     "name": "FALAFEL",
     "hexcode": "1F9C6",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "kikært",
+      "kødbolle"
+    ],
     "emoji": "🧆",
     "text": "",
     "type": 1,
@@ -34335,11 +34347,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "smør",
     "name": "BUTTER",
     "hexcode": "1F9C8",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "mejeriprodukt"
+    ],
     "emoji": "🧈",
     "text": "",
     "type": 1,
@@ -34800,11 +34814,14 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "østers",
     "name": "OYSTER",
     "hexcode": "1F9AA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "dykke",
+      "perle"
+    ],
     "emoji": "🦪",
     "text": "",
     "type": 1,
@@ -35360,11 +35377,13 @@
     "version": 5
   },
   {
-    "annotation": "",
+    "annotation": "brik",
     "name": "BEVERAGE BOX",
     "hexcode": "1F9C3",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "juicebrik"
+    ],
     "emoji": "🧃",
     "text": "",
     "type": 1,
@@ -35374,11 +35393,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "mate",
     "name": "MATE DRINK",
     "hexcode": "1F9C9",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "drik"
+    ],
     "emoji": "🧉",
     "text": "",
     "type": 1,
@@ -35388,11 +35409,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "isterning",
     "name": "ICE CUBE",
     "hexcode": "1F9CA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "isbjerg",
+      "kold"
+    ],
     "emoji": "🧊",
     "text": "",
     "type": 1,
@@ -36568,11 +36592,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "hindutempel",
     "name": "HINDU TEMPLE",
     "hexcode": "1F6D5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "hindu",
+      "tempel"
+    ],
     "emoji": "🛕",
     "text": "",
     "type": 1,
@@ -37625,11 +37652,13 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "manuel kørestol",
     "name": "MANUAL WHEELCHAIR",
     "hexcode": "1F9BD",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "handikap"
+    ],
     "emoji": "🦽",
     "text": "",
     "type": 1,
@@ -37639,11 +37668,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "elektrisk kørestol",
     "name": "MOTORIZED WHEELCHAIR",
     "hexcode": "1F9BC",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "handikap"
+    ],
     "emoji": "🦼",
     "text": "",
     "type": 1,
@@ -37653,11 +37684,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "motor-rickshaw",
     "name": "AUTO RICKSHAW",
     "hexcode": "1F6FA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "tuk tuk"
+    ],
     "emoji": "🛺",
     "text": "",
     "type": 1,
@@ -38283,11 +38316,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "faldskærm",
     "name": "PARACHUTE",
     "hexcode": "1FA82",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "hangglider",
+      "paraglider",
+      "skydiver"
+    ],
     "emoji": "🪂",
     "text": "",
     "type": 1,
@@ -39518,11 +39555,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "planet med ringe",
     "name": "RINGED PLANET",
     "hexcode": "1FA90",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "saturn"
+    ],
     "emoji": "🪐",
     "text": "",
     "type": 1,
@@ -41461,11 +41500,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "dykkermaske",
     "name": "DIVING MASK",
     "hexcode": "1F93F",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "dykke",
+      "maske",
+      "snorkel"
+    ],
     "emoji": "🤿",
     "text": "",
     "type": 1,
@@ -41567,11 +41610,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "yoyo",
     "name": "YO-YO",
     "hexcode": "1FA80",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "legetøj"
+    ],
     "emoji": "🪀",
     "text": "",
     "type": 1,
@@ -41581,11 +41626,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "legetøjsdrage",
     "name": "KITE",
     "hexcode": "1FA81",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "flyve",
+      "svæve"
+    ],
     "emoji": "🪁",
     "text": "",
     "type": 1,
@@ -41746,7 +41794,7 @@
     "version": 1
   },
   {
-    "annotation": "puslespil",
+    "annotation": "brik til puslespil",
     "name": "JIGSAW PUZZLE PIECE",
     "hexcode": "1F9E9",
     "shortcodes": [
@@ -41755,6 +41803,7 @@
     ],
     "tags": [
       "brik",
+      "puslespil",
       "sammenhængende",
       "spor"
     ],
@@ -42244,11 +42293,15 @@
     "version": 11
   },
   {
-    "annotation": "",
+    "annotation": "sikkerhedsvest",
     "name": "SAFETY VEST",
     "hexcode": "1F9BA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "nødsituation",
+      "sikkerhed",
+      "vest"
+    ],
     "emoji": "🦺",
     "text": "",
     "type": 1,
@@ -42433,11 +42486,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "sari",
     "name": "SARI",
     "hexcode": "1F97B",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "kjole",
+      "tøj"
+    ],
     "emoji": "🥻",
     "text": "",
     "type": 1,
@@ -42447,11 +42503,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "badedragt",
     "name": "ONE-PIECE SWIMSUIT",
     "hexcode": "1FA71",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "badedragt"
+    ],
     "emoji": "🩱",
     "text": "",
     "type": 1,
@@ -42461,11 +42519,15 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "badebukser",
     "name": "BRIEFS",
     "hexcode": "1FA72",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "badetøj",
+      "bikiniunderdel",
+      "undertøj"
+    ],
     "emoji": "🩲",
     "text": "",
     "type": 1,
@@ -42475,11 +42537,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "shorts",
     "name": "SHORTS",
     "hexcode": "1FA73",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "badebukser",
+      "underbukser"
+    ],
     "emoji": "🩳",
     "text": "",
     "type": 1,
@@ -42761,11 +42826,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "balletsko",
     "name": "BALLET SHOES",
     "hexcode": "1FA70",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "ballet",
+      "dans"
+    ],
     "emoji": "🩰",
     "text": "",
     "type": 1,
@@ -43505,11 +43573,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "banjo",
     "name": "BANJO",
     "hexcode": "1FA95",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "musik",
+      "strengeinstrument"
+    ],
     "emoji": "🪕",
     "text": "",
     "type": 1,
@@ -44349,11 +44420,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "diya-lampe",
     "name": "DIYA LAMP",
     "hexcode": "1FA94",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "diya",
+      "lampe",
+      "olielampe"
+    ],
     "emoji": "🪔",
     "text": "",
     "type": 1,
@@ -46164,11 +46239,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "økse",
     "name": "AXE",
     "hexcode": "1FA93",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "kløve brænde",
+      "træ"
+    ],
     "emoji": "🪓",
     "text": "",
     "type": 1,
@@ -46601,11 +46679,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "blindestok",
     "name": "PROBING CANE",
     "hexcode": "1F9AF",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "blind",
+      "handicap"
+    ],
     "emoji": "🦯",
     "text": "",
     "type": 1,
@@ -46892,11 +46973,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "bloddråbe",
     "name": "DROP OF BLOOD",
     "hexcode": "1FA78",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "bloddråbe"
+    ],
     "emoji": "🩸",
     "text": "",
     "type": 1,
@@ -46925,11 +47008,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "plaster",
     "name": "ADHESIVE BANDAGE",
     "hexcode": "1FA79",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "plaster"
+    ],
     "emoji": "🩹",
     "text": "",
     "type": 1,
@@ -46939,11 +47024,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "stetoskop",
     "name": "STETHOSCOPE",
     "hexcode": "1FA7A",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "stetoskop"
+    ],
     "emoji": "🩺",
     "text": "",
     "type": 1,
@@ -47045,11 +47132,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "stol",
     "name": "CHAIR",
     "hexcode": "1FA91",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "stol"
+    ],
     "emoji": "🪑",
     "text": "",
     "type": 1,
@@ -47114,11 +47203,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "ragekniv",
     "name": "RAZOR",
     "hexcode": "1FA92",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "ragekniv"
+    ],
     "emoji": "🪒",
     "text": "",
     "type": 1,
@@ -50256,10 +50347,9 @@
     "hexcode": "2611-FE0F",
     "shortcodes": [],
     "tags": [
-      "afkrydsning",
+      "felt",
       "flueben",
-      "markere",
-      "stemme"
+      "✓"
     ],
     "emoji": "☑️",
     "text": "",
@@ -50277,10 +50367,9 @@
       "checked_ballot"
     ],
     "tags": [
-      "afkrydsning",
+      "felt",
       "flueben",
-      "markere",
-      "stemme"
+      "✓"
     ],
     "emoji": "☑️",
     "text": "☑︎",
@@ -50291,12 +50380,13 @@
     "version": 1
   },
   {
-    "annotation": "stort flueben",
+    "annotation": "flueben",
     "name": "HEAVY CHECK MARK",
     "hexcode": "2714-FE0F",
     "shortcodes": [],
     "tags": [
-      "flueben"
+      "markering",
+      "✓"
     ],
     "emoji": "✔️",
     "text": "",
@@ -50307,14 +50397,15 @@
     "version": 12
   },
   {
-    "annotation": "stort flueben",
+    "annotation": "flueben",
     "name": "HEAVY CHECK MARK",
     "hexcode": "2714",
     "shortcodes": [
       "check_mark"
     ],
     "tags": [
-      "flueben"
+      "markering",
+      "✓"
     ],
     "emoji": "✔️",
     "text": "✔︎",
@@ -50325,17 +50416,17 @@
     "version": 1
   },
   {
-    "annotation": "stort kryds",
+    "annotation": "multiplikationstegn",
     "name": "HEAVY MULTIPLICATION X",
     "hexcode": "2716-FE0F",
     "shortcodes": [],
     "tags": [
       "annuller",
       "gange",
-      "gangetegn",
-      "multiplicer",
       "multiplikation",
-      "x"
+      "tegn",
+      "x",
+      "×"
     ],
     "emoji": "✖️",
     "text": "",
@@ -50346,7 +50437,7 @@
     "version": 12
   },
   {
-    "annotation": "stort kryds",
+    "annotation": "multiplikationstegn",
     "name": "HEAVY MULTIPLICATION X",
     "hexcode": "2716",
     "shortcodes": [
@@ -50355,10 +50446,10 @@
     "tags": [
       "annuller",
       "gange",
-      "gangetegn",
-      "multiplicer",
       "multiplikation",
-      "x"
+      "tegn",
+      "x",
+      "×"
     ],
     "emoji": "✖️",
     "text": "✖︎",
@@ -50379,10 +50470,10 @@
     "tags": [
       "annuller",
       "gange",
-      "multiplicer",
+      "markering",
       "multiplikation",
-      "mærke",
-      "x"
+      "x",
+      "×"
     ],
     "emoji": "❌",
     "text": "",
@@ -50413,14 +50504,17 @@
     "version": 1
   },
   {
-    "annotation": "plus",
+    "annotation": "plustegn",
     "name": "HEAVY PLUS SIGN",
     "hexcode": "2795",
     "shortcodes": [
       "plus"
     ],
     "tags": [
-      "plustegn"
+      "+",
+      "matematik",
+      "plus",
+      "tegn"
     ],
     "emoji": "➕",
     "text": "",
@@ -50431,14 +50525,18 @@
     "version": 1
   },
   {
-    "annotation": "minus",
+    "annotation": "minustegn",
     "name": "HEAVY MINUS SIGN",
     "hexcode": "2796",
     "shortcodes": [
       "minus"
     ],
     "tags": [
-      "minustegn"
+      "-",
+      "matematik",
+      "minus",
+      "tegn",
+      "−"
     ],
     "emoji": "➖",
     "text": "",
@@ -50449,14 +50547,17 @@
     "version": 1
   },
   {
-    "annotation": "division",
+    "annotation": "divisionstegn",
     "name": "HEAVY DIVISION SIGN",
     "hexcode": "2797",
     "shortcodes": [
       "division"
     ],
     "tags": [
-      "divisionstegn"
+      "division",
+      "matematik",
+      "tegn",
+      "÷"
     ],
     "emoji": "➗",
     "text": "",
@@ -50550,8 +50651,8 @@
     "hexcode": "2733-FE0F",
     "shortcodes": [],
     "tags": [
-      "asterisk",
-      "stjerne"
+      "*",
+      "asterisk"
     ],
     "emoji": "✳️",
     "text": "",
@@ -50569,8 +50670,8 @@
       "eight_spoked_asterisk"
     ],
     "tags": [
-      "asterisk",
-      "stjerne"
+      "*",
+      "asterisk"
     ],
     "emoji": "✳️",
     "text": "✳︎",
@@ -50586,6 +50687,7 @@
     "hexcode": "2734-FE0F",
     "shortcodes": [],
     "tags": [
+      "*",
       "stjerne"
     ],
     "emoji": "✴️",
@@ -50604,6 +50706,7 @@
       "eight_pointed_star"
     ],
     "tags": [
+      "*",
       "stjerne"
     ],
     "emoji": "✴️",
@@ -50620,10 +50723,7 @@
     "hexcode": "2747-FE0F",
     "shortcodes": [],
     "tags": [
-      "funklen",
-      "glans",
-      "glitter",
-      "stråle"
+      "*"
     ],
     "emoji": "❇️",
     "text": "",
@@ -50641,10 +50741,7 @@
       "sparkle"
     ],
     "tags": [
-      "funklen",
-      "glans",
-      "glitter",
-      "stråle"
+      "*"
     ],
     "emoji": "❇️",
     "text": "❇︎",
@@ -50660,6 +50757,8 @@
     "hexcode": "203C-FE0F",
     "shortcodes": [],
     "tags": [
+      "!",
+      "!!",
       "tegnsætning",
       "udråbstegn"
     ],
@@ -50680,6 +50779,8 @@
       "double_exclamation"
     ],
     "tags": [
+      "!",
+      "!!",
       "tegnsætning",
       "udråbstegn"
     ],
@@ -50740,6 +50841,7 @@
       "question"
     ],
     "tags": [
+      "?",
       "spørgsmål",
       "tegn",
       "tegnsætning"
@@ -52130,11 +52232,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "orange cirkel",
     "name": "LARGE ORANGE CIRCLE",
     "hexcode": "1F7E0",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "orange cirkel"
+    ],
     "emoji": "🟠",
     "text": "",
     "type": 1,
@@ -52144,11 +52248,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "gul cirkel",
     "name": "LARGE YELLOW CIRCLE",
     "hexcode": "1F7E1",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "gul cirkel"
+    ],
     "emoji": "🟡",
     "text": "",
     "type": 1,
@@ -52158,11 +52264,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "grøn cirkel",
     "name": "LARGE GREEN CIRCLE",
     "hexcode": "1F7E2",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "grøn cirkel"
+    ],
     "emoji": "🟢",
     "text": "",
     "type": 1,
@@ -52192,11 +52300,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "lille cirkel",
     "name": "LARGE PURPLE CIRCLE",
     "hexcode": "1F7E3",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "lille cirkel"
+    ],
     "emoji": "🟣",
     "text": "",
     "type": 1,
@@ -52206,11 +52316,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "brun cirkel",
     "name": "LARGE BROWN CIRCLE",
     "hexcode": "1F7E4",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "brun cirkel"
+    ],
     "emoji": "🟤",
     "text": "",
     "type": 1,
@@ -52258,11 +52370,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "rød firkant",
     "name": "LARGE RED SQUARE",
     "hexcode": "1F7E5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "firkant",
+      "rød"
+    ],
     "emoji": "🟥",
     "text": "",
     "type": 1,
@@ -52272,11 +52387,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "orange firkant",
     "name": "LARGE ORANGE SQUARE",
     "hexcode": "1F7E7",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "firkant",
+      "orange"
+    ],
     "emoji": "🟧",
     "text": "",
     "type": 1,
@@ -52286,11 +52404,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "gul firkant",
     "name": "LARGE YELLOW SQUARE",
     "hexcode": "1F7E8",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "firkant",
+      "gul"
+    ],
     "emoji": "🟨",
     "text": "",
     "type": 1,
@@ -52300,11 +52421,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "grøn firkant",
     "name": "LARGE GREEN SQUARE",
     "hexcode": "1F7E9",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "firkant",
+      "grøn"
+    ],
     "emoji": "🟩",
     "text": "",
     "type": 1,
@@ -52314,11 +52438,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "blå firkant",
     "name": "LARGE BLUE SQUARE",
     "hexcode": "1F7E6",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "blå",
+      "firkant"
+    ],
     "emoji": "🟦",
     "text": "",
     "type": 1,
@@ -52328,11 +52455,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "lilla firkant",
     "name": "LARGE PURPLE SQUARE",
     "hexcode": "1F7EA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "firkant",
+      "lilla"
+    ],
     "emoji": "🟪",
     "text": "",
     "type": 1,
@@ -52342,11 +52472,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "brun firkant",
     "name": "LARGE BROWN SQUARE",
     "hexcode": "1F7EB",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "brun",
+      "firkant"
+    ],
     "emoji": "🟫",
     "text": "",
     "type": 1,
@@ -57066,7 +57199,7 @@
     "version": 1
   },
   {
-    "annotation": "flag: Swaziland",
+    "annotation": "flag: Eswatini",
     "name": "FLAG: ESWATINI",
     "hexcode": "1F1F8-1F1FF",
     "shortcodes": [
@@ -57142,7 +57275,7 @@
     "version": 1
   },
   {
-    "annotation": "flag: De franske besiddelser i Det Sydlige Indiske Ocean",
+    "annotation": "flag: De Franske Besiddelser i Det Sydlige Indiske Ocean",
     "name": "FLAG: FRENCH SOUTHERN TERRITORIES",
     "hexcode": "1F1F9-1F1EB",
     "shortcodes": [

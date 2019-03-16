@@ -416,7 +416,7 @@
     "emoticon": "o:)"
   },
   {
-    "annotation": "하트 4개와 함께 웃는 얼굴",
+    "annotation": "하트와 함께 웃는 얼굴",
     "name": "SMILING FACE WITH SMILING EYES AND THREE HEARTS",
     "hexcode": "1F970",
     "shortcodes": [
@@ -1938,11 +1938,15 @@
     "emoticon": ":c"
   },
   {
-    "annotation": "",
+    "annotation": "하품하는 얼굴",
     "name": "YAWNING FACE",
     "hexcode": "1F971",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "지루함",
+      "피곤함",
+      "하품"
+    ],
     "emoji": "🥱",
     "text": "",
     "type": 1,
@@ -2917,11 +2921,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "갈색 하트",
     "name": "BROWN HEART",
     "hexcode": "1F90E",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "갈색",
+      "하트"
+    ],
     "emoji": "🤎",
     "text": "",
     "type": 1,
@@ -2952,11 +2959,14 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "흰색 하트",
     "name": "WHITE HEART",
     "hexcode": "1F90D",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "하트",
+      "흰색"
+    ],
     "emoji": "🤍",
     "text": "",
     "type": 1,
@@ -3904,11 +3914,13 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "꼬집는 손",
     "name": "PINCHING HAND",
     "hexcode": "1F90F",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "적은 양을 나타내는 손"
+    ],
     "emoji": "🤏",
     "text": "",
     "type": 1,
@@ -3918,7 +3930,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "꼬집는 손: 하얀 피부",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F90F-1F3FB",
         "shortcodes": [],
@@ -3932,7 +3944,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "꼬집는 손: 연한 갈색 피부",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F90F-1F3FC",
         "shortcodes": [],
@@ -3946,7 +3958,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "꼬집는 손: 갈색 피부",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F90F-1F3FD",
         "shortcodes": [],
@@ -3960,7 +3972,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "꼬집는 손: 진한 갈색 피부",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F90F-1F3FE",
         "shortcodes": [],
@@ -3974,7 +3986,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "꼬집는 손: 검은색 피부",
         "name": "PINCHING HAND, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F90F-1F3FF",
         "shortcodes": [],
@@ -6748,11 +6760,13 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "기계 팔",
     "name": "MECHANICAL ARM",
     "hexcode": "1F9BE",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "인공 팔"
+    ],
     "emoji": "🦾",
     "text": "",
     "type": 1,
@@ -6762,11 +6776,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "인공 다리",
     "name": "MECHANICAL LEG",
     "hexcode": "1F9BF",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "인공 기관",
+      "접근성"
+    ],
     "emoji": "🦿",
     "text": "",
     "type": 1,
@@ -7079,11 +7096,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "보청기를 낀 귀",
     "name": "EAR WITH HEARING AID",
     "hexcode": "1F9BB",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "접근성",
+      "청각장애"
+    ],
     "emoji": "🦻",
     "text": "",
     "type": 1,
@@ -7093,7 +7113,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "보청기를 낀 귀: 하얀 피부",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9BB-1F3FB",
         "shortcodes": [],
@@ -7107,7 +7127,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "보청기를 낀 귀: 연한 갈색 피부",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9BB-1F3FC",
         "shortcodes": [],
@@ -7121,7 +7141,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "보청기를 낀 귀: 갈색 피부",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9BB-1F3FD",
         "shortcodes": [],
@@ -7135,7 +7155,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "보청기를 낀 귀: 진한 갈색 피부",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9BB-1F3FE",
         "shortcodes": [],
@@ -7149,7 +7169,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "보청기를 낀 귀: 검은색 피부",
         "name": "EAR WITH HEARING AID, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9BB-1F3FF",
         "shortcodes": [],
@@ -11575,11 +11595,16 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "청각 장애가 있는 사람",
     "name": "DEAF PERSON",
     "hexcode": "1F9CF",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "귀",
+      "접근성",
+      "청각장애",
+      "청력"
+    ],
     "emoji": "🧏",
     "text": "",
     "type": 1,
@@ -11589,7 +11614,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "청각 장애가 있는 사람: 하얀 피부",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CF-1F3FB",
         "shortcodes": [],
@@ -11603,7 +11628,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "청각 장애가 있는 사람: 연한 갈색 피부",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CF-1F3FC",
         "shortcodes": [],
@@ -11617,7 +11642,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "청각 장애가 있는 사람: 갈색 피부",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CF-1F3FD",
         "shortcodes": [],
@@ -11631,7 +11656,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "청각 장애가 있는 사람: 진한 갈색 피부",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CF-1F3FE",
         "shortcodes": [],
@@ -11645,7 +11670,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "청각 장애가 있는 사람: 검은색 피부",
         "name": "DEAF PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CF-1F3FF",
         "shortcodes": [],
@@ -11661,13 +11686,13 @@
     ]
   },
   {
-    "annotation": "남자",
+    "annotation": "청각장애가 있는 남자",
     "name": "DEAF PERSON, MALE SIGN",
     "hexcode": "1F9CF-200D-2642-FE0F",
     "shortcodes": [],
     "tags": [
-      "기호",
-      "남성"
+      "남자",
+      "청각장애"
     ],
     "emoji": "🧏‍♂️",
     "text": "",
@@ -11679,7 +11704,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "남자: 하얀 피부",
+        "annotation": "청각장애가 있는 남자: 하얀 피부",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CF-1F3FB-200D-2642-FE0F",
         "shortcodes": [],
@@ -11694,7 +11719,7 @@
         "tone": 1
       },
       {
-        "annotation": "남자: 연한 갈색 피부",
+        "annotation": "청각장애가 있는 남자: 연한 갈색 피부",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CF-1F3FC-200D-2642-FE0F",
         "shortcodes": [],
@@ -11709,7 +11734,7 @@
         "tone": 2
       },
       {
-        "annotation": "남자: 갈색 피부",
+        "annotation": "청각장애가 있는 남자: 갈색 피부",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CF-1F3FD-200D-2642-FE0F",
         "shortcodes": [],
@@ -11724,7 +11749,7 @@
         "tone": 3
       },
       {
-        "annotation": "남자: 진한 갈색 피부",
+        "annotation": "청각장애가 있는 남자: 진한 갈색 피부",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CF-1F3FE-200D-2642-FE0F",
         "shortcodes": [],
@@ -11739,7 +11764,7 @@
         "tone": 4
       },
       {
-        "annotation": "남자: 검은색 피부",
+        "annotation": "청각장애가 있는 남자: 검은색 피부",
         "name": "DEAF PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CF-1F3FF-200D-2642-FE0F",
         "shortcodes": [],
@@ -11756,13 +11781,13 @@
     ]
   },
   {
-    "annotation": "여자",
+    "annotation": "청각장애가 있는 여자",
     "name": "DEAF PERSON, FEMALE SIGN",
     "hexcode": "1F9CF-200D-2640-FE0F",
     "shortcodes": [],
     "tags": [
-      "기호",
-      "여성"
+      "여자",
+      "청각장애"
     ],
     "emoji": "🧏‍♀️",
     "text": "",
@@ -11774,7 +11799,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "여자: 하얀 피부",
+        "annotation": "청각장애가 있는 여자: 하얀 피부",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CF-1F3FB-200D-2640-FE0F",
         "shortcodes": [],
@@ -11789,7 +11814,7 @@
         "tone": 1
       },
       {
-        "annotation": "여자: 연한 갈색 피부",
+        "annotation": "청각장애가 있는 여자: 연한 갈색 피부",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CF-1F3FC-200D-2640-FE0F",
         "shortcodes": [],
@@ -11804,7 +11829,7 @@
         "tone": 2
       },
       {
-        "annotation": "여자: 갈색 피부",
+        "annotation": "청각장애가 있는 여자: 갈색 피부",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CF-1F3FD-200D-2640-FE0F",
         "shortcodes": [],
@@ -11819,7 +11844,7 @@
         "tone": 3
       },
       {
-        "annotation": "여자: 진한 갈색 피부",
+        "annotation": "청각장애가 있는 여자: 진한 갈색 피부",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CF-1F3FE-200D-2640-FE0F",
         "shortcodes": [],
@@ -11834,7 +11859,7 @@
         "tone": 4
       },
       {
-        "annotation": "여자: 검은색 피부",
+        "annotation": "청각장애가 있는 여자: 검은색 피부",
         "name": "DEAF PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CF-1F3FF-200D-2640-FE0F",
         "shortcodes": [],
@@ -22167,11 +22192,13 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "서 있는 사람",
     "name": "STANDING PERSON",
     "hexcode": "1F9CD",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "서 있는"
+    ],
     "emoji": "🧍",
     "text": "",
     "type": 1,
@@ -22181,7 +22208,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "서 있는 사람: 하얀 피부",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CD-1F3FB",
         "shortcodes": [],
@@ -22195,7 +22222,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "서 있는 사람: 연한 갈색 피부",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CD-1F3FC",
         "shortcodes": [],
@@ -22209,7 +22236,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "서 있는 사람: 갈색 피부",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CD-1F3FD",
         "shortcodes": [],
@@ -22223,7 +22250,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "서 있는 사람: 진한 갈색 피부",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CD-1F3FE",
         "shortcodes": [],
@@ -22237,7 +22264,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "서 있는 사람: 검은색 피부",
         "name": "STANDING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CD-1F3FF",
         "shortcodes": [],
@@ -22253,13 +22280,13 @@
     ]
   },
   {
-    "annotation": "남자",
+    "annotation": "서 있는 남자",
     "name": "STANDING PERSON, MALE SIGN",
     "hexcode": "1F9CD-200D-2642-FE0F",
     "shortcodes": [],
     "tags": [
-      "기호",
-      "남성"
+      "남자",
+      "서 있는"
     ],
     "emoji": "🧍‍♂️",
     "text": "",
@@ -22271,7 +22298,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "남자: 하얀 피부",
+        "annotation": "서 있는 남자: 하얀 피부",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CD-1F3FB-200D-2642-FE0F",
         "shortcodes": [],
@@ -22286,7 +22313,7 @@
         "tone": 1
       },
       {
-        "annotation": "남자: 연한 갈색 피부",
+        "annotation": "서 있는 남자: 연한 갈색 피부",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CD-1F3FC-200D-2642-FE0F",
         "shortcodes": [],
@@ -22301,7 +22328,7 @@
         "tone": 2
       },
       {
-        "annotation": "남자: 갈색 피부",
+        "annotation": "서 있는 남자: 갈색 피부",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CD-1F3FD-200D-2642-FE0F",
         "shortcodes": [],
@@ -22316,7 +22343,7 @@
         "tone": 3
       },
       {
-        "annotation": "남자: 진한 갈색 피부",
+        "annotation": "서 있는 남자: 진한 갈색 피부",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CD-1F3FE-200D-2642-FE0F",
         "shortcodes": [],
@@ -22331,7 +22358,7 @@
         "tone": 4
       },
       {
-        "annotation": "남자: 검은색 피부",
+        "annotation": "서 있는 남자: 검은색 피부",
         "name": "STANDING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CD-1F3FF-200D-2642-FE0F",
         "shortcodes": [],
@@ -22348,13 +22375,13 @@
     ]
   },
   {
-    "annotation": "여자",
+    "annotation": "서 있는 여자",
     "name": "STANDING PERSON, FEMALE SIGN",
     "hexcode": "1F9CD-200D-2640-FE0F",
     "shortcodes": [],
     "tags": [
-      "기호",
-      "여성"
+      "서 있는",
+      "여자"
     ],
     "emoji": "🧍‍♀️",
     "text": "",
@@ -22366,7 +22393,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "여자: 하얀 피부",
+        "annotation": "서 있는 여자: 하얀 피부",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CD-1F3FB-200D-2640-FE0F",
         "shortcodes": [],
@@ -22381,7 +22408,7 @@
         "tone": 1
       },
       {
-        "annotation": "여자: 연한 갈색 피부",
+        "annotation": "서 있는 여자: 연한 갈색 피부",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CD-1F3FC-200D-2640-FE0F",
         "shortcodes": [],
@@ -22396,7 +22423,7 @@
         "tone": 2
       },
       {
-        "annotation": "여자: 갈색 피부",
+        "annotation": "서 있는 여자: 갈색 피부",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CD-1F3FD-200D-2640-FE0F",
         "shortcodes": [],
@@ -22411,7 +22438,7 @@
         "tone": 3
       },
       {
-        "annotation": "여자: 진한 갈색 피부",
+        "annotation": "서 있는 여자: 진한 갈색 피부",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CD-1F3FE-200D-2640-FE0F",
         "shortcodes": [],
@@ -22426,7 +22453,7 @@
         "tone": 4
       },
       {
-        "annotation": "여자: 검은색 피부",
+        "annotation": "서 있는 여자: 검은색 피부",
         "name": "STANDING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CD-1F3FF-200D-2640-FE0F",
         "shortcodes": [],
@@ -22443,11 +22470,13 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "무릎을 꿇은 사람",
     "name": "KNEELING PERSON",
     "hexcode": "1F9CE",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "무릎을 꿇은"
+    ],
     "emoji": "🧎",
     "text": "",
     "type": 1,
@@ -22457,7 +22486,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "무릎을 꿇은 사람: 하얀 피부",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CE-1F3FB",
         "shortcodes": [],
@@ -22471,7 +22500,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "무릎을 꿇은 사람: 연한 갈색 피부",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CE-1F3FC",
         "shortcodes": [],
@@ -22485,7 +22514,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "무릎을 꿇은 사람: 갈색 피부",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CE-1F3FD",
         "shortcodes": [],
@@ -22499,7 +22528,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "무릎을 꿇은 사람: 진한 갈색 피부",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CE-1F3FE",
         "shortcodes": [],
@@ -22513,7 +22542,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "무릎을 꿇은 사람: 검은색 피부",
         "name": "KNEELING PERSON, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CE-1F3FF",
         "shortcodes": [],
@@ -22529,13 +22558,13 @@
     ]
   },
   {
-    "annotation": "남자",
+    "annotation": "무릎을 꿇은 남자",
     "name": "KNEELING PERSON, MALE SIGN",
     "hexcode": "1F9CE-200D-2642-FE0F",
     "shortcodes": [],
     "tags": [
-      "기호",
-      "남성"
+      "남자",
+      "무릎을 꿇은"
     ],
     "emoji": "🧎‍♂️",
     "text": "",
@@ -22547,7 +22576,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "남자: 하얀 피부",
+        "annotation": "무릎을 꿇은 남자: 하얀 피부",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CE-1F3FB-200D-2642-FE0F",
         "shortcodes": [],
@@ -22562,7 +22591,7 @@
         "tone": 1
       },
       {
-        "annotation": "남자: 연한 갈색 피부",
+        "annotation": "무릎을 꿇은 남자: 연한 갈색 피부",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CE-1F3FC-200D-2642-FE0F",
         "shortcodes": [],
@@ -22577,7 +22606,7 @@
         "tone": 2
       },
       {
-        "annotation": "남자: 갈색 피부",
+        "annotation": "무릎을 꿇은 남자: 갈색 피부",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CE-1F3FD-200D-2642-FE0F",
         "shortcodes": [],
@@ -22592,7 +22621,7 @@
         "tone": 3
       },
       {
-        "annotation": "남자: 진한 갈색 피부",
+        "annotation": "무릎을 꿇은 남자: 진한 갈색 피부",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CE-1F3FE-200D-2642-FE0F",
         "shortcodes": [],
@@ -22607,7 +22636,7 @@
         "tone": 4
       },
       {
-        "annotation": "남자: 검은색 피부",
+        "annotation": "무릎을 꿇은 남자: 검은색 피부",
         "name": "KNEELING PERSON, MALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CE-1F3FF-200D-2642-FE0F",
         "shortcodes": [],
@@ -22624,13 +22653,13 @@
     ]
   },
   {
-    "annotation": "여자",
+    "annotation": "무릎을 꿇은 여자",
     "name": "KNEELING PERSON, FEMALE SIGN",
     "hexcode": "1F9CE-200D-2640-FE0F",
     "shortcodes": [],
     "tags": [
-      "기호",
-      "여성"
+      "무릎을 꿇은",
+      "여자"
     ],
     "emoji": "🧎‍♀️",
     "text": "",
@@ -22642,7 +22671,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "여자: 하얀 피부",
+        "annotation": "무릎을 꿇은 여자: 하얀 피부",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9CE-1F3FB-200D-2640-FE0F",
         "shortcodes": [],
@@ -22657,7 +22686,7 @@
         "tone": 1
       },
       {
-        "annotation": "여자: 연한 갈색 피부",
+        "annotation": "무릎을 꿇은 여자: 연한 갈색 피부",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9CE-1F3FC-200D-2640-FE0F",
         "shortcodes": [],
@@ -22672,7 +22701,7 @@
         "tone": 2
       },
       {
-        "annotation": "여자: 갈색 피부",
+        "annotation": "무릎을 꿇은 여자: 갈색 피부",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9CE-1F3FD-200D-2640-FE0F",
         "shortcodes": [],
@@ -22687,7 +22716,7 @@
         "tone": 3
       },
       {
-        "annotation": "여자: 진한 갈색 피부",
+        "annotation": "무릎을 꿇은 여자: 진한 갈색 피부",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9CE-1F3FE-200D-2640-FE0F",
         "shortcodes": [],
@@ -22702,7 +22731,7 @@
         "tone": 4
       },
       {
-        "annotation": "여자: 검은색 피부",
+        "annotation": "무릎을 꿇은 여자: 검은색 피부",
         "name": "KNEELING PERSON, FEMALE SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9CE-1F3FF-200D-2640-FE0F",
         "shortcodes": [],
@@ -22719,14 +22748,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "지팡이를 든 남자",
     "name": "MAN, PROBING CANE",
     "hexcode": "1F468-200D-1F9AF",
     "shortcodes": [],
     "tags": [
-      "남성",
       "남자",
-      "성인"
+      "시각장애",
+      "접근성"
     ],
     "emoji": "👨‍🦯",
     "text": "",
@@ -22737,7 +22766,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "지팡이를 든 남자: 하얀 피부",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F468-1F3FB-200D-1F9AF",
         "shortcodes": [],
@@ -22751,7 +22780,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "지팡이를 든 남자: 연한 갈색 피부",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F468-1F3FC-200D-1F9AF",
         "shortcodes": [],
@@ -22765,7 +22794,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "지팡이를 든 남자: 갈색 피부",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F468-1F3FD-200D-1F9AF",
         "shortcodes": [],
@@ -22779,7 +22808,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "지팡이를 든 남자: 진한 갈색 피부",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F468-1F3FE-200D-1F9AF",
         "shortcodes": [],
@@ -22793,7 +22822,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "지팡이를 든 남자: 검은색 피부",
         "name": "MAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F468-1F3FF-200D-1F9AF",
         "shortcodes": [],
@@ -22809,14 +22838,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "지팡이를 든 여자",
     "name": "WOMAN, PROBING CANE",
     "hexcode": "1F469-200D-1F9AF",
     "shortcodes": [],
     "tags": [
-      "성인",
-      "여성",
-      "여자"
+      "시각장애",
+      "여자",
+      "접근성"
     ],
     "emoji": "👩‍🦯",
     "text": "",
@@ -22827,7 +22856,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "지팡이를 든 여자: 하얀 피부",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F469-1F3FB-200D-1F9AF",
         "shortcodes": [],
@@ -22841,7 +22870,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "지팡이를 든 여자: 연한 갈색 피부",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F469-1F3FC-200D-1F9AF",
         "shortcodes": [],
@@ -22855,7 +22884,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "지팡이를 든 여자: 갈색 피부",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F469-1F3FD-200D-1F9AF",
         "shortcodes": [],
@@ -22869,7 +22898,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "지팡이를 든 여자: 진한 갈색 피부",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F469-1F3FE-200D-1F9AF",
         "shortcodes": [],
@@ -22883,7 +22912,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "지팡이를 든 여자: 검은색 피부",
         "name": "WOMAN, PROBING CANE, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F469-1F3FF-200D-1F9AF",
         "shortcodes": [],
@@ -22899,14 +22928,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "전동 휠체어를 탄 남자",
     "name": "MAN, MOTORIZED WHEELCHAIR",
     "hexcode": "1F468-200D-1F9BC",
     "shortcodes": [],
     "tags": [
-      "남성",
       "남자",
-      "성인"
+      "접근성",
+      "휠체어"
     ],
     "emoji": "👨‍🦼",
     "text": "",
@@ -22917,7 +22946,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "전동 휠체어를 탄 남자: 하얀 피부",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F468-1F3FB-200D-1F9BC",
         "shortcodes": [],
@@ -22931,7 +22960,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "전동 휠체어를 탄 남자: 연한 갈색 피부",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F468-1F3FC-200D-1F9BC",
         "shortcodes": [],
@@ -22945,7 +22974,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "전동 휠체어를 탄 남자: 갈색 피부",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F468-1F3FD-200D-1F9BC",
         "shortcodes": [],
@@ -22959,7 +22988,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "전동 휠체어를 탄 남자: 진한 갈색 피부",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F468-1F3FE-200D-1F9BC",
         "shortcodes": [],
@@ -22973,7 +23002,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "전동 휠체어를 탄 남자: 검은색 피부",
         "name": "MAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F468-1F3FF-200D-1F9BC",
         "shortcodes": [],
@@ -22989,14 +23018,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "전동 휠체어를 탄 여자",
     "name": "WOMAN, MOTORIZED WHEELCHAIR",
     "hexcode": "1F469-200D-1F9BC",
     "shortcodes": [],
     "tags": [
-      "성인",
-      "여성",
-      "여자"
+      "여자",
+      "접근성",
+      "휠체어"
     ],
     "emoji": "👩‍🦼",
     "text": "",
@@ -23007,7 +23036,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "전동 휠체어를 탄 여자: 하얀 피부",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F469-1F3FB-200D-1F9BC",
         "shortcodes": [],
@@ -23021,7 +23050,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "전동 휠체어를 탄 여자: 연한 갈색 피부",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F469-1F3FC-200D-1F9BC",
         "shortcodes": [],
@@ -23035,7 +23064,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "전동 휠체어를 탄 여자: 갈색 피부",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F469-1F3FD-200D-1F9BC",
         "shortcodes": [],
@@ -23049,7 +23078,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "전동 휠체어를 탄 여자: 진한 갈색 피부",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F469-1F3FE-200D-1F9BC",
         "shortcodes": [],
@@ -23063,7 +23092,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "전동 휠체어를 탄 여자: 검은색 피부",
         "name": "WOMAN, MOTORIZED WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F469-1F3FF-200D-1F9BC",
         "shortcodes": [],
@@ -23079,14 +23108,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "수동 휠체어를 탄 남자",
     "name": "MAN, MANUAL WHEELCHAIR",
     "hexcode": "1F468-200D-1F9BD",
     "shortcodes": [],
     "tags": [
-      "남성",
       "남자",
-      "성인"
+      "접근성",
+      "휠체어"
     ],
     "emoji": "👨‍🦽",
     "text": "",
@@ -23097,7 +23126,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "수동 휠체어를 탄 남자: 하얀 피부",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F468-1F3FB-200D-1F9BD",
         "shortcodes": [],
@@ -23111,7 +23140,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "수동 휠체어를 탄 남자: 연한 갈색 피부",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F468-1F3FC-200D-1F9BD",
         "shortcodes": [],
@@ -23125,7 +23154,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "수동 휠체어를 탄 남자: 갈색 피부",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F468-1F3FD-200D-1F9BD",
         "shortcodes": [],
@@ -23139,7 +23168,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "수동 휠체어를 탄 남자: 진한 갈색 피부",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F468-1F3FE-200D-1F9BD",
         "shortcodes": [],
@@ -23153,7 +23182,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "수동 휠체어를 탄 남자: 검은색 피부",
         "name": "MAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F468-1F3FF-200D-1F9BD",
         "shortcodes": [],
@@ -23169,14 +23198,14 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "수동 휠체어를 탄 여자",
     "name": "WOMAN, MANUAL WHEELCHAIR",
     "hexcode": "1F469-200D-1F9BD",
     "shortcodes": [],
     "tags": [
-      "성인",
-      "여성",
-      "여자"
+      "여자",
+      "접근성",
+      "휠체어"
     ],
     "emoji": "👩‍🦽",
     "text": "",
@@ -23187,7 +23216,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "수동 휠체어를 탄 여자: 하얀 피부",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F469-1F3FB-200D-1F9BD",
         "shortcodes": [],
@@ -23201,7 +23230,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "수동 휠체어를 탄 여자: 연한 갈색 피부",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F469-1F3FC-200D-1F9BD",
         "shortcodes": [],
@@ -23215,7 +23244,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "수동 휠체어를 탄 여자: 갈색 피부",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F469-1F3FD-200D-1F9BD",
         "shortcodes": [],
@@ -23229,7 +23258,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "수동 휠체어를 탄 여자: 진한 갈색 피부",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F469-1F3FE-200D-1F9BD",
         "shortcodes": [],
@@ -23243,7 +23272,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "수동 휠체어를 탄 여자: 검은색 피부",
         "name": "WOMAN, MANUAL WHEELCHAIR, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F469-1F3FF-200D-1F9BD",
         "shortcodes": [],
@@ -23605,7 +23634,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "댄서: 하얀 피부",
+        "annotation": "여자 댄서: 하얀 피부",
         "name": "DANCER, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F483-1F3FB",
         "shortcodes": [
@@ -23622,7 +23651,7 @@
         "tone": 1
       },
       {
-        "annotation": "댄서: 연한 갈색 피부",
+        "annotation": "여자 댄서: 연한 갈색 피부",
         "name": "DANCER, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F483-1F3FC",
         "shortcodes": [
@@ -23639,7 +23668,7 @@
         "tone": 2
       },
       {
-        "annotation": "댄서: 갈색 피부",
+        "annotation": "여자 댄서: 갈색 피부",
         "name": "DANCER, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F483-1F3FD",
         "shortcodes": [
@@ -23656,7 +23685,7 @@
         "tone": 3
       },
       {
-        "annotation": "댄서: 진한 갈색 피부",
+        "annotation": "여자 댄서: 진한 갈색 피부",
         "name": "DANCER, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F483-1F3FE",
         "shortcodes": [
@@ -23673,7 +23702,7 @@
         "tone": 4
       },
       {
-        "annotation": "댄서: 검은색 피부",
+        "annotation": "여자 댄서: 검은색 피부",
         "name": "DANCER, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F483-1F3FF",
         "shortcodes": [
@@ -23716,7 +23745,7 @@
     "version": 3,
     "skins": [
       {
-        "annotation": "춤추는 남자: 하얀 피부",
+        "annotation": "남자 댄서: 하얀 피부",
         "name": "MAN DANCING, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F57A-1F3FB",
         "shortcodes": [
@@ -23732,7 +23761,7 @@
         "tone": 1
       },
       {
-        "annotation": "춤추는 남자: 연한 갈색 피부",
+        "annotation": "남자 댄서: 연한 갈색 피부",
         "name": "MAN DANCING, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F57A-1F3FC",
         "shortcodes": [
@@ -23748,7 +23777,7 @@
         "tone": 2
       },
       {
-        "annotation": "춤추는 남자: 갈색 피부",
+        "annotation": "남자 댄서: 갈색 피부",
         "name": "MAN DANCING, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F57A-1F3FD",
         "shortcodes": [
@@ -23764,7 +23793,7 @@
         "tone": 3
       },
       {
-        "annotation": "춤추는 남자: 진한 갈색 피부",
+        "annotation": "남자 댄서: 진한 갈색 피부",
         "name": "MAN DANCING, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F57A-1F3FE",
         "shortcodes": [
@@ -23780,7 +23809,7 @@
         "tone": 4
       },
       {
-        "annotation": "춤추는 남자: 검은색 피부",
+        "annotation": "남자 댄서: 검은색 피부",
         "name": "MAN DANCING, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F57A-1F3FF",
         "shortcodes": [
@@ -29317,19 +29346,12 @@
     ]
   },
   {
-    "annotation": "",
+    "annotation": "손을 잡고 있는 두 명의 사람",
     "name": "ADULT, HANDSHAKE, ADULT",
     "hexcode": "1F9D1-200D-1F91D-200D-1F9D1",
     "shortcodes": [],
     "tags": [
-      "미팅",
-      "사람",
-      "성별 없음",
-      "성인",
-      "손",
-      "악수",
-      "합의",
-      "회의"
+      "손을 잡고 있는 두 명의 사람"
     ],
     "emoji": "🧑‍🤝‍🧑",
     "text": "",
@@ -29340,7 +29362,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 두 명의 사람: 검은색 피부 하얀 피부",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB",
         "shortcodes": [],
@@ -29354,7 +29376,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 두 명의 사람: 검은색 피부 연한 갈색 피부",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC",
         "shortcodes": [],
@@ -29368,7 +29390,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 두 명의 사람: 검은색 피부 갈색 피부",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD",
         "shortcodes": [],
@@ -29382,7 +29404,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 두 명의 사람: 검은색 피부 진한 갈색 피부",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE",
         "shortcodes": [],
@@ -29396,7 +29418,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 두 명의 사람: 검은색 피부",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF",
         "shortcodes": [],
@@ -29433,7 +29455,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 두 명의 여자: 하얀 피부",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F46D-1F3FB",
         "shortcodes": [
@@ -29449,7 +29471,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 두 명의 여자: 연한 갈색 피부",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F46D-1F3FC",
         "shortcodes": [
@@ -29465,7 +29487,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 두 명의 여자: 갈색 피부",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F46D-1F3FD",
         "shortcodes": [
@@ -29481,7 +29503,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 두 명의 여자: 진한 갈색 피부",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F46D-1F3FE",
         "shortcodes": [
@@ -29497,7 +29519,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 두 명의 여자: 검은색 피부",
         "name": "TWO WOMEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F46D-1F3FF",
         "shortcodes": [
@@ -29536,7 +29558,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 남녀: 하얀 피부",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F46B-1F3FB",
         "shortcodes": [
@@ -29553,7 +29575,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 남녀: 연한 갈색 피부",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F46B-1F3FC",
         "shortcodes": [
@@ -29570,7 +29592,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 남녀: 갈색 피부",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F46B-1F3FD",
         "shortcodes": [
@@ -29587,7 +29609,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 남녀: 진한 갈색 피부",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F46B-1F3FE",
         "shortcodes": [
@@ -29604,7 +29626,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 남녀: 검은색 피부",
         "name": "MAN AND WOMAN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F46B-1F3FF",
         "shortcodes": [
@@ -29644,7 +29666,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 두 명의 남자: 하얀 피부",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F46C-1F3FB",
         "shortcodes": [
@@ -29660,7 +29682,7 @@
         "tone": 1
       },
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 두 명의 남자: 연한 갈색 피부",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F46C-1F3FC",
         "shortcodes": [
@@ -29676,7 +29698,7 @@
         "tone": 2
       },
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 두 명의 남자: 갈색 피부",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F46C-1F3FD",
         "shortcodes": [
@@ -29692,7 +29714,7 @@
         "tone": 3
       },
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 두 명의 남자: 진한 갈색 피부",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F46C-1F3FE",
         "shortcodes": [
@@ -29708,7 +29730,7 @@
         "tone": 4
       },
       {
-        "annotation": "",
+        "annotation": "손을 잡고 있는 두 명의 남자: 검은색 피부",
         "name": "TWO MEN HOLDING HANDS, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F46C-1F3FF",
         "shortcodes": [
@@ -29928,7 +29950,6 @@
     "tags": [
       "가족",
       "남자",
-      "남자 아이",
       "사람들",
       "아빠",
       "아이",
@@ -29957,8 +29978,7 @@
       "아빠",
       "아이",
       "엄마",
-      "여자",
-      "여자 아이"
+      "여자"
     ],
     "emoji": "👨‍👩‍👧",
     "text": "",
@@ -29978,13 +29998,11 @@
     "tags": [
       "가족",
       "남자",
-      "남자 아이",
       "사람들",
       "아빠",
       "아이",
       "엄마",
-      "여자",
-      "여자 아이"
+      "여자"
     ],
     "emoji": "👨‍👩‍👧‍👦",
     "text": "",
@@ -30004,7 +30022,6 @@
     "tags": [
       "가족",
       "남자",
-      "남자 아이",
       "사람들",
       "아빠",
       "아이",
@@ -30033,8 +30050,7 @@
       "아빠",
       "아이",
       "엄마",
-      "여자",
-      "여자 아이"
+      "여자"
     ],
     "emoji": "👨‍👩‍👧‍👧",
     "text": "",
@@ -30054,7 +30070,6 @@
     "tags": [
       "가족",
       "남자",
-      "남자 아이",
       "사람들",
       "아빠",
       "아이",
@@ -30102,7 +30117,6 @@
     "tags": [
       "가족",
       "남자",
-      "남자 아이",
       "사람들",
       "아빠",
       "아이",
@@ -30127,7 +30141,6 @@
     "tags": [
       "가족",
       "남자",
-      "남자 아이",
       "사람들",
       "아빠",
       "아이",
@@ -30202,8 +30215,7 @@
       "아빠",
       "아이",
       "엄마",
-      "여자",
-      "여자 아이"
+      "여자"
     ],
     "emoji": "👩‍👩‍👧",
     "text": "",
@@ -30227,8 +30239,7 @@
       "아빠",
       "아이",
       "엄마",
-      "여자",
-      "여자 아이"
+      "여자"
     ],
     "emoji": "👩‍👩‍👧‍👦",
     "text": "",
@@ -30275,8 +30286,7 @@
       "아빠",
       "아이",
       "엄마",
-      "여자",
-      "여자 아이"
+      "여자"
     ],
     "emoji": "👩‍👩‍👧‍👧",
     "text": "",
@@ -30296,7 +30306,6 @@
     "tags": [
       "가족",
       "남자",
-      "남자 아이",
       "사람들",
       "아빠",
       "아이",
@@ -30320,7 +30329,6 @@
     "tags": [
       "가족",
       "남자",
-      "남자 아이",
       "사람들",
       "아빠",
       "아이",
@@ -30368,7 +30376,6 @@
     "tags": [
       "가족",
       "남자",
-      "남자 아이",
       "사람들",
       "아빠",
       "아이",
@@ -30468,8 +30475,7 @@
       "아빠",
       "아이",
       "엄마",
-      "여자",
-      "여자 아이"
+      "여자"
     ],
     "emoji": "👩‍👧",
     "text": "",
@@ -30493,8 +30499,7 @@
       "아빠",
       "아이",
       "엄마",
-      "여자",
-      "여자 아이"
+      "여자"
     ],
     "emoji": "👩‍👧‍👦",
     "text": "",
@@ -30517,8 +30522,7 @@
       "아빠",
       "아이",
       "엄마",
-      "여자",
-      "여자 아이"
+      "여자"
     ],
     "emoji": "👩‍👧‍👧",
     "text": "",
@@ -30683,11 +30687,13 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "오랑우탄",
     "name": "ORANGUTAN",
     "hexcode": "1F9A7",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "유인원"
+    ],
     "emoji": "🦧",
     "text": "",
     "type": 1,
@@ -30739,11 +30745,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "안내견",
     "name": "GUIDE DOG",
     "hexcode": "1F9AE",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "시각장애",
+      "접근성"
+    ],
     "emoji": "🦮",
     "text": "",
     "type": 1,
@@ -30753,16 +30762,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "보조견",
     "name": "DOG, SAFETY VEST",
     "hexcode": "1F415-200D-1F9BA",
     "shortcodes": [],
     "tags": [
-      "강아지",
-      "개",
-      "개새끼",
-      "동물",
-      "멍멍이"
+      "보조",
+      "접근성"
     ],
     "emoji": "🐕‍🦺",
     "text": "",
@@ -31647,11 +31653,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "나무늘보",
     "name": "SLOTH",
     "hexcode": "1F9A5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "게으른",
+      "느린"
+    ],
     "emoji": "🦥",
     "text": "",
     "type": 1,
@@ -31661,11 +31670,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "수달",
     "name": "OTTER",
     "hexcode": "1F9A6",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "물고기 사냥",
+      "장난꾸러기"
+    ],
     "emoji": "🦦",
     "text": "",
     "type": 1,
@@ -31675,11 +31687,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "스컹크",
     "name": "SKUNK",
     "hexcode": "1F9A8",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "냄새나는"
+    ],
     "emoji": "🦨",
     "text": "",
     "type": 1,
@@ -32011,11 +32025,14 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "홍학",
     "name": "FLAMINGO",
     "hexcode": "1F9A9",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "열대",
+      "플라밍고"
+    ],
     "emoji": "🦩",
     "text": "",
     "type": 1,
@@ -33624,11 +33641,13 @@
     "version": 5
   },
   {
-    "annotation": "",
+    "annotation": "마늘",
     "name": "GARLIC",
     "hexcode": "1F9C4",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "조미료"
+    ],
     "emoji": "🧄",
     "text": "",
     "type": 1,
@@ -33638,11 +33657,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "양파",
     "name": "ONION",
     "hexcode": "1F9C5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "양념"
+    ],
     "emoji": "🧅",
     "text": "",
     "type": 1,
@@ -33826,11 +33847,13 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "와플",
     "name": "WAFFLE",
     "hexcode": "1F9C7",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "와플"
+    ],
     "emoji": "🧇",
     "text": "",
     "type": 1,
@@ -34083,11 +34106,14 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "팔라펠",
     "name": "FALAFEL",
     "hexcode": "1F9C6",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "미트볼",
+      "병아리콩"
+    ],
     "emoji": "🧆",
     "text": "",
     "type": 1,
@@ -34234,11 +34260,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "버터",
     "name": "BUTTER",
     "hexcode": "1F9C8",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "유제품"
+    ],
     "emoji": "🧈",
     "text": "",
     "type": 1,
@@ -34685,11 +34713,13 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "굴",
     "name": "OYSTER",
     "hexcode": "1F9AA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "진주"
+    ],
     "emoji": "🦪",
     "text": "",
     "type": 1,
@@ -35231,11 +35261,13 @@
     "version": 5
   },
   {
-    "annotation": "",
+    "annotation": "음료 팩",
     "name": "BEVERAGE BOX",
     "hexcode": "1F9C3",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "쥬스 팩"
+    ],
     "emoji": "🧃",
     "text": "",
     "type": 1,
@@ -35245,11 +35277,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "마테차",
     "name": "MATE DRINK",
     "hexcode": "1F9C9",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "음료",
+      "차"
+    ],
     "emoji": "🧉",
     "text": "",
     "type": 1,
@@ -35259,11 +35294,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "얼음",
     "name": "ICE CUBE",
     "hexcode": "1F9CA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "각얼음",
+      "차가운"
+    ],
     "emoji": "🧊",
     "text": "",
     "type": 1,
@@ -36439,11 +36477,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "힌두교 사원",
     "name": "HINDU TEMPLE",
     "hexcode": "1F6D5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "사원",
+      "힌두교"
+    ],
     "emoji": "🛕",
     "text": "",
     "type": 1,
@@ -37495,11 +37536,13 @@
     "version": 3
   },
   {
-    "annotation": "",
+    "annotation": "수동 휠체어",
     "name": "MANUAL WHEELCHAIR",
     "hexcode": "1F9BD",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "접근성"
+    ],
     "emoji": "🦽",
     "text": "",
     "type": 1,
@@ -37509,11 +37552,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "전동 휠체어",
     "name": "MOTORIZED WHEELCHAIR",
     "hexcode": "1F9BC",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "접근성"
+    ],
     "emoji": "🦼",
     "text": "",
     "type": 1,
@@ -37523,11 +37568,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "경삼륜차",
     "name": "AUTO RICKSHAW",
     "hexcode": "1F6FA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "툭툭"
+    ],
     "emoji": "🛺",
     "text": "",
     "type": 1,
@@ -38145,11 +38192,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "낙하산",
     "name": "PARACHUTE",
     "hexcode": "1FA82",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "스카이다이빙",
+      "패러세일링",
+      "행글라이더"
+    ],
     "emoji": "🪂",
     "text": "",
     "type": 1,
@@ -39394,11 +39445,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "고리가 있는 행성",
     "name": "RINGED PLANET",
     "hexcode": "1FA90",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "토성"
+    ],
     "emoji": "🪐",
     "text": "",
     "type": 1,
@@ -41290,11 +41343,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "다이빙 마스크",
     "name": "DIVING MASK",
     "hexcode": "1F93F",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "다이빙",
+      "스노클링",
+      "스킨스쿠버"
+    ],
     "emoji": "🤿",
     "text": "",
     "type": 1,
@@ -41401,11 +41458,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "요요",
     "name": "YO-YO",
     "hexcode": "1FA80",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "오르락내리락",
+      "장난감"
+    ],
     "emoji": "🪀",
     "text": "",
     "type": 1,
@@ -41415,11 +41475,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "연",
     "name": "KITE",
     "hexcode": "1FA81",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "연날리기",
+      "활공"
+    ],
     "emoji": "🪁",
     "text": "",
     "type": 1,
@@ -42071,11 +42134,15 @@
     "version": 11
   },
   {
-    "annotation": "",
+    "annotation": "구명조끼",
     "name": "SAFETY VEST",
     "hexcode": "1F9BA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "안전",
+      "응급",
+      "조끼"
+    ],
     "emoji": "🦺",
     "text": "",
     "type": 1,
@@ -42250,11 +42317,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "사리",
     "name": "SARI",
     "hexcode": "1F97B",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "드레스",
+      "의복"
+    ],
     "emoji": "🥻",
     "text": "",
     "type": 1,
@@ -42264,11 +42334,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "원피스 수영복",
     "name": "ONE-PIECE SWIMSUIT",
     "hexcode": "1FA71",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "수영복"
+    ],
     "emoji": "🩱",
     "text": "",
     "type": 1,
@@ -42278,11 +42350,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "삼각 수영복",
     "name": "BRIEFS",
     "hexcode": "1FA72",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "수영복",
+      "언더웨어"
+    ],
     "emoji": "🩲",
     "text": "",
     "type": 1,
@@ -42292,11 +42367,13 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "반바지",
     "name": "SHORTS",
     "hexcode": "1FA73",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "수영복"
+    ],
     "emoji": "🩳",
     "text": "",
     "type": 1,
@@ -42574,11 +42651,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "발레 슈즈",
     "name": "BALLET SHOES",
     "hexcode": "1FA70",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "발레",
+      "춤"
+    ],
     "emoji": "🩰",
     "text": "",
     "type": 1,
@@ -43308,11 +43388,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "밴조",
     "name": "BANJO",
     "hexcode": "1FA95",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "음악",
+      "현악기"
+    ],
     "emoji": "🪕",
     "text": "",
     "type": 1,
@@ -44144,11 +44227,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "기름 램프",
     "name": "DIYA LAMP",
     "hexcode": "1FA94",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "기름",
+      "디야",
+      "램프"
+    ],
     "emoji": "🪔",
     "text": "",
     "type": 1,
@@ -45978,11 +46065,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "도끼",
     "name": "AXE",
     "hexcode": "1FA93",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "나무",
+      "손도끼",
+      "쪼개기"
+    ],
     "emoji": "🪓",
     "text": "",
     "type": 1,
@@ -46393,11 +46484,15 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "시각장애인 지팡이",
     "name": "PROBING CANE",
     "hexcode": "1F9AF",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "시각장애",
+      "접근성",
+      "지팡이"
+    ],
     "emoji": "🦯",
     "text": "",
     "type": 1,
@@ -46682,11 +46777,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "핏방울",
     "name": "DROP OF BLOOD",
     "hexcode": "1FA78",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "생리",
+      "헌혈"
+    ],
     "emoji": "🩸",
     "text": "",
     "type": 1,
@@ -46714,11 +46812,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "반창고",
     "name": "ADHESIVE BANDAGE",
     "hexcode": "1FA79",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "밴드"
+    ],
     "emoji": "🩹",
     "text": "",
     "type": 1,
@@ -46728,11 +46828,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "청진기",
     "name": "STETHOSCOPE",
     "hexcode": "1FA7A",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "심박수",
+      "의사"
+    ],
     "emoji": "🩺",
     "text": "",
     "type": 1,
@@ -46830,11 +46933,13 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "의자",
     "name": "CHAIR",
     "hexcode": "1FA91",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "앉기"
+    ],
     "emoji": "🪑",
     "text": "",
     "type": 1,
@@ -46899,11 +47004,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "면도칼",
     "name": "RAZOR",
     "hexcode": "1FA92",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "날카로운",
+      "면도"
+    ],
     "emoji": "🪒",
     "text": "",
     "type": 1,
@@ -50039,14 +50147,14 @@
     "version": 1
   },
   {
-    "annotation": "엑스",
+    "annotation": "곱하기",
     "name": "HEAVY MULTIPLICATION X",
     "hexcode": "2716-FE0F",
     "shortcodes": [],
     "tags": [
       "곱셈",
       "곱셈기호",
-      "곱하기",
+      "엑스",
       "취소"
     ],
     "emoji": "✖️",
@@ -50058,7 +50166,7 @@
     "version": 12
   },
   {
-    "annotation": "엑스",
+    "annotation": "곱하기",
     "name": "HEAVY MULTIPLICATION X",
     "hexcode": "2716",
     "shortcodes": [
@@ -50067,7 +50175,7 @@
     "tags": [
       "곱셈",
       "곱셈기호",
-      "곱하기",
+      "엑스",
       "취소"
     ],
     "emoji": "✖️",
@@ -51838,11 +51946,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "오렌지색 원",
     "name": "LARGE ORANGE CIRCLE",
     "hexcode": "1F7E0",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "오렌지색",
+      "원"
+    ],
     "emoji": "🟠",
     "text": "",
     "type": 1,
@@ -51852,11 +51963,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "노란색 원",
     "name": "LARGE YELLOW CIRCLE",
     "hexcode": "1F7E1",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "노란색",
+      "원"
+    ],
     "emoji": "🟡",
     "text": "",
     "type": 1,
@@ -51866,11 +51980,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "녹색 원",
     "name": "LARGE GREEN CIRCLE",
     "hexcode": "1F7E2",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "녹색",
+      "원"
+    ],
     "emoji": "🟢",
     "text": "",
     "type": 1,
@@ -51900,11 +52017,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "보라색 원",
     "name": "LARGE PURPLE CIRCLE",
     "hexcode": "1F7E3",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "보라색",
+      "원"
+    ],
     "emoji": "🟣",
     "text": "",
     "type": 1,
@@ -51914,11 +52034,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "갈색 원",
     "name": "LARGE BROWN CIRCLE",
     "hexcode": "1F7E4",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "갈색",
+      "원"
+    ],
     "emoji": "🟤",
     "text": "",
     "type": 1,
@@ -51966,11 +52089,14 @@
     "version": 1
   },
   {
-    "annotation": "",
+    "annotation": "빨간색 사각형",
     "name": "LARGE RED SQUARE",
     "hexcode": "1F7E5",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "빨간색",
+      "사각형"
+    ],
     "emoji": "🟥",
     "text": "",
     "type": 1,
@@ -51980,11 +52106,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "오렌지색 사각형",
     "name": "LARGE ORANGE SQUARE",
     "hexcode": "1F7E7",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "사각형",
+      "오렌지색"
+    ],
     "emoji": "🟧",
     "text": "",
     "type": 1,
@@ -51994,11 +52123,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "노란색 사각형",
     "name": "LARGE YELLOW SQUARE",
     "hexcode": "1F7E8",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "노란색",
+      "사각형"
+    ],
     "emoji": "🟨",
     "text": "",
     "type": 1,
@@ -52008,11 +52140,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "녹색 사각형",
     "name": "LARGE GREEN SQUARE",
     "hexcode": "1F7E9",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "녹색",
+      "사각형"
+    ],
     "emoji": "🟩",
     "text": "",
     "type": 1,
@@ -52022,11 +52157,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "파란색 사각형",
     "name": "LARGE BLUE SQUARE",
     "hexcode": "1F7E6",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "사각형",
+      "파란색"
+    ],
     "emoji": "🟦",
     "text": "",
     "type": 1,
@@ -52036,11 +52174,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "보라색 사각형",
     "name": "LARGE PURPLE SQUARE",
     "hexcode": "1F7EA",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "보라색",
+      "사각형"
+    ],
     "emoji": "🟪",
     "text": "",
     "type": 1,
@@ -52050,11 +52191,14 @@
     "version": 12
   },
   {
-    "annotation": "",
+    "annotation": "갈색 사각형",
     "name": "LARGE BROWN SQUARE",
     "hexcode": "1F7EB",
     "shortcodes": [],
-    "tags": [],
+    "tags": [
+      "갈색",
+      "사각형"
+    ],
     "emoji": "🟫",
     "text": "",
     "type": 1,
@@ -56782,7 +56926,7 @@
     "version": 1
   },
   {
-    "annotation": "깃발: 스와질란드",
+    "annotation": "깃발: 에스와티니",
     "name": "FLAG: ESWATINI",
     "hexcode": "1F1F8-1F1FF",
     "shortcodes": [
