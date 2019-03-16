@@ -3,8 +3,8 @@ import flattenData from '../helpers/flattenData';
 import loadEmojiList from '../loaders/loadEmojiList';
 import { Emoji, EmojiMap, EmojiSource } from '../types';
 
-// This currently logs errors as the source emoji list has been updated with emoji v6,
-// but our files are still v5.
+// This commonly logs errors as the official emoji list is not historical and
+// represents latest and future state.
 export default async function validateDataAgainstOfficialList(data: EmojiMap): Promise<void> {
   const officialSource = await loadEmojiList();
   const emojis = flattenData(data);

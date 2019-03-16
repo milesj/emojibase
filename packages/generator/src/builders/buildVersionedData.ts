@@ -69,7 +69,7 @@ export default async function buildVersionedData(): Promise<{
   }
 
   // Cache the partitioned files
-  writeCache('final-emoji-unicode-versions.json', {
+  await writeCache('final/emoji-unicode-versions.json', {
     emojiVersions,
     unicodeVersions,
   });

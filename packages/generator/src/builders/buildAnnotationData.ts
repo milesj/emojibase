@@ -186,7 +186,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     };
   });
 
-  writeCache(`final-${locale}-annotation-data.json`, data);
+  await writeCache(`final/${locale}-annotation-data.json`, data);
 
   log.success('build', `Built ${locale} annotation data`);
 

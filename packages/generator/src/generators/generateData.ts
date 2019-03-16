@@ -90,7 +90,7 @@ function createEmoji(
     emoji.skins = Object.keys(baseEmoji.modifications).map(skinTone => {
       const skin = createEmoji(baseEmoji.modifications[skinTone], versions, annotations);
 
-      skin.annotation = annotations[stripHexcode(skin.hexcode)].annotation;
+      skin.annotation = (annotations[stripHexcode(skin.hexcode)] || {}).annotation || '';
       skin.shortcodes = (emoji.shortcodes || []).map((code: string) => `${code}_tone${skinTone}`);
 
       // Remove any tags
@@ -105,7 +105,7 @@ function createEmoji(
 
 function createVersionMap(): HexcodeVersionMap {
   const cache: { emojiVersions: VersionMap } | null = readCache(
-    'final-emoji-unicode-versions.json',
+    'final/emoji-unicode-versions.json',
   );
   const versions: HexcodeVersionMap = {};
 
@@ -180,7 +180,7 @@ export default async function generateData(): Promise<void> {
   });
 
   await Promise.all([
-    writeDataset('meta/groups.json', readCache('group-hierarchy.json')),
+    writeDataset('meta/groups.json', readCache('final/group-hierarchy.json')),
     writeDataset('meta/unicode.json', Array.from(unicode)),
     writeDataset('meta/hexcodes.json', Array.from(hexcodes)),
     writeDataset('meta/shortcodes.json', Array.from(shortcodes)),

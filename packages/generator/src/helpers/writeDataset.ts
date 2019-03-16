@@ -15,5 +15,5 @@ export default function writeDataset(
     DATASET_FOLDER,
     name,
     minify ? JSON.stringify(data) : JSON.stringify(data, null, '  '),
-  );
+  ).then(() => data);
 }

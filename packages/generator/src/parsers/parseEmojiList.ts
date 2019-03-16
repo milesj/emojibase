@@ -34,7 +34,7 @@ function swapKeyValues(data: GroupIndexMap): GroupNameMap {
  */
 export default function parseEmojiList(content: string): EmojiSourceMap {
   const xml = cheerio.load(content, { xmlMode: true });
-  const groupCache = (readCache('group-hierarchy.json') || {}) as GroupCache;
+  const groupCache = (readCache('final/group-hierarchy.json') || {}) as GroupCache;
   const groups: GroupNameMap = swapKeyValues(groupCache.groups);
   const subgroups: GroupNameMap = swapKeyValues(groupCache.subgroups);
   const data: EmojiSourceMap = {};

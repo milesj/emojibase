@@ -1,6 +1,7 @@
 /* eslint-disable sort-keys */
 
 import { LIGHT_SKIN, MEDIUM_LIGHT_SKIN, MEDIUM_SKIN, MEDIUM_DARK_SKIN, DARK_SKIN } from 'emojibase';
+import log from '../helpers/log';
 import hasProperty from '../helpers/hasProperty';
 import extractSkinTone from '../parsers/extractSkinTone';
 import { Emoji, EmojiModification, EmojiMap, SkinTone } from '../types';
@@ -62,11 +63,13 @@ export default function joinModifiersToData(emojis: EmojiMap) {
       const parentEmoji = emojis[parentHexcode] || emojis[parentHexcodeWithVariation];
       const tone = extractSkinTone(emoji.name);
 
-      if (tone) {
+      if (parentEmoji && tone) {
         addModification(parentEmoji, {
           ...emoji,
           tone,
         });
+      } else {
+        log.error('error', `No parent emoji found for skin tone: ${hexcode} (${tone})`);
       }
 
       // Remove the modification from the root

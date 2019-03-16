@@ -112,7 +112,7 @@ export default function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
   });
 
   if (shortcodeDump.length > 0) {
-    writeCache('missing-shortcodes.txt', shortcodeDump.join('\n'), false);
+    writeCache('error/missing-shortcodes.txt', shortcodeDump.join('\n'), false);
   }
 
   return emojis;

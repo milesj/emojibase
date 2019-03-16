@@ -11,5 +11,5 @@ export default function writeCache(name: string, data: any, encode: boolean = tr
     CACHE_FOLDER,
     name,
     encode ? JSON.stringify(data, null, '  ') : data, // Easier debugging
-  );
+  ).then(() => data);
 }

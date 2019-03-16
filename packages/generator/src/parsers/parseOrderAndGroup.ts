@@ -96,7 +96,7 @@ export default function parseOrderAndGroup(content: string): EmojiGroupMap {
   });
 
   // Cache groups to reference later for constants
-  writeCache('group-hierarchy.json', {
+  writeCache('final/group-hierarchy.json', {
     groups,
     hierarchy,
     subgroups,
