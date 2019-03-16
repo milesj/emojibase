@@ -12,7 +12,7 @@ import {
 } from '../constants';
 import writeCache from '../helpers/writeCache';
 
-export default function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
+export default async function verifyDataIntegrity(emojis: EmojiMap): Promise<EmojiMap> {
   const usedShortcodes: EmojiMap = {};
   const usedEmoticons: EmojiMap = {};
   const shortcodeDump: string[] = [];
@@ -112,7 +112,7 @@ export default function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
   });
 
   if (shortcodeDump.length > 0) {
-    writeCache('error/missing-shortcodes.txt', shortcodeDump.join('\n'), false);
+    await writeCache('error/missing-shortcodes.txt', shortcodeDump.join('\n'), false);
   }
 
   return emojis;

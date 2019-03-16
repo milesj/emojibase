@@ -47,6 +47,7 @@ export default async function buildEmojiData(): Promise<EmojiMap> {
   // 5) Validate the built data against the official unicode emoji list
   await validateDataAgainstOfficialList(emojis);
 
+  // 6) Save the dataset
   await writeCache('final/emoji-data.json', emojis);
 
   log.success('build', 'Built emoji data');

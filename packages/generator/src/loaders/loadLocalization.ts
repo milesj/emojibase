@@ -19,7 +19,7 @@ export default async function loadLocalization(
   // Load territory names from main XML
   const territoryPromise = fetchAndCache(
     `http://unicode.org/repos/cldr/tags/release-${releaseVersion}/common/main/${pathLocale}.xml`,
-    `cldr-${releaseVersion}/messages-${locale}.json`,
+    `cldr-${version}/messages-${locale}.json`,
     data => parseLocalization(version, data, 'territory'),
   );
 
@@ -28,7 +28,7 @@ export default async function loadLocalization(
     `http://unicode.org/repos/cldr/tags/release-${releaseVersion}/common/subdivisions/${SUBDIVISION_FALLBACK_LOCALES[
       locale
     ] || pathLocale}.xml`,
-    `cldr-${releaseVersion}/subdivisions-${locale}.json`,
+    `cldr-${version}/subdivisions-${locale}.json`,
     data => parseLocalization(version, data, 'subdivision'),
   );
 

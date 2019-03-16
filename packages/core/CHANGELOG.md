@@ -5,6 +5,12 @@
 - Updated to [Emoji 12](https://emojipedia.org/emoji-12.0/) and
   [Unicode 12](http://unicode.org/versions/Unicode12.0.0/).
 
+#### 🛠 Internal
+
+- Updated `LATEST_EMOJI_VERSION` to `12.0`.
+- Updated `LATEST_UNICODE_VERSION` to `12.0.0`.
+- Updated `LATEST_CLDR_VERSION` to `35.alpha4`.
+
 # 2.2.0 - 2019-02-08
 
 #### 🚀 New
@@ -18,8 +24,6 @@
 
 #### 🛠 Internal
 
-- Updated `LATEST_EMOJI_VERSION` to `12.0`.
-- Updated `LATEST_UNICODE_VERSION` to `12.0.0`.
 - Dependency updates.
 
 # 2.1.0 - 2018-10-20

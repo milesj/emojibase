@@ -2,7 +2,7 @@ import formatHexcode from '../helpers/formatHexcode';
 import slug from '../helpers/slug';
 import writeCache from '../helpers/writeCache';
 import { EmojiGroupMap } from '../types';
-import { HIDDEN_SUBGROUPS } from '../constants';
+import { HIDDEN_GROUPS, HIDDEN_SUBGROUPS } from '../constants';
 
 interface GroupNameMap {
   [index: number]: string;
@@ -78,7 +78,7 @@ export default function parseOrderAndGroup(content: string): EmojiGroupMap {
     }
 
     // Skip emojis that are hidden
-    if (HIDDEN_SUBGROUPS.includes(subgroup)) {
+    if (HIDDEN_GROUPS.includes(group) || HIDDEN_SUBGROUPS.includes(subgroup)) {
       return;
     }
 
