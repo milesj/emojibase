@@ -14,13 +14,14 @@ export default async function generateVersions(): Promise<void> {
     emoji[version] = Object.keys(emojiVersions[version]);
   });
 
-  writeDataset('versions/emoji.json', emoji);
-
   Object.keys(unicodeVersions).forEach(version => {
     unicode[version] = Object.keys(unicodeVersions[version]);
   });
 
-  writeDataset('versions/unicode.json', unicode);
+  await Promise.all([
+    writeDataset('versions/emoji.json', emoji),
+    writeDataset('versions/unicode.json', unicode),
+  ]);
 
   log.success('data', 'Generated versioned datasets');
 }

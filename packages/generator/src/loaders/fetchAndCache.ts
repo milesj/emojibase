@@ -37,11 +37,9 @@ export default async function fetchAndCache<T>(
   }
 
   // Cache the data
-  const data = parser(text);
+  return writeCache(name, parser(text)).then(data => {
+    log.success('load', `Fetched and cached ${name}`);
 
-  writeCache(name, data);
-
-  log.success('load', `Fetched and cached ${name}`);
-
-  return Promise.resolve(data);
+    return data;
+  });
 }

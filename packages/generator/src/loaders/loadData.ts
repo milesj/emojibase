@@ -6,7 +6,7 @@ import { EmojiDataMap } from '../types';
 export default function loadData(version: string = LATEST_EMOJI_VERSION): Promise<EmojiDataMap> {
   return fetchAndCache(
     `http://unicode.org/Public/emoji/${version}/emoji-data.txt`,
-    `data-${version}.json`,
+    `${version}/data.json`,
     data => parseData(version, data),
   );
 }

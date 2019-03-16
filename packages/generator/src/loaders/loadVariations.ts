@@ -8,7 +8,7 @@ export default function loadVariations(
 ): Promise<EmojiVariationMap> {
   return fetchAndCache(
     `http://unicode.org/Public/emoji/${version}/emoji-variation-sequences.txt`,
-    `variations-${version}.json`,
+    `${version}/variations.json`,
     data => parseVariations(version, data),
   );
 }

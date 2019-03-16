@@ -27,7 +27,7 @@ function createRegexPattern(
   return groups.map(group => codePointGroups[group].toRegExp(flags).source).join('|');
 }
 
-function createEmojiRegex(data: EmojiMap, display: string = 'both') {
+function createEmojiRegex(data: EmojiMap, display: string = 'both'): Promise<any> {
   const fileName = display === 'both' ? 'index' : display;
   const codePointGroups: TrieMap = {};
 
@@ -87,11 +87,13 @@ function createEmojiRegex(data: EmojiMap, display: string = 'both') {
     }
   });
 
-  writeRegex(`${fileName}.js`, createRegexPattern(codePointGroups, display));
-  writeRegex(`codepoint/${fileName}.js`, createRegexPattern(codePointGroups, display, true), 'u');
+  return Promise.all([
+    writeRegex(`${fileName}.js`, createRegexPattern(codePointGroups, display)),
+    writeRegex(`codepoint/${fileName}.js`, createRegexPattern(codePointGroups, display, true), 'u'),
+  ]);
 }
 
-function createEmoticonRegex(data: EmojiMap) {
+function createEmoticonRegex(data: EmojiMap): Promise<any> {
   const trie = new Trie();
   let emoticons: string[] = [];
 
@@ -112,7 +114,7 @@ function createEmoticonRegex(data: EmojiMap) {
   // Add to trie and generate
   trie.addAll(emoticons);
 
-  writeRegex('emoticon.js', trie.toRegExp().source);
+  return writeRegex('emoticon.js', trie.toRegExp().source);
 }
 
 export default async function generateRegex(): Promise<void> {
@@ -120,10 +122,12 @@ export default async function generateRegex(): Promise<void> {
 
   const data = flattenData(filterData(await buildEmojiData()));
 
-  createEmojiRegex(data, 'both');
-  createEmojiRegex(data, 'emoji');
-  createEmojiRegex(data, 'text');
-  createEmoticonRegex(data);
+  await Promise.all([
+    createEmojiRegex(data, 'both'),
+    createEmojiRegex(data, 'emoji'),
+    createEmojiRegex(data, 'text'),
+    createEmoticonRegex(data),
+  ]);
 
   log.success('regex', 'Generated regex patterns');
 }

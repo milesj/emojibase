@@ -8,7 +8,7 @@ export default function loadOrderAndGroup(
 ): Promise<EmojiGroupMap> {
   return fetchAndCache(
     `http://unicode.org/Public/emoji/${version}/emoji-test.txt`,
-    `groups-and-order-${version}.json`,
+    `${version}/groups-and-order.json`,
     parseOrderAndGroup,
   );
 }

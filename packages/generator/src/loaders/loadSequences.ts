@@ -8,7 +8,7 @@ export default function loadSequences(
 ): Promise<EmojiDataMap> {
   return fetchAndCache(
     `http://unicode.org/Public/emoji/${version}/emoji-sequences.txt`,
-    `sequences-${version}.json`,
+    `${version}/sequences.json`,
     data => parseSequences(version, data, 'Emoji_Modifier_Sequence'),
   );
 }

@@ -4,8 +4,8 @@ import writeFile from './writeFile';
 
 const REGEX_FOLDER = path.resolve(__dirname, '../../../regex');
 
-export default function writeRegex(name: string, pattern: any, flags: string = '') {
-  writeFile(REGEX_FOLDER, name, `module.exports = /${pattern}/${flags};\n`);
-
+export default function writeRegex(name: string, pattern: any, flags: string = ''): Promise<any> {
   log.info('regex', `Creating ${name} regex pattern`);
+
+  return writeFile(REGEX_FOLDER, name, `module.exports = /${pattern}/${flags};\n`);
 }

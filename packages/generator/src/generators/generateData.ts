@@ -140,9 +140,11 @@ export default async function generateData(): Promise<void> {
       // Sort by order
       emojis.sort((a, b) => (a.order || 0) - (b.order || 0));
 
-      writeDataset(`${locale}/raw.json`, emojis);
-      writeDataset(`${locale}/data.json`, emojis, true);
-      writeDataset(`${locale}/compact.json`, extractCompact(emojis), true);
+      await Promise.all([
+        writeDataset(`${locale}/raw.json`, emojis),
+        writeDataset(`${locale}/data.json`, emojis, true),
+        writeDataset(`${locale}/compact.json`, extractCompact(emojis), true),
+      ]);
     }),
   );
 
@@ -177,10 +179,12 @@ export default async function generateData(): Promise<void> {
     });
   });
 
-  writeDataset('meta/groups.json', readCache('group-hierarchy.json'));
-  writeDataset('meta/unicode.json', Array.from(unicode));
-  writeDataset('meta/hexcodes.json', Array.from(hexcodes));
-  writeDataset('meta/shortcodes.json', Array.from(shortcodes));
+  await Promise.all([
+    writeDataset('meta/groups.json', readCache('group-hierarchy.json')),
+    writeDataset('meta/unicode.json', Array.from(unicode)),
+    writeDataset('meta/hexcodes.json', Array.from(hexcodes)),
+    writeDataset('meta/shortcodes.json', Array.from(shortcodes)),
+  ]);
 
   log.success('data', 'Generated emoji datasets');
 }
