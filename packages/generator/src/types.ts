@@ -145,6 +145,10 @@ export interface ShortcodeMap {
   [hexcode: string]: Shortcode[];
 }
 
+export interface ShortcodeRawMap {
+  [hexcode: string]: string | Shortcode[];
+}
+
 export interface UnicodeNamesMap {
   [hexcode: string]: string;
 }

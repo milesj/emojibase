@@ -31,6 +31,10 @@ const GUIDELINES = `/**
  *    mouth & smiling eyes".
  *    https://www.dailywritingtips.com/100-words-for-facial-expressions/
  *
+ *  - Hexcodes that end in a variation selector 16 (FE0F) and their
+ *    leading hexcode already exists as another emoji, must reference that
+ *    emoji by setting their value to that hexcode (and not shortcodes).
+ *
  * ADDING SHORTCODES
  *
  * Please submit a PR with the addition so that it
