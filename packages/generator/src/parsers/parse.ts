@@ -1,3 +1,5 @@
+/* eslint-disable sort-keys */
+
 import { ParsedLine, ParsedTotals } from '../types';
 
 // Trying to detect the start of each property group is quite complicated,
@@ -13,6 +15,13 @@ const PROPERTY_CAPTURES: { [key: string]: string } = {
   '# Flag sequences': 'Emoji_Flag_Sequence',
   '# Modifier sequences': 'Emoji_Modifier_Sequence',
   '# ZWJ sequences': 'Emoji_ZWJ_Sequence',
+  // 12.0+
+  '# Basic_Emoji': 'Basic_Emoji',
+  '# Emoji_Keycap_Sequence': 'Emoji_Keycap_Sequence',
+  '# Emoji_Flag_Sequence': 'Emoji_Flag_Sequence',
+  '# Emoji_Tag_Sequence': 'Emoji_Tag_Sequence',
+  '# Emoji_Modifier_Sequence': 'Emoji_Modifier_Sequence',
+  '# Emoji_ZWJ_Sequence': 'Emoji_ZWJ_Sequence',
 };
 
 /**

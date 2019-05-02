@@ -46,7 +46,7 @@ export default function verifyTotals<T>(
 
   // Check for unknowns
   Object.keys(totalsToCheck).forEach(property => {
-    log.error('verify', `Unknown ${type} ${version} property ${property}`);
+    log.error('verify', `Unknown ${version} ${type} property ${property}`);
   });
 
   return data;
