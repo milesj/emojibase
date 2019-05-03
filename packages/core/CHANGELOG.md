@@ -11,6 +11,7 @@
 
 #### 💥 Breaking
 
+- Skin tones and components are now in the dataset instead of being omitted.
 - `Emoji.tone` is now a number (skin tone) or an array of numbers (multi-person skin tones).
 
 #### 🛠 Internal

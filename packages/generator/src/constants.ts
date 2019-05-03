@@ -40,8 +40,8 @@ export const MAN = '1F468'; // MAN
 export const WOMAN = '1F469'; // WOMAN
 
 // Emoji groups that should be omitted from the final output
-export const HIDDEN_GROUPS = ['component'];
-export const HIDDEN_SUBGROUPS = ['skin-tone', 'hair-style'];
+export const HIDDEN_GROUPS = [];
+export const HIDDEN_SUBGROUPS = [];
 
 // Emoji property types that should be omitted from the final dataset
 export const HIDDEN_EMOJI_PROPERTIES: Property[] = [
