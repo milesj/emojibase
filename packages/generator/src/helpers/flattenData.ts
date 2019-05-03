@@ -1,4 +1,3 @@
-import isObject from './isObject';
 import { EmojiMap } from '../types';
 
 export default function flattenData(data: EmojiMap): EmojiMap {
@@ -10,10 +9,8 @@ export default function flattenData(data: EmojiMap): EmojiMap {
     cleaned[hexcode] = emoji;
 
     // Move modifications up to the root
-    if (isObject(emoji.modifications)) {
-      Object.keys(emoji.modifications).forEach(skinTone => {
-        const mod = emoji.modifications[skinTone];
-
+    if (emoji.modifications instanceof Map) {
+      emoji.modifications.forEach(mod => {
         cleaned[mod.hexcode] = mod;
       });
     }

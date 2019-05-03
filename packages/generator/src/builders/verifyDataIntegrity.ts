@@ -26,27 +26,18 @@ export default async function verifyDataIntegrity(emojis: EmojiMap): Promise<Emo
     }
 
     // Verify no skin tone modifications are in the root,
-    // excluding the Fitzpatrick modifiers themselves.
+    // excluding the Fitzpatrick modifiers themselves
     if (hexcode.match(SKIN_MODIFIER_PATTERN) && hexcode.length !== 5) {
       errors.push('Emoji with Fitzpatrick modifier found at the root.');
     }
 
     // Verify there are 5 skin tone modifications if applicable
-    if (isObject(emoji.modifications)) {
-      let count = 0;
+    // Multi-person skin tones will have more than 5
+    if (emoji.modifications instanceof Map) {
+      const count = emoji.modifications.size;
 
-      Object.keys(emoji.modifications).forEach(skinTone => {
-        const mod = emoji.modifications[skinTone];
-
-        if (parseFloat(skinTone) !== mod.tone) {
-          errors.push(`Mismatch skin tone modification. Expected ${mod.tone}, found ${skinTone}.`);
-        }
-
-        count += 1;
-      });
-
-      if (count !== 5) {
-        errors.push(`Invalid number of skin tone modifications. Expect 5, found ${count}.`);
+      if (count < 5) {
+        errors.push(`Invalid number of skin tone modifications. Expect 5 or more, found ${count}.`);
       }
     }
 

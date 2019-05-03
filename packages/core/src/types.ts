@@ -56,7 +56,7 @@ export interface Emoji {
   subgroup: Subgroup;
   tags: string[];
   text: Unicode;
-  tone?: SkinTone;
+  tone?: SkinTone | SkinTone[];
   type: Presentation;
   version: number;
 }

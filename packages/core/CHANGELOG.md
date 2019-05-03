@@ -4,6 +4,13 @@
 
 - Updated to [Emoji 12](https://emojipedia.org/emoji-12.0/) and
   [Unicode 12](http://unicode.org/versions/Unicode12.0.0/).
+  - Multi-person support, including genders and skin tones.
+- Updated to [CLDR 35.1](http://cldr.unicode.org/index/downloads/cldr-35-1).
+- Updated shortcodes.
+
+#### 💥 Breaking
+
+- `Emoji.tone` is now a number (skin tone) or an array of numbers (multi-person skin tones).
 
 #### 🛠 Internal
 

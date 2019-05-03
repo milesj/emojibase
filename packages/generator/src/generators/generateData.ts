@@ -87,16 +87,20 @@ function createEmoji(
 
   // Skin modifications
   if ('modifications' in baseEmoji) {
-    emoji.skins = Object.keys(baseEmoji.modifications).map(skinTone => {
-      const skin = createEmoji(baseEmoji.modifications[skinTone], versions, annotations);
+    emoji.skins = [];
+
+    baseEmoji.modifications.forEach(mod => {
+      const skin = createEmoji(mod, versions, annotations);
 
       skin.annotation = (annotations[stripHexcode(skin.hexcode)] || {}).annotation || '';
-      skin.shortcodes = (emoji.shortcodes || []).map((code: string) => `${code}_tone${skinTone}`);
+      skin.shortcodes = (emoji.shortcodes || []).map(
+        code => `${code}_tone${Array.isArray(skin.tone) ? skin.tone.join('-') : skin.tone}`,
+      );
 
       // Remove any tags
       delete skin.tags;
 
-      return skin;
+      emoji.skins!.push(skin);
     });
   }
 
@@ -169,8 +173,8 @@ export default async function generateData(): Promise<void> {
     }
 
     if (modifications) {
-      Object.keys(modifications).forEach(skinTone => {
-        addMetadata(modifications[skinTone].hexcode);
+      modifications.forEach(mod => {
+        addMetadata(mod.hexcode);
       });
     }
 

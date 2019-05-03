@@ -79,7 +79,7 @@ export interface Emoji {
   order: number;
   subgroup: Subgroup;
   // Metadata
-  modifications: { [tone: string]: EmojiModification };
+  modifications: Map<string, EmojiModification>;
   name: string;
   variations: EmojiVariation;
   shortcodes: Shortcode[];
@@ -117,7 +117,7 @@ export interface EmojiSource {
 export type EmojiSourceMap = HexcodeMap<EmojiSource>;
 
 export interface EmojiModification extends Emoji {
-  tone: SkinTone;
+  tone: SkinTone | SkinTone[];
 }
 
 export interface EmojiVariation {
