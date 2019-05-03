@@ -52,6 +52,9 @@
         "packages/generator/src/resources/*.ts",
         "packages/test-utils/test-data.json"
       ]
+    },
+    "settings": {
+      "node": true
     }
   },
   "browserslist": [
