@@ -4,6 +4,10 @@
 
 - Updated to [Emoji 12](https://emojipedia.org/emoji-12.0/) and
   [Unicode 12](http://unicode.org/versions/Unicode12.0.0/).
+  - Multi-person support, including multi-gender and multi-skin tone.
+  - 75 new emoji (230 including skin tones variations).
+- Updated to [CLDR 35.1](http://cldr.unicode.org/index/downloads/cldr-35-1).
+- Updated shortcodes.
 
 # 2.0.0 - 2018-06-23
 

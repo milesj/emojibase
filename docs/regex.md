@@ -75,7 +75,7 @@ import PROPERTY_EMOJI_REGEX from 'emojibase-regex/property';
 | emoticon.js        | 458 B   | 245 B   |
 | text.js            | 2.93 KB | 631 B   |
 | codepoint/text.js  | 3.61 KB | 667 B   |
-| emoji.js           | 6.99 KB | 1.65 KB |
-| index.js           | 7.01 KB | 1.66 KB |
-| codepoint/emoji.js | 7.82 KB | 1.68 KB |
-| codepoint/index.js | 7.83 KB | 1.69 KB |
+| emoji.js           | 8.38 KB | 1.85 KB |
+| index.js           | 8.39 KB | 1.86 KB |
+| codepoint/emoji.js | 9.03 KB | 1.88 KB |
+| codepoint/index.js | 9.05 KB | 1.88 KB |
