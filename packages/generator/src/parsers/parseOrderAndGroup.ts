@@ -1,7 +1,7 @@
 import formatHexcode from '../helpers/formatHexcode';
 import slug from '../helpers/slug';
 import writeCache from '../helpers/writeCache';
-import { EmojiGroupMap } from '../types';
+import { EmojiGroupMap, EmojiGroup } from '../types';
 import { HIDDEN_GROUPS, HIDDEN_SUBGROUPS } from '../constants';
 
 interface GroupNameMap {
@@ -14,20 +14,7 @@ interface GroupHierarchy {
 
 // Some emojis do not match the official emoji list table.
 // So instead of mismatching, we'll opt to match the table.
-const OVERRIDES: { [hexcode: string]: object } = {
-  '1F9D4': {
-    subgroup: 8,
-  },
-  '1F471': {
-    subgroup: 8,
-  },
-  '1F471-200D-2640-FE0F': {
-    subgroup: 8,
-  },
-  '1F471-200D-2642-FE0F': {
-    subgroup: 8,
-  },
-};
+const OVERRIDES: { [hexcode: string]: Partial<EmojiGroup> } = {};
 
 /**
  * Parses the official unicode emoji-test data, which includes order and grouping.
