@@ -1,7 +1,6 @@
-import loadFlatEmojiData from '../../test-utils/src/loadFlatEmojiData';
-import { EMOTICON_OPTIONS } from '../../core/src/constants';
-import generateEmoticonPermutations from '../../core/src/generateEmoticonPermutations';
-import toUnicode from '../../generator/src/generators/toUnicode';
+import { EMOTICON_OPTIONS, generateEmoticonPermutations } from 'emojibase';
+import { loadFlatEmojiData } from 'emojibase-test-utils';
+import toUnicode from 'emojibase-generator/lib/generators/toUnicode';
 import COMBO_PATTERN from '..';
 import EMOJI_PATTERN from '../emoji';
 import TEXT_PATTERN from '../text';

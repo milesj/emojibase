@@ -15,7 +15,6 @@ export default function verifyTotals<T>(
   const totalsToCheck: { [key: string]: number } = {};
 
   // Gather totals
-  // eslint-disable-next-line compat/compat
   Object.values(data).forEach(emoji => {
     emoji.property.forEach((property: string) => {
       if (totalsToCheck[property]) {

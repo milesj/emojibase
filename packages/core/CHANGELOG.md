@@ -18,6 +18,7 @@
 - Updated `LATEST_EMOJI_VERSION` to `12.0`.
 - Updated `LATEST_UNICODE_VERSION` to `12.0.0`.
 - Updated `LATEST_CLDR_VERSION` to `35.1`.
+- **[TS]** Switched to project references.
 
 # 2.2.0 - 2019-02-08
 

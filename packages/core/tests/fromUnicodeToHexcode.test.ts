@@ -1,9 +1,9 @@
-import loadFlatEmojiData from '../../test-utils/src/loadFlatEmojiData';
+import { loadFlatEmojiData } from 'emojibase-test-utils';
 import {
   TEXT_VARIATION_SELECTOR,
   EMOJI_VARIATION_SELECTOR,
   SEQUENCE_REMOVAL_PATTERN,
-} from '../../generator/src/constants';
+} from 'emojibase-generator/lib/constants';
 import fromUnicodeToHexcode from '../src/fromUnicodeToHexcode';
 import { TEXT } from '../src/constants';
 

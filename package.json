@@ -15,7 +15,7 @@
     "prettier": "beemo prettier",
     "prerelease": "yarn test && yarn run build",
     "release": "lerna publish --ignore-changes=emojibase-generator",
-    "type": "beemo typescript --workspaces=emojibase,emojibase-generator,emojibase-test-utils --noEmit --no-priority"
+    "type": "beemo typescript --build --reference-workspaces"
   },
   "devDependencies": {
     "@milesj/build-tools": "^0.44.0",
