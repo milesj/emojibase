@@ -5,10 +5,22 @@ import { Property } from './types';
 // Regex patterns to make my job easier
 
 export const ZWJ_PATTERN = /200D/g;
-export const GENDER_PATTERN = /2640|2642/g;
-export const VARIATION_PATTERN = /FE0E|FE0F/g;
-export const SKIN_MODIFIER_PATTERN = /1F3FB|1F3FC|1F3FD|1F3FE|1F3FF/g;
-export const SEQUENCE_REMOVAL_PATTERN = /200D|FE0E|FE0F/g;
+export const GENDER_PATTERN = /(2640|2642)/g;
+export const PERSON_TYPE_PATTERN = /(1F9D1|1F468|1F469)/g; // person|man|woman
+export const VARIATION_PATTERN = /(FE0E|FE0F)/g;
+export const SKIN_MODIFIER_PATTERN = /(1F3FB|1F3FC|1F3FD|1F3FE|1F3FF)/g;
+export const SEQUENCE_REMOVAL_PATTERN = /(200D|FE0E|FE0F)/g;
+export const MULTI_PERSON_SKIN_TONE_PATTERN = new RegExp(
+  [
+    PERSON_TYPE_PATTERN.source,
+    SKIN_MODIFIER_PATTERN.source,
+    ZWJ_PATTERN.source,
+    '([A-F0-9]{4,5})',
+    ZWJ_PATTERN.source,
+    PERSON_TYPE_PATTERN.source,
+    SKIN_MODIFIER_PATTERN.source,
+  ].join('-'),
+);
 
 // Important hexadecimal codepoints when dealing with diversity, sequences, and more
 
@@ -23,9 +35,13 @@ export const DARK_SKIN_MODIFIER = '1F3FF'; // EMOJI MODIFIER FITZPATRICK TYPE-6
 export const FEMALE_SIGN = '2640'; // FEMALE SIGN
 export const MALE_SIGN = '2642'; // MALE SIGN
 export const BLACK_FLAG = '1F3F4'; // WAVING BLACK FLAG
+export const PERSON = '1F9D1'; // PERSON
+export const MAN = '1F468'; // MAN
+export const WOMAN = '1F469'; // WOMAN
 
 // Emoji groups that should be omitted from the final output
-export const HIDDEN_SUBGROUPS = ['skin-tone', 'hair-style'];
+export const HIDDEN_GROUPS: string[] = [];
+export const HIDDEN_SUBGROUPS: string[] = [];
 
 // Emoji property types that should be omitted from the final dataset
 export const HIDDEN_EMOJI_PROPERTIES: Property[] = [

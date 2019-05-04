@@ -18,6 +18,7 @@ export interface HexcodeMap<T> {
 
 export type Property =
   // An emoji character.
+  | 'Basic_Emoji'
   | 'Emoji'
   // The presentation in which to display the emoji character. Either emoji or text.
   | 'Emoji_Presentation'
@@ -78,7 +79,7 @@ export interface Emoji {
   order: number;
   subgroup: Subgroup;
   // Metadata
-  modifications: { [tone: string]: EmojiModification };
+  modifications: HexcodeMap<EmojiModification>;
   name: string;
   variations: EmojiVariation;
   shortcodes: Shortcode[];
@@ -116,7 +117,7 @@ export interface EmojiSource {
 export type EmojiSourceMap = HexcodeMap<EmojiSource>;
 
 export interface EmojiModification extends Emoji {
-  tone: SkinTone;
+  tone: SkinTone | SkinTone[];
 }
 
 export interface EmojiVariation {

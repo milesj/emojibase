@@ -8,7 +8,7 @@ export default function loadNames(
 ): Promise<UnicodeNamesMap> {
   return fetchAndCache(
     `http://unicode.org/Public/${version}/ucd/UnicodeData.txt`,
-    `unicode-names-${version}.json`,
+    `${parseFloat(version).toFixed(1)}/unicode-names.json`,
     parseNames,
   );
 }

@@ -12,7 +12,7 @@ import {
 } from '../constants';
 import writeCache from '../helpers/writeCache';
 
-export default function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
+export default async function verifyDataIntegrity(emojis: EmojiMap): Promise<EmojiMap> {
   const usedShortcodes: EmojiMap = {};
   const usedEmoticons: EmojiMap = {};
   const shortcodeDump: string[] = [];
@@ -26,27 +26,18 @@ export default function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
     }
 
     // Verify no skin tone modifications are in the root,
-    // excluding the Fitzpatrick modifiers themselves.
+    // excluding the Fitzpatrick modifiers themselves
     if (hexcode.match(SKIN_MODIFIER_PATTERN) && hexcode.length !== 5) {
       errors.push('Emoji with Fitzpatrick modifier found at the root.');
     }
 
     // Verify there are 5 skin tone modifications if applicable
-    if (isObject(emoji.modifications)) {
-      let count = 0;
+    // Multi-person skin tones will have more than 5
+    if (emoji.modifications) {
+      const count = Object.keys(emoji.modifications).length;
 
-      Object.keys(emoji.modifications).forEach(skinTone => {
-        const mod = emoji.modifications[skinTone];
-
-        if (parseFloat(skinTone) !== mod.tone) {
-          errors.push(`Mismatch skin tone modification. Expected ${mod.tone}, found ${skinTone}.`);
-        }
-
-        count += 1;
-      });
-
-      if (count !== 5) {
-        errors.push(`Invalid number of skin tone modifications. Expect 5, found ${count}.`);
+      if (count < 5) {
+        errors.push(`Invalid number of skin tone modifications. Expect 5 or more, found ${count}.`);
       }
     }
 
@@ -82,8 +73,10 @@ export default function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
       const used: string[] = [];
 
       emoji.shortcodes.forEach(shortcode => {
-        if (usedShortcodes[shortcode]) {
-          used.push(`${shortcode} (${usedShortcodes[shortcode].name})`);
+        const usedEmoji = usedShortcodes[shortcode];
+
+        if (usedEmoji) {
+          used.push(`${shortcode} (${usedEmoji.name})`);
         } else {
           usedShortcodes[shortcode] = emoji;
         }
@@ -112,7 +105,7 @@ export default function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
   });
 
   if (shortcodeDump.length > 0) {
-    writeCache('missing-shortcodes.txt', shortcodeDump.join('\n'), false);
+    await writeCache('error/missing-shortcodes.txt', shortcodeDump.join('\n'), false);
   }
 
   return emojis;

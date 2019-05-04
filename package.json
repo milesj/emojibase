@@ -2,12 +2,13 @@
   "name": "emojibase-root",
   "private": true,
   "scripts": {
-    "build": "beemo run-script build",
+    "build": "beemo run-script build --workspaces=emojibase,emojibase-generator,emojibase-test-utils",
     "clean:cache": "rimraf ./cache",
     "coverage": "yarn run jest --coverage",
     "eslint": "beemo eslint",
     "generate": "node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/data/en/data.json ./packages/test-utils/test-data.json",
     "generate:shortcodes": "node ./bin/generateShortcodes.js",
+    "generate:types": "node ./bin/generateTypes.js",
     "jest": "beemo jest",
     "posttest": "yarn run eslint",
     "pretest": "yarn run type",
@@ -15,15 +16,15 @@
     "prettier": "beemo prettier",
     "prerelease": "yarn test && yarn run build",
     "release": "lerna publish --ignore-changes=emojibase-generator",
-    "type": "beemo typescript --workspaces=emojibase,emojibase-generator,emojibase-test-utils --noEmit --no-priority"
+    "type": "beemo typescript --build --reference-workspaces"
   },
   "devDependencies": {
-    "@milesj/build-tools": "^0.29.0",
+    "@milesj/build-tools": "^0.44.0",
     "filesize": "^4.1.2",
     "glob": "^7.1.3",
-    "gzip-size": "^5.0.0",
-    "lerna": "^3.13.0",
-    "regenerator-runtime": "^0.13.1"
+    "gzip-size": "^5.1.0",
+    "lerna": "^3.13.4",
+    "regenerator-runtime": "^0.13.2"
   },
   "workspaces": [
     "packages/*"
@@ -35,7 +36,10 @@
       "eslint",
       "jest",
       "prettier",
-      "typescript"
+      {
+        "driver": "typescript",
+        "globalTypes": true
+      }
     ],
     "eslint": {
       "rules": {
@@ -49,9 +53,12 @@
         "packages/generator/src/resources/*.ts",
         "packages/test-utils/test-data.json"
       ]
+    },
+    "settings": {
+      "node": false
     }
   },
   "browserslist": [
-    "ie 10"
+    "ie 11"
   ]
 }

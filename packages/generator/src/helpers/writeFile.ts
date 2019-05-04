@@ -1,17 +1,11 @@
-import fs from 'fs';
+import fs from 'fs-extra';
 import path from 'path';
 
-export default function writeFile(targetFolder: string, fileName: string, data: any) {
+export default function writeFile(targetFolder: string, fileName: string, data: any): Promise<any> {
   const filePath = path.resolve(targetFolder, fileName);
-  const parentFolder = path.dirname(filePath);
 
-  if (!fs.existsSync(targetFolder)) {
-    fs.mkdirSync(targetFolder);
-  }
-
-  if (!fs.existsSync(parentFolder)) {
-    fs.mkdirSync(parentFolder);
-  }
-
-  fs.writeFileSync(filePath, data, 'utf8');
+  return fs
+    .ensureDir(path.dirname(filePath))
+    .then(() => fs.writeFile(filePath, data, 'utf8'))
+    .then(() => data);
 }

@@ -9,7 +9,7 @@ import loadData from '../loaders/loadData';
 import loadLocalization from '../loaders/loadLocalization';
 import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
-import { CLDRAnnotationMap } from '../types';
+import { CLDRAnnotationMap, CLDRAnnotation } from '../types';
 import {
   GENDER_PATTERN,
   REGIONAL_INDICATORS,
@@ -26,8 +26,8 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
   const englishAnnotations = await loadAnnotations('en'); // Fallback to English
   const annotations = await loadAnnotations(locale);
   const annotationsDerived = await loadAnnotations(locale, true); // Modifiers and sequences
-  let parentAnnotations = {};
-  let parentAnnotationsDerived = {};
+  let parentAnnotations: CLDRAnnotationMap = {};
+  let parentAnnotationsDerived: CLDRAnnotationMap = {};
 
   if (locale.includes('-')) {
     const parentLocale = locale.split('-')[0];
@@ -36,7 +36,10 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     parentAnnotationsDerived = await loadAnnotations(parentLocale, true);
   }
 
-  function extractField(hexcode: string, field: 'annotation' | 'tags'): any {
+  function extractField<K extends 'annotation' | 'tags'>(
+    hexcode: string,
+    field: K,
+  ): CLDRAnnotation[K] | null {
     const sets = [
       annotationsDerived,
       annotations,
@@ -158,7 +161,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       if (sequence.length > 0) {
         const prefixHexcode = sequence.join('-');
 
-        prefixName = extractField(prefixHexcode, 'annotation');
+        prefixName = extractField(prefixHexcode, 'annotation') || '';
       }
 
       // Step 9) Transform suffix into suffix name
@@ -186,7 +189,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     };
   });
 
-  writeCache(`final-${locale}-annotation-data.json`, data);
+  await writeCache(`final/${locale}-annotation-data.json`, data);
 
   log.success('build', `Built ${locale} annotation data`);
 

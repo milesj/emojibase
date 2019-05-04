@@ -13,5 +13,9 @@
   "sideEffects": false,
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "emojibase": "*",
+    "emojibase-test-utils": "*"
   }
 }

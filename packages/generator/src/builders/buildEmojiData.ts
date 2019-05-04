@@ -11,6 +11,7 @@ import loadShortcodes from '../loaders/loadShortcodes';
 import joinData from './joinData';
 import joinMetadataToData from './joinMetadataToData';
 import joinModifiersToData from './joinModifiersToData';
+import mergeDuplicateVariations from './mergeDuplicateVariations';
 import validateDataAgainstOfficialList from './validateDataAgainstOfficialList';
 import verifyDataIntegrity from './verifyDataIntegrity';
 import { EmojiMap } from '../types';
@@ -41,13 +42,17 @@ export default async function buildEmojiData(): Promise<EmojiMap> {
   // 3) Append skin tone modifications
   joinModifiersToData(emojis); // Requires names
 
-  // 4) Verify we joined the data correctly
+  // 4) Merge and remove duplicate variations
+  mergeDuplicateVariations(emojis); // Requires joined variations
+
+  // 5) Verify we joined the data correctly
   await verifyDataIntegrity(emojis);
 
-  // 5) Validate the built data against the official unicode emoji list
+  // 6) Validate the built data against the official unicode emoji list
   await validateDataAgainstOfficialList(emojis);
 
-  writeCache('final-emoji-data.json', emojis);
+  // 7) Save the dataset
+  await writeCache('final/emoji-data.json', emojis);
 
   log.success('build', 'Built emoji data');
 

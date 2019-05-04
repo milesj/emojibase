@@ -2,9 +2,8 @@
 /* eslint-disable */
 
 const regeneratorRuntime = require('regenerator-runtime');
-const generateShortcodes = require('../packages/generator/lib/generators/generateShortcodes')
-  .default;
+const generateTypes = require('../packages/generator/lib/generators/generateTypes').default;
 
 global.regeneratorRuntime = regeneratorRuntime;
 
-generateShortcodes();
+generateTypes();

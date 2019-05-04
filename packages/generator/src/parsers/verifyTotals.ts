@@ -1,7 +1,12 @@
 import log from '../helpers/log';
 import { ParsedTotals } from '../types';
 
-export default function verifyTotals<T>(version: string, data: T, totals: ParsedTotals): T {
+export default function verifyTotals<T>(
+  type: string,
+  version: string,
+  data: T,
+  totals: ParsedTotals,
+): T {
   // v1.0 doesnt have totals
   if (version === '1.0') {
     return data;
@@ -10,7 +15,6 @@ export default function verifyTotals<T>(version: string, data: T, totals: Parsed
   const totalsToCheck: { [key: string]: number } = {};
 
   // Gather totals
-  // eslint-disable-next-line compat/compat
   Object.values(data).forEach(emoji => {
     emoji.property.forEach((property: string) => {
       if (totalsToCheck[property]) {
@@ -41,7 +45,7 @@ export default function verifyTotals<T>(version: string, data: T, totals: Parsed
 
   // Check for unknowns
   Object.keys(totalsToCheck).forEach(property => {
-    log.error('verify', `Unknown ${version} property ${property}`);
+    log.error('verify', `Unknown ${version} ${type} property ${property}`);
   });
 
   return data;

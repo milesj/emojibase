@@ -5,11 +5,11 @@ JSON datasets, regex patterns, and more.
 
 #### Features
 
-- Supports the latest [Emoji 11](https://emojipedia.org/emoji-11.0/),
-  [Unicode 11](http://unicode.org/versions/Unicode11.0.0/), and
-  [CLDR 34](http://cldr.unicode.org/index/downloads/cldr-34) release versions
+- Supports the latest [Emoji 12](https://emojipedia.org/emoji-12.0/),
+  [Unicode 12](http://unicode.org/versions/Unicode12.0.0/), and
+  [CLDR 35.1](http://cldr.unicode.org/index/downloads/cldr-35) release versions
 - Built directly from the [emoji data source files](http://unicode.org/Public/emoji/)
 - Based on the official [Unicode Technical Standard #51](http://www.unicode.org/reports/tr51/)
-  (rev 14)
+  (rev 16)
 - With localization provided by
   [Unicode Technical Standard #35](http://unicode.org/reports/tr35/tr35-general.html#Annotations)

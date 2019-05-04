@@ -32,7 +32,9 @@ babel.config.js
 jest.config.js
 prettier.config.js
 tsconfig.json
+tsconfig.options.json
 webpack.config.js
+*.tsbuildinfo
 
 # Emoji datasets
 packages/data/*/data.json

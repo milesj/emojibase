@@ -4,15 +4,20 @@ import log from '../helpers/log';
 import readCache from '../helpers/readCache';
 import writeCache from '../helpers/writeCache';
 
+// Speed up lookups
+const localCache: { [key: string]: any } = {};
+
 export default async function fetchAndCache<T>(
   url: string,
   name: string,
   parser: (text: string) => T,
 ): Promise<T> {
   // Check the cache first
-  const cache = readCache(name);
+  const cache = localCache[name] || readCache(name);
 
   if (cache) {
+    localCache[name] = cache;
+
     return Promise.resolve(cache as T);
   }
 
@@ -22,7 +27,6 @@ export default async function fetchAndCache<T>(
   let text = '';
 
   try {
-    // eslint-disable-next-line compat/compat
     text = await fetch(url).then(response => {
       if (response.ok) {
         return response.text();
@@ -37,11 +41,11 @@ export default async function fetchAndCache<T>(
   }
 
   // Cache the data
-  const data = parser(text);
+  return writeCache(name, parser(text)).then(data => {
+    localCache[name] = data;
 
-  writeCache(name, data);
+    log.success('load', `Fetched and cached ${name}`);
 
-  log.success('load', `Fetched and cached ${name}`);
-
-  return Promise.resolve(data);
+    return data;
+  });
 }

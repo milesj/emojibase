@@ -30,5 +30,5 @@ export default function parseVariations(version: string, content: string): Emoji
     return map;
   }, {});
 
-  return verifyTotals(version, data, totals);
+  return verifyTotals('variations', version, data, totals);
 }

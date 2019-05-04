@@ -1,11 +1,11 @@
 /* eslint-disable no-nested-ternary */
 
-import { fromHexcodeToCodepoint, TEXT, EMOJI } from 'emojibase';
+import { TEXT, EMOJI } from 'emojibase';
 import parse from './parse';
 import extractLineDescription from './extractLineDescription';
 import extractUnicodeVersion from './extractUnicodeVersion';
+import spreadHexcode from './spreadHexcode';
 import verifyTotals from './verifyTotals';
-import formatHexcode from '../helpers/formatHexcode';
 import { EmojiData, EmojiDataMap, ParsedLine, Property } from '../types';
 
 /**
@@ -33,37 +33,9 @@ export default function parseData(version: string, content: string): EmojiDataMa
       version: parseFloat(version),
     };
 
-    // Handle mapping each hexcode
-    const mapHexcode = (hexcode: string) => {
-      if (map[hexcode]) {
-        // An emoji may belong to multiple properties,
-        // so keep a unique list of all applicable.
-        map[hexcode].property = Array.from(new Set([...map[hexcode].property, ...emoji.property]));
-      } else {
-        map[hexcode] = {
-          ...emoji,
-          hexcode,
-        };
-      }
-    };
-
-    // A sequence of emoji
-    if (rawHexcode.includes('..')) {
-      const [lowCodepoint, highCodepoint] = fromHexcodeToCodepoint(rawHexcode, '..');
-
-      for (let codepoint = lowCodepoint; codepoint <= highCodepoint; codepoint += 1) {
-        mapHexcode(
-          codepoint
-            .toString(16)
-            .padStart(4, '0')
-            .toUpperCase(),
-        );
-      }
-
-      // A single emoji
-    } else {
+    spreadHexcode(rawHexcode, (hexcode, range) => {
       // v1.0 had a different structure
-      if (version === '1.0') {
+      if (!range && version === '1.0') {
         emoji.type = property === 'emoji' ? EMOJI : TEXT;
         emoji.property = [
           modifier === 'primary' || modifier === 'secondary'
@@ -74,11 +46,20 @@ export default function parseData(version: string, content: string): EmojiDataMa
         ];
       }
 
-      mapHexcode(formatHexcode(rawHexcode));
-    }
+      if (map[hexcode]) {
+        // An emoji may belong to multiple properties,
+        // so keep a unique list of all applicable.
+        map[hexcode].property = Array.from(new Set([...map[hexcode].property, ...emoji.property]));
+      } else {
+        map[hexcode] = {
+          ...emoji,
+          hexcode,
+        };
+      }
+    });
 
     return map;
   }, {});
 
-  return verifyTotals(version, data, totals);
+  return verifyTotals('data', version, data, totals);
 }

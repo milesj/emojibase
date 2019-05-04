@@ -4,10 +4,14 @@ export type Emoticon = string;
 
 export type Gender = 0 | 1;
 
+export type GenderKey = 'female' | 'male';
+
 export type Group = number;
 
 export type GroupKey =
-  | 'smileys-people'
+  | 'smileys-emotion'
+  | 'people-body'
+  | 'component'
   | 'animals-nature'
   | 'food-drink'
   | 'travel-places'
@@ -20,6 +24,8 @@ export type Hexcode = string;
 
 export type Presentation = 0 | 1;
 
+export type PresentationKey = 'text' | 'emoji';
+
 export type Shortcode = string;
 
 export type SkinTone = 1 | 2 | 3 | 4 | 5;
@@ -27,6 +33,105 @@ export type SkinTone = 1 | 2 | 3 | 4 | 5;
 export type SkinToneKey = 'light' | 'medium-light' | 'medium' | 'medium-dark' | 'dark';
 
 export type Subgroup = number;
+
+export type SubgroupKey =
+  | 'face-smiling'
+  | 'face-affection'
+  | 'face-tongue'
+  | 'face-hand'
+  | 'face-neutral-skeptical'
+  | 'face-sleepy'
+  | 'face-unwell'
+  | 'face-hat'
+  | 'face-glasses'
+  | 'face-concerned'
+  | 'face-negative'
+  | 'face-costume'
+  | 'cat-face'
+  | 'monkey-face'
+  | 'emotion'
+  | 'hand-fingers-open'
+  | 'hand-fingers-partial'
+  | 'hand-single-finger'
+  | 'hand-fingers-closed'
+  | 'hands'
+  | 'hand-prop'
+  | 'body-parts'
+  | 'person'
+  | 'person-gesture'
+  | 'person-role'
+  | 'person-fantasy'
+  | 'person-activity'
+  | 'person-sport'
+  | 'person-resting'
+  | 'family'
+  | 'person-symbol'
+  | 'skin-tone'
+  | 'hair-style'
+  | 'animal-mammal'
+  | 'animal-bird'
+  | 'animal-amphibian'
+  | 'animal-reptile'
+  | 'animal-marine'
+  | 'animal-bug'
+  | 'plant-flower'
+  | 'plant-other'
+  | 'food-fruit'
+  | 'food-vegetable'
+  | 'food-prepared'
+  | 'food-asian'
+  | 'food-marine'
+  | 'food-sweet'
+  | 'drink'
+  | 'dishware'
+  | 'place-map'
+  | 'place-geographic'
+  | 'place-building'
+  | 'place-religious'
+  | 'place-other'
+  | 'transport-ground'
+  | 'transport-water'
+  | 'transport-air'
+  | 'hotel'
+  | 'time'
+  | 'sky-weather'
+  | 'event'
+  | 'award-medal'
+  | 'sport'
+  | 'game'
+  | 'arts-crafts'
+  | 'clothing'
+  | 'sound'
+  | 'music'
+  | 'musical-instrument'
+  | 'phone'
+  | 'computer'
+  | 'light-video'
+  | 'book-paper'
+  | 'money'
+  | 'mail'
+  | 'writing'
+  | 'office'
+  | 'lock'
+  | 'tool'
+  | 'science'
+  | 'medical'
+  | 'household'
+  | 'other-object'
+  | 'transport-sign'
+  | 'warning'
+  | 'arrow'
+  | 'religion'
+  | 'zodiac'
+  | 'av-symbol'
+  | 'gender'
+  | 'other-symbol'
+  | 'keycap'
+  | 'alphanum'
+  | 'geometric'
+  | 'flag'
+  | 'country-flag'
+  | 'subdivision-flag';
 
 export type Unicode = string;
 
@@ -56,7 +161,7 @@ export interface Emoji {
   subgroup: Subgroup;
   tags: string[];
   text: Unicode;
-  tone?: SkinTone;
+  tone?: SkinTone | SkinTone[];
   type: Presentation;
   version: number;
 }

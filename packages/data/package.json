@@ -14,5 +14,8 @@
   "sideEffects": false,
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "emojibase": "*"
   }
 }

@@ -85,13 +85,20 @@ function createEmoji(
     }
   }
 
+  // Tags
+  if (emoji.tags.length === 0) {
+    emoji.tags = emoji.shortcodes.map(code => code.replace(/_/g, ' '));
+  }
+
   // Skin modifications
   if ('modifications' in baseEmoji) {
-    emoji.skins = Object.keys(baseEmoji.modifications).map(skinTone => {
-      const skin = createEmoji(baseEmoji.modifications[skinTone], versions, annotations);
+    emoji.skins = Object.values(baseEmoji.modifications).map(mod => {
+      const skin = createEmoji(mod, versions, annotations);
 
-      skin.annotation = annotations[stripHexcode(skin.hexcode)].annotation;
-      skin.shortcodes = (emoji.shortcodes || []).map((code: string) => `${code}_tone${skinTone}`);
+      skin.annotation = (annotations[stripHexcode(skin.hexcode)] || {}).annotation || '';
+      skin.shortcodes = (emoji.shortcodes || []).map(
+        code => `${code}_tone${Array.isArray(skin.tone) ? skin.tone.join('-') : skin.tone}`,
+      );
 
       // Remove any tags
       delete skin.tags;
@@ -105,7 +112,7 @@ function createEmoji(
 
 function createVersionMap(): HexcodeVersionMap {
   const cache: { emojiVersions: VersionMap } | null = readCache(
-    'final-emoji-unicode-versions.json',
+    'final/emoji-unicode-versions.json',
   );
   const versions: HexcodeVersionMap = {};
 
@@ -140,9 +147,11 @@ export default async function generateData(): Promise<void> {
       // Sort by order
       emojis.sort((a, b) => (a.order || 0) - (b.order || 0));
 
-      writeDataset(`${locale}/raw.json`, emojis);
-      writeDataset(`${locale}/data.json`, emojis, true);
-      writeDataset(`${locale}/compact.json`, extractCompact(emojis), true);
+      return Promise.all([
+        writeDataset(`${locale}/raw.json`, emojis),
+        writeDataset(`${locale}/data.json`, emojis, true),
+        writeDataset(`${locale}/compact.json`, extractCompact(emojis), true),
+      ]);
     }),
   );
 
@@ -167,8 +176,8 @@ export default async function generateData(): Promise<void> {
     }
 
     if (modifications) {
-      Object.keys(modifications).forEach(skinTone => {
-        addMetadata(modifications[skinTone].hexcode);
+      Object.values(modifications).forEach(mod => {
+        addMetadata(mod.hexcode);
       });
     }
 
@@ -177,10 +186,12 @@ export default async function generateData(): Promise<void> {
     });
   });
 
-  writeDataset('meta/groups.json', readCache('group-hierarchy.json'));
-  writeDataset('meta/unicode.json', Array.from(unicode));
-  writeDataset('meta/hexcodes.json', Array.from(hexcodes));
-  writeDataset('meta/shortcodes.json', Array.from(shortcodes));
+  await Promise.all([
+    writeDataset('meta/groups.json', readCache('final/group-hierarchy.json')),
+    writeDataset('meta/unicode.json', Array.from(unicode)),
+    writeDataset('meta/hexcodes.json', Array.from(hexcodes)),
+    writeDataset('meta/shortcodes.json', Array.from(shortcodes)),
+  ]);
 
   log.success('data', 'Generated emoji datasets');
 }

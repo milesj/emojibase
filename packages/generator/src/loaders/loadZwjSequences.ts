@@ -8,7 +8,7 @@ export default function loadZwjSequences(
 ): Promise<EmojiDataMap> {
   return fetchAndCache(
     `http://unicode.org/Public/emoji/${version}/emoji-zwj-sequences.txt`,
-    `zwj-sequences-${version}.json`,
+    `${version}/zwj-sequences.json`,
     data => parseSequences(version, data, 'Emoji_ZWJ_Sequence'),
   );
 }

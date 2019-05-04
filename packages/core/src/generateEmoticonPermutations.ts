@@ -19,30 +19,30 @@ export default function generateEmoticonPermutations(
 
   if (isFace) {
     // Backwards slash mouth variant
-    if (emoticon.indexOf('/') >= 0) {
+    if (emoticon.includes('/')) {
       list.push(...generateEmoticonPermutations(emoticon.replace('/', '\\'), options));
     }
 
     // Bracket and curly brace mouth variants
-    if (emoticon.indexOf(')') >= 0) {
+    if (emoticon.includes(')')) {
       list.push(...generateEmoticonPermutations(emoticon.replace(')', ']'), options));
       list.push(...generateEmoticonPermutations(emoticon.replace(')', '}'), options));
     }
 
-    if (emoticon.indexOf('(') >= 0) {
+    if (emoticon.includes('(')) {
       list.push(...generateEmoticonPermutations(emoticon.replace('(', '['), options));
       list.push(...generateEmoticonPermutations(emoticon.replace('(', '{'), options));
     }
 
     // Eye variant
-    if (emoticon.indexOf(':') >= 0) {
+    if (emoticon.includes(':')) {
       list.push(...generateEmoticonPermutations(emoticon.replace(':', '='), options));
     }
 
     // Nose variant for ALL
     if (withNose) {
       list.forEach(emo => {
-        if (emo.indexOf('-') === -1) {
+        if (!emo.includes('-')) {
           list.push(`${emo.slice(0, emo.length - 1)}-${emo.slice(-1)}`);
         }
       });

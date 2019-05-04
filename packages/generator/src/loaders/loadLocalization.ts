@@ -17,23 +17,25 @@ export default async function loadLocalization(
   const pathLocale = formatLocale(locale);
 
   // Load territory names from main XML
-  const territories = await fetchAndCache(
+  const territoryPromise = fetchAndCache(
     `http://unicode.org/repos/cldr/tags/release-${releaseVersion}/common/main/${pathLocale}.xml`,
-    `messages-${locale}-${version}.json`,
+    `cldr-${version}/messages-${locale}.json`,
     data => parseLocalization(version, data, 'territory'),
   );
 
   // Load subdivision names from subdivision XML
-  const subdivisions = await fetchAndCache(
+  const subdivisionPromise = fetchAndCache(
     `http://unicode.org/repos/cldr/tags/release-${releaseVersion}/common/subdivisions/${SUBDIVISION_FALLBACK_LOCALES[
       locale
     ] || pathLocale}.xml`,
-    `subdivisions-${locale}-${version}.json`,
+    `cldr-${version}/subdivisions-${locale}.json`,
     data => parseLocalization(version, data, 'subdivision'),
   );
 
-  return Promise.resolve({
-    subdivisions,
-    territories,
-  });
+  return Promise.all([subdivisionPromise, territoryPromise]).then(
+    ([subdivisions, territories]) => ({
+      subdivisions,
+      territories,
+    }),
+  );
 }
