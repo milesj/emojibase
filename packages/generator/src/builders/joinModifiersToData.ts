@@ -34,13 +34,12 @@ export default function joinModifiersToData(emojis: EmojiMap) {
 
     // Handle appending a skin tone modification
     const addModification = (parent: Emoji, mod: EmojiModification) => {
-      const modsMap = parent.modifications || new Map();
-      const existingMod = modsMap.get(mod.hexcode);
+      const modsMap = parent.modifications || {};
 
-      modsMap.set(mod.hexcode, {
+      modsMap[mod.hexcode] = {
         ...mod,
-        ...existingMod,
-      });
+        ...modsMap[mod.hexcode],
+      };
 
       parent.modifications = modsMap;
     };

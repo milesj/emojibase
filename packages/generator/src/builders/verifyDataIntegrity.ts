@@ -33,8 +33,8 @@ export default async function verifyDataIntegrity(emojis: EmojiMap): Promise<Emo
 
     // Verify there are 5 skin tone modifications if applicable
     // Multi-person skin tones will have more than 5
-    if (emoji.modifications instanceof Map) {
-      const count = emoji.modifications.size;
+    if (emoji.modifications) {
+      const count = Object.keys(emoji.modifications).length;
 
       if (count < 5) {
         errors.push(`Invalid number of skin tone modifications. Expect 5 or more, found ${count}.`);

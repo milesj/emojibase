@@ -79,7 +79,7 @@ export interface Emoji {
   order: number;
   subgroup: Subgroup;
   // Metadata
-  modifications: Map<string, EmojiModification>;
+  modifications: HexcodeMap<EmojiModification>;
   name: string;
   variations: EmojiVariation;
   shortcodes: Set<Shortcode>;

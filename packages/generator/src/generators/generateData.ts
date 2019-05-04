@@ -89,7 +89,7 @@ function createEmoji(
   if ('modifications' in baseEmoji) {
     emoji.skins = [];
 
-    baseEmoji.modifications.forEach(mod => {
+    Object.values(baseEmoji.modifications).forEach(mod => {
       const skin = createEmoji(mod, versions, annotations);
 
       skin.annotation = (annotations[stripHexcode(skin.hexcode)] || {}).annotation || '';
@@ -173,7 +173,7 @@ export default async function generateData(): Promise<void> {
     }
 
     if (modifications) {
-      modifications.forEach(mod => {
+      Object.values(modifications).forEach(mod => {
         addMetadata(mod.hexcode);
       });
     }

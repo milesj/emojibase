@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 import log from '../helpers/log';
 import readCache from '../helpers/readCache';
 

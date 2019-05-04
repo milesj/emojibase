@@ -9,8 +9,8 @@ export default function flattenData(data: EmojiMap): EmojiMap {
     cleaned[hexcode] = emoji;
 
     // Move modifications up to the root
-    if (emoji.modifications instanceof Map) {
-      emoji.modifications.forEach(mod => {
+    if (emoji.modifications) {
+      Object.values(emoji.modifications).forEach(mod => {
         cleaned[mod.hexcode] = mod;
       });
     }
