@@ -25,75 +25,75 @@
 
 - Changed the Ogre emoticon from `O)` to `>O)`.
 
-# 1.1.1 - 2018-05-24
+### 1.1.1 - 2018-05-24
 
-#### 🐞 Fixed
+#### 🐞 Fixes
 
 - Fixed invalid `index.d.ts` declaration.
 
-# 1.1.0 - 2018-05-22
+## 1.1.0 - 2018-05-22
 
-#### 🚀 New
+#### 🚀 Updates
 
 - Updated to [CLDR 33](http://cldr.unicode.org/index/downloads/cldr-33).
 
-#### 🛠 Internal
+#### 🛠 Internals
 
 - Converted from Flow to TypeScript.
 
-# 1.0.9 - 2017-11-10
+### 1.0.9 - 2017-11-10
 
-#### 🚀 New
+#### 🚀 Updates
 
 - Updated to [CLDR 32](http://cldr.unicode.org/index/downloads/cldr-32).
 
-# 1.0.8 - 2017-10-11
+### 1.0.8 - 2017-10-11
 
-#### 🐞 Fixed
+#### 🐞 Fixes
 
 - Improved the accuracy of `emoji` and `text` presentation specific patterns.
 
-# 1.0.7 - 2017-10-10
+### 1.0.7 - 2017-10-10
 
-#### 🐞 Fixed
+#### 🐞 Fixes
 
 - Emojis with newly added variation selectors will now properly match hexcodes without trailing
   `FE0E`/`FE0F` (their legacy variant).
 
-# 1.0.6 - 2017-09-10
+### 1.0.6 - 2017-09-10
 
-#### 🛠 Internal
+#### 🛠 Internals
 
 - Updated to Yarn workspaces.
 
-# 1.0.5 - 2017-09-05
+### 1.0.5 - 2017-09-05
 
-#### 🛠 Internal
+#### 🛠 Internals
 
 - Updated regex patterns.
 
-# 1.0.4 - 2017-08-22
+### 1.0.4 - 2017-08-22
 
-#### 🐞 Fixed
+#### 🐞 Fixes
 
 - Added missing emoticons to `emoticon` regex.
 - Removed unwanted emoticon permutations from `emoticon` regex.
 
-# 1.0.3 - 2017-08-21
+### 1.0.3 - 2017-08-21
 
-#### 🛠 Internal
+#### 🛠 Internals
 
 - Updated changelogs.
 
-# 1.0.2 - 2017-08-19
+### 1.0.2 - 2017-08-19
 
-#### 🐞 Fixed
+#### 🐞 Fixes
 
 - Removed tests from distribution files.
 
-# 1.0.1 - 2017-08-18
+### 1.0.1 - 2017-08-18
 
-#### 🐞 Fixed
+#### 🐞 Fixes
 
 - Fixed Flowtype definitions.
 

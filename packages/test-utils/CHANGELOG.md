@@ -11,16 +11,16 @@
 - Updated to [CLDR 35.1](http://cldr.unicode.org/index/downloads/cldr-35-1).
 - Updated shortcodes.
 
-# 3.2.0 - 2019-02-08
+## 3.2.0 - 2019-02-08
 
-#### 🚀 New
+#### 🚀 Updates
 
 - Added ECMAScript module support via `esm/` built files.
 - Removed docblocks from source files to reduce bundle size.
 
-# 3.1.0 - 2018-10-20
+## 3.1.0 - 2018-10-20
 
-#### 🚀 New
+#### 🚀 Updates
 
 - Updated to [CLDR 34](http://cldr.unicode.org/index/downloads/cldr-34).
 
@@ -36,37 +36,37 @@
   - Tons of new annotations and keywords.
 - Updated shortcodes.
 
-# 2.3.0 - 2018-05-22
+## 2.3.0 - 2018-05-22
 
-#### 🚀 New
+#### 🚀 Updates
 
 - Updated to [CLDR 33](http://cldr.unicode.org/index/downloads/cldr-33).
 
-#### 🛠 Internal
+#### 🛠 Internals
 
 - Converted from Flow to TypeScript.
 
 # 2.0.0 - 2017-09-14
 
-#### 🛠 Internal
+#### 🛠 Internals
 
 - Updated test data ([view breaking changes](../data/CHANGELOG.md)).
 
-# 1.0.7 - 2017-09-10
+### 1.0.7 - 2017-09-10
 
-#### 🛠 Internal
+#### 🛠 Internals
 
 - Updated to Yarn workspaces.
 
-# 1.0.2 - 2017-08-19
+### 1.0.2 - 2017-08-19
 
-#### 🐞 Fixed
+#### 🐞 Fixes
 
 - Removed tests from distribution files.
 
-# 1.0.1 - 2017-08-18
+### 1.0.1 - 2017-08-18
 
-#### 🐞 Fixed
+#### 🐞 Fixes
 
 - Fixed Flowtype definitions.
 
