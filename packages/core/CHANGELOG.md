@@ -6,14 +6,23 @@
   [Unicode 12](http://unicode.org/versions/Unicode12.0.0/).
   - Multi-person support, including multi-gender and multi-skin tone.
   - 75 new emoji (230 including skin tones variations).
+  - 2 new groups
 - Updated to [CLDR 35.1](http://cldr.unicode.org/index/downloads/cldr-35-1).
 - Updated shortcodes.
 
 #### 💥 Breaking
 
 - Updated IE requirement to v11.
-- Skin tones and components are now in the dataset instead of being omitted.
+- Skin tone and component emojis are now included in the dataset, instead of being omitted.
 - `Emoji.tone` is now a number (skin tone) or an array of numbers (multi-person skin tones).
+- `Emoji.skins` may now contain more than 5 variations (multi-person is included).
+- Renamed `GROUP_KEY_SMILEYS_PEOPLE` to `GROUP_KEY_SMILEYS_EMOTION`.
+
+#### 🚀 New
+
+- Added `GROUP_KEY_PEOPLE_BODY` and `GROUP_KEY_COMPONENT` group constants.
+- **[TS]** Added `GenderKey`, `PresentationKey`, and `SubgroupKey` types.
+- **[TS]** Updated `GroupKey` with the new group names.
 
 #### 🛠 Internal
 

@@ -11,8 +11,9 @@
 
 #### 💥 Breaking
 
-- Skin tones and components are now in the dataset instead of being omitted.
+- Skin tone and component emojis are now included in the dataset, instead of being omitted.
 - `Emoji.tone` is now a number (skin tone) or an array of numbers (multi-person skin tones).
+- `Emoji.skins` may now contain more than 5 variations, as multi-person is included.
 
 # 3.2.0 - 2018-10-20
 

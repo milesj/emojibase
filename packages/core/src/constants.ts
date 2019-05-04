@@ -1,35 +1,38 @@
 import { PermutationOptions } from './generateEmoticonPermutations';
+import { Presentation, Gender, SkinTone, SkinToneKey, GroupKey } from './types';
 
 export const SEQUENCE_REMOVAL_PATTERN = /200D|FE0E|FE0F/g;
 
 // Use numbers instead of string values, as the filesize is greatly reduced.
 
-export const TEXT = 0;
-export const EMOJI = 1;
+export const TEXT: Presentation = 0;
+export const EMOJI: Presentation = 1;
 
-export const FEMALE = 0;
-export const MALE = 1;
+export const FEMALE: Gender = 0;
+export const MALE: Gender = 1;
 
-export const LIGHT_SKIN = 1;
-export const MEDIUM_LIGHT_SKIN = 2;
-export const MEDIUM_SKIN = 3;
-export const MEDIUM_DARK_SKIN = 4;
-export const DARK_SKIN = 5;
+export const LIGHT_SKIN: SkinTone = 1;
+export const MEDIUM_LIGHT_SKIN: SkinTone = 2;
+export const MEDIUM_SKIN: SkinTone = 3;
+export const MEDIUM_DARK_SKIN: SkinTone = 4;
+export const DARK_SKIN: SkinTone = 5;
 
-export const GROUP_KEY_SMILEYS_PEOPLE = 'smileys-people';
-export const GROUP_KEY_ANIMALS_NATURE = 'animals-nature';
-export const GROUP_KEY_FOOD_DRINK = 'food-drink';
-export const GROUP_KEY_TRAVEL_PLACES = 'travel-places';
-export const GROUP_KEY_ACTIVITIES = 'activities';
-export const GROUP_KEY_OBJECTS = 'objects';
-export const GROUP_KEY_SYMBOLS = 'symbols';
-export const GROUP_KEY_FLAGS = 'flags';
+export const GROUP_KEY_SMILEYS_EMOTION: GroupKey = 'smileys-emotion';
+export const GROUP_KEY_PEOPLE_BODY: GroupKey = 'people-body';
+export const GROUP_KEY_ANIMALS_NATURE: GroupKey = 'animals-nature';
+export const GROUP_KEY_FOOD_DRINK: GroupKey = 'food-drink';
+export const GROUP_KEY_TRAVEL_PLACES: GroupKey = 'travel-places';
+export const GROUP_KEY_ACTIVITIES: GroupKey = 'activities';
+export const GROUP_KEY_OBJECTS: GroupKey = 'objects';
+export const GROUP_KEY_SYMBOLS: GroupKey = 'symbols';
+export const GROUP_KEY_FLAGS: GroupKey = 'flags';
+export const GROUP_KEY_COMPONENT: GroupKey = 'component';
 
-export const SKIN_KEY_LIGHT = 'light';
-export const SKIN_KEY_MEDIUM_LIGHT = 'medium-light';
-export const SKIN_KEY_MEDIUM = 'medium';
-export const SKIN_KEY_MEDIUM_DARK = 'medium-dark';
-export const SKIN_KEY_DARK = 'dark';
+export const SKIN_KEY_LIGHT: SkinToneKey = 'light';
+export const SKIN_KEY_MEDIUM_LIGHT: SkinToneKey = 'medium-light';
+export const SKIN_KEY_MEDIUM: SkinToneKey = 'medium';
+export const SKIN_KEY_MEDIUM_DARK: SkinToneKey = 'medium-dark';
+export const SKIN_KEY_DARK: SkinToneKey = 'dark';
 
 // Important release versions and locales in generating accurate data.
 
@@ -37,6 +40,7 @@ export const LATEST_EMOJI_VERSION = '12.0';
 export const LATEST_UNICODE_VERSION = '12.0.0';
 export const LATEST_CLDR_VERSION = '35.1';
 export const FIRST_UNICODE_EMOJI_VERSION = '6.0.0';
+
 export const SUPPORTED_LOCALES = [
   'da', // Danish
   'de', // German

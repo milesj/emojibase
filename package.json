@@ -8,6 +8,7 @@
     "eslint": "beemo eslint",
     "generate": "node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/data/en/data.json ./packages/test-utils/test-data.json",
     "generate:shortcodes": "node ./bin/generateShortcodes.js",
+    "generate:types": "node ./bin/generateTypes.js",
     "jest": "beemo jest",
     "posttest": "yarn run eslint",
     "pretest": "yarn run type",
