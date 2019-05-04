@@ -1,3 +1,5 @@
+// @ts-ignore
+import regeneratorRuntime from 'regenerator-runtime';
 import fetchFromCDN from '../src/fetchFromCDN';
 
 declare global {
@@ -7,9 +9,12 @@ declare global {
       fetch: any;
       sessionStorage: any;
       localStorage: any;
+      regeneratorRuntime: any;
     }
   }
 }
+
+global.regeneratorRuntime = regeneratorRuntime;
 
 describe('fetchFromCDN()', () => {
   beforeEach(() => {
