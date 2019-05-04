@@ -235,7 +235,7 @@ Learn more about the [`fetchFromCDN` API](./api.md#fetchFromCDN).
 | ja/compact.json       | 497.53 KB | 73.88 KB  |
 | ms/compact.json       | 499.2 KB  | 69.48 KB  |
 | es/compact.json       | 504.42 KB | 71.05 KB  |
-| es-mx/compact.json    | 505.15 KB | 71.46 KB  |
+| es-mx/compact.json    | 505.19 KB | 71.47 KB  |
 | pl/compact.json       | 506.77 KB | 74.79 KB  |
 | it/compact.json       | 508.4 KB  | 72.77 KB  |
 | de/compact.json       | 510.77 KB | 75.29 KB  |
@@ -254,7 +254,7 @@ Learn more about the [`fetchFromCDN` API](./api.md#fetchFromCDN).
 | ja/data.json          | 769.68 KB | 99.67 KB  |
 | ms/data.json          | 771.35 KB | 94.46 KB  |
 | es/data.json          | 776.58 KB | 96.28 KB  |
-| es-mx/data.json       | 777.3 KB  | 96.72 KB  |
+| es-mx/data.json       | 777.34 KB | 96.73 KB  |
 | pl/data.json          | 778.92 KB | 100.22 KB |
 | it/data.json          | 780.55 KB | 98.1 KB   |
 | de/data.json          | 782.92 KB | 100.96 KB |

@@ -85,11 +85,14 @@ function createEmoji(
     }
   }
 
+  // Tags
+  if (emoji.tags.length === 0) {
+    emoji.tags = emoji.shortcodes.map(code => code.replace(/_/g, ' '));
+  }
+
   // Skin modifications
   if ('modifications' in baseEmoji) {
-    emoji.skins = [];
-
-    Object.values(baseEmoji.modifications).forEach(mod => {
+    emoji.skins = Object.values(baseEmoji.modifications).map(mod => {
       const skin = createEmoji(mod, versions, annotations);
 
       skin.annotation = (annotations[stripHexcode(skin.hexcode)] || {}).annotation || '';
@@ -100,7 +103,7 @@ function createEmoji(
       // Remove any tags
       delete skin.tags;
 
-      emoji.skins!.push(skin);
+      return skin;
     });
   }
 
