@@ -2,7 +2,7 @@
   "name": "emojibase-root",
   "private": true,
   "scripts": {
-    "build": "beemo run-script build --workspaces=*",
+    "build": "beemo run-script build --workspaces=emojibase,emojibase-generator,emojibase-test-utils",
     "clean:cache": "rimraf ./cache",
     "coverage": "yarn run jest --coverage",
     "eslint": "beemo eslint",
