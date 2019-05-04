@@ -27,7 +27,7 @@ export default function parseData(version: string, content: string): EmojiDataMa
     const emoji: EmojiData = {
       description: extractLineDescription(line.comment),
       hexcode: '',
-      property: new Set([(property as Property) || 'Emoji']),
+      property: [(property as Property) || 'Emoji'],
       type: EMOJI,
       unicodeVersion: extractUnicodeVersion(line.comment),
       version: parseFloat(version),
@@ -37,20 +37,19 @@ export default function parseData(version: string, content: string): EmojiDataMa
       // v1.0 had a different structure
       if (!range && version === '1.0') {
         emoji.type = property === 'emoji' ? EMOJI : TEXT;
-        emoji.property = new Set([
+        emoji.property = [
           modifier === 'primary' || modifier === 'secondary'
             ? 'Emoji_Modifier_Base'
             : modifier === 'modifier'
             ? 'Emoji_Modifier'
             : 'Emoji',
-        ] as Property[]);
+        ];
       }
 
       if (map[hexcode]) {
-        map[hexcode].property = new Set([
-          ...Array.from(map[hexcode].property),
-          ...Array.from(emoji.property),
-        ]);
+        // An emoji may belong to multiple properties,
+        // so keep a unique list of all applicable.
+        map[hexcode].property = Array.from(new Set([...map[hexcode].property, ...emoji.property]));
       } else {
         map[hexcode] = {
           ...emoji,

@@ -70,7 +70,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
   Object.keys(sequences).forEach(fullHexcode => {
     const hexcode = stripHexcode(fullHexcode);
     const emoji = sequences[fullHexcode];
-    let tags: Set<string> = extractField(hexcode, 'tags') || new Set();
+    const tags: string[] = extractField(hexcode, 'tags') || [];
     let annotation: string = extractField(hexcode, 'annotation') || '';
 
     // Use the localized territory name
@@ -84,7 +84,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
         annotation = localization.territories[countryCode];
       }
 
-      tags.add(countryCode);
+      tags.push(countryCode);
 
       // Use the localized subdivision name
     } else if (hasProperty(emoji.property, ['Emoji_Tag_Sequence'])) {
@@ -97,7 +97,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
         annotation = localization.subdivisions[divisionName];
       }
 
-      tags.add(divisionName);
+      tags.push(divisionName);
 
       // Label with keycap and use sequence
     } else if (
@@ -108,7 +108,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
         annotation = emoji.description;
       }
 
-      tags.add(annotation);
+      tags.push(annotation);
 
       // ZWJ sequences require special treatment
     } else if (hasProperty(emoji.property, ['Emoji_ZWJ_Sequence'])) {
@@ -118,9 +118,9 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       let sequence = hexcode.split('-');
 
       // Inherit tags if none were defined
-      if (tags.size === 0) {
+      if (tags.length === 0) {
         sequence.forEach((hex: string) => {
-          tags = new Set([...Array.from(tags), ...Array.from(extractField(hex, 'tags') || [])]);
+          tags.push(...(extractField(hex, 'tags') || []));
         });
       }
 
@@ -185,7 +185,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     // Add the new custom annotation
     data[hexcode] = {
       annotation,
-      tags: new Set(tags),
+      tags: Array.from(new Set(tags)),
     };
   });
 

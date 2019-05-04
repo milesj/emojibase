@@ -64,7 +64,7 @@ export default async function verifyDataIntegrity(emojis: EmojiMap): Promise<Emo
     }
 
     // Verify that shortcodes exist and that none have been duplicated
-    if (!emoji.shortcodes || emoji.shortcodes.size === 0) {
+    if (!emoji.shortcodes || emoji.shortcodes.length === 0) {
       errors.push('No shortcodes defined.');
 
       shortcodeDump.push(`// ${emoji.name}`);

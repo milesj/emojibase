@@ -21,20 +21,18 @@ export default function parseAnnotations(version: string, content: string): CLDR
     if (!data[hexcode]) {
       data[hexcode] = {
         annotation: '',
-        tags: new Set(),
+        tags: [],
       };
     }
 
     if (row.attr('type') === 'tts') {
       data[hexcode].annotation = row.text().trim();
     } else {
-      data[hexcode].tags = new Set(
-        row
-          .text()
-          .trim()
-          .split('|')
-          .map(tag => tag.trim().toLowerCase()),
-      );
+      data[hexcode].tags = row
+        .text()
+        .trim()
+        .split('|')
+        .map(tag => tag.trim().toLowerCase());
     }
   });
 
