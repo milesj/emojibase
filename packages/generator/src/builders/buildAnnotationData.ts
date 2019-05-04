@@ -9,7 +9,7 @@ import loadData from '../loaders/loadData';
 import loadLocalization from '../loaders/loadLocalization';
 import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
-import { CLDRAnnotationMap } from '../types';
+import { CLDRAnnotationMap, CLDRAnnotation } from '../types';
 import {
   GENDER_PATTERN,
   REGIONAL_INDICATORS,
@@ -26,8 +26,8 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
   const englishAnnotations = await loadAnnotations('en'); // Fallback to English
   const annotations = await loadAnnotations(locale);
   const annotationsDerived = await loadAnnotations(locale, true); // Modifiers and sequences
-  let parentAnnotations = {};
-  let parentAnnotationsDerived = {};
+  let parentAnnotations: CLDRAnnotationMap = {};
+  let parentAnnotationsDerived: CLDRAnnotationMap = {};
 
   if (locale.includes('-')) {
     const parentLocale = locale.split('-')[0];
@@ -36,7 +36,10 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     parentAnnotationsDerived = await loadAnnotations(parentLocale, true);
   }
 
-  function extractField(hexcode: string, field: 'annotation' | 'tags'): any {
+  function extractField<K extends 'annotation' | 'tags'>(
+    hexcode: string,
+    field: K,
+  ): CLDRAnnotation[K] | null {
     const sets = [
       annotationsDerived,
       annotations,
@@ -67,7 +70,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
   Object.keys(sequences).forEach(fullHexcode => {
     const hexcode = stripHexcode(fullHexcode);
     const emoji = sequences[fullHexcode];
-    const tags: string[] = extractField(hexcode, 'tags') || [];
+    let tags: Set<string> = extractField(hexcode, 'tags') || new Set();
     let annotation: string = extractField(hexcode, 'annotation') || '';
 
     // Use the localized territory name
@@ -81,7 +84,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
         annotation = localization.territories[countryCode];
       }
 
-      tags.push(countryCode);
+      tags.add(countryCode);
 
       // Use the localized subdivision name
     } else if (hasProperty(emoji.property, ['Emoji_Tag_Sequence'])) {
@@ -94,7 +97,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
         annotation = localization.subdivisions[divisionName];
       }
 
-      tags.push(divisionName);
+      tags.add(divisionName);
 
       // Label with keycap and use sequence
     } else if (
@@ -105,7 +108,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
         annotation = emoji.description;
       }
 
-      tags.push(annotation);
+      tags.add(annotation);
 
       // ZWJ sequences require special treatment
     } else if (hasProperty(emoji.property, ['Emoji_ZWJ_Sequence'])) {
@@ -115,9 +118,9 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       let sequence = hexcode.split('-');
 
       // Inherit tags if none were defined
-      if (tags.length === 0) {
+      if (tags.size === 0) {
         sequence.forEach((hex: string) => {
-          tags.push(...(extractField(hex, 'tags') || []));
+          tags = new Set([...Array.from(tags), ...Array.from(extractField(hex, 'tags') || [])]);
         });
       }
 
@@ -158,7 +161,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       if (sequence.length > 0) {
         const prefixHexcode = sequence.join('-');
 
-        prefixName = extractField(prefixHexcode, 'annotation');
+        prefixName = extractField(prefixHexcode, 'annotation') || '';
       }
 
       // Step 9) Transform suffix into suffix name
