@@ -76,14 +76,6 @@ export default async function verifyDataIntegrity(emojis: EmojiMap): Promise<Emo
         const usedEmoji = usedShortcodes[shortcode];
 
         if (usedEmoji) {
-          // Emoji variation inherited shortcodes from base emoji
-          if (
-            emoji.hexcode.endsWith(EMOJI_VARIATION_SELECTOR) &&
-            emoji.hexcode.slice(0, -5) === usedEmoji.hexcode
-          ) {
-            return;
-          }
-
           used.push(`${shortcode} (${usedEmoji.name})`);
         } else {
           usedShortcodes[shortcode] = emoji;
