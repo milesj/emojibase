@@ -1,13 +1,8 @@
 import { loadFlatEmojiData } from 'emojibase-test-utils';
-import {
-  TEXT_VARIATION_SELECTOR,
-  EMOJI_VARIATION_SELECTOR,
-  SEQUENCE_REMOVAL_PATTERN,
-} from 'emojibase-generator/lib/constants';
 import fromUnicodeToHexcode from '../src/fromUnicodeToHexcode';
 import { TEXT } from '../src/constants';
 
-const SEQUENCE_HEXCODE_PATTERN = new RegExp(`-(${SEQUENCE_REMOVAL_PATTERN.source})`, 'g');
+const SEQUENCE_HEXCODE_PATTERN = /-(200D|FE0E|FE0F)/g;
 
 describe('fromUnicodeToHexcode()', () => {
   loadFlatEmojiData().forEach(emoji => {
@@ -19,10 +14,7 @@ describe('fromUnicodeToHexcode()', () => {
     it(`converts unicode to hexcode for ${unicode}`, () => {
       const hexcode = fromUnicodeToHexcode(unicode, false);
 
-      if (
-        hexcode.length <= 10 &&
-        (hexcode.endsWith(TEXT_VARIATION_SELECTOR) || hexcode.endsWith(EMOJI_VARIATION_SELECTOR))
-      ) {
+      if (hexcode.length <= 10 && (hexcode.endsWith('FE0E') || hexcode.endsWith('FE0F'))) {
         expect(hexcode.replace(SEQUENCE_HEXCODE_PATTERN, '')).toBe(emoji.hexcode);
       } else {
         expect(hexcode).toBe(emoji.hexcode);

@@ -1,6 +1,10 @@
-import { EMOTICON_OPTIONS, generateEmoticonPermutations } from 'emojibase';
+import {
+  EMOTICON_OPTIONS,
+  generateEmoticonPermutations,
+  fromCodepointToUnicode,
+  fromHexcodeToCodepoint,
+} from 'emojibase';
 import { loadFlatEmojiData } from 'emojibase-test-utils';
-import toUnicode from 'emojibase-generator/lib/generators/toUnicode';
 import COMBO_PATTERN from '..';
 import EMOJI_PATTERN from '../emoji';
 import TEXT_PATTERN from '../text';
@@ -23,7 +27,16 @@ const VARIATION_DESCRIPTIONS = {
   none: 'no presentation',
 };
 
-const BASE_PATTERNS = [
+type VariationType = keyof typeof VARIATION_DESCRIPTIONS;
+
+type PatternType = keyof typeof PATTERN_DESCRIPTIONS;
+
+interface Pattern {
+  pattern: RegExp;
+  type: PatternType;
+}
+
+const BASE_PATTERNS: Pattern[] = [
   { pattern: COMBO_PATTERN, type: 'standard' },
   { pattern: COMBO_CODEPOINT_PATTERN, type: 'codepoint' },
 ];
@@ -35,13 +48,17 @@ describe('regex', () => {
       return;
     }
 
-    const variations = [];
+    const variations: {
+      variation: VariationType;
+      unicode: string;
+      patterns: Pattern[];
+    }[] = [];
 
     // Has variation selectors
     if (emoji.emoji && emoji.text) {
       variations.push({
         variation: 'none',
-        unicode: toUnicode(emoji.hexcode), // No FE0E/FE0F
+        unicode: fromCodepointToUnicode(fromHexcodeToCodepoint(emoji.hexcode)), // No FE0E/FE0F
         patterns: BASE_PATTERNS,
       });
 
@@ -78,13 +95,13 @@ describe('regex', () => {
         patterns.forEach(({ pattern, type }) => {
           describe(`${PATTERN_DESCRIPTIONS[type]}`, () => {
             it(`matches unicode by itself for ${unicode}`, () => {
-              const match = unicode.match(pattern);
+              const match = unicode.match(pattern)!;
               expect(match).not.toBeNull();
               expect(match[0]).toBe(unicode);
             });
 
             it(`matches unicode in the middle of a string for ${unicode}`, () => {
-              const match = `In the middle ${unicode} of a string.`.match(pattern);
+              const match = `In the middle ${unicode} of a string.`.match(pattern)!;
               expect(match).not.toBeNull();
               expect(match[0]).toBe(unicode);
             });

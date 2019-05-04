@@ -1,9 +1,7 @@
 import path from 'path';
-import flattenEmojiData from '../../core/src/flattenEmojiData';
-import { EMOJI, TEXT, MALE, FEMALE } from '../../core/src/constants';
-import { Emoji } from '../../core/src/types';
+import { flattenEmojiData, EMOJI, TEXT, MALE, FEMALE, Emoji } from 'emojibase';
 
-const localeCache = {};
+const localeCache: { [key: string]: Emoji[] } = {};
 
 function loadFlatEmojiData(): Emoji[] {
   const locale = process.env.TEST_LOCALE || 'en';

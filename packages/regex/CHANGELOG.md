@@ -10,6 +10,10 @@
 - Updated to [CLDR 35.1](http://cldr.unicode.org/index/downloads/cldr-35-1).
 - Updated shortcodes.
 
+#### 🛠 Internals
+
+- **[TS]** Each regex file now has an individual declaration file.
+
 # 2.0.0 - 2018-06-23
 
 #### 🎉 Release
