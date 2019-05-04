@@ -52,8 +52,6 @@
 
 export default {
   // VERSION 1
-  // 🏽 medium skin tone
-  '1F3FD': ['skin_tone_medium', 'tone3'],
   // 😀 grinning face
   '1F600': ['gleeful'],
   // 😃 grinning face with big eyes
@@ -464,6 +462,16 @@ export default {
   '1F465': ['busts_silhouette'],
   // 👣 footprints
   '1F463': ['footprints'],
+  // 🏻 light skin tone
+  '1F3FB': ['tone_light', 'tone1'],
+  // 🏼 medium-light skin tone
+  '1F3FC': ['tone_medium_light', 'tone2'],
+  // 🏽 medium skin tone
+  '1F3FD': ['tone_medium', 'tone3'],
+  // 🏾 medium-dark skin tone
+  '1F3FE': ['tone_medium_dark', 'tone4'],
+  // 🏿 dark skin tone
+  '1F3FF': ['tone_dark', 'tone5'],
   // 🐵 monkey face
   '1F435': ['monkey_face'],
   // 🐒 monkey
@@ -1594,16 +1602,8 @@ export default {
   '1F587': ['paperclips'],
   // 📏 straight ruler
   '1F4CF': ['straight_ruler'],
-  // 🏿 dark skin tone
-  '1F3FF': ['skin_tone_dark', 'tone5'],
-  // 🏻 light skin tone
-  '1F3FB': ['skin_tone_light', 'tone1'],
-  // 🏼 medium-light skin tone
-  '1F3FC': ['skin_tone_medium_light', 'tone2'],
   // 📐 triangular ruler
   '1F4D0': ['triangular_ruler'],
-  // 🏾 medium-dark skin tone
-  '1F3FE': ['skin_tone_medium_dark', 'tone4'],
   // ✂️ scissors
   '2702': ['scissors'],
   // 🗃️ card file box
@@ -3246,6 +3246,14 @@ export default {
   '1F9B9-200D-2642-FE0F': ['man_villain'],
   // 🦹‍♀️ woman supervillain
   '1F9B9-200D-2640-FE0F': ['woman_villain'],
+  // 🦰 red hair
+  '1F9B0': ['red_hair'],
+  // 🦱 curly hair
+  '1F9B1': ['curly_hair'],
+  // 🦳 white hair
+  '1F9B3': ['white_hair'],
+  // 🦲 bald
+  '1F9B2': ['bald'],
   // 🦝 raccoon
   '1F99D': ['raccoon'],
   // 🦙 llama
@@ -3330,16 +3338,8 @@ export default {
   '1F9EA': ['test_tube'],
   // 🧫 petri dish
   '1F9EB': ['petri_dish'],
-  // 🦰 red hair
-  '1F9B0': ['red_hair'],
-  // 🦲 bald
-  '1F9B2': ['bald'],
-  // 🦱 curly hair
-  '1F9B1': ['curly_hair'],
   // 🧬 dna
   '1F9EC': ['dna', 'double_helix'],
-  // 🦳 white hair
-  '1F9B3': ['white_hair'],
   // 🧴 lotion bottle
   '1F9F4': ['lotion'],
   // 🧷 safety pin
@@ -3362,54 +3362,26 @@ export default {
   '1F3F4-200D-2620-FE0F': ['pirate_flag', 'jolly_roger'],
 
   // VERSION 12
-  // ☺️ smiling face
-  '263A-FE0F': '263A',
-  // ☹️ frowning face
-  '2639-FE0F': '2639',
   // 🥱 yawning face
   '1F971': ['yawn'],
-  // ☠️ skull and crossbones
-  '2620-FE0F': '2620',
-  // ❣️ heart exclamation
-  '2763-FE0F': '2763',
-  // ❤️ red heart
-  '2764-FE0F': '2764',
   // 🤎 brown heart
   '1F90E': ['brown_heart'],
   // 🤍 white heart
   '1F90D': ['white_heart'],
-  // 🕳️ hole
-  '1F573-FE0F': '1F573',
-  // 🗨️ left speech bubble
-  '1F5E8-FE0F': '1F5E8',
-  // 🗯️ right anger bubble
-  '1F5EF-FE0F': '1F5EF',
-  // 🖐️ hand with fingers splayed
-  '1F590-FE0F': '1F590',
   // 🤏 pinching hand
   '1F90F': ['pinch'],
-  // ✌️ victory hand
-  '270C-FE0F': '270C',
-  // ☝️ index pointing up
-  '261D-FE0F': '261D',
-  // ✍️ writing hand
-  '270D-FE0F': '270D',
   // 🦾 mechanical arm
   '1F9BE': ['mech_arm'],
   // 🦿 mechanical leg
   '1F9BF': ['mech_leg'],
   // 🦻 ear with hearing aid
   '1F9BB': ['hearing_aid'],
-  // 👁️ eye
-  '1F441-FE0F': '1F441',
   // 🧏 deaf person
   '1F9CF': ['person_deaf'],
   // 🧏‍♂️ deaf man
   '1F9CF-200D-2642-FE0F': ['man_deaf'],
   // 🧏‍♀️ deaf woman
   '1F9CF-200D-2640-FE0F': ['woman_deaf'],
-  // 🕵️ detective
-  '1F575-FE0F': '1F575',
   // 🧍 person standing
   '1F9CD': ['person_standing'],
   // 🧍‍♂️ man standing
@@ -3434,48 +3406,22 @@ export default {
   '1F468-200D-1F9BD': ['man_wheelchair'],
   // 👩‍🦽 woman in manual wheelchair
   '1F469-200D-1F9BD': ['woman_wheelchair'],
-  // 🕴️ man in suit levitating
-  '1F574-FE0F': '1F574',
-  // ⛷️ skier
-  '26F7-FE0F': '26F7',
-  // 🏌️ person golfing
-  '1F3CC-FE0F': '1F3CC',
-  // ⛹️ person bouncing ball
-  '26F9-FE0F': '26F9',
-  // 🏋️ person lifting weights
-  '1F3CB-FE0F': '1F3CB',
   // 🧑‍🤝‍🧑 people holding hands
   '1F9D1-200D-1F91D-200D-1F9D1': ['holding_hands_people'],
-  // 🗣️ speaking head
-  '1F5E3-FE0F': '1F5E3',
   // 🦧 orangutan
   '1F9A7': ['orangutan'],
   // 🦮 guide dog
   '1F9AE': ['guide_dog'],
   // 🐕‍🦺 service dog
   '1F415-200D-1F9BA': ['service_dog'],
-  // 🐿️ chipmunk
-  '1F43F-FE0F': ['chipmunk'],
   // 🦥 sloth
   '1F9A5': ['sloth'],
   // 🦦 otter
   '1F9A6': ['otter'],
   // 🦨 skunk
   '1F9A8': ['skunk'],
-  // 🕊️ dove
-  '1F54A-FE0F': '1F54A',
   // 🦩 flamingo
   '1F9A9': ['flamingo'],
-  // 🕷️ spider
-  '1F577-FE0F': '1F577',
-  // 🕸️ spider web
-  '1F578-FE0F': '1F578',
-  // 🏵️ rosette
-  '1F3F5-FE0F': '1F3F5',
-  // ☘️ shamrock
-  '2618-FE0F': '2618',
-  // 🌶️ hot pepper
-  '1F336-FE0F': '1F336',
   // 🧄 garlic
   '1F9C4': ['garlic'],
   // 🧅 onion
@@ -3494,148 +3440,24 @@ export default {
   '1F9C9': ['mate', 'yerba_mate'],
   // 🧊 ice
   '1F9CA': ['ice'],
-  // 🍽️ fork and knife with plate
-  '1F37D-FE0F': '1F37D',
-  // 🗺️ world map
-  '1F5FA-FE0F': '1F5FA',
-  // 🏔️ snow-capped mountain
-  '1F3D4-FE0F': '1F3D4',
-  // ⛰️ mountain
-  '26F0-FE0F': '26F0',
-  // 🏕️ camping
-  '1F3D5-FE0F': '1F3D5',
-  // 🏖️ beach with umbrella
-  '1F3D6-FE0F': '1F3D6',
-  // 🏜️ desert
-  '1F3DC-FE0F': '1F3DC',
-  // 🏝️ desert island
-  '1F3DD-FE0F': '1F3DD',
-  // 🏞️ national park
-  '1F3DE-FE0F': '1F3DE',
-  // 🏟️ stadium
-  '1F3DF-FE0F': '1F3DF',
-  // 🏛️ classical building
-  '1F3DB-FE0F': '1F3DB',
-  // 🏗️ building construction
-  '1F3D7-FE0F': '1F3D7',
-  // 🏘️ houses
-  '1F3D8-FE0F': '1F3D8',
-  // 🏚️ derelict house
-  '1F3DA-FE0F': '1F3DA',
   // 🛕 hindu temple
   '1F6D5': ['hindu_temple'],
-  // ⛩️ shinto shrine
-  '26E9-FE0F': '26E9',
-  // 🏙️ cityscape
-  '1F3D9-FE0F': '1F3D9',
-  // ♨️ hot springs
-  '2668-FE0F': '2668',
-  // 🏎️ racing car
-  '1F3CE-FE0F': '1F3CE',
-  // 🏍️ motorcycle
-  '1F3CD-FE0F': '1F3CD',
   // 🦽 manual wheelchair
   '1F9BD': ['wheelchair'],
   // 🦼 motorized wheelchair
   '1F9BC': ['motor_wheelchair'],
   // 🛺 auto rickshaw
   '1F6FA': ['auto_rickshaw'],
-  // 🛣️ motorway
-  '1F6E3-FE0F': '1F6E3',
-  // 🛤️ railway track
-  '1F6E4-FE0F': '1F6E4',
-  // 🛢️ oil drum
-  '1F6E2-FE0F': '1F6E2',
-  // 🛳️ passenger ship
-  '1F6F3-FE0F': '1F6F3',
-  // ⛴️ ferry
-  '26F4-FE0F': '26F4',
-  // 🛥️ motor boat
-  '1F6E5-FE0F': '1F6E5',
-  // ✈️ airplane
-  '2708-FE0F': '2708',
-  // 🛩️ small airplane
-  '1F6E9-FE0F': '1F6E9',
   // 🪂 parachute
   '1FA82': ['parachute'],
-  // 🛰️ satellite
-  '1F6F0-FE0F': '1F6F0',
-  // 🛎️ bellhop bell
-  '1F6CE-FE0F': '1F6CE',
-  // ⏱️ stopwatch
-  '23F1-FE0F': '23F1',
-  // ⏲️ timer clock
-  '23F2-FE0F': '23F2',
-  // 🕰️ mantelpiece clock
-  '1F570-FE0F': '1F570',
-  // 🌡️ thermometer
-  '1F321-FE0F': '1F321',
-  // ☀️ sun
-  '2600-FE0F': '2600',
   // 🪐 ringed planet
   '1FA90': ['ringed_planet', 'saturn'],
-  // ☁️ cloud
-  '2601-FE0F': '2601',
-  // ⛈️ cloud with lightning and rain
-  '26C8-FE0F': '26C8',
-  // 🌤️ sun behind small cloud
-  '1F324-FE0F': '1F324',
-  // 🌥️ sun behind large cloud
-  '1F325-FE0F': '1F325',
-  // 🌦️ sun behind rain cloud
-  '1F326-FE0F': '1F326',
-  // 🌧️ cloud with rain
-  '1F327-FE0F': '1F327',
-  // 🌨️ cloud with snow
-  '1F328-FE0F': '1F328',
-  // 🌩️ cloud with lightning
-  '1F329-FE0F': '1F329',
-  // 🌪️ tornado
-  '1F32A-FE0F': '1F32A',
-  // 🌫️ fog
-  '1F32B-FE0F': '1F32B',
-  // 🌬️ wind face
-  '1F32C-FE0F': '1F32C',
-  // ☂️ umbrella
-  '2602-FE0F': '2602',
-  // ⛱️ umbrella on ground
-  '26F1-FE0F': '26F1',
-  // ❄️ snowflake
-  '2744-FE0F': '2744',
-  // ☃️ snowman
-  '2603-FE0F': '2603',
-  // ☄️ comet
-  '2604-FE0F': '2604',
-  // 🎗️ reminder ribbon
-  '1F397-FE0F': '1F397',
-  // 🎟️ admission tickets
-  '1F39F-FE0F': '1F39F',
-  // 🎖️ military medal
-  '1F396-FE0F': '1F396',
-  // ⛸️ ice skate
-  '26F8-FE0F': '26F8',
   // 🤿 diving mask
   '1F93F': ['diving_mask', 'scuba_mask'],
   // 🪀 yo-yo
   '1FA80': ['yoyo'],
   // 🪁 kite
   '1FA81': ['kite'],
-  // 🕹️ joystick
-  '1F579-FE0F': '1F579',
-  // ♠️ spade suit
-  '2660-FE0F': '2660',
-  // ♥️ heart suit
-  '2665-FE0F': '2665',
-  // ♦️ diamond suit
-  '2666-FE0F': '2666',
-  // ♣️ club suit
-  '2663-FE0F': '2663',
-  // ♟️ chess pawn
-  '265F-FE0F': '265F',
-  // 🖼️ framed picture
-  '1F5BC-FE0F': '1F5BC',
-  // 🕶️ sunglasses
-  '1F576-FE0F': '1F576',
   // 🦺 safety vest
   '1F9BA': ['safety_vest'],
   // 🥻 sari
@@ -3646,250 +3468,26 @@ export default {
   '1FA72': ['briefs'],
   // 🩳 shorts
   '1FA73': ['shorts'],
-  // 🛍️ shopping bags
-  '1F6CD-FE0F': '1F6CD',
   // 🩰 ballet shoes
   '1FA70': ['ballet_shoes'],
-  // ⛑️ rescue worker’s helmet
-  '26D1-FE0F': '26D1',
-  // 🎙️ studio microphone
-  '1F399-FE0F': '1F399',
-  // 🎚️ level slider
-  '1F39A-FE0F': '1F39A',
-  // 🎛️ control knobs
-  '1F39B-FE0F': '1F39B',
   // 🪕 banjo
   '1FA95': ['banjo'],
-  // ☎️ telephone
-  '260E-FE0F': '260E',
-  // 🖥️ desktop computer
-  '1F5A5-FE0F': '1F5A5',
-  // 🖨️ printer
-  '1F5A8-FE0F': '1F5A8',
-  // ⌨️ keyboard
-  '2328-FE0F': '2328',
-  // 🖱️ computer mouse
-  '1F5B1-FE0F': '1F5B1',
-  // 🖲️ trackball
-  '1F5B2-FE0F': '1F5B2',
-  // 🎞️ film frames
-  '1F39E-FE0F': '1F39E',
-  // 📽️ film projector
-  '1F4FD-FE0F': '1F4FD',
-  // 🕯️ candle
-  '1F56F-FE0F': '1F56F',
   // 🪔 diya lamp
   '1FA94': ['diya_lamp'],
-  // 🗞️ rolled-up newspaper
-  '1F5DE-FE0F': '1F5DE',
-  // 🏷️ label
-  '1F3F7-FE0F': '1F3F7',
-  // ✉️ envelope
-  '2709-FE0F': '2709',
-  // 🗳️ ballot box with ballot
-  '1F5F3-FE0F': '1F5F3',
-  // ✏️ pencil
-  '270F-FE0F': '270F',
-  // ✒️ black nib
-  '2712-FE0F': '2712',
-  // 🖋️ fountain pen
-  '1F58B-FE0F': '1F58B',
-  // 🖊️ pen
-  '1F58A-FE0F': '1F58A',
-  // 🖌️ paintbrush
-  '1F58C-FE0F': '1F58C',
-  // 🖍️ crayon
-  '1F58D-FE0F': '1F58D',
-  // 🗂️ card index dividers
-  '1F5C2-FE0F': '1F5C2',
-  // 🗒️ spiral notepad
-  '1F5D2-FE0F': '1F5D2',
-  // 🗓️ spiral calendar
-  '1F5D3-FE0F': '1F5D3',
-  // 🖇️ linked paperclips
-  '1F587-FE0F': '1F587',
-  // ✂️ scissors
-  '2702-FE0F': '2702',
-  // 🗃️ card file box
-  '1F5C3-FE0F': '1F5C3',
-  // 🗄️ file cabinet
-  '1F5C4-FE0F': '1F5C4',
-  // 🗑️ wastebasket
-  '1F5D1-FE0F': '1F5D1',
-  // 🗝️ old key
-  '1F5DD-FE0F': '1F5DD',
   // 🪓 axe
   '1FA93': ['axe'],
-  // ⛏️ pick
-  '26CF-FE0F': '26CF',
-  // ⚒️ hammer and pick
-  '2692-FE0F': '2692',
-  // 🛠️ hammer and wrench
-  '1F6E0-FE0F': '1F6E0',
-  // 🗡️ dagger
-  '1F5E1-FE0F': '1F5E1',
-  // ⚔️ crossed swords
-  '2694-FE0F': '2694',
-  // 🛡️ shield
-  '1F6E1-FE0F': '1F6E1',
-  // ⚙️ gear
-  '2699-FE0F': '2699',
-  // 🗜️ clamp
-  '1F5DC-FE0F': '1F5DC',
-  // ⚖️ balance scale
-  '2696-FE0F': '2696',
   // 🦯 probing cane
   '1F9AF': ['probing_cane'],
-  // ⛓️ chains
-  '26D3-FE0F': '26D3',
-  // ⚗️ alembic
-  '2697-FE0F': '2697',
   // 🩸 drop of blood
   '1FA78': ['blood_drop'],
   // 🩹 adhesive bandage
   '1FA79': ['bandaid', 'adhesive_bandage'],
   // 🩺 stethoscope
   '1FA7A': ['stethoscope'],
-  // 🛏️ bed
-  '1F6CF-FE0F': '1F6CF',
-  // 🛋️ couch and lamp
-  '1F6CB-FE0F': '1F6CB',
   // 🪑 chair
   '1FA91': ['chair'],
   // 🪒 razor
   '1FA92': ['razor'],
-  // ⚰️ coffin
-  '26B0-FE0F': '26B0',
-  // ⚱️ funeral urn
-  '26B1-FE0F': '26B1',
-  // ⚠️ warning
-  '26A0-FE0F': '26A0',
-  // ☢️ radioactive
-  '2622-FE0F': '2622',
-  // ☣️ biohazard
-  '2623-FE0F': '2623',
-  // ⬆️ up arrow
-  '2B06-FE0F': '2B06',
-  // ↗️ up-right arrow
-  '2197-FE0F': '2197',
-  // ➡️ right arrow
-  '27A1-FE0F': '27A1',
-  // ↘️ down-right arrow
-  '2198-FE0F': '2198',
-  // ⬇️ down arrow
-  '2B07-FE0F': '2B07',
-  // ↙️ down-left arrow
-  '2199-FE0F': '2199',
-  // ⬅️ left arrow
-  '2B05-FE0F': '2B05',
-  // ↖️ up-left arrow
-  '2196-FE0F': '2196',
-  // ↕️ up-down arrow
-  '2195-FE0F': '2195',
-  // ↔️ left-right arrow
-  '2194-FE0F': '2194',
-  // ↩️ right arrow curving left
-  '21A9-FE0F': '21A9',
-  // ↪️ left arrow curving right
-  '21AA-FE0F': '21AA',
-  // ⤴️ right arrow curving up
-  '2934-FE0F': '2934',
-  // ⤵️ right arrow curving down
-  '2935-FE0F': '2935',
-  // ⚛️ atom symbol
-  '269B-FE0F': '269B',
-  // 🕉️ om
-  '1F549-FE0F': '1F549',
-  // ✡️ star of David
-  '2721-FE0F': '2721',
-  // ☸️ wheel of dharma
-  '2638-FE0F': '2638',
-  // ☯️ yin yang
-  '262F-FE0F': '262F',
-  // ✝️ latin cross
-  '271D-FE0F': '271D',
-  // ☦️ orthodox cross
-  '2626-FE0F': '2626',
-  // ☪️ star and crescent
-  '262A-FE0F': '262A',
-  // ☮️ peace symbol
-  '262E-FE0F': '262E',
-  // ▶️ play button
-  '25B6-FE0F': '25B6',
-  // ⏭️ next track button
-  '23ED-FE0F': '23ED',
-  // ⏯️ play or pause button
-  '23EF-FE0F': '23EF',
-  // ◀️ reverse button
-  '25C0-FE0F': '25C0',
-  // ⏮️ last track button
-  '23EE-FE0F': '23EE',
-  // ⏸️ pause button
-  '23F8-FE0F': '23F8',
-  // ⏹️ stop button
-  '23F9-FE0F': '23F9',
-  // ⏺️ record button
-  '23FA-FE0F': '23FA',
-  // ⏏️ eject button
-  '23CF-FE0F': '23CF',
-  // ♀️ female sign
-  '2640-FE0F': '2640',
-  // ♂️ male sign
-  '2642-FE0F': '2642',
-  // ⚕️ medical symbol
-  '2695-FE0F': '2695',
-  // ♾️ infinity
-  '267E-FE0F': '267E',
-  // ♻️ recycling symbol
-  '267B-FE0F': '267B',
-  // ⚜️ fleur-de-lis
-  '269C-FE0F': '269C',
-  // ☑️ check box with check
-  '2611-FE0F': '2611',
-  // ✔️ check mark
-  '2714-FE0F': '2714',
-  // ✖️ multiplication sign
-  '2716-FE0F': '2716',
-  // 〽️ part alternation mark
-  '303D-FE0F': '303D',
-  // ✳️ eight-spoked asterisk
-  '2733-FE0F': '2733',
-  // ✴️ eight-pointed star
-  '2734-FE0F': '2734',
-  // ❇️ sparkle
-  '2747-FE0F': '2747',
-  // ‼️ double exclamation mark
-  '203C-FE0F': '203C',
-  // ⁉️ exclamation question mark
-  '2049-FE0F': '2049',
-  // 〰️ wavy dash
-  '3030-FE0F': '3030',
-  // ©️ copyright
-  '00A9-FE0F': '00A9',
-  // ®️ registered
-  '00AE-FE0F': '00AE',
-  // ™️ trade mark
-  '2122-FE0F': '2122',
-  // 🅰️ A button (blood type)
-  '1F170-FE0F': '1F170',
-  // 🅱️ B button (blood type)
-  '1F171-FE0F': '1F171',
-  // ℹ️ information
-  '2139-FE0F': '2139',
-  // Ⓜ️ circled M
-  '24C2-FE0F': '24C2',
-  // 🅾️ O button (blood type)
-  '1F17E-FE0F': '1F17E',
-  // 🅿️ P button
-  '1F17F-FE0F': '1F17F',
-  // 🈂️ Japanese “service charge” button
-  '1F202-FE0F': '1F202',
-  // 🈷️ Japanese “monthly amount” button
-  '1F237-FE0F': '1F237',
-  // ㊗️ Japanese “congratulations” button
-  '3297-FE0F': '3297',
-  // ㊙️ Japanese “secret” button
-  '3299-FE0F': '3299',
   // 🟠 orange circle
   '1F7E0': ['orange_circle'],
   // 🟡 yellow circle
@@ -3914,14 +3512,4 @@ export default {
   '1F7EA': ['purple_square'],
   // 🟫 brown square
   '1F7EB': ['brown_square'],
-  // ◼️ black medium square
-  '25FC-FE0F': '25FC',
-  // ◻️ white medium square
-  '25FB-FE0F': '25FB',
-  // ▪️ black small square
-  '25AA-FE0F': '25AA',
-  // ▫️ white small square
-  '25AB-FE0F': '25AB',
-  // 🏳️ white flag
-  '1F3F3-FE0F': '1F3F3',
 };
