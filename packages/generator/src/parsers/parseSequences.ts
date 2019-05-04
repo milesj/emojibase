@@ -28,7 +28,7 @@ export default function parseSequences(
         description: description || extractLineDescription(line.comment),
         gender: extractGender(hexcode),
         hexcode,
-        property: [(property as Property) || defaultProperty],
+        property: new Set([(property as Property) || defaultProperty]),
         type: EMOJI,
         unicodeVersion: extractUnicodeVersion(line.comment),
         version: parseFloat(version),

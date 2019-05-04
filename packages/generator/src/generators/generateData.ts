@@ -26,7 +26,7 @@ function createEmoji(
     annotation: '',
     name: baseEmoji.name || baseEmoji.description.toUpperCase(),
     hexcode: baseEmoji.hexcode,
-    shortcodes: baseEmoji.shortcodes,
+    shortcodes: Array.from(baseEmoji.shortcodes),
     tags: [],
     // Presentation
     emoji: toUnicode(baseEmoji.hexcode),
@@ -72,8 +72,8 @@ function createEmoji(
       emoji.annotation = annotation.annotation;
     }
 
-    if (annotation.tags && annotation.tags.length > 0) {
-      emoji.tags = annotation.tags;
+    if (annotation.tags && annotation.tags.size > 0) {
+      emoji.tags = Array.from(annotation.tags);
 
       // Sort the tags for easier diffs
       emoji.tags.sort();

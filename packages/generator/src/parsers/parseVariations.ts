@@ -21,7 +21,7 @@ export default function parseVariations(version: string, content: string): Emoji
     } else {
       map[baseHexcode] = {
         emoji: '',
-        property: ['Emoji'],
+        property: new Set().add('Emoji'),
         text: '',
         [type]: hexcode,
       };

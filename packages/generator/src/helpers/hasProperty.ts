@@ -1,5 +1,5 @@
 import { Property } from '../types';
 
-export default function hasProperty(property: Property[], search: Property[]): boolean {
-  return property.some(prop => search.includes(prop));
+export default function hasProperty(property: Set<Property>, search: Property[]): boolean {
+  return Array.from(property).some(prop => search.includes(prop));
 }

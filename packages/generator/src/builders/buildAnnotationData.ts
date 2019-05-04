@@ -182,7 +182,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     // Add the new custom annotation
     data[hexcode] = {
       annotation,
-      tags: Array.from(new Set(tags)),
+      tags: new Set(tags),
     };
   });
 

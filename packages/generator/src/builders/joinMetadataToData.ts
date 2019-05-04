@@ -70,6 +70,6 @@ export default function joinMetadataToData(
     }
 
     // Pull in the shortcodes
-    emoji.shortcodes = shortcodes[hexcode] || [];
+    emoji.shortcodes = new Set(shortcodes[hexcode]);
   });
 }

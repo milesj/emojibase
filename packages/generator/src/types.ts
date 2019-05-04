@@ -51,7 +51,7 @@ export type Property =
 
 export interface CLDRAnnotation {
   annotation: string;
-  tags: string[];
+  tags: Set<string>;
 }
 
 export type CLDRAnnotationMap = HexcodeMap<CLDRAnnotation>;
@@ -70,7 +70,7 @@ export interface Emoji {
   description: string;
   gender?: Gender | null;
   hexcode: Hexcode;
-  property: Property[];
+  property: Set<Property>;
   type: Presentation;
   unicodeVersion: string;
   version: string;
@@ -82,7 +82,7 @@ export interface Emoji {
   modifications: Map<string, EmojiModification>;
   name: string;
   variations: EmojiVariation;
-  shortcodes: Shortcode[];
+  shortcodes: Set<Shortcode>;
   emoticon: Emoticon;
 }
 
@@ -92,7 +92,7 @@ export interface EmojiData {
   description: string;
   gender?: Gender | null;
   hexcode: Hexcode;
-  property: Property[];
+  property: Set<Property>;
   type: Presentation;
   unicodeVersion: number | null;
   version: number;
@@ -123,7 +123,7 @@ export interface EmojiModification extends Emoji {
 export interface EmojiVariation {
   text: string;
   emoji: string;
-  property?: Property[];
+  property?: Set<Property>;
 }
 
 export type EmojiVariationMap = HexcodeMap<EmojiVariation>;
