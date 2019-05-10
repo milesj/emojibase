@@ -243,8 +243,8 @@ The resulting dataset would include the following structure:
   "annotation": "copyright",
   "name": "COPYRIGHT SIGN",
   "hexcode": "00A9",
-  "emoji": "©️",
-  "text": "©︎"
+  "emoji": "©️", // 00A9-FE0F
+  "text": "©︎" // 00A9-FE0E
   // ...
 }
 ```
