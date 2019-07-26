@@ -1,3 +1,9 @@
+### 4.0.1 - 2019-7-25
+
+#### 🐞 Fixes
+
+- Updated `:anxious:` shortcode from 😊 to 😰.
+
 # 4.0.0 - 2019-05-09
 
 #### 🎉 Release
