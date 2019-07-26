@@ -69,7 +69,7 @@ export default {
   // 😉 winking face
   '1F609': ['coy', 'wink'],
   // 😊 smiling face with smiling eyes
-  '1F60A': ['anxious', 'blush'],
+  '1F60A': ['blush'],
   // 😇 smiling face with halo
   '1F607': ['innocent', 'halo'],
   // 😍 smiling face with heart-eyes
@@ -157,7 +157,7 @@ export default {
   // 😨 fearful face
   '1F628': ['fearful'],
   // 😰 anxious face with sweat
-  '1F630': ['frustrated'],
+  '1F630': ['cold_sweat', 'anxious', 'frustrated'],
   // 😥 sad but relieved face
   '1F625': ['hopeful'],
   // 😢 crying face
