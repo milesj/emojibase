@@ -1,3 +1,9 @@
+### 3.0.1 - 2019-07-27
+
+#### 🛠 Internals
+
+- **[TS]** Refined types. Replaced `any` with `unknown`.
+
 # 3.0.0 - 2019-05-09
 
 #### 🎉 Release
