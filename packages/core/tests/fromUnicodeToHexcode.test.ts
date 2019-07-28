@@ -16,6 +16,7 @@ describe('fromUnicodeToHexcode()', () => {
     it(`converts unicode to hexcode for ${unicode}`, () => {
       const hexcode = fromUnicodeToHexcode(unicode, false);
 
+      // eslint-disable-next-line jest/no-if
       if (hexcode.length <= 10 && (hexcode.endsWith('FE0E') || hexcode.endsWith('FE0F'))) {
         expect(hexcode.replace(SEQUENCE_HEXCODE_PATTERN, '')).toBe(emoji.hexcode);
       } else {

@@ -27,7 +27,7 @@ function createRegexPattern(
   return groups.map(group => codePointGroups[group].toRegExp(flags).source).join('|');
 }
 
-function createEmojiRegex(data: EmojiMap, display: string = 'both'): Promise<any> {
+function createEmojiRegex(data: EmojiMap, display: string = 'both'): Promise<string[]> {
   const fileName = display === 'both' ? 'index' : display;
   const codePointGroups: TrieMap = {};
 
@@ -93,7 +93,7 @@ function createEmojiRegex(data: EmojiMap, display: string = 'both'): Promise<any
   ]);
 }
 
-function createEmoticonRegex(data: EmojiMap): Promise<any> {
+function createEmoticonRegex(data: EmojiMap): Promise<string> {
   const trie = new Trie();
   let emoticons: string[] = [];
 

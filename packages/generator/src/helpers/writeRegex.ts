@@ -8,7 +8,7 @@ export default function writeRegex(
   name: string,
   pattern: RegExp | string,
   flags: string = '',
-): Promise<any> {
+): Promise<string> {
   log.info('regex', `Creating ${name} regex pattern`);
 
   return writeFile(REGEX_FOLDER, name, `module.exports = /${pattern}/${flags};\n`);

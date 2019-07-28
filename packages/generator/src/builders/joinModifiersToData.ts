@@ -18,7 +18,7 @@ import {
   MAN,
 } from '../constants';
 
-const SKIN_HEXCODE_PATTERN: RegExp = new RegExp(`-(${SKIN_MODIFIER_PATTERN.source})`, 'g');
+const SKIN_HEXCODE_PATTERN = new RegExp(`-(${SKIN_MODIFIER_PATTERN.source})`, 'g');
 
 const SKIN_TONES: { [hexcode: string]: SkinTone } = {
   [LIGHT_SKIN_MODIFIER]: LIGHT_SKIN, // 1

@@ -48,7 +48,7 @@ const GUIDELINES = `/**
  * beginning. This allows for backwards compatible changes.
  */`;
 
-export default async function generateShortcodes(): Promise<any> {
+export default async function generateShortcodes(): Promise<string> {
   // eslint-disable-next-line
   const data: Required<Emoji>[] = require(path.join(process.cwd(), 'packages/data/en/data.json'));
   const output: string[] = [

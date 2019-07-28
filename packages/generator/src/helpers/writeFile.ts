@@ -1,7 +1,7 @@
 import fs from 'fs-extra';
 import path from 'path';
 
-export default function writeFile(targetFolder: string, fileName: string, data: any): Promise<any> {
+export default function writeFile<T>(targetFolder: string, fileName: string, data: T): Promise<T> {
   const filePath = path.resolve(targetFolder, fileName);
 
   return fs

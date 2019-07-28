@@ -5,7 +5,7 @@ import readCache from '../helpers/readCache';
 import writeCache from '../helpers/writeCache';
 
 // Speed up lookups
-const localCache: { [key: string]: any } = {};
+const localCache: { [key: string]: unknown } = {};
 
 export default async function fetchAndCache<T>(
   url: string,

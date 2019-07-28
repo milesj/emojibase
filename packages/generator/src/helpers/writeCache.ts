@@ -4,7 +4,7 @@ import writeFile from './writeFile';
 
 const CACHE_FOLDER = path.resolve(__dirname, '../../../../cache');
 
-export default function writeCache(name: string, data: any, encode: boolean = true): Promise<any> {
+export default function writeCache<T>(name: string, data: T, encode: boolean = true): Promise<T> {
   log.info('cache', `Caching ${name}`);
 
   return writeFile(
