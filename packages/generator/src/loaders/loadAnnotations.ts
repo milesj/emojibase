@@ -15,7 +15,7 @@ export default function loadAnnotations(
 
   return (
     fetchAndCache(
-      `http://unicode.org/repos/cldr/tags/release-${releaseVersion}/common/${folderName}/${pathLocale}.xml`,
+      `https://raw.githubusercontent.com/unicode-org/cldr/release-${releaseVersion}/common/${folderName}/${pathLocale}.xml`,
       `cldr-${version}/${folderName}-${locale}.json`,
       data => parseAnnotations(version, data),
     )

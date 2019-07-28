@@ -5,8 +5,8 @@ import { CLDRDataMap } from '../types';
  * Parses an official unicode CLDR XML datasource.
  *
  * Example:
- *  http://unicode.org/repos/cldr/tags/release-31-0-1/common/main/en.xml
- *  http://unicode.org/repos/cldr/tags/release-31-0-1/common/subdivisions/en.xml
+ *  https://raw.githubusercontent.com/unicode-org/cldr/release-31-0-1/common/main/en.xml
+ *  https://raw.githubusercontent.com/unicode-org/cldr/release-31-0-1/common/subdivisions/en.xml
  */
 export default function parseLocalization(
   version: string,

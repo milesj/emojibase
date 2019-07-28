@@ -5,7 +5,7 @@ import { CLDRAnnotationMap } from '../types';
 /**
  * Parses the official unicode CLDR annotation data.
  *
- * Example: http://unicode.org/repos/cldr/tags/release-31-0-1/common/annotations/en.xml
+ * Example: https://raw.githubusercontent.com/unicode-org/cldr/release-31-0-1/common/annotations/en.xml
  */
 export default function parseAnnotations(version: string, content: string): CLDRAnnotationMap {
   const xml = cheerio.load(content, { xmlMode: true });
