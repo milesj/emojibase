@@ -1,9 +1,10 @@
+/* eslint-disable @typescript-eslint/no-namespace, @typescript-eslint/no-explicit-any */
+
 // @ts-ignore
 import regeneratorRuntime from 'regenerator-runtime';
 import fetchFromCDN from '../src/fetchFromCDN';
 
 declare global {
-  // eslint-disable-next-line @typescript-eslint/no-namespace
   namespace NodeJS {
     interface Global {
       fetch: any;
