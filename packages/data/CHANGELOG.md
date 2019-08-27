@@ -1,3 +1,9 @@
+### 4.0.2 - 2019-08-27
+
+#### 🐞 Fixes
+
+- **[TS]** Updated `CompactEmoji.tags` type to be optional.
+
 ### 4.0.1 - 2019-07-27
 
 #### 🐞 Fixes
