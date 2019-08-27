@@ -143,7 +143,7 @@ export interface CompactEmoji {
   order: number;
   shortcodes: Shortcode[];
   skins?: CompactEmoji[];
-  tags: string[];
+  tags?: string[];
   unicode: Unicode;
 }
 
@@ -159,7 +159,7 @@ export interface Emoji {
   shortcodes: Shortcode[];
   skins?: Emoji[];
   subgroup: Subgroup;
-  tags: string[];
+  tags?: string[];
   text: Unicode;
   tone?: SkinTone | SkinTone[];
   type: Presentation;

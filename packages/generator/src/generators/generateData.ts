@@ -86,7 +86,7 @@ function createEmoji(
   }
 
   // Tags
-  if (emoji.tags.length === 0) {
+  if (!emoji.tags || emoji.tags.length === 0) {
     emoji.tags = emoji.shortcodes.map(code => code.replace(/_/g, ' '));
   }
 
