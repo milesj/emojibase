@@ -6386,7 +6386,8 @@
       "mech_arm"
     ],
     "tags": [
-      "mekanisk arm"
+      "bionisk arm",
+      "protes"
     ],
     "emoji": "🦾",
     "text": "",
@@ -6404,7 +6405,8 @@
       "mech_leg"
     ],
     "tags": [
-      "mekaniskt ben"
+      "bioniskt ben",
+      "protes"
     ],
     "emoji": "🦿",
     "text": "",
@@ -10680,7 +10682,6 @@
       "man_tipping_hand"
     ],
     "tags": [
-      "dricks",
       "hjälpa",
       "information",
       "man"
@@ -10789,7 +10790,6 @@
       "woman_tipping_hand"
     ],
     "tags": [
-      "dricks",
       "hjälpa",
       "information",
       "kvinna"
@@ -11316,7 +11316,7 @@
       "man_deaf"
     ],
     "tags": [
-      "hörselskada",
+      "hörselskadad",
       "man"
     ],
     "emoji": "🧏‍♂️",
@@ -15585,7 +15585,7 @@
     ]
   },
   {
-    "annotation": "brandman",
+    "annotation": "manlig brandman",
     "name": "MAN, FIRE ENGINE",
     "hexcode": "1F468-200D-1F692",
     "shortcodes": [
@@ -15593,6 +15593,7 @@
     ],
     "tags": [
       "brandbil",
+      "brandman",
       "brandväsendet",
       "man"
     ],
@@ -15605,7 +15606,7 @@
     "version": 4,
     "skins": [
       {
-        "annotation": "brandman: ljus hy",
+        "annotation": "manlig brandman: ljus hy",
         "name": "MAN, FIRE ENGINE, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F468-1F3FB-200D-1F692",
         "shortcodes": [
@@ -15621,7 +15622,7 @@
         "tone": 1
       },
       {
-        "annotation": "brandman: mellanljus hy",
+        "annotation": "manlig brandman: mellanljus hy",
         "name": "MAN, FIRE ENGINE, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F468-1F3FC-200D-1F692",
         "shortcodes": [
@@ -15637,7 +15638,7 @@
         "tone": 2
       },
       {
-        "annotation": "brandman: mellanfärgad hy",
+        "annotation": "manlig brandman: mellanfärgad hy",
         "name": "MAN, FIRE ENGINE, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F468-1F3FD-200D-1F692",
         "shortcodes": [
@@ -15653,7 +15654,7 @@
         "tone": 3
       },
       {
-        "annotation": "brandman: mellanmörk hy",
+        "annotation": "manlig brandman: mellanmörk hy",
         "name": "MAN, FIRE ENGINE, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F468-1F3FE-200D-1F692",
         "shortcodes": [
@@ -15669,7 +15670,7 @@
         "tone": 4
       },
       {
-        "annotation": "brandman: mörk hy",
+        "annotation": "manlig brandman: mörk hy",
         "name": "MAN, FIRE ENGINE, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F468-1F3FF-200D-1F692",
         "shortcodes": [
@@ -18507,7 +18508,6 @@
       "god",
       "hjälte",
       "hjältinna",
-      "man",
       "superkraft",
       "superkrafter"
     ],
@@ -20959,7 +20959,7 @@
       "man_getting_face_massage"
     ],
     "tags": [
-      "avslapning",
+      "avslappning",
       "huvudmassage",
       "man",
       "man som får massage",
@@ -21069,7 +21069,7 @@
       "woman_getting_face_massage"
     ],
     "tags": [
-      "avslapning",
+      "avslappning",
       "huvudmassage",
       "kvinna",
       "kvinna som får massage",
@@ -29037,14 +29037,16 @@
     ]
   },
   {
-    "annotation": "Personer som håller hand",
+    "annotation": "personer som håller hand",
     "name": "ADULT, HANDSHAKE, ADULT",
     "hexcode": "1F9D1-200D-1F91D-200D-1F9D1",
     "shortcodes": [
       "holding_hands_people"
     ],
     "tags": [
-      "personer som håller hand"
+      "håller hand",
+      "människor",
+      "par"
     ],
     "emoji": "🧑‍🤝‍🧑",
     "text": "",
@@ -29055,7 +29057,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "Personer som håller hand: ljus hy",
+        "annotation": "personer som håller hand: ljus hy",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FB",
         "shortcodes": [
@@ -29071,7 +29073,7 @@
         "tone": 1
       },
       {
-        "annotation": "Personer som håller hand: mellanljus hy, ljus hy",
+        "annotation": "personer som håller hand: mellanljus hy, ljus hy",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FB",
         "shortcodes": [
@@ -29090,7 +29092,7 @@
         ]
       },
       {
-        "annotation": "Personer som håller hand: mellanljus hy",
+        "annotation": "personer som håller hand: mellanljus hy",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FC",
         "shortcodes": [
@@ -29106,7 +29108,7 @@
         "tone": 2
       },
       {
-        "annotation": "Personer som håller hand: mellanfärgad hy, ljus hy",
+        "annotation": "personer som håller hand: mellanfärgad hy, ljus hy",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FB",
         "shortcodes": [
@@ -29125,7 +29127,7 @@
         ]
       },
       {
-        "annotation": "Personer som håller hand: mellanfärgad hy, mellanljus hy",
+        "annotation": "personer som håller hand: mellanfärgad hy, mellanljus hy",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FC",
         "shortcodes": [
@@ -29144,7 +29146,7 @@
         ]
       },
       {
-        "annotation": "Personer som håller hand: mellanfärgad hy",
+        "annotation": "personer som håller hand: mellanfärgad hy",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FD",
         "shortcodes": [
@@ -29160,7 +29162,7 @@
         "tone": 3
       },
       {
-        "annotation": "Personer som håller hand: mellanmörk hy, ljus hy",
+        "annotation": "personer som håller hand: mellanmörk hy, ljus hy",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FB",
         "shortcodes": [
@@ -29179,7 +29181,7 @@
         ]
       },
       {
-        "annotation": "Personer som håller hand: mellanmörk hy, mellanljus hy",
+        "annotation": "personer som håller hand: mellanmörk hy, mellanljus hy",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FC",
         "shortcodes": [
@@ -29198,7 +29200,7 @@
         ]
       },
       {
-        "annotation": "Personer som håller hand: mellanmörk hy, mellanfärgad hy",
+        "annotation": "personer som håller hand: mellanmörk hy, mellanfärgad hy",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FD",
         "shortcodes": [
@@ -29217,7 +29219,7 @@
         ]
       },
       {
-        "annotation": "Personer som håller hand: mellanmörk hy",
+        "annotation": "personer som håller hand: mellanmörk hy",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FE",
         "shortcodes": [
@@ -29233,7 +29235,7 @@
         "tone": 4
       },
       {
-        "annotation": "Personer som håller hand: mörk hy, ljus hy",
+        "annotation": "personer som håller hand: mörk hy, ljus hy",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB",
         "shortcodes": [
@@ -29252,7 +29254,7 @@
         ]
       },
       {
-        "annotation": "Personer som håller hand: mörk hy, mellanljus hy",
+        "annotation": "personer som håller hand: mörk hy, mellanljus hy",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC",
         "shortcodes": [
@@ -29271,7 +29273,7 @@
         ]
       },
       {
-        "annotation": "Personer som håller hand: mörk hy, mellanfärgad hy",
+        "annotation": "personer som håller hand: mörk hy, mellanfärgad hy",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD",
         "shortcodes": [
@@ -29290,7 +29292,7 @@
         ]
       },
       {
-        "annotation": "Personer som håller hand: mörk hy, mellanmörk hy",
+        "annotation": "personer som håller hand: mörk hy, mellanmörk hy",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE",
         "shortcodes": [
@@ -29309,7 +29311,7 @@
         ]
       },
       {
-        "annotation": "Personer som håller hand: mörk hy",
+        "annotation": "personer som håller hand: mörk hy",
         "name": "ADULT, HANDSHAKE, ADULT, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF",
         "shortcodes": [
@@ -32176,7 +32178,7 @@
     ],
     "tags": [
       "alpaca",
-      "guangaco",
+      "guanaco",
       "ull",
       "vicuña"
     ],
@@ -32682,8 +32684,7 @@
       "baby_chick"
     ],
     "tags": [
-      "djur",
-      "klyckling"
+      "djur"
     ],
     "emoji": "🐤",
     "text": "",
@@ -34341,7 +34342,7 @@
     "version": 3
   },
   {
-    "annotation": "sallad",
+    "annotation": "sallat",
     "name": "LEAFY GREEN",
     "hexcode": "1F96C",
     "shortcodes": [
@@ -34350,7 +34351,8 @@
     "tags": [
       "bok choy",
       "grönkål",
-      "kål"
+      "kål",
+      "sallad"
     ],
     "emoji": "🥬",
     "text": "",
@@ -37408,6 +37410,7 @@
     "tags": [
       "fordon",
       "lok",
+      "lokomotiv",
       "tåg"
     ],
     "emoji": "🚂",
@@ -37458,7 +37461,7 @@
     "version": 1
   },
   {
-    "annotation": "loket på ett snabbtåg",
+    "annotation": "höghastighetståg",
     "name": "HIGH-SPEED TRAIN WITH BULLET NOSE",
     "hexcode": "1F685",
     "shortcodes": [
@@ -37466,6 +37469,8 @@
     ],
     "tags": [
       "fordon",
+      "shinkansen",
+      "tgv",
       "tåg"
     ],
     "emoji": "🚅",
@@ -37591,13 +37596,14 @@
     "version": 1
   },
   {
-    "annotation": "bergsbana",
+    "annotation": "bergbana",
     "name": "MOUNTAIN RAILWAY",
     "hexcode": "1F69E",
     "shortcodes": [
       "mountain_railway"
     ],
     "tags": [
+      "bergsbana",
       "bergståg",
       "fordon"
     ],
@@ -38028,6 +38034,7 @@
       "auto_rickshaw"
     ],
     "tags": [
+      "motorriksha",
       "tuk-tuk"
     ],
     "emoji": "🛺",
@@ -38168,7 +38175,7 @@
     "version": 1
   },
   {
-    "annotation": "bensinpump",
+    "annotation": "bränslepump",
     "name": "FUEL PUMP",
     "hexcode": "26FD",
     "shortcodes": [
@@ -38176,6 +38183,7 @@
     ],
     "tags": [
       "bensin",
+      "bensinpump",
       "bränsle"
     ],
     "emoji": "⛽️",
@@ -38592,7 +38600,8 @@
       "mountain_cableway"
     ],
     "tags": [
-      "fordon"
+      "fordon",
+      "gondolbana"
     ],
     "emoji": "🚠",
     "text": "",
@@ -38610,7 +38619,9 @@
       "aerial_tramway"
     ],
     "tags": [
-      "fordon"
+      "fordon",
+      "funifor",
+      "linbana"
     ],
     "emoji": "🚡",
     "text": "",
@@ -38677,7 +38688,7 @@
     "version": 5
   },
   {
-    "annotation": "plingklocka",
+    "annotation": "receptionsklocka",
     "name": "BELLHOP BELL",
     "hexcode": "1F6CE",
     "shortcodes": [
@@ -38685,7 +38696,8 @@
     ],
     "tags": [
       "hotell",
-      "klocka"
+      "klocka",
+      "plingklocka"
     ],
     "emoji": "🛎️",
     "text": "🛎︎",
@@ -38790,7 +38802,7 @@
     "version": 1
   },
   {
-    "annotation": "stoppur",
+    "annotation": "tidtagarur",
     "name": "STOPWATCH",
     "hexcode": "23F1",
     "shortcodes": [
@@ -38798,6 +38810,8 @@
     ],
     "tags": [
       "klocka",
+      "kronograf",
+      "stoppur",
       "tid"
     ],
     "emoji": "⏱️",
@@ -42652,7 +42666,8 @@
       "low_sound"
     ],
     "tags": [
-      "volym"
+      "högtalare med låg volym",
+      "låg volym"
     ],
     "emoji": "🔈️",
     "text": "🔈︎",
@@ -44224,9 +44239,10 @@
       "receipt"
     ],
     "tags": [
+      "belägg",
       "bevis",
       "bokföring",
-      "underlägg"
+      "redovisning"
     ],
     "emoji": "🧾",
     "text": "",
@@ -44919,7 +44935,7 @@
     "version": 1
   },
   {
-    "annotation": "häftstift",
+    "annotation": "kartnål",
     "name": "PUSHPIN",
     "hexcode": "1F4CC",
     "shortcodes": [
@@ -46080,7 +46096,7 @@
       "toilet_paper"
     ],
     "tags": [
-      "pappershandduk",
+      "pappershanddukar",
       "toalettpapper"
     ],
     "emoji": "🧻",
@@ -51459,7 +51475,7 @@
     "version": 1
   },
   {
-    "annotation": "flagga: Elfenbenskusten",
+    "annotation": "flagga: Côte d’Ivoire",
     "name": "FLAG: CÔTE D’IVOIRE",
     "hexcode": "1F1E8-1F1EE",
     "shortcodes": [

@@ -1011,7 +1011,7 @@
     "version": 1
   },
   {
-    "annotation": "faccina bendata",
+    "annotation": "faccina con la testa bendata",
     "name": "FACE WITH HEAD-BANDAGE",
     "hexcode": "1F915",
     "shortcodes": [
@@ -1021,6 +1021,7 @@
       "bende",
       "dolore",
       "faccina",
+      "faccina bendata",
       "farsi male",
       "fasciarsi la testa"
     ],
@@ -1466,13 +1467,14 @@
     "emoticon": ":$"
   },
   {
-    "annotation": "faccina sull’orlo delle lacrime",
+    "annotation": "faccina supplichevole",
     "name": "FACE WITH PLEADING EYES",
     "hexcode": "1F97A",
     "shortcodes": [
       "pleading"
     ],
     "tags": [
+      "faccina sull’orlo delle lacrime",
       "implorare",
       "lacrime",
       "quasi in lacrime"
@@ -1549,7 +1551,7 @@
     "version": 1
   },
   {
-    "annotation": "faccina blu sudata",
+    "annotation": "faccina sudata in ansia",
     "name": "FACE WITH OPEN MOUTH AND COLD SWEAT",
     "hexcode": "1F630",
     "shortcodes": [
@@ -1559,6 +1561,7 @@
     ],
     "tags": [
       "faccina",
+      "faccina blu sudata",
       "faccina frettolosa",
       "sudata"
     ],
@@ -1833,7 +1836,7 @@
     "version": 1
   },
   {
-    "annotation": "broncio",
+    "annotation": "faccina accigliata",
     "name": "POUTING FACE",
     "hexcode": "1F621",
     "shortcodes": [
@@ -1842,6 +1845,7 @@
     ],
     "tags": [
       "arrabbiata",
+      "broncio",
       "faccina rossa",
       "imbronciata",
       "muso"
@@ -2089,7 +2093,6 @@
     "tags": [
       "extraterrestre",
       "faccina",
-      "favola",
       "ufo"
     ],
     "emoji": "👽️",
@@ -2768,7 +2771,9 @@
       "brown_heart"
     ],
     "tags": [
-      "cuore marrone"
+      "cuore",
+      "emozione",
+      "marrone"
     ],
     "emoji": "🤎",
     "text": "",
@@ -2807,7 +2812,9 @@
       "white_heart"
     ],
     "tags": [
-      "cuore bianco"
+      "bianco",
+      "cuore",
+      "emozione"
     ],
     "emoji": "🤍",
     "text": "",
@@ -9141,13 +9148,14 @@
     ]
   },
   {
-    "annotation": "adulto anziano",
+    "annotation": "persona anziana",
     "name": "OLDER ADULT",
     "hexcode": "1F9D3",
     "shortcodes": [
       "older_adult"
     ],
     "tags": [
+      "adulto anziano",
       "anziano"
     ],
     "emoji": "🧓",
@@ -9159,7 +9167,7 @@
     "version": 5,
     "skins": [
       {
-        "annotation": "adulto anziano: carnagione chiara",
+        "annotation": "persona anziana: carnagione chiara",
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F9D3-1F3FB",
         "shortcodes": [
@@ -9175,7 +9183,7 @@
         "tone": 1
       },
       {
-        "annotation": "adulto anziano: carnagione abbastanza chiara",
+        "annotation": "persona anziana: carnagione abbastanza chiara",
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F9D3-1F3FC",
         "shortcodes": [
@@ -9191,7 +9199,7 @@
         "tone": 2
       },
       {
-        "annotation": "adulto anziano: carnagione olivastra",
+        "annotation": "persona anziana: carnagione olivastra",
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F9D3-1F3FD",
         "shortcodes": [
@@ -9207,7 +9215,7 @@
         "tone": 3
       },
       {
-        "annotation": "adulto anziano: carnagione abbastanza scura",
+        "annotation": "persona anziana: carnagione abbastanza scura",
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F9D3-1F3FE",
         "shortcodes": [
@@ -9223,7 +9231,7 @@
         "tone": 4
       },
       {
-        "annotation": "adulto anziano: carnagione scura",
+        "annotation": "persona anziana: carnagione scura",
         "name": "OLDER ADULT, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F9D3-1F3FF",
         "shortcodes": [
@@ -12858,7 +12866,7 @@
     ]
   },
   {
-    "annotation": "studente",
+    "annotation": "studente maschio",
     "name": "MAN, GRADUATION CAP",
     "hexcode": "1F468-200D-1F393",
     "shortcodes": [
@@ -12867,7 +12875,8 @@
     "tags": [
       "laurea",
       "maschio",
-      "ragazzo"
+      "ragazzo",
+      "studente"
     ],
     "emoji": "👨‍🎓",
     "text": "",
@@ -12878,7 +12887,7 @@
     "version": 4,
     "skins": [
       {
-        "annotation": "studente: carnagione chiara",
+        "annotation": "studente maschio: carnagione chiara",
         "name": "MAN, GRADUATION CAP, EMOJI MODIFIER FITZPATRICK TYPE-1-2",
         "hexcode": "1F468-1F3FB-200D-1F393",
         "shortcodes": [
@@ -12894,7 +12903,7 @@
         "tone": 1
       },
       {
-        "annotation": "studente: carnagione abbastanza chiara",
+        "annotation": "studente maschio: carnagione abbastanza chiara",
         "name": "MAN, GRADUATION CAP, EMOJI MODIFIER FITZPATRICK TYPE-3",
         "hexcode": "1F468-1F3FC-200D-1F393",
         "shortcodes": [
@@ -12910,7 +12919,7 @@
         "tone": 2
       },
       {
-        "annotation": "studente: carnagione olivastra",
+        "annotation": "studente maschio: carnagione olivastra",
         "name": "MAN, GRADUATION CAP, EMOJI MODIFIER FITZPATRICK TYPE-4",
         "hexcode": "1F468-1F3FD-200D-1F393",
         "shortcodes": [
@@ -12926,7 +12935,7 @@
         "tone": 3
       },
       {
-        "annotation": "studente: carnagione abbastanza scura",
+        "annotation": "studente maschio: carnagione abbastanza scura",
         "name": "MAN, GRADUATION CAP, EMOJI MODIFIER FITZPATRICK TYPE-5",
         "hexcode": "1F468-1F3FE-200D-1F393",
         "shortcodes": [
@@ -12942,7 +12951,7 @@
         "tone": 4
       },
       {
-        "annotation": "studente: carnagione scura",
+        "annotation": "studente maschio: carnagione scura",
         "name": "MAN, GRADUATION CAP, EMOJI MODIFIER FITZPATRICK TYPE-6",
         "hexcode": "1F468-1F3FF-200D-1F393",
         "shortcodes": [
@@ -29187,7 +29196,10 @@
       "holding_hands_people"
     ],
     "tags": [
-      "persone che si tengono per mano"
+      "coppia",
+      "coppia che si tiene per mano",
+      "coppia per mano",
+      "tenersi per mano"
     ],
     "emoji": "🧑‍🤝‍🧑",
     "text": "",
@@ -35262,15 +35274,15 @@
     "version": 1
   },
   {
-    "annotation": "arancino di riso",
+    "annotation": "onigiri",
     "name": "RICE BALL",
     "hexcode": "1F359",
     "shortcodes": [
       "rice_ball"
     ],
     "tags": [
-      "onigiri",
-      "riso",
+      "arancino di riso giapponese",
+      "polpetta di riso giapponese",
       "ristorante"
     ],
     "emoji": "🍙",
@@ -37099,7 +37111,6 @@
     ],
     "tags": [
       "casa",
-      "casa giapponese",
       "edificio"
     ],
     "emoji": "🏯",
@@ -38257,7 +38268,6 @@
       "auto_rickshaw"
     ],
     "tags": [
-      "apecar",
       "tuk tuk"
     ],
     "emoji": "🛺",
@@ -38594,13 +38604,14 @@
     "version": 1
   },
   {
-    "annotation": "crociera",
+    "annotation": "nave da crociera",
     "name": "PASSENGER SHIP",
     "hexcode": "1F6F3",
     "shortcodes": [
       "cruise_ship"
     ],
     "tags": [
+      "crociera",
       "nave",
       "vacanza"
     ],
@@ -39628,7 +39639,7 @@
     "version": 1
   },
   {
-    "annotation": "gibbosa crescente",
+    "annotation": "luna gibbosa crescente",
     "name": "WAXING GIBBOUS MOON SYMBOL",
     "hexcode": "1F314",
     "shortcodes": [
@@ -39668,7 +39679,7 @@
     "version": 1
   },
   {
-    "annotation": "gibbosa calante",
+    "annotation": "luna gibbosa calante",
     "name": "WANING GIBBOUS MOON SYMBOL",
     "hexcode": "1F316",
     "shortcodes": [
@@ -40562,7 +40573,7 @@
     "version": 1
   },
   {
-    "annotation": "stella filante",
+    "annotation": "stellina scintillante",
     "name": "FIREWORK SPARKLER",
     "hexcode": "1F387",
     "shortcodes": [
@@ -40710,10 +40721,8 @@
     ],
     "tags": [
       "bambù",
-      "capodanno",
-      "festa",
-      "giapponese",
-      "pino"
+      "decorazione kadomatsu",
+      "giapponese"
     ],
     "emoji": "🎍",
     "text": "",
@@ -41562,7 +41571,7 @@
       "sled"
     ],
     "tags": [
-      "slitta"
+      "slittino"
     ],
     "emoji": "🛷",
     "text": "",
@@ -42028,7 +42037,7 @@
     "version": 1
   },
   {
-    "annotation": "tavolozza dei colori",
+    "annotation": "tavolozza",
     "name": "ARTIST PALETTE",
     "hexcode": "1F3A8",
     "shortcodes": [
@@ -42039,7 +42048,7 @@
       "arte",
       "colori",
       "pittura",
-      "tavolozza"
+      "tavolozza dei colori"
     ],
     "emoji": "🎨",
     "text": "",
@@ -42126,7 +42135,7 @@
     "version": 1
   },
   {
-    "annotation": "occhialini",
+    "annotation": "maschera",
     "name": "GOGGLES",
     "hexcode": "1F97D",
     "shortcodes": [
@@ -42135,6 +42144,7 @@
     "tags": [
       "nuoto",
       "occhiali di protezione",
+      "occhialini",
       "saldatura"
     ],
     "emoji": "🥽",
@@ -46559,7 +46569,6 @@
     ],
     "tags": [
       "carta igienica",
-      "fazzoletti di carta",
       "rotolo"
     ],
     "emoji": "🧻",
@@ -48965,7 +48974,8 @@
       "check_mark"
     ],
     "tags": [
-      "nero",
+      "baffo",
+      "segno di spunta",
       "spunta"
     ],
     "emoji": "✔️",

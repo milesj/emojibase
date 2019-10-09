@@ -2,6 +2,8 @@
 
 import { Property } from './types';
 
+export const INHERIT_PARENT_SYMBOL = '↑↑↑';
+
 // Regex patterns to make my job easier
 
 export const ZWJ_PATTERN = /200D/g;

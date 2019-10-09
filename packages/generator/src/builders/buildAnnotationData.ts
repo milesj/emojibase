@@ -15,6 +15,7 @@ import {
   REGIONAL_INDICATORS,
   TAG_LATIN_SMALL_LETTERS,
   MALE_SIGN,
+  INHERIT_PARENT_SYMBOL,
 } from '../constants';
 
 export default async function buildAnnotationData(locale: string): Promise<CLDRAnnotationMap> {
@@ -52,7 +53,14 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       set = sets[i] as CLDRAnnotationMap;
 
       if (set && set[hexcode] && set[hexcode][field]) {
-        return set[hexcode][field];
+        const value = set[hexcode][field];
+
+        if (
+          (typeof value === 'string' && value !== INHERIT_PARENT_SYMBOL) ||
+          (Array.isArray(value) && value[0] !== INHERIT_PARENT_SYMBOL)
+        ) {
+          return value;
+        }
       }
     }
 
