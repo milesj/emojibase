@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "build": "beemo run-script build --workspaces=emojibase,emojibase-generator,emojibase-test-utils",
-    "clean": "rm -rf ./cache",
+    "clean": "rm -rf packages/*/{lib,*.tsbuildinfo}",
+    "clean:cache": "rm -rf ./cache",
     "coverage": "yarn run jest --coverage",
     "eslint": "beemo eslint",
     "generate": "node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/data/en/data.json ./packages/test-utils/test-data.json",
@@ -14,7 +15,7 @@
     "pretest": "yarn run type",
     "test": "yarn run jest",
     "prettier": "beemo prettier",
-    "prerelease": "yarn test && yarn run build",
+    "prerelease": "yarn run clean && yarn test && yarn run build",
     "release": "lerna publish --ignore-changes=emojibase-generator",
     "type": "beemo typescript --build --reference-workspaces"
   },

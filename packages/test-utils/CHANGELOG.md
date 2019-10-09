@@ -1,5 +1,11 @@
 > Versions that only update `test-data.json` are omitted from the changelog.
 
+## 4.1.0 - 2019-10-08
+
+#### 🚀 Updates
+
+- Updated to [CLDR 36](http://cldr.unicode.org/index/downloads/cldr-36).
+
 # 4.0.0 - 2019-05-09
 
 #### 🎉 Release
