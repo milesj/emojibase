@@ -48,17 +48,17 @@ describe('fetchFromCDN()', () => {
 
   it('errors if no path', () => {
     // @ts-ignore
-    expect(() => fetchFromCDN()).toThrowError('A valid JSON dataset is required to fetch.');
+    expect(() => fetchFromCDN()).toThrow('A valid JSON dataset is required to fetch.');
   });
 
   it('errors if path doesnt end in JSON', () => {
-    expect(() => fetchFromCDN('en/data')).toThrowError(
+    expect(() => fetchFromCDN('en/data')).toThrow(
       'A valid JSON dataset is required to fetch.',
     );
   });
 
   it('errors if no version', () => {
-    expect(() => fetchFromCDN('en/data.json', '')).toThrowError(
+    expect(() => fetchFromCDN('en/data.json', '')).toThrow(
       'A valid release version is required.',
     );
   });
@@ -93,7 +93,7 @@ describe('fetchFromCDN()', () => {
   it('triggers a fetch', async () => {
     await fetchFromCDN('en/data.json');
 
-    expect(global.fetch).toBeCalledWith(
+    expect(global.fetch).toHaveBeenCalledWith(
       'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/data.json',
       {
         credentials: 'omit',
@@ -106,7 +106,7 @@ describe('fetchFromCDN()', () => {
   it('can customize fetch', async () => {
     await fetchFromCDN('ja/compact.json', '1.2.3', { redirect: 'follow' });
 
-    expect(global.fetch).toBeCalledWith(
+    expect(global.fetch).toHaveBeenCalledWith(
       'https://cdn.jsdelivr.net/npm/emojibase-data@1.2.3/ja/compact.json',
       {
         credentials: 'omit',
@@ -125,7 +125,7 @@ describe('fetchFromCDN()', () => {
   it('caches data to session storage', async () => {
     await fetchFromCDN('en/data.json');
 
-    expect(global.sessionStorage.setItem).toBeCalledWith(
+    expect(global.sessionStorage.setItem).toHaveBeenCalledWith(
       'emojibase/latest/en/data.json',
       '[1,2,3]',
     );
@@ -134,6 +134,6 @@ describe('fetchFromCDN()', () => {
   it('caches data to local storage', async () => {
     await fetchFromCDN('en/data.json', 'latest', { local: true });
 
-    expect(global.localStorage.setItem).toBeCalledWith('emojibase/latest/en/data.json', '[1,2,3]');
+    expect(global.localStorage.setItem).toHaveBeenCalledWith('emojibase/latest/en/data.json', '[1,2,3]');
   });
 });
