@@ -1,6 +1,6 @@
 # Emojibase Test Utils
 
-[![Build Status](https://travis-ci.org/milesj/emojibase.svg?branch=master)](https://travis-ci.org/milesj/emojibase)
+[![Build Status](https://github.com/milesj/emojibase/workflows/Build/badge.svg)](https://github.com/milesj/emojibase/actions?query=branch%3Amaster)
 [![npm version](https://badge.fury.io/js/emojibase-test-utils.svg)](https://www.npmjs.com/package/emojibase-test-utils)
 [![npm deps](https://david-dm.org/milesj/emojibase.svg?path=packages/test-utils)](https://www.npmjs.com/package/emojibase-test-utils)
 
