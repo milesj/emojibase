@@ -1,6 +1,6 @@
 # Emojibase Regex
 
-[![Build Status](https://travis-ci.org/milesj/emojibase.svg?branch=master)](https://travis-ci.org/milesj/emojibase)
+[![Build Status](https://github.com/milesj/emojibase/workflows/Build/badge.svg)](https://github.com/milesj/emojibase/actions?query=branch%3Amaster)
 [![npm version](https://badge.fury.io/js/emojibase-regex.svg)](https://www.npmjs.com/package/emojibase-regex)
 [![npm deps](https://david-dm.org/milesj/emojibase.svg?path=packages/regex)](https://www.npmjs.com/package/emojibase-regex)
 

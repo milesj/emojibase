@@ -20,11 +20,12 @@
     "type": "beemo typescript --build --reference-workspaces"
   },
   "devDependencies": {
-    "@milesj/build-tools": "^0.57.0",
-    "filesize": "^5.0.3",
-    "glob": "^7.1.4",
+    "@milesj/build-tools": "^0.59.1",
+    "conventional-changelog-beemo": "^1.5.1",
+    "filesize": "^6.0.1",
+    "glob": "^7.1.6",
     "gzip-size": "^5.1.1",
-    "lerna": "^3.16.5",
+    "lerna": "^3.18.4",
     "regenerator-runtime": "^0.13.3"
   },
   "workspaces": [
