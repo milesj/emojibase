@@ -63,7 +63,7 @@ export default {
   // 😂 face with tears of joy
   '1F602': ['joyful', 'haha'],
   // 🙂 slightly smiling face
-  '1F642': ['pleased'],
+  '1F642': ['pleased', 'slight_smile'],
   // 🙃 upside-down face
   '1F643': ['ecstatic', 'upside_down'],
   // 😉 winking face
@@ -139,7 +139,7 @@ export default {
   // 😟 worried face
   '1F61F': ['worried'],
   // 🙁 slightly frowning face
-  '1F641': ['cheerless'],
+  '1F641': ['cheerless', 'slight_frown'],
   // ☹️ frowning face
   '2639': ['sad', 'frowning'],
   // 😮 face with open mouth
