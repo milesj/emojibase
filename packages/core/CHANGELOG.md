@@ -1,3 +1,17 @@
+## 3.2.0
+
+#### 🚀 Updates
+
+- Updated to [Emoji 12.1](https://emojipedia.org/emoji-12.1/) and
+  [Unicode 12.1](http://unicode.org/versions/Unicode12.1.0/).
+  - 23 new emoji (not including variants)
+  - More gender-neutral options
+  - Red, blonde, and bald hair combinations
+- Added `EMOJI_VERSIONS` constant.
+- Updated `LATEST_EMOJI_VERSION` to `12.1`.
+- Updated `LATEST_UNICODE_VERSION` to `12.1.0`.
+- Updated shortcodes.
+
 ## 3.1.0 - 2019-10-08
 
 #### 🚀 Updates

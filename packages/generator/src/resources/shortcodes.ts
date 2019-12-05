@@ -390,7 +390,7 @@ export default {
   '1F478': ['princess'],
   // 👳 person wearing turban
   '1F473': ['person_turban'],
-  // 👲 man with Chinese cap
+  // 👲 man with skullcap
   '1F472': ['man_chinese_cap'],
   // 👰 bride with veil
   '1F470': ['bride_veil'],
@@ -1418,7 +1418,7 @@ export default {
   '1F50B': ['battery'],
   // 🔌 electric plug
   '1F50C': ['electric_plug'],
-  // 💻️ laptop computer
+  // 💻️ laptop
   '1F4BB': ['laptop'],
   // 🖥️ desktop computer
   '1F5A5': ['desktop', 'computer'],
@@ -2806,10 +2806,10 @@ export default {
   // VERSION 4
   // 👁️‍🗨️ eye in speech bubble
   '1F441-FE0F-200D-1F5E8-FE0F': ['eye_bubble'],
-  // 👱‍♂️ man: blond hair
-  '1F471-200D-2642-FE0F': ['blond_man'],
   // 👱‍♀️ woman: blond hair
   '1F471-200D-2640-FE0F': ['blond_woman'],
+  // 👱‍♂️ man: blond hair
+  '1F471-200D-2642-FE0F': ['blond_man'],
   // 🙍‍♂️ man frowning
   '1F64D-200D-2642-FE0F': ['man_frowning'],
   // 🙍‍♀️ woman frowning
@@ -3508,4 +3508,52 @@ export default {
   '1F7EA': ['purple_square'],
   // 🟫 brown square
   '1F7EB': ['brown_square'],
+
+  // VERSION 12.1
+  // 🧑‍🦰 person: red hair
+  '1F9D1-200D-1F9B0': ['red_haired_person'],
+  // 🧑‍🦱 person: curly hair
+  '1F9D1-200D-1F9B1': ['curly_haired_person'],
+  // 🧑‍🦳 person: white hair
+  '1F9D1-200D-1F9B3': ['white_haired_person'],
+  // 🧑‍🦲 person: bald
+  '1F9D1-200D-1F9B2': ['bald_person'],
+  // 🧑‍⚕️ health worker
+  '1F9D1-200D-2695-FE0F': ['person_health_worker'],
+  // 🧑‍🎓 student
+  '1F9D1-200D-1F393': ['person_student'],
+  // 🧑‍🏫 teacher
+  '1F9D1-200D-1F3EB': ['person_teacher'],
+  // 🧑‍⚖️ judge
+  '1F9D1-200D-2696-FE0F': ['person_judge'],
+  // 🧑‍🌾 farmer
+  '1F9D1-200D-1F33E': ['person_farmer'],
+  // 🧑‍🍳 cook
+  '1F9D1-200D-1F373': ['person_cook'],
+  // 🧑‍🔧 mechanic
+  '1F9D1-200D-1F527': ['person_mechanic'],
+  // 🧑‍🏭 factory worker
+  '1F9D1-200D-1F3ED': ['person_factory_worker'],
+  // 🧑‍💼 office worker
+  '1F9D1-200D-1F4BC': ['person_office_worker'],
+  // 🧑‍🔬 scientist
+  '1F9D1-200D-1F52C': ['person_scientist'],
+  // 🧑‍💻 technologist
+  '1F9D1-200D-1F4BB': ['person_technologist'],
+  // 🧑‍🎤 singer
+  '1F9D1-200D-1F3A4': ['person_singer'],
+  // 🧑‍🎨 artist
+  '1F9D1-200D-1F3A8': ['person_artist'],
+  // 🧑‍✈️ pilot
+  '1F9D1-200D-2708-FE0F': ['person_pilot'],
+  // 🧑‍🚀 astronaut
+  '1F9D1-200D-1F680': ['person_astronaut'],
+  // 🧑‍🚒 firefighter
+  '1F9D1-200D-1F692': ['person_firefighter'],
+  // 🧑‍🦯 person with probing cane
+  '1F9D1-200D-1F9AF': ['person_probing_cane'],
+  // 🧑‍🦼 person in motorized wheelchair
+  '1F9D1-200D-1F9BC': ['person_motor_wheelchair'],
+  // 🧑‍🦽 person in manual wheelchair
+  '1F9D1-200D-1F9BD': ['person_wheelchair'],
 };
