@@ -2,6 +2,7 @@
   "name": "emojibase-root",
   "private": true,
   "scripts": {
+    "prepare": "beemo create-config --silent",
     "build": "beemo run-script build --workspaces=emojibase,emojibase-generator,emojibase-test-utils",
     "clean": "rm -rf packages/*/{lib,*.tsbuildinfo}",
     "clean:cache": "rm -rf ./cache",
@@ -20,12 +21,12 @@
     "type": "beemo typescript --build --reference-workspaces"
   },
   "devDependencies": {
-    "@milesj/build-tools": "^0.59.2",
-    "conventional-changelog-beemo": "^1.5.1",
+    "@milesj/build-tools": "^0.60.5",
+    "conventional-changelog-beemo": "^1.6.0",
     "filesize": "^6.0.1",
     "glob": "^7.1.6",
     "gzip-size": "^5.1.1",
-    "lerna": "^3.18.4",
+    "lerna": "^3.19.0",
     "regenerator-runtime": "^0.13.3"
   },
   "workspaces": [

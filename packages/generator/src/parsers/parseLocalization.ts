@@ -20,7 +20,7 @@ export default function parseLocalization(
   xml(nodeName).each((i, rawRow) => {
     const row = xml(rawRow);
 
-    data[row.attr(attrName)] = row.text().trim();
+    data[row.attr(attrName)!] = row.text().trim();
   });
 
   return data;
