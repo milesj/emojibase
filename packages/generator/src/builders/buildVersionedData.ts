@@ -1,5 +1,3 @@
-/* eslint-disable no-await-in-loop */
-
 import { EMOJI_VERSIONS } from 'emojibase';
 import log from '../helpers/log';
 import writeCache from '../helpers/writeCache';
