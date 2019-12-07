@@ -1,4 +1,4 @@
-## 3.2.0
+## 3.2.0 - 2019-12-07
 
 #### 🚀 Updates
 
@@ -7,10 +7,9 @@
   - 23 new emoji (not including variants).
   - More gender-neutral options.
   - Red, blonde, and bald hair combinations.
-- Added `EMOJI_VERSIONS` constant.
 - Updated `LATEST_EMOJI_VERSION` to `12.1`.
 - Updated `LATEST_UNICODE_VERSION` to `12.1.0`.
-- Updated shortcodes.
+- Added `EMOJI_VERSIONS` constant.
 
 #### 🐞 Fixes
 
