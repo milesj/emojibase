@@ -3,7 +3,7 @@
 import log from '../helpers/log';
 import isObject from '../helpers/isObject';
 import hasProperty from '../helpers/hasProperty';
-import { EmojiMap } from '../types';
+import { EmojiMap, EmojiVariation } from '../types';
 import {
   SKIN_MODIFIER_PATTERN,
   EMOJI_VARIATION_SELECTOR,
@@ -42,7 +42,7 @@ export default async function verifyDataIntegrity(emojis: EmojiMap): Promise<Emo
     }
 
     // Verify there are 2 presentation variations if applicable
-    if (isObject(emoji.variations)) {
+    if (isObject<EmojiVariation>(emoji.variations)) {
       if (!emoji.variations.text || !emoji.variations.text.endsWith(TEXT_VARIATION_SELECTOR)) {
         errors.push(`Invalid text presentation variation. Found ${emoji.variations.text}.`);
       }

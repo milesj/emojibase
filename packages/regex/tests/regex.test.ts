@@ -7,18 +7,41 @@ import {
 import { loadFlatEmojiData } from 'emojibase-test-utils';
 import COMBO_PATTERN from '..';
 import EMOJI_PATTERN from '../emoji';
+import EMOJI_LOOSE_PATTERN from '../emoji-loose';
 import TEXT_PATTERN from '../text';
-import COMBO_CODEPOINT_PATTERN from '../codepoint';
-import EMOJI_CODEPOINT_PATTERN from '../codepoint/emoji';
-import TEXT_CODEPOINT_PATTERN from '../codepoint/text';
-// import EMOJI_UNICODE_PROPERTY_PATTERN from '../property';
+import TEXT_LOOSE_PATTERN from '../text-loose';
+import CODEPOINT_COMBO_PATTERN from '../codepoint';
+import CODEPOINT_EMOJI_PATTERN from '../codepoint/emoji';
+import CODEPOINT_EMOJI_LOOSE_PATTERN from '../codepoint/emoji-loose';
+import CODEPOINT_TEXT_PATTERN from '../codepoint/text';
+import CODEPOINT_TEXT_LOOSE_PATTERN from '../codepoint/text-loose';
 import SHORTCODE_PATTERN from '../shortcode';
 import EMOTICON_PATTERN from '../emoticon';
 
+const PATTERNS = {
+  combo: COMBO_PATTERN,
+  comboCodepoint: CODEPOINT_COMBO_PATTERN,
+  emoji: EMOJI_PATTERN,
+  emojiLoose: EMOJI_LOOSE_PATTERN,
+  emojiCodepoint: CODEPOINT_EMOJI_PATTERN,
+  emojiCodepointLoose: CODEPOINT_EMOJI_LOOSE_PATTERN,
+  text: TEXT_PATTERN,
+  textLoose: TEXT_LOOSE_PATTERN,
+  textCodepoint: CODEPOINT_TEXT_PATTERN,
+  textCodepointLoose: CODEPOINT_TEXT_LOOSE_PATTERN,
+};
+
 const PATTERN_DESCRIPTIONS = {
-  standard: 'standard regex',
-  codepoint: 'unicode codepoint regex',
-  property: 'unicode property regex',
+  combo: 'combo regex',
+  comboCodepoint: 'combo unicode codepoint regex',
+  emoji: 'emoji regex',
+  emojiLoose: 'emoji regex (loose)',
+  emojiCodepoint: 'emoji unicode codepoint regex',
+  emojiCodepointLoose: 'emoji unicode codepoint regex (loose)',
+  text: 'text regex',
+  textLoose: 'text regex (loose)',
+  textCodepoint: 'text unicode codepoint regex',
+  textCodepointLoose: 'text unicode codepoint regex (loose)',
 };
 
 const VARIATION_DESCRIPTIONS = {
@@ -31,15 +54,14 @@ type VariationType = keyof typeof VARIATION_DESCRIPTIONS;
 
 type PatternType = keyof typeof PATTERN_DESCRIPTIONS;
 
-interface Pattern {
-  pattern: RegExp;
-  type: PatternType;
+interface Test {
+  type: VariationType;
+  unicode: string;
+  pass: PatternType[];
+  fail?: PatternType[];
 }
 
-const BASE_PATTERNS: Pattern[] = [
-  { pattern: COMBO_PATTERN, type: 'standard' },
-  { pattern: COMBO_CODEPOINT_PATTERN, type: 'codepoint' },
-];
+const BASE_PATTERNS: PatternType[] = ['combo', 'comboCodepoint'];
 
 describe('regex', () => {
   loadFlatEmojiData().forEach(emoji => {
@@ -48,52 +70,32 @@ describe('regex', () => {
       return;
     }
 
-    const variations: {
-      variation: VariationType;
-      unicode: string;
-      patterns: Pattern[];
-    }[] = [];
+    const tests: Test[] = [];
 
-    // Has variation selectors
-    if (emoji.emoji && emoji.text) {
-      variations.push({
-        variation: 'none',
-        unicode: fromCodepointToUnicode(fromHexcodeToCodepoint(emoji.hexcode)), // No FE0E/FE0F
-        patterns: BASE_PATTERNS,
-      });
-
-      variations.push({
-        variation: 'emoji',
+    // Has emoji variation
+    if (emoji.emoji) {
+      tests.push({
+        type: 'emoji',
         unicode: emoji.emoji,
-        patterns: [
-          ...BASE_PATTERNS,
-          { pattern: EMOJI_PATTERN, type: 'standard' },
-          { pattern: EMOJI_CODEPOINT_PATTERN, type: 'codepoint' },
-        ],
-      });
-
-      variations.push({
-        variation: 'text',
-        unicode: emoji.text,
-        patterns: [
-          ...BASE_PATTERNS,
-          { pattern: TEXT_PATTERN, type: 'standard' },
-          { pattern: TEXT_CODEPOINT_PATTERN, type: 'codepoint' },
-        ],
-      });
-      // No variation selectors
-    } else {
-      variations.push({
-        variation: 'none',
-        unicode: emoji.emoji,
-        patterns: BASE_PATTERNS,
+        pass: [...BASE_PATTERNS, 'emojiLoose', 'emojiCodepoint', 'emojiCodepointLoose'],
       });
     }
 
-    variations.forEach(({ unicode, variation, patterns }) => {
-      describe(`${VARIATION_DESCRIPTIONS[variation]}`, () => {
-        patterns.forEach(({ pattern, type }) => {
-          describe(`${PATTERN_DESCRIPTIONS[type]}`, () => {
+    // Has text variation
+    if (emoji.text) {
+      tests.push({
+        type: 'text',
+        unicode: emoji.text,
+        pass: [...BASE_PATTERNS, 'textLoose', 'textCodepoint', 'textCodepointLoose'],
+      });
+    }
+
+    tests.forEach(({ unicode, type, pass }) => {
+      describe(`${VARIATION_DESCRIPTIONS[type]}`, () => {
+        pass.forEach(passType => {
+          const pattern = PATTERNS[passType];
+
+          describe(`passes ${PATTERN_DESCRIPTIONS[passType]}`, () => {
             it(`matches unicode by itself for ${unicode}`, () => {
               const match = unicode.match(pattern)!;
               expect(match).not.toBeNull();
@@ -148,5 +150,71 @@ describe('regex', () => {
         },
       );
     }
+  });
+
+  function createEmoji(hexcode: string): string {
+    return fromCodepointToUnicode(fromHexcodeToCodepoint(hexcode));
+  }
+
+  const variationSelectors: Test[] = [
+    {
+      type: 'none',
+      unicode: createEmoji('26A0'),
+      pass: [
+        'combo',
+        'comboCodepoint',
+        'emojiLoose',
+        'emojiCodepointLoose',
+        'textLoose',
+        'textCodepointLoose',
+      ],
+      fail: ['emoji', 'emojiCodepoint', 'text', 'textCodepoint'],
+    },
+    {
+      type: 'emoji',
+      unicode: createEmoji('26A0-FE0F'),
+      pass: [
+        'combo',
+        'comboCodepoint',
+        'emoji',
+        'emojiLoose',
+        'emojiCodepoint',
+        'emojiCodepointLoose',
+        'textLoose',
+        'textCodepointLoose',
+      ],
+      fail: ['text', 'textCodepoint'],
+    },
+    {
+      type: 'text',
+      unicode: createEmoji('26A0-FE0E'),
+      pass: [
+        'combo',
+        'comboCodepoint',
+        'text',
+        'textLoose',
+        'textCodepoint',
+        'textCodepointLoose',
+        'emojiLoose',
+        'emojiCodepointLoose',
+      ],
+      fail: ['emoji', 'emojiCodepoint'],
+    },
+  ];
+
+  variationSelectors.forEach(({ type, unicode, pass, fail = [] }) => {
+    describe(`${VARIATION_DESCRIPTIONS[type]}`, () => {
+      pass.forEach(passType => {
+        it(`passes ${PATTERN_DESCRIPTIONS[passType]}`, () => {
+          expect(unicode.match(PATTERNS[passType])).not.toBeNull();
+        });
+      });
+
+      fail.forEach(failType => {
+        it(`fails ${PATTERN_DESCRIPTIONS[failType]}`, () => {
+          expect(unicode.match(PATTERNS[failType])).toBeNull();
+        });
+      });
+    });
   });
 });

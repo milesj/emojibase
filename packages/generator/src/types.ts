@@ -79,11 +79,11 @@ export interface Emoji {
   order: number;
   subgroup: Subgroup;
   // Metadata
-  modifications: HexcodeMap<EmojiModification>;
+  modifications?: HexcodeMap<EmojiModification>;
   name: string;
-  variations: EmojiVariation;
+  variations?: EmojiVariation;
   shortcodes: Shortcode[];
-  emoticon: Emoticon;
+  emoticon?: Emoticon;
 }
 
 export type EmojiMap = HexcodeMap<Emoji>;
@@ -126,8 +126,8 @@ export interface EmojiModification extends Emoji {
 }
 
 export interface EmojiVariation {
-  text: string;
-  emoji: string;
+  text: Hexcode;
+  emoji: Hexcode;
   property?: Property[];
 }
 

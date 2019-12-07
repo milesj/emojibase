@@ -56,8 +56,8 @@ function createEmoji(
 
   // Presentation variations
   if ('variations' in baseEmoji) {
-    emoji.emoji = toUnicode(baseEmoji.variations.emoji);
-    emoji.text = toUnicode(baseEmoji.variations.text);
+    emoji.emoji = toUnicode(baseEmoji.variations!.emoji);
+    emoji.text = toUnicode(baseEmoji.variations!.text);
   }
 
   if ('emoticon' in baseEmoji) {
@@ -92,7 +92,7 @@ function createEmoji(
 
   // Skin modifications
   if ('modifications' in baseEmoji) {
-    emoji.skins = Object.values(baseEmoji.modifications).map(mod => {
+    emoji.skins = Object.values(baseEmoji.modifications!).map(mod => {
       const skin = createEmoji(mod, versions, annotations);
 
       skin.annotation = (annotations[stripHexcode(skin.hexcode)] || {}).annotation || '';
