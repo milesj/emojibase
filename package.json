@@ -4,7 +4,7 @@
   "scripts": {
     "prepare": "beemo create-config --silent",
     "build": "beemo run-script build --workspaces=emojibase,emojibase-generator,emojibase-test-utils",
-    "clean": "rm -rf packages/*/{lib,*.tsbuildinfo}",
+    "clean": "rm -rf packages/*/{lib,esm,*.tsbuildinfo}",
     "clean:cache": "rm -rf ./cache",
     "coverage": "yarn run jest --coverage",
     "eslint": "beemo eslint",
@@ -21,7 +21,7 @@
     "type": "beemo typescript --build --reference-workspaces"
   },
   "devDependencies": {
-    "@milesj/build-tools": "^0.60.5",
+    "@milesj/build-tools": "^0.61.2",
     "conventional-changelog-beemo": "^1.6.0",
     "filesize": "^6.0.1",
     "glob": "^7.1.6",
