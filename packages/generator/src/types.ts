@@ -116,6 +116,11 @@ export interface EmojiSource {
 
 export type EmojiSourceMap = HexcodeMap<EmojiSource>;
 
+export interface EmojiStylesMap {
+  emoji: HexcodeMap<boolean>;
+  text: HexcodeMap<boolean>;
+}
+
 export interface EmojiModification extends Emoji {
   tone: SkinTone | SkinTone[];
 }

@@ -7,7 +7,7 @@ export default function loadEmojiList(
   version: string = LATEST_EMOJI_VERSION,
 ): Promise<EmojiSourceMap> {
   return fetchAndCache(
-    'http://unicode.org/emoji/charts/emoji-list.html',
+    `https://unicode.org/emoji/charts-${version}/emoji-list.html`,
     `${version}/emoji-source-list.json`,
     data => parseEmojiList(data),
   );
