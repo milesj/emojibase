@@ -16,7 +16,7 @@ export default function parseAnnotations(version: string, content: string): CLDR
 
     // Variation selectors are not present in the locale files
     // So lets just strip unnecessary codepoints
-    const hexcode = stripHexcode(fromUnicodeToHexcode(row.attr('cp')));
+    const hexcode = stripHexcode(fromUnicodeToHexcode(row.attr('cp')!));
 
     if (!data[hexcode]) {
       data[hexcode] = {

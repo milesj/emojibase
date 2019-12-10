@@ -52,15 +52,11 @@ describe('fetchFromCDN()', () => {
   });
 
   it('errors if path doesnt end in JSON', () => {
-    expect(() => fetchFromCDN('en/data')).toThrow(
-      'A valid JSON dataset is required to fetch.',
-    );
+    expect(() => fetchFromCDN('en/data')).toThrow('A valid JSON dataset is required to fetch.');
   });
 
   it('errors if no version', () => {
-    expect(() => fetchFromCDN('en/data.json', '')).toThrow(
-      'A valid release version is required.',
-    );
+    expect(() => fetchFromCDN('en/data.json', '')).toThrow('A valid release version is required.');
   });
 
   it('errors if response is not ok', async () => {
@@ -134,6 +130,9 @@ describe('fetchFromCDN()', () => {
   it('caches data to local storage', async () => {
     await fetchFromCDN('en/data.json', 'latest', { local: true });
 
-    expect(global.localStorage.setItem).toHaveBeenCalledWith('emojibase/latest/en/data.json', '[1,2,3]');
+    expect(global.localStorage.setItem).toHaveBeenCalledWith(
+      'emojibase/latest/en/data.json',
+      '[1,2,3]',
+    );
   });
 });

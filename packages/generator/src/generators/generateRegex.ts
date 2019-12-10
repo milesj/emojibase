@@ -12,11 +12,7 @@ interface TrieMap {
   [group: string]: Trie;
 }
 
-function createRegexPattern(
-  codePointGroups: TrieMap,
-  display: string = 'both',
-  unicode: boolean = false,
-): string {
+function createRegexPattern(codePointGroups: TrieMap, unicode: boolean = false): string {
   const flags = unicode ? 'u' : '';
   const groups = Object.keys(codePointGroups);
 
@@ -27,9 +23,17 @@ function createRegexPattern(
   return groups.map(group => codePointGroups[group].toRegExp(flags).source).join('|');
 }
 
-function createEmojiRegex(data: EmojiMap, display: string = 'both'): Promise<string[]> {
-  const fileName = display === 'both' ? 'index' : display;
+function createEmojiRegex(
+  data: EmojiMap,
+  display: 'both' | 'emoji' | 'text' = 'both',
+  loose: boolean = false,
+): Promise<string[]> {
+  let fileName = display === 'both' ? 'index' : display;
   const codePointGroups: TrieMap = {};
+
+  if (loose) {
+    fileName += '-loose';
+  }
 
   // Push the unicode characters into the trie,
   // grouped by the number of codepoints
@@ -50,26 +54,31 @@ function createEmojiRegex(data: EmojiMap, display: string = 'both'): Promise<str
   // Note: variation selectors are sometimes added to old emojis,
   // but we still need to support the old non-variation selector,
   // so include the unicode character that does not include FE0E/FE0F
+  // when in loose mode.
   Object.keys(data).forEach(hexcode => {
-    const { variations = { emoji: '', text: '' } } = data[hexcode];
+    const { variations } = data[hexcode];
 
     switch (display) {
       // Should contain everything
       default: {
         addCodePoint(hexcode);
-        addCodePoint(variations.emoji);
-        addCodePoint(variations.text);
+
+        if (variations) {
+          addCodePoint(variations.emoji);
+          addCodePoint(variations.text);
+        }
 
         break;
       }
 
-      // Should only contain emoji and no presentation
+      // Should only contain emoji presentation
       case 'emoji': {
-        if (variations.emoji) {
+        if (!variations || loose) {
           addCodePoint(hexcode);
+        }
+
+        if (variations?.emoji) {
           addCodePoint(variations.emoji);
-        } else if (!variations.text) {
-          addCodePoint(hexcode);
         }
 
         break;
@@ -77,8 +86,11 @@ function createEmojiRegex(data: EmojiMap, display: string = 'both'): Promise<str
 
       // Should only contain text presentation
       case 'text': {
-        if (variations.text) {
+        if (loose) {
           addCodePoint(hexcode);
+        }
+
+        if (variations?.text) {
           addCodePoint(variations.text);
         }
 
@@ -88,8 +100,8 @@ function createEmojiRegex(data: EmojiMap, display: string = 'both'): Promise<str
   });
 
   return Promise.all([
-    writeRegex(`${fileName}.js`, createRegexPattern(codePointGroups, display)),
-    writeRegex(`codepoint/${fileName}.js`, createRegexPattern(codePointGroups, display, true), 'u'),
+    writeRegex(`${fileName}.js`, createRegexPattern(codePointGroups)),
+    writeRegex(`codepoint/${fileName}.js`, createRegexPattern(codePointGroups, true), 'u'),
   ]);
 }
 
@@ -125,7 +137,9 @@ export default async function generateRegex(): Promise<void> {
   await Promise.all([
     createEmojiRegex(data, 'both'),
     createEmojiRegex(data, 'emoji'),
+    createEmojiRegex(data, 'emoji', true),
     createEmojiRegex(data, 'text'),
+    createEmojiRegex(data, 'text', true),
     createEmoticonRegex(data),
   ]);
 

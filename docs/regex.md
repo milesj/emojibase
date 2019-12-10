@@ -12,13 +12,15 @@ npm install emojibase-regex
 
 ## Usage
 
-As stated, there are 5 regex patterns. One for matching emoji presentation characters, one for
+As stated, there are 7 regex patterns. One for matching emoji presentation characters, one for
 matching text presentation characters, one for matching both types of characters, and the last for
 matching shortcodes or emoticons.
 
 - `emojibase-regex` - Matches both emoji and text presentation characters.
 - `emojibase-regex/emoji` - Matches only emoji presentation characters.
+- `emojibase-regex/emoji-loose` - Like the above but also includes characters without `FE0F`.
 - `emojibase-regex/text` - Matches only text presentation characters.
+- `emojibase-regex/text-loose` - Like the above but also includes characters without `FE0E`.
 - `emojibase-regex/emoticon` - Matches supported emoticons and their permutations.
 - `emojibase-regex/shortcode` - Matches supported shortcodes.
 
@@ -66,16 +68,20 @@ import PROPERTY_EMOJI_REGEX from 'emojibase-regex/property';
 
 ## Filesizes
 
-| File               | Size    | Gzipped |
-| ------------------ | ------- | ------- |
-| shortcode.js       | 35 B    | 55 B    |
-| property/text.js   | 60 B    | 76 B    |
-| property/emoji.js  | 102 B   | 92 B    |
-| property/index.js  | 114 B   | 101 B   |
-| emoticon.js        | 458 B   | 245 B   |
-| text.js            | 2.93 KB | 631 B   |
-| codepoint/text.js  | 3.61 KB | 667 B   |
-| emoji.js           | 8.38 KB | 1.85 KB |
-| index.js           | 8.39 KB | 1.86 KB |
-| codepoint/emoji.js | 9.03 KB | 1.88 KB |
-| codepoint/index.js | 9.05 KB | 1.88 KB |
+| File                     | Size    | Gzipped |
+| ------------------------ | ------- | ------- |
+| shortcode.js             | 35 B    | 55 B    |
+| property/text.js         | 60 B    | 76 B    |
+| property/emoji.js        | 102 B   | 92 B    |
+| property/index.js        | 114 B   | 101 B   |
+| emoticon.js              | 458 B   | 245 B   |
+| text.js                  | 1.48 KB | 607 B   |
+| codepoint/text.js        | 1.82 KB | 637 B   |
+| emoji.js                 | 8.12 KB | 2.01 KB |
+| text-loose.js            | 8.4 KB  | 1.83 KB |
+| emoji-loose.js           | 8.4 KB  | 1.82 KB |
+| index.js                 | 8.41 KB | 1.83 KB |
+| codepoint/emoji.js       | 9 KB    | 2.06 KB |
+| codepoint/text-loose.js  | 9.12 KB | 1.86 KB |
+| codepoint/emoji-loose.js | 9.12 KB | 1.86 KB |
+| codepoint/index.js       | 9.13 KB | 1.86 KB |

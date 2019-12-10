@@ -2,54 +2,38 @@ import generateEmoticonPermutations from '../src/generateEmoticonPermutations';
 
 describe('generateEmoticonPermutations()', () => {
   it('handles happy', () => {
-    expect(generateEmoticonPermutations(':)')).toEqual([
-      '=-)',
-      '=-}',
-      ':-]',
-      '=-]',
-      ':-}',
-      ':-)',
-      '=}',
-      '=]',
-      '=)',
-      ':}',
-      ':]',
-      ':)',
-    ]);
+    const a = generateEmoticonPermutations(':)');
+    const b = ['=-)', '=-}', ':-]', '=-]', ':-}', ':-)', '=}', '=]', '=)', ':}', ':]', ':)'];
+
+    a.sort();
+    b.sort();
+
+    expect(a).toEqual(b);
   });
 
   it('handles sad', () => {
-    expect(generateEmoticonPermutations(':(')).toEqual([
-      '=-(',
-      '=-{',
-      ':-[',
-      '=-[',
-      ':-{',
-      ':-(',
-      '={',
-      '=[',
-      '=(',
-      ':{',
-      ':[',
-      ':(',
-    ]);
+    const a = generateEmoticonPermutations(':(');
+    const b = ['=-(', '=-{', ':-[', '=-[', ':-{', ':-(', '={', '=[', '=(', ':{', ':[', ':('];
+
+    a.sort();
+    b.sort();
+
+    expect(a).toEqual(b);
   });
 
   it('handles mouths using letters', () => {
-    expect(generateEmoticonPermutations(':p')).toEqual([
-      '=-P',
-      ':-P',
-      '=-p',
-      ':-p',
-      ':p',
-      ':P',
-      '=P',
-      '=p',
-    ]);
+    const a = generateEmoticonPermutations(':p');
+    const b = ['=-P', ':-P', '=-p', ':-p', ':p', ':P', '=P', '=p'];
+
+    a.sort();
+    b.sort();
+
+    expect(a).toEqual(b);
   });
 
   it('handles 3 character emoticons', () => {
-    expect(generateEmoticonPermutations('>:(')).toEqual([
+    const a = generateEmoticonPermutations('>:(');
+    const b = [
       '>=-(',
       '>=-{',
       '>:-[',
@@ -62,7 +46,12 @@ describe('generateEmoticonPermutations()', () => {
       '>:{',
       '>:[',
       '>:(',
-    ]);
+    ];
+
+    a.sort();
+    b.sort();
+
+    expect(a).toEqual(b);
   });
 
   it('doesnt include nose variations', () => {

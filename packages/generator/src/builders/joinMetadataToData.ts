@@ -1,3 +1,4 @@
+import { EMOJI, TEXT } from 'emojibase';
 import hasProperty from '../helpers/hasProperty';
 import {
   UnicodeNamesMap,
@@ -19,6 +20,14 @@ export default function joinMetadataToData(
 ) {
   Object.keys(emojis).forEach(hexcode => {
     const emoji = emojis[hexcode];
+
+    // Determine the correct default presentation
+    // http://www.unicode.org/reports/tr51/#Emoji_Presentation
+    emoji.type = emoji.property.some(
+      prop => prop === 'Basic_Emoji' || prop === 'Emoji_Presentation' || prop.endsWith('Sequence'),
+    )
+      ? EMOJI
+      : TEXT;
 
     // Pull in the official name for each hexcode part
     const name: string[] = [];

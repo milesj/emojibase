@@ -1,5 +1,19 @@
 > Versions that only update `test-data.json` are omitted from the changelog.
 
+## 4.2.0 - 2019-12-07
+
+#### 🚀 Updates
+
+- Updated to [Emoji 12.1](https://emojipedia.org/emoji-12.1/) and
+  [Unicode 12.1](http://unicode.org/versions/Unicode12.1.0/).
+  - 23 new emoji (not including variants).
+  - More gender-neutral options.
+  - Red, blonde, and bald hair combinations.
+
+#### 🐞 Fixes
+
+- Fixed an issue where emojis that should be text presentation by default were marked as emoji.
+
 ## 4.1.0 - 2019-10-08
 
 #### 🚀 Updates
