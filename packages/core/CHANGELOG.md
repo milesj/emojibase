@@ -1,4 +1,4 @@
-## 3.2.0 - 2019-12-07
+## 3.2.0 - 2019-12-09
 
 #### 🚀 Updates
 
@@ -13,7 +13,7 @@
 
 #### 🐞 Fixes
 
-- Fixed an issue where emojis that should be text presentation by default were marked as emoji.
+- Fixed an issue where emojis that should be text presentation by default were not.
 
 ## 3.1.0 - 2019-10-08
 
