@@ -59,7 +59,7 @@ export default {
   // 😆 grinning squinting face
   '1F606': ['amused', 'laugh', 'lol'],
   // 😅 grinning face with sweat
-  '1F605': ['embarassed'],
+  '1F605': ['embarassed', 'sweat_smile'],
   // 😂 face with tears of joy
   '1F602': ['joyful', 'haha'],
   // 🙂 slightly smiling face
