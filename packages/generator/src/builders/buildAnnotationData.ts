@@ -84,7 +84,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
 
     // Multi-person skin tones require special attention
     // https://github.com/milesj/emojibase/issues/42
-    if (!annotation && hexcode.match(MULTI_PERSON_SKIN_TONE_PATTERN)) {
+    if (!annotation && fullHexcode.match(MULTI_PERSON_SKIN_TONE_PATTERN)) {
       const hexcodeParts = hexcode.split('-');
       const inverseHexcode = [
         ...hexcodeParts.slice(-2),
