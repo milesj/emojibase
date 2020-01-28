@@ -3,6 +3,7 @@
 #### 🐞 Fixes
 
 - Added missing annotations to multi-person skin tones.
+- Added `sweat_smile` shortcode.
 
 ## 4.2.0 - 2019-12-09
 
