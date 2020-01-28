@@ -47,7 +47,7 @@ describe('data', () => {
 
     if ('annotation' in emoji) {
       it(`defines an annotation for ${unicode}`, () => {
-        expect(emoji.annotation).toBeDefined();
+        expect(emoji.annotation).not.toBe('');
       });
     }
 

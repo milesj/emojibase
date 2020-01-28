@@ -16,6 +16,7 @@ import {
   TAG_LATIN_SMALL_LETTERS,
   MALE_SIGN,
   INHERIT_PARENT_SYMBOL,
+  MULTI_PERSON_SKIN_TONE_PATTERN,
 } from '../constants';
 
 export default async function buildAnnotationData(locale: string): Promise<CLDRAnnotationMap> {
@@ -80,6 +81,19 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     const emoji = sequences[fullHexcode];
     const tags: string[] = extractField(hexcode, 'tags') || [];
     let annotation: string = extractField(hexcode, 'annotation') || '';
+
+    // Multi-person skin tones require special attention
+    // https://github.com/milesj/emojibase/issues/42
+    if (!annotation && fullHexcode.match(MULTI_PERSON_SKIN_TONE_PATTERN)) {
+      const hexcodeParts = hexcode.split('-');
+      const inverseHexcode = [
+        ...hexcodeParts.slice(-2),
+        hexcodeParts[2],
+        ...hexcodeParts.slice(0, 2),
+      ].join('-');
+
+      annotation = extractField(inverseHexcode, 'annotation') || '';
+    }
 
     // Use the localized territory name
     if (hasProperty(emoji.property, ['Emoji_Flag_Sequence'])) {
