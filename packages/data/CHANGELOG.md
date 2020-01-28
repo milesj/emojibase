@@ -1,3 +1,9 @@
+### 4.2.1 - 2020-01-27
+
+#### 🐞 Fixes
+
+- Added missing annotations to multi-person skin tones.
+
 ## 4.2.0 - 2019-12-09
 
 #### 🚀 Updates
