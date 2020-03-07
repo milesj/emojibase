@@ -1,6 +1,7 @@
 {
   "name": "emojibase-root",
   "private": true,
+  "version": "0.0.0",
   "scripts": {
     "prepare": "beemo create-config --silent",
     "build": "beemo run-script build --workspaces=emojibase,emojibase-generator,emojibase-test-utils",
@@ -20,8 +21,11 @@
     "release": "lerna publish --ignore-changes=emojibase-generator",
     "type": "beemo typescript --build --reference-workspaces"
   },
+  "engines": {
+    "node": ">=10.10.0"
+  },
   "devDependencies": {
-    "@milesj/build-tools": "^1.1.0",
+    "@milesj/build-tools": "^2.0.0",
     "conventional-changelog-beemo": "^1.6.0",
     "filesize": "^6.1.0",
     "glob": "^7.1.6",
