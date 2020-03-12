@@ -2,6 +2,7 @@ import { EMOJI } from 'emojibase';
 import parse from './parse';
 import extractGender from './extractGender';
 import extractLineDescription from './extractLineDescription';
+import extractEmojiVersion from './extractEmojiVersion';
 import extractUnicodeVersion from './extractUnicodeVersion';
 import spreadHexcode from './spreadHexcode';
 import verifyTotals from './verifyTotals';
@@ -31,7 +32,7 @@ export default function parseSequences(
         property: [(property as Property) || defaultProperty],
         type: EMOJI,
         unicodeVersion: extractUnicodeVersion(line.comment),
-        version: parseFloat(version),
+        version: extractEmojiVersion(line.comment) ?? parseFloat(version),
       };
     });
 

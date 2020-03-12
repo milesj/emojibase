@@ -3,6 +3,7 @@
 import { TEXT, EMOJI } from 'emojibase';
 import parse from './parse';
 import extractLineDescription from './extractLineDescription';
+import extractEmojiVersion from './extractEmojiVersion';
 import extractUnicodeVersion from './extractUnicodeVersion';
 import spreadHexcode from './spreadHexcode';
 import verifyTotals from './verifyTotals';
@@ -30,7 +31,7 @@ export default function parseData(version: string, content: string): EmojiDataMa
       property: [(property as Property) || 'Emoji'],
       type: EMOJI,
       unicodeVersion: extractUnicodeVersion(line.comment),
-      version: parseFloat(version),
+      version: extractEmojiVersion(line.comment) ?? parseFloat(version),
     };
 
     spreadHexcode(rawHexcode, (hexcode, range) => {

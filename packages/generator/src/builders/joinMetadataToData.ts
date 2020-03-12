@@ -34,7 +34,14 @@ export default function joinMetadataToData(
 
     // Tag and flag sequences don't have meaningful names,
     // so use the descriptions parsed from the offical data files
-    if (hasProperty(emoji.property, ['Emoji_Flag_Sequence', 'Emoji_Tag_Sequence'])) {
+    if (
+      hasProperty(emoji.property, [
+        'Emoji_Flag_Sequence',
+        'RGI_Emoji_Flag_Sequence',
+        'Emoji_Tag_Sequence',
+        'RGI_Emoji_Tag_Sequence',
+      ])
+    ) {
       name.push(emoji.description.toUpperCase());
     } else {
       let hasSkinTone = '';
