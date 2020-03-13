@@ -3556,4 +3556,140 @@ export default {
   '1F9D1-200D-1F9BC': ['person_motor_wheelchair'],
   // 🧑‍🦽 person in manual wheelchair
   '1F9D1-200D-1F9BD': ['person_wheelchair'],
+
+  // VERSION 13.0
+  // MALE WITH STROKE AND MALE AND FEMALE SIGN
+  '26A7': ['trans'],
+  // HUT
+  '1F6D6': ['hut'],
+  // ELEVATOR
+  '1F6D7': ['elevator'],
+  // PICKUP TRUCK
+  '1F6FB': ['pickup_truck'],
+  // ROLLER SKATE
+  '1F6FC': ['roller_skate'],
+  // PINCHED FINGERS
+  '1F90C': ['pinched_fingers'],
+  // SMILING FACE WITH TEAR
+  '1F972': ['tear_smile'],
+  // NINJA
+  '1F977': ['ninja'],
+  // DISGUISED FACE
+  '1F978': ['disguised_face'],
+  // MAMMOTH
+  '1F9A3': ['mammoth'],
+  // DODO
+  '1F9A4': ['dodo'],
+  // BEAVER
+  '1F9AB': ['beaver'],
+  // BISON
+  '1F9AC': ['bison'],
+  // SEAL
+  '1F9AD': ['seal'],
+  // BUBBLE TEA
+  '1F9CB': ['bubble_tea', 'boba_drink'],
+  // THONG SANDAL
+  '1FA74': ['sandal'],
+  // BOOMERANG
+  '1FA83': ['boomerang'],
+  // MAGIC WAND
+  '1FA84': ['wand'],
+  // PINATA
+  '1FA85': ['pinata'],
+  // NESTING DOLLS
+  '1FA86': ['nesting_dolls'],
+  // MILITARY HELMET
+  '1FA96': ['military_helmet'],
+  // ACCORDION
+  '1FA97': ['accordion'],
+  // LONG DRUM
+  '1FA98': ['long_drum'],
+  // COIN
+  '1FA99': ['coin'],
+  // CARPENTRY SAW
+  '1FA9A': ['saw'],
+  // SCREWDRIVER
+  '1FA9B': ['screwdriver'],
+  // LADDER
+  '1FA9C': ['ladder'],
+  // HOOK
+  '1FA9D': ['hook'],
+  // MIRROR
+  '1FA9E': ['mirror'],
+  // WINDOW
+  '1FA9F': ['window'],
+  // PLUNGER
+  '1FAA0': ['plunger'],
+  // SEWING NEEDLE
+  '1FAA1': ['sewing_needle'],
+  // KNOT
+  '1FAA2': ['knot'],
+  // BUCKET
+  '1FAA3': ['bucket'],
+  // MOUSE TRAP
+  '1FAA4': ['mouse_trap'],
+  // TOOTHBRUSH
+  '1FAA5': ['toothbrush'],
+  // HEADSTONE
+  '1FAA6': ['headstone'],
+  // PLACARD
+  '1FAA7': ['placard'],
+  // ROCK
+  '1FAA8': ['rock'],
+  // FLY
+  '1FAB0': ['fly'],
+  // WORM
+  '1FAB1': ['worm'],
+  // BEETLE
+  '1FAB2': ['beetle'],
+  // COCKROACH
+  '1FAB3': ['cockroach'],
+  // POTTED PLANT
+  '1FAB4': ['potted_plant'],
+  // WOOD
+  '1FAB5': ['wood'],
+  // FEATHER
+  '1FAB6': ['feather'],
+  // ANATOMICAL HEART
+  '1FAC0': ['anatomical_heart'],
+  // LUNGS
+  '1FAC1': ['lungs'],
+  // PEOPLE HUGGING
+  '1FAC2': ['people_hugging'],
+  // BLUEBERRIES
+  '1FAD0': ['blueberry'],
+  // BELL PEPPER
+  '1FAD1': ['bell_pepper'],
+  // OLIVE
+  '1FAD2': ['olive'],
+  // FLATBREAD
+  '1FAD3': ['flatbread'],
+  // TAMALE
+  '1FAD4': ['tamale'],
+  // FONDUE
+  '1FAD5': ['fondue'],
+  // TEAPOT
+  '1FAD6': ['teapot'],
+  // MAN, BABY BOTTLE
+  '1F468-200D-1F37C': ['man_feeding_baby'],
+  // WOMAN, BABY BOTTLE
+  '1F469-200D-1F37C': ['woman_feeding_baby'],
+  // ADULT, BABY BOTTLE
+  '1F9D1-200D-1F37C': ['person_feeding_baby'],
+  // BRIDE WITH VEIL, FEMALE SIGN
+  '1F470-200D-2640-FE0F': ['woman_veiled_bride'],
+  // BRIDE WITH VEIL, MALE SIGN
+  '1F470-200D-2642-FE0F': ['man_veiled_bride'],
+  // MAN IN TUXEDO, FEMALE SIGN
+  '1F935-200D-2640-FE0F': ['woman_in_tuxedo'],
+  // MAN IN TUXEDO, MALE SIGN
+  '1F935-200D-2642-FE0F': ['man_in_tuxedo'],
+  // WAVING WHITE FLAG, MALE WITH STROKE AND MALE AND FEMALE SIGN
+  '1F3F3-FE0F-200D-26A7-FE0F': ['trans_flag'],
+  // CAT, BLACK LARGE SQUARE
+  '1F408-200D-2B1B': ['black_cat'],
+  // BEAR FACE, SNOWFLAKE
+  '1F43B-200D-2744-FE0F': ['bear_face'],
+  // ADULT, CHRISTMAS TREE
+  '1F9D1-200D-1F384': ['mx_claus'],
 };
