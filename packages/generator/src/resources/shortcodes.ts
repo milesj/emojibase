@@ -47,9 +47,7 @@
  */
 
 export default {
-  // VERSION 1
-  // 😀 grinning face
-  '1F600': ['gleeful'],
+  // VERSION 0.6
   // 😃 grinning face with big eyes
   '1F603': ['glad', 'smile'],
   // 😄 grinning face with smiling eyes
@@ -62,98 +60,42 @@ export default {
   '1F605': ['embarassed', 'sweat_smile'],
   // 😂 face with tears of joy
   '1F602': ['joyful', 'haha'],
-  // 🙂 slightly smiling face
-  '1F642': ['pleased', 'slight_smile'],
-  // 🙃 upside-down face
-  '1F643': ['ecstatic', 'upside_down'],
   // 😉 winking face
   '1F609': ['coy', 'wink'],
   // 😊 smiling face with smiling eyes
   '1F60A': ['blush'],
-  // 😇 smiling face with halo
-  '1F607': ['innocent', 'halo'],
   // 😍 smiling face with heart-eyes
   '1F60D': ['lovestruck'],
   // 😘 face blowing a kiss
   '1F618': ['flirty'],
-  // 😗 kissing face
-  '1F617': ['kiss'],
-  // ☺️ smiling face
+  // ☺︎ smiling face
   '263A': ['relaxed'],
   // 😚 kissing face with closed eyes
   '1F61A': ['loving_kiss'],
-  // 😙 kissing face with smiling eyes
-  '1F619': ['happy_kiss'],
   // 😋 face savoring food
   '1F60B': ['yum', 'savour'],
-  // 😛 face with tongue
-  '1F61B': ['playful', 'tongue_out'],
   // 😜 winking face with tongue
   '1F61C': ['mischievous'],
   // 😝 squinting face with tongue
   '1F61D': ['facetious', 'lmao'],
-  // 🤑 money-mouth face
-  '1F911': ['pretentious', 'money_mouth'],
-  // 🤗 hugging face
-  '1F917': ['hugging'],
-  // 🤔 thinking face
-  '1F914': ['curious', 'thinking'],
-  // 🤐 zipper-mouth face
-  '1F910': ['silenced', 'zipper_mouth'],
-  // 😐️ neutral face
-  '1F610': ['indifferent', 'neutral'],
-  // 😑 expressionless face
-  '1F611': ['apathetic', 'expressionless'],
-  // 😶 face without mouth
-  '1F636': ['vacant', 'no_mouth'],
   // 😏 smirking face
   '1F60F': ['cocky', 'smirk'],
   // 😒 unamused face
   '1F612': ['unamused'],
-  // 🙄 face with rolling eyes
-  '1F644': ['disbelief'],
-  // 😬 grimacing face
-  '1F62C': ['grimaced'],
   // 😌 relieved face
   '1F60C': ['relieved'],
   // 😔 pensive face
   '1F614': ['pensive'],
   // 😪 sleepy face
   '1F62A': ['sleepy'],
-  // 😴 sleeping face
-  '1F634': ['exhausted', 'sleeping'],
   // 😷 face with medical mask
   '1F637': ['ill', 'mask'],
-  // 🤒 face with thermometer
-  '1F912': ['sick'],
-  // 🤕 face with head-bandage
-  '1F915': ['injured'],
   // 😵 dizzy face
   '1F635': ['dizzy'],
-  // 😎 smiling face with sunglasses
-  '1F60E': ['confident'],
-  // 🤓 nerd face
-  '1F913': ['nerd'],
-  // 😕 confused face
-  '1F615': ['confused'],
-  // 😟 worried face
-  '1F61F': ['worried'],
-  // 🙁 slightly frowning face
-  '1F641': ['cheerless', 'slight_frown'],
-  // ☹️ frowning face
-  '2639': ['sad', 'frowning'],
-  // 😮 face with open mouth
-  '1F62E': ['surprised'],
-  // 😯 hushed face
-  '1F62F': ['hushed'],
   // 😲 astonished face
   '1F632': ['astonished'],
   // 😳 flushed face
   '1F633': ['flushed'],
-  // 😦 frowning face with open mouth
-  '1F626': ['bored'],
-  // 😧 anguished face
-  '1F627': ['anguished', 'wtf'],
   // 😨 fearful face
   '1F628': ['fearful'],
   // 😰 anxious face with sweat
@@ -184,14 +126,10 @@ export default {
   '1F621': ['enraged', 'pout'],
   // 😠 angry face
   '1F620': ['angry'],
-  // 😈 smiling face with horns
-  '1F608': ['imp'],
   // 👿 angry face with horns
   '1F47F': ['angry_imp'],
   // 💀 skull
   '1F480': ['skull'],
-  // ☠️ skull and crossbones
-  '2620': ['crossbones'],
   // 💩 pile of poo
   '1F4A9': ['poop'],
   // 👹 ogre
@@ -204,8 +142,6 @@ export default {
   '1F47D': ['alien'],
   // 👾 alien monster
   '1F47E': ['alien_monster', 'space_invader'],
-  // 🤖 robot
-  '1F916': ['robot'],
   // 😺 grinning cat
   '1F63A': ['smiling_cat'],
   // 😸 grinning cat with smiling eyes
@@ -250,11 +186,9 @@ export default {
   '1F495': ['two_hearts'],
   // 💟 heart decoration
   '1F49F': ['heart_decoration'],
-  // ❣️ heart exclamation
-  '2763': ['heart_exclamation'],
   // 💔 broken heart
   '1F494': ['broken_heart'],
-  // ❤️ red heart
+  // ❤︎ red heart
   '2764': ['heart'],
   // 💛 yellow heart
   '1F49B': ['yellow_heart'],
@@ -276,43 +210,29 @@ export default {
   '1F4A6': ['sweat_drops'],
   // 💨 dashing away
   '1F4A8': ['dash'],
-  // 🕳️ hole
-  '1F573': ['hole'],
   // 💣️ bomb
   '1F4A3': ['bomb'],
   // 💬 speech balloon
   '1F4AC': ['speech'],
-  // 🗯️ right anger bubble
-  '1F5EF': ['right_anger_speech'],
-  // 💭 thought balloon
-  '1F4AD': ['thought'],
   // 💤 zzz
   '1F4A4': ['zzz'],
   // 👋 waving hand
   '1F44B': ['wave'],
-  // 🖐️ hand with fingers splayed
-  '1F590': ['splayed_hand'],
   // ✋ raised hand
   '270B': ['raised_hand'],
-  // 🖖 vulcan salute
-  '1F596': ['vulcan'],
   // 👌 OK hand
   '1F44C': ['ok_hand'],
-  // ✌️ victory hand
+  // ✌︎ victory hand
   '270C': ['victory'],
-  // 🤘 sign of the horns
-  '1F918': ['metal'],
   // 👈️ backhand index pointing left
   '1F448': ['point_left'],
   // 👉️ backhand index pointing right
   '1F449': ['point_right'],
   // 👆️ backhand index pointing up
   '1F446': ['backhand_point_up'],
-  // 🖕 middle finger
-  '1F595': ['middle_finger'],
   // 👇️ backhand index pointing down
   '1F447': ['point_down'],
-  // ☝️ index pointing up
+  // ☝︎ index pointing up
   '261D': ['point_up'],
   // 👍️ thumbs up
   '1F44D': ['thumbsup', '+1', 'yes'],
@@ -330,8 +250,6 @@ export default {
   '1F450': ['open_hands'],
   // 🙏 folded hands
   '1F64F': ['pray'],
-  // ✍️ writing hand
-  '270D': ['writing_hand'],
   // 💅 nail polish
   '1F485': ['nail_care'],
   // 💪 flexed biceps
@@ -342,8 +260,6 @@ export default {
   '1F443': ['nose'],
   // 👀 eyes
   '1F440': ['eyes'],
-  // 👁️ eye
-  '1F441': ['eye'],
   // 👅 tongue
   '1F445': ['tongue'],
   // 👄 mouth
@@ -380,8 +296,6 @@ export default {
   '1F647': ['person_bowing'],
   // 👮 police officer
   '1F46E': ['police_officer'],
-  // 🕵️ detective
-  '1F575': ['detective'],
   // 💂 guard
   '1F482': ['guard'],
   // 👷 construction worker
@@ -390,9 +304,9 @@ export default {
   '1F478': ['princess'],
   // 👳 person wearing turban
   '1F473': ['person_turban'],
-  // 👲 man with skullcap
+  // 👲 person with skullcap
   '1F472': ['man_chinese_cap'],
-  // 👰 bride with veil
+  // 👰 person with veil
   '1F470': ['bride_veil'],
   // 👼 baby angel
   '1F47C': ['baby_angel'],
@@ -408,138 +322,66 @@ export default {
   '1F3C3': ['person_running'],
   // 💃 woman dancing
   '1F483': ['dancer', 'woman_dancing'],
-  // 🕴️ man in suit levitating
-  '1F574': ['levitate'],
   // 👯 people with bunny ears
   '1F46F': ['people_bunny_ears_partying'],
-  // 🏇 horse racing
-  '1F3C7': ['horse_racing'],
-  // ⛷️ skier
-  '26F7': ['skier'],
   // 🏂️ snowboarder
   '1F3C2': ['snowboarder'],
-  // 🏌️ person golfing
-  '1F3CC': ['person_golfing'],
   // 🏄️ person surfing
   '1F3C4': ['person_surfing'],
-  // 🚣 person rowing boat
-  '1F6A3': ['person_rowing_boat'],
   // 🏊️ person swimming
   '1F3CA': ['person_swimming'],
-  // ⛹️ person bouncing ball
-  '26F9': ['person_bouncing_ball'],
-  // 🏋️ person lifting weights
-  '1F3CB': ['person_lifting_weights'],
-  // 🚴 person biking
-  '1F6B4': ['person_biking'],
-  // 🚵 person mountain biking
-  '1F6B5': ['person_mountain_biking'],
   // 🛀 person taking bath
   '1F6C0': ['bath'],
-  // 🛌 person in bed
-  '1F6CC': ['in_bed'],
-  // 👭 women holding hands
-  '1F46D': ['holding_hands_ww'],
   // 👫 woman and man holding hands
   '1F46B': ['holding_hands_mw', 'holding_hands_wm'],
-  // 👬 men holding hands
-  '1F46C': ['holding_hands_mm'],
   // 💏 kiss
   '1F48F': ['couple'],
   // 💑 couple with heart
   '1F491': ['couple_heart'],
   // 👪️ family
   '1F46A': ['family'],
-  // 🗣️ speaking head
-  '1F5E3': ['speaking_head'],
   // 👤 bust in silhouette
   '1F464': ['bust_silhouette'],
-  // 👥 busts in silhouette
-  '1F465': ['busts_silhouette'],
   // 👣 footprints
   '1F463': ['footprints'],
-  // 🏻 light skin tone
-  '1F3FB': ['tone_light', 'tone1'],
-  // 🏼 medium-light skin tone
-  '1F3FC': ['tone_medium_light', 'tone2'],
-  // 🏽 medium skin tone
-  '1F3FD': ['tone_medium', 'tone3'],
-  // 🏾 medium-dark skin tone
-  '1F3FE': ['tone_medium_dark', 'tone4'],
-  // 🏿 dark skin tone
-  '1F3FF': ['tone_dark', 'tone5'],
   // 🐵 monkey face
   '1F435': ['monkey_face'],
   // 🐒 monkey
   '1F412': ['monkey'],
   // 🐶 dog face
   '1F436': ['dog_face'],
-  // 🐕️ dog
-  '1F415': ['dog'],
   // 🐩 poodle
   '1F429': ['poodle'],
   // 🐺 wolf
   '1F43A': ['wolf_face'],
   // 🐱 cat face
   '1F431': ['cat_face'],
-  // 🐈️ cat
-  '1F408': ['cat'],
-  // 🦁 lion
-  '1F981': ['lion_face'],
   // 🐯 tiger face
   '1F42F': ['tiger_face'],
-  // 🐅 tiger
-  '1F405': ['tiger'],
-  // 🐆 leopard
-  '1F406': ['leopard'],
   // 🐴 horse face
   '1F434': ['horse_face'],
   // 🐎 horse
   '1F40E': ['horse'],
-  // 🦄 unicorn
-  '1F984': ['unicorn_face'],
   // 🐮 cow face
   '1F42E': ['cow_face'],
-  // 🐂 ox
-  '1F402': ['ox'],
-  // 🐃 water buffalo
-  '1F403': ['water_buffalo'],
-  // 🐄 cow
-  '1F404': ['cow'],
   // 🐷 pig face
   '1F437': ['pig_face'],
-  // 🐖 pig
-  '1F416': ['pig'],
   // 🐗 boar
   '1F417': ['boar'],
   // 🐽 pig nose
   '1F43D': ['pig_nose'],
-  // 🐏 ram
-  '1F40F': ['ram'],
   // 🐑 ewe
   '1F411': ['sheep'],
-  // 🐐 goat
-  '1F410': ['goat'],
-  // 🐪 camel
-  '1F42A': ['camel'],
   // 🐫 two-hump camel
   '1F42B': ['two_hump_camel'],
   // 🐘 elephant
   '1F418': ['elephant'],
   // 🐭 mouse face
   '1F42D': ['mouse_face'],
-  // 🐁 mouse
-  '1F401': ['mouse'],
-  // 🐀 rat
-  '1F400': ['rat'],
   // 🐹 hamster
   '1F439': ['hamster_face'],
   // 🐰 rabbit face
   '1F430': ['rabbit_face'],
-  // 🐇 rabbit
-  '1F407': ['rabbit'],
-  // 🐿️ chipmunk
-  '1F43F': ['chipmunk'],
   // 🐻 bear
   '1F43B': ['bear_face'],
   // 🐨 koala
@@ -548,12 +390,8 @@ export default {
   '1F43C': ['panda_face'],
   // 🐾 paw prints
   '1F43E': ['feet'],
-  // 🦃 turkey
-  '1F983': ['turkey'],
   // 🐔 chicken
   '1F414': ['chicken'],
-  // 🐓 rooster
-  '1F413': ['rooster'],
   // 🐣 hatching chick
   '1F423': ['hatching_chick'],
   // 🐤 baby chick
@@ -564,24 +402,16 @@ export default {
   '1F426': ['bird'],
   // 🐧 penguin
   '1F427': ['penguin'],
-  // 🕊️ dove
-  '1F54A': ['dove'],
   // 🐸 frog
   '1F438': ['frog_face'],
-  // 🐊 crocodile
-  '1F40A': ['crocodile'],
   // 🐢 turtle
   '1F422': ['turtle'],
   // 🐍 snake
   '1F40D': ['snake'],
   // 🐲 dragon face
   '1F432': ['dragon_face'],
-  // 🐉 dragon
-  '1F409': ['dragon'],
   // 🐳 spouting whale
   '1F433': ['spouting_whale'],
-  // 🐋 whale
-  '1F40B': ['whale'],
   // 🐬 dolphin
   '1F42C': ['dolphin'],
   // 🐟️ fish
@@ -603,21 +433,13 @@ export default {
   // 🐝 honeybee
   '1F41D': ['bee'],
   // 🐞 lady beetle
-  '1F41E': ['beetle'],
-  // 🕷️ spider
-  '1F577': ['spider'],
-  // 🕸️ spider web
-  '1F578': ['spider_web'],
-  // 🦂 scorpion
-  '1F982': ['scorpion'],
+  '1F41E': ['lady_bug'],
   // 💐 bouquet
   '1F490': ['bouquet'],
   // 🌸 cherry blossom
   '1F338': ['cherry_blossom'],
   // 💮 white flower
   '1F4AE': ['white_flower'],
-  // 🏵️ rosette
-  '1F3F5': ['rosette'],
   // 🌹 rose
   '1F339': ['rose'],
   // 🌺 hibiscus
@@ -630,10 +452,6 @@ export default {
   '1F337': ['tulip'],
   // 🌱 seedling
   '1F331': ['seedling'],
-  // 🌲 evergreen tree
-  '1F332': ['evergreen_tree'],
-  // 🌳 deciduous tree
-  '1F333': ['deciduous_tree'],
   // 🌴 palm tree
   '1F334': ['palm_tree'],
   // 🌵 cactus
@@ -642,8 +460,6 @@ export default {
   '1F33E': ['ear_of_rice'],
   // 🌿 herb
   '1F33F': ['herb'],
-  // ☘️ shamrock
-  '2618': ['shamrock'],
   // 🍀 four leaf clover
   '1F340': ['four_leaf_clover'],
   // 🍁 maple leaf
@@ -660,8 +476,6 @@ export default {
   '1F349': ['watermelon'],
   // 🍊 tangerine
   '1F34A': ['tangerine'],
-  // 🍋 lemon
-  '1F34B': ['lemon'],
   // 🍌 banana
   '1F34C': ['banana'],
   // 🍍 pineapple
@@ -670,8 +484,6 @@ export default {
   '1F34E': ['apple'],
   // 🍏 green apple
   '1F34F': ['green_apple'],
-  // 🍐 pear
-  '1F350': ['pear'],
   // 🍑 peach
   '1F351': ['peach'],
   // 🍒 cherries
@@ -684,16 +496,12 @@ export default {
   '1F346': ['eggplant'],
   // 🌽 ear of corn
   '1F33D': ['corn'],
-  // 🌶️ hot pepper
-  '1F336': ['hot_pepper'],
   // 🍄 mushroom
   '1F344': ['mushroom'],
   // 🌰 chestnut
   '1F330': ['chestnut'],
   // 🍞 bread
   '1F35E': ['bread'],
-  // 🧀 cheese wedge
-  '1F9C0': ['cheese'],
   // 🍖 meat on bone
   '1F356': ['meat_on_bone'],
   // 🍗 poultry leg
@@ -704,18 +512,10 @@ export default {
   '1F35F': ['fries'],
   // 🍕 pizza
   '1F355': ['pizza'],
-  // 🌭 hot dog
-  '1F32D': ['hotdog'],
-  // 🌮 taco
-  '1F32E': ['taco'],
-  // 🌯 burrito
-  '1F32F': ['burrito'],
   // 🍳 cooking
   '1F373': ['cooking'],
   // 🍲 pot of food
   '1F372': ['stew'],
-  // 🍿 popcorn
-  '1F37F': ['popcorn'],
   // 🍱 bento box
   '1F371': ['bento'],
   // 🍘 rice cracker
@@ -742,8 +542,6 @@ export default {
   '1F365': ['fish_cake'],
   // 🍡 dango
   '1F361': ['dango'],
-  // 🦀 crab
-  '1F980': ['crab'],
   // 🍦 soft ice cream
   '1F366': ['icecream'],
   // 🍧 shaved ice
@@ -768,16 +566,12 @@ export default {
   '1F36E': ['custard'],
   // 🍯 honey pot
   '1F36F': ['honey_pot'],
-  // 🍼 baby bottle
-  '1F37C': ['baby_bottle'],
   // ☕️ hot beverage
   '2615': ['coffee'],
   // 🍵 teacup without handle
   '1F375': ['tea'],
   // 🍶 sake
   '1F376': ['sake'],
-  // 🍾 bottle with popping cork
-  '1F37E': ['champagne'],
   // 🍷 wine glass
   '1F377': ['wine_glass'],
   // 🍸️ cocktail glass
@@ -788,54 +582,18 @@ export default {
   '1F37A': ['beer'],
   // 🍻 clinking beer mugs
   '1F37B': ['beers'],
-  // 🍽️ fork and knife with plate
-  '1F37D': ['fork_knife_plate'],
   // 🍴 fork and knife
   '1F374': ['utensils'],
   // 🔪 kitchen knife
   '1F52A': ['knife'],
-  // 🏺 amphora
-  '1F3FA': ['amphora'],
-  // 🌍️ globe showing Europe-Africa
-  '1F30D': ['earth_africa'],
-  // 🌎️ globe showing Americas
-  '1F30E': ['earth_americas'],
   // 🌏️ globe showing Asia-Australia
   '1F30F': ['earth_asia'],
-  // 🌐 globe with meridians
-  '1F310': ['globe'],
-  // 🗺️ world map
-  '1F5FA': ['map'],
   // 🗾 map of Japan
   '1F5FE': ['japan'],
-  // 🏔️ snow-capped mountain
-  '1F3D4': ['snowy_mountain'],
-  // ⛰️ mountain
-  '26F0': ['mountain'],
   // 🌋 volcano
   '1F30B': ['volcano'],
   // 🗻 mount fuji
   '1F5FB': ['mount_fuji'],
-  // 🏕️ camping
-  '1F3D5': ['camping'],
-  // 🏖️ beach with umbrella
-  '1F3D6': ['beach'],
-  // 🏜️ desert
-  '1F3DC': ['desert'],
-  // 🏝️ desert island
-  '1F3DD': ['island'],
-  // 🏞️ national park
-  '1F3DE': ['park'],
-  // 🏟️ stadium
-  '1F3DF': ['stadium'],
-  // 🏛️ classical building
-  '1F3DB': ['classical_building'],
-  // 🏗️ building construction
-  '1F3D7': ['construction_site'],
-  // 🏘️ houses
-  '1F3D8': ['homes'],
-  // 🏚️ derelict house
-  '1F3DA': ['house_abandoned'],
   // 🏠️ house
   '1F3E0': ['house'],
   // 🏡 house with garden
@@ -844,8 +602,6 @@ export default {
   '1F3E2': ['office'],
   // 🏣 Japanese post office
   '1F3E3': ['ja_post_office'],
-  // 🏤 post office
-  '1F3E4': ['post_office'],
   // 🏥 hospital
   '1F3E5': ['hospital'],
   // 🏦 bank
@@ -874,14 +630,6 @@ export default {
   '1F5FD': ['statue_of_liberty'],
   // ⛪️ church
   '26EA': ['church'],
-  // 🕌 mosque
-  '1F54C': ['mosque'],
-  // 🕍 synagogue
-  '1F54D': ['synagogue'],
-  // ⛩️ shinto shrine
-  '26E9': ['shinto_shrine'],
-  // 🕋 kaaba
-  '1F54B': ['kaaba'],
   // ⛲️ fountain
   '26F2': ['fountain'],
   // ⛺️ tent
@@ -890,8 +638,6 @@ export default {
   '1F301': ['foggy'],
   // 🌃 night with stars
   '1F303': ['night_stars'],
-  // 🏙️ cityscape
-  '1F3D9': ['cityscape'],
   // 🌄 sunrise over mountains
   '1F304': ['sunrise_over_mountains'],
   // 🌅 sunrise
@@ -902,7 +648,7 @@ export default {
   '1F307': ['sunset'],
   // 🌉 bridge at night
   '1F309': ['bridge_at_night'],
-  // ♨️ hot springs
+  // ♨︎ hot springs
   '2668': ['hotsprings'],
   // 🎠 carousel horse
   '1F3A0': ['carousel_horse'],
@@ -914,84 +660,42 @@ export default {
   '1F488': ['barber'],
   // 🎪 circus tent
   '1F3AA': ['circus_tent'],
-  // 🚂 locomotive
-  '1F682': ['steam_locomotive'],
   // 🚃 railway car
   '1F683': ['railway_car'],
   // 🚄 high-speed train
   '1F684': ['bullettrain_side'],
   // 🚅 bullet train
   '1F685': ['bullettrain'],
-  // 🚆 train
-  '1F686': ['train'],
   // 🚇️ metro
   '1F687': ['metro'],
-  // 🚈 light rail
-  '1F688': ['light_rail'],
   // 🚉 station
   '1F689': ['station'],
-  // 🚊 tram
-  '1F68A': ['tram'],
-  // 🚝 monorail
-  '1F69D': ['monorail'],
-  // 🚞 mountain railway
-  '1F69E': ['mountain_railway'],
-  // 🚋 tram car
-  '1F68B': ['tram_car'],
   // 🚌 bus
   '1F68C': ['bus'],
-  // 🚍️ oncoming bus
-  '1F68D': ['oncoming_bus'],
-  // 🚎 trolleybus
-  '1F68E': ['trolleybus'],
-  // 🚐 minibus
-  '1F690': ['minibus'],
   // 🚑️ ambulance
   '1F691': ['ambulance'],
   // 🚒 fire engine
   '1F692': ['fire_engine'],
   // 🚓 police car
   '1F693': ['police_car'],
-  // 🚔️ oncoming police car
-  '1F694': ['oncoming_police_car'],
   // 🚕 taxi
   '1F695': ['taxi'],
-  // 🚖 oncoming taxi
-  '1F696': ['oncoming_taxi'],
   // 🚗 automobile
   '1F697': ['red_car'],
-  // 🚘️ oncoming automobile
-  '1F698': ['oncoming_automobile'],
   // 🚙 sport utility vehicle
   '1F699': ['blue_car'],
   // 🚚 delivery truck
   '1F69A': ['truck'],
-  // 🚛 articulated lorry
-  '1F69B': ['lorry'],
-  // 🚜 tractor
-  '1F69C': ['tractor'],
-  // 🏎️ racing car
-  '1F3CE': ['race_car'],
-  // 🏍️ motorcycle
-  '1F3CD': ['motorcycle'],
   // 🚲️ bicycle
   '1F6B2': ['bike'],
   // 🚏 bus stop
   '1F68F': ['bus_stop'],
-  // 🛣️ motorway
-  '1F6E3': ['motorway'],
-  // 🛤️ railway track
-  '1F6E4': ['railway_track'],
-  // 🛢️ oil drum
-  '1F6E2': ['oil_drum'],
   // ⛽️ fuel pump
   '26FD': ['fuel_pump'],
   // 🚨 police car light
   '1F6A8': ['rotating_light', 'police_light'],
   // 🚥 horizontal traffic light
   '1F6A5': ['traffic_light'],
-  // 🚦 vertical traffic light
-  '1F6A6': ['vertical_traffic_light'],
   // 🚧 construction
   '1F6A7': ['construction'],
   // ⚓️ anchor
@@ -1000,38 +704,14 @@ export default {
   '26F5': ['sailboat'],
   // 🚤 speedboat
   '1F6A4': ['speedboat'],
-  // 🛳️ passenger ship
-  '1F6F3': ['cruise_ship'],
-  // ⛴️ ferry
-  '26F4': ['ferry'],
-  // 🛥️ motor boat
-  '1F6E5': ['motorboat'],
   // 🚢 ship
   '1F6A2': ['ship'],
-  // ✈️ airplane
+  // ✈︎ airplane
   '2708': ['airplane'],
-  // 🛩️ small airplane
-  '1F6E9': ['small_airplane'],
-  // 🛫 airplane departure
-  '1F6EB': ['airplane_departure'],
-  // 🛬 airplane arrival
-  '1F6EC': ['airplane_arriving'],
   // 💺 seat
   '1F4BA': ['seat'],
-  // 🚁 helicopter
-  '1F681': ['helicopter'],
-  // 🚟 suspension railway
-  '1F69F': ['suspension_railway'],
-  // 🚠 mountain cableway
-  '1F6A0': ['mountain_cableway'],
-  // 🚡 aerial tramway
-  '1F6A1': ['aerial_tramway'],
-  // 🛰️ satellite
-  '1F6F0': ['satellite'],
   // 🚀 rocket
   '1F680': ['rocket'],
-  // 🛎️ bellhop bell
-  '1F6CE': ['bellhop'],
   // ⌛️ hourglass done
   '231B': ['hourglass'],
   // ⏳️ hourglass not done
@@ -1040,92 +720,44 @@ export default {
   '231A': ['watch'],
   // ⏰ alarm clock
   '23F0': ['alarm_clock'],
-  // ⏱️ stopwatch
-  '23F1': ['stopwatch'],
-  // ⏲️ timer clock
-  '23F2': ['timer'],
-  // 🕰️ mantelpiece clock
-  '1F570': ['clock'],
   // 🕛️ twelve o’clock
   '1F55B': ['clock12'],
-  // 🕧️ twelve-thirty
-  '1F567': ['clock1230'],
   // 🕐️ one o’clock
   '1F550': ['clock1'],
-  // 🕜️ one-thirty
-  '1F55C': ['clock130'],
   // 🕑️ two o’clock
   '1F551': ['clock2'],
-  // 🕝️ two-thirty
-  '1F55D': ['clock230'],
   // 🕒️ three o’clock
   '1F552': ['clock3'],
-  // 🕞️ three-thirty
-  '1F55E': ['clock330'],
   // 🕓️ four o’clock
   '1F553': ['clock4'],
-  // 🕟️ four-thirty
-  '1F55F': ['clock430'],
   // 🕔️ five o’clock
   '1F554': ['clock5'],
-  // 🕠️ five-thirty
-  '1F560': ['clock530'],
   // 🕕️ six o’clock
   '1F555': ['clock6'],
-  // 🕡️ six-thirty
-  '1F561': ['clock630'],
   // 🕖️ seven o’clock
   '1F556': ['clock7'],
-  // 🕢️ seven-thirty
-  '1F562': ['clock730'],
   // 🕗️ eight o’clock
   '1F557': ['clock8'],
-  // 🕣️ eight-thirty
-  '1F563': ['clock830'],
   // 🕘️ nine o’clock
   '1F558': ['clock9'],
-  // 🕤️ nine-thirty
-  '1F564': ['clock930'],
   // 🕙️ ten o’clock
   '1F559': ['clock10'],
-  // 🕥️ ten-thirty
-  '1F565': ['clock1030'],
   // 🕚️ eleven o’clock
   '1F55A': ['clock11'],
-  // 🕦️ eleven-thirty
-  '1F566': ['clock1130'],
   // 🌑 new moon
   '1F311': ['new_moon'],
-  // 🌒 waxing crescent moon
-  '1F312': ['waxing_crescent_moon'],
   // 🌓 first quarter moon
   '1F313': ['first_quarter_moon'],
   // 🌔 waxing gibbous moon
   '1F314': ['waxing_gibbous_moon'],
   // 🌕️ full moon
   '1F315': ['full_moon'],
-  // 🌖 waning gibbous moon
-  '1F316': ['waning_gibbous_moon'],
-  // 🌗 last quarter moon
-  '1F317': ['last_quarter_moon'],
-  // 🌘 waning crescent moon
-  '1F318': ['waning_crescent_moon'],
   // 🌙 crescent moon
   '1F319': ['crescent_moon'],
-  // 🌚 new moon face
-  '1F31A': ['new_moon_face'],
   // 🌛 first quarter moon face
   '1F31B': ['first_quarter_moon_face'],
-  // 🌜️ last quarter moon face
-  '1F31C': ['last_quarter_moon_face'],
-  // 🌡️ thermometer
-  '1F321': ['thermometer'],
-  // ☀️ sun
+  // ☀︎ sun
   '2600': ['sun'],
-  // 🌝 full moon face
-  '1F31D': ['full_moon_face'],
-  // 🌞 sun with face
-  '1F31E': ['sun_face'],
   // ⭐️ star
   '2B50': ['star'],
   // 🌟 glowing star
@@ -1134,52 +766,24 @@ export default {
   '1F320': ['star3', 'shooting_star'],
   // 🌌 milky way
   '1F30C': ['milky_way'],
-  // ☁️ cloud
+  // ☁︎ cloud
   '2601': ['cloud'],
   // ⛅️ sun behind cloud
   '26C5': ['partly_sunny'],
-  // ⛈️ cloud with lightning and rain
-  '26C8': ['storm'],
-  // 🌤️ sun behind small cloud
-  '1F324': ['overcast'],
-  // 🌥️ sun behind large cloud
-  '1F325': ['cloudy'],
-  // 🌦️ sun behind rain cloud
-  '1F326': ['sunshower'],
-  // 🌧️ cloud with rain
-  '1F327': ['rain'],
-  // 🌨️ cloud with snow
-  '1F328': ['snow'],
-  // 🌩️ cloud with lightning
-  '1F329': ['lightning'],
-  // 🌪️ tornado
-  '1F32A': ['tornado'],
-  // 🌫️ fog
-  '1F32B': ['fog'],
-  // 🌬️ wind face
-  '1F32C': ['wind_face'],
   // 🌀 cyclone
   '1F300': ['cyclone'],
   // 🌈 rainbow
   '1F308': ['rainbow'],
   // 🌂 closed umbrella
   '1F302': ['closed_umbrella'],
-  // ☂️ umbrella
-  '2602': ['umbrella'],
   // ☔️ umbrella with rain drops
   '2614': ['umbrella_rain'],
-  // ⛱️ umbrella on ground
-  '26F1': ['beach_umbrella'],
   // ⚡️ high voltage
   '26A1': ['zap', 'high_voltage'],
-  // ❄️ snowflake
+  // ❄︎ snowflake
   '2744': ['snowflake'],
-  // ☃️ snowman
-  '2603': ['snowy_snowman'],
   // ⛄️ snowman without snow
   '26C4': ['snowman'],
-  // ☄️ comet
-  '2604': ['comet'],
   // 🔥 fire
   '1F525': ['fire'],
   // 💧 droplet
@@ -1218,48 +822,24 @@ export default {
   '1F380': ['ribbon'],
   // 🎁 wrapped gift
   '1F381': ['gift'],
-  // 🎗️ reminder ribbon
-  '1F397': ['reminder_ribbon'],
-  // 🎟️ admission tickets
-  '1F39F': ['tickets', 'admission'],
   // 🎫 ticket
   '1F3AB': ['ticket'],
-  // 🎖️ military medal
-  '1F396': ['military_medal'],
   // 🏆️ trophy
   '1F3C6': ['trophy'],
-  // 🏅 sports medal
-  '1F3C5': ['medal'],
   // ⚽️ soccer ball
   '26BD': ['soccer'],
   // ⚾️ baseball
   '26BE': ['baseball'],
   // 🏀 basketball
   '1F3C0': ['basketball'],
-  // 🏐 volleyball
-  '1F3D0': ['volleyball'],
   // 🏈 american football
   '1F3C8': ['football'],
-  // 🏉 rugby football
-  '1F3C9': ['rugby'],
   // 🎾 tennis
   '1F3BE': ['tennis'],
   // 🎳 bowling
   '1F3B3': ['bowling'],
-  // 🏏 cricket game
-  '1F3CF': ['cricket_game'],
-  // 🏑 field hockey
-  '1F3D1': ['field_hockey'],
-  // 🏒 ice hockey
-  '1F3D2': ['hockey'],
-  // 🏓 ping pong
-  '1F3D3': ['ping_pong'],
-  // 🏸 badminton
-  '1F3F8': ['badminton'],
   // ⛳️ flag in hole
   '26F3': ['golf'],
-  // ⛸️ ice skate
-  '26F8': ['ice_skate'],
   // 🎣 fishing pole
   '1F3A3': ['fishing_pole'],
   // 🎽 running shirt
@@ -1274,19 +854,17 @@ export default {
   '1F52E': ['crystal_ball'],
   // 🎮️ video game
   '1F3AE': ['video_game'],
-  // 🕹️ joystick
-  '1F579': ['joystick'],
   // 🎰 slot machine
   '1F3B0': ['slot_machine'],
   // 🎲 game die
   '1F3B2': ['game_die'],
-  // ♠️ spade suit
+  // ♠︎ spade suit
   '2660': ['spades'],
-  // ♥️ heart suit
+  // ♥︎ heart suit
   '2665': ['hearts'],
-  // ♦️ diamond suit
+  // ♦︎ diamond suit
   '2666': ['diamonds'],
-  // ♣️ club suit
+  // ♣︎ club suit
   '2663': ['clubs'],
   // 🃏 joker
   '1F0CF': ['black_joker'],
@@ -1296,14 +874,10 @@ export default {
   '1F3B4': ['flower_cards'],
   // 🎭️ performing arts
   '1F3AD': ['performing_arts'],
-  // 🖼️ framed picture
-  '1F5BC': ['frame_photo'],
   // 🎨 artist palette
   '1F3A8': ['art', 'palette'],
   // 👓️ glasses
   '1F453': ['glasses'],
-  // 🕶️ sunglasses
-  '1F576': ['sunglasses'],
   // 👔 necktie
   '1F454': ['necktie', 'tie'],
   // 👕 t-shirt
@@ -1324,8 +898,6 @@ export default {
   '1F45C': ['handbag'],
   // 👝 clutch bag
   '1F45D': ['pouch', 'clutch_bag'],
-  // 🛍️ shopping bags
-  '1F6CD': ['shopping_bags'],
   // 🎒 backpack
   '1F392': ['backpack'],
   // 👞 man’s shoe
@@ -1346,46 +918,26 @@ export default {
   '1F3A9': ['top_hat'],
   // 🎓️ graduation cap
   '1F393': ['graduation_cap'],
-  // ⛑️ rescue worker’s helmet
-  '26D1': ['helmet_cross'],
-  // 📿 prayer beads
-  '1F4FF': ['prayer_beads'],
   // 💄 lipstick
   '1F484': ['lipstick'],
   // 💍 ring
   '1F48D': ['ring'],
   // 💎 gem stone
   '1F48E': ['gem'],
-  // 🔇 muted speaker
-  '1F507': ['mute', 'no_sound'],
-  // 🔈️ speaker low volume
-  '1F508': ['speaker', 'low_sound'],
-  // 🔉 speaker medium volume
-  '1F509': ['sound'],
   // 🔊 speaker high volume
   '1F50A': ['loud_sound'],
   // 📢 loudspeaker
   '1F4E2': ['loudspeaker'],
   // 📣 megaphone
   '1F4E3': ['megaphone'],
-  // 📯 postal horn
-  '1F4EF': ['postal_horn'],
   // 🔔 bell
   '1F514': ['bell'],
-  // 🔕 bell with slash
-  '1F515': ['no_bell'],
   // 🎼 musical score
   '1F3BC': ['musical_score'],
   // 🎵 musical note
   '1F3B5': ['musical_note'],
   // 🎶 musical notes
   '1F3B6': ['musical_notes'],
-  // 🎙️ studio microphone
-  '1F399': ['studio_microphone'],
-  // 🎚️ level slider
-  '1F39A': ['level_slider'],
-  // 🎛️ control knobs
-  '1F39B': ['control_knobs'],
   // 🎤 microphone
   '1F3A4': ['microphone'],
   // 🎧️ headphone
@@ -1406,7 +958,7 @@ export default {
   '1F4F1': ['mobile', 'iphone', 'android'],
   // 📲 mobile phone with arrow
   '1F4F2': ['mobile_calling'],
-  // ☎️ telephone
+  // ☎︎ telephone
   '260E': ['telephone'],
   // 📞 telephone receiver
   '1F4DE': ['telephone_receiver'],
@@ -1420,16 +972,6 @@ export default {
   '1F50C': ['electric_plug'],
   // 💻️ laptop
   '1F4BB': ['laptop'],
-  // 🖥️ desktop computer
-  '1F5A5': ['desktop', 'computer'],
-  // 🖨️ printer
-  '1F5A8': ['printer'],
-  // ⌨️ keyboard
-  '2328': ['keyboard'],
-  // 🖱️ computer mouse
-  '1F5B1': ['computer_mouse'],
-  // 🖲️ trackball
-  '1F5B2': ['trackball'],
   // 💽 computer disk
   '1F4BD': ['minidisc'],
   // 💾 floppy disk
@@ -1440,18 +982,12 @@ export default {
   '1F4C0': ['dvd'],
   // 🎥 movie camera
   '1F3A5': ['movie_camera'],
-  // 🎞️ film frames
-  '1F39E': ['film_frames'],
-  // 📽️ film projector
-  '1F4FD': ['projector'],
   // 🎬️ clapper board
   '1F3AC': ['clapper'],
   // 📺️ television
   '1F4FA': ['tv'],
   // 📷️ camera
   '1F4F7': ['camera'],
-  // 📸 camera with flash
-  '1F4F8': ['camera_flash'],
   // 📹️ video camera
   '1F4F9': ['video_camera'],
   // 📼 videocassette
@@ -1460,8 +996,6 @@ export default {
   '1F50D': ['mag'],
   // 🔎 magnifying glass tilted right
   '1F50E': ['mag_right'],
-  // 🕯️ candle
-  '1F56F': ['candle'],
   // 💡 light bulb
   '1F4A1': ['bulb', 'light_bulb'],
   // 🔦 flashlight
@@ -1494,35 +1028,23 @@ export default {
   '1F4C4': ['page_facing_up'],
   // 📰 newspaper
   '1F4F0': ['newspaper'],
-  // 🗞️ rolled-up newspaper
-  '1F5DE': ['rolled_newspaper'],
   // 📑 bookmark tabs
   '1F4D1': ['bookmark_tabs'],
   // 🔖 bookmark
   '1F516': ['bookmark'],
-  // 🏷️ label
-  '1F3F7': ['label'],
   // 💰️ money bag
   '1F4B0': ['moneybag'],
   // 💴 yen banknote
   '1F4B4': ['yen'],
   // 💵 dollar banknote
   '1F4B5': ['dollar'],
-  // 💶 euro banknote
-  '1F4B6': ['euro'],
-  // 💷 pound banknote
-  '1F4B7': ['pound'],
   // 💸 money with wings
   '1F4B8': ['money_wings'],
   // 💳️ credit card
   '1F4B3': ['credit_card'],
   // 💹 chart increasing with yen
   '1F4B9': ['ja_chart'],
-  // 💱 currency exchange
-  '1F4B1': ['currency_exchange'],
-  // 💲 heavy dollar sign
-  '1F4B2': ['dollar_sign'],
-  // ✉️ envelope
+  // ✉︎ envelope
   '2709': ['envelope'],
   // 📧 e-mail
   '1F4E7': ['email'],
@@ -1540,26 +1062,12 @@ export default {
   '1F4EB': ['mailbox'],
   // 📪️ closed mailbox with lowered flag
   '1F4EA': ['mailbox_closed'],
-  // 📬️ open mailbox with raised flag
-  '1F4EC': ['mailbox_mail'],
-  // 📭️ open mailbox with lowered flag
-  '1F4ED': ['mailbox_no_mail'],
   // 📮 postbox
   '1F4EE': ['postbox'],
-  // 🗳️ ballot box with ballot
-  '1F5F3': ['ballot_box'],
-  // ✏️ pencil
+  // ✏︎ pencil
   '270F': ['pencil'],
-  // ✒️ black nib
+  // ✒︎ black nib
   '2712': ['black_nib'],
-  // 🖋️ fountain pen
-  '1F58B': ['fountain_pen'],
-  // 🖊️ pen
-  '1F58A': ['pen'],
-  // 🖌️ paintbrush
-  '1F58C': ['paintbrush'],
-  // 🖍️ crayon
-  '1F58D': ['crayon'],
   // 📝 memo
   '1F4DD': ['memo'],
   // 💼 briefcase
@@ -1568,16 +1076,10 @@ export default {
   '1F4C1': ['file_folder'],
   // 📂 open file folder
   '1F4C2': ['open_file_folder'],
-  // 🗂️ card index dividers
-  '1F5C2': ['dividers'],
   // 📅 calendar
   '1F4C5': ['date', 'calendar'],
   // 📆 tear-off calendar
   '1F4C6': ['torn_calendar'],
-  // 🗒️ spiral notepad
-  '1F5D2': ['notepad_spiral'],
-  // 🗓️ spiral calendar
-  '1F5D3': ['calendar_spiral'],
   // 📇 card index
   '1F4C7': ['card_index'],
   // 📈 chart increasing
@@ -1594,20 +1096,12 @@ export default {
   '1F4CD': ['round_pushpin'],
   // 📎 paperclip
   '1F4CE': ['paperclip'],
-  // 🖇️ linked paperclips
-  '1F587': ['paperclips'],
   // 📏 straight ruler
   '1F4CF': ['straight_ruler'],
   // 📐 triangular ruler
   '1F4D0': ['triangular_ruler'],
-  // ✂️ scissors
+  // ✂︎ scissors
   '2702': ['scissors'],
-  // 🗃️ card file box
-  '1F5C3': ['card_box'],
-  // 🗄️ file cabinet
-  '1F5C4': ['file_cabinet'],
-  // 🗑️ wastebasket
-  '1F5D1': ['trashcan', 'wastebasket'],
   // 🔒️ locked
   '1F512': ['lock'],
   // 🔓️ unlocked
@@ -1618,46 +1112,16 @@ export default {
   '1F510': ['locked_key'],
   // 🔑 key
   '1F511': ['key'],
-  // 🗝️ old key
-  '1F5DD': ['old_key'],
   // 🔨 hammer
   '1F528': ['hammer'],
-  // ⛏️ pick
-  '26CF': ['pick'],
-  // ⚒️ hammer and pick
-  '2692': ['hammer_pick'],
-  // 🛠️ hammer and wrench
-  '1F6E0': ['tools', 'hammer_wrench'],
-  // 🗡️ dagger
-  '1F5E1': ['dagger'],
-  // ⚔️ crossed swords
-  '2694': ['crossed_swords'],
   // 🔫 pistol
   '1F52B': ['gun', 'pistol'],
-  // 🏹 bow and arrow
-  '1F3F9': ['bow'],
-  // 🛡️ shield
-  '1F6E1': ['shield'],
   // 🔧 wrench
   '1F527': ['wrench'],
   // 🔩 nut and bolt
   '1F529': ['nut_and_bolt'],
-  // ⚙️ gear
-  '2699': ['gear'],
-  // 🗜️ clamp
-  '1F5DC': ['clamp', 'compression'],
-  // ⚖️ balance scale
-  '2696': ['scales'],
   // 🔗 link
   '1F517': ['link'],
-  // ⛓️ chains
-  '26D3': ['chains'],
-  // ⚗️ alembic
-  '2697': ['alembic'],
-  // 🔬 microscope
-  '1F52C': ['microscope'],
-  // 🔭 telescope
-  '1F52D': ['telescope'],
   // 📡 satellite antenna
   '1F4E1': ['satellite_antenna'],
   // 💉 syringe
@@ -1666,30 +1130,14 @@ export default {
   '1F48A': ['pill'],
   // 🚪 door
   '1F6AA': ['door'],
-  // 🛏️ bed
-  '1F6CF': ['bed'],
-  // 🛋️ couch and lamp
-  '1F6CB': ['couch'],
   // 🚽 toilet
   '1F6BD': ['toilet'],
-  // 🚿 shower
-  '1F6BF': ['shower'],
-  // 🛁 bathtub
-  '1F6C1': ['bathtub'],
   // 🚬 cigarette
   '1F6AC': ['cigarette', 'smoking'],
-  // ⚰️ coffin
-  '26B0': ['coffin'],
-  // ⚱️ funeral urn
-  '26B1': ['urn'],
   // 🗿 moai
   '1F5FF': ['moai'],
   // 🏧 ATM sign
   '1F3E7': ['atm'],
-  // 🚮 litter in bin sign
-  '1F6AE': ['litter_bin'],
-  // 🚰 potable water
-  '1F6B0': ['potable_water'],
   // ♿️ wheelchair symbol
   '267F': ['handicapped'],
   // 🚹️ men’s room
@@ -1702,72 +1150,46 @@ export default {
   '1F6BC': ['baby_symbol'],
   // 🚾 water closet
   '1F6BE': ['wc'],
-  // 🛂 passport control
-  '1F6C2': ['passport_control'],
-  // 🛃 customs
-  '1F6C3': ['customs'],
-  // 🛄 baggage claim
-  '1F6C4': ['baggage_claim'],
-  // 🛅 left luggage
-  '1F6C5': ['left_luggage'],
-  // ⚠️ warning
+  // ⚠︎ warning
   '26A0': ['warning'],
-  // 🚸 children crossing
-  '1F6B8': ['children_crossing'],
   // ⛔️ no entry
   '26D4': ['no_entry'],
   // 🚫 prohibited
   '1F6AB': ['no_entry_sign'],
-  // 🚳 no bicycles
-  '1F6B3': ['no_bicycles'],
   // 🚭️ no smoking
   '1F6AD': ['no_smoking'],
-  // 🚯 no littering
-  '1F6AF': ['do_not_litter'],
-  // 🚱 non-potable water
-  '1F6B1': ['non_potable_water'],
-  // 🚷 no pedestrians
-  '1F6B7': ['no_pedestrians'],
-  // 📵 no mobile phones
-  '1F4F5': ['no_mobile_phones'],
   // 🔞 no one under eighteen
   '1F51E': ['underage'],
-  // ☢️ radioactive
-  '2622': ['radioactive'],
-  // ☣️ biohazard
-  '2623': ['biohazard'],
-  // ⬆️ up arrow
+  // ⬆︎ up arrow
   '2B06': ['arrow_up'],
-  // ↗️ up-right arrow
+  // ↗︎ up-right arrow
   '2197': ['arrow_upper_right'],
-  // ➡️ right arrow
+  // ➡︎ right arrow
   '27A1': ['arrow_right'],
-  // ↘️ down-right arrow
+  // ↘︎ down-right arrow
   '2198': ['arrow_lower_right'],
-  // ⬇️ down arrow
+  // ⬇︎ down arrow
   '2B07': ['arrow_down'],
-  // ↙️ down-left arrow
+  // ↙︎ down-left arrow
   '2199': ['arrow_lower_left'],
-  // ⬅️ left arrow
+  // ⬅︎ left arrow
   '2B05': ['arrow_left'],
-  // ↖️ up-left arrow
+  // ↖︎ up-left arrow
   '2196': ['arrow_upper_left'],
-  // ↕️ up-down arrow
+  // ↕︎ up-down arrow
   '2195': ['arrow_up_down'],
-  // ↔️ left-right arrow
+  // ↔︎ left-right arrow
   '2194': ['arrow_left_right'],
-  // ↩️ right arrow curving left
+  // ↩︎ right arrow curving left
   '21A9': ['arrow_left_hook'],
-  // ↪️ left arrow curving right
+  // ↪︎ left arrow curving right
   '21AA': ['arrow_right_hook'],
-  // ⤴️ right arrow curving up
+  // ⤴︎ right arrow curving up
   '2934': ['arrow_heading_up'],
-  // ⤵️ right arrow curving down
+  // ⤵︎ right arrow curving down
   '2935': ['arrow_heading_down'],
   // 🔃 clockwise vertical arrows
   '1F503': ['clockwise'],
-  // 🔄 counterclockwise arrows button
-  '1F504': ['counter_clockwise'],
   // 🔙 BACK arrow
   '1F519': ['back'],
   // 🔚 END arrow
@@ -1778,28 +1200,6 @@ export default {
   '1F51C': ['soon'],
   // 🔝 TOP arrow
   '1F51D': ['top'],
-  // 🛐 place of worship
-  '1F6D0': ['place_of_worship'],
-  // ⚛️ atom symbol
-  '269B': ['atom'],
-  // 🕉️ om
-  '1F549': ['om_symbol'],
-  // ✡️ star of David
-  '2721': ['star_of_david'],
-  // ☸️ wheel of dharma
-  '2638': ['wheel_of_dharma'],
-  // ☯️ yin yang
-  '262F': ['yin_yang'],
-  // ✝️ latin cross
-  '271D': ['cross'],
-  // ☦️ orthodox cross
-  '2626': ['orthodox_cross'],
-  // ☪️ star and crescent
-  '262A': ['star_and_crescent'],
-  // ☮️ peace symbol
-  '262E': ['peace'],
-  // 🕎 menorah
-  '1F54E': ['menorah'],
   // 🔯 dotted six-pointed star
   '1F52F': ['six_pointed_star'],
   // ♈️ Aries
@@ -1828,26 +1228,14 @@ export default {
   '2653': ['pisces'],
   // ⛎ Ophiuchus
   '26CE': ['ophiuchus'],
-  // 🔀 shuffle tracks button
-  '1F500': ['shuffle'],
-  // 🔁 repeat button
-  '1F501': ['repeat'],
-  // 🔂 repeat single button
-  '1F502': ['repeat_single'],
-  // ▶️ play button
+  // ▶︎ play button
   '25B6': ['play'],
   // ⏩️ fast-forward button
   '23E9': ['fast_forward'],
-  // ⏭️ next track button
-  '23ED': ['next_track'],
-  // ⏯️ play or pause button
-  '23EF': ['play_pause'],
-  // ◀️ reverse button
+  // ◀︎ reverse button
   '25C0': ['reverse'],
   // ⏪️ fast reverse button
   '23EA': ['rewind'],
-  // ⏮️ last track button
-  '23EE': ['previous_track'],
   // 🔼 upwards button
   '1F53C': ['up_button'],
   // ⏫ fast up button
@@ -1856,30 +1244,42 @@ export default {
   '1F53D': ['down_button'],
   // ⏬ fast down button
   '23EC': ['fast_down_button'],
-  // ⏸️ pause button
-  '23F8': ['pause'],
-  // ⏹️ stop button
-  '23F9': ['stop'],
-  // ⏺️ record button
-  '23FA': ['record'],
-  // ⏏️ eject button
-  '23CF': ['eject'],
   // 🎦 cinema
   '1F3A6': ['cinema'],
-  // 🔅 dim button
-  '1F505': ['dim', 'low_brightness'],
-  // 🔆 bright button
-  '1F506': ['bright', 'high_brightness'],
   // 📶 antenna bars
   '1F4F6': ['signal_strength', 'antenna_bars'],
   // 📳 vibration mode
   '1F4F3': ['vibration_mode'],
   // 📴 mobile phone off
   '1F4F4': ['mobile_phone_off'],
-  // ♻️ recycling symbol
+  // ✖︎ multiply
+  '2716': ['multiplication'],
+  // ➕ plus
+  '2795': ['plus'],
+  // ➖ minus
+  '2796': ['minus'],
+  // ➗ divide
+  '2797': ['division'],
+  // ‼︎ double exclamation mark
+  '203C': ['bangbang', 'double_exclamation'],
+  // ⁉︎ exclamation question mark
+  '2049': ['interrobang', 'exclamation_question'],
+  // ❓️ question mark
+  '2753': ['question'],
+  // ❔ white question mark
+  '2754': ['white_question'],
+  // ❕ white exclamation mark
+  '2755': ['white_exclamation'],
+  // ❗️ exclamation mark
+  '2757': ['exclamation'],
+  // 〰︎ wavy dash
+  '3030': ['wavy_dash'],
+  // 💱 currency exchange
+  '1F4B1': ['currency_exchange'],
+  // 💲 heavy dollar sign
+  '1F4B2': ['dollar_sign'],
+  // ♻︎ recycling symbol
   '267B': ['recycle'],
-  // ⚜️ fleur-de-lis
-  '269C': ['fleur-de-lis'],
   // 🔱 trident emblem
   '1F531': ['trident'],
   // 📛 name badge
@@ -1890,54 +1290,52 @@ export default {
   '2B55': ['o'],
   // ✅ check mark button
   '2705': ['white_check_mark'],
-  // ☑️ check box with check
+  // ☑︎ check box with check
   '2611': ['checked_ballot'],
-  // ✔️ check mark
+  // ✔︎ check mark
   '2714': ['check_mark'],
-  // ✖️ multiplication sign
-  '2716': ['multiplication'],
   // ❌ cross mark
   '274C': ['x', 'cross_mark'],
   // ❎ cross mark button
   '274E': ['cross_mark_button'],
-  // ➕ plus sign
-  '2795': ['plus'],
-  // ➖ minus sign
-  '2796': ['minus'],
-  // ➗ division sign
-  '2797': ['division'],
   // ➰ curly loop
   '27B0': ['curly_loop'],
-  // ➿ double curly loop
-  '27BF': ['double_curly_loop'],
-  // 〽️ part alternation mark
+  // 〽︎ part alternation mark
   '303D': ['part_alternation_mark'],
-  // ✳️ eight-spoked asterisk
+  // ✳︎ eight-spoked asterisk
   '2733': ['eight_spoked_asterisk'],
-  // ✴️ eight-pointed star
+  // ✴︎ eight-pointed star
   '2734': ['eight_pointed_star'],
-  // ❇️ sparkle
+  // ❇︎ sparkle
   '2747': ['sparkle'],
-  // ‼️ double exclamation mark
-  '203C': ['bangbang', 'double_exclamation'],
-  // ⁉️ exclamation question mark
-  '2049': ['interrobang', 'exclamation_question'],
-  // ❓️ question mark
-  '2753': ['question'],
-  // ❔ white question mark
-  '2754': ['white_question'],
-  // ❕ white exclamation mark
-  '2755': ['white_exclamation'],
-  // ❗️ exclamation mark
-  '2757': ['exclamation'],
-  // 〰️ wavy dash
-  '3030': ['wavy_dash'],
-  // ©️ copyright
+  // ©︎ copyright
   '00A9': ['copyright'],
-  // ®️ registered
+  // ®︎ registered
   '00AE': ['registered'],
-  // ™️ trade mark
+  // ™︎ trade mark
   '2122': ['tm'],
+  // #️⃣ keycap: #
+  '0023-FE0F-20E3': ['hash'],
+  // 0️⃣ keycap: 0
+  '0030-FE0F-20E3': ['zero'],
+  // 1️⃣ keycap: 1
+  '0031-FE0F-20E3': ['one'],
+  // 2️⃣ keycap: 2
+  '0032-FE0F-20E3': ['two'],
+  // 3️⃣ keycap: 3
+  '0033-FE0F-20E3': ['three'],
+  // 4️⃣ keycap: 4
+  '0034-FE0F-20E3': ['four'],
+  // 5️⃣ keycap: 5
+  '0035-FE0F-20E3': ['five'],
+  // 6️⃣ keycap: 6
+  '0036-FE0F-20E3': ['six'],
+  // 7️⃣ keycap: 7
+  '0037-FE0F-20E3': ['seven'],
+  // 8️⃣ keycap: 8
+  '0038-FE0F-20E3': ['eight'],
+  // 9️⃣ keycap: 9
+  '0039-FE0F-20E3': ['nine'],
   // 🔟 keycap: 10
   '1F51F': ['ten'],
   // 🔠 input latin uppercase
@@ -1950,11 +1348,11 @@ export default {
   '1F523': ['symbols'],
   // 🔤 input latin letters
   '1F524': ['abc'],
-  // 🅰️ A button (blood type)
+  // 🅰︎ A button (blood type)
   '1F170': ['a_blood'],
   // 🆎 AB button (blood type)
   '1F18E': ['ab_blood'],
-  // 🅱️ B button (blood type)
+  // 🅱︎ B button (blood type)
   '1F171': ['b_blood'],
   // 🆑 CL button
   '1F191': ['cl'],
@@ -1962,21 +1360,21 @@ export default {
   '1F192': ['cool'],
   // 🆓 FREE button
   '1F193': ['free'],
-  // ℹ️ information
+  // ℹ︎ information
   '2139': ['info'],
   // 🆔 ID button
   '1F194': ['id'],
-  // Ⓜ️ circled M
+  // Ⓜ︎ circled M
   '24C2': ['m'],
   // 🆕 NEW button
   '1F195': ['new'],
   // 🆖 NG button
   '1F196': ['ng'],
-  // 🅾️ O button (blood type)
+  // 🅾︎ O button (blood type)
   '1F17E': ['o_blood'],
   // 🆗 OK button
   '1F197': ['ok'],
-  // 🅿️ P button
+  // 🅿︎ P button
   '1F17F': ['p'],
   // 🆘 SOS button
   '1F198': ['sos'],
@@ -1986,9 +1384,9 @@ export default {
   '1F19A': ['vs'],
   // 🈁 Japanese “here” button
   '1F201': ['ja_here', 'koko'],
-  // 🈂️ Japanese “service charge” button
+  // 🈂︎ Japanese “service charge” button
   '1F202': ['ja_service_charge'],
-  // 🈷️ Japanese “monthly amount” button
+  // 🈷︎ Japanese “monthly amount” button
   '1F237': ['ja_monthly_amount'],
   // 🈶 Japanese “not free of charge” button
   '1F236': ['ja_not_free_of_carge'],
@@ -2010,9 +1408,9 @@ export default {
   '1F234': ['ja_passing_grade'],
   // 🈳 Japanese “vacancy” button
   '1F233': ['ja_vacancy'],
-  // ㊗️ Japanese “congratulations” button
+  // ㊗︎ Japanese “congratulations” button
   '3297': ['ja_congratulations'],
-  // ㊙️ Japanese “secret” button
+  // ㊙︎ Japanese “secret” button
   '3299': ['ja_secret'],
   // 🈺 Japanese “open for business” button
   '1F23A': ['ja_open_for_business'],
@@ -2030,17 +1428,17 @@ export default {
   '2B1B': ['large_black_square'],
   // ⬜️ white large square
   '2B1C': ['large_white_square'],
-  // ◼️ black medium square
+  // ◼︎ black medium square
   '25FC': ['medium_black_square'],
-  // ◻️ white medium square
+  // ◻︎ white medium square
   '25FB': ['medium_white_square'],
   // ◾️ black medium-small square
   '25FE': ['medium_small_black_square'],
   // ◽️ white medium-small square
   '25FD': ['medium_small_white_square'],
-  // ▪️ black small square
+  // ▪︎ black small square
   '25AA': ['small_black_square'],
-  // ▫️ white small square
+  // ▫︎ white small square
   '25AB': ['small_white_square'],
   // 🔶 large orange diamond
   '1F536': ['large_orange_diamond'],
@@ -2068,10 +1466,708 @@ export default {
   '1F6A9': ['triangle_flag'],
   // 🎌 crossed flags
   '1F38C': ['crossed_flags'],
+  // 🇨🇳 flag: China
+  '1F1E8-1F1F3': ['flag_cn'],
+  // 🇩🇪 flag: Germany
+  '1F1E9-1F1EA': ['flag_de'],
+  // 🇪🇸 flag: Spain
+  '1F1EA-1F1F8': ['flag_es'],
+  // 🇫🇷 flag: France
+  '1F1EB-1F1F7': ['flag_fr'],
+  // 🇬🇧 flag: United Kingdom
+  '1F1EC-1F1E7': ['flag_gb'],
+  // 🇮🇹 flag: Italy
+  '1F1EE-1F1F9': ['flag_it'],
+  // 🇯🇵 flag: Japan
+  '1F1EF-1F1F5': ['flag_jp'],
+  // 🇰🇷 flag: South Korea
+  '1F1F0-1F1F7': ['flag_kr'],
+  // 🇷🇺 flag: Russia
+  '1F1F7-1F1FA': ['flag_ru'],
+  // 🇺🇸 flag: United States
+  '1F1FA-1F1F8': ['flag_us', 'usa'],
+
+  // VERSION 0.7
+  // 😐️ neutral face
+  '1F610': ['indifferent', 'neutral'],
+  // ☹︎ frowning face
+  '2639': ['sad', 'frowning'],
+  // 🕳︎ hole
+  '1F573': ['hole'],
+  // 🗯︎ right anger bubble
+  '1F5EF': ['right_anger_speech'],
+  // 🖐︎ hand with fingers splayed
+  '1F590': ['splayed_hand'],
+  // ✍︎ writing hand
+  '270D': ['writing_hand'],
+  // 👁︎ eye
+  '1F441': ['eye'],
+  // 🕵︎ detective
+  '1F575': ['detective'],
+  // 🕴︎ person in suit levitating
+  '1F574': ['levitate'],
+  // ⛷︎ skier
+  '26F7': ['skier'],
+  // 🏌︎ person golfing
+  '1F3CC': ['person_golfing'],
+  // ⛹︎ person bouncing ball
+  '26F9': ['person_bouncing_ball'],
+  // 🏋︎ person lifting weights
+  '1F3CB': ['person_lifting_weights'],
+  // 🗣︎ speaking head
+  '1F5E3': ['speaking_head'],
+  // 🐕️ dog
+  '1F415': ['dog'],
+  // 🐈️ cat
+  '1F408': ['cat'],
+  // 🐿︎ chipmunk
+  '1F43F': ['chipmunk'],
+  // 🕊︎ dove
+  '1F54A': ['dove'],
+  // 🕷︎ spider
+  '1F577': ['spider'],
+  // 🕸︎ spider web
+  '1F578': ['spider_web'],
+  // 🏵︎ rosette
+  '1F3F5': ['rosette'],
+  // 🌶︎ hot pepper
+  '1F336': ['hot_pepper'],
+  // 🍽︎ fork and knife with plate
+  '1F37D': ['fork_knife_plate'],
+  // 🌍️ globe showing Europe-Africa
+  '1F30D': ['earth_africa'],
+  // 🌎️ globe showing Americas
+  '1F30E': ['earth_americas'],
+  // 🗺︎ world map
+  '1F5FA': ['map'],
+  // 🏔︎ snow-capped mountain
+  '1F3D4': ['snowy_mountain'],
+  // ⛰︎ mountain
+  '26F0': ['mountain'],
+  // 🏕︎ camping
+  '1F3D5': ['camping'],
+  // 🏖︎ beach with umbrella
+  '1F3D6': ['beach'],
+  // 🏜︎ desert
+  '1F3DC': ['desert'],
+  // 🏝︎ desert island
+  '1F3DD': ['island'],
+  // 🏞︎ national park
+  '1F3DE': ['park'],
+  // 🏟︎ stadium
+  '1F3DF': ['stadium'],
+  // 🏛︎ classical building
+  '1F3DB': ['classical_building'],
+  // 🏗︎ building construction
+  '1F3D7': ['construction_site'],
+  // 🏘︎ houses
+  '1F3D8': ['homes'],
+  // 🏚︎ derelict house
+  '1F3DA': ['house_abandoned'],
+  // ⛩︎ shinto shrine
+  '26E9': ['shinto_shrine'],
+  // 🏙︎ cityscape
+  '1F3D9': ['cityscape'],
+  // 🚍️ oncoming bus
+  '1F68D': ['oncoming_bus'],
+  // 🚔️ oncoming police car
+  '1F694': ['oncoming_police_car'],
+  // 🚘️ oncoming automobile
+  '1F698': ['oncoming_automobile'],
+  // 🏎︎ racing car
+  '1F3CE': ['race_car'],
+  // 🏍︎ motorcycle
+  '1F3CD': ['motorcycle'],
+  // 🛣︎ motorway
+  '1F6E3': ['motorway'],
+  // 🛤︎ railway track
+  '1F6E4': ['railway_track'],
+  // 🛢︎ oil drum
+  '1F6E2': ['oil_drum'],
+  // 🛳︎ passenger ship
+  '1F6F3': ['cruise_ship'],
+  // ⛴︎ ferry
+  '26F4': ['ferry'],
+  // 🛥︎ motor boat
+  '1F6E5': ['motorboat'],
+  // 🛩︎ small airplane
+  '1F6E9': ['small_airplane'],
+  // 🛰︎ satellite
+  '1F6F0': ['satellite'],
+  // 🛎︎ bellhop bell
+  '1F6CE': ['bellhop'],
+  // 🕰︎ mantelpiece clock
+  '1F570': ['clock'],
+  // 🕧️ twelve-thirty
+  '1F567': ['clock1230'],
+  // 🕜️ one-thirty
+  '1F55C': ['clock130'],
+  // 🕝️ two-thirty
+  '1F55D': ['clock230'],
+  // 🕞️ three-thirty
+  '1F55E': ['clock330'],
+  // 🕟️ four-thirty
+  '1F55F': ['clock430'],
+  // 🕠️ five-thirty
+  '1F560': ['clock530'],
+  // 🕡️ six-thirty
+  '1F561': ['clock630'],
+  // 🕢️ seven-thirty
+  '1F562': ['clock730'],
+  // 🕣️ eight-thirty
+  '1F563': ['clock830'],
+  // 🕤️ nine-thirty
+  '1F564': ['clock930'],
+  // 🕥️ ten-thirty
+  '1F565': ['clock1030'],
+  // 🕦️ eleven-thirty
+  '1F566': ['clock1130'],
+  // 🌜️ last quarter moon face
+  '1F31C': ['last_quarter_moon_face'],
+  // 🌡︎ thermometer
+  '1F321': ['thermometer'],
+  // ⛈︎ cloud with lightning and rain
+  '26C8': ['storm'],
+  // 🌤︎ sun behind small cloud
+  '1F324': ['overcast'],
+  // 🌥︎ sun behind large cloud
+  '1F325': ['cloudy'],
+  // 🌦︎ sun behind rain cloud
+  '1F326': ['sunshower'],
+  // 🌧︎ cloud with rain
+  '1F327': ['rain'],
+  // 🌨︎ cloud with snow
+  '1F328': ['snow'],
+  // 🌩︎ cloud with lightning
+  '1F329': ['lightning'],
+  // 🌪︎ tornado
+  '1F32A': ['tornado'],
+  // 🌫︎ fog
+  '1F32B': ['fog'],
+  // 🌬︎ wind face
+  '1F32C': ['wind_face'],
+  // ☂︎ umbrella
+  '2602': ['umbrella'],
+  // ⛱︎ umbrella on ground
+  '26F1': ['beach_umbrella'],
+  // ☃︎ snowman
+  '2603': ['snowy_snowman'],
+  // 🎗︎ reminder ribbon
+  '1F397': ['reminder_ribbon'],
+  // 🎟︎ admission tickets
+  '1F39F': ['tickets', 'admission'],
+  // 🎖︎ military medal
+  '1F396': ['military_medal'],
+  // ⛸︎ ice skate
+  '26F8': ['ice_skate'],
+  // 🕹︎ joystick
+  '1F579': ['joystick'],
+  // 🖼︎ framed picture
+  '1F5BC': ['frame_photo'],
+  // 🕶︎ sunglasses
+  '1F576': ['sunglasses'],
+  // 🛍︎ shopping bags
+  '1F6CD': ['shopping_bags'],
+  // ⛑︎ rescue worker’s helmet
+  '26D1': ['helmet_cross'],
+  // 🔈️ speaker low volume
+  '1F508': ['speaker', 'low_sound'],
+  // 🎙︎ studio microphone
+  '1F399': ['studio_microphone'],
+  // 🎚︎ level slider
+  '1F39A': ['level_slider'],
+  // 🎛︎ control knobs
+  '1F39B': ['control_knobs'],
+  // 🖥︎ desktop computer
+  '1F5A5': ['desktop', 'computer'],
+  // 🖨︎ printer
+  '1F5A8': ['printer'],
+  // 🖱︎ computer mouse
+  '1F5B1': ['computer_mouse'],
+  // 🖲︎ trackball
+  '1F5B2': ['trackball'],
+  // 🎞︎ film frames
+  '1F39E': ['film_frames'],
+  // 📽︎ film projector
+  '1F4FD': ['projector'],
+  // 🕯︎ candle
+  '1F56F': ['candle'],
+  // 🗞︎ rolled-up newspaper
+  '1F5DE': ['rolled_newspaper'],
+  // 🏷︎ label
+  '1F3F7': ['label'],
+  // 📬️ open mailbox with raised flag
+  '1F4EC': ['mailbox_mail'],
+  // 📭️ open mailbox with lowered flag
+  '1F4ED': ['mailbox_no_mail'],
+  // 🗳︎ ballot box with ballot
+  '1F5F3': ['ballot_box'],
+  // 🖋︎ fountain pen
+  '1F58B': ['fountain_pen'],
+  // 🖊︎ pen
+  '1F58A': ['pen'],
+  // 🖌︎ paintbrush
+  '1F58C': ['paintbrush'],
+  // 🖍︎ crayon
+  '1F58D': ['crayon'],
+  // 🗂︎ card index dividers
+  '1F5C2': ['dividers'],
+  // 🗒︎ spiral notepad
+  '1F5D2': ['notepad_spiral'],
+  // 🗓︎ spiral calendar
+  '1F5D3': ['calendar_spiral'],
+  // 🖇︎ linked paperclips
+  '1F587': ['paperclips'],
+  // 🗃︎ card file box
+  '1F5C3': ['card_box'],
+  // 🗄︎ file cabinet
+  '1F5C4': ['file_cabinet'],
+  // 🗑︎ wastebasket
+  '1F5D1': ['trashcan', 'wastebasket'],
+  // 🗝︎ old key
+  '1F5DD': ['old_key'],
+  // ⛏︎ pick
+  '26CF': ['pick'],
+  // 🛠︎ hammer and wrench
+  '1F6E0': ['tools', 'hammer_wrench'],
+  // 🗡︎ dagger
+  '1F5E1': ['dagger'],
+  // 🛡︎ shield
+  '1F6E1': ['shield'],
+  // 🗜︎ clamp
+  '1F5DC': ['clamp', 'compression'],
+  // ⛓︎ chains
+  '26D3': ['chains'],
+  // 🛏︎ bed
+  '1F6CF': ['bed'],
+  // 🛋︎ couch and lamp
+  '1F6CB': ['couch'],
+  // 🕉︎ om
+  '1F549': ['om_symbol'],
+  // ✡︎ star of David
+  '2721': ['star_of_david'],
+  // ☸︎ wheel of dharma
+  '2638': ['wheel_of_dharma'],
+  // ☯︎ yin yang
+  '262F': ['yin_yang'],
+  // ✝︎ latin cross
+  '271D': ['cross'],
+  // ☪︎ star and crescent
+  '262A': ['star_and_crescent'],
+  // ⏭︎ next track button
+  '23ED': ['next_track'],
+  // ⏮︎ last track button
+  '23EE': ['previous_track'],
+  // ⏸︎ pause button
+  '23F8': ['pause'],
+  // ⏹︎ stop button
+  '23F9': ['stop'],
+  // ⏺︎ record button
+  '23FA': ['record'],
+  // 🏳︎ white flag
+  '1F3F3': ['white_flag'],
+
+  // VERSION 1
+  // 😀 grinning face
+  '1F600': ['gleeful'],
+  // 🙂 slightly smiling face
+  '1F642': ['pleased', 'slight_smile'],
+  // 🙃 upside-down face
+  '1F643': ['ecstatic', 'upside_down'],
+  // 😇 smiling face with halo
+  '1F607': ['innocent', 'halo'],
+  // 😗 kissing face
+  '1F617': ['kiss'],
+  // 😙 kissing face with smiling eyes
+  '1F619': ['happy_kiss'],
+  // 😛 face with tongue
+  '1F61B': ['playful', 'tongue_out'],
+  // 🤑 money-mouth face
+  '1F911': ['pretentious', 'money_mouth'],
+  // 🤗 hugging face
+  '1F917': ['hugging'],
+  // 🤔 thinking face
+  '1F914': ['curious', 'thinking'],
+  // 🤐 zipper-mouth face
+  '1F910': ['silenced', 'zipper_mouth'],
+  // 😑 expressionless face
+  '1F611': ['apathetic', 'expressionless'],
+  // 😶 face without mouth
+  '1F636': ['vacant', 'no_mouth'],
+  // 🙄 face with rolling eyes
+  '1F644': ['disbelief'],
+  // 😬 grimacing face
+  '1F62C': ['grimaced'],
+  // 😴 sleeping face
+  '1F634': ['exhausted', 'sleeping'],
+  // 🤒 face with thermometer
+  '1F912': ['sick'],
+  // 🤕 face with head-bandage
+  '1F915': ['injured'],
+  // 😎 smiling face with sunglasses
+  '1F60E': ['confident'],
+  // 🤓 nerd face
+  '1F913': ['nerd'],
+  // 😕 confused face
+  '1F615': ['confused'],
+  // 😟 worried face
+  '1F61F': ['worried'],
+  // 🙁 slightly frowning face
+  '1F641': ['cheerless', 'slight_frown'],
+  // 😮 face with open mouth
+  '1F62E': ['surprised'],
+  // 😯 hushed face
+  '1F62F': ['hushed'],
+  // 😦 frowning face with open mouth
+  '1F626': ['bored'],
+  // 😧 anguished face
+  '1F627': ['anguished', 'wtf'],
+  // 😈 smiling face with horns
+  '1F608': ['imp'],
+  // ☠︎ skull and crossbones
+  '2620': ['crossbones'],
+  // 🤖 robot
+  '1F916': ['robot'],
+  // ❣︎ heart exclamation
+  '2763': ['heart_exclamation'],
+  // 💭 thought balloon
+  '1F4AD': ['thought'],
+  // 🖖 vulcan salute
+  '1F596': ['vulcan'],
+  // 🤘 sign of the horns
+  '1F918': ['metal'],
+  // 🖕 middle finger
+  '1F595': ['middle_finger'],
+  // 🏇 horse racing
+  '1F3C7': ['horse_racing'],
+  // 🚣 person rowing boat
+  '1F6A3': ['person_rowing_boat'],
+  // 🚴 person biking
+  '1F6B4': ['person_biking'],
+  // 🚵 person mountain biking
+  '1F6B5': ['person_mountain_biking'],
+  // 🛌 person in bed
+  '1F6CC': ['in_bed'],
+  // 👭 women holding hands
+  '1F46D': ['holding_hands_ww'],
+  // 👬 men holding hands
+  '1F46C': ['holding_hands_mm'],
+  // 👥 busts in silhouette
+  '1F465': ['busts_silhouette'],
+  // 🏻 light skin tone
+  '1F3FB': ['tone_light', 'tone1'],
+  // 🏼 medium-light skin tone
+  '1F3FC': ['tone_medium_light', 'tone2'],
+  // 🏽 medium skin tone
+  '1F3FD': ['tone_medium', 'tone3'],
+  // 🏾 medium-dark skin tone
+  '1F3FE': ['tone_medium_dark', 'tone4'],
+  // 🏿 dark skin tone
+  '1F3FF': ['tone_dark', 'tone5'],
+  // 🦁 lion
+  '1F981': ['lion_face'],
+  // 🐅 tiger
+  '1F405': ['tiger'],
+  // 🐆 leopard
+  '1F406': ['leopard'],
+  // 🦄 unicorn
+  '1F984': ['unicorn_face'],
+  // 🐂 ox
+  '1F402': ['ox'],
+  // 🐃 water buffalo
+  '1F403': ['water_buffalo'],
+  // 🐄 cow
+  '1F404': ['cow'],
+  // 🐖 pig
+  '1F416': ['pig'],
+  // 🐏 ram
+  '1F40F': ['ram'],
+  // 🐐 goat
+  '1F410': ['goat'],
+  // 🐪 camel
+  '1F42A': ['camel'],
+  // 🐁 mouse
+  '1F401': ['mouse'],
+  // 🐀 rat
+  '1F400': ['rat'],
+  // 🐇 rabbit
+  '1F407': ['rabbit'],
+  // 🦃 turkey
+  '1F983': ['turkey'],
+  // 🐓 rooster
+  '1F413': ['rooster'],
+  // 🐊 crocodile
+  '1F40A': ['crocodile'],
+  // 🐉 dragon
+  '1F409': ['dragon'],
+  // 🐋 whale
+  '1F40B': ['whale'],
+  // 🦂 scorpion
+  '1F982': ['scorpion'],
+  // 🌲 evergreen tree
+  '1F332': ['evergreen_tree'],
+  // 🌳 deciduous tree
+  '1F333': ['deciduous_tree'],
+  // ☘︎ shamrock
+  '2618': ['shamrock'],
+  // 🍋 lemon
+  '1F34B': ['lemon'],
+  // 🍐 pear
+  '1F350': ['pear'],
+  // 🧀 cheese wedge
+  '1F9C0': ['cheese'],
+  // 🌭 hot dog
+  '1F32D': ['hotdog'],
+  // 🌮 taco
+  '1F32E': ['taco'],
+  // 🌯 burrito
+  '1F32F': ['burrito'],
+  // 🍿 popcorn
+  '1F37F': ['popcorn'],
+  // 🦀 crab
+  '1F980': ['crab'],
+  // 🍼 baby bottle
+  '1F37C': ['baby_bottle'],
+  // 🍾 bottle with popping cork
+  '1F37E': ['champagne'],
+  // 🏺 amphora
+  '1F3FA': ['amphora'],
+  // 🌐 globe with meridians
+  '1F310': ['globe'],
+  // 🏤 post office
+  '1F3E4': ['post_office'],
+  // 🕌 mosque
+  '1F54C': ['mosque'],
+  // 🕍 synagogue
+  '1F54D': ['synagogue'],
+  // 🕋 kaaba
+  '1F54B': ['kaaba'],
+  // 🚂 locomotive
+  '1F682': ['steam_locomotive'],
+  // 🚆 train
+  '1F686': ['train'],
+  // 🚈 light rail
+  '1F688': ['light_rail'],
+  // 🚊 tram
+  '1F68A': ['tram'],
+  // 🚝 monorail
+  '1F69D': ['monorail'],
+  // 🚞 mountain railway
+  '1F69E': ['mountain_railway'],
+  // 🚋 tram car
+  '1F68B': ['tram_car'],
+  // 🚎 trolleybus
+  '1F68E': ['trolleybus'],
+  // 🚐 minibus
+  '1F690': ['minibus'],
+  // 🚖 oncoming taxi
+  '1F696': ['oncoming_taxi'],
+  // 🚛 articulated lorry
+  '1F69B': ['lorry'],
+  // 🚜 tractor
+  '1F69C': ['tractor'],
+  // 🚦 vertical traffic light
+  '1F6A6': ['vertical_traffic_light'],
+  // 🛫 airplane departure
+  '1F6EB': ['airplane_departure'],
+  // 🛬 airplane arrival
+  '1F6EC': ['airplane_arriving'],
+  // 🚁 helicopter
+  '1F681': ['helicopter'],
+  // 🚟 suspension railway
+  '1F69F': ['suspension_railway'],
+  // 🚠 mountain cableway
+  '1F6A0': ['mountain_cableway'],
+  // 🚡 aerial tramway
+  '1F6A1': ['aerial_tramway'],
+  // ⏱︎ stopwatch
+  '23F1': ['stopwatch'],
+  // ⏲︎ timer clock
+  '23F2': ['timer'],
+  // 🌒 waxing crescent moon
+  '1F312': ['waxing_crescent_moon'],
+  // 🌖 waning gibbous moon
+  '1F316': ['waning_gibbous_moon'],
+  // 🌗 last quarter moon
+  '1F317': ['last_quarter_moon'],
+  // 🌘 waning crescent moon
+  '1F318': ['waning_crescent_moon'],
+  // 🌚 new moon face
+  '1F31A': ['new_moon_face'],
+  // 🌝 full moon face
+  '1F31D': ['full_moon_face'],
+  // 🌞 sun with face
+  '1F31E': ['sun_face'],
+  // ☄︎ comet
+  '2604': ['comet'],
+  // 🏅 sports medal
+  '1F3C5': ['medal'],
+  // 🏐 volleyball
+  '1F3D0': ['volleyball'],
+  // 🏉 rugby football
+  '1F3C9': ['rugby'],
+  // 🏏 cricket game
+  '1F3CF': ['cricket_game'],
+  // 🏑 field hockey
+  '1F3D1': ['field_hockey'],
+  // 🏒 ice hockey
+  '1F3D2': ['hockey'],
+  // 🏓 ping pong
+  '1F3D3': ['ping_pong'],
+  // 🏸 badminton
+  '1F3F8': ['badminton'],
+  // 📿 prayer beads
+  '1F4FF': ['prayer_beads'],
+  // 🔇 muted speaker
+  '1F507': ['mute', 'no_sound'],
+  // 🔉 speaker medium volume
+  '1F509': ['sound'],
+  // 📯 postal horn
+  '1F4EF': ['postal_horn'],
+  // 🔕 bell with slash
+  '1F515': ['no_bell'],
+  // ⌨︎ keyboard
+  '2328': ['keyboard'],
+  // 📸 camera with flash
+  '1F4F8': ['camera_flash'],
+  // 💶 euro banknote
+  '1F4B6': ['euro'],
+  // 💷 pound banknote
+  '1F4B7': ['pound'],
+  // ⚒︎ hammer and pick
+  '2692': ['hammer_pick'],
+  // ⚔︎ crossed swords
+  '2694': ['crossed_swords'],
+  // 🏹 bow and arrow
+  '1F3F9': ['bow'],
+  // ⚙︎ gear
+  '2699': ['gear'],
+  // ⚖︎ balance scale
+  '2696': ['scales'],
+  // ⚗︎ alembic
+  '2697': ['alembic'],
+  // 🔬 microscope
+  '1F52C': ['microscope'],
+  // 🔭 telescope
+  '1F52D': ['telescope'],
+  // 🚿 shower
+  '1F6BF': ['shower'],
+  // 🛁 bathtub
+  '1F6C1': ['bathtub'],
+  // ⚰︎ coffin
+  '26B0': ['coffin'],
+  // ⚱︎ funeral urn
+  '26B1': ['urn'],
+  // 🚮 litter in bin sign
+  '1F6AE': ['litter_bin'],
+  // 🚰 potable water
+  '1F6B0': ['potable_water'],
+  // 🛂 passport control
+  '1F6C2': ['passport_control'],
+  // 🛃 customs
+  '1F6C3': ['customs'],
+  // 🛄 baggage claim
+  '1F6C4': ['baggage_claim'],
+  // 🛅 left luggage
+  '1F6C5': ['left_luggage'],
+  // 🚸 children crossing
+  '1F6B8': ['children_crossing'],
+  // 🚳 no bicycles
+  '1F6B3': ['no_bicycles'],
+  // 🚯 no littering
+  '1F6AF': ['do_not_litter'],
+  // 🚱 non-potable water
+  '1F6B1': ['non_potable_water'],
+  // 🚷 no pedestrians
+  '1F6B7': ['no_pedestrians'],
+  // 📵 no mobile phones
+  '1F4F5': ['no_mobile_phones'],
+  // ☢︎ radioactive
+  '2622': ['radioactive'],
+  // ☣︎ biohazard
+  '2623': ['biohazard'],
+  // 🔄 counterclockwise arrows button
+  '1F504': ['counter_clockwise'],
+  // 🛐 place of worship
+  '1F6D0': ['place_of_worship'],
+  // ⚛︎ atom symbol
+  '269B': ['atom'],
+  // ☦︎ orthodox cross
+  '2626': ['orthodox_cross'],
+  // ☮︎ peace symbol
+  '262E': ['peace'],
+  // 🕎 menorah
+  '1F54E': ['menorah'],
+  // 🔀 shuffle tracks button
+  '1F500': ['shuffle'],
+  // 🔁 repeat button
+  '1F501': ['repeat'],
+  // 🔂 repeat single button
+  '1F502': ['repeat_single'],
+  // ⏯︎ play or pause button
+  '23EF': ['play_pause'],
+  // ⏏︎ eject button
+  '23CF': ['eject'],
+  // 🔅 dim button
+  '1F505': ['dim', 'low_brightness'],
+  // 🔆 bright button
+  '1F506': ['bright', 'high_brightness'],
+  // ⚜︎ fleur-de-lis
+  '269C': ['fleur-de-lis'],
+  // ➿ double curly loop
+  '27BF': ['double_curly_loop'],
   // 🏴 black flag
   '1F3F4': ['black_flag'],
-  // 🏳️ white flag
-  '1F3F3': ['white_flag'],
+
+  // VERSION 2
+  // 👁️‍🗨️ eye in speech bubble
+  '1F441-FE0F-200D-1F5E8-FE0F': ['eye_bubble'],
+  // 🗨︎ left speech bubble
+  '1F5E8': ['left_speech'],
+  // 👩‍❤️‍💋‍👨 kiss: woman, man
+  '1F469-200D-2764-FE0F-200D-1F48B-200D-1F468': ['kiss_mw', 'kiss_wm'],
+  // 👨‍❤️‍💋‍👨 kiss: man, man
+  '1F468-200D-2764-FE0F-200D-1F48B-200D-1F468': ['kiss_mm'],
+  // 👩‍❤️‍💋‍👩 kiss: woman, woman
+  '1F469-200D-2764-FE0F-200D-1F48B-200D-1F469': ['kiss_ww'],
+  // 👩‍❤️‍👨 couple with heart: woman, man
+  '1F469-200D-2764-FE0F-200D-1F468': ['couple_mw', 'couple_wm'],
+  // 👨‍❤️‍👨 couple with heart: man, man
+  '1F468-200D-2764-FE0F-200D-1F468': ['couple_mm'],
+  // 👩‍❤️‍👩 couple with heart: woman, woman
+  '1F469-200D-2764-FE0F-200D-1F469': ['couple_ww'],
+  // 👨‍👩‍👦 family: man, woman, boy
+  '1F468-200D-1F469-200D-1F466': ['family_mwb'],
+  // 👨‍👩‍👧 family: man, woman, girl
+  '1F468-200D-1F469-200D-1F467': ['family_mwg'],
+  // 👨‍👩‍👧‍👦 family: man, woman, girl, boy
+  '1F468-200D-1F469-200D-1F467-200D-1F466': ['family_mwgb'],
+  // 👨‍👩‍👦‍👦 family: man, woman, boy, boy
+  '1F468-200D-1F469-200D-1F466-200D-1F466': ['family_mwbb'],
+  // 👨‍👩‍👧‍👧 family: man, woman, girl, girl
+  '1F468-200D-1F469-200D-1F467-200D-1F467': ['family_mwgg'],
+  // 👨‍👨‍👦 family: man, man, boy
+  '1F468-200D-1F468-200D-1F466': ['family_mmb'],
+  // 👨‍👨‍👧 family: man, man, girl
+  '1F468-200D-1F468-200D-1F467': ['family_mmg'],
+  // 👨‍👨‍👧‍👦 family: man, man, girl, boy
+  '1F468-200D-1F468-200D-1F467-200D-1F466': ['family_mmgb'],
+  // 👨‍👨‍👦‍👦 family: man, man, boy, boy
+  '1F468-200D-1F468-200D-1F466-200D-1F466': ['family_mmbb'],
+  // 👨‍👨‍👧‍👧 family: man, man, girl, girl
+  '1F468-200D-1F468-200D-1F467-200D-1F467': ['family_mmgg'],
+  // 👩‍👩‍👦 family: woman, woman, boy
+  '1F469-200D-1F469-200D-1F466': ['family_wwb'],
+  // 👩‍👩‍👧 family: woman, woman, girl
+  '1F469-200D-1F469-200D-1F467': ['family_wwg'],
+  // 👩‍👩‍👧‍👦 family: woman, woman, girl, boy
+  '1F469-200D-1F469-200D-1F467-200D-1F466': ['family_wwgb'],
+  // 👩‍👩‍👦‍👦 family: woman, woman, boy, boy
+  '1F469-200D-1F469-200D-1F466-200D-1F466': ['family_wwbb'],
+  // 👩‍👩‍👧‍👧 family: woman, woman, girl, girl
+  '1F469-200D-1F469-200D-1F467-200D-1F467': ['family_wwgg'],
+  // *️⃣ keycap: *
+  '002A-FE0F-20E3': ['asterisk'],
   // 🇦🇨 flag: Ascension Island
   '1F1E6-1F1E8': ['flag_ac'],
   // 🇦🇩 flag: Andorra
@@ -2168,8 +2264,6 @@ export default {
   '1F1E8-1F1F1': ['flag_cl'],
   // 🇨🇲 flag: Cameroon
   '1F1E8-1F1F2': ['flag_cm'],
-  // 🇨🇳 flag: China
-  '1F1E8-1F1F3': ['flag_cn'],
   // 🇨🇴 flag: Colombia
   '1F1E8-1F1F4': ['flag_co'],
   // 🇨🇵 flag: Clipperton Island
@@ -2188,8 +2282,6 @@ export default {
   '1F1E8-1F1FE': ['flag_cy'],
   // 🇨🇿 flag: Czechia
   '1F1E8-1F1FF': ['flag_cz'],
-  // 🇩🇪 flag: Germany
-  '1F1E9-1F1EA': ['flag_de'],
   // 🇩🇬 flag: Diego Garcia
   '1F1E9-1F1EC': ['flag_dg'],
   // 🇩🇯 flag: Djibouti
@@ -2214,8 +2306,6 @@ export default {
   '1F1EA-1F1ED': ['flag_eh'],
   // 🇪🇷 flag: Eritrea
   '1F1EA-1F1F7': ['flag_er'],
-  // 🇪🇸 flag: Spain
-  '1F1EA-1F1F8': ['flag_es'],
   // 🇪🇹 flag: Ethiopia
   '1F1EA-1F1F9': ['flag_et'],
   // 🇪🇺 flag: European Union
@@ -2230,12 +2320,8 @@ export default {
   '1F1EB-1F1F2': ['flag_fm'],
   // 🇫🇴 flag: Faroe Islands
   '1F1EB-1F1F4': ['flag_fo'],
-  // 🇫🇷 flag: France
-  '1F1EB-1F1F7': ['flag_fr'],
   // 🇬🇦 flag: Gabon
   '1F1EC-1F1E6': ['flag_ga'],
-  // 🇬🇧 flag: United Kingdom
-  '1F1EC-1F1E7': ['flag_gb'],
   // 🇬🇩 flag: Grenada
   '1F1EC-1F1E9': ['flag_gd'],
   // 🇬🇪 flag: Georgia
@@ -2302,16 +2388,12 @@ export default {
   '1F1EE-1F1F7': ['flag_ir'],
   // 🇮🇸 flag: Iceland
   '1F1EE-1F1F8': ['flag_is'],
-  // 🇮🇹 flag: Italy
-  '1F1EE-1F1F9': ['flag_it'],
   // 🇯🇪 flag: Jersey
   '1F1EF-1F1EA': ['flag_je'],
   // 🇯🇲 flag: Jamaica
   '1F1EF-1F1F2': ['flag_jm'],
   // 🇯🇴 flag: Jordan
   '1F1EF-1F1F4': ['flag_jo'],
-  // 🇯🇵 flag: Japan
-  '1F1EF-1F1F5': ['flag_jp'],
   // 🇰🇪 flag: Kenya
   '1F1F0-1F1EA': ['flag_ke'],
   // 🇰🇬 flag: Kyrgyzstan
@@ -2326,8 +2408,6 @@ export default {
   '1F1F0-1F1F3': ['flag_kn'],
   // 🇰🇵 flag: North Korea
   '1F1F0-1F1F5': ['flag_kp'],
-  // 🇰🇷 flag: South Korea
-  '1F1F0-1F1F7': ['flag_kr'],
   // 🇰🇼 flag: Kuwait
   '1F1F0-1F1FC': ['flag_kw'],
   // 🇰🇾 flag: Cayman Islands
@@ -2464,8 +2544,6 @@ export default {
   '1F1F7-1F1F4': ['flag_ro'],
   // 🇷🇸 flag: Serbia
   '1F1F7-1F1F8': ['flag_rs'],
-  // 🇷🇺 flag: Russia
-  '1F1F7-1F1FA': ['flag_ru'],
   // 🇷🇼 flag: Rwanda
   '1F1F7-1F1FC': ['flag_rw'],
   // 🇸🇦 flag: Saudi Arabia
@@ -2550,8 +2628,6 @@ export default {
   '1F1FA-1F1EC': ['flag_ug'],
   // 🇺🇲 flag: U.S. Outlying Islands
   '1F1FA-1F1F2': ['flag_um'],
-  // 🇺🇸 flag: United States
-  '1F1FA-1F1F8': ['flag_us', 'usa'],
   // 🇺🇾 flag: Uruguay
   '1F1FA-1F1FE': ['flag_uy'],
   // 🇺🇿 flag: Uzbekistan
@@ -2586,52 +2662,6 @@ export default {
   '1F1FF-1F1F2': ['flag_zm'],
   // 🇿🇼 flag: Zimbabwe
   '1F1FF-1F1FC': ['flag_zw'],
-
-  // VERSION 2
-  // 🗨️ left speech bubble
-  '1F5E8': ['left_speech'],
-  // 👩‍❤️‍💋‍👨 kiss: woman, man
-  '1F469-200D-2764-FE0F-200D-1F48B-200D-1F468': ['kiss_mw', 'kiss_wm'],
-  // 👨‍❤️‍💋‍👨 kiss: man, man
-  '1F468-200D-2764-FE0F-200D-1F48B-200D-1F468': ['kiss_mm'],
-  // 👩‍❤️‍💋‍👩 kiss: woman, woman
-  '1F469-200D-2764-FE0F-200D-1F48B-200D-1F469': ['kiss_ww'],
-  // 👩‍❤️‍👨 couple with heart: woman, man
-  '1F469-200D-2764-FE0F-200D-1F468': ['couple_mw', 'couple_wm'],
-  // 👨‍❤️‍👨 couple with heart: man, man
-  '1F468-200D-2764-FE0F-200D-1F468': ['couple_mm'],
-  // 👩‍❤️‍👩 couple with heart: woman, woman
-  '1F469-200D-2764-FE0F-200D-1F469': ['couple_ww'],
-  // 👨‍👩‍👦 family: man, woman, boy
-  '1F468-200D-1F469-200D-1F466': ['family_mwb'],
-  // 👨‍👩‍👧 family: man, woman, girl
-  '1F468-200D-1F469-200D-1F467': ['family_mwg'],
-  // 👨‍👩‍👧‍👦 family: man, woman, girl, boy
-  '1F468-200D-1F469-200D-1F467-200D-1F466': ['family_mwgb'],
-  // 👨‍👩‍👦‍👦 family: man, woman, boy, boy
-  '1F468-200D-1F469-200D-1F466-200D-1F466': ['family_mwbb'],
-  // 👨‍👩‍👧‍👧 family: man, woman, girl, girl
-  '1F468-200D-1F469-200D-1F467-200D-1F467': ['family_mwgg'],
-  // 👨‍👨‍👦 family: man, man, boy
-  '1F468-200D-1F468-200D-1F466': ['family_mmb'],
-  // 👨‍👨‍👧 family: man, man, girl
-  '1F468-200D-1F468-200D-1F467': ['family_mmg'],
-  // 👨‍👨‍👧‍👦 family: man, man, girl, boy
-  '1F468-200D-1F468-200D-1F467-200D-1F466': ['family_mmgb'],
-  // 👨‍👨‍👦‍👦 family: man, man, boy, boy
-  '1F468-200D-1F468-200D-1F466-200D-1F466': ['family_mmbb'],
-  // 👨‍👨‍👧‍👧 family: man, man, girl, girl
-  '1F468-200D-1F468-200D-1F467-200D-1F467': ['family_mmgg'],
-  // 👩‍👩‍👦 family: woman, woman, boy
-  '1F469-200D-1F469-200D-1F466': ['family_wwb'],
-  // 👩‍👩‍👧 family: woman, woman, girl
-  '1F469-200D-1F469-200D-1F467': ['family_wwg'],
-  // 👩‍👩‍👧‍👦 family: woman, woman, girl, boy
-  '1F469-200D-1F469-200D-1F467-200D-1F466': ['family_wwgb'],
-  // 👩‍👩‍👦‍👦 family: woman, woman, boy, boy
-  '1F469-200D-1F469-200D-1F466-200D-1F466': ['family_wwbb'],
-  // 👩‍👩‍👧‍👧 family: woman, woman, girl, girl
-  '1F469-200D-1F469-200D-1F467-200D-1F467': ['family_wwgg'],
 
   // VERSION 3
   // 🤣 rolling on the floor laughing
@@ -2670,7 +2700,7 @@ export default {
   '1F937': ['person_shrugging'],
   // 🤴 prince
   '1F934': ['prince'],
-  // 🤵 man in tuxedo
+  // 🤵 person in tuxedo
   '1F935': ['man_tuxedo'],
   // 🤰 pregnant woman
   '1F930': ['pregnant_woman'],
@@ -2778,34 +2808,8 @@ export default {
   '1F941': ['drum'],
   // 🛒 shopping cart
   '1F6D2': ['shopping_cart'],
-  // #️⃣ keycap: #
-  '0023-FE0F-20E3': ['hash'],
-  // *️⃣ keycap: *
-  '002A-FE0F-20E3': ['asterisk'],
-  // 0️⃣ keycap: 0
-  '0030-FE0F-20E3': ['zero'],
-  // 1️⃣ keycap: 1
-  '0031-FE0F-20E3': ['one'],
-  // 2️⃣ keycap: 2
-  '0032-FE0F-20E3': ['two'],
-  // 3️⃣ keycap: 3
-  '0033-FE0F-20E3': ['three'],
-  // 4️⃣ keycap: 4
-  '0034-FE0F-20E3': ['four'],
-  // 5️⃣ keycap: 5
-  '0035-FE0F-20E3': ['five'],
-  // 6️⃣ keycap: 6
-  '0036-FE0F-20E3': ['six'],
-  // 7️⃣ keycap: 7
-  '0037-FE0F-20E3': ['seven'],
-  // 8️⃣ keycap: 8
-  '0038-FE0F-20E3': ['eight'],
-  // 9️⃣ keycap: 9
-  '0039-FE0F-20E3': ['nine'],
 
   // VERSION 4
-  // 👁️‍🗨️ eye in speech bubble
-  '1F441-FE0F-200D-1F5E8-FE0F': ['eye_bubble'],
   // 👱‍♀️ woman: blond hair
   '1F471-200D-2640-FE0F': ['blond_woman'],
   // 👱‍♂️ man: blond hair
@@ -3022,11 +3026,11 @@ export default {
   '1F469-200D-1F467-200D-1F466': ['family_wgb'],
   // 👩‍👧‍👧 family: woman, girl, girl
   '1F469-200D-1F467-200D-1F467': ['family_wgg'],
-  // ♀️ female sign
+  // ♀︎ female sign
   '2640': ['female', 'female_sign'],
-  // ♂️ male sign
+  // ♂︎ male sign
   '2642': ['male', 'male_sign'],
-  // ⚕️ medical symbol
+  // ⚕︎ medical symbol
   '2695': ['medical'],
   // 🏳️‍🌈 rainbow flag
   '1F3F3-FE0F-200D-1F308': ['rainbow_flag'],
@@ -3308,7 +3312,7 @@ export default {
   '1F9E9': ['jigsaw', 'puzzle_piece'],
   // 🧸 teddy bear
   '1F9F8': ['teddy_bear'],
-  // ♟️ chess pawn
+  // ♟︎ chess pawn
   '265F': ['chess_pawn'],
   // 🧵 thread
   '1F9F5': ['spool'],
@@ -3352,7 +3356,7 @@ export default {
   '1F9FD': ['sponge'],
   // 🧯 fire extinguisher
   '1F9EF': ['fire_extinguisher'],
-  // ♾️ infinity
+  // ♾︎ infinity
   '267E': ['infinity'],
   // 🏴‍☠️ pirate flag
   '1F3F4-200D-2620-FE0F': ['pirate_flag', 'jolly_roger'],
@@ -3390,9 +3394,9 @@ export default {
   '1F9CE-200D-2642-FE0F': ['man_kneeling'],
   // 🧎‍♀️ woman kneeling
   '1F9CE-200D-2640-FE0F': ['woman_kneeling'],
-  // 👨‍🦯 man with probing cane
+  // 👨‍🦯 man with white cane
   '1F468-200D-1F9AF': ['man_probing_cane'],
-  // 👩‍🦯 woman with probing cane
+  // 👩‍🦯 woman with white cane
   '1F469-200D-1F9AF': ['woman_probing_cane'],
   // 👨‍🦼 man in motorized wheelchair
   '1F468-200D-1F9BC': ['man_motor_wheelchair'],
@@ -3472,7 +3476,7 @@ export default {
   '1FA94': ['diya_lamp'],
   // 🪓 axe
   '1FA93': ['axe'],
-  // 🦯 probing cane
+  // 🦯 white cane
   '1F9AF': ['probing_cane'],
   // 🩸 drop of blood
   '1FA78': ['blood_drop'],
@@ -3550,146 +3554,146 @@ export default {
   '1F9D1-200D-1F680': ['person_astronaut'],
   // 🧑‍🚒 firefighter
   '1F9D1-200D-1F692': ['person_firefighter'],
-  // 🧑‍🦯 person with probing cane
+  // 🧑‍🦯 person with white cane
   '1F9D1-200D-1F9AF': ['person_probing_cane'],
   // 🧑‍🦼 person in motorized wheelchair
   '1F9D1-200D-1F9BC': ['person_motor_wheelchair'],
   // 🧑‍🦽 person in manual wheelchair
   '1F9D1-200D-1F9BD': ['person_wheelchair'],
 
-  // VERSION 13.0
-  // MALE WITH STROKE AND MALE AND FEMALE SIGN
-  '26A7': ['trans'],
-  // HUT
-  '1F6D6': ['hut'],
-  // ELEVATOR
-  '1F6D7': ['elevator'],
-  // PICKUP TRUCK
-  '1F6FB': ['pickup_truck'],
-  // ROLLER SKATE
-  '1F6FC': ['roller_skate'],
-  // PINCHED FINGERS
-  '1F90C': ['pinched_fingers'],
-  // SMILING FACE WITH TEAR
+  // VERSION 13
+  // 🥲 smiling face with tear
   '1F972': ['tear_smile'],
-  // NINJA
-  '1F977': ['ninja'],
-  // DISGUISED FACE
+  // 🥸 disguised face
   '1F978': ['disguised_face'],
-  // MAMMOTH
-  '1F9A3': ['mammoth'],
-  // DODO
-  '1F9A4': ['dodo'],
-  // BEAVER
-  '1F9AB': ['beaver'],
-  // BISON
-  '1F9AC': ['bison'],
-  // SEAL
-  '1F9AD': ['seal'],
-  // BUBBLE TEA
-  '1F9CB': ['bubble_tea', 'boba_drink'],
-  // THONG SANDAL
-  '1FA74': ['sandal'],
-  // BOOMERANG
-  '1FA83': ['boomerang'],
-  // MAGIC WAND
-  '1FA84': ['wand'],
-  // PINATA
-  '1FA85': ['pinata'],
-  // NESTING DOLLS
-  '1FA86': ['nesting_dolls'],
-  // MILITARY HELMET
-  '1FA96': ['military_helmet'],
-  // ACCORDION
-  '1FA97': ['accordion'],
-  // LONG DRUM
-  '1FA98': ['long_drum'],
-  // COIN
-  '1FA99': ['coin'],
-  // CARPENTRY SAW
-  '1FA9A': ['saw'],
-  // SCREWDRIVER
-  '1FA9B': ['screwdriver'],
-  // LADDER
-  '1FA9C': ['ladder'],
-  // HOOK
-  '1FA9D': ['hook'],
-  // MIRROR
-  '1FA9E': ['mirror'],
-  // WINDOW
-  '1FA9F': ['window'],
-  // PLUNGER
-  '1FAA0': ['plunger'],
-  // SEWING NEEDLE
-  '1FAA1': ['sewing_needle'],
-  // KNOT
-  '1FAA2': ['knot'],
-  // BUCKET
-  '1FAA3': ['bucket'],
-  // MOUSE TRAP
-  '1FAA4': ['mouse_trap'],
-  // TOOTHBRUSH
-  '1FAA5': ['toothbrush'],
-  // HEADSTONE
-  '1FAA6': ['headstone'],
-  // PLACARD
-  '1FAA7': ['placard'],
-  // ROCK
-  '1FAA8': ['rock'],
-  // FLY
-  '1FAB0': ['fly'],
-  // WORM
-  '1FAB1': ['worm'],
-  // BEETLE
-  '1FAB2': ['beetle'],
-  // COCKROACH
-  '1FAB3': ['cockroach'],
-  // POTTED PLANT
-  '1FAB4': ['potted_plant'],
-  // WOOD
-  '1FAB5': ['wood'],
-  // FEATHER
-  '1FAB6': ['feather'],
-  // ANATOMICAL HEART
+  // 🤌 pinched fingers
+  '1F90C': ['pinched_fingers'],
+  // 🫀 anatomical heart
   '1FAC0': ['anatomical_heart'],
-  // LUNGS
+  // 🫁 lungs
   '1FAC1': ['lungs'],
-  // PEOPLE HUGGING
-  '1FAC2': ['people_hugging'],
-  // BLUEBERRIES
-  '1FAD0': ['blueberry'],
-  // BELL PEPPER
-  '1FAD1': ['bell_pepper'],
-  // OLIVE
-  '1FAD2': ['olive'],
-  // FLATBREAD
-  '1FAD3': ['flatbread'],
-  // TAMALE
-  '1FAD4': ['tamale'],
-  // FONDUE
-  '1FAD5': ['fondue'],
-  // TEAPOT
-  '1FAD6': ['teapot'],
-  // MAN, BABY BOTTLE
-  '1F468-200D-1F37C': ['man_feeding_baby'],
-  // WOMAN, BABY BOTTLE
-  '1F469-200D-1F37C': ['woman_feeding_baby'],
-  // ADULT, BABY BOTTLE
-  '1F9D1-200D-1F37C': ['person_feeding_baby'],
-  // BRIDE WITH VEIL, FEMALE SIGN
-  '1F470-200D-2640-FE0F': ['woman_veiled_bride'],
-  // BRIDE WITH VEIL, MALE SIGN
-  '1F470-200D-2642-FE0F': ['man_veiled_bride'],
-  // MAN IN TUXEDO, FEMALE SIGN
-  '1F935-200D-2640-FE0F': ['woman_in_tuxedo'],
-  // MAN IN TUXEDO, MALE SIGN
+  // 🥷 ninja
+  '1F977': ['ninja'],
+  // 🤵‍♂️ man in tuxedo
   '1F935-200D-2642-FE0F': ['man_in_tuxedo'],
-  // WAVING WHITE FLAG, MALE WITH STROKE AND MALE AND FEMALE SIGN
-  '1F3F3-FE0F-200D-26A7-FE0F': ['trans_flag'],
-  // CAT, BLACK LARGE SQUARE
-  '1F408-200D-2B1B': ['black_cat'],
-  // BEAR FACE, SNOWFLAKE
-  '1F43B-200D-2744-FE0F': ['bear_face'],
-  // ADULT, CHRISTMAS TREE
+  // 🤵‍♀️ woman in tuxedo
+  '1F935-200D-2640-FE0F': ['woman_in_tuxedo'],
+  // 👰‍♂️ man with veil
+  '1F470-200D-2642-FE0F': ['man_veiled_bride'],
+  // 👰‍♀️ woman with veil
+  '1F470-200D-2640-FE0F': ['woman_veiled_bride'],
+  // 👩‍🍼 woman feeding baby
+  '1F469-200D-1F37C': ['woman_feeding_baby'],
+  // 👨‍🍼 man feeding baby
+  '1F468-200D-1F37C': ['man_feeding_baby'],
+  // 🧑‍🍼 person feeding baby
+  '1F9D1-200D-1F37C': ['person_feeding_baby'],
+  // 🧑‍🎄 mx claus
   '1F9D1-200D-1F384': ['mx_claus'],
+  // 🫂 people hugging
+  '1FAC2': ['people_hugging'],
+  // 🐈‍⬛ black cat
+  '1F408-200D-2B1B': ['black_cat'],
+  // 🦬 bison
+  '1F9AC': ['bison'],
+  // 🦣 mammoth
+  '1F9A3': ['mammoth'],
+  // 🦫 beaver
+  '1F9AB': ['beaver'],
+  // 🐻‍❄️ polar bear
+  '1F43B-200D-2744-FE0F': ['polar_bear_face'],
+  // 🦤 dodo
+  '1F9A4': ['dodo'],
+  // 🪶 feather
+  '1FAB6': ['feather'],
+  // 🦭 seal
+  '1F9AD': ['seal'],
+  // 🪲 beetle
+  '1FAB2': ['beetle'],
+  // 🪳 cockroach
+  '1FAB3': ['cockroach'],
+  // 🪰 fly
+  '1FAB0': ['fly'],
+  // 🪱 worm
+  '1FAB1': ['worm'],
+  // 🪴 potted plant
+  '1FAB4': ['potted_plant'],
+  // 🫐 blueberries
+  '1FAD0': ['blueberry'],
+  // 🫒 olive
+  '1FAD2': ['olive'],
+  // 🫑 bell pepper
+  '1FAD1': ['bell_pepper'],
+  // 🫓 flatbread
+  '1FAD3': ['flatbread'],
+  // 🫔 tamale
+  '1FAD4': ['tamale'],
+  // 🫕 fondue
+  '1FAD5': ['fondue'],
+  // 🫖 teapot
+  '1FAD6': ['teapot'],
+  // 🧋 bubble tea
+  '1F9CB': ['bubble_tea', 'boba_drink'],
+  // 🪨 rock
+  '1FAA8': ['rock'],
+  // 🪵 wood
+  '1FAB5': ['wood'],
+  // 🛖 hut
+  '1F6D6': ['hut'],
+  // 🛻 pickup truck
+  '1F6FB': ['pickup_truck'],
+  // 🛼 roller skate
+  '1F6FC': ['roller_skate'],
+  // 🪄 magic wand
+  '1FA84': ['wand'],
+  // 🪅 piñata
+  '1FA85': ['pinata'],
+  // 🪆 nesting dolls
+  '1FA86': ['nesting_dolls'],
+  // 🪡 sewing needle
+  '1FAA1': ['sewing_needle'],
+  // 🪢 knot
+  '1FAA2': ['knot'],
+  // 🩴 thong sandal
+  '1FA74': ['sandal'],
+  // 🪖 military helmet
+  '1FA96': ['military_helmet'],
+  // 🪗 accordion
+  '1FA97': ['accordion'],
+  // 🪘 long drum
+  '1FA98': ['long_drum'],
+  // 🪙 coin
+  '1FA99': ['coin'],
+  // 🪃 boomerang
+  '1FA83': ['boomerang'],
+  // 🪚 carpentry saw
+  '1FA9A': ['saw'],
+  // 🪛 screwdriver
+  '1FA9B': ['screwdriver'],
+  // 🪝 hook
+  '1FA9D': ['hook'],
+  // 🪜 ladder
+  '1FA9C': ['ladder'],
+  // 🛗 elevator
+  '1F6D7': ['elevator'],
+  // 🪞 mirror
+  '1FA9E': ['mirror'],
+  // 🪟 window
+  '1FA9F': ['window'],
+  // 🪠 plunger
+  '1FAA0': ['plunger'],
+  // 🪤 mouse trap
+  '1FAA4': ['mouse_trap'],
+  // 🪣 bucket
+  '1FAA3': ['bucket'],
+  // 🪥 toothbrush
+  '1FAA5': ['toothbrush'],
+  // 🪦 headstone
+  '1FAA6': ['headstone'],
+  // 🪧 placard
+  '1FAA7': ['placard'],
+  // ⚧︎ transgender symbol
+  '26A7': ['trans'],
+  // 🏳️‍⚧️ transgender flag
+  '1F3F3-FE0F-200D-26A7-FE0F': ['trans_flag'],
 };
