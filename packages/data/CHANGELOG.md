@@ -1,3 +1,14 @@
+# 5.0.0 - 2020-02-13
+
+#### 🎉 Release
+
+- Updated to [Emoji 13](https://emojipedia.org/emoji-13.0/) and
+  [Unicode 13](http://unicode.org/versions/Unicode13.0.0/).
+  - 67 new emoji (117 including skin tones variations).
+  - New groups and subgroups.
+- Updated to [CLDR 36.1](http://cldr.unicode.org/index/downloads/cldr-36).
+- Updated shortcodes.
+
 ### 4.2.1 - 2020-01-27
 
 #### 🐞 Fixes

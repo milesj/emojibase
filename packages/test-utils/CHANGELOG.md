@@ -1,5 +1,16 @@
 > Versions that only update `test-data.json` are omitted from the changelog.
 
+# 5.0.0 - 2020-02-13
+
+#### 🎉 Release
+
+- Updated to [Emoji 13](https://emojipedia.org/emoji-13.0/) and
+  [Unicode 13](http://unicode.org/versions/Unicode13.0.0/).
+  - 67 new emoji (117 including skin tones variations).
+  - New groups and subgroups.
+- Updated to [CLDR 36.1](http://cldr.unicode.org/index/downloads/cldr-36).
+- Updated shortcodes.
+
 ## 4.2.0 - 2019-12-09
 
 #### 🚀 Updates
