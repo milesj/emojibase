@@ -96,7 +96,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     }
 
     // Use the localized territory name
-    if (hasProperty(emoji.property, ['Emoji_Flag_Sequence'])) {
+    if (hasProperty(emoji.property, ['Emoji_Flag_Sequence', 'RGI_Emoji_Flag_Sequence'])) {
       const countryCode = fullHexcode
         .split('-')
         .map((hex: string) => REGIONAL_INDICATORS[hex])
@@ -109,7 +109,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       tags.push(countryCode);
 
       // Use the localized subdivision name
-    } else if (hasProperty(emoji.property, ['Emoji_Tag_Sequence'])) {
+    } else if (hasProperty(emoji.property, ['Emoji_Tag_Sequence', 'RGI_Emoji_Tag_Sequence'])) {
       const divisionName = hexcode
         .split('-')
         .map((hex: string) => TAG_LATIN_SMALL_LETTERS[hex])
@@ -133,7 +133,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       tags.push(annotation);
 
       // ZWJ sequences require special treatment
-    } else if (hasProperty(emoji.property, ['Emoji_ZWJ_Sequence'])) {
+    } else if (hasProperty(emoji.property, ['Emoji_ZWJ_Sequence', 'RGI_Emoji_ZWJ_Sequence'])) {
       const suffix: string[] = [];
       let prefixName = '';
       let suffixName = '';

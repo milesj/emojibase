@@ -46,7 +46,12 @@ export default function joinModifiersToData(emojis: EmojiMap) {
 
     // Merge Emoji_ZWJ_Sequence and Emoji_Modifier_Sequence emojis into their parent
     if (
-      hasProperty(emoji.property, ['Emoji_ZWJ_Sequence', 'Emoji_Modifier_Sequence']) &&
+      hasProperty(emoji.property, [
+        'Emoji_ZWJ_Sequence',
+        'RGI_Emoji_ZWJ_Sequence',
+        'Emoji_Modifier_Sequence',
+        'RGI_Emoji_Modifier_Sequence',
+      ]) &&
       hexcode.match(SKIN_MODIFIER_PATTERN)
     ) {
       let match;

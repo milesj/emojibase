@@ -15,7 +15,7 @@ npm install emojibase-data
 ## Usage
 
 As stated, there are 3 groups of datasets, each serving a specific purpose. The first group,
-localized data, is exactly that, datasets with localization provided by [CLDR 36][cldr]. The
+localized data, is exactly that, datasets with localization provided by [CLDR 36.1][cldr]. The
 following locales and languages are currently supported:
 
 - `emojibase-data/zh/data.json` - Chinese (zh)
@@ -78,7 +78,7 @@ of the properties listed below. In an effort to reduce the overall dataset files
 values have been implemented using integers,
 [with associated constants](https://github.com/milesj/emojibase/blob/master/packages/core/src/constants.ts).
 
-- `annotation` (string) - A localized description, provided by [CLDR 36][cldr], primarily used for
+- `annotation` (string) - A localized description, provided by [CLDR 36.1][cldr], primarily used for
   text-to-speech (TTS) and accessibility.
 - `emoji` (string) - The emoji presentation Unicode character.
 - `emoticon` (string) - If applicable, an emoticon representing the emoji character.
@@ -96,7 +96,7 @@ values have been implemented using integers,
 - `skins` (emoji[]) - If applicable, an array of emoji objects for each skin tone modification,
   starting at light skin, and ending with dark skin.
 - `subgroup` (number) - The categorical subgroup the emoji belongs to, ranging from `0` to `75`.
-- `tags` (string[]) - An array of localized keywords, provided by [CLDR 36][cldr], to use for
+- `tags` (string[]) - An array of localized keywords, provided by [CLDR 36.1][cldr], to use for
   searching and filtering.
 - `text` (string) - The text presentation Unicode character.
 - `tone` (number | number[]) - If applicable, the skin tone of the emoji character. `1` for light
@@ -209,54 +209,54 @@ fetchFromCDN('en/data.json').then(emojis => {
 
 Learn more about the [`fetchFromCDN` API](./api.md#fetchFromCDN).
 
-[cldr]: http://cldr.unicode.org/index/downloads/cldr-35
+[cldr]: http://cldr.unicode.org/index/downloads/cldr-36
 [ucd]: http://unicode.org/Public/10.0.0/ucd/UnicodeData.txt
 
 ## Filesizes
 
 | File                  | Size      | Gzipped   |
 | --------------------- | --------- | --------- |
-| meta/groups.json      | 4 B       | 24 B      |
-| meta/shortcodes.json  | 27.43 KB  | 8.24 KB   |
-| meta/unicode.json     | 55.72 KB  | 10.25 KB  |
-| meta/hexcodes.json    | 70.28 KB  | 10.25 KB  |
-| versions/emoji.json   | 72.13 KB  | 9.76 KB   |
-| versions/unicode.json | 72.25 KB  | 9.93 KB   |
-| zh-hant/compact.json  | 473.27 KB | 67.77 KB  |
-| zh/compact.json       | 496.88 KB | 74.53 KB  |
-| sv/compact.json       | 506.39 KB | 71.32 KB  |
-| da/compact.json       | 510.13 KB | 71.49 KB  |
-| en/compact.json       | 511.54 KB | 68.82 KB  |
-| en-gb/compact.json    | 511.75 KB | 68.93 KB  |
-| fr/compact.json       | 521.21 KB | 70.63 KB  |
-| nl/compact.json       | 523.59 KB | 71.99 KB  |
-| ko/compact.json       | 524.86 KB | 76.26 KB  |
-| pt/compact.json       | 526.28 KB | 74.01 KB  |
-| ja/compact.json       | 528.18 KB | 76.67 KB  |
-| ms/compact.json       | 531.3 KB  | 72.08 KB  |
-| es-mx/compact.json    | 539.21 KB | 74.38 KB  |
-| es/compact.json       | 539.62 KB | 73.92 KB  |
-| pl/compact.json       | 539.77 KB | 77.63 KB  |
-| it/compact.json       | 541.96 KB | 75.61 KB  |
-| de/compact.json       | 543.45 KB | 78.13 KB  |
-| ru/compact.json       | 636.64 KB | 85.99 KB  |
-| th/compact.json       | 645.78 KB | 77.14 KB  |
-| zh-hant/data.json     | 764.39 KB | 94.29 KB  |
-| zh/data.json          | 788 KB    | 100.95 KB |
-| sv/data.json          | 797.51 KB | 97.51 KB  |
-| da/data.json          | 801.24 KB | 97.38 KB  |
-| en/data.json          | 802.66 KB | 94.65 KB  |
-| en-gb/data.json       | 802.86 KB | 94.75 KB  |
-| fr/data.json          | 812.33 KB | 96.74 KB  |
-| nl/data.json          | 814.7 KB  | 97.81 KB  |
-| ko/data.json          | 815.97 KB | 102.7 KB  |
-| pt/data.json          | 817.39 KB | 100.03 KB |
-| ja/data.json          | 819.29 KB | 103.17 KB |
-| ms/data.json          | 822.42 KB | 97.92 KB  |
-| es-mx/data.json       | 830.33 KB | 100.41 KB |
-| es/data.json          | 830.74 KB | 99.96 KB  |
-| pl/data.json          | 830.89 KB | 103.78 KB |
-| it/data.json          | 833.08 KB | 101.78 KB |
-| de/data.json          | 834.56 KB | 104.63 KB |
-| ru/data.json          | 927.75 KB | 112.49 KB |
-| th/data.json          | 936.89 KB | 103.7 KB  |
+| meta/groups.json      | 3.78 KB   | 1.21 KB   |
+| meta/shortcodes.json  | 28.44 KB  | 8.56 KB   |
+| meta/unicode.json     | 57.48 KB  | 10.59 KB  |
+| meta/hexcodes.json    | 72.51 KB  | 10.59 KB  |
+| versions/unicode.json | 73.96 KB  | 10.11 KB  |
+| versions/emoji.json   | 74 KB     | 10.21 KB  |
+| zh-hant/compact.json  | 491.99 KB | 71.01 KB  |
+| zh/compact.json       | 515.49 KB | 77.8 KB   |
+| sv/compact.json       | 525.24 KB | 74.48 KB  |
+| da/compact.json       | 529.71 KB | 74.87 KB  |
+| en/compact.json       | 530.53 KB | 71.92 KB  |
+| en-gb/compact.json    | 530.81 KB | 72.04 KB  |
+| fr/compact.json       | 540.95 KB | 74 KB     |
+| nl/compact.json       | 542.61 KB | 74.99 KB  |
+| ko/compact.json       | 544.25 KB | 79.58 KB  |
+| pt/compact.json       | 545.36 KB | 77.14 KB  |
+| ja/compact.json       | 548.64 KB | 80.2 KB   |
+| ms/compact.json       | 550.71 KB | 75.32 KB  |
+| es-mx/compact.json    | 558.3 KB  | 77.16 KB  |
+| pl/compact.json       | 559.52 KB | 81.02 KB  |
+| es/compact.json       | 559.55 KB | 77.2 KB   |
+| it/compact.json       | 561.4 KB  | 78.87 KB  |
+| de/compact.json       | 563.42 KB | 81.4 KB   |
+| ru/compact.json       | 659.52 KB | 89.61 KB  |
+| th/compact.json       | 671.2 KB  | 80.8 KB   |
+| zh-hant/data.json     | 795.11 KB | 98.88 KB  |
+| zh/data.json          | 818.61 KB | 105.62 KB |
+| sv/data.json          | 828.36 KB | 102.04 KB |
+| da/data.json          | 832.82 KB | 102.06 KB |
+| en/data.json          | 833.65 KB | 99.11 KB  |
+| en-gb/data.json       | 833.93 KB | 99.22 KB  |
+| fr/data.json          | 844.07 KB | 101.49 KB |
+| nl/data.json          | 845.73 KB | 102.12 KB |
+| ko/data.json          | 847.37 KB | 107.35 KB |
+| pt/data.json          | 848.48 KB | 104.56 KB |
+| ja/data.json          | 851.76 KB | 108.06 KB |
+| ms/data.json          | 853.82 KB | 102.63 KB |
+| es-mx/data.json       | 861.42 KB | 104.6 KB  |
+| pl/data.json          | 862.64 KB | 108.53 KB |
+| es/data.json          | 862.67 KB | 104.64 KB |
+| it/data.json          | 864.52 KB | 106.5 KB  |
+| de/data.json          | 866.54 KB | 109.37 KB |
+| ru/data.json          | 962.64 KB | 117.61 KB |
+| th/data.json          | 974.31 KB | 108.86 KB |

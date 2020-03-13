@@ -22,6 +22,11 @@ const PROPERTY_CAPTURES: { [key: string]: string } = {
   '# Emoji_Tag_Sequence': 'Emoji_Tag_Sequence',
   '# Emoji_Modifier_Sequence': 'Emoji_Modifier_Sequence',
   '# Emoji_ZWJ_Sequence': 'Emoji_ZWJ_Sequence',
+  // 13.0+
+  '# RGI_Emoji_Flag_Sequence': 'RGI_Emoji_Flag_Sequence',
+  '# RGI_Emoji_Modifier_Sequence': 'RGI_Emoji_Modifier_Sequence',
+  '# RGI_Emoji_Tag_Sequence': 'RGI_Emoji_Tag_Sequence',
+  '# RGI_Emoji_ZWJ_Sequence': 'RGI_Emoji_ZWJ_Sequence',
 };
 
 /**

@@ -3,6 +3,7 @@
 import { TEXT, EMOJI } from 'emojibase';
 import parse from './parse';
 import extractLineDescription from './extractLineDescription';
+import extractEmojiVersion from './extractEmojiVersion';
 import extractUnicodeVersion from './extractUnicodeVersion';
 import spreadHexcode from './spreadHexcode';
 import verifyTotals from './verifyTotals';
@@ -24,13 +25,14 @@ export default function parseData(version: string, content: string): EmojiDataMa
       return map;
     }
 
+    const emojiVersion = extractEmojiVersion(line.comment) ?? parseFloat(version);
     const emoji: EmojiData = {
       description: extractLineDescription(line.comment),
       hexcode: '',
       property: [(property as Property) || 'Emoji'],
       type: EMOJI,
-      unicodeVersion: extractUnicodeVersion(line.comment),
-      version: parseFloat(version),
+      unicodeVersion: extractUnicodeVersion(emojiVersion),
+      version: emojiVersion,
     };
 
     spreadHexcode(rawHexcode, (hexcode, range) => {

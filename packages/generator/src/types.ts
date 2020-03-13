@@ -47,7 +47,12 @@ export type Property =
   // An emoji slot that is reserved for future allocations and releases.
   | 'Extended_Pictographic'
   // A unicode character representing one of the 26 letters of the alphabet, A-Z.
-  | 'Regional_Indicator';
+  | 'Regional_Indicator'
+  // v13+ renamed properties
+  | 'RGI_Emoji_Flag_Sequence'
+  | 'RGI_Emoji_Modifier_Sequence'
+  | 'RGI_Emoji_Tag_Sequence'
+  | 'RGI_Emoji_ZWJ_Sequence';
 
 export interface CLDRAnnotation {
   annotation: string;
