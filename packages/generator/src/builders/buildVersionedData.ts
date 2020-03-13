@@ -1,4 +1,4 @@
-import { EMOJI_VERSIONS } from 'emojibase';
+import { LATEST_EMOJI_VERSION } from 'emojibase';
 import log from '../helpers/log';
 import writeCache from '../helpers/writeCache';
 import loadData from '../loaders/loadData';
@@ -49,17 +49,11 @@ export default async function buildVersionedData(): Promise<{
     });
   };
 
-  // Loop through each version, starting at the earliest
-  // eslint-disable-next-line no-restricted-syntax
-  for await (const version of EMOJI_VERSIONS) {
-    partitionVersions(await loadData(version));
-
-    // Sequences were introduced in v2.0+
-    if (parseFloat(version) >= 2) {
-      partitionVersions(await loadSequences(version));
-      partitionVersions(await loadZwjSequences(version));
-    }
-  }
+  // As of v13.0, the versions are included in the data sources,
+  // so we don't need to loop and extract from previous versions.
+  partitionVersions(await loadData(LATEST_EMOJI_VERSION));
+  partitionVersions(await loadSequences(LATEST_EMOJI_VERSION));
+  partitionVersions(await loadZwjSequences(LATEST_EMOJI_VERSION));
 
   // Cache the partitioned files
   await writeCache('final/emoji-unicode-versions.json', {

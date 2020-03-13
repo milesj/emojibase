@@ -25,13 +25,14 @@ export default function parseData(version: string, content: string): EmojiDataMa
       return map;
     }
 
+    const emojiVersion = extractEmojiVersion(line.comment) ?? parseFloat(version);
     const emoji: EmojiData = {
       description: extractLineDescription(line.comment),
       hexcode: '',
       property: [(property as Property) || 'Emoji'],
       type: EMOJI,
-      unicodeVersion: extractUnicodeVersion(line.comment),
-      version: extractEmojiVersion(line.comment) ?? parseFloat(version),
+      unicodeVersion: extractUnicodeVersion(emojiVersion),
+      version: emojiVersion,
     };
 
     spreadHexcode(rawHexcode, (hexcode, range) => {
