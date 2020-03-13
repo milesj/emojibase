@@ -307,7 +307,7 @@ export default {
   // 👲 person with skullcap
   '1F472': ['man_chinese_cap'],
   // 👰 person with veil
-  '1F470': ['bride_veil'],
+  '1F470': ['person_veiled_bride', 'bride_veil'],
   // 👼 baby angel
   '1F47C': ['baby_angel'],
   // 🎅 Santa Claus
