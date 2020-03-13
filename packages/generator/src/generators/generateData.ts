@@ -70,6 +70,8 @@ function createEmoji(
   if (annotation) {
     if (annotation.annotation) {
       emoji.annotation = annotation.annotation;
+    } else {
+      emoji.annotation = baseEmoji.description;
     }
 
     if (annotation.tags && annotation.tags.length > 0) {
@@ -95,7 +97,8 @@ function createEmoji(
     emoji.skins = Object.values(baseEmoji.modifications!).map(mod => {
       const skin = createEmoji(mod, versions, annotations);
 
-      skin.annotation = (annotations[stripHexcode(skin.hexcode)] || {}).annotation || '';
+      skin.annotation =
+        (annotations[stripHexcode(skin.hexcode)] || {}).annotation || emoji.annotation || '';
       skin.shortcodes = (emoji.shortcodes || []).map(
         code => `${code}_tone${Array.isArray(skin.tone) ? skin.tone.join('-') : skin.tone}`,
       );
