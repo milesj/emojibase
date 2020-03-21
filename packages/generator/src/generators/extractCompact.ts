@@ -1,4 +1,4 @@
-import { TEXT, CompactEmoji, Emoji } from 'emojibase';
+import { CompactEmoji, Emoji } from 'emojibase';
 
 export default function extractCompact(data: Emoji[]): CompactEmoji[] {
   return data.map(full => {
@@ -12,7 +12,6 @@ export default function extractCompact(data: Emoji[]): CompactEmoji[] {
       annotation,
       tags,
       text,
-      type,
       skins,
     } = full;
     const compact: CompactEmoji = {
@@ -22,7 +21,7 @@ export default function extractCompact(data: Emoji[]): CompactEmoji[] {
       order,
       shortcodes,
       tags,
-      unicode: text && type === TEXT ? text : emoji,
+      unicode: emoji || text,
     };
 
     if (emoticon) {

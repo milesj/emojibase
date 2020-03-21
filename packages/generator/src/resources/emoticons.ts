@@ -80,7 +80,7 @@ export default {
 
   // SAD
   // 🙁 frowning face
-  '2639-FEOF': ':(',
+  '2639': ':(',
   // 😧 anguished face
   '1F627': ':s',
   // 😖 confounded face
@@ -132,7 +132,7 @@ export default {
 
   // SYMBOLS
   // ❤️ red heart
-  '2764-FE0F': '<3',
+  '2764': '<3',
   // 💔 broken heart
   '1F494': '</3',
   // 🤘 sign of the horns

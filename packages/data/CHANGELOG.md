@@ -16,6 +16,10 @@
 - Updated to [CLDR 36.1](http://cldr.unicode.org/index/downloads/cldr-36).
 - Updated shortcodes.
 
+#### 💥 Breaking
+
+- Compact dataset will now always use the emoji character, regardless of the presentation `type`.
+
 ### 4.2.1 - 2020-01-27
 
 #### 🐞 Fixes
