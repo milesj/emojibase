@@ -1,4 +1,11 @@
-# 5.0.0 - 2020-02-13
+## 5.0.1 - 2020-03-21
+
+#### 🐞 Fixes
+
+- Fixed `:)` and `<3` emoticons not rendering correctly.
+- Updated `:D` emoticon to 😀.
+
+# 5.0.0 - 2020-03-13
 
 #### 🎉 Release
 

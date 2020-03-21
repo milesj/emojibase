@@ -27,8 +27,8 @@ export default {
   // HAPPY
   // 🙂 slightly smiling face
   '1F642': ':)',
-  // 😁 grinning face with smiling eyes
-  '1F601': ':D',
+  // 😀 grinning face
+  '1F600': ':D',
   // 😊 smiling face with smiling eyes
   '1F60A': ':>',
   // 😉 winking face
@@ -79,8 +79,8 @@ export default {
   '1F910': ':z',
 
   // SAD
-  // ☹️ frowning face
-  '2639': ':(',
+  // 🙁 frowning face
+  '2639-FEOF': ':(',
   // 😧 anguished face
   '1F627': ':s',
   // 😖 confounded face
@@ -132,7 +132,7 @@ export default {
 
   // SYMBOLS
   // ❤️ red heart
-  '2764': '<3',
+  '2764-FE0F': '<3',
   // 💔 broken heart
   '1F494': '</3',
   // 🤘 sign of the horns
