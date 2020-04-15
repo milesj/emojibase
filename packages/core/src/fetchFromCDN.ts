@@ -37,14 +37,14 @@ export default function fetchFromCDN<T>(
     redirect: 'error',
     ...opts,
   })
-    .then(response => {
+    .then((response) => {
       if (!response.ok) {
         throw new Error('Failed to load Emojibase dataset.');
       }
 
       return response.json();
     })
-    .then(data => {
+    .then((data) => {
       try {
         storage.setItem(cacheKey, JSON.stringify(data));
       } catch (error) {

@@ -26,7 +26,7 @@ export default function parseSequences(
 
     const emojiVersion = extractEmojiVersion(line.comment) ?? parseFloat(version);
 
-    spreadHexcode(rawHexcode, hexcode => {
+    spreadHexcode(rawHexcode, (hexcode) => {
       map[hexcode] = {
         description: description || extractLineDescription(line.comment),
         gender: extractGender(hexcode),

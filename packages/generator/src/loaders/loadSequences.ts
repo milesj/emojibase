@@ -9,6 +9,6 @@ export default function loadSequences(
   return fetchAndCache(
     `http://unicode.org/Public/emoji/${version}/emoji-sequences.txt`,
     `${version}/sequences.json`,
-    data => parseSequences(version, data, 'RGI_Emoji_Modifier_Sequence'),
+    (data) => parseSequences(version, data, 'RGI_Emoji_Modifier_Sequence'),
   );
 }

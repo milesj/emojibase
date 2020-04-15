@@ -64,7 +64,7 @@ interface Test {
 const BASE_PATTERNS: PatternType[] = ['combo', 'comboCodepoint'];
 
 describe('regex', () => {
-  loadFlatEmojiData().forEach(emoji => {
+  loadFlatEmojiData().forEach((emoji) => {
     // Emoji_Tag_Sequences currently do not work
     if (['ENGLAND', 'SCOTLAND', 'WALES'].includes(emoji.name)) {
       return;
@@ -92,7 +92,7 @@ describe('regex', () => {
 
     tests.forEach(({ unicode, type, pass }) => {
       describe(`${VARIATION_DESCRIPTIONS[type]}`, () => {
-        pass.forEach(passType => {
+        pass.forEach((passType) => {
           const pattern = PATTERNS[passType];
 
           describe(`passes ${PATTERN_DESCRIPTIONS[passType]}`, () => {
@@ -121,7 +121,7 @@ describe('regex', () => {
       });
     });
 
-    emoji.shortcodes.forEach(code => {
+    emoji.shortcodes.forEach((code) => {
       const shortcode = `:${code}:`; // Does not include colons by default
 
       it(`matches shortcode by itself for ${shortcode}`, () => {
@@ -143,7 +143,7 @@ describe('regex', () => {
 
     if (emoji.emoticon) {
       generateEmoticonPermutations(emoji.emoticon, EMOTICON_OPTIONS[emoji.emoticon] || {}).forEach(
-        emoticon => {
+        (emoticon) => {
           it(`matches emoticon variation ${emoticon}`, () => {
             expect(emoticon).toMatch(EMOTICON_PATTERN);
           });
@@ -204,13 +204,13 @@ describe('regex', () => {
 
   variationSelectors.forEach(({ type, unicode, pass, fail = [] }) => {
     describe(`${VARIATION_DESCRIPTIONS[type]}`, () => {
-      pass.forEach(passType => {
+      pass.forEach((passType) => {
         it(`passes ${PATTERN_DESCRIPTIONS[passType]}`, () => {
           expect(unicode.match(PATTERNS[passType])).not.toBeNull();
         });
       });
 
-      fail.forEach(failType => {
+      fail.forEach((failType) => {
         it(`fails ${PATTERN_DESCRIPTIONS[failType]}`, () => {
           expect(unicode.match(PATTERNS[failType])).toBeNull();
         });

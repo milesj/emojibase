@@ -1,7 +1,7 @@
 import { CompactEmoji, Emoji } from 'emojibase';
 
 export default function extractCompact(data: Emoji[]): CompactEmoji[] {
-  return data.map(full => {
+  return data.map((full) => {
     const {
       hexcode,
       shortcodes,

@@ -41,7 +41,7 @@ export default function generateEmoticonPermutations(
 
     // Nose variant for ALL
     if (withNose) {
-      list.forEach(emo => {
+      list.forEach((emo) => {
         if (!emo.includes('-')) {
           list.push(`${emo.slice(0, emo.length - 1)}-${emo.slice(-1)}`);
         }

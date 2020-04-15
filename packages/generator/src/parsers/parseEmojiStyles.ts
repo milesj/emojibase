@@ -18,31 +18,14 @@ export default function parseEmojiStyles(content: string): EmojiStylesMap {
       const tr = xml(row);
       const tds = tr.find('td');
 
-      if (
-        tds.length === 0 ||
-        tds
-          .eq(1)
-          .text()
-          .trim() !== 'plain'
-      ) {
+      if (tds.length === 0 || tds.eq(1).text().trim() !== 'plain') {
         return;
       }
 
-      const type = tds
-        .eq(0)
-        .find('a')
-        .first()
-        .text()
-        .trim();
+      const type = tds.eq(0).find('a').first().text().trim();
 
       tr.find('.tick').each((l, tick) => {
-        const hexcode = fromUnicodeToHexcode(
-          xml(tick)
-            .find('a')
-            .first()
-            .text()
-            .trim(),
-        );
+        const hexcode = fromUnicodeToHexcode(xml(tick).find('a').first().text().trim());
 
         if (type === 'text-vs') {
           styles.text[hexcode] = true;

@@ -76,7 +76,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     ...(await loadZwjSequences()),
   };
 
-  Object.keys(sequences).forEach(fullHexcode => {
+  Object.keys(sequences).forEach((fullHexcode) => {
     const hexcode = stripHexcode(fullHexcode);
     const emoji = sequences[fullHexcode];
     const tags: string[] = extractField(hexcode, 'tags') || [];
@@ -189,7 +189,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       // Step 9) Transform suffix into suffix name
       if (suffix.length > 0) {
         suffixName = suffix
-          .map(hex => extractField(hex, 'annotation'))
+          .map((hex) => extractField(hex, 'annotation'))
           .filter(Boolean)
           .join(', ');
       }

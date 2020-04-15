@@ -64,7 +64,7 @@ export default async function generateShortcodes(): Promise<string> {
   data.sort((a, b) => (a.version === b.version ? a.order - b.order : a.version - b.version));
 
   // Add each emoji to the list
-  data.forEach(emoji => {
+  data.forEach((emoji) => {
     if (emoji.version !== lastVersion) {
       if (lastVersion !== 0) {
         output.push('');
@@ -76,7 +76,7 @@ export default async function generateShortcodes(): Promise<string> {
     }
 
     const unicode = emoji.type === TEXT ? emoji.text : emoji.emoji;
-    const shortcodes = emoji.shortcodes.map(sc => `'${sc}'`);
+    const shortcodes = emoji.shortcodes.map((sc) => `'${sc}'`);
 
     output.push(`  // ${unicode} ${emoji.annotation || emoji.name}`);
     output.push(`  '${emoji.hexcode}': [${shortcodes.join(', ')}],`);

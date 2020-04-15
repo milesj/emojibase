@@ -3,7 +3,7 @@ import { Emoji } from './types';
 export default function flattenEmojiData(data: Emoji[]): Emoji[] {
   const emojis: Emoji[] = [];
 
-  data.forEach(emoji => {
+  data.forEach((emoji) => {
     if (emoji.skins) {
       const { skins, ...restEmoji } = emoji;
 
@@ -11,7 +11,7 @@ export default function flattenEmojiData(data: Emoji[]): Emoji[] {
       emojis.push(restEmoji);
 
       // Push each skin modification into the root list
-      skins.forEach(skin => {
+      skins.forEach((skin) => {
         const skinEmoji = { ...skin };
 
         // Inherit tags from parent if they exist

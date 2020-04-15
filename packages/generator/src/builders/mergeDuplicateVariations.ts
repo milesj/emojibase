@@ -2,7 +2,7 @@ import { EmojiMap } from '../types';
 import { EMOJI_VARIATION_SELECTOR, TEXT_VARIATION_SELECTOR } from '../constants';
 
 export default function mergeDuplicateVariations(emojis: EmojiMap) {
-  Object.keys(emojis).forEach(hexcode => {
+  Object.keys(emojis).forEach((hexcode) => {
     if (!hexcode.endsWith(EMOJI_VARIATION_SELECTOR) && !hexcode.endsWith(TEXT_VARIATION_SELECTOR)) {
       return;
     }

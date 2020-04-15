@@ -18,13 +18,14 @@ export default function joinMetadataToData(
   shortcodes: ShortcodeMap,
   emoticons: EmoticonMap,
 ) {
-  Object.keys(emojis).forEach(hexcode => {
+  Object.keys(emojis).forEach((hexcode) => {
     const emoji = emojis[hexcode];
 
     // Determine the correct default presentation
     // http://www.unicode.org/reports/tr51/#Emoji_Presentation
     emoji.type = emoji.property.some(
-      prop => prop === 'Basic_Emoji' || prop === 'Emoji_Presentation' || prop.endsWith('Sequence'),
+      (prop) =>
+        prop === 'Basic_Emoji' || prop === 'Emoji_Presentation' || prop.endsWith('Sequence'),
     )
       ? EMOJI
       : TEXT;
@@ -46,7 +47,7 @@ export default function joinMetadataToData(
     } else {
       let hasSkinTone = '';
 
-      hexcode.split('-').forEach(code => {
+      hexcode.split('-').forEach((code) => {
         if (code.match(SEQUENCE_REMOVAL_PATTERN)) {
           // Skip joiners
         } else if (code.match(SKIN_MODIFIER_PATTERN)) {

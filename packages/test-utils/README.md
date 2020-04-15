@@ -17,7 +17,7 @@ Use `loadEmojiData` to return an array of English emoji data.
 ```ts
 import { loadEmojiData } from 'emojibase-test-utils';
 
-loadEmojiData().forEach(emoji => {
+loadEmojiData().forEach((emoji) => {
   // Do something
 });
 ```

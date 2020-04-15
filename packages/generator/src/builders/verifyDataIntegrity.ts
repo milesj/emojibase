@@ -17,7 +17,7 @@ export default async function verifyDataIntegrity(emojis: EmojiMap): Promise<Emo
   const usedEmoticons: EmojiMap = {};
   const shortcodeDump: string[] = [];
 
-  Object.keys(emojis).forEach(hexcode => {
+  Object.keys(emojis).forEach((hexcode) => {
     const emoji = emojis[hexcode];
     const errors: string[] = [];
 
@@ -72,7 +72,7 @@ export default async function verifyDataIntegrity(emojis: EmojiMap): Promise<Emo
     } else {
       const used: string[] = [];
 
-      emoji.shortcodes.forEach(shortcode => {
+      emoji.shortcodes.forEach((shortcode) => {
         const usedEmoji = usedShortcodes[shortcode];
 
         if (usedEmoji) {

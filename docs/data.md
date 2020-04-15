@@ -202,7 +202,7 @@ from our CDN ([provided by jsdelivr.com](https://cdn.jsdelivr.net/npm/emojibase-
 ```ts
 import { fetchFromCDN } from 'emojibase';
 
-fetchFromCDN('en/data.json').then(emojis => {
+fetchFromCDN('en/data.json').then((emojis) => {
   // Do something with it!
 });
 ```

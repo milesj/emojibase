@@ -9,15 +9,7 @@ export default function spreadHexcode(
     const [lowCodepoint, highCodepoint] = fromHexcodeToCodepoint(hexcode, '..');
 
     for (let codepoint = lowCodepoint; codepoint <= highCodepoint; codepoint += 1) {
-      map(
-        formatHexcode(
-          codepoint
-            .toString(16)
-            .padStart(4, '0')
-            .toUpperCase(),
-        ),
-        true,
-      );
+      map(formatHexcode(codepoint.toString(16).padStart(4, '0').toUpperCase()), true);
     }
   } else {
     map(formatHexcode(hexcode), false);

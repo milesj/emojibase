@@ -20,7 +20,7 @@ interface GroupCache {
 function swapKeyValues(data: GroupIndexMap): GroupNameMap {
   const object: GroupNameMap = {};
 
-  Object.keys(data).forEach(key => {
+  Object.keys(data).forEach((key) => {
     object[data[key]] = Number(key);
   });
 
@@ -64,18 +64,10 @@ export default function parseEmojiList(content: string): EmojiSourceMap {
       } else if (headerRow.length > 0) {
         // Skip emoji
       } else {
-        const hexcode = String(
-          tr
-            .find('.code')
-            .find('a')
-            .attr('name'),
-        )
+        const hexcode = String(tr.find('.code').find('a').attr('name'))
           .toUpperCase()
           .replace(/_/g, '-');
-        const name = tr
-          .find('.name')
-          .eq(0)
-          .text();
+        const name = tr.find('.name').eq(0).text();
 
         // Recently added, not in an official emoji release
         if (name.includes('⊛')) {

@@ -20,7 +20,7 @@ describe('data', () => {
   // Skin modifications and certain sequences are missing specific
   // fields, like tags, annotations, and more. And since we flattened
   // our data, we'll need to wrap tests in conditional blocks.
-  loadFlatEmojiData().forEach(emoji => {
+  loadFlatEmojiData().forEach((emoji) => {
     const { hexcode } = emoji;
     const unicode = emoji.emoji || emoji.text;
 
@@ -57,7 +57,7 @@ describe('data', () => {
         expect(emoji.tags?.length).toBeGreaterThanOrEqual(1);
 
         // eslint-disable-next-line no-unused-expressions
-        emoji.tags?.forEach(tag => {
+        emoji.tags?.forEach((tag) => {
           expect(tag).not.toBe('');
         });
       });
@@ -67,7 +67,7 @@ describe('data', () => {
       it(`defines shortcodes for ${unicode} (${hexcode})`, () => {
         expect(emoji.shortcodes.length).toBeGreaterThanOrEqual(1);
 
-        emoji.shortcodes.forEach(shortcode => {
+        emoji.shortcodes.forEach((shortcode) => {
           expect(shortcode).not.toBe('');
         });
       });

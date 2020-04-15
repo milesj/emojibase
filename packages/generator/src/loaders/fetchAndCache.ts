@@ -27,7 +27,7 @@ export default async function fetchAndCache<T>(
   let text = '';
 
   try {
-    text = await fetch(url).then(response => {
+    text = await fetch(url).then((response) => {
       if (response.ok) {
         return response.text();
       }
@@ -41,7 +41,7 @@ export default async function fetchAndCache<T>(
   }
 
   // Cache the data
-  return writeCache(name, parser(text)).then(data => {
+  return writeCache(name, parser(text)).then((data) => {
     localCache[name] = data;
 
     log.success('load', `Fetched and cached ${name}`);

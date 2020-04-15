@@ -7,7 +7,7 @@ import emojiData from '../../data/en/raw.json';
 const SEQUENCE_HEXCODE_PATTERN = /-(200D|FE0E|FE0F)/g;
 
 describe('fromUnicodeToHexcode()', () => {
-  flattenEmojiData(emojiData).forEach(emoji => {
+  flattenEmojiData(emojiData).forEach((emoji) => {
     const unicode = emoji.type === TEXT ? emoji.text : emoji.emoji;
 
     // The `hexcode` does not include variation selectors,

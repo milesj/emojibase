@@ -32,7 +32,7 @@ export default function parseAnnotations(version: string, content: string): CLDR
         .text()
         .trim()
         .split('|')
-        .map(tag => tag.trim().toLowerCase());
+        .map((tag) => tag.trim().toLowerCase());
     }
   });
 

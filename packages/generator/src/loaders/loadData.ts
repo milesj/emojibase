@@ -9,6 +9,6 @@ export default function loadData(version: string = LATEST_EMOJI_VERSION): Promis
       ? `http://unicode.org/Public/${version}.0/ucd/emoji/emoji-data.txt`
       : `http://unicode.org/Public/emoji/${version}/emoji-data.txt`,
     `${version}/data.json`,
-    data => parseData(version, data),
+    (data) => parseData(version, data),
   );
 }

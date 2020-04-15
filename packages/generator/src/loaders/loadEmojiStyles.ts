@@ -9,6 +9,6 @@ export default function loadEmojiStyles(
   return fetchAndCache(
     `https://unicode.org/emoji/charts-${version}/emoji-style.html`,
     `${version}/emoji-default-styles.json`,
-    data => parseEmojiStyles(data),
+    (data) => parseEmojiStyles(data),
   );
 }

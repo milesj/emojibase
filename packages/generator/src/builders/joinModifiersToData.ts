@@ -29,7 +29,7 @@ const SKIN_TONES: { [hexcode: string]: SkinTone } = {
 };
 
 export default function joinModifiersToData(emojis: EmojiMap) {
-  Object.keys(emojis).forEach(hexcode => {
+  Object.keys(emojis).forEach((hexcode) => {
     const emoji = emojis[hexcode];
 
     // Handle appending a skin tone modification
@@ -120,7 +120,7 @@ export default function joinModifiersToData(emojis: EmojiMap) {
 
       // Generate Emoji_Modifier_Base modifications manually
     } else if (hasProperty(emoji.property, ['Emoji_Modifier_Base'])) {
-      Object.keys(SKIN_TONES).forEach(skinHexcode => {
+      Object.keys(SKIN_TONES).forEach((skinHexcode) => {
         const mod = emojis[skinHexcode];
 
         // @ts-ignore

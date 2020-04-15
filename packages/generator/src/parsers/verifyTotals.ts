@@ -15,7 +15,7 @@ export default function verifyTotals<T>(
   const totalsToCheck: { [key: string]: number } = {};
 
   // Gather totals
-  Object.values(data).forEach(emoji => {
+  Object.values(data).forEach((emoji) => {
     emoji.property.forEach((property: string) => {
       if (totalsToCheck[property]) {
         totalsToCheck[property] += 1;
@@ -26,7 +26,7 @@ export default function verifyTotals<T>(
   });
 
   // Check totals
-  Object.keys(totals).forEach(property => {
+  Object.keys(totals).forEach((property) => {
     if (property in totalsToCheck) {
       const expected = totals[property];
       const actual = totalsToCheck[property];
@@ -44,7 +44,7 @@ export default function verifyTotals<T>(
   });
 
   // Check for unknowns
-  Object.keys(totalsToCheck).forEach(property => {
+  Object.keys(totalsToCheck).forEach((property) => {
     log.error('verify', `Unknown ${version} ${type} property ${property}`);
   });
 

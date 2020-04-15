@@ -10,11 +10,11 @@ export default async function generateVersions(): Promise<void> {
   const emoji: VersionMap = {};
   const unicode: VersionMap = {};
 
-  Object.keys(emojiVersions).forEach(version => {
+  Object.keys(emojiVersions).forEach((version) => {
     emoji[version] = Object.keys(emojiVersions[version]);
   });
 
-  Object.keys(unicodeVersions).forEach(version => {
+  Object.keys(unicodeVersions).forEach((version) => {
     unicode[version] = Object.keys(unicodeVersions[version]);
   });
 

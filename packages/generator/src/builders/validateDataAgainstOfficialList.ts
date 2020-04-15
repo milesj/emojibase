@@ -12,7 +12,7 @@ export default async function validateDataAgainstOfficialList(data: EmojiMap): P
   const defaultStyles = await loadEmojiStyles();
   const emojis = flattenData(data);
 
-  Object.keys(officialSource).forEach(hexcode => {
+  Object.keys(officialSource).forEach((hexcode) => {
     const officialEmoji: EmojiSource = officialSource[hexcode];
 
     // Start off by checking if the emoji actually exists
@@ -26,7 +26,7 @@ export default async function validateDataAgainstOfficialList(data: EmojiMap): P
     const emoji: Emoji = emojis[hexcode];
     const errors: string[] = [];
 
-    Object.keys(officialEmoji).forEach(fieldName => {
+    Object.keys(officialEmoji).forEach((fieldName) => {
       const name = fieldName as keyof EmojiSource;
 
       if (officialEmoji[name] !== emoji[name]) {

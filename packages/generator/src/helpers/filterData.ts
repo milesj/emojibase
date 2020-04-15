@@ -5,7 +5,7 @@ import { EmojiMap } from '../types';
 export default function filterData(data: EmojiMap): EmojiMap {
   const cleaned: EmojiMap = {};
 
-  Object.keys(data).forEach(hexcode => {
+  Object.keys(data).forEach((hexcode) => {
     const emoji = data[hexcode];
 
     if (hasProperty(emoji.property, HIDDEN_EMOJI_PROPERTIES)) {

@@ -8,7 +8,7 @@ function unionize(data: object | unknown[]): string {
     return unionize(Object.values(data));
   }
 
-  return data.map(value => `'${value}'`).join(' | ');
+  return data.map((value) => `'${value}'`).join(' | ');
 }
 
 export default function generateTypes() {

@@ -20,7 +20,7 @@ function createRegexPattern(codePointGroups: TrieMap, unicode: boolean = false):
   // combination characters before base or single characters
   groups.sort((a, b) => Number(b) - Number(a));
 
-  return groups.map(group => codePointGroups[group].toRegExp(flags).source).join('|');
+  return groups.map((group) => codePointGroups[group].toRegExp(flags).source).join('|');
 }
 
 function createEmojiRegex(
@@ -55,7 +55,7 @@ function createEmojiRegex(
   // but we still need to support the old non-variation selector,
   // so include the unicode character that does not include FE0E/FE0F
   // when in loose mode.
-  Object.keys(data).forEach(hexcode => {
+  Object.keys(data).forEach((hexcode) => {
     const { variations } = data[hexcode];
 
     switch (display) {
@@ -109,7 +109,7 @@ function createEmoticonRegex(data: EmojiMap): Promise<string> {
   const trie = new Trie();
   let emoticons: string[] = [];
 
-  Object.keys(data).forEach(hexcode => {
+  Object.keys(data).forEach((hexcode) => {
     const { emoticon } = data[hexcode];
 
     if (emoticon) {

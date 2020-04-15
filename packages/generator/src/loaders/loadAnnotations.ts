@@ -17,7 +17,7 @@ export default function loadAnnotations(
     fetchAndCache(
       `https://raw.githubusercontent.com/unicode-org/cldr/release-${releaseVersion}/common/${folderName}/${pathLocale}.xml`,
       `cldr-${version}/${folderName}-${locale}.json`,
-      data => parseAnnotations(version, data),
+      (data) => parseAnnotations(version, data),
     )
       // Some annotation files do not exist for specific locales,
       // so instead of crashing the entire generator process,

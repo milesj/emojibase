@@ -57,7 +57,7 @@ export default function parse(
     lastTotal = 0;
   };
 
-  content.split('\n').forEach(line => {
+  content.split('\n').forEach((line) => {
     // Skip empty lines
     if (!line.trim()) {
       return;
@@ -69,7 +69,7 @@ export default function parse(
         addTotal();
         lastProperty = line.split(';')[1].trim();
       } else {
-        Object.keys(PROPERTY_CAPTURES).some(start => {
+        Object.keys(PROPERTY_CAPTURES).some((start) => {
           if (line.startsWith(start)) {
             addTotal();
             lastProperty = PROPERTY_CAPTURES[start];
@@ -101,7 +101,7 @@ export default function parse(
     // Split into fields
     const fields = line
       .split(';')
-      .map(col => col.trim())
+      .map((col) => col.trim())
       .slice(0, 4);
 
     lines.push({

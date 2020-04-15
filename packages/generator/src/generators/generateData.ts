@@ -89,18 +89,18 @@ function createEmoji(
 
   // Tags
   if (!emoji.tags || emoji.tags.length === 0) {
-    emoji.tags = emoji.shortcodes.map(code => code.replace(/_/g, ' '));
+    emoji.tags = emoji.shortcodes.map((code) => code.replace(/_/g, ' '));
   }
 
   // Skin modifications
   if ('modifications' in baseEmoji) {
-    emoji.skins = Object.values(baseEmoji.modifications!).map(mod => {
+    emoji.skins = Object.values(baseEmoji.modifications!).map((mod) => {
       const skin = createEmoji(mod, versions, annotations);
 
       skin.annotation =
         (annotations[stripHexcode(skin.hexcode)] || {}).annotation || emoji.annotation || '';
       skin.shortcodes = (emoji.shortcodes || []).map(
-        code => `${code}_tone${Array.isArray(skin.tone) ? skin.tone.join('-') : skin.tone}`,
+        (code) => `${code}_tone${Array.isArray(skin.tone) ? skin.tone.join('-') : skin.tone}`,
       );
 
       // Remove any tags
@@ -123,8 +123,8 @@ function createVersionMap(): HexcodeVersionMap {
     return versions;
   }
 
-  Object.keys(cache.emojiVersions).forEach(version => {
-    Object.keys(cache.emojiVersions[version]).forEach(hexcode => {
+  Object.keys(cache.emojiVersions).forEach((version) => {
+    Object.keys(cache.emojiVersions[version]).forEach((hexcode) => {
       versions[hexcode] = Number(version);
     });
   });
@@ -143,7 +143,7 @@ export default async function generateData(): Promise<void> {
   await Promise.all(
     SUPPORTED_LOCALES.map(async (locale: string) => {
       const annotations = await buildAnnotationData(locale);
-      const emojis = Object.keys(filteredData).map(hexcode =>
+      const emojis = Object.keys(filteredData).map((hexcode) =>
         createEmoji(filteredData[hexcode], versions, annotations),
       );
 
@@ -168,7 +168,7 @@ export default async function generateData(): Promise<void> {
     hexcodes.add(hexcode);
   };
 
-  Object.keys(filteredData).forEach(hexcode => {
+  Object.keys(filteredData).forEach((hexcode) => {
     const { modifications, variations, shortcodes: codes } = filteredData[hexcode];
 
     addMetadata(hexcode);
@@ -179,12 +179,12 @@ export default async function generateData(): Promise<void> {
     }
 
     if (modifications) {
-      Object.values(modifications).forEach(mod => {
+      Object.values(modifications).forEach((mod) => {
         addMetadata(mod.hexcode);
       });
     }
 
-    codes.forEach(code => {
+    codes.forEach((code) => {
       shortcodes.add(code);
     });
   });

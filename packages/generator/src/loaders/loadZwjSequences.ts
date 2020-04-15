@@ -9,6 +9,6 @@ export default function loadZwjSequences(
   return fetchAndCache(
     `http://unicode.org/Public/emoji/${version}/emoji-zwj-sequences.txt`,
     `${version}/zwj-sequences.json`,
-    data => parseSequences(version, data, 'RGI_Emoji_ZWJ_Sequence'),
+    (data) => parseSequences(version, data, 'RGI_Emoji_ZWJ_Sequence'),
   );
 }

@@ -32,7 +32,7 @@ export default function parseOrderAndGroup(content: string): EmojiGroupMap {
   let subgroupIndex = -1;
   let order = 1;
 
-  content.split('\n').forEach(line => {
+  content.split('\n').forEach((line) => {
     // Skip empty lines
     if (!line.trim()) {
       return;

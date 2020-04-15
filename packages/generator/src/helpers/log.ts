@@ -4,7 +4,7 @@ import chalk from 'chalk';
 
 export default {
   error(type: string, ...messages: string[]) {
-    this.log(type, chalk.red('✖'), ...messages.map(message => chalk.red(message)));
+    this.log(type, chalk.red('✖'), ...messages.map((message) => chalk.red(message)));
   },
 
   info(type: string, ...messages: string[]) {
@@ -16,10 +16,10 @@ export default {
   },
 
   success(type: string, ...messages: string[]) {
-    this.log(type, chalk.green('✔'), ...messages.map(message => chalk.green(message)));
+    this.log(type, chalk.green('✔'), ...messages.map((message) => chalk.green(message)));
   },
 
   title(type: string, ...messages: string[]) {
-    this.log(type, ...messages.map(message => chalk.cyan(message)));
+    this.log(type, ...messages.map((message) => chalk.cyan(message)));
   },
 };
