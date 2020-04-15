@@ -25,7 +25,7 @@ export default function parseData(version: string, content: string): EmojiDataMa
       return map;
     }
 
-    const emojiVersion = extractEmojiVersion(line.comment) ?? parseFloat(version);
+    const emojiVersion = extractEmojiVersion(line.comment) ?? Number.parseFloat(version);
     const emoji: EmojiData = {
       description: extractLineDescription(line.comment),
       hexcode: '',

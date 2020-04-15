@@ -24,7 +24,7 @@ export default function parseSequences(
   const data = lines.reduce((map: EmojiDataMap, line: ParsedLine) => {
     const [rawHexcode, property, description] = line.fields;
 
-    const emojiVersion = extractEmojiVersion(line.comment) ?? parseFloat(version);
+    const emojiVersion = extractEmojiVersion(line.comment) ?? Number.parseFloat(version);
 
     spreadHexcode(rawHexcode, (hexcode) => {
       map[hexcode] = {

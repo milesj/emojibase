@@ -83,7 +83,7 @@ export default function parse(
 
       // And the total
       if (line.startsWith('# Total') || line.startsWith('#Total')) {
-        lastTotal = parseFloat(line.split(':')[1].trim());
+        lastTotal = Number.parseFloat(line.split(':')[1].trim());
       }
 
       return;
