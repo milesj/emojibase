@@ -170,7 +170,7 @@ dataset looked like the following:
 
 To avoid duplication across our datasets, the emoji _with_ variation selector (ending in `FE0F`) is
 removed from the final output, and all unique properties are merged into the non-variation selector
-sibling. Don't fret though, as the [`emoji` property](./data.md#data-structure) _will always_
+sibling. Don't fret though, as the [`emoji` property](./datasets.mdx#data-structure) _will always_
 include the variation selector, along with the `text` property.
 
 The resulting dataset would include the following structure:

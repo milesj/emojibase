@@ -58,9 +58,9 @@ fetchFromCDN('ja/compact.json', '2.1.3').then(flattenEmojiData);
 
 > flattenEmojiData(data: Emoji[]): Emoji[]
 
-By default, emoji [skin modifications are nested](./data.md#data-structure) under the base neutral
-skin tone emoji. To flatten the data into a single dimension array, use the `flattenEmojiData`
-function.
+By default, emoji [skin modifications are nested](./datasets.mdx#data-structure) under the base
+neutral skin tone emoji. To flatten the data into a single dimension array, use the
+`flattenEmojiData` function.
 
 ```ts
 import { flattenEmojiData } from 'emojibase';

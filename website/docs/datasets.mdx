@@ -111,7 +111,7 @@ values have been implemented using integers,
   (flags).
 - `hexcode` (`string`) - The hexadecimal representation of the emoji Unicode codepoint, including
   zero width joiners and variation selectors.
-- `name` (`string`) - The generated name according to the official [Unicode data][ucd].
+- `name` (`string`) - The generated name according to the official Unicode data.
 - `order` (`number`) - The order in which emoji should be displayed on a device, through a keyboard
   or emoji picker.
 - `shortcodes` (`string[]`) - An array of community curated shortcodes. _Does not include
@@ -232,9 +232,6 @@ fetchFromCDN('en/data.json').then((emojis) => {
 
 Learn more about the [`fetchFromCDN` API](./api.mdx#fetchFromCDN).
 
-[cldr]: http://cldr.unicode.org/index/downloads/cldr-36
-[ucd]: http://unicode.org/Public/10.0.0/ucd/UnicodeData.txt
-
 ## Filesizes
 
 | File                  | Size      | Gzipped   |
@@ -283,3 +280,5 @@ Learn more about the [`fetchFromCDN` API](./api.mdx#fetchFromCDN).
 | de/data.json          | 866.54 KB | 109.37 KB |
 | ru/data.json          | 962.64 KB | 117.61 KB |
 | th/data.json          | 974.31 KB | 108.86 KB |
+
+[cldr]: http://cldr.unicode.org/index/downloads/cldr-36
