@@ -1,22 +1,45 @@
-# Datasets
+---
+title: Datasets
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 Emoji's are generated into JSON files called datasets, with each dataset being grouped into one of
 the following: localized data, versioned data, and metadata. These datasets can be found within the
-`emojibase-data` package.
+`emojibase-data` package, or [loaded from a CDN](#fetching-from-a-cdn).
 
-```
+<Tabs
+  groupId="package-manager"
+  defaultValue="yarn"
+  values={[
+    { label: 'Yarn', value: 'yarn' },
+    { label: 'NPM', value: 'npm' },
+  ]}
+>
+  <TabItem value="yarn">
+
+```bash
 yarn add emojibase-data
-// Or
+```
+
+  </TabItem>
+  <TabItem value="npm">
+
+```bash
 npm install emojibase-data
 ```
+
+  </TabItem>
+</Tabs>
 
 > JSON files will need to be parsed manually unless handled by a build/bundle process.
 
 ## Usage
 
 As stated, there are 3 groups of datasets, each serving a specific purpose. The first group,
-localized data, is exactly that, datasets with localization provided by [CLDR 36.1][cldr]. The
-following locales and languages are currently supported:
+localized data, is exactly that, datasets with localization provided by [CLDR][cldr]. The following
+locales and languages are currently supported:
 
 - `emojibase-data/zh/data.json` - Chinese (zh)
 - `emojibase-data/zh-hant/data.json` - Chinese, Traditional (zh-hant)
@@ -71,41 +94,41 @@ The third and last group, metadata, provides specialized datasets for unique use
 import { groups, subgroups, hierarchy } from 'emojibase-data/meta/groups.json';
 ```
 
-## Data Structure
+## Data structure
 
 Each emoji character found within the pre-generated datasets are represented by an object composed
 of the properties listed below. In an effort to reduce the overall dataset filesize, most property
 values have been implemented using integers,
 [with associated constants](https://github.com/milesj/emojibase/blob/master/packages/core/src/constants.ts).
 
-- `annotation` (string) - A localized description, provided by [CLDR 36.1][cldr], primarily used for
+- `annotation` (`string`) - A localized description, provided by [CLDR][cldr], primarily used for
   text-to-speech (TTS) and accessibility.
-- `emoji` (string) - The emoji presentation Unicode character.
-- `emoticon` (string) - If applicable, an emoticon representing the emoji character.
-- `gender` (number) - If applicable, the gender of the emoji character. `0` for female, `1` for
+- `emoji` (`string`) - The emoji presentation Unicode character.
+- `emoticon` (`string`) - If applicable, an emoticon representing the emoji character.
+- `gender` (`number`) - If applicable, the gender of the emoji character. `0` for female, `1` for
   male.
-- `group` (number) - The categorical group the emoji belongs to, ranging from `0` (smileys) to `7`
+- `group` (`number`) - The categorical group the emoji belongs to, ranging from `0` (smileys) to `7`
   (flags).
-- `hexcode` (string) - The hexadecimal representation of the emoji Unicode codepoint, including zero
-  width joiners and variation selectors.
-- `name` (string) - The generated name according to the official [Unicode data][ucd].
-- `order` (number) - The order in which emoji should be displayed on a device, through a keyboard or
-  emoji picker.
-- `shortcodes` (string[]) - An array of community curated shortcodes. _Does not include surrounding
-  colons_.
-- `skins` (emoji[]) - If applicable, an array of emoji objects for each skin tone modification,
+- `hexcode` (`string`) - The hexadecimal representation of the emoji Unicode codepoint, including
+  zero width joiners and variation selectors.
+- `name` (`string`) - The generated name according to the official [Unicode data][ucd].
+- `order` (`number`) - The order in which emoji should be displayed on a device, through a keyboard
+  or emoji picker.
+- `shortcodes` (`string[]`) - An array of community curated shortcodes. _Does not include
+  surrounding colons_.
+- `skins` (`emoji[]`) - If applicable, an array of emoji objects for each skin tone modification,
   starting at light skin, and ending with dark skin.
-- `subgroup` (number) - The categorical subgroup the emoji belongs to, ranging from `0` to `75`.
-- `tags` (string[]) - An array of localized keywords, provided by [CLDR 36.1][cldr], to use for
+- `subgroup` (`number`) - The categorical subgroup the emoji belongs to, ranging from `0` to `75`.
+- `tags` (`string[]`) - An array of localized keywords, provided by [CLDR][cldr], to use for
   searching and filtering.
-- `text` (string) - The text presentation Unicode character.
-- `tone` (number | number[]) - If applicable, the skin tone of the emoji character. `1` for light
+- `text` (`string`) - The text presentation Unicode character.
+- `tone` (`number | number[]`) - If applicable, the skin tone of the emoji character. `1` for light
   skin, `2` for medium-light skin, `3` for medium skin, `4` for medium-dark skin, and `5` for dark
   skin. Multi-person skin tones will be an array of values.
-- `type` (number) - The default presentation of the emoji character. `0` for text, `1` for emoji.
-- `unicode` (string) - Either the emoji or text presentation Unicode character. _Only available in
+- `type` (`number`) - The default presentation of the emoji character. `0` for text, `1` for emoji.
+- `unicode` (`string`) - Either the emoji or text presentation Unicode character. _Only available in
   the compact dataset._
-- `version` (number) - The version in which the emoji character was released.
+- `version` (`number`) - The version in which the emoji character was released.
 
 > Not all properties will be found in the emoji object, as properties without an applicable value
 > are omitted from the emoji object.
@@ -151,7 +174,7 @@ values have been implemented using integers,
 },
 ```
 
-## Compact Format
+## Compact format
 
 While the emoji data is pretty thorough, not all of it may be required, and as such, a compact
 dataset is supported. This dataset supports the following properties: `annotation`, `emoticon`,
@@ -193,11 +216,11 @@ import data from 'emojibase-data/en/compact.json';
 },
 ```
 
-## Fetching From A CDN
+## Fetching from a CDN
 
 If you prefer to not inflate your bundle size with these large JSON datasets, you can fetch them
 from our CDN ([provided by jsdelivr.com](https://cdn.jsdelivr.net/npm/emojibase-data@latest/)) using
-`fetchFromCDN`.
+`fetchFromCDN()`.
 
 ```ts
 import { fetchFromCDN } from 'emojibase';
@@ -207,7 +230,7 @@ fetchFromCDN('en/data.json').then((emojis) => {
 });
 ```
 
-Learn more about the [`fetchFromCDN` API](./api.md#fetchFromCDN).
+Learn more about the [`fetchFromCDN` API](./api.mdx#fetchFromCDN).
 
 [cldr]: http://cldr.unicode.org/index/downloads/cldr-36
 [ucd]: http://unicode.org/Public/10.0.0/ucd/UnicodeData.txt

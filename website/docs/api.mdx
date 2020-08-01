@@ -1,18 +1,41 @@
-# API
+---
+title: API
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 What kind of emoji database would this be without a few helper functions for easily using and
 working with emoji characters? A bad one, and thus, a handful of functions can be found in the
 `emojibase` package.
 
-```
+<Tabs
+  groupId="package-manager"
+  defaultValue="yarn"
+  values={[
+    { label: 'Yarn', value: 'yarn' },
+    { label: 'NPM', value: 'npm' },
+  ]}
+>
+  <TabItem value="yarn">
+
+```bash
 yarn add emojibase
-// Or
+```
+
+  </TabItem>
+  <TabItem value="npm">
+
+```bash
 npm install emojibase
 ```
 
-## fetchFromCDN
+  </TabItem>
+</Tabs>
 
-`fetchFromCDN<T>(path: string, version?: string, options?: FetchFromCDNOptions): Promise<T[]>`
+## `fetchFromCDN`
+
+> fetchFromCDN<T\>(path: string, version?: string, options?: FetchFromCDNOptions): Promise<T[]\>
 
 This function will fetch `emojibase-data` JSON files from our
 [CDN](https://cdn.jsdelivr.net/npm/emojibase-data@latest/), parse them, and return an array of emoji
@@ -31,9 +54,9 @@ fetchFromCDN('ja/compact.json', '2.1.3').then(flattenEmojiData);
 > Successfully fetched data will be cached in session storage. If `local` is passed as an option,
 > local storage will be used instead. Be sure to invalidate manually if used!
 
-## flattenEmojiData
+## `flattenEmojiData`
 
-`flattenEmojiData(data: Emoji[]): Emoji[]`
+> flattenEmojiData(data: Emoji[]): Emoji[]
 
 By default, emoji [skin modifications are nested](./data.md#data-structure) under the base neutral
 skin tone emoji. To flatten the data into a single dimension array, use the `flattenEmojiData`
@@ -72,9 +95,9 @@ flattenEmojiData([
 
 > Tags from the parent emoji will be passed down to the skin modifications.
 
-## fromCodepointToUnicode
+## `fromCodepointToUnicode`
 
-`fromCodepointToUnicode(codepoint: CodePoint[]): Unicode`
+> fromCodepointToUnicode(codepoint: CodePoint[]): Unicode
 
 This function will convert an array of numerical codepoints to a literal emoji Unicode character.
 
@@ -84,9 +107,9 @@ import { fromCodepointToUnicode } from 'emojibase';
 fromCodepointToUnicode([128104, 8205, 128105, 8205, 128103, 8205, 128102]); // 👨‍👩‍👧‍👦
 ```
 
-## fromHexcodeToCodepoint
+## `fromHexcodeToCodepoint`
 
-`fromHexcodeToCodepoint(code: Hexcode, joiner?: string): CodePoint[]`
+> fromHexcodeToCodepoint(code: Hexcode, joiner?: string): CodePoint[]
 
 This function will convert a hexadecimal codepoint to an array of numerical codepoints. By default,
 it will split the hexcode using a dash, but can be customized with the 2nd argument.
@@ -98,9 +121,9 @@ fromHexcodeToCodepoint('270A-1F3FC'); // [9994, 127996]
 fromHexcodeToCodepoint('270A 1F3FC', ' '); // [9994, 127996]
 ```
 
-## fromUnicodeToHexcode
+## `fromUnicodeToHexcode`
 
-`fromUnicodeToHexcode(unicode: Unicode, strip?: boolean): Hexcode`
+> fromUnicodeToHexcode(unicode: Unicode, strip?: boolean): Hexcode
 
 This function will convert a literal emoji Unicode character into a dash separated hexadecimal
 codepoint. Unless `false` is passed as the 2nd argument, zero width joiner's and variation selectors
@@ -113,9 +136,9 @@ fromUnicodeToHexcode('👨‍👩‍👧‍👦'); // 1F468-1F469-1F467-1F466
 fromUnicodeToHexcode('👨‍👩‍👧‍👦', false); // 1F468-200D-1F469-200D-1F467-200D-1F466
 ```
 
-## generateEmoticonPermutations
+## `generateEmoticonPermutations`
 
-`generateEmoticonPermutations(emoticon: Emoticon, options?: PermutationOptions): Emoticon[]`
+> generateEmoticonPermutations(emoticon: Emoticon, options?: PermutationOptions): Emoticon[]
 
 This function will generate multiple permutations of a base emoticon character. The following
 permutations will occur:
@@ -132,7 +155,7 @@ import { generateEmoticonPermutations } from 'emojibase';
 generateEmoticonPermutations(':)'); // =-), =-}, :-], =-], :-}, :-), =}, =], =), :}, :], :)
 ```
 
-> The base emoticon must follow a set of [naming guidelines](./emoticonds.md) to work properly.
+> The base emoticon must follow a set of [naming guidelines](./emoticons.md) to work properly.
 
 Furthermore, this function accepts an options object as the 2nd argument, as a means to customize
 the output.
@@ -145,9 +168,9 @@ generateEmoticonPermutations(':)', { withNose: false }); // =}, =], =), :}, :], 
 generateEmoticonPermutations('\\m/', { isFace: false }); // \m/, \M/
 ```
 
-## stripHexcode
+## `stripHexcode`
 
-`stripHexcode(hexcode: Hexcode): Hexcode`
+> stripHexcode(hexcode: Hexcode): Hexcode
 
 This function will strip zero width joiners (`200D`) and variation selectors (`FE0E`, `FE0F`) from a
 hexadecimal codepoint.

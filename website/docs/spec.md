@@ -1,72 +1,9 @@
-# Specification Alignment
+---
+title: Specification alignment
+---
 
 Emojibase aims to be as specification compliant as possible, but to ensure small datasets, and ease
 of use, some liberties are taken.
-
-## v11.0
-
-### Separate genders
-
-Separate genders are represented as 3 unique emoji types (people/person, women/woman, or men/man),
-each with their own hexcodes.
-
-```json
-{
-  "annotation": "person in steamy room",
-  "name": "PERSON IN STEAMY ROOM",
-  "hexcode": "1F9D6"
-  // ...
-},
-{
-  "annotation": "man in steamy room",
-  "name": "PERSON IN STEAMY ROOM, MALE SIGN",
-  "hexcode": "1F9D6-200D-2642-FE0F"
-  // ...
-},
-{
-  "annotation": "woman in steamy room",
-  "name": "PERSON IN STEAMY ROOM, FEMALE SIGN",
-  "hexcode": "1F9D6-200D-2640-FE0F"
-  // ...
-},
-```
-
-> The men and women variants **always** refer back to the people variant through a shared hexcode
-> (`1F9D6` in the example above).
-
-### Combination genders
-
-Single emojis that support multiple genders are also represented as unique emojis with their own
-hexcodes.
-
-```json
-{
-  "annotation": "kiss",
-  "name": "KISS",
-  "hexcode": "1F48F"
-  // ...
-},
-{
-  "annotation": "kiss: woman, man",
-  "name": "WOMAN, HEAVY BLACK HEART, KISS MARK, MAN",
-  "hexcode": "1F469-200D-2764-FE0F-200D-1F48B-200D-1F468"
-  // ...
-},
-{
-  "annotation": "kiss: man, man",
-  "name": "MAN, HEAVY BLACK HEART, KISS MARK, MAN",
-  "hexcode": "1F468-200D-2764-FE0F-200D-1F48B-200D-1F468",
-  // ...
-},
-{
-  "annotation": "kiss: woman, woman",
-  "name": "WOMAN, HEAVY BLACK HEART, KISS MARK, WOMAN",
-  "hexcode": "1F469-200D-2764-FE0F-200D-1F48B-200D-1F469",
-  // ...
-},
-```
-
-> The men and women variants **do not** share a hexcode with the people emoji.
 
 ## v12.0
 
@@ -248,3 +185,68 @@ The resulting dataset would include the following structure:
   // ...
 }
 ```
+
+## v11.0
+
+### Separate genders
+
+Separate genders are represented as 3 unique emoji types (people/person, women/woman, or men/man),
+each with their own hexcodes.
+
+```json
+{
+  "annotation": "person in steamy room",
+  "name": "PERSON IN STEAMY ROOM",
+  "hexcode": "1F9D6"
+  // ...
+},
+{
+  "annotation": "man in steamy room",
+  "name": "PERSON IN STEAMY ROOM, MALE SIGN",
+  "hexcode": "1F9D6-200D-2642-FE0F"
+  // ...
+},
+{
+  "annotation": "woman in steamy room",
+  "name": "PERSON IN STEAMY ROOM, FEMALE SIGN",
+  "hexcode": "1F9D6-200D-2640-FE0F"
+  // ...
+},
+```
+
+> The men and women variants **always** refer back to the people variant through a shared hexcode
+> (`1F9D6` in the example above).
+
+### Combination genders
+
+Single emojis that support multiple genders are also represented as unique emojis with their own
+hexcodes.
+
+```json
+{
+  "annotation": "kiss",
+  "name": "KISS",
+  "hexcode": "1F48F"
+  // ...
+},
+{
+  "annotation": "kiss: woman, man",
+  "name": "WOMAN, HEAVY BLACK HEART, KISS MARK, MAN",
+  "hexcode": "1F469-200D-2764-FE0F-200D-1F48B-200D-1F468"
+  // ...
+},
+{
+  "annotation": "kiss: man, man",
+  "name": "MAN, HEAVY BLACK HEART, KISS MARK, MAN",
+  "hexcode": "1F468-200D-2764-FE0F-200D-1F48B-200D-1F468",
+  // ...
+},
+{
+  "annotation": "kiss: woman, woman",
+  "name": "WOMAN, HEAVY BLACK HEART, KISS MARK, WOMAN",
+  "hexcode": "1F469-200D-2764-FE0F-200D-1F48B-200D-1F469",
+  // ...
+},
+```
+
+> The men and women variants **do not** share a hexcode with the people emoji.
