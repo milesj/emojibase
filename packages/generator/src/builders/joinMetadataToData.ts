@@ -22,7 +22,7 @@ export default function joinMetadataToData(
     const emoji = emojis[hexcode];
 
     // Determine the correct default presentation
-    // http://www.unicode.org/reports/tr51/#Emoji_Presentation
+    // http://unicode.org/reports/tr51/#Emoji_Presentation
     emoji.type = emoji.property.some(
       (prop) =>
         prop === 'Basic_Emoji' || prop === 'Emoji_Presentation' || prop.endsWith('Sequence'),

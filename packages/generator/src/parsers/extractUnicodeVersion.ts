@@ -1,4 +1,4 @@
-// https://www.unicode.org/reports/tr51/#EmojiVersions
+// https://unicode.org/reports/tr51/#EmojiVersions
 export default function extractUnicodeVersion(emojiVersion: number): number {
   // v11 aligned emoji and unicode specs
   if (emojiVersion >= 11) {

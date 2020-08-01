@@ -9,9 +9,9 @@ of use, some liberties are taken.
 
 ### Combination skin tones
 
-Some [multi-person](http://www.unicode.org/reports/tr51/#Multi_Person_Groupings) emojis (couple,
-holding hands, etc) can now change the skin tones of individual persons in the emoji. This is
-problematic because:
+Some [multi-person](http://unicode.org/reports/tr51/#Multi_Person_Groupings) emojis (couple, holding
+hands, etc) can now change the skin tones of individual persons in the emoji. This is problematic
+because:
 
 - The number of combinations may grow over time.
 - The number of skin tones for an emoji may be greater than 5.
@@ -150,7 +150,7 @@ Overtime, emoji (`FE0F`) and text (`FE0E`) variation selector characters (additi
 appended to emoji characters to differentiate their presentation.
 
 In v12, many existing emoji have been duplicated to always include the emoji variation selector
-([more info here](http://www.unicode.org/reports/tr51/#Presentation_Style)). An example of this raw
+([more info here](http://unicode.org/reports/tr51/#Presentation_Style)). An example of this raw
 dataset looked like the following:
 
 ```json

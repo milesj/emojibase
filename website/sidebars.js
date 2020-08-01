@@ -29,23 +29,13 @@ module.exports = {
         },
         {
           type: 'link',
-          label: 'Emoji v13',
-          href: 'https://emojipedia.org/emoji-13.0/',
-        },
-        {
-          type: 'link',
-          label: 'Unicode v13',
-          href: 'http://unicode.org/versions/Unicode13.0.0/',
-        },
-        {
-          type: 'link',
           label: 'CLDR v36.1',
           href: 'http://cldr.unicode.org/index/downloads/cldr-36',
         },
         {
           type: 'link',
           label: 'UTR #51',
-          href: 'http://www.unicode.org/reports/tr51/',
+          href: 'http://unicode.org/reports/tr51/',
         },
         {
           type: 'link',

@@ -1,6 +1,11 @@
 /* eslint-disable sort-keys */
 
+const { EMOJI_VERSIONS, UNICODE_VERSIONS } = require('emojibase');
 const pkg = require('emojibase/package.json');
+
+function sortVersions(versions) {
+  return [...versions].sort((a, b) => Number.parseFloat(a) - Number.parseFloat(b)).reverse();
+}
 
 module.exports = {
   title: 'Emojibase',
@@ -35,6 +40,22 @@ module.exports = {
           href: 'https://github.com/milesj/emojibase',
           label: 'GitHub',
           position: 'right',
+        },
+        {
+          label: 'Emoji versions',
+          position: 'right',
+          items: sortVersions(EMOJI_VERSIONS).map((version) => ({
+            label: version,
+            href: `https://emojipedia.org/emoji-${version}/`,
+          })),
+        },
+        {
+          label: 'Unicode versions',
+          position: 'right',
+          items: sortVersions(UNICODE_VERSIONS).map((version) => ({
+            label: version,
+            href: `http://unicode.org/versions/Unicode${version}.0/`,
+          })),
         },
       ],
     },
