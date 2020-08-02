@@ -59,11 +59,20 @@ function filterAndSortEmojis(
     .sort((a, b) => a.order - b.order);
 }
 
+function updateUrlFragment(query: URLSearchParams) {
+  history.pushState(
+    {},
+    document.title,
+    `${location.origin}${location.pathname}?${query.toString()}`,
+  );
+}
+
 export default function Browser() {
-  const [filter, setFilter] = useState('');
-  const [locale, setLocale] = useState('en');
-  const [group, setGroup] = useState(-1);
-  const [subgroup, setSubgroup] = useState(-1);
+  const query = new URLSearchParams(location.search);
+  const [filter, setFilter] = useState(query.get('filter') ?? '');
+  const [locale, setLocale] = useState(query.get('locale') ?? 'en');
+  const [group, setGroup] = useState<number>(Number(query.get('group') ?? -1));
+  const [subgroup, setSubgroup] = useState<number>(Number(query.get('subgroup') ?? -1));
   const [emojis, setEmojis] = useState<Emoji[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -80,20 +89,37 @@ export default function Browser() {
   }, [locale]);
 
   const handleFilterChange = (event: React.FormEvent<HTMLInputElement>) => {
-    setFilter(event.currentTarget.value);
+    const { value } = event.currentTarget;
+
+    query.set('filter', value);
+    setFilter(value);
+    updateUrlFragment(query);
   };
 
   const handleLocaleChange = (event: React.FormEvent<HTMLSelectElement>) => {
-    setLocale(event.currentTarget.value);
+    const { value } = event.currentTarget;
+
+    query.set('locale', value);
+    setLocale(value);
+    updateUrlFragment(query);
   };
 
   const handleGroupChange = (event: React.FormEvent<HTMLSelectElement>) => {
-    setGroup(Number(event.currentTarget.value));
+    const value = Number(event.currentTarget.value);
+
+    query.set('group', String(value));
+    query.set('subgroup', '-1');
+    setGroup(value);
     setSubgroup(-1);
+    updateUrlFragment(query);
   };
 
   const handleSubgroupChange = (event: React.FormEvent<HTMLSelectElement>) => {
-    setSubgroup(Number(event.currentTarget.value));
+    const value = Number(event.currentTarget.value);
+
+    query.set('subgroup', String(value));
+    setSubgroup(value);
+    updateUrlFragment(query);
   };
 
   const list = filterAndSortEmojis(emojis, filter.toLocaleLowerCase(), group, subgroup);
@@ -201,7 +227,11 @@ export default function Browser() {
                     list.map((emoji) => (
                       <tr key={emoji.hexcode} data-hexcode={emoji.hexcode}>
                         <td className="text--center">{emoji.emoji || emoji.text}</td>
-                        <td>{emoji.annotation}</td>
+                        <td>
+                          {emoji.annotation}
+
+                          {emoji.emoticon && <span className="text--muted"> {emoji.emoticon}</span>}
+                        </td>
                         <td>{emoji.shortcodes.map((s) => `:${s}:`).join(', ')}</td>
                         <td>{emoji.tags.join(', ')}</td>
                       </tr>

@@ -35,6 +35,10 @@
   margin-right: auto;
 }
 
+.text--muted {
+  color: var(--ifm-color-secondary-darkest);
+}
+
 input,
 select {
   width: 100%;

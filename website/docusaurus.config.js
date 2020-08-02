@@ -31,13 +31,13 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/',
+          to: 'docs',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
         {
-          to: 'browser/',
+          to: 'browser',
           label: 'Browser',
           position: 'left',
         },
