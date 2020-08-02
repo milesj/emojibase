@@ -47,7 +47,7 @@ function Feature({ imageUrl, title, description }: FeatureProps) {
   );
 }
 
-function Home() {
+export default function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
 
@@ -89,5 +89,3 @@ function Home() {
     </Layout>
   );
 }
-
-export default Home;

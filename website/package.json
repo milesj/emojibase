@@ -17,8 +17,12 @@
     "@mdx-js/react": "^1.5.8",
     "clsx": "^1.1.1",
     "emojibase": "file:../packages/core",
+    "emojibase-data": "file:../packages/data",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.24"
   },
   "browserslist": {
     "production": [

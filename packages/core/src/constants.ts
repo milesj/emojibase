@@ -44,6 +44,9 @@ export const FIRST_UNICODE_EMOJI_VERSION = '6.0.0';
 export const EMOJI_VERSIONS = ['1.0', '2.0', '3.0', '4.0', '5.0', '11.0', '12.0', '12.1', '13.0'];
 export const UNICODE_VERSIONS = [
   '6.0',
+  '6.1',
+  '6.2',
+  '6.3',
   '7.0',
   '8.0',
   '9.0',

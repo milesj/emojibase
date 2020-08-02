@@ -37,6 +37,11 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'browser/',
+          label: 'Browser',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/milesj/emojibase',
           label: 'GitHub',
           position: 'right',
