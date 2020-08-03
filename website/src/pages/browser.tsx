@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { fetchFromCDN, Emoji } from 'emojibase';
+import { flattenEmojiData, fetchFromCDN, Emoji } from 'emojibase';
 import groupsData from 'emojibase-data/meta/groups.json';
 import Layout from '@theme/Layout';
 import styles from './styles.module.css';
@@ -73,6 +73,7 @@ export default function Browser() {
   const [locale, setLocale] = useState(query.get('locale') ?? 'en');
   const [group, setGroup] = useState<number>(Number(query.get('group') ?? -1));
   const [subgroup, setSubgroup] = useState<number>(Number(query.get('subgroup') ?? -1));
+  const [skinTones, setSkinTones] = useState(Boolean(query.get('skinTones') ?? false));
   const [emojis, setEmojis] = useState<Emoji[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -122,7 +123,20 @@ export default function Browser() {
     updateUrlFragment(query);
   };
 
-  const list = filterAndSortEmojis(emojis, filter.toLocaleLowerCase(), group, subgroup);
+  const handleSkinToneChange = (event: React.FormEvent<HTMLInputElement>) => {
+    const { checked } = event.currentTarget;
+
+    query.set('skinTones', String(checked));
+    setSkinTones(checked);
+    updateUrlFragment(query);
+  };
+
+  const list = filterAndSortEmojis(
+    skinTones ? flattenEmojiData(emojis) : emojis,
+    filter.toLocaleLowerCase(),
+    group,
+    subgroup,
+  );
 
   return (
     <Layout title="Emoji browser" description="Browse all emojis across any supported locale.">
@@ -201,6 +215,24 @@ export default function Browser() {
                 </select>
               </div>
             </div>
+
+            <br />
+
+            <div className="row">
+              <div className="col col--3">
+                <label htmlFor="skinTones">
+                  <input
+                    type="checkbox"
+                    id="skinTones"
+                    name="skinTones"
+                    checked={skinTones}
+                    onChange={handleSkinToneChange}
+                    disabled={loading}
+                  />{' '}
+                  Include skin tone variations?
+                </label>
+              </div>
+            </div>
           </div>
 
           <table style={{ width: '100%' }}>
@@ -223,26 +255,24 @@ export default function Browser() {
 
               {!loading && (
                 <>
-                  {list.length > 0 ? (
-                    list.map((emoji) => (
-                      <tr key={emoji.hexcode} data-hexcode={emoji.hexcode}>
-                        <td className="text--center">{emoji.emoji || emoji.text}</td>
-                        <td>
-                          {emoji.annotation}
+                  <tr>
+                    <td colSpan={4} className="text--center">
+                      {list.length.toLocaleString()} emojis
+                    </td>
+                  </tr>
 
-                          {emoji.emoticon && <span className="text--muted"> {emoji.emoticon}</span>}
-                        </td>
-                        <td>{emoji.shortcodes.map((s) => `:${s}:`).join(', ')}</td>
-                        <td>{emoji.tags.join(', ')}</td>
-                      </tr>
-                    ))
-                  ) : (
-                    <tr>
-                      <td colSpan={4} className="text--center">
-                        No results found.
+                  {list.map((emoji) => (
+                    <tr key={emoji.hexcode} data-hexcode={emoji.hexcode}>
+                      <td className="text--center">{emoji.emoji || emoji.text}</td>
+                      <td>
+                        {emoji.annotation}
+
+                        {emoji.emoticon && <span className="text--muted"> {emoji.emoticon}</span>}
                       </td>
+                      <td>{emoji.shortcodes.map((s) => `:${s}:`).join(', ')}</td>
+                      <td>{emoji.tags.join(', ')}</td>
                     </tr>
-                  )}
+                  ))}
                 </>
               )}
             </tbody>
