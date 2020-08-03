@@ -14,19 +14,34 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: 'TODO',
+    title: 'Specification compliant',
     // imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: <>TODO</>,
+    description: (
+      <>
+        With data being derived from the official Unicode data files, and aligned with Unicode
+        Technical Standard's #51 and #35, we can ensure a specification compliant solution.
+      </>
+    ),
   },
   {
-    title: 'TODO',
+    title: 'Localized datasets',
     // imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: <>TODO</>,
+    description: (
+      <>
+        Easily internationalize your emoji integration with one of our 19 supported languages and
+        growing. Is your language not supported? Just ask!
+      </>
+    ),
   },
   {
-    title: 'TODO',
+    title: 'Historical information',
     // imageUrl: 'img/undraw_docusaurus_react.svg',
-    description: <>TODO</>,
+    description: (
+      <>
+        Whether it's skin tone variations, genders, multi-person, or Unicode versioning, we capture
+        and persist all historical information for reusability.
+      </>
+    ),
   },
 ];
 
@@ -52,7 +67,7 @@ export default function Home() {
   const { siteConfig = {} } = context;
 
   return (
-    <Layout title="Safely render HTML in React" description={siteConfig.tagline}>
+    <Layout title="Spec compliant emoji datasets" description={siteConfig.tagline}>
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>

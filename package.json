@@ -49,6 +49,9 @@
       }
     ],
     "eslint": {
+      "ignore": [
+        "website/"
+      ],
       "rules": {
         "no-magic-numbers": "off",
         "no-param-reassign": "off",
