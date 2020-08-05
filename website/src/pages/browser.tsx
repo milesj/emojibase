@@ -1,8 +1,11 @@
+import 'url-search-params-polyfill';
 import React, { useEffect, useState } from 'react';
 import { flattenEmojiData, fetchFromCDN, Emoji } from 'emojibase';
 import groupsData from 'emojibase-data/meta/groups.json';
 import Layout from '@theme/Layout';
 import styles from './styles.module.css';
+
+const isBrowser = typeof location !== 'undefined';
 
 const LOCALES = [
   { value: 'zh', label: 'Chinese (zh)' },
@@ -49,7 +52,8 @@ function filterAndSortEmojis(
             .map((shortcode) => shortcode.toLocaleLowerCase().includes(filter))
             .indexOf(true) > -1;
         const matchesAnyTags =
-          emoji.tags.map((tag) => tag.toLocaleLowerCase().includes(filter)).indexOf(true) > -1;
+          (emoji.tags || []).map((tag) => tag.toLocaleLowerCase().includes(filter)).indexOf(true) >
+          -1;
 
         return matchesAnnotation || matchesAnyShortcode || matchesAnyTags;
       }
@@ -60,15 +64,17 @@ function filterAndSortEmojis(
 }
 
 function updateUrlFragment(query: URLSearchParams) {
-  history.pushState(
-    {},
-    document.title,
-    `${location.origin}${location.pathname}?${query.toString()}`,
-  );
+  if (isBrowser) {
+    history.pushState(
+      {},
+      document.title,
+      `${location.origin}${location.pathname}?${query.toString()}`,
+    );
+  }
 }
 
 export default function Browser() {
-  const query = new URLSearchParams(location.search);
+  const query = new URLSearchParams(isBrowser ? location.search : '');
   const [filter, setFilter] = useState(query.get('filter') ?? '');
   const [locale, setLocale] = useState(query.get('locale') ?? 'en');
   const [group, setGroup] = useState<number>(Number(query.get('group') ?? -1));

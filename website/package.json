@@ -11,15 +11,16 @@
     "serve": "docusaurus serve"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.60",
-    "@docusaurus/module-type-aliases": "^2.0.0-alpha.51",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.60",
+    "@docusaurus/core": "^2.0.0-alpha.61",
+    "@docusaurus/module-type-aliases": "^2.0.0-alpha.61",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.61",
     "@mdx-js/react": "^1.5.8",
     "clsx": "^1.1.1",
     "emojibase": "file:../packages/core",
     "emojibase-data": "file:../packages/data",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "url-search-params-polyfill": "^8.1.0"
   },
   "devDependencies": {
     "@types/react": "^16.8.24"
