@@ -14,7 +14,7 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: 'Specification compliant',
+    title: '📑 Specification compliant',
     // imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
@@ -24,7 +24,7 @@ const features: FeatureProps[] = [
     ),
   },
   {
-    title: 'Localized datasets',
+    title: '🇺🇳 Localized datasets',
     // imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
@@ -34,7 +34,7 @@ const features: FeatureProps[] = [
     ),
   },
   {
-    title: 'Historical information',
+    title: '📜 Historical information',
     // imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
