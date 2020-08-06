@@ -1,3 +1,9 @@
+### 4.1.1 - 2020-08-05
+
+#### 🐞 Fixes
+
+- Fixed some build issues.
+
 ## 4.1.0 - 2020-08-05
 
 #### 🚀 Updates
