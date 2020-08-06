@@ -1,3 +1,14 @@
+## 4.1.0 - 2020-08-05
+
+#### 🚀 Updates
+
+- Added `UNICODE_VERSIONS` constant.
+- Updated to [CLDR 37](http://cldr.unicode.org/index/downloads/cldr-37).
+
+#### 🛠 Internals
+
+- Updated `LATEST_CLDR_VERSION` to `37`.
+
 # 4.0.0 - 2020-03-13
 
 #### 🎉 Release
