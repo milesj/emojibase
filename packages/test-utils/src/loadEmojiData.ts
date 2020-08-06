@@ -7,7 +7,7 @@ export default function loadEmojiData(): Emoji[] {
     return DATA;
   }
 
-  // eslint-disable-next-line global-require
+  // eslint-disable-next-line global-require, @typescript-eslint/no-unsafe-assignment
   DATA = require('../test-data.json');
 
   return DATA;

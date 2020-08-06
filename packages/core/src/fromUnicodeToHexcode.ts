@@ -5,7 +5,7 @@ export default function fromUnicodeToHexcode(unicode: Unicode, strip: boolean = 
   const hexcode: string[] = [];
 
   Array.from(unicode).forEach((codepoint) => {
-    // @ts-ignore
+    // @ts-expect-error
     let hex = codepoint.codePointAt(0).toString(16).toUpperCase();
 
     while (hex.length < 4) {
