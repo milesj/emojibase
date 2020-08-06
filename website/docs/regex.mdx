@@ -1,14 +1,37 @@
-# Regex Patterns
+---
+title: Regex patterns
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 Matching emoji characters within a string can be difficult, as multiple codepoints, surrogate pairs,
 variation selectors, zero width joiners, so on and so forth, must be taken into account. To make
 this whole process easier, pre-built regex patterns are available in the `emojibase-regex` package.
 
-```
+<Tabs
+  groupId="package-manager"
+  defaultValue="yarn"
+  values={[
+    { label: 'Yarn', value: 'yarn' },
+    { label: 'NPM', value: 'npm' },
+  ]}
+>
+  <TabItem value="yarn">
+
+```bash
 yarn add emojibase-regex
-// Or
+```
+
+  </TabItem>
+  <TabItem value="npm">
+
+```bash
 npm install emojibase-regex
 ```
+
+  </TabItem>
+</Tabs>
 
 ## Usage
 
@@ -40,7 +63,7 @@ import SHORTCODE_REGEX from 'emojibase-regex/shortcode';
 
 > The emoticon regex does not include word boundaries.
 
-## Unicode Codepoint Support
+## Unicode codepoint support
 
 By default, regex patterns are generated using hexadecimal Unicode ranges. If desired, ES2015+
 Unicode codepoint aware regex patterns can be used, which can be found in the `codepoint` directory.
@@ -49,11 +72,11 @@ Unicode codepoint aware regex patterns can be used, which can be found in the `c
 import CODEPOINT_EMOJI_REGEX from 'emojibase-regex/codepoint';
 ```
 
-> Codepoint regex patterns are only supported in Node.js and modern browsers.
-
 > The `u` (unicode) flag is required (defined by default) when using these patterns.
 
-## Unicode Property Support
+> Codepoint regex patterns are only supported in Node.js and modern browsers.
+
+## Unicode property support
 
 An [ECMAScript proposal](https://github.com/tc39/proposal-regexp-unicode-property-escapes) to
 support Unicode property escapes within regex is currently in the works. This proposal, if passed,

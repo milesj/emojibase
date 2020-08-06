@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    path {
+      fill: black;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      path {
+        fill: white;
+      }
+    }
+  </style>
+
+  <path d="M50 3c22 0 41 8 41 19S72 42 50 42 9 33 9 22 28 3 50 3m0 0C28 3 9 11 9 22s19 20 41 20 41-9 41-20S72 3 50 3z"/>
+  <ellipse cx="50" cy="22.4" rx="23.8" ry="11.6"/>
+  <path d="M50 84C28 84 9 76 9 65v13c0 11 19 19 41 19s41-8 41-19V65c0 11-19 19-41 19z"/>
+  <path d="M50 63C28 63 9 54 9 43v14c0 11 19 19 41 19s41-8 41-19V43c0 11-19 20-41 20z"/>
+  <path d="M50 42C28 42 9 33 9 22v13c0 11 19 20 41 20s41-8 41-20V22c0 11-19 20-41 20z"/>
+</>

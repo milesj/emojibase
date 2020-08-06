@@ -16,11 +16,12 @@ JSON datasets, regex patterns, and more.
   [Unicode 13](http://unicode.org/versions/Unicode13.0.0/), and
   [CLDR 36.1](http://cldr.unicode.org/index/downloads/cldr-36) release versions
 - Built directly from the [emoji data source files](http://unicode.org/Public/emoji/)
-- Based on the official [Unicode Technical Standard #51](http://www.unicode.org/reports/tr51/)
-  (rev 16)
+- Based on the official [Unicode Technical Standard #51](http://unicode.org/reports/tr51/) (rev 16)
 - With localization provided by
   [Unicode Technical Standard #35](http://unicode.org/reports/tr35/tr35-general.html#Annotations)
 
 ## Documentation
 
 [https://milesj.gitbook.io/emojibase](https://milesj.gitbook.io/emojibase)
+
+[Emoji browser](https://emojibase-browser.gavinr.com/) (thanks to @gavinr)

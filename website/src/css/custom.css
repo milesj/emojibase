@@ -1,0 +1,56 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* https://www.colorbox.io/#steps=11#hue_start=133#hue_end=146#hue_curve=easeInQuad#sat_start=0#sat_end=90#sat_curve=easeOutQuad#sat_rate=130#lum_start=69#lum_end=38#lum_curve=easeOutQuad#minor_steps_map=0 */
+html[data-theme='light'] {
+  --ifm-color-primary: #24a445;
+  --ifm-color-primary-dark: #0f9e36;
+  --ifm-color-primary-darker: #00952d;
+  --ifm-color-primary-darkest: #008b2e;
+  --ifm-color-primary-light: #40a959;
+  --ifm-color-primary-lighter: #62ac73;
+  --ifm-color-primary-lightest: #88af91;
+  --ifm-code-font-size: 95%;
+}
+
+/* https://www.colorbox.io/#steps=11#hue_start=133#hue_end=146#hue_curve=easeInQuad#sat_start=0#sat_end=90#sat_curve=easeOutQuad#sat_rate=130#lum_start=73#lum_end=38#lum_curve=easeOutQuad#minor_steps_map=0 */
+html[data-theme='dark'] {
+  --ifm-color-primary: #26ad48;
+  --ifm-color-primary-dark: #10a639;
+  --ifm-color-primary-darker: #009c2f;
+  --ifm-color-primary-darkest: #00902f;
+  --ifm-color-primary-light: #44b25e;
+  --ifm-color-primary-lighter: #67b679;
+  --ifm-color-primary-lightest: #90b999;
+}
+
+.hero__subtitle {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text--muted {
+  color: var(--ifm-color-secondary-darkest);
+}
+
+input[type='text'],
+select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: var(--ifm-font-size-base);
+}
+
+label {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+table {
+  width: 100%;
+  display: table;
+}

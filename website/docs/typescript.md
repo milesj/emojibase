@@ -1,4 +1,6 @@
-# TypeScript Support
+---
+title: TypeScript support
+---
 
 Emojibase is written in TypeScript, so feel free to utilize our types! All types are available as
 named imports from the index of `emojibase`!
