@@ -1,6 +1,6 @@
-/* eslint-disable @typescript-eslint/no-namespace, @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-namespace */
 
-// @ts-ignore
+// @ts-expect-error
 import regeneratorRuntime from 'regenerator-runtime';
 import fetchFromCDN from '../src/fetchFromCDN';
 
@@ -47,7 +47,7 @@ describe('fetchFromCDN()', () => {
   });
 
   it('errors if no path', () => {
-    // @ts-ignore
+    // @ts-expect-error
     expect(() => fetchFromCDN()).toThrow('A valid JSON dataset is required to fetch.');
   });
 

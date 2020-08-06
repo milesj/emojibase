@@ -12,6 +12,6 @@ export default function extractSkinTone(name: string): SkinTone | null {
   // Our data is 1, 2, 3, 4, 5, while unicode data is 1-2, 3, 4, 5, 6.
   // This is because type 1 and 2 on the Fitzpatrick scale are a combined tone.
   // https://en.wikipedia.org/wiki/Fitzpatrick_scale
-  // @ts-ignore
+  // @ts-expect-error
   return tone > 1 ? tone - 1 : tone;
 }

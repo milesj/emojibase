@@ -8,12 +8,12 @@
     "clean": "rm -rf packages/*/{lib,esm,*.tsbuildinfo}",
     "clean:cache": "rm -rf ./cache",
     "coverage": "yarn run jest --coverage",
-    "eslint": "beemo eslint",
+    "lint": "beemo eslint",
     "generate": "node ./bin/generateEmoji.js && node ./bin/buildFilesizeTable.js && cp ./packages/data/en/data.json ./packages/test-utils/test-data.json",
     "generate:shortcodes": "node ./bin/generateShortcodes.js",
     "generate:types": "node ./bin/generateTypes.js",
     "jest": "beemo jest",
-    "posttest": "yarn run eslint",
+    "posttest": "yarn run lint",
     "pretest": "yarn run type",
     "test": "yarn run jest",
     "prettier": "beemo prettier",
@@ -25,13 +25,13 @@
     "node": ">=10.10.0"
   },
   "devDependencies": {
-    "@milesj/build-tools": "^2.4.0",
-    "conventional-changelog-beemo": "^1.6.0",
+    "@milesj/build-tools": "^2.10.1",
+    "conventional-changelog-beemo": "^2.0.0",
     "filesize": "^6.1.0",
     "glob": "^7.1.6",
     "gzip-size": "^5.1.1",
-    "lerna": "^3.20.2",
-    "regenerator-runtime": "^0.13.5"
+    "lerna": "^3.22.1",
+    "regenerator-runtime": "^0.13.7"
   },
   "workspaces": [
     "packages/*"

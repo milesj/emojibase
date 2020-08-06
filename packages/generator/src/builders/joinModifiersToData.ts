@@ -123,7 +123,7 @@ export default function joinModifiersToData(emojis: EmojiMap) {
       Object.keys(SKIN_TONES).forEach((skinHexcode) => {
         const mod = emojis[skinHexcode];
 
-        // @ts-ignore
+        // @ts-expect-error
         addModification(emoji, {
           hexcode: `${emoji.hexcode}-${mod.hexcode}`,
           name: `${emoji.name}, ${mod.name}`,

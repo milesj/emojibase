@@ -42,7 +42,7 @@ describe('data', () => {
     });
 
     it(`defines a type presentation for ${unicode} (${hexcode})`, () => {
-      // @ts-ignore
+      // @ts-expect-error
       expect(emoji.type).toBeOneOf([EMOJI, TEXT]);
     });
 
@@ -56,7 +56,6 @@ describe('data', () => {
       it(`defines tags for ${unicode} (${hexcode})`, () => {
         expect(emoji.tags?.length).toBeGreaterThanOrEqual(1);
 
-        // eslint-disable-next-line no-unused-expressions
         emoji.tags?.forEach((tag) => {
           expect(tag).not.toBe('');
         });
@@ -75,7 +74,7 @@ describe('data', () => {
 
     if ('gender' in emoji) {
       it(`defines a gender for ${unicode} (${hexcode})`, () => {
-        // @ts-ignore
+        // @ts-expect-error
         expect(emoji.gender).toBeOneOf([MALE, FEMALE]);
       });
     }

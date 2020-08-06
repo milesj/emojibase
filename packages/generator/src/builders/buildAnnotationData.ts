@@ -53,7 +53,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
     for (let i = 0, set; i < sets.length; i += 1) {
       set = sets[i] as CLDRAnnotationMap;
 
-      if (set && set[hexcode] && set[hexcode][field]) {
+      if (set?.[hexcode]?.[field]) {
         const value = set[hexcode][field];
 
         if (
