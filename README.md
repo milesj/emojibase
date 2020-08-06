@@ -22,6 +22,4 @@ JSON datasets, regex patterns, and more.
 
 ## Documentation
 
-[https://milesj.gitbook.io/emojibase](https://milesj.gitbook.io/emojibase)
-
-[Emoji browser](https://emojibase-browser.gavinr.com/) (thanks to @gavinr)
+[https://emojibase.dev](https://emojibase.dev)
