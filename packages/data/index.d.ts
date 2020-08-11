@@ -60,6 +60,16 @@ declare module 'emojibase-data/es/compact.json' {
   export default data;
 }
 
+declare module 'emojibase-data/et/data.json' {
+  const data: Emoji[];
+  export default data;
+}
+
+declare module 'emojibase-data/et/compact.json' {
+  const data: CompactEmoji[];
+  export default data;
+}
+
 declare module 'emojibase-data/fr/data.json' {
   const data: Emoji[];
   export default data;

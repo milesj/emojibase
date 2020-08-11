@@ -27,7 +27,26 @@ jobs:
     strategy:
       matrix:
         locale:
-          [da, de, en-gb, es, es-mx, fr, it, ja, ko, ms, nl, pl, pt, ru, sv, th, uk, zh, zh-hant]
+          - da
+          - de
+          - en-gb
+          - es
+          - es-mx
+          - et
+          - fr
+          - it
+          - ja
+          - ko
+          - ms
+          - nl
+          - pl
+          - pt
+          - ru
+          - sv
+          - th
+          - uk
+          - zh
+          - zh-hant
       fail-fast: true
     steps:
       - uses: actions/checkout@v2
