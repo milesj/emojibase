@@ -67,6 +67,7 @@ export const SUPPORTED_LOCALES = [
   'et', // Estonian
   'fi', // Finnish
   'fr', // French
+  'hu', // Hungarian
   'it', // Italian
   'ja', // Japanese
   'ko', // Korean
