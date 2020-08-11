@@ -26,7 +26,6 @@ function createEmoji(
     annotation: '',
     name: baseEmoji.name || baseEmoji.description.toUpperCase(),
     hexcode: baseEmoji.hexcode,
-    shortcodes: baseEmoji.shortcodes,
     tags: [],
     // Presentation
     emoji: toUnicode(baseEmoji.hexcode),
@@ -87,11 +86,6 @@ function createEmoji(
     }
   }
 
-  // Tags
-  if (!emoji.tags || emoji.tags.length === 0) {
-    emoji.tags = emoji.shortcodes.map((code) => code.replace(/_/g, ' '));
-  }
-
   // Skin modifications
   if ('modifications' in baseEmoji) {
     emoji.skins = Object.values(baseEmoji.modifications!).map((mod) => {
@@ -99,9 +93,11 @@ function createEmoji(
 
       skin.annotation =
         (annotations[stripHexcode(skin.hexcode)] || {}).annotation || emoji.annotation || '';
-      skin.shortcodes = (emoji.shortcodes || []).map(
-        (code) => `${code}_tone${Array.isArray(skin.tone) ? skin.tone.join('-') : skin.tone}`,
-      );
+
+      // TODO
+      // skin.shortcodes = (emoji.shortcodes || []).map(
+      //   (code) => `${code}_tone${Array.isArray(skin.tone) ? skin.tone.join('-') : skin.tone}`,
+      // );
 
       // Remove any tags
       delete skin.tags;
@@ -161,7 +157,6 @@ export default async function generateData(): Promise<void> {
   // Generate metadata and specialized datasets
   const unicode = new Set();
   const hexcodes = new Set();
-  const shortcodes = new Set();
 
   const addMetadata = (hexcode: Hexcode) => {
     unicode.add(toUnicode(hexcode));
@@ -169,7 +164,7 @@ export default async function generateData(): Promise<void> {
   };
 
   Object.keys(filteredData).forEach((hexcode) => {
-    const { modifications, variations, shortcodes: codes } = filteredData[hexcode];
+    const { modifications, variations } = filteredData[hexcode];
 
     addMetadata(hexcode);
 
@@ -183,17 +178,12 @@ export default async function generateData(): Promise<void> {
         addMetadata(mod.hexcode);
       });
     }
-
-    codes.forEach((code) => {
-      shortcodes.add(code);
-    });
   });
 
   await Promise.all([
     writeDataset('meta/groups.json', readCache('final/group-hierarchy.json')),
     writeDataset('meta/unicode.json', Array.from(unicode)),
     writeDataset('meta/hexcodes.json', Array.from(hexcodes)),
-    writeDataset('meta/shortcodes.json', Array.from(shortcodes)),
   ]);
 
   log.success('data', 'Generated emoji datasets');

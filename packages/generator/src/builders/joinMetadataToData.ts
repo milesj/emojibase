@@ -1,13 +1,6 @@
 import { EMOJI, TEXT } from 'emojibase';
 import hasProperty from '../helpers/hasProperty';
-import {
-  UnicodeNamesMap,
-  EmojiMap,
-  EmojiGroupMap,
-  EmojiVariationMap,
-  ShortcodeMap,
-  EmoticonMap,
-} from '../types';
+import { UnicodeNamesMap, EmojiMap, EmojiGroupMap, EmojiVariationMap, EmoticonMap } from '../types';
 import { SKIN_MODIFIER_PATTERN, SEQUENCE_REMOVAL_PATTERN } from '../constants';
 
 export default function joinMetadataToData(
@@ -15,7 +8,6 @@ export default function joinMetadataToData(
   names: UnicodeNamesMap,
   groups: EmojiGroupMap,
   variations: EmojiVariationMap,
-  shortcodes: ShortcodeMap,
   emoticons: EmoticonMap,
 ) {
   Object.keys(emojis).forEach((hexcode) => {
@@ -85,8 +77,5 @@ export default function joinMetadataToData(
     if (emoticons[hexcode]) {
       emoji.emoticon = emoticons[hexcode];
     }
-
-    // Pull in the shortcodes
-    emoji.shortcodes = shortcodes[hexcode] || [];
   });
 }

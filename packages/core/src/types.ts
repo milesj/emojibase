@@ -141,7 +141,7 @@ export interface CompactEmoji {
   group: Group;
   hexcode: Hexcode;
   order: number;
-  shortcodes: Shortcode[];
+  shortcodes?: Shortcode[];
   skins?: CompactEmoji[];
   tags?: string[];
   unicode: Unicode;
@@ -156,7 +156,7 @@ export interface Emoji {
   hexcode: Hexcode;
   name: string;
   order: number;
-  shortcodes: Shortcode[];
+  shortcodes?: Shortcode[];
   skins?: Emoji[];
   subgroup: Subgroup;
   tags?: string[];

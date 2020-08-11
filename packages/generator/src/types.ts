@@ -87,7 +87,7 @@ export interface Emoji {
   modifications?: HexcodeMap<EmojiModification>;
   name: string;
   variations?: EmojiVariation;
-  shortcodes: Shortcode[];
+  shortcodes?: Shortcode[];
   emoticon?: Emoticon;
 }
 
