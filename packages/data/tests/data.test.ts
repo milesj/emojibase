@@ -62,16 +62,6 @@ describe('data', () => {
       });
     }
 
-    if ('shortcodes' in emoji) {
-      it(`defines shortcodes for ${unicode} (${hexcode})`, () => {
-        expect(emoji.shortcodes.length).toBeGreaterThanOrEqual(1);
-
-        emoji.shortcodes.forEach((shortcode) => {
-          expect(shortcode).not.toBe('');
-        });
-      });
-    }
-
     if ('gender' in emoji) {
       it(`defines a gender for ${unicode} (${hexcode})`, () => {
         // @ts-expect-error
