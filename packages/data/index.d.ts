@@ -261,11 +261,6 @@ declare module 'emojibase-data/meta/hexcodes.json' {
   export default data;
 }
 
-declare module 'emojibase-data/meta/shortcodes.json' {
-  const data: string[];
-  export default data;
-}
-
 declare module 'emojibase-data/meta/unicode.json' {
   const data: string[];
   export default data;
