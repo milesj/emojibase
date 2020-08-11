@@ -150,6 +150,16 @@ declare module 'emojibase-data/ms/compact.json' {
   export default data;
 }
 
+declare module 'emojibase-data/nb/data.json' {
+  const data: Emoji[];
+  export default data;
+}
+
+declare module 'emojibase-data/nb/compact.json' {
+  const data: CompactEmoji[];
+  export default data;
+}
+
 declare module 'emojibase-data/nl/data.json' {
   const data: Emoji[];
   export default data;
