@@ -71,6 +71,7 @@ export const SUPPORTED_LOCALES = [
   'it', // Italian
   'ja', // Japanese
   'ko', // Korean
+  'lt', // Lithuanian
   'ms', // Malay
   'nl', // Dutch
   'pl', // Polish
