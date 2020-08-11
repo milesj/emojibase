@@ -8,32 +8,32 @@ import styles from './styles.module.css';
 const isBrowser = typeof location !== 'undefined';
 
 const LOCALES = [
-  { value: 'zh', label: 'Chinese (zh)' },
-  { value: 'zh-hant', label: 'Chinese, Traditional (zh-hant)' },
-  { value: 'da', label: 'Danish (da)' },
-  { value: 'nl', label: 'Dutch (nl)' },
-  { value: 'en', label: 'English (en)' },
-  { value: 'en-gb', label: 'English, Great Britain (en-gb)' },
-  { value: 'et', label: 'Estonian (et)' },
-  { value: 'fi', label: 'Finnish (fi)' },
-  { value: 'fr', label: 'French (fr)' },
-  { value: 'de', label: 'German (de)' },
-  { value: 'hu', label: 'Hungarian (hu)' },
-  { value: 'it', label: 'Italian (it)' },
-  { value: 'ja', label: 'Japanese (ja)' },
-  { value: 'ko', label: 'Korean (ko)' },
-  { value: 'lt', label: 'Lithuanian (lt)' },
-  { value: 'ms', label: 'Malay (ms)' },
-  { value: 'nb', label: 'Norwegian (nb)' },
-  { value: 'pl', label: 'Polish (pl)' },
-  { value: 'pt', label: 'Portuguese (pt)' },
-  { value: 'ru', label: 'Russian (ru)' },
-  { value: 'es', label: 'Spanish (es)' },
-  { value: 'es-mx', label: 'Spanish, Mexico (es-mx)' },
-  { value: 'sv', label: 'Swedish (sv)' },
-  { value: 'th', label: 'Thai (th)' },
-  { value: 'uk', label: 'Ukrainian (uk)' },
-];
+  { value: 'da', label: 'Danish' },
+  { value: 'de', label: 'German' },
+  { value: 'en-gb', label: 'English, Great Britain' },
+  { value: 'en', label: 'English' },
+  { value: 'es-mx', label: 'Spanish, Mexico' },
+  { value: 'es', label: 'Spanish' },
+  { value: 'et', label: 'Estonian' },
+  { value: 'fi', label: 'Finnish' },
+  { value: 'fr', label: 'French' },
+  { value: 'hu', label: 'Hungarian' },
+  { value: 'it', label: 'Italian' },
+  { value: 'ja', label: 'Japanese' },
+  { value: 'ko', label: 'Korean' },
+  { value: 'lt', label: 'Lithuanian' },
+  { value: 'ms', label: 'Malay' },
+  { value: 'nb', label: 'Norwegian, Bokmål' },
+  { value: 'nl', label: 'Dutch' },
+  { value: 'pl', label: 'Polish' },
+  { value: 'pt', label: 'Portuguese' },
+  { value: 'ru', label: 'Russian' },
+  { value: 'sv', label: 'Swedish' },
+  { value: 'th', label: 'Thai' },
+  { value: 'uk', label: 'Ukrainian' },
+  { value: 'zh-hant', label: 'Chinese, Traditional' },
+  { value: 'zh', label: 'Chinese' },
+].sort((a, b) => a.label.localeCompare(b.label));
 
 function filterAndSortEmojis(
   emojis: Emoji[],
@@ -181,7 +181,7 @@ export default function Browser() {
                 >
                   {LOCALES.map((row) => (
                     <option key={row.value} value={row.value}>
-                      {row.label}
+                      {row.label} ({row.value})
                     </option>
                   ))}
                 </select>
