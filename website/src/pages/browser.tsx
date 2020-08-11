@@ -15,6 +15,7 @@ const LOCALES = [
   { value: 'en', label: 'English (en)' },
   { value: 'en-gb', label: 'English, Great Britain (en-gb)' },
   { value: 'et', label: 'Estonian' },
+  { value: 'fi', label: 'Finnish' },
   { value: 'fr', label: 'French (fr)' },
   { value: 'de', label: 'German (de)' },
   { value: 'it', label: 'Italian (it)' },

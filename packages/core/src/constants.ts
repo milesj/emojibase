@@ -65,6 +65,7 @@ export const SUPPORTED_LOCALES = [
   'es', // Spanish
   'es-mx', // Spanish (Mexico)
   'et', // Estonian
+  'fi', // Finnish
   'fr', // French
   'it', // Italian
   'ja', // Japanese
