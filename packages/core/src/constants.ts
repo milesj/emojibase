@@ -73,6 +73,7 @@ export const SUPPORTED_LOCALES = [
   'ko', // Korean
   'lt', // Lithuanian
   'ms', // Malay
+  'nb', // Norwegian
   'nl', // Dutch
   'pl', // Polish
   'pt', // Portuguese

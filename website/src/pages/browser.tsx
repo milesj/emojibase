@@ -24,6 +24,7 @@ const LOCALES = [
   { value: 'ko', label: 'Korean (ko)' },
   { value: 'lt', label: 'Lithuanian (lt)' },
   { value: 'ms', label: 'Malay (ms)' },
+  { value: 'nb', label: 'Norwegian (nb)' },
   { value: 'pl', label: 'Polish (pl)' },
   { value: 'pt', label: 'Portuguese (pt)' },
   { value: 'ru', label: 'Russian (ru)' },
