@@ -26,7 +26,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        locale: [da, de, en-gb, es, es-mx, fr, it, ja, ko, ms, nl, pl, pt, ru, sv, th, zh, zh-hant]
+        locale:
+          [da, de, en-gb, es, es-mx, fr, it, ja, ko, ms, nl, pl, pt, ru, sv, th, uk, zh, zh-hant]
       fail-fast: true
     steps:
       - uses: actions/checkout@v2

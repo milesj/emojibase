@@ -170,6 +170,17 @@ declare module 'emojibase-data/th/compact.json' {
   export default data;
 }
 
+declare module 'emojibase-data/uk/data.json' {
+  const data: Emoji[];
+  export default data;
+}
+
+declare module 'emojibase-data/uk/compact.json' {
+  const data: CompactEmoji[];
+  export default data;
+}
+
+
 declare module 'emojibase-data/zh-hant/data.json' {
   const data: Emoji[];
   export default data;

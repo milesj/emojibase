@@ -27,6 +27,7 @@ const LOCALES = [
   { value: 'es-mx', label: 'Spanish, Mexico (es-mx)' },
   { value: 'sv', label: 'Swedish (sv)' },
   { value: 'th', label: 'Thai (th)' },
+  { value: 'uk', label: 'Ukrainian (uk)' },
 ];
 
 function filterAndSortEmojis(

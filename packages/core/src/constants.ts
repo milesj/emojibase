@@ -75,6 +75,7 @@ export const SUPPORTED_LOCALES = [
   'ru', // Russian
   'sv', // Swedish
   'th', // Thai
+  'uk', // Ukrainian
   'zh', // Chinese
   'zh-hant', // Chinese (Traditional)
 ];
