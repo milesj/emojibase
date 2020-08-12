@@ -1,93 +1,143 @@
-import path from 'path';
-import { Emoji, TEXT } from 'emojibase';
-import writeFile from '../helpers/writeFile';
+/* eslint-disable @typescript-eslint/no-unsafe-assignment, unicorn/better-regex */
 
-const GUIDELINES = `/**
- * Official Emojibase shortcodes list.
- *
- * NAMING GUIDELINES
- *
- *  - Gender neutral emoji must be prefixed with "person_",
- *    while female emoji use "woman_", and male "man_".
- *    Plural forms use "people_", "women_", and "men_".
- *    In rare occasions, the gender can be suffixed,
- *    like "bald_man" or "blonde_woman".
- *
- *  - Animals depicted from the side use the animal name,
- *    while animals depicted with a head, or a face,
- *    must use the animal name suffixed with "_face".
- *
- *  - Japenese specific emoji must be prefixed with "ja_".
- *
- *  - Specifiers, like color or size, must be used as a
- *    prefix. For example, "small_", or "red_".
- *
- *  - Use a more descriptive term over the annotation if
- *    applicable. For example, "storm" over the annotation
- *    "cloud with lightning and rain".
- *
- *  - Use emotions when describing smiley faces. For example,
- *    "happy" over the annotation "smiling face with open
- *    mouth & smiling eyes".
- *    https://www.dailywritingtips.com/100-words-for-facial-expressions/
- *
- * ADDING SHORTCODES
- *
- * Please submit a PR with the addition so that it
- * may be discussed.
- *
- * RENAMING/REMOVING SHORTCODES
- *
- * Shortcodes are meant to be permanent, and should never
- * change (excluding typos), as to not destroy historical
- * usage of the shortcode. If a more descriptive term
- * is wanted, or the Unicode standard has changed meaning
- * or naming, we should persist the original shortcode.
- * We can do this by shifting the old shortcode to the end
- * of the array, while placing the new shortcode at the
- * beginning. This allows for backwards compatible changes.
- */`;
+import { SUPPORTED_LOCALES } from 'emojibase';
+import Kuroshiro from 'kuroshiro';
+import KuromojiAnalyzer from 'kuroshiro-analyzer-kuromoji';
+import { transliterate } from 'transliteration';
+import buildEmojiData from '../builders/buildEmojiData';
+import buildAnnotationData from '../builders/buildAnnotationData';
+import writeDataset from '../helpers/writeDataset';
+import filterData from '../helpers/filterData';
+import log from '../helpers/log';
+import { ShortcodeDataMap, EmojiModification } from '../types';
 
-export default async function generateShortcodes(): Promise<string> {
-  // eslint-disable-next-line
-  const data: Required<Emoji>[] = require(path.join(process.cwd(), 'packages/data/en/data.json'));
-  const output: string[] = [
-    '/* eslint-disable sort-keys */',
-    '',
-    GUIDELINES,
-    '',
-    'export default {',
-  ];
-  let lastVersion = 0;
+const CUSTOM_SHORTCODES: { [key: string]: string } = {
+  e_mail: 'email',
+  t_rex: 'trex',
+};
 
-  // Sort by version -> order
-  data.sort((a, b) => (a.version === b.version ? a.order - b.order : a.version - b.version));
+// Non-latin: ja, ko, ru, th, uk, zh, zh-hant
+const LATIN_LOCALES = new Set([
+  'da',
+  'de',
+  'en',
+  'en-gb',
+  'es',
+  'es-mx',
+  'et',
+  'fi',
+  'fr',
+  'hu',
+  'it',
+  'lt',
+  'ms',
+  'nb',
+  'nl',
+  'pl',
+  'pt',
+  'sv',
+]);
 
-  // Add each emoji to the list
-  data.forEach((emoji) => {
-    if (emoji.version !== lastVersion) {
-      if (lastVersion !== 0) {
-        output.push('');
+const kuroshiro = new Kuroshiro();
+
+async function slugify(value: string, locale: string, transform: boolean = false): Promise<string> {
+  let slug = value.trim();
+
+  if (transform) {
+    // Japanese: https://github.com/dzcpy/transliteration/issues/226
+    if (locale === 'ja') {
+      slug = await kuroshiro.convert(slug, {
+        mode: 'spaced',
+        romajiSystem: 'passport',
+        to: 'romaji',
+      });
+    } else {
+      slug = transliterate(slug);
+    }
+  }
+
+  slug = slug
+    .toLocaleLowerCase()
+    // Remove separators
+    .replace(/(\s|-|`|\/|\\)+/g, '_')
+    // Remove special chars
+    .replace(/([!"&'()+,.:;<>?ʼ’“”])/g, '')
+    // Remove multiple underscores
+    .replace(/_{2,}/g, '_')
+    // Remove leading underscores
+    .replace(/^_+/, '')
+    // Remove trailing underscores
+    .replace(/_+$/, '');
+
+  return CUSTOM_SHORTCODES[slug] || slug;
+}
+
+function appendToneIndex(shortcode: string, mod: EmojiModification): string {
+  return `${shortcode}_${Array.isArray(mod.tone) ? mod.tone.join('-') : mod.tone}`;
+}
+
+export default async function generateShortcodes(): Promise<void> {
+  log.title('data', 'Generating shortcode datasets');
+
+  const data = await buildEmojiData();
+  const emojis = Object.values(filterData(data));
+
+  // Setup transliterations
+  await kuroshiro.init(new KuromojiAnalyzer()); // Japanese
+
+  // Generate CLDR shortcodes for each locale
+  await Promise.all(
+    SUPPORTED_LOCALES.map(async (locale: string) => {
+      const isLatinChars = LATIN_LOCALES.has(locale);
+      const annotations = await buildAnnotationData(locale);
+      const cldr: ShortcodeDataMap = {};
+      const cldrNonLatin: ShortcodeDataMap = {};
+      let hasLatin = false;
+      let hasNonLatin = false;
+
+      // eslint-disable-next-line no-restricted-syntax
+      for await (const emoji of emojis) {
+        const row = annotations[emoji.hexcode];
+
+        if (!row || !row.annotation) {
+          // eslint-disable-next-line no-continue
+          continue;
+        }
+
+        cldr[emoji.hexcode] = await slugify(row.annotation, locale, true);
+        hasLatin = true;
+
+        if (!isLatinChars) {
+          cldrNonLatin[emoji.hexcode] = await slugify(row.annotation, locale);
+          hasNonLatin = true;
+        }
+
+        // Skin tones
+        if (emoji.modifications) {
+          // eslint-disable-next-line no-loop-func
+          Object.values(emoji.modifications).forEach((mod) => {
+            if (hasLatin) {
+              cldr[mod.hexcode] = appendToneIndex(String(cldr[emoji.hexcode]), mod);
+            }
+
+            if (hasNonLatin) {
+              cldrNonLatin[mod.hexcode] = appendToneIndex(String(cldrNonLatin[emoji.hexcode]), mod);
+            }
+          });
+        }
       }
 
-      output.push(`  // VERSION ${emoji.version}`);
+      const promises: Promise<unknown>[] = [];
 
-      lastVersion = emoji.version;
-    }
+      if (hasLatin) {
+        promises.push(writeDataset(`${locale}/shortcodes/cldr.json`, cldr, true));
+      }
 
-    const unicode = emoji.type === TEXT ? emoji.text : emoji.emoji;
-    const shortcodes = emoji.shortcodes.map((sc) => `'${sc}'`);
+      if (hasNonLatin) {
+        promises.push(writeDataset(`${locale}/shortcodes/cldr-native.json`, cldrNonLatin, true));
+      }
 
-    output.push(`  // ${unicode} ${emoji.annotation || emoji.name}`);
-    output.push(`  '${emoji.hexcode}': [${shortcodes.join(', ')}],`);
-  });
-
-  output.push('};');
-
-  // Write it!
-  return writeFile(
-    path.join(process.cwd(), 'packages/generator/src/resources'),
-    'shortcodes.ts',
-    output.join('\n'),
+      return Promise.all(promises);
+    }),
   );
 }

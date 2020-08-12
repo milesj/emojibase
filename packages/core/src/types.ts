@@ -175,3 +175,7 @@ export interface GroupDataset {
 export interface VersionDataset {
   [version: string]: string[];
 }
+
+export interface ShortcodesDataset {
+  [hexcode: string]: string | string[];
+}
