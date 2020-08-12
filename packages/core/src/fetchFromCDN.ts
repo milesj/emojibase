@@ -1,12 +1,14 @@
 export interface FetchFromCDNOptions extends RequestInit {
   local?: boolean;
+  version?: string;
 }
 
 export default function fetchFromCDN<T>(
   path: string,
-  version: string = 'latest',
   options: FetchFromCDNOptions = {},
 ): Promise<T[]> {
+  const { local = false, version = 'latest', ...opts } = options;
+
   if (__DEV__) {
     if (!path || path.slice(-5) !== '.json') {
       throw new Error('A valid JSON dataset is required to fetch.');
@@ -17,7 +19,6 @@ export default function fetchFromCDN<T>(
     }
   }
 
-  const { local = false, ...opts } = options;
   const storage = local ? localStorage : sessionStorage;
   const cacheKey = `emojibase/${version}/${path}`;
   const cachedData = storage.getItem(cacheKey);

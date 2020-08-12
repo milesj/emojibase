@@ -56,7 +56,9 @@ describe('fetchFromCDN()', () => {
   });
 
   it('errors if no version', () => {
-    expect(() => fetchFromCDN('en/data.json', '')).toThrow('A valid release version is required.');
+    expect(() => fetchFromCDN('en/data.json', { version: '' })).toThrow(
+      'A valid release version is required.',
+    );
   });
 
   it('errors if response is not ok', async () => {
@@ -100,7 +102,7 @@ describe('fetchFromCDN()', () => {
   });
 
   it('can customize fetch', async () => {
-    await fetchFromCDN('ja/compact.json', '1.2.3', { redirect: 'follow' });
+    await fetchFromCDN('ja/compact.json', { redirect: 'follow', version: '1.2.3' });
 
     expect(global.fetch).toHaveBeenCalledWith(
       'https://cdn.jsdelivr.net/npm/emojibase-data@1.2.3/ja/compact.json',
@@ -128,7 +130,7 @@ describe('fetchFromCDN()', () => {
   });
 
   it('caches data to local storage', async () => {
-    await fetchFromCDN('en/data.json', 'latest', { local: true });
+    await fetchFromCDN('en/data.json', { local: true });
 
     expect(global.localStorage.setItem).toHaveBeenCalledWith(
       'emojibase/latest/en/data.json',

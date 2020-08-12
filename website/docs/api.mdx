@@ -35,24 +35,25 @@ npm install emojibase
 
 ## `fetchFromCDN`
 
-> fetchFromCDN<T\>(path: string, version?: string, options?: FetchFromCDNOptions): Promise<T[]\>
+> fetchFromCDN<T\>(path: string, options?: FetchFromCDNOptions): Promise<T[]\>
 
 This function will fetch `emojibase-data` JSON files from our
 [CDN](https://cdn.jsdelivr.net/npm/emojibase-data@latest/), parse them, and return an array of emoji
-objects. It requires a file path relative to the `emojibase-data` package as the 1st argument, the
-Emojibase release version as the 2nd argument (defaults to the latest), and an object of options to
-pass to `fetch` as the 3rd argument.
+objects. It requires a file path relative to the `emojibase-data` package as the 1st argument and an
+option object of options as the 2rd argument.
 
 ```ts
 import { fetchFromCDN, flattenEmojiData } from 'emojibase';
 
-fetchFromCDN('ja/compact.json', '2.1.3').then(flattenEmojiData);
+fetchFromCDN('ja/compact.json', { version: '2.1.3' }).then(flattenEmojiData);
 ```
 
 > Only JSON datasets can be fetched from the CDN.
 
-> Successfully fetched data will be cached in session storage. If `local` is passed as an option,
-> local storage will be used instead. Be sure to invalidate manually if used!
+### Options
+
+- `local` (`boolean`) - Cache the response in local storage instead of session storage.
+- `version` (`string`) - The release version to fetch. Defaults to `latest`.
 
 ## `flattenEmojiData`
 
