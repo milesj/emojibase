@@ -10,13 +10,10 @@ import {
   TEXT_VARIATION_SELECTOR,
   HIDDEN_EMOJI_PROPERTIES,
 } from '../constants';
-// import writeCache from '../helpers/writeCache';
 
 // eslint-disable-next-line @typescript-eslint/require-await
 export default async function verifyDataIntegrity(emojis: EmojiMap): Promise<EmojiMap> {
-  // const usedShortcodes: EmojiMap = {};
   const usedEmoticons: EmojiMap = {};
-  // const shortcodeDump: string[] = [];
 
   Object.keys(emojis).forEach((hexcode) => {
     const emoji = emojis[hexcode];
@@ -64,31 +61,6 @@ export default async function verifyDataIntegrity(emojis: EmojiMap): Promise<Emo
       errors.push('Missing Unicode name.');
     }
 
-    // TODO
-    // Verify that shortcodes exist and that none have been duplicated
-    // if (!emoji.shortcodes || emoji.shortcodes.length === 0) {
-    //   errors.push('No shortcodes defined.');
-
-    //   shortcodeDump.push(`// ${emoji.name}`);
-    //   shortcodeDump.push(`'${hexcode}': [],`);
-    // } else {
-    //   const used: string[] = [];
-
-    //   emoji.shortcodes.forEach((shortcode) => {
-    //     const usedEmoji = usedShortcodes[shortcode];
-
-    //     if (usedEmoji) {
-    //       used.push(`${shortcode} (${usedEmoji.name})`);
-    //     } else {
-    //       usedShortcodes[shortcode] = emoji;
-    //     }
-    //   });
-
-    //   if (used.length > 0) {
-    //     errors.push(`Shortcodes have been used elsewhere: ${used.join(', ')}`);
-    //   }
-    // }
-
     // Verify that no emoticons have been duplicated
     if (emoji.emoticon) {
       const { emoticon } = emoji;
@@ -105,10 +77,6 @@ export default async function verifyDataIntegrity(emojis: EmojiMap): Promise<Emo
       log.error('verify', `Error(s) detected for ${emoji.name} (${hexcode}):\n`, errors.join('\n'));
     }
   });
-
-  // if (shortcodeDump.length > 0) {
-  //   await writeCache('error/missing-shortcodes.txt', shortcodeDump.join('\n'), false);
-  // }
 
   return emojis;
 }

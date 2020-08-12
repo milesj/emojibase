@@ -15,9 +15,10 @@ function calculatePackage(packageName) {
       return;
     }
 
+    // Load, sort, and stat files
     const rows = files
-      .filter(file => !file.includes('tests') && !file.includes('raw'))
-      .map(file => {
+      .filter((file) => !file.includes('tests') && !file.includes('raw'))
+      .map((file) => {
         const data = fs.readFileSync(file, 'utf8');
 
         return {
@@ -29,18 +30,45 @@ function calculatePackage(packageName) {
 
     rows.sort((a, b) => a.size - b.size);
 
-    console.log('| File | Size | Gzipped |');
-    console.log('| --- | --- | --- |');
+    // Group by type
+    const groups = [
+      [], // All
+      [], // Data
+      [], // Data: compact
+      [], // Shortcodes
+    ];
 
-    rows.forEach(row => {
+    rows.forEach((row) => {
       if (row.file === 'package.json' || row.file === 'tsconfig.json') {
         return;
       }
 
-      console.log(`| ${row.file} | ${size(row.size)} | ${size(row.gzip)} |`);
+      if (row.file.endsWith('compact.json')) {
+        groups[2].push(row);
+      } else if (row.file.endsWith('data.json')) {
+        groups[1].push(row);
+      } else if (row.file.includes('shortcodes/')) {
+        groups[3].push(row);
+      } else {
+        groups[0].push(row);
+      }
     });
 
-    console.log('');
+    // Print groups
+    groups.forEach((items) => {
+      if (items.length === 0) {
+        return;
+      }
+
+      console.log('| File | Size | Gzipped |');
+      console.log('| --- | --- | --- |');
+
+      items.forEach((row) => {
+        console.log(`| ${row.file} | ${size(row.size)} | ${size(row.gzip)} |`);
+      });
+
+      console.log('');
+    });
   });
 }
 
