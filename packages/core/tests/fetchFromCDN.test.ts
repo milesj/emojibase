@@ -1,9 +1,16 @@
+import fetchMock from 'fetch-mock-jest';
 import fetchFromCDN from '../src/fetchFromCDN';
-import { setupFetch } from './helpers';
+import { setupStorage } from './helpers';
 
 describe('fetchFromCDN()', () => {
   beforeEach(() => {
-    setupFetch();
+    setupStorage();
+
+    fetchMock.mock('*', [1, 2, 3]);
+  });
+
+  afterEach(() => {
+    fetchMock.reset();
   });
 
   it('errors if no path', () => {
@@ -22,14 +29,7 @@ describe('fetchFromCDN()', () => {
   });
 
   it('errors if response is not ok', async () => {
-    Object.defineProperty(global, 'fetch', {
-      value: jest.fn(() =>
-        Promise.resolve({
-          ok: false,
-        }),
-      ),
-      configurable: true,
-    });
+    fetchMock.mock('path:en/data.json', 404);
 
     try {
       await fetchFromCDN('en/data.json');
@@ -51,7 +51,7 @@ describe('fetchFromCDN()', () => {
   it('triggers a fetch', async () => {
     await fetchFromCDN('en/data.json');
 
-    expect(global.fetch).toHaveBeenCalledWith(
+    expect(fetchMock).toHaveBeenCalledWith(
       'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/data.json',
       {
         credentials: 'omit',
@@ -64,7 +64,7 @@ describe('fetchFromCDN()', () => {
   it('can customize fetch', async () => {
     await fetchFromCDN('ja/compact.json', { redirect: 'follow', version: '1.2.3' });
 
-    expect(global.fetch).toHaveBeenCalledWith(
+    expect(fetchMock).toHaveBeenCalledWith(
       'https://cdn.jsdelivr.net/npm/emojibase-data@1.2.3/ja/compact.json',
       {
         credentials: 'omit',

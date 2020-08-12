@@ -1,15 +1,22 @@
+import fetchMock from 'fetch-mock-jest';
 import fetchShortcodes from '../src/fetchShortcodes';
-import { setupFetch } from './helpers';
+import { setupStorage } from './helpers';
 
 describe('fetchShortcodes()', () => {
   beforeEach(() => {
-    setupFetch({ '0000': 'shortcode' });
+    setupStorage();
+
+    fetchMock.mock('*', { '0000': 'shortcode' });
+  });
+
+  afterEach(() => {
+    fetchMock.reset();
   });
 
   it('triggers a fetch', async () => {
     await fetchShortcodes('de', 'cldr');
 
-    expect(global.fetch).toHaveBeenCalledWith(
+    expect(fetchMock).toHaveBeenCalledWith(
       'https://cdn.jsdelivr.net/npm/emojibase-data@latest/de/shortcodes/cldr.json',
       {
         credentials: 'omit',
