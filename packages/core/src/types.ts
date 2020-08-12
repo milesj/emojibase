@@ -149,6 +149,8 @@ export interface CompactEmoji {
   unicode: Unicode;
 }
 
+export type FlatCompactEmoji = Omit<CompactEmoji, 'skins'>;
+
 export interface Emoji {
   annotation: string;
   emoji: Unicode;
@@ -166,6 +168,14 @@ export interface Emoji {
   tone?: SkinTone | SkinTone[];
   type: Presentation;
   version: number;
+}
+
+export type FlatEmoji = Omit<Emoji, 'skins'>;
+
+export interface MaybeEmoji {
+  hexcode: string;
+  shortcodes?: string[];
+  skins?: MaybeEmoji[];
 }
 
 export interface GroupDataset {

@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment, unicorn/better-regex */
 
-import { SUPPORTED_LOCALES, NON_LATIN_LOCALES } from 'emojibase';
+import { SUPPORTED_LOCALES, NON_LATIN_LOCALES, appendSkinToneIndex } from 'emojibase';
 import Kuroshiro from 'kuroshiro';
 import KuromojiAnalyzer from 'kuroshiro-analyzer-kuromoji';
 import { transliterate } from 'transliteration';
@@ -9,7 +9,7 @@ import buildAnnotationData from '../builders/buildAnnotationData';
 import writeDataset from '../helpers/writeDataset';
 import filterData from '../helpers/filterData';
 import log from '../helpers/log';
-import { ShortcodeDataMap, EmojiModification } from '../types';
+import { ShortcodeDataMap } from '../types';
 
 const CUSTOM_SHORTCODES: { [key: string]: string } = {
   e_mail: 'email',
@@ -48,10 +48,6 @@ async function slugify(value: string, locale: string, transform: boolean = false
     .replace(/_+$/, '');
 
   return CUSTOM_SHORTCODES[slug] || slug;
-}
-
-function appendToneIndex(shortcode: string, mod: EmojiModification): string {
-  return `${shortcode}_${Array.isArray(mod.tone) ? mod.tone.join('-') : mod.tone}`;
 }
 
 export default async function generateShortcodes(): Promise<void> {
@@ -95,11 +91,14 @@ export default async function generateShortcodes(): Promise<void> {
           // eslint-disable-next-line no-loop-func
           Object.values(emoji.modifications).forEach((mod) => {
             if (hasLatin) {
-              cldr[mod.hexcode] = appendToneIndex(String(cldr[emoji.hexcode]), mod);
+              cldr[mod.hexcode] = appendSkinToneIndex(String(cldr[emoji.hexcode]), mod);
             }
 
             if (hasNonLatin) {
-              cldrNonLatin[mod.hexcode] = appendToneIndex(String(cldrNonLatin[emoji.hexcode]), mod);
+              cldrNonLatin[mod.hexcode] = appendSkinToneIndex(
+                String(cldrNonLatin[emoji.hexcode]),
+                mod,
+              );
             }
           });
         }

@@ -1,30 +1,43 @@
-import { Emoji } from './types';
+import { Emoji, ShortcodesDataset, CompactEmoji, MaybeEmoji } from './types';
+import joinShortcodesToEmoji from './joinShortcodesToEmoji';
 
-export default function flattenEmojiData(data: Emoji[]): Emoji[] {
+function flattenEmojiData(data: Emoji[], shortcodeDatasets?: ShortcodesDataset[]): Emoji[];
+
+function flattenEmojiData(
+  data: CompactEmoji[],
+  shortcodeDatasets?: ShortcodesDataset[],
+): CompactEmoji[];
+
+function flattenEmojiData(
+  data: MaybeEmoji[],
+  shortcodeDatasets: ShortcodesDataset[] = [],
+): MaybeEmoji[] {
   const emojis: Emoji[] = [];
 
-  data.forEach((emoji) => {
+  (data as Emoji[]).forEach((emoji) => {
     if (emoji.skins) {
-      const { skins, ...restEmoji } = emoji;
-
       // Dont include nested skins array
-      emojis.push(restEmoji);
+      const { skins, ...baseEmoji } = emoji;
+
+      emojis.push(joinShortcodesToEmoji(baseEmoji, shortcodeDatasets));
 
       // Push each skin modification into the root list
       skins.forEach((skin) => {
         const skinEmoji = { ...skin };
 
         // Inherit tags from parent if they exist
-        if (emoji.tags) {
-          skinEmoji.tags = [...emoji.tags];
+        if (baseEmoji.tags) {
+          skinEmoji.tags = [...baseEmoji.tags];
         }
 
-        emojis.push(skinEmoji);
+        emojis.push(joinShortcodesToEmoji(skinEmoji, shortcodeDatasets));
       });
     } else {
-      emojis.push(emoji);
+      emojis.push(joinShortcodesToEmoji(emoji, shortcodeDatasets));
     }
   });
 
   return emojis;
 }
+
+export default flattenEmojiData;

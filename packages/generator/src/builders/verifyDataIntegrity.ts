@@ -11,8 +11,7 @@ import {
   HIDDEN_EMOJI_PROPERTIES,
 } from '../constants';
 
-// eslint-disable-next-line @typescript-eslint/require-await
-export default async function verifyDataIntegrity(emojis: EmojiMap): Promise<EmojiMap> {
+export default function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
   const usedEmoticons: EmojiMap = {};
 
   Object.keys(emojis).forEach((hexcode) => {
