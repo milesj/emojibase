@@ -15,7 +15,7 @@ import CODEPOINT_EMOJI_PATTERN from '../codepoint/emoji';
 import CODEPOINT_EMOJI_LOOSE_PATTERN from '../codepoint/emoji-loose';
 import CODEPOINT_TEXT_PATTERN from '../codepoint/text';
 import CODEPOINT_TEXT_LOOSE_PATTERN from '../codepoint/text-loose';
-import SHORTCODE_PATTERN from '../shortcode';
+// import SHORTCODE_PATTERN from '../shortcode';
 import EMOTICON_PATTERN from '../emoticon';
 
 const PATTERNS = {

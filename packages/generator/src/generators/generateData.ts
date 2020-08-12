@@ -94,11 +94,6 @@ function createEmoji(
       skin.annotation =
         (annotations[stripHexcode(skin.hexcode)] || {}).annotation || emoji.annotation || '';
 
-      // TODO
-      // skin.shortcodes = (emoji.shortcodes || []).map(
-      //   (code) => `${code}_tone${Array.isArray(skin.tone) ? skin.tone.join('-') : skin.tone}`,
-      // );
-
       // Remove any tags
       delete skin.tags;
 

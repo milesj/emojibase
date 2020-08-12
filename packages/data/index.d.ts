@@ -1,4 +1,9 @@
-import { Emoji, CompactEmoji, GroupDataset, VersionDataset } from 'emojibase';
+import { Emoji, CompactEmoji, GroupDataset, VersionDataset, ShortcodesDataset } from 'emojibase';
+
+declare module 'emojibase-data/*/shortcodes/cldr.json' {
+  const data: ShortcodesDataset;
+  export default data;
+}
 
 declare module 'emojibase-data/da/data.json' {
   const data: Emoji[];
