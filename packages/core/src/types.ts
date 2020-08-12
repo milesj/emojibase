@@ -28,6 +28,8 @@ export type PresentationKey = 'text' | 'emoji';
 
 export type Shortcode = string;
 
+export type ShortcodePreset = 'cldr' | 'cldr-native';
+
 export type SkinTone = 1 | 2 | 3 | 4 | 5;
 
 export type SkinToneKey = 'light' | 'medium-light' | 'medium' | 'medium-dark' | 'dark';

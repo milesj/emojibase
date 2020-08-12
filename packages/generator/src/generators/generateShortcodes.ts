@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment, unicorn/better-regex */
 
-import { SUPPORTED_LOCALES } from 'emojibase';
+import { SUPPORTED_LOCALES, NON_LATIN_LOCALES } from 'emojibase';
 import Kuroshiro from 'kuroshiro';
 import KuromojiAnalyzer from 'kuroshiro-analyzer-kuromoji';
 import { transliterate } from 'transliteration';
@@ -15,28 +15,6 @@ const CUSTOM_SHORTCODES: { [key: string]: string } = {
   e_mail: 'email',
   t_rex: 'trex',
 };
-
-// Non-latin: ja, ko, ru, th, uk, zh, zh-hant
-const LATIN_LOCALES = new Set([
-  'da',
-  'de',
-  'en',
-  'en-gb',
-  'es',
-  'es-mx',
-  'et',
-  'fi',
-  'fr',
-  'hu',
-  'it',
-  'lt',
-  'ms',
-  'nb',
-  'nl',
-  'pl',
-  'pt',
-  'sv',
-]);
 
 const kuroshiro = new Kuroshiro();
 
@@ -88,7 +66,7 @@ export default async function generateShortcodes(): Promise<void> {
   // Generate CLDR shortcodes for each locale
   await Promise.all(
     SUPPORTED_LOCALES.map(async (locale: string) => {
-      const isLatinChars = LATIN_LOCALES.has(locale);
+      const isLatinChars = !NON_LATIN_LOCALES.includes(locale);
       const annotations = await buildAnnotationData(locale);
       const cldr: ShortcodeDataMap = {};
       const cldrNonLatin: ShortcodeDataMap = {};

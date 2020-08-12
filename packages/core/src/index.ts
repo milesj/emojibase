@@ -3,7 +3,9 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
+import fetchEmojis from './fetchEmojis';
 import fetchFromCDN from './fetchFromCDN';
+import fetchShortcodes from './fetchShortcodes';
 import flattenEmojiData from './flattenEmojiData';
 import fromCodepointToUnicode from './fromCodepointToUnicode';
 import fromHexcodeToCodepoint from './fromHexcodeToCodepoint';
@@ -12,7 +14,9 @@ import generateEmoticonPermutations from './generateEmoticonPermutations';
 import stripHexcode from './stripHexcode';
 
 export {
+  fetchEmojis,
   fetchFromCDN,
+  fetchShortcodes,
   flattenEmojiData,
   fromCodepointToUnicode,
   fromHexcodeToCodepoint,

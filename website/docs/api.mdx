@@ -35,25 +35,70 @@ npm install emojibase
 
 ## `fetchFromCDN`
 
-> fetchFromCDN<T\>(path: string, options?: FetchFromCDNOptions): Promise<T[]\>
+> fetchFromCDN<T\>(path: string, options?: FetchFromCDNOptions): Promise<T\>
 
-This function will fetch `emojibase-data` JSON files from our
-[CDN](https://cdn.jsdelivr.net/npm/emojibase-data@latest/), parse them, and return an array of emoji
-objects. It requires a file path relative to the `emojibase-data` package as the 1st argument and an
-option object of options as the 2rd argument.
+This function will fetch `emojibase-data` JSON files from our [CDN][cdn], parse them, and return the
+response. It requires a file path relative to the `emojibase-data` package as the 1st argument and
+an optional object of options as the 2rd argument.
 
 ```ts
-import { fetchFromCDN, flattenEmojiData } from 'emojibase';
+import { fetchFromCDN } from 'emojibase';
 
-fetchFromCDN('ja/compact.json', { version: '2.1.3' }).then(flattenEmojiData);
+await fetchFromCDN('ja/compact.json', { version: '2.1.3' });
 ```
 
 > Only JSON datasets can be fetched from the CDN.
 
 ### Options
 
-- `local` (`boolean`) - Cache the response in local storage instead of session storage.
+- `local` (`boolean`) - Cache the response in local storage instead of session storage. Defaults to
+  `false`.
 - `version` (`string`) - The release version to fetch. Defaults to `latest`.
+- All options supported by [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Request).
+
+## `fetchEmojis`
+
+Fetches and returns a localized list of emojis from our [CDN][cdn]. Uses
+[`fetchFromCDN`](#fetchfromcdn) and [`fetchShortcodes`](#fetchshortcodes) under the hood.
+
+```ts
+import { fetchEmojis } from 'emojibase';
+
+await fetchEmojis('ja', { compact: true, version: '2.1.3' });
+```
+
+### Options
+
+- `compact` (`boolean`) - Load the compact dataset instead of the full dataset. Defaults to `false`.
+- `shortcodes` (`string[]`) - List of shortcode presets to load and merge into the emojis dataset.
+  Defaults to an empty list.
+- All options supported by [`fetchFromCDN`](#fetchfromcdn).
+
+## `fetchShortcodes`
+
+Fetches and returns localized shortcodes for the defined preset from our [CDN][cdn]. The response is
+a mapping of emoji hexcodes to shortcodes (either a string or array of strings). Uses
+[`fetchFromCDN`](#fetchfromcdn) under the hood.
+
+```ts
+import { fetchShortcodes } from 'emojibase';
+
+await fetchShortcodes('ja', 'cldr', { version: '2.1.3' });
+```
+
+### Presets
+
+- `cldr` - Shortcodes derived from the official Unicode [CLDR data][cldr]. Non-latin languages are
+  transliterated to a latin character equivalent, but may not be entirely accurate.
+- `cldr-native` - Like `cldr` but shortcodes are not transliterated to latin characters. _Only
+  exists for non-latin languages._
+
+> Non-latin languages are currently: Japanese (ja), Korean (ko), Russian (ru), Thai (th), Ukrainian
+> (uk), Chinese (zh), Chinese simplified (zh-hant)
+
+### Options
+
+- All options supported by [`fetchFromCDN`](#fetchfromcdn).
 
 ## `flattenEmojiData`
 
@@ -181,3 +226,6 @@ import { stripHexcode } from 'emojibase';
 
 stripHexcode('1F468-200D-2695-FE0F'); // 1F468-2695
 ```
+
+[cldr]: http://cldr.unicode.org/index/downloads/cldr-37
+[cdn]: https://cdn.jsdelivr.net/npm/emojibase-data@latest/
