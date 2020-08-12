@@ -6,7 +6,7 @@ export interface FetchFromCDNOptions extends RequestInit {
 export default function fetchFromCDN<T>(
   path: string,
   options: FetchFromCDNOptions = {},
-): Promise<T[]> {
+): Promise<T> {
   const { local = false, version = 'latest', ...opts } = options;
 
   if (__DEV__) {
@@ -25,11 +25,7 @@ export default function fetchFromCDN<T>(
 
   // Check the cache first
   if (cachedData) {
-    try {
-      return Promise.resolve(JSON.parse(cachedData));
-    } catch (error) {
-      return Promise.resolve([]);
-    }
+    return Promise.resolve(JSON.parse(cachedData));
   }
 
   return fetch(`https://cdn.jsdelivr.net/npm/emojibase-data@${version}/${path}`, {

@@ -1,49 +1,9 @@
-/* eslint-disable @typescript-eslint/no-namespace */
-
-// @ts-expect-error
-import regeneratorRuntime from 'regenerator-runtime';
 import fetchFromCDN from '../src/fetchFromCDN';
-
-declare global {
-  namespace NodeJS {
-    interface Global {
-      fetch: any;
-      sessionStorage: any;
-      localStorage: any;
-      regeneratorRuntime: any;
-    }
-  }
-}
-
-global.regeneratorRuntime = regeneratorRuntime;
+import { setupFetch } from './helpers';
 
 describe('fetchFromCDN()', () => {
   beforeEach(() => {
-    Object.defineProperty(global, 'fetch', {
-      value: jest.fn(() =>
-        Promise.resolve({
-          json: () => [1, 2, 3],
-          ok: true,
-        }),
-      ),
-      configurable: true,
-    });
-
-    Object.defineProperty(global, 'sessionStorage', {
-      value: {
-        getItem: jest.fn(),
-        setItem: jest.fn(),
-      },
-      configurable: true,
-    });
-
-    Object.defineProperty(global, 'localStorage', {
-      value: {
-        getItem: jest.fn(),
-        setItem: jest.fn(),
-      },
-      configurable: true,
-    });
+    setupFetch();
   });
 
   it('errors if no path', () => {
