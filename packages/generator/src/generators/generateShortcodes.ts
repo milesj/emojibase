@@ -29,6 +29,9 @@ async function slugify(value: string, locale: string, transform: boolean = false
         romajiSystem: 'passport',
         to: 'romaji',
       });
+
+      // These characters do not convert automatically
+      slug = slug.replace('営', 'kanri').replace('々', 'kaku');
     } else {
       slug = transliterate(slug);
     }
@@ -37,9 +40,9 @@ async function slugify(value: string, locale: string, transform: boolean = false
   slug = slug
     .toLocaleLowerCase()
     // Remove separators
-    .replace(/(\s|-|`|\/|\\)+/g, '_')
+    .replace(/(\s|-|`|\/|\\|･)+/g, '_')
     // Remove special chars
-    .replace(/([!"&'()+,.:;<>?ʼ’“”])/g, '')
+    .replace(/([!"&'()[\]+,.:;<>?ʼ’“”])/g, '')
     // Remove multiple underscores
     .replace(/_{2,}/g, '_')
     // Remove leading underscores

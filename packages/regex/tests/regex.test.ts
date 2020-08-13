@@ -15,7 +15,6 @@ import CODEPOINT_EMOJI_PATTERN from '../codepoint/emoji';
 import CODEPOINT_EMOJI_LOOSE_PATTERN from '../codepoint/emoji-loose';
 import CODEPOINT_TEXT_PATTERN from '../codepoint/text';
 import CODEPOINT_TEXT_LOOSE_PATTERN from '../codepoint/text-loose';
-// import SHORTCODE_PATTERN from '../shortcode';
 import EMOTICON_PATTERN from '../emoticon';
 
 const PATTERNS = {
@@ -120,26 +119,6 @@ describe('regex', () => {
         });
       });
     });
-
-    // emoji.shortcodes.forEach((code) => {
-    //   const shortcode = `:${code}:`; // Does not include colons by default
-
-    //   it(`matches shortcode by itself for ${shortcode}`, () => {
-    //     expect(shortcode).toMatch(SHORTCODE_PATTERN);
-    //   });
-
-    //   it(`matches shortcode in the middle of a string for ${shortcode}`, () => {
-    //     expect(`In the middle ${shortcode} of a string.`).toMatch(SHORTCODE_PATTERN);
-    //   });
-
-    //   it(`matches multiple shortcode for ${shortcode}`, () => {
-    //     const globalPattern = new RegExp(SHORTCODE_PATTERN.source, 'g');
-    //     const matches = `One ${shortcode} Two ${shortcode} Three ${shortcode}.`.match(
-    //       globalPattern,
-    //     );
-    //     expect(matches).toHaveLength(3);
-    //   });
-    // });
 
     if (emoji.emoticon) {
       generateEmoticonPermutations(emoji.emoticon, EMOTICON_OPTIONS[emoji.emoticon] || {}).forEach(
