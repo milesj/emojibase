@@ -46,6 +46,8 @@ matching shortcodes or emoticons.
 - `emojibase-regex/text-loose` - Like the above but also includes characters without `FE0E`.
 - `emojibase-regex/emoticon` - Matches supported emoticons and their permutations.
 - `emojibase-regex/shortcode` - Matches supported shortcodes.
+- `emojibase-regex/shortcode-native` - Matches supported shortcodes in their native language
+  (`cldr-native`).
 
 Each of these imports return a `RegExp` instance with no flags defined.
 
@@ -53,10 +55,12 @@ Each of these imports return a `RegExp` instance with no flags defined.
 import EMOJI_REGEX from 'emojibase-regex';
 import EMOTICON_REGEX from 'emojibase-regex/emoticon';
 import SHORTCODE_REGEX from 'emojibase-regex/shortcode';
+import SHORTCODE_NATIVE_REGEX from 'emojibase-regex/shortcode-native';
 
 `🙂`.match(EMOJI_REGEX);
 ':)'.match(EMOTICON_REGEX);
 ':pleased:'.match(SHORTCODE_REGEX);
+':гвинея:'.match(SHORTCODE_NATIVE_REGEX);
 ```
 
 > The `u` (unicode) and `g` (global) flags are not defined on these patterns.

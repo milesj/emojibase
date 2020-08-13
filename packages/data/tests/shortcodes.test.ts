@@ -6,7 +6,7 @@ import SHORTCODE_NATIVE_PATTERN from 'emojibase-regex/shortcode-native';
 const localeCache: { [key: string]: ShortcodesDataset } = {};
 
 function loadShortcodesData(preset: ShortcodePreset): ShortcodesDataset {
-  const locale = process.env.TEST_LOCALE || 'ja';
+  const locale = process.env.TEST_LOCALE || 'en';
   const key = `${locale}:${preset}`;
 
   if (localeCache[key]) {
@@ -24,13 +24,13 @@ function loadShortcodesData(preset: ShortcodePreset): ShortcodesDataset {
 }
 
 describe('shortcodes', () => {
-  const presets: ShortcodePreset[] = ['cldr']; // , 'cldr-native'];
+  const presets: ShortcodePreset[] = ['cldr', 'cldr-native'];
 
   presets.forEach((preset) => {
     const pattern = preset === 'cldr-native' ? SHORTCODE_NATIVE_PATTERN : SHORTCODE_PATTERN;
 
     describe(`${preset}`, () => {
-      Object.entries(loadShortcodesData(preset)).forEach(([hexcode, shortcodes]) => {
+      Object.entries(loadShortcodesData(preset)).forEach(([, shortcodes]) => {
         (Array.isArray(shortcodes) ? shortcodes : [shortcodes]).forEach((code) => {
           const shortcode = `:${code}:`; // Does not include colons by default
 
