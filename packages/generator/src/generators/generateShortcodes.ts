@@ -40,9 +40,9 @@ async function slugify(value: string, locale: string, transform: boolean = false
   slug = slug
     .toLocaleLowerCase()
     // Remove separators
-    .replace(/(\s|-|`|\/|\\|･)+/g, '_')
+    .replace(/(\s|-|`|\/|\\|･|（|）|／)+/g, '_')
     // Remove special chars
-    .replace(/([!"&'()[\]+,.:;<>?ʼ’“”])/g, '')
+    .replace(/([!"&'()[\]+,.:;<>«»?ʼ’‘“”—–])/g, '')
     // Remove multiple underscores
     .replace(/_{2,}/g, '_')
     // Remove leading underscores
