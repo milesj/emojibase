@@ -48,21 +48,22 @@ async function fetchEmojis(locale: string, options: FetchEmojisOptions = {}): Pr
   let shortcodes: ShortcodesDataset[] = [];
 
   if (presets.length > 0) {
-    try {
-      shortcodes = await Promise.all(
-        presets.map((preset) => {
-          if (preset.includes('/')) {
-            const [customLocale, customPreset] = preset.split('/');
+    shortcodes = await Promise.all(
+      presets.map((preset) => {
+        let promise: Promise<ShortcodesDataset>;
 
-            return fetchShortcodes(customLocale, customPreset as ShortcodePreset, opts);
-          }
+        if (preset.includes('/')) {
+          const [customLocale, customPreset] = preset.split('/');
 
-          return fetchShortcodes(locale, preset as ShortcodePreset, opts);
-        }),
-      );
-    } catch {
-      // Ignore as the primary dataset should still load
-    }
+          promise = fetchShortcodes(customLocale, customPreset as ShortcodePreset, opts);
+        } else {
+          promise = fetchShortcodes(locale, preset as ShortcodePreset, opts);
+        }
+
+        // Ignore as the primary dataset should still load
+        return promise.catch(() => ({}));
+      }),
+    );
   }
 
   return flat ? flattenEmojiData(emojis, shortcodes) : joinShortcodes(emojis, shortcodes);
