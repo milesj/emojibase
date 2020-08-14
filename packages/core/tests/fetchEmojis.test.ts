@@ -6,11 +6,14 @@ describe('fetchEmojis()', () => {
   beforeEach(() => {
     setupStorage();
 
+    const emoji = getEmojiWithSkins();
+    const compactEmoji = getCompactEmojiWithSkins();
+
     fetchMock
-      .mock('end:en/data.json', [1, 2, 3])
-      .mock('end:1.2.3/ko/compact.json', [1, 2, 3])
-      .mock('end:ja/data.json', [getEmojiWithSkins()])
-      .mock('end:ja/compact.json', [getCompactEmojiWithSkins()])
+      .mock('end:en/data.json', [emoji])
+      .mock('end:1.2.3/ko/compact.json', [compactEmoji])
+      .mock('end:ja/data.json', [emoji])
+      .mock('end:ja/compact.json', [compactEmoji])
       .mock('end:en/shortcodes/cldr.json', {
         '1F44B': 'wave',
         '1F44B-1F3FB': 'wave_1',
@@ -29,6 +32,7 @@ describe('fetchEmojis()', () => {
         '1F44B-1F3FE': '手を振る_4',
         '1F44B-1F3FF': '手を振る_5',
       })
+      .mock('end:de/shortcodes/cldr.json', 404)
       .mock('*', []);
   });
 
@@ -125,6 +129,26 @@ describe('fetchEmojis()', () => {
       );
 
       expect(data[0].shortcodes).toEqual(['te_o_furu', 'wave']);
+    });
+
+    it('doesnt fail if a shortcodes request fails', async () => {
+      const data = await fetchEmojis('en', { shortcodes: ['cldr', 'de/cldr'] });
+
+      expect(fetchMock).toHaveBeenCalledWith(
+        'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/data.json',
+        expect.any(Object),
+      );
+      expect(fetchMock).toHaveBeenCalledWith(
+        'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/shortcodes/cldr.json',
+        expect.any(Object),
+      );
+      // 404
+      expect(fetchMock).toHaveBeenCalledWith(
+        'https://cdn.jsdelivr.net/npm/emojibase-data@latest/de/shortcodes/cldr.json',
+        expect.any(Object),
+      );
+
+      expect(data[0].shortcodes).toEqual(['wave']);
     });
   });
 });
