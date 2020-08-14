@@ -17,18 +17,6 @@ module.exports = {
       items: [
         {
           type: 'link',
-          label: 'Shortcodes list',
-          href:
-            'https://github.com/milesj/emojibase/blob/master/packages/generator/src/resources/shortcodes.ts',
-        },
-        {
-          type: 'link',
-          label: 'Emoticons list',
-          href:
-            'https://github.com/milesj/emojibase/blob/master/packages/generator/src/resources/emoticons.ts',
-        },
-        {
-          type: 'link',
           label: 'CLDR v37',
           href: 'http://cldr.unicode.org/index/downloads/cldr-37',
         },
