@@ -11,18 +11,77 @@ That being said, shortcodes are not officially supported by Unicode or any stand
 entirely community driven. Because of this, shortcodes (also known as shortnames), may differ
 between implementations, websites, or libraries.
 
-Emojibase aims to solve this problem with a
-[maintained and curated list of shortcodes](https://github.com/milesj/emojibase/blob/master/packages/generator/src/resources/shortcodes.ts)
-that abide the following guidelines:
+Emojibase aims to solve this problem by providing shortcode presets. Each preset is a distinct
+collection of shortcodes that map to emoji hexcodes. They're entirely platform dependent.
 
-- Must be short and succinct. Easy to type, easy to remember. This infers a small filesize.
-- Must be consistent across locales and languages by utilizing English shortcodes. It's a language
-  common amongst supported locales.
-- Must use descriptive nouns over verbose phrases. For example, "storm" over "cloud with lightning
-  and rain".
-- Must use emotions when describing smileys. For example, "happy" over "smiling face with open mouth
-  & smiling eyes".
-- Must keep backwards compatibility and historical integrity by never removing and renaming
-  shortcodes.
-- Must support multiple shortcodes per emoji character, for usage within different contexts.
-- Must align with or base off [CLDR](http://cldr.unicode.org/index/downloads/cldr-37) annotations.
+## Presets
+
+### `cldr`
+
+> Supports all locales.
+
+Localized shortcodes derived from the official Unicode [CLDR][cldr] annotations. Non-Latin languages
+are transliterated to a Latin character equivalent, but may not be entirely accurate. These are
+basically slugified variations of the `annotation` field in the Emojibase emoji object.
+
+```
+// 😁 beaming face with smiling eyes
+:beaming_face_with_smiling_eyes: // English
+:ni_yatto_warau: // Japanese
+:svetitsya_ot_schastya: // Russian
+```
+
+### `cldr-native`
+
+> Supports non-Latin locales: Japanese (ja), Korean (ko), Russian (ru), Thai (th), Ukrainian (uk),
+> Chinese (zh), Chinese simplified (zh-hant)
+
+Like [`cldr`](#cldr) but shortcodes are not transliterated to Latin characters. These presets _do
+not_ exist for Latin based languages.
+
+```
+// 😁 beaming face with smiling eyes
+:미소_짓는_눈으로_웃는_얼굴: // Korean
+:осяйно_всміхнене_обличчя_й_очі: // Ukrainian
+```
+
+### `emojibase`
+
+> English only.
+
+Emojibase specific shortcodes that abide the following guidelines
+([view the full shortcode list](https://github.com/milesj/emojibase/blob/master/packages/generator/src/resources/shortcodes.ts)).
+
+- Uses emotions when describing smileys. For example, "happy" over "smiling face with open mouth &
+  smiling eyes". _Some emotions may not align with the image accurately._
+- Uses descriptive nouns over verbose phrases. For example, "storm" over "cloud with lightning and
+  rain".
+
+```
+// 😁 beaming face with smiling eyes
+:blissful:, :grin: // English
+```
+
+### `github`
+
+> English only.
+
+Official emoji shortcodes for the [GitHub](https://github.com) platform, powered by the
+[official v3 API](https://api.github.com/emojis). This preset _does not_ define shortcodes for skin
+tone variations.
+
+```
+// 😁 beaming face with smiling eyes
+:grin: // English
+```
+
+## Caveats
+
+Some caveats to be aware of when using shortcodes.
+
+- Shortcodes are non-standard and the names/terminology will differ between presets.
+- Some emojis may be missing shortcodes depending on the preset.
+- There may be duplicate and/or conflicting shortcodes when using multiple presets.
+- Presets may not provide shortcodes for the latest emoji/Unicode specifications.
+
+[cldr]: http://cldr.unicode.org/index/downloads/cldr-37

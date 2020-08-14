@@ -225,17 +225,17 @@ import data from 'emojibase-data/en/compact.json';
 
 If you prefer to not inflate your bundle size with these large JSON datasets, you can fetch them
 from our CDN ([provided by jsdelivr.com](https://cdn.jsdelivr.net/npm/emojibase-data@latest/)) using
-`fetchFromCDN()`.
+`fetchFromCDN()`, `fetchEmojis()`, or `fetchShortcodes()`.
 
 ```ts
-import { fetchFromCDN } from 'emojibase';
+import { fetchFromCDN, fetchEmojism fetchShortcodes } from 'emojibase';
 
-fetchFromCDN('en/data.json').then((emojis) => {
-  // Do something with it!
-});
+const englishEmojis = await fetchFromCDN('en/data.json', { shortcodes: ['github'] });
+const japaneseCompactEmojis = await fetchEmojis('ja', { compact: true });
+const germanCldrShortcodes = await fetchShortcodes('de', 'cldr');
 ```
 
-Learn more about the [`fetchFromCDN` API](./api.mdx#fetchFromCDN).
+Learn more about these functions in the [API](./api.mdx).
 
 ## Filesizes
 
@@ -317,10 +317,11 @@ Sorted by original size in ascending order.
 
 | File                                | Size     | Gzipped  |
 | ----------------------------------- | -------- | -------- |
-| zh-hant/shortcodes/cldr-native.json | 52.91 KB | 16.92 KB |
-| zh/shortcodes/cldr-native.json      | 55.59 KB | 17.36 KB |
+| en/shortcodes/github.json           | 38.82 KB | 13.76 KB |
+| zh-hant/shortcodes/cldr-native.json | 52.9 KB  | 16.91 KB |
+| zh/shortcodes/cldr-native.json      | 55.58 KB | 17.36 KB |
 | zh-hant/shortcodes/cldr.json        | 56.78 KB | 14.96 KB |
-| ja/shortcodes/cldr.json             | 57.85 KB | 16.13 KB |
+| ja/shortcodes/cldr.json             | 57.82 KB | 16.07 KB |
 | nb/shortcodes/cldr.json             | 57.98 KB | 16.68 KB |
 | da/shortcodes/cldr.json             | 58.99 KB | 16.76 KB |
 | th/shortcodes/cldr.json             | 59.82 KB | 17.02 KB |
@@ -333,7 +334,7 @@ Sorted by original size in ascending order.
 | ru/shortcodes/cldr.json             | 61.15 KB | 17.79 KB |
 | fi/shortcodes/cldr.json             | 61.63 KB | 17.18 KB |
 | nl/shortcodes/cldr.json             | 63.25 KB | 17.42 KB |
-| ja/shortcodes/cldr-native.json      | 64.47 KB | 18.23 KB |
+| ja/shortcodes/cldr-native.json      | 64.44 KB | 18.21 KB |
 | de/shortcodes/cldr.json             | 64.73 KB | 17.6 KB  |
 | ms/shortcodes/cldr.json             | 64.87 KB | 17.57 KB |
 | ko/shortcodes/cldr.json             | 65.03 KB | 17.04 KB |
@@ -345,10 +346,10 @@ Sorted by original size in ascending order.
 | it/shortcodes/cldr.json             | 67.14 KB | 17.93 KB |
 | es/shortcodes/cldr.json             | 67.16 KB | 17.86 KB |
 | lt/shortcodes/cldr.json             | 68.13 KB | 18.33 KB |
-| uk/shortcodes/cldr.json             | 69.9 KB  | 19 KB    |
-| ru/shortcodes/cldr-native.json      | 84.46 KB | 19.81 KB |
-| th/shortcodes/cldr-native.json      | 98.57 KB | 20.08 KB |
-| uk/shortcodes/cldr-native.json      | 98.59 KB | 21.46 KB |
+| uk/shortcodes/cldr.json             | 69.88 KB | 18.99 KB |
+| ru/shortcodes/cldr-native.json      | 84.3 KB  | 19.75 KB |
+| uk/shortcodes/cldr-native.json      | 98.34 KB | 21.37 KB |
+| th/shortcodes/cldr-native.json      | 98.56 KB | 20.07 KB |
 
   </TabItem>
   <TabItem value="other">

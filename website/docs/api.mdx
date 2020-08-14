@@ -87,8 +87,8 @@ await fetchEmojis('ja', {
 
 - `compact` (`boolean`) - Load the compact dataset instead of the full dataset. Defaults to `false`.
 - `flat` (`boolean`) - Flatten the dataset (moving skin tones to the root). Defaults to `false`.
-- `shortcodes` (`string[]`) - List of shortcode presets to load and merge into the emojis dataset.
-  Defaults to an empty list.
+- `shortcodes` (`string[]`) - List of shortcode [presets][preset] to load and merge into the emojis
+  dataset. Defaults to an empty list.
 - All options supported by [`fetchFromCDN`](#fetchfromcdn).
 
 ## `fetchShortcodes`
@@ -96,8 +96,8 @@ await fetchEmojis('ja', {
 > fetchShortcodes(locale: string, preset: ShortcodePreset, options?: FetchFromCDNOptions):
 > Promise<ShortcodesDataset\>
 
-Fetches and returns localized shortcodes for the defined preset from our [CDN][cdn]. The response is
-a mapping of emoji hexcodes to shortcodes (either a string or array of strings). Uses
+Fetches and returns localized shortcodes for the defined [preset][preset] from our [CDN][cdn]. The
+response is a mapping of emoji hexcodes to shortcodes (either a string or array of strings). Uses
 [`fetchFromCDN`](#fetchfromcdn) under the hood.
 
 ```ts
@@ -105,16 +105,6 @@ import { fetchShortcodes } from 'emojibase';
 
 await fetchShortcodes('ja', 'cldr', { version: '2.1.3' });
 ```
-
-### Presets
-
-- `cldr` - Shortcodes derived from the official Unicode [CLDR data][cldr]. Non-latin languages are
-  transliterated to a latin character equivalent, but may not be entirely accurate.
-- `cldr-native` - Like `cldr` but shortcodes are not transliterated to latin characters. _Only
-  exists for non-latin languages._
-
-> Non-latin languages are currently: Japanese (ja), Korean (ko), Russian (ru), Thai (th), Ukrainian
-> (uk), Chinese (zh), Chinese simplified (zh-hant)
 
 ### Options
 
@@ -300,3 +290,4 @@ stripHexcode('1F468-200D-2695-FE0F'); // 1F468-2695
 
 [cldr]: http://cldr.unicode.org/index/downloads/cldr-37
 [cdn]: https://cdn.jsdelivr.net/npm/emojibase-data@latest/
+[preset]: ./shortcodes.md#presets
