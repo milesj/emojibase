@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import fetch from 'node-fetch';
+import fetch, { RequestInit } from 'node-fetch';
 import log from '../helpers/log';
 import readCache from '../helpers/readCache';
 import writeCache from '../helpers/writeCache';
@@ -11,6 +11,7 @@ export default async function fetchAndCache<T>(
   url: string,
   name: string,
   parser: (text: string) => T,
+  options?: RequestInit,
 ): Promise<T> {
   // Check the cache first
   const cache = localCache[name] || readCache(name);
@@ -27,7 +28,7 @@ export default async function fetchAndCache<T>(
   let text = '';
 
   try {
-    text = await fetch(url).then((response) => {
+    text = await fetch(url, options).then((response) => {
       if (response.ok) {
         return response.text();
       }

@@ -24,7 +24,7 @@ function loadShortcodesData(preset: ShortcodePreset): ShortcodesDataset {
 }
 
 describe('shortcodes', () => {
-  const presets: ShortcodePreset[] = ['cldr', 'cldr-native'];
+  const presets: ShortcodePreset[] = ['cldr', 'cldr-native', 'emojibase', 'github'];
 
   presets.forEach((preset) => {
     const pattern = preset === 'cldr-native' ? SHORTCODE_NATIVE_PATTERN : SHORTCODE_PATTERN;

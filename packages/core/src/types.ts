@@ -28,7 +28,7 @@ export type PresentationKey = 'text' | 'emoji';
 
 export type Shortcode = string;
 
-export type ShortcodePreset = 'cldr' | 'cldr-native';
+export type ShortcodePreset = 'cldr' | 'cldr-native' | 'emojibase' | 'github';
 
 export type SkinTone = 1 | 2 | 3 | 4 | 5;
 
