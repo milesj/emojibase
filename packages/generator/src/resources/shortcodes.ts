@@ -85,7 +85,7 @@ export default {
   // 😰 anxious face with sweat
   '1F630': ['cold_sweat', 'anxious', 'frustrated'],
   // 😥 sad but relieved face
-  '1F625': ['hopeful'],
+  '1F625': ['gloomy'],
   // 😢 crying face
   '1F622': ['upset', 'cry'],
   // 😭 loudly crying face
@@ -219,9 +219,9 @@ export default {
   // ☝︎ index pointing up
   '261D': ['point_up'],
   // 👍️ thumbs up
-  '1F44D': ['thumbsup', '+1', 'yes'],
+  '1F44D': ['thumbsup', '+1', 'y', 'yes'],
   // 👎️ thumbs down
-  '1F44E': ['thumbsdown', '-1', 'no'],
+  '1F44E': ['thumbsdown', '-1', 'n', 'no'],
   // ✊ raised fist
   '270A': ['fist'],
   // 👊 oncoming fist
