@@ -28,7 +28,7 @@ const features: FeatureProps[] = [
     // imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Easily internationalize your emoji integration with one of our 19 supported languages and
+        Easily internationalize your emoji integration with one of our 25 supported languages and
         growing. Is your language not supported? Just ask!
       </>
     ),

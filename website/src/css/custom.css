@@ -48,9 +48,16 @@ select {
 label {
   margin-bottom: 0.5rem;
   display: block;
+  font-weight: bold;
 }
 
 table {
   width: 100%;
   display: table;
+}
+
+.label--inline {
+  display: inline-block;
+  margin-right: 1em;
+  font-weight: normal;
 }

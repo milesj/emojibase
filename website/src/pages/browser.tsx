@@ -1,6 +1,6 @@
 import 'url-search-params-polyfill';
 import React, { useEffect, useState } from 'react';
-import { flattenEmojiData, fetchFromCDN, Emoji } from 'emojibase';
+import { fetchEmojis, Emoji } from 'emojibase';
 import groupsData from 'emojibase-data/meta/groups.json';
 import Layout from '@theme/Layout';
 import styles from './styles.module.css';
@@ -35,6 +35,14 @@ const LOCALES = [
   { value: 'zh', label: 'Chinese' },
 ].sort((a, b) => a.label.localeCompare(b.label));
 
+const PRESETS = [
+  { value: 'cldr', label: 'CLDR' },
+  { value: 'cldr-native', label: 'CLDR (native)' },
+  { value: 'emojibase', label: 'Emojibase' },
+  { value: 'github', label: 'GitHub' },
+  { value: 'iamcal', label: 'Discord/Slack' },
+];
+
 function filterAndSortEmojis(
   emojis: Emoji[],
   filter: string,
@@ -54,7 +62,7 @@ function filterAndSortEmojis(
       if (filter) {
         const matchesAnnotation = emoji.annotation.toLocaleLowerCase().includes(filter);
         const matchesAnyShortcode =
-          emoji.shortcodes
+          (emoji.shortcodes || [])
             .map((shortcode) => shortcode.toLocaleLowerCase().includes(filter))
             .indexOf(true) > -1;
         const matchesAnyTags =
@@ -86,20 +94,29 @@ export default function Browser() {
   const [group, setGroup] = useState<number>(Number(query.get('group') ?? -1));
   const [subgroup, setSubgroup] = useState<number>(Number(query.get('subgroup') ?? -1));
   const [skinTones, setSkinTones] = useState(Boolean(query.get('skinTones') ?? false));
+  const [presets, setPresets] = useState(
+    decodeURIComponent(query.get('shortcodes') ?? 'emojibase')
+      .split(',')
+      .filter(Boolean),
+  );
   const [emojis, setEmojis] = useState<Emoji[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setLoading(true);
 
-    fetchFromCDN<Emoji>(`${locale}/data.json`)
+    fetchEmojis(locale, {
+      flat: skinTones,
+      shortcodes: presets.map((preset) => (preset.includes('cldr') ? preset : `en/${preset}`)),
+      version: 'next',
+    })
       .then((data) => {
         setEmojis(data);
       })
       .finally(() => {
         setLoading(false);
       });
-  }, [locale]);
+  }, [locale, presets, skinTones]);
 
   const handleFilterChange = (event: React.FormEvent<HTMLInputElement>) => {
     const { value } = event.currentTarget;
@@ -143,12 +160,28 @@ export default function Browser() {
     updateUrlFragment(query);
   };
 
-  const list = filterAndSortEmojis(
-    skinTones ? flattenEmojiData(emojis) : emojis,
-    filter.toLocaleLowerCase(),
-    group,
-    subgroup,
-  );
+  const handleShortcodePresetChange = (event: React.FormEvent<HTMLInputElement>) => {
+    const { checked, value } = event.currentTarget;
+
+    setPresets((prev) => {
+      const next = new Set(prev);
+
+      if (checked) {
+        next.add(value);
+      } else {
+        next.delete(value);
+      }
+
+      const presets = Array.from(next);
+
+      query.set('shortcodes', encodeURIComponent(presets.join(',')));
+      updateUrlFragment(query);
+
+      return presets;
+    });
+  };
+
+  const list = filterAndSortEmojis(emojis, filter.toLocaleLowerCase(), group, subgroup);
 
   return (
     <Layout title="Emoji browser" description="Browse all emojis across any supported locale.">
@@ -232,7 +265,9 @@ export default function Browser() {
 
             <div className="row">
               <div className="col col--3">
-                <label htmlFor="skinTones">
+                <h4>Skin tones</h4>
+
+                <label htmlFor="skinTones" className="label--inline">
                   <input
                     type="checkbox"
                     id="skinTones"
@@ -241,8 +276,31 @@ export default function Browser() {
                     onChange={handleSkinToneChange}
                     disabled={loading}
                   />{' '}
-                  Include skin tone variations?
+                  Display variations?
                 </label>
+              </div>
+
+              <div className="col col-9">
+                <h4>Shortcode presets</h4>
+
+                {PRESETS.map((preset) => (
+                  <label
+                    key={preset.value}
+                    htmlFor={`preset-${preset.value}`}
+                    className="label--inline"
+                  >
+                    <input
+                      type="checkbox"
+                      id={`preset-${preset.value}`}
+                      name="presets"
+                      value={preset.value}
+                      checked={presets.includes(preset.value)}
+                      onChange={handleShortcodePresetChange}
+                      disabled={loading}
+                    />{' '}
+                    {preset.label}
+                  </label>
+                ))}
               </div>
             </div>
           </div>
@@ -281,8 +339,8 @@ export default function Browser() {
 
                         {emoji.emoticon && <span className="text--muted"> {emoji.emoticon}</span>}
                       </td>
-                      <td>{emoji.shortcodes.map((s) => `:${s}:`).join(', ')}</td>
-                      <td>{emoji.tags.join(', ')}</td>
+                      <td>{emoji.shortcodes?.map((s) => `:${s}:`).join(', ')}</td>
+                      <td>{emoji.tags?.join(', ')}</td>
                     </tr>
                   ))}
                 </>
