@@ -1,6 +1,6 @@
 {
   "name": "emojibase-regex",
-  "version": "4.1.1",
+  "version": "4.2.0-alpha.0",
   "description": "Evergreen emoji regex patterns.",
   "keywords": [
     "emoji",
@@ -15,8 +15,8 @@
     "access": "public"
   },
   "devDependencies": {
-    "emojibase": "^4.1.1",
-    "emojibase-test-utils": "^5.1.1"
+    "emojibase": "^5.0.0-alpha.0",
+    "emojibase-test-utils": "^6.0.0-alpha.0"
   },
   "funding": {
     "type": "ko-fi",

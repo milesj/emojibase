@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "emojibase-generator",
-  "version": "2.1.1",
+  "version": "3.0.0-alpha.0",
   "description": "Scripts for generating emoji datasets.",
   "repository": "https://github.com/milesj/emojibase/tree/master/packages/generator",
   "license": "MIT",
@@ -20,6 +20,6 @@
     "transliteration": "^2.1.11"
   },
   "devDependencies": {
-    "emojibase": "^4.1.1"
+    "emojibase": "^5.0.0-alpha.0"
   }
 }
