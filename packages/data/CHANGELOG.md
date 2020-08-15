@@ -1,3 +1,37 @@
+# 6.0.0 - ???
+
+To better support shortcodes moving forward, we have rewritten their implementation. We now support
+translated shortcodes for all languages, and shortcode presets for common platforms like GitHub and
+slack.
+
+#### 💥 Breaking
+
+- Rewrote the shortcodes implementation.
+- Removed `shortcodes` field from all emoji objects. Shortcodes must now be loaded separately.
+- Removed `meta/shortcodes.json` dataset.
+
+#### 🚀 Updates
+
+- Added support for the following locales:
+  - `et` - Estonian
+  - `fi` - Finnish
+  - `hu` - Hungarian
+  - `lt` - Lithuanian
+  - `nb` - Norwegian
+  - `uk` - Ukrainian
+- Added `shortcodes/cldr.json` datasets for each locale. Shortcodes are now localized!
+- Added `shortcodes/cldr-native.json` datasets for each non-latin locale.
+- Added `shortcodes/emojibase.json` dataset (English only).
+- Added `shortcodes/github.json` dataset (English only).
+- Added `shortcodes/iamcal.json` dataset (English only).
+- Added `discord` and `slack` shortcode aliases (to `iamcal`).
+- [**emojibase**] Added `y` and `n` shortcodes.
+- [**emojibase**] Renamed `hopeful` to `gloomy`.
+
+#### ⚙️ Types
+
+- Updated all `*.d.ts` datasets to use wildstar paths.
+
 ### 5.1.1 - 2020-08-05
 
 #### 🐞 Fixes

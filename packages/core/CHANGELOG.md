@@ -1,3 +1,32 @@
+# 5.0.0 - ???
+
+To better support shortcodes moving forward, we have rewritten their implementation. We now support
+translated shortcodes for all languages, and shortcode presets for common platforms like GitHub and
+slack.
+
+#### 💥 Breaking
+
+- Moved version argument in `fetchFromCDN` into the options object.
+- Rewrote the shortcodes implementation.
+
+#### 🚀 Updates
+
+- Added `fetchEmojis` function to easily fetch emojis + shortcodes from the CDN.
+  - Can load compact datasets.
+  - Can load and join multiple shortcode presets.
+  - Can flatten the dataset (merge skin tones into root).
+- Added `fetchShortcodes` function to fetch shortcodes from the CDN.
+- Added `joinShortcodes` and `joinShortcodesToEmoji` functions to handle the merging of shortcode
+  presets into emojis.
+- Added `NON_LATIN_LOCALES` constant, which is a list of non-latin locales.
+- Updated `flattenEmojiData` to handle joining of shortcode presets.
+
+#### ⚙️ Types
+
+- Added `FlatEmoji` type.
+- Added `FlatCompactEmoji` type.
+- Added `ShortcodePreset` type.
+
 ### 4.1.1 - 2020-08-05
 
 #### 🐞 Fixes

@@ -1,3 +1,9 @@
+## 4.2.0 - ???
+
+#### 🚀 Updates
+
+- Added a new pattern, `shortcode-native`, for matching against shortcode's in non-latin languages.
+
 ### 4.1.1 - 2020-08-05
 
 #### 🐞 Fixes
