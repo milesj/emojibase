@@ -20,9 +20,11 @@ import data from 'emojibase-data/en/data.json';
 Or fetch the dataset from our CDN.
 
 ```ts
-import { fetchFromCDN } from 'emojibase';
+import { fetchFromCDN, fetchEmojis, fetchShortcodes } from 'emojibase';
 
-fetchFromCDN('en/data.json').then((data) => data);
+const englishEmojis = await fetchFromCDN('en/data.json', { shortcodes: ['github'] });
+const japaneseCompactEmojis = await fetchEmojis('ja', { compact: true });
+const germanCldrShortcodes = await fetchShortcodes('de', 'cldr');
 ```
 
 ## Documentation

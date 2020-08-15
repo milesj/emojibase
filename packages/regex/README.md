@@ -16,10 +16,12 @@ Import and use the `RegExp` pattern.
 import EMOJI_REGEX from 'emojibase-regex';
 import EMOTICON_REGEX from 'emojibase-regex/emoticon';
 import SHORTCODE_REGEX from 'emojibase-regex/shortcode';
+import SHORTCODE_NATIVE_REGEX from 'emojibase-regex/shortcode-native';
 
 `🏰`.match(EMOJI_REGEX);
 ':)'.match(EMOTICON_REGEX);
 ':castle:'.match(SHORTCODE_REGEX);
+':гвинея:'.match(SHORTCODE_NATIVE_REGEX);
 ```
 
 ## Documentation
