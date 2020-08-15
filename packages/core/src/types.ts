@@ -28,7 +28,14 @@ export type PresentationKey = 'text' | 'emoji';
 
 export type Shortcode = string;
 
-export type ShortcodePreset = 'cldr' | 'cldr-native' | 'emojibase' | 'github' | 'iamcal';
+export type ShortcodePreset =
+  | 'cldr'
+  | 'cldr-native'
+  | 'discord'
+  | 'emojibase'
+  | 'github'
+  | 'iamcal'
+  | 'slack';
 
 export type SkinTone = 1 | 2 | 3 | 4 | 5;
 

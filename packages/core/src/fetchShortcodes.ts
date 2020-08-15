@@ -2,6 +2,11 @@ import { ShortcodePreset, ShortcodesDataset } from './types';
 import fetchFromCDN, { FetchFromCDNOptions } from './fetchFromCDN';
 import { NON_LATIN_LOCALES } from './constants';
 
+const ALIASES: Partial<Record<ShortcodePreset, string>> = {
+  discord: 'iamcal',
+  slack: 'iamcal',
+};
+
 export default function fetchShortcodes(
   locale: string,
   preset: ShortcodePreset,
@@ -11,5 +16,5 @@ export default function fetchShortcodes(
     return Promise.resolve({});
   }
 
-  return fetchFromCDN(`${locale}/shortcodes/${preset}.json`, options);
+  return fetchFromCDN(`${locale}/shortcodes/${ALIASES[preset] || preset}.json`, options);
 }

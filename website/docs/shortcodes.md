@@ -45,6 +45,13 @@ not_ exist for Latin based languages.
 :осяйно_всміхнене_обличчя_й_очі: // Ukrainian
 ```
 
+### `discord`
+
+An alias for the [`iamcal`](#iamcal) preset.
+
+> This preset may not be accurate as Discord does not provide an official implementation for its
+> shortcodes. If you would like to improve this solution, please create an issue!
+
 ### `emojibase`
 
 > English only.
@@ -67,26 +74,36 @@ Emojibase specific shortcodes that abide the following guidelines
 > English only.
 
 Official emoji shortcodes for the [GitHub](https://github.com) platform, powered by the
-[official v3 API](https://api.github.com/emojis). This preset _does not_ define shortcodes for skin
-tone variations.
+[official v3 API](https://api.github.com/emojis).
 
 ```
 // 😁 beaming face with smiling eyes
 :grin: // English
 ```
+
+> This preset _does not_ define shortcodes for skin tone variations.
 
 ### `iamcal`
 
 > English only.
 
 Emoji shortcodes provided by the [emoji-data](https://github.com/iamcal/emoji-data) library, owned
-and maintained by [Cal Henderson](https://github.com/iamcal). This preset _does not_ define
-shortcodes for skin tone variations, nor does it support the latest v13 specification.
+and maintained by [Cal Henderson](https://github.com/iamcal).
 
 ```
 // 😁 beaming face with smiling eyes
 :grin: // English
 ```
+
+> This preset _does not_ define shortcodes for skin tone variations, nor does it support the latest
+> v13 specification.
+
+### `slack`
+
+An alias for the [`iamcal`](#iamcal) preset.
+
+> This preset may not be accurate as Slack does not provide an official implementation for its
+> shortcodes. If you would like to improve this solution, please create an issue!
 
 ## Caveats
 
