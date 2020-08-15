@@ -1,4 +1,4 @@
-/* eslint-disable global-require, @typescript-eslint/no-unsafe-assignment, unicorn/better-regex */
+/* eslint-disable import/no-dynamic-require, global-require, @typescript-eslint/no-unsafe-assignment, unicorn/better-regex */
 
 import path from 'path';
 import {
@@ -7,6 +7,7 @@ import {
   NON_LATIN_LOCALES,
   appendSkinToneIndex,
   Emoji as MainEmoji,
+  stripHexcode,
 } from 'emojibase';
 import Kuroshiro from 'kuroshiro';
 import KuromojiAnalyzer from 'kuroshiro-analyzer-kuromoji';
@@ -127,7 +128,8 @@ async function generateCldr(emojis: Emoji[]) {
 
 async function generateEmojibase() {
   // Generate the dataset
-  const shortcodes: ShortcodeDataMap = require('../resources/shortcodes').default;
+  const shortcodes: ShortcodeDataMap = require(path.join(__dirname, '../resources/shortcodes'))
+    .default;
 
   Object.entries(shortcodes).forEach(([hexcode, codes]) => {
     if (Array.isArray(codes) && codes.length === 1) {
@@ -139,7 +141,7 @@ async function generateEmojibase() {
   await writeDataset(`en/shortcodes/emojibase.json`, shortcodes, true);
 
   // Organize and sort the resources file
-  const data: MainEmoji[] = require('../../../data/en/data.json');
+  const data: MainEmoji[] = require(path.join(__dirname, '../../../data/en/data.json'));
   const output: string[] = [
     '/* eslint-disable sort-keys */',
     '',
@@ -209,6 +211,35 @@ async function generateGitHub() {
   await writeDataset(`en/shortcodes/github.json`, shortcodes, true);
 }
 
+async function generateIamCal() {
+  const shortcodes: ShortcodeDataMap = {};
+  const response = await fetchAndCache<{ unified: string; short_names?: string[] }[]>(
+    'https://raw.githubusercontent.com/iamcal/emoji-data/master/emoji.json',
+    'temp/iamcal-emoji-data.json',
+    (text) => JSON.parse(text),
+    {
+      headers: {
+        'User-Agent': 'Emojibase',
+      },
+    },
+  );
+
+  response.forEach((emoji) => {
+    const hexcode = stripHexcode(emoji.unified);
+
+    if (Array.isArray(emoji.short_names)) {
+      if (emoji.short_names.length === 1) {
+        // eslint-disable-next-line prefer-destructuring
+        shortcodes[hexcode] = emoji.short_names[0];
+      } else {
+        shortcodes[hexcode] = emoji.short_names;
+      }
+    }
+  });
+
+  await writeDataset(`en/shortcodes/iamcal.json`, shortcodes, true);
+}
+
 export default async function generateShortcodes(): Promise<void> {
   log.title('data', 'Generating shortcode datasets');
 
@@ -221,4 +252,5 @@ export default async function generateShortcodes(): Promise<void> {
   // Generate platform shortcodes
   await generateEmojibase();
   await generateGitHub();
+  await generateIamCal();
 }

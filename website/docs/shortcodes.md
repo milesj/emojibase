@@ -75,6 +75,19 @@ tone variations.
 :grin: // English
 ```
 
+### `iamcal`
+
+> English only.
+
+Emoji shortcodes provided by the [emoji-data](https://github.com/iamcal/emoji-data) library, owned
+and maintained by [Cal Henderson](https://github.com/iamcal). This preset _does not_ define
+shortcodes for skin tone variations, nor does it support the latest v13 specification.
+
+```
+// 😁 beaming face with smiling eyes
+:grin: // English
+```
+
 ## Caveats
 
 Some caveats to be aware of when using shortcodes.
