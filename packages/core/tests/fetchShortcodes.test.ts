@@ -35,4 +35,22 @@ describe('fetchShortcodes()', () => {
 
     expect(res2).toEqual({});
   });
+
+  it('aliases presets correctly', async () => {
+    await fetchShortcodes('en', 'discord');
+    await fetchShortcodes('en', 'slack');
+
+    expect(fetchMock).toHaveBeenCalledWith(
+      'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/shortcodes/iamcal.json',
+      expect.any(Object),
+    );
+    expect(fetchMock).not.toHaveBeenCalledWith(
+      'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/shortcodes/discord.json',
+      expect.any(Object),
+    );
+    expect(fetchMock).not.toHaveBeenCalledWith(
+      'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/shortcodes/slack.json',
+      expect.any(Object),
+    );
+  });
 });
