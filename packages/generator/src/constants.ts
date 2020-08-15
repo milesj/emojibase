@@ -110,3 +110,33 @@ export const TAG_LATIN_SMALL_LETTERS: { [hexcode: string]: string } = {
   E0079: 'y',
   E007A: 'z',
 };
+
+export const SHORTCODE_GUIDELINES = `/**
+ * Official Emojibase shortcodes list.
+ *
+ * NAMING GUIDELINES
+ *
+ *  - Gender neutral emoji must be prefixed with "person_",
+ *    while female emoji use "woman_", and male "man_".
+ *    Plural forms use "people_", "women_", and "men_".
+ *    In rare occasions, the gender can be suffixed,
+ *    like "bald_man" or "blonde_woman".
+ *
+ *  - Animals depicted from the side use the animal name,
+ *    while animals depicted with a head, or a face,
+ *    must use the animal name suffixed with "_face".
+ *
+ *  - Japenese specific emoji must be prefixed with "ja_".
+ *
+ *  - Specifiers, like color or size, must be used as a
+ *    prefix. For example, "small_", or "red_".
+ *
+ *  - Use a more descriptive term over the annotation if
+ *    applicable. For example, "storm" over the annotation
+ *    "cloud with lightning and rain".
+ *
+ *  - Use emotions when describing smiley faces. For example,
+ *    "happy" over the annotation "smiling face with open
+ *    mouth & smiling eyes".
+ *    https://www.dailywritingtips.com/100-words-for-facial-expressions/
+ */`;

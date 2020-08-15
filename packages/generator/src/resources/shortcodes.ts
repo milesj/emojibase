@@ -28,22 +28,6 @@
  *    "happy" over the annotation "smiling face with open
  *    mouth & smiling eyes".
  *    https://www.dailywritingtips.com/100-words-for-facial-expressions/
- *
- * ADDING SHORTCODES
- *
- * Please submit a PR with the addition so that it
- * may be discussed.
- *
- * RENAMING/REMOVING SHORTCODES
- *
- * Shortcodes are meant to be permanent, and should never
- * change (excluding typos), as to not destroy historical
- * usage of the shortcode. If a more descriptive term
- * is wanted, or the Unicode standard has changed meaning
- * or naming, we should persist the original shortcode.
- * We can do this by shifting the old shortcode to the end
- * of the array, while placing the new shortcode at the
- * beginning. This allows for backwards compatible changes.
  */
 
 export default {

@@ -1,16 +1,25 @@
-/* eslint-disable @typescript-eslint/no-unsafe-assignment, unicorn/better-regex */
+/* eslint-disable global-require, @typescript-eslint/no-unsafe-assignment, unicorn/better-regex */
 
-import https from 'https';
-import { SUPPORTED_LOCALES, NON_LATIN_LOCALES, appendSkinToneIndex } from 'emojibase';
+import path from 'path';
+import {
+  TEXT,
+  SUPPORTED_LOCALES,
+  NON_LATIN_LOCALES,
+  appendSkinToneIndex,
+  Emoji as MainEmoji,
+} from 'emojibase';
 import Kuroshiro from 'kuroshiro';
 import KuromojiAnalyzer from 'kuroshiro-analyzer-kuromoji';
 import { transliterate } from 'transliteration';
 import buildEmojiData from '../builders/buildEmojiData';
 import buildAnnotationData from '../builders/buildAnnotationData';
 import writeDataset from '../helpers/writeDataset';
+import writeFile from '../helpers/writeFile';
 import filterData from '../helpers/filterData';
 import log from '../helpers/log';
+import { SHORTCODE_GUIDELINES } from '../constants';
 import { ShortcodeDataMap, Emoji } from '../types';
+import fetchAndCache from '../loaders/fetchAndCache';
 
 const CUSTOM_SHORTCODES: { [key: string]: string } = {
   e_mail: 'email',
@@ -116,35 +125,78 @@ async function generateCldr(emojis: Emoji[]) {
   );
 }
 
-async function generateGitHub() {
-  const response = await new Promise<Record<string, string>>((resolve, reject) => {
-    https
-      .get(
-        'https://api.github.com/emojis',
-        {
-          headers: {
-            Accept: 'application/vnd.github.v3+json',
-            'User-Agent': 'Emojibase',
-          },
-        },
-        (resp) => {
-          let data = '';
+async function generateEmojibase() {
+  // Generate the dataset
+  const shortcodes: ShortcodeDataMap = require('../resources/shortcodes').default;
 
-          resp.on('data', (chunk) => {
-            data += chunk;
-          });
-
-          resp.on('end', () => {
-            resolve(JSON.parse(data));
-          });
-        },
-      )
-      .on('error', (error) => {
-        reject(error);
-      });
+  Object.entries(shortcodes).forEach(([hexcode, codes]) => {
+    if (Array.isArray(codes) && codes.length === 1) {
+      // eslint-disable-next-line prefer-destructuring
+      shortcodes[hexcode] = codes[0];
+    }
   });
 
+  await writeDataset(`en/shortcodes/emojibase.json`, shortcodes, true);
+
+  // Organize and sort the resources file
+  const data: MainEmoji[] = require('../../../data/en/data.json');
+  const output: string[] = [
+    '/* eslint-disable sort-keys */',
+    '',
+    SHORTCODE_GUIDELINES,
+    '',
+    'export default {',
+  ];
+  let lastVersion = 0;
+
+  // Sort by version -> order
+  data.sort((a, b) => (a.version === b.version ? a.order - b.order : a.version - b.version));
+
+  // Add each emoji to the list
+  data.forEach((emoji) => {
+    if (emoji.version !== lastVersion) {
+      if (lastVersion !== 0) {
+        output.push('');
+      }
+
+      output.push(`  // VERSION ${emoji.version}`);
+
+      lastVersion = emoji.version;
+    }
+
+    const unicode = emoji.type === TEXT ? emoji.text : emoji.emoji;
+    let codes = shortcodes[emoji.hexcode] || [];
+
+    if (!Array.isArray(codes)) {
+      codes = [codes];
+    }
+
+    output.push(`  // ${unicode} ${emoji.annotation || emoji.name}`);
+    output.push(`  '${emoji.hexcode}': [${codes.map((sc) => `'${sc}'`).join(', ')}],`);
+  });
+
+  output.push('};\n');
+
+  await writeFile(
+    path.join(process.cwd(), 'packages/generator/src/resources'),
+    'shortcodes.ts',
+    output.join('\n'),
+  );
+}
+
+async function generateGitHub() {
   const shortcodes: ShortcodeDataMap = {};
+  const response = await fetchAndCache<Record<string, string>>(
+    'https://api.github.com/emojis',
+    'temp/github-emojis.json',
+    (text) => JSON.parse(text),
+    {
+      headers: {
+        Accept: 'application/vnd.github.v3+json',
+        'User-Agent': 'Emojibase',
+      },
+    },
+  );
 
   Object.entries(response).forEach(([code, url]) => {
     const match = url.match(/emoji\/unicode\/([a-z0-9-]+)\.png/i);
@@ -167,5 +219,6 @@ export default async function generateShortcodes(): Promise<void> {
   await generateCldr(emojis);
 
   // Generate platform shortcodes
+  await generateEmojibase();
   await generateGitHub();
 }
