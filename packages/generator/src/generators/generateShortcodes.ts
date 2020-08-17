@@ -114,10 +114,12 @@ async function generateCldr(emojis: Emoji[]) {
       const promises: Promise<unknown>[] = [];
 
       if (hasLatin) {
+        promises.push(writeDataset(`${locale}/shortcodes/cldr.raw.json`, cldr));
         promises.push(writeDataset(`${locale}/shortcodes/cldr.json`, cldr, true));
       }
 
       if (hasNonLatin) {
+        promises.push(writeDataset(`${locale}/shortcodes/cldr-native.raw.json`, cldrNonLatin));
         promises.push(writeDataset(`${locale}/shortcodes/cldr-native.json`, cldrNonLatin, true));
       }
 
@@ -138,7 +140,10 @@ async function generateEmojibase() {
     }
   });
 
-  await writeDataset(`en/shortcodes/emojibase.json`, shortcodes, true);
+  await Promise.all([
+    writeDataset(`en/shortcodes/emojibase.raw.json`, shortcodes),
+    writeDataset(`en/shortcodes/emojibase.json`, shortcodes, true),
+  ]);
 
   // Organize and sort the resources file
   const data: MainEmoji[] = require(path.join(__dirname, '../../../data/en/data.json'));
@@ -208,7 +213,10 @@ async function generateGitHub() {
     }
   });
 
-  await writeDataset(`en/shortcodes/github.json`, shortcodes, true);
+  await Promise.all([
+    writeDataset(`en/shortcodes/github.raw.json`, shortcodes),
+    writeDataset(`en/shortcodes/github.json`, shortcodes, true),
+  ]);
 }
 
 async function generateIamCal() {
@@ -237,7 +245,10 @@ async function generateIamCal() {
     }
   });
 
-  await writeDataset(`en/shortcodes/iamcal.json`, shortcodes, true);
+  await Promise.all([
+    writeDataset(`en/shortcodes/iamcal.raw.json`, shortcodes),
+    writeDataset(`en/shortcodes/iamcal.json`, shortcodes, true),
+  ]);
 }
 
 export default async function generateShortcodes(): Promise<void> {
