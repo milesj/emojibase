@@ -79,7 +79,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
   Object.keys(sequences).forEach((fullHexcode) => {
     const hexcode = stripHexcode(fullHexcode);
     const emoji = sequences[fullHexcode];
-    const tags: string[] = extractField(hexcode, 'tags') || [];
+    let tags: string[] = extractField(hexcode, 'tags') || [];
     let annotation: string = extractField(hexcode, 'annotation') || '';
 
     // Multi-person skin tones require special attention
@@ -202,6 +202,11 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
           annotation = prefixName || suffixName || '';
         }
       }
+
+      // NOTE: Special case not part of the official spec
+    } else if (REGIONAL_INDICATORS[hexcode]) {
+      annotation = REGIONAL_INDICATORS[hexcode];
+      tags = [annotation];
     }
 
     // Add the new custom annotation
