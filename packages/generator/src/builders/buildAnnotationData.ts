@@ -204,9 +204,10 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       }
 
       // NOTE: Special case not part of the official spec
+      // This isn't localized in CLDR, so just use the letter
     } else if (REGIONAL_INDICATORS[hexcode]) {
       annotation = REGIONAL_INDICATORS[hexcode];
-      tags = [annotation];
+      tags = [annotation.toLowerCase()];
     }
 
     // Add the new custom annotation

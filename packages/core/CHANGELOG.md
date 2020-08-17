@@ -8,6 +8,7 @@ slack.
 
 - Moved version argument in `fetchFromCDN` into the options object.
 - Rewrote the shortcodes implementation.
+- Updated `group` and `subgroup` fields to support `-1`, which denotes no category.
 
 #### 🚀 Updates
 

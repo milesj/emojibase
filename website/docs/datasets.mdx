@@ -83,7 +83,7 @@ values have been implemented using integers,
 - `gender` (`number`) - If applicable, the gender of the emoji character. `0` for female, `1` for
   male.
 - `group` (`number`) - The categorical group the emoji belongs to, ranging from `0` (smileys) to `7`
-  (flags).
+  (flags). Uncategorized emojis will use `-1`.
 - `hexcode` (`string`) - The hexadecimal representation of the emoji Unicode codepoint, including
   zero width joiners and variation selectors.
 - `name` (`string`) - The generated name according to the official Unicode data.
@@ -93,7 +93,8 @@ values have been implemented using integers,
   surrounding colons_.
 - `skins` (`emoji[]`) - If applicable, an array of emoji objects for each skin tone modification,
   starting at light skin, and ending with dark skin.
-- `subgroup` (`number`) - The categorical subgroup the emoji belongs to, ranging from `0` to `75`.
+- `subgroup` (`number`) - The categorical subgroup the emoji belongs to, ranging from `0` to `75`,
+  and `-1` for uncategorized.
 - `tags` (`string[]`) - An array of localized keywords, provided by [CLDR][cldr], to use for
   searching and filtering.
 - `text` (`string`) - The text presentation Unicode character.

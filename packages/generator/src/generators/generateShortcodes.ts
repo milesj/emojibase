@@ -18,7 +18,7 @@ import writeDataset from '../helpers/writeDataset';
 import writeFile from '../helpers/writeFile';
 import filterData from '../helpers/filterData';
 import log from '../helpers/log';
-import { SHORTCODE_GUIDELINES } from '../constants';
+import { SHORTCODE_GUIDELINES, REGIONAL_INDICATORS } from '../constants';
 import { ShortcodeDataMap, Emoji } from '../types';
 import fetchAndCache from '../loaders/fetchAndCache';
 
@@ -80,7 +80,7 @@ async function generateCldr(emojis: Emoji[]) {
       for await (const emoji of emojis) {
         const row = annotations[emoji.hexcode];
 
-        if (!row || !row.annotation) {
+        if (!row || !row.annotation || REGIONAL_INDICATORS[emoji.hexcode]) {
           // eslint-disable-next-line no-continue
           continue;
         }

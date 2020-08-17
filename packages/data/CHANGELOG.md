@@ -9,6 +9,7 @@ slack.
 - Rewrote the shortcodes implementation.
 - Removed `shortcodes` field from all emoji objects. Shortcodes must now be loaded separately.
 - Removed `meta/shortcodes.json` dataset.
+- Updated `group` and `subgroup` fields to support `-1`, which denotes no category.
 
 #### 🚀 Updates
 

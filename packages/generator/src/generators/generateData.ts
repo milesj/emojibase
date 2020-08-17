@@ -32,9 +32,9 @@ function createEmoji(
     text: '',
     type: baseEmoji.type,
     // Categorization
-    order: baseEmoji.order,
-    group: baseEmoji.group,
-    subgroup: baseEmoji.subgroup,
+    order: baseEmoji.order ?? -1,
+    group: baseEmoji.group ?? -1,
+    subgroup: baseEmoji.subgroup ?? -1,
     version: 0,
   };
   /* eslint-enable sort-keys */
