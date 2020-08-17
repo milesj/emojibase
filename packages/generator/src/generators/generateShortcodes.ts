@@ -162,10 +162,7 @@ async function generateEmojibase() {
   // Add each emoji to the list
   data.forEach((emoji) => {
     if (emoji.version !== lastVersion) {
-      if (lastVersion !== 0) {
-        output.push('');
-      }
-
+      output.push('');
       output.push(`  // VERSION ${emoji.version}`);
 
       lastVersion = emoji.version;
