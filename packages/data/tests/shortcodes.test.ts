@@ -15,7 +15,7 @@ function loadShortcodesData(preset: ShortcodePreset): ShortcodesDataset {
 
   try {
     // eslint-disable-next-line
-    localeCache[key] = require(path.join(__dirname, '..', locale, `shortcodes/${preset}.json`));
+    localeCache[key] = require(path.join(__dirname, '..', locale, `shortcodes/${preset}.raw.json`));
   } catch {
     return {};
   }

@@ -38,5 +38,11 @@ webpack.config.js
 *.tsbuildinfo
 
 # Emoji datasets
-packages/data/*/data.json
-packages/data/*/compact.json
+# packages/data/*/data.json
+# packages/data/*/compact.json
+# packages/data/*/shortcodes/*.json
+# !packages/data/*/data.raw.json
+# !packages/data/*/compact.raw.json
+# !packages/data/*/shortcodes/*.raw.json
+packages/data/**/*.json
+!packages/data/**/*.raw.json

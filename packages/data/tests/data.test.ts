@@ -10,8 +10,10 @@ function loadFlatEmojiData(): Emoji[] {
     return localeCache[locale];
   }
 
-  // eslint-disable-next-line
-  localeCache[locale] = flattenEmojiData(require(path.join(__dirname, '..', locale, 'raw.json')));
+  localeCache[locale] = flattenEmojiData(
+    // eslint-disable-next-line
+    require(path.join(__dirname, '..', locale, 'data.raw.json')),
+  );
 
   return localeCache[locale];
 }
