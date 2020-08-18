@@ -1,3 +1,4 @@
+import { stripHexcode } from 'emojibase';
 import buildEmojiData from '../builders/buildEmojiData';
 import filterData from '../helpers/filterData';
 import log from '../helpers/log';
@@ -12,16 +13,26 @@ import { EmojiMap } from '../types';
 // Let's add additional mappings for the variations so we capture everything.
 function createEmojiMap(emojis: EmojiMap): EmojiMap {
   Object.values(emojis).forEach((emoji) => {
+    const otherHexcode = stripHexcode(emoji.hexcode);
+
+    if (otherHexcode !== emoji.hexcode && !emojis[otherHexcode]) {
+      emojis[otherHexcode] = emoji;
+    }
+
     if (emoji.variations) {
       const { emoji: emojiHexcode, text: textHexcode } = emoji.variations;
 
-      if (emojiHexcode) {
+      if (emojiHexcode && !emojis[emojiHexcode]) {
         emojis[emojiHexcode] = emoji;
       }
 
-      if (textHexcode) {
+      if (textHexcode && !emojis[textHexcode]) {
         emojis[textHexcode] = emoji;
       }
+    }
+
+    if (emoji.modifications) {
+      createEmojiMap(emoji.modifications);
     }
   });
 

@@ -1,3 +1,4 @@
+import { stripHexcode } from 'emojibase';
 import fetchAndCache from '../../loaders/fetchAndCache';
 import writeDataset from '../../helpers/writeDataset';
 import { ShortcodeDataMap, EmojiMap } from '../../types';
@@ -25,12 +26,15 @@ export default async function generateGitHub(emojis: EmojiMap) {
     }
 
     const hexcode = match[1].toUpperCase();
+    const emoji = emojis[hexcode] || emojis[stripHexcode(hexcode)];
 
-    shortcodes[hexcode] = shortcode;
-
-    if (!emojis[hexcode]) {
+    if (!emoji) {
       log.error('github', `GitHub shortcode ${hexcode} does not exist within our system.`);
+
+      return;
     }
+
+    shortcodes[emoji.hexcode] = shortcode;
   });
 
   await Promise.all([
