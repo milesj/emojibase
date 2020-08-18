@@ -177,10 +177,10 @@ export default async function generateData(): Promise<void> {
     }
   };
 
-  Object.entries(filteredData).forEach(([hexcode, emoji]) => {
-    const { modifications, variations } = filteredData[hexcode];
+  Object.values(filteredData).forEach((emoji) => {
+    const { modifications, variations } = emoji;
 
-    addMetadata(hexcode, emoji);
+    addMetadata(emoji.hexcode, emoji);
 
     if (variations) {
       addMetadata(variations.emoji);
