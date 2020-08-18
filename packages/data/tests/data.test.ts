@@ -26,10 +26,6 @@ describe('data', () => {
     const { hexcode } = emoji;
     const unicode = emoji.emoji || emoji.text;
 
-    it(`defines a name for ${unicode} (${hexcode})`, () => {
-      expect(emoji.name).toBeDefined();
-    });
-
     if ('group' in emoji) {
       it(`defines a group for ${unicode} (${hexcode})`, () => {
         expect(emoji.group).toBeGreaterThanOrEqual(0);

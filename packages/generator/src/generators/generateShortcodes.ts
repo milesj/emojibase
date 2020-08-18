@@ -178,7 +178,7 @@ async function generateEmojibase() {
       codes = [codes];
     }
 
-    output.push(`  // ${unicode} ${emoji.annotation || emoji.name}`);
+    output.push(`  // ${unicode} ${emoji.annotation}`);
     output.push(`  '${emoji.hexcode}': [${codes.map((sc) => `'${sc}'`).join(', ')}],`);
   });
 

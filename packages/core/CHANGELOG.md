@@ -8,6 +8,7 @@ slack.
 
 - Moved version argument in `fetchFromCDN` into the options object.
 - Rewrote the shortcodes implementation.
+- Removed `name` field from emoji.
 - Updated `group`, `subgroup`, and `order` fields to be undefined/missing for certain emoji, which
   denotes no categorization.
 
@@ -29,7 +30,8 @@ slack.
 - Added `FlatEmoji` type.
 - Added `FlatCompactEmoji` type.
 - Added `ShortcodePreset` type.
-- [**Emoji,CompactEmoji**] Updated `group`, `subgroup`, and `order` to be optional.
+- [**Emoji,CompactEmoji**] Updated `group`, `subgroup`, and `order` fields to be optional.
+- [**Emoji**] Removed `name` field.
 
 ### 4.1.1 - 2020-08-05
 

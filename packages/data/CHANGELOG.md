@@ -9,8 +9,9 @@ slack.
 - Rewrote the shortcodes implementation.
   - Removed `shortcodes` field from all emoji objects. Shortcodes must now be loaded separately.
   - Removed `meta/shortcodes.json` dataset.
-- Removed `name` field from all datasets. Use new `unicode-names.json` dataset if you require this
-  data.
+- Removed `name` field from all datasets.
+  - This change reduced the `data.json` filesizes by 15-20%.
+  - Use new `unicode-names.json` dataset if you require this data.
 - Updated datasets to now include regional indicators.
   - This goes against the official Unicode specifiation as they should remain hidden, but these
     indicators are used widely in the community, so their inclusion is acceptable.

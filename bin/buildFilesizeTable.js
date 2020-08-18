@@ -61,7 +61,7 @@ function calculatePackage(packageName) {
       }
 
       console.log('| File | Size | Gzipped |');
-      console.log('| --- | --- | --- |');
+      console.log('| --- | ---:| --: |');
 
       items.forEach((row) => {
         console.log(`| ${row.file} | ${size(row.size)} | ${size(row.gzip)} |`);

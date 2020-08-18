@@ -4,7 +4,6 @@ import { Emoji } from '../src/types';
 describe('flattenEmojiData()', () => {
   const data: Emoji[] = [
     {
-      name: 'BABY',
       hexcode: '1F476',
       shortcodes: ['baby'],
       emoji: '👶',
@@ -18,9 +17,8 @@ describe('flattenEmojiData()', () => {
       version: 1,
       skins: [
         {
-          name: 'BABY, EMOJI MODIFIER FITZPATRICK TYPE-1-2',
           hexcode: '1F476-1F3FB',
-          shortcodes: ['baby_tone1'],
+          shortcodes: ['baby_1'],
           emoji: '👶🏻',
           type: 1,
           order: 112,
@@ -33,9 +31,8 @@ describe('flattenEmojiData()', () => {
           version: 1,
         },
         {
-          name: 'BABY, EMOJI MODIFIER FITZPATRICK TYPE-3',
           hexcode: '1F476-1F3FC',
-          shortcodes: ['baby_tone2'],
+          shortcodes: ['baby_2'],
           emoji: '👶🏼',
           type: 1,
           order: 113,
@@ -48,9 +45,8 @@ describe('flattenEmojiData()', () => {
           version: 1,
         },
         {
-          name: 'BABY, EMOJI MODIFIER FITZPATRICK TYPE-4',
           hexcode: '1F476-1F3FD',
-          shortcodes: ['baby_tone3'],
+          shortcodes: ['baby_3'],
           emoji: '👶🏽',
           type: 1,
           order: 114,
@@ -63,9 +59,8 @@ describe('flattenEmojiData()', () => {
           version: 1,
         },
         {
-          name: 'BABY, EMOJI MODIFIER FITZPATRICK TYPE-5',
           hexcode: '1F476-1F3FE',
-          shortcodes: ['baby_tone4'],
+          shortcodes: ['baby_4'],
           emoji: '👶🏾',
           type: 1,
           order: 115,
@@ -78,9 +73,8 @@ describe('flattenEmojiData()', () => {
           version: 1,
         },
         {
-          name: 'BABY, EMOJI MODIFIER FITZPATRICK TYPE-6',
           hexcode: '1F476-1F3FF',
-          shortcodes: ['baby_tone5'],
+          shortcodes: ['baby_5'],
           emoji: '👶🏿',
           type: 1,
           order: 116,
@@ -99,7 +93,6 @@ describe('flattenEmojiData()', () => {
   it('flattens skins and moves them to the root', () => {
     expect(flattenEmojiData(data)).toEqual([
       {
-        name: 'BABY',
         hexcode: '1F476',
         shortcodes: ['baby'],
         emoji: '👶',
@@ -113,9 +106,8 @@ describe('flattenEmojiData()', () => {
         version: 1,
       },
       {
-        name: 'BABY, EMOJI MODIFIER FITZPATRICK TYPE-1-2',
         hexcode: '1F476-1F3FB',
-        shortcodes: ['baby_tone1'],
+        shortcodes: ['baby_1'],
         emoji: '👶🏻',
         type: 1,
         order: 112,
@@ -128,9 +120,8 @@ describe('flattenEmojiData()', () => {
         version: 1,
       },
       {
-        name: 'BABY, EMOJI MODIFIER FITZPATRICK TYPE-3',
         hexcode: '1F476-1F3FC',
-        shortcodes: ['baby_tone2'],
+        shortcodes: ['baby_2'],
         emoji: '👶🏼',
         type: 1,
         order: 113,
@@ -143,9 +134,8 @@ describe('flattenEmojiData()', () => {
         version: 1,
       },
       {
-        name: 'BABY, EMOJI MODIFIER FITZPATRICK TYPE-4',
         hexcode: '1F476-1F3FD',
-        shortcodes: ['baby_tone3'],
+        shortcodes: ['baby_3'],
         emoji: '👶🏽',
         type: 1,
         order: 114,
@@ -158,9 +148,8 @@ describe('flattenEmojiData()', () => {
         version: 1,
       },
       {
-        name: 'BABY, EMOJI MODIFIER FITZPATRICK TYPE-5',
         hexcode: '1F476-1F3FE',
-        shortcodes: ['baby_tone4'],
+        shortcodes: ['baby_4'],
         emoji: '👶🏾',
         type: 1,
         order: 115,
@@ -173,9 +162,8 @@ describe('flattenEmojiData()', () => {
         version: 1,
       },
       {
-        name: 'BABY, EMOJI MODIFIER FITZPATRICK TYPE-6',
         hexcode: '1F476-1F3FF',
-        shortcodes: ['baby_tone5'],
+        shortcodes: ['baby_5'],
         emoji: '👶🏿',
         type: 1,
         order: 116,

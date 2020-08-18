@@ -5,7 +5,6 @@ function createList(): Emoji[] {
   return [
     {
       annotation: 'FREE button',
-      name: 'SQUARED FREE',
       hexcode: '1F193',
       tags: ['free', 'free button'],
       emoji: '🆓',
@@ -18,7 +17,6 @@ function createList(): Emoji[] {
     },
     {
       annotation: 'information',
-      name: 'INFORMATION SOURCE',
       hexcode: '2139',
       tags: ['i'],
       emoji: 'ℹ️',
@@ -31,7 +29,6 @@ function createList(): Emoji[] {
     },
     {
       annotation: 'ID button',
-      name: 'SQUARED ID',
       hexcode: '1F194',
       tags: ['id', 'id button', 'identity'],
       emoji: '🆔',
