@@ -38,7 +38,6 @@ export function setupStorage() {
 export function getEmojiWithSkins(): Emoji {
   return {
     annotation: 'waving hand',
-    name: 'WAVING HAND SIGN',
     hexcode: '1F44B',
     tags: ['hand', 'wave', 'waving'],
     emoji: '👋',
@@ -51,7 +50,6 @@ export function getEmojiWithSkins(): Emoji {
     skins: [
       {
         annotation: 'waving hand: light skin tone',
-        name: 'WAVING HAND SIGN, EMOJI MODIFIER FITZPATRICK TYPE-1-2',
         hexcode: '1F44B-1F3FB',
         emoji: '👋🏻',
         text: '',
@@ -64,7 +62,6 @@ export function getEmojiWithSkins(): Emoji {
       },
       {
         annotation: 'waving hand: medium-light skin tone',
-        name: 'WAVING HAND SIGN, EMOJI MODIFIER FITZPATRICK TYPE-3',
         hexcode: '1F44B-1F3FC',
         emoji: '👋🏼',
         text: '',
@@ -77,7 +74,6 @@ export function getEmojiWithSkins(): Emoji {
       },
       {
         annotation: 'waving hand: medium skin tone',
-        name: 'WAVING HAND SIGN, EMOJI MODIFIER FITZPATRICK TYPE-4',
         hexcode: '1F44B-1F3FD',
         emoji: '👋🏽',
         text: '',
@@ -90,7 +86,6 @@ export function getEmojiWithSkins(): Emoji {
       },
       {
         annotation: 'waving hand: medium-dark skin tone',
-        name: 'WAVING HAND SIGN, EMOJI MODIFIER FITZPATRICK TYPE-5',
         hexcode: '1F44B-1F3FE',
         emoji: '👋🏾',
         text: '',
@@ -103,7 +98,6 @@ export function getEmojiWithSkins(): Emoji {
       },
       {
         annotation: 'waving hand: dark skin tone',
-        name: 'WAVING HAND SIGN, EMOJI MODIFIER FITZPATRICK TYPE-6',
         hexcode: '1F44B-1F3FF',
         emoji: '👋🏿',
         text: '',

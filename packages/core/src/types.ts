@@ -168,7 +168,6 @@ export interface Emoji {
   gender?: Gender;
   group?: Group;
   hexcode: Hexcode;
-  name: string;
   order?: number;
   shortcodes?: Shortcode[];
   skins?: Emoji[];

@@ -9,7 +9,14 @@ import writeDataset from '../helpers/writeDataset';
 import filterData from '../helpers/filterData';
 import extractCompact from './extractCompact';
 import toUnicode from './toUnicode';
-import { CLDRAnnotationMap, Emoji, EmojiModification, Hexcode, VersionMap } from '../types';
+import {
+  CLDRAnnotationMap,
+  Emoji,
+  EmojiModification,
+  Hexcode,
+  VersionMap,
+  HexcodeMap,
+} from '../types';
 
 interface HexcodeVersionMap {
   [hexcode: string]: number;
@@ -24,7 +31,6 @@ function createEmoji(
   const emoji: FinalEmoji = {
     // Classification
     annotation: '',
-    name: baseEmoji.name || baseEmoji.description.toUpperCase(),
     hexcode: baseEmoji.hexcode,
     tags: [],
     // Presentation
@@ -156,18 +162,25 @@ export default async function generateData(): Promise<void> {
   );
 
   // Generate metadata and specialized datasets
+  const names: HexcodeMap<string> = {};
   const unicode = new Set();
   const hexcodes = new Set();
 
-  const addMetadata = (hexcode: Hexcode) => {
+  const addMetadata = (hexcode: Hexcode, emoji?: Emoji) => {
     unicode.add(toUnicode(hexcode));
     hexcodes.add(hexcode);
+
+    if (emoji) {
+      const name = emoji.name || emoji.description.toUpperCase();
+
+      names[hexcode] = name;
+    }
   };
 
-  Object.keys(filteredData).forEach((hexcode) => {
-    const { modifications, variations } = filteredData[hexcode];
+  Object.values(filteredData).forEach((emoji) => {
+    const { modifications, variations } = emoji;
 
-    addMetadata(hexcode);
+    addMetadata(emoji.hexcode, emoji);
 
     if (variations) {
       addMetadata(variations.emoji);
@@ -176,7 +189,7 @@ export default async function generateData(): Promise<void> {
 
     if (modifications) {
       Object.values(modifications).forEach((mod) => {
-        addMetadata(mod.hexcode);
+        addMetadata(mod.hexcode, mod);
       });
     }
   });
@@ -184,6 +197,7 @@ export default async function generateData(): Promise<void> {
   await Promise.all([
     writeDataset('meta/groups.json', readCache('final/group-hierarchy.json')),
     writeDataset('meta/unicode.json', Array.from(unicode)),
+    writeDataset('meta/unicode-names.json', names),
     writeDataset('meta/hexcodes.json', Array.from(hexcodes)),
   ]);
 
