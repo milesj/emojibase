@@ -1,4 +1,8 @@
-## 4.2.0 - ???
+# 5.0.0 - ???
+
+#### 💥 Breaking
+
+- Updated patterns to now include regional indicators.
 
 #### 🚀 Updates
 

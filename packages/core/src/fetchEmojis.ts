@@ -5,6 +5,7 @@ import {
   ShortcodesDataset,
   FlatEmoji,
   FlatCompactEmoji,
+  Locale,
 } from './types';
 import fetchFromCDN, { FetchFromCDNOptions } from './fetchFromCDN';
 import fetchShortcodes from './fetchShortcodes';
@@ -19,27 +20,27 @@ export interface FetchEmojisOptions extends FetchFromCDNOptions {
 
 // Full
 async function fetchEmojis(
-  locale: string,
+  locale: Locale,
   options?: FetchEmojisOptions & { compact?: false; flat?: false },
 ): Promise<Emoji[]>;
 
 async function fetchEmojis(
-  locale: string,
+  locale: Locale,
   options: FetchEmojisOptions & { compact?: false; flat: true },
 ): Promise<FlatEmoji[]>;
 
 // Compact
 async function fetchEmojis(
-  locale: string,
+  locale: Locale,
   options: FetchEmojisOptions & { compact: true; flat?: false },
 ): Promise<CompactEmoji[]>;
 
 async function fetchEmojis(
-  locale: string,
+  locale: Locale,
   options: FetchEmojisOptions & { compact: true; flat: true },
 ): Promise<FlatCompactEmoji[]>;
 
-async function fetchEmojis(locale: string, options: FetchEmojisOptions = {}): Promise<unknown[]> {
+async function fetchEmojis(locale: Locale, options: FetchEmojisOptions = {}): Promise<unknown[]> {
   const { compact = false, flat = false, shortcodes: presets = [], ...opts } = options;
   const emojis = await fetchFromCDN<Emoji[]>(
     `${locale}/${compact ? 'compact' : 'data'}.json`,
@@ -55,7 +56,7 @@ async function fetchEmojis(locale: string, options: FetchEmojisOptions = {}): Pr
         if (preset.includes('/')) {
           const [customLocale, customPreset] = preset.split('/');
 
-          promise = fetchShortcodes(customLocale, customPreset as ShortcodePreset, opts);
+          promise = fetchShortcodes(customLocale as Locale, customPreset as ShortcodePreset, opts);
         } else {
           promise = fetchShortcodes(locale, preset as ShortcodePreset, opts);
         }

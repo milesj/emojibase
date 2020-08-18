@@ -2,13 +2,12 @@
 
 import log from '../helpers/log';
 import isObject from '../helpers/isObject';
-import hasProperty from '../helpers/hasProperty';
+import isHidden from '../helpers/isHidden';
 import { EmojiMap, EmojiVariation } from '../types';
 import {
   SKIN_MODIFIER_PATTERN,
   EMOJI_VARIATION_SELECTOR,
   TEXT_VARIATION_SELECTOR,
-  HIDDEN_EMOJI_PROPERTIES,
 } from '../constants';
 
 export default function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
@@ -18,7 +17,7 @@ export default function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
     const emoji = emojis[hexcode];
     const errors: string[] = [];
 
-    if (hasProperty(emoji.property, HIDDEN_EMOJI_PROPERTIES)) {
+    if (isHidden(emoji)) {
       return;
     }
 

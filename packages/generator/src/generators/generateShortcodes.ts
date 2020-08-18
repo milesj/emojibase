@@ -8,6 +8,7 @@ import {
   appendSkinToneIndex,
   Emoji as MainEmoji,
   stripHexcode,
+  Locale,
 } from 'emojibase';
 import Kuroshiro from 'kuroshiro';
 import KuromojiAnalyzer from 'kuroshiro-analyzer-kuromoji';
@@ -29,7 +30,7 @@ const CUSTOM_SHORTCODES: { [key: string]: string } = {
 
 const kuroshiro = new Kuroshiro();
 
-async function slugify(value: string, locale: string, transform: boolean = false): Promise<string> {
+async function slugify(value: string, locale: Locale, transform: boolean = false): Promise<string> {
   let slug = value.trim();
 
   if (transform) {
@@ -68,7 +69,7 @@ async function generateCldr(emojis: Emoji[]) {
   await kuroshiro.init(new KuromojiAnalyzer()); // Japanese
 
   return Promise.all(
-    SUPPORTED_LOCALES.map(async (locale: string) => {
+    SUPPORTED_LOCALES.map(async (locale) => {
       const isLatinChars = !NON_LATIN_LOCALES.includes(locale);
       const annotations = await buildAnnotationData(locale);
       const cldr: ShortcodeDataMap = {};
@@ -157,15 +158,14 @@ async function generateEmojibase() {
   let lastVersion = 0;
 
   // Sort by version -> order
-  data.sort((a, b) => (a.version === b.version ? a.order - b.order : a.version - b.version));
+  data.sort((a, b) =>
+    a.version === b.version ? (a.order ?? -1) - (b.order ?? -1) : a.version - b.version,
+  );
 
   // Add each emoji to the list
   data.forEach((emoji) => {
     if (emoji.version !== lastVersion) {
-      if (lastVersion !== 0) {
-        output.push('');
-      }
-
+      output.push('');
       output.push(`  // VERSION ${emoji.version}`);
 
       lastVersion = emoji.version;

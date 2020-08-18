@@ -1,4 +1,4 @@
-import { ShortcodePreset, ShortcodesDataset } from './types';
+import { ShortcodePreset, ShortcodesDataset, Locale } from './types';
 import fetchFromCDN, { FetchFromCDNOptions } from './fetchFromCDN';
 import { NON_LATIN_LOCALES } from './constants';
 
@@ -8,7 +8,7 @@ const ALIASES: Partial<Record<ShortcodePreset, string>> = {
 };
 
 export default function fetchShortcodes(
-  locale: string,
+  locale: Locale,
   preset: ShortcodePreset,
   options?: FetchFromCDNOptions,
 ): Promise<ShortcodesDataset> {

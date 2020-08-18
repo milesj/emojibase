@@ -30,14 +30,23 @@ describe('data', () => {
       expect(emoji.name).toBeDefined();
     });
 
-    it(`defines a group for ${unicode} (${hexcode})`, () => {
-      expect(emoji.group).toBeDefined();
-      expect(emoji.subgroup).toBeDefined();
-    });
+    if ('group' in emoji) {
+      it(`defines a group for ${unicode} (${hexcode})`, () => {
+        expect(emoji.group).toBeGreaterThanOrEqual(0);
+      });
+    }
 
-    it(`defines an order for ${unicode} (${hexcode})`, () => {
-      expect(emoji.order).toBeDefined();
-    });
+    if ('subgroup' in emoji) {
+      it(`defines a subgroup for ${unicode} (${hexcode})`, () => {
+        expect(emoji.subgroup).toBeGreaterThanOrEqual(0);
+      });
+    }
+
+    if ('order' in emoji) {
+      it(`defines an order for ${unicode} (${hexcode})`, () => {
+        expect(emoji.order).toBeGreaterThanOrEqual(0);
+      });
+    }
 
     it(`defines an emoji version for ${unicode} (${hexcode})`, () => {
       expect(emoji.version).toBeDefined();

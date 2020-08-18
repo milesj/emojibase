@@ -1,6 +1,7 @@
 /* eslint-disable complexity */
 
-import { stripHexcode } from 'emojibase';
+import util from 'util';
+import { stripHexcode, Locale } from 'emojibase';
 import log from '../helpers/log';
 import hasProperty from '../helpers/hasProperty';
 import writeCache from '../helpers/writeCache';
@@ -18,8 +19,9 @@ import {
   INHERIT_PARENT_SYMBOL,
   MULTI_PERSON_SKIN_TONE_PATTERN,
 } from '../constants';
+import { REGIONAL_INDICATOR_MESSAGES } from '../translations';
 
-export default async function buildAnnotationData(locale: string): Promise<CLDRAnnotationMap> {
+export default async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotationMap> {
   log.title('build', `Building ${locale} annotation data`);
 
   // Load the base annotations and localization datasets
@@ -79,7 +81,7 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
   Object.keys(sequences).forEach((fullHexcode) => {
     const hexcode = stripHexcode(fullHexcode);
     const emoji = sequences[fullHexcode];
-    const tags: string[] = extractField(hexcode, 'tags') || [];
+    let tags: string[] = extractField(hexcode, 'tags') || [];
     let annotation: string = extractField(hexcode, 'annotation') || '';
 
     // Multi-person skin tones require special attention
@@ -202,6 +204,12 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
           annotation = prefixName || suffixName || '';
         }
       }
+
+      // SPECIAL CASE: Not localized in CLDR because indicators should be hidden,
+      // but we're going to support them.
+    } else if (REGIONAL_INDICATORS[hexcode]) {
+      annotation = util.format(REGIONAL_INDICATOR_MESSAGES[locale], REGIONAL_INDICATORS[hexcode]);
+      tags = [];
     }
 
     // Add the new custom annotation

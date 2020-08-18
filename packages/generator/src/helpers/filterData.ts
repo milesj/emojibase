@@ -1,5 +1,4 @@
-import hasProperty from './hasProperty';
-import { HIDDEN_EMOJI_PROPERTIES } from '../constants';
+import isHidden from './isHidden';
 import { EmojiMap } from '../types';
 
 export default function filterData(data: EmojiMap): EmojiMap {
@@ -8,7 +7,7 @@ export default function filterData(data: EmojiMap): EmojiMap {
   Object.keys(data).forEach((hexcode) => {
     const emoji = data[hexcode];
 
-    if (hasProperty(emoji.property, HIDDEN_EMOJI_PROPERTIES)) {
+    if (isHidden(emoji)) {
       return;
     }
 

@@ -31,6 +31,59 @@
  */
 
 export default {
+  // 🇦 regional indicator A
+  '1F1E6': ['regional_indicator_a'],
+  // 🇧 regional indicator B
+  '1F1E7': ['regional_indicator_b'],
+  // 🇨 regional indicator C
+  '1F1E8': ['regional_indicator_c'],
+  // 🇩 regional indicator D
+  '1F1E9': ['regional_indicator_d'],
+  // 🇪 regional indicator E
+  '1F1EA': ['regional_indicator_e'],
+  // 🇫 regional indicator F
+  '1F1EB': ['regional_indicator_f'],
+  // 🇬 regional indicator G
+  '1F1EC': ['regional_indicator_g'],
+  // 🇭 regional indicator H
+  '1F1ED': ['regional_indicator_h'],
+  // 🇮 regional indicator I
+  '1F1EE': ['regional_indicator_i'],
+  // 🇯 regional indicator J
+  '1F1EF': ['regional_indicator_j'],
+  // 🇰 regional indicator K
+  '1F1F0': ['regional_indicator_k'],
+  // 🇱 regional indicator L
+  '1F1F1': ['regional_indicator_l'],
+  // 🇲 regional indicator M
+  '1F1F2': ['regional_indicator_m'],
+  // 🇳 regional indicator N
+  '1F1F3': ['regional_indicator_n'],
+  // 🇴 regional indicator O
+  '1F1F4': ['regional_indicator_o'],
+  // 🇵 regional indicator P
+  '1F1F5': ['regional_indicator_p'],
+  // 🇶 regional indicator Q
+  '1F1F6': ['regional_indicator_q'],
+  // 🇷 regional indicator R
+  '1F1F7': ['regional_indicator_r'],
+  // 🇸 regional indicator S
+  '1F1F8': ['regional_indicator_s'],
+  // 🇹 regional indicator T
+  '1F1F9': ['regional_indicator_t'],
+  // 🇺 regional indicator U
+  '1F1FA': ['regional_indicator_u'],
+  // 🇻 regional indicator V
+  '1F1FB': ['regional_indicator_v'],
+  // 🇼 regional indicator W
+  '1F1FC': ['regional_indicator_w'],
+  // 🇽 regional indicator X
+  '1F1FD': ['regional_indicator_x'],
+  // 🇾 regional indicator Y
+  '1F1FE': ['regional_indicator_y'],
+  // 🇿 regional indicator Z
+  '1F1FF': ['regional_indicator_z'],
+
   // VERSION 0.6
   // 😃 grinning face with big eyes
   '1F603': ['glad', 'smile'],

@@ -1,6 +1,6 @@
 /* eslint-disable complexity */
 
-import { SUPPORTED_LOCALES, stripHexcode, Emoji as FinalEmoji } from 'emojibase';
+import { SUPPORTED_LOCALES, stripHexcode, Emoji as FinalEmoji, Locale } from 'emojibase';
 import buildEmojiData from '../builders/buildEmojiData';
 import buildAnnotationData from '../builders/buildAnnotationData';
 import log from '../helpers/log';
@@ -73,7 +73,7 @@ function createEmoji(
       emoji.annotation = baseEmoji.description;
     }
 
-    if (annotation.tags && annotation.tags.length > 0) {
+    if (annotation.tags.length > 0) {
       emoji.tags = annotation.tags;
 
       // Sort the tags for easier diffs
@@ -99,6 +99,11 @@ function createEmoji(
 
       return skin;
     });
+  }
+
+  // Cleanup
+  if (emoji.tags?.length === 0) {
+    delete emoji.tags;
   }
 
   return emoji;
@@ -132,7 +137,7 @@ export default async function generateData(): Promise<void> {
 
   // Generate datasets for each locale
   await Promise.all(
-    SUPPORTED_LOCALES.map(async (locale: string) => {
+    SUPPORTED_LOCALES.map(async (locale: Locale) => {
       const annotations = await buildAnnotationData(locale);
       const emojis = Object.keys(filteredData).map((hexcode) =>
         createEmoji(filteredData[hexcode], versions, annotations),
