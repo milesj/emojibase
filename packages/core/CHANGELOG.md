@@ -24,6 +24,7 @@ slack.
 
 #### ⚙️ Types
 
+- Added `Locale` type.
 - Added `FlatEmoji` type.
 - Added `FlatCompactEmoji` type.
 - Added `ShortcodePreset` type.

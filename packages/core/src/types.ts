@@ -201,3 +201,30 @@ export interface VersionDataset {
 export interface ShortcodesDataset {
   [hexcode: string]: string | string[];
 }
+
+export type Locale =
+  | 'da'
+  | 'de'
+  | 'en'
+  | 'en-gb'
+  | 'es'
+  | 'es-mx'
+  | 'et'
+  | 'fi'
+  | 'fr'
+  | 'hu'
+  | 'it'
+  | 'ja'
+  | 'ko'
+  | 'lt'
+  | 'ms'
+  | 'nb'
+  | 'nl'
+  | 'pl'
+  | 'pt'
+  | 'ru'
+  | 'sv'
+  | 'th'
+  | 'uk'
+  | 'zh'
+  | 'zh-hant';

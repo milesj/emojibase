@@ -1,6 +1,7 @@
 /* eslint-disable complexity */
 
-import { stripHexcode } from 'emojibase';
+import util from 'util';
+import { stripHexcode, Locale } from 'emojibase';
 import log from '../helpers/log';
 import hasProperty from '../helpers/hasProperty';
 import writeCache from '../helpers/writeCache';
@@ -18,8 +19,9 @@ import {
   INHERIT_PARENT_SYMBOL,
   MULTI_PERSON_SKIN_TONE_PATTERN,
 } from '../constants';
+import { REGIONAL_INDICATOR_MESSAGES } from '../translations';
 
-export default async function buildAnnotationData(locale: string): Promise<CLDRAnnotationMap> {
+export default async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotationMap> {
   log.title('build', `Building ${locale} annotation data`);
 
   // Load the base annotations and localization datasets
@@ -206,8 +208,10 @@ export default async function buildAnnotationData(locale: string): Promise<CLDRA
       // NOTE: Special case not part of the official spec
       // This isn't localized in CLDR, so just use the letter
     } else if (REGIONAL_INDICATORS[hexcode]) {
-      annotation = REGIONAL_INDICATORS[hexcode];
-      tags = [annotation.toLowerCase()];
+      const char = REGIONAL_INDICATORS[hexcode];
+
+      annotation = util.format(REGIONAL_INDICATOR_MESSAGES[locale as 'en'], char);
+      tags = [char.toLowerCase()];
     }
 
     // Add the new custom annotation

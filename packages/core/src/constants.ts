@@ -1,5 +1,5 @@
 import { PermutationOptions } from './generateEmoticonPermutations';
-import { Presentation, Gender, SkinTone, SkinToneKey, GroupKey } from './types';
+import { Presentation, Gender, SkinTone, SkinToneKey, GroupKey, Locale } from './types';
 
 export const SEQUENCE_REMOVAL_PATTERN = /200D|FE0E|FE0F/g;
 
@@ -57,7 +57,7 @@ export const UNICODE_VERSIONS = [
   '13.0',
 ];
 
-export const SUPPORTED_LOCALES = [
+export const SUPPORTED_LOCALES: Locale[] = [
   'da', // Danish
   'de', // German
   'en', // English
@@ -85,7 +85,7 @@ export const SUPPORTED_LOCALES = [
   'zh-hant', // Chinese (Traditional)
 ];
 
-export const NON_LATIN_LOCALES = ['ja', 'ko', 'ru', 'th', 'uk', 'zh', 'zh-hant'];
+export const NON_LATIN_LOCALES: Locale[] = ['ja', 'ko', 'ru', 'th', 'uk', 'zh', 'zh-hant'];
 
 // Special options for emoticon permutations.
 

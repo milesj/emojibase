@@ -31,57 +31,57 @@
  */
 
 export default {
-  // 🇦 A
+  // 🇦 regional indicator A
   '1F1E6': ['regional_indicator_a'],
-  // 🇧 B
+  // 🇧 regional indicator B
   '1F1E7': ['regional_indicator_b'],
-  // 🇨 C
+  // 🇨 regional indicator C
   '1F1E8': ['regional_indicator_c'],
-  // 🇩 D
+  // 🇩 regional indicator D
   '1F1E9': ['regional_indicator_d'],
-  // 🇪 E
+  // 🇪 regional indicator E
   '1F1EA': ['regional_indicator_e'],
-  // 🇫 F
+  // 🇫 regional indicator F
   '1F1EB': ['regional_indicator_f'],
-  // 🇬 G
+  // 🇬 regional indicator G
   '1F1EC': ['regional_indicator_g'],
-  // 🇭 H
+  // 🇭 regional indicator H
   '1F1ED': ['regional_indicator_h'],
-  // 🇮 I
+  // 🇮 regional indicator I
   '1F1EE': ['regional_indicator_i'],
-  // 🇯 J
+  // 🇯 regional indicator J
   '1F1EF': ['regional_indicator_j'],
-  // 🇰 K
+  // 🇰 regional indicator K
   '1F1F0': ['regional_indicator_k'],
-  // 🇱 L
+  // 🇱 regional indicator L
   '1F1F1': ['regional_indicator_l'],
-  // 🇲 M
+  // 🇲 regional indicator M
   '1F1F2': ['regional_indicator_m'],
-  // 🇳 N
+  // 🇳 regional indicator N
   '1F1F3': ['regional_indicator_n'],
-  // 🇴 O
+  // 🇴 regional indicator O
   '1F1F4': ['regional_indicator_o'],
-  // 🇵 P
+  // 🇵 regional indicator P
   '1F1F5': ['regional_indicator_p'],
-  // 🇶 Q
+  // 🇶 regional indicator Q
   '1F1F6': ['regional_indicator_q'],
-  // 🇷 R
+  // 🇷 regional indicator R
   '1F1F7': ['regional_indicator_r'],
-  // 🇸 S
+  // 🇸 regional indicator S
   '1F1F8': ['regional_indicator_s'],
-  // 🇹 T
+  // 🇹 regional indicator T
   '1F1F9': ['regional_indicator_t'],
-  // 🇺 U
+  // 🇺 regional indicator U
   '1F1FA': ['regional_indicator_u'],
-  // 🇻 V
+  // 🇻 regional indicator V
   '1F1FB': ['regional_indicator_v'],
-  // 🇼 W
+  // 🇼 regional indicator W
   '1F1FC': ['regional_indicator_w'],
-  // 🇽 X
+  // 🇽 regional indicator X
   '1F1FD': ['regional_indicator_x'],
-  // 🇾 Y
+  // 🇾 regional indicator Y
   '1F1FE': ['regional_indicator_y'],
-  // 🇿 Z
+  // 🇿 regional indicator Z
   '1F1FF': ['regional_indicator_z'],
 
   // VERSION 0.6

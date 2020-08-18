@@ -58,7 +58,7 @@ await fetchFromCDN('ja/compact.json', { version: '2.1.3' });
 
 ## `fetchEmojis`
 
-> fetchEmojis(locale: string, options?: FetchEmojisOptions): Promise<Emoji[]\>
+> fetchEmojis(locale: Locale, options?: FetchEmojisOptions): Promise<Emoji[]\>
 
 Fetches and returns a localized list of emojis (and optional shortcodes) from our [CDN][cdn]. Uses
 [`fetchFromCDN`](#fetchfromcdn) and [`fetchShortcodes`](#fetchshortcodes) under the hood.
@@ -93,7 +93,7 @@ await fetchEmojis('ja', {
 
 ## `fetchShortcodes`
 
-> fetchShortcodes(locale: string, preset: ShortcodePreset, options?: FetchFromCDNOptions):
+> fetchShortcodes(locale: Locale, preset: ShortcodePreset, options?: FetchFromCDNOptions):
 > Promise<ShortcodesDataset\>
 
 Fetches and returns localized shortcodes for the defined [preset][preset] from our [CDN][cdn]. The

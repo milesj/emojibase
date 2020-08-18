@@ -8,6 +8,7 @@ import {
   appendSkinToneIndex,
   Emoji as MainEmoji,
   stripHexcode,
+  Locale,
 } from 'emojibase';
 import Kuroshiro from 'kuroshiro';
 import KuromojiAnalyzer from 'kuroshiro-analyzer-kuromoji';
@@ -18,7 +19,7 @@ import writeDataset from '../helpers/writeDataset';
 import writeFile from '../helpers/writeFile';
 import filterData from '../helpers/filterData';
 import log from '../helpers/log';
-import { SHORTCODE_GUIDELINES, REGIONAL_INDICATORS } from '../constants';
+import { SHORTCODE_GUIDELINES } from '../constants';
 import { ShortcodeDataMap, Emoji } from '../types';
 import fetchAndCache from '../loaders/fetchAndCache';
 
@@ -29,7 +30,7 @@ const CUSTOM_SHORTCODES: { [key: string]: string } = {
 
 const kuroshiro = new Kuroshiro();
 
-async function slugify(value: string, locale: string, transform: boolean = false): Promise<string> {
+async function slugify(value: string, locale: Locale, transform: boolean = false): Promise<string> {
   let slug = value.trim();
 
   if (transform) {
@@ -68,7 +69,7 @@ async function generateCldr(emojis: Emoji[]) {
   await kuroshiro.init(new KuromojiAnalyzer()); // Japanese
 
   return Promise.all(
-    SUPPORTED_LOCALES.map(async (locale: string) => {
+    SUPPORTED_LOCALES.map(async (locale) => {
       const isLatinChars = !NON_LATIN_LOCALES.includes(locale);
       const annotations = await buildAnnotationData(locale);
       const cldr: ShortcodeDataMap = {};
@@ -80,7 +81,7 @@ async function generateCldr(emojis: Emoji[]) {
       for await (const emoji of emojis) {
         const row = annotations[emoji.hexcode];
 
-        if (!row || !row.annotation || REGIONAL_INDICATORS[emoji.hexcode]) {
+        if (!row || !row.annotation) {
           // eslint-disable-next-line no-continue
           continue;
         }

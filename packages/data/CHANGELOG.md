@@ -7,8 +7,12 @@ slack.
 #### 💥 Breaking
 
 - Rewrote the shortcodes implementation.
-- Removed `shortcodes` field from all emoji objects. Shortcodes must now be loaded separately.
-- Removed `meta/shortcodes.json` dataset.
+  - Removed `shortcodes` field from all emoji objects. Shortcodes must now be loaded separately.
+  - Removed `meta/shortcodes.json` dataset.
+- Updated datasets to now include regional indicators.
+  - This goes against the official Unicode specifiation as they should remain hidden, but these
+    indicators are used widely in the community, so their inclusion is welcome.
+  - Indicators are also not localized correctly and will default to their respective letter.
 - Updated `group` and `subgroup` fields to support `-1`, which denotes no category.
 
 #### 🚀 Updates
