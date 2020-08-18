@@ -17,19 +17,21 @@ export default async function generateIamCal(emojis: EmojiMap) {
     },
   );
 
-  response.forEach((emoji) => {
-    const hexcode = emoji.unified;
+  response.forEach(({ unified, short_names: names }) => {
+    const emoji = emojis[unified] || emojis[stripHexcode(unified)];
 
-    if (!emojis[hexcode]) {
-      log.error('iamcal', `IamCal hexcode ${hexcode} does not exist within our system.`);
+    if (!emoji) {
+      log.error('iamcal', `IamCal shortcode ${unified} does not exist within our system.`);
+
+      return;
     }
 
-    if (Array.isArray(emoji.short_names)) {
-      if (emoji.short_names.length === 1) {
+    if (Array.isArray(names)) {
+      if (names.length === 1) {
         // eslint-disable-next-line prefer-destructuring
-        shortcodes[hexcode] = emoji.short_names[0];
+        shortcodes[emoji.hexcode] = names[0];
       } else {
-        shortcodes[hexcode] = emoji.short_names;
+        shortcodes[emoji.hexcode] = names;
       }
     }
   });

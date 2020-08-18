@@ -29,7 +29,7 @@ export default async function generateGitHub(emojis: EmojiMap) {
     shortcodes[hexcode] = shortcode;
 
     if (!emojis[hexcode]) {
-      log.error('github', `GitHub hexcode ${hexcode} does not exist within our system.`);
+      log.error('github', `GitHub shortcode ${hexcode} does not exist within our system.`);
     }
   });
 

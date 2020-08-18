@@ -19,7 +19,7 @@ export default async function generateEmojibase(emojis: EmojiMap) {
     }
 
     if (!emojis[hexcode]) {
-      log.error('emojibase', `Emojibase hexcode ${hexcode} does not exist within our system.`);
+      log.error('emojibase', `Emojibase shortcode ${hexcode} does not exist within our system.`);
     }
   });
 
