@@ -42,7 +42,7 @@ not_ exist for Latin based languages.
 
 ### `discord`
 
-An alias for the [`iamcal`](#iamcal) preset.
+An alias for the [`joypixels`](#joypixels) preset.
 
 > This preset may not be accurate as Discord does not provide an official implementation for its
 > shortcodes. If you would like to improve this solution, please create an issue!
@@ -87,6 +87,16 @@ and maintained by [Cal Henderson](https://github.com/iamcal).
 > This preset _does not_ define shortcodes for skin tone variations, nor does it support the latest
 > v13 specification.
 
+### `joypixels`
+
+Emoji shortcodes provided by the [emoji-toolkit](https://github.com/joypixels/emoji-toolkit)
+library, owned and maintained by [JoyPixels](https://github.com/joypixels) (formerly EmojiOne).
+
+```
+// 😁 beaming face with smiling eyes
+:grin: // English
+```
+
 ### `slack`
 
 An alias for the [`iamcal`](#iamcal) preset.
@@ -98,33 +108,33 @@ An alias for the [`iamcal`](#iamcal) preset.
 
 If you would like to help translate in any way possible, please create an issue on GitHub.
 
-| Locale                   | `cldr` | `cldr-native` | `emojibase` | `github` | `iamcal` |
-| ------------------------ | :----: | :-----------: | :---------: | :------: | :------: |
-| Chinese (zh)             |   ✅   |      ✅       |             |          |          |
-| Chinese, Trad. (zh-hant) |   ✅   |      ✅       |             |          |          |
-| Danish (da)              |   ✅   |               |             |          |          |
-| Dutch (nl)               |   ✅   |               |             |          |          |
-| English (en)             |   ✅   |               |     ✅      |    ✅    |    ✅    |
-| English, GB (en-gb)      |   ✅   |               |             |          |          |
-| Estonian (et)            |   ✅   |               |             |          |          |
-| Finnish (fi)             |   ✅   |               |             |          |          |
-| French (fr)              |   ✅   |               |             |          |          |
-| German (de)              |   ✅   |               |             |          |          |
-| Hungarian (hu)           |   ✅   |               |             |          |          |
-| Italian (it)             |   ✅   |               |             |          |          |
-| Japanese (ja)            |   ✅   |      ✅       |             |          |          |
-| Korean (ko)              |   ✅   |      ✅       |             |          |          |
-| Lithuanian (lt)          |   ✅   |               |             |          |          |
-| Malay (ms)               |   ✅   |               |             |          |          |
-| Norwegian (nb)           |   ✅   |               |             |          |          |
-| Polish (pl)              |   ✅   |               |             |          |          |
-| Portuguese (pt)          |   ✅   |               |             |          |          |
-| Russian (ru)             |   ✅   |      ✅       |             |          |          |
-| Spanish (es)             |   ✅   |               |             |          |          |
-| Spanish, Mexico (es-mx)  |   ✅   |               |             |          |          |
-| Swedish (sv)             |   ✅   |               |             |          |          |
-| Thai (th)                |   ✅   |      ✅       |             |          |          |
-| Ukrainian (uk)           |   ✅   |      ✅       |             |          |          |
+| Locale                   | `cldr` | `cldr-native` | `emojibase` | `github` | `iamcal` | `joypixels` |
+| ------------------------ | :----: | :-----------: | :---------: | :------: | :------: | :---------: |
+| Chinese (zh)             |   ✅   |      ✅       |             |          |          |             |
+| Chinese, Trad. (zh-hant) |   ✅   |      ✅       |             |          |          |             |
+| Danish (da)              |   ✅   |               |             |          |          |             |
+| Dutch (nl)               |   ✅   |               |             |          |          |             |
+| English (en)             |   ✅   |               |     ✅      |    ✅    |    ✅    |     ✅      |
+| English, GB (en-gb)      |   ✅   |               |             |          |          |             |
+| Estonian (et)            |   ✅   |               |             |          |          |             |
+| Finnish (fi)             |   ✅   |               |             |          |          |             |
+| French (fr)              |   ✅   |               |             |          |          |             |
+| German (de)              |   ✅   |               |             |          |          |             |
+| Hungarian (hu)           |   ✅   |               |             |          |          |             |
+| Italian (it)             |   ✅   |               |             |          |          |             |
+| Japanese (ja)            |   ✅   |      ✅       |             |          |          |             |
+| Korean (ko)              |   ✅   |      ✅       |             |          |          |             |
+| Lithuanian (lt)          |   ✅   |               |             |          |          |             |
+| Malay (ms)               |   ✅   |               |             |          |          |             |
+| Norwegian (nb)           |   ✅   |               |             |          |          |             |
+| Polish (pl)              |   ✅   |               |             |          |          |             |
+| Portuguese (pt)          |   ✅   |               |             |          |          |             |
+| Russian (ru)             |   ✅   |      ✅       |             |          |          |             |
+| Spanish (es)             |   ✅   |               |             |          |          |             |
+| Spanish, Mexico (es-mx)  |   ✅   |               |             |          |          |             |
+| Swedish (sv)             |   ✅   |               |             |          |          |             |
+| Thai (th)                |   ✅   |      ✅       |             |          |          |             |
+| Ukrainian (uk)           |   ✅   |      ✅       |             |          |          |             |
 
 ## Caveats
 

@@ -3,7 +3,7 @@ import fetchFromCDN, { FetchFromCDNOptions } from './fetchFromCDN';
 import { NON_LATIN_LOCALES } from './constants';
 
 const ALIASES: Partial<Record<ShortcodePreset, string>> = {
-  discord: 'iamcal',
+  discord: 'joypixels',
   slack: 'iamcal',
 };
 
