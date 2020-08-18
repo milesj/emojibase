@@ -20,6 +20,10 @@ export default function extractCompact(data: Emoji[]): CompactEmoji[] {
       compact.skins = extractCompact(skins);
     }
 
+    if (compact.tags?.length === 0) {
+      delete compact.tags;
+    }
+
     return compact;
   });
 }

@@ -11,8 +11,9 @@ slack.
   - Removed `meta/shortcodes.json` dataset.
 - Updated datasets to now include regional indicators.
   - This goes against the official Unicode specifiation as they should remain hidden, but these
-    indicators are used widely in the community, so their inclusion is welcome.
-- Updated `group` and `subgroup` fields to support `-1`, which denotes no category.
+    indicators are used widely in the community, so their inclusion is acceptable.
+- Updated `group`, `subgroup`, and `order` fields to be undefined/missing for certain emoji, which
+  denotes no categorization.
 
 #### 🚀 Updates
 

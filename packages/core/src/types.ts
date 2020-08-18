@@ -150,9 +150,9 @@ export type Unicode = string;
 export interface CompactEmoji {
   annotation: string;
   emoticon?: Emoticon;
-  group: Group;
+  group?: Group;
   hexcode: Hexcode;
-  order: number;
+  order?: number;
   shortcodes?: Shortcode[];
   skins?: CompactEmoji[];
   tags?: string[];
@@ -166,13 +166,13 @@ export interface Emoji {
   emoji: Unicode;
   emoticon?: Emoticon;
   gender?: Gender;
-  group: Group;
+  group?: Group;
   hexcode: Hexcode;
   name: string;
-  order: number;
+  order?: number;
   shortcodes?: Shortcode[];
   skins?: Emoji[];
-  subgroup: Subgroup;
+  subgroup?: Subgroup;
   tags?: string[];
   text: Unicode;
   tone?: SkinTone | SkinTone[];

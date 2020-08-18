@@ -83,18 +83,18 @@ values have been implemented using integers,
 - `gender` (`number`) - If applicable, the gender of the emoji character. `0` for female, `1` for
   male.
 - `group` (`number`) - The categorical group the emoji belongs to, ranging from `0` (smileys) to `7`
-  (flags). Uncategorized emojis will use `-1`.
+  (flags). Undefined for uncategorized emojis.
 - `hexcode` (`string`) - The hexadecimal representation of the emoji Unicode codepoint, including
   zero width joiners and variation selectors.
 - `name` (`string`) - The generated name according to the official Unicode data.
 - `order` (`number`) - The order in which emoji should be displayed on a device, through a keyboard
-  or emoji picker.
+  or emoji picker. Undefined for unordered emojis.
 - `shortcodes` (`string[]`) - An array of community curated shortcodes. _Does not include
   surrounding colons_.
 - `skins` (`emoji[]`) - If applicable, an array of emoji objects for each skin tone modification,
   starting at light skin, and ending with dark skin.
-- `subgroup` (`number`) - The categorical subgroup the emoji belongs to, ranging from `0` to `75`,
-  and `-1` for uncategorized.
+- `subgroup` (`number`) - The categorical subgroup the emoji belongs to, ranging from `0` to `75`.
+  Undefined for uncategorized emojis.
 - `tags` (`string[]`) - An array of localized keywords, provided by [CLDR][cldr], to use for
   searching and filtering.
 - `text` (`string`) - The text presentation Unicode character.
@@ -256,62 +256,62 @@ Sorted by original size in ascending order.
 
 | File              | Size      | Gzipped   |
 | ----------------- | --------- | --------- |
-| zh-hant/data.json | 689.96 KB | 83.5 KB   |
-| zh/data.json      | 713.49 KB | 90.1 KB   |
-| sv/data.json      | 723.23 KB | 88.58 KB  |
-| nb/data.json      | 725.01 KB | 89.01 KB  |
-| da/data.json      | 727.7 KB  | 88.7 KB   |
-| en/data.json      | 728.55 KB | 87.51 KB  |
-| en-gb/data.json   | 728.82 KB | 87.62 KB  |
-| et/data.json      | 732.61 KB | 88.01 KB  |
-| fi/data.json      | 736.96 KB | 91.27 KB  |
-| fr/data.json      | 738.96 KB | 88.16 KB  |
-| nl/data.json      | 740.63 KB | 88.87 KB  |
-| ko/data.json      | 742.25 KB | 92.2 KB   |
-| lt/data.json      | 742.51 KB | 91.84 KB  |
-| pt/data.json      | 743.35 KB | 91 KB     |
-| ja/data.json      | 746.64 KB | 92.75 KB  |
-| ms/data.json      | 748.73 KB | 88.96 KB  |
-| hu/data.json      | 750.32 KB | 91.35 KB  |
-| es-mx/data.json   | 756.33 KB | 91.18 KB  |
-| pl/data.json      | 757.54 KB | 94.94 KB  |
-| es/data.json      | 757.58 KB | 91.32 KB  |
-| it/data.json      | 759.44 KB | 93.11 KB  |
-| de/data.json      | 761.44 KB | 95.9 KB   |
-| ru/data.json      | 857.61 KB | 101.7 KB  |
-| uk/data.json      | 866.99 KB | 100.35 KB |
-| th/data.json      | 869.31 KB | 92.89 KB  |
+| zh-hant/data.json | 693.52 KB | 83.84 KB  |
+| zh/data.json      | 717.04 KB | 90.48 KB  |
+| sv/data.json      | 726.93 KB | 88.95 KB  |
+| nb/data.json      | 728.72 KB | 89.41 KB  |
+| da/data.json      | 731.41 KB | 89.07 KB  |
+| en/data.json      | 732.25 KB | 87.89 KB  |
+| en-gb/data.json   | 732.53 KB | 87.99 KB  |
+| et/data.json      | 736.37 KB | 88.39 KB  |
+| fi/data.json      | 740.81 KB | 91.66 KB  |
+| fr/data.json      | 742.72 KB | 88.54 KB  |
+| nl/data.json      | 744.37 KB | 89.25 KB  |
+| ko/data.json      | 745.83 KB | 92.58 KB  |
+| lt/data.json      | 746.24 KB | 92.26 KB  |
+| pt/data.json      | 747.06 KB | 91.39 KB  |
+| ja/data.json      | 750.19 KB | 93.13 KB  |
+| ms/data.json      | 752.38 KB | 89.34 KB  |
+| hu/data.json      | 754.06 KB | 91.74 KB  |
+| es-mx/data.json   | 760.04 KB | 91.58 KB  |
+| es/data.json      | 761.29 KB | 91.71 KB  |
+| pl/data.json      | 761.3 KB  | 95.34 KB  |
+| it/data.json      | 763.19 KB | 93.51 KB  |
+| de/data.json      | 765.22 KB | 96.3 KB   |
+| ru/data.json      | 862 KB    | 102.1 KB  |
+| uk/data.json      | 871.29 KB | 100.73 KB |
+| th/data.json      | 873.86 KB | 93.3 KB   |
 
   </TabItem>
   <TabItem value="compact">
 
 | File                 | Size      | Gzipped  |
 | -------------------- | --------- | -------- |
-| zh-hant/compact.json | 386.84 KB | 55.05 KB |
-| zh/compact.json      | 410.37 KB | 61.59 KB |
-| sv/compact.json      | 420.11 KB | 60.08 KB |
-| nb/compact.json      | 421.9 KB  | 60.95 KB |
-| da/compact.json      | 424.58 KB | 60.4 KB  |
-| en/compact.json      | 425.43 KB | 59.33 KB |
-| en-gb/compact.json   | 425.7 KB  | 59.43 KB |
-| et/compact.json      | 429.49 KB | 59.84 KB |
-| fi/compact.json      | 433.84 KB | 63 KB    |
-| fr/compact.json      | 435.84 KB | 59.8 KB  |
-| nl/compact.json      | 437.52 KB | 60.61 KB |
-| ko/compact.json      | 439.14 KB | 63.34 KB |
-| lt/compact.json      | 439.39 KB | 62.69 KB |
-| pt/compact.json      | 440.23 KB | 62.71 KB |
-| ja/compact.json      | 443.52 KB | 63.97 KB |
-| ms/compact.json      | 445.61 KB | 60.71 KB |
-| hu/compact.json      | 447.21 KB | 62.82 KB |
-| es-mx/compact.json   | 453.21 KB | 62.66 KB |
-| pl/compact.json      | 454.42 KB | 66.43 KB |
-| es/compact.json      | 454.46 KB | 62.75 KB |
-| it/compact.json      | 456.32 KB | 64.48 KB |
-| de/compact.json      | 458.32 KB | 67.06 KB |
-| ru/compact.json      | 554.49 KB | 72.72 KB |
-| uk/compact.json      | 563.88 KB | 71.38 KB |
-| th/compact.json      | 566.19 KB | 64.25 KB |
+| zh-hant/compact.json | 388.55 KB | 55.29 KB |
+| zh/compact.json      | 412.07 KB | 61.87 KB |
+| sv/compact.json      | 421.96 KB | 60.35 KB |
+| nb/compact.json      | 423.75 KB | 61.26 KB |
+| da/compact.json      | 426.44 KB | 60.68 KB |
+| en/compact.json      | 427.28 KB | 59.61 KB |
+| en-gb/compact.json   | 427.56 KB | 59.69 KB |
+| et/compact.json      | 431.4 KB  | 60.11 KB |
+| fi/compact.json      | 435.84 KB | 63.27 KB |
+| fr/compact.json      | 437.75 KB | 60.08 KB |
+| nl/compact.json      | 439.39 KB | 60.89 KB |
+| ko/compact.json      | 440.86 KB | 63.63 KB |
+| lt/compact.json      | 441.27 KB | 62.99 KB |
+| pt/compact.json      | 442.09 KB | 63.01 KB |
+| ja/compact.json      | 445.22 KB | 64.24 KB |
+| ms/compact.json      | 447.41 KB | 60.98 KB |
+| hu/compact.json      | 449.08 KB | 63.1 KB  |
+| es-mx/compact.json   | 455.07 KB | 62.95 KB |
+| es/compact.json      | 456.32 KB | 63.06 KB |
+| pl/compact.json      | 456.32 KB | 66.73 KB |
+| it/compact.json      | 458.22 KB | 64.77 KB |
+| de/compact.json      | 460.25 KB | 67.33 KB |
+| ru/compact.json      | 557.03 KB | 73.02 KB |
+| uk/compact.json      | 566.31 KB | 71.68 KB |
+| th/compact.json      | 568.88 KB | 64.54 KB |
 
   </TabItem>
   <TabItem value="shortcodes">

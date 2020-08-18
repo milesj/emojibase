@@ -158,7 +158,9 @@ async function generateEmojibase() {
   let lastVersion = 0;
 
   // Sort by version -> order
-  data.sort((a, b) => (a.version === b.version ? a.order - b.order : a.version - b.version));
+  data.sort((a, b) =>
+    a.version === b.version ? (a.order ?? -1) - (b.order ?? -1) : a.version - b.version,
+  );
 
   // Add each emoji to the list
   data.forEach((emoji) => {
