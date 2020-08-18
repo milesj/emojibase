@@ -73,6 +73,7 @@ export default async function generateCldr(emojis: EmojiMap) {
           continue;
         }
 
+        // eslint-disable-next-line require-atomic-updates
         cldr[emoji.hexcode] = await slugify(row.annotation, locale, true);
         hasLatin = true;
 

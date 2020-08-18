@@ -6,9 +6,9 @@ import generateCldr from './shortcodes/generateCldr';
 import generateEmojibase from './shortcodes/generateEmojibase';
 import generateGitHub from './shortcodes/generateGitHub';
 import generateIamCal from './shortcodes/generateIamCal';
-import { EmojiMap } from '../types';
 import generateJoyPixels from './shortcodes/generateJoyPixels';
 import writeCache from '../helpers/writeCache';
+import { EmojiMap } from '../types';
 
 // Some external shortcode providers use either the variation or sequenceless
 // hexcodes for mapping their shortcodes, while we use the variationless one.
@@ -51,6 +51,7 @@ export default async function generateShortcodes(): Promise<void> {
   const data = await buildEmojiData();
   const emojis = createEmojiMap(filterData(data));
 
+  // For debugging
   await writeCache('temp/emoji-map.json', emojis);
 
   // Generate CLDR shortcodes for each locale

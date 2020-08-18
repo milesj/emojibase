@@ -42,7 +42,7 @@ not_ exist for Latin based languages.
 
 ### `discord`
 
-An alias for the [`iamcal`](#iamcal) preset.
+An alias for the [`joypixels`](#joypixels) preset.
 
 > This preset may not be accurate as Discord does not provide an official implementation for its
 > shortcodes. If you would like to improve this solution, please create an issue!
