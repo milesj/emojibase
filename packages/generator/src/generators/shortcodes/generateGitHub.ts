@@ -1,8 +1,9 @@
 import fetchAndCache from '../../loaders/fetchAndCache';
 import writeDataset from '../../helpers/writeDataset';
-import { ShortcodeDataMap } from '../../types';
+import { ShortcodeDataMap, EmojiMap } from '../../types';
+import log from '../../helpers/log';
 
-export default async function generateGitHub() {
+export default async function generateGitHub(emojis: EmojiMap) {
   const shortcodes: ShortcodeDataMap = {};
   const response = await fetchAndCache<Record<string, string>>(
     'https://api.github.com/emojis',
@@ -16,11 +17,19 @@ export default async function generateGitHub() {
     },
   );
 
-  Object.entries(response).forEach(([code, url]) => {
+  Object.entries(response).forEach(([shortcode, url]) => {
     const match = url.match(/emoji\/unicode\/([\da-z-]+)\.png/i);
 
-    if (match) {
-      shortcodes[match[1].toUpperCase()] = code;
+    if (!match) {
+      return;
+    }
+
+    const hexcode = match[1].toUpperCase();
+
+    shortcodes[hexcode] = shortcode;
+
+    if (!emojis[hexcode]) {
+      log.error('github', `GitHub hexcode ${hexcode} does not exist within our system.`);
     }
   });
 

@@ -1,11 +1,12 @@
 import path from 'path';
 import { Emoji as FinalEmoji, TEXT } from 'emojibase';
 import writeDataset from '../../helpers/writeDataset';
-import { ShortcodeDataMap } from '../../types';
+import { ShortcodeDataMap, EmojiMap } from '../../types';
 import writeFile from '../../helpers/writeFile';
 import { SHORTCODE_GUIDELINES } from '../../constants';
+import log from '../../helpers/log';
 
-export default async function generateEmojibase() {
+export default async function generateEmojibase(emojis: EmojiMap) {
   // Generate the dataset
   // eslint-disable-next-line
   const shortcodes: ShortcodeDataMap = require(path.join(__dirname, '../../resources/shortcodes'))
@@ -15,6 +16,10 @@ export default async function generateEmojibase() {
     if (Array.isArray(codes) && codes.length === 1) {
       // eslint-disable-next-line prefer-destructuring
       shortcodes[hexcode] = codes[0];
+    }
+
+    if (!emojis[hexcode]) {
+      log.error('emojibase', `Emojibase hexcode ${hexcode} does not exist within our system.`);
     }
   });
 
