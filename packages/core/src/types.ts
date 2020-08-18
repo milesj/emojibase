@@ -35,6 +35,7 @@ export type ShortcodePreset =
   | 'emojibase'
   | 'github'
   | 'iamcal'
+  | 'joypixels'
   | 'slack';
 
 export type SkinTone = 1 | 2 | 3 | 4 | 5;

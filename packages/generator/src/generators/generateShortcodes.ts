@@ -7,36 +7,42 @@ import generateEmojibase from './shortcodes/generateEmojibase';
 import generateGitHub from './shortcodes/generateGitHub';
 import generateIamCal from './shortcodes/generateIamCal';
 import { EmojiMap } from '../types';
+import generateJoyPixels from './shortcodes/generateJoyPixels';
+import writeCache from '../helpers/writeCache';
 
 // Some external shortcode providers use either the variation or sequenceless
 // hexcodes for mapping their shortcodes, while we use the variationless one.
 // Let's add additional mappings for the variations so we capture everything.
 function createEmojiMap(emojis: EmojiMap): EmojiMap {
+  const map: EmojiMap = {};
+
   Object.values(emojis).forEach((emoji) => {
     const otherHexcode = stripHexcode(emoji.hexcode);
 
-    if (otherHexcode !== emoji.hexcode && !emojis[otherHexcode]) {
-      emojis[otherHexcode] = emoji;
+    map[emoji.hexcode] = emoji;
+
+    if (otherHexcode !== emoji.hexcode && !map[otherHexcode]) {
+      map[otherHexcode] = emoji;
     }
 
     if (emoji.variations) {
       const { emoji: emojiHexcode, text: textHexcode } = emoji.variations;
 
-      if (emojiHexcode && !emojis[emojiHexcode]) {
-        emojis[emojiHexcode] = emoji;
+      if (emojiHexcode && !map[emojiHexcode]) {
+        map[emojiHexcode] = emoji;
       }
 
-      if (textHexcode && !emojis[textHexcode]) {
-        emojis[textHexcode] = emoji;
+      if (textHexcode && !map[textHexcode]) {
+        map[textHexcode] = emoji;
       }
     }
 
     if (emoji.modifications) {
-      createEmojiMap(emoji.modifications);
+      Object.assign(map, createEmojiMap(emoji.modifications));
     }
   });
 
-  return emojis;
+  return map;
 }
 
 export default async function generateShortcodes(): Promise<void> {
@@ -45,6 +51,8 @@ export default async function generateShortcodes(): Promise<void> {
   const data = await buildEmojiData();
   const emojis = createEmojiMap(filterData(data));
 
+  await writeCache('temp/emoji-map.json', emojis);
+
   // Generate CLDR shortcodes for each locale
   await generateCldr(emojis);
 
@@ -52,4 +60,5 @@ export default async function generateShortcodes(): Promise<void> {
   await generateEmojibase(emojis);
   await generateGitHub(emojis);
   await generateIamCal(emojis);
+  await generateJoyPixels(emojis);
 }

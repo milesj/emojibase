@@ -68,7 +68,7 @@ export default async function generateCldr(emojis: EmojiMap) {
       for await (const emoji of emojiList) {
         const row = annotations[emoji.hexcode];
 
-        if (!row || !row.annotation) {
+        if (!row || !row.annotation || cldr[emoji.hexcode]) {
           // eslint-disable-next-line no-continue
           continue;
         }
