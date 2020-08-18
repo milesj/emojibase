@@ -9,6 +9,8 @@ slack.
 - Rewrote the shortcodes implementation.
   - Removed `shortcodes` field from all emoji objects. Shortcodes must now be loaded separately.
   - Removed `meta/shortcodes.json` dataset.
+- Removed `name` field from all datasets. Use new `unicode-names.json` dataset if you require this
+  data.
 - Updated datasets to now include regional indicators.
   - This goes against the official Unicode specifiation as they should remain hidden, but these
     indicators are used widely in the community, so their inclusion is acceptable.
@@ -24,6 +26,7 @@ slack.
   - `lt` - Lithuanian
   - `nb` - Norwegian
   - `uk` - Ukrainian
+- Added `meta/unicode-names.json` dataset.
 - Added `shortcodes/cldr.json` datasets for each locale. Shortcodes are now localized!
 - Added `shortcodes/cldr-native.json` datasets for each non-latin locale.
 - Added `shortcodes/emojibase.json` dataset (English only).
