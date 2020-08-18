@@ -73,7 +73,7 @@ function createEmoji(
       emoji.annotation = baseEmoji.description;
     }
 
-    if (annotation.tags && annotation.tags.length > 0) {
+    if (annotation.tags.length > 0) {
       emoji.tags = annotation.tags;
 
       // Sort the tags for easier diffs
@@ -99,6 +99,11 @@ function createEmoji(
 
       return skin;
     });
+  }
+
+  // Cleanup
+  if (emoji.tags?.length === 0) {
+    delete emoji.tags;
   }
 
   return emoji;

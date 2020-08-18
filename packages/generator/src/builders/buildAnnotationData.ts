@@ -205,8 +205,8 @@ export default async function buildAnnotationData(locale: Locale): Promise<CLDRA
         }
       }
 
-      // NOTE: Special case not part of the official spec
-      // This isn't localized in CLDR, so just use the letter
+      // SPECIAL CASE: Not localized in CLDR because indicators should be hidden,
+      // but we're going to support them.
     } else if (REGIONAL_INDICATORS[hexcode]) {
       annotation = util.format(REGIONAL_INDICATOR_MESSAGES[locale], REGIONAL_INDICATORS[hexcode]);
       tags = [];
