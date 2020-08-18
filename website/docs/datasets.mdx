@@ -86,8 +86,10 @@ values have been implemented using integers,
   male.
 - `group` (`number`) - The categorical group the emoji belongs to, ranging from `0` (smileys) to `7`
   (flags). Undefined for uncategorized emojis.
-- `hexcode` (`string`) - The hexadecimal representation of the emoji Unicode codepoint, including
-  zero width joiners and variation selectors.
+- `hexcode` (`string`) - The hexadecimal representation of the emoji Unicode codepoint. If the emoji
+  supports both emoji and text variations, the hexcode _will not_ include the variation selector. If
+  a multi-person, multi-gender, or skin tone variation, the hexcode _will_ include zero width
+  joiners and variation selectors.
 - `order` (`number`) - The order in which emoji should be displayed on a device, through a keyboard
   or emoji picker. Undefined for unordered emojis.
 - `shortcodes` (`string[]`) - An array of community curated shortcodes. _Does not include

@@ -8,8 +8,8 @@ import generateGitHub from './shortcodes/generateGitHub';
 import generateIamCal from './shortcodes/generateIamCal';
 import { EmojiMap } from '../types';
 
-// Some external shortcode providers use either the emoji/text variation
-// hexcodes for mapping their shortcodes, while we use the varitionless one.
+// Some external shortcode providers use either the variation or sequenceless
+// hexcodes for mapping their shortcodes, while we use the variationless one.
 // Let's add additional mappings for the variations so we capture everything.
 function createEmojiMap(emojis: EmojiMap): EmojiMap {
   Object.values(emojis).forEach((emoji) => {
