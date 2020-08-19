@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Layout from '@theme/Layout';
 import { Emoji, fetchEmojis, ShortcodesDataset, fetchShortcodes, ShortcodePreset } from 'emojibase';
+import cldrDataset from '../../../packages/data/en/shortcodes/cldr.raw.json';
+import emojibaseDataset from '../../../packages/data/en/shortcodes/emojibase.raw.json';
 
 function noop<T>(value: T): T {
   return value;
@@ -22,8 +24,8 @@ function renderShortcode(preset: ShortcodePreset, shortcode: string | string[] |
 
 export default function Shortcodes() {
   const [emojis, setEmojis] = useState<Emoji[]>([]);
-  const [cldr, setCldr] = useState<ShortcodesDataset>({});
-  const [emojibase, setEmojibase] = useState<ShortcodesDataset>({});
+  const [cldr, setCldr] = useState<ShortcodesDataset>(cldrDataset);
+  const [emojibase, setEmojibase] = useState<ShortcodesDataset>(emojibaseDataset);
   const [github, setGithub] = useState<ShortcodesDataset>({});
   const [iamcal, setIamcal] = useState<ShortcodesDataset>({});
   const [joyPixels, setJoyPixels] = useState<ShortcodesDataset>({});
@@ -39,8 +41,8 @@ export default function Shortcodes() {
       fetchShortcodes('en', 'iamcal', { version }).catch(noop),
     ]).then(([a, b, c, d, e]) => {
       setEmojis(a);
-      setCldr(b);
-      setEmojibase(c);
+      // setCldr(b);
+      // setEmojibase(c);
       setGithub(d);
       setIamcal(e);
       setLoading(false);
@@ -90,7 +92,10 @@ export default function Shortcodes() {
                 {emojis.map((emoji) => (
                   <tr key={emoji.hexcode} data-hexcode={emoji.hexcode}>
                     <td className="text--center">{emoji.emoji || emoji.text}</td>
-                    <td className="text--muted no-wrap"> {emoji.hexcode}</td>
+                    <td>
+                      <div>{emoji.annotation}</div>
+                      <div className="text--muted no-wrap">{emoji.hexcode}</div>
+                    </td>
                     <td>{renderShortcode('cldr', cldr[emoji.hexcode])}</td>
                     <td>{renderShortcode('emojibase', emojibase[emoji.hexcode])}</td>
                     <td>{renderShortcode('github', github[emoji.hexcode])}</td>

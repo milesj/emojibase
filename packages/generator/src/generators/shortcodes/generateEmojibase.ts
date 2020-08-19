@@ -1,25 +1,39 @@
 import path from 'path';
-import { Emoji as FinalEmoji, TEXT } from 'emojibase';
+import { TEXT, appendSkinToneIndex } from 'emojibase';
 import writeDataset from '../../helpers/writeDataset';
-import { ShortcodeDataMap, EmojiMap } from '../../types';
+import { ShortcodeDataMap } from '../../types';
 import writeFile from '../../helpers/writeFile';
 import { SHORTCODE_GUIDELINES } from '../../constants';
 import log from '../../helpers/log';
+import Database from '../Database';
+import shortcodesSource from '../../resources/shortcodes';
+// eslint-disable-next-line @typescript-eslint/prefer-ts-expect-error
+// @ts-ignore
+import emojisSource from '../../../../data/en/data.raw.json';
 
-export default async function generateEmojibase(emojis: EmojiMap) {
-  // Generate the dataset
-  // eslint-disable-next-line
-  const shortcodes: ShortcodeDataMap = require(path.join(__dirname, '../../resources/shortcodes'))
-    .default;
+export default async function generateEmojibase(db: Database) {
+  const shortcodes: ShortcodeDataMap = {};
 
-  Object.entries(shortcodes).forEach(([hexcode, codes]) => {
-    if (Array.isArray(codes) && codes.length === 1) {
-      // eslint-disable-next-line prefer-destructuring
-      shortcodes[hexcode] = codes[0];
+  db.emojiList.forEach((emoji) => {
+    const list = shortcodesSource[emoji.hexcode as keyof typeof shortcodesSource];
+
+    if (!list) {
+      log.error(
+        'emojibase',
+        `Emojibase shortcode ${emoji.hexcode} does not exist within our system.`,
+      );
+
+      return;
     }
 
-    if (!emojis[hexcode]) {
-      log.error('emojibase', `Emojibase shortcode ${hexcode} does not exist within our system.`);
+    shortcodes[emoji.hexcode] = db.formatShortcodes(list);
+
+    if (emoji.modifications) {
+      Object.values(emoji.modifications).forEach((mod) => {
+        shortcodes[mod.hexcode] = db.formatShortcodes(
+          list.map((code) => appendSkinToneIndex(code, mod, 'tone')),
+        );
+      });
     }
   });
 
@@ -29,8 +43,6 @@ export default async function generateEmojibase(emojis: EmojiMap) {
   ]);
 
   // Organize and sort the resources file
-  // eslint-disable-next-line
-  const data: FinalEmoji[] = require(path.join(__dirname, '../../../../data/en/data.json'));
   const output: string[] = [
     '/* eslint-disable sort-keys */',
     '',
@@ -41,12 +53,12 @@ export default async function generateEmojibase(emojis: EmojiMap) {
   let lastVersion = 0;
 
   // Sort by version -> order
-  data.sort((a, b) =>
+  emojisSource.sort((a, b) =>
     a.version === b.version ? (a.order ?? -1) - (b.order ?? -1) : a.version - b.version,
   );
 
   // Add each emoji to the list
-  data.forEach((emoji) => {
+  emojisSource.forEach((emoji) => {
     if (emoji.version !== lastVersion) {
       output.push('');
       output.push(`  // VERSION ${emoji.version}`);

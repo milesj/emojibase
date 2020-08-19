@@ -2,7 +2,7 @@ import buildEmojiData from '../builders/buildEmojiData';
 import filterData from '../helpers/filterData';
 import log from '../helpers/log';
 import generateCldr from './shortcodes/generateCldr';
-// import generateEmojibase from './shortcodes/generateEmojibase';
+import generateEmojibase from './shortcodes/generateEmojibase';
 import generateGitHub from './shortcodes/generateGitHub';
 import generateIamCal from './shortcodes/generateIamCal';
 import generateJoyPixels from './shortcodes/generateJoyPixels';
@@ -23,7 +23,7 @@ export default async function generateShortcodes(): Promise<void> {
   await generateCldr(db);
 
   // Generate platform shortcodes
-  // await generateEmojibase(db);
+  await generateEmojibase(db);
   await generateGitHub(db);
   await generateIamCal(db);
   await generateJoyPixels(db);

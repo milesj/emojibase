@@ -14,6 +14,7 @@ import buildAnnotationData from '../../builders/buildAnnotationData';
 import { ShortcodeDataMap } from '../../types';
 import writeDataset from '../../helpers/writeDataset';
 import Database from '../Database';
+import { SYMBOL_ASTERISK_MESSAGES, SYMBOL_HASH_MESSAGES } from '../../translations';
 
 const CUSTOM_SHORTCODES: { [key: string]: string } = {
   e_mail: 'email',
@@ -43,7 +44,7 @@ async function slugify(value: string, locale: Locale, transform: boolean = false
 
   slug = slug
     .toLocaleLowerCase()
-    // Remove separators
+    // Apply separators
     .replace(/(\s|-|`|\/|\\|･|（|）|／)+/g, '_')
     // Remove special chars
     .replace(/([!"&'()[\],.:;<>«»?ʼ’‘“”—–])/g, '')
@@ -53,6 +54,14 @@ async function slugify(value: string, locale: Locale, transform: boolean = false
     .replace(/^_+/, '')
     // Remove trailing underscores
     .replace(/_+$/, '');
+
+  if (slug.includes('*')) {
+    slug = slug.replace('*', await slugify(SYMBOL_ASTERISK_MESSAGES[locale], locale, transform));
+  }
+
+  if (slug.includes('#')) {
+    slug = slug.replace('#', await slugify(SYMBOL_HASH_MESSAGES[locale], locale, transform));
+  }
 
   return CUSTOM_SHORTCODES[slug] || slug;
 }

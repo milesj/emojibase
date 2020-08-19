@@ -2,11 +2,14 @@ import { stripHexcode } from 'emojibase';
 import { EmojiMap, Emoji, HexcodeMap, Hexcode } from '../types';
 
 export default class Database {
+  // List of non-flat emojis
   emojiList: Emoji[];
 
+  // Mapping of flat emojis to hexcodes
   emojiMap: EmojiMap = {};
 
-  hexcodeMapping: HexcodeMap<Hexcode> = {};
+  // Mapping of all hexcode variants to their parent hexcode
+  hexcodeLookup: HexcodeMap<Hexcode> = {};
 
   constructor(emojis: EmojiMap) {
     this.emojiList = Object.values(emojis);
@@ -23,8 +26,8 @@ export default class Database {
 
   getEmoji(hexcode: Hexcode): Emoji | null {
     const code =
-      this.hexcodeMapping[hexcode.toUpperCase()] ||
-      this.hexcodeMapping[stripHexcode(hexcode.toUpperCase())];
+      this.hexcodeLookup[hexcode.toUpperCase()] ||
+      this.hexcodeLookup[stripHexcode(hexcode.toUpperCase())];
 
     return (code && this.emojiMap[code]) || null;
   }
@@ -35,25 +38,25 @@ export default class Database {
   private mapEmojis(emojis: EmojiMap) {
     Object.values(emojis).forEach((emoji) => {
       this.emojiMap[emoji.hexcode] = emoji;
-      this.hexcodeMapping[emoji.hexcode] = emoji.hexcode;
+      this.hexcodeLookup[emoji.hexcode] = emoji.hexcode;
 
       // Without sequences
       const otherHexcode = stripHexcode(emoji.hexcode);
 
-      if (otherHexcode !== emoji.hexcode && !this.hexcodeMapping[otherHexcode]) {
-        this.hexcodeMapping[otherHexcode] = otherHexcode;
+      if (otherHexcode !== emoji.hexcode && !this.hexcodeLookup[otherHexcode]) {
+        this.hexcodeLookup[otherHexcode] = otherHexcode;
       }
 
       // Variations
       if (emoji.variations) {
         const { emoji: emojiHexcode, text: textHexcode } = emoji.variations;
 
-        if (emojiHexcode && !this.hexcodeMapping[emojiHexcode]) {
-          this.hexcodeMapping[emojiHexcode] = emoji.hexcode;
+        if (emojiHexcode && !this.hexcodeLookup[emojiHexcode]) {
+          this.hexcodeLookup[emojiHexcode] = emoji.hexcode;
         }
 
-        if (textHexcode && !this.hexcodeMapping[textHexcode]) {
-          this.hexcodeMapping[textHexcode] = emoji.hexcode;
+        if (textHexcode && !this.hexcodeLookup[textHexcode]) {
+          this.hexcodeLookup[textHexcode] = emoji.hexcode;
         }
       }
 
