@@ -1,14 +1,12 @@
-import { stripHexcode } from 'emojibase';
 import buildEmojiData from '../builders/buildEmojiData';
 import filterData from '../helpers/filterData';
 import log from '../helpers/log';
 import generateCldr from './shortcodes/generateCldr';
-import generateEmojibase from './shortcodes/generateEmojibase';
+// import generateEmojibase from './shortcodes/generateEmojibase';
 import generateGitHub from './shortcodes/generateGitHub';
 import generateIamCal from './shortcodes/generateIamCal';
 import generateJoyPixels from './shortcodes/generateJoyPixels';
 import writeCache from '../helpers/writeCache';
-import { EmojiMap } from '../types';
 import Database from './Database';
 
 export default async function generateShortcodes(): Promise<void> {
@@ -26,7 +24,7 @@ export default async function generateShortcodes(): Promise<void> {
 
   // Generate platform shortcodes
   // await generateEmojibase(db);
-  // await generateGitHub(db);
-  // await generateIamCal(db);
-  // await generateJoyPixels(db);
+  await generateGitHub(db);
+  await generateIamCal(db);
+  await generateJoyPixels(db);
 }

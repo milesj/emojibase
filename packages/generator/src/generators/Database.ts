@@ -1,14 +1,32 @@
 import { stripHexcode } from 'emojibase';
-import { EmojiMap, HexcodeMap, Hexcode } from '../types';
+import { EmojiMap, Emoji, HexcodeMap, Hexcode } from '../types';
 
 export default class Database {
-  emojis: EmojiMap;
+  emojiList: Emoji[];
+
+  emojiMap: EmojiMap = {};
 
   hexcodeMapping: HexcodeMap<Hexcode> = {};
 
   constructor(emojis: EmojiMap) {
-    this.emojis = emojis;
+    this.emojiList = Object.values(emojis);
     this.mapEmojis(emojis);
+  }
+
+  formatShortcodes(shortcodes: string | string[]): string | string[] {
+    if (Array.isArray(shortcodes) && shortcodes.length === 1) {
+      return shortcodes[0];
+    }
+
+    return shortcodes;
+  }
+
+  getEmoji(hexcode: Hexcode): Emoji | null {
+    const code =
+      this.hexcodeMapping[hexcode.toUpperCase()] ||
+      this.hexcodeMapping[stripHexcode(hexcode.toUpperCase())];
+
+    return (code && this.emojiMap[code]) || null;
   }
 
   // Some external shortcode providers use either the variation or sequenceless
@@ -16,6 +34,7 @@ export default class Database {
   // Let's add additional mappings for the variations so we capture everything.
   private mapEmojis(emojis: EmojiMap) {
     Object.values(emojis).forEach((emoji) => {
+      this.emojiMap[emoji.hexcode] = emoji;
       this.hexcodeMapping[emoji.hexcode] = emoji.hexcode;
 
       // Without sequences

@@ -58,8 +58,6 @@ async function slugify(value: string, locale: Locale, transform: boolean = false
 }
 
 export default async function generateCldr(db: Database) {
-  const emojiList = Object.values(db.emojis);
-
   await kuroshiro.init(new KuromojiAnalyzer()); // Japanese
 
   return Promise.all(
@@ -72,7 +70,7 @@ export default async function generateCldr(db: Database) {
       let hasNonLatin = false;
 
       // eslint-disable-next-line no-restricted-syntax
-      for await (const emoji of emojiList) {
+      for await (const emoji of db.emojiList) {
         const row = annotations[emoji.hexcode] || annotations[stripHexcode(emoji.hexcode)];
 
         if (!row || !row.annotation || cldr[emoji.hexcode]) {

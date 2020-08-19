@@ -1,9 +1,9 @@
-import { stripHexcode } from 'emojibase';
 import { transliterate } from 'transliteration';
 import fetchAndCache from '../../loaders/fetchAndCache';
 import writeDataset from '../../helpers/writeDataset';
-import { ShortcodeDataMap, EmojiMap, HexcodeMap } from '../../types';
+import { ShortcodeDataMap, HexcodeMap } from '../../types';
 import log from '../../helpers/log';
+import Database from '../Database';
 
 // These should not be in the dataset according to the spec
 const IGNORE_HEXCODES = new Set([
@@ -24,7 +24,7 @@ const IGNORE_HEXCODES = new Set([
   '0039',
 ]);
 
-export default async function generateJoyPixels(emojis: EmojiMap) {
+export default async function generateJoyPixels(db: Database) {
   const shortcodes: ShortcodeDataMap = {};
   const response = await fetchAndCache<
     HexcodeMap<{
@@ -54,7 +54,7 @@ export default async function generateJoyPixels(emojis: EmojiMap) {
     ]) => {
       const hexcode = baseCodePoint.toUpperCase();
       const fullHexcode = fullCodePoint.toUpperCase();
-      const emoji = emojis[fullHexcode] || emojis[hexcode] || emojis[stripHexcode(hexcode)];
+      const emoji = db.getEmoji(fullHexcode) || db.getEmoji(hexcode);
 
       if (IGNORE_HEXCODES.has(hexcode) || IGNORE_HEXCODES.has(fullHexcode)) {
         return;
@@ -69,15 +69,12 @@ export default async function generateJoyPixels(emojis: EmojiMap) {
         return;
       }
 
-      const names = Array.from(new Set([shortname, ...shortnames])).map((name) =>
-        transliterate(name.replace(/:/g, '')),
-      );
+      const names = Array.from(new Set([shortname, ...shortnames]))
+        .filter(Boolean)
+        .map((name) => transliterate(name.replace(/:/g, '')));
 
-      if (names.length === 1) {
-        // eslint-disable-next-line prefer-destructuring
-        shortcodes[emoji.hexcode] = names[0];
-      } else {
-        shortcodes[emoji.hexcode] = names;
+      if (names.length > 0) {
+        shortcodes[emoji.hexcode] = db.formatShortcodes(names);
       }
     },
   );
