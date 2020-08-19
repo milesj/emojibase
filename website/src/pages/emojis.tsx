@@ -38,9 +38,10 @@ const LOCALES = [
 const PRESETS = [
   { value: 'cldr', label: 'CLDR' },
   { value: 'cldr-native', label: 'CLDR (native)' },
+  { value: 'joypixels', label: 'Discord' },
   { value: 'emojibase', label: 'Emojibase' },
   { value: 'github', label: 'GitHub' },
-  { value: 'iamcal', label: 'Discord/Slack' },
+  { value: 'iamcal', label: 'Slack' },
 ];
 
 function filterAndSortEmojis(

@@ -46,8 +46,8 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'browser',
-          label: 'Browser',
+          to: 'emojis',
+          label: 'Emoji list',
           position: 'left',
         },
         {
