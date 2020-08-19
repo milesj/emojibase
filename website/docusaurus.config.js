@@ -51,6 +51,11 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'shortcodes',
+          label: 'Shortcodes table',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/milesj/emojibase',
           label: 'GitHub',
           position: 'right',

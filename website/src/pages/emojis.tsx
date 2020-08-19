@@ -88,7 +88,7 @@ function updateUrlFragment(query: URLSearchParams) {
   }
 }
 
-export default function Browser() {
+export default function Emojis() {
   const query = new URLSearchParams(isBrowser ? location.search : '');
   const [filter, setFilter] = useState(query.get('filter') ?? '');
   const [locale, setLocale] = useState(query.get('locale') ?? 'en');
@@ -185,7 +185,7 @@ export default function Browser() {
   const list = filterAndSortEmojis(emojis, filter.toLocaleLowerCase(), group, subgroup);
 
   return (
-    <Layout title="Emoji browser" description="Browse all emojis across any supported locale.">
+    <Layout title="Emoji list" description="List of all emojis across any supported locale.">
       <main>
         <div className="container">
           <div className={styles.browserFilters}>
