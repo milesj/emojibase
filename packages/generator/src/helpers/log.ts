@@ -22,4 +22,8 @@ export default {
   title(type: string, ...messages: string[]) {
     this.log(type, ...messages.map((message) => chalk.cyan(message)));
   },
+
+  warn(type: string, ...messages: string[]) {
+    this.log(type, chalk.yellow('✖'), ...messages.map((message) => chalk.yellow(message)));
+  },
 };

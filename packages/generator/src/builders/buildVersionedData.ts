@@ -5,15 +5,24 @@ import loadData from '../loaders/loadData';
 import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
 import { EmojiDataMap } from '../types';
+import readCache from '../helpers/readCache';
 
 export interface VersionDataMap {
   [version: string]: EmojiDataMap;
 }
 
-export default async function buildVersionedData(): Promise<{
+export interface VersionDataSet {
   emojiVersions: VersionDataMap;
   unicodeVersions: VersionDataMap;
-}> {
+}
+
+export default async function buildVersionedData(): Promise<VersionDataSet> {
+  const cache = readCache<VersionDataSet>('final/emoji-unicode-versions.json');
+
+  if (cache) {
+    return cache;
+  }
+
   log.title('build', 'Building versioned data');
 
   const used: { [hexcode: string]: boolean } = {};

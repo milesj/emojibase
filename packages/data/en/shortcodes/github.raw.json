@@ -47,7 +47,10 @@
   "2702": "scissors",
   "2705": "white_check_mark",
   "2708": "airplane",
-  "2709": "envelope",
+  "2709": [
+    "email",
+    "envelope"
+  ],
   "2712": "black_nib",
   "2714": "heavy_check_mark",
   "2716": "heavy_multiplication_x",
@@ -60,7 +63,10 @@
   "2753": "question",
   "2754": "grey_question",
   "2755": "grey_exclamation",
-  "2757": "heavy_exclamation_mark",
+  "2757": [
+    "exclamation",
+    "heavy_exclamation_mark"
+  ],
   "2763": "heavy_heart_exclamation",
   "2764": "heart",
   "2795": "heavy_plus_sign",
@@ -73,8 +79,14 @@
   "3299": "secret",
   "1F4AF": "100",
   "1F522": "1234",
-  "1F44D": "thumbsup",
-  "1F44E": "thumbsdown",
+  "1F44D": [
+    "+1",
+    "thumbsup"
+  ],
+  "1F44E": [
+    "-1",
+    "thumbsdown"
+  ],
   "1F947": "1st_place_medal",
   "1F948": "2nd_place_medal",
   "1F949": "3rd_place_medal",
@@ -172,8 +184,14 @@
   "26BE": "baseball",
   "1F9FA": "basket",
   "1F3C0": "basketball",
-  "26F9-FE0F-200D-2642-FE0F": "bouncing_ball_man",
-  "26F9-FE0F-200D-2640-FE0F": "bouncing_ball_woman",
+  "26F9-FE0F-200D-2642-FE0F": [
+    "basketball_man",
+    "bouncing_ball_man"
+  ],
+  "26F9-FE0F-200D-2640-FE0F": [
+    "basketball_woman",
+    "bouncing_ball_woman"
+  ],
   "1F987": "bat",
   "1F6C0": "bath",
   "1F6C1": "bathtub",
@@ -182,7 +200,10 @@
   "1F43B": "bear",
   "1F9D4": "bearded_person",
   "1F6CF": "bed",
-  "1F41D": "honeybee",
+  "1F41D": [
+    "bee",
+    "honeybee"
+  ],
   "1F37A": "beer",
   "1F37B": "beers",
   "1F41E": "beetle",
@@ -216,7 +237,10 @@
   "1F532": "black_square_button",
   "1F471-200D-2642-FE0F": "blond_haired_man",
   "1F471": "blond_haired_person",
-  "1F471-200D-2640-FE0F": "blonde_woman",
+  "1F471-200D-2640-FE0F": [
+    "blond_haired_woman",
+    "blonde_woman"
+  ],
   "1F33C": "blossom",
   "1F421": "blowfish",
   "1F4D8": "blue_book",
@@ -225,15 +249,24 @@
   "1F7E6": "blue_square",
   "1F60A": "blush",
   "1F417": "boar",
-  "26F5": "sailboat",
+  "26F5": [
+    "boat",
+    "sailboat"
+  ],
   "1F1E7-1F1F4": "bolivia",
   "1F4A3": "bomb",
   "1F9B4": "bone",
-  "1F4D6": "open_book",
+  "1F4D6": [
+    "book",
+    "open_book"
+  ],
   "1F516": "bookmark",
   "1F4D1": "bookmark_tabs",
   "1F4DA": "books",
-  "1F4A5": "collision",
+  "1F4A5": [
+    "boom",
+    "collision"
+  ],
   "1F462": "boot",
   "1F1E7-1F1E6": "bosnia_herzegovina",
   "1F1E7-1F1FC": "botswana",
@@ -301,7 +334,10 @@
   "1F6F6": "canoe",
   "1F1E8-1F1FB": "cape_verde",
   "1F520": "capital_abcd",
-  "1F697": "red_car",
+  "1F697": [
+    "car",
+    "red_car"
+  ],
   "1F5C3": "card_file_box",
   "1F4C7": "card_index",
   "1F5C2": "card_index_dividers",
@@ -414,7 +450,10 @@
   "1F1E8-1F1F0": "cook_islands",
   "1F36A": "cookie",
   "1F192": "cool",
-  "1F46E": "police_officer",
+  "1F46E": [
+    "cop",
+    "police_officer"
+  ],
   "00A9": "copyright",
   "1F33D": "corn",
   "1F1E8-1F1F7": "costa_rica",
@@ -467,7 +506,10 @@
   "1F1E8-1F1FE": "cyprus",
   "1F1E8-1F1FF": "czech_republic",
   "1F5E1": "dagger",
-  "1F483": "woman_dancing",
+  "1F483": [
+    "dancer",
+    "woman_dancing"
+  ],
   "1F46F": "dancers",
   "1F46F-200D-2642-FE0F": "dancing_men",
   "1F46F-200D-2640-FE0F": "dancing_women",
@@ -504,7 +546,10 @@
   "1F415": "dog2",
   "1F4B5": "dollar",
   "1F38E": "dolls",
-  "1F42C": "flipper",
+  "1F42C": [
+    "dolphin",
+    "flipper"
+  ],
   "1F1E9-1F1F2": "dominica",
   "1F1E9-1F1F4": "dominican_republic",
   "1F6AA": "door",
@@ -549,7 +594,10 @@
   "1F1EA-1F1F8": "es",
   "1F1EA-1F1EA": "estonia",
   "1F1EA-1F1F9": "ethiopia",
-  "1F1EA-1F1FA": "european_union",
+  "1F1EA-1F1FA": [
+    "eu",
+    "european_union"
+  ],
   "1F4B6": "euro",
   "1F3F0": "european_castle",
   "1F3E4": "european_post_office",
@@ -563,7 +611,11 @@
   "1F915": "face_with_head_bandage",
   "1F912": "face_with_thermometer",
   "1F926": "facepalm",
-  "1F44A": "punch",
+  "1F44A": [
+    "facepunch",
+    "fist_oncoming",
+    "punch"
+  ],
   "1F3ED": "factory",
   "1F9D1-200D-1F3ED": "factory_worker",
   "1F9DA": "fairy",
@@ -603,7 +655,10 @@
   "23E9": "fast_forward",
   "1F4E0": "fax",
   "1F628": "fearful",
-  "1F43E": "paw_prints",
+  "1F43E": [
+    "feet",
+    "paw_prints"
+  ],
   "1F575-FE0F-200D-2640-FE0F": "female_detective",
   "1F3A1": "ferris_wheel",
   "26F4": "ferry",
@@ -625,7 +680,10 @@
   "1F41F": "fish",
   "1F365": "fish_cake",
   "1F3A3": "fishing_pole_and_fish",
-  "270A": "fist_raised",
+  "270A": [
+    "fist",
+    "fist_raised"
+  ],
   "1F91B": "fist_left",
   "1F91C": "fist_right",
   "0035-FE0F-20E3": "five",
@@ -667,7 +725,10 @@
   "1F64D-200D-2642-FE0F": "frowning_man",
   "1F64D": "frowning_person",
   "1F64D-200D-2640-FE0F": "frowning_woman",
-  "1F595": "middle_finger",
+  "1F595": [
+    "fu",
+    "middle_finger"
+  ],
   "26FD": "fuelpump",
   "1F315": "full_moon",
   "1F31D": "full_moon_with_face",
@@ -676,7 +737,10 @@
   "1F1EC-1F1F2": "gambia",
   "1F3B2": "game_die",
   "1F9C4": "garlic",
-  "1F1EC-1F1E7": "uk",
+  "1F1EC-1F1E7": [
+    "gb",
+    "uk"
+  ],
   "1F48E": "gem",
   "264A": "gemini",
   "1F9DE": "genie",
@@ -734,12 +798,19 @@
   "1F528": "hammer",
   "1F6E0": "hammer_and_wrench",
   "1F439": "hamster",
-  "270B": "raised_hand",
+  "270B": [
+    "hand",
+    "raised_hand"
+  ],
   "1F92D": "hand_over_mouth",
   "1F45C": "handbag",
   "1F93E": "handball_person",
   "1F91D": "handshake",
-  "1F4A9": "shit",
+  "1F4A9": [
+    "hankey",
+    "poop",
+    "shit"
+  ],
   "0023-FE0F-20E3": "hash",
   "1F425": "hatched_chick",
   "1F423": "hatching_chick",
@@ -762,7 +833,10 @@
   "1F97E": "hiking_boot",
   "1F6D5": "hindu_temple",
   "1F99B": "hippopotamus",
-  "1F52A": "knife",
+  "1F52A": [
+    "hocho",
+    "knife"
+  ],
   "1F573": "hole",
   "1F1ED-1F1F3": "honduras",
   "1F36F": "honey_pot",
@@ -796,7 +870,10 @@
   "1F1EE-1F1F3": "india",
   "1F1EE-1F1E9": "indonesia",
   "267E": "infinity",
-  "1F481": "tipping_hand_person",
+  "1F481": [
+    "information_desk_person",
+    "tipping_hand_person"
+  ],
   "1F607": "innocent",
   "1F4F1": "iphone",
   "1F1EE-1F1F7": "iran",
@@ -805,7 +882,10 @@
   "1F1EE-1F1F2": "isle_of_man",
   "1F1EE-1F1F1": "israel",
   "1F1EE-1F1F9": "it",
-  "1F3EE": "lantern",
+  "1F3EE": [
+    "izakaya_lantern",
+    "lantern"
+  ],
   "1F383": "jack_o_lantern",
   "1F1EF-1F1F2": "jamaica",
   "1F5FE": "japan",
@@ -859,7 +939,10 @@
   "1F31C": "last_quarter_moon_with_face",
   "271D": "latin_cross",
   "1F1F1-1F1FB": "latvia",
-  "1F606": "satisfied",
+  "1F606": [
+    "laughing",
+    "satisfied"
+  ],
   "1F96C": "leafy_green",
   "1F343": "leaves",
   "1F1F1-1F1E7": "lebanon",
@@ -954,9 +1037,16 @@
   "1F472": "man_with_gua_pi_mao",
   "1F468-200D-1F9AF": "man_with_probing_cane",
   "1F473-200D-2642-FE0F": "man_with_turban",
-  "1F34A": "tangerine",
+  "1F34A": [
+    "mandarin",
+    "orange",
+    "tangerine"
+  ],
   "1F96D": "mango",
-  "1F45E": "shoe",
+  "1F45E": [
+    "mans_shoe",
+    "shoe"
+  ],
   "1F570": "mantelpiece_clock",
   "1F9BD": "manual_wheelchair",
   "1F341": "maple_leaf",
@@ -979,7 +1069,10 @@
   "1F3C5": "medal_sports",
   "1F4E3": "mega",
   "1F348": "melon",
-  "1F4DD": "pencil",
+  "1F4DD": [
+    "memo",
+    "pencil"
+  ],
   "1F93C-200D-2642-FE0F": "men_wrestling",
   "1F54E": "menorah",
   "1F6B9": "mens",
@@ -1010,7 +1103,10 @@
   "1F69D": "monorail",
   "1F1F2-1F1EA": "montenegro",
   "1F1F2-1F1F8": "montserrat",
-  "1F314": "waxing_gibbous_moon",
+  "1F314": [
+    "moon",
+    "waxing_gibbous_moon"
+  ],
   "1F96E": "moon_cake",
   "1F1F2-1F1E6": "morocco",
   "1F393": "mortar_board",
@@ -1064,8 +1160,14 @@
   "1F5DE": "newspaper_roll",
   "23ED": "next_track_button",
   "1F196": "ng",
-  "1F645-200D-2642-FE0F": "no_good_man",
-  "1F645-200D-2640-FE0F": "no_good_woman",
+  "1F645-200D-2642-FE0F": [
+    "ng_man",
+    "no_good_man"
+  ],
+  "1F645-200D-2640-FE0F": [
+    "ng_woman",
+    "no_good_woman"
+  ],
   "1F1F3-1F1EE": "nicaragua",
   "1F1F3-1F1EA": "niger",
   "1F1F3-1F1EC": "nigeria",
@@ -1183,7 +1285,10 @@
   "1F1F5-1F1EA": "peru",
   "1F9EB": "petri_dish",
   "1F1F5-1F1ED": "philippines",
-  "260E": "telephone",
+  "260E": [
+    "phone",
+    "telephone"
+  ],
   "26CF": "pick",
   "1F967": "pie",
   "1F437": "pig",
@@ -1221,7 +1326,10 @@
   "1F45D": "pouch",
   "1F357": "poultry_leg",
   "1F4B7": "pound",
-  "1F621": "rage",
+  "1F621": [
+    "pout",
+    "rage"
+  ],
   "1F63E": "pouting_cat",
   "1F64E": "pouting_face",
   "1F64E-200D-2642-FE0F": "pouting_man",
@@ -1310,7 +1418,10 @@
   "1F6A3-200D-2640-FE0F": "rowing_woman",
   "1F1F7-1F1FA": "ru",
   "1F3C9": "rugby_football",
-  "1F3C3": "running",
+  "1F3C3": [
+    "runner",
+    "running"
+  ],
   "1F3C3-200D-2642-FE0F": "running_man",
   "1F3BD": "running_shirt_with_sash",
   "1F3C3-200D-2640-FE0F": "running_woman",
@@ -1327,8 +1438,14 @@
   "1F385": "santa",
   "1F1F8-1F1F9": "sao_tome_principe",
   "1F97B": "sari",
-  "1F481-200D-2642-FE0F": "tipping_hand_man",
-  "1F481-200D-2640-FE0F": "tipping_hand_woman",
+  "1F481-200D-2642-FE0F": [
+    "sassy_man",
+    "tipping_hand_man"
+  ],
+  "1F481-200D-2640-FE0F": [
+    "sassy_woman",
+    "tipping_hand_woman"
+  ],
   "1F4E1": "satellite",
   "1F1F8-1F1E6": "saudi_arabia",
   "1F9D6-200D-2642-FE0F": "sauna_man",
@@ -1363,7 +1480,10 @@
   "1F6E1": "shield",
   "26E9": "shinto_shrine",
   "1F6A2": "ship",
-  "1F455": "tshirt",
+  "1F455": [
+    "shirt",
+    "tshirt"
+  ],
   "1F6CD": "shopping",
   "1F6D2": "shopping_cart",
   "1FA73": "shorts",

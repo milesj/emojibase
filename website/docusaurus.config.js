@@ -46,8 +46,13 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'browser',
-          label: 'Browser',
+          to: 'emojis',
+          label: 'Emoji list',
+          position: 'left',
+        },
+        {
+          to: 'shortcodes',
+          label: 'Shortcodes table',
           position: 'left',
         },
         {

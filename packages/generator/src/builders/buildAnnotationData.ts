@@ -20,8 +20,15 @@ import {
   MULTI_PERSON_SKIN_TONE_PATTERN,
 } from '../constants';
 import { REGIONAL_INDICATOR_MESSAGES } from '../translations';
+import readCache from '../helpers/readCache';
 
 export default async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotationMap> {
+  const cache = readCache<CLDRAnnotationMap>(`final/${locale}-annotation-data.json`);
+
+  if (cache) {
+    return cache;
+  }
+
   log.title('build', `Building ${locale} annotation data`);
 
   // Load the base annotations and localization datasets
@@ -34,7 +41,7 @@ export default async function buildAnnotationData(locale: Locale): Promise<CLDRA
   let parentAnnotationsDerived: CLDRAnnotationMap = {};
 
   if (locale.includes('-')) {
-    const parentLocale = locale.split('-')[0];
+    const parentLocale = String(locale.split('-')[0]);
 
     parentAnnotations = await loadAnnotations(parentLocale);
     parentAnnotationsDerived = await loadAnnotations(parentLocale, true);

@@ -1,10 +1,10 @@
-import { stripHexcode } from 'emojibase';
 import fetchAndCache from '../../loaders/fetchAndCache';
 import writeDataset from '../../helpers/writeDataset';
-import { ShortcodeDataMap, EmojiMap } from '../../types';
+import { ShortcodeDataMap } from '../../types';
 import log from '../../helpers/log';
+import Database from '../Database';
 
-export default async function generateIamCal(emojis: EmojiMap) {
+export default async function generateIamCal(db: Database) {
   const shortcodes: ShortcodeDataMap = {};
   const response = await fetchAndCache<{ unified: string; short_names?: string[] }[]>(
     'https://raw.githubusercontent.com/iamcal/emoji-data/master/emoji.json',
@@ -17,24 +17,29 @@ export default async function generateIamCal(emojis: EmojiMap) {
     },
   );
 
-  response.forEach(({ unified, short_names: names }) => {
-    const emoji = emojis[unified] || emojis[stripHexcode(unified)];
+  response.forEach(({ unified: hexcode, short_names: shortnames = [] }) => {
+    const emoji = db.getEmoji(hexcode);
 
     if (!emoji) {
-      log.error('iamcal', `IamCal shortcode ${unified} does not exist within our system.`);
+      log.error('shortcodes', `IamCal shortcode ${hexcode} does not exist within our system.`);
 
       return;
     }
 
-    if (Array.isArray(names)) {
-      if (names.length === 1) {
-        // eslint-disable-next-line prefer-destructuring
-        shortcodes[emoji.hexcode] = names[0];
-      } else {
-        shortcodes[emoji.hexcode] = names;
-      }
+    if (shortnames.length > 0) {
+      db.addShortcodes(shortcodes, emoji.hexcode, shortnames);
     }
   });
+
+  // const sourceLength = Object.keys(response).length;
+  // const targetLength = Object.keys(shortcodes).length;
+
+  // if (targetLength !== sourceLength) {
+  //   log.warn(
+  //     'shortcodes',
+  //     `IamCal shortcode dataset has mismatching length (expected ${sourceLength}, received ${targetLength})`,
+  //   );
+  // }
 
   await Promise.all([
     writeDataset(`en/shortcodes/iamcal.raw.json`, shortcodes),
