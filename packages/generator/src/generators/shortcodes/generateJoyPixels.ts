@@ -62,7 +62,7 @@ export default async function generateJoyPixels(db: Database) {
 
       if (!emoji) {
         log.error(
-          'joypixels',
+          'shortcodes',
           `JoyPixels shortcode ${hexcode} (${fullHexcode}) does not exist within our system.`,
         );
 
@@ -74,10 +74,20 @@ export default async function generateJoyPixels(db: Database) {
         .map((name) => transliterate(name.replace(/:/g, '')));
 
       if (names.length > 0) {
-        shortcodes[emoji.hexcode] = db.formatShortcodes(names);
+        db.addShortcodes(shortcodes, emoji.hexcode, names);
       }
     },
   );
+
+  const sourceLength = Object.keys(response).length - IGNORE_HEXCODES.size;
+  const targetLength = Object.keys(shortcodes).length;
+
+  if (targetLength !== sourceLength) {
+    log.warn(
+      'shortcodes',
+      `JoyPixels shortcode dataset has mismatching length (expected ${sourceLength}, received ${targetLength})`,
+    );
+  }
 
   await Promise.all([
     writeDataset(`en/shortcodes/joypixels.raw.json`, shortcodes),

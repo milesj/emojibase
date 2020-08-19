@@ -19,18 +19,20 @@ export default async function generateEmojibase(db: Database) {
 
     if (!list) {
       log.error(
-        'emojibase',
+        'shortcodes',
         `Emojibase shortcode ${emoji.hexcode} does not exist within our system.`,
       );
 
       return;
     }
 
-    shortcodes[emoji.hexcode] = db.formatShortcodes(list);
+    db.addShortcodes(shortcodes, emoji.hexcode, list);
 
     if (emoji.modifications) {
       Object.values(emoji.modifications).forEach((mod) => {
-        shortcodes[mod.hexcode] = db.formatShortcodes(
+        db.addShortcodes(
+          shortcodes,
+          mod.hexcode,
           list.map((code) => appendSkinToneIndex(code, mod, 'tone')),
         );
       });

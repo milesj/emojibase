@@ -17,11 +17,15 @@ export default async function generateGitHub(db: Database) {
       },
     },
   );
+  let ignoreCount = 0;
 
   Object.entries(response).forEach(([shortcode, url]) => {
     const match = url.match(/emoji\/unicode\/([\da-z-]+)\.png/i);
 
+    // Non-standard emojis
     if (!match) {
+      ignoreCount += 1;
+
       return;
     }
 
@@ -29,13 +33,23 @@ export default async function generateGitHub(db: Database) {
     const emoji = db.getEmoji(hexcode);
 
     if (!emoji) {
-      log.error('github', `GitHub shortcode ${hexcode} does not exist within our system.`);
+      log.error('shortcodes', `GitHub shortcode ${hexcode} does not exist within our system.`);
 
       return;
     }
 
-    shortcodes[emoji.hexcode] = shortcode;
+    db.addShortcodes(shortcodes, emoji.hexcode, shortcode);
   });
+
+  const sourceLength = Object.keys(response).length - ignoreCount;
+  const targetLength = Object.keys(shortcodes).length;
+
+  if (targetLength !== sourceLength) {
+    log.warn(
+      'shortcodes',
+      `GitHub shortcode dataset has mismatching length (expected ${sourceLength}, received ${targetLength})`,
+    );
+  }
 
   await Promise.all([
     writeDataset(`en/shortcodes/github.raw.json`, shortcodes),

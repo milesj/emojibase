@@ -21,15 +21,25 @@ export default async function generateIamCal(db: Database) {
     const emoji = db.getEmoji(hexcode);
 
     if (!emoji) {
-      log.error('iamcal', `IamCal shortcode ${hexcode} does not exist within our system.`);
+      log.error('shortcodes', `IamCal shortcode ${hexcode} does not exist within our system.`);
 
       return;
     }
 
     if (shortnames.length > 0) {
-      shortcodes[emoji.hexcode] = db.formatShortcodes(shortnames);
+      db.addShortcodes(shortcodes, emoji.hexcode, shortnames);
     }
   });
+
+  const sourceLength = Object.keys(response).length;
+  const targetLength = Object.keys(shortcodes).length;
+
+  if (targetLength !== sourceLength) {
+    log.warn(
+      'shortcodes',
+      `IamCal shortcode dataset has mismatching length (expected ${sourceLength}, received ${targetLength})`,
+    );
+  }
 
   await Promise.all([
     writeDataset(`en/shortcodes/iamcal.raw.json`, shortcodes),

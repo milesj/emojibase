@@ -1,5 +1,6 @@
 import { stripHexcode } from 'emojibase';
-import { EmojiMap, Emoji, HexcodeMap, Hexcode } from '../types';
+import { EmojiMap, Emoji, HexcodeMap, Hexcode, ShortcodeDataMap } from '../types';
+import toArray from '../helpers/toArray';
 
 export default class Database {
   // List of non-flat emojis
@@ -14,6 +15,18 @@ export default class Database {
   constructor(emojis: EmojiMap) {
     this.emojiList = Object.values(emojis);
     this.mapEmojis(emojis);
+  }
+
+  addShortcodes(map: ShortcodeDataMap, hexcode: Hexcode, shortcodes: string | string[]) {
+    const item = map[hexcode];
+
+    if (item) {
+      map[hexcode] = this.formatShortcodes(
+        Array.from(new Set([...toArray(item), ...toArray(shortcodes)])),
+      );
+    } else {
+      map[hexcode] = this.formatShortcodes(shortcodes);
+    }
   }
 
   formatShortcodes(shortcodes: string | string[]): string | string[] {
@@ -44,7 +57,7 @@ export default class Database {
       const otherHexcode = stripHexcode(emoji.hexcode);
 
       if (otherHexcode !== emoji.hexcode && !this.hexcodeLookup[otherHexcode]) {
-        this.hexcodeLookup[otherHexcode] = otherHexcode;
+        this.hexcodeLookup[otherHexcode] = emoji.hexcode;
       }
 
       // Variations
