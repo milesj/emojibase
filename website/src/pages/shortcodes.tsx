@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Layout from '@theme/Layout';
-import { Emoji, fetchEmojis, ShortcodesDataset, fetchShortcodes, ShortcodePreset } from 'emojibase';
+import { Emoji, fetchEmojis, ShortcodesDataset, fetchShortcodes } from 'emojibase';
+import Shortcodes from '../components/Shortcodes';
 import cldrDataset from '../../../packages/data/en/shortcodes/cldr.raw.json';
 import emojibaseDataset from '../../../packages/data/en/shortcodes/emojibase.raw.json';
 
@@ -8,21 +9,7 @@ function noop<T>(value: T): T {
   return value;
 }
 
-function renderShortcode(preset: ShortcodePreset, shortcode: string | string[] | undefined) {
-  if (!shortcode) {
-    return null;
-  }
-
-  return (
-    <>
-      {(Array.isArray(shortcode) ? shortcode : [shortcode]).map((s) => (
-        <div key={`${preset}-${s}`}>{`:${s}:`}</div>
-      ))}
-    </>
-  );
-}
-
-export default function Shortcodes() {
+export default function ShortcodesTable() {
   const [emojis, setEmojis] = useState<Emoji[]>([]);
   const [cldr, setCldr] = useState<ShortcodesDataset>(cldrDataset);
   const [emojibase, setEmojibase] = useState<ShortcodesDataset>(emojibaseDataset);
@@ -54,59 +41,73 @@ export default function Shortcodes() {
       title="Shortcodes table"
       description="List of all shortcodes for every emoji character."
     >
-      <main style={{ padding: '2rem' }}>
+      <main className="table-container">
         <h2>Shortcodes table</h2>
 
-        <table style={{ maxWidth: '100%' }}>
-          <thead>
-            <tr>
-              <th colSpan={2} />
-              <th>CLDR</th>
-              <th>Emojibase</th>
-              <th>Github</th>
-              <th>
-                IamCal <small>(Slack)</small>
-              </th>
-              <th>
-                JoyPixels <small>(Discord)</small>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            {loading && (
+        <div className="table-responsive">
+          <table>
+            <thead>
               <tr>
-                <td colSpan={7} className="text--center">
-                  Loading emojis…
-                </td>
+                <th colSpan={2} />
+                <th>CLDR</th>
+                <th>Emojibase</th>
+                <th>Github</th>
+                <th>
+                  IamCal <small>(Slack)</small>
+                </th>
+                <th>
+                  JoyPixels <small>(Discord)</small>
+                </th>
+                <th />
               </tr>
-            )}
-
-            {!loading && (
-              <>
+            </thead>
+            <tbody>
+              {loading && (
                 <tr>
-                  <td colSpan={7} className="text--center">
-                    {emojis.length.toLocaleString()} emojis
+                  <td colSpan={8} className="text--center">
+                    Loading emojis…
                   </td>
                 </tr>
+              )}
 
-                {emojis.map((emoji) => (
-                  <tr key={emoji.hexcode} data-hexcode={emoji.hexcode}>
-                    <td className="text--center">{emoji.emoji || emoji.text}</td>
-                    <td>
-                      <div>{emoji.annotation}</div>
-                      <div className="text--muted no-wrap">{emoji.hexcode}</div>
+              {!loading && (
+                <>
+                  <tr>
+                    <td colSpan={8} className="text--center">
+                      {emojis.length.toLocaleString()} emojis
                     </td>
-                    <td>{renderShortcode('cldr', cldr[emoji.hexcode])}</td>
-                    <td>{renderShortcode('emojibase', emojibase[emoji.hexcode])}</td>
-                    <td>{renderShortcode('github', github[emoji.hexcode])}</td>
-                    <td>{renderShortcode('iamcal', iamcal[emoji.hexcode])}</td>
-                    <td>{renderShortcode('joypixels', joyPixels[emoji.hexcode])}</td>
                   </tr>
-                ))}
-              </>
-            )}
-          </tbody>
-        </table>
+
+                  {emojis.map((emoji) => (
+                    <tr key={emoji.hexcode} data-hexcode={emoji.hexcode}>
+                      <td className="text--center emoji--large">{emoji.emoji || emoji.text}</td>
+                      <td>
+                        <div>{emoji.annotation}</div>
+                        <div className="text--muted no-wrap">{emoji.hexcode}</div>
+                      </td>
+                      <td>
+                        <Shortcodes preset="cldr" shortcodes={cldr[emoji.hexcode]} />
+                      </td>
+                      <td>
+                        <Shortcodes preset="emojibase" shortcodes={emojibase[emoji.hexcode]} />
+                      </td>
+                      <td>
+                        <Shortcodes preset="github" shortcodes={github[emoji.hexcode]} />
+                      </td>
+                      <td>
+                        <Shortcodes preset="iamcal" shortcodes={iamcal[emoji.hexcode]} />
+                      </td>
+                      <td>
+                        <Shortcodes preset="joypixels" shortcodes={joyPixels[emoji.hexcode]} />
+                      </td>
+                      <td className="text--center emoji--large">{emoji.emoji || emoji.text}</td>
+                    </tr>
+                  ))}
+                </>
+              )}
+            </tbody>
+          </table>
+        </div>
       </main>
     </Layout>
   );

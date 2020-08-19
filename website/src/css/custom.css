@@ -61,8 +61,21 @@ table {
   display: table;
 }
 
+.table-container {
+  padding: 1rem;
+}
+
+.table-responsive {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
 .label--inline {
   display: inline-block;
   margin-right: 1em;
   font-weight: normal;
+}
+
+.emoji--large {
+  font-size: 2rem;
 }
