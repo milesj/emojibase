@@ -38,6 +38,11 @@ html[data-theme='dark'] {
   color: var(--ifm-color-secondary-darkest);
 }
 
+.no-wrap {
+  white-space: nowrap;
+  word-break: keep-all;
+}
+
 input[type='text'],
 select {
   width: 100%;
