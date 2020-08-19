@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Layout from '@theme/Layout';
 import { Emoji, fetchEmojis, ShortcodesDataset, fetchShortcodes } from 'emojibase';
 import Shortcodes from '../components/Shortcodes';
-import cldrDataset from '../../../packages/data/en/shortcodes/cldr.raw.json';
-import emojibaseDataset from '../../../packages/data/en/shortcodes/emojibase.raw.json';
 
 function noop<T>(value: T): T {
   return value;
@@ -11,8 +9,8 @@ function noop<T>(value: T): T {
 
 export default function ShortcodesTable() {
   const [emojis, setEmojis] = useState<Emoji[]>([]);
-  const [cldr, setCldr] = useState<ShortcodesDataset>(cldrDataset);
-  const [emojibase, setEmojibase] = useState<ShortcodesDataset>(emojibaseDataset);
+  const [cldr, setCldr] = useState<ShortcodesDataset>({});
+  const [emojibase, setEmojibase] = useState<ShortcodesDataset>({});
   const [github, setGithub] = useState<ShortcodesDataset>({});
   const [iamcal, setIamcal] = useState<ShortcodesDataset>({});
   const [joyPixels, setJoyPixels] = useState<ShortcodesDataset>({});
@@ -28,8 +26,8 @@ export default function ShortcodesTable() {
       fetchShortcodes('en', 'iamcal', { version }).catch(noop),
     ]).then(([a, b, c, d, e]) => {
       setEmojis(a);
-      // setCldr(b);
-      // setEmojibase(c);
+      setCldr(b);
+      setEmojibase(c);
       setGithub(d);
       setIamcal(e);
       setLoading(false);

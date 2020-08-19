@@ -1,6 +1,6 @@
 import 'url-search-params-polyfill';
 import React, { useEffect, useState } from 'react';
-import { fetchEmojis, Emoji } from 'emojibase';
+import { fetchEmojis, Emoji, Locale } from 'emojibase';
 import groupsData from 'emojibase-data/meta/groups.json';
 import Layout from '@theme/Layout';
 import Shortcodes from '../components/Shortcodes';
@@ -92,7 +92,7 @@ function updateUrlFragment(query: URLSearchParams) {
 export default function EmojiList() {
   const query = new URLSearchParams(isBrowser ? location.search : '');
   const [filter, setFilter] = useState(query.get('filter') ?? '');
-  const [locale, setLocale] = useState(query.get('locale') ?? 'en');
+  const [locale, setLocale] = useState<Locale>(query.get('locale') ?? 'en');
   const [group, setGroup] = useState<number>(Number(query.get('group') ?? -1));
   const [subgroup, setSubgroup] = useState<number>(Number(query.get('subgroup') ?? -1));
   const [skinTones, setSkinTones] = useState(Boolean(query.get('skinTones') ?? false));
