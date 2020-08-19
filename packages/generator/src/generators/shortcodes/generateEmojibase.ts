@@ -1,21 +1,18 @@
 import path from 'path';
-import { TEXT, appendSkinToneIndex } from 'emojibase';
+import { TEXT, appendSkinToneIndex, Emoji } from 'emojibase';
 import writeDataset from '../../helpers/writeDataset';
 import { ShortcodeDataMap } from '../../types';
 import writeFile from '../../helpers/writeFile';
 import { SHORTCODE_GUIDELINES } from '../../constants';
 import log from '../../helpers/log';
 import Database from '../Database';
-import shortcodesSource from '../../resources/shortcodes';
-// eslint-disable-next-line @typescript-eslint/prefer-ts-expect-error
-// @ts-ignore
-import emojisSource from '../../../../data/en/data.raw.json';
+import shortcodesResource from '../../resources/shortcodes';
 
 export default async function generateEmojibase(db: Database) {
   const shortcodes: ShortcodeDataMap = {};
 
   db.emojiList.forEach((emoji) => {
-    const list = shortcodesSource[emoji.hexcode as keyof typeof shortcodesSource];
+    const list = shortcodesResource[emoji.hexcode as keyof typeof shortcodesResource];
 
     if (!list) {
       log.error(
@@ -44,7 +41,9 @@ export default async function generateEmojibase(db: Database) {
     writeDataset(`en/shortcodes/emojibase.json`, shortcodes, true),
   ]);
 
-  // Organize and sort the resources file
+  // Organize and sort the resources file using the raw dataset
+  // eslint-disable-next-line
+  const emojisSource: Emoji[] = require('../../../../data/en/data.raw.json');
   const output: string[] = [
     '/* eslint-disable sort-keys */',
     '',

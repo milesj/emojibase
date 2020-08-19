@@ -31,15 +31,15 @@ export default async function generateIamCal(db: Database) {
     }
   });
 
-  const sourceLength = Object.keys(response).length;
-  const targetLength = Object.keys(shortcodes).length;
+  // const sourceLength = Object.keys(response).length;
+  // const targetLength = Object.keys(shortcodes).length;
 
-  if (targetLength !== sourceLength) {
-    log.warn(
-      'shortcodes',
-      `IamCal shortcode dataset has mismatching length (expected ${sourceLength}, received ${targetLength})`,
-    );
-  }
+  // if (targetLength !== sourceLength) {
+  //   log.warn(
+  //     'shortcodes',
+  //     `IamCal shortcode dataset has mismatching length (expected ${sourceLength}, received ${targetLength})`,
+  //   );
+  // }
 
   await Promise.all([
     writeDataset(`en/shortcodes/iamcal.raw.json`, shortcodes),

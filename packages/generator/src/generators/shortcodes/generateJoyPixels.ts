@@ -8,20 +8,20 @@ import Database from '../Database';
 // These should not be in the dataset according to the spec
 const IGNORE_HEXCODES = new Set([
   // Pound symbol
-  '0023',
+  '0023-FE0F',
   // Asterisk
-  '002A',
+  '002A-FE0F',
   // Digits 0-9
-  '0030',
-  '0031',
-  '0032',
-  '0033',
-  '0034',
-  '0035',
-  '0036',
-  '0037',
-  '0038',
-  '0039',
+  '0030-FE0F',
+  '0031-FE0F',
+  '0032-FE0F',
+  '0033-FE0F',
+  '0034-FE0F',
+  '0035-FE0F',
+  '0036-FE0F',
+  '0037-FE0F',
+  '0038-FE0F',
+  '0039-FE0F',
 ]);
 
 export default async function generateJoyPixels(db: Database) {
@@ -43,28 +43,21 @@ export default async function generateJoyPixels(db: Database) {
     },
   );
 
-  Object.entries(response).forEach(
-    ([
-      baseCodePoint,
-      {
-        code_points: { fully_qualified: fullCodePoint },
-        shortname = '',
-        shortname_alternates: shortnames = [],
-      },
-    ]) => {
-      const hexcode = baseCodePoint.toUpperCase();
-      const fullHexcode = fullCodePoint.toUpperCase();
-      const emoji = db.getEmoji(fullHexcode) || db.getEmoji(hexcode);
+  Object.values(response).forEach(
+    ({
+      code_points: { fully_qualified: fullCodePoint },
+      shortname = '',
+      shortname_alternates: shortnames = [],
+    }) => {
+      const hexcode = fullCodePoint.toUpperCase();
+      const emoji = db.getEmoji(hexcode);
 
-      if (IGNORE_HEXCODES.has(hexcode) || IGNORE_HEXCODES.has(fullHexcode)) {
+      if (IGNORE_HEXCODES.has(hexcode)) {
         return;
       }
 
       if (!emoji) {
-        log.error(
-          'shortcodes',
-          `JoyPixels shortcode ${hexcode} (${fullHexcode}) does not exist within our system.`,
-        );
+        log.error('shortcodes', `JoyPixels shortcode ${hexcode} does not exist within our system.`);
 
         return;
       }
@@ -79,15 +72,15 @@ export default async function generateJoyPixels(db: Database) {
     },
   );
 
-  const sourceLength = Object.keys(response).length - IGNORE_HEXCODES.size;
-  const targetLength = Object.keys(shortcodes).length;
+  // const sourceLength = Object.keys(response).length - IGNORE_HEXCODES.size;
+  // const targetLength = Object.keys(shortcodes).length;
 
-  if (targetLength !== sourceLength) {
-    log.warn(
-      'shortcodes',
-      `JoyPixels shortcode dataset has mismatching length (expected ${sourceLength}, received ${targetLength})`,
-    );
-  }
+  // if (targetLength !== sourceLength) {
+  //   log.warn(
+  //     'shortcodes',
+  //     `JoyPixels shortcode dataset has mismatching length (expected ${sourceLength}, received ${targetLength})`,
+  //   );
+  // }
 
   await Promise.all([
     writeDataset(`en/shortcodes/joypixels.raw.json`, shortcodes),
