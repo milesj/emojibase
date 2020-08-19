@@ -28,6 +28,7 @@ describe('shortcodes', () => {
     'cldr',
     'cldr-native',
     'emojibase',
+    'emojibase-legacy',
     'github',
     'iamcal',
     'joypixels',

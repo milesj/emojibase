@@ -11,6 +11,7 @@ export default function ShortcodesTable() {
   const [emojis, setEmojis] = useState<Emoji[]>([]);
   const [cldr, setCldr] = useState<ShortcodesDataset>({});
   const [emojibase, setEmojibase] = useState<ShortcodesDataset>({});
+  const [emojibaseLegacy, setEmojibaseLegacy] = useState<ShortcodesDataset>({});
   const [github, setGithub] = useState<ShortcodesDataset>({});
   const [iamcal, setIamcal] = useState<ShortcodesDataset>({});
   const [joyPixels, setJoyPixels] = useState<ShortcodesDataset>({});
@@ -22,14 +23,16 @@ export default function ShortcodesTable() {
       fetchEmojis('en', { flat: true, version }).catch(noop),
       fetchShortcodes('en', 'cldr', { version }).catch(noop),
       fetchShortcodes('en', 'emojibase', { version }).catch(noop),
+      fetchShortcodes('en', 'emojibase-legacy', { version }).catch(noop),
       fetchShortcodes('en', 'github', { version }).catch(noop),
       fetchShortcodes('en', 'iamcal', { version }).catch(noop),
-    ]).then(([a, b, c, d, e]) => {
+    ]).then(([a, b, c, d, e, f]) => {
       setEmojis(a);
       setCldr(b);
       setEmojibase(c);
-      setGithub(d);
-      setIamcal(e);
+      setEmojibaseLegacy(d);
+      setGithub(e);
+      setIamcal(f);
       setLoading(false);
     });
   }, []);
@@ -49,6 +52,9 @@ export default function ShortcodesTable() {
                 <th colSpan={2} />
                 <th>CLDR</th>
                 <th>Emojibase</th>
+                <th>
+                  Emojibase <small>(Legacy)</small>
+                </th>
                 <th>Github</th>
                 <th>
                   IamCal <small>(Slack)</small>
@@ -88,6 +94,12 @@ export default function ShortcodesTable() {
                       </td>
                       <td>
                         <Shortcodes preset="emojibase" shortcodes={emojibase[emoji.hexcode]} />
+                      </td>
+                      <td>
+                        <Shortcodes
+                          preset="emojibase-legacy"
+                          shortcodes={emojibase[emoji.hexcode]}
+                        />
                       </td>
                       <td>
                         <Shortcodes preset="github" shortcodes={github[emoji.hexcode]} />
