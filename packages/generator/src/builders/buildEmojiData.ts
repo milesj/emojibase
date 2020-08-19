@@ -14,12 +14,14 @@ import mergeDuplicateVariations from './mergeDuplicateVariations';
 import validateDataAgainstOfficialList from './validateDataAgainstOfficialList';
 import verifyDataIntegrity from './verifyDataIntegrity';
 import { EmojiMap } from '../types';
-
-const emojis = {};
+import readCache from '../helpers/readCache';
 
 export default async function buildEmojiData(): Promise<EmojiMap> {
-  if (Object.keys(emojis).length > 0) {
-    return Promise.resolve(emojis);
+  const cache = readCache<EmojiMap>('final/emoji-data.json');
+  const emojis = {};
+
+  if (cache) {
+    return cache;
   }
 
   log.title('build', 'Building emoji data');

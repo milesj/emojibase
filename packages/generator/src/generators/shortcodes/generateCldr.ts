@@ -3,10 +3,17 @@
 import Kuroshiro from 'kuroshiro';
 import KuromojiAnalyzer from 'kuroshiro-analyzer-kuromoji';
 import { transliterate } from 'transliteration';
-import { Locale, SUPPORTED_LOCALES, NON_LATIN_LOCALES, appendSkinToneIndex } from 'emojibase';
+import {
+  Locale,
+  SUPPORTED_LOCALES,
+  NON_LATIN_LOCALES,
+  appendSkinToneIndex,
+  stripHexcode,
+} from 'emojibase';
 import buildAnnotationData from '../../builders/buildAnnotationData';
-import { ShortcodeDataMap, EmojiMap } from '../../types';
+import { ShortcodeDataMap } from '../../types';
 import writeDataset from '../../helpers/writeDataset';
+import Database from '../Database';
 
 const CUSTOM_SHORTCODES: { [key: string]: string } = {
   e_mail: 'email',
@@ -50,8 +57,8 @@ async function slugify(value: string, locale: Locale, transform: boolean = false
   return CUSTOM_SHORTCODES[slug] || slug;
 }
 
-export default async function generateCldr(emojis: EmojiMap) {
-  const emojiList = Object.values(emojis);
+export default async function generateCldr(db: Database) {
+  const emojiList = Object.values(db.emojis);
 
   await kuroshiro.init(new KuromojiAnalyzer()); // Japanese
 
@@ -66,7 +73,7 @@ export default async function generateCldr(emojis: EmojiMap) {
 
       // eslint-disable-next-line no-restricted-syntax
       for await (const emoji of emojiList) {
-        const row = annotations[emoji.hexcode];
+        const row = annotations[emoji.hexcode] || annotations[stripHexcode(emoji.hexcode)];
 
         if (!row || !row.annotation || cldr[emoji.hexcode]) {
           // eslint-disable-next-line no-continue
