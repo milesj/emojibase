@@ -2,6 +2,11 @@ import React, { useEffect, useState } from 'react';
 import Layout from '@theme/Layout';
 import { Emoji, fetchEmojis, ShortcodesDataset, fetchShortcodes } from 'emojibase';
 import Shortcodes from '../components/Shortcodes';
+import emojibaseDataset from '../../../packages/data/en/shortcodes/emojibase.raw.json';
+import emojibaseLegacyDataset from '../../../packages/data/en/shortcodes/emojibase-legacy.raw.json';
+import githubDataset from '../../../packages/data/en/shortcodes/github.raw.json';
+import iamcalDataset from '../../../packages/data/en/shortcodes/iamcal.raw.json';
+import joypixelsDataset from '../../../packages/data/en/shortcodes/joypixels.raw.json';
 
 function noop<T>(value: T): T {
   return value;
@@ -10,11 +15,11 @@ function noop<T>(value: T): T {
 export default function ShortcodesTable() {
   const [emojis, setEmojis] = useState<Emoji[]>([]);
   const [cldr, setCldr] = useState<ShortcodesDataset>({});
-  const [emojibase, setEmojibase] = useState<ShortcodesDataset>({});
-  const [emojibaseLegacy, setEmojibaseLegacy] = useState<ShortcodesDataset>({});
-  const [github, setGithub] = useState<ShortcodesDataset>({});
-  const [iamcal, setIamcal] = useState<ShortcodesDataset>({});
-  const [joyPixels, setJoyPixels] = useState<ShortcodesDataset>({});
+  const [emojibase, setEmojibase] = useState<ShortcodesDataset>(emojibaseDataset);
+  const [emojibaseLegacy, setEmojibaseLegacy] = useState<ShortcodesDataset>(emojibaseLegacyDataset);
+  const [github, setGithub] = useState<ShortcodesDataset>(githubDataset);
+  const [iamcal, setIamcal] = useState<ShortcodesDataset>(iamcalDataset);
+  const [joyPixels, setJoyPixels] = useState<ShortcodesDataset>(joypixelsDataset);
   const [loading, setLoading] = useState(true);
   const version = 'next';
 
@@ -26,13 +31,14 @@ export default function ShortcodesTable() {
       fetchShortcodes('en', 'emojibase-legacy', { version }).catch(noop),
       fetchShortcodes('en', 'github', { version }).catch(noop),
       fetchShortcodes('en', 'iamcal', { version }).catch(noop),
+      // fetchShortcodes('en', 'joypixels', { version }).catch(noop),
     ]).then(([a, b, c, d, e, f]) => {
       setEmojis(a);
-      setCldr(b);
-      setEmojibase(c);
-      setEmojibaseLegacy(d);
-      setGithub(e);
-      setIamcal(f);
+      // setCldr(b);
+      // setEmojibase(c);
+      // setEmojibaseLegacy(d);
+      // setGithub(e);
+      // setIamcal(f);
       setLoading(false);
     });
   }, []);

@@ -1,5 +1,8 @@
 /* eslint-disable sort-keys */
 
+
+// - Animals with only a "Face" should have a shortcode with and without the face suffix (if not taken).
+
 /**
  * Official Emojibase shortcodes list.
  *
@@ -9,7 +12,7 @@
  *    while female emoji use "woman_", and male "man_".
  *    Plural forms use "people_", "women_", and "men_".
  *    In rare occasions, the gender can be suffixed,
- *    like "bald_man" or "blonde_woman".
+ *    like "bald_man" or "blond_woman".
  *
  *  - Animals depicted from the side use the animal name,
  *    while animals depicted with a head, or a face,
@@ -86,37 +89,37 @@ export default {
 
   // VERSION 0.6
   // 😃 grinning face with big eyes
-  '1F603': ['glad', 'smile'],
+  '1F603': ['smiley'],
   // 😄 grinning face with smiling eyes
-  '1F604': ['happy'],
+  '1F604': ['smile', 'happy'],
   // 😁 beaming face with smiling eyes
-  '1F601': ['blissful', 'grin'],
+  '1F601': ['grin'],
   // 😆 grinning squinting face
-  '1F606': ['amused', 'laugh', 'lol'],
+  '1F606': ['laughing', 'satisfied'],
   // 😅 grinning face with sweat
-  '1F605': ['embarassed', 'sweat_smile'],
+  '1F605': ['sweat_smile'],
   // 😂 face with tears of joy
-  '1F602': ['joyful', 'haha'],
+  '1F602': ['joy'],
   // 😉 winking face
-  '1F609': ['coy', 'wink'],
+  '1F609': ['wink'],
   // 😊 smiling face with smiling eyes
   '1F60A': ['blush'],
   // 😍 smiling face with heart-eyes
-  '1F60D': ['lovestruck'],
+  '1F60D': ['heart_eyes'],
   // 😘 face blowing a kiss
-  '1F618': ['flirty'],
+  '1F618': ['kissing_heart'],
   // ☺︎ smiling face
   '263A': ['relaxed'],
   // 😚 kissing face with closed eyes
-  '1F61A': ['loving_kiss'],
+  '1F61A': ['kissing_closed_eyes'],
   // 😋 face savoring food
-  '1F60B': ['yum', 'savour'],
+  '1F60B': ['yum'],
   // 😜 winking face with tongue
-  '1F61C': ['mischievous'],
+  '1F61C': ['stuck_out_tongue_winking_eye'],
   // 😝 squinting face with tongue
-  '1F61D': ['facetious', 'lmao'],
+  '1F61D': ['stuck_out_tongue_closed_eyes'],
   // 😏 smirking face
-  '1F60F': ['cocky', 'smirk'],
+  '1F60F': ['smirk'],
   // 😒 unamused face
   '1F612': ['unamused'],
   // 😌 relieved face
@@ -126,9 +129,9 @@ export default {
   // 😪 sleepy face
   '1F62A': ['sleepy'],
   // 😷 face with medical mask
-  '1F637': ['ill', 'mask'],
+  '1F637': ['mask'],
   // 😵 dizzy face
-  '1F635': ['dizzy'],
+  '1F635': ['dizzy_face'],
   // 😲 astonished face
   '1F632': ['astonished'],
   // 😳 flushed face
@@ -136,31 +139,31 @@ export default {
   // 😨 fearful face
   '1F628': ['fearful'],
   // 😰 anxious face with sweat
-  '1F630': ['cold_sweat', 'anxious', 'frustrated'],
+  '1F630': ['cold_sweat'],
   // 😥 sad but relieved face
-  '1F625': ['gloomy'],
+  '1F625': ['disappointed_relieved'],
   // 😢 crying face
-  '1F622': ['upset', 'cry'],
+  '1F622': ['cry'],
   // 😭 loudly crying face
-  '1F62D': ['distressed', 'sob'],
+  '1F62D': ['sob'],
   // 😱 face screaming in fear
-  '1F631': ['frightened', 'scream'],
+  '1F631': ['scream'],
   // 😖 confounded face
   '1F616': ['confounded'],
   // 😣 persevering face
-  '1F623': ['persevered'],
+  '1F623': ['persevere'],
   // 😞 disappointed face
   '1F61E': ['disappointed'],
   // 😓 downcast face with sweat
-  '1F613': ['shamed'],
+  '1F613': ['sweat'],
   // 😩 weary face
   '1F629': ['weary'],
   // 😫 tired face
-  '1F62B': ['tired'],
+  '1F62B': ['tired_face'],
   // 😤 face with steam from nose
-  '1F624': ['annoyed', 'hrmph'],
+  '1F624': ['triumph'],
   // 😡 pouting face
-  '1F621': ['enraged', 'pout'],
+  '1F621': ['rage'],
   // 😠 angry face
   '1F620': ['angry'],
   // 👿 angry face with horns
@@ -168,31 +171,31 @@ export default {
   // 💀 skull
   '1F480': ['skull'],
   // 💩 pile of poo
-  '1F4A9': ['poop'],
+  '1F4A9': ['poop', 'shit'],
   // 👹 ogre
-  '1F479': ['ogre'],
+  '1F479': ['japanese_ogre'],
   // 👺 goblin
-  '1F47A': ['goblin'],
+  '1F47A': ['japanese_goblin'],
   // 👻 ghost
   '1F47B': ['ghost'],
   // 👽️ alien
   '1F47D': ['alien'],
   // 👾 alien monster
-  '1F47E': ['alien_monster', 'space_invader'],
+  '1F47E': ['space_invader'],
   // 😺 grinning cat
-  '1F63A': ['smiling_cat'],
+  '1F63A': ['smiley_cat'],
   // 😸 grinning cat with smiling eyes
-  '1F638': ['grinning_cat'],
+  '1F638': ['smile_cat'],
   // 😹 cat with tears of joy
-  '1F639': ['joyful_cat'],
+  '1F639': ['joy_cat'],
   // 😻 smiling cat with heart-eyes
-  '1F63B': ['lovestruck_cat'],
+  '1F63B': ['heart_eyes_cat'],
   // 😼 cat with wry smile
-  '1F63C': ['smirking_cat'],
+  '1F63C': ['smirk_cat'],
   // 😽 kissing cat
   '1F63D': ['kissing_cat'],
   // 🙀 weary cat
-  '1F640': ['weary_cat'],
+  '1F640': ['scream_cat'],
   // 😿 crying cat
   '1F63F': ['crying_cat'],
   // 😾 pouting cat
@@ -204,13 +207,13 @@ export default {
   // 🙊 speak-no-evil monkey
   '1F64A': ['speak_no_evil'],
   // 💋 kiss mark
-  '1F48B': ['kiss_lips'],
+  '1F48B': ['kiss'],
   // 💌 love letter
   '1F48C': ['love_letter'],
   // 💘 heart with arrow
   '1F498': ['cupid'],
   // 💝 heart with ribbon
-  '1F49D': ['heart_ribbon'],
+  '1F49D': ['gift_heart'],
   // 💖 sparkling heart
   '1F496': ['sparkling_heart'],
   // 💗 growing heart
@@ -242,7 +245,7 @@ export default {
   // 💥 collision
   '1F4A5': ['boom', 'collision'],
   // 💫 dizzy
-  '1F4AB': ['dizzy_star'],
+  '1F4AB': ['dizzy'],
   // 💦 sweat droplets
   '1F4A6': ['sweat_drops'],
   // 💨 dashing away
@@ -250,7 +253,7 @@ export default {
   // 💣️ bomb
   '1F4A3': ['bomb'],
   // 💬 speech balloon
-  '1F4AC': ['speech'],
+  '1F4AC': ['speech_balloon'],
   // 💤 zzz
   '1F4A4': ['zzz'],
   // 👋 waving hand
@@ -260,21 +263,21 @@ export default {
   // 👌 OK hand
   '1F44C': ['ok_hand'],
   // ✌︎ victory hand
-  '270C': ['victory'],
+  '270C': ['victory', 'v'],
   // 👈️ backhand index pointing left
   '1F448': ['point_left'],
   // 👉️ backhand index pointing right
   '1F449': ['point_right'],
   // 👆️ backhand index pointing up
-  '1F446': ['backhand_point_up'],
+  '1F446': ['point_up_2'],
   // 👇️ backhand index pointing down
   '1F447': ['point_down'],
   // ☝︎ index pointing up
   '261D': ['point_up'],
   // 👍️ thumbs up
-  '1F44D': ['thumbsup', '+1', 'y', 'yes'],
+  '1F44D': ['thumbsup', '+1'],
   // 👎️ thumbs down
-  '1F44E': ['thumbsdown', '-1', 'n', 'no'],
+  '1F44E': ['thumbsdown', '-1'],
   // ✊ raised fist
   '270A': ['fist'],
   // 👊 oncoming fist
@@ -308,7 +311,7 @@ export default {
   // 👧 girl
   '1F467': ['girl'],
   // 👱 person: blond hair
-  '1F471': ['blond_person'],
+  '1F471': ['blond_haired_person'],
   // 👨 man
   '1F468': ['man'],
   // 👩 woman
@@ -322,7 +325,7 @@ export default {
   // 🙎 person pouting
   '1F64E': ['person_pouting'],
   // 🙅 person gesturing NO
-  '1F645': ['person_gesturing_no'],
+  '1F645': ['person_gesturing_no', 'no_good'],
   // 🙆 person gesturing OK
   '1F646': ['person_gesturing_ok'],
   // 💁 person tipping hand
@@ -330,9 +333,9 @@ export default {
   // 🙋 person raising hand
   '1F64B': ['person_raising_hand'],
   // 🙇 person bowing
-  '1F647': ['person_bowing'],
+  '1F647': ['person_bowing', 'bow'],
   // 👮 police officer
-  '1F46E': ['police_officer'],
+  '1F46E': ['police_officer', 'cop'],
   // 💂 guard
   '1F482': ['guard'],
   // 👷 construction worker
@@ -340,45 +343,45 @@ export default {
   // 👸 princess
   '1F478': ['princess'],
   // 👳 person wearing turban
-  '1F473': ['person_turban'],
+  '1F473': ['turban'],
   // 👲 person with skullcap
-  '1F472': ['man_chinese_cap'],
+  '1F472': ['chinese_cap'],
   // 👰 person with veil
-  '1F470': ['person_veiled_bride', 'bride_veil'],
+  '1F470': ['veil'],
   // 👼 baby angel
-  '1F47C': ['baby_angel'],
+  '1F47C': ['angel'],
   // 🎅 Santa Claus
   '1F385': ['santa'],
   // 💆 person getting massage
   '1F486': ['person_getting_massage'],
   // 💇 person getting haircut
-  '1F487': ['person_getting_haircut'],
+  '1F487': ['person_getting_haircut', 'haircut'],
   // 🚶 person walking
-  '1F6B6': ['person_walking'],
+  '1F6B6': ['person_walking', 'walking'],
   // 🏃 person running
-  '1F3C3': ['person_running'],
+  '1F3C3': ['person_running', 'running'],
   // 💃 woman dancing
   '1F483': ['dancer', 'woman_dancing'],
   // 👯 people with bunny ears
-  '1F46F': ['people_bunny_ears_partying'],
+  '1F46F': ['people_with_bunny_ears_partying', 'dancers'],
   // 🏂️ snowboarder
   '1F3C2': ['snowboarder'],
   // 🏄️ person surfing
-  '1F3C4': ['person_surfing'],
+  '1F3C4': ['person_surfing', 'surfing', 'surfer'],
   // 🏊️ person swimming
-  '1F3CA': ['person_swimming'],
+  '1F3CA': ['person_swimming', 'swimming', 'swimmer'],
   // 🛀 person taking bath
   '1F6C0': ['bath'],
   // 👫 woman and man holding hands
-  '1F46B': ['holding_hands_mw', 'holding_hands_wm'],
+  '1F46B': ['couple'],
   // 💏 kiss
-  '1F48F': ['couple'],
+  '1F48F': ['couplekiss'],
   // 💑 couple with heart
-  '1F491': ['couple_heart'],
+  '1F491': ['couple_with_heart'],
   // 👪️ family
   '1F46A': ['family'],
   // 👤 bust in silhouette
-  '1F464': ['bust_silhouette'],
+  '1F464': ['bust_in_silhouette'],
   // 👣 footprints
   '1F463': ['footprints'],
   // 🐵 monkey face
@@ -390,7 +393,7 @@ export default {
   // 🐩 poodle
   '1F429': ['poodle'],
   // 🐺 wolf
-  '1F43A': ['wolf_face'],
+  '1F43A': ['wolf_face', 'wolf'],
   // 🐱 cat face
   '1F431': ['cat_face'],
   // 🐯 tiger face
@@ -398,9 +401,9 @@ export default {
   // 🐴 horse face
   '1F434': ['horse_face'],
   // 🐎 horse
-  '1F40E': ['horse'],
+  '1F40E': ['horse', 'racehorse'],
   // 🐮 cow face
-  '1F42E': ['cow_face'],
+  '1F42E': ['cow_face', 'cow'],
   // 🐷 pig face
   '1F437': ['pig_face'],
   // 🐗 boar
@@ -410,23 +413,23 @@ export default {
   // 🐑 ewe
   '1F411': ['sheep'],
   // 🐫 two-hump camel
-  '1F42B': ['two_hump_camel'],
+  '1F42B': ['camel'],
   // 🐘 elephant
   '1F418': ['elephant'],
   // 🐭 mouse face
   '1F42D': ['mouse_face'],
   // 🐹 hamster
-  '1F439': ['hamster_face'],
+  '1F439': ['hamster_face', 'hamster'],
   // 🐰 rabbit face
   '1F430': ['rabbit_face'],
   // 🐻 bear
-  '1F43B': ['bear_face'],
+  '1F43B': ['bear_face', 'bear'],
   // 🐨 koala
-  '1F428': ['koala_face'],
+  '1F428': ['koala_face', 'koala'],
   // 🐼 panda
-  '1F43C': ['panda_face'],
+  '1F43C': ['panda_face', 'panda'],
   // 🐾 paw prints
-  '1F43E': ['feet'],
+  '1F43E': ['paw_prints'],
   // 🐔 chicken
   '1F414': ['chicken'],
   // 🐣 hatching chick
@@ -440,7 +443,7 @@ export default {
   // 🐧 penguin
   '1F427': ['penguin'],
   // 🐸 frog
-  '1F438': ['frog_face'],
+  '1F438': ['frog_face', 'frog'],
   // 🐢 turtle
   '1F422': ['turtle'],
   // 🐍 snake
@@ -470,7 +473,7 @@ export default {
   // 🐝 honeybee
   '1F41D': ['bee'],
   // 🐞 lady beetle
-  '1F41E': ['lady_bug'],
+  '1F41E': ['lady_beetle'],
   // 💐 bouquet
   '1F490': ['bouquet'],
   // 🌸 cherry blossom
@@ -512,7 +515,7 @@ export default {
   // 🍉 watermelon
   '1F349': ['watermelon'],
   // 🍊 tangerine
-  '1F34A': ['tangerine'],
+  '1F34A': ['tangerine', 'orange'],
   // 🍌 banana
   '1F34C': ['banana'],
   // 🍍 pineapple
@@ -620,13 +623,13 @@ export default {
   // 🍻 clinking beer mugs
   '1F37B': ['beers'],
   // 🍴 fork and knife
-  '1F374': ['utensils'],
+  '1F374': ['fork_and_knife'],
   // 🔪 kitchen knife
   '1F52A': ['knife'],
   // 🌏️ globe showing Asia-Australia
   '1F30F': ['earth_asia'],
   // 🗾 map of Japan
-  '1F5FE': ['japan'],
+  '1F5FE': ['japan_map'],
   // 🌋 volcano
   '1F30B': ['volcano'],
   // 🗻 mount fuji
@@ -634,11 +637,11 @@ export default {
   // 🏠️ house
   '1F3E0': ['house'],
   // 🏡 house with garden
-  '1F3E1': ['house_garden'],
+  '1F3E1': ['house_with_garden'],
   // 🏢 office building
   '1F3E2': ['office'],
   // 🏣 Japanese post office
-  '1F3E3': ['ja_post_office'],
+  '1F3E3': ['post_office'],
   // 🏥 hospital
   '1F3E5': ['hospital'],
   // 🏦 bank
@@ -674,15 +677,15 @@ export default {
   // 🌁 foggy
   '1F301': ['foggy'],
   // 🌃 night with stars
-  '1F303': ['night_stars'],
+  '1F303': ['night_with_stars'],
   // 🌄 sunrise over mountains
   '1F304': ['sunrise_over_mountains'],
   // 🌅 sunrise
   '1F305': ['sunrise'],
   // 🌆 cityscape at dusk
-  '1F306': ['dusk'],
+  '1F306': ['city_dusk'],
   // 🌇 sunset
-  '1F307': ['sunset'],
+  '1F307': ['city_sunset'],
   // 🌉 bridge at night
   '1F309': ['bridge_at_night'],
   // ♨︎ hot springs
@@ -702,7 +705,7 @@ export default {
   // 🚄 high-speed train
   '1F684': ['bullettrain_side'],
   // 🚅 bullet train
-  '1F685': ['bullettrain'],
+  '1F685': ['bullettrain_front'],
   // 🚇️ metro
   '1F687': ['metro'],
   // 🚉 station
@@ -726,11 +729,11 @@ export default {
   // 🚲️ bicycle
   '1F6B2': ['bike'],
   // 🚏 bus stop
-  '1F68F': ['bus_stop'],
+  '1F68F': ['bus_stop', 'busstop'],
   // ⛽️ fuel pump
-  '26FD': ['fuel_pump'],
+  '26FD': ['fuel_pump', 'fuelpump'],
   // 🚨 police car light
-  '1F6A8': ['rotating_light', 'police_light'],
+  '1F6A8': ['rotating_light'],
   // 🚥 horizontal traffic light
   '1F6A5': ['traffic_light'],
   // 🚧 construction
@@ -752,7 +755,7 @@ export default {
   // ⌛️ hourglass done
   '231B': ['hourglass'],
   // ⏳️ hourglass not done
-  '23F3': ['hourglass_flowing'],
+  '23F3': ['hourglass_flowing_sand'],
   // ⌚️ watch
   '231A': ['watch'],
   // ⏰ alarm clock
@@ -792,15 +795,15 @@ export default {
   // 🌙 crescent moon
   '1F319': ['crescent_moon'],
   // 🌛 first quarter moon face
-  '1F31B': ['first_quarter_moon_face'],
+  '1F31B': ['first_quarter_moon_with_face'],
   // ☀︎ sun
-  '2600': ['sun'],
+  '2600': ['sunny'],
   // ⭐️ star
   '2B50': ['star'],
   // 🌟 glowing star
   '1F31F': ['star2', 'glowing_star'],
   // 🌠 shooting star
-  '1F320': ['star3', 'shooting_star'],
+  '1F320': ['stars', 'shooting_star'],
   // 🌌 milky way
   '1F30C': ['milky_way'],
   // ☁︎ cloud
@@ -816,7 +819,7 @@ export default {
   // ☔️ umbrella with rain drops
   '2614': ['umbrella_rain'],
   // ⚡️ high voltage
-  '26A1': ['zap', 'high_voltage'],
+  '26A1': ['high_voltage', 'zap'],
   // ❄︎ snowflake
   '2744': ['snowflake'],
   // ⛄️ snowman without snow
@@ -830,7 +833,7 @@ export default {
   // 🎃 jack-o-lantern
   '1F383': ['jack_o_lantern'],
   // 🎄 Christmas tree
-  '1F384': ['christmas_tree', 'xmas_tree'],
+  '1F384': ['christmas_tree'],
   // 🎆 fireworks
   '1F386': ['fireworks'],
   // 🎇 sparkler
@@ -850,7 +853,7 @@ export default {
   // 🎎 Japanese dolls
   '1F38E': ['dolls'],
   // 🎏 carp streamer
-  '1F38F': ['carp_streamer'],
+  '1F38F': ['carp_streamer', 'flags'],
   // 🎐 wind chime
   '1F390': ['wind_chime'],
   // 🎑 moon viewing ceremony
@@ -878,9 +881,9 @@ export default {
   // ⛳️ flag in hole
   '26F3': ['golf'],
   // 🎣 fishing pole
-  '1F3A3': ['fishing_pole'],
+  '1F3A3': ['fishing_pole_and_fish'],
   // 🎽 running shirt
-  '1F3BD': ['running_shirt'],
+  '1F3BD': ['running_shirt_with_sash'],
   // 🎿 skis
   '1F3BF': ['ski'],
   // 🎯 direct hit
@@ -908,15 +911,15 @@ export default {
   // 🀄️ mahjong red dragon
   '1F004': ['mahjong'],
   // 🎴 flower playing cards
-  '1F3B4': ['flower_cards'],
+  '1F3B4': ['flower_playing_cards'],
   // 🎭️ performing arts
   '1F3AD': ['performing_arts'],
   // 🎨 artist palette
   '1F3A8': ['art', 'palette'],
   // 👓️ glasses
-  '1F453': ['glasses'],
+  '1F453': ['glasses', 'eyeglasses'],
   // 👔 necktie
-  '1F454': ['necktie', 'tie'],
+  '1F454': ['necktie'],
   // 👕 t-shirt
   '1F455': ['shirt'],
   // 👖 jeans
@@ -928,33 +931,33 @@ export default {
   // 👙 bikini
   '1F459': ['bikini'],
   // 👚 woman’s clothes
-  '1F45A': ['blouse', 'womans_clothes'],
+  '1F45A': ['womans_clothes'],
   // 👛 purse
   '1F45B': ['purse'],
   // 👜 handbag
   '1F45C': ['handbag'],
   // 👝 clutch bag
-  '1F45D': ['pouch', 'clutch_bag'],
+  '1F45D': ['clutch_bag', 'pouch'],
   // 🎒 backpack
-  '1F392': ['backpack'],
+  '1F392': ['backpack', 'school_satchel'],
   // 👞 man’s shoe
-  '1F45E': ['dress_shoe', 'mans_shoe'],
+  '1F45E': ['mans_shoe'],
   // 👟 running shoe
   '1F45F': ['sneaker', 'athletic_shoe'],
   // 👠 high-heeled shoe
   '1F460': ['high_heel'],
   // 👡 woman’s sandal
-  '1F461': ['womans_sandal'],
+  '1F461': ['sandal'],
   // 👢 woman’s boot
-  '1F462': ['womans_boot'],
+  '1F462': ['boot'],
   // 👑 crown
   '1F451': ['crown'],
   // 👒 woman’s hat
   '1F452': ['womans_hat'],
   // 🎩 top hat
-  '1F3A9': ['top_hat'],
+  '1F3A9': ['top_hat', 'tophat'],
   // 🎓️ graduation cap
-  '1F393': ['graduation_cap'],
+  '1F393': ['graduation_cap', 'mortar_board'],
   // 💄 lipstick
   '1F484': ['lipstick'],
   // 💍 ring
@@ -966,7 +969,7 @@ export default {
   // 📢 loudspeaker
   '1F4E2': ['loudspeaker'],
   // 📣 megaphone
-  '1F4E3': ['megaphone'],
+  '1F4E3': ['megaphone', 'mega'],
   // 🔔 bell
   '1F514': ['bell'],
   // 🎼 musical score
@@ -974,7 +977,7 @@ export default {
   // 🎵 musical note
   '1F3B5': ['musical_note'],
   // 🎶 musical notes
-  '1F3B6': ['musical_notes'],
+  '1F3B6': ['musical_notes', 'notes'],
   // 🎤 microphone
   '1F3A4': ['microphone'],
   // 🎧️ headphone
@@ -992,9 +995,9 @@ export default {
   // 🎻 violin
   '1F3BB': ['violin'],
   // 📱 mobile phone
-  '1F4F1': ['mobile', 'iphone', 'android'],
+  '1F4F1': ['mobile_phone', 'iphone', 'android'],
   // 📲 mobile phone with arrow
-  '1F4F2': ['mobile_calling'],
+  '1F4F2': ['calling'],
   // ☎︎ telephone
   '260E': ['telephone'],
   // 📞 telephone receiver
@@ -1014,7 +1017,7 @@ export default {
   // 💾 floppy disk
   '1F4BE': ['floppy_disk'],
   // 💿️ optical disk
-  '1F4BF': ['cd', 'disk'],
+  '1F4BF': ['cd'],
   // 📀 dvd
   '1F4C0': ['dvd'],
   // 🎥 movie camera
@@ -1038,13 +1041,13 @@ export default {
   // 🔦 flashlight
   '1F526': ['flashlight'],
   // 🏮 red paper lantern
-  '1F3EE': ['red_lantern'],
+  '1F3EE': ['izakaya_lantern'],
   // 📔 notebook with decorative cover
-  '1F4D4': ['decorative_notebook'],
+  '1F4D4': ['notebook_with_decorative_cover'],
   // 📕 closed book
   '1F4D5': ['closed_book'],
   // 📖 open book
-  '1F4D6': ['book'],
+  '1F4D6': ['open_book', 'book'],
   // 📗 green book
   '1F4D7': ['green_book'],
   // 📘 blue book
@@ -1058,7 +1061,7 @@ export default {
   // 📒 ledger
   '1F4D2': ['ledger'],
   // 📃 page with curl
-  '1F4C3': ['page_curl'],
+  '1F4C3': ['page_with_curl'],
   // 📜 scroll
   '1F4DC': ['scroll'],
   // 📄 page facing up
@@ -1076,19 +1079,19 @@ export default {
   // 💵 dollar banknote
   '1F4B5': ['dollar'],
   // 💸 money with wings
-  '1F4B8': ['money_wings'],
+  '1F4B8': ['money_with_wings'],
   // 💳️ credit card
   '1F4B3': ['credit_card'],
   // 💹 chart increasing with yen
-  '1F4B9': ['ja_chart'],
+  '1F4B9': ['chart'],
   // ✉︎ envelope
   '2709': ['envelope'],
   // 📧 e-mail
-  '1F4E7': ['email'],
+  '1F4E7': ['e-mail', 'email'],
   // 📨 incoming envelope
   '1F4E8': ['incoming_envelope'],
   // 📩 envelope with arrow
-  '1F4E9': ['envelope_arrow'],
+  '1F4E9': ['envelope_with_arrow'],
   // 📤️ outbox tray
   '1F4E4': ['outbox_tray'],
   // 📥️ inbox tray
@@ -1114,15 +1117,15 @@ export default {
   // 📂 open file folder
   '1F4C2': ['open_file_folder'],
   // 📅 calendar
-  '1F4C5': ['date', 'calendar'],
+  '1F4C5': ['date'],
   // 📆 tear-off calendar
-  '1F4C6': ['torn_calendar'],
+  '1F4C6': ['calendar'],
   // 📇 card index
   '1F4C7': ['card_index'],
   // 📈 chart increasing
-  '1F4C8': ['chart_up'],
+  '1F4C8': ['chart_with_upwards_trend'],
   // 📉 chart decreasing
-  '1F4C9': ['chart_down'],
+  '1F4C9': ['chart_with_downwards_trend'],
   // 📊 bar chart
   '1F4CA': ['bar_chart'],
   // 📋️ clipboard
@@ -1144,15 +1147,15 @@ export default {
   // 🔓️ unlocked
   '1F513': ['unlock'],
   // 🔏 locked with pen
-  '1F50F': ['locked_pen'],
+  '1F50F': ['locked_with_pen', 'lock_with_ink_pen'],
   // 🔐 locked with key
-  '1F510': ['locked_key'],
+  '1F510': ['locked_with_key', 'closed_lock_with_key'],
   // 🔑 key
   '1F511': ['key'],
   // 🔨 hammer
   '1F528': ['hammer'],
   // 🔫 pistol
-  '1F52B': ['gun', 'pistol'],
+  '1F52B': ['gun'],
   // 🔧 wrench
   '1F527': ['wrench'],
   // 🔩 nut and bolt
@@ -1172,11 +1175,11 @@ export default {
   // 🚬 cigarette
   '1F6AC': ['cigarette', 'smoking'],
   // 🗿 moai
-  '1F5FF': ['moai'],
+  '1F5FF': ['moai', 'moyai'],
   // 🏧 ATM sign
   '1F3E7': ['atm'],
   // ♿️ wheelchair symbol
-  '267F': ['handicapped'],
+  '267F': ['wheelchair', 'handicapped'],
   // 🚹️ men’s room
   '1F6B9': ['mens'],
   // 🚺️ women’s room
@@ -1226,7 +1229,7 @@ export default {
   // ⤵︎ right arrow curving down
   '2935': ['arrow_heading_down'],
   // 🔃 clockwise vertical arrows
-  '1F503': ['clockwise'],
+  '1F503': ['arrows_clockwise'],
   // 🔙 BACK arrow
   '1F519': ['back'],
   // 🔚 END arrow
@@ -1266,25 +1269,25 @@ export default {
   // ⛎ Ophiuchus
   '26CE': ['ophiuchus'],
   // ▶︎ play button
-  '25B6': ['play'],
+  '25B6': ['play_button', 'arrow_forward'],
   // ⏩️ fast-forward button
-  '23E9': ['fast_forward'],
+  '23E9': ['fast_forward_button'],
   // ◀︎ reverse button
-  '25C0': ['reverse'],
+  '25C0': ['reverse_button', 'arrow_backward'],
   // ⏪️ fast reverse button
-  '23EA': ['rewind'],
+  '23EA': ['rewind_button'],
   // 🔼 upwards button
-  '1F53C': ['up_button'],
+  '1F53C': ['up_button', 'arrow_up_small'],
   // ⏫ fast up button
-  '23EB': ['fast_up_button'],
+  '23EB': ['fast_up_button', 'arrow_double_up'],
   // 🔽 downwards button
-  '1F53D': ['down_button'],
+  '1F53D': ['down_button', 'arrow_down_small'],
   // ⏬ fast down button
-  '23EC': ['fast_down_button'],
+  '23EC': ['fast_down_button', 'arrow_double_down'],
   // 🎦 cinema
   '1F3A6': ['cinema'],
   // 📶 antenna bars
-  '1F4F6': ['signal_strength', 'antenna_bars'],
+  '1F4F6': ['antenna_bars', 'signal_strength'],
   // 📳 vibration mode
   '1F4F3': ['vibration_mode'],
   // 📴 mobile phone off
@@ -1314,7 +1317,7 @@ export default {
   // 💱 currency exchange
   '1F4B1': ['currency_exchange'],
   // 💲 heavy dollar sign
-  '1F4B2': ['dollar_sign'],
+  '1F4B2': ['heavy_dollar_sign'],
   // ♻︎ recycling symbol
   '267B': ['recycle'],
   // 🔱 trident emblem
@@ -1322,19 +1325,19 @@ export default {
   // 📛 name badge
   '1F4DB': ['name_badge'],
   // 🔰 Japanese symbol for beginner
-  '1F530': ['ja_beginner'],
+  '1F530': ['beginner'],
   // ⭕️ hollow red circle
   '2B55': ['o'],
   // ✅ check mark button
-  '2705': ['white_check_mark'],
+  '2705': ['check_mark_button', 'white_check_mark'],
   // ☑︎ check box with check
-  '2611': ['checked_ballot'],
+  '2611': ['ballot_box_with_check'],
   // ✔︎ check mark
-  '2714': ['check_mark'],
+  '2714': ['heavy_check_mark'],
   // ❌ cross mark
   '274C': ['x', 'cross_mark'],
   // ❎ cross mark button
-  '274E': ['cross_mark_button'],
+  '274E': ['cross_mark_button', 'negative_squared_cross_mark'],
   // ➰ curly loop
   '27B0': ['curly_loop'],
   // 〽︎ part alternation mark
@@ -1342,7 +1345,7 @@ export default {
   // ✳︎ eight-spoked asterisk
   '2733': ['eight_spoked_asterisk'],
   // ✴︎ eight-pointed star
-  '2734': ['eight_pointed_star'],
+  '2734': ['eight_pointed_black_star'],
   // ❇︎ sparkle
   '2747': ['sparkle'],
   // ©︎ copyright
@@ -1376,7 +1379,7 @@ export default {
   // 🔟 keycap: 10
   '1F51F': ['ten'],
   // 🔠 input latin uppercase
-  '1F520': ['upper_abcd'],
+  '1F520': ['capital_abcd'],
   // 🔡 input latin lowercase
   '1F521': ['abcd'],
   // 🔢 input numbers
@@ -1386,11 +1389,11 @@ export default {
   // 🔤 input latin letters
   '1F524': ['abc'],
   // 🅰︎ A button (blood type)
-  '1F170': ['a_blood'],
+  '1F170': ['a_blood', 'a'],
   // 🆎 AB button (blood type)
-  '1F18E': ['ab_blood'],
+  '1F18E': ['ab_blood', 'ab'],
   // 🅱︎ B button (blood type)
-  '1F171': ['b_blood'],
+  '1F171': ['b_blood', 'b'],
   // 🆑 CL button
   '1F191': ['cl'],
   // 🆒 COOL button
@@ -1398,7 +1401,7 @@ export default {
   // 🆓 FREE button
   '1F193': ['free'],
   // ℹ︎ information
-  '2139': ['info'],
+  '2139': ['info', 'information_source'],
   // 🆔 ID button
   '1F194': ['id'],
   // Ⓜ︎ circled M
@@ -1408,11 +1411,11 @@ export default {
   // 🆖 NG button
   '1F196': ['ng'],
   // 🅾︎ O button (blood type)
-  '1F17E': ['o_blood'],
+  '1F17E': ['o_blood', 'o2'],
   // 🆗 OK button
   '1F197': ['ok'],
   // 🅿︎ P button
-  '1F17F': ['p'],
+  '1F17F': ['parking'],
   // 🆘 SOS button
   '1F198': ['sos'],
   // 🆙 UP! button
@@ -1430,7 +1433,7 @@ export default {
   // 🈯️ Japanese “reserved” button
   '1F22F': ['ja_reserved'],
   // 🉐 Japanese “bargain” button
-  '1F250': ['ja_bargain'],
+  '1F250': ['ja_bargain', 'ideograph_advantage'],
   // 🈹 Japanese “discount” button
   '1F239': ['ja_discount'],
   // 🈚️ Japanese “free of charge” button
@@ -1438,7 +1441,7 @@ export default {
   // 🈲 Japanese “prohibited” button
   '1F232': ['ja_prohibited'],
   // 🉑 Japanese “acceptable” button
-  '1F251': ['ja_acceptable'],
+  '1F251': ['ja_acceptable', 'accept'],
   // 🈸 Japanese “application” button
   '1F238': ['ja_application'],
   // 🈴 Japanese “passing grade” button
@@ -1446,9 +1449,9 @@ export default {
   // 🈳 Japanese “vacancy” button
   '1F233': ['ja_vacancy'],
   // ㊗︎ Japanese “congratulations” button
-  '3297': ['ja_congratulations'],
+  '3297': ['ja_congratulations', 'congratulations'],
   // ㊙︎ Japanese “secret” button
-  '3299': ['ja_secret'],
+  '3299': ['ja_secret', 'secret'],
   // 🈺 Japanese “open for business” button
   '1F23A': ['ja_open_for_business'],
   // 🈵 Japanese “no vacancy” button
@@ -1462,21 +1465,21 @@ export default {
   // ⚪️ white circle
   '26AA': ['white_circle'],
   // ⬛️ black large square
-  '2B1B': ['large_black_square'],
+  '2B1B': ['black_large_square'],
   // ⬜️ white large square
-  '2B1C': ['large_white_square'],
+  '2B1C': ['black_large_square'],
   // ◼︎ black medium square
-  '25FC': ['medium_black_square'],
+  '25FC': ['black_medium_square'],
   // ◻︎ white medium square
-  '25FB': ['medium_white_square'],
+  '25FB': ['white_medium_square'],
   // ◾️ black medium-small square
-  '25FE': ['medium_small_black_square'],
+  '25FE': ['black_medium_small_square'],
   // ◽️ white medium-small square
-  '25FD': ['medium_small_white_square'],
+  '25FD': ['white_medium_small_square'],
   // ▪︎ black small square
-  '25AA': ['small_black_square'],
+  '25AA': ['black_small_square'],
   // ▫︎ white small square
-  '25AB': ['small_white_square'],
+  '25AB': ['white_small_square'],
   // 🔶 large orange diamond
   '1F536': ['large_orange_diamond'],
   // 🔷 large blue diamond
@@ -1486,11 +1489,11 @@ export default {
   // 🔹 small blue diamond
   '1F539': ['small_blue_diamond'],
   // 🔺 red triangle pointed up
-  '1F53A': ['up_red_triangle'],
+  '1F53A': ['small_red_triangle'],
   // 🔻 red triangle pointed down
-  '1F53B': ['down_red_triangle'],
+  '1F53B': ['small_red_triangle_down'],
   // 💠 diamond with a dot
-  '1F4A0': ['diamond_dot'],
+  '1F4A0': ['diamond_shape_with_a_dot_inside'],
   // 🔘 radio button
   '1F518': ['radio_button'],
   // 🔳 white square button
@@ -1500,41 +1503,41 @@ export default {
   // 🏁 chequered flag
   '1F3C1': ['checkered_flag'],
   // 🚩 triangular flag
-  '1F6A9': ['triangle_flag'],
+  '1F6A9': ['triangular_flag_on_post'],
   // 🎌 crossed flags
   '1F38C': ['crossed_flags'],
   // 🇨🇳 flag: China
-  '1F1E8-1F1F3': ['flag_cn'],
+  '1F1E8-1F1F3': ['flag_cn', 'china'],
   // 🇩🇪 flag: Germany
-  '1F1E9-1F1EA': ['flag_de'],
+  '1F1E9-1F1EA': ['flag_de', 'germany'],
   // 🇪🇸 flag: Spain
-  '1F1EA-1F1F8': ['flag_es'],
+  '1F1EA-1F1F8': ['flag_es', 'spain'],
   // 🇫🇷 flag: France
-  '1F1EB-1F1F7': ['flag_fr'],
+  '1F1EB-1F1F7': ['flag_fr', 'france'],
   // 🇬🇧 flag: United Kingdom
-  '1F1EC-1F1E7': ['flag_gb'],
+  '1F1EC-1F1E7': ['flag_gb', 'united_kingdom', 'uk'],
   // 🇮🇹 flag: Italy
-  '1F1EE-1F1F9': ['flag_it'],
+  '1F1EE-1F1F9': ['flag_it', 'italy'],
   // 🇯🇵 flag: Japan
-  '1F1EF-1F1F5': ['flag_jp'],
+  '1F1EF-1F1F5': ['flag_jp', 'japan'],
   // 🇰🇷 flag: South Korea
-  '1F1F0-1F1F7': ['flag_kr'],
+  '1F1F0-1F1F7': ['flag_kr', 'south_korea'],
   // 🇷🇺 flag: Russia
-  '1F1F7-1F1FA': ['flag_ru'],
+  '1F1F7-1F1FA': ['flag_ru', 'russia'],
   // 🇺🇸 flag: United States
-  '1F1FA-1F1F8': ['flag_us', 'usa'],
+  '1F1FA-1F1F8': ['flag_us', 'united_states', 'usa'],
 
   // VERSION 0.7
   // 😐️ neutral face
-  '1F610': ['indifferent', 'neutral'],
+  '1F610': ['neutral_face'],
   // ☹︎ frowning face
-  '2639': ['sad', 'frowning'],
+  '2639': ['white_frowning_face'],
   // 🕳︎ hole
   '1F573': ['hole'],
   // 🗯︎ right anger bubble
-  '1F5EF': ['right_anger_speech'],
+  '1F5EF': ['right_anger_bubble'],
   // 🖐︎ hand with fingers splayed
-  '1F590': ['splayed_hand'],
+  '1F590': ['raised_hand_with_fingers_splayed'],
   // ✍︎ writing hand
   '270D': ['writing_hand'],
   // 👁︎ eye
@@ -1542,15 +1545,15 @@ export default {
   // 🕵︎ detective
   '1F575': ['detective'],
   // 🕴︎ person in suit levitating
-  '1F574': ['levitate'],
+  '1F574': ['man_in_business_suit_levitating', 'levitate'],
   // ⛷︎ skier
   '26F7': ['skier'],
   // 🏌︎ person golfing
-  '1F3CC': ['person_golfing'],
+  '1F3CC': ['person_golfing', 'golfing'],
   // ⛹︎ person bouncing ball
   '26F9': ['person_bouncing_ball'],
   // 🏋︎ person lifting weights
-  '1F3CB': ['person_lifting_weights'],
+  '1F3CB': ['person_lifting_weights', 'weight_lifting', 'weight_lifter'],
   // 🗣︎ speaking head
   '1F5E3': ['speaking_head'],
   // 🐕️ dog
@@ -1576,27 +1579,27 @@ export default {
   // 🌎️ globe showing Americas
   '1F30E': ['earth_americas'],
   // 🗺︎ world map
-  '1F5FA': ['map'],
+  '1F5FA': ['world_map'],
   // 🏔︎ snow-capped mountain
-  '1F3D4': ['snowy_mountain'],
+  '1F3D4': ['mountain_snow'],
   // ⛰︎ mountain
   '26F0': ['mountain'],
   // 🏕︎ camping
   '1F3D5': ['camping'],
   // 🏖︎ beach with umbrella
-  '1F3D6': ['beach'],
+  '1F3D6': ['beach_with_umbrella', 'beach'],
   // 🏜︎ desert
   '1F3DC': ['desert'],
   // 🏝︎ desert island
-  '1F3DD': ['island'],
+  '1F3DD': ['desert_island', 'island'],
   // 🏞︎ national park
-  '1F3DE': ['park'],
+  '1F3DE': ['national_park'],
   // 🏟︎ stadium
   '1F3DF': ['stadium'],
   // 🏛︎ classical building
   '1F3DB': ['classical_building'],
   // 🏗︎ building construction
-  '1F3D7': ['construction_site'],
+  '1F3D7': ['building_construction', 'construction_site'],
   // 🏘︎ houses
   '1F3D8': ['homes'],
   // 🏚︎ derelict house
@@ -1612,7 +1615,7 @@ export default {
   // 🚘️ oncoming automobile
   '1F698': ['oncoming_automobile'],
   // 🏎︎ racing car
-  '1F3CE': ['race_car'],
+  '1F3CE': ['racing_car'],
   // 🏍︎ motorcycle
   '1F3CD': ['motorcycle'],
   // 🛣︎ motorway
@@ -1622,7 +1625,7 @@ export default {
   // 🛢︎ oil drum
   '1F6E2': ['oil_drum'],
   // 🛳︎ passenger ship
-  '1F6F3': ['cruise_ship'],
+  '1F6F3': ['passenger_ship', 'cruise_ship'],
   // ⛴︎ ferry
   '26F4': ['ferry'],
   // 🛥︎ motor boat
@@ -1630,7 +1633,7 @@ export default {
   // 🛩︎ small airplane
   '1F6E9': ['small_airplane'],
   // 🛰︎ satellite
-  '1F6F0': ['satellite'],
+  '1F6F0': ['satellite', 'satellite_orbital'],
   // 🛎︎ bellhop bell
   '1F6CE': ['bellhop'],
   // 🕰︎ mantelpiece clock
@@ -1660,39 +1663,39 @@ export default {
   // 🕦️ eleven-thirty
   '1F566': ['clock1130'],
   // 🌜️ last quarter moon face
-  '1F31C': ['last_quarter_moon_face'],
+  '1F31C': ['last_quarter_moon_with_face'],
   // 🌡︎ thermometer
   '1F321': ['thermometer'],
   // ⛈︎ cloud with lightning and rain
-  '26C8': ['storm'],
+  '26C8': ['thunder_cloud_and_rain', 'storm'],
   // 🌤︎ sun behind small cloud
-  '1F324': ['overcast'],
+  '1F324': ['sun_behind_small_cloud', 'overcast'],
   // 🌥︎ sun behind large cloud
-  '1F325': ['cloudy'],
+  '1F325': ['sun_behind_large_cloud', 'cloudy'],
   // 🌦︎ sun behind rain cloud
-  '1F326': ['sunshower'],
+  '1F326': ['sun_behind_rain_cloud', 'sun_and_ran'],
   // 🌧︎ cloud with rain
-  '1F327': ['rain'],
+  '1F327': ['cloud_with_rain', 'rain'],
   // 🌨︎ cloud with snow
-  '1F328': ['snow'],
+  '1F328': ['cloud_with_snow', 'snow'],
   // 🌩︎ cloud with lightning
-  '1F329': ['lightning'],
+  '1F329': ['cloud_with_lightning', 'lightning'],
   // 🌪︎ tornado
   '1F32A': ['tornado'],
   // 🌫︎ fog
   '1F32B': ['fog'],
   // 🌬︎ wind face
-  '1F32C': ['wind_face'],
+  '1F32C': ['wind_blowing_face'],
   // ☂︎ umbrella
   '2602': ['umbrella'],
   // ⛱︎ umbrella on ground
-  '26F1': ['beach_umbrella'],
+  '26F1': ['umbrella_on_ground', 'beach_umbrella'],
   // ☃︎ snowman
-  '2603': ['snowy_snowman'],
+  '2603': ['snowman2'],
   // 🎗︎ reminder ribbon
   '1F397': ['reminder_ribbon'],
   // 🎟︎ admission tickets
-  '1F39F': ['tickets', 'admission'],
+  '1F39F': ['admission_tickets', 'tickets'],
   // 🎖︎ military medal
   '1F396': ['military_medal'],
   // ⛸︎ ice skate
@@ -1700,15 +1703,15 @@ export default {
   // 🕹︎ joystick
   '1F579': ['joystick'],
   // 🖼︎ framed picture
-  '1F5BC': ['frame_photo'],
+  '1F5BC': ['frame_with_picture'],
   // 🕶︎ sunglasses
-  '1F576': ['sunglasses'],
+  '1F576': ['dark_sunglasses'],
   // 🛍︎ shopping bags
   '1F6CD': ['shopping_bags'],
   // ⛑︎ rescue worker’s helmet
-  '26D1': ['helmet_cross'],
+  '26D1': ['rescue_worker_helmet', 'helmet_with_cross'],
   // 🔈️ speaker low volume
-  '1F508': ['speaker', 'low_sound'],
+  '1F508': ['speaker'],
   // 🎙︎ studio microphone
   '1F399': ['studio_microphone'],
   // 🎚︎ level slider
@@ -1716,7 +1719,7 @@ export default {
   // 🎛︎ control knobs
   '1F39B': ['control_knobs'],
   // 🖥︎ desktop computer
-  '1F5A5': ['desktop', 'computer'],
+  '1F5A5': ['desktop_computer', 'computer'],
   // 🖨︎ printer
   '1F5A8': ['printer'],
   // 🖱︎ computer mouse
@@ -1726,17 +1729,17 @@ export default {
   // 🎞︎ film frames
   '1F39E': ['film_frames'],
   // 📽︎ film projector
-  '1F4FD': ['projector'],
+  '1F4FD': ['film_projector'],
   // 🕯︎ candle
   '1F56F': ['candle'],
   // 🗞︎ rolled-up newspaper
-  '1F5DE': ['rolled_newspaper'],
+  '1F5DE': ['rolled_up_newspaper'],
   // 🏷︎ label
   '1F3F7': ['label'],
   // 📬️ open mailbox with raised flag
-  '1F4EC': ['mailbox_mail'],
+  '1F4EC': ['mailbox_with_mail'],
   // 📭️ open mailbox with lowered flag
-  '1F4ED': ['mailbox_no_mail'],
+  '1F4ED': ['mailbox_with_no_mail'],
   // 🗳︎ ballot box with ballot
   '1F5F3': ['ballot_box'],
   // 🖋︎ fountain pen
@@ -1748,7 +1751,7 @@ export default {
   // 🖍︎ crayon
   '1F58D': ['crayon'],
   // 🗂︎ card index dividers
-  '1F5C2': ['dividers'],
+  '1F5C2': ['card_index_dividers'],
   // 🗒︎ spiral notepad
   '1F5D2': ['notepad_spiral'],
   // 🗓︎ spiral calendar
@@ -1756,7 +1759,7 @@ export default {
   // 🖇︎ linked paperclips
   '1F587': ['paperclips'],
   // 🗃︎ card file box
-  '1F5C3': ['card_box'],
+  '1F5C3': ['card_file_box'],
   // 🗄︎ file cabinet
   '1F5C4': ['file_cabinet'],
   // 🗑︎ wastebasket
@@ -1766,7 +1769,7 @@ export default {
   // ⛏︎ pick
   '26CF': ['pick'],
   // 🛠︎ hammer and wrench
-  '1F6E0': ['tools', 'hammer_wrench'],
+  '1F6E0': ['tools', 'hammer_and_wrench'],
   // 🗡︎ dagger
   '1F5E1': ['dagger'],
   // 🛡︎ shield
@@ -1778,7 +1781,7 @@ export default {
   // 🛏︎ bed
   '1F6CF': ['bed'],
   // 🛋︎ couch and lamp
-  '1F6CB': ['couch'],
+  '1F6CB': ['couch_and_lamp'],
   // 🕉︎ om
   '1F549': ['om_symbol'],
   // ✡︎ star of David
@@ -1788,29 +1791,29 @@ export default {
   // ☯︎ yin yang
   '262F': ['yin_yang'],
   // ✝︎ latin cross
-  '271D': ['cross'],
+  '271D': ['latin_cross'],
   // ☪︎ star and crescent
   '262A': ['star_and_crescent'],
   // ⏭︎ next track button
-  '23ED': ['next_track'],
+  '23ED': ['next_track_button'],
   // ⏮︎ last track button
-  '23EE': ['previous_track'],
+  '23EE': ['previous_track_button'],
   // ⏸︎ pause button
-  '23F8': ['pause'],
+  '23F8': ['pause_button'],
   // ⏹︎ stop button
-  '23F9': ['stop'],
+  '23F9': ['stop_button'],
   // ⏺︎ record button
-  '23FA': ['record'],
+  '23FA': ['record_button'],
   // 🏳︎ white flag
-  '1F3F3': ['white_flag'],
+  '1F3F3': ['white_flag', 'flag_white'],
 
   // VERSION 1
   // 😀 grinning face
-  '1F600': ['gleeful'],
+  '1F600': ['grinning'],
   // 🙂 slightly smiling face
-  '1F642': ['pleased', 'slight_smile'],
+  '1F642': ['slightly_smiling_face'],
   // 🙃 upside-down face
-  '1F643': ['ecstatic', 'upside_down'],
+  '1F643': ['upside_down_face'],
   // 😇 smiling face with halo
   '1F607': ['innocent', 'halo'],
   // 😗 kissing face
@@ -1818,79 +1821,79 @@ export default {
   // 😙 kissing face with smiling eyes
   '1F619': ['happy_kiss'],
   // 😛 face with tongue
-  '1F61B': ['playful', 'tongue_out'],
+  '1F61B': ['stuck_out_tongue'],
   // 🤑 money-mouth face
-  '1F911': ['pretentious', 'money_mouth'],
+  '1F911': ['money_mouth_face'],
   // 🤗 hugging face
-  '1F917': ['hugging'],
+  '1F917': ['hugging_face'],
   // 🤔 thinking face
-  '1F914': ['curious', 'thinking'],
+  '1F914': ['thinking_face'],
   // 🤐 zipper-mouth face
-  '1F910': ['silenced', 'zipper_mouth'],
+  '1F910': ['zipper_mouth_face'],
   // 😑 expressionless face
-  '1F611': ['apathetic', 'expressionless'],
+  '1F611': ['expressionless'],
   // 😶 face without mouth
-  '1F636': ['vacant', 'no_mouth'],
+  '1F636': ['no_mouth'],
   // 🙄 face with rolling eyes
-  '1F644': ['disbelief'],
+  '1F644': ['face_with_rolling_eyes'],
   // 😬 grimacing face
-  '1F62C': ['grimaced'],
+  '1F62C': ['grimacing'],
   // 😴 sleeping face
-  '1F634': ['exhausted', 'sleeping'],
+  '1F634': ['sleeping'],
   // 🤒 face with thermometer
-  '1F912': ['sick'],
+  '1F912': ['face_with_thermometer'],
   // 🤕 face with head-bandage
-  '1F915': ['injured'],
+  '1F915': ['face_with_head_bandage'],
   // 😎 smiling face with sunglasses
-  '1F60E': ['confident'],
+  '1F60E': ['sunglasses'],
   // 🤓 nerd face
-  '1F913': ['nerd'],
+  '1F913': ['nerd_face'],
   // 😕 confused face
   '1F615': ['confused'],
   // 😟 worried face
   '1F61F': ['worried'],
   // 🙁 slightly frowning face
-  '1F641': ['cheerless', 'slight_frown'],
+  '1F641': ['slightly_frowning_face'],
   // 😮 face with open mouth
-  '1F62E': ['surprised'],
+  '1F62E': ['open_mouth'],
   // 😯 hushed face
   '1F62F': ['hushed'],
   // 😦 frowning face with open mouth
   '1F626': ['bored'],
   // 😧 anguished face
-  '1F627': ['anguished', 'wtf'],
+  '1F627': ['anguished'],
   // 😈 smiling face with horns
-  '1F608': ['imp'],
+  '1F608': ['smiling_imp'],
   // ☠︎ skull and crossbones
-  '2620': ['crossbones'],
+  '2620': ['skull_and_crossbones'],
   // 🤖 robot
-  '1F916': ['robot'],
+  '1F916': ['robot', 'robot_face'],
   // ❣︎ heart exclamation
   '2763': ['heart_exclamation'],
   // 💭 thought balloon
-  '1F4AD': ['thought'],
+  '1F4AD': ['thought_balloon'],
   // 🖖 vulcan salute
   '1F596': ['vulcan'],
   // 🤘 sign of the horns
-  '1F918': ['metal'],
+  '1F918': ['sign_of_the_horns', 'metal'],
   // 🖕 middle finger
   '1F595': ['middle_finger'],
   // 🏇 horse racing
   '1F3C7': ['horse_racing'],
   // 🚣 person rowing boat
-  '1F6A3': ['person_rowing_boat'],
+  '1F6A3': ['person_rowing_boat', 'rowboat'],
   // 🚴 person biking
-  '1F6B4': ['person_biking'],
+  '1F6B4': ['person_biking', 'bicyclist'],
   // 🚵 person mountain biking
-  '1F6B5': ['person_mountain_biking'],
+  '1F6B5': ['person_mountain_biking', 'mountain_bicyclist'],
   // 🛌 person in bed
-  '1F6CC': ['in_bed'],
+  '1F6CC': ['sleeping_accommodation'],
   // 👭 women holding hands
-  '1F46D': ['holding_hands_ww'],
+  '1F46D': ['two_women_holding_hands'],
   // 👬 men holding hands
-  '1F46C': ['holding_hands_mm'],
+  '1F46C': ['two_men_holding_hands'],
   // 👥 busts in silhouette
-  '1F465': ['busts_silhouette'],
+  '1F465': ['busts_in_silhouette'],
   // 🏻 light skin tone
   '1F3FB': ['tone_light', 'tone1'],
   // 🏼 medium-light skin tone
@@ -1902,13 +1905,13 @@ export default {
   // 🏿 dark skin tone
   '1F3FF': ['tone_dark', 'tone5'],
   // 🦁 lion
-  '1F981': ['lion_face'],
+  '1F981': ['lion_face', 'lion'],
   // 🐅 tiger
   '1F405': ['tiger'],
   // 🐆 leopard
   '1F406': ['leopard'],
   // 🦄 unicorn
-  '1F984': ['unicorn_face'],
+  '1F984': ['unicorn_face', 'unicorn'],
   // 🐂 ox
   '1F402': ['ox'],
   // 🐃 water buffalo
@@ -1922,7 +1925,7 @@ export default {
   // 🐐 goat
   '1F410': ['goat'],
   // 🐪 camel
-  '1F42A': ['camel'],
+  '1F42A': ['dromedary_camel'],
   // 🐁 mouse
   '1F401': ['mouse'],
   // 🐀 rat
@@ -1970,9 +1973,9 @@ export default {
   // 🏺 amphora
   '1F3FA': ['amphora'],
   // 🌐 globe with meridians
-  '1F310': ['globe'],
+  '1F310': ['globe_with_meridians'],
   // 🏤 post office
-  '1F3E4': ['post_office'],
+  '1F3E4': ['european_post_office'],
   // 🕌 mosque
   '1F54C': ['mosque'],
   // 🕍 synagogue
@@ -2000,7 +2003,7 @@ export default {
   // 🚖 oncoming taxi
   '1F696': ['oncoming_taxi'],
   // 🚛 articulated lorry
-  '1F69B': ['lorry'],
+  '1F69B': ['articulated_lorry'],
   // 🚜 tractor
   '1F69C': ['tractor'],
   // 🚦 vertical traffic light
@@ -2020,7 +2023,7 @@ export default {
   // ⏱︎ stopwatch
   '23F1': ['stopwatch'],
   // ⏲︎ timer clock
-  '23F2': ['timer'],
+  '23F2': ['timer_clock'],
   // 🌒 waxing crescent moon
   '1F312': ['waxing_crescent_moon'],
   // 🌖 waning gibbous moon
@@ -2030,19 +2033,19 @@ export default {
   // 🌘 waning crescent moon
   '1F318': ['waning_crescent_moon'],
   // 🌚 new moon face
-  '1F31A': ['new_moon_face'],
+  '1F31A': ['new_moon_with_face'],
   // 🌝 full moon face
-  '1F31D': ['full_moon_face'],
+  '1F31D': ['full_moon_with_face'],
   // 🌞 sun with face
-  '1F31E': ['sun_face'],
+  '1F31E': ['sun_with_face'],
   // ☄︎ comet
   '2604': ['comet'],
   // 🏅 sports medal
-  '1F3C5': ['medal'],
+  '1F3C5': ['sports_medal'],
   // 🏐 volleyball
   '1F3D0': ['volleyball'],
   // 🏉 rugby football
-  '1F3C9': ['rugby'],
+  '1F3C9': ['rugby_football'],
   // 🏏 cricket game
   '1F3CF': ['cricket_game'],
   // 🏑 field hockey
@@ -2056,7 +2059,7 @@ export default {
   // 📿 prayer beads
   '1F4FF': ['prayer_beads'],
   // 🔇 muted speaker
-  '1F507': ['mute', 'no_sound'],
+  '1F507': ['mute'],
   // 🔉 speaker medium volume
   '1F509': ['sound'],
   // 📯 postal horn
@@ -2066,17 +2069,17 @@ export default {
   // ⌨︎ keyboard
   '2328': ['keyboard'],
   // 📸 camera with flash
-  '1F4F8': ['camera_flash'],
+  '1F4F8': ['camera_with_flash'],
   // 💶 euro banknote
   '1F4B6': ['euro'],
   // 💷 pound banknote
   '1F4B7': ['pound'],
   // ⚒︎ hammer and pick
-  '2692': ['hammer_pick'],
+  '2692': ['hammer_and_pick'],
   // ⚔︎ crossed swords
   '2694': ['crossed_swords'],
   // 🏹 bow and arrow
-  '1F3F9': ['bow'],
+  '1F3F9': ['bow_and_arrow'],
   // ⚙︎ gear
   '2699': ['gear'],
   // ⚖︎ balance scale
@@ -2094,9 +2097,9 @@ export default {
   // ⚰︎ coffin
   '26B0': ['coffin'],
   // ⚱︎ funeral urn
-  '26B1': ['urn'],
+  '26B1': ['funeral_urn'],
   // 🚮 litter in bin sign
-  '1F6AE': ['litter_bin'],
+  '1F6AE': ['litter_bin', 'put_litter_in_its_place'],
   // 🚰 potable water
   '1F6B0': ['potable_water'],
   // 🛂 passport control
@@ -2124,43 +2127,43 @@ export default {
   // ☣︎ biohazard
   '2623': ['biohazard'],
   // 🔄 counterclockwise arrows button
-  '1F504': ['counter_clockwise'],
+  '1F504': ['arrows_counterclockwise'],
   // 🛐 place of worship
   '1F6D0': ['place_of_worship'],
   // ⚛︎ atom symbol
-  '269B': ['atom'],
+  '269B': ['atom_symbol'],
   // ☦︎ orthodox cross
   '2626': ['orthodox_cross'],
   // ☮︎ peace symbol
-  '262E': ['peace'],
+  '262E': ['peace_symbol'],
   // 🕎 menorah
   '1F54E': ['menorah'],
   // 🔀 shuffle tracks button
-  '1F500': ['shuffle'],
+  '1F500': ['shuffle', 'twisted_rightwards_arrows'],
   // 🔁 repeat button
   '1F501': ['repeat'],
   // 🔂 repeat single button
-  '1F502': ['repeat_single'],
+  '1F502': ['repeat_one'],
   // ⏯︎ play or pause button
   '23EF': ['play_pause'],
   // ⏏︎ eject button
   '23CF': ['eject'],
   // 🔅 dim button
-  '1F505': ['dim', 'low_brightness'],
+  '1F505': ['dim_button', 'low_brightness'],
   // 🔆 bright button
-  '1F506': ['bright', 'high_brightness'],
+  '1F506': ['bright_button', 'high_brightness'],
   // ⚜︎ fleur-de-lis
   '269C': ['fleur-de-lis'],
   // ➿ double curly loop
-  '27BF': ['double_curly_loop'],
+  '27BF': ['double_curly_loop', 'loop'],
   // 🏴 black flag
-  '1F3F4': ['black_flag'],
+  '1F3F4': ['black_flag', 'flag_black'],
 
   // VERSION 2
   // 👁️‍🗨️ eye in speech bubble
-  '1F441-FE0F-200D-1F5E8-FE0F': ['eye_bubble'],
+  '1F441-FE0F-200D-1F5E8-FE0F': ['eye_in_speech_bubble'],
   // 🗨︎ left speech bubble
-  '1F5E8': ['left_speech'],
+  '1F5E8': ['left_speech_bubble'],
   // 👩‍❤️‍💋‍👨 kiss: woman, man
   '1F469-200D-2764-FE0F-200D-1F48B-200D-1F468': ['kiss_mw', 'kiss_wm'],
   // 👨‍❤️‍💋‍👨 kiss: man, man
@@ -2168,11 +2171,11 @@ export default {
   // 👩‍❤️‍💋‍👩 kiss: woman, woman
   '1F469-200D-2764-FE0F-200D-1F48B-200D-1F469': ['kiss_ww'],
   // 👩‍❤️‍👨 couple with heart: woman, man
-  '1F469-200D-2764-FE0F-200D-1F468': ['couple_mw', 'couple_wm'],
+  '1F469-200D-2764-FE0F-200D-1F468': ['couple_with_heart_mw', 'couple_with_heart_wm'],
   // 👨‍❤️‍👨 couple with heart: man, man
-  '1F468-200D-2764-FE0F-200D-1F468': ['couple_mm'],
+  '1F468-200D-2764-FE0F-200D-1F468': ['couple_with_heart_mm'],
   // 👩‍❤️‍👩 couple with heart: woman, woman
-  '1F469-200D-2764-FE0F-200D-1F469': ['couple_ww'],
+  '1F469-200D-2764-FE0F-200D-1F469': ['couple_with_heart_ww'],
   // 👨‍👩‍👦 family: man, woman, boy
   '1F468-200D-1F469-200D-1F466': ['family_mwb'],
   // 👨‍👩‍👧 family: man, woman, girl
@@ -2206,523 +2209,523 @@ export default {
   // *️⃣ keycap: *
   '002A-FE0F-20E3': ['asterisk'],
   // 🇦🇨 flag: Ascension Island
-  '1F1E6-1F1E8': ['flag_ac'],
+  '1F1E6-1F1E8': ['flag_ac', 'ascension_island'],
   // 🇦🇩 flag: Andorra
-  '1F1E6-1F1E9': ['flag_ad'],
+  '1F1E6-1F1E9': ['flag_ad', 'andorra'],
   // 🇦🇪 flag: United Arab Emirates
-  '1F1E6-1F1EA': ['flag_ae'],
+  '1F1E6-1F1EA': ['flag_ae', 'united_arab_emirates'],
   // 🇦🇫 flag: Afghanistan
-  '1F1E6-1F1EB': ['flag_af'],
+  '1F1E6-1F1EB': ['flag_af', 'afghanistan'],
   // 🇦🇬 flag: Antigua & Barbuda
-  '1F1E6-1F1EC': ['flag_ag'],
+  '1F1E6-1F1EC': ['flag_ag', 'antigua_barbuda'],
   // 🇦🇮 flag: Anguilla
-  '1F1E6-1F1EE': ['flag_ai'],
+  '1F1E6-1F1EE': ['flag_ai', 'anguilla'],
   // 🇦🇱 flag: Albania
-  '1F1E6-1F1F1': ['flag_al'],
+  '1F1E6-1F1F1': ['flag_al', 'albania'],
   // 🇦🇲 flag: Armenia
-  '1F1E6-1F1F2': ['flag_am'],
+  '1F1E6-1F1F2': ['flag_am', 'armenia'],
   // 🇦🇴 flag: Angola
-  '1F1E6-1F1F4': ['flag_ao'],
+  '1F1E6-1F1F4': ['flag_ao', 'angola'],
   // 🇦🇶 flag: Antarctica
-  '1F1E6-1F1F6': ['flag_aq'],
+  '1F1E6-1F1F6': ['flag_aq', 'antarctica'],
   // 🇦🇷 flag: Argentina
-  '1F1E6-1F1F7': ['flag_ar'],
+  '1F1E6-1F1F7': ['flag_ar', 'argentina'],
   // 🇦🇸 flag: American Samoa
-  '1F1E6-1F1F8': ['flag_as'],
+  '1F1E6-1F1F8': ['flag_as', 'american_samoa'],
   // 🇦🇹 flag: Austria
-  '1F1E6-1F1F9': ['flag_at'],
+  '1F1E6-1F1F9': ['flag_at', 'austria'],
   // 🇦🇺 flag: Australia
-  '1F1E6-1F1FA': ['flag_au'],
+  '1F1E6-1F1FA': ['flag_au', 'australia'],
   // 🇦🇼 flag: Aruba
-  '1F1E6-1F1FC': ['flag_aw'],
+  '1F1E6-1F1FC': ['flag_aw', 'aruba'],
   // 🇦🇽 flag: Åland Islands
-  '1F1E6-1F1FD': ['flag_ax'],
+  '1F1E6-1F1FD': ['flag_ax', 'aland_islands'],
   // 🇦🇿 flag: Azerbaijan
-  '1F1E6-1F1FF': ['flag_az'],
+  '1F1E6-1F1FF': ['flag_az', 'azerbaijan'],
   // 🇧🇦 flag: Bosnia & Herzegovina
-  '1F1E7-1F1E6': ['flag_ba'],
+  '1F1E7-1F1E6': ['flag_ba', 'bosnia_herzegovina'],
   // 🇧🇧 flag: Barbados
-  '1F1E7-1F1E7': ['flag_bb'],
+  '1F1E7-1F1E7': ['flag_bb', 'barbados'],
   // 🇧🇩 flag: Bangladesh
-  '1F1E7-1F1E9': ['flag_bd'],
+  '1F1E7-1F1E9': ['flag_bd', 'bangladesh'],
   // 🇧🇪 flag: Belgium
-  '1F1E7-1F1EA': ['flag_be'],
+  '1F1E7-1F1EA': ['flag_be', 'belgium'],
   // 🇧🇫 flag: Burkina Faso
-  '1F1E7-1F1EB': ['flag_bf'],
+  '1F1E7-1F1EB': ['flag_bf', 'burkina_faso'],
   // 🇧🇬 flag: Bulgaria
-  '1F1E7-1F1EC': ['flag_bg'],
+  '1F1E7-1F1EC': ['flag_bg', 'bulgaria'],
   // 🇧🇭 flag: Bahrain
-  '1F1E7-1F1ED': ['flag_bh'],
+  '1F1E7-1F1ED': ['flag_bh', 'bahrain'],
   // 🇧🇮 flag: Burundi
-  '1F1E7-1F1EE': ['flag_bi'],
+  '1F1E7-1F1EE': ['flag_bi', 'burundi'],
   // 🇧🇯 flag: Benin
-  '1F1E7-1F1EF': ['flag_bj'],
+  '1F1E7-1F1EF': ['flag_bj', 'benin'],
   // 🇧🇱 flag: St. Barthélemy
-  '1F1E7-1F1F1': ['flag_bl'],
+  '1F1E7-1F1F1': ['flag_bl', 'st_barthelemy'],
   // 🇧🇲 flag: Bermuda
-  '1F1E7-1F1F2': ['flag_bm'],
+  '1F1E7-1F1F2': ['flag_bm', 'bermuda'],
   // 🇧🇳 flag: Brunei
-  '1F1E7-1F1F3': ['flag_bn'],
+  '1F1E7-1F1F3': ['flag_bn', 'brunei'],
   // 🇧🇴 flag: Bolivia
-  '1F1E7-1F1F4': ['flag_bo'],
+  '1F1E7-1F1F4': ['flag_bo', 'bolivia'],
   // 🇧🇶 flag: Caribbean Netherlands
-  '1F1E7-1F1F6': ['flag_bq'],
+  '1F1E7-1F1F6': ['flag_bq', 'caribbean_netherlands'],
   // 🇧🇷 flag: Brazil
-  '1F1E7-1F1F7': ['flag_br'],
+  '1F1E7-1F1F7': ['flag_br', 'brazil'],
   // 🇧🇸 flag: Bahamas
-  '1F1E7-1F1F8': ['flag_bs'],
+  '1F1E7-1F1F8': ['flag_bs', 'bahamas'],
   // 🇧🇹 flag: Bhutan
-  '1F1E7-1F1F9': ['flag_bt'],
+  '1F1E7-1F1F9': ['flag_bt', 'bhutan'],
   // 🇧🇻 flag: Bouvet Island
-  '1F1E7-1F1FB': ['flag_bv'],
+  '1F1E7-1F1FB': ['flag_bv', 'bouvet_island'],
   // 🇧🇼 flag: Botswana
-  '1F1E7-1F1FC': ['flag_bw'],
+  '1F1E7-1F1FC': ['flag_bw', 'botswana'],
   // 🇧🇾 flag: Belarus
-  '1F1E7-1F1FE': ['flag_by'],
+  '1F1E7-1F1FE': ['flag_by', 'belarus'],
   // 🇧🇿 flag: Belize
-  '1F1E7-1F1FF': ['flag_bz'],
+  '1F1E7-1F1FF': ['flag_bz', 'belize'],
   // 🇨🇦 flag: Canada
-  '1F1E8-1F1E6': ['flag_ca'],
+  '1F1E8-1F1E6': ['flag_ca', 'canada'],
   // 🇨🇨 flag: Cocos (Keeling) Islands
-  '1F1E8-1F1E8': ['flag_cc'],
+  '1F1E8-1F1E8': ['flag_cc', 'cocos_islands'],
   // 🇨🇩 flag: Congo - Kinshasa
-  '1F1E8-1F1E9': ['flag_cd'],
+  '1F1E8-1F1E9': ['flag_cd', 'congo_kinshasa'],
   // 🇨🇫 flag: Central African Republic
-  '1F1E8-1F1EB': ['flag_cf'],
+  '1F1E8-1F1EB': ['flag_cf', 'central_african_republic'],
   // 🇨🇬 flag: Congo - Brazzaville
-  '1F1E8-1F1EC': ['flag_cg'],
+  '1F1E8-1F1EC': ['flag_cg', 'congo_brazzaville'],
   // 🇨🇭 flag: Switzerland
-  '1F1E8-1F1ED': ['flag_ch'],
+  '1F1E8-1F1ED': ['flag_ch', 'switzerland'],
   // 🇨🇮 flag: Côte d’Ivoire
-  '1F1E8-1F1EE': ['flag_ci'],
+  '1F1E8-1F1EE': ['flag_ci', 'cote_divoire'],
   // 🇨🇰 flag: Cook Islands
-  '1F1E8-1F1F0': ['flag_ck'],
+  '1F1E8-1F1F0': ['flag_ck', 'cook_islands'],
   // 🇨🇱 flag: Chile
-  '1F1E8-1F1F1': ['flag_cl'],
+  '1F1E8-1F1F1': ['flag_cl', 'chile'],
   // 🇨🇲 flag: Cameroon
-  '1F1E8-1F1F2': ['flag_cm'],
+  '1F1E8-1F1F2': ['flag_cm', 'cameroon'],
   // 🇨🇴 flag: Colombia
-  '1F1E8-1F1F4': ['flag_co'],
+  '1F1E8-1F1F4': ['flag_co', 'colombia'],
   // 🇨🇵 flag: Clipperton Island
-  '1F1E8-1F1F5': ['flag_cp'],
+  '1F1E8-1F1F5': ['flag_cp', 'clipperton_island'],
   // 🇨🇷 flag: Costa Rica
-  '1F1E8-1F1F7': ['flag_cr'],
+  '1F1E8-1F1F7': ['flag_cr', 'costa_rica'],
   // 🇨🇺 flag: Cuba
-  '1F1E8-1F1FA': ['flag_cu'],
+  '1F1E8-1F1FA': ['flag_cu', 'cuba'],
   // 🇨🇻 flag: Cape Verde
-  '1F1E8-1F1FB': ['flag_cv'],
+  '1F1E8-1F1FB': ['flag_cv', 'cape_verde'],
   // 🇨🇼 flag: Curaçao
-  '1F1E8-1F1FC': ['flag_cw'],
+  '1F1E8-1F1FC': ['flag_cw', 'curacao'],
   // 🇨🇽 flag: Christmas Island
-  '1F1E8-1F1FD': ['flag_cx'],
+  '1F1E8-1F1FD': ['flag_cx', 'christmas_island'],
   // 🇨🇾 flag: Cyprus
-  '1F1E8-1F1FE': ['flag_cy'],
+  '1F1E8-1F1FE': ['flag_cy', 'cyprus'],
   // 🇨🇿 flag: Czechia
-  '1F1E8-1F1FF': ['flag_cz'],
+  '1F1E8-1F1FF': ['flag_cz', 'czechia', 'czech_republic'],
   // 🇩🇬 flag: Diego Garcia
-  '1F1E9-1F1EC': ['flag_dg'],
+  '1F1E9-1F1EC': ['flag_dg', 'diego_garcia'],
   // 🇩🇯 flag: Djibouti
-  '1F1E9-1F1EF': ['flag_dj'],
+  '1F1E9-1F1EF': ['flag_dj', 'djibouti'],
   // 🇩🇰 flag: Denmark
-  '1F1E9-1F1F0': ['flag_dk'],
+  '1F1E9-1F1F0': ['flag_dk', 'denmark'],
   // 🇩🇲 flag: Dominica
-  '1F1E9-1F1F2': ['flag_dm'],
+  '1F1E9-1F1F2': ['flag_dm', 'dominica'],
   // 🇩🇴 flag: Dominican Republic
-  '1F1E9-1F1F4': ['flag_do'],
+  '1F1E9-1F1F4': ['flag_do', 'dominican_republic'],
   // 🇩🇿 flag: Algeria
-  '1F1E9-1F1FF': ['flag_dz'],
+  '1F1E9-1F1FF': ['flag_dz', 'algeria'],
   // 🇪🇦 flag: Ceuta & Melilla
-  '1F1EA-1F1E6': ['flag_ea'],
+  '1F1EA-1F1E6': ['flag_ea', 'ceuta_melilla'],
   // 🇪🇨 flag: Ecuador
-  '1F1EA-1F1E8': ['flag_ec'],
+  '1F1EA-1F1E8': ['flag_ec', 'ecuador'],
   // 🇪🇪 flag: Estonia
-  '1F1EA-1F1EA': ['flag_ee'],
+  '1F1EA-1F1EA': ['flag_ee', 'estonia'],
   // 🇪🇬 flag: Egypt
-  '1F1EA-1F1EC': ['flag_eg'],
+  '1F1EA-1F1EC': ['flag_eg', 'egypt'],
   // 🇪🇭 flag: Western Sahara
-  '1F1EA-1F1ED': ['flag_eh'],
+  '1F1EA-1F1ED': ['flag_eh', 'western_sahara'],
   // 🇪🇷 flag: Eritrea
-  '1F1EA-1F1F7': ['flag_er'],
+  '1F1EA-1F1F7': ['flag_er', 'eritrea'],
   // 🇪🇹 flag: Ethiopia
-  '1F1EA-1F1F9': ['flag_et'],
+  '1F1EA-1F1F9': ['flag_et', 'ethiopia'],
   // 🇪🇺 flag: European Union
-  '1F1EA-1F1FA': ['flag_eu'],
+  '1F1EA-1F1FA': ['flag_eu', 'european_union'],
   // 🇫🇮 flag: Finland
-  '1F1EB-1F1EE': ['flag_fi'],
+  '1F1EB-1F1EE': ['flag_fi', 'finland'],
   // 🇫🇯 flag: Fiji
-  '1F1EB-1F1EF': ['flag_fj'],
+  '1F1EB-1F1EF': ['flag_fj', 'fiji'],
   // 🇫🇰 flag: Falkland Islands
-  '1F1EB-1F1F0': ['flag_fk'],
+  '1F1EB-1F1F0': ['flag_fk', 'falkland_islands'],
   // 🇫🇲 flag: Micronesia
-  '1F1EB-1F1F2': ['flag_fm'],
+  '1F1EB-1F1F2': ['flag_fm', 'micronesia'],
   // 🇫🇴 flag: Faroe Islands
-  '1F1EB-1F1F4': ['flag_fo'],
+  '1F1EB-1F1F4': ['flag_fo', 'faroe_islands'],
   // 🇬🇦 flag: Gabon
-  '1F1EC-1F1E6': ['flag_ga'],
+  '1F1EC-1F1E6': ['flag_ga', 'gabon'],
   // 🇬🇩 flag: Grenada
-  '1F1EC-1F1E9': ['flag_gd'],
+  '1F1EC-1F1E9': ['flag_gd', 'grenada'],
   // 🇬🇪 flag: Georgia
-  '1F1EC-1F1EA': ['flag_ge'],
+  '1F1EC-1F1EA': ['flag_ge', 'georgia'],
   // 🇬🇫 flag: French Guiana
-  '1F1EC-1F1EB': ['flag_gf'],
+  '1F1EC-1F1EB': ['flag_gf', 'french_guiana'],
   // 🇬🇬 flag: Guernsey
-  '1F1EC-1F1EC': ['flag_gg'],
+  '1F1EC-1F1EC': ['flag_gg', 'guernsey'],
   // 🇬🇭 flag: Ghana
-  '1F1EC-1F1ED': ['flag_gh'],
+  '1F1EC-1F1ED': ['flag_gh', 'ghana'],
   // 🇬🇮 flag: Gibraltar
-  '1F1EC-1F1EE': ['flag_gi'],
+  '1F1EC-1F1EE': ['flag_gi', 'gibraltar'],
   // 🇬🇱 flag: Greenland
-  '1F1EC-1F1F1': ['flag_gl'],
+  '1F1EC-1F1F1': ['flag_gl', 'greenland'],
   // 🇬🇲 flag: Gambia
-  '1F1EC-1F1F2': ['flag_gm'],
+  '1F1EC-1F1F2': ['flag_gm', 'gambia'],
   // 🇬🇳 flag: Guinea
-  '1F1EC-1F1F3': ['flag_gn'],
+  '1F1EC-1F1F3': ['flag_gn', 'guinea'],
   // 🇬🇵 flag: Guadeloupe
-  '1F1EC-1F1F5': ['flag_gp'],
+  '1F1EC-1F1F5': ['flag_gp', 'guadeloupe'],
   // 🇬🇶 flag: Equatorial Guinea
-  '1F1EC-1F1F6': ['flag_gq'],
+  '1F1EC-1F1F6': ['flag_gq', 'equatorial_guinea'],
   // 🇬🇷 flag: Greece
-  '1F1EC-1F1F7': ['flag_gr'],
+  '1F1EC-1F1F7': ['flag_gr', 'greece'],
   // 🇬🇸 flag: South Georgia & South Sandwich Islands
-  '1F1EC-1F1F8': ['flag_gs'],
+  '1F1EC-1F1F8': ['flag_gs', 'south_georgia_south_sandwich_islands'],
   // 🇬🇹 flag: Guatemala
-  '1F1EC-1F1F9': ['flag_gt'],
+  '1F1EC-1F1F9': ['flag_gt', 'guatemala'],
   // 🇬🇺 flag: Guam
-  '1F1EC-1F1FA': ['flag_gu'],
+  '1F1EC-1F1FA': ['flag_gu', 'guam'],
   // 🇬🇼 flag: Guinea-Bissau
-  '1F1EC-1F1FC': ['flag_gw'],
+  '1F1EC-1F1FC': ['flag_gw', 'guinea_bissau'],
   // 🇬🇾 flag: Guyana
-  '1F1EC-1F1FE': ['flag_gy'],
+  '1F1EC-1F1FE': ['flag_gy', 'guyana'],
   // 🇭🇰 flag: Hong Kong SAR China
-  '1F1ED-1F1F0': ['flag_hk'],
+  '1F1ED-1F1F0': ['flag_hk', 'hong_kong'],
   // 🇭🇲 flag: Heard & McDonald Islands
-  '1F1ED-1F1F2': ['flag_hm'],
+  '1F1ED-1F1F2': ['flag_hm', 'heard_mcdonald_islands'],
   // 🇭🇳 flag: Honduras
-  '1F1ED-1F1F3': ['flag_hn'],
+  '1F1ED-1F1F3': ['flag_hn', 'honduras'],
   // 🇭🇷 flag: Croatia
-  '1F1ED-1F1F7': ['flag_hr'],
+  '1F1ED-1F1F7': ['flag_hr', 'croatia'],
   // 🇭🇹 flag: Haiti
-  '1F1ED-1F1F9': ['flag_ht'],
+  '1F1ED-1F1F9': ['flag_ht', 'haiti'],
   // 🇭🇺 flag: Hungary
-  '1F1ED-1F1FA': ['flag_hu'],
+  '1F1ED-1F1FA': ['flag_hu', 'hungary'],
   // 🇮🇨 flag: Canary Islands
-  '1F1EE-1F1E8': ['flag_ic'],
+  '1F1EE-1F1E8': ['flag_ic', 'canary_islands'],
   // 🇮🇩 flag: Indonesia
-  '1F1EE-1F1E9': ['flag_id'],
+  '1F1EE-1F1E9': ['flag_id', 'indonesia'],
   // 🇮🇪 flag: Ireland
-  '1F1EE-1F1EA': ['flag_ie'],
+  '1F1EE-1F1EA': ['flag_ie', 'ireland'],
   // 🇮🇱 flag: Israel
-  '1F1EE-1F1F1': ['flag_il'],
+  '1F1EE-1F1F1': ['flag_il', 'israel'],
   // 🇮🇲 flag: Isle of Man
-  '1F1EE-1F1F2': ['flag_im'],
+  '1F1EE-1F1F2': ['flag_im', 'isle_of_man'],
   // 🇮🇳 flag: India
-  '1F1EE-1F1F3': ['flag_in'],
+  '1F1EE-1F1F3': ['flag_in', 'india'],
   // 🇮🇴 flag: British Indian Ocean Territory
-  '1F1EE-1F1F4': ['flag_io'],
+  '1F1EE-1F1F4': ['flag_io', 'british_indian_ocean_territory'],
   // 🇮🇶 flag: Iraq
-  '1F1EE-1F1F6': ['flag_iq'],
+  '1F1EE-1F1F6': ['flag_iq', 'iraq'],
   // 🇮🇷 flag: Iran
-  '1F1EE-1F1F7': ['flag_ir'],
+  '1F1EE-1F1F7': ['flag_ir', 'iran'],
   // 🇮🇸 flag: Iceland
-  '1F1EE-1F1F8': ['flag_is'],
+  '1F1EE-1F1F8': ['flag_is', 'iceland'],
   // 🇯🇪 flag: Jersey
-  '1F1EF-1F1EA': ['flag_je'],
+  '1F1EF-1F1EA': ['flag_je', 'jersey'],
   // 🇯🇲 flag: Jamaica
-  '1F1EF-1F1F2': ['flag_jm'],
+  '1F1EF-1F1F2': ['flag_jm', 'jamaica'],
   // 🇯🇴 flag: Jordan
-  '1F1EF-1F1F4': ['flag_jo'],
+  '1F1EF-1F1F4': ['flag_jo', 'jordan'],
   // 🇰🇪 flag: Kenya
-  '1F1F0-1F1EA': ['flag_ke'],
+  '1F1F0-1F1EA': ['flag_ke', 'kenya'],
   // 🇰🇬 flag: Kyrgyzstan
-  '1F1F0-1F1EC': ['flag_kg'],
+  '1F1F0-1F1EC': ['flag_kg', 'kyrgyzstan'],
   // 🇰🇭 flag: Cambodia
-  '1F1F0-1F1ED': ['flag_kh'],
+  '1F1F0-1F1ED': ['flag_kh', 'cambodia'],
   // 🇰🇮 flag: Kiribati
-  '1F1F0-1F1EE': ['flag_ki'],
+  '1F1F0-1F1EE': ['flag_ki', 'kiribati'],
   // 🇰🇲 flag: Comoros
-  '1F1F0-1F1F2': ['flag_km'],
+  '1F1F0-1F1F2': ['flag_km', 'comoros'],
   // 🇰🇳 flag: St. Kitts & Nevis
-  '1F1F0-1F1F3': ['flag_kn'],
+  '1F1F0-1F1F3': ['flag_kn', 'st_kitts_nevis'],
   // 🇰🇵 flag: North Korea
-  '1F1F0-1F1F5': ['flag_kp'],
+  '1F1F0-1F1F5': ['flag_kp', 'north_korea'],
   // 🇰🇼 flag: Kuwait
-  '1F1F0-1F1FC': ['flag_kw'],
+  '1F1F0-1F1FC': ['flag_kw', 'kuwait'],
   // 🇰🇾 flag: Cayman Islands
-  '1F1F0-1F1FE': ['flag_ky'],
+  '1F1F0-1F1FE': ['flag_ky', 'cayman_islands'],
   // 🇰🇿 flag: Kazakhstan
-  '1F1F0-1F1FF': ['flag_kz'],
+  '1F1F0-1F1FF': ['flag_kz', 'kazakhstan'],
   // 🇱🇦 flag: Laos
-  '1F1F1-1F1E6': ['flag_la'],
+  '1F1F1-1F1E6': ['flag_la', 'laos'],
   // 🇱🇧 flag: Lebanon
-  '1F1F1-1F1E7': ['flag_lb'],
+  '1F1F1-1F1E7': ['flag_lb', 'lebanon'],
   // 🇱🇨 flag: St. Lucia
-  '1F1F1-1F1E8': ['flag_lc'],
+  '1F1F1-1F1E8': ['flag_lc', 'st_lucia'],
   // 🇱🇮 flag: Liechtenstein
-  '1F1F1-1F1EE': ['flag_li'],
+  '1F1F1-1F1EE': ['flag_li', 'liechtenstein'],
   // 🇱🇰 flag: Sri Lanka
-  '1F1F1-1F1F0': ['flag_lk'],
+  '1F1F1-1F1F0': ['flag_lk', 'sri_lanka'],
   // 🇱🇷 flag: Liberia
-  '1F1F1-1F1F7': ['flag_lr'],
+  '1F1F1-1F1F7': ['flag_lr', 'liberia'],
   // 🇱🇸 flag: Lesotho
-  '1F1F1-1F1F8': ['flag_ls'],
+  '1F1F1-1F1F8': ['flag_ls', 'lesotho'],
   // 🇱🇹 flag: Lithuania
-  '1F1F1-1F1F9': ['flag_lt'],
+  '1F1F1-1F1F9': ['flag_lt', 'lithuania'],
   // 🇱🇺 flag: Luxembourg
-  '1F1F1-1F1FA': ['flag_lu'],
+  '1F1F1-1F1FA': ['flag_lu', 'luxembourg'],
   // 🇱🇻 flag: Latvia
-  '1F1F1-1F1FB': ['flag_lv'],
+  '1F1F1-1F1FB': ['flag_lv', 'latvia'],
   // 🇱🇾 flag: Libya
-  '1F1F1-1F1FE': ['flag_ly'],
+  '1F1F1-1F1FE': ['flag_ly', 'libya'],
   // 🇲🇦 flag: Morocco
-  '1F1F2-1F1E6': ['flag_ma'],
+  '1F1F2-1F1E6': ['flag_ma', 'morocco'],
   // 🇲🇨 flag: Monaco
-  '1F1F2-1F1E8': ['flag_mc'],
+  '1F1F2-1F1E8': ['flag_mc', 'monaco'],
   // 🇲🇩 flag: Moldova
-  '1F1F2-1F1E9': ['flag_md'],
+  '1F1F2-1F1E9': ['flag_md', 'moldova'],
   // 🇲🇪 flag: Montenegro
-  '1F1F2-1F1EA': ['flag_me'],
+  '1F1F2-1F1EA': ['flag_me', 'montenegro'],
   // 🇲🇫 flag: St. Martin
-  '1F1F2-1F1EB': ['flag_mf'],
+  '1F1F2-1F1EB': ['flag_mf', 'st_martin'],
   // 🇲🇬 flag: Madagascar
-  '1F1F2-1F1EC': ['flag_mg'],
+  '1F1F2-1F1EC': ['flag_mg', 'madagascar'],
   // 🇲🇭 flag: Marshall Islands
-  '1F1F2-1F1ED': ['flag_mh'],
+  '1F1F2-1F1ED': ['flag_mh', 'marshall_islands'],
   // 🇲🇰 flag: North Macedonia
-  '1F1F2-1F1F0': ['flag_mk'],
+  '1F1F2-1F1F0': ['flag_mk', 'macedonia'],
   // 🇲🇱 flag: Mali
-  '1F1F2-1F1F1': ['flag_ml'],
+  '1F1F2-1F1F1': ['flag_ml', 'mali'],
   // 🇲🇲 flag: Myanmar (Burma)
-  '1F1F2-1F1F2': ['flag_mm'],
+  '1F1F2-1F1F2': ['flag_mm', 'myanmar', 'burma'],
   // 🇲🇳 flag: Mongolia
-  '1F1F2-1F1F3': ['flag_mn'],
+  '1F1F2-1F1F3': ['flag_mn', 'mongolia'],
   // 🇲🇴 flag: Macao SAR China
-  '1F1F2-1F1F4': ['flag_mo'],
+  '1F1F2-1F1F4': ['flag_mo', 'macao', 'macau'],
   // 🇲🇵 flag: Northern Mariana Islands
-  '1F1F2-1F1F5': ['flag_mp'],
+  '1F1F2-1F1F5': ['flag_mp', 'northern_mariana_islands'],
   // 🇲🇶 flag: Martinique
-  '1F1F2-1F1F6': ['flag_mq'],
+  '1F1F2-1F1F6': ['flag_mq', 'martinique'],
   // 🇲🇷 flag: Mauritania
-  '1F1F2-1F1F7': ['flag_mr'],
+  '1F1F2-1F1F7': ['flag_mr', 'mauritania'],
   // 🇲🇸 flag: Montserrat
-  '1F1F2-1F1F8': ['flag_ms'],
+  '1F1F2-1F1F8': ['flag_ms', 'montserrat'],
   // 🇲🇹 flag: Malta
-  '1F1F2-1F1F9': ['flag_mt'],
+  '1F1F2-1F1F9': ['flag_mt', 'malta'],
   // 🇲🇺 flag: Mauritius
-  '1F1F2-1F1FA': ['flag_mu'],
+  '1F1F2-1F1FA': ['flag_mu', 'mauritius'],
   // 🇲🇻 flag: Maldives
-  '1F1F2-1F1FB': ['flag_mv'],
+  '1F1F2-1F1FB': ['flag_mv', 'maldives'],
   // 🇲🇼 flag: Malawi
-  '1F1F2-1F1FC': ['flag_mw'],
+  '1F1F2-1F1FC': ['flag_mw', 'malawi'],
   // 🇲🇽 flag: Mexico
-  '1F1F2-1F1FD': ['flag_mx'],
+  '1F1F2-1F1FD': ['flag_mx', 'mexico'],
   // 🇲🇾 flag: Malaysia
-  '1F1F2-1F1FE': ['flag_my'],
+  '1F1F2-1F1FE': ['flag_my', 'malaysia'],
   // 🇲🇿 flag: Mozambique
-  '1F1F2-1F1FF': ['flag_mz'],
+  '1F1F2-1F1FF': ['flag_mz', 'mozambique'],
   // 🇳🇦 flag: Namibia
-  '1F1F3-1F1E6': ['flag_na'],
+  '1F1F3-1F1E6': ['flag_na', 'namibia'],
   // 🇳🇨 flag: New Caledonia
-  '1F1F3-1F1E8': ['flag_nc'],
+  '1F1F3-1F1E8': ['flag_nc', 'new_caledonia'],
   // 🇳🇪 flag: Niger
-  '1F1F3-1F1EA': ['flag_ne'],
+  '1F1F3-1F1EA': ['flag_ne', 'niger'],
   // 🇳🇫 flag: Norfolk Island
-  '1F1F3-1F1EB': ['flag_nf'],
+  '1F1F3-1F1EB': ['flag_nf', 'norfolk_island'],
   // 🇳🇬 flag: Nigeria
-  '1F1F3-1F1EC': ['flag_ng'],
+  '1F1F3-1F1EC': ['flag_ng', 'nigeria'],
   // 🇳🇮 flag: Nicaragua
-  '1F1F3-1F1EE': ['flag_ni'],
+  '1F1F3-1F1EE': ['flag_ni', 'nicaragua'],
   // 🇳🇱 flag: Netherlands
-  '1F1F3-1F1F1': ['flag_nl'],
+  '1F1F3-1F1F1': ['flag_nl', 'netherlands'],
   // 🇳🇴 flag: Norway
-  '1F1F3-1F1F4': ['flag_no'],
+  '1F1F3-1F1F4': ['flag_no', 'norway'],
   // 🇳🇵 flag: Nepal
-  '1F1F3-1F1F5': ['flag_np'],
+  '1F1F3-1F1F5': ['flag_np', 'nepal'],
   // 🇳🇷 flag: Nauru
-  '1F1F3-1F1F7': ['flag_nr'],
+  '1F1F3-1F1F7': ['flag_nr', 'nauru'],
   // 🇳🇺 flag: Niue
-  '1F1F3-1F1FA': ['flag_nu'],
+  '1F1F3-1F1FA': ['flag_nu', 'niue'],
   // 🇳🇿 flag: New Zealand
-  '1F1F3-1F1FF': ['flag_nz'],
+  '1F1F3-1F1FF': ['flag_nz', 'new_zealand'],
   // 🇴🇲 flag: Oman
-  '1F1F4-1F1F2': ['flag_om'],
+  '1F1F4-1F1F2': ['flag_om', 'oman'],
   // 🇵🇦 flag: Panama
-  '1F1F5-1F1E6': ['flag_pa'],
+  '1F1F5-1F1E6': ['flag_pa', 'panama'],
   // 🇵🇪 flag: Peru
-  '1F1F5-1F1EA': ['flag_pe'],
+  '1F1F5-1F1EA': ['flag_pe', 'peru'],
   // 🇵🇫 flag: French Polynesia
-  '1F1F5-1F1EB': ['flag_pf'],
+  '1F1F5-1F1EB': ['flag_pf', 'french_polynesia'],
   // 🇵🇬 flag: Papua New Guinea
-  '1F1F5-1F1EC': ['flag_pg'],
+  '1F1F5-1F1EC': ['flag_pg', 'papua_new_guinea'],
   // 🇵🇭 flag: Philippines
-  '1F1F5-1F1ED': ['flag_ph'],
+  '1F1F5-1F1ED': ['flag_ph', 'philippines'],
   // 🇵🇰 flag: Pakistan
-  '1F1F5-1F1F0': ['flag_pk'],
+  '1F1F5-1F1F0': ['flag_pk', 'pakistan'],
   // 🇵🇱 flag: Poland
-  '1F1F5-1F1F1': ['flag_pl'],
+  '1F1F5-1F1F1': ['flag_pl', 'poland'],
   // 🇵🇲 flag: St. Pierre & Miquelon
-  '1F1F5-1F1F2': ['flag_pm'],
+  '1F1F5-1F1F2': ['flag_pm', 'st_pierre_miquelon'],
   // 🇵🇳 flag: Pitcairn Islands
-  '1F1F5-1F1F3': ['flag_pn'],
+  '1F1F5-1F1F3': ['flag_pn', 'pitcairn_islands'],
   // 🇵🇷 flag: Puerto Rico
-  '1F1F5-1F1F7': ['flag_pr'],
+  '1F1F5-1F1F7': ['flag_pr', 'puerto_rico'],
   // 🇵🇸 flag: Palestinian Territories
-  '1F1F5-1F1F8': ['flag_ps'],
+  '1F1F5-1F1F8': ['flag_ps', 'palestinian_territories'],
   // 🇵🇹 flag: Portugal
-  '1F1F5-1F1F9': ['flag_pt'],
+  '1F1F5-1F1F9': ['flag_pt', 'portugal'],
   // 🇵🇼 flag: Palau
-  '1F1F5-1F1FC': ['flag_pw'],
+  '1F1F5-1F1FC': ['flag_pw', 'palau'],
   // 🇵🇾 flag: Paraguay
-  '1F1F5-1F1FE': ['flag_py'],
+  '1F1F5-1F1FE': ['flag_py', 'paraguay'],
   // 🇶🇦 flag: Qatar
-  '1F1F6-1F1E6': ['flag_qa'],
+  '1F1F6-1F1E6': ['flag_qa', 'qatar'],
   // 🇷🇪 flag: Réunion
-  '1F1F7-1F1EA': ['flag_re'],
+  '1F1F7-1F1EA': ['flag_re', 'reunion'],
   // 🇷🇴 flag: Romania
-  '1F1F7-1F1F4': ['flag_ro'],
+  '1F1F7-1F1F4': ['flag_ro', 'romania'],
   // 🇷🇸 flag: Serbia
-  '1F1F7-1F1F8': ['flag_rs'],
+  '1F1F7-1F1F8': ['flag_rs', 'serbia'],
   // 🇷🇼 flag: Rwanda
-  '1F1F7-1F1FC': ['flag_rw'],
+  '1F1F7-1F1FC': ['flag_rw', 'rwanda'],
   // 🇸🇦 flag: Saudi Arabia
-  '1F1F8-1F1E6': ['flag_sa'],
+  '1F1F8-1F1E6': ['flag_sa', 'saudi_arabia'],
   // 🇸🇧 flag: Solomon Islands
-  '1F1F8-1F1E7': ['flag_sb'],
+  '1F1F8-1F1E7': ['flag_sb', 'solomon_islands'],
   // 🇸🇨 flag: Seychelles
-  '1F1F8-1F1E8': ['flag_sc'],
+  '1F1F8-1F1E8': ['flag_sc', 'seychelles'],
   // 🇸🇩 flag: Sudan
-  '1F1F8-1F1E9': ['flag_sd'],
+  '1F1F8-1F1E9': ['flag_sd', 'sudan'],
   // 🇸🇪 flag: Sweden
-  '1F1F8-1F1EA': ['flag_se'],
+  '1F1F8-1F1EA': ['flag_se', 'sweden'],
   // 🇸🇬 flag: Singapore
-  '1F1F8-1F1EC': ['flag_sg'],
+  '1F1F8-1F1EC': ['flag_sg', 'singapore'],
   // 🇸🇭 flag: St. Helena
-  '1F1F8-1F1ED': ['flag_sh'],
+  '1F1F8-1F1ED': ['flag_sh', 'st_helena'],
   // 🇸🇮 flag: Slovenia
-  '1F1F8-1F1EE': ['flag_si'],
+  '1F1F8-1F1EE': ['flag_si', 'slovenia'],
   // 🇸🇯 flag: Svalbard & Jan Mayen
-  '1F1F8-1F1EF': ['flag_sj'],
+  '1F1F8-1F1EF': ['flag_sj', 'svalbard_jan_mayen'],
   // 🇸🇰 flag: Slovakia
-  '1F1F8-1F1F0': ['flag_sk'],
+  '1F1F8-1F1F0': ['flag_sk', 'slovakia'],
   // 🇸🇱 flag: Sierra Leone
-  '1F1F8-1F1F1': ['flag_sl'],
+  '1F1F8-1F1F1': ['flag_sl', 'sierra_leone'],
   // 🇸🇲 flag: San Marino
-  '1F1F8-1F1F2': ['flag_sm'],
+  '1F1F8-1F1F2': ['flag_sm', 'san_marino'],
   // 🇸🇳 flag: Senegal
-  '1F1F8-1F1F3': ['flag_sn'],
+  '1F1F8-1F1F3': ['flag_sn', 'senegal'],
   // 🇸🇴 flag: Somalia
-  '1F1F8-1F1F4': ['flag_so'],
+  '1F1F8-1F1F4': ['flag_so', 'somalia'],
   // 🇸🇷 flag: Suriname
-  '1F1F8-1F1F7': ['flag_sr'],
+  '1F1F8-1F1F7': ['flag_sr', 'suriname'],
   // 🇸🇸 flag: South Sudan
-  '1F1F8-1F1F8': ['flag_ss'],
+  '1F1F8-1F1F8': ['flag_ss', 'south_sudan'],
   // 🇸🇹 flag: São Tomé & Príncipe
-  '1F1F8-1F1F9': ['flag_st'],
+  '1F1F8-1F1F9': ['flag_st', 'sao_tome_principe'],
   // 🇸🇻 flag: El Salvador
-  '1F1F8-1F1FB': ['flag_sv'],
+  '1F1F8-1F1FB': ['flag_sv', 'el_salvador'],
   // 🇸🇽 flag: Sint Maarten
-  '1F1F8-1F1FD': ['flag_sx'],
+  '1F1F8-1F1FD': ['flag_sx', 'sint_maarten'],
   // 🇸🇾 flag: Syria
-  '1F1F8-1F1FE': ['flag_sy'],
+  '1F1F8-1F1FE': ['flag_sy', 'syria'],
   // 🇸🇿 flag: Eswatini
-  '1F1F8-1F1FF': ['flag_sz'],
+  '1F1F8-1F1FF': ['flag_sz', 'eswatini', 'swaziland'],
   // 🇹🇦 flag: Tristan da Cunha
-  '1F1F9-1F1E6': ['flag_ta'],
+  '1F1F9-1F1E6': ['flag_ta', 'tristan_da_cunha'],
   // 🇹🇨 flag: Turks & Caicos Islands
-  '1F1F9-1F1E8': ['flag_tc'],
+  '1F1F9-1F1E8': ['flag_tc', 'turks_caicos_islands'],
   // 🇹🇩 flag: Chad
-  '1F1F9-1F1E9': ['flag_td'],
+  '1F1F9-1F1E9': ['flag_td', 'chad'],
   // 🇹🇫 flag: French Southern Territories
-  '1F1F9-1F1EB': ['flag_tf'],
+  '1F1F9-1F1EB': ['flag_tf', 'french_southern_territories'],
   // 🇹🇬 flag: Togo
-  '1F1F9-1F1EC': ['flag_tg'],
+  '1F1F9-1F1EC': ['flag_tg', 'togo'],
   // 🇹🇭 flag: Thailand
-  '1F1F9-1F1ED': ['flag_th'],
+  '1F1F9-1F1ED': ['flag_th', 'thailand'],
   // 🇹🇯 flag: Tajikistan
-  '1F1F9-1F1EF': ['flag_tj'],
+  '1F1F9-1F1EF': ['flag_tj', 'tajikistan'],
   // 🇹🇰 flag: Tokelau
-  '1F1F9-1F1F0': ['flag_tk'],
+  '1F1F9-1F1F0': ['flag_tk', 'tokelau'],
   // 🇹🇱 flag: Timor-Leste
-  '1F1F9-1F1F1': ['flag_tl'],
+  '1F1F9-1F1F1': ['flag_tl', 'timor_leste'],
   // 🇹🇲 flag: Turkmenistan
-  '1F1F9-1F1F2': ['flag_tm'],
+  '1F1F9-1F1F2': ['flag_tm', 'turkmenistan'],
   // 🇹🇳 flag: Tunisia
-  '1F1F9-1F1F3': ['flag_tn'],
+  '1F1F9-1F1F3': ['flag_tn', 'tunisia'],
   // 🇹🇴 flag: Tonga
-  '1F1F9-1F1F4': ['flag_to'],
+  '1F1F9-1F1F4': ['flag_to', 'tonga'],
   // 🇹🇷 flag: Turkey
-  '1F1F9-1F1F7': ['flag_tr'],
+  '1F1F9-1F1F7': ['flag_tr', 'turkey_tr'],
   // 🇹🇹 flag: Trinidad & Tobago
-  '1F1F9-1F1F9': ['flag_tt'],
+  '1F1F9-1F1F9': ['flag_tt', 'trinidad_tobago'],
   // 🇹🇻 flag: Tuvalu
-  '1F1F9-1F1FB': ['flag_tv'],
+  '1F1F9-1F1FB': ['flag_tv', 'tuvalu'],
   // 🇹🇼 flag: Taiwan
-  '1F1F9-1F1FC': ['flag_tw'],
+  '1F1F9-1F1FC': ['flag_tw', 'taiwan'],
   // 🇹🇿 flag: Tanzania
-  '1F1F9-1F1FF': ['flag_tz'],
+  '1F1F9-1F1FF': ['flag_tz', 'tanzania'],
   // 🇺🇦 flag: Ukraine
-  '1F1FA-1F1E6': ['flag_ua'],
+  '1F1FA-1F1E6': ['flag_ua', 'ukraine'],
   // 🇺🇬 flag: Uganda
-  '1F1FA-1F1EC': ['flag_ug'],
+  '1F1FA-1F1EC': ['flag_ug', 'uganda'],
   // 🇺🇲 flag: U.S. Outlying Islands
-  '1F1FA-1F1F2': ['flag_um'],
+  '1F1FA-1F1F2': ['flag_um', 'us_outlying_islands'],
   // 🇺🇾 flag: Uruguay
-  '1F1FA-1F1FE': ['flag_uy'],
+  '1F1FA-1F1FE': ['flag_uy', 'uruguay'],
   // 🇺🇿 flag: Uzbekistan
-  '1F1FA-1F1FF': ['flag_uz'],
+  '1F1FA-1F1FF': ['flag_uz', 'uzbekistan'],
   // 🇻🇦 flag: Vatican City
-  '1F1FB-1F1E6': ['flag_va'],
+  '1F1FB-1F1E6': ['flag_va', 'vatican_city'],
   // 🇻🇨 flag: St. Vincent & Grenadines
-  '1F1FB-1F1E8': ['flag_vc'],
+  '1F1FB-1F1E8': ['flag_vc', 'st_vincent_grenadines'],
   // 🇻🇪 flag: Venezuela
-  '1F1FB-1F1EA': ['flag_ve'],
+  '1F1FB-1F1EA': ['flag_ve', 'venezuela'],
   // 🇻🇬 flag: British Virgin Islands
-  '1F1FB-1F1EC': ['flag_vg'],
+  '1F1FB-1F1EC': ['flag_vg', 'british_virgin_islands'],
   // 🇻🇮 flag: U.S. Virgin Islands
-  '1F1FB-1F1EE': ['flag_vi'],
+  '1F1FB-1F1EE': ['flag_vi', 'us_virgin_islands'],
   // 🇻🇳 flag: Vietnam
-  '1F1FB-1F1F3': ['flag_vn'],
+  '1F1FB-1F1F3': ['flag_vn', 'vietnam'],
   // 🇻🇺 flag: Vanuatu
-  '1F1FB-1F1FA': ['flag_vu'],
+  '1F1FB-1F1FA': ['flag_vu', 'vanuatu'],
   // 🇼🇫 flag: Wallis & Futuna
-  '1F1FC-1F1EB': ['flag_wf'],
+  '1F1FC-1F1EB': ['flag_wf', 'wallis_futuna'],
   // 🇼🇸 flag: Samoa
-  '1F1FC-1F1F8': ['flag_ws'],
+  '1F1FC-1F1F8': ['flag_ws', 'samoa'],
   // 🇽🇰 flag: Kosovo
-  '1F1FD-1F1F0': ['flag_xk'],
+  '1F1FD-1F1F0': ['flag_xk', 'kosovo'],
   // 🇾🇪 flag: Yemen
-  '1F1FE-1F1EA': ['flag_ye'],
+  '1F1FE-1F1EA': ['flag_ye', 'yemen'],
   // 🇾🇹 flag: Mayotte
-  '1F1FE-1F1F9': ['flag_yt'],
+  '1F1FE-1F1F9': ['flag_yt', 'mayotte'],
   // 🇿🇦 flag: South Africa
-  '1F1FF-1F1E6': ['flag_za'],
+  '1F1FF-1F1E6': ['flag_za', 'south_africa'],
   // 🇿🇲 flag: Zambia
-  '1F1FF-1F1F2': ['flag_zm'],
+  '1F1FF-1F1F2': ['flag_zm', 'zambia'],
   // 🇿🇼 flag: Zimbabwe
-  '1F1FF-1F1FC': ['flag_zw'],
+  '1F1FF-1F1FC': ['flag_zw', 'zimbabwe'],
 
   // VERSION 3
   // 🤣 rolling on the floor laughing
-  '1F923': ['entertained', 'rofl'],
+  '1F923': ['rofl'],
   // 🤥 lying face
-  '1F925': ['lying'],
+  '1F925': ['lying_face'],
   // 🤤 drooling face
-  '1F924': ['drooling'],
+  '1F924': ['drooling_face'],
   // 🤢 nauseated face
-  '1F922': ['nauseated'],
+  '1F922': ['nauseated_face'],
   // 🤧 sneezing face
-  '1F927': ['sneezing'],
+  '1F927': ['sneezing_face'],
   // 🤠 cowboy hat face
-  '1F920': ['cowboy'],
+  '1F920': ['cowboy_face'],
   // 🤡 clown face
-  '1F921': ['clown'],
+  '1F921': ['clown_face'],
   // 🖤 black heart
   '1F5A4': ['black_heart'],
   // 🤚 raised back of hand
-  '1F91A': ['raised_backhand'],
+  '1F91A': ['raised_back_of_hand'],
   // 🤞 crossed fingers
   '1F91E': ['fingers_crossed'],
   // 🤙 call me hand
-  '1F919': ['call_me'],
+  '1F919': ['call_me_hand'],
   // 🤛 left-facing fist
   '1F91B': ['left_facing_fist'],
   // 🤜 right-facing fist
@@ -2732,13 +2735,13 @@ export default {
   // 🤳 selfie
   '1F933': ['selfie'],
   // 🤦 person facepalming
-  '1F926': ['person_facepalming'],
+  '1F926': ['person_facepalming', 'facepalm'],
   // 🤷 person shrugging
-  '1F937': ['person_shrugging'],
+  '1F937': ['person_shrugging', 'shrug'],
   // 🤴 prince
   '1F934': ['prince'],
   // 🤵 person in tuxedo
-  '1F935': ['man_tuxedo'],
+  '1F935': ['tuxedo'],
   // 🤰 pregnant woman
   '1F930': ['pregnant_woman'],
   // 🤶 Mrs. Claus
@@ -2746,25 +2749,25 @@ export default {
   // 🕺 man dancing
   '1F57A': ['man_dancing'],
   // 🤺 person fencing
-  '1F93A': ['person_fencing'],
+  '1F93A': ['person_fencing', 'fencing'],
   // 🤸 person cartwheeling
-  '1F938': ['person_cartwheel'],
+  '1F938': ['person_cartwheel', 'cartwheeling'],
   // 🤼 people wrestling
-  '1F93C': ['people_wrestling'],
+  '1F93C': ['people_wrestling', 'wrestling', 'wrestlers'],
   // 🤽 person playing water polo
-  '1F93D': ['person_water_polo'],
+  '1F93D': ['person_water_polo', 'water_polo'],
   // 🤾 person playing handball
-  '1F93E': ['person_handball'],
+  '1F93E': ['person_playing_handball', 'handball'],
   // 🤹 person juggling
-  '1F939': ['person_juggling'],
+  '1F939': ['person_juggling', 'juggling', 'juggler'],
   // 🦍 gorilla
   '1F98D': ['gorilla'],
   // 🦊 fox
-  '1F98A': ['fox_face'],
+  '1F98A': ['fox_face', 'fox'],
   // 🦌 deer
   '1F98C': ['deer'],
   // 🦏 rhinoceros
-  '1F98F': ['rhino'],
+  '1F98F': ['rhino', 'rhinoceros'],
   // 🦇 bat
   '1F987': ['bat'],
   // 🦅 eagle
@@ -2780,7 +2783,7 @@ export default {
   // 🦋 butterfly
   '1F98B': ['butterfly'],
   // 🥀 wilted flower
-  '1F940': ['wilted_rose'],
+  '1F940': ['wilted_flower'],
   // 🥝 kiwi fruit
   '1F95D': ['kiwi'],
   // 🥑 avocado
@@ -2796,7 +2799,7 @@ export default {
   // 🥐 croissant
   '1F950': ['croissant'],
   // 🥖 baguette bread
-  '1F956': ['french_bread'],
+  '1F956': ['baguette_bread'],
   // 🥞 pancakes
   '1F95E': ['pancakes'],
   // 🥓 bacon
@@ -2814,9 +2817,9 @@ export default {
   // 🦑 squid
   '1F991': ['squid'],
   // 🥛 glass of milk
-  '1F95B': ['milk'],
+  '1F95B': ['glass_of_milk', 'milk'],
   // 🥂 clinking glasses
-  '1F942': ['champagne_glass'],
+  '1F942': ['clinking_glasses'],
   // 🥃 tumbler glass
   '1F943': ['tumbler_glass'],
   // 🥄 spoon
@@ -2830,17 +2833,17 @@ export default {
   // 🛶 canoe
   '1F6F6': ['canoe'],
   // 🥇 1st place medal
-  '1F947': ['first_place'],
+  '1F947': ['first_place_medal'],
   // 🥈 2nd place medal
-  '1F948': ['second_place'],
+  '1F948': ['second_place_medal'],
   // 🥉 3rd place medal
-  '1F949': ['third_place'],
+  '1F949': ['third_place_medal'],
   // 🥊 boxing glove
   '1F94A': ['boxing_glove'],
   // 🥋 martial arts uniform
-  '1F94B': ['gi', 'martial_arts_uniform'],
+  '1F94B': ['martial_arts_uniform'],
   // 🥅 goal net
-  '1F945': ['goal'],
+  '1F945': ['goal_net'],
   // 🥁 drum
   '1F941': ['drum'],
   // 🛒 shopping cart
@@ -2988,9 +2991,9 @@ export default {
   // 🏃‍♀️ woman running
   '1F3C3-200D-2640-FE0F': ['woman_running'],
   // 👯‍♂️ men with bunny ears
-  '1F46F-200D-2642-FE0F': ['men_bunny_ears_partying'],
+  '1F46F-200D-2642-FE0F': ['men_with_bunny_ears_partying'],
   // 👯‍♀️ women with bunny ears
-  '1F46F-200D-2640-FE0F': ['women_bunny_ears_partying'],
+  '1F46F-200D-2640-FE0F': ['women_with_bunny_ears_partying'],
   // 🏌️‍♂️ man golfing
   '1F3CC-FE0F-200D-2642-FE0F': ['man_golfing'],
   // 🏌️‍♀️ woman golfing
@@ -3036,9 +3039,9 @@ export default {
   // 🤽‍♀️ woman playing water polo
   '1F93D-200D-2640-FE0F': ['woman_water_polo'],
   // 🤾‍♂️ man playing handball
-  '1F93E-200D-2642-FE0F': ['man_handball'],
+  '1F93E-200D-2642-FE0F': ['man_playing_handball'],
   // 🤾‍♀️ woman playing handball
-  '1F93E-200D-2640-FE0F': ['woman_handball'],
+  '1F93E-200D-2640-FE0F': ['woman_playing_handball'],
   // 🤹‍♂️ man juggling
   '1F939-200D-2642-FE0F': ['man_juggling'],
   // 🤹‍♀️ woman juggling
@@ -3064,11 +3067,11 @@ export default {
   // 👩‍👧‍👧 family: woman, girl, girl
   '1F469-200D-1F467-200D-1F467': ['family_wgg'],
   // ♀︎ female sign
-  '2640': ['female', 'female_sign'],
+  '2640': ['female_sign'],
   // ♂︎ male sign
-  '2642': ['male', 'male_sign'],
+  '2642': ['male_sign'],
   // ⚕︎ medical symbol
-  '2695': ['medical'],
+  '2695': ['medical_symbol'],
   // 🏳️‍🌈 rainbow flag
   '1F3F3-FE0F-200D-1F308': ['rainbow_flag'],
   // 🇺🇳 flag: United Nations
@@ -3076,29 +3079,29 @@ export default {
 
   // VERSION 5
   // 🤩 star-struck
-  '1F929': ['starstruck'],
+  '1F929': ['star_struck'],
   // 🤪 zany face
-  '1F92A': ['crazy'],
+  '1F92A': ['zany_face'],
   // 🤭 face with hand over mouth
-  '1F92D': ['gasp'],
+  '1F92D': ['face_with_hand_over_mouth'],
   // 🤫 shushing face
-  '1F92B': ['shushing'],
+  '1F92B': ['shushing_face'],
   // 🤨 face with raised eyebrow
-  '1F928': ['contempt'],
+  '1F928': ['face_with_raised_eyebrow'],
   // 🤮 face vomiting
-  '1F92E': ['vomiting'],
+  '1F92E': ['face_vomiting'],
   // 🤯 exploding head
-  '1F92F': ['shocked', 'exploding_head'],
+  '1F92F': ['exploding_head'],
   // 🧐 face with monocle
-  '1F9D0': ['monocle'],
+  '1F9D0': ['face_with_monocle'],
   // 🤬 face with symbols on mouth
-  '1F92C': ['censored'],
+  '1F92C': ['face_with_symbols_on_mouth', 'censored'],
   // 🧡 orange heart
   '1F9E1': ['orange_heart'],
   // 🤟 love-you gesture
   '1F91F': ['love_you_gesture'],
   // 🤲 palms up together
-  '1F932': ['palms_up'],
+  '1F932': ['palms_up_together'],
   // 🧠 brain
   '1F9E0': ['brain'],
   // 🧒 child
@@ -3156,23 +3159,23 @@ export default {
   // 🧟‍♀️ woman zombie
   '1F9DF-200D-2640-FE0F': ['woman_zombie'],
   // 🧖 person in steamy room
-  '1F9D6': ['person_steamy_room'],
+  '1F9D6': ['person_in_steamy_room'],
   // 🧖‍♂️ man in steamy room
-  '1F9D6-200D-2642-FE0F': ['man_steamy_room'],
+  '1F9D6-200D-2642-FE0F': ['man_in_steamy_room'],
   // 🧖‍♀️ woman in steamy room
-  '1F9D6-200D-2640-FE0F': ['woman_steamy_room'],
+  '1F9D6-200D-2640-FE0F': ['woman_in_steamy_room'],
   // 🧗 person climbing
-  '1F9D7': ['person_climbing'],
+  '1F9D7': ['person_climbing', 'climbing'],
   // 🧗‍♂️ man climbing
   '1F9D7-200D-2642-FE0F': ['man_climbing'],
   // 🧗‍♀️ woman climbing
   '1F9D7-200D-2640-FE0F': ['woman_climbing'],
   // 🧘 person in lotus position
-  '1F9D8': ['person_lotus_position'],
+  '1F9D8': ['person_in_lotus_position'],
   // 🧘‍♂️ man in lotus position
-  '1F9D8-200D-2642-FE0F': ['man_lotus_position'],
+  '1F9D8-200D-2642-FE0F': ['man_in_lotus_position'],
   // 🧘‍♀️ woman in lotus position
-  '1F9D8-200D-2640-FE0F': ['woman_lotus_position'],
+  '1F9D8-200D-2640-FE0F': ['woman_in_lotus_position'],
   // 🦓 zebra
   '1F993': ['zebra'],
   // 🦒 giraffe
@@ -3182,7 +3185,7 @@ export default {
   // 🦕 sauropod
   '1F995': ['sauropod'],
   // 🦖 T-Rex
-  '1F996': ['trex'],
+  '1F996': ['t-rex'],
   // 🦗 cricket
   '1F997': ['cricket'],
   // 🥥 coconut
@@ -3196,7 +3199,7 @@ export default {
   // 🥪 sandwich
   '1F96A': ['sandwich'],
   // 🥣 bowl with spoon
-  '1F963': ['bowl_spoon'],
+  '1F963': ['bowl_with_spoon'],
   // 🥫 canned food
   '1F96B': ['canned_food'],
   // 🥟 dumpling
@@ -3208,7 +3211,7 @@ export default {
   // 🥧 pie
   '1F967': ['pie'],
   // 🥤 cup with straw
-  '1F964': ['cup_straw'],
+  '1F964': ['cup_with_straw'],
   // 🥢 chopsticks
   '1F962': ['chopsticks'],
   // 🛸 flying saucer
@@ -3236,17 +3239,17 @@ export default {
 
   // VERSION 11
   // 🥰 smiling face with hearts
-  '1F970': ['love'],
+  '1F970': ['smiling_face_with_3_hearts'],
   // 🥵 hot face
-  '1F975': ['overheating'],
+  '1F975': ['hot_face'],
   // 🥶 cold face
-  '1F976': ['freezing'],
+  '1F976': ['cold_face'],
   // 🥴 woozy face
-  '1F974': ['woozy'],
+  '1F974': ['woozy_face'],
   // 🥳 partying face
-  '1F973': ['partying', 'celebrating'],
+  '1F973': ['partying_face'],
   // 🥺 pleading face
-  '1F97A': ['pleading'],
+  '1F97A': ['pleading_face'],
   // 🦵 leg
   '1F9B5': ['leg'],
   // 🦶 foot
@@ -3272,23 +3275,23 @@ export default {
   // 👩‍🦲 woman: bald
   '1F469-200D-1F9B2': ['bald_woman'],
   // 🦸 superhero
-  '1F9B8': ['hero', 'superhero'],
+  '1F9B8': ['superhero'],
   // 🦸‍♂️ man superhero
-  '1F9B8-200D-2642-FE0F': ['man_hero'],
+  '1F9B8-200D-2642-FE0F': ['man_superhero'],
   // 🦸‍♀️ woman superhero
-  '1F9B8-200D-2640-FE0F': ['woman_hero'],
+  '1F9B8-200D-2640-FE0F': ['woman_superhero'],
   // 🦹 supervillain
-  '1F9B9': ['villain', 'supervillain'],
+  '1F9B9': ['supervillain'],
   // 🦹‍♂️ man supervillain
-  '1F9B9-200D-2642-FE0F': ['man_villain'],
+  '1F9B9-200D-2642-FE0F': ['man_supervillain'],
   // 🦹‍♀️ woman supervillain
-  '1F9B9-200D-2640-FE0F': ['woman_villain'],
+  '1F9B9-200D-2640-FE0F': ['woman_supervillain'],
   // 🦰 red hair
-  '1F9B0': ['red_hair'],
+  '1F9B0': ['red_hair', 'red_haired'],
   // 🦱 curly hair
-  '1F9B1': ['curly_hair'],
+  '1F9B1': ['curly_hair', 'curly_haired'],
   // 🦳 white hair
-  '1F9B3': ['white_hair'],
+  '1F9B3': ['white_hair', 'white_haired'],
   // 🦲 bald
   '1F9B2': ['bald'],
   // 🦝 raccoon
@@ -3310,7 +3313,7 @@ export default {
   // 🦟 mosquito
   '1F99F': ['mosquito'],
   // 🦠 microbe
-  '1F9A0': ['microbe', 'germ'],
+  '1F9A0': ['microbe'],
   // 🥭 mango
   '1F96D': ['mango'],
   // 🥬 leafy green
@@ -3328,7 +3331,7 @@ export default {
   // 🧭 compass
   '1F9ED': ['compass'],
   // 🧱 brick
-  '1F9F1': ['brick'],
+  '1F9F1': ['bricks'],
   // 🛹 skateboard
   '1F6F9': ['skateboard'],
   // 🧳 luggage
@@ -3352,7 +3355,7 @@ export default {
   // ♟︎ chess pawn
   '265F': ['chess_pawn'],
   // 🧵 thread
-  '1F9F5': ['spool'],
+  '1F9F5': ['thread'],
   // 🧶 yarn
   '1F9F6': ['yarn'],
   // 🥽 goggles
@@ -3362,7 +3365,7 @@ export default {
   // 🥾 hiking boot
   '1F97E': ['hiking_boot'],
   // 🥿 flat shoe
-  '1F97F': ['flat_shoe'],
+  '1F97F': ['flat_shoe', 'womans_flat_shoe'],
   // 🧮 abacus
   '1F9EE': ['abacus'],
   // 🧾 receipt
@@ -3378,7 +3381,7 @@ export default {
   // 🧬 dna
   '1F9EC': ['dna', 'double_helix'],
   // 🧴 lotion bottle
-  '1F9F4': ['lotion'],
+  '1F9F4': ['lotion_bottle'],
   // 🧷 safety pin
   '1F9F7': ['safety_pin'],
   // 🧹 broom
@@ -3386,7 +3389,7 @@ export default {
   // 🧺 basket
   '1F9FA': ['basket'],
   // 🧻 roll of paper
-  '1F9FB': ['toilet_paper'],
+  '1F9FB': ['roll_of_paper', 'toilet_paper'],
   // 🧼 soap
   '1F9FC': ['soap'],
   // 🧽 sponge
@@ -3400,51 +3403,51 @@ export default {
 
   // VERSION 12
   // 🥱 yawning face
-  '1F971': ['yawn'],
+  '1F971': ['yawning_face'],
   // 🤎 brown heart
   '1F90E': ['brown_heart'],
   // 🤍 white heart
   '1F90D': ['white_heart'],
   // 🤏 pinching hand
-  '1F90F': ['pinch'],
+  '1F90F': ['pinching_hand'],
   // 🦾 mechanical arm
-  '1F9BE': ['mech_arm'],
+  '1F9BE': ['mechanical_arm'],
   // 🦿 mechanical leg
-  '1F9BF': ['mech_leg'],
+  '1F9BF': ['mechanical_leg'],
   // 🦻 ear with hearing aid
-  '1F9BB': ['hearing_aid'],
+  '1F9BB': ['ear_with_hearing_aid'],
   // 🧏 deaf person
-  '1F9CF': ['person_deaf'],
+  '1F9CF': ['deaf_person'],
   // 🧏‍♂️ deaf man
-  '1F9CF-200D-2642-FE0F': ['man_deaf'],
+  '1F9CF-200D-2642-FE0F': ['deaf_man'],
   // 🧏‍♀️ deaf woman
-  '1F9CF-200D-2640-FE0F': ['woman_deaf'],
+  '1F9CF-200D-2640-FE0F': ['deaf_woman'],
   // 🧍 person standing
-  '1F9CD': ['person_standing'],
+  '1F9CD': ['person_standing', 'standing'],
   // 🧍‍♂️ man standing
   '1F9CD-200D-2642-FE0F': ['man_standing'],
   // 🧍‍♀️ woman standing
   '1F9CD-200D-2640-FE0F': ['woman_standing'],
   // 🧎 person kneeling
-  '1F9CE': ['person_kneeling'],
+  '1F9CE': ['person_kneeling', 'kneeling'],
   // 🧎‍♂️ man kneeling
   '1F9CE-200D-2642-FE0F': ['man_kneeling'],
   // 🧎‍♀️ woman kneeling
   '1F9CE-200D-2640-FE0F': ['woman_kneeling'],
   // 👨‍🦯 man with white cane
-  '1F468-200D-1F9AF': ['man_probing_cane'],
+  '1F468-200D-1F9AF': ['man_with_probing_cane'],
   // 👩‍🦯 woman with white cane
-  '1F469-200D-1F9AF': ['woman_probing_cane'],
+  '1F469-200D-1F9AF': ['woman_with_probing_cane'],
   // 👨‍🦼 man in motorized wheelchair
-  '1F468-200D-1F9BC': ['man_motor_wheelchair'],
+  '1F468-200D-1F9BC': ['man_in_motorized_wheelchair'],
   // 👩‍🦼 woman in motorized wheelchair
-  '1F469-200D-1F9BC': ['woman_motor_wheelchair'],
+  '1F469-200D-1F9BC': ['woman_in_motorized_wheelchair'],
   // 👨‍🦽 man in manual wheelchair
-  '1F468-200D-1F9BD': ['man_wheelchair'],
+  '1F468-200D-1F9BD': ['man_in_manual_wheelchair'],
   // 👩‍🦽 woman in manual wheelchair
-  '1F469-200D-1F9BD': ['woman_wheelchair'],
+  '1F469-200D-1F9BD': ['woman_in_manual_wheelchair'],
   // 🧑‍🤝‍🧑 people holding hands
-  '1F9D1-200D-1F91D-200D-1F9D1': ['holding_hands_people'],
+  '1F9D1-200D-1F91D-200D-1F9D1': ['people_holding_hands'],
   // 🦧 orangutan
   '1F9A7': ['orangutan'],
   // 🦮 guide dog
@@ -3474,15 +3477,15 @@ export default {
   // 🧃 beverage box
   '1F9C3': ['beverage_box', 'juice_box'],
   // 🧉 mate
-  '1F9C9': ['mate', 'yerba_mate'],
+  '1F9C9': ['mate'],
   // 🧊 ice
-  '1F9CA': ['ice'],
+  '1F9CA': ['ice_cube', 'ice'],
   // 🛕 hindu temple
   '1F6D5': ['hindu_temple'],
   // 🦽 manual wheelchair
-  '1F9BD': ['wheelchair'],
+  '1F9BD': ['manual_wheelchair'],
   // 🦼 motorized wheelchair
-  '1F9BC': ['motor_wheelchair'],
+  '1F9BC': ['motorized_wheelchair'],
   // 🛺 auto rickshaw
   '1F6FA': ['auto_rickshaw'],
   // 🪂 parachute
@@ -3490,9 +3493,9 @@ export default {
   // 🪐 ringed planet
   '1FA90': ['ringed_planet', 'saturn'],
   // 🤿 diving mask
-  '1F93F': ['diving_mask', 'scuba_mask'],
+  '1F93F': ['diving_mask'],
   // 🪀 yo-yo
-  '1FA80': ['yoyo'],
+  '1FA80': ['yo_yo'],
   // 🪁 kite
   '1FA81': ['kite'],
   // 🦺 safety vest
@@ -3516,7 +3519,7 @@ export default {
   // 🦯 white cane
   '1F9AF': ['probing_cane'],
   // 🩸 drop of blood
-  '1FA78': ['blood_drop'],
+  '1FA78': ['drop_of_blood'],
   // 🩹 adhesive bandage
   '1FA79': ['bandaid', 'adhesive_bandage'],
   // 🩺 stethoscope
@@ -3592,15 +3595,15 @@ export default {
   // 🧑‍🚒 firefighter
   '1F9D1-200D-1F692': ['person_firefighter'],
   // 🧑‍🦯 person with white cane
-  '1F9D1-200D-1F9AF': ['person_probing_cane'],
+  '1F9D1-200D-1F9AF': ['person_with_probing_cane'],
   // 🧑‍🦼 person in motorized wheelchair
-  '1F9D1-200D-1F9BC': ['person_motor_wheelchair'],
+  '1F9D1-200D-1F9BC': ['person_in_motorized_wheelchair'],
   // 🧑‍🦽 person in manual wheelchair
-  '1F9D1-200D-1F9BD': ['person_wheelchair'],
+  '1F9D1-200D-1F9BD': ['person_in_manual_wheelchair'],
 
   // VERSION 13
   // 🥲 smiling face with tear
-  '1F972': ['tear_smile'],
+  '1F972': ['smiling_face_with_tear'],
   // 🥸 disguised face
   '1F978': ['disguised_face'],
   // 🤌 pinched fingers
@@ -3616,9 +3619,9 @@ export default {
   // 🤵‍♀️ woman in tuxedo
   '1F935-200D-2640-FE0F': ['woman_in_tuxedo'],
   // 👰‍♂️ man with veil
-  '1F470-200D-2642-FE0F': ['man_veiled_bride'],
+  '1F470-200D-2642-FE0F': ['man_with_veil'],
   // 👰‍♀️ woman with veil
-  '1F470-200D-2640-FE0F': ['woman_veiled_bride'],
+  '1F470-200D-2640-FE0F': ['woman_with_veil'],
   // 👩‍🍼 woman feeding baby
   '1F469-200D-1F37C': ['woman_feeding_baby'],
   // 👨‍🍼 man feeding baby
@@ -3638,7 +3641,7 @@ export default {
   // 🦫 beaver
   '1F9AB': ['beaver'],
   // 🐻‍❄️ polar bear
-  '1F43B-200D-2744-FE0F': ['polar_bear_face'],
+  '1F43B-200D-2744-FE0F': ['polar_bear_face', 'polar_bear'],
   // 🦤 dodo
   '1F9A4': ['dodo'],
   // 🪶 feather
@@ -3682,7 +3685,7 @@ export default {
   // 🛼 roller skate
   '1F6FC': ['roller_skate'],
   // 🪄 magic wand
-  '1FA84': ['wand'],
+  '1FA84': ['magic_wand'],
   // 🪅 piñata
   '1FA85': ['pinata'],
   // 🪆 nesting dolls
@@ -3692,7 +3695,7 @@ export default {
   // 🪢 knot
   '1FAA2': ['knot'],
   // 🩴 thong sandal
-  '1FA74': ['sandal'],
+  '1FA74': ['thong_sandal'],
   // 🪖 military helmet
   '1FA96': ['military_helmet'],
   // 🪗 accordion
@@ -3704,7 +3707,7 @@ export default {
   // 🪃 boomerang
   '1FA83': ['boomerang'],
   // 🪚 carpentry saw
-  '1FA9A': ['saw'],
+  '1FA9A': ['carpentry_saw'],
   // 🪛 screwdriver
   '1FA9B': ['screwdriver'],
   // 🪝 hook
@@ -3730,7 +3733,7 @@ export default {
   // 🪧 placard
   '1FAA7': ['placard'],
   // ⚧︎ transgender symbol
-  '26A7': ['trans'],
+  '26A7': ['transgender_symbol'],
   // 🏳️‍⚧️ transgender flag
-  '1F3F3-FE0F-200D-26A7-FE0F': ['trans_flag'],
+  '1F3F3-FE0F-200D-26A7-FE0F': ['transgender_flag'],
 };
