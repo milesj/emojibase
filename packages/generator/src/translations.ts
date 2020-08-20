@@ -88,6 +88,37 @@ export const SYMBOL_HASH_MESSAGES: { [L in Locale]: string } = {
   'zh-hant': '數字符號',
 };
 
+// Provide translations for skin tone modifier suffix.
+// Non-English languages use "color" as the base word,
+// since "tone" doesn't translate well.
+export const SKIN_TONE_MESSAGES: { [L in Locale]: string } = {
+  da: 'farve',
+  de: 'Farbe',
+  en: 'tone',
+  'en-gb': 'tone',
+  es: 'color',
+  'es-mx': 'color',
+  et: 'värvi',
+  fi: 'väri',
+  fr: 'Couleur',
+  hu: 'szín',
+  it: 'colore',
+  ja: '色',
+  ko: '색깔',
+  lt: 'spalva',
+  ms: 'warna',
+  nb: 'farge',
+  nl: 'kleur',
+  pl: 'kolor',
+  pt: 'cor',
+  ru: 'цвет',
+  sv: 'Färg',
+  th: 'สี',
+  uk: 'колір',
+  zh: '颜色',
+  'zh-hant': '顏色',
+};
+
 // export const TEMPLATE_MESSAGES: { [L in Locale]: string } = {
 //   da: '',
 //   de: '',

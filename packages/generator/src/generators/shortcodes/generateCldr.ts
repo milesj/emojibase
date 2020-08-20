@@ -14,7 +14,11 @@ import buildAnnotationData from '../../builders/buildAnnotationData';
 import { ShortcodeDataMap } from '../../types';
 import writeDataset from '../../helpers/writeDataset';
 import Database from '../Database';
-import { SYMBOL_ASTERISK_MESSAGES, SYMBOL_HASH_MESSAGES } from '../../translations';
+import {
+  SYMBOL_ASTERISK_MESSAGES,
+  SYMBOL_HASH_MESSAGES,
+  SKIN_TONE_MESSAGES,
+} from '../../translations';
 
 const CUSTOM_SHORTCODES: { [key: string]: string } = {
   e_mail: 'email',
@@ -77,6 +81,8 @@ export default async function generateCldr(db: Database) {
       const annotations = await buildAnnotationData(locale);
       const cldr: ShortcodeDataMap = {};
       const cldrNonLatin: ShortcodeDataMap = {};
+      const skinToneSuffix = await slugify(SKIN_TONE_MESSAGES[locale], locale, true);
+      const skinToneSuffixNonLatin = await slugify(SKIN_TONE_MESSAGES[locale], locale);
       let hasLatin = false;
       let hasNonLatin = false;
 
@@ -103,13 +109,18 @@ export default async function generateCldr(db: Database) {
           // eslint-disable-next-line no-loop-func
           Object.values(emoji.modifications).forEach((mod) => {
             if (hasLatin) {
-              cldr[mod.hexcode] = appendSkinToneIndex(String(cldr[emoji.hexcode]), mod);
+              cldr[mod.hexcode] = appendSkinToneIndex(
+                String(cldr[emoji.hexcode]),
+                mod,
+                skinToneSuffix,
+              );
             }
 
             if (hasNonLatin) {
               cldrNonLatin[mod.hexcode] = appendSkinToneIndex(
                 String(cldrNonLatin[emoji.hexcode]),
                 mod,
+                skinToneSuffixNonLatin,
               );
             }
           });
