@@ -4,22 +4,18 @@ import writeDataset from '../../helpers/writeDataset';
 import { ShortcodeDataMap } from '../../types';
 import writeFile from '../../helpers/writeFile';
 import { SHORTCODE_GUIDELINES } from '../../constants';
-import log from '../../helpers/log';
 import Database from '../Database';
 import shortcodesResource from '../../resources/shortcodes';
 
 export default async function generateEmojibase(db: Database) {
+  db.preset = 'emojibase';
+
   const shortcodes: ShortcodeDataMap = {};
 
   db.emojiList.forEach((emoji) => {
     const list = shortcodesResource[emoji.hexcode as keyof typeof shortcodesResource];
 
     if (!list) {
-      log.error(
-        'shortcodes',
-        `Emojibase shortcode ${emoji.hexcode} does not exist within our system.`,
-      );
-
       return;
     }
 

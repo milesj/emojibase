@@ -112,31 +112,53 @@ export const TAG_LATIN_SMALL_LETTERS: { [hexcode: string]: string } = {
 };
 
 export const SHORTCODE_GUIDELINES = `/**
- * Official Emojibase shortcodes list.
+ * Official Emojibase shortcodes list and naming guidelines
  *
- * NAMING GUIDELINES
+ *  - All emoji should have a shortcode that matches or is
+ *    relatively close to its annotation.
  *
- *  - Gender neutral emoji must be prefixed with "person_",
- *    while female emoji use "woman_", and male "man_".
- *    Plural forms use "people_", "women_", and "men_".
- *    In rare occasions, the gender can be suffixed,
- *    like "bald_man" or "blonde_woman".
+ *  - All emoji should have at minimum 1 shortcode, and at
+ *    max 3 shortcodes. An exception to this rule applies to
+ *    extremely common emoji, like "thumbs up".
  *
- *  - Animals depicted from the side use the animal name,
- *    while animals depicted with a head, or a face,
- *    must use the animal name suffixed with "_face".
+ *  - For compatibility and consistency with third-party
+ *    shortcodes, attempt to adopt common shortcodes from
+ *    the community, but not all of them.
  *
- *  - Japenese specific emoji must be prefixed with "ja_".
+ * SMILEYS
  *
- *  - Specifiers, like color or size, must be used as a
- *    prefix. For example, "small_", or "red_".
+ *  - Emoji that are SUFFIXED with "face" should have a shortcode
+ *    with the face suffix, and another shorthand equivalent.
+ *    Example: "worried_face", "worried"
+ *
+ * PEOPLE
+ *
+ *  - Emoji in the form of "person <action>" should also include
+ *    shortcodes without the person prefix, in which they denote
+ *    verbs/nouns. Example: "person_swimming", "swimming", "swimmer"
+ *
+ *  - Emoji in the form of "person: <thing>" must omit the person
+ *    prefix from the shortcodes.
+ *    Example: "red_haired", "man_red_haired", "woman_red_haired"
+ *
+ *  - Emoji that are SUFFIXED with "person" should be used as is.
+ *    If there are man/woman variants, then it _must_ be suffixed.
+ *    Example: "deaf_person", "deaf_man", "deaf_woman".
+ *
+ * ANIMALS
+ *
+ *  - Emoji that are SUFFIXED with "face" should have a shortcode
+ *    with and without the face suffix (if the latter isn't taken).
+ *    Example: "bear_face", "bear"
+ *    Example (cat taken): "cat_face"
+ *
+ * WEATHER
  *
  *  - Use a more descriptive term over the annotation if
  *    applicable. For example, "storm" over the annotation
  *    "cloud with lightning and rain".
  *
- *  - Use emotions when describing smiley faces. For example,
- *    "happy" over the annotation "smiling face with open
- *    mouth & smiling eyes".
- *    https://www.dailywritingtips.com/100-words-for-facial-expressions/
+ * FLAGS
+ *
+ *  - All emoji should have both "flag_<locale>" and "<name>" shortcodes.
  */`;

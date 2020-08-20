@@ -108,7 +108,7 @@ export default {
 
   // VERSION 0.6
   // 😃 grinning face with big eyes
-  '1F603': ['grinning_face', 'smiley'],
+  '1F603': ['grinning_face_with_big_eyes', 'smiley'],
   // 😄 grinning face with smiling eyes
   '1F604': ['grinning_face_with_closed_eyes', 'smile'],
   // 😁 beaming face with smiling eyes
@@ -160,7 +160,7 @@ export default {
   // 😰 anxious face with sweat
   '1F630': ['anxious_face', 'anxious', 'cold_sweat'],
   // 😥 sad but relieved face
-  '1F625': ['relieved_face', 'disappointed_relieved'],
+  '1F625': ['sad_relieved_face', 'disappointed_relieved'],
   // 😢 crying face
   '1F622': ['crying_face', 'cry'],
   // 😭 loudly crying face
@@ -422,7 +422,7 @@ export default {
   // 🐎 horse
   '1F40E': ['horse', 'racehorse'],
   // 🐮 cow face
-  '1F42E': ['cow_face', 'cow'],
+  '1F42E': ['cow_face'],
   // 🐷 pig face
   '1F437': ['pig_face'],
   // 🐗 boar
@@ -848,7 +848,7 @@ export default {
   // 💧 droplet
   '1F4A7': ['droplet'],
   // 🌊 water wave
-  '1F30A': ['ocean', 'wave'],
+  '1F30A': ['water_wave', 'ocean'],
   // 🎃 jack-o-lantern
   '1F383': ['jack_o_lantern'],
   // 🎄 Christmas tree
@@ -1438,7 +1438,7 @@ export default {
   // 🆘 SOS button
   '1F198': ['sos'],
   // 🆙 UP! button
-  '1F199': ['up'],
+  '1F199': ['up2'],
   // 🆚 VS button
   '1F19A': ['vs'],
   // 🈁 Japanese “here” button
@@ -1486,7 +1486,7 @@ export default {
   // ⬛️ black large square
   '2B1B': ['black_large_square'],
   // ⬜️ white large square
-  '2B1C': ['black_large_square'],
+  '2B1C': ['white_large_square'],
   // ◼︎ black medium square
   '25FC': ['black_medium_square'],
   // ◻︎ white medium square
@@ -1836,7 +1836,7 @@ export default {
   // 😇 smiling face with halo
   '1F607': ['innocent', 'halo'],
   // 😗 kissing face
-  '1F617': ['kissing_face', 'kiss'],
+  '1F617': ['kissing_face', 'kissing'],
   // 😙 kissing face with smiling eyes
   '1F619': ['happy_kiss'],
   // 😛 face with tongue
@@ -3266,7 +3266,7 @@ export default {
   // 🥴 woozy face
   '1F974': ['woozy_face', 'woozy'],
   // 🥳 partying face
-  '1F973': ['partying_face', 'party', 'hooray'],
+  '1F973': ['partying_face', 'partying', 'hooray'],
   // 🥺 pleading face
   '1F97A': ['pleading_face', 'pleading'],
   // 🦵 leg

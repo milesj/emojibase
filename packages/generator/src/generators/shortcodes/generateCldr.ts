@@ -67,6 +67,8 @@ async function slugify(value: string, locale: Locale, transform: boolean = false
 }
 
 export default async function generateCldr(db: Database) {
+  db.preset = 'cldr';
+
   await kuroshiro.init(new KuromojiAnalyzer()); // Japanese
 
   return Promise.all(

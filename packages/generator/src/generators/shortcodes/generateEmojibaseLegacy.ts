@@ -5,6 +5,8 @@ import Database from '../Database';
 import shortcodesResource from '../../resources/shortcodesLegacy';
 
 export default async function generateEmojibaseLegacy(db: Database) {
+  db.preset = 'emojibase-legacy';
+
   const shortcodes: ShortcodeDataMap = {};
 
   db.emojiList.forEach((emoji) => {
