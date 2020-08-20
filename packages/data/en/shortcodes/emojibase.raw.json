@@ -1785,7 +1785,10 @@
     "iphone",
     "android"
   ],
-  "1F4F2": "calling",
+  "1F4F2": [
+    "mobile_phone_arrow",
+    "calling"
+  ],
   "1F4F3": "vibration_mode",
   "1F4F4": "mobile_phone_off",
   "1F4F5": "no_mobile_phones",
@@ -1810,8 +1813,14 @@
   ],
   "1F501": "repeat",
   "1F502": "repeat_one",
-  "1F503": "arrows_clockwise",
-  "1F504": "arrows_counterclockwise",
+  "1F503": [
+    "clockwise",
+    "arrows_clockwise"
+  ],
+  "1F504": [
+    "counterclockwise",
+    "arrows_counterclockwise"
+  ],
   "1F505": [
     "dim_button",
     "low_brightness"
@@ -1820,7 +1829,10 @@
     "bright_button",
     "high_brightness"
   ],
-  "1F507": "mute",
+  "1F507": [
+    "mute",
+    "no_sound"
+  ],
   "1F508": [
     "speaker",
     "low_volume",
@@ -1828,7 +1840,7 @@
   ],
   "1F509": "sound",
   "1F50A": [
-    "high_volumne",
+    "high_volume",
     "loud_sound"
   ],
   "1F50B": "battery",
@@ -2502,7 +2514,10 @@
   "1F6A6": "vertical_traffic_light",
   "1F6A7": "construction",
   "1F6A8": "rotating_light",
-  "1F6A9": "triangular_flag_on_post",
+  "1F6A9": [
+    "triangular_flag",
+    "triangular_flag_on_post"
+  ],
   "1F6AA": "door",
   "1F6AB": "no_entry_sign",
   "1F6AC": [

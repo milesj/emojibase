@@ -986,7 +986,7 @@ export default {
   // 💎 gem stone
   '1F48E': ['gem'],
   // 🔊 speaker high volume
-  '1F50A': ['high_volumne', 'loud_sound'],
+  '1F50A': ['high_volume', 'loud_sound'],
   // 📢 loudspeaker
   '1F4E2': ['loudspeaker'],
   // 📣 megaphone
@@ -1018,7 +1018,7 @@ export default {
   // 📱 mobile phone
   '1F4F1': ['mobile_phone', 'iphone', 'android'],
   // 📲 mobile phone with arrow
-  '1F4F2': ['calling'],
+  '1F4F2': ['mobile_phone_arrow', 'calling'],
   // ☎︎ telephone
   '260E': ['telephone'],
   // 📞 telephone receiver
@@ -1250,7 +1250,7 @@ export default {
   // ⤵︎ right arrow curving down
   '2935': ['arrow_heading_down'],
   // 🔃 clockwise vertical arrows
-  '1F503': ['arrows_clockwise'],
+  '1F503': ['clockwise', 'arrows_clockwise'],
   // 🔙 BACK arrow
   '1F519': ['back'],
   // 🔚 END arrow
@@ -1524,7 +1524,7 @@ export default {
   // 🏁 chequered flag
   '1F3C1': ['checkered_flag'],
   // 🚩 triangular flag
-  '1F6A9': ['triangular_flag_on_post'],
+  '1F6A9': ['triangular_flag', 'triangular_flag_on_post'],
   // 🎌 crossed flags
   '1F38C': ['crossed_flags'],
   // 🇨🇳 flag: China
@@ -2080,7 +2080,7 @@ export default {
   // 📿 prayer beads
   '1F4FF': ['prayer_beads'],
   // 🔇 muted speaker
-  '1F507': ['mute'],
+  '1F507': ['mute', 'no_sound'],
   // 🔉 speaker medium volume
   '1F509': ['sound'],
   // 📯 postal horn
@@ -2148,7 +2148,7 @@ export default {
   // ☣︎ biohazard
   '2623': ['biohazard'],
   // 🔄 counterclockwise arrows button
-  '1F504': ['arrows_counterclockwise'],
+  '1F504': ['counterclockwise', 'arrows_counterclockwise'],
   // 🛐 place of worship
   '1F6D0': ['place_of_worship'],
   // ⚛︎ atom symbol
