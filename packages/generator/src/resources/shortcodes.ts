@@ -50,6 +50,8 @@
  * FLAGS
  *
  *  - All emoji should have both "flag_<locale>" and "<name>" shortcodes.
+ *    Do NOT provide a 2 letter shortcode as it will conflict with many
+ *    non-flag shortcodes that also use 2 letters.
  */
 
 export default {
@@ -130,7 +132,7 @@ export default {
   // ☺︎ smiling face
   '263A': ['smiling_face', 'relaxed'],
   // 😚 kissing face with closed eyes
-  '1F61A': ['kissing_face_with_closed_eyes'],
+  '1F61A': ['kissing_face_with_closed_eyes', 'kissing_closed_eyes'],
   // 😋 face savoring food
   '1F60B': ['savoring_food', 'yum'],
   // 😜 winking face with tongue
@@ -186,7 +188,7 @@ export default {
   // 😠 angry face
   '1F620': ['angry_face', 'angry'],
   // 👿 angry face with horns
-  '1F47F': ['angry_imp'],
+  '1F47F': ['angry_imp', 'imp'],
   // 💀 skull
   '1F480': ['skull'],
   // 💩 pile of poo
@@ -260,7 +262,7 @@ export default {
   // 💯 hundred points
   '1F4AF': ['100'],
   // 💢 anger symbol
-  '1F4A2': ['anger_symbol'],
+  '1F4A2': ['anger'],
   // 💥 collision
   '1F4A5': ['collision', 'boom'],
   // 💫 dizzy
@@ -352,7 +354,7 @@ export default {
   // 🙋 person raising hand
   '1F64B': ['person_raising_hand'],
   // 🙇 person bowing
-  '1F647': ['person_bowing', 'bowing', 'bow'],
+  '1F647': ['person_bowing', 'bow'],
   // 👮 police officer
   '1F46E': ['police_officer', 'cop'],
   // 💂 guard
@@ -1838,7 +1840,7 @@ export default {
   // 😗 kissing face
   '1F617': ['kissing_face', 'kissing'],
   // 😙 kissing face with smiling eyes
-  '1F619': ['happy_kiss'],
+  '1F619': ['kissing_face_with_smiling_eyes', 'kissing_smiling_eyes'],
   // 😛 face with tongue
   '1F61B': ['face_with_tongue', 'stuck_out_tongue'],
   // 🤑 money-mouth face
@@ -1864,9 +1866,9 @@ export default {
   // 🤕 face with head-bandage
   '1F915': ['face_with_head_bandage'],
   // 😎 smiling face with sunglasses
-  '1F60E': ['smiling_face_with_sunglasses'],
+  '1F60E': ['smiling_face_with_sunglasses', 'sunglasses_cool', 'too_cool'],
   // 🤓 nerd face
-  '1F913': ['nerd_face', 'nerdy'],
+  '1F913': ['nerd_face', 'nerd'],
   // 😕 confused face
   '1F615': ['confused_face', 'confused'],
   // 😟 worried face
@@ -2754,9 +2756,9 @@ export default {
   // 🤳 selfie
   '1F933': ['selfie'],
   // 🤦 person facepalming
-  '1F926': ['person_facepalming', 'facepalming', 'facepalm'],
+  '1F926': ['person_facepalming', 'facepalm'],
   // 🤷 person shrugging
-  '1F937': ['person_shrugging', 'shrugging', 'shrug'],
+  '1F937': ['person_shrugging', 'shrug'],
   // 🤴 prince
   '1F934': ['prince'],
   // 🤵 person in tuxedo
@@ -2774,7 +2776,7 @@ export default {
   // 🤼 people wrestling
   '1F93C': ['people_wrestling', 'wrestling', 'wrestlers'],
   // 🤽 person playing water polo
-  '1F93D': ['person_water_polo', 'water_polo'],
+  '1F93D': ['person_playing_water_polo', 'water_polo'],
   // 🤾 person playing handball
   '1F93E': ['person_playing_handball', 'handball'],
   // 🤹 person juggling
@@ -3054,9 +3056,9 @@ export default {
   // 🤼‍♀️ women wrestling
   '1F93C-200D-2640-FE0F': ['women_wrestling'],
   // 🤽‍♂️ man playing water polo
-  '1F93D-200D-2642-FE0F': ['man_water_polo'],
+  '1F93D-200D-2642-FE0F': ['man_playing_water_polo'],
   // 🤽‍♀️ woman playing water polo
-  '1F93D-200D-2640-FE0F': ['woman_water_polo'],
+  '1F93D-200D-2640-FE0F': ['woman_playing_water_polo'],
   // 🤾‍♂️ man playing handball
   '1F93E-200D-2642-FE0F': ['man_playing_handball'],
   // 🤾‍♀️ woman playing handball
@@ -3128,7 +3130,7 @@ export default {
   // 🧑 person
   '1F9D1': ['adult'],
   // 🧔 man: beard
-  '1F9D4': ['man_beard'],
+  '1F9D4': ['man_bearded'],
   // 🧓 older person
   '1F9D3': ['older_adult'],
   // 🧕 woman with headscarf
@@ -3454,9 +3456,9 @@ export default {
   // 🧎‍♀️ woman kneeling
   '1F9CE-200D-2640-FE0F': ['woman_kneeling'],
   // 👨‍🦯 man with white cane
-  '1F468-200D-1F9AF': ['man_with_probing_cane'],
+  '1F468-200D-1F9AF': ['man_with_white_cane', 'man_with_probing_cane'],
   // 👩‍🦯 woman with white cane
-  '1F469-200D-1F9AF': ['woman_with_probing_cane'],
+  '1F469-200D-1F9AF': ['woman_with_white_cane', 'woman_with_probing_cane'],
   // 👨‍🦼 man in motorized wheelchair
   '1F468-200D-1F9BC': ['man_in_motorized_wheelchair'],
   // 👩‍🦼 woman in motorized wheelchair

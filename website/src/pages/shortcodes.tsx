@@ -12,6 +12,22 @@ function noop<T>(value: T): T {
   return value;
 }
 
+function isAllSameShortcodes(...shortcodes: (string | string[])[]) {
+  let lastCode = '';
+
+  for (const shortcode of shortcodes) {
+    const code = Array.isArray(shortcode) ? shortcode.join(',') : shortcode;
+
+    if (!lastCode) {
+      lastCode = code;
+    } else if (lastCode !== code) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
 export default function ShortcodesTable() {
   const [emojis, setEmojis] = useState<Emoji[]>([]);
   const [cldr, setCldr] = useState<ShortcodesDataset>({});
@@ -88,37 +104,61 @@ export default function ShortcodesTable() {
                     </td>
                   </tr>
 
-                  {emojis.map((emoji) => (
-                    <tr key={emoji.hexcode} data-hexcode={emoji.hexcode}>
-                      <td className="text--center emoji--large">{emoji.emoji || emoji.text}</td>
-                      <td>
-                        <div>{emoji.annotation}</div>
-                        <div className="text--muted no-wrap">{emoji.hexcode}</div>
-                      </td>
-                      <td>
-                        <Shortcodes preset="cldr" shortcodes={cldr[emoji.hexcode]} />
-                      </td>
-                      <td>
-                        <Shortcodes preset="emojibase" shortcodes={emojibase[emoji.hexcode]} />
-                      </td>
-                      <td>
-                        <Shortcodes
-                          preset="emojibase-legacy"
-                          shortcodes={emojibase[emoji.hexcode]}
-                        />
-                      </td>
-                      <td>
-                        <Shortcodes preset="github" shortcodes={github[emoji.hexcode]} />
-                      </td>
-                      <td>
-                        <Shortcodes preset="iamcal" shortcodes={iamcal[emoji.hexcode]} />
-                      </td>
-                      <td>
-                        <Shortcodes preset="joypixels" shortcodes={joyPixels[emoji.hexcode]} />
-                      </td>
-                      <td className="text--center emoji--large">{emoji.emoji || emoji.text}</td>
-                    </tr>
-                  ))}
+                  {emojis.map((emoji) => {
+                    const isAllSame = isAllSameShortcodes(
+                      emojibase[emoji.hexcode],
+                      emojibaseLegacy[emoji.hexcode],
+                      github[emoji.hexcode],
+                      iamcal[emoji.hexcode],
+                      joyPixels[emoji.hexcode],
+                    );
+
+                    return (
+                      <tr key={emoji.hexcode} data-hexcode={emoji.hexcode}>
+                        <td className="text--center emoji--large">{emoji.emoji || emoji.text}</td>
+                        <td>
+                          <div>{emoji.annotation}</div>
+                          <div className="text--muted no-wrap">{emoji.hexcode}</div>
+                        </td>
+                        <td>
+                          <Shortcodes preset="cldr" shortcodes={cldr[emoji.hexcode]} />
+                        </td>
+                        {isAllSame ? (
+                          <td colSpan={5}>
+                            <Shortcodes preset="emojibase" shortcodes={emojibase[emoji.hexcode]} />
+                          </td>
+                        ) : (
+                          <>
+                            <td>
+                              <Shortcodes
+                                preset="emojibase"
+                                shortcodes={emojibase[emoji.hexcode]}
+                              />
+                            </td>
+                            <td>
+                              <Shortcodes
+                                preset="emojibase-legacy"
+                                shortcodes={emojibaseLegacy[emoji.hexcode]}
+                              />
+                            </td>
+                            <td>
+                              <Shortcodes preset="github" shortcodes={github[emoji.hexcode]} />
+                            </td>
+                            <td>
+                              <Shortcodes preset="iamcal" shortcodes={iamcal[emoji.hexcode]} />
+                            </td>
+                            <td>
+                              <Shortcodes
+                                preset="joypixels"
+                                shortcodes={joyPixels[emoji.hexcode]}
+                              />
+                            </td>
+                          </>
+                        )}
+                        <td className="text--center emoji--large">{emoji.emoji || emoji.text}</td>
+                      </tr>
+                    );
+                  })}
                 </>
               )}
             </tbody>

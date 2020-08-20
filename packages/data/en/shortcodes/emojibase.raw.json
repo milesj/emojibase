@@ -1481,7 +1481,10 @@
     "alien_monster",
     "space_invader"
   ],
-  "1F47F": "angry_imp",
+  "1F47F": [
+    "angry_imp",
+    "imp"
+  ],
   "1F480": "skull",
   "1F481": "person_tipping_hand",
   "1F481-1F3FB": "person_tipping_hand_tone1",
@@ -1642,7 +1645,7 @@
     "light_bulb",
     "bulb"
   ],
-  "1F4A2": "anger_symbol",
+  "1F4A2": "anger",
   "1F4A3": "bomb",
   "1F4A4": "zzz",
   "1F4A5": [
@@ -2097,7 +2100,11 @@
     "smiling_face_with_heart_eyes",
     "heart_eyes"
   ],
-  "1F60E": "smiling_face_with_sunglasses",
+  "1F60E": [
+    "smiling_face_with_sunglasses",
+    "sunglasses_cool",
+    "too_cool"
+  ],
   "1F60F": [
     "smirking_face",
     "smirking",
@@ -2139,8 +2146,14 @@
     "blowing_a_kiss",
     "kissing_heart"
   ],
-  "1F619": "happy_kiss",
-  "1F61A": "kissing_face_with_closed_eyes",
+  "1F619": [
+    "kissing_face_with_smiling_eyes",
+    "kissing_smiling_eyes"
+  ],
+  "1F61A": [
+    "kissing_face_with_closed_eyes",
+    "kissing_closed_eyes"
+  ],
   "1F61B": [
     "face_with_tongue",
     "stuck_out_tongue"
@@ -2325,32 +2338,26 @@
   ],
   "1F647": [
     "person_bowing",
-    "bowing",
     "bow"
   ],
   "1F647-1F3FB": [
     "person_bowing_tone1",
-    "bowing_tone1",
     "bow_tone1"
   ],
   "1F647-1F3FC": [
     "person_bowing_tone2",
-    "bowing_tone2",
     "bow_tone2"
   ],
   "1F647-1F3FD": [
     "person_bowing_tone3",
-    "bowing_tone3",
     "bow_tone3"
   ],
   "1F647-1F3FE": [
     "person_bowing_tone4",
-    "bowing_tone4",
     "bow_tone4"
   ],
   "1F647-1F3FF": [
     "person_bowing_tone5",
-    "bowing_tone5",
     "bow_tone5"
   ],
   "1F648": "see_no_evil",
@@ -2758,7 +2765,7 @@
   "1F912": "face_with_thermometer",
   "1F913": [
     "nerd_face",
-    "nerdy"
+    "nerd"
   ],
   "1F914": [
     "thinking_face",
@@ -2858,32 +2865,26 @@
   ],
   "1F926": [
     "person_facepalming",
-    "facepalming",
     "facepalm"
   ],
   "1F926-1F3FB": [
     "person_facepalming_tone1",
-    "facepalming_tone1",
     "facepalm_tone1"
   ],
   "1F926-1F3FC": [
     "person_facepalming_tone2",
-    "facepalming_tone2",
     "facepalm_tone2"
   ],
   "1F926-1F3FD": [
     "person_facepalming_tone3",
-    "facepalming_tone3",
     "facepalm_tone3"
   ],
   "1F926-1F3FE": [
     "person_facepalming_tone4",
-    "facepalming_tone4",
     "facepalm_tone4"
   ],
   "1F926-1F3FF": [
     "person_facepalming_tone5",
-    "facepalming_tone5",
     "facepalm_tone5"
   ],
   "1F927": [
@@ -2957,32 +2958,26 @@
   "1F936-1F3FF": "mrs_claus_tone5",
   "1F937": [
     "person_shrugging",
-    "shrugging",
     "shrug"
   ],
   "1F937-1F3FB": [
     "person_shrugging_tone1",
-    "shrugging_tone1",
     "shrug_tone1"
   ],
   "1F937-1F3FC": [
     "person_shrugging_tone2",
-    "shrugging_tone2",
     "shrug_tone2"
   ],
   "1F937-1F3FD": [
     "person_shrugging_tone3",
-    "shrugging_tone3",
     "shrug_tone3"
   ],
   "1F937-1F3FE": [
     "person_shrugging_tone4",
-    "shrugging_tone4",
     "shrug_tone4"
   ],
   "1F937-1F3FF": [
     "person_shrugging_tone5",
-    "shrugging_tone5",
     "shrug_tone5"
   ],
   "1F938": [
@@ -3050,27 +3045,27 @@
     "wrestlers"
   ],
   "1F93D": [
-    "person_water_polo",
+    "person_playing_water_polo",
     "water_polo"
   ],
   "1F93D-1F3FB": [
-    "person_water_polo_tone1",
+    "person_playing_water_polo_tone1",
     "water_polo_tone1"
   ],
   "1F93D-1F3FC": [
-    "person_water_polo_tone2",
+    "person_playing_water_polo_tone2",
     "water_polo_tone2"
   ],
   "1F93D-1F3FD": [
-    "person_water_polo_tone3",
+    "person_playing_water_polo_tone3",
     "water_polo_tone3"
   ],
   "1F93D-1F3FE": [
-    "person_water_polo_tone4",
+    "person_playing_water_polo_tone4",
     "water_polo_tone4"
   ],
   "1F93D-1F3FF": [
-    "person_water_polo_tone5",
+    "person_playing_water_polo_tone5",
     "water_polo_tone5"
   ],
   "1F93E": [
@@ -3413,12 +3408,12 @@
   "1F9D3-1F3FD": "older_adult_tone3",
   "1F9D3-1F3FE": "older_adult_tone4",
   "1F9D3-1F3FF": "older_adult_tone5",
-  "1F9D4": "man_beard",
-  "1F9D4-1F3FB": "man_beard_tone1",
-  "1F9D4-1F3FC": "man_beard_tone2",
-  "1F9D4-1F3FD": "man_beard_tone3",
-  "1F9D4-1F3FE": "man_beard_tone4",
-  "1F9D4-1F3FF": "man_beard_tone5",
+  "1F9D4": "man_bearded",
+  "1F9D4-1F3FB": "man_bearded_tone1",
+  "1F9D4-1F3FC": "man_bearded_tone2",
+  "1F9D4-1F3FD": "man_bearded_tone3",
+  "1F9D4-1F3FE": "man_bearded_tone4",
+  "1F9D4-1F3FF": "man_bearded_tone5",
   "1F9D5": "woman_headscarf",
   "1F9D5-1F3FB": "woman_headscarf_tone1",
   "1F9D5-1F3FC": "woman_headscarf_tone2",
@@ -4828,12 +4823,30 @@
   "1F468-1F3FD-200D-1F692": "man_firefighter_tone3",
   "1F468-1F3FE-200D-1F692": "man_firefighter_tone4",
   "1F468-1F3FF-200D-1F692": "man_firefighter_tone5",
-  "1F468-200D-1F9AF": "man_with_probing_cane",
-  "1F468-1F3FB-200D-1F9AF": "man_with_probing_cane_tone1",
-  "1F468-1F3FC-200D-1F9AF": "man_with_probing_cane_tone2",
-  "1F468-1F3FD-200D-1F9AF": "man_with_probing_cane_tone3",
-  "1F468-1F3FE-200D-1F9AF": "man_with_probing_cane_tone4",
-  "1F468-1F3FF-200D-1F9AF": "man_with_probing_cane_tone5",
+  "1F468-200D-1F9AF": [
+    "man_with_white_cane",
+    "man_with_probing_cane"
+  ],
+  "1F468-1F3FB-200D-1F9AF": [
+    "man_with_white_cane_tone1",
+    "man_with_probing_cane_tone1"
+  ],
+  "1F468-1F3FC-200D-1F9AF": [
+    "man_with_white_cane_tone2",
+    "man_with_probing_cane_tone2"
+  ],
+  "1F468-1F3FD-200D-1F9AF": [
+    "man_with_white_cane_tone3",
+    "man_with_probing_cane_tone3"
+  ],
+  "1F468-1F3FE-200D-1F9AF": [
+    "man_with_white_cane_tone4",
+    "man_with_probing_cane_tone4"
+  ],
+  "1F468-1F3FF-200D-1F9AF": [
+    "man_with_white_cane_tone5",
+    "man_with_probing_cane_tone5"
+  ],
   "1F468-200D-1F9BC": "man_in_motorized_wheelchair",
   "1F468-1F3FB-200D-1F9BC": "man_in_motorized_wheelchair_tone1",
   "1F468-1F3FC-200D-1F9BC": "man_in_motorized_wheelchair_tone2",
@@ -4948,12 +4961,30 @@
   "1F469-1F3FD-200D-1F692": "woman_firefighter_tone3",
   "1F469-1F3FE-200D-1F692": "woman_firefighter_tone4",
   "1F469-1F3FF-200D-1F692": "woman_firefighter_tone5",
-  "1F469-200D-1F9AF": "woman_with_probing_cane",
-  "1F469-1F3FB-200D-1F9AF": "woman_with_probing_cane_tone1",
-  "1F469-1F3FC-200D-1F9AF": "woman_with_probing_cane_tone2",
-  "1F469-1F3FD-200D-1F9AF": "woman_with_probing_cane_tone3",
-  "1F469-1F3FE-200D-1F9AF": "woman_with_probing_cane_tone4",
-  "1F469-1F3FF-200D-1F9AF": "woman_with_probing_cane_tone5",
+  "1F469-200D-1F9AF": [
+    "woman_with_white_cane",
+    "woman_with_probing_cane"
+  ],
+  "1F469-1F3FB-200D-1F9AF": [
+    "woman_with_white_cane_tone1",
+    "woman_with_probing_cane_tone1"
+  ],
+  "1F469-1F3FC-200D-1F9AF": [
+    "woman_with_white_cane_tone2",
+    "woman_with_probing_cane_tone2"
+  ],
+  "1F469-1F3FD-200D-1F9AF": [
+    "woman_with_white_cane_tone3",
+    "woman_with_probing_cane_tone3"
+  ],
+  "1F469-1F3FE-200D-1F9AF": [
+    "woman_with_white_cane_tone4",
+    "woman_with_probing_cane_tone4"
+  ],
+  "1F469-1F3FF-200D-1F9AF": [
+    "woman_with_white_cane_tone5",
+    "woman_with_probing_cane_tone5"
+  ],
   "1F469-200D-1F9BC": "woman_in_motorized_wheelchair",
   "1F469-1F3FB-200D-1F9BC": "woman_in_motorized_wheelchair_tone1",
   "1F469-1F3FC-200D-1F9BC": "woman_in_motorized_wheelchair_tone2",
@@ -5480,18 +5511,18 @@
   "1F939-1F3FF-200D-2642-FE0F": "man_juggling_tone5",
   "1F93C-200D-2640-FE0F": "women_wrestling",
   "1F93C-200D-2642-FE0F": "men_wrestling",
-  "1F93D-200D-2640-FE0F": "woman_water_polo",
-  "1F93D-1F3FB-200D-2640-FE0F": "woman_water_polo_tone1",
-  "1F93D-1F3FC-200D-2640-FE0F": "woman_water_polo_tone2",
-  "1F93D-1F3FD-200D-2640-FE0F": "woman_water_polo_tone3",
-  "1F93D-1F3FE-200D-2640-FE0F": "woman_water_polo_tone4",
-  "1F93D-1F3FF-200D-2640-FE0F": "woman_water_polo_tone5",
-  "1F93D-200D-2642-FE0F": "man_water_polo",
-  "1F93D-1F3FB-200D-2642-FE0F": "man_water_polo_tone1",
-  "1F93D-1F3FC-200D-2642-FE0F": "man_water_polo_tone2",
-  "1F93D-1F3FD-200D-2642-FE0F": "man_water_polo_tone3",
-  "1F93D-1F3FE-200D-2642-FE0F": "man_water_polo_tone4",
-  "1F93D-1F3FF-200D-2642-FE0F": "man_water_polo_tone5",
+  "1F93D-200D-2640-FE0F": "woman_playing_water_polo",
+  "1F93D-1F3FB-200D-2640-FE0F": "woman_playing_water_polo_tone1",
+  "1F93D-1F3FC-200D-2640-FE0F": "woman_playing_water_polo_tone2",
+  "1F93D-1F3FD-200D-2640-FE0F": "woman_playing_water_polo_tone3",
+  "1F93D-1F3FE-200D-2640-FE0F": "woman_playing_water_polo_tone4",
+  "1F93D-1F3FF-200D-2640-FE0F": "woman_playing_water_polo_tone5",
+  "1F93D-200D-2642-FE0F": "man_playing_water_polo",
+  "1F93D-1F3FB-200D-2642-FE0F": "man_playing_water_polo_tone1",
+  "1F93D-1F3FC-200D-2642-FE0F": "man_playing_water_polo_tone2",
+  "1F93D-1F3FD-200D-2642-FE0F": "man_playing_water_polo_tone3",
+  "1F93D-1F3FE-200D-2642-FE0F": "man_playing_water_polo_tone4",
+  "1F93D-1F3FF-200D-2642-FE0F": "man_playing_water_polo_tone5",
   "1F93E-200D-2640-FE0F": "woman_playing_handball",
   "1F93E-1F3FB-200D-2640-FE0F": "woman_playing_handball_tone1",
   "1F93E-1F3FC-200D-2640-FE0F": "woman_playing_handball_tone2",
