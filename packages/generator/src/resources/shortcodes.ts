@@ -1,9 +1,7 @@
 /* eslint-disable sort-keys */
 
 /**
- * Official Emojibase shortcodes list.
- *
- * NAMING GUIDELINES
+ * Official Emojibase shortcodes list and naming guidelines
  *
  *  - All emoji should have a shortcode that matches or is
  *    relatively close to its annotation.
@@ -11,6 +9,10 @@
  *  - All emoji should have at minimum 1 shortcode, and at
  *    max 3 shortcodes. An exception to this rule applies to
  *    extremely common emoji, like "thumbs up".
+ *
+ *  - For compatibility and consistency with third-party
+ *    shortcodes, attempt to adopt common shortcodes from
+ *    the community, but not all of them.
  *
  * SMILEYS
  *
@@ -25,11 +27,11 @@
  *    verbs/nouns. Example: "person_swimming", "swimming", "swimmer"
  *
  *  - Emoji in the form of "person: <thing>" must omit the person
- *    suffix from the shortcodes.
+ *    prefix from the shortcodes.
  *    Example: "red_haired", "man_red_haired", "woman_red_haired"
  *
  *  - Emoji that are SUFFIXED with "person" should be used as is.
- *    If there are man/woman variants, then it must be suffixed.
+ *    If there are man/woman variants, then it _must_ be suffixed.
  *    Example: "deaf_person", "deaf_man", "deaf_woman".
  *
  * ANIMALS
@@ -106,31 +108,31 @@ export default {
 
   // VERSION 0.6
   // 😃 grinning face with big eyes
-  '1F603': ['grinning_big_eyes', 'smiley'],
+  '1F603': ['grinning_face', 'smiley'],
   // 😄 grinning face with smiling eyes
-  '1F604': ['grinning_smiling_eyes', 'smile'],
+  '1F604': ['grinning_face_with_closed_eyes', 'smile'],
   // 😁 beaming face with smiling eyes
-  '1F601': ['beaming_smiling_eyes', 'grin'],
+  '1F601': ['beaming_face', 'grin'],
   // 😆 grinning squinting face
   '1F606': ['squinting_face', 'laughing', 'satisfied'],
   // 😅 grinning face with sweat
-  '1F605': ['grinning_sweat', 'sweat_smile'],
+  '1F605': ['grinning_face_with_sweat', 'sweat_smile'],
   // 😂 face with tears of joy
-  '1F602': ['joy'],
+  '1F602': ['tears_of_joy', 'joy'],
   // 😉 winking face
   '1F609': ['winking_face', 'wink'],
   // 😊 smiling face with smiling eyes
-  '1F60A': ['smiling_eyes', 'blush'],
+  '1F60A': ['smiling_face_with_closed_eyes', 'blush'],
   // 😍 smiling face with heart-eyes
-  '1F60D': ['heart_eyes'],
+  '1F60D': ['smiling_face_with_heart_eyes', 'heart_eyes'],
   // 😘 face blowing a kiss
   '1F618': ['blowing_a_kiss', 'kissing_heart'],
   // ☺︎ smiling face
   '263A': ['smiling_face', 'relaxed'],
   // 😚 kissing face with closed eyes
-  '1F61A': ['kissing_closed_eyes'],
+  '1F61A': ['kissing_face_with_closed_eyes'],
   // 😋 face savoring food
-  '1F60B': ['yum'],
+  '1F60B': ['savoring_food', 'yum'],
   // 😜 winking face with tongue
   '1F61C': ['stuck_out_tongue_winking_eye'],
   // 😝 squinting face with tongue
@@ -164,7 +166,7 @@ export default {
   // 😭 loudly crying face
   '1F62D': ['loudly_crying_face', 'sob'],
   // 😱 face screaming in fear
-  '1F631': ['scream'],
+  '1F631': ['screaming_in_fear', 'scream'],
   // 😖 confounded face
   '1F616': ['confounded_face', 'confounded'],
   // 😣 persevering face
@@ -200,13 +202,13 @@ export default {
   // 👾 alien monster
   '1F47E': ['alien_monster', 'space_invader'],
   // 😺 grinning cat
-  '1F63A': ['smiley_cat'],
+  '1F63A': ['grinning_cat', 'smiley_cat'],
   // 😸 grinning cat with smiling eyes
-  '1F638': ['smile_cat'],
+  '1F638': ['grinning_cat_with_closed_eyes', 'smile_cat'],
   // 😹 cat with tears of joy
   '1F639': ['joy_cat'],
   // 😻 smiling cat with heart-eyes
-  '1F63B': ['heart_eyes_cat'],
+  '1F63B': ['smiling_cat_with_heart_eyes', 'heart_eyes_cat'],
   // 😼 cat with wry smile
   '1F63C': ['wry_smile_cat', 'smirk_cat'],
   // 😽 kissing cat
@@ -260,7 +262,7 @@ export default {
   // 💢 anger symbol
   '1F4A2': ['anger_symbol'],
   // 💥 collision
-  '1F4A5': ['boom', 'collision'],
+  '1F4A5': ['collision', 'boom'],
   // 💫 dizzy
   '1F4AB': ['dizzy'],
   // 💦 sweat droplets
@@ -456,9 +458,9 @@ export default {
   // 🐥 front-facing baby chick
   '1F425': ['hatched_chick'],
   // 🐦️ bird
-  '1F426': ['bird'],
+  '1F426': ['bird_face', 'bird'],
   // 🐧 penguin
-  '1F427': ['penguin'],
+  '1F427': ['penguin_face', 'penguin'],
   // 🐸 frog
   '1F438': ['frog_face', 'frog'],
   // 🐢 turtle
@@ -860,7 +862,7 @@ export default {
   // 🎈 balloon
   '1F388': ['balloon'],
   // 🎉 party popper
-  '1F389': ['tada', 'party'],
+  '1F389': ['party_popper', 'party', 'tada'],
   // 🎊 confetti ball
   '1F38A': ['confetti_ball'],
   // 🎋 tanabata tree
@@ -898,13 +900,13 @@ export default {
   // ⛳️ flag in hole
   '26F3': ['golf'],
   // 🎣 fishing pole
-  '1F3A3': ['fishing_pole_and_fish'],
+  '1F3A3': ['fishing_pole', 'fishing_pole_and_fish'],
   // 🎽 running shirt
-  '1F3BD': ['running_shirt_with_sash'],
+  '1F3BD': ['running_shirt', 'running_shirt_with_sash'],
   // 🎿 skis
   '1F3BF': ['ski'],
   // 🎯 direct hit
-  '1F3AF': ['dart'],
+  '1F3AF': ['direct_hit', 'dart'],
   // 🎱 pool 8 ball
   '1F3B1': ['8ball'],
   // 🔮 crystal ball
@@ -982,7 +984,7 @@ export default {
   // 💎 gem stone
   '1F48E': ['gem'],
   // 🔊 speaker high volume
-  '1F50A': ['loud_sound'],
+  '1F50A': ['high_volumne', 'loud_sound'],
   // 📢 loudspeaker
   '1F4E2': ['loudspeaker'],
   // 📣 megaphone
@@ -1048,7 +1050,7 @@ export default {
   // 📹️ video camera
   '1F4F9': ['video_camera'],
   // 📼 videocassette
-  '1F4FC': ['vhs'],
+  '1F4FC': ['videocassette', 'vhs'],
   // 🔍️ magnifying glass tilted left
   '1F50D': ['mag'],
   // 🔎 magnifying glass tilted right
@@ -1058,7 +1060,7 @@ export default {
   // 🔦 flashlight
   '1F526': ['flashlight'],
   // 🏮 red paper lantern
-  '1F3EE': ['izakaya_lantern'],
+  '1F3EE': ['red_paper_lantern', 'izakaya_lantern'],
   // 📔 notebook with decorative cover
   '1F4D4': ['notebook_with_decorative_cover'],
   // 📕 closed book
@@ -1172,7 +1174,7 @@ export default {
   // 🔨 hammer
   '1F528': ['hammer'],
   // 🔫 pistol
-  '1F52B': ['gun'],
+  '1F52B': ['pistol', 'gun'],
   // 🔧 wrench
   '1F527': ['wrench'],
   // 🔩 nut and bolt
@@ -1286,21 +1288,21 @@ export default {
   // ⛎ Ophiuchus
   '26CE': ['ophiuchus'],
   // ▶︎ play button
-  '25B6': ['play_button', 'arrow_forward'],
+  '25B6': ['play', 'arrow_forward'],
   // ⏩️ fast-forward button
-  '23E9': ['fast_forward_button'],
+  '23E9': ['fast_forward'],
   // ◀︎ reverse button
-  '25C0': ['reverse_button', 'arrow_backward'],
+  '25C0': ['reverse', 'arrow_backward'],
   // ⏪️ fast reverse button
-  '23EA': ['rewind_button'],
+  '23EA': ['rewind', 'fast_reverse'],
   // 🔼 upwards button
-  '1F53C': ['up_button', 'arrow_up_small'],
+  '1F53C': ['up', 'arrow_up_small'],
   // ⏫ fast up button
-  '23EB': ['fast_up_button', 'arrow_double_up'],
+  '23EB': ['fast_up', 'arrow_double_up'],
   // 🔽 downwards button
-  '1F53D': ['down_button', 'arrow_down_small'],
+  '1F53D': ['down', 'arrow_down_small'],
   // ⏬ fast down button
-  '23EC': ['fast_down_button', 'arrow_double_down'],
+  '23EC': ['fast_down', 'arrow_double_down'],
   // 🎦 cinema
   '1F3A6': ['cinema'],
   // 📶 antenna bars
@@ -1352,7 +1354,7 @@ export default {
   // ✔︎ check mark
   '2714': ['check_mark', 'heavy_check_mark'],
   // ❌ cross mark
-  '274C': ['x', 'cross_mark'],
+  '274C': ['cross_mark', 'x'],
   // ❎ cross mark button
   '274E': ['cross_mark_button', 'negative_squared_cross_mark'],
   // ➰ curly loop
@@ -1546,7 +1548,7 @@ export default {
 
   // VERSION 0.7
   // 😐️ neutral face
-  '1F610': ['neutral_face'],
+  '1F610': ['neutral_face', 'neutral'],
   // ☹︎ frowning face
   '2639': ['white_frowning_face'],
   // 🕳︎ hole
@@ -1564,7 +1566,7 @@ export default {
   // 🕴︎ person in suit levitating
   '1F574': ['person_in_suit_levitating', 'levitating', 'levitate'],
   // ⛷︎ skier
-  '26F7': ['skier'],
+  '26F7': ['person_skiing', 'skiing', 'skier'],
   // 🏌︎ person golfing
   '1F3CC': ['person_golfing', 'golfing', 'golfer'],
   // ⛹︎ person bouncing ball
@@ -1684,7 +1686,7 @@ export default {
   // 🌡︎ thermometer
   '1F321': ['thermometer'],
   // ⛈︎ cloud with lightning and rain
-  '26C8': ['thunder_cloud_and_rain', 'storm'],
+  '26C8': ['thunder_cloud_and_rain', 'stormy'],
   // 🌤︎ sun behind small cloud
   '1F324': ['sun_behind_small_cloud', 'sunny'],
   // 🌥︎ sun behind large cloud
@@ -1692,9 +1694,9 @@ export default {
   // 🌦︎ sun behind rain cloud
   '1F326': ['sun_behind_rain_cloud', 'sun_and_rain'],
   // 🌧︎ cloud with rain
-  '1F327': ['cloud_with_rain', 'rain'],
+  '1F327': ['cloud_with_rain', 'rainy'],
   // 🌨︎ cloud with snow
-  '1F328': ['cloud_with_snow', 'snow'],
+  '1F328': ['cloud_with_snow', 'snowy'],
   // 🌩︎ cloud with lightning
   '1F329': ['cloud_with_lightning', 'lightning'],
   // 🌪︎ tornado
@@ -1728,7 +1730,7 @@ export default {
   // ⛑︎ rescue worker’s helmet
   '26D1': ['rescue_worker_helmet', 'helmet_with_cross'],
   // 🔈️ speaker low volume
-  '1F508': ['speaker', 'low_sound'],
+  '1F508': ['speaker', 'low_volume', 'quiet_sound'],
   // 🎙︎ studio microphone
   '1F399': ['studio_microphone'],
   // 🎚︎ level slider
@@ -1812,15 +1814,15 @@ export default {
   // ☪︎ star and crescent
   '262A': ['star_and_crescent'],
   // ⏭︎ next track button
-  '23ED': ['next_track_button'],
+  '23ED': ['next_track'],
   // ⏮︎ last track button
-  '23EE': ['previous_track_button'],
+  '23EE': ['previous_track'],
   // ⏸︎ pause button
-  '23F8': ['pause_button'],
+  '23F8': ['pause'],
   // ⏹︎ stop button
-  '23F9': ['stop_button'],
+  '23F9': ['stop'],
   // ⏺︎ record button
-  '23FA': ['record_button'],
+  '23FA': ['record'],
   // 🏳︎ white flag
   '1F3F3': ['white_flag', 'flag_white'],
 
@@ -1834,7 +1836,7 @@ export default {
   // 😇 smiling face with halo
   '1F607': ['innocent', 'halo'],
   // 😗 kissing face
-  '1F617': ['kiss'],
+  '1F617': ['kissing_face', 'kiss'],
   // 😙 kissing face with smiling eyes
   '1F619': ['happy_kiss'],
   // 😛 face with tongue
@@ -1846,13 +1848,13 @@ export default {
   // 🤔 thinking face
   '1F914': ['thinking_face', 'thinking'],
   // 🤐 zipper-mouth face
-  '1F910': ['zipper_mouth_face'],
+  '1F910': ['zipper_mouth_face', 'zipper_mouth'],
   // 😑 expressionless face
   '1F611': ['expressionless_face', 'expressionless'],
   // 😶 face without mouth
   '1F636': ['no_mouth'],
   // 🙄 face with rolling eyes
-  '1F644': ['face_with_rolling_eyes'],
+  '1F644': ['rolling_eyes'],
   // 😬 grimacing face
   '1F62C': ['grimacing_face', 'grimacing'],
   // 😴 sleeping face
@@ -3084,11 +3086,11 @@ export default {
   // 👩‍👧‍👧 family: woman, girl, girl
   '1F469-200D-1F467-200D-1F467': ['family_wgg'],
   // ♀︎ female sign
-  '2640': ['female_sign'],
+  '2640': ['female_sign', 'female'],
   // ♂︎ male sign
-  '2642': ['male_sign'],
+  '2642': ['male_sign', 'male'],
   // ⚕︎ medical symbol
-  '2695': ['medical_symbol'],
+  '2695': ['medical_symbol', 'medical'],
   // 🏳️‍🌈 rainbow flag
   '1F3F3-FE0F-200D-1F308': ['rainbow_flag'],
   // 🇺🇳 flag: United Nations
@@ -3104,9 +3106,9 @@ export default {
   // 🤫 shushing face
   '1F92B': ['shushing_face', 'shush'],
   // 🤨 face with raised eyebrow
-  '1F928': ['face_with_raised_eyebrow'],
+  '1F928': ['face_with_raised_eyebrow', 'raised_eyebrow'],
   // 🤮 face vomiting
-  '1F92E': ['face_vomiting'],
+  '1F92E': ['face_vomiting', 'vomiting'],
   // 🤯 exploding head
   '1F92F': ['exploding_head'],
   // 🧐 face with monocle
@@ -3202,7 +3204,7 @@ export default {
   // 🦕 sauropod
   '1F995': ['sauropod'],
   // 🦖 T-Rex
-  '1F996': ['t-rex'],
+  '1F996': ['t-rex', 'trex'],
   // 🦗 cricket
   '1F997': ['cricket'],
   // 🥥 coconut
