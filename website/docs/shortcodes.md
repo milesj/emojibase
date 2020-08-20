@@ -47,20 +47,23 @@ An alias for the [`joypixels`](#joypixels) preset.
 > This preset may not be accurate as Discord does not provide an official implementation for its
 > shortcodes. If you would like to improve this solution, please create an issue!
 
+### `emojibase`
+
+Emojibase shortcodes that are carefully crafted and maintained in an effort to push forward an
+"official" shortcode standard. It does this by accomplishing the following:
+
+- All emoji (including skin tones) will have a shortcode based on their annotation or Unicode name.
+- Many emoji will provide shorthand and alternative shortcodes (primarily in regards to smileys and
+  people).
+- Commonly used shortcodes from other presets will be supported for interoperability and backwards
+  compatibility. This does not guarantee 100% compatibility across the board.
+
+With this standard in place, we would also like to provide localized versions in the future.
+
 ### `emojibase-legacy`
 
-Emojibase specific shortcodes that abide the following guidelines
-([view the full shortcode list](https://github.com/milesj/emojibase/blob/master/packages/generator/src/resources/shortcodesLegacy.ts)).
-
-- Uses emotions when describing smileys. For example, "happy" over "smiling face with open mouth &
-  smiling eyes". _Some emotions may not align with the image accurately._
-- Uses descriptive nouns over verbose phrases. For example, "storm" over "cloud with lightning and
-  rain".
-
-```
-// 😁 beaming face with smiling eyes
-:blissful: // English
-```
+Deprecated Emojibase shortcodes that preferred emotions/feelings for smiley faces, instead of
+literal terms. This caused discrepencies between other platforms, and often did not align visually.
 
 > This preset is no longer maintained but exists for backwards compatibility. It was deprecated
 > based on community feedback.
@@ -70,22 +73,12 @@ Emojibase specific shortcodes that abide the following guidelines
 Official emoji shortcodes for the [GitHub](https://github.com) platform, powered by the
 [official v3 API](https://api.github.com/emojis).
 
-```
-// 😁 beaming face with smiling eyes
-:grin: // English
-```
-
 > This preset _does not_ define shortcodes for skin tone variations.
 
 ### `iamcal`
 
 Emoji shortcodes provided by the [emoji-data](https://github.com/iamcal/emoji-data) library, owned
 and maintained by [Cal Henderson](https://github.com/iamcal).
-
-```
-// 😁 beaming face with smiling eyes
-:grin: // English
-```
 
 > This preset _does not_ define shortcodes for skin tone variations, nor does it support the latest
 > v13 specification.
@@ -94,11 +87,6 @@ and maintained by [Cal Henderson](https://github.com/iamcal).
 
 Emoji shortcodes provided by the [emoji-toolkit](https://github.com/joypixels/emoji-toolkit)
 library, owned and maintained by [JoyPixels](https://github.com/joypixels) (formerly EmojiOne).
-
-```
-// 😁 beaming face with smiling eyes
-:grin: // English
-```
 
 ### `slack`
 
