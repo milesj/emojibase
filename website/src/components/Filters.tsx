@@ -1,48 +1,51 @@
 import 'url-search-params-polyfill';
-import React, { useState, useEffect } from 'react';
-import { Locale, Emoji } from 'emojibase';
+import React, { useState, useEffect, useCallback } from 'react';
+import { Locale, Emoji, ShortcodePreset } from 'emojibase';
 import groupsData from 'emojibase-data/meta/groups.json';
+import debounce from 'lodash/debounce';
 import styles from './styles.module.css';
 
 const isBrowser = typeof location !== 'undefined';
 
-const LOCALES = [
-  { value: 'da', label: 'Danish' },
-  { value: 'de', label: 'German' },
-  { value: 'en-gb', label: 'English, Great Britain' },
-  { value: 'en', label: 'English' },
-  { value: 'es-mx', label: 'Spanish, Mexico' },
-  { value: 'es', label: 'Spanish' },
-  { value: 'et', label: 'Estonian' },
-  { value: 'fi', label: 'Finnish' },
-  { value: 'fr', label: 'French' },
-  { value: 'hu', label: 'Hungarian' },
-  { value: 'it', label: 'Italian' },
-  { value: 'ja', label: 'Japanese' },
-  { value: 'ko', label: 'Korean' },
-  { value: 'lt', label: 'Lithuanian' },
-  { value: 'ms', label: 'Malay' },
-  { value: 'nb', label: 'Norwegian, Bokmål' },
-  { value: 'nl', label: 'Dutch' },
-  { value: 'pl', label: 'Polish' },
-  { value: 'pt', label: 'Portuguese' },
-  { value: 'ru', label: 'Russian' },
-  { value: 'sv', label: 'Swedish' },
-  { value: 'th', label: 'Thai' },
-  { value: 'uk', label: 'Ukrainian' },
-  { value: 'zh-hant', label: 'Chinese, Traditional' },
-  { value: 'zh', label: 'Chinese' },
-].sort((a, b) => a.label.localeCompare(b.label));
+export const LOCALES: { [K in Locale]: string } = {
+  da: 'Danish',
+  de: 'German',
+  'en-gb': 'English, Great Britain',
+  en: 'English',
+  'es-mx': 'Spanish, Mexico',
+  es: 'Spanish',
+  et: 'Estonian',
+  fi: 'Finnish',
+  fr: 'French',
+  hu: 'Hungarian',
+  it: 'Italian',
+  ja: 'Japanese',
+  ko: 'Korean',
+  lt: 'Lithuanian',
+  ms: 'Malay',
+  nb: 'Norwegian, Bokmål',
+  nl: 'Dutch',
+  pl: 'Polish',
+  pt: 'Portuguese',
+  ru: 'Russian',
+  sv: 'Swedish',
+  th: 'Thai',
+  uk: 'Ukrainian',
+  'zh-hant': 'Chinese, Traditional',
+  zh: 'Chinese',
+};
 
-const PRESETS = [
-  { value: 'cldr', label: 'CLDR' },
-  { value: 'cldr-native', label: 'CLDR (native)' },
-  { value: 'joypixels', label: 'Discord' },
-  { value: 'emojibase', label: 'Emojibase' },
-  { value: 'emojibase-legacy', label: 'Emojibase (legacy)' },
-  { value: 'github', label: 'GitHub' },
-  { value: 'iamcal', label: 'Slack' },
-];
+// .sort((a, b) => a.label.localeCompare(b.label));
+
+export const PRESETS: { [K in ShortcodePreset]?: string } = {
+  cldr: 'CLDR',
+  'cldr-native': 'CLDR (native)',
+  emojibase: 'Emojibase',
+  'emojibase-legacy': 'Emojibase (legacy)',
+  github: 'GitHub',
+  iamcal: 'IamCal (Slack)',
+  joypixels: 'JoyPixels (Discord)',
+};
 
 export function updateUrlFragment(query: URLSearchParams) {
   if (isBrowser) {
@@ -88,7 +91,7 @@ export function processEmojis(
     }
   });
 
-  list.sort((a, b) => a.order - b.order);
+  list.sort((a, b) => (a.order || -1) - (b.order || -1));
 
   return list;
 }
@@ -103,19 +106,26 @@ export interface FilterFields {
 }
 
 export interface FilterProps {
+  defaultShortcodes?: ShortcodePreset[];
   disabled?: boolean;
+  hideCldr?: boolean;
   onChange: (fields: FilterFields) => void;
 }
 
-export default function Filters({ disabled = false, onChange }: FilterProps) {
+export default function Filters({
+  defaultShortcodes = ['emojibase'],
+  disabled = false,
+  hideCldr = false,
+  onChange,
+}: FilterProps) {
   const query = new URLSearchParams(isBrowser ? location.search : '');
   const [filter, setFilter] = useState(query.get('filter') ?? '');
-  const [locale, setLocale] = useState<Locale>(query.get('locale') ?? 'en');
+  const [locale, setLocale] = useState(query.get('locale') ?? 'en');
   const [group, setGroup] = useState(Number(query.get('group') ?? -1));
   const [subgroup, setSubgroup] = useState(Number(query.get('subgroup') ?? -1));
   const [skinTones, setSkinTones] = useState(Boolean(query.get('skinTones') ?? false));
   const [shortcodes, setShortcodes] = useState(
-    decodeURIComponent(query.get('shortcodes') ?? 'emojibase')
+    decodeURIComponent(query.get('shortcodes') ?? defaultShortcodes.join(','))
       .split(',')
       .filter(Boolean),
   );
@@ -125,7 +135,7 @@ export default function Filters({ disabled = false, onChange }: FilterProps) {
 
     onChange({
       filter,
-      locale,
+      locale: locale as Locale,
       group,
       subgroup,
       skinTones,
@@ -139,23 +149,29 @@ export default function Filters({ disabled = false, onChange }: FilterProps) {
     emitChange();
   }, []);
 
-  const handleFilterChange = (event: React.FormEvent<HTMLInputElement>) => {
+  const doFilterChange = debounce((value: string) => {
+    query.set('filter', value);
+    emitChange({ filter: value });
+  }, 350);
+
+  const handleFilterChange = useCallback((event: React.FormEvent<HTMLInputElement>) => {
+    event.persist();
+
     const { value } = event.currentTarget;
 
-    query.set('filter', value);
     setFilter(value);
-    emitChange({ filter: value });
-  };
+    doFilterChange(value);
+  }, []);
 
-  const handleLocaleChange = (event: React.FormEvent<HTMLSelectElement>) => {
+  const handleLocaleChange = useCallback((event: React.FormEvent<HTMLSelectElement>) => {
     const { value } = event.currentTarget;
 
     query.set('locale', value);
     setLocale(value);
-    emitChange({ locale: value });
-  };
+    emitChange({ locale: value as Locale });
+  }, []);
 
-  const handleGroupChange = (event: React.FormEvent<HTMLSelectElement>) => {
+  const handleGroupChange = useCallback((event: React.FormEvent<HTMLSelectElement>) => {
     const value = Number(event.currentTarget.value);
 
     query.set('group', String(value));
@@ -163,25 +179,25 @@ export default function Filters({ disabled = false, onChange }: FilterProps) {
     setGroup(value);
     setSubgroup(-1);
     emitChange({ group: value, subgroup: -1 });
-  };
+  }, []);
 
-  const handleSubgroupChange = (event: React.FormEvent<HTMLSelectElement>) => {
+  const handleSubgroupChange = useCallback((event: React.FormEvent<HTMLSelectElement>) => {
     const value = Number(event.currentTarget.value);
 
     query.set('subgroup', String(value));
     setSubgroup(value);
     emitChange({ subgroup: value });
-  };
+  }, []);
 
-  const handleSkinToneChange = (event: React.FormEvent<HTMLInputElement>) => {
+  const handleSkinToneChange = useCallback((event: React.FormEvent<HTMLInputElement>) => {
     const { checked } = event.currentTarget;
 
     query.set('skinTones', String(checked));
     setSkinTones(checked);
     emitChange({ skinTones: checked });
-  };
+  }, []);
 
-  const handleShortcodePresetChange = (event: React.FormEvent<HTMLInputElement>) => {
+  const handleShortcodePresetChange = useCallback((event: React.FormEvent<HTMLInputElement>) => {
     const { checked, value } = event.currentTarget;
 
     setShortcodes((prev) => {
@@ -200,13 +216,13 @@ export default function Filters({ disabled = false, onChange }: FilterProps) {
 
       return presets;
     });
-  };
+  }, []);
 
   return (
     <div className={styles.browserFilters}>
       <div className="row">
         <div className="col col--3">
-          <label htmlFor="filter">Filter</label>
+          <label htmlFor="filter">Annotation</label>
 
           <input
             type="text"
@@ -228,9 +244,9 @@ export default function Filters({ disabled = false, onChange }: FilterProps) {
             onChange={handleLocaleChange}
             disabled={disabled}
           >
-            {LOCALES.map((row) => (
-              <option key={row.value} value={row.value}>
-                {row.label} ({row.value})
+            {Object.entries(LOCALES).map(([value, label]) => (
+              <option key={value} value={value}>
+                {label} ({value})
               </option>
             ))}
           </select>
@@ -299,20 +315,26 @@ export default function Filters({ disabled = false, onChange }: FilterProps) {
         <div className="col col-9">
           <h4>Shortcode presets</h4>
 
-          {PRESETS.map((preset) => (
-            <label key={preset.value} htmlFor={`preset-${preset.value}`} className="label--inline">
-              <input
-                type="checkbox"
-                id={`preset-${preset.value}`}
-                name="presets"
-                value={preset.value}
-                checked={shortcodes.includes(preset.value)}
-                onChange={handleShortcodePresetChange}
-                disabled={disabled}
-              />{' '}
-              {preset.label}
-            </label>
-          ))}
+          {Object.entries(PRESETS).map(([value, label]) => {
+            if (value.includes('cldr') && hideCldr) {
+              return null;
+            }
+
+            return (
+              <label key={value} htmlFor={`preset-${value}`} className="label--inline">
+                <input
+                  type="checkbox"
+                  id={`preset-${value}`}
+                  name="presets"
+                  value={value}
+                  checked={shortcodes.includes(value)}
+                  onChange={handleShortcodePresetChange}
+                  disabled={disabled}
+                />{' '}
+                {label}
+              </label>
+            );
+          })}
         </div>
       </div>
     </div>

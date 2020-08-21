@@ -9,7 +9,7 @@ export default function EmojiList() {
   const [loading, setLoading] = useState(false);
 
   const handleFilterChange = useCallback(async (fields: FilterFields) => {
-    const { locale, skinTones, shortcodes } = fields;
+    const { locale, shortcodes } = fields;
 
     if (loading) {
       return;
@@ -18,7 +18,6 @@ export default function EmojiList() {
     setLoading(true);
 
     const data = await fetchEmojis(locale, {
-      flat: skinTones as true,
       shortcodes: shortcodes.map((preset) => (preset.includes('cldr') ? preset : `en/${preset}`)),
       version: 'next',
     });
