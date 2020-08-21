@@ -1,10 +1,11 @@
 import fetchAndCache from '../../loaders/fetchAndCache';
 import writeDataset from '../../helpers/writeDataset';
 import { ShortcodeDataMap } from '../../types';
-import log from '../../helpers/log';
 import Database from '../Database';
 
 export default async function generateIamCal(db: Database) {
+  db.preset = 'iamcal';
+
   const shortcodes: ShortcodeDataMap = {};
   const response = await fetchAndCache<{ unified: string; short_names?: string[] }[]>(
     'https://raw.githubusercontent.com/iamcal/emoji-data/master/emoji.json',
@@ -20,13 +21,7 @@ export default async function generateIamCal(db: Database) {
   response.forEach(({ unified: hexcode, short_names: shortnames = [] }) => {
     const emoji = db.getEmoji(hexcode);
 
-    if (!emoji) {
-      log.error('shortcodes', `IamCal shortcode ${hexcode} does not exist within our system.`);
-
-      return;
-    }
-
-    if (shortnames.length > 0) {
+    if (emoji && shortnames.length > 0) {
       db.addShortcodes(shortcodes, emoji.hexcode, shortnames);
     }
   });

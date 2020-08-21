@@ -31,11 +31,14 @@ slack.
 - Added `shortcodes/cldr.json` datasets for each locale. Shortcodes are now localized!
 - Added `shortcodes/cldr-native.json` datasets for each non-latin locale.
 - Added `shortcodes/emojibase.json` dataset (English only).
+- Added `shortcodes/emojibase-legacy.json` dataset (English only).
 - Added `shortcodes/github.json` dataset (English only).
 - Added `shortcodes/iamcal.json` dataset (English only).
-- Added `discord` and `slack` shortcode aliases (to `iamcal`).
-- [**emojibase**] Added `y` and `n` shortcodes.
-- [**emojibase**] Renamed `hopeful` to `gloomy`.
+- Added `shortcodes/joypixels.json` dataset (English only).
+- Added `discord` shortcode alias (to `joypixels`).
+- Added `slack` shortcode alias (to `iamcal`).
+- [**emojibase-legacy**] Added `y` and `n` shortcodes.
+- [**emojibase-legacy**] Renamed `hopeful` to `gloomy`.
 
 #### ⚙️ Types
 

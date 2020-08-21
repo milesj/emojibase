@@ -41,6 +41,7 @@ const PRESETS = [
   { value: 'cldr-native', label: 'CLDR (native)' },
   { value: 'joypixels', label: 'Discord' },
   { value: 'emojibase', label: 'Emojibase' },
+  { value: 'emojibase-legacy', label: 'Emojibase (legacy)' },
   { value: 'github', label: 'GitHub' },
   { value: 'iamcal', label: 'Slack' },
 ];

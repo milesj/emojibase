@@ -1,8 +1,12 @@
 import { stripHexcode } from 'emojibase';
 import { EmojiMap, Emoji, HexcodeMap, Hexcode, ShortcodeDataMap } from '../types';
 import toArray from '../helpers/toArray';
+import toUnicode from './toUnicode';
+import log from '../helpers/log';
 
 export default class Database {
+  preset = 'shortcodes';
+
   // List of non-flat emojis
   emojiList: Emoji[];
 
@@ -12,6 +16,9 @@ export default class Database {
   // Mapping of all hexcode variants to their parent hexcode
   hexcodeLookup: HexcodeMap<Hexcode> = {};
 
+  // Mapping of shortcodes to their hexcode for duplicate detection
+  shortcodeReference: Record<string, Record<string, Hexcode>> = {};
+
   constructor(emojis: EmojiMap) {
     this.emojiList = Object.values(emojis);
     this.mapEmojis(emojis);
@@ -19,14 +26,30 @@ export default class Database {
 
   addShortcodes(map: ShortcodeDataMap, hexcode: Hexcode, shortcodes: string | string[]) {
     const item = map[hexcode];
+    const list = item
+      ? new Set([...toArray(item), ...toArray(shortcodes)])
+      : new Set(toArray(shortcodes));
 
-    if (item) {
-      map[hexcode] = this.formatShortcodes(
-        Array.from(new Set([...toArray(item), ...toArray(shortcodes)])),
-      );
-    } else {
-      map[hexcode] = this.formatShortcodes(shortcodes);
+    map[hexcode] = this.formatShortcodes(Array.from(list));
+
+    if (!this.shortcodeReference[this.preset]) {
+      this.shortcodeReference[this.preset] = {};
     }
+
+    list.forEach((shortcode) => {
+      const usedHexcode = this.shortcodeReference[this.preset][shortcode];
+
+      if (usedHexcode && usedHexcode !== hexcode) {
+        log.error(
+          this.preset,
+          `Shortcode "${shortcode}" has already been defined for emoji ${toUnicode(
+            usedHexcode,
+          )} (${usedHexcode}). Duplicate added for emoji ${toUnicode(hexcode)} (${hexcode}).`,
+        );
+      }
+
+      this.shortcodeReference[this.preset][shortcode] = hexcode;
+    });
   }
 
   formatShortcodes(shortcodes: string | string[]): string | string[] {
@@ -41,8 +64,13 @@ export default class Database {
     const code =
       this.hexcodeLookup[hexcode.toUpperCase()] ||
       this.hexcodeLookup[stripHexcode(hexcode.toUpperCase())];
+    const emoji = (code && this.emojiMap[code]) || null;
 
-    return (code && this.emojiMap[code]) || null;
+    if (!emoji) {
+      log.error(this.preset, `Shortcode ${hexcode} does not exist within our system.`);
+    }
+
+    return emoji;
   }
 
   // Some external shortcode providers use either the variation or sequenceless

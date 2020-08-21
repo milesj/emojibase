@@ -2,7 +2,6 @@ import { transliterate } from 'transliteration';
 import fetchAndCache from '../../loaders/fetchAndCache';
 import writeDataset from '../../helpers/writeDataset';
 import { ShortcodeDataMap, HexcodeMap } from '../../types';
-import log from '../../helpers/log';
 import Database from '../Database';
 
 // These should not be in the dataset according to the spec
@@ -25,6 +24,8 @@ const IGNORE_HEXCODES = new Set([
 ]);
 
 export default async function generateJoyPixels(db: Database) {
+  db.preset = 'joypixels';
+
   const shortcodes: ShortcodeDataMap = {};
   const response = await fetchAndCache<
     HexcodeMap<{
@@ -50,15 +51,14 @@ export default async function generateJoyPixels(db: Database) {
       shortname_alternates: shortnames = [],
     }) => {
       const hexcode = fullCodePoint.toUpperCase();
-      const emoji = db.getEmoji(hexcode);
 
       if (IGNORE_HEXCODES.has(hexcode)) {
         return;
       }
 
-      if (!emoji) {
-        log.error('shortcodes', `JoyPixels shortcode ${hexcode} does not exist within our system.`);
+      const emoji = db.getEmoji(hexcode);
 
+      if (!emoji) {
         return;
       }
 

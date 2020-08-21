@@ -33,6 +33,7 @@ export type ShortcodePreset =
   | 'cldr-native'
   | 'discord'
   | 'emojibase'
+  | 'emojibase-legacy'
   | 'github'
   | 'iamcal'
   | 'joypixels'
