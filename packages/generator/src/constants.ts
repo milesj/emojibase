@@ -160,7 +160,10 @@ export const SHORTCODE_GUIDELINES = `/**
  *
  * FLAGS
  *
- *  - All emoji should have both "flag_<locale>" and "<name>" shortcodes.
+ *  - All countries should have both "flag_<locale>" and "<name>" shortcodes.
  *    Do NOT provide a 2 letter shortcode as it will conflict with many
  *    non-flag shortcodes that also use 2 letters.
+ *
+ *  - Country shortcodes should prefix with "flag_<name>", while
+ *    non-country use a suffix "<name>_flag".
  */`;

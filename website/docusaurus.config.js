@@ -47,7 +47,7 @@ module.exports = {
         },
         {
           to: 'emojis',
-          label: 'Emoji list',
+          label: 'Emoji table',
           position: 'left',
         },
         {

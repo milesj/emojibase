@@ -13,7 +13,7 @@ export default function Shortcodes({ preset, shortcodes }: ShortcodesProps) {
 
   return (
     <>
-      {(Array.isArray(shortcodes) ? shortcodes : [shortcodes]).map((s) => (
+      {(Array.isArray(shortcodes) ? shortcodes : [shortcodes]).sort().map((s) => (
         <div key={`${preset}-${s}`}>{`:${s}:`}</div>
       ))}
     </>

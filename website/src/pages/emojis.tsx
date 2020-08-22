@@ -9,7 +9,7 @@ export default function EmojiList() {
   const [loading, setLoading] = useState(false);
 
   const handleFilterChange = useCallback(async (fields: FilterFields) => {
-    const { locale, shortcodes } = fields;
+    const { locale, shortcodePresets } = fields;
 
     if (loading) {
       return;
@@ -18,7 +18,9 @@ export default function EmojiList() {
     setLoading(true);
 
     const data = await fetchEmojis(locale, {
-      shortcodes: shortcodes.map((preset) => (preset.includes('cldr') ? preset : `en/${preset}`)),
+      shortcodes: shortcodePresets.map((preset) =>
+        preset.includes('cldr') ? preset : `en/${preset}`,
+      ),
       version: 'next',
     });
 
@@ -27,9 +29,9 @@ export default function EmojiList() {
   }, []);
 
   return (
-    <Layout title="Emoji list" description="List of all emojis across any supported locale.">
+    <Layout title="Emoji table" description="Table of all emojis across any supported locale.">
       <main className="table-container">
-        <h2>Emoji list</h2>
+        <h2>Emoji table</h2>
 
         <Filters disabled={loading} onChange={handleFilterChange} />
 

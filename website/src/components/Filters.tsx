@@ -35,8 +35,6 @@ export const LOCALES: { [K in Locale]: string } = {
   zh: 'Chinese',
 };
 
-// .sort((a, b) => a.label.localeCompare(b.label));
-
 export const PRESETS: { [K in ShortcodePreset]?: string } = {
   cldr: 'CLDR',
   'cldr-native': 'CLDR (native)',
@@ -59,11 +57,15 @@ export function updateUrlFragment(query: URLSearchParams) {
 
 export function processEmojis(
   emojis: Emoji[],
-  { filter, group, subgroup, skinTones }: FilterFields,
+  { filter, genders, group, subgroup, skinTones }: FilterFields,
 ): Emoji[] {
   const list: Emoji[] = [];
 
   emojis.forEach((emoji) => {
+    if (!genders && emoji.gender !== undefined) {
+      return;
+    }
+
     if (group >= 0 && emoji.group !== group) {
       return;
     }
@@ -91,7 +93,7 @@ export function processEmojis(
     }
   });
 
-  list.sort((a, b) => (a.order || -1) - (b.order || -1));
+  list.sort((a, b) => (a.order || 10000) - (b.order || 10000));
 
   return list;
 }
@@ -99,59 +101,58 @@ export function processEmojis(
 export interface FilterFields {
   filter: string;
   locale: Locale;
+  genders: boolean;
   group: number;
   subgroup: number;
   skinTones: boolean;
-  shortcodes: string[];
+  shortcodePresets: ShortcodePreset[];
 }
 
 export interface FilterProps {
-  defaultShortcodes?: ShortcodePreset[];
+  defaultShortcodePresets?: ShortcodePreset[];
   disabled?: boolean;
   hideCldr?: boolean;
   onChange: (fields: FilterFields) => void;
 }
 
+const query = new URLSearchParams(isBrowser ? location.search : '');
+
 export default function Filters({
-  defaultShortcodes = ['emojibase'],
+  defaultShortcodePresets = ['emojibase'],
   disabled = false,
   hideCldr = false,
   onChange,
 }: FilterProps) {
-  const query = new URLSearchParams(isBrowser ? location.search : '');
-  const [filter, setFilter] = useState(query.get('filter') ?? '');
-  const [locale, setLocale] = useState(query.get('locale') ?? 'en');
+  const [inputFilter, setInputFilter] = useState(query.get('filter') ?? '');
+  const [filter, setFilter] = useState(inputFilter);
+  const [locale, setLocale] = useState<Locale>((query.get('locale') ?? 'en') as 'en');
   const [group, setGroup] = useState(Number(query.get('group') ?? -1));
   const [subgroup, setSubgroup] = useState(Number(query.get('subgroup') ?? -1));
-  const [skinTones, setSkinTones] = useState(Boolean(query.get('skinTones') ?? false));
-  const [shortcodes, setShortcodes] = useState(
-    decodeURIComponent(query.get('shortcodes') ?? defaultShortcodes.join(','))
+  const [genders, setGenders] = useState(query.get('genders') === 'true');
+  const [skinTones, setSkinTones] = useState(query.get('skinTones') === 'true');
+  const [shortcodePresets, setShortcodePresets] = useState<ShortcodePreset[]>(
+    decodeURIComponent(query.get('shortcodePresets') ?? defaultShortcodePresets.join(','))
       .split(',')
-      .filter(Boolean),
+      .filter(Boolean) as ShortcodePreset[],
   );
 
-  const emitChange = (fields: Partial<FilterFields> = {}) => {
+  useEffect(() => {
     updateUrlFragment(query);
 
     onChange({
       filter,
-      locale: locale as Locale,
+      locale,
+      genders,
       group,
       subgroup,
       skinTones,
-      shortcodes,
-      ...fields,
+      shortcodePresets,
     });
-  };
-
-  // Emit on mount so that consumers can utilize the data
-  useEffect(() => {
-    emitChange();
-  }, []);
+  }, [filter, locale, genders, group, subgroup, skinTones, shortcodePresets]);
 
   const doFilterChange = debounce((value: string) => {
     query.set('filter', value);
-    emitChange({ filter: value });
+    setFilter(value);
   }, 350);
 
   const handleFilterChange = useCallback((event: React.FormEvent<HTMLInputElement>) => {
@@ -159,7 +160,7 @@ export default function Filters({
 
     const { value } = event.currentTarget;
 
-    setFilter(value);
+    setInputFilter(value);
     doFilterChange(value);
   }, []);
 
@@ -167,8 +168,7 @@ export default function Filters({
     const { value } = event.currentTarget;
 
     query.set('locale', value);
-    setLocale(value);
-    emitChange({ locale: value as Locale });
+    setLocale(value as Locale);
   }, []);
 
   const handleGroupChange = useCallback((event: React.FormEvent<HTMLSelectElement>) => {
@@ -178,7 +178,6 @@ export default function Filters({
     query.set('subgroup', '-1');
     setGroup(value);
     setSubgroup(-1);
-    emitChange({ group: value, subgroup: -1 });
   }, []);
 
   const handleSubgroupChange = useCallback((event: React.FormEvent<HTMLSelectElement>) => {
@@ -186,7 +185,13 @@ export default function Filters({
 
     query.set('subgroup', String(value));
     setSubgroup(value);
-    emitChange({ subgroup: value });
+  }, []);
+
+  const handleGenderChange = useCallback((event: React.FormEvent<HTMLInputElement>) => {
+    const { checked } = event.currentTarget;
+
+    query.set('genders', String(checked));
+    setGenders(checked);
   }, []);
 
   const handleSkinToneChange = useCallback((event: React.FormEvent<HTMLInputElement>) => {
@@ -194,25 +199,23 @@ export default function Filters({
 
     query.set('skinTones', String(checked));
     setSkinTones(checked);
-    emitChange({ skinTones: checked });
   }, []);
 
   const handleShortcodePresetChange = useCallback((event: React.FormEvent<HTMLInputElement>) => {
     const { checked, value } = event.currentTarget;
 
-    setShortcodes((prev) => {
+    setShortcodePresets((prev) => {
       const next = new Set(prev);
 
       if (checked) {
-        next.add(value);
+        next.add(value as ShortcodePreset);
       } else {
-        next.delete(value);
+        next.delete(value as ShortcodePreset);
       }
 
-      const presets = Array.from(next);
+      const presets = Array.from(next).sort();
 
-      query.set('shortcodes', encodeURIComponent(presets.join(',')));
-      emitChange({ shortcodes: presets });
+      query.set('shortcodePresets', encodeURIComponent(presets.join(',')));
 
       return presets;
     });
@@ -225,10 +228,10 @@ export default function Filters({
           <label htmlFor="filter">Annotation</label>
 
           <input
-            type="text"
+            type="search"
             id="filter"
             name="filter"
-            value={filter}
+            value={inputFilter}
             onChange={handleFilterChange}
             disabled={disabled}
           />
@@ -244,11 +247,13 @@ export default function Filters({
             onChange={handleLocaleChange}
             disabled={disabled}
           >
-            {Object.entries(LOCALES).map(([value, label]) => (
-              <option key={value} value={value}>
-                {label} ({value})
-              </option>
-            ))}
+            {Object.entries(LOCALES)
+              .sort((a, b) => a[1].localeCompare(b[1]))
+              .map(([value, label]) => (
+                <option key={value} value={value}>
+                  {label} ({value})
+                </option>
+              ))}
           </select>
         </div>
 
@@ -297,7 +302,19 @@ export default function Filters({
 
       <div className="row">
         <div className="col col--3">
-          <h4>Skin tones</h4>
+          <h4>Display</h4>
+
+          <label htmlFor="genders" className="label--inline">
+            <input
+              type="checkbox"
+              id="genders"
+              name="genders"
+              checked={genders}
+              onChange={handleGenderChange}
+              disabled={disabled}
+            />{' '}
+            Genders?
+          </label>
 
           <label htmlFor="skinTones" className="label--inline">
             <input
@@ -308,7 +325,7 @@ export default function Filters({
               onChange={handleSkinToneChange}
               disabled={disabled}
             />{' '}
-            Display variations?
+            Skin tones?
           </label>
         </div>
 
@@ -327,7 +344,7 @@ export default function Filters({
                   id={`preset-${value}`}
                   name="presets"
                   value={value}
-                  checked={shortcodes.includes(value)}
+                  checked={shortcodePresets.includes(value as ShortcodePreset)}
                   onChange={handleShortcodePresetChange}
                   disabled={disabled}
                 />{' '}

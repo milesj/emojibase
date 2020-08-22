@@ -17,8 +17,12 @@ function noop<T>(value: T): T {
 function isAllSameShortcodes(shortcodes: (string | string[])[]) {
   let lastCode = '';
 
+  if (shortcodes.length === 0) {
+    return false;
+  }
+
   for (const shortcode of shortcodes) {
-    const code = Array.isArray(shortcode) ? shortcode.join(',') : shortcode;
+    const code = Array.isArray(shortcode) ? shortcode.sort().join(',') : shortcode;
 
     if (!lastCode) {
       lastCode = code;
@@ -43,7 +47,7 @@ export default function ShortcodesTable() {
   ]);
 
   const handleFilterChange = useCallback(async (fields: FilterFields) => {
-    const { locale, shortcodes: nextPresets } = fields;
+    const { locale, shortcodePresets } = fields;
 
     if (loading) {
       return;
@@ -58,23 +62,23 @@ export default function ShortcodesTable() {
 
     const cldrDataset = await fetchShortcodes(locale, 'cldr', { version: 'next' }).catch(noop);
 
-    const datasets = await Promise.all(
-      nextPresets.map((preset) =>
+    const allDatasets = await Promise.all(
+      shortcodePresets.map((preset) =>
         fetchShortcodes(locale, preset as ShortcodePreset, { version: 'next' }).catch(noop),
       ),
     );
 
     setEmojis(processEmojis(emojis, fields));
     setCldrShortcodes(cldrDataset);
-    setShortcodes(datasets);
-    setPresets(nextPresets as ShortcodePreset[]);
+    setShortcodes(allDatasets);
+    setPresets(shortcodePresets);
     setLoading(false);
   }, []);
 
   return (
     <Layout
       title="Shortcodes table"
-      description="List of all shortcodes for every emoji character."
+      description="Table of all shortcodes for every emoji character."
     >
       <main className="table-container">
         <h2>Shortcodes table</h2>
@@ -82,7 +86,7 @@ export default function ShortcodesTable() {
         <Filters
           hideCldr
           disabled={loading}
-          defaultShortcodes={presets}
+          defaultShortcodePresets={presets}
           onChange={handleFilterChange}
         />
 
@@ -93,7 +97,7 @@ export default function ShortcodesTable() {
                 <th colSpan={2} />
                 <th>CLDR</th>
                 {presets.map((preset) => (
-                  <th>{PRESETS[preset]}</th>
+                  <th key={`header-${preset}`}>{PRESETS[preset]}</th>
                 ))}
                 <th />
               </tr>
@@ -133,7 +137,7 @@ export default function ShortcodesTable() {
                         {isAllSame ? (
                           <td colSpan={presets.length}>
                             <Shortcodes
-                              preset="emojibase"
+                              preset={presets[0]}
                               shortcodes={shortcodes[0][emoji.hexcode]}
                             />
                           </td>
