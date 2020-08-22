@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import Layout from '@theme/Layout';
-import { Emoji, fetchEmojis, ShortcodesDataset, fetchShortcodes } from 'emojibase';
+import { Emoji, fetchEmojis, ShortcodesDataset, fetchShortcodes, ShortcodePreset } from 'emojibase';
 import Shortcodes from '../components/Shortcodes';
+import Filters, { FilterFields, processEmojis, PRESETS } from '../components/Filters';
 // import cldrDataset from '../../../packages/data/en/shortcodes/cldr.raw.json';
 // import emojibaseDataset from '../../../packages/data/en/shortcodes/emojibase.raw.json';
 // import emojibaseLegacyDataset from '../../../packages/data/en/shortcodes/emojibase-legacy.raw.json';
@@ -13,11 +14,15 @@ function noop<T>(value: T): T {
   return value;
 }
 
-function isAllSameShortcodes(...shortcodes: (string | string[])[]) {
+function isAllSameShortcodes(shortcodes: (string | string[])[]) {
   let lastCode = '';
 
+  if (shortcodes.length === 0) {
+    return false;
+  }
+
   for (const shortcode of shortcodes) {
-    const code = Array.isArray(shortcode) ? shortcode.join(',') : shortcode;
+    const code = Array.isArray(shortcode) ? shortcode.sort().join(',') : shortcode;
 
     if (!lastCode) {
       lastCode = code;
@@ -30,54 +35,60 @@ function isAllSameShortcodes(...shortcodes: (string | string[])[]) {
 }
 
 export default function ShortcodesTable() {
+  const [loading, setLoading] = useState(false);
   const [emojis, setEmojis] = useState<Emoji[]>([]);
-  const [cldr, setCldr] = useState<ShortcodesDataset>({});
-  const [emojibase, setEmojibase] = useState<ShortcodesDataset>({});
-  const [emojibaseLegacy, setEmojibaseLegacy] = useState<ShortcodesDataset>({});
-  const [github, setGithub] = useState<ShortcodesDataset>({});
-  const [iamcal, setIamcal] = useState<ShortcodesDataset>({});
-  const [joyPixels, setJoyPixels] = useState<ShortcodesDataset>({});
-  const [loading, setLoading] = useState(true);
-  const version = 'next';
+  const [cldrShortcodes, setCldrShortcodes] = useState<ShortcodesDataset>({});
+  const [shortcodes, setShortcodes] = useState<ShortcodesDataset[]>([]);
+  const [presets, setPresets] = useState<ShortcodePreset[]>([
+    'emojibase',
+    'github',
+    'iamcal',
+    'joypixels',
+  ]);
 
-  useEffect(() => {
-    let mounted = true;
+  const handleFilterChange = useCallback(async (fields: FilterFields) => {
+    const { locale, shortcodePresets } = fields;
 
-    Promise.all([
-      fetchEmojis('en', { flat: true, version }).catch(noop),
-      fetchShortcodes('en', 'cldr', { version }).catch(noop),
-      fetchShortcodes('en', 'emojibase', { version }).catch(noop),
-      fetchShortcodes('en', 'emojibase-legacy', { version }).catch(noop),
-      fetchShortcodes('en', 'github', { version }).catch(noop),
-      fetchShortcodes('en', 'iamcal', { version }).catch(noop),
-      fetchShortcodes('en', 'joypixels', { version }).catch(noop),
-    ]).then(([a, b, c, d, e, f, g]) => {
-      if (!mounted) {
-        return;
-      }
+    if (loading) {
+      return;
+    }
 
-      setEmojis(a);
-      setCldr(b);
-      setEmojibase(c);
-      setEmojibaseLegacy(d);
-      setGithub(e);
-      setIamcal(f);
-      setJoyPixels(g);
-      setLoading(false);
+    setLoading(true);
+
+    const emojis = await fetchEmojis(locale, {
+      shortcodes: presets,
+      version: 'next',
     });
 
-    return () => {
-      mounted = false;
-    };
+    const cldrDataset = await fetchShortcodes(locale, 'cldr', { version: 'next' }).catch(noop);
+
+    const allDatasets = await Promise.all(
+      shortcodePresets.map((preset) =>
+        fetchShortcodes(locale, preset as ShortcodePreset, { version: 'next' }).catch(noop),
+      ),
+    );
+
+    setEmojis(processEmojis(emojis, fields));
+    setCldrShortcodes(cldrDataset);
+    setShortcodes(allDatasets);
+    setPresets(shortcodePresets);
+    setLoading(false);
   }, []);
 
   return (
     <Layout
       title="Shortcodes table"
-      description="List of all shortcodes for every emoji character."
+      description="Table of all shortcodes for every emoji character."
     >
       <main className="table-container">
         <h2>Shortcodes table</h2>
+
+        <Filters
+          hideCldr
+          disabled={loading}
+          defaultShortcodePresets={presets}
+          onChange={handleFilterChange}
+        />
 
         <div className="table-responsive">
           <table>
@@ -85,24 +96,16 @@ export default function ShortcodesTable() {
               <tr>
                 <th colSpan={2} />
                 <th>CLDR</th>
-                <th>Emojibase</th>
-                <th>
-                  Emojibase <small>(Legacy)</small>
-                </th>
-                <th>Github</th>
-                <th>
-                  IamCal <small>(Slack)</small>
-                </th>
-                <th>
-                  JoyPixels <small>(Discord)</small>
-                </th>
+                {presets.map((preset) => (
+                  <th key={`header-${preset}`}>{PRESETS[preset]}</th>
+                ))}
                 <th />
               </tr>
             </thead>
             <tbody>
               {loading && (
                 <tr>
-                  <td colSpan={8} className="text--center">
+                  <td colSpan={4 + presets.length} className="text--center">
                     Loading emojis…
                   </td>
                 </tr>
@@ -111,18 +114,14 @@ export default function ShortcodesTable() {
               {!loading && (
                 <>
                   <tr>
-                    <td colSpan={8} className="text--center">
+                    <td colSpan={4 + presets.length} className="text--center">
                       {emojis.length.toLocaleString()} emojis
                     </td>
                   </tr>
 
                   {emojis.map((emoji) => {
                     const isAllSame = isAllSameShortcodes(
-                      emojibase[emoji.hexcode],
-                      emojibaseLegacy[emoji.hexcode],
-                      github[emoji.hexcode],
-                      iamcal[emoji.hexcode],
-                      joyPixels[emoji.hexcode],
+                      shortcodes.map((data) => data[emoji.hexcode]),
                     );
 
                     return (
@@ -133,39 +132,24 @@ export default function ShortcodesTable() {
                           <div className="text--muted no-wrap">{emoji.hexcode}</div>
                         </td>
                         <td>
-                          <Shortcodes preset="cldr" shortcodes={cldr[emoji.hexcode]} />
+                          <Shortcodes preset="cldr" shortcodes={cldrShortcodes[emoji.hexcode]} />
                         </td>
                         {isAllSame ? (
-                          <td colSpan={5}>
-                            <Shortcodes preset="emojibase" shortcodes={emojibase[emoji.hexcode]} />
+                          <td colSpan={presets.length}>
+                            <Shortcodes
+                              preset={presets[0]}
+                              shortcodes={shortcodes[0][emoji.hexcode]}
+                            />
                           </td>
                         ) : (
-                          <>
-                            <td>
+                          presets.map((preset, i) => (
+                            <td key={emoji.hexcode + preset}>
                               <Shortcodes
-                                preset="emojibase"
-                                shortcodes={emojibase[emoji.hexcode]}
+                                preset={preset}
+                                shortcodes={shortcodes[i][emoji.hexcode]}
                               />
                             </td>
-                            <td>
-                              <Shortcodes
-                                preset="emojibase-legacy"
-                                shortcodes={emojibaseLegacy[emoji.hexcode]}
-                              />
-                            </td>
-                            <td>
-                              <Shortcodes preset="github" shortcodes={github[emoji.hexcode]} />
-                            </td>
-                            <td>
-                              <Shortcodes preset="iamcal" shortcodes={iamcal[emoji.hexcode]} />
-                            </td>
-                            <td>
-                              <Shortcodes
-                                preset="joypixels"
-                                shortcodes={joyPixels[emoji.hexcode]}
-                              />
-                            </td>
-                          </>
+                          ))
                         )}
                         <td className="text--center emoji--large">{emoji.emoji || emoji.text}</td>
                       </tr>

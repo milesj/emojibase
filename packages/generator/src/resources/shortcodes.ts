@@ -49,9 +49,12 @@
  *
  * FLAGS
  *
- *  - All emoji should have both "flag_<locale>" and "<name>" shortcodes.
+ *  - All countries should have both "flag_<locale>" and "<name>" shortcodes.
  *    Do NOT provide a 2 letter shortcode as it will conflict with many
  *    non-flag shortcodes that also use 2 letters.
+ *
+ *  - Country shortcodes should prefix with "flag_<name>", while
+ *    non-country use a suffix "<name>_flag".
  */
 
 export default {
@@ -116,11 +119,11 @@ export default {
   // 😁 beaming face with smiling eyes
   '1F601': ['beaming_face', 'grin'],
   // 😆 grinning squinting face
-  '1F606': ['squinting_face', 'laughing', 'satisfied'],
+  '1F606': ['squinting_face', 'laughing', 'satisfied', 'lol'],
   // 😅 grinning face with sweat
   '1F605': ['grinning_face_with_sweat', 'sweat_smile'],
   // 😂 face with tears of joy
-  '1F602': ['tears_of_joy', 'joy'],
+  '1F602': ['tears_of_joy', 'joy', 'lmao'],
   // 😉 winking face
   '1F609': ['winking_face', 'wink'],
   // 😊 smiling face with smiling eyes
@@ -208,7 +211,7 @@ export default {
   // 😸 grinning cat with smiling eyes
   '1F638': ['grinning_cat_with_closed_eyes', 'smile_cat'],
   // 😹 cat with tears of joy
-  '1F639': ['joy_cat'],
+  '1F639': ['tears_of_joy_cat', 'joy_cat'],
   // 😻 smiling cat with heart-eyes
   '1F63B': ['smiling_cat_with_heart_eyes', 'heart_eyes_cat'],
   // 😼 cat with wry smile
@@ -452,7 +455,7 @@ export default {
   // 🐾 paw prints
   '1F43E': ['paw_prints'],
   // 🐔 chicken
-  '1F414': ['chicken'],
+  '1F414': ['chicken_face', 'chicken'],
   // 🐣 hatching chick
   '1F423': ['hatching_chick'],
   // 🐤 baby chick
@@ -574,7 +577,7 @@ export default {
   // 🍕 pizza
   '1F355': ['pizza'],
   // 🍳 cooking
-  '1F373': ['cooking'],
+  '1F373': ['cooking', 'fried_egg'],
   // 🍲 pot of food
   '1F372': ['pot_of_food', 'stew'],
   // 🍱 bento box
@@ -706,7 +709,7 @@ export default {
   // 🌆 cityscape at dusk
   '1F306': ['city_dusk'],
   // 🌇 sunset
-  '1F307': ['city_sunset'],
+  '1F307': ['city_sunset', 'city_sunrise'],
   // 🌉 bridge at night
   '1F309': ['bridge_at_night'],
   // ♨︎ hot springs
@@ -742,7 +745,7 @@ export default {
   // 🚕 taxi
   '1F695': ['taxi'],
   // 🚗 automobile
-  '1F697': ['red_car'],
+  '1F697': ['red_car', 'car'],
   // 🚙 sport utility vehicle
   '1F699': ['blue_car', 'suv'],
   // 🚚 delivery truck
@@ -750,9 +753,9 @@ export default {
   // 🚲️ bicycle
   '1F6B2': ['bicycle', 'bike'],
   // 🚏 bus stop
-  '1F68F': ['bus_stop', 'busstop'],
+  '1F68F': ['busstop'],
   // ⛽️ fuel pump
-  '26FD': ['fuel_pump', 'fuelpump'],
+  '26FD': ['fuelpump'],
   // 🚨 police car light
   '1F6A8': ['rotating_light'],
   // 🚥 horizontal traffic light
@@ -830,7 +833,7 @@ export default {
   // ☁︎ cloud
   '2601': ['cloud'],
   // ⛅️ sun behind cloud
-  '26C5': ['partly_sunny'],
+  '26C5': ['sun_behind_cloud', 'partly_sunny'],
   // 🌀 cyclone
   '1F300': ['cyclone'],
   // 🌈 rainbow
@@ -870,7 +873,7 @@ export default {
   // 🎋 tanabata tree
   '1F38B': ['tanabata_tree'],
   // 🎍 pine decoration
-  '1F38D': ['bamboo', 'pine_decor'],
+  '1F38D': ['bamboo'],
   // 🎎 Japanese dolls
   '1F38E': ['dolls'],
   // 🎏 carp streamer
@@ -910,11 +913,11 @@ export default {
   // 🎯 direct hit
   '1F3AF': ['direct_hit', 'dart'],
   // 🎱 pool 8 ball
-  '1F3B1': ['8ball'],
+  '1F3B1': ['billiards', '8ball'],
   // 🔮 crystal ball
   '1F52E': ['crystal_ball'],
   // 🎮️ video game
-  '1F3AE': ['video_game'],
+  '1F3AE': ['video_game', 'controller'],
   // 🎰 slot machine
   '1F3B0': ['slot_machine'],
   // 🎲 game die
@@ -1210,7 +1213,7 @@ export default {
   // 🚼️ baby symbol
   '1F6BC': ['baby_symbol'],
   // 🚾 water closet
-  '1F6BE': ['wc'],
+  '1F6BE': ['water_closet', 'wc'],
   // ⚠︎ warning
   '26A0': ['warning'],
   // ⛔️ no entry
@@ -1220,7 +1223,7 @@ export default {
   // 🚭️ no smoking
   '1F6AD': ['no_smoking'],
   // 🔞 no one under eighteen
-  '1F51E': ['underage'],
+  '1F51E': ['no_one_under_18', 'underage'],
   // ⬆︎ up arrow
   '2B06': ['arrow_up'],
   // ↗︎ up-right arrow
@@ -1240,11 +1243,11 @@ export default {
   // ↕︎ up-down arrow
   '2195': ['arrow_up_down'],
   // ↔︎ left-right arrow
-  '2194': ['arrow_left_right'],
+  '2194': ['left_right_arrow'],
   // ↩︎ right arrow curving left
-  '21A9': ['arrow_left_hook'],
+  '21A9': ['arrow_left_hook', 'leftwards_arrow_with_hook'],
   // ↪︎ left arrow curving right
-  '21AA': ['arrow_right_hook'],
+  '21AA': ['arrow_right_hook', 'rightwards_arrow_with_hook'],
   // ⤴︎ right arrow curving up
   '2934': ['arrow_heading_up'],
   // ⤵︎ right arrow curving down
@@ -1314,7 +1317,7 @@ export default {
   // 📴 mobile phone off
   '1F4F4': ['mobile_phone_off'],
   // ✖︎ multiply
-  '2716': ['multiplication'],
+  '2716': ['multiply', 'multiplication'],
   // ➕ plus
   '2795': ['plus'],
   // ➖ minus
@@ -1348,7 +1351,7 @@ export default {
   // 🔰 Japanese symbol for beginner
   '1F530': ['beginner'],
   // ⭕️ hollow red circle
-  '2B55': ['hollow_red_cicle'],
+  '2B55': ['hollow_red_circle', 'red_o'],
   // ✅ check mark button
   '2705': ['check_mark_button', 'white_check_mark'],
   // ☑︎ check box with check
@@ -1624,7 +1627,7 @@ export default {
   // 🏘︎ houses
   '1F3D8': ['houses', 'homes'],
   // 🏚︎ derelict house
-  '1F3DA': ['house_abandoned'],
+  '1F3DA': ['derelict_house', 'house_abandoned'],
   // ⛩︎ shinto shrine
   '26E9': ['shinto_shrine'],
   // 🏙︎ cityscape
@@ -1650,7 +1653,7 @@ export default {
   // ⛴︎ ferry
   '26F4': ['ferry'],
   // 🛥︎ motor boat
-  '1F6E5': ['motor_boat', 'motorboat'],
+  '1F6E5': ['motorboat'],
   // 🛩︎ small airplane
   '1F6E9': ['small_airplane'],
   // 🛰︎ satellite
@@ -1826,7 +1829,7 @@ export default {
   // ⏺︎ record button
   '23FA': ['record'],
   // 🏳︎ white flag
-  '1F3F3': ['white_flag', 'flag_white'],
+  '1F3F3': ['white_flag'],
 
   // VERSION 1
   // 😀 grinning face
@@ -1848,7 +1851,7 @@ export default {
   // 🤗 hugging face
   '1F917': ['hugging_face', 'hugging', 'hug'],
   // 🤔 thinking face
-  '1F914': ['thinking_face', 'thinking'],
+  '1F914': ['thinking_face', 'thinking', 'wtf'],
   // 🤐 zipper-mouth face
   '1F910': ['zipper_mouth_face', 'zipper_mouth'],
   // 😑 expressionless face
@@ -2004,7 +2007,7 @@ export default {
   // 🕋 kaaba
   '1F54B': ['kaaba'],
   // 🚂 locomotive
-  '1F682': ['locomotive'],
+  '1F682': ['steam_locomotive'],
   // 🚆 train
   '1F686': ['train'],
   // 🚈 light rail
@@ -2082,7 +2085,7 @@ export default {
   // 🔇 muted speaker
   '1F507': ['mute', 'no_sound'],
   // 🔉 speaker medium volume
-  '1F509': ['sound'],
+  '1F509': ['medium_volumne', 'sound'],
   // 📯 postal horn
   '1F4EF': ['postal_horn'],
   // 🔕 bell with slash
@@ -2138,7 +2141,7 @@ export default {
   // 🚯 no littering
   '1F6AF': ['no_littering', 'do_not_litter'],
   // 🚱 non-potable water
-  '1F6B1': ['non_potable_water'],
+  '1F6B1': ['non-potable_water'],
   // 🚷 no pedestrians
   '1F6B7': ['no_pedestrians'],
   // 📵 no mobile phones
@@ -2178,7 +2181,7 @@ export default {
   // ➿ double curly loop
   '27BF': ['double_curly_loop', 'loop'],
   // 🏴 black flag
-  '1F3F4': ['black_flag', 'flag_black'],
+  '1F3F4': ['black_flag'],
 
   // VERSION 2
   // 👁️‍🗨️ eye in speech bubble
@@ -2832,7 +2835,7 @@ export default {
   // 🥘 shallow pan of food
   '1F958': ['shallow_pan_of_food'],
   // 🥗 green salad
-  '1F957': ['salad'],
+  '1F957': ['green_salad', 'salad'],
   // 🦐 shrimp
   '1F990': ['shrimp'],
   // 🦑 squid
@@ -2842,7 +2845,7 @@ export default {
   // 🥂 clinking glasses
   '1F942': ['clinking_glasses'],
   // 🥃 tumbler glass
-  '1F943': ['tumbler_glass'],
+  '1F943': ['tumbler_glass', 'whisky'],
   // 🥄 spoon
   '1F944': ['spoon'],
   // 🛵 motor scooter
@@ -2854,11 +2857,11 @@ export default {
   // 🛶 canoe
   '1F6F6': ['canoe'],
   // 🥇 1st place medal
-  '1F947': ['first_place_medal'],
+  '1F947': ['first_place_medal', '1st'],
   // 🥈 2nd place medal
-  '1F948': ['second_place_medal'],
+  '1F948': ['second_place_medal', '2nd'],
   // 🥉 3rd place medal
-  '1F949': ['third_place_medal'],
+  '1F949': ['third_place_medal', '3rd'],
   // 🥊 boxing glove
   '1F94A': ['boxing_glove'],
   // 🥋 martial arts uniform
@@ -2872,9 +2875,9 @@ export default {
 
   // VERSION 4
   // 👱‍♀️ woman: blond hair
-  '1F471-200D-2640-FE0F': ['blond_woman'],
+  '1F471-200D-2640-FE0F': ['woman_blond_haired'],
   // 👱‍♂️ man: blond hair
-  '1F471-200D-2642-FE0F': ['blond_man'],
+  '1F471-200D-2642-FE0F': ['man_blond_haired'],
   // 🙍‍♂️ man frowning
   '1F64D-200D-2642-FE0F': ['man_frowning'],
   // 🙍‍♀️ woman frowning
@@ -2992,13 +2995,13 @@ export default {
   // 👷‍♀️ woman construction worker
   '1F477-200D-2640-FE0F': ['woman_construction_worker'],
   // 👳‍♂️ man wearing turban
-  '1F473-200D-2642-FE0F': ['man_turban'],
+  '1F473-200D-2642-FE0F': ['man_wearing_turban'],
   // 👳‍♀️ woman wearing turban
-  '1F473-200D-2640-FE0F': ['woman_turban'],
+  '1F473-200D-2640-FE0F': ['woman_wearing_turban'],
   // 💆‍♂️ man getting massage
-  '1F486-200D-2642-FE0F': ['man_getting_face_massage'],
+  '1F486-200D-2642-FE0F': ['man_getting_massage'],
   // 💆‍♀️ woman getting massage
-  '1F486-200D-2640-FE0F': ['woman_getting_face_massage'],
+  '1F486-200D-2640-FE0F': ['woman_getting_massage'],
   // 💇‍♂️ man getting haircut
   '1F487-200D-2642-FE0F': ['man_getting_haircut'],
   // 💇‍♀️ woman getting haircut
@@ -3104,7 +3107,7 @@ export default {
   // 🤪 zany face
   '1F92A': ['zany_face', 'zany'],
   // 🤭 face with hand over mouth
-  '1F92D': ['face_with_hand_over_mouth'],
+  '1F92D': ['face_with_hand_over_mouth', 'hand_over_mouth'],
   // 🤫 shushing face
   '1F92B': ['shushing_face', 'shush'],
   // 🤨 face with raised eyebrow
@@ -3134,7 +3137,7 @@ export default {
   // 🧓 older person
   '1F9D3': ['older_adult'],
   // 🧕 woman with headscarf
-  '1F9D5': ['woman_headscarf'],
+  '1F9D5': ['woman_with_headscarf'],
   // 🤱 breast-feeding
   '1F931': ['breast_feeding'],
   // 🧙 mage
@@ -3430,7 +3433,7 @@ export default {
   // 🤍 white heart
   '1F90D': ['white_heart'],
   // 🤏 pinching hand
-  '1F90F': ['pinching_hand', 'pinch'],
+  '1F90F': ['pinching_hand'],
   // 🦾 mechanical arm
   '1F9BE': ['mechanical_arm'],
   // 🦿 mechanical leg
@@ -3628,7 +3631,7 @@ export default {
   // 🥸 disguised face
   '1F978': ['disguised_face', 'disguised'],
   // 🤌 pinched fingers
-  '1F90C': ['pinched_fingers'],
+  '1F90C': ['pinched_fingers', 'pinch'],
   // 🫀 anatomical heart
   '1FAC0': ['anatomical_heart'],
   // 🫁 lungs
@@ -3680,7 +3683,7 @@ export default {
   // 🪴 potted plant
   '1FAB4': ['potted_plant'],
   // 🫐 blueberries
-  '1FAD0': ['blueberry'],
+  '1FAD0': ['blueberries'],
   // 🫒 olive
   '1FAD2': ['olive'],
   // 🫑 bell pepper
