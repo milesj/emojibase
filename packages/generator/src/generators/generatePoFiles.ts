@@ -8,7 +8,7 @@ export default async function generatePoFiles(): Promise<void> {
   log.title('data', 'Generating I18N po files');
 
   // eslint-disable-next-line
-  const emojiList: Emoji[] = require('../../../../data/en/data.raw.json');
+  const emojiList: Emoji[] = require('../../../data/en/data.raw.json');
   const emojiMap: Record<Hexcode, Emoji> = {};
 
   emojiList.forEach((emoji) => {
@@ -22,7 +22,7 @@ export default async function generatePoFiles(): Promise<void> {
   });
 
   // eslint-disable-next-line
-  const emojibaseShortcodes: ShortcodesDataset = require('../../../../data/en/shortcodes/emojibase.raw.json');
+  const emojibaseShortcodes: ShortcodesDataset = require('../../../data/en/shortcodes/emojibase.raw.json');
   const englishOutput: string[] = [];
   const nonEnglishOutput: string[] = [];
 
