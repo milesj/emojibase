@@ -1,11 +1,27 @@
 import path from 'path';
-import { ShortcodesDataset, SUPPORTED_LOCALES, Emoji, Hexcode } from 'emojibase';
+import { ShortcodesDataset, SUPPORTED_LOCALES, Emoji, Hexcode, GroupDataset } from 'emojibase';
 import log from '../helpers/log';
 import toArray from '../helpers/toArray';
 import writeFile from '../helpers/writeFile';
 
 export default async function generatePoFiles(): Promise<void> {
   log.title('data', 'Generating I18N po files');
+
+  const englishOutput: string[] = [];
+  const nonEnglishOutput: string[] = [];
+
+  function addToOutput(rows: string[], isEnglish: boolean) {
+    if (isEnglish) {
+      englishOutput.push(...rows);
+    } else {
+      nonEnglishOutput.push(...rows);
+    }
+  }
+
+  function addToBothOutputs(rows: string[]) {
+    englishOutput.push(...rows);
+    nonEnglishOutput.push(...rows);
+  }
 
   // eslint-disable-next-line
   const emojiList: Emoji[] = require('../../../data/en/data.raw.json');
@@ -21,20 +37,34 @@ export default async function generatePoFiles(): Promise<void> {
     }
   });
 
+  // Groups and subgroups
   // eslint-disable-next-line
-  const emojibaseShortcodes: ShortcodesDataset = require('../../../data/en/shortcodes/emojibase.raw.json');
-  const englishOutput: string[] = [];
-  const nonEnglishOutput: string[] = [];
+  const groups: GroupDataset = require('../../../data/meta/groups.json');
 
-  function addToOutput(rows: string[], isEnglish: boolean) {
-    if (isEnglish) {
-      englishOutput.push(...rows);
-    } else {
-      nonEnglishOutput.push(...rows);
-    }
-  }
+  Object.entries(groups.groups).forEach(([groupID, groupKey]) => {
+    addToBothOutputs([
+      '',
+      `# ${groupID}`,
+      `msgctxt "EMOJI GROUP"`,
+      `msgid "${groupKey}"`,
+      `msgstr ""`,
+    ]);
+  });
+
+  Object.entries(groups.subgroups).forEach(([groupID, groupKey]) => {
+    addToBothOutputs([
+      '',
+      `# ${groupID}`,
+      `msgctxt "EMOJI SUB-GROUP"`,
+      `msgid "${groupKey}"`,
+      `msgstr ""`,
+    ]);
+  });
 
   // Shortcodes
+  // eslint-disable-next-line
+  const emojibaseShortcodes: ShortcodesDataset = require('../../../data/en/shortcodes/emojibase.raw.json');
+
   Object.entries(emojibaseShortcodes).forEach(([hexcode, shortcodeList]) => {
     const shortcodes = toArray(shortcodeList);
     const emoji = emojiMap[hexcode];
