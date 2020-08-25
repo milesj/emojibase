@@ -26,23 +26,34 @@ export default async function generatePoFiles(): Promise<void> {
   const englishOutput: string[] = [];
   const nonEnglishOutput: string[] = [];
 
-  function addToOutput(output: string[], emoji: Emoji, shortcode: string, isEnglish: boolean) {
-    output.push(
-      '',
-      `# ${emoji.hexcode}`,
-      `msgctxt "${emoji.emoji || emoji.text} ${emoji.annotation}"`,
-      `msgid "${shortcode}"`,
-      `msgstr "${isEnglish ? shortcode : ''}"`,
-    );
+  function addToOutput(rows: string[], isEnglish: boolean) {
+    if (isEnglish) {
+      englishOutput.push(...rows);
+    } else {
+      nonEnglishOutput.push(...rows);
+    }
   }
 
+  // Shortcodes
   Object.entries(emojibaseShortcodes).forEach(([hexcode, shortcodeList]) => {
     const shortcodes = toArray(shortcodeList);
     const emoji = emojiMap[hexcode];
 
+    // Skip skin tones since they're automatically generated
+    if (emoji.tone) {
+      return;
+    }
+
     shortcodes.forEach((shortcode) => {
-      addToOutput(englishOutput, emoji, shortcode, true);
-      addToOutput(nonEnglishOutput, emoji, shortcode, false);
+      const rows = [
+        '',
+        `# ${emoji.hexcode}`,
+        `msgctxt "EMOJI: ${emoji.emoji || emoji.text} ${emoji.annotation}"`,
+        `msgid "${shortcode}"`,
+      ];
+
+      addToOutput([...rows, `msgstr "${shortcode}"`], true);
+      addToOutput([...rows, `msgstr ""`], false);
     });
   });
 
