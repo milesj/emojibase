@@ -14,11 +14,8 @@ import buildAnnotationData from '../../builders/buildAnnotationData';
 import { ShortcodeDataMap } from '../../types';
 import writeDataset from '../../helpers/writeDataset';
 import Database from '../Database';
-import {
-  SYMBOL_ASTERISK_MESSAGES,
-  SYMBOL_HASH_MESSAGES,
-  SKIN_TONE_MESSAGES,
-} from '../../translations';
+import loadPoMeta from '../../loaders/loadPoMeta';
+import POManager from '../../parsers/POManager';
 
 const CUSTOM_SHORTCODES: { [key: string]: string } = {
   e_mail: 'email',
@@ -27,7 +24,12 @@ const CUSTOM_SHORTCODES: { [key: string]: string } = {
 
 const kuroshiro = new Kuroshiro();
 
-async function slugify(value: string, locale: Locale, transform: boolean = false): Promise<string> {
+async function slugify(
+  value: string,
+  locale: Locale,
+  po: POManager,
+  transform: boolean = false,
+): Promise<string> {
   let slug = value.trim();
 
   if (transform) {
@@ -60,11 +62,11 @@ async function slugify(value: string, locale: Locale, transform: boolean = false
     .replace(/_+$/, '');
 
   if (slug.includes('*')) {
-    slug = slug.replace('*', await slugify(SYMBOL_ASTERISK_MESSAGES[locale], locale, transform));
+    slug = slug.replace('*', await slugify(po.getMessage('asterisk'), locale, po, transform));
   }
 
   if (slug.includes('#')) {
-    slug = slug.replace('#', await slugify(SYMBOL_HASH_MESSAGES[locale], locale, transform));
+    slug = slug.replace('#', await slugify(po.getMessage('number sign'), locale, po, transform));
   }
 
   return CUSTOM_SHORTCODES[slug] || slug;
@@ -79,10 +81,20 @@ export default async function generateCldr(db: Database) {
     SUPPORTED_LOCALES.map(async (locale) => {
       const isLatinChars = !NON_LATIN_LOCALES.includes(locale);
       const annotations = await buildAnnotationData(locale);
+      const translations = await loadPoMeta(locale);
       const cldr: ShortcodeDataMap = {};
       const cldrNonLatin: ShortcodeDataMap = {};
-      const skinToneSuffix = await slugify(SKIN_TONE_MESSAGES[locale], locale, true);
-      const skinToneSuffixNonLatin = await slugify(SKIN_TONE_MESSAGES[locale], locale);
+      const skinToneSuffix = await slugify(
+        translations.getMessage('tone'),
+        locale,
+        translations,
+        true,
+      );
+      const skinToneSuffixNonLatin = await slugify(
+        translations.getMessage('tone'),
+        locale,
+        translations,
+      );
       let hasLatin = false;
       let hasNonLatin = false;
 
@@ -96,11 +108,11 @@ export default async function generateCldr(db: Database) {
         }
 
         // eslint-disable-next-line require-atomic-updates
-        cldr[emoji.hexcode] = await slugify(row.annotation, locale, true);
+        cldr[emoji.hexcode] = await slugify(row.annotation, locale, translations, true);
         hasLatin = true;
 
         if (!isLatinChars) {
-          cldrNonLatin[emoji.hexcode] = await slugify(row.annotation, locale);
+          cldrNonLatin[emoji.hexcode] = await slugify(row.annotation, locale, translations);
           hasNonLatin = true;
         }
 

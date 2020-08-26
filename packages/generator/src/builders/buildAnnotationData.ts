@@ -19,8 +19,8 @@ import {
   INHERIT_PARENT_SYMBOL,
   MULTI_PERSON_SKIN_TONE_PATTERN,
 } from '../constants';
-import { REGIONAL_INDICATOR_MESSAGES } from '../translations';
 import readCache from '../helpers/readCache';
+import loadPoMeta from '../loaders/loadPoMeta';
 
 export default async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotationMap> {
   const cache = readCache<CLDRAnnotationMap>(`final/${locale}-annotation-data.json`);
@@ -37,6 +37,7 @@ export default async function buildAnnotationData(locale: Locale): Promise<CLDRA
   const englishAnnotations = await loadAnnotations('en'); // Fallback to English
   const annotations = await loadAnnotations(locale);
   const annotationsDerived = await loadAnnotations(locale, true); // Modifiers and sequences
+  const translations = await loadPoMeta(locale);
   let parentAnnotations: CLDRAnnotationMap = {};
   let parentAnnotationsDerived: CLDRAnnotationMap = {};
 
@@ -215,7 +216,10 @@ export default async function buildAnnotationData(locale: Locale): Promise<CLDRA
       // SPECIAL CASE: Not localized in CLDR because indicators should be hidden,
       // but we're going to support them.
     } else if (REGIONAL_INDICATORS[hexcode]) {
-      annotation = util.format(REGIONAL_INDICATOR_MESSAGES[locale], REGIONAL_INDICATORS[hexcode]);
+      annotation = util.format(
+        translations.getMessage('regional indicator %s'),
+        REGIONAL_INDICATORS[hexcode],
+      );
       tags = [];
     }
 

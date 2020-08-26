@@ -46,16 +46,16 @@ export default class POManager {
 
   setHeader(name: POHeaders, value: string | Date) {
     if (value instanceof Date) {
+      const pad = (val: number) => String(val).padStart(2, '0');
       let tz = String(value.getTimezoneOffset());
 
       if (!tz.startsWith('-')) {
         tz = `+${tz}`;
       }
 
-      this.po.headers[name] = `${value.getFullYear()}-${String(value.getMonth() + 1).padStart(
-        2,
-        '0',
-      )}-${value.getDate()} ${value.getHours()}:${value.getMinutes()}${tz}`;
+      this.po.headers[name] = `${value.getFullYear()}-${pad(value.getMonth() + 1)}-${pad(
+        value.getDate(),
+      )} ${pad(value.getHours())}:${pad(value.getMinutes())}${tz}`;
     } else {
       this.po.headers[name] = value;
     }
@@ -90,6 +90,20 @@ export default class POManager {
     }
 
     this.items[msgid] = item;
+  }
+
+  getItem(id: string): POItem {
+    const item = this.items[id];
+
+    if (!item) {
+      throw new Error(`No PO translation for "${id}".`);
+    }
+
+    return item;
+  }
+
+  getMessage(id: string): string {
+    return toArray(this.getItem(id).msgstr).join('');
   }
 
   async write(): Promise<void> {
