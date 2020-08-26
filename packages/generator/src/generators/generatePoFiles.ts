@@ -13,20 +13,15 @@ import {
 export default async function generatePoFiles(): Promise<void> {
   log.title('data', 'Generating I18N po files');
 
-  const englishOutput: string[] = [];
-  const nonEnglishOutput: string[] = [];
+  const enShortcodesOutput: string[] = [];
+  const nonEnShortcodesOutput: string[] = [];
 
   function addToOutput(rows: string[], isEnglish: boolean) {
     if (isEnglish) {
-      englishOutput.push(...rows);
+      enShortcodesOutput.push(...rows);
     } else {
-      nonEnglishOutput.push(...rows);
+      nonEnShortcodesOutput.push(...rows);
     }
-  }
-
-  function addToBothOutputs(rows: string[]) {
-    englishOutput.push(...rows);
-    nonEnglishOutput.push(...rows);
   }
 
   // eslint-disable-next-line
@@ -41,30 +36,6 @@ export default async function generatePoFiles(): Promise<void> {
         emojiMap[skin.hexcode] = skin;
       });
     }
-  });
-
-  // Groups and subgroups
-  // eslint-disable-next-line
-  const groups: GroupDataset = require('../../../data/meta/groups.json');
-
-  Object.entries(groups.groups).forEach(([groupID, groupKey]) => {
-    addToBothOutputs([
-      '',
-      `# ${groupID}`,
-      `msgctxt "EMOJI GROUP"`,
-      `msgid "${groupKey}"`,
-      `msgstr ""`,
-    ]);
-  });
-
-  Object.entries(groups.subgroups).forEach(([groupID, groupKey]) => {
-    addToBothOutputs([
-      '',
-      `# ${groupID}`,
-      `msgctxt "EMOJI SUB-GROUP"`,
-      `msgid "${groupKey}"`,
-      `msgstr ""`,
-    ]);
   });
 
   // Shortcodes
@@ -95,12 +66,23 @@ export default async function generatePoFiles(): Promise<void> {
 
   await Promise.all(
     SUPPORTED_LOCALES.map(async (locale) => {
-      const output = [
-        ...(locale === 'en' || locale === 'en-gb' ? englishOutput : nonEnglishOutput),
-      ];
+      const output =
+        locale === 'en' || locale === 'en-gb' ? enShortcodesOutput : nonEnShortcodesOutput;
+
+      return writeFile(path.join(process.cwd(), 'po', locale), 'shortcodes.po', output.join('\n'));
+    }),
+  );
+
+  // Groups and subgroups
+  // eslint-disable-next-line
+  const groups: GroupDataset = require('../../../data/meta/groups.json');
+
+  await Promise.all(
+    SUPPORTED_LOCALES.map(async (locale) => {
+      const metaOutput: string[] = [];
 
       // Regional indicators
-      output.unshift(
+      metaOutput.push(
         '',
         '# Custom',
         '#, javascript-format',
@@ -110,7 +92,7 @@ export default async function generatePoFiles(): Promise<void> {
       );
 
       // Skin tones
-      output.unshift(
+      metaOutput.push(
         '',
         '# Custom',
         `msgctxt "ANNOTATION: Very short word for skin tone and/or color (max 1 word if possible)"`,
@@ -119,7 +101,7 @@ export default async function generatePoFiles(): Promise<void> {
       );
 
       // Symbols
-      output.unshift(
+      metaOutput.push(
         '',
         '# Custom',
         `msgctxt "ANNOTATION: Name of the asterisk symbol (*)"`,
@@ -127,7 +109,7 @@ export default async function generatePoFiles(): Promise<void> {
         `msgstr "${SYMBOL_ASTERISK_MESSAGES[locale] || ''}"`,
       );
 
-      output.unshift(
+      metaOutput.push(
         '',
         '# Custom',
         `msgctxt "ANNOTATION: Name of the number sign/hash symbol (#)"`,
@@ -135,7 +117,27 @@ export default async function generatePoFiles(): Promise<void> {
         `msgstr "${SYMBOL_HASH_MESSAGES[locale] || ''}"`,
       );
 
-      return writeFile(path.join(process.cwd(), 'po'), `${locale}.po`, output.join('\n'));
+      Object.entries(groups.groups).forEach(([groupID, groupKey]) => {
+        metaOutput.push(
+          '',
+          `# ${groupID}: ${groupKey}`,
+          `msgctxt "EMOJI GROUP"`,
+          `msgid "${groupKey.replace(/-/g, ' ')}"`,
+          `msgstr ""`,
+        );
+      });
+
+      Object.entries(groups.subgroups).forEach(([groupID, groupKey]) => {
+        metaOutput.push(
+          '',
+          `# ${groupID}: ${groupKey}`,
+          `msgctxt "EMOJI SUB-GROUP"`,
+          `msgid "${groupKey.replace(/-/g, ' ')}"`,
+          `msgstr ""`,
+        );
+      });
+
+      return writeFile(path.join(process.cwd(), 'po', locale), 'meta.po', metaOutput.join('\n'));
     }),
   );
 }
