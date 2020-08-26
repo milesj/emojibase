@@ -16,7 +16,6 @@ export default class POManager {
     this.po = po;
 
     // Set common headers
-    this.setHeader('POT-Creation-Date', new Date());
     this.setHeader('PO-Revision-Date', new Date());
     this.setHeader('MIME-Version', '1.0');
     this.setHeader('Content-Type', 'text/plain; charset=UTF-8');
