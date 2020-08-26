@@ -1,5 +1,6 @@
 /* eslint-disable sort-keys */
 
+import { Locale } from 'emojibase';
 import { Property } from './types';
 
 export const INHERIT_PARENT_SYMBOL = '↑↑↑';
@@ -167,3 +168,31 @@ export const SHORTCODE_GUIDELINES = `/**
  *  - Country shortcodes should prefix with "flag_<name>", while
  *    non-country use a suffix "<name>_flag".
  */`;
+
+export const LOCALE_COUNTRIES: { [K in Locale]: string } = {
+  da: 'Danish',
+  de: 'German',
+  'en-gb': 'English, Great Britain',
+  en: 'English',
+  'es-mx': 'Spanish, Mexico',
+  es: 'Spanish',
+  et: 'Estonian',
+  fi: 'Finnish',
+  fr: 'French',
+  hu: 'Hungarian',
+  it: 'Italian',
+  ja: 'Japanese',
+  ko: 'Korean',
+  lt: 'Lithuanian',
+  ms: 'Malay',
+  nb: 'Norwegian, Bokmål',
+  nl: 'Dutch',
+  pl: 'Polish',
+  pt: 'Portuguese',
+  ru: 'Russian',
+  sv: 'Swedish',
+  th: 'Thai',
+  uk: 'Ukrainian',
+  'zh-hant': 'Chinese, Traditional',
+  zh: 'Chinese',
+};

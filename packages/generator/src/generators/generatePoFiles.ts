@@ -1,14 +1,7 @@
-import path from 'path';
 import { ShortcodesDataset, SUPPORTED_LOCALES, Emoji, Hexcode, GroupDataset } from 'emojibase';
 import log from '../helpers/log';
 import toArray from '../helpers/toArray';
-import writeFile from '../helpers/writeFile';
-import {
-  REGIONAL_INDICATOR_MESSAGES,
-  SKIN_TONE_MESSAGES,
-  SYMBOL_ASTERISK_MESSAGES,
-  SYMBOL_HASH_MESSAGES,
-} from '../translations';
+import loadPoMeta from '../loaders/loadPoMeta';
 
 export default async function generatePoFiles(): Promise<void> {
   log.title('data', 'Generating I18N po files');
@@ -64,80 +57,40 @@ export default async function generatePoFiles(): Promise<void> {
     });
   });
 
-  await Promise.all(
-    SUPPORTED_LOCALES.map(async (locale) => {
-      const output =
-        locale === 'en' || locale === 'en-gb' ? enShortcodesOutput : nonEnShortcodesOutput;
+  // await Promise.all(
+  //   SUPPORTED_LOCALES.map(async (locale) => {
+  //     const output =
+  //       locale === 'en' || locale === 'en-gb' ? enShortcodesOutput : nonEnShortcodesOutput;
 
-      return writeFile(path.join(process.cwd(), 'po', locale), 'shortcodes.po', output.join('\n'));
-    }),
-  );
+  //     return writeFile(path.join(process.cwd(), 'po', locale), 'shortcodes.po', output.join('\n'));
+  //   }),
+  // );
 
-  // Groups and subgroups
+  // Metadata
   // eslint-disable-next-line
-  const groups: GroupDataset = require('../../../data/meta/groups.json');
+  const groupsHierarchy: GroupDataset = require('../../../data/meta/groups.json');
 
   await Promise.all(
     SUPPORTED_LOCALES.map(async (locale) => {
-      const metaOutput: string[] = [];
+      const po = await loadPoMeta(locale);
 
-      // Regional indicators
-      metaOutput.push(
-        '',
-        '# Custom',
-        '#, javascript-format',
-        `msgctxt "ANNOTATION: Denotes a countries flag using alphabetical characters (usa = United States)"`,
-        `msgid "regional indicator %s"`,
-        `msgstr "${REGIONAL_INDICATOR_MESSAGES[locale] || ''}"`,
-      );
-
-      // Skin tones
-      metaOutput.push(
-        '',
-        '# Custom',
-        `msgctxt "ANNOTATION: Very short word for skin tone and/or color (max 1 word if possible)"`,
-        `msgid "skin tone"`,
-        `msgstr "${SKIN_TONE_MESSAGES[locale] || ''}"`,
-      );
-
-      // Symbols
-      metaOutput.push(
-        '',
-        '# Custom',
-        `msgctxt "ANNOTATION: Name of the asterisk symbol (*)"`,
-        `msgid "asterisk"`,
-        `msgstr "${SYMBOL_ASTERISK_MESSAGES[locale] || ''}"`,
-      );
-
-      metaOutput.push(
-        '',
-        '# Custom',
-        `msgctxt "ANNOTATION: Name of the number sign/hash symbol (#)"`,
-        `msgid "number sign"`,
-        `msgstr "${SYMBOL_HASH_MESSAGES[locale] || ''}"`,
-      );
-
-      Object.entries(groups.groups).forEach(([groupID, groupKey]) => {
-        metaOutput.push(
-          '',
-          `# ${groupID}: ${groupKey}`,
-          `msgctxt "EMOJI GROUP"`,
-          `msgid "${groupKey.replace(/-/g, ' ')}"`,
-          `msgstr ""`,
-        );
+      // Groups
+      Object.entries(groupsHierarchy.groups).forEach(([groupID, groupKey]) => {
+        po.addItem(groupKey.replace(/-/g, ' '), '', 'EMOJI GROUP', {
+          comment: `${groupID}: ${groupKey}`,
+        });
       });
 
-      Object.entries(groups.subgroups).forEach(([groupID, groupKey]) => {
-        metaOutput.push(
-          '',
-          `# ${groupID}: ${groupKey}`,
-          `msgctxt "EMOJI SUB-GROUP"`,
-          `msgid "${groupKey.replace(/-/g, ' ')}"`,
-          `msgstr ""`,
-        );
+      // Subgroups
+      Object.entries(groupsHierarchy.subgroups).forEach(([groupID, groupKey]) => {
+        po.addItem(groupKey.replace(/-/g, ' '), '', 'EMOJI SUB-GROUP', {
+          comment: `${groupID}: ${groupKey}`,
+        });
       });
 
-      return writeFile(path.join(process.cwd(), 'po', locale), 'meta.po', metaOutput.join('\n'));
+      // Add custom translations here!
+
+      return po.write();
     }),
   );
 }
