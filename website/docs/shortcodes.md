@@ -101,31 +101,34 @@ If you would like to help translate in any way possible, please create an issue 
 
 | Locale                   | `cldr` | `cldr-native` | `emojibase` | `emojibase-legacy` | `github` | `iamcal` | `joypixels` |
 | ------------------------ | :----: | :-----------: | :---------: | :----------------: | :------: | :------: | :---------: |
-| Chinese (zh)             |   ✅   |      ✅       |             |                    |          |          |             |
-| Chinese, Trad. (zh-hant) |   ✅   |      ✅       |             |                    |          |          |             |
-| Danish (da)              |   ✅   |               |             |                    |          |          |             |
-| Dutch (nl)               |   ✅   |               |             |                    |          |          |             |
+| Chinese (zh)             |   ✅   |      ✅       |     ✴️      |                    |          |          |             |
+| Chinese, Trad. (zh-hant) |   ✅   |      ✅       |     ✴️      |                    |          |          |             |
+| Danish (da)              |   ✅   |               |     ✴️      |                    |          |          |             |
+| Dutch (nl)               |   ✅   |               |     ✴️      |                    |          |          |             |
 | English (en)             |   ✅   |               |     ✅      |         ✅         |    ✅    |    ✅    |     ✅      |
-| English, GB (en-gb)      |   ✅   |               |             |                    |          |          |             |
-| Estonian (et)            |   ✅   |               |             |                    |          |          |             |
-| Finnish (fi)             |   ✅   |               |             |                    |          |          |             |
-| French (fr)              |   ✅   |               |             |                    |          |          |             |
-| German (de)              |   ✅   |               |             |                    |          |          |             |
-| Hungarian (hu)           |   ✅   |               |             |                    |          |          |             |
-| Italian (it)             |   ✅   |               |             |                    |          |          |             |
-| Japanese (ja)            |   ✅   |      ✅       |             |                    |          |          |             |
-| Korean (ko)              |   ✅   |      ✅       |             |                    |          |          |             |
-| Lithuanian (lt)          |   ✅   |               |             |                    |          |          |             |
-| Malay (ms)               |   ✅   |               |             |                    |          |          |             |
-| Norwegian (nb)           |   ✅   |               |             |                    |          |          |             |
-| Polish (pl)              |   ✅   |               |             |                    |          |          |             |
-| Portuguese (pt)          |   ✅   |               |             |                    |          |          |             |
-| Russian (ru)             |   ✅   |      ✅       |             |                    |          |          |             |
-| Spanish (es)             |   ✅   |               |             |                    |          |          |             |
-| Spanish, Mexico (es-mx)  |   ✅   |               |             |                    |          |          |             |
-| Swedish (sv)             |   ✅   |               |             |                    |          |          |             |
-| Thai (th)                |   ✅   |      ✅       |             |                    |          |          |             |
-| Ukrainian (uk)           |   ✅   |      ✅       |             |                    |          |          |             |
+| English, GB (en-gb)      |   ✅   |               |     ✴️      |                    |          |          |             |
+| Estonian (et)            |   ✅   |               |     ✴️      |                    |          |          |             |
+| Finnish (fi)             |   ✅   |               |     ✴️      |                    |          |          |             |
+| French (fr)              |   ✅   |               |     ✴️      |                    |          |          |             |
+| German (de)              |   ✅   |               |     ✴️      |                    |          |          |             |
+| Hungarian (hu)           |   ✅   |               |     ✴️      |                    |          |          |             |
+| Italian (it)             |   ✅   |               |     ✴️      |                    |          |          |             |
+| Japanese (ja)            |   ✅   |      ✅       |     ✴️      |                    |          |          |             |
+| Korean (ko)              |   ✅   |      ✅       |     ✴️      |                    |          |          |             |
+| Lithuanian (lt)          |   ✅   |               |     ✴️      |                    |          |          |             |
+| Malay (ms)               |   ✅   |               |     ✴️      |                    |          |          |             |
+| Norwegian (nb)           |   ✅   |               |     ✴️      |                    |          |          |             |
+| Polish (pl)              |   ✅   |               |     ✴️      |                    |          |          |             |
+| Portuguese (pt)          |   ✅   |               |     ✴️      |                    |          |          |             |
+| Russian (ru)             |   ✅   |      ✅       |     ✴️      |                    |          |          |             |
+| Spanish (es)             |   ✅   |               |     ✴️      |                    |          |          |             |
+| Spanish, Mexico (es-mx)  |   ✅   |               |     ✴️      |                    |          |          |             |
+| Swedish (sv)             |   ✅   |               |     ✴️      |                    |          |          |             |
+| Thai (th)                |   ✅   |      ✅       |     ✴️      |                    |          |          |             |
+| Ukrainian (uk)           |   ✅   |      ✅       |     ✴️      |                    |          |          |             |
+
+- ✅ Fully translated and released
+- ✴️ In progress but not released
 
 ## Caveats
 

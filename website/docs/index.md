@@ -1,5 +1,6 @@
 ---
 title: Introduction
+slug: /
 ---
 
 A collection of lightweight, up-to-date, pre-generated, specification compliant, localized emoji
