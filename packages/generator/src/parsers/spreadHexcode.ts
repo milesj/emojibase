@@ -3,7 +3,7 @@ import formatHexcode from '../helpers/formatHexcode';
 
 export default function spreadHexcode(
   hexcode: string,
-  map: (hexcode: Hexcode, range: boolean) => void,
+  map: (hex: Hexcode, range: boolean) => void,
 ) {
   if (hexcode.includes('..')) {
     const [lowCodepoint, highCodepoint] = fromHexcodeToCodepoint(hexcode, '..');
