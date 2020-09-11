@@ -1,5 +1,9 @@
 > Versions that only update `test-data.json` are omitted from the changelog.
 
+# 6.0.0 - 2020-09-11
+
+View `emojibase-data` changelog.
+
 # 5.0.0 - 2020-02-13
 
 #### 🎉 Release

@@ -1,8 +1,8 @@
-# 6.0.0 - ???
+# 6.0.0 - 2020-09-11
 
 To better support shortcodes moving forward, we have rewritten their implementation. We now support
 translated shortcodes for all languages, and shortcode presets for common platforms like GitHub and
-slack.
+Slack.
 
 #### 💥 Breaking
 
