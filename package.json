@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "prepare": "beemo create-config --silent",
-    "build": "beemo run-script build --workspaces=emojibase,emojibase-generator,emojibase-test-utils",
+    "build": "packemon build --addEngines --checkLicenses",
     "clean": "rm -rf packages/*/{lib,esm,*.tsbuildinfo}",
     "clean:cache": "rm -rf ./cache",
     "coverage": "yarn run jest --coverage",
@@ -33,8 +33,7 @@
     "filesize": "^6.1.0",
     "glob": "^7.1.6",
     "gzip-size": "^5.1.1",
-    "lerna": "^3.22.1",
-    "regenerator-runtime": "^0.13.7"
+    "lerna": "^3.22.1"
   },
   "workspaces": [
     "packages/*"
