@@ -39,7 +39,7 @@ export default async function generateEmojibase(db: Database) {
 
   // Organize and sort the resources file using the raw dataset
   // eslint-disable-next-line
-  const emojisSource: Emoji[] = require('../../../../data/en/data.raw.json');
+  const emojisSource: Emoji[] = require(path.join(process.cwd(), 'packages/data/en/data.raw.json'));
   const output: string[] = [
     '/* eslint-disable sort-keys */',
     '',

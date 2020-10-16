@@ -16,6 +16,7 @@
   "main": "./lib/index.js",
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
+  "browser": "./umd/index.js",
   "sideEffects": false,
   "publishConfig": {
     "access": "public"
@@ -25,6 +26,7 @@
     "url": "https://ko-fi.com/milesjohnson"
   },
   "packemon": {
-    "platform": "browser"
+    "platform": "browser",
+    "namespace": "Emojibase"
   }
 }

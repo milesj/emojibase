@@ -27,7 +27,8 @@
   "packemon": {
     "inputs": {
       "index": "src/index.ts",
-      "emoticons": "src/resources/emoticons.ts"
+      "emoticons": "src/resources/emoticons.ts",
+      "shortcodes": "src/resources/shortcodes.ts"
     },
     "platform": "node"
   },

@@ -1,3 +1,4 @@
+import path from 'path';
 import { ShortcodesDataset, SUPPORTED_LOCALES, Emoji, Hexcode, GroupDataset } from 'emojibase';
 import log from '../helpers/log';
 import toArray from '../helpers/toArray';
@@ -8,7 +9,7 @@ export default async function generatePoFiles(): Promise<void> {
   log.title('data', 'Generating I18N po files');
 
   // eslint-disable-next-line
-  const emojiList: Emoji[] = require('../../../data/en/data.raw.json');
+  const emojiList: Emoji[] = require(path.join(process.cwd(), 'packages/data/en/data.raw.json'));
   const emojiMap: Record<Hexcode, Emoji> = {};
 
   emojiList.forEach((emoji) => {
@@ -23,7 +24,10 @@ export default async function generatePoFiles(): Promise<void> {
 
   // Shortcodes
   // eslint-disable-next-line
-  const emojibaseShortcodes: ShortcodesDataset = require('../../../data/en/shortcodes/emojibase.raw.json');
+  const emojibaseShortcodes: ShortcodesDataset = require(path.join(
+    process.cwd(),
+    'packages/data/en/shortcodes/emojibase.raw.json',
+  ));
 
   await Promise.all(
     SUPPORTED_LOCALES.map(async (locale) => {
@@ -53,7 +57,10 @@ export default async function generatePoFiles(): Promise<void> {
 
   // Metadata
   // eslint-disable-next-line
-  const groupsHierarchy: GroupDataset = require('../../../data/meta/groups.json');
+  const groupsHierarchy: GroupDataset = require(path.join(
+    process.cwd(),
+    'packages/data/meta/groups.json',
+  ));
 
   await Promise.all(
     SUPPORTED_LOCALES.map(async (locale) => {
