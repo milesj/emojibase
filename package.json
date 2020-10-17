@@ -5,7 +5,7 @@
   "scripts": {
     "prepare": "beemo create-config --silent",
     "build": "packemon build --addEngines --checkLicenses --generateDeclaration",
-    "clean": "rm -rf packages/*/{lib,esm,*.tsbuildinfo}",
+    "clean": "rm -rf packages/*/{build,dts,lib,esm}",
     "clean:cache": "rm -rf ./cache",
     "coverage": "yarn run jest --coverage",
     "lint": "beemo eslint",
@@ -47,6 +47,7 @@
       "prettier",
       {
         "driver": "typescript",
+        "buildFolder": "build",
         "globalTypes": true
       }
     ],
