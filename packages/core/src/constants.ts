@@ -1,5 +1,12 @@
-import { PermutationOptions } from './generateEmoticonPermutations';
-import { Presentation, Gender, SkinTone, SkinToneKey, GroupKey, Locale } from './types';
+import {
+  Presentation,
+  Gender,
+  SkinTone,
+  SkinToneKey,
+  GroupKey,
+  Locale,
+  PermutationOptions,
+} from './types';
 
 export const SEQUENCE_REMOVAL_PATTERN = /200D|FE0E|FE0F/g;
 

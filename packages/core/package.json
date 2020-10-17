@@ -15,7 +15,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
-  "types": "./lib/index.d.ts",
+  "types": "./dts/index.d.ts",
   "browser": "./umd/index.js",
   "sideEffects": false,
   "publishConfig": {

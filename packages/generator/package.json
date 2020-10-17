@@ -6,6 +6,7 @@
   "repository": "https://github.com/milesj/emojibase/tree/master/packages/generator",
   "license": "MIT",
   "main": "./lib/index.js",
+  "types": "./dts/index.d.ts",
   "dependencies": {
     "@types/cheerio": "^0.22.21",
     "@types/fs-extra": "^9.0.1",

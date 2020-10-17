@@ -1,5 +1,5 @@
-import { ShortcodePreset, ShortcodesDataset, Locale } from './types';
-import fetchFromCDN, { FetchFromCDNOptions } from './fetchFromCDN';
+import { ShortcodePreset, ShortcodesDataset, Locale, FetchFromCDNOptions } from './types';
+import fetchFromCDN from './fetchFromCDN';
 import { NON_LATIN_LOCALES } from './constants';
 
 const ALIASES: Partial<Record<ShortcodePreset, string>> = {
