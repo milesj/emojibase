@@ -11,8 +11,7 @@
   "repository": "https://github.com/milesj/emojibase/tree/master/packages/test-utils",
   "license": "MIT",
   "main": "./lib/index.js",
-  "module": "./esm/index.js",
-  "types": "./lib/index.d.ts",
+  "types": "./dts/index.d.ts",
   "sideEffects": false,
   "publishConfig": {
     "access": "public"
@@ -23,5 +22,12 @@
   "funding": {
     "type": "ko-fi",
     "url": "https://ko-fi.com/milesjohnson"
+  },
+  "packemon": {
+    "platform": "node"
+  },
+  "engines": {
+    "node": ">=10.3.0",
+    "npm": ">=6.1.0"
   }
 }

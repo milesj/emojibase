@@ -2,7 +2,7 @@ import path from 'path';
 import log from './log';
 import writeFile from './writeFile';
 
-const DATASET_FOLDER = path.resolve(__dirname, '../../../data');
+const DATASET_FOLDER = path.resolve(process.cwd(), 'packages/data');
 
 export default function writeDataset<T>(
   name: string,

@@ -1,7 +1,4 @@
-export interface FetchFromCDNOptions extends RequestInit {
-  local?: boolean;
-  version?: string;
-}
+import { FetchFromCDNOptions } from './types';
 
 export default function fetchFromCDN<T>(
   path: string,

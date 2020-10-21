@@ -229,3 +229,21 @@ export type Locale =
   | 'uk'
   | 'zh'
   | 'zh-hant';
+
+// OPTIONS
+
+export interface PermutationOptions {
+  isFace?: boolean;
+  withNose?: boolean;
+}
+
+export interface FetchFromCDNOptions extends RequestInit {
+  local?: boolean;
+  version?: string;
+}
+
+export interface FetchEmojisOptions extends FetchFromCDNOptions {
+  compact?: boolean;
+  flat?: boolean;
+  shortcodes?: (string | ShortcodePreset)[];
+}

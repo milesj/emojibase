@@ -6,17 +6,12 @@ import {
   FlatEmoji,
   FlatCompactEmoji,
   Locale,
+  FetchEmojisOptions,
 } from './types';
-import fetchFromCDN, { FetchFromCDNOptions } from './fetchFromCDN';
+import fetchFromCDN from './fetchFromCDN';
 import fetchShortcodes from './fetchShortcodes';
 import flattenEmojiData from './flattenEmojiData';
 import joinShortcodes from './joinShortcodes';
-
-export interface FetchEmojisOptions extends FetchFromCDNOptions {
-  compact?: boolean;
-  flat?: boolean;
-  shortcodes?: (string | ShortcodePreset)[];
-}
 
 // Full
 async function fetchEmojis(

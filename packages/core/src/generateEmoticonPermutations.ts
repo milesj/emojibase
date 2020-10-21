@@ -1,9 +1,4 @@
-import { Emoticon } from './types';
-
-export interface PermutationOptions {
-  isFace?: boolean;
-  withNose?: boolean;
-}
+import { Emoticon, PermutationOptions } from './types';
 
 export default function generateEmoticonPermutations(
   emoticon: Emoticon,

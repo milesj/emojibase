@@ -5,10 +5,12 @@
   "description": "Scripts for generating emoji datasets.",
   "repository": "https://github.com/milesj/emojibase/tree/master/packages/generator",
   "license": "MIT",
+  "main": "./lib/index.js",
+  "types": "./dts/index.d.ts",
   "dependencies": {
-    "@types/cheerio": "^0.22.21",
-    "@types/fs-extra": "^9.0.1",
-    "@types/node": "^14.10.1",
+    "@types/cheerio": "^0.22.22",
+    "@types/fs-extra": "^9.0.2",
+    "@types/node": "^14.14.0",
     "@types/node-fetch": "^2.5.7",
     "chalk": "^4.1.0",
     "cheerio": "^1.0.0-rc.3",
@@ -22,5 +24,17 @@
   },
   "devDependencies": {
     "emojibase": "^5.0.0"
+  },
+  "packemon": {
+    "inputs": {
+      "index": "src/index.ts",
+      "emoticons": "src/resources/emoticons.ts",
+      "shortcodes": "src/resources/shortcodes.ts"
+    },
+    "platform": "node"
+  },
+  "engines": {
+    "node": ">=10.3.0",
+    "npm": ">=6.1.0"
   }
 }
