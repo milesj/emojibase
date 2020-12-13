@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "prepare": "beemo create-config --silent",
-    "build": "packemon build --addEngines --checkLicenses --generateDeclaration",
+    "build": "packemon build --addEngines --generateDeclaration=api",
     "clean": "rm -rf packages/*/{build,dts,lib,esm,umd}",
     "clean:cache": "rm -rf ./cache",
     "coverage": "yarn run jest --coverage",
@@ -33,7 +33,8 @@
     "filesize": "^6.1.0",
     "glob": "^7.1.6",
     "gzip-size": "^5.1.1",
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "packemon": "^0.6.0"
   },
   "workspaces": [
     "packages/*"
