@@ -8,7 +8,12 @@
     "regex",
     "unicode"
   ],
-  "repository": "https://github.com/milesj/emojibase/tree/master/packages/regex",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:milesj/emojibase.git",
+    "directory": "packages/regex"
+  },
+  "author": "Miles Johnson",
   "license": "MIT",
   "sideEffects": false,
   "publishConfig": {

@@ -9,7 +9,12 @@
     "dataset",
     "json"
   ],
-  "repository": "https://github.com/milesj/emojibase/tree/master/packages/data",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:milesj/emojibase.git",
+    "directory": "packages/data"
+  },
+  "author": "Miles Johnson",
   "license": "MIT",
   "sideEffects": false,
   "publishConfig": {

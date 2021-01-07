@@ -3,7 +3,13 @@
   "name": "emojibase-generator",
   "version": "3.0.0",
   "description": "Scripts for generating emoji datasets.",
-  "repository": "https://github.com/milesj/emojibase/tree/master/packages/generator",
+  "keywords": ["generator"],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:milesj/emojibase.git",
+    "directory": "packages/generator"
+  },
+  "author": "Miles Johnson",
   "license": "MIT",
   "main": "./lib/index.js",
   "types": "./dts/index.d.ts",

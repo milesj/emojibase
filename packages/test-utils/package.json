@@ -8,7 +8,12 @@
     "tests",
     "utils"
   ],
-  "repository": "https://github.com/milesj/emojibase/tree/master/packages/test-utils",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:milesj/emojibase.git",
+    "directory": "packages/test-utils"
+  },
+  "author": "Miles Johnson",
   "license": "MIT",
   "main": "./lib/index.js",
   "types": "./dts/index.d.ts",
