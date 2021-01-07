@@ -3133,7 +3133,7 @@ export default {
   // 🧑 person
   '1F9D1': ['adult'],
   // 🧔 person: beard
-  '1F9D4': ['man_bearded'],
+  '1F9D4': ['person_bearded'],
   // 🧓 older person
   '1F9D3': ['older_adult'],
   // 🧕 woman with headscarf
@@ -3760,4 +3760,20 @@ export default {
   '26A7': ['transgender_symbol'],
   // 🏳️‍⚧️ transgender flag
   '1F3F3-FE0F-200D-26A7-FE0F': ['transgender_flag'],
+
+  // VERSION 13.1
+  // 😶‍🌫️
+  '1F636-200D-1F32B-FE0F': ['in_clouds'],
+  // 😮‍💨
+  '1F62E-200D-1F4A8': ['exhaling', 'exhale'],
+  // 😵‍💫
+  '1F635-200D-1F4AB': ['dizzy_eyes'],
+  // ❤️‍🔥
+  '2764-FE0F-200D-1F525': ['heart_on_fire'],
+  // ❤️‍🩹
+  '2764-FE0F-200D-1FA79': ['mending_heart'],
+  // 🧔‍♂️
+  '1F9D4-200D-2642-FE0F': ['man_bearded'],
+  // 🧔‍♀️
+  '1F9D4-200D-2640-FE0F': ['woman_bearded'],
 };
