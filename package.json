@@ -5,7 +5,7 @@
   "scripts": {
     "prepare": "beemo create-config --silent",
     "build": "packemon build --addEngines",
-    "pack": "NODE_ENV=production packemon pack --addEngines --generateDeclaration=api",
+    "pack": "NODE_ENV=production packemon pack --addEngines --generateDeclaration=standard",
     "clean": "packemon clean",
     "clean:cache": "rm -rf ./cache",
     "coverage": "yarn run jest --coverage",
