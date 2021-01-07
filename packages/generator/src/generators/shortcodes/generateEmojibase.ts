@@ -1,11 +1,11 @@
 import path from 'path';
-import { TEXT, appendSkinToneIndex, Emoji } from 'emojibase';
-import writeDataset from '../../helpers/writeDataset';
-import { ShortcodeDataMap } from '../../types';
-import writeFile from '../../helpers/writeFile';
+import { appendSkinToneIndex, Emoji, TEXT } from 'emojibase';
 import { SHORTCODE_GUIDELINES } from '../../constants';
-import Database from '../Database';
+import writeDataset from '../../helpers/writeDataset';
+import writeFile from '../../helpers/writeFile';
 import shortcodesResource from '../../resources/shortcodes';
+import { ShortcodeDataMap } from '../../types';
+import Database from '../Database';
 
 export default async function generateEmojibase(db: Database) {
   db.preset = 'emojibase';

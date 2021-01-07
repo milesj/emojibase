@@ -1,11 +1,11 @@
 import {
-  Presentation,
   Gender,
-  SkinTone,
-  SkinToneKey,
   GroupKey,
   Locale,
   PermutationOptions,
+  Presentation,
+  SkinTone,
+  SkinToneKey,
 } from './types';
 
 export const SEQUENCE_REMOVAL_PATTERN = /200D|FE0E|FE0F/g;

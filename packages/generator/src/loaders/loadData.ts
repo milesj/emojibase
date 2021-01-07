@@ -1,7 +1,7 @@
 import { LATEST_EMOJI_VERSION } from 'emojibase';
-import fetchAndCache from './fetchAndCache';
 import parseData from '../parsers/parseData';
 import { EmojiDataMap } from '../types';
+import fetchAndCache from './fetchAndCache';
 
 export default function loadData(version: string = LATEST_EMOJI_VERSION): Promise<EmojiDataMap> {
   return fetchAndCache(

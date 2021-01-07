@@ -1,21 +1,22 @@
 import {
   EMOTICON_OPTIONS,
-  generateEmoticonPermutations,
   fromCodepointToUnicode,
   fromHexcodeToCodepoint,
+  generateEmoticonPermutations,
 } from 'emojibase';
 import { loadFlatEmojiData } from 'emojibase-test-utils';
-import COMBO_PATTERN from '..';
-import EMOJI_PATTERN from '../emoji';
-import EMOJI_LOOSE_PATTERN from '../emoji-loose';
-import TEXT_PATTERN from '../text';
-import TEXT_LOOSE_PATTERN from '../text-loose';
 import CODEPOINT_COMBO_PATTERN from '../codepoint';
 import CODEPOINT_EMOJI_PATTERN from '../codepoint/emoji';
 import CODEPOINT_EMOJI_LOOSE_PATTERN from '../codepoint/emoji-loose';
 import CODEPOINT_TEXT_PATTERN from '../codepoint/text';
 import CODEPOINT_TEXT_LOOSE_PATTERN from '../codepoint/text-loose';
+import EMOJI_PATTERN from '../emoji';
+import EMOJI_LOOSE_PATTERN from '../emoji-loose';
 import EMOTICON_PATTERN from '../emoticon';
+import TEXT_PATTERN from '../text';
+import TEXT_LOOSE_PATTERN from '../text-loose';
+
+import COMBO_PATTERN from '..';
 
 const PATTERNS = {
   combo: COMBO_PATTERN,

@@ -1,5 +1,5 @@
-import { Emoji, ShortcodesDataset, CompactEmoji, MaybeEmoji } from './types';
 import joinShortcodesToEmoji from './joinShortcodesToEmoji';
+import { CompactEmoji, Emoji, MaybeEmoji, ShortcodesDataset } from './types';
 
 function flattenEmojiData(data: Emoji[], shortcodeDatasets?: ShortcodesDataset[]): Emoji[];
 

@@ -1,4 +1,4 @@
-import { Emoji, CompactEmoji, ShortcodesDataset, MaybeEmoji } from './types';
+import { CompactEmoji, Emoji, MaybeEmoji, ShortcodesDataset } from './types';
 
 function joinShortcodesToEmoji(emoji: Emoji, shortcodeDatasets: ShortcodesDataset[]): Emoji;
 

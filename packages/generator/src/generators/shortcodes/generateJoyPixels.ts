@@ -1,7 +1,7 @@
 import { transliterate } from 'transliteration';
-import fetchAndCache from '../../loaders/fetchAndCache';
 import writeDataset from '../../helpers/writeDataset';
-import { ShortcodeDataMap, HexcodeMap } from '../../types';
+import fetchAndCache from '../../loaders/fetchAndCache';
+import { HexcodeMap, ShortcodeDataMap } from '../../types';
 import Database from '../Database';
 
 // These should not be in the dataset according to the spec

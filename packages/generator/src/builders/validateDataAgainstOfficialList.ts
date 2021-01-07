@@ -1,6 +1,6 @@
-import { TEXT, EMOJI } from 'emojibase';
-import log from '../helpers/log';
+import { EMOJI, TEXT } from 'emojibase';
 import flattenData from '../helpers/flattenData';
+import log from '../helpers/log';
 import loadEmojiList from '../loaders/loadEmojiList';
 import loadEmojiStyles from '../loaders/loadEmojiStyles';
 import { Emoji, EmojiMap, EmojiSource } from '../types';

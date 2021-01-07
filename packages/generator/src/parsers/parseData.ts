@@ -1,13 +1,13 @@
 /* eslint-disable no-nested-ternary */
 
-import { TEXT, EMOJI } from 'emojibase';
-import parse from './parse';
-import extractLineDescription from './extractLineDescription';
+import { EMOJI, TEXT } from 'emojibase';
+import { EmojiData, EmojiDataMap, ParsedLine, Property } from '../types';
 import extractEmojiVersion from './extractEmojiVersion';
+import extractLineDescription from './extractLineDescription';
 import extractUnicodeVersion from './extractUnicodeVersion';
+import parse from './parse';
 import spreadHexcode from './spreadHexcode';
 import verifyTotals from './verifyTotals';
-import { EmojiData, EmojiDataMap, ParsedLine, Property } from '../types';
 
 /**
  * Parses the official unicode emoji data.

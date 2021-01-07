@@ -1,8 +1,8 @@
 import { LATEST_CLDR_VERSION } from 'emojibase';
-import fetchAndCache from './fetchAndCache';
-import parseLocalization from '../parsers/parseLocalization';
 import formatLocale from '../helpers/formatLocale';
+import parseLocalization from '../parsers/parseLocalization';
 import { CLDRLocaleMap } from '../types';
+import fetchAndCache from './fetchAndCache';
 
 const SUBDIVISION_FALLBACK_LOCALES: { [key: string]: string } = {
   'en-gb': 'en',

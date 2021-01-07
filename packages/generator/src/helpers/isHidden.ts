@@ -1,4 +1,4 @@
-import { REGIONAL_INDICATORS, HIDDEN_EMOJI_PROPERTIES } from '../constants';
+import { HIDDEN_EMOJI_PROPERTIES, REGIONAL_INDICATORS } from '../constants';
 import { Emoji } from '../types';
 import hasProperty from './hasProperty';
 

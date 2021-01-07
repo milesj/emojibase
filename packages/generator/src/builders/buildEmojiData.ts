@@ -1,20 +1,20 @@
 import log from '../helpers/log';
+import readCache from '../helpers/readCache';
 import writeCache from '../helpers/writeCache';
 import loadData from '../loaders/loadData';
 import loadEmoticons from '../loaders/loadEmoticons';
 import loadNames from '../loaders/loadNames';
 import loadOrderAndGroup from '../loaders/loadOrderAndGroup';
-import loadVariations from '../loaders/loadVariations';
 import loadSequences from '../loaders/loadSequences';
+import loadVariations from '../loaders/loadVariations';
 import loadZwjSequences from '../loaders/loadZwjSequences';
+import { EmojiMap } from '../types';
 import joinData from './joinData';
 import joinMetadataToData from './joinMetadataToData';
 import joinModifiersToData from './joinModifiersToData';
 import mergeDuplicateVariations from './mergeDuplicateVariations';
 import validateDataAgainstOfficialList from './validateDataAgainstOfficialList';
 import verifyDataIntegrity from './verifyDataIntegrity';
-import { EmojiMap } from '../types';
-import readCache from '../helpers/readCache';
 
 export default async function buildEmojiData(): Promise<EmojiMap> {
   const cache = readCache<EmojiMap>('final/emoji-data.json');

@@ -1,21 +1,21 @@
 /* eslint-disable unicorn/better-regex, @typescript-eslint/no-unsafe-assignment */
 
+import {
+  appendSkinToneIndex,
+  Locale,
+  NON_LATIN_LOCALES,
+  stripHexcode,
+  SUPPORTED_LOCALES,
+} from 'emojibase';
 import Kuroshiro from 'kuroshiro';
 import KuromojiAnalyzer from 'kuroshiro-analyzer-kuromoji';
 import { transliterate } from 'transliteration';
-import {
-  Locale,
-  SUPPORTED_LOCALES,
-  NON_LATIN_LOCALES,
-  appendSkinToneIndex,
-  stripHexcode,
-} from 'emojibase';
 import buildAnnotationData from '../../builders/buildAnnotationData';
-import { ShortcodeDataMap } from '../../types';
 import writeDataset from '../../helpers/writeDataset';
-import Database from '../Database';
 import loadPoMeta from '../../loaders/loadPoMeta';
 import POManager from '../../parsers/POManager';
+import { ShortcodeDataMap } from '../../types';
+import Database from '../Database';
 
 const CUSTOM_SHORTCODES: { [key: string]: string } = {
   e_mail: 'email',

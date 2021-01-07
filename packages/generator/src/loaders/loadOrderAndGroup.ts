@@ -1,7 +1,7 @@
 import { LATEST_EMOJI_VERSION } from 'emojibase';
-import fetchAndCache from './fetchAndCache';
 import parseOrderAndGroup from '../parsers/parseOrderAndGroup';
 import { EmojiGroupMap } from '../types';
+import fetchAndCache from './fetchAndCache';
 
 export default function loadOrderAndGroup(
   version: string = LATEST_EMOJI_VERSION,

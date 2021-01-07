@@ -1,8 +1,8 @@
 import cheerio from 'cheerio';
+import { HIDDEN_GROUPS, HIDDEN_SUBGROUPS } from '../constants';
 import readCache from '../helpers/readCache';
 import slug from '../helpers/slug';
 import { EmojiSourceMap } from '../types';
-import { HIDDEN_GROUPS, HIDDEN_SUBGROUPS } from '../constants';
 
 interface GroupNameMap {
   [name: string]: number;
