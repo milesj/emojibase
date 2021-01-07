@@ -5859,6 +5859,7 @@
     "annotation": "corazón humano",
     "hexcode": "1FAC0",
     "tags": [
+      "anatómico",
       "centro",
       "latido",
       "núcleo",
@@ -5879,6 +5880,7 @@
     "tags": [
       "exhalar",
       "inhalar",
+      "respiración",
       "respirar",
       "órgano"
     ],
@@ -5895,6 +5897,7 @@
     "hexcode": "1F9B7",
     "tags": [
       "dentista",
+      "molar",
       "muela"
     ],
     "emoji": "🦷",
@@ -7782,13 +7785,14 @@
     ]
   },
   {
-    "annotation": "persona adulta madura",
+    "annotation": "persona mayor",
     "hexcode": "1F9D3",
     "tags": [
       "género",
       "maduro",
       "mayor",
-      "neutro"
+      "neutro",
+      "persona adulta madura"
     ],
     "emoji": "🧓",
     "text": "",
@@ -7799,7 +7803,7 @@
     "version": 5,
     "skins": [
       {
-        "annotation": "persona adulta madura: tono de piel claro",
+        "annotation": "persona mayor: tono de piel claro",
         "hexcode": "1F9D3-1F3FB",
         "emoji": "🧓🏻",
         "text": "",
@@ -7811,7 +7815,7 @@
         "tone": 1
       },
       {
-        "annotation": "persona adulta madura: tono de piel claro medio",
+        "annotation": "persona mayor: tono de piel claro medio",
         "hexcode": "1F9D3-1F3FC",
         "emoji": "🧓🏼",
         "text": "",
@@ -7823,7 +7827,7 @@
         "tone": 2
       },
       {
-        "annotation": "persona adulta madura: tono de piel medio",
+        "annotation": "persona mayor: tono de piel medio",
         "hexcode": "1F9D3-1F3FD",
         "emoji": "🧓🏽",
         "text": "",
@@ -7835,7 +7839,7 @@
         "tone": 3
       },
       {
-        "annotation": "persona adulta madura: tono de piel oscuro medio",
+        "annotation": "persona mayor: tono de piel oscuro medio",
         "hexcode": "1F9D3-1F3FE",
         "emoji": "🧓🏾",
         "text": "",
@@ -7847,7 +7851,7 @@
         "tone": 4
       },
       {
-        "annotation": "persona adulta madura: tono de piel oscuro",
+        "annotation": "persona mayor: tono de piel oscuro",
         "hexcode": "1F9D3-1F3FF",
         "emoji": "🧓🏿",
         "text": "",
@@ -10986,8 +10990,7 @@
       "enseñanza",
       "instructor",
       "maestro",
-      "profesor",
-      "señorita"
+      "profesor"
     ],
     "emoji": "🧑‍🏫",
     "text": "",
@@ -11301,7 +11304,6 @@
     "annotation": "fiscal hombre",
     "hexcode": "1F468-200D-2696-FE0F",
     "tags": [
-      "balanza",
       "hombre",
       "juez",
       "justicia",
@@ -11381,7 +11383,6 @@
     "annotation": "fiscal mujer",
     "hexcode": "1F469-200D-2696-FE0F",
     "tags": [
-      "balanza",
       "jueza",
       "justicia",
       "magistrada",
@@ -12661,8 +12662,8 @@
     "tags": [
       "biólogo",
       "científico",
-      "experimentador",
       "físico",
+      "investigador",
       "químico"
     ],
     "emoji": "🧑‍🔬",
@@ -14161,6 +14162,7 @@
     "annotation": "bombero hombre",
     "hexcode": "1F468-200D-1F692",
     "tags": [
+      "apagafuegos",
       "bombero",
       "camión",
       "manguera"
@@ -14239,6 +14241,8 @@
     "annotation": "bombera",
     "hexcode": "1F469-200D-1F692",
     "tags": [
+      "apagafuegos",
+      "bombera mujera",
       "camión",
       "manguera"
     ],
@@ -15058,6 +15062,7 @@
     "hexcode": "1F977",
     "tags": [
       "furtivo",
+      "guerrero",
       "luchador",
       "oculto",
       "sigilo"
@@ -15302,7 +15307,7 @@
     "annotation": "profesional de la construcción mujer",
     "hexcode": "1F477-200D-2640-FE0F",
     "tags": [
-      "albañil",
+      "albañila",
       "construcción",
       "mujer",
       "obrera",
@@ -17147,9 +17152,10 @@
     "annotation": "personaje de superhéroe",
     "hexcode": "1F9B8",
     "tags": [
-      "bueno",
+      "bien",
       "heroína",
       "héroe",
+      "superheroína",
       "superhéroe",
       "superpoder"
     ],
@@ -17230,6 +17236,7 @@
       "bueno",
       "hombre",
       "héroe",
+      "superhombre",
       "superpoder"
     ],
     "emoji": "🦸‍♂️",
@@ -17398,10 +17405,11 @@
     "annotation": "personaje de supervillano",
     "hexcode": "1F9B9",
     "tags": [
-      "criminal",
-      "malo",
-      "malvado",
+      "mal",
       "superpoder",
+      "supervillana",
+      "supervillano",
+      "villana",
       "villano"
     ],
     "emoji": "🦹",
@@ -17478,10 +17486,9 @@
     "annotation": "supervillano",
     "hexcode": "1F9B9-200D-2642-FE0F",
     "tags": [
-      "criminal",
       "hombre",
+      "mal",
       "malvado",
-      "superpoder",
       "villano"
     ],
     "emoji": "🦹‍♂️",
@@ -17564,10 +17571,9 @@
     "annotation": "supervillana",
     "hexcode": "1F9B9-200D-2640-FE0F",
     "tags": [
-      "criminal",
+      "mal",
       "malvada",
       "mujer",
-      "superpoder",
       "villana"
     ],
     "emoji": "🦹‍♀️",
@@ -20216,8 +20222,7 @@
     "tags": [
       "accesibilidad",
       "ciego",
-      "invidente",
-      "once"
+      "invidente"
     ],
     "emoji": "🧑‍🦯",
     "text": "",
@@ -24108,6 +24113,7 @@
       "acrobacia",
       "gimnasia",
       "pirueta",
+      "rueda",
       "voltereta"
     ],
     "emoji": "🤸",
@@ -24181,12 +24187,13 @@
     ]
   },
   {
-    "annotation": "hombre haciendo una voltereta lateral",
+    "annotation": "hombre dando una voltereta lateral",
     "hexcode": "1F938-200D-2642-FE0F",
     "tags": [
       "deporte",
       "gimnasia",
       "hombre",
+      "rueda",
       "voltereta"
     ],
     "emoji": "🤸‍♂️",
@@ -24199,7 +24206,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "hombre haciendo una voltereta lateral: tono de piel claro",
+        "annotation": "hombre dando una voltereta lateral: tono de piel claro",
         "hexcode": "1F938-1F3FB-200D-2642-FE0F",
         "emoji": "🤸🏻‍♂️",
         "text": "",
@@ -24212,7 +24219,7 @@
         "tone": 1
       },
       {
-        "annotation": "hombre haciendo una voltereta lateral: tono de piel claro medio",
+        "annotation": "hombre dando una voltereta lateral: tono de piel claro medio",
         "hexcode": "1F938-1F3FC-200D-2642-FE0F",
         "emoji": "🤸🏼‍♂️",
         "text": "",
@@ -24225,7 +24232,7 @@
         "tone": 2
       },
       {
-        "annotation": "hombre haciendo una voltereta lateral: tono de piel medio",
+        "annotation": "hombre dando una voltereta lateral: tono de piel medio",
         "hexcode": "1F938-1F3FD-200D-2642-FE0F",
         "emoji": "🤸🏽‍♂️",
         "text": "",
@@ -24238,7 +24245,7 @@
         "tone": 3
       },
       {
-        "annotation": "hombre haciendo una voltereta lateral: tono de piel oscuro medio",
+        "annotation": "hombre dando una voltereta lateral: tono de piel oscuro medio",
         "hexcode": "1F938-1F3FE-200D-2642-FE0F",
         "emoji": "🤸🏾‍♂️",
         "text": "",
@@ -24251,7 +24258,7 @@
         "tone": 4
       },
       {
-        "annotation": "hombre haciendo una voltereta lateral: tono de piel oscuro",
+        "annotation": "hombre dando una voltereta lateral: tono de piel oscuro",
         "hexcode": "1F938-1F3FF-200D-2642-FE0F",
         "emoji": "🤸🏿‍♂️",
         "text": "",
@@ -24266,12 +24273,13 @@
     ]
   },
   {
-    "annotation": "mujer haciendo voltereta lateral",
+    "annotation": "mujer dando una voltereta lateral",
     "hexcode": "1F938-200D-2640-FE0F",
     "tags": [
       "deporte",
       "gimnasia",
       "mujer",
+      "rueda",
       "voltereta"
     ],
     "emoji": "🤸‍♀️",
@@ -24284,7 +24292,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "mujer haciendo voltereta lateral: tono de piel claro",
+        "annotation": "mujer dando una voltereta lateral: tono de piel claro",
         "hexcode": "1F938-1F3FB-200D-2640-FE0F",
         "emoji": "🤸🏻‍♀️",
         "text": "",
@@ -24297,7 +24305,7 @@
         "tone": 1
       },
       {
-        "annotation": "mujer haciendo voltereta lateral: tono de piel claro medio",
+        "annotation": "mujer dando una voltereta lateral: tono de piel claro medio",
         "hexcode": "1F938-1F3FC-200D-2640-FE0F",
         "emoji": "🤸🏼‍♀️",
         "text": "",
@@ -24310,7 +24318,7 @@
         "tone": 2
       },
       {
-        "annotation": "mujer haciendo voltereta lateral: tono de piel medio",
+        "annotation": "mujer dando una voltereta lateral: tono de piel medio",
         "hexcode": "1F938-1F3FD-200D-2640-FE0F",
         "emoji": "🤸🏽‍♀️",
         "text": "",
@@ -24323,7 +24331,7 @@
         "tone": 3
       },
       {
-        "annotation": "mujer haciendo voltereta lateral: tono de piel oscuro medio",
+        "annotation": "mujer dando una voltereta lateral: tono de piel oscuro medio",
         "hexcode": "1F938-1F3FE-200D-2640-FE0F",
         "emoji": "🤸🏾‍♀️",
         "text": "",
@@ -24336,7 +24344,7 @@
         "tone": 4
       },
       {
-        "annotation": "mujer haciendo voltereta lateral: tono de piel oscuro",
+        "annotation": "mujer dando una voltereta lateral: tono de piel oscuro",
         "hexcode": "1F938-1F3FF-200D-2640-FE0F",
         "emoji": "🤸🏿‍♀️",
         "text": "",
@@ -25549,7 +25557,7 @@
     ]
   },
   {
-    "annotation": "dos personas dándose la mano",
+    "annotation": "dos personas de la mano",
     "hexcode": "1F9D1-200D-1F91D-200D-1F9D1",
     "tags": [
       "mano",
@@ -25565,7 +25573,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro",
+        "annotation": "dos personas de la mano: tono de piel claro",
         "hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FB",
         "emoji": "🧑🏻‍🤝‍🧑🏻",
         "text": "",
@@ -25577,7 +25585,7 @@
         "tone": 1
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro y tono de piel claro medio",
+        "annotation": "dos personas de la mano: tono de piel claro y tono de piel claro medio",
         "hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FC",
         "emoji": "🧑🏻‍🤝‍🧑🏼",
         "text": "",
@@ -25592,7 +25600,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro y tono de piel medio",
+        "annotation": "dos personas de la mano: tono de piel claro y tono de piel medio",
         "hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FD",
         "emoji": "🧑🏻‍🤝‍🧑🏽",
         "text": "",
@@ -25607,7 +25615,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro y tono de piel oscuro medio",
+        "annotation": "dos personas de la mano: tono de piel claro y tono de piel oscuro medio",
         "hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FE",
         "emoji": "🧑🏻‍🤝‍🧑🏾",
         "text": "",
@@ -25622,7 +25630,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro y tono de piel oscuro",
+        "annotation": "dos personas de la mano: tono de piel claro y tono de piel oscuro",
         "hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FF",
         "emoji": "🧑🏻‍🤝‍🧑🏿",
         "text": "",
@@ -25637,7 +25645,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro medio y tono de piel claro",
+        "annotation": "dos personas de la mano: tono de piel claro medio y tono de piel claro",
         "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FB",
         "emoji": "🧑🏼‍🤝‍🧑🏻",
         "text": "",
@@ -25652,7 +25660,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro medio",
+        "annotation": "dos personas de la mano: tono de piel claro medio",
         "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FC",
         "emoji": "🧑🏼‍🤝‍🧑🏼",
         "text": "",
@@ -25664,7 +25672,7 @@
         "tone": 2
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro medio y tono de piel medio",
+        "annotation": "dos personas de la mano: tono de piel claro medio y tono de piel medio",
         "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FD",
         "emoji": "🧑🏼‍🤝‍🧑🏽",
         "text": "",
@@ -25679,7 +25687,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro medio y tono de piel oscuro medio",
+        "annotation": "dos personas de la mano: tono de piel claro medio y tono de piel oscuro medio",
         "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FE",
         "emoji": "🧑🏼‍🤝‍🧑🏾",
         "text": "",
@@ -25694,7 +25702,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro medio y tono de piel oscuro",
+        "annotation": "dos personas de la mano: tono de piel claro medio y tono de piel oscuro",
         "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FF",
         "emoji": "🧑🏼‍🤝‍🧑🏿",
         "text": "",
@@ -25709,7 +25717,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel medio y tono de piel claro",
+        "annotation": "dos personas de la mano: tono de piel medio y tono de piel claro",
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FB",
         "emoji": "🧑🏽‍🤝‍🧑🏻",
         "text": "",
@@ -25724,7 +25732,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel medio y tono de piel claro medio",
+        "annotation": "dos personas de la mano: tono de piel medio y tono de piel claro medio",
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FC",
         "emoji": "🧑🏽‍🤝‍🧑🏼",
         "text": "",
@@ -25739,7 +25747,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel medio",
+        "annotation": "dos personas de la mano: tono de piel medio",
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FD",
         "emoji": "🧑🏽‍🤝‍🧑🏽",
         "text": "",
@@ -25751,7 +25759,7 @@
         "tone": 3
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel medio y tono de piel oscuro medio",
+        "annotation": "dos personas de la mano: tono de piel medio y tono de piel oscuro medio",
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FE",
         "emoji": "🧑🏽‍🤝‍🧑🏾",
         "text": "",
@@ -25766,7 +25774,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel medio y tono de piel oscuro",
+        "annotation": "dos personas de la mano: tono de piel medio y tono de piel oscuro",
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FF",
         "emoji": "🧑🏽‍🤝‍🧑🏿",
         "text": "",
@@ -25781,7 +25789,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro medio y tono de piel claro",
+        "annotation": "dos personas de la mano: tono de piel oscuro medio y tono de piel claro",
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FB",
         "emoji": "🧑🏾‍🤝‍🧑🏻",
         "text": "",
@@ -25796,7 +25804,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro medio y tono de piel claro medio",
+        "annotation": "dos personas de la mano: tono de piel oscuro medio y tono de piel claro medio",
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FC",
         "emoji": "🧑🏾‍🤝‍🧑🏼",
         "text": "",
@@ -25811,7 +25819,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro medio y tono de piel medio",
+        "annotation": "dos personas de la mano: tono de piel oscuro medio y tono de piel medio",
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FD",
         "emoji": "🧑🏾‍🤝‍🧑🏽",
         "text": "",
@@ -25826,7 +25834,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro medio",
+        "annotation": "dos personas de la mano: tono de piel oscuro medio",
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FE",
         "emoji": "🧑🏾‍🤝‍🧑🏾",
         "text": "",
@@ -25838,7 +25846,7 @@
         "tone": 4
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro medio y tono de piel oscuro",
+        "annotation": "dos personas de la mano: tono de piel oscuro medio y tono de piel oscuro",
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FF",
         "emoji": "🧑🏾‍🤝‍🧑🏿",
         "text": "",
@@ -25853,7 +25861,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro y tono de piel claro",
+        "annotation": "dos personas de la mano: tono de piel oscuro y tono de piel claro",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB",
         "emoji": "🧑🏿‍🤝‍🧑🏻",
         "text": "",
@@ -25868,7 +25876,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro y tono de piel claro medio",
+        "annotation": "dos personas de la mano: tono de piel oscuro y tono de piel claro medio",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC",
         "emoji": "🧑🏿‍🤝‍🧑🏼",
         "text": "",
@@ -25883,7 +25891,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro y tono de piel medio",
+        "annotation": "dos personas de la mano: tono de piel oscuro y tono de piel medio",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD",
         "emoji": "🧑🏿‍🤝‍🧑🏽",
         "text": "",
@@ -25898,7 +25906,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro y tono de piel oscuro medio",
+        "annotation": "dos personas de la mano: tono de piel oscuro y tono de piel oscuro medio",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE",
         "emoji": "🧑🏿‍🤝‍🧑🏾",
         "text": "",
@@ -25913,7 +25921,7 @@
         ]
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro",
+        "annotation": "dos personas de la mano: tono de piel oscuro",
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF",
         "emoji": "🧑🏿‍🤝‍🧑🏿",
         "text": "",
@@ -30996,7 +31004,8 @@
     "annotation": "tamal",
     "hexcode": "1FAD4",
     "tags": [
-      "méxico",
+      "mejicano",
+      "mexicano",
       "wrap"
     ],
     "emoji": "🫔",
@@ -32049,6 +32058,7 @@
     "hexcode": "1F9CB",
     "tags": [
       "boba",
+      "bubble tea",
       "burbuja",
       "leche",
       "perla",
@@ -32769,11 +32779,11 @@
     "version": 0.6
   },
   {
-    "annotation": "edificio de colegio",
+    "annotation": "colegio",
     "hexcode": "1F3EB",
     "tags": [
-      "colegio",
-      "edificio"
+      "edificio",
+      "edificio de colegio"
     ],
     "emoji": "🏫",
     "text": "",
@@ -33642,8 +33652,8 @@
     "annotation": "camioneta",
     "hexcode": "1F6FB",
     "tags": [
-      "furgoneta",
-      "pickup"
+      "pickup",
+      "ranchera"
     ],
     "emoji": "🛻",
     "text": "",
@@ -33838,9 +33848,9 @@
     "annotation": "patines",
     "hexcode": "1F6FC",
     "tags": [
-      "patines de 4 ruedas",
       "patín",
-      "patín de 4 ruedas"
+      "patín de 4 ruedas",
+      "patín de cuatro ruedas"
     ],
     "emoji": "🛼",
     "text": "",
@@ -34025,10 +34035,11 @@
     "version": 0.6
   },
   {
-    "annotation": "barco de vela",
+    "annotation": "velero",
     "hexcode": "26F5",
     "tags": [
       "barco",
+      "barco de vela",
       "centro turístico",
       "resort",
       "yate"
@@ -34137,8 +34148,7 @@
     "annotation": "avión",
     "hexcode": "2708",
     "tags": [
-      "aeroplano",
-      "vehículo"
+      "aeroplano"
     ],
     "emoji": "✈️",
     "text": "✈︎",
@@ -34152,7 +34162,7 @@
     "annotation": "avioneta",
     "hexcode": "1F6E9",
     "tags": [
-      "vehículo"
+      "avión"
     ],
     "emoji": "🛩️",
     "text": "🛩︎",
@@ -34168,8 +34178,7 @@
     "tags": [
       "aeroplano",
       "avión",
-      "salida",
-      "vehículo"
+      "salida"
     ],
     "emoji": "🛫",
     "text": "",
@@ -34185,8 +34194,7 @@
     "tags": [
       "aeroplano",
       "avión",
-      "llegada",
-      "vehículo"
+      "llegada"
     ],
     "emoji": "🛬",
     "text": "",
@@ -39936,11 +39944,13 @@
     "version": 1
   },
   {
-    "annotation": "pistola",
+    "annotation": "pistola de agua",
     "hexcode": "1F52B",
     "tags": [
-      "arma",
-      "revólver"
+      "agua",
+      "juguete",
+      "pistola",
+      "verano"
     ],
     "emoji": "🔫",
     "text": "",
@@ -42635,9 +42645,7 @@
       "!?",
       "?",
       "exclamación",
-      "interrogación",
-      "pregunta",
-      "puntuación"
+      "interrogación"
     ],
     "emoji": "⁉️",
     "text": "⁉︎",
@@ -42648,13 +42656,14 @@
     "version": 0.6
   },
   {
-    "annotation": "signo de interrogación",
+    "annotation": "interrogación roja",
     "hexcode": "2753",
     "tags": [
       "?",
       "interrogación",
       "pregunta",
-      "puntuación"
+      "puntuación",
+      "signo de interrogación"
     ],
     "emoji": "❓️",
     "text": "❓︎",
@@ -42698,12 +42707,13 @@
     "version": 0.6
   },
   {
-    "annotation": "signo de exclamación",
+    "annotation": "exclamación roja",
     "hexcode": "2757",
     "tags": [
       "!",
       "exclamación",
-      "puntuación"
+      "puntuación",
+      "signo de exclamación"
     ],
     "emoji": "❗️",
     "text": "❗︎",
@@ -44817,7 +44827,7 @@
     "version": 2
   },
   {
-    "annotation": "Bandera: Islas Åland",
+    "annotation": "Bandera: Islas Aland",
     "hexcode": "1F1E6-1F1FD",
     "tags": [
       "AX",
@@ -45867,7 +45877,7 @@
     "version": 2
   },
   {
-    "annotation": "Bandera: Guernsey",
+    "annotation": "Bandera: Guernesey",
     "hexcode": "1F1EC-1F1EC",
     "tags": [
       "GG",

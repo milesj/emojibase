@@ -309,7 +309,6 @@
       "naama",
       "satu",
       "sädekehä",
-      "tarina",
       "viaton"
     ],
     "unicode": "😇",
@@ -876,13 +875,15 @@
     "emoticon": ":&"
   },
   {
-    "annotation": "pyörtyvä",
+    "annotation": "tajuton",
     "group": 0,
     "hexcode": "1F635",
     "order": 58,
     "tags": [
       "huimaus",
+      "kuollut",
       "naama",
+      "pyörtyvä",
       "tuupertuva"
     ],
     "unicode": "😵",
@@ -2090,7 +2091,8 @@
       "heilautus",
       "käsi",
       "vartalo",
-      "vilkuttaa"
+      "vilkuttaa",
+      "vilkutus"
     ],
     "unicode": "👋",
     "skins": [
@@ -2436,7 +2438,10 @@
     "hexcode": "1F90F",
     "order": 206,
     "tags": [
-      "pieni määrä"
+      "hippunen",
+      "nipistysote",
+      "pieni määrä",
+      "vähäinen määrä"
     ],
     "unicode": "🤏",
     "skins": [
@@ -3556,7 +3561,9 @@
       "kiitos",
       "kumarrus",
       "pliis",
-      "rukous"
+      "pyyntö",
+      "rukous",
+      "yläfemma"
     ],
     "unicode": "🙏",
     "skins": [
@@ -4086,7 +4093,6 @@
     "tags": [
       "elin",
       "kardiologia",
-      "keskipiste",
       "pulssi",
       "syke",
       "verenkierto"
@@ -7310,6 +7316,7 @@
     "tags": [
       "koulu",
       "mies",
+      "ohjaaja",
       "opettaja"
     ],
     "unicode": "👨‍🏫",
@@ -8790,48 +8797,49 @@
     ]
   },
   {
-    "annotation": "miesartisti",
+    "annotation": "miestaiteilija",
     "group": 1,
     "hexcode": "1F468-200D-1F3A8",
     "order": 1140,
     "tags": [
       "maalari",
       "mies",
+      "miesartisti",
       "taide",
       "taiteilija"
     ],
     "unicode": "👨‍🎨",
     "skins": [
       {
-        "annotation": "miesartisti: vaalea iho",
+        "annotation": "miestaiteilija: vaalea iho",
         "group": 1,
         "hexcode": "1F468-1F3FB-200D-1F3A8",
         "order": 1141,
         "unicode": "👨🏻‍🎨"
       },
       {
-        "annotation": "miesartisti: keskivaalea iho",
+        "annotation": "miestaiteilija: keskivaalea iho",
         "group": 1,
         "hexcode": "1F468-1F3FC-200D-1F3A8",
         "order": 1142,
         "unicode": "👨🏼‍🎨"
       },
       {
-        "annotation": "miesartisti: tummanvaalea iho",
+        "annotation": "miestaiteilija: tummanvaalea iho",
         "group": 1,
         "hexcode": "1F468-1F3FD-200D-1F3A8",
         "order": 1143,
         "unicode": "👨🏽‍🎨"
       },
       {
-        "annotation": "miesartisti: keskitumma iho",
+        "annotation": "miestaiteilija: keskitumma iho",
         "group": 1,
         "hexcode": "1F468-1F3FE-200D-1F3A8",
         "order": 1144,
         "unicode": "👨🏾‍🎨"
       },
       {
-        "annotation": "miesartisti: tumma iho",
+        "annotation": "miestaiteilija: tumma iho",
         "group": 1,
         "hexcode": "1F468-1F3FF-200D-1F3A8",
         "order": 1145,
@@ -8840,48 +8848,50 @@
     ]
   },
   {
-    "annotation": "naisartisti",
+    "annotation": "naistaiteilija",
     "group": 1,
     "hexcode": "1F469-200D-1F3A8",
     "order": 1146,
     "tags": [
+      "kuvataiteilija",
       "maalari",
       "nainen",
+      "naisartisti",
       "taide",
       "taiteilija"
     ],
     "unicode": "👩‍🎨",
     "skins": [
       {
-        "annotation": "naisartisti: vaalea iho",
+        "annotation": "naistaiteilija: vaalea iho",
         "group": 1,
         "hexcode": "1F469-1F3FB-200D-1F3A8",
         "order": 1147,
         "unicode": "👩🏻‍🎨"
       },
       {
-        "annotation": "naisartisti: keskivaalea iho",
+        "annotation": "naistaiteilija: keskivaalea iho",
         "group": 1,
         "hexcode": "1F469-1F3FC-200D-1F3A8",
         "order": 1148,
         "unicode": "👩🏼‍🎨"
       },
       {
-        "annotation": "naisartisti: tummanvaalea iho",
+        "annotation": "naistaiteilija: tummanvaalea iho",
         "group": 1,
         "hexcode": "1F469-1F3FD-200D-1F3A8",
         "order": 1149,
         "unicode": "👩🏽‍🎨"
       },
       {
-        "annotation": "naisartisti: keskitumma iho",
+        "annotation": "naistaiteilija: keskitumma iho",
         "group": 1,
         "hexcode": "1F469-1F3FE-200D-1F3A8",
         "order": 1150,
         "unicode": "👩🏾‍🎨"
       },
       {
-        "annotation": "naisartisti: tumma iho",
+        "annotation": "naistaiteilija: tumma iho",
         "group": 1,
         "hexcode": "1F469-1F3FF-200D-1F3A8",
         "order": 1151,
@@ -10450,7 +10460,7 @@
     ]
   },
   {
-    "annotation": "huntupäinen morsian",
+    "annotation": "huntupäinen henkilö",
     "group": 1,
     "hexcode": "1F470",
     "order": 1439,
@@ -10462,35 +10472,35 @@
     "unicode": "👰",
     "skins": [
       {
-        "annotation": "huntupäinen morsian: vaalea iho",
+        "annotation": "huntupäinen henkilö: vaalea iho",
         "group": 1,
         "hexcode": "1F470-1F3FB",
         "order": 1440,
         "unicode": "👰🏻"
       },
       {
-        "annotation": "huntupäinen morsian: keskivaalea iho",
+        "annotation": "huntupäinen henkilö: keskivaalea iho",
         "group": 1,
         "hexcode": "1F470-1F3FC",
         "order": 1441,
         "unicode": "👰🏼"
       },
       {
-        "annotation": "huntupäinen morsian: tummanvaalea iho",
+        "annotation": "huntupäinen henkilö: tummanvaalea iho",
         "group": 1,
         "hexcode": "1F470-1F3FD",
         "order": 1442,
         "unicode": "👰🏽"
       },
       {
-        "annotation": "huntupäinen morsian: keskitumma iho",
+        "annotation": "huntupäinen henkilö: keskitumma iho",
         "group": 1,
         "hexcode": "1F470-1F3FE",
         "order": 1443,
         "unicode": "👰🏾"
       },
       {
-        "annotation": "huntupäinen morsian: tumma iho",
+        "annotation": "huntupäinen henkilö: tumma iho",
         "group": 1,
         "hexcode": "1F470-1F3FF",
         "order": 1444,
@@ -11519,14 +11529,10 @@
     "tags": [
       "hyönteismäinen",
       "ilmatar",
-      "impi",
       "keijukainen",
       "luonnotar",
-      "metsänneito",
       "oberon",
       "puck",
-      "siivet",
-      "sinipiika",
       "titania"
     ],
     "unicode": "🧚",
@@ -11678,7 +11684,6 @@
     "tags": [
       "dracula",
       "elävä kuollut",
-      "epäkuollut",
       "hampaat",
       "torahammas",
       "verenhimo",
@@ -11732,7 +11737,6 @@
     "tags": [
       "dracula",
       "elävä kuollut",
-      "epäkuollut",
       "hampaat",
       "torahammas",
       "verenhimo",
@@ -11784,7 +11788,6 @@
     "order": 1661,
     "tags": [
       "elävä kuollut",
-      "epäkuollut",
       "hampaat",
       "torahammas",
       "verenhimo",
@@ -11835,14 +11838,10 @@
     "hexcode": "1F9DC",
     "order": 1673,
     "tags": [
-      "ahti",
       "kalanpyrstö",
       "merenhaltija",
-      "merenmies",
-      "merenneito",
-      "pyrstö",
       "vedenhaltija",
-      "vedenväki"
+      "vetehinen"
     ],
     "unicode": "🧜",
     "skins": [
@@ -12096,9 +12095,9 @@
     "order": 1721,
     "tags": [
       "alf",
+      "galadriel",
       "haltia",
       "keiju",
-      "keijukainen",
       "suippokorva"
     ],
     "unicode": "🧝‍♀️",
@@ -17837,6 +17836,9 @@
     "order": 2677,
     "tags": [
       "kilpahevonen",
+      "ratsastaja",
+      "ratsu",
+      "ratsuhevonen",
       "ravihevonen",
       "ravit"
     ],
@@ -18306,7 +18308,7 @@
     "hexcode": "1F9A1",
     "order": 2721,
     "tags": [
-      "mäyrä"
+      "mesimäyrä"
     ],
     "unicode": "🦡"
   },
@@ -18482,10 +18484,10 @@
     "hexcode": "1FAB6",
     "order": 2738,
     "tags": [
-      "höyhenet",
       "keveä",
       "lento",
-      "lintu"
+      "lintu",
+      "sulka"
     ],
     "unicode": "🪶"
   },
@@ -19039,9 +19041,12 @@
     "order": 2791,
     "tags": [
       "hoivata",
+      "hyödytön",
       "kasvaa",
       "kasvi",
-      "koti"
+      "kokousfiikus",
+      "koti",
+      "tylsä"
     ],
     "unicode": "🪴"
   },
@@ -20688,7 +20693,6 @@
       "horoskooppimerkki",
       "juoma",
       "kannu",
-      "kokkaus",
       "ruoanlaitto",
       "vesimies"
     ],
@@ -20960,6 +20964,7 @@
     "hexcode": "1F6D6",
     "order": 2968,
     "tags": [
+      "jurtta",
       "mökki",
       "savimaja",
       "talo"
@@ -21902,8 +21907,7 @@
     "hexcode": "1F6FC",
     "order": 3056,
     "tags": [
-      "luistin",
-      "rulla"
+      "luistin"
     ],
     "unicode": "🛼"
   },
@@ -23361,6 +23365,7 @@
     "order": 3200,
     "tags": [
       "joulu",
+      "joulupuu",
       "juhla",
       "kuusi"
     ],
@@ -23635,7 +23640,8 @@
     "tags": [
       "ensimmäinen",
       "kulta",
-      "mitali"
+      "mitali",
+      "voittaja"
     ],
     "unicode": "🥇"
   },
@@ -23881,7 +23887,6 @@
       "judo",
       "kamppailulajit",
       "karate",
-      "liikunta",
       "taekwondo",
       "urheilu"
     ],
@@ -24341,7 +24346,9 @@
       "käsinompelu",
       "neula",
       "ompelu",
-      "parsiminen"
+      "parsiminen",
+      "silmäneula",
+      "tikit"
     ],
     "unicode": "🪡"
   },
@@ -27510,7 +27517,8 @@
     "hexcode": "26A0",
     "order": 3607,
     "tags": [
-      "matkatavarat"
+      "muu vaara",
+      "vaara"
     ],
     "unicode": "⚠️"
   },
@@ -27555,11 +27563,12 @@
     "unicode": "🚫"
   },
   {
-    "annotation": "ei polkupyörille",
+    "annotation": "polkupyörällä ajo kielletty",
     "group": 8,
     "hexcode": "1F6B3",
     "order": 3611,
     "tags": [
+      "ei polkupyörille",
       "kielletty",
       "liikenne",
       "polkupyörä",
@@ -27596,10 +27605,9 @@
     "hexcode": "1F6B1",
     "order": 3614,
     "tags": [
-      "juomakelpoinen",
-      "juominen",
-      "kielletty",
-      "vesi"
+      "juomakelvoton",
+      "juominen kielletty",
+      "pilaantunut vesi"
     ],
     "unicode": "🚱"
   },
@@ -28597,7 +28605,7 @@
     "unicode": "⚧️"
   },
   {
-    "annotation": "paksu kertomerkki",
+    "annotation": "kertomerkki",
     "group": 8,
     "hexcode": "2716",
     "order": 3731,
@@ -28605,7 +28613,8 @@
       "kertolasku",
       "merkki",
       "peruuta",
-      "x"
+      "x",
+      "×"
     ],
     "unicode": "✖️"
   },
@@ -30963,7 +30972,7 @@
     "unicode": "🇫🇰"
   },
   {
-    "annotation": "lippu: Mikronesian liittovaltio",
+    "annotation": "lippu: Mikronesia",
     "group": 9,
     "hexcode": "1F1EB-1F1F2",
     "order": 3985,
@@ -31150,7 +31159,7 @@
     "unicode": "🇬🇷"
   },
   {
-    "annotation": "lippu: Etelä-Georgia ja Eteläiset Sandwichsaaret",
+    "annotation": "lippu: Etelä-Georgia ja Eteläiset Sandwichinsaaret",
     "group": 9,
     "hexcode": "1F1EC-1F1F8",
     "order": 4002,
@@ -31205,7 +31214,7 @@
     "unicode": "🇬🇾"
   },
   {
-    "annotation": "lippu: Hongkong – Kiinan e.h.a.",
+    "annotation": "lippu: Hongkong – Kiinan erityishallintoalue",
     "group": 9,
     "hexcode": "1F1ED-1F1F0",
     "order": 4007,
@@ -31799,7 +31808,7 @@
     "unicode": "🇲🇳"
   },
   {
-    "annotation": "lippu: Macao – Kiinan e.h.a.",
+    "annotation": "lippu: Macao – Kiinan erityishallintoalue",
     "group": 9,
     "hexcode": "1F1F2-1F1F4",
     "order": 4061,
@@ -32184,7 +32193,7 @@
     "unicode": "🇵🇷"
   },
   {
-    "annotation": "lippu: Palestiinalaisalueet",
+    "annotation": "lippu: Palestiinalaisalue",
     "group": 9,
     "hexcode": "1F1F5-1F1F8",
     "order": 4096,
@@ -32382,7 +32391,7 @@
     "unicode": "🇸🇮"
   },
   {
-    "annotation": "lippu: Huippuvuoret ja Jan Mayen",
+    "annotation": "lippu: Svalbard ja Jan Mayen",
     "group": 9,
     "hexcode": "1F1F8-1F1EF",
     "order": 4114,
@@ -32514,7 +32523,7 @@
     "unicode": "🇸🇾"
   },
   {
-    "annotation": "lippu: Swazimaa",
+    "annotation": "lippu: Eswatini",
     "group": 9,
     "hexcode": "1F1F8-1F1FF",
     "order": 4126,
@@ -32558,7 +32567,7 @@
     "unicode": "🇹🇩"
   },
   {
-    "annotation": "lippu: Ranskan eteläiset alueet",
+    "annotation": "lippu: Ranskan eteläiset ja antarktiset alueet",
     "group": 9,
     "hexcode": "1F1F9-1F1EB",
     "order": 4130,

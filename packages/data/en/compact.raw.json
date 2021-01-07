@@ -219,7 +219,9 @@
       "face",
       "floor",
       "laugh",
-      "rolling"
+      "rofl",
+      "rolling",
+      "rotfl"
     ],
     "unicode": "🤣",
     "emoticon": ":'D"
@@ -789,6 +791,7 @@
     "hexcode": "1F92E",
     "order": 53,
     "tags": [
+      "puke",
       "sick",
       "vomit"
     ],
@@ -850,13 +853,14 @@
     "emoticon": ":&"
   },
   {
-    "annotation": "dizzy face",
+    "annotation": "knocked-out face",
     "group": 0,
     "hexcode": "1F635",
     "order": 58,
     "tags": [
-      "dizzy",
-      "face"
+      "dead",
+      "face",
+      "knocked out"
     ],
     "unicode": "😵",
     "emoticon": "xo"
@@ -1289,6 +1293,7 @@
     "hexcode": "1F620",
     "order": 93,
     "tags": [
+      "anger",
       "angry",
       "face",
       "mad"
@@ -2186,7 +2191,9 @@
     "hexcode": "270B",
     "order": 182,
     "tags": [
-      "hand"
+      "hand",
+      "high 5",
+      "high five"
     ],
     "unicode": "✋",
     "skins": [
@@ -3483,6 +3490,8 @@
     "tags": [
       "ask",
       "hand",
+      "high 5",
+      "high five",
       "please",
       "pray",
       "thanks"
@@ -4420,47 +4429,46 @@
     ]
   },
   {
-    "annotation": "man: beard",
+    "annotation": "person: beard",
     "group": 1,
     "hexcode": "1F9D4",
     "order": 456,
     "tags": [
       "beard",
-      "man",
       "person"
     ],
     "unicode": "🧔",
     "skins": [
       {
-        "annotation": "man: light skin tone, beard",
+        "annotation": "person: light skin tone, beard",
         "group": 1,
         "hexcode": "1F9D4-1F3FB",
         "order": 457,
         "unicode": "🧔🏻"
       },
       {
-        "annotation": "man: medium-light skin tone, beard",
+        "annotation": "person: medium-light skin tone, beard",
         "group": 1,
         "hexcode": "1F9D4-1F3FC",
         "order": 458,
         "unicode": "🧔🏼"
       },
       {
-        "annotation": "man: medium skin tone, beard",
+        "annotation": "person: medium skin tone, beard",
         "group": 1,
         "hexcode": "1F9D4-1F3FD",
         "order": 459,
         "unicode": "🧔🏽"
       },
       {
-        "annotation": "man: medium-dark skin tone, beard",
+        "annotation": "person: medium-dark skin tone, beard",
         "group": 1,
         "hexcode": "1F9D4-1F3FE",
         "order": 460,
         "unicode": "🧔🏾"
       },
       {
-        "annotation": "man: dark skin tone, beard",
+        "annotation": "person: dark skin tone, beard",
         "group": 1,
         "hexcode": "1F9D4-1F3FF",
         "order": 461,
@@ -7308,6 +7316,7 @@
     "hexcode": "1F9D1-200D-2696-FE0F",
     "order": 954,
     "tags": [
+      "justice",
       "scales"
     ],
     "unicode": "🧑‍⚖️",
@@ -7355,6 +7364,7 @@
     "hexcode": "1F468-200D-2696-FE0F",
     "order": 966,
     "tags": [
+      "judge",
       "justice",
       "man",
       "scales"
@@ -7405,6 +7415,7 @@
     "order": 978,
     "tags": [
       "judge",
+      "justice",
       "scales",
       "woman"
     ],
@@ -13358,6 +13369,7 @@
     "hexcode": "1F483",
     "order": 1977,
     "tags": [
+      "dance",
       "dancing",
       "woman"
     ],
@@ -13407,6 +13419,7 @@
     "order": 1983,
     "tags": [
       "dance",
+      "dancing",
       "man"
     ],
     "unicode": "🕺",
@@ -23536,13 +23549,13 @@
     "unicode": "🥌"
   },
   {
-    "annotation": "direct hit",
+    "annotation": "bullseye",
     "group": 6,
     "hexcode": "1F3AF",
     "order": 3257,
     "tags": [
-      "bullseye",
       "dart",
+      "direct hit",
       "game",
       "hit",
       "target"
@@ -26146,15 +26159,17 @@
     "unicode": "⚔️"
   },
   {
-    "annotation": "pistol",
+    "annotation": "water pistol",
     "group": 7,
     "hexcode": "1F52B",
     "order": 3523,
     "tags": [
       "gun",
       "handgun",
+      "pistol",
       "revolver",
       "tool",
+      "water",
       "weapon"
     ],
     "unicode": "🔫"
@@ -28167,7 +28182,7 @@
     "unicode": "⁉️"
   },
   {
-    "annotation": "question mark",
+    "annotation": "red question mark",
     "group": 8,
     "hexcode": "2753",
     "order": 3741,
@@ -28208,7 +28223,7 @@
     "unicode": "❕"
   },
   {
-    "annotation": "exclamation mark",
+    "annotation": "red exclamation mark",
     "group": 8,
     "hexcode": "2757",
     "order": 3744,

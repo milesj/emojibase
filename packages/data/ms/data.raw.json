@@ -2409,8 +2409,7 @@
     "annotation": "hati kuning",
     "hexcode": "1F49B",
     "tags": [
-      "hati",
-      "kuning"
+      "hati"
     ],
     "emoji": "💛",
     "text": "",
@@ -2484,9 +2483,9 @@
     "annotation": "hati hitam",
     "hexcode": "1F5A4",
     "tags": [
-      "hati",
       "hitam",
-      "jahat"
+      "jahat",
+      "kejam"
     ],
     "emoji": "🖤",
     "text": "",
@@ -2970,7 +2969,6 @@
     "annotation": "angkat tangan",
     "hexcode": "270B",
     "tags": [
-      "badan",
       "tangan"
     ],
     "emoji": "✋",
@@ -3910,10 +3908,8 @@
       "atas",
       "belakang tangan",
       "jari",
-      "jari telunjuk belakang tangan menunjuk ke atas",
-      "jari telunjuk menghala ke atas",
-      "tangan",
-      "tunjuk"
+      "jari telunjuk belakang tangan tuding ke atas",
+      "tangan"
     ],
     "emoji": "👆️",
     "text": "👆︎",
@@ -4064,15 +4060,14 @@
     ]
   },
   {
-    "annotation": "jari telunjuk belakang tangan menunjuk ke bawah",
+    "annotation": "jari telunjuk belakang tangan tuding ke bawah",
     "hexcode": "1F447",
     "tags": [
-      "badan",
       "bawah",
       "belakang tangan",
       "jari",
+      "jari telunjuk belakang tangan menunjuk ke bawah",
       "tangan",
-      "telunjuk",
       "tunjuk"
     ],
     "emoji": "👇️",
@@ -4084,7 +4079,7 @@
     "version": 0.6,
     "skins": [
       {
-        "annotation": "jari telunjuk belakang tangan menunjuk ke bawah: ton kulit cerah",
+        "annotation": "jari telunjuk belakang tangan tuding ke bawah: ton kulit cerah",
         "hexcode": "1F447-1F3FB",
         "emoji": "👇🏻",
         "text": "",
@@ -4096,7 +4091,7 @@
         "tone": 1
       },
       {
-        "annotation": "jari telunjuk belakang tangan menunjuk ke bawah: ton kulit sederhana cerah",
+        "annotation": "jari telunjuk belakang tangan tuding ke bawah: ton kulit sederhana cerah",
         "hexcode": "1F447-1F3FC",
         "emoji": "👇🏼",
         "text": "",
@@ -4108,7 +4103,7 @@
         "tone": 2
       },
       {
-        "annotation": "jari telunjuk belakang tangan menunjuk ke bawah: ton kulit sederhana",
+        "annotation": "jari telunjuk belakang tangan tuding ke bawah: ton kulit sederhana",
         "hexcode": "1F447-1F3FD",
         "emoji": "👇🏽",
         "text": "",
@@ -4120,7 +4115,7 @@
         "tone": 3
       },
       {
-        "annotation": "jari telunjuk belakang tangan menunjuk ke bawah: ton kulit sederhana gelap",
+        "annotation": "jari telunjuk belakang tangan tuding ke bawah: ton kulit sederhana gelap",
         "hexcode": "1F447-1F3FE",
         "emoji": "👇🏾",
         "text": "",
@@ -4132,7 +4127,7 @@
         "tone": 4
       },
       {
-        "annotation": "jari telunjuk belakang tangan menunjuk ke bawah: ton kulit gelap",
+        "annotation": "jari telunjuk belakang tangan tuding ke bawah: ton kulit gelap",
         "hexcode": "1F447-1F3FF",
         "emoji": "👇🏿",
         "text": "",
@@ -5031,15 +5026,11 @@
     "annotation": "menyusun jari",
     "hexcode": "1F64F",
     "tags": [
-      "badan",
       "doa",
-      "isyarat",
-      "susun",
       "tangan",
       "tanya",
       "terima kasih",
-      "tolong",
-      "tunduk"
+      "tolong"
     ],
     "emoji": "🙏",
     "text": "",
@@ -5856,10 +5847,11 @@
     "annotation": "organ jantung",
     "hexcode": "1FAC0",
     "tags": [
-      "degupan jantung",
-      "nadi",
-      "organ",
-      "pusat"
+      "anatomi",
+      "degupan",
+      "jantung",
+      "kardiolagi",
+      "organ"
     ],
     "emoji": "🫀",
     "text": "",
@@ -6512,11 +6504,10 @@
     ]
   },
   {
-    "annotation": "lelaki: janggut",
+    "annotation": "orang: janggut",
     "hexcode": "1F9D4",
     "tags": [
       "janggut",
-      "lelaki",
       "orang"
     ],
     "emoji": "🧔",
@@ -6528,7 +6519,7 @@
     "version": 5,
     "skins": [
       {
-        "annotation": "lelaki: ton kulit cerah dan janggut",
+        "annotation": "orang: ton kulit cerah dan janggut",
         "hexcode": "1F9D4-1F3FB",
         "emoji": "🧔🏻",
         "text": "",
@@ -6540,7 +6531,7 @@
         "tone": 1
       },
       {
-        "annotation": "lelaki: ton kulit sederhana cerah dan janggut",
+        "annotation": "orang: ton kulit sederhana cerah dan janggut",
         "hexcode": "1F9D4-1F3FC",
         "emoji": "🧔🏼",
         "text": "",
@@ -6552,7 +6543,7 @@
         "tone": 2
       },
       {
-        "annotation": "lelaki: ton kulit sederhana dan janggut",
+        "annotation": "orang: ton kulit sederhana dan janggut",
         "hexcode": "1F9D4-1F3FD",
         "emoji": "🧔🏽",
         "text": "",
@@ -6564,7 +6555,7 @@
         "tone": 3
       },
       {
-        "annotation": "lelaki: ton kulit sederhana gelap dan janggut",
+        "annotation": "orang: ton kulit sederhana gelap dan janggut",
         "hexcode": "1F9D4-1F3FE",
         "emoji": "🧔🏾",
         "text": "",
@@ -6576,7 +6567,7 @@
         "tone": 4
       },
       {
-        "annotation": "lelaki: ton kulit gelap dan janggut",
+        "annotation": "orang: ton kulit gelap dan janggut",
         "hexcode": "1F9D4-1F3FF",
         "emoji": "🧔🏿",
         "text": "",
@@ -15889,7 +15880,7 @@
     "hexcode": "1F935",
     "tags": [
       "orang",
-      "pengantin",
+      "pengantin lelaki",
       "tuksedo"
     ],
     "emoji": "🤵",
@@ -19050,7 +19041,7 @@
     ]
   },
   {
-    "annotation": "perempuan diurut mka",
+    "annotation": "perempuan diurut muka",
     "hexcode": "1F486-200D-2640-FE0F",
     "tags": [
       "muka",
@@ -19068,7 +19059,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "perempuan diurut mka: ton kulit cerah",
+        "annotation": "perempuan diurut muka: ton kulit cerah",
         "hexcode": "1F486-1F3FB-200D-2640-FE0F",
         "emoji": "💆🏻‍♀️",
         "text": "",
@@ -19081,7 +19072,7 @@
         "tone": 1
       },
       {
-        "annotation": "perempuan diurut mka: ton kulit sederhana cerah",
+        "annotation": "perempuan diurut muka: ton kulit sederhana cerah",
         "hexcode": "1F486-1F3FC-200D-2640-FE0F",
         "emoji": "💆🏼‍♀️",
         "text": "",
@@ -19094,7 +19085,7 @@
         "tone": 2
       },
       {
-        "annotation": "perempuan diurut mka: ton kulit sederhana",
+        "annotation": "perempuan diurut muka: ton kulit sederhana",
         "hexcode": "1F486-1F3FD-200D-2640-FE0F",
         "emoji": "💆🏽‍♀️",
         "text": "",
@@ -19107,7 +19098,7 @@
         "tone": 3
       },
       {
-        "annotation": "perempuan diurut mka: ton kulit sederhana gelap",
+        "annotation": "perempuan diurut muka: ton kulit sederhana gelap",
         "hexcode": "1F486-1F3FE-200D-2640-FE0F",
         "emoji": "💆🏾‍♀️",
         "text": "",
@@ -19120,7 +19111,7 @@
         "tone": 4
       },
       {
-        "annotation": "perempuan diurut mka: ton kulit gelap",
+        "annotation": "perempuan diurut muka: ton kulit gelap",
         "hexcode": "1F486-1F3FF-200D-2640-FE0F",
         "emoji": "💆🏿‍♀️",
         "text": "",
@@ -20111,7 +20102,7 @@
     ]
   },
   {
-    "annotation": "orang dengan tongkat penduga",
+    "annotation": "orang dengan tongkat putih",
     "hexcode": "1F9D1-200D-1F9AF",
     "tags": [
       "buta",
@@ -20126,7 +20117,7 @@
     "version": 12.1,
     "skins": [
       {
-        "annotation": "orang dengan tongkat penduga: ton kulit cerah",
+        "annotation": "orang dengan tongkat putih: ton kulit cerah",
         "hexcode": "1F9D1-1F3FB-200D-1F9AF",
         "emoji": "🧑🏻‍🦯",
         "text": "",
@@ -20138,7 +20129,7 @@
         "tone": 1
       },
       {
-        "annotation": "orang dengan tongkat penduga: ton kulit sederhana cerah",
+        "annotation": "orang dengan tongkat putih: ton kulit sederhana cerah",
         "hexcode": "1F9D1-1F3FC-200D-1F9AF",
         "emoji": "🧑🏼‍🦯",
         "text": "",
@@ -20150,7 +20141,7 @@
         "tone": 2
       },
       {
-        "annotation": "orang dengan tongkat penduga: ton kulit sederhana",
+        "annotation": "orang dengan tongkat putih: ton kulit sederhana",
         "hexcode": "1F9D1-1F3FD-200D-1F9AF",
         "emoji": "🧑🏽‍🦯",
         "text": "",
@@ -20162,7 +20153,7 @@
         "tone": 3
       },
       {
-        "annotation": "orang dengan tongkat penduga: ton kulit sederhana gelap",
+        "annotation": "orang dengan tongkat putih: ton kulit sederhana gelap",
         "hexcode": "1F9D1-1F3FE-200D-1F9AF",
         "emoji": "🧑🏾‍🦯",
         "text": "",
@@ -20174,7 +20165,7 @@
         "tone": 4
       },
       {
-        "annotation": "orang dengan tongkat penduga: ton kulit gelap",
+        "annotation": "orang dengan tongkat putih: ton kulit gelap",
         "hexcode": "1F9D1-1F3FF-200D-1F9AF",
         "emoji": "🧑🏿‍🦯",
         "text": "",
@@ -20188,7 +20179,7 @@
     ]
   },
   {
-    "annotation": "lelaki dengan tongkat penduga",
+    "annotation": "lelaki dengan tongkat putih",
     "hexcode": "1F468-200D-1F9AF",
     "tags": [
       "buta",
@@ -20204,7 +20195,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "lelaki dengan tongkat penduga: ton kulit cerah",
+        "annotation": "lelaki dengan tongkat putih: ton kulit cerah",
         "hexcode": "1F468-1F3FB-200D-1F9AF",
         "emoji": "👨🏻‍🦯",
         "text": "",
@@ -20216,7 +20207,7 @@
         "tone": 1
       },
       {
-        "annotation": "lelaki dengan tongkat penduga: ton kulit sederhana cerah",
+        "annotation": "lelaki dengan tongkat putih: ton kulit sederhana cerah",
         "hexcode": "1F468-1F3FC-200D-1F9AF",
         "emoji": "👨🏼‍🦯",
         "text": "",
@@ -20228,7 +20219,7 @@
         "tone": 2
       },
       {
-        "annotation": "lelaki dengan tongkat penduga: ton kulit sederhana",
+        "annotation": "lelaki dengan tongkat putih: ton kulit sederhana",
         "hexcode": "1F468-1F3FD-200D-1F9AF",
         "emoji": "👨🏽‍🦯",
         "text": "",
@@ -20240,7 +20231,7 @@
         "tone": 3
       },
       {
-        "annotation": "lelaki dengan tongkat penduga: ton kulit sederhana gelap",
+        "annotation": "lelaki dengan tongkat putih: ton kulit sederhana gelap",
         "hexcode": "1F468-1F3FE-200D-1F9AF",
         "emoji": "👨🏾‍🦯",
         "text": "",
@@ -20252,7 +20243,7 @@
         "tone": 4
       },
       {
-        "annotation": "lelaki dengan tongkat penduga: ton kulit gelap",
+        "annotation": "lelaki dengan tongkat putih: ton kulit gelap",
         "hexcode": "1F468-1F3FF-200D-1F9AF",
         "emoji": "👨🏿‍🦯",
         "text": "",
@@ -20266,7 +20257,7 @@
     ]
   },
   {
-    "annotation": "perempuan dengan tongkat penduga",
+    "annotation": "perempuan dengan tongkat putih",
     "hexcode": "1F469-200D-1F9AF",
     "tags": [
       "buta",
@@ -20282,7 +20273,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "perempuan dengan tongkat penduga: ton kulit cerah",
+        "annotation": "perempuan dengan tongkat putih: ton kulit cerah",
         "hexcode": "1F469-1F3FB-200D-1F9AF",
         "emoji": "👩🏻‍🦯",
         "text": "",
@@ -20294,7 +20285,7 @@
         "tone": 1
       },
       {
-        "annotation": "perempuan dengan tongkat penduga: ton kulit sederhana cerah",
+        "annotation": "perempuan dengan tongkat putih: ton kulit sederhana cerah",
         "hexcode": "1F469-1F3FC-200D-1F9AF",
         "emoji": "👩🏼‍🦯",
         "text": "",
@@ -20306,7 +20297,7 @@
         "tone": 2
       },
       {
-        "annotation": "perempuan dengan tongkat penduga: ton kulit sederhana",
+        "annotation": "perempuan dengan tongkat putih: ton kulit sederhana",
         "hexcode": "1F469-1F3FD-200D-1F9AF",
         "emoji": "👩🏽‍🦯",
         "text": "",
@@ -20318,7 +20309,7 @@
         "tone": 3
       },
       {
-        "annotation": "perempuan dengan tongkat penduga: ton kulit sederhana gelap",
+        "annotation": "perempuan dengan tongkat putih: ton kulit sederhana gelap",
         "hexcode": "1F469-1F3FE-200D-1F9AF",
         "emoji": "👩🏾‍🦯",
         "text": "",
@@ -20330,7 +20321,7 @@
         "tone": 4
       },
       {
-        "annotation": "perempuan dengan tongkat penduga: ton kulit gelap",
+        "annotation": "perempuan dengan tongkat putih: ton kulit gelap",
         "hexcode": "1F469-1F3FF-200D-1F9AF",
         "emoji": "👩🏿‍🦯",
         "text": "",
@@ -29818,7 +29809,6 @@
     "tags": [
       "4",
       "bunga cengkih",
-      "bunga cengkih berdaun empat",
       "daun",
       "empat"
     ],
@@ -30223,7 +30213,7 @@
     "hexcode": "1F33D",
     "tags": [
       "jagung",
-      "telinga"
+      "setongkol"
     ],
     "emoji": "🌽",
     "text": "",
@@ -31090,7 +31080,7 @@
     "tags": [
       "festival",
       "musim luruh",
-      "yuèbǐng"
+      "yuebing"
     ],
     "emoji": "🥮",
     "text": "",
@@ -31745,8 +31735,11 @@
     "annotation": "minuman air kotak",
     "hexcode": "1F9C3",
     "tags": [
-      "jus kotak",
-      "minuman kotak"
+      "jus",
+      "kotak",
+      "manis",
+      "minuman",
+      "straw"
     ],
     "emoji": "🧃",
     "text": "",
@@ -39682,10 +39675,11 @@
     "version": 1
   },
   {
-    "annotation": "pistol",
+    "annotation": "pistol air",
     "hexcode": "1F52B",
     "tags": [
       "alat",
+      "pistol",
       "revolver",
       "senjata"
     ],
@@ -42402,7 +42396,7 @@
     "version": 0.6
   },
   {
-    "annotation": "tanda seru",
+    "annotation": "tanda seru merah",
     "hexcode": "2757",
     "tags": [
       "!",
@@ -42547,12 +42541,9 @@
     "annotation": "simbol Jepun untuk pemula",
     "hexcode": "1F530",
     "tags": [
-      "alat",
       "chevron",
       "daun",
-      "hijau",
       "jepun",
-      "kuning",
       "pemula",
       "simbol jepun untuk pemula"
     ],
@@ -42775,7 +42766,7 @@
     "annotation": "berdaftar",
     "hexcode": "00AE",
     "tags": [
-      "berdaftar"
+      "r"
     ],
     "emoji": "®️",
     "text": "®︎",
@@ -43348,10 +43339,11 @@
     "annotation": "butang ‘caj perkhidmatan’ Jepun",
     "hexcode": "1F202",
     "tags": [
+      "\"caj perkhidmatan\"",
+      "butang \"caj perkhidmatan jepun",
       "butang ‘caj perkhidmatan’ jepun",
       "jepun",
-      "katakana",
-      "サ"
+      "katakana"
     ],
     "emoji": "🈂️",
     "text": "🈂︎",

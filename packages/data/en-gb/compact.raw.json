@@ -219,7 +219,9 @@
       "face",
       "floor",
       "laugh",
-      "rolling"
+      "rofl",
+      "rolling",
+      "rotfl"
     ],
     "unicode": "🤣",
     "emoticon": ":'D"
@@ -427,6 +429,7 @@
     "tags": [
       "delicious",
       "face",
+      "face savouring food",
       "savouring",
       "smile",
       "yum"
@@ -518,6 +521,8 @@
     "hexcode": "1F92D",
     "order": 31,
     "tags": [
+      "embarrassed",
+      "oops",
       "whoops"
     ],
     "unicode": "🤭"
@@ -789,6 +794,7 @@
     "hexcode": "1F92E",
     "order": 53,
     "tags": [
+      "puke",
       "sick",
       "vomit"
     ],
@@ -850,13 +856,14 @@
     "emoticon": ":&"
   },
   {
-    "annotation": "dizzy face",
+    "annotation": "knocked-out face",
     "group": 0,
     "hexcode": "1F635",
     "order": 58,
     "tags": [
-      "dizzy",
-      "face"
+      "dead",
+      "face",
+      "knocked out"
     ],
     "unicode": "😵",
     "emoticon": "xo"
@@ -1289,6 +1296,7 @@
     "hexcode": "1F620",
     "order": 93,
     "tags": [
+      "anger",
       "angry",
       "face",
       "mad"
@@ -2186,7 +2194,9 @@
     "hexcode": "270B",
     "order": 182,
     "tags": [
-      "hand"
+      "hand",
+      "high 5",
+      "high five"
     ],
     "unicode": "✋",
     "skins": [
@@ -3483,6 +3493,8 @@
     "tags": [
       "ask",
       "hand",
+      "high 5",
+      "high five",
       "please",
       "pray",
       "thanks"
@@ -4000,8 +4012,7 @@
     "order": 405,
     "tags": [
       "cardiology",
-      "centre",
-      "heartbeat",
+      "heart",
       "organ",
       "pulse"
     ],
@@ -4420,47 +4431,46 @@
     ]
   },
   {
-    "annotation": "man: beard",
+    "annotation": "person: beard",
     "group": 1,
     "hexcode": "1F9D4",
     "order": 456,
     "tags": [
       "beard",
-      "man",
       "person"
     ],
     "unicode": "🧔",
     "skins": [
       {
-        "annotation": "man: light skin tone, beard",
+        "annotation": "person: light skin tone, beard",
         "group": 1,
         "hexcode": "1F9D4-1F3FB",
         "order": 457,
         "unicode": "🧔🏻"
       },
       {
-        "annotation": "man: medium-light skin tone, beard",
+        "annotation": "person: medium-light skin tone, beard",
         "group": 1,
         "hexcode": "1F9D4-1F3FC",
         "order": 458,
         "unicode": "🧔🏼"
       },
       {
-        "annotation": "man: medium skin tone, beard",
+        "annotation": "person: medium skin tone, beard",
         "group": 1,
         "hexcode": "1F9D4-1F3FD",
         "order": 459,
         "unicode": "🧔🏽"
       },
       {
-        "annotation": "man: medium-dark skin tone, beard",
+        "annotation": "person: medium-dark skin tone, beard",
         "group": 1,
         "hexcode": "1F9D4-1F3FE",
         "order": 460,
         "unicode": "🧔🏾"
       },
       {
-        "annotation": "man: dark skin tone, beard",
+        "annotation": "person: dark skin tone, beard",
         "group": 1,
         "hexcode": "1F9D4-1F3FF",
         "order": 461,
@@ -7309,7 +7319,7 @@
     "hexcode": "1F9D1-200D-2696-FE0F",
     "order": 954,
     "tags": [
-      "scales"
+      "law"
     ],
     "unicode": "🧑‍⚖️",
     "skins": [
@@ -7356,6 +7366,7 @@
     "hexcode": "1F468-200D-2696-FE0F",
     "order": 966,
     "tags": [
+      "judge",
       "justice",
       "man",
       "scales"
@@ -7406,6 +7417,7 @@
     "order": 978,
     "tags": [
       "judge",
+      "justice",
       "scales",
       "woman"
     ],
@@ -13365,6 +13377,7 @@
     "hexcode": "1F483",
     "order": 1977,
     "tags": [
+      "dance",
       "dancing",
       "woman"
     ],
@@ -13414,6 +13427,7 @@
     "order": 1983,
     "tags": [
       "dance",
+      "dancing",
       "man"
     ],
     "unicode": "🕺",
@@ -19279,7 +19293,10 @@
     "hexcode": "1FAD3",
     "order": 2842,
     "tags": [
-      "flatbread"
+      "arepa",
+      "lavash",
+      "naan",
+      "pita"
     ],
     "unicode": "🫓"
   },
@@ -20142,7 +20159,8 @@
       "beverage",
       "bottle",
       "cup",
-      "drink"
+      "drink",
+      "saké"
     ],
     "unicode": "🍶"
   },
@@ -21403,7 +21421,8 @@
     "hexcode": "1F699",
     "order": 3040,
     "tags": [
-      "recreational",
+      "4x4",
+      "off-road vehicle",
       "sport utility"
     ],
     "unicode": "🚙"
@@ -21797,7 +21816,7 @@
       "airplane",
       "check-in",
       "departure",
-      "departures"
+      "take-off"
     ],
     "unicode": "🛫"
   },
@@ -22034,11 +22053,10 @@
     "hexcode": "1F567",
     "order": 3111,
     "tags": [
-      "12",
+      "12.30",
       "12:30",
       "clock",
-      "thirty",
-      "twelve"
+      "half past twelve"
     ],
     "unicode": "🕧️"
   },
@@ -22063,11 +22081,10 @@
     "hexcode": "1F55C",
     "order": 3113,
     "tags": [
-      "1",
+      "1.30",
       "1:30",
       "clock",
-      "one",
-      "thirty"
+      "half past one"
     ],
     "unicode": "🕜️"
   },
@@ -22092,11 +22109,10 @@
     "hexcode": "1F55D",
     "order": 3115,
     "tags": [
-      "2",
+      "2.30",
       "2:30",
       "clock",
-      "thirty",
-      "two"
+      "half past two"
     ],
     "unicode": "🕝️"
   },
@@ -22121,11 +22137,10 @@
     "hexcode": "1F55E",
     "order": 3117,
     "tags": [
-      "3",
+      "3.30",
       "3:30",
       "clock",
-      "thirty",
-      "three"
+      "half past three"
     ],
     "unicode": "🕞️"
   },
@@ -22150,11 +22165,10 @@
     "hexcode": "1F55F",
     "order": 3119,
     "tags": [
-      "4",
+      "4.30",
       "4:30",
       "clock",
-      "four",
-      "thirty"
+      "half past four"
     ],
     "unicode": "🕟️"
   },
@@ -22179,11 +22193,10 @@
     "hexcode": "1F560",
     "order": 3121,
     "tags": [
-      "5",
+      "5.30",
       "5:30",
       "clock",
-      "five",
-      "thirty"
+      "half past five"
     ],
     "unicode": "🕠️"
   },
@@ -22208,11 +22221,10 @@
     "hexcode": "1F561",
     "order": 3123,
     "tags": [
-      "6",
+      "6.30",
       "6:30",
       "clock",
-      "six",
-      "thirty"
+      "half past six"
     ],
     "unicode": "🕡️"
   },
@@ -22237,11 +22249,10 @@
     "hexcode": "1F562",
     "order": 3125,
     "tags": [
-      "7",
+      "7.30",
       "7:30",
       "clock",
-      "seven",
-      "thirty"
+      "half past seven"
     ],
     "unicode": "🕢️"
   },
@@ -22266,11 +22277,10 @@
     "hexcode": "1F563",
     "order": 3127,
     "tags": [
-      "8",
+      "8.30",
       "8:30",
       "clock",
-      "eight",
-      "thirty"
+      "half past eight"
     ],
     "unicode": "🕣️"
   },
@@ -22295,11 +22305,10 @@
     "hexcode": "1F564",
     "order": 3129,
     "tags": [
-      "9",
+      "9.30",
       "9:30",
       "clock",
-      "nine",
-      "thirty"
+      "half past nine"
     ],
     "unicode": "🕤️"
   },
@@ -22324,11 +22333,10 @@
     "hexcode": "1F565",
     "order": 3131,
     "tags": [
-      "10",
+      "10.30",
       "10:30",
       "clock",
-      "ten",
-      "thirty"
+      "half past ten"
     ],
     "unicode": "🕥️"
   },
@@ -22353,11 +22361,10 @@
     "hexcode": "1F566",
     "order": 3133,
     "tags": [
-      "11",
+      "11.30",
       "11:30",
       "clock",
-      "eleven",
-      "thirty"
+      "half past eleven"
     ],
     "unicode": "🕦️"
   },
@@ -23056,7 +23063,10 @@
     "order": 3211,
     "tags": [
       "carp",
+      "carp wind sock",
       "celebration",
+      "japanese wind socks",
+      "koinobori",
       "streamer"
     ],
     "unicode": "🎏"
@@ -23493,7 +23503,7 @@
     "tags": [
       "diving",
       "scuba",
-      "snorkelling"
+      "snorkeling"
     ],
     "unicode": "🤿"
   },
@@ -23544,13 +23554,13 @@
     "unicode": "🥌"
   },
   {
-    "annotation": "direct hit",
+    "annotation": "bullseye",
     "group": 6,
     "hexcode": "1F3AF",
     "order": 3257,
     "tags": [
-      "bullseye",
       "dart",
+      "direct hit",
       "game",
       "hit",
       "target"
@@ -23614,7 +23624,9 @@
     "hexcode": "1FA84",
     "order": 3262,
     "tags": [
-      "magic wand"
+      "magic",
+      "witch",
+      "wizard"
     ],
     "unicode": "🪄"
   },
@@ -23977,23 +23989,22 @@
     "tags": [
       "emergency",
       "hi-vis",
-      "hi-viz",
       "high-vis",
-      "high-viz",
       "jacket",
+      "life jacket",
       "safety",
       "vest"
     ],
     "unicode": "🦺"
   },
   {
-    "annotation": "necktie",
+    "annotation": "tie",
     "group": 7,
     "hexcode": "1F454",
     "order": 3300,
     "tags": [
       "clothing",
-      "tie"
+      "necktie"
     ],
     "unicode": "👔"
   },
@@ -24222,8 +24233,7 @@
       "sandals",
       "thong sandals",
       "thongs",
-      "zori",
-      "zōri"
+      "zori"
     ],
     "unicode": "🩴"
   },
@@ -26165,15 +26175,17 @@
     "unicode": "⚔️"
   },
   {
-    "annotation": "pistol",
+    "annotation": "water pistol",
     "group": 7,
     "hexcode": "1F52B",
     "order": 3523,
     "tags": [
       "gun",
       "handgun",
+      "pistol",
       "revolver",
       "tool",
+      "water",
       "weapon"
     ],
     "unicode": "🔫"
@@ -26220,7 +26232,10 @@
     "hexcode": "1FA9A",
     "order": 3528,
     "tags": [
-      "carpentry saw"
+      "carpenter",
+      "lumber",
+      "saw",
+      "tool"
     ],
     "unicode": "🪚"
   },
@@ -26302,7 +26317,8 @@
     "hexcode": "1F9AF",
     "order": 3538,
     "tags": [
-      "guide cane"
+      "accessibility",
+      "blind"
     ],
     "unicode": "🦯"
   },
@@ -26370,7 +26386,9 @@
     "hexcode": "1FA9C",
     "order": 3545,
     "tags": [
-      "ladder"
+      "climb",
+      "rung",
+      "step"
     ],
     "unicode": "🪜"
   },
@@ -26467,10 +26485,10 @@
     "hexcode": "1F489",
     "order": 3554,
     "tags": [
+      "ill",
+      "injection",
       "medicine",
-      "needle",
-      "shot",
-      "sick"
+      "needle"
     ],
     "unicode": "💉"
   },
@@ -26506,7 +26524,8 @@
     "hexcode": "1FA79",
     "order": 3557,
     "tags": [
-      "plaster"
+      "injury",
+      "sticking plaster"
     ],
     "unicode": "🩹"
   },
@@ -26550,7 +26569,9 @@
     "hexcode": "1FA9E",
     "order": 3561,
     "tags": [
-      "mirror"
+      "reflection",
+      "reflector",
+      "speculum"
     ],
     "unicode": "🪞"
   },
@@ -26636,12 +26657,12 @@
     "unicode": "🚿"
   },
   {
-    "annotation": "bathtub",
+    "annotation": "bath",
     "group": 7,
     "hexcode": "1F6C1",
     "order": 3571,
     "tags": [
-      "bath"
+      "bathtub"
     ],
     "unicode": "🛁"
   },
@@ -26659,12 +26680,14 @@
     "unicode": "🪤"
   },
   {
-    "annotation": "cut-throat razor",
+    "annotation": "razor",
     "group": 7,
     "hexcode": "1FA92",
     "order": 3573,
     "tags": [
-      "cut-throat razor"
+      "cut-throat",
+      "sharp",
+      "shave"
     ],
     "unicode": "🪒"
   },
@@ -27381,6 +27404,7 @@
     "order": 3651,
     "tags": [
       "anticlockwise",
+      "anticlockwise arrows button",
       "arrow",
       "counterclockwise",
       "withershins"
@@ -28078,7 +28102,8 @@
     "hexcode": "26A7",
     "order": 3729,
     "tags": [
-      "transgender symbol"
+      "trans",
+      "transgender"
     ],
     "unicode": "⚧️"
   },
@@ -28181,7 +28206,7 @@
     "unicode": "⁉️"
   },
   {
-    "annotation": "question mark",
+    "annotation": "red question mark",
     "group": 8,
     "hexcode": "2753",
     "order": 3741,
@@ -28222,7 +28247,7 @@
     "unicode": "❕"
   },
   {
-    "annotation": "exclamation mark",
+    "annotation": "red exclamation mark",
     "group": 8,
     "hexcode": "2757",
     "order": 3744,
@@ -29914,13 +29939,12 @@
     "unicode": "🇧🇯"
   },
   {
-    "annotation": "flag: St. Barthélemy",
+    "annotation": "flag: St Barthélemy",
     "group": 9,
     "hexcode": "1F1E7-1F1F1",
     "order": 3934,
     "tags": [
-      "BL",
-      "flag"
+      "BL"
     ],
     "unicode": "🇧🇱"
   },
@@ -31003,13 +31027,12 @@
     "unicode": "🇰🇲"
   },
   {
-    "annotation": "flag: St. Kitts & Nevis",
+    "annotation": "flag: St Kitts & Nevis",
     "group": 9,
     "hexcode": "1F1F0-1F1F3",
     "order": 4033,
     "tags": [
-      "KN",
-      "flag"
+      "KN"
     ],
     "unicode": "🇰🇳"
   },
@@ -31091,13 +31114,12 @@
     "unicode": "🇱🇧"
   },
   {
-    "annotation": "flag: St. Lucia",
+    "annotation": "flag: St Lucia",
     "group": 9,
     "hexcode": "1F1F1-1F1E8",
     "order": 4041,
     "tags": [
-      "LC",
-      "flag"
+      "LC"
     ],
     "unicode": "🇱🇨"
   },
@@ -31234,13 +31256,12 @@
     "unicode": "🇲🇪"
   },
   {
-    "annotation": "flag: St. Martin",
+    "annotation": "flag: St Martin",
     "group": 9,
     "hexcode": "1F1F2-1F1EB",
     "order": 4054,
     "tags": [
-      "MF",
-      "flag"
+      "MF"
     ],
     "unicode": "🇲🇫"
   },
@@ -31663,13 +31684,12 @@
     "unicode": "🇵🇱"
   },
   {
-    "annotation": "flag: St. Pierre & Miquelon",
+    "annotation": "flag: St Pierre & Miquelon",
     "group": 9,
     "hexcode": "1F1F5-1F1F2",
     "order": 4093,
     "tags": [
-      "PM",
-      "flag"
+      "PM"
     ],
     "unicode": "🇵🇲"
   },
@@ -31872,13 +31892,12 @@
     "unicode": "🇸🇬"
   },
   {
-    "annotation": "flag: St. Helena",
+    "annotation": "flag: St Helena",
     "group": 9,
     "hexcode": "1F1F8-1F1ED",
     "order": 4112,
     "tags": [
-      "SH",
-      "flag"
+      "SH"
     ],
     "unicode": "🇸🇭"
   },
@@ -32312,13 +32331,12 @@
     "unicode": "🇻🇦"
   },
   {
-    "annotation": "flag: St. Vincent & Grenadines",
+    "annotation": "flag: St Vincent & the Grenadines",
     "group": 9,
     "hexcode": "1F1FB-1F1E8",
     "order": 4152,
     "tags": [
-      "VC",
-      "flag"
+      "VC"
     ],
     "unicode": "🇻🇨"
   },

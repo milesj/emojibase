@@ -1813,8 +1813,7 @@
     "hexcode": "1F49B",
     "order": 136,
     "tags": [
-      "hati",
-      "kuning"
+      "hati"
     ],
     "unicode": "💛"
   },
@@ -1868,9 +1867,9 @@
     "hexcode": "1F5A4",
     "order": 141,
     "tags": [
-      "hati",
       "hitam",
-      "jahat"
+      "jahat",
+      "kejam"
     ],
     "unicode": "🖤"
   },
@@ -2203,7 +2202,6 @@
     "hexcode": "270B",
     "order": 182,
     "tags": [
-      "badan",
       "tangan"
     ],
     "unicode": "✋",
@@ -2795,10 +2793,8 @@
       "atas",
       "belakang tangan",
       "jari",
-      "jari telunjuk belakang tangan menunjuk ke atas",
-      "jari telunjuk menghala ke atas",
-      "tangan",
-      "tunjuk"
+      "jari telunjuk belakang tangan tuding ke atas",
+      "tangan"
     ],
     "unicode": "👆️",
     "skins": [
@@ -2889,51 +2885,50 @@
     ]
   },
   {
-    "annotation": "jari telunjuk belakang tangan menunjuk ke bawah",
+    "annotation": "jari telunjuk belakang tangan tuding ke bawah",
     "group": 1,
     "hexcode": "1F447",
     "order": 267,
     "tags": [
-      "badan",
       "bawah",
       "belakang tangan",
       "jari",
+      "jari telunjuk belakang tangan menunjuk ke bawah",
       "tangan",
-      "telunjuk",
       "tunjuk"
     ],
     "unicode": "👇️",
     "skins": [
       {
-        "annotation": "jari telunjuk belakang tangan menunjuk ke bawah: ton kulit cerah",
+        "annotation": "jari telunjuk belakang tangan tuding ke bawah: ton kulit cerah",
         "group": 1,
         "hexcode": "1F447-1F3FB",
         "order": 268,
         "unicode": "👇🏻"
       },
       {
-        "annotation": "jari telunjuk belakang tangan menunjuk ke bawah: ton kulit sederhana cerah",
+        "annotation": "jari telunjuk belakang tangan tuding ke bawah: ton kulit sederhana cerah",
         "group": 1,
         "hexcode": "1F447-1F3FC",
         "order": 269,
         "unicode": "👇🏼"
       },
       {
-        "annotation": "jari telunjuk belakang tangan menunjuk ke bawah: ton kulit sederhana",
+        "annotation": "jari telunjuk belakang tangan tuding ke bawah: ton kulit sederhana",
         "group": 1,
         "hexcode": "1F447-1F3FD",
         "order": 270,
         "unicode": "👇🏽"
       },
       {
-        "annotation": "jari telunjuk belakang tangan menunjuk ke bawah: ton kulit sederhana gelap",
+        "annotation": "jari telunjuk belakang tangan tuding ke bawah: ton kulit sederhana gelap",
         "group": 1,
         "hexcode": "1F447-1F3FE",
         "order": 271,
         "unicode": "👇🏾"
       },
       {
-        "annotation": "jari telunjuk belakang tangan menunjuk ke bawah: ton kulit gelap",
+        "annotation": "jari telunjuk belakang tangan tuding ke bawah: ton kulit gelap",
         "group": 1,
         "hexcode": "1F447-1F3FF",
         "order": 272,
@@ -3506,15 +3501,11 @@
     "hexcode": "1F64F",
     "order": 341,
     "tags": [
-      "badan",
       "doa",
-      "isyarat",
-      "susun",
       "tangan",
       "tanya",
       "terima kasih",
-      "tolong",
-      "tunduk"
+      "tolong"
     ],
     "unicode": "🙏",
     "skins": [
@@ -4029,10 +4020,11 @@
     "hexcode": "1FAC0",
     "order": 405,
     "tags": [
-      "degupan jantung",
-      "nadi",
-      "organ",
-      "pusat"
+      "anatomi",
+      "degupan",
+      "jantung",
+      "kardiolagi",
+      "organ"
     ],
     "unicode": "🫀"
   },
@@ -4448,47 +4440,46 @@
     ]
   },
   {
-    "annotation": "lelaki: janggut",
+    "annotation": "orang: janggut",
     "group": 1,
     "hexcode": "1F9D4",
     "order": 456,
     "tags": [
       "janggut",
-      "lelaki",
       "orang"
     ],
     "unicode": "🧔",
     "skins": [
       {
-        "annotation": "lelaki: ton kulit cerah dan janggut",
+        "annotation": "orang: ton kulit cerah dan janggut",
         "group": 1,
         "hexcode": "1F9D4-1F3FB",
         "order": 457,
         "unicode": "🧔🏻"
       },
       {
-        "annotation": "lelaki: ton kulit sederhana cerah dan janggut",
+        "annotation": "orang: ton kulit sederhana cerah dan janggut",
         "group": 1,
         "hexcode": "1F9D4-1F3FC",
         "order": 458,
         "unicode": "🧔🏼"
       },
       {
-        "annotation": "lelaki: ton kulit sederhana dan janggut",
+        "annotation": "orang: ton kulit sederhana dan janggut",
         "group": 1,
         "hexcode": "1F9D4-1F3FD",
         "order": 459,
         "unicode": "🧔🏽"
       },
       {
-        "annotation": "lelaki: ton kulit sederhana gelap dan janggut",
+        "annotation": "orang: ton kulit sederhana gelap dan janggut",
         "group": 1,
         "hexcode": "1F9D4-1F3FE",
         "order": 460,
         "unicode": "🧔🏾"
       },
       {
-        "annotation": "lelaki: ton kulit gelap dan janggut",
+        "annotation": "orang: ton kulit gelap dan janggut",
         "group": 1,
         "hexcode": "1F9D4-1F3FF",
         "order": 461,
@@ -10242,7 +10233,7 @@
     "order": 1409,
     "tags": [
       "orang",
-      "pengantin",
+      "pengantin lelaki",
       "tuksedo"
     ],
     "unicode": "🤵",
@@ -12157,7 +12148,7 @@
     ]
   },
   {
-    "annotation": "perempuan diurut mka",
+    "annotation": "perempuan diurut muka",
     "group": 1,
     "hexcode": "1F486-200D-2640-FE0F",
     "order": 1761,
@@ -12170,35 +12161,35 @@
     "unicode": "💆‍♀️",
     "skins": [
       {
-        "annotation": "perempuan diurut mka: ton kulit cerah",
+        "annotation": "perempuan diurut muka: ton kulit cerah",
         "group": 1,
         "hexcode": "1F486-1F3FB-200D-2640-FE0F",
         "order": 1763,
         "unicode": "💆🏻‍♀️"
       },
       {
-        "annotation": "perempuan diurut mka: ton kulit sederhana cerah",
+        "annotation": "perempuan diurut muka: ton kulit sederhana cerah",
         "group": 1,
         "hexcode": "1F486-1F3FC-200D-2640-FE0F",
         "order": 1765,
         "unicode": "💆🏼‍♀️"
       },
       {
-        "annotation": "perempuan diurut mka: ton kulit sederhana",
+        "annotation": "perempuan diurut muka: ton kulit sederhana",
         "group": 1,
         "hexcode": "1F486-1F3FD-200D-2640-FE0F",
         "order": 1767,
         "unicode": "💆🏽‍♀️"
       },
       {
-        "annotation": "perempuan diurut mka: ton kulit sederhana gelap",
+        "annotation": "perempuan diurut muka: ton kulit sederhana gelap",
         "group": 1,
         "hexcode": "1F486-1F3FE-200D-2640-FE0F",
         "order": 1769,
         "unicode": "💆🏾‍♀️"
       },
       {
-        "annotation": "perempuan diurut mka: ton kulit gelap",
+        "annotation": "perempuan diurut muka: ton kulit gelap",
         "group": 1,
         "hexcode": "1F486-1F3FF-200D-2640-FE0F",
         "order": 1771,
@@ -12787,7 +12778,7 @@
     ]
   },
   {
-    "annotation": "orang dengan tongkat penduga",
+    "annotation": "orang dengan tongkat putih",
     "group": 1,
     "hexcode": "1F9D1-200D-1F9AF",
     "order": 1893,
@@ -12798,35 +12789,35 @@
     "unicode": "🧑‍🦯",
     "skins": [
       {
-        "annotation": "orang dengan tongkat penduga: ton kulit cerah",
+        "annotation": "orang dengan tongkat putih: ton kulit cerah",
         "group": 1,
         "hexcode": "1F9D1-1F3FB-200D-1F9AF",
         "order": 1894,
         "unicode": "🧑🏻‍🦯"
       },
       {
-        "annotation": "orang dengan tongkat penduga: ton kulit sederhana cerah",
+        "annotation": "orang dengan tongkat putih: ton kulit sederhana cerah",
         "group": 1,
         "hexcode": "1F9D1-1F3FC-200D-1F9AF",
         "order": 1895,
         "unicode": "🧑🏼‍🦯"
       },
       {
-        "annotation": "orang dengan tongkat penduga: ton kulit sederhana",
+        "annotation": "orang dengan tongkat putih: ton kulit sederhana",
         "group": 1,
         "hexcode": "1F9D1-1F3FD-200D-1F9AF",
         "order": 1896,
         "unicode": "🧑🏽‍🦯"
       },
       {
-        "annotation": "orang dengan tongkat penduga: ton kulit sederhana gelap",
+        "annotation": "orang dengan tongkat putih: ton kulit sederhana gelap",
         "group": 1,
         "hexcode": "1F9D1-1F3FE-200D-1F9AF",
         "order": 1897,
         "unicode": "🧑🏾‍🦯"
       },
       {
-        "annotation": "orang dengan tongkat penduga: ton kulit gelap",
+        "annotation": "orang dengan tongkat putih: ton kulit gelap",
         "group": 1,
         "hexcode": "1F9D1-1F3FF-200D-1F9AF",
         "order": 1898,
@@ -12835,7 +12826,7 @@
     ]
   },
   {
-    "annotation": "lelaki dengan tongkat penduga",
+    "annotation": "lelaki dengan tongkat putih",
     "group": 1,
     "hexcode": "1F468-200D-1F9AF",
     "order": 1899,
@@ -12847,35 +12838,35 @@
     "unicode": "👨‍🦯",
     "skins": [
       {
-        "annotation": "lelaki dengan tongkat penduga: ton kulit cerah",
+        "annotation": "lelaki dengan tongkat putih: ton kulit cerah",
         "group": 1,
         "hexcode": "1F468-1F3FB-200D-1F9AF",
         "order": 1900,
         "unicode": "👨🏻‍🦯"
       },
       {
-        "annotation": "lelaki dengan tongkat penduga: ton kulit sederhana cerah",
+        "annotation": "lelaki dengan tongkat putih: ton kulit sederhana cerah",
         "group": 1,
         "hexcode": "1F468-1F3FC-200D-1F9AF",
         "order": 1901,
         "unicode": "👨🏼‍🦯"
       },
       {
-        "annotation": "lelaki dengan tongkat penduga: ton kulit sederhana",
+        "annotation": "lelaki dengan tongkat putih: ton kulit sederhana",
         "group": 1,
         "hexcode": "1F468-1F3FD-200D-1F9AF",
         "order": 1902,
         "unicode": "👨🏽‍🦯"
       },
       {
-        "annotation": "lelaki dengan tongkat penduga: ton kulit sederhana gelap",
+        "annotation": "lelaki dengan tongkat putih: ton kulit sederhana gelap",
         "group": 1,
         "hexcode": "1F468-1F3FE-200D-1F9AF",
         "order": 1903,
         "unicode": "👨🏾‍🦯"
       },
       {
-        "annotation": "lelaki dengan tongkat penduga: ton kulit gelap",
+        "annotation": "lelaki dengan tongkat putih: ton kulit gelap",
         "group": 1,
         "hexcode": "1F468-1F3FF-200D-1F9AF",
         "order": 1904,
@@ -12884,7 +12875,7 @@
     ]
   },
   {
-    "annotation": "perempuan dengan tongkat penduga",
+    "annotation": "perempuan dengan tongkat putih",
     "group": 1,
     "hexcode": "1F469-200D-1F9AF",
     "order": 1905,
@@ -12896,35 +12887,35 @@
     "unicode": "👩‍🦯",
     "skins": [
       {
-        "annotation": "perempuan dengan tongkat penduga: ton kulit cerah",
+        "annotation": "perempuan dengan tongkat putih: ton kulit cerah",
         "group": 1,
         "hexcode": "1F469-1F3FB-200D-1F9AF",
         "order": 1906,
         "unicode": "👩🏻‍🦯"
       },
       {
-        "annotation": "perempuan dengan tongkat penduga: ton kulit sederhana cerah",
+        "annotation": "perempuan dengan tongkat putih: ton kulit sederhana cerah",
         "group": 1,
         "hexcode": "1F469-1F3FC-200D-1F9AF",
         "order": 1907,
         "unicode": "👩🏼‍🦯"
       },
       {
-        "annotation": "perempuan dengan tongkat penduga: ton kulit sederhana",
+        "annotation": "perempuan dengan tongkat putih: ton kulit sederhana",
         "group": 1,
         "hexcode": "1F469-1F3FD-200D-1F9AF",
         "order": 1908,
         "unicode": "👩🏽‍🦯"
       },
       {
-        "annotation": "perempuan dengan tongkat penduga: ton kulit sederhana gelap",
+        "annotation": "perempuan dengan tongkat putih: ton kulit sederhana gelap",
         "group": 1,
         "hexcode": "1F469-1F3FE-200D-1F9AF",
         "order": 1909,
         "unicode": "👩🏾‍🦯"
       },
       {
-        "annotation": "perempuan dengan tongkat penduga: ton kulit gelap",
+        "annotation": "perempuan dengan tongkat putih: ton kulit gelap",
         "group": 1,
         "hexcode": "1F469-1F3FF-200D-1F9AF",
         "order": 1910,
@@ -18920,7 +18911,6 @@
     "tags": [
       "4",
       "bunga cengkih",
-      "bunga cengkih berdaun empat",
       "daun",
       "empat"
     ],
@@ -19217,7 +19207,7 @@
     "order": 2827,
     "tags": [
       "jagung",
-      "telinga"
+      "setongkol"
     ],
     "unicode": "🌽"
   },
@@ -19856,7 +19846,7 @@
     "tags": [
       "festival",
       "musim luruh",
-      "yuèbǐng"
+      "yuebing"
     ],
     "unicode": "🥮"
   },
@@ -20351,8 +20341,11 @@
     "hexcode": "1F9C3",
     "order": 2925,
     "tags": [
-      "jus kotak",
-      "minuman kotak"
+      "jus",
+      "kotak",
+      "manis",
+      "minuman",
+      "straw"
     ],
     "unicode": "🧃"
   },
@@ -26294,12 +26287,13 @@
     "unicode": "⚔️"
   },
   {
-    "annotation": "pistol",
+    "annotation": "pistol air",
     "group": 7,
     "hexcode": "1F52B",
     "order": 3523,
     "tags": [
       "alat",
+      "pistol",
       "revolver",
       "senjata"
     ],
@@ -28338,7 +28332,7 @@
     "unicode": "❕"
   },
   {
-    "annotation": "tanda seru",
+    "annotation": "tanda seru merah",
     "group": 8,
     "hexcode": "2757",
     "order": 3744,
@@ -28449,12 +28443,9 @@
     "hexcode": "1F530",
     "order": 3757,
     "tags": [
-      "alat",
       "chevron",
       "daun",
-      "hijau",
       "jepun",
-      "kuning",
       "pemula",
       "simbol jepun untuk pemula"
     ],
@@ -28621,7 +28612,7 @@
     "hexcode": "00AE",
     "order": 3779,
     "tags": [
-      "berdaftar"
+      "r"
     ],
     "unicode": "®️"
   },
@@ -29042,10 +29033,11 @@
     "hexcode": "1F202",
     "order": 3837,
     "tags": [
+      "\"caj perkhidmatan\"",
+      "butang \"caj perkhidmatan jepun",
       "butang ‘caj perkhidmatan’ jepun",
       "jepun",
-      "katakana",
-      "サ"
+      "katakana"
     ],
     "unicode": "🈂️"
   },

@@ -1,3 +1,13 @@
+## 5.1.0 - 2020-01-07
+
+#### 🚀 Updates
+
+- Updated to [CLDR 38.1](http://cldr.unicode.org/index/downloads/cldr-38).
+
+#### 🛠 Internals
+
+- Updated `LATEST_CLDR_VERSION` to `38.1`.
+
 # 5.0.0 - 2020-09-11
 
 To better support shortcodes moving forward, we have rewritten their implementation. We now support

@@ -154,7 +154,7 @@ export default {
   '1F62A': ['sleepy_face', 'sleepy'],
   // 😷 face with medical mask
   '1F637': ['medical_mask', 'mask'],
-  // 😵 dizzy face
+  // 😵 knocked-out face
   '1F635': ['dizzy_face'],
   // 😲 astonished face
   '1F632': ['astonished_face', 'astonished'],
@@ -910,7 +910,7 @@ export default {
   '1F3BD': ['running_shirt', 'running_shirt_with_sash'],
   // 🎿 skis
   '1F3BF': ['ski'],
-  // 🎯 direct hit
+  // 🎯 bullseye
   '1F3AF': ['direct_hit', 'dart'],
   // 🎱 pool 8 ball
   '1F3B1': ['billiards', '8ball'],
@@ -1178,7 +1178,7 @@ export default {
   '1F511': ['key'],
   // 🔨 hammer
   '1F528': ['hammer'],
-  // 🔫 pistol
+  // 🔫 water pistol
   '1F52B': ['pistol', 'gun'],
   // 🔧 wrench
   '1F527': ['wrench'],
@@ -1328,13 +1328,13 @@ export default {
   '203C': ['bangbang', 'double_exclamation'],
   // ⁉︎ exclamation question mark
   '2049': ['interrobang', 'exclamation_question'],
-  // ❓️ question mark
+  // ❓️ red question mark
   '2753': ['question'],
   // ❔ white question mark
   '2754': ['white_question'],
   // ❕ white exclamation mark
   '2755': ['white_exclamation'],
-  // ❗️ exclamation mark
+  // ❗️ red exclamation mark
   '2757': ['exclamation'],
   // 〰︎ wavy dash
   '3030': ['wavy_dash'],
@@ -3132,7 +3132,7 @@ export default {
   '1F9D2': ['child'],
   // 🧑 person
   '1F9D1': ['adult'],
-  // 🧔 man: beard
+  // 🧔 person: beard
   '1F9D4': ['man_bearded'],
   // 🧓 older person
   '1F9D3': ['older_adult'],

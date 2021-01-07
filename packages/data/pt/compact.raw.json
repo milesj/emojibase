@@ -7725,9 +7725,9 @@
     "hexcode": "1F9D1-200D-1F527",
     "order": 1026,
     "tags": [
-      "canalizador",
       "comerciante",
       "eletricista",
+      "encanador",
       "mecânico"
     ],
     "unicode": "🧑‍🔧",
@@ -9941,8 +9941,6 @@
     "hexcode": "1F473",
     "order": 1367,
     "tags": [
-      "homem com turbante",
-      "homem vestindo turbante",
       "turbante"
     ],
     "unicode": "👳",
@@ -20882,6 +20880,8 @@
     "order": 2986,
     "tags": [
       "castelo",
+      "pagoda",
+      "pagode",
       "prédio"
     ],
     "unicode": "🏯"
@@ -20893,6 +20893,7 @@
     "order": 2987,
     "tags": [
       "castelo europeu",
+      "castelo medieval",
       "prédio"
     ],
     "unicode": "🏰"
@@ -21029,7 +21030,10 @@
     "hexcode": "1F301",
     "order": 3000,
     "tags": [
-      "neblina"
+      "bruma",
+      "neblina",
+      "nevoeiro",
+      "névoa"
     ],
     "unicode": "🌁"
   },
@@ -21172,8 +21176,9 @@
     "order": 3014,
     "tags": [
       "barbeiro",
-      "pólo",
-      "pólo do barbeiro"
+      "barber pole",
+      "poste",
+      "poste de barbeiro"
     ],
     "unicode": "💈"
   },
@@ -21210,6 +21215,7 @@
       "elétrico",
       "ferroviário",
       "trem elétrico",
+      "trólebus",
       "vagão ferroviário",
       "veículo"
     ],
@@ -21290,6 +21296,7 @@
     "hexcode": "1F68A",
     "order": 3024,
     "tags": [
+      "trólebus",
       "veículo"
     ],
     "unicode": "🚊"
@@ -21326,6 +21333,7 @@
     "tags": [
       "bonde elétrico",
       "carro",
+      "trólebus",
       "veículo"
     ],
     "unicode": "🚋"
@@ -21353,7 +21361,7 @@
     "unicode": "🚍️"
   },
   {
-    "annotation": "ônibus movido a eletricidade",
+    "annotation": "trólebus",
     "group": 5,
     "hexcode": "1F68E",
     "order": 3030,
@@ -21585,7 +21593,8 @@
     "hexcode": "1F6FA",
     "order": 3052,
     "tags": [
-      "autorriquixá"
+      "autorriquixá",
+      "tuk tuk"
     ],
     "unicode": "🛺"
   },
@@ -21808,7 +21817,9 @@
     "hexcode": "26F4",
     "order": 3077,
     "tags": [
-      "barco"
+      "barco",
+      "ferry boat",
+      "ferry-boat"
     ],
     "unicode": "⛴️"
   },
@@ -21981,7 +21992,7 @@
     "hexcode": "1F6F8",
     "order": 3096,
     "tags": [
-      "disco voador"
+      "ovni"
     ],
     "unicode": "🛸"
   },
@@ -22018,7 +22029,7 @@
     "unicode": "⌛️"
   },
   {
-    "annotation": "ampulheta cheia em cima",
+    "annotation": "ampulheta contando o tempo",
     "group": 5,
     "hexcode": "23F3",
     "order": 3101,
@@ -22066,7 +22077,8 @@
     "order": 3107,
     "tags": [
       "cronômetro",
-      "relógio"
+      "relógio",
+      "timer"
     ],
     "unicode": "⏲️"
   },
@@ -22088,6 +22100,8 @@
     "tags": [
       "12h00",
       "doze",
+      "meia-noite",
+      "meio-dia",
       "relógio"
     ],
     "unicode": "🕛️"
@@ -22738,7 +22752,7 @@
     "unicode": "🌪️"
   },
   {
-    "annotation": "neblina",
+    "annotation": "nevoeiro",
     "group": 5,
     "hexcode": "1F32B",
     "order": 3177,
@@ -23134,7 +23148,7 @@
     "unicode": "🧧"
   },
   {
-    "annotation": "fita",
+    "annotation": "laço de fita",
     "group": 6,
     "hexcode": "1F380",
     "order": 3215,
@@ -23653,7 +23667,7 @@
     "unicode": "🪄"
   },
   {
-    "annotation": "olho turco",
+    "annotation": "olho grego",
     "group": 6,
     "hexcode": "1F9FF",
     "order": 3263,
@@ -26190,13 +26204,14 @@
     "unicode": "⚔️"
   },
   {
-    "annotation": "pistola",
+    "annotation": "pistola d’água",
     "group": 7,
     "hexcode": "1F52B",
     "order": 3523,
     "tags": [
       "arma",
       "ferramenta",
+      "pistola",
       "revólver"
     ],
     "unicode": "🔫"
@@ -28240,13 +28255,14 @@
     "unicode": "⁉️"
   },
   {
-    "annotation": "ponto de interrogação",
+    "annotation": "ponto de interrogação vermelho",
     "group": 8,
     "hexcode": "2753",
     "order": 3741,
     "tags": [
       "?",
       "pergunta",
+      "ponto de interrogação",
       "pontuação",
       "sinal"
     ],
@@ -28281,13 +28297,14 @@
     "unicode": "❕"
   },
   {
-    "annotation": "ponto de exclamação",
+    "annotation": "ponto de exclamação vermelho",
     "group": 8,
     "hexcode": "2757",
     "order": 3744,
     "tags": [
       "!",
       "exclamação",
+      "ponto de exclamação",
       "pontuação"
     ],
     "unicode": "❗️"
@@ -29951,7 +29968,7 @@
     "unicode": "🇧🇬"
   },
   {
-    "annotation": "bandeira: Bahrein",
+    "annotation": "bandeira: Barein",
     "group": 9,
     "hexcode": "1F1E7-1F1ED",
     "order": 3931,
@@ -30556,7 +30573,7 @@
     "unicode": "🇫🇲"
   },
   {
-    "annotation": "bandeira: Ilhas Faroe",
+    "annotation": "bandeira: Ilhas Faroé",
     "group": 9,
     "hexcode": "1F1EB-1F1F4",
     "order": 3986,
@@ -31282,7 +31299,7 @@
     "unicode": "🇲🇨"
   },
   {
-    "annotation": "bandeira: Moldova",
+    "annotation": "bandeira: Moldávia",
     "group": 9,
     "hexcode": "1F1F2-1F1E9",
     "order": 4052,

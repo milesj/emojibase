@@ -1,5 +1,11 @@
 > Versions that only update `test-data.json` are omitted from the changelog.
 
+## 6.1.0 - 2020-01-07
+
+#### 🚀 Updates
+
+- Updated to [CLDR 38.1](http://cldr.unicode.org/index/downloads/cldr-38).
+
 # 6.0.0 - 2020-09-11
 
 View `emojibase-data` changelog.

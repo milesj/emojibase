@@ -6409,11 +6409,10 @@
     ]
   },
   {
-    "annotation": "mand med skæg",
+    "annotation": "person med skæg",
     "hexcode": "1F9D4",
     "tags": [
       "fuldskæg",
-      "mand",
       "person",
       "skæg"
     ],
@@ -6426,7 +6425,7 @@
     "version": 5,
     "skins": [
       {
-        "annotation": "mand med skæg: lys teint",
+        "annotation": "person med skæg: lys teint",
         "hexcode": "1F9D4-1F3FB",
         "emoji": "🧔🏻",
         "text": "",
@@ -6438,7 +6437,7 @@
         "tone": 1
       },
       {
-        "annotation": "mand med skæg: medium til lys teint",
+        "annotation": "person med skæg: medium til lys teint",
         "hexcode": "1F9D4-1F3FC",
         "emoji": "🧔🏼",
         "text": "",
@@ -6450,7 +6449,7 @@
         "tone": 2
       },
       {
-        "annotation": "mand med skæg: medium teint",
+        "annotation": "person med skæg: medium teint",
         "hexcode": "1F9D4-1F3FD",
         "emoji": "🧔🏽",
         "text": "",
@@ -6462,7 +6461,7 @@
         "tone": 3
       },
       {
-        "annotation": "mand med skæg: medium til mørk teint",
+        "annotation": "person med skæg: medium til mørk teint",
         "hexcode": "1F9D4-1F3FE",
         "emoji": "🧔🏾",
         "text": "",
@@ -6474,7 +6473,7 @@
         "tone": 4
       },
       {
-        "annotation": "mand med skæg: mørk teint",
+        "annotation": "person med skæg: mørk teint",
         "hexcode": "1F9D4-1F3FF",
         "emoji": "🧔🏿",
         "text": "",
@@ -9403,7 +9402,10 @@
     "annotation": "døv person",
     "hexcode": "1F9CF",
     "tags": [
-      "døv person"
+      "døv",
+      "høre",
+      "tilgængelighed",
+      "øre"
     ],
     "emoji": "🧏",
     "text": "",
@@ -27901,8 +27903,8 @@
     "annotation": "førerhund",
     "hexcode": "1F9AE",
     "tags": [
-      "adgang",
-      "blind"
+      "blind",
+      "tilgængelighed"
     ],
     "emoji": "🦮",
     "text": "",
@@ -27916,10 +27918,10 @@
     "annotation": "servicehund",
     "hexcode": "1F415-200D-1F9BA",
     "tags": [
-      "adgang",
       "førerhund",
       "hjælp",
-      "hund"
+      "hund",
+      "tilgængelighed"
     ],
     "emoji": "🐕‍🦺",
     "text": "",
@@ -39390,9 +39392,10 @@
     "version": 1
   },
   {
-    "annotation": "pistol",
+    "annotation": "vandpistol",
     "hexcode": "1F52B",
     "tags": [
+      "pistol",
       "revolver",
       "våben"
     ],
@@ -39816,7 +39819,11 @@
     "annotation": "bloddråbe",
     "hexcode": "1FA78",
     "tags": [
-      "bloddråbe"
+      "blod",
+      "bloddonor",
+      "medicin",
+      "menstruation",
+      "sår"
     ],
     "emoji": "🩸",
     "text": "",
@@ -39859,7 +39866,10 @@
     "annotation": "stetoskop",
     "hexcode": "1FA7A",
     "tags": [
-      "stetoskop"
+      "doktor",
+      "hjerte",
+      "læge",
+      "medicin"
     ],
     "emoji": "🩺",
     "text": "",
@@ -41455,12 +41465,13 @@
     "version": 0.6
   },
   {
-    "annotation": "pile for bland",
+    "annotation": "bland sange-knap",
     "hexcode": "1F500",
     "tags": [
       "bland sange",
       "krydsende pile",
-      "mod højre"
+      "mod højre",
+      "pile for bland"
     ],
     "emoji": "🔀",
     "text": "",
@@ -41881,12 +41892,12 @@
     "version": 13
   },
   {
-    "annotation": "multiplikationstegn",
+    "annotation": "gange",
     "hexcode": "2716",
     "tags": [
       "annuller",
-      "gange",
       "multiplikation",
+      "multiplikationstegn",
       "tegn",
       "x",
       "×"
@@ -41900,12 +41911,12 @@
     "version": 0.6
   },
   {
-    "annotation": "plustegn",
+    "annotation": "plus",
     "hexcode": "2795",
     "tags": [
       "+",
       "matematik",
-      "plus",
+      "plustegn",
       "tegn"
     ],
     "emoji": "➕",
@@ -41917,12 +41928,12 @@
     "version": 0.6
   },
   {
-    "annotation": "minustegn",
+    "annotation": "minus",
     "hexcode": "2796",
     "tags": [
       "-",
       "matematik",
-      "minus",
+      "minustegn",
       "tegn",
       "−"
     ],
@@ -41935,10 +41946,11 @@
     "version": 0.6
   },
   {
-    "annotation": "divisionstegn",
+    "annotation": "dividere",
     "hexcode": "2797",
     "tags": [
       "division",
+      "divisionstegn",
       "matematik",
       "tegn",
       "÷"
@@ -42003,11 +42015,12 @@
     "version": 0.6
   },
   {
-    "annotation": "spørgsmålstegn",
+    "annotation": "rødt spørgsmålstegn",
     "hexcode": "2753",
     "tags": [
       "?",
       "spørgsmål",
+      "spørgsmålstegn",
       "tegn",
       "tegnsætning"
     ],
@@ -42054,10 +42067,11 @@
     "version": 0.6
   },
   {
-    "annotation": "udråbstegn",
+    "annotation": "rødt udråbstegn",
     "hexcode": "2757",
     "tags": [
-      "tegnsætning"
+      "tegnsætning",
+      "udråbstegn"
     ],
     "emoji": "❗️",
     "text": "❗︎",
@@ -43284,10 +43298,10 @@
     "version": 0.6
   },
   {
-    "annotation": "lille cirkel",
+    "annotation": "lilla cirkel",
     "hexcode": "1F7E3",
     "tags": [
-      "lille cirkel"
+      "lilla cirkel"
     ],
     "emoji": "🟣",
     "text": "",

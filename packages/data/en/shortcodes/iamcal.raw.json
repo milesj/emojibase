@@ -739,7 +739,10 @@
     "bee",
     "honeybee"
   ],
-  "1F41E": "beetle",
+  "1F41E": [
+    "ladybug",
+    "lady_beetle"
+  ],
   "1F41F": "fish",
   "1F420": "tropical_fish",
   "1F421": "blowfish",
@@ -854,10 +857,7 @@
   "1F468-200D-1F468-200D-1F467": "man-man-girl",
   "1F468-200D-1F468-200D-1F467-200D-1F466": "man-man-girl-boy",
   "1F468-200D-1F468-200D-1F467-200D-1F467": "man-man-girl-girl",
-  "1F468-200D-1F469-200D-1F466": [
-    "man-woman-boy",
-    "family"
-  ],
+  "1F468-200D-1F469-200D-1F466": "man-woman-boy",
   "1F468-200D-1F469-200D-1F466-200D-1F466": "man-woman-boy-boy",
   "1F468-200D-1F469-200D-1F467": "man-woman-girl",
   "1F468-200D-1F469-200D-1F467-200D-1F466": "man-woman-girl-boy",
@@ -920,14 +920,11 @@
   "1F469-200D-2764-FE0F-200D-1F48B-200D-1F468": "woman-kiss-man",
   "1F469-200D-2764-FE0F-200D-1F48B-200D-1F469": "woman-kiss-woman",
   "1F469": "woman",
-  "1F46A": [
-    "family",
-    "man-woman-boy"
-  ],
+  "1F46A": "family",
   "1F46B": [
-    "couple",
     "man_and_woman_holding_hands",
-    "woman_and_man_holding_hands"
+    "woman_and_man_holding_hands",
+    "couple"
   ],
   "1F46C": [
     "two_men_holding_hands",
@@ -1553,7 +1550,7 @@
   "1F934": "prince",
   "1F935-200D-2640-FE0F": "woman_in_tuxedo",
   "1F935-200D-2642-FE0F": "man_in_tuxedo",
-  "1F935": "man_in_tuxedo",
+  "1F935": "person_in_tuxedo",
   "1F936": [
     "mrs_claus",
     "mother_christmas"

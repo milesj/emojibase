@@ -683,7 +683,7 @@
       "geld",
       "gesicht",
       "gesicht mit dollarzeichen",
-      "mund"
+      "zunge"
     ],
     "emoji": "🤑",
     "text": "",
@@ -845,11 +845,11 @@
     "emoticon": ":#"
   },
   {
-    "annotation": "selbstgefällig grinsendes Gesicht",
+    "annotation": "süffisant lächelndes Gesicht",
     "hexcode": "1F60F",
     "tags": [
       "gesicht",
-      "selbstgefällig grinsendes gesicht"
+      "süffisant lächelndes gesicht"
     ],
     "emoji": "😏",
     "text": "",
@@ -1189,6 +1189,7 @@
     "annotation": "explodierender Kopf",
     "hexcode": "1F92F",
     "tags": [
+      "entsetzt",
       "explodierender kopf",
       "geschockt"
     ],
@@ -3256,9 +3257,9 @@
     "annotation": "zusammengedrückte Finger",
     "hexcode": "1F90C",
     "tags": [
+      "bündelhand",
       "finger",
       "handgeste",
-      "sarkastisch",
       "zusammengedrückt",
       "zusammengedrückte finger"
     ],
@@ -5742,14 +5743,14 @@
     ]
   },
   {
-    "annotation": "Ohr mit Hörhilfe",
+    "annotation": "Ohr mit Hörgerät",
     "hexcode": "1F9BB",
     "tags": [
       "barrierefreiheit",
       "gehörlos",
       "hörgerät",
       "hörhilfe",
-      "ohr mit hörhilfe",
+      "ohr mit hörgerät",
       "taub"
     ],
     "emoji": "🦻",
@@ -5761,7 +5762,7 @@
     "version": 12,
     "skins": [
       {
-        "annotation": "Ohr mit Hörhilfe: helle Hautfarbe",
+        "annotation": "Ohr mit Hörgerät: helle Hautfarbe",
         "hexcode": "1F9BB-1F3FB",
         "emoji": "🦻🏻",
         "text": "",
@@ -5773,7 +5774,7 @@
         "tone": 1
       },
       {
-        "annotation": "Ohr mit Hörhilfe: mittelhelle Hautfarbe",
+        "annotation": "Ohr mit Hörgerät: mittelhelle Hautfarbe",
         "hexcode": "1F9BB-1F3FC",
         "emoji": "🦻🏼",
         "text": "",
@@ -5785,7 +5786,7 @@
         "tone": 2
       },
       {
-        "annotation": "Ohr mit Hörhilfe: mittlere Hautfarbe",
+        "annotation": "Ohr mit Hörgerät: mittlere Hautfarbe",
         "hexcode": "1F9BB-1F3FD",
         "emoji": "🦻🏽",
         "text": "",
@@ -5797,7 +5798,7 @@
         "tone": 3
       },
       {
-        "annotation": "Ohr mit Hörhilfe: mitteldunkle Hautfarbe",
+        "annotation": "Ohr mit Hörgerät: mitteldunkle Hautfarbe",
         "hexcode": "1F9BB-1F3FE",
         "emoji": "🦻🏾",
         "text": "",
@@ -5809,7 +5810,7 @@
         "tone": 4
       },
       {
-        "annotation": "Ohr mit Hörhilfe: dunkle Hautfarbe",
+        "annotation": "Ohr mit Hörgerät: dunkle Hautfarbe",
         "hexcode": "1F9BB-1F3FF",
         "emoji": "🦻🏿",
         "text": "",
@@ -5918,10 +5919,12 @@
     "annotation": "Herz (Organ)",
     "hexcode": "1FAC0",
     "tags": [
+      "herz",
       "herz (organ)",
       "herzschlag",
       "mitte",
       "organ",
+      "puls",
       "pulsieren"
     ],
     "emoji": "🫀",
@@ -5933,14 +5936,15 @@
     "version": 13
   },
   {
-    "annotation": "Lungen",
+    "annotation": "Lunge",
     "hexcode": "1FAC1",
     "tags": [
       "atem",
       "atmen",
       "ausatmen",
       "einatmen",
-      "lungen",
+      "lunge",
+      "lungenflügel",
       "organ"
     ],
     "emoji": "🫁",
@@ -6358,8 +6362,11 @@
     "annotation": "Erwachsener",
     "hexcode": "1F9D1",
     "tags": [
+      "erwachsene person",
       "erwachsener",
-      "geschlechtsneutral"
+      "geschlechtsneutral",
+      "mensch",
+      "person"
     ],
     "emoji": "🧑",
     "text": "",
@@ -6587,12 +6594,13 @@
     ]
   },
   {
-    "annotation": "Mann: Bart",
+    "annotation": "Person: Bart",
     "hexcode": "1F9D4",
     "tags": [
       "bart",
-      "mann: bart",
-      "person mit bart"
+      "mensch: bart",
+      "person mit bart",
+      "person: bart"
     ],
     "emoji": "🧔",
     "text": "",
@@ -6603,7 +6611,7 @@
     "version": 5,
     "skins": [
       {
-        "annotation": "Mann: helle Hautfarbe, Bart",
+        "annotation": "Person: helle Hautfarbe, Bart",
         "hexcode": "1F9D4-1F3FB",
         "emoji": "🧔🏻",
         "text": "",
@@ -6615,7 +6623,7 @@
         "tone": 1
       },
       {
-        "annotation": "Mann: mittelhelle Hautfarbe, Bart",
+        "annotation": "Person: mittelhelle Hautfarbe, Bart",
         "hexcode": "1F9D4-1F3FC",
         "emoji": "🧔🏼",
         "text": "",
@@ -6627,7 +6635,7 @@
         "tone": 2
       },
       {
-        "annotation": "Mann: mittlere Hautfarbe, Bart",
+        "annotation": "Person: mittlere Hautfarbe, Bart",
         "hexcode": "1F9D4-1F3FD",
         "emoji": "🧔🏽",
         "text": "",
@@ -6639,7 +6647,7 @@
         "tone": 3
       },
       {
-        "annotation": "Mann: mitteldunkle Hautfarbe, Bart",
+        "annotation": "Person: mitteldunkle Hautfarbe, Bart",
         "hexcode": "1F9D4-1F3FE",
         "emoji": "🧔🏾",
         "text": "",
@@ -6651,7 +6659,7 @@
         "tone": 4
       },
       {
-        "annotation": "Mann: dunkle Hautfarbe, Bart",
+        "annotation": "Person: dunkle Hautfarbe, Bart",
         "hexcode": "1F9D4-1F3FF",
         "emoji": "🧔🏿",
         "text": "",
@@ -7129,8 +7137,11 @@
     "annotation": "Erwachsener: rotes Haar",
     "hexcode": "1F9D1-200D-1F9B0",
     "tags": [
+      "erwachsene person",
       "erwachsener",
       "geschlechtsneutral",
+      "mensch",
+      "person",
       "rotes haar"
     ],
     "emoji": "🧑‍🦰",
@@ -7284,9 +7295,12 @@
     "annotation": "Erwachsener: lockiges Haar",
     "hexcode": "1F9D1-200D-1F9B1",
     "tags": [
+      "erwachsene person",
       "erwachsener",
       "geschlechtsneutral",
-      "lockiges haar"
+      "lockiges haar",
+      "mensch",
+      "person"
     ],
     "emoji": "🧑‍🦱",
     "text": "",
@@ -7439,8 +7453,11 @@
     "annotation": "Erwachsener: weißes Haar",
     "hexcode": "1F9D1-200D-1F9B3",
     "tags": [
+      "erwachsene person",
       "erwachsener",
       "geschlechtsneutral",
+      "mensch",
+      "person",
       "weißes haar"
     ],
     "emoji": "🧑‍🦳",
@@ -7594,9 +7611,12 @@
     "annotation": "Erwachsener: Glatze",
     "hexcode": "1F9D1-200D-1F9B2",
     "tags": [
+      "erwachsene person",
       "erwachsener",
       "geschlechtsneutral",
-      "glatze"
+      "glatze",
+      "mensch",
+      "person"
     ],
     "emoji": "🧑‍🦲",
     "text": "",
@@ -7848,7 +7868,9 @@
     "tags": [
       "alt",
       "geschlechtsneutral",
-      "älterer erwachsener"
+      "ohne eindeutiges geschlecht",
+      "älterer erwachsener",
+      "älterer mensch"
     ],
     "emoji": "🧓",
     "text": "",
@@ -14831,8 +14853,8 @@
     "hexcode": "1F482",
     "tags": [
       "buckingham palace",
-      "wachmann/ wachfrau",
-      "wachmann/wachfrau"
+      "wachmann/wachfrau",
+      "wachsoldat(in)"
     ],
     "emoji": "💂",
     "text": "",
@@ -14905,11 +14927,12 @@
     ]
   },
   {
-    "annotation": "Wachmann",
+    "annotation": "Wachsoldat",
     "hexcode": "1F482-200D-2642-FE0F",
     "tags": [
       "buckingham palace",
-      "wachmann"
+      "wache",
+      "wachsoldat"
     ],
     "emoji": "💂‍♂️",
     "text": "",
@@ -14921,7 +14944,7 @@
     "gender": 1,
     "skins": [
       {
-        "annotation": "Wachmann: helle Hautfarbe",
+        "annotation": "Wachsoldat: helle Hautfarbe",
         "hexcode": "1F482-1F3FB-200D-2642-FE0F",
         "emoji": "💂🏻‍♂️",
         "text": "",
@@ -14934,7 +14957,7 @@
         "tone": 1
       },
       {
-        "annotation": "Wachmann: mittelhelle Hautfarbe",
+        "annotation": "Wachsoldat: mittelhelle Hautfarbe",
         "hexcode": "1F482-1F3FC-200D-2642-FE0F",
         "emoji": "💂🏼‍♂️",
         "text": "",
@@ -14947,7 +14970,7 @@
         "tone": 2
       },
       {
-        "annotation": "Wachmann: mittlere Hautfarbe",
+        "annotation": "Wachsoldat: mittlere Hautfarbe",
         "hexcode": "1F482-1F3FD-200D-2642-FE0F",
         "emoji": "💂🏽‍♂️",
         "text": "",
@@ -14960,7 +14983,7 @@
         "tone": 3
       },
       {
-        "annotation": "Wachmann: mitteldunkle Hautfarbe",
+        "annotation": "Wachsoldat: mitteldunkle Hautfarbe",
         "hexcode": "1F482-1F3FE-200D-2642-FE0F",
         "emoji": "💂🏾‍♂️",
         "text": "",
@@ -14973,7 +14996,7 @@
         "tone": 4
       },
       {
-        "annotation": "Wachmann: dunkle Hautfarbe",
+        "annotation": "Wachsoldat: dunkle Hautfarbe",
         "hexcode": "1F482-1F3FF-200D-2642-FE0F",
         "emoji": "💂🏿‍♂️",
         "text": "",
@@ -14988,11 +15011,11 @@
     ]
   },
   {
-    "annotation": "Wachfrau",
+    "annotation": "Wachsoldatin",
     "hexcode": "1F482-200D-2640-FE0F",
     "tags": [
       "buckingham palace",
-      "wachfrau"
+      "wachsoldatin"
     ],
     "emoji": "💂‍♀️",
     "text": "",
@@ -15004,7 +15027,7 @@
     "gender": 0,
     "skins": [
       {
-        "annotation": "Wachfrau: helle Hautfarbe",
+        "annotation": "Wachsoldatin: helle Hautfarbe",
         "hexcode": "1F482-1F3FB-200D-2640-FE0F",
         "emoji": "💂🏻‍♀️",
         "text": "",
@@ -15017,7 +15040,7 @@
         "tone": 1
       },
       {
-        "annotation": "Wachfrau: mittelhelle Hautfarbe",
+        "annotation": "Wachsoldatin: mittelhelle Hautfarbe",
         "hexcode": "1F482-1F3FC-200D-2640-FE0F",
         "emoji": "💂🏼‍♀️",
         "text": "",
@@ -15030,7 +15053,7 @@
         "tone": 2
       },
       {
-        "annotation": "Wachfrau: mittlere Hautfarbe",
+        "annotation": "Wachsoldatin: mittlere Hautfarbe",
         "hexcode": "1F482-1F3FD-200D-2640-FE0F",
         "emoji": "💂🏽‍♀️",
         "text": "",
@@ -15043,7 +15066,7 @@
         "tone": 3
       },
       {
-        "annotation": "Wachfrau: mitteldunkle Hautfarbe",
+        "annotation": "Wachsoldatin: mitteldunkle Hautfarbe",
         "hexcode": "1F482-1F3FE-200D-2640-FE0F",
         "emoji": "💂🏾‍♀️",
         "text": "",
@@ -15056,7 +15079,7 @@
         "tone": 4
       },
       {
-        "annotation": "Wachfrau: dunkle Hautfarbe",
+        "annotation": "Wachsoldatin: dunkle Hautfarbe",
         "hexcode": "1F482-1F3FF-200D-2640-FE0F",
         "emoji": "💂🏿‍♀️",
         "text": "",
@@ -15884,7 +15907,7 @@
     "hexcode": "1F9D5",
     "tags": [
       "frau mit kopftuch",
-      "hidschāb",
+      "hidschab",
       "kopftuch",
       "mantilla",
       "tichel"
@@ -17161,13 +17184,14 @@
     ]
   },
   {
-    "annotation": "Held",
+    "annotation": "Superheld(in)",
     "hexcode": "1F9B8",
     "tags": [
       "comic",
       "gut",
       "held",
       "superheld",
+      "superheld(in)",
       "superkraft",
       "übermensch"
     ],
@@ -17180,7 +17204,7 @@
     "version": 11,
     "skins": [
       {
-        "annotation": "Held: helle Hautfarbe",
+        "annotation": "Superheld(in): helle Hautfarbe",
         "hexcode": "1F9B8-1F3FB",
         "emoji": "🦸🏻",
         "text": "",
@@ -17192,7 +17216,7 @@
         "tone": 1
       },
       {
-        "annotation": "Held: mittelhelle Hautfarbe",
+        "annotation": "Superheld(in): mittelhelle Hautfarbe",
         "hexcode": "1F9B8-1F3FC",
         "emoji": "🦸🏼",
         "text": "",
@@ -17204,7 +17228,7 @@
         "tone": 2
       },
       {
-        "annotation": "Held: mittlere Hautfarbe",
+        "annotation": "Superheld(in): mittlere Hautfarbe",
         "hexcode": "1F9B8-1F3FD",
         "emoji": "🦸🏽",
         "text": "",
@@ -17216,7 +17240,7 @@
         "tone": 3
       },
       {
-        "annotation": "Held: mitteldunkle Hautfarbe",
+        "annotation": "Superheld(in): mitteldunkle Hautfarbe",
         "hexcode": "1F9B8-1F3FE",
         "emoji": "🦸🏾",
         "text": "",
@@ -17228,7 +17252,7 @@
         "tone": 4
       },
       {
-        "annotation": "Held: dunkle Hautfarbe",
+        "annotation": "Superheld(in): dunkle Hautfarbe",
         "hexcode": "1F9B8-1F3FF",
         "emoji": "🦸🏿",
         "text": "",
@@ -20230,6 +20254,7 @@
     "tags": [
       "barrierefreiheit",
       "blind",
+      "person mit blindenstock",
       "person mit gehstock"
     ],
     "emoji": "🧑‍🦯",
@@ -20309,6 +20334,7 @@
       "barrierefreiheit",
       "blind",
       "mann",
+      "mann mit blindenstock",
       "mann mit gehstock",
       "sehbehindert"
     ],
@@ -20389,6 +20415,7 @@
       "barrierefreiheit",
       "blind",
       "frau",
+      "frau mit blindenstock",
       "frau mit gehstock"
     ],
     "emoji": "👩‍🦯",
@@ -25977,12 +26004,12 @@
     ]
   },
   {
-    "annotation": "händchenhaltende Frauen",
+    "annotation": "Händchen haltende Frauen",
     "hexcode": "1F46D",
     "tags": [
       "frauen",
       "händchen halten",
-      "händchenhaltende frauen",
+      "händchen haltende frauen",
       "paar",
       "pärchen aus frau und frau"
     ],
@@ -25995,7 +26022,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "händchenhaltende Frauen: helle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: helle Hautfarbe",
         "hexcode": "1F46D-1F3FB",
         "emoji": "👭🏻",
         "text": "",
@@ -26007,7 +26034,7 @@
         "tone": 1
       },
       {
-        "annotation": "händchenhaltende Frauen: mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittelhelle Hautfarbe",
         "hexcode": "1F46D-1F3FC",
         "emoji": "👭🏼",
         "text": "",
@@ -26019,7 +26046,7 @@
         "tone": 2
       },
       {
-        "annotation": "händchenhaltende Frauen: mittlere Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittlere Hautfarbe",
         "hexcode": "1F46D-1F3FD",
         "emoji": "👭🏽",
         "text": "",
@@ -26031,7 +26058,7 @@
         "tone": 3
       },
       {
-        "annotation": "händchenhaltende Frauen: mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mitteldunkle Hautfarbe",
         "hexcode": "1F46D-1F3FE",
         "emoji": "👭🏾",
         "text": "",
@@ -26043,7 +26070,7 @@
         "tone": 4
       },
       {
-        "annotation": "händchenhaltende Frauen: dunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: dunkle Hautfarbe",
         "hexcode": "1F46D-1F3FF",
         "emoji": "👭🏿",
         "text": "",
@@ -26055,7 +26082,7 @@
         "tone": 5
       },
       {
-        "annotation": "händchenhaltende Frauen: helle Hautfarbe, mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: helle Hautfarbe, mittelhelle Hautfarbe",
         "hexcode": "1F469-1F3FB-200D-1F91D-200D-1F469-1F3FC",
         "emoji": "👩🏻‍🤝‍👩🏼",
         "text": "",
@@ -26070,7 +26097,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: helle Hautfarbe, mittlere Hautfarbe",
+        "annotation": "Händchen haltende Frauen: helle Hautfarbe, mittlere Hautfarbe",
         "hexcode": "1F469-1F3FB-200D-1F91D-200D-1F469-1F3FD",
         "emoji": "👩🏻‍🤝‍👩🏽",
         "text": "",
@@ -26085,7 +26112,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: helle Hautfarbe, mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: helle Hautfarbe, mitteldunkle Hautfarbe",
         "hexcode": "1F469-1F3FB-200D-1F91D-200D-1F469-1F3FE",
         "emoji": "👩🏻‍🤝‍👩🏾",
         "text": "",
@@ -26100,7 +26127,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: helle Hautfarbe, dunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: helle Hautfarbe, dunkle Hautfarbe",
         "hexcode": "1F469-1F3FB-200D-1F91D-200D-1F469-1F3FF",
         "emoji": "👩🏻‍🤝‍👩🏿",
         "text": "",
@@ -26115,7 +26142,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: mittelhelle Hautfarbe, helle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittelhelle Hautfarbe, helle Hautfarbe",
         "hexcode": "1F469-1F3FC-200D-1F91D-200D-1F469-1F3FB",
         "emoji": "👩🏼‍🤝‍👩🏻",
         "text": "",
@@ -26130,7 +26157,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: mittelhelle Hautfarbe, mittlere Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittelhelle Hautfarbe, mittlere Hautfarbe",
         "hexcode": "1F469-1F3FC-200D-1F91D-200D-1F469-1F3FD",
         "emoji": "👩🏼‍🤝‍👩🏽",
         "text": "",
@@ -26145,7 +26172,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: mittelhelle Hautfarbe, mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittelhelle Hautfarbe, mitteldunkle Hautfarbe",
         "hexcode": "1F469-1F3FC-200D-1F91D-200D-1F469-1F3FE",
         "emoji": "👩🏼‍🤝‍👩🏾",
         "text": "",
@@ -26160,7 +26187,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: mittelhelle Hautfarbe, dunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittelhelle Hautfarbe, dunkle Hautfarbe",
         "hexcode": "1F469-1F3FC-200D-1F91D-200D-1F469-1F3FF",
         "emoji": "👩🏼‍🤝‍👩🏿",
         "text": "",
@@ -26175,7 +26202,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: mittlere Hautfarbe, helle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittlere Hautfarbe, helle Hautfarbe",
         "hexcode": "1F469-1F3FD-200D-1F91D-200D-1F469-1F3FB",
         "emoji": "👩🏽‍🤝‍👩🏻",
         "text": "",
@@ -26190,7 +26217,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: mittlere Hautfarbe, mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittlere Hautfarbe, mittelhelle Hautfarbe",
         "hexcode": "1F469-1F3FD-200D-1F91D-200D-1F469-1F3FC",
         "emoji": "👩🏽‍🤝‍👩🏼",
         "text": "",
@@ -26205,7 +26232,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: mittlere Hautfarbe, mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittlere Hautfarbe, mitteldunkle Hautfarbe",
         "hexcode": "1F469-1F3FD-200D-1F91D-200D-1F469-1F3FE",
         "emoji": "👩🏽‍🤝‍👩🏾",
         "text": "",
@@ -26220,7 +26247,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: mittlere Hautfarbe, dunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittlere Hautfarbe, dunkle Hautfarbe",
         "hexcode": "1F469-1F3FD-200D-1F91D-200D-1F469-1F3FF",
         "emoji": "👩🏽‍🤝‍👩🏿",
         "text": "",
@@ -26235,7 +26262,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: mitteldunkle Hautfarbe, helle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mitteldunkle Hautfarbe, helle Hautfarbe",
         "hexcode": "1F469-1F3FE-200D-1F91D-200D-1F469-1F3FB",
         "emoji": "👩🏾‍🤝‍👩🏻",
         "text": "",
@@ -26250,7 +26277,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: mitteldunkle Hautfarbe, mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mitteldunkle Hautfarbe, mittelhelle Hautfarbe",
         "hexcode": "1F469-1F3FE-200D-1F91D-200D-1F469-1F3FC",
         "emoji": "👩🏾‍🤝‍👩🏼",
         "text": "",
@@ -26265,7 +26292,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: mitteldunkle Hautfarbe, mittlere Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mitteldunkle Hautfarbe, mittlere Hautfarbe",
         "hexcode": "1F469-1F3FE-200D-1F91D-200D-1F469-1F3FD",
         "emoji": "👩🏾‍🤝‍👩🏽",
         "text": "",
@@ -26280,7 +26307,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: mitteldunkle Hautfarbe, dunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mitteldunkle Hautfarbe, dunkle Hautfarbe",
         "hexcode": "1F469-1F3FE-200D-1F91D-200D-1F469-1F3FF",
         "emoji": "👩🏾‍🤝‍👩🏿",
         "text": "",
@@ -26295,7 +26322,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: dunkle Hautfarbe, helle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: dunkle Hautfarbe, helle Hautfarbe",
         "hexcode": "1F469-1F3FF-200D-1F91D-200D-1F469-1F3FB",
         "emoji": "👩🏿‍🤝‍👩🏻",
         "text": "",
@@ -26310,7 +26337,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: dunkle Hautfarbe, mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: dunkle Hautfarbe, mittelhelle Hautfarbe",
         "hexcode": "1F469-1F3FF-200D-1F91D-200D-1F469-1F3FC",
         "emoji": "👩🏿‍🤝‍👩🏼",
         "text": "",
@@ -26325,7 +26352,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: dunkle Hautfarbe, mittlere Hautfarbe",
+        "annotation": "Händchen haltende Frauen: dunkle Hautfarbe, mittlere Hautfarbe",
         "hexcode": "1F469-1F3FF-200D-1F91D-200D-1F469-1F3FD",
         "emoji": "👩🏿‍🤝‍👩🏽",
         "text": "",
@@ -26340,7 +26367,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Frauen: dunkle Hautfarbe, mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: dunkle Hautfarbe, mitteldunkle Hautfarbe",
         "hexcode": "1F469-1F3FF-200D-1F91D-200D-1F469-1F3FE",
         "emoji": "👩🏿‍🤝‍👩🏾",
         "text": "",
@@ -26738,11 +26765,11 @@
     ]
   },
   {
-    "annotation": "händchenhaltende Männer",
+    "annotation": "Händchen haltende Männer",
     "hexcode": "1F46C",
     "tags": [
       "händchen halten",
-      "händchenhaltende männer",
+      "händchen haltende männer",
       "männer",
       "paar",
       "pärchen aus mann und mann"
@@ -26756,7 +26783,7 @@
     "version": 1,
     "skins": [
       {
-        "annotation": "händchenhaltende Männer: helle Hautfarbe",
+        "annotation": "Händchen haltende Männer: helle Hautfarbe",
         "hexcode": "1F46C-1F3FB",
         "emoji": "👬🏻",
         "text": "",
@@ -26768,7 +26795,7 @@
         "tone": 1
       },
       {
-        "annotation": "händchenhaltende Männer: mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittelhelle Hautfarbe",
         "hexcode": "1F46C-1F3FC",
         "emoji": "👬🏼",
         "text": "",
@@ -26780,7 +26807,7 @@
         "tone": 2
       },
       {
-        "annotation": "händchenhaltende Männer: mittlere Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittlere Hautfarbe",
         "hexcode": "1F46C-1F3FD",
         "emoji": "👬🏽",
         "text": "",
@@ -26792,7 +26819,7 @@
         "tone": 3
       },
       {
-        "annotation": "händchenhaltende Männer: mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mitteldunkle Hautfarbe",
         "hexcode": "1F46C-1F3FE",
         "emoji": "👬🏾",
         "text": "",
@@ -26804,7 +26831,7 @@
         "tone": 4
       },
       {
-        "annotation": "händchenhaltende Männer: dunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: dunkle Hautfarbe",
         "hexcode": "1F46C-1F3FF",
         "emoji": "👬🏿",
         "text": "",
@@ -26816,7 +26843,7 @@
         "tone": 5
       },
       {
-        "annotation": "händchenhaltende Männer: helle Hautfarbe, mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Männer: helle Hautfarbe, mittelhelle Hautfarbe",
         "hexcode": "1F468-1F3FB-200D-1F91D-200D-1F468-1F3FC",
         "emoji": "👨🏻‍🤝‍👨🏼",
         "text": "",
@@ -26831,7 +26858,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: helle Hautfarbe, mittlere Hautfarbe",
+        "annotation": "Händchen haltende Männer: helle Hautfarbe, mittlere Hautfarbe",
         "hexcode": "1F468-1F3FB-200D-1F91D-200D-1F468-1F3FD",
         "emoji": "👨🏻‍🤝‍👨🏽",
         "text": "",
@@ -26846,7 +26873,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: helle Hautfarbe, mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: helle Hautfarbe, mitteldunkle Hautfarbe",
         "hexcode": "1F468-1F3FB-200D-1F91D-200D-1F468-1F3FE",
         "emoji": "👨🏻‍🤝‍👨🏾",
         "text": "",
@@ -26861,7 +26888,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: helle Hautfarbe, dunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: helle Hautfarbe, dunkle Hautfarbe",
         "hexcode": "1F468-1F3FB-200D-1F91D-200D-1F468-1F3FF",
         "emoji": "👨🏻‍🤝‍👨🏿",
         "text": "",
@@ -26876,7 +26903,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: mittelhelle Hautfarbe, helle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittelhelle Hautfarbe, helle Hautfarbe",
         "hexcode": "1F468-1F3FC-200D-1F91D-200D-1F468-1F3FB",
         "emoji": "👨🏼‍🤝‍👨🏻",
         "text": "",
@@ -26891,7 +26918,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: mittelhelle Hautfarbe, mittlere Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittelhelle Hautfarbe, mittlere Hautfarbe",
         "hexcode": "1F468-1F3FC-200D-1F91D-200D-1F468-1F3FD",
         "emoji": "👨🏼‍🤝‍👨🏽",
         "text": "",
@@ -26906,7 +26933,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: mittelhelle Hautfarbe, mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittelhelle Hautfarbe, mitteldunkle Hautfarbe",
         "hexcode": "1F468-1F3FC-200D-1F91D-200D-1F468-1F3FE",
         "emoji": "👨🏼‍🤝‍👨🏾",
         "text": "",
@@ -26921,7 +26948,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: mittelhelle Hautfarbe, dunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittelhelle Hautfarbe, dunkle Hautfarbe",
         "hexcode": "1F468-1F3FC-200D-1F91D-200D-1F468-1F3FF",
         "emoji": "👨🏼‍🤝‍👨🏿",
         "text": "",
@@ -26936,7 +26963,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: mittlere Hautfarbe, helle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittlere Hautfarbe, helle Hautfarbe",
         "hexcode": "1F468-1F3FD-200D-1F91D-200D-1F468-1F3FB",
         "emoji": "👨🏽‍🤝‍👨🏻",
         "text": "",
@@ -26951,7 +26978,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: mittlere Hautfarbe, mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittlere Hautfarbe, mittelhelle Hautfarbe",
         "hexcode": "1F468-1F3FD-200D-1F91D-200D-1F468-1F3FC",
         "emoji": "👨🏽‍🤝‍👨🏼",
         "text": "",
@@ -26966,7 +26993,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: mittlere Hautfarbe, mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittlere Hautfarbe, mitteldunkle Hautfarbe",
         "hexcode": "1F468-1F3FD-200D-1F91D-200D-1F468-1F3FE",
         "emoji": "👨🏽‍🤝‍👨🏾",
         "text": "",
@@ -26981,7 +27008,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: mittlere Hautfarbe, dunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittlere Hautfarbe, dunkle Hautfarbe",
         "hexcode": "1F468-1F3FD-200D-1F91D-200D-1F468-1F3FF",
         "emoji": "👨🏽‍🤝‍👨🏿",
         "text": "",
@@ -26996,7 +27023,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: mitteldunkle Hautfarbe, helle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mitteldunkle Hautfarbe, helle Hautfarbe",
         "hexcode": "1F468-1F3FE-200D-1F91D-200D-1F468-1F3FB",
         "emoji": "👨🏾‍🤝‍👨🏻",
         "text": "",
@@ -27011,7 +27038,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: mitteldunkle Hautfarbe, mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mitteldunkle Hautfarbe, mittelhelle Hautfarbe",
         "hexcode": "1F468-1F3FE-200D-1F91D-200D-1F468-1F3FC",
         "emoji": "👨🏾‍🤝‍👨🏼",
         "text": "",
@@ -27026,7 +27053,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: mitteldunkle Hautfarbe, mittlere Hautfarbe",
+        "annotation": "Händchen haltende Männer: mitteldunkle Hautfarbe, mittlere Hautfarbe",
         "hexcode": "1F468-1F3FE-200D-1F91D-200D-1F468-1F3FD",
         "emoji": "👨🏾‍🤝‍👨🏽",
         "text": "",
@@ -27041,7 +27068,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: mitteldunkle Hautfarbe, dunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mitteldunkle Hautfarbe, dunkle Hautfarbe",
         "hexcode": "1F468-1F3FE-200D-1F91D-200D-1F468-1F3FF",
         "emoji": "👨🏾‍🤝‍👨🏿",
         "text": "",
@@ -27056,7 +27083,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: dunkle Hautfarbe, helle Hautfarbe",
+        "annotation": "Händchen haltende Männer: dunkle Hautfarbe, helle Hautfarbe",
         "hexcode": "1F468-1F3FF-200D-1F91D-200D-1F468-1F3FB",
         "emoji": "👨🏿‍🤝‍👨🏻",
         "text": "",
@@ -27071,7 +27098,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: dunkle Hautfarbe, mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Männer: dunkle Hautfarbe, mittelhelle Hautfarbe",
         "hexcode": "1F468-1F3FF-200D-1F91D-200D-1F468-1F3FC",
         "emoji": "👨🏿‍🤝‍👨🏼",
         "text": "",
@@ -27086,7 +27113,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: dunkle Hautfarbe, mittlere Hautfarbe",
+        "annotation": "Händchen haltende Männer: dunkle Hautfarbe, mittlere Hautfarbe",
         "hexcode": "1F468-1F3FF-200D-1F91D-200D-1F468-1F3FD",
         "emoji": "👨🏿‍🤝‍👨🏽",
         "text": "",
@@ -27101,7 +27128,7 @@
         ]
       },
       {
-        "annotation": "händchenhaltende Männer: dunkle Hautfarbe, mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: dunkle Hautfarbe, mitteldunkle Hautfarbe",
         "hexcode": "1F468-1F3FF-200D-1F91D-200D-1F468-1F3FE",
         "emoji": "👨🏿‍🤝‍👨🏾",
         "text": "",
@@ -29283,8 +29310,8 @@
     "annotation": "Flamingo",
     "hexcode": "1F9A9",
     "tags": [
+      "bunt",
       "farbenfroh",
-      "farbfroh",
       "flamingo",
       "tropen",
       "tropisch"
@@ -29832,13 +29859,14 @@
     "version": 1
   },
   {
-    "annotation": "Moskito",
+    "annotation": "Mücke",
     "hexcode": "1F99F",
     "tags": [
       "fieber",
       "insekt",
       "malaria",
-      "moskito"
+      "moskito",
+      "mücke"
     ],
     "emoji": "🦟",
     "text": "",
@@ -29855,8 +29883,8 @@
       "fliege",
       "krankheit",
       "made",
-      "pest",
-      "verfaulen"
+      "plage",
+      "verwesen"
     ],
     "emoji": "🪰",
     "text": "",
@@ -30731,9 +30759,10 @@
     "version": 3
   },
   {
-    "annotation": "Grünzeug",
+    "annotation": "Blattgemüse",
     "hexcode": "1F96C",
     "tags": [
+      "blattgemüse",
       "gemüse",
       "grünzeug",
       "kohl",
@@ -30926,7 +30955,8 @@
     "tags": [
       "backwaren",
       "bagel",
-      "bäckerei"
+      "bäckerei",
+      "frühstück"
     ],
     "emoji": "🥯",
     "text": "",
@@ -31067,7 +31097,7 @@
     "version": 0.6
   },
   {
-    "annotation": "Pommes Frites",
+    "annotation": "Pommes frites",
     "hexcode": "1F35F",
     "tags": [
       "fritten",
@@ -32054,7 +32084,7 @@
     "version": 0.6
   },
   {
-    "annotation": "Sake-Flasche und -tasse",
+    "annotation": "Sake-Flasche und -Tasse",
     "hexcode": "1F376",
     "tags": [
       "flasche",
@@ -32245,6 +32275,7 @@
     "annotation": "Trinkpäckchen",
     "hexcode": "1F9C3",
     "tags": [
+      "getränk",
       "saftpackung",
       "trinkpäckchen"
     ],
@@ -32327,7 +32358,8 @@
       "besteck",
       "gabel",
       "gabel und messer",
-      "messer"
+      "messer",
+      "messer und gabel"
     ],
     "emoji": "🍴",
     "text": "",
@@ -32574,7 +32606,8 @@
     "tags": [
       "campen",
       "camping",
-      "zelt"
+      "zelt",
+      "zelten"
     ],
     "emoji": "🏕️",
     "text": "🏕︎",
@@ -32950,14 +32983,14 @@
     "version": 0.6
   },
   {
-    "annotation": "Bedarfsartikelgeschäft",
+    "annotation": "Minimarkt",
     "hexcode": "1F3EA",
     "tags": [
-      "bedarfsartikelgeschäft",
       "einkaufen",
       "gebäude",
       "geschäft",
-      "lebensmittel"
+      "lebensmittel",
+      "minimarkt"
     ],
     "emoji": "🏪",
     "text": "",
@@ -33495,9 +33528,10 @@
     "version": 1
   },
   {
-    "annotation": "Straßenbahnwagen",
+    "annotation": "Eisenbahnwagen",
     "hexcode": "1F683",
     "tags": [
+      "eisenbahnwagen",
       "fahrzeug",
       "straßenbahn",
       "straßenbahnwagen",
@@ -33655,10 +33689,11 @@
     "version": 1
   },
   {
-    "annotation": "Tramwagen",
+    "annotation": "Straßenbahnwagen",
     "hexcode": "1F68B",
     "tags": [
       "straßenbahn",
+      "straßenbahnwagen",
       "tram",
       "tramwagen",
       "waggon"
@@ -33687,11 +33722,11 @@
     "version": 0.6
   },
   {
-    "annotation": "Vorderansicht Bus",
+    "annotation": "Bus von vorne",
     "hexcode": "1F68D",
     "tags": [
       "bus",
-      "vorderansicht bus"
+      "bus von vorne"
     ],
     "emoji": "🚍️",
     "text": "🚍︎",
@@ -33811,11 +33846,11 @@
     "version": 0.6
   },
   {
-    "annotation": "Vorderansicht Taxi",
+    "annotation": "Taxi von vorne",
     "hexcode": "1F696",
     "tags": [
       "taxi",
-      "vorderansicht taxi"
+      "taxi von vorne"
     ],
     "emoji": "🚖",
     "text": "",
@@ -33841,13 +33876,13 @@
     "version": 0.6
   },
   {
-    "annotation": "Vorderansicht Auto",
+    "annotation": "Auto von vorne",
     "hexcode": "1F698",
     "tags": [
       "auto",
+      "auto von vorne",
       "automobil",
-      "fahrzeug",
-      "vorderansicht auto"
+      "fahrzeug"
     ],
     "emoji": "🚘️",
     "text": "🚘︎",
@@ -34233,11 +34268,11 @@
     "version": 3
   },
   {
-    "annotation": "Baustellenschild",
+    "annotation": "Baustellenabsperrung",
     "hexcode": "1F6A7",
     "tags": [
       "baustelle",
-      "baustellenschild",
+      "baustellenabsperrung",
       "schild"
     ],
     "emoji": "🚧",
@@ -34724,8 +34759,12 @@
     "hexcode": "1F55B",
     "tags": [
       "12",
+      "12:00 uhr",
+      "mittag",
+      "mitternacht",
       "uhr",
-      "ziffernblatt 12:00 uhr"
+      "ziffernblatt 12:00 uhr",
+      "zwölf uhr"
     ],
     "emoji": "🕛️",
     "text": "🕛︎",
@@ -34956,8 +34995,7 @@
     "tags": [
       "6:30 uhr",
       "halb sieben",
-      "uhr",
-      "ziffernblatt 6:30 uhr"
+      "uhr"
     ],
     "emoji": "🕡️",
     "text": "🕡︎",
@@ -36809,7 +36847,7 @@
     "tags": [
       "drachen",
       "fliegen",
-      "hochfliegen"
+      "steigen"
     ],
     "emoji": "🪁",
     "text": "",
@@ -37004,6 +37042,7 @@
     "annotation": "Matroschka",
     "hexcode": "1FA86",
     "tags": [
+      "matrioschka",
       "matroschka",
       "puppe",
       "russland"
@@ -38555,9 +38594,10 @@
     "version": 0.6
   },
   {
-    "annotation": "Stromstecker",
+    "annotation": "Netzstecker",
     "hexcode": "1F50C",
     "tags": [
+      "netzstecker",
       "stecker",
       "stromstecker"
     ],
@@ -39342,6 +39382,7 @@
     "tags": [
       "euro",
       "euro-banknote",
+      "euroschein",
       "geld",
       "geldschein"
     ],
@@ -39421,12 +39462,12 @@
     "version": 11
   },
   {
-    "annotation": "steigender Trend mit Yen-Zeichen",
+    "annotation": "steigende Kurve mit Yen-Zeichen",
     "hexcode": "1F4B9",
     "tags": [
       "diagramm",
       "markt",
-      "steigender trend mit yen-zeichen"
+      "steigende kurve mit yen-zeichen"
     ],
     "emoji": "💹",
     "text": "",
@@ -39687,7 +39728,7 @@
     "hexcode": "1F58B",
     "tags": [
       "füller",
-      "füllfedehalter",
+      "füllfederhalter",
       "füllhalter"
     ],
     "emoji": "🖋️",
@@ -39811,12 +39852,12 @@
     "version": 0.6
   },
   {
-    "annotation": "Karteibahnen",
+    "annotation": "Karteireiter",
     "hexcode": "1F5C2",
     "tags": [
-      "büroausstattung",
-      "karteibahnen",
-      "karteikarten"
+      "büromaterial",
+      "karteikarten",
+      "karteireiter"
     ],
     "emoji": "🗂️",
     "text": "🗂︎",
@@ -39952,7 +39993,7 @@
     "version": 0.6
   },
   {
-    "annotation": "Zwischenablage",
+    "annotation": "Klemmbrett",
     "hexcode": "1F4CB",
     "tags": [
       "clipboard",
@@ -40079,7 +40120,7 @@
     "annotation": "Karteikasten",
     "hexcode": "1F5C3",
     "tags": [
-      "büroausstattung",
+      "büromaterial",
       "karteikasten"
     ],
     "emoji": "🗃️",
@@ -40334,12 +40375,13 @@
     "version": 1
   },
   {
-    "annotation": "Pistole",
+    "annotation": "Wasserpistole",
     "hexcode": "1F52B",
     "tags": [
       "pistole",
       "revolver",
-      "waffe"
+      "waffe",
+      "wasserpistole"
     ],
     "emoji": "🔫",
     "text": "",
@@ -40509,12 +40551,12 @@
     "version": 1
   },
   {
-    "annotation": "Gehstock",
+    "annotation": "Blindenstock",
     "hexcode": "1F9AF",
     "tags": [
       "barrierefreiheit",
       "blind",
-      "gehstock"
+      "blindenstock"
     ],
     "emoji": "🦯",
     "text": "",
@@ -40557,7 +40599,7 @@
     "version": 0.7
   },
   {
-    "annotation": "Angelhaken",
+    "annotation": "Haken",
     "hexcode": "1FA9D",
     "tags": [
       "angelhaken",
@@ -40947,10 +40989,9 @@
     "version": 0.6
   },
   {
-    "annotation": "Pömpel",
+    "annotation": "Saugglocke",
     "hexcode": "1FAA0",
     "tags": [
-      "pömpel",
       "saugglocke",
       "saugglocken",
       "toilette",
@@ -40995,10 +41036,11 @@
     "version": 1
   },
   {
-    "annotation": "Mäusefalle",
+    "annotation": "Mausefalle",
     "hexcode": "1FAA4",
     "tags": [
       "falle",
+      "mausefalle",
       "mäusefalle"
     ],
     "emoji": "🪤",
@@ -41282,6 +41324,7 @@
     "tags": [
       "gesicht",
       "maske",
+      "osterinsel",
       "statue"
     ],
     "emoji": "🗿",
@@ -41293,13 +41336,14 @@
     "version": 0.6
   },
   {
-    "annotation": "Plakat",
+    "annotation": "Protestschild",
     "hexcode": "1FAA7",
     "tags": [
       "demonstration",
       "mahnwache",
       "plakat",
       "protest",
+      "protestschild",
       "schild"
     ],
     "emoji": "🪧",
@@ -41715,7 +41759,9 @@
     "hexcode": "2B06",
     "tags": [
       "aufwärts",
+      "aufwärtspfeil",
       "nach oben",
+      "norden",
       "pfeil",
       "pfeil nach oben"
     ],
@@ -41732,6 +41778,7 @@
     "hexcode": "2197",
     "tags": [
       "nach rechts oben",
+      "nordosten",
       "pfeil",
       "pfeil nach rechts oben"
     ],
@@ -41748,8 +41795,10 @@
     "hexcode": "27A1",
     "tags": [
       "nach rechts",
+      "osten",
       "pfeil",
-      "pfeil nach rechts"
+      "pfeil nach rechts",
+      "rechtspfeil"
     ],
     "emoji": "➡️",
     "text": "➡︎",
@@ -41765,7 +41814,8 @@
     "tags": [
       "nach rechts unten",
       "pfeil",
-      "pfeil nach rechts unten"
+      "pfeil nach rechts unten",
+      "südosten"
     ],
     "emoji": "↘️",
     "text": "↘︎",
@@ -41780,9 +41830,11 @@
     "hexcode": "2B07",
     "tags": [
       "abwärts",
+      "abwärtspfeil",
       "nach unten",
       "pfeil",
-      "pfeil nach unten"
+      "pfeil nach unten",
+      "süden"
     ],
     "emoji": "⬇️",
     "text": "⬇︎",
@@ -41812,9 +41864,11 @@
     "annotation": "Pfeil nach links",
     "hexcode": "2B05",
     "tags": [
+      "linkspfeil",
       "nach links",
       "pfeil",
-      "pfeil nach links"
+      "pfeil nach links",
+      "westen"
     ],
     "emoji": "⬅️",
     "text": "⬅︎",
@@ -41829,6 +41883,7 @@
     "hexcode": "2196",
     "tags": [
       "nach links oben",
+      "nordwesten",
       "pfeil",
       "pfeil nach links oben"
     ],
@@ -41963,12 +42018,13 @@
     "version": 0.6
   },
   {
-    "annotation": "kreisförmige Pfeile gegen den Uhrzeigersinn",
+    "annotation": "Pfeile gegen den Uhrzeigersinn",
     "hexcode": "1F504",
     "tags": [
       "gegen den uhrzeigersinn",
       "kreisförmige pfeile gegen den uhrzeigersinn",
-      "pfeile"
+      "pfeile",
+      "pfeile gegen den uhrzeigersinn"
     ],
     "emoji": "🔄",
     "text": "",
@@ -42059,11 +42115,11 @@
     "version": 0.6
   },
   {
-    "annotation": "Kultstätte",
+    "annotation": "religiöse Stätte",
     "hexcode": "1F6D0",
     "tags": [
-      "kultstätte",
-      "religion"
+      "religion",
+      "religiöse stätte"
     ],
     "emoji": "🛐",
     "text": "",
@@ -42451,7 +42507,6 @@
     "annotation": "Schlangenträger",
     "hexcode": "26CE",
     "tags": [
-      "schlagenträger",
       "schlangenträger",
       "sternbild"
     ],
@@ -42500,9 +42555,9 @@
     "annotation": "Titel wiederholen",
     "hexcode": "1F502",
     "tags": [
-      "einmal",
-      "einmal wiederholen",
+      "dasselbe wiederholen",
       "im uhrzeigersinn",
+      "noch einmal",
       "pfeile",
       "titel wiederholen",
       "wiederholen"
@@ -42818,12 +42873,12 @@
     "version": 1
   },
   {
-    "annotation": "Taste Heller",
+    "annotation": "Heller-Taste",
     "hexcode": "1F506",
     "tags": [
+      "heller-taste",
       "helligkeit",
-      "starke helligkeit",
-      "taste heller"
+      "starke helligkeit"
     ],
     "emoji": "🔆",
     "text": "",
@@ -42919,11 +42974,12 @@
     "version": 4
   },
   {
-    "annotation": "Symbol für Transgender",
+    "annotation": "Transgender-Symbol",
     "hexcode": "26A7",
     "tags": [
       "symbol für transgender",
-      "transgender"
+      "transgender",
+      "transgender-symbol"
     ],
     "emoji": "⚧️",
     "text": "⚧︎",
@@ -42934,7 +42990,7 @@
     "version": 13
   },
   {
-    "annotation": "Multiplikationszeichen",
+    "annotation": "mal",
     "hexcode": "2716",
     "tags": [
       "abbrechen",
@@ -42952,10 +43008,9 @@
     "version": 0.6
   },
   {
-    "annotation": "Pluszeichen",
+    "annotation": "plus",
     "hexcode": "2795",
     "tags": [
-      "plus",
       "pluszeichen"
     ],
     "emoji": "➕",
@@ -42967,10 +43022,9 @@
     "version": 0.6
   },
   {
-    "annotation": "Minuszeichen",
+    "annotation": "minus",
     "hexcode": "2796",
     "tags": [
-      "minus",
       "minuszeichen"
     ],
     "emoji": "➖",
@@ -42982,11 +43036,10 @@
     "version": 0.6
   },
   {
-    "annotation": "Divisionszeichen",
+    "annotation": "geteilt durch",
     "hexcode": "2797",
     "tags": [
-      "divisionszeichen",
-      "geteilt"
+      "division"
     ],
     "emoji": "➗",
     "text": "",
@@ -43000,7 +43053,7 @@
     "annotation": "Unendlichkeit",
     "hexcode": "267E",
     "tags": [
-      "für immer",
+      "ewig",
       "grenzenlos",
       "unendlich",
       "unendlichkeit"
@@ -43149,11 +43202,11 @@
     "version": 0.6
   },
   {
-    "annotation": "Dollarzeichen",
+    "annotation": "Dollarzeichen extrafett",
     "hexcode": "1F4B2",
     "tags": [
       "dollar",
-      "dollarzeichen",
+      "dollarzeichen extrafett",
       "geld",
       "währung"
     ],
@@ -43294,13 +43347,14 @@
     "version": 0.6
   },
   {
-    "annotation": "Abstimmungsfeld mit Häkchen",
+    "annotation": "abgehaktes Kästchen",
     "hexcode": "2611",
     "tags": [
-      "abstimmungsfeld",
-      "abstimmungsfeld mit häkchen",
-      "häkchen",
-      "wahlurne"
+      "abgehaktes kästchen",
+      "feld",
+      "kästchen",
+      "kästchen mit häkchen",
+      "✓"
     ],
     "emoji": "☑️",
     "text": "☑︎",
@@ -43347,11 +43401,14 @@
     "version": 0.6
   },
   {
-    "annotation": "Kreuzsymbol im Quadrat",
+    "annotation": "angekreuztes Kästchen",
     "hexcode": "274E",
     "tags": [
+      "angekreuztes feld",
+      "angekreuztes kästchen",
+      "feld",
       "kreuz",
-      "kreuzsymbol im quadrat",
+      "quadrat",
       "x"
     ],
     "emoji": "❎",
@@ -43427,11 +43484,12 @@
     "version": 0.6
   },
   {
-    "annotation": "Stern mit acht Zacken",
+    "annotation": "achtstrahliger Stern",
     "hexcode": "2734",
     "tags": [
-      "stern",
-      "stern mit acht zacken"
+      "*",
+      "achtstrahliger stern",
+      "stern"
     ],
     "emoji": "✴️",
     "text": "✴︎",
@@ -43445,6 +43503,7 @@
     "annotation": "Funkeln",
     "hexcode": "2747",
     "tags": [
+      "*",
       "funkeln"
     ],
     "emoji": "❇️",
@@ -44027,10 +44086,11 @@
     "version": 0.6
   },
   {
-    "annotation": "Großbuchstaben VS in orangefarbenem Quadrat",
+    "annotation": "Schriftzug VS in orangem Quadrat",
     "hexcode": "1F19A",
     "tags": [
       "großbuchstaben vs in orangefarbenem quadrat",
+      "schriftzug vs in orangem quadrat",
       "versus",
       "vs"
     ],
@@ -44314,13 +44374,13 @@
     "version": 0.6
   },
   {
-    "annotation": "roter Kreis",
+    "annotation": "roter Punkt",
     "hexcode": "1F534",
     "tags": [
       "ball",
-      "kreis",
+      "punkt",
       "rot",
-      "roter kreis"
+      "roter punkt"
     ],
     "emoji": "🔴",
     "text": "",
@@ -44331,12 +44391,12 @@
     "version": 0.6
   },
   {
-    "annotation": "oranger Kreis",
+    "annotation": "oranger Punkt",
     "hexcode": "1F7E0",
     "tags": [
-      "kreis",
       "orange",
-      "oranger kreis"
+      "oranger punkt",
+      "punkt"
     ],
     "emoji": "🟠",
     "text": "",
@@ -44347,12 +44407,12 @@
     "version": 12
   },
   {
-    "annotation": "gelber Kreis",
+    "annotation": "gelber Punkt",
     "hexcode": "1F7E1",
     "tags": [
       "gelb",
-      "gelber kreis",
-      "kreis"
+      "gelber punkt",
+      "punkt"
     ],
     "emoji": "🟡",
     "text": "",
@@ -44363,12 +44423,12 @@
     "version": 12
   },
   {
-    "annotation": "grüner Kreis",
+    "annotation": "grüner Punkt",
     "hexcode": "1F7E2",
     "tags": [
       "grün",
-      "grüner kreis",
-      "kreis"
+      "grüner punkt",
+      "punkt"
     ],
     "emoji": "🟢",
     "text": "",
@@ -44379,13 +44439,13 @@
     "version": 12
   },
   {
-    "annotation": "blauer Kreis",
+    "annotation": "blauer Punkt",
     "hexcode": "1F535",
     "tags": [
       "ball",
       "blau",
-      "blauer kreis",
-      "kreis"
+      "blauer punkt",
+      "punkt"
     ],
     "emoji": "🔵",
     "text": "",
@@ -44396,11 +44456,11 @@
     "version": 0.6
   },
   {
-    "annotation": "lila Kreis",
+    "annotation": "lila Punkt",
     "hexcode": "1F7E3",
     "tags": [
-      "kreis",
-      "lila"
+      "lila",
+      "punkt"
     ],
     "emoji": "🟣",
     "text": "",
@@ -44411,12 +44471,12 @@
     "version": 12
   },
   {
-    "annotation": "brauner Kreis",
+    "annotation": "brauner Punkt",
     "hexcode": "1F7E4",
     "tags": [
       "braun",
-      "brauner kreis",
-      "kreis"
+      "brauner punkt",
+      "punkt"
     ],
     "emoji": "🟤",
     "text": "",
@@ -44427,13 +44487,13 @@
     "version": 12
   },
   {
-    "annotation": "schwarzer Kreis",
+    "annotation": "schwarzer Punkt",
     "hexcode": "26AB",
     "tags": [
       "ball",
-      "kreis",
+      "punkt",
       "schwarz",
-      "schwarzer kreis"
+      "schwarzer punkt"
     ],
     "emoji": "⚫️",
     "text": "⚫︎",
@@ -44444,13 +44504,13 @@
     "version": 0.6
   },
   {
-    "annotation": "weißer Kreis",
+    "annotation": "weißer Punkt",
     "hexcode": "26AA",
     "tags": [
       "ball",
-      "kreis",
+      "punkt",
       "weiß",
-      "weißer kreis"
+      "weißer punkt"
     ],
     "emoji": "⚪️",
     "text": "⚪︎",
@@ -44461,12 +44521,12 @@
     "version": 0.6
   },
   {
-    "annotation": "rotes Viereck",
+    "annotation": "rotes Quadrat",
     "hexcode": "1F7E5",
     "tags": [
+      "quadrat",
       "rot",
-      "rotes viereck",
-      "viereck"
+      "rotes quadrat"
     ],
     "emoji": "🟥",
     "text": "",
@@ -44477,12 +44537,12 @@
     "version": 12
   },
   {
-    "annotation": "oranges Viereck",
+    "annotation": "oranges Quadrat",
     "hexcode": "1F7E7",
     "tags": [
       "orange",
-      "oranges viereck",
-      "viereck"
+      "oranges quadrat",
+      "quadrat"
     ],
     "emoji": "🟧",
     "text": "",
@@ -44493,12 +44553,12 @@
     "version": 12
   },
   {
-    "annotation": "gelbes Viereck",
+    "annotation": "gelbes Quadrat",
     "hexcode": "1F7E8",
     "tags": [
       "gelb",
-      "gelbes viereck",
-      "viereck"
+      "gelbes quadrat",
+      "quadrat"
     ],
     "emoji": "🟨",
     "text": "",
@@ -44509,12 +44569,12 @@
     "version": 12
   },
   {
-    "annotation": "grünes Viereck",
+    "annotation": "grünes Quadrat",
     "hexcode": "1F7E9",
     "tags": [
       "grün",
-      "grünes viereck",
-      "viereck"
+      "grünes quadrat",
+      "quadrat"
     ],
     "emoji": "🟩",
     "text": "",
@@ -44525,12 +44585,12 @@
     "version": 12
   },
   {
-    "annotation": "blaues Viereck",
+    "annotation": "blaues Quadrat",
     "hexcode": "1F7E6",
     "tags": [
       "blau",
-      "blaues viereck",
-      "viereck"
+      "blaues quadrat",
+      "quadrat"
     ],
     "emoji": "🟦",
     "text": "",
@@ -44541,11 +44601,11 @@
     "version": 12
   },
   {
-    "annotation": "lila Viereck",
+    "annotation": "lila Quadrat",
     "hexcode": "1F7EA",
     "tags": [
       "lila",
-      "viereck"
+      "quadrat"
     ],
     "emoji": "🟪",
     "text": "",
@@ -44556,12 +44616,12 @@
     "version": 12
   },
   {
-    "annotation": "braunes Viereck",
+    "annotation": "braunes Quadrat",
     "hexcode": "1F7EB",
     "tags": [
       "braun",
-      "braunes viereck",
-      "viereck"
+      "braunes quadrat",
+      "quadrat"
     ],
     "emoji": "🟫",
     "text": "",
@@ -44881,12 +44941,13 @@
     "version": 0.6
   },
   {
-    "annotation": "Dreiecksflagge",
+    "annotation": "Wimpel",
     "hexcode": "1F6A9",
     "tags": [
       "dreiecksflagge",
       "flagge",
-      "rot"
+      "rot",
+      "wimpel"
     ],
     "emoji": "🚩",
     "text": "",
@@ -45448,7 +45509,7 @@
     "version": 2
   },
   {
-    "annotation": "Flagge: Bonaire, Sint Eustatius und Saba",
+    "annotation": "Flagge: Karibische Niederlande",
     "hexcode": "1F1E7-1F1F6",
     "tags": [
       "BQ",

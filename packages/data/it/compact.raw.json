@@ -366,9 +366,9 @@
     "hexcode": "263A",
     "order": 20,
     "tags": [
-      "contorno faccina sorridente",
-      "emozionarsi",
+      "delineata",
       "faccina",
+      "rilassata",
       "sorridente"
     ],
     "unicode": "☺️"
@@ -1100,7 +1100,7 @@
     "tags": [
       "faccina",
       "faccina blu sudata",
-      "faccina frettolosa",
+      "faccina sotto pressione",
       "sudata"
     ],
     "unicode": "😰"
@@ -1195,13 +1195,14 @@
     "unicode": "😞"
   },
   {
-    "annotation": "faccina sudata",
+    "annotation": "faccina abbattuta sudata",
     "group": 0,
     "hexcode": "1F613",
     "order": 87,
     "tags": [
       "delusione",
       "faccina",
+      "faccina sudata",
       "sudore"
     ],
     "unicode": "😓",
@@ -1530,9 +1531,9 @@
     "order": 113,
     "tags": [
       "bacio",
-      "chiusi",
       "faccina",
-      "gatto"
+      "gatto",
+      "occhi chiusi"
     ],
     "unicode": "😽",
     "emoticon": ":3"
@@ -4423,46 +4424,46 @@
     ]
   },
   {
-    "annotation": "uomo con la barba",
+    "annotation": "persona con la barba",
     "group": 1,
     "hexcode": "1F9D4",
     "order": 456,
     "tags": [
       "barba",
-      "persona con la barba"
+      "persona"
     ],
     "unicode": "🧔",
     "skins": [
       {
-        "annotation": "uomo con la barba: carnagione chiara",
+        "annotation": "persona con la barba: carnagione chiara",
         "group": 1,
         "hexcode": "1F9D4-1F3FB",
         "order": 457,
         "unicode": "🧔🏻"
       },
       {
-        "annotation": "uomo con la barba: carnagione abbastanza chiara",
+        "annotation": "persona con la barba: carnagione abbastanza chiara",
         "group": 1,
         "hexcode": "1F9D4-1F3FC",
         "order": 458,
         "unicode": "🧔🏼"
       },
       {
-        "annotation": "uomo con la barba: carnagione olivastra",
+        "annotation": "persona con la barba: carnagione olivastra",
         "group": 1,
         "hexcode": "1F9D4-1F3FD",
         "order": 459,
         "unicode": "🧔🏽"
       },
       {
-        "annotation": "uomo con la barba: carnagione abbastanza scura",
+        "annotation": "persona con la barba: carnagione abbastanza scura",
         "group": 1,
         "hexcode": "1F9D4-1F3FE",
         "order": 460,
         "unicode": "🧔🏾"
       },
       {
-        "annotation": "uomo con la barba: carnagione scura",
+        "annotation": "persona con la barba: carnagione scura",
         "group": 1,
         "hexcode": "1F9D4-1F3FF",
         "order": 461,
@@ -6011,47 +6012,48 @@
     ]
   },
   {
-    "annotation": "uomo con suggerimento",
+    "annotation": "uomo al punto informazioni",
     "group": 1,
     "hexcode": "1F481-200D-2642-FE0F",
     "order": 708,
     "tags": [
       "indicazione",
       "informazioni",
+      "sarcastico",
       "uomo"
     ],
     "unicode": "💁‍♂️",
     "skins": [
       {
-        "annotation": "uomo con suggerimento: carnagione chiara",
+        "annotation": "uomo al punto informazioni: carnagione chiara",
         "group": 1,
         "hexcode": "1F481-1F3FB-200D-2642-FE0F",
         "order": 710,
         "unicode": "💁🏻‍♂️"
       },
       {
-        "annotation": "uomo con suggerimento: carnagione abbastanza chiara",
+        "annotation": "uomo al punto informazioni: carnagione abbastanza chiara",
         "group": 1,
         "hexcode": "1F481-1F3FC-200D-2642-FE0F",
         "order": 712,
         "unicode": "💁🏼‍♂️"
       },
       {
-        "annotation": "uomo con suggerimento: carnagione olivastra",
+        "annotation": "uomo al punto informazioni: carnagione olivastra",
         "group": 1,
         "hexcode": "1F481-1F3FD-200D-2642-FE0F",
         "order": 714,
         "unicode": "💁🏽‍♂️"
       },
       {
-        "annotation": "uomo con suggerimento: carnagione abbastanza scura",
+        "annotation": "uomo al punto informazioni: carnagione abbastanza scura",
         "group": 1,
         "hexcode": "1F481-1F3FE-200D-2642-FE0F",
         "order": 716,
         "unicode": "💁🏾‍♂️"
       },
       {
-        "annotation": "uomo con suggerimento: carnagione scura",
+        "annotation": "uomo al punto informazioni: carnagione scura",
         "group": 1,
         "hexcode": "1F481-1F3FF-200D-2642-FE0F",
         "order": 718,
@@ -6060,47 +6062,48 @@
     ]
   },
   {
-    "annotation": "donna con suggerimento",
+    "annotation": "donna al punto informazioni",
     "group": 1,
     "hexcode": "1F481-200D-2640-FE0F",
     "order": 720,
     "tags": [
       "donna",
       "indicazione",
-      "informazioni"
+      "informazioni",
+      "sarcastica"
     ],
     "unicode": "💁‍♀️",
     "skins": [
       {
-        "annotation": "donna con suggerimento: carnagione chiara",
+        "annotation": "donna al punto informazioni: carnagione chiara",
         "group": 1,
         "hexcode": "1F481-1F3FB-200D-2640-FE0F",
         "order": 722,
         "unicode": "💁🏻‍♀️"
       },
       {
-        "annotation": "donna con suggerimento: carnagione abbastanza chiara",
+        "annotation": "donna al punto informazioni: carnagione abbastanza chiara",
         "group": 1,
         "hexcode": "1F481-1F3FC-200D-2640-FE0F",
         "order": 724,
         "unicode": "💁🏼‍♀️"
       },
       {
-        "annotation": "donna con suggerimento: carnagione olivastra",
+        "annotation": "donna al punto informazioni: carnagione olivastra",
         "group": 1,
         "hexcode": "1F481-1F3FD-200D-2640-FE0F",
         "order": 726,
         "unicode": "💁🏽‍♀️"
       },
       {
-        "annotation": "donna con suggerimento: carnagione abbastanza scura",
+        "annotation": "donna al punto informazioni: carnagione abbastanza scura",
         "group": 1,
         "hexcode": "1F481-1F3FE-200D-2640-FE0F",
         "order": 728,
         "unicode": "💁🏾‍♀️"
       },
       {
-        "annotation": "donna con suggerimento: carnagione scura",
+        "annotation": "donna al punto informazioni: carnagione scura",
         "group": 1,
         "hexcode": "1F481-1F3FF-200D-2640-FE0F",
         "order": 730,
@@ -7749,7 +7752,8 @@
     "order": 1026,
     "tags": [
       "elettricista",
-      "idraulico"
+      "idraulico",
+      "tecnico specializzato"
     ],
     "unicode": "🧑‍🔧",
     "skins": [
@@ -7799,6 +7803,7 @@
       "chiave inglese",
       "idraulico",
       "meccanico",
+      "tecnico specializzato",
       "uomo"
     ],
     "unicode": "👨‍🔧",
@@ -7849,7 +7854,8 @@
       "chiave inglese",
       "donna",
       "idraulico donna",
-      "meccanico"
+      "meccanico",
+      "tecnico specializzato"
     ],
     "unicode": "👩‍🔧",
     "skins": [
@@ -8094,6 +8100,7 @@
     "hexcode": "1F468-200D-1F4BC",
     "order": 1068,
     "tags": [
+      "architetto",
       "business",
       "manager",
       "ufficio",
@@ -8144,6 +8151,7 @@
     "hexcode": "1F469-200D-1F4BC",
     "order": 1074,
     "tags": [
+      "architetto",
       "business",
       "donna",
       "manager",
@@ -10356,9 +10364,9 @@
     "hexcode": "1F470",
     "order": 1439,
     "tags": [
-      "matrimonio persone",
+      "matrimonio",
+      "persona",
       "sposa",
-      "sposa con il velo",
       "velo"
     ],
     "unicode": "👰",
@@ -17689,7 +17697,9 @@
     "hexcode": "1F40E",
     "order": 2677,
     "tags": [
-      "animale"
+      "animale",
+      "cavallo da corsa",
+      "corse"
     ],
     "unicode": "🐎"
   },
@@ -17751,7 +17761,9 @@
     "hexcode": "1F402",
     "order": 2683,
     "tags": [
-      "animale"
+      "animale",
+      "segno zodiacale del toro",
+      "toro"
     ],
     "unicode": "🐂"
   },
@@ -17793,7 +17805,7 @@
     "hexcode": "1F416",
     "order": 2687,
     "tags": [
-      "animale"
+      "scrofa"
     ],
     "unicode": "🐖"
   },
@@ -17826,7 +17838,9 @@
     "hexcode": "1F40F",
     "order": 2690,
     "tags": [
-      "animale"
+      "animale",
+      "ariete",
+      "segno zodiacale dell’ariete"
     ],
     "unicode": "🐏"
   },
@@ -17846,7 +17860,9 @@
     "hexcode": "1F410",
     "order": 2692,
     "tags": [
-      "animale"
+      "animale",
+      "capricorno",
+      "segno zodiacale del capricorno"
     ],
     "unicode": "🐐"
   },
@@ -18345,7 +18361,6 @@
     "order": 2739,
     "tags": [
       "fenicottero rosa",
-      "flamingo",
       "tropicale"
     ],
     "unicode": "🦩"
@@ -18520,7 +18535,8 @@
     "hexcode": "1F41F",
     "order": 2755,
     "tags": [
-      "animale"
+      "animale",
+      "segno zodiacale dei pesci"
     ],
     "unicode": "🐟️"
   },
@@ -19605,7 +19621,7 @@
     "unicode": "🌯"
   },
   {
-    "annotation": "tamal",
+    "annotation": "tamale",
     "group": 4,
     "hexcode": "1FAD4",
     "order": 2859,
@@ -19673,7 +19689,7 @@
     "unicode": "🥘"
   },
   {
-    "annotation": "ciotola di cibo",
+    "annotation": "pentola di cibo",
     "group": 4,
     "hexcode": "1F372",
     "order": 2865,
@@ -19920,12 +19936,12 @@
     "unicode": "🥮"
   },
   {
-    "annotation": "dolcetto",
+    "annotation": "dango",
     "group": 4,
     "hexcode": "1F361",
     "order": 2886,
     "tags": [
-      "dango",
+      "dolcetto",
       "palline di mochi",
       "ristorante",
       "spiedino di mochi"
@@ -20250,7 +20266,7 @@
     "unicode": "🍵"
   },
   {
-    "annotation": "sake",
+    "annotation": "sakè",
     "group": 4,
     "hexcode": "1F376",
     "order": 2914,
@@ -20258,7 +20274,7 @@
       "bar",
       "bere",
       "bottiglia",
-      "bottiglia e bicchiere di sake"
+      "bottiglia e bicchiere di sakè"
     ],
     "unicode": "🍶"
   },
@@ -20744,7 +20760,7 @@
     "hexcode": "1FAB5",
     "order": 2967,
     "tags": [
-      "alberi",
+      "ciocco",
       "legname",
       "tronco"
     ],
@@ -20813,7 +20829,7 @@
     "hexcode": "1F3E2",
     "order": 2975,
     "tags": [
-      "edifico di uffici",
+      "edificio di uffici",
       "ufficio"
     ],
     "unicode": "🏢"
@@ -21959,7 +21975,7 @@
     "unicode": "🚁"
   },
   {
-    "annotation": "funivia",
+    "annotation": "ferrovia sospesa",
     "group": 5,
     "hexcode": "1F69F",
     "order": 3090,
@@ -21969,11 +21985,13 @@
     "unicode": "🚟"
   },
   {
-    "annotation": "funicolare",
+    "annotation": "funivia",
     "group": 5,
     "hexcode": "1F6A0",
     "order": 3091,
     "tags": [
+      "cabina",
+      "montagna",
       "veicolo"
     ],
     "unicode": "🚠"
@@ -22559,6 +22577,7 @@
     "order": 3147,
     "tags": [
       "clima",
+      "meteo",
       "temperatura"
     ],
     "unicode": "🌡️"
@@ -23067,12 +23086,13 @@
     "unicode": "🎊"
   },
   {
-    "annotation": "albero decorato",
+    "annotation": "albero di Tanabata",
     "group": 6,
     "hexcode": "1F38B",
     "order": 3208,
     "tags": [
       "albero",
+      "albero di tanabata",
       "decorazioni di carta",
       "festa",
       "festa delle stelle"
@@ -23141,12 +23161,13 @@
     "unicode": "🎑"
   },
   {
-    "annotation": "busta rossa",
+    "annotation": "busta hongbao",
     "group": 6,
     "hexcode": "1F9E7",
     "order": 3214,
     "tags": [
       "buono auspicio",
+      "busta rossa",
       "hongbao",
       "lai see",
       "regalo",
@@ -23662,7 +23683,7 @@
     "hexcode": "1F52E",
     "order": 3261,
     "tags": [
-      "chiromanzia",
+      "chiaroveggenza",
       "cristallo",
       "futuro",
       "sfera"
@@ -23838,6 +23859,7 @@
     "order": 3282,
     "tags": [
       "pedina",
+      "sacrificabile",
       "scacchi",
       "scacco matto"
     ],
@@ -23868,12 +23890,14 @@
     "unicode": "🀄️"
   },
   {
-    "annotation": "carta da gioco",
+    "annotation": "carta da gioco Hanafuda",
     "group": 6,
     "hexcode": "1F3B4",
     "order": 3285,
     "tags": [
       "carta",
+      "carta da gioco",
+      "carta da gioco hanafuda",
       "carta dei fiori",
       "gioco",
       "hanafuda"
@@ -26211,12 +26235,13 @@
     "unicode": "⚔️"
   },
   {
-    "annotation": "pistola",
+    "annotation": "pistola ad acqua",
     "group": 7,
     "hexcode": "1F52B",
     "order": 3523,
     "tags": [
       "arma",
+      "pistola",
       "revolver"
     ],
     "unicode": "🔫"
@@ -28436,12 +28461,13 @@
     "unicode": "⭕️"
   },
   {
-    "annotation": "segno di spunta",
+    "annotation": "pulsante segno di spunta",
     "group": 8,
     "hexcode": "2705",
     "order": 3759,
     "tags": [
       "baffo",
+      "segno di spunta",
       "segno di spunta grande"
     ],
     "unicode": "✅"
@@ -28459,13 +28485,12 @@
     "unicode": "☑️"
   },
   {
-    "annotation": "segno di spunta nero",
+    "annotation": "segno di spunta",
     "group": 8,
     "hexcode": "2714",
     "order": 3763,
     "tags": [
       "baffo",
-      "segno di spunta",
       "spunta"
     ],
     "unicode": "✔️"
@@ -29287,7 +29312,6 @@
     "order": 3862,
     "tags": [
       "cerchio di colore marrone",
-      "cerchio marron",
       "marrone"
     ],
     "unicode": "🟤"
@@ -29395,8 +29419,7 @@
     "order": 3871,
     "tags": [
       "quadrato",
-      "quadrato di colore marrone",
-      "quadrato marron"
+      "quadrato di colore marrone"
     ],
     "unicode": "🟫"
   },
@@ -30504,7 +30527,7 @@
     "unicode": "🇪🇹"
   },
   {
-    "annotation": "bandiera: Unione Europea",
+    "annotation": "bandiera: Unione europea",
     "group": 9,
     "hexcode": "1F1EA-1F1FA",
     "order": 3981,

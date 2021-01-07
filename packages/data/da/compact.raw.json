@@ -4345,48 +4345,47 @@
     ]
   },
   {
-    "annotation": "mand med skæg",
+    "annotation": "person med skæg",
     "group": 1,
     "hexcode": "1F9D4",
     "order": 456,
     "tags": [
       "fuldskæg",
-      "mand",
       "person",
       "skæg"
     ],
     "unicode": "🧔",
     "skins": [
       {
-        "annotation": "mand med skæg: lys teint",
+        "annotation": "person med skæg: lys teint",
         "group": 1,
         "hexcode": "1F9D4-1F3FB",
         "order": 457,
         "unicode": "🧔🏻"
       },
       {
-        "annotation": "mand med skæg: medium til lys teint",
+        "annotation": "person med skæg: medium til lys teint",
         "group": 1,
         "hexcode": "1F9D4-1F3FC",
         "order": 458,
         "unicode": "🧔🏼"
       },
       {
-        "annotation": "mand med skæg: medium teint",
+        "annotation": "person med skæg: medium teint",
         "group": 1,
         "hexcode": "1F9D4-1F3FD",
         "order": 459,
         "unicode": "🧔🏽"
       },
       {
-        "annotation": "mand med skæg: medium til mørk teint",
+        "annotation": "person med skæg: medium til mørk teint",
         "group": 1,
         "hexcode": "1F9D4-1F3FE",
         "order": 460,
         "unicode": "🧔🏾"
       },
       {
-        "annotation": "mand med skæg: mørk teint",
+        "annotation": "person med skæg: mørk teint",
         "group": 1,
         "hexcode": "1F9D4-1F3FF",
         "order": 461,
@@ -6184,7 +6183,10 @@
     "hexcode": "1F9CF",
     "order": 762,
     "tags": [
-      "døv person"
+      "døv",
+      "høre",
+      "tilgængelighed",
+      "øre"
     ],
     "unicode": "🧏",
     "skins": [
@@ -17523,8 +17525,8 @@
     "hexcode": "1F9AE",
     "order": 2663,
     "tags": [
-      "adgang",
-      "blind"
+      "blind",
+      "tilgængelighed"
     ],
     "unicode": "🦮"
   },
@@ -17534,10 +17536,10 @@
     "hexcode": "1F415-200D-1F9BA",
     "order": 2664,
     "tags": [
-      "adgang",
       "førerhund",
       "hjælp",
-      "hund"
+      "hund",
+      "tilgængelighed"
     ],
     "unicode": "🐕‍🦺"
   },
@@ -26002,11 +26004,12 @@
     "unicode": "⚔️"
   },
   {
-    "annotation": "pistol",
+    "annotation": "vandpistol",
     "group": 7,
     "hexcode": "1F52B",
     "order": 3523,
     "tags": [
+      "pistol",
       "revolver",
       "våben"
     ],
@@ -26326,7 +26329,11 @@
     "hexcode": "1FA78",
     "order": 3555,
     "tags": [
-      "bloddråbe"
+      "blod",
+      "bloddonor",
+      "medicin",
+      "menstruation",
+      "sår"
     ],
     "unicode": "🩸"
   },
@@ -26357,7 +26364,10 @@
     "hexcode": "1FA7A",
     "order": 3558,
     "tags": [
-      "stetoskop"
+      "doktor",
+      "hjerte",
+      "læge",
+      "medicin"
     ],
     "unicode": "🩺"
   },
@@ -27539,14 +27549,15 @@
     "unicode": "⛎"
   },
   {
-    "annotation": "pile for bland",
+    "annotation": "bland sange-knap",
     "group": 8,
     "hexcode": "1F500",
     "order": 3691,
     "tags": [
       "bland sange",
       "krydsende pile",
-      "mod højre"
+      "mod højre",
+      "pile for bland"
     ],
     "unicode": "🔀"
   },
@@ -27857,14 +27868,14 @@
     "unicode": "⚧️"
   },
   {
-    "annotation": "multiplikationstegn",
+    "annotation": "gange",
     "group": 8,
     "hexcode": "2716",
     "order": 3731,
     "tags": [
       "annuller",
-      "gange",
       "multiplikation",
+      "multiplikationstegn",
       "tegn",
       "x",
       "×"
@@ -27872,39 +27883,40 @@
     "unicode": "✖️"
   },
   {
-    "annotation": "plustegn",
+    "annotation": "plus",
     "group": 8,
     "hexcode": "2795",
     "order": 3732,
     "tags": [
       "+",
       "matematik",
-      "plus",
+      "plustegn",
       "tegn"
     ],
     "unicode": "➕"
   },
   {
-    "annotation": "minustegn",
+    "annotation": "minus",
     "group": 8,
     "hexcode": "2796",
     "order": 3733,
     "tags": [
       "-",
       "matematik",
-      "minus",
+      "minustegn",
       "tegn",
       "−"
     ],
     "unicode": "➖"
   },
   {
-    "annotation": "divisionstegn",
+    "annotation": "dividere",
     "group": 8,
     "hexcode": "2797",
     "order": 3734,
     "tags": [
       "division",
+      "divisionstegn",
       "matematik",
       "tegn",
       "÷"
@@ -27951,13 +27963,14 @@
     "unicode": "⁉️"
   },
   {
-    "annotation": "spørgsmålstegn",
+    "annotation": "rødt spørgsmålstegn",
     "group": 8,
     "hexcode": "2753",
     "order": 3741,
     "tags": [
       "?",
       "spørgsmål",
+      "spørgsmålstegn",
       "tegn",
       "tegnsætning"
     ],
@@ -27990,12 +28003,13 @@
     "unicode": "❕"
   },
   {
-    "annotation": "udråbstegn",
+    "annotation": "rødt udråbstegn",
     "group": 8,
     "hexcode": "2757",
     "order": 3744,
     "tags": [
-      "tegnsætning"
+      "tegnsætning",
+      "udråbstegn"
     ],
     "unicode": "❗️"
   },
@@ -28892,12 +28906,12 @@
     "unicode": "🔵"
   },
   {
-    "annotation": "lille cirkel",
+    "annotation": "lilla cirkel",
     "group": 8,
     "hexcode": "1F7E3",
     "order": 3861,
     "tags": [
-      "lille cirkel"
+      "lilla cirkel"
     ],
     "unicode": "🟣"
   },

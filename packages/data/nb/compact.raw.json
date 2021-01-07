@@ -4454,48 +4454,49 @@
     ]
   },
   {
-    "annotation": "mann: skjegg",
+    "annotation": "person: skjegg",
     "group": 1,
     "hexcode": "1F9D4",
     "order": 456,
     "tags": [
       "mann",
       "mann med skjegg",
+      "mann: skjegg",
       "person",
       "skjegg"
     ],
     "unicode": "🧔",
     "skins": [
       {
-        "annotation": "mann: hudtype 1–2, skjegg",
+        "annotation": "person: hudtype 1–2, skjegg",
         "group": 1,
         "hexcode": "1F9D4-1F3FB",
         "order": 457,
         "unicode": "🧔🏻"
       },
       {
-        "annotation": "mann: hudtype 3, skjegg",
+        "annotation": "person: hudtype 3, skjegg",
         "group": 1,
         "hexcode": "1F9D4-1F3FC",
         "order": 458,
         "unicode": "🧔🏼"
       },
       {
-        "annotation": "mann: hudtype 4, skjegg",
+        "annotation": "person: hudtype 4, skjegg",
         "group": 1,
         "hexcode": "1F9D4-1F3FD",
         "order": 459,
         "unicode": "🧔🏽"
       },
       {
-        "annotation": "mann: hudtype 5, skjegg",
+        "annotation": "person: hudtype 5, skjegg",
         "group": 1,
         "hexcode": "1F9D4-1F3FE",
         "order": 460,
         "unicode": "🧔🏾"
       },
       {
-        "annotation": "mann: hudtype 6, skjegg",
+        "annotation": "person: hudtype 6, skjegg",
         "group": 1,
         "hexcode": "1F9D4-1F3FF",
         "order": 461,
@@ -8060,10 +8061,8 @@
     "hexcode": "1F469-200D-1F3ED",
     "order": 1056,
     "tags": [
-      "arbeider",
       "fabrikk",
       "industri",
-      "industriarbeider",
       "kvinne",
       "produksjon"
     ],
@@ -8314,14 +8313,9 @@
     "hexcode": "1F468-200D-1F52C",
     "order": 1086,
     "tags": [
-      "biologi",
-      "forsker",
-      "forskning",
       "kjemi",
-      "lab",
       "laboratorium",
       "mann",
-      "medisin",
       "vitenskap"
     ],
     "unicode": "👨‍🔬",
@@ -8369,14 +8363,9 @@
     "hexcode": "1F469-200D-1F52C",
     "order": 1092,
     "tags": [
-      "biologi",
-      "forsker",
-      "forskning",
       "kjemi",
       "kvinne",
-      "lab",
       "laboratorium",
-      "medisin",
       "vitenskap"
     ],
     "unicode": "👩‍🔬",
@@ -8634,7 +8623,6 @@
       "artist",
       "konsert",
       "mann",
-      "rock",
       "sanger"
     ],
     "unicode": "👨‍🎤",
@@ -17430,6 +17418,7 @@
     "order": 2646,
     "tags": [
       "farvel",
+      "ha det",
       "hadet",
       "hei",
       "takk"
@@ -20036,6 +20025,7 @@
     "tags": [
       "matbolle",
       "nudelbolle",
+      "ramen",
       "restaurant"
     ],
     "unicode": "🍜"
@@ -20720,7 +20710,8 @@
       "afrika",
       "europa",
       "jorden",
-      "jordklode med europa og afrika"
+      "jordklode med europa og afrika",
+      "verden"
     ],
     "unicode": "🌍️"
   },
@@ -20733,7 +20724,8 @@
       "amerika",
       "jorden",
       "jordklode med amerika",
-      "usa"
+      "usa",
+      "verden"
     ],
     "unicode": "🌎️"
   },
@@ -20746,7 +20738,8 @@
       "asia",
       "australia",
       "jorden",
-      "jordklode med asia og australia"
+      "jordklode med asia og australia",
+      "verden"
     ],
     "unicode": "🌏️"
   },
@@ -20757,7 +20750,8 @@
     "order": 2938,
     "tags": [
       "jorden",
-      "lengde- og breddegrader"
+      "lengde- og breddegrader",
+      "verden"
     ],
     "unicode": "🌐"
   },
@@ -21610,9 +21604,7 @@
     "order": 3027,
     "tags": [
       "fremkomstmiddel",
-      "lokaltog",
       "trikk",
-      "trolleybuss",
       "vogn"
     ],
     "unicode": "🚋"
@@ -21816,7 +21808,7 @@
     "order": 3046,
     "tags": [
       "bil",
-      "milløp",
+      "billøp",
       "motorsport"
     ],
     "unicode": "🏎️"
@@ -24026,7 +24018,8 @@
       "kontroller",
       "spill",
       "spillkonsoll",
-      "spillkontroller"
+      "spillkontroller",
+      "tv-spill"
     ],
     "unicode": "🎮️"
   },
@@ -26567,13 +26560,13 @@
     "unicode": "⚔️"
   },
   {
-    "annotation": "pistol",
+    "annotation": "vannpistol",
     "group": 7,
     "hexcode": "1F52B",
     "order": 3523,
     "tags": [
-      "revolver",
-      "våpen"
+      "leketøysvåpen",
+      "pistol"
     ],
     "unicode": "🔫"
   },
@@ -27291,7 +27284,9 @@
     "hexcode": "1F5FF",
     "order": 3591,
     "tags": [
+      "ansiktsstatue",
       "moai",
+      "påskeøya",
       "statue"
     ],
     "unicode": "🗿"
@@ -27573,8 +27568,7 @@
       "gående",
       "ikke",
       "ikke tillatt",
-      "nei",
-      "skilt"
+      "nei"
     ],
     "unicode": "🚷"
   },
@@ -28513,12 +28507,13 @@
     "unicode": "⚧️"
   },
   {
-    "annotation": "gangetegn",
+    "annotation": "gange",
     "group": 8,
     "hexcode": "2716",
     "order": 3731,
     "tags": [
       "avbryt",
+      "gangetegn",
       "multiplikasjon",
       "multiplisere",
       "x",
@@ -28527,21 +28522,22 @@
     "unicode": "✖️"
   },
   {
-    "annotation": "plusstegn",
+    "annotation": "pluss",
     "group": 8,
     "hexcode": "2795",
     "order": 3732,
     "tags": [
       "+",
+      "addisjon",
       "fortegn",
       "matte",
-      "pluss",
+      "plusstegn",
       "positivt"
     ],
     "unicode": "➕"
   },
   {
-    "annotation": "minustegn",
+    "annotation": "minus",
     "group": 8,
     "hexcode": "2796",
     "order": 3733,
@@ -28549,19 +28545,20 @@
       "-",
       "fortegn",
       "matte",
-      "minus",
+      "minustegn",
       "negativt",
+      "subtraksjon",
       "−"
     ],
     "unicode": "➖"
   },
   {
-    "annotation": "deletegn",
+    "annotation": "dele",
     "group": 8,
     "hexcode": "2797",
     "order": 3734,
     "tags": [
-      "dele",
+      "deletegn",
       "deling",
       "divisjon",
       "divisjonstegn",
@@ -28606,23 +28603,23 @@
       "!",
       "!?",
       "?",
-      "spørsmål",
+      "interrobang",
       "spørsmålstegn",
       "tegn",
       "tegnsetting",
-      "utrop",
       "utropstegn"
     ],
     "unicode": "⁉️"
   },
   {
-    "annotation": "spørsmålstegn",
+    "annotation": "rødt spørsmålstegn",
     "group": 8,
     "hexcode": "2753",
     "order": 3741,
     "tags": [
       "?",
-      "spørsmål"
+      "spørsmål",
+      "spørsmålstegn"
     ],
     "unicode": "❓️"
   },
@@ -28649,7 +28646,7 @@
     "unicode": "❕"
   },
   {
-    "annotation": "utropstegn",
+    "annotation": "rødt utropstegn",
     "group": 8,
     "hexcode": "2757",
     "order": 3744,
@@ -28657,7 +28654,8 @@
       "!",
       "tegn",
       "tegnsetting",
-      "utrop"
+      "utrop",
+      "utropstegn"
     ],
     "unicode": "❗️"
   },
@@ -30514,7 +30512,7 @@
     "unicode": "🇨🇨"
   },
   {
-    "annotation": "flagg: Kongo-Kinshasa",
+    "annotation": "flagg: Kongo",
     "group": 9,
     "hexcode": "1F1E8-1F1E9",
     "order": 3948,
@@ -31163,7 +31161,7 @@
     "unicode": "🇬🇾"
   },
   {
-    "annotation": "flagg: Hongkong S.A.R. Kina",
+    "annotation": "flagg: Hongkong SAR Kina",
     "group": 9,
     "hexcode": "1F1ED-1F1F0",
     "order": 4007,
@@ -31757,7 +31755,7 @@
     "unicode": "🇲🇳"
   },
   {
-    "annotation": "flagg: Macao S.A.R. Kina",
+    "annotation": "flagg: Macao SAR Kina",
     "group": 9,
     "hexcode": "1F1F2-1F1F4",
     "order": 4061,

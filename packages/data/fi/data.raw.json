@@ -433,7 +433,6 @@
       "naama",
       "satu",
       "sädekehä",
-      "tarina",
       "viaton"
     ],
     "emoji": "😇",
@@ -1178,11 +1177,13 @@
     "emoticon": ":&"
   },
   {
-    "annotation": "pyörtyvä",
+    "annotation": "tajuton",
     "hexcode": "1F635",
     "tags": [
       "huimaus",
+      "kuollut",
       "naama",
+      "pyörtyvä",
       "tuupertuva"
     ],
     "emoji": "😵",
@@ -2770,7 +2771,8 @@
       "heilautus",
       "käsi",
       "vartalo",
-      "vilkuttaa"
+      "vilkuttaa",
+      "vilkutus"
     ],
     "emoji": "👋",
     "text": "",
@@ -3319,7 +3321,10 @@
     "annotation": "nipistävä käsi",
     "hexcode": "1F90F",
     "tags": [
-      "pieni määrä"
+      "hippunen",
+      "nipistysote",
+      "pieni määrä",
+      "vähäinen määrä"
     ],
     "emoji": "🤏",
     "text": "",
@@ -5081,7 +5086,9 @@
       "kiitos",
       "kumarrus",
       "pliis",
-      "rukous"
+      "pyyntö",
+      "rukous",
+      "yläfemma"
     ],
     "emoji": "🙏",
     "text": "",
@@ -5913,7 +5920,6 @@
     "tags": [
       "elin",
       "kardiologia",
-      "keskipiste",
       "pulssi",
       "syke",
       "verenkierto"
@@ -11128,6 +11134,7 @@
     "tags": [
       "koulu",
       "mies",
+      "ohjaaja",
       "opettaja"
     ],
     "emoji": "👨‍🏫",
@@ -13480,11 +13487,12 @@
     ]
   },
   {
-    "annotation": "miesartisti",
+    "annotation": "miestaiteilija",
     "hexcode": "1F468-200D-1F3A8",
     "tags": [
       "maalari",
       "mies",
+      "miesartisti",
       "taide",
       "taiteilija"
     ],
@@ -13497,7 +13505,7 @@
     "version": 4,
     "skins": [
       {
-        "annotation": "miesartisti: vaalea iho",
+        "annotation": "miestaiteilija: vaalea iho",
         "hexcode": "1F468-1F3FB-200D-1F3A8",
         "emoji": "👨🏻‍🎨",
         "text": "",
@@ -13509,7 +13517,7 @@
         "tone": 1
       },
       {
-        "annotation": "miesartisti: keskivaalea iho",
+        "annotation": "miestaiteilija: keskivaalea iho",
         "hexcode": "1F468-1F3FC-200D-1F3A8",
         "emoji": "👨🏼‍🎨",
         "text": "",
@@ -13521,7 +13529,7 @@
         "tone": 2
       },
       {
-        "annotation": "miesartisti: tummanvaalea iho",
+        "annotation": "miestaiteilija: tummanvaalea iho",
         "hexcode": "1F468-1F3FD-200D-1F3A8",
         "emoji": "👨🏽‍🎨",
         "text": "",
@@ -13533,7 +13541,7 @@
         "tone": 3
       },
       {
-        "annotation": "miesartisti: keskitumma iho",
+        "annotation": "miestaiteilija: keskitumma iho",
         "hexcode": "1F468-1F3FE-200D-1F3A8",
         "emoji": "👨🏾‍🎨",
         "text": "",
@@ -13545,7 +13553,7 @@
         "tone": 4
       },
       {
-        "annotation": "miesartisti: tumma iho",
+        "annotation": "miestaiteilija: tumma iho",
         "hexcode": "1F468-1F3FF-200D-1F3A8",
         "emoji": "👨🏿‍🎨",
         "text": "",
@@ -13559,11 +13567,13 @@
     ]
   },
   {
-    "annotation": "naisartisti",
+    "annotation": "naistaiteilija",
     "hexcode": "1F469-200D-1F3A8",
     "tags": [
+      "kuvataiteilija",
       "maalari",
       "nainen",
+      "naisartisti",
       "taide",
       "taiteilija"
     ],
@@ -13576,7 +13586,7 @@
     "version": 4,
     "skins": [
       {
-        "annotation": "naisartisti: vaalea iho",
+        "annotation": "naistaiteilija: vaalea iho",
         "hexcode": "1F469-1F3FB-200D-1F3A8",
         "emoji": "👩🏻‍🎨",
         "text": "",
@@ -13588,7 +13598,7 @@
         "tone": 1
       },
       {
-        "annotation": "naisartisti: keskivaalea iho",
+        "annotation": "naistaiteilija: keskivaalea iho",
         "hexcode": "1F469-1F3FC-200D-1F3A8",
         "emoji": "👩🏼‍🎨",
         "text": "",
@@ -13600,7 +13610,7 @@
         "tone": 2
       },
       {
-        "annotation": "naisartisti: tummanvaalea iho",
+        "annotation": "naistaiteilija: tummanvaalea iho",
         "hexcode": "1F469-1F3FD-200D-1F3A8",
         "emoji": "👩🏽‍🎨",
         "text": "",
@@ -13612,7 +13622,7 @@
         "tone": 3
       },
       {
-        "annotation": "naisartisti: keskitumma iho",
+        "annotation": "naistaiteilija: keskitumma iho",
         "hexcode": "1F469-1F3FE-200D-1F3A8",
         "emoji": "👩🏾‍🎨",
         "text": "",
@@ -13624,7 +13634,7 @@
         "tone": 4
       },
       {
-        "annotation": "naisartisti: tumma iho",
+        "annotation": "naistaiteilija: tumma iho",
         "hexcode": "1F469-1F3FF-200D-1F3A8",
         "emoji": "👩🏿‍🎨",
         "text": "",
@@ -16198,7 +16208,7 @@
     ]
   },
   {
-    "annotation": "huntupäinen morsian",
+    "annotation": "huntupäinen henkilö",
     "hexcode": "1F470",
     "tags": [
       "huntu",
@@ -16214,7 +16224,7 @@
     "version": 0.6,
     "skins": [
       {
-        "annotation": "huntupäinen morsian: vaalea iho",
+        "annotation": "huntupäinen henkilö: vaalea iho",
         "hexcode": "1F470-1F3FB",
         "emoji": "👰🏻",
         "text": "",
@@ -16226,7 +16236,7 @@
         "tone": 1
       },
       {
-        "annotation": "huntupäinen morsian: keskivaalea iho",
+        "annotation": "huntupäinen henkilö: keskivaalea iho",
         "hexcode": "1F470-1F3FC",
         "emoji": "👰🏼",
         "text": "",
@@ -16238,7 +16248,7 @@
         "tone": 2
       },
       {
-        "annotation": "huntupäinen morsian: tummanvaalea iho",
+        "annotation": "huntupäinen henkilö: tummanvaalea iho",
         "hexcode": "1F470-1F3FD",
         "emoji": "👰🏽",
         "text": "",
@@ -16250,7 +16260,7 @@
         "tone": 3
       },
       {
-        "annotation": "huntupäinen morsian: keskitumma iho",
+        "annotation": "huntupäinen henkilö: keskitumma iho",
         "hexcode": "1F470-1F3FE",
         "emoji": "👰🏾",
         "text": "",
@@ -16262,7 +16272,7 @@
         "tone": 4
       },
       {
-        "annotation": "huntupäinen morsian: tumma iho",
+        "annotation": "huntupäinen henkilö: tumma iho",
         "hexcode": "1F470-1F3FF",
         "emoji": "👰🏿",
         "text": "",
@@ -17922,14 +17932,10 @@
     "tags": [
       "hyönteismäinen",
       "ilmatar",
-      "impi",
       "keijukainen",
       "luonnotar",
-      "metsänneito",
       "oberon",
       "puck",
-      "siivet",
-      "sinipiika",
       "titania"
     ],
     "emoji": "🧚",
@@ -18180,7 +18186,6 @@
     "tags": [
       "dracula",
       "elävä kuollut",
-      "epäkuollut",
       "hampaat",
       "torahammas",
       "verenhimo",
@@ -18263,7 +18268,6 @@
     "tags": [
       "dracula",
       "elävä kuollut",
-      "epäkuollut",
       "hampaat",
       "torahammas",
       "verenhimo",
@@ -18350,7 +18354,6 @@
     "hexcode": "1F9DB-200D-2640-FE0F",
     "tags": [
       "elävä kuollut",
-      "epäkuollut",
       "hampaat",
       "torahammas",
       "verenhimo",
@@ -18436,14 +18439,10 @@
     "annotation": "merenväki",
     "hexcode": "1F9DC",
     "tags": [
-      "ahti",
       "kalanpyrstö",
       "merenhaltija",
-      "merenmies",
-      "merenneito",
-      "pyrstö",
       "vedenhaltija",
-      "vedenväki"
+      "vetehinen"
     ],
     "emoji": "🧜",
     "text": "",
@@ -18860,9 +18859,9 @@
     "hexcode": "1F9DD-200D-2640-FE0F",
     "tags": [
       "alf",
+      "galadriel",
       "haltia",
       "keiju",
-      "keijukainen",
       "suippokorva"
     ],
     "emoji": "🧝‍♀️",
@@ -28271,6 +28270,9 @@
     "hexcode": "1F40E",
     "tags": [
       "kilpahevonen",
+      "ratsastaja",
+      "ratsu",
+      "ratsuhevonen",
       "ravihevonen",
       "ravit"
     ],
@@ -28908,7 +28910,7 @@
     "annotation": "mäyrä",
     "hexcode": "1F9A1",
     "tags": [
-      "mäyrä"
+      "mesimäyrä"
     ],
     "emoji": "🦡",
     "text": "",
@@ -29148,10 +29150,10 @@
     "annotation": "höyhen",
     "hexcode": "1FAB6",
     "tags": [
-      "höyhenet",
       "keveä",
       "lento",
-      "lintu"
+      "lintu",
+      "sulka"
     ],
     "emoji": "🪶",
     "text": "",
@@ -29905,9 +29907,12 @@
     "hexcode": "1FAB4",
     "tags": [
       "hoivata",
+      "hyödytön",
       "kasvaa",
       "kasvi",
-      "koti"
+      "kokousfiikus",
+      "koti",
+      "tylsä"
     ],
     "emoji": "🪴",
     "text": "",
@@ -32114,7 +32119,6 @@
       "horoskooppimerkki",
       "juoma",
       "kannu",
-      "kokkaus",
       "ruoanlaitto",
       "vesimies"
     ],
@@ -32478,6 +32482,7 @@
     "annotation": "maja",
     "hexcode": "1F6D6",
     "tags": [
+      "jurtta",
       "mökki",
       "savimaja",
       "talo"
@@ -33744,8 +33749,7 @@
     "annotation": "rullaluistin",
     "hexcode": "1F6FC",
     "tags": [
-      "luistin",
-      "rulla"
+      "luistin"
     ],
     "emoji": "🛼",
     "text": "",
@@ -35655,6 +35659,7 @@
     "hexcode": "1F384",
     "tags": [
       "joulu",
+      "joulupuu",
       "juhla",
       "kuusi"
     ],
@@ -36021,7 +36026,8 @@
     "tags": [
       "ensimmäinen",
       "kulta",
-      "mitali"
+      "mitali",
+      "voittaja"
     ],
     "emoji": "🥇",
     "text": "",
@@ -36347,7 +36353,6 @@
       "judo",
       "kamppailulajit",
       "karate",
-      "liikunta",
       "taekwondo",
       "urheilu"
     ],
@@ -36955,7 +36960,9 @@
       "käsinompelu",
       "neula",
       "ompelu",
-      "parsiminen"
+      "parsiminen",
+      "silmäneula",
+      "tikit"
     ],
     "emoji": "🪡",
     "text": "",
@@ -41188,7 +41195,8 @@
     "annotation": "varoitus",
     "hexcode": "26A0",
     "tags": [
-      "matkatavarat"
+      "muu vaara",
+      "vaara"
     ],
     "emoji": "⚠️",
     "text": "⚠︎",
@@ -41251,9 +41259,10 @@
     "version": 0.6
   },
   {
-    "annotation": "ei polkupyörille",
+    "annotation": "polkupyörällä ajo kielletty",
     "hexcode": "1F6B3",
     "tags": [
+      "ei polkupyörille",
       "kielletty",
       "liikenne",
       "polkupyörä",
@@ -41302,10 +41311,9 @@
     "annotation": "vesi ei juomakelpoista",
     "hexcode": "1F6B1",
     "tags": [
-      "juomakelpoinen",
-      "juominen",
-      "kielletty",
-      "vesi"
+      "juomakelvoton",
+      "juominen kielletty",
+      "pilaantunut vesi"
     ],
     "emoji": "🚱",
     "text": "",
@@ -42621,13 +42629,14 @@
     "version": 13
   },
   {
-    "annotation": "paksu kertomerkki",
+    "annotation": "kertomerkki",
     "hexcode": "2716",
     "tags": [
       "kertolasku",
       "merkki",
       "peruuta",
-      "x"
+      "x",
+      "×"
     ],
     "emoji": "✖️",
     "text": "✖︎",
@@ -45811,7 +45820,7 @@
     "version": 2
   },
   {
-    "annotation": "lippu: Mikronesian liittovaltio",
+    "annotation": "lippu: Mikronesia",
     "hexcode": "1F1EB-1F1F2",
     "tags": [
       "FM",
@@ -46066,7 +46075,7 @@
     "version": 2
   },
   {
-    "annotation": "lippu: Etelä-Georgia ja Eteläiset Sandwichsaaret",
+    "annotation": "lippu: Etelä-Georgia ja Eteläiset Sandwichinsaaret",
     "hexcode": "1F1EC-1F1F8",
     "tags": [
       "GS",
@@ -46141,7 +46150,7 @@
     "version": 2
   },
   {
-    "annotation": "lippu: Hongkong – Kiinan e.h.a.",
+    "annotation": "lippu: Hongkong – Kiinan erityishallintoalue",
     "hexcode": "1F1ED-1F1F0",
     "tags": [
       "HK",
@@ -46951,7 +46960,7 @@
     "version": 2
   },
   {
-    "annotation": "lippu: Macao – Kiinan e.h.a.",
+    "annotation": "lippu: Macao – Kiinan erityishallintoalue",
     "hexcode": "1F1F2-1F1F4",
     "tags": [
       "MO",
@@ -47476,7 +47485,7 @@
     "version": 2
   },
   {
-    "annotation": "lippu: Palestiinalaisalueet",
+    "annotation": "lippu: Palestiinalaisalue",
     "hexcode": "1F1F5-1F1F8",
     "tags": [
       "PS",
@@ -47746,7 +47755,7 @@
     "version": 2
   },
   {
-    "annotation": "lippu: Huippuvuoret ja Jan Mayen",
+    "annotation": "lippu: Svalbard ja Jan Mayen",
     "hexcode": "1F1F8-1F1EF",
     "tags": [
       "SJ",
@@ -47926,7 +47935,7 @@
     "version": 2
   },
   {
-    "annotation": "lippu: Swazimaa",
+    "annotation": "lippu: Eswatini",
     "hexcode": "1F1F8-1F1FF",
     "tags": [
       "SZ",
@@ -47986,7 +47995,7 @@
     "version": 2
   },
   {
-    "annotation": "lippu: Ranskan eteläiset alueet",
+    "annotation": "lippu: Ranskan eteläiset ja antarktiset alueet",
     "hexcode": "1F1F9-1F1EB",
     "tags": [
       "TF",

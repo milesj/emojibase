@@ -282,7 +282,6 @@
     "annotation": "avatud suu ja suletud silmadega naerunägu",
     "hexcode": "1F606",
     "tags": [
-      "avatud",
       "lahti",
       "naer",
       "naeratus",
@@ -423,7 +422,6 @@
       "fantaasia",
       "halo",
       "ingel",
-      "muinasjutt",
       "naeratus",
       "nägu",
       "süütu"
@@ -1236,14 +1234,11 @@
     "hexcode": "1F60E",
     "tags": [
       "ere",
-      "ilm",
       "lahe",
       "naeratus",
       "nägu",
-      "prillid",
       "päike",
-      "päikeseprillid",
-      "silm"
+      "päikeseprillid"
     ],
     "emoji": "😎",
     "text": "",
@@ -1935,11 +1930,7 @@
     "hexcode": "1F47D",
     "tags": [
       "fantaasia",
-      "jaapan",
-      "koletis",
-      "koll",
       "maaväline",
-      "muinasjutt",
       "nägu",
       "olend"
     ],
@@ -1955,11 +1946,8 @@
     "annotation": "tulnukkoletis",
     "hexcode": "1F47E",
     "tags": [
-      "fantaasia",
       "koletis",
-      "kosmos",
       "maaväline",
-      "muinasjutt",
       "nägu",
       "olend",
       "tulnukas",
@@ -32033,7 +32021,6 @@
     "hexcode": "1F5FB",
     "tags": [
       "fuji",
-      "fuji mägi",
       "mägi"
     ],
     "emoji": "🗻",
@@ -32131,10 +32118,10 @@
     "version": 0.7
   },
   {
-    "annotation": "klassikaline hoone",
+    "annotation": "antiikhoone",
     "hexcode": "1F3DB",
     "tags": [
-      "klassikaline",
+      "antiikne",
       "maja"
     ],
     "emoji": "🏛️",
@@ -32501,7 +32488,6 @@
     "hexcode": "1F5FC",
     "tags": [
       "tokyo",
-      "tokyo torn",
       "torn"
     ],
     "emoji": "🗼",
@@ -32742,7 +32728,6 @@
       "hoone",
       "ilm",
       "loojang",
-      "päike",
       "siluett",
       "videvik",
       "õhtu"
@@ -32839,7 +32824,6 @@
     "hexcode": "1F3A2",
     "tags": [
       "ameerika",
-      "ameerika mäed",
       "lõbustuspark",
       "mäed"
     ],
@@ -32852,7 +32836,7 @@
     "version": 0.6
   },
   {
-    "annotation": "habemeajaja silt",
+    "annotation": "habemeajaja tähis",
     "hexcode": "1F488",
     "tags": [
       "habemeajaja",
@@ -32902,7 +32886,6 @@
     "annotation": "rongivagun",
     "hexcode": "1F683",
     "tags": [
-      "elekter",
       "rong",
       "rööpad",
       "sõiduk",
@@ -33365,7 +33348,7 @@
     "annotation": "motoroller",
     "hexcode": "1F6F5",
     "tags": [
-      "skuuter"
+      "roller"
     ],
     "emoji": "🛵",
     "text": "",
@@ -33379,6 +33362,7 @@
     "annotation": "manuaalratastool",
     "hexcode": "1F9BD",
     "tags": [
+      "juurdepääs",
       "ligipääs",
       "ratastool"
     ],
@@ -33394,6 +33378,7 @@
     "annotation": "elektriratastool",
     "hexcode": "1F9BC",
     "tags": [
+      "juurdepääs",
       "ligipääs",
       "ratastool"
     ],
@@ -33496,7 +33481,8 @@
     "annotation": "kiirtee",
     "hexcode": "1F6E3",
     "tags": [
-      "tänav"
+      "maantee",
+      "tee"
     ],
     "emoji": "🛣️",
     "text": "🛣︎",
@@ -33538,7 +33524,7 @@
     "version": 0.7
   },
   {
-    "annotation": "kütusepump",
+    "annotation": "tankur",
     "hexcode": "26FD",
     "tags": [
       "bensiin",
@@ -33916,8 +33902,7 @@
     "annotation": "satelliit",
     "hexcode": "1F6F0",
     "tags": [
-      "kosmos",
-      "sõiduk"
+      "kosmos"
     ],
     "emoji": "🛰️",
     "text": "🛰︎",
@@ -33957,11 +33942,13 @@
     "version": 5
   },
   {
-    "annotation": "kell",
+    "annotation": "märgukell",
     "hexcode": "1F6CE",
     "tags": [
       "hotell",
-      "jooksupoiss"
+      "jooksupoiss",
+      "kell",
+      "kõlisti"
     ],
     "emoji": "🛎️",
     "text": "🛎︎",
@@ -34819,10 +34806,10 @@
     "version": 12
   },
   {
-    "annotation": "keskmine täht",
+    "annotation": "täht",
     "hexcode": "2B50",
     "tags": [
-      "täht"
+      "tärn"
     ],
     "emoji": "⭐️",
     "text": "⭐︎",
@@ -35059,7 +35046,7 @@
     "version": 0.7
   },
   {
-    "annotation": "näoga kuu",
+    "annotation": "näoga tuul",
     "hexcode": "1F32C",
     "tags": [
       "ilm",
@@ -35144,7 +35131,7 @@
     "hexcode": "2614",
     "tags": [
       "ilm",
-      "piist",
+      "piisk",
       "riided",
       "vihm",
       "vihmavari"
@@ -35158,13 +35145,14 @@
     "version": 0.6
   },
   {
-    "annotation": "vihmavari maas",
+    "annotation": "päikesevari maas",
     "hexcode": "26F1",
     "tags": [
       "ilm",
       "päike",
       "vihm",
-      "vihmavari"
+      "vihmavari",
+      "vihmavari maas"
     ],
     "emoji": "⛱️",
     "text": "⛱︎",
@@ -35363,12 +35351,11 @@
     "version": 0.6
   },
   {
-    "annotation": "Ilutulestikurakett",
+    "annotation": "ilutulestikurakett",
     "hexcode": "1F9E8",
     "tags": [
       "dünamiit",
       "ilutulestik",
-      "ilutulestikurakett",
       "lõhkeaine"
     ],
     "emoji": "🧨",
@@ -35797,7 +35784,6 @@
     "hexcode": "1F3C8",
     "tags": [
       "ameerika",
-      "ameerika jalgpall",
       "jalgpall",
       "pall"
     ],
@@ -35826,12 +35812,12 @@
     "version": 1
   },
   {
-    "annotation": "tennisepall",
+    "annotation": "tennis",
     "hexcode": "1F3BE",
     "tags": [
       "pall",
       "reket",
-      "tennis"
+      "tennisepall"
     ],
     "emoji": "🎾",
     "text": "",
@@ -35905,12 +35891,12 @@
     "version": 1
   },
   {
-    "annotation": "jäähokikepp ja litter",
+    "annotation": "jäähoki",
     "hexcode": "1F3D2",
     "tags": [
       "jää",
-      "jäähoki",
       "jäähokikepp",
+      "jäähokikepp ja litter",
       "litter",
       "mäng"
     ],
@@ -36364,10 +36350,10 @@
     "version": 13
   },
   {
-    "annotation": "matrjoškad",
+    "annotation": "matrjoška",
     "hexcode": "1FA86",
     "tags": [
-      "matrjoška",
+      "matrjoškad",
       "nukk",
       "vene"
     ],
@@ -38587,9 +38573,10 @@
     "version": 0.6
   },
   {
-    "annotation": "dollar",
+    "annotation": "dollari rahatäht",
     "hexcode": "1F4B5",
     "tags": [
+      "dollar",
       "pank",
       "raha",
       "rahatäht",
@@ -38622,10 +38609,11 @@
     "version": 1
   },
   {
-    "annotation": "naelsterling",
+    "annotation": "naela rahatäht",
     "hexcode": "1F4B7",
     "tags": [
       "nael",
+      "naelsterling",
       "pank",
       "rahatäht",
       "valuuta"
@@ -39559,9 +39547,10 @@
     "version": 1
   },
   {
-    "annotation": "püstol",
+    "annotation": "veepüstol",
     "hexcode": "1F52B",
     "tags": [
+      "püstol",
       "relv",
       "revolver",
       "tööriist"
@@ -42060,12 +42049,13 @@
     "version": 0.6
   },
   {
-    "annotation": "plussmärk",
+    "annotation": "liitmine",
     "hexcode": "2795",
     "tags": [
       "+",
       "matemaatika",
-      "pluss"
+      "pluss",
+      "plussmärk"
     ],
     "emoji": "➕",
     "text": "",
@@ -42076,12 +42066,13 @@
     "version": 0.6
   },
   {
-    "annotation": "miinusmärk",
+    "annotation": "lahutamine",
     "hexcode": "2796",
     "tags": [
       "-",
       "matemaatika",
       "miinus",
+      "miinusmärk",
       "−"
     ],
     "emoji": "➖",
@@ -42158,12 +42149,13 @@
     "version": 0.6
   },
   {
-    "annotation": "küsimärk",
+    "annotation": "punane küsimärk",
     "hexcode": "2753",
     "tags": [
       "?",
       "kirjavahemärk",
-      "küsimus"
+      "küsimus",
+      "küsimärk"
     ],
     "emoji": "❓️",
     "text": "❓︎",
@@ -42206,10 +42198,11 @@
     "version": 0.6
   },
   {
-    "annotation": "hüüumärk",
+    "annotation": "punane hüüumärk",
     "hexcode": "2757",
     "tags": [
       "!",
+      "hüüumärk",
       "kirjavahemärk"
     ],
     "emoji": "❗️",
@@ -45287,7 +45280,7 @@
     "version": 2
   },
   {
-    "annotation": "lipp: Suurbritannia",
+    "annotation": "lipp: Ühendkuningriik",
     "hexcode": "1F1EC-1F1E7",
     "tags": [
       "GB",

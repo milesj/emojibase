@@ -190,7 +190,6 @@
     "hexcode": "1F606",
     "order": 5,
     "tags": [
-      "avatud",
       "lahti",
       "naer",
       "naeratus",
@@ -299,7 +298,6 @@
       "fantaasia",
       "halo",
       "ingel",
-      "muinasjutt",
       "naeratus",
       "nägu",
       "süütu"
@@ -916,14 +914,11 @@
     "order": 63,
     "tags": [
       "ere",
-      "ilm",
       "lahe",
       "naeratus",
       "nägu",
-      "prillid",
       "päike",
-      "päikeseprillid",
-      "silm"
+      "päikeseprillid"
     ],
     "unicode": "😎",
     "emoticon": "8)"
@@ -1455,11 +1450,7 @@
     "order": 105,
     "tags": [
       "fantaasia",
-      "jaapan",
-      "koletis",
-      "koll",
       "maaväline",
-      "muinasjutt",
       "nägu",
       "olend"
     ],
@@ -1471,11 +1462,8 @@
     "hexcode": "1F47E",
     "order": 106,
     "tags": [
-      "fantaasia",
       "koletis",
-      "kosmos",
       "maaväline",
-      "muinasjutt",
       "nägu",
       "olend",
       "tulnukas",
@@ -20563,7 +20551,6 @@
     "order": 2948,
     "tags": [
       "fuji",
-      "fuji mägi",
       "mägi"
     ],
     "unicode": "🗻"
@@ -20631,12 +20618,12 @@
     "unicode": "🏟️"
   },
   {
-    "annotation": "klassikaline hoone",
+    "annotation": "antiikhoone",
     "group": 5,
     "hexcode": "1F3DB",
     "order": 2962,
     "tags": [
-      "klassikaline",
+      "antiikne",
       "maja"
     ],
     "unicode": "🏛️"
@@ -20907,7 +20894,6 @@
     "order": 2989,
     "tags": [
       "tokyo",
-      "tokyo torn",
       "torn"
     ],
     "unicode": "🗼"
@@ -21088,7 +21074,6 @@
       "hoone",
       "ilm",
       "loojang",
-      "päike",
       "siluett",
       "videvik",
       "õhtu"
@@ -21161,14 +21146,13 @@
     "order": 3013,
     "tags": [
       "ameerika",
-      "ameerika mäed",
       "lõbustuspark",
       "mäed"
     ],
     "unicode": "🎢"
   },
   {
-    "annotation": "habemeajaja silt",
+    "annotation": "habemeajaja tähis",
     "group": 5,
     "hexcode": "1F488",
     "order": 3014,
@@ -21208,7 +21192,6 @@
     "hexcode": "1F683",
     "order": 3017,
     "tags": [
-      "elekter",
       "rong",
       "rööpad",
       "sõiduk",
@@ -21551,7 +21534,7 @@
     "hexcode": "1F6F5",
     "order": 3049,
     "tags": [
-      "skuuter"
+      "roller"
     ],
     "unicode": "🛵"
   },
@@ -21561,6 +21544,7 @@
     "hexcode": "1F9BD",
     "order": 3050,
     "tags": [
+      "juurdepääs",
       "ligipääs",
       "ratastool"
     ],
@@ -21572,6 +21556,7 @@
     "hexcode": "1F9BC",
     "order": 3051,
     "tags": [
+      "juurdepääs",
       "ligipääs",
       "ratastool"
     ],
@@ -21646,7 +21631,8 @@
     "hexcode": "1F6E3",
     "order": 3059,
     "tags": [
-      "tänav"
+      "maantee",
+      "tee"
     ],
     "unicode": "🛣️"
   },
@@ -21674,7 +21660,7 @@
     "unicode": "🛢️"
   },
   {
-    "annotation": "kütusepump",
+    "annotation": "tankur",
     "group": 5,
     "hexcode": "26FD",
     "order": 3064,
@@ -21958,8 +21944,7 @@
     "hexcode": "1F6F0",
     "order": 3094,
     "tags": [
-      "kosmos",
-      "sõiduk"
+      "kosmos"
     ],
     "unicode": "🛰️"
   },
@@ -21985,13 +21970,15 @@
     "unicode": "🛸"
   },
   {
-    "annotation": "kell",
+    "annotation": "märgukell",
     "group": 5,
     "hexcode": "1F6CE",
     "order": 3098,
     "tags": [
       "hotell",
-      "jooksupoiss"
+      "jooksupoiss",
+      "kell",
+      "kõlisti"
     ],
     "unicode": "🛎️"
   },
@@ -22647,12 +22634,12 @@
     "unicode": "🪐"
   },
   {
-    "annotation": "keskmine täht",
+    "annotation": "täht",
     "group": 5,
     "hexcode": "2B50",
     "order": 3153,
     "tags": [
-      "täht"
+      "tärn"
     ],
     "unicode": "⭐️"
   },
@@ -22827,7 +22814,7 @@
     "unicode": "🌫️"
   },
   {
-    "annotation": "näoga kuu",
+    "annotation": "näoga tuul",
     "group": 5,
     "hexcode": "1F32C",
     "order": 3179,
@@ -22894,7 +22881,7 @@
     "order": 3185,
     "tags": [
       "ilm",
-      "piist",
+      "piisk",
       "riided",
       "vihm",
       "vihmavari"
@@ -22902,7 +22889,7 @@
     "unicode": "☔️"
   },
   {
-    "annotation": "vihmavari maas",
+    "annotation": "päikesevari maas",
     "group": 5,
     "hexcode": "26F1",
     "order": 3187,
@@ -22910,7 +22897,8 @@
       "ilm",
       "päike",
       "vihm",
-      "vihmavari"
+      "vihmavari",
+      "vihmavari maas"
     ],
     "unicode": "⛱️"
   },
@@ -23055,14 +23043,13 @@
     "unicode": "🎇"
   },
   {
-    "annotation": "Ilutulestikurakett",
+    "annotation": "ilutulestikurakett",
     "group": 6,
     "hexcode": "1F9E8",
     "order": 3203,
     "tags": [
       "dünamiit",
       "ilutulestik",
-      "ilutulestikurakett",
       "lõhkeaine"
     ],
     "unicode": "🧨"
@@ -23379,7 +23366,6 @@
     "order": 3234,
     "tags": [
       "ameerika",
-      "ameerika jalgpall",
       "jalgpall",
       "pall"
     ],
@@ -23398,14 +23384,14 @@
     "unicode": "🏉"
   },
   {
-    "annotation": "tennisepall",
+    "annotation": "tennis",
     "group": 6,
     "hexcode": "1F3BE",
     "order": 3236,
     "tags": [
       "pall",
       "reket",
-      "tennis"
+      "tennisepall"
     ],
     "unicode": "🎾"
   },
@@ -23457,14 +23443,14 @@
     "unicode": "🏑"
   },
   {
-    "annotation": "jäähokikepp ja litter",
+    "annotation": "jäähoki",
     "group": 6,
     "hexcode": "1F3D2",
     "order": 3241,
     "tags": [
       "jää",
-      "jäähoki",
       "jäähokikepp",
+      "jäähokikepp ja litter",
       "litter",
       "mäng"
     ],
@@ -23800,12 +23786,12 @@
     "unicode": "🪅"
   },
   {
-    "annotation": "matrjoškad",
+    "annotation": "matrjoška",
     "group": 6,
     "hexcode": "1FA86",
     "order": 3272,
     "tags": [
-      "matrjoška",
+      "matrjoškad",
       "nukk",
       "vene"
     ],
@@ -25451,11 +25437,12 @@
     "unicode": "💴"
   },
   {
-    "annotation": "dollar",
+    "annotation": "dollari rahatäht",
     "group": 7,
     "hexcode": "1F4B5",
     "order": 3438,
     "tags": [
+      "dollar",
       "pank",
       "raha",
       "rahatäht",
@@ -25478,12 +25465,13 @@
     "unicode": "💶"
   },
   {
-    "annotation": "naelsterling",
+    "annotation": "naela rahatäht",
     "group": 7,
     "hexcode": "1F4B7",
     "order": 3440,
     "tags": [
       "nael",
+      "naelsterling",
       "pank",
       "rahatäht",
       "valuuta"
@@ -26171,11 +26159,12 @@
     "unicode": "⚔️"
   },
   {
-    "annotation": "püstol",
+    "annotation": "veepüstol",
     "group": 7,
     "hexcode": "1F52B",
     "order": 3523,
     "tags": [
+      "püstol",
       "relv",
       "revolver",
       "tööriist"
@@ -28032,19 +28021,20 @@
     "unicode": "✖️"
   },
   {
-    "annotation": "plussmärk",
+    "annotation": "liitmine",
     "group": 8,
     "hexcode": "2795",
     "order": 3732,
     "tags": [
       "+",
       "matemaatika",
-      "pluss"
+      "pluss",
+      "plussmärk"
     ],
     "unicode": "➕"
   },
   {
-    "annotation": "miinusmärk",
+    "annotation": "lahutamine",
     "group": 8,
     "hexcode": "2796",
     "order": 3733,
@@ -28052,6 +28042,7 @@
       "-",
       "matemaatika",
       "miinus",
+      "miinusmärk",
       "−"
     ],
     "unicode": "➖"
@@ -28106,14 +28097,15 @@
     "unicode": "⁉️"
   },
   {
-    "annotation": "küsimärk",
+    "annotation": "punane küsimärk",
     "group": 8,
     "hexcode": "2753",
     "order": 3741,
     "tags": [
       "?",
       "kirjavahemärk",
-      "küsimus"
+      "küsimus",
+      "küsimärk"
     ],
     "unicode": "❓️"
   },
@@ -28142,12 +28134,13 @@
     "unicode": "❕"
   },
   {
-    "annotation": "hüüumärk",
+    "annotation": "punane hüüumärk",
     "group": 8,
     "hexcode": "2757",
     "order": 3744,
     "tags": [
       "!",
+      "hüüumärk",
       "kirjavahemärk"
     ],
     "unicode": "❗️"
@@ -30423,7 +30416,7 @@
     "unicode": "🇬🇦"
   },
   {
-    "annotation": "lipp: Suurbritannia",
+    "annotation": "lipp: Ühendkuningriik",
     "group": 9,
     "hexcode": "1F1EC-1F1E7",
     "order": 3989,

@@ -4032,6 +4032,7 @@
     "hexcode": "1FAC0",
     "order": 405,
     "tags": [
+      "anatómico",
       "centro",
       "latido",
       "núcleo",
@@ -4048,6 +4049,7 @@
     "tags": [
       "exhalar",
       "inhalar",
+      "respiración",
       "respirar",
       "órgano"
     ],
@@ -4060,6 +4062,7 @@
     "order": 407,
     "tags": [
       "dentista",
+      "molar",
       "muela"
     ],
     "unicode": "🦷"
@@ -5242,7 +5245,7 @@
     ]
   },
   {
-    "annotation": "persona adulta madura",
+    "annotation": "persona mayor",
     "group": 1,
     "hexcode": "1F9D3",
     "order": 564,
@@ -5250,40 +5253,41 @@
       "género",
       "maduro",
       "mayor",
-      "neutro"
+      "neutro",
+      "persona adulta madura"
     ],
     "unicode": "🧓",
     "skins": [
       {
-        "annotation": "persona adulta madura: tono de piel claro",
+        "annotation": "persona mayor: tono de piel claro",
         "group": 1,
         "hexcode": "1F9D3-1F3FB",
         "order": 565,
         "unicode": "🧓🏻"
       },
       {
-        "annotation": "persona adulta madura: tono de piel claro medio",
+        "annotation": "persona mayor: tono de piel claro medio",
         "group": 1,
         "hexcode": "1F9D3-1F3FC",
         "order": 566,
         "unicode": "🧓🏼"
       },
       {
-        "annotation": "persona adulta madura: tono de piel medio",
+        "annotation": "persona mayor: tono de piel medio",
         "group": 1,
         "hexcode": "1F9D3-1F3FD",
         "order": 567,
         "unicode": "🧓🏽"
       },
       {
-        "annotation": "persona adulta madura: tono de piel oscuro medio",
+        "annotation": "persona mayor: tono de piel oscuro medio",
         "group": 1,
         "hexcode": "1F9D3-1F3FE",
         "order": 568,
         "unicode": "🧓🏾"
       },
       {
-        "annotation": "persona adulta madura: tono de piel oscuro",
+        "annotation": "persona mayor: tono de piel oscuro",
         "group": 1,
         "hexcode": "1F9D3-1F3FF",
         "order": 569,
@@ -7197,8 +7201,7 @@
       "enseñanza",
       "instructor",
       "maestro",
-      "profesor",
-      "señorita"
+      "profesor"
     ],
     "unicode": "🧑‍🏫",
     "skins": [
@@ -7396,7 +7399,6 @@
     "hexcode": "1F468-200D-2696-FE0F",
     "order": 966,
     "tags": [
-      "balanza",
       "hombre",
       "juez",
       "justicia",
@@ -7447,7 +7449,6 @@
     "hexcode": "1F469-200D-2696-FE0F",
     "order": 978,
     "tags": [
-      "balanza",
       "jueza",
       "justicia",
       "magistrada",
@@ -8263,8 +8264,8 @@
     "tags": [
       "biólogo",
       "científico",
-      "experimentador",
       "físico",
+      "investigador",
       "químico"
     ],
     "unicode": "🧑‍🔬",
@@ -9212,6 +9213,7 @@
     "hexcode": "1F468-200D-1F692",
     "order": 1212,
     "tags": [
+      "apagafuegos",
       "bombero",
       "camión",
       "manguera"
@@ -9261,6 +9263,8 @@
     "hexcode": "1F469-200D-1F692",
     "order": 1218,
     "tags": [
+      "apagafuegos",
+      "bombera mujera",
       "camión",
       "manguera"
     ],
@@ -9754,6 +9758,7 @@
     "order": 1319,
     "tags": [
       "furtivo",
+      "guerrero",
       "luchador",
       "oculto",
       "sigilo"
@@ -9905,7 +9910,7 @@
     "hexcode": "1F477-200D-2640-FE0F",
     "order": 1343,
     "tags": [
-      "albañil",
+      "albañila",
       "construcción",
       "mujer",
       "obrera",
@@ -11041,9 +11046,10 @@
     "hexcode": "1F9B8",
     "order": 1523,
     "tags": [
-      "bueno",
+      "bien",
       "heroína",
       "héroe",
+      "superheroína",
       "superhéroe",
       "superpoder"
     ],
@@ -11095,6 +11101,7 @@
       "bueno",
       "hombre",
       "héroe",
+      "superhombre",
       "superpoder"
     ],
     "unicode": "🦸‍♂️",
@@ -11193,10 +11200,11 @@
     "hexcode": "1F9B9",
     "order": 1553,
     "tags": [
-      "criminal",
-      "malo",
-      "malvado",
+      "mal",
       "superpoder",
+      "supervillana",
+      "supervillano",
+      "villana",
       "villano"
     ],
     "unicode": "🦹",
@@ -11244,10 +11252,9 @@
     "hexcode": "1F9B9-200D-2642-FE0F",
     "order": 1559,
     "tags": [
-      "criminal",
       "hombre",
+      "mal",
       "malvado",
-      "superpoder",
       "villano"
     ],
     "unicode": "🦹‍♂️",
@@ -11295,10 +11302,9 @@
     "hexcode": "1F9B9-200D-2640-FE0F",
     "order": 1571,
     "tags": [
-      "criminal",
+      "mal",
       "malvada",
       "mujer",
-      "superpoder",
       "villana"
     ],
     "unicode": "🦹‍♀️",
@@ -12894,8 +12900,7 @@
     "tags": [
       "accesibilidad",
       "ciego",
-      "invidente",
-      "once"
+      "invidente"
     ],
     "unicode": "🧑‍🦯",
     "skins": [
@@ -15269,6 +15274,7 @@
       "acrobacia",
       "gimnasia",
       "pirueta",
+      "rueda",
       "voltereta"
     ],
     "unicode": "🤸",
@@ -15311,7 +15317,7 @@
     ]
   },
   {
-    "annotation": "hombre haciendo una voltereta lateral",
+    "annotation": "hombre dando una voltereta lateral",
     "group": 1,
     "hexcode": "1F938-200D-2642-FE0F",
     "order": 2337,
@@ -15319,40 +15325,41 @@
       "deporte",
       "gimnasia",
       "hombre",
+      "rueda",
       "voltereta"
     ],
     "unicode": "🤸‍♂️",
     "skins": [
       {
-        "annotation": "hombre haciendo una voltereta lateral: tono de piel claro",
+        "annotation": "hombre dando una voltereta lateral: tono de piel claro",
         "group": 1,
         "hexcode": "1F938-1F3FB-200D-2642-FE0F",
         "order": 2339,
         "unicode": "🤸🏻‍♂️"
       },
       {
-        "annotation": "hombre haciendo una voltereta lateral: tono de piel claro medio",
+        "annotation": "hombre dando una voltereta lateral: tono de piel claro medio",
         "group": 1,
         "hexcode": "1F938-1F3FC-200D-2642-FE0F",
         "order": 2341,
         "unicode": "🤸🏼‍♂️"
       },
       {
-        "annotation": "hombre haciendo una voltereta lateral: tono de piel medio",
+        "annotation": "hombre dando una voltereta lateral: tono de piel medio",
         "group": 1,
         "hexcode": "1F938-1F3FD-200D-2642-FE0F",
         "order": 2343,
         "unicode": "🤸🏽‍♂️"
       },
       {
-        "annotation": "hombre haciendo una voltereta lateral: tono de piel oscuro medio",
+        "annotation": "hombre dando una voltereta lateral: tono de piel oscuro medio",
         "group": 1,
         "hexcode": "1F938-1F3FE-200D-2642-FE0F",
         "order": 2345,
         "unicode": "🤸🏾‍♂️"
       },
       {
-        "annotation": "hombre haciendo una voltereta lateral: tono de piel oscuro",
+        "annotation": "hombre dando una voltereta lateral: tono de piel oscuro",
         "group": 1,
         "hexcode": "1F938-1F3FF-200D-2642-FE0F",
         "order": 2347,
@@ -15361,7 +15368,7 @@
     ]
   },
   {
-    "annotation": "mujer haciendo voltereta lateral",
+    "annotation": "mujer dando una voltereta lateral",
     "group": 1,
     "hexcode": "1F938-200D-2640-FE0F",
     "order": 2349,
@@ -15369,40 +15376,41 @@
       "deporte",
       "gimnasia",
       "mujer",
+      "rueda",
       "voltereta"
     ],
     "unicode": "🤸‍♀️",
     "skins": [
       {
-        "annotation": "mujer haciendo voltereta lateral: tono de piel claro",
+        "annotation": "mujer dando una voltereta lateral: tono de piel claro",
         "group": 1,
         "hexcode": "1F938-1F3FB-200D-2640-FE0F",
         "order": 2351,
         "unicode": "🤸🏻‍♀️"
       },
       {
-        "annotation": "mujer haciendo voltereta lateral: tono de piel claro medio",
+        "annotation": "mujer dando una voltereta lateral: tono de piel claro medio",
         "group": 1,
         "hexcode": "1F938-1F3FC-200D-2640-FE0F",
         "order": 2353,
         "unicode": "🤸🏼‍♀️"
       },
       {
-        "annotation": "mujer haciendo voltereta lateral: tono de piel medio",
+        "annotation": "mujer dando una voltereta lateral: tono de piel medio",
         "group": 1,
         "hexcode": "1F938-1F3FD-200D-2640-FE0F",
         "order": 2355,
         "unicode": "🤸🏽‍♀️"
       },
       {
-        "annotation": "mujer haciendo voltereta lateral: tono de piel oscuro medio",
+        "annotation": "mujer dando una voltereta lateral: tono de piel oscuro medio",
         "group": 1,
         "hexcode": "1F938-1F3FE-200D-2640-FE0F",
         "order": 2357,
         "unicode": "🤸🏾‍♀️"
       },
       {
-        "annotation": "mujer haciendo voltereta lateral: tono de piel oscuro",
+        "annotation": "mujer dando una voltereta lateral: tono de piel oscuro",
         "group": 1,
         "hexcode": "1F938-1F3FF-200D-2640-FE0F",
         "order": 2359,
@@ -16141,7 +16149,7 @@
     ]
   },
   {
-    "annotation": "dos personas dándose la mano",
+    "annotation": "dos personas de la mano",
     "group": 1,
     "hexcode": "1F9D1-200D-1F91D-200D-1F9D1",
     "order": 2498,
@@ -16153,175 +16161,175 @@
     "unicode": "🧑‍🤝‍🧑",
     "skins": [
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro",
+        "annotation": "dos personas de la mano: tono de piel claro",
         "group": 1,
         "hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FB",
         "order": 2499,
         "unicode": "🧑🏻‍🤝‍🧑🏻"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro y tono de piel claro medio",
+        "annotation": "dos personas de la mano: tono de piel claro y tono de piel claro medio",
         "group": 1,
         "hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FC",
         "order": 2500,
         "unicode": "🧑🏻‍🤝‍🧑🏼"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro y tono de piel medio",
+        "annotation": "dos personas de la mano: tono de piel claro y tono de piel medio",
         "group": 1,
         "hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FD",
         "order": 2501,
         "unicode": "🧑🏻‍🤝‍🧑🏽"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro y tono de piel oscuro medio",
+        "annotation": "dos personas de la mano: tono de piel claro y tono de piel oscuro medio",
         "group": 1,
         "hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FE",
         "order": 2502,
         "unicode": "🧑🏻‍🤝‍🧑🏾"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro y tono de piel oscuro",
+        "annotation": "dos personas de la mano: tono de piel claro y tono de piel oscuro",
         "group": 1,
         "hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FF",
         "order": 2503,
         "unicode": "🧑🏻‍🤝‍🧑🏿"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro medio y tono de piel claro",
+        "annotation": "dos personas de la mano: tono de piel claro medio y tono de piel claro",
         "group": 1,
         "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FB",
         "order": 2504,
         "unicode": "🧑🏼‍🤝‍🧑🏻"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro medio",
+        "annotation": "dos personas de la mano: tono de piel claro medio",
         "group": 1,
         "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FC",
         "order": 2505,
         "unicode": "🧑🏼‍🤝‍🧑🏼"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro medio y tono de piel medio",
+        "annotation": "dos personas de la mano: tono de piel claro medio y tono de piel medio",
         "group": 1,
         "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FD",
         "order": 2506,
         "unicode": "🧑🏼‍🤝‍🧑🏽"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro medio y tono de piel oscuro medio",
+        "annotation": "dos personas de la mano: tono de piel claro medio y tono de piel oscuro medio",
         "group": 1,
         "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FE",
         "order": 2507,
         "unicode": "🧑🏼‍🤝‍🧑🏾"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel claro medio y tono de piel oscuro",
+        "annotation": "dos personas de la mano: tono de piel claro medio y tono de piel oscuro",
         "group": 1,
         "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FF",
         "order": 2508,
         "unicode": "🧑🏼‍🤝‍🧑🏿"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel medio y tono de piel claro",
+        "annotation": "dos personas de la mano: tono de piel medio y tono de piel claro",
         "group": 1,
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FB",
         "order": 2509,
         "unicode": "🧑🏽‍🤝‍🧑🏻"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel medio y tono de piel claro medio",
+        "annotation": "dos personas de la mano: tono de piel medio y tono de piel claro medio",
         "group": 1,
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FC",
         "order": 2510,
         "unicode": "🧑🏽‍🤝‍🧑🏼"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel medio",
+        "annotation": "dos personas de la mano: tono de piel medio",
         "group": 1,
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FD",
         "order": 2511,
         "unicode": "🧑🏽‍🤝‍🧑🏽"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel medio y tono de piel oscuro medio",
+        "annotation": "dos personas de la mano: tono de piel medio y tono de piel oscuro medio",
         "group": 1,
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FE",
         "order": 2512,
         "unicode": "🧑🏽‍🤝‍🧑🏾"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel medio y tono de piel oscuro",
+        "annotation": "dos personas de la mano: tono de piel medio y tono de piel oscuro",
         "group": 1,
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FF",
         "order": 2513,
         "unicode": "🧑🏽‍🤝‍🧑🏿"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro medio y tono de piel claro",
+        "annotation": "dos personas de la mano: tono de piel oscuro medio y tono de piel claro",
         "group": 1,
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FB",
         "order": 2514,
         "unicode": "🧑🏾‍🤝‍🧑🏻"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro medio y tono de piel claro medio",
+        "annotation": "dos personas de la mano: tono de piel oscuro medio y tono de piel claro medio",
         "group": 1,
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FC",
         "order": 2515,
         "unicode": "🧑🏾‍🤝‍🧑🏼"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro medio y tono de piel medio",
+        "annotation": "dos personas de la mano: tono de piel oscuro medio y tono de piel medio",
         "group": 1,
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FD",
         "order": 2516,
         "unicode": "🧑🏾‍🤝‍🧑🏽"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro medio",
+        "annotation": "dos personas de la mano: tono de piel oscuro medio",
         "group": 1,
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FE",
         "order": 2517,
         "unicode": "🧑🏾‍🤝‍🧑🏾"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro medio y tono de piel oscuro",
+        "annotation": "dos personas de la mano: tono de piel oscuro medio y tono de piel oscuro",
         "group": 1,
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FF",
         "order": 2518,
         "unicode": "🧑🏾‍🤝‍🧑🏿"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro y tono de piel claro",
+        "annotation": "dos personas de la mano: tono de piel oscuro y tono de piel claro",
         "group": 1,
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB",
         "order": 2519,
         "unicode": "🧑🏿‍🤝‍🧑🏻"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro y tono de piel claro medio",
+        "annotation": "dos personas de la mano: tono de piel oscuro y tono de piel claro medio",
         "group": 1,
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC",
         "order": 2520,
         "unicode": "🧑🏿‍🤝‍🧑🏼"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro y tono de piel medio",
+        "annotation": "dos personas de la mano: tono de piel oscuro y tono de piel medio",
         "group": 1,
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD",
         "order": 2521,
         "unicode": "🧑🏿‍🤝‍🧑🏽"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro y tono de piel oscuro medio",
+        "annotation": "dos personas de la mano: tono de piel oscuro y tono de piel oscuro medio",
         "group": 1,
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE",
         "order": 2522,
         "unicode": "🧑🏿‍🤝‍🧑🏾"
       },
       {
-        "annotation": "dos personas dándose la mano: tono de piel oscuro",
+        "annotation": "dos personas de la mano: tono de piel oscuro",
         "group": 1,
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF",
         "order": 2523,
@@ -19866,7 +19874,8 @@
     "hexcode": "1FAD4",
     "order": 2859,
     "tags": [
-      "méxico",
+      "mejicano",
+      "mexicano",
       "wrap"
     ],
     "unicode": "🫔"
@@ -20659,6 +20668,7 @@
     "order": 2924,
     "tags": [
       "boba",
+      "bubble tea",
       "burbuja",
       "leche",
       "perla",
@@ -21197,13 +21207,13 @@
     "unicode": "🏪"
   },
   {
-    "annotation": "edificio de colegio",
+    "annotation": "colegio",
     "group": 5,
     "hexcode": "1F3EB",
     "order": 2983,
     "tags": [
-      "colegio",
-      "edificio"
+      "edificio",
+      "edificio de colegio"
     ],
     "unicode": "🏫"
   },
@@ -21852,8 +21862,8 @@
     "hexcode": "1F6FB",
     "order": 3041,
     "tags": [
-      "furgoneta",
-      "pickup"
+      "pickup",
+      "ranchera"
     ],
     "unicode": "🛻"
   },
@@ -21996,9 +22006,9 @@
     "hexcode": "1F6FC",
     "order": 3056,
     "tags": [
-      "patines de 4 ruedas",
       "patín",
-      "patín de 4 ruedas"
+      "patín de 4 ruedas",
+      "patín de cuatro ruedas"
     ],
     "unicode": "🛼"
   },
@@ -22133,12 +22143,13 @@
     "unicode": "⚓️"
   },
   {
-    "annotation": "barco de vela",
+    "annotation": "velero",
     "group": 5,
     "hexcode": "26F5",
     "order": 3071,
     "tags": [
       "barco",
+      "barco de vela",
       "centro turístico",
       "resort",
       "yate"
@@ -22219,8 +22230,7 @@
     "hexcode": "2708",
     "order": 3082,
     "tags": [
-      "aeroplano",
-      "vehículo"
+      "aeroplano"
     ],
     "unicode": "✈️"
   },
@@ -22230,7 +22240,7 @@
     "hexcode": "1F6E9",
     "order": 3084,
     "tags": [
-      "vehículo"
+      "avión"
     ],
     "unicode": "🛩️"
   },
@@ -22242,8 +22252,7 @@
     "tags": [
       "aeroplano",
       "avión",
-      "salida",
-      "vehículo"
+      "salida"
     ],
     "unicode": "🛫"
   },
@@ -22255,8 +22264,7 @@
     "tags": [
       "aeroplano",
       "avión",
-      "llegada",
-      "vehículo"
+      "llegada"
     ],
     "unicode": "🛬"
   },
@@ -26548,13 +26556,15 @@
     "unicode": "⚔️"
   },
   {
-    "annotation": "pistola",
+    "annotation": "pistola de agua",
     "group": 7,
     "hexcode": "1F52B",
     "order": 3523,
     "tags": [
-      "arma",
-      "revólver"
+      "agua",
+      "juguete",
+      "pistola",
+      "verano"
     ],
     "unicode": "🔫"
   },
@@ -28589,14 +28599,12 @@
       "!?",
       "?",
       "exclamación",
-      "interrogación",
-      "pregunta",
-      "puntuación"
+      "interrogación"
     ],
     "unicode": "⁉️"
   },
   {
-    "annotation": "signo de interrogación",
+    "annotation": "interrogación roja",
     "group": 8,
     "hexcode": "2753",
     "order": 3741,
@@ -28604,7 +28612,8 @@
       "?",
       "interrogación",
       "pregunta",
-      "puntuación"
+      "puntuación",
+      "signo de interrogación"
     ],
     "unicode": "❓️"
   },
@@ -28634,14 +28643,15 @@
     "unicode": "❕"
   },
   {
-    "annotation": "signo de exclamación",
+    "annotation": "exclamación roja",
     "group": 8,
     "hexcode": "2757",
     "order": 3744,
     "tags": [
       "!",
       "exclamación",
-      "puntuación"
+      "puntuación",
+      "signo de exclamación"
     ],
     "unicode": "❗️"
   },
@@ -30217,7 +30227,7 @@
     "unicode": "🇦🇼"
   },
   {
-    "annotation": "Bandera: Islas Åland",
+    "annotation": "Bandera: Islas Aland",
     "group": 9,
     "hexcode": "1F1E6-1F1FD",
     "order": 3923,
@@ -30987,7 +30997,7 @@
     "unicode": "🇬🇫"
   },
   {
-    "annotation": "Bandera: Guernsey",
+    "annotation": "Bandera: Guernesey",
     "group": 9,
     "hexcode": "1F1EC-1F1EC",
     "order": 3993,

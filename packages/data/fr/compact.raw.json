@@ -285,6 +285,7 @@
     "hexcode": "1F970",
     "order": 14,
     "tags": [
+      "adorer",
       "aimer",
       "amour",
       "amoureuse",
@@ -375,7 +376,7 @@
     "unicode": "😙"
   },
   {
-    "annotation": "Visage souriant avec une larme",
+    "annotation": "visage souriant avec une larme",
     "group": 0,
     "hexcode": "1F972",
     "order": 23,
@@ -385,7 +386,6 @@
       "soulagé",
       "souriant",
       "touché",
-      "visage souriant avec une larme",
       "ému"
     ],
     "unicode": "🥲"
@@ -444,6 +444,7 @@
     "hexcode": "1F61D",
     "order": 28,
     "tags": [
+      "goût",
       "horrible",
       "langue",
       "œil"
@@ -767,8 +768,7 @@
       "chaud",
       "coup de chaleur",
       "fièvre",
-      "transpiration",
-      "visage rouge"
+      "transpiration"
     ],
     "unicode": "🥵"
   },
@@ -781,8 +781,7 @@
       "froid",
       "gelure",
       "glacial",
-      "glaçon",
-      "visage bleu"
+      "glaçon"
     ],
     "unicode": "🥶"
   },
@@ -858,8 +857,7 @@
       "faux nez",
       "incognito",
       "lunettes",
-      "postiche",
-      "visage"
+      "postiche"
     ],
     "unicode": "🥸"
   },
@@ -1404,7 +1402,8 @@
     "order": 109,
     "tags": [
       "sourire",
-      "visage"
+      "visage",
+      "yeux rieurs"
     ],
     "unicode": "😸"
   },
@@ -1415,6 +1414,7 @@
     "order": 110,
     "tags": [
       "joie",
+      "pleurer de rire",
       "sourire",
       "visage"
     ],
@@ -1442,6 +1442,7 @@
     "tags": [
       "ironique",
       "narquois",
+      "sourire en coin",
       "visage"
     ],
     "unicode": "😼"
@@ -1453,6 +1454,7 @@
     "order": 113,
     "tags": [
       "bisou",
+      "embrasser",
       "visage"
     ],
     "unicode": "😽",
@@ -3857,7 +3859,6 @@
     "tags": [
       "battements",
       "cardiologie",
-      "centre",
       "organe",
       "pouls",
       "pulsation"
@@ -4275,46 +4276,45 @@
     ]
   },
   {
-    "annotation": "homme barbu",
+    "annotation": "personne barbue",
     "group": 1,
     "hexcode": "1F9D4",
     "order": 456,
     "tags": [
-      "barbe",
-      "personne barbue"
+      "barbe"
     ],
     "unicode": "🧔",
     "skins": [
       {
-        "annotation": "homme barbu : peau claire",
+        "annotation": "personne barbue : peau claire",
         "group": 1,
         "hexcode": "1F9D4-1F3FB",
         "order": 457,
         "unicode": "🧔🏻"
       },
       {
-        "annotation": "homme barbu : peau moyennement claire",
+        "annotation": "personne barbue : peau moyennement claire",
         "group": 1,
         "hexcode": "1F9D4-1F3FC",
         "order": 458,
         "unicode": "🧔🏼"
       },
       {
-        "annotation": "homme barbu : peau légèrement mate",
+        "annotation": "personne barbue : peau légèrement mate",
         "group": 1,
         "hexcode": "1F9D4-1F3FD",
         "order": 459,
         "unicode": "🧔🏽"
       },
       {
-        "annotation": "homme barbu : peau mate",
+        "annotation": "personne barbue : peau mate",
         "group": 1,
         "hexcode": "1F9D4-1F3FE",
         "order": 460,
         "unicode": "🧔🏾"
       },
       {
-        "annotation": "homme barbu : peau foncée",
+        "annotation": "personne barbue : peau foncée",
         "group": 1,
         "hexcode": "1F9D4-1F3FF",
         "order": 461,
@@ -12659,9 +12659,9 @@
     "tags": [
       "accessibilité",
       "aveugle",
-      "déficient visuel",
+      "déficiente visuelle",
       "femme",
-      "malvoyant"
+      "malvoyante"
     ],
     "unicode": "👩‍🦯",
     "skins": [
@@ -17456,6 +17456,7 @@
     "hexcode": "1F9AC",
     "order": 2681,
     "tags": [
+      "buffle",
       "cornes",
       "herbivore",
       "troupeau"
@@ -18038,7 +18039,7 @@
     "tags": [
       "extinction",
       "grand",
-      "île maurice"
+      "maurice"
     ],
     "unicode": "🦤"
   },
@@ -19030,7 +19031,7 @@
     "unicode": "🥬"
   },
   {
-    "annotation": "broccoli",
+    "annotation": "brocoli",
     "group": 4,
     "hexcode": "1F966",
     "order": 2833,
@@ -19157,6 +19158,7 @@
     "order": 2844,
     "tags": [
       "boulangerie",
+      "petit-déjeuner",
       "schmear"
     ],
     "unicode": "🥯"
@@ -19180,6 +19182,7 @@
     "tags": [
       "gourmandise",
       "moule",
+      "petit-déjeuner",
       "pâtisserie"
     ],
     "unicode": "🧇"
@@ -19456,7 +19459,7 @@
     "order": 2871,
     "tags": [
       "condiment",
-      "shaker"
+      "salière"
     ],
     "unicode": "🧂"
   },
@@ -20424,13 +20427,13 @@
     "unicode": "🏚️"
   },
   {
-    "annotation": "pavillon",
+    "annotation": "maison",
     "group": 5,
     "hexcode": "1F3E0",
     "order": 2973,
     "tags": [
       "bâtiment",
-      "maison"
+      "pavillon"
     ],
     "unicode": "🏠️"
   },
@@ -20764,7 +20767,10 @@
     "hexcode": "1F306",
     "order": 3006,
     "tags": [
-      "soleil"
+      "coucher de soleil",
+      "crépuscule",
+      "immeubles",
+      "soir"
     ],
     "unicode": "🌆"
   },
@@ -20941,7 +20947,7 @@
     "hexcode": "1F68A",
     "order": 3024,
     "tags": [
-      "tramway"
+      "transport"
     ],
     "unicode": "🚊"
   },
@@ -21242,7 +21248,10 @@
     "hexcode": "1F6F9",
     "order": 3055,
     "tags": [
-      "planche"
+      "glisse",
+      "longboard",
+      "roulettes",
+      "skateboard"
     ],
     "unicode": "🛹"
   },
@@ -22178,7 +22187,10 @@
     "hexcode": "26C8",
     "order": 3161,
     "tags": [
-      "nuage"
+      "météo",
+      "orage",
+      "pluie",
+      "éclair"
     ],
     "unicode": "⛈️"
   },
@@ -22218,7 +22230,10 @@
     "hexcode": "1F327",
     "order": 3169,
     "tags": [
-      "nuage"
+      "averse",
+      "mauvais temps",
+      "météo",
+      "pluie"
     ],
     "unicode": "🌧️"
   },
@@ -22228,7 +22243,10 @@
     "hexcode": "1F328",
     "order": 3171,
     "tags": [
-      "nuage"
+      "flocons",
+      "hiver",
+      "météo",
+      "neige"
     ],
     "unicode": "🌨️"
   },
@@ -22305,7 +22323,7 @@
     "hexcode": "1F302",
     "order": 3182,
     "tags": [
-      "parapluie"
+      "pluie"
     ],
     "unicode": "🌂"
   },
@@ -22315,7 +22333,7 @@
     "hexcode": "2602",
     "order": 3184,
     "tags": [
-      "parapluie"
+      "pluie"
     ],
     "unicode": "☂️"
   },
@@ -22325,7 +22343,9 @@
     "hexcode": "2614",
     "order": 3185,
     "tags": [
-      "parapluie"
+      "gouttes",
+      "météo",
+      "pluie"
     ],
     "unicode": "☔️"
   },
@@ -22335,21 +22355,22 @@
     "hexcode": "26F1",
     "order": 3187,
     "tags": [
-      "météo",
-      "parapluie",
-      "pluie",
+      "plage",
       "soleil"
     ],
     "unicode": "⛱️"
   },
   {
-    "annotation": "symbole de haute tension",
+    "annotation": "haute tension",
     "group": 5,
     "hexcode": "26A1",
     "order": 3188,
     "tags": [
+      "courant",
       "danger",
-      "haute tension"
+      "tension",
+      "éclair",
+      "électricité"
     ],
     "unicode": "⚡️"
   },
@@ -22730,6 +22751,7 @@
     "hexcode": "26BD",
     "order": 3229,
     "tags": [
+      "balle",
       "football",
       "sport"
     ],
@@ -22753,8 +22775,7 @@
     "order": 3231,
     "tags": [
       "balle",
-      "gant",
-      "par le dessous"
+      "gant"
     ],
     "unicode": "🥎"
   },
@@ -22816,11 +22837,12 @@
     "unicode": "🎾"
   },
   {
-    "annotation": "disque-volant",
+    "annotation": "disque volant",
     "group": 6,
     "hexcode": "1F94F",
     "order": 3237,
     "tags": [
+      "frisbee",
       "sport",
       "ultimate"
     ],
@@ -23078,12 +23100,14 @@
     "unicode": "🪁"
   },
   {
-    "annotation": "billard",
+    "annotation": "boule de billard",
     "group": 6,
     "hexcode": "1F3B1",
     "order": 3260,
     "tags": [
-      "jeu"
+      "billard",
+      "jeu",
+      "pool"
     ],
     "unicode": "🎱"
   },
@@ -23457,6 +23481,7 @@
     "order": 3299,
     "tags": [
       "fluo",
+      "gilet jaune",
       "sécurité",
       "sûreté",
       "visibilité"
@@ -23727,6 +23752,7 @@
     "tags": [
       "camping",
       "chaussure",
+      "chaussure de marche",
       "marche",
       "randonnée",
       "vêtements"
@@ -25469,13 +25495,14 @@
     "unicode": "⚔️"
   },
   {
-    "annotation": "pistolet",
+    "annotation": "pistolet à eau",
     "group": 7,
     "hexcode": "1F52B",
     "order": 3523,
     "tags": [
       "arme",
       "arme à feu",
+      "pistolet",
       "revolver"
     ],
     "unicode": "🔫"
@@ -25925,7 +25952,7 @@
     "tags": [
       "déboucheur",
       "plombier",
-      "suction",
+      "succion",
       "toilettes"
     ],
     "unicode": "🪠"
@@ -26057,8 +26084,8 @@
       "bain",
       "lavage",
       "mousse",
-      "pain",
-      "soapdish"
+      "pain de savon",
+      "porte-savon"
     ],
     "unicode": "🧼"
   },
@@ -26744,6 +26771,9 @@
     "hexcode": "2721",
     "order": 3663,
     "tags": [
+      "david",
+      "juif",
+      "religion",
       "étoile",
       "étoile de david"
     ],
@@ -27068,8 +27098,10 @@
     "hexcode": "25C0",
     "order": 3702,
     "tags": [
-      "bouton marche arrière",
-      "retour"
+      "flèche",
+      "gauche",
+      "retour",
+      "triangle"
     ],
     "unicode": "◀️"
   },
@@ -27114,8 +27146,7 @@
     "hexcode": "23EB",
     "order": 3707,
     "tags": [
-      "flèche vers le haut",
-      "haut"
+      "flèche vers le haut"
     ],
     "unicode": "⏫"
   },
@@ -27294,7 +27325,7 @@
     "unicode": "✖️"
   },
   {
-    "annotation": "signe plus",
+    "annotation": "plus",
     "group": 8,
     "hexcode": "2795",
     "order": 3732,
@@ -27303,12 +27334,12 @@
       "addition",
       "arithmétique",
       "mathématiques",
-      "plus"
+      "signe plus"
     ],
     "unicode": "➕"
   },
   {
-    "annotation": "signe moins",
+    "annotation": "moins",
     "group": 8,
     "hexcode": "2796",
     "order": 3733,
@@ -27316,7 +27347,7 @@
       "-",
       "arithmétique",
       "mathématiques",
-      "moins",
+      "signe moins",
       "soustraction",
       "−"
     ],
@@ -27328,10 +27359,10 @@
     "hexcode": "2797",
     "order": 3734,
     "tags": [
-      "/",
-      "arithmétique",
+      "diviser",
       "division",
       "mathématiques",
+      "signe",
       "÷"
     ],
     "unicode": "➗"
@@ -27354,9 +27385,10 @@
     "hexcode": "203C",
     "order": 3738,
     "tags": [
+      "!",
       "!!",
       "exclamation",
-      "ponctuation"
+      "point"
     ],
     "unicode": "‼️"
   },
@@ -27367,22 +27399,25 @@
     "order": 3740,
     "tags": [
       "!",
+      "!?",
       "?",
       "exclamation",
-      "interrogation",
+      "point",
+      "points d’interrogation et d’exclamation",
       "ponctuation",
       "question"
     ],
     "unicode": "⁉️"
   },
   {
-    "annotation": "point d’interrogation",
+    "annotation": "point d’interrogation rouge",
     "group": 8,
     "hexcode": "2753",
     "order": 3741,
     "tags": [
       "?",
       "interrogation",
+      "point d’interrogation",
       "ponctuation",
       "question"
     ],
@@ -27414,13 +27449,14 @@
     "unicode": "❕"
   },
   {
-    "annotation": "point d’exclamation",
+    "annotation": "point d’exclamation rouge",
     "group": 8,
     "hexcode": "2757",
     "order": 3744,
     "tags": [
       "!",
       "exclamation",
+      "point d’exclamation",
       "ponctuation"
     ],
     "unicode": "❗️"
@@ -27452,12 +27488,13 @@
     "unicode": "💱"
   },
   {
-    "annotation": "dollar",
+    "annotation": "symbole dollar",
     "group": 8,
     "hexcode": "1F4B2",
     "order": 3748,
     "tags": [
-      "argent"
+      "argent",
+      "dollar"
     ],
     "unicode": "💲"
   },
@@ -29099,7 +29136,7 @@
     "unicode": "🇧🇲"
   },
   {
-    "annotation": "drapeau : Brunéi Darussalam",
+    "annotation": "drapeau : Brunei",
     "group": 9,
     "hexcode": "1F1E7-1F1F3",
     "order": 3936,
@@ -29638,7 +29675,7 @@
     "unicode": "🇫🇰"
   },
   {
-    "annotation": "drapeau : États fédérés de Micronésie",
+    "annotation": "drapeau : Micronésie",
     "group": 9,
     "hexcode": "1F1EB-1F1F2",
     "order": 3985,
@@ -29825,7 +29862,7 @@
     "unicode": "🇬🇷"
   },
   {
-    "annotation": "drapeau : Géorgie du Sud et îles Sandwich du Sud",
+    "annotation": "drapeau : Géorgie du Sud-et-les Îles Sandwich du Sud",
     "group": 9,
     "hexcode": "1F1EC-1F1F8",
     "order": 4002,
@@ -29891,7 +29928,7 @@
     "unicode": "🇭🇰"
   },
   {
-    "annotation": "drapeau : Îles Heard et McDonald",
+    "annotation": "drapeau : Îles Heard-et-MacDonald",
     "group": 9,
     "hexcode": "1F1ED-1F1F2",
     "order": 4008,
@@ -30122,7 +30159,7 @@
     "unicode": "🇰🇪"
   },
   {
-    "annotation": "drapeau : Kirghizistan",
+    "annotation": "drapeau : Kirghizstan",
     "group": 9,
     "hexcode": "1F1F0-1F1EC",
     "order": 4029,
@@ -30287,7 +30324,7 @@
     "unicode": "🇱🇰"
   },
   {
-    "annotation": "drapeau : Libéria",
+    "annotation": "drapeau : Liberia",
     "group": 9,
     "hexcode": "1F1F1-1F1F7",
     "order": 4044,
@@ -30650,7 +30687,7 @@
     "unicode": "🇳🇫"
   },
   {
-    "annotation": "drapeau : Nigéria",
+    "annotation": "drapeau : Nigeria",
     "group": 9,
     "hexcode": "1F1F3-1F1EC",
     "order": 4077,
@@ -31475,7 +31512,7 @@
     "unicode": "🇻🇦"
   },
   {
-    "annotation": "drapeau : Saint-Vincent-et-les-Grenadines",
+    "annotation": "drapeau : Saint-Vincent-et-les Grenadines",
     "group": 9,
     "hexcode": "1F1FB-1F1E8",
     "order": 4152,
@@ -31519,7 +31556,7 @@
     "unicode": "🇻🇮"
   },
   {
-    "annotation": "drapeau : Vietnam",
+    "annotation": "drapeau : Viêt Nam",
     "group": 9,
     "hexcode": "1F1FB-1F1F3",
     "order": 4156,

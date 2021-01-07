@@ -499,7 +499,7 @@
       "geld",
       "gesicht",
       "gesicht mit dollarzeichen",
-      "mund"
+      "zunge"
     ],
     "unicode": "🤑"
   },
@@ -619,13 +619,13 @@
     "emoticon": ":#"
   },
   {
-    "annotation": "selbstgefällig grinsendes Gesicht",
+    "annotation": "süffisant lächelndes Gesicht",
     "group": 0,
     "hexcode": "1F60F",
     "order": 39,
     "tags": [
       "gesicht",
-      "selbstgefällig grinsendes gesicht"
+      "süffisant lächelndes gesicht"
     ],
     "unicode": "😏",
     "emoticon": ":j"
@@ -885,6 +885,7 @@
     "hexcode": "1F92F",
     "order": 59,
     "tags": [
+      "entsetzt",
       "explodierender kopf",
       "geschockt"
     ],
@@ -2402,9 +2403,9 @@
     "hexcode": "1F90C",
     "order": 200,
     "tags": [
+      "bündelhand",
       "finger",
       "handgeste",
-      "sarkastisch",
       "zusammengedrückt",
       "zusammengedrückte finger"
     ],
@@ -3975,7 +3976,7 @@
     ]
   },
   {
-    "annotation": "Ohr mit Hörhilfe",
+    "annotation": "Ohr mit Hörgerät",
     "group": 1,
     "hexcode": "1F9BB",
     "order": 392,
@@ -3984,41 +3985,41 @@
       "gehörlos",
       "hörgerät",
       "hörhilfe",
-      "ohr mit hörhilfe",
+      "ohr mit hörgerät",
       "taub"
     ],
     "unicode": "🦻",
     "skins": [
       {
-        "annotation": "Ohr mit Hörhilfe: helle Hautfarbe",
+        "annotation": "Ohr mit Hörgerät: helle Hautfarbe",
         "group": 1,
         "hexcode": "1F9BB-1F3FB",
         "order": 393,
         "unicode": "🦻🏻"
       },
       {
-        "annotation": "Ohr mit Hörhilfe: mittelhelle Hautfarbe",
+        "annotation": "Ohr mit Hörgerät: mittelhelle Hautfarbe",
         "group": 1,
         "hexcode": "1F9BB-1F3FC",
         "order": 394,
         "unicode": "🦻🏼"
       },
       {
-        "annotation": "Ohr mit Hörhilfe: mittlere Hautfarbe",
+        "annotation": "Ohr mit Hörgerät: mittlere Hautfarbe",
         "group": 1,
         "hexcode": "1F9BB-1F3FD",
         "order": 395,
         "unicode": "🦻🏽"
       },
       {
-        "annotation": "Ohr mit Hörhilfe: mitteldunkle Hautfarbe",
+        "annotation": "Ohr mit Hörgerät: mitteldunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F9BB-1F3FE",
         "order": 396,
         "unicode": "🦻🏾"
       },
       {
-        "annotation": "Ohr mit Hörhilfe: dunkle Hautfarbe",
+        "annotation": "Ohr mit Hörgerät: dunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F9BB-1F3FF",
         "order": 397,
@@ -4091,16 +4092,18 @@
     "hexcode": "1FAC0",
     "order": 405,
     "tags": [
+      "herz",
       "herz (organ)",
       "herzschlag",
       "mitte",
       "organ",
+      "puls",
       "pulsieren"
     ],
     "unicode": "🫀"
   },
   {
-    "annotation": "Lungen",
+    "annotation": "Lunge",
     "group": 1,
     "hexcode": "1FAC1",
     "order": 406,
@@ -4109,7 +4112,8 @@
       "atmen",
       "ausatmen",
       "einatmen",
-      "lungen",
+      "lunge",
+      "lungenflügel",
       "organ"
     ],
     "unicode": "🫁"
@@ -4383,8 +4387,11 @@
     "hexcode": "1F9D1",
     "order": 438,
     "tags": [
+      "erwachsene person",
       "erwachsener",
-      "geschlechtsneutral"
+      "geschlechtsneutral",
+      "mensch",
+      "person"
     ],
     "unicode": "🧑",
     "skins": [
@@ -4523,47 +4530,48 @@
     ]
   },
   {
-    "annotation": "Mann: Bart",
+    "annotation": "Person: Bart",
     "group": 1,
     "hexcode": "1F9D4",
     "order": 456,
     "tags": [
       "bart",
-      "mann: bart",
-      "person mit bart"
+      "mensch: bart",
+      "person mit bart",
+      "person: bart"
     ],
     "unicode": "🧔",
     "skins": [
       {
-        "annotation": "Mann: helle Hautfarbe, Bart",
+        "annotation": "Person: helle Hautfarbe, Bart",
         "group": 1,
         "hexcode": "1F9D4-1F3FB",
         "order": 457,
         "unicode": "🧔🏻"
       },
       {
-        "annotation": "Mann: mittelhelle Hautfarbe, Bart",
+        "annotation": "Person: mittelhelle Hautfarbe, Bart",
         "group": 1,
         "hexcode": "1F9D4-1F3FC",
         "order": 458,
         "unicode": "🧔🏼"
       },
       {
-        "annotation": "Mann: mittlere Hautfarbe, Bart",
+        "annotation": "Person: mittlere Hautfarbe, Bart",
         "group": 1,
         "hexcode": "1F9D4-1F3FD",
         "order": 459,
         "unicode": "🧔🏽"
       },
       {
-        "annotation": "Mann: mitteldunkle Hautfarbe, Bart",
+        "annotation": "Person: mitteldunkle Hautfarbe, Bart",
         "group": 1,
         "hexcode": "1F9D4-1F3FE",
         "order": 460,
         "unicode": "🧔🏾"
       },
       {
-        "annotation": "Mann: dunkle Hautfarbe, Bart",
+        "annotation": "Person: dunkle Hautfarbe, Bart",
         "group": 1,
         "hexcode": "1F9D4-1F3FF",
         "order": 461,
@@ -4864,8 +4872,11 @@
     "hexcode": "1F9D1-200D-1F9B0",
     "order": 498,
     "tags": [
+      "erwachsene person",
       "erwachsener",
       "geschlechtsneutral",
+      "mensch",
+      "person",
       "rotes haar"
     ],
     "unicode": "🧑‍🦰",
@@ -4961,9 +4972,12 @@
     "hexcode": "1F9D1-200D-1F9B1",
     "order": 510,
     "tags": [
+      "erwachsene person",
       "erwachsener",
       "geschlechtsneutral",
-      "lockiges haar"
+      "lockiges haar",
+      "mensch",
+      "person"
     ],
     "unicode": "🧑‍🦱",
     "skins": [
@@ -5058,8 +5072,11 @@
     "hexcode": "1F9D1-200D-1F9B3",
     "order": 522,
     "tags": [
+      "erwachsene person",
       "erwachsener",
       "geschlechtsneutral",
+      "mensch",
+      "person",
       "weißes haar"
     ],
     "unicode": "🧑‍🦳",
@@ -5155,9 +5172,12 @@
     "hexcode": "1F9D1-200D-1F9B2",
     "order": 534,
     "tags": [
+      "erwachsene person",
       "erwachsener",
       "geschlechtsneutral",
-      "glatze"
+      "glatze",
+      "mensch",
+      "person"
     ],
     "unicode": "🧑‍🦲",
     "skins": [
@@ -5310,7 +5330,9 @@
     "tags": [
       "alt",
       "geschlechtsneutral",
-      "älterer erwachsener"
+      "ohne eindeutiges geschlecht",
+      "älterer erwachsener",
+      "älterer mensch"
     ],
     "unicode": "🧓",
     "skins": [
@@ -9626,8 +9648,8 @@
     "order": 1289,
     "tags": [
       "buckingham palace",
-      "wachmann/ wachfrau",
-      "wachmann/wachfrau"
+      "wachmann/wachfrau",
+      "wachsoldat(in)"
     ],
     "unicode": "💂",
     "skins": [
@@ -9669,46 +9691,47 @@
     ]
   },
   {
-    "annotation": "Wachmann",
+    "annotation": "Wachsoldat",
     "group": 1,
     "hexcode": "1F482-200D-2642-FE0F",
     "order": 1295,
     "tags": [
       "buckingham palace",
-      "wachmann"
+      "wache",
+      "wachsoldat"
     ],
     "unicode": "💂‍♂️",
     "skins": [
       {
-        "annotation": "Wachmann: helle Hautfarbe",
+        "annotation": "Wachsoldat: helle Hautfarbe",
         "group": 1,
         "hexcode": "1F482-1F3FB-200D-2642-FE0F",
         "order": 1297,
         "unicode": "💂🏻‍♂️"
       },
       {
-        "annotation": "Wachmann: mittelhelle Hautfarbe",
+        "annotation": "Wachsoldat: mittelhelle Hautfarbe",
         "group": 1,
         "hexcode": "1F482-1F3FC-200D-2642-FE0F",
         "order": 1299,
         "unicode": "💂🏼‍♂️"
       },
       {
-        "annotation": "Wachmann: mittlere Hautfarbe",
+        "annotation": "Wachsoldat: mittlere Hautfarbe",
         "group": 1,
         "hexcode": "1F482-1F3FD-200D-2642-FE0F",
         "order": 1301,
         "unicode": "💂🏽‍♂️"
       },
       {
-        "annotation": "Wachmann: mitteldunkle Hautfarbe",
+        "annotation": "Wachsoldat: mitteldunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F482-1F3FE-200D-2642-FE0F",
         "order": 1303,
         "unicode": "💂🏾‍♂️"
       },
       {
-        "annotation": "Wachmann: dunkle Hautfarbe",
+        "annotation": "Wachsoldat: dunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F482-1F3FF-200D-2642-FE0F",
         "order": 1305,
@@ -9717,46 +9740,46 @@
     ]
   },
   {
-    "annotation": "Wachfrau",
+    "annotation": "Wachsoldatin",
     "group": 1,
     "hexcode": "1F482-200D-2640-FE0F",
     "order": 1307,
     "tags": [
       "buckingham palace",
-      "wachfrau"
+      "wachsoldatin"
     ],
     "unicode": "💂‍♀️",
     "skins": [
       {
-        "annotation": "Wachfrau: helle Hautfarbe",
+        "annotation": "Wachsoldatin: helle Hautfarbe",
         "group": 1,
         "hexcode": "1F482-1F3FB-200D-2640-FE0F",
         "order": 1309,
         "unicode": "💂🏻‍♀️"
       },
       {
-        "annotation": "Wachfrau: mittelhelle Hautfarbe",
+        "annotation": "Wachsoldatin: mittelhelle Hautfarbe",
         "group": 1,
         "hexcode": "1F482-1F3FC-200D-2640-FE0F",
         "order": 1311,
         "unicode": "💂🏼‍♀️"
       },
       {
-        "annotation": "Wachfrau: mittlere Hautfarbe",
+        "annotation": "Wachsoldatin: mittlere Hautfarbe",
         "group": 1,
         "hexcode": "1F482-1F3FD-200D-2640-FE0F",
         "order": 1313,
         "unicode": "💂🏽‍♀️"
       },
       {
-        "annotation": "Wachfrau: mitteldunkle Hautfarbe",
+        "annotation": "Wachsoldatin: mitteldunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F482-1F3FE-200D-2640-FE0F",
         "order": 1315,
         "unicode": "💂🏾‍♀️"
       },
       {
-        "annotation": "Wachfrau: dunkle Hautfarbe",
+        "annotation": "Wachsoldatin: dunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F482-1F3FF-200D-2640-FE0F",
         "order": 1317,
@@ -10266,7 +10289,7 @@
     "order": 1403,
     "tags": [
       "frau mit kopftuch",
-      "hidschāb",
+      "hidschab",
       "kopftuch",
       "mantilla",
       "tichel"
@@ -11053,7 +11076,7 @@
     ]
   },
   {
-    "annotation": "Held",
+    "annotation": "Superheld(in)",
     "group": 1,
     "hexcode": "1F9B8",
     "order": 1523,
@@ -11062,41 +11085,42 @@
       "gut",
       "held",
       "superheld",
+      "superheld(in)",
       "superkraft",
       "übermensch"
     ],
     "unicode": "🦸",
     "skins": [
       {
-        "annotation": "Held: helle Hautfarbe",
+        "annotation": "Superheld(in): helle Hautfarbe",
         "group": 1,
         "hexcode": "1F9B8-1F3FB",
         "order": 1524,
         "unicode": "🦸🏻"
       },
       {
-        "annotation": "Held: mittelhelle Hautfarbe",
+        "annotation": "Superheld(in): mittelhelle Hautfarbe",
         "group": 1,
         "hexcode": "1F9B8-1F3FC",
         "order": 1525,
         "unicode": "🦸🏼"
       },
       {
-        "annotation": "Held: mittlere Hautfarbe",
+        "annotation": "Superheld(in): mittlere Hautfarbe",
         "group": 1,
         "hexcode": "1F9B8-1F3FD",
         "order": 1526,
         "unicode": "🦸🏽"
       },
       {
-        "annotation": "Held: mitteldunkle Hautfarbe",
+        "annotation": "Superheld(in): mitteldunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F9B8-1F3FE",
         "order": 1527,
         "unicode": "🦸🏾"
       },
       {
-        "annotation": "Held: dunkle Hautfarbe",
+        "annotation": "Superheld(in): dunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F9B8-1F3FF",
         "order": 1528,
@@ -12908,6 +12932,7 @@
     "tags": [
       "barrierefreiheit",
       "blind",
+      "person mit blindenstock",
       "person mit gehstock"
     ],
     "unicode": "🧑‍🦯",
@@ -12958,6 +12983,7 @@
       "barrierefreiheit",
       "blind",
       "mann",
+      "mann mit blindenstock",
       "mann mit gehstock",
       "sehbehindert"
     ],
@@ -13009,6 +13035,7 @@
       "barrierefreiheit",
       "blind",
       "frau",
+      "frau mit blindenstock",
       "frau mit gehstock"
     ],
     "unicode": "👩‍🦯",
@@ -16380,189 +16407,189 @@
     ]
   },
   {
-    "annotation": "händchenhaltende Frauen",
+    "annotation": "Händchen haltende Frauen",
     "group": 1,
     "hexcode": "1F46D",
     "order": 2524,
     "tags": [
       "frauen",
       "händchen halten",
-      "händchenhaltende frauen",
+      "händchen haltende frauen",
       "paar",
       "pärchen aus frau und frau"
     ],
     "unicode": "👭",
     "skins": [
       {
-        "annotation": "händchenhaltende Frauen: helle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: helle Hautfarbe",
         "group": 1,
         "hexcode": "1F46D-1F3FB",
         "order": 2525,
         "unicode": "👭🏻"
       },
       {
-        "annotation": "händchenhaltende Frauen: mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittelhelle Hautfarbe",
         "group": 1,
         "hexcode": "1F46D-1F3FC",
         "order": 2531,
         "unicode": "👭🏼"
       },
       {
-        "annotation": "händchenhaltende Frauen: mittlere Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittlere Hautfarbe",
         "group": 1,
         "hexcode": "1F46D-1F3FD",
         "order": 2537,
         "unicode": "👭🏽"
       },
       {
-        "annotation": "händchenhaltende Frauen: mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mitteldunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F46D-1F3FE",
         "order": 2543,
         "unicode": "👭🏾"
       },
       {
-        "annotation": "händchenhaltende Frauen: dunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: dunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F46D-1F3FF",
         "order": 2549,
         "unicode": "👭🏿"
       },
       {
-        "annotation": "händchenhaltende Frauen: helle Hautfarbe, mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: helle Hautfarbe, mittelhelle Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FB-200D-1F91D-200D-1F469-1F3FC",
         "order": 2526,
         "unicode": "👩🏻‍🤝‍👩🏼"
       },
       {
-        "annotation": "händchenhaltende Frauen: helle Hautfarbe, mittlere Hautfarbe",
+        "annotation": "Händchen haltende Frauen: helle Hautfarbe, mittlere Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FB-200D-1F91D-200D-1F469-1F3FD",
         "order": 2527,
         "unicode": "👩🏻‍🤝‍👩🏽"
       },
       {
-        "annotation": "händchenhaltende Frauen: helle Hautfarbe, mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: helle Hautfarbe, mitteldunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FB-200D-1F91D-200D-1F469-1F3FE",
         "order": 2528,
         "unicode": "👩🏻‍🤝‍👩🏾"
       },
       {
-        "annotation": "händchenhaltende Frauen: helle Hautfarbe, dunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: helle Hautfarbe, dunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FB-200D-1F91D-200D-1F469-1F3FF",
         "order": 2529,
         "unicode": "👩🏻‍🤝‍👩🏿"
       },
       {
-        "annotation": "händchenhaltende Frauen: mittelhelle Hautfarbe, helle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittelhelle Hautfarbe, helle Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FC-200D-1F91D-200D-1F469-1F3FB",
         "order": 2530,
         "unicode": "👩🏼‍🤝‍👩🏻"
       },
       {
-        "annotation": "händchenhaltende Frauen: mittelhelle Hautfarbe, mittlere Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittelhelle Hautfarbe, mittlere Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FC-200D-1F91D-200D-1F469-1F3FD",
         "order": 2532,
         "unicode": "👩🏼‍🤝‍👩🏽"
       },
       {
-        "annotation": "händchenhaltende Frauen: mittelhelle Hautfarbe, mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittelhelle Hautfarbe, mitteldunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FC-200D-1F91D-200D-1F469-1F3FE",
         "order": 2533,
         "unicode": "👩🏼‍🤝‍👩🏾"
       },
       {
-        "annotation": "händchenhaltende Frauen: mittelhelle Hautfarbe, dunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittelhelle Hautfarbe, dunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FC-200D-1F91D-200D-1F469-1F3FF",
         "order": 2534,
         "unicode": "👩🏼‍🤝‍👩🏿"
       },
       {
-        "annotation": "händchenhaltende Frauen: mittlere Hautfarbe, helle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittlere Hautfarbe, helle Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FD-200D-1F91D-200D-1F469-1F3FB",
         "order": 2535,
         "unicode": "👩🏽‍🤝‍👩🏻"
       },
       {
-        "annotation": "händchenhaltende Frauen: mittlere Hautfarbe, mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittlere Hautfarbe, mittelhelle Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FD-200D-1F91D-200D-1F469-1F3FC",
         "order": 2536,
         "unicode": "👩🏽‍🤝‍👩🏼"
       },
       {
-        "annotation": "händchenhaltende Frauen: mittlere Hautfarbe, mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittlere Hautfarbe, mitteldunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FD-200D-1F91D-200D-1F469-1F3FE",
         "order": 2538,
         "unicode": "👩🏽‍🤝‍👩🏾"
       },
       {
-        "annotation": "händchenhaltende Frauen: mittlere Hautfarbe, dunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mittlere Hautfarbe, dunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FD-200D-1F91D-200D-1F469-1F3FF",
         "order": 2539,
         "unicode": "👩🏽‍🤝‍👩🏿"
       },
       {
-        "annotation": "händchenhaltende Frauen: mitteldunkle Hautfarbe, helle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mitteldunkle Hautfarbe, helle Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FE-200D-1F91D-200D-1F469-1F3FB",
         "order": 2540,
         "unicode": "👩🏾‍🤝‍👩🏻"
       },
       {
-        "annotation": "händchenhaltende Frauen: mitteldunkle Hautfarbe, mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mitteldunkle Hautfarbe, mittelhelle Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FE-200D-1F91D-200D-1F469-1F3FC",
         "order": 2541,
         "unicode": "👩🏾‍🤝‍👩🏼"
       },
       {
-        "annotation": "händchenhaltende Frauen: mitteldunkle Hautfarbe, mittlere Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mitteldunkle Hautfarbe, mittlere Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FE-200D-1F91D-200D-1F469-1F3FD",
         "order": 2542,
         "unicode": "👩🏾‍🤝‍👩🏽"
       },
       {
-        "annotation": "händchenhaltende Frauen: mitteldunkle Hautfarbe, dunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: mitteldunkle Hautfarbe, dunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FE-200D-1F91D-200D-1F469-1F3FF",
         "order": 2544,
         "unicode": "👩🏾‍🤝‍👩🏿"
       },
       {
-        "annotation": "händchenhaltende Frauen: dunkle Hautfarbe, helle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: dunkle Hautfarbe, helle Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FF-200D-1F91D-200D-1F469-1F3FB",
         "order": 2545,
         "unicode": "👩🏿‍🤝‍👩🏻"
       },
       {
-        "annotation": "händchenhaltende Frauen: dunkle Hautfarbe, mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: dunkle Hautfarbe, mittelhelle Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FF-200D-1F91D-200D-1F469-1F3FC",
         "order": 2546,
         "unicode": "👩🏿‍🤝‍👩🏼"
       },
       {
-        "annotation": "händchenhaltende Frauen: dunkle Hautfarbe, mittlere Hautfarbe",
+        "annotation": "Händchen haltende Frauen: dunkle Hautfarbe, mittlere Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FF-200D-1F91D-200D-1F469-1F3FD",
         "order": 2547,
         "unicode": "👩🏿‍🤝‍👩🏽"
       },
       {
-        "annotation": "händchenhaltende Frauen: dunkle Hautfarbe, mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Frauen: dunkle Hautfarbe, mitteldunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F469-1F3FF-200D-1F91D-200D-1F469-1F3FE",
         "order": 2548,
@@ -16763,13 +16790,13 @@
     ]
   },
   {
-    "annotation": "händchenhaltende Männer",
+    "annotation": "Händchen haltende Männer",
     "group": 1,
     "hexcode": "1F46C",
     "order": 2576,
     "tags": [
       "händchen halten",
-      "händchenhaltende männer",
+      "händchen haltende männer",
       "männer",
       "paar",
       "pärchen aus mann und mann"
@@ -16777,175 +16804,175 @@
     "unicode": "👬",
     "skins": [
       {
-        "annotation": "händchenhaltende Männer: helle Hautfarbe",
+        "annotation": "Händchen haltende Männer: helle Hautfarbe",
         "group": 1,
         "hexcode": "1F46C-1F3FB",
         "order": 2577,
         "unicode": "👬🏻"
       },
       {
-        "annotation": "händchenhaltende Männer: mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittelhelle Hautfarbe",
         "group": 1,
         "hexcode": "1F46C-1F3FC",
         "order": 2583,
         "unicode": "👬🏼"
       },
       {
-        "annotation": "händchenhaltende Männer: mittlere Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittlere Hautfarbe",
         "group": 1,
         "hexcode": "1F46C-1F3FD",
         "order": 2589,
         "unicode": "👬🏽"
       },
       {
-        "annotation": "händchenhaltende Männer: mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mitteldunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F46C-1F3FE",
         "order": 2595,
         "unicode": "👬🏾"
       },
       {
-        "annotation": "händchenhaltende Männer: dunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: dunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F46C-1F3FF",
         "order": 2601,
         "unicode": "👬🏿"
       },
       {
-        "annotation": "händchenhaltende Männer: helle Hautfarbe, mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Männer: helle Hautfarbe, mittelhelle Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FB-200D-1F91D-200D-1F468-1F3FC",
         "order": 2578,
         "unicode": "👨🏻‍🤝‍👨🏼"
       },
       {
-        "annotation": "händchenhaltende Männer: helle Hautfarbe, mittlere Hautfarbe",
+        "annotation": "Händchen haltende Männer: helle Hautfarbe, mittlere Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FB-200D-1F91D-200D-1F468-1F3FD",
         "order": 2579,
         "unicode": "👨🏻‍🤝‍👨🏽"
       },
       {
-        "annotation": "händchenhaltende Männer: helle Hautfarbe, mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: helle Hautfarbe, mitteldunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FB-200D-1F91D-200D-1F468-1F3FE",
         "order": 2580,
         "unicode": "👨🏻‍🤝‍👨🏾"
       },
       {
-        "annotation": "händchenhaltende Männer: helle Hautfarbe, dunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: helle Hautfarbe, dunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FB-200D-1F91D-200D-1F468-1F3FF",
         "order": 2581,
         "unicode": "👨🏻‍🤝‍👨🏿"
       },
       {
-        "annotation": "händchenhaltende Männer: mittelhelle Hautfarbe, helle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittelhelle Hautfarbe, helle Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FC-200D-1F91D-200D-1F468-1F3FB",
         "order": 2582,
         "unicode": "👨🏼‍🤝‍👨🏻"
       },
       {
-        "annotation": "händchenhaltende Männer: mittelhelle Hautfarbe, mittlere Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittelhelle Hautfarbe, mittlere Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FC-200D-1F91D-200D-1F468-1F3FD",
         "order": 2584,
         "unicode": "👨🏼‍🤝‍👨🏽"
       },
       {
-        "annotation": "händchenhaltende Männer: mittelhelle Hautfarbe, mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittelhelle Hautfarbe, mitteldunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FC-200D-1F91D-200D-1F468-1F3FE",
         "order": 2585,
         "unicode": "👨🏼‍🤝‍👨🏾"
       },
       {
-        "annotation": "händchenhaltende Männer: mittelhelle Hautfarbe, dunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittelhelle Hautfarbe, dunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FC-200D-1F91D-200D-1F468-1F3FF",
         "order": 2586,
         "unicode": "👨🏼‍🤝‍👨🏿"
       },
       {
-        "annotation": "händchenhaltende Männer: mittlere Hautfarbe, helle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittlere Hautfarbe, helle Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FD-200D-1F91D-200D-1F468-1F3FB",
         "order": 2587,
         "unicode": "👨🏽‍🤝‍👨🏻"
       },
       {
-        "annotation": "händchenhaltende Männer: mittlere Hautfarbe, mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittlere Hautfarbe, mittelhelle Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FD-200D-1F91D-200D-1F468-1F3FC",
         "order": 2588,
         "unicode": "👨🏽‍🤝‍👨🏼"
       },
       {
-        "annotation": "händchenhaltende Männer: mittlere Hautfarbe, mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittlere Hautfarbe, mitteldunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FD-200D-1F91D-200D-1F468-1F3FE",
         "order": 2590,
         "unicode": "👨🏽‍🤝‍👨🏾"
       },
       {
-        "annotation": "händchenhaltende Männer: mittlere Hautfarbe, dunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mittlere Hautfarbe, dunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FD-200D-1F91D-200D-1F468-1F3FF",
         "order": 2591,
         "unicode": "👨🏽‍🤝‍👨🏿"
       },
       {
-        "annotation": "händchenhaltende Männer: mitteldunkle Hautfarbe, helle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mitteldunkle Hautfarbe, helle Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FE-200D-1F91D-200D-1F468-1F3FB",
         "order": 2592,
         "unicode": "👨🏾‍🤝‍👨🏻"
       },
       {
-        "annotation": "händchenhaltende Männer: mitteldunkle Hautfarbe, mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mitteldunkle Hautfarbe, mittelhelle Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FE-200D-1F91D-200D-1F468-1F3FC",
         "order": 2593,
         "unicode": "👨🏾‍🤝‍👨🏼"
       },
       {
-        "annotation": "händchenhaltende Männer: mitteldunkle Hautfarbe, mittlere Hautfarbe",
+        "annotation": "Händchen haltende Männer: mitteldunkle Hautfarbe, mittlere Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FE-200D-1F91D-200D-1F468-1F3FD",
         "order": 2594,
         "unicode": "👨🏾‍🤝‍👨🏽"
       },
       {
-        "annotation": "händchenhaltende Männer: mitteldunkle Hautfarbe, dunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: mitteldunkle Hautfarbe, dunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FE-200D-1F91D-200D-1F468-1F3FF",
         "order": 2596,
         "unicode": "👨🏾‍🤝‍👨🏿"
       },
       {
-        "annotation": "händchenhaltende Männer: dunkle Hautfarbe, helle Hautfarbe",
+        "annotation": "Händchen haltende Männer: dunkle Hautfarbe, helle Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FF-200D-1F91D-200D-1F468-1F3FB",
         "order": 2597,
         "unicode": "👨🏿‍🤝‍👨🏻"
       },
       {
-        "annotation": "händchenhaltende Männer: dunkle Hautfarbe, mittelhelle Hautfarbe",
+        "annotation": "Händchen haltende Männer: dunkle Hautfarbe, mittelhelle Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FF-200D-1F91D-200D-1F468-1F3FC",
         "order": 2598,
         "unicode": "👨🏿‍🤝‍👨🏼"
       },
       {
-        "annotation": "händchenhaltende Männer: dunkle Hautfarbe, mittlere Hautfarbe",
+        "annotation": "Händchen haltende Männer: dunkle Hautfarbe, mittlere Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FF-200D-1F91D-200D-1F468-1F3FD",
         "order": 2599,
         "unicode": "👨🏿‍🤝‍👨🏽"
       },
       {
-        "annotation": "händchenhaltende Männer: dunkle Hautfarbe, mitteldunkle Hautfarbe",
+        "annotation": "Händchen haltende Männer: dunkle Hautfarbe, mitteldunkle Hautfarbe",
         "group": 1,
         "hexcode": "1F468-1F3FF-200D-1F91D-200D-1F468-1F3FE",
         "order": 2600,
@@ -18613,8 +18640,8 @@
     "hexcode": "1F9A9",
     "order": 2739,
     "tags": [
+      "bunt",
       "farbenfroh",
-      "farbfroh",
       "flamingo",
       "tropen",
       "tropisch"
@@ -19024,7 +19051,7 @@
     "unicode": "🦂"
   },
   {
-    "annotation": "Moskito",
+    "annotation": "Mücke",
     "group": 3,
     "hexcode": "1F99F",
     "order": 2775,
@@ -19032,7 +19059,8 @@
       "fieber",
       "insekt",
       "malaria",
-      "moskito"
+      "moskito",
+      "mücke"
     ],
     "unicode": "🦟"
   },
@@ -19045,8 +19073,8 @@
       "fliege",
       "krankheit",
       "made",
-      "pest",
-      "verfaulen"
+      "plage",
+      "verwesen"
     ],
     "unicode": "🪰"
   },
@@ -19707,11 +19735,12 @@
     "unicode": "🥒"
   },
   {
-    "annotation": "Grünzeug",
+    "annotation": "Blattgemüse",
     "group": 4,
     "hexcode": "1F96C",
     "order": 2832,
     "tags": [
+      "blattgemüse",
       "gemüse",
       "grünzeug",
       "kohl",
@@ -19856,7 +19885,8 @@
     "tags": [
       "backwaren",
       "bagel",
-      "bäckerei"
+      "bäckerei",
+      "frühstück"
     ],
     "unicode": "🥯"
   },
@@ -19959,7 +19989,7 @@
     "unicode": "🍔"
   },
   {
-    "annotation": "Pommes Frites",
+    "annotation": "Pommes frites",
     "group": 4,
     "hexcode": "1F35F",
     "order": 2853,
@@ -20702,7 +20732,7 @@
     "unicode": "🍵"
   },
   {
-    "annotation": "Sake-Flasche und -tasse",
+    "annotation": "Sake-Flasche und -Tasse",
     "group": 4,
     "hexcode": "1F376",
     "order": 2914,
@@ -20851,6 +20881,7 @@
     "hexcode": "1F9C3",
     "order": 2925,
     "tags": [
+      "getränk",
       "saftpackung",
       "trinkpäckchen"
     ],
@@ -20913,7 +20944,8 @@
       "besteck",
       "gabel",
       "gabel und messer",
-      "messer"
+      "messer",
+      "messer und gabel"
     ],
     "unicode": "🍴"
   },
@@ -21100,7 +21132,8 @@
     "tags": [
       "campen",
       "camping",
-      "zelt"
+      "zelt",
+      "zelten"
     ],
     "unicode": "🏕️"
   },
@@ -21382,16 +21415,16 @@
     "unicode": "🏩"
   },
   {
-    "annotation": "Bedarfsartikelgeschäft",
+    "annotation": "Minimarkt",
     "group": 5,
     "hexcode": "1F3EA",
     "order": 2982,
     "tags": [
-      "bedarfsartikelgeschäft",
       "einkaufen",
       "gebäude",
       "geschäft",
-      "lebensmittel"
+      "lebensmittel",
+      "minimarkt"
     ],
     "unicode": "🏪"
   },
@@ -21799,11 +21832,12 @@
     "unicode": "🚂"
   },
   {
-    "annotation": "Straßenbahnwagen",
+    "annotation": "Eisenbahnwagen",
     "group": 5,
     "hexcode": "1F683",
     "order": 3017,
     "tags": [
+      "eisenbahnwagen",
       "fahrzeug",
       "straßenbahn",
       "straßenbahnwagen",
@@ -21919,12 +21953,13 @@
     "unicode": "🚞"
   },
   {
-    "annotation": "Tramwagen",
+    "annotation": "Straßenbahnwagen",
     "group": 5,
     "hexcode": "1F68B",
     "order": 3027,
     "tags": [
       "straßenbahn",
+      "straßenbahnwagen",
       "tram",
       "tramwagen",
       "waggon"
@@ -21943,13 +21978,13 @@
     "unicode": "🚌"
   },
   {
-    "annotation": "Vorderansicht Bus",
+    "annotation": "Bus von vorne",
     "group": 5,
     "hexcode": "1F68D",
     "order": 3029,
     "tags": [
       "bus",
-      "vorderansicht bus"
+      "bus von vorne"
     ],
     "unicode": "🚍️"
   },
@@ -22035,13 +22070,13 @@
     "unicode": "🚕"
   },
   {
-    "annotation": "Vorderansicht Taxi",
+    "annotation": "Taxi von vorne",
     "group": 5,
     "hexcode": "1F696",
     "order": 3037,
     "tags": [
       "taxi",
-      "vorderansicht taxi"
+      "taxi von vorne"
     ],
     "unicode": "🚖"
   },
@@ -22057,15 +22092,15 @@
     "unicode": "🚗"
   },
   {
-    "annotation": "Vorderansicht Auto",
+    "annotation": "Auto von vorne",
     "group": 5,
     "hexcode": "1F698",
     "order": 3039,
     "tags": [
       "auto",
+      "auto von vorne",
       "automobil",
-      "fahrzeug",
-      "vorderansicht auto"
+      "fahrzeug"
     ],
     "unicode": "🚘️"
   },
@@ -22349,13 +22384,13 @@
     "unicode": "🛑"
   },
   {
-    "annotation": "Baustellenschild",
+    "annotation": "Baustellenabsperrung",
     "group": 5,
     "hexcode": "1F6A7",
     "order": 3069,
     "tags": [
       "baustelle",
-      "baustellenschild",
+      "baustellenabsperrung",
       "schild"
     ],
     "unicode": "🚧"
@@ -22718,8 +22753,12 @@
     "order": 3110,
     "tags": [
       "12",
+      "12:00 uhr",
+      "mittag",
+      "mitternacht",
       "uhr",
-      "ziffernblatt 12:00 uhr"
+      "ziffernblatt 12:00 uhr",
+      "zwölf uhr"
     ],
     "unicode": "🕛️"
   },
@@ -22898,8 +22937,7 @@
     "tags": [
       "6:30 uhr",
       "halb sieben",
-      "uhr",
-      "ziffernblatt 6:30 uhr"
+      "uhr"
     ],
     "unicode": "🕡️"
   },
@@ -24295,7 +24333,7 @@
     "tags": [
       "drachen",
       "fliegen",
-      "hochfliegen"
+      "steigen"
     ],
     "unicode": "🪁"
   },
@@ -24442,6 +24480,7 @@
     "hexcode": "1FA86",
     "order": 3272,
     "tags": [
+      "matrioschka",
       "matroschka",
       "puppe",
       "russland"
@@ -25611,11 +25650,12 @@
     "unicode": "🔋"
   },
   {
-    "annotation": "Stromstecker",
+    "annotation": "Netzstecker",
     "group": 7,
     "hexcode": "1F50C",
     "order": 3380,
     "tags": [
+      "netzstecker",
       "stecker",
       "stromstecker"
     ],
@@ -26204,6 +26244,7 @@
     "tags": [
       "euro",
       "euro-banknote",
+      "euroschein",
       "geld",
       "geldschein"
     ],
@@ -26261,14 +26302,14 @@
     "unicode": "🧾"
   },
   {
-    "annotation": "steigender Trend mit Yen-Zeichen",
+    "annotation": "steigende Kurve mit Yen-Zeichen",
     "group": 7,
     "hexcode": "1F4B9",
     "order": 3444,
     "tags": [
       "diagramm",
       "markt",
-      "steigender trend mit yen-zeichen"
+      "steigende kurve mit yen-zeichen"
     ],
     "unicode": "💹"
   },
@@ -26465,7 +26506,7 @@
     "order": 3465,
     "tags": [
       "füller",
-      "füllfedehalter",
+      "füllfederhalter",
       "füllhalter"
     ],
     "unicode": "🖋️"
@@ -26555,14 +26596,14 @@
     "unicode": "📂"
   },
   {
-    "annotation": "Karteibahnen",
+    "annotation": "Karteireiter",
     "group": 7,
     "hexcode": "1F5C2",
     "order": 3477,
     "tags": [
-      "büroausstattung",
-      "karteibahnen",
-      "karteikarten"
+      "büromaterial",
+      "karteikarten",
+      "karteireiter"
     ],
     "unicode": "🗂️"
   },
@@ -26660,7 +26701,7 @@
     "unicode": "📊"
   },
   {
-    "annotation": "Zwischenablage",
+    "annotation": "Klemmbrett",
     "group": 7,
     "hexcode": "1F4CB",
     "order": 3488,
@@ -26757,7 +26798,7 @@
     "hexcode": "1F5C3",
     "order": 3499,
     "tags": [
-      "büroausstattung",
+      "büromaterial",
       "karteikasten"
     ],
     "unicode": "🗃️"
@@ -26946,14 +26987,15 @@
     "unicode": "⚔️"
   },
   {
-    "annotation": "Pistole",
+    "annotation": "Wasserpistole",
     "group": 7,
     "hexcode": "1F52B",
     "order": 3523,
     "tags": [
       "pistole",
       "revolver",
-      "waffe"
+      "waffe",
+      "wasserpistole"
     ],
     "unicode": "🔫"
   },
@@ -27077,14 +27119,14 @@
     "unicode": "⚖️"
   },
   {
-    "annotation": "Gehstock",
+    "annotation": "Blindenstock",
     "group": 7,
     "hexcode": "1F9AF",
     "order": 3538,
     "tags": [
       "barrierefreiheit",
       "blind",
-      "gehstock"
+      "blindenstock"
     ],
     "unicode": "🦯"
   },
@@ -27113,7 +27155,7 @@
     "unicode": "⛓️"
   },
   {
-    "annotation": "Angelhaken",
+    "annotation": "Haken",
     "group": 7,
     "hexcode": "1FA9D",
     "order": 3542,
@@ -27407,12 +27449,11 @@
     "unicode": "🚽"
   },
   {
-    "annotation": "Pömpel",
+    "annotation": "Saugglocke",
     "group": 7,
     "hexcode": "1FAA0",
     "order": 3569,
     "tags": [
-      "pömpel",
       "saugglocke",
       "saugglocken",
       "toilette",
@@ -27443,12 +27484,13 @@
     "unicode": "🛁"
   },
   {
-    "annotation": "Mäusefalle",
+    "annotation": "Mausefalle",
     "group": 7,
     "hexcode": "1FAA4",
     "order": 3572,
     "tags": [
       "falle",
+      "mausefalle",
       "mäusefalle"
     ],
     "unicode": "🪤"
@@ -27664,12 +27706,13 @@
     "tags": [
       "gesicht",
       "maske",
+      "osterinsel",
       "statue"
     ],
     "unicode": "🗿"
   },
   {
-    "annotation": "Plakat",
+    "annotation": "Protestschild",
     "group": 7,
     "hexcode": "1FAA7",
     "order": 3592,
@@ -27678,6 +27721,7 @@
       "mahnwache",
       "plakat",
       "protest",
+      "protestschild",
       "schild"
     ],
     "unicode": "🪧"
@@ -27985,7 +28029,9 @@
     "order": 3623,
     "tags": [
       "aufwärts",
+      "aufwärtspfeil",
       "nach oben",
+      "norden",
       "pfeil",
       "pfeil nach oben"
     ],
@@ -27998,6 +28044,7 @@
     "order": 3625,
     "tags": [
       "nach rechts oben",
+      "nordosten",
       "pfeil",
       "pfeil nach rechts oben"
     ],
@@ -28010,8 +28057,10 @@
     "order": 3627,
     "tags": [
       "nach rechts",
+      "osten",
       "pfeil",
-      "pfeil nach rechts"
+      "pfeil nach rechts",
+      "rechtspfeil"
     ],
     "unicode": "➡️"
   },
@@ -28023,7 +28072,8 @@
     "tags": [
       "nach rechts unten",
       "pfeil",
-      "pfeil nach rechts unten"
+      "pfeil nach rechts unten",
+      "südosten"
     ],
     "unicode": "↘️"
   },
@@ -28034,9 +28084,11 @@
     "order": 3631,
     "tags": [
       "abwärts",
+      "abwärtspfeil",
       "nach unten",
       "pfeil",
-      "pfeil nach unten"
+      "pfeil nach unten",
+      "süden"
     ],
     "unicode": "⬇️"
   },
@@ -28058,9 +28110,11 @@
     "hexcode": "2B05",
     "order": 3635,
     "tags": [
+      "linkspfeil",
       "nach links",
       "pfeil",
-      "pfeil nach links"
+      "pfeil nach links",
+      "westen"
     ],
     "unicode": "⬅️"
   },
@@ -28071,6 +28125,7 @@
     "order": 3637,
     "tags": [
       "nach links oben",
+      "nordwesten",
       "pfeil",
       "pfeil nach links oben"
     ],
@@ -28171,14 +28226,15 @@
     "unicode": "🔃"
   },
   {
-    "annotation": "kreisförmige Pfeile gegen den Uhrzeigersinn",
+    "annotation": "Pfeile gegen den Uhrzeigersinn",
     "group": 8,
     "hexcode": "1F504",
     "order": 3651,
     "tags": [
       "gegen den uhrzeigersinn",
       "kreisförmige pfeile gegen den uhrzeigersinn",
-      "pfeile"
+      "pfeile",
+      "pfeile gegen den uhrzeigersinn"
     ],
     "unicode": "🔄"
   },
@@ -28243,13 +28299,13 @@
     "unicode": "🔝"
   },
   {
-    "annotation": "Kultstätte",
+    "annotation": "religiöse Stätte",
     "group": 8,
     "hexcode": "1F6D0",
     "order": 3657,
     "tags": [
-      "kultstätte",
-      "religion"
+      "religion",
+      "religiöse stätte"
     ],
     "unicode": "🛐"
   },
@@ -28541,7 +28597,6 @@
     "hexcode": "26CE",
     "order": 3690,
     "tags": [
-      "schlagenträger",
       "schlangenträger",
       "sternbild"
     ],
@@ -28578,9 +28633,9 @@
     "hexcode": "1F502",
     "order": 3693,
     "tags": [
-      "einmal",
-      "einmal wiederholen",
+      "dasselbe wiederholen",
       "im uhrzeigersinn",
+      "noch einmal",
       "pfeile",
       "titel wiederholen",
       "wiederholen"
@@ -28822,14 +28877,14 @@
     "unicode": "🔅"
   },
   {
-    "annotation": "Taste Heller",
+    "annotation": "Heller-Taste",
     "group": 8,
     "hexcode": "1F506",
     "order": 3720,
     "tags": [
+      "heller-taste",
       "helligkeit",
-      "starke helligkeit",
-      "taste heller"
+      "starke helligkeit"
     ],
     "unicode": "🔆"
   },
@@ -28899,18 +28954,19 @@
     "unicode": "♂️"
   },
   {
-    "annotation": "Symbol für Transgender",
+    "annotation": "Transgender-Symbol",
     "group": 8,
     "hexcode": "26A7",
     "order": 3729,
     "tags": [
       "symbol für transgender",
-      "transgender"
+      "transgender",
+      "transgender-symbol"
     ],
     "unicode": "⚧️"
   },
   {
-    "annotation": "Multiplikationszeichen",
+    "annotation": "mal",
     "group": 8,
     "hexcode": "2716",
     "order": 3731,
@@ -28924,35 +28980,32 @@
     "unicode": "✖️"
   },
   {
-    "annotation": "Pluszeichen",
+    "annotation": "plus",
     "group": 8,
     "hexcode": "2795",
     "order": 3732,
     "tags": [
-      "plus",
       "pluszeichen"
     ],
     "unicode": "➕"
   },
   {
-    "annotation": "Minuszeichen",
+    "annotation": "minus",
     "group": 8,
     "hexcode": "2796",
     "order": 3733,
     "tags": [
-      "minus",
       "minuszeichen"
     ],
     "unicode": "➖"
   },
   {
-    "annotation": "Divisionszeichen",
+    "annotation": "geteilt durch",
     "group": 8,
     "hexcode": "2797",
     "order": 3734,
     "tags": [
-      "divisionszeichen",
-      "geteilt"
+      "division"
     ],
     "unicode": "➗"
   },
@@ -28962,7 +29015,7 @@
     "hexcode": "267E",
     "order": 3736,
     "tags": [
-      "für immer",
+      "ewig",
       "grenzenlos",
       "unendlich",
       "unendlichkeit"
@@ -29073,13 +29126,13 @@
     "unicode": "💱"
   },
   {
-    "annotation": "Dollarzeichen",
+    "annotation": "Dollarzeichen extrafett",
     "group": 8,
     "hexcode": "1F4B2",
     "order": 3748,
     "tags": [
       "dollar",
-      "dollarzeichen",
+      "dollarzeichen extrafett",
       "geld",
       "währung"
     ],
@@ -29182,15 +29235,16 @@
     "unicode": "✅"
   },
   {
-    "annotation": "Abstimmungsfeld mit Häkchen",
+    "annotation": "abgehaktes Kästchen",
     "group": 8,
     "hexcode": "2611",
     "order": 3761,
     "tags": [
-      "abstimmungsfeld",
-      "abstimmungsfeld mit häkchen",
-      "häkchen",
-      "wahlurne"
+      "abgehaktes kästchen",
+      "feld",
+      "kästchen",
+      "kästchen mit häkchen",
+      "✓"
     ],
     "unicode": "☑️"
   },
@@ -29223,13 +29277,16 @@
     "unicode": "❌"
   },
   {
-    "annotation": "Kreuzsymbol im Quadrat",
+    "annotation": "angekreuztes Kästchen",
     "group": 8,
     "hexcode": "274E",
     "order": 3765,
     "tags": [
+      "angekreuztes feld",
+      "angekreuztes kästchen",
+      "feld",
       "kreuz",
-      "kreuzsymbol im quadrat",
+      "quadrat",
       "x"
     ],
     "unicode": "❎"
@@ -29283,13 +29340,14 @@
     "unicode": "✳️"
   },
   {
-    "annotation": "Stern mit acht Zacken",
+    "annotation": "achtstrahliger Stern",
     "group": 8,
     "hexcode": "2734",
     "order": 3773,
     "tags": [
-      "stern",
-      "stern mit acht zacken"
+      "*",
+      "achtstrahliger stern",
+      "stern"
     ],
     "unicode": "✴️"
   },
@@ -29299,6 +29357,7 @@
     "hexcode": "2747",
     "order": 3775,
     "tags": [
+      "*",
       "funkeln"
     ],
     "unicode": "❇️"
@@ -29727,12 +29786,13 @@
     "unicode": "🆙"
   },
   {
-    "annotation": "Großbuchstaben VS in orangefarbenem Quadrat",
+    "annotation": "Schriftzug VS in orangem Quadrat",
     "group": 8,
     "hexcode": "1F19A",
     "order": 3834,
     "tags": [
       "großbuchstaben vs in orangefarbenem quadrat",
+      "schriftzug vs in orangem quadrat",
       "versus",
       "vs"
     ],
@@ -29942,196 +30002,196 @@
     "unicode": "🈵"
   },
   {
-    "annotation": "roter Kreis",
+    "annotation": "roter Punkt",
     "group": 8,
     "hexcode": "1F534",
     "order": 3856,
     "tags": [
       "ball",
-      "kreis",
+      "punkt",
       "rot",
-      "roter kreis"
+      "roter punkt"
     ],
     "unicode": "🔴"
   },
   {
-    "annotation": "oranger Kreis",
+    "annotation": "oranger Punkt",
     "group": 8,
     "hexcode": "1F7E0",
     "order": 3857,
     "tags": [
-      "kreis",
       "orange",
-      "oranger kreis"
+      "oranger punkt",
+      "punkt"
     ],
     "unicode": "🟠"
   },
   {
-    "annotation": "gelber Kreis",
+    "annotation": "gelber Punkt",
     "group": 8,
     "hexcode": "1F7E1",
     "order": 3858,
     "tags": [
       "gelb",
-      "gelber kreis",
-      "kreis"
+      "gelber punkt",
+      "punkt"
     ],
     "unicode": "🟡"
   },
   {
-    "annotation": "grüner Kreis",
+    "annotation": "grüner Punkt",
     "group": 8,
     "hexcode": "1F7E2",
     "order": 3859,
     "tags": [
       "grün",
-      "grüner kreis",
-      "kreis"
+      "grüner punkt",
+      "punkt"
     ],
     "unicode": "🟢"
   },
   {
-    "annotation": "blauer Kreis",
+    "annotation": "blauer Punkt",
     "group": 8,
     "hexcode": "1F535",
     "order": 3860,
     "tags": [
       "ball",
       "blau",
-      "blauer kreis",
-      "kreis"
+      "blauer punkt",
+      "punkt"
     ],
     "unicode": "🔵"
   },
   {
-    "annotation": "lila Kreis",
+    "annotation": "lila Punkt",
     "group": 8,
     "hexcode": "1F7E3",
     "order": 3861,
     "tags": [
-      "kreis",
-      "lila"
+      "lila",
+      "punkt"
     ],
     "unicode": "🟣"
   },
   {
-    "annotation": "brauner Kreis",
+    "annotation": "brauner Punkt",
     "group": 8,
     "hexcode": "1F7E4",
     "order": 3862,
     "tags": [
       "braun",
-      "brauner kreis",
-      "kreis"
+      "brauner punkt",
+      "punkt"
     ],
     "unicode": "🟤"
   },
   {
-    "annotation": "schwarzer Kreis",
+    "annotation": "schwarzer Punkt",
     "group": 8,
     "hexcode": "26AB",
     "order": 3863,
     "tags": [
       "ball",
-      "kreis",
+      "punkt",
       "schwarz",
-      "schwarzer kreis"
+      "schwarzer punkt"
     ],
     "unicode": "⚫️"
   },
   {
-    "annotation": "weißer Kreis",
+    "annotation": "weißer Punkt",
     "group": 8,
     "hexcode": "26AA",
     "order": 3864,
     "tags": [
       "ball",
-      "kreis",
+      "punkt",
       "weiß",
-      "weißer kreis"
+      "weißer punkt"
     ],
     "unicode": "⚪️"
   },
   {
-    "annotation": "rotes Viereck",
+    "annotation": "rotes Quadrat",
     "group": 8,
     "hexcode": "1F7E5",
     "order": 3865,
     "tags": [
+      "quadrat",
       "rot",
-      "rotes viereck",
-      "viereck"
+      "rotes quadrat"
     ],
     "unicode": "🟥"
   },
   {
-    "annotation": "oranges Viereck",
+    "annotation": "oranges Quadrat",
     "group": 8,
     "hexcode": "1F7E7",
     "order": 3866,
     "tags": [
       "orange",
-      "oranges viereck",
-      "viereck"
+      "oranges quadrat",
+      "quadrat"
     ],
     "unicode": "🟧"
   },
   {
-    "annotation": "gelbes Viereck",
+    "annotation": "gelbes Quadrat",
     "group": 8,
     "hexcode": "1F7E8",
     "order": 3867,
     "tags": [
       "gelb",
-      "gelbes viereck",
-      "viereck"
+      "gelbes quadrat",
+      "quadrat"
     ],
     "unicode": "🟨"
   },
   {
-    "annotation": "grünes Viereck",
+    "annotation": "grünes Quadrat",
     "group": 8,
     "hexcode": "1F7E9",
     "order": 3868,
     "tags": [
       "grün",
-      "grünes viereck",
-      "viereck"
+      "grünes quadrat",
+      "quadrat"
     ],
     "unicode": "🟩"
   },
   {
-    "annotation": "blaues Viereck",
+    "annotation": "blaues Quadrat",
     "group": 8,
     "hexcode": "1F7E6",
     "order": 3869,
     "tags": [
       "blau",
-      "blaues viereck",
-      "viereck"
+      "blaues quadrat",
+      "quadrat"
     ],
     "unicode": "🟦"
   },
   {
-    "annotation": "lila Viereck",
+    "annotation": "lila Quadrat",
     "group": 8,
     "hexcode": "1F7EA",
     "order": 3870,
     "tags": [
       "lila",
-      "viereck"
+      "quadrat"
     ],
     "unicode": "🟪"
   },
   {
-    "annotation": "braunes Viereck",
+    "annotation": "braunes Quadrat",
     "group": 8,
     "hexcode": "1F7EB",
     "order": 3871,
     "tags": [
       "braun",
-      "braunes viereck",
-      "viereck"
+      "braunes quadrat",
+      "quadrat"
     ],
     "unicode": "🟫"
   },
@@ -30369,14 +30429,15 @@
     "unicode": "🏁"
   },
   {
-    "annotation": "Dreiecksflagge",
+    "annotation": "Wimpel",
     "group": 9,
     "hexcode": "1F6A9",
     "order": 3895,
     "tags": [
       "dreiecksflagge",
       "flagge",
-      "rot"
+      "rot",
+      "wimpel"
     ],
     "unicode": "🚩"
   },
@@ -30788,7 +30849,7 @@
     "unicode": "🇧🇴"
   },
   {
-    "annotation": "Flagge: Bonaire, Sint Eustatius und Saba",
+    "annotation": "Flagge: Karibische Niederlande",
     "group": 9,
     "hexcode": "1F1E7-1F1F6",
     "order": 3938,

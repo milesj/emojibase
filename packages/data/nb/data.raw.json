@@ -6518,11 +6518,12 @@
     ]
   },
   {
-    "annotation": "mann: skjegg",
+    "annotation": "person: skjegg",
     "hexcode": "1F9D4",
     "tags": [
       "mann",
       "mann med skjegg",
+      "mann: skjegg",
       "person",
       "skjegg"
     ],
@@ -6535,7 +6536,7 @@
     "version": 5,
     "skins": [
       {
-        "annotation": "mann: hudtype 1–2, skjegg",
+        "annotation": "person: hudtype 1–2, skjegg",
         "hexcode": "1F9D4-1F3FB",
         "emoji": "🧔🏻",
         "text": "",
@@ -6547,7 +6548,7 @@
         "tone": 1
       },
       {
-        "annotation": "mann: hudtype 3, skjegg",
+        "annotation": "person: hudtype 3, skjegg",
         "hexcode": "1F9D4-1F3FC",
         "emoji": "🧔🏼",
         "text": "",
@@ -6559,7 +6560,7 @@
         "tone": 2
       },
       {
-        "annotation": "mann: hudtype 4, skjegg",
+        "annotation": "person: hudtype 4, skjegg",
         "hexcode": "1F9D4-1F3FD",
         "emoji": "🧔🏽",
         "text": "",
@@ -6571,7 +6572,7 @@
         "tone": 3
       },
       {
-        "annotation": "mann: hudtype 5, skjegg",
+        "annotation": "person: hudtype 5, skjegg",
         "hexcode": "1F9D4-1F3FE",
         "emoji": "🧔🏾",
         "text": "",
@@ -6583,7 +6584,7 @@
         "tone": 4
       },
       {
-        "annotation": "mann: hudtype 6, skjegg",
+        "annotation": "person: hudtype 6, skjegg",
         "hexcode": "1F9D4-1F3FF",
         "emoji": "🧔🏿",
         "text": "",
@@ -12342,10 +12343,8 @@
     "annotation": "kvinnelig industriarbeider",
     "hexcode": "1F469-200D-1F3ED",
     "tags": [
-      "arbeider",
       "fabrikk",
       "industri",
-      "industriarbeider",
       "kvinne",
       "produksjon"
     ],
@@ -12741,14 +12740,9 @@
     "annotation": "mannlig forsker",
     "hexcode": "1F468-200D-1F52C",
     "tags": [
-      "biologi",
-      "forsker",
-      "forskning",
       "kjemi",
-      "lab",
       "laboratorium",
       "mann",
-      "medisin",
       "vitenskap"
     ],
     "emoji": "👨‍🔬",
@@ -12825,14 +12819,9 @@
     "annotation": "kvinnelig forsker",
     "hexcode": "1F469-200D-1F52C",
     "tags": [
-      "biologi",
-      "forsker",
-      "forskning",
       "kjemi",
       "kvinne",
-      "lab",
       "laboratorium",
-      "medisin",
       "vitenskap"
     ],
     "emoji": "👩‍🔬",
@@ -13235,7 +13224,6 @@
       "artist",
       "konsert",
       "mann",
-      "rock",
       "sanger"
     ],
     "emoji": "👨‍🎤",
@@ -27740,6 +27728,7 @@
     "hexcode": "1FAC2",
     "tags": [
       "farvel",
+      "ha det",
       "hadet",
       "hei",
       "takk"
@@ -31242,6 +31231,7 @@
     "tags": [
       "matbolle",
       "nudelbolle",
+      "ramen",
       "restaurant"
     ],
     "emoji": "🍜",
@@ -32150,7 +32140,8 @@
       "afrika",
       "europa",
       "jorden",
-      "jordklode med europa og afrika"
+      "jordklode med europa og afrika",
+      "verden"
     ],
     "emoji": "🌍️",
     "text": "🌍︎",
@@ -32167,7 +32158,8 @@
       "amerika",
       "jorden",
       "jordklode med amerika",
-      "usa"
+      "usa",
+      "verden"
     ],
     "emoji": "🌎️",
     "text": "🌎︎",
@@ -32184,7 +32176,8 @@
       "asia",
       "australia",
       "jorden",
-      "jordklode med asia og australia"
+      "jordklode med asia og australia",
+      "verden"
     ],
     "emoji": "🌏️",
     "text": "🌏︎",
@@ -32199,7 +32192,8 @@
     "hexcode": "1F310",
     "tags": [
       "jorden",
-      "lengde- og breddegrader"
+      "lengde- og breddegrader",
+      "verden"
     ],
     "emoji": "🌐",
     "text": "",
@@ -33344,9 +33338,7 @@
     "hexcode": "1F68B",
     "tags": [
       "fremkomstmiddel",
-      "lokaltog",
       "trikk",
-      "trolleybuss",
       "vogn"
     ],
     "emoji": "🚋",
@@ -33622,7 +33614,7 @@
     "hexcode": "1F3CE",
     "tags": [
       "bil",
-      "milløp",
+      "billøp",
       "motorsport"
     ],
     "emoji": "🏎️",
@@ -36560,7 +36552,8 @@
       "kontroller",
       "spill",
       "spillkonsoll",
-      "spillkontroller"
+      "spillkontroller",
+      "tv-spill"
     ],
     "emoji": "🎮️",
     "text": "🎮︎",
@@ -39955,11 +39948,11 @@
     "version": 1
   },
   {
-    "annotation": "pistol",
+    "annotation": "vannpistol",
     "hexcode": "1F52B",
     "tags": [
-      "revolver",
-      "våpen"
+      "leketøysvåpen",
+      "pistol"
     ],
     "emoji": "🔫",
     "text": "",
@@ -40909,7 +40902,9 @@
     "annotation": "moai-statue",
     "hexcode": "1F5FF",
     "tags": [
+      "ansiktsstatue",
       "moai",
+      "påskeøya",
       "statue"
     ],
     "emoji": "🗿",
@@ -41283,8 +41278,7 @@
       "gående",
       "ikke",
       "ikke tillatt",
-      "nei",
-      "skilt"
+      "nei"
     ],
     "emoji": "🚷",
     "text": "",
@@ -42537,10 +42531,11 @@
     "version": 13
   },
   {
-    "annotation": "gangetegn",
+    "annotation": "gange",
     "hexcode": "2716",
     "tags": [
       "avbryt",
+      "gangetegn",
       "multiplikasjon",
       "multiplisere",
       "x",
@@ -42555,13 +42550,14 @@
     "version": 0.6
   },
   {
-    "annotation": "plusstegn",
+    "annotation": "pluss",
     "hexcode": "2795",
     "tags": [
       "+",
+      "addisjon",
       "fortegn",
       "matte",
-      "pluss",
+      "plusstegn",
       "positivt"
     ],
     "emoji": "➕",
@@ -42573,14 +42569,15 @@
     "version": 0.6
   },
   {
-    "annotation": "minustegn",
+    "annotation": "minus",
     "hexcode": "2796",
     "tags": [
       "-",
       "fortegn",
       "matte",
-      "minus",
+      "minustegn",
       "negativt",
+      "subtraksjon",
       "−"
     ],
     "emoji": "➖",
@@ -42592,10 +42589,10 @@
     "version": 0.6
   },
   {
-    "annotation": "deletegn",
+    "annotation": "dele",
     "hexcode": "2797",
     "tags": [
-      "dele",
+      "deletegn",
       "deling",
       "divisjon",
       "divisjonstegn",
@@ -42652,11 +42649,10 @@
       "!",
       "!?",
       "?",
-      "spørsmål",
+      "interrobang",
       "spørsmålstegn",
       "tegn",
       "tegnsetting",
-      "utrop",
       "utropstegn"
     ],
     "emoji": "⁉️",
@@ -42668,11 +42664,12 @@
     "version": 0.6
   },
   {
-    "annotation": "spørsmålstegn",
+    "annotation": "rødt spørsmålstegn",
     "hexcode": "2753",
     "tags": [
       "?",
-      "spørsmål"
+      "spørsmål",
+      "spørsmålstegn"
     ],
     "emoji": "❓️",
     "text": "❓︎",
@@ -42713,13 +42710,14 @@
     "version": 0.6
   },
   {
-    "annotation": "utropstegn",
+    "annotation": "rødt utropstegn",
     "hexcode": "2757",
     "tags": [
       "!",
       "tegn",
       "tegnsetting",
-      "utrop"
+      "utrop",
+      "utropstegn"
     ],
     "emoji": "❗️",
     "text": "❗︎",
@@ -45214,7 +45212,7 @@
     "version": 2
   },
   {
-    "annotation": "flagg: Kongo-Kinshasa",
+    "annotation": "flagg: Kongo",
     "hexcode": "1F1E8-1F1E9",
     "tags": [
       "CD",
@@ -46099,7 +46097,7 @@
     "version": 2
   },
   {
-    "annotation": "flagg: Hongkong S.A.R. Kina",
+    "annotation": "flagg: Hongkong SAR Kina",
     "hexcode": "1F1ED-1F1F0",
     "tags": [
       "HK",
@@ -46909,7 +46907,7 @@
     "version": 2
   },
   {
-    "annotation": "flagg: Macao S.A.R. Kina",
+    "annotation": "flagg: Macao SAR Kina",
     "hexcode": "1F1F2-1F1F4",
     "tags": [
       "MO",

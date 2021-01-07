@@ -2214,9 +2214,9 @@
     "order": 200,
     "tags": [
       "fingrar",
-      "frågande",
+      "förhör",
       "handgest",
-      "knyten",
+      "knuten",
       "sarkastisk"
     ],
     "unicode": "🤌",
@@ -6690,7 +6690,10 @@
     "hexcode": "1F9D1-200D-2695-FE0F",
     "order": 882,
     "tags": [
-      "läkare"
+      "sjuksköterska",
+      "sjukvård",
+      "terapeut",
+      "vårdpersonal"
     ],
     "unicode": "🧑‍⚕️",
     "skins": [
@@ -9508,9 +9511,9 @@
     "hexcode": "1F977",
     "order": 1319,
     "tags": [
-      "flygare",
-      "hemligt",
-      "pilot"
+      "gömd",
+      "hemlig",
+      "lönnmördare"
     ],
     "unicode": "🥷",
     "skins": [
@@ -17626,7 +17629,8 @@
     "hexcode": "1F416",
     "order": 2687,
     "tags": [
-      "djur"
+      "so",
+      "sugga"
     ],
     "unicode": "🐖"
   },
@@ -18132,6 +18136,7 @@
     "hexcode": "1F9A4",
     "order": 2737,
     "tags": [
+      "mauritius",
       "stor",
       "utrotad"
     ],
@@ -18319,7 +18324,7 @@
     "hexcode": "1F9AD",
     "order": 2754,
     "tags": [
-      "säl"
+      "sjölejon"
     ],
     "unicode": "🦭"
   },
@@ -19731,10 +19736,11 @@
     "hexcode": "1F95F",
     "order": 2887,
     "tags": [
+      "degknyte",
+      "empanada",
       "gyōza",
       "jiaozi",
-      "pierogi",
-      "potsticker"
+      "pirog"
     ],
     "unicode": "🥟"
   },
@@ -21117,7 +21123,7 @@
     "tags": [
       "bergsbana",
       "bergståg",
-      "fordon"
+      "järnväg"
     ],
     "unicode": "🚞"
   },
@@ -21374,6 +21380,7 @@
     "hexcode": "1F6FA",
     "order": 3052,
     "tags": [
+      "bilriksha",
       "motorriksha",
       "tuk-tuk"
     ],
@@ -21470,6 +21477,7 @@
     "tags": [
       "bensin",
       "bensinpump",
+      "bensinstation",
       "bränsle"
     ],
     "unicode": "⛽️"
@@ -21719,8 +21727,8 @@
     "hexcode": "1F6A1",
     "order": 3092,
     "tags": [
-      "fordon",
       "funifor",
+      "gondol",
       "linbana"
     ],
     "unicode": "🚡"
@@ -24957,6 +24965,7 @@
     "hexcode": "1F4C4",
     "order": 3427,
     "tags": [
+      "dokument",
       "sida",
       "text uppåt"
     ],
@@ -25143,7 +25152,7 @@
     "order": 3446,
     "tags": [
       "brev",
-      "mail"
+      "mejl"
     ],
     "unicode": "✉️"
   },
@@ -25181,10 +25190,11 @@
     "order": 3449,
     "tags": [
       "e-post",
-      "kommunikation",
       "kuvert",
-      "skickat brev",
-      "utgående brev"
+      "mejl",
+      "pil",
+      "skickat",
+      "utgående"
     ],
     "unicode": "📩"
   },
@@ -25297,7 +25307,9 @@
     "hexcode": "2712",
     "order": 3463,
     "tags": [
-      "penna"
+      "penna",
+      "reservoarpenna",
+      "stift"
     ],
     "unicode": "✒️"
   },
@@ -25744,11 +25756,12 @@
     "unicode": "⚔️"
   },
   {
-    "annotation": "pistol",
+    "annotation": "vattenpistol",
     "group": 7,
     "hexcode": "1F52B",
     "order": 3523,
     "tags": [
+      "pistol",
       "revolver",
       "vapen"
     ],
@@ -26770,11 +26783,10 @@
     "hexcode": "27A1",
     "order": 3627,
     "tags": [
-      "höger",
       "pil",
       "riktning",
       "väderstreck",
-      "öst"
+      "öster"
     ],
     "unicode": "➡️"
   },
@@ -27628,7 +27640,7 @@
     "unicode": "➕"
   },
   {
-    "annotation": "minustecken",
+    "annotation": "subtrahera",
     "group": 8,
     "hexcode": "2796",
     "order": 3733,
@@ -27689,12 +27701,13 @@
     "unicode": "⁉️"
   },
   {
-    "annotation": "frågetecken",
+    "annotation": "rött frågetecken",
     "group": 8,
     "hexcode": "2753",
     "order": 3741,
     "tags": [
-      "fråga"
+      "fråga",
+      "frågetecken"
     ],
     "unicode": "❓️"
   },
@@ -27722,13 +27735,14 @@
     "unicode": "❕"
   },
   {
-    "annotation": "utropstecken",
+    "annotation": "rött utropstecken",
     "group": 8,
     "hexcode": "2757",
     "order": 3744,
     "tags": [
       "kommatering",
-      "rött"
+      "rött",
+      "utropstecken"
     ],
     "unicode": "❗️"
   },
@@ -30160,7 +30174,7 @@
     "unicode": "🇬🇾"
   },
   {
-    "annotation": "flagga: Hongkong",
+    "annotation": "flagga: Hongkong SAR",
     "group": 9,
     "hexcode": "1F1ED-1F1F0",
     "order": 4007,
@@ -30754,7 +30768,7 @@
     "unicode": "🇲🇳"
   },
   {
-    "annotation": "flagga: Macao",
+    "annotation": "flagga: Macao SAR",
     "group": 9,
     "hexcode": "1F1F2-1F1F4",
     "order": 4061,
@@ -31557,7 +31571,7 @@
     "unicode": "🇹🇯"
   },
   {
-    "annotation": "flagga: Tokelau",
+    "annotation": "flagga: Tokelauöarna",
     "group": 9,
     "hexcode": "1F1F9-1F1F0",
     "order": 4134,

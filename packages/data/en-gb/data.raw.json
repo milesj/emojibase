@@ -319,7 +319,9 @@
       "face",
       "floor",
       "laugh",
-      "rolling"
+      "rofl",
+      "rolling",
+      "rotfl"
     ],
     "emoji": "🤣",
     "text": "",
@@ -591,6 +593,7 @@
     "tags": [
       "delicious",
       "face",
+      "face savouring food",
       "savouring",
       "smile",
       "yum"
@@ -710,6 +713,8 @@
     "annotation": "face with hand over mouth",
     "hexcode": "1F92D",
     "tags": [
+      "embarrassed",
+      "oops",
       "whoops"
     ],
     "emoji": "🤭",
@@ -1069,6 +1074,7 @@
     "annotation": "face vomiting",
     "hexcode": "1F92E",
     "tags": [
+      "puke",
       "sick",
       "vomit"
     ],
@@ -1152,11 +1158,12 @@
     "emoticon": ":&"
   },
   {
-    "annotation": "dizzy face",
+    "annotation": "knocked-out face",
     "hexcode": "1F635",
     "tags": [
-      "dizzy",
-      "face"
+      "dead",
+      "face",
+      "knocked out"
     ],
     "emoji": "😵",
     "text": "",
@@ -1725,6 +1732,7 @@
     "annotation": "angry face",
     "hexcode": "1F620",
     "tags": [
+      "anger",
       "angry",
       "face",
       "mad"
@@ -2953,7 +2961,9 @@
     "annotation": "raised hand",
     "hexcode": "270B",
     "tags": [
-      "hand"
+      "hand",
+      "high 5",
+      "high five"
     ],
     "emoji": "✋",
     "text": "",
@@ -5008,6 +5018,8 @@
     "tags": [
       "ask",
       "hand",
+      "high 5",
+      "high five",
       "please",
       "pray",
       "thanks"
@@ -5827,8 +5839,7 @@
     "hexcode": "1FAC0",
     "tags": [
       "cardiology",
-      "centre",
-      "heartbeat",
+      "heart",
       "organ",
       "pulse"
     ],
@@ -6484,11 +6495,10 @@
     ]
   },
   {
-    "annotation": "man: beard",
+    "annotation": "person: beard",
     "hexcode": "1F9D4",
     "tags": [
       "beard",
-      "man",
       "person"
     ],
     "emoji": "🧔",
@@ -6500,7 +6510,7 @@
     "version": 5,
     "skins": [
       {
-        "annotation": "man: light skin tone, beard",
+        "annotation": "person: light skin tone, beard",
         "hexcode": "1F9D4-1F3FB",
         "emoji": "🧔🏻",
         "text": "",
@@ -6512,7 +6522,7 @@
         "tone": 1
       },
       {
-        "annotation": "man: medium-light skin tone, beard",
+        "annotation": "person: medium-light skin tone, beard",
         "hexcode": "1F9D4-1F3FC",
         "emoji": "🧔🏼",
         "text": "",
@@ -6524,7 +6534,7 @@
         "tone": 2
       },
       {
-        "annotation": "man: medium skin tone, beard",
+        "annotation": "person: medium skin tone, beard",
         "hexcode": "1F9D4-1F3FD",
         "emoji": "🧔🏽",
         "text": "",
@@ -6536,7 +6546,7 @@
         "tone": 3
       },
       {
-        "annotation": "man: medium-dark skin tone, beard",
+        "annotation": "person: medium-dark skin tone, beard",
         "hexcode": "1F9D4-1F3FE",
         "emoji": "🧔🏾",
         "text": "",
@@ -6548,7 +6558,7 @@
         "tone": 4
       },
       {
-        "annotation": "man: dark skin tone, beard",
+        "annotation": "person: dark skin tone, beard",
         "hexcode": "1F9D4-1F3FF",
         "emoji": "🧔🏿",
         "text": "",
@@ -11185,7 +11195,7 @@
     "annotation": "judge",
     "hexcode": "1F9D1-200D-2696-FE0F",
     "tags": [
-      "scales"
+      "law"
     ],
     "emoji": "🧑‍⚖️",
     "text": "",
@@ -11261,6 +11271,7 @@
     "annotation": "man judge",
     "hexcode": "1F468-200D-2696-FE0F",
     "tags": [
+      "judge",
       "justice",
       "man",
       "scales"
@@ -11340,6 +11351,7 @@
     "hexcode": "1F469-200D-2696-FE0F",
     "tags": [
       "judge",
+      "justice",
       "scales",
       "woman"
     ],
@@ -21047,6 +21059,7 @@
     "annotation": "woman dancing",
     "hexcode": "1F483",
     "tags": [
+      "dance",
       "dancing",
       "woman"
     ],
@@ -21125,6 +21138,7 @@
     "hexcode": "1F57A",
     "tags": [
       "dance",
+      "dancing",
       "man"
     ],
     "emoji": "🕺",
@@ -30341,7 +30355,10 @@
     "annotation": "flatbread",
     "hexcode": "1FAD3",
     "tags": [
-      "flatbread"
+      "arepa",
+      "lavash",
+      "naan",
+      "pita"
     ],
     "emoji": "🫓",
     "text": "",
@@ -31492,7 +31509,8 @@
       "beverage",
       "bottle",
       "cup",
-      "drink"
+      "drink",
+      "saké"
     ],
     "emoji": "🍶",
     "text": "",
@@ -33189,7 +33207,8 @@
     "annotation": "sport utility vehicle",
     "hexcode": "1F699",
     "tags": [
-      "recreational",
+      "4x4",
+      "off-road vehicle",
       "sport utility"
     ],
     "emoji": "🚙",
@@ -33723,7 +33742,7 @@
       "airplane",
       "check-in",
       "departure",
-      "departures"
+      "take-off"
     ],
     "emoji": "🛫",
     "text": "",
@@ -34044,11 +34063,10 @@
     "annotation": "twelve-thirty",
     "hexcode": "1F567",
     "tags": [
-      "12",
+      "12.30",
       "12:30",
       "clock",
-      "thirty",
-      "twelve"
+      "half past twelve"
     ],
     "emoji": "🕧️",
     "text": "🕧︎",
@@ -34081,11 +34099,10 @@
     "annotation": "one-thirty",
     "hexcode": "1F55C",
     "tags": [
-      "1",
+      "1.30",
       "1:30",
       "clock",
-      "one",
-      "thirty"
+      "half past one"
     ],
     "emoji": "🕜️",
     "text": "🕜︎",
@@ -34118,11 +34135,10 @@
     "annotation": "two-thirty",
     "hexcode": "1F55D",
     "tags": [
-      "2",
+      "2.30",
       "2:30",
       "clock",
-      "thirty",
-      "two"
+      "half past two"
     ],
     "emoji": "🕝️",
     "text": "🕝︎",
@@ -34155,11 +34171,10 @@
     "annotation": "three-thirty",
     "hexcode": "1F55E",
     "tags": [
-      "3",
+      "3.30",
       "3:30",
       "clock",
-      "thirty",
-      "three"
+      "half past three"
     ],
     "emoji": "🕞️",
     "text": "🕞︎",
@@ -34192,11 +34207,10 @@
     "annotation": "four-thirty",
     "hexcode": "1F55F",
     "tags": [
-      "4",
+      "4.30",
       "4:30",
       "clock",
-      "four",
-      "thirty"
+      "half past four"
     ],
     "emoji": "🕟️",
     "text": "🕟︎",
@@ -34229,11 +34243,10 @@
     "annotation": "five-thirty",
     "hexcode": "1F560",
     "tags": [
-      "5",
+      "5.30",
       "5:30",
       "clock",
-      "five",
-      "thirty"
+      "half past five"
     ],
     "emoji": "🕠️",
     "text": "🕠︎",
@@ -34266,11 +34279,10 @@
     "annotation": "six-thirty",
     "hexcode": "1F561",
     "tags": [
-      "6",
+      "6.30",
       "6:30",
       "clock",
-      "six",
-      "thirty"
+      "half past six"
     ],
     "emoji": "🕡️",
     "text": "🕡︎",
@@ -34303,11 +34315,10 @@
     "annotation": "seven-thirty",
     "hexcode": "1F562",
     "tags": [
-      "7",
+      "7.30",
       "7:30",
       "clock",
-      "seven",
-      "thirty"
+      "half past seven"
     ],
     "emoji": "🕢️",
     "text": "🕢︎",
@@ -34340,11 +34351,10 @@
     "annotation": "eight-thirty",
     "hexcode": "1F563",
     "tags": [
-      "8",
+      "8.30",
       "8:30",
       "clock",
-      "eight",
-      "thirty"
+      "half past eight"
     ],
     "emoji": "🕣️",
     "text": "🕣︎",
@@ -34377,11 +34387,10 @@
     "annotation": "nine-thirty",
     "hexcode": "1F564",
     "tags": [
-      "9",
+      "9.30",
       "9:30",
       "clock",
-      "nine",
-      "thirty"
+      "half past nine"
     ],
     "emoji": "🕤️",
     "text": "🕤︎",
@@ -34414,11 +34423,10 @@
     "annotation": "ten-thirty",
     "hexcode": "1F565",
     "tags": [
-      "10",
+      "10.30",
       "10:30",
       "clock",
-      "ten",
-      "thirty"
+      "half past ten"
     ],
     "emoji": "🕥️",
     "text": "🕥︎",
@@ -34451,11 +34459,10 @@
     "annotation": "eleven-thirty",
     "hexcode": "1F566",
     "tags": [
-      "11",
+      "11.30",
       "11:30",
       "clock",
-      "eleven",
-      "thirty"
+      "half past eleven"
     ],
     "emoji": "🕦️",
     "text": "🕦︎",
@@ -35394,7 +35401,10 @@
     "hexcode": "1F38F",
     "tags": [
       "carp",
+      "carp wind sock",
       "celebration",
+      "japanese wind socks",
+      "koinobori",
       "streamer"
     ],
     "emoji": "🎏",
@@ -35979,7 +35989,7 @@
     "tags": [
       "diving",
       "scuba",
-      "snorkelling"
+      "snorkeling"
     ],
     "emoji": "🤿",
     "text": "",
@@ -36052,11 +36062,11 @@
     "version": 5
   },
   {
-    "annotation": "direct hit",
+    "annotation": "bullseye",
     "hexcode": "1F3AF",
     "tags": [
-      "bullseye",
       "dart",
+      "direct hit",
       "game",
       "hit",
       "target"
@@ -36140,7 +36150,9 @@
     "annotation": "magic wand",
     "hexcode": "1FA84",
     "tags": [
-      "magic wand"
+      "magic",
+      "witch",
+      "wizard"
     ],
     "emoji": "🪄",
     "text": "",
@@ -36619,10 +36631,9 @@
     "tags": [
       "emergency",
       "hi-vis",
-      "hi-viz",
       "high-vis",
-      "high-viz",
       "jacket",
+      "life jacket",
       "safety",
       "vest"
     ],
@@ -36635,11 +36646,11 @@
     "version": 12
   },
   {
-    "annotation": "necktie",
+    "annotation": "tie",
     "hexcode": "1F454",
     "tags": [
       "clothing",
-      "tie"
+      "necktie"
     ],
     "emoji": "👔",
     "text": "",
@@ -36948,8 +36959,7 @@
       "sandals",
       "thong sandals",
       "thongs",
-      "zori",
-      "zōri"
+      "zori"
     ],
     "emoji": "🩴",
     "text": "",
@@ -39553,13 +39563,15 @@
     "version": 1
   },
   {
-    "annotation": "pistol",
+    "annotation": "water pistol",
     "hexcode": "1F52B",
     "tags": [
       "gun",
       "handgun",
+      "pistol",
       "revolver",
       "tool",
+      "water",
       "weapon"
     ],
     "emoji": "🔫",
@@ -39622,7 +39634,10 @@
     "annotation": "carpentry saw",
     "hexcode": "1FA9A",
     "tags": [
-      "carpentry saw"
+      "carpenter",
+      "lumber",
+      "saw",
+      "tool"
     ],
     "emoji": "🪚",
     "text": "",
@@ -39732,7 +39747,8 @@
     "annotation": "guide cane",
     "hexcode": "1F9AF",
     "tags": [
-      "guide cane"
+      "accessibility",
+      "blind"
     ],
     "emoji": "🦯",
     "text": "",
@@ -39824,7 +39840,9 @@
     "annotation": "ladder",
     "hexcode": "1FA9C",
     "tags": [
-      "ladder"
+      "climb",
+      "rung",
+      "step"
     ],
     "emoji": "🪜",
     "text": "",
@@ -39953,10 +39971,10 @@
     "annotation": "syringe",
     "hexcode": "1F489",
     "tags": [
+      "ill",
+      "injection",
       "medicine",
-      "needle",
-      "shot",
-      "sick"
+      "needle"
     ],
     "emoji": "💉",
     "text": "",
@@ -40004,7 +40022,8 @@
     "annotation": "plaster",
     "hexcode": "1FA79",
     "tags": [
-      "plaster"
+      "injury",
+      "sticking plaster"
     ],
     "emoji": "🩹",
     "text": "",
@@ -40064,7 +40083,9 @@
     "annotation": "mirror",
     "hexcode": "1FA9E",
     "tags": [
-      "mirror"
+      "reflection",
+      "reflector",
+      "speculum"
     ],
     "emoji": "🪞",
     "text": "",
@@ -40184,10 +40205,10 @@
     "version": 1
   },
   {
-    "annotation": "bathtub",
+    "annotation": "bath",
     "hexcode": "1F6C1",
     "tags": [
-      "bath"
+      "bathtub"
     ],
     "emoji": "🛁",
     "text": "",
@@ -40215,10 +40236,12 @@
     "version": 13
   },
   {
-    "annotation": "cut-throat razor",
+    "annotation": "razor",
     "hexcode": "1FA92",
     "tags": [
-      "cut-throat razor"
+      "cut-throat",
+      "sharp",
+      "shave"
     ],
     "emoji": "🪒",
     "text": "",
@@ -41171,6 +41194,7 @@
     "hexcode": "1F504",
     "tags": [
       "anticlockwise",
+      "anticlockwise arrows button",
       "arrow",
       "counterclockwise",
       "withershins"
@@ -42096,7 +42120,8 @@
     "annotation": "transgender symbol",
     "hexcode": "26A7",
     "tags": [
-      "transgender symbol"
+      "trans",
+      "transgender"
     ],
     "emoji": "⚧️",
     "text": "⚧︎",
@@ -42233,7 +42258,7 @@
     "version": 0.6
   },
   {
-    "annotation": "question mark",
+    "annotation": "red question mark",
     "hexcode": "2753",
     "tags": [
       "?",
@@ -42286,7 +42311,7 @@
     "version": 0.6
   },
   {
-    "annotation": "exclamation mark",
+    "annotation": "red exclamation mark",
     "hexcode": "2757",
     "tags": [
       "!",
@@ -44558,11 +44583,10 @@
     "version": 2
   },
   {
-    "annotation": "flag: St. Barthélemy",
+    "annotation": "flag: St Barthélemy",
     "hexcode": "1F1E7-1F1F1",
     "tags": [
-      "BL",
-      "flag"
+      "BL"
     ],
     "emoji": "🇧🇱",
     "text": "",
@@ -46043,11 +46067,10 @@
     "version": 2
   },
   {
-    "annotation": "flag: St. Kitts & Nevis",
+    "annotation": "flag: St Kitts & Nevis",
     "hexcode": "1F1F0-1F1F3",
     "tags": [
-      "KN",
-      "flag"
+      "KN"
     ],
     "emoji": "🇰🇳",
     "text": "",
@@ -46163,11 +46186,10 @@
     "version": 2
   },
   {
-    "annotation": "flag: St. Lucia",
+    "annotation": "flag: St Lucia",
     "hexcode": "1F1F1-1F1E8",
     "tags": [
-      "LC",
-      "flag"
+      "LC"
     ],
     "emoji": "🇱🇨",
     "text": "",
@@ -46358,11 +46380,10 @@
     "version": 2
   },
   {
-    "annotation": "flag: St. Martin",
+    "annotation": "flag: St Martin",
     "hexcode": "1F1F2-1F1EB",
     "tags": [
-      "MF",
-      "flag"
+      "MF"
     ],
     "emoji": "🇲🇫",
     "text": "",
@@ -46943,11 +46964,10 @@
     "version": 2
   },
   {
-    "annotation": "flag: St. Pierre & Miquelon",
+    "annotation": "flag: St Pierre & Miquelon",
     "hexcode": "1F1F5-1F1F2",
     "tags": [
-      "PM",
-      "flag"
+      "PM"
     ],
     "emoji": "🇵🇲",
     "text": "",
@@ -47228,11 +47248,10 @@
     "version": 2
   },
   {
-    "annotation": "flag: St. Helena",
+    "annotation": "flag: St Helena",
     "hexcode": "1F1F8-1F1ED",
     "tags": [
-      "SH",
-      "flag"
+      "SH"
     ],
     "emoji": "🇸🇭",
     "text": "",
@@ -47828,11 +47847,10 @@
     "version": 2
   },
   {
-    "annotation": "flag: St. Vincent & Grenadines",
+    "annotation": "flag: St Vincent & the Grenadines",
     "hexcode": "1F1FB-1F1E8",
     "tags": [
-      "VC",
-      "flag"
+      "VC"
     ],
     "emoji": "🇻🇨",
     "text": "",

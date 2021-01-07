@@ -319,7 +319,9 @@
       "face",
       "floor",
       "laugh",
-      "rolling"
+      "rofl",
+      "rolling",
+      "rotfl"
     ],
     "emoji": "🤣",
     "text": "",
@@ -1069,6 +1071,7 @@
     "annotation": "face vomiting",
     "hexcode": "1F92E",
     "tags": [
+      "puke",
       "sick",
       "vomit"
     ],
@@ -1152,11 +1155,12 @@
     "emoticon": ":&"
   },
   {
-    "annotation": "dizzy face",
+    "annotation": "knocked-out face",
     "hexcode": "1F635",
     "tags": [
-      "dizzy",
-      "face"
+      "dead",
+      "face",
+      "knocked out"
     ],
     "emoji": "😵",
     "text": "",
@@ -1725,6 +1729,7 @@
     "annotation": "angry face",
     "hexcode": "1F620",
     "tags": [
+      "anger",
       "angry",
       "face",
       "mad"
@@ -2953,7 +2958,9 @@
     "annotation": "raised hand",
     "hexcode": "270B",
     "tags": [
-      "hand"
+      "hand",
+      "high 5",
+      "high five"
     ],
     "emoji": "✋",
     "text": "",
@@ -5008,6 +5015,8 @@
     "tags": [
       "ask",
       "hand",
+      "high 5",
+      "high five",
       "please",
       "pray",
       "thanks"
@@ -6484,11 +6493,10 @@
     ]
   },
   {
-    "annotation": "man: beard",
+    "annotation": "person: beard",
     "hexcode": "1F9D4",
     "tags": [
       "beard",
-      "man",
       "person"
     ],
     "emoji": "🧔",
@@ -6500,7 +6508,7 @@
     "version": 5,
     "skins": [
       {
-        "annotation": "man: light skin tone, beard",
+        "annotation": "person: light skin tone, beard",
         "hexcode": "1F9D4-1F3FB",
         "emoji": "🧔🏻",
         "text": "",
@@ -6512,7 +6520,7 @@
         "tone": 1
       },
       {
-        "annotation": "man: medium-light skin tone, beard",
+        "annotation": "person: medium-light skin tone, beard",
         "hexcode": "1F9D4-1F3FC",
         "emoji": "🧔🏼",
         "text": "",
@@ -6524,7 +6532,7 @@
         "tone": 2
       },
       {
-        "annotation": "man: medium skin tone, beard",
+        "annotation": "person: medium skin tone, beard",
         "hexcode": "1F9D4-1F3FD",
         "emoji": "🧔🏽",
         "text": "",
@@ -6536,7 +6544,7 @@
         "tone": 3
       },
       {
-        "annotation": "man: medium-dark skin tone, beard",
+        "annotation": "person: medium-dark skin tone, beard",
         "hexcode": "1F9D4-1F3FE",
         "emoji": "🧔🏾",
         "text": "",
@@ -6548,7 +6556,7 @@
         "tone": 4
       },
       {
-        "annotation": "man: dark skin tone, beard",
+        "annotation": "person: dark skin tone, beard",
         "hexcode": "1F9D4-1F3FF",
         "emoji": "🧔🏿",
         "text": "",
@@ -11184,6 +11192,7 @@
     "annotation": "judge",
     "hexcode": "1F9D1-200D-2696-FE0F",
     "tags": [
+      "justice",
       "scales"
     ],
     "emoji": "🧑‍⚖️",
@@ -11260,6 +11269,7 @@
     "annotation": "man judge",
     "hexcode": "1F468-200D-2696-FE0F",
     "tags": [
+      "judge",
       "justice",
       "man",
       "scales"
@@ -11339,6 +11349,7 @@
     "hexcode": "1F469-200D-2696-FE0F",
     "tags": [
       "judge",
+      "justice",
       "scales",
       "woman"
     ],
@@ -21040,6 +21051,7 @@
     "annotation": "woman dancing",
     "hexcode": "1F483",
     "tags": [
+      "dance",
       "dancing",
       "woman"
     ],
@@ -21118,6 +21130,7 @@
     "hexcode": "1F57A",
     "tags": [
       "dance",
+      "dancing",
       "man"
     ],
     "emoji": "🕺",
@@ -36044,11 +36057,11 @@
     "version": 5
   },
   {
-    "annotation": "direct hit",
+    "annotation": "bullseye",
     "hexcode": "1F3AF",
     "tags": [
-      "bullseye",
       "dart",
+      "direct hit",
       "game",
       "hit",
       "target"
@@ -39534,13 +39547,15 @@
     "version": 1
   },
   {
-    "annotation": "pistol",
+    "annotation": "water pistol",
     "hexcode": "1F52B",
     "tags": [
       "gun",
       "handgun",
+      "pistol",
       "revolver",
       "tool",
+      "water",
       "weapon"
     ],
     "emoji": "🔫",
@@ -42219,7 +42234,7 @@
     "version": 0.6
   },
   {
-    "annotation": "question mark",
+    "annotation": "red question mark",
     "hexcode": "2753",
     "tags": [
       "?",
@@ -42272,7 +42287,7 @@
     "version": 0.6
   },
   {
-    "annotation": "exclamation mark",
+    "annotation": "red exclamation mark",
     "hexcode": "2757",
     "tags": [
       "!",
