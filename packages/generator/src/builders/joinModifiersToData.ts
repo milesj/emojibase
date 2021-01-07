@@ -9,6 +9,7 @@ import {
   MEDIUM_DARK_SKIN_MODIFIER,
   MEDIUM_LIGHT_SKIN_MODIFIER,
   MEDIUM_SKIN_MODIFIER,
+  MULTI_PERSON_GROUPING_HEXCODES,
   MULTI_PERSON_SKIN_TONE_PATTERN,
   SKIN_MODIFIER_PATTERN,
   WOMAN,
@@ -59,33 +60,38 @@ export default function joinModifiersToData(emojis: EmojiMap) {
       let parentEmoji: Emoji | undefined;
 
       // Multi-person skin tones
+      // http://unicode.org/reports/tr51/#multiperson_skintones
       if ((match = hexcode.match(MULTI_PERSON_SKIN_TONE_PATTERN))) {
-        const [, genderType1, skinTone1, groupType, genderType2, skinTone2] = match;
+        const [, genderType1, skinTone1, groupType1, groupType2, genderType2, skinTone2] = match;
         let parentHexcode = '';
 
-        // HANDSHAKE
-        if (groupType === '1F91D') {
-          if (
-            (genderType1 === WOMAN && genderType2 === MAN) ||
-            (genderType1 === MAN && genderType2 === WOMAN)
-          ) {
-            parentHexcode = '1F46B'; // woman and man holding hands
-          } else if (genderType1 === MAN && genderType2 === MAN) {
-            parentHexcode = '1F46C'; // men holding hands
-          } else if (genderType1 === WOMAN && genderType2 === WOMAN) {
-            parentHexcode = '1F46D'; // women holding hands
-          } else {
-            parentHexcode = '1F9D1-200D-1F91D-200D-1F9D1'; // people holding hands
+        MULTI_PERSON_GROUPING_HEXCODES.some((group) => {
+          if (group.type[0] === groupType1 && (!groupType2 || group.type[1] === groupType2)) {
+            if (
+              (genderType1 === WOMAN && genderType2 === MAN) ||
+              (genderType1 === MAN && genderType2 === WOMAN)
+            ) {
+              parentHexcode = group.parentBoth;
+            } else if (genderType1 === MAN && genderType2 === MAN) {
+              parentHexcode = group.parentMen;
+            } else if (genderType1 === WOMAN && genderType2 === WOMAN) {
+              parentHexcode = group.parentWomen;
+            } else {
+              parentHexcode = group.parentOther;
+            }
+
+            return true;
           }
-        }
+
+          return false;
+        });
 
         parentEmoji = emojis[parentHexcode];
-        tone = [SKIN_TONES[skinTone1], SKIN_TONES[skinTone2]];
 
-        // Flatten if the same tone
-        if (tone[0] === tone[1]) {
-          [tone] = tone;
-        }
+        tone =
+          skinTone1 === skinTone2
+            ? SKIN_TONES[skinTone1]
+            : [SKIN_TONES[skinTone1], SKIN_TONES[skinTone2]];
 
         // Single skin tone
       } else if (hexcode.match(SKIN_MODIFIER_PATTERN)) {

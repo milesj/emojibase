@@ -3762,18 +3762,18 @@ export default {
   '1F3F3-FE0F-200D-26A7-FE0F': ['transgender_flag'],
 
   // VERSION 13.1
-  // 😶‍🌫️
+  // 😶‍🌫️ face in clouds
   '1F636-200D-1F32B-FE0F': ['in_clouds'],
-  // 😮‍💨
+  // 😮‍💨 face exhaling
   '1F62E-200D-1F4A8': ['exhaling', 'exhale'],
-  // 😵‍💫
+  // 😵‍💫 face with spiral eyes
   '1F635-200D-1F4AB': ['dizzy_eyes'],
-  // ❤️‍🔥
+  // ❤️‍🔥 heart on fire
   '2764-FE0F-200D-1F525': ['heart_on_fire'],
-  // ❤️‍🩹
+  // ❤️‍🩹 mending heart
   '2764-FE0F-200D-1FA79': ['mending_heart'],
-  // 🧔‍♂️
+  // 🧔‍♂️ man: beard
   '1F9D4-200D-2642-FE0F': ['man_bearded'],
-  // 🧔‍♀️
+  // 🧔‍♀️ woman: beard
   '1F9D4-200D-2640-FE0F': ['woman_bearded'],
 };
