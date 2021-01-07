@@ -11,7 +11,12 @@
     "loader",
     "cdn"
   ],
-  "repository": "https://github.com/milesj/emojibase/tree/master/packages/core",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:milesj/emojibase.git",
+    "directory": "packages/core"
+  },
+  "author": "Miles Johnson",
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
