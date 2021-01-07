@@ -1,9 +1,9 @@
 import fs from 'fs';
 import path from 'path';
-import PO from 'pofile';
 import { Locale } from 'emojibase';
-import POManager from '../parsers/POManager';
+import PO from 'pofile';
 import { LOCALE_COUNTRIES } from '../constants';
+import POManager from '../parsers/POManager';
 
 export default async function loadPoShortcodes(locale: Locale): Promise<POManager> {
   const poPath = path.resolve(process.cwd(), `po/${locale}/shortcodes.po`);

@@ -1,5 +1,5 @@
 import path from 'path';
-import { flattenEmojiData, EMOJI, TEXT, MALE, FEMALE, Emoji } from 'emojibase';
+import { EMOJI, Emoji, FEMALE, flattenEmojiData, MALE, TEXT } from 'emojibase';
 
 const localeCache: { [key: string]: Emoji[] } = {};
 

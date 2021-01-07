@@ -1,5 +1,5 @@
 import path from 'path';
-import { ShortcodesDataset, SUPPORTED_LOCALES, Emoji, Hexcode, GroupDataset } from 'emojibase';
+import { Emoji, GroupDataset, Hexcode, ShortcodesDataset, SUPPORTED_LOCALES } from 'emojibase';
 import log from '../helpers/log';
 import toArray from '../helpers/toArray';
 import loadPoMeta from '../loaders/loadPoMeta';

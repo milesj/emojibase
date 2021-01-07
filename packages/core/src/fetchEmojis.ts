@@ -1,17 +1,17 @@
-import {
-  ShortcodePreset,
-  CompactEmoji,
-  Emoji,
-  ShortcodesDataset,
-  FlatEmoji,
-  FlatCompactEmoji,
-  Locale,
-  FetchEmojisOptions,
-} from './types';
 import fetchFromCDN from './fetchFromCDN';
 import fetchShortcodes from './fetchShortcodes';
 import flattenEmojiData from './flattenEmojiData';
 import joinShortcodes from './joinShortcodes';
+import {
+  CompactEmoji,
+  Emoji,
+  FetchEmojisOptions,
+  FlatCompactEmoji,
+  FlatEmoji,
+  Locale,
+  ShortcodePreset,
+  ShortcodesDataset,
+} from './types';
 
 // Full
 async function fetchEmojis(

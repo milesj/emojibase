@@ -4,8 +4,9 @@
   "version": "0.0.0",
   "scripts": {
     "prepare": "beemo create-config --silent",
-    "build": "packemon build --addEngines --checkLicenses --generateDeclaration",
-    "clean": "rm -rf packages/*/{build,dts,lib,esm,umd}",
+    "build": "packemon build --addEngines",
+    "pack": "NODE_ENV=production packemon pack --addEngines --generateDeclaration=api",
+    "clean": "packemon clean",
     "clean:cache": "rm -rf ./cache",
     "coverage": "yarn run jest --coverage",
     "lint": "beemo eslint",
@@ -18,8 +19,8 @@
     "posttest": "yarn run lint",
     "pretest": "yarn run type",
     "test": "yarn run jest",
-    "prettier": "beemo prettier",
-    "prerelease": "yarn run clean && yarn test && yarn run build",
+    "format": "beemo prettier",
+    "prerelease": "yarn run pack && yarn test",
     "release": "lerna publish --ignore-changes=emojibase-generator",
     "type": "beemo typescript --build --reference-workspaces"
   },
@@ -27,13 +28,14 @@
     "node": ">=10.10.0"
   },
   "devDependencies": {
-    "@milesj/build-tools": "^2.13.1",
+    "@milesj/build-tools": "^2.16.1",
     "conventional-changelog-beemo": "^2.0.0",
-    "fetch-mock-jest": "^1.3.0",
+    "fetch-mock-jest": "^1.5.1",
     "filesize": "^6.1.0",
     "glob": "^7.1.6",
-    "gzip-size": "^5.1.1",
-    "lerna": "^3.22.1"
+    "gzip-size": "^6.0.0",
+    "lerna": "^3.22.1",
+    "packemon": "^0.7.3"
   },
   "workspaces": [
     "packages/*"

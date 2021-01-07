@@ -1,5 +1,5 @@
-import isHidden from './isHidden';
 import { EmojiMap } from '../types';
+import isHidden from './isHidden';
 
 export default function filterData(data: EmojiMap): EmojiMap {
   const cleaned: EmojiMap = {};

@@ -1,11 +1,11 @@
 import { LATEST_EMOJI_VERSION } from 'emojibase';
 import log from '../helpers/log';
+import readCache from '../helpers/readCache';
 import writeCache from '../helpers/writeCache';
 import loadData from '../loaders/loadData';
 import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
 import { EmojiDataMap } from '../types';
-import readCache from '../helpers/readCache';
 
 export interface VersionDataMap {
   [version: string]: EmojiDataMap;

@@ -1,8 +1,8 @@
 import { LATEST_CLDR_VERSION } from 'emojibase';
-import fetchAndCache from './fetchAndCache';
-import parseAnnotations from '../parsers/parseAnnotations';
 import formatLocale from '../helpers/formatLocale';
+import parseAnnotations from '../parsers/parseAnnotations';
 import { CLDRAnnotationMap } from '../types';
+import fetchAndCache from './fetchAndCache';
 
 export default function loadAnnotations(
   locale: string,

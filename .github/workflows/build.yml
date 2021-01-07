@@ -18,9 +18,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: yarn install --ignore-engines --frozen-lockfile
-      - run: yarn global add packemon
-      - run: yarn run type
       - run: yarn run build
+      - run: yarn run type
       - run: yarn run jest
       - run: yarn run lint
   locale:
@@ -60,8 +59,6 @@ jobs:
         with:
           node-version: 14
       - run: yarn install --ignore-engines --frozen-lockfile
-      - run: yarn global add packemon
-      - run: yarn run type
       - run: yarn run build
       - run: yarn run jest
         env:

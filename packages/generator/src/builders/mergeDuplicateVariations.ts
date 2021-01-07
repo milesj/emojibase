@@ -1,5 +1,5 @@
-import { EmojiMap } from '../types';
 import { EMOJI_VARIATION_SELECTOR, TEXT_VARIATION_SELECTOR } from '../constants';
+import { EmojiMap } from '../types';
 
 export default function mergeDuplicateVariations(emojis: EmojiMap) {
   Object.keys(emojis).forEach((hexcode) => {

@@ -1,26 +1,26 @@
 /* eslint-disable complexity */
 
 import util from 'util';
-import { stripHexcode, Locale } from 'emojibase';
-import log from '../helpers/log';
+import { Locale, stripHexcode } from 'emojibase';
+import {
+  GENDER_PATTERN,
+  INHERIT_PARENT_SYMBOL,
+  MALE_SIGN,
+  MULTI_PERSON_SKIN_TONE_PATTERN,
+  REGIONAL_INDICATORS,
+  TAG_LATIN_SMALL_LETTERS,
+} from '../constants';
 import hasProperty from '../helpers/hasProperty';
+import log from '../helpers/log';
+import readCache from '../helpers/readCache';
 import writeCache from '../helpers/writeCache';
 import loadAnnotations from '../loaders/loadAnnotations';
 import loadData from '../loaders/loadData';
 import loadLocalization from '../loaders/loadLocalization';
+import loadPoMeta from '../loaders/loadPoMeta';
 import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
-import { CLDRAnnotationMap, CLDRAnnotation } from '../types';
-import {
-  GENDER_PATTERN,
-  REGIONAL_INDICATORS,
-  TAG_LATIN_SMALL_LETTERS,
-  MALE_SIGN,
-  INHERIT_PARENT_SYMBOL,
-  MULTI_PERSON_SKIN_TONE_PATTERN,
-} from '../constants';
-import readCache from '../helpers/readCache';
-import loadPoMeta from '../loaders/loadPoMeta';
+import { CLDRAnnotation, CLDRAnnotationMap } from '../types';
 
 export default async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotationMap> {
   const cache = readCache<CLDRAnnotationMap>(`final/${locale}-annotation-data.json`);
@@ -61,7 +61,7 @@ export default async function buildAnnotationData(locale: Locale): Promise<CLDRA
     ];
 
     for (let i = 0, set; i < sets.length; i += 1) {
-      set = sets[i] as CLDRAnnotationMap;
+      set = sets[i]!;
 
       if (set?.[hexcode]?.[field]) {
         const value = set[hexcode][field];
@@ -182,11 +182,7 @@ export default async function buildAnnotationData(locale: Locale): Promise<CLDRA
       if (sequence[sequence.length - 1].match(GENDER_PATTERN)) {
         suffix.push(...sequence.slice(0, -1));
 
-        if (sequence.includes(MALE_SIGN)) {
-          sequence = ['1F468'];
-        } else {
-          sequence = ['1F469'];
-        }
+        sequence = sequence.includes(MALE_SIGN) ? ['1F468'] : ['1F469'];
       }
 
       // Step 8) Transform sequence into prefix name
@@ -206,11 +202,10 @@ export default async function buildAnnotationData(locale: Locale): Promise<CLDRA
 
       // Step 10) Join the 2 names together
       if (!annotation) {
-        if (prefixName && suffixName) {
-          annotation = `${prefixName}: ${suffixName}`;
-        } else {
-          annotation = prefixName || suffixName || '';
-        }
+        annotation =
+          prefixName && suffixName
+            ? `${prefixName}: ${suffixName}`
+            : prefixName || suffixName || '';
       }
 
       // SPECIAL CASE: Not localized in CLDR because indicators should be hidden,

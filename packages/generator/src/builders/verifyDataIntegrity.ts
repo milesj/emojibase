@@ -1,14 +1,14 @@
 /* eslint-disable complexity */
 
-import log from '../helpers/log';
-import isObject from '../helpers/isObject';
-import isHidden from '../helpers/isHidden';
-import { EmojiMap, EmojiVariation } from '../types';
 import {
-  SKIN_MODIFIER_PATTERN,
   EMOJI_VARIATION_SELECTOR,
+  SKIN_MODIFIER_PATTERN,
   TEXT_VARIATION_SELECTOR,
 } from '../constants';
+import isHidden from '../helpers/isHidden';
+import isObject from '../helpers/isObject';
+import log from '../helpers/log';
+import { EmojiMap, EmojiVariation } from '../types';
 
 export default function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
   const usedEmoticons: EmojiMap = {};

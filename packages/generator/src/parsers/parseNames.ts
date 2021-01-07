@@ -1,5 +1,5 @@
+import { ParsedLine, UnicodeNamesMap } from '../types';
 import parse from './parse';
-import { UnicodeNamesMap, ParsedLine } from '../types';
 
 /**
  * Parses the official unicode list for all character names.

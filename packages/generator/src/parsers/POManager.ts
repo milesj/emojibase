@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 
 import fs from 'fs';
-import PO, { POItem, POHeaders } from 'pofile';
+import PO, { POHeaders, POItem } from 'pofile';
 import toArray from '../helpers/toArray';
 
 export default class POManager {

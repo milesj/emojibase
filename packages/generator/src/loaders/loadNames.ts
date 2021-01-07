@@ -1,7 +1,7 @@
 import { LATEST_UNICODE_VERSION } from 'emojibase';
-import fetchAndCache from './fetchAndCache';
 import parseNames from '../parsers/parseNames';
 import { UnicodeNamesMap } from '../types';
+import fetchAndCache from './fetchAndCache';
 
 export default function loadNames(
   version: string = LATEST_UNICODE_VERSION,

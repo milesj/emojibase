@@ -1,4 +1,4 @@
-import { flattenEmojiData, Emoji } from 'emojibase';
+import { Emoji, flattenEmojiData } from 'emojibase';
 import loadEmojiData from './loadEmojiData';
 
 let DATA: Emoji[] = [];

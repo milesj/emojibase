@@ -1,7 +1,7 @@
 import { LATEST_EMOJI_VERSION } from 'emojibase';
-import fetchAndCache from './fetchAndCache';
 import parseVariations from '../parsers/parseVariations';
 import { EmojiVariationMap } from '../types';
+import fetchAndCache from './fetchAndCache';
 
 export default function loadVariations(
   version: string = LATEST_EMOJI_VERSION,

@@ -1,6 +1,6 @@
 import fetchMock from 'fetch-mock-jest';
 import fetchEmojis from '../src/fetchEmojis';
-import { setupStorage, getEmojiWithSkins, getCompactEmojiWithSkins } from './helpers';
+import { getCompactEmojiWithSkins, getEmojiWithSkins, setupStorage } from './helpers';
 
 describe('fetchEmojis()', () => {
   beforeEach(() => {

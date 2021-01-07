@@ -1,8 +1,8 @@
 import { stripHexcode } from 'emojibase';
-import { EmojiMap, Emoji, HexcodeMap, Hexcode, ShortcodeDataMap } from '../types';
-import toArray from '../helpers/toArray';
-import toUnicode from './toUnicode';
 import log from '../helpers/log';
+import toArray from '../helpers/toArray';
+import { Emoji, EmojiMap, Hexcode, HexcodeMap, ShortcodeDataMap } from '../types';
+import toUnicode from './toUnicode';
 
 export default class Database {
   preset = 'shortcodes';

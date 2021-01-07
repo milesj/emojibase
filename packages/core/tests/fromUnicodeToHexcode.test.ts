@@ -1,6 +1,6 @@
-import fromUnicodeToHexcode from '../src/fromUnicodeToHexcode';
-import flattenEmojiData from '../src/flattenEmojiData';
 import { TEXT } from '../src/constants';
+import flattenEmojiData from '../src/flattenEmojiData';
+import fromUnicodeToHexcode from '../src/fromUnicodeToHexcode';
 
 const SEQUENCE_HEXCODE_PATTERN = /-(200D|FE0E|FE0F)/g;
 

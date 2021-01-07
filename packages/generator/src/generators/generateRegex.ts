@@ -1,12 +1,12 @@
-import { Trie } from 'regexgen';
 import { EMOTICON_OPTIONS, generateEmoticonPermutations } from 'emojibase';
+import { Trie } from 'regexgen';
 import buildEmojiData from '../builders/buildEmojiData';
-import log from '../helpers/log';
-import writeRegex from '../helpers/writeRegex';
 import filterData from '../helpers/filterData';
 import flattenData from '../helpers/flattenData';
-import toUnicode from './toUnicode';
+import log from '../helpers/log';
+import writeRegex from '../helpers/writeRegex';
 import { EmojiMap, Hexcode } from '../types';
+import toUnicode from './toUnicode';
 
 interface TrieMap {
   [group: string]: Trie;

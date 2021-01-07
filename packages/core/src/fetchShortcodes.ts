@@ -1,6 +1,6 @@
-import { ShortcodePreset, ShortcodesDataset, Locale, FetchFromCDNOptions } from './types';
-import fetchFromCDN from './fetchFromCDN';
 import { NON_LATIN_LOCALES } from './constants';
+import fetchFromCDN from './fetchFromCDN';
+import { FetchFromCDNOptions, Locale, ShortcodePreset, ShortcodesDataset } from './types';
 
 const ALIASES: Partial<Record<ShortcodePreset, string>> = {
   discord: 'joypixels',

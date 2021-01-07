@@ -1,22 +1,22 @@
 /* eslint-disable complexity */
 
-import { SUPPORTED_LOCALES, stripHexcode, Emoji as FinalEmoji, Locale } from 'emojibase';
-import buildEmojiData from '../builders/buildEmojiData';
+import { Emoji as FinalEmoji, Locale, stripHexcode, SUPPORTED_LOCALES } from 'emojibase';
 import buildAnnotationData from '../builders/buildAnnotationData';
+import buildEmojiData from '../builders/buildEmojiData';
+import filterData from '../helpers/filterData';
 import log from '../helpers/log';
 import readCache from '../helpers/readCache';
 import writeDataset from '../helpers/writeDataset';
-import filterData from '../helpers/filterData';
-import extractCompact from './extractCompact';
-import toUnicode from './toUnicode';
 import {
   CLDRAnnotationMap,
   Emoji,
   EmojiModification,
   Hexcode,
-  VersionMap,
   HexcodeMap,
+  VersionMap,
 } from '../types';
+import extractCompact from './extractCompact';
+import toUnicode from './toUnicode';
 
 interface HexcodeVersionMap {
   [hexcode: string]: number;

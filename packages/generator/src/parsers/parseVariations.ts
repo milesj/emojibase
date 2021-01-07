@@ -1,7 +1,7 @@
 import formatHexcode from '../helpers/formatHexcode';
+import { EmojiVariationMap, ParsedLine } from '../types';
 import parse from './parse';
 import verifyTotals from './verifyTotals';
-import { EmojiVariationMap, ParsedLine } from '../types';
 
 /**
  * Parses the official unicode emoji-varation-sequences data.

@@ -1,22 +1,22 @@
 /* eslint-disable sort-keys, no-cond-assign, complexity */
 
-import { LIGHT_SKIN, MEDIUM_LIGHT_SKIN, MEDIUM_SKIN, MEDIUM_DARK_SKIN, DARK_SKIN } from 'emojibase';
-import log from '../helpers/log';
-import hasProperty from '../helpers/hasProperty';
-import extractSkinTone from '../parsers/extractSkinTone';
-import { Emoji, EmojiModification, EmojiMap, SkinTone } from '../types';
+import { DARK_SKIN, LIGHT_SKIN, MEDIUM_DARK_SKIN, MEDIUM_LIGHT_SKIN, MEDIUM_SKIN } from 'emojibase';
 import {
+  DARK_SKIN_MODIFIER,
+  EMOJI_VARIATION_SELECTOR,
   LIGHT_SKIN_MODIFIER,
+  MAN,
+  MEDIUM_DARK_SKIN_MODIFIER,
   MEDIUM_LIGHT_SKIN_MODIFIER,
   MEDIUM_SKIN_MODIFIER,
-  MEDIUM_DARK_SKIN_MODIFIER,
-  DARK_SKIN_MODIFIER,
-  SKIN_MODIFIER_PATTERN,
-  EMOJI_VARIATION_SELECTOR,
   MULTI_PERSON_SKIN_TONE_PATTERN,
+  SKIN_MODIFIER_PATTERN,
   WOMAN,
-  MAN,
 } from '../constants';
+import hasProperty from '../helpers/hasProperty';
+import log from '../helpers/log';
+import extractSkinTone from '../parsers/extractSkinTone';
+import { Emoji, EmojiMap, EmojiModification, SkinTone } from '../types';
 
 const SKIN_HEXCODE_PATTERN = new RegExp(`-(${SKIN_MODIFIER_PATTERN.source})`, 'g');
 

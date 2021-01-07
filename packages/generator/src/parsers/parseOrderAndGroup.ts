@@ -1,8 +1,8 @@
+import { HIDDEN_GROUPS, HIDDEN_SUBGROUPS } from '../constants';
 import formatHexcode from '../helpers/formatHexcode';
 import slug from '../helpers/slug';
 import writeCache from '../helpers/writeCache';
-import { EmojiGroupMap, EmojiGroup } from '../types';
-import { HIDDEN_GROUPS, HIDDEN_SUBGROUPS } from '../constants';
+import { EmojiGroup, EmojiGroupMap } from '../types';
 
 interface GroupNameMap {
   [index: number]: string;

@@ -1,7 +1,7 @@
 import { EMOJI, TEXT } from 'emojibase';
+import { SEQUENCE_REMOVAL_PATTERN, SKIN_MODIFIER_PATTERN } from '../constants';
 import hasProperty from '../helpers/hasProperty';
-import { UnicodeNamesMap, EmojiMap, EmojiGroupMap, EmojiVariationMap, EmoticonMap } from '../types';
-import { SKIN_MODIFIER_PATTERN, SEQUENCE_REMOVAL_PATTERN } from '../constants';
+import { EmojiGroupMap, EmojiMap, EmojiVariationMap, EmoticonMap, UnicodeNamesMap } from '../types';
 
 export default function joinMetadataToData(
   emojis: EmojiMap,
