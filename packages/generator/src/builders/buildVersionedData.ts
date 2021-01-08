@@ -1,4 +1,3 @@
-import { LATEST_EMOJI_VERSION } from 'emojibase';
 import log from '../helpers/log';
 import readCache from '../helpers/readCache';
 import writeCache from '../helpers/writeCache';
@@ -60,9 +59,9 @@ export default async function buildVersionedData(): Promise<VersionDataSet> {
 
   // As of v13.0, the versions are included in the data sources,
   // so we don't need to loop and extract from previous versions.
-  partitionVersions(await loadData(LATEST_EMOJI_VERSION));
-  partitionVersions(await loadSequences(LATEST_EMOJI_VERSION));
-  partitionVersions(await loadZwjSequences(LATEST_EMOJI_VERSION));
+  partitionVersions(await loadData());
+  partitionVersions(await loadSequences());
+  partitionVersions(await loadZwjSequences());
 
   // Cache the partitioned files
   await writeCache('final/emoji-unicode-versions.json', {

@@ -8,6 +8,7 @@ import {
   MALE_SIGN,
   MULTI_PERSON_SKIN_TONE_PATTERN,
   REGIONAL_INDICATORS,
+  SKIN_MODIFIER_PATTERN,
   TAG_LATIN_SMALL_LETTERS,
 } from '../constants';
 import hasProperty from '../helpers/hasProperty';
@@ -21,6 +22,36 @@ import loadPoMeta from '../loaders/loadPoMeta';
 import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
 import { CLDRAnnotation, CLDRAnnotationMap } from '../types';
+
+function doesSequenceMatch(a: string[], b: string[]): boolean {
+  // eslint-disable-next-line unicorn/no-for-loop
+  for (let i = 0; i < a.length; i += 1) {
+    if (a[i] !== b[i]) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function removeFromSequence(sequence: string[], innerSequence: string[]): string[] {
+  const next: string[] = [];
+
+  for (let i = 0; i < sequence.length; i += 1) {
+    const item = sequence[i];
+
+    if (
+      item === innerSequence[0] &&
+      doesSequenceMatch(sequence.slice(i, innerSequence.length + 1), innerSequence)
+    ) {
+      i += innerSequence.length - 1;
+    } else {
+      next.push(item);
+    }
+  }
+
+  return next;
+}
 
 export default async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotationMap> {
   const cache = readCache<CLDRAnnotationMap>(`final/${locale}-annotation-data.json`);
@@ -98,14 +129,14 @@ export default async function buildAnnotationData(locale: Locale): Promise<CLDRA
       const hexcodeParts = hexcode.split('-');
       const inverseHexcode = [
         ...hexcodeParts.slice(-2),
-        hexcodeParts[2],
+        ...hexcodeParts.slice(2, -2),
         ...hexcodeParts.slice(0, 2),
       ].join('-');
 
       annotation = extractField(inverseHexcode, 'annotation') || '';
     }
 
-    // Use the localized territory name
+    // 1) Use the localized territory name
     if (hasProperty(emoji.property, ['Emoji_Flag_Sequence', 'RGI_Emoji_Flag_Sequence'])) {
       const countryCode = fullHexcode
         .split('-')
@@ -118,7 +149,7 @@ export default async function buildAnnotationData(locale: Locale): Promise<CLDRA
 
       tags.push(countryCode);
 
-      // Use the localized subdivision name
+      // 2) Use the localized subdivision name
     } else if (hasProperty(emoji.property, ['Emoji_Tag_Sequence', 'RGI_Emoji_Tag_Sequence'])) {
       const divisionName = hexcode
         .split('-')
@@ -131,7 +162,7 @@ export default async function buildAnnotationData(locale: Locale): Promise<CLDRA
 
       tags.push(divisionName);
 
-      // Label with keycap and use sequence
+      // 3) Label with keycap and use sequence
     } else if (
       hasProperty(emoji.property, ['Emoji_Keycap_Sequence']) ||
       emoji.hexcode === '1F51F' // Keycap 10
@@ -142,9 +173,10 @@ export default async function buildAnnotationData(locale: Locale): Promise<CLDRA
 
       tags.push(annotation);
 
-      // ZWJ sequences require special treatment
+      // 4-7) ZWJ sequences require special treatment
     } else if (hasProperty(emoji.property, ['Emoji_ZWJ_Sequence', 'RGI_Emoji_ZWJ_Sequence'])) {
       const suffix: string[] = [];
+      const suffixModifiers: string[] = [];
       let prefixName = '';
       let suffixName = '';
       let sequence = hexcode.split('-');
@@ -156,33 +188,31 @@ export default async function buildAnnotationData(locale: Locale): Promise<CLDRA
         });
       }
 
-      // Step 6) Move KISS, HEART, FAMILY to start of suffix and reset sequence
-      if (
-        emoji.description.startsWith('kiss:') ||
-        emoji.description.startsWith('family:') ||
-        emoji.description.startsWith('couple with heart:')
-      ) {
-        sequence.forEach((hex: string) => {
-          // Kiss mark, Heavy black heart
-          if (hex !== '1F48B' && hex !== '2764') {
-            suffix.push(hex);
-          }
-        });
+      // Step 5) Move modifiers to end of suffix and remove
+      sequence = sequence.filter((hex) => {
+        if (hex.match(SKIN_MODIFIER_PATTERN)) {
+          suffixModifiers.push(hex);
 
-        if (emoji.description.startsWith('kiss:')) {
-          sequence = ['1F48F'];
-        } else if (emoji.description.startsWith('couple with heart:')) {
-          sequence = ['1F491'];
-        } else if (emoji.description.startsWith('family:')) {
-          sequence = ['1F46A'];
+          return false;
         }
+
+        return true;
+      });
+
+      // Step 6) Move KISS, HEART, FAMILY, HOLDING HANDS to start of suffix and reset sequence
+      if (emoji.description.includes('kiss:')) {
+        sequence = removeFromSequence(sequence, ['2764', '1F48B']);
+      } else if (emoji.description.includes('couple with heart:')) {
+        sequence = removeFromSequence(sequence, ['2764']);
+      } else if (emoji.description.includes('holding hands:')) {
+        sequence = removeFromSequence(sequence, ['1F91D']);
       }
 
       // Step 7) Move genders and reset sequence
       if (sequence[sequence.length - 1].match(GENDER_PATTERN)) {
-        suffix.push(...sequence.slice(0, -1));
+        const isMale = sequence.pop() === MALE_SIGN;
 
-        sequence = sequence.includes(MALE_SIGN) ? ['1F468'] : ['1F469'];
+        sequence.unshift(isMale ? '1F468' : '1F469');
       }
 
       // Step 8) Transform sequence into prefix name
@@ -194,7 +224,7 @@ export default async function buildAnnotationData(locale: Locale): Promise<CLDRA
 
       // Step 9) Transform suffix into suffix name
       if (suffix.length > 0) {
-        suffixName = suffix
+        suffixName = [...suffix, ...suffixModifiers]
           .map((hex) => extractField(hex, 'annotation'))
           .filter(Boolean)
           .join(', ');

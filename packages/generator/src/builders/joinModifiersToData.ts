@@ -92,9 +92,10 @@ export default function joinModifiersToData(emojis: EmojiMap) {
           skinTone1 === skinTone2
             ? SKIN_TONES[skinTone1]
             : [SKIN_TONES[skinTone1], SKIN_TONES[skinTone2]];
+      }
 
-        // Single skin tone
-      } else if (hexcode.match(SKIN_MODIFIER_PATTERN)) {
+      // Single skin tone
+      if (!parentEmoji && hexcode.match(SKIN_MODIFIER_PATTERN)) {
         // Some ZWJ parent emoji can easily be found by removing their skin tone modifier:
         //    1F468-1F3FB-200D-2695-FE0F ->
         //    1F468-200D-2695-FE0F
