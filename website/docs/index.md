@@ -8,10 +8,10 @@ JSON datasets, regex patterns, and more.
 
 #### Features
 
-- Supports the latest [Emoji 13](https://emojipedia.org/emoji-13.0/),
+- Supports the latest [Emoji 13.1](https://emojipedia.org/emoji-13.1/),
   [Unicode 13](http://unicode.org/versions/Unicode13.0.0/), and
   [CLDR 38.1](http://cldr.unicode.org/index/downloads/cldr-38) release versions
 - Built directly from the [emoji data source files](http://unicode.org/Public/emoji/)
-- Based on the official [Unicode Technical Standard #51](http://unicode.org/reports/tr51/) (rev 16)
+- Based on the official [Unicode Technical Standard #51](http://unicode.org/reports/tr51/) (rev 19)
 - With localization provided by
   [Unicode Technical Standard #35](http://unicode.org/reports/tr35/tr35-general.html#Annotations)

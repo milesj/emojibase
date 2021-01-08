@@ -1,14 +1,29 @@
-import { LATEST_EMOJI_VERSION } from 'emojibase';
+import { LATEST_EMOJI_VERSION, LATEST_UNICODE_VERSION } from 'emojibase';
 import parseData from '../parsers/parseData';
 import { EmojiDataMap } from '../types';
 import fetchAndCache from './fetchAndCache';
 
-export default function loadData(version: string = LATEST_EMOJI_VERSION): Promise<EmojiDataMap> {
+export default function loadData(
+  emojiVersion: string = LATEST_EMOJI_VERSION,
+  unicodeVersion: string = LATEST_UNICODE_VERSION,
+): Promise<EmojiDataMap> {
+  // Endpoint changed for v13+
+  if (Number(emojiVersion) >= 13) {
+    const version = Math.min(
+      Number.parseFloat(emojiVersion),
+      Number.parseFloat(unicodeVersion),
+    ).toFixed(1);
+
+    return fetchAndCache(
+      `http://unicode.org/Public/${version}.0/ucd/emoji/emoji-data.txt`,
+      `${version}/data.json`,
+      (data) => parseData(emojiVersion, data, Number.parseFloat(unicodeVersion)),
+    );
+  }
+
   return fetchAndCache(
-    Number.parseFloat(version) >= 13
-      ? `http://unicode.org/Public/${version}.0/ucd/emoji/emoji-data.txt`
-      : `http://unicode.org/Public/emoji/${version}/emoji-data.txt`,
-    `${version}/data.json`,
-    (data) => parseData(version, data),
+    `http://unicode.org/Public/emoji/${emojiVersion}/emoji-data.txt`,
+    `${emojiVersion}/data.json`,
+    (data) => parseData(emojiVersion, data),
   );
 }

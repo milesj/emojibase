@@ -1,4 +1,4 @@
-/* eslint-disable sort-keys */
+/* eslint-disable sort-keys, unicorn/better-regex */
 
 import { Locale } from 'emojibase';
 import { Property } from './types';
@@ -11,18 +11,23 @@ export const ZWJ_PATTERN = /200D/g;
 export const GENDER_PATTERN = /(2640|2642)/g;
 export const PERSON_TYPE_PATTERN = /(1F9D1|1F468|1F469)/g; // person|man|woman
 export const VARIATION_PATTERN = /(FE0E|FE0F)/g;
+export const VARIATION_NC_PATTERN = /(?:FE0E|FE0F)/g;
 export const SKIN_MODIFIER_PATTERN = /(1F3FB|1F3FC|1F3FD|1F3FE|1F3FF)/g;
 export const SEQUENCE_REMOVAL_PATTERN = /(200D|FE0E|FE0F)/g;
 export const MULTI_PERSON_SKIN_TONE_PATTERN = new RegExp(
   [
     PERSON_TYPE_PATTERN.source,
+    '-',
     SKIN_MODIFIER_PATTERN.source,
+    '-',
     ZWJ_PATTERN.source,
-    '([A-F0-9]{4,5})',
-    ZWJ_PATTERN.source,
+    '-',
+    `(?:([A-F0-9]{4,5}(?:-(?:${VARIATION_NC_PATTERN.source}))?)-${ZWJ_PATTERN.source}-)`,
+    `(?:([A-F0-9]{4,5}(?:-(?:${VARIATION_NC_PATTERN.source}))?)-${ZWJ_PATTERN.source}-)?`,
     PERSON_TYPE_PATTERN.source,
+    '-',
     SKIN_MODIFIER_PATTERN.source,
-  ].join('-'),
+  ].join(''),
 );
 
 // Important hexadecimal codepoints when dealing with diversity, sequences, and more
@@ -52,6 +57,35 @@ export const HIDDEN_EMOJI_PROPERTIES: Property[] = [
   'Emoji_Component',
   'Extended_Pictographic',
   'Regional_Indicator',
+];
+
+// Mapping to support skin tones and genders within MPG
+// http://unicode.org/reports/tr51/#Multi_Person_Groupings
+export const MULTI_PERSON_GROUPING_HEXCODES = [
+  // Holding hands
+  {
+    type: ['1F91D'], // handshake
+    parentBoth: '1F46B', // woman and man holding hands
+    parentMen: '1F46C', // men holding hands
+    parentWomen: '1F46D', // women holding hands
+    parentOther: '1F9D1-200D-1F91D-200D-1F9D1', // people holding hands
+  },
+  // Couple with heart
+  {
+    type: ['2764-FE0F'], // red heart
+    parentBoth: '1F469-200D-2764-FE0F-200D-1F468', // couple with heart: woman, man
+    parentMen: '1F468-200D-2764-FE0F-200D-1F468', // couple with heart: man, man
+    parentWomen: '1F469-200D-2764-FE0F-200D-1F469', // couple with heart: woman, woman
+    parentOther: '1F491', // couple with heart
+  },
+  // Kiss
+  {
+    type: ['2764-FE0F', '1F48B'], // red heart + kiss mark
+    parentBoth: '1F469-200D-2764-FE0F-200D-1F48B-200D-1F468', // kiss: woman, man
+    parentMen: '1F468-200D-2764-FE0F-200D-1F48B-200D-1F468', // kiss: man, man
+    parentWomen: '1F469-200D-2764-FE0F-200D-1F48B-200D-1F469', // kiss: woman, woman
+    parentOther: '1F48F', // kiss
+  },
 ];
 
 export const REGIONAL_INDICATORS: { [hexcode: string]: string } = {

@@ -2,10 +2,12 @@
 
 #### 🚀 Updates
 
+- Updated to [Emoji 13.1](https://emojipedia.org/emoji-13.1/).
 - Updated to [CLDR 38.1](http://cldr.unicode.org/index/downloads/cldr-38).
 
 #### 🛠 Internals
 
+- Updated `LATEST_EMOJI_VERSION` to `13.1`.
 - Updated `LATEST_CLDR_VERSION` to `38.1`.
 
 # 5.0.0 - 2020-09-11

@@ -195,11 +195,16 @@ export default async function generateData(): Promise<void> {
   });
 
   await Promise.all([
-    writeDataset('meta/groups.json', readCache('final/group-hierarchy.json')),
     writeDataset('meta/unicode.json', Array.from(unicode)),
     writeDataset('meta/unicode-names.json', names),
     writeDataset('meta/hexcodes.json', Array.from(hexcodes)),
   ]);
+
+  const groupCache = readCache('final/group-hierarchy.json');
+
+  if (groupCache) {
+    await writeDataset('meta/groups.json', groupCache);
+  }
 
   log.success('data', 'Generated emoji datasets');
 }

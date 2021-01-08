@@ -15,7 +15,6 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     title: '📑 Specification compliant',
-    // imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
         With data being derived from the official Unicode data files, and aligned with Unicode
@@ -25,7 +24,6 @@ const features: FeatureProps[] = [
   },
   {
     title: '🇺🇳 Localized datasets',
-    // imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
         Easily internationalize your emoji integration with one of our 25 supported languages and
@@ -35,7 +33,6 @@ const features: FeatureProps[] = [
   },
   {
     title: '📜 Historical information',
-    // imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
         Whether it's skin tone variations, genders, multi-person, or Unicode versioning, we capture
