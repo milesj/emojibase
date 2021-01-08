@@ -8,7 +8,7 @@ JSON datasets, regex patterns, and more.
 
 #### Features
 
-- Supports the latest [Emoji 13](https://emojipedia.org/emoji-13.0/),
+- Supports the latest [Emoji 13.1](https://emojipedia.org/emoji-13.1/),
   [Unicode 13](http://unicode.org/versions/Unicode13.0.0/), and
   [CLDR 38.1](http://cldr.unicode.org/index/downloads/cldr-38) release versions
 - Built directly from the [emoji data source files](http://unicode.org/Public/emoji/)
