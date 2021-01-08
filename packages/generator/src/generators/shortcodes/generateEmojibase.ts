@@ -4,6 +4,7 @@ import { SHORTCODE_GUIDELINES } from '../../constants';
 import toArray from '../../helpers/toArray';
 import writeDataset from '../../helpers/writeDataset';
 import writeFile from '../../helpers/writeFile';
+import loadPoMeta from '../../loaders/loadPoMeta';
 import loadPoShortcodes from '../../loaders/loadPoShortcodes';
 import { ShortcodeDataMap } from '../../types';
 import Database from '../Database';
@@ -17,6 +18,8 @@ export default async function generateEmojibase(db: Database) {
     SUPPORTED_LOCALES.map(async (locale) => {
       const shortcodes: ShortcodeDataMap = {};
       const translations = await loadPoShortcodes(locale);
+      const metaTranslations = await loadPoMeta(locale);
+      const toneMsg = metaTranslations.getMessage('tone');
       let count = 0;
 
       db.emojiList.forEach((emoji) => {
@@ -41,18 +44,18 @@ export default async function generateEmojibase(db: Database) {
         if (emoji.modifications) {
           Object.values(emoji.modifications).forEach((mod) => {
             shortcodes[mod.hexcode] = db.formatShortcodes(
-              list.map((code) => appendSkinToneIndex(code, mod, 'tone')),
+              list.map((code) => appendSkinToneIndex(code, mod, toneMsg)),
             );
           });
         }
       });
 
-      if (count === 0) {
-        return Promise.resolve();
-      }
-
       if (locale === 'en') {
         englishShortcodes = shortcodes;
+      }
+
+      if (count === 0) {
+        return Promise.resolve();
       }
 
       return Promise.all([
