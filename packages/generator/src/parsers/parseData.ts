@@ -14,7 +14,11 @@ import verifyTotals from './verifyTotals';
  *
  * Example: http://unicode.org/Public/emoji/5.0/emoji-data.txt
  */
-export default function parseData(version: string, content: string): EmojiDataMap {
+export default function parseData(
+  version: string,
+  content: string,
+  unicodeVersion?: number,
+): EmojiDataMap {
   const { lines, totals } = parse(content);
   const data = lines.reduce((map: EmojiDataMap, line: ParsedLine) => {
     const [rawHexcode, property, , modifier] = line.fields;
@@ -31,7 +35,7 @@ export default function parseData(version: string, content: string): EmojiDataMa
       hexcode: '',
       property: [(property as Property) || 'Emoji'],
       type: EMOJI,
-      unicodeVersion: extractUnicodeVersion(emojiVersion),
+      unicodeVersion: extractUnicodeVersion(emojiVersion, unicodeVersion),
       version: emojiVersion,
     };
 

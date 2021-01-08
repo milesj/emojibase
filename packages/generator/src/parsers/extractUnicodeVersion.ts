@@ -1,8 +1,11 @@
 // https://unicode.org/reports/tr51/#EmojiVersions
-export default function extractUnicodeVersion(emojiVersion: number): number {
-  // v11 aligned emoji and unicode specs
+export default function extractUnicodeVersion(
+  emojiVersion: number,
+  unicodeVersion?: number,
+): number {
+  // v11+ aligned emoji and unicode specs (except for minor versions)
   if (emojiVersion >= 11) {
-    return emojiVersion;
+    return unicodeVersion ? Math.min(emojiVersion, unicodeVersion) : emojiVersion;
   }
 
   switch (emojiVersion) {

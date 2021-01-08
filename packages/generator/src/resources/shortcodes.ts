@@ -155,7 +155,7 @@ export default {
   // 😷 face with medical mask
   '1F637': ['medical_mask', 'mask'],
   // 😵 knocked-out face
-  '1F635': ['dizzy_face'],
+  '1F635': ['dizzy_face', 'knocked_out'],
   // 😲 astonished face
   '1F632': ['astonished_face', 'astonished'],
   // 😳 flushed face
@@ -911,7 +911,7 @@ export default {
   // 🎿 skis
   '1F3BF': ['ski'],
   // 🎯 bullseye
-  '1F3AF': ['direct_hit', 'dart'],
+  '1F3AF': ['direct_hit', 'dart', 'bullseye'],
   // 🎱 pool 8 ball
   '1F3B1': ['billiards', '8ball'],
   // 🔮 crystal ball

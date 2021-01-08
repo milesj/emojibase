@@ -4,19 +4,26 @@ import { EmojiDataMap } from '../types';
 import fetchAndCache from './fetchAndCache';
 
 export default function loadData(
-  emojiVersion: number = Number.parseFloat(LATEST_EMOJI_VERSION),
-  unicodeVersion: number = Number.parseFloat(LATEST_UNICODE_VERSION),
+  emojiVersion: string = LATEST_EMOJI_VERSION,
+  unicodeVersion: string = LATEST_UNICODE_VERSION,
 ): Promise<EmojiDataMap> {
-  const version = (emojiVersion >= 13
-    ? Math.min(emojiVersion, unicodeVersion)
-    : emojiVersion
-  ).toFixed(1);
+  // Endpoint changed for v13+
+  if (Number(emojiVersion) >= 13) {
+    const version = Math.min(
+      Number.parseFloat(emojiVersion),
+      Number.parseFloat(unicodeVersion),
+    ).toFixed(1);
+
+    return fetchAndCache(
+      `http://unicode.org/Public/${version}.0/ucd/emoji/emoji-data.txt`,
+      `${version}/data.json`,
+      (data) => parseData(emojiVersion, data, Number.parseFloat(unicodeVersion)),
+    );
+  }
 
   return fetchAndCache(
-    Number(version) >= 13
-      ? `http://unicode.org/Public/${version}.0/ucd/emoji/emoji-data.txt`
-      : `http://unicode.org/Public/emoji/${version}/emoji-data.txt`,
-    `${version}/data.json`,
-    (data) => parseData(version, data),
+    `http://unicode.org/Public/emoji/${emojiVersion}/emoji-data.txt`,
+    `${emojiVersion}/data.json`,
+    (data) => parseData(emojiVersion, data),
   );
 }

@@ -172,6 +172,13 @@ export default async function buildAnnotationData(locale: Locale): Promise<CLDRA
 
       // 4-7) ZWJ sequences require special treatment
     } else if (hasProperty(emoji.property, ['Emoji_ZWJ_Sequence', 'RGI_Emoji_ZWJ_Sequence'])) {
+      // Inherit tags if none were defined
+      if (tags.length === 0) {
+        hexcode.split('-').forEach((hex: string) => {
+          tags.push(...(extractField(hex, 'tags') || []));
+        });
+      }
+
       // The TR35 instructions are super confusing, but we really don't need to follow them
       // since most (if not all) of our emoji already have annotations. This will catch the
       // few that were missed and we can fix accordingly.
