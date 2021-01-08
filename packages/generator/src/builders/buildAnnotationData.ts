@@ -3,12 +3,9 @@
 import util from 'util';
 import { Locale, stripHexcode } from 'emojibase';
 import {
-  GENDER_PATTERN,
   INHERIT_PARENT_SYMBOL,
-  MALE_SIGN,
   MULTI_PERSON_SKIN_TONE_PATTERN,
   REGIONAL_INDICATORS,
-  SKIN_MODIFIER_PATTERN,
   TAG_LATIN_SMALL_LETTERS,
 } from '../constants';
 import hasProperty from '../helpers/hasProperty';
@@ -23,35 +20,35 @@ import loadSequences from '../loaders/loadSequences';
 import loadZwjSequences from '../loaders/loadZwjSequences';
 import { CLDRAnnotation, CLDRAnnotationMap } from '../types';
 
-function doesSequenceMatch(a: string[], b: string[]): boolean {
-  // eslint-disable-next-line unicorn/no-for-loop
-  for (let i = 0; i < a.length; i += 1) {
-    if (a[i] !== b[i]) {
-      return false;
-    }
-  }
+// function doesSequenceMatch(a: string[], b: string[]): boolean {
+//   // eslint-disable-next-line unicorn/no-for-loop
+//   for (let i = 0; i < a.length; i += 1) {
+//     if (a[i] !== b[i]) {
+//       return false;
+//     }
+//   }
 
-  return true;
-}
+//   return true;
+// }
 
-function removeFromSequence(sequence: string[], innerSequence: string[]): string[] {
-  const next: string[] = [];
+// function removeFromSequence(sequence: string[], innerSequence: string[]): string[] {
+//   const next: string[] = [];
 
-  for (let i = 0; i < sequence.length; i += 1) {
-    const item = sequence[i];
+//   for (let i = 0; i < sequence.length; i += 1) {
+//     const item = sequence[i];
 
-    if (
-      item === innerSequence[0] &&
-      doesSequenceMatch(sequence.slice(i, innerSequence.length + 1), innerSequence)
-    ) {
-      i += innerSequence.length - 1;
-    } else {
-      next.push(item);
-    }
-  }
+//     if (
+//       item === innerSequence[0] &&
+//       doesSequenceMatch(sequence.slice(i, innerSequence.length + 1), innerSequence)
+//     ) {
+//       i += innerSequence.length - 1;
+//     } else {
+//       next.push(item);
+//     }
+//   }
 
-  return next;
-}
+//   return next;
+// }
 
 export default async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotationMap> {
   const cache = readCache<CLDRAnnotationMap>(`final/${locale}-annotation-data.json`);
@@ -175,67 +172,14 @@ export default async function buildAnnotationData(locale: Locale): Promise<CLDRA
 
       // 4-7) ZWJ sequences require special treatment
     } else if (hasProperty(emoji.property, ['Emoji_ZWJ_Sequence', 'RGI_Emoji_ZWJ_Sequence'])) {
-      const suffix: string[] = [];
-      const suffixModifiers: string[] = [];
-      let prefixName = '';
-      let suffixName = '';
-      let sequence = hexcode.split('-');
-
-      // Inherit tags if none were defined
-      if (tags.length === 0) {
-        sequence.forEach((hex: string) => {
-          tags.push(...(extractField(hex, 'tags') || []));
-        });
-      }
-
-      // Step 5) Move modifiers to end of suffix and remove
-      sequence = sequence.filter((hex) => {
-        if (hex.match(SKIN_MODIFIER_PATTERN)) {
-          suffixModifiers.push(hex);
-
-          return false;
-        }
-
-        return true;
-      });
-
-      // Step 6) Move KISS, HEART, FAMILY, HOLDING HANDS to start of suffix and reset sequence
-      if (emoji.description.includes('kiss:')) {
-        sequence = removeFromSequence(sequence, ['2764', '1F48B']);
-      } else if (emoji.description.includes('couple with heart:')) {
-        sequence = removeFromSequence(sequence, ['2764']);
-      } else if (emoji.description.includes('holding hands:')) {
-        sequence = removeFromSequence(sequence, ['1F91D']);
-      }
-
-      // Step 7) Move genders and reset sequence
-      if (sequence[sequence.length - 1].match(GENDER_PATTERN)) {
-        const isMale = sequence.pop() === MALE_SIGN;
-
-        sequence.unshift(isMale ? '1F468' : '1F469');
-      }
-
-      // Step 8) Transform sequence into prefix name
-      if (sequence.length > 0) {
-        const prefixHexcode = sequence.join('-');
-
-        prefixName = extractField(prefixHexcode, 'annotation') || '';
-      }
-
-      // Step 9) Transform suffix into suffix name
-      if (suffix.length > 0) {
-        suffixName = [...suffix, ...suffixModifiers]
-          .map((hex) => extractField(hex, 'annotation'))
-          .filter(Boolean)
-          .join(', ');
-      }
-
-      // Step 10) Join the 2 names together
+      // The TR35 instructions are super confusing, but we really don't need to follow them
+      // since most (if not all) of our emoji already have annotations. This will catch the
+      // few that were missed and we can fix accordingly.
       if (!annotation) {
-        annotation =
-          prefixName && suffixName
-            ? `${prefixName}: ${suffixName}`
-            : prefixName || suffixName || '';
+        log.error(
+          'build',
+          `Missing ${locale} ZWJ annotations for "${emoji.description}" (${emoji.hexcode}) [${hexcode}]`,
+        );
       }
 
       // SPECIAL CASE: Not localized in CLDR because indicators should be hidden,

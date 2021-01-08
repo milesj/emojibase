@@ -12,6 +12,10 @@ export default async function generateEmojibaseLegacy(db: Database) {
   db.emojiList.forEach((emoji) => {
     const list = shortcodesResource[emoji.hexcode as keyof typeof shortcodesResource];
 
+    if (!list) {
+      return;
+    }
+
     db.addShortcodes(shortcodes, emoji.hexcode, list);
 
     if (emoji.modifications) {
