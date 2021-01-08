@@ -1,12 +1,12 @@
 import path from 'path';
-import { ShortcodePreset, ShortcodesDataset } from 'emojibase';
+import { Locale, NON_LATIN_LOCALES, ShortcodePreset, ShortcodesDataset } from 'emojibase';
 import SHORTCODE_PATTERN from 'emojibase-regex/shortcode';
 import SHORTCODE_NATIVE_PATTERN from 'emojibase-regex/shortcode-native';
 
+const locale = process.env.TEST_LOCALE || 'en';
 const localeCache: { [key: string]: ShortcodesDataset } = {};
 
 function loadShortcodesData(preset: ShortcodePreset): ShortcodesDataset {
-  const locale = process.env.TEST_LOCALE || 'en';
   const key = `${locale}:${preset}`;
 
   if (localeCache[key]) {
@@ -35,7 +35,11 @@ describe('shortcodes', () => {
   ];
 
   presets.forEach((preset) => {
-    const pattern = preset === 'cldr-native' ? SHORTCODE_NATIVE_PATTERN : SHORTCODE_PATTERN;
+    const pattern =
+      preset === 'cldr-native' ||
+      (preset === 'emojibase' && NON_LATIN_LOCALES.includes(locale as Locale))
+        ? SHORTCODE_NATIVE_PATTERN
+        : SHORTCODE_PATTERN;
 
     describe(`${preset}`, () => {
       Object.entries(loadShortcodesData(preset)).forEach(([, shortcodes]) => {

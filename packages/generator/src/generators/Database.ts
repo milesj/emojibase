@@ -1,3 +1,5 @@
+/* eslint-disable unicorn/better-regex */
+
 import { stripHexcode } from 'emojibase';
 import log from '../helpers/log';
 import toArray from '../helpers/toArray';
@@ -22,6 +24,24 @@ export default class Database {
   constructor(emojis: EmojiMap) {
     this.emojiList = Object.values(emojis);
     this.mapEmojis(emojis);
+  }
+
+  static slugify(value: string): string {
+    return (
+      value
+        .toLocaleLowerCase()
+        // Apply separators
+        .replace(/(\s|`|\/|\\|･|（|）|／)+/g, '_')
+        // Remove special chars
+        .replace(/([!"&'()[\],.:;<>«»?ʼ’‘“”—–])/g, '')
+        // Remove multiple underscores
+        .replace(/_{2,}/g, '_')
+        // Remove leading underscores
+        .replace(/^_+/, '')
+        // Remove trailing underscores
+        .replace(/_+$/, '')
+        .trim()
+    );
   }
 
   addShortcodes(map: ShortcodeDataMap, hexcode: Hexcode, shortcodes: string | string[]) {

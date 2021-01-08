@@ -13,9 +13,5 @@ export default async function loadPoShortcodes(locale: Locale): Promise<POManage
     po.comments = [LOCALE_COUNTRIES[locale]];
   }
 
-  const pom = new POManager(poPath, po);
-  pom.mapByComment();
-  pom.mapByID();
-
-  return pom;
+  return new POManager(poPath, po);
 }

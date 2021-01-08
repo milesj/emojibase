@@ -44,14 +44,18 @@ export default async function generatePoFiles(): Promise<void> {
         }
 
         shortcodes.forEach((shortcode) => {
-          po.addItem(shortcode, '', `EMOJI: ${emoji.emoji || emoji.text} ${emoji.annotation}`, {
-            comment: emoji.hexcode,
-            hexcode: emoji.hexcode,
-          });
+          po.addItem(
+            shortcode,
+            locale === 'en' ? shortcode : '',
+            `EMOJI: ${emoji.emoji || emoji.text} ${emoji.annotation}`,
+            {
+              comment: emoji.hexcode,
+            },
+          );
         });
       });
 
-      return po.write();
+      return po.write(true);
     }),
   );
 

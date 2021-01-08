@@ -1,41 +1,69 @@
 import path from 'path';
-import { appendSkinToneIndex, Emoji, TEXT } from 'emojibase';
+import { appendSkinToneIndex, Emoji, SUPPORTED_LOCALES, TEXT } from 'emojibase';
 import { SHORTCODE_GUIDELINES } from '../../constants';
+import toArray from '../../helpers/toArray';
 import writeDataset from '../../helpers/writeDataset';
 import writeFile from '../../helpers/writeFile';
-import shortcodesResource from '../../resources/shortcodes';
+import loadPoMeta from '../../loaders/loadPoMeta';
+import loadPoShortcodes from '../../loaders/loadPoShortcodes';
 import { ShortcodeDataMap } from '../../types';
 import Database from '../Database';
 
 export default async function generateEmojibase(db: Database) {
   db.preset = 'emojibase';
 
-  const shortcodes: ShortcodeDataMap = {};
+  let englishShortcodes: ShortcodeDataMap = {};
 
-  db.emojiList.forEach((emoji) => {
-    const list = shortcodesResource[emoji.hexcode as keyof typeof shortcodesResource];
+  await Promise.all(
+    SUPPORTED_LOCALES.map(async (locale) => {
+      const shortcodes: ShortcodeDataMap = {};
+      const translations = await loadPoShortcodes(locale);
+      const metaTranslations = await loadPoMeta(locale);
+      const toneMsg = metaTranslations.getMessage('tone');
+      let count = 0;
 
-    if (!list) {
-      return;
-    }
+      db.emojiList.forEach((emoji) => {
+        const items = translations.itemsByComment[emoji.hexcode];
 
-    db.addShortcodes(shortcodes, emoji.hexcode, list);
+        if (!items) {
+          return;
+        }
 
-    if (emoji.modifications) {
-      Object.values(emoji.modifications).forEach((mod) => {
-        db.addShortcodes(
-          shortcodes,
-          mod.hexcode,
-          list.map((code) => appendSkinToneIndex(code, mod, 'tone')),
-        );
+        const list = items
+          .map((item) => Database.slugify(toArray(item.msgstr).join('')))
+          .filter(Boolean)
+          .sort();
+
+        if (list.length === 0) {
+          return;
+        }
+
+        count += 1;
+        shortcodes[emoji.hexcode] = db.formatShortcodes(list);
+
+        if (emoji.modifications) {
+          Object.values(emoji.modifications).forEach((mod) => {
+            shortcodes[mod.hexcode] = db.formatShortcodes(
+              list.map((code) => appendSkinToneIndex(code, mod, toneMsg)),
+            );
+          });
+        }
       });
-    }
-  });
 
-  await Promise.all([
-    writeDataset(`en/shortcodes/emojibase.raw.json`, shortcodes),
-    writeDataset(`en/shortcodes/emojibase.json`, shortcodes, true),
-  ]);
+      if (locale === 'en') {
+        englishShortcodes = shortcodes;
+      }
+
+      if (count === 0) {
+        return Promise.resolve();
+      }
+
+      return Promise.all([
+        writeDataset(`${locale}/shortcodes/emojibase.raw.json`, shortcodes),
+        writeDataset(`${locale}/shortcodes/emojibase.json`, shortcodes, true),
+      ]);
+    }),
+  );
 
   // Organize and sort the resources file using the raw dataset
   // eslint-disable-next-line
@@ -64,7 +92,7 @@ export default async function generateEmojibase(db: Database) {
     }
 
     const unicode = emoji.type === TEXT ? emoji.text : emoji.emoji;
-    let codes = shortcodes[emoji.hexcode] || [];
+    let codes = englishShortcodes[emoji.hexcode] || [];
 
     if (!Array.isArray(codes)) {
       codes = [codes];

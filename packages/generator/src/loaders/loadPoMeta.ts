@@ -13,8 +13,5 @@ export default async function loadPoMeta(locale: Locale): Promise<POManager> {
     po.comments = [LOCALE_COUNTRIES[locale]];
   }
 
-  const pom = new POManager(poPath, po);
-  pom.mapByID();
-
-  return pom;
+  return new POManager(poPath, po);
 }

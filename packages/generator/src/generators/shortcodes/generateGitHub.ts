@@ -31,7 +31,7 @@ export default async function generateGitHub(db: Database) {
     const emoji = db.getEmoji(hexcode);
 
     if (emoji) {
-      db.addShortcodes(shortcodes, emoji.hexcode, shortcode);
+      db.addShortcodes(shortcodes, emoji.hexcode, Database.slugify(shortcode));
     }
   });
 

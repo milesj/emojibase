@@ -64,7 +64,7 @@ export default async function generateJoyPixels(db: Database) {
 
       const names = Array.from(new Set([shortname, ...shortnames]))
         .filter(Boolean)
-        .map((name) => transliterate(name.replace(/:/g, '')));
+        .map((name) => transliterate(Database.slugify(name)));
 
       if (names.length > 0) {
         db.addShortcodes(shortcodes, emoji.hexcode, names);
