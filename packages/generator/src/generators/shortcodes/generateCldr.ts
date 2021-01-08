@@ -1,4 +1,4 @@
-/* eslint-disable unicorn/better-regex, @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 
 import {
   appendSkinToneIndex,
@@ -48,18 +48,10 @@ async function slugify(
     }
   }
 
-  slug = slug
-    .toLocaleLowerCase()
-    // Apply separators
-    .replace(/(\s|-|`|\/|\\|･|（|）|／)+/g, '_')
-    // Remove special chars
-    .replace(/([!"&'()[\],.:;<>«»?ʼ’‘“”—–])/g, '')
-    // Remove multiple underscores
-    .replace(/_{2,}/g, '_')
-    // Remove leading underscores
-    .replace(/^_+/, '')
-    // Remove trailing underscores
-    .replace(/_+$/, '');
+  // Replace unnecessary dashes before slugging
+  slug = slug.replace(/-/gu, '_');
+
+  slug = Database.slugify(slug);
 
   if (slug.includes('*')) {
     slug = slug.replace('*', await slugify(po.getMessage('asterisk'), locale, po, transform));

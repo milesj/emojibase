@@ -9,7 +9,9 @@ export default class POManager {
 
   po: PO;
 
-  items: Record<string, POItem> = {};
+  itemsById: Record<string, POItem> = {};
+
+  itemsByComment: Record<string, POItem[]> = {};
 
   constructor(path: string, po: PO) {
     this.path = path;
@@ -21,9 +23,21 @@ export default class POManager {
     this.setHeader('Content-Type', 'text/plain; charset=UTF-8');
     this.setHeader('Content-Transfer-Encoding', '8bit');
 
-    // Map by message ID
+    // Map items
     this.po.items.forEach((item) => {
-      this.items[item.msgid] = item;
+      this.itemsById[item.msgid] = item;
+
+      if (item.comments.length > 0) {
+        const comment = toArray(item.comments)
+          .map((c) => c.trim())
+          .join('');
+
+        if (this.itemsByComment[comment]) {
+          this.itemsByComment[comment].push(item);
+        } else {
+          this.itemsByComment[comment] = [item];
+        }
+      }
     });
   }
 
@@ -50,7 +64,7 @@ export default class POManager {
     msgctxt: string,
     { comment, flags }: { comment?: string | string[]; flags?: string[] } = {},
   ) {
-    const item = this.items[msgid] || new PO.Item();
+    const item = this.itemsById[msgid] || new PO.Item();
     item.msgid = msgid;
     item.msgctxt = msgctxt;
 
@@ -68,11 +82,11 @@ export default class POManager {
       });
     }
 
-    this.items[msgid] = item;
+    this.itemsById[msgid] = item;
   }
 
   getItem(id: string): POItem {
-    const item = this.items[id];
+    const item = this.itemsById[id];
 
     if (!item) {
       throw new Error(`No PO translation for "${id}".`);
@@ -86,7 +100,7 @@ export default class POManager {
   }
 
   async write(sort: boolean = false): Promise<void> {
-    this.po.items = Object.values(this.items);
+    this.po.items = Object.values(this.itemsById);
 
     if (sort) {
       this.po.items.sort((a, b) => a.msgid.localeCompare(b.msgid));
