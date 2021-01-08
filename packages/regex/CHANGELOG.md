@@ -1,3 +1,9 @@
+## 5.1.0 - 2020-01-07
+
+#### 🚀 Updates
+
+- Updated to [Emoji 13.1](https://emojipedia.org/emoji-13.1/).
+
 # 5.0.0 - 2020-09-11
 
 #### 💥 Breaking
