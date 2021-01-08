@@ -20,28 +20,11 @@ export default class POManager {
     this.setHeader('MIME-Version', '1.0');
     this.setHeader('Content-Type', 'text/plain; charset=UTF-8');
     this.setHeader('Content-Transfer-Encoding', '8bit');
-  }
 
-  mapByComment(): this {
-    this.po.items.forEach((item) => {
-      if (item.comments.length > 0) {
-        this.items[
-          toArray(item.comments)
-            .map((c) => c.trim())
-            .join('')
-        ] = item;
-      }
-    });
-
-    return this;
-  }
-
-  mapByID(): this {
+    // Map by message ID
     this.po.items.forEach((item) => {
       this.items[item.msgid] = item;
     });
-
-    return this;
   }
 
   setHeader(name: POHeaders, value: string | Date) {
@@ -65,13 +48,9 @@ export default class POManager {
     msgid: string,
     msgstr: string,
     msgctxt: string,
-    {
-      comment,
-      flags,
-      hexcode,
-    }: { comment?: string | string[]; flags?: string[]; hexcode?: string } = {},
+    { comment, flags }: { comment?: string | string[]; flags?: string[] } = {},
   ) {
-    const item = (hexcode && this.items[hexcode]) || this.items[msgid] || new PO.Item();
+    const item = this.items[msgid] || new PO.Item();
     item.msgid = msgid;
     item.msgctxt = msgctxt;
 
@@ -106,7 +85,13 @@ export default class POManager {
     return toArray(this.getItem(id).msgstr).join('');
   }
 
-  async write(): Promise<void> {
+  async write(sort: boolean = false): Promise<void> {
+    this.po.items = Object.values(this.items);
+
+    if (sort) {
+      this.po.items.sort((a, b) => a.msgid.localeCompare(b.msgid));
+    }
+
     await fs.promises.writeFile(this.path, this.po.toString(), 'utf8');
   }
 }
