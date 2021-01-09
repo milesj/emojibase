@@ -2,6 +2,9 @@
 
 #### 🚀 Updates
 
+- Added new `meta.json` dataset to each locale that provides localized messages for groups and
+  sub-groups.
+- Added partially translated `emojibase` shortcodes for Russian and Chinese.
 - Updated to [Emoji 13.1](https://emojipedia.org/emoji-13.1/).
 - Updated to [CLDR 38.1](http://cldr.unicode.org/index/downloads/cldr-38).
 

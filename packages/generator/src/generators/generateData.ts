@@ -1,6 +1,6 @@
 /* eslint-disable complexity */
 
-import { Emoji as FinalEmoji, Locale, stripHexcode, SUPPORTED_LOCALES } from 'emojibase';
+import { Emoji as FinalEmoji, GroupMeta, Locale, stripHexcode, SUPPORTED_LOCALES } from 'emojibase';
 import buildAnnotationData from '../builders/buildAnnotationData';
 import buildEmojiData from '../builders/buildEmojiData';
 import filterData from '../helpers/filterData';
@@ -136,12 +136,6 @@ function createVersionMap(): HexcodeVersionMap {
 }
 
 async function generateMetaData(locale: Locale): Promise<unknown> {
-  interface GroupMeta {
-    id: number;
-    key: string;
-    message: string;
-  }
-
   const data = await loadPoMeta(locale);
   const englishData = await loadPoMeta('en');
   const groups: GroupMeta[] = [];
