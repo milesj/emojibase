@@ -44,6 +44,8 @@ adhere to the defined [data structure](#data-structure).
 
 ```ts
 import emojis from 'emojibase-data/<locale>/data.json';
+import compactEmojis from 'emojibase-data/<locale>/compact.json';
+import groupsSubgroups from 'emojibase-data/<locale>/meta.json';
 ```
 
 The second group, versioned data, provides datasets for emoji and Unicode release versions. These
@@ -191,6 +193,36 @@ import data from 'emojibase-data/en/compact.json';
     // ...
   ],
 },
+```
+
+### Metadata format
+
+The metadata format is a special dataset that provides translations (incomplete for some locales)
+for groups, sub-groups, and any other related emoji metadata.
+
+```ts
+import data from 'emojibase-data/en/meta.json';
+```
+
+```js
+{
+  groups: [
+    {
+      id: 0,
+      key: 'smileys-emotion',
+      message: 'smileys & emotion',
+    },
+    // ...
+  ],
+  subgroups: [
+    {
+      id: 0,
+      key: 'face-smiling',
+      message: 'smiling',
+    },
+    // ...
+  ],
+};
 ```
 
 ## Fetching from a CDN
