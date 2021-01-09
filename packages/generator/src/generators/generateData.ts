@@ -7,6 +7,7 @@ import filterData from '../helpers/filterData';
 import log from '../helpers/log';
 import readCache from '../helpers/readCache';
 import writeDataset from '../helpers/writeDataset';
+import loadPoMeta from '../loaders/loadPoMeta';
 import {
   CLDRAnnotationMap,
   Emoji,
@@ -134,6 +135,49 @@ function createVersionMap(): HexcodeVersionMap {
   return versions;
 }
 
+async function generateMetaData(locale: Locale): Promise<unknown> {
+  interface GroupMeta {
+    id: number;
+    key: string;
+    message: string;
+  }
+
+  const data = await loadPoMeta(locale);
+  const englishData = await loadPoMeta('en');
+  const groups: GroupMeta[] = [];
+  const subgroups: GroupMeta[] = [];
+
+  data.po.items.forEach((item) => {
+    const context = String(item.msgctxt);
+
+    if (context.includes('ANNOTATION')) {
+      return;
+    }
+
+    const [id, key] = item.comments[0].split(':');
+    const meta: GroupMeta = {
+      id: Number(id.trim()),
+      key: key.trim(),
+      message: String(item.msgstr),
+    };
+
+    if (!meta.message) {
+      meta.message = String(englishData.itemsById[item.msgid].msgstr);
+    }
+
+    if (context.includes('SUB-GROUP')) {
+      subgroups.push(meta);
+    } else {
+      groups.push(meta);
+    }
+  });
+
+  return Promise.all([
+    writeDataset(`${locale}/meta.raw.json`, { groups, subgroups }),
+    writeDataset(`${locale}/meta.json`, { groups, subgroups }, true),
+  ]);
+}
+
 export default async function generateData(): Promise<void> {
   log.title('data', 'Generating emoji datasets');
 
@@ -152,11 +196,14 @@ export default async function generateData(): Promise<void> {
       // Sort by order
       emojis.sort((a, b) => (a.order || 0) - (b.order || 0));
 
+      const compactEmojis = extractCompact(emojis);
+
       return Promise.all([
+        generateMetaData(locale),
         writeDataset(`${locale}/data.raw.json`, emojis),
         writeDataset(`${locale}/data.json`, emojis, true),
-        writeDataset(`${locale}/compact.raw.json`, extractCompact(emojis)),
-        writeDataset(`${locale}/compact.json`, extractCompact(emojis), true),
+        writeDataset(`${locale}/compact.raw.json`, compactEmojis),
+        writeDataset(`${locale}/compact.json`, compactEmojis, true),
       ]);
     }),
   );
