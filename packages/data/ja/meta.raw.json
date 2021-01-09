@@ -1,0 +1,556 @@
+{
+  "groups": [
+    {
+      "id": 0,
+      "key": "smileys-emotion",
+      "message": "smileys & emotion"
+    },
+    {
+      "id": 1,
+      "key": "people-body",
+      "message": "人体"
+    },
+    {
+      "id": 2,
+      "key": "component",
+      "message": "コンポーネント"
+    },
+    {
+      "id": 3,
+      "key": "animals-nature",
+      "message": "動物自然"
+    },
+    {
+      "id": 4,
+      "key": "food-drink",
+      "message": "飲み物・食べ物"
+    },
+    {
+      "id": 5,
+      "key": "travel-places",
+      "message": "旅行・場所"
+    },
+    {
+      "id": 6,
+      "key": "activities",
+      "message": "アクティビティ"
+    },
+    {
+      "id": 7,
+      "key": "objects",
+      "message": "オブジェクト"
+    },
+    {
+      "id": 8,
+      "key": "symbols",
+      "message": "シンボル"
+    },
+    {
+      "id": 9,
+      "key": "flags",
+      "message": "国旗"
+    }
+  ],
+  "subgroups": [
+    {
+      "id": 0,
+      "key": "face-smiling",
+      "message": "笑顔"
+    },
+    {
+      "id": 1,
+      "key": "face-affection",
+      "message": "愛情顔"
+    },
+    {
+      "id": 2,
+      "key": "face-tongue",
+      "message": "舌の顔"
+    },
+    {
+      "id": 3,
+      "key": "face-hand",
+      "message": "with hands"
+    },
+    {
+      "id": 4,
+      "key": "face-neutral-skeptical",
+      "message": "中立的で懐疑的な顔"
+    },
+    {
+      "id": 5,
+      "key": "face-sleepy",
+      "message": "眠そうな顔"
+    },
+    {
+      "id": 6,
+      "key": "face-unwell",
+      "message": "体調不良顔"
+    },
+    {
+      "id": 7,
+      "key": "face-hat",
+      "message": "with hats"
+    },
+    {
+      "id": 8,
+      "key": "face-glasses",
+      "message": "with glasses"
+    },
+    {
+      "id": 9,
+      "key": "face-concerned",
+      "message": "concerned"
+    },
+    {
+      "id": 10,
+      "key": "face-negative",
+      "message": "negative"
+    },
+    {
+      "id": 11,
+      "key": "face-costume",
+      "message": "costumed & creatures"
+    },
+    {
+      "id": 12,
+      "key": "cat-face",
+      "message": "cat faces"
+    },
+    {
+      "id": 13,
+      "key": "monkey-face",
+      "message": "monkey faces"
+    },
+    {
+      "id": 14,
+      "key": "emotion",
+      "message": "emotions"
+    },
+    {
+      "id": 15,
+      "key": "hand-fingers-open",
+      "message": "fingers open"
+    },
+    {
+      "id": 16,
+      "key": "hand-fingers-partial",
+      "message": "hand signs"
+    },
+    {
+      "id": 17,
+      "key": "hand-single-finger",
+      "message": "finger pointing"
+    },
+    {
+      "id": 18,
+      "key": "hand-fingers-closed",
+      "message": "fingers closed"
+    },
+    {
+      "id": 19,
+      "key": "hands",
+      "message": "hands"
+    },
+    {
+      "id": 20,
+      "key": "hand-prop",
+      "message": "hand props"
+    },
+    {
+      "id": 21,
+      "key": "body-parts",
+      "message": "body parts"
+    },
+    {
+      "id": 22,
+      "key": "person",
+      "message": "people"
+    },
+    {
+      "id": 23,
+      "key": "person-gesture",
+      "message": "gestures"
+    },
+    {
+      "id": 24,
+      "key": "person-role",
+      "message": "roles & careers"
+    },
+    {
+      "id": 25,
+      "key": "person-fantasy",
+      "message": "fantasy"
+    },
+    {
+      "id": 26,
+      "key": "person-activity",
+      "message": "activities"
+    },
+    {
+      "id": 27,
+      "key": "person-sport",
+      "message": "sports"
+    },
+    {
+      "id": 28,
+      "key": "person-resting",
+      "message": "resting"
+    },
+    {
+      "id": 29,
+      "key": "family",
+      "message": "family"
+    },
+    {
+      "id": 30,
+      "key": "person-symbol",
+      "message": "symbols"
+    },
+    {
+      "id": 31,
+      "key": "skin-tone",
+      "message": "skin tones"
+    },
+    {
+      "id": 32,
+      "key": "hair-style",
+      "message": "hair styles"
+    },
+    {
+      "id": 33,
+      "key": "animal-mammal",
+      "message": "mammals"
+    },
+    {
+      "id": 34,
+      "key": "animal-bird",
+      "message": "birds"
+    },
+    {
+      "id": 35,
+      "key": "animal-amphibian",
+      "message": "amphibians"
+    },
+    {
+      "id": 36,
+      "key": "animal-reptile",
+      "message": "reptiles"
+    },
+    {
+      "id": 37,
+      "key": "animal-marine",
+      "message": "marine life"
+    },
+    {
+      "id": 38,
+      "key": "animal-bug",
+      "message": "bugs"
+    },
+    {
+      "id": 39,
+      "key": "plant-flower",
+      "message": "flowers"
+    },
+    {
+      "id": 40,
+      "key": "plant-other",
+      "message": "other plants"
+    },
+    {
+      "id": 41,
+      "key": "food-fruit",
+      "message": "fruit"
+    },
+    {
+      "id": 42,
+      "key": "food-vegetable",
+      "message": "vegetables"
+    },
+    {
+      "id": 43,
+      "key": "food-prepared",
+      "message": "cooked / prepared"
+    },
+    {
+      "id": 44,
+      "key": "food-asian",
+      "message": "asian"
+    },
+    {
+      "id": 45,
+      "key": "food-marine",
+      "message": "seafood"
+    },
+    {
+      "id": 46,
+      "key": "food-sweet",
+      "message": "sweets & candy"
+    },
+    {
+      "id": 47,
+      "key": "drink",
+      "message": "drink"
+    },
+    {
+      "id": 48,
+      "key": "dishware",
+      "message": "dishware"
+    },
+    {
+      "id": 49,
+      "key": "place-map",
+      "message": "globes & maps"
+    },
+    {
+      "id": 50,
+      "key": "place-geographic",
+      "message": "geographic locations"
+    },
+    {
+      "id": 51,
+      "key": "place-building",
+      "message": "buildings"
+    },
+    {
+      "id": 52,
+      "key": "place-religious",
+      "message": "religious buildings"
+    },
+    {
+      "id": 53,
+      "key": "place-other",
+      "message": "other places"
+    },
+    {
+      "id": 54,
+      "key": "transport-ground",
+      "message": "ground transportation"
+    },
+    {
+      "id": 55,
+      "key": "transport-water",
+      "message": "water transportation"
+    },
+    {
+      "id": 56,
+      "key": "transport-air",
+      "message": "air transportation"
+    },
+    {
+      "id": 57,
+      "key": "hotel",
+      "message": "hotel"
+    },
+    {
+      "id": 58,
+      "key": "time",
+      "message": "time"
+    },
+    {
+      "id": 59,
+      "key": "sky-weather",
+      "message": "weather"
+    },
+    {
+      "id": 60,
+      "key": "event",
+      "message": "events & holidays"
+    },
+    {
+      "id": 61,
+      "key": "award-medal",
+      "message": "award medals"
+    },
+    {
+      "id": 62,
+      "key": "sport",
+      "message": "sports"
+    },
+    {
+      "id": 63,
+      "key": "game",
+      "message": "games & hobbies"
+    },
+    {
+      "id": 64,
+      "key": "arts-crafts",
+      "message": "arts & crafts"
+    },
+    {
+      "id": 65,
+      "key": "clothing",
+      "message": "clothing"
+    },
+    {
+      "id": 66,
+      "key": "sound",
+      "message": "sound"
+    },
+    {
+      "id": 67,
+      "key": "music",
+      "message": "music"
+    },
+    {
+      "id": 68,
+      "key": "musical-instrument",
+      "message": "musical instruments"
+    },
+    {
+      "id": 69,
+      "key": "phone",
+      "message": "phone"
+    },
+    {
+      "id": 70,
+      "key": "computer",
+      "message": "computer"
+    },
+    {
+      "id": 71,
+      "key": "light-video",
+      "message": "light, film & video"
+    },
+    {
+      "id": 72,
+      "key": "book-paper",
+      "message": "books & paper"
+    },
+    {
+      "id": 73,
+      "key": "money",
+      "message": "money"
+    },
+    {
+      "id": 74,
+      "key": "mail",
+      "message": "mail"
+    },
+    {
+      "id": 75,
+      "key": "writing",
+      "message": "writing"
+    },
+    {
+      "id": 76,
+      "key": "office",
+      "message": "office supplies"
+    },
+    {
+      "id": 77,
+      "key": "lock",
+      "message": "lock & keys"
+    },
+    {
+      "id": 78,
+      "key": "tool",
+      "message": "tools"
+    },
+    {
+      "id": 79,
+      "key": "science",
+      "message": "science equipment"
+    },
+    {
+      "id": 80,
+      "key": "medical",
+      "message": "medical"
+    },
+    {
+      "id": 81,
+      "key": "household",
+      "message": "household items"
+    },
+    {
+      "id": 82,
+      "key": "other-object",
+      "message": "other objects"
+    },
+    {
+      "id": 83,
+      "key": "transport-sign",
+      "message": "transport signs"
+    },
+    {
+      "id": 84,
+      "key": "warning",
+      "message": "warning symbols"
+    },
+    {
+      "id": 85,
+      "key": "arrow",
+      "message": "arrows"
+    },
+    {
+      "id": 86,
+      "key": "religion",
+      "message": "religious symbols"
+    },
+    {
+      "id": 87,
+      "key": "zodiac",
+      "message": "zodiac signs"
+    },
+    {
+      "id": 88,
+      "key": "av-symbol",
+      "message": "audio & video symbols"
+    },
+    {
+      "id": 89,
+      "key": "gender",
+      "message": "gender signs"
+    },
+    {
+      "id": 90,
+      "key": "math",
+      "message": "math symbols"
+    },
+    {
+      "id": 91,
+      "key": "punctuation",
+      "message": "punctuation"
+    },
+    {
+      "id": 92,
+      "key": "currency",
+      "message": "currencies"
+    },
+    {
+      "id": 93,
+      "key": "other-symbol",
+      "message": "other symbols"
+    },
+    {
+      "id": 94,
+      "key": "keycap",
+      "message": "keypad characters"
+    },
+    {
+      "id": 95,
+      "key": "alphanum",
+      "message": "alphanumeric symbols"
+    },
+    {
+      "id": 96,
+      "key": "geometric",
+      "message": "shapes & colors"
+    },
+    {
+      "id": 97,
+      "key": "flag",
+      "message": "flags"
+    },
+    {
+      "id": 98,
+      "key": "country-flag",
+      "message": "country flags"
+    },
+    {
+      "id": 99,
+      "key": "subdivision-flag",
+      "message": "subdivision flags"
+    }
+  ]
+}
