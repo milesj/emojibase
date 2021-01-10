@@ -16,7 +16,7 @@ declare module 'pofile' {
 
   export class POItem {
     msgid: string;
-    msgctxt: POItemMessage;
+    msgctxt: string;
     references: string[];
     msgid_plural: POItemMessage;
     msgstr: POItemMessage;
