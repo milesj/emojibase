@@ -2,7 +2,7 @@ import path from 'path';
 import { Emoji, Hexcode, ShortcodesDataset, SUPPORTED_LOCALES } from 'emojibase';
 import log from '../helpers/log';
 import toArray from '../helpers/toArray';
-// import loadPoMeta from '../loaders/loadPoMeta';
+import loadPoMeta from '../loaders/loadPoMeta';
 import loadPoShortcodes from '../loaders/loadPoShortcodes';
 
 export default async function generatePoFiles(): Promise<void> {
@@ -68,27 +68,45 @@ export default async function generatePoFiles(): Promise<void> {
 
   // const englishMeta = await loadPoMeta('en');
 
-  // await Promise.all(
-  //   SUPPORTED_LOCALES.map(async (locale) => {
-  //     const po = await loadPoMeta(locale);
+  await Promise.all(
+    SUPPORTED_LOCALES.map(async (locale) => {
+      const po = await loadPoMeta(locale);
 
-  //     // Groups
-  //     Object.entries(groupsHierarchy.groups).forEach(([groupID, groupKey]) => {
-  //       po.addItem(groupKey.replace(/-/g, ' '), '', 'EMOJI GROUP', {
-  //         comment: `${groupID}: ${groupKey}`,
-  //       });
-  //     });
+      po.po.items.forEach((item) => {
+        const context = String(item.msgctxt);
 
-  //     // Subgroups
-  //     Object.entries(groupsHierarchy.subgroups).forEach(([groupID, groupKey]) => {
-  //       po.addItem(groupKey.replace(/-/g, ' '), '', 'EMOJI SUB-GROUP', {
-  //         comment: `${groupID}: ${groupKey}`,
-  //       });
-  //     });
+        if (context.includes('ANNOTATION')) {
+          return;
+        }
 
-  //     // Add custom translations here!
+        item.msgctxt = [];
 
-  //     return po.write();
-  //   }),
-  // );
+        context.split(',').forEach((ctx, idx) => {
+          const comment = item.comments[idx].trim();
+          const [, key] = comment.split(':');
+
+          // @ts-expect-error
+          item.msgctxt[idx] = `${ctx.trim()}: ${key.trim()}`;
+        });
+      });
+
+      // // Groups
+      // Object.entries(groupsHierarchy.groups).forEach(([groupID, groupKey]) => {
+      //   po.addItem(groupKey.replace(/-/g, ' '), '', 'EMOJI GROUP', {
+      //     comment: `${groupID}: ${groupKey}`,
+      //   });
+      // });
+
+      // // Subgroups
+      // Object.entries(groupsHierarchy.subgroups).forEach(([groupID, groupKey]) => {
+      //   po.addItem(groupKey.replace(/-/g, ' '), '', 'EMOJI SUB-GROUP', {
+      //     comment: `${groupID}: ${groupKey}`,
+      //   });
+      // });
+
+      // Add custom translations here!
+
+      return po.write();
+    }),
+  );
 }
