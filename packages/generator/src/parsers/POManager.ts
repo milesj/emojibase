@@ -31,6 +31,10 @@ export default class POManager {
         toArray(item.comments).forEach((c) => {
           const comment = c.trim();
 
+          if (comment.includes('fuzzy')) {
+            return;
+          }
+
           if (this.itemsByComment[comment]) {
             this.itemsByComment[comment].push(item);
           } else {
