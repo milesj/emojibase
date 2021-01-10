@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-25 22:32+420\n"
-"PO-Revision-Date: 2021-01-07 21:22+480\n"
+"PO-Revision-Date: 2021-01-09 20:42+480\n"
 "Last-Translator: Filon Hon <filon7@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/emojibase/emoji-metadata/zh_Hans/>\n"
 "Language: zh\n"
@@ -38,38 +38,39 @@ msgstr "井号"
 
 # 0: smileys-emotion
 msgctxt "EMOJI GROUP"
-msgid "smileys emotion"
+msgid "smileys & emotion"
 msgstr "笑脸"
 
 # 1: people-body
 msgctxt "EMOJI GROUP"
-msgid "people body"
+msgid "people & body"
 msgstr "人体"
 
 # 2: component
 msgctxt "EMOJI GROUP"
-msgid "component"
+msgid "components"
 msgstr "组件"
 
 # 3: animals-nature
 msgctxt "EMOJI GROUP"
-msgid "animals nature"
+msgid "animals & nature"
 msgstr "野生动物"
 
 # 4: food-drink
 msgctxt "EMOJI GROUP"
-msgid "food drink"
+msgid "food & drink"
 msgstr "饮食"
 
 # 5: travel-places
 msgctxt "EMOJI GROUP"
-msgid "travel places"
+msgid "travel & places"
 msgstr "旅游景点"
 
 # 6: activities
-msgctxt "EMOJI GROUP"
+# 26: person-activity
+msgctxt "EMOJI GROUP, SUB-GROUP"
 msgid "activities"
-msgstr "活动"
+msgstr "个人活动"
 
 # 7: objects
 msgctxt "EMOJI GROUP"
@@ -79,7 +80,7 @@ msgstr "物体"
 # 8: symbols
 msgctxt "EMOJI GROUP"
 msgid "symbols"
-msgstr "符号"
+msgstr "人的符号"
 
 # 9: flags
 msgctxt "EMOJI GROUP"
@@ -88,97 +89,97 @@ msgstr "旗帜"
 
 # 0: face-smiling
 msgctxt "EMOJI SUB-GROUP"
-msgid "face smiling"
+msgid "smiling"
 msgstr "笑脸"
 
 # 1: face-affection
 msgctxt "EMOJI SUB-GROUP"
-msgid "face affection"
+msgid "affectionate"
 msgstr "爱你哦"
 
 # 2: face-tongue
 msgctxt "EMOJI SUB-GROUP"
-msgid "face tongue"
+msgid "with tongue"
 msgstr "吐舌"
 
 # 3: face-hand
 msgctxt "EMOJI SUB-GROUP"
-msgid "face hand"
+msgid "with hands"
 msgstr "掩嘴笑"
 
 # 4: face-neutral-skeptical
 msgctxt "EMOJI SUB-GROUP"
-msgid "face neutral skeptical"
+msgid "neutral / skeptical"
 msgstr "怀疑"
 
 # 5: face-sleepy
 msgctxt "EMOJI SUB-GROUP"
-msgid "face sleepy"
+msgid "sleepy"
 msgstr "瞌睡"
 
 # 6: face-unwell
 msgctxt "EMOJI SUB-GROUP"
-msgid "face unwell"
+msgid "unwell"
 msgstr "生病"
 
 # 7: face-hat
 msgctxt "EMOJI SUB-GROUP"
-msgid "face hat"
+msgid "with hats"
 msgstr "帽子"
 
 # 8: face-glasses
 msgctxt "EMOJI SUB-GROUP"
-msgid "face glasses"
+msgid "with glasses"
 msgstr "眼镜"
 
 # 9: face-concerned
 msgctxt "EMOJI SUB-GROUP"
-msgid "face concerned"
+msgid "concerned"
 msgstr "关心"
 
 # 10: face-negative
 msgctxt "EMOJI SUB-GROUP"
-msgid "face negative"
+msgid "negative"
 msgstr "沮丧"
 
 # 11: face-costume
 msgctxt "EMOJI SUB-GROUP"
-msgid "face costume"
+msgid "costumed & creatures"
 msgstr "衣服"
 
 # 12: cat-face
 msgctxt "EMOJI SUB-GROUP"
-msgid "cat face"
+msgid "cat faces"
 msgstr "猫脸"
 
 # 13: monkey-face
 msgctxt "EMOJI SUB-GROUP"
-msgid "monkey face"
+msgid "monkey faces"
 msgstr "猴子"
 
 # 14: emotion
 msgctxt "EMOJI SUB-GROUP"
-msgid "emotion"
+msgid "emotions"
 msgstr "情绪"
 
 # 15: hand-fingers-open
 msgctxt "EMOJI SUB-GROUP"
-msgid "hand fingers open"
+msgid "fingers open"
 msgstr "手伸开"
 
 # 16: hand-fingers-partial
 msgctxt "EMOJI SUB-GROUP"
-msgid "hand fingers partial"
+msgid "hand signs"
 msgstr "手的手指部分"
 
 # 17: hand-single-finger
 msgctxt "EMOJI SUB-GROUP"
-msgid "hand single finger"
+msgid "finger pointing"
 msgstr "一根手指"
 
 # 18: hand-fingers-closed
 msgctxt "EMOJI SUB-GROUP"
-msgid "hand fingers closed"
+msgid "fingers closed"
 msgstr "拳头"
 
 # 19: hands
@@ -188,7 +189,7 @@ msgstr "手"
 
 # 20: hand-prop
 msgctxt "EMOJI SUB-GROUP"
-msgid "hand prop"
+msgid "hand props"
 msgstr "举手"
 
 # 21: body-parts
@@ -198,37 +199,32 @@ msgstr "身体部位"
 
 # 22: person
 msgctxt "EMOJI SUB-GROUP"
-msgid "person"
+msgid "people"
 msgstr "人"
 
 # 23: person-gesture
 msgctxt "EMOJI SUB-GROUP"
-msgid "person gesture"
+msgid "gestures"
 msgstr "做手势"
 
 # 24: person-role
 msgctxt "EMOJI SUB-GROUP"
-msgid "person role"
+msgid "roles & careers"
 msgstr "演员"
 
 # 25: person-fantasy
 msgctxt "EMOJI SUB-GROUP"
-msgid "person fantasy"
+msgid "fantasy"
 msgstr "有魅力的人"
 
-# 26: person-activity
+# 62: sport
 msgctxt "EMOJI SUB-GROUP"
-msgid "person activity"
-msgstr "个人活动"
-
-# 27: person-sport
-msgctxt "EMOJI SUB-GROUP"
-msgid "person sport"
-msgstr "个人运动"
+msgid "sports"
+msgstr "运动"
 
 # 28: person-resting
 msgctxt "EMOJI SUB-GROUP"
-msgid "person resting"
+msgid "resting"
 msgstr "休息"
 
 # 29: family
@@ -236,89 +232,84 @@ msgctxt "EMOJI SUB-GROUP"
 msgid "family"
 msgstr "家庭"
 
-# 30: person-symbol
-msgctxt "EMOJI SUB-GROUP"
-msgid "person symbol"
-msgstr "人的符号"
-
 # 31: skin-tone
 msgctxt "EMOJI SUB-GROUP"
-msgid "skin tone"
+msgid "skin tones"
 msgstr "皮肤色调"
 
 # 32: hair-style
 msgctxt "EMOJI SUB-GROUP"
-msgid "hair style"
+msgid "hair styles"
 msgstr "发型"
 
 # 33: animal-mammal
 msgctxt "EMOJI SUB-GROUP"
-msgid "animal mammal"
+msgid "mammals"
 msgstr "哺乳动物"
 
 # 34: animal-bird
 msgctxt "EMOJI SUB-GROUP"
-msgid "animal bird"
+msgid "birds"
 msgstr "鸟类"
 
 # 35: animal-amphibian
 msgctxt "EMOJI SUB-GROUP"
-msgid "animal amphibian"
+msgid "amphibians"
 msgstr "两栖动物"
 
 # 36: animal-reptile
 msgctxt "EMOJI SUB-GROUP"
-msgid "animal reptile"
+msgid "reptiles"
 msgstr "爬行类动物"
 
 # 37: animal-marine
 msgctxt "EMOJI SUB-GROUP"
-msgid "animal marine"
+msgid "marine life"
 msgstr "海洋动物"
 
 # 38: animal-bug
 msgctxt "EMOJI SUB-GROUP"
-msgid "animal bug"
+msgid "bugs"
 msgstr "昆虫"
 
 # 39: plant-flower
 msgctxt "EMOJI SUB-GROUP"
-msgid "plant flower"
+msgid "flowers"
 msgstr "花"
 
 # 40: plant-other
 msgctxt "EMOJI SUB-GROUP"
-msgid "plant other"
+msgid "other plants"
 msgstr "其它植物"
 
 # 41: food-fruit
 msgctxt "EMOJI SUB-GROUP"
-msgid "food fruit"
+msgid "fruit"
 msgstr "水果"
 
 # 42: food-vegetable
 msgctxt "EMOJI SUB-GROUP"
-msgid "food vegetable"
+msgid "vegetables"
 msgstr "蔬菜"
 
 # 43: food-prepared
 msgctxt "EMOJI SUB-GROUP"
-msgid "food prepared"
+msgid "cooked / prepared"
 msgstr "准备好的食物"
 
 # 44: food-asian
 msgctxt "EMOJI SUB-GROUP"
-msgid "food asian"
+msgid "asian"
 msgstr "亚洲食物"
 
 # 45: food-marine
 msgctxt "EMOJI SUB-GROUP"
-msgid "food marine"
+msgid "seafood"
 msgstr "海产"
 
 # 46: food-sweet
 msgctxt "EMOJI SUB-GROUP"
-msgid "food sweet"
+msgid "sweets & candy"
 msgstr "甜食"
 
 # 47: drink
@@ -334,42 +325,42 @@ msgstr "餐具"
 # 49: place-map
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP"
-msgid "place map"
+msgid "globes & maps"
 msgstr "位置地图"
 
 # 50: place-geographic
 msgctxt "EMOJI SUB-GROUP"
-msgid "place geographic"
+msgid "geographic locations"
 msgstr "地理位置"
 
 # 51: place-building
 msgctxt "EMOJI SUB-GROUP"
-msgid "place building"
+msgid "buildings"
 msgstr "地方建筑"
 
 # 52: place-religious
 msgctxt "EMOJI SUB-GROUP"
-msgid "place religious"
+msgid "religious buildings"
 msgstr "宗教场所"
 
 # 53: place-other
 msgctxt "EMOJI SUB-GROUP"
-msgid "place other"
+msgid "other places"
 msgstr "其它地方"
 
 # 54: transport-ground
 msgctxt "EMOJI SUB-GROUP"
-msgid "transport ground"
+msgid "ground transportation"
 msgstr "陆运"
 
 # 55: transport-water
 msgctxt "EMOJI SUB-GROUP"
-msgid "transport water"
+msgid "water transportation"
 msgstr "水运"
 
 # 56: transport-air
 msgctxt "EMOJI SUB-GROUP"
-msgid "transport air"
+msgid "air transportation"
 msgstr "空运"
 
 # 57: hotel
@@ -384,32 +375,27 @@ msgstr "时间"
 
 # 59: sky-weather
 msgctxt "EMOJI SUB-GROUP"
-msgid "sky weather"
+msgid "weather"
 msgstr "天气"
 
 # 60: event
 msgctxt "EMOJI SUB-GROUP"
-msgid "event"
+msgid "events & holidays"
 msgstr "事件"
 
 # 61: award-medal
 msgctxt "EMOJI SUB-GROUP"
-msgid "award medal"
+msgid "award medals"
 msgstr "奖章"
-
-# 62: sport
-msgctxt "EMOJI SUB-GROUP"
-msgid "sport"
-msgstr "运动"
 
 # 63: game
 msgctxt "EMOJI SUB-GROUP"
-msgid "game"
+msgid "games & hobbies"
 msgstr "游戏"
 
 # 64: arts-crafts
 msgctxt "EMOJI SUB-GROUP"
-msgid "arts crafts"
+msgid "arts & crafts"
 msgstr "工艺品"
 
 # 65: clothing
@@ -429,7 +415,7 @@ msgstr "音乐"
 
 # 68: musical-instrument
 msgctxt "EMOJI SUB-GROUP"
-msgid "musical instrument"
+msgid "musical instruments"
 msgstr "乐器"
 
 # 69: phone
@@ -444,12 +430,12 @@ msgstr "计算机"
 
 # 71: light-video
 msgctxt "EMOJI SUB-GROUP"
-msgid "light video"
+msgid "light, film & video"
 msgstr "轻视频"
 
 # 72: book-paper
 msgctxt "EMOJI SUB-GROUP"
-msgid "book paper"
+msgid "books & paper"
 msgstr "印书纸"
 
 # 73: money
@@ -469,22 +455,22 @@ msgstr "文章"
 
 # 76: office
 msgctxt "EMOJI SUB-GROUP"
-msgid "office"
+msgid "office supplies"
 msgstr "办公室"
 
 # 77: lock
 msgctxt "EMOJI SUB-GROUP"
-msgid "lock"
+msgid "lock & keys"
 msgstr "锁"
 
 # 78: tool
 msgctxt "EMOJI SUB-GROUP"
-msgid "tool"
+msgid "tools"
 msgstr "工具"
 
 # 79: science
 msgctxt "EMOJI SUB-GROUP"
-msgid "science"
+msgid "science equipment"
 msgstr "科学"
 
 # 80: medical
@@ -494,52 +480,52 @@ msgstr "医疗的"
 
 # 81: household
 msgctxt "EMOJI SUB-GROUP"
-msgid "household"
+msgid "household items"
 msgstr "一家人"
 
 # 82: other-object
 msgctxt "EMOJI SUB-GROUP"
-msgid "other object"
+msgid "other objects"
 msgstr "其它物体"
 
 # 83: transport-sign
 msgctxt "EMOJI SUB-GROUP"
-msgid "transport sign"
+msgid "transport signs"
 msgstr "交通标志"
 
 # 84: warning
 msgctxt "EMOJI SUB-GROUP"
-msgid "warning"
+msgid "warning symbols"
 msgstr "警告"
 
 # 85: arrow
 msgctxt "EMOJI SUB-GROUP"
-msgid "arrow"
+msgid "arrows"
 msgstr "箭头"
 
 # 86: religion
 msgctxt "EMOJI SUB-GROUP"
-msgid "religion"
+msgid "religious symbols"
 msgstr "宗教"
 
 # 87: zodiac
 msgctxt "EMOJI SUB-GROUP"
-msgid "zodiac"
+msgid "zodiac signs"
 msgstr "星座"
 
 # 88: av-symbol
 msgctxt "EMOJI SUB-GROUP"
-msgid "av symbol"
+msgid "audio & video symbols"
 msgstr "AV符号"
 
 # 89: gender
 msgctxt "EMOJI SUB-GROUP"
-msgid "gender"
+msgid "gender signs"
 msgstr "性别"
 
 # 90: math
 msgctxt "EMOJI SUB-GROUP"
-msgid "math"
+msgid "math symbols"
 msgstr "数学"
 
 # 91: punctuation
@@ -549,40 +535,50 @@ msgstr "标点符号"
 
 # 92: currency
 msgctxt "EMOJI SUB-GROUP"
-msgid "currency"
+msgid "currencies"
 msgstr "货币"
 
 # 93: other-symbol
 msgctxt "EMOJI SUB-GROUP"
-msgid "other symbol"
+msgid "other symbols"
 msgstr "其他符号"
 
 # 94: keycap
 msgctxt "EMOJI SUB-GROUP"
-msgid "keycap"
+msgid "keypad characters"
 msgstr "键帽"
 
 # 95: alphanum
 msgctxt "EMOJI SUB-GROUP"
-msgid "alphanum"
+msgid "alphanumeric symbols"
 msgstr "字母数字"
 
 # 96: geometric
 msgctxt "EMOJI SUB-GROUP"
-msgid "geometric"
+msgid "shapes & colors"
 msgstr "几何"
-
-# 97: flag
-msgctxt "EMOJI SUB-GROUP"
-msgid "flag"
-msgstr "旗帜"
 
 # 98: country-flag
 msgctxt "EMOJI SUB-GROUP"
-msgid "country flag"
+msgid "country flags"
 msgstr "国家旗帜"
 
 # 99: subdivision-flag
 msgctxt "EMOJI SUB-GROUP"
-msgid "subdivision flag"
+msgid "subdivision flags"
 msgstr "细分旗帜"
+
+# 27: person-sport
+msgctxt "EMOJI SUB-GROUP"
+msgid "athletics"
+msgstr ""
+
+# 30: person-symbol
+msgctxt "EMOJI SUB-GROUP"
+msgid "people symbols"
+msgstr ""
+
+# 97: flag
+msgctxt "EMOJI SUB-GROUP"
+msgid "other flags"
+msgstr ""
