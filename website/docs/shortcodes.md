@@ -131,23 +131,6 @@ An alias for the [`iamcal`](#iamcal) preset.
 
 ### Submitting translations
 
-Emojibase translations are localized using
-[.po files](https://github.com/milesj/emojibase/tree/master/po) and can be modified using a po/pot
-editor like [Poedit](https://poedit.net/). When translating, take the following guidelines into
-account.
-
-- File types:
-  - `meta.po` - Localized strings for emoji groups, sub-groups, and keywords. Refer to the English
-    source for proper usage.
-  - `shortcodes.po` - Emoji shortcodes for the Emojibase preset.
-- Message contexts:
-  - `ANNOTATION:` - Should be written in sentence case and translated literally.
-  - `EMOJI GROUP:`, `EMOJI SUB-GROUP:` - Should not translate based on the msgid (since it's a key
-    and not the phrase itself). Instead translations should be based on the English message strings.
-  - `EMOJI:` - Should translate the msgid as close as possible, including using underscores (no
-    spaces), and in all lowercase. The context message is the official Unicode emoji specification
-    string, which is simply used as a reference.
-
 ## Caveats
 
 Some caveats to be aware of when using shortcodes.

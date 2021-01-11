@@ -9,6 +9,7 @@ module.exports = {
       items: ['datasets', 'regex', 'shortcodes', 'emoticons', 'api'],
       collapsed: false,
     },
+    'translations',
     'typescript',
     'spec',
     {
