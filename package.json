@@ -51,6 +51,7 @@
       {
         "driver": "typescript",
         "buildFolder": "dts",
+        "declarationOnly": true,
         "globalTypes": true
       }
     ],
