@@ -204,9 +204,9 @@ export interface ShortcodesDataset {
 }
 
 export interface GroupMeta {
-  id: number;
   key: string;
   message: string;
+  order: number;
 }
 
 export interface MetadataDataset {

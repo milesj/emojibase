@@ -1,556 +1,556 @@
 {
   "groups": [
     {
-      "id": 0,
       "key": "smileys-emotion",
-      "message": "smileys & emotion"
+      "message": "smilefjes og følelser",
+      "order": 0
     },
     {
-      "id": 1,
       "key": "people-body",
-      "message": "people & body"
+      "message": "mennesker og kropp",
+      "order": 1
     },
     {
-      "id": 2,
       "key": "component",
-      "message": "components"
+      "message": "komponenter",
+      "order": 2
     },
     {
-      "id": 3,
       "key": "animals-nature",
-      "message": "animals & nature"
+      "message": "dyr og natur",
+      "order": 3
     },
     {
-      "id": 4,
       "key": "food-drink",
-      "message": "food & drink"
+      "message": "mat og drikke",
+      "order": 4
     },
     {
-      "id": 5,
       "key": "travel-places",
-      "message": "travel & places"
+      "message": "reise og steder",
+      "order": 5
     },
     {
-      "id": 6,
       "key": "activities",
-      "message": "activities"
+      "message": "aktiviteter",
+      "order": 6
     },
     {
-      "id": 7,
       "key": "objects",
-      "message": "objects"
+      "message": "objekter",
+      "order": 7
     },
     {
-      "id": 8,
       "key": "symbols",
-      "message": "symbols"
+      "message": "symboler",
+      "order": 8
     },
     {
-      "id": 9,
       "key": "flags",
-      "message": "flags"
+      "message": "flagg",
+      "order": 9
     }
   ],
   "subgroups": [
     {
-      "id": 0,
       "key": "face-smiling",
-      "message": "smiling"
+      "message": "smilende",
+      "order": 0
     },
     {
-      "id": 1,
       "key": "face-affection",
-      "message": "affectionate"
+      "message": "hengiven",
+      "order": 1
     },
     {
-      "id": 2,
       "key": "face-tongue",
-      "message": "with tongue"
+      "message": "med tungen",
+      "order": 2
     },
     {
-      "id": 3,
       "key": "face-hand",
-      "message": "with hands"
+      "message": "med hender",
+      "order": 3
     },
     {
-      "id": 4,
       "key": "face-neutral-skeptical",
-      "message": "neutral / skeptical"
+      "message": "nøytral / skeptisk",
+      "order": 4
     },
     {
-      "id": 5,
       "key": "face-sleepy",
-      "message": "sleepy"
+      "message": "søvnige",
+      "order": 5
     },
     {
-      "id": 6,
       "key": "face-unwell",
-      "message": "unwell"
+      "message": "uvel",
+      "order": 6
     },
     {
-      "id": 7,
       "key": "face-hat",
-      "message": "with hats"
+      "message": "med hatter",
+      "order": 7
     },
     {
-      "id": 8,
       "key": "face-glasses",
-      "message": "with glasses"
+      "message": "med briller",
+      "order": 8
     },
     {
-      "id": 9,
       "key": "face-concerned",
-      "message": "concerned"
+      "message": "bekymret",
+      "order": 9
     },
     {
-      "id": 10,
       "key": "face-negative",
-      "message": "negative"
+      "message": "negativ",
+      "order": 10
     },
     {
-      "id": 11,
       "key": "face-costume",
-      "message": "costumed & creatures"
+      "message": "kostymet og skapninger",
+      "order": 11
     },
     {
-      "id": 12,
       "key": "cat-face",
-      "message": "cat faces"
+      "message": "katten ansikter",
+      "order": 12
     },
     {
-      "id": 13,
       "key": "monkey-face",
-      "message": "monkey faces"
+      "message": "ape ansikter",
+      "order": 13
     },
     {
-      "id": 14,
       "key": "emotion",
-      "message": "emotions"
+      "message": "følelser",
+      "order": 14
     },
     {
-      "id": 15,
       "key": "hand-fingers-open",
-      "message": "fingers open"
+      "message": "fingrene åpne",
+      "order": 15
     },
     {
-      "id": 16,
       "key": "hand-fingers-partial",
-      "message": "hand signs"
+      "message": "hånd tegn",
+      "order": 16
     },
     {
-      "id": 17,
       "key": "hand-single-finger",
-      "message": "finger pointing"
+      "message": "finger peker",
+      "order": 17
     },
     {
-      "id": 18,
       "key": "hand-fingers-closed",
-      "message": "fingers closed"
+      "message": "fingrene lukket",
+      "order": 18
     },
     {
-      "id": 19,
       "key": "hands",
-      "message": "hands"
+      "message": "hender",
+      "order": 19
     },
     {
-      "id": 20,
       "key": "hand-prop",
-      "message": "hand props"
+      "message": "hånd rekvisitter",
+      "order": 20
     },
     {
-      "id": 21,
       "key": "body-parts",
-      "message": "body parts"
+      "message": "kroppsdeler",
+      "order": 21
     },
     {
-      "id": 22,
       "key": "person",
-      "message": "people"
+      "message": "personer",
+      "order": 22
     },
     {
-      "id": 23,
       "key": "person-gesture",
-      "message": "gestures"
+      "message": "bevegelser",
+      "order": 23
     },
     {
-      "id": 24,
       "key": "person-role",
-      "message": "roles & careers"
+      "message": "roller og karrierer",
+      "order": 24
     },
     {
-      "id": 25,
       "key": "person-fantasy",
-      "message": "fantasy"
+      "message": "fantasi",
+      "order": 25
     },
     {
-      "id": 26,
       "key": "person-activity",
-      "message": "activities"
+      "message": "aktiviteter",
+      "order": 26
     },
     {
-      "id": 27,
       "key": "person-sport",
-      "message": "sports"
+      "message": "friidrett",
+      "order": 27
     },
     {
-      "id": 28,
       "key": "person-resting",
-      "message": "resting"
+      "message": "hvile",
+      "order": 28
     },
     {
-      "id": 29,
       "key": "family",
-      "message": "family"
+      "message": "familie",
+      "order": 29
     },
     {
-      "id": 30,
       "key": "person-symbol",
-      "message": "symbols"
+      "message": "folk symboler",
+      "order": 30
     },
     {
-      "id": 31,
       "key": "skin-tone",
-      "message": "skin tones"
+      "message": "hudtoner",
+      "order": 31
     },
     {
-      "id": 32,
       "key": "hair-style",
-      "message": "hair styles"
+      "message": "hår stiler",
+      "order": 32
     },
     {
-      "id": 33,
       "key": "animal-mammal",
-      "message": "mammals"
+      "message": "pattedyr",
+      "order": 33
     },
     {
-      "id": 34,
       "key": "animal-bird",
-      "message": "birds"
+      "message": "fugler",
+      "order": 34
     },
     {
-      "id": 35,
       "key": "animal-amphibian",
-      "message": "amphibians"
+      "message": "amfibier",
+      "order": 35
     },
     {
-      "id": 36,
       "key": "animal-reptile",
-      "message": "reptiles"
+      "message": "reptiler",
+      "order": 36
     },
     {
-      "id": 37,
       "key": "animal-marine",
-      "message": "marine life"
+      "message": "marint liv",
+      "order": 37
     },
     {
-      "id": 38,
       "key": "animal-bug",
-      "message": "bugs"
+      "message": "feil",
+      "order": 38
     },
     {
-      "id": 39,
       "key": "plant-flower",
-      "message": "flowers"
+      "message": "blomster",
+      "order": 39
     },
     {
-      "id": 40,
       "key": "plant-other",
-      "message": "other plants"
+      "message": "andre planter",
+      "order": 40
     },
     {
-      "id": 41,
       "key": "food-fruit",
-      "message": "fruit"
+      "message": "frukt",
+      "order": 41
     },
     {
-      "id": 42,
       "key": "food-vegetable",
-      "message": "vegetables"
+      "message": "grønnsaker",
+      "order": 42
     },
     {
-      "id": 43,
       "key": "food-prepared",
-      "message": "cooked / prepared"
+      "message": "kokt / forberedt",
+      "order": 43
     },
     {
-      "id": 44,
       "key": "food-asian",
-      "message": "asian"
+      "message": "asiatiske",
+      "order": 44
     },
     {
-      "id": 45,
       "key": "food-marine",
-      "message": "seafood"
+      "message": "sjømat",
+      "order": 45
     },
     {
-      "id": 46,
       "key": "food-sweet",
-      "message": "sweets & candy"
+      "message": "søtsaker og godteri",
+      "order": 46
     },
     {
-      "id": 47,
       "key": "drink",
-      "message": "drink"
+      "message": "drikke",
+      "order": 47
     },
     {
-      "id": 48,
       "key": "dishware",
-      "message": "dishware"
+      "message": "servise",
+      "order": 48
     },
     {
-      "id": 49,
       "key": "place-map",
-      "message": "globes & maps"
+      "message": "globes og kart",
+      "order": 49
     },
     {
-      "id": 50,
       "key": "place-geographic",
-      "message": "geographic locations"
+      "message": "geografiske steder",
+      "order": 50
     },
     {
-      "id": 51,
       "key": "place-building",
-      "message": "buildings"
+      "message": "bygninger",
+      "order": 51
     },
     {
-      "id": 52,
       "key": "place-religious",
-      "message": "religious buildings"
+      "message": "religiøse bygninger",
+      "order": 52
     },
     {
-      "id": 53,
       "key": "place-other",
-      "message": "other places"
+      "message": "andre steder",
+      "order": 53
     },
     {
-      "id": 54,
       "key": "transport-ground",
-      "message": "ground transportation"
+      "message": "bakketransport",
+      "order": 54
     },
     {
-      "id": 55,
       "key": "transport-water",
-      "message": "water transportation"
+      "message": "transport av vann",
+      "order": 55
     },
     {
-      "id": 56,
       "key": "transport-air",
-      "message": "air transportation"
+      "message": "lufttransport",
+      "order": 56
     },
     {
-      "id": 57,
       "key": "hotel",
-      "message": "hotel"
+      "message": "hotell",
+      "order": 57
     },
     {
-      "id": 58,
       "key": "time",
-      "message": "time"
+      "message": "tid",
+      "order": 58
     },
     {
-      "id": 59,
       "key": "sky-weather",
-      "message": "weather"
+      "message": "vær",
+      "order": 59
     },
     {
-      "id": 60,
       "key": "event",
-      "message": "events & holidays"
+      "message": "arrangementer og helligdager",
+      "order": 60
     },
     {
-      "id": 61,
       "key": "award-medal",
-      "message": "award medals"
+      "message": "tildele medaljer",
+      "order": 61
     },
     {
-      "id": 62,
       "key": "sport",
-      "message": "sports"
+      "message": "sports",
+      "order": 62
     },
     {
-      "id": 63,
       "key": "game",
-      "message": "games & hobbies"
+      "message": "spill og hobbyer",
+      "order": 63
     },
     {
-      "id": 64,
       "key": "arts-crafts",
-      "message": "arts & crafts"
+      "message": "kunst og håndverk",
+      "order": 64
     },
     {
-      "id": 65,
       "key": "clothing",
-      "message": "clothing"
+      "message": "klær",
+      "order": 65
     },
     {
-      "id": 66,
       "key": "sound",
-      "message": "sound"
+      "message": "lyd",
+      "order": 66
     },
     {
-      "id": 67,
       "key": "music",
-      "message": "music"
+      "message": "musikk",
+      "order": 67
     },
     {
-      "id": 68,
       "key": "musical-instrument",
-      "message": "musical instruments"
+      "message": "musikkinstrumenter",
+      "order": 68
     },
     {
-      "id": 69,
       "key": "phone",
-      "message": "phone"
+      "message": "telefon",
+      "order": 69
     },
     {
-      "id": 70,
       "key": "computer",
-      "message": "computer"
+      "message": "datamaskin",
+      "order": 70
     },
     {
-      "id": 71,
       "key": "light-video",
-      "message": "light, film & video"
+      "message": "lys, film og video",
+      "order": 71
     },
     {
-      "id": 72,
       "key": "book-paper",
-      "message": "books & paper"
+      "message": "bøker og papir",
+      "order": 72
     },
     {
-      "id": 73,
       "key": "money",
-      "message": "money"
+      "message": "penger",
+      "order": 73
     },
     {
-      "id": 74,
       "key": "mail",
-      "message": "mail"
+      "message": "post",
+      "order": 74
     },
     {
-      "id": 75,
       "key": "writing",
-      "message": "writing"
+      "message": "skriver",
+      "order": 75
     },
     {
-      "id": 76,
       "key": "office",
-      "message": "office supplies"
+      "message": "kontorrekvisita",
+      "order": 76
     },
     {
-      "id": 77,
       "key": "lock",
-      "message": "lock & keys"
+      "message": "lås og taster",
+      "order": 77
     },
     {
-      "id": 78,
       "key": "tool",
-      "message": "tools"
+      "message": "verktøy",
+      "order": 78
     },
     {
-      "id": 79,
       "key": "science",
-      "message": "science equipment"
+      "message": "vitenskap utstyr",
+      "order": 79
     },
     {
-      "id": 80,
       "key": "medical",
-      "message": "medical"
+      "message": "medisinsk",
+      "order": 80
     },
     {
-      "id": 81,
       "key": "household",
-      "message": "household items"
+      "message": "husholdningsartikler",
+      "order": 81
     },
     {
-      "id": 82,
       "key": "other-object",
-      "message": "other objects"
+      "message": "andre objekter",
+      "order": 82
     },
     {
-      "id": 83,
       "key": "transport-sign",
-      "message": "transport signs"
+      "message": "transportskilt",
+      "order": 83
     },
     {
-      "id": 84,
       "key": "warning",
-      "message": "warning symbols"
+      "message": "advarsel symboler",
+      "order": 84
     },
     {
-      "id": 85,
       "key": "arrow",
-      "message": "arrows"
+      "message": "piler",
+      "order": 85
     },
     {
-      "id": 86,
       "key": "religion",
-      "message": "religious symbols"
+      "message": "religiøse symboler",
+      "order": 86
     },
     {
-      "id": 87,
       "key": "zodiac",
-      "message": "zodiac signs"
+      "message": "dyrekretsen tegn",
+      "order": 87
     },
     {
-      "id": 88,
       "key": "av-symbol",
-      "message": "audio & video symbols"
+      "message": "lyd- og videosymboler",
+      "order": 88
     },
     {
-      "id": 89,
       "key": "gender",
-      "message": "gender signs"
+      "message": "kjønnstegn",
+      "order": 89
     },
     {
-      "id": 90,
       "key": "math",
-      "message": "math symbols"
+      "message": "matematiske symboler",
+      "order": 90
     },
     {
-      "id": 91,
       "key": "punctuation",
-      "message": "punctuation"
+      "message": "tegnsetting",
+      "order": 91
     },
     {
-      "id": 92,
       "key": "currency",
-      "message": "currencies"
+      "message": "valutaer",
+      "order": 92
     },
     {
-      "id": 93,
       "key": "other-symbol",
-      "message": "other symbols"
+      "message": "andre symboler",
+      "order": 93
     },
     {
-      "id": 94,
       "key": "keycap",
-      "message": "keypad characters"
+      "message": "tastatur tegn",
+      "order": 94
     },
     {
-      "id": 95,
       "key": "alphanum",
-      "message": "alphanumeric symbols"
+      "message": "alfanumeriske symboler",
+      "order": 95
     },
     {
-      "id": 96,
       "key": "geometric",
-      "message": "shapes & colors"
+      "message": "former og farger",
+      "order": 96
     },
     {
-      "id": 97,
       "key": "flag",
-      "message": "flags"
+      "message": "andre flagg",
+      "order": 97
     },
     {
-      "id": 98,
       "key": "country-flag",
-      "message": "country flags"
+      "message": "land flagg",
+      "order": 98
     },
     {
-      "id": 99,
       "key": "subdivision-flag",
-      "message": "subdivision flags"
+      "message": "underinndeling flagg",
+      "order": 99
     }
   ]
 }

@@ -116,6 +116,10 @@ function createEmoji(
   return emoji;
 }
 
+function sortOrder(a: { order?: number }, b: { order?: number }) {
+  return (a.order || 0) - (b.order || 0);
+}
+
 function createVersionMap(): HexcodeVersionMap {
   const cache: { emojiVersions: VersionMap } | null = readCache(
     'final/emoji-unicode-versions.json',
@@ -142,29 +146,34 @@ async function generateMetaData(locale: Locale): Promise<unknown> {
   const subgroups: GroupMeta[] = [];
 
   data.po.items.forEach((item) => {
-    const context = String(item.msgctxt);
-
-    if (context.includes('ANNOTATION')) {
+    if (item.msgctxt.includes('ANNOTATION')) {
       return;
     }
 
-    const [id, key] = item.comments[0].split(':');
-    const meta: GroupMeta = {
-      id: Number(id.trim()),
-      key: key.trim(),
-      message: String(item.msgstr),
-    };
+    const contexts = String(item.msgctxt).split(',');
 
-    if (!meta.message) {
-      meta.message = String(englishData.itemsById[item.msgid].msgstr);
-    }
+    item.comments.forEach((comment, i) => {
+      const [id, key] = comment.split(':');
+      const meta: GroupMeta = {
+        key: key.trim(),
+        message: String(item.msgstr),
+        order: Number(id.trim()),
+      };
 
-    if (context.includes('SUB-GROUP')) {
-      subgroups.push(meta);
-    } else {
-      groups.push(meta);
-    }
+      if (!meta.message) {
+        meta.message = String(englishData.itemsById[item.msgid].msgstr);
+      }
+
+      if (contexts[i].includes('SUB-GROUP')) {
+        subgroups.push(meta);
+      } else {
+        groups.push(meta);
+      }
+    });
   });
+
+  groups.sort(sortOrder);
+  subgroups.sort(sortOrder);
 
   return Promise.all([
     writeDataset(`${locale}/meta.raw.json`, { groups, subgroups }),
@@ -188,7 +197,7 @@ export default async function generateData(): Promise<void> {
       );
 
       // Sort by order
-      emojis.sort((a, b) => (a.order || 0) - (b.order || 0));
+      emojis.sort(sortOrder);
 
       const compactEmojis = extractCompact(emojis);
 
