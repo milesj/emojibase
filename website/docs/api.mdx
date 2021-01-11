@@ -91,6 +91,23 @@ await fetchEmojis('ja', {
   dataset. Defaults to an empty list.
 - All options supported by [`fetchFromCDN`](#fetchfromcdn).
 
+## `fetchMetadata`
+
+> fetchMetadata(locale: Locale options?: FetchFromCDNOptions): Promise<MetadataDataset\>
+
+Fetches and returns localized messages for emoji related information like groups and sub-groups.
+Uses [`fetchFromCDN`](#fetchfromcdn) under the hood.
+
+```ts
+import { fetchMetadata } from 'emojibase';
+
+await fetchMetadata('zh', { version: '2.1.3' });
+```
+
+### Options
+
+- All options supported by [`fetchFromCDN`](#fetchfromcdn).
+
 ## `fetchShortcodes`
 
 > fetchShortcodes(locale: Locale, preset: ShortcodePreset, options?: FetchFromCDNOptions):

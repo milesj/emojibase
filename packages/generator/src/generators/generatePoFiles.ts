@@ -1,8 +1,8 @@
 import path from 'path';
-import { Emoji, GroupDataset, Hexcode, ShortcodesDataset, SUPPORTED_LOCALES } from 'emojibase';
+import { Emoji, Hexcode, ShortcodesDataset, SUPPORTED_LOCALES } from 'emojibase';
 import log from '../helpers/log';
 import toArray from '../helpers/toArray';
-import loadPoMeta from '../loaders/loadPoMeta';
+// import loadPoMeta from '../loaders/loadPoMeta';
 import loadPoShortcodes from '../loaders/loadPoShortcodes';
 
 export default async function generatePoFiles(): Promise<void> {
@@ -59,34 +59,36 @@ export default async function generatePoFiles(): Promise<void> {
     }),
   );
 
-  // Metadata
-  // eslint-disable-next-line
-  const groupsHierarchy: GroupDataset = require(path.join(
-    process.cwd(),
-    'packages/data/meta/groups.json',
-  ));
+  // // Metadata
+  // // eslint-disable-next-line
+  // const groupsHierarchy: GroupDataset = require(path.join(
+  //   process.cwd(),
+  //   'packages/data/meta/groups.json',
+  // ));
 
-  await Promise.all(
-    SUPPORTED_LOCALES.map(async (locale) => {
-      const po = await loadPoMeta(locale);
+  // const englishMeta = await loadPoMeta('en');
 
-      // Groups
-      Object.entries(groupsHierarchy.groups).forEach(([groupID, groupKey]) => {
-        po.addItem(groupKey.replace(/-/g, ' '), '', 'EMOJI GROUP', {
-          comment: `${groupID}: ${groupKey}`,
-        });
-      });
+  // await Promise.all(
+  //   SUPPORTED_LOCALES.map(async (locale) => {
+  //     const po = await loadPoMeta(locale);
 
-      // Subgroups
-      Object.entries(groupsHierarchy.subgroups).forEach(([groupID, groupKey]) => {
-        po.addItem(groupKey.replace(/-/g, ' '), '', 'EMOJI SUB-GROUP', {
-          comment: `${groupID}: ${groupKey}`,
-        });
-      });
+  //     // Groups
+  //     Object.entries(groupsHierarchy.groups).forEach(([groupID, groupKey]) => {
+  //       po.addItem(groupKey.replace(/-/g, ' '), '', 'EMOJI GROUP', {
+  //         comment: `${groupID}: ${groupKey}`,
+  //       });
+  //     });
 
-      // Add custom translations here!
+  //     // Subgroups
+  //     Object.entries(groupsHierarchy.subgroups).forEach(([groupID, groupKey]) => {
+  //       po.addItem(groupKey.replace(/-/g, ' '), '', 'EMOJI SUB-GROUP', {
+  //         comment: `${groupID}: ${groupKey}`,
+  //       });
+  //     });
 
-      return po.write();
-    }),
-  );
+  //     // Add custom translations here!
+
+  //     return po.write();
+  //   }),
+  // );
 }

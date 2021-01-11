@@ -15,6 +15,17 @@ declare module 'emojibase-data/*/compact.json' {
   export default data;
 }
 
+declare module 'emojibase-data/*/meta.json' {
+  interface GroupMeta {
+    key: string;
+    message: string;
+    order: number;
+  }
+
+  const data: { groups: GroupMeta[]; subgroups: GroupMeta[]; };
+  export default data;
+}
+
 declare module 'emojibase-data/meta/groups.json' {
   const data: GroupDataset;
   export default data;

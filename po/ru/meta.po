@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-25 22:32+420\n"
-"PO-Revision-Date: 2021-01-07 21:22+480\n"
+"PO-Revision-Date: 2021-01-10 18:44-0800\n"
 "Last-Translator: Artem <KovalevArtem.ru@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/emojibase/emoji-metadata/ru/>\n"
 "Language: ru\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.3.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 # Custom
 #, javascript-format
@@ -37,551 +37,592 @@ msgid "number sign"
 msgstr "числовой знак"
 
 # 0: smileys-emotion
-msgctxt "EMOJI GROUP"
-msgid "smileys emotion"
+msgctxt "EMOJI GROUP: smileys-emotion"
+msgid "smileys & emotion"
 msgstr "смайлики и люди"
 
 # 1: people-body
-msgctxt "EMOJI GROUP"
-msgid "people body"
+msgctxt "EMOJI GROUP: people-body"
+msgid "people & body"
 msgstr "тело людей"
 
 # 2: component
-msgctxt "EMOJI GROUP"
-msgid "component"
+msgctxt "EMOJI GROUP: component"
+msgid "components"
 msgstr "компонент"
 
 # 3: animals-nature
-msgctxt "EMOJI GROUP"
-msgid "animals nature"
+msgctxt "EMOJI GROUP: animals-nature"
+msgid "animals & nature"
 msgstr "животные и природа"
 
 # 4: food-drink
-msgctxt "EMOJI GROUP"
-msgid "food drink"
+msgctxt "EMOJI GROUP: food-drink"
+msgid "food & drink"
 msgstr "еда и напитки"
 
 # 5: travel-places
-msgctxt "EMOJI GROUP"
-msgid "travel places"
+msgctxt "EMOJI GROUP: travel-places"
+msgid "travel & places"
 msgstr "путешествия и местности"
 
 # 6: activities
-msgctxt "EMOJI GROUP"
+# 26: person-activity
+msgctxt "EMOJI GROUP: activities, EMOJI SUB-GROUP: person-activity"
 msgid "activities"
-msgstr "активность"
+msgstr "варианты досуга"
 
 # 7: objects
-msgctxt "EMOJI GROUP"
+msgctxt "EMOJI GROUP: objects"
 msgid "objects"
 msgstr "предметы"
 
 # 8: symbols
-msgctxt "EMOJI GROUP"
+msgctxt "EMOJI GROUP: symbols"
 msgid "symbols"
 msgstr "символы"
 
 # 9: flags
-msgctxt "EMOJI GROUP"
+msgctxt "EMOJI GROUP: flags"
 msgid "flags"
-msgstr "флаги"
+msgstr "флаг"
 
 # 0: face-smiling
-msgctxt "EMOJI SUB-GROUP"
-msgid "face smiling"
+msgctxt "EMOJI SUB-GROUP: face-smiling"
+msgid "smiling"
 msgstr "улыбающиеся лицо"
 
 # 1: face-affection
-msgctxt "EMOJI SUB-GROUP"
-msgid "face affection"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: face-affection"
+msgid "affectionate"
+msgstr "любящий"
 
 # 2: face-tongue
-msgctxt "EMOJI SUB-GROUP"
-msgid "face tongue"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: face-tongue"
+msgid "with tongue"
+msgstr "с языком"
 
 # 3: face-hand
-msgctxt "EMOJI SUB-GROUP"
-msgid "face hand"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: face-hand"
+msgid "with hands"
+msgstr "руками"
 
 # 4: face-neutral-skeptical
-msgctxt "EMOJI SUB-GROUP"
-msgid "face neutral skeptical"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: face-neutral-skeptical"
+msgid "neutral / skeptical"
+msgstr "нейтральный / скептически"
 
 # 5: face-sleepy
-msgctxt "EMOJI SUB-GROUP"
-msgid "face sleepy"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: face-sleepy"
+msgid "sleepy"
+msgstr "сонный"
 
 # 6: face-unwell
-msgctxt "EMOJI SUB-GROUP"
-msgid "face unwell"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: face-unwell"
+msgid "unwell"
+msgstr "нездоровый"
 
 # 7: face-hat
-msgctxt "EMOJI SUB-GROUP"
-msgid "face hat"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: face-hat"
+msgid "with hats"
+msgstr "с шляпами"
 
 # 8: face-glasses
-msgctxt "EMOJI SUB-GROUP"
-msgid "face glasses"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: face-glasses"
+msgid "with glasses"
+msgstr "в очках"
 
 # 9: face-concerned
-msgctxt "EMOJI SUB-GROUP"
-msgid "face concerned"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: face-concerned"
+msgid "concerned"
+msgstr "обеспокоенный"
 
 # 10: face-negative
-msgctxt "EMOJI SUB-GROUP"
-msgid "face negative"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: face-negative"
+msgid "negative"
+msgstr "отрицательный"
 
 # 11: face-costume
-msgctxt "EMOJI SUB-GROUP"
-msgid "face costume"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: face-costume"
+msgid "costumed & creatures"
+msgstr "костюмированные и существа"
 
 # 12: cat-face
-msgctxt "EMOJI SUB-GROUP"
-msgid "cat face"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: cat-face"
+msgid "cat faces"
+msgstr "кошки лица"
 
 # 13: monkey-face
-msgctxt "EMOJI SUB-GROUP"
-msgid "monkey face"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: monkey-face"
+msgid "monkey faces"
+msgstr "обезьяна лица"
 
 # 14: emotion
-msgctxt "EMOJI SUB-GROUP"
-msgid "emotion"
+msgctxt "EMOJI SUB-GROUP: emotion"
+msgid "emotions"
 msgstr "эмоция"
 
 # 15: hand-fingers-open
-msgctxt "EMOJI SUB-GROUP"
-msgid "hand fingers open"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: hand-fingers-open"
+msgid "fingers open"
+msgstr "пальцы открыты"
 
 # 16: hand-fingers-partial
-msgctxt "EMOJI SUB-GROUP"
-msgid "hand fingers partial"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: hand-fingers-partial"
+msgid "hand signs"
+msgstr "ручные знаки"
 
 # 17: hand-single-finger
-msgctxt "EMOJI SUB-GROUP"
-msgid "hand single finger"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: hand-single-finger"
+msgid "finger pointing"
+msgstr "пальцем указывая"
 
 # 18: hand-fingers-closed
-msgctxt "EMOJI SUB-GROUP"
-msgid "hand fingers closed"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: hand-fingers-closed"
+msgid "fingers closed"
+msgstr "пальцы закрыты"
 
 # 19: hands
-msgctxt "EMOJI SUB-GROUP"
+msgctxt "EMOJI SUB-GROUP: hands"
 msgid "hands"
-msgstr ""
+msgstr "руки"
 
 # 20: hand-prop
-msgctxt "EMOJI SUB-GROUP"
-msgid "hand prop"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: hand-prop"
+msgid "hand props"
+msgstr "ручные реквизиты"
 
 # 21: body-parts
-msgctxt "EMOJI SUB-GROUP"
+msgctxt "EMOJI SUB-GROUP: body-parts"
 msgid "body parts"
-msgstr ""
+msgstr "части тела"
 
 # 22: person
-msgctxt "EMOJI SUB-GROUP"
-msgid "person"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: person"
+msgid "people"
+msgstr "человек"
 
 # 23: person-gesture
-msgctxt "EMOJI SUB-GROUP"
-msgid "person gesture"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: person-gesture"
+msgid "gestures"
+msgstr "жесты"
 
 # 24: person-role
-msgctxt "EMOJI SUB-GROUP"
-msgid "person role"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: person-role"
+msgid "roles & careers"
+msgstr "роли и карьеры"
 
 # 25: person-fantasy
-msgctxt "EMOJI SUB-GROUP"
-msgid "person fantasy"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: person-fantasy"
+msgid "fantasy"
+msgstr "фантастика"
 
-# 26: person-activity
-msgctxt "EMOJI SUB-GROUP"
-msgid "person activity"
-msgstr ""
-
-# 27: person-sport
-msgctxt "EMOJI SUB-GROUP"
-msgid "person sport"
-msgstr ""
+# 62: sport
+msgctxt "EMOJI SUB-GROUP: sport"
+msgid "sports"
+msgstr "спорт"
 
 # 28: person-resting
-msgctxt "EMOJI SUB-GROUP"
-msgid "person resting"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: person-resting"
+msgid "resting"
+msgstr "отдыхающий"
 
 # 29: family
-msgctxt "EMOJI SUB-GROUP"
+msgctxt "EMOJI SUB-GROUP: family"
 msgid "family"
 msgstr "семья"
 
-# 30: person-symbol
-msgctxt "EMOJI SUB-GROUP"
-msgid "person symbol"
-msgstr ""
-
 # 31: skin-tone
-msgctxt "EMOJI SUB-GROUP"
-msgid "skin tone"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: skin-tone"
+msgid "skin tones"
+msgstr "тона кожи"
 
 # 32: hair-style
-msgctxt "EMOJI SUB-GROUP"
-msgid "hair style"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: hair-style"
+msgid "hair styles"
+msgstr "прически"
 
 # 33: animal-mammal
-msgctxt "EMOJI SUB-GROUP"
-msgid "animal mammal"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: animal-mammal"
+msgid "mammals"
+msgstr "mлекопитающих"
 
 # 34: animal-bird
-msgctxt "EMOJI SUB-GROUP"
-msgid "animal bird"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: animal-bird"
+msgid "birds"
+msgstr "птицы"
 
 # 35: animal-amphibian
-msgctxt "EMOJI SUB-GROUP"
-msgid "animal amphibian"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: animal-amphibian"
+msgid "amphibians"
+msgstr "aмфибий"
 
 # 36: animal-reptile
-msgctxt "EMOJI SUB-GROUP"
-msgid "animal reptile"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: animal-reptile"
+msgid "reptiles"
+msgstr "pептилий"
 
 # 37: animal-marine
-msgctxt "EMOJI SUB-GROUP"
-msgid "animal marine"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: animal-marine"
+msgid "marine life"
+msgstr "морской флоры и фауны"
 
 # 38: animal-bug
-msgctxt "EMOJI SUB-GROUP"
-msgid "animal bug"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: animal-bug"
+msgid "bugs"
+msgstr "ошибки"
 
 # 39: plant-flower
-msgctxt "EMOJI SUB-GROUP"
-msgid "plant flower"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: plant-flower"
+msgid "flowers"
+msgstr "цветы"
 
 # 40: plant-other
-msgctxt "EMOJI SUB-GROUP"
-msgid "plant other"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: plant-other"
+msgid "other plants"
+msgstr "другие растения"
 
 # 41: food-fruit
-msgctxt "EMOJI SUB-GROUP"
-msgid "food fruit"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: food-fruit"
+msgid "fruit"
+msgstr "фрукты"
 
 # 42: food-vegetable
-msgctxt "EMOJI SUB-GROUP"
-msgid "food vegetable"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: food-vegetable"
+msgid "vegetables"
+msgstr "овощи"
 
 # 43: food-prepared
-msgctxt "EMOJI SUB-GROUP"
-msgid "food prepared"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: food-prepared"
+msgid "cooked / prepared"
+msgstr "приготовленные / подготовленные"
 
 # 44: food-asian
-msgctxt "EMOJI SUB-GROUP"
-msgid "food asian"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: food-asian"
+msgid "asian"
+msgstr "азиатский"
 
 # 45: food-marine
-msgctxt "EMOJI SUB-GROUP"
-msgid "food marine"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: food-marine"
+msgid "seafood"
+msgstr "mорепродукты"
 
 # 46: food-sweet
-msgctxt "EMOJI SUB-GROUP"
-msgid "food sweet"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: food-sweet"
+msgid "sweets & candy"
+msgstr "сладости и конфеты"
 
 # 47: drink
-msgctxt "EMOJI SUB-GROUP"
+msgctxt "EMOJI SUB-GROUP: drink"
 msgid "drink"
-msgstr ""
+msgstr "напиток"
 
 # 48: dishware
-msgctxt "EMOJI SUB-GROUP"
+msgctxt "EMOJI SUB-GROUP: dishware"
 msgid "dishware"
-msgstr ""
+msgstr "посуда"
 
 # 49: place-map
-msgctxt "EMOJI SUB-GROUP"
-msgid "place map"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: place-map"
+msgid "globes & maps"
+msgstr "глобусы и карты"
 
 # 50: place-geographic
-msgctxt "EMOJI SUB-GROUP"
-msgid "place geographic"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: place-geographic"
+msgid "geographic locations"
+msgstr "географические местоположения"
 
 # 51: place-building
-msgctxt "EMOJI SUB-GROUP"
-msgid "place building"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: place-building"
+msgid "buildings"
+msgstr "здания"
 
 # 52: place-religious
-msgctxt "EMOJI SUB-GROUP"
-msgid "place religious"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: place-religious"
+msgid "religious buildings"
+msgstr "религиозные здания"
 
 # 53: place-other
-msgctxt "EMOJI SUB-GROUP"
-msgid "place other"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: place-other"
+msgid "other places"
+msgstr "в других местах"
 
 # 54: transport-ground
-msgctxt "EMOJI SUB-GROUP"
-msgid "transport ground"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: transport-ground"
+msgid "ground transportation"
+msgstr "наземный транспорт"
 
 # 55: transport-water
-msgctxt "EMOJI SUB-GROUP"
-msgid "transport water"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: transport-water"
+msgid "water transportation"
+msgstr "водный транспорт"
 
 # 56: transport-air
-msgctxt "EMOJI SUB-GROUP"
-msgid "transport air"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: transport-air"
+msgid "air transportation"
+msgstr "авиаперевозки"
 
 # 57: hotel
-msgctxt "EMOJI SUB-GROUP"
+msgctxt "EMOJI SUB-GROUP: hotel"
 msgid "hotel"
 msgstr "отель"
 
 # 58: time
-msgctxt "EMOJI SUB-GROUP"
+msgctxt "EMOJI SUB-GROUP: time"
 msgid "time"
 msgstr "время"
 
 # 59: sky-weather
-msgctxt "EMOJI SUB-GROUP"
-msgid "sky weather"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: sky-weather"
+msgid "weather"
+msgstr "погода"
 
 # 60: event
-msgctxt "EMOJI SUB-GROUP"
-msgid "event"
+msgctxt "EMOJI SUB-GROUP: event"
+msgid "events & holidays"
 msgstr "событие"
 
 # 61: award-medal
-msgctxt "EMOJI SUB-GROUP"
-msgid "award medal"
-msgstr ""
-
-# 62: sport
-msgctxt "EMOJI SUB-GROUP"
-msgid "sport"
-msgstr "спорт"
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: award-medal"
+msgid "award medals"
+msgstr "наградные медали"
 
 # 63: game
-msgctxt "EMOJI SUB-GROUP"
-msgid "game"
+msgctxt "EMOJI SUB-GROUP: game"
+msgid "games & hobbies"
 msgstr "игра"
 
 # 64: arts-crafts
-msgctxt "EMOJI SUB-GROUP"
-msgid "arts crafts"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: arts-crafts"
+msgid "arts & crafts"
+msgstr "искусства и ремесел"
 
 # 65: clothing
-msgctxt "EMOJI SUB-GROUP"
+msgctxt "EMOJI SUB-GROUP: clothing"
 msgid "clothing"
 msgstr "одежда"
 
 # 66: sound
-msgctxt "EMOJI SUB-GROUP"
+msgctxt "EMOJI SUB-GROUP: sound"
 msgid "sound"
 msgstr "звук"
 
 # 67: music
-msgctxt "EMOJI SUB-GROUP"
+msgctxt "EMOJI SUB-GROUP: music"
 msgid "music"
 msgstr "музыка"
 
 # 68: musical-instrument
-msgctxt "EMOJI SUB-GROUP"
-msgid "musical instrument"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: musical-instrument"
+msgid "musical instruments"
+msgstr "музыкальные инструменты"
 
 # 69: phone
-msgctxt "EMOJI SUB-GROUP"
+msgctxt "EMOJI SUB-GROUP: phone"
 msgid "phone"
 msgstr "телефон"
 
 # 70: computer
-msgctxt "EMOJI SUB-GROUP"
+msgctxt "EMOJI SUB-GROUP: computer"
 msgid "computer"
 msgstr "компьютер"
 
 # 71: light-video
-msgctxt "EMOJI SUB-GROUP"
-msgid "light video"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: light-video"
+msgid "light, film & video"
+msgstr "свет, пленка и видео"
 
 # 72: book-paper
-msgctxt "EMOJI SUB-GROUP"
-msgid "book paper"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: book-paper"
+msgid "books & paper"
+msgstr "книги и бумага"
 
 # 73: money
-msgctxt "EMOJI SUB-GROUP"
+msgctxt "EMOJI SUB-GROUP: money"
 msgid "money"
 msgstr "деньги"
 
 # 74: mail
-msgctxt "EMOJI SUB-GROUP"
+msgctxt "EMOJI SUB-GROUP: mail"
 msgid "mail"
 msgstr "почта"
 
 # 75: writing
-msgctxt "EMOJI SUB-GROUP"
+msgctxt "EMOJI SUB-GROUP: writing"
 msgid "writing"
-msgstr ""
+msgstr "письмо"
 
 # 76: office
-msgctxt "EMOJI SUB-GROUP"
-msgid "office"
+msgctxt "EMOJI SUB-GROUP: office"
+msgid "office supplies"
 msgstr "офис"
 
 # 77: lock
-msgctxt "EMOJI SUB-GROUP"
-msgid "lock"
+msgctxt "EMOJI SUB-GROUP: lock"
+msgid "lock & keys"
 msgstr "замок"
 
 # 78: tool
-msgctxt "EMOJI SUB-GROUP"
-msgid "tool"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: tool"
+msgid "tools"
+msgstr "инструменты"
 
 # 79: science
-msgctxt "EMOJI SUB-GROUP"
-msgid "science"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: science"
+msgid "science equipment"
+msgstr "научное оборудование"
 
 # 80: medical
-msgctxt "EMOJI SUB-GROUP"
+msgctxt "EMOJI SUB-GROUP: medical"
 msgid "medical"
-msgstr ""
+msgstr "медицина"
 
 # 81: household
-msgctxt "EMOJI SUB-GROUP"
-msgid "household"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: household"
+msgid "household items"
+msgstr "предметы домашнего обихода"
 
 # 82: other-object
-msgctxt "EMOJI SUB-GROUP"
-msgid "other object"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: other-object"
+msgid "other objects"
+msgstr "другие объекты"
 
 # 83: transport-sign
-msgctxt "EMOJI SUB-GROUP"
-msgid "transport sign"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: transport-sign"
+msgid "transport signs"
+msgstr "транспортные знаки"
 
 # 84: warning
-msgctxt "EMOJI SUB-GROUP"
-msgid "warning"
+msgctxt "EMOJI SUB-GROUP: warning"
+msgid "warning symbols"
 msgstr "предупреждение"
 
 # 85: arrow
-msgctxt "EMOJI SUB-GROUP"
-msgid "arrow"
-msgstr ""
+msgctxt "EMOJI SUB-GROUP: arrow"
+msgid "arrows"
+msgstr "стрелки"
 
 # 86: religion
-msgctxt "EMOJI SUB-GROUP"
-msgid "religion"
+msgctxt "EMOJI SUB-GROUP: religion"
+msgid "religious symbols"
 msgstr "религия"
 
 # 87: zodiac
-msgctxt "EMOJI SUB-GROUP"
-msgid "zodiac"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: zodiac"
+msgid "zodiac signs"
+msgstr "знаки зодиака"
 
 # 88: av-symbol
-msgctxt "EMOJI SUB-GROUP"
-msgid "av symbol"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: av-symbol"
+msgid "audio & video symbols"
+msgstr "аудио- и видео символы"
 
 # 89: gender
-msgctxt "EMOJI SUB-GROUP"
-msgid "gender"
+msgctxt "EMOJI SUB-GROUP: gender"
+msgid "gender signs"
 msgstr "пол"
 
 # 90: math
-msgctxt "EMOJI SUB-GROUP"
-msgid "math"
+msgctxt "EMOJI SUB-GROUP: math"
+msgid "math symbols"
 msgstr "математика"
 
 # 91: punctuation
-msgctxt "EMOJI SUB-GROUP"
+msgctxt "EMOJI SUB-GROUP: punctuation"
 msgid "punctuation"
 msgstr "пунктуация"
 
 # 92: currency
-msgctxt "EMOJI SUB-GROUP"
-msgid "currency"
+msgctxt "EMOJI SUB-GROUP: currency"
+msgid "currencies"
 msgstr "валюта"
 
 # 93: other-symbol
-msgctxt "EMOJI SUB-GROUP"
-msgid "other symbol"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: other-symbol"
+msgid "other symbols"
+msgstr "другие символы"
 
 # 94: keycap
-msgctxt "EMOJI SUB-GROUP"
-msgid "keycap"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: keycap"
+msgid "keypad characters"
+msgstr "символы клавиатуры"
 
 # 95: alphanum
-msgctxt "EMOJI SUB-GROUP"
-msgid "alphanum"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: alphanum"
+msgid "alphanumeric symbols"
+msgstr "алфавитные символы"
 
 # 96: geometric
-msgctxt "EMOJI SUB-GROUP"
-msgid "geometric"
-msgstr ""
-
-# 97: flag
-msgctxt "EMOJI SUB-GROUP"
-msgid "flag"
-msgstr "флаг"
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: geometric"
+msgid "shapes & colors"
+msgstr "формы и цвета"
 
 # 98: country-flag
-msgctxt "EMOJI SUB-GROUP"
-msgid "country flag"
+msgctxt "EMOJI SUB-GROUP: country-flag"
+msgid "country flags"
 msgstr "флаг страны"
 
 # 99: subdivision-flag
-msgctxt "EMOJI SUB-GROUP"
-msgid "subdivision flag"
-msgstr ""
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: subdivision-flag"
+msgid "subdivision flags"
+msgstr "флаги подразделений"
+
+# 27: person-sport
+msgctxt "EMOJI SUB-GROUP: person-sport"
+msgid "athletics"
+msgstr "легкая атлетика"
+
+# 30: person-symbol
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: person-symbol"
+msgid "people symbols"
+msgstr "символы людей"
+
+# 97: flag
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: flag"
+msgid "other flags"
+msgstr "другие флаги"

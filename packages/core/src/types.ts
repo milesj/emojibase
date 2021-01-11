@@ -203,6 +203,17 @@ export interface ShortcodesDataset {
   [hexcode: string]: string | string[];
 }
 
+export interface GroupMeta {
+  key: string;
+  message: string;
+  order: number;
+}
+
+export interface MetadataDataset {
+  groups: GroupMeta[];
+  subgroups: GroupMeta[];
+}
+
 export type Locale =
   | 'da'
   | 'de'

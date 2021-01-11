@@ -6,6 +6,7 @@
 import appendSkinToneIndex from './appendSkinToneIndex';
 import fetchEmojis from './fetchEmojis';
 import fetchFromCDN from './fetchFromCDN';
+import fetchMetadata from './fetchMetadata';
 import fetchShortcodes from './fetchShortcodes';
 import flattenEmojiData from './flattenEmojiData';
 import fromCodepointToUnicode from './fromCodepointToUnicode';
@@ -20,6 +21,7 @@ export {
   appendSkinToneIndex,
   fetchEmojis,
   fetchFromCDN,
+  fetchMetadata,
   fetchShortcodes,
   flattenEmojiData,
   fromCodepointToUnicode,

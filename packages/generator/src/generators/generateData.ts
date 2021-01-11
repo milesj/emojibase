@@ -1,12 +1,13 @@
 /* eslint-disable complexity */
 
-import { Emoji as FinalEmoji, Locale, stripHexcode, SUPPORTED_LOCALES } from 'emojibase';
+import { Emoji as FinalEmoji, GroupMeta, Locale, stripHexcode, SUPPORTED_LOCALES } from 'emojibase';
 import buildAnnotationData from '../builders/buildAnnotationData';
 import buildEmojiData from '../builders/buildEmojiData';
 import filterData from '../helpers/filterData';
 import log from '../helpers/log';
 import readCache from '../helpers/readCache';
 import writeDataset from '../helpers/writeDataset';
+import loadPoMeta from '../loaders/loadPoMeta';
 import {
   CLDRAnnotationMap,
   Emoji,
@@ -115,6 +116,10 @@ function createEmoji(
   return emoji;
 }
 
+function sortOrder(a: { order?: number }, b: { order?: number }) {
+  return (a.order || 0) - (b.order || 0);
+}
+
 function createVersionMap(): HexcodeVersionMap {
   const cache: { emojiVersions: VersionMap } | null = readCache(
     'final/emoji-unicode-versions.json',
@@ -134,6 +139,48 @@ function createVersionMap(): HexcodeVersionMap {
   return versions;
 }
 
+async function generateMetadata(locale: Locale): Promise<unknown> {
+  const data = await loadPoMeta(locale);
+  const englishData = await loadPoMeta('en');
+  const groups: GroupMeta[] = [];
+  const subgroups: GroupMeta[] = [];
+
+  data.po.items.forEach((item) => {
+    if (item.msgctxt.includes('ANNOTATION')) {
+      return;
+    }
+
+    const contexts = String(item.msgctxt).split(',');
+
+    item.comments.forEach((comment, i) => {
+      const [id, key] = comment.split(':');
+      const meta: GroupMeta = {
+        key: key.trim(),
+        message: String(item.msgstr),
+        order: Number(id.trim()),
+      };
+
+      if (!meta.message) {
+        meta.message = String(englishData.itemsById[item.msgid].msgstr);
+      }
+
+      if (contexts[i].includes('SUB-GROUP')) {
+        subgroups.push(meta);
+      } else {
+        groups.push(meta);
+      }
+    });
+  });
+
+  groups.sort(sortOrder);
+  subgroups.sort(sortOrder);
+
+  return Promise.all([
+    writeDataset(`${locale}/meta.raw.json`, { groups, subgroups }),
+    writeDataset(`${locale}/meta.json`, { groups, subgroups }, true),
+  ]);
+}
+
 export default async function generateData(): Promise<void> {
   log.title('data', 'Generating emoji datasets');
 
@@ -150,13 +197,16 @@ export default async function generateData(): Promise<void> {
       );
 
       // Sort by order
-      emojis.sort((a, b) => (a.order || 0) - (b.order || 0));
+      emojis.sort(sortOrder);
+
+      const compactEmojis = extractCompact(emojis);
 
       return Promise.all([
+        generateMetadata(locale),
         writeDataset(`${locale}/data.raw.json`, emojis),
         writeDataset(`${locale}/data.json`, emojis, true),
-        writeDataset(`${locale}/compact.raw.json`, extractCompact(emojis)),
-        writeDataset(`${locale}/compact.json`, extractCompact(emojis), true),
+        writeDataset(`${locale}/compact.raw.json`, compactEmojis),
+        writeDataset(`${locale}/compact.json`, compactEmojis, true),
       ]);
     }),
   );

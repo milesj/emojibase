@@ -44,6 +44,8 @@ adhere to the defined [data structure](#data-structure).
 
 ```ts
 import emojis from 'emojibase-data/<locale>/data.json';
+import compactEmojis from 'emojibase-data/<locale>/compact.json';
+import groupsSubgroups from 'emojibase-data/<locale>/meta.json';
 ```
 
 The second group, versioned data, provides datasets for emoji and Unicode release versions. These
@@ -84,8 +86,8 @@ values have been implemented using integers,
 - `emoticon` (`string`) - If applicable, an emoticon representing the emoji character.
 - `gender` (`number`) - If applicable, the gender of the emoji character. `0` for female, `1` for
   male.
-- `group` (`number`) - The categorical group the emoji belongs to, ranging from `0` (smileys) to `7`
-  (flags). Undefined for uncategorized emojis.
+- `group` (`number`) - The categorical group the emoji belongs to. Undefined for uncategorized
+  emojis.
 - `hexcode` (`string`) - The hexadecimal representation of the emoji Unicode codepoint. If the emoji
   supports both emoji and text variations, the hexcode _will not_ include the variation selector. If
   a multi-person, multi-gender, or skin tone variation, the hexcode _will_ include zero width
@@ -96,8 +98,8 @@ values have been implemented using integers,
   surrounding colons_.
 - `skins` (`emoji[]`) - If applicable, an array of emoji objects for each skin tone modification,
   starting at light skin, and ending with dark skin.
-- `subgroup` (`number`) - The categorical subgroup the emoji belongs to, ranging from `0` to `75`.
-  Undefined for uncategorized emojis.
+- `subgroup` (`number`) - The categorical subgroup the emoji belongs to. Undefined for uncategorized
+  emojis.
 - `tags` (`string[]`) - An array of localized keywords, provided by [CLDR][cldr], to use for
   searching and filtering.
 - `text` (`string`) - The text presentation Unicode character.
@@ -151,7 +153,7 @@ values have been implemented using integers,
 },
 ```
 
-## Compact format
+### Compact format
 
 While the emoji data is pretty thorough, not all of it may be required, and as such, a compact
 dataset is supported. This dataset supports the following properties: `annotation`, `emoticon`,
@@ -193,6 +195,36 @@ import data from 'emojibase-data/en/compact.json';
 },
 ```
 
+### Metadata format
+
+The metadata format is a special dataset that provides translations for groups, sub-groups, and any
+other related emoji metadata.
+
+```ts
+import data from 'emojibase-data/en/meta.json';
+```
+
+```js
+{
+  groups: [
+    {
+      key: 'smileys-emotion',
+      message: 'smileys & emotion',
+      order: 0,
+    },
+    // ...
+  ],
+  subgroups: [
+    {
+      key: 'face-smiling',
+      message: 'smiling',
+      order: 0,
+    },
+    // ...
+  ],
+};
+```
+
 ## Fetching from a CDN
 
 If you prefer to not inflate your bundle size with these large JSON datasets, you can fetch them
@@ -200,11 +232,12 @@ from our CDN ([provided by jsdelivr.com](https://cdn.jsdelivr.net/npm/emojibase-
 `fetchFromCDN()`, `fetchEmojis()`, or `fetchShortcodes()`.
 
 ```ts
-import { fetchFromCDN, fetchEmojis, fetchShortcodes } from 'emojibase';
+import { fetchFromCDN, fetchEmojis, fetchMetadata, fetchShortcodes } from 'emojibase';
 
 const englishEmojis = await fetchFromCDN('en/data.json', { shortcodes: ['github'] });
 const japaneseCompactEmojis = await fetchEmojis('ja', { compact: true });
 const germanCldrShortcodes = await fetchShortcodes('de', 'cldr');
+const chineseTranslations = await fetchMetadata('zh');
 ```
 
 Learn more about these functions in the [API](./api.mdx).
@@ -250,6 +283,7 @@ Sorted by original size in ascending order.
     { label: 'Emojis', value: 'data' },
     { label: 'Emojis (compact)', value: 'compact' },
     { label: 'Shortcodes', value: 'shortcodes' },
+    { label: 'Metadata', value: 'metadata' },
     { label: 'Other', value: 'other' },
   ]}
 >
@@ -319,11 +353,15 @@ Sorted by original size in ascending order.
 
 | File                                |      Size |  Gzipped |
 | ----------------------------------- | --------: | -------: |
+| fr/shortcodes/emojibase.json        |      42 B |     61 B |
+| zh/shortcodes/emojibase.json        |     329 B |    205 B |
+| ja/shortcodes/emojibase.json        |   1.07 KB |    571 B |
+| ru/shortcodes/emojibase.json        |  23.59 KB |  6.34 KB |
 | en/shortcodes/github.json           |  41.14 KB | 14.19 KB |
 | en/shortcodes/iamcal.json           |  43.39 KB | 13.99 KB |
 | zh-hant/shortcodes/cldr-native.json | 124.69 KB | 24.88 KB |
 | en/shortcodes/emojibase-legacy.json | 124.84 KB | 23.63 KB |
-| zh/shortcodes/cldr-native.json      | 127.61 KB | 25.24 KB |
+| zh/shortcodes/cldr-native.json      |  127.6 KB | 25.24 KB |
 | hu/shortcodes/cldr.json             | 130.33 KB | 24.98 KB |
 | ja/shortcodes/cldr.json             |  130.8 KB | 23.83 KB |
 | en-gb/shortcodes/cldr.json          | 131.36 KB | 24.51 KB |
@@ -335,13 +373,14 @@ Sorted by original size in ascending order.
 | et/shortcodes/cldr.json             | 134.43 KB | 24.76 KB |
 | da/shortcodes/cldr.json             |  134.8 KB | 24.54 KB |
 | fi/shortcodes/cldr.json             | 135.71 KB | 25.05 KB |
-| zh/shortcodes/cldr.json             |  136.9 KB | 23.25 KB |
 | nl/shortcodes/cldr.json             | 138.39 KB | 25.17 KB |
+| zh/shortcodes/cldr.json             | 138.56 KB |  23.3 KB |
 | pt/shortcodes/cldr.json             | 138.93 KB | 25.34 KB |
 | de/shortcodes/cldr.json             | 139.16 KB | 25.34 KB |
 | ru/shortcodes/cldr.json             | 139.42 KB | 25.79 KB |
 | ja/shortcodes/cldr-native.json      | 139.95 KB | 26.28 KB |
-| en/shortcodes/emojibase.json        | 140.99 KB | 27.82 KB |
+| en-gb/shortcodes/emojibase.json     | 140.31 KB | 27.73 KB |
+| en/shortcodes/emojibase.json        | 141.01 KB | 27.88 KB |
 | ms/shortcodes/cldr.json             | 145.43 KB | 25.44 KB |
 | lt/shortcodes/cldr.json             | 145.59 KB | 26.23 KB |
 | pl/shortcodes/cldr.json             | 145.63 KB | 26.33 KB |
@@ -356,6 +395,37 @@ Sorted by original size in ascending order.
 | ru/shortcodes/cldr-native.json      | 185.93 KB | 28.33 KB |
 | th/shortcodes/cldr-native.json      | 208.33 KB | 28.57 KB |
 | uk/shortcodes/cldr-native.json      | 211.14 KB | 30.16 KB |
+
+  </TabItem>
+  <TabItem value="metadata">
+
+| File              |    Size | Gzipped |
+| ----------------- | ------: | ------: |
+| zh/meta.json      | 5.74 KB | 1.81 KB |
+| zh-hant/meta.json | 5.79 KB |  1.8 KB |
+| en/meta.json      | 6.05 KB |  1.5 KB |
+| en-gb/meta.json   | 6.05 KB | 1.52 KB |
+| sv/meta.json      | 6.08 KB | 1.71 KB |
+| da/meta.json      | 6.08 KB |  1.7 KB |
+| ms/meta.json      | 6.08 KB | 1.72 KB |
+| ko/meta.json      | 6.11 KB | 1.94 KB |
+| nb/meta.json      | 6.11 KB | 1.71 KB |
+| et/meta.json      | 6.15 KB | 1.75 KB |
+| it/meta.json      | 6.16 KB | 1.74 KB |
+| nl/meta.json      | 6.17 KB | 1.73 KB |
+| pl/meta.json      | 6.17 KB | 1.87 KB |
+| de/meta.json      |  6.2 KB |  1.8 KB |
+| fi/meta.json      |  6.2 KB | 1.79 KB |
+| pt/meta.json      | 6.26 KB | 1.79 KB |
+| es-mx/meta.json   |  6.3 KB |  1.8 KB |
+| es/meta.json      |  6.3 KB |  1.8 KB |
+| ja/meta.json      |  6.3 KB | 2.08 KB |
+| hu/meta.json      | 6.33 KB | 1.88 KB |
+| fr/meta.json      | 6.34 KB | 1.82 KB |
+| lt/meta.json      | 6.36 KB | 1.85 KB |
+| ru/meta.json      | 7.27 KB | 2.19 KB |
+| uk/meta.json      | 7.32 KB | 2.23 KB |
+| th/meta.json      | 8.43 KB | 2.28 KB |
 
   </TabItem>
   <TabItem value="other">

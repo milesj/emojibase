@@ -28,15 +28,15 @@ export default class POManager {
       this.itemsById[item.msgid] = item;
 
       if (item.comments.length > 0) {
-        const comment = toArray(item.comments)
-          .map((c) => c.trim())
-          .join('');
+        toArray(item.comments).forEach((c) => {
+          const comment = c.trim();
 
-        if (this.itemsByComment[comment]) {
-          this.itemsByComment[comment].push(item);
-        } else {
-          this.itemsByComment[comment] = [item];
-        }
+          if (this.itemsByComment[comment]) {
+            this.itemsByComment[comment].push(item);
+          } else {
+            this.itemsByComment[comment] = [item];
+          }
+        });
       }
     });
   }

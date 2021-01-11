@@ -2,6 +2,7 @@
 
 #### 🚀 Updates
 
+- Added `fetchMetadata` function to easily fetch emoji translations.
 - Updated to [Emoji 13.1](https://emojipedia.org/emoji-13.1/).
 - Updated to [CLDR 38.1](http://cldr.unicode.org/index/downloads/cldr-38).
 
