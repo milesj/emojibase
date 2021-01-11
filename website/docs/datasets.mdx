@@ -86,8 +86,8 @@ values have been implemented using integers,
 - `emoticon` (`string`) - If applicable, an emoticon representing the emoji character.
 - `gender` (`number`) - If applicable, the gender of the emoji character. `0` for female, `1` for
   male.
-- `group` (`number`) - The categorical group the emoji belongs to, ranging from `0` (smileys) to `7`
-  (flags). Undefined for uncategorized emojis.
+- `group` (`number`) - The categorical group the emoji belongs to. Undefined for uncategorized
+  emojis.
 - `hexcode` (`string`) - The hexadecimal representation of the emoji Unicode codepoint. If the emoji
   supports both emoji and text variations, the hexcode _will not_ include the variation selector. If
   a multi-person, multi-gender, or skin tone variation, the hexcode _will_ include zero width
@@ -98,8 +98,8 @@ values have been implemented using integers,
   surrounding colons_.
 - `skins` (`emoji[]`) - If applicable, an array of emoji objects for each skin tone modification,
   starting at light skin, and ending with dark skin.
-- `subgroup` (`number`) - The categorical subgroup the emoji belongs to, ranging from `0` to `75`.
-  Undefined for uncategorized emojis.
+- `subgroup` (`number`) - The categorical subgroup the emoji belongs to. Undefined for uncategorized
+  emojis.
 - `tags` (`string[]`) - An array of localized keywords, provided by [CLDR][cldr], to use for
   searching and filtering.
 - `text` (`string`) - The text presentation Unicode character.
@@ -197,8 +197,8 @@ import data from 'emojibase-data/en/compact.json';
 
 ### Metadata format
 
-The metadata format is a special dataset that provides translations (incomplete for some locales)
-for groups, sub-groups, and any other related emoji metadata.
+The metadata format is a special dataset that provides translations for groups, sub-groups, and any
+other related emoji metadata.
 
 ```ts
 import data from 'emojibase-data/en/meta.json';
@@ -208,17 +208,17 @@ import data from 'emojibase-data/en/meta.json';
 {
   groups: [
     {
-      id: 0,
       key: 'smileys-emotion',
       message: 'smileys & emotion',
+      order: 0,
     },
     // ...
   ],
   subgroups: [
     {
-      id: 0,
       key: 'face-smiling',
       message: 'smiling',
+      order: 0,
     },
     // ...
   ],

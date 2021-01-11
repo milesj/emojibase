@@ -139,7 +139,7 @@ function createVersionMap(): HexcodeVersionMap {
   return versions;
 }
 
-async function generateMetaData(locale: Locale): Promise<unknown> {
+async function generateMetadata(locale: Locale): Promise<unknown> {
   const data = await loadPoMeta(locale);
   const englishData = await loadPoMeta('en');
   const groups: GroupMeta[] = [];
@@ -202,7 +202,7 @@ export default async function generateData(): Promise<void> {
       const compactEmojis = extractCompact(emojis);
 
       return Promise.all([
-        generateMetaData(locale),
+        generateMetadata(locale),
         writeDataset(`${locale}/data.raw.json`, emojis),
         writeDataset(`${locale}/data.json`, emojis, true),
         writeDataset(`${locale}/compact.raw.json`, compactEmojis),

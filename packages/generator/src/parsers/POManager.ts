@@ -31,10 +31,6 @@ export default class POManager {
         toArray(item.comments).forEach((c) => {
           const comment = c.trim();
 
-          if (comment.includes('fuzzy') || comment.includes('javascript-format')) {
-            return;
-          }
-
           if (this.itemsByComment[comment]) {
             this.itemsByComment[comment].push(item);
           } else {

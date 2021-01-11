@@ -17,9 +17,9 @@ declare module 'emojibase-data/*/compact.json' {
 
 declare module 'emojibase-data/*/meta.json' {
   interface GroupMeta {
-    id: number;
     key: string;
     message: string;
+    order: number;
   }
 
   const data: { groups: GroupMeta[]; subgroups: GroupMeta[]; };
