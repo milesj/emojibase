@@ -1,8 +1,10 @@
 import 'url-search-params-polyfill';
 import React, { useState, useEffect, useCallback } from 'react';
-import { Locale, Emoji, ShortcodePreset } from 'emojibase';
-import groupsData from 'emojibase-data/meta/groups.json';
+import { Locale, Emoji, ShortcodePreset, GroupMeta, GroupDataset } from 'emojibase';
+import metaTranslations from 'emojibase-data/en/meta.json';
+import groupsMetaDataset from 'emojibase-data/meta/groups.json';
 import debounce from 'lodash/debounce';
+import upperFirst from 'lodash/upperFirst';
 import styles from './styles.module.css';
 
 const isBrowser = typeof location !== 'undefined';
@@ -98,6 +100,18 @@ export function processEmojis(
   return list;
 }
 
+type GroupLabels = Record<string, string>;
+
+export function mapGroups(groups: GroupMeta[]): GroupLabels {
+  const labels: GroupLabels = {};
+
+  groups.forEach((item) => {
+    labels[item.order] = item.message;
+  });
+
+  return labels;
+}
+
 export interface FilterFields {
   filter: string;
   locale: Locale;
@@ -127,7 +141,10 @@ export default function Filters({
   const [filter, setFilter] = useState(inputFilter);
   const [locale, setLocale] = useState<Locale>((query.get('locale') ?? 'en') as 'en');
   const [group, setGroup] = useState(Number(query.get('group') ?? -1));
+  const [groupLabels] = useState<GroupLabels>(mapGroups(metaTranslations.groups));
+  const [groupsMeta] = useState<GroupDataset>(groupsMetaDataset);
   const [subgroup, setSubgroup] = useState(Number(query.get('subgroup') ?? -1));
+  const [subgroupLabels] = useState<GroupLabels>(mapGroups(metaTranslations.subgroups));
   const [genders, setGenders] = useState(query.get('genders') === 'true');
   const [skinTones, setSkinTones] = useState(query.get('skinTones') === 'true');
   const [shortcodePresets, setShortcodePresets] = useState<ShortcodePreset[]>(
@@ -269,9 +286,9 @@ export default function Filters({
           >
             <option value="-1">(none)</option>
 
-            {Object.entries(groupsData.groups).map(([id, label]) => (
+            {Object.keys(groupsMeta.groups).map((id) => (
               <option key={id} value={id}>
-                {label}
+                {upperFirst(groupLabels[id])}
               </option>
             ))}
           </select>
@@ -285,13 +302,13 @@ export default function Filters({
             name="subgroup"
             value={subgroup}
             onChange={handleSubgroupChange}
-            disabled={disabled || !groupsData.hierarchy[group]}
+            disabled={disabled || !groupsMeta.hierarchy[group]}
           >
             <option value="-1">(none)</option>
 
-            {(groupsData.hierarchy[group] || []).map((id) => (
+            {(groupsMeta.hierarchy[group] || []).map((id) => (
               <option key={id} value={id}>
-                {groupsData.subgroups[id]}
+                {upperFirst(subgroupLabels[id])}
               </option>
             ))}
           </select>
