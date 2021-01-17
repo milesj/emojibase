@@ -7,6 +7,7 @@
 - Added `loadMeta` (and `test-meta.json`) for testing meta translations.
 - Added `loadShortcodes` (and `test-shortcodes.json`) for testing shortcodes (using `emojibase`
   preset).
+- Updated `loadEmojiData` and `loadEmojiData` to join shortcodes when a dataset is provided.
 
 ## 6.1.0 - 2020-01-07
 

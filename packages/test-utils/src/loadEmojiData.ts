@@ -1,12 +1,8 @@
-import { Emoji } from 'emojibase';
+import { Emoji, joinShortcodes, ShortcodesDataset } from 'emojibase';
 
-let DATA: Emoji[] = [];
+export default function loadEmojiData(shortcodeDatasets?: ShortcodesDataset[]): Emoji[] {
+  // eslint-disable-next-line global-require, @typescript-eslint/no-unsafe-assignment
+  const data = require('../test-data.json');
 
-export default function loadEmojiData(): Emoji[] {
-  if (DATA.length === 0) {
-    // eslint-disable-next-line global-require, @typescript-eslint/no-unsafe-assignment
-    DATA = require('../test-data.json');
-  }
-
-  return DATA;
+  return shortcodeDatasets ? joinShortcodes(data, shortcodeDatasets) : data;
 }
