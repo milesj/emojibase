@@ -1,5 +1,13 @@
 > Versions that only update `test-data.json` are omitted from the changelog.
 
+## 6.2.0 - 2020-01-17
+
+#### 🚀 Updates
+
+- Added `loadMeta` (and `test-meta.json`) for testing meta translations.
+- Added `loadShortcodes` (and `test-shortcodes.json`) for testing shortcodes (using `emojibase`
+  preset).
+
 ## 6.1.0 - 2020-01-07
 
 #### 🚀 Updates

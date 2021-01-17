@@ -4,11 +4,9 @@ import loadEmojiData from './loadEmojiData';
 let DATA: Emoji[] = [];
 
 export default function loadFlatEmojiData(): Emoji[] {
-  if (DATA.length > 0) {
-    return DATA;
+  if (DATA.length === 0) {
+    DATA = flattenEmojiData(loadEmojiData());
   }
-
-  DATA = flattenEmojiData(loadEmojiData());
 
   return DATA;
 }

@@ -5,5 +5,7 @@
 
 import loadEmojiData from './loadEmojiData';
 import loadFlatEmojiData from './loadFlatEmojiData';
+import loadMeta from './loadMeta';
+import loadShortcodes from './loadShortcodes';
 
-export { loadEmojiData, loadFlatEmojiData };
+export { loadEmojiData, loadFlatEmojiData, loadMeta, loadShortcodes };
