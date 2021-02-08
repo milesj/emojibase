@@ -9,31 +9,31 @@ export type GenderKey = 'female' | 'male';
 export type Group = number;
 
 export type GroupKey =
-  | 'smileys-emotion'
-  | 'people-body'
-  | 'component'
-  | 'animals-nature'
-  | 'food-drink'
-  | 'travel-places'
   | 'activities'
+  | 'animals-nature'
+  | 'component'
+  | 'flags'
+  | 'food-drink'
   | 'objects'
+  | 'people-body'
+  | 'smileys-emotion'
   | 'symbols'
-  | 'flags';
+  | 'travel-places';
 
 export type Hexcode = string;
 
 export type Presentation = 0 | 1;
 
-export type PresentationKey = 'text' | 'emoji';
+export type PresentationKey = 'emoji' | 'text';
 
 export type Shortcode = string;
 
 export type ShortcodePreset =
-  | 'cldr'
   | 'cldr-native'
+  | 'cldr'
   | 'discord'
-  | 'emojibase'
   | 'emojibase-legacy'
+  | 'emojibase'
   | 'github'
   | 'iamcal'
   | 'joypixels'
@@ -41,111 +41,111 @@ export type ShortcodePreset =
 
 export type SkinTone = 1 | 2 | 3 | 4 | 5;
 
-export type SkinToneKey = 'light' | 'medium-light' | 'medium' | 'medium-dark' | 'dark';
+export type SkinToneKey = 'dark' | 'light' | 'medium-dark' | 'medium-light' | 'medium';
 
 export type Subgroup = number;
 
 export type SubgroupKey =
-  | 'face-smiling'
+  | 'alphanum'
+  | 'animal-amphibian'
+  | 'animal-bird'
+  | 'animal-bug'
+  | 'animal-mammal'
+  | 'animal-marine'
+  | 'animal-reptile'
+  | 'arrow'
+  | 'arts-crafts'
+  | 'av-symbol'
+  | 'award-medal'
+  | 'body-parts'
+  | 'book-paper'
+  | 'cat-face'
+  | 'clothing'
+  | 'computer'
+  | 'country-flag'
+  | 'currency'
+  | 'dishware'
+  | 'drink'
+  | 'emotion'
+  | 'event'
   | 'face-affection'
-  | 'face-tongue'
+  | 'face-concerned'
+  | 'face-costume'
+  | 'face-glasses'
   | 'face-hand'
+  | 'face-hat'
+  | 'face-negative'
   | 'face-neutral-skeptical'
   | 'face-sleepy'
+  | 'face-smiling'
+  | 'face-tongue'
   | 'face-unwell'
-  | 'face-hat'
-  | 'face-glasses'
-  | 'face-concerned'
-  | 'face-negative'
-  | 'face-costume'
-  | 'cat-face'
-  | 'monkey-face'
-  | 'emotion'
+  | 'family'
+  | 'flag'
+  | 'food-asian'
+  | 'food-fruit'
+  | 'food-marine'
+  | 'food-prepared'
+  | 'food-sweet'
+  | 'food-vegetable'
+  | 'game'
+  | 'gender'
+  | 'geometric'
+  | 'hair-style'
+  | 'hand-fingers-closed'
   | 'hand-fingers-open'
   | 'hand-fingers-partial'
-  | 'hand-single-finger'
-  | 'hand-fingers-closed'
-  | 'hands'
   | 'hand-prop'
-  | 'body-parts'
-  | 'person'
-  | 'person-gesture'
-  | 'person-role'
-  | 'person-fantasy'
-  | 'person-activity'
-  | 'person-sport'
-  | 'person-resting'
-  | 'family'
-  | 'person-symbol'
-  | 'skin-tone'
-  | 'hair-style'
-  | 'animal-mammal'
-  | 'animal-bird'
-  | 'animal-amphibian'
-  | 'animal-reptile'
-  | 'animal-marine'
-  | 'animal-bug'
-  | 'plant-flower'
-  | 'plant-other'
-  | 'food-fruit'
-  | 'food-vegetable'
-  | 'food-prepared'
-  | 'food-asian'
-  | 'food-marine'
-  | 'food-sweet'
-  | 'drink'
-  | 'dishware'
-  | 'place-map'
-  | 'place-geographic'
-  | 'place-building'
-  | 'place-religious'
-  | 'place-other'
-  | 'transport-ground'
-  | 'transport-water'
-  | 'transport-air'
+  | 'hand-single-finger'
+  | 'hands'
   | 'hotel'
-  | 'time'
-  | 'sky-weather'
-  | 'event'
-  | 'award-medal'
-  | 'sport'
-  | 'game'
-  | 'arts-crafts'
-  | 'clothing'
-  | 'sound'
+  | 'household'
+  | 'keycap'
+  | 'light-video'
+  | 'lock'
+  | 'mail'
+  | 'math'
+  | 'medical'
+  | 'money'
+  | 'monkey-face'
   | 'music'
   | 'musical-instrument'
-  | 'phone'
-  | 'computer'
-  | 'light-video'
-  | 'book-paper'
-  | 'money'
-  | 'mail'
-  | 'writing'
   | 'office'
-  | 'lock'
-  | 'tool'
-  | 'science'
-  | 'medical'
-  | 'household'
   | 'other-object'
-  | 'transport-sign'
-  | 'warning'
-  | 'arrow'
-  | 'religion'
-  | 'zodiac'
-  | 'av-symbol'
-  | 'gender'
-  | 'math'
-  | 'punctuation'
-  | 'currency'
   | 'other-symbol'
-  | 'keycap'
-  | 'alphanum'
-  | 'geometric'
-  | 'flag'
-  | 'country-flag'
-  | 'subdivision-flag';
+  | 'person-activity'
+  | 'person-fantasy'
+  | 'person-gesture'
+  | 'person-resting'
+  | 'person-role'
+  | 'person-sport'
+  | 'person-symbol'
+  | 'person'
+  | 'phone'
+  | 'place-building'
+  | 'place-geographic'
+  | 'place-map'
+  | 'place-other'
+  | 'place-religious'
+  | 'plant-flower'
+  | 'plant-other'
+  | 'punctuation'
+  | 'religion'
+  | 'science'
+  | 'skin-tone'
+  | 'sky-weather'
+  | 'sound'
+  | 'sport'
+  | 'subdivision-flag'
+  | 'time'
+  | 'tool'
+  | 'transport-air'
+  | 'transport-ground'
+  | 'transport-sign'
+  | 'transport-water'
+  | 'warning'
+  | 'writing'
+  | 'zodiac';
 
 export type Unicode = string;
 
@@ -200,7 +200,7 @@ export interface VersionDataset {
 }
 
 export interface ShortcodesDataset {
-  [hexcode: string]: string | string[];
+  [hexcode: string]: string[] | string;
 }
 
 export interface GroupMeta {
@@ -217,10 +217,10 @@ export interface MetadataDataset {
 export type Locale =
   | 'da'
   | 'de'
-  | 'en'
   | 'en-gb'
-  | 'es'
+  | 'en'
   | 'es-mx'
+  | 'es'
   | 'et'
   | 'fi'
   | 'fr'
@@ -238,8 +238,8 @@ export type Locale =
   | 'sv'
   | 'th'
   | 'uk'
-  | 'zh'
-  | 'zh-hant';
+  | 'zh-hant'
+  | 'zh';
 
 // OPTIONS
 
@@ -256,5 +256,5 @@ export interface FetchFromCDNOptions extends RequestInit {
 export interface FetchEmojisOptions extends FetchFromCDNOptions {
   compact?: boolean;
   flat?: boolean;
-  shortcodes?: (string | ShortcodePreset)[];
+  shortcodes?: (ShortcodePreset | string)[];
 }

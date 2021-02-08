@@ -3,7 +3,7 @@
 import log from '../helpers/log';
 import readCache from '../helpers/readCache';
 
-function unionize(data: object | unknown[]): string {
+function unionize(data: unknown[] | object): string {
   if (!Array.isArray(data)) {
     return unionize(Object.values(data));
   }

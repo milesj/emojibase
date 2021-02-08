@@ -56,7 +56,7 @@ export default function joinModifiersToData(emojis: EmojiMap) {
       hexcode.match(SKIN_MODIFIER_PATTERN)
     ) {
       let match;
-      let tone: SkinTone | SkinTone[] | undefined | null;
+      let tone: SkinTone | SkinTone[] | null | undefined;
       let parentEmoji: Emoji | undefined;
 
       // Multi-person skin tones

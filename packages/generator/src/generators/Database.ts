@@ -44,7 +44,7 @@ export default class Database {
     );
   }
 
-  addShortcodes(map: ShortcodeDataMap, hexcode: Hexcode, shortcodes: string | string[]) {
+  addShortcodes(map: ShortcodeDataMap, hexcode: Hexcode, shortcodes: string[] | string) {
     const item = map[hexcode];
     const list = item
       ? new Set([...toArray(item), ...toArray(shortcodes)])
@@ -72,7 +72,7 @@ export default class Database {
     });
   }
 
-  formatShortcodes(shortcodes: string | string[]): string | string[] {
+  formatShortcodes(shortcodes: string[] | string): string[] | string {
     if (Array.isArray(shortcodes) && shortcodes.length === 1) {
       return shortcodes[0];
     }

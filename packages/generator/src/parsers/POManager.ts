@@ -41,7 +41,7 @@ export default class POManager {
     });
   }
 
-  setHeader(name: POHeaders, value: string | Date) {
+  setHeader(name: POHeaders, value: Date | string) {
     if (value instanceof Date) {
       const pad = (val: number) => String(val).padStart(2, '0');
       let tz = String(value.getTimezoneOffset());
@@ -62,7 +62,7 @@ export default class POManager {
     msgid: string,
     msgstr: string,
     msgctxt: string,
-    { comment, flags }: { comment?: string | string[]; flags?: string[] } = {},
+    { comment, flags }: { comment?: string[] | string; flags?: string[] } = {},
   ) {
     const item = this.itemsById[msgid] || new PO.Item();
     item.msgid = msgid;

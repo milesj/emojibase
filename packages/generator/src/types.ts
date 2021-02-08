@@ -1,4 +1,4 @@
-/* eslint-disable no-use-before-define */
+/* eslint-disable @typescript-eslint/sort-type-union-intersection-members, no-use-before-define */
 
 import {
   Emoticon,
