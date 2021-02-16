@@ -1,6 +1,12 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import Layout from '@theme/Layout';
-import { Emoji, fetchEmojis, ShortcodesDataset, fetchShortcodes, ShortcodePreset } from 'emojibase';
+import {
+  Emoji,
+  fetchEmojis,
+  ShortcodesDataset,
+  fetchShortcodes,
+  ShortcodePreset,
+} from '../../../packages/core';
 import Shortcodes from '../components/Shortcodes';
 import Filters, { FilterFields, processEmojis, PRESETS } from '../components/Filters';
 // import cldrDataset from '../../../packages/data/en/shortcodes/cldr.raw.json';

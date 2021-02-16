@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShortcodePreset } from 'emojibase';
+import { ShortcodePreset } from '../../../packages/core';
 
 export interface ShortcodesProps {
   preset: ShortcodePreset;
