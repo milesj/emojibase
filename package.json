@@ -30,14 +30,14 @@
     "node": ">=10.10.0"
   },
   "devDependencies": {
-    "@milesj/build-tools": "^2.17.0",
+    "@milesj/build-tools": "^2.17.1",
     "conventional-changelog-beemo": "^2.1.0",
     "fetch-mock-jest": "^1.5.1",
     "filesize": "^6.1.0",
     "glob": "^7.1.6",
     "gzip-size": "^6.0.0",
     "lerna": "^3.22.1",
-    "packemon": "^0.11.1"
+    "packemon": "^0.12.0"
   },
   "workspaces": [
     "packages/*"
