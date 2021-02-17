@@ -1,10 +1,10 @@
 import 'url-search-params-polyfill';
 import React, { useState, useEffect, useCallback } from 'react';
-import { Locale, Emoji, ShortcodePreset, GroupMeta, GroupDataset } from 'emojibase';
-import metaTranslations from 'emojibase-data/en/meta.json';
-import groupsMetaDataset from 'emojibase-data/meta/groups.json';
 import debounce from 'lodash/debounce';
 import upperFirst from 'lodash/upperFirst';
+import { Locale, Emoji, ShortcodePreset, GroupMeta, GroupDataset } from 'emojibase';
+import metaTranslations from 'emojibase-data/en/meta.raw.json';
+import groupsMetaDataset from 'emojibase-data/meta/groups.json';
 import styles from './styles.module.css';
 
 const isBrowser = typeof location !== 'undefined';

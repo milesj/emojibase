@@ -1,13 +1,13 @@
 /* eslint-disable sort-keys */
 
-const { EMOJI_VERSIONS, UNICODE_VERSIONS } = require('emojibase');
+const { EMOJI_VERSIONS, UNICODE_VERSIONS } = require('../packages/core');
 
 const pkgs = [
-  'emojibase',
-  'emojibase-data',
-  'emojibase-regex',
+  'core',
+  'data',
+  'regex',
   // eslint-disable-next-line
-].map((name) => require(`${name}/package.json`));
+].map((name) => require(`../packages/${name}/package.json`));
 
 function sortVersions(versions) {
   return [...versions].sort((a, b) => Number.parseFloat(a) - Number.parseFloat(b)).reverse();
@@ -35,7 +35,7 @@ module.exports = {
           label: `v${pkgs[0].version}`,
           position: 'left',
           items: pkgs.map((pkg) => ({
-            label: `v${pkg.version} · ${pkg.name.split('-')[1] || 'core'}`,
+            label: `v${pkg.version} · ${pkg.name}`,
             href: `https://www.npmjs.com/package/${pkg.name}`,
           })),
         },
