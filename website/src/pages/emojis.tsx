@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import Layout from '@theme/Layout';
-import { fetchEmojis, Emoji } from '../../../packages/core';
+import { fetchEmojis, Emoji } from 'emojibase';
 import Shortcodes from '../components/Shortcodes';
 import Filters, { FilterFields, processEmojis } from '../components/Filters';
 

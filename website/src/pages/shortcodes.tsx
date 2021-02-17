@@ -1,20 +1,14 @@
 import React, { useCallback, useState } from 'react';
 import Layout from '@theme/Layout';
-import {
-  Emoji,
-  fetchEmojis,
-  ShortcodesDataset,
-  fetchShortcodes,
-  ShortcodePreset,
-} from '../../../packages/core';
+import { Emoji, fetchEmojis, ShortcodesDataset, fetchShortcodes, ShortcodePreset } from 'emojibase';
 import Shortcodes from '../components/Shortcodes';
 import Filters, { FilterFields, processEmojis, PRESETS } from '../components/Filters';
-// import cldrDataset from '../../../packages/data/en/shortcodes/cldr.raw.json';
-// import emojibaseDataset from '../../../packages/data/en/shortcodes/emojibase.raw.json';
-// import emojibaseLegacyDataset from '../../../packages/data/en/shortcodes/emojibase-legacy.raw.json';
-// import githubDataset from '../../../packages/data/en/shortcodes/github.raw.json';
-// import iamcalDataset from '../../../packages/data/en/shortcodes/iamcal.raw.json';
-// import joypixelsDataset from '../../../packages/data/en/shortcodes/joypixels.raw.json';
+// import cldrDataset from 'emojibase-data/en/shortcodes/cldr.raw.json';
+// import emojibaseDataset from 'emojibase-data/en/shortcodes/emojibase.raw.json';
+// import emojibaseLegacyDataset from 'emojibase-data/en/shortcodes/emojibase-legacy.raw.json';
+// import githubDataset from 'emojibase-data/en/shortcodes/github.raw.json';
+// import iamcalDataset from 'emojibase-data/en/shortcodes/iamcal.raw.json';
+// import joypixelsDataset from 'emojibase-data/en/shortcodes/joypixels.raw.json';
 
 function noop<T>(value: T): T {
   return value;
