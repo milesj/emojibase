@@ -1,3 +1,9 @@
+### 5.1.1 - 2021-03-07
+
+#### 🐞 Fixes
+
+- Include source folder for source maps to work correctly.
+
 ## 5.1.0 - 2020-01-07
 
 #### 🚀 Updates

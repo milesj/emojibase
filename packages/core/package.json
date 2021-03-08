@@ -22,6 +22,13 @@
   "module": "./esm/index.js",
   "types": "./dts/index.d.ts",
   "browser": "./umd/index.js",
+  "files": [
+    "dts/**/*.d.ts",
+    "esm/**/*.{js,map}",
+    "lib/**/*.{js,map}",
+    "src/**/*.{ts,tsx,json}",
+    "umd/**/*.{js,map}"
+  ],
   "sideEffects": false,
   "publishConfig": {
     "access": "public"
