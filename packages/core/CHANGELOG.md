@@ -1,3 +1,9 @@
+## 5.2.0 - 2021-04-27
+
+#### 🚀 Updates
+
+- Updated to [CLDR 39](http://cldr.unicode.org/index/downloads/cldr-39).
+
 ### 5.1.1 - 2021-03-07
 
 #### 🐞 Fixes

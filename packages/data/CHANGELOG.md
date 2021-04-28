@@ -1,3 +1,10 @@
+## 6.2.0 - 2021-04-27
+
+#### 🚀 Updates
+
+- Updated to [CLDR 39](http://cldr.unicode.org/index/downloads/cldr-39).
+- Updated `joypixels` shortcode preset to the latest.
+
 ## 6.1.0 - 2020-01-07
 
 #### 🚀 Updates

@@ -14,7 +14,7 @@ export default function loadAnnotations(
 
   // Norwegian locale changed in CLDR 39
   // https://github.com/unicode-org/cldr/pull/1031
-  // TODO: Change in next mahor
+  // TODO: Change in next major
   const pathLocale = formatLocale(locale === 'nb' ? 'no' : locale);
 
   return (
