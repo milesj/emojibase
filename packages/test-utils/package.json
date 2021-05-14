@@ -20,7 +20,10 @@
   "files": [
     "dts/**/*.d.ts",
     "lib/**/*.{js,map}",
-    "src/**/*.{ts,tsx,json}"
+    "src/**/*.{ts,tsx,json}",
+    "test-data.json",
+    "test-meta.json",
+    "test-shortcodes.json"
   ],
   "sideEffects": false,
   "publishConfig": {
