@@ -24,6 +24,7 @@ module.exports = {
   organizationName: 'milesj',
   projectName: 'emojibase',
   themeConfig: {
+    algolia: { apiKey: 'ef82e497116ce535274609f78502cf9b', indexName: 'emojibase' },
     navbar: {
       title: 'Emojibase',
       logo: {
