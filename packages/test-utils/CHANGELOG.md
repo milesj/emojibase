@@ -1,4 +1,10 @@
-> Versions that only update `test-data.json` are omitted from the changelog.
+> Versions that only update `test-*.json` are omitted from the changelog.
+
+### 6.2.1 - 2021-05-13
+
+#### 🐞 Fixes
+
+- Fixed an issue where certain `test-*.json` files were not published.
 
 ## 6.2.0 - 2020-01-17
 
