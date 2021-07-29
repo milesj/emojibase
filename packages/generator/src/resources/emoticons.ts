@@ -27,8 +27,8 @@ export default {
   // HAPPY
   // 🙂 slightly smiling face
   '1F642': ':)',
-  // 😀 grinning face
-  '1F600': ':D',
+  // 😄 grinning face
+  '1F604': ':D',
   // 😊 smiling face with smiling eyes
   '1F60A': ':>',
   // 😉 winking face
