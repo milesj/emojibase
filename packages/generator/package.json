@@ -13,11 +13,13 @@
   },
   "author": "Miles Johnson",
   "license": "MIT",
-  "main": "./lib/index.js",
+  "type": "module",
+  "main": "./mjs/index.mjs",
+  "module": "./mjs/index.mjs",
   "types": "./dts/index.d.ts",
   "files": [
     "dts/**/*.d.ts",
-    "lib/**/*.{js,map}",
+    "mjs/**/*.{mjs,map}",
     "src/**/*.{ts,tsx,json}"
   ],
   "dependencies": {
@@ -47,7 +49,7 @@
     "platform": "node"
   },
   "engines": {
-    "node": ">=10.3.0",
-    "npm": ">=6.1.0"
+    "node": ">=12.17.0",
+    "npm": ">=6.13.0"
   }
 }

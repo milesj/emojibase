@@ -14,7 +14,6 @@ function loadShortcodesData(preset: ShortcodePreset): ShortcodesDataset {
 	}
 
 	try {
-		// eslint-disable-next-line global-require, import/no-dynamic-require
 		localeCache[key] = require(path.join(__dirname, '..', locale, `shortcodes/${preset}.raw.json`));
 	} catch {
 		return {};

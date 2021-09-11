@@ -11,7 +11,6 @@ function loadFlatEmojiData(): Emoji[] {
 	}
 
 	localeCache[locale] = flattenEmojiData(
-		// eslint-disable-next-line global-require, import/no-dynamic-require
 		require(path.join(__dirname, '..', locale, 'data.raw.json')),
 	);
 
