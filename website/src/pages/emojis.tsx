@@ -1,8 +1,8 @@
-import React, { useState, useCallback } from 'react';
+import React, { useCallback, useState } from 'react';
+import { Emoji, fetchEmojis, ShortcodePreset } from 'emojibase';
 import Layout from '@theme/Layout';
-import { fetchEmojis, Emoji } from 'emojibase';
-import Shortcodes from '../components/Shortcodes';
 import Filters, { FilterFields, processEmojis } from '../components/Filters';
+import Shortcodes from '../components/Shortcodes';
 
 export default function EmojiList() {
 	const [emojis, setEmojis] = useState<Emoji[]>([]);
@@ -11,16 +11,12 @@ export default function EmojiList() {
 	const handleFilterChange = useCallback(async (fields: FilterFields) => {
 		const { locale, shortcodePresets } = fields;
 
-		if (loading) {
-			return;
-		}
-
 		setLoading(true);
 
 		const data = await fetchEmojis(locale, {
 			shortcodes: shortcodePresets.map((preset) =>
 				preset.includes('cldr') ? preset : `en/${preset}`,
-			),
+			) as ShortcodePreset[],
 			version: 'next',
 		});
 
@@ -29,7 +25,7 @@ export default function EmojiList() {
 	}, []);
 
 	return (
-		<Layout title="Emoji table" description="Table of all emojis across any supported locale.">
+		<Layout description="Table of all emojis across any supported locale." title="Emoji table">
 			<main className="table-container">
 				<h2>Emoji table</h2>
 
@@ -48,7 +44,7 @@ export default function EmojiList() {
 						<tbody>
 							{loading && (
 								<tr>
-									<td colSpan={4} className="text--center">
+									<td className="text--center" colSpan={4}>
 										Loading emojis…
 									</td>
 								</tr>
@@ -57,7 +53,7 @@ export default function EmojiList() {
 							{!loading && (
 								<>
 									<tr>
-										<td colSpan={4} className="text--center">
+										<td className="text--center" colSpan={4}>
 											{emojis.length.toLocaleString()} emojis
 										</td>
 									</tr>

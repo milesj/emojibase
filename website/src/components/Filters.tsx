@@ -1,11 +1,18 @@
+/* eslint-disable jsx-a11y/no-onchange */
+
 import 'url-search-params-polyfill';
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
+import { Emoji, GroupDataset, GroupMeta, Locale, ShortcodePreset } from 'emojibase';
 import debounce from 'lodash/debounce';
 import upperFirst from 'lodash/upperFirst';
-import { Locale, Emoji, ShortcodePreset, GroupMeta, GroupDataset } from 'emojibase';
-import metaTranslations from 'emojibase-data/en/meta.raw.json';
-import groupsMetaDataset from 'emojibase-data/meta/groups.json';
 import styles from './styles.module.css';
+
+const groupsMetaDataset = require('emojibase-data/meta/groups.json') as GroupDataset;
+
+const metaTranslations = require('emojibase-data/en/meta.raw.json') as {
+	groups: GroupMeta[];
+	subgroups: GroupMeta[];
+};
 
 const isBrowser = typeof location !== 'undefined';
 
@@ -63,6 +70,7 @@ export function processEmojis(
 ): Emoji[] {
 	const list: Emoji[] = [];
 
+	// eslint-disable-next-line complexity
 	emojis.forEach((emoji) => {
 		if (!genders && emoji.gender !== undefined) {
 			return;
@@ -95,7 +103,7 @@ export function processEmojis(
 		}
 	});
 
-	list.sort((a, b) => (a.order || 10000) - (b.order || 10000));
+	list.sort((a, b) => (a.order ?? 10_000) - (b.order ?? 10_000));
 
 	return list;
 }
@@ -165,21 +173,24 @@ export default function Filters({
 			skinTones,
 			shortcodePresets,
 		});
-	}, [filter, locale, genders, group, subgroup, skinTones, shortcodePresets]);
+	}, [filter, locale, genders, group, subgroup, skinTones, shortcodePresets, onChange]);
 
 	const doFilterChange = debounce((value: string) => {
 		query.set('filter', value);
 		setFilter(value);
 	}, 350);
 
-	const handleFilterChange = useCallback((event: React.FormEvent<HTMLInputElement>) => {
-		event.persist();
+	const handleFilterChange = useCallback(
+		(event: React.FormEvent<HTMLInputElement>) => {
+			event.persist();
 
-		const { value } = event.currentTarget;
+			const { value } = event.currentTarget;
 
-		setInputFilter(value);
-		doFilterChange(value);
-	}, []);
+			setInputFilter(value);
+			doFilterChange(value);
+		},
+		[doFilterChange],
+	);
 
 	const handleLocaleChange = useCallback((event: React.FormEvent<HTMLSelectElement>) => {
 		const { value } = event.currentTarget;
@@ -230,7 +241,7 @@ export default function Filters({
 				next.delete(value as ShortcodePreset);
 			}
 
-			const presets = Array.from(next).sort();
+			const presets = [...next].sort();
 
 			query.set('shortcodePresets', encodeURIComponent(presets.join(',')));
 
@@ -245,12 +256,12 @@ export default function Filters({
 					<label htmlFor="filter">Annotation</label>
 
 					<input
-						type="search"
+						disabled={disabled}
 						id="filter"
 						name="filter"
+						type="search"
 						value={inputFilter}
 						onChange={handleFilterChange}
-						disabled={disabled}
 					/>
 				</div>
 
@@ -258,11 +269,11 @@ export default function Filters({
 					<label htmlFor="locale">Locale</label>
 
 					<select
+						disabled={disabled}
 						id="locale"
 						name="locale"
 						value={locale}
 						onChange={handleLocaleChange}
-						disabled={disabled}
 					>
 						{Object.entries(LOCALES)
 							.sort((a, b) => a[1].localeCompare(b[1]))
@@ -278,11 +289,11 @@ export default function Filters({
 					<label htmlFor="group">Group</label>
 
 					<select
+						disabled={disabled}
 						id="group"
 						name="group"
 						value={group}
 						onChange={handleGroupChange}
-						disabled={disabled}
 					>
 						<option value="-1">(none)</option>
 
@@ -298,11 +309,11 @@ export default function Filters({
 					<label htmlFor="subgroup">Subgroup</label>
 
 					<select
+						disabled={disabled || !groupsMeta.hierarchy[group]}
 						id="subgroup"
 						name="subgroup"
 						value={subgroup}
 						onChange={handleSubgroupChange}
-						disabled={disabled || !groupsMeta.hierarchy[group]}
 					>
 						<option value="-1">(none)</option>
 
@@ -321,26 +332,26 @@ export default function Filters({
 				<div className="col col--3">
 					<h4>Display</h4>
 
-					<label htmlFor="genders" className="label--inline">
+					<label className="label--inline" htmlFor="genders">
 						<input
-							type="checkbox"
+							checked={genders}
+							disabled={disabled}
 							id="genders"
 							name="genders"
-							checked={genders}
+							type="checkbox"
 							onChange={handleGenderChange}
-							disabled={disabled}
 						/>{' '}
 						Genders?
 					</label>
 
-					<label htmlFor="skinTones" className="label--inline">
+					<label className="label--inline" htmlFor="skinTones">
 						<input
-							type="checkbox"
+							checked={skinTones}
+							disabled={disabled}
 							id="skinTones"
 							name="skinTones"
-							checked={skinTones}
+							type="checkbox"
 							onChange={handleSkinToneChange}
-							disabled={disabled}
 						/>{' '}
 						Skin tones?
 					</label>
@@ -355,15 +366,15 @@ export default function Filters({
 						}
 
 						return (
-							<label key={value} htmlFor={`preset-${value}`} className="label--inline">
+							<label key={value} className="label--inline" htmlFor={`preset-${value}`}>
 								<input
-									type="checkbox"
+									checked={shortcodePresets.includes(value as ShortcodePreset)}
+									disabled={disabled}
 									id={`preset-${value}`}
 									name="presets"
+									type="checkbox"
 									value={value}
-									checked={shortcodePresets.includes(value as ShortcodePreset)}
 									onChange={handleShortcodePresetChange}
-									disabled={disabled}
 								/>{' '}
 								{label}
 							</label>

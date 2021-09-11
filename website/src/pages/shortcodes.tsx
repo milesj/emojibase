@@ -1,8 +1,8 @@
 import React, { useCallback, useState } from 'react';
+import { Emoji, fetchEmojis, fetchShortcodes, ShortcodePreset, ShortcodesDataset } from 'emojibase';
 import Layout from '@theme/Layout';
-import { Emoji, fetchEmojis, ShortcodesDataset, fetchShortcodes, ShortcodePreset } from 'emojibase';
+import Filters, { FilterFields, PRESETS, processEmojis } from '../components/Filters';
 import Shortcodes from '../components/Shortcodes';
-import Filters, { FilterFields, processEmojis, PRESETS } from '../components/Filters';
 // import cldrDataset from 'emojibase-data/en/shortcodes/cldr.raw.json';
 // import emojibaseDataset from 'emojibase-data/en/shortcodes/emojibase.raw.json';
 // import emojibaseLegacyDataset from 'emojibase-data/en/shortcodes/emojibase-legacy.raw.json';
@@ -14,7 +14,7 @@ function noop<T>(value: T): T {
 	return value;
 }
 
-function isAllSameShortcodes(shortcodes: (string | string[])[]) {
+function isAllSameShortcodes(shortcodes: (string[] | string)[]) {
 	let lastCode = '';
 
 	if (shortcodes.length === 0) {
@@ -46,47 +46,46 @@ export default function ShortcodesTable() {
 		'joypixels',
 	]);
 
-	const handleFilterChange = useCallback(async (fields: FilterFields) => {
-		const { locale, shortcodePresets } = fields;
+	const handleFilterChange = useCallback(
+		async (fields: FilterFields) => {
+			const { locale, shortcodePresets } = fields;
 
-		if (loading) {
-			return;
-		}
+			setLoading(true);
 
-		setLoading(true);
+			const emojisData = await fetchEmojis(locale, {
+				shortcodes: presets,
+				version: 'next',
+			});
 
-		const emojis = await fetchEmojis(locale, {
-			shortcodes: presets,
-			version: 'next',
-		});
+			const cldrDataset = await fetchShortcodes(locale, 'cldr', { version: 'next' });
 
-		const cldrDataset = await fetchShortcodes(locale, 'cldr', { version: 'next' }).catch(noop);
+			const allDatasets = await Promise.all(
+				shortcodePresets.map((preset) =>
+					fetchShortcodes(locale, preset, { version: 'next' }).catch(noop),
+				),
+			);
 
-		const allDatasets = await Promise.all(
-			shortcodePresets.map((preset) =>
-				fetchShortcodes(locale, preset as ShortcodePreset, { version: 'next' }).catch(noop),
-			),
-		);
-
-		setEmojis(processEmojis(emojis, fields));
-		setCldrShortcodes(cldrDataset);
-		setShortcodes(allDatasets);
-		setPresets(shortcodePresets);
-		setLoading(false);
-	}, []);
+			setEmojis(processEmojis(emojisData, fields));
+			setCldrShortcodes(cldrDataset);
+			setShortcodes(allDatasets);
+			setPresets(shortcodePresets);
+			setLoading(false);
+		},
+		[presets],
+	);
 
 	return (
 		<Layout
-			title="Shortcodes table"
 			description="Table of all shortcodes for every emoji character."
+			title="Shortcodes table"
 		>
 			<main className="table-container">
 				<h2>Shortcodes table</h2>
 
 				<Filters
 					hideCldr
-					disabled={loading}
 					defaultShortcodePresets={presets}
+					disabled={loading}
 					onChange={handleFilterChange}
 				/>
 
@@ -105,7 +104,7 @@ export default function ShortcodesTable() {
 						<tbody>
 							{loading && (
 								<tr>
-									<td colSpan={4 + presets.length} className="text--center">
+									<td className="text--center" colSpan={4 + presets.length}>
 										Loading emojis…
 									</td>
 								</tr>
@@ -114,7 +113,7 @@ export default function ShortcodesTable() {
 							{!loading && (
 								<>
 									<tr>
-										<td colSpan={4 + presets.length} className="text--center">
+										<td className="text--center" colSpan={4 + presets.length}>
 											{emojis.length.toLocaleString()} emojis
 										</td>
 									</tr>

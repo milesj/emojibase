@@ -33,14 +33,15 @@
     "@beemo/dev": "^1.6.1",
     "fetch-mock-jest": "^1.5.1",
     "filesize": "^8.0.0",
-    "glob": "^7.1.6",
+    "glob": "^7.1.7",
     "gzip-size": "^6.0.0",
     "lerna": "^4.0.0",
     "packemon": "^1.5.0",
     "typescript": "^4.4.3"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "website"
   ],
   "packageManager": "yarn@3.0.2"
 }

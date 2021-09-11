@@ -1,9 +1,11 @@
+/* eslint-disable react/no-array-index-key */
+
 import React from 'react';
 import clsx from 'clsx';
-import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Layout from '@theme/Layout';
 import styles from './styles.module.css';
 
 interface FeatureProps {
@@ -18,7 +20,7 @@ const features: FeatureProps[] = [
 		description: (
 			<>
 				With data being derived from the official Unicode data files, and aligned with Unicode
-				Technical Standard's #51 and #35, we can ensure a specification compliant solution.
+				Technical Standard&apos;s #51 and #35, we can ensure a specification compliant solution.
 			</>
 		),
 	},
@@ -35,8 +37,8 @@ const features: FeatureProps[] = [
 		title: '📜 Historical information',
 		description: (
 			<>
-				Whether it's skin tone variations, genders, multi-person, or Unicode versioning, we capture
-				and persist all historical information for reusability.
+				Whether it&apos;s skin tone variations, genders, multi-person, or Unicode versioning, we
+				capture and persist all historical information for reusability.
 			</>
 		),
 	},
@@ -49,7 +51,7 @@ function Feature({ imageUrl, title, description }: FeatureProps) {
 		<div className={clsx('col col--4', styles.feature)}>
 			{imgUrl && (
 				<div className="text--center">
-					<img className={styles.featureImage} src={imgUrl} alt={title} />
+					<img alt={title} className={styles.featureImage} src={imgUrl} />
 				</div>
 			)}
 
@@ -61,10 +63,10 @@ function Feature({ imageUrl, title, description }: FeatureProps) {
 
 export default function Home() {
 	const context = useDocusaurusContext();
-	const { siteConfig = {} } = context;
+	const { siteConfig } = context;
 
 	return (
-		<Layout title="Spec compliant emoji datasets" description={siteConfig.tagline}>
+		<Layout description={siteConfig.tagline} title="Spec compliant emoji datasets">
 			<header className={clsx('hero hero--primary', styles.heroBanner)}>
 				<div className="container">
 					<h1 className="hero__title">{siteConfig.title}</h1>
@@ -78,11 +80,11 @@ export default function Home() {
 						</Link>
 
 						<iframe
-							src="https://ghbtns.com/github-btn.html?user=milesj&repo=emojibase&type=star&count=true&size=large"
 							frameBorder="0"
 							scrolling="0"
+							src="https://ghbtns.com/github-btn.html?user=milesj&repo=emojibase&type=star&count=true&size=large"
 							title="GitHub"
-						></iframe>
+						/>
 					</div>
 				</div>
 			</header>

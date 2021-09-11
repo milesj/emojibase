@@ -11,21 +11,19 @@
     "serve": "docusaurus serve"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.70",
-    "@docusaurus/module-type-aliases": "^2.0.0-alpha.70",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.70",
+    "@docusaurus/core": "2.0.0-beta.6",
+    "@docusaurus/module-type-aliases": "2.0.0-beta.6",
+    "@docusaurus/preset-classic": "2.0.0-beta.6",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
-    "emojibase": "link:../packages/core",
-    "emojibase-data": "link:../packages/data",
     "lodash": "^4.17.21",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "url-search-params-polyfill": "^8.1.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "url-search-params-polyfill": "^8.1.1"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.108",
-    "@types/react": "^16.9.49"
+    "@types/lodash": "^4.14.172",
+    "@types/react": "^17.0.20"
   },
   "browserslist": {
     "production": [

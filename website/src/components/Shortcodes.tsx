@@ -3,7 +3,7 @@ import { ShortcodePreset } from 'emojibase';
 
 export interface ShortcodesProps {
 	preset: ShortcodePreset;
-	shortcodes?: string | string[];
+	shortcodes?: string[] | string;
 }
 
 export default function Shortcodes({ preset, shortcodes }: ShortcodesProps) {
