@@ -1,7 +1,7 @@
 import { Emoji, Hexcode, ShortcodesDataset, SUPPORTED_LOCALES } from 'emojibase';
 import { log } from '../helpers/log';
 import { toArray } from '../helpers/toArray';
-import { loadDataset } from '../loaders/loadDataset';
+import { loadDataset } from '../loaders/loadDatasetPackage';
 // import loadPoMeta from '../loaders/loadPoMeta';
 import { loadPoShortcodes } from '../loaders/loadPoShortcodes';
 

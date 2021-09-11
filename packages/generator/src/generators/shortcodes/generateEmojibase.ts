@@ -4,7 +4,7 @@ import { SHORTCODE_GUIDELINES } from '../../constants';
 import { toArray } from '../../helpers/toArray';
 import { writeDataset } from '../../helpers/writeDataset';
 import { writeFile } from '../../helpers/writeFile';
-import { loadDataset } from '../../loaders/loadDataset';
+import { loadDataset } from '../../loaders/loadDatasetPackage';
 import { loadPoMeta } from '../../loaders/loadPoMeta';
 import { loadPoShortcodes } from '../../loaders/loadPoShortcodes';
 import { ShortcodeDataMap } from '../../types';
