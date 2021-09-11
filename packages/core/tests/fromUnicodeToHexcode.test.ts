@@ -5,7 +5,6 @@ import { fromUnicodeToHexcode } from '../src/fromUnicodeToHexcode';
 const SEQUENCE_HEXCODE_PATTERN = /-(200D|FE0E|FE0F)/g;
 
 describe('fromUnicodeToHexcode()', () => {
-	// eslint-disable-next-line global-require
 	const emojiData = require('../../data/en/data.raw.json');
 
 	flattenEmojiData(emojiData).forEach((emoji) => {

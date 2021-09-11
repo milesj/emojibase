@@ -1,5 +1,11 @@
 > Versions that only update `test-*.json` are omitted from the changelog.
 
+# 7.0.0
+
+#### 💥 Breaking
+
+- Dropped Node.js v10 support. Requires v12.17 and above.
+
 ### 6.2.1 - 2021-05-13
 
 #### 🐞 Fixes
