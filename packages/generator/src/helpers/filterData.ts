@@ -1,18 +1,18 @@
 import { EmojiMap } from '../types';
-import isHidden from './isHidden';
+import { isHidden } from './isHidden';
 
-export default function filterData(data: EmojiMap): EmojiMap {
-  const cleaned: EmojiMap = {};
+export function filterData(data: EmojiMap): EmojiMap {
+	const cleaned: EmojiMap = {};
 
-  Object.keys(data).forEach((hexcode) => {
-    const emoji = data[hexcode];
+	Object.keys(data).forEach((hexcode) => {
+		const emoji = data[hexcode];
 
-    if (isHidden(emoji)) {
-      return;
-    }
+		if (isHidden(emoji)) {
+			return;
+		}
 
-    cleaned[hexcode] = emoji;
-  });
+		cleaned[hexcode] = emoji;
+	});
 
-  return cleaned;
+	return cleaned;
 }

@@ -29,101 +29,101 @@ placed within the `skins` array. Because of this, the `skins` array may contain 
 
 ```json
 {
-  "annotation": "people holding hands",
-  "hexcode": "1F9D1-200D-1F91D-200D-1F9D1",
-  // ...
-  "skins": [
-    {
-      "annotation": "people holding hands: light skin tone",
-      "hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FB",
-      // ...
-      "tone": 1
-    },
-    {
-      "annotation": "people holding hands: medium-light skin tone, light skin tone",
-      "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FB",
-      // ...
-      "tone": [2, 1]
-    },
-    {
-      "annotation": "people holding hands: medium-light skin tone",
-      "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FC",
-      // ...
-      "tone": 2
-    },
-    {
-      "annotation": "people holding hands: medium skin tone, light skin tone",
-      "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FB",
-      // ...
-      "tone": [3, 1]
-    },
-    {
-      "annotation": "people holding hands: medium skin tone, medium-light skin tone",
-      "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FC",
-      // ...
-      "tone": [3, 2]
-    },
-    {
-      "annotation": "people holding hands: medium skin tone",
-      "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FD",
-      // ...
-      "tone": 3
-    },
-    {
-      "annotation": "people holding hands: medium-dark skin tone, light skin tone",
-      "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FB",
-      // ...
-      "tone": [4, 1]
-    },
-    {
-      "annotation": "people holding hands: medium-dark skin tone, medium-light skin tone",
-      "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FC",
-      // ...
-      "tone": [4, 2]
-    },
-    {
-      "annotation": "people holding hands: medium-dark skin tone, medium skin tone",
-      "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FD",
-      // ...
-      "tone": [4, 3]
-    },
-    {
-      "annotation": "people holding hands: medium-dark skin tone",
-      "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FE",
-      // ...
-      "tone": 4
-    },
-    {
-      "annotation": "people holding hands: dark skin tone, light skin tone",
-      "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB",
-      // ...
-      "tone": [5, 1]
-    },
-    {
-      "annotation": "people holding hands: dark skin tone, medium-light skin tone",
-      "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC",
-      // ...
-      "tone": [5, 2]
-    },
-    {
-      "annotation": "people holding hands: dark skin tone, medium skin tone",
-      "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD",
-      // ...
-      "tone": [5, 3]
-    },
-    {
-      "annotation": "people holding hands: dark skin tone, medium-dark skin tone",
-      "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE",
-      // ...
-      "tone": [5, 4]
-    },
-    {
-      "annotation": "people holding hands: dark skin tone",
-      "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF",
-      // ...
-      "tone": 5
-    }
-  ]
+	"annotation": "people holding hands",
+	"hexcode": "1F9D1-200D-1F91D-200D-1F9D1",
+	// ...
+	"skins": [
+		{
+			"annotation": "people holding hands: light skin tone",
+			"hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FB",
+			// ...
+			"tone": 1
+		},
+		{
+			"annotation": "people holding hands: medium-light skin tone, light skin tone",
+			"hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FB",
+			// ...
+			"tone": [2, 1]
+		},
+		{
+			"annotation": "people holding hands: medium-light skin tone",
+			"hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FC",
+			// ...
+			"tone": 2
+		},
+		{
+			"annotation": "people holding hands: medium skin tone, light skin tone",
+			"hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FB",
+			// ...
+			"tone": [3, 1]
+		},
+		{
+			"annotation": "people holding hands: medium skin tone, medium-light skin tone",
+			"hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FC",
+			// ...
+			"tone": [3, 2]
+		},
+		{
+			"annotation": "people holding hands: medium skin tone",
+			"hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FD",
+			// ...
+			"tone": 3
+		},
+		{
+			"annotation": "people holding hands: medium-dark skin tone, light skin tone",
+			"hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FB",
+			// ...
+			"tone": [4, 1]
+		},
+		{
+			"annotation": "people holding hands: medium-dark skin tone, medium-light skin tone",
+			"hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FC",
+			// ...
+			"tone": [4, 2]
+		},
+		{
+			"annotation": "people holding hands: medium-dark skin tone, medium skin tone",
+			"hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FD",
+			// ...
+			"tone": [4, 3]
+		},
+		{
+			"annotation": "people holding hands: medium-dark skin tone",
+			"hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FE",
+			// ...
+			"tone": 4
+		},
+		{
+			"annotation": "people holding hands: dark skin tone, light skin tone",
+			"hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB",
+			// ...
+			"tone": [5, 1]
+		},
+		{
+			"annotation": "people holding hands: dark skin tone, medium-light skin tone",
+			"hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC",
+			// ...
+			"tone": [5, 2]
+		},
+		{
+			"annotation": "people holding hands: dark skin tone, medium skin tone",
+			"hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD",
+			// ...
+			"tone": [5, 3]
+		},
+		{
+			"annotation": "people holding hands: dark skin tone, medium-dark skin tone",
+			"hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE",
+			// ...
+			"tone": [5, 4]
+		},
+		{
+			"annotation": "people holding hands: dark skin tone",
+			"hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF",
+			// ...
+			"tone": 5
+		}
+	]
 }
 ```
 
@@ -139,16 +139,16 @@ dataset looked like the following:
 
 ```json
 {
-  "00A9": {
-    "description": "copyright",
-    "hexcode": "00A9"
-    // ...
-  },
-  "00A9-FE0F": {
-    "description": "copyright",
-    "hexcode": "00A9-FE0F"
-    // ...
-  }
+	"00A9": {
+		"description": "copyright",
+		"hexcode": "00A9"
+		// ...
+	},
+	"00A9-FE0F": {
+		"description": "copyright",
+		"hexcode": "00A9-FE0F"
+		// ...
+	}
 }
 ```
 
@@ -161,11 +161,11 @@ The resulting dataset would include the following structure:
 
 ```json
 {
-  "annotation": "copyright",
-  "hexcode": "00A9",
-  "emoji": "©️", // 00A9-FE0F
-  "text": "©︎" // 00A9-FE0E
-  // ...
+	"annotation": "copyright",
+	"hexcode": "00A9",
+	"emoji": "©️", // 00A9-FE0F
+	"text": "©︎" // 00A9-FE0E
+	// ...
 }
 ```
 

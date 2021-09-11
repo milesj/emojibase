@@ -1,19 +1,17 @@
 import path from 'path';
-import log from './log';
-import writeFile from './writeFile';
+import { log } from './log';
+import { writeFile } from './writeFile';
 
 const DATASET_FOLDER = path.resolve(process.cwd(), 'packages/data');
 
-export default function writeDataset<T>(
-  name: string,
-  data: T,
-  minify: boolean = false,
-): Promise<T> {
-  log.info('data', `Creating ${name} dataset`);
+export async function writeDataset<T>(name: string, data: T, minify: boolean = false): Promise<T> {
+	log.info('data', `Creating ${name} dataset`);
 
-  return writeFile(
-    DATASET_FOLDER,
-    name,
-    minify ? JSON.stringify(data) : JSON.stringify(data, null, '  '),
-  ).then(() => data);
+	await writeFile(
+		DATASET_FOLDER,
+		name,
+		minify ? JSON.stringify(data) : JSON.stringify(data, null, '  '),
+	);
+
+	return data;
 }

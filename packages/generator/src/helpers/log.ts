@@ -2,28 +2,28 @@
 
 import chalk from 'chalk';
 
-export default {
-  error(type: string, ...messages: string[]) {
-    this.log(type, chalk.red('✖'), ...messages.map((message) => chalk.red(message)));
-  },
+export const log = {
+	error(type: string, ...messages: string[]) {
+		this.log(type, chalk.red('✖'), ...messages.map((message) => chalk.red(message)));
+	},
 
-  info(type: string, ...messages: string[]) {
-    this.log(type, ...messages);
-  },
+	info(type: string, ...messages: string[]) {
+		this.log(type, ...messages);
+	},
 
-  log(type: string, ...messages: string[]) {
-    console.log(chalk.gray(`[${type}]`.padEnd(8, ' ')), ...messages);
-  },
+	log(type: string, ...messages: string[]) {
+		console.log(chalk.gray(`[${type}]`.padEnd(8, ' ')), ...messages);
+	},
 
-  success(type: string, ...messages: string[]) {
-    this.log(type, chalk.green('✔'), ...messages.map((message) => chalk.green(message)));
-  },
+	success(type: string, ...messages: string[]) {
+		this.log(type, chalk.green('✔'), ...messages.map((message) => chalk.green(message)));
+	},
 
-  title(type: string, ...messages: string[]) {
-    this.log(type, ...messages.map((message) => chalk.cyan(message)));
-  },
+	title(type: string, ...messages: string[]) {
+		this.log(type, ...messages.map((message) => chalk.cyan(message)));
+	},
 
-  warn(type: string, ...messages: string[]) {
-    this.log(type, chalk.yellow('✖'), ...messages.map((message) => chalk.yellow(message)));
-  },
+	warn(type: string, ...messages: string[]) {
+		this.log(type, chalk.yellow('✖'), ...messages.map((message) => chalk.yellow(message)));
+	},
 };

@@ -3,9 +3,7 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
-import loadEmojiData from './loadEmojiData';
-import loadFlatEmojiData from './loadFlatEmojiData';
-import loadMeta from './loadMeta';
-import loadShortcodes from './loadShortcodes';
-
-export { loadEmojiData, loadFlatEmojiData, loadMeta, loadShortcodes };
+export * from './loadEmojiData';
+export * from './loadFlatEmojiData';
+export * from './loadMeta';
+export * from './loadShortcodes';

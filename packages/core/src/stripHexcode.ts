@@ -6,6 +6,6 @@ const STRIP_PATTERN = new RegExp(`(-| )?(${SEQUENCE_REMOVAL_PATTERN.source})`, '
 /**
  * Remove variation selectors and zero width joiners, while fixing any multi dash issues.
  */
-export default function stripHexcode(hexcode: Hexcode): Hexcode {
-  return hexcode.replace(STRIP_PATTERN, '');
+export function stripHexcode(hexcode: Hexcode): Hexcode {
+	return hexcode.replace(STRIP_PATTERN, '');
 }

@@ -1,3 +1,13 @@
+# 6.0.0
+
+#### 💥 Breaking
+
+- Dropped IE 11 support. Modern browsers now required.
+
+#### 🛠 Internals
+
+- Migrated to Beemo configurations.
+
 ## 5.2.0 - 2021-05-13
 
 #### 🚀 Updates

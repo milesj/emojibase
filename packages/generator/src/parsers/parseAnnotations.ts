@@ -7,34 +7,34 @@ import { CLDRAnnotationMap } from '../types';
  *
  * Example: https://raw.githubusercontent.com/unicode-org/cldr/release-31-0-1/common/annotations/en.xml
  */
-export default function parseAnnotations(version: string, content: string): CLDRAnnotationMap {
-  const xml = cheerio.load(content, { xmlMode: true });
-  const data: CLDRAnnotationMap = {};
+export function parseAnnotations(version: string, content: string): CLDRAnnotationMap {
+	const xml = cheerio.load(content, { xmlMode: true });
+	const data: CLDRAnnotationMap = {};
 
-  xml('annotation').each((i, rawRow) => {
-    const row = xml(rawRow);
+	xml('annotation').each((i, rawRow) => {
+		const row = xml(rawRow);
 
-    // Variation selectors are not present in the locale files
-    // So lets just strip unnecessary codepoints
-    const hexcode = stripHexcode(fromUnicodeToHexcode(row.attr('cp')!));
+		// Variation selectors are not present in the locale files
+		// So lets just strip unnecessary codepoints
+		const hexcode = stripHexcode(fromUnicodeToHexcode(row.attr('cp')!));
 
-    if (!data[hexcode]) {
-      data[hexcode] = {
-        annotation: '',
-        tags: [],
-      };
-    }
+		if (!data[hexcode]) {
+			data[hexcode] = {
+				annotation: '',
+				tags: [],
+			};
+		}
 
-    if (row.attr('type') === 'tts') {
-      data[hexcode].annotation = row.text().trim();
-    } else {
-      data[hexcode].tags = row
-        .text()
-        .trim()
-        .split('|')
-        .map((tag) => tag.trim().toLowerCase());
-    }
-  });
+		if (row.attr('type') === 'tts') {
+			data[hexcode].annotation = row.text().trim();
+		} else {
+			data[hexcode].tags = row
+				.text()
+				.trim()
+				.split('|')
+				.map((tag) => tag.trim().toLowerCase());
+		}
+	});
 
-  return data;
+	return data;
 }

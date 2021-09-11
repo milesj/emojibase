@@ -1,5 +1,4 @@
-/* eslint-disable */
-
+/* eslint-disable sort-keys */
 /**
  * Official Emojibase emoticons list.
  *
@@ -23,6 +22,7 @@
  *    variants are automatically generated.
  */
 
+// eslint-disable-next-line import/no-default-export
 export default {
   // HAPPY
   // 🙂 slightly smiling face

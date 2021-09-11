@@ -1,30 +1,26 @@
 import cheerio from 'cheerio';
 import { HIDDEN_GROUPS, HIDDEN_SUBGROUPS } from '../constants';
-import readCache from '../helpers/readCache';
-import slug from '../helpers/slug';
+import { readCache } from '../helpers/readCache';
+import { slug } from '../helpers/slug';
 import { EmojiSourceMap } from '../types';
 
-interface GroupNameMap {
-  [name: string]: number;
-}
+type GroupNameMap = Record<string, number>;
 
-interface GroupIndexMap {
-  [index: string]: string;
-}
+type GroupIndexMap = Record<string, string>;
 
 interface GroupCache {
-  groups: GroupIndexMap;
-  subgroups: GroupIndexMap;
+	groups: GroupIndexMap;
+	subgroups: GroupIndexMap;
 }
 
 function swapKeyValues(data: GroupIndexMap): GroupNameMap {
-  const object: GroupNameMap = {};
+	const object: GroupNameMap = {};
 
-  Object.keys(data).forEach((key) => {
-    object[data[key]] = Number(key);
-  });
+	Object.keys(data).forEach((key) => {
+		object[data[key]] = Number(key);
+	});
 
-  return object;
+	return object;
 }
 
 /**
@@ -32,60 +28,60 @@ function swapKeyValues(data: GroupIndexMap): GroupNameMap {
  *
  * Example: http://unicode.org/emoji/charts/emoji-list.html
  */
-export default function parseEmojiList(content: string): EmojiSourceMap {
-  const xml = cheerio.load(content, { xmlMode: true });
-  const groupCache = (readCache('final/group-hierarchy.json') || {}) as GroupCache;
-  const groups: GroupNameMap = swapKeyValues(groupCache.groups);
-  const subgroups: GroupNameMap = swapKeyValues(groupCache.subgroups);
-  const data: EmojiSourceMap = {};
-  let group = 0;
-  let groupName = '';
-  let subgroup = 0;
-  let subgroupName = '';
+export function parseEmojiList(content: string): EmojiSourceMap {
+	const xml = cheerio.load(content, { xmlMode: true });
+	const groupCache = (readCache('final/group-hierarchy.json') ?? {}) as GroupCache;
+	const groups: GroupNameMap = swapKeyValues(groupCache.groups);
+	const subgroups: GroupNameMap = swapKeyValues(groupCache.subgroups);
+	const data: EmojiSourceMap = {};
+	let group = 0;
+	let groupName = '';
+	let subgroup = 0;
+	let subgroupName = '';
 
-  xml('table')
-    .first()
-    .find('tr')
-    .each((i, row) => {
-      const tr = xml(row);
-      const groupRow = tr.find('.bighead');
-      const subgroupRow = tr.find('.mediumhead');
-      const headerRow = tr.find('.center');
+	xml('table')
+		.first()
+		.find('tr')
+		.each((i, row) => {
+			const tr = xml(row);
+			const groupRow = tr.find('.bighead');
+			const subgroupRow = tr.find('.mediumhead');
+			const headerRow = tr.find('.center');
 
-      // Group
-      if (groupRow.length > 0) {
-        groupName = slug(groupRow.find('a').text());
-        group = groups[groupName];
-        // Subgroup
-      } else if (subgroupRow.length > 0) {
-        subgroupName = slug(subgroupRow.find('a').text());
-        subgroup = subgroups[subgroupName];
-        // Header
-      } else if (headerRow.length > 0) {
-        // Skip emoji
-      } else {
-        const hexcode = String(tr.find('.code').find('a').attr('name'))
-          .toUpperCase()
-          .replace(/_/g, '-');
-        const name = tr.find('.name').eq(0).text();
+			// Group
+			if (groupRow.length > 0) {
+				groupName = slug(groupRow.find('a').text());
+				group = groups[groupName];
+				// Subgroup
+			} else if (subgroupRow.length > 0) {
+				subgroupName = slug(subgroupRow.find('a').text());
+				subgroup = subgroups[subgroupName];
+				// Header
+			} else if (headerRow.length > 0) {
+				// Skip emoji
+			} else {
+				const hexcode = String(tr.find('.code').find('a').attr('name'))
+					.toUpperCase()
+					.replace(/_/g, '-');
+				const name = tr.find('.name').eq(0).text();
 
-        // Recently added, not in an official emoji release
-        if (name.includes('⊛')) {
-          return;
-        }
+				// Recently added, not in an official emoji release
+				if (name.includes('⊛')) {
+					return;
+				}
 
-        // Skip emojis that are hidden
-        if (HIDDEN_GROUPS.includes(groupName) || HIDDEN_SUBGROUPS.includes(subgroupName)) {
-          return;
-        }
+				// Skip emojis that are hidden
+				if (HIDDEN_GROUPS.includes(groupName) || HIDDEN_SUBGROUPS.includes(subgroupName)) {
+					return;
+				}
 
-        data[hexcode] = {
-          group,
-          hexcode,
-          subgroup,
-        };
-      }
-    });
+				data[hexcode] = {
+					group,
+					hexcode,
+					subgroup,
+				};
+			}
+		});
 
-  return data;
+	return data;
 }
