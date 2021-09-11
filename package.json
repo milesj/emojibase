@@ -3,11 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "prepare": "beemo create-config --silent",
+    "prepare": "beemo create-config",
     "build": "packemon build --addEngines",
     "pack": "NODE_ENV=production packemon pack --addEngines --declaration=standard",
     "clean": "packemon clean",
     "clean:cache": "rm -rf ./cache",
+    "check": "yarn run type && yarn run test && yarn run lint",
     "coverage": "yarn run jest --coverage",
     "docs": "cd website && yarn run start",
     "lint": "beemo eslint",
@@ -17,67 +18,28 @@
     "generate:shortcodes": "node ./bin/generateShortcodes.js",
     "generate:tests": "cp ./packages/data/en/data.json ./packages/test-utils/test-data.json && cp ./packages/data/en/shortcodes/emojibase.json ./packages/test-utils/test-shortcodes.json && cp ./packages/data/en/meta.json ./packages/test-utils/test-meta.json",
     "generate:types": "node ./bin/generateTypes.js",
-    "jest": "beemo jest",
-    "posttest": "yarn run lint",
-    "pretest": "yarn run type",
-    "test": "yarn run jest",
+    "test": "beemo jest",
     "format": "beemo prettier",
     "prerelease": "yarn run pack && yarn test",
     "release": "lerna publish --ignore-changes=emojibase-generator",
-    "type": "beemo typescript --build --reference-workspaces"
+    "type": "beemo typescript --build"
   },
   "engines": {
     "node": ">=10.10.0"
   },
   "devDependencies": {
-    "@milesj/build-tools": "^2.17.1",
-    "conventional-changelog-beemo": "^2.1.0",
+    "@beemo/cli": "^2.0.1",
+    "@beemo/core": "^2.0.2",
+    "@beemo/dev": "^1.6.1",
     "fetch-mock-jest": "^1.5.1",
     "filesize": "^6.3.0",
     "glob": "^7.1.6",
     "gzip-size": "^6.0.0",
     "lerna": "^4.0.0",
-    "packemon": "^0.15.1"
+    "packemon": "^0.15.1",
+    "typescript": "^4.4.3"
   },
   "workspaces": [
     "packages/*"
-  ],
-  "beemo": {
-    "module": "@milesj/build-tools",
-    "drivers": [
-      "babel",
-      "eslint",
-      "jest",
-      "prettier",
-      {
-        "driver": "typescript",
-        "buildFolder": "dts",
-        "declarationOnly": true,
-        "globalTypes": true
-      }
-    ],
-    "eslint": {
-      "ignore": [
-        "website/"
-      ],
-      "rules": {
-        "no-magic-numbers": "off",
-        "no-param-reassign": "off",
-        "require-unicode-regexp": "off"
-      }
-    },
-    "prettier": {
-      "ignore": [
-        "packages/generator/src/resources/*.ts",
-        "packages/test-utils/test-data.json"
-      ]
-    },
-    "settings": {
-      "node": false,
-      "react": true
-    }
-  },
-  "browserslist": [
-    "ie 11"
   ]
 }

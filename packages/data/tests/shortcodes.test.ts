@@ -3,66 +3,66 @@ import { Locale, NON_LATIN_LOCALES, ShortcodePreset, ShortcodesDataset } from 'e
 import SHORTCODE_PATTERN from 'emojibase-regex/shortcode';
 import SHORTCODE_NATIVE_PATTERN from 'emojibase-regex/shortcode-native';
 
-const locale = process.env.TEST_LOCALE || 'en';
-const localeCache: { [key: string]: ShortcodesDataset } = {};
+const locale = process.env.TEST_LOCALE ?? 'en';
+const localeCache: Record<string, ShortcodesDataset> = {};
 
 function loadShortcodesData(preset: ShortcodePreset): ShortcodesDataset {
-  const key = `${locale}:${preset}`;
+	const key = `${locale}:${preset}`;
 
-  if (localeCache[key]) {
-    return localeCache[key];
-  }
+	if (localeCache[key]) {
+		return localeCache[key];
+	}
 
-  try {
-    // eslint-disable-next-line
-    localeCache[key] = require(path.join(__dirname, '..', locale, `shortcodes/${preset}.raw.json`));
-  } catch {
-    return {};
-  }
+	try {
+		// eslint-disable-next-line global-require, import/no-dynamic-require
+		localeCache[key] = require(path.join(__dirname, '..', locale, `shortcodes/${preset}.raw.json`));
+	} catch {
+		return {};
+	}
 
-  return localeCache[key];
+	return localeCache[key];
 }
 
 describe('shortcodes', () => {
-  const presets: ShortcodePreset[] = [
-    'cldr',
-    'cldr-native',
-    'emojibase',
-    'emojibase-legacy',
-    'github',
-    'iamcal',
-    'joypixels',
-  ];
+	const presets: ShortcodePreset[] = [
+		'cldr',
+		'cldr-native',
+		'emojibase',
+		'emojibase-legacy',
+		'github',
+		'iamcal',
+		'joypixels',
+	];
 
-  presets.forEach((preset) => {
-    const pattern =
-      preset === 'cldr-native' ||
-      (preset === 'emojibase' && NON_LATIN_LOCALES.includes(locale as Locale))
-        ? SHORTCODE_NATIVE_PATTERN
-        : SHORTCODE_PATTERN;
+	presets.forEach((preset) => {
+		const pattern =
+			preset === 'cldr-native' ||
+			(preset === 'emojibase' && NON_LATIN_LOCALES.includes(locale as Locale))
+				? SHORTCODE_NATIVE_PATTERN
+				: SHORTCODE_PATTERN;
 
-    describe(`${preset}`, () => {
-      Object.entries(loadShortcodesData(preset)).forEach(([, shortcodes]) => {
-        (Array.isArray(shortcodes) ? shortcodes : [shortcodes]).forEach((code) => {
-          const shortcode = `:${code}:`; // Does not include colons by default
+		describe(`${preset}`, () => {
+			Object.entries(loadShortcodesData(preset)).forEach(([, shortcodes]) => {
+				(Array.isArray(shortcodes) ? shortcodes : [shortcodes]).forEach((code) => {
+					const shortcode = `:${code}:`; // Does not include colons by default
 
-          it(`matches shortcode by itself for ${shortcode}`, () => {
-            expect(shortcode).toMatch(pattern);
-          });
+					it(`matches shortcode by itself for ${shortcode}`, () => {
+						expect(shortcode).toMatch(pattern);
+					});
 
-          it(`matches shortcode in the middle of a string for ${shortcode}`, () => {
-            expect(`In the middle ${shortcode} of a string.`).toMatch(pattern);
-          });
+					it(`matches shortcode in the middle of a string for ${shortcode}`, () => {
+						expect(`In the middle ${shortcode} of a string.`).toMatch(pattern);
+					});
 
-          it(`matches multiple shortcode for ${shortcode}`, () => {
-            const globalPattern = new RegExp(pattern.source, 'g');
-            const matches = `One ${shortcode} Two ${shortcode} Three ${shortcode}.`.match(
-              globalPattern,
-            );
-            expect(matches).toHaveLength(3);
-          });
-        });
-      });
-    });
-  });
+					it(`matches multiple shortcode for ${shortcode}`, () => {
+						const globalPattern = new RegExp(pattern.source, 'g');
+						const matches = `One ${shortcode} Two ${shortcode} Three ${shortcode}.`.match(
+							globalPattern,
+						);
+						expect(matches).toHaveLength(3);
+					});
+				});
+			});
+		});
+	});
 });

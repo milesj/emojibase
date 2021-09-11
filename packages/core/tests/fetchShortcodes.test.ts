@@ -1,56 +1,56 @@
 import fetchMock from 'fetch-mock-jest';
-import fetchShortcodes from '../src/fetchShortcodes';
+import { fetchShortcodes } from '../src/fetchShortcodes';
 import { setupStorage } from './helpers';
 
 describe('fetchShortcodes()', () => {
-  beforeEach(() => {
-    setupStorage();
+	beforeEach(() => {
+		setupStorage();
 
-    fetchMock.mock('*', { '0000': 'shortcode' });
-  });
+		fetchMock.mock('*', { '0000': 'shortcode' });
+	});
 
-  afterEach(() => {
-    fetchMock.reset();
-  });
+	afterEach(() => {
+		fetchMock.reset();
+	});
 
-  it('triggers a fetch', async () => {
-    await fetchShortcodes('de', 'cldr');
+	it('triggers a fetch', async () => {
+		await fetchShortcodes('de', 'cldr');
 
-    expect(fetchMock).toHaveBeenCalledWith(
-      'https://cdn.jsdelivr.net/npm/emojibase-data@latest/de/shortcodes/cldr.json',
-      {
-        credentials: 'omit',
-        mode: 'cors',
-        redirect: 'error',
-      },
-    );
-  });
+		expect(fetchMock).toHaveBeenCalledWith(
+			'https://cdn.jsdelivr.net/npm/emojibase-data@latest/de/shortcodes/cldr.json',
+			{
+				credentials: 'omit',
+				mode: 'cors',
+				redirect: 'error',
+			},
+		);
+	});
 
-  it('returns an empty dataset for `cldr-native` and an invalid locale', async () => {
-    const res1 = await fetchShortcodes('ja', 'cldr-native');
+	it('returns an empty dataset for `cldr-native` and an invalid locale', async () => {
+		const res1 = await fetchShortcodes('ja', 'cldr-native');
 
-    expect(res1).not.toEqual({});
+		expect(res1).not.toEqual({});
 
-    const res2 = await fetchShortcodes('en', 'cldr-native');
+		const res2 = await fetchShortcodes('en', 'cldr-native');
 
-    expect(res2).toEqual({});
-  });
+		expect(res2).toEqual({});
+	});
 
-  it('aliases presets correctly', async () => {
-    await fetchShortcodes('en', 'discord');
-    await fetchShortcodes('en', 'slack');
+	it('aliases presets correctly', async () => {
+		await fetchShortcodes('en', 'discord');
+		await fetchShortcodes('en', 'slack');
 
-    expect(fetchMock).toHaveBeenCalledWith(
-      'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/shortcodes/iamcal.json',
-      expect.any(Object),
-    );
-    expect(fetchMock).not.toHaveBeenCalledWith(
-      'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/shortcodes/discord.json',
-      expect.any(Object),
-    );
-    expect(fetchMock).not.toHaveBeenCalledWith(
-      'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/shortcodes/slack.json',
-      expect.any(Object),
-    );
-  });
+		expect(fetchMock).toHaveBeenCalledWith(
+			'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/shortcodes/iamcal.json',
+			expect.any(Object),
+		);
+		expect(fetchMock).not.toHaveBeenCalledWith(
+			'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/shortcodes/discord.json',
+			expect.any(Object),
+		);
+		expect(fetchMock).not.toHaveBeenCalledWith(
+			'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/shortcodes/slack.json',
+			expect.any(Object),
+		);
+	});
 });

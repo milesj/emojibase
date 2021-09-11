@@ -1,112 +1,117 @@
 import path from 'path';
 import { appendSkinToneIndex, Emoji, SUPPORTED_LOCALES, TEXT } from 'emojibase';
 import { SHORTCODE_GUIDELINES } from '../../constants';
-import toArray from '../../helpers/toArray';
-import writeDataset from '../../helpers/writeDataset';
-import writeFile from '../../helpers/writeFile';
-import loadPoMeta from '../../loaders/loadPoMeta';
-import loadPoShortcodes from '../../loaders/loadPoShortcodes';
+import { toArray } from '../../helpers/toArray';
+import { writeDataset } from '../../helpers/writeDataset';
+import { writeFile } from '../../helpers/writeFile';
+import { loadPoMeta } from '../../loaders/loadPoMeta';
+import { loadPoShortcodes } from '../../loaders/loadPoShortcodes';
 import { ShortcodeDataMap } from '../../types';
-import Database from '../Database';
+import { Database } from '../Database';
 
-export default async function generateEmojibase(db: Database) {
-  db.preset = 'emojibase';
+export async function generateEmojibase(db: Database) {
+	db.preset = 'emojibase';
 
-  let englishShortcodes: ShortcodeDataMap = {};
+	let englishShortcodes: ShortcodeDataMap = {};
 
-  await Promise.all(
-    SUPPORTED_LOCALES.map(async (locale) => {
-      const shortcodes: ShortcodeDataMap = {};
-      const translations = await loadPoShortcodes(locale);
-      const metaTranslations = await loadPoMeta(locale);
-      const toneMsg = metaTranslations.getMessage('tone');
-      let count = 0;
+	await Promise.all(
+		SUPPORTED_LOCALES.map(async (locale) => {
+			const shortcodes: ShortcodeDataMap = {};
+			const translations = await loadPoShortcodes(locale);
+			const metaTranslations = await loadPoMeta(locale);
+			const toneMsg = metaTranslations.getMessage('tone');
+			let count = 0;
 
-      db.emojiList.forEach((emoji) => {
-        const items = translations.itemsByComment[emoji.hexcode];
+			db.emojiList.forEach((emoji) => {
+				const items = translations.itemsByComment[emoji.hexcode];
 
-        if (!items) {
-          return;
-        }
+				if (!items) {
+					return;
+				}
 
-        const list = items
-          .map((item) => Database.slugify(toArray(item.msgstr).join('')))
-          .filter(Boolean)
-          .sort();
+				const list = items
+					// eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
+					.map((item) => Database.slugify(toArray(item.msgstr).join('')))
+					.filter(Boolean)
+					.sort();
 
-        if (list.length === 0) {
-          return;
-        }
+				if (list.length === 0) {
+					return;
+				}
 
-        count += 1;
-        shortcodes[emoji.hexcode] = db.formatShortcodes(list);
+				count += 1;
+				shortcodes[emoji.hexcode] = db.formatShortcodes(list);
 
-        if (emoji.modifications) {
-          Object.values(emoji.modifications).forEach((mod) => {
-            shortcodes[mod.hexcode] = db.formatShortcodes(
-              list.map((code) => appendSkinToneIndex(code, mod, toneMsg)),
-            );
-          });
-        }
-      });
+				if (emoji.modifications) {
+					Object.values(emoji.modifications).forEach((mod) => {
+						shortcodes[mod.hexcode] = db.formatShortcodes(
+							list.map((code) => appendSkinToneIndex(code, mod, toneMsg)),
+						);
+					});
+				}
+			});
 
-      if (locale === 'en') {
-        englishShortcodes = shortcodes;
-      }
+			if (locale === 'en') {
+				englishShortcodes = shortcodes;
+			}
 
-      if (count === 0) {
-        return Promise.resolve();
-      }
+			if (count === 0) {
+				return Promise.resolve();
+			}
 
-      return Promise.all([
-        writeDataset(`${locale}/shortcodes/emojibase.raw.json`, shortcodes),
-        writeDataset(`${locale}/shortcodes/emojibase.json`, shortcodes, true),
-      ]);
-    }),
-  );
+			return Promise.all([
+				writeDataset(`${locale}/shortcodes/emojibase.raw.json`, shortcodes),
+				writeDataset(`${locale}/shortcodes/emojibase.json`, shortcodes, true),
+			]);
+		}),
+	);
 
-  // Organize and sort the resources file using the raw dataset
-  // eslint-disable-next-line
-  const emojisSource: Emoji[] = require(path.join(process.cwd(), 'packages/data/en/data.raw.json'));
-  const output: string[] = [
-    '/* eslint-disable sort-keys */',
-    '',
-    SHORTCODE_GUIDELINES,
-    '',
-    'export default {',
-  ];
-  let lastVersion = 0;
+	// Organize and sort the resources file using the raw dataset
+	const emojisSource = require(path.join(
+		process.cwd(),
+		'packages/data/en/data.raw.json',
+	)) as Emoji[];
 
-  // Sort by version -> order
-  emojisSource.sort((a, b) =>
-    a.version === b.version ? (a.order ?? -1) - (b.order ?? -1) : a.version - b.version,
-  );
+	const output: string[] = [
+		'/* eslint-disable sort-keys */',
+		'',
+		SHORTCODE_GUIDELINES,
+		'',
+		'export default {',
+	];
+	let lastVersion = 0;
 
-  // Add each emoji to the list
-  emojisSource.forEach((emoji) => {
-    if (emoji.version !== lastVersion) {
-      output.push('');
-      output.push(`  // VERSION ${emoji.version}`);
+	// Sort by version -> order
+	emojisSource.sort((a, b) =>
+		a.version === b.version ? (a.order ?? -1) - (b.order ?? -1) : a.version - b.version,
+	);
 
-      lastVersion = emoji.version;
-    }
+	// Add each emoji to the list
+	emojisSource.forEach((emoji) => {
+		if (emoji.version !== lastVersion) {
+			output.push('', `  // VERSION ${emoji.version}`);
 
-    const unicode = emoji.type === TEXT ? emoji.text : emoji.emoji;
-    let codes = englishShortcodes[emoji.hexcode] || [];
+			lastVersion = emoji.version;
+		}
 
-    if (!Array.isArray(codes)) {
-      codes = [codes];
-    }
+		const unicode = emoji.type === TEXT ? emoji.text : emoji.emoji;
+		let codes = englishShortcodes[emoji.hexcode] || [];
 
-    output.push(`  // ${unicode} ${emoji.annotation}`);
-    output.push(`  '${emoji.hexcode}': [${codes.map((sc) => `'${sc}'`).join(', ')}],`);
-  });
+		if (!Array.isArray(codes)) {
+			codes = [codes];
+		}
 
-  output.push('};\n');
+		output.push(
+			`  // ${unicode} ${emoji.annotation}`,
+			`  '${emoji.hexcode}': [${codes.map((sc) => `'${sc}'`).join(', ')}],`,
+		);
+	});
 
-  await writeFile(
-    path.join(process.cwd(), 'packages/generator/src/resources'),
-    'shortcodes.ts',
-    output.join('\n'),
-  );
+	output.push('};\n');
+
+	await writeFile(
+		path.join(process.cwd(), 'packages/generator/src/resources'),
+		'shortcodes.ts',
+		output.join('\n'),
+	);
 }

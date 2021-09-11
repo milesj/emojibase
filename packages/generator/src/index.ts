@@ -1,18 +1,8 @@
-import generateData from './generators/generateData';
-import generatePoFiles from './generators/generatePoFiles';
-import generateRegex from './generators/generateRegex';
-import generateShortcodes from './generators/generateShortcodes';
-import generateTypes from './generators/generateTypes';
-import generateVersions from './generators/generateVersions';
-
-export {
-  generateData,
-  generatePoFiles,
-  generateRegex,
-  generateShortcodes,
-  generateTypes,
-  generateVersions,
-};
-
 export * from './constants';
+export * from './generators/generateData';
+export * from './generators/generatePoFiles';
+export * from './generators/generateRegex';
+export * from './generators/generateShortcodes';
+export * from './generators/generateTypes';
+export * from './generators/generateVersions';
 export * from './types';

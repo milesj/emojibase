@@ -1,6 +1,6 @@
 import { MetadataDataset } from 'emojibase';
 
-export default function loadMeta(): MetadataDataset {
-  // eslint-disable-next-line global-require
-  return require('../test-meta.json');
+export function loadMeta(): MetadataDataset {
+	// eslint-disable-next-line global-require
+	return require('../test-meta.json') as MetadataDataset;
 }

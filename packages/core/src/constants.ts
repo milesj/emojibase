@@ -1,11 +1,11 @@
 import {
-  Gender,
-  GroupKey,
-  Locale,
-  PermutationOptions,
-  Presentation,
-  SkinTone,
-  SkinToneKey,
+	Gender,
+	GroupKey,
+	Locale,
+	PermutationOptions,
+	Presentation,
+	SkinTone,
+	SkinToneKey,
 } from './types';
 
 export const SEQUENCE_REMOVAL_PATTERN = /200D|FE0E|FE0F/g;
@@ -49,73 +49,73 @@ export const LATEST_CLDR_VERSION = '39';
 
 export const FIRST_UNICODE_EMOJI_VERSION = '6.0.0';
 export const EMOJI_VERSIONS = [
-  '1.0',
-  '2.0',
-  '3.0',
-  '4.0',
-  '5.0',
-  '11.0',
-  '12.0',
-  '12.1',
-  '13.0',
-  '13.1',
+	'1.0',
+	'2.0',
+	'3.0',
+	'4.0',
+	'5.0',
+	'11.0',
+	'12.0',
+	'12.1',
+	'13.0',
+	'13.1',
 ];
 export const UNICODE_VERSIONS = [
-  '6.0',
-  '6.1',
-  '6.2',
-  '6.3',
-  '7.0',
-  '8.0',
-  '9.0',
-  '10.0',
-  '11.0',
-  '12.0',
-  '12.1',
-  '13.0',
+	'6.0',
+	'6.1',
+	'6.2',
+	'6.3',
+	'7.0',
+	'8.0',
+	'9.0',
+	'10.0',
+	'11.0',
+	'12.0',
+	'12.1',
+	'13.0',
 ];
 
 export const SUPPORTED_LOCALES: Locale[] = [
-  'da', // Danish
-  'de', // German
-  'en', // English
-  'en-gb', // English (Great Britain)
-  'es', // Spanish
-  'es-mx', // Spanish (Mexico)
-  'et', // Estonian
-  'fi', // Finnish
-  'fr', // French
-  'hu', // Hungarian
-  'it', // Italian
-  'ja', // Japanese
-  'ko', // Korean
-  'lt', // Lithuanian
-  'ms', // Malay
-  'nb', // Norwegian
-  'nl', // Dutch
-  'pl', // Polish
-  'pt', // Portuguese
-  'ru', // Russian
-  'sv', // Swedish
-  'th', // Thai
-  'uk', // Ukrainian
-  'zh', // Chinese
-  'zh-hant', // Chinese (Traditional)
+	'da', // Danish
+	'de', // German
+	'en', // English
+	'en-gb', // English (Great Britain)
+	'es', // Spanish
+	'es-mx', // Spanish (Mexico)
+	'et', // Estonian
+	'fi', // Finnish
+	'fr', // French
+	'hu', // Hungarian
+	'it', // Italian
+	'ja', // Japanese
+	'ko', // Korean
+	'lt', // Lithuanian
+	'ms', // Malay
+	'nb', // Norwegian
+	'nl', // Dutch
+	'pl', // Polish
+	'pt', // Portuguese
+	'ru', // Russian
+	'sv', // Swedish
+	'th', // Thai
+	'uk', // Ukrainian
+	'zh', // Chinese
+	'zh-hant', // Chinese (Traditional)
 ];
 
 export const NON_LATIN_LOCALES: Locale[] = ['ja', 'ko', 'ru', 'th', 'uk', 'zh', 'zh-hant'];
 
 // Special options for emoticon permutations.
 
-export const EMOTICON_OPTIONS: { [emoticon: string]: PermutationOptions } = {
-  // 🧙‍♂️ man mage
-  ':{>': { withNose: false },
-  // 💔 broken heart
-  '</3': { isFace: false },
-  // ❤️ red heart
-  '<3': { isFace: false },
-  // 🤘 sign of the horns
-  '\\m/': { isFace: false },
-  // 👹 ogre
-  '0)': { withNose: false },
+export const EMOTICON_OPTIONS: Record<string, PermutationOptions> = {
+	// 🧙‍♂️ man mage
+	':{>': { withNose: false },
+	// 💔 broken heart
+	'</3': { isFace: false },
+	// ❤️ red heart
+	'<3': { isFace: false },
+	// 🤘 sign of the horns
+	'\\m/': { isFace: false },
+	// 👹 ogre
+	'0)': { withNose: false },
 };

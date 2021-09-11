@@ -3,35 +3,18 @@
  * @license     https://opensource.org/licenses/MIT
  */
 
-import appendSkinToneIndex from './appendSkinToneIndex';
-import fetchEmojis from './fetchEmojis';
-import fetchFromCDN from './fetchFromCDN';
-import fetchMetadata from './fetchMetadata';
-import fetchShortcodes from './fetchShortcodes';
-import flattenEmojiData from './flattenEmojiData';
-import fromCodepointToUnicode from './fromCodepointToUnicode';
-import fromHexcodeToCodepoint from './fromHexcodeToCodepoint';
-import fromUnicodeToHexcode from './fromUnicodeToHexcode';
-import generateEmoticonPermutations from './generateEmoticonPermutations';
-import joinShortcodes from './joinShortcodes';
-import joinShortcodesToEmoji from './joinShortcodesToEmoji';
-import stripHexcode from './stripHexcode';
-
-export {
-  appendSkinToneIndex,
-  fetchEmojis,
-  fetchFromCDN,
-  fetchMetadata,
-  fetchShortcodes,
-  flattenEmojiData,
-  fromCodepointToUnicode,
-  fromHexcodeToCodepoint,
-  fromUnicodeToHexcode,
-  generateEmoticonPermutations,
-  joinShortcodes,
-  joinShortcodesToEmoji,
-  stripHexcode,
-};
-
+export * from './appendSkinToneIndex';
 export * from './constants';
+export * from './fetchEmojis';
+export * from './fetchFromCDN';
+export * from './fetchMetadata';
+export * from './fetchShortcodes';
+export * from './flattenEmojiData';
+export * from './fromCodepointToUnicode';
+export * from './fromHexcodeToCodepoint';
+export * from './fromUnicodeToHexcode';
+export * from './generateEmoticonPermutations';
+export * from './joinShortcodes';
+export * from './joinShortcodesToEmoji';
+export * from './stripHexcode';
 export * from './types';

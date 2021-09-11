@@ -1,3 +1,3 @@
-export default function slug(value: string): string {
-  return value.toLowerCase().replace('&', '').replace(/\s+/g, '-');
+export function slug(value: string): string {
+	return value.toLowerCase().replace('&', '').replace(/\s+/g, '-');
 }

@@ -1,147 +1,145 @@
 import { EMOTICON_OPTIONS, generateEmoticonPermutations } from 'emojibase';
 import { Trie } from 'regexgen';
-import buildEmojiData from '../builders/buildEmojiData';
-import filterData from '../helpers/filterData';
-import flattenData from '../helpers/flattenData';
-import log from '../helpers/log';
-import writeRegex from '../helpers/writeRegex';
+import { buildEmojiData } from '../builders/buildEmojiData';
+import { filterData } from '../helpers/filterData';
+import { flattenData } from '../helpers/flattenData';
+import { log } from '../helpers/log';
+import { writeRegex } from '../helpers/writeRegex';
 import { EmojiMap, Hexcode } from '../types';
-import toUnicode from './toUnicode';
+import { toUnicode } from './toUnicode';
 
-interface TrieMap {
-  [group: string]: Trie;
-}
+type TrieMap = Record<string, Trie>;
 
 function createRegexPattern(codePointGroups: TrieMap, unicode: boolean = false): string {
-  const flags = unicode ? 'u' : '';
-  const groups = Object.keys(codePointGroups);
+	const flags = unicode ? 'u' : '';
+	const groups = Object.keys(codePointGroups);
 
-  // Sort from largest to smallest, as we need to match
-  // combination characters before base or single characters
-  groups.sort((a, b) => Number(b) - Number(a));
+	// Sort from largest to smallest, as we need to match
+	// combination characters before base or single characters
+	groups.sort((a, b) => Number(b) - Number(a));
 
-  return groups.map((group) => codePointGroups[group].toRegExp(flags).source).join('|');
+	return groups.map((group) => codePointGroups[group].toRegExp(flags).source).join('|');
 }
 
-function createEmojiRegex(
-  data: EmojiMap,
-  display: 'both' | 'emoji' | 'text' = 'both',
-  loose: boolean = false,
+async function createEmojiRegex(
+	data: EmojiMap,
+	display: 'both' | 'emoji' | 'text' = 'both',
+	loose: boolean = false,
 ): Promise<string[]> {
-  let fileName = display === 'both' ? 'index' : display;
-  const codePointGroups: TrieMap = {};
+	let fileName = display === 'both' ? 'index' : display;
+	const codePointGroups: TrieMap = {};
 
-  if (loose) {
-    fileName += '-loose';
-  }
+	if (loose) {
+		fileName += '-loose';
+	}
 
-  // Push the unicode characters into the trie,
-  // grouped by the number of codepoints
-  const addCodePoint = (hexcode: Hexcode) => {
-    if (!hexcode) {
-      return;
-    }
+	// Push the unicode characters into the trie,
+	// grouped by the number of codepoints
+	const addCodePoint = (hexcode: Hexcode) => {
+		if (!hexcode) {
+			return;
+		}
 
-    const group = String(hexcode.split('-').length);
+		const group = String(hexcode.split('-').length);
 
-    if (!codePointGroups[group]) {
-      codePointGroups[group] = new Trie();
-    }
+		if (!codePointGroups[group]) {
+			codePointGroups[group] = new Trie();
+		}
 
-    codePointGroups[group].add(toUnicode(hexcode));
-  };
+		codePointGroups[group].add(toUnicode(hexcode));
+	};
 
-  // Note: variation selectors are sometimes added to old emojis,
-  // but we still need to support the old non-variation selector,
-  // so include the unicode character that does not include FE0E/FE0F
-  // when in loose mode.
-  Object.keys(data).forEach((hexcode) => {
-    const { variations } = data[hexcode];
+	// Note: variation selectors are sometimes added to old emojis,
+	// but we still need to support the old non-variation selector,
+	// so include the unicode character that does not include FE0E/FE0F
+	// when in loose mode.
+	Object.keys(data).forEach((hexcode) => {
+		const { variations } = data[hexcode];
 
-    switch (display) {
-      // Should contain everything
-      default: {
-        addCodePoint(hexcode);
+		switch (display) {
+			// Should contain everything
+			default: {
+				addCodePoint(hexcode);
 
-        if (variations) {
-          addCodePoint(variations.emoji);
-          addCodePoint(variations.text);
-        }
+				if (variations) {
+					addCodePoint(variations.emoji);
+					addCodePoint(variations.text);
+				}
 
-        break;
-      }
+				break;
+			}
 
-      // Should only contain emoji presentation
-      case 'emoji': {
-        if (!variations || loose) {
-          addCodePoint(hexcode);
-        }
+			// Should only contain emoji presentation
+			case 'emoji': {
+				if (!variations || loose) {
+					addCodePoint(hexcode);
+				}
 
-        if (variations?.emoji) {
-          addCodePoint(variations.emoji);
-        }
+				if (variations?.emoji) {
+					addCodePoint(variations.emoji);
+				}
 
-        break;
-      }
+				break;
+			}
 
-      // Should only contain text presentation
-      case 'text': {
-        if (loose) {
-          addCodePoint(hexcode);
-        }
+			// Should only contain text presentation
+			case 'text': {
+				if (loose) {
+					addCodePoint(hexcode);
+				}
 
-        if (variations?.text) {
-          addCodePoint(variations.text);
-        }
+				if (variations?.text) {
+					addCodePoint(variations.text);
+				}
 
-        break;
-      }
-    }
-  });
+				break;
+			}
+		}
+	});
 
-  return Promise.all([
-    writeRegex(`${fileName}.js`, createRegexPattern(codePointGroups)),
-    writeRegex(`codepoint/${fileName}.js`, createRegexPattern(codePointGroups, true), 'u'),
-  ]);
+	return Promise.all([
+		writeRegex(`${fileName}.js`, createRegexPattern(codePointGroups)),
+		writeRegex(`codepoint/${fileName}.js`, createRegexPattern(codePointGroups, true), 'u'),
+	]);
 }
 
-function createEmoticonRegex(data: EmojiMap): Promise<string> {
-  const trie = new Trie();
-  let emoticons: string[] = [];
+async function createEmoticonRegex(data: EmojiMap): Promise<string> {
+	const trie = new Trie();
+	let emoticons: string[] = [];
 
-  Object.keys(data).forEach((hexcode) => {
-    const { emoticon } = data[hexcode];
+	Object.keys(data).forEach((hexcode) => {
+		const { emoticon } = data[hexcode];
 
-    if (emoticon) {
-      emoticons.push(...generateEmoticonPermutations(emoticon, EMOTICON_OPTIONS[emoticon] || {}));
-    }
-  });
+		if (emoticon) {
+			emoticons.push(...generateEmoticonPermutations(emoticon, EMOTICON_OPTIONS[emoticon] || {}));
+		}
+	});
 
-  // Remove duplicates
-  emoticons = Array.from(new Set(emoticons));
+	// Remove duplicates
+	emoticons = [...new Set(emoticons)];
 
-  // Sort by longest first
-  emoticons.sort((a, b) => b.length - a.length);
+	// Sort by longest first
+	emoticons.sort((a, b) => b.length - a.length);
 
-  // Add to trie and generate
-  trie.addAll(emoticons);
+	// Add to trie and generate
+	trie.addAll(emoticons);
 
-  return writeRegex('emoticon.js', trie.toRegExp().source);
+	return writeRegex('emoticon.js', trie.toRegExp().source);
 }
 
-export default async function generateRegex(): Promise<void> {
-  log.title('regex', 'Generating regex patterns');
+export async function generateRegex(): Promise<void> {
+	log.title('regex', 'Generating regex patterns');
 
-  const data = flattenData(filterData(await buildEmojiData()));
+	const data = flattenData(filterData(await buildEmojiData()));
 
-  await Promise.all([
-    createEmojiRegex(data, 'both'),
-    createEmojiRegex(data, 'emoji'),
-    createEmojiRegex(data, 'emoji', true),
-    createEmojiRegex(data, 'text'),
-    createEmojiRegex(data, 'text', true),
-    createEmoticonRegex(data),
-  ]);
+	await Promise.all([
+		createEmojiRegex(data, 'both'),
+		createEmojiRegex(data, 'emoji'),
+		createEmojiRegex(data, 'emoji', true),
+		createEmojiRegex(data, 'text'),
+		createEmojiRegex(data, 'text', true),
+		createEmoticonRegex(data),
+	]);
 
-  log.success('regex', 'Generated regex patterns');
+	log.success('regex', 'Generated regex patterns');
 }
