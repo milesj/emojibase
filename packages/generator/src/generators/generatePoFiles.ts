@@ -1,14 +1,14 @@
-import path from 'path';
 import { Emoji, Hexcode, ShortcodesDataset, SUPPORTED_LOCALES } from 'emojibase';
 import { log } from '../helpers/log';
 import { toArray } from '../helpers/toArray';
+import { loadDataset } from '../loaders/loadDataset';
 // import loadPoMeta from '../loaders/loadPoMeta';
 import { loadPoShortcodes } from '../loaders/loadPoShortcodes';
 
 export async function generatePoFiles(): Promise<void> {
 	log.title('data', 'Generating I18N po files');
 
-	const emojiList = require(path.join(process.cwd(), 'packages/data/en/data.raw.json')) as Emoji[];
+	const emojiList = await loadDataset<Emoji[]>('en/data.raw.json');
 	const emojiMap: Record<Hexcode, Emoji> = {};
 
 	emojiList.forEach((emoji) => {
@@ -22,10 +22,9 @@ export async function generatePoFiles(): Promise<void> {
 	});
 
 	// Shortcodes
-	const emojibaseShortcodes = require(path.join(
-		process.cwd(),
-		'packages/data/en/shortcodes/emojibase.raw.json',
-	)) as ShortcodesDataset;
+	const emojibaseShortcodes = await loadDataset<ShortcodesDataset>(
+		'en/shortcodes/emojibase.raw.json',
+	);
 
 	await Promise.all(
 		SUPPORTED_LOCALES.map(async (locale) => {
@@ -59,10 +58,7 @@ export async function generatePoFiles(): Promise<void> {
 
 	// // Metadata
 	// // eslint-disable-next-line
-	// const groupsHierarchy: GroupDataset = require(path.join(
-	//   process.cwd(),
-	//   'packages/data/meta/groups.json',
-	// ));
+	// const groupsHierarchy = await loadDataSet<GroupDataset>('meta/groups.json');
 
 	// const englishMeta = await loadPoMeta('en');
 

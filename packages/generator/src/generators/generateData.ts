@@ -115,7 +115,7 @@ function sortOrder(a: { order?: number }, b: { order?: number }) {
 }
 
 function createVersionMap(): HexcodeVersionMap {
-	const cache: { emojiVersions: VersionMap } | null = readCache(
+	const cache: { emojiVersions: VersionMap } | undefined = readCache(
 		'final/emoji-unicode-versions.json',
 	);
 	const versions: HexcodeVersionMap = {};

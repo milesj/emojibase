@@ -57,8 +57,7 @@
  *    non-country use a suffix "<name>_flag".
  */
 
-// eslint-disable-next-line import/no-default-export
-export default {
+export const shortcodes = {
   // 🇦 regional indicator A
   '1F1E6': ['regional_indicator_a'],
   // 🇧 regional indicator B
