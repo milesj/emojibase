@@ -49,3 +49,12 @@ webpack.config.js
 packages/data/**/*.json
 !packages/data/**/*.raw.json
 !packages/data/meta/*.json
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*

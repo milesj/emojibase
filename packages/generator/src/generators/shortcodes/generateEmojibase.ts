@@ -31,7 +31,6 @@ export async function generateEmojibase(db: Database) {
 				}
 
 				const list = items
-					// eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
 					.map((item) => Database.slugify(toArray(item.msgstr).join('')))
 					.filter(Boolean)
 					.sort();

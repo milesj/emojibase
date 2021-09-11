@@ -155,7 +155,6 @@ async function generateMetadata(locale: Locale): Promise<unknown> {
 			};
 
 			if (!meta.message) {
-				// eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
 				meta.message = String(englishData.itemsById[item.msgid].msgstr);
 			}
 
