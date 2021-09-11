@@ -22,8 +22,7 @@
  *    variants are automatically generated.
  */
 
-// eslint-disable-next-line import/no-default-export
-export default {
+export const emoticons = {
   // HAPPY
   // 🙂 slightly smiling face
   '1F642': ':)',

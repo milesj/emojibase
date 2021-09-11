@@ -1,7 +1,6 @@
 #! /usr/bin/env node
-/* eslint-disable */
 
-const { generateData, generateRegex, generateVersions } = require('../packages/generator');
+import { generateData, generateRegex, generateVersions } from 'emojibase-generator';
 
 function handleError(error) {
 	console.error(error.message, error.stack);

@@ -10,7 +10,7 @@ import {
 	stripHexcode,
 	SUPPORTED_LOCALES,
 } from 'emojibase';
-import Kuroshiro from 'kuroshiro';
+import KuroshiroImport from 'kuroshiro';
 import KuromojiAnalyzer from 'kuroshiro-analyzer-kuromoji';
 import { transliterate } from 'transliteration';
 import { buildAnnotationData } from '../../builders/buildAnnotationData';
@@ -25,6 +25,8 @@ const CUSTOM_SHORTCODES: Record<string, string> = {
 	t_rex: 'trex',
 };
 
+// @ts-expect-error CJS compat
+const { default: Kuroshiro } = KuroshiroImport;
 const kuroshiro = new Kuroshiro();
 
 async function slugify(

@@ -41,11 +41,6 @@
     "emojibase": "^5.2.0"
   },
   "packemon": {
-    "inputs": {
-      "index": "src/index.ts",
-      "emoticons": "src/resources/emoticons.ts",
-      "shortcodes": "src/resources/shortcodes.ts"
-    },
     "platform": "node"
   },
   "engines": {

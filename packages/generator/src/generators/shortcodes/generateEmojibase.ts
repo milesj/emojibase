@@ -4,6 +4,7 @@ import { SHORTCODE_GUIDELINES } from '../../constants';
 import { toArray } from '../../helpers/toArray';
 import { writeDataset } from '../../helpers/writeDataset';
 import { writeFile } from '../../helpers/writeFile';
+import { loadDataset } from '../../loaders/loadDataset';
 import { loadPoMeta } from '../../loaders/loadPoMeta';
 import { loadPoShortcodes } from '../../loaders/loadPoShortcodes';
 import { ShortcodeDataMap } from '../../types';
@@ -67,17 +68,14 @@ export async function generateEmojibase(db: Database) {
 	);
 
 	// Organize and sort the resources file using the raw dataset
-	const emojisSource = require(path.join(
-		process.cwd(),
-		'packages/data/en/data.raw.json',
-	)) as Emoji[];
+	const emojisSource = await loadDataset<Emoji[]>('en/data.raw.json');
 
 	const output: string[] = [
 		'/* eslint-disable sort-keys */',
 		'',
 		SHORTCODE_GUIDELINES,
 		'',
-		'export default {',
+		'export const shortcodes = {',
 	];
 	let lastVersion = 0;
 

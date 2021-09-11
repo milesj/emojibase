@@ -1,5 +1,6 @@
 import { EMOTICON_OPTIONS, generateEmoticonPermutations } from 'emojibase';
-import { Trie } from 'regexgen';
+import type { Trie } from 'regexgen';
+import regexgen from 'regexgen';
 import { buildEmojiData } from '../builders/buildEmojiData';
 import { filterData } from '../helpers/filterData';
 import { flattenData } from '../helpers/flattenData';
@@ -43,7 +44,7 @@ async function createEmojiRegex(
 		const group = String(hexcode.split('-').length);
 
 		if (!codePointGroups[group]) {
-			codePointGroups[group] = new Trie();
+			codePointGroups[group] = new regexgen.Trie();
 		}
 
 		codePointGroups[group].add(toUnicode(hexcode));
@@ -104,7 +105,7 @@ async function createEmojiRegex(
 }
 
 async function createEmoticonRegex(data: EmojiMap): Promise<string> {
-	const trie = new Trie();
+	const trie = new regexgen.Trie();
 	let emoticons: string[] = [];
 
 	Object.keys(data).forEach((hexcode) => {
