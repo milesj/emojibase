@@ -39,6 +39,8 @@ export type ShortcodePreset =
 	| 'joypixels'
 	| 'slack';
 
+export type LocalizedShortcodePreset = `${Locale}/${ShortcodePreset}`;
+
 export type SkinTone = 1 | 2 | 3 | 4 | 5;
 
 export type SkinToneKey = 'dark' | 'light' | 'medium-dark' | 'medium-light' | 'medium';
@@ -252,5 +254,5 @@ export interface FetchFromCDNOptions extends RequestInit {
 export interface FetchEmojisOptions extends FetchFromCDNOptions {
 	compact?: boolean;
 	flat?: boolean;
-	shortcodes?: (ShortcodePreset | string)[];
+	shortcodes?: (LocalizedShortcodePreset | ShortcodePreset)[];
 }
