@@ -140,4 +140,4 @@ Some caveats to be aware of when using shortcodes.
 - There may be duplicate and/or conflicting shortcodes when using multiple presets.
 - Presets may not provide shortcodes for the latest emoji/Unicode specifications.
 
-[cldr]: http://cldr.unicode.org/index/downloads/cldr-38
+[cldr]: http://cldr.unicode.org/index/downloads/cldr-40

@@ -6,6 +6,10 @@
 
 - Dropped Node.js v10 support. Requires v12.17 and above.
 
+#### 🚀 Updates
+
+- Updated to [CLDR 40](http://cldr.unicode.org/index/downloads/cldr-40).
+
 ### 6.2.1 - 2021-05-13
 
 #### 🐞 Fixes

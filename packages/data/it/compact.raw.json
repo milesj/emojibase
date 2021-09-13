@@ -1310,18 +1310,10 @@
     "order": 94,
     "tags": [
       "annoiata",
-      "annoiate",
-      "annoiati",
       "annoiato",
-      "mi annoio",
-      "noia",
-      "sbadigliare",
       "sbadiglio",
       "sonno",
       "stanca",
-      "stanche",
-      "stanchezza",
-      "stanchi",
       "stanco"
     ],
     "unicode": "🥱"
@@ -19720,13 +19712,9 @@
     "tags": [
       "calma",
       "lenta",
-      "lente",
       "lentezza",
-      "lenti",
       "lento",
       "pigra",
-      "pigre",
-      "pigri",
       "pigrizia",
       "pigro"
     ],
@@ -21536,7 +21524,7 @@
       "autunno",
       "festival",
       "moon cake",
-      "yuèbǐng"
+      "yuebing"
     ],
     "unicode": "🥮"
   },
@@ -27291,7 +27279,7 @@
     "unicode": "📬️"
   },
   {
-    "annotation": "cassetta postale con bandierina abbassata",
+    "annotation": "cassetta postale aperta bandierina abbassata",
     "group": 7,
     "hexcode": "1F4ED",
     "order": 3878,
@@ -27300,6 +27288,7 @@
       "bandierina",
       "casetta postale aperta bandierina giù",
       "cassetta postale",
+      "cassetta postale con bandierina abbassata",
       "posta"
     ],
     "unicode": "📭️"
@@ -28665,7 +28654,6 @@
     "hexcode": "1F6BC",
     "order": 4022,
     "tags": [
-      "bambino a bordo",
       "cartello neonato",
       "fasciatoio",
       "simbolo neonato"
@@ -28843,7 +28831,7 @@
     "unicode": "🚷"
   },
   {
-    "annotation": "simbolo che vieta l’utilizzo dei telefoni cellulari",
+    "annotation": "simbolo che vieta l’uso dei cellulari",
     "group": 8,
     "hexcode": "1F4F5",
     "order": 4038,
@@ -28851,7 +28839,8 @@
       "cellulare vietato",
       "cellulari vietati",
       "niente cellulare",
-      "niente cellulari"
+      "niente cellulari",
+      "simbolo che vieta l’utilizzo dei telefoni cellulari"
     ],
     "unicode": "📵"
   },
@@ -29090,7 +29079,7 @@
     "unicode": "🔃"
   },
   {
-    "annotation": "pulsante con frecce che ruotano in senso antiorario",
+    "annotation": "frecce che ruotano in senso antiorario",
     "group": 8,
     "hexcode": "1F504",
     "order": 4073,
@@ -29098,7 +29087,8 @@
       "antiorario",
       "frecce",
       "frecce a cerchio aperto",
-      "frecce senso antiorario"
+      "frecce senso antiorario",
+      "pulsante con frecce che ruotano in senso antiorario"
     ],
     "unicode": "🔄"
   },
@@ -29765,7 +29755,7 @@
     "order": 4144,
     "tags": [
       "cellulare",
-      "telefono modalità"
+      "modalità telefono"
     ],
     "unicode": "📳"
   },
@@ -29816,48 +29806,51 @@
     "unicode": "⚧️"
   },
   {
-    "annotation": "segno moltiplicazione",
+    "annotation": "moltiplicazione",
     "group": 8,
     "hexcode": "2716",
     "order": 4153,
     "tags": [
       "cancellare",
-      "moltiplicazione",
+      "segno moltiplicazione",
       "segno per",
       "x"
     ],
     "unicode": "✖️"
   },
   {
-    "annotation": "simbolo dell’addizione",
+    "annotation": "addizione",
     "group": 8,
     "hexcode": "2795",
     "order": 4154,
     "tags": [
-      "addizione",
-      "più"
+      "+",
+      "più",
+      "segno di addizione"
     ],
     "unicode": "➕"
   },
   {
-    "annotation": "simbolo della sottrazione",
+    "annotation": "sottrazione",
     "group": 8,
     "hexcode": "2796",
     "order": 4155,
     "tags": [
+      "-",
       "meno",
-      "sottrazione"
+      "segno di sottrazione"
     ],
     "unicode": "➖"
   },
   {
-    "annotation": "simbolo della divisione",
+    "annotation": "divisione",
     "group": 8,
     "hexcode": "2797",
     "order": 4156,
     "tags": [
-      "divisione",
-      "diviso"
+      "diviso",
+      "segno di divisione",
+      "÷"
     ],
     "unicode": "➗"
   },
@@ -30054,7 +30047,7 @@
     "unicode": "🔰"
   },
   {
-    "annotation": "cerchio",
+    "annotation": "cerchio rosso vuoto",
     "group": 8,
     "hexcode": "2B55",
     "order": 4180,
@@ -30072,8 +30065,7 @@
     "order": 4181,
     "tags": [
       "baffo",
-      "segno di spunta",
-      "segno di spunta grande"
+      "segno di spunta"
     ],
     "unicode": "✅"
   },
@@ -30161,8 +30153,8 @@
     "hexcode": "2733",
     "order": 4193,
     "tags": [
-      "otto punte",
-      "sfondo verde"
+      "*",
+      "otto punte"
     ],
     "unicode": "✳️"
   },
@@ -30182,8 +30174,7 @@
     "hexcode": "2747",
     "order": 4197,
     "tags": [
-      "scintilla",
-      "sfondo verde"
+      "scintilla"
     ],
     "unicode": "❇️"
   },
@@ -31265,7 +31256,11 @@
     "hexcode": "1F38C",
     "order": 4318,
     "tags": [
-      "bandiere del giappone incrociate"
+      "bandiere del giappone incrociate",
+      "bandiere incrociate",
+      "festeggiamenti",
+      "giappone",
+      "giapponesi"
     ],
     "unicode": "🎌"
   },

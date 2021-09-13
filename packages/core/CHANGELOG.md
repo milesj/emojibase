@@ -4,6 +4,10 @@
 
 - Dropped IE 11 support. Modern browsers now required.
 
+#### 🚀 Updates
+
+- Updated to [CLDR 40](http://cldr.unicode.org/index/downloads/cldr-40).
+
 #### 🛠 Internals
 
 - Migrated to Beemo configurations.

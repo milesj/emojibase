@@ -7,6 +7,7 @@
 #### 🚀 Updates
 
 - Added uppercased versions of emoticons when applicable.
+- Updated to [CLDR 40](http://cldr.unicode.org/index/downloads/cldr-40).
 
 ## 6.2.0 - 2021-05-13
 

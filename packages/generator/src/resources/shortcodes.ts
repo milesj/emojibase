@@ -154,7 +154,7 @@ export const shortcodes = {
   '1F62A': ['sleepy', 'sleepy_face'],
   // 😷 face with medical mask
   '1F637': ['mask', 'medical_mask'],
-  // 😵 knocked-out face
+  // 😵 face with crossed-out eyes
   '1F635': ['dizzy_face', 'knocked_out'],
   // 😲 astonished face
   '1F632': ['astonished', 'astonished_face'],
@@ -186,7 +186,7 @@ export const shortcodes = {
   '1F62B': ['tired', 'tired_face'],
   // 😤 face with steam from nose
   '1F624': ['nose_steam', 'triumph'],
-  // 😡 pouting face
+  // 😡 enraged face
   '1F621': ['pout', 'pouting_face', 'rage'],
   // 😠 angry face
   '1F620': ['angry', 'angry_face'],
@@ -278,7 +278,7 @@ export const shortcodes = {
   '1F4A3': ['bomb'],
   // 💬 speech balloon
   '1F4AC': ['speech_balloon'],
-  // 💤 zzz
+  // 💤 ZZZ
   '1F4A4': ['zzz'],
   // 👋 waving hand
   '1F44B': ['wave', 'waving_hand'],
@@ -1848,7 +1848,7 @@ export const shortcodes = {
   '1F61B': ['face_with_tongue', 'stuck_out_tongue'],
   // 🤑 money-mouth face
   '1F911': ['money_mouth_face'],
-  // 🤗 hugging face
+  // 🤗 smiling face with open hands
   '1F917': ['hug', 'hugging', 'hugging_face'],
   // 🤔 thinking face
   '1F914': ['thinking', 'thinking_face', 'wtf'],

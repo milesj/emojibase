@@ -204,7 +204,7 @@
     ]
   },
   {
-    "annotation": "külma higiga kaetud ja avatud suuga naerunägu",
+    "annotation": "higipiisa ja avatud suuga naerunägu",
     "group": 0,
     "hexcode": "1F605",
     "order": 6,
@@ -212,6 +212,7 @@
       "avatud",
       "higi",
       "külm",
+      "külma higiga kaetud ja avatud suuga naerunägu",
       "naeratus",
       "nägu"
     ],
@@ -491,7 +492,7 @@
     "unicode": "🤪"
   },
   {
-    "annotation": "suust väljas keelega ja suletud silmadega nägu",
+    "annotation": "keelt näitav suletud silmadega nägu",
     "group": 0,
     "hexcode": "1F61D",
     "order": 28,
@@ -500,6 +501,7 @@
       "maitse",
       "nägu",
       "silm",
+      "suust väljas keelega ja suletud silmadega nägu",
       "õudne"
     ],
     "unicode": "😝",
@@ -1422,7 +1424,6 @@
     "hexcode": "1F480",
     "order": 101,
     "tags": [
-      "kolm",
       "kondid",
       "luud",
       "muinasjutt",
@@ -1438,12 +1439,10 @@
     "hexcode": "2620",
     "order": 103,
     "tags": [
-      "keha",
       "koletis",
       "kolp",
       "kondid",
       "luud",
-      "nägu",
       "pealuu",
       "surm"
     ],
@@ -1482,7 +1481,6 @@
     "order": 106,
     "tags": [
       "fantaasia",
-      "jaapan",
       "koletis",
       "koll",
       "muinasjutt",
@@ -1499,7 +1497,6 @@
     "order": 107,
     "tags": [
       "fantaasia",
-      "jaapan",
       "koletis",
       "koll",
       "muinasjutt",
@@ -2511,45 +2508,46 @@
     ]
   },
   {
-    "annotation": "pöialt ja nimetissõrme lähestikku hoidev käsi",
+    "annotation": "näpistav käsi",
     "group": 1,
     "hexcode": "1F90F",
     "order": 214,
     "tags": [
+      "pöialt ja nimetissõrme lähestikku hoidev käsi",
       "väike kogus"
     ],
     "unicode": "🤏",
     "skins": [
       {
-        "annotation": "pöialt ja nimetissõrme lähestikku hoidev käsi: hele nahatoon",
+        "annotation": "näpistav käsi: hele nahatoon",
         "group": 1,
         "hexcode": "1F90F-1F3FB",
         "order": 215,
         "unicode": "🤏🏻"
       },
       {
-        "annotation": "pöialt ja nimetissõrme lähestikku hoidev käsi: keskmiselt hele nahatoon",
+        "annotation": "näpistav käsi: keskmiselt hele nahatoon",
         "group": 1,
         "hexcode": "1F90F-1F3FC",
         "order": 216,
         "unicode": "🤏🏼"
       },
       {
-        "annotation": "pöialt ja nimetissõrme lähestikku hoidev käsi: keskmine nahatoon",
+        "annotation": "näpistav käsi: keskmine nahatoon",
         "group": 1,
         "hexcode": "1F90F-1F3FD",
         "order": 217,
         "unicode": "🤏🏽"
       },
       {
-        "annotation": "pöialt ja nimetissõrme lähestikku hoidev käsi: keskmiselt tume nahatoon",
+        "annotation": "näpistav käsi: keskmiselt tume nahatoon",
         "group": 1,
         "hexcode": "1F90F-1F3FE",
         "order": 218,
         "unicode": "🤏🏾"
       },
       {
-        "annotation": "pöialt ja nimetissõrme lähestikku hoidev käsi: tume nahatoon",
+        "annotation": "näpistav käsi: tume nahatoon",
         "group": 1,
         "hexcode": "1F90F-1F3FF",
         "order": 219,
@@ -30434,8 +30432,7 @@
     "tags": [
       "\"siin\"",
       "jaapani keel",
-      "katakana",
-      "ココ"
+      "katakana"
     ],
     "unicode": "🈁"
   },
@@ -30447,8 +30444,7 @@
     "tags": [
       "\"teenustasu\"",
       "jaapani keel",
-      "katakana",
-      "サ"
+      "katakana"
     ],
     "unicode": "🈂️"
   },
@@ -30460,8 +30456,7 @@
     "tags": [
       "\"kuutasu\"",
       "ideogramm",
-      "jaapani keel",
-      "月"
+      "jaapani keel"
     ],
     "unicode": "🈷️"
   },
@@ -30473,8 +30468,7 @@
     "tags": [
       "\"pole tasuta\"",
       "ideogramm",
-      "jaapani keel",
-      "有"
+      "jaapani keel"
     ],
     "unicode": "🈶"
   },
@@ -30486,8 +30480,7 @@
     "tags": [
       "\"reserveeritud\"",
       "ideogramm",
-      "jaapani keel",
-      "指"
+      "jaapani keel"
     ],
     "unicode": "🈯️"
   },
@@ -30499,8 +30492,7 @@
     "tags": [
       "\"soodne\"",
       "ideogramm",
-      "jaapani keel",
-      "得"
+      "jaapani keel"
     ],
     "unicode": "🉐"
   },
@@ -30512,8 +30504,7 @@
     "tags": [
       "\"allahindlus\"",
       "ideogramm",
-      "jaapani keel",
-      "割"
+      "jaapani keel"
     ],
     "unicode": "🈹"
   },
@@ -30525,8 +30516,7 @@
     "tags": [
       "\"tasuta\"",
       "ideogramm",
-      "jaapani keel",
-      "無"
+      "jaapani keel"
     ],
     "unicode": "🈚️"
   },
@@ -30538,8 +30528,7 @@
     "tags": [
       "\"keelatud\"",
       "ideogramm",
-      "jaapani keel",
-      "禁"
+      "jaapani keel"
     ],
     "unicode": "🈲"
   },
@@ -30551,8 +30540,7 @@
     "tags": [
       "\"vastuvõetav\"",
       "ideogramm",
-      "jaapani keel",
-      "可"
+      "jaapani keel"
     ],
     "unicode": "🉑"
   },
@@ -30564,8 +30552,7 @@
     "tags": [
       "\"rakendus\"",
       "ideogramm",
-      "jaapani keel",
-      "申"
+      "jaapani keel"
     ],
     "unicode": "🈸"
   },
@@ -30577,8 +30564,7 @@
     "tags": [
       "\"sooritatud\"",
       "ideogramm",
-      "jaapani keel",
-      "合"
+      "jaapani keel"
     ],
     "unicode": "🈴"
   },
@@ -30590,8 +30576,7 @@
     "tags": [
       "\"vaba\"",
       "ideogramm",
-      "jaapani keel",
-      "空"
+      "jaapani keel"
     ],
     "unicode": "🈳"
   },
@@ -30603,8 +30588,7 @@
     "tags": [
       "\"õnnitlused\"",
       "ideogramm",
-      "jaapani keel",
-      "祝"
+      "jaapani keel"
     ],
     "unicode": "㊗️"
   },
@@ -30616,8 +30600,7 @@
     "tags": [
       "\"saladus\"",
       "ideogramm",
-      "jaapani keel",
-      "秘"
+      "jaapani keel"
     ],
     "unicode": "㊙️"
   },
@@ -30629,8 +30612,7 @@
     "tags": [
       "\"avatud\"",
       "ideogramm",
-      "jaapani keel",
-      "営"
+      "jaapani keel"
     ],
     "unicode": "🈺"
   },
@@ -30642,8 +30624,7 @@
     "tags": [
       "\"pole vaba\"",
       "ideogramm",
-      "jaapani keel",
-      "満"
+      "jaapani keel"
     ],
     "unicode": "🈵"
   },

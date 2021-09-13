@@ -2492,12 +2492,13 @@
     ]
   },
   {
-    "annotation": "käsi supussa",
+    "annotation": "sormet supussa",
     "group": 1,
     "hexcode": "1F90C",
     "order": 208,
     "tags": [
       "kuulustelu",
+      "käsi supussa",
       "käsiele",
       "mitä",
       "sarkastinen",
@@ -2507,35 +2508,35 @@
     "unicode": "🤌",
     "skins": [
       {
-        "annotation": "käsi supussa: vaalea iho",
+        "annotation": "sormet supussa: vaalea iho",
         "group": 1,
         "hexcode": "1F90C-1F3FB",
         "order": 209,
         "unicode": "🤌🏻"
       },
       {
-        "annotation": "käsi supussa: keskivaalea iho",
+        "annotation": "sormet supussa: keskivaalea iho",
         "group": 1,
         "hexcode": "1F90C-1F3FC",
         "order": 210,
         "unicode": "🤌🏼"
       },
       {
-        "annotation": "käsi supussa: tummanvaalea iho",
+        "annotation": "sormet supussa: tummanvaalea iho",
         "group": 1,
         "hexcode": "1F90C-1F3FD",
         "order": 211,
         "unicode": "🤌🏽"
       },
       {
-        "annotation": "käsi supussa: keskitumma iho",
+        "annotation": "sormet supussa: keskitumma iho",
         "group": 1,
         "hexcode": "1F90C-1F3FE",
         "order": 212,
         "unicode": "🤌🏾"
       },
       {
-        "annotation": "käsi supussa: tumma iho",
+        "annotation": "sormet supussa: tumma iho",
         "group": 1,
         "hexcode": "1F90C-1F3FF",
         "order": 213,
@@ -2650,6 +2651,7 @@
     "order": 227,
     "tags": [
       "käsi",
+      "narrata",
       "onni",
       "risti",
       "sormi"
@@ -10822,8 +10824,13 @@
     "hexcode": "1F930",
     "order": 1501,
     "tags": [
+      "maha",
+      "masu",
       "nainen",
-      "raskaana"
+      "paisunut",
+      "turvonnut",
+      "täynnä",
+      "täysi"
     ],
     "unicode": "🤰",
     "skins": [
@@ -11068,7 +11075,7 @@
     ]
   },
   {
-    "annotation": "enkelivauva",
+    "annotation": "vauvaenkeli",
     "group": 1,
     "hexcode": "1F47C",
     "order": 1531,
@@ -11082,35 +11089,35 @@
     "unicode": "👼",
     "skins": [
       {
-        "annotation": "enkelivauva: vaalea iho",
+        "annotation": "vauvaenkeli: vaalea iho",
         "group": 1,
         "hexcode": "1F47C-1F3FB",
         "order": 1532,
         "unicode": "👼🏻"
       },
       {
-        "annotation": "enkelivauva: keskivaalea iho",
+        "annotation": "vauvaenkeli: keskivaalea iho",
         "group": 1,
         "hexcode": "1F47C-1F3FC",
         "order": 1533,
         "unicode": "👼🏼"
       },
       {
-        "annotation": "enkelivauva: tummanvaalea iho",
+        "annotation": "vauvaenkeli: tummanvaalea iho",
         "group": 1,
         "hexcode": "1F47C-1F3FD",
         "order": 1534,
         "unicode": "👼🏽"
       },
       {
-        "annotation": "enkelivauva: keskitumma iho",
+        "annotation": "vauvaenkeli: keskitumma iho",
         "group": 1,
         "hexcode": "1F47C-1F3FE",
         "order": 1535,
         "unicode": "👼🏾"
       },
       {
-        "annotation": "enkelivauva: tumma iho",
+        "annotation": "vauvaenkeli: tumma iho",
         "group": 1,
         "hexcode": "1F47C-1F3FF",
         "order": 1536,
@@ -24122,8 +24129,8 @@
     "hexcode": "1F55E",
     "order": 3539,
     "tags": [
-      "15.30",
-      "3.30",
+      "14.30",
+      "2.30",
       "30",
       "aika",
       "kello",
@@ -24245,9 +24252,9 @@
     "hexcode": "1F562",
     "order": 3547,
     "tags": [
-      "19.30",
+      "18.30",
       "30",
-      "7.30",
+      "6.30",
       "aika",
       "kello",
       "kellonaika"
