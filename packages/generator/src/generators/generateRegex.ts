@@ -5,6 +5,7 @@ import { buildEmojiData } from '../builders/buildEmojiData';
 import { filterData } from '../helpers/filterData';
 import { flattenData } from '../helpers/flattenData';
 import { log } from '../helpers/log';
+import { toArray } from '../helpers/toArray';
 import { writeRegex } from '../helpers/writeRegex';
 import { EmojiMap, Hexcode } from '../types';
 import { toUnicode } from './toUnicode';
@@ -112,7 +113,9 @@ async function createEmoticonRegex(data: EmojiMap): Promise<string> {
 		const { emoticon } = data[hexcode];
 
 		if (emoticon) {
-			emoticons.push(...generateEmoticonPermutations(emoticon, EMOTICON_OPTIONS[emoticon] || {}));
+			toArray(emoticon).forEach((emo) => {
+				emoticons.push(...generateEmoticonPermutations(emo, EMOTICON_OPTIONS[emo] || {}));
+			});
 		}
 	});
 

@@ -96,7 +96,7 @@ export interface Emoji {
 	name: string;
 	variations?: EmojiVariation;
 	shortcodes?: Shortcode[];
-	emoticon?: Emoticon;
+	emoticon?: Emoticon | Emoticon[];
 }
 
 export type EmojiMap = HexcodeMap<Emoji>;
@@ -146,7 +146,7 @@ export interface EmojiVariation {
 
 export type EmojiVariationMap = HexcodeMap<EmojiVariation>;
 
-export type EmoticonMap = Record<string, string>;
+export type EmoticonMap = Record<string, string | string[]>;
 
 export interface ParsedLine {
 	comment: string;

@@ -1,3 +1,9 @@
+# 6.0.0
+
+#### 🚀 Updates
+
+- Added uppercased versions of emoticons when applicable.
+
 ## 5.1.0 - 2020-01-07
 
 #### 🚀 Updates

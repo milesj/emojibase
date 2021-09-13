@@ -170,7 +170,7 @@ export interface Emoji {
 	/** Emoji representation unicode character. */
 	emoji: Unicode;
 	/** Emoticon representation of the emoji. */
-	emoticon?: Emoticon;
+	emoticon?: Emoticon | Emoticon[];
 	/** Gender of the emoji, if applicable. */
 	gender?: Gender;
 	/** Group the emoji belongs to. */

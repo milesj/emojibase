@@ -8,6 +8,7 @@ import {
 import { isHidden } from '../helpers/isHidden';
 import { isObject } from '../helpers/isObject';
 import { log } from '../helpers/log';
+import { toArray } from '../helpers/toArray';
 import { EmojiMap, EmojiVariation } from '../types';
 
 export function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
@@ -61,13 +62,13 @@ export function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
 
 		// Verify that no emoticons have been duplicated
 		if (emoji.emoticon) {
-			const { emoticon } = emoji;
-
-			if (usedEmoticons[emoticon]) {
-				errors.push(`Emoticon has been used elsewhere: ${usedEmoticons[emoticon].name}`);
-			} else {
-				usedEmoticons[emoticon] = emoji;
-			}
+			toArray(emoji.emoticon).forEach((emoticon) => {
+				if (usedEmoticons[emoticon]) {
+					errors.push(`Emoticon has been used elsewhere: ${usedEmoticons[emoticon].name}`);
+				} else {
+					usedEmoticons[emoticon] = emoji;
+				}
+			});
 		}
 
 		// Display errors

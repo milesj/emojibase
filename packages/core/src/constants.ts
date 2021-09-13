@@ -116,6 +116,7 @@ export const EMOTICON_OPTIONS: Record<string, PermutationOptions> = {
 	'<3': { isFace: false },
 	// 🤘 sign of the horns
 	'\\m/': { isFace: false },
+	'\\M/': { isFace: false },
 	// 👹 ogre
 	'0)': { withNose: false },
 };

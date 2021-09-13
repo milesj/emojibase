@@ -1,3 +1,13 @@
+# 7.0.0
+
+#### 💥 Breaking
+
+- The `emoticon` property can now be an array of strings.
+
+#### 🚀 Updates
+
+- Added uppercased versions of emoticons when applicable.
+
 ## 6.2.0 - 2021-05-13
 
 #### 🚀 Updates
