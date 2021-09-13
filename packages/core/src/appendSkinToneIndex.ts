@@ -1,5 +1,8 @@
 import { SkinTone } from './types';
 
+/**
+ * Append a skin tone index (number) to the end of a shortcode.
+ */
 export function appendSkinToneIndex(
 	shortcode: string,
 	emoji: { tone?: SkinTone | SkinTone[] },

@@ -13,7 +13,30 @@ import {
 	ShortcodesDataset,
 } from './types';
 
-// Full
+/**
+ * Fetches and returns a localized list of emojis (and optional shortcodes) from our CDN.
+ * Uses `fetchFromCDN` and `fetchShortcodes` under the hood.
+ *
+ * ```ts
+ * import { fetchEmojis } from 'emojibase';
+ *
+ * await fetchEmojis('ja', {
+ * 	compact: true,
+ * 	shortcodes: ['cldr'],
+ * 	version: '2.1.3',
+ * });
+ * ```
+ *
+ * It's also possible to load shortcodes from other languages by prefixing the shortcode preset with
+ * the chosen locale. This is useful if you want to support English and Japanese in parallel, for
+ * example.
+ *
+ * ```ts
+ * await fetchEmojis('ja', {
+ * 	shortcodes: ['cldr', 'en/cldr'],
+ * });
+ * ```
+ */
 async function fetchEmojis(
 	locale: Locale,
 	options?: FetchEmojisOptions & { compact?: false; flat?: false },

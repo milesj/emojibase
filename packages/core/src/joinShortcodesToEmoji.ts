@@ -1,5 +1,9 @@
-import { CompactEmoji, Emoji, MaybeEmoji, ShortcodesDataset } from './types';
+import { CompactEmoji, Emoji, EmojiLike, ShortcodesDataset } from './types';
 
+/**
+ * Will join shortcodes from multiple shortcode datasets into a single emoji object
+ * using its hexcode. Will remove duplicates in the process.
+ */
 function joinShortcodesToEmoji(emoji: Emoji, shortcodeDatasets: ShortcodesDataset[]): Emoji;
 
 function joinShortcodesToEmoji(
@@ -8,9 +12,9 @@ function joinShortcodesToEmoji(
 ): CompactEmoji;
 
 function joinShortcodesToEmoji(
-	emoji: MaybeEmoji,
+	emoji: EmojiLike,
 	shortcodeDatasets: ShortcodesDataset[],
-): MaybeEmoji {
+): EmojiLike {
 	if (shortcodeDatasets.length === 0) {
 		return emoji;
 	}

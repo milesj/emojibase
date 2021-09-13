@@ -7,8 +7,8 @@ Emoticons, like shortcodes, are
 for integrity and accuracy, seeing as how there are so many variations (`:)` vs `=]` vs `:}`). Do we
 support `:` or `=` for eyes? What about `)`, `]`, or `}` for mouths? Or maybe a nose with `-`?
 
-Emojibase solves this with a set of naming guidelines and the ability to
-[generate emoticon permutations](./api.mdx#generateemoticonpermutations). With this in place, a
-single emoticon can be defined per emoji, reducing the overall filesize and maintenance overhead.
+Emojibase solves this with a set of naming guidelines and the ability to generate emoticon
+permutations. With this in place, a single emoticon can be defined per emoji, reducing the overall
+filesize and maintenance overhead.
 
 > Only western styled emoticons are currently supported.

@@ -4894,6 +4894,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vscode/codicons@npm:^0.0.22":
+  version: 0.0.22
+  resolution: "@vscode/codicons@npm:0.0.22"
+  checksum: 1645685f373446719b869ed1b396f8ab39eac6f7a0cabe5008976fe66cc439a6dd8aea40655c25cfd990d7bd4c130f0dc032047efe4d2795804597044308b0e4
+  languageName: node
+  linkType: hard
+
 "@webassemblyjs/ast@npm:1.11.1":
   version: 1.11.1
   resolution: "@webassemblyjs/ast@npm:1.11.1"
@@ -8088,6 +8095,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"docusaurus-plugin-typedoc-api@npm:^1.3.1":
+  version: 1.3.1
+  resolution: "docusaurus-plugin-typedoc-api@npm:1.3.1"
+  dependencies:
+    "@docusaurus/types": 2.0.0-beta.6
+    "@vscode/codicons": ^0.0.22
+    marked: ^2.1.3
+    typedoc: ^0.22.3
+  peerDependencies:
+    react: ">=16.0.0"
+    typescript: ^4.0.0
+  checksum: a3dc20e26b901cb258ea608272f8ede1b6c1f5312e0b18d9756b597854d475ccf5497a9f75e3cad0828b4b64ace72c44056eef328801ab488c8f6efdd30b0dc8
+  languageName: node
+  linkType: hard
+
 "dom-converter@npm:^0.2.0":
   version: 0.2.0
   resolution: "dom-converter@npm:0.2.0"
@@ -8369,7 +8391,7 @@ __metadata:
     "@beemo/core": ^2.0.2
     "@beemo/dev": ^1.6.1
     fetch-mock-jest: ^1.5.1
-    filesize: ^8.0.0
+    filesize: ^8.0.2
     glob: ^7.1.7
     gzip-size: ^6.0.0
     lerna: ^4.0.0
@@ -8386,7 +8408,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"emojibase@^5.2.0, emojibase@workspace:packages/core":
+"emojibase@*, emojibase@^5.2.0, emojibase@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "emojibase@workspace:packages/core"
   languageName: unknown
@@ -9497,10 +9519,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"filesize@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "filesize@npm:8.0.0"
-  checksum: 82a67185ca74b06627a124aa2b5905ce4081f606318789b7b696639fc5e4a0250b292aa8735333d21516cdb6601272d997b06599caecc691c6b058f368e6114f
+"filesize@npm:^8.0.0, filesize@npm:^8.0.2":
+  version: 8.0.2
+  resolution: "filesize@npm:8.0.2"
+  checksum: c6eec03e9c0d6f1a63d810a59d4fa75663a02e63874a09ee4ceafb70007952f4bbf8c2bb63c3faf9fba9498706ad6e9c5ba865483a299412c15cf62835ab1faf
   languageName: node
   linkType: hard
 
@@ -13217,12 +13239,28 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"lru-cache@npm:^5.1.1":
+  version: 5.1.1
+  resolution: "lru-cache@npm:5.1.1"
+  dependencies:
+    yallist: ^3.0.2
+  checksum: c154ae1cbb0c2206d1501a0e94df349653c92c8cbb25236d7e85190bcaf4567a03ac6eb43166fabfa36fd35623694da7233e88d9601fbf411a9a481d85dbd2cb
+  languageName: node
+  linkType: hard
+
 "lru-cache@npm:^6.0.0":
   version: 6.0.0
   resolution: "lru-cache@npm:6.0.0"
   dependencies:
     yallist: ^4.0.0
   checksum: f97f499f898f23e4585742138a22f22526254fdba6d75d41a1c2526b3b6cc5747ef59c5612ba7375f42aca4f8461950e925ba08c991ead0651b4918b7c978297
+  languageName: node
+  linkType: hard
+
+"lunr@npm:^2.3.9":
+  version: 2.3.9
+  resolution: "lunr@npm:2.3.9"
+  checksum: 176719e24fcce7d3cf1baccce9dd5633cd8bdc1f41ebe6a180112e5ee99d80373fe2454f5d4624d437e5a8319698ca6837b9950566e15d2cae5f2a543a3db4b8
   languageName: node
   linkType: hard
 
@@ -13353,6 +13391,24 @@ fsevents@^1.2.7:
   version: 1.0.4
   resolution: "markdown-escapes@npm:1.0.4"
   checksum: 6833a93d72d3f70a500658872312c6fa8015c20cc835a85ae6901fa232683fbc6ed7118ebe920fea7c80039a560f339c026597d96eee0e9de602a36921804997
+  languageName: node
+  linkType: hard
+
+"marked@npm:^2.1.3":
+  version: 2.1.3
+  resolution: "marked@npm:2.1.3"
+  bin:
+    marked: bin/marked
+  checksum: 21a5ecd4941bc760aba21dfd97185853ec3b464cf707ad971e3ddb3aeb2f44d0deeb36b0889932afdb6f734975a994d92f18815dd0fabadbd902bdaff997cc5b
+  languageName: node
+  linkType: hard
+
+"marked@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "marked@npm:3.0.3"
+  bin:
+    marked: bin/marked
+  checksum: 82651af57ae9d16199ba86f4d48474b6680521cbc0a8d1c142924b3977098a2d750f4eab3ca297ba8a083e4ef072721066e8f03b9a0a9a75948ee0be9506fc2f
   languageName: node
   linkType: hard
 
@@ -14523,6 +14579,15 @@ fsevents@^1.2.7:
   dependencies:
     mimic-fn: ^2.1.0
   checksum: 2478859ef817fc5d4e9c2f9e5728512ddd1dbc9fb7829ad263765bb6d3b91ce699d6e2332eef6b7dff183c2f490bd3349f1666427eaba4469fba0ac38dfd0d34
+  languageName: node
+  linkType: hard
+
+"onigasm@npm:^2.2.5":
+  version: 2.2.5
+  resolution: "onigasm@npm:2.2.5"
+  dependencies:
+    lru-cache: ^5.1.1
+  checksum: 97aedde610ef561f05853609d6a5b720ec1e123f867bdac1b38b5aeb3bc90ed60209678c75a5f0f9821aa793c720b6d17aabfb956e26ab115ee9b81d6e56bdf7
   languageName: node
   linkType: hard
 
@@ -17629,6 +17694,17 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
+"shiki@npm:^0.9.10":
+  version: 0.9.10
+  resolution: "shiki@npm:0.9.10"
+  dependencies:
+    json5: ^2.2.0
+    onigasm: ^2.2.5
+    vscode-textmate: 5.2.0
+  checksum: 2544ee3321d280de4a22e7e871bc93c1f2566120bf340fcc9764f29e22fcd7aa778bd9f8b133387f0808cd4085bda25c0a7e1c0868d85fe06aea7bbb4c904a68
+  languageName: node
+  linkType: hard
+
 "side-channel@npm:^1.0.4":
   version: 1.0.4
   resolution: "side-channel@npm:1.0.4"
@@ -19062,6 +19138,23 @@ resolve@~1.19.0:
   languageName: node
   linkType: hard
 
+"typedoc@npm:^0.22.3":
+  version: 0.22.3
+  resolution: "typedoc@npm:0.22.3"
+  dependencies:
+    glob: ^7.1.7
+    lunr: ^2.3.9
+    marked: ^3.0.3
+    minimatch: ^3.0.4
+    shiki: ^0.9.10
+  peerDependencies:
+    typescript: 4.0.x || 4.1.x || 4.2.x || 4.3.x || 4.4.x
+  bin:
+    typedoc: bin/typedoc
+  checksum: 65a930a02f9ce6339ab44163efe90d6bb6bcae7054da9c698fa421b4c1d0d199b84a10ff13b0899366c17939a55c65821fc7506149aa7cf1bff0ac4a3b04bc26
+  languageName: node
+  linkType: hard
+
 typescript@^4.4.3:
   version: 4.4.3
   resolution: "typescript@npm:4.4.3"
@@ -19707,6 +19800,13 @@ typescript@~4.3.5:
   languageName: node
   linkType: hard
 
+"vscode-textmate@npm:5.2.0":
+  version: 5.2.0
+  resolution: "vscode-textmate@npm:5.2.0"
+  checksum: 5449b42d451080f6f3649b66948f4b5ee4643c4e88cfe3558a3b31c84c78060cfdd288c4958c1690eaa5cd65d09992fa6b7c3bef9d4aa72b3651054a04624d20
+  languageName: node
+  linkType: hard
+
 "w3c-hr-time@npm:^1.0.2":
   version: 1.0.2
   resolution: "w3c-hr-time@npm:1.0.2"
@@ -19990,6 +20090,8 @@ typescript@~4.3.5:
     "@types/lodash": ^4.14.172
     "@types/react": ^17.0.20
     clsx: ^1.1.1
+    docusaurus-plugin-typedoc-api: ^1.3.1
+    emojibase: "*"
     lodash: ^4.17.21
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -20322,7 +20424,7 @@ typescript@~4.3.5:
   languageName: node
   linkType: hard
 
-"yallist@npm:^3.0.0, yallist@npm:^3.1.1":
+"yallist@npm:^3.0.0, yallist@npm:^3.0.2, yallist@npm:^3.1.1":
   version: 3.1.1
   resolution: "yallist@npm:3.1.1"
   checksum: 48f7bb00dc19fc635a13a39fe547f527b10c9290e7b3e836b9a8f1ca04d4d342e85714416b3c2ab74949c9c66f9cebb0473e6bc353b79035356103b47641285d

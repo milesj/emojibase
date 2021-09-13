@@ -1,6 +1,15 @@
 import { joinShortcodesToEmoji } from './joinShortcodesToEmoji';
-import { CompactEmoji, Emoji, MaybeEmoji, ShortcodesDataset } from './types';
+import { CompactEmoji, Emoji, EmojiLike, ShortcodesDataset } from './types';
 
+/**
+ * By default, emoji skin modifications are nested under the base neutral skin tone emoji.
+ * To flatten the data into a single dimension array, use the `flattenEmojiData` function.
+ *
+ * If `shortcodeDatasets` is defined, it will join the shortcodes to the emoji object using
+ * `joinShortcodesToEmoji`.
+ *
+ * > Tags from the parent emoji will be passed down to the skin modifications.
+ */
 function flattenEmojiData(data: Emoji[], shortcodeDatasets?: ShortcodesDataset[]): Emoji[];
 
 function flattenEmojiData(
@@ -9,9 +18,9 @@ function flattenEmojiData(
 ): CompactEmoji[];
 
 function flattenEmojiData(
-	data: MaybeEmoji[],
+	data: EmojiLike[],
 	shortcodeDatasets: ShortcodesDataset[] = [],
-): MaybeEmoji[] {
+): EmojiLike[] {
 	const emojis: Emoji[] = [];
 
 	(data as Emoji[]).forEach((emoji) => {

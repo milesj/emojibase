@@ -1,5 +1,6 @@
 /* eslint-disable sort-keys */
 
+const path = require('path');
 const { EMOJI_VERSIONS, UNICODE_VERSIONS } = require('../packages/core');
 
 const pkgs = [
@@ -20,6 +21,7 @@ module.exports = {
 	url: 'https://emojibase.dev',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
+	onDuplicateRoutes: 'throw',
 	favicon: 'img/favicon.svg',
 	organizationName: 'milesj',
 	projectName: 'emojibase',
@@ -44,6 +46,11 @@ module.exports = {
 					to: 'docs',
 					activeBasePath: 'docs',
 					label: 'Docs',
+					position: 'left',
+				},
+				{
+					to: 'api',
+					label: 'API',
 					position: 'left',
 				},
 				{
@@ -100,6 +107,23 @@ module.exports = {
 				theme: {
 					customCss: require.resolve('./src/css/custom.css'),
 				},
+			},
+		],
+	],
+	plugins: [
+		[
+			'docusaurus-plugin-typedoc-api',
+			{
+				projectRoot: path.join(__dirname, '..'),
+				packages: [
+					{
+						entry: 'src/index.ts',
+						path: 'packages/core',
+						slug: 'emojibase',
+					},
+				],
+				minimal: true,
+				readmes: true,
 			},
 		],
 	],

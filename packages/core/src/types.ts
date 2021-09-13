@@ -151,44 +151,58 @@ export type SubgroupKey =
 
 export type Unicode = string;
 
-export interface CompactEmoji {
-	annotation: string;
-	emoticon?: Emoticon;
-	group?: Group;
-	hexcode: Hexcode;
-	order?: number;
-	shortcodes?: Shortcode[];
+export interface CompactEmoji
+	extends Pick<
+		Emoji,
+		'annotation' | 'emoticon' | 'group' | 'hexcode' | 'order' | 'shortcodes' | 'tags'
+	> {
+	/** List of skin tones as emoji objects. */
 	skins?: CompactEmoji[];
-	tags?: string[];
+	/** Text or emoji representation unicode character, whichever is default. */
 	unicode: Unicode;
 }
 
 export type FlatCompactEmoji = Omit<CompactEmoji, 'skins'>;
 
 export interface Emoji {
+	/** Localized description. */
 	annotation: string;
+	/** Emoji representation unicode character. */
 	emoji: Unicode;
+	/** Emoticon representation of the emoji. */
 	emoticon?: Emoticon;
+	/** Gender of the emoji, if applicable. */
 	gender?: Gender;
+	/** Group the emoji belongs to. */
 	group?: Group;
+	/** Hexadecimal codepoint. */
 	hexcode: Hexcode;
+	/** Sorted order index. */
 	order?: number;
+	/** List of shortcodes without surrounding colons. */
 	shortcodes?: Shortcode[];
+	/** List of skin tones as emoji objects. */
 	skins?: Emoji[];
+	/** Sub-group the emoji belongs to. */
 	subgroup?: Subgroup;
+	/** Tags and keywords for searching. */
 	tags?: string[];
+	/** Text representation unicode character. */
 	text: Unicode;
+	/** Skin tones applied, as indices. */
 	tone?: SkinTone | SkinTone[];
+	/** Default presentation type. */
 	type: Presentation;
+	/** Version the emoji was added. */
 	version: number;
 }
 
 export type FlatEmoji = Omit<Emoji, 'skins'>;
 
-export interface MaybeEmoji {
+export interface EmojiLike {
 	hexcode: string;
 	shortcodes?: string[];
-	skins?: MaybeEmoji[];
+	skins?: EmojiLike[];
 }
 
 export interface GroupDataset {
@@ -247,12 +261,17 @@ export interface PermutationOptions {
 }
 
 export interface FetchFromCDNOptions extends RequestInit {
+	/** Cache the response in local storage instead of session storage. Defaults to `false`. */
 	local?: boolean;
+	/** The release version to fetch. Defaults to `latest`. */
 	version?: string;
 }
 
 export interface FetchEmojisOptions extends FetchFromCDNOptions {
+	/** Load the compact dataset instead of the full dataset. Defaults to `false`. */
 	compact?: boolean;
+	/** Flatten the dataset (moving skin tones to the root). Defaults to `false`. */
 	flat?: boolean;
+	/** List of shortcode presets to load and merge into the emojis dataset. Defaults to an empty list. */
 	shortcodes?: (LocalizedShortcodePreset | ShortcodePreset)[];
 }

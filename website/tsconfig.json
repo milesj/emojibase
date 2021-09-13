@@ -2,7 +2,6 @@
   "compilerOptions": {
     "declarationDir": "dts",
     "outDir": "dts",
-    "resolveJsonModule": true,
     "rootDir": "src",
     "emitDeclarationOnly": true
   },
@@ -16,5 +15,9 @@
     "types/**/*",
     "../types/**/*"
   ],
-  "references": []
+  "references": [
+    {
+      "path": "../packages/core"
+    }
+  ]
 }

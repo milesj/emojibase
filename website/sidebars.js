@@ -6,7 +6,7 @@ module.exports = {
 		{
 			type: 'category',
 			label: 'Usage',
-			items: ['datasets', 'regex', 'shortcodes', 'emoticons', 'api'],
+			items: ['datasets', 'regex', 'shortcodes', 'emoticons'],
 			collapsed: false,
 		},
 		'translations',
