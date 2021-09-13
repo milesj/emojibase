@@ -65,11 +65,6 @@ const BASE_PATTERNS: PatternType[] = ['combo', 'comboCodepoint'];
 
 describe('regex', () => {
 	loadFlatEmojiData().forEach((emoji) => {
-		// Emoji_Tag_Sequences currently do not work
-		if (['ENGLAND', 'SCOTLAND', 'WALES'].includes(emoji.name)) {
-			return;
-		}
-
 		const tests: Test[] = [];
 
 		// Has emoji variation
@@ -122,13 +117,15 @@ describe('regex', () => {
 		});
 
 		if (emoji.emoticon) {
-			generateEmoticonPermutations(emoji.emoticon, EMOTICON_OPTIONS[emoji.emoticon] || {}).forEach(
-				(emoticon) => {
-					it(`matches emoticon variation ${emoticon}`, () => {
-						expect(emoticon).toMatch(EMOTICON_PATTERN);
+			const emoticons = Array.isArray(emoji.emoticon) ? emoji.emoticon : [emoji.emoticon];
+
+			emoticons.forEach((emoticon) => {
+				generateEmoticonPermutations(emoticon, EMOTICON_OPTIONS[emoticon] || {}).forEach((emo) => {
+					it(`matches emoticon variation ${emo}`, () => {
+						expect(emo).toMatch(EMOTICON_PATTERN);
 					});
-				},
-			);
+				});
+			});
 		}
 	});
 
