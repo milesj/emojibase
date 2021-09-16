@@ -158,40 +158,49 @@ export interface CompactEmoji
 	> {
 	/** List of skin tones as emoji objects. */
 	skins?: CompactEmoji[];
-	/** Text or emoji representation unicode character, whichever is default. */
+	/** Either the emoji or text presentation Unicode character. */
 	unicode: Unicode;
 }
 
 export type FlatCompactEmoji = Omit<CompactEmoji, 'skins'>;
 
 export interface Emoji {
-	/** Localized description. */
+	/** A localized description, provided by CLDR, primarily used for text-to-speech (TTS) and accessibility. */
 	annotation: string;
-	/** Emoji representation unicode character. */
+	/** Emoji presentation unicode character. */
 	emoji: Unicode;
-	/** Emoticon representation of the emoji. */
+	/** If applicable, an emoticon representing the emoji character. */
 	emoticon?: Emoticon | Emoticon[];
-	/** Gender of the emoji, if applicable. */
+	/** If applicable, the gender of the emoji character. `0` for female, `1` for male. */
 	gender?: Gender;
-	/** Group the emoji belongs to. */
+	/** The categorical group the emoji belongs to. Undefined for uncategorized emojis. */
 	group?: Group;
-	/** Hexadecimal codepoint. */
+	/**
+	 * The hexadecimal representation of the emoji Unicode codepoint. If the emoji supports both
+	 * emoji and text variations, the hexcode will not include the variation selector. If a
+	 * multi-person, multi-gender, or skin tone variation, the hexcode will include zero width
+	 * joiners and variation selectors.
+	 */
 	hexcode: Hexcode;
-	/** Sorted order index. */
+	/** The order in which emoji should be displayed on a device, through a keyboard or emoji picker. Undefined for unordered emojis. */
 	order?: number;
 	/** List of shortcodes without surrounding colons. */
 	shortcodes?: Shortcode[];
-	/** List of skin tones as emoji objects. */
+	/** If applicable, an array of emoji objects for each skin tone modification, starting at light skin, and ending with dark skin. Also includes multi-skin tones. */
 	skins?: Emoji[];
-	/** Sub-group the emoji belongs to. */
+	/** The categorical subgroup the emoji belongs to. Undefined for uncategorized emojis. */
 	subgroup?: Subgroup;
-	/** Tags and keywords for searching. */
+	/** An array of localized keywords, provided by CLDR, to use for searching and filtering. */
 	tags?: string[];
-	/** Text representation unicode character. */
+	/** Text presentation unicode character. */
 	text: Unicode;
-	/** Skin tones applied, as indices. */
+	/**
+	 * If applicable, the skin tone of the emoji character. `1` for light skin, `2` for medium-light
+	 * skin, `3` for medium skin, `4` for medium-dark skin, and 5 for dark skin. Multi-person skin
+	 * tones will be an array of values.
+	 */
 	tone?: SkinTone | SkinTone[];
-	/** Default presentation type. */
+	/** The default presentation of the emoji character. `0` for text, `1` for emoji. */
 	type: Presentation;
 	/** Version the emoji was added. */
 	version: number;

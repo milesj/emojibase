@@ -3,8 +3,7 @@ title: TypeScript support
 ---
 
 Emojibase is written in TypeScript, so feel free to utilize our types! All types are available as
-named imports from the index of `emojibase`!
-[View the available types](https://github.com/milesj/emojibase/blob/master/packages/core/src/types.ts).
+named imports from the index of `emojibase`! [View the available types in the API](/api/emojibase).
 
 ```ts
 import { Emoji, Emoticon, Shortcode } from 'emojibase';

@@ -121,6 +121,16 @@ module.exports = {
 						path: 'packages/core',
 						slug: 'emojibase',
 					},
+					// {
+					// 	entry: '.',
+					// 	path: 'packages/data',
+					// 	slug: 'emojibase-data',
+					// },
+					// {
+					// 	entry: '.',
+					// 	path: 'packages/regex',
+					// 	slug: 'emojibase-regex',
+					// },
 				],
 				minimal: true,
 				readmes: true,

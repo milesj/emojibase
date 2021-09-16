@@ -47,7 +47,7 @@ async function slugify(
 			});
 
 			// These characters do not convert automatically
-			slug = slug.replace('営', 'kanri').replace('々', 'kaku');
+			slug = slug.replace('営', 'kanri').replace('々', 'kaku').replace('妊', 'ninshin');
 		} else {
 			slug = transliterate(slug);
 		}
