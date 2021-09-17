@@ -16,12 +16,12 @@ export async function generateEmojibase(db: Database) {
 
 	await Promise.all(
 		SUPPORTED_LOCALES.map(async (locale) => {
-			const shortcodes: ShortcodeDataMap = {};
-			const shortcodesNative: ShortcodeDataMap = {};
 			const translations = await loadPoShortcodes(locale);
 			const metaTranslations = await loadPoMessages(locale);
-			const toneMsg = Database.slugify(metaTranslations.getMessage('tone'), true);
-			const toneMsgNative = Database.slugify(metaTranslations.getMessage('tone'));
+			const shortcodes: ShortcodeDataMap = {};
+			const shortcodesNative: ShortcodeDataMap = {};
+			const skinToneSuffix = Database.slugify(metaTranslations.getMessage('tone'), true);
+			const skinToneSuffixNative = Database.slugify(metaTranslations.getMessage('tone'));
 			let count = 0;
 
 			db.emojiList.forEach((emoji) => {
@@ -69,12 +69,12 @@ export async function generateEmojibase(db: Database) {
 
 				Object.values(emoji.modifications ?? {}).forEach((mod) => {
 					shortcodes[mod.hexcode] = db.formatShortcodes(
-						list.map((code) => appendSkinToneIndex(code, mod, toneMsg)),
+						list.map((code) => appendSkinToneIndex(code, mod, skinToneSuffix)),
 					);
 
 					if (listNative.length > 0) {
 						shortcodesNative[mod.hexcode] = db.formatShortcodes(
-							listNative.map((code) => appendSkinToneIndex(code, mod, toneMsgNative)),
+							listNative.map((code) => appendSkinToneIndex(code, mod, skinToneSuffixNative)),
 						);
 					}
 				});
