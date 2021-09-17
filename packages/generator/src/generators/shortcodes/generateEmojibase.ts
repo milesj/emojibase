@@ -1,5 +1,6 @@
 import path from 'path';
 import { appendSkinToneIndex, Emoji, SUPPORTED_LOCALES, TEXT } from 'emojibase';
+import { transliterate } from 'transliteration';
 import { SHORTCODE_GUIDELINES } from '../../constants';
 import { toArray } from '../../helpers/toArray';
 import { writeDataset } from '../../helpers/writeDataset';
@@ -20,7 +21,7 @@ export async function generateEmojibase(db: Database) {
 			const shortcodes: ShortcodeDataMap = {};
 			const translations = await loadPoShortcodes(locale);
 			const metaTranslations = await loadPoMessages(locale);
-			const toneMsg = metaTranslations.getMessage('tone');
+			const toneMsg = Database.slugify(transliterate(metaTranslations.getMessage('tone')));
 			let count = 0;
 
 			db.emojiList.forEach((emoji) => {
@@ -31,7 +32,7 @@ export async function generateEmojibase(db: Database) {
 				}
 
 				const list = items
-					.map((item) => Database.slugify(toArray(item.msgstr).join('')))
+					.map((item) => Database.slugify(transliterate(toArray(item.msgstr).join(''))))
 					.filter(Boolean)
 					.sort();
 

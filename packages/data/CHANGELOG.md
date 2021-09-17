@@ -11,7 +11,8 @@
 
 #### 💥 Breaking
 
-- The `emoticon` property can now be an array of strings.
+- Emojibase shortcode presets (`emojibase.json`) are now transliterated for all languages.
+- Updated the `emoticon` property to also support an array of strings.
 - Renamed the `annotation` field to `label`.
 - Renamed `meta.json` datasets to `messages.json`.
 
