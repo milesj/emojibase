@@ -1,6 +1,5 @@
 /* eslint-disable camelcase */
 
-import { transliterate } from 'transliteration';
 import { writeDataset } from '../../helpers/writeDataset';
 import { fetchAndCache } from '../../loaders/fetchAndCache';
 import { HexcodeMap, ShortcodeDataMap } from '../../types';
@@ -65,7 +64,7 @@ export async function generateJoyPixels(db: Database) {
 
 			const names = [...new Set([shortname, ...shortnames])]
 				.filter(Boolean)
-				.map((name) => transliterate(Database.slugify(name)));
+				.map((name) => Database.slugify(name, true));
 
 			if (names.length > 0) {
 				db.addShortcodes(shortcodes, emoji.hexcode, names);
