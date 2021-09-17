@@ -148,46 +148,53 @@ async function generateMessages(locale: Locale): Promise<unknown> {
 	const skinTones: SkinToneMessage[] = [];
 
 	data.po.items.forEach((item) => {
-		if (item.msgctxt.includes('LABEL')) {
-			return;
-		}
+		String(item.msgctxt)
+			.replace(/\n+/, ' ')
+			.split(',')
+			.map((ctx) => ctx.trim())
+			.forEach((ctx) => {
+				const [type, meta] = ctx.split(':');
 
-		const contexts = String(item.msgctxt).split(',');
+				switch (type) {
+					case 'EMOJI GROUP':
+					case 'EMOJI SUB-GROUP': {
+						const [order, key] = meta.split('|');
+						const message = {
+							key: key.trim(),
+							message: String(item.msgstr),
+							order: Number(order.trim()),
+						};
 
-		item.comments.forEach((comment, i) => {
-			const ctx = contexts[i];
+						if (!message.message) {
+							message.message = String(englishData.itemsById[item.msgid].msgstr);
+						}
 
-			if (!ctx) {
-				return;
-			}
+						if (type === 'EMOJI SUB-GROUP') {
+							subgroups.push(message as SubgroupMessage);
+						} else {
+							groups.push(message as GroupMessage);
+						}
+						break;
+					}
 
-			if (ctx.includes('GROUP')) {
-				const [id, key] = comment.split(':');
-				const meta = {
-					key: key.trim(),
-					message: String(item.msgstr),
-					order: Number(id.trim()),
-				};
+					case 'SKIN TONE': {
+						skinTones.push({
+							key: meta.trim(),
+							message: String(item.msgstr),
+						} as SkinToneMessage);
 
-				if (!meta.message) {
-					meta.message = String(englishData.itemsById[item.msgid].msgstr);
+						break;
+					}
+
+					default:
+						break;
 				}
-
-				if (ctx.includes('SUB-GROUP')) {
-					subgroups.push(meta as SubgroupMessage);
-				} else {
-					groups.push(meta as GroupMessage);
-				}
-			} else if (ctx.includes('SKIN TONE')) {
-				const [, key] = ctx.split(':');
-
-				skinTones.push({
-					key: key.trim(),
-					message: String(item.msgstr),
-				} as SkinToneMessage);
-			}
-		});
+			});
 	});
+
+	if (groups.length === 0) {
+		return Promise.resolve();
+	}
 
 	groups.sort(sortOrder);
 	subgroups.sort(sortOrder);
