@@ -22,6 +22,7 @@
 - Added `emojibase-native` shortcodes that do _not_ transliterate. Only applicable
 to languages that have been translated so far.
 - Added Swedish shortcodes (`sv/shortcodes/emojibase.json`).
+- Added `skinTones` translations to `messages.json`.
 - Updated to [CLDR 40](http://cldr.unicode.org/index/downloads/cldr-40).
 
 ## 6.2.0 - 2021-05-13
