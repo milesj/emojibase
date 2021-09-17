@@ -6,12 +6,12 @@ import { FetchFromCDNOptions, Locale, MessagesDataset } from './types';
  * Uses `fetchFromCDN` under the hood.
  *
  * ```ts
- * import { fetchMetadata } from 'emojibase';
+ * import { fetchMessages } from 'emojibase';
  *
- * await fetchMetadata('zh', { version: '2.1.3' });
+ * await fetchMessages('zh', { version: '2.1.3' });
  * ```
  */
-export async function fetchMetadata(
+export async function fetchMessages(
 	locale: Locale,
 	options?: FetchFromCDNOptions,
 ): Promise<MessagesDataset> {

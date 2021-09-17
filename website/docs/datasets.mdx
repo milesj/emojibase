@@ -204,12 +204,12 @@ from our CDN ([provided by jsdelivr.com](https://cdn.jsdelivr.net/npm/emojibase-
 [`fetchShortcodes()`](/api/emojibase/function/fetchShortcodes).
 
 ```ts
-import { fetchFromCDN, fetchEmojis, fetchMetadata, fetchShortcodes } from 'emojibase';
+import { fetchFromCDN, fetchEmojis, fetchMessages, fetchShortcodes } from 'emojibase';
 
 const englishEmojis = await fetchFromCDN('en/data.json', { shortcodes: ['github'] });
 const japaneseCompactEmojis = await fetchEmojis('ja', { compact: true });
 const germanCldrShortcodes = await fetchShortcodes('de', 'cldr');
-const chineseTranslations = await fetchMetadata('zh');
+const chineseTranslations = await fetchMessages('zh');
 ```
 
 ## Supported locales

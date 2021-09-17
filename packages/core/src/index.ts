@@ -7,7 +7,7 @@ export * from './appendSkinToneIndex';
 export * from './constants';
 export * from './fetchEmojis';
 export * from './fetchFromCDN';
-export * from './fetchMetadata';
+export * from './fetchMessages';
 export * from './fetchShortcodes';
 export * from './flattenEmojiData';
 export * from './fromCodepointToUnicode';

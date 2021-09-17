@@ -13,6 +13,7 @@
 
 - The `emoticon` property can now be an array of strings.
 - Renamed the `annotation` field to `label`.
+- Renamed `meta.json` datasets to `messages.json`.
 
 #### 🚀 Updates
 
