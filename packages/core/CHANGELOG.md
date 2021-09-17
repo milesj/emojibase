@@ -11,6 +11,8 @@
 #### 🛠 Internals
 
 - Migrated to Beemo configurations.
+- Updated `LATEST_EMOJI_VERSION` to `14.0`.
+- Updated `LATEST_CLDR_VERSION` to `40-alpha3`.
 
 ## 5.2.0 - 2021-05-13
 

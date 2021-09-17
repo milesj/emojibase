@@ -1,5 +1,14 @@
 # 7.0.0
 
+#### 🎉 Release
+
+- Updated to [Emoji 14](https://emojipedia.org/emoji-14.0/) and
+  [Unicode 14](http://unicode.org/versions/Unicode14.0.0/).
+  - 37 new emoji (117 including skin tones variations).
+  - Handshake now supports mixed skin tones.
+- Updated to [CLDR 40](http://cldr.unicode.org/index/downloads/cldr-40).
+- Updated shortcodes.
+
 #### 💥 Breaking
 
 - The `emoticon` property can now be an array of strings.

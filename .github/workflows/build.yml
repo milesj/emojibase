@@ -17,10 +17,10 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-      - run: yarn install --ignore-engines --frozen-lockfile
+      - run: yarn install --immutable
       - run: yarn run build
       - run: yarn run type
-      - run: yarn run jest
+      - run: yarn run test
       - run: yarn run lint
   pack:
     name: Pack
@@ -28,7 +28,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
-      - run: yarn install --ignore-engines --frozen-lockfile
+      - run: yarn install --immutable
       - run: yarn run type
       - run: yarn run pack
   locale:
@@ -65,9 +65,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
-      - run: yarn install --ignore-engines --frozen-lockfile
+      - run: yarn install --immutable
       - run: yarn run build
-      - run: yarn run jest
+      - run: yarn run test
         env:
           TEST_LOCALE: ${{ matrix.locale }}
   docs:
@@ -76,9 +76,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
-      - run: yarn install --ignore-engines --frozen-lockfile
-      - run: yarn run build
-      - run: |
-          cd website
-          yarn install --ignore-engines --frozen-lockfile
-          yarn run build
+      - run: yarn install --immutable
+      - run: yarn run pack
+      - run: cd website && yarn run build

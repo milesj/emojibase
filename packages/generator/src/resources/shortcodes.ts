@@ -3776,4 +3776,80 @@ export const shortcodes = {
   '1F9D4-200D-2642-FE0F': ['man_bearded'],
   // 🧔‍♀️ woman: beard
   '1F9D4-200D-2640-FE0F': ['woman_bearded'],
+
+  // VERSION 14
+  // 🫠 melting face
+  '1FAE0': [],
+  // 🫢 face with open eyes and hand over mouth
+  '1FAE2': [],
+  // 🫣 face with peeking eye
+  '1FAE3': [],
+  // 🫡 saluting face
+  '1FAE1': [],
+  // 🫥 dotted line face
+  '1FAE5': [],
+  // 🫤 face with diagonal mouth
+  '1FAE4': [],
+  // 🥹 face holding back tears
+  '1F979': [],
+  // 🫱 rightwards hand
+  '1FAF1': [],
+  // 🫲 leftwards hand
+  '1FAF2': [],
+  // 🫳 palm down hand
+  '1FAF3': [],
+  // 🫴 palm up hand
+  '1FAF4': [],
+  // 🫰 hand with index finger and thumb crossed
+  '1FAF0': [],
+  // 🫵 index pointing at the viewer
+  '1FAF5': [],
+  // 🫶 heart hands
+  '1FAF6': [],
+  // 🫦 biting lip
+  '1FAE6': [],
+  // 🫅 person with crown
+  '1FAC5': [],
+  // 🫃 pregnant man
+  '1FAC3': [],
+  // 🫄 pregnant person
+  '1FAC4': [],
+  // 🧌 troll
+  '1F9CC': [],
+  // 🪸 coral
+  '1FAB8': [],
+  // 🪷 lotus
+  '1FAB7': [],
+  // 🪹 empty nest
+  '1FAB9': [],
+  // 🪺 nest with eggs
+  '1FABA': [],
+  // 🫘 beans
+  '1FAD8': [],
+  // 🫗 pouring liquid
+  '1FAD7': [],
+  // 🫙 jar
+  '1FAD9': [],
+  // 🛝 playground slide
+  '1F6DD': [],
+  // 🛞 wheel
+  '1F6DE': [],
+  // 🛟 ring buoy
+  '1F6DF': [],
+  // 🪬 hamsa
+  '1FAAC': [],
+  // 🪩 mirror ball
+  '1FAA9': [],
+  // 🪫 low battery
+  '1FAAB': [],
+  // 🩼 crutch
+  '1FA7C': [],
+  // 🩻 x-ray
+  '1FA7B': [],
+  // 🫧 bubbles
+  '1FAE7': [],
+  // 🪪 identification card
+  '1FAAA': [],
+  // 🟰 heavy equals sign
+  '1F7F0': [],
 };

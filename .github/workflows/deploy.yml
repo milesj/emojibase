@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
-      - run: yarn install --ignore-engines --frozen-lockfile
+      - run: yarn install --immutable
       - run: yarn run build
       - name: Add key to allow access to repository
         env:
@@ -32,6 +32,7 @@ jobs:
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "gh-actions"
+          yarn install --immutable
+          yarn run pack
           cd website
-          yarn install --ignore-engines --frozen-lockfile
           yarn run deploy

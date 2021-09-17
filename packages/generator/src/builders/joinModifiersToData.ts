@@ -4,6 +4,7 @@ import { DARK_SKIN, LIGHT_SKIN, MEDIUM_DARK_SKIN, MEDIUM_LIGHT_SKIN, MEDIUM_SKIN
 import {
 	DARK_SKIN_MODIFIER,
 	EMOJI_VARIATION_SELECTOR,
+	HANDSHAKE_MIXED_SKIN_TONE_PATTERN,
 	LIGHT_SKIN_MODIFIER,
 	MAN,
 	MEDIUM_DARK_SKIN_MODIFIER,
@@ -59,9 +60,21 @@ export function joinModifiersToData(emojis: EmojiMap) {
 			let tone: SkinTone | SkinTone[] | null | undefined;
 			let parentEmoji: Emoji | undefined;
 
+			// Mixed skin tones
+			// http://unicode.org/reports/tr51/#multiperson_skintones
+			if (!parentEmoji && (match = hexcode.match(HANDSHAKE_MIXED_SKIN_TONE_PATTERN))) {
+				const [, skinTone1, skinTone2] = match;
+
+				parentEmoji = emojis['1F91D']; // Handshake
+				tone =
+					skinTone1 === skinTone2
+						? SKIN_TONES[skinTone1]
+						: [SKIN_TONES[skinTone1], SKIN_TONES[skinTone2]];
+			}
+
 			// Multi-person skin tones
 			// http://unicode.org/reports/tr51/#multiperson_skintones
-			if ((match = hexcode.match(MULTI_PERSON_SKIN_TONE_PATTERN))) {
+			if (!parentEmoji && (match = hexcode.match(MULTI_PERSON_SKIN_TONE_PATTERN))) {
 				const [, genderType1, skinTone1, groupType1, groupType2, genderType2, skinTone2] = match;
 				let parentHexcode = '';
 
@@ -87,7 +100,6 @@ export function joinModifiersToData(emojis: EmojiMap) {
 				});
 
 				parentEmoji = emojis[parentHexcode];
-
 				tone =
 					skinTone1 === skinTone2
 						? SKIN_TONES[skinTone1]

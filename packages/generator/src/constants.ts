@@ -14,6 +14,7 @@ export const VARIATION_PATTERN = /(FE0E|FE0F)/g;
 export const VARIATION_NC_PATTERN = /(?:FE0E|FE0F)/g;
 export const SKIN_MODIFIER_PATTERN = /(1F3FB|1F3FC|1F3FD|1F3FE|1F3FF)/g;
 export const SEQUENCE_REMOVAL_PATTERN = /(200D|FE0E|FE0F)/g;
+
 export const MULTI_PERSON_SKIN_TONE_PATTERN = new RegExp(
 	[
 		PERSON_TYPE_PATTERN.source,
@@ -25,6 +26,20 @@ export const MULTI_PERSON_SKIN_TONE_PATTERN = new RegExp(
 		`(?:([A-F0-9]{4,5}(?:-(?:${VARIATION_NC_PATTERN.source}))?)-${ZWJ_PATTERN.source}-)`,
 		`(?:([A-F0-9]{4,5}(?:-(?:${VARIATION_NC_PATTERN.source}))?)-${ZWJ_PATTERN.source}-)?`,
 		PERSON_TYPE_PATTERN.source,
+		'-',
+		SKIN_MODIFIER_PATTERN.source,
+	].join(''),
+);
+
+export const HANDSHAKE_MIXED_SKIN_TONE_PATTERN = new RegExp(
+	[
+		'1FAF1', // Rightwards hand
+		'-',
+		SKIN_MODIFIER_PATTERN.source,
+		'-',
+		ZWJ_PATTERN.source,
+		'-',
+		'1FAF2', // Leftwards hand
 		'-',
 		SKIN_MODIFIER_PATTERN.source,
 	].join(''),

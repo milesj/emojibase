@@ -16,7 +16,7 @@ import { Emoticon, PermutationOptions } from './types';
  * generateEmoticonPermutations(':)'); // =-), =-}, :-], =-], :-}, :-), =}, =], =), :}, :], :)
  * ```
  *
- * > The base emoticon must follow a set of [naming guidelines](./emoticons.md) to work properly.
+ * > The base emoticon must follow a set of naming guidelines to work properly.
  *
  * Furthermore, this function accepts an options object as the 2nd argument, as a means to customize
  * the output.
