@@ -7,12 +7,12 @@ import { POManager } from '../parsers/POManager';
 
 const instanceCache: Partial<Record<Locale, POManager>> = {};
 
-export async function loadPoMeta(locale: Locale): Promise<POManager> {
+export async function loadPoMessages(locale: Locale): Promise<POManager> {
 	if (instanceCache[locale]) {
 		return instanceCache[locale]!;
 	}
 
-	const poPath = path.resolve(process.cwd(), `po/${locale}/meta.po`);
+	const poPath = path.resolve(process.cwd(), `po/${locale}/messages.po`);
 	const po = PO.parse(await fs.promises.readFile(poPath, 'utf8'));
 
 	if (po.comments.length <= 1) {

@@ -15,7 +15,7 @@ import { writeCache } from '../helpers/writeCache';
 import { loadAnnotations } from '../loaders/loadAnnotations';
 import { loadData } from '../loaders/loadData';
 import { loadLocalization } from '../loaders/loadLocalization';
-import { loadPoMeta } from '../loaders/loadPoMeta';
+import { loadPoMessages } from '../loaders/loadPoMessages';
 import { loadSequences } from '../loaders/loadSequences';
 import { loadZwjSequences } from '../loaders/loadZwjSequences';
 import { CLDRAnnotation, CLDRAnnotationMap } from '../types';
@@ -65,7 +65,7 @@ export async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotatio
 	const englishAnnotations = await loadAnnotations('en'); // Fallback to English
 	const annotations = await loadAnnotations(locale);
 	const annotationsDerived = await loadAnnotations(locale, true); // Modifiers and sequences
-	const translations = await loadPoMeta(locale);
+	const translations = await loadPoMessages(locale);
 	let parentAnnotations: CLDRAnnotationMap = {};
 	let parentAnnotationsDerived: CLDRAnnotationMap = {};
 

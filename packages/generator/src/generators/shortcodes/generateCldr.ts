@@ -15,7 +15,7 @@ import KuromojiAnalyzer from 'kuroshiro-analyzer-kuromoji';
 import { transliterate } from 'transliteration';
 import { buildAnnotationData } from '../../builders/buildAnnotationData';
 import { writeDataset } from '../../helpers/writeDataset';
-import { loadPoMeta } from '../../loaders/loadPoMeta';
+import { loadPoMessages } from '../../loaders/loadPoMessages';
 import { POManager } from '../../parsers/POManager';
 import { ShortcodeDataMap } from '../../types';
 import { Database } from '../Database';
@@ -82,7 +82,7 @@ export async function generateCldr(db: Database) {
 		SUPPORTED_LOCALES.map(async (locale) => {
 			const isLatinChars = !NON_LATIN_LOCALES.includes(locale);
 			const annotations = await buildAnnotationData(locale);
-			const translations = await loadPoMeta(locale);
+			const translations = await loadPoMessages(locale);
 			const cldr: ShortcodeDataMap = {};
 			const cldrNonLatin: ShortcodeDataMap = {};
 			const skinToneSuffix = await slugify(

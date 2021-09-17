@@ -5,7 +5,7 @@ import { toArray } from '../../helpers/toArray';
 import { writeDataset } from '../../helpers/writeDataset';
 import { writeFile } from '../../helpers/writeFile';
 import { loadDataset } from '../../loaders/loadDatasetPackage';
-import { loadPoMeta } from '../../loaders/loadPoMeta';
+import { loadPoMessages } from '../../loaders/loadPoMessages';
 import { loadPoShortcodes } from '../../loaders/loadPoShortcodes';
 import { ShortcodeDataMap } from '../../types';
 import { Database } from '../Database';
@@ -19,7 +19,7 @@ export async function generateEmojibase(db: Database) {
 		SUPPORTED_LOCALES.map(async (locale) => {
 			const shortcodes: ShortcodeDataMap = {};
 			const translations = await loadPoShortcodes(locale);
-			const metaTranslations = await loadPoMeta(locale);
+			const metaTranslations = await loadPoMessages(locale);
 			const toneMsg = metaTranslations.getMessage('tone');
 			let count = 0;
 

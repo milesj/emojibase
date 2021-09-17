@@ -7,7 +7,7 @@ import { filterData } from '../helpers/filterData';
 import { log } from '../helpers/log';
 import { readCache } from '../helpers/readCache';
 import { writeDataset } from '../helpers/writeDataset';
-import { loadPoMeta } from '../loaders/loadPoMeta';
+import { loadPoMessages } from '../loaders/loadPoMessages';
 import {
 	CLDRAnnotationMap,
 	Emoji,
@@ -133,8 +133,8 @@ function createVersionMap(): HexcodeVersionMap {
 }
 
 async function generateMetadata(locale: Locale): Promise<unknown> {
-	const data = await loadPoMeta(locale);
-	const englishData = await loadPoMeta('en');
+	const data = await loadPoMessages(locale);
+	const englishData = await loadPoMessages('en');
 	const groups: GroupMeta[] = [];
 	const subgroups: GroupMeta[] = [];
 
