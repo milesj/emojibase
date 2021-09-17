@@ -11,7 +11,7 @@
 
 #### 💥 Breaking
 
-- Emojibase shortcode presets (`emojibase.json`) are now transliterated for all languages.
+- Updated `emojibase` shortcode preset to transliterate for all languages.
 - Updated the `emoticon` property to also support an array of strings.
 - Renamed the `annotation` field to `label`.
 - Renamed `meta.json` datasets to `messages.json`.
@@ -19,6 +19,8 @@
 #### 🚀 Updates
 
 - Added uppercased versions of emoticons when applicable.
+- Added `emojibase-native` shortcodes that do _not_ transliterate. Only applicable
+to languages that have been translated so far.
 - Added Swedish shortcodes (`sv/shortcodes/emojibase.json`).
 - Updated to [CLDR 40](http://cldr.unicode.org/index/downloads/cldr-40).
 

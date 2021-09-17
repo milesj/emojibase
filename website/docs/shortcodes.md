@@ -31,8 +31,8 @@ basically slugified variations of the `label` field in the Emojibase emoji objec
 
 ### `cldr-native`
 
-Like [`cldr`](#cldr) but shortcodes are not transliterated to Latin characters. These presets _do
-not_ exist for Latin based languages.
+Like [`cldr`](#cldr) but shortcodes are not transliterated to Latin characters. Furthermore, this
+preset will only include shortcodes that are not duplicated in the `cldr` preset.
 
 ```
 // 😁 beaming face with smiling eyes
@@ -58,7 +58,14 @@ Emojibase shortcodes that are carefully crafted and maintained in an effort to p
 - Commonly used shortcodes from other presets will be supported for interoperability and backwards
   compatibility. This does not guarantee 100% compatibility across the board.
 
-With this standard in place, we would also like to provide localized versions in the future.
+With this standard in place, we would also like to provide localized versions in the future. For
+languages that are localized, all shortcodes are transliterated to Latin characters.
+
+### `emojibase-native`
+
+Like [`emojibase`](#emojibase) but shortcodes are _not_ transliterated to Latin characters.
+Furthermore, this preset will only include shortcodes that are not duplicated in the `emojibase`
+preset.
 
 ### `emojibase-legacy`
 

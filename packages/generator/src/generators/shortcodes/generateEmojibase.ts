@@ -17,9 +17,11 @@ export async function generateEmojibase(db: Database) {
 	await Promise.all(
 		SUPPORTED_LOCALES.map(async (locale) => {
 			const shortcodes: ShortcodeDataMap = {};
+			const shortcodesNative: ShortcodeDataMap = {};
 			const translations = await loadPoShortcodes(locale);
 			const metaTranslations = await loadPoMessages(locale);
 			const toneMsg = Database.slugify(metaTranslations.getMessage('tone'), true);
+			const toneMsgNative = Database.slugify(metaTranslations.getMessage('tone'));
 			let count = 0;
 
 			db.emojiList.forEach((emoji) => {
@@ -29,27 +31,53 @@ export async function generateEmojibase(db: Database) {
 					return;
 				}
 
-				const list = new Set(
-					items
-						.map((item) => Database.slugify(translations.getMessage(item.msgid), true))
-						.filter(Boolean)
-						.sort(),
-				);
+				const list: string[] = [];
+				const listNative: string[] = [];
 
-				if (list.size === 0) {
+				items
+					.map((item) => translations.getMessage(item.msgid))
+					.filter(Boolean)
+					.forEach((msg) => {
+						const code = Database.slugify(msg, true);
+						const codeNative = Database.slugify(msg);
+
+						// Avoid dupes
+						if (list.includes(code)) {
+							return;
+						}
+
+						list.push(code);
+
+						if (codeNative !== code) {
+							listNative.push(codeNative);
+						}
+					});
+
+				if (list.length === 0) {
 					return;
 				}
 
-				count += 1;
-				shortcodes[emoji.hexcode] = db.formatShortcodes([...list]);
+				list.sort();
+				listNative.sort();
 
-				if (emoji.modifications) {
-					Object.values(emoji.modifications).forEach((mod) => {
-						shortcodes[mod.hexcode] = db.formatShortcodes(
-							[...list].map((code) => appendSkinToneIndex(code, mod, toneMsg)),
-						);
-					});
+				count += 1;
+				shortcodes[emoji.hexcode] = db.formatShortcodes(list);
+
+				if (listNative.length > 0) {
+					shortcodesNative[emoji.hexcode] = db.formatShortcodes(listNative);
 				}
+
+				Object.values(emoji.modifications ?? {}).forEach((mod) => {
+					shortcodes[mod.hexcode] = db.formatShortcodes(
+						list.map((code) => appendSkinToneIndex(code, mod, toneMsg)),
+					);
+
+					if (listNative.length > 0) {
+						shortcodesNative[mod.hexcode] = db.formatShortcodes(
+							listNative.map((code) => appendSkinToneIndex(code, mod, toneMsgNative)),
+						);
+					}
+				});
 			});
 
 			if (locale === 'en') {
@@ -60,10 +88,19 @@ export async function generateEmojibase(db: Database) {
 				return Promise.resolve();
 			}
 
-			return Promise.all([
+			const promises: Promise<unknown>[] = [
 				writeDataset(`${locale}/shortcodes/emojibase.raw.json`, shortcodes),
 				writeDataset(`${locale}/shortcodes/emojibase.json`, shortcodes, true),
-			]);
+			];
+
+			if (Object.keys(shortcodesNative).length > 0) {
+				promises.push(
+					writeDataset(`${locale}/shortcodes/emojibase-native.raw.json`, shortcodesNative),
+					writeDataset(`${locale}/shortcodes/emojibase-native.json`, shortcodesNative, true),
+				);
+			}
+
+			return Promise.all(promises);
 		}),
 	);
 
