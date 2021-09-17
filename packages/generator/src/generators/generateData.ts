@@ -139,7 +139,7 @@ async function generateMetadata(locale: Locale): Promise<unknown> {
 	const subgroups: GroupMeta[] = [];
 
 	data.po.items.forEach((item) => {
-		if (item.msgctxt.includes('ANNOTATION')) {
+		if (item.msgctxt.includes('LABEL')) {
 			return;
 		}
 
