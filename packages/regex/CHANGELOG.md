@@ -11,6 +11,7 @@
 #### 🚀 Updates
 
 - Added uppercased versions of emoticons when applicable.
+- Updated `shortcode-native` to handle Latin diacritics.
 
 ## 5.1.0 - 2020-01-07
 

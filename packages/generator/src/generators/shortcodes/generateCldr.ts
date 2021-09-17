@@ -3,13 +3,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 
-import {
-	appendSkinToneIndex,
-	Locale,
-	NON_LATIN_LOCALES,
-	stripHexcode,
-	SUPPORTED_LOCALES,
-} from 'emojibase';
+import { appendSkinToneIndex, Locale, stripHexcode, SUPPORTED_LOCALES } from 'emojibase';
 import KuroshiroImport from 'kuroshiro';
 import KuromojiAnalyzer from 'kuroshiro-analyzer-kuromoji';
 import { transliterate } from 'transliteration';
@@ -80,24 +74,21 @@ export async function generateCldr(db: Database) {
 
 	return Promise.all(
 		SUPPORTED_LOCALES.map(async (locale) => {
-			const isLatinChars = !NON_LATIN_LOCALES.includes(locale);
 			const annotations = await buildAnnotationData(locale);
 			const translations = await loadPoMessages(locale);
 			const cldr: ShortcodeDataMap = {};
-			const cldrNonLatin: ShortcodeDataMap = {};
+			const cldrNative: ShortcodeDataMap = {};
 			const skinToneSuffix = await slugify(
 				translations.getMessage('tone'),
 				locale,
 				translations,
 				true,
 			);
-			const skinToneSuffixNonLatin = await slugify(
+			const skinToneSuffixNative = await slugify(
 				translations.getMessage('tone'),
 				locale,
 				translations,
 			);
-			let hasLatin = false;
-			let hasNonLatin = false;
 
 			for (const emoji of db.emojiList) {
 				const row = annotations[emoji.hexcode] || annotations[stripHexcode(emoji.hexcode)];
@@ -107,51 +98,39 @@ export async function generateCldr(db: Database) {
 					continue;
 				}
 
-				// eslint-disable-next-line require-atomic-updates
-				cldr[emoji.hexcode] = await slugify(row.annotation, locale, translations, true);
-				hasLatin = true;
+				const code = await slugify(row.annotation, locale, translations, true);
+				const codeNative = await slugify(row.annotation, locale, translations);
 
-				if (!isLatinChars) {
-					cldrNonLatin[emoji.hexcode] = await slugify(row.annotation, locale, translations);
-					hasNonLatin = true;
+				// eslint-disable-next-line require-atomic-updates
+				cldr[emoji.hexcode] = code;
+
+				if (codeNative !== code) {
+					cldrNative[emoji.hexcode] = codeNative;
 				}
 
 				// Skin tones
-				if (emoji.modifications) {
-					// eslint-disable-next-line @typescript-eslint/no-loop-func
-					Object.values(emoji.modifications).forEach((mod) => {
-						if (hasLatin) {
-							cldr[mod.hexcode] = appendSkinToneIndex(
-								String(cldr[emoji.hexcode]),
-								mod,
-								skinToneSuffix,
-							);
-						}
+				Object.values(emoji.modifications ?? {}).forEach((mod) => {
+					cldr[mod.hexcode] = appendSkinToneIndex(String(cldr[emoji.hexcode]), mod, skinToneSuffix);
 
-						if (hasNonLatin) {
-							cldrNonLatin[mod.hexcode] = appendSkinToneIndex(
-								String(cldrNonLatin[emoji.hexcode]),
-								mod,
-								skinToneSuffixNonLatin,
-							);
-						}
-					});
-				}
+					if (codeNative !== code) {
+						cldrNative[mod.hexcode] = appendSkinToneIndex(
+							String(cldrNative[emoji.hexcode]),
+							mod,
+							skinToneSuffixNative,
+						);
+					}
+				});
 			}
 
-			const promises: Promise<unknown>[] = [];
+			const promises: Promise<unknown>[] = [
+				writeDataset(`${locale}/shortcodes/cldr.raw.json`, cldr),
+				writeDataset(`${locale}/shortcodes/cldr.json`, cldr, true),
+			];
 
-			if (hasLatin) {
+			if (Object.keys(cldrNative).length > 0) {
 				promises.push(
-					writeDataset(`${locale}/shortcodes/cldr.raw.json`, cldr),
-					writeDataset(`${locale}/shortcodes/cldr.json`, cldr, true),
-				);
-			}
-
-			if (hasNonLatin) {
-				promises.push(
-					writeDataset(`${locale}/shortcodes/cldr-native.raw.json`, cldrNonLatin),
-					writeDataset(`${locale}/shortcodes/cldr-native.json`, cldrNonLatin, true),
+					writeDataset(`${locale}/shortcodes/cldr-native.raw.json`, cldrNative),
+					writeDataset(`${locale}/shortcodes/cldr-native.json`, cldrNative, true),
 				);
 			}
 

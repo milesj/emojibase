@@ -103,8 +103,6 @@ export const SUPPORTED_LOCALES: Locale[] = [
 	'zh-hant', // Chinese (Traditional)
 ];
 
-export const NON_LATIN_LOCALES: Locale[] = ['ja', 'ko', 'ru', 'th', 'uk', 'zh', 'zh-hant'];
-
 // Special options for emoticon permutations.
 
 export const EMOTICON_OPTIONS: Record<string, PermutationOptions> = {

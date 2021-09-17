@@ -23,7 +23,11 @@ export async function generateIamCal(db: Database) {
 		const emoji = db.getEmoji(hexcode);
 
 		if (emoji && shortnames.length > 0) {
-			db.addShortcodes(shortcodes, emoji.hexcode, shortnames.map(Database.slugify));
+			db.addShortcodes(
+				shortcodes,
+				emoji.hexcode,
+				shortnames.map((name) => Database.slugify(name)),
+			);
 		}
 	});
 

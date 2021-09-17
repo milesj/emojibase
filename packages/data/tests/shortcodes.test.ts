@@ -1,5 +1,5 @@
 import path from 'path';
-import { Locale, NON_LATIN_LOCALES, ShortcodePreset, ShortcodesDataset } from 'emojibase';
+import { Locale, ShortcodePreset, ShortcodesDataset } from 'emojibase';
 import SHORTCODE_PATTERN from 'emojibase-regex/shortcode';
 import SHORTCODE_NATIVE_PATTERN from 'emojibase-regex/shortcode-native';
 
@@ -27,6 +27,7 @@ describe('shortcodes', () => {
 		'cldr',
 		'cldr-native',
 		'emojibase',
+		'emojibase-native',
 		'emojibase-legacy',
 		'github',
 		'iamcal',
@@ -35,8 +36,7 @@ describe('shortcodes', () => {
 
 	presets.forEach((preset) => {
 		const pattern =
-			preset === 'cldr-native' ||
-			(preset === 'emojibase' && NON_LATIN_LOCALES.includes(locale as Locale))
+			preset === 'cldr-native' || preset === 'emojibase-native'
 				? SHORTCODE_NATIVE_PATTERN
 				: SHORTCODE_PATTERN;
 
