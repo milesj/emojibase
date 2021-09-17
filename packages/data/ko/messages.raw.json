@@ -51,7 +51,28 @@
       "order": 9
     }
   ],
-  "skinTones": [],
+  "skinTones": [
+    {
+      "key": "light",
+      "message": "밝은 피부 톤"
+    },
+    {
+      "key": "medium-light",
+      "message": "중간 빛 피부 톤"
+    },
+    {
+      "key": "medium",
+      "message": "중간 피부 톤"
+    },
+    {
+      "key": "medium-dark",
+      "message": "미디엄 다크 스킨 톤"
+    },
+    {
+      "key": "dark",
+      "message": "어두운 피부 톤"
+    }
+  ],
   "subgroups": [
     {
       "key": "face-smiling",
@@ -150,7 +171,7 @@
     },
     {
       "key": "hands",
-      "message": "손을",
+      "message": "손",
       "order": 19
     },
     {
@@ -385,7 +406,7 @@
     },
     {
       "key": "sound",
-      "message": "사운드",
+      "message": "소리",
       "order": 66
     },
     {

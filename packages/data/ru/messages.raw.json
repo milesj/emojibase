@@ -51,7 +51,28 @@
       "order": 9
     }
   ],
-  "skinTones": [],
+  "skinTones": [
+    {
+      "key": "light",
+      "message": "светлый тон кожи"
+    },
+    {
+      "key": "medium-light",
+      "message": "средне-светлый тон кожи"
+    },
+    {
+      "key": "medium",
+      "message": "средний тон кожи"
+    },
+    {
+      "key": "medium-dark",
+      "message": "средне-темный тон кожи"
+    },
+    {
+      "key": "dark",
+      "message": "темный тон кожи"
+    }
+  ],
   "subgroups": [
     {
       "key": "face-smiling",

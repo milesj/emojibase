@@ -12,7 +12,7 @@
     },
     {
       "key": "component",
-      "message": "Komponen",
+      "message": "komponen",
       "order": 2
     },
     {
@@ -51,7 +51,28 @@
       "order": 9
     }
   ],
-  "skinTones": [],
+  "skinTones": [
+    {
+      "key": "light",
+      "message": "nada kulit cahaya"
+    },
+    {
+      "key": "medium-light",
+      "message": "nada kulit ringan"
+    },
+    {
+      "key": "medium",
+      "message": "nada kulit sederhana"
+    },
+    {
+      "key": "medium-dark",
+      "message": "nada kulit sederhana-gelap"
+    },
+    {
+      "key": "dark",
+      "message": "nada kulit gelap"
+    }
+  ],
   "subgroups": [
     {
       "key": "face-smiling",

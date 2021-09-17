@@ -51,7 +51,28 @@
       "order": 9
     }
   ],
-  "skinTones": [],
+  "skinTones": [
+    {
+      "key": "light",
+      "message": "teint clair"
+    },
+    {
+      "key": "medium-light",
+      "message": "teint moyen-clair"
+    },
+    {
+      "key": "medium",
+      "message": "teint moyen"
+    },
+    {
+      "key": "medium-dark",
+      "message": "teint foncé moyen-foncé"
+    },
+    {
+      "key": "dark",
+      "message": "teint foncé"
+    }
+  ],
   "subgroups": [
     {
       "key": "face-smiling",

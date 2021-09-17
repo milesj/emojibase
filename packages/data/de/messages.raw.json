@@ -51,7 +51,28 @@
       "order": 9
     }
   ],
-  "skinTones": [],
+  "skinTones": [
+    {
+      "key": "light",
+      "message": "heller Hautton"
+    },
+    {
+      "key": "medium-light",
+      "message": "mittelheller Hautton"
+    },
+    {
+      "key": "medium",
+      "message": "mittlerer Hautton"
+    },
+    {
+      "key": "medium-dark",
+      "message": "mitteldunkrer Hautton"
+    },
+    {
+      "key": "dark",
+      "message": "dunkler Hautton"
+    }
+  ],
   "subgroups": [
     {
       "key": "face-smiling",
