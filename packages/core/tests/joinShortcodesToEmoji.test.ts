@@ -4,7 +4,7 @@ import { getEmojiWithSkins } from './helpers';
 
 describe('joinShortcodesToEmoji()', () => {
 	const info: Emoji = {
-		annotation: 'information',
+		label: 'information',
 		hexcode: '2139',
 		tags: ['i'],
 		emoji: 'ℹ️',

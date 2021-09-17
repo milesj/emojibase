@@ -154,7 +154,7 @@ export type Unicode = string;
 export interface CompactEmoji
 	extends Pick<
 		Emoji,
-		'annotation' | 'emoticon' | 'group' | 'hexcode' | 'order' | 'shortcodes' | 'tags'
+		'emoticon' | 'group' | 'hexcode' | 'label' | 'order' | 'shortcodes' | 'tags'
 	> {
 	/** List of skin tones as emoji objects. */
 	skins?: CompactEmoji[];
@@ -165,8 +165,6 @@ export interface CompactEmoji
 export type FlatCompactEmoji = Omit<CompactEmoji, 'skins'>;
 
 export interface Emoji {
-	/** A localized description, provided by CLDR, primarily used for text-to-speech (TTS) and accessibility. */
-	annotation: string;
 	/** Emoji presentation unicode character. */
 	emoji: Unicode;
 	/** If applicable, an emoticon representing the emoji character. */
@@ -182,6 +180,8 @@ export interface Emoji {
 	 * joiners and variation selectors.
 	 */
 	hexcode: Hexcode;
+	/** A localized description, provided by CLDR, primarily used for text-to-speech (TTS) and accessibility. */
+	label: string;
 	/** The order in which emoji should be displayed on a device, through a keyboard or emoji picker. Undefined for unordered emojis. */
 	order?: number;
 	/** List of shortcodes without surrounding colons. */

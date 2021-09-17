@@ -31,7 +31,7 @@ export function setupStorage() {
 
 export function getEmojiWithSkins(): Emoji {
 	return {
-		annotation: 'waving hand',
+		label: 'waving hand',
 		hexcode: '1F44B',
 		tags: ['hand', 'wave', 'waving'],
 		emoji: '👋',
@@ -43,7 +43,7 @@ export function getEmojiWithSkins(): Emoji {
 		version: 0.6,
 		skins: [
 			{
-				annotation: 'waving hand: light skin tone',
+				label: 'waving hand: light skin tone',
 				hexcode: '1F44B-1F3FB',
 				emoji: '👋🏻',
 				text: '',
@@ -55,7 +55,7 @@ export function getEmojiWithSkins(): Emoji {
 				tone: 1,
 			},
 			{
-				annotation: 'waving hand: medium-light skin tone',
+				label: 'waving hand: medium-light skin tone',
 				hexcode: '1F44B-1F3FC',
 				emoji: '👋🏼',
 				text: '',
@@ -67,7 +67,7 @@ export function getEmojiWithSkins(): Emoji {
 				tone: 2,
 			},
 			{
-				annotation: 'waving hand: medium skin tone',
+				label: 'waving hand: medium skin tone',
 				hexcode: '1F44B-1F3FD',
 				emoji: '👋🏽',
 				text: '',
@@ -79,7 +79,7 @@ export function getEmojiWithSkins(): Emoji {
 				tone: 3,
 			},
 			{
-				annotation: 'waving hand: medium-dark skin tone',
+				label: 'waving hand: medium-dark skin tone',
 				hexcode: '1F44B-1F3FE',
 				emoji: '👋🏾',
 				text: '',
@@ -91,7 +91,7 @@ export function getEmojiWithSkins(): Emoji {
 				tone: 4,
 			},
 			{
-				annotation: 'waving hand: dark skin tone',
+				label: 'waving hand: dark skin tone',
 				hexcode: '1F44B-1F3FF',
 				emoji: '👋🏿',
 				text: '',
@@ -108,7 +108,7 @@ export function getEmojiWithSkins(): Emoji {
 
 export function getCompactEmojiWithSkins(): CompactEmoji {
 	return {
-		annotation: 'waving hand',
+		label: 'waving hand',
 		hexcode: '1F44B',
 		tags: ['hand', 'wave', 'waving'],
 		unicode: '👋',
@@ -116,35 +116,35 @@ export function getCompactEmojiWithSkins(): CompactEmoji {
 		group: 1,
 		skins: [
 			{
-				annotation: 'waving hand: light skin tone',
+				label: 'waving hand: light skin tone',
 				hexcode: '1F44B-1F3FB',
 				unicode: '👋🏻',
 				order: 164,
 				group: 1,
 			},
 			{
-				annotation: 'waving hand: medium-light skin tone',
+				label: 'waving hand: medium-light skin tone',
 				hexcode: '1F44B-1F3FC',
 				unicode: '👋🏼',
 				order: 165,
 				group: 1,
 			},
 			{
-				annotation: 'waving hand: medium skin tone',
+				label: 'waving hand: medium skin tone',
 				hexcode: '1F44B-1F3FD',
 				unicode: '👋🏽',
 				order: 166,
 				group: 1,
 			},
 			{
-				annotation: 'waving hand: medium-dark skin tone',
+				label: 'waving hand: medium-dark skin tone',
 				hexcode: '1F44B-1F3FE',
 				unicode: '👋🏾',
 				order: 167,
 				group: 1,
 			},
 			{
-				annotation: 'waving hand: dark skin tone',
+				label: 'waving hand: dark skin tone',
 				hexcode: '1F44B-1F3FF',
 				unicode: '👋🏿',
 				order: 168,

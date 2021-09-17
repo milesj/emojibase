@@ -3,6 +3,7 @@
 #### 💥 Breaking
 
 - Dropped IE 11 support. Modern browsers now required.
+- Renamed the `annotation` field to `label`.
 
 #### 🚀 Updates
 

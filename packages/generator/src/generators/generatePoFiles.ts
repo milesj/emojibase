@@ -44,7 +44,7 @@ export async function generatePoFiles(): Promise<void> {
 					po.addItem(
 						shortcode,
 						locale === 'en' ? shortcode : '',
-						`EMOJI: ${emoji.emoji || emoji.text} ${emoji.annotation}`,
+						`EMOJI: ${emoji.emoji || emoji.text} ${emoji.label}`,
 						{
 							comment: emoji.hexcode,
 						},

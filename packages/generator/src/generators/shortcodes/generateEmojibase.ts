@@ -99,7 +99,7 @@ export async function generateEmojibase(db: Database) {
 		}
 
 		output.push(
-			`  // ${unicode} ${emoji.annotation}`,
+			`  // ${unicode} ${emoji.label}`,
 			`  '${emoji.hexcode}': [${codes.map((sc) => `'${sc}'`).join(', ')}],`,
 		);
 	});

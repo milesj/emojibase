@@ -62,7 +62,7 @@ export default function EmojiList() {
 										<tr key={emoji.hexcode} data-hexcode={emoji.hexcode}>
 											<td className="text--center emoji--large">{emoji.emoji || emoji.text}</td>
 											<td>
-												{emoji.annotation}
+												{emoji.label}
 
 												{emoji.emoticon && <span className="text--muted"> {emoji.emoticon}</span>}
 											</td>

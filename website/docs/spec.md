@@ -29,96 +29,96 @@ placed within the `skins` array. Because of this, the `skins` array may contain 
 
 ```json
 {
-	"annotation": "people holding hands",
+	"label": "people holding hands",
 	"hexcode": "1F9D1-200D-1F91D-200D-1F9D1",
 	// ...
 	"skins": [
 		{
-			"annotation": "people holding hands: light skin tone",
+			"label": "people holding hands: light skin tone",
 			"hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FB",
 			// ...
 			"tone": 1
 		},
 		{
-			"annotation": "people holding hands: medium-light skin tone, light skin tone",
+			"label": "people holding hands: medium-light skin tone, light skin tone",
 			"hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FB",
 			// ...
 			"tone": [2, 1]
 		},
 		{
-			"annotation": "people holding hands: medium-light skin tone",
+			"label": "people holding hands: medium-light skin tone",
 			"hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FC",
 			// ...
 			"tone": 2
 		},
 		{
-			"annotation": "people holding hands: medium skin tone, light skin tone",
+			"label": "people holding hands: medium skin tone, light skin tone",
 			"hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FB",
 			// ...
 			"tone": [3, 1]
 		},
 		{
-			"annotation": "people holding hands: medium skin tone, medium-light skin tone",
+			"label": "people holding hands: medium skin tone, medium-light skin tone",
 			"hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FC",
 			// ...
 			"tone": [3, 2]
 		},
 		{
-			"annotation": "people holding hands: medium skin tone",
+			"label": "people holding hands: medium skin tone",
 			"hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FD",
 			// ...
 			"tone": 3
 		},
 		{
-			"annotation": "people holding hands: medium-dark skin tone, light skin tone",
+			"label": "people holding hands: medium-dark skin tone, light skin tone",
 			"hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FB",
 			// ...
 			"tone": [4, 1]
 		},
 		{
-			"annotation": "people holding hands: medium-dark skin tone, medium-light skin tone",
+			"label": "people holding hands: medium-dark skin tone, medium-light skin tone",
 			"hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FC",
 			// ...
 			"tone": [4, 2]
 		},
 		{
-			"annotation": "people holding hands: medium-dark skin tone, medium skin tone",
+			"label": "people holding hands: medium-dark skin tone, medium skin tone",
 			"hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FD",
 			// ...
 			"tone": [4, 3]
 		},
 		{
-			"annotation": "people holding hands: medium-dark skin tone",
+			"label": "people holding hands: medium-dark skin tone",
 			"hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FE",
 			// ...
 			"tone": 4
 		},
 		{
-			"annotation": "people holding hands: dark skin tone, light skin tone",
+			"label": "people holding hands: dark skin tone, light skin tone",
 			"hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB",
 			// ...
 			"tone": [5, 1]
 		},
 		{
-			"annotation": "people holding hands: dark skin tone, medium-light skin tone",
+			"label": "people holding hands: dark skin tone, medium-light skin tone",
 			"hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC",
 			// ...
 			"tone": [5, 2]
 		},
 		{
-			"annotation": "people holding hands: dark skin tone, medium skin tone",
+			"label": "people holding hands: dark skin tone, medium skin tone",
 			"hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD",
 			// ...
 			"tone": [5, 3]
 		},
 		{
-			"annotation": "people holding hands: dark skin tone, medium-dark skin tone",
+			"label": "people holding hands: dark skin tone, medium-dark skin tone",
 			"hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE",
 			// ...
 			"tone": [5, 4]
 		},
 		{
-			"annotation": "people holding hands: dark skin tone",
+			"label": "people holding hands: dark skin tone",
 			"hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF",
 			// ...
 			"tone": 5
@@ -161,7 +161,7 @@ The resulting dataset would include the following structure:
 
 ```json
 {
-	"annotation": "copyright",
+	"label": "copyright",
 	"hexcode": "00A9",
 	"emoji": "©️", // 00A9-FE0F
 	"text": "©︎" // 00A9-FE0E
@@ -178,17 +178,17 @@ each with their own hexcodes.
 
 ```json
 {
-  "annotation": "person in steamy room",
+  "label": "person in steamy room",
   "hexcode": "1F9D6"
   // ...
 },
 {
-  "annotation": "man in steamy room",
+  "label": "man in steamy room",
   "hexcode": "1F9D6-200D-2642-FE0F"
   // ...
 },
 {
-  "annotation": "woman in steamy room",
+  "label": "woman in steamy room",
   "hexcode": "1F9D6-200D-2640-FE0F"
   // ...
 },
@@ -204,22 +204,22 @@ hexcodes.
 
 ```json
 {
-  "annotation": "kiss",
+  "label": "kiss",
   "hexcode": "1F48F"
   // ...
 },
 {
-  "annotation": "kiss: woman, man",
+  "label": "kiss: woman, man",
   "hexcode": "1F469-200D-2764-FE0F-200D-1F48B-200D-1F468"
   // ...
 },
 {
-  "annotation": "kiss: man, man",
+  "label": "kiss: man, man",
   "hexcode": "1F468-200D-2764-FE0F-200D-1F48B-200D-1F468",
   // ...
 },
 {
-  "annotation": "kiss: woman, woman",
+  "label": "kiss: woman, woman",
   "hexcode": "1F469-200D-2764-FE0F-200D-1F48B-200D-1F469",
   // ...
 },

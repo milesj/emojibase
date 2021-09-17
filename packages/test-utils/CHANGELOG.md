@@ -14,6 +14,7 @@
 #### 💥 Breaking
 
 - Dropped Node.js v10 support. Requires v12.17 and above.
+- Renamed the `annotation` field to `label`.
 
 #### 🚀 Updates
 

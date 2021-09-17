@@ -127,7 +127,7 @@ export default function ShortcodesTable() {
 											<tr key={emoji.hexcode} data-hexcode={emoji.hexcode}>
 												<td className="text--center emoji--large">{emoji.emoji || emoji.text}</td>
 												<td>
-													<div>{emoji.annotation}</div>
+													<div>{emoji.label}</div>
 													<div className="text--muted no-wrap">{emoji.hexcode}</div>
 												</td>
 												<td>

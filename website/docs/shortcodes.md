@@ -20,7 +20,7 @@ collection of shortcodes that map to emoji hexcodes. They're entirely platform d
 
 Localized shortcodes derived from the official Unicode [CLDR][cldr] annotations. Non-Latin languages
 are transliterated to a Latin character equivalent, but may not be entirely accurate. These are
-basically slugified variations of the `annotation` field in the Emojibase emoji object.
+basically slugified variations of the `label` field in the Emojibase emoji object.
 
 ```
 // 😁 beaming face with smiling eyes

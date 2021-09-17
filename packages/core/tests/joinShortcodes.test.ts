@@ -4,7 +4,7 @@ import { Emoji } from '../src/types';
 function createList(): Emoji[] {
 	return [
 		{
-			annotation: 'FREE button',
+			label: 'FREE button',
 			hexcode: '1F193',
 			tags: ['free', 'free button'],
 			emoji: '🆓',
@@ -16,7 +16,7 @@ function createList(): Emoji[] {
 			version: 0.6,
 		},
 		{
-			annotation: 'information',
+			label: 'information',
 			hexcode: '2139',
 			tags: ['i'],
 			emoji: 'ℹ️',
@@ -28,7 +28,7 @@ function createList(): Emoji[] {
 			version: 0.6,
 		},
 		{
-			annotation: 'ID button',
+			label: 'ID button',
 			hexcode: '1F194',
 			tags: ['id', 'id button', 'identity'],
 			emoji: '🆔',

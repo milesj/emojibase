@@ -12,6 +12,7 @@
 #### 💥 Breaking
 
 - The `emoticon` property can now be an array of strings.
+- Renamed the `annotation` field to `label`.
 
 #### 🚀 Updates
 

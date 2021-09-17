@@ -29,7 +29,7 @@ function createEmoji(
 	/* eslint-disable sort-keys */
 	const emoji: FinalEmoji = {
 		// Classification
-		annotation: '',
+		label: '',
 		hexcode: baseEmoji.hexcode,
 		tags: [],
 		// Presentation
@@ -72,7 +72,7 @@ function createEmoji(
 	const annotation = annotations[stripHexcode(emoji.hexcode)]; // No ZWJ, selectors
 
 	if (annotation) {
-		emoji.annotation = annotation.annotation ? annotation.annotation : baseEmoji.description;
+		emoji.label = annotation.annotation ? annotation.annotation : baseEmoji.description;
 
 		if (annotation.tags.length > 0) {
 			emoji.tags = annotation.tags;
@@ -82,7 +82,7 @@ function createEmoji(
 
 			// Some locales duplicate the annotation in the tag list
 			if (emoji.tags.length > 1) {
-				emoji.tags = emoji.tags.filter((tag: string) => tag !== emoji.annotation);
+				emoji.tags = emoji.tags.filter((tag: string) => tag !== emoji.label);
 			}
 		}
 	}
@@ -92,8 +92,7 @@ function createEmoji(
 		emoji.skins = Object.values(baseEmoji.modifications!).map((mod) => {
 			const skin = createEmoji(mod, versions, annotations);
 
-			skin.annotation =
-				(annotations[stripHexcode(skin.hexcode)] || {}).annotation || emoji.annotation || '';
+			skin.label = (annotations[stripHexcode(skin.hexcode)] || {}).annotation || emoji.label || '';
 
 			// Remove any tags
 			delete skin.tags;

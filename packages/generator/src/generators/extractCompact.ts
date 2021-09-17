@@ -2,11 +2,11 @@ import { CompactEmoji, Emoji } from 'emojibase';
 
 export function extractCompact(data: Emoji[]): CompactEmoji[] {
 	return data.map((full) => {
-		const { hexcode, emoji, emoticon, order, group, annotation, tags, text, skins } = full;
+		const { hexcode, emoji, emoticon, order, group, label, tags, text, skins } = full;
 		const compact: CompactEmoji = {
-			annotation,
 			group,
 			hexcode,
+			label,
 			order,
 			tags,
 			unicode: emoji || text,
