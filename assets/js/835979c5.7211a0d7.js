@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[4261],{2758:function(e){e.exports=JSON.parse('{"id":103,"name":"joinShortcodes","nextId":110,"permalink":"/api/emojibase/function/joinShortcodes","previousId":99}')}}]);
