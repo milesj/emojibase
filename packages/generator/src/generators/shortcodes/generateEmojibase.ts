@@ -31,22 +31,24 @@ export async function generateEmojibase(db: Database) {
 					return;
 				}
 
-				const list = items
-					.map((item) => Database.slugify(transliterate(toArray(item.msgstr).join(''))))
-					.filter(Boolean)
-					.sort();
+				const list = new Set(
+					items
+						.map((item) => Database.slugify(transliterate(translations.getMessage(item.msgid))))
+						.filter(Boolean)
+						.sort(),
+				);
 
-				if (list.length === 0) {
+				if (list.size === 0) {
 					return;
 				}
 
 				count += 1;
-				shortcodes[emoji.hexcode] = db.formatShortcodes(list);
+				shortcodes[emoji.hexcode] = db.formatShortcodes([...list]);
 
 				if (emoji.modifications) {
 					Object.values(emoji.modifications).forEach((mod) => {
 						shortcodes[mod.hexcode] = db.formatShortcodes(
-							list.map((code) => appendSkinToneIndex(code, mod, toneMsg)),
+							[...list].map((code) => appendSkinToneIndex(code, mod, toneMsg)),
 						);
 					});
 				}
