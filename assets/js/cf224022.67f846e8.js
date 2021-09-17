@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[3673],{6227:function(e){e.exports=JSON.parse('{"id":95,"name":"fromUnicodeToHexcode","nextId":99,"permalink":"/api/emojibase/function/fromUnicodeToHexcode","previousId":91}')}}]);
