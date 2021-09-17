@@ -2,7 +2,6 @@ import path from 'path';
 import { appendSkinToneIndex, Emoji, SUPPORTED_LOCALES, TEXT } from 'emojibase';
 import { transliterate } from 'transliteration';
 import { SHORTCODE_GUIDELINES } from '../../constants';
-import { toArray } from '../../helpers/toArray';
 import { writeDataset } from '../../helpers/writeDataset';
 import { writeFile } from '../../helpers/writeFile';
 import { loadDataset } from '../../loaders/loadDatasetPackage';
