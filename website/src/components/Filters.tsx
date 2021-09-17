@@ -2,7 +2,14 @@
 
 import 'url-search-params-polyfill';
 import React, { useCallback, useEffect, useState } from 'react';
-import { Emoji, GroupDataset, GroupMeta, Locale, ShortcodePreset } from 'emojibase';
+import {
+	Emoji,
+	GroupDataset,
+	GroupMessage,
+	Locale,
+	ShortcodePreset,
+	SubgroupMessage,
+} from 'emojibase';
 import debounce from 'lodash/debounce';
 import upperFirst from 'lodash/upperFirst';
 import styles from './styles.module.css';
@@ -10,8 +17,8 @@ import styles from './styles.module.css';
 const groupsMetaDataset = require('emojibase-data/meta/groups.json') as GroupDataset;
 
 const metaTranslations = require('emojibase-data/en/messages.raw.json') as {
-	groups: GroupMeta[];
-	subgroups: GroupMeta[];
+	groups: GroupMessage[];
+	subgroups: SubgroupMessage[];
 };
 
 const isBrowser = typeof location !== 'undefined';
@@ -110,7 +117,7 @@ export function processEmojis(
 
 type GroupLabels = Record<string, string>;
 
-export function mapGroups(groups: GroupMeta[]): GroupLabels {
+export function mapGroups(groups: (GroupMessage | SubgroupMessage)[]): GroupLabels {
 	const labels: GroupLabels = {};
 
 	groups.forEach((item) => {

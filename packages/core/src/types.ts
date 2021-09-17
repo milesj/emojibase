@@ -225,15 +225,27 @@ export type VersionDataset = Record<string, string[]>;
 
 export type ShortcodesDataset = Record<string, string[] | string>;
 
-export interface GroupMeta {
-	key: string;
+export interface SkinToneMessage {
+	key: SkinToneKey;
+	message: string;
+}
+
+export interface GroupMessage {
+	key: GroupKey;
+	message: string;
+	order: number;
+}
+
+export interface SubgroupMessage {
+	key: SubgroupKey;
 	message: string;
 	order: number;
 }
 
 export interface MessagesDataset {
-	groups: GroupMeta[];
-	subgroups: GroupMeta[];
+	groups: GroupMessage[];
+	skinTones: SkinToneMessage[];
+	subgroups: SubgroupMessage[];
 }
 
 export type Locale =

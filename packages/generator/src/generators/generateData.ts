@@ -1,6 +1,14 @@
 /* eslint-disable complexity */
 
-import { Emoji as FinalEmoji, GroupMeta, Locale, stripHexcode, SUPPORTED_LOCALES } from 'emojibase';
+import {
+	Emoji as FinalEmoji,
+	GroupMessage,
+	Locale,
+	SkinToneMessage,
+	stripHexcode,
+	SubgroupMessage,
+	SUPPORTED_LOCALES,
+} from 'emojibase';
 import { buildAnnotationData } from '../builders/buildAnnotationData';
 import { buildEmojiData } from '../builders/buildEmojiData';
 import { filterData } from '../helpers/filterData';
@@ -135,8 +143,9 @@ function createVersionMap(): HexcodeVersionMap {
 async function generateMessages(locale: Locale): Promise<unknown> {
 	const data = await loadPoMessages(locale);
 	const englishData = await loadPoMessages('en');
-	const groups: GroupMeta[] = [];
-	const subgroups: GroupMeta[] = [];
+	const groups: GroupMessage[] = [];
+	const subgroups: SubgroupMessage[] = [];
+	const skinTones: SkinToneMessage[] = [];
 
 	data.po.items.forEach((item) => {
 		if (item.msgctxt.includes('LABEL')) {
@@ -146,21 +155,36 @@ async function generateMessages(locale: Locale): Promise<unknown> {
 		const contexts = String(item.msgctxt).split(',');
 
 		item.comments.forEach((comment, i) => {
-			const [id, key] = comment.split(':');
-			const meta: GroupMeta = {
-				key: key.trim(),
-				message: String(item.msgstr),
-				order: Number(id.trim()),
-			};
+			const ctx = contexts[i];
 
-			if (!meta.message) {
-				meta.message = String(englishData.itemsById[item.msgid].msgstr);
+			if (!ctx) {
+				return;
 			}
 
-			if (contexts[i].includes('SUB-GROUP')) {
-				subgroups.push(meta);
-			} else {
-				groups.push(meta);
+			if (ctx.includes('GROUP')) {
+				const [id, key] = comment.split(':');
+				const meta = {
+					key: key.trim(),
+					message: String(item.msgstr),
+					order: Number(id.trim()),
+				};
+
+				if (!meta.message) {
+					meta.message = String(englishData.itemsById[item.msgid].msgstr);
+				}
+
+				if (ctx.includes('SUB-GROUP')) {
+					subgroups.push(meta as SubgroupMessage);
+				} else {
+					groups.push(meta as GroupMessage);
+				}
+			} else if (ctx.includes('SKIN TONE')) {
+				const [, key] = ctx.split(':');
+
+				skinTones.push({
+					key: key.trim(),
+					message: String(item.msgstr),
+				} as SkinToneMessage);
 			}
 		});
 	});
@@ -169,8 +193,8 @@ async function generateMessages(locale: Locale): Promise<unknown> {
 	subgroups.sort(sortOrder);
 
 	return Promise.all([
-		writeDataset(`${locale}/messages.raw.json`, { groups, subgroups }),
-		writeDataset(`${locale}/messages.json`, { groups, subgroups }, true),
+		writeDataset(`${locale}/messages.raw.json`, { groups, skinTones, subgroups }),
+		writeDataset(`${locale}/messages.json`, { groups, skinTones, subgroups }, true),
 	]);
 }
 

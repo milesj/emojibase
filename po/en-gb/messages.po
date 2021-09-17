@@ -3,25 +3,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-25 22:32+420\n"
-"PO-Revision-Date: 2021-01-10 15:38+480\n"
+"POT-Creation-Date: 2021-09-17 14:53-0700\n"
+"PO-Revision-Date: 2021-09-17 14:58-0700\n"
 "Last-Translator: \n"
-"Language: en_GB\n"
 "Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: \n"
-"MIME-Version: 1.0\n"
-"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
 
 # Custom
 #, javascript-format
-msgctxt "LABEL: Denotes a countries flag using alphabetical characters (usa = United States)"
+msgctxt ""
+"LABEL: Denotes a countries flag using alphabetical characters (usa = United "
+"States)"
 msgid "regional indicator %s"
 msgstr "regional indicator %s"
 
 # Custom
-msgctxt "LABEL: Very short word for skin tone and/or color (max 1 word if possible)"
+msgctxt ""
+"LABEL: Very short word for skin tone and/or color (max 1 word if possible)"
 msgid "tone"
 msgstr "tone"
 
@@ -34,6 +37,31 @@ msgstr "asterisk"
 msgctxt "LABEL: Name of the number sign/hash symbol (#)"
 msgid "number sign"
 msgstr "number sign"
+
+# Custom
+msgctxt "SKIN TONE: light"
+msgid "light skin tone"
+msgstr "light skin tone"
+
+# Custom
+msgctxt "SKIN TONE: medium-light"
+msgid "medium-light skin tone"
+msgstr "medium-light skin tone"
+
+# Custom
+msgctxt "SKIN TONE: medium"
+msgid "medium skin tone"
+msgstr "medium skin tone"
+
+# Custom
+msgctxt "SKIN TONE: medium-dark"
+msgid "medium-dark skin tone"
+msgstr "medium-dark skin tone"
+
+# Custom
+msgctxt "SKIN TONE: dark"
+msgid "dark skin tone"
+msgstr "dark skin tone"
 
 # 0: smileys-emotion
 #, fuzzy
@@ -227,7 +255,7 @@ msgstr "body parts"
 # 22: person
 msgctxt "EMOJI SUB-GROUP: person"
 msgid "people"
-msgstr "Personen"
+msgstr "people"
 
 # 23: person-gesture
 #, fuzzy
@@ -262,6 +290,12 @@ msgstr "resting"
 msgctxt "EMOJI SUB-GROUP: family"
 msgid "family"
 msgstr "family"
+
+# 30: person-symbol
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: person-symbol"
+msgid "people symbols"
+msgstr "people symbols"
 
 # 31: skin-tone
 #, fuzzy
@@ -637,6 +671,12 @@ msgctxt "EMOJI SUB-GROUP: geometric"
 msgid "shapes & colors"
 msgstr "shapes & colors"
 
+# 97: flag
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: flag"
+msgid "other flags"
+msgstr "other flags"
+
 # 98: country-flag
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: country-flag"
@@ -648,15 +688,3 @@ msgstr "country flags"
 msgctxt "EMOJI SUB-GROUP: subdivision-flag"
 msgid "subdivision flags"
 msgstr "subdivision flags"
-
-# 30: person-symbol
-#, fuzzy
-msgctxt "EMOJI SUB-GROUP: person-symbol"
-msgid "people symbols"
-msgstr "people symbols"
-
-# 97: flag
-#, fuzzy
-msgctxt "EMOJI SUB-GROUP: flag"
-msgid "other flags"
-msgstr "other flags"
