@@ -18,6 +18,7 @@
 #### 🚀 Updates
 
 - Added uppercased versions of emoticons when applicable.
+- Added Swedish shortcodes (`sv/shortcodes/emojibase.json`).
 - Updated to [CLDR 40](http://cldr.unicode.org/index/downloads/cldr-40).
 
 ## 6.2.0 - 2021-05-13
