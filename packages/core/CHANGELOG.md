@@ -5,10 +5,12 @@
 - Dropped IE 11 support. Modern browsers now required.
 - Renamed the `annotation` field to `label`.
 - Renamed `fetchMetadata` to `fetchMessages`.
+- Removed the `NON_LATIN_LOCALES` constant.
 
 #### 🚀 Updates
 
 - Updated to [CLDR 40](http://cldr.unicode.org/index/downloads/cldr-40).
+- Updated `fetchShortcodes` to no longer return an empty response for `cldr-native` and invalid locales.
 
 #### 🛠 Internals
 
