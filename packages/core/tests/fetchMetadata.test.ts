@@ -17,7 +17,7 @@ describe('fetchMetadata()', () => {
 		await fetchMetadata('de');
 
 		expect(fetchMock).toHaveBeenCalledWith(
-			'https://cdn.jsdelivr.net/npm/emojibase-data@latest/de/meta.json',
+			'https://cdn.jsdelivr.net/npm/emojibase-data@latest/de/messages.json',
 			{
 				credentials: 'omit',
 				mode: 'cors',

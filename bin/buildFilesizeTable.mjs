@@ -52,7 +52,7 @@ function calculatePackage(packageName) {
 					groups[2].push(row);
 				} else if (row.file.endsWith('data.json')) {
 					groups[1].push(row);
-				} else if (row.file.endsWith('meta.json')) {
+				} else if (row.file.endsWith('messages.json')) {
 					groups[4].push(row);
 				} else if (row.file.includes('shortcodes/')) {
 					groups[3].push(row);

@@ -5,5 +5,5 @@
 
 export * from './loadEmojiData';
 export * from './loadFlatEmojiData';
-export * from './loadMeta';
+export * from './loadMessages';
 export * from './loadShortcodes';

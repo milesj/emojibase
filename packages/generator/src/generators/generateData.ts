@@ -132,7 +132,7 @@ function createVersionMap(): HexcodeVersionMap {
 	return versions;
 }
 
-async function generateMetadata(locale: Locale): Promise<unknown> {
+async function generateMessages(locale: Locale): Promise<unknown> {
 	const data = await loadPoMessages(locale);
 	const englishData = await loadPoMessages('en');
 	const groups: GroupMeta[] = [];
@@ -169,8 +169,8 @@ async function generateMetadata(locale: Locale): Promise<unknown> {
 	subgroups.sort(sortOrder);
 
 	return Promise.all([
-		writeDataset(`${locale}/meta.raw.json`, { groups, subgroups }),
-		writeDataset(`${locale}/meta.json`, { groups, subgroups }, true),
+		writeDataset(`${locale}/messages.raw.json`, { groups, subgroups }),
+		writeDataset(`${locale}/messages.json`, { groups, subgroups }, true),
 	]);
 }
 
@@ -195,7 +195,7 @@ export async function generateData(): Promise<void> {
 			const compactEmojis = extractCompact(emojis);
 
 			return Promise.all([
-				generateMetadata(locale),
+				generateMessages(locale),
 				writeDataset(`${locale}/data.raw.json`, emojis),
 				writeDataset(`${locale}/data.json`, emojis, true),
 				writeDataset(`${locale}/compact.raw.json`, compactEmojis),

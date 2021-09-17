@@ -230,7 +230,7 @@ export interface GroupMeta {
 	order: number;
 }
 
-export interface MetadataDataset {
+export interface MessagesDataset {
 	groups: GroupMeta[];
 	subgroups: GroupMeta[];
 }

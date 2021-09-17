@@ -45,7 +45,7 @@ adhere to the defined [data structure](#data-structure).
 ```ts
 import emojis from 'emojibase-data/<locale>/data.json';
 import compactEmojis from 'emojibase-data/<locale>/compact.json';
-import groupsSubgroups from 'emojibase-data/<locale>/meta.json';
+import groupsSubgroups from 'emojibase-data/<locale>/messages.json';
 ```
 
 The second group, versioned data, provides datasets for emoji and Unicode release versions. These
@@ -165,13 +165,13 @@ import data from 'emojibase-data/en/compact.json';
 },
 ```
 
-### Metadata format
+### Messages format
 
-The metadata format is a special dataset that provides translations for groups, sub-groups, and any
+The messages format is a special dataset that provides translations for groups, sub-groups, and any
 other related emoji metadata.
 
 ```ts
-import data from 'emojibase-data/en/meta.json';
+import data from 'emojibase-data/en/messages.json';
 ```
 
 ```js
@@ -253,7 +253,7 @@ Sorted by original size in ascending order.
     { label: 'Emojis', value: 'data' },
     { label: 'Emojis (compact)', value: 'compact' },
     { label: 'Shortcodes', value: 'shortcodes' },
-    { label: 'Metadata', value: 'metadata' },
+    { label: 'Messages', value: 'messages' },
     { label: 'Other', value: 'other' },
   ]}
 >
@@ -367,35 +367,35 @@ Sorted by original size in ascending order.
 | uk/shortcodes/cldr-native.json      | 223.22 kB | 31.85 kB |
 
   </TabItem>
-  <TabItem value="metadata">
+  <TabItem value="messages">
 
-| File              |    Size | Gzipped |
-| ----------------- | ------: | ------: |
-| zh/meta.json      | 5.87 kB | 1.85 kB |
-| zh-hant/meta.json | 5.93 kB | 1.85 kB |
-| en/meta.json      | 6.19 kB | 1.54 kB |
-| en-gb/meta.json   |  6.2 kB | 1.56 kB |
-| sv/meta.json      | 6.22 kB | 1.75 kB |
-| da/meta.json      | 6.23 kB | 1.74 kB |
-| ms/meta.json      | 6.23 kB | 1.76 kB |
-| ko/meta.json      | 6.26 kB | 1.99 kB |
-| nb/meta.json      | 6.26 kB | 1.75 kB |
-| et/meta.json      | 6.29 kB | 1.79 kB |
-| it/meta.json      | 6.31 kB | 1.78 kB |
-| nl/meta.json      | 6.32 kB | 1.77 kB |
-| pl/meta.json      | 6.32 kB | 1.92 kB |
-| de/meta.json      | 6.35 kB | 1.85 kB |
-| fi/meta.json      | 6.35 kB | 1.83 kB |
-| pt/meta.json      | 6.41 kB | 1.84 kB |
-| es-mx/meta.json   | 6.45 kB | 1.85 kB |
-| es/meta.json      | 6.45 kB | 1.85 kB |
-| ja/meta.json      | 6.45 kB | 2.13 kB |
-| hu/meta.json      | 6.48 kB | 1.92 kB |
-| fr/meta.json      | 6.49 kB | 1.86 kB |
-| lt/meta.json      | 6.51 kB |  1.9 kB |
-| ru/meta.json      | 7.45 kB | 2.24 kB |
-| uk/meta.json      |  7.5 kB | 2.29 kB |
-| th/meta.json      | 8.63 kB | 2.34 kB |
+| File                  |    Size | Gzipped |
+| --------------------- | ------: | ------: |
+| zh/messages.json      | 5.87 kB | 1.85 kB |
+| zh-hant/messages.json | 5.93 kB | 1.85 kB |
+| en/messages.json      | 6.19 kB | 1.54 kB |
+| en-gb/messages.json   |  6.2 kB | 1.56 kB |
+| sv/messages.json      | 6.22 kB | 1.75 kB |
+| da/messages.json      | 6.23 kB | 1.74 kB |
+| ms/messages.json      | 6.23 kB | 1.76 kB |
+| ko/messages.json      | 6.26 kB | 1.99 kB |
+| nb/messages.json      | 6.26 kB | 1.75 kB |
+| et/messages.json      | 6.29 kB | 1.79 kB |
+| it/messages.json      | 6.31 kB | 1.78 kB |
+| nl/messages.json      | 6.32 kB | 1.77 kB |
+| pl/messages.json      | 6.32 kB | 1.92 kB |
+| de/messages.json      | 6.35 kB | 1.85 kB |
+| fi/messages.json      | 6.35 kB | 1.83 kB |
+| pt/messages.json      | 6.41 kB | 1.84 kB |
+| es-mx/messages.json   | 6.45 kB | 1.85 kB |
+| es/messages.json      | 6.45 kB | 1.85 kB |
+| ja/messages.json      | 6.45 kB | 2.13 kB |
+| hu/messages.json      | 6.48 kB | 1.92 kB |
+| fr/messages.json      | 6.49 kB | 1.86 kB |
+| lt/messages.json      | 6.51 kB |  1.9 kB |
+| ru/messages.json      | 7.45 kB | 2.24 kB |
+| uk/messages.json      |  7.5 kB | 2.29 kB |
+| th/messages.json      | 8.63 kB | 2.34 kB |
 
   </TabItem>
   <TabItem value="other">
