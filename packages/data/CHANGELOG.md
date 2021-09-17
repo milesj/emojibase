@@ -11,12 +11,15 @@
 
 #### 💥 Breaking
 
-- The `emoticon` property can now be an array of strings.
+- Emojibase shortcode presets (`emojibase.json`) are now transliterated for all languages.
+- Updated the `emoticon` property to also support an array of strings.
 - Renamed the `annotation` field to `label`.
+- Renamed `meta.json` datasets to `messages.json`.
 
 #### 🚀 Updates
 
 - Added uppercased versions of emoticons when applicable.
+- Added Swedish shortcodes (`sv/shortcodes/emojibase.json`).
 - Updated to [CLDR 40](http://cldr.unicode.org/index/downloads/cldr-40).
 
 ## 6.2.0 - 2021-05-13

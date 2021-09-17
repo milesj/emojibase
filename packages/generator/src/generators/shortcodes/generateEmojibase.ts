@@ -1,11 +1,11 @@
 import path from 'path';
 import { appendSkinToneIndex, Emoji, SUPPORTED_LOCALES, TEXT } from 'emojibase';
+import { transliterate } from 'transliteration';
 import { SHORTCODE_GUIDELINES } from '../../constants';
-import { toArray } from '../../helpers/toArray';
 import { writeDataset } from '../../helpers/writeDataset';
 import { writeFile } from '../../helpers/writeFile';
 import { loadDataset } from '../../loaders/loadDatasetPackage';
-import { loadPoMeta } from '../../loaders/loadPoMeta';
+import { loadPoMessages } from '../../loaders/loadPoMessages';
 import { loadPoShortcodes } from '../../loaders/loadPoShortcodes';
 import { ShortcodeDataMap } from '../../types';
 import { Database } from '../Database';
@@ -19,8 +19,8 @@ export async function generateEmojibase(db: Database) {
 		SUPPORTED_LOCALES.map(async (locale) => {
 			const shortcodes: ShortcodeDataMap = {};
 			const translations = await loadPoShortcodes(locale);
-			const metaTranslations = await loadPoMeta(locale);
-			const toneMsg = metaTranslations.getMessage('tone');
+			const metaTranslations = await loadPoMessages(locale);
+			const toneMsg = Database.slugify(transliterate(metaTranslations.getMessage('tone')));
 			let count = 0;
 
 			db.emojiList.forEach((emoji) => {
@@ -30,22 +30,24 @@ export async function generateEmojibase(db: Database) {
 					return;
 				}
 
-				const list = items
-					.map((item) => Database.slugify(toArray(item.msgstr).join('')))
-					.filter(Boolean)
-					.sort();
+				const list = new Set(
+					items
+						.map((item) => Database.slugify(transliterate(translations.getMessage(item.msgid))))
+						.filter(Boolean)
+						.sort(),
+				);
 
-				if (list.length === 0) {
+				if (list.size === 0) {
 					return;
 				}
 
 				count += 1;
-				shortcodes[emoji.hexcode] = db.formatShortcodes(list);
+				shortcodes[emoji.hexcode] = db.formatShortcodes([...list]);
 
 				if (emoji.modifications) {
 					Object.values(emoji.modifications).forEach((mod) => {
 						shortcodes[mod.hexcode] = db.formatShortcodes(
-							list.map((code) => appendSkinToneIndex(code, mod, toneMsg)),
+							[...list].map((code) => appendSkinToneIndex(code, mod, toneMsg)),
 						);
 					});
 				}

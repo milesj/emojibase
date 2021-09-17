@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 
 const groupsMetaDataset = require('emojibase-data/meta/groups.json') as GroupDataset;
 
-const metaTranslations = require('emojibase-data/en/meta.raw.json') as {
+const metaTranslations = require('emojibase-data/en/messages.raw.json') as {
 	groups: GroupMeta[];
 	subgroups: GroupMeta[];
 };

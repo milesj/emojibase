@@ -1,681 +1,628 @@
-# Thai
+# Russian
+# Artem <KovalevArtem.ru@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-25 22:32+420\n"
-"PO-Revision-Date: 2021-01-10 18:50-0800\n"
-"Last-Translator: \n"
-"Language: th\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2021-01-10 18:44-0800\n"
+"Last-Translator: Artem <KovalevArtem.ru@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/emojibase/emoji-metadata/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: \n"
-"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Poedit 2.4.2\n"
 
 # Custom
 #, javascript-format
-msgctxt "ANNOTATION: Denotes a countries flag using alphabetical characters (usa = United States)"
+msgctxt "LABEL: Denotes a countries flag using alphabetical characters (usa = United States)"
 msgid "regional indicator %s"
-msgstr "ตัวบ่งชี้ภูมิภาคก %s"
+msgstr "региональный показатель %s"
 
 # Custom
-msgctxt "ANNOTATION: Very short word for skin tone and/or color (max 1 word if possible)"
+msgctxt "LABEL: Very short word for skin tone and/or color (max 1 word if possible)"
 msgid "tone"
-msgstr "สี"
+msgstr "цвет"
 
 # Custom
-msgctxt "ANNOTATION: Name of the asterisk symbol (*)"
+msgctxt "LABEL: Name of the asterisk symbol (*)"
 msgid "asterisk"
-msgstr "ดอกจัน"
+msgstr "звездочка"
 
 # Custom
-msgctxt "ANNOTATION: Name of the number sign/hash symbol (#)"
+msgctxt "LABEL: Name of the number sign/hash symbol (#)"
 msgid "number sign"
-msgstr "เครื่องหมายตัวเลข"
+msgstr "числовой знак"
 
 # 0: smileys-emotion
-#, fuzzy
 msgctxt "EMOJI GROUP: smileys-emotion"
 msgid "smileys & emotion"
-msgstr "รอยยิ้มและอารมณ์"
+msgstr "смайлики и люди"
 
 # 1: people-body
-#, fuzzy
 msgctxt "EMOJI GROUP: people-body"
 msgid "people & body"
-msgstr "คนและร่างกาย"
+msgstr "тело людей"
 
 # 2: component
-#, fuzzy
 msgctxt "EMOJI GROUP: component"
 msgid "components"
-msgstr "คอม โพ เนนต์"
+msgstr "компонент"
 
 # 3: animals-nature
-#, fuzzy
 msgctxt "EMOJI GROUP: animals-nature"
 msgid "animals & nature"
-msgstr "สัตว์ป่าและธรรมชาติ"
+msgstr "животные и природа"
 
 # 4: food-drink
-#, fuzzy
 msgctxt "EMOJI GROUP: food-drink"
 msgid "food & drink"
-msgstr "อาหารและเครื่องดื่ม"
+msgstr "еда и напитки"
 
 # 5: travel-places
-#, fuzzy
 msgctxt "EMOJI GROUP: travel-places"
 msgid "travel & places"
-msgstr "สถานที่ท่องเที่ยว"
+msgstr "путешествия и местности"
 
 # 6: activities
 # 26: person-activity
 msgctxt "EMOJI GROUP: activities, EMOJI SUB-GROUP: person-activity"
 msgid "activities"
-msgstr "กิจกรรม"
+msgstr "варианты досуга"
 
 # 7: objects
-#, fuzzy
 msgctxt "EMOJI GROUP: objects"
 msgid "objects"
-msgstr "วัตถุ"
+msgstr "предметы"
 
 # 8: symbols
-#, fuzzy
 msgctxt "EMOJI GROUP: symbols"
 msgid "symbols"
-msgstr "สัญลักษณ์"
+msgstr "символы"
 
 # 9: flags
-#, fuzzy
 msgctxt "EMOJI GROUP: flags"
 msgid "flags"
-msgstr "ธง"
+msgstr "флаг"
 
 # 0: face-smiling
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-smiling"
 msgid "smiling"
-msgstr "รอย ยิ้ม"
+msgstr "улыбающиеся лицо"
 
 # 1: face-affection
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-affection"
 msgid "affectionate"
-msgstr "รักใคร่"
+msgstr "любящий"
 
 # 2: face-tongue
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-tongue"
 msgid "with tongue"
-msgstr "ด้วยลิ้น"
+msgstr "с языком"
 
 # 3: face-hand
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-hand"
 msgid "with hands"
-msgstr "ด้วยมือ"
+msgstr "руками"
 
 # 4: face-neutral-skeptical
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-neutral-skeptical"
 msgid "neutral / skeptical"
-msgstr "เป็นกลาง / สงสัย"
+msgstr "нейтральный / скептически"
 
 # 5: face-sleepy
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-sleepy"
 msgid "sleepy"
-msgstr "ง่วง นอน"
+msgstr "сонный"
 
 # 6: face-unwell
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-unwell"
 msgid "unwell"
-msgstr "ไม่สบาย"
+msgstr "нездоровый"
 
 # 7: face-hat
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-hat"
 msgid "with hats"
-msgstr "กับหมวก"
+msgstr "с шляпами"
 
 # 8: face-glasses
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-glasses"
 msgid "with glasses"
-msgstr "กับแว่นตา"
+msgstr "в очках"
 
 # 9: face-concerned
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-concerned"
 msgid "concerned"
-msgstr "กังวล"
+msgstr "обеспокоенный"
 
 # 10: face-negative
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-negative"
 msgid "negative"
-msgstr "เนกาทีฟ"
+msgstr "отрицательный"
 
 # 11: face-costume
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-costume"
 msgid "costumed & creatures"
-msgstr "เครื่องแต่งกายและสิ่งมีชีวิต"
+msgstr "костюмированные и существа"
 
 # 12: cat-face
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: cat-face"
 msgid "cat faces"
-msgstr "ใบหน้าแมว"
+msgstr "кошки лица"
 
 # 13: monkey-face
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: monkey-face"
 msgid "monkey faces"
-msgstr "ใบหน้าลิง"
+msgstr "обезьяна лица"
 
 # 14: emotion
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: emotion"
 msgid "emotions"
-msgstr "อารมณ์"
+msgstr "эмоция"
 
 # 15: hand-fingers-open
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: hand-fingers-open"
 msgid "fingers open"
-msgstr "เปิดนิ้ว"
+msgstr "пальцы открыты"
 
 # 16: hand-fingers-partial
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: hand-fingers-partial"
 msgid "hand signs"
-msgstr "สัญญาณมือ"
+msgstr "ручные знаки"
 
 # 17: hand-single-finger
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: hand-single-finger"
 msgid "finger pointing"
-msgstr "การชี้นิ้ว"
+msgstr "пальцем указывая"
 
 # 18: hand-fingers-closed
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: hand-fingers-closed"
 msgid "fingers closed"
-msgstr "ปิดนิ้วแล้ว"
+msgstr "пальцы закрыты"
 
 # 19: hands
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: hands"
 msgid "hands"
-msgstr "มือ"
+msgstr "руки"
 
 # 20: hand-prop
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: hand-prop"
 msgid "hand props"
-msgstr "อุปกรณ์ประกอบฉากมือ"
+msgstr "ручные реквизиты"
 
 # 21: body-parts
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: body-parts"
 msgid "body parts"
-msgstr "ส่วนต่างๆ ของร่างกาย"
+msgstr "части тела"
 
 # 22: person
 msgctxt "EMOJI SUB-GROUP: person"
 msgid "people"
-msgstr "คน"
+msgstr "человек"
 
 # 23: person-gesture
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: person-gesture"
 msgid "gestures"
-msgstr "รูป แบบ ลาย เส้น"
+msgstr "жесты"
 
 # 24: person-role
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: person-role"
 msgid "roles & careers"
-msgstr "บทบาทและอาชีพ"
+msgstr "роли и карьеры"
 
 # 25: person-fantasy
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: person-fantasy"
 msgid "fantasy"
-msgstr "แฟนตาซี"
+msgstr "фантастика"
 
 # 62: sport
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: sport"
 msgid "sports"
-msgstr "กีฬา"
+msgstr "спорт"
 
 # 28: person-resting
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: person-resting"
 msgid "resting"
-msgstr "พักผ่อน"
+msgstr "отдыхающий"
 
 # 29: family
 msgctxt "EMOJI SUB-GROUP: family"
 msgid "family"
-msgstr "ครอบครัว"
+msgstr "семья"
 
 # 31: skin-tone
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: skin-tone"
 msgid "skin tones"
-msgstr "โทนสีผิว"
+msgstr "тона кожи"
 
 # 32: hair-style
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: hair-style"
 msgid "hair styles"
-msgstr "สไตล์ผม"
+msgstr "прически"
 
 # 33: animal-mammal
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: animal-mammal"
 msgid "mammals"
-msgstr "เลี้ยงลูกด้วยนม"
+msgstr "mлекопитающих"
 
 # 34: animal-bird
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: animal-bird"
 msgid "birds"
-msgstr "นก"
+msgstr "птицы"
 
 # 35: animal-amphibian
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: animal-amphibian"
 msgid "amphibians"
-msgstr "สะเทินน้ําสะเทินบก"
+msgstr "aмфибий"
 
 # 36: animal-reptile
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: animal-reptile"
 msgid "reptiles"
-msgstr "สัตว์เลื้อยคลาน"
+msgstr "pептилий"
 
 # 37: animal-marine
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: animal-marine"
 msgid "marine life"
-msgstr "ชีวิตทางทะเล"
+msgstr "морской флоры и фауны"
 
 # 38: animal-bug
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: animal-bug"
 msgid "bugs"
-msgstr "ข้อ บกพร่อง"
+msgstr "ошибки"
 
 # 39: plant-flower
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: plant-flower"
 msgid "flowers"
-msgstr "ดอกไม้"
+msgstr "цветы"
 
 # 40: plant-other
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: plant-other"
 msgid "other plants"
-msgstr "พืชอื่น ๆ"
+msgstr "другие растения"
 
 # 41: food-fruit
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: food-fruit"
 msgid "fruit"
-msgstr "ผลไม้"
+msgstr "фрукты"
 
 # 42: food-vegetable
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: food-vegetable"
 msgid "vegetables"
-msgstr "ผัก"
+msgstr "овощи"
 
 # 43: food-prepared
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: food-prepared"
 msgid "cooked / prepared"
-msgstr "สุก / เตรียม"
+msgstr "приготовленные / подготовленные"
 
 # 44: food-asian
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: food-asian"
 msgid "asian"
-msgstr "เอเชีย"
+msgstr "азиатский"
 
 # 45: food-marine
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: food-marine"
 msgid "seafood"
-msgstr "อาหาร ทะเล"
+msgstr "mорепродукты"
 
 # 46: food-sweet
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: food-sweet"
 msgid "sweets & candy"
-msgstr "ขนมและลูกอม"
+msgstr "сладости и конфеты"
 
 # 47: drink
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: drink"
 msgid "drink"
-msgstr "เครื่อง ดื่ม"
+msgstr "напиток"
 
 # 48: dishware
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: dishware"
 msgid "dishware"
-msgstr "เครื่องล้างจาน"
+msgstr "посуда"
 
 # 49: place-map
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: place-map"
 msgid "globes & maps"
-msgstr "ลูกโลกและแผนที่"
+msgstr "глобусы и карты"
 
 # 50: place-geographic
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: place-geographic"
 msgid "geographic locations"
-msgstr "ที่ตั้งทางภูมิศาสตร์"
+msgstr "географические местоположения"
 
 # 51: place-building
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: place-building"
 msgid "buildings"
-msgstr "อาคาร"
+msgstr "здания"
 
 # 52: place-religious
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: place-religious"
 msgid "religious buildings"
-msgstr "อาคารทางศาสนา"
+msgstr "религиозные здания"
 
 # 53: place-other
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: place-other"
 msgid "other places"
-msgstr "สถานที่อื่น ๆ"
+msgstr "в других местах"
 
 # 54: transport-ground
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: transport-ground"
 msgid "ground transportation"
-msgstr "การขนส่งทางบก"
+msgstr "наземный транспорт"
 
 # 55: transport-water
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: transport-water"
 msgid "water transportation"
-msgstr "การขนส่งทางน้ํา"
+msgstr "водный транспорт"
 
 # 56: transport-air
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: transport-air"
 msgid "air transportation"
-msgstr "การขนส่งทางอากาศ"
+msgstr "авиаперевозки"
 
 # 57: hotel
 msgctxt "EMOJI SUB-GROUP: hotel"
 msgid "hotel"
-msgstr "โรงแรม"
+msgstr "отель"
 
 # 58: time
 msgctxt "EMOJI SUB-GROUP: time"
 msgid "time"
-msgstr "เวลา"
+msgstr "время"
 
 # 59: sky-weather
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: sky-weather"
 msgid "weather"
-msgstr "สภาพ อากาศ"
+msgstr "погода"
 
 # 60: event
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: event"
 msgid "events & holidays"
-msgstr "กิจกรรมและวันหยุดนักขัตฤกษ์"
+msgstr "событие"
 
 # 61: award-medal
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: award-medal"
 msgid "award medals"
-msgstr "เหรียญรางวัล"
+msgstr "наградные медали"
 
 # 63: game
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: game"
 msgid "games & hobbies"
-msgstr "เกมและงานอดิเรก"
+msgstr "игра"
 
 # 64: arts-crafts
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: arts-crafts"
 msgid "arts & crafts"
-msgstr "ศิลปะและงานฝีมือ"
+msgstr "искусства и ремесел"
 
 # 65: clothing
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: clothing"
 msgid "clothing"
-msgstr "เสื้อ ผ้า"
+msgstr "одежда"
 
 # 66: sound
 msgctxt "EMOJI SUB-GROUP: sound"
 msgid "sound"
-msgstr "เสียง"
+msgstr "звук"
 
 # 67: music
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: music"
 msgid "music"
-msgstr "เพลง"
+msgstr "музыка"
 
 # 68: musical-instrument
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: musical-instrument"
 msgid "musical instruments"
-msgstr "ดนตรี"
+msgstr "музыкальные инструменты"
 
 # 69: phone
 msgctxt "EMOJI SUB-GROUP: phone"
 msgid "phone"
-msgstr "เบอร์โทร"
+msgstr "телефон"
 
 # 70: computer
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: computer"
 msgid "computer"
-msgstr "คอมพิวเตอร์"
+msgstr "компьютер"
 
 # 71: light-video
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: light-video"
 msgid "light, film & video"
-msgstr "แสง, ภาพยนตร์และวิดีโอ"
+msgstr "свет, пленка и видео"
 
 # 72: book-paper
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: book-paper"
 msgid "books & paper"
-msgstr "หนังสือและกระดาษ"
+msgstr "книги и бумага"
 
 # 73: money
 msgctxt "EMOJI SUB-GROUP: money"
 msgid "money"
-msgstr "เงิน"
+msgstr "деньги"
 
 # 74: mail
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: mail"
 msgid "mail"
-msgstr "จดหมาย"
+msgstr "почта"
 
 # 75: writing
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: writing"
 msgid "writing"
-msgstr "เขียน"
+msgstr "письмо"
 
 # 76: office
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: office"
 msgid "office supplies"
-msgstr "เครื่องใช้สํานักงาน"
+msgstr "офис"
 
 # 77: lock
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: lock"
 msgid "lock & keys"
-msgstr "ล็อคและกุญแจ"
+msgstr "замок"
 
 # 78: tool
 msgctxt "EMOJI SUB-GROUP: tool"
 msgid "tools"
-msgstr "เครื่องมือ"
+msgstr "инструменты"
 
 # 79: science
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: science"
 msgid "science equipment"
-msgstr "อุปกรณ์วิทยาศาสตร์"
+msgstr "научное оборудование"
 
 # 80: medical
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: medical"
 msgid "medical"
-msgstr "แพทย์"
+msgstr "медицина"
 
 # 81: household
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: household"
 msgid "household items"
-msgstr "ของใช้ในครัวเรือน"
+msgstr "предметы домашнего обихода"
 
 # 82: other-object
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: other-object"
 msgid "other objects"
-msgstr "วัตถุอื่นๆ"
+msgstr "другие объекты"
 
 # 83: transport-sign
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: transport-sign"
 msgid "transport signs"
-msgstr "สัญญาณการขนส่ง"
+msgstr "транспортные знаки"
 
 # 84: warning
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: warning"
 msgid "warning symbols"
-msgstr "สัญลักษณ์การเตือน"
+msgstr "предупреждение"
 
 # 85: arrow
 msgctxt "EMOJI SUB-GROUP: arrow"
 msgid "arrows"
-msgstr "ลูกศร"
+msgstr "стрелки"
 
 # 86: religion
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: religion"
 msgid "religious symbols"
-msgstr "สัญลักษณ์ทางศาสนา"
+msgstr "религия"
 
 # 87: zodiac
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: zodiac"
 msgid "zodiac signs"
-msgstr "ราศีกันย์"
+msgstr "знаки зодиака"
 
 # 88: av-symbol
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: av-symbol"
 msgid "audio & video symbols"
-msgstr "สัญลักษณ์เสียงและวิดีโอ"
+msgstr "аудио- и видео символы"
 
 # 89: gender
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: gender"
 msgid "gender signs"
-msgstr "สัญญาณทางเพศ"
+msgstr "пол"
 
 # 90: math
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: math"
 msgid "math symbols"
-msgstr "สัญลักษณ์ทางคณิตศาสตร์"
+msgstr "математика"
 
 # 91: punctuation
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: punctuation"
 msgid "punctuation"
-msgstr "เครื่อง หมาย วรรค ตอน"
+msgstr "пунктуация"
 
 # 92: currency
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: currency"
 msgid "currencies"
-msgstr "สกุล เงิน"
+msgstr "валюта"
 
 # 93: other-symbol
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: other-symbol"
 msgid "other symbols"
-msgstr "สัญลักษณ์อื่นๆ"
+msgstr "другие символы"
 
 # 94: keycap
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: keycap"
 msgid "keypad characters"
-msgstr "อักขระแป้นพิมพ์"
+msgstr "символы клавиатуры"
 
 # 95: alphanum
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: alphanum"
 msgid "alphanumeric symbols"
-msgstr "สัญลักษณ์ตัวอักษรและตัวเลข"
+msgstr "алфавитные символы"
 
 # 96: geometric
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: geometric"
 msgid "shapes & colors"
-msgstr "รูปร่างและสี"
+msgstr "формы и цвета"
 
 # 98: country-flag
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: country-flag"
 msgid "country flags"
-msgstr "ธงชาติ"
+msgstr "флаг страны"
 
 # 99: subdivision-flag
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: subdivision-flag"
 msgid "subdivision flags"
-msgstr "แฟล็กการแบ่งย่อย"
+msgstr "флаги подразделений"
 
 # 27: person-sport
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: person-sport"
 msgid "athletics"
-msgstr "กรีฑา"
+msgstr "легкая атлетика"
 
 # 30: person-symbol
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: person-symbol"
 msgid "people symbols"
-msgstr "สัญลักษณ์บุคคล"
+msgstr "символы людей"
 
 # 97: flag
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: flag"
 msgid "other flags"
-msgstr "ค่าสถานะอื่นๆ"
+msgstr "другие флаги"

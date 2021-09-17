@@ -12,10 +12,10 @@ Translations are localized using
 editor like [Poedit](https://poedit.net/) (please do not edit these files manually). Once you have
 made your changes, please commit the changes and submit a pull request.
 
-## Metadata
+## Messages
 
-The `meta.po` file contains localized strings for emoji groups, sub-groups, keywords, and any other
-emoji related messages.
+The `messages.po` file contains localized strings for emoji groups, sub-groups, keywords, and any
+other emoji related messages.
 
 Each message breaks down to the following:
 

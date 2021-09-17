@@ -16,7 +16,7 @@
     "generate:emojis": "rm -rf ./cache/final && node ./bin/generateEmoji.mjs",
     "generate:po": "node ./bin/generatePo.mjs",
     "generate:shortcodes": "node ./bin/generateShortcodes.mjs",
-    "generate:tests": "cp ./packages/data/en/data.json ./packages/test-utils/test-data.json && cp ./packages/data/en/shortcodes/emojibase.json ./packages/test-utils/test-shortcodes.json && cp ./packages/data/en/meta.json ./packages/test-utils/test-meta.json",
+    "generate:tests": "cp ./packages/data/en/data.json ./packages/test-utils/test-data.json && cp ./packages/data/en/shortcodes/emojibase.json ./packages/test-utils/test-shortcodes.json && cp ./packages/data/en/messages.json ./packages/test-utils/test-messages.json",
     "generate:types": "node ./bin/generateTypes.mjs",
     "test": "beemo jest",
     "format": "beemo prettier",

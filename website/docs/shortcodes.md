@@ -121,7 +121,7 @@ An alias for the [`iamcal`](#iamcal) preset.
 | Russian (ru)             |   ✅   |      ✅       |     ✳️      |                    |          |          |             |
 | Spanish (es)             |   ✅   |               |     ✴️      |                    |          |          |             |
 | Spanish, Mexico (es-mx)  |   ✅   |               |     ✴️      |                    |          |          |             |
-| Swedish (sv)             |   ✅   |               |     ✴️      |                    |          |          |             |
+| Swedish (sv)             |   ✅   |               |     ✅      |                    |          |          |             |
 | Thai (th)                |   ✅   |      ✅       |     ✴️      |                    |          |          |             |
 | Ukrainian (uk)           |   ✅   |      ✅       |     ✴️      |                    |          |          |             |
 

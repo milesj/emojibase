@@ -15,7 +15,7 @@ declare module 'emojibase-data/*/compact.json' {
   export default data;
 }
 
-declare module 'emojibase-data/*/meta.json' {
+declare module 'emojibase-data/*/messages.json' {
   interface GroupMeta {
     key: string;
     message: string;

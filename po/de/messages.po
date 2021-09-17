@@ -1,12 +1,12 @@
-# Malay
+# German
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-25 22:32+420\n"
-"PO-Revision-Date: 2021-01-10 15:50-0800\n"
+"PO-Revision-Date: 2021-01-10 15:38+480\n"
 "Last-Translator: \n"
-"Language: ms\n"
+"Language: de\n"
 "Language-Team: \n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,617 +16,656 @@ msgstr ""
 
 # Custom
 #, javascript-format
-msgctxt "ANNOTATION: Denotes a countries flag using alphabetical characters (usa = United States)"
+msgctxt "LABEL: Denotes a countries flag using alphabetical characters (usa = United States)"
 msgid "regional indicator %s"
-msgstr "penunjuk wilayah %s"
+msgstr "regionaler Indikator %s"
 
 # Custom
-msgctxt "ANNOTATION: Very short word for skin tone and/or color (max 1 word if possible)"
+msgctxt "LABEL: Very short word for skin tone and/or color (max 1 word if possible)"
 msgid "tone"
-msgstr "warna"
+msgstr "Farbe"
 
 # Custom
-msgctxt "ANNOTATION: Name of the asterisk symbol (*)"
+msgctxt "LABEL: Name of the asterisk symbol (*)"
 msgid "asterisk"
-msgstr "tanda bintang"
+msgstr "Sternchen"
 
 # Custom
-msgctxt "ANNOTATION: Name of the number sign/hash symbol (#)"
+msgctxt "LABEL: Name of the number sign/hash symbol (#)"
 msgid "number sign"
-msgstr "tanda nombor"
+msgstr "Nummernschild"
 
 # 0: smileys-emotion
+#, fuzzy
 msgctxt "EMOJI GROUP: smileys-emotion"
 msgid "smileys & emotion"
-msgstr "senyuman & emosi"
+msgstr "Smileys & Emotionen"
 
 # 1: people-body
+#, fuzzy
 msgctxt "EMOJI GROUP: people-body"
 msgid "people & body"
-msgstr "orang & badan"
+msgstr "Menschen & Körper"
 
 # 2: component
-#, fuzzy
 msgctxt "EMOJI GROUP: component"
 msgid "components"
-msgstr "Komponen"
+msgstr "Komponenten"
 
 # 3: animals-nature
+#, fuzzy
 msgctxt "EMOJI GROUP: animals-nature"
 msgid "animals & nature"
-msgstr "haiwan & alam semula jadi"
+msgstr "Tiere & Natur"
 
 # 4: food-drink
+#, fuzzy
 msgctxt "EMOJI GROUP: food-drink"
 msgid "food & drink"
-msgstr "makanan & minuman"
+msgstr "Essen & Trinken"
 
 # 5: travel-places
+#, fuzzy
 msgctxt "EMOJI GROUP: travel-places"
 msgid "travel & places"
-msgstr "perjalanan & tempat"
+msgstr "Reisen & Orte"
 
 # 6: activities
 # 26: person-activity
 msgctxt "EMOJI GROUP: activities, EMOJI SUB-GROUP: person-activity"
 msgid "activities"
-msgstr "aktiviti"
+msgstr "Aktivitäten"
 
 # 7: objects
 msgctxt "EMOJI GROUP: objects"
 msgid "objects"
-msgstr "objek"
+msgstr "Gegenstände"
 
 # 8: symbols
+#, fuzzy
 msgctxt "EMOJI GROUP: symbols"
 msgid "symbols"
-msgstr "simbol"
+msgstr "Symbole"
 
 # 9: flags
+#, fuzzy
 msgctxt "EMOJI GROUP: flags"
 msgid "flags"
-msgstr "bendera"
+msgstr "Flaggen"
 
 # 0: face-smiling
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-smiling"
 msgid "smiling"
-msgstr "tersenyum"
+msgstr "Lächelnd"
 
 # 1: face-affection
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-affection"
 msgid "affectionate"
-msgstr "kasih sayang"
+msgstr "Liebevoll"
 
 # 2: face-tongue
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-tongue"
 msgid "with tongue"
-msgstr "dengan lidah"
+msgstr "mit Zunge"
 
 # 3: face-hand
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-hand"
 msgid "with hands"
-msgstr "dengan tangan"
+msgstr "mit Händen"
 
 # 4: face-neutral-skeptical
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-neutral-skeptical"
 msgid "neutral / skeptical"
-msgstr "neutral / ragu-ragu"
+msgstr "neutral / skeptisch"
 
 # 5: face-sleepy
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-sleepy"
 msgid "sleepy"
-msgstr "mengantuk"
+msgstr "Schläfrig"
 
 # 6: face-unwell
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-unwell"
 msgid "unwell"
-msgstr "tidak sihat"
+msgstr "Unwohl"
 
 # 7: face-hat
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-hat"
 msgid "with hats"
-msgstr "dengan topi"
+msgstr "mit Hüten"
 
 # 8: face-glasses
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-glasses"
 msgid "with glasses"
-msgstr "dengan gelas"
+msgstr "mit Brille"
 
 # 9: face-concerned
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-concerned"
 msgid "concerned"
-msgstr "berkenaan"
+msgstr "betroffen"
 
 # 10: face-negative
 msgctxt "EMOJI SUB-GROUP: face-negative"
 msgid "negative"
-msgstr "negatif"
+msgstr "negativ"
 
 # 11: face-costume
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: face-costume"
 msgid "costumed & creatures"
-msgstr "kostum & makhluk"
+msgstr "kostümiert & Kreaturen"
 
 # 12: cat-face
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: cat-face"
 msgid "cat faces"
-msgstr "muka kucing"
+msgstr "Katzengesichter"
 
 # 13: monkey-face
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: monkey-face"
 msgid "monkey faces"
-msgstr "wajah monyet"
+msgstr "Affengesichter"
 
 # 14: emotion
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: emotion"
 msgid "emotions"
-msgstr "emosi"
+msgstr "Emotionen"
 
 # 15: hand-fingers-open
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: hand-fingers-open"
 msgid "fingers open"
-msgstr "jari terbuka"
+msgstr "Finger offen"
 
 # 16: hand-fingers-partial
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: hand-fingers-partial"
 msgid "hand signs"
-msgstr "tanda tangan"
+msgstr "Handzeichen"
 
 # 17: hand-single-finger
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: hand-single-finger"
 msgid "finger pointing"
-msgstr "menuding jari"
+msgstr "Fingerzeige"
 
 # 18: hand-fingers-closed
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: hand-fingers-closed"
 msgid "fingers closed"
-msgstr "jari ditutup"
+msgstr "Finger geschlossen"
 
 # 19: hands
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: hands"
 msgid "hands"
-msgstr "tangan"
+msgstr "Hände"
 
 # 20: hand-prop
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: hand-prop"
 msgid "hand props"
-msgstr "prop tangan"
+msgstr "Handrequisiten"
 
 # 21: body-parts
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: body-parts"
 msgid "body parts"
-msgstr "bahagian badan"
+msgstr "Körperteile"
 
 # 22: person
 msgctxt "EMOJI SUB-GROUP: person"
 msgid "people"
-msgstr "orang"
+msgstr "Personen"
 
 # 23: person-gesture
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: person-gesture"
 msgid "gestures"
-msgstr "gerak isyarat"
+msgstr "Gesten"
 
 # 24: person-role
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: person-role"
 msgid "roles & careers"
-msgstr "peranan & kerjaya"
+msgstr "Rollen & Karrieren"
 
 # 25: person-fantasy
 msgctxt "EMOJI SUB-GROUP: person-fantasy"
 msgid "fantasy"
-msgstr "fantasi"
+msgstr "Fantasie"
 
-# 62: sport
-msgctxt "EMOJI SUB-GROUP: sport"
-msgid "sports"
-msgstr "sukan"
+# 27: person-sport
+#, fuzzy
+msgctxt "EMOJI SUB-GROUP: person-sport"
+msgid "athletics"
+msgstr "Leichtathletik"
 
 # 28: person-resting
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: person-resting"
 msgid "resting"
-msgstr "berehat"
+msgstr "Ruhe"
 
 # 29: family
 msgctxt "EMOJI SUB-GROUP: family"
 msgid "family"
-msgstr "keluarga"
+msgstr "Familie"
 
 # 31: skin-tone
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: skin-tone"
 msgid "skin tones"
-msgstr "nada kulit"
+msgstr "Hauttöne"
 
 # 32: hair-style
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: hair-style"
 msgid "hair styles"
-msgstr "gaya rambut"
+msgstr "Frisuren"
 
 # 33: animal-mammal
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: animal-mammal"
 msgid "mammals"
-msgstr "mamalia"
+msgstr "Säugetiere"
 
 # 34: animal-bird
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: animal-bird"
 msgid "birds"
-msgstr "burung"
+msgstr "Vögel"
 
 # 35: animal-amphibian
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: animal-amphibian"
 msgid "amphibians"
-msgstr "amfbia"
+msgstr "Amphibien"
 
 # 36: animal-reptile
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: animal-reptile"
 msgid "reptiles"
-msgstr "reptilia"
+msgstr "Reptilien"
 
 # 37: animal-marine
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: animal-marine"
 msgid "marine life"
-msgstr "hidupan laut"
+msgstr "Meereslebewesen"
 
 # 38: animal-bug
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: animal-bug"
 msgid "bugs"
-msgstr "pepijat"
+msgstr "Fehler"
 
 # 39: plant-flower
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: plant-flower"
 msgid "flowers"
-msgstr "bunga"
+msgstr "Blumen"
 
 # 40: plant-other
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: plant-other"
 msgid "other plants"
-msgstr "tumbuh-tumbuhan lain"
+msgstr "andere Pflanzen"
 
 # 41: food-fruit
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: food-fruit"
 msgid "fruit"
-msgstr "buah"
+msgstr "Frucht"
 
 # 42: food-vegetable
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: food-vegetable"
 msgid "vegetables"
-msgstr "sayur"
+msgstr "Gemüse"
 
 # 43: food-prepared
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: food-prepared"
 msgid "cooked / prepared"
-msgstr "dimasak / disediakan"
+msgstr "gekocht / zubereitet"
 
 # 44: food-asian
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: food-asian"
 msgid "asian"
-msgstr "asia"
+msgstr "Asiatisch"
 
 # 45: food-marine
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: food-marine"
 msgid "seafood"
-msgstr "makanan laut"
+msgstr "Meeresfrüchte"
 
 # 46: food-sweet
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: food-sweet"
 msgid "sweets & candy"
-msgstr "gula-gula"
+msgstr "Süßigkeiten & Süßigkeiten"
 
 # 47: drink
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: drink"
 msgid "drink"
-msgstr "minuman"
+msgstr "Trinken"
 
 # 48: dishware
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: dishware"
 msgid "dishware"
-msgstr "perisian basuh"
+msgstr "Geschirr"
 
 # 49: place-map
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: place-map"
 msgid "globes & maps"
-msgstr "glob & peta"
+msgstr "Globen & Karten"
 
 # 50: place-geographic
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: place-geographic"
 msgid "geographic locations"
-msgstr "lokasi geografi"
+msgstr "geographische Standorte"
 
 # 51: place-building
 msgctxt "EMOJI SUB-GROUP: place-building"
 msgid "buildings"
-msgstr "bangunan"
+msgstr "Gebäude"
 
 # 52: place-religious
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: place-religious"
 msgid "religious buildings"
-msgstr "bangunan agama"
+msgstr "religiöse Gebäude"
 
 # 53: place-other
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: place-other"
 msgid "other places"
-msgstr "tempat-tempat lain"
+msgstr "andere Orte"
 
 # 54: transport-ground
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: transport-ground"
 msgid "ground transportation"
-msgstr "pengangkutan darat"
+msgstr "Bodentransport"
 
 # 55: transport-water
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: transport-water"
 msgid "water transportation"
-msgstr "pengangkutan air"
+msgstr "Wassertransport"
 
 # 56: transport-air
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: transport-air"
 msgid "air transportation"
-msgstr "pengangkutan udara"
+msgstr "Lufttransport"
 
 # 57: hotel
 msgctxt "EMOJI SUB-GROUP: hotel"
 msgid "hotel"
-msgstr "hotel"
+msgstr "Unterkunft"
 
 # 58: time
 msgctxt "EMOJI SUB-GROUP: time"
 msgid "time"
-msgstr "masa"
+msgstr "Zeit"
 
 # 59: sky-weather
 msgctxt "EMOJI SUB-GROUP: sky-weather"
 msgid "weather"
-msgstr "cuaca"
+msgstr "Wetter"
 
 # 60: event
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: event"
 msgid "events & holidays"
-msgstr "acara & cuti"
+msgstr "Veranstaltungen & Feiertage"
 
 # 61: award-medal
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: award-medal"
 msgid "award medals"
-msgstr "pingat anugerah"
+msgstr "Auszeichnung enden"
+
+# 62: sport
+msgctxt "EMOJI SUB-GROUP: sport"
+msgid "sports"
+msgstr "Sportarten"
 
 # 63: game
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: game"
 msgid "games & hobbies"
-msgstr "permainan & hobi"
+msgstr "Spiele & Hobbys"
 
 # 64: arts-crafts
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: arts-crafts"
 msgid "arts & crafts"
-msgstr "seni & kraf"
+msgstr "Kunsthandwerk"
 
 # 65: clothing
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: clothing"
 msgid "clothing"
-msgstr "pakaian"
+msgstr "Kleidung"
 
 # 66: sound
 msgctxt "EMOJI SUB-GROUP: sound"
 msgid "sound"
-msgstr "bunyi"
+msgstr "Klang"
 
 # 67: music
 msgctxt "EMOJI SUB-GROUP: music"
 msgid "music"
-msgstr "muzik"
+msgstr "Musik"
 
 # 68: musical-instrument
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: musical-instrument"
 msgid "musical instruments"
-msgstr "alat muzik"
+msgstr "Musikinstrumente"
 
 # 69: phone
 msgctxt "EMOJI SUB-GROUP: phone"
 msgid "phone"
-msgstr "telefon"
+msgstr "Telefon"
 
 # 70: computer
 msgctxt "EMOJI SUB-GROUP: computer"
 msgid "computer"
-msgstr "komputer"
+msgstr "Computer"
 
 # 71: light-video
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: light-video"
 msgid "light, film & video"
-msgstr "cahaya, filem & video"
+msgstr "Licht, Film & Video"
 
 # 72: book-paper
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: book-paper"
 msgid "books & paper"
-msgstr "buku & kertas"
+msgstr "Bücher & Papier"
 
 # 73: money
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: money"
 msgid "money"
-msgstr "wang"
+msgstr "Geld"
 
 # 74: mail
 msgctxt "EMOJI SUB-GROUP: mail"
 msgid "mail"
-msgstr "mel"
+msgstr "Mail"
 
 # 75: writing
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: writing"
 msgid "writing"
-msgstr "secara bertulis"
+msgstr "Schreiben"
 
 # 76: office
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: office"
 msgid "office supplies"
-msgstr "bekalan pejabat"
+msgstr "Bürobedarfe"
 
 # 77: lock
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: lock"
 msgid "lock & keys"
-msgstr "kunci & kekunci"
+msgstr "Schloss & Schlüssel"
 
 # 78: tool
 msgctxt "EMOJI SUB-GROUP: tool"
 msgid "tools"
-msgstr "alat"
+msgstr "Werkzeuge"
 
 # 79: science
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: science"
 msgid "science equipment"
-msgstr "peralatan sains"
+msgstr "wissenschaftliche Ausrüstung"
 
 # 80: medical
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: medical"
 msgid "medical"
-msgstr "perubatan"
+msgstr "Medizinisch"
 
 # 81: household
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: household"
 msgid "household items"
-msgstr "barangan isi rumah"
+msgstr "Haushaltsgegenstände"
 
 # 82: other-object
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: other-object"
 msgid "other objects"
-msgstr "objek lain"
+msgstr "andere Objekte"
 
 # 83: transport-sign
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: transport-sign"
 msgid "transport signs"
-msgstr "tanda-tanda pengangkutan"
+msgstr "Verkehrszeichen"
 
 # 84: warning
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: warning"
 msgid "warning symbols"
-msgstr "simbol amaran"
+msgstr "Warnsymbole"
 
 # 85: arrow
 msgctxt "EMOJI SUB-GROUP: arrow"
 msgid "arrows"
-msgstr "anak panah"
+msgstr "Pfeile"
 
 # 86: religion
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: religion"
 msgid "religious symbols"
-msgstr "simbol agama"
+msgstr "religiöse Symbole"
 
 # 87: zodiac
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: zodiac"
 msgid "zodiac signs"
-msgstr "tanda-tanda zodiak"
+msgstr "Tierkreiszeichen"
 
 # 88: av-symbol
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: av-symbol"
 msgid "audio & video symbols"
-msgstr "simbol audio & video"
+msgstr "Audio- & Videosymbole"
 
 # 89: gender
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: gender"
 msgid "gender signs"
-msgstr "tanda-tanda jantina"
+msgstr "Geschlechtszeichen"
 
 # 90: math
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: math"
 msgid "math symbols"
-msgstr "simbol matematik"
+msgstr "mathematische Symbole"
 
 # 91: punctuation
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: punctuation"
 msgid "punctuation"
-msgstr "tanda baca"
+msgstr "Satzzeichen"
 
 # 92: currency
 msgctxt "EMOJI SUB-GROUP: currency"
 msgid "currencies"
-msgstr "mata wang"
+msgstr "Währungen"
 
 # 93: other-symbol
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: other-symbol"
 msgid "other symbols"
-msgstr "simbol lain"
+msgstr "andere Symbole"
 
 # 94: keycap
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: keycap"
 msgid "keypad characters"
-msgstr "aksara pad kekunci"
+msgstr "Tastaturzeichen"
 
 # 95: alphanum
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: alphanum"
 msgid "alphanumeric symbols"
-msgstr "simbol abjad"
+msgstr "alphanumerische Symbole"
 
 # 96: geometric
+#, fuzzy
 msgctxt "EMOJI SUB-GROUP: geometric"
 msgid "shapes & colors"
-msgstr "bentuk & warna"
+msgstr "Formen & Farben"
 
 # 98: country-flag
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: country-flag"
 msgid "country flags"
-msgstr "bendera negara"
+msgstr "Länderflaggen"
 
 # 99: subdivision-flag
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: subdivision-flag"
 msgid "subdivision flags"
-msgstr "bendera pembahagian"
-
-# 27: person-sport
-msgctxt "EMOJI SUB-GROUP: person-sport"
-msgid "athletics"
-msgstr "olahraga"
+msgstr "Unterteilungsflags"
 
 # 30: person-symbol
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: person-symbol"
 msgid "people symbols"
-msgstr "simbol orang"
+msgstr "Personensymbole"
 
 # 97: flag
 #, fuzzy
 msgctxt "EMOJI SUB-GROUP: flag"
 msgid "other flags"
-msgstr "bendera lain"
+msgstr "andere Flaggen"

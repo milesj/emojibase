@@ -1,8 +1,8 @@
 import fetchMock from 'fetch-mock-jest';
-import { fetchMetadata } from '../src/fetchMetadata';
+import { fetchMessages } from '../src/fetchMessages';
 import { setupStorage } from './helpers';
 
-describe('fetchMetadata()', () => {
+describe('fetchMessages()', () => {
 	beforeEach(() => {
 		setupStorage();
 
@@ -14,10 +14,10 @@ describe('fetchMetadata()', () => {
 	});
 
 	it('triggers a fetch', async () => {
-		await fetchMetadata('de');
+		await fetchMessages('de');
 
 		expect(fetchMock).toHaveBeenCalledWith(
-			'https://cdn.jsdelivr.net/npm/emojibase-data@latest/de/meta.json',
+			'https://cdn.jsdelivr.net/npm/emojibase-data@latest/de/messages.json',
 			{
 				credentials: 'omit',
 				mode: 'cors',
