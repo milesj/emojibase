@@ -168,7 +168,8 @@ import data from 'emojibase-data/en/compact.json';
 ### Messages format
 
 The messages format is a special dataset that provides translations for groups, sub-groups, and any
-other related emoji metadata.
+other related emoji metadata. The `key` in each message lines up with a defined TypeScript type
+alias.
 
 ```ts
 import data from 'emojibase-data/en/messages.json';
@@ -189,6 +190,13 @@ import data from 'emojibase-data/en/messages.json';
       key: 'face-smiling',
       message: 'smiling',
       order: 0,
+    },
+    // ...
+  ],
+  skinTones: [
+    {
+      key: 'light',
+      message: 'light skin tone',
     },
     // ...
   ],
