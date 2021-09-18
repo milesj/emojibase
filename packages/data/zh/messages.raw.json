@@ -22,12 +22,12 @@
     },
     {
       "key": "food-drink",
-      "message": "饮食",
+      "message": "食物飲料",
       "order": 4
     },
     {
       "key": "travel-places",
-      "message": "旅游景点",
+      "message": "旅遊地點",
       "order": 5
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "key": "objects",
-      "message": "物体",
+      "message": "物件",
       "order": 7
     },
     {
@@ -49,6 +49,28 @@
       "key": "flags",
       "message": "旗帜",
       "order": 9
+    }
+  ],
+  "skinTones": [
+    {
+      "key": "light",
+      "message": "浅肤色"
+    },
+    {
+      "key": "medium-light",
+      "message": "中光肤色"
+    },
+    {
+      "key": "medium",
+      "message": "中等肤色"
+    },
+    {
+      "key": "medium-dark",
+      "message": "中深色肤色"
+    },
+    {
+      "key": "dark",
+      "message": "深色肤色"
     }
   ],
   "subgroups": [
@@ -209,22 +231,22 @@
     },
     {
       "key": "skin-tone",
-      "message": "皮肤色调",
+      "message": "膚色",
       "order": 31
     },
     {
       "key": "hair-style",
-      "message": "发型",
+      "message": "髮型",
       "order": 32
     },
     {
       "key": "animal-mammal",
-      "message": "哺乳动物",
+      "message": "哺乳類動物",
       "order": 33
     },
     {
       "key": "animal-bird",
-      "message": "鸟类",
+      "message": "鳥類動物",
       "order": 34
     },
     {
@@ -234,37 +256,37 @@
     },
     {
       "key": "animal-reptile",
-      "message": "爬行类动物",
+      "message": "爬蟲類動物",
       "order": 36
     },
     {
       "key": "animal-marine",
-      "message": "海洋动物",
+      "message": "水生動物",
       "order": 37
     },
     {
       "key": "animal-bug",
-      "message": "昆虫",
+      "message": "蟲類動物",
       "order": 38
     },
     {
       "key": "plant-flower",
-      "message": "花",
+      "message": "花卉植物",
       "order": 39
     },
     {
       "key": "plant-other",
-      "message": "其它植物",
+      "message": "其他植物",
       "order": 40
     },
     {
       "key": "food-fruit",
-      "message": "水果",
+      "message": "水果類食物",
       "order": 41
     },
     {
       "key": "food-vegetable",
-      "message": "蔬菜",
+      "message": "蔬菜類食物",
       "order": 42
     },
     {
@@ -274,22 +296,22 @@
     },
     {
       "key": "food-asian",
-      "message": "亚洲食物",
+      "message": "亞洲食物",
       "order": 44
     },
     {
       "key": "food-marine",
-      "message": "海产",
+      "message": "水產食物",
       "order": 45
     },
     {
       "key": "food-sweet",
-      "message": "甜食",
+      "message": "甜食物",
       "order": 46
     },
     {
       "key": "drink",
-      "message": "饮料",
+      "message": "飲品",
       "order": 47
     },
     {
@@ -319,7 +341,7 @@
     },
     {
       "key": "place-other",
-      "message": "其它地方",
+      "message": "其他地點",
       "order": 53
     },
     {

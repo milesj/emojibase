@@ -1,6 +1,14 @@
 /* eslint-disable complexity */
 
-import { Emoji as FinalEmoji, GroupMeta, Locale, stripHexcode, SUPPORTED_LOCALES } from 'emojibase';
+import {
+	Emoji as FinalEmoji,
+	GroupMessage,
+	Locale,
+	SkinToneMessage,
+	stripHexcode,
+	SubgroupMessage,
+	SUPPORTED_LOCALES,
+} from 'emojibase';
 import { buildAnnotationData } from '../builders/buildAnnotationData';
 import { buildEmojiData } from '../builders/buildEmojiData';
 import { filterData } from '../helpers/filterData';
@@ -135,42 +143,65 @@ function createVersionMap(): HexcodeVersionMap {
 async function generateMessages(locale: Locale): Promise<unknown> {
 	const data = await loadPoMessages(locale);
 	const englishData = await loadPoMessages('en');
-	const groups: GroupMeta[] = [];
-	const subgroups: GroupMeta[] = [];
+	const groups: GroupMessage[] = [];
+	const subgroups: SubgroupMessage[] = [];
+	const skinTones: SkinToneMessage[] = [];
 
 	data.po.items.forEach((item) => {
-		if (item.msgctxt.includes('LABEL')) {
-			return;
-		}
+		String(item.msgctxt)
+			.replace(/\n+/, ' ')
+			.split(',')
+			.map((ctx) => ctx.trim())
+			.forEach((ctx) => {
+				const [type, meta] = ctx.split(':');
 
-		const contexts = String(item.msgctxt).split(',');
+				switch (type) {
+					case 'EMOJI GROUP':
+					case 'EMOJI SUB-GROUP': {
+						const [order, key] = meta.split('|');
+						const message = {
+							key: key.trim(),
+							message: String(item.msgstr),
+							order: Number(order.trim()),
+						};
 
-		item.comments.forEach((comment, i) => {
-			const [id, key] = comment.split(':');
-			const meta: GroupMeta = {
-				key: key.trim(),
-				message: String(item.msgstr),
-				order: Number(id.trim()),
-			};
+						if (!message.message) {
+							message.message = String(englishData.itemsById[item.msgid].msgstr);
+						}
 
-			if (!meta.message) {
-				meta.message = String(englishData.itemsById[item.msgid].msgstr);
-			}
+						if (type === 'EMOJI SUB-GROUP') {
+							subgroups.push(message as SubgroupMessage);
+						} else {
+							groups.push(message as GroupMessage);
+						}
+						break;
+					}
 
-			if (contexts[i].includes('SUB-GROUP')) {
-				subgroups.push(meta);
-			} else {
-				groups.push(meta);
-			}
-		});
+					case 'SKIN TONE': {
+						skinTones.push({
+							key: meta.trim(),
+							message: String(item.msgstr),
+						} as SkinToneMessage);
+
+						break;
+					}
+
+					default:
+						break;
+				}
+			});
 	});
+
+	if (groups.length === 0) {
+		return Promise.resolve();
+	}
 
 	groups.sort(sortOrder);
 	subgroups.sort(sortOrder);
 
 	return Promise.all([
-		writeDataset(`${locale}/messages.raw.json`, { groups, subgroups }),
-		writeDataset(`${locale}/messages.json`, { groups, subgroups }, true),
+		writeDataset(`${locale}/messages.raw.json`, { groups, skinTones, subgroups }),
+		writeDataset(`${locale}/messages.json`, { groups, skinTones, subgroups }, true),
 	]);
 }
 

@@ -51,6 +51,28 @@
       "order": 9
     }
   ],
+  "skinTones": [
+    {
+      "key": "light",
+      "message": "明るい肌のトーン"
+    },
+    {
+      "key": "medium-light",
+      "message": "中光肌調"
+    },
+    {
+      "key": "medium",
+      "message": "中程度の肌のトーン"
+    },
+    {
+      "key": "medium-dark",
+      "message": "中暗い肌のトーン"
+    },
+    {
+      "key": "dark",
+      "message": "暗い肌のトーン"
+    }
+  ],
   "subgroups": [
     {
       "key": "face-smiling",
@@ -419,7 +441,7 @@
     },
     {
       "key": "money",
-      "message": "資金:",
+      "message": "資金",
       "order": 73
     },
     {

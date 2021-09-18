@@ -2,7 +2,6 @@ import { Emoji, Hexcode, ShortcodesDataset, SUPPORTED_LOCALES } from 'emojibase'
 import { log } from '../helpers/log';
 import { toArray } from '../helpers/toArray';
 import { loadDataset } from '../loaders/loadDatasetPackage';
-// import loadPoMeta from '../loaders/loadPoMeta';
 import { loadPoShortcodes } from '../loaders/loadPoShortcodes';
 
 export async function generatePoFiles(): Promise<void> {
@@ -55,34 +54,4 @@ export async function generatePoFiles(): Promise<void> {
 			return po.write(true);
 		}),
 	);
-
-	// // Metadata
-	// // eslint-disable-next-line
-	// const groupsHierarchy = await loadDataSet<GroupDataset>('meta/groups.json');
-
-	// const englishMeta = await loadPoMeta('en');
-
-	// await Promise.all(
-	//   SUPPORTED_LOCALES.map(async (locale) => {
-	//     const po = await loadPoMeta(locale);
-
-	//     // Groups
-	//     Object.entries(groupsHierarchy.groups).forEach(([groupID, groupKey]) => {
-	//       po.addItem(groupKey.replace(/-/g, ' '), '', 'EMOJI GROUP', {
-	//         comment: `${groupID}: ${groupKey}`,
-	//       });
-	//     });
-
-	//     // Subgroups
-	//     Object.entries(groupsHierarchy.subgroups).forEach(([groupID, groupKey]) => {
-	//       po.addItem(groupKey.replace(/-/g, ' '), '', 'EMOJI SUB-GROUP', {
-	//         comment: `${groupID}: ${groupKey}`,
-	//       });
-	//     });
-
-	//     // Add custom translations here!
-
-	//     return po.write();
-	//   }),
-	// );
 }
