@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[4915],{4218:function(e){e.exports=JSON.parse('{"id":174,"name":"GroupMeta","nextId":178,"permalink":"/api/emojibase/interface/GroupMeta","previousId":168}')}}]);

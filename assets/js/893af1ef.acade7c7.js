@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[8249],{148:function(e){e.exports=JSON.parse('{"id":181,"name":"SubgroupMessage","nextId":119,"permalink":"/api/emojibase/interface/SubgroupMessage","previousId":174}')}}]);
