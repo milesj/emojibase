@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[6317],{3728:function(e){e.exports=JSON.parse('{"id":83,"name":"flattenEmojiData","nextId":90,"permalink":"/api/emojibase/function/flattenEmojiData","previousId":78}')}}]);

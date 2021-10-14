@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[7090],{9227:function(e){e.exports=JSON.parse('{"id":136,"name":"CompactEmoji","nextId":147,"permalink":"/api/emojibase/interface/CompactEmoji","previousId":12}')}}]);

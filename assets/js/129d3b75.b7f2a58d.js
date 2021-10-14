@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[922],{2898:function(e){e.exports=JSON.parse('{"id":190,"name":"PermutationOptions","nextId":174,"permalink":"/api/emojibase/interface/PermutationOptions","previousId":185}')}}]);

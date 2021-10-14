@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[4915],{4218:function(e){e.exports=JSON.parse('{"id":174,"name":"SkinToneMessage","nextId":181,"permalink":"/api/emojibase/interface/SkinToneMessage","previousId":190}')}}]);
