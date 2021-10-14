@@ -116,7 +116,7 @@ export type EmojiDataMap = HexcodeMap<EmojiData>;
 
 export interface EmojiQualifiedEntry {
 	hexcode: Hexcode;
-	qualifier: Qualifier;
+	qualifier: Qualifier | null;
 }
 
 export interface EmojiMetadata {

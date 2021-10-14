@@ -31,6 +31,7 @@ export function parseMetadata(content: string): EmojiMetadataMap {
 	let order = 1;
 	let parentHexcode = '';
 
+	// eslint-disable-next-line complexity
 	content.split('\n').forEach((line) => {
 		// Skip empty lines
 		if (!line.trim()) {
@@ -79,16 +80,21 @@ export function parseMetadata(content: string): EmojiMetadataMap {
 
 		if (qualifier === FULLY_QUALIFIED) {
 			parentHexcode = hexcode;
-			map[hexcode] = {
-				group: groupIndex,
-				order,
-				qualifiers: [{ hexcode, qualifier }],
-				subgroup: subgroupIndex,
-				...OVERRIDES[hexcode],
-			};
-		} else {
+		} else if (qualifier !== null) {
 			map[parentHexcode].qualifiers.push({ hexcode, qualifier });
 		}
+
+		map[hexcode] = {
+			group: groupIndex,
+			order,
+			qualifiers:
+				qualifier === FULLY_QUALIFIED || qualifier === null
+					? [{ hexcode, qualifier }]
+					: // Use the same reference so its additive
+					  map[parentHexcode].qualifiers,
+			subgroup: subgroupIndex,
+			...OVERRIDES[hexcode],
+		};
 
 		order += 1;
 	});
