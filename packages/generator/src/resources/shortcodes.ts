@@ -3781,9 +3781,9 @@ export const shortcodes = {
   // 🫠 melting face
   '1FAE0': ['melt', 'melting_face'],
   // 🫢 face with open eyes and hand over mouth
-  '1FAE2': ['gasp', 'face_with_open_eyes_hand_over_mouth'],
+  '1FAE2': ['face_with_open_eyes_hand_over_mouth', 'gasp'],
   // 🫣 face with peeking eye
-  '1FAE3': ['peek', 'face_with_peeking_eye'],
+  '1FAE3': ['face_with_peeking_eye', 'peek'],
   // 🫡 saluting face
   '1FAE1': ['salute', 'saluting_face'],
   // 🫥 dotted line face
@@ -3791,7 +3791,7 @@ export const shortcodes = {
   // 🫤 face with diagonal mouth
   '1FAE4': ['face_with_diagonal_mouth'],
   // 🥹 face holding back tears
-  '1F979': ['watery_eyes', 'face_holding_back_tears'],
+  '1F979': ['face_holding_back_tears', 'watery_eyes'],
   // 🫱 rightwards hand
   '1FAF1': ['rightwards_hand'],
   // 🫲 leftwards hand
@@ -3809,7 +3809,7 @@ export const shortcodes = {
   // 🫦 biting lip
   '1FAE6': ['biting_lip'],
   // 🫅 person with crown
-  '1FAC5': ['royalty', 'person_with_crown'],
+  '1FAC5': ['person_with_crown', 'royalty'],
   // 🫃 pregnant man
   '1FAC3': ['pregnant_man'],
   // 🫄 pregnant person
@@ -3821,7 +3821,7 @@ export const shortcodes = {
   // 🪷 lotus
   '1FAB7': ['lotus'],
   // 🪹 empty nest
-  '1FAB9': ['nest', 'empty_nest'],
+  '1FAB9': ['empty_nest', 'nest'],
   // 🪺 nest with eggs
   '1FABA': ['nest_with_eggs'],
   // 🫘 beans
@@ -3831,7 +3831,7 @@ export const shortcodes = {
   // 🫙 jar
   '1FAD9': ['jar'],
   // 🛝 playground slide
-  '1F6DD': ['slide', 'playground_slide'],
+  '1F6DD': ['playground_slide', 'slide'],
   // 🛞 wheel
   '1F6DE': ['wheel'],
   // 🛟 ring buoy
