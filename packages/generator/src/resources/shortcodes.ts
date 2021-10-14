@@ -3779,77 +3779,77 @@ export const shortcodes = {
 
   // VERSION 14
   // 🫠 melting face
-  '1FAE0': [],
+  '1FAE0': ['melt', 'melting_face'],
   // 🫢 face with open eyes and hand over mouth
-  '1FAE2': [],
+  '1FAE2': ['face_with_open_eyes_hand_over_mouth', 'gasp'],
   // 🫣 face with peeking eye
-  '1FAE3': [],
+  '1FAE3': ['face_with_peeking_eye', 'peek'],
   // 🫡 saluting face
-  '1FAE1': [],
+  '1FAE1': ['salute', 'saluting_face'],
   // 🫥 dotted line face
-  '1FAE5': [],
+  '1FAE5': ['dotted_line_face'],
   // 🫤 face with diagonal mouth
-  '1FAE4': [],
+  '1FAE4': ['face_with_diagonal_mouth'],
   // 🥹 face holding back tears
-  '1F979': [],
+  '1F979': ['face_holding_back_tears', 'watery_eyes'],
   // 🫱 rightwards hand
-  '1FAF1': [],
+  '1FAF1': ['rightwards_hand'],
   // 🫲 leftwards hand
-  '1FAF2': [],
+  '1FAF2': ['leftwards_hand'],
   // 🫳 palm down hand
-  '1FAF3': [],
+  '1FAF3': ['palm_down'],
   // 🫴 palm up hand
-  '1FAF4': [],
+  '1FAF4': ['palm_up'],
   // 🫰 hand with index finger and thumb crossed
-  '1FAF0': [],
+  '1FAF0': ['hand_with_index_finger_and_thumb_crossed'],
   // 🫵 index pointing at the viewer
-  '1FAF5': [],
+  '1FAF5': ['point_forward'],
   // 🫶 heart hands
-  '1FAF6': [],
+  '1FAF6': ['heart_hands'],
   // 🫦 biting lip
-  '1FAE6': [],
+  '1FAE6': ['biting_lip'],
   // 🫅 person with crown
-  '1FAC5': [],
+  '1FAC5': ['person_with_crown', 'royalty'],
   // 🫃 pregnant man
-  '1FAC3': [],
+  '1FAC3': ['pregnant_man'],
   // 🫄 pregnant person
-  '1FAC4': [],
+  '1FAC4': ['pregnant_person'],
   // 🧌 troll
-  '1F9CC': [],
+  '1F9CC': ['troll'],
   // 🪸 coral
-  '1FAB8': [],
+  '1FAB8': ['coral'],
   // 🪷 lotus
-  '1FAB7': [],
+  '1FAB7': ['lotus'],
   // 🪹 empty nest
-  '1FAB9': [],
+  '1FAB9': ['empty_nest', 'nest'],
   // 🪺 nest with eggs
-  '1FABA': [],
+  '1FABA': ['nest_with_eggs'],
   // 🫘 beans
-  '1FAD8': [],
+  '1FAD8': ['beans'],
   // 🫗 pouring liquid
-  '1FAD7': [],
+  '1FAD7': ['pour', 'pouring_liquid'],
   // 🫙 jar
-  '1FAD9': [],
+  '1FAD9': ['jar'],
   // 🛝 playground slide
-  '1F6DD': [],
+  '1F6DD': ['playground_slide', 'slide'],
   // 🛞 wheel
-  '1F6DE': [],
+  '1F6DE': ['wheel'],
   // 🛟 ring buoy
-  '1F6DF': [],
+  '1F6DF': ['lifebuoy', 'ring_buoy'],
   // 🪬 hamsa
-  '1FAAC': [],
+  '1FAAC': ['hamsa'],
   // 🪩 mirror ball
-  '1FAA9': [],
+  '1FAA9': ['disco', 'disco_ball', 'mirror_ball'],
   // 🪫 low battery
-  '1FAAB': [],
+  '1FAAB': ['low_battery'],
   // 🩼 crutch
-  '1FA7C': [],
+  '1FA7C': ['crutch'],
   // 🩻 x-ray
-  '1FA7B': [],
+  '1FA7B': ['x-ray', 'xray'],
   // 🫧 bubbles
-  '1FAE7': [],
+  '1FAE7': ['bubbles'],
   // 🪪 identification card
-  '1FAAA': [],
+  '1FAAA': ['id_card'],
   // 🟰 heavy equals sign
-  '1F7F0': [],
+  '1F7F0': ['heavy_equals_sign'],
 };
