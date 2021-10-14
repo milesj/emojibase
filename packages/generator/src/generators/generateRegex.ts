@@ -56,7 +56,7 @@ async function createEmojiRegex(
 	// so include the unicode character that does not include FE0E/FE0F
 	// when in loose mode.
 	Object.keys(data).forEach((hexcode) => {
-		const { variations } = data[hexcode];
+		const { variations, qualifiers } = data[hexcode];
 
 		switch (display) {
 			// Should contain everything
@@ -66,6 +66,10 @@ async function createEmojiRegex(
 				if (variations) {
 					addCodePoint(variations.emoji);
 					addCodePoint(variations.text);
+				}
+
+				if (qualifiers) {
+					Object.keys(qualifiers).forEach(addCodePoint);
 				}
 
 				break;

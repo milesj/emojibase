@@ -12,6 +12,7 @@
 
 - Added uppercased versions of emoticons when applicable.
 - Updated `shortcode-native` to handle Latin diacritics.
+- Updated `index` to handle all qualified states of an emoji.
 
 ## 5.1.0 - 2020-01-07
 
