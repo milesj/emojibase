@@ -81,15 +81,18 @@ export function parseMetadata(content: string): EmojiMetadataMap {
 		if (qualifier === FULLY_QUALIFIED) {
 			parentHexcode = hexcode;
 		} else if (qualifier !== null) {
-			map[parentHexcode].qualifiers.push({ hexcode, qualifier });
+			map[parentHexcode].qualifiers[hexcode] = qualifier;
 		}
 
 		map[hexcode] = {
 			group: groupIndex,
 			order,
 			qualifiers:
-				qualifier === FULLY_QUALIFIED || qualifier === null
-					? [{ hexcode, qualifier }]
+				// eslint-disable-next-line no-nested-ternary
+				qualifier === FULLY_QUALIFIED
+					? { [hexcode]: qualifier }
+					: qualifier === null && (!parentHexcode || !map[parentHexcode])
+					? {}
 					: // Use the same reference so its additive
 					  map[parentHexcode].qualifiers,
 			subgroup: subgroupIndex,

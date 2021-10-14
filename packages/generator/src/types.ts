@@ -95,6 +95,7 @@ export interface Emoji {
 	// Metadata
 	modifications?: HexcodeMap<EmojiModification>;
 	name: string;
+	qualifiers?: EmojiQualifiedMap;
 	variations?: EmojiVariation;
 	shortcodes?: Shortcode[];
 	emoticon?: Emoticon | Emoticon[];
@@ -114,15 +115,12 @@ export interface EmojiData {
 
 export type EmojiDataMap = HexcodeMap<EmojiData>;
 
-export interface EmojiQualifiedEntry {
-	hexcode: Hexcode;
-	qualifier: Qualifier | null;
-}
+export type EmojiQualifiedMap = HexcodeMap<Qualifier>;
 
 export interface EmojiMetadata {
 	group: Group;
 	order: number;
-	qualifiers: EmojiQualifiedEntry[];
+	qualifiers: EmojiQualifiedMap;
 	subgroup: Subgroup;
 }
 

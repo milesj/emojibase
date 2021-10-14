@@ -1,4 +1,4 @@
-import { EMOJI, TEXT } from 'emojibase';
+import { EMOJI, FULLY_QUALIFIED, TEXT } from 'emojibase';
 import { SEQUENCE_REMOVAL_PATTERN, SKIN_MODIFIER_PATTERN } from '../constants';
 import { hasProperty } from '../helpers/hasProperty';
 import {
@@ -12,7 +12,7 @@ import {
 export function joinMetadataToData(
 	emojis: EmojiMap,
 	names: UnicodeNamesMap,
-	groups: EmojiMetadataMap,
+	metadata: EmojiMetadataMap,
 	variations: EmojiVariationMap,
 	emoticons: EmoticonMap,
 ) {
@@ -63,12 +63,14 @@ export function joinMetadataToData(
 		}
 
 		emoji.name = name.join(', ');
+		emoji.qualifiers = {};
 
 		// Pull in the official group and order
-		if (groups[hexcode]) {
-			emoji.group = groups[hexcode].group;
-			emoji.subgroup = groups[hexcode].subgroup;
-			emoji.order = groups[hexcode].order;
+		if (metadata[hexcode]) {
+			emoji.group = metadata[hexcode].group;
+			emoji.subgroup = metadata[hexcode].subgroup;
+			emoji.order = metadata[hexcode].order;
+			emoji.qualifiers = metadata[hexcode].qualifiers;
 		}
 
 		// Pull in text and emoji variations
@@ -77,6 +79,14 @@ export function joinMetadataToData(
 				emoji: variations[hexcode].emoji,
 				text: variations[hexcode].text,
 			};
+
+			if (emoji.variations.emoji) {
+				emoji.qualifiers[emoji.variations.emoji] = FULLY_QUALIFIED;
+			}
+
+			if (emoji.variations.text) {
+				emoji.qualifiers[emoji.variations.text] = FULLY_QUALIFIED;
+			}
 		}
 
 		// Pull in emoticon

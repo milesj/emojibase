@@ -33,11 +33,11 @@ export async function buildEmojiData(): Promise<EmojiMap> {
 
 	// 2) Load and merge metadata into the emoji data
 	const names = await loadNames();
-	const groups = await loadMetadata();
+	const metadata = await loadMetadata();
 	const variations = await loadVariations();
 	const emoticons = await loadEmoticons();
 
-	joinMetadataToData(emojis, names, groups, variations, emoticons);
+	joinMetadataToData(emojis, names, metadata, variations, emoticons);
 
 	// 3) Append skin tone modifications
 	joinModifiersToData(emojis); // Requires names

@@ -11,6 +11,7 @@
 
 - Updated to [CLDR 40](http://cldr.unicode.org/index/downloads/cldr-40).
 - Updated `fetchShortcodes` to no longer return an empty response for `cldr-native` and invalid locales.
+- Added `FULLY_QUALIFIED`, `MINIMALLY_QUALIFIED`, and `UNQUALIFIED` constants.
 
 #### 🛠 Internals
 
