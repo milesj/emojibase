@@ -50,7 +50,7 @@ export const SKIN_KEY_DARK: SkinToneKey = 'dark';
 
 export const LATEST_EMOJI_VERSION = '14.0';
 export const LATEST_UNICODE_VERSION = '14.0.0';
-export const LATEST_CLDR_VERSION = '40-alpha3';
+export const LATEST_CLDR_VERSION = '40-beta3';
 
 export const FIRST_UNICODE_EMOJI_VERSION = '6.0.0';
 export const EMOJI_VERSIONS = [
