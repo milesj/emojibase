@@ -3,8 +3,8 @@ import { readCache } from '../helpers/readCache';
 import { writeCache } from '../helpers/writeCache';
 import { loadData } from '../loaders/loadData';
 import { loadEmoticons } from '../loaders/loadEmoticons';
+import { loadMetadata } from '../loaders/loadMetadata';
 import { loadNames } from '../loaders/loadNames';
-import { loadOrderAndGroup } from '../loaders/loadOrderAndGroup';
 import { loadSequences } from '../loaders/loadSequences';
 import { loadVariations } from '../loaders/loadVariations';
 import { loadZwjSequences } from '../loaders/loadZwjSequences';
@@ -33,11 +33,11 @@ export async function buildEmojiData(): Promise<EmojiMap> {
 
 	// 2) Load and merge metadata into the emoji data
 	const names = await loadNames();
-	const groups = await loadOrderAndGroup();
+	const metadata = await loadMetadata();
 	const variations = await loadVariations();
 	const emoticons = await loadEmoticons();
 
-	joinMetadataToData(emojis, names, groups, variations, emoticons);
+	joinMetadataToData(emojis, names, metadata, variations, emoticons);
 
 	// 3) Append skin tone modifications
 	joinModifiersToData(emojis); // Requires names

@@ -63,7 +63,9 @@ The third and last group, metadata, provides specialized datasets for unique use
 
 - `emojibase-data/meta/groups.json` - A map of non-localized emoji groups (Smileys & People),
   subgroups (Sky & Weather), and hierarchy, according to the official Unicode data files.
-- `emojibase-data/meta/hexcodes.json` - An array of all emoji hexcodes (hexadecimal codepoints).
+- `emojibase-data/meta/hexcodes.json` - A map of emoji hexcodes (hexadecimal codepoints) to an
+  object of hexcodes with different qualified status: fully qualified, minimally qualified, and
+  unqualified.
 - `emojibase-data/meta/unicode.json` - An array of all emoji unicode characters, including text and
   emoji presentation characters.
 - `emojibase-data/meta/unicode-names.json` - A map of hexcodes to official Unicode names for each

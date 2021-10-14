@@ -13,6 +13,7 @@
 
 - Updated `emojibase` shortcode preset to transliterate for all languages.
 - Updated the `emoticon` property to also support an array of strings.
+- Updated `meta/hexcodes.json` to be a mapping of hexcodes based on qualified status, instead of a list of hexcodes.
 - Renamed the `annotation` field to `label`.
 - Renamed `meta.json` datasets to `messages.json`.
 

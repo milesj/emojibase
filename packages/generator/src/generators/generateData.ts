@@ -20,6 +20,7 @@ import {
 	CLDRAnnotationMap,
 	Emoji,
 	EmojiModification,
+	EmojiQualifiedMap,
 	Hexcode,
 	HexcodeMap,
 	VersionMap,
@@ -238,16 +239,19 @@ export async function generateData(): Promise<void> {
 	// Generate metadata and specialized datasets
 	const names: HexcodeMap<string> = {};
 	const unicode = new Set();
-	const hexcodes = new Set();
+	const hexcodes: HexcodeMap<EmojiQualifiedMap> = {};
 
 	const addMetadata = (hexcode: Hexcode, emoji?: Emoji) => {
 		unicode.add(toUnicode(hexcode));
-		hexcodes.add(hexcode);
 
 		if (emoji) {
 			const name = emoji.name || emoji.description.toUpperCase();
 
 			names[hexcode] = name;
+
+			if (emoji.qualifiers && Object.keys(emoji.qualifiers).length > 0) {
+				hexcodes[hexcode] = emoji.qualifiers;
+			}
 		}
 	};
 
@@ -271,7 +275,7 @@ export async function generateData(): Promise<void> {
 	await Promise.all([
 		writeDataset('meta/unicode.json', [...unicode]),
 		writeDataset('meta/unicode-names.json', names),
-		writeDataset('meta/hexcodes.json', [...hexcodes]),
+		writeDataset('meta/hexcodes.json', hexcodes),
 	]);
 
 	const groupCache = readCache('final/group-hierarchy.json');

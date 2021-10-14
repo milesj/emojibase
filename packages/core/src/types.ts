@@ -26,6 +26,8 @@ export type Presentation = 0 | 1;
 
 export type PresentationKey = 'emoji' | 'text';
 
+export type Qualifier = 0 | 1 | 2;
+
 export type Shortcode = string;
 
 export type ShortcodePreset =
