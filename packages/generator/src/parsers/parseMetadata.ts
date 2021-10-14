@@ -1,8 +1,10 @@
+import { FULLY_QUALIFIED } from 'emojibase';
 import { HIDDEN_GROUPS, HIDDEN_SUBGROUPS } from '../constants';
 import { formatHexcode } from '../helpers/formatHexcode';
 import { slug } from '../helpers/slug';
 import { writeCache } from '../helpers/writeCache';
-import { EmojiGroup, EmojiGroupMap } from '../types';
+import { EmojiMetadata, EmojiMetadataMap } from '../types';
+import { extractQualifier } from './extractQualifier';
 
 type GroupNameMap = Record<number, string>;
 
@@ -10,15 +12,15 @@ type GroupHierarchy = Record<number, number[]>;
 
 // Some emojis do not match the official emoji list table.
 // So instead of mismatching, we'll opt to match the table.
-const OVERRIDES: Record<string, Partial<EmojiGroup>> = {};
+const OVERRIDES: Record<string, Partial<EmojiMetadata>> = {};
 
 /**
  * Parses the official unicode emoji-test data, which includes order and grouping.
  *
  * Example: http://unicode.org/Public/emoji/5.0/emoji-test.txt
  */
-export function parseOrderAndGroup(content: string): EmojiGroupMap {
-	const map: EmojiGroupMap = {};
+export function parseMetadata(content: string): EmojiMetadataMap {
+	const map: EmojiMetadataMap = {};
 	const groups: GroupNameMap = {};
 	const subgroups: GroupNameMap = {};
 	const hierarchy: GroupHierarchy = {};
@@ -27,6 +29,7 @@ export function parseOrderAndGroup(content: string): EmojiGroupMap {
 	let subgroup = '';
 	let subgroupIndex = -1;
 	let order = 1;
+	let parentHexcode = '';
 
 	content.split('\n').forEach((line) => {
 		// Skip empty lines
@@ -36,6 +39,8 @@ export function parseOrderAndGroup(content: string): EmojiGroupMap {
 
 		// Capture group and subgroup from comments
 		if (line.startsWith('#')) {
+			parentHexcode = '';
+
 			if (line.startsWith('# group:')) {
 				group = slug(line.slice(8).trim());
 				groupIndex += 1;
@@ -66,14 +71,24 @@ export function parseOrderAndGroup(content: string): EmojiGroupMap {
 		}
 
 		// Persist order and group
-		const hexcode = formatHexcode(line.split(';')[0].trim());
+		const [baseHexcode, trailingLine] = line.split(';');
+		const [baseQualifier] = trailingLine.split('#');
 
-		map[hexcode] = {
-			group: groupIndex,
-			order,
-			subgroup: subgroupIndex,
-			...OVERRIDES[hexcode],
-		};
+		const hexcode = formatHexcode(baseHexcode.trim());
+		const qualifier = extractQualifier(baseQualifier.trim());
+
+		if (qualifier === FULLY_QUALIFIED) {
+			parentHexcode = hexcode;
+			map[hexcode] = {
+				group: groupIndex,
+				order,
+				qualifiers: [{ hexcode, qualifier }],
+				subgroup: subgroupIndex,
+				...OVERRIDES[hexcode],
+			};
+		} else {
+			map[parentHexcode].qualifiers.push({ hexcode, qualifier });
+		}
 
 		order += 1;
 	});

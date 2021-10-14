@@ -1,12 +1,18 @@
 import { EMOJI, TEXT } from 'emojibase';
 import { SEQUENCE_REMOVAL_PATTERN, SKIN_MODIFIER_PATTERN } from '../constants';
 import { hasProperty } from '../helpers/hasProperty';
-import { EmojiGroupMap, EmojiMap, EmojiVariationMap, EmoticonMap, UnicodeNamesMap } from '../types';
+import {
+	EmojiMap,
+	EmojiMetadataMap,
+	EmojiVariationMap,
+	EmoticonMap,
+	UnicodeNamesMap,
+} from '../types';
 
 export function joinMetadataToData(
 	emojis: EmojiMap,
 	names: UnicodeNamesMap,
-	groups: EmojiGroupMap,
+	groups: EmojiMetadataMap,
 	variations: EmojiVariationMap,
 	emoticons: EmoticonMap,
 ) {

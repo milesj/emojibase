@@ -4,6 +4,7 @@ import {
 	Locale,
 	PermutationOptions,
 	Presentation,
+	Qualifier,
 	SkinTone,
 	SkinToneKey,
 } from './types';
@@ -17,6 +18,10 @@ export const EMOJI: Presentation = 1;
 
 export const FEMALE: Gender = 0;
 export const MALE: Gender = 1;
+
+export const FULLY_QUALIFIED: Qualifier = 0;
+export const MINIMALLY_QUALIFIED: Qualifier = 1;
+export const UNQUALIFIED: Qualifier = 2;
 
 export const LIGHT_SKIN: SkinTone = 1;
 export const MEDIUM_LIGHT_SKIN: SkinTone = 2;

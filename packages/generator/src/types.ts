@@ -6,6 +6,7 @@ import {
 	Group,
 	Hexcode,
 	Presentation,
+	Qualifier,
 	Shortcode,
 	SkinTone,
 	Subgroup,
@@ -113,13 +114,19 @@ export interface EmojiData {
 
 export type EmojiDataMap = HexcodeMap<EmojiData>;
 
-export interface EmojiGroup {
+export interface EmojiQualifiedEntry {
+	hexcode: Hexcode;
+	qualifier: Qualifier;
+}
+
+export interface EmojiMetadata {
 	group: Group;
 	order: number;
+	qualifiers: EmojiQualifiedEntry[];
 	subgroup: Subgroup;
 }
 
-export type EmojiGroupMap = HexcodeMap<EmojiGroup>;
+export type EmojiMetadataMap = HexcodeMap<EmojiMetadata>;
 
 export interface EmojiSource {
 	hexcode: Hexcode;
