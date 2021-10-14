@@ -1,5 +1,5 @@
 import path from 'path';
-import { appendSkinToneIndex, Emoji, SUPPORTED_LOCALES, TEXT } from 'emojibase';
+import { appendSkinToneIndex, Emoji, Hexcode, SUPPORTED_LOCALES, TEXT } from 'emojibase';
 import { SHORTCODE_GUIDELINES } from '../../constants';
 import { writeDataset } from '../../helpers/writeDataset';
 import { writeFile } from '../../helpers/writeFile';
@@ -13,6 +13,7 @@ export async function generateEmojibase(db: Database) {
 	db.preset = 'emojibase';
 
 	let englishShortcodes: ShortcodeDataMap = {};
+	const missingShortcodes = new Set<Hexcode>();
 
 	await Promise.all(
 		SUPPORTED_LOCALES.map(async (locale) => {
@@ -28,6 +29,10 @@ export async function generateEmojibase(db: Database) {
 				const items = translations.itemsByComment[emoji.hexcode];
 
 				if (!items) {
+					if (locale === 'en') {
+						missingShortcodes.add(emoji.hexcode);
+					}
+
 					return;
 				}
 
@@ -114,6 +119,7 @@ export async function generateEmojibase(db: Database) {
 		'',
 		'export const shortcodes = {',
 	];
+	const poAdditions: string[] = [];
 	let lastVersion = 0;
 
 	// Sort by version -> order
@@ -140,6 +146,16 @@ export async function generateEmojibase(db: Database) {
 			`  // ${unicode} ${emoji.label}`,
 			`  '${emoji.hexcode}': [${codes.map((sc) => `'${sc}'`).join(', ')}],`,
 		);
+
+		if (missingShortcodes.has(emoji.hexcode)) {
+			poAdditions.push(
+				`\n`,
+				`# ${emoji.hexcode}`,
+				`msgctxt "EMOJI: ${unicode} ${emoji.label}"`,
+				'msgid ""',
+				'msgstr ""',
+			);
+		}
 	});
 
 	output.push('};\n');
@@ -149,4 +165,7 @@ export async function generateEmojibase(db: Database) {
 		'shortcodes.ts',
 		output.join('\n'),
 	);
+
+	// eslint-disable-next-line no-console
+	console.log(poAdditions.join('\n'));
 }
