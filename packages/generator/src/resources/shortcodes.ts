@@ -3791,7 +3791,7 @@ export const shortcodes = {
   // 🫤 face with diagonal mouth
   '1FAE4': ['face_with_diagonal_mouth'],
   // 🥹 face holding back tears
-  '1F979': ['watery_eys', 'face_holding_back_tears'],
+  '1F979': ['watery_eyes', 'face_holding_back_tears'],
   // 🫱 rightwards hand
   '1FAF1': ['rightwards_hand'],
   // 🫲 leftwards hand

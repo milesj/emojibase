@@ -149,7 +149,7 @@ export async function generateEmojibase(db: Database) {
 
 		if (missingShortcodes.has(emoji.hexcode)) {
 			poAdditions.push(
-				`\n`,
+				'',
 				`# ${emoji.hexcode}`,
 				`msgctxt "EMOJI: ${unicode} ${emoji.label}"`,
 				'msgid ""',
