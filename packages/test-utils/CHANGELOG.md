@@ -1,6 +1,6 @@
 > Versions that only update `test-*.json` are omitted from the changelog.
 
-# 7.0.0
+# 7.0.0 - 2021-10-15
 
 #### 🎉 Release
 
