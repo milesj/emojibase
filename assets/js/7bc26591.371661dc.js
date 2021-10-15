@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[8809],{5765:function(e){e.exports=JSON.parse('{"id":200,"name":"FetchEmojisOptions","nextId":197,"permalink":"/api/emojibase/interface/FetchEmojisOptions","previousId":168}')}}]);
