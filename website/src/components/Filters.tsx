@@ -10,16 +10,11 @@ import {
 	ShortcodePreset,
 	SubgroupMessage,
 } from 'emojibase';
+import metaTranslations from 'emojibase-data/en/messages.json';
+import groupsMetaDataset from 'emojibase-data/meta/groups.json';
 import debounce from 'lodash/debounce';
 import upperFirst from 'lodash/upperFirst';
 import styles from './styles.module.css';
-
-const groupsMetaDataset = require('emojibase-data/meta/groups.json') as GroupDataset;
-
-const metaTranslations = require('emojibase-data/en/messages.raw.json') as {
-	groups: GroupMessage[];
-	subgroups: SubgroupMessage[];
-};
 
 const isBrowser = typeof location !== 'undefined';
 

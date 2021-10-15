@@ -3,7 +3,8 @@
     "declarationDir": "dts",
     "outDir": "dts",
     "rootDir": "src",
-    "emitDeclarationOnly": true
+    "emitDeclarationOnly": true,
+    "resolveJsonModule": true
   },
   "exclude": [
     "dts",

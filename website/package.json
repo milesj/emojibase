@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.14.175",
-    "@types/react": "^17.0.27",
+    "@types/react": "^17.0.30",
     "emojibase": "link:../packages/core",
     "emojibase-data": "link:../packages/data"
   },
@@ -39,5 +39,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "tsconfig": {
+    "compilerOptions": {
+      "resolveJsonModule": true
+    }
   }
 }

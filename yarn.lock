@@ -4644,10 +4644,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^16.10.3":
-  version: 16.10.3
-  resolution: "@types/node@npm:16.10.3"
-  checksum: 3fd429bce8a4acb497dcc62b536782a5e87ccf7cd91d64a78b263ae5d66cb72bf84be9eeeff6f84ae0567b065a40b267caa66d311f9e094990a5847bbd168a29
+"@types/node@npm:*, @types/node@npm:^16.11.0":
+  version: 16.11.0
+  resolution: "@types/node@npm:16.11.0"
+  checksum: 194ae80ec72f664e15e03c33f116be96aa1e85b167a19e31003c53ddfc36dabd65744e9a76c1d46b7ce2e5981d2ccb8e84a85c3ec9ac89f1471daaa885bdcfd0
   languageName: node
   linkType: hard
 
@@ -4714,14 +4714,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^17.0.27":
-  version: 17.0.27
-  resolution: "@types/react@npm:17.0.27"
+"@types/react@npm:^17.0.30":
+  version: 17.0.30
+  resolution: "@types/react@npm:17.0.30"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 3a1147d963c16dc9bbea5afb20c4be94f2389cf4eca4c5fbe9b02f3406bd9957602c0459ea017c95f8c3d523221f572e8bd842f94654835776d4c2923357f9dc
+  checksum: e3aaac1b8fda6e3622b75db0bd7d8dc412c2f2b77a00afdd32cae8c71fb0b1ca6926ab1fbe1c536dd51d96c0ba372738993837a8df1637637aaab7b86e421b7f
   languageName: node
   linkType: hard
 
@@ -8356,7 +8356,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "emojibase-data@workspace:packages/data"
   dependencies:
-    emojibase-regex: ^5.1.3
+    emojibase-regex: ^6.0.0
   peerDependencies:
     emojibase: "*"
   languageName: unknown
@@ -8368,11 +8368,11 @@ __metadata:
   dependencies:
     "@types/cheerio": ^0.22.30
     "@types/fs-extra": ^9.0.13
-    "@types/node": ^16.10.3
+    "@types/node": ^16.11.0
     "@types/node-fetch": ^2.5.12
     chalk: ^4.1.2
     cheerio: ^1.0.0-rc.10
-    emojibase: ^5.2.0
+    emojibase: ^6.0.0
     fs-extra: ^10.0.0
     kuroshiro: ^1.2.0
     kuroshiro-analyzer-kuromoji: ^1.1.0
@@ -8383,12 +8383,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"emojibase-regex@^5.1.3, emojibase-regex@workspace:packages/regex":
+"emojibase-regex@^6.0.0, emojibase-regex@workspace:packages/regex":
   version: 0.0.0-use.local
   resolution: "emojibase-regex@workspace:packages/regex"
   dependencies:
-    emojibase: ^5.2.0
-    emojibase-test-utils: ^6.2.2
+    emojibase: ^6.0.0
+    emojibase-test-utils: ^7.0.0
   languageName: unknown
   linkType: soft
 
@@ -8409,7 +8409,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"emojibase-test-utils@^6.2.2, emojibase-test-utils@workspace:packages/test-utils":
+"emojibase-test-utils@^7.0.0, emojibase-test-utils@workspace:packages/test-utils":
   version: 0.0.0-use.local
   resolution: "emojibase-test-utils@workspace:packages/test-utils"
   peerDependencies:
@@ -8417,7 +8417,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"emojibase@^5.2.0, emojibase@workspace:packages/core":
+"emojibase@^6.0.0, emojibase@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "emojibase@workspace:packages/core"
   languageName: unknown
@@ -20124,7 +20124,7 @@ resolve@~1.19.0:
     "@docusaurus/preset-classic": 2.0.0-beta.6
     "@mdx-js/react": ^1.6.22
     "@types/lodash": ^4.14.175
-    "@types/react": ^17.0.27
+    "@types/react": ^17.0.30
     clsx: ^1.1.1
     docusaurus-plugin-typedoc-api: ^1.4.0
     emojibase: "link:../packages/core"
