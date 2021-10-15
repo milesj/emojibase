@@ -294,10 +294,13 @@ export interface FetchFromCDNOptions extends RequestInit {
 }
 
 export interface FetchEmojisOptions extends FetchFromCDNOptions {
+	/** List of shortcode presets to load and merge into the emojis dataset. Defaults to an empty list. */
+	shortcodes?: (LocalizedShortcodePreset | ShortcodePreset)[];
+}
+
+export interface FetchEmojisExpandedOptions extends FetchEmojisOptions {
 	/** Load the compact dataset instead of the full dataset. Defaults to `false`. */
 	compact?: boolean;
 	/** Flatten the dataset (moving skin tones to the root). Defaults to `false`. */
 	flat?: boolean;
-	/** List of shortcode presets to load and merge into the emojis dataset. Defaults to an empty list. */
-	shortcodes?: (LocalizedShortcodePreset | ShortcodePreset)[];
 }

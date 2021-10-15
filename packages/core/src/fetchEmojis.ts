@@ -5,6 +5,7 @@ import { joinShortcodes } from './joinShortcodes';
 import {
 	CompactEmoji,
 	Emoji,
+	FetchEmojisExpandedOptions,
 	FetchEmojisOptions,
 	FlatCompactEmoji,
 	FlatEmoji,
@@ -37,17 +38,12 @@ import {
  * });
  * ```
  */
-async function fetchEmojis(
-	locale: Locale,
-	options?: FetchEmojisOptions & { compact?: false; flat?: false },
-): Promise<Emoji[]>;
 
 async function fetchEmojis(
 	locale: Locale,
-	options: FetchEmojisOptions & { compact?: false; flat: true },
-): Promise<FlatEmoji[]>;
+	options: FetchEmojisOptions & { compact: true; flat: true },
+): Promise<FlatCompactEmoji[]>;
 
-// Compact
 async function fetchEmojis(
 	locale: Locale,
 	options: FetchEmojisOptions & { compact: true; flat?: false },
@@ -55,10 +51,18 @@ async function fetchEmojis(
 
 async function fetchEmojis(
 	locale: Locale,
-	options: FetchEmojisOptions & { compact: true; flat: true },
-): Promise<FlatCompactEmoji[]>;
+	options: FetchEmojisOptions & { compact?: false; flat: true },
+): Promise<FlatEmoji[]>;
 
-async function fetchEmojis(locale: Locale, options: FetchEmojisOptions = {}): Promise<unknown[]> {
+async function fetchEmojis(
+	locale: Locale,
+	options?: FetchEmojisOptions & { compact?: false; flat?: false },
+): Promise<Emoji[]>;
+
+async function fetchEmojis(
+	locale: Locale,
+	options: FetchEmojisExpandedOptions = {},
+): Promise<unknown[]> {
 	const { compact = false, flat = false, shortcodes: presets = [], ...opts } = options;
 	const emojis = await fetchFromCDN<Emoji[]>(
 		`${locale}/${compact ? 'compact' : 'data'}.json`,

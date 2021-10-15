@@ -3,6 +3,19 @@ import { fetchEmojis } from '../src/fetchEmojis';
 import { getCompactEmojiWithSkins, getEmojiWithSkins, setupStorage } from './helpers';
 
 describe('fetchEmojis()', () => {
+	// Testing overloads
+	function testOverloads() {
+		const e1 = fetchEmojis('en', { compact: true, flat: true });
+		const e2 = fetchEmojis('en', { compact: true, flat: false });
+		const e3 = fetchEmojis('en', { compact: true });
+		const e4 = fetchEmojis('en', { compact: true, shortcodes: ['cldr'] });
+		const e5 = fetchEmojis('en', { compact: false, flat: true });
+		const e6 = fetchEmojis('en', { compact: false, flat: false });
+		const e7 = fetchEmojis('en', { flat: true });
+		const e8 = fetchEmojis('en', { shortcodes: ['cldr'] });
+		const e9 = fetchEmojis('en');
+	}
+
 	beforeEach(() => {
 		setupStorage();
 
