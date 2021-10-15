@@ -6,6 +6,7 @@
 - Renamed the `annotation` field to `label`.
 - Renamed `fetchMetadata` to `fetchMessages`.
 - Removed the `NON_LATIN_LOCALES` constant.
+- Removed UMD build and removed `browser` entry in package.
 
 #### 🚀 Updates
 
