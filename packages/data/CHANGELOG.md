@@ -25,6 +25,7 @@ to languages that have been translated so far.
 - Added Swedish shortcodes (`sv/shortcodes/emojibase.json`).
 - Added `skinTones` translations to `messages.json`.
 - Updated to [CLDR 40](http://cldr.unicode.org/index/downloads/cldr-40).
+- Improved TypeScript declarations.
 
 ## 6.2.0 - 2021-05-13
 

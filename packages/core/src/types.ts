@@ -225,7 +225,9 @@ export interface GroupDataset {
 
 export type VersionDataset = Record<string, string[]>;
 
-export type ShortcodesDataset = Record<string, string[] | string>;
+export type ShortcodesDataset = Record<Hexcode, string[] | string>;
+
+export type HexcodesDataset = Record<Hexcode, Record<Hexcode, Qualifier>>;
 
 export interface SkinToneMessage {
 	key: SkinToneKey;
