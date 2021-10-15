@@ -1,7 +1,7 @@
 /* eslint-disable sort-keys */
 
 const path = require('path');
-const { EMOJI_VERSIONS, UNICODE_VERSIONS } = require('../packages/core');
+const { EMOJI_VERSIONS, UNICODE_VERSIONS } = require('emojibase');
 
 const pkgs = [
 	'core',
