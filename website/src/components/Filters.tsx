@@ -4,16 +4,17 @@ import 'url-search-params-polyfill';
 import React, { useCallback, useEffect, useState } from 'react';
 import {
 	Emoji,
+	fetchFromCDN,
+	fetchMessages,
 	GroupDataset,
 	GroupMessage,
 	Locale,
 	ShortcodePreset,
 	SubgroupMessage,
 } from 'emojibase';
-import metaTranslations from 'emojibase-data/en/messages.json';
-import groupsMetaDataset from 'emojibase-data/meta/groups.json';
 import debounce from 'lodash/debounce';
 import upperFirst from 'lodash/upperFirst';
+import { CDN_VERSION } from '../constants';
 import styles from './styles.module.css';
 
 const isBrowser = typeof location !== 'undefined';
@@ -141,6 +142,7 @@ export interface FilterProps {
 
 const query = new URLSearchParams(isBrowser ? location.search : '');
 
+// eslint-disable-next-line complexity
 export default function Filters({
 	defaultShortcodePresets = ['emojibase'],
 	disabled = false,
@@ -151,10 +153,10 @@ export default function Filters({
 	const [filter, setFilter] = useState(inputFilter);
 	const [locale, setLocale] = useState<Locale>((query.get('locale') ?? 'en') as 'en');
 	const [group, setGroup] = useState(Number(query.get('group') ?? -1));
-	const [groupLabels] = useState<GroupLabels>(mapGroups(metaTranslations.groups));
-	const [groupsMeta] = useState<GroupDataset>(groupsMetaDataset);
+	const [groupLabels, setGroupLabels] = useState<GroupLabels>();
+	const [groupsMeta, setGroupsMeta] = useState<GroupDataset>();
 	const [subgroup, setSubgroup] = useState(Number(query.get('subgroup') ?? -1));
-	const [subgroupLabels] = useState<GroupLabels>(mapGroups(metaTranslations.subgroups));
+	const [subgroupLabels, setSubgroupLabels] = useState<GroupLabels>();
 	const [genders, setGenders] = useState(query.get('genders') === 'true');
 	const [skinTones, setSkinTones] = useState(query.get('skinTones') === 'true');
 	const [shortcodePresets, setShortcodePresets] = useState<ShortcodePreset[]>(
@@ -162,6 +164,27 @@ export default function Filters({
 			.split(',')
 			.filter(Boolean) as ShortcodePreset[],
 	);
+
+	useEffect(() => {
+		// We cant declare these as standard npm dependencies,
+		// since it conflicts with the local workspace and these packages
+		// may not have been built yet. So we unfortunately need to
+		// fetch the data from the CDN...
+		async function load() {
+			const metaTranslations = await fetchMessages('en', { version: CDN_VERSION });
+
+			setGroupLabels(mapGroups(metaTranslations.groups));
+			setSubgroupLabels(mapGroups(metaTranslations.subgroups));
+
+			const groupsMetaDataset = await fetchFromCDN<GroupDataset>('meta/groups.json', {
+				version: CDN_VERSION,
+			});
+
+			setGroupsMeta(groupsMetaDataset);
+		}
+
+		void load();
+	}, []);
 
 	useEffect(() => {
 		updateUrlFragment(query);
@@ -291,7 +314,7 @@ export default function Filters({
 					<label htmlFor="group">Group</label>
 
 					<select
-						disabled={disabled}
+						disabled={disabled || !groupsMeta || !groupLabels}
 						id="group"
 						name="group"
 						value={group}
@@ -299,11 +322,13 @@ export default function Filters({
 					>
 						<option value="-1">(none)</option>
 
-						{Object.keys(groupsMeta.groups).map((id) => (
-							<option key={id} value={id}>
-								{upperFirst(groupLabels[id])}
-							</option>
-						))}
+						{groupsMeta &&
+							groupLabels &&
+							Object.keys(groupsMeta.groups).map((id) => (
+								<option key={id} value={id}>
+									{upperFirst(groupLabels[id])}
+								</option>
+							))}
 					</select>
 				</div>
 
@@ -311,7 +336,7 @@ export default function Filters({
 					<label htmlFor="subgroup">Subgroup</label>
 
 					<select
-						disabled={disabled || !groupsMeta.hierarchy[group]}
+						disabled={disabled || !groupsMeta || !groupsMeta.hierarchy[group] || !subgroupLabels}
 						id="subgroup"
 						name="subgroup"
 						value={subgroup}
@@ -319,11 +344,13 @@ export default function Filters({
 					>
 						<option value="-1">(none)</option>
 
-						{(groupsMeta.hierarchy[group] || []).map((id) => (
-							<option key={id} value={id}>
-								{upperFirst(subgroupLabels[id])}
-							</option>
-						))}
+						{groupsMeta &&
+							subgroupLabels &&
+							(groupsMeta.hierarchy[group] || []).map((id) => (
+								<option key={id} value={id}>
+									{upperFirst(subgroupLabels[id])}
+								</option>
+							))}
 					</select>
 				</div>
 			</div>
