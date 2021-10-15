@@ -8346,7 +8346,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emojibase-data@workspace:*, emojibase-data@workspace:packages/data":
+"emojibase-data@link:../packages/data::locator=website%40workspace%3Awebsite":
+  version: 0.0.0-use.local
+  resolution: "emojibase-data@link:../packages/data::locator=website%40workspace%3Awebsite"
+  languageName: node
+  linkType: soft
+
+"emojibase-data@workspace:packages/data":
   version: 0.0.0-use.local
   resolution: "emojibase-data@workspace:packages/data"
   dependencies:
@@ -8411,10 +8417,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"emojibase@^5.2.0, emojibase@workspace:*, emojibase@workspace:packages/core":
+"emojibase@^5.2.0, emojibase@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "emojibase@workspace:packages/core"
   languageName: unknown
+  linkType: soft
+
+"emojibase@link:../packages/core::locator=website%40workspace%3Awebsite":
+  version: 0.0.0-use.local
+  resolution: "emojibase@link:../packages/core::locator=website%40workspace%3Awebsite"
+  languageName: node
   linkType: soft
 
 "emojis-list@npm:^3.0.0":
@@ -20115,8 +20127,8 @@ resolve@~1.19.0:
     "@types/react": ^17.0.27
     clsx: ^1.1.1
     docusaurus-plugin-typedoc-api: ^1.4.0
-    emojibase: "workspace:*"
-    emojibase-data: "workspace:*"
+    emojibase: "link:../packages/core"
+    emojibase-data: "link:../packages/data"
     lodash: ^4.17.21
     react: ^17.0.2
     react-dom: ^17.0.2
