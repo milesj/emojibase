@@ -3,6 +3,7 @@ import { Emoji, fetchEmojis, ShortcodePreset } from 'emojibase';
 import Layout from '@theme/Layout';
 import Filters, { FilterFields, processEmojis } from '../components/Filters';
 import Shortcodes from '../components/Shortcodes';
+import { CDN_VERSION } from '../constants';
 
 export default function EmojiList() {
 	const [emojis, setEmojis] = useState<Emoji[]>([]);
@@ -17,7 +18,7 @@ export default function EmojiList() {
 			shortcodes: shortcodePresets.map((preset) =>
 				preset.includes('cldr') ? preset : `en/${preset}`,
 			) as ShortcodePreset[],
-			version: 'next',
+			version: CDN_VERSION,
 		});
 
 		setEmojis(processEmojis(data, fields));

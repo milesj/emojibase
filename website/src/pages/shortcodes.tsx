@@ -3,6 +3,7 @@ import { Emoji, fetchEmojis, fetchShortcodes, ShortcodePreset, ShortcodesDataset
 import Layout from '@theme/Layout';
 import Filters, { FilterFields, PRESETS, processEmojis } from '../components/Filters';
 import Shortcodes from '../components/Shortcodes';
+import { CDN_VERSION } from '../constants';
 // import cldrDataset from 'emojibase-data/en/shortcodes/cldr.raw.json';
 // import emojibaseDataset from 'emojibase-data/en/shortcodes/emojibase.raw.json';
 // import emojibaseLegacyDataset from 'emojibase-data/en/shortcodes/emojibase-legacy.raw.json';
@@ -54,14 +55,14 @@ export default function ShortcodesTable() {
 
 			const emojisData = await fetchEmojis(locale, {
 				shortcodes: presets,
-				version: 'next',
+				version: CDN_VERSION,
 			});
 
-			const cldrDataset = await fetchShortcodes(locale, 'cldr', { version: 'next' });
+			const cldrDataset = await fetchShortcodes(locale, 'cldr', { version: CDN_VERSION });
 
 			const allDatasets = await Promise.all(
 				shortcodePresets.map((preset) =>
-					fetchShortcodes(locale, preset, { version: 'next' }).catch(noop),
+					fetchShortcodes(locale, preset, { version: CDN_VERSION }).catch(noop),
 				),
 			);
 
