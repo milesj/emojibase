@@ -10,6 +10,7 @@
 
 #### 🚀 Updates
 
+- Updated to [Emoji 14.0](https://emojipedia.org/emoji-14.0/).
 - Updated to [CLDR 40](http://cldr.unicode.org/index/downloads/cldr-40).
 - Updated `fetchShortcodes` to no longer return an empty response for `cldr-native` and invalid locales.
 - Added `FULLY_QUALIFIED`, `MINIMALLY_QUALIFIED`, and `UNQUALIFIED` constants.
@@ -18,7 +19,7 @@
 
 - Migrated to Beemo configurations.
 - Updated `LATEST_EMOJI_VERSION` to `14.0`.
-- Updated `LATEST_CLDR_VERSION` to `40-alpha3`.
+- Updated `LATEST_CLDR_VERSION` to `40-beta3`.
 
 ## 5.2.0 - 2021-05-13
 

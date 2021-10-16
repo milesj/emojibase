@@ -12,7 +12,7 @@ JSON datasets, regex patterns, and more.
 
 #### Features
 
-- Supports the latest [Emoji 13.1](https://emojipedia.org/emoji-13.1/),
+- Supports the latest [Emoji 14.0](https://emojipedia.org/emoji-14.0/),
   [Unicode 13](http://unicode.org/versions/Unicode13.0.0/), and
   [CLDR 40](http://cldr.unicode.org/index/downloads/cldr-40) release versions
 - Built directly from the [emoji data source files](http://unicode.org/Public/emoji/)
