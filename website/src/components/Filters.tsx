@@ -266,7 +266,9 @@ export default function Filters({
 				next.delete(value as ShortcodePreset);
 			}
 
-			const presets = [...next.values()].sort();
+			// Spreading a Set fails in production because of Docusaurus
+			// eslint-disable-next-line unicorn/prefer-spread
+			const presets = Array.from(next).sort();
 
 			query.set('shortcodePresets', encodeURIComponent(presets.join(',')));
 
