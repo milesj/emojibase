@@ -258,21 +258,20 @@ export default function Filters({
 		const { checked, value } = event.currentTarget;
 
 		setShortcodePresets((prev) => {
-			const next = new Set(prev);
+			let next = [...prev];
+			const preset = value as ShortcodePreset;
 
-			if (checked) {
-				next.add(value as ShortcodePreset);
+			if (checked && !next.includes(preset)) {
+				next.push(preset);
 			} else {
-				next.delete(value as ShortcodePreset);
+				next = next.filter((p) => p !== preset);
 			}
 
-			// Spreading a Set fails in production because of Docusaurus
-			// eslint-disable-next-line unicorn/prefer-spread
-			const presets = Array.from(next).sort();
+			next.sort();
 
-			query.set('shortcodePresets', encodeURIComponent(presets.join(',')));
+			query.set('shortcodePresets', encodeURIComponent(next.join(',')));
 
-			return presets;
+			return next;
 		});
 	}, []);
 
