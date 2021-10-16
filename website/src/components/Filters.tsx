@@ -266,7 +266,7 @@ export default function Filters({
 				next.delete(value as ShortcodePreset);
 			}
 
-			const presets = [...next].sort();
+			const presets = [...next.values()].sort();
 
 			query.set('shortcodePresets', encodeURIComponent(presets.join(',')));
 
