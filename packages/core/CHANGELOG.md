@@ -1,3 +1,15 @@
+### 6.0.1 - 2021-10-15
+
+#### 🐞 Fixes
+
+- Updated `EMOJI_VERSIONS` and `UNICODE_VERSIONS` to include v14.
+
+### 6.0.1 - 2021-10-15
+
+#### 🐞 Fixes
+
+- Resolved some build and bundler issues.
+
 # 6.0.0 - 2021-10-15
 
 #### 💥 Breaking

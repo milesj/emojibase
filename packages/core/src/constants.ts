@@ -64,6 +64,7 @@ export const EMOJI_VERSIONS = [
 	'12.1',
 	'13.0',
 	'13.1',
+	'14.0',
 ];
 export const UNICODE_VERSIONS = [
 	'6.0',
@@ -78,6 +79,7 @@ export const UNICODE_VERSIONS = [
 	'12.0',
 	'12.1',
 	'13.0',
+	'14.0',
 ];
 
 export const SUPPORTED_LOCALES: Locale[] = [
