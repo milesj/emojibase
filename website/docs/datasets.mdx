@@ -222,6 +222,44 @@ const germanCldrShortcodes = await fetchShortcodes('de', 'cldr');
 const chineseTranslations = await fetchMessages('zh');
 ```
 
+## Fetching from your own CDN
+
+If you want to load the JSON datasets from your own CDN, you can customize the `cdnUrl` using the
+options object.
+
+When `cdnUrl` is a string, `fetchFromCDN` will append `'/${path}'` to the url. Make sure to include
+the `version` within the `cdnUrl` yourself, it's not added automatically to give you control over
+its placement.
+
+```ts
+import { fetchFromCDN, fetchEmojis, fetchMessages, fetchShortcodes } from 'emojibase';
+
+const cdnUrl = 'https://example.com/cdn/emojidata/latest';
+
+const englishEmojis = await fetchFromCDN('en/data.json', { shortcodes: ['github'], cdnUrl });
+const japaneseCompactEmojis = await fetchEmojis('ja', { compact: true, cdnUrl });
+const germanCldrShortcodes = await fetchShortcodes('de', 'cldr', { cdnUrl });
+const chineseTranslations = await fetchMessages('zh', { cdnUrl });
+```
+
+`cdnUrl` can also be a function, so you have complete control over the format of the url. This
+function receives `path` and `version` as parameters. Version will be what you pass in within
+the options object, or it will default to `latest`. You can of course ignore this parameter and
+hard-code the `version` within the function body.
+
+```ts
+import { fetchFromCDN, fetchEmojis, fetchMessages, fetchShortcodes } from 'emojibase';
+
+function cdnUrl(path: string, version: string): string {
+    return `https://example.com/cdn/emojidata/${version}/${path}`;
+}
+
+const englishEmojis = await fetchFromCDN('en/data.json', { shortcodes: ['github'], cdnUrl });
+const japaneseCompactEmojis = await fetchEmojis('ja', { compact: true, cdnUrl });
+const germanCldrShortcodes = await fetchShortcodes('de', 'cldr', { cdnUrl });
+const chineseTranslations = await fetchMessages('zh', { cdnUrl });
+```
+
 ## Supported locales
 
 Follow locales are supported for both full and compact datasets.

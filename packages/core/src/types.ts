@@ -286,11 +286,15 @@ export interface PermutationOptions {
 	withNose?: boolean;
 }
 
+export type CDNUrlFn = (path: string, version: string) => string;
+
 export interface FetchFromCDNOptions extends RequestInit {
 	/** Cache the response in local storage instead of session storage. Defaults to `false`. */
 	local?: boolean;
 	/** The release version to fetch. Defaults to `latest`. */
 	version?: string;
+	/** The url from which to load the JSON files */
+	cdnUrl?: string | CDNUrlFn;
 }
 
 export interface FetchEmojisOptions extends FetchFromCDNOptions {
