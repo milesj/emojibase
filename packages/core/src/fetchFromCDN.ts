@@ -1,4 +1,4 @@
-import {FetchFromCDNOptions} from './types';
+import { FetchFromCDNOptions } from './types';
 
 /**
  * This function will fetch `emojibase-data` JSON files from our CDN, parse them,
@@ -23,8 +23,7 @@ export async function fetchFromCDN<T>(path: string, options: FetchFromCDNOptions
 	let fetchUrl = `https://cdn.jsdelivr.net/npm/emojibase-data@${version}/${path}`;
 	if (typeof cdnUrl === 'function') {
 		fetchUrl = cdnUrl(path, version);
-	}
-	else if (typeof cdnUrl === 'string') {
+	} else if (typeof cdnUrl === 'string') {
 		fetchUrl = `${cdnUrl}/${path}`;
 	}
 
