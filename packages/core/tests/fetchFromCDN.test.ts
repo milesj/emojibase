@@ -99,27 +99,21 @@ describe('fetchFromCDN()', () => {
 	});
 
 	it('errors if cdnUrl function has no result', async () => {
-		const cdnUrl = (path: string): string => {
-			return '';
-		};
+		const cdnUrl = (path: string): string => '';
 		await expect(() => fetchFromCDN('en/data.json', { cdnUrl })).rejects.toThrow(
 			'A valid CDN url is required to fetch.',
 		);
 	});
 
 	it('errors if cdnUrl function doesnt end in JSON', async () => {
-		const cdnUrl = (path: string) => {
-			return `https://example.com/cdn/emojidata/latest/en/data`;
-		};
+		const cdnUrl = (path: string) => `https://example.com/cdn/emojidata/latest/en/data`;
 		await expect(() => fetchFromCDN('en/data.json', { cdnUrl })).rejects.toThrow(
 			'A valid CDN url is required to fetch.',
 		);
 	});
 
 	it('can customize cdnUrl using function', async () => {
-		const cdnUrl = (path: string) => {
-			return `https://example.com/cdn/emojidata/latest/${path}`;
-		};
+		const cdnUrl = (path: string) => `https://example.com/cdn/emojidata/latest/${path}`;
 		await fetchFromCDN('en/data.json', { cdnUrl });
 
 		expect(fetchMock).toHaveBeenCalledWith(
@@ -133,9 +127,7 @@ describe('fetchFromCDN()', () => {
 	});
 
 	it('can utilize version within cnbUrl function', async () => {
-		const cdnUrl = (path: string, version: string) => {
-			return `https://example.com/cdn/emojidata/${version}/${path}`;
-		};
+		const cdnUrl = (path: string, version: string) => `https://example.com/cdn/emojidata/${version}/${path}`;
 		await fetchFromCDN('en/data.json', { cdnUrl, version: '1.2.3' });
 
 		expect(fetchMock).toHaveBeenCalledWith('https://example.com/cdn/emojidata/1.2.3/en/data.json', {

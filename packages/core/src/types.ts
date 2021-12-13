@@ -294,7 +294,7 @@ export interface FetchFromCDNOptions extends RequestInit {
 	/** The release version to fetch. Defaults to `latest`. */
 	version?: string;
 	/** The url from which to load the JSON files */
-	cdnUrl?: string | CDNUrlFn;
+	cdnUrl?: CDNUrlFn | string;
 }
 
 export interface FetchEmojisOptions extends FetchFromCDNOptions {

@@ -1,4 +1,29 @@
-import { FetchFromCDNOptions } from './types';
+import { CDNUrlFn, FetchFromCDNOptions } from './types';
+
+function getFetchUrl(path: string, version: string, cdnUrl?: CDNUrlFn | string): string {
+	let fetchUrl = `https://cdn.jsdelivr.net/npm/emojibase-data@${version}/${path}`;
+	if (typeof cdnUrl === 'function') {
+		fetchUrl = cdnUrl(path, version);
+	} else if (typeof cdnUrl === 'string') {
+		fetchUrl = `${cdnUrl}/${path}`;
+	}
+
+	if (__DEV__) {
+		if (!path || !path.endsWith('.json')) {
+			throw new Error('A valid JSON dataset is required to fetch.');
+		}
+
+		if (!fetchUrl || !/^https?:\/\//.test(fetchUrl) || !fetchUrl.endsWith('.json')) {
+			throw new Error('A valid CDN url is required to fetch.');
+		}
+
+		if (!version) {
+			throw new Error('A valid release version is required.');
+		}
+	}
+
+	return fetchUrl;
+}
 
 /**
  * This function will fetch `emojibase-data` JSON files from our CDN, parse them,
@@ -20,26 +45,7 @@ import { FetchFromCDNOptions } from './types';
 export async function fetchFromCDN<T>(path: string, options: FetchFromCDNOptions = {}): Promise<T> {
 	const { local = false, version = 'latest', cdnUrl, ...opts } = options;
 
-	let fetchUrl = `https://cdn.jsdelivr.net/npm/emojibase-data@${version}/${path}`;
-	if (typeof cdnUrl === 'function') {
-		fetchUrl = cdnUrl(path, version);
-	} else if (typeof cdnUrl === 'string') {
-		fetchUrl = `${cdnUrl}/${path}`;
-	}
-
-	if (__DEV__) {
-		if (!path || !path.endsWith('.json')) {
-			throw new Error('A valid JSON dataset is required to fetch.');
-		}
-
-		if (!fetchUrl || !/^https?:\/\//.test(fetchUrl) || !fetchUrl.endsWith('.json')) {
-			throw new Error('A valid CDN url is required to fetch.');
-		}
-
-		if (!version) {
-			throw new Error('A valid release version is required.');
-		}
-	}
+	const fetchUrl = getFetchUrl(path, version, cdnUrl);
 
 	const storage = local ? localStorage : sessionStorage;
 	const cacheKey = `emojibase/${version}/${path}`;
