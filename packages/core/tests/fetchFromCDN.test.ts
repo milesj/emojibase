@@ -127,7 +127,8 @@ describe('fetchFromCDN()', () => {
 	});
 
 	it('can utilize version within cnbUrl function', async () => {
-		const cdnUrl = (path: string, version: string) => `https://example.com/cdn/emojidata/${version}/${path}`;
+		const cdnUrl = (path: string, version: string) =>
+			`https://example.com/cdn/emojidata/${version}/${path}`;
 		await fetchFromCDN('en/data.json', { cdnUrl, version: '1.2.3' });
 
 		expect(fetchMock).toHaveBeenCalledWith('https://example.com/cdn/emojidata/1.2.3/en/data.json', {

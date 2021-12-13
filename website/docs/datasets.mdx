@@ -244,8 +244,8 @@ const chineseTranslations = await fetchMessages('zh', { cdnUrl });
 
 `cdnUrl` can also be a function, so you have complete control over the format of the url. This
 function receives `path` and `version` as parameters. Version will be what you pass in within the
-options object, or it will default to `latest`. You can of course ignore this parameter and
-hard-code the `version` within the function body.
+options object, or it will default to `latest`. Note that `version` is also used for the cache key,
+so it's advised to set the option and not hard-code it in the `cdnUrl` function.
 
 ```ts
 import { fetchFromCDN, fetchEmojis, fetchMessages, fetchShortcodes } from 'emojibase';

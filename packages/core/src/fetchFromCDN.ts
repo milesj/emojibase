@@ -36,8 +36,8 @@ function getFetchUrl(path: string, version: string, cdnUrl?: CDNUrlFn | string):
  * await fetchFromCDN('ja/compact.json', { version: '2.1.3' });
  * await fetchFromCDN('ja/compact.json', { cdnUrl: 'https://example.com/cdn/emojidata/latest' });
  * await fetchFromCDN('ja/compact.json', {
- *     cdnUrl: (path: string) => {
- *         return `https://example.com/cdn/emojidata/1.2.3/${path}`;
+ *     cdnUrl: (path: string, version: string) => {
+ *         return `https://example.com/cdn/emojidata/${version}/${path}`;
  *     }
  * });
  * ```
