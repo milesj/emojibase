@@ -10,7 +10,6 @@ export async function generateIamCal(db: Database) {
 	const response = await fetchAndCache(
 		'https://raw.githubusercontent.com/iamcal/emoji-data/master/emoji.json',
 		'temp/iamcal-emoji-data.json',
-		// eslint-disable-next-line camelcase
 		(text) => JSON.parse(text) as { unified: string; short_names?: string[] }[],
 		{
 			headers: {

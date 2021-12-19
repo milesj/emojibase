@@ -52,9 +52,9 @@ describe('data', () => {
 			expect(emoji.type).toBeOneOf([EMOJI, TEXT]);
 		});
 
-		if ('annotation' in emoji) {
-			it(`defines an annotation for ${unicode} (${hexcode})`, () => {
-				expect(emoji.annotation).not.toBe('');
+		if ('label' in emoji) {
+			it(`defines an label for ${unicode} (${hexcode})`, () => {
+				expect(emoji.label).not.toBe('');
 			});
 		}
 

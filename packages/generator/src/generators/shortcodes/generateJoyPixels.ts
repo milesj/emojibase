@@ -1,5 +1,3 @@
-/* eslint-disable camelcase */
-
 import { writeDataset } from '../../helpers/writeDataset';
 import { fetchAndCache } from '../../loaders/fetchAndCache';
 import { HexcodeMap, ShortcodeDataMap } from '../../types';

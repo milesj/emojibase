@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import fetchMock from 'fetch-mock-jest';
 import { fetchEmojis } from '../src/fetchEmojis';
 import { getCompactEmojiWithSkins, getEmojiWithSkins, setupStorage } from './helpers';

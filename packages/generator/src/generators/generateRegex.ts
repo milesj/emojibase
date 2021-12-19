@@ -59,22 +59,6 @@ async function createEmojiRegex(
 		const { variations, qualifiers } = data[hexcode];
 
 		switch (display) {
-			// Should contain everything
-			default: {
-				addCodePoint(hexcode);
-
-				if (variations) {
-					addCodePoint(variations.emoji);
-					addCodePoint(variations.text);
-				}
-
-				if (qualifiers) {
-					Object.keys(qualifiers).forEach(addCodePoint);
-				}
-
-				break;
-			}
-
 			// Should only contain emoji presentation
 			case 'emoji': {
 				if (!variations || loose) {
@@ -96,6 +80,22 @@ async function createEmojiRegex(
 
 				if (variations?.text) {
 					addCodePoint(variations.text);
+				}
+
+				break;
+			}
+
+			// Should contain everything
+			default: {
+				addCodePoint(hexcode);
+
+				if (variations) {
+					addCodePoint(variations.emoji);
+					addCodePoint(variations.text);
+				}
+
+				if (qualifiers) {
+					Object.keys(qualifiers).forEach(addCodePoint);
 				}
 
 				break;

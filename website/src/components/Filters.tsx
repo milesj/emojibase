@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/no-onchange */
-
 import 'url-search-params-polyfill';
 import React, { useCallback, useEffect, useState } from 'react';
 import {
