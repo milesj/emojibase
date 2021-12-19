@@ -1,4 +1,29 @@
-import { FetchFromCDNOptions } from './types';
+import { CDNUrlFn, FetchFromCDNOptions } from './types';
+
+function getFetchUrl(path: string, version: string, cdnUrl?: CDNUrlFn | string): string {
+	let fetchUrl = `https://cdn.jsdelivr.net/npm/emojibase-data@${version}/${path}`;
+	if (typeof cdnUrl === 'function') {
+		fetchUrl = cdnUrl(path, version);
+	} else if (typeof cdnUrl === 'string') {
+		fetchUrl = `${cdnUrl}/${path}`;
+	}
+
+	if (__DEV__) {
+		if (!path || !path.endsWith('.json')) {
+			throw new Error('A valid JSON dataset is required to fetch.');
+		}
+
+		if (!fetchUrl || !/^https?:\/\//.test(fetchUrl) || !fetchUrl.endsWith('.json')) {
+			throw new Error('A valid CDN url is required to fetch.');
+		}
+
+		if (!version) {
+			throw new Error('A valid release version is required.');
+		}
+	}
+
+	return fetchUrl;
+}
 
 /**
  * This function will fetch `emojibase-data` JSON files from our CDN, parse them,
@@ -9,20 +34,18 @@ import { FetchFromCDNOptions } from './types';
  * import { fetchFromCDN } from 'emojibase';
  *
  * await fetchFromCDN('ja/compact.json', { version: '2.1.3' });
+ * await fetchFromCDN('ja/compact.json', { cdnUrl: 'https://example.com/cdn/emojidata/latest' });
+ * await fetchFromCDN('ja/compact.json', {
+ *     cdnUrl: (path: string, version: string) => {
+ *         return `https://example.com/cdn/emojidata/${version}/${path}`;
+ *     }
+ * });
  * ```
  */
 export async function fetchFromCDN<T>(path: string, options: FetchFromCDNOptions = {}): Promise<T> {
-	const { local = false, version = 'latest', ...opts } = options;
+	const { local = false, version = 'latest', cdnUrl, ...opts } = options;
 
-	if (__DEV__) {
-		if (!path || !path.endsWith('.json')) {
-			throw new Error('A valid JSON dataset is required to fetch.');
-		}
-
-		if (!version) {
-			throw new Error('A valid release version is required.');
-		}
-	}
+	const fetchUrl = getFetchUrl(path, version, cdnUrl);
 
 	const storage = local ? localStorage : sessionStorage;
 	const cacheKey = `emojibase/${version}/${path}`;
@@ -34,7 +57,7 @@ export async function fetchFromCDN<T>(path: string, options: FetchFromCDNOptions
 	}
 
 	// eslint-disable-next-line compat/compat
-	const response = await fetch(`https://cdn.jsdelivr.net/npm/emojibase-data@${version}/${path}`, {
+	const response = await fetch(fetchUrl, {
 		credentials: 'omit',
 		mode: 'cors',
 		redirect: 'error',

@@ -80,6 +80,85 @@ describe('fetchFromCDN()', () => {
 		);
 	});
 
+	it('errors if no cdnUrl', async () => {
+		const cdnUrl = '';
+		await expect(() => fetchFromCDN('en/data.json', { cdnUrl })).rejects.toThrow(
+			'A valid CDN url is required to fetch.',
+		);
+	});
+
+	it('can customize cdnUrl using string', async () => {
+		const cdnUrl = 'https://example.com/cdn/emojidata/latest';
+		await fetchFromCDN('en/data.json', { cdnUrl });
+
+		expect(fetchMock).toHaveBeenCalledWith(`${cdnUrl}/en/data.json`, {
+			credentials: 'omit',
+			mode: 'cors',
+			redirect: 'error',
+		});
+	});
+
+	it('errors if cdnUrl function has no result', async () => {
+		const cdnUrl = (path: string): string => '';
+		await expect(() => fetchFromCDN('en/data.json', { cdnUrl })).rejects.toThrow(
+			'A valid CDN url is required to fetch.',
+		);
+	});
+
+	it('errors if cdnUrl function doesnt end in JSON', async () => {
+		const cdnUrl = (path: string) => `https://example.com/cdn/emojidata/latest/en/data`;
+		await expect(() => fetchFromCDN('en/data.json', { cdnUrl })).rejects.toThrow(
+			'A valid CDN url is required to fetch.',
+		);
+	});
+
+	it('errors if cdnUrl function doesnt start with http(s)', async () => {
+		const cdnUrl = (path: string) => `example.com/cdn/emojidata/latest/en/data`;
+		await expect(() => fetchFromCDN('en/data.json', { cdnUrl })).rejects.toThrow(
+			'A valid CDN url is required to fetch.',
+		);
+	});
+
+	it('can customize cdnUrl using function', async () => {
+		const cdnUrl = (path: string) => `https://example.com/cdn/emojidata/latest/${path}`;
+		await fetchFromCDN('en/data.json', { cdnUrl });
+
+		expect(fetchMock).toHaveBeenCalledWith(
+			'https://example.com/cdn/emojidata/latest/en/data.json',
+			{
+				credentials: 'omit',
+				mode: 'cors',
+				redirect: 'error',
+			},
+		);
+	});
+
+	it('can use cdnUrl function with http', async () => {
+		const cdnUrl = (path: string) => `http://example.com/cdn/emojidata/latest/${path}`;
+		await fetchFromCDN('en/data.json', { cdnUrl });
+
+		expect(fetchMock).toHaveBeenCalledWith(
+			'https://example.com/cdn/emojidata/latest/en/data.json',
+			{
+				credentials: 'omit',
+				mode: 'cors',
+				redirect: 'error',
+			},
+		);
+	});
+
+	it('can utilize version within cdnUrl function', async () => {
+		const cdnUrl = (path: string, version: string) =>
+			`https://example.com/cdn/emojidata/${version}/${path}`;
+		await fetchFromCDN('en/data.json', { cdnUrl, version: '1.2.3' });
+
+		expect(fetchMock).toHaveBeenCalledWith('https://example.com/cdn/emojidata/1.2.3/en/data.json', {
+			credentials: 'omit',
+			mode: 'cors',
+			redirect: 'error',
+		});
+	});
+
 	it('returns data from fetch', async () => {
 		const data = await fetchFromCDN('en/data.json');
 
