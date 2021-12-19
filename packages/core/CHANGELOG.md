@@ -1,3 +1,13 @@
+### 6.1.0 - 2021-12-19
+
+#### 🚀 Updates
+
+- Add `cdnUrl` option for fetchers.
+
+#### 🐞 Fixes
+
+- Updated `LATEST_CLDR_VERSION` to `40`.
+
 ### 6.0.1 - 2021-10-15
 
 #### 🐞 Fixes
