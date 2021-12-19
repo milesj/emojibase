@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[8910],{4846:function(e){e.exports=JSON.parse('{"id":168,"name":"EmojiLike","nextId":212,"permalink":"/api/emojibase/interface/EmojiLike","previousId":151}')}}]);

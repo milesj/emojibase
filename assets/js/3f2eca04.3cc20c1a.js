@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[5001],{7369:function(e){e.exports=JSON.parse('{"id":172,"name":"GroupDataset","nextId":182,"permalink":"/api/emojibase/interface/GroupDataset","previousId":203}')}}]);
