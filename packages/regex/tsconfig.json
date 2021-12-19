@@ -15,5 +15,9 @@
     "types/**/*",
     "../../types/**/*"
   ],
-  "references": []
+  "references": [
+    {
+      "path": "../test-utils"
+    }
+  ]
 }
