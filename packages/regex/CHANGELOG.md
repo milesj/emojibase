@@ -1,3 +1,9 @@
+### 6.0.1 - 2021-12-19
+
+#### 🛠 Internals
+
+- Fixed spurious build issues.
+
 # 6.0.0 - 2021-10-15
 
 #### 🎉 Release
