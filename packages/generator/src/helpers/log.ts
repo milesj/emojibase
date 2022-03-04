@@ -1,5 +1,6 @@
 /* eslint-disable no-console */
 
+// eslint-disable-next-line import/no-unresolved
 import chalk from 'chalk';
 
 export const log = {
