@@ -26,7 +26,11 @@ module.exports = {
 	organizationName: 'milesj',
 	projectName: 'emojibase',
 	themeConfig: {
-		algolia: { apiKey: 'ef82e497116ce535274609f78502cf9b', indexName: 'emojibase' },
+		algolia: {
+			apiKey: 'f16874d17fa82eb39ff7aa32a4b60b5c',
+			appId: 'YOM7AJIJ6A',
+			indexName: 'emojibase',
+		},
 		navbar: {
 			title: 'Emojibase',
 			logo: {
