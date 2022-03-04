@@ -3,7 +3,7 @@
 import fs from 'fs';
 import path from 'path';
 import glob from 'glob';
-import gzip from 'gzip-size';
+import { gzipSizeSync } from 'gzip-size';
 import size from 'filesize';
 import { fileURLToPath } from 'url';
 
@@ -27,7 +27,7 @@ function calculatePackage(packageName) {
 
 					return {
 						file: file.replace(`${process.cwd()}/packages/${packageName}/`, ''),
-						gzip: gzip.sync(data),
+						gzip: gzipSizeSync(data),
 						size: Buffer.byteLength(data),
 					};
 				});
