@@ -13,8 +13,8 @@ jobs:
         node-version: [12, 14, 16]
       fail-fast: true
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
       - run: yarn install --immutable
@@ -26,8 +26,8 @@ jobs:
     name: Pack
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
       - run: yarn install --immutable
       - run: yarn run type
       - run: yarn run pack
@@ -63,8 +63,8 @@ jobs:
           - zh-hant
       fail-fast: true
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
       - run: yarn install --immutable
       - run: yarn run build
       - run: yarn run test
@@ -74,8 +74,8 @@ jobs:
     name: Docs
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
       - run: yarn install --immutable
       - run: yarn run pack
       - run: cd website && yarn run build
