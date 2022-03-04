@@ -3,17 +3,17 @@ import { ShortcodePreset } from 'emojibase';
 
 export interface ShortcodesProps {
 	preset: ShortcodePreset;
-	shortcodes?: string[] | string;
+	shortcodes?: Set<string> | string[] | string;
 }
 
 export default function Shortcodes({ preset, shortcodes }: ShortcodesProps) {
-	if (!shortcodes || shortcodes.length === 0) {
+	if (!shortcodes) {
 		return null;
 	}
 
 	return (
 		<>
-			{(Array.isArray(shortcodes) ? shortcodes : [shortcodes]).sort().map((s) => (
+			{(typeof shortcodes === 'string' ? [shortcodes] : [...shortcodes]).sort().map((s) => (
 				<div key={`${preset}-${s}`}>{`:${s}:`}</div>
 			))}
 		</>

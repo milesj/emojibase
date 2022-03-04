@@ -88,9 +88,9 @@ export function processEmojis(
 		if (filter) {
 			const matchesAnnotation = emoji.label.toLocaleLowerCase().includes(filter);
 			const matchesAnyShortcodes = emoji.shortcodes?.some((shortcode) =>
-				shortcode.toLocaleLowerCase().includes(filter),
+				shortcode?.toLocaleLowerCase().includes(filter),
 			);
-			const matchesAnyTags = emoji.tags?.some((tag) => tag.toLocaleLowerCase().includes(filter));
+			const matchesAnyTags = emoji.tags?.some((tag) => tag?.toLocaleLowerCase().includes(filter));
 
 			if (!matchesAnnotation && !matchesAnyShortcodes && !matchesAnyTags) {
 				return;
