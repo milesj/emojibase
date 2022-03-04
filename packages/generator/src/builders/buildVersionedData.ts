@@ -69,8 +69,8 @@ export async function buildVersionedData(): Promise<VersionDataSet> {
 
 	log.success('build', 'Built versioned data');
 
-	return Promise.resolve({
+	return {
 		emojiVersions,
 		unicodeVersions,
-	});
+	};
 }

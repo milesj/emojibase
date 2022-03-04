@@ -194,7 +194,7 @@ async function generateMessages(locale: Locale): Promise<unknown> {
 	});
 
 	if (groups.length === 0) {
-		return Promise.resolve();
+		return undefined;
 	}
 
 	groups.sort(sortOrder);

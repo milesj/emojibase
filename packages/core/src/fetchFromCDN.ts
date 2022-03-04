@@ -53,7 +53,7 @@ export async function fetchFromCDN<T>(path: string, options: FetchFromCDNOptions
 
 	// Check the cache first
 	if (cachedData) {
-		return Promise.resolve(JSON.parse(cachedData) as T);
+		return JSON.parse(cachedData) as T;
 	}
 
 	// eslint-disable-next-line compat/compat

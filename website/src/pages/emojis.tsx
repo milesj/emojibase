@@ -30,6 +30,7 @@ export default function EmojiList() {
 			<main className="table-container">
 				<h2>Emoji table</h2>
 
+				{/* eslint-disable-next-line @typescript-eslint/no-misused-promises */}
 				<Filters disabled={loading} onChange={handleFilterChange} />
 
 				<div className="table-responsive">

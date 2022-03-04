@@ -90,7 +90,7 @@ export async function generateEmojibase(db: Database) {
 			}
 
 			if (count === 0) {
-				return Promise.resolve();
+				return undefined;
 			}
 
 			const promises: Promise<unknown>[] = [

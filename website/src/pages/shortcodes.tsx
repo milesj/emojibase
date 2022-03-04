@@ -87,6 +87,7 @@ export default function ShortcodesTable() {
 					hideCldr
 					defaultShortcodePresets={presets}
 					disabled={loading}
+					// eslint-disable-next-line @typescript-eslint/no-misused-promises
 					onChange={handleFilterChange}
 				/>
 

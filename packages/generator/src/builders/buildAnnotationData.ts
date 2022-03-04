@@ -210,5 +210,5 @@ export async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotatio
 
 	log.success('build', `Built ${locale} annotation data`);
 
-	return Promise.resolve(data);
+	return data;
 }

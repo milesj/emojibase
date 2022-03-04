@@ -56,5 +56,5 @@ export async function buildEmojiData(): Promise<EmojiMap> {
 
 	log.success('build', 'Built emoji data');
 
-	return Promise.resolve(emojis);
+	return emojis;
 }

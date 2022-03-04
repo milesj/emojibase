@@ -19,7 +19,7 @@ export async function fetchAndCache<T>(
 	if (cache) {
 		localCache[name] = cache;
 
-		return Promise.resolve(cache as T);
+		return cache as T;
 	}
 
 	log.info('load', `Fetching ${name} data from ${chalk.gray(url)}`);
@@ -38,7 +38,7 @@ export async function fetchAndCache<T>(
 	} catch (error: unknown) {
 		log.error('load', `Failed to fetch ${url}: ${(error as Error).message}`);
 
-		return Promise.reject(error);
+		throw error;
 	}
 
 	// Cache the data
