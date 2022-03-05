@@ -20,8 +20,8 @@
     "generate:types": "node ./bin/generateTypes.mjs",
     "test": "beemo jest",
     "format": "beemo prettier",
-    "prerelease": "yarn run pack && yarn test",
-    "release": "lerna publish --ignore-changes=emojibase-generator",
+    "prerelease": "yarn run clean && yarn run pack && yarn run check",
+    "release": "yarn prerelease && lerna publish --ignore-changes=emojibase-generator",
     "type": "beemo typescript --build"
   },
   "engines": {
