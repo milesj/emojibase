@@ -85,12 +85,17 @@ export function processEmojis(
 			return;
 		}
 
+		// This randomly is a set and i'm not sure why...
+		if (emoji.shortcodes instanceof Set) {
+			emoji.shortcodes = [...emoji.shortcodes].map(String);
+		}
+
 		if (filter) {
 			const matchesAnnotation = emoji.label.toLocaleLowerCase().includes(filter);
 			const matchesAnyShortcodes = emoji.shortcodes?.some((shortcode) =>
 				shortcode?.toLocaleLowerCase().includes(filter),
 			);
-			const matchesAnyTags = emoji.tags?.some((tag) => tag?.toLocaleLowerCase().includes(filter));
+			const matchesAnyTags = emoji.tags?.some((tag) => tag.toLocaleLowerCase().includes(filter));
 
 			if (!matchesAnnotation && !matchesAnyShortcodes && !matchesAnyTags) {
 				return;
