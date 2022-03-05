@@ -87,6 +87,9 @@ export function processEmojis(
 
 		// This randomly is a set and i'm not sure why...
 		if (emoji.shortcodes instanceof Set) {
+			// eslint-disable-next-line no-console
+			console.debug('SET found', emoji.hexcode, emoji);
+
 			emoji.shortcodes = [...emoji.shortcodes].map(String);
 		}
 
