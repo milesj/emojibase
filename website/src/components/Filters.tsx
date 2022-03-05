@@ -86,11 +86,24 @@ export function processEmojis(
 		}
 
 		// This randomly is a set and i'm not sure why...
-		if (emoji.shortcodes instanceof Set) {
-			// eslint-disable-next-line no-console
-			console.debug('SET found', emoji.hexcode, emoji);
+		if (emoji.shortcodes) {
+			const shortcodes: string[] = [];
 
-			emoji.shortcodes = [...emoji.shortcodes].map(String);
+			emoji.shortcodes.forEach((code) => {
+				// @ts-expect-error Debugging
+				if (code instanceof Set || Array.isArray(code)) {
+					// eslint-disable-next-line no-console
+					console.debug('Non-string found', emoji.hexcode, emoji);
+
+					[...code].forEach((sc) => {
+						shortcodes.push(String(sc));
+					});
+				} else if (typeof code === 'string') {
+					shortcodes.push(code);
+				}
+			});
+
+			emoji.shortcodes = shortcodes;
 		}
 
 		if (filter) {
