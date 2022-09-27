@@ -2141,7 +2141,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/plugin-content-docs@npm:2.1.0, @docusaurus/plugin-content-docs@npm:^2.0.1":
+"@docusaurus/plugin-content-docs@npm:2.1.0, @docusaurus/plugin-content-docs@npm:^2.1.0":
   version: 2.1.0
   resolution: "@docusaurus/plugin-content-docs@npm:2.1.0"
   dependencies:
@@ -2387,7 +2387,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/types@npm:2.1.0, @docusaurus/types@npm:^2.0.1":
+"@docusaurus/types@npm:2.1.0, @docusaurus/types@npm:^2.1.0":
   version: 2.1.0
   resolution: "@docusaurus/types@npm:2.1.0"
   dependencies:
@@ -2433,7 +2433,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/utils@npm:2.1.0, @docusaurus/utils@npm:^2.0.1":
+"@docusaurus/utils@npm:2.1.0, @docusaurus/utils@npm:^2.1.0":
   version: 2.1.0
   resolution: "@docusaurus/utils@npm:2.1.0"
   dependencies:
@@ -8159,21 +8159,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"docusaurus-plugin-typedoc-api@npm:^2.4.0":
-  version: 2.4.0
-  resolution: "docusaurus-plugin-typedoc-api@npm:2.4.0"
+"docusaurus-plugin-typedoc-api@npm:^2.4.1":
+  version: 2.4.1
+  resolution: "docusaurus-plugin-typedoc-api@npm:2.4.1"
   dependencies:
-    "@docusaurus/plugin-content-docs": ^2.0.1
-    "@docusaurus/types": ^2.0.1
-    "@docusaurus/utils": ^2.0.1
+    "@docusaurus/plugin-content-docs": ^2.1.0
+    "@docusaurus/types": ^2.1.0
+    "@docusaurus/utils": ^2.1.0
     "@vscode/codicons": ^0.0.32
-    marked: ^4.0.18
-    typedoc: ^0.23.10
+    marked: ^4.1.0
+    typedoc: ^0.23.15
   peerDependencies:
     "@docusaurus/core": ^2.0.0
     react: ">=16.0.0"
     typescript: ^4.0.0
-  checksum: ab1a4814c0b4193e75548d5dd7e25c94fe648396c6e30e8afd9921672e76a2f1f9d76f318bf7321ecb8ec8bbf24f5ec7ff225a84c59ecbabee903891a067df57
+  checksum: 6e6696318780e36fab0a76927b6a47da5a9cf2c862798fce322847b5d8c1d84ee3ec69de3ae8e665bc6018dcbd1d1475825f0cbf31d650bc3937edf6a74b2199
   languageName: node
   linkType: hard
 
@@ -8397,8 +8397,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "emojibase-regex@workspace:packages/regex"
   dependencies:
-    emojibase: ^6.1.0
-    emojibase-test-utils: ^7.0.0
+    emojibase: "workspace:*"
+    emojibase-test-utils: "workspace:*"
   languageName: unknown
   linkType: soft
 
@@ -8426,7 +8426,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"emojibase-test-utils@^7.0.0, emojibase-test-utils@workspace:packages/test-utils":
+"emojibase-test-utils@workspace:*, emojibase-test-utils@workspace:packages/test-utils":
   version: 0.0.0-use.local
   resolution: "emojibase-test-utils@workspace:packages/test-utils"
   peerDependencies:
@@ -8434,7 +8434,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"emojibase@^6.1.0, emojibase@workspace:*, emojibase@workspace:packages/core":
+"emojibase@workspace:*, emojibase@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "emojibase@workspace:packages/core"
   languageName: unknown
@@ -12822,7 +12822,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:^4.0.18, marked@npm:^4.0.19":
+"marked@npm:^4.0.19, marked@npm:^4.1.0":
   version: 4.1.0
   resolution: "marked@npm:4.1.0"
   bin:
@@ -17704,7 +17704,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typedoc@npm:^0.23.10":
+"typedoc@npm:^0.23.15":
   version: 0.23.15
   resolution: "typedoc@npm:0.23.15"
   dependencies:
@@ -18520,8 +18520,8 @@ __metadata:
     "@types/lodash": ^4.14.185
     "@types/react": ^17.0.50
     clsx: ^1.2.1
-    docusaurus-plugin-typedoc-api: ^2.4.0
-    emojibase: ^6.1.0
+    docusaurus-plugin-typedoc-api: ^2.4.1
+    emojibase: "workspace:*"
     lodash: ^4.17.21
     react: ^17.0.2
     react-dom: ^17.0.2
