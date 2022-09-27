@@ -8406,6 +8406,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "emojibase-root@workspace:."
   dependencies:
+    "@moonrepo/dev": ^1.0.0
     "@types/jest": ^29.0.3
     babel-preset-moon: ^1.0.2
     eslint: ^8.24.0
