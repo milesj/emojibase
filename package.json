@@ -19,14 +19,14 @@
     "generate:types": "node ./bin/generateTypes.mjs",
     "test": "jest --colors --logHeapUsage",
     "format": "prettier --write .",
-    "prerelease": "yarn run clean && yarn run pack && yarn run check",
-    "release": "yarn prerelease && lerna publish --ignore-changes=emojibase-generator",
+    "release": "yarn run clean && yarn run pack && yarn run check && lerna-release",
     "type": "tsc --build"
   },
   "engines": {
     "node": ">=12.17.0"
   },
   "devDependencies": {
+    "@moonrepo/dev": "^1.0.0",
     "@types/jest": "^29.0.3",
     "babel-preset-moon": "^1.0.2",
     "eslint": "^8.24.0",
