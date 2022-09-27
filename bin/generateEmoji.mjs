@@ -1,4 +1,4 @@
-#! /usr/bin/env node
+#!/usr/bin/env node
 
 import { generateData, generateRegex, generateVersions } from 'emojibase-generator';
 
