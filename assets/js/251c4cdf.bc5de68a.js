@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[675],{5218:function(e,n,t){t.r(n),t.d(n,{default:function(){return i}});var u=t(7378);function i(){return(0,u.useEffect)((function(){window.location.href="/api/emojibase"}),[]),null}}}]);
