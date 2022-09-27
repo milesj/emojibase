@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-unresolved
 import chalk from 'chalk';
 import fetch, { RequestInit } from 'node-fetch';
 import { log } from '../helpers/log';

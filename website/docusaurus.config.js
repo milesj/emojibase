@@ -53,7 +53,7 @@ module.exports = {
 					position: 'left',
 				},
 				{
-					to: 'api',
+					to: 'api/emojibase',
 					label: 'API',
 					position: 'left',
 				},
@@ -104,10 +104,10 @@ module.exports = {
 					sidebarPath: require.resolve('./sidebars.js'),
 					editUrl: 'https://github.com/milesj/emojibase/edit/master/website/',
 				},
-				blog: {
-					showReadingTime: true,
-					editUrl: 'https://github.com/milesj/emojibase/edit/master/website/blog/',
-				},
+				// blog: {
+				// 	showReadingTime: true,
+				// 	editUrl: 'https://github.com/milesj/emojibase/edit/master/website/blog/',
+				// },
 				theme: {
 					customCss: require.resolve('./src/css/custom.css'),
 				},
