@@ -77,6 +77,7 @@ export default function ShortcodesTable() {
 
 	return (
 		<Layout
+			// @ts-expect-error Invalid types
 			description="Table of all shortcodes for every emoji character."
 			title="Shortcodes table"
 		>
