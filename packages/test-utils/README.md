@@ -18,7 +18,7 @@ Use `loadEmojiData` to return an array of English emoji data.
 import { loadEmojiData } from 'emojibase-test-utils';
 
 loadEmojiData().forEach((emoji) => {
-	// Do something
+  // Do something
 });
 ```
 

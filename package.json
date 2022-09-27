@@ -18,7 +18,7 @@
     "generate:tests": "cp ./packages/data/en/data.json ./packages/test-utils/test-data.json && cp ./packages/data/en/shortcodes/emojibase.json ./packages/test-utils/test-shortcodes.json && cp ./packages/data/en/messages.json ./packages/test-utils/test-messages.json",
     "generate:types": "node ./bin/generateTypes.mjs",
     "test": "jest --colors --logHeapUsage",
-    "format": "beemo prettier",
+    "format": "prettier --write .",
     "prerelease": "yarn run clean && yarn run pack && yarn run check",
     "release": "yarn prerelease && lerna publish --ignore-changes=emojibase-generator",
     "type": "tsc --build"

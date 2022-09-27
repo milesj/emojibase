@@ -9,7 +9,10 @@ lib/
 mjs/
 umd/
 CHANGELOG.md
+
+.yarn
 *.d.ts
+
 cache/**/*.json
 packages/data/**/*.json
 packages/generator/src/resources/*.ts
