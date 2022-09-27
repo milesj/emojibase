@@ -230,8 +230,6 @@ export const shortcodes = {
   '1F649': ['hear_no_evil'],
   // 🙊 speak-no-evil monkey
   '1F64A': ['speak_no_evil'],
-  // 💋 kiss mark
-  '1F48B': ['kiss'],
   // 💌 love letter
   '1F48C': ['love_letter'],
   // 💘 heart with arrow
@@ -262,6 +260,8 @@ export const shortcodes = {
   '1F499': ['blue_heart'],
   // 💜 purple heart
   '1F49C': ['purple_heart'],
+  // 💋 kiss mark
+  '1F48B': ['kiss'],
   // 💯 hundred points
   '1F4AF': ['100'],
   // 💢 anger symbol
@@ -274,8 +274,6 @@ export const shortcodes = {
   '1F4A6': ['sweat_drops'],
   // 💨 dashing away
   '1F4A8': ['dash', 'dashing_away'],
-  // 💣️ bomb
-  '1F4A3': ['bomb'],
   // 💬 speech balloon
   '1F4AC': ['speech_balloon'],
   // 💤 ZZZ
@@ -532,6 +530,8 @@ export const shortcodes = {
   '1F342': ['fallen_leaf'],
   // 🍃 leaf fluttering in wind
   '1F343': ['leaves'],
+  // 🍄 mushroom
+  '1F344': ['mushroom'],
   // 🍇 grapes
   '1F347': ['grapes'],
   // 🍈 melon
@@ -560,8 +560,6 @@ export const shortcodes = {
   '1F346': ['eggplant'],
   // 🌽 ear of corn
   '1F33D': ['corn', 'ear_of_corn'],
-  // 🍄 mushroom
-  '1F344': ['mushroom'],
   // 🌰 chestnut
   '1F330': ['chestnut'],
   // 🍞 bread
@@ -912,6 +910,8 @@ export const shortcodes = {
   '1F3BF': ['ski'],
   // 🎯 bullseye
   '1F3AF': ['bullseye', 'dart', 'direct_hit'],
+  // 🔫 water pistol
+  '1F52B': ['gun', 'pistol'],
   // 🎱 pool 8 ball
   '1F3B1': ['8ball', 'billiards'],
   // 🔮 crystal ball
@@ -1178,8 +1178,8 @@ export const shortcodes = {
   '1F511': ['key'],
   // 🔨 hammer
   '1F528': ['hammer'],
-  // 🔫 water pistol
-  '1F52B': ['gun', 'pistol'],
+  // 💣️ bomb
+  '1F4A3': ['bomb'],
   // 🔧 wrench
   '1F527': ['wrench'],
   // 🔩 nut and bolt
@@ -3370,8 +3370,6 @@ export const shortcodes = {
   '1F94F': ['flying_disc'],
   // 🥍 lacrosse
   '1F94D': ['lacrosse'],
-  // 🧿 nazar amulet
-  '1F9FF': ['nazar_amulet'],
   // 🧩 puzzle piece
   '1F9E9': ['jigsaw', 'puzzle_piece'],
   // 🧸 teddy bear
@@ -3420,6 +3418,8 @@ export const shortcodes = {
   '1F9FD': ['sponge'],
   // 🧯 fire extinguisher
   '1F9EF': ['fire_extinguisher'],
+  // 🧿 nazar amulet
+  '1F9FF': ['nazar_amulet'],
   // ♾︎ infinity
   '267E': ['infinity'],
   // 🏴‍☠️ pirate flag
@@ -3836,8 +3836,6 @@ export const shortcodes = {
   '1F6DE': ['wheel'],
   // 🛟 ring buoy
   '1F6DF': ['lifebuoy', 'ring_buoy'],
-  // 🪬 hamsa
-  '1FAAC': ['hamsa'],
   // 🪩 mirror ball
   '1FAA9': ['disco', 'disco_ball', 'mirror_ball'],
   // 🪫 low battery
@@ -3848,8 +3846,54 @@ export const shortcodes = {
   '1FA7B': ['x-ray', 'xray'],
   // 🫧 bubbles
   '1FAE7': ['bubbles'],
+  // 🪬 hamsa
+  '1FAAC': ['hamsa'],
   // 🪪 identification card
   '1FAAA': ['id_card'],
   // 🟰 heavy equals sign
   '1F7F0': ['heavy_equals_sign'],
+
+  // VERSION 15
+  // 🫨 shaking face
+  '1FAE8': [],
+  // 🩷 pink heart
+  '1FA77': [],
+  // 🩵 light blue heart
+  '1FA75': [],
+  // 🩶 grey heart
+  '1FA76': [],
+  // 🫷 leftwards pushing hand
+  '1FAF7': [],
+  // 🫸 rightwards pushing hand
+  '1FAF8': [],
+  // 🫎 moose
+  '1FACE': [],
+  // 🫏 donkey
+  '1FACF': [],
+  // 🪽 wing
+  '1FABD': [],
+  // 🐦‍⬛ black bird
+  '1F426-200D-2B1B': [],
+  // 🪿 goose
+  '1FABF': [],
+  // 🪼 jellyfish
+  '1FABC': [],
+  // 🪻 hyacinth
+  '1FABB': [],
+  // 🫚 ginger root
+  '1FADA': [],
+  // 🫛 pea pod
+  '1FADB': [],
+  // 🪭 folding hand fan
+  '1FAAD': [],
+  // 🪮 hair pick
+  '1FAAE': [],
+  // 🪇 maracas
+  '1FA87': [],
+  // 🪈 flute
+  '1FA88': [],
+  // 🪯 khanda
+  '1FAAF': [],
+  // 🛜 wireless
+  '1F6DC': [],
 };
