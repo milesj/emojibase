@@ -4,7 +4,8 @@
     "outDir": "dts",
     "rootDir": "src",
     "emitDeclarationOnly": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "jsx": "react"
   },
   "exclude": [
     "dts",

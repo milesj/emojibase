@@ -1,7 +1,6 @@
 {
   "extends": "tsconfig-moon/tsconfig.projects.json",
   "compilerOptions": {
-    "jsx": "react",
     "lib": [
       "esnext",
       "dom"

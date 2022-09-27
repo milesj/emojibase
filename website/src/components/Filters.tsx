@@ -1,3 +1,4 @@
+/* eslint-disable sort-keys */
 /* eslint-disable node/no-unsupported-features/node-builtins */
 
 import 'url-search-params-polyfill';
