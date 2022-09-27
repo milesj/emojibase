@@ -1,3 +1,5 @@
+/* eslint-disable node/no-unsupported-features/node-builtins */
+
 import 'url-search-params-polyfill';
 import React, { useCallback, useEffect, useState } from 'react';
 import {
@@ -103,6 +105,7 @@ export function processEmojis(
 				}
 			});
 
+			// eslint-disable-next-line no-param-reassign
 			emoji.shortcodes = shortcodes;
 		}
 

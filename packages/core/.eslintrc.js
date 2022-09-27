@@ -1,5 +1,5 @@
 module.exports = {
-	extends: ['beemo/browser'],
+	extends: ['moon/browser'],
 	rules: {
 		// Overloads
 		'no-redeclare': 'off',

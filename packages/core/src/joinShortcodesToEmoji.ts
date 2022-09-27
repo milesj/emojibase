@@ -31,6 +31,7 @@ function joinShortcodesToEmoji(
 		}
 	});
 
+	// eslint-disable-next-line no-param-reassign
 	emoji.shortcodes = [...list];
 
 	if (emoji.skins) {

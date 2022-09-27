@@ -101,7 +101,7 @@ function createEmoji(
 		emoji.skins = Object.values(baseEmoji.modifications!).map((mod) => {
 			const skin = createEmoji(mod, versions, annotations);
 
-			skin.label = (annotations[stripHexcode(skin.hexcode)] || {}).annotation || emoji.label || '';
+			skin.label = annotations[stripHexcode(skin.hexcode)]?.annotation || emoji.label || '';
 
 			// Remove any tags
 			delete skin.tags;
