@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "prepare": "beemo create-config",
     "build": "packemon build --addEngines",
     "pack": "NODE_ENV=production packemon pack --addEngines --declaration=standard",
     "clean": "packemon clean",
@@ -11,33 +10,39 @@
     "check": "yarn run type && yarn run test && yarn run lint",
     "coverage": "yarn run jest --coverage",
     "docs": "cd website && yarn run start",
-    "lint": "beemo eslint",
+    "lint": "eslint --cache --color --fix --ext .ts,.tsx ./packages/*/{src,tests} ./website/src",
     "generate": "yarn run generate:emojis && yarn run generate:shortcodes && node ./bin/buildFilesizeTable.mjs && yarn run generate:tests",
     "generate:emojis": "rm -rf ./cache/final && node ./bin/generateEmoji.mjs",
     "generate:po": "node ./bin/generatePo.mjs",
     "generate:shortcodes": "node ./bin/generateShortcodes.mjs",
     "generate:tests": "cp ./packages/data/en/data.json ./packages/test-utils/test-data.json && cp ./packages/data/en/shortcodes/emojibase.json ./packages/test-utils/test-shortcodes.json && cp ./packages/data/en/messages.json ./packages/test-utils/test-messages.json",
     "generate:types": "node ./bin/generateTypes.mjs",
-    "test": "beemo jest",
-    "format": "beemo prettier",
+    "test": "jest --colors --logHeapUsage",
+    "format": "prettier --write .",
     "prerelease": "yarn run clean && yarn run pack && yarn run check",
     "release": "yarn prerelease && lerna publish --ignore-changes=emojibase-generator",
-    "type": "beemo typescript --build"
+    "type": "tsc --build"
   },
   "engines": {
     "node": ">=12.17.0"
   },
   "devDependencies": {
-    "@beemo/cli": "^2.0.6",
-    "@beemo/core": "^2.1.4",
-    "@beemo/dev": "^1.7.8",
+    "@types/jest": "^29.0.3",
+    "babel-preset-moon": "^1.0.2",
+    "eslint": "^8.24.0",
+    "eslint-config-moon": "^1.0.2",
     "fetch-mock-jest": "^1.5.1",
     "filesize": "^8.0.7",
     "glob": "^7.2.0",
     "gzip-size": "^7.0.0",
+    "jest": "^29.0.3",
+    "jest-preset-moon": "^1.0.2",
     "lerna": "^4.0.0",
     "packemon": "^1.14.0",
-    "typescript": "^4.6.2"
+    "prettier": "^2.7.1",
+    "prettier-config-moon": "^1.0.1",
+    "tsconfig-moon": "^1.0.1",
+    "typescript": "^4.8.3"
   },
   "workspaces": [
     "packages/*",

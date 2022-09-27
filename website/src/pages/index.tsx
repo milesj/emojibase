@@ -1,4 +1,4 @@
-/* eslint-disable react/no-array-index-key */
+/* eslint-disable sort-keys */
 
 import React from 'react';
 import clsx from 'clsx';

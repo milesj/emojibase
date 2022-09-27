@@ -1,7 +1,12 @@
 import { log } from '../helpers/log';
 import { ParsedTotals } from '../types';
 
-export function verifyTotals<T>(type: string, version: string, data: T, totals: ParsedTotals): T {
+export function verifyTotals<T extends object>(
+	type: string,
+	version: string,
+	data: T,
+	totals: ParsedTotals,
+): T {
 	// v1.0 doesnt have totals
 	if (version === '1.0') {
 		return data;
