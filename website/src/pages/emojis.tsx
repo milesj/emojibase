@@ -26,6 +26,7 @@ export default function EmojiList() {
 	}, []);
 
 	return (
+		// @ts-expect-error Invalid types
 		<Layout description="Table of all emojis across any supported locale." title="Emoji table">
 			<main className="table-container">
 				<h2>Emoji table</h2>

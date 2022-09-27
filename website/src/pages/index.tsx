@@ -66,6 +66,7 @@ export default function Home() {
 	const { siteConfig } = context;
 
 	return (
+		// @ts-expect-error Invalid types
 		<Layout description={siteConfig.tagline} title="Spec compliant emoji datasets">
 			<header className={clsx('hero hero--primary', styles.heroBanner)}>
 				<div className="container">
