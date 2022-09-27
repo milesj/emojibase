@@ -6,6 +6,7 @@ import { getCompactEmojiWithSkins, getEmojiWithSkins, setupStorage } from './hel
 
 describe('fetchEmojis()', () => {
 	// Testing overloads
+	// @ts-expect-error Allow unused
 	function testOverloads() {
 		const e1 = fetchEmojis('en', { compact: true, flat: true });
 		const e2 = fetchEmojis('en', { compact: true, flat: false });
@@ -16,6 +17,8 @@ describe('fetchEmojis()', () => {
 		const e7 = fetchEmojis('en', { flat: true });
 		const e8 = fetchEmojis('en', { shortcodes: ['cldr'] });
 		const e9 = fetchEmojis('en');
+
+		return [e1, e2, e3, e4, e5, e6, e7, e8, e9];
 	}
 
 	beforeEach(() => {

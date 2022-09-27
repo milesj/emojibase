@@ -1,0 +1,17 @@
+node_modules/
+build/
+cjs/
+coverage/
+dist/
+dts/
+esm/
+lib/
+mjs/
+umd/
+CHANGELOG.md
+*.d.ts
+cache/**/*.json
+packages/data/**/*.json
+packages/generator/src/resources/*.ts
+packages/test-utils/*.json
+website/.docusaurus
