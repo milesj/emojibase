@@ -33,7 +33,7 @@ export function parseEmojiList(content: string): EmojiSourceMap {
 	const groupCache: GroupCache = {
 		groups: {},
 		subgroups: {},
-		...readCache('final/group-hierarchy.json'),
+		...readCache('temp/group-hierarchy.json'),
 	};
 	const groups: GroupNameMap = swapKeyValues(groupCache.groups);
 	const subgroups: GroupNameMap = swapKeyValues(groupCache.subgroups);

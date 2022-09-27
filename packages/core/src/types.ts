@@ -103,6 +103,7 @@ export type SubgroupKey =
 	| 'hand-prop'
 	| 'hand-single-finger'
 	| 'hands'
+	| 'heart'
 	| 'hotel'
 	| 'household'
 	| 'keycap'

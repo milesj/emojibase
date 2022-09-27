@@ -3855,45 +3855,45 @@ export const shortcodes = {
 
   // VERSION 15
   // 🫨 shaking face
-  '1FAE8': [],
+  '1FAE8': ['shaking', 'shaking_face'],
   // 🩷 pink heart
-  '1FA77': [],
+  '1FA77': ['pink_heart'],
   // 🩵 light blue heart
-  '1FA75': [],
+  '1FA75': ['light_blue_heart'],
   // 🩶 grey heart
-  '1FA76': [],
+  '1FA76': ['gray_heart', 'grey_heart'],
   // 🫷 leftwards pushing hand
-  '1FAF7': [],
+  '1FAF7': ['leftwards_pushing_hand'],
   // 🫸 rightwards pushing hand
-  '1FAF8': [],
+  '1FAF8': ['rightwards_pushing_hand'],
   // 🫎 moose
-  '1FACE': [],
+  '1FACE': ['moose'],
   // 🫏 donkey
-  '1FACF': [],
+  '1FACF': ['donkey'],
   // 🪽 wing
-  '1FABD': [],
+  '1FABD': ['wing'],
   // 🐦‍⬛ black bird
-  '1F426-200D-2B1B': [],
+  '1F426-200D-2B1B': ['black_bird'],
   // 🪿 goose
-  '1FABF': [],
+  '1FABF': ['goose'],
   // 🪼 jellyfish
-  '1FABC': [],
+  '1FABC': ['jellyfish'],
   // 🪻 hyacinth
-  '1FABB': [],
+  '1FABB': ['hyacinth'],
   // 🫚 ginger root
-  '1FADA': [],
+  '1FADA': ['ginger'],
   // 🫛 pea pod
-  '1FADB': [],
+  '1FADB': ['pea'],
   // 🪭 folding hand fan
-  '1FAAD': [],
+  '1FAAD': ['folding_fan'],
   // 🪮 hair pick
-  '1FAAE': [],
+  '1FAAE': ['hair_pick'],
   // 🪇 maracas
-  '1FA87': [],
+  '1FA87': ['maracas'],
   // 🪈 flute
-  '1FA88': [],
+  '1FA88': ['flute'],
   // 🪯 khanda
-  '1FAAF': [],
+  '1FAAF': ['khanda'],
   // 🛜 wireless
-  '1F6DC': [],
+  '1F6DC': ['wireless'],
 };
