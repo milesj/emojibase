@@ -1,12 +1,10 @@
 {
   "compilerOptions": {
-    "declarationDir": "dts",
-    "outDir": "dts",
+    "outDir": "mjs",
     "rootDir": "src",
     "emitDeclarationOnly": true
   },
   "exclude": [
-    "dts",
     "tests"
   ],
   "extends": "../../tsconfig.options.json",
@@ -16,6 +14,9 @@
     "../../types/**/*"
   ],
   "references": [
+    {
+      "path": "./tsconfig.mjs.json"
+    },
     {
       "path": "../core"
     }

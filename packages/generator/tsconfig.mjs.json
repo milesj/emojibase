@@ -1,12 +1,9 @@
 {
   "compilerOptions": {
-    "outDir": "lib",
+    "outDir": "mjs",
     "rootDir": "src",
     "emitDeclarationOnly": true
   },
-  "exclude": [
-    "tests"
-  ],
   "extends": "../../tsconfig.options.json",
   "include": [
     "src/**/*",
@@ -14,9 +11,6 @@
     "../../types/**/*"
   ],
   "references": [
-    {
-      "path": "./tsconfig.lib.json"
-    },
     {
       "path": "../core"
     }

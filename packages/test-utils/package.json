@@ -16,12 +16,10 @@
   "author": "Miles Johnson",
   "license": "MIT",
   "main": "./lib/index.js",
-  "types": "./dts/index.d.ts",
+  "types": "./lib/index.d.ts",
   "files": [
-    "dts/**/*.d.ts",
-    "lib/**/*.{js,map}",
-    "mjs/**/*.{mjs,map}",
-    "src/**/*.{ts,tsx,json}",
+    "lib/**/*",
+    "src/**/*",
     "test-data.json",
     "test-messages.json",
     "test-shortcodes.json"
@@ -43,7 +41,7 @@
     "platform": "node"
   },
   "engines": {
-    "node": ">=14.15.0",
+    "node": ">=16.12.0",
     "npm": ">=6.14.0"
   }
 }
