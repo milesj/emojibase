@@ -3,9 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "build": "packemon build --addEngines",
-    "pack": "NODE_ENV=production packemon pack --addEngines --declaration",
-    "clean": "packemon clean",
+    "build": "packemon build-workspace --addEngines",
+    "pack": "packemon pack-workspace --addEngines --declaration",
     "clean:cache": "rm -rf ./cache",
     "check": "yarn run type && yarn run test && yarn run lint",
     "coverage": "yarn run jest --coverage",
@@ -19,7 +18,7 @@
     "generate:types": "node ./bin/generateTypes.mjs",
     "test": "jest --colors --logHeapUsage",
     "format": "prettier --write .",
-    "release": "yarn run clean && yarn run pack && yarn run check && lerna-release",
+    "release": "yarn run pack && yarn run check && lerna-release",
     "type": "tsc --build"
   },
   "engines": {
@@ -38,7 +37,7 @@
     "jest": "^29.5.0",
     "jest-preset-moon": "^2.0.1",
     "lerna": "^6.6.1",
-    "packemon": "^2.4.1",
+    "packemon": "^3.0.3",
     "prettier": "^2.8.8",
     "prettier-config-moon": "^1.1.2",
     "tsconfig-moon": "^1.3.0",
