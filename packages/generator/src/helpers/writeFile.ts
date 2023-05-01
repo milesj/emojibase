@@ -5,7 +5,7 @@ export async function writeFile<T>(targetFolder: string, fileName: string, data:
 	const filePath = path.resolve(targetFolder, fileName);
 
 	await fs.ensureDir(path.dirname(filePath));
-	await fs.writeFile(filePath, data, 'utf8');
+	await fs.writeFile(filePath, data as string, 'utf8');
 
 	return data;
 }
