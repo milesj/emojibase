@@ -9,4 +9,12 @@ module.exports = {
 		// All of the emoji mappings use numbers
 		'no-magic-numbers': 'off',
 	},
+	overrides: [
+		{
+			files: ['*.test.ts'],
+			rules: {
+				'unicorn/prefer-module': 'off',
+			},
+		},
+	],
 };

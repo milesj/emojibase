@@ -9,7 +9,7 @@ function getFetchUrl(path: string, version: string, cdnUrl?: CDNUrlFn | string):
 	}
 
 	if (__DEV__) {
-		if (!path || !path.endsWith('.json')) {
+		if (!path?.endsWith('.json')) {
 			throw new Error('A valid JSON dataset is required to fetch.');
 		}
 

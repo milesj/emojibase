@@ -40,11 +40,11 @@ export function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
 
 		// Verify there are 2 presentation variations if applicable
 		if (isObject<EmojiVariation>(emoji.variations)) {
-			if (!emoji.variations.text || !emoji.variations.text.endsWith(TEXT_VARIATION_SELECTOR)) {
+			if (!emoji.variations.text?.endsWith(TEXT_VARIATION_SELECTOR)) {
 				errors.push(`Invalid text presentation variation. Found ${emoji.variations.text}.`);
 			}
 
-			if (!emoji.variations.emoji || !emoji.variations.emoji.endsWith(EMOJI_VARIATION_SELECTOR)) {
+			if (!emoji.variations.emoji?.endsWith(EMOJI_VARIATION_SELECTOR)) {
 				errors.push(`Invalid emoji presentation variation. Found ${emoji.variations.emoji}.`);
 			}
 

@@ -60,7 +60,7 @@ async function createEmojiRegex(
 
 		switch (display) {
 			// Should only contain emoji presentation
-			case 'emoji': {
+			case 'emoji':
 				if (!variations || loose) {
 					addCodePoint(hexcode);
 				}
@@ -70,10 +70,9 @@ async function createEmojiRegex(
 				}
 
 				break;
-			}
 
 			// Should only contain text presentation
-			case 'text': {
+			case 'text':
 				if (loose) {
 					addCodePoint(hexcode);
 				}
@@ -83,10 +82,9 @@ async function createEmojiRegex(
 				}
 
 				break;
-			}
 
 			// Should contain everything
-			default: {
+			default:
 				addCodePoint(hexcode);
 
 				if (variations) {
@@ -99,7 +97,6 @@ async function createEmojiRegex(
 				}
 
 				break;
-			}
 		}
 	});
 
