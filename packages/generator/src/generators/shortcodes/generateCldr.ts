@@ -93,7 +93,7 @@ export async function generateCldr(db: Database) {
 			for (const emoji of db.emojiList) {
 				const row = annotations[emoji.hexcode] || annotations[stripHexcode(emoji.hexcode)];
 
-				if (!row || !row.annotation || cldr[emoji.hexcode]) {
+				if (!row?.annotation || cldr[emoji.hexcode]) {
 					// eslint-disable-next-line no-continue
 					continue;
 				}

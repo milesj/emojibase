@@ -178,14 +178,13 @@ async function generateMessages(locale: Locale): Promise<unknown> {
 						break;
 					}
 
-					case 'SKIN TONE': {
+					case 'SKIN TONE':
 						skinTones.push({
 							key: meta.trim(),
 							message: String(item.msgstr),
 						} as SkinToneMessage);
 
 						break;
-					}
 
 					default:
 						break;
