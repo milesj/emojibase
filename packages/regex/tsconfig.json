@@ -10,7 +10,7 @@
   ],
   "extends": "../../tsconfig.options.json",
   "include": [
-    "src/**/*",
+    "**/*",
     "types/**/*",
     "../../types/**/*"
   ],

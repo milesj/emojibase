@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider docusaurus start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve"

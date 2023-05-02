@@ -86,3 +86,5 @@ jobs:
       - run: yarn install --immutable
       - run: yarn run pack
       - run: cd website && yarn run build
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
