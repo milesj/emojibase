@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
 import { Locale } from 'emojibase';
 import PO from 'pofile';
 import { LOCALE_COUNTRIES } from '../constants';

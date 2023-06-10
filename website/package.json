@@ -11,9 +11,9 @@
     "serve": "docusaurus serve"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.4.0",
-    "@docusaurus/module-type-aliases": "^2.4.0",
-    "@docusaurus/preset-classic": "^2.4.0",
+    "@docusaurus/core": "^2.4.1",
+    "@docusaurus/module-type-aliases": "^2.4.1",
+    "@docusaurus/preset-classic": "^2.4.1",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.2.1",
     "docusaurus-plugin-typedoc-api": "^3.0.0",
@@ -21,11 +21,11 @@
     "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "url-search-params-polyfill": "^8.1.1"
+    "url-search-params-polyfill": "^8.2.3"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.194",
-    "@types/react": "^17.0.58"
+    "@types/lodash": "^4.14.195",
+    "@types/react": "^17.0.61"
   },
   "browserslist": {
     "production": [

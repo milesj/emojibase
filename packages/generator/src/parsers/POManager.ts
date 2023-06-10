@@ -1,4 +1,4 @@
-import fs from 'fs';
+import fs from 'node:fs';
 import PO, { POHeaders, POItem } from 'pofile';
 import { toArray } from '../helpers/toArray';
 

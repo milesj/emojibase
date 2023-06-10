@@ -1,6 +1,6 @@
 /* eslint-disable complexity */
 
-import util from 'util';
+import util from 'node:util';
 import { Locale, stripHexcode } from 'emojibase';
 import {
 	INHERIT_PARENT_SYMBOL,
