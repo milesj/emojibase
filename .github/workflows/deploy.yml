@@ -12,6 +12,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           cache: yarn
+          node-version: 20
       - run: yarn install --immutable
       - run: yarn run build
       - name: Add key to allow access to repository
