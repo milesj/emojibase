@@ -1,7 +1,8 @@
-# 7.0.0 - 2023-06-10
+# 15.0.0 - 2023-06-10
 
-#### 🚀 Updates
+#### 🎉 Release
 
+- Emojibase versions will now align with the emoji/unicode versions.
 - Updated to [Emoji 15.0](https://emojipedia.org/emoji-15.0/).
 - Updated to [CLDR 42](http://cldr.unicode.org/index/downloads/cldr-42).
 

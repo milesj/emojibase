@@ -1,7 +1,8 @@
-# 8.0.0 - 2023-06-10
+# 15.0.0 - 2023-06-10
 
 #### 🎉 Release
 
+- Emojibase versions will now align with the emoji/unicode versions.
 - Updated to [Emoji 15](https://emojipedia.org/emoji-15.0/) and
   [Unicode 15](http://unicode.org/versions/Unicode15.0.0/).
   - 21 new emoji (31 including skin tones variations).
