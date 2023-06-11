@@ -103,7 +103,7 @@ export function parseMetadata(content: string): EmojiMetadataMap {
 	});
 
 	// Cache groups to reference later for constants
-	void writeCache('final/group-hierarchy.json', {
+	void writeCache('temp/group-hierarchy.json', {
 		groups,
 		hierarchy,
 		subgroups,

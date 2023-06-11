@@ -61,14 +61,17 @@ export function parse(content: string): {
 		// Skip empty lines
 		if (!line.trim()) {
 			return;
-
-			// Skip comments
 		}
+
+		// Skip comments
 		if (line.startsWith('#')) {
 			// But extract property
 			if (line.startsWith('# @missing')) {
 				addTotal();
 				lastProperty = line.split(';')[1].trim();
+			} else if (line.startsWith('# All omitted')) {
+				addTotal();
+				lastProperty = line.replace('# All omitted code points have', '').split('=')[0].trim();
 			} else {
 				Object.keys(PROPERTY_CAPTURES).some((start) => {
 					if (line.startsWith(start)) {

@@ -277,7 +277,7 @@ export async function generateData(): Promise<void> {
 		writeDataset('meta/hexcodes.json', hexcodes),
 	]);
 
-	const groupCache = readCache('final/group-hierarchy.json');
+	const groupCache = readCache('temp/group-hierarchy.json');
 
 	if (groupCache) {
 		await writeDataset('meta/groups.json', groupCache);

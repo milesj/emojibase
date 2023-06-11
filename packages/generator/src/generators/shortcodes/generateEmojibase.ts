@@ -1,4 +1,4 @@
-import path from 'path';
+import path from 'node:path';
 import { appendSkinToneIndex, Emoji, Hexcode, SUPPORTED_LOCALES, TEXT } from 'emojibase';
 import { SHORTCODE_GUIDELINES } from '../../constants';
 import { writeDataset } from '../../helpers/writeDataset';

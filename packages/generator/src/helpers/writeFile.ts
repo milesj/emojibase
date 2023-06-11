@@ -1,4 +1,4 @@
-import path from 'path';
+import path from 'node:path';
 import fs from 'fs-extra';
 
 export async function writeFile<T>(targetFolder: string, fileName: string, data: T): Promise<T> {

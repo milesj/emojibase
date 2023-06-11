@@ -17,7 +17,7 @@ export function generateTypes() {
 	const groupData = readCache<{
 		groups: Record<string, string>;
 		subgroups: Record<string, string>;
-	}>('final/group-hierarchy.json')!;
+	}>('temp/group-hierarchy.json')!;
 
 	console.log(`export type GroupKey = ${unionize(groupData.groups)};`);
 

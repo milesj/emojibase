@@ -48,9 +48,9 @@ export const SKIN_KEY_DARK: SkinToneKey = 'dark';
 
 // Important release versions and locales in generating accurate data.
 
-export const LATEST_EMOJI_VERSION = '14.0';
-export const LATEST_UNICODE_VERSION = '14.0.0';
-export const LATEST_CLDR_VERSION = '40';
+export const LATEST_EMOJI_VERSION = '15.0';
+export const LATEST_UNICODE_VERSION = '15.0.0';
+export const LATEST_CLDR_VERSION = '42';
 
 export const FIRST_UNICODE_EMOJI_VERSION = '6.0.0';
 export const EMOJI_VERSIONS = [
@@ -65,6 +65,7 @@ export const EMOJI_VERSIONS = [
 	'13.0',
 	'13.1',
 	'14.0',
+	'15.0',
 ];
 export const UNICODE_VERSIONS = [
 	'6.0',
@@ -80,6 +81,7 @@ export const UNICODE_VERSIONS = [
 	'12.1',
 	'13.0',
 	'14.0',
+	'15.0',
 ];
 
 export const SUPPORTED_LOCALES: Locale[] = [

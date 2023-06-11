@@ -1,3 +1,12 @@
+# 7.0.0 - 2023-06-10
+
+#### 🎉 Release
+
+- Updated to [Emoji 15](https://emojipedia.org/emoji-15.0/) and
+  [Unicode 15](http://unicode.org/versions/Unicode15.0.0/).
+  - 21 new emoji (31 including skin tones variations).
+- Updated to [CLDR 42](http://cldr.unicode.org/index/downloads/cldr-42).
+
 ### 6.0.1 - 2021-12-19
 
 #### 🛠 Internals

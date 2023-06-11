@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
 import { log } from './log';
 
 export function readCache<T>(name: string): T | undefined {

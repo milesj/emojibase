@@ -1,3 +1,16 @@
+# 7.0.0 - 2023-06-10
+
+#### 🚀 Updates
+
+- Updated to [Emoji 15.0](https://emojipedia.org/emoji-15.0/).
+- Updated to [CLDR 42](http://cldr.unicode.org/index/downloads/cldr-42).
+
+#### 🛠 Internals
+
+- Migrated to moon configurations.
+- Updated `LATEST_EMOJI_VERSION` to `15.0`.
+- Updated `LATEST_CLDR_VERSION` to `42`.
+
 ### 6.1.0 - 2021-12-19
 
 #### 🚀 Updates
