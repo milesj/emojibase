@@ -39,3 +39,5 @@ jobs:
           yarn run pack
           cd website
           yarn run deploy
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
