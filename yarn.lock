@@ -9679,7 +9679,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "emojibase-data@workspace:packages/data"
   dependencies:
-    emojibase-regex: ^6.0.1
+    emojibase-regex: "workspace:*"
   peerDependencies:
     emojibase: "*"
   languageName: unknown
@@ -9706,14 +9706,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"emojibase-regex@npm:^6.0.1":
-  version: 6.0.1
-  resolution: "emojibase-regex@npm:6.0.1"
-  checksum: 8435e8c780355d742021d546bc5ed7c80d8701f4d37d809794e6f9946b36fb0194eb9406b27fedf50dda76ff25ab239c55f9b9382806670253af705194b4aeb9
-  languageName: node
-  linkType: hard
-
-"emojibase-regex@workspace:packages/regex":
+"emojibase-regex@workspace:*, emojibase-regex@workspace:packages/regex":
   version: 0.0.0-use.local
   resolution: "emojibase-regex@workspace:packages/regex"
   dependencies:

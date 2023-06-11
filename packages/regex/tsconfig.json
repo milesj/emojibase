@@ -6,6 +6,7 @@
     "emitDeclarationOnly": true
   },
   "exclude": [
+    "node_modules",
     "tests"
   ],
   "extends": "../../tsconfig.options.json",
