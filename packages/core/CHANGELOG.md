@@ -1,3 +1,34 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# 15.0.0 - 2023-06-11
+
+#### 🎉 Release
+
+- Support emoji v15! (#146) ([55286b1](https://github.com/milesj/emojibase/commit/55286b1)), closes [#146](https://github.com/milesj/emojibase/issues/146)
+
+#### 💥 Breaking
+
+- Align emojibase version with spec. ([614dda2](https://github.com/milesj/emojibase/commit/614dda2))
+
+#### 📦 Dependencies
+
+- **[beemo-dev]** Update to latest configs. ([c54d071](https://github.com/milesj/emojibase/commit/c54d071))
+- **[packemon]** Update to v3. ([ecc31da](https://github.com/milesj/emojibase/commit/ecc31da))
+- Update dev and test dependencies. ([57b5f18](https://github.com/milesj/emojibase/commit/57b5f18))
+
+#### 🛠 Internals
+
+- Migrate from beemo to moon. (#144) ([0607d6e](https://github.com/milesj/emojibase/commit/0607d6e)), closes [#144](https://github.com/milesj/emojibase/issues/144)
+
+**Note:** Version bump only for package emojibase
+
+
+
+
+
 # 15.0.0 - 2023-06-10
 
 #### 🎉 Release
