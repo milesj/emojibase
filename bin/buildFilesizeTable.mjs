@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import glob from 'fast-glob';
 import { gzipSizeSync } from 'gzip-size';
-import size from 'filesize';
+import { filesize as size } from 'filesize';
 import { fileURLToPath } from 'url';
 
 function calculatePackage(packageName) {
