@@ -9,6 +9,8 @@ Once you have a locale, add the locale in kebab-case to the following files:
 
 - `packages/core/src/types.ts` (to `Locale` type)
 - `packages/core/src/constants.ts` (to `SUPPORTED_LOCALES` constant)
+- `website/src/components/Filters.tsx` (to `LOCALES` constant)
+- `.github/workflows/build.yml` (to `locale` matrix)
 
 And then re-build packages:
 
