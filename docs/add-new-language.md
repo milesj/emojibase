@@ -28,3 +28,45 @@ step. We suggest using [Poedit](https://poedit.net/) for translating `.po` files
 
 The `shortcodes.po` file is optional and can be skipped. This file can be used to provide custom
 shortcodes for the emojibase preset.
+
+## 3) Generate data files
+
+Once translations have been made, we can generate the data files. This may take a while, so be sure
+to let the command keep running until completion.
+
+```
+yarn run generate
+```
+
+> A lot of information will be logged to the console, this is normal. However, please scan all logs
+> for any warnings and errors. If easily fixable, feel free to fix, otherwise report an issue!
+
+If generation completed successfully, you should see the `packages/data/<locale>` directory with a
+handful of files.
+
+## 4) Verify data files
+
+Although data files were generated, we should manually verify that the data is correct.
+
+- Ensure that there's no empty strings in every `*.raw.json` file.
+  - This is as simple as searching for `""` in the file.
+  - The `emoji` and `text` fields in `data.raw.json` can be empty.
+- Ensure that `label` in `compact.raw.json` and `data.raw.json` align with your locale.
+  - These translations are provided by CLDR and cannot be changed.
+  - If there are missing labels, then this language/locale _will not be supported_ until CLDR is
+    complete.
+- Ensure that `message` in `messages.raw.json` align with the translations from
+  `po/<locale>/messages.po`.
+- Optional: Ensure that shortcodes in `shortcodes/emojibase.raw.json` align with the translations
+  from `po/<locale>/shortcodes.po`.
+
+## 5) Create pull request
+
+Once verified, add the following files to git:
+
+- `po/<locale>/*.po`
+- `packages/data/<locale>/**/*.raw.json`
+
+And then create a pull request!
+
+> Please limit 1 locale per PR, otherwise we will not accept it.
