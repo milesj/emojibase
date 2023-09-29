@@ -85,6 +85,7 @@ export const UNICODE_VERSIONS = [
 ];
 
 export const SUPPORTED_LOCALES: Locale[] = [
+	'bn', // Bangla
 	'da', // Danish
 	'de', // German
 	'en', // English
