@@ -2676,7 +2676,7 @@ export const shortcodes = {
   '1F1F9-1F1F3': ['flag_tn', 'tunisia'],
   // 🇹🇴 flag: Tonga
   '1F1F9-1F1F4': ['flag_to', 'tonga'],
-  // 🇹🇷 flag: Turkey
+  // 🇹🇷 flag: Türkiye
   '1F1F9-1F1F7': ['flag_tr', 'turkey_tr'],
   // 🇹🇹 flag: Trinidad & Tobago
   '1F1F9-1F1F9': ['flag_tt', 'trinidad_tobago'],
