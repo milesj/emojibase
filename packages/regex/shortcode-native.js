@@ -3,7 +3,7 @@
 // http://www.fileformat.info/info/unicode/block/index.htm
 const ranges = [
 	//Bengali
-	/[\d+_\u0980-\u09FF-]/,
+	/[\d+_\u0980-\u09FF\u2000-\u206F-]/,
 	// Chinese
 	/[\d+_\u4E00-\u9FFF-]/,
 	// Japanese
