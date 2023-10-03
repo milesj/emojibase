@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 15.1.0 - 2023-10-03
+
+#### 🚀 Updates
+
+- Add `bn` (Bengali) language. (#161) ([84ea37c](https://github.com/milesj/emojibase/commit/84ea37c)), closes [#161](https://github.com/milesj/emojibase/issues/161)
+
+#### 🛠 Internals
+
+- Fix invalid dev dependency. ([e81c4f1](https://github.com/milesj/emojibase/commit/e81c4f1))
+
+**Note:** Version bump only for package emojibase-regex
+
+
+
+
+
 # 15.0.0 - 2023-06-11
 
 #### 🎉 Release

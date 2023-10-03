@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 15.1.0 - 2023-10-03
+
+#### 🚀 Updates
+
+- Support CLDR 43. (#163) ([1094148](https://github.com/milesj/emojibase/commit/1094148)), closes [#163](https://github.com/milesj/emojibase/issues/163)
+
+**Note:** Version bump only for package emojibase-test-utils
+
+
+
+
+
 # 15.0.0 - 2023-06-11
 
 #### 🎉 Release

@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.1.0 - 2023-10-03
+
+#### 🚀 Updates
+
+- Add `bn` (Bengali) language. (#161) ([84ea37c](https://github.com/milesj/emojibase/commit/84ea37c)), closes [#161](https://github.com/milesj/emojibase/issues/161)
+- Support CLDR 43. (#163) ([1094148](https://github.com/milesj/emojibase/commit/1094148)), closes [#163](https://github.com/milesj/emojibase/issues/163)
+
+#### 📦 Dependencies
+
+- Update dev and test dependencies. ([90bbe32](https://github.com/milesj/emojibase/commit/90bbe32))
+- Update generator dependencies. ([b437b7c](https://github.com/milesj/emojibase/commit/b437b7c))
+
+#### 📘 Docs
+
+- **[docusaurus]** Update to latest. ([399c366](https://github.com/milesj/emojibase/commit/399c366))
+- Update file sizes. ([34e6b20](https://github.com/milesj/emojibase/commit/34e6b20))
+
+**Note:** Version bump only for package website
+
+
+
+
+
 # 2.0.0 - 2023-06-11
 
 #### 🎉 Release
