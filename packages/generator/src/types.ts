@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/sort-type-union-intersection-members */
+/* eslint-disable @typescript-eslint/sort-type-constituents */
 
 import {
 	Emoticon,
@@ -151,7 +151,7 @@ export interface EmojiVariation {
 
 export type EmojiVariationMap = HexcodeMap<EmojiVariation>;
 
-export type EmoticonMap = Record<string, string | string[]>;
+export type EmoticonMap = Record<string, string[] | string>;
 
 export interface ParsedLine {
 	comment: string;

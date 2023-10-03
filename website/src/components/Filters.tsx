@@ -361,7 +361,7 @@ export default function Filters({
 					<label htmlFor="subgroup">Subgroup</label>
 
 					<select
-						disabled={disabled || !groupsMeta || !groupsMeta.hierarchy[group] || !subgroupLabels}
+						disabled={disabled || !groupsMeta?.hierarchy[group] || !subgroupLabels}
 						id="subgroup"
 						name="subgroup"
 						value={subgroup}
