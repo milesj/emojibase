@@ -7,8 +7,9 @@ https://github.com/unicode-org/cldr/tree/main/common/annotations
 
 Once you have a locale, add the locale in kebab-case to the following files:
 
-- `packages/core/src/types.ts` (to `Locale` type)
 - `packages/core/src/constants.ts` (to `SUPPORTED_LOCALES` constant)
+- `packages/core/src/types.ts` (to `Locale` type)
+- `packages/generator/src/constants.ts` (to `LOCALE_COUNTRIES` constant)
 - `website/src/components/Filters.tsx` (to `LOCALES` constant)
 - `.github/workflows/build.yml` (to `locale` matrix)
 
@@ -44,7 +45,14 @@ yarn run generate
 > for any warnings and errors. If easily fixable, feel free to fix, otherwise report an issue!
 
 If generation completed successfully, you should see the `packages/data/<locale>` directory with a
-handful of files.
+handful of files. Once created, create the following files:
+
+- `packages/data/<locale>/compact.json.d.ts`
+- `packages/data/<locale>/data.json.d.ts`
+- `packages/data/<locale>/messages.json.d.ts`
+- `packages/data/<locale>/shortcodes/<preset>.json.d.ts`
+
+> These `.d.ts` files can be copied as-is from another locale, like English (en).
 
 ## 4) Verify data files
 
@@ -62,7 +70,14 @@ Although data files were generated, we should manually verify that the data is c
 - Optional: Ensure that shortcodes in `shortcodes/emojibase.raw.json` align with the translations
   from `po/<locale>/shortcodes.po`.
 
-## 5) Create pull request
+## 5) Update regex patterns
+
+If applicable, when adding a non-Latin locale, you'll most likely need to update our regex pattern
+to support the required Unicode range(s).
+
+- `packages/regex/shortcode-native.js` - Add Unicode ranges.
+
+## 6) Create pull request
 
 Once verified, add the following files to git:
 
