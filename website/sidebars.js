@@ -19,7 +19,7 @@ module.exports = {
 				{
 					type: 'link',
 					label: 'CLDR v43',
-					href: 'http://cldr.unicode.org/index/downloads/cldr-43',
+					href: 'http://cldr.unicode.org/index/downloads/cldr-43.1',
 				},
 				{
 					type: 'link',
