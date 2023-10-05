@@ -21,6 +21,7 @@ import styles from './styles.module.css';
 const isBrowser = typeof location !== 'undefined';
 
 export const LOCALES: { [K in Locale]: string } = {
+	hi: 'Hindi',
 	bn: 'Bangla',
 	da: 'Danish',
 	de: 'German',

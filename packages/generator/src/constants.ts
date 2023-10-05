@@ -219,6 +219,7 @@ export const SHORTCODE_GUIDELINES = `/**
  */`;
 
 export const LOCALE_COUNTRIES: { [K in Locale]: string } = {
+	hi: 'Hindi',
 	bn: 'Bengali',
 	da: 'Danish',
 	de: 'German',

@@ -2,6 +2,8 @@
 
 // http://www.fileformat.info/info/unicode/block/index.htm
 const ranges = [
+	//Hindi
+	/[\d+_\u0900-\u097F-]/,
 	//Bengali
 	/[\d+_\u0980-\u09FF\u2000-\u206F-]/,
 	// Chinese
