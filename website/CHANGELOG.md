@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.2.0 - 2023-10-06
+
+#### 🚀 Updates
+
+- Add hi (Hindi) language. (#165) ([ada3784](https://github.com/milesj/emojibase/commit/ada3784)), closes [#165](https://github.com/milesj/emojibase/issues/165)
+
+#### 📘 Docs
+
+- Update file sizes. ([bb8b93a](https://github.com/milesj/emojibase/commit/bb8b93a))
+
+**Note:** Version bump only for package website
+
+
+
+
+
 ## 2.1.0 - 2023-10-03
 
 #### 🚀 Updates
