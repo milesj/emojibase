@@ -40,7 +40,6 @@ jobs:
     strategy:
       matrix:
         locale:
-          - hi
           - bn
           - da
           - de
@@ -50,6 +49,7 @@ jobs:
           - et
           - fi
           - fr
+          - hi
           - hu
           - it
           - ja

@@ -85,7 +85,6 @@ export const UNICODE_VERSIONS = [
 ];
 
 export const SUPPORTED_LOCALES: Locale[] = [
-	'hi', // Hindi
 	'bn', // Bangla
 	'da', // Danish
 	'de', // German
@@ -96,6 +95,7 @@ export const SUPPORTED_LOCALES: Locale[] = [
 	'et', // Estonian
 	'fi', // Finnish
 	'fr', // French
+	'hi', // Hindi
 	'hu', // Hungarian
 	'it', // Italian
 	'ja', // Japanese

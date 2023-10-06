@@ -254,7 +254,6 @@ export interface MessagesDataset {
 }
 
 export type Locale =
-	| 'hi'
 	| 'bn'
 	| 'da'
 	| 'de'
@@ -265,6 +264,7 @@ export type Locale =
 	| 'et'
 	| 'fi'
 	| 'fr'
+	| 'hi'
 	| 'hu'
 	| 'it'
 	| 'ja'

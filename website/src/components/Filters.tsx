@@ -21,7 +21,6 @@ import styles from './styles.module.css';
 const isBrowser = typeof location !== 'undefined';
 
 export const LOCALES: { [K in Locale]: string } = {
-	hi: 'Hindi',
 	bn: 'Bangla',
 	da: 'Danish',
 	de: 'German',
@@ -32,6 +31,7 @@ export const LOCALES: { [K in Locale]: string } = {
 	et: 'Estonian',
 	fi: 'Finnish',
 	fr: 'French',
+	hi: 'Hindi',
 	hu: 'Hungarian',
 	it: 'Italian',
 	ja: 'Japanese',
