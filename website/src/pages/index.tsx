@@ -28,7 +28,7 @@ const features: FeatureProps[] = [
 		title: '🇺🇳 Localized datasets',
 		description: (
 			<>
-				Easily internationalize your emoji integration with one of our 25 supported languages and
+				Easily internationalize your emoji integration with one of our 27 supported languages and
 				growing. Is your language not supported? Just ask!
 			</>
 		),

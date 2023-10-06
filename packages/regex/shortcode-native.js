@@ -2,12 +2,12 @@
 
 // http://www.fileformat.info/info/unicode/block/index.htm
 const ranges = [
-	//Hindi
-	/[\d+_\u0900-\u097F-]/,
-	//Bengali
+	// Bengali
 	/[\d+_\u0980-\u09FF\u2000-\u206F-]/,
 	// Chinese
 	/[\d+_\u4E00-\u9FFF-]/,
+	// Hindi
+	/[\d+_\u0900-\u097F-]/,
 	// Japanese
 	/[\d+_\u3000-\u30FF-]/,
 	// Korean

@@ -41,6 +41,7 @@ webpack.config.js
 packages/data/**/*.json
 !packages/data/**/*.raw.json
 !packages/data/meta/*.json
+!packages/data/package.json
 
 # Yarn
 .yarn/*
