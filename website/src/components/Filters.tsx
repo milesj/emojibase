@@ -31,6 +31,7 @@ export const LOCALES: { [K in Locale]: string } = {
 	et: 'Estonian',
 	fi: 'Finnish',
 	fr: 'French',
+	hi: 'Hindi',
 	hu: 'Hungarian',
 	it: 'Italian',
 	ja: 'Japanese',

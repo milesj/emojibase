@@ -264,6 +264,7 @@ export type Locale =
 	| 'et'
 	| 'fi'
 	| 'fr'
+	| 'hi'
 	| 'hu'
 	| 'it'
 	| 'ja'

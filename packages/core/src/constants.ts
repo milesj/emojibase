@@ -95,6 +95,7 @@ export const SUPPORTED_LOCALES: Locale[] = [
 	'et', // Estonian
 	'fi', // Finnish
 	'fr', // French
+	'hi', // Hindi
 	'hu', // Hungarian
 	'it', // Italian
 	'ja', // Japanese
