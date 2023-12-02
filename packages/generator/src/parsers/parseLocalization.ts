@@ -1,4 +1,5 @@
 import cheerio from 'cheerio';
+import { INHERIT_PARENT_SYMBOL } from '../constants';
 import { CLDRDataMap } from '../types';
 
 /**
@@ -16,11 +17,18 @@ export function parseLocalization(
 ): CLDRDataMap {
 	const xml = cheerio.load(content, { xmlMode: true });
 	const data: CLDRDataMap = {};
+	let lastValue = '';
 
 	xml(nodeName).each((i, rawRow) => {
 		const row = xml(rawRow);
+		const value = row.text().trim();
 
-		data[row.attr(attrName)!] = row.text().trim();
+		if (value === INHERIT_PARENT_SYMBOL) {
+			data[row.attr(attrName)!] = lastValue;
+		} else {
+			data[row.attr(attrName)!] = value;
+			lastValue = value;
+		}
 	});
 
 	return data;

@@ -96,7 +96,7 @@ export async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotatio
 
 				if (
 					(typeof value === 'string' && value !== INHERIT_PARENT_SYMBOL) ||
-					(Array.isArray(value) && value[0] !== INHERIT_PARENT_SYMBOL)
+					(Array.isArray(value) && !value.includes(INHERIT_PARENT_SYMBOL))
 				) {
 					return value;
 				}
