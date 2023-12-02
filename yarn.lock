@@ -791,6 +791,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/plugin-syntax-import-attributes@npm:^7.23.3":
+  version: 7.23.3
+  resolution: "@babel/plugin-syntax-import-attributes@npm:7.23.3"
+  dependencies:
+    "@babel/helper-plugin-utils": ^7.22.5
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: 9aed7661ffb920ca75df9f494757466ca92744e43072e0848d87fa4aa61a3f2ee5a22198ac1959856c036434b5614a8f46f1fb70298835dbe28220cdd1d4c11e
+  languageName: node
+  linkType: hard
+
 "@babel/plugin-syntax-import-meta@npm:^7.10.4, @babel/plugin-syntax-import-meta@npm:^7.8.3":
   version: 7.10.4
   resolution: "@babel/plugin-syntax-import-meta@npm:7.10.4"
@@ -6510,6 +6521,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cldr-localenames-modern@npm:^44.0.1":
+  version: 44.0.1
+  resolution: "cldr-localenames-modern@npm:44.0.1"
+  peerDependencies:
+    cldr-core: 44.0.1
+  checksum: d33167c29151f48d972f95fbcb7432227fd69d050736b242802f0343d4efa20d25d512738e824b9b8a9973623b960a1a281c3ac99fb0482301aff2da8c7535a1
+  languageName: node
+  linkType: hard
+
 "clean-css@npm:^5.2.2, clean-css@npm:^5.3.0":
   version: 5.3.1
   resolution: "clean-css@npm:5.3.1"
@@ -8091,9 +8111,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "emojibase-root@workspace:."
   dependencies:
+    "@babel/plugin-syntax-import-attributes": ^7.23.3
     "@moonrepo/dev": ^2.0.1
     "@types/jest": ^29.5.5
     babel-preset-moon: ^2.0.9
+    cldr-localenames-modern: ^44.0.1
     eslint: ^8.50.0
     eslint-config-moon: ^2.0.10
     fast-glob: ^3.3.1
