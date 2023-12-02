@@ -3,7 +3,7 @@ import { formatLocaleJson } from '../helpers/formatLocale';
 import { CLDRAnnotationMap } from '../types';
 import { importJsonModule } from './fetchAndCache';
 
-type CLDRAnnotationData = Record<string, { default: string[]; tts: string[] }>;
+type CLDRAnnotationData = Record<string, { default?: string[]; tts?: string[] }>;
 
 interface CLDRAnnotations {
 	annotations: {
@@ -55,8 +55,13 @@ export async function loadAnnotations(
 			};
 		}
 
-		data[hexcode].annotation = anno.tts.join(' ');
-		data[hexcode].tags = anno.default;
+		if (anno.tts) {
+			data[hexcode].annotation = anno.tts.join(' ');
+		}
+
+		if (anno.default) {
+			data[hexcode].tags = anno.default.map((tag) => tag.toLocaleLowerCase());
+		}
 	});
 
 	return data;
