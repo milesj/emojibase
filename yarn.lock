@@ -6510,26 +6510,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cldr-annotations-derived-modern@npm:^44.0.1":
+"cldr-annotations-derived-full@npm:^44.0.1":
   version: 44.0.1
-  resolution: "cldr-annotations-derived-modern@npm:44.0.1"
-  checksum: 66b9e93bca71e92f4f81b20c9defc0ce23f15c2ccfddf6fe560c2b16b1efada2ad6ebc3c1765aae6d6bdeef6002176ebcc99f496425c108d5cff60746c5f2d47
+  resolution: "cldr-annotations-derived-full@npm:44.0.1"
+  checksum: 31d500518602f9374f0b489f6d13dedace2ca40beb33a091c453f0ed19f4b78e177069abdcacd8b3ecffdc1e97b942e763e5cb7171612bdbf93882a81c776db1
   languageName: node
   linkType: hard
 
-"cldr-annotations-modern@npm:^44.0.1":
+"cldr-annotations-full@npm:^44.0.1":
   version: 44.0.1
-  resolution: "cldr-annotations-modern@npm:44.0.1"
-  checksum: a2fca4a131d129580ed1e6652a32aacbdeea275b2b96147fc9046baaac077fd32b2872e894697e6773916ea0af9ac287dcc58dc4155a2eb7d4511e48096a8f0e
+  resolution: "cldr-annotations-full@npm:44.0.1"
+  checksum: 8b1478764e309ec20f67ec470989a4cdac87f690476fc97f295af900d9c39f90f95768e96fd1da1db8b7715cd2eab60edc46e875b74a3a9371516d0b2517f784
   languageName: node
   linkType: hard
 
-"cldr-localenames-modern@npm:^44.0.1":
+"cldr-localenames-full@npm:^44.0.1":
   version: 44.0.1
-  resolution: "cldr-localenames-modern@npm:44.0.1"
+  resolution: "cldr-localenames-full@npm:44.0.1"
   peerDependencies:
     cldr-core: 44.0.1
-  checksum: d33167c29151f48d972f95fbcb7432227fd69d050736b242802f0343d4efa20d25d512738e824b9b8a9973623b960a1a281c3ac99fb0482301aff2da8c7535a1
+  checksum: 1ddf0d4a3165db062e3dbc52be42b4fb67deb43c06d1493023397cf93721863210cff6177ca61a287dde254b447c0a3cb4be0a76cf8572ea0940812ff67e79ea
   languageName: node
   linkType: hard
 
@@ -8117,9 +8117,9 @@ __metadata:
     "@moonrepo/dev": ^2.0.1
     "@types/jest": ^29.5.5
     babel-preset-moon: ^2.0.9
-    cldr-annotations-derived-modern: ^44.0.1
-    cldr-annotations-modern: ^44.0.1
-    cldr-localenames-modern: ^44.0.1
+    cldr-annotations-derived-full: ^44.0.1
+    cldr-annotations-full: ^44.0.1
+    cldr-localenames-full: ^44.0.1
     eslint: ^8.50.0
     eslint-config-moon: ^2.0.10
     fast-glob: ^3.3.1

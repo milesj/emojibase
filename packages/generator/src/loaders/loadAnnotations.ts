@@ -28,7 +28,7 @@ export async function loadAnnotations(
 	if (derived) {
 		try {
 			const cldr = await importJsonModule<CLDRAnnotationsDerived>(
-				`cldr-annotations-derived-modern/annotationsDerived/${jsonLocale}/annotations.json`,
+				`cldr-annotations-derived-full/annotationsDerived/${jsonLocale}/annotations.json`,
 			);
 			cldrData = cldr.annotationsDerived.annotations;
 		} catch {
@@ -38,7 +38,7 @@ export async function loadAnnotations(
 		}
 	} else {
 		const cldr = await importJsonModule<CLDRAnnotations>(
-			`cldr-annotations-modern/annotations/${jsonLocale}/annotations.json`,
+			`cldr-annotations-full/annotations/${jsonLocale}/annotations.json`,
 		);
 		cldrData = cldr.annotations.annotations;
 	}

@@ -19,11 +19,11 @@ export async function loadLocalization(
 	const jsonLocale = formatLocaleJson(locale);
 
 	const territoryPromise = importJsonModule<CLDRLocaleNamesTerritories>(
-		`cldr-localenames-modern/main/${jsonLocale}/territories.json`,
+		`cldr-localenames-full/main/${jsonLocale}/territories.json`,
 	).then((cldr) => cldr.main[jsonLocale].localeDisplayNames.territories ?? {});
 
 	const subdivisionPromise = importJsonModule<CLDRLocaleNamesDisplayNames>(
-		`cldr-localenames-modern/main/${jsonLocale}/localeDisplayNames.json`,
+		`cldr-localenames-full/main/${jsonLocale}/localeDisplayNames.json`,
 	).then((cldr) => cldr.main[jsonLocale].localeDisplayNames.subdivisions ?? {});
 
 	const [subdivisions, territories] = await Promise.all([subdivisionPromise, territoryPromise]);
