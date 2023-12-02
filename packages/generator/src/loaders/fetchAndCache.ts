@@ -56,9 +56,6 @@ export async function fetchAndCache<T>(
 
 export async function importJsonModule<T>(name: string): Promise<T> {
 	const path = await import.meta.resolve!(name);
-
-	console.log(name, '=', fileURLToPath(path));
-
 	const data = await fs.promises.readFile(fileURLToPath(path), 'utf8');
 
 	return JSON.parse(data) as T;
