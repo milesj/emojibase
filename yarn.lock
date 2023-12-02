@@ -791,17 +791,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-syntax-import-attributes@npm:^7.23.3":
-  version: 7.23.3
-  resolution: "@babel/plugin-syntax-import-attributes@npm:7.23.3"
-  dependencies:
-    "@babel/helper-plugin-utils": ^7.22.5
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 9aed7661ffb920ca75df9f494757466ca92744e43072e0848d87fa4aa61a3f2ee5a22198ac1959856c036434b5614a8f46f1fb70298835dbe28220cdd1d4c11e
-  languageName: node
-  linkType: hard
-
 "@babel/plugin-syntax-import-meta@npm:^7.10.4, @babel/plugin-syntax-import-meta@npm:^7.8.3":
   version: 7.10.4
   resolution: "@babel/plugin-syntax-import-meta@npm:7.10.4"
@@ -6521,6 +6510,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cldr-annotations-derived-modern@npm:^44.0.1":
+  version: 44.0.1
+  resolution: "cldr-annotations-derived-modern@npm:44.0.1"
+  checksum: 66b9e93bca71e92f4f81b20c9defc0ce23f15c2ccfddf6fe560c2b16b1efada2ad6ebc3c1765aae6d6bdeef6002176ebcc99f496425c108d5cff60746c5f2d47
+  languageName: node
+  linkType: hard
+
+"cldr-annotations-modern@npm:^44.0.1":
+  version: 44.0.1
+  resolution: "cldr-annotations-modern@npm:44.0.1"
+  checksum: a2fca4a131d129580ed1e6652a32aacbdeea275b2b96147fc9046baaac077fd32b2872e894697e6773916ea0af9ac287dcc58dc4155a2eb7d4511e48096a8f0e
+  languageName: node
+  linkType: hard
+
 "cldr-localenames-modern@npm:^44.0.1":
   version: 44.0.1
   resolution: "cldr-localenames-modern@npm:44.0.1"
@@ -8111,10 +8114,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "emojibase-root@workspace:."
   dependencies:
-    "@babel/plugin-syntax-import-attributes": ^7.23.3
     "@moonrepo/dev": ^2.0.1
     "@types/jest": ^29.5.5
     babel-preset-moon: ^2.0.9
+    cldr-annotations-derived-modern: ^44.0.1
+    cldr-annotations-modern: ^44.0.1
     cldr-localenames-modern: ^44.0.1
     eslint: ^8.50.0
     eslint-config-moon: ^2.0.10
