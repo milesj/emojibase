@@ -302,6 +302,8 @@
     "label": "besišypsantis išsižiojęs veidas, išpiltas šalto prakaito",
     "hexcode": "1F605",
     "tags": [
+      "besišypsantis išsižiojęs veidas",
+      "išpiltas šalto prakaito",
       "prakaitas",
       "praverta",
       "veidas",
@@ -996,6 +998,7 @@
     "hexcode": "1F644",
     "tags": [
       "akys",
+      "vartantis akis",
       "vartyti",
       "veidas"
     ],
@@ -1076,14 +1079,10 @@
     "version": 15
   },
   {
-    "label": "head shaking horizontally",
+    "label": "purtantis galvą",
     "hexcode": "1F642-200D-2194-FE0F",
     "tags": [
-      "rodyklė",
-      "rodyklė į kairę ir į dešinę",
-      "veidas",
-      "šiek tiek besišypsantis veidas",
-      "šypsena"
+      "sakantis ne"
     ],
     "emoji": "🙂‍↔️",
     "text": "",
@@ -1094,14 +1093,10 @@
     "version": 15.1
   },
   {
-    "label": "head shaking vertically",
+    "label": "linksintis galva",
     "hexcode": "1F642-200D-2195-FE0F",
     "tags": [
-      "rodyklė",
-      "rodyklė į viršų ir į apačią",
-      "veidas",
-      "šiek tiek besišypsantis veidas",
-      "šypsena"
+      "sakantis taip"
     ],
     "emoji": "🙂‍↕️",
     "text": "",
@@ -1734,6 +1729,7 @@
     "hexcode": "1F630",
     "tags": [
       "burna",
+      "išpiltas šalto prakaito",
       "išsižiojęs",
       "mėlyna",
       "prakaitas",
@@ -1872,6 +1868,7 @@
     "label": "veidas, išpiltas šalto prakaito",
     "hexcode": "1F613",
     "tags": [
+      "išpiltas šalto prakaito",
       "prakaitas",
       "veidas",
       "šaltas"
@@ -5713,10 +5710,12 @@
     "tags": [
       "gestas",
       "iškelta",
+      "iškėlęs rankas",
       "kūnas",
       "ranka",
       "valio",
-      "šventė"
+      "šventė",
+      "žmogus"
     ],
     "emoji": "🙌",
     "text": "",
@@ -10767,8 +10766,10 @@
     "tags": [
       "gestas",
       "iškelta",
+      "iškėlęs ranką",
       "laimingas",
-      "ranka"
+      "ranka",
+      "žmogus"
     ],
     "emoji": "🙋",
     "text": "",
@@ -22383,7 +22384,8 @@
     "hexcode": "1F9D1-200D-1F9AF",
     "tags": [
       "aklas",
-      "prieinamumas"
+      "prieinamumas",
+      "žmogus su neregio lazdele"
     ],
     "emoji": "🧑‍🦯",
     "text": "",
@@ -29051,10 +29053,12 @@
     "label": "dvi moterys, susikibusios už rankų",
     "hexcode": "1F46D",
     "tags": [
+      "dvi moterys",
       "laikyti",
       "moteris",
       "pora",
-      "ranka"
+      "ranka",
+      "susikibusios už rankų"
     ],
     "emoji": "👭",
     "text": "",
@@ -29434,7 +29438,9 @@
       "moteris",
       "pora",
       "ranka",
-      "vyras"
+      "susikibę už rankų",
+      "vyras",
+      "vyras ir moteris"
     ],
     "emoji": "👫",
     "text": "",
@@ -29810,10 +29816,12 @@
     "label": "du vyrai, susikibę už rankų",
     "hexcode": "1F46C",
     "tags": [
+      "du vyrai",
       "dvyniai",
       "laikyti",
       "pora",
       "ranka",
+      "susikibę už rankų",
       "vyras",
       "zodiakas"
     ],
@@ -33780,13 +33788,12 @@
     "version": 0.6
   },
   {
-    "label": "family: adult, adult, child",
+    "label": "šeima: suaugusysis, suaugusysis, vaikas",
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2",
     "tags": [
-      "jaunas",
-      "neutrali lytis",
       "suaugusysis",
-      "vaikas"
+      "vaikas",
+      "šeima: suaugusysis"
     ],
     "emoji": "🧑‍🧑‍🧒",
     "text": "",
@@ -33797,13 +33804,12 @@
     "version": 15.1
   },
   {
-    "label": "family: adult, adult, child, child",
+    "label": "šeima: suaugusysis, suaugusysis, vaikas, vaikas",
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2",
     "tags": [
-      "jaunas",
-      "neutrali lytis",
       "suaugusysis",
-      "vaikas"
+      "vaikas",
+      "šeima: suaugusysis"
     ],
     "emoji": "🧑‍🧑‍🧒‍🧒",
     "text": "",
@@ -33814,13 +33820,11 @@
     "version": 15.1
   },
   {
-    "label": "family: adult, child",
+    "label": "šeima: suaugusysis, vaikas",
     "hexcode": "1F9D1-200D-1F9D2",
     "tags": [
-      "jaunas",
-      "neutrali lytis",
-      "suaugusysis",
-      "vaikas"
+      "vaikas",
+      "šeima: suaugusysis"
     ],
     "emoji": "🧑‍🧒",
     "text": "",
@@ -33831,13 +33835,11 @@
     "version": 15.1
   },
   {
-    "label": "family: adult, child, child",
+    "label": "šeima: suaugusysis, vaikas, vaikas",
     "hexcode": "1F9D1-200D-1F9D2-200D-1F9D2",
     "tags": [
-      "jaunas",
-      "neutrali lytis",
-      "suaugusysis",
-      "vaikas"
+      "vaikas",
+      "šeima: suaugusysis"
     ],
     "emoji": "🧑‍🧒‍🧒",
     "text": "",
@@ -35274,14 +35276,13 @@
     "version": 15
   },
   {
-    "label": "black bird",
+    "label": "juodas paukštis",
     "hexcode": "1F426-200D-2B1B",
     "tags": [
-      "bird",
-      "black",
-      "crow",
-      "raven",
-      "rook"
+      "juodas",
+      "paukštis",
+      "varna",
+      "varnas"
     ],
     "emoji": "🐦‍⬛",
     "text": "",
@@ -35308,13 +35309,12 @@
     "version": 15
   },
   {
-    "label": "phoenix",
+    "label": "feniksas",
     "hexcode": "1F426-200D-1F525",
     "tags": [
-      "liepsna",
-      "paukštis",
-      "ugnis",
-      "įrankis"
+      "atgimimas",
+      "fantazija",
+      "ugnies paukštis"
     ],
     "emoji": "🐦‍🔥",
     "text": "",
@@ -36379,14 +36379,12 @@
     "version": 1
   },
   {
-    "label": "lime",
+    "label": "žalioji citrina",
     "hexcode": "1F34B-200D-1F7E9",
     "tags": [
-      "citrina",
       "citrusinis",
-      "kvadratas",
-      "vaisius",
-      "žalias"
+      "tropinis",
+      "vaisius"
     ],
     "emoji": "🍋‍🟩",
     "text": "",
@@ -36864,13 +36862,12 @@
     "version": 15
   },
   {
-    "label": "brown mushroom",
+    "label": "baravykas",
     "hexcode": "1F344-200D-1F7EB",
     "tags": [
       "grybas",
-      "kvadratas",
-      "rudas",
-      "šungrybis"
+      "natūralus",
+      "valgomas"
     ],
     "emoji": "🍄‍🟫",
     "text": "",
@@ -41466,8 +41463,10 @@
     "hexcode": "1F326",
     "tags": [
       "debesis",
+      "iš kurio lyja",
       "lietus",
-      "saulė"
+      "saulė",
+      "saulė už debesies"
     ],
     "emoji": "🌦️",
     "text": "🌦︎",
@@ -41482,6 +41481,7 @@
     "hexcode": "1F327",
     "tags": [
       "debesis",
+      "iš kurio lyja",
       "lietus"
     ],
     "emoji": "🌧️",
@@ -41497,6 +41497,7 @@
     "hexcode": "1F328",
     "tags": [
       "debesis",
+      "iš kurio sninga",
       "sniegas",
       "šaltis"
     ],
@@ -46352,14 +46353,12 @@
     "version": 0.6
   },
   {
-    "label": "broken chain",
+    "label": "nutraukta grandinė",
     "hexcode": "26D3-FE0F-200D-1F4A5",
     "tags": [
-      "bum",
       "grandinė",
-      "grandinės",
-      "komiksas",
-      "susidūrimas"
+      "laisvė",
+      "nutrūkusi"
     ],
     "emoji": "⛓️‍💥",
     "text": "",
@@ -47789,7 +47788,9 @@
     "label": "rodyklė į dešinę, užlenkta į kairę",
     "hexcode": "21A9",
     "tags": [
-      "rodyklė"
+      "rodyklė",
+      "rodyklė į dešinę",
+      "užlenkta į kairę"
     ],
     "emoji": "↩️",
     "text": "↩︎",
@@ -47803,7 +47804,9 @@
     "label": "rodyklė į kairę, užlenkta į dešinę",
     "hexcode": "21AA",
     "tags": [
-      "rodyklė"
+      "rodyklė",
+      "rodyklė į kairę",
+      "užlenkta į dešinę"
     ],
     "emoji": "↪️",
     "text": "↪︎",
@@ -47817,7 +47820,9 @@
     "label": "rodyklė į dešinę, užlenkta į viršų",
     "hexcode": "2934",
     "tags": [
-      "rodyklė"
+      "rodyklė",
+      "rodyklė į dešinę",
+      "užlenkta į viršų"
     ],
     "emoji": "⤴️",
     "text": "⤴︎",
@@ -47832,6 +47837,8 @@
     "hexcode": "2935",
     "tags": [
       "rodyklė",
+      "rodyklė į dešinę",
+      "užlenkta į apačią",
       "į apačią"
     ],
     "emoji": "⤵️",
@@ -50772,8 +50779,10 @@
     "label": "žydra, rožinė ir balta vėliava",
     "hexcode": "1F3F3-FE0F-200D-26A7-FE0F",
     "tags": [
+      "rožinė ir balta vėliava",
       "translytis",
-      "vėliava"
+      "vėliava",
+      "žydra"
     ],
     "emoji": "🏳️‍⚧️",
     "text": "",
@@ -50805,7 +50814,8 @@
     "hexcode": "1F1E6-1F1E8",
     "tags": [
       "AC",
-      "vėliava"
+      "vėliava",
+      "vėliava: dangun žengimo sala"
     ],
     "emoji": "🇦🇨",
     "text": "",
@@ -50820,7 +50830,8 @@
     "hexcode": "1F1E6-1F1E9",
     "tags": [
       "AD",
-      "vėliava"
+      "vėliava",
+      "vėliava: andora"
     ],
     "emoji": "🇦🇩",
     "text": "",
@@ -50835,7 +50846,8 @@
     "hexcode": "1F1E6-1F1EA",
     "tags": [
       "AE",
-      "vėliava"
+      "vėliava",
+      "vėliava: jungtiniai arabų emyratai"
     ],
     "emoji": "🇦🇪",
     "text": "",
@@ -50850,7 +50862,8 @@
     "hexcode": "1F1E6-1F1EB",
     "tags": [
       "AF",
-      "vėliava"
+      "vėliava",
+      "vėliava: afganistanas"
     ],
     "emoji": "🇦🇫",
     "text": "",
@@ -50865,7 +50878,8 @@
     "hexcode": "1F1E6-1F1EC",
     "tags": [
       "AG",
-      "vėliava"
+      "vėliava",
+      "vėliava: antigva ir barbuda"
     ],
     "emoji": "🇦🇬",
     "text": "",
@@ -50880,7 +50894,8 @@
     "hexcode": "1F1E6-1F1EE",
     "tags": [
       "AI",
-      "vėliava"
+      "vėliava",
+      "vėliava: angilija"
     ],
     "emoji": "🇦🇮",
     "text": "",
@@ -50895,7 +50910,8 @@
     "hexcode": "1F1E6-1F1F1",
     "tags": [
       "AL",
-      "vėliava"
+      "vėliava",
+      "vėliava: albanija"
     ],
     "emoji": "🇦🇱",
     "text": "",
@@ -50910,7 +50926,8 @@
     "hexcode": "1F1E6-1F1F2",
     "tags": [
       "AM",
-      "vėliava"
+      "vėliava",
+      "vėliava: armėnija"
     ],
     "emoji": "🇦🇲",
     "text": "",
@@ -50925,7 +50942,8 @@
     "hexcode": "1F1E6-1F1F4",
     "tags": [
       "AO",
-      "vėliava"
+      "vėliava",
+      "vėliava: angola"
     ],
     "emoji": "🇦🇴",
     "text": "",
@@ -50940,7 +50958,8 @@
     "hexcode": "1F1E6-1F1F6",
     "tags": [
       "AQ",
-      "vėliava"
+      "vėliava",
+      "vėliava: antarktida"
     ],
     "emoji": "🇦🇶",
     "text": "",
@@ -50955,7 +50974,8 @@
     "hexcode": "1F1E6-1F1F7",
     "tags": [
       "AR",
-      "vėliava"
+      "vėliava",
+      "vėliava: argentina"
     ],
     "emoji": "🇦🇷",
     "text": "",
@@ -50970,7 +50990,8 @@
     "hexcode": "1F1E6-1F1F8",
     "tags": [
       "AS",
-      "vėliava"
+      "vėliava",
+      "vėliava: amerikos samoa"
     ],
     "emoji": "🇦🇸",
     "text": "",
@@ -50985,7 +51006,8 @@
     "hexcode": "1F1E6-1F1F9",
     "tags": [
       "AT",
-      "vėliava"
+      "vėliava",
+      "vėliava: austrija"
     ],
     "emoji": "🇦🇹",
     "text": "",
@@ -51000,7 +51022,8 @@
     "hexcode": "1F1E6-1F1FA",
     "tags": [
       "AU",
-      "vėliava"
+      "vėliava",
+      "vėliava: australija"
     ],
     "emoji": "🇦🇺",
     "text": "",
@@ -51015,7 +51038,8 @@
     "hexcode": "1F1E6-1F1FC",
     "tags": [
       "AW",
-      "vėliava"
+      "vėliava",
+      "vėliava: aruba"
     ],
     "emoji": "🇦🇼",
     "text": "",
@@ -51030,7 +51054,8 @@
     "hexcode": "1F1E6-1F1FD",
     "tags": [
       "AX",
-      "vėliava"
+      "vėliava",
+      "vėliava: alandų salos"
     ],
     "emoji": "🇦🇽",
     "text": "",
@@ -51045,7 +51070,8 @@
     "hexcode": "1F1E6-1F1FF",
     "tags": [
       "AZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: azerbaidžanas"
     ],
     "emoji": "🇦🇿",
     "text": "",
@@ -51060,7 +51086,8 @@
     "hexcode": "1F1E7-1F1E6",
     "tags": [
       "BA",
-      "vėliava"
+      "vėliava",
+      "vėliava: bosnija ir hercegovina"
     ],
     "emoji": "🇧🇦",
     "text": "",
@@ -51075,7 +51102,8 @@
     "hexcode": "1F1E7-1F1E7",
     "tags": [
       "BB",
-      "vėliava"
+      "vėliava",
+      "vėliava: barbadosas"
     ],
     "emoji": "🇧🇧",
     "text": "",
@@ -51090,7 +51118,8 @@
     "hexcode": "1F1E7-1F1E9",
     "tags": [
       "BD",
-      "vėliava"
+      "vėliava",
+      "vėliava: bangladešas"
     ],
     "emoji": "🇧🇩",
     "text": "",
@@ -51105,7 +51134,8 @@
     "hexcode": "1F1E7-1F1EA",
     "tags": [
       "BE",
-      "vėliava"
+      "vėliava",
+      "vėliava: belgija"
     ],
     "emoji": "🇧🇪",
     "text": "",
@@ -51120,7 +51150,8 @@
     "hexcode": "1F1E7-1F1EB",
     "tags": [
       "BF",
-      "vėliava"
+      "vėliava",
+      "vėliava: burkina fasas"
     ],
     "emoji": "🇧🇫",
     "text": "",
@@ -51135,7 +51166,8 @@
     "hexcode": "1F1E7-1F1EC",
     "tags": [
       "BG",
-      "vėliava"
+      "vėliava",
+      "vėliava: bulgarija"
     ],
     "emoji": "🇧🇬",
     "text": "",
@@ -51150,7 +51182,8 @@
     "hexcode": "1F1E7-1F1ED",
     "tags": [
       "BH",
-      "vėliava"
+      "vėliava",
+      "vėliava: bahreinas"
     ],
     "emoji": "🇧🇭",
     "text": "",
@@ -51165,7 +51198,8 @@
     "hexcode": "1F1E7-1F1EE",
     "tags": [
       "BI",
-      "vėliava"
+      "vėliava",
+      "vėliava: burundis"
     ],
     "emoji": "🇧🇮",
     "text": "",
@@ -51180,7 +51214,8 @@
     "hexcode": "1F1E7-1F1EF",
     "tags": [
       "BJ",
-      "vėliava"
+      "vėliava",
+      "vėliava: beninas"
     ],
     "emoji": "🇧🇯",
     "text": "",
@@ -51195,7 +51230,8 @@
     "hexcode": "1F1E7-1F1F1",
     "tags": [
       "BL",
-      "vėliava"
+      "vėliava",
+      "vėliava: sen bartelemi"
     ],
     "emoji": "🇧🇱",
     "text": "",
@@ -51210,7 +51246,8 @@
     "hexcode": "1F1E7-1F1F2",
     "tags": [
       "BM",
-      "vėliava"
+      "vėliava",
+      "vėliava: bermuda"
     ],
     "emoji": "🇧🇲",
     "text": "",
@@ -51225,7 +51262,8 @@
     "hexcode": "1F1E7-1F1F3",
     "tags": [
       "BN",
-      "vėliava"
+      "vėliava",
+      "vėliava: brunėjus"
     ],
     "emoji": "🇧🇳",
     "text": "",
@@ -51240,7 +51278,8 @@
     "hexcode": "1F1E7-1F1F4",
     "tags": [
       "BO",
-      "vėliava"
+      "vėliava",
+      "vėliava: bolivija"
     ],
     "emoji": "🇧🇴",
     "text": "",
@@ -51255,7 +51294,8 @@
     "hexcode": "1F1E7-1F1F6",
     "tags": [
       "BQ",
-      "vėliava"
+      "vėliava",
+      "vėliava: karibų nyderlandai"
     ],
     "emoji": "🇧🇶",
     "text": "",
@@ -51270,7 +51310,8 @@
     "hexcode": "1F1E7-1F1F7",
     "tags": [
       "BR",
-      "vėliava"
+      "vėliava",
+      "vėliava: brazilija"
     ],
     "emoji": "🇧🇷",
     "text": "",
@@ -51285,7 +51326,8 @@
     "hexcode": "1F1E7-1F1F8",
     "tags": [
       "BS",
-      "vėliava"
+      "vėliava",
+      "vėliava: bahamos"
     ],
     "emoji": "🇧🇸",
     "text": "",
@@ -51300,7 +51342,8 @@
     "hexcode": "1F1E7-1F1F9",
     "tags": [
       "BT",
-      "vėliava"
+      "vėliava",
+      "vėliava: butanas"
     ],
     "emoji": "🇧🇹",
     "text": "",
@@ -51315,7 +51358,8 @@
     "hexcode": "1F1E7-1F1FB",
     "tags": [
       "BV",
-      "vėliava"
+      "vėliava",
+      "vėliava: buvė sala"
     ],
     "emoji": "🇧🇻",
     "text": "",
@@ -51330,7 +51374,8 @@
     "hexcode": "1F1E7-1F1FC",
     "tags": [
       "BW",
-      "vėliava"
+      "vėliava",
+      "vėliava: botsvana"
     ],
     "emoji": "🇧🇼",
     "text": "",
@@ -51345,7 +51390,8 @@
     "hexcode": "1F1E7-1F1FE",
     "tags": [
       "BY",
-      "vėliava"
+      "vėliava",
+      "vėliava: baltarusija"
     ],
     "emoji": "🇧🇾",
     "text": "",
@@ -51360,7 +51406,8 @@
     "hexcode": "1F1E7-1F1FF",
     "tags": [
       "BZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: belizas"
     ],
     "emoji": "🇧🇿",
     "text": "",
@@ -51375,7 +51422,8 @@
     "hexcode": "1F1E8-1F1E6",
     "tags": [
       "CA",
-      "vėliava"
+      "vėliava",
+      "vėliava: kanada"
     ],
     "emoji": "🇨🇦",
     "text": "",
@@ -51390,7 +51438,8 @@
     "hexcode": "1F1E8-1F1E8",
     "tags": [
       "CC",
-      "vėliava"
+      "vėliava",
+      "vėliava: kokosų (kilingo) salos"
     ],
     "emoji": "🇨🇨",
     "text": "",
@@ -51405,7 +51454,8 @@
     "hexcode": "1F1E8-1F1E9",
     "tags": [
       "CD",
-      "vėliava"
+      "vėliava",
+      "vėliava: kongas-kinšasa"
     ],
     "emoji": "🇨🇩",
     "text": "",
@@ -51420,7 +51470,8 @@
     "hexcode": "1F1E8-1F1EB",
     "tags": [
       "CF",
-      "vėliava"
+      "vėliava",
+      "vėliava: centrinės afrikos respublika"
     ],
     "emoji": "🇨🇫",
     "text": "",
@@ -51435,7 +51486,8 @@
     "hexcode": "1F1E8-1F1EC",
     "tags": [
       "CG",
-      "vėliava"
+      "vėliava",
+      "vėliava: kongas-brazavilis"
     ],
     "emoji": "🇨🇬",
     "text": "",
@@ -51450,7 +51502,8 @@
     "hexcode": "1F1E8-1F1ED",
     "tags": [
       "CH",
-      "vėliava"
+      "vėliava",
+      "vėliava: šveicarija"
     ],
     "emoji": "🇨🇭",
     "text": "",
@@ -51465,7 +51518,8 @@
     "hexcode": "1F1E8-1F1EE",
     "tags": [
       "CI",
-      "vėliava"
+      "vėliava",
+      "vėliava: dramblio kaulo krantas"
     ],
     "emoji": "🇨🇮",
     "text": "",
@@ -51480,7 +51534,8 @@
     "hexcode": "1F1E8-1F1F0",
     "tags": [
       "CK",
-      "vėliava"
+      "vėliava",
+      "vėliava: kuko salos"
     ],
     "emoji": "🇨🇰",
     "text": "",
@@ -51495,7 +51550,8 @@
     "hexcode": "1F1E8-1F1F1",
     "tags": [
       "CL",
-      "vėliava"
+      "vėliava",
+      "vėliava: čilė"
     ],
     "emoji": "🇨🇱",
     "text": "",
@@ -51510,7 +51566,8 @@
     "hexcode": "1F1E8-1F1F2",
     "tags": [
       "CM",
-      "vėliava"
+      "vėliava",
+      "vėliava: kamerūnas"
     ],
     "emoji": "🇨🇲",
     "text": "",
@@ -51525,7 +51582,8 @@
     "hexcode": "1F1E8-1F1F3",
     "tags": [
       "CN",
-      "vėliava"
+      "vėliava",
+      "vėliava: kinija"
     ],
     "emoji": "🇨🇳",
     "text": "",
@@ -51540,7 +51598,8 @@
     "hexcode": "1F1E8-1F1F4",
     "tags": [
       "CO",
-      "vėliava"
+      "vėliava",
+      "vėliava: kolumbija"
     ],
     "emoji": "🇨🇴",
     "text": "",
@@ -51555,7 +51614,8 @@
     "hexcode": "1F1E8-1F1F5",
     "tags": [
       "CP",
-      "vėliava"
+      "vėliava",
+      "vėliava: klipertono sala"
     ],
     "emoji": "🇨🇵",
     "text": "",
@@ -51570,7 +51630,8 @@
     "hexcode": "1F1E8-1F1F7",
     "tags": [
       "CR",
-      "vėliava"
+      "vėliava",
+      "vėliava: kosta rika"
     ],
     "emoji": "🇨🇷",
     "text": "",
@@ -51585,7 +51646,8 @@
     "hexcode": "1F1E8-1F1FA",
     "tags": [
       "CU",
-      "vėliava"
+      "vėliava",
+      "vėliava: kuba"
     ],
     "emoji": "🇨🇺",
     "text": "",
@@ -51600,7 +51662,8 @@
     "hexcode": "1F1E8-1F1FB",
     "tags": [
       "CV",
-      "vėliava"
+      "vėliava",
+      "vėliava: žaliasis kyšulys"
     ],
     "emoji": "🇨🇻",
     "text": "",
@@ -51615,7 +51678,8 @@
     "hexcode": "1F1E8-1F1FC",
     "tags": [
       "CW",
-      "vėliava"
+      "vėliava",
+      "vėliava: kiurasao"
     ],
     "emoji": "🇨🇼",
     "text": "",
@@ -51630,7 +51694,8 @@
     "hexcode": "1F1E8-1F1FD",
     "tags": [
       "CX",
-      "vėliava"
+      "vėliava",
+      "vėliava: kalėdų sala"
     ],
     "emoji": "🇨🇽",
     "text": "",
@@ -51645,7 +51710,8 @@
     "hexcode": "1F1E8-1F1FE",
     "tags": [
       "CY",
-      "vėliava"
+      "vėliava",
+      "vėliava: kipras"
     ],
     "emoji": "🇨🇾",
     "text": "",
@@ -51660,7 +51726,8 @@
     "hexcode": "1F1E8-1F1FF",
     "tags": [
       "CZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: čekija"
     ],
     "emoji": "🇨🇿",
     "text": "",
@@ -51675,7 +51742,8 @@
     "hexcode": "1F1E9-1F1EA",
     "tags": [
       "DE",
-      "vėliava"
+      "vėliava",
+      "vėliava: vokietija"
     ],
     "emoji": "🇩🇪",
     "text": "",
@@ -51690,7 +51758,8 @@
     "hexcode": "1F1E9-1F1EC",
     "tags": [
       "DG",
-      "vėliava"
+      "vėliava",
+      "vėliava: diego garsija"
     ],
     "emoji": "🇩🇬",
     "text": "",
@@ -51705,7 +51774,8 @@
     "hexcode": "1F1E9-1F1EF",
     "tags": [
       "DJ",
-      "vėliava"
+      "vėliava",
+      "vėliava: džibutis"
     ],
     "emoji": "🇩🇯",
     "text": "",
@@ -51720,7 +51790,8 @@
     "hexcode": "1F1E9-1F1F0",
     "tags": [
       "DK",
-      "vėliava"
+      "vėliava",
+      "vėliava: danija"
     ],
     "emoji": "🇩🇰",
     "text": "",
@@ -51735,7 +51806,8 @@
     "hexcode": "1F1E9-1F1F2",
     "tags": [
       "DM",
-      "vėliava"
+      "vėliava",
+      "vėliava: dominika"
     ],
     "emoji": "🇩🇲",
     "text": "",
@@ -51750,7 +51822,8 @@
     "hexcode": "1F1E9-1F1F4",
     "tags": [
       "DO",
-      "vėliava"
+      "vėliava",
+      "vėliava: dominikos respublika"
     ],
     "emoji": "🇩🇴",
     "text": "",
@@ -51765,7 +51838,8 @@
     "hexcode": "1F1E9-1F1FF",
     "tags": [
       "DZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: alžyras"
     ],
     "emoji": "🇩🇿",
     "text": "",
@@ -51780,7 +51854,8 @@
     "hexcode": "1F1EA-1F1E6",
     "tags": [
       "EA",
-      "vėliava"
+      "vėliava",
+      "vėliava: seuta ir melila"
     ],
     "emoji": "🇪🇦",
     "text": "",
@@ -51795,7 +51870,8 @@
     "hexcode": "1F1EA-1F1E8",
     "tags": [
       "EC",
-      "vėliava"
+      "vėliava",
+      "vėliava: ekvadoras"
     ],
     "emoji": "🇪🇨",
     "text": "",
@@ -51810,7 +51886,8 @@
     "hexcode": "1F1EA-1F1EA",
     "tags": [
       "EE",
-      "vėliava"
+      "vėliava",
+      "vėliava: estija"
     ],
     "emoji": "🇪🇪",
     "text": "",
@@ -51825,7 +51902,8 @@
     "hexcode": "1F1EA-1F1EC",
     "tags": [
       "EG",
-      "vėliava"
+      "vėliava",
+      "vėliava: egiptas"
     ],
     "emoji": "🇪🇬",
     "text": "",
@@ -51840,7 +51918,8 @@
     "hexcode": "1F1EA-1F1ED",
     "tags": [
       "EH",
-      "vėliava"
+      "vėliava",
+      "vėliava: vakarų sachara"
     ],
     "emoji": "🇪🇭",
     "text": "",
@@ -51855,7 +51934,8 @@
     "hexcode": "1F1EA-1F1F7",
     "tags": [
       "ER",
-      "vėliava"
+      "vėliava",
+      "vėliava: eritrėja"
     ],
     "emoji": "🇪🇷",
     "text": "",
@@ -51870,7 +51950,8 @@
     "hexcode": "1F1EA-1F1F8",
     "tags": [
       "ES",
-      "vėliava"
+      "vėliava",
+      "vėliava: ispanija"
     ],
     "emoji": "🇪🇸",
     "text": "",
@@ -51885,7 +51966,8 @@
     "hexcode": "1F1EA-1F1F9",
     "tags": [
       "ET",
-      "vėliava"
+      "vėliava",
+      "vėliava: etiopija"
     ],
     "emoji": "🇪🇹",
     "text": "",
@@ -51900,7 +51982,8 @@
     "hexcode": "1F1EA-1F1FA",
     "tags": [
       "EU",
-      "vėliava"
+      "vėliava",
+      "vėliava: europos sąjunga"
     ],
     "emoji": "🇪🇺",
     "text": "",
@@ -51915,7 +51998,8 @@
     "hexcode": "1F1EB-1F1EE",
     "tags": [
       "FI",
-      "vėliava"
+      "vėliava",
+      "vėliava: suomija"
     ],
     "emoji": "🇫🇮",
     "text": "",
@@ -51930,7 +52014,8 @@
     "hexcode": "1F1EB-1F1EF",
     "tags": [
       "FJ",
-      "vėliava"
+      "vėliava",
+      "vėliava: fidžis"
     ],
     "emoji": "🇫🇯",
     "text": "",
@@ -51945,7 +52030,8 @@
     "hexcode": "1F1EB-1F1F0",
     "tags": [
       "FK",
-      "vėliava"
+      "vėliava",
+      "vėliava: folklando salos"
     ],
     "emoji": "🇫🇰",
     "text": "",
@@ -51960,7 +52046,8 @@
     "hexcode": "1F1EB-1F1F2",
     "tags": [
       "FM",
-      "vėliava"
+      "vėliava",
+      "vėliava: mikronezija"
     ],
     "emoji": "🇫🇲",
     "text": "",
@@ -51975,7 +52062,8 @@
     "hexcode": "1F1EB-1F1F4",
     "tags": [
       "FO",
-      "vėliava"
+      "vėliava",
+      "vėliava: farerų salos"
     ],
     "emoji": "🇫🇴",
     "text": "",
@@ -51990,7 +52078,8 @@
     "hexcode": "1F1EB-1F1F7",
     "tags": [
       "FR",
-      "vėliava"
+      "vėliava",
+      "vėliava: prancūzija"
     ],
     "emoji": "🇫🇷",
     "text": "",
@@ -52005,7 +52094,8 @@
     "hexcode": "1F1EC-1F1E6",
     "tags": [
       "GA",
-      "vėliava"
+      "vėliava",
+      "vėliava: gabonas"
     ],
     "emoji": "🇬🇦",
     "text": "",
@@ -52020,7 +52110,8 @@
     "hexcode": "1F1EC-1F1E7",
     "tags": [
       "GB",
-      "vėliava"
+      "vėliava",
+      "vėliava: jungtinė karalystė"
     ],
     "emoji": "🇬🇧",
     "text": "",
@@ -52035,7 +52126,8 @@
     "hexcode": "1F1EC-1F1E9",
     "tags": [
       "GD",
-      "vėliava"
+      "vėliava",
+      "vėliava: grenada"
     ],
     "emoji": "🇬🇩",
     "text": "",
@@ -52050,7 +52142,8 @@
     "hexcode": "1F1EC-1F1EA",
     "tags": [
       "GE",
-      "vėliava"
+      "vėliava",
+      "vėliava: gruzija"
     ],
     "emoji": "🇬🇪",
     "text": "",
@@ -52065,7 +52158,8 @@
     "hexcode": "1F1EC-1F1EB",
     "tags": [
       "GF",
-      "vėliava"
+      "vėliava",
+      "vėliava: prancūzijos gviana"
     ],
     "emoji": "🇬🇫",
     "text": "",
@@ -52080,7 +52174,8 @@
     "hexcode": "1F1EC-1F1EC",
     "tags": [
       "GG",
-      "vėliava"
+      "vėliava",
+      "vėliava: gernsis"
     ],
     "emoji": "🇬🇬",
     "text": "",
@@ -52095,7 +52190,8 @@
     "hexcode": "1F1EC-1F1ED",
     "tags": [
       "GH",
-      "vėliava"
+      "vėliava",
+      "vėliava: gana"
     ],
     "emoji": "🇬🇭",
     "text": "",
@@ -52110,7 +52206,8 @@
     "hexcode": "1F1EC-1F1EE",
     "tags": [
       "GI",
-      "vėliava"
+      "vėliava",
+      "vėliava: gibraltaras"
     ],
     "emoji": "🇬🇮",
     "text": "",
@@ -52125,7 +52222,8 @@
     "hexcode": "1F1EC-1F1F1",
     "tags": [
       "GL",
-      "vėliava"
+      "vėliava",
+      "vėliava: grenlandija"
     ],
     "emoji": "🇬🇱",
     "text": "",
@@ -52140,7 +52238,8 @@
     "hexcode": "1F1EC-1F1F2",
     "tags": [
       "GM",
-      "vėliava"
+      "vėliava",
+      "vėliava: gambija"
     ],
     "emoji": "🇬🇲",
     "text": "",
@@ -52155,7 +52254,8 @@
     "hexcode": "1F1EC-1F1F3",
     "tags": [
       "GN",
-      "vėliava"
+      "vėliava",
+      "vėliava: gvinėja"
     ],
     "emoji": "🇬🇳",
     "text": "",
@@ -52170,7 +52270,8 @@
     "hexcode": "1F1EC-1F1F5",
     "tags": [
       "GP",
-      "vėliava"
+      "vėliava",
+      "vėliava: gvadelupa"
     ],
     "emoji": "🇬🇵",
     "text": "",
@@ -52185,7 +52286,8 @@
     "hexcode": "1F1EC-1F1F6",
     "tags": [
       "GQ",
-      "vėliava"
+      "vėliava",
+      "vėliava: pusiaujo gvinėja"
     ],
     "emoji": "🇬🇶",
     "text": "",
@@ -52200,7 +52302,8 @@
     "hexcode": "1F1EC-1F1F7",
     "tags": [
       "GR",
-      "vėliava"
+      "vėliava",
+      "vėliava: graikija"
     ],
     "emoji": "🇬🇷",
     "text": "",
@@ -52215,7 +52318,8 @@
     "hexcode": "1F1EC-1F1F8",
     "tags": [
       "GS",
-      "vėliava"
+      "vėliava",
+      "vėliava: pietų džordžija ir pietų sandvičo salos"
     ],
     "emoji": "🇬🇸",
     "text": "",
@@ -52230,7 +52334,8 @@
     "hexcode": "1F1EC-1F1F9",
     "tags": [
       "GT",
-      "vėliava"
+      "vėliava",
+      "vėliava: gvatemala"
     ],
     "emoji": "🇬🇹",
     "text": "",
@@ -52245,7 +52350,8 @@
     "hexcode": "1F1EC-1F1FA",
     "tags": [
       "GU",
-      "vėliava"
+      "vėliava",
+      "vėliava: guamas"
     ],
     "emoji": "🇬🇺",
     "text": "",
@@ -52260,7 +52366,8 @@
     "hexcode": "1F1EC-1F1FC",
     "tags": [
       "GW",
-      "vėliava"
+      "vėliava",
+      "vėliava: bisau gvinėja"
     ],
     "emoji": "🇬🇼",
     "text": "",
@@ -52275,7 +52382,8 @@
     "hexcode": "1F1EC-1F1FE",
     "tags": [
       "GY",
-      "vėliava"
+      "vėliava",
+      "vėliava: gajana"
     ],
     "emoji": "🇬🇾",
     "text": "",
@@ -52290,7 +52398,8 @@
     "hexcode": "1F1ED-1F1F0",
     "tags": [
       "HK",
-      "vėliava"
+      "vėliava",
+      "vėliava: ypatingasis administracinis kinijos regionas honkongas"
     ],
     "emoji": "🇭🇰",
     "text": "",
@@ -52305,7 +52414,8 @@
     "hexcode": "1F1ED-1F1F2",
     "tags": [
       "HM",
-      "vėliava"
+      "vėliava",
+      "vėliava: herdo ir makdonaldo salos"
     ],
     "emoji": "🇭🇲",
     "text": "",
@@ -52320,7 +52430,8 @@
     "hexcode": "1F1ED-1F1F3",
     "tags": [
       "HN",
-      "vėliava"
+      "vėliava",
+      "vėliava: hondūras"
     ],
     "emoji": "🇭🇳",
     "text": "",
@@ -52335,7 +52446,8 @@
     "hexcode": "1F1ED-1F1F7",
     "tags": [
       "HR",
-      "vėliava"
+      "vėliava",
+      "vėliava: kroatija"
     ],
     "emoji": "🇭🇷",
     "text": "",
@@ -52350,7 +52462,8 @@
     "hexcode": "1F1ED-1F1F9",
     "tags": [
       "HT",
-      "vėliava"
+      "vėliava",
+      "vėliava: haitis"
     ],
     "emoji": "🇭🇹",
     "text": "",
@@ -52365,7 +52478,8 @@
     "hexcode": "1F1ED-1F1FA",
     "tags": [
       "HU",
-      "vėliava"
+      "vėliava",
+      "vėliava: vengrija"
     ],
     "emoji": "🇭🇺",
     "text": "",
@@ -52380,7 +52494,8 @@
     "hexcode": "1F1EE-1F1E8",
     "tags": [
       "IC",
-      "vėliava"
+      "vėliava",
+      "vėliava: kanarų salos"
     ],
     "emoji": "🇮🇨",
     "text": "",
@@ -52395,7 +52510,8 @@
     "hexcode": "1F1EE-1F1E9",
     "tags": [
       "ID",
-      "vėliava"
+      "vėliava",
+      "vėliava: indonezija"
     ],
     "emoji": "🇮🇩",
     "text": "",
@@ -52410,7 +52526,8 @@
     "hexcode": "1F1EE-1F1EA",
     "tags": [
       "IE",
-      "vėliava"
+      "vėliava",
+      "vėliava: airija"
     ],
     "emoji": "🇮🇪",
     "text": "",
@@ -52425,7 +52542,8 @@
     "hexcode": "1F1EE-1F1F1",
     "tags": [
       "IL",
-      "vėliava"
+      "vėliava",
+      "vėliava: izraelis"
     ],
     "emoji": "🇮🇱",
     "text": "",
@@ -52440,7 +52558,8 @@
     "hexcode": "1F1EE-1F1F2",
     "tags": [
       "IM",
-      "vėliava"
+      "vėliava",
+      "vėliava: meno sala"
     ],
     "emoji": "🇮🇲",
     "text": "",
@@ -52455,7 +52574,8 @@
     "hexcode": "1F1EE-1F1F3",
     "tags": [
       "IN",
-      "vėliava"
+      "vėliava",
+      "vėliava: indija"
     ],
     "emoji": "🇮🇳",
     "text": "",
@@ -52470,7 +52590,8 @@
     "hexcode": "1F1EE-1F1F4",
     "tags": [
       "IO",
-      "vėliava"
+      "vėliava",
+      "vėliava: indijos vandenyno britų sritis"
     ],
     "emoji": "🇮🇴",
     "text": "",
@@ -52485,7 +52606,8 @@
     "hexcode": "1F1EE-1F1F6",
     "tags": [
       "IQ",
-      "vėliava"
+      "vėliava",
+      "vėliava: irakas"
     ],
     "emoji": "🇮🇶",
     "text": "",
@@ -52500,7 +52622,8 @@
     "hexcode": "1F1EE-1F1F7",
     "tags": [
       "IR",
-      "vėliava"
+      "vėliava",
+      "vėliava: iranas"
     ],
     "emoji": "🇮🇷",
     "text": "",
@@ -52515,7 +52638,8 @@
     "hexcode": "1F1EE-1F1F8",
     "tags": [
       "IS",
-      "vėliava"
+      "vėliava",
+      "vėliava: islandija"
     ],
     "emoji": "🇮🇸",
     "text": "",
@@ -52530,7 +52654,8 @@
     "hexcode": "1F1EE-1F1F9",
     "tags": [
       "IT",
-      "vėliava"
+      "vėliava",
+      "vėliava: italija"
     ],
     "emoji": "🇮🇹",
     "text": "",
@@ -52545,7 +52670,8 @@
     "hexcode": "1F1EF-1F1EA",
     "tags": [
       "JE",
-      "vėliava"
+      "vėliava",
+      "vėliava: džersis"
     ],
     "emoji": "🇯🇪",
     "text": "",
@@ -52560,7 +52686,8 @@
     "hexcode": "1F1EF-1F1F2",
     "tags": [
       "JM",
-      "vėliava"
+      "vėliava",
+      "vėliava: jamaika"
     ],
     "emoji": "🇯🇲",
     "text": "",
@@ -52575,7 +52702,8 @@
     "hexcode": "1F1EF-1F1F4",
     "tags": [
       "JO",
-      "vėliava"
+      "vėliava",
+      "vėliava: jordanija"
     ],
     "emoji": "🇯🇴",
     "text": "",
@@ -52590,7 +52718,8 @@
     "hexcode": "1F1EF-1F1F5",
     "tags": [
       "JP",
-      "vėliava"
+      "vėliava",
+      "vėliava: japonija"
     ],
     "emoji": "🇯🇵",
     "text": "",
@@ -52605,7 +52734,8 @@
     "hexcode": "1F1F0-1F1EA",
     "tags": [
       "KE",
-      "vėliava"
+      "vėliava",
+      "vėliava: kenija"
     ],
     "emoji": "🇰🇪",
     "text": "",
@@ -52620,7 +52750,8 @@
     "hexcode": "1F1F0-1F1EC",
     "tags": [
       "KG",
-      "vėliava"
+      "vėliava",
+      "vėliava: kirgizija"
     ],
     "emoji": "🇰🇬",
     "text": "",
@@ -52635,7 +52766,8 @@
     "hexcode": "1F1F0-1F1ED",
     "tags": [
       "KH",
-      "vėliava"
+      "vėliava",
+      "vėliava: kambodža"
     ],
     "emoji": "🇰🇭",
     "text": "",
@@ -52650,7 +52782,8 @@
     "hexcode": "1F1F0-1F1EE",
     "tags": [
       "KI",
-      "vėliava"
+      "vėliava",
+      "vėliava: kiribatis"
     ],
     "emoji": "🇰🇮",
     "text": "",
@@ -52665,7 +52798,8 @@
     "hexcode": "1F1F0-1F1F2",
     "tags": [
       "KM",
-      "vėliava"
+      "vėliava",
+      "vėliava: komorai"
     ],
     "emoji": "🇰🇲",
     "text": "",
@@ -52680,7 +52814,8 @@
     "hexcode": "1F1F0-1F1F3",
     "tags": [
       "KN",
-      "vėliava"
+      "vėliava",
+      "vėliava: sent kitsas ir nevis"
     ],
     "emoji": "🇰🇳",
     "text": "",
@@ -52695,7 +52830,8 @@
     "hexcode": "1F1F0-1F1F5",
     "tags": [
       "KP",
-      "vėliava"
+      "vėliava",
+      "vėliava: šiaurės korėja"
     ],
     "emoji": "🇰🇵",
     "text": "",
@@ -52710,7 +52846,8 @@
     "hexcode": "1F1F0-1F1F7",
     "tags": [
       "KR",
-      "vėliava"
+      "vėliava",
+      "vėliava: pietų korėja"
     ],
     "emoji": "🇰🇷",
     "text": "",
@@ -52725,7 +52862,8 @@
     "hexcode": "1F1F0-1F1FC",
     "tags": [
       "KW",
-      "vėliava"
+      "vėliava",
+      "vėliava: kuveitas"
     ],
     "emoji": "🇰🇼",
     "text": "",
@@ -52740,7 +52878,8 @@
     "hexcode": "1F1F0-1F1FE",
     "tags": [
       "KY",
-      "vėliava"
+      "vėliava",
+      "vėliava: kaimanų salos"
     ],
     "emoji": "🇰🇾",
     "text": "",
@@ -52755,7 +52894,8 @@
     "hexcode": "1F1F0-1F1FF",
     "tags": [
       "KZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: kazachstanas"
     ],
     "emoji": "🇰🇿",
     "text": "",
@@ -52770,7 +52910,8 @@
     "hexcode": "1F1F1-1F1E6",
     "tags": [
       "LA",
-      "vėliava"
+      "vėliava",
+      "vėliava: laosas"
     ],
     "emoji": "🇱🇦",
     "text": "",
@@ -52785,7 +52926,8 @@
     "hexcode": "1F1F1-1F1E7",
     "tags": [
       "LB",
-      "vėliava"
+      "vėliava",
+      "vėliava: libanas"
     ],
     "emoji": "🇱🇧",
     "text": "",
@@ -52800,7 +52942,8 @@
     "hexcode": "1F1F1-1F1E8",
     "tags": [
       "LC",
-      "vėliava"
+      "vėliava",
+      "vėliava: sent lusija"
     ],
     "emoji": "🇱🇨",
     "text": "",
@@ -52815,7 +52958,8 @@
     "hexcode": "1F1F1-1F1EE",
     "tags": [
       "LI",
-      "vėliava"
+      "vėliava",
+      "vėliava: lichtenšteinas"
     ],
     "emoji": "🇱🇮",
     "text": "",
@@ -52830,7 +52974,8 @@
     "hexcode": "1F1F1-1F1F0",
     "tags": [
       "LK",
-      "vėliava"
+      "vėliava",
+      "vėliava: šri lanka"
     ],
     "emoji": "🇱🇰",
     "text": "",
@@ -52845,7 +52990,8 @@
     "hexcode": "1F1F1-1F1F7",
     "tags": [
       "LR",
-      "vėliava"
+      "vėliava",
+      "vėliava: liberija"
     ],
     "emoji": "🇱🇷",
     "text": "",
@@ -52860,7 +53006,8 @@
     "hexcode": "1F1F1-1F1F8",
     "tags": [
       "LS",
-      "vėliava"
+      "vėliava",
+      "vėliava: lesotas"
     ],
     "emoji": "🇱🇸",
     "text": "",
@@ -52875,7 +53022,8 @@
     "hexcode": "1F1F1-1F1F9",
     "tags": [
       "LT",
-      "vėliava"
+      "vėliava",
+      "vėliava: lietuva"
     ],
     "emoji": "🇱🇹",
     "text": "",
@@ -52890,7 +53038,8 @@
     "hexcode": "1F1F1-1F1FA",
     "tags": [
       "LU",
-      "vėliava"
+      "vėliava",
+      "vėliava: liuksemburgas"
     ],
     "emoji": "🇱🇺",
     "text": "",
@@ -52905,7 +53054,8 @@
     "hexcode": "1F1F1-1F1FB",
     "tags": [
       "LV",
-      "vėliava"
+      "vėliava",
+      "vėliava: latvija"
     ],
     "emoji": "🇱🇻",
     "text": "",
@@ -52920,7 +53070,8 @@
     "hexcode": "1F1F1-1F1FE",
     "tags": [
       "LY",
-      "vėliava"
+      "vėliava",
+      "vėliava: libija"
     ],
     "emoji": "🇱🇾",
     "text": "",
@@ -52935,7 +53086,8 @@
     "hexcode": "1F1F2-1F1E6",
     "tags": [
       "MA",
-      "vėliava"
+      "vėliava",
+      "vėliava: marokas"
     ],
     "emoji": "🇲🇦",
     "text": "",
@@ -52950,7 +53102,8 @@
     "hexcode": "1F1F2-1F1E8",
     "tags": [
       "MC",
-      "vėliava"
+      "vėliava",
+      "vėliava: monakas"
     ],
     "emoji": "🇲🇨",
     "text": "",
@@ -52965,7 +53118,8 @@
     "hexcode": "1F1F2-1F1E9",
     "tags": [
       "MD",
-      "vėliava"
+      "vėliava",
+      "vėliava: moldova"
     ],
     "emoji": "🇲🇩",
     "text": "",
@@ -52980,7 +53134,8 @@
     "hexcode": "1F1F2-1F1EA",
     "tags": [
       "ME",
-      "vėliava"
+      "vėliava",
+      "vėliava: juodkalnija"
     ],
     "emoji": "🇲🇪",
     "text": "",
@@ -52995,7 +53150,8 @@
     "hexcode": "1F1F2-1F1EB",
     "tags": [
       "MF",
-      "vėliava"
+      "vėliava",
+      "vėliava: sen martenas"
     ],
     "emoji": "🇲🇫",
     "text": "",
@@ -53010,7 +53166,8 @@
     "hexcode": "1F1F2-1F1EC",
     "tags": [
       "MG",
-      "vėliava"
+      "vėliava",
+      "vėliava: madagaskaras"
     ],
     "emoji": "🇲🇬",
     "text": "",
@@ -53025,7 +53182,8 @@
     "hexcode": "1F1F2-1F1ED",
     "tags": [
       "MH",
-      "vėliava"
+      "vėliava",
+      "vėliava: maršalo salos"
     ],
     "emoji": "🇲🇭",
     "text": "",
@@ -53040,7 +53198,8 @@
     "hexcode": "1F1F2-1F1F0",
     "tags": [
       "MK",
-      "vėliava"
+      "vėliava",
+      "vėliava: šiaurės makedonija"
     ],
     "emoji": "🇲🇰",
     "text": "",
@@ -53055,7 +53214,8 @@
     "hexcode": "1F1F2-1F1F1",
     "tags": [
       "ML",
-      "vėliava"
+      "vėliava",
+      "vėliava: malis"
     ],
     "emoji": "🇲🇱",
     "text": "",
@@ -53070,7 +53230,8 @@
     "hexcode": "1F1F2-1F1F2",
     "tags": [
       "MM",
-      "vėliava"
+      "vėliava",
+      "vėliava: mianmaras (birma)"
     ],
     "emoji": "🇲🇲",
     "text": "",
@@ -53085,7 +53246,8 @@
     "hexcode": "1F1F2-1F1F3",
     "tags": [
       "MN",
-      "vėliava"
+      "vėliava",
+      "vėliava: mongolija"
     ],
     "emoji": "🇲🇳",
     "text": "",
@@ -53100,7 +53262,8 @@
     "hexcode": "1F1F2-1F1F4",
     "tags": [
       "MO",
-      "vėliava"
+      "vėliava",
+      "vėliava: ypatingasis administracinis kinijos regionas makao"
     ],
     "emoji": "🇲🇴",
     "text": "",
@@ -53115,7 +53278,8 @@
     "hexcode": "1F1F2-1F1F5",
     "tags": [
       "MP",
-      "vėliava"
+      "vėliava",
+      "vėliava: marianos šiaurinės salos"
     ],
     "emoji": "🇲🇵",
     "text": "",
@@ -53130,7 +53294,8 @@
     "hexcode": "1F1F2-1F1F6",
     "tags": [
       "MQ",
-      "vėliava"
+      "vėliava",
+      "vėliava: martinika"
     ],
     "emoji": "🇲🇶",
     "text": "",
@@ -53145,7 +53310,8 @@
     "hexcode": "1F1F2-1F1F7",
     "tags": [
       "MR",
-      "vėliava"
+      "vėliava",
+      "vėliava: mauritanija"
     ],
     "emoji": "🇲🇷",
     "text": "",
@@ -53160,7 +53326,8 @@
     "hexcode": "1F1F2-1F1F8",
     "tags": [
       "MS",
-      "vėliava"
+      "vėliava",
+      "vėliava: montseratas"
     ],
     "emoji": "🇲🇸",
     "text": "",
@@ -53175,7 +53342,8 @@
     "hexcode": "1F1F2-1F1F9",
     "tags": [
       "MT",
-      "vėliava"
+      "vėliava",
+      "vėliava: malta"
     ],
     "emoji": "🇲🇹",
     "text": "",
@@ -53190,7 +53358,8 @@
     "hexcode": "1F1F2-1F1FA",
     "tags": [
       "MU",
-      "vėliava"
+      "vėliava",
+      "vėliava: mauricijus"
     ],
     "emoji": "🇲🇺",
     "text": "",
@@ -53205,7 +53374,8 @@
     "hexcode": "1F1F2-1F1FB",
     "tags": [
       "MV",
-      "vėliava"
+      "vėliava",
+      "vėliava: maldyvai"
     ],
     "emoji": "🇲🇻",
     "text": "",
@@ -53220,7 +53390,8 @@
     "hexcode": "1F1F2-1F1FC",
     "tags": [
       "MW",
-      "vėliava"
+      "vėliava",
+      "vėliava: malavis"
     ],
     "emoji": "🇲🇼",
     "text": "",
@@ -53235,7 +53406,8 @@
     "hexcode": "1F1F2-1F1FD",
     "tags": [
       "MX",
-      "vėliava"
+      "vėliava",
+      "vėliava: meksika"
     ],
     "emoji": "🇲🇽",
     "text": "",
@@ -53250,7 +53422,8 @@
     "hexcode": "1F1F2-1F1FE",
     "tags": [
       "MY",
-      "vėliava"
+      "vėliava",
+      "vėliava: malaizija"
     ],
     "emoji": "🇲🇾",
     "text": "",
@@ -53265,7 +53438,8 @@
     "hexcode": "1F1F2-1F1FF",
     "tags": [
       "MZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: mozambikas"
     ],
     "emoji": "🇲🇿",
     "text": "",
@@ -53280,7 +53454,8 @@
     "hexcode": "1F1F3-1F1E6",
     "tags": [
       "NA",
-      "vėliava"
+      "vėliava",
+      "vėliava: namibija"
     ],
     "emoji": "🇳🇦",
     "text": "",
@@ -53295,7 +53470,8 @@
     "hexcode": "1F1F3-1F1E8",
     "tags": [
       "NC",
-      "vėliava"
+      "vėliava",
+      "vėliava: naujoji kaledonija"
     ],
     "emoji": "🇳🇨",
     "text": "",
@@ -53310,7 +53486,8 @@
     "hexcode": "1F1F3-1F1EA",
     "tags": [
       "NE",
-      "vėliava"
+      "vėliava",
+      "vėliava: nigeris"
     ],
     "emoji": "🇳🇪",
     "text": "",
@@ -53325,7 +53502,8 @@
     "hexcode": "1F1F3-1F1EB",
     "tags": [
       "NF",
-      "vėliava"
+      "vėliava",
+      "vėliava: norfolko sala"
     ],
     "emoji": "🇳🇫",
     "text": "",
@@ -53340,7 +53518,8 @@
     "hexcode": "1F1F3-1F1EC",
     "tags": [
       "NG",
-      "vėliava"
+      "vėliava",
+      "vėliava: nigerija"
     ],
     "emoji": "🇳🇬",
     "text": "",
@@ -53355,7 +53534,8 @@
     "hexcode": "1F1F3-1F1EE",
     "tags": [
       "NI",
-      "vėliava"
+      "vėliava",
+      "vėliava: nikaragva"
     ],
     "emoji": "🇳🇮",
     "text": "",
@@ -53370,7 +53550,8 @@
     "hexcode": "1F1F3-1F1F1",
     "tags": [
       "NL",
-      "vėliava"
+      "vėliava",
+      "vėliava: nyderlandai"
     ],
     "emoji": "🇳🇱",
     "text": "",
@@ -53385,7 +53566,8 @@
     "hexcode": "1F1F3-1F1F4",
     "tags": [
       "NO",
-      "vėliava"
+      "vėliava",
+      "vėliava: norvegija"
     ],
     "emoji": "🇳🇴",
     "text": "",
@@ -53400,7 +53582,8 @@
     "hexcode": "1F1F3-1F1F5",
     "tags": [
       "NP",
-      "vėliava"
+      "vėliava",
+      "vėliava: nepalas"
     ],
     "emoji": "🇳🇵",
     "text": "",
@@ -53415,7 +53598,8 @@
     "hexcode": "1F1F3-1F1F7",
     "tags": [
       "NR",
-      "vėliava"
+      "vėliava",
+      "vėliava: nauru"
     ],
     "emoji": "🇳🇷",
     "text": "",
@@ -53430,7 +53614,8 @@
     "hexcode": "1F1F3-1F1FA",
     "tags": [
       "NU",
-      "vėliava"
+      "vėliava",
+      "vėliava: niujė"
     ],
     "emoji": "🇳🇺",
     "text": "",
@@ -53445,7 +53630,8 @@
     "hexcode": "1F1F3-1F1FF",
     "tags": [
       "NZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: naujoji zelandija"
     ],
     "emoji": "🇳🇿",
     "text": "",
@@ -53460,7 +53646,8 @@
     "hexcode": "1F1F4-1F1F2",
     "tags": [
       "OM",
-      "vėliava"
+      "vėliava",
+      "vėliava: omanas"
     ],
     "emoji": "🇴🇲",
     "text": "",
@@ -53475,7 +53662,8 @@
     "hexcode": "1F1F5-1F1E6",
     "tags": [
       "PA",
-      "vėliava"
+      "vėliava",
+      "vėliava: panama"
     ],
     "emoji": "🇵🇦",
     "text": "",
@@ -53490,7 +53678,8 @@
     "hexcode": "1F1F5-1F1EA",
     "tags": [
       "PE",
-      "vėliava"
+      "vėliava",
+      "vėliava: peru"
     ],
     "emoji": "🇵🇪",
     "text": "",
@@ -53505,7 +53694,8 @@
     "hexcode": "1F1F5-1F1EB",
     "tags": [
       "PF",
-      "vėliava"
+      "vėliava",
+      "vėliava: prancūzijos polinezija"
     ],
     "emoji": "🇵🇫",
     "text": "",
@@ -53520,7 +53710,8 @@
     "hexcode": "1F1F5-1F1EC",
     "tags": [
       "PG",
-      "vėliava"
+      "vėliava",
+      "vėliava: papua naujoji gvinėja"
     ],
     "emoji": "🇵🇬",
     "text": "",
@@ -53535,7 +53726,8 @@
     "hexcode": "1F1F5-1F1ED",
     "tags": [
       "PH",
-      "vėliava"
+      "vėliava",
+      "vėliava: filipinai"
     ],
     "emoji": "🇵🇭",
     "text": "",
@@ -53550,7 +53742,8 @@
     "hexcode": "1F1F5-1F1F0",
     "tags": [
       "PK",
-      "vėliava"
+      "vėliava",
+      "vėliava: pakistanas"
     ],
     "emoji": "🇵🇰",
     "text": "",
@@ -53565,7 +53758,8 @@
     "hexcode": "1F1F5-1F1F1",
     "tags": [
       "PL",
-      "vėliava"
+      "vėliava",
+      "vėliava: lenkija"
     ],
     "emoji": "🇵🇱",
     "text": "",
@@ -53580,7 +53774,8 @@
     "hexcode": "1F1F5-1F1F2",
     "tags": [
       "PM",
-      "vėliava"
+      "vėliava",
+      "vėliava: sen pjeras ir mikelonas"
     ],
     "emoji": "🇵🇲",
     "text": "",
@@ -53595,7 +53790,8 @@
     "hexcode": "1F1F5-1F1F3",
     "tags": [
       "PN",
-      "vėliava"
+      "vėliava",
+      "vėliava: pitkerno salos"
     ],
     "emoji": "🇵🇳",
     "text": "",
@@ -53610,7 +53806,8 @@
     "hexcode": "1F1F5-1F1F7",
     "tags": [
       "PR",
-      "vėliava"
+      "vėliava",
+      "vėliava: puerto rikas"
     ],
     "emoji": "🇵🇷",
     "text": "",
@@ -53625,7 +53822,8 @@
     "hexcode": "1F1F5-1F1F8",
     "tags": [
       "PS",
-      "vėliava"
+      "vėliava",
+      "vėliava: palestinos teritorija"
     ],
     "emoji": "🇵🇸",
     "text": "",
@@ -53640,7 +53838,8 @@
     "hexcode": "1F1F5-1F1F9",
     "tags": [
       "PT",
-      "vėliava"
+      "vėliava",
+      "vėliava: portugalija"
     ],
     "emoji": "🇵🇹",
     "text": "",
@@ -53655,7 +53854,8 @@
     "hexcode": "1F1F5-1F1FC",
     "tags": [
       "PW",
-      "vėliava"
+      "vėliava",
+      "vėliava: palau"
     ],
     "emoji": "🇵🇼",
     "text": "",
@@ -53670,7 +53870,8 @@
     "hexcode": "1F1F5-1F1FE",
     "tags": [
       "PY",
-      "vėliava"
+      "vėliava",
+      "vėliava: paragvajus"
     ],
     "emoji": "🇵🇾",
     "text": "",
@@ -53685,7 +53886,8 @@
     "hexcode": "1F1F6-1F1E6",
     "tags": [
       "QA",
-      "vėliava"
+      "vėliava",
+      "vėliava: kataras"
     ],
     "emoji": "🇶🇦",
     "text": "",
@@ -53700,7 +53902,8 @@
     "hexcode": "1F1F7-1F1EA",
     "tags": [
       "RE",
-      "vėliava"
+      "vėliava",
+      "vėliava: reunjonas"
     ],
     "emoji": "🇷🇪",
     "text": "",
@@ -53715,7 +53918,8 @@
     "hexcode": "1F1F7-1F1F4",
     "tags": [
       "RO",
-      "vėliava"
+      "vėliava",
+      "vėliava: rumunija"
     ],
     "emoji": "🇷🇴",
     "text": "",
@@ -53730,7 +53934,8 @@
     "hexcode": "1F1F7-1F1F8",
     "tags": [
       "RS",
-      "vėliava"
+      "vėliava",
+      "vėliava: serbija"
     ],
     "emoji": "🇷🇸",
     "text": "",
@@ -53745,7 +53950,8 @@
     "hexcode": "1F1F7-1F1FA",
     "tags": [
       "RU",
-      "vėliava"
+      "vėliava",
+      "vėliava: rusija"
     ],
     "emoji": "🇷🇺",
     "text": "",
@@ -53760,7 +53966,8 @@
     "hexcode": "1F1F7-1F1FC",
     "tags": [
       "RW",
-      "vėliava"
+      "vėliava",
+      "vėliava: ruanda"
     ],
     "emoji": "🇷🇼",
     "text": "",
@@ -53775,7 +53982,8 @@
     "hexcode": "1F1F8-1F1E6",
     "tags": [
       "SA",
-      "vėliava"
+      "vėliava",
+      "vėliava: saudo arabija"
     ],
     "emoji": "🇸🇦",
     "text": "",
@@ -53790,7 +53998,8 @@
     "hexcode": "1F1F8-1F1E7",
     "tags": [
       "SB",
-      "vėliava"
+      "vėliava",
+      "vėliava: saliamono salos"
     ],
     "emoji": "🇸🇧",
     "text": "",
@@ -53805,7 +54014,8 @@
     "hexcode": "1F1F8-1F1E8",
     "tags": [
       "SC",
-      "vėliava"
+      "vėliava",
+      "vėliava: seišeliai"
     ],
     "emoji": "🇸🇨",
     "text": "",
@@ -53820,7 +54030,8 @@
     "hexcode": "1F1F8-1F1E9",
     "tags": [
       "SD",
-      "vėliava"
+      "vėliava",
+      "vėliava: sudanas"
     ],
     "emoji": "🇸🇩",
     "text": "",
@@ -53835,7 +54046,8 @@
     "hexcode": "1F1F8-1F1EA",
     "tags": [
       "SE",
-      "vėliava"
+      "vėliava",
+      "vėliava: švedija"
     ],
     "emoji": "🇸🇪",
     "text": "",
@@ -53850,7 +54062,8 @@
     "hexcode": "1F1F8-1F1EC",
     "tags": [
       "SG",
-      "vėliava"
+      "vėliava",
+      "vėliava: singapūras"
     ],
     "emoji": "🇸🇬",
     "text": "",
@@ -53865,7 +54078,8 @@
     "hexcode": "1F1F8-1F1ED",
     "tags": [
       "SH",
-      "vėliava"
+      "vėliava",
+      "vėliava: šv. elenos sala"
     ],
     "emoji": "🇸🇭",
     "text": "",
@@ -53880,7 +54094,8 @@
     "hexcode": "1F1F8-1F1EE",
     "tags": [
       "SI",
-      "vėliava"
+      "vėliava",
+      "vėliava: slovėnija"
     ],
     "emoji": "🇸🇮",
     "text": "",
@@ -53895,7 +54110,8 @@
     "hexcode": "1F1F8-1F1EF",
     "tags": [
       "SJ",
-      "vėliava"
+      "vėliava",
+      "vėliava: svalbardas ir janas majenas"
     ],
     "emoji": "🇸🇯",
     "text": "",
@@ -53910,7 +54126,8 @@
     "hexcode": "1F1F8-1F1F0",
     "tags": [
       "SK",
-      "vėliava"
+      "vėliava",
+      "vėliava: slovakija"
     ],
     "emoji": "🇸🇰",
     "text": "",
@@ -53925,7 +54142,8 @@
     "hexcode": "1F1F8-1F1F1",
     "tags": [
       "SL",
-      "vėliava"
+      "vėliava",
+      "vėliava: siera leonė"
     ],
     "emoji": "🇸🇱",
     "text": "",
@@ -53940,7 +54158,8 @@
     "hexcode": "1F1F8-1F1F2",
     "tags": [
       "SM",
-      "vėliava"
+      "vėliava",
+      "vėliava: san marinas"
     ],
     "emoji": "🇸🇲",
     "text": "",
@@ -53955,7 +54174,8 @@
     "hexcode": "1F1F8-1F1F3",
     "tags": [
       "SN",
-      "vėliava"
+      "vėliava",
+      "vėliava: senegalas"
     ],
     "emoji": "🇸🇳",
     "text": "",
@@ -53970,7 +54190,8 @@
     "hexcode": "1F1F8-1F1F4",
     "tags": [
       "SO",
-      "vėliava"
+      "vėliava",
+      "vėliava: somalis"
     ],
     "emoji": "🇸🇴",
     "text": "",
@@ -53985,7 +54206,8 @@
     "hexcode": "1F1F8-1F1F7",
     "tags": [
       "SR",
-      "vėliava"
+      "vėliava",
+      "vėliava: surinamas"
     ],
     "emoji": "🇸🇷",
     "text": "",
@@ -54000,7 +54222,8 @@
     "hexcode": "1F1F8-1F1F8",
     "tags": [
       "SS",
-      "vėliava"
+      "vėliava",
+      "vėliava: pietų sudanas"
     ],
     "emoji": "🇸🇸",
     "text": "",
@@ -54015,7 +54238,8 @@
     "hexcode": "1F1F8-1F1F9",
     "tags": [
       "ST",
-      "vėliava"
+      "vėliava",
+      "vėliava: san tomė ir prinsipė"
     ],
     "emoji": "🇸🇹",
     "text": "",
@@ -54030,7 +54254,8 @@
     "hexcode": "1F1F8-1F1FB",
     "tags": [
       "SV",
-      "vėliava"
+      "vėliava",
+      "vėliava: salvadoras"
     ],
     "emoji": "🇸🇻",
     "text": "",
@@ -54045,7 +54270,8 @@
     "hexcode": "1F1F8-1F1FD",
     "tags": [
       "SX",
-      "vėliava"
+      "vėliava",
+      "vėliava: sint martenas"
     ],
     "emoji": "🇸🇽",
     "text": "",
@@ -54060,7 +54286,8 @@
     "hexcode": "1F1F8-1F1FE",
     "tags": [
       "SY",
-      "vėliava"
+      "vėliava",
+      "vėliava: sirija"
     ],
     "emoji": "🇸🇾",
     "text": "",
@@ -54075,7 +54302,8 @@
     "hexcode": "1F1F8-1F1FF",
     "tags": [
       "SZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: svazilandas"
     ],
     "emoji": "🇸🇿",
     "text": "",
@@ -54090,7 +54318,8 @@
     "hexcode": "1F1F9-1F1E6",
     "tags": [
       "TA",
-      "vėliava"
+      "vėliava",
+      "vėliava: tristano da kunjos"
     ],
     "emoji": "🇹🇦",
     "text": "",
@@ -54105,7 +54334,8 @@
     "hexcode": "1F1F9-1F1E8",
     "tags": [
       "TC",
-      "vėliava"
+      "vėliava",
+      "vėliava: terkso ir kaikoso salos"
     ],
     "emoji": "🇹🇨",
     "text": "",
@@ -54120,7 +54350,8 @@
     "hexcode": "1F1F9-1F1E9",
     "tags": [
       "TD",
-      "vėliava"
+      "vėliava",
+      "vėliava: čadas"
     ],
     "emoji": "🇹🇩",
     "text": "",
@@ -54135,7 +54366,8 @@
     "hexcode": "1F1F9-1F1EB",
     "tags": [
       "TF",
-      "vėliava"
+      "vėliava",
+      "vėliava: prancūzijos pietų sritys"
     ],
     "emoji": "🇹🇫",
     "text": "",
@@ -54150,7 +54382,8 @@
     "hexcode": "1F1F9-1F1EC",
     "tags": [
       "TG",
-      "vėliava"
+      "vėliava",
+      "vėliava: togas"
     ],
     "emoji": "🇹🇬",
     "text": "",
@@ -54165,7 +54398,8 @@
     "hexcode": "1F1F9-1F1ED",
     "tags": [
       "TH",
-      "vėliava"
+      "vėliava",
+      "vėliava: tailandas"
     ],
     "emoji": "🇹🇭",
     "text": "",
@@ -54180,7 +54414,8 @@
     "hexcode": "1F1F9-1F1EF",
     "tags": [
       "TJ",
-      "vėliava"
+      "vėliava",
+      "vėliava: tadžikija"
     ],
     "emoji": "🇹🇯",
     "text": "",
@@ -54195,7 +54430,8 @@
     "hexcode": "1F1F9-1F1F0",
     "tags": [
       "TK",
-      "vėliava"
+      "vėliava",
+      "vėliava: tokelau"
     ],
     "emoji": "🇹🇰",
     "text": "",
@@ -54210,7 +54446,8 @@
     "hexcode": "1F1F9-1F1F1",
     "tags": [
       "TL",
-      "vėliava"
+      "vėliava",
+      "vėliava: rytų timoras"
     ],
     "emoji": "🇹🇱",
     "text": "",
@@ -54225,7 +54462,8 @@
     "hexcode": "1F1F9-1F1F2",
     "tags": [
       "TM",
-      "vėliava"
+      "vėliava",
+      "vėliava: turkmėnistanas"
     ],
     "emoji": "🇹🇲",
     "text": "",
@@ -54240,7 +54478,8 @@
     "hexcode": "1F1F9-1F1F3",
     "tags": [
       "TN",
-      "vėliava"
+      "vėliava",
+      "vėliava: tunisas"
     ],
     "emoji": "🇹🇳",
     "text": "",
@@ -54255,7 +54494,8 @@
     "hexcode": "1F1F9-1F1F4",
     "tags": [
       "TO",
-      "vėliava"
+      "vėliava",
+      "vėliava: tonga"
     ],
     "emoji": "🇹🇴",
     "text": "",
@@ -54270,7 +54510,8 @@
     "hexcode": "1F1F9-1F1F7",
     "tags": [
       "TR",
-      "vėliava"
+      "vėliava",
+      "vėliava: turkija"
     ],
     "emoji": "🇹🇷",
     "text": "",
@@ -54285,7 +54526,8 @@
     "hexcode": "1F1F9-1F1F9",
     "tags": [
       "TT",
-      "vėliava"
+      "vėliava",
+      "vėliava: trinidadas ir tobagas"
     ],
     "emoji": "🇹🇹",
     "text": "",
@@ -54300,7 +54542,8 @@
     "hexcode": "1F1F9-1F1FB",
     "tags": [
       "TV",
-      "vėliava"
+      "vėliava",
+      "vėliava: tuvalu"
     ],
     "emoji": "🇹🇻",
     "text": "",
@@ -54315,7 +54558,8 @@
     "hexcode": "1F1F9-1F1FC",
     "tags": [
       "TW",
-      "vėliava"
+      "vėliava",
+      "vėliava: taivanas"
     ],
     "emoji": "🇹🇼",
     "text": "",
@@ -54330,7 +54574,8 @@
     "hexcode": "1F1F9-1F1FF",
     "tags": [
       "TZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: tanzanija"
     ],
     "emoji": "🇹🇿",
     "text": "",
@@ -54345,7 +54590,8 @@
     "hexcode": "1F1FA-1F1E6",
     "tags": [
       "UA",
-      "vėliava"
+      "vėliava",
+      "vėliava: ukraina"
     ],
     "emoji": "🇺🇦",
     "text": "",
@@ -54360,7 +54606,8 @@
     "hexcode": "1F1FA-1F1EC",
     "tags": [
       "UG",
-      "vėliava"
+      "vėliava",
+      "vėliava: uganda"
     ],
     "emoji": "🇺🇬",
     "text": "",
@@ -54375,7 +54622,8 @@
     "hexcode": "1F1FA-1F1F2",
     "tags": [
       "UM",
-      "vėliava"
+      "vėliava",
+      "vėliava: jungtinių valstijų mažosios tolimosios salos"
     ],
     "emoji": "🇺🇲",
     "text": "",
@@ -54390,7 +54638,8 @@
     "hexcode": "1F1FA-1F1F3",
     "tags": [
       "UN",
-      "vėliava"
+      "vėliava",
+      "vėliava: jungtinės tautos"
     ],
     "emoji": "🇺🇳",
     "text": "",
@@ -54405,7 +54654,8 @@
     "hexcode": "1F1FA-1F1F8",
     "tags": [
       "US",
-      "vėliava"
+      "vėliava",
+      "vėliava: jungtinės valstijos"
     ],
     "emoji": "🇺🇸",
     "text": "",
@@ -54420,7 +54670,8 @@
     "hexcode": "1F1FA-1F1FE",
     "tags": [
       "UY",
-      "vėliava"
+      "vėliava",
+      "vėliava: urugvajus"
     ],
     "emoji": "🇺🇾",
     "text": "",
@@ -54435,7 +54686,8 @@
     "hexcode": "1F1FA-1F1FF",
     "tags": [
       "UZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: uzbekistanas"
     ],
     "emoji": "🇺🇿",
     "text": "",
@@ -54450,7 +54702,8 @@
     "hexcode": "1F1FB-1F1E6",
     "tags": [
       "VA",
-      "vėliava"
+      "vėliava",
+      "vėliava: vatikano miesto valstybė"
     ],
     "emoji": "🇻🇦",
     "text": "",
@@ -54465,7 +54718,8 @@
     "hexcode": "1F1FB-1F1E8",
     "tags": [
       "VC",
-      "vėliava"
+      "vėliava",
+      "vėliava: šventasis vincentas ir grenadinai"
     ],
     "emoji": "🇻🇨",
     "text": "",
@@ -54480,7 +54734,8 @@
     "hexcode": "1F1FB-1F1EA",
     "tags": [
       "VE",
-      "vėliava"
+      "vėliava",
+      "vėliava: venesuela"
     ],
     "emoji": "🇻🇪",
     "text": "",
@@ -54495,7 +54750,8 @@
     "hexcode": "1F1FB-1F1EC",
     "tags": [
       "VG",
-      "vėliava"
+      "vėliava",
+      "vėliava: didžiosios britanijos mergelių salos"
     ],
     "emoji": "🇻🇬",
     "text": "",
@@ -54510,7 +54766,8 @@
     "hexcode": "1F1FB-1F1EE",
     "tags": [
       "VI",
-      "vėliava"
+      "vėliava",
+      "vėliava: jungtinių valstijų mergelių salos"
     ],
     "emoji": "🇻🇮",
     "text": "",
@@ -54525,7 +54782,8 @@
     "hexcode": "1F1FB-1F1F3",
     "tags": [
       "VN",
-      "vėliava"
+      "vėliava",
+      "vėliava: vietnamas"
     ],
     "emoji": "🇻🇳",
     "text": "",
@@ -54540,7 +54798,8 @@
     "hexcode": "1F1FB-1F1FA",
     "tags": [
       "VU",
-      "vėliava"
+      "vėliava",
+      "vėliava: vanuatu"
     ],
     "emoji": "🇻🇺",
     "text": "",
@@ -54555,7 +54814,8 @@
     "hexcode": "1F1FC-1F1EB",
     "tags": [
       "WF",
-      "vėliava"
+      "vėliava",
+      "vėliava: volisas ir futūna"
     ],
     "emoji": "🇼🇫",
     "text": "",
@@ -54570,7 +54830,8 @@
     "hexcode": "1F1FC-1F1F8",
     "tags": [
       "WS",
-      "vėliava"
+      "vėliava",
+      "vėliava: samoa"
     ],
     "emoji": "🇼🇸",
     "text": "",
@@ -54585,7 +54846,8 @@
     "hexcode": "1F1FD-1F1F0",
     "tags": [
       "XK",
-      "vėliava"
+      "vėliava",
+      "vėliava: kosovas"
     ],
     "emoji": "🇽🇰",
     "text": "",
@@ -54600,7 +54862,8 @@
     "hexcode": "1F1FE-1F1EA",
     "tags": [
       "YE",
-      "vėliava"
+      "vėliava",
+      "vėliava: jemenas"
     ],
     "emoji": "🇾🇪",
     "text": "",
@@ -54615,7 +54878,8 @@
     "hexcode": "1F1FE-1F1F9",
     "tags": [
       "YT",
-      "vėliava"
+      "vėliava",
+      "vėliava: majotas"
     ],
     "emoji": "🇾🇹",
     "text": "",
@@ -54630,7 +54894,8 @@
     "hexcode": "1F1FF-1F1E6",
     "tags": [
       "ZA",
-      "vėliava"
+      "vėliava",
+      "vėliava: pietų afrika"
     ],
     "emoji": "🇿🇦",
     "text": "",
@@ -54645,7 +54910,8 @@
     "hexcode": "1F1FF-1F1F2",
     "tags": [
       "ZM",
-      "vėliava"
+      "vėliava",
+      "vėliava: zambija"
     ],
     "emoji": "🇿🇲",
     "text": "",
@@ -54660,7 +54926,8 @@
     "hexcode": "1F1FF-1F1FC",
     "tags": [
       "ZW",
-      "vėliava"
+      "vėliava",
+      "vėliava: zimbabvė"
     ],
     "emoji": "🇿🇼",
     "text": "",
@@ -54675,7 +54942,8 @@
     "hexcode": "1F3F4-E0067-E0062-E0065-E006E-E0067-E007F",
     "tags": [
       "gbeng",
-      "vėliava"
+      "vėliava",
+      "vėliava: anglija"
     ],
     "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "text": "",
@@ -54690,7 +54958,8 @@
     "hexcode": "1F3F4-E0067-E0062-E0073-E0063-E0074-E007F",
     "tags": [
       "gbsct",
-      "vėliava"
+      "vėliava",
+      "vėliava: škotija"
     ],
     "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
     "text": "",
@@ -54705,7 +54974,8 @@
     "hexcode": "1F3F4-E0067-E0062-E0077-E006C-E0073-E007F",
     "tags": [
       "gbwls",
-      "vėliava"
+      "vėliava",
+      "vėliava: velsas"
     ],
     "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
     "text": "",

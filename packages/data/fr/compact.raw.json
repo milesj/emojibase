@@ -765,26 +765,22 @@
   {
     "group": 0,
     "hexcode": "1F642-200D-2194-FE0F",
-    "label": "head shaking horizontally",
+    "label": "tête secouée horizontalement",
     "order": 53,
     "tags": [
-      "flèche",
-      "flèche gauche droite",
-      "sourire",
-      "visage avec un léger sourire"
+      "non",
+      "secouer"
     ],
     "unicode": "🙂‍↔️"
   },
   {
     "group": 0,
     "hexcode": "1F642-200D-2195-FE0F",
-    "label": "head shaking vertically",
+    "label": "tête secouée verticalement",
     "order": 55,
     "tags": [
-      "flèche",
-      "flèche haut bas",
-      "sourire",
-      "visage avec un léger sourire"
+      "hochement de tête",
+      "oui"
     ],
     "unicode": "🙂‍↕️"
   },
@@ -11760,8 +11756,7 @@
     "order": 1649,
     "tags": [
       "noël",
-      "père",
-      "père noël"
+      "père"
     ],
     "unicode": "🎅",
     "skins": [
@@ -11856,7 +11851,7 @@
     "label": "santa",
     "order": 1661,
     "tags": [
-      "santa, noël"
+      "noël"
     ],
     "unicode": "🧑‍🎄",
     "skins": [
@@ -20642,52 +20637,48 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2",
-    "label": "family: adult, adult, child",
+    "label": "famille : adulte, adulte, enfant",
     "order": 3470,
     "tags": [
       "adulte",
       "enfant",
-      "genre neutre",
-      "jeune"
+      "famille : adulte"
     ],
     "unicode": "🧑‍🧑‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, adult, child, child",
+    "label": "famille : adulte, adulte, enfant, enfant",
     "order": 3471,
     "tags": [
       "adulte",
       "enfant",
-      "genre neutre",
-      "jeune"
+      "famille : adulte"
     ],
     "unicode": "🧑‍🧑‍🧒‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2",
-    "label": "family: adult, child",
+    "label": "famille : adulte, enfant",
     "order": 3472,
     "tags": [
-      "adulte",
       "enfant",
-      "genre neutre",
-      "jeune"
+      "famille : adulte",
+      "famille monoparentale"
     ],
     "unicode": "🧑‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, child, child",
+    "label": "famille : adulte, enfant, enfant",
     "order": 3473,
     "tags": [
-      "adulte",
       "enfant",
-      "genre neutre",
-      "jeune"
+      "famille : adulte",
+      "famille monoparentale"
     ],
     "unicode": "🧑‍🧒‍🧒"
   },
@@ -21758,14 +21749,13 @@
   {
     "group": 3,
     "hexcode": "1F426-200D-2B1B",
-    "label": "black bird",
+    "label": "oiseau noir",
     "order": 3572,
     "tags": [
-      "bird",
-      "black",
-      "crow",
-      "raven",
-      "rook"
+      "corbeau",
+      "corneille",
+      "merle",
+      "oiseau"
     ],
     "unicode": "🐦‍⬛"
   },
@@ -21785,13 +21775,13 @@
   {
     "group": 3,
     "hexcode": "1F426-200D-1F525",
-    "label": "phoenix",
+    "label": "phénix",
     "order": 3574,
     "tags": [
-      "animal",
-      "feu",
-      "flamme",
-      "oiseau"
+      "cendres",
+      "mythologie",
+      "renaissance",
+      "renaître"
     ],
     "unicode": "🐦‍🔥"
   },
@@ -22566,15 +22556,14 @@
   {
     "group": 4,
     "hexcode": "1F34B-200D-1F7E9",
-    "label": "lime",
+    "label": "citron vert",
     "order": 3649,
     "tags": [
-      "carré vert",
+      "agrume",
       "citron",
-      "forme géométrique",
       "fruit",
-      "géométrie",
-      "vert"
+      "lime",
+      "tropical"
     ],
     "unicode": "🍋‍🟩"
   },
@@ -22924,15 +22913,13 @@
   {
     "group": 4,
     "hexcode": "1F344-200D-1F7EB",
-    "label": "brown mushroom",
+    "label": "champignon marron",
     "order": 3682,
     "tags": [
-      "carré marron",
       "champignon",
-      "forme géométrique",
-      "géométrie",
-      "marron",
-      "plante"
+      "fongus",
+      "nature",
+      "nourriture"
     ],
     "unicode": "🍄‍🟫"
   },
@@ -29631,13 +29618,13 @@
   {
     "group": 7,
     "hexcode": "26D3-FE0F-200D-1F4A5",
-    "label": "broken chain",
+    "label": "chaîne brisée",
     "order": 4395,
     "tags": [
       "chaîne",
-      "chaînes",
-      "collision",
-      "explosion"
+      "chaîne cassée",
+      "chaîne rompue",
+      "liberté"
     ],
     "unicode": "⛓️‍💥"
   },
@@ -32950,7 +32937,8 @@
     "order": 4774,
     "tags": [
       "AC",
-      "drapeau"
+      "drapeau",
+      "drapeau : île de l’ascension"
     ],
     "unicode": "🇦🇨"
   },
@@ -32961,7 +32949,8 @@
     "order": 4775,
     "tags": [
       "AD",
-      "drapeau"
+      "drapeau",
+      "drapeau : andorre"
     ],
     "unicode": "🇦🇩"
   },
@@ -32972,7 +32961,8 @@
     "order": 4776,
     "tags": [
       "AE",
-      "drapeau"
+      "drapeau",
+      "drapeau : émirats arabes unis"
     ],
     "unicode": "🇦🇪"
   },
@@ -32983,7 +32973,8 @@
     "order": 4777,
     "tags": [
       "AF",
-      "drapeau"
+      "drapeau",
+      "drapeau : afghanistan"
     ],
     "unicode": "🇦🇫"
   },
@@ -32994,7 +32985,8 @@
     "order": 4778,
     "tags": [
       "AG",
-      "drapeau"
+      "drapeau",
+      "drapeau : antigua-et-barbuda"
     ],
     "unicode": "🇦🇬"
   },
@@ -33005,7 +32997,8 @@
     "order": 4779,
     "tags": [
       "AI",
-      "drapeau"
+      "drapeau",
+      "drapeau : anguilla"
     ],
     "unicode": "🇦🇮"
   },
@@ -33016,7 +33009,8 @@
     "order": 4780,
     "tags": [
       "AL",
-      "drapeau"
+      "drapeau",
+      "drapeau : albanie"
     ],
     "unicode": "🇦🇱"
   },
@@ -33027,7 +33021,8 @@
     "order": 4781,
     "tags": [
       "AM",
-      "drapeau"
+      "drapeau",
+      "drapeau : arménie"
     ],
     "unicode": "🇦🇲"
   },
@@ -33038,7 +33033,8 @@
     "order": 4782,
     "tags": [
       "AO",
-      "drapeau"
+      "drapeau",
+      "drapeau : angola"
     ],
     "unicode": "🇦🇴"
   },
@@ -33049,7 +33045,8 @@
     "order": 4783,
     "tags": [
       "AQ",
-      "drapeau"
+      "drapeau",
+      "drapeau : antarctique"
     ],
     "unicode": "🇦🇶"
   },
@@ -33060,7 +33057,8 @@
     "order": 4784,
     "tags": [
       "AR",
-      "drapeau"
+      "drapeau",
+      "drapeau : argentine"
     ],
     "unicode": "🇦🇷"
   },
@@ -33071,7 +33069,8 @@
     "order": 4785,
     "tags": [
       "AS",
-      "drapeau"
+      "drapeau",
+      "drapeau : samoa américaines"
     ],
     "unicode": "🇦🇸"
   },
@@ -33082,7 +33081,8 @@
     "order": 4786,
     "tags": [
       "AT",
-      "drapeau"
+      "drapeau",
+      "drapeau : autriche"
     ],
     "unicode": "🇦🇹"
   },
@@ -33093,7 +33093,8 @@
     "order": 4787,
     "tags": [
       "AU",
-      "drapeau"
+      "drapeau",
+      "drapeau : australie"
     ],
     "unicode": "🇦🇺"
   },
@@ -33104,7 +33105,8 @@
     "order": 4788,
     "tags": [
       "AW",
-      "drapeau"
+      "drapeau",
+      "drapeau : aruba"
     ],
     "unicode": "🇦🇼"
   },
@@ -33115,7 +33117,8 @@
     "order": 4789,
     "tags": [
       "AX",
-      "drapeau"
+      "drapeau",
+      "drapeau : îles åland"
     ],
     "unicode": "🇦🇽"
   },
@@ -33126,7 +33129,8 @@
     "order": 4790,
     "tags": [
       "AZ",
-      "drapeau"
+      "drapeau",
+      "drapeau : azerbaïdjan"
     ],
     "unicode": "🇦🇿"
   },
@@ -33137,7 +33141,8 @@
     "order": 4791,
     "tags": [
       "BA",
-      "drapeau"
+      "drapeau",
+      "drapeau : bosnie-herzégovine"
     ],
     "unicode": "🇧🇦"
   },
@@ -33148,7 +33153,8 @@
     "order": 4792,
     "tags": [
       "BB",
-      "drapeau"
+      "drapeau",
+      "drapeau : barbade"
     ],
     "unicode": "🇧🇧"
   },
@@ -33159,7 +33165,8 @@
     "order": 4793,
     "tags": [
       "BD",
-      "drapeau"
+      "drapeau",
+      "drapeau : bangladesh"
     ],
     "unicode": "🇧🇩"
   },
@@ -33170,7 +33177,8 @@
     "order": 4794,
     "tags": [
       "BE",
-      "drapeau"
+      "drapeau",
+      "drapeau : belgique"
     ],
     "unicode": "🇧🇪"
   },
@@ -33181,7 +33189,8 @@
     "order": 4795,
     "tags": [
       "BF",
-      "drapeau"
+      "drapeau",
+      "drapeau : burkina faso"
     ],
     "unicode": "🇧🇫"
   },
@@ -33192,7 +33201,8 @@
     "order": 4796,
     "tags": [
       "BG",
-      "drapeau"
+      "drapeau",
+      "drapeau : bulgarie"
     ],
     "unicode": "🇧🇬"
   },
@@ -33203,7 +33213,8 @@
     "order": 4797,
     "tags": [
       "BH",
-      "drapeau"
+      "drapeau",
+      "drapeau : bahreïn"
     ],
     "unicode": "🇧🇭"
   },
@@ -33214,7 +33225,8 @@
     "order": 4798,
     "tags": [
       "BI",
-      "drapeau"
+      "drapeau",
+      "drapeau : burundi"
     ],
     "unicode": "🇧🇮"
   },
@@ -33225,7 +33237,8 @@
     "order": 4799,
     "tags": [
       "BJ",
-      "drapeau"
+      "drapeau",
+      "drapeau : bénin"
     ],
     "unicode": "🇧🇯"
   },
@@ -33236,7 +33249,8 @@
     "order": 4800,
     "tags": [
       "BL",
-      "drapeau"
+      "drapeau",
+      "drapeau : saint-barthélemy"
     ],
     "unicode": "🇧🇱"
   },
@@ -33247,7 +33261,8 @@
     "order": 4801,
     "tags": [
       "BM",
-      "drapeau"
+      "drapeau",
+      "drapeau : bermudes"
     ],
     "unicode": "🇧🇲"
   },
@@ -33258,7 +33273,8 @@
     "order": 4802,
     "tags": [
       "BN",
-      "drapeau"
+      "drapeau",
+      "drapeau : brunei"
     ],
     "unicode": "🇧🇳"
   },
@@ -33269,7 +33285,8 @@
     "order": 4803,
     "tags": [
       "BO",
-      "drapeau"
+      "drapeau",
+      "drapeau : bolivie"
     ],
     "unicode": "🇧🇴"
   },
@@ -33280,7 +33297,8 @@
     "order": 4804,
     "tags": [
       "BQ",
-      "drapeau"
+      "drapeau",
+      "drapeau : pays-bas caribéens"
     ],
     "unicode": "🇧🇶"
   },
@@ -33291,7 +33309,8 @@
     "order": 4805,
     "tags": [
       "BR",
-      "drapeau"
+      "drapeau",
+      "drapeau : brésil"
     ],
     "unicode": "🇧🇷"
   },
@@ -33302,7 +33321,8 @@
     "order": 4806,
     "tags": [
       "BS",
-      "drapeau"
+      "drapeau",
+      "drapeau : bahamas"
     ],
     "unicode": "🇧🇸"
   },
@@ -33313,7 +33333,8 @@
     "order": 4807,
     "tags": [
       "BT",
-      "drapeau"
+      "drapeau",
+      "drapeau : bhoutan"
     ],
     "unicode": "🇧🇹"
   },
@@ -33324,7 +33345,8 @@
     "order": 4808,
     "tags": [
       "BV",
-      "drapeau"
+      "drapeau",
+      "drapeau : île bouvet"
     ],
     "unicode": "🇧🇻"
   },
@@ -33335,7 +33357,8 @@
     "order": 4809,
     "tags": [
       "BW",
-      "drapeau"
+      "drapeau",
+      "drapeau : botswana"
     ],
     "unicode": "🇧🇼"
   },
@@ -33346,7 +33369,8 @@
     "order": 4810,
     "tags": [
       "BY",
-      "drapeau"
+      "drapeau",
+      "drapeau : biélorussie"
     ],
     "unicode": "🇧🇾"
   },
@@ -33357,7 +33381,8 @@
     "order": 4811,
     "tags": [
       "BZ",
-      "drapeau"
+      "drapeau",
+      "drapeau : belize"
     ],
     "unicode": "🇧🇿"
   },
@@ -33368,7 +33393,8 @@
     "order": 4812,
     "tags": [
       "CA",
-      "drapeau"
+      "drapeau",
+      "drapeau : canada"
     ],
     "unicode": "🇨🇦"
   },
@@ -33379,7 +33405,8 @@
     "order": 4813,
     "tags": [
       "CC",
-      "drapeau"
+      "drapeau",
+      "drapeau : îles cocos"
     ],
     "unicode": "🇨🇨"
   },
@@ -33390,7 +33417,8 @@
     "order": 4814,
     "tags": [
       "CD",
-      "drapeau"
+      "drapeau",
+      "drapeau : congo-kinshasa"
     ],
     "unicode": "🇨🇩"
   },
@@ -33401,7 +33429,8 @@
     "order": 4815,
     "tags": [
       "CF",
-      "drapeau"
+      "drapeau",
+      "drapeau : république centrafricaine"
     ],
     "unicode": "🇨🇫"
   },
@@ -33412,7 +33441,8 @@
     "order": 4816,
     "tags": [
       "CG",
-      "drapeau"
+      "drapeau",
+      "drapeau : congo-brazzaville"
     ],
     "unicode": "🇨🇬"
   },
@@ -33423,7 +33453,8 @@
     "order": 4817,
     "tags": [
       "CH",
-      "drapeau"
+      "drapeau",
+      "drapeau : suisse"
     ],
     "unicode": "🇨🇭"
   },
@@ -33434,7 +33465,8 @@
     "order": 4818,
     "tags": [
       "CI",
-      "drapeau"
+      "drapeau",
+      "drapeau : côte d’ivoire"
     ],
     "unicode": "🇨🇮"
   },
@@ -33445,7 +33477,8 @@
     "order": 4819,
     "tags": [
       "CK",
-      "drapeau"
+      "drapeau",
+      "drapeau : îles cook"
     ],
     "unicode": "🇨🇰"
   },
@@ -33456,7 +33489,8 @@
     "order": 4820,
     "tags": [
       "CL",
-      "drapeau"
+      "drapeau",
+      "drapeau : chili"
     ],
     "unicode": "🇨🇱"
   },
@@ -33467,7 +33501,8 @@
     "order": 4821,
     "tags": [
       "CM",
-      "drapeau"
+      "drapeau",
+      "drapeau : cameroun"
     ],
     "unicode": "🇨🇲"
   },
@@ -33478,7 +33513,8 @@
     "order": 4822,
     "tags": [
       "CN",
-      "drapeau"
+      "drapeau",
+      "drapeau : chine"
     ],
     "unicode": "🇨🇳"
   },
@@ -33489,7 +33525,8 @@
     "order": 4823,
     "tags": [
       "CO",
-      "drapeau"
+      "drapeau",
+      "drapeau : colombie"
     ],
     "unicode": "🇨🇴"
   },
@@ -33500,7 +33537,8 @@
     "order": 4824,
     "tags": [
       "CP",
-      "drapeau"
+      "drapeau",
+      "drapeau : île clipperton"
     ],
     "unicode": "🇨🇵"
   },
@@ -33511,7 +33549,8 @@
     "order": 4825,
     "tags": [
       "CR",
-      "drapeau"
+      "drapeau",
+      "drapeau : costa rica"
     ],
     "unicode": "🇨🇷"
   },
@@ -33522,7 +33561,8 @@
     "order": 4826,
     "tags": [
       "CU",
-      "drapeau"
+      "drapeau",
+      "drapeau : cuba"
     ],
     "unicode": "🇨🇺"
   },
@@ -33533,7 +33573,8 @@
     "order": 4827,
     "tags": [
       "CV",
-      "drapeau"
+      "drapeau",
+      "drapeau : cap-vert"
     ],
     "unicode": "🇨🇻"
   },
@@ -33544,7 +33585,8 @@
     "order": 4828,
     "tags": [
       "CW",
-      "drapeau"
+      "drapeau",
+      "drapeau : curaçao"
     ],
     "unicode": "🇨🇼"
   },
@@ -33555,7 +33597,8 @@
     "order": 4829,
     "tags": [
       "CX",
-      "drapeau"
+      "drapeau",
+      "drapeau : île christmas"
     ],
     "unicode": "🇨🇽"
   },
@@ -33566,7 +33609,8 @@
     "order": 4830,
     "tags": [
       "CY",
-      "drapeau"
+      "drapeau",
+      "drapeau : chypre"
     ],
     "unicode": "🇨🇾"
   },
@@ -33577,7 +33621,8 @@
     "order": 4831,
     "tags": [
       "CZ",
-      "drapeau"
+      "drapeau",
+      "drapeau : tchéquie"
     ],
     "unicode": "🇨🇿"
   },
@@ -33588,7 +33633,8 @@
     "order": 4832,
     "tags": [
       "DE",
-      "drapeau"
+      "drapeau",
+      "drapeau : allemagne"
     ],
     "unicode": "🇩🇪"
   },
@@ -33599,7 +33645,8 @@
     "order": 4833,
     "tags": [
       "DG",
-      "drapeau"
+      "drapeau",
+      "drapeau : diego garcia"
     ],
     "unicode": "🇩🇬"
   },
@@ -33610,7 +33657,8 @@
     "order": 4834,
     "tags": [
       "DJ",
-      "drapeau"
+      "drapeau",
+      "drapeau : djibouti"
     ],
     "unicode": "🇩🇯"
   },
@@ -33621,7 +33669,8 @@
     "order": 4835,
     "tags": [
       "DK",
-      "drapeau"
+      "drapeau",
+      "drapeau : danemark"
     ],
     "unicode": "🇩🇰"
   },
@@ -33632,7 +33681,8 @@
     "order": 4836,
     "tags": [
       "DM",
-      "drapeau"
+      "drapeau",
+      "drapeau : dominique"
     ],
     "unicode": "🇩🇲"
   },
@@ -33643,7 +33693,8 @@
     "order": 4837,
     "tags": [
       "DO",
-      "drapeau"
+      "drapeau",
+      "drapeau : république dominicaine"
     ],
     "unicode": "🇩🇴"
   },
@@ -33654,7 +33705,8 @@
     "order": 4838,
     "tags": [
       "DZ",
-      "drapeau"
+      "drapeau",
+      "drapeau : algérie"
     ],
     "unicode": "🇩🇿"
   },
@@ -33665,7 +33717,8 @@
     "order": 4839,
     "tags": [
       "EA",
-      "drapeau"
+      "drapeau",
+      "drapeau : ceuta et melilla"
     ],
     "unicode": "🇪🇦"
   },
@@ -33676,7 +33729,8 @@
     "order": 4840,
     "tags": [
       "EC",
-      "drapeau"
+      "drapeau",
+      "drapeau : équateur"
     ],
     "unicode": "🇪🇨"
   },
@@ -33687,7 +33741,8 @@
     "order": 4841,
     "tags": [
       "EE",
-      "drapeau"
+      "drapeau",
+      "drapeau : estonie"
     ],
     "unicode": "🇪🇪"
   },
@@ -33698,7 +33753,8 @@
     "order": 4842,
     "tags": [
       "EG",
-      "drapeau"
+      "drapeau",
+      "drapeau : égypte"
     ],
     "unicode": "🇪🇬"
   },
@@ -33709,7 +33765,8 @@
     "order": 4843,
     "tags": [
       "EH",
-      "drapeau"
+      "drapeau",
+      "drapeau : sahara occidental"
     ],
     "unicode": "🇪🇭"
   },
@@ -33720,7 +33777,8 @@
     "order": 4844,
     "tags": [
       "ER",
-      "drapeau"
+      "drapeau",
+      "drapeau : érythrée"
     ],
     "unicode": "🇪🇷"
   },
@@ -33731,7 +33789,8 @@
     "order": 4845,
     "tags": [
       "ES",
-      "drapeau"
+      "drapeau",
+      "drapeau : espagne"
     ],
     "unicode": "🇪🇸"
   },
@@ -33742,7 +33801,8 @@
     "order": 4846,
     "tags": [
       "ET",
-      "drapeau"
+      "drapeau",
+      "drapeau : éthiopie"
     ],
     "unicode": "🇪🇹"
   },
@@ -33753,7 +33813,8 @@
     "order": 4847,
     "tags": [
       "EU",
-      "drapeau"
+      "drapeau",
+      "drapeau : union européenne"
     ],
     "unicode": "🇪🇺"
   },
@@ -33764,7 +33825,8 @@
     "order": 4848,
     "tags": [
       "FI",
-      "drapeau"
+      "drapeau",
+      "drapeau : finlande"
     ],
     "unicode": "🇫🇮"
   },
@@ -33775,7 +33837,8 @@
     "order": 4849,
     "tags": [
       "FJ",
-      "drapeau"
+      "drapeau",
+      "drapeau : fidji"
     ],
     "unicode": "🇫🇯"
   },
@@ -33786,7 +33849,8 @@
     "order": 4850,
     "tags": [
       "FK",
-      "drapeau"
+      "drapeau",
+      "drapeau : îles malouines"
     ],
     "unicode": "🇫🇰"
   },
@@ -33797,7 +33861,8 @@
     "order": 4851,
     "tags": [
       "FM",
-      "drapeau"
+      "drapeau",
+      "drapeau : micronésie"
     ],
     "unicode": "🇫🇲"
   },
@@ -33808,7 +33873,8 @@
     "order": 4852,
     "tags": [
       "FO",
-      "drapeau"
+      "drapeau",
+      "drapeau : îles féroé"
     ],
     "unicode": "🇫🇴"
   },
@@ -33819,7 +33885,8 @@
     "order": 4853,
     "tags": [
       "FR",
-      "drapeau"
+      "drapeau",
+      "drapeau : france"
     ],
     "unicode": "🇫🇷"
   },
@@ -33830,7 +33897,8 @@
     "order": 4854,
     "tags": [
       "GA",
-      "drapeau"
+      "drapeau",
+      "drapeau : gabon"
     ],
     "unicode": "🇬🇦"
   },
@@ -33841,7 +33909,8 @@
     "order": 4855,
     "tags": [
       "GB",
-      "drapeau"
+      "drapeau",
+      "drapeau : royaume-uni"
     ],
     "unicode": "🇬🇧"
   },
@@ -33852,7 +33921,8 @@
     "order": 4856,
     "tags": [
       "GD",
-      "drapeau"
+      "drapeau",
+      "drapeau : grenade"
     ],
     "unicode": "🇬🇩"
   },
@@ -33863,7 +33933,8 @@
     "order": 4857,
     "tags": [
       "GE",
-      "drapeau"
+      "drapeau",
+      "drapeau : géorgie"
     ],
     "unicode": "🇬🇪"
   },
@@ -33874,7 +33945,8 @@
     "order": 4858,
     "tags": [
       "GF",
-      "drapeau"
+      "drapeau",
+      "drapeau : guyane française"
     ],
     "unicode": "🇬🇫"
   },
@@ -33885,7 +33957,8 @@
     "order": 4859,
     "tags": [
       "GG",
-      "drapeau"
+      "drapeau",
+      "drapeau : guernesey"
     ],
     "unicode": "🇬🇬"
   },
@@ -33896,7 +33969,8 @@
     "order": 4860,
     "tags": [
       "GH",
-      "drapeau"
+      "drapeau",
+      "drapeau : ghana"
     ],
     "unicode": "🇬🇭"
   },
@@ -33907,7 +33981,8 @@
     "order": 4861,
     "tags": [
       "GI",
-      "drapeau"
+      "drapeau",
+      "drapeau : gibraltar"
     ],
     "unicode": "🇬🇮"
   },
@@ -33918,7 +33993,8 @@
     "order": 4862,
     "tags": [
       "GL",
-      "drapeau"
+      "drapeau",
+      "drapeau : groenland"
     ],
     "unicode": "🇬🇱"
   },
@@ -33929,7 +34005,8 @@
     "order": 4863,
     "tags": [
       "GM",
-      "drapeau"
+      "drapeau",
+      "drapeau : gambie"
     ],
     "unicode": "🇬🇲"
   },
@@ -33940,7 +34017,8 @@
     "order": 4864,
     "tags": [
       "GN",
-      "drapeau"
+      "drapeau",
+      "drapeau : guinée"
     ],
     "unicode": "🇬🇳"
   },
@@ -33951,7 +34029,8 @@
     "order": 4865,
     "tags": [
       "GP",
-      "drapeau"
+      "drapeau",
+      "drapeau : guadeloupe"
     ],
     "unicode": "🇬🇵"
   },
@@ -33962,7 +34041,8 @@
     "order": 4866,
     "tags": [
       "GQ",
-      "drapeau"
+      "drapeau",
+      "drapeau : guinée équatoriale"
     ],
     "unicode": "🇬🇶"
   },
@@ -33973,7 +34053,8 @@
     "order": 4867,
     "tags": [
       "GR",
-      "drapeau"
+      "drapeau",
+      "drapeau : grèce"
     ],
     "unicode": "🇬🇷"
   },
@@ -33984,7 +34065,8 @@
     "order": 4868,
     "tags": [
       "GS",
-      "drapeau"
+      "drapeau",
+      "drapeau : géorgie du sud-et-les îles sandwich du sud"
     ],
     "unicode": "🇬🇸"
   },
@@ -33995,7 +34077,8 @@
     "order": 4869,
     "tags": [
       "GT",
-      "drapeau"
+      "drapeau",
+      "drapeau : guatemala"
     ],
     "unicode": "🇬🇹"
   },
@@ -34006,7 +34089,8 @@
     "order": 4870,
     "tags": [
       "GU",
-      "drapeau"
+      "drapeau",
+      "drapeau : guam"
     ],
     "unicode": "🇬🇺"
   },
@@ -34017,7 +34101,8 @@
     "order": 4871,
     "tags": [
       "GW",
-      "drapeau"
+      "drapeau",
+      "drapeau : guinée-bissau"
     ],
     "unicode": "🇬🇼"
   },
@@ -34028,7 +34113,8 @@
     "order": 4872,
     "tags": [
       "GY",
-      "drapeau"
+      "drapeau",
+      "drapeau : guyana"
     ],
     "unicode": "🇬🇾"
   },
@@ -34039,7 +34125,8 @@
     "order": 4873,
     "tags": [
       "HK",
-      "drapeau"
+      "drapeau",
+      "drapeau : r.a.s. chinoise de hong kong"
     ],
     "unicode": "🇭🇰"
   },
@@ -34050,7 +34137,8 @@
     "order": 4874,
     "tags": [
       "HM",
-      "drapeau"
+      "drapeau",
+      "drapeau : îles heard-et-macdonald"
     ],
     "unicode": "🇭🇲"
   },
@@ -34061,7 +34149,8 @@
     "order": 4875,
     "tags": [
       "HN",
-      "drapeau"
+      "drapeau",
+      "drapeau : honduras"
     ],
     "unicode": "🇭🇳"
   },
@@ -34072,7 +34161,8 @@
     "order": 4876,
     "tags": [
       "HR",
-      "drapeau"
+      "drapeau",
+      "drapeau : croatie"
     ],
     "unicode": "🇭🇷"
   },
@@ -34083,7 +34173,8 @@
     "order": 4877,
     "tags": [
       "HT",
-      "drapeau"
+      "drapeau",
+      "drapeau : haïti"
     ],
     "unicode": "🇭🇹"
   },
@@ -34094,7 +34185,8 @@
     "order": 4878,
     "tags": [
       "HU",
-      "drapeau"
+      "drapeau",
+      "drapeau : hongrie"
     ],
     "unicode": "🇭🇺"
   },
@@ -34105,7 +34197,8 @@
     "order": 4879,
     "tags": [
       "IC",
-      "drapeau"
+      "drapeau",
+      "drapeau : îles canaries"
     ],
     "unicode": "🇮🇨"
   },
@@ -34116,7 +34209,8 @@
     "order": 4880,
     "tags": [
       "ID",
-      "drapeau"
+      "drapeau",
+      "drapeau : indonésie"
     ],
     "unicode": "🇮🇩"
   },
@@ -34127,7 +34221,8 @@
     "order": 4881,
     "tags": [
       "IE",
-      "drapeau"
+      "drapeau",
+      "drapeau : irlande"
     ],
     "unicode": "🇮🇪"
   },
@@ -34138,7 +34233,8 @@
     "order": 4882,
     "tags": [
       "IL",
-      "drapeau"
+      "drapeau",
+      "drapeau : israël"
     ],
     "unicode": "🇮🇱"
   },
@@ -34149,7 +34245,8 @@
     "order": 4883,
     "tags": [
       "IM",
-      "drapeau"
+      "drapeau",
+      "drapeau : île de man"
     ],
     "unicode": "🇮🇲"
   },
@@ -34160,7 +34257,8 @@
     "order": 4884,
     "tags": [
       "IN",
-      "drapeau"
+      "drapeau",
+      "drapeau : inde"
     ],
     "unicode": "🇮🇳"
   },
@@ -34171,7 +34269,8 @@
     "order": 4885,
     "tags": [
       "IO",
-      "drapeau"
+      "drapeau",
+      "drapeau : territoire britannique de l’océan indien"
     ],
     "unicode": "🇮🇴"
   },
@@ -34182,7 +34281,8 @@
     "order": 4886,
     "tags": [
       "IQ",
-      "drapeau"
+      "drapeau",
+      "drapeau : irak"
     ],
     "unicode": "🇮🇶"
   },
@@ -34193,7 +34293,8 @@
     "order": 4887,
     "tags": [
       "IR",
-      "drapeau"
+      "drapeau",
+      "drapeau : iran"
     ],
     "unicode": "🇮🇷"
   },
@@ -34204,7 +34305,8 @@
     "order": 4888,
     "tags": [
       "IS",
-      "drapeau"
+      "drapeau",
+      "drapeau : islande"
     ],
     "unicode": "🇮🇸"
   },
@@ -34215,7 +34317,8 @@
     "order": 4889,
     "tags": [
       "IT",
-      "drapeau"
+      "drapeau",
+      "drapeau : italie"
     ],
     "unicode": "🇮🇹"
   },
@@ -34226,7 +34329,8 @@
     "order": 4890,
     "tags": [
       "JE",
-      "drapeau"
+      "drapeau",
+      "drapeau : jersey"
     ],
     "unicode": "🇯🇪"
   },
@@ -34237,7 +34341,8 @@
     "order": 4891,
     "tags": [
       "JM",
-      "drapeau"
+      "drapeau",
+      "drapeau : jamaïque"
     ],
     "unicode": "🇯🇲"
   },
@@ -34248,7 +34353,8 @@
     "order": 4892,
     "tags": [
       "JO",
-      "drapeau"
+      "drapeau",
+      "drapeau : jordanie"
     ],
     "unicode": "🇯🇴"
   },
@@ -34259,7 +34365,8 @@
     "order": 4893,
     "tags": [
       "JP",
-      "drapeau"
+      "drapeau",
+      "drapeau : japon"
     ],
     "unicode": "🇯🇵"
   },
@@ -34270,7 +34377,8 @@
     "order": 4894,
     "tags": [
       "KE",
-      "drapeau"
+      "drapeau",
+      "drapeau : kenya"
     ],
     "unicode": "🇰🇪"
   },
@@ -34281,7 +34389,8 @@
     "order": 4895,
     "tags": [
       "KG",
-      "drapeau"
+      "drapeau",
+      "drapeau : kirghizstan"
     ],
     "unicode": "🇰🇬"
   },
@@ -34292,7 +34401,8 @@
     "order": 4896,
     "tags": [
       "KH",
-      "drapeau"
+      "drapeau",
+      "drapeau : cambodge"
     ],
     "unicode": "🇰🇭"
   },
@@ -34303,7 +34413,8 @@
     "order": 4897,
     "tags": [
       "KI",
-      "drapeau"
+      "drapeau",
+      "drapeau : kiribati"
     ],
     "unicode": "🇰🇮"
   },
@@ -34314,7 +34425,8 @@
     "order": 4898,
     "tags": [
       "KM",
-      "drapeau"
+      "drapeau",
+      "drapeau : comores"
     ],
     "unicode": "🇰🇲"
   },
@@ -34325,7 +34437,8 @@
     "order": 4899,
     "tags": [
       "KN",
-      "drapeau"
+      "drapeau",
+      "drapeau : saint-christophe-et-niévès"
     ],
     "unicode": "🇰🇳"
   },
@@ -34336,7 +34449,8 @@
     "order": 4900,
     "tags": [
       "KP",
-      "drapeau"
+      "drapeau",
+      "drapeau : corée du nord"
     ],
     "unicode": "🇰🇵"
   },
@@ -34347,7 +34461,8 @@
     "order": 4901,
     "tags": [
       "KR",
-      "drapeau"
+      "drapeau",
+      "drapeau : corée du sud"
     ],
     "unicode": "🇰🇷"
   },
@@ -34358,7 +34473,8 @@
     "order": 4902,
     "tags": [
       "KW",
-      "drapeau"
+      "drapeau",
+      "drapeau : koweït"
     ],
     "unicode": "🇰🇼"
   },
@@ -34369,7 +34485,8 @@
     "order": 4903,
     "tags": [
       "KY",
-      "drapeau"
+      "drapeau",
+      "drapeau : îles caïmans"
     ],
     "unicode": "🇰🇾"
   },
@@ -34380,7 +34497,8 @@
     "order": 4904,
     "tags": [
       "KZ",
-      "drapeau"
+      "drapeau",
+      "drapeau : kazakhstan"
     ],
     "unicode": "🇰🇿"
   },
@@ -34391,7 +34509,8 @@
     "order": 4905,
     "tags": [
       "LA",
-      "drapeau"
+      "drapeau",
+      "drapeau : laos"
     ],
     "unicode": "🇱🇦"
   },
@@ -34402,7 +34521,8 @@
     "order": 4906,
     "tags": [
       "LB",
-      "drapeau"
+      "drapeau",
+      "drapeau : liban"
     ],
     "unicode": "🇱🇧"
   },
@@ -34413,7 +34533,8 @@
     "order": 4907,
     "tags": [
       "LC",
-      "drapeau"
+      "drapeau",
+      "drapeau : sainte-lucie"
     ],
     "unicode": "🇱🇨"
   },
@@ -34424,7 +34545,8 @@
     "order": 4908,
     "tags": [
       "LI",
-      "drapeau"
+      "drapeau",
+      "drapeau : liechtenstein"
     ],
     "unicode": "🇱🇮"
   },
@@ -34435,7 +34557,8 @@
     "order": 4909,
     "tags": [
       "LK",
-      "drapeau"
+      "drapeau",
+      "drapeau : sri lanka"
     ],
     "unicode": "🇱🇰"
   },
@@ -34446,7 +34569,8 @@
     "order": 4910,
     "tags": [
       "LR",
-      "drapeau"
+      "drapeau",
+      "drapeau : liberia"
     ],
     "unicode": "🇱🇷"
   },
@@ -34457,7 +34581,8 @@
     "order": 4911,
     "tags": [
       "LS",
-      "drapeau"
+      "drapeau",
+      "drapeau : lesotho"
     ],
     "unicode": "🇱🇸"
   },
@@ -34468,7 +34593,8 @@
     "order": 4912,
     "tags": [
       "LT",
-      "drapeau"
+      "drapeau",
+      "drapeau : lituanie"
     ],
     "unicode": "🇱🇹"
   },
@@ -34479,7 +34605,8 @@
     "order": 4913,
     "tags": [
       "LU",
-      "drapeau"
+      "drapeau",
+      "drapeau : luxembourg"
     ],
     "unicode": "🇱🇺"
   },
@@ -34490,7 +34617,8 @@
     "order": 4914,
     "tags": [
       "LV",
-      "drapeau"
+      "drapeau",
+      "drapeau : lettonie"
     ],
     "unicode": "🇱🇻"
   },
@@ -34501,7 +34629,8 @@
     "order": 4915,
     "tags": [
       "LY",
-      "drapeau"
+      "drapeau",
+      "drapeau : libye"
     ],
     "unicode": "🇱🇾"
   },
@@ -34512,7 +34641,8 @@
     "order": 4916,
     "tags": [
       "MA",
-      "drapeau"
+      "drapeau",
+      "drapeau : maroc"
     ],
     "unicode": "🇲🇦"
   },
@@ -34523,7 +34653,8 @@
     "order": 4917,
     "tags": [
       "MC",
-      "drapeau"
+      "drapeau",
+      "drapeau : monaco"
     ],
     "unicode": "🇲🇨"
   },
@@ -34534,7 +34665,8 @@
     "order": 4918,
     "tags": [
       "MD",
-      "drapeau"
+      "drapeau",
+      "drapeau : moldavie"
     ],
     "unicode": "🇲🇩"
   },
@@ -34545,7 +34677,8 @@
     "order": 4919,
     "tags": [
       "ME",
-      "drapeau"
+      "drapeau",
+      "drapeau : monténégro"
     ],
     "unicode": "🇲🇪"
   },
@@ -34556,7 +34689,8 @@
     "order": 4920,
     "tags": [
       "MF",
-      "drapeau"
+      "drapeau",
+      "drapeau : saint-martin"
     ],
     "unicode": "🇲🇫"
   },
@@ -34567,7 +34701,8 @@
     "order": 4921,
     "tags": [
       "MG",
-      "drapeau"
+      "drapeau",
+      "drapeau : madagascar"
     ],
     "unicode": "🇲🇬"
   },
@@ -34578,7 +34713,8 @@
     "order": 4922,
     "tags": [
       "MH",
-      "drapeau"
+      "drapeau",
+      "drapeau : îles marshall"
     ],
     "unicode": "🇲🇭"
   },
@@ -34589,7 +34725,8 @@
     "order": 4923,
     "tags": [
       "MK",
-      "drapeau"
+      "drapeau",
+      "drapeau : macédoine du nord"
     ],
     "unicode": "🇲🇰"
   },
@@ -34600,7 +34737,8 @@
     "order": 4924,
     "tags": [
       "ML",
-      "drapeau"
+      "drapeau",
+      "drapeau : mali"
     ],
     "unicode": "🇲🇱"
   },
@@ -34611,7 +34749,8 @@
     "order": 4925,
     "tags": [
       "MM",
-      "drapeau"
+      "drapeau",
+      "drapeau : myanmar (birmanie)"
     ],
     "unicode": "🇲🇲"
   },
@@ -34622,7 +34761,8 @@
     "order": 4926,
     "tags": [
       "MN",
-      "drapeau"
+      "drapeau",
+      "drapeau : mongolie"
     ],
     "unicode": "🇲🇳"
   },
@@ -34633,7 +34773,8 @@
     "order": 4927,
     "tags": [
       "MO",
-      "drapeau"
+      "drapeau",
+      "drapeau : r.a.s. chinoise de macao"
     ],
     "unicode": "🇲🇴"
   },
@@ -34644,7 +34785,8 @@
     "order": 4928,
     "tags": [
       "MP",
-      "drapeau"
+      "drapeau",
+      "drapeau : îles mariannes du nord"
     ],
     "unicode": "🇲🇵"
   },
@@ -34655,7 +34797,8 @@
     "order": 4929,
     "tags": [
       "MQ",
-      "drapeau"
+      "drapeau",
+      "drapeau : martinique"
     ],
     "unicode": "🇲🇶"
   },
@@ -34666,7 +34809,8 @@
     "order": 4930,
     "tags": [
       "MR",
-      "drapeau"
+      "drapeau",
+      "drapeau : mauritanie"
     ],
     "unicode": "🇲🇷"
   },
@@ -34677,7 +34821,8 @@
     "order": 4931,
     "tags": [
       "MS",
-      "drapeau"
+      "drapeau",
+      "drapeau : montserrat"
     ],
     "unicode": "🇲🇸"
   },
@@ -34688,7 +34833,8 @@
     "order": 4932,
     "tags": [
       "MT",
-      "drapeau"
+      "drapeau",
+      "drapeau : malte"
     ],
     "unicode": "🇲🇹"
   },
@@ -34699,7 +34845,8 @@
     "order": 4933,
     "tags": [
       "MU",
-      "drapeau"
+      "drapeau",
+      "drapeau : maurice"
     ],
     "unicode": "🇲🇺"
   },
@@ -34710,7 +34857,8 @@
     "order": 4934,
     "tags": [
       "MV",
-      "drapeau"
+      "drapeau",
+      "drapeau : maldives"
     ],
     "unicode": "🇲🇻"
   },
@@ -34721,7 +34869,8 @@
     "order": 4935,
     "tags": [
       "MW",
-      "drapeau"
+      "drapeau",
+      "drapeau : malawi"
     ],
     "unicode": "🇲🇼"
   },
@@ -34732,7 +34881,8 @@
     "order": 4936,
     "tags": [
       "MX",
-      "drapeau"
+      "drapeau",
+      "drapeau : mexique"
     ],
     "unicode": "🇲🇽"
   },
@@ -34743,7 +34893,8 @@
     "order": 4937,
     "tags": [
       "MY",
-      "drapeau"
+      "drapeau",
+      "drapeau : malaisie"
     ],
     "unicode": "🇲🇾"
   },
@@ -34754,7 +34905,8 @@
     "order": 4938,
     "tags": [
       "MZ",
-      "drapeau"
+      "drapeau",
+      "drapeau : mozambique"
     ],
     "unicode": "🇲🇿"
   },
@@ -34765,7 +34917,8 @@
     "order": 4939,
     "tags": [
       "NA",
-      "drapeau"
+      "drapeau",
+      "drapeau : namibie"
     ],
     "unicode": "🇳🇦"
   },
@@ -34776,7 +34929,8 @@
     "order": 4940,
     "tags": [
       "NC",
-      "drapeau"
+      "drapeau",
+      "drapeau : nouvelle-calédonie"
     ],
     "unicode": "🇳🇨"
   },
@@ -34787,7 +34941,8 @@
     "order": 4941,
     "tags": [
       "NE",
-      "drapeau"
+      "drapeau",
+      "drapeau : niger"
     ],
     "unicode": "🇳🇪"
   },
@@ -34798,7 +34953,8 @@
     "order": 4942,
     "tags": [
       "NF",
-      "drapeau"
+      "drapeau",
+      "drapeau : île norfolk"
     ],
     "unicode": "🇳🇫"
   },
@@ -34809,7 +34965,8 @@
     "order": 4943,
     "tags": [
       "NG",
-      "drapeau"
+      "drapeau",
+      "drapeau : nigeria"
     ],
     "unicode": "🇳🇬"
   },
@@ -34820,7 +34977,8 @@
     "order": 4944,
     "tags": [
       "NI",
-      "drapeau"
+      "drapeau",
+      "drapeau : nicaragua"
     ],
     "unicode": "🇳🇮"
   },
@@ -34831,7 +34989,8 @@
     "order": 4945,
     "tags": [
       "NL",
-      "drapeau"
+      "drapeau",
+      "drapeau : pays-bas"
     ],
     "unicode": "🇳🇱"
   },
@@ -34842,7 +35001,8 @@
     "order": 4946,
     "tags": [
       "NO",
-      "drapeau"
+      "drapeau",
+      "drapeau : norvège"
     ],
     "unicode": "🇳🇴"
   },
@@ -34853,7 +35013,8 @@
     "order": 4947,
     "tags": [
       "NP",
-      "drapeau"
+      "drapeau",
+      "drapeau : népal"
     ],
     "unicode": "🇳🇵"
   },
@@ -34864,7 +35025,8 @@
     "order": 4948,
     "tags": [
       "NR",
-      "drapeau"
+      "drapeau",
+      "drapeau : nauru"
     ],
     "unicode": "🇳🇷"
   },
@@ -34875,7 +35037,8 @@
     "order": 4949,
     "tags": [
       "NU",
-      "drapeau"
+      "drapeau",
+      "drapeau : niue"
     ],
     "unicode": "🇳🇺"
   },
@@ -34886,7 +35049,8 @@
     "order": 4950,
     "tags": [
       "NZ",
-      "drapeau"
+      "drapeau",
+      "drapeau : nouvelle-zélande"
     ],
     "unicode": "🇳🇿"
   },
@@ -34897,7 +35061,8 @@
     "order": 4951,
     "tags": [
       "OM",
-      "drapeau"
+      "drapeau",
+      "drapeau : oman"
     ],
     "unicode": "🇴🇲"
   },
@@ -34908,7 +35073,8 @@
     "order": 4952,
     "tags": [
       "PA",
-      "drapeau"
+      "drapeau",
+      "drapeau : panama"
     ],
     "unicode": "🇵🇦"
   },
@@ -34919,7 +35085,8 @@
     "order": 4953,
     "tags": [
       "PE",
-      "drapeau"
+      "drapeau",
+      "drapeau : pérou"
     ],
     "unicode": "🇵🇪"
   },
@@ -34930,7 +35097,8 @@
     "order": 4954,
     "tags": [
       "PF",
-      "drapeau"
+      "drapeau",
+      "drapeau : polynésie française"
     ],
     "unicode": "🇵🇫"
   },
@@ -34941,7 +35109,8 @@
     "order": 4955,
     "tags": [
       "PG",
-      "drapeau"
+      "drapeau",
+      "drapeau : papouasie-nouvelle-guinée"
     ],
     "unicode": "🇵🇬"
   },
@@ -34952,7 +35121,8 @@
     "order": 4956,
     "tags": [
       "PH",
-      "drapeau"
+      "drapeau",
+      "drapeau : philippines"
     ],
     "unicode": "🇵🇭"
   },
@@ -34963,7 +35133,8 @@
     "order": 4957,
     "tags": [
       "PK",
-      "drapeau"
+      "drapeau",
+      "drapeau : pakistan"
     ],
     "unicode": "🇵🇰"
   },
@@ -34974,7 +35145,8 @@
     "order": 4958,
     "tags": [
       "PL",
-      "drapeau"
+      "drapeau",
+      "drapeau : pologne"
     ],
     "unicode": "🇵🇱"
   },
@@ -34985,7 +35157,8 @@
     "order": 4959,
     "tags": [
       "PM",
-      "drapeau"
+      "drapeau",
+      "drapeau : saint-pierre-et-miquelon"
     ],
     "unicode": "🇵🇲"
   },
@@ -34996,7 +35169,8 @@
     "order": 4960,
     "tags": [
       "PN",
-      "drapeau"
+      "drapeau",
+      "drapeau : îles pitcairn"
     ],
     "unicode": "🇵🇳"
   },
@@ -35007,7 +35181,8 @@
     "order": 4961,
     "tags": [
       "PR",
-      "drapeau"
+      "drapeau",
+      "drapeau : porto rico"
     ],
     "unicode": "🇵🇷"
   },
@@ -35018,7 +35193,8 @@
     "order": 4962,
     "tags": [
       "PS",
-      "drapeau"
+      "drapeau",
+      "drapeau : territoires palestiniens"
     ],
     "unicode": "🇵🇸"
   },
@@ -35029,7 +35205,8 @@
     "order": 4963,
     "tags": [
       "PT",
-      "drapeau"
+      "drapeau",
+      "drapeau : portugal"
     ],
     "unicode": "🇵🇹"
   },
@@ -35040,7 +35217,8 @@
     "order": 4964,
     "tags": [
       "PW",
-      "drapeau"
+      "drapeau",
+      "drapeau : palaos"
     ],
     "unicode": "🇵🇼"
   },
@@ -35051,7 +35229,8 @@
     "order": 4965,
     "tags": [
       "PY",
-      "drapeau"
+      "drapeau",
+      "drapeau : paraguay"
     ],
     "unicode": "🇵🇾"
   },
@@ -35062,7 +35241,8 @@
     "order": 4966,
     "tags": [
       "QA",
-      "drapeau"
+      "drapeau",
+      "drapeau : qatar"
     ],
     "unicode": "🇶🇦"
   },
@@ -35073,7 +35253,8 @@
     "order": 4967,
     "tags": [
       "RE",
-      "drapeau"
+      "drapeau",
+      "drapeau : la réunion"
     ],
     "unicode": "🇷🇪"
   },
@@ -35084,7 +35265,8 @@
     "order": 4968,
     "tags": [
       "RO",
-      "drapeau"
+      "drapeau",
+      "drapeau : roumanie"
     ],
     "unicode": "🇷🇴"
   },
@@ -35095,7 +35277,8 @@
     "order": 4969,
     "tags": [
       "RS",
-      "drapeau"
+      "drapeau",
+      "drapeau : serbie"
     ],
     "unicode": "🇷🇸"
   },
@@ -35106,7 +35289,8 @@
     "order": 4970,
     "tags": [
       "RU",
-      "drapeau"
+      "drapeau",
+      "drapeau : russie"
     ],
     "unicode": "🇷🇺"
   },
@@ -35117,7 +35301,8 @@
     "order": 4971,
     "tags": [
       "RW",
-      "drapeau"
+      "drapeau",
+      "drapeau : rwanda"
     ],
     "unicode": "🇷🇼"
   },
@@ -35128,7 +35313,8 @@
     "order": 4972,
     "tags": [
       "SA",
-      "drapeau"
+      "drapeau",
+      "drapeau : arabie saoudite"
     ],
     "unicode": "🇸🇦"
   },
@@ -35139,7 +35325,8 @@
     "order": 4973,
     "tags": [
       "SB",
-      "drapeau"
+      "drapeau",
+      "drapeau : îles salomon"
     ],
     "unicode": "🇸🇧"
   },
@@ -35150,7 +35337,8 @@
     "order": 4974,
     "tags": [
       "SC",
-      "drapeau"
+      "drapeau",
+      "drapeau : seychelles"
     ],
     "unicode": "🇸🇨"
   },
@@ -35161,7 +35349,8 @@
     "order": 4975,
     "tags": [
       "SD",
-      "drapeau"
+      "drapeau",
+      "drapeau : soudan"
     ],
     "unicode": "🇸🇩"
   },
@@ -35172,7 +35361,8 @@
     "order": 4976,
     "tags": [
       "SE",
-      "drapeau"
+      "drapeau",
+      "drapeau : suède"
     ],
     "unicode": "🇸🇪"
   },
@@ -35183,7 +35373,8 @@
     "order": 4977,
     "tags": [
       "SG",
-      "drapeau"
+      "drapeau",
+      "drapeau : singapour"
     ],
     "unicode": "🇸🇬"
   },
@@ -35194,7 +35385,8 @@
     "order": 4978,
     "tags": [
       "SH",
-      "drapeau"
+      "drapeau",
+      "drapeau : sainte-hélène"
     ],
     "unicode": "🇸🇭"
   },
@@ -35205,7 +35397,8 @@
     "order": 4979,
     "tags": [
       "SI",
-      "drapeau"
+      "drapeau",
+      "drapeau : slovénie"
     ],
     "unicode": "🇸🇮"
   },
@@ -35216,7 +35409,8 @@
     "order": 4980,
     "tags": [
       "SJ",
-      "drapeau"
+      "drapeau",
+      "drapeau : svalbard et jan mayen"
     ],
     "unicode": "🇸🇯"
   },
@@ -35227,7 +35421,8 @@
     "order": 4981,
     "tags": [
       "SK",
-      "drapeau"
+      "drapeau",
+      "drapeau : slovaquie"
     ],
     "unicode": "🇸🇰"
   },
@@ -35238,7 +35433,8 @@
     "order": 4982,
     "tags": [
       "SL",
-      "drapeau"
+      "drapeau",
+      "drapeau : sierra leone"
     ],
     "unicode": "🇸🇱"
   },
@@ -35249,7 +35445,8 @@
     "order": 4983,
     "tags": [
       "SM",
-      "drapeau"
+      "drapeau",
+      "drapeau : saint-marin"
     ],
     "unicode": "🇸🇲"
   },
@@ -35260,7 +35457,8 @@
     "order": 4984,
     "tags": [
       "SN",
-      "drapeau"
+      "drapeau",
+      "drapeau : sénégal"
     ],
     "unicode": "🇸🇳"
   },
@@ -35271,7 +35469,8 @@
     "order": 4985,
     "tags": [
       "SO",
-      "drapeau"
+      "drapeau",
+      "drapeau : somalie"
     ],
     "unicode": "🇸🇴"
   },
@@ -35282,7 +35481,8 @@
     "order": 4986,
     "tags": [
       "SR",
-      "drapeau"
+      "drapeau",
+      "drapeau : suriname"
     ],
     "unicode": "🇸🇷"
   },
@@ -35293,7 +35493,8 @@
     "order": 4987,
     "tags": [
       "SS",
-      "drapeau"
+      "drapeau",
+      "drapeau : soudan du sud"
     ],
     "unicode": "🇸🇸"
   },
@@ -35304,7 +35505,8 @@
     "order": 4988,
     "tags": [
       "ST",
-      "drapeau"
+      "drapeau",
+      "drapeau : sao tomé-et-principe"
     ],
     "unicode": "🇸🇹"
   },
@@ -35315,7 +35517,8 @@
     "order": 4989,
     "tags": [
       "SV",
-      "drapeau"
+      "drapeau",
+      "drapeau : salvador"
     ],
     "unicode": "🇸🇻"
   },
@@ -35326,7 +35529,8 @@
     "order": 4990,
     "tags": [
       "SX",
-      "drapeau"
+      "drapeau",
+      "drapeau : saint-martin (partie néerlandaise)"
     ],
     "unicode": "🇸🇽"
   },
@@ -35337,7 +35541,8 @@
     "order": 4991,
     "tags": [
       "SY",
-      "drapeau"
+      "drapeau",
+      "drapeau : syrie"
     ],
     "unicode": "🇸🇾"
   },
@@ -35348,7 +35553,8 @@
     "order": 4992,
     "tags": [
       "SZ",
-      "drapeau"
+      "drapeau",
+      "drapeau : eswatini"
     ],
     "unicode": "🇸🇿"
   },
@@ -35359,7 +35565,8 @@
     "order": 4993,
     "tags": [
       "TA",
-      "drapeau"
+      "drapeau",
+      "drapeau : tristan da cunha"
     ],
     "unicode": "🇹🇦"
   },
@@ -35370,7 +35577,8 @@
     "order": 4994,
     "tags": [
       "TC",
-      "drapeau"
+      "drapeau",
+      "drapeau : îles turques-et-caïques"
     ],
     "unicode": "🇹🇨"
   },
@@ -35381,7 +35589,8 @@
     "order": 4995,
     "tags": [
       "TD",
-      "drapeau"
+      "drapeau",
+      "drapeau : tchad"
     ],
     "unicode": "🇹🇩"
   },
@@ -35392,7 +35601,8 @@
     "order": 4996,
     "tags": [
       "TF",
-      "drapeau"
+      "drapeau",
+      "drapeau : terres australes françaises"
     ],
     "unicode": "🇹🇫"
   },
@@ -35403,7 +35613,8 @@
     "order": 4997,
     "tags": [
       "TG",
-      "drapeau"
+      "drapeau",
+      "drapeau : togo"
     ],
     "unicode": "🇹🇬"
   },
@@ -35414,7 +35625,8 @@
     "order": 4998,
     "tags": [
       "TH",
-      "drapeau"
+      "drapeau",
+      "drapeau : thaïlande"
     ],
     "unicode": "🇹🇭"
   },
@@ -35425,7 +35637,8 @@
     "order": 4999,
     "tags": [
       "TJ",
-      "drapeau"
+      "drapeau",
+      "drapeau : tadjikistan"
     ],
     "unicode": "🇹🇯"
   },
@@ -35436,7 +35649,8 @@
     "order": 5000,
     "tags": [
       "TK",
-      "drapeau"
+      "drapeau",
+      "drapeau : tokelau"
     ],
     "unicode": "🇹🇰"
   },
@@ -35447,7 +35661,8 @@
     "order": 5001,
     "tags": [
       "TL",
-      "drapeau"
+      "drapeau",
+      "drapeau : timor oriental"
     ],
     "unicode": "🇹🇱"
   },
@@ -35458,7 +35673,8 @@
     "order": 5002,
     "tags": [
       "TM",
-      "drapeau"
+      "drapeau",
+      "drapeau : turkménistan"
     ],
     "unicode": "🇹🇲"
   },
@@ -35469,7 +35685,8 @@
     "order": 5003,
     "tags": [
       "TN",
-      "drapeau"
+      "drapeau",
+      "drapeau : tunisie"
     ],
     "unicode": "🇹🇳"
   },
@@ -35480,7 +35697,8 @@
     "order": 5004,
     "tags": [
       "TO",
-      "drapeau"
+      "drapeau",
+      "drapeau : tonga"
     ],
     "unicode": "🇹🇴"
   },
@@ -35491,7 +35709,8 @@
     "order": 5005,
     "tags": [
       "TR",
-      "drapeau"
+      "drapeau",
+      "drapeau : turquie"
     ],
     "unicode": "🇹🇷"
   },
@@ -35502,7 +35721,8 @@
     "order": 5006,
     "tags": [
       "TT",
-      "drapeau"
+      "drapeau",
+      "drapeau : trinité-et-tobago"
     ],
     "unicode": "🇹🇹"
   },
@@ -35513,7 +35733,8 @@
     "order": 5007,
     "tags": [
       "TV",
-      "drapeau"
+      "drapeau",
+      "drapeau : tuvalu"
     ],
     "unicode": "🇹🇻"
   },
@@ -35524,7 +35745,8 @@
     "order": 5008,
     "tags": [
       "TW",
-      "drapeau"
+      "drapeau",
+      "drapeau : taïwan"
     ],
     "unicode": "🇹🇼"
   },
@@ -35535,7 +35757,8 @@
     "order": 5009,
     "tags": [
       "TZ",
-      "drapeau"
+      "drapeau",
+      "drapeau : tanzanie"
     ],
     "unicode": "🇹🇿"
   },
@@ -35546,7 +35769,8 @@
     "order": 5010,
     "tags": [
       "UA",
-      "drapeau"
+      "drapeau",
+      "drapeau : ukraine"
     ],
     "unicode": "🇺🇦"
   },
@@ -35557,7 +35781,8 @@
     "order": 5011,
     "tags": [
       "UG",
-      "drapeau"
+      "drapeau",
+      "drapeau : ouganda"
     ],
     "unicode": "🇺🇬"
   },
@@ -35568,7 +35793,8 @@
     "order": 5012,
     "tags": [
       "UM",
-      "drapeau"
+      "drapeau",
+      "drapeau : îles mineures éloignées des états-unis"
     ],
     "unicode": "🇺🇲"
   },
@@ -35579,7 +35805,8 @@
     "order": 5013,
     "tags": [
       "UN",
-      "drapeau"
+      "drapeau",
+      "drapeau : nations unies"
     ],
     "unicode": "🇺🇳"
   },
@@ -35590,7 +35817,8 @@
     "order": 5014,
     "tags": [
       "US",
-      "drapeau"
+      "drapeau",
+      "drapeau : états-unis"
     ],
     "unicode": "🇺🇸"
   },
@@ -35601,7 +35829,8 @@
     "order": 5015,
     "tags": [
       "UY",
-      "drapeau"
+      "drapeau",
+      "drapeau : uruguay"
     ],
     "unicode": "🇺🇾"
   },
@@ -35612,7 +35841,8 @@
     "order": 5016,
     "tags": [
       "UZ",
-      "drapeau"
+      "drapeau",
+      "drapeau : ouzbékistan"
     ],
     "unicode": "🇺🇿"
   },
@@ -35623,7 +35853,8 @@
     "order": 5017,
     "tags": [
       "VA",
-      "drapeau"
+      "drapeau",
+      "drapeau : état de la cité du vatican"
     ],
     "unicode": "🇻🇦"
   },
@@ -35634,7 +35865,8 @@
     "order": 5018,
     "tags": [
       "VC",
-      "drapeau"
+      "drapeau",
+      "drapeau : saint-vincent-et-les grenadines"
     ],
     "unicode": "🇻🇨"
   },
@@ -35645,7 +35877,8 @@
     "order": 5019,
     "tags": [
       "VE",
-      "drapeau"
+      "drapeau",
+      "drapeau : venezuela"
     ],
     "unicode": "🇻🇪"
   },
@@ -35656,7 +35889,8 @@
     "order": 5020,
     "tags": [
       "VG",
-      "drapeau"
+      "drapeau",
+      "drapeau : îles vierges britanniques"
     ],
     "unicode": "🇻🇬"
   },
@@ -35667,7 +35901,8 @@
     "order": 5021,
     "tags": [
       "VI",
-      "drapeau"
+      "drapeau",
+      "drapeau : îles vierges des états-unis"
     ],
     "unicode": "🇻🇮"
   },
@@ -35678,7 +35913,8 @@
     "order": 5022,
     "tags": [
       "VN",
-      "drapeau"
+      "drapeau",
+      "drapeau : viêt nam"
     ],
     "unicode": "🇻🇳"
   },
@@ -35689,7 +35925,8 @@
     "order": 5023,
     "tags": [
       "VU",
-      "drapeau"
+      "drapeau",
+      "drapeau : vanuatu"
     ],
     "unicode": "🇻🇺"
   },
@@ -35700,7 +35937,8 @@
     "order": 5024,
     "tags": [
       "WF",
-      "drapeau"
+      "drapeau",
+      "drapeau : wallis-et-futuna"
     ],
     "unicode": "🇼🇫"
   },
@@ -35711,7 +35949,8 @@
     "order": 5025,
     "tags": [
       "WS",
-      "drapeau"
+      "drapeau",
+      "drapeau : samoa"
     ],
     "unicode": "🇼🇸"
   },
@@ -35722,7 +35961,8 @@
     "order": 5026,
     "tags": [
       "XK",
-      "drapeau"
+      "drapeau",
+      "drapeau : kosovo"
     ],
     "unicode": "🇽🇰"
   },
@@ -35733,7 +35973,8 @@
     "order": 5027,
     "tags": [
       "YE",
-      "drapeau"
+      "drapeau",
+      "drapeau : yémen"
     ],
     "unicode": "🇾🇪"
   },
@@ -35744,7 +35985,8 @@
     "order": 5028,
     "tags": [
       "YT",
-      "drapeau"
+      "drapeau",
+      "drapeau : mayotte"
     ],
     "unicode": "🇾🇹"
   },
@@ -35755,7 +35997,8 @@
     "order": 5029,
     "tags": [
       "ZA",
-      "drapeau"
+      "drapeau",
+      "drapeau : afrique du sud"
     ],
     "unicode": "🇿🇦"
   },
@@ -35766,7 +36009,8 @@
     "order": 5030,
     "tags": [
       "ZM",
-      "drapeau"
+      "drapeau",
+      "drapeau : zambie"
     ],
     "unicode": "🇿🇲"
   },
@@ -35777,7 +36021,8 @@
     "order": 5031,
     "tags": [
       "ZW",
-      "drapeau"
+      "drapeau",
+      "drapeau : zimbabwe"
     ],
     "unicode": "🇿🇼"
   },
@@ -35788,6 +36033,7 @@
     "order": 5032,
     "tags": [
       "drapeau",
+      "drapeau : angleterre",
       "gbeng"
     ],
     "unicode": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
@@ -35799,6 +36045,7 @@
     "order": 5033,
     "tags": [
       "drapeau",
+      "drapeau : écosse",
       "gbsct"
     ],
     "unicode": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
@@ -35810,6 +36057,7 @@
     "order": 5034,
     "tags": [
       "drapeau",
+      "drapeau : pays de galles",
       "gbwls"
     ],
     "unicode": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"

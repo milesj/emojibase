@@ -251,11 +251,12 @@
   {
     "group": 0,
     "hexcode": "1F643",
-    "label": "fejjel lefelé fordult arc",
+    "label": "arc fejjel lefelé",
     "order": 10,
     "tags": [
       "arc",
-      "fejjel lefelé"
+      "fejjel lefelé",
+      "fejjel lefelé fordult arc"
     ],
     "unicode": "🙃"
   },
@@ -320,7 +321,7 @@
   {
     "group": 0,
     "hexcode": "1F970",
-    "label": "mosolygós arc szívekkel",
+    "label": "mosolygó arc szívekkel",
     "order": 15,
     "tags": [
       "imádat",
@@ -559,6 +560,8 @@
       "hitetlenkedés",
       "ijedt",
       "meglep",
+      "nyitott szemű",
+      "száját takaró arc",
       "zavarba hoz",
       "ámulat"
     ],
@@ -703,7 +706,9 @@
     "label": "arc a felhőben",
     "order": 44,
     "tags": [
-      "arc a felhőben"
+      "arc a ködben",
+      "elgondolkodó",
+      "fej a felhők között"
     ],
     "unicode": "😶‍🌫️"
   },
@@ -723,11 +728,12 @@
   {
     "group": 0,
     "hexcode": "1F612",
-    "label": "szomorú arc",
+    "label": "unott arc",
     "order": 47,
     "tags": [
       "arc",
-      "szomorú"
+      "boldogtalan",
+      "unott"
     ],
     "unicode": "😒",
     "emoticon": ":?"
@@ -761,7 +767,12 @@
     "label": "levegőt kifújó arc",
     "order": 50,
     "tags": [
-      "levegőt kifújó arc"
+      "fütty",
+      "kilégzés",
+      "megkönnyebbülés",
+      "suttogás",
+      "sóhajtás",
+      "zihálás"
     ],
     "unicode": "😮‍💨"
   },
@@ -796,28 +807,20 @@
   {
     "group": 0,
     "hexcode": "1F642-200D-2194-FE0F",
-    "label": "head shaking horizontally",
+    "label": "vízszintesen rázkódó arc",
     "order": 53,
     "tags": [
-      "arc",
-      "balra-jobbra mutató nyíl",
-      "finoman mosolygó arc",
-      "mosoly",
-      "nyíl"
+      "nem, fejrázás"
     ],
     "unicode": "🙂‍↔️"
   },
   {
     "group": 0,
     "hexcode": "1F642-200D-2195-FE0F",
-    "label": "head shaking vertically",
+    "label": "függőlegesen rázkódó arc",
     "order": 55,
     "tags": [
-      "arc",
-      "fel-le mutató nyíl",
-      "finoman mosolygó arc",
-      "mosoly",
-      "nyíl"
+      "bólintás, igen"
     ],
     "unicode": "🙂‍↕️"
   },
@@ -1019,7 +1022,11 @@
     "label": "spirálszemű arc",
     "order": 72,
     "tags": [
-      "spirálszemű arc"
+      "baj",
+      "hipnotizált",
+      "húha",
+      "spirál",
+      "szédülő"
     ],
     "unicode": "😵‍💫"
   },
@@ -1309,6 +1316,7 @@
     "tags": [
       "arc",
       "csalódott",
+      "de megkönnyebbült arc",
       "huhh",
       "megkönnyebbült"
     ],
@@ -1980,7 +1988,12 @@
     "label": "gyógyuló szív",
     "order": 150,
     "tags": [
-      "gyógyuló szív"
+      "egészségesebb",
+      "felépülő",
+      "gyógyuló",
+      "javuló",
+      "jól van",
+      "meggyógyuló"
     ],
     "unicode": "❤️‍🩹"
   },
@@ -5378,7 +5391,8 @@
     "label": "férfi: szakáll",
     "order": 564,
     "tags": [
-      "férfi: szakáll"
+      "férfi",
+      "szakáll"
     ],
     "unicode": "🧔‍♂️",
     "skins": [
@@ -5425,7 +5439,8 @@
     "label": "nő: szakáll",
     "order": 576,
     "tags": [
-      "nő: szakáll"
+      "nő",
+      "szakáll"
     ],
     "unicode": "🧔‍♀️",
     "skins": [
@@ -12009,7 +12024,8 @@
     "label": "télapó",
     "order": 1661,
     "tags": [
-      "mikulás, karácsony"
+      "karácsony",
+      "mikulás"
     ],
     "unicode": "🧑‍🎄",
     "skins": [
@@ -15567,7 +15583,9 @@
     "label": "öltönyös, lebegő ember",
     "order": 2423,
     "tags": [
+      "lebegő ember",
       "öltöny",
+      "öltönyös",
       "üzletember"
     ],
     "unicode": "🕴️",
@@ -20897,48 +20915,46 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2",
-    "label": "family: adult, adult, child",
+    "label": "család: felnőtt, felnőtt, gyerek",
     "order": 3470,
     "tags": [
+      "család: felnőtt",
       "felnőtt",
-      "gyerek",
-      "gyermek"
+      "gyerek"
     ],
     "unicode": "🧑‍🧑‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, adult, child, child",
+    "label": "család: felnőtt, felnőtt, gyerek, gyerek",
     "order": 3471,
     "tags": [
+      "család: felnőtt",
       "felnőtt",
-      "gyerek",
-      "gyermek"
+      "gyerek"
     ],
     "unicode": "🧑‍🧑‍🧒‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2",
-    "label": "family: adult, child",
+    "label": "család: felnőtt, gyerek",
     "order": 3472,
     "tags": [
-      "felnőtt",
-      "gyerek",
-      "gyermek"
+      "család: felnőtt",
+      "gyerek"
     ],
     "unicode": "🧑‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, child, child",
+    "label": "család: felnőtt, gyerek, gyerek",
     "order": 3473,
     "tags": [
-      "felnőtt",
-      "gyerek",
-      "gyermek"
+      "család: felnőtt",
+      "gyerek"
     ],
     "unicode": "🧑‍🧒‍🧒"
   },
@@ -22022,14 +22038,14 @@
   {
     "group": 3,
     "hexcode": "1F426-200D-2B1B",
-    "label": "black bird",
+    "label": "fekete madár",
     "order": 3572,
     "tags": [
-      "bird",
-      "black",
-      "crow",
-      "raven",
-      "rook"
+      "fekete",
+      "holló",
+      "madár",
+      "varjú",
+      "vetési varjú"
     ],
     "unicode": "🐦‍⬛"
   },
@@ -22049,12 +22065,13 @@
   {
     "group": 3,
     "hexcode": "1F426-200D-1F525",
-    "label": "phoenix",
+    "label": "főnix",
     "order": 3574,
     "tags": [
-      "láng",
-      "madár",
-      "tűz"
+      "fantasy",
+      "reinkarnáció",
+      "tűzmadár",
+      "újjászületés"
     ],
     "unicode": "🐦‍🔥"
   },
@@ -22854,12 +22871,9 @@
     "label": "lime",
     "order": 3649,
     "tags": [
-      "citrom",
-      "citrusféle",
+      "citrus",
       "gyümölcs",
-      "négyzet",
-      "növény",
-      "zöld"
+      "trópusi"
     ],
     "unicode": "🍋‍🟩"
   },
@@ -23216,13 +23230,12 @@
   {
     "group": 4,
     "hexcode": "1F344-200D-1F7EB",
-    "label": "brown mushroom",
+    "label": "barna gomba",
     "order": 3682,
     "tags": [
-      "barna",
       "gomba",
-      "négyzet",
-      "növény"
+      "természet",
+      "étel"
     ],
     "unicode": "🍄‍🟫"
   },
@@ -26446,8 +26459,10 @@
     "order": 3984,
     "tags": [
       "holdfázisok",
+      "növő",
       "növő hold",
       "sarló",
+      "sarló alakú hold",
       "ég"
     ],
     "unicode": "🌒"
@@ -26523,10 +26538,11 @@
     "order": 3990,
     "tags": [
       "fogyó",
-      "fogyó, kifli alakú hold",
       "hold",
       "holdfázisok",
+      "kifli alakú hold",
       "sarló",
+      "sarló alakú hold",
       "ég"
     ],
     "unicode": "🌘"
@@ -30486,14 +30502,14 @@
   {
     "group": 7,
     "hexcode": "26D3-FE0F-200D-1F4A5",
-    "label": "broken chain",
+    "label": "elszakadt lánc",
     "order": 4395,
     "tags": [
-      "bumm",
-      "képregény",
+      "bilincs",
+      "elszakít",
       "lánc",
-      "láncszemek",
-      "ütközés"
+      "szabadság",
+      "szakítás"
     ],
     "unicode": "⛓️‍💥"
   },
@@ -32593,7 +32609,9 @@
     "order": 4624,
     "tags": [
       "kör",
-      "o"
+      "nagy",
+      "o",
+      "vastag kör"
     ],
     "unicode": "⭕️"
   },
@@ -33729,8 +33747,10 @@
     "order": 4758,
     "tags": [
       "bekeretezett",
+      "fehér",
       "gomb",
-      "négyzet"
+      "négyzet",
+      "négyzet alakú gomb"
     ],
     "unicode": "🔳"
   },
@@ -33740,8 +33760,10 @@
     "label": "fekete, négyzet alakú gomb",
     "order": 4759,
     "tags": [
+      "fekete",
       "gomb",
-      "négyzet"
+      "négyzet",
+      "négyzet alakú gomb"
     ],
     "unicode": "🔲"
   },
@@ -33845,7 +33867,8 @@
     "order": 4774,
     "tags": [
       "AC",
-      "zászló"
+      "zászló",
+      "zászló: ascension-sziget"
     ],
     "unicode": "🇦🇨"
   },
@@ -33856,7 +33879,8 @@
     "order": 4775,
     "tags": [
       "AD",
-      "zászló"
+      "zászló",
+      "zászló: andorra"
     ],
     "unicode": "🇦🇩"
   },
@@ -33867,7 +33891,8 @@
     "order": 4776,
     "tags": [
       "AE",
-      "zászló"
+      "zászló",
+      "zászló: egyesült arab emírségek"
     ],
     "unicode": "🇦🇪"
   },
@@ -33878,7 +33903,8 @@
     "order": 4777,
     "tags": [
       "AF",
-      "zászló"
+      "zászló",
+      "zászló: afganisztán"
     ],
     "unicode": "🇦🇫"
   },
@@ -33889,7 +33915,8 @@
     "order": 4778,
     "tags": [
       "AG",
-      "zászló"
+      "zászló",
+      "zászló: antigua és barbuda"
     ],
     "unicode": "🇦🇬"
   },
@@ -33900,7 +33927,8 @@
     "order": 4779,
     "tags": [
       "AI",
-      "zászló"
+      "zászló",
+      "zászló: anguilla"
     ],
     "unicode": "🇦🇮"
   },
@@ -33911,7 +33939,8 @@
     "order": 4780,
     "tags": [
       "AL",
-      "zászló"
+      "zászló",
+      "zászló: albánia"
     ],
     "unicode": "🇦🇱"
   },
@@ -33922,7 +33951,8 @@
     "order": 4781,
     "tags": [
       "AM",
-      "zászló"
+      "zászló",
+      "zászló: örményország"
     ],
     "unicode": "🇦🇲"
   },
@@ -33933,7 +33963,8 @@
     "order": 4782,
     "tags": [
       "AO",
-      "zászló"
+      "zászló",
+      "zászló: angola"
     ],
     "unicode": "🇦🇴"
   },
@@ -33944,7 +33975,8 @@
     "order": 4783,
     "tags": [
       "AQ",
-      "zászló"
+      "zászló",
+      "zászló: antarktisz"
     ],
     "unicode": "🇦🇶"
   },
@@ -33955,7 +33987,8 @@
     "order": 4784,
     "tags": [
       "AR",
-      "zászló"
+      "zászló",
+      "zászló: argentína"
     ],
     "unicode": "🇦🇷"
   },
@@ -33966,7 +33999,8 @@
     "order": 4785,
     "tags": [
       "AS",
-      "zászló"
+      "zászló",
+      "zászló: amerikai szamoa"
     ],
     "unicode": "🇦🇸"
   },
@@ -33977,7 +34011,8 @@
     "order": 4786,
     "tags": [
       "AT",
-      "zászló"
+      "zászló",
+      "zászló: ausztria"
     ],
     "unicode": "🇦🇹"
   },
@@ -33988,7 +34023,8 @@
     "order": 4787,
     "tags": [
       "AU",
-      "zászló"
+      "zászló",
+      "zászló: ausztrália"
     ],
     "unicode": "🇦🇺"
   },
@@ -33999,7 +34035,8 @@
     "order": 4788,
     "tags": [
       "AW",
-      "zászló"
+      "zászló",
+      "zászló: aruba"
     ],
     "unicode": "🇦🇼"
   },
@@ -34010,7 +34047,8 @@
     "order": 4789,
     "tags": [
       "AX",
-      "zászló"
+      "zászló",
+      "zászló: åland-szigetek"
     ],
     "unicode": "🇦🇽"
   },
@@ -34021,7 +34059,8 @@
     "order": 4790,
     "tags": [
       "AZ",
-      "zászló"
+      "zászló",
+      "zászló: azerbajdzsán"
     ],
     "unicode": "🇦🇿"
   },
@@ -34032,7 +34071,8 @@
     "order": 4791,
     "tags": [
       "BA",
-      "zászló"
+      "zászló",
+      "zászló: bosznia-hercegovina"
     ],
     "unicode": "🇧🇦"
   },
@@ -34043,7 +34083,8 @@
     "order": 4792,
     "tags": [
       "BB",
-      "zászló"
+      "zászló",
+      "zászló: barbados"
     ],
     "unicode": "🇧🇧"
   },
@@ -34054,7 +34095,8 @@
     "order": 4793,
     "tags": [
       "BD",
-      "zászló"
+      "zászló",
+      "zászló: banglades"
     ],
     "unicode": "🇧🇩"
   },
@@ -34065,7 +34107,8 @@
     "order": 4794,
     "tags": [
       "BE",
-      "zászló"
+      "zászló",
+      "zászló: belgium"
     ],
     "unicode": "🇧🇪"
   },
@@ -34076,7 +34119,8 @@
     "order": 4795,
     "tags": [
       "BF",
-      "zászló"
+      "zászló",
+      "zászló: burkina faso"
     ],
     "unicode": "🇧🇫"
   },
@@ -34087,7 +34131,8 @@
     "order": 4796,
     "tags": [
       "BG",
-      "zászló"
+      "zászló",
+      "zászló: bulgária"
     ],
     "unicode": "🇧🇬"
   },
@@ -34098,7 +34143,8 @@
     "order": 4797,
     "tags": [
       "BH",
-      "zászló"
+      "zászló",
+      "zászló: bahrein"
     ],
     "unicode": "🇧🇭"
   },
@@ -34109,7 +34155,8 @@
     "order": 4798,
     "tags": [
       "BI",
-      "zászló"
+      "zászló",
+      "zászló: burundi"
     ],
     "unicode": "🇧🇮"
   },
@@ -34120,7 +34167,8 @@
     "order": 4799,
     "tags": [
       "BJ",
-      "zászló"
+      "zászló",
+      "zászló: benin"
     ],
     "unicode": "🇧🇯"
   },
@@ -34131,7 +34179,8 @@
     "order": 4800,
     "tags": [
       "BL",
-      "zászló"
+      "zászló",
+      "zászló: saint-barthélemy"
     ],
     "unicode": "🇧🇱"
   },
@@ -34142,7 +34191,8 @@
     "order": 4801,
     "tags": [
       "BM",
-      "zászló"
+      "zászló",
+      "zászló: bermuda"
     ],
     "unicode": "🇧🇲"
   },
@@ -34153,7 +34203,8 @@
     "order": 4802,
     "tags": [
       "BN",
-      "zászló"
+      "zászló",
+      "zászló: brunei"
     ],
     "unicode": "🇧🇳"
   },
@@ -34164,7 +34215,8 @@
     "order": 4803,
     "tags": [
       "BO",
-      "zászló"
+      "zászló",
+      "zászló: bolívia"
     ],
     "unicode": "🇧🇴"
   },
@@ -34175,7 +34227,8 @@
     "order": 4804,
     "tags": [
       "BQ",
-      "zászló"
+      "zászló",
+      "zászló: holland karib-térség"
     ],
     "unicode": "🇧🇶"
   },
@@ -34186,7 +34239,8 @@
     "order": 4805,
     "tags": [
       "BR",
-      "zászló"
+      "zászló",
+      "zászló: brazília"
     ],
     "unicode": "🇧🇷"
   },
@@ -34197,7 +34251,8 @@
     "order": 4806,
     "tags": [
       "BS",
-      "zászló"
+      "zászló",
+      "zászló: bahama-szigetek"
     ],
     "unicode": "🇧🇸"
   },
@@ -34208,7 +34263,8 @@
     "order": 4807,
     "tags": [
       "BT",
-      "zászló"
+      "zászló",
+      "zászló: bhután"
     ],
     "unicode": "🇧🇹"
   },
@@ -34219,7 +34275,8 @@
     "order": 4808,
     "tags": [
       "BV",
-      "zászló"
+      "zászló",
+      "zászló: bouvet-sziget"
     ],
     "unicode": "🇧🇻"
   },
@@ -34230,7 +34287,8 @@
     "order": 4809,
     "tags": [
       "BW",
-      "zászló"
+      "zászló",
+      "zászló: botswana"
     ],
     "unicode": "🇧🇼"
   },
@@ -34241,7 +34299,8 @@
     "order": 4810,
     "tags": [
       "BY",
-      "zászló"
+      "zászló",
+      "zászló: belarusz"
     ],
     "unicode": "🇧🇾"
   },
@@ -34252,7 +34311,8 @@
     "order": 4811,
     "tags": [
       "BZ",
-      "zászló"
+      "zászló",
+      "zászló: belize"
     ],
     "unicode": "🇧🇿"
   },
@@ -34263,7 +34323,8 @@
     "order": 4812,
     "tags": [
       "CA",
-      "zászló"
+      "zászló",
+      "zászló: kanada"
     ],
     "unicode": "🇨🇦"
   },
@@ -34274,7 +34335,8 @@
     "order": 4813,
     "tags": [
       "CC",
-      "zászló"
+      "zászló",
+      "zászló: kókusz (keeling)-szigetek"
     ],
     "unicode": "🇨🇨"
   },
@@ -34285,7 +34347,8 @@
     "order": 4814,
     "tags": [
       "CD",
-      "zászló"
+      "zászló",
+      "zászló: kongó – kinshasa"
     ],
     "unicode": "🇨🇩"
   },
@@ -34296,7 +34359,8 @@
     "order": 4815,
     "tags": [
       "CF",
-      "zászló"
+      "zászló",
+      "zászló: közép-afrikai köztársaság"
     ],
     "unicode": "🇨🇫"
   },
@@ -34307,7 +34371,8 @@
     "order": 4816,
     "tags": [
       "CG",
-      "zászló"
+      "zászló",
+      "zászló: kongó – brazzaville"
     ],
     "unicode": "🇨🇬"
   },
@@ -34318,7 +34383,8 @@
     "order": 4817,
     "tags": [
       "CH",
-      "zászló"
+      "zászló",
+      "zászló: svájc"
     ],
     "unicode": "🇨🇭"
   },
@@ -34329,7 +34395,8 @@
     "order": 4818,
     "tags": [
       "CI",
-      "zászló"
+      "zászló",
+      "zászló: elefántcsontpart"
     ],
     "unicode": "🇨🇮"
   },
@@ -34340,7 +34407,8 @@
     "order": 4819,
     "tags": [
       "CK",
-      "zászló"
+      "zászló",
+      "zászló: cook-szigetek"
     ],
     "unicode": "🇨🇰"
   },
@@ -34351,7 +34419,8 @@
     "order": 4820,
     "tags": [
       "CL",
-      "zászló"
+      "zászló",
+      "zászló: chile"
     ],
     "unicode": "🇨🇱"
   },
@@ -34362,7 +34431,8 @@
     "order": 4821,
     "tags": [
       "CM",
-      "zászló"
+      "zászló",
+      "zászló: kamerun"
     ],
     "unicode": "🇨🇲"
   },
@@ -34373,7 +34443,8 @@
     "order": 4822,
     "tags": [
       "CN",
-      "zászló"
+      "zászló",
+      "zászló: kína"
     ],
     "unicode": "🇨🇳"
   },
@@ -34384,7 +34455,8 @@
     "order": 4823,
     "tags": [
       "CO",
-      "zászló"
+      "zászló",
+      "zászló: kolumbia"
     ],
     "unicode": "🇨🇴"
   },
@@ -34395,7 +34467,8 @@
     "order": 4824,
     "tags": [
       "CP",
-      "zászló"
+      "zászló",
+      "zászló: clipperton-sziget"
     ],
     "unicode": "🇨🇵"
   },
@@ -34406,7 +34479,8 @@
     "order": 4825,
     "tags": [
       "CR",
-      "zászló"
+      "zászló",
+      "zászló: costa rica"
     ],
     "unicode": "🇨🇷"
   },
@@ -34417,7 +34491,8 @@
     "order": 4826,
     "tags": [
       "CU",
-      "zászló"
+      "zászló",
+      "zászló: kuba"
     ],
     "unicode": "🇨🇺"
   },
@@ -34428,7 +34503,8 @@
     "order": 4827,
     "tags": [
       "CV",
-      "zászló"
+      "zászló",
+      "zászló: zöld-foki köztársaság"
     ],
     "unicode": "🇨🇻"
   },
@@ -34439,7 +34515,8 @@
     "order": 4828,
     "tags": [
       "CW",
-      "zászló"
+      "zászló",
+      "zászló: curaçao"
     ],
     "unicode": "🇨🇼"
   },
@@ -34450,7 +34527,8 @@
     "order": 4829,
     "tags": [
       "CX",
-      "zászló"
+      "zászló",
+      "zászló: karácsony-sziget"
     ],
     "unicode": "🇨🇽"
   },
@@ -34461,7 +34539,8 @@
     "order": 4830,
     "tags": [
       "CY",
-      "zászló"
+      "zászló",
+      "zászló: ciprus"
     ],
     "unicode": "🇨🇾"
   },
@@ -34472,7 +34551,8 @@
     "order": 4831,
     "tags": [
       "CZ",
-      "zászló"
+      "zászló",
+      "zászló: csehország"
     ],
     "unicode": "🇨🇿"
   },
@@ -34483,7 +34563,8 @@
     "order": 4832,
     "tags": [
       "DE",
-      "zászló"
+      "zászló",
+      "zászló: németország"
     ],
     "unicode": "🇩🇪"
   },
@@ -34494,7 +34575,8 @@
     "order": 4833,
     "tags": [
       "DG",
-      "zászló"
+      "zászló",
+      "zászló: diego garcia"
     ],
     "unicode": "🇩🇬"
   },
@@ -34505,7 +34587,8 @@
     "order": 4834,
     "tags": [
       "DJ",
-      "zászló"
+      "zászló",
+      "zászló: dzsibuti"
     ],
     "unicode": "🇩🇯"
   },
@@ -34516,7 +34599,8 @@
     "order": 4835,
     "tags": [
       "DK",
-      "zászló"
+      "zászló",
+      "zászló: dánia"
     ],
     "unicode": "🇩🇰"
   },
@@ -34527,7 +34611,8 @@
     "order": 4836,
     "tags": [
       "DM",
-      "zászló"
+      "zászló",
+      "zászló: dominika"
     ],
     "unicode": "🇩🇲"
   },
@@ -34538,7 +34623,8 @@
     "order": 4837,
     "tags": [
       "DO",
-      "zászló"
+      "zászló",
+      "zászló: dominikai köztársaság"
     ],
     "unicode": "🇩🇴"
   },
@@ -34549,7 +34635,8 @@
     "order": 4838,
     "tags": [
       "DZ",
-      "zászló"
+      "zászló",
+      "zászló: algéria"
     ],
     "unicode": "🇩🇿"
   },
@@ -34560,7 +34647,8 @@
     "order": 4839,
     "tags": [
       "EA",
-      "zászló"
+      "zászló",
+      "zászló: ceuta és melilla"
     ],
     "unicode": "🇪🇦"
   },
@@ -34571,7 +34659,8 @@
     "order": 4840,
     "tags": [
       "EC",
-      "zászló"
+      "zászló",
+      "zászló: ecuador"
     ],
     "unicode": "🇪🇨"
   },
@@ -34582,7 +34671,8 @@
     "order": 4841,
     "tags": [
       "EE",
-      "zászló"
+      "zászló",
+      "zászló: észtország"
     ],
     "unicode": "🇪🇪"
   },
@@ -34593,7 +34683,8 @@
     "order": 4842,
     "tags": [
       "EG",
-      "zászló"
+      "zászló",
+      "zászló: egyiptom"
     ],
     "unicode": "🇪🇬"
   },
@@ -34604,7 +34695,8 @@
     "order": 4843,
     "tags": [
       "EH",
-      "zászló"
+      "zászló",
+      "zászló: nyugat-szahara"
     ],
     "unicode": "🇪🇭"
   },
@@ -34615,7 +34707,8 @@
     "order": 4844,
     "tags": [
       "ER",
-      "zászló"
+      "zászló",
+      "zászló: eritrea"
     ],
     "unicode": "🇪🇷"
   },
@@ -34626,7 +34719,8 @@
     "order": 4845,
     "tags": [
       "ES",
-      "zászló"
+      "zászló",
+      "zászló: spanyolország"
     ],
     "unicode": "🇪🇸"
   },
@@ -34637,7 +34731,8 @@
     "order": 4846,
     "tags": [
       "ET",
-      "zászló"
+      "zászló",
+      "zászló: etiópia"
     ],
     "unicode": "🇪🇹"
   },
@@ -34648,7 +34743,8 @@
     "order": 4847,
     "tags": [
       "EU",
-      "zászló"
+      "zászló",
+      "zászló: európai unió"
     ],
     "unicode": "🇪🇺"
   },
@@ -34659,7 +34755,8 @@
     "order": 4848,
     "tags": [
       "FI",
-      "zászló"
+      "zászló",
+      "zászló: finnország"
     ],
     "unicode": "🇫🇮"
   },
@@ -34670,7 +34767,8 @@
     "order": 4849,
     "tags": [
       "FJ",
-      "zászló"
+      "zászló",
+      "zászló: fidzsi"
     ],
     "unicode": "🇫🇯"
   },
@@ -34681,7 +34779,8 @@
     "order": 4850,
     "tags": [
       "FK",
-      "zászló"
+      "zászló",
+      "zászló: falkland-szigetek"
     ],
     "unicode": "🇫🇰"
   },
@@ -34692,7 +34791,8 @@
     "order": 4851,
     "tags": [
       "FM",
-      "zászló"
+      "zászló",
+      "zászló: mikronézia"
     ],
     "unicode": "🇫🇲"
   },
@@ -34703,7 +34803,8 @@
     "order": 4852,
     "tags": [
       "FO",
-      "zászló"
+      "zászló",
+      "zászló: feröer szigetek"
     ],
     "unicode": "🇫🇴"
   },
@@ -34714,7 +34815,8 @@
     "order": 4853,
     "tags": [
       "FR",
-      "zászló"
+      "zászló",
+      "zászló: franciaország"
     ],
     "unicode": "🇫🇷"
   },
@@ -34725,7 +34827,8 @@
     "order": 4854,
     "tags": [
       "GA",
-      "zászló"
+      "zászló",
+      "zászló: gabon"
     ],
     "unicode": "🇬🇦"
   },
@@ -34736,7 +34839,8 @@
     "order": 4855,
     "tags": [
       "GB",
-      "zászló"
+      "zászló",
+      "zászló: egyesült királyság"
     ],
     "unicode": "🇬🇧"
   },
@@ -34747,7 +34851,8 @@
     "order": 4856,
     "tags": [
       "GD",
-      "zászló"
+      "zászló",
+      "zászló: grenada"
     ],
     "unicode": "🇬🇩"
   },
@@ -34758,7 +34863,8 @@
     "order": 4857,
     "tags": [
       "GE",
-      "zászló"
+      "zászló",
+      "zászló: grúzia"
     ],
     "unicode": "🇬🇪"
   },
@@ -34769,7 +34875,8 @@
     "order": 4858,
     "tags": [
       "GF",
-      "zászló"
+      "zászló",
+      "zászló: francia guyana"
     ],
     "unicode": "🇬🇫"
   },
@@ -34780,7 +34887,8 @@
     "order": 4859,
     "tags": [
       "GG",
-      "zászló"
+      "zászló",
+      "zászló: guernsey"
     ],
     "unicode": "🇬🇬"
   },
@@ -34791,7 +34899,8 @@
     "order": 4860,
     "tags": [
       "GH",
-      "zászló"
+      "zászló",
+      "zászló: ghána"
     ],
     "unicode": "🇬🇭"
   },
@@ -34802,7 +34911,8 @@
     "order": 4861,
     "tags": [
       "GI",
-      "zászló"
+      "zászló",
+      "zászló: gibraltár"
     ],
     "unicode": "🇬🇮"
   },
@@ -34813,7 +34923,8 @@
     "order": 4862,
     "tags": [
       "GL",
-      "zászló"
+      "zászló",
+      "zászló: grönland"
     ],
     "unicode": "🇬🇱"
   },
@@ -34824,7 +34935,8 @@
     "order": 4863,
     "tags": [
       "GM",
-      "zászló"
+      "zászló",
+      "zászló: gambia"
     ],
     "unicode": "🇬🇲"
   },
@@ -34835,7 +34947,8 @@
     "order": 4864,
     "tags": [
       "GN",
-      "zászló"
+      "zászló",
+      "zászló: guinea"
     ],
     "unicode": "🇬🇳"
   },
@@ -34846,7 +34959,8 @@
     "order": 4865,
     "tags": [
       "GP",
-      "zászló"
+      "zászló",
+      "zászló: guadeloupe"
     ],
     "unicode": "🇬🇵"
   },
@@ -34857,7 +34971,8 @@
     "order": 4866,
     "tags": [
       "GQ",
-      "zászló"
+      "zászló",
+      "zászló: egyenlítői-guinea"
     ],
     "unicode": "🇬🇶"
   },
@@ -34868,7 +34983,8 @@
     "order": 4867,
     "tags": [
       "GR",
-      "zászló"
+      "zászló",
+      "zászló: görögország"
     ],
     "unicode": "🇬🇷"
   },
@@ -34879,7 +34995,8 @@
     "order": 4868,
     "tags": [
       "GS",
-      "zászló"
+      "zászló",
+      "zászló: déli-georgia és déli-sandwich-szigetek"
     ],
     "unicode": "🇬🇸"
   },
@@ -34890,7 +35007,8 @@
     "order": 4869,
     "tags": [
       "GT",
-      "zászló"
+      "zászló",
+      "zászló: guatemala"
     ],
     "unicode": "🇬🇹"
   },
@@ -34901,7 +35019,8 @@
     "order": 4870,
     "tags": [
       "GU",
-      "zászló"
+      "zászló",
+      "zászló: guam"
     ],
     "unicode": "🇬🇺"
   },
@@ -34912,7 +35031,8 @@
     "order": 4871,
     "tags": [
       "GW",
-      "zászló"
+      "zászló",
+      "zászló: bissau-guinea"
     ],
     "unicode": "🇬🇼"
   },
@@ -34923,7 +35043,8 @@
     "order": 4872,
     "tags": [
       "GY",
-      "zászló"
+      "zászló",
+      "zászló: guyana"
     ],
     "unicode": "🇬🇾"
   },
@@ -34934,7 +35055,8 @@
     "order": 4873,
     "tags": [
       "HK",
-      "zászló"
+      "zászló",
+      "zászló: hongkong kkt"
     ],
     "unicode": "🇭🇰"
   },
@@ -34945,7 +35067,8 @@
     "order": 4874,
     "tags": [
       "HM",
-      "zászló"
+      "zászló",
+      "zászló: heard-sziget és mcdonald-szigetek"
     ],
     "unicode": "🇭🇲"
   },
@@ -34956,7 +35079,8 @@
     "order": 4875,
     "tags": [
       "HN",
-      "zászló"
+      "zászló",
+      "zászló: honduras"
     ],
     "unicode": "🇭🇳"
   },
@@ -34967,7 +35091,8 @@
     "order": 4876,
     "tags": [
       "HR",
-      "zászló"
+      "zászló",
+      "zászló: horvátország"
     ],
     "unicode": "🇭🇷"
   },
@@ -34978,7 +35103,8 @@
     "order": 4877,
     "tags": [
       "HT",
-      "zászló"
+      "zászló",
+      "zászló: haiti"
     ],
     "unicode": "🇭🇹"
   },
@@ -34989,7 +35115,8 @@
     "order": 4878,
     "tags": [
       "HU",
-      "zászló"
+      "zászló",
+      "zászló: magyarország"
     ],
     "unicode": "🇭🇺"
   },
@@ -35000,7 +35127,8 @@
     "order": 4879,
     "tags": [
       "IC",
-      "zászló"
+      "zászló",
+      "zászló: kanári-szigetek"
     ],
     "unicode": "🇮🇨"
   },
@@ -35011,7 +35139,8 @@
     "order": 4880,
     "tags": [
       "ID",
-      "zászló"
+      "zászló",
+      "zászló: indonézia"
     ],
     "unicode": "🇮🇩"
   },
@@ -35022,7 +35151,8 @@
     "order": 4881,
     "tags": [
       "IE",
-      "zászló"
+      "zászló",
+      "zászló: írország"
     ],
     "unicode": "🇮🇪"
   },
@@ -35033,7 +35163,8 @@
     "order": 4882,
     "tags": [
       "IL",
-      "zászló"
+      "zászló",
+      "zászló: izrael"
     ],
     "unicode": "🇮🇱"
   },
@@ -35044,7 +35175,8 @@
     "order": 4883,
     "tags": [
       "IM",
-      "zászló"
+      "zászló",
+      "zászló: man-sziget"
     ],
     "unicode": "🇮🇲"
   },
@@ -35055,7 +35187,8 @@
     "order": 4884,
     "tags": [
       "IN",
-      "zászló"
+      "zászló",
+      "zászló: india"
     ],
     "unicode": "🇮🇳"
   },
@@ -35066,7 +35199,8 @@
     "order": 4885,
     "tags": [
       "IO",
-      "zászló"
+      "zászló",
+      "zászló: brit indiai-óceáni terület"
     ],
     "unicode": "🇮🇴"
   },
@@ -35077,7 +35211,8 @@
     "order": 4886,
     "tags": [
       "IQ",
-      "zászló"
+      "zászló",
+      "zászló: irak"
     ],
     "unicode": "🇮🇶"
   },
@@ -35088,7 +35223,8 @@
     "order": 4887,
     "tags": [
       "IR",
-      "zászló"
+      "zászló",
+      "zászló: irán"
     ],
     "unicode": "🇮🇷"
   },
@@ -35099,7 +35235,8 @@
     "order": 4888,
     "tags": [
       "IS",
-      "zászló"
+      "zászló",
+      "zászló: izland"
     ],
     "unicode": "🇮🇸"
   },
@@ -35110,7 +35247,8 @@
     "order": 4889,
     "tags": [
       "IT",
-      "zászló"
+      "zászló",
+      "zászló: olaszország"
     ],
     "unicode": "🇮🇹"
   },
@@ -35121,7 +35259,8 @@
     "order": 4890,
     "tags": [
       "JE",
-      "zászló"
+      "zászló",
+      "zászló: jersey"
     ],
     "unicode": "🇯🇪"
   },
@@ -35132,7 +35271,8 @@
     "order": 4891,
     "tags": [
       "JM",
-      "zászló"
+      "zászló",
+      "zászló: jamaica"
     ],
     "unicode": "🇯🇲"
   },
@@ -35143,7 +35283,8 @@
     "order": 4892,
     "tags": [
       "JO",
-      "zászló"
+      "zászló",
+      "zászló: jordánia"
     ],
     "unicode": "🇯🇴"
   },
@@ -35154,7 +35295,8 @@
     "order": 4893,
     "tags": [
       "JP",
-      "zászló"
+      "zászló",
+      "zászló: japán"
     ],
     "unicode": "🇯🇵"
   },
@@ -35165,7 +35307,8 @@
     "order": 4894,
     "tags": [
       "KE",
-      "zászló"
+      "zászló",
+      "zászló: kenya"
     ],
     "unicode": "🇰🇪"
   },
@@ -35176,7 +35319,8 @@
     "order": 4895,
     "tags": [
       "KG",
-      "zászló"
+      "zászló",
+      "zászló: kirgizisztán"
     ],
     "unicode": "🇰🇬"
   },
@@ -35187,7 +35331,8 @@
     "order": 4896,
     "tags": [
       "KH",
-      "zászló"
+      "zászló",
+      "zászló: kambodzsa"
     ],
     "unicode": "🇰🇭"
   },
@@ -35198,7 +35343,8 @@
     "order": 4897,
     "tags": [
       "KI",
-      "zászló"
+      "zászló",
+      "zászló: kiribati"
     ],
     "unicode": "🇰🇮"
   },
@@ -35209,7 +35355,8 @@
     "order": 4898,
     "tags": [
       "KM",
-      "zászló"
+      "zászló",
+      "zászló: comore-szigetek"
     ],
     "unicode": "🇰🇲"
   },
@@ -35220,7 +35367,8 @@
     "order": 4899,
     "tags": [
       "KN",
-      "zászló"
+      "zászló",
+      "zászló: saint kitts és nevis"
     ],
     "unicode": "🇰🇳"
   },
@@ -35231,7 +35379,8 @@
     "order": 4900,
     "tags": [
       "KP",
-      "zászló"
+      "zászló",
+      "zászló: észak-korea"
     ],
     "unicode": "🇰🇵"
   },
@@ -35242,7 +35391,8 @@
     "order": 4901,
     "tags": [
       "KR",
-      "zászló"
+      "zászló",
+      "zászló: dél-korea"
     ],
     "unicode": "🇰🇷"
   },
@@ -35253,7 +35403,8 @@
     "order": 4902,
     "tags": [
       "KW",
-      "zászló"
+      "zászló",
+      "zászló: kuvait"
     ],
     "unicode": "🇰🇼"
   },
@@ -35264,7 +35415,8 @@
     "order": 4903,
     "tags": [
       "KY",
-      "zászló"
+      "zászló",
+      "zászló: kajmán-szigetek"
     ],
     "unicode": "🇰🇾"
   },
@@ -35275,7 +35427,8 @@
     "order": 4904,
     "tags": [
       "KZ",
-      "zászló"
+      "zászló",
+      "zászló: kazahsztán"
     ],
     "unicode": "🇰🇿"
   },
@@ -35286,7 +35439,8 @@
     "order": 4905,
     "tags": [
       "LA",
-      "zászló"
+      "zászló",
+      "zászló: laosz"
     ],
     "unicode": "🇱🇦"
   },
@@ -35297,7 +35451,8 @@
     "order": 4906,
     "tags": [
       "LB",
-      "zászló"
+      "zászló",
+      "zászló: libanon"
     ],
     "unicode": "🇱🇧"
   },
@@ -35308,7 +35463,8 @@
     "order": 4907,
     "tags": [
       "LC",
-      "zászló"
+      "zászló",
+      "zászló: saint lucia"
     ],
     "unicode": "🇱🇨"
   },
@@ -35319,7 +35475,8 @@
     "order": 4908,
     "tags": [
       "LI",
-      "zászló"
+      "zászló",
+      "zászló: liechtenstein"
     ],
     "unicode": "🇱🇮"
   },
@@ -35330,7 +35487,8 @@
     "order": 4909,
     "tags": [
       "LK",
-      "zászló"
+      "zászló",
+      "zászló: srí lanka"
     ],
     "unicode": "🇱🇰"
   },
@@ -35341,7 +35499,8 @@
     "order": 4910,
     "tags": [
       "LR",
-      "zászló"
+      "zászló",
+      "zászló: libéria"
     ],
     "unicode": "🇱🇷"
   },
@@ -35352,7 +35511,8 @@
     "order": 4911,
     "tags": [
       "LS",
-      "zászló"
+      "zászló",
+      "zászló: lesotho"
     ],
     "unicode": "🇱🇸"
   },
@@ -35363,7 +35523,8 @@
     "order": 4912,
     "tags": [
       "LT",
-      "zászló"
+      "zászló",
+      "zászló: litvánia"
     ],
     "unicode": "🇱🇹"
   },
@@ -35374,7 +35535,8 @@
     "order": 4913,
     "tags": [
       "LU",
-      "zászló"
+      "zászló",
+      "zászló: luxemburg"
     ],
     "unicode": "🇱🇺"
   },
@@ -35385,7 +35547,8 @@
     "order": 4914,
     "tags": [
       "LV",
-      "zászló"
+      "zászló",
+      "zászló: lettország"
     ],
     "unicode": "🇱🇻"
   },
@@ -35396,7 +35559,8 @@
     "order": 4915,
     "tags": [
       "LY",
-      "zászló"
+      "zászló",
+      "zászló: líbia"
     ],
     "unicode": "🇱🇾"
   },
@@ -35407,7 +35571,8 @@
     "order": 4916,
     "tags": [
       "MA",
-      "zászló"
+      "zászló",
+      "zászló: marokkó"
     ],
     "unicode": "🇲🇦"
   },
@@ -35418,7 +35583,8 @@
     "order": 4917,
     "tags": [
       "MC",
-      "zászló"
+      "zászló",
+      "zászló: monaco"
     ],
     "unicode": "🇲🇨"
   },
@@ -35429,7 +35595,8 @@
     "order": 4918,
     "tags": [
       "MD",
-      "zászló"
+      "zászló",
+      "zászló: moldova"
     ],
     "unicode": "🇲🇩"
   },
@@ -35440,7 +35607,8 @@
     "order": 4919,
     "tags": [
       "ME",
-      "zászló"
+      "zászló",
+      "zászló: montenegró"
     ],
     "unicode": "🇲🇪"
   },
@@ -35451,7 +35619,8 @@
     "order": 4920,
     "tags": [
       "MF",
-      "zászló"
+      "zászló",
+      "zászló: saint martin"
     ],
     "unicode": "🇲🇫"
   },
@@ -35462,7 +35631,8 @@
     "order": 4921,
     "tags": [
       "MG",
-      "zászló"
+      "zászló",
+      "zászló: madagaszkár"
     ],
     "unicode": "🇲🇬"
   },
@@ -35473,7 +35643,8 @@
     "order": 4922,
     "tags": [
       "MH",
-      "zászló"
+      "zászló",
+      "zászló: marshall-szigetek"
     ],
     "unicode": "🇲🇭"
   },
@@ -35484,7 +35655,8 @@
     "order": 4923,
     "tags": [
       "MK",
-      "zászló"
+      "zászló",
+      "zászló: észak-macedónia"
     ],
     "unicode": "🇲🇰"
   },
@@ -35495,7 +35667,8 @@
     "order": 4924,
     "tags": [
       "ML",
-      "zászló"
+      "zászló",
+      "zászló: mali"
     ],
     "unicode": "🇲🇱"
   },
@@ -35506,7 +35679,8 @@
     "order": 4925,
     "tags": [
       "MM",
-      "zászló"
+      "zászló",
+      "zászló: mianmar"
     ],
     "unicode": "🇲🇲"
   },
@@ -35517,7 +35691,8 @@
     "order": 4926,
     "tags": [
       "MN",
-      "zászló"
+      "zászló",
+      "zászló: mongólia"
     ],
     "unicode": "🇲🇳"
   },
@@ -35528,7 +35703,8 @@
     "order": 4927,
     "tags": [
       "MO",
-      "zászló"
+      "zászló",
+      "zászló: makaó kkt"
     ],
     "unicode": "🇲🇴"
   },
@@ -35539,7 +35715,8 @@
     "order": 4928,
     "tags": [
       "MP",
-      "zászló"
+      "zászló",
+      "zászló: északi mariana-szigetek"
     ],
     "unicode": "🇲🇵"
   },
@@ -35550,7 +35727,8 @@
     "order": 4929,
     "tags": [
       "MQ",
-      "zászló"
+      "zászló",
+      "zászló: martinique"
     ],
     "unicode": "🇲🇶"
   },
@@ -35561,7 +35739,8 @@
     "order": 4930,
     "tags": [
       "MR",
-      "zászló"
+      "zászló",
+      "zászló: mauritánia"
     ],
     "unicode": "🇲🇷"
   },
@@ -35572,7 +35751,8 @@
     "order": 4931,
     "tags": [
       "MS",
-      "zászló"
+      "zászló",
+      "zászló: montserrat"
     ],
     "unicode": "🇲🇸"
   },
@@ -35583,7 +35763,8 @@
     "order": 4932,
     "tags": [
       "MT",
-      "zászló"
+      "zászló",
+      "zászló: málta"
     ],
     "unicode": "🇲🇹"
   },
@@ -35594,7 +35775,8 @@
     "order": 4933,
     "tags": [
       "MU",
-      "zászló"
+      "zászló",
+      "zászló: mauritius"
     ],
     "unicode": "🇲🇺"
   },
@@ -35605,7 +35787,8 @@
     "order": 4934,
     "tags": [
       "MV",
-      "zászló"
+      "zászló",
+      "zászló: maldív-szigetek"
     ],
     "unicode": "🇲🇻"
   },
@@ -35616,7 +35799,8 @@
     "order": 4935,
     "tags": [
       "MW",
-      "zászló"
+      "zászló",
+      "zászló: malawi"
     ],
     "unicode": "🇲🇼"
   },
@@ -35627,7 +35811,8 @@
     "order": 4936,
     "tags": [
       "MX",
-      "zászló"
+      "zászló",
+      "zászló: mexikó"
     ],
     "unicode": "🇲🇽"
   },
@@ -35638,7 +35823,8 @@
     "order": 4937,
     "tags": [
       "MY",
-      "zászló"
+      "zászló",
+      "zászló: malajzia"
     ],
     "unicode": "🇲🇾"
   },
@@ -35649,7 +35835,8 @@
     "order": 4938,
     "tags": [
       "MZ",
-      "zászló"
+      "zászló",
+      "zászló: mozambik"
     ],
     "unicode": "🇲🇿"
   },
@@ -35660,7 +35847,8 @@
     "order": 4939,
     "tags": [
       "NA",
-      "zászló"
+      "zászló",
+      "zászló: namíbia"
     ],
     "unicode": "🇳🇦"
   },
@@ -35671,7 +35859,8 @@
     "order": 4940,
     "tags": [
       "NC",
-      "zászló"
+      "zászló",
+      "zászló: új-kaledónia"
     ],
     "unicode": "🇳🇨"
   },
@@ -35682,7 +35871,8 @@
     "order": 4941,
     "tags": [
       "NE",
-      "zászló"
+      "zászló",
+      "zászló: niger"
     ],
     "unicode": "🇳🇪"
   },
@@ -35693,7 +35883,8 @@
     "order": 4942,
     "tags": [
       "NF",
-      "zászló"
+      "zászló",
+      "zászló: norfolk-sziget"
     ],
     "unicode": "🇳🇫"
   },
@@ -35704,7 +35895,8 @@
     "order": 4943,
     "tags": [
       "NG",
-      "zászló"
+      "zászló",
+      "zászló: nigéria"
     ],
     "unicode": "🇳🇬"
   },
@@ -35715,7 +35907,8 @@
     "order": 4944,
     "tags": [
       "NI",
-      "zászló"
+      "zászló",
+      "zászló: nicaragua"
     ],
     "unicode": "🇳🇮"
   },
@@ -35726,7 +35919,8 @@
     "order": 4945,
     "tags": [
       "NL",
-      "zászló"
+      "zászló",
+      "zászló: hollandia"
     ],
     "unicode": "🇳🇱"
   },
@@ -35737,7 +35931,8 @@
     "order": 4946,
     "tags": [
       "NO",
-      "zászló"
+      "zászló",
+      "zászló: norvégia"
     ],
     "unicode": "🇳🇴"
   },
@@ -35748,7 +35943,8 @@
     "order": 4947,
     "tags": [
       "NP",
-      "zászló"
+      "zászló",
+      "zászló: nepál"
     ],
     "unicode": "🇳🇵"
   },
@@ -35759,7 +35955,8 @@
     "order": 4948,
     "tags": [
       "NR",
-      "zászló"
+      "zászló",
+      "zászló: nauru"
     ],
     "unicode": "🇳🇷"
   },
@@ -35770,7 +35967,8 @@
     "order": 4949,
     "tags": [
       "NU",
-      "zászló"
+      "zászló",
+      "zászló: niue"
     ],
     "unicode": "🇳🇺"
   },
@@ -35781,7 +35979,8 @@
     "order": 4950,
     "tags": [
       "NZ",
-      "zászló"
+      "zászló",
+      "zászló: új-zéland"
     ],
     "unicode": "🇳🇿"
   },
@@ -35792,7 +35991,8 @@
     "order": 4951,
     "tags": [
       "OM",
-      "zászló"
+      "zászló",
+      "zászló: omán"
     ],
     "unicode": "🇴🇲"
   },
@@ -35803,7 +36003,8 @@
     "order": 4952,
     "tags": [
       "PA",
-      "zászló"
+      "zászló",
+      "zászló: panama"
     ],
     "unicode": "🇵🇦"
   },
@@ -35814,7 +36015,8 @@
     "order": 4953,
     "tags": [
       "PE",
-      "zászló"
+      "zászló",
+      "zászló: peru"
     ],
     "unicode": "🇵🇪"
   },
@@ -35825,7 +36027,8 @@
     "order": 4954,
     "tags": [
       "PF",
-      "zászló"
+      "zászló",
+      "zászló: francia polinézia"
     ],
     "unicode": "🇵🇫"
   },
@@ -35836,7 +36039,8 @@
     "order": 4955,
     "tags": [
       "PG",
-      "zászló"
+      "zászló",
+      "zászló: pápua új-guinea"
     ],
     "unicode": "🇵🇬"
   },
@@ -35847,7 +36051,8 @@
     "order": 4956,
     "tags": [
       "PH",
-      "zászló"
+      "zászló",
+      "zászló: fülöp-szigetek"
     ],
     "unicode": "🇵🇭"
   },
@@ -35858,7 +36063,8 @@
     "order": 4957,
     "tags": [
       "PK",
-      "zászló"
+      "zászló",
+      "zászló: pakisztán"
     ],
     "unicode": "🇵🇰"
   },
@@ -35869,7 +36075,8 @@
     "order": 4958,
     "tags": [
       "PL",
-      "zászló"
+      "zászló",
+      "zászló: lengyelország"
     ],
     "unicode": "🇵🇱"
   },
@@ -35880,7 +36087,8 @@
     "order": 4959,
     "tags": [
       "PM",
-      "zászló"
+      "zászló",
+      "zászló: saint-pierre és miquelon"
     ],
     "unicode": "🇵🇲"
   },
@@ -35891,7 +36099,8 @@
     "order": 4960,
     "tags": [
       "PN",
-      "zászló"
+      "zászló",
+      "zászló: pitcairn-szigetek"
     ],
     "unicode": "🇵🇳"
   },
@@ -35902,7 +36111,8 @@
     "order": 4961,
     "tags": [
       "PR",
-      "zászló"
+      "zászló",
+      "zászló: puerto rico"
     ],
     "unicode": "🇵🇷"
   },
@@ -35913,7 +36123,8 @@
     "order": 4962,
     "tags": [
       "PS",
-      "zászló"
+      "zászló",
+      "zászló: palesztin autonómia"
     ],
     "unicode": "🇵🇸"
   },
@@ -35924,7 +36135,8 @@
     "order": 4963,
     "tags": [
       "PT",
-      "zászló"
+      "zászló",
+      "zászló: portugália"
     ],
     "unicode": "🇵🇹"
   },
@@ -35935,7 +36147,8 @@
     "order": 4964,
     "tags": [
       "PW",
-      "zászló"
+      "zászló",
+      "zászló: palau"
     ],
     "unicode": "🇵🇼"
   },
@@ -35946,7 +36159,8 @@
     "order": 4965,
     "tags": [
       "PY",
-      "zászló"
+      "zászló",
+      "zászló: paraguay"
     ],
     "unicode": "🇵🇾"
   },
@@ -35957,7 +36171,8 @@
     "order": 4966,
     "tags": [
       "QA",
-      "zászló"
+      "zászló",
+      "zászló: katar"
     ],
     "unicode": "🇶🇦"
   },
@@ -35968,7 +36183,8 @@
     "order": 4967,
     "tags": [
       "RE",
-      "zászló"
+      "zászló",
+      "zászló: réunion"
     ],
     "unicode": "🇷🇪"
   },
@@ -35979,7 +36195,8 @@
     "order": 4968,
     "tags": [
       "RO",
-      "zászló"
+      "zászló",
+      "zászló: románia"
     ],
     "unicode": "🇷🇴"
   },
@@ -35990,7 +36207,8 @@
     "order": 4969,
     "tags": [
       "RS",
-      "zászló"
+      "zászló",
+      "zászló: szerbia"
     ],
     "unicode": "🇷🇸"
   },
@@ -36001,7 +36219,8 @@
     "order": 4970,
     "tags": [
       "RU",
-      "zászló"
+      "zászló",
+      "zászló: oroszország"
     ],
     "unicode": "🇷🇺"
   },
@@ -36012,7 +36231,8 @@
     "order": 4971,
     "tags": [
       "RW",
-      "zászló"
+      "zászló",
+      "zászló: ruanda"
     ],
     "unicode": "🇷🇼"
   },
@@ -36023,7 +36243,8 @@
     "order": 4972,
     "tags": [
       "SA",
-      "zászló"
+      "zászló",
+      "zászló: szaúd-arábia"
     ],
     "unicode": "🇸🇦"
   },
@@ -36034,7 +36255,8 @@
     "order": 4973,
     "tags": [
       "SB",
-      "zászló"
+      "zászló",
+      "zászló: salamon-szigetek"
     ],
     "unicode": "🇸🇧"
   },
@@ -36045,7 +36267,8 @@
     "order": 4974,
     "tags": [
       "SC",
-      "zászló"
+      "zászló",
+      "zászló: seychelle-szigetek"
     ],
     "unicode": "🇸🇨"
   },
@@ -36056,7 +36279,8 @@
     "order": 4975,
     "tags": [
       "SD",
-      "zászló"
+      "zászló",
+      "zászló: szudán"
     ],
     "unicode": "🇸🇩"
   },
@@ -36067,7 +36291,8 @@
     "order": 4976,
     "tags": [
       "SE",
-      "zászló"
+      "zászló",
+      "zászló: svédország"
     ],
     "unicode": "🇸🇪"
   },
@@ -36078,7 +36303,8 @@
     "order": 4977,
     "tags": [
       "SG",
-      "zászló"
+      "zászló",
+      "zászló: szingapúr"
     ],
     "unicode": "🇸🇬"
   },
@@ -36089,7 +36315,8 @@
     "order": 4978,
     "tags": [
       "SH",
-      "zászló"
+      "zászló",
+      "zászló: szent ilona"
     ],
     "unicode": "🇸🇭"
   },
@@ -36100,7 +36327,8 @@
     "order": 4979,
     "tags": [
       "SI",
-      "zászló"
+      "zászló",
+      "zászló: szlovénia"
     ],
     "unicode": "🇸🇮"
   },
@@ -36111,7 +36339,8 @@
     "order": 4980,
     "tags": [
       "SJ",
-      "zászló"
+      "zászló",
+      "zászló: svalbard és jan mayen"
     ],
     "unicode": "🇸🇯"
   },
@@ -36122,7 +36351,8 @@
     "order": 4981,
     "tags": [
       "SK",
-      "zászló"
+      "zászló",
+      "zászló: szlovákia"
     ],
     "unicode": "🇸🇰"
   },
@@ -36133,7 +36363,8 @@
     "order": 4982,
     "tags": [
       "SL",
-      "zászló"
+      "zászló",
+      "zászló: sierra leone"
     ],
     "unicode": "🇸🇱"
   },
@@ -36144,7 +36375,8 @@
     "order": 4983,
     "tags": [
       "SM",
-      "zászló"
+      "zászló",
+      "zászló: san marino"
     ],
     "unicode": "🇸🇲"
   },
@@ -36155,7 +36387,8 @@
     "order": 4984,
     "tags": [
       "SN",
-      "zászló"
+      "zászló",
+      "zászló: szenegál"
     ],
     "unicode": "🇸🇳"
   },
@@ -36166,7 +36399,8 @@
     "order": 4985,
     "tags": [
       "SO",
-      "zászló"
+      "zászló",
+      "zászló: szomália"
     ],
     "unicode": "🇸🇴"
   },
@@ -36177,7 +36411,8 @@
     "order": 4986,
     "tags": [
       "SR",
-      "zászló"
+      "zászló",
+      "zászló: suriname"
     ],
     "unicode": "🇸🇷"
   },
@@ -36188,7 +36423,8 @@
     "order": 4987,
     "tags": [
       "SS",
-      "zászló"
+      "zászló",
+      "zászló: dél-szudán"
     ],
     "unicode": "🇸🇸"
   },
@@ -36199,7 +36435,8 @@
     "order": 4988,
     "tags": [
       "ST",
-      "zászló"
+      "zászló",
+      "zászló: são tomé és príncipe"
     ],
     "unicode": "🇸🇹"
   },
@@ -36210,7 +36447,8 @@
     "order": 4989,
     "tags": [
       "SV",
-      "zászló"
+      "zászló",
+      "zászló: salvador"
     ],
     "unicode": "🇸🇻"
   },
@@ -36221,7 +36459,8 @@
     "order": 4990,
     "tags": [
       "SX",
-      "zászló"
+      "zászló",
+      "zászló: sint maarten"
     ],
     "unicode": "🇸🇽"
   },
@@ -36232,7 +36471,8 @@
     "order": 4991,
     "tags": [
       "SY",
-      "zászló"
+      "zászló",
+      "zászló: szíria"
     ],
     "unicode": "🇸🇾"
   },
@@ -36243,7 +36483,8 @@
     "order": 4992,
     "tags": [
       "SZ",
-      "zászló"
+      "zászló",
+      "zászló: szváziföld"
     ],
     "unicode": "🇸🇿"
   },
@@ -36254,7 +36495,8 @@
     "order": 4993,
     "tags": [
       "TA",
-      "zászló"
+      "zászló",
+      "zászló: tristan da cunha"
     ],
     "unicode": "🇹🇦"
   },
@@ -36265,7 +36507,8 @@
     "order": 4994,
     "tags": [
       "TC",
-      "zászló"
+      "zászló",
+      "zászló: turks- és caicos-szigetek"
     ],
     "unicode": "🇹🇨"
   },
@@ -36276,7 +36519,8 @@
     "order": 4995,
     "tags": [
       "TD",
-      "zászló"
+      "zászló",
+      "zászló: csád"
     ],
     "unicode": "🇹🇩"
   },
@@ -36287,7 +36531,8 @@
     "order": 4996,
     "tags": [
       "TF",
-      "zászló"
+      "zászló",
+      "zászló: francia déli területek"
     ],
     "unicode": "🇹🇫"
   },
@@ -36298,7 +36543,8 @@
     "order": 4997,
     "tags": [
       "TG",
-      "zászló"
+      "zászló",
+      "zászló: togo"
     ],
     "unicode": "🇹🇬"
   },
@@ -36309,7 +36555,8 @@
     "order": 4998,
     "tags": [
       "TH",
-      "zászló"
+      "zászló",
+      "zászló: thaiföld"
     ],
     "unicode": "🇹🇭"
   },
@@ -36320,7 +36567,8 @@
     "order": 4999,
     "tags": [
       "TJ",
-      "zászló"
+      "zászló",
+      "zászló: tádzsikisztán"
     ],
     "unicode": "🇹🇯"
   },
@@ -36331,7 +36579,8 @@
     "order": 5000,
     "tags": [
       "TK",
-      "zászló"
+      "zászló",
+      "zászló: tokelau"
     ],
     "unicode": "🇹🇰"
   },
@@ -36342,7 +36591,8 @@
     "order": 5001,
     "tags": [
       "TL",
-      "zászló"
+      "zászló",
+      "zászló: kelet-timor"
     ],
     "unicode": "🇹🇱"
   },
@@ -36353,7 +36603,8 @@
     "order": 5002,
     "tags": [
       "TM",
-      "zászló"
+      "zászló",
+      "zászló: türkmenisztán"
     ],
     "unicode": "🇹🇲"
   },
@@ -36364,7 +36615,8 @@
     "order": 5003,
     "tags": [
       "TN",
-      "zászló"
+      "zászló",
+      "zászló: tunézia"
     ],
     "unicode": "🇹🇳"
   },
@@ -36375,7 +36627,8 @@
     "order": 5004,
     "tags": [
       "TO",
-      "zászló"
+      "zászló",
+      "zászló: tonga"
     ],
     "unicode": "🇹🇴"
   },
@@ -36386,7 +36639,8 @@
     "order": 5005,
     "tags": [
       "TR",
-      "zászló"
+      "zászló",
+      "zászló: törökország"
     ],
     "unicode": "🇹🇷"
   },
@@ -36397,7 +36651,8 @@
     "order": 5006,
     "tags": [
       "TT",
-      "zászló"
+      "zászló",
+      "zászló: trinidad és tobago"
     ],
     "unicode": "🇹🇹"
   },
@@ -36408,7 +36663,8 @@
     "order": 5007,
     "tags": [
       "TV",
-      "zászló"
+      "zászló",
+      "zászló: tuvalu"
     ],
     "unicode": "🇹🇻"
   },
@@ -36419,7 +36675,8 @@
     "order": 5008,
     "tags": [
       "TW",
-      "zászló"
+      "zászló",
+      "zászló: tajvan"
     ],
     "unicode": "🇹🇼"
   },
@@ -36430,7 +36687,8 @@
     "order": 5009,
     "tags": [
       "TZ",
-      "zászló"
+      "zászló",
+      "zászló: tanzánia"
     ],
     "unicode": "🇹🇿"
   },
@@ -36441,7 +36699,8 @@
     "order": 5010,
     "tags": [
       "UA",
-      "zászló"
+      "zászló",
+      "zászló: ukrajna"
     ],
     "unicode": "🇺🇦"
   },
@@ -36452,7 +36711,8 @@
     "order": 5011,
     "tags": [
       "UG",
-      "zászló"
+      "zászló",
+      "zászló: uganda"
     ],
     "unicode": "🇺🇬"
   },
@@ -36463,7 +36723,8 @@
     "order": 5012,
     "tags": [
       "UM",
-      "zászló"
+      "zászló",
+      "zászló: az usa lakatlan külbirtokai"
     ],
     "unicode": "🇺🇲"
   },
@@ -36474,7 +36735,8 @@
     "order": 5013,
     "tags": [
       "UN",
-      "zászló"
+      "zászló",
+      "zászló: egyesült nemzetek szervezete"
     ],
     "unicode": "🇺🇳"
   },
@@ -36485,7 +36747,8 @@
     "order": 5014,
     "tags": [
       "US",
-      "zászló"
+      "zászló",
+      "zászló: egyesült államok"
     ],
     "unicode": "🇺🇸"
   },
@@ -36496,7 +36759,8 @@
     "order": 5015,
     "tags": [
       "UY",
-      "zászló"
+      "zászló",
+      "zászló: uruguay"
     ],
     "unicode": "🇺🇾"
   },
@@ -36507,7 +36771,8 @@
     "order": 5016,
     "tags": [
       "UZ",
-      "zászló"
+      "zászló",
+      "zászló: üzbegisztán"
     ],
     "unicode": "🇺🇿"
   },
@@ -36518,7 +36783,8 @@
     "order": 5017,
     "tags": [
       "VA",
-      "zászló"
+      "zászló",
+      "zászló: vatikán"
     ],
     "unicode": "🇻🇦"
   },
@@ -36529,7 +36795,8 @@
     "order": 5018,
     "tags": [
       "VC",
-      "zászló"
+      "zászló",
+      "zászló: saint vincent és a grenadine-szigetek"
     ],
     "unicode": "🇻🇨"
   },
@@ -36540,7 +36807,8 @@
     "order": 5019,
     "tags": [
       "VE",
-      "zászló"
+      "zászló",
+      "zászló: venezuela"
     ],
     "unicode": "🇻🇪"
   },
@@ -36551,7 +36819,8 @@
     "order": 5020,
     "tags": [
       "VG",
-      "zászló"
+      "zászló",
+      "zászló: brit virgin-szigetek"
     ],
     "unicode": "🇻🇬"
   },
@@ -36562,7 +36831,8 @@
     "order": 5021,
     "tags": [
       "VI",
-      "zászló"
+      "zászló",
+      "zászló: amerikai virgin-szigetek"
     ],
     "unicode": "🇻🇮"
   },
@@ -36573,7 +36843,8 @@
     "order": 5022,
     "tags": [
       "VN",
-      "zászló"
+      "zászló",
+      "zászló: vietnám"
     ],
     "unicode": "🇻🇳"
   },
@@ -36584,7 +36855,8 @@
     "order": 5023,
     "tags": [
       "VU",
-      "zászló"
+      "zászló",
+      "zászló: vanuatu"
     ],
     "unicode": "🇻🇺"
   },
@@ -36595,7 +36867,8 @@
     "order": 5024,
     "tags": [
       "WF",
-      "zászló"
+      "zászló",
+      "zászló: wallis és futuna"
     ],
     "unicode": "🇼🇫"
   },
@@ -36606,7 +36879,8 @@
     "order": 5025,
     "tags": [
       "WS",
-      "zászló"
+      "zászló",
+      "zászló: szamoa"
     ],
     "unicode": "🇼🇸"
   },
@@ -36617,7 +36891,8 @@
     "order": 5026,
     "tags": [
       "XK",
-      "zászló"
+      "zászló",
+      "zászló: koszovó"
     ],
     "unicode": "🇽🇰"
   },
@@ -36628,7 +36903,8 @@
     "order": 5027,
     "tags": [
       "YE",
-      "zászló"
+      "zászló",
+      "zászló: jemen"
     ],
     "unicode": "🇾🇪"
   },
@@ -36639,7 +36915,8 @@
     "order": 5028,
     "tags": [
       "YT",
-      "zászló"
+      "zászló",
+      "zászló: mayotte"
     ],
     "unicode": "🇾🇹"
   },
@@ -36650,7 +36927,8 @@
     "order": 5029,
     "tags": [
       "ZA",
-      "zászló"
+      "zászló",
+      "zászló: dél-afrikai köztársaság"
     ],
     "unicode": "🇿🇦"
   },
@@ -36661,7 +36939,8 @@
     "order": 5030,
     "tags": [
       "ZM",
-      "zászló"
+      "zászló",
+      "zászló: zambia"
     ],
     "unicode": "🇿🇲"
   },
@@ -36672,7 +36951,8 @@
     "order": 5031,
     "tags": [
       "ZW",
-      "zászló"
+      "zászló",
+      "zászló: zimbabwe"
     ],
     "unicode": "🇿🇼"
   },
@@ -36683,7 +36963,8 @@
     "order": 5032,
     "tags": [
       "gbeng",
-      "zászló"
+      "zászló",
+      "zászló: anglia"
     ],
     "unicode": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
   },
@@ -36694,7 +36975,8 @@
     "order": 5033,
     "tags": [
       "gbsct",
-      "zászló"
+      "zászló",
+      "zászló: skócia"
     ],
     "unicode": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
   },
@@ -36705,7 +36987,8 @@
     "order": 5034,
     "tags": [
       "gbwls",
-      "zászló"
+      "zászló",
+      "zászló: wales"
     ],
     "unicode": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
   }

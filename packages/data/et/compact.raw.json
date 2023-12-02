@@ -531,6 +531,7 @@
     "label": "nägu, millel on raha suus",
     "order": 30,
     "tags": [
+      "millel on raha suus",
       "nägu",
       "raha",
       "suu"
@@ -810,28 +811,22 @@
   {
     "group": 0,
     "hexcode": "1F642-200D-2194-FE0F",
-    "label": "head shaking horizontally",
+    "label": "pearaputus",
     "order": 53,
     "tags": [
-      "naeratus",
-      "naeratusega nägu",
-      "nool",
-      "nool paremale-vasakule",
-      "nägu"
+      "ei",
+      "raputus"
     ],
     "unicode": "🙂‍↔️"
   },
   {
     "group": 0,
     "hexcode": "1F642-200D-2195-FE0F",
-    "label": "head shaking vertically",
+    "label": "peanoogutus",
     "order": 55,
     "tags": [
-      "naeratus",
-      "naeratusega nägu",
-      "nool",
-      "nool üles-alla",
-      "nägu"
+      "jah",
+      "noogutus"
     ],
     "unicode": "🙂‍↕️"
   },
@@ -1329,6 +1324,7 @@
     "order": 96,
     "tags": [
       "kergendus",
+      "kuid kergendust tundev nägu",
       "leevendus",
       "nägu",
       "pettunud"
@@ -2781,7 +2777,7 @@
       "lükka",
       "oota",
       "stopp",
-      "vasakue",
+      "vasakule",
       "viska viis"
     ],
     "unicode": "🫷",
@@ -12033,8 +12029,8 @@
     "label": "päkats",
     "order": 1661,
     "tags": [
-      "päkapikk",
-      "päkapikk, jõulud"
+      "jõulud",
+      "päkapikk"
     ],
     "unicode": "🧑‍🎄",
     "skins": [
@@ -20858,12 +20854,11 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2",
-    "label": "family: adult, adult, child",
+    "label": "perekond: täiskasvanu, täiskasvanu, laps",
     "order": 3470,
     "tags": [
       "laps",
-      "noor",
-      "sooliselt neutraalne",
+      "perekond: täiskasvanu",
       "täiskasvanu"
     ],
     "unicode": "🧑‍🧑‍🧒"
@@ -20871,12 +20866,11 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, adult, child, child",
+    "label": "perekond: täiskasvanu, täiskasvanu, laps, laps",
     "order": 3471,
     "tags": [
       "laps",
-      "noor",
-      "sooliselt neutraalne",
+      "perekond: täiskasvanu",
       "täiskasvanu"
     ],
     "unicode": "🧑‍🧑‍🧒‍🧒"
@@ -20884,26 +20878,22 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2",
-    "label": "family: adult, child",
+    "label": "perekond: täiskasvanu, laps",
     "order": 3472,
     "tags": [
       "laps",
-      "noor",
-      "sooliselt neutraalne",
-      "täiskasvanu"
+      "perekond: täiskasvanu"
     ],
     "unicode": "🧑‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, child, child",
+    "label": "perekond: täiskasvanu, laps, laps",
     "order": 3473,
     "tags": [
       "laps",
-      "noor",
-      "sooliselt neutraalne",
-      "täiskasvanu"
+      "perekond: täiskasvanu"
     ],
     "unicode": "🧑‍🧒‍🧒"
   },
@@ -21971,14 +21961,14 @@
   {
     "group": 3,
     "hexcode": "1F426-200D-2B1B",
-    "label": "black bird",
+    "label": "must lind",
     "order": 3572,
     "tags": [
-      "bird",
-      "black",
-      "crow",
-      "raven",
-      "rook"
+      "kaaren",
+      "lind",
+      "must",
+      "ronk",
+      "vares"
     ],
     "unicode": "🐦‍⬛"
   },
@@ -21998,12 +21988,13 @@
   {
     "group": 3,
     "hexcode": "1F426-200D-1F525",
-    "label": "phoenix",
+    "label": "fööniks",
     "order": 3574,
     "tags": [
-      "leek",
-      "lind",
-      "tuli"
+      "fantaasia",
+      "reinkarnatsioon",
+      "taassünd",
+      "tulelind"
     ],
     "unicode": "🐦‍🔥"
   },
@@ -22796,15 +22787,12 @@
   {
     "group": 4,
     "hexcode": "1F34B-200D-1F7E9",
-    "label": "lime",
+    "label": "laim",
     "order": 3649,
     "tags": [
-      "nelinurk",
       "puuvili",
-      "roheline",
-      "ruut",
-      "sidrun",
-      "taim"
+      "troopiline",
+      "tsitrus"
     ],
     "unicode": "🍋‍🟩"
   },
@@ -23165,14 +23153,13 @@
   {
     "group": 4,
     "hexcode": "1F344-200D-1F7EB",
-    "label": "brown mushroom",
+    "label": "šampinjon",
     "order": 3682,
     "tags": [
-      "mürgiseen",
-      "nelinurk",
-      "pruun",
-      "ruut",
-      "seen"
+      "köögivili",
+      "loodus",
+      "seen",
+      "toit"
     ],
     "unicode": "🍄‍🟫"
   },
@@ -24233,6 +24220,7 @@
     "tags": [
       "kahvel",
       "nuga",
+      "nuga ja taldrik",
       "taldrik",
       "toit"
     ],
@@ -30302,14 +30290,15 @@
   {
     "group": 7,
     "hexcode": "26D3-FE0F-200D-1F4A5",
-    "label": "broken chain",
+    "label": "katkine kett",
     "order": 4395,
     "tags": [
       "ahel",
-      "ahelad",
+      "katki tegema",
+      "katkitegemine",
       "kett",
-      "koomiks",
-      "piraki"
+      "käerauad",
+      "vabadus"
     ],
     "unicode": "⛓️‍💥"
   },
@@ -33641,7 +33630,8 @@
     "order": 4774,
     "tags": [
       "AC",
-      "lipp"
+      "lipp",
+      "lipp: ascensioni saar"
     ],
     "unicode": "🇦🇨"
   },
@@ -33652,7 +33642,8 @@
     "order": 4775,
     "tags": [
       "AD",
-      "lipp"
+      "lipp",
+      "lipp: andorra"
     ],
     "unicode": "🇦🇩"
   },
@@ -33663,7 +33654,8 @@
     "order": 4776,
     "tags": [
       "AE",
-      "lipp"
+      "lipp",
+      "lipp: araabia ühendemiraadid"
     ],
     "unicode": "🇦🇪"
   },
@@ -33674,7 +33666,8 @@
     "order": 4777,
     "tags": [
       "AF",
-      "lipp"
+      "lipp",
+      "lipp: afganistan"
     ],
     "unicode": "🇦🇫"
   },
@@ -33685,7 +33678,8 @@
     "order": 4778,
     "tags": [
       "AG",
-      "lipp"
+      "lipp",
+      "lipp: antigua ja barbuda"
     ],
     "unicode": "🇦🇬"
   },
@@ -33696,7 +33690,8 @@
     "order": 4779,
     "tags": [
       "AI",
-      "lipp"
+      "lipp",
+      "lipp: anguilla"
     ],
     "unicode": "🇦🇮"
   },
@@ -33707,7 +33702,8 @@
     "order": 4780,
     "tags": [
       "AL",
-      "lipp"
+      "lipp",
+      "lipp: albaania"
     ],
     "unicode": "🇦🇱"
   },
@@ -33718,7 +33714,8 @@
     "order": 4781,
     "tags": [
       "AM",
-      "lipp"
+      "lipp",
+      "lipp: armeenia"
     ],
     "unicode": "🇦🇲"
   },
@@ -33729,7 +33726,8 @@
     "order": 4782,
     "tags": [
       "AO",
-      "lipp"
+      "lipp",
+      "lipp: angola"
     ],
     "unicode": "🇦🇴"
   },
@@ -33740,7 +33738,8 @@
     "order": 4783,
     "tags": [
       "AQ",
-      "lipp"
+      "lipp",
+      "lipp: antarktika"
     ],
     "unicode": "🇦🇶"
   },
@@ -33751,7 +33750,8 @@
     "order": 4784,
     "tags": [
       "AR",
-      "lipp"
+      "lipp",
+      "lipp: argentina"
     ],
     "unicode": "🇦🇷"
   },
@@ -33762,7 +33762,8 @@
     "order": 4785,
     "tags": [
       "AS",
-      "lipp"
+      "lipp",
+      "lipp: ameerika samoa"
     ],
     "unicode": "🇦🇸"
   },
@@ -33773,7 +33774,8 @@
     "order": 4786,
     "tags": [
       "AT",
-      "lipp"
+      "lipp",
+      "lipp: austria"
     ],
     "unicode": "🇦🇹"
   },
@@ -33784,7 +33786,8 @@
     "order": 4787,
     "tags": [
       "AU",
-      "lipp"
+      "lipp",
+      "lipp: austraalia"
     ],
     "unicode": "🇦🇺"
   },
@@ -33795,7 +33798,8 @@
     "order": 4788,
     "tags": [
       "AW",
-      "lipp"
+      "lipp",
+      "lipp: aruba"
     ],
     "unicode": "🇦🇼"
   },
@@ -33806,7 +33810,8 @@
     "order": 4789,
     "tags": [
       "AX",
-      "lipp"
+      "lipp",
+      "lipp: ahvenamaa"
     ],
     "unicode": "🇦🇽"
   },
@@ -33817,7 +33822,8 @@
     "order": 4790,
     "tags": [
       "AZ",
-      "lipp"
+      "lipp",
+      "lipp: aserbaidžaan"
     ],
     "unicode": "🇦🇿"
   },
@@ -33828,7 +33834,8 @@
     "order": 4791,
     "tags": [
       "BA",
-      "lipp"
+      "lipp",
+      "lipp: bosnia ja hertsegoviina"
     ],
     "unicode": "🇧🇦"
   },
@@ -33839,7 +33846,8 @@
     "order": 4792,
     "tags": [
       "BB",
-      "lipp"
+      "lipp",
+      "lipp: barbados"
     ],
     "unicode": "🇧🇧"
   },
@@ -33850,7 +33858,8 @@
     "order": 4793,
     "tags": [
       "BD",
-      "lipp"
+      "lipp",
+      "lipp: bangladesh"
     ],
     "unicode": "🇧🇩"
   },
@@ -33861,7 +33870,8 @@
     "order": 4794,
     "tags": [
       "BE",
-      "lipp"
+      "lipp",
+      "lipp: belgia"
     ],
     "unicode": "🇧🇪"
   },
@@ -33872,7 +33882,8 @@
     "order": 4795,
     "tags": [
       "BF",
-      "lipp"
+      "lipp",
+      "lipp: burkina faso"
     ],
     "unicode": "🇧🇫"
   },
@@ -33883,7 +33894,8 @@
     "order": 4796,
     "tags": [
       "BG",
-      "lipp"
+      "lipp",
+      "lipp: bulgaaria"
     ],
     "unicode": "🇧🇬"
   },
@@ -33894,7 +33906,8 @@
     "order": 4797,
     "tags": [
       "BH",
-      "lipp"
+      "lipp",
+      "lipp: bahrein"
     ],
     "unicode": "🇧🇭"
   },
@@ -33905,7 +33918,8 @@
     "order": 4798,
     "tags": [
       "BI",
-      "lipp"
+      "lipp",
+      "lipp: burundi"
     ],
     "unicode": "🇧🇮"
   },
@@ -33916,7 +33930,8 @@
     "order": 4799,
     "tags": [
       "BJ",
-      "lipp"
+      "lipp",
+      "lipp: benin"
     ],
     "unicode": "🇧🇯"
   },
@@ -33927,7 +33942,8 @@
     "order": 4800,
     "tags": [
       "BL",
-      "lipp"
+      "lipp",
+      "lipp: saint-barthélemy"
     ],
     "unicode": "🇧🇱"
   },
@@ -33938,7 +33954,8 @@
     "order": 4801,
     "tags": [
       "BM",
-      "lipp"
+      "lipp",
+      "lipp: bermuda"
     ],
     "unicode": "🇧🇲"
   },
@@ -33949,7 +33966,8 @@
     "order": 4802,
     "tags": [
       "BN",
-      "lipp"
+      "lipp",
+      "lipp: brunei"
     ],
     "unicode": "🇧🇳"
   },
@@ -33960,18 +33978,20 @@
     "order": 4803,
     "tags": [
       "BO",
-      "lipp"
+      "lipp",
+      "lipp: boliivia"
     ],
     "unicode": "🇧🇴"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1F6",
-    "label": "lipp: Hollandi Kariibi mere saared",
+    "label": "lipp: Kariibi Madalmaad",
     "order": 4804,
     "tags": [
       "BQ",
-      "lipp"
+      "lipp",
+      "lipp: kariibi madalmaad"
     ],
     "unicode": "🇧🇶"
   },
@@ -33982,7 +34002,8 @@
     "order": 4805,
     "tags": [
       "BR",
-      "lipp"
+      "lipp",
+      "lipp: brasiilia"
     ],
     "unicode": "🇧🇷"
   },
@@ -33993,7 +34014,8 @@
     "order": 4806,
     "tags": [
       "BS",
-      "lipp"
+      "lipp",
+      "lipp: bahama"
     ],
     "unicode": "🇧🇸"
   },
@@ -34004,7 +34026,8 @@
     "order": 4807,
     "tags": [
       "BT",
-      "lipp"
+      "lipp",
+      "lipp: bhutan"
     ],
     "unicode": "🇧🇹"
   },
@@ -34015,7 +34038,8 @@
     "order": 4808,
     "tags": [
       "BV",
-      "lipp"
+      "lipp",
+      "lipp: bouvet’ saar"
     ],
     "unicode": "🇧🇻"
   },
@@ -34026,7 +34050,8 @@
     "order": 4809,
     "tags": [
       "BW",
-      "lipp"
+      "lipp",
+      "lipp: botswana"
     ],
     "unicode": "🇧🇼"
   },
@@ -34037,7 +34062,8 @@
     "order": 4810,
     "tags": [
       "BY",
-      "lipp"
+      "lipp",
+      "lipp: valgevene"
     ],
     "unicode": "🇧🇾"
   },
@@ -34048,7 +34074,8 @@
     "order": 4811,
     "tags": [
       "BZ",
-      "lipp"
+      "lipp",
+      "lipp: belize"
     ],
     "unicode": "🇧🇿"
   },
@@ -34059,7 +34086,8 @@
     "order": 4812,
     "tags": [
       "CA",
-      "lipp"
+      "lipp",
+      "lipp: kanada"
     ],
     "unicode": "🇨🇦"
   },
@@ -34070,7 +34098,8 @@
     "order": 4813,
     "tags": [
       "CC",
-      "lipp"
+      "lipp",
+      "lipp: kookossaared"
     ],
     "unicode": "🇨🇨"
   },
@@ -34081,7 +34110,8 @@
     "order": 4814,
     "tags": [
       "CD",
-      "lipp"
+      "lipp",
+      "lipp: kongo dv"
     ],
     "unicode": "🇨🇩"
   },
@@ -34092,7 +34122,8 @@
     "order": 4815,
     "tags": [
       "CF",
-      "lipp"
+      "lipp",
+      "lipp: kesk-aafrika vabariik"
     ],
     "unicode": "🇨🇫"
   },
@@ -34103,7 +34134,8 @@
     "order": 4816,
     "tags": [
       "CG",
-      "lipp"
+      "lipp",
+      "lipp: kongo vabariik"
     ],
     "unicode": "🇨🇬"
   },
@@ -34114,18 +34146,20 @@
     "order": 4817,
     "tags": [
       "CH",
-      "lipp"
+      "lipp",
+      "lipp: šveits"
     ],
     "unicode": "🇨🇭"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1EE",
-    "label": "lipp: Côte d’Ivoire",
+    "label": "lipp: Elevandiluurannik",
     "order": 4818,
     "tags": [
       "CI",
-      "lipp"
+      "lipp",
+      "lipp: elevandiluurannik"
     ],
     "unicode": "🇨🇮"
   },
@@ -34136,7 +34170,8 @@
     "order": 4819,
     "tags": [
       "CK",
-      "lipp"
+      "lipp",
+      "lipp: cooki saared"
     ],
     "unicode": "🇨🇰"
   },
@@ -34147,7 +34182,8 @@
     "order": 4820,
     "tags": [
       "CL",
-      "lipp"
+      "lipp",
+      "lipp: tšiili"
     ],
     "unicode": "🇨🇱"
   },
@@ -34158,7 +34194,8 @@
     "order": 4821,
     "tags": [
       "CM",
-      "lipp"
+      "lipp",
+      "lipp: kamerun"
     ],
     "unicode": "🇨🇲"
   },
@@ -34169,7 +34206,8 @@
     "order": 4822,
     "tags": [
       "CN",
-      "lipp"
+      "lipp",
+      "lipp: hiina"
     ],
     "unicode": "🇨🇳"
   },
@@ -34180,7 +34218,8 @@
     "order": 4823,
     "tags": [
       "CO",
-      "lipp"
+      "lipp",
+      "lipp: colombia"
     ],
     "unicode": "🇨🇴"
   },
@@ -34191,7 +34230,8 @@
     "order": 4824,
     "tags": [
       "CP",
-      "lipp"
+      "lipp",
+      "lipp: clippertoni saar"
     ],
     "unicode": "🇨🇵"
   },
@@ -34202,7 +34242,8 @@
     "order": 4825,
     "tags": [
       "CR",
-      "lipp"
+      "lipp",
+      "lipp: costa rica"
     ],
     "unicode": "🇨🇷"
   },
@@ -34213,7 +34254,8 @@
     "order": 4826,
     "tags": [
       "CU",
-      "lipp"
+      "lipp",
+      "lipp: kuuba"
     ],
     "unicode": "🇨🇺"
   },
@@ -34224,7 +34266,8 @@
     "order": 4827,
     "tags": [
       "CV",
-      "lipp"
+      "lipp",
+      "lipp: roheneemesaared"
     ],
     "unicode": "🇨🇻"
   },
@@ -34235,7 +34278,8 @@
     "order": 4828,
     "tags": [
       "CW",
-      "lipp"
+      "lipp",
+      "lipp: curaçao"
     ],
     "unicode": "🇨🇼"
   },
@@ -34246,7 +34290,8 @@
     "order": 4829,
     "tags": [
       "CX",
-      "lipp"
+      "lipp",
+      "lipp: jõulusaar"
     ],
     "unicode": "🇨🇽"
   },
@@ -34257,7 +34302,8 @@
     "order": 4830,
     "tags": [
       "CY",
-      "lipp"
+      "lipp",
+      "lipp: küpros"
     ],
     "unicode": "🇨🇾"
   },
@@ -34268,7 +34314,8 @@
     "order": 4831,
     "tags": [
       "CZ",
-      "lipp"
+      "lipp",
+      "lipp: tšehhi"
     ],
     "unicode": "🇨🇿"
   },
@@ -34279,7 +34326,8 @@
     "order": 4832,
     "tags": [
       "DE",
-      "lipp"
+      "lipp",
+      "lipp: saksamaa"
     ],
     "unicode": "🇩🇪"
   },
@@ -34290,7 +34338,8 @@
     "order": 4833,
     "tags": [
       "DG",
-      "lipp"
+      "lipp",
+      "lipp: diego garcia"
     ],
     "unicode": "🇩🇬"
   },
@@ -34301,7 +34350,8 @@
     "order": 4834,
     "tags": [
       "DJ",
-      "lipp"
+      "lipp",
+      "lipp: djibouti"
     ],
     "unicode": "🇩🇯"
   },
@@ -34312,7 +34362,8 @@
     "order": 4835,
     "tags": [
       "DK",
-      "lipp"
+      "lipp",
+      "lipp: taani"
     ],
     "unicode": "🇩🇰"
   },
@@ -34323,7 +34374,8 @@
     "order": 4836,
     "tags": [
       "DM",
-      "lipp"
+      "lipp",
+      "lipp: dominica"
     ],
     "unicode": "🇩🇲"
   },
@@ -34334,7 +34386,8 @@
     "order": 4837,
     "tags": [
       "DO",
-      "lipp"
+      "lipp",
+      "lipp: dominikaani vabariik"
     ],
     "unicode": "🇩🇴"
   },
@@ -34345,7 +34398,8 @@
     "order": 4838,
     "tags": [
       "DZ",
-      "lipp"
+      "lipp",
+      "lipp: alžeeria"
     ],
     "unicode": "🇩🇿"
   },
@@ -34356,7 +34410,8 @@
     "order": 4839,
     "tags": [
       "EA",
-      "lipp"
+      "lipp",
+      "lipp: ceuta ja melilla"
     ],
     "unicode": "🇪🇦"
   },
@@ -34367,7 +34422,8 @@
     "order": 4840,
     "tags": [
       "EC",
-      "lipp"
+      "lipp",
+      "lipp: ecuador"
     ],
     "unicode": "🇪🇨"
   },
@@ -34378,7 +34434,8 @@
     "order": 4841,
     "tags": [
       "EE",
-      "lipp"
+      "lipp",
+      "lipp: eesti"
     ],
     "unicode": "🇪🇪"
   },
@@ -34389,7 +34446,8 @@
     "order": 4842,
     "tags": [
       "EG",
-      "lipp"
+      "lipp",
+      "lipp: egiptus"
     ],
     "unicode": "🇪🇬"
   },
@@ -34400,7 +34458,8 @@
     "order": 4843,
     "tags": [
       "EH",
-      "lipp"
+      "lipp",
+      "lipp: lääne-sahara"
     ],
     "unicode": "🇪🇭"
   },
@@ -34411,7 +34470,8 @@
     "order": 4844,
     "tags": [
       "ER",
-      "lipp"
+      "lipp",
+      "lipp: eritrea"
     ],
     "unicode": "🇪🇷"
   },
@@ -34422,7 +34482,8 @@
     "order": 4845,
     "tags": [
       "ES",
-      "lipp"
+      "lipp",
+      "lipp: hispaania"
     ],
     "unicode": "🇪🇸"
   },
@@ -34433,7 +34494,8 @@
     "order": 4846,
     "tags": [
       "ET",
-      "lipp"
+      "lipp",
+      "lipp: etioopia"
     ],
     "unicode": "🇪🇹"
   },
@@ -34444,7 +34506,8 @@
     "order": 4847,
     "tags": [
       "EU",
-      "lipp"
+      "lipp",
+      "lipp: euroopa liit"
     ],
     "unicode": "🇪🇺"
   },
@@ -34455,7 +34518,8 @@
     "order": 4848,
     "tags": [
       "FI",
-      "lipp"
+      "lipp",
+      "lipp: soome"
     ],
     "unicode": "🇫🇮"
   },
@@ -34466,7 +34530,8 @@
     "order": 4849,
     "tags": [
       "FJ",
-      "lipp"
+      "lipp",
+      "lipp: fidži"
     ],
     "unicode": "🇫🇯"
   },
@@ -34477,7 +34542,8 @@
     "order": 4850,
     "tags": [
       "FK",
-      "lipp"
+      "lipp",
+      "lipp: falklandi saared"
     ],
     "unicode": "🇫🇰"
   },
@@ -34488,7 +34554,8 @@
     "order": 4851,
     "tags": [
       "FM",
-      "lipp"
+      "lipp",
+      "lipp: mikroneesia"
     ],
     "unicode": "🇫🇲"
   },
@@ -34499,7 +34566,8 @@
     "order": 4852,
     "tags": [
       "FO",
-      "lipp"
+      "lipp",
+      "lipp: fääri saared"
     ],
     "unicode": "🇫🇴"
   },
@@ -34510,7 +34578,8 @@
     "order": 4853,
     "tags": [
       "FR",
-      "lipp"
+      "lipp",
+      "lipp: prantsusmaa"
     ],
     "unicode": "🇫🇷"
   },
@@ -34521,7 +34590,8 @@
     "order": 4854,
     "tags": [
       "GA",
-      "lipp"
+      "lipp",
+      "lipp: gabon"
     ],
     "unicode": "🇬🇦"
   },
@@ -34532,7 +34602,8 @@
     "order": 4855,
     "tags": [
       "GB",
-      "lipp"
+      "lipp",
+      "lipp: ühendkuningriik"
     ],
     "unicode": "🇬🇧"
   },
@@ -34543,7 +34614,8 @@
     "order": 4856,
     "tags": [
       "GD",
-      "lipp"
+      "lipp",
+      "lipp: grenada"
     ],
     "unicode": "🇬🇩"
   },
@@ -34554,7 +34626,8 @@
     "order": 4857,
     "tags": [
       "GE",
-      "lipp"
+      "lipp",
+      "lipp: gruusia"
     ],
     "unicode": "🇬🇪"
   },
@@ -34565,7 +34638,8 @@
     "order": 4858,
     "tags": [
       "GF",
-      "lipp"
+      "lipp",
+      "lipp: prantsuse guajaana"
     ],
     "unicode": "🇬🇫"
   },
@@ -34576,7 +34650,8 @@
     "order": 4859,
     "tags": [
       "GG",
-      "lipp"
+      "lipp",
+      "lipp: guernsey"
     ],
     "unicode": "🇬🇬"
   },
@@ -34587,7 +34662,8 @@
     "order": 4860,
     "tags": [
       "GH",
-      "lipp"
+      "lipp",
+      "lipp: ghana"
     ],
     "unicode": "🇬🇭"
   },
@@ -34598,7 +34674,8 @@
     "order": 4861,
     "tags": [
       "GI",
-      "lipp"
+      "lipp",
+      "lipp: gibraltar"
     ],
     "unicode": "🇬🇮"
   },
@@ -34609,7 +34686,8 @@
     "order": 4862,
     "tags": [
       "GL",
-      "lipp"
+      "lipp",
+      "lipp: gröönimaa"
     ],
     "unicode": "🇬🇱"
   },
@@ -34620,7 +34698,8 @@
     "order": 4863,
     "tags": [
       "GM",
-      "lipp"
+      "lipp",
+      "lipp: gambia"
     ],
     "unicode": "🇬🇲"
   },
@@ -34631,7 +34710,8 @@
     "order": 4864,
     "tags": [
       "GN",
-      "lipp"
+      "lipp",
+      "lipp: guinea"
     ],
     "unicode": "🇬🇳"
   },
@@ -34642,7 +34722,8 @@
     "order": 4865,
     "tags": [
       "GP",
-      "lipp"
+      "lipp",
+      "lipp: guadeloupe"
     ],
     "unicode": "🇬🇵"
   },
@@ -34653,7 +34734,8 @@
     "order": 4866,
     "tags": [
       "GQ",
-      "lipp"
+      "lipp",
+      "lipp: ekvatoriaal-guinea"
     ],
     "unicode": "🇬🇶"
   },
@@ -34664,7 +34746,8 @@
     "order": 4867,
     "tags": [
       "GR",
-      "lipp"
+      "lipp",
+      "lipp: kreeka"
     ],
     "unicode": "🇬🇷"
   },
@@ -34675,7 +34758,8 @@
     "order": 4868,
     "tags": [
       "GS",
-      "lipp"
+      "lipp",
+      "lipp: lõuna-georgia ja lõuna-sandwichi saared"
     ],
     "unicode": "🇬🇸"
   },
@@ -34686,7 +34770,8 @@
     "order": 4869,
     "tags": [
       "GT",
-      "lipp"
+      "lipp",
+      "lipp: guatemala"
     ],
     "unicode": "🇬🇹"
   },
@@ -34697,7 +34782,8 @@
     "order": 4870,
     "tags": [
       "GU",
-      "lipp"
+      "lipp",
+      "lipp: guam"
     ],
     "unicode": "🇬🇺"
   },
@@ -34708,7 +34794,8 @@
     "order": 4871,
     "tags": [
       "GW",
-      "lipp"
+      "lipp",
+      "lipp: guinea-bissau"
     ],
     "unicode": "🇬🇼"
   },
@@ -34719,7 +34806,8 @@
     "order": 4872,
     "tags": [
       "GY",
-      "lipp"
+      "lipp",
+      "lipp: guyana"
     ],
     "unicode": "🇬🇾"
   },
@@ -34730,7 +34818,8 @@
     "order": 4873,
     "tags": [
       "HK",
-      "lipp"
+      "lipp",
+      "lipp: hongkongi erihalduspiirkond"
     ],
     "unicode": "🇭🇰"
   },
@@ -34741,7 +34830,8 @@
     "order": 4874,
     "tags": [
       "HM",
-      "lipp"
+      "lipp",
+      "lipp: heardi ja mcdonaldi saared"
     ],
     "unicode": "🇭🇲"
   },
@@ -34752,7 +34842,8 @@
     "order": 4875,
     "tags": [
       "HN",
-      "lipp"
+      "lipp",
+      "lipp: honduras"
     ],
     "unicode": "🇭🇳"
   },
@@ -34763,7 +34854,8 @@
     "order": 4876,
     "tags": [
       "HR",
-      "lipp"
+      "lipp",
+      "lipp: horvaatia"
     ],
     "unicode": "🇭🇷"
   },
@@ -34774,7 +34866,8 @@
     "order": 4877,
     "tags": [
       "HT",
-      "lipp"
+      "lipp",
+      "lipp: haiti"
     ],
     "unicode": "🇭🇹"
   },
@@ -34785,7 +34878,8 @@
     "order": 4878,
     "tags": [
       "HU",
-      "lipp"
+      "lipp",
+      "lipp: ungari"
     ],
     "unicode": "🇭🇺"
   },
@@ -34796,7 +34890,8 @@
     "order": 4879,
     "tags": [
       "IC",
-      "lipp"
+      "lipp",
+      "lipp: kanaari saared"
     ],
     "unicode": "🇮🇨"
   },
@@ -34807,7 +34902,8 @@
     "order": 4880,
     "tags": [
       "ID",
-      "lipp"
+      "lipp",
+      "lipp: indoneesia"
     ],
     "unicode": "🇮🇩"
   },
@@ -34818,7 +34914,8 @@
     "order": 4881,
     "tags": [
       "IE",
-      "lipp"
+      "lipp",
+      "lipp: iirimaa"
     ],
     "unicode": "🇮🇪"
   },
@@ -34829,7 +34926,8 @@
     "order": 4882,
     "tags": [
       "IL",
-      "lipp"
+      "lipp",
+      "lipp: iisrael"
     ],
     "unicode": "🇮🇱"
   },
@@ -34840,7 +34938,8 @@
     "order": 4883,
     "tags": [
       "IM",
-      "lipp"
+      "lipp",
+      "lipp: mani saar"
     ],
     "unicode": "🇮🇲"
   },
@@ -34851,7 +34950,8 @@
     "order": 4884,
     "tags": [
       "IN",
-      "lipp"
+      "lipp",
+      "lipp: india"
     ],
     "unicode": "🇮🇳"
   },
@@ -34862,7 +34962,8 @@
     "order": 4885,
     "tags": [
       "IO",
-      "lipp"
+      "lipp",
+      "lipp: briti india ookeani ala"
     ],
     "unicode": "🇮🇴"
   },
@@ -34873,7 +34974,8 @@
     "order": 4886,
     "tags": [
       "IQ",
-      "lipp"
+      "lipp",
+      "lipp: iraak"
     ],
     "unicode": "🇮🇶"
   },
@@ -34884,7 +34986,8 @@
     "order": 4887,
     "tags": [
       "IR",
-      "lipp"
+      "lipp",
+      "lipp: iraan"
     ],
     "unicode": "🇮🇷"
   },
@@ -34895,7 +34998,8 @@
     "order": 4888,
     "tags": [
       "IS",
-      "lipp"
+      "lipp",
+      "lipp: island"
     ],
     "unicode": "🇮🇸"
   },
@@ -34906,7 +35010,8 @@
     "order": 4889,
     "tags": [
       "IT",
-      "lipp"
+      "lipp",
+      "lipp: itaalia"
     ],
     "unicode": "🇮🇹"
   },
@@ -34917,7 +35022,8 @@
     "order": 4890,
     "tags": [
       "JE",
-      "lipp"
+      "lipp",
+      "lipp: jersey"
     ],
     "unicode": "🇯🇪"
   },
@@ -34928,7 +35034,8 @@
     "order": 4891,
     "tags": [
       "JM",
-      "lipp"
+      "lipp",
+      "lipp: jamaica"
     ],
     "unicode": "🇯🇲"
   },
@@ -34939,7 +35046,8 @@
     "order": 4892,
     "tags": [
       "JO",
-      "lipp"
+      "lipp",
+      "lipp: jordaania"
     ],
     "unicode": "🇯🇴"
   },
@@ -34950,7 +35058,8 @@
     "order": 4893,
     "tags": [
       "JP",
-      "lipp"
+      "lipp",
+      "lipp: jaapan"
     ],
     "unicode": "🇯🇵"
   },
@@ -34961,7 +35070,8 @@
     "order": 4894,
     "tags": [
       "KE",
-      "lipp"
+      "lipp",
+      "lipp: keenia"
     ],
     "unicode": "🇰🇪"
   },
@@ -34972,7 +35082,8 @@
     "order": 4895,
     "tags": [
       "KG",
-      "lipp"
+      "lipp",
+      "lipp: kõrgõzstan"
     ],
     "unicode": "🇰🇬"
   },
@@ -34983,7 +35094,8 @@
     "order": 4896,
     "tags": [
       "KH",
-      "lipp"
+      "lipp",
+      "lipp: kambodža"
     ],
     "unicode": "🇰🇭"
   },
@@ -34994,7 +35106,8 @@
     "order": 4897,
     "tags": [
       "KI",
-      "lipp"
+      "lipp",
+      "lipp: kiribati"
     ],
     "unicode": "🇰🇮"
   },
@@ -35005,7 +35118,8 @@
     "order": 4898,
     "tags": [
       "KM",
-      "lipp"
+      "lipp",
+      "lipp: komoorid"
     ],
     "unicode": "🇰🇲"
   },
@@ -35016,7 +35130,8 @@
     "order": 4899,
     "tags": [
       "KN",
-      "lipp"
+      "lipp",
+      "lipp: saint kitts ja nevis"
     ],
     "unicode": "🇰🇳"
   },
@@ -35027,7 +35142,8 @@
     "order": 4900,
     "tags": [
       "KP",
-      "lipp"
+      "lipp",
+      "lipp: põhja-korea"
     ],
     "unicode": "🇰🇵"
   },
@@ -35038,7 +35154,8 @@
     "order": 4901,
     "tags": [
       "KR",
-      "lipp"
+      "lipp",
+      "lipp: lõuna-korea"
     ],
     "unicode": "🇰🇷"
   },
@@ -35049,7 +35166,8 @@
     "order": 4902,
     "tags": [
       "KW",
-      "lipp"
+      "lipp",
+      "lipp: kuveit"
     ],
     "unicode": "🇰🇼"
   },
@@ -35060,7 +35178,8 @@
     "order": 4903,
     "tags": [
       "KY",
-      "lipp"
+      "lipp",
+      "lipp: kaimanisaared"
     ],
     "unicode": "🇰🇾"
   },
@@ -35071,7 +35190,8 @@
     "order": 4904,
     "tags": [
       "KZ",
-      "lipp"
+      "lipp",
+      "lipp: kasahstan"
     ],
     "unicode": "🇰🇿"
   },
@@ -35082,7 +35202,8 @@
     "order": 4905,
     "tags": [
       "LA",
-      "lipp"
+      "lipp",
+      "lipp: laos"
     ],
     "unicode": "🇱🇦"
   },
@@ -35093,7 +35214,8 @@
     "order": 4906,
     "tags": [
       "LB",
-      "lipp"
+      "lipp",
+      "lipp: liibanon"
     ],
     "unicode": "🇱🇧"
   },
@@ -35104,7 +35226,8 @@
     "order": 4907,
     "tags": [
       "LC",
-      "lipp"
+      "lipp",
+      "lipp: saint lucia"
     ],
     "unicode": "🇱🇨"
   },
@@ -35115,7 +35238,8 @@
     "order": 4908,
     "tags": [
       "LI",
-      "lipp"
+      "lipp",
+      "lipp: liechtenstein"
     ],
     "unicode": "🇱🇮"
   },
@@ -35126,7 +35250,8 @@
     "order": 4909,
     "tags": [
       "LK",
-      "lipp"
+      "lipp",
+      "lipp: sri lanka"
     ],
     "unicode": "🇱🇰"
   },
@@ -35137,7 +35262,8 @@
     "order": 4910,
     "tags": [
       "LR",
-      "lipp"
+      "lipp",
+      "lipp: libeeria"
     ],
     "unicode": "🇱🇷"
   },
@@ -35148,7 +35274,8 @@
     "order": 4911,
     "tags": [
       "LS",
-      "lipp"
+      "lipp",
+      "lipp: lesotho"
     ],
     "unicode": "🇱🇸"
   },
@@ -35159,7 +35286,8 @@
     "order": 4912,
     "tags": [
       "LT",
-      "lipp"
+      "lipp",
+      "lipp: leedu"
     ],
     "unicode": "🇱🇹"
   },
@@ -35170,7 +35298,8 @@
     "order": 4913,
     "tags": [
       "LU",
-      "lipp"
+      "lipp",
+      "lipp: luksemburg"
     ],
     "unicode": "🇱🇺"
   },
@@ -35181,7 +35310,8 @@
     "order": 4914,
     "tags": [
       "LV",
-      "lipp"
+      "lipp",
+      "lipp: läti"
     ],
     "unicode": "🇱🇻"
   },
@@ -35192,7 +35322,8 @@
     "order": 4915,
     "tags": [
       "LY",
-      "lipp"
+      "lipp",
+      "lipp: liibüa"
     ],
     "unicode": "🇱🇾"
   },
@@ -35203,7 +35334,8 @@
     "order": 4916,
     "tags": [
       "MA",
-      "lipp"
+      "lipp",
+      "lipp: maroko"
     ],
     "unicode": "🇲🇦"
   },
@@ -35214,7 +35346,8 @@
     "order": 4917,
     "tags": [
       "MC",
-      "lipp"
+      "lipp",
+      "lipp: monaco"
     ],
     "unicode": "🇲🇨"
   },
@@ -35225,7 +35358,8 @@
     "order": 4918,
     "tags": [
       "MD",
-      "lipp"
+      "lipp",
+      "lipp: moldova"
     ],
     "unicode": "🇲🇩"
   },
@@ -35236,7 +35370,8 @@
     "order": 4919,
     "tags": [
       "ME",
-      "lipp"
+      "lipp",
+      "lipp: montenegro"
     ],
     "unicode": "🇲🇪"
   },
@@ -35247,7 +35382,8 @@
     "order": 4920,
     "tags": [
       "MF",
-      "lipp"
+      "lipp",
+      "lipp: saint-martin"
     ],
     "unicode": "🇲🇫"
   },
@@ -35258,7 +35394,8 @@
     "order": 4921,
     "tags": [
       "MG",
-      "lipp"
+      "lipp",
+      "lipp: madagaskar"
     ],
     "unicode": "🇲🇬"
   },
@@ -35269,7 +35406,8 @@
     "order": 4922,
     "tags": [
       "MH",
-      "lipp"
+      "lipp",
+      "lipp: marshalli saared"
     ],
     "unicode": "🇲🇭"
   },
@@ -35280,7 +35418,8 @@
     "order": 4923,
     "tags": [
       "MK",
-      "lipp"
+      "lipp",
+      "lipp: põhja-makedoonia"
     ],
     "unicode": "🇲🇰"
   },
@@ -35291,7 +35430,8 @@
     "order": 4924,
     "tags": [
       "ML",
-      "lipp"
+      "lipp",
+      "lipp: mali"
     ],
     "unicode": "🇲🇱"
   },
@@ -35302,7 +35442,8 @@
     "order": 4925,
     "tags": [
       "MM",
-      "lipp"
+      "lipp",
+      "lipp: myanmar (birma)"
     ],
     "unicode": "🇲🇲"
   },
@@ -35313,7 +35454,8 @@
     "order": 4926,
     "tags": [
       "MN",
-      "lipp"
+      "lipp",
+      "lipp: mongoolia"
     ],
     "unicode": "🇲🇳"
   },
@@ -35324,7 +35466,8 @@
     "order": 4927,
     "tags": [
       "MO",
-      "lipp"
+      "lipp",
+      "lipp: macau erihalduspiirkond"
     ],
     "unicode": "🇲🇴"
   },
@@ -35335,7 +35478,8 @@
     "order": 4928,
     "tags": [
       "MP",
-      "lipp"
+      "lipp",
+      "lipp: põhja-mariaanid"
     ],
     "unicode": "🇲🇵"
   },
@@ -35346,7 +35490,8 @@
     "order": 4929,
     "tags": [
       "MQ",
-      "lipp"
+      "lipp",
+      "lipp: martinique"
     ],
     "unicode": "🇲🇶"
   },
@@ -35357,7 +35502,8 @@
     "order": 4930,
     "tags": [
       "MR",
-      "lipp"
+      "lipp",
+      "lipp: mauritaania"
     ],
     "unicode": "🇲🇷"
   },
@@ -35368,7 +35514,8 @@
     "order": 4931,
     "tags": [
       "MS",
-      "lipp"
+      "lipp",
+      "lipp: montserrat"
     ],
     "unicode": "🇲🇸"
   },
@@ -35379,7 +35526,8 @@
     "order": 4932,
     "tags": [
       "MT",
-      "lipp"
+      "lipp",
+      "lipp: malta"
     ],
     "unicode": "🇲🇹"
   },
@@ -35390,7 +35538,8 @@
     "order": 4933,
     "tags": [
       "MU",
-      "lipp"
+      "lipp",
+      "lipp: mauritius"
     ],
     "unicode": "🇲🇺"
   },
@@ -35401,7 +35550,8 @@
     "order": 4934,
     "tags": [
       "MV",
-      "lipp"
+      "lipp",
+      "lipp: maldiivid"
     ],
     "unicode": "🇲🇻"
   },
@@ -35412,7 +35562,8 @@
     "order": 4935,
     "tags": [
       "MW",
-      "lipp"
+      "lipp",
+      "lipp: malawi"
     ],
     "unicode": "🇲🇼"
   },
@@ -35423,7 +35574,8 @@
     "order": 4936,
     "tags": [
       "MX",
-      "lipp"
+      "lipp",
+      "lipp: mehhiko"
     ],
     "unicode": "🇲🇽"
   },
@@ -35434,7 +35586,8 @@
     "order": 4937,
     "tags": [
       "MY",
-      "lipp"
+      "lipp",
+      "lipp: malaisia"
     ],
     "unicode": "🇲🇾"
   },
@@ -35445,7 +35598,8 @@
     "order": 4938,
     "tags": [
       "MZ",
-      "lipp"
+      "lipp",
+      "lipp: mosambiik"
     ],
     "unicode": "🇲🇿"
   },
@@ -35456,7 +35610,8 @@
     "order": 4939,
     "tags": [
       "NA",
-      "lipp"
+      "lipp",
+      "lipp: namiibia"
     ],
     "unicode": "🇳🇦"
   },
@@ -35467,7 +35622,8 @@
     "order": 4940,
     "tags": [
       "NC",
-      "lipp"
+      "lipp",
+      "lipp: uus-kaledoonia"
     ],
     "unicode": "🇳🇨"
   },
@@ -35478,7 +35634,8 @@
     "order": 4941,
     "tags": [
       "NE",
-      "lipp"
+      "lipp",
+      "lipp: niger"
     ],
     "unicode": "🇳🇪"
   },
@@ -35489,7 +35646,8 @@
     "order": 4942,
     "tags": [
       "NF",
-      "lipp"
+      "lipp",
+      "lipp: norfolk"
     ],
     "unicode": "🇳🇫"
   },
@@ -35500,7 +35658,8 @@
     "order": 4943,
     "tags": [
       "NG",
-      "lipp"
+      "lipp",
+      "lipp: nigeeria"
     ],
     "unicode": "🇳🇬"
   },
@@ -35511,7 +35670,8 @@
     "order": 4944,
     "tags": [
       "NI",
-      "lipp"
+      "lipp",
+      "lipp: nicaragua"
     ],
     "unicode": "🇳🇮"
   },
@@ -35522,7 +35682,8 @@
     "order": 4945,
     "tags": [
       "NL",
-      "lipp"
+      "lipp",
+      "lipp: holland"
     ],
     "unicode": "🇳🇱"
   },
@@ -35533,7 +35694,8 @@
     "order": 4946,
     "tags": [
       "NO",
-      "lipp"
+      "lipp",
+      "lipp: norra"
     ],
     "unicode": "🇳🇴"
   },
@@ -35544,7 +35706,8 @@
     "order": 4947,
     "tags": [
       "NP",
-      "lipp"
+      "lipp",
+      "lipp: nepal"
     ],
     "unicode": "🇳🇵"
   },
@@ -35555,7 +35718,8 @@
     "order": 4948,
     "tags": [
       "NR",
-      "lipp"
+      "lipp",
+      "lipp: nauru"
     ],
     "unicode": "🇳🇷"
   },
@@ -35566,7 +35730,8 @@
     "order": 4949,
     "tags": [
       "NU",
-      "lipp"
+      "lipp",
+      "lipp: niue"
     ],
     "unicode": "🇳🇺"
   },
@@ -35577,7 +35742,8 @@
     "order": 4950,
     "tags": [
       "NZ",
-      "lipp"
+      "lipp",
+      "lipp: uus-meremaa"
     ],
     "unicode": "🇳🇿"
   },
@@ -35588,7 +35754,8 @@
     "order": 4951,
     "tags": [
       "OM",
-      "lipp"
+      "lipp",
+      "lipp: omaan"
     ],
     "unicode": "🇴🇲"
   },
@@ -35599,7 +35766,8 @@
     "order": 4952,
     "tags": [
       "PA",
-      "lipp"
+      "lipp",
+      "lipp: panama"
     ],
     "unicode": "🇵🇦"
   },
@@ -35610,7 +35778,8 @@
     "order": 4953,
     "tags": [
       "PE",
-      "lipp"
+      "lipp",
+      "lipp: peruu"
     ],
     "unicode": "🇵🇪"
   },
@@ -35621,7 +35790,8 @@
     "order": 4954,
     "tags": [
       "PF",
-      "lipp"
+      "lipp",
+      "lipp: prantsuse polüneesia"
     ],
     "unicode": "🇵🇫"
   },
@@ -35632,7 +35802,8 @@
     "order": 4955,
     "tags": [
       "PG",
-      "lipp"
+      "lipp",
+      "lipp: paapua uus-guinea"
     ],
     "unicode": "🇵🇬"
   },
@@ -35643,7 +35814,8 @@
     "order": 4956,
     "tags": [
       "PH",
-      "lipp"
+      "lipp",
+      "lipp: filipiinid"
     ],
     "unicode": "🇵🇭"
   },
@@ -35654,7 +35826,8 @@
     "order": 4957,
     "tags": [
       "PK",
-      "lipp"
+      "lipp",
+      "lipp: pakistan"
     ],
     "unicode": "🇵🇰"
   },
@@ -35665,7 +35838,8 @@
     "order": 4958,
     "tags": [
       "PL",
-      "lipp"
+      "lipp",
+      "lipp: poola"
     ],
     "unicode": "🇵🇱"
   },
@@ -35676,7 +35850,8 @@
     "order": 4959,
     "tags": [
       "PM",
-      "lipp"
+      "lipp",
+      "lipp: saint-pierre ja miquelon"
     ],
     "unicode": "🇵🇲"
   },
@@ -35687,7 +35862,8 @@
     "order": 4960,
     "tags": [
       "PN",
-      "lipp"
+      "lipp",
+      "lipp: pitcairni saared"
     ],
     "unicode": "🇵🇳"
   },
@@ -35698,7 +35874,8 @@
     "order": 4961,
     "tags": [
       "PR",
-      "lipp"
+      "lipp",
+      "lipp: puerto rico"
     ],
     "unicode": "🇵🇷"
   },
@@ -35709,7 +35886,8 @@
     "order": 4962,
     "tags": [
       "PS",
-      "lipp"
+      "lipp",
+      "lipp: palestiina alad"
     ],
     "unicode": "🇵🇸"
   },
@@ -35720,7 +35898,8 @@
     "order": 4963,
     "tags": [
       "PT",
-      "lipp"
+      "lipp",
+      "lipp: portugal"
     ],
     "unicode": "🇵🇹"
   },
@@ -35731,7 +35910,8 @@
     "order": 4964,
     "tags": [
       "PW",
-      "lipp"
+      "lipp",
+      "lipp: belau"
     ],
     "unicode": "🇵🇼"
   },
@@ -35742,7 +35922,8 @@
     "order": 4965,
     "tags": [
       "PY",
-      "lipp"
+      "lipp",
+      "lipp: paraguay"
     ],
     "unicode": "🇵🇾"
   },
@@ -35753,7 +35934,8 @@
     "order": 4966,
     "tags": [
       "QA",
-      "lipp"
+      "lipp",
+      "lipp: katar"
     ],
     "unicode": "🇶🇦"
   },
@@ -35764,7 +35946,8 @@
     "order": 4967,
     "tags": [
       "RE",
-      "lipp"
+      "lipp",
+      "lipp: réunion"
     ],
     "unicode": "🇷🇪"
   },
@@ -35775,7 +35958,8 @@
     "order": 4968,
     "tags": [
       "RO",
-      "lipp"
+      "lipp",
+      "lipp: rumeenia"
     ],
     "unicode": "🇷🇴"
   },
@@ -35786,7 +35970,8 @@
     "order": 4969,
     "tags": [
       "RS",
-      "lipp"
+      "lipp",
+      "lipp: serbia"
     ],
     "unicode": "🇷🇸"
   },
@@ -35797,7 +35982,8 @@
     "order": 4970,
     "tags": [
       "RU",
-      "lipp"
+      "lipp",
+      "lipp: venemaa"
     ],
     "unicode": "🇷🇺"
   },
@@ -35808,7 +35994,8 @@
     "order": 4971,
     "tags": [
       "RW",
-      "lipp"
+      "lipp",
+      "lipp: rwanda"
     ],
     "unicode": "🇷🇼"
   },
@@ -35819,7 +36006,8 @@
     "order": 4972,
     "tags": [
       "SA",
-      "lipp"
+      "lipp",
+      "lipp: saudi araabia"
     ],
     "unicode": "🇸🇦"
   },
@@ -35830,7 +36018,8 @@
     "order": 4973,
     "tags": [
       "SB",
-      "lipp"
+      "lipp",
+      "lipp: saalomoni saared"
     ],
     "unicode": "🇸🇧"
   },
@@ -35841,7 +36030,8 @@
     "order": 4974,
     "tags": [
       "SC",
-      "lipp"
+      "lipp",
+      "lipp: seišellid"
     ],
     "unicode": "🇸🇨"
   },
@@ -35852,7 +36042,8 @@
     "order": 4975,
     "tags": [
       "SD",
-      "lipp"
+      "lipp",
+      "lipp: sudaan"
     ],
     "unicode": "🇸🇩"
   },
@@ -35863,7 +36054,8 @@
     "order": 4976,
     "tags": [
       "SE",
-      "lipp"
+      "lipp",
+      "lipp: rootsi"
     ],
     "unicode": "🇸🇪"
   },
@@ -35874,7 +36066,8 @@
     "order": 4977,
     "tags": [
       "SG",
-      "lipp"
+      "lipp",
+      "lipp: singapur"
     ],
     "unicode": "🇸🇬"
   },
@@ -35885,7 +36078,8 @@
     "order": 4978,
     "tags": [
       "SH",
-      "lipp"
+      "lipp",
+      "lipp: saint helena"
     ],
     "unicode": "🇸🇭"
   },
@@ -35896,7 +36090,8 @@
     "order": 4979,
     "tags": [
       "SI",
-      "lipp"
+      "lipp",
+      "lipp: sloveenia"
     ],
     "unicode": "🇸🇮"
   },
@@ -35907,7 +36102,8 @@
     "order": 4980,
     "tags": [
       "SJ",
-      "lipp"
+      "lipp",
+      "lipp: svalbard ja jan mayen"
     ],
     "unicode": "🇸🇯"
   },
@@ -35918,7 +36114,8 @@
     "order": 4981,
     "tags": [
       "SK",
-      "lipp"
+      "lipp",
+      "lipp: slovakkia"
     ],
     "unicode": "🇸🇰"
   },
@@ -35929,7 +36126,8 @@
     "order": 4982,
     "tags": [
       "SL",
-      "lipp"
+      "lipp",
+      "lipp: sierra leone"
     ],
     "unicode": "🇸🇱"
   },
@@ -35940,7 +36138,8 @@
     "order": 4983,
     "tags": [
       "SM",
-      "lipp"
+      "lipp",
+      "lipp: san marino"
     ],
     "unicode": "🇸🇲"
   },
@@ -35951,7 +36150,8 @@
     "order": 4984,
     "tags": [
       "SN",
-      "lipp"
+      "lipp",
+      "lipp: senegal"
     ],
     "unicode": "🇸🇳"
   },
@@ -35962,7 +36162,8 @@
     "order": 4985,
     "tags": [
       "SO",
-      "lipp"
+      "lipp",
+      "lipp: somaalia"
     ],
     "unicode": "🇸🇴"
   },
@@ -35973,7 +36174,8 @@
     "order": 4986,
     "tags": [
       "SR",
-      "lipp"
+      "lipp",
+      "lipp: suriname"
     ],
     "unicode": "🇸🇷"
   },
@@ -35984,7 +36186,8 @@
     "order": 4987,
     "tags": [
       "SS",
-      "lipp"
+      "lipp",
+      "lipp: lõuna-sudaan"
     ],
     "unicode": "🇸🇸"
   },
@@ -35995,7 +36198,8 @@
     "order": 4988,
     "tags": [
       "ST",
-      "lipp"
+      "lipp",
+      "lipp: são tomé ja príncipe"
     ],
     "unicode": "🇸🇹"
   },
@@ -36006,7 +36210,8 @@
     "order": 4989,
     "tags": [
       "SV",
-      "lipp"
+      "lipp",
+      "lipp: el salvador"
     ],
     "unicode": "🇸🇻"
   },
@@ -36017,7 +36222,8 @@
     "order": 4990,
     "tags": [
       "SX",
-      "lipp"
+      "lipp",
+      "lipp: sint maarten"
     ],
     "unicode": "🇸🇽"
   },
@@ -36028,7 +36234,8 @@
     "order": 4991,
     "tags": [
       "SY",
-      "lipp"
+      "lipp",
+      "lipp: süüria"
     ],
     "unicode": "🇸🇾"
   },
@@ -36039,7 +36246,8 @@
     "order": 4992,
     "tags": [
       "SZ",
-      "lipp"
+      "lipp",
+      "lipp: svaasimaa"
     ],
     "unicode": "🇸🇿"
   },
@@ -36050,7 +36258,8 @@
     "order": 4993,
     "tags": [
       "TA",
-      "lipp"
+      "lipp",
+      "lipp: tristan da cunha"
     ],
     "unicode": "🇹🇦"
   },
@@ -36061,7 +36270,8 @@
     "order": 4994,
     "tags": [
       "TC",
-      "lipp"
+      "lipp",
+      "lipp: turks ja caicos"
     ],
     "unicode": "🇹🇨"
   },
@@ -36072,7 +36282,8 @@
     "order": 4995,
     "tags": [
       "TD",
-      "lipp"
+      "lipp",
+      "lipp: tšaad"
     ],
     "unicode": "🇹🇩"
   },
@@ -36083,7 +36294,8 @@
     "order": 4996,
     "tags": [
       "TF",
-      "lipp"
+      "lipp",
+      "lipp: prantsuse lõunaalad"
     ],
     "unicode": "🇹🇫"
   },
@@ -36094,7 +36306,8 @@
     "order": 4997,
     "tags": [
       "TG",
-      "lipp"
+      "lipp",
+      "lipp: togo"
     ],
     "unicode": "🇹🇬"
   },
@@ -36105,7 +36318,8 @@
     "order": 4998,
     "tags": [
       "TH",
-      "lipp"
+      "lipp",
+      "lipp: tai"
     ],
     "unicode": "🇹🇭"
   },
@@ -36116,7 +36330,8 @@
     "order": 4999,
     "tags": [
       "TJ",
-      "lipp"
+      "lipp",
+      "lipp: tadžikistan"
     ],
     "unicode": "🇹🇯"
   },
@@ -36127,7 +36342,8 @@
     "order": 5000,
     "tags": [
       "TK",
-      "lipp"
+      "lipp",
+      "lipp: tokelau"
     ],
     "unicode": "🇹🇰"
   },
@@ -36138,7 +36354,8 @@
     "order": 5001,
     "tags": [
       "TL",
-      "lipp"
+      "lipp",
+      "lipp: ida-timor"
     ],
     "unicode": "🇹🇱"
   },
@@ -36149,7 +36366,8 @@
     "order": 5002,
     "tags": [
       "TM",
-      "lipp"
+      "lipp",
+      "lipp: türkmenistan"
     ],
     "unicode": "🇹🇲"
   },
@@ -36160,7 +36378,8 @@
     "order": 5003,
     "tags": [
       "TN",
-      "lipp"
+      "lipp",
+      "lipp: tuneesia"
     ],
     "unicode": "🇹🇳"
   },
@@ -36171,7 +36390,8 @@
     "order": 5004,
     "tags": [
       "TO",
-      "lipp"
+      "lipp",
+      "lipp: tonga"
     ],
     "unicode": "🇹🇴"
   },
@@ -36182,7 +36402,8 @@
     "order": 5005,
     "tags": [
       "TR",
-      "lipp"
+      "lipp",
+      "lipp: türgi"
     ],
     "unicode": "🇹🇷"
   },
@@ -36193,7 +36414,8 @@
     "order": 5006,
     "tags": [
       "TT",
-      "lipp"
+      "lipp",
+      "lipp: trinidad ja tobago"
     ],
     "unicode": "🇹🇹"
   },
@@ -36204,7 +36426,8 @@
     "order": 5007,
     "tags": [
       "TV",
-      "lipp"
+      "lipp",
+      "lipp: tuvalu"
     ],
     "unicode": "🇹🇻"
   },
@@ -36215,7 +36438,8 @@
     "order": 5008,
     "tags": [
       "TW",
-      "lipp"
+      "lipp",
+      "lipp: taiwan"
     ],
     "unicode": "🇹🇼"
   },
@@ -36226,7 +36450,8 @@
     "order": 5009,
     "tags": [
       "TZ",
-      "lipp"
+      "lipp",
+      "lipp: tansaania"
     ],
     "unicode": "🇹🇿"
   },
@@ -36237,7 +36462,8 @@
     "order": 5010,
     "tags": [
       "UA",
-      "lipp"
+      "lipp",
+      "lipp: ukraina"
     ],
     "unicode": "🇺🇦"
   },
@@ -36248,7 +36474,8 @@
     "order": 5011,
     "tags": [
       "UG",
-      "lipp"
+      "lipp",
+      "lipp: uganda"
     ],
     "unicode": "🇺🇬"
   },
@@ -36259,7 +36486,8 @@
     "order": 5012,
     "tags": [
       "UM",
-      "lipp"
+      "lipp",
+      "lipp: ühendriikide hajasaared"
     ],
     "unicode": "🇺🇲"
   },
@@ -36270,7 +36498,8 @@
     "order": 5013,
     "tags": [
       "UN",
-      "lipp"
+      "lipp",
+      "lipp: ühinenud rahvaste organisatsioon"
     ],
     "unicode": "🇺🇳"
   },
@@ -36281,7 +36510,8 @@
     "order": 5014,
     "tags": [
       "US",
-      "lipp"
+      "lipp",
+      "lipp: ameerika ühendriigid"
     ],
     "unicode": "🇺🇸"
   },
@@ -36292,7 +36522,8 @@
     "order": 5015,
     "tags": [
       "UY",
-      "lipp"
+      "lipp",
+      "lipp: uruguay"
     ],
     "unicode": "🇺🇾"
   },
@@ -36303,7 +36534,8 @@
     "order": 5016,
     "tags": [
       "UZ",
-      "lipp"
+      "lipp",
+      "lipp: usbekistan"
     ],
     "unicode": "🇺🇿"
   },
@@ -36314,7 +36546,8 @@
     "order": 5017,
     "tags": [
       "VA",
-      "lipp"
+      "lipp",
+      "lipp: vatikan"
     ],
     "unicode": "🇻🇦"
   },
@@ -36325,7 +36558,8 @@
     "order": 5018,
     "tags": [
       "VC",
-      "lipp"
+      "lipp",
+      "lipp: saint vincent ja grenadiinid"
     ],
     "unicode": "🇻🇨"
   },
@@ -36336,7 +36570,8 @@
     "order": 5019,
     "tags": [
       "VE",
-      "lipp"
+      "lipp",
+      "lipp: venezuela"
     ],
     "unicode": "🇻🇪"
   },
@@ -36347,7 +36582,8 @@
     "order": 5020,
     "tags": [
       "VG",
-      "lipp"
+      "lipp",
+      "lipp: briti neitsisaared"
     ],
     "unicode": "🇻🇬"
   },
@@ -36358,7 +36594,8 @@
     "order": 5021,
     "tags": [
       "VI",
-      "lipp"
+      "lipp",
+      "lipp: usa neitsisaared"
     ],
     "unicode": "🇻🇮"
   },
@@ -36369,7 +36606,8 @@
     "order": 5022,
     "tags": [
       "VN",
-      "lipp"
+      "lipp",
+      "lipp: vietnam"
     ],
     "unicode": "🇻🇳"
   },
@@ -36380,7 +36618,8 @@
     "order": 5023,
     "tags": [
       "VU",
-      "lipp"
+      "lipp",
+      "lipp: vanuatu"
     ],
     "unicode": "🇻🇺"
   },
@@ -36391,7 +36630,8 @@
     "order": 5024,
     "tags": [
       "WF",
-      "lipp"
+      "lipp",
+      "lipp: wallis ja futuna"
     ],
     "unicode": "🇼🇫"
   },
@@ -36402,7 +36642,8 @@
     "order": 5025,
     "tags": [
       "WS",
-      "lipp"
+      "lipp",
+      "lipp: samoa"
     ],
     "unicode": "🇼🇸"
   },
@@ -36413,7 +36654,8 @@
     "order": 5026,
     "tags": [
       "XK",
-      "lipp"
+      "lipp",
+      "lipp: kosovo"
     ],
     "unicode": "🇽🇰"
   },
@@ -36424,7 +36666,8 @@
     "order": 5027,
     "tags": [
       "YE",
-      "lipp"
+      "lipp",
+      "lipp: jeemen"
     ],
     "unicode": "🇾🇪"
   },
@@ -36435,7 +36678,8 @@
     "order": 5028,
     "tags": [
       "YT",
-      "lipp"
+      "lipp",
+      "lipp: mayotte"
     ],
     "unicode": "🇾🇹"
   },
@@ -36446,7 +36690,8 @@
     "order": 5029,
     "tags": [
       "ZA",
-      "lipp"
+      "lipp",
+      "lipp: lõuna-aafrika vabariik"
     ],
     "unicode": "🇿🇦"
   },
@@ -36457,7 +36702,8 @@
     "order": 5030,
     "tags": [
       "ZM",
-      "lipp"
+      "lipp",
+      "lipp: sambia"
     ],
     "unicode": "🇿🇲"
   },
@@ -36468,7 +36714,8 @@
     "order": 5031,
     "tags": [
       "ZW",
-      "lipp"
+      "lipp",
+      "lipp: zimbabwe"
     ],
     "unicode": "🇿🇼"
   },
@@ -36479,7 +36726,8 @@
     "order": 5032,
     "tags": [
       "gbeng",
-      "lipp"
+      "lipp",
+      "lipp: inglismaa"
     ],
     "unicode": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
   },
@@ -36490,7 +36738,8 @@
     "order": 5033,
     "tags": [
       "gbsct",
-      "lipp"
+      "lipp",
+      "lipp: šotimaa"
     ],
     "unicode": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
   },
@@ -36501,7 +36750,8 @@
     "order": 5034,
     "tags": [
       "gbwls",
-      "lipp"
+      "lipp",
+      "lipp: wales"
     ],
     "unicode": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
   }

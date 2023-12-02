@@ -206,6 +206,8 @@
     "label": "besišypsantis išsižiojęs veidas, išpiltas šalto prakaito",
     "order": 6,
     "tags": [
+      "besišypsantis išsižiojęs veidas",
+      "išpiltas šalto prakaito",
       "prakaitas",
       "praverta",
       "veidas",
@@ -740,6 +742,7 @@
     "order": 48,
     "tags": [
       "akys",
+      "vartantis akis",
       "vartyti",
       "veidas"
     ],
@@ -800,28 +803,20 @@
   {
     "group": 0,
     "hexcode": "1F642-200D-2194-FE0F",
-    "label": "head shaking horizontally",
+    "label": "purtantis galvą",
     "order": 53,
     "tags": [
-      "rodyklė",
-      "rodyklė į kairę ir į dešinę",
-      "veidas",
-      "šiek tiek besišypsantis veidas",
-      "šypsena"
+      "sakantis ne"
     ],
     "unicode": "🙂‍↔️"
   },
   {
     "group": 0,
     "hexcode": "1F642-200D-2195-FE0F",
-    "label": "head shaking vertically",
+    "label": "linksintis galva",
     "order": 55,
     "tags": [
-      "rodyklė",
-      "rodyklė į viršų ir į apačią",
-      "veidas",
-      "šiek tiek besišypsantis veidas",
-      "šypsena"
+      "sakantis taip"
     ],
     "unicode": "🙂‍↕️"
   },
@@ -1302,6 +1297,7 @@
     "order": 95,
     "tags": [
       "burna",
+      "išpiltas šalto prakaito",
       "išsižiojęs",
       "mėlyna",
       "prakaitas",
@@ -1408,6 +1404,7 @@
     "label": "veidas, išpiltas šalto prakaito",
     "order": 103,
     "tags": [
+      "išpiltas šalto prakaito",
       "prakaitas",
       "veidas",
       "šaltas"
@@ -3979,10 +3976,12 @@
     "tags": [
       "gestas",
       "iškelta",
+      "iškėlęs rankas",
       "kūnas",
       "ranka",
       "valio",
-      "šventė"
+      "šventė",
+      "žmogus"
     ],
     "unicode": "🙌",
     "skins": [
@@ -7059,8 +7058,10 @@
     "tags": [
       "gestas",
       "iškelta",
+      "iškėlęs ranką",
       "laimingas",
-      "ranka"
+      "ranka",
+      "žmogus"
     ],
     "unicode": "🙋",
     "skins": [
@@ -14184,7 +14185,8 @@
     "order": 2158,
     "tags": [
       "aklas",
-      "prieinamumas"
+      "prieinamumas",
+      "žmogus su neregio lazdele"
     ],
     "unicode": "🧑‍🦯",
     "skins": [
@@ -18219,10 +18221,12 @@
     "label": "dvi moterys, susikibusios už rankų",
     "order": 2957,
     "tags": [
+      "dvi moterys",
       "laikyti",
       "moteris",
       "pora",
-      "ranka"
+      "ranka",
+      "susikibusios už rankų"
     ],
     "unicode": "👭",
     "skins": [
@@ -18413,7 +18417,9 @@
       "moteris",
       "pora",
       "ranka",
-      "vyras"
+      "susikibę už rankų",
+      "vyras",
+      "vyras ir moteris"
     ],
     "unicode": "👫",
     "skins": [
@@ -18600,10 +18606,12 @@
     "label": "du vyrai, susikibę už rankų",
     "order": 3009,
     "tags": [
+      "du vyrai",
       "dvyniai",
       "laikyti",
       "pora",
       "ranka",
+      "susikibę už rankų",
       "vyras",
       "zodiakas"
     ],
@@ -20749,52 +20757,46 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2",
-    "label": "family: adult, adult, child",
+    "label": "šeima: suaugusysis, suaugusysis, vaikas",
     "order": 3470,
     "tags": [
-      "jaunas",
-      "neutrali lytis",
       "suaugusysis",
-      "vaikas"
+      "vaikas",
+      "šeima: suaugusysis"
     ],
     "unicode": "🧑‍🧑‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, adult, child, child",
+    "label": "šeima: suaugusysis, suaugusysis, vaikas, vaikas",
     "order": 3471,
     "tags": [
-      "jaunas",
-      "neutrali lytis",
       "suaugusysis",
-      "vaikas"
+      "vaikas",
+      "šeima: suaugusysis"
     ],
     "unicode": "🧑‍🧑‍🧒‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2",
-    "label": "family: adult, child",
+    "label": "šeima: suaugusysis, vaikas",
     "order": 3472,
     "tags": [
-      "jaunas",
-      "neutrali lytis",
-      "suaugusysis",
-      "vaikas"
+      "vaikas",
+      "šeima: suaugusysis"
     ],
     "unicode": "🧑‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, child, child",
+    "label": "šeima: suaugusysis, vaikas, vaikas",
     "order": 3473,
     "tags": [
-      "jaunas",
-      "neutrali lytis",
-      "suaugusysis",
-      "vaikas"
+      "vaikas",
+      "šeima: suaugusysis"
     ],
     "unicode": "🧑‍🧒‍🧒"
   },
@@ -21847,14 +21849,13 @@
   {
     "group": 3,
     "hexcode": "1F426-200D-2B1B",
-    "label": "black bird",
+    "label": "juodas paukštis",
     "order": 3572,
     "tags": [
-      "bird",
-      "black",
-      "crow",
-      "raven",
-      "rook"
+      "juodas",
+      "paukštis",
+      "varna",
+      "varnas"
     ],
     "unicode": "🐦‍⬛"
   },
@@ -21873,13 +21874,12 @@
   {
     "group": 3,
     "hexcode": "1F426-200D-1F525",
-    "label": "phoenix",
+    "label": "feniksas",
     "order": 3574,
     "tags": [
-      "liepsna",
-      "paukštis",
-      "ugnis",
-      "įrankis"
+      "atgimimas",
+      "fantazija",
+      "ugnies paukštis"
     ],
     "unicode": "🐦‍🔥"
   },
@@ -22660,14 +22660,12 @@
   {
     "group": 4,
     "hexcode": "1F34B-200D-1F7E9",
-    "label": "lime",
+    "label": "žalioji citrina",
     "order": 3649,
     "tags": [
-      "citrina",
       "citrusinis",
-      "kvadratas",
-      "vaisius",
-      "žalias"
+      "tropinis",
+      "vaisius"
     ],
     "unicode": "🍋‍🟩"
   },
@@ -23017,13 +23015,12 @@
   {
     "group": 4,
     "hexcode": "1F344-200D-1F7EB",
-    "label": "brown mushroom",
+    "label": "baravykas",
     "order": 3682,
     "tags": [
       "grybas",
-      "kvadratas",
-      "rudas",
-      "šungrybis"
+      "natūralus",
+      "valgomas"
     ],
     "unicode": "🍄‍🟫"
   },
@@ -26439,8 +26436,10 @@
     "order": 4016,
     "tags": [
       "debesis",
+      "iš kurio lyja",
       "lietus",
-      "saulė"
+      "saulė",
+      "saulė už debesies"
     ],
     "unicode": "🌦️"
   },
@@ -26451,6 +26450,7 @@
     "order": 4018,
     "tags": [
       "debesis",
+      "iš kurio lyja",
       "lietus"
     ],
     "unicode": "🌧️"
@@ -26462,6 +26462,7 @@
     "order": 4020,
     "tags": [
       "debesis",
+      "iš kurio sninga",
       "sniegas",
       "šaltis"
     ],
@@ -30069,14 +30070,12 @@
   {
     "group": 7,
     "hexcode": "26D3-FE0F-200D-1F4A5",
-    "label": "broken chain",
+    "label": "nutraukta grandinė",
     "order": 4395,
     "tags": [
-      "bum",
       "grandinė",
-      "grandinės",
-      "komiksas",
-      "susidūrimas"
+      "laisvė",
+      "nutrūkusi"
     ],
     "unicode": "⛓️‍💥"
   },
@@ -31146,7 +31145,9 @@
     "label": "rodyklė į dešinę, užlenkta į kairę",
     "order": 4506,
     "tags": [
-      "rodyklė"
+      "rodyklė",
+      "rodyklė į dešinę",
+      "užlenkta į kairę"
     ],
     "unicode": "↩️"
   },
@@ -31156,7 +31157,9 @@
     "label": "rodyklė į kairę, užlenkta į dešinę",
     "order": 4508,
     "tags": [
-      "rodyklė"
+      "rodyklė",
+      "rodyklė į kairę",
+      "užlenkta į dešinę"
     ],
     "unicode": "↪️"
   },
@@ -31166,7 +31169,9 @@
     "label": "rodyklė į dešinę, užlenkta į viršų",
     "order": 4510,
     "tags": [
-      "rodyklė"
+      "rodyklė",
+      "rodyklė į dešinę",
+      "užlenkta į viršų"
     ],
     "unicode": "⤴️"
   },
@@ -31177,6 +31182,8 @@
     "order": 4512,
     "tags": [
       "rodyklė",
+      "rodyklė į dešinę",
+      "užlenkta į apačią",
       "į apačią"
     ],
     "unicode": "⤵️"
@@ -33357,8 +33364,10 @@
     "label": "žydra, rožinė ir balta vėliava",
     "order": 4768,
     "tags": [
+      "rožinė ir balta vėliava",
       "translytis",
-      "vėliava"
+      "vėliava",
+      "žydra"
     ],
     "unicode": "🏳️‍⚧️"
   },
@@ -33382,7 +33391,8 @@
     "order": 4774,
     "tags": [
       "AC",
-      "vėliava"
+      "vėliava",
+      "vėliava: dangun žengimo sala"
     ],
     "unicode": "🇦🇨"
   },
@@ -33393,7 +33403,8 @@
     "order": 4775,
     "tags": [
       "AD",
-      "vėliava"
+      "vėliava",
+      "vėliava: andora"
     ],
     "unicode": "🇦🇩"
   },
@@ -33404,7 +33415,8 @@
     "order": 4776,
     "tags": [
       "AE",
-      "vėliava"
+      "vėliava",
+      "vėliava: jungtiniai arabų emyratai"
     ],
     "unicode": "🇦🇪"
   },
@@ -33415,7 +33427,8 @@
     "order": 4777,
     "tags": [
       "AF",
-      "vėliava"
+      "vėliava",
+      "vėliava: afganistanas"
     ],
     "unicode": "🇦🇫"
   },
@@ -33426,7 +33439,8 @@
     "order": 4778,
     "tags": [
       "AG",
-      "vėliava"
+      "vėliava",
+      "vėliava: antigva ir barbuda"
     ],
     "unicode": "🇦🇬"
   },
@@ -33437,7 +33451,8 @@
     "order": 4779,
     "tags": [
       "AI",
-      "vėliava"
+      "vėliava",
+      "vėliava: angilija"
     ],
     "unicode": "🇦🇮"
   },
@@ -33448,7 +33463,8 @@
     "order": 4780,
     "tags": [
       "AL",
-      "vėliava"
+      "vėliava",
+      "vėliava: albanija"
     ],
     "unicode": "🇦🇱"
   },
@@ -33459,7 +33475,8 @@
     "order": 4781,
     "tags": [
       "AM",
-      "vėliava"
+      "vėliava",
+      "vėliava: armėnija"
     ],
     "unicode": "🇦🇲"
   },
@@ -33470,7 +33487,8 @@
     "order": 4782,
     "tags": [
       "AO",
-      "vėliava"
+      "vėliava",
+      "vėliava: angola"
     ],
     "unicode": "🇦🇴"
   },
@@ -33481,7 +33499,8 @@
     "order": 4783,
     "tags": [
       "AQ",
-      "vėliava"
+      "vėliava",
+      "vėliava: antarktida"
     ],
     "unicode": "🇦🇶"
   },
@@ -33492,7 +33511,8 @@
     "order": 4784,
     "tags": [
       "AR",
-      "vėliava"
+      "vėliava",
+      "vėliava: argentina"
     ],
     "unicode": "🇦🇷"
   },
@@ -33503,7 +33523,8 @@
     "order": 4785,
     "tags": [
       "AS",
-      "vėliava"
+      "vėliava",
+      "vėliava: amerikos samoa"
     ],
     "unicode": "🇦🇸"
   },
@@ -33514,7 +33535,8 @@
     "order": 4786,
     "tags": [
       "AT",
-      "vėliava"
+      "vėliava",
+      "vėliava: austrija"
     ],
     "unicode": "🇦🇹"
   },
@@ -33525,7 +33547,8 @@
     "order": 4787,
     "tags": [
       "AU",
-      "vėliava"
+      "vėliava",
+      "vėliava: australija"
     ],
     "unicode": "🇦🇺"
   },
@@ -33536,7 +33559,8 @@
     "order": 4788,
     "tags": [
       "AW",
-      "vėliava"
+      "vėliava",
+      "vėliava: aruba"
     ],
     "unicode": "🇦🇼"
   },
@@ -33547,7 +33571,8 @@
     "order": 4789,
     "tags": [
       "AX",
-      "vėliava"
+      "vėliava",
+      "vėliava: alandų salos"
     ],
     "unicode": "🇦🇽"
   },
@@ -33558,7 +33583,8 @@
     "order": 4790,
     "tags": [
       "AZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: azerbaidžanas"
     ],
     "unicode": "🇦🇿"
   },
@@ -33569,7 +33595,8 @@
     "order": 4791,
     "tags": [
       "BA",
-      "vėliava"
+      "vėliava",
+      "vėliava: bosnija ir hercegovina"
     ],
     "unicode": "🇧🇦"
   },
@@ -33580,7 +33607,8 @@
     "order": 4792,
     "tags": [
       "BB",
-      "vėliava"
+      "vėliava",
+      "vėliava: barbadosas"
     ],
     "unicode": "🇧🇧"
   },
@@ -33591,7 +33619,8 @@
     "order": 4793,
     "tags": [
       "BD",
-      "vėliava"
+      "vėliava",
+      "vėliava: bangladešas"
     ],
     "unicode": "🇧🇩"
   },
@@ -33602,7 +33631,8 @@
     "order": 4794,
     "tags": [
       "BE",
-      "vėliava"
+      "vėliava",
+      "vėliava: belgija"
     ],
     "unicode": "🇧🇪"
   },
@@ -33613,7 +33643,8 @@
     "order": 4795,
     "tags": [
       "BF",
-      "vėliava"
+      "vėliava",
+      "vėliava: burkina fasas"
     ],
     "unicode": "🇧🇫"
   },
@@ -33624,7 +33655,8 @@
     "order": 4796,
     "tags": [
       "BG",
-      "vėliava"
+      "vėliava",
+      "vėliava: bulgarija"
     ],
     "unicode": "🇧🇬"
   },
@@ -33635,7 +33667,8 @@
     "order": 4797,
     "tags": [
       "BH",
-      "vėliava"
+      "vėliava",
+      "vėliava: bahreinas"
     ],
     "unicode": "🇧🇭"
   },
@@ -33646,7 +33679,8 @@
     "order": 4798,
     "tags": [
       "BI",
-      "vėliava"
+      "vėliava",
+      "vėliava: burundis"
     ],
     "unicode": "🇧🇮"
   },
@@ -33657,7 +33691,8 @@
     "order": 4799,
     "tags": [
       "BJ",
-      "vėliava"
+      "vėliava",
+      "vėliava: beninas"
     ],
     "unicode": "🇧🇯"
   },
@@ -33668,7 +33703,8 @@
     "order": 4800,
     "tags": [
       "BL",
-      "vėliava"
+      "vėliava",
+      "vėliava: sen bartelemi"
     ],
     "unicode": "🇧🇱"
   },
@@ -33679,7 +33715,8 @@
     "order": 4801,
     "tags": [
       "BM",
-      "vėliava"
+      "vėliava",
+      "vėliava: bermuda"
     ],
     "unicode": "🇧🇲"
   },
@@ -33690,7 +33727,8 @@
     "order": 4802,
     "tags": [
       "BN",
-      "vėliava"
+      "vėliava",
+      "vėliava: brunėjus"
     ],
     "unicode": "🇧🇳"
   },
@@ -33701,7 +33739,8 @@
     "order": 4803,
     "tags": [
       "BO",
-      "vėliava"
+      "vėliava",
+      "vėliava: bolivija"
     ],
     "unicode": "🇧🇴"
   },
@@ -33712,7 +33751,8 @@
     "order": 4804,
     "tags": [
       "BQ",
-      "vėliava"
+      "vėliava",
+      "vėliava: karibų nyderlandai"
     ],
     "unicode": "🇧🇶"
   },
@@ -33723,7 +33763,8 @@
     "order": 4805,
     "tags": [
       "BR",
-      "vėliava"
+      "vėliava",
+      "vėliava: brazilija"
     ],
     "unicode": "🇧🇷"
   },
@@ -33734,7 +33775,8 @@
     "order": 4806,
     "tags": [
       "BS",
-      "vėliava"
+      "vėliava",
+      "vėliava: bahamos"
     ],
     "unicode": "🇧🇸"
   },
@@ -33745,7 +33787,8 @@
     "order": 4807,
     "tags": [
       "BT",
-      "vėliava"
+      "vėliava",
+      "vėliava: butanas"
     ],
     "unicode": "🇧🇹"
   },
@@ -33756,7 +33799,8 @@
     "order": 4808,
     "tags": [
       "BV",
-      "vėliava"
+      "vėliava",
+      "vėliava: buvė sala"
     ],
     "unicode": "🇧🇻"
   },
@@ -33767,7 +33811,8 @@
     "order": 4809,
     "tags": [
       "BW",
-      "vėliava"
+      "vėliava",
+      "vėliava: botsvana"
     ],
     "unicode": "🇧🇼"
   },
@@ -33778,7 +33823,8 @@
     "order": 4810,
     "tags": [
       "BY",
-      "vėliava"
+      "vėliava",
+      "vėliava: baltarusija"
     ],
     "unicode": "🇧🇾"
   },
@@ -33789,7 +33835,8 @@
     "order": 4811,
     "tags": [
       "BZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: belizas"
     ],
     "unicode": "🇧🇿"
   },
@@ -33800,7 +33847,8 @@
     "order": 4812,
     "tags": [
       "CA",
-      "vėliava"
+      "vėliava",
+      "vėliava: kanada"
     ],
     "unicode": "🇨🇦"
   },
@@ -33811,7 +33859,8 @@
     "order": 4813,
     "tags": [
       "CC",
-      "vėliava"
+      "vėliava",
+      "vėliava: kokosų (kilingo) salos"
     ],
     "unicode": "🇨🇨"
   },
@@ -33822,7 +33871,8 @@
     "order": 4814,
     "tags": [
       "CD",
-      "vėliava"
+      "vėliava",
+      "vėliava: kongas-kinšasa"
     ],
     "unicode": "🇨🇩"
   },
@@ -33833,7 +33883,8 @@
     "order": 4815,
     "tags": [
       "CF",
-      "vėliava"
+      "vėliava",
+      "vėliava: centrinės afrikos respublika"
     ],
     "unicode": "🇨🇫"
   },
@@ -33844,7 +33895,8 @@
     "order": 4816,
     "tags": [
       "CG",
-      "vėliava"
+      "vėliava",
+      "vėliava: kongas-brazavilis"
     ],
     "unicode": "🇨🇬"
   },
@@ -33855,7 +33907,8 @@
     "order": 4817,
     "tags": [
       "CH",
-      "vėliava"
+      "vėliava",
+      "vėliava: šveicarija"
     ],
     "unicode": "🇨🇭"
   },
@@ -33866,7 +33919,8 @@
     "order": 4818,
     "tags": [
       "CI",
-      "vėliava"
+      "vėliava",
+      "vėliava: dramblio kaulo krantas"
     ],
     "unicode": "🇨🇮"
   },
@@ -33877,7 +33931,8 @@
     "order": 4819,
     "tags": [
       "CK",
-      "vėliava"
+      "vėliava",
+      "vėliava: kuko salos"
     ],
     "unicode": "🇨🇰"
   },
@@ -33888,7 +33943,8 @@
     "order": 4820,
     "tags": [
       "CL",
-      "vėliava"
+      "vėliava",
+      "vėliava: čilė"
     ],
     "unicode": "🇨🇱"
   },
@@ -33899,7 +33955,8 @@
     "order": 4821,
     "tags": [
       "CM",
-      "vėliava"
+      "vėliava",
+      "vėliava: kamerūnas"
     ],
     "unicode": "🇨🇲"
   },
@@ -33910,7 +33967,8 @@
     "order": 4822,
     "tags": [
       "CN",
-      "vėliava"
+      "vėliava",
+      "vėliava: kinija"
     ],
     "unicode": "🇨🇳"
   },
@@ -33921,7 +33979,8 @@
     "order": 4823,
     "tags": [
       "CO",
-      "vėliava"
+      "vėliava",
+      "vėliava: kolumbija"
     ],
     "unicode": "🇨🇴"
   },
@@ -33932,7 +33991,8 @@
     "order": 4824,
     "tags": [
       "CP",
-      "vėliava"
+      "vėliava",
+      "vėliava: klipertono sala"
     ],
     "unicode": "🇨🇵"
   },
@@ -33943,7 +34003,8 @@
     "order": 4825,
     "tags": [
       "CR",
-      "vėliava"
+      "vėliava",
+      "vėliava: kosta rika"
     ],
     "unicode": "🇨🇷"
   },
@@ -33954,7 +34015,8 @@
     "order": 4826,
     "tags": [
       "CU",
-      "vėliava"
+      "vėliava",
+      "vėliava: kuba"
     ],
     "unicode": "🇨🇺"
   },
@@ -33965,7 +34027,8 @@
     "order": 4827,
     "tags": [
       "CV",
-      "vėliava"
+      "vėliava",
+      "vėliava: žaliasis kyšulys"
     ],
     "unicode": "🇨🇻"
   },
@@ -33976,7 +34039,8 @@
     "order": 4828,
     "tags": [
       "CW",
-      "vėliava"
+      "vėliava",
+      "vėliava: kiurasao"
     ],
     "unicode": "🇨🇼"
   },
@@ -33987,7 +34051,8 @@
     "order": 4829,
     "tags": [
       "CX",
-      "vėliava"
+      "vėliava",
+      "vėliava: kalėdų sala"
     ],
     "unicode": "🇨🇽"
   },
@@ -33998,7 +34063,8 @@
     "order": 4830,
     "tags": [
       "CY",
-      "vėliava"
+      "vėliava",
+      "vėliava: kipras"
     ],
     "unicode": "🇨🇾"
   },
@@ -34009,7 +34075,8 @@
     "order": 4831,
     "tags": [
       "CZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: čekija"
     ],
     "unicode": "🇨🇿"
   },
@@ -34020,7 +34087,8 @@
     "order": 4832,
     "tags": [
       "DE",
-      "vėliava"
+      "vėliava",
+      "vėliava: vokietija"
     ],
     "unicode": "🇩🇪"
   },
@@ -34031,7 +34099,8 @@
     "order": 4833,
     "tags": [
       "DG",
-      "vėliava"
+      "vėliava",
+      "vėliava: diego garsija"
     ],
     "unicode": "🇩🇬"
   },
@@ -34042,7 +34111,8 @@
     "order": 4834,
     "tags": [
       "DJ",
-      "vėliava"
+      "vėliava",
+      "vėliava: džibutis"
     ],
     "unicode": "🇩🇯"
   },
@@ -34053,7 +34123,8 @@
     "order": 4835,
     "tags": [
       "DK",
-      "vėliava"
+      "vėliava",
+      "vėliava: danija"
     ],
     "unicode": "🇩🇰"
   },
@@ -34064,7 +34135,8 @@
     "order": 4836,
     "tags": [
       "DM",
-      "vėliava"
+      "vėliava",
+      "vėliava: dominika"
     ],
     "unicode": "🇩🇲"
   },
@@ -34075,7 +34147,8 @@
     "order": 4837,
     "tags": [
       "DO",
-      "vėliava"
+      "vėliava",
+      "vėliava: dominikos respublika"
     ],
     "unicode": "🇩🇴"
   },
@@ -34086,7 +34159,8 @@
     "order": 4838,
     "tags": [
       "DZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: alžyras"
     ],
     "unicode": "🇩🇿"
   },
@@ -34097,7 +34171,8 @@
     "order": 4839,
     "tags": [
       "EA",
-      "vėliava"
+      "vėliava",
+      "vėliava: seuta ir melila"
     ],
     "unicode": "🇪🇦"
   },
@@ -34108,7 +34183,8 @@
     "order": 4840,
     "tags": [
       "EC",
-      "vėliava"
+      "vėliava",
+      "vėliava: ekvadoras"
     ],
     "unicode": "🇪🇨"
   },
@@ -34119,7 +34195,8 @@
     "order": 4841,
     "tags": [
       "EE",
-      "vėliava"
+      "vėliava",
+      "vėliava: estija"
     ],
     "unicode": "🇪🇪"
   },
@@ -34130,7 +34207,8 @@
     "order": 4842,
     "tags": [
       "EG",
-      "vėliava"
+      "vėliava",
+      "vėliava: egiptas"
     ],
     "unicode": "🇪🇬"
   },
@@ -34141,7 +34219,8 @@
     "order": 4843,
     "tags": [
       "EH",
-      "vėliava"
+      "vėliava",
+      "vėliava: vakarų sachara"
     ],
     "unicode": "🇪🇭"
   },
@@ -34152,7 +34231,8 @@
     "order": 4844,
     "tags": [
       "ER",
-      "vėliava"
+      "vėliava",
+      "vėliava: eritrėja"
     ],
     "unicode": "🇪🇷"
   },
@@ -34163,7 +34243,8 @@
     "order": 4845,
     "tags": [
       "ES",
-      "vėliava"
+      "vėliava",
+      "vėliava: ispanija"
     ],
     "unicode": "🇪🇸"
   },
@@ -34174,7 +34255,8 @@
     "order": 4846,
     "tags": [
       "ET",
-      "vėliava"
+      "vėliava",
+      "vėliava: etiopija"
     ],
     "unicode": "🇪🇹"
   },
@@ -34185,7 +34267,8 @@
     "order": 4847,
     "tags": [
       "EU",
-      "vėliava"
+      "vėliava",
+      "vėliava: europos sąjunga"
     ],
     "unicode": "🇪🇺"
   },
@@ -34196,7 +34279,8 @@
     "order": 4848,
     "tags": [
       "FI",
-      "vėliava"
+      "vėliava",
+      "vėliava: suomija"
     ],
     "unicode": "🇫🇮"
   },
@@ -34207,7 +34291,8 @@
     "order": 4849,
     "tags": [
       "FJ",
-      "vėliava"
+      "vėliava",
+      "vėliava: fidžis"
     ],
     "unicode": "🇫🇯"
   },
@@ -34218,7 +34303,8 @@
     "order": 4850,
     "tags": [
       "FK",
-      "vėliava"
+      "vėliava",
+      "vėliava: folklando salos"
     ],
     "unicode": "🇫🇰"
   },
@@ -34229,7 +34315,8 @@
     "order": 4851,
     "tags": [
       "FM",
-      "vėliava"
+      "vėliava",
+      "vėliava: mikronezija"
     ],
     "unicode": "🇫🇲"
   },
@@ -34240,7 +34327,8 @@
     "order": 4852,
     "tags": [
       "FO",
-      "vėliava"
+      "vėliava",
+      "vėliava: farerų salos"
     ],
     "unicode": "🇫🇴"
   },
@@ -34251,7 +34339,8 @@
     "order": 4853,
     "tags": [
       "FR",
-      "vėliava"
+      "vėliava",
+      "vėliava: prancūzija"
     ],
     "unicode": "🇫🇷"
   },
@@ -34262,7 +34351,8 @@
     "order": 4854,
     "tags": [
       "GA",
-      "vėliava"
+      "vėliava",
+      "vėliava: gabonas"
     ],
     "unicode": "🇬🇦"
   },
@@ -34273,7 +34363,8 @@
     "order": 4855,
     "tags": [
       "GB",
-      "vėliava"
+      "vėliava",
+      "vėliava: jungtinė karalystė"
     ],
     "unicode": "🇬🇧"
   },
@@ -34284,7 +34375,8 @@
     "order": 4856,
     "tags": [
       "GD",
-      "vėliava"
+      "vėliava",
+      "vėliava: grenada"
     ],
     "unicode": "🇬🇩"
   },
@@ -34295,7 +34387,8 @@
     "order": 4857,
     "tags": [
       "GE",
-      "vėliava"
+      "vėliava",
+      "vėliava: gruzija"
     ],
     "unicode": "🇬🇪"
   },
@@ -34306,7 +34399,8 @@
     "order": 4858,
     "tags": [
       "GF",
-      "vėliava"
+      "vėliava",
+      "vėliava: prancūzijos gviana"
     ],
     "unicode": "🇬🇫"
   },
@@ -34317,7 +34411,8 @@
     "order": 4859,
     "tags": [
       "GG",
-      "vėliava"
+      "vėliava",
+      "vėliava: gernsis"
     ],
     "unicode": "🇬🇬"
   },
@@ -34328,7 +34423,8 @@
     "order": 4860,
     "tags": [
       "GH",
-      "vėliava"
+      "vėliava",
+      "vėliava: gana"
     ],
     "unicode": "🇬🇭"
   },
@@ -34339,7 +34435,8 @@
     "order": 4861,
     "tags": [
       "GI",
-      "vėliava"
+      "vėliava",
+      "vėliava: gibraltaras"
     ],
     "unicode": "🇬🇮"
   },
@@ -34350,7 +34447,8 @@
     "order": 4862,
     "tags": [
       "GL",
-      "vėliava"
+      "vėliava",
+      "vėliava: grenlandija"
     ],
     "unicode": "🇬🇱"
   },
@@ -34361,7 +34459,8 @@
     "order": 4863,
     "tags": [
       "GM",
-      "vėliava"
+      "vėliava",
+      "vėliava: gambija"
     ],
     "unicode": "🇬🇲"
   },
@@ -34372,7 +34471,8 @@
     "order": 4864,
     "tags": [
       "GN",
-      "vėliava"
+      "vėliava",
+      "vėliava: gvinėja"
     ],
     "unicode": "🇬🇳"
   },
@@ -34383,7 +34483,8 @@
     "order": 4865,
     "tags": [
       "GP",
-      "vėliava"
+      "vėliava",
+      "vėliava: gvadelupa"
     ],
     "unicode": "🇬🇵"
   },
@@ -34394,7 +34495,8 @@
     "order": 4866,
     "tags": [
       "GQ",
-      "vėliava"
+      "vėliava",
+      "vėliava: pusiaujo gvinėja"
     ],
     "unicode": "🇬🇶"
   },
@@ -34405,7 +34507,8 @@
     "order": 4867,
     "tags": [
       "GR",
-      "vėliava"
+      "vėliava",
+      "vėliava: graikija"
     ],
     "unicode": "🇬🇷"
   },
@@ -34416,7 +34519,8 @@
     "order": 4868,
     "tags": [
       "GS",
-      "vėliava"
+      "vėliava",
+      "vėliava: pietų džordžija ir pietų sandvičo salos"
     ],
     "unicode": "🇬🇸"
   },
@@ -34427,7 +34531,8 @@
     "order": 4869,
     "tags": [
       "GT",
-      "vėliava"
+      "vėliava",
+      "vėliava: gvatemala"
     ],
     "unicode": "🇬🇹"
   },
@@ -34438,7 +34543,8 @@
     "order": 4870,
     "tags": [
       "GU",
-      "vėliava"
+      "vėliava",
+      "vėliava: guamas"
     ],
     "unicode": "🇬🇺"
   },
@@ -34449,7 +34555,8 @@
     "order": 4871,
     "tags": [
       "GW",
-      "vėliava"
+      "vėliava",
+      "vėliava: bisau gvinėja"
     ],
     "unicode": "🇬🇼"
   },
@@ -34460,7 +34567,8 @@
     "order": 4872,
     "tags": [
       "GY",
-      "vėliava"
+      "vėliava",
+      "vėliava: gajana"
     ],
     "unicode": "🇬🇾"
   },
@@ -34471,7 +34579,8 @@
     "order": 4873,
     "tags": [
       "HK",
-      "vėliava"
+      "vėliava",
+      "vėliava: ypatingasis administracinis kinijos regionas honkongas"
     ],
     "unicode": "🇭🇰"
   },
@@ -34482,7 +34591,8 @@
     "order": 4874,
     "tags": [
       "HM",
-      "vėliava"
+      "vėliava",
+      "vėliava: herdo ir makdonaldo salos"
     ],
     "unicode": "🇭🇲"
   },
@@ -34493,7 +34603,8 @@
     "order": 4875,
     "tags": [
       "HN",
-      "vėliava"
+      "vėliava",
+      "vėliava: hondūras"
     ],
     "unicode": "🇭🇳"
   },
@@ -34504,7 +34615,8 @@
     "order": 4876,
     "tags": [
       "HR",
-      "vėliava"
+      "vėliava",
+      "vėliava: kroatija"
     ],
     "unicode": "🇭🇷"
   },
@@ -34515,7 +34627,8 @@
     "order": 4877,
     "tags": [
       "HT",
-      "vėliava"
+      "vėliava",
+      "vėliava: haitis"
     ],
     "unicode": "🇭🇹"
   },
@@ -34526,7 +34639,8 @@
     "order": 4878,
     "tags": [
       "HU",
-      "vėliava"
+      "vėliava",
+      "vėliava: vengrija"
     ],
     "unicode": "🇭🇺"
   },
@@ -34537,7 +34651,8 @@
     "order": 4879,
     "tags": [
       "IC",
-      "vėliava"
+      "vėliava",
+      "vėliava: kanarų salos"
     ],
     "unicode": "🇮🇨"
   },
@@ -34548,7 +34663,8 @@
     "order": 4880,
     "tags": [
       "ID",
-      "vėliava"
+      "vėliava",
+      "vėliava: indonezija"
     ],
     "unicode": "🇮🇩"
   },
@@ -34559,7 +34675,8 @@
     "order": 4881,
     "tags": [
       "IE",
-      "vėliava"
+      "vėliava",
+      "vėliava: airija"
     ],
     "unicode": "🇮🇪"
   },
@@ -34570,7 +34687,8 @@
     "order": 4882,
     "tags": [
       "IL",
-      "vėliava"
+      "vėliava",
+      "vėliava: izraelis"
     ],
     "unicode": "🇮🇱"
   },
@@ -34581,7 +34699,8 @@
     "order": 4883,
     "tags": [
       "IM",
-      "vėliava"
+      "vėliava",
+      "vėliava: meno sala"
     ],
     "unicode": "🇮🇲"
   },
@@ -34592,7 +34711,8 @@
     "order": 4884,
     "tags": [
       "IN",
-      "vėliava"
+      "vėliava",
+      "vėliava: indija"
     ],
     "unicode": "🇮🇳"
   },
@@ -34603,7 +34723,8 @@
     "order": 4885,
     "tags": [
       "IO",
-      "vėliava"
+      "vėliava",
+      "vėliava: indijos vandenyno britų sritis"
     ],
     "unicode": "🇮🇴"
   },
@@ -34614,7 +34735,8 @@
     "order": 4886,
     "tags": [
       "IQ",
-      "vėliava"
+      "vėliava",
+      "vėliava: irakas"
     ],
     "unicode": "🇮🇶"
   },
@@ -34625,7 +34747,8 @@
     "order": 4887,
     "tags": [
       "IR",
-      "vėliava"
+      "vėliava",
+      "vėliava: iranas"
     ],
     "unicode": "🇮🇷"
   },
@@ -34636,7 +34759,8 @@
     "order": 4888,
     "tags": [
       "IS",
-      "vėliava"
+      "vėliava",
+      "vėliava: islandija"
     ],
     "unicode": "🇮🇸"
   },
@@ -34647,7 +34771,8 @@
     "order": 4889,
     "tags": [
       "IT",
-      "vėliava"
+      "vėliava",
+      "vėliava: italija"
     ],
     "unicode": "🇮🇹"
   },
@@ -34658,7 +34783,8 @@
     "order": 4890,
     "tags": [
       "JE",
-      "vėliava"
+      "vėliava",
+      "vėliava: džersis"
     ],
     "unicode": "🇯🇪"
   },
@@ -34669,7 +34795,8 @@
     "order": 4891,
     "tags": [
       "JM",
-      "vėliava"
+      "vėliava",
+      "vėliava: jamaika"
     ],
     "unicode": "🇯🇲"
   },
@@ -34680,7 +34807,8 @@
     "order": 4892,
     "tags": [
       "JO",
-      "vėliava"
+      "vėliava",
+      "vėliava: jordanija"
     ],
     "unicode": "🇯🇴"
   },
@@ -34691,7 +34819,8 @@
     "order": 4893,
     "tags": [
       "JP",
-      "vėliava"
+      "vėliava",
+      "vėliava: japonija"
     ],
     "unicode": "🇯🇵"
   },
@@ -34702,7 +34831,8 @@
     "order": 4894,
     "tags": [
       "KE",
-      "vėliava"
+      "vėliava",
+      "vėliava: kenija"
     ],
     "unicode": "🇰🇪"
   },
@@ -34713,7 +34843,8 @@
     "order": 4895,
     "tags": [
       "KG",
-      "vėliava"
+      "vėliava",
+      "vėliava: kirgizija"
     ],
     "unicode": "🇰🇬"
   },
@@ -34724,7 +34855,8 @@
     "order": 4896,
     "tags": [
       "KH",
-      "vėliava"
+      "vėliava",
+      "vėliava: kambodža"
     ],
     "unicode": "🇰🇭"
   },
@@ -34735,7 +34867,8 @@
     "order": 4897,
     "tags": [
       "KI",
-      "vėliava"
+      "vėliava",
+      "vėliava: kiribatis"
     ],
     "unicode": "🇰🇮"
   },
@@ -34746,7 +34879,8 @@
     "order": 4898,
     "tags": [
       "KM",
-      "vėliava"
+      "vėliava",
+      "vėliava: komorai"
     ],
     "unicode": "🇰🇲"
   },
@@ -34757,7 +34891,8 @@
     "order": 4899,
     "tags": [
       "KN",
-      "vėliava"
+      "vėliava",
+      "vėliava: sent kitsas ir nevis"
     ],
     "unicode": "🇰🇳"
   },
@@ -34768,7 +34903,8 @@
     "order": 4900,
     "tags": [
       "KP",
-      "vėliava"
+      "vėliava",
+      "vėliava: šiaurės korėja"
     ],
     "unicode": "🇰🇵"
   },
@@ -34779,7 +34915,8 @@
     "order": 4901,
     "tags": [
       "KR",
-      "vėliava"
+      "vėliava",
+      "vėliava: pietų korėja"
     ],
     "unicode": "🇰🇷"
   },
@@ -34790,7 +34927,8 @@
     "order": 4902,
     "tags": [
       "KW",
-      "vėliava"
+      "vėliava",
+      "vėliava: kuveitas"
     ],
     "unicode": "🇰🇼"
   },
@@ -34801,7 +34939,8 @@
     "order": 4903,
     "tags": [
       "KY",
-      "vėliava"
+      "vėliava",
+      "vėliava: kaimanų salos"
     ],
     "unicode": "🇰🇾"
   },
@@ -34812,7 +34951,8 @@
     "order": 4904,
     "tags": [
       "KZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: kazachstanas"
     ],
     "unicode": "🇰🇿"
   },
@@ -34823,7 +34963,8 @@
     "order": 4905,
     "tags": [
       "LA",
-      "vėliava"
+      "vėliava",
+      "vėliava: laosas"
     ],
     "unicode": "🇱🇦"
   },
@@ -34834,7 +34975,8 @@
     "order": 4906,
     "tags": [
       "LB",
-      "vėliava"
+      "vėliava",
+      "vėliava: libanas"
     ],
     "unicode": "🇱🇧"
   },
@@ -34845,7 +34987,8 @@
     "order": 4907,
     "tags": [
       "LC",
-      "vėliava"
+      "vėliava",
+      "vėliava: sent lusija"
     ],
     "unicode": "🇱🇨"
   },
@@ -34856,7 +34999,8 @@
     "order": 4908,
     "tags": [
       "LI",
-      "vėliava"
+      "vėliava",
+      "vėliava: lichtenšteinas"
     ],
     "unicode": "🇱🇮"
   },
@@ -34867,7 +35011,8 @@
     "order": 4909,
     "tags": [
       "LK",
-      "vėliava"
+      "vėliava",
+      "vėliava: šri lanka"
     ],
     "unicode": "🇱🇰"
   },
@@ -34878,7 +35023,8 @@
     "order": 4910,
     "tags": [
       "LR",
-      "vėliava"
+      "vėliava",
+      "vėliava: liberija"
     ],
     "unicode": "🇱🇷"
   },
@@ -34889,7 +35035,8 @@
     "order": 4911,
     "tags": [
       "LS",
-      "vėliava"
+      "vėliava",
+      "vėliava: lesotas"
     ],
     "unicode": "🇱🇸"
   },
@@ -34900,7 +35047,8 @@
     "order": 4912,
     "tags": [
       "LT",
-      "vėliava"
+      "vėliava",
+      "vėliava: lietuva"
     ],
     "unicode": "🇱🇹"
   },
@@ -34911,7 +35059,8 @@
     "order": 4913,
     "tags": [
       "LU",
-      "vėliava"
+      "vėliava",
+      "vėliava: liuksemburgas"
     ],
     "unicode": "🇱🇺"
   },
@@ -34922,7 +35071,8 @@
     "order": 4914,
     "tags": [
       "LV",
-      "vėliava"
+      "vėliava",
+      "vėliava: latvija"
     ],
     "unicode": "🇱🇻"
   },
@@ -34933,7 +35083,8 @@
     "order": 4915,
     "tags": [
       "LY",
-      "vėliava"
+      "vėliava",
+      "vėliava: libija"
     ],
     "unicode": "🇱🇾"
   },
@@ -34944,7 +35095,8 @@
     "order": 4916,
     "tags": [
       "MA",
-      "vėliava"
+      "vėliava",
+      "vėliava: marokas"
     ],
     "unicode": "🇲🇦"
   },
@@ -34955,7 +35107,8 @@
     "order": 4917,
     "tags": [
       "MC",
-      "vėliava"
+      "vėliava",
+      "vėliava: monakas"
     ],
     "unicode": "🇲🇨"
   },
@@ -34966,7 +35119,8 @@
     "order": 4918,
     "tags": [
       "MD",
-      "vėliava"
+      "vėliava",
+      "vėliava: moldova"
     ],
     "unicode": "🇲🇩"
   },
@@ -34977,7 +35131,8 @@
     "order": 4919,
     "tags": [
       "ME",
-      "vėliava"
+      "vėliava",
+      "vėliava: juodkalnija"
     ],
     "unicode": "🇲🇪"
   },
@@ -34988,7 +35143,8 @@
     "order": 4920,
     "tags": [
       "MF",
-      "vėliava"
+      "vėliava",
+      "vėliava: sen martenas"
     ],
     "unicode": "🇲🇫"
   },
@@ -34999,7 +35155,8 @@
     "order": 4921,
     "tags": [
       "MG",
-      "vėliava"
+      "vėliava",
+      "vėliava: madagaskaras"
     ],
     "unicode": "🇲🇬"
   },
@@ -35010,7 +35167,8 @@
     "order": 4922,
     "tags": [
       "MH",
-      "vėliava"
+      "vėliava",
+      "vėliava: maršalo salos"
     ],
     "unicode": "🇲🇭"
   },
@@ -35021,7 +35179,8 @@
     "order": 4923,
     "tags": [
       "MK",
-      "vėliava"
+      "vėliava",
+      "vėliava: šiaurės makedonija"
     ],
     "unicode": "🇲🇰"
   },
@@ -35032,7 +35191,8 @@
     "order": 4924,
     "tags": [
       "ML",
-      "vėliava"
+      "vėliava",
+      "vėliava: malis"
     ],
     "unicode": "🇲🇱"
   },
@@ -35043,7 +35203,8 @@
     "order": 4925,
     "tags": [
       "MM",
-      "vėliava"
+      "vėliava",
+      "vėliava: mianmaras (birma)"
     ],
     "unicode": "🇲🇲"
   },
@@ -35054,7 +35215,8 @@
     "order": 4926,
     "tags": [
       "MN",
-      "vėliava"
+      "vėliava",
+      "vėliava: mongolija"
     ],
     "unicode": "🇲🇳"
   },
@@ -35065,7 +35227,8 @@
     "order": 4927,
     "tags": [
       "MO",
-      "vėliava"
+      "vėliava",
+      "vėliava: ypatingasis administracinis kinijos regionas makao"
     ],
     "unicode": "🇲🇴"
   },
@@ -35076,7 +35239,8 @@
     "order": 4928,
     "tags": [
       "MP",
-      "vėliava"
+      "vėliava",
+      "vėliava: marianos šiaurinės salos"
     ],
     "unicode": "🇲🇵"
   },
@@ -35087,7 +35251,8 @@
     "order": 4929,
     "tags": [
       "MQ",
-      "vėliava"
+      "vėliava",
+      "vėliava: martinika"
     ],
     "unicode": "🇲🇶"
   },
@@ -35098,7 +35263,8 @@
     "order": 4930,
     "tags": [
       "MR",
-      "vėliava"
+      "vėliava",
+      "vėliava: mauritanija"
     ],
     "unicode": "🇲🇷"
   },
@@ -35109,7 +35275,8 @@
     "order": 4931,
     "tags": [
       "MS",
-      "vėliava"
+      "vėliava",
+      "vėliava: montseratas"
     ],
     "unicode": "🇲🇸"
   },
@@ -35120,7 +35287,8 @@
     "order": 4932,
     "tags": [
       "MT",
-      "vėliava"
+      "vėliava",
+      "vėliava: malta"
     ],
     "unicode": "🇲🇹"
   },
@@ -35131,7 +35299,8 @@
     "order": 4933,
     "tags": [
       "MU",
-      "vėliava"
+      "vėliava",
+      "vėliava: mauricijus"
     ],
     "unicode": "🇲🇺"
   },
@@ -35142,7 +35311,8 @@
     "order": 4934,
     "tags": [
       "MV",
-      "vėliava"
+      "vėliava",
+      "vėliava: maldyvai"
     ],
     "unicode": "🇲🇻"
   },
@@ -35153,7 +35323,8 @@
     "order": 4935,
     "tags": [
       "MW",
-      "vėliava"
+      "vėliava",
+      "vėliava: malavis"
     ],
     "unicode": "🇲🇼"
   },
@@ -35164,7 +35335,8 @@
     "order": 4936,
     "tags": [
       "MX",
-      "vėliava"
+      "vėliava",
+      "vėliava: meksika"
     ],
     "unicode": "🇲🇽"
   },
@@ -35175,7 +35347,8 @@
     "order": 4937,
     "tags": [
       "MY",
-      "vėliava"
+      "vėliava",
+      "vėliava: malaizija"
     ],
     "unicode": "🇲🇾"
   },
@@ -35186,7 +35359,8 @@
     "order": 4938,
     "tags": [
       "MZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: mozambikas"
     ],
     "unicode": "🇲🇿"
   },
@@ -35197,7 +35371,8 @@
     "order": 4939,
     "tags": [
       "NA",
-      "vėliava"
+      "vėliava",
+      "vėliava: namibija"
     ],
     "unicode": "🇳🇦"
   },
@@ -35208,7 +35383,8 @@
     "order": 4940,
     "tags": [
       "NC",
-      "vėliava"
+      "vėliava",
+      "vėliava: naujoji kaledonija"
     ],
     "unicode": "🇳🇨"
   },
@@ -35219,7 +35395,8 @@
     "order": 4941,
     "tags": [
       "NE",
-      "vėliava"
+      "vėliava",
+      "vėliava: nigeris"
     ],
     "unicode": "🇳🇪"
   },
@@ -35230,7 +35407,8 @@
     "order": 4942,
     "tags": [
       "NF",
-      "vėliava"
+      "vėliava",
+      "vėliava: norfolko sala"
     ],
     "unicode": "🇳🇫"
   },
@@ -35241,7 +35419,8 @@
     "order": 4943,
     "tags": [
       "NG",
-      "vėliava"
+      "vėliava",
+      "vėliava: nigerija"
     ],
     "unicode": "🇳🇬"
   },
@@ -35252,7 +35431,8 @@
     "order": 4944,
     "tags": [
       "NI",
-      "vėliava"
+      "vėliava",
+      "vėliava: nikaragva"
     ],
     "unicode": "🇳🇮"
   },
@@ -35263,7 +35443,8 @@
     "order": 4945,
     "tags": [
       "NL",
-      "vėliava"
+      "vėliava",
+      "vėliava: nyderlandai"
     ],
     "unicode": "🇳🇱"
   },
@@ -35274,7 +35455,8 @@
     "order": 4946,
     "tags": [
       "NO",
-      "vėliava"
+      "vėliava",
+      "vėliava: norvegija"
     ],
     "unicode": "🇳🇴"
   },
@@ -35285,7 +35467,8 @@
     "order": 4947,
     "tags": [
       "NP",
-      "vėliava"
+      "vėliava",
+      "vėliava: nepalas"
     ],
     "unicode": "🇳🇵"
   },
@@ -35296,7 +35479,8 @@
     "order": 4948,
     "tags": [
       "NR",
-      "vėliava"
+      "vėliava",
+      "vėliava: nauru"
     ],
     "unicode": "🇳🇷"
   },
@@ -35307,7 +35491,8 @@
     "order": 4949,
     "tags": [
       "NU",
-      "vėliava"
+      "vėliava",
+      "vėliava: niujė"
     ],
     "unicode": "🇳🇺"
   },
@@ -35318,7 +35503,8 @@
     "order": 4950,
     "tags": [
       "NZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: naujoji zelandija"
     ],
     "unicode": "🇳🇿"
   },
@@ -35329,7 +35515,8 @@
     "order": 4951,
     "tags": [
       "OM",
-      "vėliava"
+      "vėliava",
+      "vėliava: omanas"
     ],
     "unicode": "🇴🇲"
   },
@@ -35340,7 +35527,8 @@
     "order": 4952,
     "tags": [
       "PA",
-      "vėliava"
+      "vėliava",
+      "vėliava: panama"
     ],
     "unicode": "🇵🇦"
   },
@@ -35351,7 +35539,8 @@
     "order": 4953,
     "tags": [
       "PE",
-      "vėliava"
+      "vėliava",
+      "vėliava: peru"
     ],
     "unicode": "🇵🇪"
   },
@@ -35362,7 +35551,8 @@
     "order": 4954,
     "tags": [
       "PF",
-      "vėliava"
+      "vėliava",
+      "vėliava: prancūzijos polinezija"
     ],
     "unicode": "🇵🇫"
   },
@@ -35373,7 +35563,8 @@
     "order": 4955,
     "tags": [
       "PG",
-      "vėliava"
+      "vėliava",
+      "vėliava: papua naujoji gvinėja"
     ],
     "unicode": "🇵🇬"
   },
@@ -35384,7 +35575,8 @@
     "order": 4956,
     "tags": [
       "PH",
-      "vėliava"
+      "vėliava",
+      "vėliava: filipinai"
     ],
     "unicode": "🇵🇭"
   },
@@ -35395,7 +35587,8 @@
     "order": 4957,
     "tags": [
       "PK",
-      "vėliava"
+      "vėliava",
+      "vėliava: pakistanas"
     ],
     "unicode": "🇵🇰"
   },
@@ -35406,7 +35599,8 @@
     "order": 4958,
     "tags": [
       "PL",
-      "vėliava"
+      "vėliava",
+      "vėliava: lenkija"
     ],
     "unicode": "🇵🇱"
   },
@@ -35417,7 +35611,8 @@
     "order": 4959,
     "tags": [
       "PM",
-      "vėliava"
+      "vėliava",
+      "vėliava: sen pjeras ir mikelonas"
     ],
     "unicode": "🇵🇲"
   },
@@ -35428,7 +35623,8 @@
     "order": 4960,
     "tags": [
       "PN",
-      "vėliava"
+      "vėliava",
+      "vėliava: pitkerno salos"
     ],
     "unicode": "🇵🇳"
   },
@@ -35439,7 +35635,8 @@
     "order": 4961,
     "tags": [
       "PR",
-      "vėliava"
+      "vėliava",
+      "vėliava: puerto rikas"
     ],
     "unicode": "🇵🇷"
   },
@@ -35450,7 +35647,8 @@
     "order": 4962,
     "tags": [
       "PS",
-      "vėliava"
+      "vėliava",
+      "vėliava: palestinos teritorija"
     ],
     "unicode": "🇵🇸"
   },
@@ -35461,7 +35659,8 @@
     "order": 4963,
     "tags": [
       "PT",
-      "vėliava"
+      "vėliava",
+      "vėliava: portugalija"
     ],
     "unicode": "🇵🇹"
   },
@@ -35472,7 +35671,8 @@
     "order": 4964,
     "tags": [
       "PW",
-      "vėliava"
+      "vėliava",
+      "vėliava: palau"
     ],
     "unicode": "🇵🇼"
   },
@@ -35483,7 +35683,8 @@
     "order": 4965,
     "tags": [
       "PY",
-      "vėliava"
+      "vėliava",
+      "vėliava: paragvajus"
     ],
     "unicode": "🇵🇾"
   },
@@ -35494,7 +35695,8 @@
     "order": 4966,
     "tags": [
       "QA",
-      "vėliava"
+      "vėliava",
+      "vėliava: kataras"
     ],
     "unicode": "🇶🇦"
   },
@@ -35505,7 +35707,8 @@
     "order": 4967,
     "tags": [
       "RE",
-      "vėliava"
+      "vėliava",
+      "vėliava: reunjonas"
     ],
     "unicode": "🇷🇪"
   },
@@ -35516,7 +35719,8 @@
     "order": 4968,
     "tags": [
       "RO",
-      "vėliava"
+      "vėliava",
+      "vėliava: rumunija"
     ],
     "unicode": "🇷🇴"
   },
@@ -35527,7 +35731,8 @@
     "order": 4969,
     "tags": [
       "RS",
-      "vėliava"
+      "vėliava",
+      "vėliava: serbija"
     ],
     "unicode": "🇷🇸"
   },
@@ -35538,7 +35743,8 @@
     "order": 4970,
     "tags": [
       "RU",
-      "vėliava"
+      "vėliava",
+      "vėliava: rusija"
     ],
     "unicode": "🇷🇺"
   },
@@ -35549,7 +35755,8 @@
     "order": 4971,
     "tags": [
       "RW",
-      "vėliava"
+      "vėliava",
+      "vėliava: ruanda"
     ],
     "unicode": "🇷🇼"
   },
@@ -35560,7 +35767,8 @@
     "order": 4972,
     "tags": [
       "SA",
-      "vėliava"
+      "vėliava",
+      "vėliava: saudo arabija"
     ],
     "unicode": "🇸🇦"
   },
@@ -35571,7 +35779,8 @@
     "order": 4973,
     "tags": [
       "SB",
-      "vėliava"
+      "vėliava",
+      "vėliava: saliamono salos"
     ],
     "unicode": "🇸🇧"
   },
@@ -35582,7 +35791,8 @@
     "order": 4974,
     "tags": [
       "SC",
-      "vėliava"
+      "vėliava",
+      "vėliava: seišeliai"
     ],
     "unicode": "🇸🇨"
   },
@@ -35593,7 +35803,8 @@
     "order": 4975,
     "tags": [
       "SD",
-      "vėliava"
+      "vėliava",
+      "vėliava: sudanas"
     ],
     "unicode": "🇸🇩"
   },
@@ -35604,7 +35815,8 @@
     "order": 4976,
     "tags": [
       "SE",
-      "vėliava"
+      "vėliava",
+      "vėliava: švedija"
     ],
     "unicode": "🇸🇪"
   },
@@ -35615,7 +35827,8 @@
     "order": 4977,
     "tags": [
       "SG",
-      "vėliava"
+      "vėliava",
+      "vėliava: singapūras"
     ],
     "unicode": "🇸🇬"
   },
@@ -35626,7 +35839,8 @@
     "order": 4978,
     "tags": [
       "SH",
-      "vėliava"
+      "vėliava",
+      "vėliava: šv. elenos sala"
     ],
     "unicode": "🇸🇭"
   },
@@ -35637,7 +35851,8 @@
     "order": 4979,
     "tags": [
       "SI",
-      "vėliava"
+      "vėliava",
+      "vėliava: slovėnija"
     ],
     "unicode": "🇸🇮"
   },
@@ -35648,7 +35863,8 @@
     "order": 4980,
     "tags": [
       "SJ",
-      "vėliava"
+      "vėliava",
+      "vėliava: svalbardas ir janas majenas"
     ],
     "unicode": "🇸🇯"
   },
@@ -35659,7 +35875,8 @@
     "order": 4981,
     "tags": [
       "SK",
-      "vėliava"
+      "vėliava",
+      "vėliava: slovakija"
     ],
     "unicode": "🇸🇰"
   },
@@ -35670,7 +35887,8 @@
     "order": 4982,
     "tags": [
       "SL",
-      "vėliava"
+      "vėliava",
+      "vėliava: siera leonė"
     ],
     "unicode": "🇸🇱"
   },
@@ -35681,7 +35899,8 @@
     "order": 4983,
     "tags": [
       "SM",
-      "vėliava"
+      "vėliava",
+      "vėliava: san marinas"
     ],
     "unicode": "🇸🇲"
   },
@@ -35692,7 +35911,8 @@
     "order": 4984,
     "tags": [
       "SN",
-      "vėliava"
+      "vėliava",
+      "vėliava: senegalas"
     ],
     "unicode": "🇸🇳"
   },
@@ -35703,7 +35923,8 @@
     "order": 4985,
     "tags": [
       "SO",
-      "vėliava"
+      "vėliava",
+      "vėliava: somalis"
     ],
     "unicode": "🇸🇴"
   },
@@ -35714,7 +35935,8 @@
     "order": 4986,
     "tags": [
       "SR",
-      "vėliava"
+      "vėliava",
+      "vėliava: surinamas"
     ],
     "unicode": "🇸🇷"
   },
@@ -35725,7 +35947,8 @@
     "order": 4987,
     "tags": [
       "SS",
-      "vėliava"
+      "vėliava",
+      "vėliava: pietų sudanas"
     ],
     "unicode": "🇸🇸"
   },
@@ -35736,7 +35959,8 @@
     "order": 4988,
     "tags": [
       "ST",
-      "vėliava"
+      "vėliava",
+      "vėliava: san tomė ir prinsipė"
     ],
     "unicode": "🇸🇹"
   },
@@ -35747,7 +35971,8 @@
     "order": 4989,
     "tags": [
       "SV",
-      "vėliava"
+      "vėliava",
+      "vėliava: salvadoras"
     ],
     "unicode": "🇸🇻"
   },
@@ -35758,7 +35983,8 @@
     "order": 4990,
     "tags": [
       "SX",
-      "vėliava"
+      "vėliava",
+      "vėliava: sint martenas"
     ],
     "unicode": "🇸🇽"
   },
@@ -35769,7 +35995,8 @@
     "order": 4991,
     "tags": [
       "SY",
-      "vėliava"
+      "vėliava",
+      "vėliava: sirija"
     ],
     "unicode": "🇸🇾"
   },
@@ -35780,7 +36007,8 @@
     "order": 4992,
     "tags": [
       "SZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: svazilandas"
     ],
     "unicode": "🇸🇿"
   },
@@ -35791,7 +36019,8 @@
     "order": 4993,
     "tags": [
       "TA",
-      "vėliava"
+      "vėliava",
+      "vėliava: tristano da kunjos"
     ],
     "unicode": "🇹🇦"
   },
@@ -35802,7 +36031,8 @@
     "order": 4994,
     "tags": [
       "TC",
-      "vėliava"
+      "vėliava",
+      "vėliava: terkso ir kaikoso salos"
     ],
     "unicode": "🇹🇨"
   },
@@ -35813,7 +36043,8 @@
     "order": 4995,
     "tags": [
       "TD",
-      "vėliava"
+      "vėliava",
+      "vėliava: čadas"
     ],
     "unicode": "🇹🇩"
   },
@@ -35824,7 +36055,8 @@
     "order": 4996,
     "tags": [
       "TF",
-      "vėliava"
+      "vėliava",
+      "vėliava: prancūzijos pietų sritys"
     ],
     "unicode": "🇹🇫"
   },
@@ -35835,7 +36067,8 @@
     "order": 4997,
     "tags": [
       "TG",
-      "vėliava"
+      "vėliava",
+      "vėliava: togas"
     ],
     "unicode": "🇹🇬"
   },
@@ -35846,7 +36079,8 @@
     "order": 4998,
     "tags": [
       "TH",
-      "vėliava"
+      "vėliava",
+      "vėliava: tailandas"
     ],
     "unicode": "🇹🇭"
   },
@@ -35857,7 +36091,8 @@
     "order": 4999,
     "tags": [
       "TJ",
-      "vėliava"
+      "vėliava",
+      "vėliava: tadžikija"
     ],
     "unicode": "🇹🇯"
   },
@@ -35868,7 +36103,8 @@
     "order": 5000,
     "tags": [
       "TK",
-      "vėliava"
+      "vėliava",
+      "vėliava: tokelau"
     ],
     "unicode": "🇹🇰"
   },
@@ -35879,7 +36115,8 @@
     "order": 5001,
     "tags": [
       "TL",
-      "vėliava"
+      "vėliava",
+      "vėliava: rytų timoras"
     ],
     "unicode": "🇹🇱"
   },
@@ -35890,7 +36127,8 @@
     "order": 5002,
     "tags": [
       "TM",
-      "vėliava"
+      "vėliava",
+      "vėliava: turkmėnistanas"
     ],
     "unicode": "🇹🇲"
   },
@@ -35901,7 +36139,8 @@
     "order": 5003,
     "tags": [
       "TN",
-      "vėliava"
+      "vėliava",
+      "vėliava: tunisas"
     ],
     "unicode": "🇹🇳"
   },
@@ -35912,7 +36151,8 @@
     "order": 5004,
     "tags": [
       "TO",
-      "vėliava"
+      "vėliava",
+      "vėliava: tonga"
     ],
     "unicode": "🇹🇴"
   },
@@ -35923,7 +36163,8 @@
     "order": 5005,
     "tags": [
       "TR",
-      "vėliava"
+      "vėliava",
+      "vėliava: turkija"
     ],
     "unicode": "🇹🇷"
   },
@@ -35934,7 +36175,8 @@
     "order": 5006,
     "tags": [
       "TT",
-      "vėliava"
+      "vėliava",
+      "vėliava: trinidadas ir tobagas"
     ],
     "unicode": "🇹🇹"
   },
@@ -35945,7 +36187,8 @@
     "order": 5007,
     "tags": [
       "TV",
-      "vėliava"
+      "vėliava",
+      "vėliava: tuvalu"
     ],
     "unicode": "🇹🇻"
   },
@@ -35956,7 +36199,8 @@
     "order": 5008,
     "tags": [
       "TW",
-      "vėliava"
+      "vėliava",
+      "vėliava: taivanas"
     ],
     "unicode": "🇹🇼"
   },
@@ -35967,7 +36211,8 @@
     "order": 5009,
     "tags": [
       "TZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: tanzanija"
     ],
     "unicode": "🇹🇿"
   },
@@ -35978,7 +36223,8 @@
     "order": 5010,
     "tags": [
       "UA",
-      "vėliava"
+      "vėliava",
+      "vėliava: ukraina"
     ],
     "unicode": "🇺🇦"
   },
@@ -35989,7 +36235,8 @@
     "order": 5011,
     "tags": [
       "UG",
-      "vėliava"
+      "vėliava",
+      "vėliava: uganda"
     ],
     "unicode": "🇺🇬"
   },
@@ -36000,7 +36247,8 @@
     "order": 5012,
     "tags": [
       "UM",
-      "vėliava"
+      "vėliava",
+      "vėliava: jungtinių valstijų mažosios tolimosios salos"
     ],
     "unicode": "🇺🇲"
   },
@@ -36011,7 +36259,8 @@
     "order": 5013,
     "tags": [
       "UN",
-      "vėliava"
+      "vėliava",
+      "vėliava: jungtinės tautos"
     ],
     "unicode": "🇺🇳"
   },
@@ -36022,7 +36271,8 @@
     "order": 5014,
     "tags": [
       "US",
-      "vėliava"
+      "vėliava",
+      "vėliava: jungtinės valstijos"
     ],
     "unicode": "🇺🇸"
   },
@@ -36033,7 +36283,8 @@
     "order": 5015,
     "tags": [
       "UY",
-      "vėliava"
+      "vėliava",
+      "vėliava: urugvajus"
     ],
     "unicode": "🇺🇾"
   },
@@ -36044,7 +36295,8 @@
     "order": 5016,
     "tags": [
       "UZ",
-      "vėliava"
+      "vėliava",
+      "vėliava: uzbekistanas"
     ],
     "unicode": "🇺🇿"
   },
@@ -36055,7 +36307,8 @@
     "order": 5017,
     "tags": [
       "VA",
-      "vėliava"
+      "vėliava",
+      "vėliava: vatikano miesto valstybė"
     ],
     "unicode": "🇻🇦"
   },
@@ -36066,7 +36319,8 @@
     "order": 5018,
     "tags": [
       "VC",
-      "vėliava"
+      "vėliava",
+      "vėliava: šventasis vincentas ir grenadinai"
     ],
     "unicode": "🇻🇨"
   },
@@ -36077,7 +36331,8 @@
     "order": 5019,
     "tags": [
       "VE",
-      "vėliava"
+      "vėliava",
+      "vėliava: venesuela"
     ],
     "unicode": "🇻🇪"
   },
@@ -36088,7 +36343,8 @@
     "order": 5020,
     "tags": [
       "VG",
-      "vėliava"
+      "vėliava",
+      "vėliava: didžiosios britanijos mergelių salos"
     ],
     "unicode": "🇻🇬"
   },
@@ -36099,7 +36355,8 @@
     "order": 5021,
     "tags": [
       "VI",
-      "vėliava"
+      "vėliava",
+      "vėliava: jungtinių valstijų mergelių salos"
     ],
     "unicode": "🇻🇮"
   },
@@ -36110,7 +36367,8 @@
     "order": 5022,
     "tags": [
       "VN",
-      "vėliava"
+      "vėliava",
+      "vėliava: vietnamas"
     ],
     "unicode": "🇻🇳"
   },
@@ -36121,7 +36379,8 @@
     "order": 5023,
     "tags": [
       "VU",
-      "vėliava"
+      "vėliava",
+      "vėliava: vanuatu"
     ],
     "unicode": "🇻🇺"
   },
@@ -36132,7 +36391,8 @@
     "order": 5024,
     "tags": [
       "WF",
-      "vėliava"
+      "vėliava",
+      "vėliava: volisas ir futūna"
     ],
     "unicode": "🇼🇫"
   },
@@ -36143,7 +36403,8 @@
     "order": 5025,
     "tags": [
       "WS",
-      "vėliava"
+      "vėliava",
+      "vėliava: samoa"
     ],
     "unicode": "🇼🇸"
   },
@@ -36154,7 +36415,8 @@
     "order": 5026,
     "tags": [
       "XK",
-      "vėliava"
+      "vėliava",
+      "vėliava: kosovas"
     ],
     "unicode": "🇽🇰"
   },
@@ -36165,7 +36427,8 @@
     "order": 5027,
     "tags": [
       "YE",
-      "vėliava"
+      "vėliava",
+      "vėliava: jemenas"
     ],
     "unicode": "🇾🇪"
   },
@@ -36176,7 +36439,8 @@
     "order": 5028,
     "tags": [
       "YT",
-      "vėliava"
+      "vėliava",
+      "vėliava: majotas"
     ],
     "unicode": "🇾🇹"
   },
@@ -36187,7 +36451,8 @@
     "order": 5029,
     "tags": [
       "ZA",
-      "vėliava"
+      "vėliava",
+      "vėliava: pietų afrika"
     ],
     "unicode": "🇿🇦"
   },
@@ -36198,7 +36463,8 @@
     "order": 5030,
     "tags": [
       "ZM",
-      "vėliava"
+      "vėliava",
+      "vėliava: zambija"
     ],
     "unicode": "🇿🇲"
   },
@@ -36209,7 +36475,8 @@
     "order": 5031,
     "tags": [
       "ZW",
-      "vėliava"
+      "vėliava",
+      "vėliava: zimbabvė"
     ],
     "unicode": "🇿🇼"
   },
@@ -36220,7 +36487,8 @@
     "order": 5032,
     "tags": [
       "gbeng",
-      "vėliava"
+      "vėliava",
+      "vėliava: anglija"
     ],
     "unicode": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
   },
@@ -36231,7 +36499,8 @@
     "order": 5033,
     "tags": [
       "gbsct",
-      "vėliava"
+      "vėliava",
+      "vėliava: škotija"
     ],
     "unicode": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
   },
@@ -36242,7 +36511,8 @@
     "order": 5034,
     "tags": [
       "gbwls",
-      "vėliava"
+      "vėliava",
+      "vėliava: velsas"
     ],
     "unicode": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
   }

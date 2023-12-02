@@ -563,7 +563,9 @@
     "label": "ansigt, der smugkigger",
     "order": 34,
     "tags": [
+      "ansigt",
       "betaget",
+      "der smugkigger",
       "fascineret",
       "smugkigge",
       "stirre"
@@ -603,6 +605,8 @@
     "label": "ansigt, der gør honnør",
     "order": 37,
     "tags": [
+      "ansigt",
+      "der gør honnør",
       "gøre honnør",
       "ja",
       "militær",
@@ -800,28 +804,22 @@
   {
     "group": 0,
     "hexcode": "1F642-200D-2194-FE0F",
-    "label": "head shaking horizontally",
+    "label": "ryster på hovedet vandret",
     "order": 53,
     "tags": [
-      "ansigt",
-      "let smilende ansigt",
-      "pil",
-      "pil mod venstre og højre",
-      "smil"
+      "hovedrysten",
+      "nej"
     ],
     "unicode": "🙂‍↔️"
   },
   {
     "group": 0,
     "hexcode": "1F642-200D-2195-FE0F",
-    "label": "head shaking vertically",
+    "label": "ryster på hovedet lodret",
     "order": 55,
     "tags": [
-      "ansigt",
-      "let smilende ansigt",
-      "op- og nedadvendt pil",
-      "pil",
-      "smil"
+      "ja",
+      "nikke"
     ],
     "unicode": "🙂‍↕️"
   },
@@ -946,6 +944,8 @@
     "label": "ansigt, der kaster op",
     "order": 66,
     "tags": [
+      "ansigt",
+      "der kaster op",
       "opkast",
       "syg"
     ],
@@ -1047,7 +1047,9 @@
     "label": "hoved, der eksploderer",
     "order": 73,
     "tags": [
-      "chokeret"
+      "chokeret",
+      "der eksploderer",
+      "hoved"
     ],
     "unicode": "🤯"
   },
@@ -1254,6 +1256,8 @@
     "label": "ansigt, der holder tårer tilbage",
     "order": 91,
     "tags": [
+      "ansigt",
+      "der holder tårer tilbage",
       "græde",
       "ked af det",
       "modstå",
@@ -6159,46 +6163,46 @@
   {
     "group": 1,
     "hexcode": "1F9D3",
-    "label": "gammel person",
+    "label": "ældre menneske",
     "order": 690,
     "tags": [
-      "voksen",
-      "ældre menneske"
+      "gammel person",
+      "voksen"
     ],
     "unicode": "🧓",
     "skins": [
       {
         "group": 1,
         "hexcode": "1F9D3-1F3FB",
-        "label": "gammel person: lys teint",
+        "label": "ældre menneske: lys teint",
         "order": 691,
         "unicode": "🧓🏻"
       },
       {
         "group": 1,
         "hexcode": "1F9D3-1F3FC",
-        "label": "gammel person: medium til lys teint",
+        "label": "ældre menneske: medium til lys teint",
         "order": 692,
         "unicode": "🧓🏼"
       },
       {
         "group": 1,
         "hexcode": "1F9D3-1F3FD",
-        "label": "gammel person: medium teint",
+        "label": "ældre menneske: medium teint",
         "order": 693,
         "unicode": "🧓🏽"
       },
       {
         "group": 1,
         "hexcode": "1F9D3-1F3FE",
-        "label": "gammel person: medium til mørk teint",
+        "label": "ældre menneske: medium til mørk teint",
         "order": 694,
         "unicode": "🧓🏾"
       },
       {
         "group": 1,
         "hexcode": "1F9D3-1F3FF",
-        "label": "gammel person: mørk teint",
+        "label": "ældre menneske: mørk teint",
         "order": 695,
         "unicode": "🧓🏿"
       }
@@ -6359,8 +6363,7 @@
       "mand",
       "mand med alvorlig mine",
       "panderynken",
-      "utilfreds",
-      "utilfreds mand"
+      "utilfreds"
     ],
     "unicode": "🙍‍♂️",
     "skins": [
@@ -6410,8 +6413,7 @@
       "kvinde",
       "kvinde med alvorlig mine",
       "panderynken",
-      "utilfreds",
-      "utilfreds kvinde"
+      "utilfreds"
     ],
     "unicode": "🙍‍♀️",
     "skins": [
@@ -7254,7 +7256,8 @@
     "label": "døv mand",
     "order": 894,
     "tags": [
-      "døv mand"
+      "døv",
+      "mand"
     ],
     "unicode": "🧏‍♂️",
     "skins": [
@@ -7301,7 +7304,8 @@
     "label": "døv kvinde",
     "order": 906,
     "tags": [
-      "døv kvinde"
+      "døv",
+      "kvinde"
     ],
     "unicode": "🧏‍♀️",
     "skins": [
@@ -9011,7 +9015,7 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F4BC",
-    "label": "kontormedarbejder",
+    "label": "kontoransat",
     "order": 1188,
     "tags": [
       "arkitekt",
@@ -9019,42 +9023,42 @@
       "forretningsmand",
       "funktionær",
       "kontor",
-      "kontoransat"
+      "kontormedarbejder"
     ],
     "unicode": "🧑‍💼",
     "skins": [
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FB-200D-1F4BC",
-        "label": "kontormedarbejder: lys teint",
+        "label": "kontoransat: lys teint",
         "order": 1189,
         "unicode": "🧑🏻‍💼"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FC-200D-1F4BC",
-        "label": "kontormedarbejder: medium til lys teint",
+        "label": "kontoransat: medium til lys teint",
         "order": 1190,
         "unicode": "🧑🏼‍💼"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FD-200D-1F4BC",
-        "label": "kontormedarbejder: medium teint",
+        "label": "kontoransat: medium teint",
         "order": 1191,
         "unicode": "🧑🏽‍💼"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FE-200D-1F4BC",
-        "label": "kontormedarbejder: medium til mørk teint",
+        "label": "kontoransat: medium til mørk teint",
         "order": 1192,
         "unicode": "🧑🏾‍💼"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FF-200D-1F4BC",
-        "label": "kontormedarbejder: mørk teint",
+        "label": "kontoransat: mørk teint",
         "order": 1193,
         "unicode": "🧑🏿‍💼"
       }
@@ -9164,50 +9168,50 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F52C",
-    "label": "videnskabsmand",
+    "label": "forsker",
     "order": 1206,
     "tags": [
       "biolog",
-      "forsker",
       "fysiker",
       "ingeniør",
       "kemiker",
-      "naturvidenskabsmand"
+      "naturvidenskabsmand",
+      "videnskabsmand"
     ],
     "unicode": "🧑‍🔬",
     "skins": [
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FB-200D-1F52C",
-        "label": "videnskabsmand: lys teint",
+        "label": "forsker: lys teint",
         "order": 1207,
         "unicode": "🧑🏻‍🔬"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FC-200D-1F52C",
-        "label": "videnskabsmand: medium til lys teint",
+        "label": "forsker: medium til lys teint",
         "order": 1208,
         "unicode": "🧑🏼‍🔬"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FD-200D-1F52C",
-        "label": "videnskabsmand: medium teint",
+        "label": "forsker: medium teint",
         "order": 1209,
         "unicode": "🧑🏽‍🔬"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FE-200D-1F52C",
-        "label": "videnskabsmand: medium til mørk teint",
+        "label": "forsker: medium til mørk teint",
         "order": 1210,
         "unicode": "🧑🏾‍🔬"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FF-200D-1F52C",
-        "label": "videnskabsmand: mørk teint",
+        "label": "forsker: mørk teint",
         "order": 1211,
         "unicode": "🧑🏿‍🔬"
       }
@@ -9479,14 +9483,14 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F3A4",
-    "label": "sangsolist",
+    "label": "sanger",
     "order": 1242,
     "tags": [
       "entertainer",
       "popsanger",
       "rock",
       "rocksanger",
-      "sanger",
+      "sangsolist",
       "skuespiller",
       "stjerne"
     ],
@@ -9495,35 +9499,35 @@
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FB-200D-1F3A4",
-        "label": "sangsolist: lys teint",
+        "label": "sanger: lys teint",
         "order": 1243,
         "unicode": "🧑🏻‍🎤"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FC-200D-1F3A4",
-        "label": "sangsolist: medium til lys teint",
+        "label": "sanger: medium til lys teint",
         "order": 1244,
         "unicode": "🧑🏼‍🎤"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FD-200D-1F3A4",
-        "label": "sangsolist: medium teint",
+        "label": "sanger: medium teint",
         "order": 1245,
         "unicode": "🧑🏽‍🎤"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FE-200D-1F3A4",
-        "label": "sangsolist: medium til mørk teint",
+        "label": "sanger: medium til mørk teint",
         "order": 1246,
         "unicode": "🧑🏾‍🎤"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FF-200D-1F3A4",
-        "label": "sangsolist: mørk teint",
+        "label": "sanger: mørk teint",
         "order": 1247,
         "unicode": "🧑🏿‍🎤"
       }
@@ -9532,13 +9536,14 @@
   {
     "group": 1,
     "hexcode": "1F468-200D-1F3A4",
-    "label": "sanger",
+    "label": "mandlig sanger",
     "order": 1248,
     "tags": [
       "entertainer",
       "karaoke",
       "mand",
       "sang",
+      "sanger",
       "skuespiller",
       "stjerne",
       "synge"
@@ -9548,35 +9553,35 @@
       {
         "group": 1,
         "hexcode": "1F468-1F3FB-200D-1F3A4",
-        "label": "sanger: lys teint",
+        "label": "mandlig sanger: lys teint",
         "order": 1249,
         "unicode": "👨🏻‍🎤"
       },
       {
         "group": 1,
         "hexcode": "1F468-1F3FC-200D-1F3A4",
-        "label": "sanger: medium til lys teint",
+        "label": "mandlig sanger: medium til lys teint",
         "order": 1250,
         "unicode": "👨🏼‍🎤"
       },
       {
         "group": 1,
         "hexcode": "1F468-1F3FD-200D-1F3A4",
-        "label": "sanger: medium teint",
+        "label": "mandlig sanger: medium teint",
         "order": 1251,
         "unicode": "👨🏽‍🎤"
       },
       {
         "group": 1,
         "hexcode": "1F468-1F3FE-200D-1F3A4",
-        "label": "sanger: medium til mørk teint",
+        "label": "mandlig sanger: medium til mørk teint",
         "order": 1252,
         "unicode": "👨🏾‍🎤"
       },
       {
         "group": 1,
         "hexcode": "1F468-1F3FF-200D-1F3A4",
-        "label": "sanger: mørk teint",
+        "label": "mandlig sanger: mørk teint",
         "order": 1253,
         "unicode": "👨🏿‍🎤"
       }
@@ -11722,6 +11727,7 @@
     "tags": [
       "baby",
       "bryst",
+      "der ammer",
       "kvinde"
     ],
     "unicode": "🤱",
@@ -11771,6 +11777,7 @@
     "tags": [
       "amme",
       "baby",
+      "der mader baby",
       "kvinde",
       "made"
     ],
@@ -11821,6 +11828,7 @@
     "tags": [
       "amme",
       "baby",
+      "der mader baby",
       "made",
       "mand"
     ],
@@ -11871,6 +11879,7 @@
     "tags": [
       "amme",
       "baby",
+      "der mader baby",
       "made",
       "person"
     ],
@@ -12705,7 +12714,8 @@
     "label": "vampyr",
     "order": 1787,
     "tags": [
-      "dracula"
+      "dracula",
+      "levende død"
     ],
     "unicode": "🧛",
     "emoticon": ":E",
@@ -12753,7 +12763,8 @@
     "label": "mandlig vampyr",
     "order": 1793,
     "tags": [
-      "dracula"
+      "dracula",
+      "levende død"
     ],
     "unicode": "🧛‍♂️",
     "skins": [
@@ -12800,6 +12811,7 @@
     "label": "kvindelig vampyr",
     "order": 1805,
     "tags": [
+      "levende død",
       "vampyr"
     ],
     "unicode": "🧛‍♀️",
@@ -12848,7 +12860,8 @@
     "order": 1817,
     "tags": [
       "hav",
-      "havfolk"
+      "havfolk",
+      "havfrue"
     ],
     "unicode": "🧜",
     "skins": [
@@ -13146,6 +13159,7 @@
     "label": "mandlig magisk ånd",
     "order": 1878,
     "tags": [
+      "lampeånd",
       "magi",
       "mand"
     ],
@@ -13158,6 +13172,7 @@
     "order": 1880,
     "tags": [
       "kvinde",
+      "lampeånd",
       "magi"
     ],
     "unicode": "🧞‍♀️"
@@ -13179,7 +13194,7 @@
     "label": "mandlig zombie",
     "order": 1883,
     "tags": [
-      "lavende død",
+      "levende død",
       "mand"
     ],
     "unicode": "🧟‍♂️"
@@ -13851,7 +13866,8 @@
     "label": "stående person",
     "order": 2038,
     "tags": [
-      "stående person"
+      "stående",
+      "står"
     ],
     "unicode": "🧍",
     "skins": [
@@ -13898,7 +13914,9 @@
     "label": "stående mand",
     "order": 2044,
     "tags": [
-      "stående mand"
+      "mand",
+      "stående",
+      "står"
     ],
     "unicode": "🧍‍♂️",
     "skins": [
@@ -13945,7 +13963,9 @@
     "label": "stående kvinde",
     "order": 2056,
     "tags": [
-      "stående kvinde"
+      "kvinde",
+      "stående",
+      "står"
     ],
     "unicode": "🧍‍♀️",
     "skins": [
@@ -14412,7 +14432,11 @@
     "label": "mand med blindestok",
     "order": 2176,
     "tags": [
-      "mand med blindestok"
+      "adgangsforhold",
+      "blind",
+      "handicap",
+      "mand",
+      "synshandicap"
     ],
     "unicode": "👨‍🦯",
     "skins": [
@@ -14516,7 +14540,11 @@
     "label": "kvinde med blindestok",
     "order": 2194,
     "tags": [
-      "kvinde med blindestok"
+      "adgangsforhold",
+      "blind",
+      "handicap",
+      "kvinde",
+      "synshandicap"
     ],
     "unicode": "👩‍🦯",
     "skins": [
@@ -14725,7 +14753,12 @@
     "label": "mand i elektrisk kørestol",
     "order": 2230,
     "tags": [
-      "mand i elektrisk kørestol"
+      "adgang",
+      "adgangsforhold",
+      "handicap",
+      "kørestol",
+      "mand",
+      "mand i elkørestol"
     ],
     "unicode": "👨‍🦼",
     "skins": [
@@ -14828,7 +14861,12 @@
     "label": "kvinde i elektrisk kørestol",
     "order": 2248,
     "tags": [
-      "kvinde i elektrisk kørestol"
+      "adgang",
+      "adgangsforhold",
+      "handicap",
+      "kvinde",
+      "kvinde i elkørestol",
+      "kørestol"
     ],
     "unicode": "👩‍🦼",
     "skins": [
@@ -15036,7 +15074,11 @@
     "label": "mand i manuel kørestol",
     "order": 2284,
     "tags": [
-      "mand i manuel kørestol"
+      "adgang",
+      "adgangsforhold",
+      "handicap",
+      "kørestol",
+      "mand"
     ],
     "unicode": "👨‍🦽",
     "skins": [
@@ -15139,7 +15181,11 @@
     "label": "kvinde i manuel kørestol",
     "order": 2302,
     "tags": [
-      "kvinde i manuel kørestol"
+      "adgang",
+      "adgangsforhold",
+      "handicap",
+      "kvinde",
+      "kørestol"
     ],
     "unicode": "👩‍🦽",
     "skins": [
@@ -16754,8 +16800,10 @@
     "order": 2635,
     "tags": [
       "bold",
+      "der dibler med en bold",
+      "der dribler med en bold",
       "drible",
-      "person, der dibler med en bold"
+      "person"
     ],
     "unicode": "⛹️",
     "skins": [
@@ -16805,6 +16853,7 @@
       "bold",
       "boldspil",
       "boldspiller",
+      "der dribler med en bold",
       "mand"
     ],
     "unicode": "⛹️‍♂️",
@@ -16855,6 +16904,7 @@
       "bold",
       "boldspil",
       "boldspiller",
+      "der dribler med en bold",
       "kvinde"
     ],
     "unicode": "⛹️‍♀️",
@@ -18220,185 +18270,189 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F91D-200D-1F9D1",
-    "label": "mennesker, der holder hånd",
+    "label": "personer hånd i hånd",
     "order": 2931,
     "tags": [
-      "mennesker, der holder hånd"
+      "holde",
+      "holde i hånd",
+      "hånd",
+      "par",
+      "personer"
     ],
     "unicode": "🧑‍🤝‍🧑",
     "skins": [
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FB",
-        "label": "mennesker, der holder hånd: lys teint",
+        "label": "personer hånd i hånd: lys teint",
         "order": 2932,
         "unicode": "🧑🏻‍🤝‍🧑🏻"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FC",
-        "label": "mennesker, der holder hånd: lys teint og medium til lys teint",
+        "label": "personer hånd i hånd: lys teint og medium til lys teint",
         "order": 2933,
         "unicode": "🧑🏻‍🤝‍🧑🏼"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FD",
-        "label": "mennesker, der holder hånd: lys teint og medium teint",
+        "label": "personer hånd i hånd: lys teint og medium teint",
         "order": 2934,
         "unicode": "🧑🏻‍🤝‍🧑🏽"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FE",
-        "label": "mennesker, der holder hånd: lys teint og medium til mørk teint",
+        "label": "personer hånd i hånd: lys teint og medium til mørk teint",
         "order": 2935,
         "unicode": "🧑🏻‍🤝‍🧑🏾"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FF",
-        "label": "mennesker, der holder hånd: lys teint og mørk teint",
+        "label": "personer hånd i hånd: lys teint og mørk teint",
         "order": 2936,
         "unicode": "🧑🏻‍🤝‍🧑🏿"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FB",
-        "label": "mennesker, der holder hånd: medium til lys teint og lys teint",
+        "label": "personer hånd i hånd: medium til lys teint og lys teint",
         "order": 2937,
         "unicode": "🧑🏼‍🤝‍🧑🏻"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FC",
-        "label": "mennesker, der holder hånd: medium til lys teint",
+        "label": "personer hånd i hånd: medium til lys teint",
         "order": 2938,
         "unicode": "🧑🏼‍🤝‍🧑🏼"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FD",
-        "label": "mennesker, der holder hånd: medium til lys teint og medium teint",
+        "label": "personer hånd i hånd: medium til lys teint og medium teint",
         "order": 2939,
         "unicode": "🧑🏼‍🤝‍🧑🏽"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FE",
-        "label": "mennesker, der holder hånd: medium til lys teint og medium til mørk teint",
+        "label": "personer hånd i hånd: medium til lys teint og medium til mørk teint",
         "order": 2940,
         "unicode": "🧑🏼‍🤝‍🧑🏾"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FF",
-        "label": "mennesker, der holder hånd: medium til lys teint og mørk teint",
+        "label": "personer hånd i hånd: medium til lys teint og mørk teint",
         "order": 2941,
         "unicode": "🧑🏼‍🤝‍🧑🏿"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FB",
-        "label": "mennesker, der holder hånd: medium teint og lys teint",
+        "label": "personer hånd i hånd: medium teint og lys teint",
         "order": 2942,
         "unicode": "🧑🏽‍🤝‍🧑🏻"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FC",
-        "label": "mennesker, der holder hånd: medium teint og medium til lys teint",
+        "label": "personer hånd i hånd: medium teint og medium til lys teint",
         "order": 2943,
         "unicode": "🧑🏽‍🤝‍🧑🏼"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FD",
-        "label": "mennesker, der holder hånd: medium teint",
+        "label": "personer hånd i hånd: medium teint",
         "order": 2944,
         "unicode": "🧑🏽‍🤝‍🧑🏽"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FE",
-        "label": "mennesker, der holder hånd: medium teint og medium til mørk teint",
+        "label": "personer hånd i hånd: medium teint og medium til mørk teint",
         "order": 2945,
         "unicode": "🧑🏽‍🤝‍🧑🏾"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FF",
-        "label": "mennesker, der holder hånd: medium teint og mørk teint",
+        "label": "personer hånd i hånd: medium teint og mørk teint",
         "order": 2946,
         "unicode": "🧑🏽‍🤝‍🧑🏿"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FB",
-        "label": "mennesker, der holder hånd: medium til mørk teint og lys teint",
+        "label": "personer hånd i hånd: medium til mørk teint og lys teint",
         "order": 2947,
         "unicode": "🧑🏾‍🤝‍🧑🏻"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FC",
-        "label": "mennesker, der holder hånd: medium til mørk teint og medium til lys teint",
+        "label": "personer hånd i hånd: medium til mørk teint og medium til lys teint",
         "order": 2948,
         "unicode": "🧑🏾‍🤝‍🧑🏼"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FD",
-        "label": "mennesker, der holder hånd: medium til mørk teint og medium teint",
+        "label": "personer hånd i hånd: medium til mørk teint og medium teint",
         "order": 2949,
         "unicode": "🧑🏾‍🤝‍🧑🏽"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FE",
-        "label": "mennesker, der holder hånd: medium til mørk teint",
+        "label": "personer hånd i hånd: medium til mørk teint",
         "order": 2950,
         "unicode": "🧑🏾‍🤝‍🧑🏾"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FF",
-        "label": "mennesker, der holder hånd: medium til mørk teint og mørk teint",
+        "label": "personer hånd i hånd: medium til mørk teint og mørk teint",
         "order": 2951,
         "unicode": "🧑🏾‍🤝‍🧑🏿"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB",
-        "label": "mennesker, der holder hånd: mørk teint og lys teint",
+        "label": "personer hånd i hånd: mørk teint og lys teint",
         "order": 2952,
         "unicode": "🧑🏿‍🤝‍🧑🏻"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC",
-        "label": "mennesker, der holder hånd: mørk teint og medium til lys teint",
+        "label": "personer hånd i hånd: mørk teint og medium til lys teint",
         "order": 2953,
         "unicode": "🧑🏿‍🤝‍🧑🏼"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD",
-        "label": "mennesker, der holder hånd: mørk teint og medium teint",
+        "label": "personer hånd i hånd: mørk teint og medium teint",
         "order": 2954,
         "unicode": "🧑🏿‍🤝‍🧑🏽"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE",
-        "label": "mennesker, der holder hånd: mørk teint og medium til mørk teint",
+        "label": "personer hånd i hånd: mørk teint og medium til mørk teint",
         "order": 2955,
         "unicode": "🧑🏿‍🤝‍🧑🏾"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF",
-        "label": "mennesker, der holder hånd: mørk teint",
+        "label": "personer hånd i hånd: mørk teint",
         "order": 2956,
         "unicode": "🧑🏿‍🤝‍🧑🏿"
       }
@@ -20966,38 +21020,47 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2",
-    "label": "family: adult, adult, child",
+    "label": "familie: voksen, voksen, barn",
     "order": 3470,
     "tags": [
       "barn",
-      "person",
-      "ungt menneske",
-      "voksen"
+      "familie",
+      "familie: voksen",
+      "forældre",
+      "menneske",
+      "voksen",
+      "voksne"
     ],
     "unicode": "🧑‍🧑‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, adult, child, child",
+    "label": "familie: voksen, voksen, barn, barn",
     "order": 3471,
     "tags": [
       "barn",
-      "person",
-      "ungt menneske",
-      "voksen"
+      "børn",
+      "familie",
+      "familie: voksen",
+      "forældre",
+      "menneske",
+      "voksen",
+      "voksne"
     ],
     "unicode": "🧑‍🧑‍🧒‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2",
-    "label": "family: adult, child",
+    "label": "familie: voksen, barn",
     "order": 3472,
     "tags": [
       "barn",
-      "person",
-      "ungt menneske",
+      "familie",
+      "familie: voksen",
+      "forælder",
+      "menneske",
       "voksen"
     ],
     "unicode": "🧑‍🧒"
@@ -21005,12 +21068,15 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, child, child",
+    "label": "familie: voksen, barn, barn",
     "order": 3473,
     "tags": [
       "barn",
-      "person",
-      "ungt menneske",
+      "børn",
+      "familie",
+      "familie: voksen",
+      "forælder",
+      "menneske",
       "voksen"
     ],
     "unicode": "🧑‍🧒‍🧒"
@@ -21360,7 +21426,7 @@
     "order": 3504,
     "tags": [
       "dyr",
-      "elk",
+      "elsdyr",
       "gevir",
       "pattedyr"
     ],
@@ -22084,14 +22150,14 @@
   {
     "group": 3,
     "hexcode": "1F426-200D-2B1B",
-    "label": "black bird",
+    "label": "sort fugl",
     "order": 3572,
     "tags": [
-      "bird",
-      "black",
-      "crow",
-      "raven",
-      "rook"
+      "fugl",
+      "krage",
+      "ravn",
+      "råge",
+      "sort"
     ],
     "unicode": "🐦‍⬛"
   },
@@ -22111,13 +22177,14 @@
   {
     "group": 3,
     "hexcode": "1F426-200D-1F525",
-    "label": "phoenix",
+    "label": "føniks",
     "order": 3574,
     "tags": [
-      "dyr",
-      "flamme",
-      "fugl",
-      "ild"
+      "fantasi",
+      "fawkes",
+      "genfødsel",
+      "ildfugl",
+      "reinkarnation"
     ],
     "unicode": "🐦‍🔥"
   },
@@ -22904,12 +22971,11 @@
     "label": "lime",
     "order": 3649,
     "tags": [
-      "citron",
       "citrus",
-      "firkant",
+      "citrusfrugt",
       "frugt",
-      "grøn",
-      "gul"
+      "troperne",
+      "tropisk"
     ],
     "unicode": "🍋‍🟩"
   },
@@ -23265,13 +23331,15 @@
   {
     "group": 4,
     "hexcode": "1F344-200D-1F7EB",
-    "label": "brown mushroom",
+    "label": "brun svamp",
     "order": 3682,
     "tags": [
-      "brun",
-      "firkant",
-      "plante",
-      "svamp"
+      "grøntsag",
+      "mad",
+      "natur",
+      "paddehat",
+      "svamp",
+      "vegetarisk"
     ],
     "unicode": "🍄‍🟫"
   },
@@ -30199,14 +30267,15 @@
   {
     "group": 7,
     "hexcode": "26D3-FE0F-200D-1F4A5",
-    "label": "broken chain",
+    "label": "brudt kæde",
     "order": 4395,
     "tags": [
-      "følelser",
-      "kollision",
-      "kollitionstegn",
-      "kæde",
-      "kæder"
+      "bryde",
+      "brække",
+      "frihed",
+      "håndjern",
+      "knække",
+      "kæde"
     ],
     "unicode": "⛓️‍💥"
   },
@@ -30605,7 +30674,9 @@
     "label": "ragekniv",
     "order": 4432,
     "tags": [
-      "ragekniv"
+      "barbering",
+      "barberskraber",
+      "skraber"
     ],
     "unicode": "🪒"
   },
@@ -32466,10 +32537,10 @@
   {
     "group": 8,
     "hexcode": "0023-FE0F-20E3",
-    "label": "keycap: #",
+    "label": "keycap: \\x{23}",
     "order": 4648,
     "tags": [
-      "keycap"
+      "keycap: \\x{23}"
     ],
     "unicode": "#️⃣"
   },
@@ -32479,7 +32550,7 @@
     "label": "keycap: *",
     "order": 4650,
     "tags": [
-      "keycap"
+      "keycap: *"
     ],
     "unicode": "*️⃣"
   },
@@ -32489,7 +32560,7 @@
     "label": "keycap: 0",
     "order": 4652,
     "tags": [
-      "keycap"
+      "keycap: 0"
     ],
     "unicode": "0️⃣"
   },
@@ -32499,7 +32570,7 @@
     "label": "keycap: 1",
     "order": 4654,
     "tags": [
-      "keycap"
+      "keycap: 1"
     ],
     "unicode": "1️⃣"
   },
@@ -32509,7 +32580,7 @@
     "label": "keycap: 2",
     "order": 4656,
     "tags": [
-      "keycap"
+      "keycap: 2"
     ],
     "unicode": "2️⃣"
   },
@@ -32519,7 +32590,7 @@
     "label": "keycap: 3",
     "order": 4658,
     "tags": [
-      "keycap"
+      "keycap: 3"
     ],
     "unicode": "3️⃣"
   },
@@ -32529,7 +32600,7 @@
     "label": "keycap: 4",
     "order": 4660,
     "tags": [
-      "keycap"
+      "keycap: 4"
     ],
     "unicode": "4️⃣"
   },
@@ -32539,7 +32610,7 @@
     "label": "keycap: 5",
     "order": 4662,
     "tags": [
-      "keycap"
+      "keycap: 5"
     ],
     "unicode": "5️⃣"
   },
@@ -32549,7 +32620,7 @@
     "label": "keycap: 6",
     "order": 4664,
     "tags": [
-      "keycap"
+      "keycap: 6"
     ],
     "unicode": "6️⃣"
   },
@@ -32559,7 +32630,7 @@
     "label": "keycap: 7",
     "order": 4666,
     "tags": [
-      "keycap"
+      "keycap: 7"
     ],
     "unicode": "7️⃣"
   },
@@ -32569,7 +32640,7 @@
     "label": "keycap: 8",
     "order": 4668,
     "tags": [
-      "keycap"
+      "keycap: 8"
     ],
     "unicode": "8️⃣"
   },
@@ -32579,17 +32650,17 @@
     "label": "keycap: 9",
     "order": 4670,
     "tags": [
-      "keycap"
+      "keycap: 9"
     ],
     "unicode": "9️⃣"
   },
   {
     "group": 8,
     "hexcode": "1F51F",
-    "label": "keycap: 10",
+    "label": "bookmark..water pistol",
     "order": 4672,
     "tags": [
-      "keycap"
+      "bookmark..water pistol"
     ],
     "unicode": "🔟"
   },
@@ -33042,7 +33113,8 @@
     "label": "orange cirkel",
     "order": 4723,
     "tags": [
-      "orange cirkel"
+      "cirkel",
+      "orange"
     ],
     "unicode": "🟠"
   },
@@ -33052,7 +33124,8 @@
     "label": "gul cirkel",
     "order": 4724,
     "tags": [
-      "gul cirkel"
+      "cirkel",
+      "gul"
     ],
     "unicode": "🟡"
   },
@@ -33062,7 +33135,8 @@
     "label": "grøn cirkel",
     "order": 4725,
     "tags": [
-      "grøn cirkel"
+      "cirkel",
+      "grøn"
     ],
     "unicode": "🟢"
   },
@@ -33125,10 +33199,10 @@
   {
     "group": 8,
     "hexcode": "1F7E5",
-    "label": "rød firkant",
+    "label": "rødt kvadrat",
     "order": 4731,
     "tags": [
-      "firkant",
+      "kvadrat",
       "rød"
     ],
     "unicode": "🟥"
@@ -33136,10 +33210,10 @@
   {
     "group": 8,
     "hexcode": "1F7E7",
-    "label": "orange firkant",
+    "label": "orange kvadrat",
     "order": 4732,
     "tags": [
-      "firkant",
+      "kvadrat",
       "orange"
     ],
     "unicode": "🟧"
@@ -33147,43 +33221,46 @@
   {
     "group": 8,
     "hexcode": "1F7E8",
-    "label": "gul firkant",
+    "label": "gult kvadrat",
     "order": 4733,
     "tags": [
-      "firkant",
-      "gul"
+      "gul",
+      "gult",
+      "kvadrat"
     ],
     "unicode": "🟨"
   },
   {
     "group": 8,
     "hexcode": "1F7E9",
-    "label": "grøn firkant",
+    "label": "grønt kvadrat",
     "order": 4734,
     "tags": [
-      "firkant",
-      "grøn"
+      "grøn",
+      "grønt",
+      "kvadrat"
     ],
     "unicode": "🟩"
   },
   {
     "group": 8,
     "hexcode": "1F7E6",
-    "label": "blå firkant",
+    "label": "blåt kvadrat",
     "order": 4735,
     "tags": [
       "blå",
-      "firkant"
+      "blåt",
+      "kvadrat"
     ],
     "unicode": "🟦"
   },
   {
     "group": 8,
     "hexcode": "1F7EA",
-    "label": "lilla firkant",
+    "label": "lilla kvadrat",
     "order": 4736,
     "tags": [
-      "firkant",
+      "kvadrat",
       "lilla"
     ],
     "unicode": "🟪"
@@ -33191,11 +33268,12 @@
   {
     "group": 8,
     "hexcode": "1F7EB",
-    "label": "brun firkant",
+    "label": "brunt kvadrat",
     "order": 4737,
     "tags": [
       "brun",
-      "firkant"
+      "brunt",
+      "kvadrat"
     ],
     "unicode": "🟫"
   },
@@ -33464,6 +33542,7 @@
     "label": "regnbueflag",
     "order": 4766,
     "tags": [
+      "pride",
       "regnbue"
     ],
     "unicode": "🏳️‍🌈"
@@ -33496,2848 +33575,2589 @@
   {
     "group": 9,
     "hexcode": "1F1E6-1F1E8",
-    "label": "flag: Ascensionøen",
+    "label": "Ascensionøen",
     "order": 4774,
     "tags": [
-      "AC",
-      "flag"
+      "AC"
     ],
     "unicode": "🇦🇨"
   },
   {
     "group": 9,
     "hexcode": "1F1E6-1F1E9",
-    "label": "flag: Andorra",
+    "label": "Andorra",
     "order": 4775,
     "tags": [
-      "AD",
-      "flag"
+      "AD"
     ],
     "unicode": "🇦🇩"
   },
   {
     "group": 9,
     "hexcode": "1F1E6-1F1EA",
-    "label": "flag: De Forenede Arabiske Emirater",
+    "label": "De Forenede Arabiske Emirater",
     "order": 4776,
     "tags": [
-      "AE",
-      "flag"
+      "AE"
     ],
     "unicode": "🇦🇪"
   },
   {
     "group": 9,
     "hexcode": "1F1E6-1F1EB",
-    "label": "flag: Afghanistan",
+    "label": "Afghanistan",
     "order": 4777,
     "tags": [
-      "AF",
-      "flag"
+      "AF"
     ],
     "unicode": "🇦🇫"
   },
   {
     "group": 9,
     "hexcode": "1F1E6-1F1EC",
-    "label": "flag: Antigua og Barbuda",
+    "label": "Antigua og Barbuda",
     "order": 4778,
     "tags": [
-      "AG",
-      "flag"
+      "AG"
     ],
     "unicode": "🇦🇬"
   },
   {
     "group": 9,
     "hexcode": "1F1E6-1F1EE",
-    "label": "flag: Anguilla",
+    "label": "Anguilla",
     "order": 4779,
     "tags": [
-      "AI",
-      "flag"
+      "AI"
     ],
     "unicode": "🇦🇮"
   },
   {
     "group": 9,
     "hexcode": "1F1E6-1F1F1",
-    "label": "flag: Albanien",
+    "label": "Albanien",
     "order": 4780,
     "tags": [
-      "AL",
-      "flag"
+      "AL"
     ],
     "unicode": "🇦🇱"
   },
   {
     "group": 9,
     "hexcode": "1F1E6-1F1F2",
-    "label": "flag: Armenien",
+    "label": "Armenien",
     "order": 4781,
     "tags": [
-      "AM",
-      "flag"
+      "AM"
     ],
     "unicode": "🇦🇲"
   },
   {
     "group": 9,
     "hexcode": "1F1E6-1F1F4",
-    "label": "flag: Angola",
+    "label": "Angola",
     "order": 4782,
     "tags": [
-      "AO",
-      "flag"
+      "AO"
     ],
     "unicode": "🇦🇴"
   },
   {
     "group": 9,
     "hexcode": "1F1E6-1F1F6",
-    "label": "flag: Antarktis",
+    "label": "Antarktis",
     "order": 4783,
     "tags": [
-      "AQ",
-      "flag"
+      "AQ"
     ],
     "unicode": "🇦🇶"
   },
   {
     "group": 9,
     "hexcode": "1F1E6-1F1F7",
-    "label": "flag: Argentina",
+    "label": "Argentina",
     "order": 4784,
     "tags": [
-      "AR",
-      "flag"
+      "AR"
     ],
     "unicode": "🇦🇷"
   },
   {
     "group": 9,
     "hexcode": "1F1E6-1F1F8",
-    "label": "flag: Amerikansk Samoa",
+    "label": "Amerikansk Samoa",
     "order": 4785,
     "tags": [
-      "AS",
-      "flag"
+      "AS"
     ],
     "unicode": "🇦🇸"
   },
   {
     "group": 9,
     "hexcode": "1F1E6-1F1F9",
-    "label": "flag: Østrig",
+    "label": "Østrig",
     "order": 4786,
     "tags": [
-      "AT",
-      "flag"
+      "AT"
     ],
     "unicode": "🇦🇹"
   },
   {
     "group": 9,
     "hexcode": "1F1E6-1F1FA",
-    "label": "flag: Australien",
+    "label": "Australien",
     "order": 4787,
     "tags": [
-      "AU",
-      "flag"
+      "AU"
     ],
     "unicode": "🇦🇺"
   },
   {
     "group": 9,
     "hexcode": "1F1E6-1F1FC",
-    "label": "flag: Aruba",
+    "label": "Aruba",
     "order": 4788,
     "tags": [
-      "AW",
-      "flag"
+      "AW"
     ],
     "unicode": "🇦🇼"
   },
   {
     "group": 9,
     "hexcode": "1F1E6-1F1FD",
-    "label": "flag: Åland",
+    "label": "Åland",
     "order": 4789,
     "tags": [
-      "AX",
-      "flag"
+      "AX"
     ],
     "unicode": "🇦🇽"
   },
   {
     "group": 9,
     "hexcode": "1F1E6-1F1FF",
-    "label": "flag: Aserbajdsjan",
+    "label": "Aserbajdsjan",
     "order": 4790,
     "tags": [
-      "AZ",
-      "flag"
+      "AZ"
     ],
     "unicode": "🇦🇿"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1E6",
-    "label": "flag: Bosnien-Hercegovina",
+    "label": "Bosnien-Hercegovina",
     "order": 4791,
     "tags": [
-      "BA",
-      "flag"
+      "BA"
     ],
     "unicode": "🇧🇦"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1E7",
-    "label": "flag: Barbados",
+    "label": "Barbados",
     "order": 4792,
     "tags": [
-      "BB",
-      "flag"
+      "BB"
     ],
     "unicode": "🇧🇧"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1E9",
-    "label": "flag: Bangladesh",
+    "label": "Bangladesh",
     "order": 4793,
     "tags": [
-      "BD",
-      "flag"
+      "BD"
     ],
     "unicode": "🇧🇩"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1EA",
-    "label": "flag: Belgien",
+    "label": "Belgien",
     "order": 4794,
     "tags": [
-      "BE",
-      "flag"
+      "BE"
     ],
     "unicode": "🇧🇪"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1EB",
-    "label": "flag: Burkina Faso",
+    "label": "Burkina Faso",
     "order": 4795,
     "tags": [
-      "BF",
-      "flag"
+      "BF"
     ],
     "unicode": "🇧🇫"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1EC",
-    "label": "flag: Bulgarien",
+    "label": "Bulgarien",
     "order": 4796,
     "tags": [
-      "BG",
-      "flag"
+      "BG"
     ],
     "unicode": "🇧🇬"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1ED",
-    "label": "flag: Bahrain",
+    "label": "Bahrain",
     "order": 4797,
     "tags": [
-      "BH",
-      "flag"
+      "BH"
     ],
     "unicode": "🇧🇭"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1EE",
-    "label": "flag: Burundi",
+    "label": "Burundi",
     "order": 4798,
     "tags": [
-      "BI",
-      "flag"
+      "BI"
     ],
     "unicode": "🇧🇮"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1EF",
-    "label": "flag: Benin",
+    "label": "Benin",
     "order": 4799,
     "tags": [
-      "BJ",
-      "flag"
+      "BJ"
     ],
     "unicode": "🇧🇯"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1F1",
-    "label": "flag: Saint Barthélemy",
+    "label": "Saint Barthélemy",
     "order": 4800,
     "tags": [
-      "BL",
-      "flag"
+      "BL"
     ],
     "unicode": "🇧🇱"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1F2",
-    "label": "flag: Bermuda",
+    "label": "Bermuda",
     "order": 4801,
     "tags": [
-      "BM",
-      "flag"
+      "BM"
     ],
     "unicode": "🇧🇲"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1F3",
-    "label": "flag: Brunei",
+    "label": "Brunei",
     "order": 4802,
     "tags": [
-      "BN",
-      "flag"
+      "BN"
     ],
     "unicode": "🇧🇳"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1F4",
-    "label": "flag: Bolivia",
+    "label": "Bolivia",
     "order": 4803,
     "tags": [
-      "BO",
-      "flag"
+      "BO"
     ],
     "unicode": "🇧🇴"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1F6",
-    "label": "flag: De tidligere Nederlandske Antiller",
+    "label": "De tidligere Nederlandske Antiller",
     "order": 4804,
     "tags": [
-      "BQ",
-      "flag"
+      "BQ"
     ],
     "unicode": "🇧🇶"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1F7",
-    "label": "flag: Brasilien",
+    "label": "Brasilien",
     "order": 4805,
     "tags": [
-      "BR",
-      "flag"
+      "BR"
     ],
     "unicode": "🇧🇷"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1F8",
-    "label": "flag: Bahamas",
+    "label": "Bahamas",
     "order": 4806,
     "tags": [
-      "BS",
-      "flag"
+      "BS"
     ],
     "unicode": "🇧🇸"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1F9",
-    "label": "flag: Bhutan",
+    "label": "Bhutan",
     "order": 4807,
     "tags": [
-      "BT",
-      "flag"
+      "BT"
     ],
     "unicode": "🇧🇹"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1FB",
-    "label": "flag: Bouvetøen",
+    "label": "Bouvetøen",
     "order": 4808,
     "tags": [
-      "BV",
-      "flag"
+      "BV"
     ],
     "unicode": "🇧🇻"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1FC",
-    "label": "flag: Botswana",
+    "label": "Botswana",
     "order": 4809,
     "tags": [
-      "BW",
-      "flag"
+      "BW"
     ],
     "unicode": "🇧🇼"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1FE",
-    "label": "flag: Belarus",
+    "label": "Belarus",
     "order": 4810,
     "tags": [
-      "BY",
-      "flag"
+      "BY"
     ],
     "unicode": "🇧🇾"
   },
   {
     "group": 9,
     "hexcode": "1F1E7-1F1FF",
-    "label": "flag: Belize",
+    "label": "Belize",
     "order": 4811,
     "tags": [
-      "BZ",
-      "flag"
+      "BZ"
     ],
     "unicode": "🇧🇿"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1E6",
-    "label": "flag: Canada",
+    "label": "Canada",
     "order": 4812,
     "tags": [
-      "CA",
-      "flag"
+      "CA"
     ],
     "unicode": "🇨🇦"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1E8",
-    "label": "flag: Cocosøerne",
+    "label": "Cocosøerne",
     "order": 4813,
     "tags": [
-      "CC",
-      "flag"
+      "CC"
     ],
     "unicode": "🇨🇨"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1E9",
-    "label": "flag: Congo-Kinshasa",
+    "label": "Den Demokratiske Republik Congo (DRC)",
     "order": 4814,
     "tags": [
-      "CD",
-      "flag"
+      "CD"
     ],
     "unicode": "🇨🇩"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1EB",
-    "label": "flag: Den Centralafrikanske Republik",
+    "label": "Den Centralafrikanske Republik",
     "order": 4815,
     "tags": [
-      "CF",
-      "flag"
+      "CF"
     ],
     "unicode": "🇨🇫"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1EC",
-    "label": "flag: Congo-Brazzaville",
+    "label": "Republikken Congo",
     "order": 4816,
     "tags": [
-      "CG",
-      "flag"
+      "CG"
     ],
     "unicode": "🇨🇬"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1ED",
-    "label": "flag: Schweiz",
+    "label": "Schweiz",
     "order": 4817,
     "tags": [
-      "CH",
-      "flag"
+      "CH"
     ],
     "unicode": "🇨🇭"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1EE",
-    "label": "flag: Elfenbenskysten",
+    "label": "↑↑↑",
     "order": 4818,
     "tags": [
-      "CI",
-      "flag"
+      "CI"
     ],
     "unicode": "🇨🇮"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1F0",
-    "label": "flag: Cookøerne",
+    "label": "Cookøerne",
     "order": 4819,
     "tags": [
-      "CK",
-      "flag"
+      "CK"
     ],
     "unicode": "🇨🇰"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1F1",
-    "label": "flag: Chile",
+    "label": "Chile",
     "order": 4820,
     "tags": [
-      "CL",
-      "flag"
+      "CL"
     ],
     "unicode": "🇨🇱"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1F2",
-    "label": "flag: Cameroun",
+    "label": "Cameroun",
     "order": 4821,
     "tags": [
-      "CM",
-      "flag"
+      "CM"
     ],
     "unicode": "🇨🇲"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1F3",
-    "label": "flag: Kina",
+    "label": "Kina",
     "order": 4822,
     "tags": [
-      "CN",
-      "flag"
+      "CN"
     ],
     "unicode": "🇨🇳"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1F4",
-    "label": "flag: Colombia",
+    "label": "Colombia",
     "order": 4823,
     "tags": [
-      "CO",
-      "flag"
+      "CO"
     ],
     "unicode": "🇨🇴"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1F5",
-    "label": "flag: Clippertonøen",
+    "label": "Clippertonøen",
     "order": 4824,
     "tags": [
-      "CP",
-      "flag"
+      "CP"
     ],
     "unicode": "🇨🇵"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1F7",
-    "label": "flag: Costa Rica",
+    "label": "Costa Rica",
     "order": 4825,
     "tags": [
-      "CR",
-      "flag"
+      "CR"
     ],
     "unicode": "🇨🇷"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1FA",
-    "label": "flag: Cuba",
+    "label": "Cuba",
     "order": 4826,
     "tags": [
-      "CU",
-      "flag"
+      "CU"
     ],
     "unicode": "🇨🇺"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1FB",
-    "label": "flag: Kap Verde",
+    "label": "Kap Verde",
     "order": 4827,
     "tags": [
-      "CV",
-      "flag"
+      "CV"
     ],
     "unicode": "🇨🇻"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1FC",
-    "label": "flag: Curaçao",
+    "label": "Curaçao",
     "order": 4828,
     "tags": [
-      "CW",
-      "flag"
+      "CW"
     ],
     "unicode": "🇨🇼"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1FD",
-    "label": "flag: Juleøen",
+    "label": "Juleøen",
     "order": 4829,
     "tags": [
-      "CX",
-      "flag"
+      "CX"
     ],
     "unicode": "🇨🇽"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1FE",
-    "label": "flag: Cypern",
+    "label": "Cypern",
     "order": 4830,
     "tags": [
-      "CY",
-      "flag"
+      "CY"
     ],
     "unicode": "🇨🇾"
   },
   {
     "group": 9,
     "hexcode": "1F1E8-1F1FF",
-    "label": "flag: Tjekkiet",
+    "label": "Den Tjekkiske Republik",
     "order": 4831,
     "tags": [
-      "CZ",
-      "flag"
+      "CZ"
     ],
     "unicode": "🇨🇿"
   },
   {
     "group": 9,
     "hexcode": "1F1E9-1F1EA",
-    "label": "flag: Tyskland",
+    "label": "Tyskland",
     "order": 4832,
     "tags": [
-      "DE",
-      "flag"
+      "DE"
     ],
     "unicode": "🇩🇪"
   },
   {
     "group": 9,
     "hexcode": "1F1E9-1F1EC",
-    "label": "flag: Diego Garcia",
+    "label": "Diego Garcia",
     "order": 4833,
     "tags": [
-      "DG",
-      "flag"
+      "DG"
     ],
     "unicode": "🇩🇬"
   },
   {
     "group": 9,
     "hexcode": "1F1E9-1F1EF",
-    "label": "flag: Djibouti",
+    "label": "Djibouti",
     "order": 4834,
     "tags": [
-      "DJ",
-      "flag"
+      "DJ"
     ],
     "unicode": "🇩🇯"
   },
   {
     "group": 9,
     "hexcode": "1F1E9-1F1F0",
-    "label": "flag: Danmark",
+    "label": "Danmark",
     "order": 4835,
     "tags": [
-      "DK",
-      "flag"
+      "DK"
     ],
     "unicode": "🇩🇰"
   },
   {
     "group": 9,
     "hexcode": "1F1E9-1F1F2",
-    "label": "flag: Dominica",
+    "label": "Dominica",
     "order": 4836,
     "tags": [
-      "DM",
-      "flag"
+      "DM"
     ],
     "unicode": "🇩🇲"
   },
   {
     "group": 9,
     "hexcode": "1F1E9-1F1F4",
-    "label": "flag: Den Dominikanske Republik",
+    "label": "Den Dominikanske Republik",
     "order": 4837,
     "tags": [
-      "DO",
-      "flag"
+      "DO"
     ],
     "unicode": "🇩🇴"
   },
   {
     "group": 9,
     "hexcode": "1F1E9-1F1FF",
-    "label": "flag: Algeriet",
+    "label": "Algeriet",
     "order": 4838,
     "tags": [
-      "DZ",
-      "flag"
+      "DZ"
     ],
     "unicode": "🇩🇿"
   },
   {
     "group": 9,
     "hexcode": "1F1EA-1F1E6",
-    "label": "flag: Ceuta og Melilla",
+    "label": "Ceuta og Melilla",
     "order": 4839,
     "tags": [
-      "EA",
-      "flag"
+      "EA"
     ],
     "unicode": "🇪🇦"
   },
   {
     "group": 9,
     "hexcode": "1F1EA-1F1E8",
-    "label": "flag: Ecuador",
+    "label": "Ecuador",
     "order": 4840,
     "tags": [
-      "EC",
-      "flag"
+      "EC"
     ],
     "unicode": "🇪🇨"
   },
   {
     "group": 9,
     "hexcode": "1F1EA-1F1EA",
-    "label": "flag: Estland",
+    "label": "Estland",
     "order": 4841,
     "tags": [
-      "EE",
-      "flag"
+      "EE"
     ],
     "unicode": "🇪🇪"
   },
   {
     "group": 9,
     "hexcode": "1F1EA-1F1EC",
-    "label": "flag: Egypten",
+    "label": "Egypten",
     "order": 4842,
     "tags": [
-      "EG",
-      "flag"
+      "EG"
     ],
     "unicode": "🇪🇬"
   },
   {
     "group": 9,
     "hexcode": "1F1EA-1F1ED",
-    "label": "flag: Vestsahara",
+    "label": "Vestsahara",
     "order": 4843,
     "tags": [
-      "EH",
-      "flag"
+      "EH"
     ],
     "unicode": "🇪🇭"
   },
   {
     "group": 9,
     "hexcode": "1F1EA-1F1F7",
-    "label": "flag: Eritrea",
+    "label": "Eritrea",
     "order": 4844,
     "tags": [
-      "ER",
-      "flag"
+      "ER"
     ],
     "unicode": "🇪🇷"
   },
   {
     "group": 9,
     "hexcode": "1F1EA-1F1F8",
-    "label": "flag: Spanien",
+    "label": "Spanien",
     "order": 4845,
     "tags": [
-      "ES",
-      "flag"
+      "ES"
     ],
     "unicode": "🇪🇸"
   },
   {
     "group": 9,
     "hexcode": "1F1EA-1F1F9",
-    "label": "flag: Etiopien",
+    "label": "Etiopien",
     "order": 4846,
     "tags": [
-      "ET",
-      "flag"
+      "ET"
     ],
     "unicode": "🇪🇹"
   },
   {
     "group": 9,
     "hexcode": "1F1EA-1F1FA",
-    "label": "flag: Den Europæiske Union",
+    "label": "Den Europæiske Union",
     "order": 4847,
     "tags": [
-      "EU",
-      "flag"
+      "EU"
     ],
     "unicode": "🇪🇺"
   },
   {
     "group": 9,
     "hexcode": "1F1EB-1F1EE",
-    "label": "flag: Finland",
+    "label": "Finland",
     "order": 4848,
     "tags": [
-      "FI",
-      "flag"
+      "FI"
     ],
     "unicode": "🇫🇮"
   },
   {
     "group": 9,
     "hexcode": "1F1EB-1F1EF",
-    "label": "flag: Fiji",
+    "label": "Fiji",
     "order": 4849,
     "tags": [
-      "FJ",
-      "flag"
+      "FJ"
     ],
     "unicode": "🇫🇯"
   },
   {
     "group": 9,
     "hexcode": "1F1EB-1F1F0",
-    "label": "flag: Falklandsøerne",
+    "label": "Falklandsøerne (Islas Malvinas)",
     "order": 4850,
     "tags": [
-      "FK",
-      "flag"
+      "FK"
     ],
     "unicode": "🇫🇰"
   },
   {
     "group": 9,
     "hexcode": "1F1EB-1F1F2",
-    "label": "flag: Mikronesien",
+    "label": "Mikronesien",
     "order": 4851,
     "tags": [
-      "FM",
-      "flag"
+      "FM"
     ],
     "unicode": "🇫🇲"
   },
   {
     "group": 9,
     "hexcode": "1F1EB-1F1F4",
-    "label": "flag: Færøerne",
+    "label": "Færøerne",
     "order": 4852,
     "tags": [
-      "FO",
-      "flag"
+      "FO"
     ],
     "unicode": "🇫🇴"
   },
   {
     "group": 9,
     "hexcode": "1F1EB-1F1F7",
-    "label": "flag: Frankrig",
+    "label": "Frankrig",
     "order": 4853,
     "tags": [
-      "FR",
-      "flag"
+      "FR"
     ],
     "unicode": "🇫🇷"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1E6",
-    "label": "flag: Gabon",
+    "label": "Gabon",
     "order": 4854,
     "tags": [
-      "GA",
-      "flag"
+      "GA"
     ],
     "unicode": "🇬🇦"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1E7",
-    "label": "flag: Storbritannien",
+    "label": "↑↑↑",
     "order": 4855,
     "tags": [
-      "GB",
-      "flag"
+      "GB"
     ],
     "unicode": "🇬🇧"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1E9",
-    "label": "flag: Grenada",
+    "label": "Grenada",
     "order": 4856,
     "tags": [
-      "GD",
-      "flag"
+      "GD"
     ],
     "unicode": "🇬🇩"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1EA",
-    "label": "flag: Georgien",
+    "label": "Georgien",
     "order": 4857,
     "tags": [
-      "GE",
-      "flag"
+      "GE"
     ],
     "unicode": "🇬🇪"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1EB",
-    "label": "flag: Fransk Guyana",
+    "label": "Fransk Guyana",
     "order": 4858,
     "tags": [
-      "GF",
-      "flag"
+      "GF"
     ],
     "unicode": "🇬🇫"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1EC",
-    "label": "flag: Guernsey",
+    "label": "Guernsey",
     "order": 4859,
     "tags": [
-      "GG",
-      "flag"
+      "GG"
     ],
     "unicode": "🇬🇬"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1ED",
-    "label": "flag: Ghana",
+    "label": "Ghana",
     "order": 4860,
     "tags": [
-      "GH",
-      "flag"
+      "GH"
     ],
     "unicode": "🇬🇭"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1EE",
-    "label": "flag: Gibraltar",
+    "label": "Gibraltar",
     "order": 4861,
     "tags": [
-      "GI",
-      "flag"
+      "GI"
     ],
     "unicode": "🇬🇮"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1F1",
-    "label": "flag: Grønland",
+    "label": "Grønland",
     "order": 4862,
     "tags": [
-      "GL",
-      "flag"
+      "GL"
     ],
     "unicode": "🇬🇱"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1F2",
-    "label": "flag: Gambia",
+    "label": "Gambia",
     "order": 4863,
     "tags": [
-      "GM",
-      "flag"
+      "GM"
     ],
     "unicode": "🇬🇲"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1F3",
-    "label": "flag: Guinea",
+    "label": "Guinea",
     "order": 4864,
     "tags": [
-      "GN",
-      "flag"
+      "GN"
     ],
     "unicode": "🇬🇳"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1F5",
-    "label": "flag: Guadeloupe",
+    "label": "Guadeloupe",
     "order": 4865,
     "tags": [
-      "GP",
-      "flag"
+      "GP"
     ],
     "unicode": "🇬🇵"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1F6",
-    "label": "flag: Ækvatorialguinea",
+    "label": "Ækvatorialguinea",
     "order": 4866,
     "tags": [
-      "GQ",
-      "flag"
+      "GQ"
     ],
     "unicode": "🇬🇶"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1F7",
-    "label": "flag: Grækenland",
+    "label": "Grækenland",
     "order": 4867,
     "tags": [
-      "GR",
-      "flag"
+      "GR"
     ],
     "unicode": "🇬🇷"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1F8",
-    "label": "flag: South Georgia og De Sydlige Sandwichøer",
+    "label": "South Georgia og De Sydlige Sandwichøer",
     "order": 4868,
     "tags": [
-      "GS",
-      "flag"
+      "GS"
     ],
     "unicode": "🇬🇸"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1F9",
-    "label": "flag: Guatemala",
+    "label": "Guatemala",
     "order": 4869,
     "tags": [
-      "GT",
-      "flag"
+      "GT"
     ],
     "unicode": "🇬🇹"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1FA",
-    "label": "flag: Guam",
+    "label": "Guam",
     "order": 4870,
     "tags": [
-      "GU",
-      "flag"
+      "GU"
     ],
     "unicode": "🇬🇺"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1FC",
-    "label": "flag: Guinea-Bissau",
+    "label": "Guinea-Bissau",
     "order": 4871,
     "tags": [
-      "GW",
-      "flag"
+      "GW"
     ],
     "unicode": "🇬🇼"
   },
   {
     "group": 9,
     "hexcode": "1F1EC-1F1FE",
-    "label": "flag: Guyana",
+    "label": "Guyana",
     "order": 4872,
     "tags": [
-      "GY",
-      "flag"
+      "GY"
     ],
     "unicode": "🇬🇾"
   },
   {
     "group": 9,
     "hexcode": "1F1ED-1F1F0",
-    "label": "flag: SAR Hongkong",
+    "label": "Hongkong",
     "order": 4873,
     "tags": [
-      "HK",
-      "flag"
+      "HK"
     ],
     "unicode": "🇭🇰"
   },
   {
     "group": 9,
     "hexcode": "1F1ED-1F1F2",
-    "label": "flag: Heard Island og McDonald Islands",
+    "label": "Heard Island og McDonald Islands",
     "order": 4874,
     "tags": [
-      "HM",
-      "flag"
+      "HM"
     ],
     "unicode": "🇭🇲"
   },
   {
     "group": 9,
     "hexcode": "1F1ED-1F1F3",
-    "label": "flag: Honduras",
+    "label": "Honduras",
     "order": 4875,
     "tags": [
-      "HN",
-      "flag"
+      "HN"
     ],
     "unicode": "🇭🇳"
   },
   {
     "group": 9,
     "hexcode": "1F1ED-1F1F7",
-    "label": "flag: Kroatien",
+    "label": "Kroatien",
     "order": 4876,
     "tags": [
-      "HR",
-      "flag"
+      "HR"
     ],
     "unicode": "🇭🇷"
   },
   {
     "group": 9,
     "hexcode": "1F1ED-1F1F9",
-    "label": "flag: Haiti",
+    "label": "Haiti",
     "order": 4877,
     "tags": [
-      "HT",
-      "flag"
+      "HT"
     ],
     "unicode": "🇭🇹"
   },
   {
     "group": 9,
     "hexcode": "1F1ED-1F1FA",
-    "label": "flag: Ungarn",
+    "label": "Ungarn",
     "order": 4878,
     "tags": [
-      "HU",
-      "flag"
+      "HU"
     ],
     "unicode": "🇭🇺"
   },
   {
     "group": 9,
     "hexcode": "1F1EE-1F1E8",
-    "label": "flag: Kanariske øer",
+    "label": "Kanariske øer",
     "order": 4879,
     "tags": [
-      "IC",
-      "flag"
+      "IC"
     ],
     "unicode": "🇮🇨"
   },
   {
     "group": 9,
     "hexcode": "1F1EE-1F1E9",
-    "label": "flag: Indonesien",
+    "label": "Indonesien",
     "order": 4880,
     "tags": [
-      "ID",
-      "flag"
+      "ID"
     ],
     "unicode": "🇮🇩"
   },
   {
     "group": 9,
     "hexcode": "1F1EE-1F1EA",
-    "label": "flag: Irland",
+    "label": "Irland",
     "order": 4881,
     "tags": [
-      "IE",
-      "flag"
+      "IE"
     ],
     "unicode": "🇮🇪"
   },
   {
     "group": 9,
     "hexcode": "1F1EE-1F1F1",
-    "label": "flag: Israel",
+    "label": "Israel",
     "order": 4882,
     "tags": [
-      "IL",
-      "flag"
+      "IL"
     ],
     "unicode": "🇮🇱"
   },
   {
     "group": 9,
     "hexcode": "1F1EE-1F1F2",
-    "label": "flag: Isle of Man",
+    "label": "Isle of Man",
     "order": 4883,
     "tags": [
-      "IM",
-      "flag"
+      "IM"
     ],
     "unicode": "🇮🇲"
   },
   {
     "group": 9,
     "hexcode": "1F1EE-1F1F3",
-    "label": "flag: Indien",
+    "label": "Indien",
     "order": 4884,
     "tags": [
-      "IN",
-      "flag"
+      "IN"
     ],
     "unicode": "🇮🇳"
   },
   {
     "group": 9,
     "hexcode": "1F1EE-1F1F4",
-    "label": "flag: Det Britiske Territorium i Det Indiske Ocean",
+    "label": "Chagosøerne",
     "order": 4885,
     "tags": [
-      "IO",
-      "flag"
+      "IO"
     ],
     "unicode": "🇮🇴"
   },
   {
     "group": 9,
     "hexcode": "1F1EE-1F1F6",
-    "label": "flag: Irak",
+    "label": "Irak",
     "order": 4886,
     "tags": [
-      "IQ",
-      "flag"
+      "IQ"
     ],
     "unicode": "🇮🇶"
   },
   {
     "group": 9,
     "hexcode": "1F1EE-1F1F7",
-    "label": "flag: Iran",
+    "label": "Iran",
     "order": 4887,
     "tags": [
-      "IR",
-      "flag"
+      "IR"
     ],
     "unicode": "🇮🇷"
   },
   {
     "group": 9,
     "hexcode": "1F1EE-1F1F8",
-    "label": "flag: Island",
+    "label": "Island",
     "order": 4888,
     "tags": [
-      "IS",
-      "flag"
+      "IS"
     ],
     "unicode": "🇮🇸"
   },
   {
     "group": 9,
     "hexcode": "1F1EE-1F1F9",
-    "label": "flag: Italien",
+    "label": "Italien",
     "order": 4889,
     "tags": [
-      "IT",
-      "flag"
+      "IT"
     ],
     "unicode": "🇮🇹"
   },
   {
     "group": 9,
     "hexcode": "1F1EF-1F1EA",
-    "label": "flag: Jersey",
+    "label": "Jersey",
     "order": 4890,
     "tags": [
-      "JE",
-      "flag"
+      "JE"
     ],
     "unicode": "🇯🇪"
   },
   {
     "group": 9,
     "hexcode": "1F1EF-1F1F2",
-    "label": "flag: Jamaica",
+    "label": "Jamaica",
     "order": 4891,
     "tags": [
-      "JM",
-      "flag"
+      "JM"
     ],
     "unicode": "🇯🇲"
   },
   {
     "group": 9,
     "hexcode": "1F1EF-1F1F4",
-    "label": "flag: Jordan",
+    "label": "Jordan",
     "order": 4892,
     "tags": [
-      "JO",
-      "flag"
+      "JO"
     ],
     "unicode": "🇯🇴"
   },
   {
     "group": 9,
     "hexcode": "1F1EF-1F1F5",
-    "label": "flag: Japan",
+    "label": "Japan",
     "order": 4893,
     "tags": [
-      "JP",
-      "flag"
+      "JP"
     ],
     "unicode": "🇯🇵"
   },
   {
     "group": 9,
     "hexcode": "1F1F0-1F1EA",
-    "label": "flag: Kenya",
+    "label": "Kenya",
     "order": 4894,
     "tags": [
-      "KE",
-      "flag"
+      "KE"
     ],
     "unicode": "🇰🇪"
   },
   {
     "group": 9,
     "hexcode": "1F1F0-1F1EC",
-    "label": "flag: Kirgisistan",
+    "label": "Kirgisistan",
     "order": 4895,
     "tags": [
-      "KG",
-      "flag"
+      "KG"
     ],
     "unicode": "🇰🇬"
   },
   {
     "group": 9,
     "hexcode": "1F1F0-1F1ED",
-    "label": "flag: Cambodja",
+    "label": "Cambodja",
     "order": 4896,
     "tags": [
-      "KH",
-      "flag"
+      "KH"
     ],
     "unicode": "🇰🇭"
   },
   {
     "group": 9,
     "hexcode": "1F1F0-1F1EE",
-    "label": "flag: Kiribati",
+    "label": "Kiribati",
     "order": 4897,
     "tags": [
-      "KI",
-      "flag"
+      "KI"
     ],
     "unicode": "🇰🇮"
   },
   {
     "group": 9,
     "hexcode": "1F1F0-1F1F2",
-    "label": "flag: Comorerne",
+    "label": "Comorerne",
     "order": 4898,
     "tags": [
-      "KM",
-      "flag"
+      "KM"
     ],
     "unicode": "🇰🇲"
   },
   {
     "group": 9,
     "hexcode": "1F1F0-1F1F3",
-    "label": "flag: Saint Kitts og Nevis",
+    "label": "Saint Kitts og Nevis",
     "order": 4899,
     "tags": [
-      "KN",
-      "flag"
+      "KN"
     ],
     "unicode": "🇰🇳"
   },
   {
     "group": 9,
     "hexcode": "1F1F0-1F1F5",
-    "label": "flag: Nordkorea",
+    "label": "Nordkorea",
     "order": 4900,
     "tags": [
-      "KP",
-      "flag"
+      "KP"
     ],
     "unicode": "🇰🇵"
   },
   {
     "group": 9,
     "hexcode": "1F1F0-1F1F7",
-    "label": "flag: Sydkorea",
+    "label": "Sydkorea",
     "order": 4901,
     "tags": [
-      "KR",
-      "flag"
+      "KR"
     ],
     "unicode": "🇰🇷"
   },
   {
     "group": 9,
     "hexcode": "1F1F0-1F1FC",
-    "label": "flag: Kuwait",
+    "label": "Kuwait",
     "order": 4902,
     "tags": [
-      "KW",
-      "flag"
+      "KW"
     ],
     "unicode": "🇰🇼"
   },
   {
     "group": 9,
     "hexcode": "1F1F0-1F1FE",
-    "label": "flag: Caymanøerne",
+    "label": "Caymanøerne",
     "order": 4903,
     "tags": [
-      "KY",
-      "flag"
+      "KY"
     ],
     "unicode": "🇰🇾"
   },
   {
     "group": 9,
     "hexcode": "1F1F0-1F1FF",
-    "label": "flag: Kasakhstan",
+    "label": "Kasakhstan",
     "order": 4904,
     "tags": [
-      "KZ",
-      "flag"
+      "KZ"
     ],
     "unicode": "🇰🇿"
   },
   {
     "group": 9,
     "hexcode": "1F1F1-1F1E6",
-    "label": "flag: Laos",
+    "label": "Laos",
     "order": 4905,
     "tags": [
-      "LA",
-      "flag"
+      "LA"
     ],
     "unicode": "🇱🇦"
   },
   {
     "group": 9,
     "hexcode": "1F1F1-1F1E7",
-    "label": "flag: Libanon",
+    "label": "Libanon",
     "order": 4906,
     "tags": [
-      "LB",
-      "flag"
+      "LB"
     ],
     "unicode": "🇱🇧"
   },
   {
     "group": 9,
     "hexcode": "1F1F1-1F1E8",
-    "label": "flag: Saint Lucia",
+    "label": "Saint Lucia",
     "order": 4907,
     "tags": [
-      "LC",
-      "flag"
+      "LC"
     ],
     "unicode": "🇱🇨"
   },
   {
     "group": 9,
     "hexcode": "1F1F1-1F1EE",
-    "label": "flag: Liechtenstein",
+    "label": "Liechtenstein",
     "order": 4908,
     "tags": [
-      "LI",
-      "flag"
+      "LI"
     ],
     "unicode": "🇱🇮"
   },
   {
     "group": 9,
     "hexcode": "1F1F1-1F1F0",
-    "label": "flag: Sri Lanka",
+    "label": "Sri Lanka",
     "order": 4909,
     "tags": [
-      "LK",
-      "flag"
+      "LK"
     ],
     "unicode": "🇱🇰"
   },
   {
     "group": 9,
     "hexcode": "1F1F1-1F1F7",
-    "label": "flag: Liberia",
+    "label": "Liberia",
     "order": 4910,
     "tags": [
-      "LR",
-      "flag"
+      "LR"
     ],
     "unicode": "🇱🇷"
   },
   {
     "group": 9,
     "hexcode": "1F1F1-1F1F8",
-    "label": "flag: Lesotho",
+    "label": "Lesotho",
     "order": 4911,
     "tags": [
-      "LS",
-      "flag"
+      "LS"
     ],
     "unicode": "🇱🇸"
   },
   {
     "group": 9,
     "hexcode": "1F1F1-1F1F9",
-    "label": "flag: Litauen",
+    "label": "Litauen",
     "order": 4912,
     "tags": [
-      "LT",
-      "flag"
+      "LT"
     ],
     "unicode": "🇱🇹"
   },
   {
     "group": 9,
     "hexcode": "1F1F1-1F1FA",
-    "label": "flag: Luxembourg",
+    "label": "Luxembourg",
     "order": 4913,
     "tags": [
-      "LU",
-      "flag"
+      "LU"
     ],
     "unicode": "🇱🇺"
   },
   {
     "group": 9,
     "hexcode": "1F1F1-1F1FB",
-    "label": "flag: Letland",
+    "label": "Letland",
     "order": 4914,
     "tags": [
-      "LV",
-      "flag"
+      "LV"
     ],
     "unicode": "🇱🇻"
   },
   {
     "group": 9,
     "hexcode": "1F1F1-1F1FE",
-    "label": "flag: Libyen",
+    "label": "Libyen",
     "order": 4915,
     "tags": [
-      "LY",
-      "flag"
+      "LY"
     ],
     "unicode": "🇱🇾"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1E6",
-    "label": "flag: Marokko",
+    "label": "Marokko",
     "order": 4916,
     "tags": [
-      "MA",
-      "flag"
+      "MA"
     ],
     "unicode": "🇲🇦"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1E8",
-    "label": "flag: Monaco",
+    "label": "Monaco",
     "order": 4917,
     "tags": [
-      "MC",
-      "flag"
+      "MC"
     ],
     "unicode": "🇲🇨"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1E9",
-    "label": "flag: Moldova",
+    "label": "Moldova",
     "order": 4918,
     "tags": [
-      "MD",
-      "flag"
+      "MD"
     ],
     "unicode": "🇲🇩"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1EA",
-    "label": "flag: Montenegro",
+    "label": "Montenegro",
     "order": 4919,
     "tags": [
-      "ME",
-      "flag"
+      "ME"
     ],
     "unicode": "🇲🇪"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1EB",
-    "label": "flag: Saint Martin",
+    "label": "Saint Martin",
     "order": 4920,
     "tags": [
-      "MF",
-      "flag"
+      "MF"
     ],
     "unicode": "🇲🇫"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1EC",
-    "label": "flag: Madagaskar",
+    "label": "Madagaskar",
     "order": 4921,
     "tags": [
-      "MG",
-      "flag"
+      "MG"
     ],
     "unicode": "🇲🇬"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1ED",
-    "label": "flag: Marshalløerne",
+    "label": "Marshalløerne",
     "order": 4922,
     "tags": [
-      "MH",
-      "flag"
+      "MH"
     ],
     "unicode": "🇲🇭"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1F0",
-    "label": "flag: Nordmakedonien",
+    "label": "Nordmakedonien",
     "order": 4923,
     "tags": [
-      "MK",
-      "flag"
+      "MK"
     ],
     "unicode": "🇲🇰"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1F1",
-    "label": "flag: Mali",
+    "label": "Mali",
     "order": 4924,
     "tags": [
-      "ML",
-      "flag"
+      "ML"
     ],
     "unicode": "🇲🇱"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1F2",
-    "label": "flag: Myanmar (Burma)",
+    "label": "Myanmar (Burma)",
     "order": 4925,
     "tags": [
-      "MM",
-      "flag"
+      "MM"
     ],
     "unicode": "🇲🇲"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1F3",
-    "label": "flag: Mongoliet",
+    "label": "Mongoliet",
     "order": 4926,
     "tags": [
-      "MN",
-      "flag"
+      "MN"
     ],
     "unicode": "🇲🇳"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1F4",
-    "label": "flag: SAR Macao",
+    "label": "Macao",
     "order": 4927,
     "tags": [
-      "MO",
-      "flag"
+      "MO"
     ],
     "unicode": "🇲🇴"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1F5",
-    "label": "flag: Nordmarianerne",
+    "label": "Nordmarianerne",
     "order": 4928,
     "tags": [
-      "MP",
-      "flag"
+      "MP"
     ],
     "unicode": "🇲🇵"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1F6",
-    "label": "flag: Martinique",
+    "label": "Martinique",
     "order": 4929,
     "tags": [
-      "MQ",
-      "flag"
+      "MQ"
     ],
     "unicode": "🇲🇶"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1F7",
-    "label": "flag: Mauretanien",
+    "label": "Mauretanien",
     "order": 4930,
     "tags": [
-      "MR",
-      "flag"
+      "MR"
     ],
     "unicode": "🇲🇷"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1F8",
-    "label": "flag: Montserrat",
+    "label": "Montserrat",
     "order": 4931,
     "tags": [
-      "MS",
-      "flag"
+      "MS"
     ],
     "unicode": "🇲🇸"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1F9",
-    "label": "flag: Malta",
+    "label": "Malta",
     "order": 4932,
     "tags": [
-      "MT",
-      "flag"
+      "MT"
     ],
     "unicode": "🇲🇹"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1FA",
-    "label": "flag: Mauritius",
+    "label": "Mauritius",
     "order": 4933,
     "tags": [
-      "MU",
-      "flag"
+      "MU"
     ],
     "unicode": "🇲🇺"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1FB",
-    "label": "flag: Maldiverne",
+    "label": "Maldiverne",
     "order": 4934,
     "tags": [
-      "MV",
-      "flag"
+      "MV"
     ],
     "unicode": "🇲🇻"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1FC",
-    "label": "flag: Malawi",
+    "label": "Malawi",
     "order": 4935,
     "tags": [
-      "MW",
-      "flag"
+      "MW"
     ],
     "unicode": "🇲🇼"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1FD",
-    "label": "flag: Mexico",
+    "label": "Mexico",
     "order": 4936,
     "tags": [
-      "MX",
-      "flag"
+      "MX"
     ],
     "unicode": "🇲🇽"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1FE",
-    "label": "flag: Malaysia",
+    "label": "Malaysia",
     "order": 4937,
     "tags": [
-      "MY",
-      "flag"
+      "MY"
     ],
     "unicode": "🇲🇾"
   },
   {
     "group": 9,
     "hexcode": "1F1F2-1F1FF",
-    "label": "flag: Mozambique",
+    "label": "Mozambique",
     "order": 4938,
     "tags": [
-      "MZ",
-      "flag"
+      "MZ"
     ],
     "unicode": "🇲🇿"
   },
   {
     "group": 9,
     "hexcode": "1F1F3-1F1E6",
-    "label": "flag: Namibia",
+    "label": "Namibia",
     "order": 4939,
     "tags": [
-      "NA",
-      "flag"
+      "NA"
     ],
     "unicode": "🇳🇦"
   },
   {
     "group": 9,
     "hexcode": "1F1F3-1F1E8",
-    "label": "flag: Ny Kaledonien",
+    "label": "Ny Kaledonien",
     "order": 4940,
     "tags": [
-      "NC",
-      "flag"
+      "NC"
     ],
     "unicode": "🇳🇨"
   },
   {
     "group": 9,
     "hexcode": "1F1F3-1F1EA",
-    "label": "flag: Niger",
+    "label": "Niger",
     "order": 4941,
     "tags": [
-      "NE",
-      "flag"
+      "NE"
     ],
     "unicode": "🇳🇪"
   },
   {
     "group": 9,
     "hexcode": "1F1F3-1F1EB",
-    "label": "flag: Norfolk Island",
+    "label": "Norfolk Island",
     "order": 4942,
     "tags": [
-      "NF",
-      "flag"
+      "NF"
     ],
     "unicode": "🇳🇫"
   },
   {
     "group": 9,
     "hexcode": "1F1F3-1F1EC",
-    "label": "flag: Nigeria",
+    "label": "Nigeria",
     "order": 4943,
     "tags": [
-      "NG",
-      "flag"
+      "NG"
     ],
     "unicode": "🇳🇬"
   },
   {
     "group": 9,
     "hexcode": "1F1F3-1F1EE",
-    "label": "flag: Nicaragua",
+    "label": "Nicaragua",
     "order": 4944,
     "tags": [
-      "NI",
-      "flag"
+      "NI"
     ],
     "unicode": "🇳🇮"
   },
   {
     "group": 9,
     "hexcode": "1F1F3-1F1F1",
-    "label": "flag: Nederlandene",
+    "label": "Nederlandene",
     "order": 4945,
     "tags": [
-      "NL",
-      "flag"
+      "NL"
     ],
     "unicode": "🇳🇱"
   },
   {
     "group": 9,
     "hexcode": "1F1F3-1F1F4",
-    "label": "flag: Norge",
+    "label": "Norge",
     "order": 4946,
     "tags": [
-      "NO",
-      "flag"
+      "NO"
     ],
     "unicode": "🇳🇴"
   },
   {
     "group": 9,
     "hexcode": "1F1F3-1F1F5",
-    "label": "flag: Nepal",
+    "label": "Nepal",
     "order": 4947,
     "tags": [
-      "NP",
-      "flag"
+      "NP"
     ],
     "unicode": "🇳🇵"
   },
   {
     "group": 9,
     "hexcode": "1F1F3-1F1F7",
-    "label": "flag: Nauru",
+    "label": "Nauru",
     "order": 4948,
     "tags": [
-      "NR",
-      "flag"
+      "NR"
     ],
     "unicode": "🇳🇷"
   },
   {
     "group": 9,
     "hexcode": "1F1F3-1F1FA",
-    "label": "flag: Niue",
+    "label": "Niue",
     "order": 4949,
     "tags": [
-      "NU",
-      "flag"
+      "NU"
     ],
     "unicode": "🇳🇺"
   },
   {
     "group": 9,
     "hexcode": "1F1F3-1F1FF",
-    "label": "flag: New Zealand",
+    "label": "Aotearoa New Zealand",
     "order": 4950,
     "tags": [
-      "NZ",
-      "flag"
+      "NZ"
     ],
     "unicode": "🇳🇿"
   },
   {
     "group": 9,
     "hexcode": "1F1F4-1F1F2",
-    "label": "flag: Oman",
+    "label": "Oman",
     "order": 4951,
     "tags": [
-      "OM",
-      "flag"
+      "OM"
     ],
     "unicode": "🇴🇲"
   },
   {
     "group": 9,
     "hexcode": "1F1F5-1F1E6",
-    "label": "flag: Panama",
+    "label": "Panama",
     "order": 4952,
     "tags": [
-      "PA",
-      "flag"
+      "PA"
     ],
     "unicode": "🇵🇦"
   },
   {
     "group": 9,
     "hexcode": "1F1F5-1F1EA",
-    "label": "flag: Peru",
+    "label": "Peru",
     "order": 4953,
     "tags": [
-      "PE",
-      "flag"
+      "PE"
     ],
     "unicode": "🇵🇪"
   },
   {
     "group": 9,
     "hexcode": "1F1F5-1F1EB",
-    "label": "flag: Fransk Polynesien",
+    "label": "Fransk Polynesien",
     "order": 4954,
     "tags": [
-      "PF",
-      "flag"
+      "PF"
     ],
     "unicode": "🇵🇫"
   },
   {
     "group": 9,
     "hexcode": "1F1F5-1F1EC",
-    "label": "flag: Papua Ny Guinea",
+    "label": "Papua Ny Guinea",
     "order": 4955,
     "tags": [
-      "PG",
-      "flag"
+      "PG"
     ],
     "unicode": "🇵🇬"
   },
   {
     "group": 9,
     "hexcode": "1F1F5-1F1ED",
-    "label": "flag: Filippinerne",
+    "label": "Filippinerne",
     "order": 4956,
     "tags": [
-      "PH",
-      "flag"
+      "PH"
     ],
     "unicode": "🇵🇭"
   },
   {
     "group": 9,
     "hexcode": "1F1F5-1F1F0",
-    "label": "flag: Pakistan",
+    "label": "Pakistan",
     "order": 4957,
     "tags": [
-      "PK",
-      "flag"
+      "PK"
     ],
     "unicode": "🇵🇰"
   },
   {
     "group": 9,
     "hexcode": "1F1F5-1F1F1",
-    "label": "flag: Polen",
+    "label": "Polen",
     "order": 4958,
     "tags": [
-      "PL",
-      "flag"
+      "PL"
     ],
     "unicode": "🇵🇱"
   },
   {
     "group": 9,
     "hexcode": "1F1F5-1F1F2",
-    "label": "flag: Saint Pierre og Miquelon",
+    "label": "Saint Pierre og Miquelon",
     "order": 4959,
     "tags": [
-      "PM",
-      "flag"
+      "PM"
     ],
     "unicode": "🇵🇲"
   },
   {
     "group": 9,
     "hexcode": "1F1F5-1F1F3",
-    "label": "flag: Pitcairn",
+    "label": "Pitcairn",
     "order": 4960,
     "tags": [
-      "PN",
-      "flag"
+      "PN"
     ],
     "unicode": "🇵🇳"
   },
   {
     "group": 9,
     "hexcode": "1F1F5-1F1F7",
-    "label": "flag: Puerto Rico",
+    "label": "Puerto Rico",
     "order": 4961,
     "tags": [
-      "PR",
-      "flag"
+      "PR"
     ],
     "unicode": "🇵🇷"
   },
   {
     "group": 9,
     "hexcode": "1F1F5-1F1F8",
-    "label": "flag: De palæstinensiske områder",
+    "label": "Palæstina",
     "order": 4962,
     "tags": [
-      "PS",
-      "flag"
+      "PS"
     ],
     "unicode": "🇵🇸"
   },
   {
     "group": 9,
     "hexcode": "1F1F5-1F1F9",
-    "label": "flag: Portugal",
+    "label": "Portugal",
     "order": 4963,
     "tags": [
-      "PT",
-      "flag"
+      "PT"
     ],
     "unicode": "🇵🇹"
   },
   {
     "group": 9,
     "hexcode": "1F1F5-1F1FC",
-    "label": "flag: Palau",
+    "label": "Palau",
     "order": 4964,
     "tags": [
-      "PW",
-      "flag"
+      "PW"
     ],
     "unicode": "🇵🇼"
   },
   {
     "group": 9,
     "hexcode": "1F1F5-1F1FE",
-    "label": "flag: Paraguay",
+    "label": "Paraguay",
     "order": 4965,
     "tags": [
-      "PY",
-      "flag"
+      "PY"
     ],
     "unicode": "🇵🇾"
   },
   {
     "group": 9,
     "hexcode": "1F1F6-1F1E6",
-    "label": "flag: Qatar",
+    "label": "Qatar",
     "order": 4966,
     "tags": [
-      "QA",
-      "flag"
+      "QA"
     ],
     "unicode": "🇶🇦"
   },
   {
     "group": 9,
     "hexcode": "1F1F7-1F1EA",
-    "label": "flag: Réunion",
+    "label": "Réunion",
     "order": 4967,
     "tags": [
-      "RE",
-      "flag"
+      "RE"
     ],
     "unicode": "🇷🇪"
   },
   {
     "group": 9,
     "hexcode": "1F1F7-1F1F4",
-    "label": "flag: Rumænien",
+    "label": "Rumænien",
     "order": 4968,
     "tags": [
-      "RO",
-      "flag"
+      "RO"
     ],
     "unicode": "🇷🇴"
   },
   {
     "group": 9,
     "hexcode": "1F1F7-1F1F8",
-    "label": "flag: Serbien",
+    "label": "Serbien",
     "order": 4969,
     "tags": [
-      "RS",
-      "flag"
+      "RS"
     ],
     "unicode": "🇷🇸"
   },
   {
     "group": 9,
     "hexcode": "1F1F7-1F1FA",
-    "label": "flag: Rusland",
+    "label": "Rusland",
     "order": 4970,
     "tags": [
-      "RU",
-      "flag"
+      "RU"
     ],
     "unicode": "🇷🇺"
   },
   {
     "group": 9,
     "hexcode": "1F1F7-1F1FC",
-    "label": "flag: Rwanda",
+    "label": "Rwanda",
     "order": 4971,
     "tags": [
-      "RW",
-      "flag"
+      "RW"
     ],
     "unicode": "🇷🇼"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1E6",
-    "label": "flag: Saudi-Arabien",
+    "label": "Saudi-Arabien",
     "order": 4972,
     "tags": [
-      "SA",
-      "flag"
+      "SA"
     ],
     "unicode": "🇸🇦"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1E7",
-    "label": "flag: Salomonøerne",
+    "label": "Salomonøerne",
     "order": 4973,
     "tags": [
-      "SB",
-      "flag"
+      "SB"
     ],
     "unicode": "🇸🇧"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1E8",
-    "label": "flag: Seychellerne",
+    "label": "Seychellerne",
     "order": 4974,
     "tags": [
-      "SC",
-      "flag"
+      "SC"
     ],
     "unicode": "🇸🇨"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1E9",
-    "label": "flag: Sudan",
+    "label": "Sudan",
     "order": 4975,
     "tags": [
-      "SD",
-      "flag"
+      "SD"
     ],
     "unicode": "🇸🇩"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1EA",
-    "label": "flag: Sverige",
+    "label": "Sverige",
     "order": 4976,
     "tags": [
-      "SE",
-      "flag"
+      "SE"
     ],
     "unicode": "🇸🇪"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1EC",
-    "label": "flag: Singapore",
+    "label": "Singapore",
     "order": 4977,
     "tags": [
-      "SG",
-      "flag"
+      "SG"
     ],
     "unicode": "🇸🇬"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1ED",
-    "label": "flag: St. Helena",
+    "label": "St. Helena",
     "order": 4978,
     "tags": [
-      "SH",
-      "flag"
+      "SH"
     ],
     "unicode": "🇸🇭"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1EE",
-    "label": "flag: Slovenien",
+    "label": "Slovenien",
     "order": 4979,
     "tags": [
-      "SI",
-      "flag"
+      "SI"
     ],
     "unicode": "🇸🇮"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1EF",
-    "label": "flag: Svalbard og Jan Mayen",
+    "label": "Svalbard og Jan Mayen",
     "order": 4980,
     "tags": [
-      "SJ",
-      "flag"
+      "SJ"
     ],
     "unicode": "🇸🇯"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1F0",
-    "label": "flag: Slovakiet",
+    "label": "Slovakiet",
     "order": 4981,
     "tags": [
-      "SK",
-      "flag"
+      "SK"
     ],
     "unicode": "🇸🇰"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1F1",
-    "label": "flag: Sierra Leone",
+    "label": "Sierra Leone",
     "order": 4982,
     "tags": [
-      "SL",
-      "flag"
+      "SL"
     ],
     "unicode": "🇸🇱"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1F2",
-    "label": "flag: San Marino",
+    "label": "San Marino",
     "order": 4983,
     "tags": [
-      "SM",
-      "flag"
+      "SM"
     ],
     "unicode": "🇸🇲"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1F3",
-    "label": "flag: Senegal",
+    "label": "Senegal",
     "order": 4984,
     "tags": [
-      "SN",
-      "flag"
+      "SN"
     ],
     "unicode": "🇸🇳"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1F4",
-    "label": "flag: Somalia",
+    "label": "Somalia",
     "order": 4985,
     "tags": [
-      "SO",
-      "flag"
+      "SO"
     ],
     "unicode": "🇸🇴"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1F7",
-    "label": "flag: Surinam",
+    "label": "Surinam",
     "order": 4986,
     "tags": [
-      "SR",
-      "flag"
+      "SR"
     ],
     "unicode": "🇸🇷"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1F8",
-    "label": "flag: Sydsudan",
+    "label": "Sydsudan",
     "order": 4987,
     "tags": [
-      "SS",
-      "flag"
+      "SS"
     ],
     "unicode": "🇸🇸"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1F9",
-    "label": "flag: São Tomé og Príncipe",
+    "label": "São Tomé og Príncipe",
     "order": 4988,
     "tags": [
-      "ST",
-      "flag"
+      "ST"
     ],
     "unicode": "🇸🇹"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1FB",
-    "label": "flag: El Salvador",
+    "label": "El Salvador",
     "order": 4989,
     "tags": [
-      "SV",
-      "flag"
+      "SV"
     ],
     "unicode": "🇸🇻"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1FD",
-    "label": "flag: Sint Maarten",
+    "label": "Sint Maarten",
     "order": 4990,
     "tags": [
-      "SX",
-      "flag"
+      "SX"
     ],
     "unicode": "🇸🇽"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1FE",
-    "label": "flag: Syrien",
+    "label": "Syrien",
     "order": 4991,
     "tags": [
-      "SY",
-      "flag"
+      "SY"
     ],
     "unicode": "🇸🇾"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1FF",
-    "label": "flag: Eswatini",
+    "label": "Swaziland",
     "order": 4992,
     "tags": [
-      "SZ",
-      "flag"
+      "SZ"
     ],
     "unicode": "🇸🇿"
   },
   {
     "group": 9,
     "hexcode": "1F1F9-1F1E6",
-    "label": "flag: Tristan da Cunha",
+    "label": "Tristan da Cunha",
     "order": 4993,
     "tags": [
-      "TA",
-      "flag"
+      "TA"
     ],
     "unicode": "🇹🇦"
   },
   {
     "group": 9,
     "hexcode": "1F1F9-1F1E8",
-    "label": "flag: Turks- og Caicosøerne",
+    "label": "Turks- og Caicosøerne",
     "order": 4994,
     "tags": [
-      "TC",
-      "flag"
+      "TC"
     ],
     "unicode": "🇹🇨"
   },
   {
     "group": 9,
     "hexcode": "1F1F9-1F1E9",
-    "label": "flag: Tchad",
+    "label": "Tchad",
     "order": 4995,
     "tags": [
-      "TD",
-      "flag"
+      "TD"
     ],
     "unicode": "🇹🇩"
   },
   {
     "group": 9,
     "hexcode": "1F1F9-1F1EB",
-    "label": "flag: De Franske Besiddelser i Det Sydlige Indiske Ocean og Antarktis",
+    "label": "De Franske Besiddelser i Det Sydlige Indiske Ocean og Antarktis",
     "order": 4996,
     "tags": [
-      "TF",
-      "flag"
+      "TF"
     ],
     "unicode": "🇹🇫"
   },
   {
     "group": 9,
     "hexcode": "1F1F9-1F1EC",
-    "label": "flag: Togo",
+    "label": "Togo",
     "order": 4997,
     "tags": [
-      "TG",
-      "flag"
+      "TG"
     ],
     "unicode": "🇹🇬"
   },
   {
     "group": 9,
     "hexcode": "1F1F9-1F1ED",
-    "label": "flag: Thailand",
+    "label": "Thailand",
     "order": 4998,
     "tags": [
-      "TH",
-      "flag"
+      "TH"
     ],
     "unicode": "🇹🇭"
   },
   {
     "group": 9,
     "hexcode": "1F1F9-1F1EF",
-    "label": "flag: Tadsjikistan",
+    "label": "Tadsjikistan",
     "order": 4999,
     "tags": [
-      "TJ",
-      "flag"
+      "TJ"
     ],
     "unicode": "🇹🇯"
   },
   {
     "group": 9,
     "hexcode": "1F1F9-1F1F0",
-    "label": "flag: Tokelau",
+    "label": "Tokelau",
     "order": 5000,
     "tags": [
-      "TK",
-      "flag"
+      "TK"
     ],
     "unicode": "🇹🇰"
   },
   {
     "group": 9,
     "hexcode": "1F1F9-1F1F1",
-    "label": "flag: Timor-Leste",
+    "label": "Østtimor",
     "order": 5001,
     "tags": [
-      "TL",
-      "flag"
+      "TL"
     ],
     "unicode": "🇹🇱"
   },
   {
     "group": 9,
     "hexcode": "1F1F9-1F1F2",
-    "label": "flag: Turkmenistan",
+    "label": "Turkmenistan",
     "order": 5002,
     "tags": [
-      "TM",
-      "flag"
+      "TM"
     ],
     "unicode": "🇹🇲"
   },
   {
     "group": 9,
     "hexcode": "1F1F9-1F1F3",
-    "label": "flag: Tunesien",
+    "label": "Tunesien",
     "order": 5003,
     "tags": [
-      "TN",
-      "flag"
+      "TN"
     ],
     "unicode": "🇹🇳"
   },
   {
     "group": 9,
     "hexcode": "1F1F9-1F1F4",
-    "label": "flag: Tonga",
+    "label": "Tonga",
     "order": 5004,
     "tags": [
-      "TO",
-      "flag"
+      "TO"
     ],
     "unicode": "🇹🇴"
   },
   {
     "group": 9,
     "hexcode": "1F1F9-1F1F7",
-    "label": "flag: Tyrkiet",
+    "label": "↑↑↑",
     "order": 5005,
     "tags": [
-      "TR",
-      "flag"
+      "TR"
     ],
     "unicode": "🇹🇷"
   },
   {
     "group": 9,
     "hexcode": "1F1F9-1F1F9",
-    "label": "flag: Trinidad og Tobago",
+    "label": "Trinidad og Tobago",
     "order": 5006,
     "tags": [
-      "TT",
-      "flag"
+      "TT"
     ],
     "unicode": "🇹🇹"
   },
   {
     "group": 9,
     "hexcode": "1F1F9-1F1FB",
-    "label": "flag: Tuvalu",
+    "label": "Tuvalu",
     "order": 5007,
     "tags": [
-      "TV",
-      "flag"
+      "TV"
     ],
     "unicode": "🇹🇻"
   },
   {
     "group": 9,
     "hexcode": "1F1F9-1F1FC",
-    "label": "flag: Taiwan",
+    "label": "Taiwan",
     "order": 5008,
     "tags": [
-      "TW",
-      "flag"
+      "TW"
     ],
     "unicode": "🇹🇼"
   },
   {
     "group": 9,
     "hexcode": "1F1F9-1F1FF",
-    "label": "flag: Tanzania",
+    "label": "Tanzania",
     "order": 5009,
     "tags": [
-      "TZ",
-      "flag"
+      "TZ"
     ],
     "unicode": "🇹🇿"
   },
   {
     "group": 9,
     "hexcode": "1F1FA-1F1E6",
-    "label": "flag: Ukraine",
+    "label": "Ukraine",
     "order": 5010,
     "tags": [
-      "UA",
-      "flag"
+      "UA"
     ],
     "unicode": "🇺🇦"
   },
   {
     "group": 9,
     "hexcode": "1F1FA-1F1EC",
-    "label": "flag: Uganda",
+    "label": "Uganda",
     "order": 5011,
     "tags": [
-      "UG",
-      "flag"
+      "UG"
     ],
     "unicode": "🇺🇬"
   },
   {
     "group": 9,
     "hexcode": "1F1FA-1F1F2",
-    "label": "flag: Amerikanske oversøiske øer",
+    "label": "Amerikanske oversøiske øer",
     "order": 5012,
     "tags": [
-      "UM",
-      "flag"
+      "UM"
     ],
     "unicode": "🇺🇲"
   },
   {
     "group": 9,
     "hexcode": "1F1FA-1F1F3",
-    "label": "flag: De Forenede Nationer",
+    "label": "FN",
     "order": 5013,
     "tags": [
-      "UN",
-      "flag"
+      "UN"
     ],
     "unicode": "🇺🇳"
   },
   {
     "group": 9,
     "hexcode": "1F1FA-1F1F8",
-    "label": "flag: USA",
+    "label": "↑↑↑",
     "order": 5014,
     "tags": [
-      "US",
-      "flag"
+      "US"
     ],
     "unicode": "🇺🇸"
   },
   {
     "group": 9,
     "hexcode": "1F1FA-1F1FE",
-    "label": "flag: Uruguay",
+    "label": "Uruguay",
     "order": 5015,
     "tags": [
-      "UY",
-      "flag"
+      "UY"
     ],
     "unicode": "🇺🇾"
   },
   {
     "group": 9,
     "hexcode": "1F1FA-1F1FF",
-    "label": "flag: Usbekistan",
+    "label": "Usbekistan",
     "order": 5016,
     "tags": [
-      "UZ",
-      "flag"
+      "UZ"
     ],
     "unicode": "🇺🇿"
   },
   {
     "group": 9,
     "hexcode": "1F1FB-1F1E6",
-    "label": "flag: Vatikanstaten",
+    "label": "Vatikanstaten",
     "order": 5017,
     "tags": [
-      "VA",
-      "flag"
+      "VA"
     ],
     "unicode": "🇻🇦"
   },
   {
     "group": 9,
     "hexcode": "1F1FB-1F1E8",
-    "label": "flag: Saint Vincent og Grenadinerne",
+    "label": "Saint Vincent og Grenadinerne",
     "order": 5018,
     "tags": [
-      "VC",
-      "flag"
+      "VC"
     ],
     "unicode": "🇻🇨"
   },
   {
     "group": 9,
     "hexcode": "1F1FB-1F1EA",
-    "label": "flag: Venezuela",
+    "label": "Venezuela",
     "order": 5019,
     "tags": [
-      "VE",
-      "flag"
+      "VE"
     ],
     "unicode": "🇻🇪"
   },
   {
     "group": 9,
     "hexcode": "1F1FB-1F1EC",
-    "label": "flag: De Britiske Jomfruøer",
+    "label": "De Britiske Jomfruøer",
     "order": 5020,
     "tags": [
-      "VG",
-      "flag"
+      "VG"
     ],
     "unicode": "🇻🇬"
   },
   {
     "group": 9,
     "hexcode": "1F1FB-1F1EE",
-    "label": "flag: De Amerikanske Jomfruøer",
+    "label": "De Amerikanske Jomfruøer",
     "order": 5021,
     "tags": [
-      "VI",
-      "flag"
+      "VI"
     ],
     "unicode": "🇻🇮"
   },
   {
     "group": 9,
     "hexcode": "1F1FB-1F1F3",
-    "label": "flag: Vietnam",
+    "label": "Vietnam",
     "order": 5022,
     "tags": [
-      "VN",
-      "flag"
+      "VN"
     ],
     "unicode": "🇻🇳"
   },
   {
     "group": 9,
     "hexcode": "1F1FB-1F1FA",
-    "label": "flag: Vanuatu",
+    "label": "Vanuatu",
     "order": 5023,
     "tags": [
-      "VU",
-      "flag"
+      "VU"
     ],
     "unicode": "🇻🇺"
   },
   {
     "group": 9,
     "hexcode": "1F1FC-1F1EB",
-    "label": "flag: Wallis og Futuna",
+    "label": "Wallis og Futuna",
     "order": 5024,
     "tags": [
-      "WF",
-      "flag"
+      "WF"
     ],
     "unicode": "🇼🇫"
   },
   {
     "group": 9,
     "hexcode": "1F1FC-1F1F8",
-    "label": "flag: Samoa",
+    "label": "Samoa",
     "order": 5025,
     "tags": [
-      "WS",
-      "flag"
+      "WS"
     ],
     "unicode": "🇼🇸"
   },
   {
     "group": 9,
     "hexcode": "1F1FD-1F1F0",
-    "label": "flag: Kosovo",
+    "label": "Kosovo",
     "order": 5026,
     "tags": [
-      "XK",
-      "flag"
+      "XK"
     ],
     "unicode": "🇽🇰"
   },
   {
     "group": 9,
     "hexcode": "1F1FE-1F1EA",
-    "label": "flag: Yemen",
+    "label": "Yemen",
     "order": 5027,
     "tags": [
-      "YE",
-      "flag"
+      "YE"
     ],
     "unicode": "🇾🇪"
   },
   {
     "group": 9,
     "hexcode": "1F1FE-1F1F9",
-    "label": "flag: Mayotte",
+    "label": "Mayotte",
     "order": 5028,
     "tags": [
-      "YT",
-      "flag"
+      "YT"
     ],
     "unicode": "🇾🇹"
   },
   {
     "group": 9,
     "hexcode": "1F1FF-1F1E6",
-    "label": "flag: Sydafrika",
+    "label": "Sydafrika",
     "order": 5029,
     "tags": [
-      "ZA",
-      "flag"
+      "ZA"
     ],
     "unicode": "🇿🇦"
   },
   {
     "group": 9,
     "hexcode": "1F1FF-1F1F2",
-    "label": "flag: Zambia",
+    "label": "Zambia",
     "order": 5030,
     "tags": [
-      "ZM",
-      "flag"
+      "ZM"
     ],
     "unicode": "🇿🇲"
   },
   {
     "group": 9,
     "hexcode": "1F1FF-1F1FC",
-    "label": "flag: Zimbabwe",
+    "label": "Zimbabwe",
     "order": 5031,
     "tags": [
-      "ZW",
-      "flag"
+      "ZW"
     ],
     "unicode": "🇿🇼"
   },
   {
     "group": 9,
     "hexcode": "1F3F4-E0067-E0062-E0065-E006E-E0067-E007F",
-    "label": "flag: England",
+    "label": "England",
     "order": 5032,
     "tags": [
-      "flag",
       "gbeng"
     ],
     "unicode": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
@@ -36345,10 +36165,9 @@
   {
     "group": 9,
     "hexcode": "1F3F4-E0067-E0062-E0073-E0063-E0074-E007F",
-    "label": "flag: Skotland",
+    "label": "Skotland",
     "order": 5033,
     "tags": [
-      "flag",
       "gbsct"
     ],
     "unicode": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
@@ -36356,10 +36175,9 @@
   {
     "group": 9,
     "hexcode": "1F3F4-E0067-E0062-E0077-E006C-E0073-E007F",
-    "label": "flag: Wales",
+    "label": "Wales",
     "order": 5034,
     "tags": [
-      "flag",
       "gbwls"
     ],
     "unicode": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"

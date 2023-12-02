@@ -581,7 +581,7 @@
       "hämmästys",
       "nolo",
       "peloissaan",
-      "yllättynyt",
+      "yllättyny",
       "ällikkä",
       "ällistys"
     ],
@@ -834,30 +834,22 @@
   {
     "group": 0,
     "hexcode": "1F642-200D-2194-FE0F",
-    "label": "head shaking horizontally",
+    "label": "ravistaa päätä vaakasuunnassa",
     "order": 53,
     "tags": [
-      "hymy",
-      "naama",
-      "nuoli",
-      "nuoli oikealle ja vasemmalle",
-      "pieni hymy",
-      "suunta"
+      "ei",
+      "pudistus"
     ],
     "unicode": "🙂‍↔️"
   },
   {
     "group": 0,
     "hexcode": "1F642-200D-2195-FE0F",
-    "label": "head shaking vertically",
+    "label": "ravistaa päätä pystysuunnassa",
     "order": 55,
     "tags": [
-      "hymy",
-      "naama",
-      "nuoli",
-      "nuoli ylös ja alas",
-      "pieni hymy",
-      "suunta"
+      "kyllä",
+      "nyökkäys"
     ],
     "unicode": "🙂‍↕️"
   },
@@ -21136,72 +21128,46 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2",
-    "label": "family: adult, adult, child",
+    "label": "perhe: aikuinen, aikuinen, lapsi",
     "order": 3470,
     "tags": [
-      "aikaihminen",
       "aikuinen",
-      "aikuisuus",
-      "keski-ikäinen",
       "lapsi",
-      "lapsuus",
-      "nuori",
-      "sukupuolineutraali",
-      "täysikasvuinen"
+      "perhe: aikuinen"
     ],
     "unicode": "🧑‍🧑‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, adult, child, child",
+    "label": "perhe: aikuinen, aikuinen, lapsi, lapsi",
     "order": 3471,
     "tags": [
-      "aikaihminen",
       "aikuinen",
-      "aikuisuus",
-      "keski-ikäinen",
       "lapsi",
-      "lapsuus",
-      "nuori",
-      "sukupuolineutraali",
-      "täysikasvuinen"
+      "perhe: aikuinen"
     ],
     "unicode": "🧑‍🧑‍🧒‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2",
-    "label": "family: adult, child",
+    "label": "perhe: aikuinen, lapsi",
     "order": 3472,
     "tags": [
-      "aikaihminen",
-      "aikuinen",
-      "aikuisuus",
-      "keski-ikäinen",
       "lapsi",
-      "lapsuus",
-      "nuori",
-      "sukupuolineutraali",
-      "täysikasvuinen"
+      "perhe: aikuinen"
     ],
     "unicode": "🧑‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, child, child",
+    "label": "perhe: aikuinen, lapsi, lapsi",
     "order": 3473,
     "tags": [
-      "aikaihminen",
-      "aikuinen",
-      "aikuisuus",
-      "keski-ikäinen",
       "lapsi",
-      "lapsuus",
-      "nuori",
-      "sukupuolineutraali",
-      "täysikasvuinen"
+      "perhe: aikuinen"
     ],
     "unicode": "🧑‍🧒‍🧒"
   },
@@ -22296,7 +22262,11 @@
     "label": "mustarastas",
     "order": 3572,
     "tags": [
-      "mustarastas"
+      "korppi",
+      "lintu",
+      "musta",
+      "mustavaris",
+      "varis"
     ],
     "unicode": "🐦‍⬛"
   },
@@ -22316,16 +22286,13 @@
   {
     "group": 3,
     "hexcode": "1F426-200D-1F525",
-    "label": "phoenix",
+    "label": "feeniks",
     "order": 3574,
     "tags": [
-      "liekki",
-      "lieska",
-      "lintu",
-      "nuotio",
-      "pikkulintu",
-      "tuli",
-      "turkoosi"
+      "fantasia",
+      "jälleensyntymä",
+      "reinkarnaatio",
+      "tulenlintu"
     ],
     "unicode": "🐦‍🔥"
   },
@@ -22784,8 +22751,7 @@
       "intia",
       "kukka",
       "puhtaus",
-      "viattomuus",
-      "vietnam"
+      "viattomuus"
     ],
     "unicode": "🪷"
   },
@@ -23132,15 +23098,12 @@
   {
     "group": 4,
     "hexcode": "1F34B-200D-1F7E9",
-    "label": "lime",
+    "label": "limetti",
     "order": 3649,
     "tags": [
       "hedelmä",
-      "kasvi",
-      "neliö",
       "sitrus",
-      "sitruuna",
-      "vihreä"
+      "trooppinen"
     ],
     "unicode": "🍋‍🟩"
   },
@@ -23505,13 +23468,13 @@
   {
     "group": 4,
     "hexcode": "1F344-200D-1F7EB",
-    "label": "brown mushroom",
+    "label": "ruskea herkkusieni",
     "order": 3682,
     "tags": [
-      "neliö",
-      "rihmasto",
-      "ruskea",
-      "sieni"
+      "kasvis",
+      "luonto",
+      "sieni",
+      "syötävä"
     ],
     "unicode": "🍄‍🟫"
   },
@@ -24608,7 +24571,8 @@
       "haarukka",
       "lautanen",
       "ruokailu",
-      "veitsi"
+      "veitsi",
+      "veitsi ja lautanen"
     ],
     "unicode": "🍽️"
   },
@@ -28926,6 +28890,7 @@
     "tags": [
       "apu",
       "hattu",
+      "jossa valkoinen risti",
       "kypärä",
       "naama",
       "risti"
@@ -30193,6 +30158,7 @@
     "label": "suljettu postilaatikko, lippu ylhäällä",
     "order": 4308,
     "tags": [
+      "lippu ylhäällä",
       "lähtevä",
       "postilaatikko",
       "suljettu"
@@ -30206,6 +30172,7 @@
     "order": 4309,
     "tags": [
       "alhaalla",
+      "lippu alhaalla",
       "postilaatikko",
       "suljettu"
     ],
@@ -30218,6 +30185,8 @@
     "order": 4310,
     "tags": [
       "auki",
+      "avoin postilaatikko",
+      "lippu ylhäällä",
       "postilaatikko"
     ],
     "unicode": "📬️"
@@ -30230,6 +30199,8 @@
     "tags": [
       "alhaalla",
       "auki",
+      "avoin postilaatikko",
+      "lippu alhaalla",
       "postilaatikko"
     ],
     "unicode": "📭️"
@@ -30903,14 +30874,14 @@
   {
     "group": 7,
     "hexcode": "26D3-FE0F-200D-1F4A5",
-    "label": "broken chain",
+    "label": "katkennut ketju",
     "order": 4395,
     "tags": [
+      "irti kahleista",
+      "katketa",
       "ketju",
-      "ketjut",
-      "pum",
-      "sarjakuva",
-      "törmäys"
+      "käsiraudat",
+      "vapaus"
     ],
     "unicode": "⛓️‍💥"
   },
@@ -33827,7 +33798,7 @@
     "label": "tyhjä-kirjoitusmerkki",
     "order": 4715,
     "tags": [
-      "kiina",
+      "japani",
       "kirjoitusmerkki"
     ],
     "unicode": "🈳"
@@ -33838,7 +33809,7 @@
     "label": "onnittelut-kirjoitusmerkki",
     "order": 4717,
     "tags": [
-      "kiina",
+      "japani",
       "kirjoitusmerkki"
     ],
     "unicode": "㊗️"
@@ -33849,8 +33820,10 @@
     "label": "salainen-kirjoitusmerkki",
     "order": 4719,
     "tags": [
-      "kiina",
-      "kirjoitusmerkki"
+      "ideogrammi",
+      "japani",
+      "kirjoitusmerkki",
+      "käsitemerkki"
     ],
     "unicode": "㊙️"
   },
@@ -33860,7 +33833,7 @@
     "label": "avoinna-kirjoitusmerkki",
     "order": 4720,
     "tags": [
-      "kiina",
+      "japani",
       "kirjoitusmerkki"
     ],
     "unicode": "🈺"
@@ -33871,7 +33844,7 @@
     "label": "täynnä-kirjoitusmerkki",
     "order": 4721,
     "tags": [
-      "kiina",
+      "japani",
       "kirjoitusmerkki"
     ],
     "unicode": "🈵"
@@ -34367,7 +34340,8 @@
     "order": 4774,
     "tags": [
       "AC",
-      "lippu"
+      "lippu",
+      "lippu: ascension-saari"
     ],
     "unicode": "🇦🇨"
   },
@@ -34378,7 +34352,8 @@
     "order": 4775,
     "tags": [
       "AD",
-      "lippu"
+      "lippu",
+      "lippu: andorra"
     ],
     "unicode": "🇦🇩"
   },
@@ -34389,7 +34364,8 @@
     "order": 4776,
     "tags": [
       "AE",
-      "lippu"
+      "lippu",
+      "lippu: arabiemiirikunnat"
     ],
     "unicode": "🇦🇪"
   },
@@ -34400,7 +34376,8 @@
     "order": 4777,
     "tags": [
       "AF",
-      "lippu"
+      "lippu",
+      "lippu: afganistan"
     ],
     "unicode": "🇦🇫"
   },
@@ -34411,7 +34388,8 @@
     "order": 4778,
     "tags": [
       "AG",
-      "lippu"
+      "lippu",
+      "lippu: antigua ja barbuda"
     ],
     "unicode": "🇦🇬"
   },
@@ -34422,7 +34400,8 @@
     "order": 4779,
     "tags": [
       "AI",
-      "lippu"
+      "lippu",
+      "lippu: anguilla"
     ],
     "unicode": "🇦🇮"
   },
@@ -34433,7 +34412,8 @@
     "order": 4780,
     "tags": [
       "AL",
-      "lippu"
+      "lippu",
+      "lippu: albania"
     ],
     "unicode": "🇦🇱"
   },
@@ -34444,7 +34424,8 @@
     "order": 4781,
     "tags": [
       "AM",
-      "lippu"
+      "lippu",
+      "lippu: armenia"
     ],
     "unicode": "🇦🇲"
   },
@@ -34455,7 +34436,8 @@
     "order": 4782,
     "tags": [
       "AO",
-      "lippu"
+      "lippu",
+      "lippu: angola"
     ],
     "unicode": "🇦🇴"
   },
@@ -34466,7 +34448,8 @@
     "order": 4783,
     "tags": [
       "AQ",
-      "lippu"
+      "lippu",
+      "lippu: antarktis"
     ],
     "unicode": "🇦🇶"
   },
@@ -34477,7 +34460,8 @@
     "order": 4784,
     "tags": [
       "AR",
-      "lippu"
+      "lippu",
+      "lippu: argentiina"
     ],
     "unicode": "🇦🇷"
   },
@@ -34488,7 +34472,8 @@
     "order": 4785,
     "tags": [
       "AS",
-      "lippu"
+      "lippu",
+      "lippu: amerikan samoa"
     ],
     "unicode": "🇦🇸"
   },
@@ -34499,7 +34484,8 @@
     "order": 4786,
     "tags": [
       "AT",
-      "lippu"
+      "lippu",
+      "lippu: itävalta"
     ],
     "unicode": "🇦🇹"
   },
@@ -34510,7 +34496,8 @@
     "order": 4787,
     "tags": [
       "AU",
-      "lippu"
+      "lippu",
+      "lippu: australia"
     ],
     "unicode": "🇦🇺"
   },
@@ -34521,7 +34508,8 @@
     "order": 4788,
     "tags": [
       "AW",
-      "lippu"
+      "lippu",
+      "lippu: aruba"
     ],
     "unicode": "🇦🇼"
   },
@@ -34532,7 +34520,8 @@
     "order": 4789,
     "tags": [
       "AX",
-      "lippu"
+      "lippu",
+      "lippu: ahvenanmaa"
     ],
     "unicode": "🇦🇽"
   },
@@ -34543,7 +34532,8 @@
     "order": 4790,
     "tags": [
       "AZ",
-      "lippu"
+      "lippu",
+      "lippu: azerbaidžan"
     ],
     "unicode": "🇦🇿"
   },
@@ -34554,7 +34544,8 @@
     "order": 4791,
     "tags": [
       "BA",
-      "lippu"
+      "lippu",
+      "lippu: bosnia ja hertsegovina"
     ],
     "unicode": "🇧🇦"
   },
@@ -34565,7 +34556,8 @@
     "order": 4792,
     "tags": [
       "BB",
-      "lippu"
+      "lippu",
+      "lippu: barbados"
     ],
     "unicode": "🇧🇧"
   },
@@ -34576,7 +34568,8 @@
     "order": 4793,
     "tags": [
       "BD",
-      "lippu"
+      "lippu",
+      "lippu: bangladesh"
     ],
     "unicode": "🇧🇩"
   },
@@ -34587,7 +34580,8 @@
     "order": 4794,
     "tags": [
       "BE",
-      "lippu"
+      "lippu",
+      "lippu: belgia"
     ],
     "unicode": "🇧🇪"
   },
@@ -34598,7 +34592,8 @@
     "order": 4795,
     "tags": [
       "BF",
-      "lippu"
+      "lippu",
+      "lippu: burkina faso"
     ],
     "unicode": "🇧🇫"
   },
@@ -34609,7 +34604,8 @@
     "order": 4796,
     "tags": [
       "BG",
-      "lippu"
+      "lippu",
+      "lippu: bulgaria"
     ],
     "unicode": "🇧🇬"
   },
@@ -34620,7 +34616,8 @@
     "order": 4797,
     "tags": [
       "BH",
-      "lippu"
+      "lippu",
+      "lippu: bahrain"
     ],
     "unicode": "🇧🇭"
   },
@@ -34631,7 +34628,8 @@
     "order": 4798,
     "tags": [
       "BI",
-      "lippu"
+      "lippu",
+      "lippu: burundi"
     ],
     "unicode": "🇧🇮"
   },
@@ -34642,7 +34640,8 @@
     "order": 4799,
     "tags": [
       "BJ",
-      "lippu"
+      "lippu",
+      "lippu: benin"
     ],
     "unicode": "🇧🇯"
   },
@@ -34653,7 +34652,8 @@
     "order": 4800,
     "tags": [
       "BL",
-      "lippu"
+      "lippu",
+      "lippu: saint-barthélemy"
     ],
     "unicode": "🇧🇱"
   },
@@ -34664,7 +34664,8 @@
     "order": 4801,
     "tags": [
       "BM",
-      "lippu"
+      "lippu",
+      "lippu: bermuda"
     ],
     "unicode": "🇧🇲"
   },
@@ -34675,7 +34676,8 @@
     "order": 4802,
     "tags": [
       "BN",
-      "lippu"
+      "lippu",
+      "lippu: brunei"
     ],
     "unicode": "🇧🇳"
   },
@@ -34686,7 +34688,8 @@
     "order": 4803,
     "tags": [
       "BO",
-      "lippu"
+      "lippu",
+      "lippu: bolivia"
     ],
     "unicode": "🇧🇴"
   },
@@ -34697,7 +34700,8 @@
     "order": 4804,
     "tags": [
       "BQ",
-      "lippu"
+      "lippu",
+      "lippu: karibian alankomaat"
     ],
     "unicode": "🇧🇶"
   },
@@ -34708,7 +34712,8 @@
     "order": 4805,
     "tags": [
       "BR",
-      "lippu"
+      "lippu",
+      "lippu: brasilia"
     ],
     "unicode": "🇧🇷"
   },
@@ -34719,7 +34724,8 @@
     "order": 4806,
     "tags": [
       "BS",
-      "lippu"
+      "lippu",
+      "lippu: bahama"
     ],
     "unicode": "🇧🇸"
   },
@@ -34730,7 +34736,8 @@
     "order": 4807,
     "tags": [
       "BT",
-      "lippu"
+      "lippu",
+      "lippu: bhutan"
     ],
     "unicode": "🇧🇹"
   },
@@ -34741,7 +34748,8 @@
     "order": 4808,
     "tags": [
       "BV",
-      "lippu"
+      "lippu",
+      "lippu: bouvet’nsaari"
     ],
     "unicode": "🇧🇻"
   },
@@ -34752,7 +34760,8 @@
     "order": 4809,
     "tags": [
       "BW",
-      "lippu"
+      "lippu",
+      "lippu: botswana"
     ],
     "unicode": "🇧🇼"
   },
@@ -34763,7 +34772,8 @@
     "order": 4810,
     "tags": [
       "BY",
-      "lippu"
+      "lippu",
+      "lippu: valko-venäjä"
     ],
     "unicode": "🇧🇾"
   },
@@ -34774,7 +34784,8 @@
     "order": 4811,
     "tags": [
       "BZ",
-      "lippu"
+      "lippu",
+      "lippu: belize"
     ],
     "unicode": "🇧🇿"
   },
@@ -34785,7 +34796,8 @@
     "order": 4812,
     "tags": [
       "CA",
-      "lippu"
+      "lippu",
+      "lippu: kanada"
     ],
     "unicode": "🇨🇦"
   },
@@ -34796,7 +34808,8 @@
     "order": 4813,
     "tags": [
       "CC",
-      "lippu"
+      "lippu",
+      "lippu: kookossaaret (keelingsaaret)"
     ],
     "unicode": "🇨🇨"
   },
@@ -34807,7 +34820,8 @@
     "order": 4814,
     "tags": [
       "CD",
-      "lippu"
+      "lippu",
+      "lippu: kongon demokraattinen tasavalta"
     ],
     "unicode": "🇨🇩"
   },
@@ -34818,7 +34832,8 @@
     "order": 4815,
     "tags": [
       "CF",
-      "lippu"
+      "lippu",
+      "lippu: keski-afrikan tasavalta"
     ],
     "unicode": "🇨🇫"
   },
@@ -34829,7 +34844,8 @@
     "order": 4816,
     "tags": [
       "CG",
-      "lippu"
+      "lippu",
+      "lippu: kongon tasavalta"
     ],
     "unicode": "🇨🇬"
   },
@@ -34840,7 +34856,8 @@
     "order": 4817,
     "tags": [
       "CH",
-      "lippu"
+      "lippu",
+      "lippu: sveitsi"
     ],
     "unicode": "🇨🇭"
   },
@@ -34851,7 +34868,8 @@
     "order": 4818,
     "tags": [
       "CI",
-      "lippu"
+      "lippu",
+      "lippu: norsunluurannikko"
     ],
     "unicode": "🇨🇮"
   },
@@ -34862,7 +34880,8 @@
     "order": 4819,
     "tags": [
       "CK",
-      "lippu"
+      "lippu",
+      "lippu: cookinsaaret"
     ],
     "unicode": "🇨🇰"
   },
@@ -34873,7 +34892,8 @@
     "order": 4820,
     "tags": [
       "CL",
-      "lippu"
+      "lippu",
+      "lippu: chile"
     ],
     "unicode": "🇨🇱"
   },
@@ -34884,7 +34904,8 @@
     "order": 4821,
     "tags": [
       "CM",
-      "lippu"
+      "lippu",
+      "lippu: kamerun"
     ],
     "unicode": "🇨🇲"
   },
@@ -34895,7 +34916,8 @@
     "order": 4822,
     "tags": [
       "CN",
-      "lippu"
+      "lippu",
+      "lippu: kiina"
     ],
     "unicode": "🇨🇳"
   },
@@ -34906,7 +34928,8 @@
     "order": 4823,
     "tags": [
       "CO",
-      "lippu"
+      "lippu",
+      "lippu: kolumbia"
     ],
     "unicode": "🇨🇴"
   },
@@ -34917,7 +34940,8 @@
     "order": 4824,
     "tags": [
       "CP",
-      "lippu"
+      "lippu",
+      "lippu: clippertoninsaari"
     ],
     "unicode": "🇨🇵"
   },
@@ -34928,7 +34952,8 @@
     "order": 4825,
     "tags": [
       "CR",
-      "lippu"
+      "lippu",
+      "lippu: costa rica"
     ],
     "unicode": "🇨🇷"
   },
@@ -34939,7 +34964,8 @@
     "order": 4826,
     "tags": [
       "CU",
-      "lippu"
+      "lippu",
+      "lippu: kuuba"
     ],
     "unicode": "🇨🇺"
   },
@@ -34950,7 +34976,8 @@
     "order": 4827,
     "tags": [
       "CV",
-      "lippu"
+      "lippu",
+      "lippu: kap verde"
     ],
     "unicode": "🇨🇻"
   },
@@ -34961,7 +34988,8 @@
     "order": 4828,
     "tags": [
       "CW",
-      "lippu"
+      "lippu",
+      "lippu: curaçao"
     ],
     "unicode": "🇨🇼"
   },
@@ -34972,7 +35000,8 @@
     "order": 4829,
     "tags": [
       "CX",
-      "lippu"
+      "lippu",
+      "lippu: joulusaari"
     ],
     "unicode": "🇨🇽"
   },
@@ -34983,7 +35012,8 @@
     "order": 4830,
     "tags": [
       "CY",
-      "lippu"
+      "lippu",
+      "lippu: kypros"
     ],
     "unicode": "🇨🇾"
   },
@@ -34994,7 +35024,8 @@
     "order": 4831,
     "tags": [
       "CZ",
-      "lippu"
+      "lippu",
+      "lippu: tšekki"
     ],
     "unicode": "🇨🇿"
   },
@@ -35005,7 +35036,8 @@
     "order": 4832,
     "tags": [
       "DE",
-      "lippu"
+      "lippu",
+      "lippu: saksa"
     ],
     "unicode": "🇩🇪"
   },
@@ -35016,7 +35048,8 @@
     "order": 4833,
     "tags": [
       "DG",
-      "lippu"
+      "lippu",
+      "lippu: diego garcia"
     ],
     "unicode": "🇩🇬"
   },
@@ -35027,7 +35060,8 @@
     "order": 4834,
     "tags": [
       "DJ",
-      "lippu"
+      "lippu",
+      "lippu: djibouti"
     ],
     "unicode": "🇩🇯"
   },
@@ -35038,7 +35072,8 @@
     "order": 4835,
     "tags": [
       "DK",
-      "lippu"
+      "lippu",
+      "lippu: tanska"
     ],
     "unicode": "🇩🇰"
   },
@@ -35049,7 +35084,8 @@
     "order": 4836,
     "tags": [
       "DM",
-      "lippu"
+      "lippu",
+      "lippu: dominica"
     ],
     "unicode": "🇩🇲"
   },
@@ -35060,7 +35096,8 @@
     "order": 4837,
     "tags": [
       "DO",
-      "lippu"
+      "lippu",
+      "lippu: dominikaaninen tasavalta"
     ],
     "unicode": "🇩🇴"
   },
@@ -35071,7 +35108,8 @@
     "order": 4838,
     "tags": [
       "DZ",
-      "lippu"
+      "lippu",
+      "lippu: algeria"
     ],
     "unicode": "🇩🇿"
   },
@@ -35082,7 +35120,8 @@
     "order": 4839,
     "tags": [
       "EA",
-      "lippu"
+      "lippu",
+      "lippu: ceuta ja melilla"
     ],
     "unicode": "🇪🇦"
   },
@@ -35093,7 +35132,8 @@
     "order": 4840,
     "tags": [
       "EC",
-      "lippu"
+      "lippu",
+      "lippu: ecuador"
     ],
     "unicode": "🇪🇨"
   },
@@ -35104,7 +35144,8 @@
     "order": 4841,
     "tags": [
       "EE",
-      "lippu"
+      "lippu",
+      "lippu: viro"
     ],
     "unicode": "🇪🇪"
   },
@@ -35115,7 +35156,8 @@
     "order": 4842,
     "tags": [
       "EG",
-      "lippu"
+      "lippu",
+      "lippu: egypti"
     ],
     "unicode": "🇪🇬"
   },
@@ -35126,7 +35168,8 @@
     "order": 4843,
     "tags": [
       "EH",
-      "lippu"
+      "lippu",
+      "lippu: länsi-sahara"
     ],
     "unicode": "🇪🇭"
   },
@@ -35137,7 +35180,8 @@
     "order": 4844,
     "tags": [
       "ER",
-      "lippu"
+      "lippu",
+      "lippu: eritrea"
     ],
     "unicode": "🇪🇷"
   },
@@ -35148,7 +35192,8 @@
     "order": 4845,
     "tags": [
       "ES",
-      "lippu"
+      "lippu",
+      "lippu: espanja"
     ],
     "unicode": "🇪🇸"
   },
@@ -35159,7 +35204,8 @@
     "order": 4846,
     "tags": [
       "ET",
-      "lippu"
+      "lippu",
+      "lippu: etiopia"
     ],
     "unicode": "🇪🇹"
   },
@@ -35170,7 +35216,8 @@
     "order": 4847,
     "tags": [
       "EU",
-      "lippu"
+      "lippu",
+      "lippu: euroopan unioni"
     ],
     "unicode": "🇪🇺"
   },
@@ -35181,7 +35228,8 @@
     "order": 4848,
     "tags": [
       "FI",
-      "lippu"
+      "lippu",
+      "lippu: suomi"
     ],
     "unicode": "🇫🇮"
   },
@@ -35192,7 +35240,8 @@
     "order": 4849,
     "tags": [
       "FJ",
-      "lippu"
+      "lippu",
+      "lippu: fidži"
     ],
     "unicode": "🇫🇯"
   },
@@ -35203,7 +35252,8 @@
     "order": 4850,
     "tags": [
       "FK",
-      "lippu"
+      "lippu",
+      "lippu: falklandinsaaret"
     ],
     "unicode": "🇫🇰"
   },
@@ -35214,7 +35264,8 @@
     "order": 4851,
     "tags": [
       "FM",
-      "lippu"
+      "lippu",
+      "lippu: mikronesia"
     ],
     "unicode": "🇫🇲"
   },
@@ -35225,7 +35276,8 @@
     "order": 4852,
     "tags": [
       "FO",
-      "lippu"
+      "lippu",
+      "lippu: färsaaret"
     ],
     "unicode": "🇫🇴"
   },
@@ -35236,7 +35288,8 @@
     "order": 4853,
     "tags": [
       "FR",
-      "lippu"
+      "lippu",
+      "lippu: ranska"
     ],
     "unicode": "🇫🇷"
   },
@@ -35247,7 +35300,8 @@
     "order": 4854,
     "tags": [
       "GA",
-      "lippu"
+      "lippu",
+      "lippu: gabon"
     ],
     "unicode": "🇬🇦"
   },
@@ -35258,7 +35312,8 @@
     "order": 4855,
     "tags": [
       "GB",
-      "lippu"
+      "lippu",
+      "lippu: iso-britannia"
     ],
     "unicode": "🇬🇧"
   },
@@ -35269,7 +35324,8 @@
     "order": 4856,
     "tags": [
       "GD",
-      "lippu"
+      "lippu",
+      "lippu: grenada"
     ],
     "unicode": "🇬🇩"
   },
@@ -35280,7 +35336,8 @@
     "order": 4857,
     "tags": [
       "GE",
-      "lippu"
+      "lippu",
+      "lippu: georgia"
     ],
     "unicode": "🇬🇪"
   },
@@ -35291,7 +35348,8 @@
     "order": 4858,
     "tags": [
       "GF",
-      "lippu"
+      "lippu",
+      "lippu: ranskan guayana"
     ],
     "unicode": "🇬🇫"
   },
@@ -35302,7 +35360,8 @@
     "order": 4859,
     "tags": [
       "GG",
-      "lippu"
+      "lippu",
+      "lippu: guernsey"
     ],
     "unicode": "🇬🇬"
   },
@@ -35313,7 +35372,8 @@
     "order": 4860,
     "tags": [
       "GH",
-      "lippu"
+      "lippu",
+      "lippu: ghana"
     ],
     "unicode": "🇬🇭"
   },
@@ -35324,7 +35384,8 @@
     "order": 4861,
     "tags": [
       "GI",
-      "lippu"
+      "lippu",
+      "lippu: gibraltar"
     ],
     "unicode": "🇬🇮"
   },
@@ -35335,7 +35396,8 @@
     "order": 4862,
     "tags": [
       "GL",
-      "lippu"
+      "lippu",
+      "lippu: grönlanti"
     ],
     "unicode": "🇬🇱"
   },
@@ -35346,7 +35408,8 @@
     "order": 4863,
     "tags": [
       "GM",
-      "lippu"
+      "lippu",
+      "lippu: gambia"
     ],
     "unicode": "🇬🇲"
   },
@@ -35357,7 +35420,8 @@
     "order": 4864,
     "tags": [
       "GN",
-      "lippu"
+      "lippu",
+      "lippu: guinea"
     ],
     "unicode": "🇬🇳"
   },
@@ -35368,7 +35432,8 @@
     "order": 4865,
     "tags": [
       "GP",
-      "lippu"
+      "lippu",
+      "lippu: guadeloupe"
     ],
     "unicode": "🇬🇵"
   },
@@ -35379,7 +35444,8 @@
     "order": 4866,
     "tags": [
       "GQ",
-      "lippu"
+      "lippu",
+      "lippu: päiväntasaajan guinea"
     ],
     "unicode": "🇬🇶"
   },
@@ -35390,7 +35456,8 @@
     "order": 4867,
     "tags": [
       "GR",
-      "lippu"
+      "lippu",
+      "lippu: kreikka"
     ],
     "unicode": "🇬🇷"
   },
@@ -35401,7 +35468,8 @@
     "order": 4868,
     "tags": [
       "GS",
-      "lippu"
+      "lippu",
+      "lippu: etelä-georgia ja eteläiset sandwichinsaaret"
     ],
     "unicode": "🇬🇸"
   },
@@ -35412,7 +35480,8 @@
     "order": 4869,
     "tags": [
       "GT",
-      "lippu"
+      "lippu",
+      "lippu: guatemala"
     ],
     "unicode": "🇬🇹"
   },
@@ -35423,7 +35492,8 @@
     "order": 4870,
     "tags": [
       "GU",
-      "lippu"
+      "lippu",
+      "lippu: guam"
     ],
     "unicode": "🇬🇺"
   },
@@ -35434,7 +35504,8 @@
     "order": 4871,
     "tags": [
       "GW",
-      "lippu"
+      "lippu",
+      "lippu: guinea-bissau"
     ],
     "unicode": "🇬🇼"
   },
@@ -35445,7 +35516,8 @@
     "order": 4872,
     "tags": [
       "GY",
-      "lippu"
+      "lippu",
+      "lippu: guyana"
     ],
     "unicode": "🇬🇾"
   },
@@ -35456,7 +35528,8 @@
     "order": 4873,
     "tags": [
       "HK",
-      "lippu"
+      "lippu",
+      "lippu: hongkong – kiinan erityishallintoalue"
     ],
     "unicode": "🇭🇰"
   },
@@ -35467,7 +35540,8 @@
     "order": 4874,
     "tags": [
       "HM",
-      "lippu"
+      "lippu",
+      "lippu: heard ja mcdonaldinsaaret"
     ],
     "unicode": "🇭🇲"
   },
@@ -35478,7 +35552,8 @@
     "order": 4875,
     "tags": [
       "HN",
-      "lippu"
+      "lippu",
+      "lippu: honduras"
     ],
     "unicode": "🇭🇳"
   },
@@ -35489,7 +35564,8 @@
     "order": 4876,
     "tags": [
       "HR",
-      "lippu"
+      "lippu",
+      "lippu: kroatia"
     ],
     "unicode": "🇭🇷"
   },
@@ -35500,7 +35576,8 @@
     "order": 4877,
     "tags": [
       "HT",
-      "lippu"
+      "lippu",
+      "lippu: haiti"
     ],
     "unicode": "🇭🇹"
   },
@@ -35511,7 +35588,8 @@
     "order": 4878,
     "tags": [
       "HU",
-      "lippu"
+      "lippu",
+      "lippu: unkari"
     ],
     "unicode": "🇭🇺"
   },
@@ -35522,7 +35600,8 @@
     "order": 4879,
     "tags": [
       "IC",
-      "lippu"
+      "lippu",
+      "lippu: kanariansaaret"
     ],
     "unicode": "🇮🇨"
   },
@@ -35533,7 +35612,8 @@
     "order": 4880,
     "tags": [
       "ID",
-      "lippu"
+      "lippu",
+      "lippu: indonesia"
     ],
     "unicode": "🇮🇩"
   },
@@ -35544,7 +35624,8 @@
     "order": 4881,
     "tags": [
       "IE",
-      "lippu"
+      "lippu",
+      "lippu: irlanti"
     ],
     "unicode": "🇮🇪"
   },
@@ -35555,7 +35636,8 @@
     "order": 4882,
     "tags": [
       "IL",
-      "lippu"
+      "lippu",
+      "lippu: israel"
     ],
     "unicode": "🇮🇱"
   },
@@ -35566,7 +35648,8 @@
     "order": 4883,
     "tags": [
       "IM",
-      "lippu"
+      "lippu",
+      "lippu: mansaari"
     ],
     "unicode": "🇮🇲"
   },
@@ -35577,7 +35660,8 @@
     "order": 4884,
     "tags": [
       "IN",
-      "lippu"
+      "lippu",
+      "lippu: intia"
     ],
     "unicode": "🇮🇳"
   },
@@ -35588,7 +35672,8 @@
     "order": 4885,
     "tags": [
       "IO",
-      "lippu"
+      "lippu",
+      "lippu: brittiläinen intian valtameren alue"
     ],
     "unicode": "🇮🇴"
   },
@@ -35599,7 +35684,8 @@
     "order": 4886,
     "tags": [
       "IQ",
-      "lippu"
+      "lippu",
+      "lippu: irak"
     ],
     "unicode": "🇮🇶"
   },
@@ -35610,7 +35696,8 @@
     "order": 4887,
     "tags": [
       "IR",
-      "lippu"
+      "lippu",
+      "lippu: iran"
     ],
     "unicode": "🇮🇷"
   },
@@ -35621,7 +35708,8 @@
     "order": 4888,
     "tags": [
       "IS",
-      "lippu"
+      "lippu",
+      "lippu: islanti"
     ],
     "unicode": "🇮🇸"
   },
@@ -35632,7 +35720,8 @@
     "order": 4889,
     "tags": [
       "IT",
-      "lippu"
+      "lippu",
+      "lippu: italia"
     ],
     "unicode": "🇮🇹"
   },
@@ -35643,7 +35732,8 @@
     "order": 4890,
     "tags": [
       "JE",
-      "lippu"
+      "lippu",
+      "lippu: jersey"
     ],
     "unicode": "🇯🇪"
   },
@@ -35654,7 +35744,8 @@
     "order": 4891,
     "tags": [
       "JM",
-      "lippu"
+      "lippu",
+      "lippu: jamaika"
     ],
     "unicode": "🇯🇲"
   },
@@ -35665,7 +35756,8 @@
     "order": 4892,
     "tags": [
       "JO",
-      "lippu"
+      "lippu",
+      "lippu: jordania"
     ],
     "unicode": "🇯🇴"
   },
@@ -35676,7 +35768,8 @@
     "order": 4893,
     "tags": [
       "JP",
-      "lippu"
+      "lippu",
+      "lippu: japani"
     ],
     "unicode": "🇯🇵"
   },
@@ -35687,7 +35780,8 @@
     "order": 4894,
     "tags": [
       "KE",
-      "lippu"
+      "lippu",
+      "lippu: kenia"
     ],
     "unicode": "🇰🇪"
   },
@@ -35698,7 +35792,8 @@
     "order": 4895,
     "tags": [
       "KG",
-      "lippu"
+      "lippu",
+      "lippu: kirgisia"
     ],
     "unicode": "🇰🇬"
   },
@@ -35709,7 +35804,8 @@
     "order": 4896,
     "tags": [
       "KH",
-      "lippu"
+      "lippu",
+      "lippu: kambodža"
     ],
     "unicode": "🇰🇭"
   },
@@ -35720,7 +35816,8 @@
     "order": 4897,
     "tags": [
       "KI",
-      "lippu"
+      "lippu",
+      "lippu: kiribati"
     ],
     "unicode": "🇰🇮"
   },
@@ -35731,7 +35828,8 @@
     "order": 4898,
     "tags": [
       "KM",
-      "lippu"
+      "lippu",
+      "lippu: komorit"
     ],
     "unicode": "🇰🇲"
   },
@@ -35742,7 +35840,8 @@
     "order": 4899,
     "tags": [
       "KN",
-      "lippu"
+      "lippu",
+      "lippu: saint kitts ja nevis"
     ],
     "unicode": "🇰🇳"
   },
@@ -35753,7 +35852,8 @@
     "order": 4900,
     "tags": [
       "KP",
-      "lippu"
+      "lippu",
+      "lippu: pohjois-korea"
     ],
     "unicode": "🇰🇵"
   },
@@ -35764,7 +35864,8 @@
     "order": 4901,
     "tags": [
       "KR",
-      "lippu"
+      "lippu",
+      "lippu: etelä-korea"
     ],
     "unicode": "🇰🇷"
   },
@@ -35775,7 +35876,8 @@
     "order": 4902,
     "tags": [
       "KW",
-      "lippu"
+      "lippu",
+      "lippu: kuwait"
     ],
     "unicode": "🇰🇼"
   },
@@ -35786,7 +35888,8 @@
     "order": 4903,
     "tags": [
       "KY",
-      "lippu"
+      "lippu",
+      "lippu: caymansaaret"
     ],
     "unicode": "🇰🇾"
   },
@@ -35797,7 +35900,8 @@
     "order": 4904,
     "tags": [
       "KZ",
-      "lippu"
+      "lippu",
+      "lippu: kazakstan"
     ],
     "unicode": "🇰🇿"
   },
@@ -35808,7 +35912,8 @@
     "order": 4905,
     "tags": [
       "LA",
-      "lippu"
+      "lippu",
+      "lippu: laos"
     ],
     "unicode": "🇱🇦"
   },
@@ -35819,7 +35924,8 @@
     "order": 4906,
     "tags": [
       "LB",
-      "lippu"
+      "lippu",
+      "lippu: libanon"
     ],
     "unicode": "🇱🇧"
   },
@@ -35830,7 +35936,8 @@
     "order": 4907,
     "tags": [
       "LC",
-      "lippu"
+      "lippu",
+      "lippu: saint lucia"
     ],
     "unicode": "🇱🇨"
   },
@@ -35841,7 +35948,8 @@
     "order": 4908,
     "tags": [
       "LI",
-      "lippu"
+      "lippu",
+      "lippu: liechtenstein"
     ],
     "unicode": "🇱🇮"
   },
@@ -35852,7 +35960,8 @@
     "order": 4909,
     "tags": [
       "LK",
-      "lippu"
+      "lippu",
+      "lippu: sri lanka"
     ],
     "unicode": "🇱🇰"
   },
@@ -35863,7 +35972,8 @@
     "order": 4910,
     "tags": [
       "LR",
-      "lippu"
+      "lippu",
+      "lippu: liberia"
     ],
     "unicode": "🇱🇷"
   },
@@ -35874,7 +35984,8 @@
     "order": 4911,
     "tags": [
       "LS",
-      "lippu"
+      "lippu",
+      "lippu: lesotho"
     ],
     "unicode": "🇱🇸"
   },
@@ -35885,7 +35996,8 @@
     "order": 4912,
     "tags": [
       "LT",
-      "lippu"
+      "lippu",
+      "lippu: liettua"
     ],
     "unicode": "🇱🇹"
   },
@@ -35896,7 +36008,8 @@
     "order": 4913,
     "tags": [
       "LU",
-      "lippu"
+      "lippu",
+      "lippu: luxemburg"
     ],
     "unicode": "🇱🇺"
   },
@@ -35907,7 +36020,8 @@
     "order": 4914,
     "tags": [
       "LV",
-      "lippu"
+      "lippu",
+      "lippu: latvia"
     ],
     "unicode": "🇱🇻"
   },
@@ -35918,7 +36032,8 @@
     "order": 4915,
     "tags": [
       "LY",
-      "lippu"
+      "lippu",
+      "lippu: libya"
     ],
     "unicode": "🇱🇾"
   },
@@ -35929,7 +36044,8 @@
     "order": 4916,
     "tags": [
       "MA",
-      "lippu"
+      "lippu",
+      "lippu: marokko"
     ],
     "unicode": "🇲🇦"
   },
@@ -35940,7 +36056,8 @@
     "order": 4917,
     "tags": [
       "MC",
-      "lippu"
+      "lippu",
+      "lippu: monaco"
     ],
     "unicode": "🇲🇨"
   },
@@ -35951,7 +36068,8 @@
     "order": 4918,
     "tags": [
       "MD",
-      "lippu"
+      "lippu",
+      "lippu: moldova"
     ],
     "unicode": "🇲🇩"
   },
@@ -35962,7 +36080,8 @@
     "order": 4919,
     "tags": [
       "ME",
-      "lippu"
+      "lippu",
+      "lippu: montenegro"
     ],
     "unicode": "🇲🇪"
   },
@@ -35973,7 +36092,8 @@
     "order": 4920,
     "tags": [
       "MF",
-      "lippu"
+      "lippu",
+      "lippu: saint-martin"
     ],
     "unicode": "🇲🇫"
   },
@@ -35984,7 +36104,8 @@
     "order": 4921,
     "tags": [
       "MG",
-      "lippu"
+      "lippu",
+      "lippu: madagaskar"
     ],
     "unicode": "🇲🇬"
   },
@@ -35995,7 +36116,8 @@
     "order": 4922,
     "tags": [
       "MH",
-      "lippu"
+      "lippu",
+      "lippu: marshallinsaaret"
     ],
     "unicode": "🇲🇭"
   },
@@ -36006,7 +36128,8 @@
     "order": 4923,
     "tags": [
       "MK",
-      "lippu"
+      "lippu",
+      "lippu: pohjois-makedonia"
     ],
     "unicode": "🇲🇰"
   },
@@ -36017,7 +36140,8 @@
     "order": 4924,
     "tags": [
       "ML",
-      "lippu"
+      "lippu",
+      "lippu: mali"
     ],
     "unicode": "🇲🇱"
   },
@@ -36028,7 +36152,8 @@
     "order": 4925,
     "tags": [
       "MM",
-      "lippu"
+      "lippu",
+      "lippu: myanmar (burma)"
     ],
     "unicode": "🇲🇲"
   },
@@ -36039,7 +36164,8 @@
     "order": 4926,
     "tags": [
       "MN",
-      "lippu"
+      "lippu",
+      "lippu: mongolia"
     ],
     "unicode": "🇲🇳"
   },
@@ -36050,7 +36176,8 @@
     "order": 4927,
     "tags": [
       "MO",
-      "lippu"
+      "lippu",
+      "lippu: macao – kiinan erityishallintoalue"
     ],
     "unicode": "🇲🇴"
   },
@@ -36061,7 +36188,8 @@
     "order": 4928,
     "tags": [
       "MP",
-      "lippu"
+      "lippu",
+      "lippu: pohjois-mariaanit"
     ],
     "unicode": "🇲🇵"
   },
@@ -36072,7 +36200,8 @@
     "order": 4929,
     "tags": [
       "MQ",
-      "lippu"
+      "lippu",
+      "lippu: martinique"
     ],
     "unicode": "🇲🇶"
   },
@@ -36083,7 +36212,8 @@
     "order": 4930,
     "tags": [
       "MR",
-      "lippu"
+      "lippu",
+      "lippu: mauritania"
     ],
     "unicode": "🇲🇷"
   },
@@ -36094,7 +36224,8 @@
     "order": 4931,
     "tags": [
       "MS",
-      "lippu"
+      "lippu",
+      "lippu: montserrat"
     ],
     "unicode": "🇲🇸"
   },
@@ -36105,7 +36236,8 @@
     "order": 4932,
     "tags": [
       "MT",
-      "lippu"
+      "lippu",
+      "lippu: malta"
     ],
     "unicode": "🇲🇹"
   },
@@ -36116,7 +36248,8 @@
     "order": 4933,
     "tags": [
       "MU",
-      "lippu"
+      "lippu",
+      "lippu: mauritius"
     ],
     "unicode": "🇲🇺"
   },
@@ -36127,7 +36260,8 @@
     "order": 4934,
     "tags": [
       "MV",
-      "lippu"
+      "lippu",
+      "lippu: malediivit"
     ],
     "unicode": "🇲🇻"
   },
@@ -36138,7 +36272,8 @@
     "order": 4935,
     "tags": [
       "MW",
-      "lippu"
+      "lippu",
+      "lippu: malawi"
     ],
     "unicode": "🇲🇼"
   },
@@ -36149,7 +36284,8 @@
     "order": 4936,
     "tags": [
       "MX",
-      "lippu"
+      "lippu",
+      "lippu: meksiko"
     ],
     "unicode": "🇲🇽"
   },
@@ -36160,7 +36296,8 @@
     "order": 4937,
     "tags": [
       "MY",
-      "lippu"
+      "lippu",
+      "lippu: malesia"
     ],
     "unicode": "🇲🇾"
   },
@@ -36171,7 +36308,8 @@
     "order": 4938,
     "tags": [
       "MZ",
-      "lippu"
+      "lippu",
+      "lippu: mosambik"
     ],
     "unicode": "🇲🇿"
   },
@@ -36182,7 +36320,8 @@
     "order": 4939,
     "tags": [
       "NA",
-      "lippu"
+      "lippu",
+      "lippu: namibia"
     ],
     "unicode": "🇳🇦"
   },
@@ -36193,7 +36332,8 @@
     "order": 4940,
     "tags": [
       "NC",
-      "lippu"
+      "lippu",
+      "lippu: uusi-kaledonia"
     ],
     "unicode": "🇳🇨"
   },
@@ -36204,7 +36344,8 @@
     "order": 4941,
     "tags": [
       "NE",
-      "lippu"
+      "lippu",
+      "lippu: niger"
     ],
     "unicode": "🇳🇪"
   },
@@ -36215,7 +36356,8 @@
     "order": 4942,
     "tags": [
       "NF",
-      "lippu"
+      "lippu",
+      "lippu: norfolkinsaari"
     ],
     "unicode": "🇳🇫"
   },
@@ -36226,7 +36368,8 @@
     "order": 4943,
     "tags": [
       "NG",
-      "lippu"
+      "lippu",
+      "lippu: nigeria"
     ],
     "unicode": "🇳🇬"
   },
@@ -36237,7 +36380,8 @@
     "order": 4944,
     "tags": [
       "NI",
-      "lippu"
+      "lippu",
+      "lippu: nicaragua"
     ],
     "unicode": "🇳🇮"
   },
@@ -36248,7 +36392,8 @@
     "order": 4945,
     "tags": [
       "NL",
-      "lippu"
+      "lippu",
+      "lippu: alankomaat"
     ],
     "unicode": "🇳🇱"
   },
@@ -36259,7 +36404,8 @@
     "order": 4946,
     "tags": [
       "NO",
-      "lippu"
+      "lippu",
+      "lippu: norja"
     ],
     "unicode": "🇳🇴"
   },
@@ -36270,7 +36416,8 @@
     "order": 4947,
     "tags": [
       "NP",
-      "lippu"
+      "lippu",
+      "lippu: nepal"
     ],
     "unicode": "🇳🇵"
   },
@@ -36281,7 +36428,8 @@
     "order": 4948,
     "tags": [
       "NR",
-      "lippu"
+      "lippu",
+      "lippu: nauru"
     ],
     "unicode": "🇳🇷"
   },
@@ -36292,7 +36440,8 @@
     "order": 4949,
     "tags": [
       "NU",
-      "lippu"
+      "lippu",
+      "lippu: niue"
     ],
     "unicode": "🇳🇺"
   },
@@ -36303,7 +36452,8 @@
     "order": 4950,
     "tags": [
       "NZ",
-      "lippu"
+      "lippu",
+      "lippu: uusi-seelanti"
     ],
     "unicode": "🇳🇿"
   },
@@ -36314,7 +36464,8 @@
     "order": 4951,
     "tags": [
       "OM",
-      "lippu"
+      "lippu",
+      "lippu: oman"
     ],
     "unicode": "🇴🇲"
   },
@@ -36325,7 +36476,8 @@
     "order": 4952,
     "tags": [
       "PA",
-      "lippu"
+      "lippu",
+      "lippu: panama"
     ],
     "unicode": "🇵🇦"
   },
@@ -36336,7 +36488,8 @@
     "order": 4953,
     "tags": [
       "PE",
-      "lippu"
+      "lippu",
+      "lippu: peru"
     ],
     "unicode": "🇵🇪"
   },
@@ -36347,7 +36500,8 @@
     "order": 4954,
     "tags": [
       "PF",
-      "lippu"
+      "lippu",
+      "lippu: ranskan polynesia"
     ],
     "unicode": "🇵🇫"
   },
@@ -36358,7 +36512,8 @@
     "order": 4955,
     "tags": [
       "PG",
-      "lippu"
+      "lippu",
+      "lippu: papua-uusi-guinea"
     ],
     "unicode": "🇵🇬"
   },
@@ -36369,7 +36524,8 @@
     "order": 4956,
     "tags": [
       "PH",
-      "lippu"
+      "lippu",
+      "lippu: filippiinit"
     ],
     "unicode": "🇵🇭"
   },
@@ -36380,7 +36536,8 @@
     "order": 4957,
     "tags": [
       "PK",
-      "lippu"
+      "lippu",
+      "lippu: pakistan"
     ],
     "unicode": "🇵🇰"
   },
@@ -36391,7 +36548,8 @@
     "order": 4958,
     "tags": [
       "PL",
-      "lippu"
+      "lippu",
+      "lippu: puola"
     ],
     "unicode": "🇵🇱"
   },
@@ -36402,7 +36560,8 @@
     "order": 4959,
     "tags": [
       "PM",
-      "lippu"
+      "lippu",
+      "lippu: saint-pierre ja miquelon"
     ],
     "unicode": "🇵🇲"
   },
@@ -36413,7 +36572,8 @@
     "order": 4960,
     "tags": [
       "PN",
-      "lippu"
+      "lippu",
+      "lippu: pitcairn"
     ],
     "unicode": "🇵🇳"
   },
@@ -36424,7 +36584,8 @@
     "order": 4961,
     "tags": [
       "PR",
-      "lippu"
+      "lippu",
+      "lippu: puerto rico"
     ],
     "unicode": "🇵🇷"
   },
@@ -36435,7 +36596,8 @@
     "order": 4962,
     "tags": [
       "PS",
-      "lippu"
+      "lippu",
+      "lippu: palestiinalaisalue"
     ],
     "unicode": "🇵🇸"
   },
@@ -36446,7 +36608,8 @@
     "order": 4963,
     "tags": [
       "PT",
-      "lippu"
+      "lippu",
+      "lippu: portugali"
     ],
     "unicode": "🇵🇹"
   },
@@ -36457,7 +36620,8 @@
     "order": 4964,
     "tags": [
       "PW",
-      "lippu"
+      "lippu",
+      "lippu: palau"
     ],
     "unicode": "🇵🇼"
   },
@@ -36468,7 +36632,8 @@
     "order": 4965,
     "tags": [
       "PY",
-      "lippu"
+      "lippu",
+      "lippu: paraguay"
     ],
     "unicode": "🇵🇾"
   },
@@ -36479,7 +36644,8 @@
     "order": 4966,
     "tags": [
       "QA",
-      "lippu"
+      "lippu",
+      "lippu: qatar"
     ],
     "unicode": "🇶🇦"
   },
@@ -36490,7 +36656,8 @@
     "order": 4967,
     "tags": [
       "RE",
-      "lippu"
+      "lippu",
+      "lippu: réunion"
     ],
     "unicode": "🇷🇪"
   },
@@ -36501,7 +36668,8 @@
     "order": 4968,
     "tags": [
       "RO",
-      "lippu"
+      "lippu",
+      "lippu: romania"
     ],
     "unicode": "🇷🇴"
   },
@@ -36512,7 +36680,8 @@
     "order": 4969,
     "tags": [
       "RS",
-      "lippu"
+      "lippu",
+      "lippu: serbia"
     ],
     "unicode": "🇷🇸"
   },
@@ -36523,7 +36692,8 @@
     "order": 4970,
     "tags": [
       "RU",
-      "lippu"
+      "lippu",
+      "lippu: venäjä"
     ],
     "unicode": "🇷🇺"
   },
@@ -36534,7 +36704,8 @@
     "order": 4971,
     "tags": [
       "RW",
-      "lippu"
+      "lippu",
+      "lippu: ruanda"
     ],
     "unicode": "🇷🇼"
   },
@@ -36545,7 +36716,8 @@
     "order": 4972,
     "tags": [
       "SA",
-      "lippu"
+      "lippu",
+      "lippu: saudi-arabia"
     ],
     "unicode": "🇸🇦"
   },
@@ -36556,7 +36728,8 @@
     "order": 4973,
     "tags": [
       "SB",
-      "lippu"
+      "lippu",
+      "lippu: salomonsaaret"
     ],
     "unicode": "🇸🇧"
   },
@@ -36567,7 +36740,8 @@
     "order": 4974,
     "tags": [
       "SC",
-      "lippu"
+      "lippu",
+      "lippu: seychellit"
     ],
     "unicode": "🇸🇨"
   },
@@ -36578,7 +36752,8 @@
     "order": 4975,
     "tags": [
       "SD",
-      "lippu"
+      "lippu",
+      "lippu: sudan"
     ],
     "unicode": "🇸🇩"
   },
@@ -36589,7 +36764,8 @@
     "order": 4976,
     "tags": [
       "SE",
-      "lippu"
+      "lippu",
+      "lippu: ruotsi"
     ],
     "unicode": "🇸🇪"
   },
@@ -36600,7 +36776,8 @@
     "order": 4977,
     "tags": [
       "SG",
-      "lippu"
+      "lippu",
+      "lippu: singapore"
     ],
     "unicode": "🇸🇬"
   },
@@ -36611,7 +36788,8 @@
     "order": 4978,
     "tags": [
       "SH",
-      "lippu"
+      "lippu",
+      "lippu: saint helena"
     ],
     "unicode": "🇸🇭"
   },
@@ -36622,18 +36800,20 @@
     "order": 4979,
     "tags": [
       "SI",
-      "lippu"
+      "lippu",
+      "lippu: slovenia"
     ],
     "unicode": "🇸🇮"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1EF",
-    "label": "lippu: Svalbard ja Jan Mayen",
+    "label": "lippu: Huippuvuoret ja Jan Mayen",
     "order": 4980,
     "tags": [
       "SJ",
-      "lippu"
+      "lippu",
+      "lippu: huippuvuoret ja jan mayen"
     ],
     "unicode": "🇸🇯"
   },
@@ -36644,7 +36824,8 @@
     "order": 4981,
     "tags": [
       "SK",
-      "lippu"
+      "lippu",
+      "lippu: slovakia"
     ],
     "unicode": "🇸🇰"
   },
@@ -36655,7 +36836,8 @@
     "order": 4982,
     "tags": [
       "SL",
-      "lippu"
+      "lippu",
+      "lippu: sierra leone"
     ],
     "unicode": "🇸🇱"
   },
@@ -36666,7 +36848,8 @@
     "order": 4983,
     "tags": [
       "SM",
-      "lippu"
+      "lippu",
+      "lippu: san marino"
     ],
     "unicode": "🇸🇲"
   },
@@ -36677,7 +36860,8 @@
     "order": 4984,
     "tags": [
       "SN",
-      "lippu"
+      "lippu",
+      "lippu: senegal"
     ],
     "unicode": "🇸🇳"
   },
@@ -36688,7 +36872,8 @@
     "order": 4985,
     "tags": [
       "SO",
-      "lippu"
+      "lippu",
+      "lippu: somalia"
     ],
     "unicode": "🇸🇴"
   },
@@ -36699,7 +36884,8 @@
     "order": 4986,
     "tags": [
       "SR",
-      "lippu"
+      "lippu",
+      "lippu: suriname"
     ],
     "unicode": "🇸🇷"
   },
@@ -36710,7 +36896,8 @@
     "order": 4987,
     "tags": [
       "SS",
-      "lippu"
+      "lippu",
+      "lippu: etelä-sudan"
     ],
     "unicode": "🇸🇸"
   },
@@ -36721,7 +36908,8 @@
     "order": 4988,
     "tags": [
       "ST",
-      "lippu"
+      "lippu",
+      "lippu: são tomé ja príncipe"
     ],
     "unicode": "🇸🇹"
   },
@@ -36732,7 +36920,8 @@
     "order": 4989,
     "tags": [
       "SV",
-      "lippu"
+      "lippu",
+      "lippu: el salvador"
     ],
     "unicode": "🇸🇻"
   },
@@ -36743,7 +36932,8 @@
     "order": 4990,
     "tags": [
       "SX",
-      "lippu"
+      "lippu",
+      "lippu: sint maarten"
     ],
     "unicode": "🇸🇽"
   },
@@ -36754,7 +36944,8 @@
     "order": 4991,
     "tags": [
       "SY",
-      "lippu"
+      "lippu",
+      "lippu: syyria"
     ],
     "unicode": "🇸🇾"
   },
@@ -36765,7 +36956,8 @@
     "order": 4992,
     "tags": [
       "SZ",
-      "lippu"
+      "lippu",
+      "lippu: eswatini"
     ],
     "unicode": "🇸🇿"
   },
@@ -36776,7 +36968,8 @@
     "order": 4993,
     "tags": [
       "TA",
-      "lippu"
+      "lippu",
+      "lippu: tristan da cunha"
     ],
     "unicode": "🇹🇦"
   },
@@ -36787,7 +36980,8 @@
     "order": 4994,
     "tags": [
       "TC",
-      "lippu"
+      "lippu",
+      "lippu: turks- ja caicossaaret"
     ],
     "unicode": "🇹🇨"
   },
@@ -36798,7 +36992,8 @@
     "order": 4995,
     "tags": [
       "TD",
-      "lippu"
+      "lippu",
+      "lippu: tšad"
     ],
     "unicode": "🇹🇩"
   },
@@ -36809,7 +37004,8 @@
     "order": 4996,
     "tags": [
       "TF",
-      "lippu"
+      "lippu",
+      "lippu: ranskan eteläiset ja antarktiset alueet"
     ],
     "unicode": "🇹🇫"
   },
@@ -36820,7 +37016,8 @@
     "order": 4997,
     "tags": [
       "TG",
-      "lippu"
+      "lippu",
+      "lippu: togo"
     ],
     "unicode": "🇹🇬"
   },
@@ -36831,7 +37028,8 @@
     "order": 4998,
     "tags": [
       "TH",
-      "lippu"
+      "lippu",
+      "lippu: thaimaa"
     ],
     "unicode": "🇹🇭"
   },
@@ -36842,7 +37040,8 @@
     "order": 4999,
     "tags": [
       "TJ",
-      "lippu"
+      "lippu",
+      "lippu: tadžikistan"
     ],
     "unicode": "🇹🇯"
   },
@@ -36853,7 +37052,8 @@
     "order": 5000,
     "tags": [
       "TK",
-      "lippu"
+      "lippu",
+      "lippu: tokelau"
     ],
     "unicode": "🇹🇰"
   },
@@ -36864,7 +37064,8 @@
     "order": 5001,
     "tags": [
       "TL",
-      "lippu"
+      "lippu",
+      "lippu: itä-timor"
     ],
     "unicode": "🇹🇱"
   },
@@ -36875,7 +37076,8 @@
     "order": 5002,
     "tags": [
       "TM",
-      "lippu"
+      "lippu",
+      "lippu: turkmenistan"
     ],
     "unicode": "🇹🇲"
   },
@@ -36886,7 +37088,8 @@
     "order": 5003,
     "tags": [
       "TN",
-      "lippu"
+      "lippu",
+      "lippu: tunisia"
     ],
     "unicode": "🇹🇳"
   },
@@ -36897,7 +37100,8 @@
     "order": 5004,
     "tags": [
       "TO",
-      "lippu"
+      "lippu",
+      "lippu: tonga"
     ],
     "unicode": "🇹🇴"
   },
@@ -36908,7 +37112,8 @@
     "order": 5005,
     "tags": [
       "TR",
-      "lippu"
+      "lippu",
+      "lippu: turkki"
     ],
     "unicode": "🇹🇷"
   },
@@ -36919,7 +37124,8 @@
     "order": 5006,
     "tags": [
       "TT",
-      "lippu"
+      "lippu",
+      "lippu: trinidad ja tobago"
     ],
     "unicode": "🇹🇹"
   },
@@ -36930,7 +37136,8 @@
     "order": 5007,
     "tags": [
       "TV",
-      "lippu"
+      "lippu",
+      "lippu: tuvalu"
     ],
     "unicode": "🇹🇻"
   },
@@ -36941,7 +37148,8 @@
     "order": 5008,
     "tags": [
       "TW",
-      "lippu"
+      "lippu",
+      "lippu: taiwan"
     ],
     "unicode": "🇹🇼"
   },
@@ -36952,7 +37160,8 @@
     "order": 5009,
     "tags": [
       "TZ",
-      "lippu"
+      "lippu",
+      "lippu: tansania"
     ],
     "unicode": "🇹🇿"
   },
@@ -36963,7 +37172,8 @@
     "order": 5010,
     "tags": [
       "UA",
-      "lippu"
+      "lippu",
+      "lippu: ukraina"
     ],
     "unicode": "🇺🇦"
   },
@@ -36974,7 +37184,8 @@
     "order": 5011,
     "tags": [
       "UG",
-      "lippu"
+      "lippu",
+      "lippu: uganda"
     ],
     "unicode": "🇺🇬"
   },
@@ -36985,7 +37196,8 @@
     "order": 5012,
     "tags": [
       "UM",
-      "lippu"
+      "lippu",
+      "lippu: yhdysvaltain erillissaaret"
     ],
     "unicode": "🇺🇲"
   },
@@ -36996,7 +37208,8 @@
     "order": 5013,
     "tags": [
       "UN",
-      "lippu"
+      "lippu",
+      "lippu: yhdistyneet kansakunnat"
     ],
     "unicode": "🇺🇳"
   },
@@ -37007,7 +37220,8 @@
     "order": 5014,
     "tags": [
       "US",
-      "lippu"
+      "lippu",
+      "lippu: yhdysvallat"
     ],
     "unicode": "🇺🇸"
   },
@@ -37018,7 +37232,8 @@
     "order": 5015,
     "tags": [
       "UY",
-      "lippu"
+      "lippu",
+      "lippu: uruguay"
     ],
     "unicode": "🇺🇾"
   },
@@ -37029,7 +37244,8 @@
     "order": 5016,
     "tags": [
       "UZ",
-      "lippu"
+      "lippu",
+      "lippu: uzbekistan"
     ],
     "unicode": "🇺🇿"
   },
@@ -37040,7 +37256,8 @@
     "order": 5017,
     "tags": [
       "VA",
-      "lippu"
+      "lippu",
+      "lippu: vatikaani"
     ],
     "unicode": "🇻🇦"
   },
@@ -37051,7 +37268,8 @@
     "order": 5018,
     "tags": [
       "VC",
-      "lippu"
+      "lippu",
+      "lippu: saint vincent ja grenadiinit"
     ],
     "unicode": "🇻🇨"
   },
@@ -37062,7 +37280,8 @@
     "order": 5019,
     "tags": [
       "VE",
-      "lippu"
+      "lippu",
+      "lippu: venezuela"
     ],
     "unicode": "🇻🇪"
   },
@@ -37073,7 +37292,8 @@
     "order": 5020,
     "tags": [
       "VG",
-      "lippu"
+      "lippu",
+      "lippu: brittiläiset neitsytsaaret"
     ],
     "unicode": "🇻🇬"
   },
@@ -37084,7 +37304,8 @@
     "order": 5021,
     "tags": [
       "VI",
-      "lippu"
+      "lippu",
+      "lippu: yhdysvaltain neitsytsaaret"
     ],
     "unicode": "🇻🇮"
   },
@@ -37095,7 +37316,8 @@
     "order": 5022,
     "tags": [
       "VN",
-      "lippu"
+      "lippu",
+      "lippu: vietnam"
     ],
     "unicode": "🇻🇳"
   },
@@ -37106,7 +37328,8 @@
     "order": 5023,
     "tags": [
       "VU",
-      "lippu"
+      "lippu",
+      "lippu: vanuatu"
     ],
     "unicode": "🇻🇺"
   },
@@ -37117,7 +37340,8 @@
     "order": 5024,
     "tags": [
       "WF",
-      "lippu"
+      "lippu",
+      "lippu: wallis ja futuna"
     ],
     "unicode": "🇼🇫"
   },
@@ -37128,7 +37352,8 @@
     "order": 5025,
     "tags": [
       "WS",
-      "lippu"
+      "lippu",
+      "lippu: samoa"
     ],
     "unicode": "🇼🇸"
   },
@@ -37139,7 +37364,8 @@
     "order": 5026,
     "tags": [
       "XK",
-      "lippu"
+      "lippu",
+      "lippu: kosovo"
     ],
     "unicode": "🇽🇰"
   },
@@ -37150,7 +37376,8 @@
     "order": 5027,
     "tags": [
       "YE",
-      "lippu"
+      "lippu",
+      "lippu: jemen"
     ],
     "unicode": "🇾🇪"
   },
@@ -37161,7 +37388,8 @@
     "order": 5028,
     "tags": [
       "YT",
-      "lippu"
+      "lippu",
+      "lippu: mayotte"
     ],
     "unicode": "🇾🇹"
   },
@@ -37172,7 +37400,8 @@
     "order": 5029,
     "tags": [
       "ZA",
-      "lippu"
+      "lippu",
+      "lippu: etelä-afrikka"
     ],
     "unicode": "🇿🇦"
   },
@@ -37183,7 +37412,8 @@
     "order": 5030,
     "tags": [
       "ZM",
-      "lippu"
+      "lippu",
+      "lippu: sambia"
     ],
     "unicode": "🇿🇲"
   },
@@ -37194,7 +37424,8 @@
     "order": 5031,
     "tags": [
       "ZW",
-      "lippu"
+      "lippu",
+      "lippu: zimbabwe"
     ],
     "unicode": "🇿🇼"
   },
@@ -37205,7 +37436,8 @@
     "order": 5032,
     "tags": [
       "gbeng",
-      "lippu"
+      "lippu",
+      "lippu: englanti"
     ],
     "unicode": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
   },
@@ -37216,7 +37448,8 @@
     "order": 5033,
     "tags": [
       "gbsct",
-      "lippu"
+      "lippu",
+      "lippu: skotlanti"
     ],
     "unicode": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
   },
@@ -37227,7 +37460,8 @@
     "order": 5034,
     "tags": [
       "gbwls",
-      "lippu"
+      "lippu",
+      "lippu: wales"
     ],
     "unicode": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
   }

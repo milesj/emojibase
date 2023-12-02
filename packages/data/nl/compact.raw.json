@@ -541,10 +541,12 @@
     "label": "blij gezicht met uitgestoken handen",
     "order": 31,
     "tags": [
-      "blij gezicht met handen uitgestoken voor een knuffel",
+      "blij gezicht",
+      "blij gezicht met open handen",
       "gezicht",
       "knuffel",
-      "knuffelen"
+      "knuffelen",
+      "uitgestoken handen"
     ],
     "unicode": "🤗"
   },
@@ -565,7 +567,6 @@
     "order": 33,
     "tags": [
       "bang",
-      "gezicht met open ogen en hand over de mond",
       "ongeloof",
       "ontzag",
       "schaamte",
@@ -813,28 +814,22 @@
   {
     "group": 0,
     "hexcode": "1F642-200D-2194-FE0F",
-    "label": "head shaking horizontally",
+    "label": "hoofd dat horizontaal beweegt",
     "order": 53,
     "tags": [
-      "enigszins lachend gezicht",
-      "gezicht",
-      "glimlach",
-      "pijl",
-      "pijl naar links en rechts"
+      "nee",
+      "schudden"
     ],
     "unicode": "🙂‍↔️"
   },
   {
     "group": 0,
     "hexcode": "1F642-200D-2195-FE0F",
-    "label": "head shaking vertically",
+    "label": "hoofd dat verticaal beweegt",
     "order": 55,
     "tags": [
-      "enigszins lachend gezicht",
-      "gezicht",
-      "glimlach",
-      "pijl",
-      "pijl omhoog en omlaag"
+      "ja",
+      "knikken"
     ],
     "unicode": "🙂‍↕️"
   },
@@ -2266,8 +2261,11 @@
     "label": "spraakballon met oog",
     "order": 175,
     "tags": [
+      "ballon",
       "getuige",
       "oog",
+      "oog in tekstballon",
+      "spraak",
       "spraakballon"
     ],
     "unicode": "👁️‍🗨️"
@@ -8312,6 +8310,7 @@
     "label": "rechter",
     "order": 1080,
     "tags": [
+      "recht",
       "weegschaal"
     ],
     "unicode": "🧑‍⚖️",
@@ -12038,7 +12037,8 @@
     "label": "kersttransgender",
     "order": 1661,
     "tags": [
-      "kerstman, kerst"
+      "kerst",
+      "kerstman"
     ],
     "unicode": "🧑‍🎄",
     "skins": [
@@ -15646,7 +15646,7 @@
     "label": "mannen met konijnenoren",
     "order": 2430,
     "tags": [
-      "dansen",
+      "danser",
       "feesten",
       "konijnenoor",
       "mannen"
@@ -15659,7 +15659,7 @@
     "label": "vrouwen met konijnenoren",
     "order": 2432,
     "tags": [
-      "danser",
+      "danseres",
       "feesten",
       "konijnenoor",
       "vrouwen"
@@ -20794,8 +20794,8 @@
       "gezicht",
       "hoofd",
       "silhouet",
-      "spreken",
-      "sprekend"
+      "spreek",
+      "spreken"
     ],
     "unicode": "🗣️"
   },
@@ -20850,11 +20850,10 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2",
-    "label": "family: adult, adult, child",
+    "label": "gezin: volwassene, volwassene, kind",
     "order": 3470,
     "tags": [
-      "genderneutraal",
-      "jong",
+      "gezin: volwassene",
       "kind",
       "volwassene"
     ],
@@ -20863,11 +20862,10 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, adult, child, child",
+    "label": "gezin: volwassene, volwassene, kind, kind",
     "order": 3471,
     "tags": [
-      "genderneutraal",
-      "jong",
+      "gezin: volwassene",
       "kind",
       "volwassene"
     ],
@@ -20876,26 +20874,22 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2",
-    "label": "family: adult, child",
+    "label": "gezin: volwassene, kind",
     "order": 3472,
     "tags": [
-      "genderneutraal",
-      "jong",
-      "kind",
-      "volwassene"
+      "gezin: volwassene",
+      "kind"
     ],
     "unicode": "🧑‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, child, child",
+    "label": "gezin: volwassene, kind, kind",
     "order": 3473,
     "tags": [
-      "genderneutraal",
-      "jong",
-      "kind",
-      "volwassene"
+      "gezin: volwassene",
+      "kind"
     ],
     "unicode": "🧑‍🧒‍🧒"
   },
@@ -21093,7 +21087,7 @@
   {
     "group": 3,
     "hexcode": "1F415-200D-1F9BA",
-    "label": "as­sis­ten­tie­hond",
+    "label": "assistentiehond",
     "order": 3491,
     "tags": [
       "assistentie",
@@ -21960,14 +21954,14 @@
   {
     "group": 3,
     "hexcode": "1F426-200D-2B1B",
-    "label": "black bird",
+    "label": "merel",
     "order": 3572,
     "tags": [
-      "bird",
-      "black",
-      "crow",
-      "raven",
-      "rook"
+      "kauw",
+      "kraai",
+      "raaf",
+      "vogel",
+      "zwart"
     ],
     "unicode": "🐦‍⬛"
   },
@@ -21987,13 +21981,13 @@
   {
     "group": 3,
     "hexcode": "1F426-200D-1F525",
-    "label": "phoenix",
+    "label": "feniks",
     "order": 3574,
     "tags": [
-      "hulpmiddel",
-      "vlam",
-      "vogel",
-      "vuur"
+      "fantasie",
+      "hergeboorte",
+      "reïncarnatie",
+      "vuurvogel"
     ],
     "unicode": "🐦‍🔥"
   },
@@ -22449,9 +22443,7 @@
       "bloem",
       "boeddhisme",
       "hindoeïsme",
-      "india",
-      "puurheid",
-      "vietnam"
+      "puurheid"
     ],
     "unicode": "🪷"
   },
@@ -22776,14 +22768,12 @@
   {
     "group": 4,
     "hexcode": "1F34B-200D-1F7E9",
-    "label": "lime",
+    "label": "limoen",
     "order": 3649,
     "tags": [
-      "citroen",
       "citrus",
       "fruit",
-      "groen",
-      "vierkant"
+      "tropisch"
     ],
     "unicode": "🍋‍🟩"
   },
@@ -23128,10 +23118,10 @@
     "order": 3681,
     "tags": [
       "bonen",
+      "dop",
       "edamame",
       "erwt",
       "groente",
-      "peul",
       "peulvrucht"
     ],
     "unicode": "🫛"
@@ -23139,13 +23129,13 @@
   {
     "group": 4,
     "hexcode": "1F344-200D-1F7EB",
-    "label": "brown mushroom",
+    "label": "bruine paddestoel",
     "order": 3682,
     "tags": [
-      "bruin",
-      "paddenstoel",
-      "vierkant",
-      "zwam"
+      "eten",
+      "groente",
+      "natuur",
+      "schimmel"
     ],
     "unicode": "🍄‍🟫"
   },
@@ -23315,7 +23305,6 @@
     "label": "patat",
     "order": 3697,
     "tags": [
-      "frans",
       "frietjes"
     ],
     "unicode": "🍟"
@@ -23392,9 +23381,9 @@
     "tags": [
       "falafel",
       "gevuld",
-      "gyro",
+      "gyros",
       "kebab",
-      "pitabrood",
+      "pitabroodje",
       "voedsel"
     ],
     "unicode": "🥙"
@@ -27015,7 +27004,6 @@
     "tags": [
       "bel",
       "feest",
-      "klokkenspel",
       "wind"
     ],
     "unicode": "🎐"
@@ -30303,14 +30291,14 @@
   {
     "group": 7,
     "hexcode": "26D3-FE0F-200D-1F4A5",
-    "label": "broken chain",
+    "label": "gebroken ketting",
     "order": 4395,
     "tags": [
-      "boem",
-      "botsing",
+      "boeien",
+      "breek",
+      "gebroken",
       "ketting",
-      "kettingen",
-      "strip"
+      "vrijheid"
     ],
     "unicode": "⛓️‍💥"
   },
@@ -32817,8 +32805,7 @@
     "order": 4679,
     "tags": [
       "a",
-      "bloedgroep",
-      "bloedgroep a"
+      "bloedgroep"
     ],
     "unicode": "🅰️"
   },
@@ -32829,8 +32816,7 @@
     "order": 4680,
     "tags": [
       "ab",
-      "bloedgroep",
-      "bloedgroep ab"
+      "bloedgroep"
     ],
     "unicode": "🆎"
   },
@@ -32841,8 +32827,7 @@
     "order": 4682,
     "tags": [
       "b",
-      "bloedgroep",
-      "bloedgroep b"
+      "bloedgroep"
     ],
     "unicode": "🅱️"
   },
@@ -32942,7 +32927,6 @@
     "order": 4694,
     "tags": [
       "bloedgroep",
-      "bloedgroep o",
       "o"
     ],
     "unicode": "🅾️"
@@ -33236,10 +33220,12 @@
     "label": "Japans teken voor ‘vol, geen plaats’",
     "order": 4721,
     "tags": [
+      "geen plaats’",
       "ideogram",
       "japans",
+      "japans teken voor ‘vol",
       "japans teken voor ‘vol, geen plaats’",
-      "‘vol, geen plaats’",
+      "‘vol",
       "満"
     ],
     "unicode": "🈵"
@@ -33734,7 +33720,8 @@
     "order": 4774,
     "tags": [
       "AC",
-      "vlag"
+      "vlag",
+      "vlag: ascension"
     ],
     "unicode": "🇦🇨"
   },
@@ -33745,7 +33732,8 @@
     "order": 4775,
     "tags": [
       "AD",
-      "vlag"
+      "vlag",
+      "vlag: andorra"
     ],
     "unicode": "🇦🇩"
   },
@@ -33756,7 +33744,8 @@
     "order": 4776,
     "tags": [
       "AE",
-      "vlag"
+      "vlag",
+      "vlag: verenigde arabische emiraten"
     ],
     "unicode": "🇦🇪"
   },
@@ -33767,7 +33756,8 @@
     "order": 4777,
     "tags": [
       "AF",
-      "vlag"
+      "vlag",
+      "vlag: afghanistan"
     ],
     "unicode": "🇦🇫"
   },
@@ -33778,7 +33768,8 @@
     "order": 4778,
     "tags": [
       "AG",
-      "vlag"
+      "vlag",
+      "vlag: antigua en barbuda"
     ],
     "unicode": "🇦🇬"
   },
@@ -33789,7 +33780,8 @@
     "order": 4779,
     "tags": [
       "AI",
-      "vlag"
+      "vlag",
+      "vlag: anguilla"
     ],
     "unicode": "🇦🇮"
   },
@@ -33800,7 +33792,8 @@
     "order": 4780,
     "tags": [
       "AL",
-      "vlag"
+      "vlag",
+      "vlag: albanië"
     ],
     "unicode": "🇦🇱"
   },
@@ -33811,7 +33804,8 @@
     "order": 4781,
     "tags": [
       "AM",
-      "vlag"
+      "vlag",
+      "vlag: armenië"
     ],
     "unicode": "🇦🇲"
   },
@@ -33822,7 +33816,8 @@
     "order": 4782,
     "tags": [
       "AO",
-      "vlag"
+      "vlag",
+      "vlag: angola"
     ],
     "unicode": "🇦🇴"
   },
@@ -33833,7 +33828,8 @@
     "order": 4783,
     "tags": [
       "AQ",
-      "vlag"
+      "vlag",
+      "vlag: antarctica"
     ],
     "unicode": "🇦🇶"
   },
@@ -33844,7 +33840,8 @@
     "order": 4784,
     "tags": [
       "AR",
-      "vlag"
+      "vlag",
+      "vlag: argentinië"
     ],
     "unicode": "🇦🇷"
   },
@@ -33855,7 +33852,8 @@
     "order": 4785,
     "tags": [
       "AS",
-      "vlag"
+      "vlag",
+      "vlag: amerikaans-samoa"
     ],
     "unicode": "🇦🇸"
   },
@@ -33866,7 +33864,8 @@
     "order": 4786,
     "tags": [
       "AT",
-      "vlag"
+      "vlag",
+      "vlag: oostenrijk"
     ],
     "unicode": "🇦🇹"
   },
@@ -33877,7 +33876,8 @@
     "order": 4787,
     "tags": [
       "AU",
-      "vlag"
+      "vlag",
+      "vlag: australië"
     ],
     "unicode": "🇦🇺"
   },
@@ -33888,7 +33888,8 @@
     "order": 4788,
     "tags": [
       "AW",
-      "vlag"
+      "vlag",
+      "vlag: aruba"
     ],
     "unicode": "🇦🇼"
   },
@@ -33899,7 +33900,8 @@
     "order": 4789,
     "tags": [
       "AX",
-      "vlag"
+      "vlag",
+      "vlag: åland"
     ],
     "unicode": "🇦🇽"
   },
@@ -33910,7 +33912,8 @@
     "order": 4790,
     "tags": [
       "AZ",
-      "vlag"
+      "vlag",
+      "vlag: azerbeidzjan"
     ],
     "unicode": "🇦🇿"
   },
@@ -33921,7 +33924,8 @@
     "order": 4791,
     "tags": [
       "BA",
-      "vlag"
+      "vlag",
+      "vlag: bosnië en herzegovina"
     ],
     "unicode": "🇧🇦"
   },
@@ -33932,7 +33936,8 @@
     "order": 4792,
     "tags": [
       "BB",
-      "vlag"
+      "vlag",
+      "vlag: barbados"
     ],
     "unicode": "🇧🇧"
   },
@@ -33943,7 +33948,8 @@
     "order": 4793,
     "tags": [
       "BD",
-      "vlag"
+      "vlag",
+      "vlag: bangladesh"
     ],
     "unicode": "🇧🇩"
   },
@@ -33954,7 +33960,8 @@
     "order": 4794,
     "tags": [
       "BE",
-      "vlag"
+      "vlag",
+      "vlag: belgië"
     ],
     "unicode": "🇧🇪"
   },
@@ -33965,7 +33972,8 @@
     "order": 4795,
     "tags": [
       "BF",
-      "vlag"
+      "vlag",
+      "vlag: burkina faso"
     ],
     "unicode": "🇧🇫"
   },
@@ -33976,7 +33984,8 @@
     "order": 4796,
     "tags": [
       "BG",
-      "vlag"
+      "vlag",
+      "vlag: bulgarije"
     ],
     "unicode": "🇧🇬"
   },
@@ -33987,7 +33996,8 @@
     "order": 4797,
     "tags": [
       "BH",
-      "vlag"
+      "vlag",
+      "vlag: bahrein"
     ],
     "unicode": "🇧🇭"
   },
@@ -33998,7 +34008,8 @@
     "order": 4798,
     "tags": [
       "BI",
-      "vlag"
+      "vlag",
+      "vlag: burundi"
     ],
     "unicode": "🇧🇮"
   },
@@ -34009,7 +34020,8 @@
     "order": 4799,
     "tags": [
       "BJ",
-      "vlag"
+      "vlag",
+      "vlag: benin"
     ],
     "unicode": "🇧🇯"
   },
@@ -34020,7 +34032,8 @@
     "order": 4800,
     "tags": [
       "BL",
-      "vlag"
+      "vlag",
+      "vlag: saint-barthélemy"
     ],
     "unicode": "🇧🇱"
   },
@@ -34031,7 +34044,8 @@
     "order": 4801,
     "tags": [
       "BM",
-      "vlag"
+      "vlag",
+      "vlag: bermuda"
     ],
     "unicode": "🇧🇲"
   },
@@ -34042,7 +34056,8 @@
     "order": 4802,
     "tags": [
       "BN",
-      "vlag"
+      "vlag",
+      "vlag: brunei"
     ],
     "unicode": "🇧🇳"
   },
@@ -34053,7 +34068,8 @@
     "order": 4803,
     "tags": [
       "BO",
-      "vlag"
+      "vlag",
+      "vlag: bolivia"
     ],
     "unicode": "🇧🇴"
   },
@@ -34064,7 +34080,8 @@
     "order": 4804,
     "tags": [
       "BQ",
-      "vlag"
+      "vlag",
+      "vlag: caribisch nederland"
     ],
     "unicode": "🇧🇶"
   },
@@ -34075,7 +34092,8 @@
     "order": 4805,
     "tags": [
       "BR",
-      "vlag"
+      "vlag",
+      "vlag: brazilië"
     ],
     "unicode": "🇧🇷"
   },
@@ -34086,7 +34104,8 @@
     "order": 4806,
     "tags": [
       "BS",
-      "vlag"
+      "vlag",
+      "vlag: bahama’s"
     ],
     "unicode": "🇧🇸"
   },
@@ -34097,7 +34116,8 @@
     "order": 4807,
     "tags": [
       "BT",
-      "vlag"
+      "vlag",
+      "vlag: bhutan"
     ],
     "unicode": "🇧🇹"
   },
@@ -34108,7 +34128,8 @@
     "order": 4808,
     "tags": [
       "BV",
-      "vlag"
+      "vlag",
+      "vlag: bouveteiland"
     ],
     "unicode": "🇧🇻"
   },
@@ -34119,7 +34140,8 @@
     "order": 4809,
     "tags": [
       "BW",
-      "vlag"
+      "vlag",
+      "vlag: botswana"
     ],
     "unicode": "🇧🇼"
   },
@@ -34130,7 +34152,8 @@
     "order": 4810,
     "tags": [
       "BY",
-      "vlag"
+      "vlag",
+      "vlag: belarus"
     ],
     "unicode": "🇧🇾"
   },
@@ -34141,7 +34164,8 @@
     "order": 4811,
     "tags": [
       "BZ",
-      "vlag"
+      "vlag",
+      "vlag: belize"
     ],
     "unicode": "🇧🇿"
   },
@@ -34152,7 +34176,8 @@
     "order": 4812,
     "tags": [
       "CA",
-      "vlag"
+      "vlag",
+      "vlag: canada"
     ],
     "unicode": "🇨🇦"
   },
@@ -34163,7 +34188,8 @@
     "order": 4813,
     "tags": [
       "CC",
-      "vlag"
+      "vlag",
+      "vlag: cocoseilanden"
     ],
     "unicode": "🇨🇨"
   },
@@ -34174,7 +34200,8 @@
     "order": 4814,
     "tags": [
       "CD",
-      "vlag"
+      "vlag",
+      "vlag: congo-kinshasa"
     ],
     "unicode": "🇨🇩"
   },
@@ -34185,7 +34212,8 @@
     "order": 4815,
     "tags": [
       "CF",
-      "vlag"
+      "vlag",
+      "vlag: centraal-afrikaanse republiek"
     ],
     "unicode": "🇨🇫"
   },
@@ -34196,7 +34224,8 @@
     "order": 4816,
     "tags": [
       "CG",
-      "vlag"
+      "vlag",
+      "vlag: congo-brazzaville"
     ],
     "unicode": "🇨🇬"
   },
@@ -34207,7 +34236,8 @@
     "order": 4817,
     "tags": [
       "CH",
-      "vlag"
+      "vlag",
+      "vlag: zwitserland"
     ],
     "unicode": "🇨🇭"
   },
@@ -34218,7 +34248,8 @@
     "order": 4818,
     "tags": [
       "CI",
-      "vlag"
+      "vlag",
+      "vlag: ivoorkust"
     ],
     "unicode": "🇨🇮"
   },
@@ -34229,7 +34260,8 @@
     "order": 4819,
     "tags": [
       "CK",
-      "vlag"
+      "vlag",
+      "vlag: cookeilanden"
     ],
     "unicode": "🇨🇰"
   },
@@ -34240,7 +34272,8 @@
     "order": 4820,
     "tags": [
       "CL",
-      "vlag"
+      "vlag",
+      "vlag: chili"
     ],
     "unicode": "🇨🇱"
   },
@@ -34251,7 +34284,8 @@
     "order": 4821,
     "tags": [
       "CM",
-      "vlag"
+      "vlag",
+      "vlag: kameroen"
     ],
     "unicode": "🇨🇲"
   },
@@ -34262,7 +34296,8 @@
     "order": 4822,
     "tags": [
       "CN",
-      "vlag"
+      "vlag",
+      "vlag: china"
     ],
     "unicode": "🇨🇳"
   },
@@ -34273,7 +34308,8 @@
     "order": 4823,
     "tags": [
       "CO",
-      "vlag"
+      "vlag",
+      "vlag: colombia"
     ],
     "unicode": "🇨🇴"
   },
@@ -34284,7 +34320,8 @@
     "order": 4824,
     "tags": [
       "CP",
-      "vlag"
+      "vlag",
+      "vlag: clipperton"
     ],
     "unicode": "🇨🇵"
   },
@@ -34295,7 +34332,8 @@
     "order": 4825,
     "tags": [
       "CR",
-      "vlag"
+      "vlag",
+      "vlag: costa rica"
     ],
     "unicode": "🇨🇷"
   },
@@ -34306,7 +34344,8 @@
     "order": 4826,
     "tags": [
       "CU",
-      "vlag"
+      "vlag",
+      "vlag: cuba"
     ],
     "unicode": "🇨🇺"
   },
@@ -34317,7 +34356,8 @@
     "order": 4827,
     "tags": [
       "CV",
-      "vlag"
+      "vlag",
+      "vlag: kaapverdië"
     ],
     "unicode": "🇨🇻"
   },
@@ -34328,7 +34368,8 @@
     "order": 4828,
     "tags": [
       "CW",
-      "vlag"
+      "vlag",
+      "vlag: curaçao"
     ],
     "unicode": "🇨🇼"
   },
@@ -34339,7 +34380,8 @@
     "order": 4829,
     "tags": [
       "CX",
-      "vlag"
+      "vlag",
+      "vlag: christmaseiland"
     ],
     "unicode": "🇨🇽"
   },
@@ -34350,7 +34392,8 @@
     "order": 4830,
     "tags": [
       "CY",
-      "vlag"
+      "vlag",
+      "vlag: cyprus"
     ],
     "unicode": "🇨🇾"
   },
@@ -34361,7 +34404,8 @@
     "order": 4831,
     "tags": [
       "CZ",
-      "vlag"
+      "vlag",
+      "vlag: tsjechië"
     ],
     "unicode": "🇨🇿"
   },
@@ -34372,7 +34416,8 @@
     "order": 4832,
     "tags": [
       "DE",
-      "vlag"
+      "vlag",
+      "vlag: duitsland"
     ],
     "unicode": "🇩🇪"
   },
@@ -34383,7 +34428,8 @@
     "order": 4833,
     "tags": [
       "DG",
-      "vlag"
+      "vlag",
+      "vlag: diego garcia"
     ],
     "unicode": "🇩🇬"
   },
@@ -34394,7 +34440,8 @@
     "order": 4834,
     "tags": [
       "DJ",
-      "vlag"
+      "vlag",
+      "vlag: djibouti"
     ],
     "unicode": "🇩🇯"
   },
@@ -34405,7 +34452,8 @@
     "order": 4835,
     "tags": [
       "DK",
-      "vlag"
+      "vlag",
+      "vlag: denemarken"
     ],
     "unicode": "🇩🇰"
   },
@@ -34416,7 +34464,8 @@
     "order": 4836,
     "tags": [
       "DM",
-      "vlag"
+      "vlag",
+      "vlag: dominica"
     ],
     "unicode": "🇩🇲"
   },
@@ -34427,7 +34476,8 @@
     "order": 4837,
     "tags": [
       "DO",
-      "vlag"
+      "vlag",
+      "vlag: dominicaanse republiek"
     ],
     "unicode": "🇩🇴"
   },
@@ -34438,7 +34488,8 @@
     "order": 4838,
     "tags": [
       "DZ",
-      "vlag"
+      "vlag",
+      "vlag: algerije"
     ],
     "unicode": "🇩🇿"
   },
@@ -34449,7 +34500,8 @@
     "order": 4839,
     "tags": [
       "EA",
-      "vlag"
+      "vlag",
+      "vlag: ceuta en melilla"
     ],
     "unicode": "🇪🇦"
   },
@@ -34460,7 +34512,8 @@
     "order": 4840,
     "tags": [
       "EC",
-      "vlag"
+      "vlag",
+      "vlag: ecuador"
     ],
     "unicode": "🇪🇨"
   },
@@ -34471,7 +34524,8 @@
     "order": 4841,
     "tags": [
       "EE",
-      "vlag"
+      "vlag",
+      "vlag: estland"
     ],
     "unicode": "🇪🇪"
   },
@@ -34482,7 +34536,8 @@
     "order": 4842,
     "tags": [
       "EG",
-      "vlag"
+      "vlag",
+      "vlag: egypte"
     ],
     "unicode": "🇪🇬"
   },
@@ -34493,7 +34548,8 @@
     "order": 4843,
     "tags": [
       "EH",
-      "vlag"
+      "vlag",
+      "vlag: westelijke sahara"
     ],
     "unicode": "🇪🇭"
   },
@@ -34504,7 +34560,8 @@
     "order": 4844,
     "tags": [
       "ER",
-      "vlag"
+      "vlag",
+      "vlag: eritrea"
     ],
     "unicode": "🇪🇷"
   },
@@ -34515,7 +34572,8 @@
     "order": 4845,
     "tags": [
       "ES",
-      "vlag"
+      "vlag",
+      "vlag: spanje"
     ],
     "unicode": "🇪🇸"
   },
@@ -34526,7 +34584,8 @@
     "order": 4846,
     "tags": [
       "ET",
-      "vlag"
+      "vlag",
+      "vlag: ethiopië"
     ],
     "unicode": "🇪🇹"
   },
@@ -34537,7 +34596,8 @@
     "order": 4847,
     "tags": [
       "EU",
-      "vlag"
+      "vlag",
+      "vlag: europese unie"
     ],
     "unicode": "🇪🇺"
   },
@@ -34548,7 +34608,8 @@
     "order": 4848,
     "tags": [
       "FI",
-      "vlag"
+      "vlag",
+      "vlag: finland"
     ],
     "unicode": "🇫🇮"
   },
@@ -34559,7 +34620,8 @@
     "order": 4849,
     "tags": [
       "FJ",
-      "vlag"
+      "vlag",
+      "vlag: fiji"
     ],
     "unicode": "🇫🇯"
   },
@@ -34570,7 +34632,8 @@
     "order": 4850,
     "tags": [
       "FK",
-      "vlag"
+      "vlag",
+      "vlag: falklandeilanden"
     ],
     "unicode": "🇫🇰"
   },
@@ -34581,7 +34644,8 @@
     "order": 4851,
     "tags": [
       "FM",
-      "vlag"
+      "vlag",
+      "vlag: micronesia"
     ],
     "unicode": "🇫🇲"
   },
@@ -34592,7 +34656,8 @@
     "order": 4852,
     "tags": [
       "FO",
-      "vlag"
+      "vlag",
+      "vlag: faeröer"
     ],
     "unicode": "🇫🇴"
   },
@@ -34603,7 +34668,8 @@
     "order": 4853,
     "tags": [
       "FR",
-      "vlag"
+      "vlag",
+      "vlag: frankrijk"
     ],
     "unicode": "🇫🇷"
   },
@@ -34614,7 +34680,8 @@
     "order": 4854,
     "tags": [
       "GA",
-      "vlag"
+      "vlag",
+      "vlag: gabon"
     ],
     "unicode": "🇬🇦"
   },
@@ -34625,7 +34692,8 @@
     "order": 4855,
     "tags": [
       "GB",
-      "vlag"
+      "vlag",
+      "vlag: verenigd koninkrijk"
     ],
     "unicode": "🇬🇧"
   },
@@ -34636,7 +34704,8 @@
     "order": 4856,
     "tags": [
       "GD",
-      "vlag"
+      "vlag",
+      "vlag: grenada"
     ],
     "unicode": "🇬🇩"
   },
@@ -34647,7 +34716,8 @@
     "order": 4857,
     "tags": [
       "GE",
-      "vlag"
+      "vlag",
+      "vlag: georgië"
     ],
     "unicode": "🇬🇪"
   },
@@ -34658,7 +34728,8 @@
     "order": 4858,
     "tags": [
       "GF",
-      "vlag"
+      "vlag",
+      "vlag: frans-guyana"
     ],
     "unicode": "🇬🇫"
   },
@@ -34669,7 +34740,8 @@
     "order": 4859,
     "tags": [
       "GG",
-      "vlag"
+      "vlag",
+      "vlag: guernsey"
     ],
     "unicode": "🇬🇬"
   },
@@ -34680,7 +34752,8 @@
     "order": 4860,
     "tags": [
       "GH",
-      "vlag"
+      "vlag",
+      "vlag: ghana"
     ],
     "unicode": "🇬🇭"
   },
@@ -34691,7 +34764,8 @@
     "order": 4861,
     "tags": [
       "GI",
-      "vlag"
+      "vlag",
+      "vlag: gibraltar"
     ],
     "unicode": "🇬🇮"
   },
@@ -34702,7 +34776,8 @@
     "order": 4862,
     "tags": [
       "GL",
-      "vlag"
+      "vlag",
+      "vlag: groenland"
     ],
     "unicode": "🇬🇱"
   },
@@ -34713,7 +34788,8 @@
     "order": 4863,
     "tags": [
       "GM",
-      "vlag"
+      "vlag",
+      "vlag: gambia"
     ],
     "unicode": "🇬🇲"
   },
@@ -34724,7 +34800,8 @@
     "order": 4864,
     "tags": [
       "GN",
-      "vlag"
+      "vlag",
+      "vlag: guinee"
     ],
     "unicode": "🇬🇳"
   },
@@ -34735,7 +34812,8 @@
     "order": 4865,
     "tags": [
       "GP",
-      "vlag"
+      "vlag",
+      "vlag: guadeloupe"
     ],
     "unicode": "🇬🇵"
   },
@@ -34746,7 +34824,8 @@
     "order": 4866,
     "tags": [
       "GQ",
-      "vlag"
+      "vlag",
+      "vlag: equatoriaal-guinea"
     ],
     "unicode": "🇬🇶"
   },
@@ -34757,7 +34836,8 @@
     "order": 4867,
     "tags": [
       "GR",
-      "vlag"
+      "vlag",
+      "vlag: griekenland"
     ],
     "unicode": "🇬🇷"
   },
@@ -34768,7 +34848,8 @@
     "order": 4868,
     "tags": [
       "GS",
-      "vlag"
+      "vlag",
+      "vlag: zuid-georgia en zuidelijke sandwicheilanden"
     ],
     "unicode": "🇬🇸"
   },
@@ -34779,7 +34860,8 @@
     "order": 4869,
     "tags": [
       "GT",
-      "vlag"
+      "vlag",
+      "vlag: guatemala"
     ],
     "unicode": "🇬🇹"
   },
@@ -34790,7 +34872,8 @@
     "order": 4870,
     "tags": [
       "GU",
-      "vlag"
+      "vlag",
+      "vlag: guam"
     ],
     "unicode": "🇬🇺"
   },
@@ -34801,7 +34884,8 @@
     "order": 4871,
     "tags": [
       "GW",
-      "vlag"
+      "vlag",
+      "vlag: guinee-bissau"
     ],
     "unicode": "🇬🇼"
   },
@@ -34812,7 +34896,8 @@
     "order": 4872,
     "tags": [
       "GY",
-      "vlag"
+      "vlag",
+      "vlag: guyana"
     ],
     "unicode": "🇬🇾"
   },
@@ -34823,7 +34908,8 @@
     "order": 4873,
     "tags": [
       "HK",
-      "vlag"
+      "vlag",
+      "vlag: hongkong sar van china"
     ],
     "unicode": "🇭🇰"
   },
@@ -34834,7 +34920,8 @@
     "order": 4874,
     "tags": [
       "HM",
-      "vlag"
+      "vlag",
+      "vlag: heard en mcdonaldeilanden"
     ],
     "unicode": "🇭🇲"
   },
@@ -34845,7 +34932,8 @@
     "order": 4875,
     "tags": [
       "HN",
-      "vlag"
+      "vlag",
+      "vlag: honduras"
     ],
     "unicode": "🇭🇳"
   },
@@ -34856,7 +34944,8 @@
     "order": 4876,
     "tags": [
       "HR",
-      "vlag"
+      "vlag",
+      "vlag: kroatië"
     ],
     "unicode": "🇭🇷"
   },
@@ -34867,7 +34956,8 @@
     "order": 4877,
     "tags": [
       "HT",
-      "vlag"
+      "vlag",
+      "vlag: haïti"
     ],
     "unicode": "🇭🇹"
   },
@@ -34878,7 +34968,8 @@
     "order": 4878,
     "tags": [
       "HU",
-      "vlag"
+      "vlag",
+      "vlag: hongarije"
     ],
     "unicode": "🇭🇺"
   },
@@ -34889,7 +34980,8 @@
     "order": 4879,
     "tags": [
       "IC",
-      "vlag"
+      "vlag",
+      "vlag: canarische eilanden"
     ],
     "unicode": "🇮🇨"
   },
@@ -34900,7 +34992,8 @@
     "order": 4880,
     "tags": [
       "ID",
-      "vlag"
+      "vlag",
+      "vlag: indonesië"
     ],
     "unicode": "🇮🇩"
   },
@@ -34911,7 +35004,8 @@
     "order": 4881,
     "tags": [
       "IE",
-      "vlag"
+      "vlag",
+      "vlag: ierland"
     ],
     "unicode": "🇮🇪"
   },
@@ -34922,7 +35016,8 @@
     "order": 4882,
     "tags": [
       "IL",
-      "vlag"
+      "vlag",
+      "vlag: israël"
     ],
     "unicode": "🇮🇱"
   },
@@ -34933,7 +35028,8 @@
     "order": 4883,
     "tags": [
       "IM",
-      "vlag"
+      "vlag",
+      "vlag: isle of man"
     ],
     "unicode": "🇮🇲"
   },
@@ -34944,7 +35040,8 @@
     "order": 4884,
     "tags": [
       "IN",
-      "vlag"
+      "vlag",
+      "vlag: india"
     ],
     "unicode": "🇮🇳"
   },
@@ -34955,7 +35052,8 @@
     "order": 4885,
     "tags": [
       "IO",
-      "vlag"
+      "vlag",
+      "vlag: brits indische oceaanterritorium"
     ],
     "unicode": "🇮🇴"
   },
@@ -34966,7 +35064,8 @@
     "order": 4886,
     "tags": [
       "IQ",
-      "vlag"
+      "vlag",
+      "vlag: irak"
     ],
     "unicode": "🇮🇶"
   },
@@ -34977,7 +35076,8 @@
     "order": 4887,
     "tags": [
       "IR",
-      "vlag"
+      "vlag",
+      "vlag: iran"
     ],
     "unicode": "🇮🇷"
   },
@@ -34988,7 +35088,8 @@
     "order": 4888,
     "tags": [
       "IS",
-      "vlag"
+      "vlag",
+      "vlag: ijsland"
     ],
     "unicode": "🇮🇸"
   },
@@ -34999,7 +35100,8 @@
     "order": 4889,
     "tags": [
       "IT",
-      "vlag"
+      "vlag",
+      "vlag: italië"
     ],
     "unicode": "🇮🇹"
   },
@@ -35010,7 +35112,8 @@
     "order": 4890,
     "tags": [
       "JE",
-      "vlag"
+      "vlag",
+      "vlag: jersey"
     ],
     "unicode": "🇯🇪"
   },
@@ -35021,7 +35124,8 @@
     "order": 4891,
     "tags": [
       "JM",
-      "vlag"
+      "vlag",
+      "vlag: jamaica"
     ],
     "unicode": "🇯🇲"
   },
@@ -35032,7 +35136,8 @@
     "order": 4892,
     "tags": [
       "JO",
-      "vlag"
+      "vlag",
+      "vlag: jordanië"
     ],
     "unicode": "🇯🇴"
   },
@@ -35043,7 +35148,8 @@
     "order": 4893,
     "tags": [
       "JP",
-      "vlag"
+      "vlag",
+      "vlag: japan"
     ],
     "unicode": "🇯🇵"
   },
@@ -35054,7 +35160,8 @@
     "order": 4894,
     "tags": [
       "KE",
-      "vlag"
+      "vlag",
+      "vlag: kenia"
     ],
     "unicode": "🇰🇪"
   },
@@ -35065,7 +35172,8 @@
     "order": 4895,
     "tags": [
       "KG",
-      "vlag"
+      "vlag",
+      "vlag: kirgizië"
     ],
     "unicode": "🇰🇬"
   },
@@ -35076,7 +35184,8 @@
     "order": 4896,
     "tags": [
       "KH",
-      "vlag"
+      "vlag",
+      "vlag: cambodja"
     ],
     "unicode": "🇰🇭"
   },
@@ -35087,7 +35196,8 @@
     "order": 4897,
     "tags": [
       "KI",
-      "vlag"
+      "vlag",
+      "vlag: kiribati"
     ],
     "unicode": "🇰🇮"
   },
@@ -35098,7 +35208,8 @@
     "order": 4898,
     "tags": [
       "KM",
-      "vlag"
+      "vlag",
+      "vlag: comoren"
     ],
     "unicode": "🇰🇲"
   },
@@ -35109,7 +35220,8 @@
     "order": 4899,
     "tags": [
       "KN",
-      "vlag"
+      "vlag",
+      "vlag: saint kitts en nevis"
     ],
     "unicode": "🇰🇳"
   },
@@ -35120,7 +35232,8 @@
     "order": 4900,
     "tags": [
       "KP",
-      "vlag"
+      "vlag",
+      "vlag: noord-korea"
     ],
     "unicode": "🇰🇵"
   },
@@ -35131,7 +35244,8 @@
     "order": 4901,
     "tags": [
       "KR",
-      "vlag"
+      "vlag",
+      "vlag: zuid-korea"
     ],
     "unicode": "🇰🇷"
   },
@@ -35142,7 +35256,8 @@
     "order": 4902,
     "tags": [
       "KW",
-      "vlag"
+      "vlag",
+      "vlag: koeweit"
     ],
     "unicode": "🇰🇼"
   },
@@ -35153,7 +35268,8 @@
     "order": 4903,
     "tags": [
       "KY",
-      "vlag"
+      "vlag",
+      "vlag: kaaimaneilanden"
     ],
     "unicode": "🇰🇾"
   },
@@ -35164,7 +35280,8 @@
     "order": 4904,
     "tags": [
       "KZ",
-      "vlag"
+      "vlag",
+      "vlag: kazachstan"
     ],
     "unicode": "🇰🇿"
   },
@@ -35175,7 +35292,8 @@
     "order": 4905,
     "tags": [
       "LA",
-      "vlag"
+      "vlag",
+      "vlag: laos"
     ],
     "unicode": "🇱🇦"
   },
@@ -35186,7 +35304,8 @@
     "order": 4906,
     "tags": [
       "LB",
-      "vlag"
+      "vlag",
+      "vlag: libanon"
     ],
     "unicode": "🇱🇧"
   },
@@ -35197,7 +35316,8 @@
     "order": 4907,
     "tags": [
       "LC",
-      "vlag"
+      "vlag",
+      "vlag: saint lucia"
     ],
     "unicode": "🇱🇨"
   },
@@ -35208,7 +35328,8 @@
     "order": 4908,
     "tags": [
       "LI",
-      "vlag"
+      "vlag",
+      "vlag: liechtenstein"
     ],
     "unicode": "🇱🇮"
   },
@@ -35219,7 +35340,8 @@
     "order": 4909,
     "tags": [
       "LK",
-      "vlag"
+      "vlag",
+      "vlag: sri lanka"
     ],
     "unicode": "🇱🇰"
   },
@@ -35230,7 +35352,8 @@
     "order": 4910,
     "tags": [
       "LR",
-      "vlag"
+      "vlag",
+      "vlag: liberia"
     ],
     "unicode": "🇱🇷"
   },
@@ -35241,7 +35364,8 @@
     "order": 4911,
     "tags": [
       "LS",
-      "vlag"
+      "vlag",
+      "vlag: lesotho"
     ],
     "unicode": "🇱🇸"
   },
@@ -35252,7 +35376,8 @@
     "order": 4912,
     "tags": [
       "LT",
-      "vlag"
+      "vlag",
+      "vlag: litouwen"
     ],
     "unicode": "🇱🇹"
   },
@@ -35263,7 +35388,8 @@
     "order": 4913,
     "tags": [
       "LU",
-      "vlag"
+      "vlag",
+      "vlag: luxemburg"
     ],
     "unicode": "🇱🇺"
   },
@@ -35274,7 +35400,8 @@
     "order": 4914,
     "tags": [
       "LV",
-      "vlag"
+      "vlag",
+      "vlag: letland"
     ],
     "unicode": "🇱🇻"
   },
@@ -35285,7 +35412,8 @@
     "order": 4915,
     "tags": [
       "LY",
-      "vlag"
+      "vlag",
+      "vlag: libië"
     ],
     "unicode": "🇱🇾"
   },
@@ -35296,7 +35424,8 @@
     "order": 4916,
     "tags": [
       "MA",
-      "vlag"
+      "vlag",
+      "vlag: marokko"
     ],
     "unicode": "🇲🇦"
   },
@@ -35307,7 +35436,8 @@
     "order": 4917,
     "tags": [
       "MC",
-      "vlag"
+      "vlag",
+      "vlag: monaco"
     ],
     "unicode": "🇲🇨"
   },
@@ -35318,7 +35448,8 @@
     "order": 4918,
     "tags": [
       "MD",
-      "vlag"
+      "vlag",
+      "vlag: moldavië"
     ],
     "unicode": "🇲🇩"
   },
@@ -35329,7 +35460,8 @@
     "order": 4919,
     "tags": [
       "ME",
-      "vlag"
+      "vlag",
+      "vlag: montenegro"
     ],
     "unicode": "🇲🇪"
   },
@@ -35340,7 +35472,8 @@
     "order": 4920,
     "tags": [
       "MF",
-      "vlag"
+      "vlag",
+      "vlag: saint-martin"
     ],
     "unicode": "🇲🇫"
   },
@@ -35351,7 +35484,8 @@
     "order": 4921,
     "tags": [
       "MG",
-      "vlag"
+      "vlag",
+      "vlag: madagaskar"
     ],
     "unicode": "🇲🇬"
   },
@@ -35362,7 +35496,8 @@
     "order": 4922,
     "tags": [
       "MH",
-      "vlag"
+      "vlag",
+      "vlag: marshalleilanden"
     ],
     "unicode": "🇲🇭"
   },
@@ -35373,7 +35508,8 @@
     "order": 4923,
     "tags": [
       "MK",
-      "vlag"
+      "vlag",
+      "vlag: noord-macedonië"
     ],
     "unicode": "🇲🇰"
   },
@@ -35384,7 +35520,8 @@
     "order": 4924,
     "tags": [
       "ML",
-      "vlag"
+      "vlag",
+      "vlag: mali"
     ],
     "unicode": "🇲🇱"
   },
@@ -35395,7 +35532,8 @@
     "order": 4925,
     "tags": [
       "MM",
-      "vlag"
+      "vlag",
+      "vlag: myanmar (birma)"
     ],
     "unicode": "🇲🇲"
   },
@@ -35406,7 +35544,8 @@
     "order": 4926,
     "tags": [
       "MN",
-      "vlag"
+      "vlag",
+      "vlag: mongolië"
     ],
     "unicode": "🇲🇳"
   },
@@ -35417,7 +35556,8 @@
     "order": 4927,
     "tags": [
       "MO",
-      "vlag"
+      "vlag",
+      "vlag: macau sar van china"
     ],
     "unicode": "🇲🇴"
   },
@@ -35428,7 +35568,8 @@
     "order": 4928,
     "tags": [
       "MP",
-      "vlag"
+      "vlag",
+      "vlag: noordelijke marianen"
     ],
     "unicode": "🇲🇵"
   },
@@ -35439,7 +35580,8 @@
     "order": 4929,
     "tags": [
       "MQ",
-      "vlag"
+      "vlag",
+      "vlag: martinique"
     ],
     "unicode": "🇲🇶"
   },
@@ -35450,7 +35592,8 @@
     "order": 4930,
     "tags": [
       "MR",
-      "vlag"
+      "vlag",
+      "vlag: mauritanië"
     ],
     "unicode": "🇲🇷"
   },
@@ -35461,7 +35604,8 @@
     "order": 4931,
     "tags": [
       "MS",
-      "vlag"
+      "vlag",
+      "vlag: montserrat"
     ],
     "unicode": "🇲🇸"
   },
@@ -35472,7 +35616,8 @@
     "order": 4932,
     "tags": [
       "MT",
-      "vlag"
+      "vlag",
+      "vlag: malta"
     ],
     "unicode": "🇲🇹"
   },
@@ -35483,7 +35628,8 @@
     "order": 4933,
     "tags": [
       "MU",
-      "vlag"
+      "vlag",
+      "vlag: mauritius"
     ],
     "unicode": "🇲🇺"
   },
@@ -35494,7 +35640,8 @@
     "order": 4934,
     "tags": [
       "MV",
-      "vlag"
+      "vlag",
+      "vlag: maldiven"
     ],
     "unicode": "🇲🇻"
   },
@@ -35505,7 +35652,8 @@
     "order": 4935,
     "tags": [
       "MW",
-      "vlag"
+      "vlag",
+      "vlag: malawi"
     ],
     "unicode": "🇲🇼"
   },
@@ -35516,7 +35664,8 @@
     "order": 4936,
     "tags": [
       "MX",
-      "vlag"
+      "vlag",
+      "vlag: mexico"
     ],
     "unicode": "🇲🇽"
   },
@@ -35527,7 +35676,8 @@
     "order": 4937,
     "tags": [
       "MY",
-      "vlag"
+      "vlag",
+      "vlag: maleisië"
     ],
     "unicode": "🇲🇾"
   },
@@ -35538,7 +35688,8 @@
     "order": 4938,
     "tags": [
       "MZ",
-      "vlag"
+      "vlag",
+      "vlag: mozambique"
     ],
     "unicode": "🇲🇿"
   },
@@ -35549,7 +35700,8 @@
     "order": 4939,
     "tags": [
       "NA",
-      "vlag"
+      "vlag",
+      "vlag: namibië"
     ],
     "unicode": "🇳🇦"
   },
@@ -35560,7 +35712,8 @@
     "order": 4940,
     "tags": [
       "NC",
-      "vlag"
+      "vlag",
+      "vlag: nieuw-caledonië"
     ],
     "unicode": "🇳🇨"
   },
@@ -35571,7 +35724,8 @@
     "order": 4941,
     "tags": [
       "NE",
-      "vlag"
+      "vlag",
+      "vlag: niger"
     ],
     "unicode": "🇳🇪"
   },
@@ -35582,7 +35736,8 @@
     "order": 4942,
     "tags": [
       "NF",
-      "vlag"
+      "vlag",
+      "vlag: norfolk"
     ],
     "unicode": "🇳🇫"
   },
@@ -35593,7 +35748,8 @@
     "order": 4943,
     "tags": [
       "NG",
-      "vlag"
+      "vlag",
+      "vlag: nigeria"
     ],
     "unicode": "🇳🇬"
   },
@@ -35604,7 +35760,8 @@
     "order": 4944,
     "tags": [
       "NI",
-      "vlag"
+      "vlag",
+      "vlag: nicaragua"
     ],
     "unicode": "🇳🇮"
   },
@@ -35615,7 +35772,8 @@
     "order": 4945,
     "tags": [
       "NL",
-      "vlag"
+      "vlag",
+      "vlag: nederland"
     ],
     "unicode": "🇳🇱"
   },
@@ -35626,7 +35784,8 @@
     "order": 4946,
     "tags": [
       "NO",
-      "vlag"
+      "vlag",
+      "vlag: noorwegen"
     ],
     "unicode": "🇳🇴"
   },
@@ -35637,7 +35796,8 @@
     "order": 4947,
     "tags": [
       "NP",
-      "vlag"
+      "vlag",
+      "vlag: nepal"
     ],
     "unicode": "🇳🇵"
   },
@@ -35648,7 +35808,8 @@
     "order": 4948,
     "tags": [
       "NR",
-      "vlag"
+      "vlag",
+      "vlag: nauru"
     ],
     "unicode": "🇳🇷"
   },
@@ -35659,7 +35820,8 @@
     "order": 4949,
     "tags": [
       "NU",
-      "vlag"
+      "vlag",
+      "vlag: niue"
     ],
     "unicode": "🇳🇺"
   },
@@ -35670,7 +35832,8 @@
     "order": 4950,
     "tags": [
       "NZ",
-      "vlag"
+      "vlag",
+      "vlag: nieuw-zeeland"
     ],
     "unicode": "🇳🇿"
   },
@@ -35681,7 +35844,8 @@
     "order": 4951,
     "tags": [
       "OM",
-      "vlag"
+      "vlag",
+      "vlag: oman"
     ],
     "unicode": "🇴🇲"
   },
@@ -35692,7 +35856,8 @@
     "order": 4952,
     "tags": [
       "PA",
-      "vlag"
+      "vlag",
+      "vlag: panama"
     ],
     "unicode": "🇵🇦"
   },
@@ -35703,7 +35868,8 @@
     "order": 4953,
     "tags": [
       "PE",
-      "vlag"
+      "vlag",
+      "vlag: peru"
     ],
     "unicode": "🇵🇪"
   },
@@ -35714,7 +35880,8 @@
     "order": 4954,
     "tags": [
       "PF",
-      "vlag"
+      "vlag",
+      "vlag: frans-polynesië"
     ],
     "unicode": "🇵🇫"
   },
@@ -35725,7 +35892,8 @@
     "order": 4955,
     "tags": [
       "PG",
-      "vlag"
+      "vlag",
+      "vlag: papoea-nieuw-guinea"
     ],
     "unicode": "🇵🇬"
   },
@@ -35736,7 +35904,8 @@
     "order": 4956,
     "tags": [
       "PH",
-      "vlag"
+      "vlag",
+      "vlag: filipijnen"
     ],
     "unicode": "🇵🇭"
   },
@@ -35747,7 +35916,8 @@
     "order": 4957,
     "tags": [
       "PK",
-      "vlag"
+      "vlag",
+      "vlag: pakistan"
     ],
     "unicode": "🇵🇰"
   },
@@ -35758,7 +35928,8 @@
     "order": 4958,
     "tags": [
       "PL",
-      "vlag"
+      "vlag",
+      "vlag: polen"
     ],
     "unicode": "🇵🇱"
   },
@@ -35769,7 +35940,8 @@
     "order": 4959,
     "tags": [
       "PM",
-      "vlag"
+      "vlag",
+      "vlag: saint-pierre en miquelon"
     ],
     "unicode": "🇵🇲"
   },
@@ -35780,7 +35952,8 @@
     "order": 4960,
     "tags": [
       "PN",
-      "vlag"
+      "vlag",
+      "vlag: pitcairneilanden"
     ],
     "unicode": "🇵🇳"
   },
@@ -35791,7 +35964,8 @@
     "order": 4961,
     "tags": [
       "PR",
-      "vlag"
+      "vlag",
+      "vlag: puerto rico"
     ],
     "unicode": "🇵🇷"
   },
@@ -35802,7 +35976,8 @@
     "order": 4962,
     "tags": [
       "PS",
-      "vlag"
+      "vlag",
+      "vlag: palestijnse gebieden"
     ],
     "unicode": "🇵🇸"
   },
@@ -35813,7 +35988,8 @@
     "order": 4963,
     "tags": [
       "PT",
-      "vlag"
+      "vlag",
+      "vlag: portugal"
     ],
     "unicode": "🇵🇹"
   },
@@ -35824,7 +36000,8 @@
     "order": 4964,
     "tags": [
       "PW",
-      "vlag"
+      "vlag",
+      "vlag: palau"
     ],
     "unicode": "🇵🇼"
   },
@@ -35835,7 +36012,8 @@
     "order": 4965,
     "tags": [
       "PY",
-      "vlag"
+      "vlag",
+      "vlag: paraguay"
     ],
     "unicode": "🇵🇾"
   },
@@ -35846,7 +36024,8 @@
     "order": 4966,
     "tags": [
       "QA",
-      "vlag"
+      "vlag",
+      "vlag: qatar"
     ],
     "unicode": "🇶🇦"
   },
@@ -35857,7 +36036,8 @@
     "order": 4967,
     "tags": [
       "RE",
-      "vlag"
+      "vlag",
+      "vlag: réunion"
     ],
     "unicode": "🇷🇪"
   },
@@ -35868,7 +36048,8 @@
     "order": 4968,
     "tags": [
       "RO",
-      "vlag"
+      "vlag",
+      "vlag: roemenië"
     ],
     "unicode": "🇷🇴"
   },
@@ -35879,7 +36060,8 @@
     "order": 4969,
     "tags": [
       "RS",
-      "vlag"
+      "vlag",
+      "vlag: servië"
     ],
     "unicode": "🇷🇸"
   },
@@ -35890,7 +36072,8 @@
     "order": 4970,
     "tags": [
       "RU",
-      "vlag"
+      "vlag",
+      "vlag: rusland"
     ],
     "unicode": "🇷🇺"
   },
@@ -35901,7 +36084,8 @@
     "order": 4971,
     "tags": [
       "RW",
-      "vlag"
+      "vlag",
+      "vlag: rwanda"
     ],
     "unicode": "🇷🇼"
   },
@@ -35912,7 +36096,8 @@
     "order": 4972,
     "tags": [
       "SA",
-      "vlag"
+      "vlag",
+      "vlag: saoedi-arabië"
     ],
     "unicode": "🇸🇦"
   },
@@ -35923,7 +36108,8 @@
     "order": 4973,
     "tags": [
       "SB",
-      "vlag"
+      "vlag",
+      "vlag: salomonseilanden"
     ],
     "unicode": "🇸🇧"
   },
@@ -35934,7 +36120,8 @@
     "order": 4974,
     "tags": [
       "SC",
-      "vlag"
+      "vlag",
+      "vlag: seychellen"
     ],
     "unicode": "🇸🇨"
   },
@@ -35945,7 +36132,8 @@
     "order": 4975,
     "tags": [
       "SD",
-      "vlag"
+      "vlag",
+      "vlag: soedan"
     ],
     "unicode": "🇸🇩"
   },
@@ -35956,7 +36144,8 @@
     "order": 4976,
     "tags": [
       "SE",
-      "vlag"
+      "vlag",
+      "vlag: zweden"
     ],
     "unicode": "🇸🇪"
   },
@@ -35967,7 +36156,8 @@
     "order": 4977,
     "tags": [
       "SG",
-      "vlag"
+      "vlag",
+      "vlag: singapore"
     ],
     "unicode": "🇸🇬"
   },
@@ -35978,7 +36168,8 @@
     "order": 4978,
     "tags": [
       "SH",
-      "vlag"
+      "vlag",
+      "vlag: sint-helena"
     ],
     "unicode": "🇸🇭"
   },
@@ -35989,7 +36180,8 @@
     "order": 4979,
     "tags": [
       "SI",
-      "vlag"
+      "vlag",
+      "vlag: slovenië"
     ],
     "unicode": "🇸🇮"
   },
@@ -36000,7 +36192,8 @@
     "order": 4980,
     "tags": [
       "SJ",
-      "vlag"
+      "vlag",
+      "vlag: spitsbergen en jan mayen"
     ],
     "unicode": "🇸🇯"
   },
@@ -36011,7 +36204,8 @@
     "order": 4981,
     "tags": [
       "SK",
-      "vlag"
+      "vlag",
+      "vlag: slowakije"
     ],
     "unicode": "🇸🇰"
   },
@@ -36022,7 +36216,8 @@
     "order": 4982,
     "tags": [
       "SL",
-      "vlag"
+      "vlag",
+      "vlag: sierra leone"
     ],
     "unicode": "🇸🇱"
   },
@@ -36033,7 +36228,8 @@
     "order": 4983,
     "tags": [
       "SM",
-      "vlag"
+      "vlag",
+      "vlag: san marino"
     ],
     "unicode": "🇸🇲"
   },
@@ -36044,7 +36240,8 @@
     "order": 4984,
     "tags": [
       "SN",
-      "vlag"
+      "vlag",
+      "vlag: senegal"
     ],
     "unicode": "🇸🇳"
   },
@@ -36055,7 +36252,8 @@
     "order": 4985,
     "tags": [
       "SO",
-      "vlag"
+      "vlag",
+      "vlag: somalië"
     ],
     "unicode": "🇸🇴"
   },
@@ -36066,7 +36264,8 @@
     "order": 4986,
     "tags": [
       "SR",
-      "vlag"
+      "vlag",
+      "vlag: suriname"
     ],
     "unicode": "🇸🇷"
   },
@@ -36077,7 +36276,8 @@
     "order": 4987,
     "tags": [
       "SS",
-      "vlag"
+      "vlag",
+      "vlag: zuid-soedan"
     ],
     "unicode": "🇸🇸"
   },
@@ -36088,7 +36288,8 @@
     "order": 4988,
     "tags": [
       "ST",
-      "vlag"
+      "vlag",
+      "vlag: sao tomé en principe"
     ],
     "unicode": "🇸🇹"
   },
@@ -36099,7 +36300,8 @@
     "order": 4989,
     "tags": [
       "SV",
-      "vlag"
+      "vlag",
+      "vlag: el salvador"
     ],
     "unicode": "🇸🇻"
   },
@@ -36110,7 +36312,8 @@
     "order": 4990,
     "tags": [
       "SX",
-      "vlag"
+      "vlag",
+      "vlag: sint-maarten"
     ],
     "unicode": "🇸🇽"
   },
@@ -36121,7 +36324,8 @@
     "order": 4991,
     "tags": [
       "SY",
-      "vlag"
+      "vlag",
+      "vlag: syrië"
     ],
     "unicode": "🇸🇾"
   },
@@ -36132,7 +36336,8 @@
     "order": 4992,
     "tags": [
       "SZ",
-      "vlag"
+      "vlag",
+      "vlag: eswatini"
     ],
     "unicode": "🇸🇿"
   },
@@ -36143,7 +36348,8 @@
     "order": 4993,
     "tags": [
       "TA",
-      "vlag"
+      "vlag",
+      "vlag: tristan da cunha"
     ],
     "unicode": "🇹🇦"
   },
@@ -36154,7 +36360,8 @@
     "order": 4994,
     "tags": [
       "TC",
-      "vlag"
+      "vlag",
+      "vlag: turks- en caicoseilanden"
     ],
     "unicode": "🇹🇨"
   },
@@ -36165,7 +36372,8 @@
     "order": 4995,
     "tags": [
       "TD",
-      "vlag"
+      "vlag",
+      "vlag: tsjaad"
     ],
     "unicode": "🇹🇩"
   },
@@ -36176,7 +36384,8 @@
     "order": 4996,
     "tags": [
       "TF",
-      "vlag"
+      "vlag",
+      "vlag: franse gebieden in de zuidelijke indische oceaan"
     ],
     "unicode": "🇹🇫"
   },
@@ -36187,7 +36396,8 @@
     "order": 4997,
     "tags": [
       "TG",
-      "vlag"
+      "vlag",
+      "vlag: togo"
     ],
     "unicode": "🇹🇬"
   },
@@ -36198,7 +36408,8 @@
     "order": 4998,
     "tags": [
       "TH",
-      "vlag"
+      "vlag",
+      "vlag: thailand"
     ],
     "unicode": "🇹🇭"
   },
@@ -36209,7 +36420,8 @@
     "order": 4999,
     "tags": [
       "TJ",
-      "vlag"
+      "vlag",
+      "vlag: tadzjikistan"
     ],
     "unicode": "🇹🇯"
   },
@@ -36220,7 +36432,8 @@
     "order": 5000,
     "tags": [
       "TK",
-      "vlag"
+      "vlag",
+      "vlag: tokelau"
     ],
     "unicode": "🇹🇰"
   },
@@ -36231,7 +36444,8 @@
     "order": 5001,
     "tags": [
       "TL",
-      "vlag"
+      "vlag",
+      "vlag: oost-timor"
     ],
     "unicode": "🇹🇱"
   },
@@ -36242,7 +36456,8 @@
     "order": 5002,
     "tags": [
       "TM",
-      "vlag"
+      "vlag",
+      "vlag: turkmenistan"
     ],
     "unicode": "🇹🇲"
   },
@@ -36253,7 +36468,8 @@
     "order": 5003,
     "tags": [
       "TN",
-      "vlag"
+      "vlag",
+      "vlag: tunesië"
     ],
     "unicode": "🇹🇳"
   },
@@ -36264,7 +36480,8 @@
     "order": 5004,
     "tags": [
       "TO",
-      "vlag"
+      "vlag",
+      "vlag: tonga"
     ],
     "unicode": "🇹🇴"
   },
@@ -36275,7 +36492,8 @@
     "order": 5005,
     "tags": [
       "TR",
-      "vlag"
+      "vlag",
+      "vlag: turkije"
     ],
     "unicode": "🇹🇷"
   },
@@ -36286,7 +36504,8 @@
     "order": 5006,
     "tags": [
       "TT",
-      "vlag"
+      "vlag",
+      "vlag: trinidad en tobago"
     ],
     "unicode": "🇹🇹"
   },
@@ -36297,7 +36516,8 @@
     "order": 5007,
     "tags": [
       "TV",
-      "vlag"
+      "vlag",
+      "vlag: tuvalu"
     ],
     "unicode": "🇹🇻"
   },
@@ -36308,7 +36528,8 @@
     "order": 5008,
     "tags": [
       "TW",
-      "vlag"
+      "vlag",
+      "vlag: taiwan"
     ],
     "unicode": "🇹🇼"
   },
@@ -36319,7 +36540,8 @@
     "order": 5009,
     "tags": [
       "TZ",
-      "vlag"
+      "vlag",
+      "vlag: tanzania"
     ],
     "unicode": "🇹🇿"
   },
@@ -36330,7 +36552,8 @@
     "order": 5010,
     "tags": [
       "UA",
-      "vlag"
+      "vlag",
+      "vlag: oekraïne"
     ],
     "unicode": "🇺🇦"
   },
@@ -36341,7 +36564,8 @@
     "order": 5011,
     "tags": [
       "UG",
-      "vlag"
+      "vlag",
+      "vlag: oeganda"
     ],
     "unicode": "🇺🇬"
   },
@@ -36352,7 +36576,8 @@
     "order": 5012,
     "tags": [
       "UM",
-      "vlag"
+      "vlag",
+      "vlag: kleine afgelegen eilanden van de verenigde staten"
     ],
     "unicode": "🇺🇲"
   },
@@ -36363,7 +36588,8 @@
     "order": 5013,
     "tags": [
       "UN",
-      "vlag"
+      "vlag",
+      "vlag: verenigde naties"
     ],
     "unicode": "🇺🇳"
   },
@@ -36374,7 +36600,8 @@
     "order": 5014,
     "tags": [
       "US",
-      "vlag"
+      "vlag",
+      "vlag: verenigde staten"
     ],
     "unicode": "🇺🇸"
   },
@@ -36385,7 +36612,8 @@
     "order": 5015,
     "tags": [
       "UY",
-      "vlag"
+      "vlag",
+      "vlag: uruguay"
     ],
     "unicode": "🇺🇾"
   },
@@ -36396,7 +36624,8 @@
     "order": 5016,
     "tags": [
       "UZ",
-      "vlag"
+      "vlag",
+      "vlag: oezbekistan"
     ],
     "unicode": "🇺🇿"
   },
@@ -36407,7 +36636,8 @@
     "order": 5017,
     "tags": [
       "VA",
-      "vlag"
+      "vlag",
+      "vlag: vaticaanstad"
     ],
     "unicode": "🇻🇦"
   },
@@ -36418,7 +36648,8 @@
     "order": 5018,
     "tags": [
       "VC",
-      "vlag"
+      "vlag",
+      "vlag: saint vincent en de grenadines"
     ],
     "unicode": "🇻🇨"
   },
@@ -36429,7 +36660,8 @@
     "order": 5019,
     "tags": [
       "VE",
-      "vlag"
+      "vlag",
+      "vlag: venezuela"
     ],
     "unicode": "🇻🇪"
   },
@@ -36440,7 +36672,8 @@
     "order": 5020,
     "tags": [
       "VG",
-      "vlag"
+      "vlag",
+      "vlag: britse maagdeneilanden"
     ],
     "unicode": "🇻🇬"
   },
@@ -36451,7 +36684,8 @@
     "order": 5021,
     "tags": [
       "VI",
-      "vlag"
+      "vlag",
+      "vlag: amerikaanse maagdeneilanden"
     ],
     "unicode": "🇻🇮"
   },
@@ -36462,7 +36696,8 @@
     "order": 5022,
     "tags": [
       "VN",
-      "vlag"
+      "vlag",
+      "vlag: vietnam"
     ],
     "unicode": "🇻🇳"
   },
@@ -36473,7 +36708,8 @@
     "order": 5023,
     "tags": [
       "VU",
-      "vlag"
+      "vlag",
+      "vlag: vanuatu"
     ],
     "unicode": "🇻🇺"
   },
@@ -36484,7 +36720,8 @@
     "order": 5024,
     "tags": [
       "WF",
-      "vlag"
+      "vlag",
+      "vlag: wallis en futuna"
     ],
     "unicode": "🇼🇫"
   },
@@ -36495,7 +36732,8 @@
     "order": 5025,
     "tags": [
       "WS",
-      "vlag"
+      "vlag",
+      "vlag: samoa"
     ],
     "unicode": "🇼🇸"
   },
@@ -36506,7 +36744,8 @@
     "order": 5026,
     "tags": [
       "XK",
-      "vlag"
+      "vlag",
+      "vlag: kosovo"
     ],
     "unicode": "🇽🇰"
   },
@@ -36517,7 +36756,8 @@
     "order": 5027,
     "tags": [
       "YE",
-      "vlag"
+      "vlag",
+      "vlag: jemen"
     ],
     "unicode": "🇾🇪"
   },
@@ -36528,7 +36768,8 @@
     "order": 5028,
     "tags": [
       "YT",
-      "vlag"
+      "vlag",
+      "vlag: mayotte"
     ],
     "unicode": "🇾🇹"
   },
@@ -36539,7 +36780,8 @@
     "order": 5029,
     "tags": [
       "ZA",
-      "vlag"
+      "vlag",
+      "vlag: zuid-afrika"
     ],
     "unicode": "🇿🇦"
   },
@@ -36550,7 +36792,8 @@
     "order": 5030,
     "tags": [
       "ZM",
-      "vlag"
+      "vlag",
+      "vlag: zambia"
     ],
     "unicode": "🇿🇲"
   },
@@ -36561,7 +36804,8 @@
     "order": 5031,
     "tags": [
       "ZW",
-      "vlag"
+      "vlag",
+      "vlag: zimbabwe"
     ],
     "unicode": "🇿🇼"
   },
@@ -36572,7 +36816,8 @@
     "order": 5032,
     "tags": [
       "gbeng",
-      "vlag"
+      "vlag",
+      "vlag: engeland"
     ],
     "unicode": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
   },
@@ -36583,7 +36828,8 @@
     "order": 5033,
     "tags": [
       "gbsct",
-      "vlag"
+      "vlag",
+      "vlag: schotland"
     ],
     "unicode": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
   },
@@ -36594,7 +36840,8 @@
     "order": 5034,
     "tags": [
       "gbwls",
-      "vlag"
+      "vlag",
+      "vlag: wales"
     ],
     "unicode": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
   }

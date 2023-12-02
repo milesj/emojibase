@@ -363,11 +363,12 @@
     "emoticon": ":)"
   },
   {
-    "label": "fejjel lefelé fordult arc",
+    "label": "arc fejjel lefelé",
     "hexcode": "1F643",
     "tags": [
       "arc",
-      "fejjel lefelé"
+      "fejjel lefelé",
+      "fejjel lefelé fordult arc"
     ],
     "emoji": "🙃",
     "text": "",
@@ -452,7 +453,7 @@
     ]
   },
   {
-    "label": "mosolygós arc szívekkel",
+    "label": "mosolygó arc szívekkel",
     "hexcode": "1F970",
     "tags": [
       "imádat",
@@ -759,6 +760,8 @@
       "hitetlenkedés",
       "ijedt",
       "meglep",
+      "nyitott szemű",
+      "száját takaró arc",
       "zavarba hoz",
       "ámulat"
     ],
@@ -947,7 +950,9 @@
     "label": "arc a felhőben",
     "hexcode": "1F636-200D-1F32B-FE0F",
     "tags": [
-      "arc a felhőben"
+      "arc a ködben",
+      "elgondolkodó",
+      "fej a felhők között"
     ],
     "emoji": "😶‍🌫️",
     "text": "",
@@ -975,11 +980,12 @@
     "emoticon": ":j"
   },
   {
-    "label": "szomorú arc",
+    "label": "unott arc",
     "hexcode": "1F612",
     "tags": [
       "arc",
-      "szomorú"
+      "boldogtalan",
+      "unott"
     ],
     "emoji": "😒",
     "text": "",
@@ -1025,7 +1031,12 @@
     "label": "levegőt kifújó arc",
     "hexcode": "1F62E-200D-1F4A8",
     "tags": [
-      "levegőt kifújó arc"
+      "fütty",
+      "kilégzés",
+      "megkönnyebbülés",
+      "suttogás",
+      "sóhajtás",
+      "zihálás"
     ],
     "emoji": "😮‍💨",
     "text": "",
@@ -1072,14 +1083,10 @@
     "version": 15
   },
   {
-    "label": "head shaking horizontally",
+    "label": "vízszintesen rázkódó arc",
     "hexcode": "1F642-200D-2194-FE0F",
     "tags": [
-      "arc",
-      "balra-jobbra mutató nyíl",
-      "finoman mosolygó arc",
-      "mosoly",
-      "nyíl"
+      "nem, fejrázás"
     ],
     "emoji": "🙂‍↔️",
     "text": "",
@@ -1090,14 +1097,10 @@
     "version": 15.1
   },
   {
-    "label": "head shaking vertically",
+    "label": "függőlegesen rázkódó arc",
     "hexcode": "1F642-200D-2195-FE0F",
     "tags": [
-      "arc",
-      "fel-le mutató nyíl",
-      "finoman mosolygó arc",
-      "mosoly",
-      "nyíl"
+      "bólintás, igen"
     ],
     "emoji": "🙂‍↕️",
     "text": "",
@@ -1363,7 +1366,11 @@
     "label": "spirálszemű arc",
     "hexcode": "1F635-200D-1F4AB",
     "tags": [
-      "spirálszemű arc"
+      "baj",
+      "hipnotizált",
+      "húha",
+      "spirál",
+      "szédülő"
     ],
     "emoji": "😵‍💫",
     "text": "",
@@ -1745,6 +1752,7 @@
     "tags": [
       "arc",
       "csalódott",
+      "de megkönnyebbült arc",
       "huhh",
       "megkönnyebbült"
     ],
@@ -2620,7 +2628,12 @@
     "label": "gyógyuló szív",
     "hexcode": "2764-FE0F-200D-1FA79",
     "tags": [
-      "gyógyuló szív"
+      "egészségesebb",
+      "felépülő",
+      "gyógyuló",
+      "javuló",
+      "jól van",
+      "meggyógyuló"
     ],
     "emoji": "❤️‍🩹",
     "text": "",
@@ -7987,7 +8000,8 @@
     "label": "férfi: szakáll",
     "hexcode": "1F9D4-200D-2642-FE0F",
     "tags": [
-      "férfi: szakáll"
+      "férfi",
+      "szakáll"
     ],
     "emoji": "🧔‍♂️",
     "text": "",
@@ -8069,7 +8083,8 @@
     "label": "nő: szakáll",
     "hexcode": "1F9D4-200D-2640-FE0F",
     "tags": [
-      "nő: szakáll"
+      "nő",
+      "szakáll"
     ],
     "emoji": "🧔‍♀️",
     "text": "",
@@ -18761,7 +18776,8 @@
     "label": "télapó",
     "hexcode": "1F9D1-200D-1F384",
     "tags": [
-      "mikulás, karácsony"
+      "karácsony",
+      "mikulás"
     ],
     "emoji": "🧑‍🎄",
     "text": "",
@@ -24544,7 +24560,9 @@
     "label": "öltönyös, lebegő ember",
     "hexcode": "1F574",
     "tags": [
+      "lebegő ember",
       "öltöny",
+      "öltönyös",
       "üzletember"
     ],
     "emoji": "🕴️",
@@ -33928,12 +33946,12 @@
     "version": 0.6
   },
   {
-    "label": "family: adult, adult, child",
+    "label": "család: felnőtt, felnőtt, gyerek",
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2",
     "tags": [
+      "család: felnőtt",
       "felnőtt",
-      "gyerek",
-      "gyermek"
+      "gyerek"
     ],
     "emoji": "🧑‍🧑‍🧒",
     "text": "",
@@ -33944,12 +33962,12 @@
     "version": 15.1
   },
   {
-    "label": "family: adult, adult, child, child",
+    "label": "család: felnőtt, felnőtt, gyerek, gyerek",
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2",
     "tags": [
+      "család: felnőtt",
       "felnőtt",
-      "gyerek",
-      "gyermek"
+      "gyerek"
     ],
     "emoji": "🧑‍🧑‍🧒‍🧒",
     "text": "",
@@ -33960,12 +33978,11 @@
     "version": 15.1
   },
   {
-    "label": "family: adult, child",
+    "label": "család: felnőtt, gyerek",
     "hexcode": "1F9D1-200D-1F9D2",
     "tags": [
-      "felnőtt",
-      "gyerek",
-      "gyermek"
+      "család: felnőtt",
+      "gyerek"
     ],
     "emoji": "🧑‍🧒",
     "text": "",
@@ -33976,12 +33993,11 @@
     "version": 15.1
   },
   {
-    "label": "family: adult, child, child",
+    "label": "család: felnőtt, gyerek, gyerek",
     "hexcode": "1F9D1-200D-1F9D2-200D-1F9D2",
     "tags": [
-      "felnőtt",
-      "gyerek",
-      "gyermek"
+      "család: felnőtt",
+      "gyerek"
     ],
     "emoji": "🧑‍🧒‍🧒",
     "text": "",
@@ -35449,14 +35465,14 @@
     "version": 15
   },
   {
-    "label": "black bird",
+    "label": "fekete madár",
     "hexcode": "1F426-200D-2B1B",
     "tags": [
-      "bird",
-      "black",
-      "crow",
-      "raven",
-      "rook"
+      "fekete",
+      "holló",
+      "madár",
+      "varjú",
+      "vetési varjú"
     ],
     "emoji": "🐦‍⬛",
     "text": "",
@@ -35484,12 +35500,13 @@
     "version": 15
   },
   {
-    "label": "phoenix",
+    "label": "főnix",
     "hexcode": "1F426-200D-1F525",
     "tags": [
-      "láng",
-      "madár",
-      "tűz"
+      "fantasy",
+      "reinkarnáció",
+      "tűzmadár",
+      "újjászületés"
     ],
     "emoji": "🐦‍🔥",
     "text": "",
@@ -36573,12 +36590,9 @@
     "label": "lime",
     "hexcode": "1F34B-200D-1F7E9",
     "tags": [
-      "citrom",
-      "citrusféle",
+      "citrus",
       "gyümölcs",
-      "négyzet",
-      "növény",
-      "zöld"
+      "trópusi"
     ],
     "emoji": "🍋‍🟩",
     "text": "",
@@ -37063,13 +37077,12 @@
     "version": 15
   },
   {
-    "label": "brown mushroom",
+    "label": "barna gomba",
     "hexcode": "1F344-200D-1F7EB",
     "tags": [
-      "barna",
       "gomba",
-      "négyzet",
-      "növény"
+      "természet",
+      "étel"
     ],
     "emoji": "🍄‍🟫",
     "text": "",
@@ -41373,8 +41386,10 @@
     "hexcode": "1F312",
     "tags": [
       "holdfázisok",
+      "növő",
       "növő hold",
       "sarló",
+      "sarló alakú hold",
       "ég"
     ],
     "emoji": "🌒",
@@ -41474,10 +41489,11 @@
     "hexcode": "1F318",
     "tags": [
       "fogyó",
-      "fogyó, kifli alakú hold",
       "hold",
       "holdfázisok",
+      "kifli alakú hold",
       "sarló",
+      "sarló alakú hold",
       "ég"
     ],
     "emoji": "🌘",
@@ -46769,14 +46785,14 @@
     "version": 0.6
   },
   {
-    "label": "broken chain",
+    "label": "elszakadt lánc",
     "hexcode": "26D3-FE0F-200D-1F4A5",
     "tags": [
-      "bumm",
-      "képregény",
+      "bilincs",
+      "elszakít",
       "lánc",
-      "láncszemek",
-      "ütközés"
+      "szabadság",
+      "szakítás"
     ],
     "emoji": "⛓️‍💥",
     "text": "",
@@ -49580,7 +49596,9 @@
     "hexcode": "2B55",
     "tags": [
       "kör",
-      "o"
+      "nagy",
+      "o",
+      "vastag kör"
     ],
     "emoji": "⭕️",
     "text": "⭕︎",
@@ -51112,8 +51130,10 @@
     "hexcode": "1F533",
     "tags": [
       "bekeretezett",
+      "fehér",
       "gomb",
-      "négyzet"
+      "négyzet",
+      "négyzet alakú gomb"
     ],
     "emoji": "🔳",
     "text": "",
@@ -51127,8 +51147,10 @@
     "label": "fekete, négyzet alakú gomb",
     "hexcode": "1F532",
     "tags": [
+      "fekete",
       "gomb",
-      "négyzet"
+      "négyzet",
+      "négyzet alakú gomb"
     ],
     "emoji": "🔲",
     "text": "",
@@ -51268,7 +51290,8 @@
     "hexcode": "1F1E6-1F1E8",
     "tags": [
       "AC",
-      "zászló"
+      "zászló",
+      "zászló: ascension-sziget"
     ],
     "emoji": "🇦🇨",
     "text": "",
@@ -51283,7 +51306,8 @@
     "hexcode": "1F1E6-1F1E9",
     "tags": [
       "AD",
-      "zászló"
+      "zászló",
+      "zászló: andorra"
     ],
     "emoji": "🇦🇩",
     "text": "",
@@ -51298,7 +51322,8 @@
     "hexcode": "1F1E6-1F1EA",
     "tags": [
       "AE",
-      "zászló"
+      "zászló",
+      "zászló: egyesült arab emírségek"
     ],
     "emoji": "🇦🇪",
     "text": "",
@@ -51313,7 +51338,8 @@
     "hexcode": "1F1E6-1F1EB",
     "tags": [
       "AF",
-      "zászló"
+      "zászló",
+      "zászló: afganisztán"
     ],
     "emoji": "🇦🇫",
     "text": "",
@@ -51328,7 +51354,8 @@
     "hexcode": "1F1E6-1F1EC",
     "tags": [
       "AG",
-      "zászló"
+      "zászló",
+      "zászló: antigua és barbuda"
     ],
     "emoji": "🇦🇬",
     "text": "",
@@ -51343,7 +51370,8 @@
     "hexcode": "1F1E6-1F1EE",
     "tags": [
       "AI",
-      "zászló"
+      "zászló",
+      "zászló: anguilla"
     ],
     "emoji": "🇦🇮",
     "text": "",
@@ -51358,7 +51386,8 @@
     "hexcode": "1F1E6-1F1F1",
     "tags": [
       "AL",
-      "zászló"
+      "zászló",
+      "zászló: albánia"
     ],
     "emoji": "🇦🇱",
     "text": "",
@@ -51373,7 +51402,8 @@
     "hexcode": "1F1E6-1F1F2",
     "tags": [
       "AM",
-      "zászló"
+      "zászló",
+      "zászló: örményország"
     ],
     "emoji": "🇦🇲",
     "text": "",
@@ -51388,7 +51418,8 @@
     "hexcode": "1F1E6-1F1F4",
     "tags": [
       "AO",
-      "zászló"
+      "zászló",
+      "zászló: angola"
     ],
     "emoji": "🇦🇴",
     "text": "",
@@ -51403,7 +51434,8 @@
     "hexcode": "1F1E6-1F1F6",
     "tags": [
       "AQ",
-      "zászló"
+      "zászló",
+      "zászló: antarktisz"
     ],
     "emoji": "🇦🇶",
     "text": "",
@@ -51418,7 +51450,8 @@
     "hexcode": "1F1E6-1F1F7",
     "tags": [
       "AR",
-      "zászló"
+      "zászló",
+      "zászló: argentína"
     ],
     "emoji": "🇦🇷",
     "text": "",
@@ -51433,7 +51466,8 @@
     "hexcode": "1F1E6-1F1F8",
     "tags": [
       "AS",
-      "zászló"
+      "zászló",
+      "zászló: amerikai szamoa"
     ],
     "emoji": "🇦🇸",
     "text": "",
@@ -51448,7 +51482,8 @@
     "hexcode": "1F1E6-1F1F9",
     "tags": [
       "AT",
-      "zászló"
+      "zászló",
+      "zászló: ausztria"
     ],
     "emoji": "🇦🇹",
     "text": "",
@@ -51463,7 +51498,8 @@
     "hexcode": "1F1E6-1F1FA",
     "tags": [
       "AU",
-      "zászló"
+      "zászló",
+      "zászló: ausztrália"
     ],
     "emoji": "🇦🇺",
     "text": "",
@@ -51478,7 +51514,8 @@
     "hexcode": "1F1E6-1F1FC",
     "tags": [
       "AW",
-      "zászló"
+      "zászló",
+      "zászló: aruba"
     ],
     "emoji": "🇦🇼",
     "text": "",
@@ -51493,7 +51530,8 @@
     "hexcode": "1F1E6-1F1FD",
     "tags": [
       "AX",
-      "zászló"
+      "zászló",
+      "zászló: åland-szigetek"
     ],
     "emoji": "🇦🇽",
     "text": "",
@@ -51508,7 +51546,8 @@
     "hexcode": "1F1E6-1F1FF",
     "tags": [
       "AZ",
-      "zászló"
+      "zászló",
+      "zászló: azerbajdzsán"
     ],
     "emoji": "🇦🇿",
     "text": "",
@@ -51523,7 +51562,8 @@
     "hexcode": "1F1E7-1F1E6",
     "tags": [
       "BA",
-      "zászló"
+      "zászló",
+      "zászló: bosznia-hercegovina"
     ],
     "emoji": "🇧🇦",
     "text": "",
@@ -51538,7 +51578,8 @@
     "hexcode": "1F1E7-1F1E7",
     "tags": [
       "BB",
-      "zászló"
+      "zászló",
+      "zászló: barbados"
     ],
     "emoji": "🇧🇧",
     "text": "",
@@ -51553,7 +51594,8 @@
     "hexcode": "1F1E7-1F1E9",
     "tags": [
       "BD",
-      "zászló"
+      "zászló",
+      "zászló: banglades"
     ],
     "emoji": "🇧🇩",
     "text": "",
@@ -51568,7 +51610,8 @@
     "hexcode": "1F1E7-1F1EA",
     "tags": [
       "BE",
-      "zászló"
+      "zászló",
+      "zászló: belgium"
     ],
     "emoji": "🇧🇪",
     "text": "",
@@ -51583,7 +51626,8 @@
     "hexcode": "1F1E7-1F1EB",
     "tags": [
       "BF",
-      "zászló"
+      "zászló",
+      "zászló: burkina faso"
     ],
     "emoji": "🇧🇫",
     "text": "",
@@ -51598,7 +51642,8 @@
     "hexcode": "1F1E7-1F1EC",
     "tags": [
       "BG",
-      "zászló"
+      "zászló",
+      "zászló: bulgária"
     ],
     "emoji": "🇧🇬",
     "text": "",
@@ -51613,7 +51658,8 @@
     "hexcode": "1F1E7-1F1ED",
     "tags": [
       "BH",
-      "zászló"
+      "zászló",
+      "zászló: bahrein"
     ],
     "emoji": "🇧🇭",
     "text": "",
@@ -51628,7 +51674,8 @@
     "hexcode": "1F1E7-1F1EE",
     "tags": [
       "BI",
-      "zászló"
+      "zászló",
+      "zászló: burundi"
     ],
     "emoji": "🇧🇮",
     "text": "",
@@ -51643,7 +51690,8 @@
     "hexcode": "1F1E7-1F1EF",
     "tags": [
       "BJ",
-      "zászló"
+      "zászló",
+      "zászló: benin"
     ],
     "emoji": "🇧🇯",
     "text": "",
@@ -51658,7 +51706,8 @@
     "hexcode": "1F1E7-1F1F1",
     "tags": [
       "BL",
-      "zászló"
+      "zászló",
+      "zászló: saint-barthélemy"
     ],
     "emoji": "🇧🇱",
     "text": "",
@@ -51673,7 +51722,8 @@
     "hexcode": "1F1E7-1F1F2",
     "tags": [
       "BM",
-      "zászló"
+      "zászló",
+      "zászló: bermuda"
     ],
     "emoji": "🇧🇲",
     "text": "",
@@ -51688,7 +51738,8 @@
     "hexcode": "1F1E7-1F1F3",
     "tags": [
       "BN",
-      "zászló"
+      "zászló",
+      "zászló: brunei"
     ],
     "emoji": "🇧🇳",
     "text": "",
@@ -51703,7 +51754,8 @@
     "hexcode": "1F1E7-1F1F4",
     "tags": [
       "BO",
-      "zászló"
+      "zászló",
+      "zászló: bolívia"
     ],
     "emoji": "🇧🇴",
     "text": "",
@@ -51718,7 +51770,8 @@
     "hexcode": "1F1E7-1F1F6",
     "tags": [
       "BQ",
-      "zászló"
+      "zászló",
+      "zászló: holland karib-térség"
     ],
     "emoji": "🇧🇶",
     "text": "",
@@ -51733,7 +51786,8 @@
     "hexcode": "1F1E7-1F1F7",
     "tags": [
       "BR",
-      "zászló"
+      "zászló",
+      "zászló: brazília"
     ],
     "emoji": "🇧🇷",
     "text": "",
@@ -51748,7 +51802,8 @@
     "hexcode": "1F1E7-1F1F8",
     "tags": [
       "BS",
-      "zászló"
+      "zászló",
+      "zászló: bahama-szigetek"
     ],
     "emoji": "🇧🇸",
     "text": "",
@@ -51763,7 +51818,8 @@
     "hexcode": "1F1E7-1F1F9",
     "tags": [
       "BT",
-      "zászló"
+      "zászló",
+      "zászló: bhután"
     ],
     "emoji": "🇧🇹",
     "text": "",
@@ -51778,7 +51834,8 @@
     "hexcode": "1F1E7-1F1FB",
     "tags": [
       "BV",
-      "zászló"
+      "zászló",
+      "zászló: bouvet-sziget"
     ],
     "emoji": "🇧🇻",
     "text": "",
@@ -51793,7 +51850,8 @@
     "hexcode": "1F1E7-1F1FC",
     "tags": [
       "BW",
-      "zászló"
+      "zászló",
+      "zászló: botswana"
     ],
     "emoji": "🇧🇼",
     "text": "",
@@ -51808,7 +51866,8 @@
     "hexcode": "1F1E7-1F1FE",
     "tags": [
       "BY",
-      "zászló"
+      "zászló",
+      "zászló: belarusz"
     ],
     "emoji": "🇧🇾",
     "text": "",
@@ -51823,7 +51882,8 @@
     "hexcode": "1F1E7-1F1FF",
     "tags": [
       "BZ",
-      "zászló"
+      "zászló",
+      "zászló: belize"
     ],
     "emoji": "🇧🇿",
     "text": "",
@@ -51838,7 +51898,8 @@
     "hexcode": "1F1E8-1F1E6",
     "tags": [
       "CA",
-      "zászló"
+      "zászló",
+      "zászló: kanada"
     ],
     "emoji": "🇨🇦",
     "text": "",
@@ -51853,7 +51914,8 @@
     "hexcode": "1F1E8-1F1E8",
     "tags": [
       "CC",
-      "zászló"
+      "zászló",
+      "zászló: kókusz (keeling)-szigetek"
     ],
     "emoji": "🇨🇨",
     "text": "",
@@ -51868,7 +51930,8 @@
     "hexcode": "1F1E8-1F1E9",
     "tags": [
       "CD",
-      "zászló"
+      "zászló",
+      "zászló: kongó – kinshasa"
     ],
     "emoji": "🇨🇩",
     "text": "",
@@ -51883,7 +51946,8 @@
     "hexcode": "1F1E8-1F1EB",
     "tags": [
       "CF",
-      "zászló"
+      "zászló",
+      "zászló: közép-afrikai köztársaság"
     ],
     "emoji": "🇨🇫",
     "text": "",
@@ -51898,7 +51962,8 @@
     "hexcode": "1F1E8-1F1EC",
     "tags": [
       "CG",
-      "zászló"
+      "zászló",
+      "zászló: kongó – brazzaville"
     ],
     "emoji": "🇨🇬",
     "text": "",
@@ -51913,7 +51978,8 @@
     "hexcode": "1F1E8-1F1ED",
     "tags": [
       "CH",
-      "zászló"
+      "zászló",
+      "zászló: svájc"
     ],
     "emoji": "🇨🇭",
     "text": "",
@@ -51928,7 +51994,8 @@
     "hexcode": "1F1E8-1F1EE",
     "tags": [
       "CI",
-      "zászló"
+      "zászló",
+      "zászló: elefántcsontpart"
     ],
     "emoji": "🇨🇮",
     "text": "",
@@ -51943,7 +52010,8 @@
     "hexcode": "1F1E8-1F1F0",
     "tags": [
       "CK",
-      "zászló"
+      "zászló",
+      "zászló: cook-szigetek"
     ],
     "emoji": "🇨🇰",
     "text": "",
@@ -51958,7 +52026,8 @@
     "hexcode": "1F1E8-1F1F1",
     "tags": [
       "CL",
-      "zászló"
+      "zászló",
+      "zászló: chile"
     ],
     "emoji": "🇨🇱",
     "text": "",
@@ -51973,7 +52042,8 @@
     "hexcode": "1F1E8-1F1F2",
     "tags": [
       "CM",
-      "zászló"
+      "zászló",
+      "zászló: kamerun"
     ],
     "emoji": "🇨🇲",
     "text": "",
@@ -51988,7 +52058,8 @@
     "hexcode": "1F1E8-1F1F3",
     "tags": [
       "CN",
-      "zászló"
+      "zászló",
+      "zászló: kína"
     ],
     "emoji": "🇨🇳",
     "text": "",
@@ -52003,7 +52074,8 @@
     "hexcode": "1F1E8-1F1F4",
     "tags": [
       "CO",
-      "zászló"
+      "zászló",
+      "zászló: kolumbia"
     ],
     "emoji": "🇨🇴",
     "text": "",
@@ -52018,7 +52090,8 @@
     "hexcode": "1F1E8-1F1F5",
     "tags": [
       "CP",
-      "zászló"
+      "zászló",
+      "zászló: clipperton-sziget"
     ],
     "emoji": "🇨🇵",
     "text": "",
@@ -52033,7 +52106,8 @@
     "hexcode": "1F1E8-1F1F7",
     "tags": [
       "CR",
-      "zászló"
+      "zászló",
+      "zászló: costa rica"
     ],
     "emoji": "🇨🇷",
     "text": "",
@@ -52048,7 +52122,8 @@
     "hexcode": "1F1E8-1F1FA",
     "tags": [
       "CU",
-      "zászló"
+      "zászló",
+      "zászló: kuba"
     ],
     "emoji": "🇨🇺",
     "text": "",
@@ -52063,7 +52138,8 @@
     "hexcode": "1F1E8-1F1FB",
     "tags": [
       "CV",
-      "zászló"
+      "zászló",
+      "zászló: zöld-foki köztársaság"
     ],
     "emoji": "🇨🇻",
     "text": "",
@@ -52078,7 +52154,8 @@
     "hexcode": "1F1E8-1F1FC",
     "tags": [
       "CW",
-      "zászló"
+      "zászló",
+      "zászló: curaçao"
     ],
     "emoji": "🇨🇼",
     "text": "",
@@ -52093,7 +52170,8 @@
     "hexcode": "1F1E8-1F1FD",
     "tags": [
       "CX",
-      "zászló"
+      "zászló",
+      "zászló: karácsony-sziget"
     ],
     "emoji": "🇨🇽",
     "text": "",
@@ -52108,7 +52186,8 @@
     "hexcode": "1F1E8-1F1FE",
     "tags": [
       "CY",
-      "zászló"
+      "zászló",
+      "zászló: ciprus"
     ],
     "emoji": "🇨🇾",
     "text": "",
@@ -52123,7 +52202,8 @@
     "hexcode": "1F1E8-1F1FF",
     "tags": [
       "CZ",
-      "zászló"
+      "zászló",
+      "zászló: csehország"
     ],
     "emoji": "🇨🇿",
     "text": "",
@@ -52138,7 +52218,8 @@
     "hexcode": "1F1E9-1F1EA",
     "tags": [
       "DE",
-      "zászló"
+      "zászló",
+      "zászló: németország"
     ],
     "emoji": "🇩🇪",
     "text": "",
@@ -52153,7 +52234,8 @@
     "hexcode": "1F1E9-1F1EC",
     "tags": [
       "DG",
-      "zászló"
+      "zászló",
+      "zászló: diego garcia"
     ],
     "emoji": "🇩🇬",
     "text": "",
@@ -52168,7 +52250,8 @@
     "hexcode": "1F1E9-1F1EF",
     "tags": [
       "DJ",
-      "zászló"
+      "zászló",
+      "zászló: dzsibuti"
     ],
     "emoji": "🇩🇯",
     "text": "",
@@ -52183,7 +52266,8 @@
     "hexcode": "1F1E9-1F1F0",
     "tags": [
       "DK",
-      "zászló"
+      "zászló",
+      "zászló: dánia"
     ],
     "emoji": "🇩🇰",
     "text": "",
@@ -52198,7 +52282,8 @@
     "hexcode": "1F1E9-1F1F2",
     "tags": [
       "DM",
-      "zászló"
+      "zászló",
+      "zászló: dominika"
     ],
     "emoji": "🇩🇲",
     "text": "",
@@ -52213,7 +52298,8 @@
     "hexcode": "1F1E9-1F1F4",
     "tags": [
       "DO",
-      "zászló"
+      "zászló",
+      "zászló: dominikai köztársaság"
     ],
     "emoji": "🇩🇴",
     "text": "",
@@ -52228,7 +52314,8 @@
     "hexcode": "1F1E9-1F1FF",
     "tags": [
       "DZ",
-      "zászló"
+      "zászló",
+      "zászló: algéria"
     ],
     "emoji": "🇩🇿",
     "text": "",
@@ -52243,7 +52330,8 @@
     "hexcode": "1F1EA-1F1E6",
     "tags": [
       "EA",
-      "zászló"
+      "zászló",
+      "zászló: ceuta és melilla"
     ],
     "emoji": "🇪🇦",
     "text": "",
@@ -52258,7 +52346,8 @@
     "hexcode": "1F1EA-1F1E8",
     "tags": [
       "EC",
-      "zászló"
+      "zászló",
+      "zászló: ecuador"
     ],
     "emoji": "🇪🇨",
     "text": "",
@@ -52273,7 +52362,8 @@
     "hexcode": "1F1EA-1F1EA",
     "tags": [
       "EE",
-      "zászló"
+      "zászló",
+      "zászló: észtország"
     ],
     "emoji": "🇪🇪",
     "text": "",
@@ -52288,7 +52378,8 @@
     "hexcode": "1F1EA-1F1EC",
     "tags": [
       "EG",
-      "zászló"
+      "zászló",
+      "zászló: egyiptom"
     ],
     "emoji": "🇪🇬",
     "text": "",
@@ -52303,7 +52394,8 @@
     "hexcode": "1F1EA-1F1ED",
     "tags": [
       "EH",
-      "zászló"
+      "zászló",
+      "zászló: nyugat-szahara"
     ],
     "emoji": "🇪🇭",
     "text": "",
@@ -52318,7 +52410,8 @@
     "hexcode": "1F1EA-1F1F7",
     "tags": [
       "ER",
-      "zászló"
+      "zászló",
+      "zászló: eritrea"
     ],
     "emoji": "🇪🇷",
     "text": "",
@@ -52333,7 +52426,8 @@
     "hexcode": "1F1EA-1F1F8",
     "tags": [
       "ES",
-      "zászló"
+      "zászló",
+      "zászló: spanyolország"
     ],
     "emoji": "🇪🇸",
     "text": "",
@@ -52348,7 +52442,8 @@
     "hexcode": "1F1EA-1F1F9",
     "tags": [
       "ET",
-      "zászló"
+      "zászló",
+      "zászló: etiópia"
     ],
     "emoji": "🇪🇹",
     "text": "",
@@ -52363,7 +52458,8 @@
     "hexcode": "1F1EA-1F1FA",
     "tags": [
       "EU",
-      "zászló"
+      "zászló",
+      "zászló: európai unió"
     ],
     "emoji": "🇪🇺",
     "text": "",
@@ -52378,7 +52474,8 @@
     "hexcode": "1F1EB-1F1EE",
     "tags": [
       "FI",
-      "zászló"
+      "zászló",
+      "zászló: finnország"
     ],
     "emoji": "🇫🇮",
     "text": "",
@@ -52393,7 +52490,8 @@
     "hexcode": "1F1EB-1F1EF",
     "tags": [
       "FJ",
-      "zászló"
+      "zászló",
+      "zászló: fidzsi"
     ],
     "emoji": "🇫🇯",
     "text": "",
@@ -52408,7 +52506,8 @@
     "hexcode": "1F1EB-1F1F0",
     "tags": [
       "FK",
-      "zászló"
+      "zászló",
+      "zászló: falkland-szigetek"
     ],
     "emoji": "🇫🇰",
     "text": "",
@@ -52423,7 +52522,8 @@
     "hexcode": "1F1EB-1F1F2",
     "tags": [
       "FM",
-      "zászló"
+      "zászló",
+      "zászló: mikronézia"
     ],
     "emoji": "🇫🇲",
     "text": "",
@@ -52438,7 +52538,8 @@
     "hexcode": "1F1EB-1F1F4",
     "tags": [
       "FO",
-      "zászló"
+      "zászló",
+      "zászló: feröer szigetek"
     ],
     "emoji": "🇫🇴",
     "text": "",
@@ -52453,7 +52554,8 @@
     "hexcode": "1F1EB-1F1F7",
     "tags": [
       "FR",
-      "zászló"
+      "zászló",
+      "zászló: franciaország"
     ],
     "emoji": "🇫🇷",
     "text": "",
@@ -52468,7 +52570,8 @@
     "hexcode": "1F1EC-1F1E6",
     "tags": [
       "GA",
-      "zászló"
+      "zászló",
+      "zászló: gabon"
     ],
     "emoji": "🇬🇦",
     "text": "",
@@ -52483,7 +52586,8 @@
     "hexcode": "1F1EC-1F1E7",
     "tags": [
       "GB",
-      "zászló"
+      "zászló",
+      "zászló: egyesült királyság"
     ],
     "emoji": "🇬🇧",
     "text": "",
@@ -52498,7 +52602,8 @@
     "hexcode": "1F1EC-1F1E9",
     "tags": [
       "GD",
-      "zászló"
+      "zászló",
+      "zászló: grenada"
     ],
     "emoji": "🇬🇩",
     "text": "",
@@ -52513,7 +52618,8 @@
     "hexcode": "1F1EC-1F1EA",
     "tags": [
       "GE",
-      "zászló"
+      "zászló",
+      "zászló: grúzia"
     ],
     "emoji": "🇬🇪",
     "text": "",
@@ -52528,7 +52634,8 @@
     "hexcode": "1F1EC-1F1EB",
     "tags": [
       "GF",
-      "zászló"
+      "zászló",
+      "zászló: francia guyana"
     ],
     "emoji": "🇬🇫",
     "text": "",
@@ -52543,7 +52650,8 @@
     "hexcode": "1F1EC-1F1EC",
     "tags": [
       "GG",
-      "zászló"
+      "zászló",
+      "zászló: guernsey"
     ],
     "emoji": "🇬🇬",
     "text": "",
@@ -52558,7 +52666,8 @@
     "hexcode": "1F1EC-1F1ED",
     "tags": [
       "GH",
-      "zászló"
+      "zászló",
+      "zászló: ghána"
     ],
     "emoji": "🇬🇭",
     "text": "",
@@ -52573,7 +52682,8 @@
     "hexcode": "1F1EC-1F1EE",
     "tags": [
       "GI",
-      "zászló"
+      "zászló",
+      "zászló: gibraltár"
     ],
     "emoji": "🇬🇮",
     "text": "",
@@ -52588,7 +52698,8 @@
     "hexcode": "1F1EC-1F1F1",
     "tags": [
       "GL",
-      "zászló"
+      "zászló",
+      "zászló: grönland"
     ],
     "emoji": "🇬🇱",
     "text": "",
@@ -52603,7 +52714,8 @@
     "hexcode": "1F1EC-1F1F2",
     "tags": [
       "GM",
-      "zászló"
+      "zászló",
+      "zászló: gambia"
     ],
     "emoji": "🇬🇲",
     "text": "",
@@ -52618,7 +52730,8 @@
     "hexcode": "1F1EC-1F1F3",
     "tags": [
       "GN",
-      "zászló"
+      "zászló",
+      "zászló: guinea"
     ],
     "emoji": "🇬🇳",
     "text": "",
@@ -52633,7 +52746,8 @@
     "hexcode": "1F1EC-1F1F5",
     "tags": [
       "GP",
-      "zászló"
+      "zászló",
+      "zászló: guadeloupe"
     ],
     "emoji": "🇬🇵",
     "text": "",
@@ -52648,7 +52762,8 @@
     "hexcode": "1F1EC-1F1F6",
     "tags": [
       "GQ",
-      "zászló"
+      "zászló",
+      "zászló: egyenlítői-guinea"
     ],
     "emoji": "🇬🇶",
     "text": "",
@@ -52663,7 +52778,8 @@
     "hexcode": "1F1EC-1F1F7",
     "tags": [
       "GR",
-      "zászló"
+      "zászló",
+      "zászló: görögország"
     ],
     "emoji": "🇬🇷",
     "text": "",
@@ -52678,7 +52794,8 @@
     "hexcode": "1F1EC-1F1F8",
     "tags": [
       "GS",
-      "zászló"
+      "zászló",
+      "zászló: déli-georgia és déli-sandwich-szigetek"
     ],
     "emoji": "🇬🇸",
     "text": "",
@@ -52693,7 +52810,8 @@
     "hexcode": "1F1EC-1F1F9",
     "tags": [
       "GT",
-      "zászló"
+      "zászló",
+      "zászló: guatemala"
     ],
     "emoji": "🇬🇹",
     "text": "",
@@ -52708,7 +52826,8 @@
     "hexcode": "1F1EC-1F1FA",
     "tags": [
       "GU",
-      "zászló"
+      "zászló",
+      "zászló: guam"
     ],
     "emoji": "🇬🇺",
     "text": "",
@@ -52723,7 +52842,8 @@
     "hexcode": "1F1EC-1F1FC",
     "tags": [
       "GW",
-      "zászló"
+      "zászló",
+      "zászló: bissau-guinea"
     ],
     "emoji": "🇬🇼",
     "text": "",
@@ -52738,7 +52858,8 @@
     "hexcode": "1F1EC-1F1FE",
     "tags": [
       "GY",
-      "zászló"
+      "zászló",
+      "zászló: guyana"
     ],
     "emoji": "🇬🇾",
     "text": "",
@@ -52753,7 +52874,8 @@
     "hexcode": "1F1ED-1F1F0",
     "tags": [
       "HK",
-      "zászló"
+      "zászló",
+      "zászló: hongkong kkt"
     ],
     "emoji": "🇭🇰",
     "text": "",
@@ -52768,7 +52890,8 @@
     "hexcode": "1F1ED-1F1F2",
     "tags": [
       "HM",
-      "zászló"
+      "zászló",
+      "zászló: heard-sziget és mcdonald-szigetek"
     ],
     "emoji": "🇭🇲",
     "text": "",
@@ -52783,7 +52906,8 @@
     "hexcode": "1F1ED-1F1F3",
     "tags": [
       "HN",
-      "zászló"
+      "zászló",
+      "zászló: honduras"
     ],
     "emoji": "🇭🇳",
     "text": "",
@@ -52798,7 +52922,8 @@
     "hexcode": "1F1ED-1F1F7",
     "tags": [
       "HR",
-      "zászló"
+      "zászló",
+      "zászló: horvátország"
     ],
     "emoji": "🇭🇷",
     "text": "",
@@ -52813,7 +52938,8 @@
     "hexcode": "1F1ED-1F1F9",
     "tags": [
       "HT",
-      "zászló"
+      "zászló",
+      "zászló: haiti"
     ],
     "emoji": "🇭🇹",
     "text": "",
@@ -52828,7 +52954,8 @@
     "hexcode": "1F1ED-1F1FA",
     "tags": [
       "HU",
-      "zászló"
+      "zászló",
+      "zászló: magyarország"
     ],
     "emoji": "🇭🇺",
     "text": "",
@@ -52843,7 +52970,8 @@
     "hexcode": "1F1EE-1F1E8",
     "tags": [
       "IC",
-      "zászló"
+      "zászló",
+      "zászló: kanári-szigetek"
     ],
     "emoji": "🇮🇨",
     "text": "",
@@ -52858,7 +52986,8 @@
     "hexcode": "1F1EE-1F1E9",
     "tags": [
       "ID",
-      "zászló"
+      "zászló",
+      "zászló: indonézia"
     ],
     "emoji": "🇮🇩",
     "text": "",
@@ -52873,7 +53002,8 @@
     "hexcode": "1F1EE-1F1EA",
     "tags": [
       "IE",
-      "zászló"
+      "zászló",
+      "zászló: írország"
     ],
     "emoji": "🇮🇪",
     "text": "",
@@ -52888,7 +53018,8 @@
     "hexcode": "1F1EE-1F1F1",
     "tags": [
       "IL",
-      "zászló"
+      "zászló",
+      "zászló: izrael"
     ],
     "emoji": "🇮🇱",
     "text": "",
@@ -52903,7 +53034,8 @@
     "hexcode": "1F1EE-1F1F2",
     "tags": [
       "IM",
-      "zászló"
+      "zászló",
+      "zászló: man-sziget"
     ],
     "emoji": "🇮🇲",
     "text": "",
@@ -52918,7 +53050,8 @@
     "hexcode": "1F1EE-1F1F3",
     "tags": [
       "IN",
-      "zászló"
+      "zászló",
+      "zászló: india"
     ],
     "emoji": "🇮🇳",
     "text": "",
@@ -52933,7 +53066,8 @@
     "hexcode": "1F1EE-1F1F4",
     "tags": [
       "IO",
-      "zászló"
+      "zászló",
+      "zászló: brit indiai-óceáni terület"
     ],
     "emoji": "🇮🇴",
     "text": "",
@@ -52948,7 +53082,8 @@
     "hexcode": "1F1EE-1F1F6",
     "tags": [
       "IQ",
-      "zászló"
+      "zászló",
+      "zászló: irak"
     ],
     "emoji": "🇮🇶",
     "text": "",
@@ -52963,7 +53098,8 @@
     "hexcode": "1F1EE-1F1F7",
     "tags": [
       "IR",
-      "zászló"
+      "zászló",
+      "zászló: irán"
     ],
     "emoji": "🇮🇷",
     "text": "",
@@ -52978,7 +53114,8 @@
     "hexcode": "1F1EE-1F1F8",
     "tags": [
       "IS",
-      "zászló"
+      "zászló",
+      "zászló: izland"
     ],
     "emoji": "🇮🇸",
     "text": "",
@@ -52993,7 +53130,8 @@
     "hexcode": "1F1EE-1F1F9",
     "tags": [
       "IT",
-      "zászló"
+      "zászló",
+      "zászló: olaszország"
     ],
     "emoji": "🇮🇹",
     "text": "",
@@ -53008,7 +53146,8 @@
     "hexcode": "1F1EF-1F1EA",
     "tags": [
       "JE",
-      "zászló"
+      "zászló",
+      "zászló: jersey"
     ],
     "emoji": "🇯🇪",
     "text": "",
@@ -53023,7 +53162,8 @@
     "hexcode": "1F1EF-1F1F2",
     "tags": [
       "JM",
-      "zászló"
+      "zászló",
+      "zászló: jamaica"
     ],
     "emoji": "🇯🇲",
     "text": "",
@@ -53038,7 +53178,8 @@
     "hexcode": "1F1EF-1F1F4",
     "tags": [
       "JO",
-      "zászló"
+      "zászló",
+      "zászló: jordánia"
     ],
     "emoji": "🇯🇴",
     "text": "",
@@ -53053,7 +53194,8 @@
     "hexcode": "1F1EF-1F1F5",
     "tags": [
       "JP",
-      "zászló"
+      "zászló",
+      "zászló: japán"
     ],
     "emoji": "🇯🇵",
     "text": "",
@@ -53068,7 +53210,8 @@
     "hexcode": "1F1F0-1F1EA",
     "tags": [
       "KE",
-      "zászló"
+      "zászló",
+      "zászló: kenya"
     ],
     "emoji": "🇰🇪",
     "text": "",
@@ -53083,7 +53226,8 @@
     "hexcode": "1F1F0-1F1EC",
     "tags": [
       "KG",
-      "zászló"
+      "zászló",
+      "zászló: kirgizisztán"
     ],
     "emoji": "🇰🇬",
     "text": "",
@@ -53098,7 +53242,8 @@
     "hexcode": "1F1F0-1F1ED",
     "tags": [
       "KH",
-      "zászló"
+      "zászló",
+      "zászló: kambodzsa"
     ],
     "emoji": "🇰🇭",
     "text": "",
@@ -53113,7 +53258,8 @@
     "hexcode": "1F1F0-1F1EE",
     "tags": [
       "KI",
-      "zászló"
+      "zászló",
+      "zászló: kiribati"
     ],
     "emoji": "🇰🇮",
     "text": "",
@@ -53128,7 +53274,8 @@
     "hexcode": "1F1F0-1F1F2",
     "tags": [
       "KM",
-      "zászló"
+      "zászló",
+      "zászló: comore-szigetek"
     ],
     "emoji": "🇰🇲",
     "text": "",
@@ -53143,7 +53290,8 @@
     "hexcode": "1F1F0-1F1F3",
     "tags": [
       "KN",
-      "zászló"
+      "zászló",
+      "zászló: saint kitts és nevis"
     ],
     "emoji": "🇰🇳",
     "text": "",
@@ -53158,7 +53306,8 @@
     "hexcode": "1F1F0-1F1F5",
     "tags": [
       "KP",
-      "zászló"
+      "zászló",
+      "zászló: észak-korea"
     ],
     "emoji": "🇰🇵",
     "text": "",
@@ -53173,7 +53322,8 @@
     "hexcode": "1F1F0-1F1F7",
     "tags": [
       "KR",
-      "zászló"
+      "zászló",
+      "zászló: dél-korea"
     ],
     "emoji": "🇰🇷",
     "text": "",
@@ -53188,7 +53338,8 @@
     "hexcode": "1F1F0-1F1FC",
     "tags": [
       "KW",
-      "zászló"
+      "zászló",
+      "zászló: kuvait"
     ],
     "emoji": "🇰🇼",
     "text": "",
@@ -53203,7 +53354,8 @@
     "hexcode": "1F1F0-1F1FE",
     "tags": [
       "KY",
-      "zászló"
+      "zászló",
+      "zászló: kajmán-szigetek"
     ],
     "emoji": "🇰🇾",
     "text": "",
@@ -53218,7 +53370,8 @@
     "hexcode": "1F1F0-1F1FF",
     "tags": [
       "KZ",
-      "zászló"
+      "zászló",
+      "zászló: kazahsztán"
     ],
     "emoji": "🇰🇿",
     "text": "",
@@ -53233,7 +53386,8 @@
     "hexcode": "1F1F1-1F1E6",
     "tags": [
       "LA",
-      "zászló"
+      "zászló",
+      "zászló: laosz"
     ],
     "emoji": "🇱🇦",
     "text": "",
@@ -53248,7 +53402,8 @@
     "hexcode": "1F1F1-1F1E7",
     "tags": [
       "LB",
-      "zászló"
+      "zászló",
+      "zászló: libanon"
     ],
     "emoji": "🇱🇧",
     "text": "",
@@ -53263,7 +53418,8 @@
     "hexcode": "1F1F1-1F1E8",
     "tags": [
       "LC",
-      "zászló"
+      "zászló",
+      "zászló: saint lucia"
     ],
     "emoji": "🇱🇨",
     "text": "",
@@ -53278,7 +53434,8 @@
     "hexcode": "1F1F1-1F1EE",
     "tags": [
       "LI",
-      "zászló"
+      "zászló",
+      "zászló: liechtenstein"
     ],
     "emoji": "🇱🇮",
     "text": "",
@@ -53293,7 +53450,8 @@
     "hexcode": "1F1F1-1F1F0",
     "tags": [
       "LK",
-      "zászló"
+      "zászló",
+      "zászló: srí lanka"
     ],
     "emoji": "🇱🇰",
     "text": "",
@@ -53308,7 +53466,8 @@
     "hexcode": "1F1F1-1F1F7",
     "tags": [
       "LR",
-      "zászló"
+      "zászló",
+      "zászló: libéria"
     ],
     "emoji": "🇱🇷",
     "text": "",
@@ -53323,7 +53482,8 @@
     "hexcode": "1F1F1-1F1F8",
     "tags": [
       "LS",
-      "zászló"
+      "zászló",
+      "zászló: lesotho"
     ],
     "emoji": "🇱🇸",
     "text": "",
@@ -53338,7 +53498,8 @@
     "hexcode": "1F1F1-1F1F9",
     "tags": [
       "LT",
-      "zászló"
+      "zászló",
+      "zászló: litvánia"
     ],
     "emoji": "🇱🇹",
     "text": "",
@@ -53353,7 +53514,8 @@
     "hexcode": "1F1F1-1F1FA",
     "tags": [
       "LU",
-      "zászló"
+      "zászló",
+      "zászló: luxemburg"
     ],
     "emoji": "🇱🇺",
     "text": "",
@@ -53368,7 +53530,8 @@
     "hexcode": "1F1F1-1F1FB",
     "tags": [
       "LV",
-      "zászló"
+      "zászló",
+      "zászló: lettország"
     ],
     "emoji": "🇱🇻",
     "text": "",
@@ -53383,7 +53546,8 @@
     "hexcode": "1F1F1-1F1FE",
     "tags": [
       "LY",
-      "zászló"
+      "zászló",
+      "zászló: líbia"
     ],
     "emoji": "🇱🇾",
     "text": "",
@@ -53398,7 +53562,8 @@
     "hexcode": "1F1F2-1F1E6",
     "tags": [
       "MA",
-      "zászló"
+      "zászló",
+      "zászló: marokkó"
     ],
     "emoji": "🇲🇦",
     "text": "",
@@ -53413,7 +53578,8 @@
     "hexcode": "1F1F2-1F1E8",
     "tags": [
       "MC",
-      "zászló"
+      "zászló",
+      "zászló: monaco"
     ],
     "emoji": "🇲🇨",
     "text": "",
@@ -53428,7 +53594,8 @@
     "hexcode": "1F1F2-1F1E9",
     "tags": [
       "MD",
-      "zászló"
+      "zászló",
+      "zászló: moldova"
     ],
     "emoji": "🇲🇩",
     "text": "",
@@ -53443,7 +53610,8 @@
     "hexcode": "1F1F2-1F1EA",
     "tags": [
       "ME",
-      "zászló"
+      "zászló",
+      "zászló: montenegró"
     ],
     "emoji": "🇲🇪",
     "text": "",
@@ -53458,7 +53626,8 @@
     "hexcode": "1F1F2-1F1EB",
     "tags": [
       "MF",
-      "zászló"
+      "zászló",
+      "zászló: saint martin"
     ],
     "emoji": "🇲🇫",
     "text": "",
@@ -53473,7 +53642,8 @@
     "hexcode": "1F1F2-1F1EC",
     "tags": [
       "MG",
-      "zászló"
+      "zászló",
+      "zászló: madagaszkár"
     ],
     "emoji": "🇲🇬",
     "text": "",
@@ -53488,7 +53658,8 @@
     "hexcode": "1F1F2-1F1ED",
     "tags": [
       "MH",
-      "zászló"
+      "zászló",
+      "zászló: marshall-szigetek"
     ],
     "emoji": "🇲🇭",
     "text": "",
@@ -53503,7 +53674,8 @@
     "hexcode": "1F1F2-1F1F0",
     "tags": [
       "MK",
-      "zászló"
+      "zászló",
+      "zászló: észak-macedónia"
     ],
     "emoji": "🇲🇰",
     "text": "",
@@ -53518,7 +53690,8 @@
     "hexcode": "1F1F2-1F1F1",
     "tags": [
       "ML",
-      "zászló"
+      "zászló",
+      "zászló: mali"
     ],
     "emoji": "🇲🇱",
     "text": "",
@@ -53533,7 +53706,8 @@
     "hexcode": "1F1F2-1F1F2",
     "tags": [
       "MM",
-      "zászló"
+      "zászló",
+      "zászló: mianmar"
     ],
     "emoji": "🇲🇲",
     "text": "",
@@ -53548,7 +53722,8 @@
     "hexcode": "1F1F2-1F1F3",
     "tags": [
       "MN",
-      "zászló"
+      "zászló",
+      "zászló: mongólia"
     ],
     "emoji": "🇲🇳",
     "text": "",
@@ -53563,7 +53738,8 @@
     "hexcode": "1F1F2-1F1F4",
     "tags": [
       "MO",
-      "zászló"
+      "zászló",
+      "zászló: makaó kkt"
     ],
     "emoji": "🇲🇴",
     "text": "",
@@ -53578,7 +53754,8 @@
     "hexcode": "1F1F2-1F1F5",
     "tags": [
       "MP",
-      "zászló"
+      "zászló",
+      "zászló: északi mariana-szigetek"
     ],
     "emoji": "🇲🇵",
     "text": "",
@@ -53593,7 +53770,8 @@
     "hexcode": "1F1F2-1F1F6",
     "tags": [
       "MQ",
-      "zászló"
+      "zászló",
+      "zászló: martinique"
     ],
     "emoji": "🇲🇶",
     "text": "",
@@ -53608,7 +53786,8 @@
     "hexcode": "1F1F2-1F1F7",
     "tags": [
       "MR",
-      "zászló"
+      "zászló",
+      "zászló: mauritánia"
     ],
     "emoji": "🇲🇷",
     "text": "",
@@ -53623,7 +53802,8 @@
     "hexcode": "1F1F2-1F1F8",
     "tags": [
       "MS",
-      "zászló"
+      "zászló",
+      "zászló: montserrat"
     ],
     "emoji": "🇲🇸",
     "text": "",
@@ -53638,7 +53818,8 @@
     "hexcode": "1F1F2-1F1F9",
     "tags": [
       "MT",
-      "zászló"
+      "zászló",
+      "zászló: málta"
     ],
     "emoji": "🇲🇹",
     "text": "",
@@ -53653,7 +53834,8 @@
     "hexcode": "1F1F2-1F1FA",
     "tags": [
       "MU",
-      "zászló"
+      "zászló",
+      "zászló: mauritius"
     ],
     "emoji": "🇲🇺",
     "text": "",
@@ -53668,7 +53850,8 @@
     "hexcode": "1F1F2-1F1FB",
     "tags": [
       "MV",
-      "zászló"
+      "zászló",
+      "zászló: maldív-szigetek"
     ],
     "emoji": "🇲🇻",
     "text": "",
@@ -53683,7 +53866,8 @@
     "hexcode": "1F1F2-1F1FC",
     "tags": [
       "MW",
-      "zászló"
+      "zászló",
+      "zászló: malawi"
     ],
     "emoji": "🇲🇼",
     "text": "",
@@ -53698,7 +53882,8 @@
     "hexcode": "1F1F2-1F1FD",
     "tags": [
       "MX",
-      "zászló"
+      "zászló",
+      "zászló: mexikó"
     ],
     "emoji": "🇲🇽",
     "text": "",
@@ -53713,7 +53898,8 @@
     "hexcode": "1F1F2-1F1FE",
     "tags": [
       "MY",
-      "zászló"
+      "zászló",
+      "zászló: malajzia"
     ],
     "emoji": "🇲🇾",
     "text": "",
@@ -53728,7 +53914,8 @@
     "hexcode": "1F1F2-1F1FF",
     "tags": [
       "MZ",
-      "zászló"
+      "zászló",
+      "zászló: mozambik"
     ],
     "emoji": "🇲🇿",
     "text": "",
@@ -53743,7 +53930,8 @@
     "hexcode": "1F1F3-1F1E6",
     "tags": [
       "NA",
-      "zászló"
+      "zászló",
+      "zászló: namíbia"
     ],
     "emoji": "🇳🇦",
     "text": "",
@@ -53758,7 +53946,8 @@
     "hexcode": "1F1F3-1F1E8",
     "tags": [
       "NC",
-      "zászló"
+      "zászló",
+      "zászló: új-kaledónia"
     ],
     "emoji": "🇳🇨",
     "text": "",
@@ -53773,7 +53962,8 @@
     "hexcode": "1F1F3-1F1EA",
     "tags": [
       "NE",
-      "zászló"
+      "zászló",
+      "zászló: niger"
     ],
     "emoji": "🇳🇪",
     "text": "",
@@ -53788,7 +53978,8 @@
     "hexcode": "1F1F3-1F1EB",
     "tags": [
       "NF",
-      "zászló"
+      "zászló",
+      "zászló: norfolk-sziget"
     ],
     "emoji": "🇳🇫",
     "text": "",
@@ -53803,7 +53994,8 @@
     "hexcode": "1F1F3-1F1EC",
     "tags": [
       "NG",
-      "zászló"
+      "zászló",
+      "zászló: nigéria"
     ],
     "emoji": "🇳🇬",
     "text": "",
@@ -53818,7 +54010,8 @@
     "hexcode": "1F1F3-1F1EE",
     "tags": [
       "NI",
-      "zászló"
+      "zászló",
+      "zászló: nicaragua"
     ],
     "emoji": "🇳🇮",
     "text": "",
@@ -53833,7 +54026,8 @@
     "hexcode": "1F1F3-1F1F1",
     "tags": [
       "NL",
-      "zászló"
+      "zászló",
+      "zászló: hollandia"
     ],
     "emoji": "🇳🇱",
     "text": "",
@@ -53848,7 +54042,8 @@
     "hexcode": "1F1F3-1F1F4",
     "tags": [
       "NO",
-      "zászló"
+      "zászló",
+      "zászló: norvégia"
     ],
     "emoji": "🇳🇴",
     "text": "",
@@ -53863,7 +54058,8 @@
     "hexcode": "1F1F3-1F1F5",
     "tags": [
       "NP",
-      "zászló"
+      "zászló",
+      "zászló: nepál"
     ],
     "emoji": "🇳🇵",
     "text": "",
@@ -53878,7 +54074,8 @@
     "hexcode": "1F1F3-1F1F7",
     "tags": [
       "NR",
-      "zászló"
+      "zászló",
+      "zászló: nauru"
     ],
     "emoji": "🇳🇷",
     "text": "",
@@ -53893,7 +54090,8 @@
     "hexcode": "1F1F3-1F1FA",
     "tags": [
       "NU",
-      "zászló"
+      "zászló",
+      "zászló: niue"
     ],
     "emoji": "🇳🇺",
     "text": "",
@@ -53908,7 +54106,8 @@
     "hexcode": "1F1F3-1F1FF",
     "tags": [
       "NZ",
-      "zászló"
+      "zászló",
+      "zászló: új-zéland"
     ],
     "emoji": "🇳🇿",
     "text": "",
@@ -53923,7 +54122,8 @@
     "hexcode": "1F1F4-1F1F2",
     "tags": [
       "OM",
-      "zászló"
+      "zászló",
+      "zászló: omán"
     ],
     "emoji": "🇴🇲",
     "text": "",
@@ -53938,7 +54138,8 @@
     "hexcode": "1F1F5-1F1E6",
     "tags": [
       "PA",
-      "zászló"
+      "zászló",
+      "zászló: panama"
     ],
     "emoji": "🇵🇦",
     "text": "",
@@ -53953,7 +54154,8 @@
     "hexcode": "1F1F5-1F1EA",
     "tags": [
       "PE",
-      "zászló"
+      "zászló",
+      "zászló: peru"
     ],
     "emoji": "🇵🇪",
     "text": "",
@@ -53968,7 +54170,8 @@
     "hexcode": "1F1F5-1F1EB",
     "tags": [
       "PF",
-      "zászló"
+      "zászló",
+      "zászló: francia polinézia"
     ],
     "emoji": "🇵🇫",
     "text": "",
@@ -53983,7 +54186,8 @@
     "hexcode": "1F1F5-1F1EC",
     "tags": [
       "PG",
-      "zászló"
+      "zászló",
+      "zászló: pápua új-guinea"
     ],
     "emoji": "🇵🇬",
     "text": "",
@@ -53998,7 +54202,8 @@
     "hexcode": "1F1F5-1F1ED",
     "tags": [
       "PH",
-      "zászló"
+      "zászló",
+      "zászló: fülöp-szigetek"
     ],
     "emoji": "🇵🇭",
     "text": "",
@@ -54013,7 +54218,8 @@
     "hexcode": "1F1F5-1F1F0",
     "tags": [
       "PK",
-      "zászló"
+      "zászló",
+      "zászló: pakisztán"
     ],
     "emoji": "🇵🇰",
     "text": "",
@@ -54028,7 +54234,8 @@
     "hexcode": "1F1F5-1F1F1",
     "tags": [
       "PL",
-      "zászló"
+      "zászló",
+      "zászló: lengyelország"
     ],
     "emoji": "🇵🇱",
     "text": "",
@@ -54043,7 +54250,8 @@
     "hexcode": "1F1F5-1F1F2",
     "tags": [
       "PM",
-      "zászló"
+      "zászló",
+      "zászló: saint-pierre és miquelon"
     ],
     "emoji": "🇵🇲",
     "text": "",
@@ -54058,7 +54266,8 @@
     "hexcode": "1F1F5-1F1F3",
     "tags": [
       "PN",
-      "zászló"
+      "zászló",
+      "zászló: pitcairn-szigetek"
     ],
     "emoji": "🇵🇳",
     "text": "",
@@ -54073,7 +54282,8 @@
     "hexcode": "1F1F5-1F1F7",
     "tags": [
       "PR",
-      "zászló"
+      "zászló",
+      "zászló: puerto rico"
     ],
     "emoji": "🇵🇷",
     "text": "",
@@ -54088,7 +54298,8 @@
     "hexcode": "1F1F5-1F1F8",
     "tags": [
       "PS",
-      "zászló"
+      "zászló",
+      "zászló: palesztin autonómia"
     ],
     "emoji": "🇵🇸",
     "text": "",
@@ -54103,7 +54314,8 @@
     "hexcode": "1F1F5-1F1F9",
     "tags": [
       "PT",
-      "zászló"
+      "zászló",
+      "zászló: portugália"
     ],
     "emoji": "🇵🇹",
     "text": "",
@@ -54118,7 +54330,8 @@
     "hexcode": "1F1F5-1F1FC",
     "tags": [
       "PW",
-      "zászló"
+      "zászló",
+      "zászló: palau"
     ],
     "emoji": "🇵🇼",
     "text": "",
@@ -54133,7 +54346,8 @@
     "hexcode": "1F1F5-1F1FE",
     "tags": [
       "PY",
-      "zászló"
+      "zászló",
+      "zászló: paraguay"
     ],
     "emoji": "🇵🇾",
     "text": "",
@@ -54148,7 +54362,8 @@
     "hexcode": "1F1F6-1F1E6",
     "tags": [
       "QA",
-      "zászló"
+      "zászló",
+      "zászló: katar"
     ],
     "emoji": "🇶🇦",
     "text": "",
@@ -54163,7 +54378,8 @@
     "hexcode": "1F1F7-1F1EA",
     "tags": [
       "RE",
-      "zászló"
+      "zászló",
+      "zászló: réunion"
     ],
     "emoji": "🇷🇪",
     "text": "",
@@ -54178,7 +54394,8 @@
     "hexcode": "1F1F7-1F1F4",
     "tags": [
       "RO",
-      "zászló"
+      "zászló",
+      "zászló: románia"
     ],
     "emoji": "🇷🇴",
     "text": "",
@@ -54193,7 +54410,8 @@
     "hexcode": "1F1F7-1F1F8",
     "tags": [
       "RS",
-      "zászló"
+      "zászló",
+      "zászló: szerbia"
     ],
     "emoji": "🇷🇸",
     "text": "",
@@ -54208,7 +54426,8 @@
     "hexcode": "1F1F7-1F1FA",
     "tags": [
       "RU",
-      "zászló"
+      "zászló",
+      "zászló: oroszország"
     ],
     "emoji": "🇷🇺",
     "text": "",
@@ -54223,7 +54442,8 @@
     "hexcode": "1F1F7-1F1FC",
     "tags": [
       "RW",
-      "zászló"
+      "zászló",
+      "zászló: ruanda"
     ],
     "emoji": "🇷🇼",
     "text": "",
@@ -54238,7 +54458,8 @@
     "hexcode": "1F1F8-1F1E6",
     "tags": [
       "SA",
-      "zászló"
+      "zászló",
+      "zászló: szaúd-arábia"
     ],
     "emoji": "🇸🇦",
     "text": "",
@@ -54253,7 +54474,8 @@
     "hexcode": "1F1F8-1F1E7",
     "tags": [
       "SB",
-      "zászló"
+      "zászló",
+      "zászló: salamon-szigetek"
     ],
     "emoji": "🇸🇧",
     "text": "",
@@ -54268,7 +54490,8 @@
     "hexcode": "1F1F8-1F1E8",
     "tags": [
       "SC",
-      "zászló"
+      "zászló",
+      "zászló: seychelle-szigetek"
     ],
     "emoji": "🇸🇨",
     "text": "",
@@ -54283,7 +54506,8 @@
     "hexcode": "1F1F8-1F1E9",
     "tags": [
       "SD",
-      "zászló"
+      "zászló",
+      "zászló: szudán"
     ],
     "emoji": "🇸🇩",
     "text": "",
@@ -54298,7 +54522,8 @@
     "hexcode": "1F1F8-1F1EA",
     "tags": [
       "SE",
-      "zászló"
+      "zászló",
+      "zászló: svédország"
     ],
     "emoji": "🇸🇪",
     "text": "",
@@ -54313,7 +54538,8 @@
     "hexcode": "1F1F8-1F1EC",
     "tags": [
       "SG",
-      "zászló"
+      "zászló",
+      "zászló: szingapúr"
     ],
     "emoji": "🇸🇬",
     "text": "",
@@ -54328,7 +54554,8 @@
     "hexcode": "1F1F8-1F1ED",
     "tags": [
       "SH",
-      "zászló"
+      "zászló",
+      "zászló: szent ilona"
     ],
     "emoji": "🇸🇭",
     "text": "",
@@ -54343,7 +54570,8 @@
     "hexcode": "1F1F8-1F1EE",
     "tags": [
       "SI",
-      "zászló"
+      "zászló",
+      "zászló: szlovénia"
     ],
     "emoji": "🇸🇮",
     "text": "",
@@ -54358,7 +54586,8 @@
     "hexcode": "1F1F8-1F1EF",
     "tags": [
       "SJ",
-      "zászló"
+      "zászló",
+      "zászló: svalbard és jan mayen"
     ],
     "emoji": "🇸🇯",
     "text": "",
@@ -54373,7 +54602,8 @@
     "hexcode": "1F1F8-1F1F0",
     "tags": [
       "SK",
-      "zászló"
+      "zászló",
+      "zászló: szlovákia"
     ],
     "emoji": "🇸🇰",
     "text": "",
@@ -54388,7 +54618,8 @@
     "hexcode": "1F1F8-1F1F1",
     "tags": [
       "SL",
-      "zászló"
+      "zászló",
+      "zászló: sierra leone"
     ],
     "emoji": "🇸🇱",
     "text": "",
@@ -54403,7 +54634,8 @@
     "hexcode": "1F1F8-1F1F2",
     "tags": [
       "SM",
-      "zászló"
+      "zászló",
+      "zászló: san marino"
     ],
     "emoji": "🇸🇲",
     "text": "",
@@ -54418,7 +54650,8 @@
     "hexcode": "1F1F8-1F1F3",
     "tags": [
       "SN",
-      "zászló"
+      "zászló",
+      "zászló: szenegál"
     ],
     "emoji": "🇸🇳",
     "text": "",
@@ -54433,7 +54666,8 @@
     "hexcode": "1F1F8-1F1F4",
     "tags": [
       "SO",
-      "zászló"
+      "zászló",
+      "zászló: szomália"
     ],
     "emoji": "🇸🇴",
     "text": "",
@@ -54448,7 +54682,8 @@
     "hexcode": "1F1F8-1F1F7",
     "tags": [
       "SR",
-      "zászló"
+      "zászló",
+      "zászló: suriname"
     ],
     "emoji": "🇸🇷",
     "text": "",
@@ -54463,7 +54698,8 @@
     "hexcode": "1F1F8-1F1F8",
     "tags": [
       "SS",
-      "zászló"
+      "zászló",
+      "zászló: dél-szudán"
     ],
     "emoji": "🇸🇸",
     "text": "",
@@ -54478,7 +54714,8 @@
     "hexcode": "1F1F8-1F1F9",
     "tags": [
       "ST",
-      "zászló"
+      "zászló",
+      "zászló: são tomé és príncipe"
     ],
     "emoji": "🇸🇹",
     "text": "",
@@ -54493,7 +54730,8 @@
     "hexcode": "1F1F8-1F1FB",
     "tags": [
       "SV",
-      "zászló"
+      "zászló",
+      "zászló: salvador"
     ],
     "emoji": "🇸🇻",
     "text": "",
@@ -54508,7 +54746,8 @@
     "hexcode": "1F1F8-1F1FD",
     "tags": [
       "SX",
-      "zászló"
+      "zászló",
+      "zászló: sint maarten"
     ],
     "emoji": "🇸🇽",
     "text": "",
@@ -54523,7 +54762,8 @@
     "hexcode": "1F1F8-1F1FE",
     "tags": [
       "SY",
-      "zászló"
+      "zászló",
+      "zászló: szíria"
     ],
     "emoji": "🇸🇾",
     "text": "",
@@ -54538,7 +54778,8 @@
     "hexcode": "1F1F8-1F1FF",
     "tags": [
       "SZ",
-      "zászló"
+      "zászló",
+      "zászló: szváziföld"
     ],
     "emoji": "🇸🇿",
     "text": "",
@@ -54553,7 +54794,8 @@
     "hexcode": "1F1F9-1F1E6",
     "tags": [
       "TA",
-      "zászló"
+      "zászló",
+      "zászló: tristan da cunha"
     ],
     "emoji": "🇹🇦",
     "text": "",
@@ -54568,7 +54810,8 @@
     "hexcode": "1F1F9-1F1E8",
     "tags": [
       "TC",
-      "zászló"
+      "zászló",
+      "zászló: turks- és caicos-szigetek"
     ],
     "emoji": "🇹🇨",
     "text": "",
@@ -54583,7 +54826,8 @@
     "hexcode": "1F1F9-1F1E9",
     "tags": [
       "TD",
-      "zászló"
+      "zászló",
+      "zászló: csád"
     ],
     "emoji": "🇹🇩",
     "text": "",
@@ -54598,7 +54842,8 @@
     "hexcode": "1F1F9-1F1EB",
     "tags": [
       "TF",
-      "zászló"
+      "zászló",
+      "zászló: francia déli területek"
     ],
     "emoji": "🇹🇫",
     "text": "",
@@ -54613,7 +54858,8 @@
     "hexcode": "1F1F9-1F1EC",
     "tags": [
       "TG",
-      "zászló"
+      "zászló",
+      "zászló: togo"
     ],
     "emoji": "🇹🇬",
     "text": "",
@@ -54628,7 +54874,8 @@
     "hexcode": "1F1F9-1F1ED",
     "tags": [
       "TH",
-      "zászló"
+      "zászló",
+      "zászló: thaiföld"
     ],
     "emoji": "🇹🇭",
     "text": "",
@@ -54643,7 +54890,8 @@
     "hexcode": "1F1F9-1F1EF",
     "tags": [
       "TJ",
-      "zászló"
+      "zászló",
+      "zászló: tádzsikisztán"
     ],
     "emoji": "🇹🇯",
     "text": "",
@@ -54658,7 +54906,8 @@
     "hexcode": "1F1F9-1F1F0",
     "tags": [
       "TK",
-      "zászló"
+      "zászló",
+      "zászló: tokelau"
     ],
     "emoji": "🇹🇰",
     "text": "",
@@ -54673,7 +54922,8 @@
     "hexcode": "1F1F9-1F1F1",
     "tags": [
       "TL",
-      "zászló"
+      "zászló",
+      "zászló: kelet-timor"
     ],
     "emoji": "🇹🇱",
     "text": "",
@@ -54688,7 +54938,8 @@
     "hexcode": "1F1F9-1F1F2",
     "tags": [
       "TM",
-      "zászló"
+      "zászló",
+      "zászló: türkmenisztán"
     ],
     "emoji": "🇹🇲",
     "text": "",
@@ -54703,7 +54954,8 @@
     "hexcode": "1F1F9-1F1F3",
     "tags": [
       "TN",
-      "zászló"
+      "zászló",
+      "zászló: tunézia"
     ],
     "emoji": "🇹🇳",
     "text": "",
@@ -54718,7 +54970,8 @@
     "hexcode": "1F1F9-1F1F4",
     "tags": [
       "TO",
-      "zászló"
+      "zászló",
+      "zászló: tonga"
     ],
     "emoji": "🇹🇴",
     "text": "",
@@ -54733,7 +54986,8 @@
     "hexcode": "1F1F9-1F1F7",
     "tags": [
       "TR",
-      "zászló"
+      "zászló",
+      "zászló: törökország"
     ],
     "emoji": "🇹🇷",
     "text": "",
@@ -54748,7 +55002,8 @@
     "hexcode": "1F1F9-1F1F9",
     "tags": [
       "TT",
-      "zászló"
+      "zászló",
+      "zászló: trinidad és tobago"
     ],
     "emoji": "🇹🇹",
     "text": "",
@@ -54763,7 +55018,8 @@
     "hexcode": "1F1F9-1F1FB",
     "tags": [
       "TV",
-      "zászló"
+      "zászló",
+      "zászló: tuvalu"
     ],
     "emoji": "🇹🇻",
     "text": "",
@@ -54778,7 +55034,8 @@
     "hexcode": "1F1F9-1F1FC",
     "tags": [
       "TW",
-      "zászló"
+      "zászló",
+      "zászló: tajvan"
     ],
     "emoji": "🇹🇼",
     "text": "",
@@ -54793,7 +55050,8 @@
     "hexcode": "1F1F9-1F1FF",
     "tags": [
       "TZ",
-      "zászló"
+      "zászló",
+      "zászló: tanzánia"
     ],
     "emoji": "🇹🇿",
     "text": "",
@@ -54808,7 +55066,8 @@
     "hexcode": "1F1FA-1F1E6",
     "tags": [
       "UA",
-      "zászló"
+      "zászló",
+      "zászló: ukrajna"
     ],
     "emoji": "🇺🇦",
     "text": "",
@@ -54823,7 +55082,8 @@
     "hexcode": "1F1FA-1F1EC",
     "tags": [
       "UG",
-      "zászló"
+      "zászló",
+      "zászló: uganda"
     ],
     "emoji": "🇺🇬",
     "text": "",
@@ -54838,7 +55098,8 @@
     "hexcode": "1F1FA-1F1F2",
     "tags": [
       "UM",
-      "zászló"
+      "zászló",
+      "zászló: az usa lakatlan külbirtokai"
     ],
     "emoji": "🇺🇲",
     "text": "",
@@ -54853,7 +55114,8 @@
     "hexcode": "1F1FA-1F1F3",
     "tags": [
       "UN",
-      "zászló"
+      "zászló",
+      "zászló: egyesült nemzetek szervezete"
     ],
     "emoji": "🇺🇳",
     "text": "",
@@ -54868,7 +55130,8 @@
     "hexcode": "1F1FA-1F1F8",
     "tags": [
       "US",
-      "zászló"
+      "zászló",
+      "zászló: egyesült államok"
     ],
     "emoji": "🇺🇸",
     "text": "",
@@ -54883,7 +55146,8 @@
     "hexcode": "1F1FA-1F1FE",
     "tags": [
       "UY",
-      "zászló"
+      "zászló",
+      "zászló: uruguay"
     ],
     "emoji": "🇺🇾",
     "text": "",
@@ -54898,7 +55162,8 @@
     "hexcode": "1F1FA-1F1FF",
     "tags": [
       "UZ",
-      "zászló"
+      "zászló",
+      "zászló: üzbegisztán"
     ],
     "emoji": "🇺🇿",
     "text": "",
@@ -54913,7 +55178,8 @@
     "hexcode": "1F1FB-1F1E6",
     "tags": [
       "VA",
-      "zászló"
+      "zászló",
+      "zászló: vatikán"
     ],
     "emoji": "🇻🇦",
     "text": "",
@@ -54928,7 +55194,8 @@
     "hexcode": "1F1FB-1F1E8",
     "tags": [
       "VC",
-      "zászló"
+      "zászló",
+      "zászló: saint vincent és a grenadine-szigetek"
     ],
     "emoji": "🇻🇨",
     "text": "",
@@ -54943,7 +55210,8 @@
     "hexcode": "1F1FB-1F1EA",
     "tags": [
       "VE",
-      "zászló"
+      "zászló",
+      "zászló: venezuela"
     ],
     "emoji": "🇻🇪",
     "text": "",
@@ -54958,7 +55226,8 @@
     "hexcode": "1F1FB-1F1EC",
     "tags": [
       "VG",
-      "zászló"
+      "zászló",
+      "zászló: brit virgin-szigetek"
     ],
     "emoji": "🇻🇬",
     "text": "",
@@ -54973,7 +55242,8 @@
     "hexcode": "1F1FB-1F1EE",
     "tags": [
       "VI",
-      "zászló"
+      "zászló",
+      "zászló: amerikai virgin-szigetek"
     ],
     "emoji": "🇻🇮",
     "text": "",
@@ -54988,7 +55258,8 @@
     "hexcode": "1F1FB-1F1F3",
     "tags": [
       "VN",
-      "zászló"
+      "zászló",
+      "zászló: vietnám"
     ],
     "emoji": "🇻🇳",
     "text": "",
@@ -55003,7 +55274,8 @@
     "hexcode": "1F1FB-1F1FA",
     "tags": [
       "VU",
-      "zászló"
+      "zászló",
+      "zászló: vanuatu"
     ],
     "emoji": "🇻🇺",
     "text": "",
@@ -55018,7 +55290,8 @@
     "hexcode": "1F1FC-1F1EB",
     "tags": [
       "WF",
-      "zászló"
+      "zászló",
+      "zászló: wallis és futuna"
     ],
     "emoji": "🇼🇫",
     "text": "",
@@ -55033,7 +55306,8 @@
     "hexcode": "1F1FC-1F1F8",
     "tags": [
       "WS",
-      "zászló"
+      "zászló",
+      "zászló: szamoa"
     ],
     "emoji": "🇼🇸",
     "text": "",
@@ -55048,7 +55322,8 @@
     "hexcode": "1F1FD-1F1F0",
     "tags": [
       "XK",
-      "zászló"
+      "zászló",
+      "zászló: koszovó"
     ],
     "emoji": "🇽🇰",
     "text": "",
@@ -55063,7 +55338,8 @@
     "hexcode": "1F1FE-1F1EA",
     "tags": [
       "YE",
-      "zászló"
+      "zászló",
+      "zászló: jemen"
     ],
     "emoji": "🇾🇪",
     "text": "",
@@ -55078,7 +55354,8 @@
     "hexcode": "1F1FE-1F1F9",
     "tags": [
       "YT",
-      "zászló"
+      "zászló",
+      "zászló: mayotte"
     ],
     "emoji": "🇾🇹",
     "text": "",
@@ -55093,7 +55370,8 @@
     "hexcode": "1F1FF-1F1E6",
     "tags": [
       "ZA",
-      "zászló"
+      "zászló",
+      "zászló: dél-afrikai köztársaság"
     ],
     "emoji": "🇿🇦",
     "text": "",
@@ -55108,7 +55386,8 @@
     "hexcode": "1F1FF-1F1F2",
     "tags": [
       "ZM",
-      "zászló"
+      "zászló",
+      "zászló: zambia"
     ],
     "emoji": "🇿🇲",
     "text": "",
@@ -55123,7 +55402,8 @@
     "hexcode": "1F1FF-1F1FC",
     "tags": [
       "ZW",
-      "zászló"
+      "zászló",
+      "zászló: zimbabwe"
     ],
     "emoji": "🇿🇼",
     "text": "",
@@ -55138,7 +55418,8 @@
     "hexcode": "1F3F4-E0067-E0062-E0065-E006E-E0067-E007F",
     "tags": [
       "gbeng",
-      "zászló"
+      "zászló",
+      "zászló: anglia"
     ],
     "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "text": "",
@@ -55153,7 +55434,8 @@
     "hexcode": "1F3F4-E0067-E0062-E0073-E0063-E0074-E007F",
     "tags": [
       "gbsct",
-      "zászló"
+      "zászló",
+      "zászló: skócia"
     ],
     "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
     "text": "",
@@ -55168,7 +55450,8 @@
     "hexcode": "1F3F4-E0067-E0062-E0077-E006C-E0073-E007F",
     "tags": [
       "gbwls",
-      "zászló"
+      "zászló",
+      "zászló: wales"
     ],
     "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
     "text": "",

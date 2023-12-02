@@ -83,6 +83,7 @@ export const UNICODE_VERSIONS = [
 	'13.0',
 	'14.0',
 	'15.0',
+	'15.1',
 ];
 
 export const SUPPORTED_LOCALES: Locale[] = [

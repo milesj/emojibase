@@ -499,11 +499,12 @@
   {
     "group": 0,
     "hexcode": "1F61D",
-    "label": "faccina con un gran sorriso che mostra la lingua",
+    "label": "faccina che strizza gli occhi e mostra la lingua",
     "order": 29,
     "tags": [
       "bleah",
       "faccina",
+      "faccina con un gran sorriso che mostra la lingua",
       "linguaccia",
       "orribile"
     ],
@@ -707,7 +708,9 @@
     "label": "testa tra le nuvole",
     "order": 44,
     "tags": [
-      "testa tra le nuvole"
+      "annebbiato",
+      "distratto",
+      "sbadato"
     ],
     "unicode": "😶‍🌫️"
   },
@@ -768,7 +771,12 @@
     "label": "faccina che espira",
     "order": 50,
     "tags": [
-      "faccina che espira"
+      "ansimare",
+      "espirare",
+      "fischiare",
+      "sollievo",
+      "stanco",
+      "sussurrare"
     ],
     "unicode": "😮‍💨"
   },
@@ -802,35 +810,22 @@
   {
     "group": 0,
     "hexcode": "1F642-200D-2194-FE0F",
-    "label": "head shaking horizontally",
+    "label": "scuotere la testa in senso orizzontale",
     "order": 53,
     "tags": [
-      "destra",
-      "doppia direzione",
-      "faccina con sorriso accennato",
-      "freccia",
-      "freccia sinistra-destra",
-      "larghezza",
-      "mezzo sorriso",
-      "sorriso",
-      "sorriso a bocca chiusa"
+      "no",
+      "scuotere"
     ],
     "unicode": "🙂‍↔️"
   },
   {
     "group": 0,
     "hexcode": "1F642-200D-2195-FE0F",
-    "label": "head shaking vertically",
+    "label": "scuotere la testa in senso verticale",
     "order": 55,
     "tags": [
-      "altezza",
-      "doppia direzione",
-      "faccina con sorriso accennato",
-      "freccia",
-      "freccia su-giù",
-      "mezzo sorriso",
-      "sorriso",
-      "sorriso a bocca chiusa"
+      "annuire",
+      "sì"
     ],
     "unicode": "🙂‍↕️"
   },
@@ -1027,7 +1022,11 @@
     "label": "faccina con occhi a spirale",
     "order": 72,
     "tags": [
-      "faccina con occhi a spirale"
+      "confuso",
+      "ipnotizzato",
+      "nausea",
+      "problema",
+      "stordito"
     ],
     "unicode": "😵‍💫"
   },
@@ -1968,7 +1967,11 @@
     "label": "cuore in fiamme",
     "order": 148,
     "tags": [
-      "cuore in fiamme"
+      "amore",
+      "bruciare",
+      "cuore sacro",
+      "lussuria",
+      "passione"
     ],
     "unicode": "❤️‍🔥"
   },
@@ -1978,7 +1981,10 @@
     "label": "cuore guarito",
     "order": 150,
     "tags": [
-      "cuore guarito"
+      "cuore con bende",
+      "guarigione",
+      "guarire",
+      "sentirsi meglio"
     ],
     "unicode": "❤️‍🩹"
   },
@@ -3102,7 +3108,6 @@
     "order": 283,
     "tags": [
       "amore",
-      "caro",
       "costoso",
       "cuore",
       "denaro",
@@ -4992,8 +4997,7 @@
       "flirtare",
       "nervoso",
       "paura",
-      "preoccupato",
-      "sedurre"
+      "preoccupato"
     ],
     "unicode": "🫦"
   },
@@ -12061,7 +12065,8 @@
     "label": "Santa Claus",
     "order": 1661,
     "tags": [
-      "claus, natale",
+      "claus",
+      "natale",
       "santa claus"
     ],
     "unicode": "🧑‍🎄",
@@ -14384,9 +14389,6 @@
     "order": 2176,
     "tags": [
       "accessibilità",
-      "cecità",
-      "ciechi",
-      "cieco",
       "ipovedente",
       "ipovedenti",
       "non vedente",
@@ -14498,13 +14500,11 @@
     "order": 2194,
     "tags": [
       "accessibilità",
-      "cecità",
-      "cieca",
-      "cieche",
-      "donna non vedente",
-      "donne non vedenti",
+      "donna",
       "ipovedente",
-      "ipovedenti"
+      "ipovedenti",
+      "non vedente",
+      "non vedenti"
     ],
     "unicode": "👩‍🦯",
     "skins": [
@@ -20973,52 +20973,46 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2",
-    "label": "family: adult, adult, child",
+    "label": "famiglia: persona adulta, persona adulta, minore",
     "order": 3470,
     "tags": [
-      "adulto",
-      "bimbo",
-      "giovane",
-      "persona"
+      "famiglia: persona adulta",
+      "minore",
+      "persona adulta"
     ],
     "unicode": "🧑‍🧑‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, adult, child, child",
+    "label": "famiglia: persona adulta, persona adulta, minore, minore",
     "order": 3471,
     "tags": [
-      "adulto",
-      "bimbo",
-      "giovane",
-      "persona"
+      "famiglia: persona adulta",
+      "minore",
+      "persona adulta"
     ],
     "unicode": "🧑‍🧑‍🧒‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2",
-    "label": "family: adult, child",
+    "label": "famiglia: persona adulta, minore",
     "order": 3472,
     "tags": [
-      "adulto",
-      "bimbo",
-      "giovane",
-      "persona"
+      "famiglia: persona adulta",
+      "minore"
     ],
     "unicode": "🧑‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, child, child",
+    "label": "famiglia: persona adulta, minore, minore",
     "order": 3473,
     "tags": [
-      "adulto",
-      "bimbo",
-      "giovane",
-      "persona"
+      "famiglia: persona adulta",
+      "minore"
     ],
     "unicode": "🧑‍🧒‍🧒"
   },
@@ -21825,12 +21819,8 @@
     "order": 3546,
     "tags": [
       "calma",
-      "lenta",
       "lentezza",
-      "lento",
-      "pigra",
-      "pigrizia",
-      "pigro"
+      "pigrizia"
     ],
     "unicode": "🦥"
   },
@@ -22112,14 +22102,12 @@
   {
     "group": 3,
     "hexcode": "1F426-200D-2B1B",
-    "label": "black bird",
+    "label": "merlo",
     "order": 3572,
     "tags": [
-      "bird",
-      "black",
-      "crow",
-      "raven",
-      "rook"
+      "corvo",
+      "nero",
+      "uccello"
     ],
     "unicode": "🐦‍⬛"
   },
@@ -22139,13 +22127,13 @@
   {
     "group": 3,
     "hexcode": "1F426-200D-1F525",
-    "label": "phoenix",
+    "label": "fenice",
     "order": 3574,
     "tags": [
-      "animale",
-      "fiamma",
-      "fuoco",
-      "uccello"
+      "fantasia",
+      "reincarnazione",
+      "rinascita",
+      "uccello di fuoco"
     ],
     "unicode": "🐦‍🔥"
   },
@@ -22932,10 +22920,7 @@
     "tags": [
       "agrume",
       "frutta",
-      "limone",
-      "quadrato",
-      "quadrato di colore verde",
-      "verde"
+      "tropicale"
     ],
     "unicode": "🍋‍🟩"
   },
@@ -23290,15 +23275,13 @@
   {
     "group": 4,
     "hexcode": "1F344-200D-1F7EB",
-    "label": "brown mushroom",
+    "label": "fungo marrone",
     "order": 3682,
     "tags": [
-      "autunno",
-      "bosco",
+      "cibo",
       "fungo",
-      "quadrato",
-      "quadrato di colore marrone",
-      "quadrato marrone"
+      "natura",
+      "vegetale"
     ],
     "unicode": "🍄‍🟫"
   },
@@ -24421,7 +24404,6 @@
       "condimento",
       "conservare",
       "contenitore",
-      "dispensa",
       "salsa",
       "sugo",
       "vuoto"
@@ -27781,11 +27763,9 @@
       "ballare",
       "brillare",
       "dance",
-      "disco",
       "discoteca",
       "festa",
-      "glitter",
-      "specchi"
+      "glitter"
     ],
     "unicode": "🪩"
   },
@@ -30455,16 +30435,14 @@
   {
     "group": 7,
     "hexcode": "26D3-FE0F-200D-1F4A5",
-    "label": "broken chain",
+    "label": "catena spezzata",
     "order": 4395,
     "tags": [
       "catene",
-      "collisione",
-      "emozione",
-      "fumetto",
-      "imprigionare",
-      "incatenare",
-      "simbolo collisione"
+      "libertà",
+      "manette",
+      "rompere",
+      "spezzare"
     ],
     "unicode": "⛓️‍💥"
   },
@@ -30681,7 +30659,6 @@
       "disabile",
       "ferito",
       "infortunio",
-      "mobilità",
       "supporto"
     ],
     "unicode": "🩼"
@@ -31080,7 +31057,6 @@
     "label": "mano di Fatima",
     "order": 4452,
     "tags": [
-      "alo",
       "amuleto",
       "hamsa",
       "khamsa",
@@ -33936,7 +33912,8 @@
     "order": 4774,
     "tags": [
       "AC",
-      "bandiera"
+      "bandiera",
+      "bandiera: isola ascensione"
     ],
     "unicode": "🇦🇨"
   },
@@ -33947,7 +33924,8 @@
     "order": 4775,
     "tags": [
       "AD",
-      "bandiera"
+      "bandiera",
+      "bandiera: andorra"
     ],
     "unicode": "🇦🇩"
   },
@@ -33958,7 +33936,8 @@
     "order": 4776,
     "tags": [
       "AE",
-      "bandiera"
+      "bandiera",
+      "bandiera: emirati arabi uniti"
     ],
     "unicode": "🇦🇪"
   },
@@ -33969,7 +33948,8 @@
     "order": 4777,
     "tags": [
       "AF",
-      "bandiera"
+      "bandiera",
+      "bandiera: afghanistan"
     ],
     "unicode": "🇦🇫"
   },
@@ -33980,7 +33960,8 @@
     "order": 4778,
     "tags": [
       "AG",
-      "bandiera"
+      "bandiera",
+      "bandiera: antigua e barbuda"
     ],
     "unicode": "🇦🇬"
   },
@@ -33991,7 +33972,8 @@
     "order": 4779,
     "tags": [
       "AI",
-      "bandiera"
+      "bandiera",
+      "bandiera: anguilla"
     ],
     "unicode": "🇦🇮"
   },
@@ -34002,7 +33984,8 @@
     "order": 4780,
     "tags": [
       "AL",
-      "bandiera"
+      "bandiera",
+      "bandiera: albania"
     ],
     "unicode": "🇦🇱"
   },
@@ -34013,7 +33996,8 @@
     "order": 4781,
     "tags": [
       "AM",
-      "bandiera"
+      "bandiera",
+      "bandiera: armenia"
     ],
     "unicode": "🇦🇲"
   },
@@ -34024,7 +34008,8 @@
     "order": 4782,
     "tags": [
       "AO",
-      "bandiera"
+      "bandiera",
+      "bandiera: angola"
     ],
     "unicode": "🇦🇴"
   },
@@ -34035,7 +34020,8 @@
     "order": 4783,
     "tags": [
       "AQ",
-      "bandiera"
+      "bandiera",
+      "bandiera: antartide"
     ],
     "unicode": "🇦🇶"
   },
@@ -34046,7 +34032,8 @@
     "order": 4784,
     "tags": [
       "AR",
-      "bandiera"
+      "bandiera",
+      "bandiera: argentina"
     ],
     "unicode": "🇦🇷"
   },
@@ -34057,7 +34044,8 @@
     "order": 4785,
     "tags": [
       "AS",
-      "bandiera"
+      "bandiera",
+      "bandiera: samoa americane"
     ],
     "unicode": "🇦🇸"
   },
@@ -34068,7 +34056,8 @@
     "order": 4786,
     "tags": [
       "AT",
-      "bandiera"
+      "bandiera",
+      "bandiera: austria"
     ],
     "unicode": "🇦🇹"
   },
@@ -34079,7 +34068,8 @@
     "order": 4787,
     "tags": [
       "AU",
-      "bandiera"
+      "bandiera",
+      "bandiera: australia"
     ],
     "unicode": "🇦🇺"
   },
@@ -34090,7 +34080,8 @@
     "order": 4788,
     "tags": [
       "AW",
-      "bandiera"
+      "bandiera",
+      "bandiera: aruba"
     ],
     "unicode": "🇦🇼"
   },
@@ -34101,7 +34092,8 @@
     "order": 4789,
     "tags": [
       "AX",
-      "bandiera"
+      "bandiera",
+      "bandiera: isole åland"
     ],
     "unicode": "🇦🇽"
   },
@@ -34112,7 +34104,8 @@
     "order": 4790,
     "tags": [
       "AZ",
-      "bandiera"
+      "bandiera",
+      "bandiera: azerbaigian"
     ],
     "unicode": "🇦🇿"
   },
@@ -34123,7 +34116,8 @@
     "order": 4791,
     "tags": [
       "BA",
-      "bandiera"
+      "bandiera",
+      "bandiera: bosnia ed erzegovina"
     ],
     "unicode": "🇧🇦"
   },
@@ -34134,7 +34128,8 @@
     "order": 4792,
     "tags": [
       "BB",
-      "bandiera"
+      "bandiera",
+      "bandiera: barbados"
     ],
     "unicode": "🇧🇧"
   },
@@ -34145,7 +34140,8 @@
     "order": 4793,
     "tags": [
       "BD",
-      "bandiera"
+      "bandiera",
+      "bandiera: bangladesh"
     ],
     "unicode": "🇧🇩"
   },
@@ -34156,7 +34152,8 @@
     "order": 4794,
     "tags": [
       "BE",
-      "bandiera"
+      "bandiera",
+      "bandiera: belgio"
     ],
     "unicode": "🇧🇪"
   },
@@ -34167,7 +34164,8 @@
     "order": 4795,
     "tags": [
       "BF",
-      "bandiera"
+      "bandiera",
+      "bandiera: burkina faso"
     ],
     "unicode": "🇧🇫"
   },
@@ -34178,7 +34176,8 @@
     "order": 4796,
     "tags": [
       "BG",
-      "bandiera"
+      "bandiera",
+      "bandiera: bulgaria"
     ],
     "unicode": "🇧🇬"
   },
@@ -34189,7 +34188,8 @@
     "order": 4797,
     "tags": [
       "BH",
-      "bandiera"
+      "bandiera",
+      "bandiera: bahrein"
     ],
     "unicode": "🇧🇭"
   },
@@ -34200,7 +34200,8 @@
     "order": 4798,
     "tags": [
       "BI",
-      "bandiera"
+      "bandiera",
+      "bandiera: burundi"
     ],
     "unicode": "🇧🇮"
   },
@@ -34211,7 +34212,8 @@
     "order": 4799,
     "tags": [
       "BJ",
-      "bandiera"
+      "bandiera",
+      "bandiera: benin"
     ],
     "unicode": "🇧🇯"
   },
@@ -34222,7 +34224,8 @@
     "order": 4800,
     "tags": [
       "BL",
-      "bandiera"
+      "bandiera",
+      "bandiera: saint-barthélemy"
     ],
     "unicode": "🇧🇱"
   },
@@ -34233,7 +34236,8 @@
     "order": 4801,
     "tags": [
       "BM",
-      "bandiera"
+      "bandiera",
+      "bandiera: bermuda"
     ],
     "unicode": "🇧🇲"
   },
@@ -34244,7 +34248,8 @@
     "order": 4802,
     "tags": [
       "BN",
-      "bandiera"
+      "bandiera",
+      "bandiera: brunei"
     ],
     "unicode": "🇧🇳"
   },
@@ -34255,7 +34260,8 @@
     "order": 4803,
     "tags": [
       "BO",
-      "bandiera"
+      "bandiera",
+      "bandiera: bolivia"
     ],
     "unicode": "🇧🇴"
   },
@@ -34266,7 +34272,8 @@
     "order": 4804,
     "tags": [
       "BQ",
-      "bandiera"
+      "bandiera",
+      "bandiera: caraibi olandesi"
     ],
     "unicode": "🇧🇶"
   },
@@ -34277,7 +34284,8 @@
     "order": 4805,
     "tags": [
       "BR",
-      "bandiera"
+      "bandiera",
+      "bandiera: brasile"
     ],
     "unicode": "🇧🇷"
   },
@@ -34288,7 +34296,8 @@
     "order": 4806,
     "tags": [
       "BS",
-      "bandiera"
+      "bandiera",
+      "bandiera: bahamas"
     ],
     "unicode": "🇧🇸"
   },
@@ -34299,7 +34308,8 @@
     "order": 4807,
     "tags": [
       "BT",
-      "bandiera"
+      "bandiera",
+      "bandiera: bhutan"
     ],
     "unicode": "🇧🇹"
   },
@@ -34310,7 +34320,8 @@
     "order": 4808,
     "tags": [
       "BV",
-      "bandiera"
+      "bandiera",
+      "bandiera: isola bouvet"
     ],
     "unicode": "🇧🇻"
   },
@@ -34321,7 +34332,8 @@
     "order": 4809,
     "tags": [
       "BW",
-      "bandiera"
+      "bandiera",
+      "bandiera: botswana"
     ],
     "unicode": "🇧🇼"
   },
@@ -34332,7 +34344,8 @@
     "order": 4810,
     "tags": [
       "BY",
-      "bandiera"
+      "bandiera",
+      "bandiera: bielorussia"
     ],
     "unicode": "🇧🇾"
   },
@@ -34343,7 +34356,8 @@
     "order": 4811,
     "tags": [
       "BZ",
-      "bandiera"
+      "bandiera",
+      "bandiera: belize"
     ],
     "unicode": "🇧🇿"
   },
@@ -34354,7 +34368,8 @@
     "order": 4812,
     "tags": [
       "CA",
-      "bandiera"
+      "bandiera",
+      "bandiera: canada"
     ],
     "unicode": "🇨🇦"
   },
@@ -34365,7 +34380,8 @@
     "order": 4813,
     "tags": [
       "CC",
-      "bandiera"
+      "bandiera",
+      "bandiera: isole cocos (keeling)"
     ],
     "unicode": "🇨🇨"
   },
@@ -34376,7 +34392,8 @@
     "order": 4814,
     "tags": [
       "CD",
-      "bandiera"
+      "bandiera",
+      "bandiera: congo - kinshasa"
     ],
     "unicode": "🇨🇩"
   },
@@ -34387,7 +34404,8 @@
     "order": 4815,
     "tags": [
       "CF",
-      "bandiera"
+      "bandiera",
+      "bandiera: repubblica centrafricana"
     ],
     "unicode": "🇨🇫"
   },
@@ -34398,7 +34416,8 @@
     "order": 4816,
     "tags": [
       "CG",
-      "bandiera"
+      "bandiera",
+      "bandiera: congo-brazzaville"
     ],
     "unicode": "🇨🇬"
   },
@@ -34409,7 +34428,8 @@
     "order": 4817,
     "tags": [
       "CH",
-      "bandiera"
+      "bandiera",
+      "bandiera: svizzera"
     ],
     "unicode": "🇨🇭"
   },
@@ -34420,7 +34440,8 @@
     "order": 4818,
     "tags": [
       "CI",
-      "bandiera"
+      "bandiera",
+      "bandiera: costa d’avorio"
     ],
     "unicode": "🇨🇮"
   },
@@ -34431,7 +34452,8 @@
     "order": 4819,
     "tags": [
       "CK",
-      "bandiera"
+      "bandiera",
+      "bandiera: isole cook"
     ],
     "unicode": "🇨🇰"
   },
@@ -34442,7 +34464,8 @@
     "order": 4820,
     "tags": [
       "CL",
-      "bandiera"
+      "bandiera",
+      "bandiera: cile"
     ],
     "unicode": "🇨🇱"
   },
@@ -34453,7 +34476,8 @@
     "order": 4821,
     "tags": [
       "CM",
-      "bandiera"
+      "bandiera",
+      "bandiera: camerun"
     ],
     "unicode": "🇨🇲"
   },
@@ -34464,7 +34488,8 @@
     "order": 4822,
     "tags": [
       "CN",
-      "bandiera"
+      "bandiera",
+      "bandiera: cina"
     ],
     "unicode": "🇨🇳"
   },
@@ -34475,7 +34500,8 @@
     "order": 4823,
     "tags": [
       "CO",
-      "bandiera"
+      "bandiera",
+      "bandiera: colombia"
     ],
     "unicode": "🇨🇴"
   },
@@ -34486,7 +34512,8 @@
     "order": 4824,
     "tags": [
       "CP",
-      "bandiera"
+      "bandiera",
+      "bandiera: isola di clipperton"
     ],
     "unicode": "🇨🇵"
   },
@@ -34497,7 +34524,8 @@
     "order": 4825,
     "tags": [
       "CR",
-      "bandiera"
+      "bandiera",
+      "bandiera: costa rica"
     ],
     "unicode": "🇨🇷"
   },
@@ -34508,7 +34536,8 @@
     "order": 4826,
     "tags": [
       "CU",
-      "bandiera"
+      "bandiera",
+      "bandiera: cuba"
     ],
     "unicode": "🇨🇺"
   },
@@ -34519,7 +34548,8 @@
     "order": 4827,
     "tags": [
       "CV",
-      "bandiera"
+      "bandiera",
+      "bandiera: capo verde"
     ],
     "unicode": "🇨🇻"
   },
@@ -34530,7 +34560,8 @@
     "order": 4828,
     "tags": [
       "CW",
-      "bandiera"
+      "bandiera",
+      "bandiera: curaçao"
     ],
     "unicode": "🇨🇼"
   },
@@ -34541,7 +34572,8 @@
     "order": 4829,
     "tags": [
       "CX",
-      "bandiera"
+      "bandiera",
+      "bandiera: isola christmas"
     ],
     "unicode": "🇨🇽"
   },
@@ -34552,7 +34584,8 @@
     "order": 4830,
     "tags": [
       "CY",
-      "bandiera"
+      "bandiera",
+      "bandiera: cipro"
     ],
     "unicode": "🇨🇾"
   },
@@ -34563,7 +34596,8 @@
     "order": 4831,
     "tags": [
       "CZ",
-      "bandiera"
+      "bandiera",
+      "bandiera: cechia"
     ],
     "unicode": "🇨🇿"
   },
@@ -34574,7 +34608,8 @@
     "order": 4832,
     "tags": [
       "DE",
-      "bandiera"
+      "bandiera",
+      "bandiera: germania"
     ],
     "unicode": "🇩🇪"
   },
@@ -34585,7 +34620,8 @@
     "order": 4833,
     "tags": [
       "DG",
-      "bandiera"
+      "bandiera",
+      "bandiera: diego garcia"
     ],
     "unicode": "🇩🇬"
   },
@@ -34596,7 +34632,8 @@
     "order": 4834,
     "tags": [
       "DJ",
-      "bandiera"
+      "bandiera",
+      "bandiera: gibuti"
     ],
     "unicode": "🇩🇯"
   },
@@ -34607,7 +34644,8 @@
     "order": 4835,
     "tags": [
       "DK",
-      "bandiera"
+      "bandiera",
+      "bandiera: danimarca"
     ],
     "unicode": "🇩🇰"
   },
@@ -34618,7 +34656,8 @@
     "order": 4836,
     "tags": [
       "DM",
-      "bandiera"
+      "bandiera",
+      "bandiera: dominica"
     ],
     "unicode": "🇩🇲"
   },
@@ -34629,7 +34668,8 @@
     "order": 4837,
     "tags": [
       "DO",
-      "bandiera"
+      "bandiera",
+      "bandiera: repubblica dominicana"
     ],
     "unicode": "🇩🇴"
   },
@@ -34640,7 +34680,8 @@
     "order": 4838,
     "tags": [
       "DZ",
-      "bandiera"
+      "bandiera",
+      "bandiera: algeria"
     ],
     "unicode": "🇩🇿"
   },
@@ -34651,7 +34692,8 @@
     "order": 4839,
     "tags": [
       "EA",
-      "bandiera"
+      "bandiera",
+      "bandiera: ceuta e melilla"
     ],
     "unicode": "🇪🇦"
   },
@@ -34662,7 +34704,8 @@
     "order": 4840,
     "tags": [
       "EC",
-      "bandiera"
+      "bandiera",
+      "bandiera: ecuador"
     ],
     "unicode": "🇪🇨"
   },
@@ -34673,7 +34716,8 @@
     "order": 4841,
     "tags": [
       "EE",
-      "bandiera"
+      "bandiera",
+      "bandiera: estonia"
     ],
     "unicode": "🇪🇪"
   },
@@ -34684,7 +34728,8 @@
     "order": 4842,
     "tags": [
       "EG",
-      "bandiera"
+      "bandiera",
+      "bandiera: egitto"
     ],
     "unicode": "🇪🇬"
   },
@@ -34695,7 +34740,8 @@
     "order": 4843,
     "tags": [
       "EH",
-      "bandiera"
+      "bandiera",
+      "bandiera: sahara occidentale"
     ],
     "unicode": "🇪🇭"
   },
@@ -34706,7 +34752,8 @@
     "order": 4844,
     "tags": [
       "ER",
-      "bandiera"
+      "bandiera",
+      "bandiera: eritrea"
     ],
     "unicode": "🇪🇷"
   },
@@ -34717,7 +34764,8 @@
     "order": 4845,
     "tags": [
       "ES",
-      "bandiera"
+      "bandiera",
+      "bandiera: spagna"
     ],
     "unicode": "🇪🇸"
   },
@@ -34728,7 +34776,8 @@
     "order": 4846,
     "tags": [
       "ET",
-      "bandiera"
+      "bandiera",
+      "bandiera: etiopia"
     ],
     "unicode": "🇪🇹"
   },
@@ -34739,7 +34788,8 @@
     "order": 4847,
     "tags": [
       "EU",
-      "bandiera"
+      "bandiera",
+      "bandiera: unione europea"
     ],
     "unicode": "🇪🇺"
   },
@@ -34750,7 +34800,8 @@
     "order": 4848,
     "tags": [
       "FI",
-      "bandiera"
+      "bandiera",
+      "bandiera: finlandia"
     ],
     "unicode": "🇫🇮"
   },
@@ -34761,7 +34812,8 @@
     "order": 4849,
     "tags": [
       "FJ",
-      "bandiera"
+      "bandiera",
+      "bandiera: figi"
     ],
     "unicode": "🇫🇯"
   },
@@ -34772,7 +34824,8 @@
     "order": 4850,
     "tags": [
       "FK",
-      "bandiera"
+      "bandiera",
+      "bandiera: isole falkland"
     ],
     "unicode": "🇫🇰"
   },
@@ -34783,7 +34836,8 @@
     "order": 4851,
     "tags": [
       "FM",
-      "bandiera"
+      "bandiera",
+      "bandiera: micronesia"
     ],
     "unicode": "🇫🇲"
   },
@@ -34794,7 +34848,8 @@
     "order": 4852,
     "tags": [
       "FO",
-      "bandiera"
+      "bandiera",
+      "bandiera: isole fær øer"
     ],
     "unicode": "🇫🇴"
   },
@@ -34805,7 +34860,8 @@
     "order": 4853,
     "tags": [
       "FR",
-      "bandiera"
+      "bandiera",
+      "bandiera: francia"
     ],
     "unicode": "🇫🇷"
   },
@@ -34816,7 +34872,8 @@
     "order": 4854,
     "tags": [
       "GA",
-      "bandiera"
+      "bandiera",
+      "bandiera: gabon"
     ],
     "unicode": "🇬🇦"
   },
@@ -34827,7 +34884,8 @@
     "order": 4855,
     "tags": [
       "GB",
-      "bandiera"
+      "bandiera",
+      "bandiera: regno unito"
     ],
     "unicode": "🇬🇧"
   },
@@ -34838,7 +34896,8 @@
     "order": 4856,
     "tags": [
       "GD",
-      "bandiera"
+      "bandiera",
+      "bandiera: grenada"
     ],
     "unicode": "🇬🇩"
   },
@@ -34849,7 +34908,8 @@
     "order": 4857,
     "tags": [
       "GE",
-      "bandiera"
+      "bandiera",
+      "bandiera: georgia"
     ],
     "unicode": "🇬🇪"
   },
@@ -34860,7 +34920,8 @@
     "order": 4858,
     "tags": [
       "GF",
-      "bandiera"
+      "bandiera",
+      "bandiera: guyana francese"
     ],
     "unicode": "🇬🇫"
   },
@@ -34871,7 +34932,8 @@
     "order": 4859,
     "tags": [
       "GG",
-      "bandiera"
+      "bandiera",
+      "bandiera: guernsey"
     ],
     "unicode": "🇬🇬"
   },
@@ -34882,7 +34944,8 @@
     "order": 4860,
     "tags": [
       "GH",
-      "bandiera"
+      "bandiera",
+      "bandiera: ghana"
     ],
     "unicode": "🇬🇭"
   },
@@ -34893,7 +34956,8 @@
     "order": 4861,
     "tags": [
       "GI",
-      "bandiera"
+      "bandiera",
+      "bandiera: gibilterra"
     ],
     "unicode": "🇬🇮"
   },
@@ -34904,7 +34968,8 @@
     "order": 4862,
     "tags": [
       "GL",
-      "bandiera"
+      "bandiera",
+      "bandiera: groenlandia"
     ],
     "unicode": "🇬🇱"
   },
@@ -34915,7 +34980,8 @@
     "order": 4863,
     "tags": [
       "GM",
-      "bandiera"
+      "bandiera",
+      "bandiera: gambia"
     ],
     "unicode": "🇬🇲"
   },
@@ -34926,7 +34992,8 @@
     "order": 4864,
     "tags": [
       "GN",
-      "bandiera"
+      "bandiera",
+      "bandiera: guinea"
     ],
     "unicode": "🇬🇳"
   },
@@ -34937,7 +35004,8 @@
     "order": 4865,
     "tags": [
       "GP",
-      "bandiera"
+      "bandiera",
+      "bandiera: guadalupa"
     ],
     "unicode": "🇬🇵"
   },
@@ -34948,7 +35016,8 @@
     "order": 4866,
     "tags": [
       "GQ",
-      "bandiera"
+      "bandiera",
+      "bandiera: guinea equatoriale"
     ],
     "unicode": "🇬🇶"
   },
@@ -34959,7 +35028,8 @@
     "order": 4867,
     "tags": [
       "GR",
-      "bandiera"
+      "bandiera",
+      "bandiera: grecia"
     ],
     "unicode": "🇬🇷"
   },
@@ -34970,7 +35040,8 @@
     "order": 4868,
     "tags": [
       "GS",
-      "bandiera"
+      "bandiera",
+      "bandiera: georgia del sud e sandwich australi"
     ],
     "unicode": "🇬🇸"
   },
@@ -34981,7 +35052,8 @@
     "order": 4869,
     "tags": [
       "GT",
-      "bandiera"
+      "bandiera",
+      "bandiera: guatemala"
     ],
     "unicode": "🇬🇹"
   },
@@ -34992,7 +35064,8 @@
     "order": 4870,
     "tags": [
       "GU",
-      "bandiera"
+      "bandiera",
+      "bandiera: guam"
     ],
     "unicode": "🇬🇺"
   },
@@ -35003,7 +35076,8 @@
     "order": 4871,
     "tags": [
       "GW",
-      "bandiera"
+      "bandiera",
+      "bandiera: guinea-bissau"
     ],
     "unicode": "🇬🇼"
   },
@@ -35014,7 +35088,8 @@
     "order": 4872,
     "tags": [
       "GY",
-      "bandiera"
+      "bandiera",
+      "bandiera: guyana"
     ],
     "unicode": "🇬🇾"
   },
@@ -35025,7 +35100,8 @@
     "order": 4873,
     "tags": [
       "HK",
-      "bandiera"
+      "bandiera",
+      "bandiera: ras di hong kong"
     ],
     "unicode": "🇭🇰"
   },
@@ -35036,7 +35112,8 @@
     "order": 4874,
     "tags": [
       "HM",
-      "bandiera"
+      "bandiera",
+      "bandiera: isole heard e mcdonald"
     ],
     "unicode": "🇭🇲"
   },
@@ -35047,7 +35124,8 @@
     "order": 4875,
     "tags": [
       "HN",
-      "bandiera"
+      "bandiera",
+      "bandiera: honduras"
     ],
     "unicode": "🇭🇳"
   },
@@ -35058,7 +35136,8 @@
     "order": 4876,
     "tags": [
       "HR",
-      "bandiera"
+      "bandiera",
+      "bandiera: croazia"
     ],
     "unicode": "🇭🇷"
   },
@@ -35069,7 +35148,8 @@
     "order": 4877,
     "tags": [
       "HT",
-      "bandiera"
+      "bandiera",
+      "bandiera: haiti"
     ],
     "unicode": "🇭🇹"
   },
@@ -35080,7 +35160,8 @@
     "order": 4878,
     "tags": [
       "HU",
-      "bandiera"
+      "bandiera",
+      "bandiera: ungheria"
     ],
     "unicode": "🇭🇺"
   },
@@ -35091,7 +35172,8 @@
     "order": 4879,
     "tags": [
       "IC",
-      "bandiera"
+      "bandiera",
+      "bandiera: isole canarie"
     ],
     "unicode": "🇮🇨"
   },
@@ -35102,7 +35184,8 @@
     "order": 4880,
     "tags": [
       "ID",
-      "bandiera"
+      "bandiera",
+      "bandiera: indonesia"
     ],
     "unicode": "🇮🇩"
   },
@@ -35113,7 +35196,8 @@
     "order": 4881,
     "tags": [
       "IE",
-      "bandiera"
+      "bandiera",
+      "bandiera: irlanda"
     ],
     "unicode": "🇮🇪"
   },
@@ -35124,7 +35208,8 @@
     "order": 4882,
     "tags": [
       "IL",
-      "bandiera"
+      "bandiera",
+      "bandiera: israele"
     ],
     "unicode": "🇮🇱"
   },
@@ -35135,7 +35220,8 @@
     "order": 4883,
     "tags": [
       "IM",
-      "bandiera"
+      "bandiera",
+      "bandiera: isola di man"
     ],
     "unicode": "🇮🇲"
   },
@@ -35146,7 +35232,8 @@
     "order": 4884,
     "tags": [
       "IN",
-      "bandiera"
+      "bandiera",
+      "bandiera: india"
     ],
     "unicode": "🇮🇳"
   },
@@ -35157,7 +35244,8 @@
     "order": 4885,
     "tags": [
       "IO",
-      "bandiera"
+      "bandiera",
+      "bandiera: territorio britannico dell’oceano indiano"
     ],
     "unicode": "🇮🇴"
   },
@@ -35168,7 +35256,8 @@
     "order": 4886,
     "tags": [
       "IQ",
-      "bandiera"
+      "bandiera",
+      "bandiera: iraq"
     ],
     "unicode": "🇮🇶"
   },
@@ -35179,7 +35268,8 @@
     "order": 4887,
     "tags": [
       "IR",
-      "bandiera"
+      "bandiera",
+      "bandiera: iran"
     ],
     "unicode": "🇮🇷"
   },
@@ -35190,7 +35280,8 @@
     "order": 4888,
     "tags": [
       "IS",
-      "bandiera"
+      "bandiera",
+      "bandiera: islanda"
     ],
     "unicode": "🇮🇸"
   },
@@ -35201,7 +35292,8 @@
     "order": 4889,
     "tags": [
       "IT",
-      "bandiera"
+      "bandiera",
+      "bandiera: italia"
     ],
     "unicode": "🇮🇹"
   },
@@ -35212,7 +35304,8 @@
     "order": 4890,
     "tags": [
       "JE",
-      "bandiera"
+      "bandiera",
+      "bandiera: jersey"
     ],
     "unicode": "🇯🇪"
   },
@@ -35223,7 +35316,8 @@
     "order": 4891,
     "tags": [
       "JM",
-      "bandiera"
+      "bandiera",
+      "bandiera: giamaica"
     ],
     "unicode": "🇯🇲"
   },
@@ -35234,7 +35328,8 @@
     "order": 4892,
     "tags": [
       "JO",
-      "bandiera"
+      "bandiera",
+      "bandiera: giordania"
     ],
     "unicode": "🇯🇴"
   },
@@ -35245,7 +35340,8 @@
     "order": 4893,
     "tags": [
       "JP",
-      "bandiera"
+      "bandiera",
+      "bandiera: giappone"
     ],
     "unicode": "🇯🇵"
   },
@@ -35256,7 +35352,8 @@
     "order": 4894,
     "tags": [
       "KE",
-      "bandiera"
+      "bandiera",
+      "bandiera: kenya"
     ],
     "unicode": "🇰🇪"
   },
@@ -35267,7 +35364,8 @@
     "order": 4895,
     "tags": [
       "KG",
-      "bandiera"
+      "bandiera",
+      "bandiera: kirghizistan"
     ],
     "unicode": "🇰🇬"
   },
@@ -35278,7 +35376,8 @@
     "order": 4896,
     "tags": [
       "KH",
-      "bandiera"
+      "bandiera",
+      "bandiera: cambogia"
     ],
     "unicode": "🇰🇭"
   },
@@ -35289,7 +35388,8 @@
     "order": 4897,
     "tags": [
       "KI",
-      "bandiera"
+      "bandiera",
+      "bandiera: kiribati"
     ],
     "unicode": "🇰🇮"
   },
@@ -35300,7 +35400,8 @@
     "order": 4898,
     "tags": [
       "KM",
-      "bandiera"
+      "bandiera",
+      "bandiera: comore"
     ],
     "unicode": "🇰🇲"
   },
@@ -35311,7 +35412,8 @@
     "order": 4899,
     "tags": [
       "KN",
-      "bandiera"
+      "bandiera",
+      "bandiera: saint kitts e nevis"
     ],
     "unicode": "🇰🇳"
   },
@@ -35322,7 +35424,8 @@
     "order": 4900,
     "tags": [
       "KP",
-      "bandiera"
+      "bandiera",
+      "bandiera: corea del nord"
     ],
     "unicode": "🇰🇵"
   },
@@ -35333,7 +35436,8 @@
     "order": 4901,
     "tags": [
       "KR",
-      "bandiera"
+      "bandiera",
+      "bandiera: corea del sud"
     ],
     "unicode": "🇰🇷"
   },
@@ -35344,7 +35448,8 @@
     "order": 4902,
     "tags": [
       "KW",
-      "bandiera"
+      "bandiera",
+      "bandiera: kuwait"
     ],
     "unicode": "🇰🇼"
   },
@@ -35355,7 +35460,8 @@
     "order": 4903,
     "tags": [
       "KY",
-      "bandiera"
+      "bandiera",
+      "bandiera: isole cayman"
     ],
     "unicode": "🇰🇾"
   },
@@ -35366,7 +35472,8 @@
     "order": 4904,
     "tags": [
       "KZ",
-      "bandiera"
+      "bandiera",
+      "bandiera: kazakistan"
     ],
     "unicode": "🇰🇿"
   },
@@ -35377,7 +35484,8 @@
     "order": 4905,
     "tags": [
       "LA",
-      "bandiera"
+      "bandiera",
+      "bandiera: laos"
     ],
     "unicode": "🇱🇦"
   },
@@ -35388,7 +35496,8 @@
     "order": 4906,
     "tags": [
       "LB",
-      "bandiera"
+      "bandiera",
+      "bandiera: libano"
     ],
     "unicode": "🇱🇧"
   },
@@ -35399,7 +35508,8 @@
     "order": 4907,
     "tags": [
       "LC",
-      "bandiera"
+      "bandiera",
+      "bandiera: saint lucia"
     ],
     "unicode": "🇱🇨"
   },
@@ -35410,7 +35520,8 @@
     "order": 4908,
     "tags": [
       "LI",
-      "bandiera"
+      "bandiera",
+      "bandiera: liechtenstein"
     ],
     "unicode": "🇱🇮"
   },
@@ -35421,7 +35532,8 @@
     "order": 4909,
     "tags": [
       "LK",
-      "bandiera"
+      "bandiera",
+      "bandiera: sri lanka"
     ],
     "unicode": "🇱🇰"
   },
@@ -35432,7 +35544,8 @@
     "order": 4910,
     "tags": [
       "LR",
-      "bandiera"
+      "bandiera",
+      "bandiera: liberia"
     ],
     "unicode": "🇱🇷"
   },
@@ -35443,7 +35556,8 @@
     "order": 4911,
     "tags": [
       "LS",
-      "bandiera"
+      "bandiera",
+      "bandiera: lesotho"
     ],
     "unicode": "🇱🇸"
   },
@@ -35454,7 +35568,8 @@
     "order": 4912,
     "tags": [
       "LT",
-      "bandiera"
+      "bandiera",
+      "bandiera: lituania"
     ],
     "unicode": "🇱🇹"
   },
@@ -35465,7 +35580,8 @@
     "order": 4913,
     "tags": [
       "LU",
-      "bandiera"
+      "bandiera",
+      "bandiera: lussemburgo"
     ],
     "unicode": "🇱🇺"
   },
@@ -35476,7 +35592,8 @@
     "order": 4914,
     "tags": [
       "LV",
-      "bandiera"
+      "bandiera",
+      "bandiera: lettonia"
     ],
     "unicode": "🇱🇻"
   },
@@ -35487,7 +35604,8 @@
     "order": 4915,
     "tags": [
       "LY",
-      "bandiera"
+      "bandiera",
+      "bandiera: libia"
     ],
     "unicode": "🇱🇾"
   },
@@ -35498,7 +35616,8 @@
     "order": 4916,
     "tags": [
       "MA",
-      "bandiera"
+      "bandiera",
+      "bandiera: marocco"
     ],
     "unicode": "🇲🇦"
   },
@@ -35509,7 +35628,8 @@
     "order": 4917,
     "tags": [
       "MC",
-      "bandiera"
+      "bandiera",
+      "bandiera: monaco"
     ],
     "unicode": "🇲🇨"
   },
@@ -35520,7 +35640,8 @@
     "order": 4918,
     "tags": [
       "MD",
-      "bandiera"
+      "bandiera",
+      "bandiera: moldavia"
     ],
     "unicode": "🇲🇩"
   },
@@ -35531,7 +35652,8 @@
     "order": 4919,
     "tags": [
       "ME",
-      "bandiera"
+      "bandiera",
+      "bandiera: montenegro"
     ],
     "unicode": "🇲🇪"
   },
@@ -35542,7 +35664,8 @@
     "order": 4920,
     "tags": [
       "MF",
-      "bandiera"
+      "bandiera",
+      "bandiera: saint martin"
     ],
     "unicode": "🇲🇫"
   },
@@ -35553,7 +35676,8 @@
     "order": 4921,
     "tags": [
       "MG",
-      "bandiera"
+      "bandiera",
+      "bandiera: madagascar"
     ],
     "unicode": "🇲🇬"
   },
@@ -35564,7 +35688,8 @@
     "order": 4922,
     "tags": [
       "MH",
-      "bandiera"
+      "bandiera",
+      "bandiera: isole marshall"
     ],
     "unicode": "🇲🇭"
   },
@@ -35575,7 +35700,8 @@
     "order": 4923,
     "tags": [
       "MK",
-      "bandiera"
+      "bandiera",
+      "bandiera: macedonia del nord"
     ],
     "unicode": "🇲🇰"
   },
@@ -35586,7 +35712,8 @@
     "order": 4924,
     "tags": [
       "ML",
-      "bandiera"
+      "bandiera",
+      "bandiera: mali"
     ],
     "unicode": "🇲🇱"
   },
@@ -35597,7 +35724,8 @@
     "order": 4925,
     "tags": [
       "MM",
-      "bandiera"
+      "bandiera",
+      "bandiera: myanmar (birmania)"
     ],
     "unicode": "🇲🇲"
   },
@@ -35608,7 +35736,8 @@
     "order": 4926,
     "tags": [
       "MN",
-      "bandiera"
+      "bandiera",
+      "bandiera: mongolia"
     ],
     "unicode": "🇲🇳"
   },
@@ -35619,7 +35748,8 @@
     "order": 4927,
     "tags": [
       "MO",
-      "bandiera"
+      "bandiera",
+      "bandiera: ras di macao"
     ],
     "unicode": "🇲🇴"
   },
@@ -35630,7 +35760,8 @@
     "order": 4928,
     "tags": [
       "MP",
-      "bandiera"
+      "bandiera",
+      "bandiera: isole marianne settentrionali"
     ],
     "unicode": "🇲🇵"
   },
@@ -35641,7 +35772,8 @@
     "order": 4929,
     "tags": [
       "MQ",
-      "bandiera"
+      "bandiera",
+      "bandiera: martinica"
     ],
     "unicode": "🇲🇶"
   },
@@ -35652,7 +35784,8 @@
     "order": 4930,
     "tags": [
       "MR",
-      "bandiera"
+      "bandiera",
+      "bandiera: mauritania"
     ],
     "unicode": "🇲🇷"
   },
@@ -35663,7 +35796,8 @@
     "order": 4931,
     "tags": [
       "MS",
-      "bandiera"
+      "bandiera",
+      "bandiera: montserrat"
     ],
     "unicode": "🇲🇸"
   },
@@ -35674,7 +35808,8 @@
     "order": 4932,
     "tags": [
       "MT",
-      "bandiera"
+      "bandiera",
+      "bandiera: malta"
     ],
     "unicode": "🇲🇹"
   },
@@ -35685,7 +35820,8 @@
     "order": 4933,
     "tags": [
       "MU",
-      "bandiera"
+      "bandiera",
+      "bandiera: mauritius"
     ],
     "unicode": "🇲🇺"
   },
@@ -35696,7 +35832,8 @@
     "order": 4934,
     "tags": [
       "MV",
-      "bandiera"
+      "bandiera",
+      "bandiera: maldive"
     ],
     "unicode": "🇲🇻"
   },
@@ -35707,7 +35844,8 @@
     "order": 4935,
     "tags": [
       "MW",
-      "bandiera"
+      "bandiera",
+      "bandiera: malawi"
     ],
     "unicode": "🇲🇼"
   },
@@ -35718,7 +35856,8 @@
     "order": 4936,
     "tags": [
       "MX",
-      "bandiera"
+      "bandiera",
+      "bandiera: messico"
     ],
     "unicode": "🇲🇽"
   },
@@ -35729,7 +35868,8 @@
     "order": 4937,
     "tags": [
       "MY",
-      "bandiera"
+      "bandiera",
+      "bandiera: malaysia"
     ],
     "unicode": "🇲🇾"
   },
@@ -35740,7 +35880,8 @@
     "order": 4938,
     "tags": [
       "MZ",
-      "bandiera"
+      "bandiera",
+      "bandiera: mozambico"
     ],
     "unicode": "🇲🇿"
   },
@@ -35751,7 +35892,8 @@
     "order": 4939,
     "tags": [
       "NA",
-      "bandiera"
+      "bandiera",
+      "bandiera: namibia"
     ],
     "unicode": "🇳🇦"
   },
@@ -35762,7 +35904,8 @@
     "order": 4940,
     "tags": [
       "NC",
-      "bandiera"
+      "bandiera",
+      "bandiera: nuova caledonia"
     ],
     "unicode": "🇳🇨"
   },
@@ -35773,7 +35916,8 @@
     "order": 4941,
     "tags": [
       "NE",
-      "bandiera"
+      "bandiera",
+      "bandiera: niger"
     ],
     "unicode": "🇳🇪"
   },
@@ -35784,7 +35928,8 @@
     "order": 4942,
     "tags": [
       "NF",
-      "bandiera"
+      "bandiera",
+      "bandiera: isola norfolk"
     ],
     "unicode": "🇳🇫"
   },
@@ -35795,7 +35940,8 @@
     "order": 4943,
     "tags": [
       "NG",
-      "bandiera"
+      "bandiera",
+      "bandiera: nigeria"
     ],
     "unicode": "🇳🇬"
   },
@@ -35806,7 +35952,8 @@
     "order": 4944,
     "tags": [
       "NI",
-      "bandiera"
+      "bandiera",
+      "bandiera: nicaragua"
     ],
     "unicode": "🇳🇮"
   },
@@ -35817,7 +35964,8 @@
     "order": 4945,
     "tags": [
       "NL",
-      "bandiera"
+      "bandiera",
+      "bandiera: paesi bassi"
     ],
     "unicode": "🇳🇱"
   },
@@ -35828,7 +35976,8 @@
     "order": 4946,
     "tags": [
       "NO",
-      "bandiera"
+      "bandiera",
+      "bandiera: norvegia"
     ],
     "unicode": "🇳🇴"
   },
@@ -35839,7 +35988,8 @@
     "order": 4947,
     "tags": [
       "NP",
-      "bandiera"
+      "bandiera",
+      "bandiera: nepal"
     ],
     "unicode": "🇳🇵"
   },
@@ -35850,7 +36000,8 @@
     "order": 4948,
     "tags": [
       "NR",
-      "bandiera"
+      "bandiera",
+      "bandiera: nauru"
     ],
     "unicode": "🇳🇷"
   },
@@ -35861,7 +36012,8 @@
     "order": 4949,
     "tags": [
       "NU",
-      "bandiera"
+      "bandiera",
+      "bandiera: niue"
     ],
     "unicode": "🇳🇺"
   },
@@ -35872,7 +36024,8 @@
     "order": 4950,
     "tags": [
       "NZ",
-      "bandiera"
+      "bandiera",
+      "bandiera: nuova zelanda"
     ],
     "unicode": "🇳🇿"
   },
@@ -35883,7 +36036,8 @@
     "order": 4951,
     "tags": [
       "OM",
-      "bandiera"
+      "bandiera",
+      "bandiera: oman"
     ],
     "unicode": "🇴🇲"
   },
@@ -35894,7 +36048,8 @@
     "order": 4952,
     "tags": [
       "PA",
-      "bandiera"
+      "bandiera",
+      "bandiera: panama"
     ],
     "unicode": "🇵🇦"
   },
@@ -35905,7 +36060,8 @@
     "order": 4953,
     "tags": [
       "PE",
-      "bandiera"
+      "bandiera",
+      "bandiera: perù"
     ],
     "unicode": "🇵🇪"
   },
@@ -35916,7 +36072,8 @@
     "order": 4954,
     "tags": [
       "PF",
-      "bandiera"
+      "bandiera",
+      "bandiera: polinesia francese"
     ],
     "unicode": "🇵🇫"
   },
@@ -35927,7 +36084,8 @@
     "order": 4955,
     "tags": [
       "PG",
-      "bandiera"
+      "bandiera",
+      "bandiera: papua nuova guinea"
     ],
     "unicode": "🇵🇬"
   },
@@ -35938,7 +36096,8 @@
     "order": 4956,
     "tags": [
       "PH",
-      "bandiera"
+      "bandiera",
+      "bandiera: filippine"
     ],
     "unicode": "🇵🇭"
   },
@@ -35949,7 +36108,8 @@
     "order": 4957,
     "tags": [
       "PK",
-      "bandiera"
+      "bandiera",
+      "bandiera: pakistan"
     ],
     "unicode": "🇵🇰"
   },
@@ -35960,7 +36120,8 @@
     "order": 4958,
     "tags": [
       "PL",
-      "bandiera"
+      "bandiera",
+      "bandiera: polonia"
     ],
     "unicode": "🇵🇱"
   },
@@ -35971,7 +36132,8 @@
     "order": 4959,
     "tags": [
       "PM",
-      "bandiera"
+      "bandiera",
+      "bandiera: saint-pierre e miquelon"
     ],
     "unicode": "🇵🇲"
   },
@@ -35982,7 +36144,8 @@
     "order": 4960,
     "tags": [
       "PN",
-      "bandiera"
+      "bandiera",
+      "bandiera: isole pitcairn"
     ],
     "unicode": "🇵🇳"
   },
@@ -35993,7 +36156,8 @@
     "order": 4961,
     "tags": [
       "PR",
-      "bandiera"
+      "bandiera",
+      "bandiera: portorico"
     ],
     "unicode": "🇵🇷"
   },
@@ -36004,7 +36168,8 @@
     "order": 4962,
     "tags": [
       "PS",
-      "bandiera"
+      "bandiera",
+      "bandiera: territori palestinesi"
     ],
     "unicode": "🇵🇸"
   },
@@ -36015,7 +36180,8 @@
     "order": 4963,
     "tags": [
       "PT",
-      "bandiera"
+      "bandiera",
+      "bandiera: portogallo"
     ],
     "unicode": "🇵🇹"
   },
@@ -36026,7 +36192,8 @@
     "order": 4964,
     "tags": [
       "PW",
-      "bandiera"
+      "bandiera",
+      "bandiera: palau"
     ],
     "unicode": "🇵🇼"
   },
@@ -36037,7 +36204,8 @@
     "order": 4965,
     "tags": [
       "PY",
-      "bandiera"
+      "bandiera",
+      "bandiera: paraguay"
     ],
     "unicode": "🇵🇾"
   },
@@ -36048,7 +36216,8 @@
     "order": 4966,
     "tags": [
       "QA",
-      "bandiera"
+      "bandiera",
+      "bandiera: qatar"
     ],
     "unicode": "🇶🇦"
   },
@@ -36059,7 +36228,8 @@
     "order": 4967,
     "tags": [
       "RE",
-      "bandiera"
+      "bandiera",
+      "bandiera: riunione"
     ],
     "unicode": "🇷🇪"
   },
@@ -36070,7 +36240,8 @@
     "order": 4968,
     "tags": [
       "RO",
-      "bandiera"
+      "bandiera",
+      "bandiera: romania"
     ],
     "unicode": "🇷🇴"
   },
@@ -36081,7 +36252,8 @@
     "order": 4969,
     "tags": [
       "RS",
-      "bandiera"
+      "bandiera",
+      "bandiera: serbia"
     ],
     "unicode": "🇷🇸"
   },
@@ -36092,7 +36264,8 @@
     "order": 4970,
     "tags": [
       "RU",
-      "bandiera"
+      "bandiera",
+      "bandiera: russia"
     ],
     "unicode": "🇷🇺"
   },
@@ -36103,7 +36276,8 @@
     "order": 4971,
     "tags": [
       "RW",
-      "bandiera"
+      "bandiera",
+      "bandiera: ruanda"
     ],
     "unicode": "🇷🇼"
   },
@@ -36114,7 +36288,8 @@
     "order": 4972,
     "tags": [
       "SA",
-      "bandiera"
+      "bandiera",
+      "bandiera: arabia saudita"
     ],
     "unicode": "🇸🇦"
   },
@@ -36125,7 +36300,8 @@
     "order": 4973,
     "tags": [
       "SB",
-      "bandiera"
+      "bandiera",
+      "bandiera: isole salomone"
     ],
     "unicode": "🇸🇧"
   },
@@ -36136,7 +36312,8 @@
     "order": 4974,
     "tags": [
       "SC",
-      "bandiera"
+      "bandiera",
+      "bandiera: seychelles"
     ],
     "unicode": "🇸🇨"
   },
@@ -36147,7 +36324,8 @@
     "order": 4975,
     "tags": [
       "SD",
-      "bandiera"
+      "bandiera",
+      "bandiera: sudan"
     ],
     "unicode": "🇸🇩"
   },
@@ -36158,7 +36336,8 @@
     "order": 4976,
     "tags": [
       "SE",
-      "bandiera"
+      "bandiera",
+      "bandiera: svezia"
     ],
     "unicode": "🇸🇪"
   },
@@ -36169,7 +36348,8 @@
     "order": 4977,
     "tags": [
       "SG",
-      "bandiera"
+      "bandiera",
+      "bandiera: singapore"
     ],
     "unicode": "🇸🇬"
   },
@@ -36180,7 +36360,8 @@
     "order": 4978,
     "tags": [
       "SH",
-      "bandiera"
+      "bandiera",
+      "bandiera: sant’elena"
     ],
     "unicode": "🇸🇭"
   },
@@ -36191,7 +36372,8 @@
     "order": 4979,
     "tags": [
       "SI",
-      "bandiera"
+      "bandiera",
+      "bandiera: slovenia"
     ],
     "unicode": "🇸🇮"
   },
@@ -36202,7 +36384,8 @@
     "order": 4980,
     "tags": [
       "SJ",
-      "bandiera"
+      "bandiera",
+      "bandiera: svalbard e jan mayen"
     ],
     "unicode": "🇸🇯"
   },
@@ -36213,7 +36396,8 @@
     "order": 4981,
     "tags": [
       "SK",
-      "bandiera"
+      "bandiera",
+      "bandiera: slovacchia"
     ],
     "unicode": "🇸🇰"
   },
@@ -36224,7 +36408,8 @@
     "order": 4982,
     "tags": [
       "SL",
-      "bandiera"
+      "bandiera",
+      "bandiera: sierra leone"
     ],
     "unicode": "🇸🇱"
   },
@@ -36235,7 +36420,8 @@
     "order": 4983,
     "tags": [
       "SM",
-      "bandiera"
+      "bandiera",
+      "bandiera: san marino"
     ],
     "unicode": "🇸🇲"
   },
@@ -36246,7 +36432,8 @@
     "order": 4984,
     "tags": [
       "SN",
-      "bandiera"
+      "bandiera",
+      "bandiera: senegal"
     ],
     "unicode": "🇸🇳"
   },
@@ -36257,7 +36444,8 @@
     "order": 4985,
     "tags": [
       "SO",
-      "bandiera"
+      "bandiera",
+      "bandiera: somalia"
     ],
     "unicode": "🇸🇴"
   },
@@ -36268,7 +36456,8 @@
     "order": 4986,
     "tags": [
       "SR",
-      "bandiera"
+      "bandiera",
+      "bandiera: suriname"
     ],
     "unicode": "🇸🇷"
   },
@@ -36279,7 +36468,8 @@
     "order": 4987,
     "tags": [
       "SS",
-      "bandiera"
+      "bandiera",
+      "bandiera: sud sudan"
     ],
     "unicode": "🇸🇸"
   },
@@ -36290,7 +36480,8 @@
     "order": 4988,
     "tags": [
       "ST",
-      "bandiera"
+      "bandiera",
+      "bandiera: são tomé e príncipe"
     ],
     "unicode": "🇸🇹"
   },
@@ -36301,7 +36492,8 @@
     "order": 4989,
     "tags": [
       "SV",
-      "bandiera"
+      "bandiera",
+      "bandiera: el salvador"
     ],
     "unicode": "🇸🇻"
   },
@@ -36312,7 +36504,8 @@
     "order": 4990,
     "tags": [
       "SX",
-      "bandiera"
+      "bandiera",
+      "bandiera: sint maarten"
     ],
     "unicode": "🇸🇽"
   },
@@ -36323,18 +36516,20 @@
     "order": 4991,
     "tags": [
       "SY",
-      "bandiera"
+      "bandiera",
+      "bandiera: siria"
     ],
     "unicode": "🇸🇾"
   },
   {
     "group": 9,
     "hexcode": "1F1F8-1F1FF",
-    "label": "bandiera: eSwatini",
+    "label": "bandiera: Eswatini",
     "order": 4992,
     "tags": [
       "SZ",
-      "bandiera"
+      "bandiera",
+      "bandiera: eswatini"
     ],
     "unicode": "🇸🇿"
   },
@@ -36345,7 +36540,8 @@
     "order": 4993,
     "tags": [
       "TA",
-      "bandiera"
+      "bandiera",
+      "bandiera: tristan da cunha"
     ],
     "unicode": "🇹🇦"
   },
@@ -36356,7 +36552,8 @@
     "order": 4994,
     "tags": [
       "TC",
-      "bandiera"
+      "bandiera",
+      "bandiera: isole turks e caicos"
     ],
     "unicode": "🇹🇨"
   },
@@ -36367,7 +36564,8 @@
     "order": 4995,
     "tags": [
       "TD",
-      "bandiera"
+      "bandiera",
+      "bandiera: ciad"
     ],
     "unicode": "🇹🇩"
   },
@@ -36378,7 +36576,8 @@
     "order": 4996,
     "tags": [
       "TF",
-      "bandiera"
+      "bandiera",
+      "bandiera: terre australi francesi"
     ],
     "unicode": "🇹🇫"
   },
@@ -36389,7 +36588,8 @@
     "order": 4997,
     "tags": [
       "TG",
-      "bandiera"
+      "bandiera",
+      "bandiera: togo"
     ],
     "unicode": "🇹🇬"
   },
@@ -36400,7 +36600,8 @@
     "order": 4998,
     "tags": [
       "TH",
-      "bandiera"
+      "bandiera",
+      "bandiera: thailandia"
     ],
     "unicode": "🇹🇭"
   },
@@ -36411,7 +36612,8 @@
     "order": 4999,
     "tags": [
       "TJ",
-      "bandiera"
+      "bandiera",
+      "bandiera: tagikistan"
     ],
     "unicode": "🇹🇯"
   },
@@ -36422,7 +36624,8 @@
     "order": 5000,
     "tags": [
       "TK",
-      "bandiera"
+      "bandiera",
+      "bandiera: tokelau"
     ],
     "unicode": "🇹🇰"
   },
@@ -36433,7 +36636,8 @@
     "order": 5001,
     "tags": [
       "TL",
-      "bandiera"
+      "bandiera",
+      "bandiera: timor est"
     ],
     "unicode": "🇹🇱"
   },
@@ -36444,7 +36648,8 @@
     "order": 5002,
     "tags": [
       "TM",
-      "bandiera"
+      "bandiera",
+      "bandiera: turkmenistan"
     ],
     "unicode": "🇹🇲"
   },
@@ -36455,7 +36660,8 @@
     "order": 5003,
     "tags": [
       "TN",
-      "bandiera"
+      "bandiera",
+      "bandiera: tunisia"
     ],
     "unicode": "🇹🇳"
   },
@@ -36466,7 +36672,8 @@
     "order": 5004,
     "tags": [
       "TO",
-      "bandiera"
+      "bandiera",
+      "bandiera: tonga"
     ],
     "unicode": "🇹🇴"
   },
@@ -36477,7 +36684,8 @@
     "order": 5005,
     "tags": [
       "TR",
-      "bandiera"
+      "bandiera",
+      "bandiera: turchia"
     ],
     "unicode": "🇹🇷"
   },
@@ -36488,7 +36696,8 @@
     "order": 5006,
     "tags": [
       "TT",
-      "bandiera"
+      "bandiera",
+      "bandiera: trinidad e tobago"
     ],
     "unicode": "🇹🇹"
   },
@@ -36499,7 +36708,8 @@
     "order": 5007,
     "tags": [
       "TV",
-      "bandiera"
+      "bandiera",
+      "bandiera: tuvalu"
     ],
     "unicode": "🇹🇻"
   },
@@ -36510,7 +36720,8 @@
     "order": 5008,
     "tags": [
       "TW",
-      "bandiera"
+      "bandiera",
+      "bandiera: taiwan"
     ],
     "unicode": "🇹🇼"
   },
@@ -36521,7 +36732,8 @@
     "order": 5009,
     "tags": [
       "TZ",
-      "bandiera"
+      "bandiera",
+      "bandiera: tanzania"
     ],
     "unicode": "🇹🇿"
   },
@@ -36532,7 +36744,8 @@
     "order": 5010,
     "tags": [
       "UA",
-      "bandiera"
+      "bandiera",
+      "bandiera: ucraina"
     ],
     "unicode": "🇺🇦"
   },
@@ -36543,7 +36756,8 @@
     "order": 5011,
     "tags": [
       "UG",
-      "bandiera"
+      "bandiera",
+      "bandiera: uganda"
     ],
     "unicode": "🇺🇬"
   },
@@ -36554,7 +36768,8 @@
     "order": 5012,
     "tags": [
       "UM",
-      "bandiera"
+      "bandiera",
+      "bandiera: isole minori esterne degli stati uniti"
     ],
     "unicode": "🇺🇲"
   },
@@ -36565,7 +36780,8 @@
     "order": 5013,
     "tags": [
       "UN",
-      "bandiera"
+      "bandiera",
+      "bandiera: nazioni unite"
     ],
     "unicode": "🇺🇳"
   },
@@ -36576,7 +36792,8 @@
     "order": 5014,
     "tags": [
       "US",
-      "bandiera"
+      "bandiera",
+      "bandiera: stati uniti"
     ],
     "unicode": "🇺🇸"
   },
@@ -36587,7 +36804,8 @@
     "order": 5015,
     "tags": [
       "UY",
-      "bandiera"
+      "bandiera",
+      "bandiera: uruguay"
     ],
     "unicode": "🇺🇾"
   },
@@ -36598,7 +36816,8 @@
     "order": 5016,
     "tags": [
       "UZ",
-      "bandiera"
+      "bandiera",
+      "bandiera: uzbekistan"
     ],
     "unicode": "🇺🇿"
   },
@@ -36609,7 +36828,8 @@
     "order": 5017,
     "tags": [
       "VA",
-      "bandiera"
+      "bandiera",
+      "bandiera: città del vaticano"
     ],
     "unicode": "🇻🇦"
   },
@@ -36620,7 +36840,8 @@
     "order": 5018,
     "tags": [
       "VC",
-      "bandiera"
+      "bandiera",
+      "bandiera: saint vincent e grenadine"
     ],
     "unicode": "🇻🇨"
   },
@@ -36631,7 +36852,8 @@
     "order": 5019,
     "tags": [
       "VE",
-      "bandiera"
+      "bandiera",
+      "bandiera: venezuela"
     ],
     "unicode": "🇻🇪"
   },
@@ -36642,7 +36864,8 @@
     "order": 5020,
     "tags": [
       "VG",
-      "bandiera"
+      "bandiera",
+      "bandiera: isole vergini britanniche"
     ],
     "unicode": "🇻🇬"
   },
@@ -36653,7 +36876,8 @@
     "order": 5021,
     "tags": [
       "VI",
-      "bandiera"
+      "bandiera",
+      "bandiera: isole vergini americane"
     ],
     "unicode": "🇻🇮"
   },
@@ -36664,7 +36888,8 @@
     "order": 5022,
     "tags": [
       "VN",
-      "bandiera"
+      "bandiera",
+      "bandiera: vietnam"
     ],
     "unicode": "🇻🇳"
   },
@@ -36675,7 +36900,8 @@
     "order": 5023,
     "tags": [
       "VU",
-      "bandiera"
+      "bandiera",
+      "bandiera: vanuatu"
     ],
     "unicode": "🇻🇺"
   },
@@ -36686,7 +36912,8 @@
     "order": 5024,
     "tags": [
       "WF",
-      "bandiera"
+      "bandiera",
+      "bandiera: wallis e futuna"
     ],
     "unicode": "🇼🇫"
   },
@@ -36697,7 +36924,8 @@
     "order": 5025,
     "tags": [
       "WS",
-      "bandiera"
+      "bandiera",
+      "bandiera: samoa"
     ],
     "unicode": "🇼🇸"
   },
@@ -36708,7 +36936,8 @@
     "order": 5026,
     "tags": [
       "XK",
-      "bandiera"
+      "bandiera",
+      "bandiera: kosovo"
     ],
     "unicode": "🇽🇰"
   },
@@ -36719,7 +36948,8 @@
     "order": 5027,
     "tags": [
       "YE",
-      "bandiera"
+      "bandiera",
+      "bandiera: yemen"
     ],
     "unicode": "🇾🇪"
   },
@@ -36730,7 +36960,8 @@
     "order": 5028,
     "tags": [
       "YT",
-      "bandiera"
+      "bandiera",
+      "bandiera: mayotte"
     ],
     "unicode": "🇾🇹"
   },
@@ -36741,7 +36972,8 @@
     "order": 5029,
     "tags": [
       "ZA",
-      "bandiera"
+      "bandiera",
+      "bandiera: sudafrica"
     ],
     "unicode": "🇿🇦"
   },
@@ -36752,7 +36984,8 @@
     "order": 5030,
     "tags": [
       "ZM",
-      "bandiera"
+      "bandiera",
+      "bandiera: zambia"
     ],
     "unicode": "🇿🇲"
   },
@@ -36763,7 +36996,8 @@
     "order": 5031,
     "tags": [
       "ZW",
-      "bandiera"
+      "bandiera",
+      "bandiera: zimbabwe"
     ],
     "unicode": "🇿🇼"
   },
@@ -36774,6 +37008,7 @@
     "order": 5032,
     "tags": [
       "bandiera",
+      "bandiera: inghilterra",
       "gbeng"
     ],
     "unicode": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
@@ -36785,6 +37020,7 @@
     "order": 5033,
     "tags": [
       "bandiera",
+      "bandiera: scozia",
       "gbsct"
     ],
     "unicode": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
@@ -36796,6 +37032,7 @@
     "order": 5034,
     "tags": [
       "bandiera",
+      "bandiera: galles",
       "gbwls"
     ],
     "unicode": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"

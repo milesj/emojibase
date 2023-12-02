@@ -628,7 +628,7 @@
     "label": "salutierendes Gesicht",
     "order": 37,
     "tags": [
-      "aye, aye",
+      "aye",
       "gesicht",
       "militär",
       "ok",
@@ -728,7 +728,10 @@
     "label": "Gesicht in Wolken",
     "order": 44,
     "tags": [
-      "gesicht in wolken"
+      "geistesabwesend",
+      "gesicht im nebel",
+      "gesicht in wolken",
+      "kopf in wolken"
     ],
     "unicode": "😶‍🌫️"
   },
@@ -789,7 +792,12 @@
     "label": "Gesicht, das ausatmet",
     "order": 50,
     "tags": [
-      "gesicht, das ausatmet"
+      "ausatmen",
+      "das ausatmet",
+      "erleichtert",
+      "gesicht",
+      "gesicht, das ausatmet",
+      "schnaufen"
     ],
     "unicode": "😮‍💨"
   },
@@ -823,34 +831,24 @@
   {
     "group": 0,
     "hexcode": "1F642-200D-2194-FE0F",
-    "label": "head shaking horizontally",
+    "label": "Kopfschütteln",
     "order": 53,
     "tags": [
-      "entgegengesetzt",
-      "gesicht",
-      "leicht lächelndes gesicht",
-      "lächeln",
-      "lächelnd",
-      "nach links und rechts",
-      "pfeil",
-      "pfeil nach links und rechts"
+      "kopfschütteln",
+      "nein",
+      "schütteln"
     ],
     "unicode": "🙂‍↔️"
   },
   {
     "group": 0,
     "hexcode": "1F642-200D-2195-FE0F",
-    "label": "head shaking vertically",
+    "label": "Kopfnicken",
     "order": 55,
     "tags": [
-      "entgegengesetzt",
-      "gesicht",
-      "leicht lächelndes gesicht",
-      "lächeln",
-      "lächelnd",
-      "nach oben und unten",
-      "pfeil",
-      "pfeil nach oben und unten"
+      "ja",
+      "kopfnicken",
+      "nicken"
     ],
     "unicode": "🙂‍↕️"
   },
@@ -1060,7 +1058,10 @@
     "label": "Gesicht mit Spiralen als Augen",
     "order": 72,
     "tags": [
-      "gesicht mit spiralen als augen"
+      "gesicht mit spiralen als augen",
+      "gesicht mit spiralförmigen augen",
+      "hypnotisiert",
+      "schwindelig"
     ],
     "unicode": "😵‍💫"
   },
@@ -1295,6 +1296,7 @@
     "order": 91,
     "tags": [
       "aufgebracht",
+      "das tränen zurückhält",
       "gesicht",
       "gesicht, das tränen zurückhält",
       "stolz",
@@ -2033,7 +2035,10 @@
     "label": "Herz in Flammen",
     "order": 148,
     "tags": [
-      "herz in flammen"
+      "brennendes herz",
+      "herz in flammen",
+      "leidenschaft",
+      "liebe"
     ],
     "unicode": "❤️‍🔥"
   },
@@ -2043,6 +2048,8 @@
     "label": "Herz mit Verband",
     "order": 150,
     "tags": [
+      "besserung",
+      "genesen",
       "herz mit verband"
     ],
     "unicode": "❤️‍🩹"
@@ -4153,6 +4160,7 @@
     "label": "Hände, die Herz bilden",
     "order": 398,
     "tags": [
+      "die herz bilden",
       "handgeste",
       "herz",
       "hände",
@@ -5533,6 +5541,9 @@
     "label": "Mann: Bart",
     "order": 564,
     "tags": [
+      "bart",
+      "mann",
+      "mann mit bart",
       "mann: bart"
     ],
     "unicode": "🧔‍♂️",
@@ -5580,6 +5591,9 @@
     "label": "Frau: Bart",
     "order": 576,
     "tags": [
+      "bart",
+      "frau",
+      "frau mit bart",
       "frau: bart"
     ],
     "unicode": "🧔‍♀️",
@@ -5628,6 +5642,7 @@
     "order": 588,
     "tags": [
       "mann",
+      "mann: rotes haar",
       "rotes haar"
     ],
     "unicode": "👨‍🦰",
@@ -5676,7 +5691,8 @@
     "order": 594,
     "tags": [
       "lockiges haar",
-      "mann"
+      "mann",
+      "mann: lockiges haar"
     ],
     "unicode": "👨‍🦱",
     "skins": [
@@ -5724,6 +5740,7 @@
     "order": 600,
     "tags": [
       "mann",
+      "mann: weißes haar",
       "weißes haar"
     ],
     "unicode": "👨‍🦳",
@@ -5772,7 +5789,8 @@
     "order": 606,
     "tags": [
       "glatze",
-      "mann"
+      "mann",
+      "mann: glatze"
     ],
     "unicode": "👨‍🦲",
     "skins": [
@@ -5867,6 +5885,7 @@
     "order": 618,
     "tags": [
       "frau",
+      "frau: rotes haar",
       "rotes haar"
     ],
     "unicode": "👩‍🦰",
@@ -5919,6 +5938,7 @@
       "mensch",
       "ohne eindeutiges geschlecht",
       "person",
+      "person: rotes haar",
       "rotes haar"
     ],
     "unicode": "🧑‍🦰",
@@ -5967,6 +5987,7 @@
     "order": 630,
     "tags": [
       "frau",
+      "frau: lockiges haar",
       "lockiges haar"
     ],
     "unicode": "👩‍🦱",
@@ -6019,7 +6040,8 @@
       "lockiges haar",
       "mensch",
       "ohne eindeutiges geschlecht",
-      "person"
+      "person",
+      "person: lockiges haar"
     ],
     "unicode": "🧑‍🦱",
     "skins": [
@@ -6067,6 +6089,7 @@
     "order": 642,
     "tags": [
       "frau",
+      "frau: weißes haar",
       "weißes haar"
     ],
     "unicode": "👩‍🦳",
@@ -6119,6 +6142,7 @@
       "mensch",
       "ohne eindeutiges geschlecht",
       "person",
+      "person: weißes haar",
       "weißes haar"
     ],
     "unicode": "🧑‍🦳",
@@ -6167,6 +6191,7 @@
     "order": 654,
     "tags": [
       "frau",
+      "frau: glatze",
       "glatze"
     ],
     "unicode": "👩‍🦲",
@@ -6219,7 +6244,8 @@
       "glatze",
       "mensch",
       "ohne eindeutiges geschlecht",
-      "person"
+      "person",
+      "person: glatze"
     ],
     "unicode": "🧑‍🦲",
     "skins": [
@@ -8019,11 +8045,9 @@
     "label": "Arzt/Ärztin",
     "order": 1008,
     "tags": [
-      "arzt",
       "arzt/ärztin",
-      "gesundheitswesen",
-      "krankenschwester",
-      "therapeut"
+      "arztkittel",
+      "doktor(in)"
     ],
     "unicode": "🧑‍⚕️",
     "skins": [
@@ -8167,9 +8191,10 @@
     "label": "Student(in)",
     "order": 1044,
     "tags": [
-      "absolvent",
-      "student",
-      "student(in)"
+      "absolvent(in)",
+      "doktorhut",
+      "student(in)",
+      "uni"
     ],
     "unicode": "🧑‍🎓",
     "skins": [
@@ -8316,10 +8341,9 @@
     "label": "Lehrer(in)",
     "order": 1062,
     "tags": [
-      "dozent",
-      "lehrer",
+      "dozent(in)",
       "lehrer(in)",
-      "professor"
+      "professor(in)"
     ],
     "unicode": "🧑‍🏫",
     "skins": [
@@ -8610,11 +8634,10 @@
     "label": "Bauer/Bäuerin",
     "order": 1116,
     "tags": [
-      "bauer",
       "bauer/bäuerin",
-      "farmer",
-      "gärtner",
-      "landwirt"
+      "farmer(in)",
+      "gärtner(in)",
+      "landwirt(in)"
     ],
     "unicode": "🧑‍🌾",
     "skins": [
@@ -8759,8 +8782,8 @@
     "label": "Koch/Köchin",
     "order": 1134,
     "tags": [
-      "koch",
-      "koch/köchin"
+      "koch/köchin",
+      "kochen"
     ],
     "unicode": "🧑‍🍳",
     "skins": [
@@ -8903,9 +8926,8 @@
     "label": "Mechaniker(in)",
     "order": 1152,
     "tags": [
-      "elektriker",
-      "klempner",
-      "mechaniker",
+      "elektriker(in)",
+      "klempner(in)",
       "mechaniker(in)"
     ],
     "unicode": "🧑‍🔧",
@@ -9053,7 +9075,7 @@
     "label": "Fabrikarbeiter(in)",
     "order": 1170,
     "tags": [
-      "arbeiter",
+      "arbeiter(in)",
       "fabrik",
       "fabrikarbeiter(in)",
       "industriell",
@@ -9200,10 +9222,10 @@
     "label": "Büroangestellte(r)",
     "order": 1188,
     "tags": [
-      "architekt",
+      "architekt(in)",
       "business",
       "büroangestellte(r)",
-      "manager",
+      "manager(in)",
       "schlips und kragen"
     ],
     "unicode": "🧑‍💼",
@@ -9351,11 +9373,8 @@
     "label": "Wissenschaftler(in)",
     "order": 1206,
     "tags": [
-      "biologe",
-      "chemiker",
-      "ingenieur",
-      "physiker",
-      "wissenschaftler",
+      "forscher(in)",
+      "labor",
       "wissenschaftler(in)"
     ],
     "unicode": "🧑‍🔬",
@@ -9501,12 +9520,10 @@
     "label": "IT-Experte/IT-Expertin",
     "order": 1224,
     "tags": [
-      "entwickler",
-      "erfinder",
-      "it-experte/it-expertin",
-      "programmierer",
-      "software",
-      "technologe"
+      "bildschirm",
+      "computer",
+      "entwickler(in)",
+      "it-experte/it-expertin"
     ],
     "unicode": "🧑‍💻",
     "skins": [
@@ -9653,11 +9670,9 @@
     "label": "Sänger(in)",
     "order": 1242,
     "tags": [
-      "entertainer",
+      "entertainer(in)",
       "rock",
-      "schauspieler",
       "star",
-      "sänger",
       "sänger(in)"
     ],
     "unicode": "🧑‍🎤",
@@ -9805,9 +9820,9 @@
     "label": "Künstler(in)",
     "order": 1260,
     "tags": [
-      "künstler",
+      "farbpalette",
       "künstler(in)",
-      "palette"
+      "maler(in)"
     ],
     "unicode": "🧑‍🎨",
     "skins": [
@@ -9955,7 +9970,6 @@
     "order": 1278,
     "tags": [
       "flugzeug",
-      "pilot",
       "pilot(in)"
     ],
     "unicode": "🧑‍✈️",
@@ -10101,9 +10115,9 @@
     "label": "Astronaut(in)",
     "order": 1314,
     "tags": [
-      "astronaut",
       "astronaut(in)",
-      "rakete"
+      "raumfahrt",
+      "weltraum"
     ],
     "unicode": "🧑‍🚀",
     "skins": [
@@ -10250,8 +10264,7 @@
     "label": "Feuerwehrmann/-frau",
     "order": 1332,
     "tags": [
-      "feuerwehrfahrzeug",
-      "feuerwehrmann",
+      "feuerwehrhelm",
       "feuerwehrmann/-frau"
     ],
     "unicode": "🧑‍🚒",
@@ -11931,49 +11944,48 @@
   {
     "group": 1,
     "hexcode": "1F469-200D-1F37C",
-    "label": "stillende Frau",
+    "label": "Flasche gebende Frau",
     "order": 1625,
     "tags": [
       "baby",
-      "frau",
-      "stillen",
-      "stillend",
-      "stillende frau"
+      "flasche geben",
+      "flasche gebende frau",
+      "frau"
     ],
     "unicode": "👩‍🍼",
     "skins": [
       {
         "group": 1,
         "hexcode": "1F469-1F3FB-200D-1F37C",
-        "label": "stillende Frau: helle Hautfarbe",
+        "label": "Flasche gebende Frau: helle Hautfarbe",
         "order": 1626,
         "unicode": "👩🏻‍🍼"
       },
       {
         "group": 1,
         "hexcode": "1F469-1F3FC-200D-1F37C",
-        "label": "stillende Frau: mittelhelle Hautfarbe",
+        "label": "Flasche gebende Frau: mittelhelle Hautfarbe",
         "order": 1627,
         "unicode": "👩🏼‍🍼"
       },
       {
         "group": 1,
         "hexcode": "1F469-1F3FD-200D-1F37C",
-        "label": "stillende Frau: mittlere Hautfarbe",
+        "label": "Flasche gebende Frau: mittlere Hautfarbe",
         "order": 1628,
         "unicode": "👩🏽‍🍼"
       },
       {
         "group": 1,
         "hexcode": "1F469-1F3FE-200D-1F37C",
-        "label": "stillende Frau: mitteldunkle Hautfarbe",
+        "label": "Flasche gebende Frau: mitteldunkle Hautfarbe",
         "order": 1629,
         "unicode": "👩🏾‍🍼"
       },
       {
         "group": 1,
         "hexcode": "1F469-1F3FF-200D-1F37C",
-        "label": "stillende Frau: dunkle Hautfarbe",
+        "label": "Flasche gebende Frau: dunkle Hautfarbe",
         "order": 1630,
         "unicode": "👩🏿‍🍼"
       }
@@ -11982,49 +11994,51 @@
   {
     "group": 1,
     "hexcode": "1F468-200D-1F37C",
-    "label": "stillender Mann",
+    "label": "Mann, der Baby die Flasche gibt",
     "order": 1631,
     "tags": [
       "baby",
+      "der baby die flasche gibt",
+      "flasche geben",
+      "flasche gebender mann",
+      "füttern",
       "mann",
-      "stillen",
-      "stillend",
-      "stillender mann"
+      "mann, der baby die flasche gibt"
     ],
     "unicode": "👨‍🍼",
     "skins": [
       {
         "group": 1,
         "hexcode": "1F468-1F3FB-200D-1F37C",
-        "label": "stillender Mann: helle Hautfarbe",
+        "label": "Mann, der Baby die Flasche gibt: helle Hautfarbe",
         "order": 1632,
         "unicode": "👨🏻‍🍼"
       },
       {
         "group": 1,
         "hexcode": "1F468-1F3FC-200D-1F37C",
-        "label": "stillender Mann: mittelhelle Hautfarbe",
+        "label": "Mann, der Baby die Flasche gibt: mittelhelle Hautfarbe",
         "order": 1633,
         "unicode": "👨🏼‍🍼"
       },
       {
         "group": 1,
         "hexcode": "1F468-1F3FD-200D-1F37C",
-        "label": "stillender Mann: mittlere Hautfarbe",
+        "label": "Mann, der Baby die Flasche gibt: mittlere Hautfarbe",
         "order": 1634,
         "unicode": "👨🏽‍🍼"
       },
       {
         "group": 1,
         "hexcode": "1F468-1F3FE-200D-1F37C",
-        "label": "stillender Mann: mitteldunkle Hautfarbe",
+        "label": "Mann, der Baby die Flasche gibt: mitteldunkle Hautfarbe",
         "order": 1635,
         "unicode": "👨🏾‍🍼"
       },
       {
         "group": 1,
         "hexcode": "1F468-1F3FF-200D-1F37C",
-        "label": "stillender Mann: dunkle Hautfarbe",
+        "label": "Mann, der Baby die Flasche gibt: dunkle Hautfarbe",
         "order": 1636,
         "unicode": "👨🏿‍🍼"
       }
@@ -12033,49 +12047,50 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F37C",
-    "label": "stillende Person",
+    "label": "Person, die Baby die Flasche gibt",
     "order": 1637,
     "tags": [
       "baby",
+      "die baby die flasche gibt",
+      "flasche geben",
+      "flasche gebende person",
       "person",
-      "stillen",
-      "stillend",
-      "stillende person"
+      "person, die baby die flasche gibt"
     ],
     "unicode": "🧑‍🍼",
     "skins": [
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FB-200D-1F37C",
-        "label": "stillende Person: helle Hautfarbe",
+        "label": "Person, die Baby die Flasche gibt: helle Hautfarbe",
         "order": 1638,
         "unicode": "🧑🏻‍🍼"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FC-200D-1F37C",
-        "label": "stillende Person: mittelhelle Hautfarbe",
+        "label": "Person, die Baby die Flasche gibt: mittelhelle Hautfarbe",
         "order": 1639,
         "unicode": "🧑🏼‍🍼"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FD-200D-1F37C",
-        "label": "stillende Person: mittlere Hautfarbe",
+        "label": "Person, die Baby die Flasche gibt: mittlere Hautfarbe",
         "order": 1640,
         "unicode": "🧑🏽‍🍼"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FE-200D-1F37C",
-        "label": "stillende Person: mitteldunkle Hautfarbe",
+        "label": "Person, die Baby die Flasche gibt: mitteldunkle Hautfarbe",
         "order": 1641,
         "unicode": "🧑🏾‍🍼"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FF-200D-1F37C",
-        "label": "stillende Person: dunkle Hautfarbe",
+        "label": "Person, die Baby die Flasche gibt: dunkle Hautfarbe",
         "order": 1642,
         "unicode": "🧑🏿‍🍼"
       }
@@ -13403,7 +13418,9 @@
     "label": "Person, die eine Kopfmassage bekommt",
     "order": 1888,
     "tags": [
+      "die eine kopfmassage bekommt",
       "massage",
+      "person",
       "person, die eine kopfmassage bekommt",
       "salon"
     ],
@@ -13452,6 +13469,7 @@
     "label": "Mann, der eine Kopfmassage bekommt",
     "order": 1894,
     "tags": [
+      "der eine kopfmassage bekommt",
       "kopfmassage",
       "mann",
       "mann, der eine kopfmassage bekommt"
@@ -13501,6 +13519,7 @@
     "label": "Frau, die eine Kopfmassage bekommt",
     "order": 1906,
     "tags": [
+      "die eine kopfmassage bekommt",
       "frau",
       "frau, die eine kopfmassage bekommt",
       "kopfmassage"
@@ -14485,48 +14504,48 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9AF",
-    "label": "Person mit Gehstock",
+    "label": "Person mit Langstock",
     "order": 2158,
     "tags": [
       "barrierefreiheit",
       "blind",
       "person mit blindenstock",
-      "person mit gehstock"
+      "person mit langstock"
     ],
     "unicode": "🧑‍🦯",
     "skins": [
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FB-200D-1F9AF",
-        "label": "Person mit Gehstock: helle Hautfarbe",
+        "label": "Person mit Langstock: helle Hautfarbe",
         "order": 2159,
         "unicode": "🧑🏻‍🦯"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FC-200D-1F9AF",
-        "label": "Person mit Gehstock: mittelhelle Hautfarbe",
+        "label": "Person mit Langstock: mittelhelle Hautfarbe",
         "order": 2160,
         "unicode": "🧑🏼‍🦯"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FD-200D-1F9AF",
-        "label": "Person mit Gehstock: mittlere Hautfarbe",
+        "label": "Person mit Langstock: mittlere Hautfarbe",
         "order": 2161,
         "unicode": "🧑🏽‍🦯"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FE-200D-1F9AF",
-        "label": "Person mit Gehstock: mitteldunkle Hautfarbe",
+        "label": "Person mit Langstock: mitteldunkle Hautfarbe",
         "order": 2162,
         "unicode": "🧑🏾‍🦯"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FF-200D-1F9AF",
-        "label": "Person mit Gehstock: dunkle Hautfarbe",
+        "label": "Person mit Langstock: dunkle Hautfarbe",
         "order": 2163,
         "unicode": "🧑🏿‍🦯"
       }
@@ -14708,7 +14727,6 @@
       "blind",
       "frau",
       "frau mit blindenstock",
-      "frau mit gehstock",
       "frau mit langstock"
     ],
     "unicode": "👩‍🦯",
@@ -14808,11 +14826,11 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9BC",
-    "label": "Person in motorisiertem Rollstuhl",
+    "label": "Person in elektrischem Rollstuhl",
     "order": 2212,
     "tags": [
       "barrierefreiheit",
-      "person in motorisiertem rollstuhl",
+      "person in elektrischem rollstuhl",
       "rollstuhl"
     ],
     "unicode": "🧑‍🦼",
@@ -14820,35 +14838,35 @@
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FB-200D-1F9BC",
-        "label": "Person in motorisiertem Rollstuhl: helle Hautfarbe",
+        "label": "Person in elektrischem Rollstuhl: helle Hautfarbe",
         "order": 2213,
         "unicode": "🧑🏻‍🦼"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FC-200D-1F9BC",
-        "label": "Person in motorisiertem Rollstuhl: mittelhelle Hautfarbe",
+        "label": "Person in elektrischem Rollstuhl: mittelhelle Hautfarbe",
         "order": 2214,
         "unicode": "🧑🏼‍🦼"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FD-200D-1F9BC",
-        "label": "Person in motorisiertem Rollstuhl: mittlere Hautfarbe",
+        "label": "Person in elektrischem Rollstuhl: mittlere Hautfarbe",
         "order": 2215,
         "unicode": "🧑🏽‍🦼"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FE-200D-1F9BC",
-        "label": "Person in motorisiertem Rollstuhl: mitteldunkle Hautfarbe",
+        "label": "Person in elektrischem Rollstuhl: mitteldunkle Hautfarbe",
         "order": 2216,
         "unicode": "🧑🏾‍🦼"
       },
       {
         "group": 1,
         "hexcode": "1F9D1-1F3FF-200D-1F9BC",
-        "label": "Person in motorisiertem Rollstuhl: dunkle Hautfarbe",
+        "label": "Person in elektrischem Rollstuhl: dunkle Hautfarbe",
         "order": 2217,
         "unicode": "🧑🏿‍🦼"
       }
@@ -19414,7 +19432,8 @@
       "herz",
       "kuss",
       "mann",
-      "sich küssendes paar"
+      "sich küssendes paar",
+      "sich küssendes paar: frau, mann"
     ],
     "unicode": "👩‍❤️‍💋‍👨",
     "skins": [
@@ -19605,7 +19624,8 @@
       "herz",
       "kuss",
       "mann",
-      "sich küssendes paar"
+      "sich küssendes paar",
+      "sich küssendes paar: mann, mann"
     ],
     "unicode": "👨‍❤️‍💋‍👨",
     "skins": [
@@ -19796,7 +19816,8 @@
       "herz",
       "kuss",
       "mann",
-      "sich küssendes paar"
+      "sich küssendes paar",
+      "sich küssendes paar: frau, frau"
     ],
     "unicode": "👩‍❤️‍💋‍👩",
     "skins": [
@@ -20176,6 +20197,7 @@
       "frau",
       "herz",
       "liebespaar",
+      "liebespaar: frau, mann",
       "mann"
     ],
     "unicode": "👩‍❤️‍👨",
@@ -20366,6 +20388,7 @@
       "frau",
       "herz",
       "liebespaar",
+      "liebespaar: mann, mann",
       "mann"
     ],
     "unicode": "👨‍❤️‍👨",
@@ -20556,6 +20579,7 @@
       "frau",
       "herz",
       "liebespaar",
+      "liebespaar: frau, frau",
       "mann"
     ],
     "unicode": "👩‍❤️‍👩",
@@ -20744,6 +20768,7 @@
     "order": 3439,
     "tags": [
       "familie",
+      "familie: mann, frau und junge",
       "frau",
       "junge",
       "kind",
@@ -20760,6 +20785,7 @@
     "order": 3440,
     "tags": [
       "familie",
+      "familie: mann, frau und mädchen",
       "frau",
       "kind",
       "mann",
@@ -20776,6 +20802,7 @@
     "order": 3441,
     "tags": [
       "familie",
+      "familie: mann, frau, mädchen und junge",
       "frau",
       "junge",
       "kind",
@@ -20793,6 +20820,7 @@
     "order": 3442,
     "tags": [
       "familie",
+      "familie: mann, frau, junge und junge",
       "frau",
       "junge",
       "kind",
@@ -20809,6 +20837,7 @@
     "order": 3443,
     "tags": [
       "familie",
+      "familie: mann, frau, mädchen und mädchen",
       "frau",
       "kind",
       "mann",
@@ -20825,6 +20854,7 @@
     "order": 3444,
     "tags": [
       "familie",
+      "familie: mann, mann und junge",
       "junge",
       "kind",
       "mann",
@@ -20840,6 +20870,7 @@
     "order": 3445,
     "tags": [
       "familie",
+      "familie: mann, mann und mädchen",
       "kind",
       "mann",
       "mutter",
@@ -20855,6 +20886,7 @@
     "order": 3446,
     "tags": [
       "familie",
+      "familie: mann, mann, mädchen und junge",
       "junge",
       "kind",
       "mann",
@@ -20871,6 +20903,7 @@
     "order": 3447,
     "tags": [
       "familie",
+      "familie: mann, mann, junge und junge",
       "junge",
       "kind",
       "mann",
@@ -20886,6 +20919,7 @@
     "order": 3448,
     "tags": [
       "familie",
+      "familie: mann, mann, mädchen und mädchen",
       "kind",
       "mann",
       "mutter",
@@ -20901,6 +20935,7 @@
     "order": 3449,
     "tags": [
       "familie",
+      "familie: frau, frau und junge",
       "frau",
       "junge",
       "kind",
@@ -20916,6 +20951,7 @@
     "order": 3450,
     "tags": [
       "familie",
+      "familie: frau, frau und mädchen",
       "frau",
       "kind",
       "mutter",
@@ -20931,6 +20967,7 @@
     "order": 3451,
     "tags": [
       "familie",
+      "familie: frau, frau, mädchen und junge",
       "frau",
       "junge",
       "kind",
@@ -20947,6 +20984,7 @@
     "order": 3452,
     "tags": [
       "familie",
+      "familie: frau, frau, junge und junge",
       "frau",
       "junge",
       "kind",
@@ -20962,6 +21000,7 @@
     "order": 3453,
     "tags": [
       "familie",
+      "familie: frau, frau, mädchen und mädchen",
       "frau",
       "kind",
       "mutter",
@@ -20977,6 +21016,7 @@
     "order": 3454,
     "tags": [
       "familie",
+      "familie: mann, junge",
       "junge",
       "kind",
       "mann",
@@ -20992,6 +21032,7 @@
     "order": 3455,
     "tags": [
       "familie",
+      "familie: mann, junge und junge",
       "junge",
       "kind",
       "mann",
@@ -21007,6 +21048,7 @@
     "order": 3456,
     "tags": [
       "familie",
+      "familie: mann, mädchen",
       "kind",
       "mann",
       "mutter",
@@ -21022,6 +21064,7 @@
     "order": 3457,
     "tags": [
       "familie",
+      "familie: mann, mädchen und junge",
       "junge",
       "kind",
       "mann",
@@ -21038,6 +21081,7 @@
     "order": 3458,
     "tags": [
       "familie",
+      "familie: mann, mädchen und mädchen",
       "kind",
       "mann",
       "mutter",
@@ -21053,6 +21097,7 @@
     "order": 3459,
     "tags": [
       "familie",
+      "familie: frau, junge",
       "frau",
       "junge",
       "kind",
@@ -21068,6 +21113,7 @@
     "order": 3460,
     "tags": [
       "familie",
+      "familie: frau, junge und junge",
       "frau",
       "junge",
       "kind",
@@ -21083,6 +21129,7 @@
     "order": 3461,
     "tags": [
       "familie",
+      "familie: frau, mädchen",
       "frau",
       "kind",
       "mutter",
@@ -21098,6 +21145,7 @@
     "order": 3462,
     "tags": [
       "familie",
+      "familie: frau, mädchen und junge",
       "frau",
       "junge",
       "kind",
@@ -21114,6 +21162,7 @@
     "order": 3463,
     "tags": [
       "familie",
+      "familie: frau, mädchen und mädchen",
       "frau",
       "kind",
       "mutter",
@@ -21191,64 +21240,48 @@
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2",
-    "label": "family: adult, adult, child",
+    "label": "Familie: 2 Erwachsene, 1 Kind",
     "order": 3470,
     "tags": [
-      "erwachsene person",
-      "geschlechtsneutral",
-      "jung",
-      "kind",
-      "mensch",
-      "ohne eindeutiges geschlecht",
-      "person"
+      "1 kind",
+      "familie: 2 erwachsene",
+      "familie: 2 erwachsene, 1 kind"
     ],
     "unicode": "🧑‍🧑‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, adult, child, child",
+    "label": "Familie: 2 Erwachsene, 2 Kinder",
     "order": 3471,
     "tags": [
-      "erwachsene person",
-      "geschlechtsneutral",
-      "jung",
-      "kind",
-      "mensch",
-      "ohne eindeutiges geschlecht",
-      "person"
+      "2 kinder",
+      "familie: 2 erwachsene",
+      "familie: 2 erwachsene, 2 kinder"
     ],
     "unicode": "🧑‍🧑‍🧒‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2",
-    "label": "family: adult, child",
+    "label": "Familie: 1 Erwachsene(r), 1 Kind",
     "order": 3472,
     "tags": [
-      "erwachsene person",
-      "geschlechtsneutral",
-      "jung",
-      "kind",
-      "mensch",
-      "ohne eindeutiges geschlecht",
-      "person"
+      "1 kind",
+      "familie: 1 erwachsene(r)",
+      "familie: 1 erwachsene(r), 1 kind"
     ],
     "unicode": "🧑‍🧒"
   },
   {
     "group": 1,
     "hexcode": "1F9D1-200D-1F9D2-200D-1F9D2",
-    "label": "family: adult, child, child",
+    "label": "Familie: 1 Erwachsene(r), 2 Kinder",
     "order": 3473,
     "tags": [
-      "erwachsene person",
-      "geschlechtsneutral",
-      "jung",
-      "kind",
-      "mensch",
-      "ohne eindeutiges geschlecht",
-      "person"
+      "2 kinder",
+      "familie: 1 erwachsene(r)",
+      "familie: 1 erwachsene(r), 2 kinder"
     ],
     "unicode": "🧑‍🧒‍🧒"
   },
@@ -22433,14 +22466,15 @@
   {
     "group": 3,
     "hexcode": "1F426-200D-2B1B",
-    "label": "black bird",
+    "label": "schwarzer Vogel",
     "order": 3572,
     "tags": [
-      "bird",
-      "black",
-      "crow",
-      "raven",
-      "rook"
+      "amsel",
+      "krähe",
+      "rabe",
+      "schwarz",
+      "schwarzer vogel",
+      "vogel"
     ],
     "unicode": "🐦‍⬛"
   },
@@ -22461,15 +22495,14 @@
   {
     "group": 3,
     "hexcode": "1F426-200D-1F525",
-    "label": "phoenix",
+    "label": "Phönix",
     "order": 3574,
     "tags": [
-      "feuer",
-      "flamme",
-      "heiß",
-      "papagei",
-      "taube",
-      "vogel"
+      "fantasy",
+      "feuervogel",
+      "phönix",
+      "reinkarnation",
+      "wiedergeburt"
     ],
     "unicode": "🐦‍🔥"
   },
@@ -23362,15 +23395,12 @@
   {
     "group": 4,
     "hexcode": "1F34B-200D-1F7E9",
-    "label": "lime",
+    "label": "Limette",
     "order": 3649,
     "tags": [
       "frucht",
-      "grün",
-      "grünes quadrat",
-      "obst",
-      "quadrat",
-      "zitrone",
+      "limette",
+      "tropisch",
       "zitrusfrucht"
     ],
     "unicode": "🍋‍🟩"
@@ -23763,14 +23793,15 @@
   {
     "group": 4,
     "hexcode": "1F344-200D-1F7EB",
-    "label": "brown mushroom",
+    "label": "brauner Pilz",
     "order": 3682,
     "tags": [
-      "braun",
-      "braunes quadrat",
-      "fliegenpilz",
-      "pilz",
-      "quadrat"
+      "brauner pilz",
+      "gemüse",
+      "lebensmittel",
+      "natur",
+      "pflanze",
+      "pilz"
     ],
     "unicode": "🍄‍🟫"
   },
@@ -26780,7 +26811,6 @@
     "order": 3959,
     "tags": [
       "0 uhr",
-      "12",
       "12:00 uhr",
       "mittag",
       "mitternacht",
@@ -28971,7 +29001,11 @@
     "label": "Faltfächer",
     "order": 4165,
     "tags": [
-      "faltfächer"
+      "faltfächer",
+      "fächer",
+      "kühlen",
+      "schüchtern",
+      "warm"
     ],
     "unicode": "🪭"
   },
@@ -29158,7 +29192,10 @@
     "label": "Haarkamm",
     "order": 4181,
     "tags": [
-      "haarkamm"
+      "afro",
+      "haare",
+      "haarkamm",
+      "kamm"
     ],
     "unicode": "🪮"
   },
@@ -29640,7 +29677,11 @@
     "label": "Maracas",
     "order": 4224,
     "tags": [
-      "maracas"
+      "instrument",
+      "maracas",
+      "musik",
+      "percussion",
+      "rassel"
     ],
     "unicode": "🪇"
   },
@@ -29650,7 +29691,9 @@
     "label": "Flöte",
     "order": 4225,
     "tags": [
-      "flöte"
+      "flöte",
+      "instrument",
+      "musik"
     ],
     "unicode": "🪈"
   },
@@ -31245,15 +31288,16 @@
   {
     "group": 7,
     "hexcode": "26D3-FE0F-200D-1F4A5",
-    "label": "broken chain",
+    "label": "gebrochene Kette",
     "order": 4395,
     "tags": [
-      "comic",
-      "eisen",
+      "brechen",
+      "freiheit",
+      "gebrochen",
+      "gebrochene kette",
+      "handschellen",
       "kette",
-      "ketten",
-      "kollision",
-      "zusammenstoß"
+      "zerbrechen"
     ],
     "unicode": "⛓️‍💥"
   },
@@ -33652,7 +33696,8 @@
     "label": "Taste: #",
     "order": 4648,
     "tags": [
-      "taste"
+      "taste",
+      "taste: #"
     ],
     "unicode": "#️⃣"
   },
@@ -33662,7 +33707,8 @@
     "label": "Taste: *",
     "order": 4650,
     "tags": [
-      "taste"
+      "taste",
+      "taste: *"
     ],
     "unicode": "*️⃣"
   },
@@ -33672,7 +33718,8 @@
     "label": "Taste: 0",
     "order": 4652,
     "tags": [
-      "taste"
+      "taste",
+      "taste: 0"
     ],
     "unicode": "0️⃣"
   },
@@ -33682,7 +33729,8 @@
     "label": "Taste: 1",
     "order": 4654,
     "tags": [
-      "taste"
+      "taste",
+      "taste: 1"
     ],
     "unicode": "1️⃣"
   },
@@ -33692,7 +33740,8 @@
     "label": "Taste: 2",
     "order": 4656,
     "tags": [
-      "taste"
+      "taste",
+      "taste: 2"
     ],
     "unicode": "2️⃣"
   },
@@ -33702,7 +33751,8 @@
     "label": "Taste: 3",
     "order": 4658,
     "tags": [
-      "taste"
+      "taste",
+      "taste: 3"
     ],
     "unicode": "3️⃣"
   },
@@ -33712,7 +33762,8 @@
     "label": "Taste: 4",
     "order": 4660,
     "tags": [
-      "taste"
+      "taste",
+      "taste: 4"
     ],
     "unicode": "4️⃣"
   },
@@ -33722,7 +33773,8 @@
     "label": "Taste: 5",
     "order": 4662,
     "tags": [
-      "taste"
+      "taste",
+      "taste: 5"
     ],
     "unicode": "5️⃣"
   },
@@ -33732,7 +33784,8 @@
     "label": "Taste: 6",
     "order": 4664,
     "tags": [
-      "taste"
+      "taste",
+      "taste: 6"
     ],
     "unicode": "6️⃣"
   },
@@ -33742,7 +33795,8 @@
     "label": "Taste: 7",
     "order": 4666,
     "tags": [
-      "taste"
+      "taste",
+      "taste: 7"
     ],
     "unicode": "7️⃣"
   },
@@ -33752,7 +33806,8 @@
     "label": "Taste: 8",
     "order": 4668,
     "tags": [
-      "taste"
+      "taste",
+      "taste: 8"
     ],
     "unicode": "8️⃣"
   },
@@ -33762,7 +33817,8 @@
     "label": "Taste: 9",
     "order": 4670,
     "tags": [
-      "taste"
+      "taste",
+      "taste: 9"
     ],
     "unicode": "9️⃣"
   },
@@ -33772,7 +33828,8 @@
     "label": "Taste: 10",
     "order": 4672,
     "tags": [
-      "taste"
+      "taste",
+      "taste: 10"
     ],
     "unicode": "🔟"
   },
@@ -34774,7 +34831,8 @@
     "order": 4774,
     "tags": [
       "AC",
-      "flagge"
+      "flagge",
+      "flagge: ascension"
     ],
     "unicode": "🇦🇨"
   },
@@ -34785,7 +34843,8 @@
     "order": 4775,
     "tags": [
       "AD",
-      "flagge"
+      "flagge",
+      "flagge: andorra"
     ],
     "unicode": "🇦🇩"
   },
@@ -34796,7 +34855,8 @@
     "order": 4776,
     "tags": [
       "AE",
-      "flagge"
+      "flagge",
+      "flagge: vereinigte arabische emirate"
     ],
     "unicode": "🇦🇪"
   },
@@ -34807,7 +34867,8 @@
     "order": 4777,
     "tags": [
       "AF",
-      "flagge"
+      "flagge",
+      "flagge: afghanistan"
     ],
     "unicode": "🇦🇫"
   },
@@ -34818,7 +34879,8 @@
     "order": 4778,
     "tags": [
       "AG",
-      "flagge"
+      "flagge",
+      "flagge: antigua und barbuda"
     ],
     "unicode": "🇦🇬"
   },
@@ -34829,7 +34891,8 @@
     "order": 4779,
     "tags": [
       "AI",
-      "flagge"
+      "flagge",
+      "flagge: anguilla"
     ],
     "unicode": "🇦🇮"
   },
@@ -34840,7 +34903,8 @@
     "order": 4780,
     "tags": [
       "AL",
-      "flagge"
+      "flagge",
+      "flagge: albanien"
     ],
     "unicode": "🇦🇱"
   },
@@ -34851,7 +34915,8 @@
     "order": 4781,
     "tags": [
       "AM",
-      "flagge"
+      "flagge",
+      "flagge: armenien"
     ],
     "unicode": "🇦🇲"
   },
@@ -34862,7 +34927,8 @@
     "order": 4782,
     "tags": [
       "AO",
-      "flagge"
+      "flagge",
+      "flagge: angola"
     ],
     "unicode": "🇦🇴"
   },
@@ -34873,7 +34939,8 @@
     "order": 4783,
     "tags": [
       "AQ",
-      "flagge"
+      "flagge",
+      "flagge: antarktis"
     ],
     "unicode": "🇦🇶"
   },
@@ -34884,7 +34951,8 @@
     "order": 4784,
     "tags": [
       "AR",
-      "flagge"
+      "flagge",
+      "flagge: argentinien"
     ],
     "unicode": "🇦🇷"
   },
@@ -34895,7 +34963,8 @@
     "order": 4785,
     "tags": [
       "AS",
-      "flagge"
+      "flagge",
+      "flagge: amerikanisch-samoa"
     ],
     "unicode": "🇦🇸"
   },
@@ -34906,7 +34975,8 @@
     "order": 4786,
     "tags": [
       "AT",
-      "flagge"
+      "flagge",
+      "flagge: österreich"
     ],
     "unicode": "🇦🇹"
   },
@@ -34917,7 +34987,8 @@
     "order": 4787,
     "tags": [
       "AU",
-      "flagge"
+      "flagge",
+      "flagge: australien"
     ],
     "unicode": "🇦🇺"
   },
@@ -34928,7 +34999,8 @@
     "order": 4788,
     "tags": [
       "AW",
-      "flagge"
+      "flagge",
+      "flagge: aruba"
     ],
     "unicode": "🇦🇼"
   },
@@ -34939,7 +35011,8 @@
     "order": 4789,
     "tags": [
       "AX",
-      "flagge"
+      "flagge",
+      "flagge: ålandinseln"
     ],
     "unicode": "🇦🇽"
   },
@@ -34950,7 +35023,8 @@
     "order": 4790,
     "tags": [
       "AZ",
-      "flagge"
+      "flagge",
+      "flagge: aserbaidschan"
     ],
     "unicode": "🇦🇿"
   },
@@ -34961,7 +35035,8 @@
     "order": 4791,
     "tags": [
       "BA",
-      "flagge"
+      "flagge",
+      "flagge: bosnien und herzegowina"
     ],
     "unicode": "🇧🇦"
   },
@@ -34972,7 +35047,8 @@
     "order": 4792,
     "tags": [
       "BB",
-      "flagge"
+      "flagge",
+      "flagge: barbados"
     ],
     "unicode": "🇧🇧"
   },
@@ -34983,7 +35059,8 @@
     "order": 4793,
     "tags": [
       "BD",
-      "flagge"
+      "flagge",
+      "flagge: bangladesch"
     ],
     "unicode": "🇧🇩"
   },
@@ -34994,7 +35071,8 @@
     "order": 4794,
     "tags": [
       "BE",
-      "flagge"
+      "flagge",
+      "flagge: belgien"
     ],
     "unicode": "🇧🇪"
   },
@@ -35005,7 +35083,8 @@
     "order": 4795,
     "tags": [
       "BF",
-      "flagge"
+      "flagge",
+      "flagge: burkina faso"
     ],
     "unicode": "🇧🇫"
   },
@@ -35016,7 +35095,8 @@
     "order": 4796,
     "tags": [
       "BG",
-      "flagge"
+      "flagge",
+      "flagge: bulgarien"
     ],
     "unicode": "🇧🇬"
   },
@@ -35027,7 +35107,8 @@
     "order": 4797,
     "tags": [
       "BH",
-      "flagge"
+      "flagge",
+      "flagge: bahrain"
     ],
     "unicode": "🇧🇭"
   },
@@ -35038,7 +35119,8 @@
     "order": 4798,
     "tags": [
       "BI",
-      "flagge"
+      "flagge",
+      "flagge: burundi"
     ],
     "unicode": "🇧🇮"
   },
@@ -35049,7 +35131,8 @@
     "order": 4799,
     "tags": [
       "BJ",
-      "flagge"
+      "flagge",
+      "flagge: benin"
     ],
     "unicode": "🇧🇯"
   },
@@ -35060,7 +35143,8 @@
     "order": 4800,
     "tags": [
       "BL",
-      "flagge"
+      "flagge",
+      "flagge: st. barthélemy"
     ],
     "unicode": "🇧🇱"
   },
@@ -35071,7 +35155,8 @@
     "order": 4801,
     "tags": [
       "BM",
-      "flagge"
+      "flagge",
+      "flagge: bermuda"
     ],
     "unicode": "🇧🇲"
   },
@@ -35082,7 +35167,8 @@
     "order": 4802,
     "tags": [
       "BN",
-      "flagge"
+      "flagge",
+      "flagge: brunei darussalam"
     ],
     "unicode": "🇧🇳"
   },
@@ -35093,7 +35179,8 @@
     "order": 4803,
     "tags": [
       "BO",
-      "flagge"
+      "flagge",
+      "flagge: bolivien"
     ],
     "unicode": "🇧🇴"
   },
@@ -35104,7 +35191,8 @@
     "order": 4804,
     "tags": [
       "BQ",
-      "flagge"
+      "flagge",
+      "flagge: karibische niederlande"
     ],
     "unicode": "🇧🇶"
   },
@@ -35115,7 +35203,8 @@
     "order": 4805,
     "tags": [
       "BR",
-      "flagge"
+      "flagge",
+      "flagge: brasilien"
     ],
     "unicode": "🇧🇷"
   },
@@ -35126,7 +35215,8 @@
     "order": 4806,
     "tags": [
       "BS",
-      "flagge"
+      "flagge",
+      "flagge: bahamas"
     ],
     "unicode": "🇧🇸"
   },
@@ -35137,7 +35227,8 @@
     "order": 4807,
     "tags": [
       "BT",
-      "flagge"
+      "flagge",
+      "flagge: bhutan"
     ],
     "unicode": "🇧🇹"
   },
@@ -35148,7 +35239,8 @@
     "order": 4808,
     "tags": [
       "BV",
-      "flagge"
+      "flagge",
+      "flagge: bouvetinsel"
     ],
     "unicode": "🇧🇻"
   },
@@ -35159,7 +35251,8 @@
     "order": 4809,
     "tags": [
       "BW",
-      "flagge"
+      "flagge",
+      "flagge: botsuana"
     ],
     "unicode": "🇧🇼"
   },
@@ -35170,7 +35263,8 @@
     "order": 4810,
     "tags": [
       "BY",
-      "flagge"
+      "flagge",
+      "flagge: belarus"
     ],
     "unicode": "🇧🇾"
   },
@@ -35181,7 +35275,8 @@
     "order": 4811,
     "tags": [
       "BZ",
-      "flagge"
+      "flagge",
+      "flagge: belize"
     ],
     "unicode": "🇧🇿"
   },
@@ -35192,7 +35287,8 @@
     "order": 4812,
     "tags": [
       "CA",
-      "flagge"
+      "flagge",
+      "flagge: kanada"
     ],
     "unicode": "🇨🇦"
   },
@@ -35203,7 +35299,8 @@
     "order": 4813,
     "tags": [
       "CC",
-      "flagge"
+      "flagge",
+      "flagge: kokosinseln"
     ],
     "unicode": "🇨🇨"
   },
@@ -35214,7 +35311,8 @@
     "order": 4814,
     "tags": [
       "CD",
-      "flagge"
+      "flagge",
+      "flagge: kongo-kinshasa"
     ],
     "unicode": "🇨🇩"
   },
@@ -35225,7 +35323,8 @@
     "order": 4815,
     "tags": [
       "CF",
-      "flagge"
+      "flagge",
+      "flagge: zentralafrikanische republik"
     ],
     "unicode": "🇨🇫"
   },
@@ -35236,7 +35335,8 @@
     "order": 4816,
     "tags": [
       "CG",
-      "flagge"
+      "flagge",
+      "flagge: kongo-brazzaville"
     ],
     "unicode": "🇨🇬"
   },
@@ -35247,7 +35347,8 @@
     "order": 4817,
     "tags": [
       "CH",
-      "flagge"
+      "flagge",
+      "flagge: schweiz"
     ],
     "unicode": "🇨🇭"
   },
@@ -35258,7 +35359,8 @@
     "order": 4818,
     "tags": [
       "CI",
-      "flagge"
+      "flagge",
+      "flagge: côte d’ivoire"
     ],
     "unicode": "🇨🇮"
   },
@@ -35269,7 +35371,8 @@
     "order": 4819,
     "tags": [
       "CK",
-      "flagge"
+      "flagge",
+      "flagge: cookinseln"
     ],
     "unicode": "🇨🇰"
   },
@@ -35280,7 +35383,8 @@
     "order": 4820,
     "tags": [
       "CL",
-      "flagge"
+      "flagge",
+      "flagge: chile"
     ],
     "unicode": "🇨🇱"
   },
@@ -35291,7 +35395,8 @@
     "order": 4821,
     "tags": [
       "CM",
-      "flagge"
+      "flagge",
+      "flagge: kamerun"
     ],
     "unicode": "🇨🇲"
   },
@@ -35302,7 +35407,8 @@
     "order": 4822,
     "tags": [
       "CN",
-      "flagge"
+      "flagge",
+      "flagge: china"
     ],
     "unicode": "🇨🇳"
   },
@@ -35313,7 +35419,8 @@
     "order": 4823,
     "tags": [
       "CO",
-      "flagge"
+      "flagge",
+      "flagge: kolumbien"
     ],
     "unicode": "🇨🇴"
   },
@@ -35324,7 +35431,8 @@
     "order": 4824,
     "tags": [
       "CP",
-      "flagge"
+      "flagge",
+      "flagge: clipperton-insel"
     ],
     "unicode": "🇨🇵"
   },
@@ -35335,7 +35443,8 @@
     "order": 4825,
     "tags": [
       "CR",
-      "flagge"
+      "flagge",
+      "flagge: costa rica"
     ],
     "unicode": "🇨🇷"
   },
@@ -35346,7 +35455,8 @@
     "order": 4826,
     "tags": [
       "CU",
-      "flagge"
+      "flagge",
+      "flagge: kuba"
     ],
     "unicode": "🇨🇺"
   },
@@ -35357,7 +35467,8 @@
     "order": 4827,
     "tags": [
       "CV",
-      "flagge"
+      "flagge",
+      "flagge: cabo verde"
     ],
     "unicode": "🇨🇻"
   },
@@ -35368,7 +35479,8 @@
     "order": 4828,
     "tags": [
       "CW",
-      "flagge"
+      "flagge",
+      "flagge: curaçao"
     ],
     "unicode": "🇨🇼"
   },
@@ -35379,7 +35491,8 @@
     "order": 4829,
     "tags": [
       "CX",
-      "flagge"
+      "flagge",
+      "flagge: weihnachtsinsel"
     ],
     "unicode": "🇨🇽"
   },
@@ -35390,7 +35503,8 @@
     "order": 4830,
     "tags": [
       "CY",
-      "flagge"
+      "flagge",
+      "flagge: zypern"
     ],
     "unicode": "🇨🇾"
   },
@@ -35401,7 +35515,8 @@
     "order": 4831,
     "tags": [
       "CZ",
-      "flagge"
+      "flagge",
+      "flagge: tschechien"
     ],
     "unicode": "🇨🇿"
   },
@@ -35412,7 +35527,8 @@
     "order": 4832,
     "tags": [
       "DE",
-      "flagge"
+      "flagge",
+      "flagge: deutschland"
     ],
     "unicode": "🇩🇪"
   },
@@ -35423,7 +35539,8 @@
     "order": 4833,
     "tags": [
       "DG",
-      "flagge"
+      "flagge",
+      "flagge: diego garcia"
     ],
     "unicode": "🇩🇬"
   },
@@ -35434,7 +35551,8 @@
     "order": 4834,
     "tags": [
       "DJ",
-      "flagge"
+      "flagge",
+      "flagge: dschibuti"
     ],
     "unicode": "🇩🇯"
   },
@@ -35445,7 +35563,8 @@
     "order": 4835,
     "tags": [
       "DK",
-      "flagge"
+      "flagge",
+      "flagge: dänemark"
     ],
     "unicode": "🇩🇰"
   },
@@ -35456,7 +35575,8 @@
     "order": 4836,
     "tags": [
       "DM",
-      "flagge"
+      "flagge",
+      "flagge: dominica"
     ],
     "unicode": "🇩🇲"
   },
@@ -35467,7 +35587,8 @@
     "order": 4837,
     "tags": [
       "DO",
-      "flagge"
+      "flagge",
+      "flagge: dominikanische republik"
     ],
     "unicode": "🇩🇴"
   },
@@ -35478,7 +35599,8 @@
     "order": 4838,
     "tags": [
       "DZ",
-      "flagge"
+      "flagge",
+      "flagge: algerien"
     ],
     "unicode": "🇩🇿"
   },
@@ -35489,7 +35611,8 @@
     "order": 4839,
     "tags": [
       "EA",
-      "flagge"
+      "flagge",
+      "flagge: ceuta und melilla"
     ],
     "unicode": "🇪🇦"
   },
@@ -35500,7 +35623,8 @@
     "order": 4840,
     "tags": [
       "EC",
-      "flagge"
+      "flagge",
+      "flagge: ecuador"
     ],
     "unicode": "🇪🇨"
   },
@@ -35511,7 +35635,8 @@
     "order": 4841,
     "tags": [
       "EE",
-      "flagge"
+      "flagge",
+      "flagge: estland"
     ],
     "unicode": "🇪🇪"
   },
@@ -35522,7 +35647,8 @@
     "order": 4842,
     "tags": [
       "EG",
-      "flagge"
+      "flagge",
+      "flagge: ägypten"
     ],
     "unicode": "🇪🇬"
   },
@@ -35533,7 +35659,8 @@
     "order": 4843,
     "tags": [
       "EH",
-      "flagge"
+      "flagge",
+      "flagge: westsahara"
     ],
     "unicode": "🇪🇭"
   },
@@ -35544,7 +35671,8 @@
     "order": 4844,
     "tags": [
       "ER",
-      "flagge"
+      "flagge",
+      "flagge: eritrea"
     ],
     "unicode": "🇪🇷"
   },
@@ -35555,7 +35683,8 @@
     "order": 4845,
     "tags": [
       "ES",
-      "flagge"
+      "flagge",
+      "flagge: spanien"
     ],
     "unicode": "🇪🇸"
   },
@@ -35566,7 +35695,8 @@
     "order": 4846,
     "tags": [
       "ET",
-      "flagge"
+      "flagge",
+      "flagge: äthiopien"
     ],
     "unicode": "🇪🇹"
   },
@@ -35577,7 +35707,8 @@
     "order": 4847,
     "tags": [
       "EU",
-      "flagge"
+      "flagge",
+      "flagge: europäische union"
     ],
     "unicode": "🇪🇺"
   },
@@ -35588,7 +35719,8 @@
     "order": 4848,
     "tags": [
       "FI",
-      "flagge"
+      "flagge",
+      "flagge: finnland"
     ],
     "unicode": "🇫🇮"
   },
@@ -35599,7 +35731,8 @@
     "order": 4849,
     "tags": [
       "FJ",
-      "flagge"
+      "flagge",
+      "flagge: fidschi"
     ],
     "unicode": "🇫🇯"
   },
@@ -35610,7 +35743,8 @@
     "order": 4850,
     "tags": [
       "FK",
-      "flagge"
+      "flagge",
+      "flagge: falklandinseln"
     ],
     "unicode": "🇫🇰"
   },
@@ -35621,7 +35755,8 @@
     "order": 4851,
     "tags": [
       "FM",
-      "flagge"
+      "flagge",
+      "flagge: mikronesien"
     ],
     "unicode": "🇫🇲"
   },
@@ -35632,7 +35767,8 @@
     "order": 4852,
     "tags": [
       "FO",
-      "flagge"
+      "flagge",
+      "flagge: färöer"
     ],
     "unicode": "🇫🇴"
   },
@@ -35643,7 +35779,8 @@
     "order": 4853,
     "tags": [
       "FR",
-      "flagge"
+      "flagge",
+      "flagge: frankreich"
     ],
     "unicode": "🇫🇷"
   },
@@ -35654,7 +35791,8 @@
     "order": 4854,
     "tags": [
       "GA",
-      "flagge"
+      "flagge",
+      "flagge: gabun"
     ],
     "unicode": "🇬🇦"
   },
@@ -35665,7 +35803,8 @@
     "order": 4855,
     "tags": [
       "GB",
-      "flagge"
+      "flagge",
+      "flagge: vereinigtes königreich"
     ],
     "unicode": "🇬🇧"
   },
@@ -35676,7 +35815,8 @@
     "order": 4856,
     "tags": [
       "GD",
-      "flagge"
+      "flagge",
+      "flagge: grenada"
     ],
     "unicode": "🇬🇩"
   },
@@ -35687,7 +35827,8 @@
     "order": 4857,
     "tags": [
       "GE",
-      "flagge"
+      "flagge",
+      "flagge: georgien"
     ],
     "unicode": "🇬🇪"
   },
@@ -35698,7 +35839,8 @@
     "order": 4858,
     "tags": [
       "GF",
-      "flagge"
+      "flagge",
+      "flagge: französisch-guayana"
     ],
     "unicode": "🇬🇫"
   },
@@ -35709,7 +35851,8 @@
     "order": 4859,
     "tags": [
       "GG",
-      "flagge"
+      "flagge",
+      "flagge: guernsey"
     ],
     "unicode": "🇬🇬"
   },
@@ -35720,7 +35863,8 @@
     "order": 4860,
     "tags": [
       "GH",
-      "flagge"
+      "flagge",
+      "flagge: ghana"
     ],
     "unicode": "🇬🇭"
   },
@@ -35731,7 +35875,8 @@
     "order": 4861,
     "tags": [
       "GI",
-      "flagge"
+      "flagge",
+      "flagge: gibraltar"
     ],
     "unicode": "🇬🇮"
   },
@@ -35742,7 +35887,8 @@
     "order": 4862,
     "tags": [
       "GL",
-      "flagge"
+      "flagge",
+      "flagge: grönland"
     ],
     "unicode": "🇬🇱"
   },
@@ -35753,7 +35899,8 @@
     "order": 4863,
     "tags": [
       "GM",
-      "flagge"
+      "flagge",
+      "flagge: gambia"
     ],
     "unicode": "🇬🇲"
   },
@@ -35764,7 +35911,8 @@
     "order": 4864,
     "tags": [
       "GN",
-      "flagge"
+      "flagge",
+      "flagge: guinea"
     ],
     "unicode": "🇬🇳"
   },
@@ -35775,7 +35923,8 @@
     "order": 4865,
     "tags": [
       "GP",
-      "flagge"
+      "flagge",
+      "flagge: guadeloupe"
     ],
     "unicode": "🇬🇵"
   },
@@ -35786,7 +35935,8 @@
     "order": 4866,
     "tags": [
       "GQ",
-      "flagge"
+      "flagge",
+      "flagge: äquatorialguinea"
     ],
     "unicode": "🇬🇶"
   },
@@ -35797,7 +35947,8 @@
     "order": 4867,
     "tags": [
       "GR",
-      "flagge"
+      "flagge",
+      "flagge: griechenland"
     ],
     "unicode": "🇬🇷"
   },
@@ -35808,7 +35959,8 @@
     "order": 4868,
     "tags": [
       "GS",
-      "flagge"
+      "flagge",
+      "flagge: südgeorgien und die südlichen sandwichinseln"
     ],
     "unicode": "🇬🇸"
   },
@@ -35819,7 +35971,8 @@
     "order": 4869,
     "tags": [
       "GT",
-      "flagge"
+      "flagge",
+      "flagge: guatemala"
     ],
     "unicode": "🇬🇹"
   },
@@ -35830,7 +35983,8 @@
     "order": 4870,
     "tags": [
       "GU",
-      "flagge"
+      "flagge",
+      "flagge: guam"
     ],
     "unicode": "🇬🇺"
   },
@@ -35841,7 +35995,8 @@
     "order": 4871,
     "tags": [
       "GW",
-      "flagge"
+      "flagge",
+      "flagge: guinea-bissau"
     ],
     "unicode": "🇬🇼"
   },
@@ -35852,7 +36007,8 @@
     "order": 4872,
     "tags": [
       "GY",
-      "flagge"
+      "flagge",
+      "flagge: guyana"
     ],
     "unicode": "🇬🇾"
   },
@@ -35863,7 +36019,8 @@
     "order": 4873,
     "tags": [
       "HK",
-      "flagge"
+      "flagge",
+      "flagge: sonderverwaltungsregion hongkong"
     ],
     "unicode": "🇭🇰"
   },
@@ -35874,7 +36031,8 @@
     "order": 4874,
     "tags": [
       "HM",
-      "flagge"
+      "flagge",
+      "flagge: heard und mcdonaldinseln"
     ],
     "unicode": "🇭🇲"
   },
@@ -35885,7 +36043,8 @@
     "order": 4875,
     "tags": [
       "HN",
-      "flagge"
+      "flagge",
+      "flagge: honduras"
     ],
     "unicode": "🇭🇳"
   },
@@ -35896,7 +36055,8 @@
     "order": 4876,
     "tags": [
       "HR",
-      "flagge"
+      "flagge",
+      "flagge: kroatien"
     ],
     "unicode": "🇭🇷"
   },
@@ -35907,7 +36067,8 @@
     "order": 4877,
     "tags": [
       "HT",
-      "flagge"
+      "flagge",
+      "flagge: haiti"
     ],
     "unicode": "🇭🇹"
   },
@@ -35918,7 +36079,8 @@
     "order": 4878,
     "tags": [
       "HU",
-      "flagge"
+      "flagge",
+      "flagge: ungarn"
     ],
     "unicode": "🇭🇺"
   },
@@ -35929,7 +36091,8 @@
     "order": 4879,
     "tags": [
       "IC",
-      "flagge"
+      "flagge",
+      "flagge: kanarische inseln"
     ],
     "unicode": "🇮🇨"
   },
@@ -35940,7 +36103,8 @@
     "order": 4880,
     "tags": [
       "ID",
-      "flagge"
+      "flagge",
+      "flagge: indonesien"
     ],
     "unicode": "🇮🇩"
   },
@@ -35951,7 +36115,8 @@
     "order": 4881,
     "tags": [
       "IE",
-      "flagge"
+      "flagge",
+      "flagge: irland"
     ],
     "unicode": "🇮🇪"
   },
@@ -35962,7 +36127,8 @@
     "order": 4882,
     "tags": [
       "IL",
-      "flagge"
+      "flagge",
+      "flagge: israel"
     ],
     "unicode": "🇮🇱"
   },
@@ -35973,7 +36139,8 @@
     "order": 4883,
     "tags": [
       "IM",
-      "flagge"
+      "flagge",
+      "flagge: isle of man"
     ],
     "unicode": "🇮🇲"
   },
@@ -35984,7 +36151,8 @@
     "order": 4884,
     "tags": [
       "IN",
-      "flagge"
+      "flagge",
+      "flagge: indien"
     ],
     "unicode": "🇮🇳"
   },
@@ -35995,7 +36163,8 @@
     "order": 4885,
     "tags": [
       "IO",
-      "flagge"
+      "flagge",
+      "flagge: britisches territorium im indischen ozean"
     ],
     "unicode": "🇮🇴"
   },
@@ -36006,7 +36175,8 @@
     "order": 4886,
     "tags": [
       "IQ",
-      "flagge"
+      "flagge",
+      "flagge: irak"
     ],
     "unicode": "🇮🇶"
   },
@@ -36017,7 +36187,8 @@
     "order": 4887,
     "tags": [
       "IR",
-      "flagge"
+      "flagge",
+      "flagge: iran"
     ],
     "unicode": "🇮🇷"
   },
@@ -36028,7 +36199,8 @@
     "order": 4888,
     "tags": [
       "IS",
-      "flagge"
+      "flagge",
+      "flagge: island"
     ],
     "unicode": "🇮🇸"
   },
@@ -36039,7 +36211,8 @@
     "order": 4889,
     "tags": [
       "IT",
-      "flagge"
+      "flagge",
+      "flagge: italien"
     ],
     "unicode": "🇮🇹"
   },
@@ -36050,7 +36223,8 @@
     "order": 4890,
     "tags": [
       "JE",
-      "flagge"
+      "flagge",
+      "flagge: jersey"
     ],
     "unicode": "🇯🇪"
   },
@@ -36061,7 +36235,8 @@
     "order": 4891,
     "tags": [
       "JM",
-      "flagge"
+      "flagge",
+      "flagge: jamaika"
     ],
     "unicode": "🇯🇲"
   },
@@ -36072,7 +36247,8 @@
     "order": 4892,
     "tags": [
       "JO",
-      "flagge"
+      "flagge",
+      "flagge: jordanien"
     ],
     "unicode": "🇯🇴"
   },
@@ -36083,7 +36259,8 @@
     "order": 4893,
     "tags": [
       "JP",
-      "flagge"
+      "flagge",
+      "flagge: japan"
     ],
     "unicode": "🇯🇵"
   },
@@ -36094,7 +36271,8 @@
     "order": 4894,
     "tags": [
       "KE",
-      "flagge"
+      "flagge",
+      "flagge: kenia"
     ],
     "unicode": "🇰🇪"
   },
@@ -36105,7 +36283,8 @@
     "order": 4895,
     "tags": [
       "KG",
-      "flagge"
+      "flagge",
+      "flagge: kirgisistan"
     ],
     "unicode": "🇰🇬"
   },
@@ -36116,7 +36295,8 @@
     "order": 4896,
     "tags": [
       "KH",
-      "flagge"
+      "flagge",
+      "flagge: kambodscha"
     ],
     "unicode": "🇰🇭"
   },
@@ -36127,7 +36307,8 @@
     "order": 4897,
     "tags": [
       "KI",
-      "flagge"
+      "flagge",
+      "flagge: kiribati"
     ],
     "unicode": "🇰🇮"
   },
@@ -36138,7 +36319,8 @@
     "order": 4898,
     "tags": [
       "KM",
-      "flagge"
+      "flagge",
+      "flagge: komoren"
     ],
     "unicode": "🇰🇲"
   },
@@ -36149,7 +36331,8 @@
     "order": 4899,
     "tags": [
       "KN",
-      "flagge"
+      "flagge",
+      "flagge: st. kitts und nevis"
     ],
     "unicode": "🇰🇳"
   },
@@ -36160,7 +36343,8 @@
     "order": 4900,
     "tags": [
       "KP",
-      "flagge"
+      "flagge",
+      "flagge: nordkorea"
     ],
     "unicode": "🇰🇵"
   },
@@ -36171,7 +36355,8 @@
     "order": 4901,
     "tags": [
       "KR",
-      "flagge"
+      "flagge",
+      "flagge: südkorea"
     ],
     "unicode": "🇰🇷"
   },
@@ -36182,7 +36367,8 @@
     "order": 4902,
     "tags": [
       "KW",
-      "flagge"
+      "flagge",
+      "flagge: kuwait"
     ],
     "unicode": "🇰🇼"
   },
@@ -36193,7 +36379,8 @@
     "order": 4903,
     "tags": [
       "KY",
-      "flagge"
+      "flagge",
+      "flagge: kaimaninseln"
     ],
     "unicode": "🇰🇾"
   },
@@ -36204,7 +36391,8 @@
     "order": 4904,
     "tags": [
       "KZ",
-      "flagge"
+      "flagge",
+      "flagge: kasachstan"
     ],
     "unicode": "🇰🇿"
   },
@@ -36215,7 +36403,8 @@
     "order": 4905,
     "tags": [
       "LA",
-      "flagge"
+      "flagge",
+      "flagge: laos"
     ],
     "unicode": "🇱🇦"
   },
@@ -36226,7 +36415,8 @@
     "order": 4906,
     "tags": [
       "LB",
-      "flagge"
+      "flagge",
+      "flagge: libanon"
     ],
     "unicode": "🇱🇧"
   },
@@ -36237,7 +36427,8 @@
     "order": 4907,
     "tags": [
       "LC",
-      "flagge"
+      "flagge",
+      "flagge: st. lucia"
     ],
     "unicode": "🇱🇨"
   },
@@ -36248,7 +36439,8 @@
     "order": 4908,
     "tags": [
       "LI",
-      "flagge"
+      "flagge",
+      "flagge: liechtenstein"
     ],
     "unicode": "🇱🇮"
   },
@@ -36259,7 +36451,8 @@
     "order": 4909,
     "tags": [
       "LK",
-      "flagge"
+      "flagge",
+      "flagge: sri lanka"
     ],
     "unicode": "🇱🇰"
   },
@@ -36270,7 +36463,8 @@
     "order": 4910,
     "tags": [
       "LR",
-      "flagge"
+      "flagge",
+      "flagge: liberia"
     ],
     "unicode": "🇱🇷"
   },
@@ -36281,7 +36475,8 @@
     "order": 4911,
     "tags": [
       "LS",
-      "flagge"
+      "flagge",
+      "flagge: lesotho"
     ],
     "unicode": "🇱🇸"
   },
@@ -36292,7 +36487,8 @@
     "order": 4912,
     "tags": [
       "LT",
-      "flagge"
+      "flagge",
+      "flagge: litauen"
     ],
     "unicode": "🇱🇹"
   },
@@ -36303,7 +36499,8 @@
     "order": 4913,
     "tags": [
       "LU",
-      "flagge"
+      "flagge",
+      "flagge: luxemburg"
     ],
     "unicode": "🇱🇺"
   },
@@ -36314,7 +36511,8 @@
     "order": 4914,
     "tags": [
       "LV",
-      "flagge"
+      "flagge",
+      "flagge: lettland"
     ],
     "unicode": "🇱🇻"
   },
@@ -36325,7 +36523,8 @@
     "order": 4915,
     "tags": [
       "LY",
-      "flagge"
+      "flagge",
+      "flagge: libyen"
     ],
     "unicode": "🇱🇾"
   },
@@ -36336,7 +36535,8 @@
     "order": 4916,
     "tags": [
       "MA",
-      "flagge"
+      "flagge",
+      "flagge: marokko"
     ],
     "unicode": "🇲🇦"
   },
@@ -36347,7 +36547,8 @@
     "order": 4917,
     "tags": [
       "MC",
-      "flagge"
+      "flagge",
+      "flagge: monaco"
     ],
     "unicode": "🇲🇨"
   },
@@ -36358,7 +36559,8 @@
     "order": 4918,
     "tags": [
       "MD",
-      "flagge"
+      "flagge",
+      "flagge: republik moldau"
     ],
     "unicode": "🇲🇩"
   },
@@ -36369,7 +36571,8 @@
     "order": 4919,
     "tags": [
       "ME",
-      "flagge"
+      "flagge",
+      "flagge: montenegro"
     ],
     "unicode": "🇲🇪"
   },
@@ -36380,7 +36583,8 @@
     "order": 4920,
     "tags": [
       "MF",
-      "flagge"
+      "flagge",
+      "flagge: st. martin"
     ],
     "unicode": "🇲🇫"
   },
@@ -36391,7 +36595,8 @@
     "order": 4921,
     "tags": [
       "MG",
-      "flagge"
+      "flagge",
+      "flagge: madagaskar"
     ],
     "unicode": "🇲🇬"
   },
@@ -36402,7 +36607,8 @@
     "order": 4922,
     "tags": [
       "MH",
-      "flagge"
+      "flagge",
+      "flagge: marshallinseln"
     ],
     "unicode": "🇲🇭"
   },
@@ -36413,7 +36619,8 @@
     "order": 4923,
     "tags": [
       "MK",
-      "flagge"
+      "flagge",
+      "flagge: nordmazedonien"
     ],
     "unicode": "🇲🇰"
   },
@@ -36424,7 +36631,8 @@
     "order": 4924,
     "tags": [
       "ML",
-      "flagge"
+      "flagge",
+      "flagge: mali"
     ],
     "unicode": "🇲🇱"
   },
@@ -36435,7 +36643,8 @@
     "order": 4925,
     "tags": [
       "MM",
-      "flagge"
+      "flagge",
+      "flagge: myanmar"
     ],
     "unicode": "🇲🇲"
   },
@@ -36446,7 +36655,8 @@
     "order": 4926,
     "tags": [
       "MN",
-      "flagge"
+      "flagge",
+      "flagge: mongolei"
     ],
     "unicode": "🇲🇳"
   },
@@ -36457,7 +36667,8 @@
     "order": 4927,
     "tags": [
       "MO",
-      "flagge"
+      "flagge",
+      "flagge: sonderverwaltungsregion macau"
     ],
     "unicode": "🇲🇴"
   },
@@ -36468,7 +36679,8 @@
     "order": 4928,
     "tags": [
       "MP",
-      "flagge"
+      "flagge",
+      "flagge: nördliche marianen"
     ],
     "unicode": "🇲🇵"
   },
@@ -36479,7 +36691,8 @@
     "order": 4929,
     "tags": [
       "MQ",
-      "flagge"
+      "flagge",
+      "flagge: martinique"
     ],
     "unicode": "🇲🇶"
   },
@@ -36490,7 +36703,8 @@
     "order": 4930,
     "tags": [
       "MR",
-      "flagge"
+      "flagge",
+      "flagge: mauretanien"
     ],
     "unicode": "🇲🇷"
   },
@@ -36501,7 +36715,8 @@
     "order": 4931,
     "tags": [
       "MS",
-      "flagge"
+      "flagge",
+      "flagge: montserrat"
     ],
     "unicode": "🇲🇸"
   },
@@ -36512,7 +36727,8 @@
     "order": 4932,
     "tags": [
       "MT",
-      "flagge"
+      "flagge",
+      "flagge: malta"
     ],
     "unicode": "🇲🇹"
   },
@@ -36523,7 +36739,8 @@
     "order": 4933,
     "tags": [
       "MU",
-      "flagge"
+      "flagge",
+      "flagge: mauritius"
     ],
     "unicode": "🇲🇺"
   },
@@ -36534,7 +36751,8 @@
     "order": 4934,
     "tags": [
       "MV",
-      "flagge"
+      "flagge",
+      "flagge: malediven"
     ],
     "unicode": "🇲🇻"
   },
@@ -36545,7 +36763,8 @@
     "order": 4935,
     "tags": [
       "MW",
-      "flagge"
+      "flagge",
+      "flagge: malawi"
     ],
     "unicode": "🇲🇼"
   },
@@ -36556,7 +36775,8 @@
     "order": 4936,
     "tags": [
       "MX",
-      "flagge"
+      "flagge",
+      "flagge: mexiko"
     ],
     "unicode": "🇲🇽"
   },
@@ -36567,7 +36787,8 @@
     "order": 4937,
     "tags": [
       "MY",
-      "flagge"
+      "flagge",
+      "flagge: malaysia"
     ],
     "unicode": "🇲🇾"
   },
@@ -36578,7 +36799,8 @@
     "order": 4938,
     "tags": [
       "MZ",
-      "flagge"
+      "flagge",
+      "flagge: mosambik"
     ],
     "unicode": "🇲🇿"
   },
@@ -36589,7 +36811,8 @@
     "order": 4939,
     "tags": [
       "NA",
-      "flagge"
+      "flagge",
+      "flagge: namibia"
     ],
     "unicode": "🇳🇦"
   },
@@ -36600,7 +36823,8 @@
     "order": 4940,
     "tags": [
       "NC",
-      "flagge"
+      "flagge",
+      "flagge: neukaledonien"
     ],
     "unicode": "🇳🇨"
   },
@@ -36611,7 +36835,8 @@
     "order": 4941,
     "tags": [
       "NE",
-      "flagge"
+      "flagge",
+      "flagge: niger"
     ],
     "unicode": "🇳🇪"
   },
@@ -36622,7 +36847,8 @@
     "order": 4942,
     "tags": [
       "NF",
-      "flagge"
+      "flagge",
+      "flagge: norfolkinsel"
     ],
     "unicode": "🇳🇫"
   },
@@ -36633,7 +36859,8 @@
     "order": 4943,
     "tags": [
       "NG",
-      "flagge"
+      "flagge",
+      "flagge: nigeria"
     ],
     "unicode": "🇳🇬"
   },
@@ -36644,7 +36871,8 @@
     "order": 4944,
     "tags": [
       "NI",
-      "flagge"
+      "flagge",
+      "flagge: nicaragua"
     ],
     "unicode": "🇳🇮"
   },
@@ -36655,7 +36883,8 @@
     "order": 4945,
     "tags": [
       "NL",
-      "flagge"
+      "flagge",
+      "flagge: niederlande"
     ],
     "unicode": "🇳🇱"
   },
@@ -36666,7 +36895,8 @@
     "order": 4946,
     "tags": [
       "NO",
-      "flagge"
+      "flagge",
+      "flagge: norwegen"
     ],
     "unicode": "🇳🇴"
   },
@@ -36677,7 +36907,8 @@
     "order": 4947,
     "tags": [
       "NP",
-      "flagge"
+      "flagge",
+      "flagge: nepal"
     ],
     "unicode": "🇳🇵"
   },
@@ -36688,7 +36919,8 @@
     "order": 4948,
     "tags": [
       "NR",
-      "flagge"
+      "flagge",
+      "flagge: nauru"
     ],
     "unicode": "🇳🇷"
   },
@@ -36699,7 +36931,8 @@
     "order": 4949,
     "tags": [
       "NU",
-      "flagge"
+      "flagge",
+      "flagge: niue"
     ],
     "unicode": "🇳🇺"
   },
@@ -36710,7 +36943,8 @@
     "order": 4950,
     "tags": [
       "NZ",
-      "flagge"
+      "flagge",
+      "flagge: neuseeland"
     ],
     "unicode": "🇳🇿"
   },
@@ -36721,7 +36955,8 @@
     "order": 4951,
     "tags": [
       "OM",
-      "flagge"
+      "flagge",
+      "flagge: oman"
     ],
     "unicode": "🇴🇲"
   },
@@ -36732,7 +36967,8 @@
     "order": 4952,
     "tags": [
       "PA",
-      "flagge"
+      "flagge",
+      "flagge: panama"
     ],
     "unicode": "🇵🇦"
   },
@@ -36743,7 +36979,8 @@
     "order": 4953,
     "tags": [
       "PE",
-      "flagge"
+      "flagge",
+      "flagge: peru"
     ],
     "unicode": "🇵🇪"
   },
@@ -36754,7 +36991,8 @@
     "order": 4954,
     "tags": [
       "PF",
-      "flagge"
+      "flagge",
+      "flagge: französisch-polynesien"
     ],
     "unicode": "🇵🇫"
   },
@@ -36765,7 +37003,8 @@
     "order": 4955,
     "tags": [
       "PG",
-      "flagge"
+      "flagge",
+      "flagge: papua-neuguinea"
     ],
     "unicode": "🇵🇬"
   },
@@ -36776,7 +37015,8 @@
     "order": 4956,
     "tags": [
       "PH",
-      "flagge"
+      "flagge",
+      "flagge: philippinen"
     ],
     "unicode": "🇵🇭"
   },
@@ -36787,7 +37027,8 @@
     "order": 4957,
     "tags": [
       "PK",
-      "flagge"
+      "flagge",
+      "flagge: pakistan"
     ],
     "unicode": "🇵🇰"
   },
@@ -36798,7 +37039,8 @@
     "order": 4958,
     "tags": [
       "PL",
-      "flagge"
+      "flagge",
+      "flagge: polen"
     ],
     "unicode": "🇵🇱"
   },
@@ -36809,7 +37051,8 @@
     "order": 4959,
     "tags": [
       "PM",
-      "flagge"
+      "flagge",
+      "flagge: st. pierre und miquelon"
     ],
     "unicode": "🇵🇲"
   },
@@ -36820,7 +37063,8 @@
     "order": 4960,
     "tags": [
       "PN",
-      "flagge"
+      "flagge",
+      "flagge: pitcairninseln"
     ],
     "unicode": "🇵🇳"
   },
@@ -36831,7 +37075,8 @@
     "order": 4961,
     "tags": [
       "PR",
-      "flagge"
+      "flagge",
+      "flagge: puerto rico"
     ],
     "unicode": "🇵🇷"
   },
@@ -36842,7 +37087,8 @@
     "order": 4962,
     "tags": [
       "PS",
-      "flagge"
+      "flagge",
+      "flagge: palästinensische autonomiegebiete"
     ],
     "unicode": "🇵🇸"
   },
@@ -36853,7 +37099,8 @@
     "order": 4963,
     "tags": [
       "PT",
-      "flagge"
+      "flagge",
+      "flagge: portugal"
     ],
     "unicode": "🇵🇹"
   },
@@ -36864,7 +37111,8 @@
     "order": 4964,
     "tags": [
       "PW",
-      "flagge"
+      "flagge",
+      "flagge: palau"
     ],
     "unicode": "🇵🇼"
   },
@@ -36875,7 +37123,8 @@
     "order": 4965,
     "tags": [
       "PY",
-      "flagge"
+      "flagge",
+      "flagge: paraguay"
     ],
     "unicode": "🇵🇾"
   },
@@ -36886,7 +37135,8 @@
     "order": 4966,
     "tags": [
       "QA",
-      "flagge"
+      "flagge",
+      "flagge: katar"
     ],
     "unicode": "🇶🇦"
   },
@@ -36897,7 +37147,8 @@
     "order": 4967,
     "tags": [
       "RE",
-      "flagge"
+      "flagge",
+      "flagge: réunion"
     ],
     "unicode": "🇷🇪"
   },
@@ -36908,7 +37159,8 @@
     "order": 4968,
     "tags": [
       "RO",
-      "flagge"
+      "flagge",
+      "flagge: rumänien"
     ],
     "unicode": "🇷🇴"
   },
@@ -36919,7 +37171,8 @@
     "order": 4969,
     "tags": [
       "RS",
-      "flagge"
+      "flagge",
+      "flagge: serbien"
     ],
     "unicode": "🇷🇸"
   },
@@ -36930,7 +37183,8 @@
     "order": 4970,
     "tags": [
       "RU",
-      "flagge"
+      "flagge",
+      "flagge: russland"
     ],
     "unicode": "🇷🇺"
   },
@@ -36941,7 +37195,8 @@
     "order": 4971,
     "tags": [
       "RW",
-      "flagge"
+      "flagge",
+      "flagge: ruanda"
     ],
     "unicode": "🇷🇼"
   },
@@ -36952,7 +37207,8 @@
     "order": 4972,
     "tags": [
       "SA",
-      "flagge"
+      "flagge",
+      "flagge: saudi-arabien"
     ],
     "unicode": "🇸🇦"
   },
@@ -36963,7 +37219,8 @@
     "order": 4973,
     "tags": [
       "SB",
-      "flagge"
+      "flagge",
+      "flagge: salomonen"
     ],
     "unicode": "🇸🇧"
   },
@@ -36974,7 +37231,8 @@
     "order": 4974,
     "tags": [
       "SC",
-      "flagge"
+      "flagge",
+      "flagge: seychellen"
     ],
     "unicode": "🇸🇨"
   },
@@ -36985,7 +37243,8 @@
     "order": 4975,
     "tags": [
       "SD",
-      "flagge"
+      "flagge",
+      "flagge: sudan"
     ],
     "unicode": "🇸🇩"
   },
@@ -36996,7 +37255,8 @@
     "order": 4976,
     "tags": [
       "SE",
-      "flagge"
+      "flagge",
+      "flagge: schweden"
     ],
     "unicode": "🇸🇪"
   },
@@ -37007,7 +37267,8 @@
     "order": 4977,
     "tags": [
       "SG",
-      "flagge"
+      "flagge",
+      "flagge: singapur"
     ],
     "unicode": "🇸🇬"
   },
@@ -37018,7 +37279,8 @@
     "order": 4978,
     "tags": [
       "SH",
-      "flagge"
+      "flagge",
+      "flagge: st. helena"
     ],
     "unicode": "🇸🇭"
   },
@@ -37029,7 +37291,8 @@
     "order": 4979,
     "tags": [
       "SI",
-      "flagge"
+      "flagge",
+      "flagge: slowenien"
     ],
     "unicode": "🇸🇮"
   },
@@ -37040,7 +37303,8 @@
     "order": 4980,
     "tags": [
       "SJ",
-      "flagge"
+      "flagge",
+      "flagge: spitzbergen und jan mayen"
     ],
     "unicode": "🇸🇯"
   },
@@ -37051,7 +37315,8 @@
     "order": 4981,
     "tags": [
       "SK",
-      "flagge"
+      "flagge",
+      "flagge: slowakei"
     ],
     "unicode": "🇸🇰"
   },
@@ -37062,7 +37327,8 @@
     "order": 4982,
     "tags": [
       "SL",
-      "flagge"
+      "flagge",
+      "flagge: sierra leone"
     ],
     "unicode": "🇸🇱"
   },
@@ -37073,7 +37339,8 @@
     "order": 4983,
     "tags": [
       "SM",
-      "flagge"
+      "flagge",
+      "flagge: san marino"
     ],
     "unicode": "🇸🇲"
   },
@@ -37084,7 +37351,8 @@
     "order": 4984,
     "tags": [
       "SN",
-      "flagge"
+      "flagge",
+      "flagge: senegal"
     ],
     "unicode": "🇸🇳"
   },
@@ -37095,7 +37363,8 @@
     "order": 4985,
     "tags": [
       "SO",
-      "flagge"
+      "flagge",
+      "flagge: somalia"
     ],
     "unicode": "🇸🇴"
   },
@@ -37106,7 +37375,8 @@
     "order": 4986,
     "tags": [
       "SR",
-      "flagge"
+      "flagge",
+      "flagge: suriname"
     ],
     "unicode": "🇸🇷"
   },
@@ -37117,7 +37387,8 @@
     "order": 4987,
     "tags": [
       "SS",
-      "flagge"
+      "flagge",
+      "flagge: südsudan"
     ],
     "unicode": "🇸🇸"
   },
@@ -37128,7 +37399,8 @@
     "order": 4988,
     "tags": [
       "ST",
-      "flagge"
+      "flagge",
+      "flagge: são tomé und príncipe"
     ],
     "unicode": "🇸🇹"
   },
@@ -37139,7 +37411,8 @@
     "order": 4989,
     "tags": [
       "SV",
-      "flagge"
+      "flagge",
+      "flagge: el salvador"
     ],
     "unicode": "🇸🇻"
   },
@@ -37150,7 +37423,8 @@
     "order": 4990,
     "tags": [
       "SX",
-      "flagge"
+      "flagge",
+      "flagge: sint maarten"
     ],
     "unicode": "🇸🇽"
   },
@@ -37161,7 +37435,8 @@
     "order": 4991,
     "tags": [
       "SY",
-      "flagge"
+      "flagge",
+      "flagge: syrien"
     ],
     "unicode": "🇸🇾"
   },
@@ -37172,7 +37447,8 @@
     "order": 4992,
     "tags": [
       "SZ",
-      "flagge"
+      "flagge",
+      "flagge: eswatini"
     ],
     "unicode": "🇸🇿"
   },
@@ -37183,7 +37459,8 @@
     "order": 4993,
     "tags": [
       "TA",
-      "flagge"
+      "flagge",
+      "flagge: tristan da cunha"
     ],
     "unicode": "🇹🇦"
   },
@@ -37194,7 +37471,8 @@
     "order": 4994,
     "tags": [
       "TC",
-      "flagge"
+      "flagge",
+      "flagge: turks- und caicosinseln"
     ],
     "unicode": "🇹🇨"
   },
@@ -37205,7 +37483,8 @@
     "order": 4995,
     "tags": [
       "TD",
-      "flagge"
+      "flagge",
+      "flagge: tschad"
     ],
     "unicode": "🇹🇩"
   },
@@ -37216,7 +37495,8 @@
     "order": 4996,
     "tags": [
       "TF",
-      "flagge"
+      "flagge",
+      "flagge: französische süd- und antarktisgebiete"
     ],
     "unicode": "🇹🇫"
   },
@@ -37227,7 +37507,8 @@
     "order": 4997,
     "tags": [
       "TG",
-      "flagge"
+      "flagge",
+      "flagge: togo"
     ],
     "unicode": "🇹🇬"
   },
@@ -37238,7 +37519,8 @@
     "order": 4998,
     "tags": [
       "TH",
-      "flagge"
+      "flagge",
+      "flagge: thailand"
     ],
     "unicode": "🇹🇭"
   },
@@ -37249,7 +37531,8 @@
     "order": 4999,
     "tags": [
       "TJ",
-      "flagge"
+      "flagge",
+      "flagge: tadschikistan"
     ],
     "unicode": "🇹🇯"
   },
@@ -37260,7 +37543,8 @@
     "order": 5000,
     "tags": [
       "TK",
-      "flagge"
+      "flagge",
+      "flagge: tokelau"
     ],
     "unicode": "🇹🇰"
   },
@@ -37271,7 +37555,8 @@
     "order": 5001,
     "tags": [
       "TL",
-      "flagge"
+      "flagge",
+      "flagge: timor-leste"
     ],
     "unicode": "🇹🇱"
   },
@@ -37282,7 +37567,8 @@
     "order": 5002,
     "tags": [
       "TM",
-      "flagge"
+      "flagge",
+      "flagge: turkmenistan"
     ],
     "unicode": "🇹🇲"
   },
@@ -37293,7 +37579,8 @@
     "order": 5003,
     "tags": [
       "TN",
-      "flagge"
+      "flagge",
+      "flagge: tunesien"
     ],
     "unicode": "🇹🇳"
   },
@@ -37304,7 +37591,8 @@
     "order": 5004,
     "tags": [
       "TO",
-      "flagge"
+      "flagge",
+      "flagge: tonga"
     ],
     "unicode": "🇹🇴"
   },
@@ -37315,7 +37603,8 @@
     "order": 5005,
     "tags": [
       "TR",
-      "flagge"
+      "flagge",
+      "flagge: türkei"
     ],
     "unicode": "🇹🇷"
   },
@@ -37326,7 +37615,8 @@
     "order": 5006,
     "tags": [
       "TT",
-      "flagge"
+      "flagge",
+      "flagge: trinidad und tobago"
     ],
     "unicode": "🇹🇹"
   },
@@ -37337,7 +37627,8 @@
     "order": 5007,
     "tags": [
       "TV",
-      "flagge"
+      "flagge",
+      "flagge: tuvalu"
     ],
     "unicode": "🇹🇻"
   },
@@ -37348,7 +37639,8 @@
     "order": 5008,
     "tags": [
       "TW",
-      "flagge"
+      "flagge",
+      "flagge: taiwan"
     ],
     "unicode": "🇹🇼"
   },
@@ -37359,7 +37651,8 @@
     "order": 5009,
     "tags": [
       "TZ",
-      "flagge"
+      "flagge",
+      "flagge: tansania"
     ],
     "unicode": "🇹🇿"
   },
@@ -37370,7 +37663,8 @@
     "order": 5010,
     "tags": [
       "UA",
-      "flagge"
+      "flagge",
+      "flagge: ukraine"
     ],
     "unicode": "🇺🇦"
   },
@@ -37381,7 +37675,8 @@
     "order": 5011,
     "tags": [
       "UG",
-      "flagge"
+      "flagge",
+      "flagge: uganda"
     ],
     "unicode": "🇺🇬"
   },
@@ -37392,7 +37687,8 @@
     "order": 5012,
     "tags": [
       "UM",
-      "flagge"
+      "flagge",
+      "flagge: amerikanische überseeinseln"
     ],
     "unicode": "🇺🇲"
   },
@@ -37403,7 +37699,8 @@
     "order": 5013,
     "tags": [
       "UN",
-      "flagge"
+      "flagge",
+      "flagge: vereinte nationen"
     ],
     "unicode": "🇺🇳"
   },
@@ -37414,7 +37711,8 @@
     "order": 5014,
     "tags": [
       "US",
-      "flagge"
+      "flagge",
+      "flagge: vereinigte staaten"
     ],
     "unicode": "🇺🇸"
   },
@@ -37425,7 +37723,8 @@
     "order": 5015,
     "tags": [
       "UY",
-      "flagge"
+      "flagge",
+      "flagge: uruguay"
     ],
     "unicode": "🇺🇾"
   },
@@ -37436,7 +37735,8 @@
     "order": 5016,
     "tags": [
       "UZ",
-      "flagge"
+      "flagge",
+      "flagge: usbekistan"
     ],
     "unicode": "🇺🇿"
   },
@@ -37447,7 +37747,8 @@
     "order": 5017,
     "tags": [
       "VA",
-      "flagge"
+      "flagge",
+      "flagge: vatikanstadt"
     ],
     "unicode": "🇻🇦"
   },
@@ -37458,7 +37759,8 @@
     "order": 5018,
     "tags": [
       "VC",
-      "flagge"
+      "flagge",
+      "flagge: st. vincent und die grenadinen"
     ],
     "unicode": "🇻🇨"
   },
@@ -37469,7 +37771,8 @@
     "order": 5019,
     "tags": [
       "VE",
-      "flagge"
+      "flagge",
+      "flagge: venezuela"
     ],
     "unicode": "🇻🇪"
   },
@@ -37480,7 +37783,8 @@
     "order": 5020,
     "tags": [
       "VG",
-      "flagge"
+      "flagge",
+      "flagge: britische jungferninseln"
     ],
     "unicode": "🇻🇬"
   },
@@ -37491,7 +37795,8 @@
     "order": 5021,
     "tags": [
       "VI",
-      "flagge"
+      "flagge",
+      "flagge: amerikanische jungferninseln"
     ],
     "unicode": "🇻🇮"
   },
@@ -37502,7 +37807,8 @@
     "order": 5022,
     "tags": [
       "VN",
-      "flagge"
+      "flagge",
+      "flagge: vietnam"
     ],
     "unicode": "🇻🇳"
   },
@@ -37513,7 +37819,8 @@
     "order": 5023,
     "tags": [
       "VU",
-      "flagge"
+      "flagge",
+      "flagge: vanuatu"
     ],
     "unicode": "🇻🇺"
   },
@@ -37524,7 +37831,8 @@
     "order": 5024,
     "tags": [
       "WF",
-      "flagge"
+      "flagge",
+      "flagge: wallis und futuna"
     ],
     "unicode": "🇼🇫"
   },
@@ -37535,7 +37843,8 @@
     "order": 5025,
     "tags": [
       "WS",
-      "flagge"
+      "flagge",
+      "flagge: samoa"
     ],
     "unicode": "🇼🇸"
   },
@@ -37546,7 +37855,8 @@
     "order": 5026,
     "tags": [
       "XK",
-      "flagge"
+      "flagge",
+      "flagge: kosovo"
     ],
     "unicode": "🇽🇰"
   },
@@ -37557,7 +37867,8 @@
     "order": 5027,
     "tags": [
       "YE",
-      "flagge"
+      "flagge",
+      "flagge: jemen"
     ],
     "unicode": "🇾🇪"
   },
@@ -37568,7 +37879,8 @@
     "order": 5028,
     "tags": [
       "YT",
-      "flagge"
+      "flagge",
+      "flagge: mayotte"
     ],
     "unicode": "🇾🇹"
   },
@@ -37579,7 +37891,8 @@
     "order": 5029,
     "tags": [
       "ZA",
-      "flagge"
+      "flagge",
+      "flagge: südafrika"
     ],
     "unicode": "🇿🇦"
   },
@@ -37590,7 +37903,8 @@
     "order": 5030,
     "tags": [
       "ZM",
-      "flagge"
+      "flagge",
+      "flagge: sambia"
     ],
     "unicode": "🇿🇲"
   },
@@ -37601,7 +37915,8 @@
     "order": 5031,
     "tags": [
       "ZW",
-      "flagge"
+      "flagge",
+      "flagge: simbabwe"
     ],
     "unicode": "🇿🇼"
   },
@@ -37612,6 +37927,7 @@
     "order": 5032,
     "tags": [
       "flagge",
+      "flagge: england",
       "gbeng"
     ],
     "unicode": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
@@ -37623,6 +37939,7 @@
     "order": 5033,
     "tags": [
       "flagge",
+      "flagge: schottland",
       "gbsct"
     ],
     "unicode": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
@@ -37634,6 +37951,7 @@
     "order": 5034,
     "tags": [
       "flagge",
+      "flagge: wales",
       "gbwls"
     ],
     "unicode": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"

@@ -231,7 +231,6 @@
       "munn",
       "smil",
       "smilefjes",
-      "smilefjes med åpen munn",
       "åpen"
     ],
     "emoji": "😃",
@@ -243,14 +242,15 @@
     "version": 0.6
   },
   {
-    "label": "smilefjes med åpen munn og smilende øyne",
+    "label": "glisende fjes med smilende øyne",
     "hexcode": "1F604",
     "tags": [
       "latter",
       "med tenner",
       "morsomt",
       "smil",
-      "smilefjes"
+      "smilefjes",
+      "smilefjes med åpen munn og smilende øyne"
     ],
     "emoji": "😄",
     "text": "",
@@ -1041,13 +1041,12 @@
     "label": "puster ut",
     "hexcode": "1F62E-200D-1F4A8",
     "tags": [
-      "fjes",
-      "gispe",
+      "fjes som gisper",
       "hviske",
       "lettet",
       "plystre",
       "puste ut",
-      "sukke"
+      "sukk"
     ],
     "emoji": "😮‍💨",
     "text": "",
@@ -1093,14 +1092,11 @@
     "version": 15
   },
   {
-    "label": "head shaking horizontally",
+    "label": "ristende hode",
     "hexcode": "1F642-200D-2194-FE0F",
     "tags": [
-      "fjes",
-      "pil",
-      "pil venstre-høyre",
-      "smil",
-      "smiler litt"
+      "nei",
+      "rister på hodet"
     ],
     "emoji": "🙂‍↔️",
     "text": "",
@@ -1111,14 +1107,11 @@
     "version": 15.1
   },
   {
-    "label": "head shaking vertically",
+    "label": "nikkende hode",
     "hexcode": "1F642-200D-2195-FE0F",
     "tags": [
-      "fjes",
-      "pil",
-      "pil opp og ned",
-      "smil",
-      "smiler litt"
+      "ja",
+      "nikker"
     ],
     "emoji": "🙂‍↕️",
     "text": "",
@@ -7276,8 +7269,7 @@
       "kardiologi",
       "muskel",
       "organ",
-      "puls",
-      "senter"
+      "puls"
     ],
     "emoji": "🫀",
     "text": "",
@@ -13628,12 +13620,10 @@
     "label": "mannlig mekaniker",
     "hexcode": "1F468-200D-1F527",
     "tags": [
-      "bil",
       "elektriker",
       "håndverker",
       "mann",
       "mekaniker",
-      "motor",
       "rørlegger"
     ],
     "emoji": "👨‍🔧",
@@ -13710,12 +13700,10 @@
     "label": "kvinnelig mekaniker",
     "hexcode": "1F469-200D-1F527",
     "tags": [
-      "bil",
       "elektriker",
       "håndverker",
       "kvinne",
       "mekaniker",
-      "motor",
       "rørlegger"
     ],
     "emoji": "👩‍🔧",
@@ -13874,7 +13862,6 @@
       "arbeider",
       "fabrikk",
       "industri",
-      "industriarbeider",
       "mann",
       "produksjon"
     ],
@@ -13952,6 +13939,7 @@
     "label": "kvinnelig industriarbeider",
     "hexcode": "1F469-200D-1F3ED",
     "tags": [
+      "arbeider",
       "fabrikk",
       "industri",
       "kvinne",
@@ -16174,6 +16162,7 @@
     "label": "detektiv",
     "hexcode": "1F575",
     "tags": [
+      "etterforsker",
       "spion"
     ],
     "emoji": "🕵️",
@@ -16250,10 +16239,11 @@
     "label": "mannlig detektiv",
     "hexcode": "1F575-FE0F-200D-2642-FE0F",
     "tags": [
-      "etterforske",
+      "etterforsker",
       "forbrytelse",
       "mann",
-      "privatdetektiv"
+      "privatdetektiv",
+      "spion"
     ],
     "emoji": "🕵️‍♂️",
     "text": "",
@@ -16335,10 +16325,11 @@
     "label": "kvinnelig detektiv",
     "hexcode": "1F575-FE0F-200D-2640-FE0F",
     "tags": [
-      "etterforske",
+      "etterforsker",
       "forbrytelse",
       "kvinne",
-      "privatdetektiv"
+      "privatdetektiv",
+      "spion"
     ],
     "emoji": "🕵️‍♀️",
     "text": "",
@@ -16997,7 +16988,7 @@
     "label": "person med krone",
     "hexcode": "1FAC5",
     "tags": [
-      "adel",
+      "adelig",
       "kongelig",
       "majestetisk",
       "monark"
@@ -34078,14 +34069,11 @@
     "version": 0.6
   },
   {
-    "label": "family: adult, adult, child",
+    "label": "familie: voksen, voksen, barn",
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2",
     "tags": [
       "barn",
-      "kjønnsnøytral",
-      "menneske",
-      "person",
-      "ung",
+      "familie: voksen",
       "voksen"
     ],
     "emoji": "🧑‍🧑‍🧒",
@@ -34097,14 +34085,11 @@
     "version": 15.1
   },
   {
-    "label": "family: adult, adult, child, child",
+    "label": "familie: voksen, voksen, barn, barn",
     "hexcode": "1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2",
     "tags": [
       "barn",
-      "kjønnsnøytral",
-      "menneske",
-      "person",
-      "ung",
+      "familie: voksen",
       "voksen"
     ],
     "emoji": "🧑‍🧑‍🧒‍🧒",
@@ -34116,15 +34101,11 @@
     "version": 15.1
   },
   {
-    "label": "family: adult, child",
+    "label": "familie: voksen, barn",
     "hexcode": "1F9D1-200D-1F9D2",
     "tags": [
       "barn",
-      "kjønnsnøytral",
-      "menneske",
-      "person",
-      "ung",
-      "voksen"
+      "familie: voksen"
     ],
     "emoji": "🧑‍🧒",
     "text": "",
@@ -34135,15 +34116,11 @@
     "version": 15.1
   },
   {
-    "label": "family: adult, child, child",
+    "label": "familie: voksen, barn, barn",
     "hexcode": "1F9D1-200D-1F9D2-200D-1F9D2",
     "tags": [
       "barn",
-      "kjønnsnøytral",
-      "menneske",
-      "person",
-      "ung",
-      "voksen"
+      "familie: voksen"
     ],
     "emoji": "🧑‍🧒‍🧒",
     "text": "",
@@ -35651,14 +35628,13 @@
     "version": 15
   },
   {
-    "label": "black bird",
+    "label": "svart fugl",
     "hexcode": "1F426-200D-2B1B",
     "tags": [
-      "bird",
-      "black",
-      "crow",
-      "raven",
-      "rook"
+      "dyr",
+      "fugl",
+      "kråke",
+      "ravn"
     ],
     "emoji": "🐦‍⬛",
     "text": "",
@@ -35686,13 +35662,11 @@
     "version": 15
   },
   {
-    "label": "phoenix",
+    "label": "føniks",
     "hexcode": "1F426-200D-1F525",
     "tags": [
       "dyr",
-      "flamme",
-      "fugl",
-      "ild"
+      "fugl"
     ],
     "emoji": "🐦‍🔥",
     "text": "",
@@ -36814,11 +36788,8 @@
     "hexcode": "1F34B-200D-1F7E9",
     "tags": [
       "frukt",
-      "grønn",
-      "grønt",
-      "kvadrat",
-      "sitron",
-      "sitrus"
+      "sitrus",
+      "tropisk"
     ],
     "emoji": "🍋‍🟩",
     "text": "",
@@ -37302,13 +37273,12 @@
     "version": 15
   },
   {
-    "label": "brown mushroom",
+    "label": "brun sopp",
     "hexcode": "1F344-200D-1F7EB",
     "tags": [
-      "brun",
-      "brunt",
-      "fluesopp",
-      "kvadrat",
+      "mat",
+      "matsopp",
+      "natur",
       "sopp"
     ],
     "emoji": "🍄‍🟫",
@@ -47069,16 +47039,12 @@
     "version": 0.6
   },
   {
-    "label": "broken chain",
+    "label": "brutt lenke",
     "hexcode": "26D3-FE0F-200D-1F4A5",
     "tags": [
-      "følelse",
-      "kjede",
-      "kjetting",
-      "kollisjon",
-      "krasj",
-      "smell",
-      "tegneserie"
+      "brutt",
+      "lenke",
+      "ødelagt"
     ],
     "emoji": "⛓️‍💥",
     "text": "",
@@ -51286,7 +51252,7 @@
     "version": 12
   },
   {
-    "label": "stor svart firkant",
+    "label": "stort svart kvadrat",
     "hexcode": "2B1B",
     "tags": [
       "firkant",
@@ -51302,7 +51268,7 @@
     "version": 0.6
   },
   {
-    "label": "stor hvit firkant",
+    "label": "stort hvitt kvadrat",
     "hexcode": "2B1C",
     "tags": [
       "firkant",
@@ -51318,7 +51284,7 @@
     "version": 0.6
   },
   {
-    "label": "mellomstor svart firkant",
+    "label": "mellomstort svart kvadrat",
     "hexcode": "25FC",
     "tags": [
       "firkant",
@@ -51334,7 +51300,7 @@
     "version": 0.6
   },
   {
-    "label": "mellomstor hvit firkant",
+    "label": "mellomstort hvitt kvadrat",
     "hexcode": "25FB",
     "tags": [
       "firkant",
@@ -51350,7 +51316,7 @@
     "version": 0.6
   },
   {
-    "label": "liten/mellomstor svart firkant",
+    "label": "lite/mellomstort svart kvadrat",
     "hexcode": "25FE",
     "tags": [
       "firkant",
@@ -51366,7 +51332,7 @@
     "version": 0.6
   },
   {
-    "label": "liten/mellomstor hvit firkant",
+    "label": "lite/mellomstort hvitt kvadrat",
     "hexcode": "25FD",
     "tags": [
       "firkant",
@@ -51382,12 +51348,14 @@
     "version": 0.6
   },
   {
-    "label": "liten svart firkant",
+    "label": "lite, svart kvadrat",
     "hexcode": "25AA",
     "tags": [
       "firkant",
       "geometrisk",
-      "kvadrat"
+      "kvadrat",
+      "lite",
+      "svart kvadrat"
     ],
     "emoji": "▪️",
     "text": "▪︎",
@@ -51398,12 +51366,14 @@
     "version": 0.6
   },
   {
-    "label": "liten hvit firkant",
+    "label": "lite, hvitt kvadrat",
     "hexcode": "25AB",
     "tags": [
       "firkant",
       "geometrisk",
-      "kvadrat"
+      "hvitt kvadrat",
+      "kvadrat",
+      "lite"
     ],
     "emoji": "▫️",
     "text": "▫︎",
@@ -51707,7 +51677,8 @@
     "hexcode": "1F1E6-1F1E8",
     "tags": [
       "AC",
-      "flagg"
+      "flagg",
+      "flagg: ascension"
     ],
     "emoji": "🇦🇨",
     "text": "",
@@ -51722,7 +51693,8 @@
     "hexcode": "1F1E6-1F1E9",
     "tags": [
       "AD",
-      "flagg"
+      "flagg",
+      "flagg: andorra"
     ],
     "emoji": "🇦🇩",
     "text": "",
@@ -51737,7 +51709,8 @@
     "hexcode": "1F1E6-1F1EA",
     "tags": [
       "AE",
-      "flagg"
+      "flagg",
+      "flagg: de forente arabiske emirater"
     ],
     "emoji": "🇦🇪",
     "text": "",
@@ -51752,7 +51725,8 @@
     "hexcode": "1F1E6-1F1EB",
     "tags": [
       "AF",
-      "flagg"
+      "flagg",
+      "flagg: afghanistan"
     ],
     "emoji": "🇦🇫",
     "text": "",
@@ -51767,7 +51741,8 @@
     "hexcode": "1F1E6-1F1EC",
     "tags": [
       "AG",
-      "flagg"
+      "flagg",
+      "flagg: antigua og barbuda"
     ],
     "emoji": "🇦🇬",
     "text": "",
@@ -51782,7 +51757,8 @@
     "hexcode": "1F1E6-1F1EE",
     "tags": [
       "AI",
-      "flagg"
+      "flagg",
+      "flagg: anguilla"
     ],
     "emoji": "🇦🇮",
     "text": "",
@@ -51797,7 +51773,8 @@
     "hexcode": "1F1E6-1F1F1",
     "tags": [
       "AL",
-      "flagg"
+      "flagg",
+      "flagg: albania"
     ],
     "emoji": "🇦🇱",
     "text": "",
@@ -51812,7 +51789,8 @@
     "hexcode": "1F1E6-1F1F2",
     "tags": [
       "AM",
-      "flagg"
+      "flagg",
+      "flagg: armenia"
     ],
     "emoji": "🇦🇲",
     "text": "",
@@ -51827,7 +51805,8 @@
     "hexcode": "1F1E6-1F1F4",
     "tags": [
       "AO",
-      "flagg"
+      "flagg",
+      "flagg: angola"
     ],
     "emoji": "🇦🇴",
     "text": "",
@@ -51842,7 +51821,8 @@
     "hexcode": "1F1E6-1F1F6",
     "tags": [
       "AQ",
-      "flagg"
+      "flagg",
+      "flagg: antarktis"
     ],
     "emoji": "🇦🇶",
     "text": "",
@@ -51857,7 +51837,8 @@
     "hexcode": "1F1E6-1F1F7",
     "tags": [
       "AR",
-      "flagg"
+      "flagg",
+      "flagg: argentina"
     ],
     "emoji": "🇦🇷",
     "text": "",
@@ -51872,7 +51853,8 @@
     "hexcode": "1F1E6-1F1F8",
     "tags": [
       "AS",
-      "flagg"
+      "flagg",
+      "flagg: amerikansk samoa"
     ],
     "emoji": "🇦🇸",
     "text": "",
@@ -51887,7 +51869,8 @@
     "hexcode": "1F1E6-1F1F9",
     "tags": [
       "AT",
-      "flagg"
+      "flagg",
+      "flagg: østerrike"
     ],
     "emoji": "🇦🇹",
     "text": "",
@@ -51902,7 +51885,8 @@
     "hexcode": "1F1E6-1F1FA",
     "tags": [
       "AU",
-      "flagg"
+      "flagg",
+      "flagg: australia"
     ],
     "emoji": "🇦🇺",
     "text": "",
@@ -51917,7 +51901,8 @@
     "hexcode": "1F1E6-1F1FC",
     "tags": [
       "AW",
-      "flagg"
+      "flagg",
+      "flagg: aruba"
     ],
     "emoji": "🇦🇼",
     "text": "",
@@ -51932,7 +51917,8 @@
     "hexcode": "1F1E6-1F1FD",
     "tags": [
       "AX",
-      "flagg"
+      "flagg",
+      "flagg: åland"
     ],
     "emoji": "🇦🇽",
     "text": "",
@@ -51947,7 +51933,8 @@
     "hexcode": "1F1E6-1F1FF",
     "tags": [
       "AZ",
-      "flagg"
+      "flagg",
+      "flagg: aserbajdsjan"
     ],
     "emoji": "🇦🇿",
     "text": "",
@@ -51962,7 +51949,8 @@
     "hexcode": "1F1E7-1F1E6",
     "tags": [
       "BA",
-      "flagg"
+      "flagg",
+      "flagg: bosnia-hercegovina"
     ],
     "emoji": "🇧🇦",
     "text": "",
@@ -51977,7 +51965,8 @@
     "hexcode": "1F1E7-1F1E7",
     "tags": [
       "BB",
-      "flagg"
+      "flagg",
+      "flagg: barbados"
     ],
     "emoji": "🇧🇧",
     "text": "",
@@ -51992,7 +51981,8 @@
     "hexcode": "1F1E7-1F1E9",
     "tags": [
       "BD",
-      "flagg"
+      "flagg",
+      "flagg: bangladesh"
     ],
     "emoji": "🇧🇩",
     "text": "",
@@ -52007,7 +51997,8 @@
     "hexcode": "1F1E7-1F1EA",
     "tags": [
       "BE",
-      "flagg"
+      "flagg",
+      "flagg: belgia"
     ],
     "emoji": "🇧🇪",
     "text": "",
@@ -52022,7 +52013,8 @@
     "hexcode": "1F1E7-1F1EB",
     "tags": [
       "BF",
-      "flagg"
+      "flagg",
+      "flagg: burkina faso"
     ],
     "emoji": "🇧🇫",
     "text": "",
@@ -52037,7 +52029,8 @@
     "hexcode": "1F1E7-1F1EC",
     "tags": [
       "BG",
-      "flagg"
+      "flagg",
+      "flagg: bulgaria"
     ],
     "emoji": "🇧🇬",
     "text": "",
@@ -52052,7 +52045,8 @@
     "hexcode": "1F1E7-1F1ED",
     "tags": [
       "BH",
-      "flagg"
+      "flagg",
+      "flagg: bahrain"
     ],
     "emoji": "🇧🇭",
     "text": "",
@@ -52067,7 +52061,8 @@
     "hexcode": "1F1E7-1F1EE",
     "tags": [
       "BI",
-      "flagg"
+      "flagg",
+      "flagg: burundi"
     ],
     "emoji": "🇧🇮",
     "text": "",
@@ -52082,7 +52077,8 @@
     "hexcode": "1F1E7-1F1EF",
     "tags": [
       "BJ",
-      "flagg"
+      "flagg",
+      "flagg: benin"
     ],
     "emoji": "🇧🇯",
     "text": "",
@@ -52097,7 +52093,8 @@
     "hexcode": "1F1E7-1F1F1",
     "tags": [
       "BL",
-      "flagg"
+      "flagg",
+      "flagg: saint-barthélemy"
     ],
     "emoji": "🇧🇱",
     "text": "",
@@ -52112,7 +52109,8 @@
     "hexcode": "1F1E7-1F1F2",
     "tags": [
       "BM",
-      "flagg"
+      "flagg",
+      "flagg: bermuda"
     ],
     "emoji": "🇧🇲",
     "text": "",
@@ -52127,7 +52125,8 @@
     "hexcode": "1F1E7-1F1F3",
     "tags": [
       "BN",
-      "flagg"
+      "flagg",
+      "flagg: brunei"
     ],
     "emoji": "🇧🇳",
     "text": "",
@@ -52142,7 +52141,8 @@
     "hexcode": "1F1E7-1F1F4",
     "tags": [
       "BO",
-      "flagg"
+      "flagg",
+      "flagg: bolivia"
     ],
     "emoji": "🇧🇴",
     "text": "",
@@ -52157,7 +52157,8 @@
     "hexcode": "1F1E7-1F1F6",
     "tags": [
       "BQ",
-      "flagg"
+      "flagg",
+      "flagg: karibisk nederland"
     ],
     "emoji": "🇧🇶",
     "text": "",
@@ -52172,7 +52173,8 @@
     "hexcode": "1F1E7-1F1F7",
     "tags": [
       "BR",
-      "flagg"
+      "flagg",
+      "flagg: brasil"
     ],
     "emoji": "🇧🇷",
     "text": "",
@@ -52187,7 +52189,8 @@
     "hexcode": "1F1E7-1F1F8",
     "tags": [
       "BS",
-      "flagg"
+      "flagg",
+      "flagg: bahamas"
     ],
     "emoji": "🇧🇸",
     "text": "",
@@ -52202,7 +52205,8 @@
     "hexcode": "1F1E7-1F1F9",
     "tags": [
       "BT",
-      "flagg"
+      "flagg",
+      "flagg: bhutan"
     ],
     "emoji": "🇧🇹",
     "text": "",
@@ -52217,7 +52221,8 @@
     "hexcode": "1F1E7-1F1FB",
     "tags": [
       "BV",
-      "flagg"
+      "flagg",
+      "flagg: bouvetøya"
     ],
     "emoji": "🇧🇻",
     "text": "",
@@ -52232,7 +52237,8 @@
     "hexcode": "1F1E7-1F1FC",
     "tags": [
       "BW",
-      "flagg"
+      "flagg",
+      "flagg: botswana"
     ],
     "emoji": "🇧🇼",
     "text": "",
@@ -52243,11 +52249,12 @@
     "version": 2
   },
   {
-    "label": "flagg: Hviterussland",
+    "label": "flagg: Belarus",
     "hexcode": "1F1E7-1F1FE",
     "tags": [
       "BY",
-      "flagg"
+      "flagg",
+      "flagg: belarus"
     ],
     "emoji": "🇧🇾",
     "text": "",
@@ -52262,7 +52269,8 @@
     "hexcode": "1F1E7-1F1FF",
     "tags": [
       "BZ",
-      "flagg"
+      "flagg",
+      "flagg: belize"
     ],
     "emoji": "🇧🇿",
     "text": "",
@@ -52277,7 +52285,8 @@
     "hexcode": "1F1E8-1F1E6",
     "tags": [
       "CA",
-      "flagg"
+      "flagg",
+      "flagg: canada"
     ],
     "emoji": "🇨🇦",
     "text": "",
@@ -52292,7 +52301,8 @@
     "hexcode": "1F1E8-1F1E8",
     "tags": [
       "CC",
-      "flagg"
+      "flagg",
+      "flagg: kokosøyene"
     ],
     "emoji": "🇨🇨",
     "text": "",
@@ -52307,7 +52317,8 @@
     "hexcode": "1F1E8-1F1E9",
     "tags": [
       "CD",
-      "flagg"
+      "flagg",
+      "flagg: kongo"
     ],
     "emoji": "🇨🇩",
     "text": "",
@@ -52322,7 +52333,8 @@
     "hexcode": "1F1E8-1F1EB",
     "tags": [
       "CF",
-      "flagg"
+      "flagg",
+      "flagg: den sentralafrikanske republikk"
     ],
     "emoji": "🇨🇫",
     "text": "",
@@ -52337,7 +52349,8 @@
     "hexcode": "1F1E8-1F1EC",
     "tags": [
       "CG",
-      "flagg"
+      "flagg",
+      "flagg: kongo-brazzaville"
     ],
     "emoji": "🇨🇬",
     "text": "",
@@ -52352,7 +52365,8 @@
     "hexcode": "1F1E8-1F1ED",
     "tags": [
       "CH",
-      "flagg"
+      "flagg",
+      "flagg: sveits"
     ],
     "emoji": "🇨🇭",
     "text": "",
@@ -52367,7 +52381,8 @@
     "hexcode": "1F1E8-1F1EE",
     "tags": [
       "CI",
-      "flagg"
+      "flagg",
+      "flagg: elfenbenskysten"
     ],
     "emoji": "🇨🇮",
     "text": "",
@@ -52382,7 +52397,8 @@
     "hexcode": "1F1E8-1F1F0",
     "tags": [
       "CK",
-      "flagg"
+      "flagg",
+      "flagg: cookøyene"
     ],
     "emoji": "🇨🇰",
     "text": "",
@@ -52397,7 +52413,8 @@
     "hexcode": "1F1E8-1F1F1",
     "tags": [
       "CL",
-      "flagg"
+      "flagg",
+      "flagg: chile"
     ],
     "emoji": "🇨🇱",
     "text": "",
@@ -52412,7 +52429,8 @@
     "hexcode": "1F1E8-1F1F2",
     "tags": [
       "CM",
-      "flagg"
+      "flagg",
+      "flagg: kamerun"
     ],
     "emoji": "🇨🇲",
     "text": "",
@@ -52427,7 +52445,8 @@
     "hexcode": "1F1E8-1F1F3",
     "tags": [
       "CN",
-      "flagg"
+      "flagg",
+      "flagg: kina"
     ],
     "emoji": "🇨🇳",
     "text": "",
@@ -52442,7 +52461,8 @@
     "hexcode": "1F1E8-1F1F4",
     "tags": [
       "CO",
-      "flagg"
+      "flagg",
+      "flagg: colombia"
     ],
     "emoji": "🇨🇴",
     "text": "",
@@ -52457,7 +52477,8 @@
     "hexcode": "1F1E8-1F1F5",
     "tags": [
       "CP",
-      "flagg"
+      "flagg",
+      "flagg: clippertonøya"
     ],
     "emoji": "🇨🇵",
     "text": "",
@@ -52472,7 +52493,8 @@
     "hexcode": "1F1E8-1F1F7",
     "tags": [
       "CR",
-      "flagg"
+      "flagg",
+      "flagg: costa rica"
     ],
     "emoji": "🇨🇷",
     "text": "",
@@ -52487,7 +52509,8 @@
     "hexcode": "1F1E8-1F1FA",
     "tags": [
       "CU",
-      "flagg"
+      "flagg",
+      "flagg: cuba"
     ],
     "emoji": "🇨🇺",
     "text": "",
@@ -52502,7 +52525,8 @@
     "hexcode": "1F1E8-1F1FB",
     "tags": [
       "CV",
-      "flagg"
+      "flagg",
+      "flagg: kapp verde"
     ],
     "emoji": "🇨🇻",
     "text": "",
@@ -52517,7 +52541,8 @@
     "hexcode": "1F1E8-1F1FC",
     "tags": [
       "CW",
-      "flagg"
+      "flagg",
+      "flagg: curaçao"
     ],
     "emoji": "🇨🇼",
     "text": "",
@@ -52532,7 +52557,8 @@
     "hexcode": "1F1E8-1F1FD",
     "tags": [
       "CX",
-      "flagg"
+      "flagg",
+      "flagg: christmasøya"
     ],
     "emoji": "🇨🇽",
     "text": "",
@@ -52547,7 +52573,8 @@
     "hexcode": "1F1E8-1F1FE",
     "tags": [
       "CY",
-      "flagg"
+      "flagg",
+      "flagg: kypros"
     ],
     "emoji": "🇨🇾",
     "text": "",
@@ -52562,7 +52589,8 @@
     "hexcode": "1F1E8-1F1FF",
     "tags": [
       "CZ",
-      "flagg"
+      "flagg",
+      "flagg: tsjekkia"
     ],
     "emoji": "🇨🇿",
     "text": "",
@@ -52577,7 +52605,8 @@
     "hexcode": "1F1E9-1F1EA",
     "tags": [
       "DE",
-      "flagg"
+      "flagg",
+      "flagg: tyskland"
     ],
     "emoji": "🇩🇪",
     "text": "",
@@ -52592,7 +52621,8 @@
     "hexcode": "1F1E9-1F1EC",
     "tags": [
       "DG",
-      "flagg"
+      "flagg",
+      "flagg: diego garcia"
     ],
     "emoji": "🇩🇬",
     "text": "",
@@ -52607,7 +52637,8 @@
     "hexcode": "1F1E9-1F1EF",
     "tags": [
       "DJ",
-      "flagg"
+      "flagg",
+      "flagg: djibouti"
     ],
     "emoji": "🇩🇯",
     "text": "",
@@ -52622,7 +52653,8 @@
     "hexcode": "1F1E9-1F1F0",
     "tags": [
       "DK",
-      "flagg"
+      "flagg",
+      "flagg: danmark"
     ],
     "emoji": "🇩🇰",
     "text": "",
@@ -52637,7 +52669,8 @@
     "hexcode": "1F1E9-1F1F2",
     "tags": [
       "DM",
-      "flagg"
+      "flagg",
+      "flagg: dominica"
     ],
     "emoji": "🇩🇲",
     "text": "",
@@ -52652,7 +52685,8 @@
     "hexcode": "1F1E9-1F1F4",
     "tags": [
       "DO",
-      "flagg"
+      "flagg",
+      "flagg: den dominikanske republikk"
     ],
     "emoji": "🇩🇴",
     "text": "",
@@ -52667,7 +52701,8 @@
     "hexcode": "1F1E9-1F1FF",
     "tags": [
       "DZ",
-      "flagg"
+      "flagg",
+      "flagg: algerie"
     ],
     "emoji": "🇩🇿",
     "text": "",
@@ -52682,7 +52717,8 @@
     "hexcode": "1F1EA-1F1E6",
     "tags": [
       "EA",
-      "flagg"
+      "flagg",
+      "flagg: ceuta og melilla"
     ],
     "emoji": "🇪🇦",
     "text": "",
@@ -52697,7 +52733,8 @@
     "hexcode": "1F1EA-1F1E8",
     "tags": [
       "EC",
-      "flagg"
+      "flagg",
+      "flagg: ecuador"
     ],
     "emoji": "🇪🇨",
     "text": "",
@@ -52712,7 +52749,8 @@
     "hexcode": "1F1EA-1F1EA",
     "tags": [
       "EE",
-      "flagg"
+      "flagg",
+      "flagg: estland"
     ],
     "emoji": "🇪🇪",
     "text": "",
@@ -52727,7 +52765,8 @@
     "hexcode": "1F1EA-1F1EC",
     "tags": [
       "EG",
-      "flagg"
+      "flagg",
+      "flagg: egypt"
     ],
     "emoji": "🇪🇬",
     "text": "",
@@ -52742,7 +52781,8 @@
     "hexcode": "1F1EA-1F1ED",
     "tags": [
       "EH",
-      "flagg"
+      "flagg",
+      "flagg: vest-sahara"
     ],
     "emoji": "🇪🇭",
     "text": "",
@@ -52757,7 +52797,8 @@
     "hexcode": "1F1EA-1F1F7",
     "tags": [
       "ER",
-      "flagg"
+      "flagg",
+      "flagg: eritrea"
     ],
     "emoji": "🇪🇷",
     "text": "",
@@ -52772,7 +52813,8 @@
     "hexcode": "1F1EA-1F1F8",
     "tags": [
       "ES",
-      "flagg"
+      "flagg",
+      "flagg: spania"
     ],
     "emoji": "🇪🇸",
     "text": "",
@@ -52787,7 +52829,8 @@
     "hexcode": "1F1EA-1F1F9",
     "tags": [
       "ET",
-      "flagg"
+      "flagg",
+      "flagg: etiopia"
     ],
     "emoji": "🇪🇹",
     "text": "",
@@ -52802,7 +52845,8 @@
     "hexcode": "1F1EA-1F1FA",
     "tags": [
       "EU",
-      "flagg"
+      "flagg",
+      "flagg: den europeiske union"
     ],
     "emoji": "🇪🇺",
     "text": "",
@@ -52817,7 +52861,8 @@
     "hexcode": "1F1EB-1F1EE",
     "tags": [
       "FI",
-      "flagg"
+      "flagg",
+      "flagg: finland"
     ],
     "emoji": "🇫🇮",
     "text": "",
@@ -52832,7 +52877,8 @@
     "hexcode": "1F1EB-1F1EF",
     "tags": [
       "FJ",
-      "flagg"
+      "flagg",
+      "flagg: fiji"
     ],
     "emoji": "🇫🇯",
     "text": "",
@@ -52847,7 +52893,8 @@
     "hexcode": "1F1EB-1F1F0",
     "tags": [
       "FK",
-      "flagg"
+      "flagg",
+      "flagg: falklandsøyene"
     ],
     "emoji": "🇫🇰",
     "text": "",
@@ -52862,7 +52909,8 @@
     "hexcode": "1F1EB-1F1F2",
     "tags": [
       "FM",
-      "flagg"
+      "flagg",
+      "flagg: mikronesiaføderasjonen"
     ],
     "emoji": "🇫🇲",
     "text": "",
@@ -52877,7 +52925,8 @@
     "hexcode": "1F1EB-1F1F4",
     "tags": [
       "FO",
-      "flagg"
+      "flagg",
+      "flagg: færøyene"
     ],
     "emoji": "🇫🇴",
     "text": "",
@@ -52892,7 +52941,8 @@
     "hexcode": "1F1EB-1F1F7",
     "tags": [
       "FR",
-      "flagg"
+      "flagg",
+      "flagg: frankrike"
     ],
     "emoji": "🇫🇷",
     "text": "",
@@ -52907,7 +52957,8 @@
     "hexcode": "1F1EC-1F1E6",
     "tags": [
       "GA",
-      "flagg"
+      "flagg",
+      "flagg: gabon"
     ],
     "emoji": "🇬🇦",
     "text": "",
@@ -52922,7 +52973,8 @@
     "hexcode": "1F1EC-1F1E7",
     "tags": [
       "GB",
-      "flagg"
+      "flagg",
+      "flagg: storbritannia"
     ],
     "emoji": "🇬🇧",
     "text": "",
@@ -52937,7 +52989,8 @@
     "hexcode": "1F1EC-1F1E9",
     "tags": [
       "GD",
-      "flagg"
+      "flagg",
+      "flagg: grenada"
     ],
     "emoji": "🇬🇩",
     "text": "",
@@ -52952,7 +53005,8 @@
     "hexcode": "1F1EC-1F1EA",
     "tags": [
       "GE",
-      "flagg"
+      "flagg",
+      "flagg: georgia"
     ],
     "emoji": "🇬🇪",
     "text": "",
@@ -52967,7 +53021,8 @@
     "hexcode": "1F1EC-1F1EB",
     "tags": [
       "GF",
-      "flagg"
+      "flagg",
+      "flagg: fransk guyana"
     ],
     "emoji": "🇬🇫",
     "text": "",
@@ -52982,7 +53037,8 @@
     "hexcode": "1F1EC-1F1EC",
     "tags": [
       "GG",
-      "flagg"
+      "flagg",
+      "flagg: guernsey"
     ],
     "emoji": "🇬🇬",
     "text": "",
@@ -52997,7 +53053,8 @@
     "hexcode": "1F1EC-1F1ED",
     "tags": [
       "GH",
-      "flagg"
+      "flagg",
+      "flagg: ghana"
     ],
     "emoji": "🇬🇭",
     "text": "",
@@ -53012,7 +53069,8 @@
     "hexcode": "1F1EC-1F1EE",
     "tags": [
       "GI",
-      "flagg"
+      "flagg",
+      "flagg: gibraltar"
     ],
     "emoji": "🇬🇮",
     "text": "",
@@ -53027,7 +53085,8 @@
     "hexcode": "1F1EC-1F1F1",
     "tags": [
       "GL",
-      "flagg"
+      "flagg",
+      "flagg: grønland"
     ],
     "emoji": "🇬🇱",
     "text": "",
@@ -53042,7 +53101,8 @@
     "hexcode": "1F1EC-1F1F2",
     "tags": [
       "GM",
-      "flagg"
+      "flagg",
+      "flagg: gambia"
     ],
     "emoji": "🇬🇲",
     "text": "",
@@ -53057,7 +53117,8 @@
     "hexcode": "1F1EC-1F1F3",
     "tags": [
       "GN",
-      "flagg"
+      "flagg",
+      "flagg: guinea"
     ],
     "emoji": "🇬🇳",
     "text": "",
@@ -53072,7 +53133,8 @@
     "hexcode": "1F1EC-1F1F5",
     "tags": [
       "GP",
-      "flagg"
+      "flagg",
+      "flagg: guadeloupe"
     ],
     "emoji": "🇬🇵",
     "text": "",
@@ -53087,7 +53149,8 @@
     "hexcode": "1F1EC-1F1F6",
     "tags": [
       "GQ",
-      "flagg"
+      "flagg",
+      "flagg: ekvatorial-guinea"
     ],
     "emoji": "🇬🇶",
     "text": "",
@@ -53102,7 +53165,8 @@
     "hexcode": "1F1EC-1F1F7",
     "tags": [
       "GR",
-      "flagg"
+      "flagg",
+      "flagg: hellas"
     ],
     "emoji": "🇬🇷",
     "text": "",
@@ -53117,7 +53181,8 @@
     "hexcode": "1F1EC-1F1F8",
     "tags": [
       "GS",
-      "flagg"
+      "flagg",
+      "flagg: sør-georgia og sør-sandwichøyene"
     ],
     "emoji": "🇬🇸",
     "text": "",
@@ -53132,7 +53197,8 @@
     "hexcode": "1F1EC-1F1F9",
     "tags": [
       "GT",
-      "flagg"
+      "flagg",
+      "flagg: guatemala"
     ],
     "emoji": "🇬🇹",
     "text": "",
@@ -53147,7 +53213,8 @@
     "hexcode": "1F1EC-1F1FA",
     "tags": [
       "GU",
-      "flagg"
+      "flagg",
+      "flagg: guam"
     ],
     "emoji": "🇬🇺",
     "text": "",
@@ -53162,7 +53229,8 @@
     "hexcode": "1F1EC-1F1FC",
     "tags": [
       "GW",
-      "flagg"
+      "flagg",
+      "flagg: guinea-bissau"
     ],
     "emoji": "🇬🇼",
     "text": "",
@@ -53177,7 +53245,8 @@
     "hexcode": "1F1EC-1F1FE",
     "tags": [
       "GY",
-      "flagg"
+      "flagg",
+      "flagg: guyana"
     ],
     "emoji": "🇬🇾",
     "text": "",
@@ -53192,7 +53261,8 @@
     "hexcode": "1F1ED-1F1F0",
     "tags": [
       "HK",
-      "flagg"
+      "flagg",
+      "flagg: hongkong sar kina"
     ],
     "emoji": "🇭🇰",
     "text": "",
@@ -53207,7 +53277,8 @@
     "hexcode": "1F1ED-1F1F2",
     "tags": [
       "HM",
-      "flagg"
+      "flagg",
+      "flagg: heard- og mcdonaldøyene"
     ],
     "emoji": "🇭🇲",
     "text": "",
@@ -53222,7 +53293,8 @@
     "hexcode": "1F1ED-1F1F3",
     "tags": [
       "HN",
-      "flagg"
+      "flagg",
+      "flagg: honduras"
     ],
     "emoji": "🇭🇳",
     "text": "",
@@ -53237,7 +53309,8 @@
     "hexcode": "1F1ED-1F1F7",
     "tags": [
       "HR",
-      "flagg"
+      "flagg",
+      "flagg: kroatia"
     ],
     "emoji": "🇭🇷",
     "text": "",
@@ -53252,7 +53325,8 @@
     "hexcode": "1F1ED-1F1F9",
     "tags": [
       "HT",
-      "flagg"
+      "flagg",
+      "flagg: haiti"
     ],
     "emoji": "🇭🇹",
     "text": "",
@@ -53267,7 +53341,8 @@
     "hexcode": "1F1ED-1F1FA",
     "tags": [
       "HU",
-      "flagg"
+      "flagg",
+      "flagg: ungarn"
     ],
     "emoji": "🇭🇺",
     "text": "",
@@ -53282,7 +53357,8 @@
     "hexcode": "1F1EE-1F1E8",
     "tags": [
       "IC",
-      "flagg"
+      "flagg",
+      "flagg: kanariøyene"
     ],
     "emoji": "🇮🇨",
     "text": "",
@@ -53297,7 +53373,8 @@
     "hexcode": "1F1EE-1F1E9",
     "tags": [
       "ID",
-      "flagg"
+      "flagg",
+      "flagg: indonesia"
     ],
     "emoji": "🇮🇩",
     "text": "",
@@ -53312,7 +53389,8 @@
     "hexcode": "1F1EE-1F1EA",
     "tags": [
       "IE",
-      "flagg"
+      "flagg",
+      "flagg: irland"
     ],
     "emoji": "🇮🇪",
     "text": "",
@@ -53327,7 +53405,8 @@
     "hexcode": "1F1EE-1F1F1",
     "tags": [
       "IL",
-      "flagg"
+      "flagg",
+      "flagg: israel"
     ],
     "emoji": "🇮🇱",
     "text": "",
@@ -53342,7 +53421,8 @@
     "hexcode": "1F1EE-1F1F2",
     "tags": [
       "IM",
-      "flagg"
+      "flagg",
+      "flagg: man"
     ],
     "emoji": "🇮🇲",
     "text": "",
@@ -53357,7 +53437,8 @@
     "hexcode": "1F1EE-1F1F3",
     "tags": [
       "IN",
-      "flagg"
+      "flagg",
+      "flagg: india"
     ],
     "emoji": "🇮🇳",
     "text": "",
@@ -53372,7 +53453,8 @@
     "hexcode": "1F1EE-1F1F4",
     "tags": [
       "IO",
-      "flagg"
+      "flagg",
+      "flagg: det britiske territoriet i indiahavet"
     ],
     "emoji": "🇮🇴",
     "text": "",
@@ -53387,7 +53469,8 @@
     "hexcode": "1F1EE-1F1F6",
     "tags": [
       "IQ",
-      "flagg"
+      "flagg",
+      "flagg: irak"
     ],
     "emoji": "🇮🇶",
     "text": "",
@@ -53402,7 +53485,8 @@
     "hexcode": "1F1EE-1F1F7",
     "tags": [
       "IR",
-      "flagg"
+      "flagg",
+      "flagg: iran"
     ],
     "emoji": "🇮🇷",
     "text": "",
@@ -53417,7 +53501,8 @@
     "hexcode": "1F1EE-1F1F8",
     "tags": [
       "IS",
-      "flagg"
+      "flagg",
+      "flagg: island"
     ],
     "emoji": "🇮🇸",
     "text": "",
@@ -53432,7 +53517,8 @@
     "hexcode": "1F1EE-1F1F9",
     "tags": [
       "IT",
-      "flagg"
+      "flagg",
+      "flagg: italia"
     ],
     "emoji": "🇮🇹",
     "text": "",
@@ -53447,7 +53533,8 @@
     "hexcode": "1F1EF-1F1EA",
     "tags": [
       "JE",
-      "flagg"
+      "flagg",
+      "flagg: jersey"
     ],
     "emoji": "🇯🇪",
     "text": "",
@@ -53462,7 +53549,8 @@
     "hexcode": "1F1EF-1F1F2",
     "tags": [
       "JM",
-      "flagg"
+      "flagg",
+      "flagg: jamaica"
     ],
     "emoji": "🇯🇲",
     "text": "",
@@ -53477,7 +53565,8 @@
     "hexcode": "1F1EF-1F1F4",
     "tags": [
       "JO",
-      "flagg"
+      "flagg",
+      "flagg: jordan"
     ],
     "emoji": "🇯🇴",
     "text": "",
@@ -53492,7 +53581,8 @@
     "hexcode": "1F1EF-1F1F5",
     "tags": [
       "JP",
-      "flagg"
+      "flagg",
+      "flagg: japan"
     ],
     "emoji": "🇯🇵",
     "text": "",
@@ -53507,7 +53597,8 @@
     "hexcode": "1F1F0-1F1EA",
     "tags": [
       "KE",
-      "flagg"
+      "flagg",
+      "flagg: kenya"
     ],
     "emoji": "🇰🇪",
     "text": "",
@@ -53522,7 +53613,8 @@
     "hexcode": "1F1F0-1F1EC",
     "tags": [
       "KG",
-      "flagg"
+      "flagg",
+      "flagg: kirgisistan"
     ],
     "emoji": "🇰🇬",
     "text": "",
@@ -53537,7 +53629,8 @@
     "hexcode": "1F1F0-1F1ED",
     "tags": [
       "KH",
-      "flagg"
+      "flagg",
+      "flagg: kambodsja"
     ],
     "emoji": "🇰🇭",
     "text": "",
@@ -53552,7 +53645,8 @@
     "hexcode": "1F1F0-1F1EE",
     "tags": [
       "KI",
-      "flagg"
+      "flagg",
+      "flagg: kiribati"
     ],
     "emoji": "🇰🇮",
     "text": "",
@@ -53567,7 +53661,8 @@
     "hexcode": "1F1F0-1F1F2",
     "tags": [
       "KM",
-      "flagg"
+      "flagg",
+      "flagg: komorene"
     ],
     "emoji": "🇰🇲",
     "text": "",
@@ -53582,7 +53677,8 @@
     "hexcode": "1F1F0-1F1F3",
     "tags": [
       "KN",
-      "flagg"
+      "flagg",
+      "flagg: saint kitts og nevis"
     ],
     "emoji": "🇰🇳",
     "text": "",
@@ -53597,7 +53693,8 @@
     "hexcode": "1F1F0-1F1F5",
     "tags": [
       "KP",
-      "flagg"
+      "flagg",
+      "flagg: nord-korea"
     ],
     "emoji": "🇰🇵",
     "text": "",
@@ -53612,7 +53709,8 @@
     "hexcode": "1F1F0-1F1F7",
     "tags": [
       "KR",
-      "flagg"
+      "flagg",
+      "flagg: sør-korea"
     ],
     "emoji": "🇰🇷",
     "text": "",
@@ -53627,7 +53725,8 @@
     "hexcode": "1F1F0-1F1FC",
     "tags": [
       "KW",
-      "flagg"
+      "flagg",
+      "flagg: kuwait"
     ],
     "emoji": "🇰🇼",
     "text": "",
@@ -53642,7 +53741,8 @@
     "hexcode": "1F1F0-1F1FE",
     "tags": [
       "KY",
-      "flagg"
+      "flagg",
+      "flagg: caymanøyene"
     ],
     "emoji": "🇰🇾",
     "text": "",
@@ -53657,7 +53757,8 @@
     "hexcode": "1F1F0-1F1FF",
     "tags": [
       "KZ",
-      "flagg"
+      "flagg",
+      "flagg: kasakhstan"
     ],
     "emoji": "🇰🇿",
     "text": "",
@@ -53672,7 +53773,8 @@
     "hexcode": "1F1F1-1F1E6",
     "tags": [
       "LA",
-      "flagg"
+      "flagg",
+      "flagg: laos"
     ],
     "emoji": "🇱🇦",
     "text": "",
@@ -53687,7 +53789,8 @@
     "hexcode": "1F1F1-1F1E7",
     "tags": [
       "LB",
-      "flagg"
+      "flagg",
+      "flagg: libanon"
     ],
     "emoji": "🇱🇧",
     "text": "",
@@ -53702,7 +53805,8 @@
     "hexcode": "1F1F1-1F1E8",
     "tags": [
       "LC",
-      "flagg"
+      "flagg",
+      "flagg: st. lucia"
     ],
     "emoji": "🇱🇨",
     "text": "",
@@ -53717,7 +53821,8 @@
     "hexcode": "1F1F1-1F1EE",
     "tags": [
       "LI",
-      "flagg"
+      "flagg",
+      "flagg: liechtenstein"
     ],
     "emoji": "🇱🇮",
     "text": "",
@@ -53732,7 +53837,8 @@
     "hexcode": "1F1F1-1F1F0",
     "tags": [
       "LK",
-      "flagg"
+      "flagg",
+      "flagg: sri lanka"
     ],
     "emoji": "🇱🇰",
     "text": "",
@@ -53747,7 +53853,8 @@
     "hexcode": "1F1F1-1F1F7",
     "tags": [
       "LR",
-      "flagg"
+      "flagg",
+      "flagg: liberia"
     ],
     "emoji": "🇱🇷",
     "text": "",
@@ -53762,7 +53869,8 @@
     "hexcode": "1F1F1-1F1F8",
     "tags": [
       "LS",
-      "flagg"
+      "flagg",
+      "flagg: lesotho"
     ],
     "emoji": "🇱🇸",
     "text": "",
@@ -53777,7 +53885,8 @@
     "hexcode": "1F1F1-1F1F9",
     "tags": [
       "LT",
-      "flagg"
+      "flagg",
+      "flagg: litauen"
     ],
     "emoji": "🇱🇹",
     "text": "",
@@ -53792,7 +53901,8 @@
     "hexcode": "1F1F1-1F1FA",
     "tags": [
       "LU",
-      "flagg"
+      "flagg",
+      "flagg: luxemburg"
     ],
     "emoji": "🇱🇺",
     "text": "",
@@ -53807,7 +53917,8 @@
     "hexcode": "1F1F1-1F1FB",
     "tags": [
       "LV",
-      "flagg"
+      "flagg",
+      "flagg: latvia"
     ],
     "emoji": "🇱🇻",
     "text": "",
@@ -53822,7 +53933,8 @@
     "hexcode": "1F1F1-1F1FE",
     "tags": [
       "LY",
-      "flagg"
+      "flagg",
+      "flagg: libya"
     ],
     "emoji": "🇱🇾",
     "text": "",
@@ -53837,7 +53949,8 @@
     "hexcode": "1F1F2-1F1E6",
     "tags": [
       "MA",
-      "flagg"
+      "flagg",
+      "flagg: marokko"
     ],
     "emoji": "🇲🇦",
     "text": "",
@@ -53852,7 +53965,8 @@
     "hexcode": "1F1F2-1F1E8",
     "tags": [
       "MC",
-      "flagg"
+      "flagg",
+      "flagg: monaco"
     ],
     "emoji": "🇲🇨",
     "text": "",
@@ -53867,7 +53981,8 @@
     "hexcode": "1F1F2-1F1E9",
     "tags": [
       "MD",
-      "flagg"
+      "flagg",
+      "flagg: moldova"
     ],
     "emoji": "🇲🇩",
     "text": "",
@@ -53882,7 +53997,8 @@
     "hexcode": "1F1F2-1F1EA",
     "tags": [
       "ME",
-      "flagg"
+      "flagg",
+      "flagg: montenegro"
     ],
     "emoji": "🇲🇪",
     "text": "",
@@ -53897,7 +54013,8 @@
     "hexcode": "1F1F2-1F1EB",
     "tags": [
       "MF",
-      "flagg"
+      "flagg",
+      "flagg: saint-martin"
     ],
     "emoji": "🇲🇫",
     "text": "",
@@ -53912,7 +54029,8 @@
     "hexcode": "1F1F2-1F1EC",
     "tags": [
       "MG",
-      "flagg"
+      "flagg",
+      "flagg: madagaskar"
     ],
     "emoji": "🇲🇬",
     "text": "",
@@ -53927,7 +54045,8 @@
     "hexcode": "1F1F2-1F1ED",
     "tags": [
       "MH",
-      "flagg"
+      "flagg",
+      "flagg: marshalløyene"
     ],
     "emoji": "🇲🇭",
     "text": "",
@@ -53942,7 +54061,8 @@
     "hexcode": "1F1F2-1F1F0",
     "tags": [
       "MK",
-      "flagg"
+      "flagg",
+      "flagg: nord-makedonia"
     ],
     "emoji": "🇲🇰",
     "text": "",
@@ -53957,7 +54077,8 @@
     "hexcode": "1F1F2-1F1F1",
     "tags": [
       "ML",
-      "flagg"
+      "flagg",
+      "flagg: mali"
     ],
     "emoji": "🇲🇱",
     "text": "",
@@ -53972,7 +54093,8 @@
     "hexcode": "1F1F2-1F1F2",
     "tags": [
       "MM",
-      "flagg"
+      "flagg",
+      "flagg: myanmar (burma)"
     ],
     "emoji": "🇲🇲",
     "text": "",
@@ -53987,7 +54109,8 @@
     "hexcode": "1F1F2-1F1F3",
     "tags": [
       "MN",
-      "flagg"
+      "flagg",
+      "flagg: mongolia"
     ],
     "emoji": "🇲🇳",
     "text": "",
@@ -54002,7 +54125,8 @@
     "hexcode": "1F1F2-1F1F4",
     "tags": [
       "MO",
-      "flagg"
+      "flagg",
+      "flagg: macao sar kina"
     ],
     "emoji": "🇲🇴",
     "text": "",
@@ -54017,7 +54141,8 @@
     "hexcode": "1F1F2-1F1F5",
     "tags": [
       "MP",
-      "flagg"
+      "flagg",
+      "flagg: nord-marianene"
     ],
     "emoji": "🇲🇵",
     "text": "",
@@ -54032,7 +54157,8 @@
     "hexcode": "1F1F2-1F1F6",
     "tags": [
       "MQ",
-      "flagg"
+      "flagg",
+      "flagg: martinique"
     ],
     "emoji": "🇲🇶",
     "text": "",
@@ -54047,7 +54173,8 @@
     "hexcode": "1F1F2-1F1F7",
     "tags": [
       "MR",
-      "flagg"
+      "flagg",
+      "flagg: mauritania"
     ],
     "emoji": "🇲🇷",
     "text": "",
@@ -54062,7 +54189,8 @@
     "hexcode": "1F1F2-1F1F8",
     "tags": [
       "MS",
-      "flagg"
+      "flagg",
+      "flagg: montserrat"
     ],
     "emoji": "🇲🇸",
     "text": "",
@@ -54077,7 +54205,8 @@
     "hexcode": "1F1F2-1F1F9",
     "tags": [
       "MT",
-      "flagg"
+      "flagg",
+      "flagg: malta"
     ],
     "emoji": "🇲🇹",
     "text": "",
@@ -54092,7 +54221,8 @@
     "hexcode": "1F1F2-1F1FA",
     "tags": [
       "MU",
-      "flagg"
+      "flagg",
+      "flagg: mauritius"
     ],
     "emoji": "🇲🇺",
     "text": "",
@@ -54107,7 +54237,8 @@
     "hexcode": "1F1F2-1F1FB",
     "tags": [
       "MV",
-      "flagg"
+      "flagg",
+      "flagg: maldivene"
     ],
     "emoji": "🇲🇻",
     "text": "",
@@ -54122,7 +54253,8 @@
     "hexcode": "1F1F2-1F1FC",
     "tags": [
       "MW",
-      "flagg"
+      "flagg",
+      "flagg: malawi"
     ],
     "emoji": "🇲🇼",
     "text": "",
@@ -54137,7 +54269,8 @@
     "hexcode": "1F1F2-1F1FD",
     "tags": [
       "MX",
-      "flagg"
+      "flagg",
+      "flagg: mexico"
     ],
     "emoji": "🇲🇽",
     "text": "",
@@ -54152,7 +54285,8 @@
     "hexcode": "1F1F2-1F1FE",
     "tags": [
       "MY",
-      "flagg"
+      "flagg",
+      "flagg: malaysia"
     ],
     "emoji": "🇲🇾",
     "text": "",
@@ -54167,7 +54301,8 @@
     "hexcode": "1F1F2-1F1FF",
     "tags": [
       "MZ",
-      "flagg"
+      "flagg",
+      "flagg: mosambik"
     ],
     "emoji": "🇲🇿",
     "text": "",
@@ -54182,7 +54317,8 @@
     "hexcode": "1F1F3-1F1E6",
     "tags": [
       "NA",
-      "flagg"
+      "flagg",
+      "flagg: namibia"
     ],
     "emoji": "🇳🇦",
     "text": "",
@@ -54197,7 +54333,8 @@
     "hexcode": "1F1F3-1F1E8",
     "tags": [
       "NC",
-      "flagg"
+      "flagg",
+      "flagg: ny-caledonia"
     ],
     "emoji": "🇳🇨",
     "text": "",
@@ -54212,7 +54349,8 @@
     "hexcode": "1F1F3-1F1EA",
     "tags": [
       "NE",
-      "flagg"
+      "flagg",
+      "flagg: niger"
     ],
     "emoji": "🇳🇪",
     "text": "",
@@ -54227,7 +54365,8 @@
     "hexcode": "1F1F3-1F1EB",
     "tags": [
       "NF",
-      "flagg"
+      "flagg",
+      "flagg: norfolkøya"
     ],
     "emoji": "🇳🇫",
     "text": "",
@@ -54242,7 +54381,8 @@
     "hexcode": "1F1F3-1F1EC",
     "tags": [
       "NG",
-      "flagg"
+      "flagg",
+      "flagg: nigeria"
     ],
     "emoji": "🇳🇬",
     "text": "",
@@ -54257,7 +54397,8 @@
     "hexcode": "1F1F3-1F1EE",
     "tags": [
       "NI",
-      "flagg"
+      "flagg",
+      "flagg: nicaragua"
     ],
     "emoji": "🇳🇮",
     "text": "",
@@ -54272,7 +54413,8 @@
     "hexcode": "1F1F3-1F1F1",
     "tags": [
       "NL",
-      "flagg"
+      "flagg",
+      "flagg: nederland"
     ],
     "emoji": "🇳🇱",
     "text": "",
@@ -54287,7 +54429,8 @@
     "hexcode": "1F1F3-1F1F4",
     "tags": [
       "NO",
-      "flagg"
+      "flagg",
+      "flagg: norge"
     ],
     "emoji": "🇳🇴",
     "text": "",
@@ -54302,7 +54445,8 @@
     "hexcode": "1F1F3-1F1F5",
     "tags": [
       "NP",
-      "flagg"
+      "flagg",
+      "flagg: nepal"
     ],
     "emoji": "🇳🇵",
     "text": "",
@@ -54317,7 +54461,8 @@
     "hexcode": "1F1F3-1F1F7",
     "tags": [
       "NR",
-      "flagg"
+      "flagg",
+      "flagg: nauru"
     ],
     "emoji": "🇳🇷",
     "text": "",
@@ -54332,7 +54477,8 @@
     "hexcode": "1F1F3-1F1FA",
     "tags": [
       "NU",
-      "flagg"
+      "flagg",
+      "flagg: niue"
     ],
     "emoji": "🇳🇺",
     "text": "",
@@ -54347,7 +54493,8 @@
     "hexcode": "1F1F3-1F1FF",
     "tags": [
       "NZ",
-      "flagg"
+      "flagg",
+      "flagg: new zealand"
     ],
     "emoji": "🇳🇿",
     "text": "",
@@ -54362,7 +54509,8 @@
     "hexcode": "1F1F4-1F1F2",
     "tags": [
       "OM",
-      "flagg"
+      "flagg",
+      "flagg: oman"
     ],
     "emoji": "🇴🇲",
     "text": "",
@@ -54377,7 +54525,8 @@
     "hexcode": "1F1F5-1F1E6",
     "tags": [
       "PA",
-      "flagg"
+      "flagg",
+      "flagg: panama"
     ],
     "emoji": "🇵🇦",
     "text": "",
@@ -54392,7 +54541,8 @@
     "hexcode": "1F1F5-1F1EA",
     "tags": [
       "PE",
-      "flagg"
+      "flagg",
+      "flagg: peru"
     ],
     "emoji": "🇵🇪",
     "text": "",
@@ -54407,7 +54557,8 @@
     "hexcode": "1F1F5-1F1EB",
     "tags": [
       "PF",
-      "flagg"
+      "flagg",
+      "flagg: fransk polynesia"
     ],
     "emoji": "🇵🇫",
     "text": "",
@@ -54422,7 +54573,8 @@
     "hexcode": "1F1F5-1F1EC",
     "tags": [
       "PG",
-      "flagg"
+      "flagg",
+      "flagg: papua ny-guinea"
     ],
     "emoji": "🇵🇬",
     "text": "",
@@ -54437,7 +54589,8 @@
     "hexcode": "1F1F5-1F1ED",
     "tags": [
       "PH",
-      "flagg"
+      "flagg",
+      "flagg: filippinene"
     ],
     "emoji": "🇵🇭",
     "text": "",
@@ -54452,7 +54605,8 @@
     "hexcode": "1F1F5-1F1F0",
     "tags": [
       "PK",
-      "flagg"
+      "flagg",
+      "flagg: pakistan"
     ],
     "emoji": "🇵🇰",
     "text": "",
@@ -54467,7 +54621,8 @@
     "hexcode": "1F1F5-1F1F1",
     "tags": [
       "PL",
-      "flagg"
+      "flagg",
+      "flagg: polen"
     ],
     "emoji": "🇵🇱",
     "text": "",
@@ -54482,7 +54637,8 @@
     "hexcode": "1F1F5-1F1F2",
     "tags": [
       "PM",
-      "flagg"
+      "flagg",
+      "flagg: saint-pierre-et-miquelon"
     ],
     "emoji": "🇵🇲",
     "text": "",
@@ -54497,7 +54653,8 @@
     "hexcode": "1F1F5-1F1F3",
     "tags": [
       "PN",
-      "flagg"
+      "flagg",
+      "flagg: pitcairnøyene"
     ],
     "emoji": "🇵🇳",
     "text": "",
@@ -54512,7 +54669,8 @@
     "hexcode": "1F1F5-1F1F7",
     "tags": [
       "PR",
-      "flagg"
+      "flagg",
+      "flagg: puerto rico"
     ],
     "emoji": "🇵🇷",
     "text": "",
@@ -54527,7 +54685,8 @@
     "hexcode": "1F1F5-1F1F8",
     "tags": [
       "PS",
-      "flagg"
+      "flagg",
+      "flagg: det palestinske området"
     ],
     "emoji": "🇵🇸",
     "text": "",
@@ -54542,7 +54701,8 @@
     "hexcode": "1F1F5-1F1F9",
     "tags": [
       "PT",
-      "flagg"
+      "flagg",
+      "flagg: portugal"
     ],
     "emoji": "🇵🇹",
     "text": "",
@@ -54557,7 +54717,8 @@
     "hexcode": "1F1F5-1F1FC",
     "tags": [
       "PW",
-      "flagg"
+      "flagg",
+      "flagg: palau"
     ],
     "emoji": "🇵🇼",
     "text": "",
@@ -54572,7 +54733,8 @@
     "hexcode": "1F1F5-1F1FE",
     "tags": [
       "PY",
-      "flagg"
+      "flagg",
+      "flagg: paraguay"
     ],
     "emoji": "🇵🇾",
     "text": "",
@@ -54587,7 +54749,8 @@
     "hexcode": "1F1F6-1F1E6",
     "tags": [
       "QA",
-      "flagg"
+      "flagg",
+      "flagg: qatar"
     ],
     "emoji": "🇶🇦",
     "text": "",
@@ -54602,7 +54765,8 @@
     "hexcode": "1F1F7-1F1EA",
     "tags": [
       "RE",
-      "flagg"
+      "flagg",
+      "flagg: réunion"
     ],
     "emoji": "🇷🇪",
     "text": "",
@@ -54617,7 +54781,8 @@
     "hexcode": "1F1F7-1F1F4",
     "tags": [
       "RO",
-      "flagg"
+      "flagg",
+      "flagg: romania"
     ],
     "emoji": "🇷🇴",
     "text": "",
@@ -54632,7 +54797,8 @@
     "hexcode": "1F1F7-1F1F8",
     "tags": [
       "RS",
-      "flagg"
+      "flagg",
+      "flagg: serbia"
     ],
     "emoji": "🇷🇸",
     "text": "",
@@ -54647,7 +54813,8 @@
     "hexcode": "1F1F7-1F1FA",
     "tags": [
       "RU",
-      "flagg"
+      "flagg",
+      "flagg: russland"
     ],
     "emoji": "🇷🇺",
     "text": "",
@@ -54662,7 +54829,8 @@
     "hexcode": "1F1F7-1F1FC",
     "tags": [
       "RW",
-      "flagg"
+      "flagg",
+      "flagg: rwanda"
     ],
     "emoji": "🇷🇼",
     "text": "",
@@ -54677,7 +54845,8 @@
     "hexcode": "1F1F8-1F1E6",
     "tags": [
       "SA",
-      "flagg"
+      "flagg",
+      "flagg: saudi-arabia"
     ],
     "emoji": "🇸🇦",
     "text": "",
@@ -54692,7 +54861,8 @@
     "hexcode": "1F1F8-1F1E7",
     "tags": [
       "SB",
-      "flagg"
+      "flagg",
+      "flagg: salomonøyene"
     ],
     "emoji": "🇸🇧",
     "text": "",
@@ -54707,7 +54877,8 @@
     "hexcode": "1F1F8-1F1E8",
     "tags": [
       "SC",
-      "flagg"
+      "flagg",
+      "flagg: seychellene"
     ],
     "emoji": "🇸🇨",
     "text": "",
@@ -54722,7 +54893,8 @@
     "hexcode": "1F1F8-1F1E9",
     "tags": [
       "SD",
-      "flagg"
+      "flagg",
+      "flagg: sudan"
     ],
     "emoji": "🇸🇩",
     "text": "",
@@ -54737,7 +54909,8 @@
     "hexcode": "1F1F8-1F1EA",
     "tags": [
       "SE",
-      "flagg"
+      "flagg",
+      "flagg: sverige"
     ],
     "emoji": "🇸🇪",
     "text": "",
@@ -54752,7 +54925,8 @@
     "hexcode": "1F1F8-1F1EC",
     "tags": [
       "SG",
-      "flagg"
+      "flagg",
+      "flagg: singapore"
     ],
     "emoji": "🇸🇬",
     "text": "",
@@ -54767,7 +54941,8 @@
     "hexcode": "1F1F8-1F1ED",
     "tags": [
       "SH",
-      "flagg"
+      "flagg",
+      "flagg: st. helena"
     ],
     "emoji": "🇸🇭",
     "text": "",
@@ -54782,7 +54957,8 @@
     "hexcode": "1F1F8-1F1EE",
     "tags": [
       "SI",
-      "flagg"
+      "flagg",
+      "flagg: slovenia"
     ],
     "emoji": "🇸🇮",
     "text": "",
@@ -54797,7 +54973,8 @@
     "hexcode": "1F1F8-1F1EF",
     "tags": [
       "SJ",
-      "flagg"
+      "flagg",
+      "flagg: svalbard og jan mayen"
     ],
     "emoji": "🇸🇯",
     "text": "",
@@ -54812,7 +54989,8 @@
     "hexcode": "1F1F8-1F1F0",
     "tags": [
       "SK",
-      "flagg"
+      "flagg",
+      "flagg: slovakia"
     ],
     "emoji": "🇸🇰",
     "text": "",
@@ -54827,7 +55005,8 @@
     "hexcode": "1F1F8-1F1F1",
     "tags": [
       "SL",
-      "flagg"
+      "flagg",
+      "flagg: sierra leone"
     ],
     "emoji": "🇸🇱",
     "text": "",
@@ -54842,7 +55021,8 @@
     "hexcode": "1F1F8-1F1F2",
     "tags": [
       "SM",
-      "flagg"
+      "flagg",
+      "flagg: san marino"
     ],
     "emoji": "🇸🇲",
     "text": "",
@@ -54857,7 +55037,8 @@
     "hexcode": "1F1F8-1F1F3",
     "tags": [
       "SN",
-      "flagg"
+      "flagg",
+      "flagg: senegal"
     ],
     "emoji": "🇸🇳",
     "text": "",
@@ -54872,7 +55053,8 @@
     "hexcode": "1F1F8-1F1F4",
     "tags": [
       "SO",
-      "flagg"
+      "flagg",
+      "flagg: somalia"
     ],
     "emoji": "🇸🇴",
     "text": "",
@@ -54887,7 +55069,8 @@
     "hexcode": "1F1F8-1F1F7",
     "tags": [
       "SR",
-      "flagg"
+      "flagg",
+      "flagg: surinam"
     ],
     "emoji": "🇸🇷",
     "text": "",
@@ -54902,7 +55085,8 @@
     "hexcode": "1F1F8-1F1F8",
     "tags": [
       "SS",
-      "flagg"
+      "flagg",
+      "flagg: sør-sudan"
     ],
     "emoji": "🇸🇸",
     "text": "",
@@ -54917,7 +55101,8 @@
     "hexcode": "1F1F8-1F1F9",
     "tags": [
       "ST",
-      "flagg"
+      "flagg",
+      "flagg: são tomé og príncipe"
     ],
     "emoji": "🇸🇹",
     "text": "",
@@ -54932,7 +55117,8 @@
     "hexcode": "1F1F8-1F1FB",
     "tags": [
       "SV",
-      "flagg"
+      "flagg",
+      "flagg: el salvador"
     ],
     "emoji": "🇸🇻",
     "text": "",
@@ -54947,7 +55133,8 @@
     "hexcode": "1F1F8-1F1FD",
     "tags": [
       "SX",
-      "flagg"
+      "flagg",
+      "flagg: sint maarten"
     ],
     "emoji": "🇸🇽",
     "text": "",
@@ -54962,7 +55149,8 @@
     "hexcode": "1F1F8-1F1FE",
     "tags": [
       "SY",
-      "flagg"
+      "flagg",
+      "flagg: syria"
     ],
     "emoji": "🇸🇾",
     "text": "",
@@ -54977,7 +55165,8 @@
     "hexcode": "1F1F8-1F1FF",
     "tags": [
       "SZ",
-      "flagg"
+      "flagg",
+      "flagg: eswatini"
     ],
     "emoji": "🇸🇿",
     "text": "",
@@ -54992,7 +55181,8 @@
     "hexcode": "1F1F9-1F1E6",
     "tags": [
       "TA",
-      "flagg"
+      "flagg",
+      "flagg: tristan da cunha"
     ],
     "emoji": "🇹🇦",
     "text": "",
@@ -55007,7 +55197,8 @@
     "hexcode": "1F1F9-1F1E8",
     "tags": [
       "TC",
-      "flagg"
+      "flagg",
+      "flagg: turks- og caicosøyene"
     ],
     "emoji": "🇹🇨",
     "text": "",
@@ -55022,7 +55213,8 @@
     "hexcode": "1F1F9-1F1E9",
     "tags": [
       "TD",
-      "flagg"
+      "flagg",
+      "flagg: tsjad"
     ],
     "emoji": "🇹🇩",
     "text": "",
@@ -55037,7 +55229,8 @@
     "hexcode": "1F1F9-1F1EB",
     "tags": [
       "TF",
-      "flagg"
+      "flagg",
+      "flagg: de franske sørterritorier"
     ],
     "emoji": "🇹🇫",
     "text": "",
@@ -55052,7 +55245,8 @@
     "hexcode": "1F1F9-1F1EC",
     "tags": [
       "TG",
-      "flagg"
+      "flagg",
+      "flagg: togo"
     ],
     "emoji": "🇹🇬",
     "text": "",
@@ -55067,7 +55261,8 @@
     "hexcode": "1F1F9-1F1ED",
     "tags": [
       "TH",
-      "flagg"
+      "flagg",
+      "flagg: thailand"
     ],
     "emoji": "🇹🇭",
     "text": "",
@@ -55082,7 +55277,8 @@
     "hexcode": "1F1F9-1F1EF",
     "tags": [
       "TJ",
-      "flagg"
+      "flagg",
+      "flagg: tadsjikistan"
     ],
     "emoji": "🇹🇯",
     "text": "",
@@ -55097,7 +55293,8 @@
     "hexcode": "1F1F9-1F1F0",
     "tags": [
       "TK",
-      "flagg"
+      "flagg",
+      "flagg: tokelau"
     ],
     "emoji": "🇹🇰",
     "text": "",
@@ -55112,7 +55309,8 @@
     "hexcode": "1F1F9-1F1F1",
     "tags": [
       "TL",
-      "flagg"
+      "flagg",
+      "flagg: øst-timor"
     ],
     "emoji": "🇹🇱",
     "text": "",
@@ -55127,7 +55325,8 @@
     "hexcode": "1F1F9-1F1F2",
     "tags": [
       "TM",
-      "flagg"
+      "flagg",
+      "flagg: turkmenistan"
     ],
     "emoji": "🇹🇲",
     "text": "",
@@ -55142,7 +55341,8 @@
     "hexcode": "1F1F9-1F1F3",
     "tags": [
       "TN",
-      "flagg"
+      "flagg",
+      "flagg: tunisia"
     ],
     "emoji": "🇹🇳",
     "text": "",
@@ -55157,7 +55357,8 @@
     "hexcode": "1F1F9-1F1F4",
     "tags": [
       "TO",
-      "flagg"
+      "flagg",
+      "flagg: tonga"
     ],
     "emoji": "🇹🇴",
     "text": "",
@@ -55172,7 +55373,8 @@
     "hexcode": "1F1F9-1F1F7",
     "tags": [
       "TR",
-      "flagg"
+      "flagg",
+      "flagg: tyrkia"
     ],
     "emoji": "🇹🇷",
     "text": "",
@@ -55187,7 +55389,8 @@
     "hexcode": "1F1F9-1F1F9",
     "tags": [
       "TT",
-      "flagg"
+      "flagg",
+      "flagg: trinidad og tobago"
     ],
     "emoji": "🇹🇹",
     "text": "",
@@ -55202,7 +55405,8 @@
     "hexcode": "1F1F9-1F1FB",
     "tags": [
       "TV",
-      "flagg"
+      "flagg",
+      "flagg: tuvalu"
     ],
     "emoji": "🇹🇻",
     "text": "",
@@ -55217,7 +55421,8 @@
     "hexcode": "1F1F9-1F1FC",
     "tags": [
       "TW",
-      "flagg"
+      "flagg",
+      "flagg: taiwan"
     ],
     "emoji": "🇹🇼",
     "text": "",
@@ -55232,7 +55437,8 @@
     "hexcode": "1F1F9-1F1FF",
     "tags": [
       "TZ",
-      "flagg"
+      "flagg",
+      "flagg: tanzania"
     ],
     "emoji": "🇹🇿",
     "text": "",
@@ -55247,7 +55453,8 @@
     "hexcode": "1F1FA-1F1E6",
     "tags": [
       "UA",
-      "flagg"
+      "flagg",
+      "flagg: ukraina"
     ],
     "emoji": "🇺🇦",
     "text": "",
@@ -55262,7 +55469,8 @@
     "hexcode": "1F1FA-1F1EC",
     "tags": [
       "UG",
-      "flagg"
+      "flagg",
+      "flagg: uganda"
     ],
     "emoji": "🇺🇬",
     "text": "",
@@ -55277,7 +55485,8 @@
     "hexcode": "1F1FA-1F1F2",
     "tags": [
       "UM",
-      "flagg"
+      "flagg",
+      "flagg: usas ytre øyer"
     ],
     "emoji": "🇺🇲",
     "text": "",
@@ -55292,7 +55501,8 @@
     "hexcode": "1F1FA-1F1F3",
     "tags": [
       "UN",
-      "flagg"
+      "flagg",
+      "flagg: fn"
     ],
     "emoji": "🇺🇳",
     "text": "",
@@ -55307,7 +55517,8 @@
     "hexcode": "1F1FA-1F1F8",
     "tags": [
       "US",
-      "flagg"
+      "flagg",
+      "flagg: usa"
     ],
     "emoji": "🇺🇸",
     "text": "",
@@ -55322,7 +55533,8 @@
     "hexcode": "1F1FA-1F1FE",
     "tags": [
       "UY",
-      "flagg"
+      "flagg",
+      "flagg: uruguay"
     ],
     "emoji": "🇺🇾",
     "text": "",
@@ -55337,7 +55549,8 @@
     "hexcode": "1F1FA-1F1FF",
     "tags": [
       "UZ",
-      "flagg"
+      "flagg",
+      "flagg: usbekistan"
     ],
     "emoji": "🇺🇿",
     "text": "",
@@ -55352,7 +55565,8 @@
     "hexcode": "1F1FB-1F1E6",
     "tags": [
       "VA",
-      "flagg"
+      "flagg",
+      "flagg: vatikanstaten"
     ],
     "emoji": "🇻🇦",
     "text": "",
@@ -55367,7 +55581,8 @@
     "hexcode": "1F1FB-1F1E8",
     "tags": [
       "VC",
-      "flagg"
+      "flagg",
+      "flagg: st. vincent og grenadinene"
     ],
     "emoji": "🇻🇨",
     "text": "",
@@ -55382,7 +55597,8 @@
     "hexcode": "1F1FB-1F1EA",
     "tags": [
       "VE",
-      "flagg"
+      "flagg",
+      "flagg: venezuela"
     ],
     "emoji": "🇻🇪",
     "text": "",
@@ -55397,7 +55613,8 @@
     "hexcode": "1F1FB-1F1EC",
     "tags": [
       "VG",
-      "flagg"
+      "flagg",
+      "flagg: de britiske jomfruøyene"
     ],
     "emoji": "🇻🇬",
     "text": "",
@@ -55412,7 +55629,8 @@
     "hexcode": "1F1FB-1F1EE",
     "tags": [
       "VI",
-      "flagg"
+      "flagg",
+      "flagg: de amerikanske jomfruøyene"
     ],
     "emoji": "🇻🇮",
     "text": "",
@@ -55427,7 +55645,8 @@
     "hexcode": "1F1FB-1F1F3",
     "tags": [
       "VN",
-      "flagg"
+      "flagg",
+      "flagg: vietnam"
     ],
     "emoji": "🇻🇳",
     "text": "",
@@ -55442,7 +55661,8 @@
     "hexcode": "1F1FB-1F1FA",
     "tags": [
       "VU",
-      "flagg"
+      "flagg",
+      "flagg: vanuatu"
     ],
     "emoji": "🇻🇺",
     "text": "",
@@ -55457,7 +55677,8 @@
     "hexcode": "1F1FC-1F1EB",
     "tags": [
       "WF",
-      "flagg"
+      "flagg",
+      "flagg: wallis og futuna"
     ],
     "emoji": "🇼🇫",
     "text": "",
@@ -55472,7 +55693,8 @@
     "hexcode": "1F1FC-1F1F8",
     "tags": [
       "WS",
-      "flagg"
+      "flagg",
+      "flagg: samoa"
     ],
     "emoji": "🇼🇸",
     "text": "",
@@ -55487,7 +55709,8 @@
     "hexcode": "1F1FD-1F1F0",
     "tags": [
       "XK",
-      "flagg"
+      "flagg",
+      "flagg: kosovo"
     ],
     "emoji": "🇽🇰",
     "text": "",
@@ -55502,7 +55725,8 @@
     "hexcode": "1F1FE-1F1EA",
     "tags": [
       "YE",
-      "flagg"
+      "flagg",
+      "flagg: jemen"
     ],
     "emoji": "🇾🇪",
     "text": "",
@@ -55517,7 +55741,8 @@
     "hexcode": "1F1FE-1F1F9",
     "tags": [
       "YT",
-      "flagg"
+      "flagg",
+      "flagg: mayotte"
     ],
     "emoji": "🇾🇹",
     "text": "",
@@ -55532,7 +55757,8 @@
     "hexcode": "1F1FF-1F1E6",
     "tags": [
       "ZA",
-      "flagg"
+      "flagg",
+      "flagg: sør-afrika"
     ],
     "emoji": "🇿🇦",
     "text": "",
@@ -55547,7 +55773,8 @@
     "hexcode": "1F1FF-1F1F2",
     "tags": [
       "ZM",
-      "flagg"
+      "flagg",
+      "flagg: zambia"
     ],
     "emoji": "🇿🇲",
     "text": "",
@@ -55562,7 +55789,8 @@
     "hexcode": "1F1FF-1F1FC",
     "tags": [
       "ZW",
-      "flagg"
+      "flagg",
+      "flagg: zimbabwe"
     ],
     "emoji": "🇿🇼",
     "text": "",
@@ -55577,6 +55805,7 @@
     "hexcode": "1F3F4-E0067-E0062-E0065-E006E-E0067-E007F",
     "tags": [
       "flagg",
+      "flagg: england",
       "gbeng"
     ],
     "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -55592,6 +55821,7 @@
     "hexcode": "1F3F4-E0067-E0062-E0073-E0063-E0074-E007F",
     "tags": [
       "flagg",
+      "flagg: skottland",
       "gbsct"
     ],
     "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
@@ -55607,6 +55837,7 @@
     "hexcode": "1F3F4-E0067-E0062-E0077-E006C-E0073-E007F",
     "tags": [
       "flagg",
+      "flagg: wales",
       "gbwls"
     ],
     "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
