@@ -35,7 +35,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 #### 🎉 Release
 
 - Emojibase versions will now align with the emoji/unicode versions.
-- Updated to [Emoji 15](https://emojipedia.org/emoji-15.0/) and
+- Updated to [Emoji 15.1](https://emojipedia.org/emoji-15.1/) and
   [Unicode 15](http://unicode.org/versions/Unicode15.0.0/).
   - 21 new emoji (31 including skin tones variations).
 - Updated to [CLDR 42](http://cldr.unicode.org/index/downloads/cldr-42).

@@ -8,9 +8,9 @@ JSON datasets, regex patterns, and more.
 
 #### Features
 
-- Supports the latest [Emoji 15](https://emojipedia.org/emoji-15.0/),
+- Supports the latest [Emoji 15.1](https://emojipedia.org/emoji-15.1/),
   [Unicode 15](http://unicode.org/versions/Unicode15.0.0/), and
-  [CLDR 43.1](http://cldr.unicode.org/index/downloads/cldr-43.1) release versions
+  [CLDR 44](http://cldr.unicode.org/index/downloads/cldr-44) release versions
 - Built directly from the [emoji data source files](http://unicode.org/Public/emoji/)
 - Based on the official [Unicode Technical Standard #51](http://unicode.org/reports/tr51/) (rev 19)
 - With localization provided by
