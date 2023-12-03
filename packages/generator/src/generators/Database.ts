@@ -34,7 +34,7 @@ export class Database {
 				// Apply separators
 				.replace(/(\s|`|\/|\\|･|（|）|／)+/g, '_')
 				// Remove special chars
-				.replace(/([!"&'()[\],.:;<>«»?ʼ’‘“”—–„])/g, '')
+				.replace(/([!"&'()[\],.:;<>«»?ʼ’‘“”—–„：])/g, '')
 				// Remove multiple underscores
 				.replace(/_{2,}/g, '_')
 				// Remove leading underscores

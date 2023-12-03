@@ -3,7 +3,7 @@
 ## 1) Add locale
 
 Only Unicode CLDR supported locales can be used. See the entire list here:
-https://github.com/unicode-org/cldr/tree/main/common/annotations
+https://github.com/unicode-org/cldr-json/tree/main/cldr-json/cldr-annotations-full
 
 Once you have a locale, add the locale in kebab-case to the following files:
 
