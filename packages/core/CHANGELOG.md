@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 15.3.0 - 2023-12-03
+
+#### 🚀 Updates
+
+- Support Emoji v15.1. (#164) ([b2e0ec6](https://github.com/milesj/emojibase/commit/b2e0ec6)), closes [#164](https://github.com/milesj/emojibase/issues/164)
+
+**Note:** Version bump only for package emojibase
+
+
+
+
+
 ## 15.2.0 - 2023-10-06
 
 #### 🚀 Updates

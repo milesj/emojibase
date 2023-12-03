@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 15.3.0 - 2023-12-03
+
+#### 🚀 Updates
+
+- Add shortcodes for v15.1. (#167) ([44afd19](https://github.com/milesj/emojibase/commit/44afd19)), closes [#167](https://github.com/milesj/emojibase/issues/167)
+- Support Emoji v15.1. (#164) ([b2e0ec6](https://github.com/milesj/emojibase/commit/b2e0ec6)), closes [#164](https://github.com/milesj/emojibase/issues/164)
+- Use official CLDR JSON packages. (#166) ([f6b2dc9](https://github.com/milesj/emojibase/commit/f6b2dc9)), closes [#166](https://github.com/milesj/emojibase/issues/166)
+
+**Note:** Version bump only for package emojibase-generator
+
+
+
+
+
 ## 15.2.0 - 2023-10-06
 
 #### 🚀 Updates
