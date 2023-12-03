@@ -12,6 +12,10 @@ interface CLDRLocaleNamesDisplayNames {
 	main: Record<string, { localeDisplayNames: { subdivisions?: Record<string, string> } }>;
 }
 
+interface CLDRMiscCharacterLabels {
+	main: Record<string, { characterLabelPatterns: Record<string, string> }>;
+}
+
 export async function loadLocalization(
 	locale: string,
 	version: string = LATEST_CLDR_VERSION,
@@ -26,9 +30,18 @@ export async function loadLocalization(
 		`cldr-localenames-full/main/${jsonLocale}/localeDisplayNames.json`,
 	).then((cldr) => cldr.main[jsonLocale].localeDisplayNames.subdivisions ?? {});
 
-	const [subdivisions, territories] = await Promise.all([subdivisionPromise, territoryPromise]);
+	const labelsPromise = importJsonModule<CLDRMiscCharacterLabels>(
+		`cldr-misc-full/main/${jsonLocale}/characterLabels.json`,
+	).then((cldr) => cldr.main[jsonLocale].characterLabelPatterns ?? {});
+
+	const [subdivisions, territories, labels] = await Promise.all([
+		subdivisionPromise,
+		territoryPromise,
+		labelsPromise,
+	]);
 
 	return {
+		labels,
 		subdivisions,
 		territories,
 	};

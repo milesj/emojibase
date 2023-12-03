@@ -3,6 +3,7 @@
 import util from 'node:util';
 import { Locale, stripHexcode } from 'emojibase';
 import {
+	FACING_LEFT_PATTERN,
 	FACING_RIGHT_PATTERN,
 	INHERIT_PARENT_SYMBOL,
 	MULTI_PERSON_SKIN_TONE_PATTERN,
@@ -50,6 +51,16 @@ import { CLDRAnnotation, CLDRAnnotationMap } from '../types';
 
 //   return next;
 // }
+
+function joinAnnotationWithLabel(annotation: string, label: string): string {
+	if (!annotation.includes(':')) {
+		return label.replace('{0}', annotation);
+	}
+
+	const [prefix, suffix] = annotation.split(':');
+
+	return `${label.replace('{0}', prefix)}:${suffix}`;
+}
 
 export async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotationMap> {
 	const cache = readCache<CLDRAnnotationMap>(`final/${locale}-annotation-data.json`);
@@ -137,9 +148,17 @@ export async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotatio
 		// When facing a direction, inherit the annotation from the base emoji
 		// http://unicode.org/reports/tr51/#Direction
 		if (!annotation && fullHexcode.match(FACING_RIGHT_PATTERN)) {
-			const baseHexcode = hexcode.replace(FACING_RIGHT_PATTERN, '');
+			annotation = joinAnnotationWithLabel(
+				extractField(hexcode.replace(FACING_RIGHT_PATTERN, ''), 'annotation') ?? '',
+				localization.labels['facing-right'],
+			);
+		}
 
-			annotation = extractField(baseHexcode, 'annotation') ?? '';
+		if (!annotation && fullHexcode.match(FACING_LEFT_PATTERN)) {
+			annotation = joinAnnotationWithLabel(
+				extractField(hexcode.replace(FACING_LEFT_PATTERN, ''), 'annotation') ?? '',
+				localization.labels['facing-left'],
+			);
 		}
 
 		// 1) Use the localized territory name

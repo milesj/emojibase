@@ -6533,6 +6533,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cldr-misc-full@npm:^44.0.1":
+  version: 44.0.1
+  resolution: "cldr-misc-full@npm:44.0.1"
+  peerDependencies:
+    cldr-core: 44.0.1
+  checksum: 4b86d7c2cb7cc11ad1189b315c6a27a4423927854af676898b5574279336a48982bb7b18a24d3dc52c37b9baa612c81f83a464863f0563453cd09e66b8563876
+  languageName: node
+  linkType: hard
+
 "clean-css@npm:^5.2.2, clean-css@npm:^5.3.0":
   version: 5.3.1
   resolution: "clean-css@npm:5.3.1"
@@ -8120,6 +8129,7 @@ __metadata:
     cldr-annotations-derived-full: ^44.0.1
     cldr-annotations-full: ^44.0.1
     cldr-localenames-full: ^44.0.1
+    cldr-misc-full: ^44.0.1
     eslint: ^8.50.0
     eslint-config-moon: ^2.0.10
     fast-glob: ^3.3.1
