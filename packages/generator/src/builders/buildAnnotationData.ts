@@ -3,6 +3,7 @@
 import util from 'node:util';
 import { Locale, stripHexcode } from 'emojibase';
 import {
+	FACING_RIGHT_PATTERN,
 	INHERIT_PARENT_SYMBOL,
 	MULTI_PERSON_SKIN_TONE_PATTERN,
 	REGIONAL_INDICATORS,
@@ -131,6 +132,14 @@ export async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotatio
 			].join('-');
 
 			annotation = extractField(inverseHexcode, 'annotation') ?? '';
+		}
+
+		// When facing a direction, inherit the annotation from the base emoji
+		// http://unicode.org/reports/tr51/#Direction
+		if (!annotation && fullHexcode.match(FACING_RIGHT_PATTERN)) {
+			const baseHexcode = hexcode.replace(FACING_RIGHT_PATTERN, '');
+
+			annotation = extractField(baseHexcode, 'annotation') ?? '';
 		}
 
 		// 1) Use the localized territory name
