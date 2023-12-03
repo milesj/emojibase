@@ -3899,59 +3899,59 @@ export const shortcodes = {
 
   // VERSION 15.1
   // 🙂‍↔️ head shaking horizontally
-  '1F642-200D-2194-FE0F': [],
+  '1F642-200D-2194-FE0F': ['head_shaking_horizontally'],
   // 🙂‍↕️ head shaking vertically
-  '1F642-200D-2195-FE0F': [],
+  '1F642-200D-2195-FE0F': ['head_shaking_vertically'],
   // 🚶‍➡️ person walking facing right
-  '1F6B6-200D-27A1-FE0F': [],
+  '1F6B6-200D-27A1-FE0F': ['person_walking_right'],
   // 🚶‍♀️‍➡️ woman walking facing right
-  '1F6B6-200D-2640-FE0F-200D-27A1-FE0F': [],
+  '1F6B6-200D-2640-FE0F-200D-27A1-FE0F': ['woman_walking_right'],
   // 🚶‍♂️‍➡️ man walking facing right
-  '1F6B6-200D-2642-FE0F-200D-27A1-FE0F': [],
+  '1F6B6-200D-2642-FE0F-200D-27A1-FE0F': ['man_walking_right'],
   // 🧎‍➡️ person kneeling facing right
-  '1F9CE-200D-27A1-FE0F': [],
+  '1F9CE-200D-27A1-FE0F': ['person_kneeling_right'],
   // 🧎‍♀️‍➡️ woman kneeling facing right
-  '1F9CE-200D-2640-FE0F-200D-27A1-FE0F': [],
+  '1F9CE-200D-2640-FE0F-200D-27A1-FE0F': ['woman_kneeling_right'],
   // 🧎‍♂️‍➡️ man kneeling facing right
-  '1F9CE-200D-2642-FE0F-200D-27A1-FE0F': [],
+  '1F9CE-200D-2642-FE0F-200D-27A1-FE0F': ['man_kneeling_right'],
   // 🧑‍🦯‍➡️ person with white cane facing right
-  '1F9D1-200D-1F9AF-200D-27A1-FE0F': [],
+  '1F9D1-200D-1F9AF-200D-27A1-FE0F': ['person_with_white_cane_right'],
   // 👨‍🦯‍➡️ man with white cane facing right
-  '1F468-200D-1F9AF-200D-27A1-FE0F': [],
+  '1F468-200D-1F9AF-200D-27A1-FE0F': ['man_with_white_cane_right'],
   // 👩‍🦯‍➡️ woman with white cane facing right
-  '1F469-200D-1F9AF-200D-27A1-FE0F': [],
+  '1F469-200D-1F9AF-200D-27A1-FE0F': ['woman_with_white_cane_right'],
   // 🧑‍🦼‍➡️ person in motorized wheelchair facing right
-  '1F9D1-200D-1F9BC-200D-27A1-FE0F': [],
+  '1F9D1-200D-1F9BC-200D-27A1-FE0F': ['person_in_motorized_wheelchair_right'],
   // 👨‍🦼‍➡️ man in motorized wheelchair facing right
-  '1F468-200D-1F9BC-200D-27A1-FE0F': [],
+  '1F468-200D-1F9BC-200D-27A1-FE0F': ['man_in_motorized_wheelchair_right'],
   // 👩‍🦼‍➡️ woman in motorized wheelchair facing right
-  '1F469-200D-1F9BC-200D-27A1-FE0F': [],
+  '1F469-200D-1F9BC-200D-27A1-FE0F': ['woman_in_motorized_wheelchair_right'],
   // 🧑‍🦽‍➡️ person in manual wheelchair facing right
-  '1F9D1-200D-1F9BD-200D-27A1-FE0F': [],
+  '1F9D1-200D-1F9BD-200D-27A1-FE0F': ['person_in_manual_wheelchair_right'],
   // 👨‍🦽‍➡️ man in manual wheelchair facing right
-  '1F468-200D-1F9BD-200D-27A1-FE0F': [],
+  '1F468-200D-1F9BD-200D-27A1-FE0F': ['man_in_manual_wheelchair_right'],
   // 👩‍🦽‍➡️ woman in manual wheelchair facing right
-  '1F469-200D-1F9BD-200D-27A1-FE0F': [],
+  '1F469-200D-1F9BD-200D-27A1-FE0F': ['woman_in_manual_wheelchair_right'],
   // 🏃‍➡️ person running facing right
-  '1F3C3-200D-27A1-FE0F': [],
+  '1F3C3-200D-27A1-FE0F': ['person_running_right'],
   // 🏃‍♀️‍➡️ woman running facing right
-  '1F3C3-200D-2640-FE0F-200D-27A1-FE0F': [],
+  '1F3C3-200D-2640-FE0F-200D-27A1-FE0F': ['woman_running_right'],
   // 🏃‍♂️‍➡️ man running facing right
-  '1F3C3-200D-2642-FE0F-200D-27A1-FE0F': [],
+  '1F3C3-200D-2642-FE0F-200D-27A1-FE0F': ['man_running_right'],
   // 🧑‍🧑‍🧒 family: adult, adult, child
-  '1F9D1-200D-1F9D1-200D-1F9D2': [],
+  '1F9D1-200D-1F9D1-200D-1F9D2': ['family_aac'],
   // 🧑‍🧑‍🧒‍🧒 family: adult, adult, child, child
-  '1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2': [],
+  '1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2': ['family_aacc'],
   // 🧑‍🧒 family: adult, child
-  '1F9D1-200D-1F9D2': [],
+  '1F9D1-200D-1F9D2': ['family_ac'],
   // 🧑‍🧒‍🧒 family: adult, child, child
-  '1F9D1-200D-1F9D2-200D-1F9D2': [],
+  '1F9D1-200D-1F9D2-200D-1F9D2': ['family_acc'],
   // 🐦‍🔥 phoenix
-  '1F426-200D-1F525': [],
+  '1F426-200D-1F525': ['phoenix'],
   // 🍋‍🟩 lime
-  '1F34B-200D-1F7E9': [],
+  '1F34B-200D-1F7E9': ['lime'],
   // 🍄‍🟫 brown mushroom
-  '1F344-200D-1F7EB': [],
+  '1F344-200D-1F7EB': ['brown_mushroom'],
   // ⛓️‍💥 broken chain
-  '26D3-FE0F-200D-1F4A5': [],
+  '26D3-FE0F-200D-1F4A5': ['broken_chain'],
 };
