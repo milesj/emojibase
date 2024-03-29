@@ -2,12 +2,12 @@
   "groups": [
     {
       "key": "smileys-emotion",
-      "message": "スマイリーと感情",
+      "message": "顔文字と感情",
       "order": 0
     },
     {
       "key": "people-body",
-      "message": "人体",
+      "message": "人物と体",
       "order": 1
     },
     {
@@ -17,22 +17,22 @@
     },
     {
       "key": "animals-nature",
-      "message": "動物自然",
+      "message": "動物と自然",
       "order": 3
     },
     {
       "key": "food-drink",
-      "message": "飲み物・食べ物",
+      "message": "食べ物と飲み物",
       "order": 4
     },
     {
       "key": "travel-places",
-      "message": "旅行・場所",
+      "message": "旅行と場所",
       "order": 5
     },
     {
       "key": "activities",
-      "message": "有効化",
+      "message": "活動",
       "order": 6
     },
     {
@@ -42,35 +42,35 @@
     },
     {
       "key": "symbols",
-      "message": "シンボル",
+      "message": "記号",
       "order": 8
     },
     {
       "key": "flags",
-      "message": "フラグ",
+      "message": "旗",
       "order": 9
     }
   ],
   "skinTones": [
     {
       "key": "light",
-      "message": "明るい肌のトーン"
+      "message": "明るい肌"
     },
     {
       "key": "medium-light",
-      "message": "中光肌調"
+      "message": "やや明るい肌"
     },
     {
       "key": "medium",
-      "message": "中程度の肌のトーン"
+      "message": "普通の肌"
     },
     {
       "key": "medium-dark",
-      "message": "中暗い肌のトーン"
+      "message": "やや暗い肌"
     },
     {
       "key": "dark",
-      "message": "暗い肌のトーン"
+      "message": "暗い肌"
     }
   ],
   "subgroups": [
@@ -81,57 +81,57 @@
     },
     {
       "key": "face-affection",
-      "message": "愛情顔",
+      "message": "愛嬌のある顔",
       "order": 1
     },
     {
       "key": "face-tongue",
-      "message": "舌の顔",
+      "message": "舌を出した顔",
       "order": 2
     },
     {
       "key": "face-hand",
-      "message": "手で",
+      "message": "手を出した顔",
       "order": 3
     },
     {
       "key": "face-neutral-skeptical",
-      "message": "中立的で懐疑的な顔",
+      "message": "中立／懐疑的な顔",
       "order": 4
     },
     {
       "key": "face-sleepy",
-      "message": "眠そうな顔",
+      "message": "眠たそうな顔",
       "order": 5
     },
     {
       "key": "face-unwell",
-      "message": "体調不良顔",
+      "message": "体調悪そうな顔",
       "order": 6
     },
     {
       "key": "face-hat",
-      "message": "帽子をかぶって",
+      "message": "帽子を被った顔",
       "order": 7
     },
     {
       "key": "face-glasses",
-      "message": "メガネ付き",
+      "message": "メガネを掛けた顔",
       "order": 8
     },
     {
       "key": "face-concerned",
-      "message": "関係",
+      "message": "心配そうな顔",
       "order": 9
     },
     {
       "key": "face-negative",
-      "message": "負",
+      "message": "ネガティブな顔",
       "order": 10
     },
     {
       "key": "face-costume",
-      "message": "衣装を着て、生き物",
+      "message": "仮面を被った顔",
       "order": 11
     },
     {
@@ -146,27 +146,27 @@
     },
     {
       "key": "emotion",
-      "message": "感情",
+      "message": "感情表現",
       "order": 14
     },
     {
       "key": "hand-fingers-open",
-      "message": "指が開いている",
+      "message": "開いた手",
       "order": 15
     },
     {
       "key": "hand-fingers-partial",
-      "message": "手の看板",
+      "message": "ハンドサイン",
       "order": 16
     },
     {
       "key": "hand-single-finger",
-      "message": "指差し",
+      "message": "指を指す",
       "order": 17
     },
     {
       "key": "hand-fingers-closed",
-      "message": "指が閉じた",
+      "message": "握った手",
       "order": 18
     },
     {
@@ -176,17 +176,17 @@
     },
     {
       "key": "hand-prop",
-      "message": "手の小道具",
+      "message": "物を持つ",
       "order": 20
     },
     {
       "key": "body-parts",
-      "message": "身体部分",
+      "message": "身体部位",
       "order": 21
     },
     {
       "key": "person",
-      "message": "人",
+      "message": "人物",
       "order": 22
     },
     {
@@ -196,7 +196,7 @@
     },
     {
       "key": "person-role",
-      "message": "役割とキャリア",
+      "message": "仕事と役割",
       "order": 24
     },
     {
@@ -206,17 +206,17 @@
     },
     {
       "key": "person-activity",
-      "message": "有効化",
+      "message": "活動",
       "order": 26
     },
     {
       "key": "person-sport",
-      "message": "陸上 競技",
+      "message": "運動",
       "order": 27
     },
     {
       "key": "person-resting",
-      "message": "休憩",
+      "message": "休息",
       "order": 28
     },
     {
@@ -236,22 +236,22 @@
     },
     {
       "key": "hair-style",
-      "message": "ヘアスタイル",
+      "message": "髪型",
       "order": 32
     },
     {
       "key": "animal-mammal",
-      "message": "哺乳 類",
+      "message": "哺乳類",
       "order": 33
     },
     {
       "key": "animal-bird",
-      "message": "鳥",
+      "message": "鳥類",
       "order": 34
     },
     {
       "key": "animal-amphibian",
-      "message": "両生 類",
+      "message": "両生類",
       "order": 35
     },
     {
@@ -266,7 +266,7 @@
     },
     {
       "key": "animal-bug",
-      "message": "バグ",
+      "message": "昆虫",
       "order": 38
     },
     {
@@ -291,12 +291,12 @@
     },
     {
       "key": "food-prepared",
-      "message": "調理済み / 準備済み",
+      "message": "料理",
       "order": 43
     },
     {
       "key": "food-asian",
-      "message": "アジア",
+      "message": "アジア料理",
       "order": 44
     },
     {
@@ -306,12 +306,12 @@
     },
     {
       "key": "food-sweet",
-      "message": "お菓子とお菓子",
+      "message": "スイーツとお菓子",
       "order": 46
     },
     {
       "key": "drink",
-      "message": "飲む",
+      "message": "飲み物",
       "order": 47
     },
     {
@@ -326,7 +326,7 @@
     },
     {
       "key": "place-geographic",
-      "message": "地理的な場所",
+      "message": "地理",
       "order": 50
     },
     {
@@ -346,12 +346,12 @@
     },
     {
       "key": "transport-ground",
-      "message": "地上輸送",
+      "message": "陸上輸送",
       "order": 54
     },
     {
       "key": "transport-water",
-      "message": "水輸送",
+      "message": "水運輸送",
       "order": 55
     },
     {
@@ -376,12 +376,12 @@
     },
     {
       "key": "event",
-      "message": "イベントと休日",
+      "message": "祝祭日",
       "order": 60
     },
     {
       "key": "award-medal",
-      "message": "メダルを授与する",
+      "message": "賞とメダル",
       "order": 61
     },
     {
@@ -396,22 +396,22 @@
     },
     {
       "key": "arts-crafts",
-      "message": "芸術・工芸",
+      "message": "芸術と工芸",
       "order": 64
     },
     {
       "key": "clothing",
-      "message": "服",
+      "message": "服装",
       "order": 65
     },
     {
       "key": "sound",
-      "message": "音",
+      "message": "サウンド",
       "order": 66
     },
     {
       "key": "music",
-      "message": "ミュージック",
+      "message": "音楽",
       "order": 67
     },
     {
@@ -431,7 +431,7 @@
     },
     {
       "key": "light-video",
-      "message": "光、フィルム、ビデオ",
+      "message": "光とビデオ",
       "order": 71
     },
     {
@@ -451,7 +451,7 @@
     },
     {
       "key": "writing",
-      "message": "書き込み",
+      "message": "筆記用具",
       "order": 75
     },
     {
@@ -461,12 +461,12 @@
     },
     {
       "key": "lock",
-      "message": "ロックとキー",
+      "message": "鍵と錠前",
       "order": 77
     },
     {
       "key": "tool",
-      "message": "ツール",
+      "message": "道具",
       "order": 78
     },
     {
@@ -476,7 +476,7 @@
     },
     {
       "key": "medical",
-      "message": "メディカル",
+      "message": "医療品",
       "order": 80
     },
     {
@@ -491,12 +491,12 @@
     },
     {
       "key": "transport-sign",
-      "message": "輸送標識",
+      "message": "標識",
       "order": 83
     },
     {
       "key": "warning",
-      "message": "警告記号",
+      "message": "警告",
       "order": 84
     },
     {
@@ -506,22 +506,22 @@
     },
     {
       "key": "religion",
-      "message": "宗教的シンボル",
+      "message": "宗教的記号",
       "order": 86
     },
     {
       "key": "zodiac",
-      "message": "干支",
+      "message": "星座",
       "order": 87
     },
     {
       "key": "av-symbol",
-      "message": "オーディオとビデオのシンボル",
+      "message": "オーディオとビデオの記号",
       "order": 88
     },
     {
       "key": "gender",
-      "message": "ジェンダーサイン",
+      "message": "性別記号",
       "order": 89
     },
     {
@@ -546,7 +546,7 @@
     },
     {
       "key": "keycap",
-      "message": "キーパッド文字",
+      "message": "キーパッドの文字",
       "order": 94
     },
     {
@@ -561,7 +561,7 @@
     },
     {
       "key": "flag",
-      "message": "その他のフラグ",
+      "message": "その他の旗",
       "order": 97
     },
     {
@@ -571,7 +571,7 @@
     },
     {
       "key": "subdivision-flag",
-      "message": "サブディビジョン フラグ",
+      "message": "地域旗",
       "order": 99
     }
   ]
