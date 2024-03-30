@@ -100,7 +100,10 @@
   "3299": "marumi",
   "00A9": "zhu_zuo_quan",
   "00AE": "deng_lu_shang_biao",
-  "203C": "er_chong_bitukurimaku",
+  "203C": [
+    "",
+    "er_chong_bitukurimaku"
+  ],
   "231A": "wan_shi_ji",
   "231B": "sha_shi_ji",
   "23CF": "qu_richu_si",
@@ -155,6 +158,7 @@
     "yuan_zi",
     "yuan_zi_ji_hao"
   ],
+  "269C": "hururudorisu",
   "26A0": "zhu_yi",
   "26A1": [
     "gao_dian_ya",
@@ -238,7 +242,7 @@
   "270F": "qian_bi",
   "271D": "ratennoshi_zi",
   "274C": [
-    "",
+    "batu",
     "batumaku"
   ],
   "274E": [
@@ -483,6 +487,7 @@
   "1F38B": "qi_xi",
   "1F38C": "jiao_chai_sitaqi",
   "1F38D": "men_song",
+  "1F38E": "doru",
   "1F38F": [
     "li_nobori",
     "qi"
@@ -496,7 +501,10 @@
     "riyutuku",
     "xue_sheng_kaban"
   ],
-  "1F393": "zu_ye_mao",
+  "1F393": [
+    "morutarubodo",
+    "zu_ye_mao"
+  ],
   "1F396": "xun_zhang",
   "1F397": "rimaindaribon",
   "1F399": "sutaziomaiku",
@@ -510,7 +518,10 @@
   "1F3A0": "hui_zhuan_mu_ma",
   "1F3A1": "guan_lan_che",
   "1F3A2": "zietutokosuta",
-  "1F3A3": "diao_rigan",
+  "1F3A3": [
+    "diao_rigan",
+    "diao_rigan_toyu"
+  ],
   "1F3A4": "maiku",
   "1F3A5": "bideokamera",
   "1F3A6": "ying_hua",
@@ -782,6 +793,7 @@
   "1F3F5": "barashi_ri",
   "1F3F7": "raberu",
   "1F3F8": "batominton",
+  "1F3F9": "gong_toshi",
   "1F3FA": "anhuora",
   "1F3FB": [
     "ming_ruiji",
@@ -844,18 +856,23 @@
   "1F420": "re_dai_yu",
   "1F421": "hugu",
   "1F422": "gui",
+  "1F423": "fu_hua_sitahiyoko",
   "1F424": "hiyoko",
   "1F425": "hiyoko",
   "1F426": [
     "niao",
     "niao_yan"
   ],
-  "1F427": "pengin",
+  "1F427": [
+    "pengin",
+    "penginnoyan"
+  ],
   "1F428": [
     "koara",
     "koarayan"
   ],
   "1F429": "pudoru",
+  "1F42A": "rakuda",
   "1F42B": "rakuda",
   "1F42C": "iruka",
   "1F42D": "nezuminoyan",
@@ -1139,6 +1156,18 @@
   "1F473-1F3FD": "tabanwojuan_itaren_ton3",
   "1F473-1F3FE": "tabanwojuan_itaren_ton4",
   "1F473-1F3FF": "tabanwojuan_itaren_ton5",
+  "1F474": "lao_ren",
+  "1F474-1F3FB": "lao_ren_ton1",
+  "1F474-1F3FC": "lao_ren_ton2",
+  "1F474-1F3FD": "lao_ren_ton3",
+  "1F474-1F3FE": "lao_ren_ton4",
+  "1F474-1F3FF": "lao_ren_ton5",
+  "1F475": "lao_fu_ren",
+  "1F475-1F3FB": "lao_fu_ren_ton1",
+  "1F475-1F3FC": "lao_fu_ren_ton2",
+  "1F475-1F3FD": "lao_fu_ren_ton3",
+  "1F475-1F3FE": "lao_fu_ren_ton4",
+  "1F475-1F3FF": "lao_fu_ren_ton5",
   "1F476": "chi_tiyan",
   "1F476-1F3FB": "chi_tiyan_ton1",
   "1F476-1F3FC": "chi_tiyan_ton2",
@@ -1443,6 +1472,7 @@
   "1F4AA-1F3FD": "jin_rou_ton3",
   "1F4AA-1F3FE": "jin_rou_ton4",
   "1F4AA-1F3FF": "jin_rou_ton5",
+  "1F4AB": "memai",
   "1F4AC": "hukidasi",
   "1F4AD": "si_uhukidasi",
   "1F4AE": "bai_ihua",
@@ -1452,6 +1482,7 @@
   "1F4B2": "tai_idorusain",
   "1F4B3": "kurezitutokado",
   "1F4B4": "yuan",
+  "1F4B5": "doru",
   "1F4B6": "yuro",
   "1F4B7": "pondo",
   "1F4B8": "yu_nosheng_etaojin",
@@ -1564,7 +1595,10 @@
     "fan_shi_ji_hui_ri",
     "fan_shi_ji_hui_ribotan"
   ],
-  "1F505": "an_ku",
+  "1F505": [
+    "an_ku",
+    "hui_du_botan"
+  ],
   "1F506": [
     "gao_hui_du",
     "ming_rusabotan"
@@ -1613,6 +1647,7 @@
   "1F517": "rinku",
   "1F518": "raziobotan",
   "1F519": "back",
+  "1F51A": "end",
   "1F51B": "on",
   "1F51C": "sibaraku",
   "1F51D": "totupu",
@@ -1661,6 +1696,7 @@
     "xia_garu"
   ],
   "1F549": "omu",
+  "1F54A": "jiu",
   "1F54B": "kaba",
   "1F54C": "mosuku",
   "1F54D": "sinagogu",
@@ -1726,6 +1762,12 @@
   "1F577": "kumo",
   "1F578": "kumonochao",
   "1F579": "ziyoisuteituku",
+  "1F57A": "dansuwosurunan_xing",
+  "1F57A-1F3FB": "dansuwosurunan_xing_ton1",
+  "1F57A-1F3FC": "dansuwosurunan_xing_ton2",
+  "1F57A-1F3FD": "dansuwosurunan_xing_ton3",
+  "1F57A-1F3FE": "dansuwosurunan_xing_ton4",
+  "1F57A-1F3FF": "dansuwosurunan_xing_ton5",
   "1F587": "kututuitakuritupu",
   "1F58A": "pen",
   "1F58B": "wan_nian_bi",
@@ -1751,6 +1793,7 @@
   "1F5A8": "purinta",
   "1F5B1": "mausu",
   "1F5B2": "toratukuboru",
+  "1F5BC": "e_yuan_nohui",
   "1F5C2": "kadoindetukusutabu",
   "1F5C3": "kadohuairubotukusu",
   "1F5C4": "huairukiyabinetuto",
@@ -1775,9 +1818,18 @@
   "1F5FD": "zi_you_nonu_shen",
   "1F5FE": "ri_ben_di_tu",
   "1F5FF": "moai",
-  "1F601": "qing_reyakanayan",
+  "1F600": [
+    "niyakeyan",
+    "niyari"
+  ],
+  "1F601": [
+    "niyaritoxiao_u",
+    "qing_reyakanayan"
+  ],
+  "1F602": "le_simu",
   "1F604": "xiao_yan",
   "1F606": [
+    "da_xiao_i",
     "man_zu",
     "xiao_u"
   ],
@@ -1797,6 +1849,7 @@
     "an_xin_sita",
     "an_xin_sitayan"
   ],
+  "1F60D": "hatoai",
   "1F60E": "totemokuru",
   "1F60F": [
     "niyakeru",
@@ -1804,11 +1857,18 @@
     "niyaniyaxiao_u"
   ],
   "1F610": "zi_ran",
+  "1F611": [
+    "wu_biao_qing",
+    "wu_biao_qing_nayan"
+  ],
   "1F612": [
     "siraketa",
     "siraketayan"
   ],
-  "1F613": "han",
+  "1F613": [
+    "han",
+    "utumukiyan"
+  ],
   "1F614": "wu_si_inihukeru",
   "1F615": [
     "hun_luan_sita",
@@ -1817,6 +1877,15 @@
   "1F616": [
     "kun_huo_sita",
     "kun_huo_sitayan"
+  ],
+  "1F617": [
+    "kisusuru",
+    "kisusuruyan"
+  ],
+  "1F618": "hatonikisu",
+  "1F61E": [
+    "can_nian_datuta",
+    "can_nian_sounayan"
   ],
   "1F61F": [
     "xin_pei_sita",
@@ -1838,9 +1907,17 @@
   "1F623": "nai_eteiru",
   "1F624": "sheng_li",
   "1F625": "bei_siikedoan_xin_sitayan",
+  "1F626": [
+    "nu_ru",
+    "nu_tutayan"
+  ],
   "1F627": [
     "ku_men_yan",
     "ku_nao_sita"
+  ],
+  "1F628": [
+    "kong_reru",
+    "kong_reruyan"
   ],
   "1F629": [
     "pi_reta",
@@ -1854,7 +1931,16 @@
     "pi_reta",
     "pi_reyan"
   ],
+  "1F62C": [
+    "sikameru",
+    "sikametumian"
+  ],
   "1F62D": "da_qi_ki",
+  "1F62E": "kai_itakou",
+  "1F62F": [
+    "jing_kana",
+    "jing_kanayan"
+  ],
   "1F630": [
     "leng_yahan",
     "xin_pei_sita",
@@ -1868,18 +1954,32 @@
     "jing_ita",
     "jing_kiyan"
   ],
+  "1F633": "huratusiyusareta",
   "1F634": [
     "qin_teiru",
     "qin_yan"
   ],
-  "1F637": "jia_mian",
+  "1F635": [
+    "memaiyan",
+    "notukuauto"
+  ],
+  "1F637": [
+    "jia_mian",
+    "yi_liao_yong_masuku"
+  ],
   "1F638": "xiao_yan_nomao",
+  "1F639": "le_simumao",
+  "1F63A": "niyaritosurumao",
+  "1F63B": "hatoainomao",
+  "1F63D": "kisusurumao",
   "1F63E": "ao_netamao",
   "1F63F": "qi_itamao",
   "1F640": [
     "pi_retamao",
     "zhen_eshang_garumao"
   ],
+  "1F641": "shao_sisikametumian_sitayan",
+  "1F642": "shao_sixiao_tutayan",
   "1F643": "hitukurifan_tutayan",
   "1F644": "mu_wohui_su",
   "1F645": "nonoziesuziyawosururen",
@@ -1912,12 +2012,32 @@
     "ok_ton5",
     "oknoziesutiyawosururen_ton5"
   ],
-  "1F647": "xie_ruren",
-  "1F647-1F3FB": "xie_ruren_ton1",
-  "1F647-1F3FC": "xie_ruren_ton2",
-  "1F647-1F3FD": "xie_ruren_ton3",
-  "1F647-1F3FE": "xie_ruren_ton4",
-  "1F647-1F3FF": "xie_ruren_ton5",
+  "1F647": [
+    "ozigi",
+    "xie_ruren"
+  ],
+  "1F647-1F3FB": [
+    "ozigi_ton1",
+    "xie_ruren_ton1"
+  ],
+  "1F647-1F3FC": [
+    "ozigi_ton2",
+    "xie_ruren_ton2"
+  ],
+  "1F647-1F3FD": [
+    "ozigi_ton3",
+    "xie_ruren_ton3"
+  ],
+  "1F647-1F3FE": [
+    "ozigi_ton4",
+    "xie_ruren_ton4"
+  ],
+  "1F647-1F3FF": [
+    "ozigi_ton5",
+    "xie_ruren_ton5"
+  ],
+  "1F649": "wen_kayuan",
+  "1F64A": "yan_wayuan",
   "1F64B": "ju_shou_sururen",
   "1F64B-1F3FB": "ju_shou_sururen_ton1",
   "1F64B-1F3FC": "ju_shou_sururen_ton2",
@@ -1960,12 +2080,30 @@
     "hukuretumian_ton5",
     "sekusinaren_ton5"
   ],
-  "1F64F": "qi_ru",
-  "1F64F-1F3FB": "qi_ru_ton1",
-  "1F64F-1F3FC": "qi_ru_ton2",
-  "1F64F-1F3FD": "qi_ru_ton3",
-  "1F64F-1F3FE": "qi_ru_ton4",
-  "1F64F-1F3FF": "qi_ru_ton5",
+  "1F64F": [
+    "qi_ru",
+    "shou_wozu_mu"
+  ],
+  "1F64F-1F3FB": [
+    "qi_ru_ton1",
+    "shou_wozu_mu_ton1"
+  ],
+  "1F64F-1F3FC": [
+    "qi_ru_ton2",
+    "shou_wozu_mu_ton2"
+  ],
+  "1F64F-1F3FD": [
+    "qi_ru_ton3",
+    "shou_wozu_mu_ton3"
+  ],
+  "1F64F-1F3FE": [
+    "qi_ru_ton4",
+    "shou_wozu_mu_ton4"
+  ],
+  "1F64F-1F3FF": [
+    "qi_ru_ton5",
+    "shou_wozu_mu_ton5"
+  ],
   "1F680": "roketuto",
   "1F681": "herikoputa",
   "1F682": "ji_guan_che",
@@ -2034,6 +2172,7 @@
     "botojing_ji_wosururen_ton5",
     "kogiboto_ton5"
   ],
+  "1F6A4": "supidoboto",
   "1F6A5": "xin_hao_ji",
   "1F6A6": "zong_noxin_hao_ji",
   "1F6A7": "gong_shi_zhong",
@@ -2198,9 +2337,15 @@
   "1F6D5": "hinzujiao_noosi",
   "1F6D6": "wu_gen",
   "1F6D7": "erebeta",
-  "1F6DD": "hua_ritai",
+  "1F6DD": [
+    "hua_ritai",
+    "suraido"
+  ],
   "1F6DE": "hoiru",
-  "1F6DF": "fu_kilun",
+  "1F6DF": [
+    "fu_kilun",
+    "ringubui"
+  ],
   "1F6E0": "tonkatitorenti",
   "1F6E1": "sirudo",
   "1F6E2": "doramufou",
@@ -2236,6 +2381,7 @@
   "1F7E9": "lu_nosi_jiao",
   "1F7EA": "zi_nosi_jiao",
   "1F7EB": "cha_se_isi_jiao",
+  "1F7F0": "tai_iikoru",
   "1F90D": "bai_ihato",
   "1F90E": "cha_se_ihato",
   "1F910": "zitupadekou_wobi_ziru",
@@ -2285,6 +2431,12 @@
   "1FAF1-1F3FF-200D-1FAF2-1F3FC": "wo_shou_ton5-2",
   "1FAF1-1F3FF-200D-1FAF2-1F3FD": "wo_shou_ton5-3",
   "1FAF1-1F3FF-200D-1FAF2-1F3FE": "wo_shou_ton5-4",
+  "1F91E": "zhi_wojiao_chai_suru",
+  "1F91E-1F3FB": "zhi_wojiao_chai_suru_ton1",
+  "1F91E-1F3FC": "zhi_wojiao_chai_suru_ton2",
+  "1F91E-1F3FD": "zhi_wojiao_chai_suru_ton3",
+  "1F91E-1F3FE": "zhi_wojiao_chai_suru_ton4",
+  "1F91E-1F3FF": "zhi_wojiao_chai_suru_ton5",
   "1F920": [
     "kauboi",
     "kauboinoyan"
@@ -2295,6 +2447,14 @@
   ],
   "1F922": "tu_kiqi",
   "1F923": "ma_lu_xiao_i",
+  "1F924": [
+    "yodarewochui_rasiteiru",
+    "yodarewochui_rasiteiruyan"
+  ],
+  "1F925": [
+    "xu_tuki",
+    "xu_tukinoyan"
+  ],
   "1F926": "shou_deyan_wofu_uren",
   "1F926-1F3FB": "shou_deyan_wofu_uren_ton1",
   "1F926-1F3FC": "shou_deyan_wofu_uren_ton2",
@@ -2307,13 +2467,29 @@
     "hua_ji_na",
     "hua_ji_nayan"
   ],
-  "1F92E": "tu_ku",
+  "1F92B": [
+    "jing_kani",
+    "jing_kanisuruyan"
+  ],
+  "1F92C": "fang_song_jin_zhi_yong_yu",
+  "1F92D": "kou_woshou_deyi_eru",
+  "1F92E": [
+    "tu_ku",
+    "yan_mian_ou_tu"
+  ],
+  "1F92F": "bao_fa_tou",
   "1F930": "ren_fu",
   "1F930-1F3FB": "ren_fu_ton1",
   "1F930-1F3FC": "ren_fu_ton2",
   "1F930-1F3FD": "ren_fu_ton3",
   "1F930-1F3FE": "ren_fu_ton4",
   "1F930-1F3FF": "ren_fu_ton5",
+  "1F931": "shou_ru",
+  "1F931-1F3FB": "shou_ru_ton1",
+  "1F931-1F3FC": "shou_ru_ton2",
+  "1F931-1F3FD": "shou_ru_ton3",
+  "1F931-1F3FE": "shou_ru_ton4",
+  "1F931-1F3FF": "shou_ru_ton5",
   "1F933": "zi_cuo_ri",
   "1F933-1F3FB": "zi_cuo_ri_ton1",
   "1F933-1F3FC": "zi_cuo_ri_ton2",
@@ -2356,12 +2532,30 @@
     "jian_wosukumeru_ton5",
     "jian_wosukumeruren_ton5"
   ],
-  "1F938": "ce_zhuan_sururen",
-  "1F938-1F3FB": "ce_zhuan_sururen_ton1",
-  "1F938-1F3FC": "ce_zhuan_sururen_ton2",
-  "1F938-1F3FD": "ce_zhuan_sururen_ton3",
-  "1F938-1F3FE": "ce_zhuan_sururen_ton4",
-  "1F938-1F3FF": "ce_zhuan_sururen_ton5",
+  "1F938": [
+    "ce_zhuan",
+    "ce_zhuan_sururen"
+  ],
+  "1F938-1F3FB": [
+    "ce_zhuan_ton1",
+    "ce_zhuan_sururen_ton1"
+  ],
+  "1F938-1F3FC": [
+    "ce_zhuan_ton2",
+    "ce_zhuan_sururen_ton2"
+  ],
+  "1F938-1F3FD": [
+    "ce_zhuan_ton3",
+    "ce_zhuan_sururen_ton3"
+  ],
+  "1F938-1F3FE": [
+    "ce_zhuan_ton4",
+    "ce_zhuan_sururen_ton4"
+  ],
+  "1F938-1F3FF": [
+    "ce_zhuan_ton5",
+    "ce_zhuan_sururen_ton5"
+  ],
   "1F939": [
     "ziyagura",
     "ziyaguringu",
@@ -2498,6 +2692,7 @@
   "1F95C": "pinatutu",
   "1F95D": "kiui",
   "1F95E": "pankeki",
+  "1F95F": "tuan_zi",
   "1F960": "huotiyunkutuki",
   "1F961": "chi_tigui_riyong_noxiang",
   "1F962": "zhu",
@@ -2533,11 +2728,18 @@
   "1F977-1F3FD": "ren_zhe_ton3",
   "1F977-1F3FE": "ren_zhe_ton4",
   "1F977-1F3FF": "ren_zhe_ton5",
+  "1F978": [
+    "bian_zhuang_sita",
+    "bian_zhuang_sitayan"
+  ],
   "1F979": [
     "lei_mu",
     "run_ndamu"
   ],
-  "1F97A": "ken_yuan_suru",
+  "1F97A": [
+    "ken_yuan_suru",
+    "ken_yuan_suruyan"
+  ],
   "1F97B": "sari",
   "1F97C": "yan_jiu_zhao",
   "1F97D": "goguru",
@@ -2840,13 +3042,17 @@
   "1FA72": "burihu",
   "1FA73": "siyotu",
   "1FA74": "bitisandaru",
+  "1FA75": "shui_se_nohato",
   "1FA76": "hui_se_nohato",
+  "1FA77": "pinkunohato",
+  "1FA78": "xie_hen",
   "1FA79": [
     "ban_chuang_gao",
     "bandoeido"
   ],
   "1FA7A": "ting_zhen_qi",
   "1FA7B": "xxian",
+  "1FA7C": "song_xie_zhang",
   "1FA80": "yoyo",
   "1FA81": "tako",
   "1FA82": "parasiyuto",
@@ -2854,6 +3060,8 @@
   "1FA84": "mo_fa_nozhang",
   "1FA85": "piniyata",
   "1FA86": "matoriyosikaren_xing",
+  "1FA87": "marakasu",
+  "1FA88": "huruto",
   "1FA90": [
     "ringunofu_itahuo_xing",
     "tu_xing"
@@ -2861,6 +3069,7 @@
   "1FA91": "yi_zi",
   "1FA92": "kamisori",
   "1FA93": "fu",
+  "1FA94": "deiyaranpu",
   "1FA95": "banziyo",
   "1FA96": "jun_yong_mao",
   "1FA97": "akodeion",
@@ -2889,6 +3098,8 @@
   "1FAAA": "idkado",
   "1FAAB": "di_batuteri",
   "1FAAC": "hamusa",
+  "1FAAE": "heapin",
+  "1FAAF": "kanda",
   "1FAB0": "hae",
   "1FAB1": "mimizu",
   "1FAB2": "kun_chong",
@@ -2903,9 +3114,19 @@
     "kong_kichao"
   ],
   "1FABA": "chao_toluan",
+  "1FABB": "hiyasinsu",
+  "1FABC": "kurage",
+  "1FABF": "gatiyou",
   "1FAC0": "jie_pou_xue_de_xin_zang",
   "1FAC1": "fei",
   "1FAC2": "hagusururen",
+  "1FAC5": "wang_zu",
+  "1FAC5-1F3FB": "wang_zu_ton1",
+  "1FAC5-1F3FC": "wang_zu_ton2",
+  "1FAC5-1F3FD": "wang_zu_ton3",
+  "1FAC5-1F3FE": "wang_zu_ton4",
+  "1FAC5-1F3FF": "wang_zu_ton5",
+  "1FACF": "donki",
   "1FAD0": "buruberi",
   "1FAD1": "piman",
   "1FAD2": "oribu",
@@ -2918,6 +3139,8 @@
   ],
   "1FAD8": "mame",
   "1FAD9": "ping",
+  "1FADA": "sheng_jiang",
+  "1FADB": "endou",
   "1FAE0": [
     "rong_keru",
     "rong_ketayan"
@@ -2927,9 +3150,14 @@
     "jing_li_suruyan"
   ],
   "1FAE2": "aegu",
+  "1FAE3": "si_ku",
   "1FAE5": "dian_xian_noyan",
   "1FAE6": "chun_wonie_mu",
   "1FAE7": "pao",
+  "1FAE8": [
+    "zhen_eru",
+    "zhen_etayan"
+  ],
   "1FAF5": "zheng_mian_wozhi_chai_su",
   "1FAF5-1F3FB": "zheng_mian_wozhi_chai_su_ton1",
   "1FAF5-1F3FC": "zheng_mian_wozhi_chai_su_ton2",
@@ -3037,7 +3265,10 @@
     "berugi",
     "beruginoguo_qi"
   ],
-  "1F1E7-1F1EB": "burukinahuasonoguo_qi",
+  "1F1E7-1F1EB": [
+    "burukinahuaso",
+    "burukinahuasonoguo_qi"
+  ],
   "1F1E7-1F1EC": [
     "burugaria",
     "burugarianoguo_qi"
@@ -3046,7 +3277,10 @@
     "baren",
     "barennoguo_qi"
   ],
-  "1F1E7-1F1EE": "burunzinoguo_qi",
+  "1F1E7-1F1EE": [
+    "burunzi",
+    "burunzinoguo_qi"
+  ],
   "1F1E7-1F1EF": [
     "benan",
     "benannoguo_qi"
@@ -3083,7 +3317,10 @@
     "butan",
     "butannoguo_qi"
   ],
-  "1F1E7-1F1FB": "bubedao_noqi",
+  "1F1E7-1F1FB": [
+    "bubedao",
+    "bubedao_noqi"
+  ],
   "1F1E7-1F1FC": [
     "botuwana",
     "botuwananoguo_qi"
@@ -3156,7 +3393,10 @@
     "kiyuba",
     "kiyubanoguo_qi"
   ],
-  "1F1E8-1F1FB": "kabovuerudenoguo_qi",
+  "1F1E8-1F1FB": [
+    "kaboberude",
+    "kabovuerudenoguo_qi"
+  ],
   "1F1E8-1F1FC": [
     "kiyuraso",
     "kiyurasodao_noqi"
@@ -3178,8 +3418,14 @@
     "doitu",
     "doitunoguo_qi"
   ],
-  "1F1E9-1F1EC": "deiegogarusiadao_noqi",
-  "1F1E9-1F1EF": "zibutinoguo_qi",
+  "1F1E9-1F1EC": [
+    "deiegogarusia",
+    "deiegogarusiadao_noqi"
+  ],
+  "1F1E9-1F1EF": [
+    "zibuti",
+    "zibutinoguo_qi"
+  ],
   "1F1E9-1F1F0": [
     "denmaku",
     "denmakunoguo_qi"
@@ -3196,7 +3442,10 @@
     "angora",
     "aruzierianoguo_qi"
   ],
-  "1F1EA-1F1E6": "seutatomeririyanoqi",
+  "1F1EA-1F1E6": [
+    "seutameririya",
+    "seutatomeririyanoqi"
+  ],
   "1F1EA-1F1E8": [
     "ekuadoru",
     "ekuadorunoguo_qi"
@@ -3398,7 +3647,10 @@
     "itaria",
     "itarianoguo_qi"
   ],
-  "1F1EF-1F1EA": "ziyazinoqi",
+  "1F1EF-1F1EA": [
+    "ziyazi",
+    "ziyazinoqi"
+  ],
   "1F1EF-1F1F2": [
     "ziyamaika",
     "ziyamaikanoguo_qi"
@@ -3476,7 +3728,10 @@
     "riberia",
     "riberianoguo_qi"
   ],
-  "1F1F1-1F1F8": "resotonoguo_qi",
+  "1F1F1-1F1F8": [
+    "resoto",
+    "resotonoguo_qi"
+  ],
   "1F1F1-1F1F9": [
     "ritoania",
     "ritoanianoguo_qi"
@@ -3972,6 +4227,102 @@
     "ueruzu",
     "ueruzunoqi"
   ],
+  "1F468-200D-2696-FE0F": "shen_pan_yuan_nonan_xing",
+  "1F468-1F3FB-200D-2696-FE0F": "shen_pan_yuan_nonan_xing_ton1",
+  "1F468-1F3FC-200D-2696-FE0F": "shen_pan_yuan_nonan_xing_ton2",
+  "1F468-1F3FD-200D-2696-FE0F": "shen_pan_yuan_nonan_xing_ton3",
+  "1F468-1F3FE-200D-2696-FE0F": "shen_pan_yuan_nonan_xing_ton4",
+  "1F468-1F3FF-200D-2696-FE0F": "shen_pan_yuan_nonan_xing_ton5",
+  "1F468-200D-2708-FE0F": "pairotutononan_xing",
+  "1F468-1F3FB-200D-2708-FE0F": "pairotutononan_xing_ton1",
+  "1F468-1F3FC-200D-2708-FE0F": "pairotutononan_xing_ton2",
+  "1F468-1F3FD-200D-2708-FE0F": "pairotutononan_xing_ton3",
+  "1F468-1F3FE-200D-2708-FE0F": "pairotutononan_xing_ton4",
+  "1F468-1F3FF-200D-2708-FE0F": "pairotutononan_xing_ton5",
+  "1F468-200D-1F33E": "nong_fu_nonan_xing",
+  "1F468-1F3FB-200D-1F33E": "nong_fu_nonan_xing_ton1",
+  "1F468-1F3FC-200D-1F33E": "nong_fu_nonan_xing_ton2",
+  "1F468-1F3FD-200D-1F33E": "nong_fu_nonan_xing_ton3",
+  "1F468-1F3FE-200D-1F33E": "nong_fu_nonan_xing_ton4",
+  "1F468-1F3FF-200D-1F33E": "nong_fu_nonan_xing_ton5",
+  "1F468-200D-1F373": "kotukunonan_xing",
+  "1F468-1F3FB-200D-1F373": "kotukunonan_xing_ton1",
+  "1F468-1F3FC-200D-1F373": "kotukunonan_xing_ton2",
+  "1F468-1F3FD-200D-1F373": "kotukunonan_xing_ton3",
+  "1F468-1F3FE-200D-1F373": "kotukunonan_xing_ton4",
+  "1F468-1F3FF-200D-1F373": "kotukunonan_xing_ton5",
+  "1F468-200D-1F37C": "chi_zi_woayasunan_xing",
+  "1F468-1F3FB-200D-1F37C": "chi_zi_woayasunan_xing_ton1",
+  "1F468-1F3FC-200D-1F37C": "chi_zi_woayasunan_xing_ton2",
+  "1F468-1F3FD-200D-1F37C": "chi_zi_woayasunan_xing_ton3",
+  "1F468-1F3FE-200D-1F37C": "chi_zi_woayasunan_xing_ton4",
+  "1F468-1F3FF-200D-1F37C": "chi_zi_woayasunan_xing_ton5",
+  "1F468-200D-1F393": "nan_zi_xue_sheng",
+  "1F468-1F3FB-200D-1F393": "nan_zi_xue_sheng_ton1",
+  "1F468-1F3FC-200D-1F393": "nan_zi_xue_sheng_ton2",
+  "1F468-1F3FD-200D-1F393": "nan_zi_xue_sheng_ton3",
+  "1F468-1F3FE-200D-1F393": "nan_zi_xue_sheng_ton4",
+  "1F468-1F3FF-200D-1F393": "nan_zi_xue_sheng_ton5",
+  "1F468-200D-1F3A4": "ge_shou_nonan_xing",
+  "1F468-1F3FB-200D-1F3A4": "ge_shou_nonan_xing_ton1",
+  "1F468-1F3FC-200D-1F3A4": "ge_shou_nonan_xing_ton2",
+  "1F468-1F3FD-200D-1F3A4": "ge_shou_nonan_xing_ton3",
+  "1F468-1F3FE-200D-1F3A4": "ge_shou_nonan_xing_ton4",
+  "1F468-1F3FF-200D-1F3A4": "ge_shou_nonan_xing_ton5",
+  "1F468-200D-1F3A8": "yun_shu_jia_nonan_xing",
+  "1F468-1F3FB-200D-1F3A8": "yun_shu_jia_nonan_xing_ton1",
+  "1F468-1F3FC-200D-1F3A8": "yun_shu_jia_nonan_xing_ton2",
+  "1F468-1F3FD-200D-1F3A8": "yun_shu_jia_nonan_xing_ton3",
+  "1F468-1F3FE-200D-1F3A8": "yun_shu_jia_nonan_xing_ton4",
+  "1F468-1F3FF-200D-1F3A8": "yun_shu_jia_nonan_xing_ton5",
+  "1F468-200D-1F3ED": "gong_chang_lao_dong_zhe_nonan_xing",
+  "1F468-1F3FB-200D-1F3ED": "gong_chang_lao_dong_zhe_nonan_xing_ton1",
+  "1F468-1F3FC-200D-1F3ED": "gong_chang_lao_dong_zhe_nonan_xing_ton2",
+  "1F468-1F3FD-200D-1F3ED": "gong_chang_lao_dong_zhe_nonan_xing_ton3",
+  "1F468-1F3FE-200D-1F3ED": "gong_chang_lao_dong_zhe_nonan_xing_ton4",
+  "1F468-1F3FF-200D-1F3ED": "gong_chang_lao_dong_zhe_nonan_xing_ton5",
+  "1F468-200D-1F4BC": "ohuisudedong_kunan_xing",
+  "1F468-1F3FB-200D-1F4BC": "ohuisudedong_kunan_xing_ton1",
+  "1F468-1F3FC-200D-1F4BC": "ohuisudedong_kunan_xing_ton2",
+  "1F468-1F3FD-200D-1F4BC": "ohuisudedong_kunan_xing_ton3",
+  "1F468-1F3FE-200D-1F4BC": "ohuisudedong_kunan_xing_ton4",
+  "1F468-1F3FF-200D-1F4BC": "ohuisudedong_kunan_xing_ton5",
+  "1F468-200D-1F527": "mekanitukunonan_xing",
+  "1F468-1F3FB-200D-1F527": "mekanitukunonan_xing_ton1",
+  "1F468-1F3FC-200D-1F527": "mekanitukunonan_xing_ton2",
+  "1F468-1F3FD-200D-1F527": "mekanitukunonan_xing_ton3",
+  "1F468-1F3FE-200D-1F527": "mekanitukunonan_xing_ton4",
+  "1F468-1F3FF-200D-1F527": "mekanitukunonan_xing_ton5",
+  "1F468-200D-1F52C": "ke_xue_zhe_nonan_xing",
+  "1F468-1F3FB-200D-1F52C": "ke_xue_zhe_nonan_xing_ton1",
+  "1F468-1F3FC-200D-1F52C": "ke_xue_zhe_nonan_xing_ton2",
+  "1F468-1F3FD-200D-1F52C": "ke_xue_zhe_nonan_xing_ton3",
+  "1F468-1F3FE-200D-1F52C": "ke_xue_zhe_nonan_xing_ton4",
+  "1F468-1F3FF-200D-1F52C": "ke_xue_zhe_nonan_xing_ton5",
+  "1F468-200D-1F680": "yu_zhou_fei_xing_shi_nonan_xing",
+  "1F468-1F3FB-200D-1F680": "yu_zhou_fei_xing_shi_nonan_xing_ton1",
+  "1F468-1F3FC-200D-1F680": "yu_zhou_fei_xing_shi_nonan_xing_ton2",
+  "1F468-1F3FD-200D-1F680": "yu_zhou_fei_xing_shi_nonan_xing_ton3",
+  "1F468-1F3FE-200D-1F680": "yu_zhou_fei_xing_shi_nonan_xing_ton4",
+  "1F468-1F3FF-200D-1F680": "yu_zhou_fei_xing_shi_nonan_xing_ton5",
+  "1F468-200D-1F692": "xiao_fang_shi_nonan_xing",
+  "1F468-1F3FB-200D-1F692": "xiao_fang_shi_nonan_xing_ton1",
+  "1F468-1F3FC-200D-1F692": "xiao_fang_shi_nonan_xing_ton2",
+  "1F468-1F3FD-200D-1F692": "xiao_fang_shi_nonan_xing_ton3",
+  "1F468-1F3FE-200D-1F692": "xiao_fang_shi_nonan_xing_ton4",
+  "1F468-1F3FF-200D-1F692": "xiao_fang_shi_nonan_xing_ton5",
+  "1F468-200D-1F9AF": "bai_zhang_wochi_tunan_xing",
+  "1F468-1F3FB-200D-1F9AF": "bai_zhang_wochi_tunan_xing_ton1",
+  "1F468-1F3FC-200D-1F9AF": "bai_zhang_wochi_tunan_xing_ton2",
+  "1F468-1F3FD-200D-1F9AF": "bai_zhang_wochi_tunan_xing_ton3",
+  "1F468-1F3FE-200D-1F9AF": "bai_zhang_wochi_tunan_xing_ton4",
+  "1F468-1F3FF-200D-1F9AF": "bai_zhang_wochi_tunan_xing_ton5",
+  "1F468-200D-1F9BD": "che_yi_zi_nonan_xing",
+  "1F468-1F3FB-200D-1F9BD": "che_yi_zi_nonan_xing_ton1",
+  "1F468-1F3FC-200D-1F9BD": "che_yi_zi_nonan_xing_ton2",
+  "1F468-1F3FD-200D-1F9BD": "che_yi_zi_nonan_xing_ton3",
+  "1F468-1F3FE-200D-1F9BD": "che_yi_zi_nonan_xing_ton4",
+  "1F468-1F3FF-200D-1F9BD": "che_yi_zi_nonan_xing_ton5",
   "1F469-200D-1F33E": "nu_xing_nong_fu",
   "1F469-1F3FB-200D-1F33E": "nu_xing_nong_fu_ton1",
   "1F469-1F3FC-200D-1F33E": "nu_xing_nong_fu_ton2",
@@ -4122,6 +4473,139 @@
   "1F9D1-1F3FD-200D-1F9BD": "che_yi_zi_nicheng_ruren_ton3",
   "1F9D1-1F3FE-200D-1F9BD": "che_yi_zi_nicheng_ruren_ton4",
   "1F9D1-1F3FF-200D-1F9BD": "che_yi_zi_nicheng_ruren_ton5",
+  "26F9-FE0F-200D-2642-FE0F": "basuketutowosurunan_xing",
+  "26F9-1F3FB-200D-2642-FE0F": "basuketutowosurunan_xing_ton1",
+  "26F9-1F3FC-200D-2642-FE0F": "basuketutowosurunan_xing_ton2",
+  "26F9-1F3FD-200D-2642-FE0F": "basuketutowosurunan_xing_ton3",
+  "26F9-1F3FE-200D-2642-FE0F": "basuketutowosurunan_xing_ton4",
+  "26F9-1F3FF-200D-2642-FE0F": "basuketutowosurunan_xing_ton5",
+  "1F3C3-200D-2642-FE0F": "zou_runan_xing",
+  "1F3C3-1F3FB-200D-2642-FE0F": "zou_runan_xing_ton1",
+  "1F3C3-1F3FC-200D-2642-FE0F": "zou_runan_xing_ton2",
+  "1F3C3-1F3FD-200D-2642-FE0F": "zou_runan_xing_ton3",
+  "1F3C3-1F3FE-200D-2642-FE0F": "zou_runan_xing_ton4",
+  "1F3C3-1F3FF-200D-2642-FE0F": "zou_runan_xing_ton5",
+  "1F3C3-200D-2642-FE0F-200D-27A1-FE0F": "you_nizou_runan_xing",
+  "1F3C3-1F3FB-200D-2642-FE0F-200D-27A1-FE0F": "you_nizou_runan_xing_ton1",
+  "1F3C3-1F3FC-200D-2642-FE0F-200D-27A1-FE0F": "you_nizou_runan_xing_ton2",
+  "1F3C3-1F3FD-200D-2642-FE0F-200D-27A1-FE0F": "you_nizou_runan_xing_ton3",
+  "1F3C3-1F3FE-200D-2642-FE0F-200D-27A1-FE0F": "you_nizou_runan_xing_ton4",
+  "1F3C3-1F3FF-200D-2642-FE0F-200D-27A1-FE0F": "you_nizou_runan_xing_ton5",
+  "1F3CC-FE0F-200D-2642-FE0F": "goruhuwosurunan_xing",
+  "1F3CC-1F3FB-200D-2642-FE0F": "goruhuwosurunan_xing_ton1",
+  "1F3CC-1F3FC-200D-2642-FE0F": "goruhuwosurunan_xing_ton2",
+  "1F3CC-1F3FD-200D-2642-FE0F": "goruhuwosurunan_xing_ton3",
+  "1F3CC-1F3FE-200D-2642-FE0F": "goruhuwosurunan_xing_ton4",
+  "1F3CC-1F3FF-200D-2642-FE0F": "goruhuwosurunan_xing_ton5",
+  "1F46E-200D-2642-FE0F": "jing_cha_guan_nonan_xing",
+  "1F46E-1F3FB-200D-2642-FE0F": "jing_cha_guan_nonan_xing_ton1",
+  "1F46E-1F3FC-200D-2642-FE0F": "jing_cha_guan_nonan_xing_ton2",
+  "1F46E-1F3FD-200D-2642-FE0F": "jing_cha_guan_nonan_xing_ton3",
+  "1F46E-1F3FE-200D-2642-FE0F": "jing_cha_guan_nonan_xing_ton4",
+  "1F46E-1F3FF-200D-2642-FE0F": "jing_cha_guan_nonan_xing_ton5",
+  "1F470-200D-2642-FE0F": "beruwobei_tutanan_xing",
+  "1F470-1F3FB-200D-2642-FE0F": "beruwobei_tutanan_xing_ton1",
+  "1F470-1F3FC-200D-2642-FE0F": "beruwobei_tutanan_xing_ton2",
+  "1F470-1F3FD-200D-2642-FE0F": "beruwobei_tutanan_xing_ton3",
+  "1F470-1F3FE-200D-2642-FE0F": "beruwobei_tutanan_xing_ton4",
+  "1F470-1F3FF-200D-2642-FE0F": "beruwobei_tutanan_xing_ton5",
+  "1F471-200D-2642-FE0F": "burondononan_xing",
+  "1F471-1F3FB-200D-2642-FE0F": "burondononan_xing_ton1",
+  "1F471-1F3FC-200D-2642-FE0F": "burondononan_xing_ton2",
+  "1F471-1F3FD-200D-2642-FE0F": "burondononan_xing_ton3",
+  "1F471-1F3FE-200D-2642-FE0F": "burondononan_xing_ton4",
+  "1F471-1F3FF-200D-2642-FE0F": "burondononan_xing_ton5",
+  "1F477-200D-2642-FE0F": "jian_she_zuo_ye_yuan_nonan_xing",
+  "1F477-1F3FB-200D-2642-FE0F": "jian_she_zuo_ye_yuan_nonan_xing_ton1",
+  "1F477-1F3FC-200D-2642-FE0F": "jian_she_zuo_ye_yuan_nonan_xing_ton2",
+  "1F477-1F3FD-200D-2642-FE0F": "jian_she_zuo_ye_yuan_nonan_xing_ton3",
+  "1F477-1F3FE-200D-2642-FE0F": "jian_she_zuo_ye_yuan_nonan_xing_ton4",
+  "1F477-1F3FF-200D-2642-FE0F": "jian_she_zuo_ye_yuan_nonan_xing_ton5",
+  "1F482-200D-2642-FE0F": "jing_bei_yuan_nonan_xing",
+  "1F482-1F3FB-200D-2642-FE0F": "jing_bei_yuan_nonan_xing_ton1",
+  "1F482-1F3FC-200D-2642-FE0F": "jing_bei_yuan_nonan_xing_ton2",
+  "1F482-1F3FD-200D-2642-FE0F": "jing_bei_yuan_nonan_xing_ton3",
+  "1F482-1F3FE-200D-2642-FE0F": "jing_bei_yuan_nonan_xing_ton4",
+  "1F482-1F3FF-200D-2642-FE0F": "jing_bei_yuan_nonan_xing_ton5",
+  "1F575-FE0F-200D-2642-FE0F": "tan_zhen_nonan_xing",
+  "1F575-1F3FB-200D-2642-FE0F": "tan_zhen_nonan_xing_ton1",
+  "1F575-1F3FC-200D-2642-FE0F": "tan_zhen_nonan_xing_ton2",
+  "1F575-1F3FD-200D-2642-FE0F": "tan_zhen_nonan_xing_ton3",
+  "1F575-1F3FE-200D-2642-FE0F": "tan_zhen_nonan_xing_ton4",
+  "1F575-1F3FF-200D-2642-FE0F": "tan_zhen_nonan_xing_ton5",
+  "1F647-200D-2642-FE0F": "oci_yi_wosurunan_xing",
+  "1F647-1F3FB-200D-2642-FE0F": "oci_yi_wosurunan_xing_ton1",
+  "1F647-1F3FC-200D-2642-FE0F": "oci_yi_wosurunan_xing_ton2",
+  "1F647-1F3FD-200D-2642-FE0F": "oci_yi_wosurunan_xing_ton3",
+  "1F647-1F3FE-200D-2642-FE0F": "oci_yi_wosurunan_xing_ton4",
+  "1F647-1F3FF-200D-2642-FE0F": "oci_yi_wosurunan_xing_ton5",
+  "1F64B-200D-2642-FE0F": "shou_woju_gerunan_xing",
+  "1F64B-1F3FB-200D-2642-FE0F": "shou_woju_gerunan_xing_ton1",
+  "1F64B-1F3FC-200D-2642-FE0F": "shou_woju_gerunan_xing_ton2",
+  "1F64B-1F3FD-200D-2642-FE0F": "shou_woju_gerunan_xing_ton3",
+  "1F64B-1F3FE-200D-2642-FE0F": "shou_woju_gerunan_xing_ton4",
+  "1F64B-1F3FF-200D-2642-FE0F": "shou_woju_gerunan_xing_ton5",
+  "1F64E-200D-2642-FE0F": "kou_wotogaraseteirunan_xing",
+  "1F64E-1F3FB-200D-2642-FE0F": "kou_wotogaraseteirunan_xing_ton1",
+  "1F64E-1F3FC-200D-2642-FE0F": "kou_wotogaraseteirunan_xing_ton2",
+  "1F64E-1F3FD-200D-2642-FE0F": "kou_wotogaraseteirunan_xing_ton3",
+  "1F64E-1F3FE-200D-2642-FE0F": "kou_wotogaraseteirunan_xing_ton4",
+  "1F64E-1F3FF-200D-2642-FE0F": "kou_wotogaraseteirunan_xing_ton5",
+  "1F6A3-200D-2642-FE0F": "botowocao_gunan_xing",
+  "1F6A3-1F3FB-200D-2642-FE0F": "botowocao_gunan_xing_ton1",
+  "1F6A3-1F3FC-200D-2642-FE0F": "botowocao_gunan_xing_ton2",
+  "1F6A3-1F3FD-200D-2642-FE0F": "botowocao_gunan_xing_ton3",
+  "1F6A3-1F3FE-200D-2642-FE0F": "botowocao_gunan_xing_ton4",
+  "1F6A3-1F3FF-200D-2642-FE0F": "botowocao_gunan_xing_ton5",
+  "1F6B4-200D-2642-FE0F": "saikuringusurunan_xing",
+  "1F6B4-1F3FB-200D-2642-FE0F": "saikuringusurunan_xing_ton1",
+  "1F6B4-1F3FC-200D-2642-FE0F": "saikuringusurunan_xing_ton2",
+  "1F6B4-1F3FD-200D-2642-FE0F": "saikuringusurunan_xing_ton3",
+  "1F6B4-1F3FE-200D-2642-FE0F": "saikuringusurunan_xing_ton4",
+  "1F6B4-1F3FF-200D-2642-FE0F": "saikuringusurunan_xing_ton5",
+  "1F938-200D-2642-FE0F": "ce_zhuan_wosurunan_xing",
+  "1F938-1F3FB-200D-2642-FE0F": "ce_zhuan_wosurunan_xing_ton1",
+  "1F938-1F3FC-200D-2642-FE0F": "ce_zhuan_wosurunan_xing_ton2",
+  "1F938-1F3FD-200D-2642-FE0F": "ce_zhuan_wosurunan_xing_ton3",
+  "1F938-1F3FE-200D-2642-FE0F": "ce_zhuan_wosurunan_xing_ton4",
+  "1F938-1F3FF-200D-2642-FE0F": "ce_zhuan_wosurunan_xing_ton5",
+  "1F939-200D-2642-FE0F": "ziyaguringusurunan_xing",
+  "1F939-1F3FB-200D-2642-FE0F": "ziyaguringusurunan_xing_ton1",
+  "1F939-1F3FC-200D-2642-FE0F": "ziyaguringusurunan_xing_ton2",
+  "1F939-1F3FD-200D-2642-FE0F": "ziyaguringusurunan_xing_ton3",
+  "1F939-1F3FE-200D-2642-FE0F": "ziyaguringusurunan_xing_ton4",
+  "1F939-1F3FF-200D-2642-FE0F": "ziyaguringusurunan_xing_ton5",
+  "1F93C-200D-2642-FE0F": "resuringuwosurunan_xing",
+  "1F93D-200D-2642-FE0F": "shui_qiu_wosurunan_xing",
+  "1F93D-1F3FB-200D-2642-FE0F": "shui_qiu_wosurunan_xing_ton1",
+  "1F93D-1F3FC-200D-2642-FE0F": "shui_qiu_wosurunan_xing_ton2",
+  "1F93D-1F3FD-200D-2642-FE0F": "shui_qiu_wosurunan_xing_ton3",
+  "1F93D-1F3FE-200D-2642-FE0F": "shui_qiu_wosurunan_xing_ton4",
+  "1F93D-1F3FF-200D-2642-FE0F": "shui_qiu_wosurunan_xing_ton5",
+  "1F93E-200D-2642-FE0F": "handoboruwosurunan_xing",
+  "1F93E-1F3FB-200D-2642-FE0F": "handoboruwosurunan_xing_ton1",
+  "1F93E-1F3FC-200D-2642-FE0F": "handoboruwosurunan_xing_ton2",
+  "1F93E-1F3FD-200D-2642-FE0F": "handoboruwosurunan_xing_ton3",
+  "1F93E-1F3FE-200D-2642-FE0F": "handoboruwosurunan_xing_ton4",
+  "1F93E-1F3FF-200D-2642-FE0F": "handoboruwosurunan_xing_ton5",
+  "1F9B8-200D-2642-FE0F": "supahiro",
+  "1F9B8-1F3FB-200D-2642-FE0F": "supahiro_ton1",
+  "1F9B8-1F3FC-200D-2642-FE0F": "supahiro_ton2",
+  "1F9B8-1F3FD-200D-2642-FE0F": "supahiro_ton3",
+  "1F9B8-1F3FE-200D-2642-FE0F": "supahiro_ton4",
+  "1F9B8-1F3FF-200D-2642-FE0F": "supahiro_ton5",
+  "1F9CD-200D-2642-FE0F": "qi_li_surunan_xing",
+  "1F9CD-1F3FB-200D-2642-FE0F": "qi_li_surunan_xing_ton1",
+  "1F9CD-1F3FC-200D-2642-FE0F": "qi_li_surunan_xing_ton2",
+  "1F9CD-1F3FD-200D-2642-FE0F": "qi_li_surunan_xing_ton3",
+  "1F9CD-1F3FE-200D-2642-FE0F": "qi_li_surunan_xing_ton4",
+  "1F9CD-1F3FF-200D-2642-FE0F": "qi_li_surunan_xing_ton5",
+  "1F9CE-200D-2642-FE0F": "zheng_zuo_wosurunan_xing",
+  "1F9CE-1F3FB-200D-2642-FE0F": "zheng_zuo_wosurunan_xing_ton1",
+  "1F9CE-1F3FC-200D-2642-FE0F": "zheng_zuo_wosurunan_xing_ton2",
+  "1F9CE-1F3FD-200D-2642-FE0F": "zheng_zuo_wosurunan_xing_ton3",
+  "1F9CE-1F3FE-200D-2642-FE0F": "zheng_zuo_wosurunan_xing_ton4",
+  "1F9CE-1F3FF-200D-2642-FE0F": "zheng_zuo_wosurunan_xing_ton5",
   "1F9CF-200D-2640-FE0F": "ting_jue_zhang_hai_nonu_xing",
   "1F9CF-1F3FB-200D-2640-FE0F": "ting_jue_zhang_hai_nonu_xing_ton1",
   "1F9CF-1F3FC-200D-2640-FE0F": "ting_jue_zhang_hai_nonu_xing_ton2",
@@ -4134,6 +4618,36 @@
   "1F9CF-1F3FD-200D-2642-FE0F": "ting_jue_zhang_hai_nonan_xing_ton3",
   "1F9CF-1F3FE-200D-2642-FE0F": "ting_jue_zhang_hai_nonan_xing_ton4",
   "1F9CF-1F3FF-200D-2642-FE0F": "ting_jue_zhang_hai_nonan_xing_ton5",
+  "1F9D4-200D-2642-FE0F": "higewosheng_yasitanan_xing",
+  "1F9D4-1F3FB-200D-2642-FE0F": "higewosheng_yasitanan_xing_ton1",
+  "1F9D4-1F3FC-200D-2642-FE0F": "higewosheng_yasitanan_xing_ton2",
+  "1F9D4-1F3FD-200D-2642-FE0F": "higewosheng_yasitanan_xing_ton3",
+  "1F9D4-1F3FE-200D-2642-FE0F": "higewosheng_yasitanan_xing_ton4",
+  "1F9D4-1F3FF-200D-2642-FE0F": "higewosheng_yasitanan_xing_ton5",
+  "1F9D6-200D-2642-FE0F": "saunaniirunan_xing",
+  "1F9D6-1F3FB-200D-2642-FE0F": "saunaniirunan_xing_ton1",
+  "1F9D6-1F3FC-200D-2642-FE0F": "saunaniirunan_xing_ton2",
+  "1F9D6-1F3FD-200D-2642-FE0F": "saunaniirunan_xing_ton3",
+  "1F9D6-1F3FE-200D-2642-FE0F": "saunaniirunan_xing_ton4",
+  "1F9D6-1F3FF-200D-2642-FE0F": "saunaniirunan_xing_ton5",
+  "1F9D7-200D-2642-FE0F": "kuraiminguwosurunan_xing",
+  "1F9D7-1F3FB-200D-2642-FE0F": "kuraiminguwosurunan_xing_ton1",
+  "1F9D7-1F3FC-200D-2642-FE0F": "kuraiminguwosurunan_xing_ton2",
+  "1F9D7-1F3FD-200D-2642-FE0F": "kuraiminguwosurunan_xing_ton3",
+  "1F9D7-1F3FE-200D-2642-FE0F": "kuraiminguwosurunan_xing_ton4",
+  "1F9D7-1F3FF-200D-2642-FE0F": "kuraiminguwosurunan_xing_ton5",
+  "1F9D9-200D-2642-FE0F": "mo_fa_shi_inonan_xing",
+  "1F9D9-1F3FB-200D-2642-FE0F": "mo_fa_shi_inonan_xing_ton1",
+  "1F9D9-1F3FC-200D-2642-FE0F": "mo_fa_shi_inonan_xing_ton2",
+  "1F9D9-1F3FD-200D-2642-FE0F": "mo_fa_shi_inonan_xing_ton3",
+  "1F9D9-1F3FE-200D-2642-FE0F": "mo_fa_shi_inonan_xing_ton4",
+  "1F9D9-1F3FF-200D-2642-FE0F": "mo_fa_shi_inonan_xing_ton5",
+  "1F9DA-200D-2642-FE0F": "yao_jing_nonan_xing",
+  "1F9DA-1F3FB-200D-2642-FE0F": "yao_jing_nonan_xing_ton1",
+  "1F9DA-1F3FC-200D-2642-FE0F": "yao_jing_nonan_xing_ton2",
+  "1F9DA-1F3FD-200D-2642-FE0F": "yao_jing_nonan_xing_ton3",
+  "1F9DA-1F3FE-200D-2642-FE0F": "yao_jing_nonan_xing_ton4",
+  "1F9DA-1F3FF-200D-2642-FE0F": "yao_jing_nonan_xing_ton5",
   "1F9DC-200D-2640-FE0F": "mameido",
   "1F9DC-1F3FB-200D-2640-FE0F": "mameido_ton1",
   "1F9DC-1F3FC-200D-2640-FE0F": "mameido_ton2",
@@ -4146,6 +4660,31 @@
   "1F9DC-1F3FD-200D-2642-FE0F": "maman_ton3",
   "1F9DC-1F3FE-200D-2642-FE0F": "maman_ton4",
   "1F9DC-1F3FF-200D-2642-FE0F": "maman_ton5",
+  "1F9DD-200D-2642-FE0F": "eruhunonan_xing",
+  "1F9DD-1F3FB-200D-2642-FE0F": "eruhunonan_xing_ton1",
+  "1F9DD-1F3FC-200D-2642-FE0F": "eruhunonan_xing_ton2",
+  "1F9DD-1F3FD-200D-2642-FE0F": "eruhunonan_xing_ton3",
+  "1F9DD-1F3FE-200D-2642-FE0F": "eruhunonan_xing_ton4",
+  "1F9DD-1F3FF-200D-2642-FE0F": "eruhunonan_xing_ton5",
+  "1F9DF-200D-2642-FE0F": "zonbinonan_xing",
+  "1F468-200D-1F9B0": "chi_fa_nonan_xing",
+  "1F468-1F3FB-200D-1F9B0": "chi_fa_nonan_xing_ton1",
+  "1F468-1F3FC-200D-1F9B0": "chi_fa_nonan_xing_ton2",
+  "1F468-1F3FD-200D-1F9B0": "chi_fa_nonan_xing_ton3",
+  "1F468-1F3FE-200D-1F9B0": "chi_fa_nonan_xing_ton4",
+  "1F468-1F3FF-200D-1F9B0": "chi_fa_nonan_xing_ton5",
+  "1F468-200D-1F9B1": "pi_tumao_nonan_xing",
+  "1F468-1F3FB-200D-1F9B1": "pi_tumao_nonan_xing_ton1",
+  "1F468-1F3FC-200D-1F9B1": "pi_tumao_nonan_xing_ton2",
+  "1F468-1F3FD-200D-1F9B1": "pi_tumao_nonan_xing_ton3",
+  "1F468-1F3FE-200D-1F9B1": "pi_tumao_nonan_xing_ton4",
+  "1F468-1F3FF-200D-1F9B1": "pi_tumao_nonan_xing_ton5",
+  "1F468-200D-1F9B2": "hagetanan_xing",
+  "1F468-1F3FB-200D-1F9B2": "hagetanan_xing_ton1",
+  "1F468-1F3FC-200D-1F9B2": "hagetanan_xing_ton2",
+  "1F468-1F3FD-200D-1F9B2": "hagetanan_xing_ton3",
+  "1F468-1F3FE-200D-1F9B2": "hagetanan_xing_ton4",
+  "1F468-1F3FF-200D-1F9B2": "hagetanan_xing_ton5",
   "1F469-200D-1F9B1": "pi_tumao_nonu_xing",
   "1F469-1F3FB-200D-1F9B1": "pi_tumao_nonu_xing_ton1",
   "1F469-1F3FC-200D-1F9B1": "pi_tumao_nonu_xing_ton2",
@@ -4190,5 +4729,7 @@
   "1F43B-200D-2744-FE0F": [
     "sirokuma",
     "sirokumanoyan"
-  ]
+  ],
+  "1F62E-200D-1F4A8": "xi_wotu_kichu_su",
+  "1F635-200D-1F4AB": "mu_wohui_wasu"
 }
