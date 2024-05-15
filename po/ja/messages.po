@@ -5,16 +5,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-17 14:53-0700\n"
-"PO-Revision-Date: 2021-09-17 16:28-0700\n"
-"Last-Translator: Miles Johnson\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/emojibase/emoji-"
-"metadata/ja/>\n"
+"PO-Revision-Date: 2024-03-07 15:37+0900\n"
+"Last-Translator: Masashi Yoshikawa <logue@hotmail.co.jp>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/emojibase/emoji-metadata/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #, javascript-format
 msgctxt ""
@@ -26,7 +25,7 @@ msgstr "地域指標 %s"
 msgctxt ""
 "LABEL: Very short word for skin tone and/or color (max 1 word if possible)"
 msgid "tone"
-msgstr "色"
+msgstr "トーン"
 
 msgctxt "LABEL: Name of the asterisk symbol (*)"
 msgid "asterisk"
@@ -36,39 +35,33 @@ msgctxt "LABEL: Name of the number sign/hash symbol (#)"
 msgid "number sign"
 msgstr "番号記号"
 
-#, fuzzy
 msgctxt "SKIN TONE: light"
 msgid "light skin tone"
-msgstr "明るい肌のトーン"
+msgstr "明るい肌"
 
-#, fuzzy
 msgctxt "SKIN TONE: medium-light"
 msgid "medium-light skin tone"
-msgstr "中光肌調"
+msgstr "やや明るい肌"
 
-#, fuzzy
 msgctxt "SKIN TONE: medium"
 msgid "medium skin tone"
-msgstr "中程度の肌のトーン"
+msgstr "普通の肌"
 
-#, fuzzy
 msgctxt "SKIN TONE: medium-dark"
 msgid "medium-dark skin tone"
-msgstr "中暗い肌のトーン"
+msgstr "やや暗い肌"
 
-#, fuzzy
 msgctxt "SKIN TONE: dark"
 msgid "dark skin tone"
-msgstr "暗い肌のトーン"
+msgstr "暗い肌"
 
-#, fuzzy
 msgctxt "EMOJI GROUP: 0|smileys-emotion"
 msgid "smileys & emotion"
-msgstr "スマイリーと感情"
+msgstr "顔文字と感情"
 
 msgctxt "EMOJI GROUP: 1|people-body"
 msgid "people & body"
-msgstr "人体"
+msgstr "人物と体"
 
 msgctxt "EMOJI GROUP: 2|component"
 msgid "components"
@@ -76,19 +69,19 @@ msgstr "コンポーネント"
 
 msgctxt "EMOJI GROUP: 3|animals-nature"
 msgid "animals & nature"
-msgstr "動物自然"
+msgstr "動物と自然"
 
 msgctxt "EMOJI GROUP: 4|food-drink"
 msgid "food & drink"
-msgstr "飲み物・食べ物"
+msgstr "食べ物と飲み物"
 
 msgctxt "EMOJI GROUP: 5|travel-places"
 msgid "travel & places"
-msgstr "旅行・場所"
+msgstr "旅行と場所"
 
 msgctxt "EMOJI GROUP: 6|activities, EMOJI SUB-GROUP: 26|person-activity"
 msgid "activities"
-msgstr "有効化"
+msgstr "活動"
 
 msgctxt "EMOJI GROUP: 7|objects"
 msgid "objects"
@@ -96,12 +89,11 @@ msgstr "オブジェクト"
 
 msgctxt "EMOJI GROUP: 8|symbols"
 msgid "symbols"
-msgstr "シンボル"
+msgstr "記号"
 
-#, fuzzy
 msgctxt "EMOJI GROUP: 9|flags"
 msgid "flags"
-msgstr "フラグ"
+msgstr "旗"
 
 msgctxt "EMOJI SUB-GROUP: 0|face-smiling"
 msgid "smiling"
@@ -109,267 +101,220 @@ msgstr "笑顔"
 
 msgctxt "EMOJI SUB-GROUP: 1|face-affection"
 msgid "affectionate"
-msgstr "愛情顔"
+msgstr "愛嬌のある顔"
 
 msgctxt "EMOJI SUB-GROUP: 2|face-tongue"
 msgid "with tongue"
-msgstr "舌の顔"
+msgstr "舌を出した顔"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 3|face-hand"
 msgid "with hands"
-msgstr "手で"
+msgstr "手を出した顔"
 
 msgctxt "EMOJI SUB-GROUP: 4|face-neutral-skeptical"
 msgid "neutral / skeptical"
-msgstr "中立的で懐疑的な顔"
+msgstr "中立／懐疑的な顔"
 
 msgctxt "EMOJI SUB-GROUP: 5|face-sleepy"
 msgid "sleepy"
-msgstr "眠そうな顔"
+msgstr "眠たそうな顔"
 
 msgctxt "EMOJI SUB-GROUP: 6|face-unwell"
 msgid "unwell"
-msgstr "体調不良顔"
+msgstr "体調悪そうな顔"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 7|face-hat"
 msgid "with hats"
-msgstr "帽子をかぶって"
+msgstr "帽子を被った顔"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 8|face-glasses"
 msgid "with glasses"
-msgstr "メガネ付き"
+msgstr "メガネを掛けた顔"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 9|face-concerned"
 msgid "concerned"
-msgstr "関係"
+msgstr "心配そうな顔"
 
 msgctxt "EMOJI SUB-GROUP: 10|face-negative"
 msgid "negative"
-msgstr "負"
+msgstr "ネガティブな顔"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 11|face-costume"
 msgid "costumed & creatures"
-msgstr "衣装を着て、生き物"
+msgstr "仮面を被った顔"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 12|cat-face"
 msgid "cat faces"
 msgstr "猫の顔"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 13|monkey-face"
 msgid "monkey faces"
 msgstr "猿の顔"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 14|emotion"
 msgid "emotions"
-msgstr "感情"
+msgstr "感情表現"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 15|hand-fingers-open"
 msgid "fingers open"
-msgstr "指が開いている"
+msgstr "開いた手"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 16|hand-fingers-partial"
 msgid "hand signs"
-msgstr "手の看板"
+msgstr "ハンドサイン"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 17|hand-single-finger"
 msgid "finger pointing"
-msgstr "指差し"
+msgstr "指を指す"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 18|hand-fingers-closed"
 msgid "fingers closed"
-msgstr "指が閉じた"
+msgstr "握った手"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 19|hands"
 msgid "hands"
 msgstr "手"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 20|hand-prop"
 msgid "hand props"
-msgstr "手の小道具"
+msgstr "物を持つ"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 21|body-parts"
 msgid "body parts"
-msgstr "身体部分"
+msgstr "身体部位"
 
 msgctxt "EMOJI SUB-GROUP: 22|person"
 msgid "people"
-msgstr "人"
+msgstr "人物"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 23|person-gesture"
 msgid "gestures"
 msgstr "ジェスチャー"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 24|person-role"
 msgid "roles & careers"
-msgstr "役割とキャリア"
+msgstr "仕事と役割"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 25|person-fantasy"
 msgid "fantasy"
 msgstr "ファンタジー"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 27|person-sport"
 msgid "athletics"
-msgstr "陸上 競技"
+msgstr "運動"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 28|person-resting"
 msgid "resting"
-msgstr "休憩"
+msgstr "休息"
 
 msgctxt "EMOJI SUB-GROUP: 29|family"
 msgid "family"
 msgstr "家族"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 30|person-symbol"
 msgid "people symbols"
 msgstr "人々のシンボル"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 31|skin-tone"
 msgid "skin tones"
 msgstr "スキントーン"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 32|hair-style"
 msgid "hair styles"
-msgstr "ヘアスタイル"
+msgstr "髪型"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 33|animal-mammal"
 msgid "mammals"
-msgstr "哺乳 類"
+msgstr "哺乳類"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 34|animal-bird"
 msgid "birds"
-msgstr "鳥"
+msgstr "鳥類"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 35|animal-amphibian"
 msgid "amphibians"
-msgstr "両生 類"
+msgstr "両生類"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 36|animal-reptile"
 msgid "reptiles"
 msgstr "爬虫類"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 37|animal-marine"
 msgid "marine life"
 msgstr "海洋生物"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 38|animal-bug"
 msgid "bugs"
-msgstr "バグ"
+msgstr "昆虫"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 39|plant-flower"
 msgid "flowers"
 msgstr "花"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 40|plant-other"
 msgid "other plants"
 msgstr "その他の植物"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 41|food-fruit"
 msgid "fruit"
 msgstr "フルーツ"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 42|food-vegetable"
 msgid "vegetables"
 msgstr "野菜"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 43|food-prepared"
 msgid "cooked / prepared"
-msgstr "調理済み / 準備済み"
+msgstr "料理"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 44|food-asian"
 msgid "asian"
-msgstr "アジア"
+msgstr "アジア料理"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 45|food-marine"
 msgid "seafood"
 msgstr "シーフード"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 46|food-sweet"
 msgid "sweets & candy"
-msgstr "お菓子とお菓子"
+msgstr "スイーツとお菓子"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 47|drink"
 msgid "drink"
-msgstr "飲む"
+msgstr "飲み物"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 48|dishware"
 msgid "dishware"
 msgstr "食器"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 49|place-map"
 msgid "globes & maps"
 msgstr "地球儀と地図"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 50|place-geographic"
 msgid "geographic locations"
-msgstr "地理的な場所"
+msgstr "地理"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 51|place-building"
 msgid "buildings"
 msgstr "建物"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 52|place-religious"
 msgid "religious buildings"
 msgstr "宗教的な建物"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 53|place-other"
 msgid "other places"
 msgstr "その他の場所"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 54|transport-ground"
 msgid "ground transportation"
-msgstr "地上輸送"
+msgstr "陸上輸送"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 55|transport-water"
 msgid "water transportation"
-msgstr "水輸送"
+msgstr "水運輸送"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 56|transport-air"
 msgid "air transportation"
 msgstr "航空輸送"
@@ -382,50 +327,42 @@ msgctxt "EMOJI SUB-GROUP: 58|time"
 msgid "time"
 msgstr "時間"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 59|sky-weather"
 msgid "weather"
 msgstr "天気"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 60|event"
 msgid "events & holidays"
-msgstr "イベントと休日"
+msgstr "祝祭日"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 61|award-medal"
 msgid "award medals"
-msgstr "メダルを授与する"
+msgstr "賞とメダル"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 62|sport"
 msgid "sports"
 msgstr "スポーツ"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 63|game"
 msgid "games & hobbies"
 msgstr "ゲームと趣味"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 64|arts-crafts"
 msgid "arts & crafts"
-msgstr "芸術・工芸"
+msgstr "芸術と工芸"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 65|clothing"
 msgid "clothing"
-msgstr "服"
+msgstr "服装"
 
 msgctxt "EMOJI SUB-GROUP: 66|sound"
 msgid "sound"
-msgstr "音"
+msgstr "サウンド"
 
 msgctxt "EMOJI SUB-GROUP: 67|music"
 msgid "music"
-msgstr "ミュージック"
+msgstr "音楽"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 68|musical-instrument"
 msgid "musical instruments"
 msgstr "楽器"
@@ -438,12 +375,10 @@ msgctxt "EMOJI SUB-GROUP: 70|computer"
 msgid "computer"
 msgstr "コンピュータ"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 71|light-video"
 msgid "light, film & video"
-msgstr "光、フィルム、ビデオ"
+msgstr "光とビデオ"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 72|book-paper"
 msgid "books & paper"
 msgstr "本と紙"
@@ -458,122 +393,100 @@ msgstr "郵便"
 
 msgctxt "EMOJI SUB-GROUP: 75|writing"
 msgid "writing"
-msgstr "書き込み"
+msgstr "筆記用具"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 76|office"
 msgid "office supplies"
 msgstr "事務用品"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 77|lock"
 msgid "lock & keys"
-msgstr "ロックとキー"
+msgstr "鍵と錠前"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 78|tool"
 msgid "tools"
-msgstr "ツール"
+msgstr "道具"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 79|science"
 msgid "science equipment"
 msgstr "科学機器"
 
 msgctxt "EMOJI SUB-GROUP: 80|medical"
 msgid "medical"
-msgstr "メディカル"
+msgstr "医療品"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 81|household"
 msgid "household items"
 msgstr "家庭用品"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 82|other-object"
 msgid "other objects"
 msgstr "その他のオブジェクト"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 83|transport-sign"
 msgid "transport signs"
-msgstr "輸送標識"
+msgstr "標識"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 84|warning"
 msgid "warning symbols"
-msgstr "警告記号"
+msgstr "警告"
 
 msgctxt "EMOJI SUB-GROUP: 85|arrow"
 msgid "arrows"
 msgstr "矢印"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 86|religion"
 msgid "religious symbols"
-msgstr "宗教的シンボル"
+msgstr "宗教的記号"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 87|zodiac"
 msgid "zodiac signs"
-msgstr "干支"
+msgstr "星座"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 88|av-symbol"
 msgid "audio & video symbols"
-msgstr "オーディオとビデオのシンボル"
+msgstr "オーディオとビデオの記号"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 89|gender"
 msgid "gender signs"
-msgstr "ジェンダーサイン"
+msgstr "性別記号"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 90|math"
 msgid "math symbols"
 msgstr "数学記号"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 91|punctuation"
 msgid "punctuation"
 msgstr "句読点"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 92|currency"
 msgid "currencies"
 msgstr "通貨"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 93|other-symbol"
 msgid "other symbols"
 msgstr "その他の記号"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 94|keycap"
 msgid "keypad characters"
-msgstr "キーパッド文字"
+msgstr "キーパッドの文字"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 95|alphanum"
 msgid "alphanumeric symbols"
 msgstr "英数字記号"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 96|geometric"
 msgid "shapes & colors"
 msgstr "図形と色"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 97|flag"
 msgid "other flags"
-msgstr "その他のフラグ"
+msgstr "その他の旗"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 98|country-flag"
 msgid "country flags"
 msgstr "国旗"
 
-#, fuzzy
 msgctxt "EMOJI SUB-GROUP: 99|subdivision-flag"
 msgid "subdivision flags"
-msgstr "サブディビジョン フラグ"
+msgstr "地域旗"

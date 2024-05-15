@@ -4,13 +4,13 @@
 const ranges = [
 	// Bengali
 	/[\d+_\u0980-\u09FF\u2000-\u206F-]/,
-	// Chinese
-	/[\d+_\u4E00-\u9FFF-]/,
+	// CJK Kanji
+	/[\d+_\u2E80-\u9FFF\uF900-\uFAFF]/,
 	// Hindi
 	/[\d+_\u0900-\u097F-]/,
-	// Japanese
-	/[\d+_\u3000-\u30FF-]/,
-	// Korean
+	// Japanese Hiragana
+	/[\d+_\u3000-\u30FF\u31F0-\u31FF]/,
+	// Korean Hangul
 	/[\d+_\u1100-\u11FF\u3130-\u318F\uA960-\uA97F\uAC00-\uD7FF-]/,
 	// Thai
 	/[\d+_\u0E00-\u0E7F-]/,
