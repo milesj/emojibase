@@ -1,5 +1,5 @@
 import { SEQUENCE_REMOVAL_PATTERN } from './constants';
-import { Hexcode, Unicode } from './types';
+import type { Hexcode, Unicode } from './types';
 
 /**
  * This function will convert a literal emoji Unicode character into a dash separated

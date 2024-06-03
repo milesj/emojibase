@@ -1,4 +1,4 @@
-import { SkinTone } from '../types';
+import type { SkinTone } from '../types';
 
 export function extractSkinTone(name: string): SkinTone | null {
 	const type = name.match(/TYPE-(\d)/);

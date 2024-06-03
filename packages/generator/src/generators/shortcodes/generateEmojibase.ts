@@ -1,12 +1,12 @@
 import path from 'node:path';
-import { appendSkinToneIndex, Emoji, Hexcode, SUPPORTED_LOCALES, TEXT } from 'emojibase';
+import { appendSkinToneIndex, type Emoji, type Hexcode, SUPPORTED_LOCALES, TEXT } from 'emojibase';
 import { SHORTCODE_GUIDELINES } from '../../constants';
 import { writeDataset } from '../../helpers/writeDataset';
 import { writeFile } from '../../helpers/writeFile';
 import { loadDataset } from '../../loaders/loadDatasetPackage';
 import { loadPoMessages } from '../../loaders/loadPoMessages';
 import { loadPoShortcodes } from '../../loaders/loadPoShortcodes';
-import { ShortcodeDataMap } from '../../types';
+import type { ShortcodeDataMap } from '../../types';
 import { Database } from '../Database';
 
 export async function generateEmojibase(db: Database) {

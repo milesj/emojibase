@@ -22,7 +22,7 @@
  *    variants are automatically generated.
  */
 
-import { EmoticonMap } from '../types';
+import type { EmoticonMap } from '../types';
 
 export const emoticons: EmoticonMap = {
   // HAPPY

@@ -3,7 +3,7 @@ import { flattenData } from '../helpers/flattenData';
 import { log } from '../helpers/log';
 import { loadEmojiList } from '../loaders/loadEmojiList';
 import { loadEmojiStyles } from '../loaders/loadEmojiStyles';
-import { Emoji, EmojiMap, EmojiSource } from '../types';
+import type { Emoji, EmojiMap, EmojiSource } from '../types';
 
 // This commonly logs errors as the official emoji list is not historical and
 // represents latest and future state.

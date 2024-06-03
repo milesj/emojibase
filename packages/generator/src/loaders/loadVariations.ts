@@ -1,6 +1,6 @@
 import { LATEST_EMOJI_VERSION, LATEST_UNICODE_VERSION } from 'emojibase';
 import { parseVariations } from '../parsers/parseVariations';
-import { EmojiVariationMap } from '../types';
+import type { EmojiVariationMap } from '../types';
 import { fetchAndCache } from './fetchAndCache';
 
 export async function loadVariations(

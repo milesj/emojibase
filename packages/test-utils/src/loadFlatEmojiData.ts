@@ -1,4 +1,4 @@
-import { Emoji, flattenEmojiData, ShortcodesDataset } from 'emojibase';
+import { type Emoji, flattenEmojiData, type ShortcodesDataset } from 'emojibase';
 import { loadEmojiData } from './loadEmojiData';
 
 export function loadFlatEmojiData(shortcodeDatasets?: ShortcodesDataset[]): Emoji[] {

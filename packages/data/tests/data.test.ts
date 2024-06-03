@@ -1,5 +1,5 @@
 import path from 'node:path';
-import { EMOJI, Emoji, FEMALE, flattenEmojiData, MALE, TEXT } from 'emojibase';
+import { EMOJI, type Emoji, FEMALE, flattenEmojiData, MALE, TEXT } from 'emojibase';
 
 const localeCache: Record<string, Emoji[]> = {};
 

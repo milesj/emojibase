@@ -1,4 +1,4 @@
-import { Emoji, Hexcode, ShortcodesDataset, SUPPORTED_LOCALES } from 'emojibase';
+import { type Emoji, type Hexcode, type ShortcodesDataset, SUPPORTED_LOCALES } from 'emojibase';
 import { log } from '../helpers/log';
 import { toArray } from '../helpers/toArray';
 import { loadDataset } from '../loaders/loadDatasetPackage';

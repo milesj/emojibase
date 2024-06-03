@@ -7,7 +7,7 @@ import { flattenData } from '../helpers/flattenData';
 import { log } from '../helpers/log';
 import { toArray } from '../helpers/toArray';
 import { writeRegex } from '../helpers/writeRegex';
-import { EmojiMap, Hexcode } from '../types';
+import type { EmojiMap, Hexcode } from '../types';
 import { toUnicode } from './toUnicode';
 
 type TrieMap = Record<string, Trie>;

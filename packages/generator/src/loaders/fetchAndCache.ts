@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import chalk from 'chalk';
-import fetch, { RequestInit } from 'node-fetch';
+import fetch, { type RequestInit } from 'node-fetch';
 import { log } from '../helpers/log';
 import { readCache } from '../helpers/readCache';
 import { writeCache } from '../helpers/writeCache';

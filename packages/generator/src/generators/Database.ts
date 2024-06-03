@@ -4,7 +4,7 @@ import { stripHexcode } from 'emojibase';
 import { transliterate } from 'transliteration';
 import { log } from '../helpers/log';
 import { toArray } from '../helpers/toArray';
-import { Emoji, EmojiMap, Hexcode, HexcodeMap, ShortcodeDataMap } from '../types';
+import type { Emoji, EmojiMap, Hexcode, HexcodeMap, ShortcodeDataMap } from '../types';
 import { toUnicode } from './toUnicode';
 
 export class Database {

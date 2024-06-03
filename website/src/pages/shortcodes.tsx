@@ -1,7 +1,13 @@
 import React, { useCallback, useState } from 'react';
-import { Emoji, fetchEmojis, fetchShortcodes, ShortcodePreset, ShortcodesDataset } from 'emojibase';
+import {
+	type Emoji,
+	fetchEmojis,
+	fetchShortcodes,
+	type ShortcodePreset,
+	type ShortcodesDataset,
+} from 'emojibase';
 import Layout from '@theme/Layout';
-import Filters, { FilterFields, PRESETS, processEmojis } from '../components/Filters';
+import Filters, { type FilterFields, PRESETS, processEmojis } from '../components/Filters';
 import Shortcodes from '../components/Shortcodes';
 import { CDN_VERSION } from '../constants';
 // import cldrDataset from 'emojibase-data/en/shortcodes/cldr.raw.json';

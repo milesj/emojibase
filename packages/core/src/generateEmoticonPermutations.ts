@@ -1,4 +1,4 @@
-import { Emoticon, PermutationOptions } from './types';
+import type { Emoticon, PermutationOptions } from './types';
 
 /**
  * This function will generate multiple permutations of a base emoticon character.

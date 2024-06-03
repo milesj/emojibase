@@ -1,7 +1,7 @@
 /* eslint-disable promise/prefer-await-to-then */
 import { LATEST_CLDR_VERSION } from 'emojibase';
 import { formatLocaleJson } from '../helpers/formatLocale';
-import { CLDRLocaleMap } from '../types';
+import type { CLDRLocaleMap } from '../types';
 import { importJsonModule } from './fetchAndCache';
 
 interface CLDRLocaleNamesTerritories {

@@ -1,4 +1,4 @@
-import { CompactEmoji, Emoji, EmojiLike, ShortcodesDataset } from './types';
+import type { CompactEmoji, Emoji, EmojiLike, ShortcodesDataset } from './types';
 
 /**
  * Will join shortcodes from multiple shortcode datasets into a single emoji object

@@ -1,5 +1,5 @@
 import { fetchFromCDN } from './fetchFromCDN';
-import { FetchFromCDNOptions, Locale, MessagesDataset } from './types';
+import type { FetchFromCDNOptions, Locale, MessagesDataset } from './types';
 
 /**
  * Fetches and returns localized messages for emoji related information like groups and sub-groups.

@@ -1,6 +1,6 @@
 import { writeDataset } from '../../helpers/writeDataset';
 import { fetchAndCache } from '../../loaders/fetchAndCache';
-import { ShortcodeDataMap } from '../../types';
+import type { ShortcodeDataMap } from '../../types';
 import { Database } from '../Database';
 
 export async function generateIamCal(db: Database) {

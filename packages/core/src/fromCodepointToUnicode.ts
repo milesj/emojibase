@@ -1,4 +1,4 @@
-import { CodePoint, Unicode } from './types';
+import type { CodePoint, Unicode } from './types';
 
 /**
  * This function will convert an array of numerical codepoints to a literal emoji Unicode character.

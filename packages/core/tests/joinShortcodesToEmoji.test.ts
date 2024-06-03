@@ -1,5 +1,5 @@
 import { joinShortcodesToEmoji } from '../src/joinShortcodesToEmoji';
-import { Emoji } from '../src/types';
+import type { Emoji } from '../src/types';
 import { getEmojiWithSkins } from './helpers';
 
 describe('joinShortcodesToEmoji()', () => {

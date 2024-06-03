@@ -8,7 +8,7 @@ import { loadNames } from '../loaders/loadNames';
 import { loadSequences } from '../loaders/loadSequences';
 import { loadVariations } from '../loaders/loadVariations';
 import { loadZwjSequences } from '../loaders/loadZwjSequences';
-import { EmojiMap } from '../types';
+import type { EmojiMap } from '../types';
 import { joinData } from './joinData';
 import { joinMetadataToData } from './joinMetadataToData';
 import { joinModifiersToData } from './joinModifiersToData';

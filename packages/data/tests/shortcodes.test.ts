@@ -1,5 +1,5 @@
 import path from 'node:path';
-import { ShortcodePreset, ShortcodesDataset } from 'emojibase';
+import type { ShortcodePreset, ShortcodesDataset } from 'emojibase';
 import SHORTCODE_PATTERN from 'emojibase-regex/shortcode';
 import SHORTCODE_NATIVE_PATTERN from 'emojibase-regex/shortcode-native';
 

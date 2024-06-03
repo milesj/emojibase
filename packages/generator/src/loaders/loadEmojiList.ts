@@ -1,6 +1,6 @@
 import { LATEST_EMOJI_VERSION } from 'emojibase';
 import { parseEmojiList } from '../parsers/parseEmojiList';
-import { EmojiSourceMap } from '../types';
+import type { EmojiSourceMap } from '../types';
 import { fetchAndCache } from './fetchAndCache';
 
 export async function loadEmojiList(

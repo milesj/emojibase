@@ -1,5 +1,5 @@
 import { flattenEmojiData } from '../src/flattenEmojiData';
-import { Emoji } from '../src/types';
+import type { Emoji } from '../src/types';
 
 describe('flattenEmojiData()', () => {
 	const data: Emoji[] = [

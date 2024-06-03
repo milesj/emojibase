@@ -1,4 +1,4 @@
-import { CodePoint, Hexcode } from './types';
+import type { CodePoint, Hexcode } from './types';
 
 /**
  * This function will convert a hexadecimal codepoint to an array of numerical codepoints.
