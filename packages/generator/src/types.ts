@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/sort-type-constituents */
 
-import {
+import type {
 	Emoticon,
 	Gender,
 	Group,

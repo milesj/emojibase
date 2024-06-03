@@ -1,5 +1,5 @@
 import { EMOJI } from 'emojibase';
-import { EmojiDataMap, ParsedLine, Property } from '../types';
+import type { EmojiDataMap, ParsedLine, Property } from '../types';
 import { extractEmojiVersion } from './extractEmojiVersion';
 import { extractGender } from './extractGender';
 import { extractLineDescription } from './extractLineDescription';

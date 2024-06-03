@@ -1,4 +1,4 @@
-import { EmojiMap } from '../types';
+import type { EmojiMap } from '../types';
 import { isHidden } from './isHidden';
 
 export function filterData(data: EmojiMap): EmojiMap {

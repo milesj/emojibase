@@ -18,7 +18,7 @@ import {
 import { hasProperty } from '../helpers/hasProperty';
 import { log } from '../helpers/log';
 import { extractSkinTone } from '../parsers/extractSkinTone';
-import { Emoji, EmojiMap, EmojiModification, SkinTone } from '../types';
+import type { Emoji, EmojiMap, EmojiModification, SkinTone } from '../types';
 
 const SKIN_HEXCODE_PATTERN = new RegExp(`-(${SKIN_MODIFIER_PATTERN.source})`, 'g');
 

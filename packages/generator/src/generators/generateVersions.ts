@@ -1,7 +1,7 @@
 import { buildVersionedData } from '../builders/buildVersionedData';
 import { log } from '../helpers/log';
 import { writeDataset } from '../helpers/writeDataset';
-import { VersionMap } from '../types';
+import type { VersionMap } from '../types';
 
 export async function generateVersions(): Promise<void> {
 	log.title('data', 'Generating versioned datasets');

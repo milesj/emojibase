@@ -1,6 +1,6 @@
 import { LATEST_UNICODE_VERSION } from 'emojibase';
 import { parseNames } from '../parsers/parseNames';
-import { UnicodeNamesMap } from '../types';
+import type { UnicodeNamesMap } from '../types';
 import { fetchAndCache } from './fetchAndCache';
 
 export async function loadNames(

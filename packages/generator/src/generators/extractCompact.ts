@@ -1,4 +1,4 @@
-import { CompactEmoji, Emoji } from 'emojibase';
+import type { CompactEmoji, Emoji } from 'emojibase';
 
 export function extractCompact(data: Emoji[]): CompactEmoji[] {
 	return data.map((full) => {

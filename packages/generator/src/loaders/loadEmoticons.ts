@@ -1,4 +1,4 @@
-import { EmoticonMap } from '../types';
+import type { EmoticonMap } from '../types';
 
 export async function loadEmoticons(): Promise<EmoticonMap> {
 	const { emoticons } = await import('../resources/emoticons');

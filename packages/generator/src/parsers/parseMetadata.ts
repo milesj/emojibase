@@ -3,7 +3,7 @@ import { HIDDEN_GROUPS, HIDDEN_SUBGROUPS } from '../constants';
 import { formatHexcode } from '../helpers/formatHexcode';
 import { slug } from '../helpers/slug';
 import { writeCache } from '../helpers/writeCache';
-import { EmojiMetadata, EmojiMetadataMap } from '../types';
+import type { EmojiMetadata, EmojiMetadataMap } from '../types';
 import { extractQualifier } from './extractQualifier';
 
 type GroupNameMap = Record<number, string>;

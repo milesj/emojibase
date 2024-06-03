@@ -2,7 +2,7 @@ import cheerio from 'cheerio';
 import { HIDDEN_GROUPS, HIDDEN_SUBGROUPS } from '../constants';
 import { readCache } from '../helpers/readCache';
 import { slug } from '../helpers/slug';
-import { EmojiSourceMap } from '../types';
+import type { EmojiSourceMap } from '../types';
 
 type GroupNameMap = Record<string, number>;
 

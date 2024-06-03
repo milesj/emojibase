@@ -9,7 +9,7 @@ import { isHidden } from '../helpers/isHidden';
 import { isObject } from '../helpers/isObject';
 import { log } from '../helpers/log';
 import { toArray } from '../helpers/toArray';
-import { EmojiMap, EmojiVariation } from '../types';
+import type { EmojiMap, EmojiVariation } from '../types';
 
 export function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
 	const usedEmoticons: EmojiMap = {};

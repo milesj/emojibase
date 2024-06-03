@@ -1,7 +1,7 @@
 import { appendSkinToneIndex } from 'emojibase';
 import { writeDataset } from '../../helpers/writeDataset';
 import { shortcodes as shortcodesResource } from '../../resources/shortcodesLegacy';
-import { ShortcodeDataMap } from '../../types';
+import type { ShortcodeDataMap } from '../../types';
 import { Database } from '../Database';
 
 export async function generateEmojibaseLegacy(db: Database) {

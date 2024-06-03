@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { Locale } from 'emojibase';
+import type { Locale } from 'emojibase';
 import PO from 'pofile';
 import { LOCALE_COUNTRIES } from '../constants';
 import { POManager } from '../parsers/POManager';

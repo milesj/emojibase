@@ -1,4 +1,4 @@
-import { EmojiMap } from '../types';
+import type { EmojiMap } from '../types';
 
 export function flattenData(data: EmojiMap): EmojiMap {
 	const cleaned: EmojiMap = {};

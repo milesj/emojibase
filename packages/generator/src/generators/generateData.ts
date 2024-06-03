@@ -1,12 +1,12 @@
 /* eslint-disable complexity */
 
 import {
-	Emoji as FinalEmoji,
-	GroupMessage,
-	Locale,
-	SkinToneMessage,
+	type Emoji as FinalEmoji,
+	type GroupMessage,
+	type Locale,
+	type SkinToneMessage,
 	stripHexcode,
-	SubgroupMessage,
+	type SubgroupMessage,
 	SUPPORTED_LOCALES,
 } from 'emojibase';
 import { buildAnnotationData } from '../builders/buildAnnotationData';
@@ -16,7 +16,7 @@ import { log } from '../helpers/log';
 import { readCache } from '../helpers/readCache';
 import { writeDataset } from '../helpers/writeDataset';
 import { loadPoMessages } from '../loaders/loadPoMessages';
-import {
+import type {
 	CLDRAnnotationMap,
 	Emoji,
 	EmojiModification,

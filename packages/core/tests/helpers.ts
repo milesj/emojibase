@@ -1,4 +1,4 @@
-import { CompactEmoji, Emoji } from '../src/types';
+import type { CompactEmoji, Emoji } from '../src/types';
 
 declare global {
 	namespace NodeJS {

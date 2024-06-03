@@ -1,5 +1,5 @@
 import { joinShortcodesToEmoji } from './joinShortcodesToEmoji';
-import { CompactEmoji, Emoji, EmojiLike, ShortcodesDataset } from './types';
+import type { CompactEmoji, Emoji, EmojiLike, ShortcodesDataset } from './types';
 
 /**
  * Like `joinShortcodesToEmoji` but joins shortcodes to a list of emoji objects.

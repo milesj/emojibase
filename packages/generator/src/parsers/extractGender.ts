@@ -1,6 +1,6 @@
 import { FEMALE, MALE } from 'emojibase';
 import { FEMALE_SIGN, MALE_SIGN } from '../constants';
-import { Gender, Hexcode } from '../types';
+import type { Gender, Hexcode } from '../types';
 
 export function extractGender(hexcode: Hexcode): Gender | null {
 	if (hexcode.includes(FEMALE_SIGN)) {

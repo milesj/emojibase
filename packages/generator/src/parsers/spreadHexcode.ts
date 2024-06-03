@@ -1,4 +1,4 @@
-import { fromHexcodeToCodepoint, Hexcode } from 'emojibase';
+import { fromHexcodeToCodepoint, type Hexcode } from 'emojibase';
 import { formatHexcode } from '../helpers/formatHexcode';
 
 export function spreadHexcode(hexcode: string, map: (hex: Hexcode, range: boolean) => void) {

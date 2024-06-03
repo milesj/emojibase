@@ -1,6 +1,6 @@
 import { writeDataset } from '../../helpers/writeDataset';
 import { fetchAndCache } from '../../loaders/fetchAndCache';
-import { HexcodeMap, ShortcodeDataMap } from '../../types';
+import type { HexcodeMap, ShortcodeDataMap } from '../../types';
 import { Database } from '../Database';
 
 // These should not be in the dataset according to the spec

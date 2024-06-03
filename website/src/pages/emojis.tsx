@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react';
-import { Emoji, fetchEmojis, ShortcodePreset } from 'emojibase';
+import { type Emoji, fetchEmojis, type ShortcodePreset } from 'emojibase';
 import Layout from '@theme/Layout';
-import Filters, { FilterFields, processEmojis } from '../components/Filters';
+import Filters, { type FilterFields, processEmojis } from '../components/Filters';
 import Shortcodes from '../components/Shortcodes';
 import { CDN_VERSION } from '../constants';
 

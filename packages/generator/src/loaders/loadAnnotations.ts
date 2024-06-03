@@ -1,6 +1,6 @@
 import { fromUnicodeToHexcode, LATEST_CLDR_VERSION, stripHexcode } from 'emojibase';
 import { formatLocaleJson } from '../helpers/formatLocale';
-import { CLDRAnnotationMap } from '../types';
+import type { CLDRAnnotationMap } from '../types';
 import { importJsonModule } from './fetchAndCache';
 
 type CLDRAnnotationData = Record<string, { default?: string[]; tts?: string[] }>;

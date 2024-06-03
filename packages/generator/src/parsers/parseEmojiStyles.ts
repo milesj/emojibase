@@ -1,6 +1,6 @@
 import cheerio from 'cheerio';
 import { fromUnicodeToHexcode } from 'emojibase';
-import { EmojiStylesMap } from '../types';
+import type { EmojiStylesMap } from '../types';
 
 /**
  * Parses an official unicode emoji default styles chart.

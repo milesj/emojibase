@@ -1,7 +1,7 @@
 import { EMOJI, FULLY_QUALIFIED, TEXT } from 'emojibase';
 import { SEQUENCE_REMOVAL_PATTERN, SKIN_MODIFIER_PATTERN } from '../constants';
 import { hasProperty } from '../helpers/hasProperty';
-import {
+import type {
 	EmojiMap,
 	EmojiMetadataMap,
 	EmojiVariationMap,

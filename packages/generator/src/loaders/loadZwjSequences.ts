@@ -1,6 +1,6 @@
 import { LATEST_EMOJI_VERSION } from 'emojibase';
 import { parseSequences } from '../parsers/parseSequences';
-import { EmojiDataMap } from '../types';
+import type { EmojiDataMap } from '../types';
 import { fetchAndCache } from './fetchAndCache';
 
 export async function loadZwjSequences(

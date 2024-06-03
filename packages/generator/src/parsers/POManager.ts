@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import PO, { POHeaders, POItem } from 'pofile';
+import PO, { type POHeaders, POItem } from 'pofile';
 import { toArray } from '../helpers/toArray';
 
 export class POManager {

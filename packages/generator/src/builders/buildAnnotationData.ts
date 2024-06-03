@@ -1,7 +1,7 @@
 /* eslint-disable complexity */
 
 import util from 'node:util';
-import { Locale, stripHexcode } from 'emojibase';
+import { type Locale, stripHexcode } from 'emojibase';
 import {
 	FACING_LEFT_PATTERN,
 	FACING_RIGHT_PATTERN,
@@ -20,7 +20,7 @@ import { loadLocalization } from '../loaders/loadLocalization';
 import { loadPoMessages } from '../loaders/loadPoMessages';
 import { loadSequences } from '../loaders/loadSequences';
 import { loadZwjSequences } from '../loaders/loadZwjSequences';
-import { CLDRAnnotation, CLDRAnnotationMap } from '../types';
+import type { CLDRAnnotation, CLDRAnnotationMap } from '../types';
 
 // function doesSequenceMatch(a: string[], b: string[]): boolean {
 //   // eslint-disable-next-line unicorn/no-for-loop

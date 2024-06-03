@@ -1,5 +1,5 @@
 import { log } from '../helpers/log';
-import { ParsedTotals } from '../types';
+import type { ParsedTotals } from '../types';
 
 export function verifyTotals<T extends object>(
 	type: string,

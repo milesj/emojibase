@@ -1,5 +1,5 @@
 import { joinShortcodesToEmoji } from './joinShortcodesToEmoji';
-import { CompactEmoji, Emoji, EmojiLike, ShortcodesDataset } from './types';
+import type { CompactEmoji, Emoji, EmojiLike, ShortcodesDataset } from './types';
 
 /**
  * By default, emoji skin modifications are nested under the base neutral skin tone emoji.

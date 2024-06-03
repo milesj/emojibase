@@ -1,5 +1,5 @@
 import { formatHexcode } from '../helpers/formatHexcode';
-import { EmojiVariationMap, ParsedLine } from '../types';
+import type { EmojiVariationMap, ParsedLine } from '../types';
 import { parse } from './parse';
 import { verifyTotals } from './verifyTotals';
 

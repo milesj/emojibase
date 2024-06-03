@@ -2,7 +2,7 @@ import { fetchFromCDN } from './fetchFromCDN';
 import { fetchShortcodes } from './fetchShortcodes';
 import { flattenEmojiData } from './flattenEmojiData';
 import { joinShortcodes } from './joinShortcodes';
-import {
+import type {
 	CompactEmoji,
 	Emoji,
 	FetchEmojisExpandedOptions,

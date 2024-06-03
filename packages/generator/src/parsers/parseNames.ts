@@ -1,4 +1,4 @@
-import { ParsedLine, UnicodeNamesMap } from '../types';
+import type { ParsedLine, UnicodeNamesMap } from '../types';
 import { parse } from './parse';
 
 /**

@@ -1,5 +1,5 @@
 import { joinShortcodes } from '../src/joinShortcodes';
-import { Emoji } from '../src/types';
+import type { Emoji } from '../src/types';
 
 function createList(): Emoji[] {
 	return [

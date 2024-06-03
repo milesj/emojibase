@@ -1,6 +1,6 @@
 /* eslint-disable sort-keys */
 
-import { ParsedLine, ParsedTotals } from '../types';
+import type { ParsedLine, ParsedTotals } from '../types';
 
 // Trying to detect the start of each property group is quite complicated,
 // so let's take the easy route and match the start of the line.

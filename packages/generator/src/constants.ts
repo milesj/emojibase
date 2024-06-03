@@ -1,7 +1,7 @@
 /* eslint-disable sort-keys, unicorn/better-regex */
 
-import { Locale } from 'emojibase';
-import { Property } from './types';
+import type { Locale } from 'emojibase';
+import type { Property } from './types';
 
 export const INHERIT_PARENT_SYMBOL = '↑↑↑';
 

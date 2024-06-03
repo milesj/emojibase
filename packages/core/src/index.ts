@@ -17,4 +17,4 @@ export * from './generateEmoticonPermutations';
 export * from './joinShortcodes';
 export * from './joinShortcodesToEmoji';
 export * from './stripHexcode';
-export * from './types';
+export type * from './types';

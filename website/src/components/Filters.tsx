@@ -4,14 +4,14 @@
 import 'url-search-params-polyfill';
 import React, { useCallback, useEffect, useState } from 'react';
 import {
-	Emoji,
+	type Emoji,
 	fetchFromCDN,
 	fetchMessages,
-	GroupDataset,
-	GroupMessage,
-	Locale,
-	ShortcodePreset,
-	SubgroupMessage,
+	type GroupDataset,
+	type GroupMessage,
+	type Locale,
+	type ShortcodePreset,
+	type SubgroupMessage,
 } from 'emojibase';
 import debounce from 'lodash/debounce';
 import upperFirst from 'lodash/upperFirst';
@@ -114,8 +114,8 @@ export function processEmojis(
 
 		if (filter) {
 			const matchesAnnotation = emoji.label.toLocaleLowerCase().includes(filter);
-			const matchesAnyShortcodes = emoji.shortcodes?.some((shortcode) =>
-				shortcode?.toLocaleLowerCase().includes(filter),
+			const matchesAnyShortcodes = emoji.shortcodes?.some(
+				(shortcode) => shortcode?.toLocaleLowerCase().includes(filter),
 			);
 			const matchesAnyTags = emoji.tags?.some((tag) => tag.toLocaleLowerCase().includes(filter));
 

@@ -3,7 +3,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 
-import { appendSkinToneIndex, Locale, stripHexcode, SUPPORTED_LOCALES } from 'emojibase';
+import { appendSkinToneIndex, type Locale, stripHexcode, SUPPORTED_LOCALES } from 'emojibase';
 import KuroshiroImport from 'kuroshiro';
 import KuromojiAnalyzer from 'kuroshiro-analyzer-kuromoji';
 import { transliterate } from 'transliteration';
@@ -11,7 +11,7 @@ import { buildAnnotationData } from '../../builders/buildAnnotationData';
 import { writeDataset } from '../../helpers/writeDataset';
 import { loadPoMessages } from '../../loaders/loadPoMessages';
 import { POManager } from '../../parsers/POManager';
-import { ShortcodeDataMap } from '../../types';
+import type { ShortcodeDataMap } from '../../types';
 import { Database } from '../Database';
 
 const CUSTOM_SHORTCODES: Record<string, string> = {

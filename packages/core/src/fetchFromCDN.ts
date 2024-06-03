@@ -1,7 +1,8 @@
-import { CDNUrlFn, FetchFromCDNOptions } from './types';
+import type { CDNUrlFn, FetchFromCDNOptions } from './types';
 
 function getFetchUrl(path: string, version: string, cdnUrl?: CDNUrlFn | string): string {
 	let fetchUrl = `https://cdn.jsdelivr.net/npm/emojibase-data@${version}/${path}`;
+
 	if (typeof cdnUrl === 'function') {
 		fetchUrl = cdnUrl(path, version);
 	} else if (typeof cdnUrl === 'string') {
