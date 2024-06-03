@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>2.3.1 (2024-06-03)</small>
+
+* new: Support CLDR 45 (new annotations). (#173) ([d2c587f](https://github.com/milesj/emojibase/commit/d2c587f)), closes [#173](https://github.com/milesj/emojibase/issues/173)
+* deps: Update dev and test dependencies. ([57e8f02](https://github.com/milesj/emojibase/commit/57e8f02))
+* deps(docusaurus): Update to v3.4. ([601da67](https://github.com/milesj/emojibase/commit/601da67))
+* deps(prettier): Update to v3.3. ([9cb9452](https://github.com/milesj/emojibase/commit/9cb9452))
+* deps(typescript): Update to v5.4. ([8756294](https://github.com/milesj/emojibase/commit/8756294))
+
+
+
+
+
 ## 2.3.0 - 2023-12-03
 
 #### 🚀 Updates

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>15.3.1 (2024-06-03)</small>
+
+**Note:** Version bump only for package emojibase-regex
+
+
+
+
+
 ## 15.3.0 - 2023-12-03
 
 #### 🚀 Updates

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>15.3.1 (2024-06-03)</small>
+
+* deps: Update dev and test dependencies. ([57e8f02](https://github.com/milesj/emojibase/commit/57e8f02))
+* deps(lerna): Update to v8.1. ([2f3d1fe](https://github.com/milesj/emojibase/commit/2f3d1fe))
+* deps(node-fetch): Removed, using native fetch instead. ([c0c6550](https://github.com/milesj/emojibase/commit/c0c6550))
+* deps(prettier): Update to v3.3. ([9cb9452](https://github.com/milesj/emojibase/commit/9cb9452))
+* deps(typescript): Update to v5.4. ([8756294](https://github.com/milesj/emojibase/commit/8756294))
+
+
+
+
+
 ## 15.3.0 - 2023-12-03
 
 #### 🚀 Updates
