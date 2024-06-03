@@ -43,8 +43,8 @@ export function parseData(version: string, content: string, unicodeVersion?: num
 					modifier === 'primary' || modifier === 'secondary'
 						? 'Emoji_Modifier_Base'
 						: modifier === 'modifier'
-						? 'Emoji_Modifier'
-						: 'Emoji',
+							? 'Emoji_Modifier'
+							: 'Emoji',
 				];
 			}
 
