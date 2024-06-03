@@ -18,8 +18,8 @@ module.exports = {
 			items: [
 				{
 					type: 'link',
-					label: 'CLDR v44',
-					href: 'http://cldr.unicode.org/index/downloads/cldr-44',
+					label: 'CLDR v45',
+					href: 'http://cldr.unicode.org/index/downloads/cldr-45',
 				},
 				{
 					type: 'link',
