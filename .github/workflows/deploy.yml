@@ -8,11 +8,10 @@ jobs:
     name: Docs
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           cache: yarn
-          node-version: 20
       - run: yarn install --immutable
       - run: yarn run build
       - name: Add key to allow access to repository
