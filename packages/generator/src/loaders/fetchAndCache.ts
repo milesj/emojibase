@@ -56,7 +56,7 @@ export async function fetchAndCache<T>(
 export async function importJsonModule<T>(name: string): Promise<T> {
 	log.info('load', `Loading data from ${chalk.gray(name)}`);
 
-	const path = await import.meta.resolve!(name);
+	const path = await import.meta.resolve(name);
 	const data = await fs.promises.readFile(fileURLToPath(path), 'utf8');
 
 	return JSON.parse(data) as T;
