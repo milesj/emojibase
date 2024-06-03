@@ -92,9 +92,9 @@ export function parseMetadata(content: string): EmojiMetadataMap {
 				qualifier === FULLY_QUALIFIED
 					? { [hexcode]: qualifier }
 					: qualifier === null && (!parentHexcode || !map[parentHexcode])
-					? {}
-					: // Use the same reference so its additive
-					  map[parentHexcode].qualifiers,
+						? {}
+						: // Use the same reference so its additive
+							map[parentHexcode].qualifiers,
 			subgroup: subgroupIndex,
 			...OVERRIDES[hexcode],
 		};
