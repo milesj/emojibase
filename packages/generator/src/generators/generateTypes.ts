@@ -2,6 +2,8 @@
 
 import { log } from '../helpers/log';
 import { readCache } from '../helpers/readCache';
+import { loadEmojiList } from '../loaders/loadEmojiList';
+import { loadMetadata } from '../loaders/loadMetadata';
 
 function unionize(data: unknown[] | object): string {
 	if (!Array.isArray(data)) {
@@ -11,8 +13,11 @@ function unionize(data: unknown[] | object): string {
 	return data.map((value) => `'${value}'`).join(' | ');
 }
 
-export function generateTypes() {
+export async function generateTypes() {
 	log.title('data', 'Generating TypeScript types');
+
+	await loadMetadata();
+	await loadEmojiList();
 
 	const groupData = readCache<{
 		groups: Record<string, string>;
