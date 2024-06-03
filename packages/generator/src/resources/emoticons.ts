@@ -137,5 +137,5 @@ export const emoticons: EmoticonMap = {
   // 💔 broken heart
   '1F494': '</3',
   // 🤘 sign of the horns
-  '1F918': ['\\m/', '\\M/'],
+  '1F918': [String.raw`\m/`, String.raw`\M/`],
 };
