@@ -2,6 +2,7 @@ import { EMOTICON_OPTIONS, generateEmoticonPermutations } from 'emojibase';
 import type { Trie } from 'regexgen';
 import regexgen from 'regexgen';
 import { buildEmojiData } from '../builders/buildEmojiData';
+import { VARIATION_PATTERN } from '../constants';
 import { filterData } from '../helpers/filterData';
 import { flattenData } from '../helpers/flattenData';
 import { log } from '../helpers/log';
@@ -21,6 +22,12 @@ function createRegexPattern(codePointGroups: TrieMap, unicode: boolean = false):
 	groups.sort((a, b) => Number(b) - Number(a));
 
 	return groups.map((group) => codePointGroups[group].toRegExp(flags).source).join('|');
+}
+
+const VARIATION_SUFFIX = new RegExp(`-${VARIATION_PATTERN}$`);
+
+function hasVariationModifier(hexcode: string): boolean {
+	return VARIATION_SUFFIX.test(hexcode);
 }
 
 async function createEmojiRegex(
@@ -55,30 +62,35 @@ async function createEmojiRegex(
 	// but we still need to support the old non-variation selector,
 	// so include the unicode character that does not include FE0E/FE0F
 	// when in loose mode.
+	// eslint-disable-next-line complexity
 	Object.keys(data).forEach((hexcode) => {
 		const { variations, qualifiers } = data[hexcode];
 
 		switch (display) {
 			// Should only contain emoji presentation
 			case 'emoji':
-				if (!variations || loose) {
-					addCodePoint(hexcode);
-				}
-
 				if (variations?.emoji) {
 					addCodePoint(variations.emoji);
+
+					if (hasVariationModifier(variations.emoji)) {
+						addCodePoint(variations.emoji.replace(VARIATION_SUFFIX, ''));
+					}
+				} else if (!variations || loose) {
+					addCodePoint(hexcode);
 				}
 
 				break;
 
 			// Should only contain text presentation
 			case 'text':
-				if (loose) {
-					addCodePoint(hexcode);
-				}
-
 				if (variations?.text) {
 					addCodePoint(variations.text);
+
+					if (hasVariationModifier(variations.text)) {
+						addCodePoint(variations.text.replace(VARIATION_SUFFIX, ''));
+					}
+				} else if (loose) {
+					addCodePoint(hexcode);
 				}
 
 				break;
