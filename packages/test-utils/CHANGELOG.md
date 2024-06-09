@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 15.2.2 - 2024-06-09
+
+#### 🐞 Fixes
+
+- Fix missing group. (#176) ([9f4d2a4](https://github.com/milesj/emojibase/commit/9f4d2a4)), closes [#176](https://github.com/milesj/emojibase/issues/176)
+
+**Note:** Version bump only for package emojibase-test-utils
+
+
+
+
+
 ## <small>15.2.1 (2024-06-03)</small>
 
 * new: Support CLDR 45 (new annotations). (#173) ([d2c587f](https://github.com/milesj/emojibase/commit/d2c587f)), closes [#173](https://github.com/milesj/emojibase/issues/173)

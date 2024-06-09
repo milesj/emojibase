@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 15.3.2 - 2024-06-09
+
+#### 🐞 Fixes
+
+- Improve regex patterns. (#175) ([f835b53](https://github.com/milesj/emojibase/commit/f835b53)), closes [#175](https://github.com/milesj/emojibase/issues/175)
+
+**Note:** Version bump only for package emojibase-regex
+
+
+
+
+
 ## <small>15.3.1 (2024-06-03)</small>
 
 **Note:** Version bump only for package emojibase-regex

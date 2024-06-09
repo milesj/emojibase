@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 15.3.2 - 2024-06-09
+
+#### 🐞 Fixes
+
+- Fix missing group. (#176) ([9f4d2a4](https://github.com/milesj/emojibase/commit/9f4d2a4)), closes [#176](https://github.com/milesj/emojibase/issues/176)
+
+**Note:** Version bump only for package emojibase-generator
+
+
+
+
+
 ## <small>15.3.1 (2024-06-03)</small>
 
 * deps: Update dev and test dependencies. ([57e8f02](https://github.com/milesj/emojibase/commit/57e8f02))
