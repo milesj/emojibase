@@ -93,6 +93,18 @@ export class POManager {
 		return item;
 	}
 
+	removeItem(id: string) {
+		const item = this.itemsById[id];
+
+		delete this.itemsById[id];
+
+		if (item && item.comments.length > 0) {
+			item.comments.forEach((comment) => {
+				delete this.itemsByComment[comment];
+			});
+		}
+	}
+
 	getMessage(id: string): string {
 		return toArray(this.getItem(id).msgstr).join('');
 	}

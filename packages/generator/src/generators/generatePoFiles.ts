@@ -68,13 +68,27 @@ export async function generatePoFiles(): Promise<void> {
 			});
 
 			Object.entries(groupHierarchy.groups).forEach(([order, key]) => {
-				poMessages.addItem(key, '', `EMOJI GROUP: ${key}`, {
+				let msgstr = '';
+
+				if (LEGACY_REMAP[key]) {
+					msgstr = poMessages.getItem(LEGACY_REMAP[key]).msgstr;
+					poMessages.removeItem(LEGACY_REMAP[key]);
+				}
+
+				poMessages.addItem(key, msgstr, `EMOJI GROUP: ${key}`, {
 					comment: order,
 				});
 			});
 
 			Object.entries(groupHierarchy.subgroups).forEach(([order, key]) => {
-				poMessages.addItem(key, '', `EMOJI SUB-GROUP: ${key}`, {
+				let msgstr = '';
+
+				if (LEGACY_REMAP[key]) {
+					msgstr = poMessages.getItem(LEGACY_REMAP[key]).msgstr;
+					poMessages.removeItem(LEGACY_REMAP[key]);
+				}
+
+				poMessages.addItem(key, msgstr, `EMOJI SUB-GROUP: ${key}`, {
 					comment: order,
 				});
 			});
@@ -83,3 +97,115 @@ export async function generatePoFiles(): Promise<void> {
 		}),
 	);
 }
+
+const LEGACY_REMAP: Record<string, string> = {
+	'smileys-emotion': 'smileys & emotion',
+	'people-body': 'people & body',
+	component: 'components',
+	'animals-nature': 'animals & nature',
+	'food-drink': 'food & drink',
+	'travel-places': 'travel & places',
+	activities: 'activities',
+	objects: 'objects',
+	symbols: 'symbols',
+	flags: 'flags',
+	'face-smiling': 'smiling',
+	'face-affection': 'affectionate',
+	'face-tongue': 'with tongue',
+	'face-hand': 'with hands',
+	'face-neutral-skeptical': 'neutral / skeptical',
+	'face-sleepy': 'sleepy',
+	'face-unwell': 'unwell',
+	'face-hat': 'with hats',
+	'face-glasses': 'with glasses',
+	'face-concerned': 'concerned',
+	'face-negative': 'negative',
+	'face-costume': 'costumed & creatures',
+	'cat-face': 'cat faces',
+	'monkey-face': 'monkey faces',
+	emotion: 'emotions',
+	'hand-fingers-open': 'fingers open',
+	'hand-fingers-partial': 'hand signs',
+	'hand-single-finger': 'finger pointing',
+	'hand-fingers-closed': 'fingers closed',
+	hands: 'hands',
+	'hand-prop': 'hand props',
+	'body-parts': 'body parts',
+	person: 'people',
+	'person-gesture': 'gestures',
+	'person-role': 'roles & careers',
+	'person-fantasy': 'fantasy',
+	'person-sport': 'athletics',
+	'person-resting': 'resting',
+	family: 'family',
+	'person-symbol': 'people symbols',
+	'skin-tone': 'skin tones',
+	'hair-style': 'hair styles',
+	'animal-mammal': 'mammals',
+	'animal-bird': 'birds',
+	'animal-amphibian': 'amphibians',
+	'animal-reptile': 'reptiles',
+	'animal-marine': 'marine life',
+	'animal-bug': 'bugs',
+	'plant-flower': 'flowers',
+	'plant-other': 'other plants',
+	'food-fruit': 'fruit',
+	'food-vegetable': 'vegetables',
+	'food-prepared': 'cooked / prepared',
+	'food-asian': 'asian',
+	'food-marine': 'seafood',
+	'food-sweet': 'sweets & candy',
+	drink: 'drink',
+	dishware: 'dishware',
+	'place-map': 'globes & maps',
+	'place-geographic': 'geographic locations',
+	'place-building': 'buildings',
+	'place-religious': 'religious buildings',
+	'place-other': 'other places',
+	'transport-ground': 'ground transportation',
+	'transport-water': 'water transportation',
+	'transport-air': 'air transportation',
+	hotel: 'hotel',
+	time: 'time',
+	'sky-weather': 'weather',
+	event: 'events & holidays',
+	'award-medal': 'award medals',
+	sport: 'sports',
+	game: 'games & hobbies',
+	'arts-crafts': 'arts & crafts',
+	clothing: 'clothing',
+	sound: 'sound',
+	music: 'music',
+	'musical-instrument': 'musical instruments',
+	phone: 'phone',
+	computer: 'computer',
+	'light-video': 'light, film & video',
+	'book-paper': 'books & paper',
+	money: 'money',
+	mail: 'mail',
+	writing: 'writing',
+	office: 'office supplies',
+	lock: 'lock & keys',
+	tool: 'tools',
+	science: 'science equipment',
+	medical: 'medical',
+	household: 'household items',
+	'other-object': 'other objects',
+	'transport-sign': 'transport signs',
+	warning: 'warning symbols',
+	arrow: 'arrows',
+	religion: 'religious symbols',
+	zodiac: 'zodiac signs',
+	'av-symbol': 'audio & video symbols',
+	gender: 'gender signs',
+	math: 'math symbols',
+	punctuation: 'punctuation',
+	currency: 'currencies',
+	'other-symbol': 'other symbols',
+	keycap: 'keypad characters',
+	alphanum: 'alphanumeric symbols',
+	geometric: 'shapes & colors',
+	flag: 'other flags',
+	'country-flag': 'country flags',
+	'subdivision-flag': 'subdivision flags',
+};
