@@ -53,12 +53,12 @@
   ],
   "skinTones": [
     {
-      "key": "light",
-      "message": "淺膚色"
+      "key": "dark",
+      "message": "深色膚色"
     },
     {
-      "key": "medium-light",
-      "message": "中光膚色"
+      "key": "light",
+      "message": "淺膚色"
     },
     {
       "key": "medium",
@@ -69,8 +69,8 @@
       "message": "中深色膚色"
     },
     {
-      "key": "dark",
-      "message": "深色膚色"
+      "key": "medium-light",
+      "message": "中光膚色"
     }
   ],
   "subgroups": [
@@ -145,434 +145,439 @@
       "order": 13
     },
     {
+      "key": "heart",
+      "message": "心",
+      "order": 14
+    },
+    {
       "key": "emotion",
       "message": "情绪",
-      "order": 14
+      "order": 15
     },
     {
       "key": "hand-fingers-open",
       "message": "手伸开",
-      "order": 15
+      "order": 16
     },
     {
       "key": "hand-fingers-partial",
       "message": "手的手指部分",
-      "order": 16
+      "order": 17
     },
     {
       "key": "hand-single-finger",
       "message": "一根手指",
-      "order": 17
+      "order": 18
     },
     {
       "key": "hand-fingers-closed",
       "message": "拳头",
-      "order": 18
+      "order": 19
     },
     {
       "key": "hands",
       "message": "手",
-      "order": 19
+      "order": 20
     },
     {
       "key": "hand-prop",
       "message": "举手",
-      "order": 20
+      "order": 21
     },
     {
       "key": "body-parts",
       "message": "身体部位",
-      "order": 21
+      "order": 22
     },
     {
       "key": "person",
       "message": "人",
-      "order": 22
+      "order": 23
     },
     {
       "key": "person-gesture",
       "message": "做手势",
-      "order": 23
+      "order": 24
     },
     {
       "key": "person-role",
       "message": "演员",
-      "order": 24
+      "order": 25
     },
     {
       "key": "person-fantasy",
       "message": "有魅力的人",
-      "order": 25
+      "order": 26
     },
     {
       "key": "person-activity",
       "message": "个人活动",
-      "order": 26
+      "order": 27
     },
     {
       "key": "person-sport",
       "message": "競技",
-      "order": 27
+      "order": 28
     },
     {
       "key": "person-resting",
       "message": "休息",
-      "order": 28
+      "order": 29
     },
     {
       "key": "family",
       "message": "家庭",
-      "order": 29
+      "order": 30
     },
     {
       "key": "person-symbol",
       "message": "人符號",
-      "order": 30
+      "order": 31
     },
     {
       "key": "skin-tone",
       "message": "膚色",
-      "order": 31
+      "order": 32
     },
     {
       "key": "hair-style",
       "message": "髮型",
-      "order": 32
+      "order": 33
     },
     {
       "key": "animal-mammal",
       "message": "哺乳類動物",
-      "order": 33
+      "order": 34
     },
     {
       "key": "animal-bird",
       "message": "鳥類動物",
-      "order": 34
+      "order": 35
     },
     {
       "key": "animal-amphibian",
       "message": "两栖动物",
-      "order": 35
+      "order": 36
     },
     {
       "key": "animal-reptile",
       "message": "爬蟲類動物",
-      "order": 36
+      "order": 37
     },
     {
       "key": "animal-marine",
       "message": "水生動物",
-      "order": 37
+      "order": 38
     },
     {
       "key": "animal-bug",
       "message": "蟲類動物",
-      "order": 38
+      "order": 39
     },
     {
       "key": "plant-flower",
       "message": "花卉植物",
-      "order": 39
+      "order": 40
     },
     {
       "key": "plant-other",
       "message": "其他植物",
-      "order": 40
+      "order": 41
     },
     {
       "key": "food-fruit",
       "message": "水果類食物",
-      "order": 41
+      "order": 42
     },
     {
       "key": "food-vegetable",
       "message": "蔬菜類食物",
-      "order": 42
+      "order": 43
     },
     {
       "key": "food-prepared",
       "message": "准备好的食物",
-      "order": 43
+      "order": 44
     },
     {
       "key": "food-asian",
       "message": "亞洲食物",
-      "order": 44
+      "order": 45
     },
     {
       "key": "food-marine",
       "message": "水產食物",
-      "order": 45
+      "order": 46
     },
     {
       "key": "food-sweet",
       "message": "甜食物",
-      "order": 46
+      "order": 47
     },
     {
       "key": "drink",
       "message": "飲品",
-      "order": 47
+      "order": 48
     },
     {
       "key": "dishware",
       "message": "餐具",
-      "order": 48
+      "order": 49
     },
     {
       "key": "place-map",
       "message": "地球和地圖",
-      "order": 49
+      "order": 50
     },
     {
       "key": "place-geographic",
       "message": "地理位置",
-      "order": 50
+      "order": 51
     },
     {
       "key": "place-building",
       "message": "地方建筑",
-      "order": 51
+      "order": 52
     },
     {
       "key": "place-religious",
       "message": "宗教场所",
-      "order": 52
+      "order": 53
     },
     {
       "key": "place-other",
       "message": "其他地點",
-      "order": 53
+      "order": 54
     },
     {
       "key": "transport-ground",
       "message": "陆运",
-      "order": 54
+      "order": 55
     },
     {
       "key": "transport-water",
       "message": "水运",
-      "order": 55
+      "order": 56
     },
     {
       "key": "transport-air",
       "message": "空运",
-      "order": 56
+      "order": 57
     },
     {
       "key": "hotel",
       "message": "旅馆",
-      "order": 57
+      "order": 58
     },
     {
       "key": "time",
       "message": "时间",
-      "order": 58
+      "order": 59
     },
     {
       "key": "sky-weather",
       "message": "天气",
-      "order": 59
+      "order": 60
     },
     {
       "key": "event",
       "message": "事件",
-      "order": 60
+      "order": 61
     },
     {
       "key": "award-medal",
       "message": "奖章",
-      "order": 61
+      "order": 62
     },
     {
       "key": "sport",
       "message": "运动",
-      "order": 62
+      "order": 63
     },
     {
       "key": "game",
       "message": "游戏",
-      "order": 63
+      "order": 64
     },
     {
       "key": "arts-crafts",
       "message": "工艺品",
-      "order": 64
+      "order": 65
     },
     {
       "key": "clothing",
       "message": "服装",
-      "order": 65
+      "order": 66
     },
     {
       "key": "sound",
       "message": "声音",
-      "order": 66
+      "order": 67
     },
     {
       "key": "music",
       "message": "音乐",
-      "order": 67
+      "order": 68
     },
     {
       "key": "musical-instrument",
       "message": "乐器",
-      "order": 68
+      "order": 69
     },
     {
       "key": "phone",
       "message": "手机",
-      "order": 69
+      "order": 70
     },
     {
       "key": "computer",
       "message": "计算机",
-      "order": 70
+      "order": 71
     },
     {
       "key": "light-video",
       "message": "轻视频",
-      "order": 71
+      "order": 72
     },
     {
       "key": "book-paper",
       "message": "印书纸",
-      "order": 72
+      "order": 73
     },
     {
       "key": "money",
       "message": "钱",
-      "order": 73
+      "order": 74
     },
     {
       "key": "mail",
       "message": "邮件",
-      "order": 74
+      "order": 75
     },
     {
       "key": "writing",
       "message": "文章",
-      "order": 75
+      "order": 76
     },
     {
       "key": "office",
       "message": "办公室",
-      "order": 76
+      "order": 77
     },
     {
       "key": "lock",
       "message": "锁",
-      "order": 77
+      "order": 78
     },
     {
       "key": "tool",
       "message": "工具",
-      "order": 78
+      "order": 79
     },
     {
       "key": "science",
       "message": "科学",
-      "order": 79
+      "order": 80
     },
     {
       "key": "medical",
       "message": "医疗的",
-      "order": 80
+      "order": 81
     },
     {
       "key": "household",
       "message": "一家人",
-      "order": 81
+      "order": 82
     },
     {
       "key": "other-object",
       "message": "其它物体",
-      "order": 82
+      "order": 83
     },
     {
       "key": "transport-sign",
       "message": "交通标志",
-      "order": 83
+      "order": 84
     },
     {
       "key": "warning",
       "message": "警告",
-      "order": 84
+      "order": 85
     },
     {
       "key": "arrow",
       "message": "箭头",
-      "order": 85
+      "order": 86
     },
     {
       "key": "religion",
       "message": "宗教",
-      "order": 86
+      "order": 87
     },
     {
       "key": "zodiac",
       "message": "星座",
-      "order": 87
+      "order": 88
     },
     {
       "key": "av-symbol",
       "message": "音频和视频符号",
-      "order": 88
+      "order": 89
     },
     {
       "key": "gender",
       "message": "性别",
-      "order": 89
+      "order": 90
     },
     {
       "key": "math",
       "message": "数学",
-      "order": 90
+      "order": 91
     },
     {
       "key": "punctuation",
       "message": "标点符号",
-      "order": 91
+      "order": 92
     },
     {
       "key": "currency",
       "message": "货币",
-      "order": 92
+      "order": 93
     },
     {
       "key": "other-symbol",
       "message": "其他符号",
-      "order": 93
+      "order": 94
     },
     {
       "key": "keycap",
       "message": "键帽",
-      "order": 94
+      "order": 95
     },
     {
       "key": "alphanum",
       "message": "字母数字",
-      "order": 95
+      "order": 96
     },
     {
       "key": "geometric",
       "message": "几何",
-      "order": 96
+      "order": 97
     },
     {
       "key": "flag",
       "message": "其他標誌",
-      "order": 97
+      "order": 98
     },
     {
       "key": "country-flag",
       "message": "国家旗帜",
-      "order": 98
+      "order": 99
     },
     {
       "key": "subdivision-flag",
       "message": "细分旗帜",
-      "order": 99
+      "order": 100
     }
   ]
 }

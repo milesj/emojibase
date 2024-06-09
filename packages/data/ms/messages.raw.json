@@ -53,12 +53,12 @@
   ],
   "skinTones": [
     {
-      "key": "light",
-      "message": "nada kulit cahaya"
+      "key": "dark",
+      "message": "nada kulit gelap"
     },
     {
-      "key": "medium-light",
-      "message": "nada kulit ringan"
+      "key": "light",
+      "message": "nada kulit cahaya"
     },
     {
       "key": "medium",
@@ -69,8 +69,8 @@
       "message": "nada kulit sederhana-gelap"
     },
     {
-      "key": "dark",
-      "message": "nada kulit gelap"
+      "key": "medium-light",
+      "message": "nada kulit ringan"
     }
   ],
   "subgroups": [
@@ -145,434 +145,439 @@
       "order": 13
     },
     {
+      "key": "heart",
+      "message": "hati",
+      "order": 14
+    },
+    {
       "key": "emotion",
       "message": "emosi",
-      "order": 14
+      "order": 15
     },
     {
       "key": "hand-fingers-open",
       "message": "jari terbuka",
-      "order": 15
+      "order": 16
     },
     {
       "key": "hand-fingers-partial",
       "message": "tanda tangan",
-      "order": 16
+      "order": 17
     },
     {
       "key": "hand-single-finger",
       "message": "menuding jari",
-      "order": 17
+      "order": 18
     },
     {
       "key": "hand-fingers-closed",
       "message": "jari ditutup",
-      "order": 18
+      "order": 19
     },
     {
       "key": "hands",
       "message": "tangan",
-      "order": 19
+      "order": 20
     },
     {
       "key": "hand-prop",
       "message": "prop tangan",
-      "order": 20
+      "order": 21
     },
     {
       "key": "body-parts",
       "message": "bahagian badan",
-      "order": 21
+      "order": 22
     },
     {
       "key": "person",
       "message": "orang",
-      "order": 22
+      "order": 23
     },
     {
       "key": "person-gesture",
       "message": "gerak isyarat",
-      "order": 23
+      "order": 24
     },
     {
       "key": "person-role",
       "message": "peranan & kerjaya",
-      "order": 24
+      "order": 25
     },
     {
       "key": "person-fantasy",
       "message": "fantasi",
-      "order": 25
+      "order": 26
     },
     {
       "key": "person-activity",
       "message": "aktiviti",
-      "order": 26
+      "order": 27
     },
     {
       "key": "person-sport",
       "message": "olahraga",
-      "order": 27
+      "order": 28
     },
     {
       "key": "person-resting",
       "message": "berehat",
-      "order": 28
+      "order": 29
     },
     {
       "key": "family",
       "message": "keluarga",
-      "order": 29
+      "order": 30
     },
     {
       "key": "person-symbol",
       "message": "simbol orang",
-      "order": 30
+      "order": 31
     },
     {
       "key": "skin-tone",
       "message": "nada kulit",
-      "order": 31
+      "order": 32
     },
     {
       "key": "hair-style",
       "message": "gaya rambut",
-      "order": 32
+      "order": 33
     },
     {
       "key": "animal-mammal",
       "message": "mamalia",
-      "order": 33
+      "order": 34
     },
     {
       "key": "animal-bird",
       "message": "burung",
-      "order": 34
+      "order": 35
     },
     {
       "key": "animal-amphibian",
       "message": "amfbia",
-      "order": 35
+      "order": 36
     },
     {
       "key": "animal-reptile",
       "message": "reptilia",
-      "order": 36
+      "order": 37
     },
     {
       "key": "animal-marine",
       "message": "hidupan laut",
-      "order": 37
+      "order": 38
     },
     {
       "key": "animal-bug",
       "message": "pepijat",
-      "order": 38
+      "order": 39
     },
     {
       "key": "plant-flower",
       "message": "bunga",
-      "order": 39
+      "order": 40
     },
     {
       "key": "plant-other",
       "message": "tumbuh-tumbuhan lain",
-      "order": 40
+      "order": 41
     },
     {
       "key": "food-fruit",
       "message": "buah",
-      "order": 41
+      "order": 42
     },
     {
       "key": "food-vegetable",
       "message": "sayur",
-      "order": 42
+      "order": 43
     },
     {
       "key": "food-prepared",
       "message": "dimasak / disediakan",
-      "order": 43
+      "order": 44
     },
     {
       "key": "food-asian",
       "message": "asia",
-      "order": 44
+      "order": 45
     },
     {
       "key": "food-marine",
       "message": "makanan laut",
-      "order": 45
+      "order": 46
     },
     {
       "key": "food-sweet",
       "message": "gula-gula",
-      "order": 46
+      "order": 47
     },
     {
       "key": "drink",
       "message": "minuman",
-      "order": 47
+      "order": 48
     },
     {
       "key": "dishware",
       "message": "perisian basuh",
-      "order": 48
+      "order": 49
     },
     {
       "key": "place-map",
       "message": "glob & peta",
-      "order": 49
+      "order": 50
     },
     {
       "key": "place-geographic",
       "message": "lokasi geografi",
-      "order": 50
+      "order": 51
     },
     {
       "key": "place-building",
       "message": "bangunan",
-      "order": 51
+      "order": 52
     },
     {
       "key": "place-religious",
       "message": "bangunan agama",
-      "order": 52
+      "order": 53
     },
     {
       "key": "place-other",
       "message": "tempat-tempat lain",
-      "order": 53
+      "order": 54
     },
     {
       "key": "transport-ground",
       "message": "pengangkutan darat",
-      "order": 54
+      "order": 55
     },
     {
       "key": "transport-water",
       "message": "pengangkutan air",
-      "order": 55
+      "order": 56
     },
     {
       "key": "transport-air",
       "message": "pengangkutan udara",
-      "order": 56
+      "order": 57
     },
     {
       "key": "hotel",
       "message": "hotel",
-      "order": 57
+      "order": 58
     },
     {
       "key": "time",
       "message": "masa",
-      "order": 58
+      "order": 59
     },
     {
       "key": "sky-weather",
       "message": "cuaca",
-      "order": 59
+      "order": 60
     },
     {
       "key": "event",
       "message": "acara & cuti",
-      "order": 60
+      "order": 61
     },
     {
       "key": "award-medal",
       "message": "pingat anugerah",
-      "order": 61
+      "order": 62
     },
     {
       "key": "sport",
       "message": "sukan",
-      "order": 62
+      "order": 63
     },
     {
       "key": "game",
       "message": "permainan & hobi",
-      "order": 63
+      "order": 64
     },
     {
       "key": "arts-crafts",
       "message": "seni & kraf",
-      "order": 64
+      "order": 65
     },
     {
       "key": "clothing",
       "message": "pakaian",
-      "order": 65
+      "order": 66
     },
     {
       "key": "sound",
       "message": "bunyi",
-      "order": 66
+      "order": 67
     },
     {
       "key": "music",
       "message": "muzik",
-      "order": 67
+      "order": 68
     },
     {
       "key": "musical-instrument",
       "message": "alat muzik",
-      "order": 68
+      "order": 69
     },
     {
       "key": "phone",
       "message": "telefon",
-      "order": 69
+      "order": 70
     },
     {
       "key": "computer",
       "message": "komputer",
-      "order": 70
+      "order": 71
     },
     {
       "key": "light-video",
       "message": "cahaya, filem & video",
-      "order": 71
+      "order": 72
     },
     {
       "key": "book-paper",
       "message": "buku & kertas",
-      "order": 72
+      "order": 73
     },
     {
       "key": "money",
       "message": "wang",
-      "order": 73
+      "order": 74
     },
     {
       "key": "mail",
       "message": "mel",
-      "order": 74
+      "order": 75
     },
     {
       "key": "writing",
       "message": "secara bertulis",
-      "order": 75
+      "order": 76
     },
     {
       "key": "office",
       "message": "bekalan pejabat",
-      "order": 76
+      "order": 77
     },
     {
       "key": "lock",
       "message": "kunci & kekunci",
-      "order": 77
+      "order": 78
     },
     {
       "key": "tool",
       "message": "alat",
-      "order": 78
+      "order": 79
     },
     {
       "key": "science",
       "message": "peralatan sains",
-      "order": 79
+      "order": 80
     },
     {
       "key": "medical",
       "message": "perubatan",
-      "order": 80
+      "order": 81
     },
     {
       "key": "household",
       "message": "barangan isi rumah",
-      "order": 81
+      "order": 82
     },
     {
       "key": "other-object",
       "message": "objek lain",
-      "order": 82
+      "order": 83
     },
     {
       "key": "transport-sign",
       "message": "tanda-tanda pengangkutan",
-      "order": 83
+      "order": 84
     },
     {
       "key": "warning",
       "message": "simbol amaran",
-      "order": 84
+      "order": 85
     },
     {
       "key": "arrow",
       "message": "anak panah",
-      "order": 85
+      "order": 86
     },
     {
       "key": "religion",
       "message": "simbol agama",
-      "order": 86
+      "order": 87
     },
     {
       "key": "zodiac",
       "message": "tanda-tanda zodiak",
-      "order": 87
+      "order": 88
     },
     {
       "key": "av-symbol",
       "message": "simbol audio & video",
-      "order": 88
+      "order": 89
     },
     {
       "key": "gender",
       "message": "tanda-tanda jantina",
-      "order": 89
+      "order": 90
     },
     {
       "key": "math",
       "message": "simbol matematik",
-      "order": 90
+      "order": 91
     },
     {
       "key": "punctuation",
       "message": "tanda baca",
-      "order": 91
+      "order": 92
     },
     {
       "key": "currency",
       "message": "mata wang",
-      "order": 92
+      "order": 93
     },
     {
       "key": "other-symbol",
       "message": "simbol lain",
-      "order": 93
+      "order": 94
     },
     {
       "key": "keycap",
       "message": "aksara pad kekunci",
-      "order": 94
+      "order": 95
     },
     {
       "key": "alphanum",
       "message": "simbol abjad",
-      "order": 95
+      "order": 96
     },
     {
       "key": "geometric",
       "message": "bentuk & warna",
-      "order": 96
+      "order": 97
     },
     {
       "key": "flag",
       "message": "bendera lain",
-      "order": 97
+      "order": 98
     },
     {
       "key": "country-flag",
       "message": "bendera negara",
-      "order": 98
+      "order": 99
     },
     {
       "key": "subdivision-flag",
       "message": "bendera pembahagian",
-      "order": 99
+      "order": 100
     }
   ]
 }

@@ -53,12 +53,12 @@
   ],
   "skinTones": [
     {
-      "key": "light",
-      "message": "світлий тон шкіри"
+      "key": "dark",
+      "message": "темний тон шкіри"
     },
     {
-      "key": "medium-light",
-      "message": "помірно світлий тон шкіри"
+      "key": "light",
+      "message": "світлий тон шкіри"
     },
     {
       "key": "medium",
@@ -69,8 +69,8 @@
       "message": "помірно темний тон шкіри"
     },
     {
-      "key": "dark",
-      "message": "темний тон шкіри"
+      "key": "medium-light",
+      "message": "помірно світлий тон шкіри"
     }
   ],
   "subgroups": [
@@ -145,434 +145,439 @@
       "order": 13
     },
     {
+      "key": "heart",
+      "message": "серця",
+      "order": 14
+    },
+    {
       "key": "emotion",
       "message": "емоції",
-      "order": 14
+      "order": 15
     },
     {
       "key": "hand-fingers-open",
       "message": "пальці відкриті",
-      "order": 15
+      "order": 16
     },
     {
       "key": "hand-fingers-partial",
       "message": "знаки руки",
-      "order": 16
+      "order": 17
     },
     {
       "key": "hand-single-finger",
       "message": "вказівник пальця",
-      "order": 17
+      "order": 18
     },
     {
       "key": "hand-fingers-closed",
       "message": "пальці закриті",
-      "order": 18
+      "order": 19
     },
     {
       "key": "hands",
       "message": "pуки",
-      "order": 19
+      "order": 20
     },
     {
       "key": "hand-prop",
       "message": "реквізит ручний",
-      "order": 20
+      "order": 21
     },
     {
       "key": "body-parts",
       "message": "частини тіла",
-      "order": 21
+      "order": 22
     },
     {
       "key": "person",
       "message": "люди",
-      "order": 22
+      "order": 23
     },
     {
       "key": "person-gesture",
       "message": "жести",
-      "order": 23
+      "order": 24
     },
     {
       "key": "person-role",
       "message": "ролі та кар'єра",
-      "order": 24
+      "order": 25
     },
     {
       "key": "person-fantasy",
       "message": "фантазія",
-      "order": 25
+      "order": 26
     },
     {
       "key": "person-activity",
       "message": "діяльності",
-      "order": 26
+      "order": 27
     },
     {
       "key": "person-sport",
       "message": "атлетика",
-      "order": 27
+      "order": 28
     },
     {
       "key": "person-resting",
       "message": "відпочиваючи",
-      "order": 28
+      "order": 29
     },
     {
       "key": "family",
       "message": "сімейство",
-      "order": 29
+      "order": 30
     },
     {
       "key": "person-symbol",
       "message": "люди символи",
-      "order": 30
+      "order": 31
     },
     {
       "key": "skin-tone",
       "message": "тони шкіри",
-      "order": 31
+      "order": 32
     },
     {
       "key": "hair-style",
       "message": "зачіски",
-      "order": 32
+      "order": 33
     },
     {
       "key": "animal-mammal",
       "message": "cсавців",
-      "order": 33
+      "order": 34
     },
     {
       "key": "animal-bird",
       "message": "птахів",
-      "order": 34
+      "order": 35
     },
     {
       "key": "animal-amphibian",
       "message": "aмфібії",
-      "order": 35
+      "order": 36
     },
     {
       "key": "animal-reptile",
       "message": "плазуни",
-      "order": 36
+      "order": 37
     },
     {
       "key": "animal-marine",
       "message": "морське життя",
-      "order": 37
+      "order": 38
     },
     {
       "key": "animal-bug",
       "message": "помилки",
-      "order": 38
+      "order": 39
     },
     {
       "key": "plant-flower",
       "message": "квіти",
-      "order": 39
+      "order": 40
     },
     {
       "key": "plant-other",
       "message": "інші рослини",
-      "order": 40
+      "order": 41
     },
     {
       "key": "food-fruit",
       "message": "фрукти",
-      "order": 41
+      "order": 42
     },
     {
       "key": "food-vegetable",
       "message": "овощи",
-      "order": 42
+      "order": 43
     },
     {
       "key": "food-prepared",
       "message": "приготований / приготований",
-      "order": 43
+      "order": 44
     },
     {
       "key": "food-asian",
       "message": "aзіатських",
-      "order": 44
+      "order": 45
     },
     {
       "key": "food-marine",
       "message": "морепродукти",
-      "order": 45
+      "order": 46
     },
     {
       "key": "food-sweet",
       "message": "цукерки",
-      "order": 46
+      "order": 47
     },
     {
       "key": "drink",
       "message": "питво",
-      "order": 47
+      "order": 48
     },
     {
       "key": "dishware",
       "message": "посуд",
-      "order": 48
+      "order": 49
     },
     {
       "key": "place-map",
       "message": "глобуси &amp; карти",
-      "order": 49
+      "order": 50
     },
     {
       "key": "place-geographic",
       "message": "географічні розташування",
-      "order": 50
+      "order": 51
     },
     {
       "key": "place-building",
       "message": "будівель",
-      "order": 51
+      "order": 52
     },
     {
       "key": "place-religious",
       "message": "культові споруди",
-      "order": 52
+      "order": 53
     },
     {
       "key": "place-other",
       "message": "в інших місцях",
-      "order": 53
+      "order": 54
     },
     {
       "key": "transport-ground",
       "message": "наземні перевезення",
-      "order": 54
+      "order": 55
     },
     {
       "key": "transport-water",
       "message": "транспортування води",
-      "order": 55
+      "order": 56
     },
     {
       "key": "transport-air",
       "message": "авіаперевезення",
-      "order": 56
+      "order": 57
     },
     {
       "key": "hotel",
       "message": "готель",
-      "order": 57
+      "order": 58
     },
     {
       "key": "time",
       "message": "час",
-      "order": 58
+      "order": 59
     },
     {
       "key": "sky-weather",
       "message": "погода",
-      "order": 59
+      "order": 60
     },
     {
       "key": "event",
       "message": "події та свята",
-      "order": 60
+      "order": 61
     },
     {
       "key": "award-medal",
       "message": "нагородити медалями",
-      "order": 61
+      "order": 62
     },
     {
       "key": "sport",
       "message": "спортивні змагання",
-      "order": 62
+      "order": 63
     },
     {
       "key": "game",
       "message": "ігри та хобі",
-      "order": 63
+      "order": 64
     },
     {
       "key": "arts-crafts",
       "message": "мистецтво &amp; ремесла",
-      "order": 64
+      "order": 65
     },
     {
       "key": "clothing",
       "message": "одяг",
-      "order": 65
+      "order": 66
     },
     {
       "key": "sound",
       "message": "звук",
-      "order": 66
+      "order": 67
     },
     {
       "key": "music",
       "message": "музики",
-      "order": 67
+      "order": 68
     },
     {
       "key": "musical-instrument",
       "message": "музичні інструменти",
-      "order": 68
+      "order": 69
     },
     {
       "key": "phone",
       "message": "телефон",
-      "order": 69
+      "order": 70
     },
     {
       "key": "computer",
       "message": "комп'ютер",
-      "order": 70
+      "order": 71
     },
     {
       "key": "light-video",
       "message": "світло, фільм &amp; відео",
-      "order": 71
+      "order": 72
     },
     {
       "key": "book-paper",
       "message": "книги та папір",
-      "order": 72
+      "order": 73
     },
     {
       "key": "money",
       "message": "гроші",
-      "order": 73
+      "order": 74
     },
     {
       "key": "mail",
       "message": "лист",
-      "order": 74
+      "order": 75
     },
     {
       "key": "writing",
       "message": "письмо",
-      "order": 75
+      "order": 76
     },
     {
       "key": "office",
       "message": "офісне приладдя",
-      "order": 76
+      "order": 77
     },
     {
       "key": "lock",
       "message": "блокування та ключі",
-      "order": 77
+      "order": 78
     },
     {
       "key": "tool",
       "message": "інструменти",
-      "order": 78
+      "order": 79
     },
     {
       "key": "science",
       "message": "наукове обладнання",
-      "order": 79
+      "order": 80
     },
     {
       "key": "medical",
       "message": "медичний",
-      "order": 80
+      "order": 81
     },
     {
       "key": "household",
       "message": "предмети побуту",
-      "order": 81
+      "order": 82
     },
     {
       "key": "other-object",
       "message": "інші об'єкти",
-      "order": 82
+      "order": 83
     },
     {
       "key": "transport-sign",
       "message": "транспортні знаки",
-      "order": 83
+      "order": 84
     },
     {
       "key": "warning",
       "message": "попереджувальні символи",
-      "order": 84
+      "order": 85
     },
     {
       "key": "arrow",
       "message": "стрілки",
-      "order": 85
+      "order": 86
     },
     {
       "key": "religion",
       "message": "релігійні символи",
-      "order": 86
+      "order": 87
     },
     {
       "key": "zodiac",
       "message": "знаки зодіаку",
-      "order": 87
+      "order": 88
     },
     {
       "key": "av-symbol",
       "message": "аудіо та відео символи",
-      "order": 88
+      "order": 89
     },
     {
       "key": "gender",
       "message": "гендерні ознаки",
-      "order": 89
+      "order": 90
     },
     {
       "key": "math",
       "message": "математичні символи",
-      "order": 90
+      "order": 91
     },
     {
       "key": "punctuation",
       "message": "пунктуація",
-      "order": 91
+      "order": 92
     },
     {
       "key": "currency",
       "message": "валюти",
-      "order": 92
+      "order": 93
     },
     {
       "key": "other-symbol",
       "message": "інші символи",
-      "order": 93
+      "order": 94
     },
     {
       "key": "keycap",
       "message": "символи клавіатури",
-      "order": 94
+      "order": 95
     },
     {
       "key": "alphanum",
       "message": "буквено-цифрові символи",
-      "order": 95
+      "order": 96
     },
     {
       "key": "geometric",
       "message": "фігури та кольори",
-      "order": 96
+      "order": 97
     },
     {
       "key": "flag",
       "message": "інші прапорці",
-      "order": 97
+      "order": 98
     },
     {
       "key": "country-flag",
       "message": "прапори країни",
-      "order": 98
+      "order": 99
     },
     {
       "key": "subdivision-flag",
       "message": "прапори підрозділу",
-      "order": 99
+      "order": 100
     }
   ]
 }

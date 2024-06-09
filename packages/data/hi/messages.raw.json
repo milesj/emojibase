@@ -53,12 +53,12 @@
   ],
   "skinTones": [
     {
-      "key": "light",
-      "message": "हल्की त्वचा का रंग"
+      "key": "dark",
+      "message": "गहरे रंग की त्वचा"
     },
     {
-      "key": "medium-light",
-      "message": "मध्यम-हल्की त्वचा का रंग"
+      "key": "light",
+      "message": "हल्की त्वचा का रंग"
     },
     {
       "key": "medium",
@@ -69,8 +69,8 @@
       "message": "मध्यम-गहरा त्वचा टोन"
     },
     {
-      "key": "dark",
-      "message": "गहरे रंग की त्वचा"
+      "key": "medium-light",
+      "message": "मध्यम-हल्की त्वचा का रंग"
     }
   ],
   "subgroups": [
@@ -145,434 +145,439 @@
       "order": 13
     },
     {
+      "key": "heart",
+      "message": "दिल",
+      "order": 14
+    },
+    {
       "key": "emotion",
       "message": "भावनाएँ",
-      "order": 14
+      "order": 15
     },
     {
       "key": "hand-fingers-open",
       "message": "उँगलियाँ खुलीं",
-      "order": 15
+      "order": 16
     },
     {
       "key": "hand-fingers-partial",
       "message": "हाथ के संकेत",
-      "order": 16
+      "order": 17
     },
     {
       "key": "hand-single-finger",
       "message": "उंगली उठाना",
-      "order": 17
+      "order": 18
     },
     {
       "key": "hand-fingers-closed",
       "message": "उँगलियाँ बंद",
-      "order": 18
+      "order": 19
     },
     {
       "key": "hands",
       "message": "हाथ",
-      "order": 19
+      "order": 20
     },
     {
       "key": "hand-prop",
       "message": "हाथ सहारा",
-      "order": 20
+      "order": 21
     },
     {
       "key": "body-parts",
       "message": "शरीर के अंग",
-      "order": 21
+      "order": 22
     },
     {
       "key": "person",
       "message": "लोग",
-      "order": 22
+      "order": 23
     },
     {
       "key": "person-gesture",
       "message": "इशारों",
-      "order": 23
+      "order": 24
     },
     {
       "key": "person-role",
       "message": "भूमिकाएँ और करियर",
-      "order": 24
+      "order": 25
     },
     {
       "key": "person-fantasy",
       "message": "कल्पना",
-      "order": 25
+      "order": 26
     },
     {
       "key": "person-activity",
       "message": "गतिविधियाँ",
-      "order": 26
+      "order": 27
     },
     {
       "key": "person-sport",
       "message": "व्यायाम",
-      "order": 27
+      "order": 28
     },
     {
       "key": "person-resting",
       "message": "आराम",
-      "order": 28
+      "order": 29
     },
     {
       "key": "family",
       "message": "परिवार",
-      "order": 29
+      "order": 30
     },
     {
       "key": "person-symbol",
       "message": "लोक प्रतीक",
-      "order": 30
+      "order": 31
     },
     {
       "key": "skin-tone",
       "message": "त्वचा का रंग",
-      "order": 31
+      "order": 32
     },
     {
       "key": "hair-style",
       "message": "बाल शैलियाँ",
-      "order": 32
+      "order": 33
     },
     {
       "key": "animal-mammal",
       "message": "स्तनधारियों",
-      "order": 33
+      "order": 34
     },
     {
       "key": "animal-bird",
       "message": "पक्षियों",
-      "order": 34
+      "order": 35
     },
     {
       "key": "animal-amphibian",
       "message": "उभयचर",
-      "order": 35
+      "order": 36
     },
     {
       "key": "animal-reptile",
       "message": "सरीसृप",
-      "order": 36
+      "order": 37
     },
     {
       "key": "animal-marine",
       "message": "समुद्री जीवन",
-      "order": 37
+      "order": 38
     },
     {
       "key": "animal-bug",
       "message": "कीड़े",
-      "order": 38
+      "order": 39
     },
     {
       "key": "plant-flower",
       "message": "पुष्प",
-      "order": 39
+      "order": 40
     },
     {
       "key": "plant-other",
       "message": "अन्य पौधे",
-      "order": 40
+      "order": 41
     },
     {
       "key": "food-fruit",
       "message": "फल",
-      "order": 41
+      "order": 42
     },
     {
       "key": "food-vegetable",
       "message": "सब्ज़ियाँ",
-      "order": 42
+      "order": 43
     },
     {
       "key": "food-prepared",
       "message": "पका हुआ/तैयार",
-      "order": 43
+      "order": 44
     },
     {
       "key": "food-asian",
       "message": "एशियाई",
-      "order": 44
+      "order": 45
     },
     {
       "key": "food-marine",
       "message": "समुद्री भोजन",
-      "order": 45
+      "order": 46
     },
     {
       "key": "food-sweet",
       "message": "मिठाई और कैंडी",
-      "order": 46
+      "order": 47
     },
     {
       "key": "drink",
       "message": "पीना",
-      "order": 47
+      "order": 48
     },
     {
       "key": "dishware",
       "message": "डिशवेयर",
-      "order": 48
+      "order": 49
     },
     {
       "key": "place-map",
       "message": "ग्लोब और मानचित्र",
-      "order": 49
+      "order": 50
     },
     {
       "key": "place-geographic",
       "message": "भौगोलिक स्थान",
-      "order": 50
+      "order": 51
     },
     {
       "key": "place-building",
       "message": "इमारतों",
-      "order": 51
+      "order": 52
     },
     {
       "key": "place-religious",
       "message": "धार्मिक इमारतें",
-      "order": 52
+      "order": 53
     },
     {
       "key": "place-other",
       "message": "अन्य जगहें",
-      "order": 53
+      "order": 54
     },
     {
       "key": "transport-ground",
       "message": "भूमि परिवहन",
-      "order": 54
+      "order": 55
     },
     {
       "key": "transport-water",
       "message": "जल परिवहन",
-      "order": 55
+      "order": 56
     },
     {
       "key": "transport-air",
       "message": "वायु परिवहन",
-      "order": 56
+      "order": 57
     },
     {
       "key": "hotel",
       "message": "होटल",
-      "order": 57
+      "order": 58
     },
     {
       "key": "time",
       "message": "समय",
-      "order": 58
+      "order": 59
     },
     {
       "key": "sky-weather",
       "message": "मौसम",
-      "order": 59
+      "order": 60
     },
     {
       "key": "event",
       "message": "घटनाएँ एवं छुट्टियाँ",
-      "order": 60
+      "order": 61
     },
     {
       "key": "award-medal",
       "message": "पुरस्कार पदक",
-      "order": 61
+      "order": 62
     },
     {
       "key": "sport",
       "message": "खेल",
-      "order": 62
+      "order": 63
     },
     {
       "key": "game",
       "message": "खेल और शौक",
-      "order": 63
+      "order": 64
     },
     {
       "key": "arts-crafts",
       "message": "कला और शिल्प",
-      "order": 64
+      "order": 65
     },
     {
       "key": "clothing",
       "message": "कपड़े",
-      "order": 65
+      "order": 66
     },
     {
       "key": "sound",
       "message": "आवाज़",
-      "order": 66
+      "order": 67
     },
     {
       "key": "music",
       "message": "संगीत",
-      "order": 67
+      "order": 68
     },
     {
       "key": "musical-instrument",
       "message": "संगीत वाद्ययंत्र",
-      "order": 68
+      "order": 69
     },
     {
       "key": "phone",
       "message": "फ़ोन",
-      "order": 69
+      "order": 70
     },
     {
       "key": "computer",
       "message": "कंप्यूटर",
-      "order": 70
+      "order": 71
     },
     {
       "key": "light-video",
       "message": "प्रकाश, फिल्म और वीडियो",
-      "order": 71
+      "order": 72
     },
     {
       "key": "book-paper",
       "message": "किताबें और कागज",
-      "order": 72
+      "order": 73
     },
     {
       "key": "money",
       "message": "धन",
-      "order": 73
+      "order": 74
     },
     {
       "key": "mail",
       "message": "मेल",
-      "order": 74
+      "order": 75
     },
     {
       "key": "writing",
       "message": "लिखना",
-      "order": 75
+      "order": 76
     },
     {
       "key": "office",
       "message": "कार्यालय की आपूर्ति",
-      "order": 76
+      "order": 77
     },
     {
       "key": "lock",
       "message": "ताला और चाभियाँ",
-      "order": 77
+      "order": 78
     },
     {
       "key": "tool",
       "message": "औजार",
-      "order": 78
+      "order": 79
     },
     {
       "key": "science",
       "message": "विज्ञान उपकरण",
-      "order": 79
+      "order": 80
     },
     {
       "key": "medical",
       "message": "चिकित्सा",
-      "order": 80
+      "order": 81
     },
     {
       "key": "household",
       "message": "घरेलू सामान",
-      "order": 81
+      "order": 82
     },
     {
       "key": "other-object",
       "message": "अन्य वस्तुएं",
-      "order": 82
+      "order": 83
     },
     {
       "key": "transport-sign",
       "message": "परिवहन संकेत",
-      "order": 83
+      "order": 84
     },
     {
       "key": "warning",
       "message": "चेतावनी प्रतीक",
-      "order": 84
+      "order": 85
     },
     {
       "key": "arrow",
       "message": "तीर",
-      "order": 85
+      "order": 86
     },
     {
       "key": "religion",
       "message": "धार्मिक प्रतीक",
-      "order": 86
+      "order": 87
     },
     {
       "key": "zodiac",
       "message": "राशि चक्र के संकेत",
-      "order": 87
+      "order": 88
     },
     {
       "key": "av-symbol",
       "message": "ऑडियो और वीडियो प्रतीक",
-      "order": 88
+      "order": 89
     },
     {
       "key": "gender",
       "message": "लिंग चिह्न",
-      "order": 89
+      "order": 90
     },
     {
       "key": "math",
       "message": "गणित के प्रतीक",
-      "order": 90
+      "order": 91
     },
     {
       "key": "punctuation",
       "message": "विराम चिह्न",
-      "order": 91
+      "order": 92
     },
     {
       "key": "currency",
       "message": "मुद्राओं",
-      "order": 92
+      "order": 93
     },
     {
       "key": "other-symbol",
       "message": "अन्य प्रतीक",
-      "order": 93
+      "order": 94
     },
     {
       "key": "keycap",
       "message": "कीपैड अक्षर",
-      "order": 94
+      "order": 95
     },
     {
       "key": "alphanum",
       "message": "अल्फ़ान्यूमेरिक प्रतीक",
-      "order": 95
+      "order": 96
     },
     {
       "key": "geometric",
       "message": "आकार और रंग",
-      "order": 96
+      "order": 97
     },
     {
       "key": "flag",
       "message": "अन्य झंडे",
-      "order": 97
+      "order": 98
     },
     {
       "key": "country-flag",
       "message": "देश के झंडे",
-      "order": 98
+      "order": 99
     },
     {
       "key": "subdivision-flag",
       "message": "उपखंड झंडे",
-      "order": 99
+      "order": 100
     }
   ]
 }

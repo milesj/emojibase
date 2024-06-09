@@ -93,15 +93,27 @@ export class POManager {
 		return item;
 	}
 
+	removeItem(id: string) {
+		const item = this.itemsById[id];
+
+		delete this.itemsById[id];
+
+		if (item && item.comments.length > 0) {
+			item.comments.forEach((comment) => {
+				delete this.itemsByComment[comment];
+			});
+		}
+	}
+
 	getMessage(id: string): string {
 		return toArray(this.getItem(id).msgstr).join('');
 	}
 
-	async write(sort: boolean = false): Promise<void> {
+	async write(sort?: 'msgctxt' | 'msgid'): Promise<void> {
 		this.po.items = Object.values(this.itemsById);
 
 		if (sort) {
-			this.po.items.sort((a, b) => a.msgid.localeCompare(b.msgid));
+			this.po.items.sort((a, b) => a[sort].localeCompare(b[sort]));
 		}
 
 		await fs.promises.writeFile(this.path, this.po.toString(), 'utf8');
