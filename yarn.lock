@@ -3150,15 +3150,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@moonrepo/dev@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "@moonrepo/dev@npm:3.0.1"
+"@moonrepo/dev@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "@moonrepo/dev@npm:3.0.2"
   dependencies:
-    conventional-changelog-beemo: ^4.1.0
+    conventional-changelog-beemo: ^4.1.1
     execa: ^5.1.1
   bin:
     lerna-release: lib/bin/lernaRelease.js
-  checksum: 25bc9647837a7e7f6bf2f179b6573566cbf272909f89b904e2047dc129020b18201440023bb823213149ece137e510b8ce20e06eddac6fe42543406f08cf6fcf
+  checksum: c67c62a9384d7d4be6f44482dc94c68e48e20d7f8e741ca6995a3340aad222890f5acb8bd26b4a859fd12bd85b5082b08a150e7b83af15560ddf1ca055a8aa4f
   languageName: node
   linkType: hard
 
@@ -7173,13 +7173,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-beemo@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "conventional-changelog-beemo@npm:4.1.0"
+"conventional-changelog-beemo@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "conventional-changelog-beemo@npm:4.1.1"
   dependencies:
     conventional-changelog-writer: ^8.0.0
     conventional-commits-parser: ^6.0.0
-  checksum: 54cb3f9b7cd0e81f2829e34e022463d4272e52a7716ed8ef7c3c9ec02f4795fb600a89f111af51e07e019e360bea75b68a37dbf951a7386ae557ef4f689d62be
+  checksum: 84fd1beb9875dc7812c5606bf4a92dc09fe1902708e5b74df66f6544f30bef09f4c6924c2a4de8b67cd6cece8fb1a43bcd92b3d47aba14634fc161cff511eaf5
   languageName: node
   linkType: hard
 
@@ -8372,7 +8372,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "emojibase-root@workspace:."
   dependencies:
-    "@moonrepo/dev": ^3.0.1
+    "@moonrepo/dev": ^3.0.2
     "@types/jest": ^29.5.12
     babel-preset-moon: ^3.0.2
     cldr-annotations-derived-full: ^45.0.0
@@ -8380,16 +8380,16 @@ __metadata:
     cldr-localenames-full: ^45.0.0
     cldr-misc-full: ^45.0.0
     eslint: ^8.50.0
-    eslint-config-moon: ^3.1.1
+    eslint-config-moon: ^3.1.2
     fast-glob: ^3.3.2
     fetch-mock-jest: ^1.5.1
     filesize: ^10.1.2
     gzip-size: ^7.0.0
     jest: ^29.7.0
-    jest-preset-moon: ^3.0.1
+    jest-preset-moon: ^3.0.2
     lerna: ^8.1.3
     packemon: ^3.2.2
-    prettier: ^3.3.0
+    prettier: ^3.3.1
     prettier-config-moon: ^1.1.2
     tsconfig-moon: ^1.3.0
     typescript: ^5.4.5
@@ -8743,11 +8743,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-moon@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "eslint-config-moon@npm:3.1.1"
+"eslint-config-moon@npm:^3.1.2":
+  version: 3.1.2
+  resolution: "eslint-config-moon@npm:3.1.2"
   dependencies:
-    "@moonrepo/dev": ^3.0.1
+    "@moonrepo/dev": ^3.0.2
     "@typescript-eslint/eslint-plugin": ^7.10.0
     "@typescript-eslint/parser": ^7.10.0
     eslint-config-airbnb-base: ^15.0.0
@@ -8766,7 +8766,7 @@ __metadata:
     eslint-plugin-unicorn: ^53.0.0
   peerDependencies:
     eslint: ^8.0.0 || ^9.0.0
-  checksum: cdeb71441617f1062f8135e13d05eea3b549629d5428b1e151b63e293156d98a8232d471cfc36e34016b8b3c12af9c30a9ffc1b0609596f45c67aa4e0cbb033a
+  checksum: 210842c236a778abd00f0e51a333365357323f377aa8bb1cad755cfd1907c3e2475ec34acf55329ac45116aff55871e2f0f7c016eb95b14784de0c970715d14b
   languageName: node
   linkType: hard
 
@@ -12308,17 +12308,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-preset-moon@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "jest-preset-moon@npm:3.0.1"
+"jest-preset-moon@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "jest-preset-moon@npm:3.0.2"
   dependencies:
-    "@moonrepo/dev": ^3.0.1
+    "@moonrepo/dev": ^3.0.2
     "@types/jest": ^29.5.12
     jest-circus: ^29.7.0
     jest-environment-jsdom: ^29.7.0
   peerDependencies:
     jest: ">=26.0.0"
-  checksum: f45c29032efa32b1216c9b7c5b404fea0413960697cf80e9b671a51e5983f4d1d841ec1c14ad6d4836132c1505df3c9a9264c8a903cccc5741b87f4e3083b90e
+  checksum: 0995a1f3c2e50b37a35f36d3d1ed8c87b8964a7907165954e2952d083ad498c66b9445999a86213a94c053e7d65cf63a656cc3dea155508647718da7152e7df5
   languageName: node
   linkType: hard
 
@@ -16567,12 +16567,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.3.0":
-  version: 3.3.0
-  resolution: "prettier@npm:3.3.0"
+"prettier@npm:^3.3.1":
+  version: 3.3.1
+  resolution: "prettier@npm:3.3.1"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 0d3a7fca9cab29828e189fefc10e8f6025d1208c84cd1e94def8a8f8a04eea341aa21d0af8c01253527632f8225b0b8482a62b64cafa26e9988cd6f9ff16a38b
+  checksum: 10987ff39e23d9359a76a441431dfe3ee26cc444540dc1577e8109e31394231fc1187d47a1e4ebc98bd605885c50ec681e9f2674e489c3313708c30b6ef5e119
   languageName: node
   linkType: hard
 
