@@ -55,7 +55,6 @@ async function createEmojiRegex(
 	// but we still need to support the old non-variation selector,
 	// so include the unicode character that does not include FE0E/FE0F
 	// when in loose mode.
-
 	Object.keys(data).forEach((hexcode) => {
 		const { variations, qualifiers } = data[hexcode];
 
@@ -74,7 +73,7 @@ async function createEmojiRegex(
 
 			// Should only contain text presentation
 			case 'text':
-				if (!variations || loose) {
+				if (loose) {
 					addCodePoint(hexcode);
 				}
 
