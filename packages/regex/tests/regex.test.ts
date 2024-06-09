@@ -72,7 +72,8 @@ describe('regex', () => {
 			tests.push({
 				type: 'emoji',
 				unicode: emoji.emoji,
-				pass: [...BASE_PATTERNS, 'emojiLoose', 'emojiCodepoint', 'emojiCodepointLoose'],
+				pass: [...BASE_PATTERNS, 'emoji', 'emojiLoose', 'emojiCodepoint', 'emojiCodepointLoose'],
+				// fail: ['text', 'textLoose', 'textCodepoint', 'textCodepointLoose'],
 			});
 		}
 
@@ -81,11 +82,12 @@ describe('regex', () => {
 			tests.push({
 				type: 'text',
 				unicode: emoji.text,
-				pass: [...BASE_PATTERNS, 'textLoose', 'textCodepoint', 'textCodepointLoose'],
+				pass: [...BASE_PATTERNS, 'text', 'textLoose', 'textCodepoint', 'textCodepointLoose'],
+				// fail: ['emoji', 'emojiLoose', 'emojiCodepoint', 'emojiCodepointLoose'],
 			});
 		}
 
-		tests.forEach(({ unicode, type, pass }) => {
+		tests.forEach(({ unicode, type, pass, fail }) => {
 			describe(`${VARIATION_DESCRIPTIONS[type]}`, () => {
 				pass.forEach((passType) => {
 					const pattern = PATTERNS[passType];
@@ -110,6 +112,17 @@ describe('regex', () => {
 							expect(matches).not.toBeNull();
 							expect(matches).toHaveLength(3);
 							expect(matches).toEqual([unicode, unicode, unicode]);
+						});
+					});
+				});
+
+				fail?.forEach((passType) => {
+					const pattern = PATTERNS[passType];
+
+					describe(`fails ${PATTERN_DESCRIPTIONS[passType]}`, () => {
+						it(`doesnt match unicode by itself for ${unicode}`, () => {
+							const match = unicode.match(pattern)!;
+							expect(match).toBeNull();
 						});
 					});
 				});
@@ -193,5 +206,17 @@ describe('regex', () => {
 				});
 			});
 		});
+	});
+
+	it('manual cases', () => {
+		expect('👍🏻'.match(PATTERNS.combo)).not.toBeNull();
+		expect('👍🏻'.match(PATTERNS.emoji)).not.toBeNull();
+		expect('👍🏻'.match(PATTERNS.emojiLoose)).not.toBeNull();
+		// expect('👍🏻'.match(PATTERNS.text)).toBeNull();
+
+		expect('👍'.match(PATTERNS.combo)).not.toBeNull();
+		expect('👍'.match(PATTERNS.emoji)).toBeNull();
+		expect('👍'.match(PATTERNS.emojiLoose)).not.toBeNull();
+		// expect('👍'.match(PATTERNS.text)).toBeNull();
 	});
 });
