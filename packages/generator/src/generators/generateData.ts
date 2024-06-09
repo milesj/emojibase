@@ -149,47 +149,40 @@ async function generateMessages(locale: Locale): Promise<unknown> {
 	const skinTones: SkinToneMessage[] = [];
 
 	data.po.items.forEach((item) => {
-		String(item.msgctxt)
-			.replace(/\n+/, ' ')
-			.split(',')
-			.map((ctx) => ctx.trim())
-			.forEach((ctx) => {
-				const [type, meta] = ctx.split(':');
+		const [type, key] = item.msgctxt.split(':');
 
-				switch (type) {
-					case 'EMOJI GROUP':
-					case 'EMOJI SUB-GROUP': {
-						const [order, key] = meta.split('|');
-						const message = {
-							key: key.trim(),
-							message: String(item.msgstr),
-							order: Number(order.trim()),
-						};
+		switch (type) {
+			case 'EMOJI GROUP':
+			case 'EMOJI SUB-GROUP': {
+				const message = {
+					key: item.msgid,
+					message: String(item.msgstr),
+					order: Number(item.comments[0].trim()),
+				};
 
-						if (!message.message) {
-							message.message = String(englishData.itemsById[item.msgid].msgstr);
-						}
-
-						if (type === 'EMOJI SUB-GROUP') {
-							subgroups.push(message as SubgroupMessage);
-						} else {
-							groups.push(message as GroupMessage);
-						}
-						break;
-					}
-
-					case 'SKIN TONE':
-						skinTones.push({
-							key: meta.trim(),
-							message: String(item.msgstr),
-						} as SkinToneMessage);
-
-						break;
-
-					default:
-						break;
+				if (!message.message) {
+					message.message = String(englishData.itemsById[item.msgid].msgstr);
 				}
-			});
+
+				if (type === 'EMOJI SUB-GROUP') {
+					subgroups.push(message as SubgroupMessage);
+				} else {
+					groups.push(message as GroupMessage);
+				}
+				break;
+			}
+
+			case 'SKIN TONE':
+				skinTones.push({
+					key: key.trim(),
+					message: String(item.msgstr),
+				} as SkinToneMessage);
+
+				break;
+
+			default:
+				break;
+		}
 	});
 
 	if (groups.length === 0) {
