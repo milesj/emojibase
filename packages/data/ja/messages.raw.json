@@ -53,12 +53,12 @@
   ],
   "skinTones": [
     {
-      "key": "light",
-      "message": "明るい肌のトーン"
+      "key": "dark",
+      "message": "暗い肌のトーン"
     },
     {
-      "key": "medium-light",
-      "message": "中光肌調"
+      "key": "light",
+      "message": "明るい肌のトーン"
     },
     {
       "key": "medium",
@@ -69,8 +69,8 @@
       "message": "中暗い肌のトーン"
     },
     {
-      "key": "dark",
-      "message": "暗い肌のトーン"
+      "key": "medium-light",
+      "message": "中光肌調"
     }
   ],
   "subgroups": [
@@ -145,434 +145,439 @@
       "order": 13
     },
     {
+      "key": "heart",
+      "message": "ハート",
+      "order": 14
+    },
+    {
       "key": "emotion",
       "message": "感情",
-      "order": 14
+      "order": 15
     },
     {
       "key": "hand-fingers-open",
       "message": "指が開いている",
-      "order": 15
+      "order": 16
     },
     {
       "key": "hand-fingers-partial",
       "message": "手の看板",
-      "order": 16
+      "order": 17
     },
     {
       "key": "hand-single-finger",
       "message": "指差し",
-      "order": 17
+      "order": 18
     },
     {
       "key": "hand-fingers-closed",
       "message": "指が閉じた",
-      "order": 18
+      "order": 19
     },
     {
       "key": "hands",
       "message": "手",
-      "order": 19
+      "order": 20
     },
     {
       "key": "hand-prop",
       "message": "手の小道具",
-      "order": 20
+      "order": 21
     },
     {
       "key": "body-parts",
       "message": "身体部分",
-      "order": 21
+      "order": 22
     },
     {
       "key": "person",
       "message": "人",
-      "order": 22
+      "order": 23
     },
     {
       "key": "person-gesture",
       "message": "ジェスチャー",
-      "order": 23
+      "order": 24
     },
     {
       "key": "person-role",
       "message": "役割とキャリア",
-      "order": 24
+      "order": 25
     },
     {
       "key": "person-fantasy",
       "message": "ファンタジー",
-      "order": 25
+      "order": 26
     },
     {
       "key": "person-activity",
       "message": "有効化",
-      "order": 26
+      "order": 27
     },
     {
       "key": "person-sport",
       "message": "陸上 競技",
-      "order": 27
+      "order": 28
     },
     {
       "key": "person-resting",
       "message": "休憩",
-      "order": 28
+      "order": 29
     },
     {
       "key": "family",
       "message": "家族",
-      "order": 29
+      "order": 30
     },
     {
       "key": "person-symbol",
       "message": "人々のシンボル",
-      "order": 30
+      "order": 31
     },
     {
       "key": "skin-tone",
       "message": "スキントーン",
-      "order": 31
+      "order": 32
     },
     {
       "key": "hair-style",
       "message": "ヘアスタイル",
-      "order": 32
+      "order": 33
     },
     {
       "key": "animal-mammal",
       "message": "哺乳 類",
-      "order": 33
+      "order": 34
     },
     {
       "key": "animal-bird",
       "message": "鳥",
-      "order": 34
+      "order": 35
     },
     {
       "key": "animal-amphibian",
       "message": "両生 類",
-      "order": 35
+      "order": 36
     },
     {
       "key": "animal-reptile",
       "message": "爬虫類",
-      "order": 36
+      "order": 37
     },
     {
       "key": "animal-marine",
       "message": "海洋生物",
-      "order": 37
+      "order": 38
     },
     {
       "key": "animal-bug",
       "message": "バグ",
-      "order": 38
+      "order": 39
     },
     {
       "key": "plant-flower",
       "message": "花",
-      "order": 39
+      "order": 40
     },
     {
       "key": "plant-other",
       "message": "その他の植物",
-      "order": 40
+      "order": 41
     },
     {
       "key": "food-fruit",
       "message": "フルーツ",
-      "order": 41
+      "order": 42
     },
     {
       "key": "food-vegetable",
       "message": "野菜",
-      "order": 42
+      "order": 43
     },
     {
       "key": "food-prepared",
       "message": "調理済み / 準備済み",
-      "order": 43
+      "order": 44
     },
     {
       "key": "food-asian",
       "message": "アジア",
-      "order": 44
+      "order": 45
     },
     {
       "key": "food-marine",
       "message": "シーフード",
-      "order": 45
+      "order": 46
     },
     {
       "key": "food-sweet",
       "message": "お菓子とお菓子",
-      "order": 46
+      "order": 47
     },
     {
       "key": "drink",
       "message": "飲む",
-      "order": 47
+      "order": 48
     },
     {
       "key": "dishware",
       "message": "食器",
-      "order": 48
+      "order": 49
     },
     {
       "key": "place-map",
       "message": "地球儀と地図",
-      "order": 49
+      "order": 50
     },
     {
       "key": "place-geographic",
       "message": "地理的な場所",
-      "order": 50
+      "order": 51
     },
     {
       "key": "place-building",
       "message": "建物",
-      "order": 51
+      "order": 52
     },
     {
       "key": "place-religious",
       "message": "宗教的な建物",
-      "order": 52
+      "order": 53
     },
     {
       "key": "place-other",
       "message": "その他の場所",
-      "order": 53
+      "order": 54
     },
     {
       "key": "transport-ground",
       "message": "地上輸送",
-      "order": 54
+      "order": 55
     },
     {
       "key": "transport-water",
       "message": "水輸送",
-      "order": 55
+      "order": 56
     },
     {
       "key": "transport-air",
       "message": "航空輸送",
-      "order": 56
+      "order": 57
     },
     {
       "key": "hotel",
       "message": "ホテル",
-      "order": 57
+      "order": 58
     },
     {
       "key": "time",
       "message": "時間",
-      "order": 58
+      "order": 59
     },
     {
       "key": "sky-weather",
       "message": "天気",
-      "order": 59
+      "order": 60
     },
     {
       "key": "event",
       "message": "イベントと休日",
-      "order": 60
+      "order": 61
     },
     {
       "key": "award-medal",
       "message": "メダルを授与する",
-      "order": 61
+      "order": 62
     },
     {
       "key": "sport",
       "message": "スポーツ",
-      "order": 62
+      "order": 63
     },
     {
       "key": "game",
       "message": "ゲームと趣味",
-      "order": 63
+      "order": 64
     },
     {
       "key": "arts-crafts",
       "message": "芸術・工芸",
-      "order": 64
+      "order": 65
     },
     {
       "key": "clothing",
       "message": "服",
-      "order": 65
+      "order": 66
     },
     {
       "key": "sound",
       "message": "音",
-      "order": 66
+      "order": 67
     },
     {
       "key": "music",
       "message": "ミュージック",
-      "order": 67
+      "order": 68
     },
     {
       "key": "musical-instrument",
       "message": "楽器",
-      "order": 68
+      "order": 69
     },
     {
       "key": "phone",
       "message": "電話番号",
-      "order": 69
+      "order": 70
     },
     {
       "key": "computer",
       "message": "コンピュータ",
-      "order": 70
+      "order": 71
     },
     {
       "key": "light-video",
       "message": "光、フィルム、ビデオ",
-      "order": 71
+      "order": 72
     },
     {
       "key": "book-paper",
       "message": "本と紙",
-      "order": 72
+      "order": 73
     },
     {
       "key": "money",
       "message": "資金",
-      "order": 73
+      "order": 74
     },
     {
       "key": "mail",
       "message": "郵便",
-      "order": 74
+      "order": 75
     },
     {
       "key": "writing",
       "message": "書き込み",
-      "order": 75
+      "order": 76
     },
     {
       "key": "office",
       "message": "事務用品",
-      "order": 76
+      "order": 77
     },
     {
       "key": "lock",
       "message": "ロックとキー",
-      "order": 77
+      "order": 78
     },
     {
       "key": "tool",
       "message": "ツール",
-      "order": 78
+      "order": 79
     },
     {
       "key": "science",
       "message": "科学機器",
-      "order": 79
+      "order": 80
     },
     {
       "key": "medical",
       "message": "メディカル",
-      "order": 80
+      "order": 81
     },
     {
       "key": "household",
       "message": "家庭用品",
-      "order": 81
+      "order": 82
     },
     {
       "key": "other-object",
       "message": "その他のオブジェクト",
-      "order": 82
+      "order": 83
     },
     {
       "key": "transport-sign",
       "message": "輸送標識",
-      "order": 83
+      "order": 84
     },
     {
       "key": "warning",
       "message": "警告記号",
-      "order": 84
+      "order": 85
     },
     {
       "key": "arrow",
       "message": "矢印",
-      "order": 85
+      "order": 86
     },
     {
       "key": "religion",
       "message": "宗教的シンボル",
-      "order": 86
+      "order": 87
     },
     {
       "key": "zodiac",
       "message": "干支",
-      "order": 87
+      "order": 88
     },
     {
       "key": "av-symbol",
       "message": "オーディオとビデオのシンボル",
-      "order": 88
+      "order": 89
     },
     {
       "key": "gender",
       "message": "ジェンダーサイン",
-      "order": 89
+      "order": 90
     },
     {
       "key": "math",
       "message": "数学記号",
-      "order": 90
+      "order": 91
     },
     {
       "key": "punctuation",
       "message": "句読点",
-      "order": 91
+      "order": 92
     },
     {
       "key": "currency",
       "message": "通貨",
-      "order": 92
+      "order": 93
     },
     {
       "key": "other-symbol",
       "message": "その他の記号",
-      "order": 93
+      "order": 94
     },
     {
       "key": "keycap",
       "message": "キーパッド文字",
-      "order": 94
+      "order": 95
     },
     {
       "key": "alphanum",
       "message": "英数字記号",
-      "order": 95
+      "order": 96
     },
     {
       "key": "geometric",
       "message": "図形と色",
-      "order": 96
+      "order": 97
     },
     {
       "key": "flag",
       "message": "その他のフラグ",
-      "order": 97
+      "order": 98
     },
     {
       "key": "country-flag",
       "message": "国旗",
-      "order": 98
+      "order": 99
     },
     {
       "key": "subdivision-flag",
       "message": "サブディビジョン フラグ",
-      "order": 99
+      "order": 100
     }
   ]
 }

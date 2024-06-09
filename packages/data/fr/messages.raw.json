@@ -53,12 +53,12 @@
   ],
   "skinTones": [
     {
-      "key": "light",
-      "message": "teint clair"
+      "key": "dark",
+      "message": "teint foncé"
     },
     {
-      "key": "medium-light",
-      "message": "teint moyen-clair"
+      "key": "light",
+      "message": "teint clair"
     },
     {
       "key": "medium",
@@ -69,8 +69,8 @@
       "message": "teint foncé moyen-foncé"
     },
     {
-      "key": "dark",
-      "message": "teint foncé"
+      "key": "medium-light",
+      "message": "teint moyen-clair"
     }
   ],
   "subgroups": [
@@ -145,434 +145,439 @@
       "order": 13
     },
     {
+      "key": "heart",
+      "message": "cœurs",
+      "order": 14
+    },
+    {
       "key": "emotion",
       "message": "émotions",
-      "order": 14
+      "order": 15
     },
     {
       "key": "hand-fingers-open",
       "message": "doigts ouverts",
-      "order": 15
+      "order": 16
     },
     {
       "key": "hand-fingers-partial",
       "message": "signes de la main",
-      "order": 16
+      "order": 17
     },
     {
       "key": "hand-single-finger",
       "message": "pointage du doigt",
-      "order": 17
+      "order": 18
     },
     {
       "key": "hand-fingers-closed",
       "message": "doigts fermés",
-      "order": 18
+      "order": 19
     },
     {
       "key": "hands",
       "message": "mains",
-      "order": 19
+      "order": 20
     },
     {
       "key": "hand-prop",
       "message": "accessoires à main",
-      "order": 20
+      "order": 21
     },
     {
       "key": "body-parts",
       "message": "parties du corps",
-      "order": 21
+      "order": 22
     },
     {
       "key": "person",
       "message": "personnes",
-      "order": 22
+      "order": 23
     },
     {
       "key": "person-gesture",
       "message": "gestes",
-      "order": 23
+      "order": 24
     },
     {
       "key": "person-role",
       "message": "rôles et carrières",
-      "order": 24
+      "order": 25
     },
     {
       "key": "person-fantasy",
       "message": "fantaisie",
-      "order": 25
+      "order": 26
     },
     {
       "key": "person-activity",
       "message": "activités",
-      "order": 26
+      "order": 27
     },
     {
       "key": "person-sport",
       "message": "athlétisme",
-      "order": 27
+      "order": 28
     },
     {
       "key": "person-resting",
       "message": "repos",
-      "order": 28
+      "order": 29
     },
     {
       "key": "family",
       "message": "famille",
-      "order": 29
+      "order": 30
     },
     {
       "key": "person-symbol",
       "message": "symboles de personnes",
-      "order": 30
+      "order": 31
     },
     {
       "key": "skin-tone",
       "message": "tons de peau",
-      "order": 31
+      "order": 32
     },
     {
       "key": "hair-style",
       "message": "styles de cheveux",
-      "order": 32
+      "order": 33
     },
     {
       "key": "animal-mammal",
       "message": "mammifères",
-      "order": 33
+      "order": 34
     },
     {
       "key": "animal-bird",
       "message": "oiseaux",
-      "order": 34
+      "order": 35
     },
     {
       "key": "animal-amphibian",
       "message": "amphibiens",
-      "order": 35
+      "order": 36
     },
     {
       "key": "animal-reptile",
       "message": "reptiles",
-      "order": 36
+      "order": 37
     },
     {
       "key": "animal-marine",
       "message": "vie marine",
-      "order": 37
+      "order": 38
     },
     {
       "key": "animal-bug",
       "message": "insectes",
-      "order": 38
+      "order": 39
     },
     {
       "key": "plant-flower",
       "message": "fleurs",
-      "order": 39
+      "order": 40
     },
     {
       "key": "plant-other",
       "message": "d’autres plantes",
-      "order": 40
+      "order": 41
     },
     {
       "key": "food-fruit",
       "message": "fruit",
-      "order": 41
+      "order": 42
     },
     {
       "key": "food-vegetable",
       "message": "légumes",
-      "order": 42
+      "order": 43
     },
     {
       "key": "food-prepared",
       "message": "cuit / préparé",
-      "order": 43
+      "order": 44
     },
     {
       "key": "food-asian",
       "message": "asiatique",
-      "order": 44
+      "order": 45
     },
     {
       "key": "food-marine",
       "message": "fruit de mer",
-      "order": 45
+      "order": 46
     },
     {
       "key": "food-sweet",
       "message": "bonbons",
-      "order": 46
+      "order": 47
     },
     {
       "key": "drink",
       "message": "boisson",
-      "order": 47
+      "order": 48
     },
     {
       "key": "dishware",
       "message": "vaisselle",
-      "order": 48
+      "order": 49
     },
     {
       "key": "place-map",
       "message": "globes et cartes",
-      "order": 49
+      "order": 50
     },
     {
       "key": "place-geographic",
       "message": "emplacements géographiques",
-      "order": 50
+      "order": 51
     },
     {
       "key": "place-building",
       "message": "bâtiments",
-      "order": 51
+      "order": 52
     },
     {
       "key": "place-religious",
       "message": "édifices religieux",
-      "order": 52
+      "order": 53
     },
     {
       "key": "place-other",
       "message": "d’autres endroits",
-      "order": 53
+      "order": 54
     },
     {
       "key": "transport-ground",
       "message": "transport terrestre",
-      "order": 54
+      "order": 55
     },
     {
       "key": "transport-water",
       "message": "transport par eau",
-      "order": 55
+      "order": 56
     },
     {
       "key": "transport-air",
       "message": "transport aérien",
-      "order": 56
+      "order": 57
     },
     {
       "key": "hotel",
       "message": "hôtel",
-      "order": 57
+      "order": 58
     },
     {
       "key": "time",
       "message": "temps",
-      "order": 58
+      "order": 59
     },
     {
       "key": "sky-weather",
       "message": "meteo",
-      "order": 59
+      "order": 60
     },
     {
       "key": "event",
       "message": "événements et jours fériés",
-      "order": 60
+      "order": 61
     },
     {
       "key": "award-medal",
       "message": "médailles de prix",
-      "order": 61
+      "order": 62
     },
     {
       "key": "sport",
       "message": "des sports",
-      "order": 62
+      "order": 63
     },
     {
       "key": "game",
       "message": "jeux et passe-temps",
-      "order": 63
+      "order": 64
     },
     {
       "key": "arts-crafts",
       "message": "arts et métiers",
-      "order": 64
+      "order": 65
     },
     {
       "key": "clothing",
       "message": "vêtements",
-      "order": 65
+      "order": 66
     },
     {
       "key": "sound",
       "message": "bruit",
-      "order": 66
+      "order": 67
     },
     {
       "key": "music",
       "message": "musique",
-      "order": 67
+      "order": 68
     },
     {
       "key": "musical-instrument",
       "message": "instruments de musique",
-      "order": 68
+      "order": 69
     },
     {
       "key": "phone",
       "message": "téléphone",
-      "order": 69
+      "order": 70
     },
     {
       "key": "computer",
       "message": "ordinateur",
-      "order": 70
+      "order": 71
     },
     {
       "key": "light-video",
       "message": "lumière, film et vidéo",
-      "order": 71
+      "order": 72
     },
     {
       "key": "book-paper",
       "message": "livres et papier",
-      "order": 72
+      "order": 73
     },
     {
       "key": "money",
       "message": "argent",
-      "order": 73
+      "order": 74
     },
     {
       "key": "mail",
       "message": "courrier",
-      "order": 74
+      "order": 75
     },
     {
       "key": "writing",
       "message": "écrit",
-      "order": 75
+      "order": 76
     },
     {
       "key": "office",
       "message": "fournitures de bureau",
-      "order": 76
+      "order": 77
     },
     {
       "key": "lock",
       "message": "serrure & clés",
-      "order": 77
+      "order": 78
     },
     {
       "key": "tool",
       "message": "outils",
-      "order": 78
+      "order": 79
     },
     {
       "key": "science",
       "message": "équipement scientifique",
-      "order": 79
+      "order": 80
     },
     {
       "key": "medical",
       "message": "médical",
-      "order": 80
+      "order": 81
     },
     {
       "key": "household",
       "message": "articles ménagers",
-      "order": 81
+      "order": 82
     },
     {
       "key": "other-object",
       "message": "d’autres objets",
-      "order": 82
+      "order": 83
     },
     {
       "key": "transport-sign",
       "message": "panneaux de transport",
-      "order": 83
+      "order": 84
     },
     {
       "key": "warning",
       "message": "symboles d’avertissement",
-      "order": 84
+      "order": 85
     },
     {
       "key": "arrow",
       "message": "flèches",
-      "order": 85
+      "order": 86
     },
     {
       "key": "religion",
       "message": "symboles religieux",
-      "order": 86
+      "order": 87
     },
     {
       "key": "zodiac",
       "message": "signes du zodiaque",
-      "order": 87
+      "order": 88
     },
     {
       "key": "av-symbol",
       "message": "symboles audio et vidéo",
-      "order": 88
+      "order": 89
     },
     {
       "key": "gender",
       "message": "signes de genre",
-      "order": 89
+      "order": 90
     },
     {
       "key": "math",
       "message": "symboles mathématiques",
-      "order": 90
+      "order": 91
     },
     {
       "key": "punctuation",
       "message": "ponctuation",
-      "order": 91
+      "order": 92
     },
     {
       "key": "currency",
       "message": "devises",
-      "order": 92
+      "order": 93
     },
     {
       "key": "other-symbol",
       "message": "d’autres symboles",
-      "order": 93
+      "order": 94
     },
     {
       "key": "keycap",
       "message": "caractères de clavier",
-      "order": 94
+      "order": 95
     },
     {
       "key": "alphanum",
       "message": "symboles alphanumériques",
-      "order": 95
+      "order": 96
     },
     {
       "key": "geometric",
       "message": "formes et couleurs",
-      "order": 96
+      "order": 97
     },
     {
       "key": "flag",
       "message": "autres drapeaux",
-      "order": 97
+      "order": 98
     },
     {
       "key": "country-flag",
       "message": "drapeaux de pays",
-      "order": 98
+      "order": 99
     },
     {
       "key": "subdivision-flag",
       "message": "drapeaux de lotissement",
-      "order": 99
+      "order": 100
     }
   ]
 }
