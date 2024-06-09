@@ -15,7 +15,7 @@ export async function loadPoShortcodes(locale: Locale): Promise<POManager> {
 	const poPath = path.resolve(process.cwd(), `po/${locale}/shortcodes.po`);
 	const po = PO.parse(await fs.promises.readFile(poPath, 'utf8'));
 
-	if (po.comments.length <= 1) {
+	if (po.comments.length <= 1 && LOCALE_COUNTRIES[locale]) {
 		po.comments = [LOCALE_COUNTRIES[locale]];
 	}
 
