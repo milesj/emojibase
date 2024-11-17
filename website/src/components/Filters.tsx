@@ -46,6 +46,7 @@ export const LOCALES: { [K in Locale]: string } = {
 	sv: 'Swedish',
 	th: 'Thai',
 	uk: 'Ukrainian',
+	vi: 'Vietnamese',
 	'zh-hant': 'Chinese, Traditional',
 	zh: 'Chinese',
 };
