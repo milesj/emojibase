@@ -6857,35 +6857,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cldr-annotations-derived-full@npm:^45.0.0":
-  version: 45.0.0
-  resolution: "cldr-annotations-derived-full@npm:45.0.0"
-  checksum: 2c086fd1df05def1fe92a60e30d77247afffede474409220e278bce5c5b491e83e520ebe2313e864ca6eae528c26439e2f45e87d8699fb9901531ce4a550b17f
+"cldr-annotations-derived-full@npm:^46.0.0":
+  version: 46.0.0
+  resolution: "cldr-annotations-derived-full@npm:46.0.0"
+  checksum: 3a1d3fe1a51f42af126bbc077f091022f68ef761bd0bb51ae1b6dd2ac47aa5422215a48343a5b429c9b6ad7f54e12697eb0f480d27a32c8e02e71f9c05633620
   languageName: node
   linkType: hard
 
-"cldr-annotations-full@npm:^45.0.0":
-  version: 45.0.0
-  resolution: "cldr-annotations-full@npm:45.0.0"
-  checksum: 9f801a43b7dfe210cfa658f0874bab034fd2fbd2bd842631dcd6c8f92ba13ff0582b394a3c7d26784f7492c512709165922fa5303650e02058468fc279564e75
+"cldr-annotations-full@npm:^46.0.0":
+  version: 46.0.0
+  resolution: "cldr-annotations-full@npm:46.0.0"
+  checksum: efcb66c5fc3f4562a27526ecc3e86359e871e074d4221860bbfa6361340261b3d6c9ed989aeff607a2085da91cd5bb09619a33fb051045ca6549aea10c905334
   languageName: node
   linkType: hard
 
-"cldr-localenames-full@npm:^45.0.0":
-  version: 45.0.0
-  resolution: "cldr-localenames-full@npm:45.0.0"
+"cldr-localenames-full@npm:^46.0.0":
+  version: 46.0.0
+  resolution: "cldr-localenames-full@npm:46.0.0"
   peerDependencies:
-    cldr-core: 45.0.0
-  checksum: 7e82245ee013ac247b02857a81a619ce14b2f5822474f566bd9b8ea3b344b2f7c7917f1f792baf72c336caf6ff88e148395b5a5b57fee7250f58fd1a0dbbf6c5
+    cldr-core: 46.0.0
+  checksum: f1e2ab96e8a0788efbc5fbd30209a9ba4134ca4c16e115c50aa68e28f5b0cde29989be0ccae1fcff7864dfbc175a7654942032b41398c0bb14f6bf11a7185cab
   languageName: node
   linkType: hard
 
-"cldr-misc-full@npm:^45.0.0":
-  version: 45.0.0
-  resolution: "cldr-misc-full@npm:45.0.0"
+"cldr-misc-full@npm:^46.0.0":
+  version: 46.0.0
+  resolution: "cldr-misc-full@npm:46.0.0"
   peerDependencies:
-    cldr-core: 45.0.0
-  checksum: edf3f871c2eff78e01cdc51e3be919881d3275bfa25986da5f35bbe15da0f1a35dee848a1de3573d1515daa3f2d919affd4aa8d9f897b8f6040d861fc59a6287
+    cldr-core: 46.0.0
+  checksum: d65a20e14b40085e1f4d817f51e3c5e6d0bf192eb57d03b7f3380568292aeee582ccc87f964dcc92a6157337a44f8ec552c414fd422d683211340e659291ef96
   languageName: node
   linkType: hard
 
@@ -8573,10 +8573,10 @@ __metadata:
     "@moonrepo/dev": ^3.0.2
     "@types/jest": ^29.5.12
     babel-preset-moon: ^3.0.2
-    cldr-annotations-derived-full: ^45.0.0
-    cldr-annotations-full: ^45.0.0
-    cldr-localenames-full: ^45.0.0
-    cldr-misc-full: ^45.0.0
+    cldr-annotations-derived-full: ^46.0.0
+    cldr-annotations-full: ^46.0.0
+    cldr-localenames-full: ^46.0.0
+    cldr-misc-full: ^46.0.0
     eslint: ^8.50.0
     eslint-config-moon: ^3.1.2
     fast-glob: ^3.3.2
