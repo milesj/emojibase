@@ -1966,6 +1966,8 @@ export const shortcodes = {
   '1F409': ['dragon'],
   // 🐋 whale
   '1F40B': ['whale'],
+  // 🦀 crab
+  '1F980': ['crab'],
   // 🦂 scorpion
   '1F982': ['scorpion'],
   // 🌲 evergreen tree
@@ -1988,8 +1990,6 @@ export const shortcodes = {
   '1F32F': ['burrito'],
   // 🍿 popcorn
   '1F37F': ['popcorn'],
-  // 🦀 crab
-  '1F980': ['crab'],
   // 🍼 baby bottle
   '1F37C': ['baby_bottle'],
   // 🍾 bottle with popping cork
@@ -2804,6 +2804,10 @@ export const shortcodes = {
   '1F98E': ['lizard'],
   // 🦈 shark
   '1F988': ['shark'],
+  // 🦐 shrimp
+  '1F990': ['shrimp'],
+  // 🦑 squid
+  '1F991': ['squid'],
   // 🦋 butterfly
   '1F98B': ['butterfly'],
   // 🥀 wilted flower
@@ -2836,10 +2840,6 @@ export const shortcodes = {
   '1F958': ['shallow_pan_of_food'],
   // 🥗 green salad
   '1F957': ['green_salad', 'salad'],
-  // 🦐 shrimp
-  '1F990': ['shrimp'],
-  // 🦑 squid
-  '1F991': ['squid'],
   // 🥛 glass of milk
   '1F95B': ['glass_of_milk', 'milk'],
   // 🥂 clinking glasses
@@ -3334,6 +3334,8 @@ export const shortcodes = {
   '1F99A': ['peacock'],
   // 🦜 parrot
   '1F99C': ['parrot'],
+  // 🦞 lobster
+  '1F99E': ['lobster'],
   // 🦟 mosquito
   '1F99F': ['mosquito'],
   // 🦠 microbe
@@ -3348,8 +3350,6 @@ export const shortcodes = {
   '1F9C2': ['salt'],
   // 🥮 moon cake
   '1F96E': ['moon_cake'],
-  // 🦞 lobster
-  '1F99E': ['lobster'],
   // 🧁 cupcake
   '1F9C1': ['cupcake'],
   // 🧭 compass
@@ -3486,6 +3486,8 @@ export const shortcodes = {
   '1F9A8': ['skunk'],
   // 🦩 flamingo
   '1F9A9': ['flamingo'],
+  // 🦪 oyster
+  '1F9AA': ['oyster'],
   // 🧄 garlic
   '1F9C4': ['garlic'],
   // 🧅 onion
@@ -3496,8 +3498,6 @@ export const shortcodes = {
   '1F9C6': ['falafel'],
   // 🧈 butter
   '1F9C8': ['butter'],
-  // 🦪 oyster
-  '1F9AA': ['oyster'],
   // 🧃 beverage box
   '1F9C3': ['beverage_box', 'juice_box'],
   // 🧉 mate
@@ -3652,7 +3652,7 @@ export const shortcodes = {
   '1F468-200D-1F37C': ['man_feeding_baby'],
   // 🧑‍🍼 person feeding baby
   '1F9D1-200D-1F37C': ['person_feeding_baby'],
-  // 🧑‍🎄 mx claus
+  // 🧑‍🎄 Mx Claus
   '1F9D1-200D-1F384': ['mx_claus'],
   // 🫂 people hugging
   '1FAC2': ['people_hugging'],
@@ -3954,4 +3954,22 @@ export const shortcodes = {
   '1F344-200D-1F7EB': ['brown_mushroom'],
   // ⛓️‍💥 broken chain
   '26D3-FE0F-200D-1F4A5': ['broken_chain'],
+
+  // VERSION 16
+  // 🫩 face with bags under eyes
+  '1FAE9': [],
+  // 🫆 fingerprint
+  '1FAC6': [],
+  // 🪾 leafless tree
+  '1FABE': [],
+  // 🫜 root vegetable
+  '1FADC': [],
+  // 🪉 harp
+  '1FA89': [],
+  // 🪏 shovel
+  '1FA8F': [],
+  // 🫟 splatter
+  '1FADF': [],
+  // 🇨🇶 flag: Sark
+  '1F1E8-1F1F6': [],
 };
