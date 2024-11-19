@@ -12,8 +12,8 @@ JSON datasets, regex patterns, and more.
 
 #### Features
 
-- Supports the latest [Emoji 15.1](https://emojipedia.org/emoji-15.1/),
-  [Unicode 15.1](http://unicode.org/versions/Unicode15.1.0/), and
+- Supports the latest [Emoji 16](https://emojipedia.org/emoji-16.0/),
+  [Unicode 16](http://unicode.org/versions/Unicode16.0.0/), and
   [CLDR 46](http://cldr.unicode.org/index/downloads/cldr-46) release versions
 - Built directly from the [emoji data source files](http://unicode.org/Public/emoji/)
 - Based on the official [Unicode Technical Standard #51](http://unicode.org/reports/tr51/)
