@@ -66,6 +66,7 @@ export const EMOJI_VERSIONS = [
 	'13.1',
 	'14.0',
 	'15.0',
+	'15.1',
 	'16.0',
 ];
 export const UNICODE_VERSIONS = [
@@ -83,6 +84,7 @@ export const UNICODE_VERSIONS = [
 	'13.0',
 	'14.0',
 	'15.0',
+	'15.1',
 	'16.0',
 ];
 
