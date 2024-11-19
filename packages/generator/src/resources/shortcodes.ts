@@ -3652,7 +3652,7 @@ export const shortcodes = {
   '1F468-200D-1F37C': ['man_feeding_baby'],
   // 🧑‍🍼 person feeding baby
   '1F9D1-200D-1F37C': ['person_feeding_baby'],
-  // 🧑‍🎄 mx claus
+  // 🧑‍🎄 Mx Claus
   '1F9D1-200D-1F384': ['mx_claus'],
   // 🫂 people hugging
   '1FAC2': ['people_hugging'],
