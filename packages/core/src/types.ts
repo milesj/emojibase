@@ -279,6 +279,7 @@ export type Locale =
 	| 'sv'
 	| 'th'
 	| 'uk'
+	| 'vi'
 	| 'zh-hant'
 	| 'zh';
 

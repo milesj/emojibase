@@ -112,6 +112,7 @@ export const SUPPORTED_LOCALES: Locale[] = [
 	'sv', // Swedish
 	'th', // Thai
 	'uk', // Ukrainian
+	'vi', // Vietnamese
 	'zh', // Chinese
 	'zh-hant', // Chinese (Traditional)
 ];
