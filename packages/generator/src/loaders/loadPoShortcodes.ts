@@ -9,7 +9,7 @@ const instanceCache: Partial<Record<Locale, POManager>> = {};
 
 export async function loadPoShortcodes(locale: Locale): Promise<POManager> {
 	if (instanceCache[locale]) {
-		return instanceCache[locale];
+		return instanceCache[locale]!;
 	}
 
 	const poPath = path.resolve(process.cwd(), `po/${locale}/shortcodes.po`);
