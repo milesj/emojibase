@@ -1,4 +1,4 @@
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 import { HIDDEN_GROUPS, HIDDEN_SUBGROUPS } from '../constants';
 import { readCache } from '../helpers/readCache';
 import { slug } from '../helpers/slug';

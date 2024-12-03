@@ -3957,19 +3957,19 @@ export const shortcodes = {
 
   // VERSION 16
   // 🫩 face with bags under eyes
-  '1FAE9': [],
+  '1FAE9': ['face_with_eye_bags'],
   // 🫆 fingerprint
-  '1FAC6': [],
+  '1FAC6': ['fingerprint'],
   // 🪾 leafless tree
-  '1FABE': [],
+  '1FABE': ['leafless_tree'],
   // 🫜 root vegetable
-  '1FADC': [],
+  '1FADC': ['root_vegetable'],
   // 🪉 harp
-  '1FA89': [],
+  '1FA89': ['harp'],
   // 🪏 shovel
-  '1FA8F': [],
+  '1FA8F': ['shovel'],
   // 🫟 splatter
-  '1FADF': [],
+  '1FADF': ['splatter'],
   // 🇨🇶 flag: Sark
-  '1F1E8-1F1F6': [],
+  '1F1E8-1F1F6': ['flag_cq', 'sark'],
 };

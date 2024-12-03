@@ -1,4 +1,4 @@
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 import { fromUnicodeToHexcode } from 'emojibase';
 import type { EmojiStylesMap } from '../types';
 

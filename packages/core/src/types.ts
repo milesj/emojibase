@@ -89,7 +89,6 @@ export type SubgroupKey =
 	| 'flag'
 	| 'food-asian'
 	| 'food-fruit'
-	| 'food-marine'
 	| 'food-prepared'
 	| 'food-sweet'
 	| 'food-vegetable'
