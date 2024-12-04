@@ -4,6 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "build": "packemon build-workspace --addEngines",
+    "bump": "changeset",
+    "bump:status": "changeset status",
     "pack": "packemon pack-workspace --addEngines --declaration",
     "clean:cache": "rm -rf ./cache",
     "check": "yarn run type && yarn run test && yarn run lint",
@@ -19,13 +21,14 @@
     "generate:types": "node ./bin/generateTypes.mjs",
     "test": "jest --colors --logHeapUsage",
     "format": "prettier --write .",
-    "release": "yarn run pack && yarn run check && lerna-release",
+    "release": "yarn run pack && changeset publish",
     "type": "tsc --build"
   },
   "engines": {
     "node": ">=20.0.0"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.10",
     "@moonrepo/dev": "^3.0.2",
     "@types/jest": "^29.5.14",
     "babel-preset-moon": "^3.0.3",

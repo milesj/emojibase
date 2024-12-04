@@ -1,14 +1,13 @@
 name: PR
 on: pull_request
 jobs:
-  conventional:
-    name: Conventional Title
+  changesets:
+    name: Changeset
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           cache: yarn
-      - uses: beemojs/conventional-pr-action@v3
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: yarn install
+      - run: yarn changeset status --since=master
