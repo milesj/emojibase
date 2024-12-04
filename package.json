@@ -5,6 +5,7 @@
   "scripts": {
     "build": "packemon build-workspace --addEngines",
     "bump": "changeset",
+    "bump:status": "changeset status",
     "pack": "packemon pack-workspace --addEngines --declaration",
     "clean:cache": "rm -rf ./cache",
     "check": "yarn run type && yarn run test && yarn run lint",
@@ -20,7 +21,7 @@
     "generate:types": "node ./bin/generateTypes.mjs",
     "test": "jest --colors --logHeapUsage",
     "format": "prettier --write .",
-    "release": "yarn run pack && yarn run check && lerna-release",
+    "release": "yarn run pack && yarn run check && changeset version && changeset publish",
     "type": "tsc --build"
   },
   "engines": {
