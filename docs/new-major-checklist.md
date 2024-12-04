@@ -19,7 +19,8 @@ Guide for updating emojibase to support new Unicode/Emoji major versions.
 - Run `yarn generate:types`. Copy the `GroupKey` and `SubgroupKey` types to
   `packages/core/src/types.ts`.
 - Update `GROUP_KEY_*` constants in `packages/core/src/constants.ts`.
-- Update `po/messages.pot` with any new entries.
+- Update `po/base/*.po` with any new entries.
+  - Run `generate:shortcodes` to gather new shortcode entries.
 - Apply pot changes to all `po/<locale>/messages.po` files.
   - Localize every entry without a message!
 
