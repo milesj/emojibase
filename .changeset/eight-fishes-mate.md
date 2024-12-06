@@ -5,4 +5,4 @@
 'emojibase-generator': major
 ---
 
-Add vi (Vietnamese) language
+Add `vi` (Vietnamese) language.
