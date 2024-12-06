@@ -18,6 +18,8 @@ const ranges = [
 	/[\d+_a-z\u0400-\u052F\u1C80-\u1C8F\u2DE0-\u2DFF\uA640-\uA69F-]/,
 	// Latin based
 	/[\d+_a-z\u0080-\u00FF\u0100-\u017F\u0180-\u024F-]/,
+	// Vietnamese
+	/[\d+_\u1E00-\u1eFF-]/,
 ];
 
 module.exports = new RegExp(`:(${ranges.map((range) => range.source).join('|')})+:`, 'i');
