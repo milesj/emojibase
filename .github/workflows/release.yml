@@ -1,6 +1,8 @@
 name: Release
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - master
 jobs:
   release:
     name: Release
@@ -13,6 +15,8 @@ jobs:
       - run: yarn install
       - uses: changesets/action@v1
         with:
+          commit: 'chore: Version packages'
+          title: 'chore: Version packages'
           publish: yarn release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

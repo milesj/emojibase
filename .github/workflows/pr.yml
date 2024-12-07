@@ -6,8 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           cache: yarn
       - run: yarn install
-      - run: yarn changeset status --since=master
+      - run: yarn changeset status --since=origin/master
