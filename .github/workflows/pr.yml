@@ -10,4 +10,4 @@ jobs:
         with:
           cache: yarn
       - run: yarn install
-      - run: yarn changeset status --since=master
+      - run: yarn changeset status --since=origin/master
