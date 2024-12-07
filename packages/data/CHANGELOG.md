@@ -1,5 +1,11 @@
 # Change Log
 
+## 16.0.1
+
+### Patch Changes
+
+- 3faf950: Add missing files and types for `vi` data.
+
 ## 16.0.0
 
 ### Major Changes
