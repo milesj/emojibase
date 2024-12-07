@@ -1,61 +1,62 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+## 16.0.0
+
+### Major Changes
+
+- e9b9a9a: Add `vi` (Vietnamese) language.
+- d237386: Update to Emoji v16 and CLDR 46.
+- d237386: Drop Node.js v16 support. Requires >= v18.12.
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 ## <small>15.3.1 (2024-06-03)</small>
 
-* new: Support CLDR 45 (new annotations). (#173) ([d2c587f](https://github.com/milesj/emojibase/commit/d2c587f)), closes [#173](https://github.com/milesj/emojibase/issues/173)
-* deps: Update dev and test dependencies. ([57e8f02](https://github.com/milesj/emojibase/commit/57e8f02))
-* deps(lerna): Update to v8.1. ([2f3d1fe](https://github.com/milesj/emojibase/commit/2f3d1fe))
-* deps(typescript): Update to v5.4. ([8756294](https://github.com/milesj/emojibase/commit/8756294))
-
-
-
-
+- new: Support CLDR 45 (new annotations). (#173)
+  ([d2c587f](https://github.com/milesj/emojibase/commit/d2c587f)), closes
+  [#173](https://github.com/milesj/emojibase/issues/173)
+- deps: Update dev and test dependencies.
+  ([57e8f02](https://github.com/milesj/emojibase/commit/57e8f02))
+- deps(lerna): Update to v8.1. ([2f3d1fe](https://github.com/milesj/emojibase/commit/2f3d1fe))
+- deps(typescript): Update to v5.4. ([8756294](https://github.com/milesj/emojibase/commit/8756294))
 
 ## 15.3.0 - 2023-12-03
 
 #### 🚀 Updates
 
-- Support Emoji v15.1. (#164) ([b2e0ec6](https://github.com/milesj/emojibase/commit/b2e0ec6)), closes [#164](https://github.com/milesj/emojibase/issues/164)
+- Support Emoji v15.1. (#164) ([b2e0ec6](https://github.com/milesj/emojibase/commit/b2e0ec6)),
+  closes [#164](https://github.com/milesj/emojibase/issues/164)
 
 **Note:** Version bump only for package emojibase
-
-
-
-
 
 ## 15.2.0 - 2023-10-06
 
 #### 🚀 Updates
 
-- Add hi (Hindi) language. (#165) ([ada3784](https://github.com/milesj/emojibase/commit/ada3784)), closes [#165](https://github.com/milesj/emojibase/issues/165)
+- Add hi (Hindi) language. (#165) ([ada3784](https://github.com/milesj/emojibase/commit/ada3784)),
+  closes [#165](https://github.com/milesj/emojibase/issues/165)
 
 **Note:** Version bump only for package emojibase
-
-
-
-
 
 ## 15.1.0 - 2023-10-03
 
 #### 🚀 Updates
 
-- Add `bn` (Bengali) language. (#161) ([84ea37c](https://github.com/milesj/emojibase/commit/84ea37c)), closes [#161](https://github.com/milesj/emojibase/issues/161)
-- Support CLDR 43. (#163) ([1094148](https://github.com/milesj/emojibase/commit/1094148)), closes [#163](https://github.com/milesj/emojibase/issues/163)
+- Add `bn` (Bengali) language. (#161)
+  ([84ea37c](https://github.com/milesj/emojibase/commit/84ea37c)), closes
+  [#161](https://github.com/milesj/emojibase/issues/161)
+- Support CLDR 43. (#163) ([1094148](https://github.com/milesj/emojibase/commit/1094148)), closes
+  [#163](https://github.com/milesj/emojibase/issues/163)
 
 **Note:** Version bump only for package emojibase
-
-
-
-
 
 # 15.0.0 - 2023-06-11
 
 #### 🎉 Release
 
-- Support emoji v15! (#146) ([55286b1](https://github.com/milesj/emojibase/commit/55286b1)), closes [#146](https://github.com/milesj/emojibase/issues/146)
+- Support emoji v15! (#146) ([55286b1](https://github.com/milesj/emojibase/commit/55286b1)), closes
+  [#146](https://github.com/milesj/emojibase/issues/146)
 
 #### 💥 Breaking
 
@@ -63,19 +64,18 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 #### 📦 Dependencies
 
-- **[beemo-dev]** Update to latest configs. ([c54d071](https://github.com/milesj/emojibase/commit/c54d071))
+- **[beemo-dev]** Update to latest configs.
+  ([c54d071](https://github.com/milesj/emojibase/commit/c54d071))
 - **[packemon]** Update to v3. ([ecc31da](https://github.com/milesj/emojibase/commit/ecc31da))
 - Update dev and test dependencies. ([57b5f18](https://github.com/milesj/emojibase/commit/57b5f18))
 
 #### 🛠 Internals
 
-- Migrate from beemo to moon. (#144) ([0607d6e](https://github.com/milesj/emojibase/commit/0607d6e)), closes [#144](https://github.com/milesj/emojibase/issues/144)
+- Migrate from beemo to moon. (#144)
+  ([0607d6e](https://github.com/milesj/emojibase/commit/0607d6e)), closes
+  [#144](https://github.com/milesj/emojibase/issues/144)
 
 **Note:** Version bump only for package emojibase
-
-
-
-
 
 # 15.0.0 - 2023-06-10
 
@@ -127,7 +127,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - Updated to [Emoji 14.0](https://emojipedia.org/emoji-14.0/).
 - Updated to [CLDR 40](http://cldr.unicode.org/index/downloads/cldr-40).
-- Updated `fetchShortcodes` to no longer return an empty response for `cldr-native` and invalid locales.
+- Updated `fetchShortcodes` to no longer return an empty response for `cldr-native` and invalid
+  locales.
 - Added `FULLY_QUALIFIED`, `MINIMALLY_QUALIFIED`, and `UNQUALIFIED` constants.
 
 #### 🛠 Internals

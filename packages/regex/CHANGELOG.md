@@ -1,45 +1,44 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+## 16.0.0
+
+### Major Changes
+
+- e9b9a9a: Add `vi` (Vietnamese) language.
+- d237386: Update to Emoji v16 and CLDR 46.
+- d237386: Drop Node.js v16 support. Requires >= v18.12.
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 ### 15.3.2 - 2024-06-09
 
 #### 🐞 Fixes
 
-- Improve regex patterns. (#175) ([f835b53](https://github.com/milesj/emojibase/commit/f835b53)), closes [#175](https://github.com/milesj/emojibase/issues/175)
+- Improve regex patterns. (#175) ([f835b53](https://github.com/milesj/emojibase/commit/f835b53)),
+  closes [#175](https://github.com/milesj/emojibase/issues/175)
 
 **Note:** Version bump only for package emojibase-regex
-
-
-
-
 
 ## <small>15.3.1 (2024-06-03)</small>
 
 **Note:** Version bump only for package emojibase-regex
 
-
-
-
-
 ## 15.3.0 - 2023-12-03
 
 #### 🚀 Updates
 
-- Support Emoji v15.1. (#164) ([b2e0ec6](https://github.com/milesj/emojibase/commit/b2e0ec6)), closes [#164](https://github.com/milesj/emojibase/issues/164)
+- Support Emoji v15.1. (#164) ([b2e0ec6](https://github.com/milesj/emojibase/commit/b2e0ec6)),
+  closes [#164](https://github.com/milesj/emojibase/issues/164)
 
 **Note:** Version bump only for package emojibase-regex
-
-
-
-
 
 ## 15.2.0 - 2023-10-06
 
 #### 🚀 Updates
 
-- Add hi (Hindi) language. (#165) ([ada3784](https://github.com/milesj/emojibase/commit/ada3784)), closes [#165](https://github.com/milesj/emojibase/issues/165)
+- Add hi (Hindi) language. (#165) ([ada3784](https://github.com/milesj/emojibase/commit/ada3784)),
+  closes [#165](https://github.com/milesj/emojibase/issues/165)
 
 #### 📘 Docs
 
@@ -47,15 +46,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package emojibase-regex
 
-
-
-
-
 ## 15.1.0 - 2023-10-03
 
 #### 🚀 Updates
 
-- Add `bn` (Bengali) language. (#161) ([84ea37c](https://github.com/milesj/emojibase/commit/84ea37c)), closes [#161](https://github.com/milesj/emojibase/issues/161)
+- Add `bn` (Bengali) language. (#161)
+  ([84ea37c](https://github.com/milesj/emojibase/commit/84ea37c)), closes
+  [#161](https://github.com/milesj/emojibase/issues/161)
 
 #### 🛠 Internals
 
@@ -63,15 +60,12 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package emojibase-regex
 
-
-
-
-
 # 15.0.0 - 2023-06-11
 
 #### 🎉 Release
 
-- Support emoji v15! (#146) ([55286b1](https://github.com/milesj/emojibase/commit/55286b1)), closes [#146](https://github.com/milesj/emojibase/issues/146)
+- Support emoji v15! (#146) ([55286b1](https://github.com/milesj/emojibase/commit/55286b1)), closes
+  [#146](https://github.com/milesj/emojibase/issues/146)
 
 #### 💥 Breaking
 
@@ -85,14 +79,12 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - Fix broken docs. ([5eba8d0](https://github.com/milesj/emojibase/commit/5eba8d0))
 - Get website API build working. ([0cb4284](https://github.com/milesj/emojibase/commit/0cb4284))
-- Migrate from beemo to moon. (#144) ([0607d6e](https://github.com/milesj/emojibase/commit/0607d6e)), closes [#144](https://github.com/milesj/emojibase/issues/144)
+- Migrate from beemo to moon. (#144)
+  ([0607d6e](https://github.com/milesj/emojibase/commit/0607d6e)), closes
+  [#144](https://github.com/milesj/emojibase/issues/144)
 - Update release script. ([8dfdc16](https://github.com/milesj/emojibase/commit/8dfdc16))
 
 **Note:** Version bump only for package emojibase-regex
-
-
-
-
 
 # 15.0.0 - 2023-06-10
 
