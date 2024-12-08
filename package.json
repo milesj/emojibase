@@ -21,7 +21,7 @@
     "generate:types": "node ./bin/generateTypes.mjs",
     "test": "jest --colors --logHeapUsage",
     "format": "prettier --write .",
-    "release": "yarn run pack && changeset publish",
+    "release": "yarn run pack && yarn run generate && changeset publish",
     "type": "tsc --build"
   },
   "engines": {
