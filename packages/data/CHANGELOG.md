@@ -1,5 +1,11 @@
 # Change Log
 
+## 16.0.2
+
+### Patch Changes
+
+- d0e4bcc: Fixed a broken publish.
+
 ## 16.0.1
 
 ### Patch Changes
