@@ -1,5 +1,11 @@
 # Change Log
 
+## 16.0.3
+
+### Patch Changes
+
+- 53fcdc1: Updated Chinese Traditional translations.
+
 ## 16.0.2
 
 ### Patch Changes
