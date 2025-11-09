@@ -105,6 +105,22 @@ export const MULTI_PERSON_GROUPING_HEXCODES = [
 		parentWomen: '1F469-200D-2764-FE0F-200D-1F48B-200D-1F469', // kiss: woman, woman
 		parentOther: '1F48F', // kiss
 	},
+	// People with bunny ears
+	{
+		type: ['1F430'], // rabbit face
+		parentBoth: '1F469-200D-1F430-200D-1F468', // people with bunny ears: woman, man
+		parentMen: '1F46F-200D-2642-FE0F', // men with bunny ears
+		parentWomen: '1F46F-200D-2640-FE0F', // women with bunny ears
+		parentOther: '1F46F', // people with bunny ears
+	},
+	// People wrestling
+	{
+		type: ['1FAEF'], // fight cloud
+		parentBoth: '1F469-200D-1FAEF-200D-1F468', // people wrestling: woman, man
+		parentMen: '1F93C-200D-2642-FE0F', // men wrestling
+		parentWomen: '1F93C-200D-2640-FE0F', // women wrestling
+		parentOther: '1F93C', // people wrestling
+	},
 ];
 
 export const REGIONAL_INDICATORS: Record<string, string> = {
