@@ -5,7 +5,9 @@ import { fetchAndCache } from './fetchAndCache';
 
 export async function loadSequences(version: string = LATEST_EMOJI_VERSION): Promise<EmojiDataMap> {
 	return fetchAndCache(
-		`http://unicode.org/Public/emoji/${version}/emoji-sequences.txt`,
+		Number(version) >= 17
+			? `https://unicode.org/Public/${version}.0/emoji/emoji-sequences.txt`
+			: `http://unicode.org/Public/emoji/${version}/emoji-sequences.txt`,
 		`${version}/sequences.json`,
 		(data) => parseSequences(version, data, 'RGI_Emoji_Modifier_Sequence'),
 	);

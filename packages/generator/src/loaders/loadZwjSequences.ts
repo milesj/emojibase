@@ -7,7 +7,9 @@ export async function loadZwjSequences(
 	version: string = LATEST_EMOJI_VERSION,
 ): Promise<EmojiDataMap> {
 	return fetchAndCache(
-		`http://unicode.org/Public/emoji/${version}/emoji-zwj-sequences.txt`,
+		Number(version) >= 17
+			? `https://unicode.org/Public/${version}.0/emoji/emoji-zwj-sequences.txt`
+			: `http://unicode.org/Public/emoji/${version}/emoji-zwj-sequences.txt`,
 		`${version}/zwj-sequences.json`,
 		(data) => parseSequences(version, data, 'RGI_Emoji_ZWJ_Sequence'),
 	);
