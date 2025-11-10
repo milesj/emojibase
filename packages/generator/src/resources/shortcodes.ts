@@ -3943,7 +3943,7 @@ export const shortcodes = {
   // 🧑‍🧑‍🧒‍🧒 family: adult, adult, child, child
   '1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2': ['family_aacc'],
   // 🧑‍🧒 family: adult, child
-  '1F9D1-200D-1F9D2': ['family_ac'],
+  '1F9D1-200D-1F9D2': ['family_aa', 'family_ac'],
   // 🧑‍🧒‍🧒 family: adult, child, child
   '1F9D1-200D-1F9D2-200D-1F9D2': ['family_acc'],
   // 🐦‍🔥 phoenix
@@ -3975,19 +3975,19 @@ export const shortcodes = {
 
   // VERSION 17
   // 🫪 distorted face
-  '1FAEA': [],
+  '1FAEA': ['distorted_face'],
   // 🫯 fight cloud
-  '1FAEF': [],
+  '1FAEF': ['fight_cloud'],
   // 🫈 hairy creature
-  '1FAC8': [],
+  '1FAC8': ['hairy_creature'],
   // 🧑‍🩰 ballet dancer
-  '1F9D1-200D-1FA70': [],
+  '1F9D1-200D-1FA70': ['ballet_dancer'],
   // 🫍 orca
-  '1FACD': [],
+  '1FACD': ['orca'],
   // 🛘 landslide
-  '1F6D8': [],
+  '1F6D8': ['landslide'],
   // 🪊 trombone
-  '1FA8A': [],
+  '1FA8A': ['trombone'],
   // 🪎 treasure chest
-  '1FA8E': [],
+  '1FA8E': ['treasure_chest'],
 };
