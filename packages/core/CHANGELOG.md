@@ -1,5 +1,11 @@
 # Change Log
 
+## 17.0.0
+
+### Major Changes
+
+- 806c507: Update to Emoji v17 and CLDR 48.
+
 ## 16.0.0
 
 ### Major Changes
