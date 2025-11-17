@@ -7,7 +7,9 @@ export async function loadMetadata(
 	version: string = LATEST_EMOJI_VERSION,
 ): Promise<EmojiMetadataMap> {
 	return fetchAndCache(
-		`http://unicode.org/Public/emoji/${version}/emoji-test.txt`,
+		Number(version) >= 17
+			? `https://unicode.org/Public/${version}.0/emoji/emoji-test.txt`
+			: `http://unicode.org/Public/emoji/${version}/emoji-test.txt`,
 		`${version}/metadata.json`,
 		parseMetadata,
 	);
