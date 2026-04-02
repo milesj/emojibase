@@ -1,0 +1,11 @@
+[package]
+name = "emojibase-core"
+description = "Core types and utilities for working with emoji data, following the Unicode and CLDR specifications."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+serde = { workspace = true }
+serde_json = { workspace = true }
