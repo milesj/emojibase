@@ -200,6 +200,7 @@
   "1F978": "disguised_face",
   "1F929": "star_struck",
   "1F973": "partying_face",
+  "1F642-200D-2195-FE0F": "head_shaking_vertically",
   "1F60F": [
     "smirk",
     "smirking_face"
@@ -208,6 +209,7 @@
     "unamused",
     "unamused_face"
   ],
+  "1F642-200D-2194-FE0F": "head_shaking_horizontally",
   "1F61E": "disappointed",
   "1F614": [
     "pensive",
@@ -288,8 +290,6 @@
   "1FAE4": "face_with_diagonal_mouth",
   "1F611": "expressionless",
   "1FAE8": "shaking_face",
-  "1F642-200D-2194-FE0F": "head_shaking_horizontally",
-  "1F642-200D-2195-FE0F": "head_shaking_vertically",
   "1F62C": "grimacing",
   "1F644": [
     "rolling_eyes",
@@ -304,6 +304,8 @@
   "1F62E": "open_mouth",
   "1F632": "astonished",
   "1F971": "yawning_face",
+  "1FAE9": "face_with_bags_under_eyes",
+  "1FAEA": "distorted_face",
   "1F634": [
     "sleeping",
     "sleeping_face"
@@ -1272,6 +1274,7 @@
   "1F443-1F3FD": "nose_tone3",
   "1F443-1F3FE": "nose_tone4",
   "1F443-1F3FF": "nose_tone5",
+  "1FAC6": "fingerprint",
   "1F463": "footprints",
   "1F441": "eye",
   "1F440": "eyes",
@@ -4890,12 +4893,333 @@
     "man_dancing_tone4",
     "male_dancer_tone4"
   ],
+  "1F9D1-200D-1FA70": "ballet_dancer",
+  "1F9D1-1F3FB-200D-1FA70": [
+    "ballet_dancer_tone1",
+    "ballet_dancer_light_skin_tone"
+  ],
+  "1F9D1-1F3FC-200D-1FA70": [
+    "ballet_dancer_tone2",
+    "ballet_dancer_medium_light_skin_tone"
+  ],
+  "1F9D1-1F3FD-200D-1FA70": [
+    "ballet_dancer_tone3",
+    "ballet_dancer_medium_skin_tone"
+  ],
+  "1F9D1-1F3FE-200D-1FA70": [
+    "ballet_dancer_tone4",
+    "ballet_dancer_medium_dark_skin_tone"
+  ],
+  "1F9D1-1F3FF-200D-1FA70": [
+    "ballet_dancer_tone5",
+    "ballet_dancer_dark_skin_tone"
+  ],
   "1F46F": [
     "people_with_bunny_ears_partying",
     "dancers"
   ],
+  "1F46F-1F3FB": [
+    "people_with_bunny_ears_tone1",
+    "people_with_bunny_ears_light_skin_tone"
+  ],
+  "1F9D1-1F3FB-200D-1F430-200D-1F9D1-1F3FC": [
+    "people_with_bunny_ears_tone1_tone2",
+    "people_with_bunny_ears_light_skin_tone_medium_light_skin_tone"
+  ],
+  "1F9D1-1F3FB-200D-1F430-200D-1F9D1-1F3FD": [
+    "people_with_bunny_ears_tone1_tone3",
+    "people_with_bunny_ears_light_skin_tone_medium_skin_tone"
+  ],
+  "1F9D1-1F3FB-200D-1F430-200D-1F9D1-1F3FE": [
+    "people_with_bunny_ears_tone1_tone4",
+    "people_with_bunny_ears_light_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F9D1-1F3FB-200D-1F430-200D-1F9D1-1F3FF": [
+    "people_with_bunny_ears_tone1_tone5",
+    "people_with_bunny_ears_light_skin_tone_dark_skin_tone"
+  ],
+  "1F9D1-1F3FC-200D-1F430-200D-1F9D1-1F3FB": [
+    "people_with_bunny_ears_tone2_tone1",
+    "people_with_bunny_ears_medium_light_skin_tone_light_skin_tone"
+  ],
+  "1F46F-1F3FC": [
+    "people_with_bunny_ears_tone2",
+    "people_with_bunny_ears_medium_light_skin_tone"
+  ],
+  "1F9D1-1F3FC-200D-1F430-200D-1F9D1-1F3FD": [
+    "people_with_bunny_ears_tone2_tone3",
+    "people_with_bunny_ears_medium_light_skin_tone_medium_skin_tone"
+  ],
+  "1F9D1-1F3FC-200D-1F430-200D-1F9D1-1F3FE": [
+    "people_with_bunny_ears_tone2_tone4",
+    "people_with_bunny_ears_medium_light_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F9D1-1F3FC-200D-1F430-200D-1F9D1-1F3FF": [
+    "people_with_bunny_ears_tone2_tone5",
+    "people_with_bunny_ears_medium_light_skin_tone_dark_skin_tone"
+  ],
+  "1F9D1-1F3FD-200D-1F430-200D-1F9D1-1F3FB": [
+    "people_with_bunny_ears_tone3_tone1",
+    "people_with_bunny_ears_medium_skin_tone_light_skin_tone"
+  ],
+  "1F9D1-1F3FD-200D-1F430-200D-1F9D1-1F3FC": [
+    "people_with_bunny_ears_tone3_tone2",
+    "people_with_bunny_ears_medium_skin_tone_medium_light_skin_tone"
+  ],
+  "1F46F-1F3FD": [
+    "people_with_bunny_ears_tone3",
+    "people_with_bunny_ears_medium_skin_tone"
+  ],
+  "1F9D1-1F3FD-200D-1F430-200D-1F9D1-1F3FE": [
+    "people_with_bunny_ears_tone3_tone4",
+    "people_with_bunny_ears_medium_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F9D1-1F3FD-200D-1F430-200D-1F9D1-1F3FF": [
+    "people_with_bunny_ears_tone3_tone5",
+    "people_with_bunny_ears_medium_skin_tone_dark_skin_tone"
+  ],
+  "1F9D1-1F3FE-200D-1F430-200D-1F9D1-1F3FB": [
+    "people_with_bunny_ears_tone4_tone1",
+    "people_with_bunny_ears_medium_dark_skin_tone_light_skin_tone"
+  ],
+  "1F9D1-1F3FE-200D-1F430-200D-1F9D1-1F3FC": [
+    "people_with_bunny_ears_tone4_tone2",
+    "people_with_bunny_ears_medium_dark_skin_tone_medium_light_skin_tone"
+  ],
+  "1F9D1-1F3FE-200D-1F430-200D-1F9D1-1F3FD": [
+    "people_with_bunny_ears_tone4_tone3",
+    "people_with_bunny_ears_medium_dark_skin_tone_medium_skin_tone"
+  ],
+  "1F46F-1F3FE": [
+    "people_with_bunny_ears_tone4",
+    "people_with_bunny_ears_medium_dark_skin_tone"
+  ],
+  "1F9D1-1F3FE-200D-1F430-200D-1F9D1-1F3FF": [
+    "people_with_bunny_ears_tone4_tone5",
+    "people_with_bunny_ears_medium_dark_skin_tone_dark_skin_tone"
+  ],
+  "1F9D1-1F3FF-200D-1F430-200D-1F9D1-1F3FB": [
+    "people_with_bunny_ears_tone5_tone1",
+    "people_with_bunny_ears_dark_skin_tone_light_skin_tone"
+  ],
+  "1F9D1-1F3FF-200D-1F430-200D-1F9D1-1F3FC": [
+    "people_with_bunny_ears_tone5_tone2",
+    "people_with_bunny_ears_dark_skin_tone_medium_light_skin_tone"
+  ],
+  "1F9D1-1F3FF-200D-1F430-200D-1F9D1-1F3FD": [
+    "people_with_bunny_ears_tone5_tone3",
+    "people_with_bunny_ears_dark_skin_tone_medium_skin_tone"
+  ],
+  "1F9D1-1F3FF-200D-1F430-200D-1F9D1-1F3FE": [
+    "people_with_bunny_ears_tone5_tone4",
+    "people_with_bunny_ears_dark_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F46F-1F3FF": [
+    "people_with_bunny_ears_tone5",
+    "people_with_bunny_ears_dark_skin_tone"
+  ],
   "1F46F-200D-2640-FE0F": "women_with_bunny_ears_partying",
+  "1F46F-1F3FB-200D-2640-FE0F": [
+    "women_with_bunny_ears_tone1",
+    "women_with_bunny_ears_light_skin_tone"
+  ],
+  "1F469-1F3FB-200D-1F430-200D-1F469-1F3FC": [
+    "women_with_bunny_ears_tone1_tone2",
+    "women_with_bunny_ears_light_skin_tone_medium_light_skin_tone"
+  ],
+  "1F469-1F3FB-200D-1F430-200D-1F469-1F3FD": [
+    "women_with_bunny_ears_tone1_tone3",
+    "women_with_bunny_ears_light_skin_tone_medium_skin_tone"
+  ],
+  "1F469-1F3FB-200D-1F430-200D-1F469-1F3FE": [
+    "women_with_bunny_ears_tone1_tone4",
+    "women_with_bunny_ears_light_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F469-1F3FB-200D-1F430-200D-1F469-1F3FF": [
+    "women_with_bunny_ears_tone1_tone5",
+    "women_with_bunny_ears_light_skin_tone_dark_skin_tone"
+  ],
+  "1F469-1F3FC-200D-1F430-200D-1F469-1F3FB": [
+    "women_with_bunny_ears_tone2_tone1",
+    "women_with_bunny_ears_medium_light_skin_tone_light_skin_tone"
+  ],
+  "1F46F-1F3FC-200D-2640-FE0F": [
+    "women_with_bunny_ears_tone2",
+    "women_with_bunny_ears_medium_light_skin_tone"
+  ],
+  "1F469-1F3FC-200D-1F430-200D-1F469-1F3FD": [
+    "women_with_bunny_ears_tone2_tone3",
+    "women_with_bunny_ears_medium_light_skin_tone_medium_skin_tone"
+  ],
+  "1F469-1F3FC-200D-1F430-200D-1F469-1F3FE": [
+    "women_with_bunny_ears_tone2_tone4",
+    "women_with_bunny_ears_medium_light_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F469-1F3FC-200D-1F430-200D-1F469-1F3FF": [
+    "women_with_bunny_ears_tone2_tone5",
+    "women_with_bunny_ears_medium_light_skin_tone_dark_skin_tone"
+  ],
+  "1F469-1F3FD-200D-1F430-200D-1F469-1F3FB": [
+    "women_with_bunny_ears_tone3_tone1",
+    "women_with_bunny_ears_medium_skin_tone_light_skin_tone"
+  ],
+  "1F469-1F3FD-200D-1F430-200D-1F469-1F3FC": [
+    "women_with_bunny_ears_tone3_tone2",
+    "women_with_bunny_ears_medium_skin_tone_medium_light_skin_tone"
+  ],
+  "1F46F-1F3FD-200D-2640-FE0F": [
+    "women_with_bunny_ears_tone3",
+    "women_with_bunny_ears_medium_skin_tone"
+  ],
+  "1F469-1F3FD-200D-1F430-200D-1F469-1F3FE": [
+    "women_with_bunny_ears_tone3_tone4",
+    "women_with_bunny_ears_medium_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F469-1F3FD-200D-1F430-200D-1F469-1F3FF": [
+    "women_with_bunny_ears_tone3_tone5",
+    "women_with_bunny_ears_medium_skin_tone_dark_skin_tone"
+  ],
+  "1F469-1F3FE-200D-1F430-200D-1F469-1F3FB": [
+    "women_with_bunny_ears_tone4_tone1",
+    "women_with_bunny_ears_medium_dark_skin_tone_light_skin_tone"
+  ],
+  "1F469-1F3FE-200D-1F430-200D-1F469-1F3FC": [
+    "women_with_bunny_ears_tone4_tone2",
+    "women_with_bunny_ears_medium_dark_skin_tone_medium_light_skin_tone"
+  ],
+  "1F469-1F3FE-200D-1F430-200D-1F469-1F3FD": [
+    "women_with_bunny_ears_tone4_tone3",
+    "women_with_bunny_ears_medium_dark_skin_tone_medium_skin_tone"
+  ],
+  "1F46F-1F3FE-200D-2640-FE0F": [
+    "women_with_bunny_ears_tone4",
+    "women_with_bunny_ears_medium_dark_skin_tone"
+  ],
+  "1F469-1F3FE-200D-1F430-200D-1F469-1F3FF": [
+    "women_with_bunny_ears_tone4_tone5",
+    "women_with_bunny_ears_medium_dark_skin_tone_dark_skin_tone"
+  ],
+  "1F469-1F3FF-200D-1F430-200D-1F469-1F3FB": [
+    "women_with_bunny_ears_tone5_tone1",
+    "women_with_bunny_ears_dark_skin_tone_light_skin_tone"
+  ],
+  "1F469-1F3FF-200D-1F430-200D-1F469-1F3FC": [
+    "women_with_bunny_ears_tone5_tone2",
+    "women_with_bunny_ears_dark_skin_tone_medium_light_skin_tone"
+  ],
+  "1F469-1F3FF-200D-1F430-200D-1F469-1F3FD": [
+    "women_with_bunny_ears_tone5_tone3",
+    "women_with_bunny_ears_dark_skin_tone_medium_skin_tone"
+  ],
+  "1F469-1F3FF-200D-1F430-200D-1F469-1F3FE": [
+    "women_with_bunny_ears_tone5_tone4",
+    "women_with_bunny_ears_dark_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F46F-1F3FF-200D-2640-FE0F": [
+    "women_with_bunny_ears_tone5",
+    "women_with_bunny_ears_dark_skin_tone"
+  ],
   "1F46F-200D-2642-FE0F": "men_with_bunny_ears_partying",
+  "1F46F-1F3FB-200D-2642-FE0F": [
+    "men_with_bunny_ears_tone1",
+    "men_with_bunny_ears_light_skin_tone"
+  ],
+  "1F468-1F3FB-200D-1F430-200D-1F468-1F3FC": [
+    "men_with_bunny_ears_tone1_tone2",
+    "men_with_bunny_ears_light_skin_tone_medium_light_skin_tone"
+  ],
+  "1F468-1F3FB-200D-1F430-200D-1F468-1F3FD": [
+    "men_with_bunny_ears_tone1_tone3",
+    "men_with_bunny_ears_light_skin_tone_medium_skin_tone"
+  ],
+  "1F468-1F3FB-200D-1F430-200D-1F468-1F3FE": [
+    "men_with_bunny_ears_tone1_tone4",
+    "men_with_bunny_ears_light_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F468-1F3FB-200D-1F430-200D-1F468-1F3FF": [
+    "men_with_bunny_ears_tone1_tone5",
+    "men_with_bunny_ears_light_skin_tone_dark_skin_tone"
+  ],
+  "1F468-1F3FC-200D-1F430-200D-1F468-1F3FB": [
+    "men_with_bunny_ears_tone2_tone1",
+    "men_with_bunny_ears_medium_light_skin_tone_light_skin_tone"
+  ],
+  "1F46F-1F3FC-200D-2642-FE0F": [
+    "men_with_bunny_ears_tone2",
+    "men_with_bunny_ears_medium_light_skin_tone"
+  ],
+  "1F468-1F3FC-200D-1F430-200D-1F468-1F3FD": [
+    "men_with_bunny_ears_tone2_tone3",
+    "men_with_bunny_ears_medium_light_skin_tone_medium_skin_tone"
+  ],
+  "1F468-1F3FC-200D-1F430-200D-1F468-1F3FE": [
+    "men_with_bunny_ears_tone2_tone4",
+    "men_with_bunny_ears_medium_light_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F468-1F3FC-200D-1F430-200D-1F468-1F3FF": [
+    "men_with_bunny_ears_tone2_tone5",
+    "men_with_bunny_ears_medium_light_skin_tone_dark_skin_tone"
+  ],
+  "1F468-1F3FD-200D-1F430-200D-1F468-1F3FB": [
+    "men_with_bunny_ears_tone3_tone1",
+    "men_with_bunny_ears_medium_skin_tone_light_skin_tone"
+  ],
+  "1F468-1F3FD-200D-1F430-200D-1F468-1F3FC": [
+    "men_with_bunny_ears_tone3_tone2",
+    "men_with_bunny_ears_medium_skin_tone_medium_light_skin_tone"
+  ],
+  "1F46F-1F3FD-200D-2642-FE0F": [
+    "men_with_bunny_ears_tone3",
+    "men_with_bunny_ears_medium_skin_tone"
+  ],
+  "1F468-1F3FD-200D-1F430-200D-1F468-1F3FE": [
+    "men_with_bunny_ears_tone3_tone4",
+    "men_with_bunny_ears_medium_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F468-1F3FD-200D-1F430-200D-1F468-1F3FF": [
+    "men_with_bunny_ears_tone3_tone5",
+    "men_with_bunny_ears_medium_skin_tone_dark_skin_tone"
+  ],
+  "1F468-1F3FE-200D-1F430-200D-1F468-1F3FB": [
+    "men_with_bunny_ears_tone4_tone1",
+    "men_with_bunny_ears_medium_dark_skin_tone_light_skin_tone"
+  ],
+  "1F468-1F3FE-200D-1F430-200D-1F468-1F3FC": [
+    "men_with_bunny_ears_tone4_tone2",
+    "men_with_bunny_ears_medium_dark_skin_tone_medium_light_skin_tone"
+  ],
+  "1F468-1F3FE-200D-1F430-200D-1F468-1F3FD": [
+    "men_with_bunny_ears_tone4_tone3",
+    "men_with_bunny_ears_medium_dark_skin_tone_medium_skin_tone"
+  ],
+  "1F46F-1F3FE-200D-2642-FE0F": [
+    "men_with_bunny_ears_tone4",
+    "men_with_bunny_ears_medium_dark_skin_tone"
+  ],
+  "1F468-1F3FE-200D-1F430-200D-1F468-1F3FF": [
+    "men_with_bunny_ears_tone4_tone5",
+    "men_with_bunny_ears_medium_dark_skin_tone_dark_skin_tone"
+  ],
+  "1F468-1F3FF-200D-1F430-200D-1F468-1F3FB": [
+    "men_with_bunny_ears_tone5_tone1",
+    "men_with_bunny_ears_dark_skin_tone_light_skin_tone"
+  ],
+  "1F468-1F3FF-200D-1F430-200D-1F468-1F3FC": [
+    "men_with_bunny_ears_tone5_tone2",
+    "men_with_bunny_ears_dark_skin_tone_medium_light_skin_tone"
+  ],
+  "1F468-1F3FF-200D-1F430-200D-1F468-1F3FD": [
+    "men_with_bunny_ears_tone5_tone3",
+    "men_with_bunny_ears_dark_skin_tone_medium_skin_tone"
+  ],
+  "1F468-1F3FF-200D-1F430-200D-1F468-1F3FE": [
+    "men_with_bunny_ears_tone5_tone4",
+    "men_with_bunny_ears_dark_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F46F-1F3FF-200D-2642-FE0F": [
+    "men_with_bunny_ears_tone5",
+    "men_with_bunny_ears_dark_skin_tone"
+  ],
   "1F574": [
     "levitate",
     "man_in_business_suit_levitating"
@@ -5009,27 +5333,6 @@
     "person_in_manual_wheelchair_facing_right_tone5",
     "person_in_manual_wheelchair_facing_right_dark_skin_tone"
   ],
-  "1F468-200D-1F9BD-200D-27A1-FE0F": "man_in_manual_wheelchair_facing_right",
-  "1F468-1F3FC-200D-1F9BD-200D-27A1-FE0F": [
-    "man_in_manual_wheelchair_facing_right_tone2",
-    "man_in_manual_wheelchair_facing_right_medium_light_skin_tone"
-  ],
-  "1F468-1F3FB-200D-1F9BD-200D-27A1-FE0F": [
-    "man_in_manual_wheelchair_facing_right_tone1",
-    "man_in_manual_wheelchair_facing_right_light_skin_tone"
-  ],
-  "1F468-1F3FD-200D-1F9BD-200D-27A1-FE0F": [
-    "man_in_manual_wheelchair_facing_right_tone3",
-    "man_in_manual_wheelchair_facing_right_medium_skin_tone"
-  ],
-  "1F468-1F3FE-200D-1F9BD-200D-27A1-FE0F": [
-    "man_in_manual_wheelchair_facing_right_tone4",
-    "man_in_manual_wheelchair_facing_right_medium_dark_skin_tone"
-  ],
-  "1F468-1F3FF-200D-1F9BD-200D-27A1-FE0F": [
-    "man_in_manual_wheelchair_facing_right_tone5",
-    "man_in_manual_wheelchair_facing_right_dark_skin_tone"
-  ],
   "1F469-200D-1F9BD-200D-27A1-FE0F": "woman_in_manual_wheelchair_facing_right",
   "1F469-1F3FB-200D-1F9BD-200D-27A1-FE0F": [
     "woman_in_manual_wheelchair_facing_right_tone1",
@@ -5050,6 +5353,27 @@
   "1F469-1F3FF-200D-1F9BD-200D-27A1-FE0F": [
     "woman_in_manual_wheelchair_facing_right_tone5",
     "woman_in_manual_wheelchair_facing_right_dark_skin_tone"
+  ],
+  "1F468-200D-1F9BD-200D-27A1-FE0F": "man_in_manual_wheelchair_facing_right",
+  "1F468-1F3FC-200D-1F9BD-200D-27A1-FE0F": [
+    "man_in_manual_wheelchair_facing_right_tone2",
+    "man_in_manual_wheelchair_facing_right_medium_light_skin_tone"
+  ],
+  "1F468-1F3FB-200D-1F9BD-200D-27A1-FE0F": [
+    "man_in_manual_wheelchair_facing_right_tone1",
+    "man_in_manual_wheelchair_facing_right_light_skin_tone"
+  ],
+  "1F468-1F3FD-200D-1F9BD-200D-27A1-FE0F": [
+    "man_in_manual_wheelchair_facing_right_tone3",
+    "man_in_manual_wheelchair_facing_right_medium_skin_tone"
+  ],
+  "1F468-1F3FE-200D-1F9BD-200D-27A1-FE0F": [
+    "man_in_manual_wheelchair_facing_right_tone4",
+    "man_in_manual_wheelchair_facing_right_medium_dark_skin_tone"
+  ],
+  "1F468-1F3FF-200D-1F9BD-200D-27A1-FE0F": [
+    "man_in_manual_wheelchair_facing_right_tone5",
+    "man_in_manual_wheelchair_facing_right_dark_skin_tone"
   ],
   "1F9D1-200D-1F9BC": "person_in_motorized_wheelchair",
   "1F9D1-1F3FB-200D-1F9BC": [
@@ -5135,27 +5459,6 @@
     "person_in_motorized_wheelchair_facing_right_tone5",
     "person_in_motorized_wheelchair_facing_right_dark_skin_tone"
   ],
-  "1F468-200D-1F9BC-200D-27A1-FE0F": "man_in_motorized_wheelchair_facing_right",
-  "1F468-1F3FB-200D-1F9BC-200D-27A1-FE0F": [
-    "man_in_motorized_wheelchair_facing_right_tone1",
-    "man_in_motorized_wheelchair_facing_right_light_skin_tone"
-  ],
-  "1F468-1F3FC-200D-1F9BC-200D-27A1-FE0F": [
-    "man_in_motorized_wheelchair_facing_right_tone2",
-    "man_in_motorized_wheelchair_facing_right_medium_light_skin_tone"
-  ],
-  "1F468-1F3FD-200D-1F9BC-200D-27A1-FE0F": [
-    "man_in_motorized_wheelchair_facing_right_tone3",
-    "man_in_motorized_wheelchair_facing_right_medium_skin_tone"
-  ],
-  "1F468-1F3FE-200D-1F9BC-200D-27A1-FE0F": [
-    "man_in_motorized_wheelchair_facing_right_tone4",
-    "man_in_motorized_wheelchair_facing_right_medium_dark_skin_tone"
-  ],
-  "1F468-1F3FF-200D-1F9BC-200D-27A1-FE0F": [
-    "man_in_motorized_wheelchair_facing_right_tone5",
-    "man_in_motorized_wheelchair_facing_right_dark_skin_tone"
-  ],
   "1F469-200D-1F9BC-200D-27A1-FE0F": "woman_in_motorized_wheelchair_facing_right",
   "1F469-1F3FB-200D-1F9BC-200D-27A1-FE0F": [
     "woman_in_motorized_wheelchair_facing_right_tone1",
@@ -5176,6 +5479,27 @@
   "1F469-1F3FF-200D-1F9BC-200D-27A1-FE0F": [
     "woman_in_motorized_wheelchair_facing_right_tone5",
     "woman_in_motorized_wheelchair_facing_right_dark_skin_tone"
+  ],
+  "1F468-200D-1F9BC-200D-27A1-FE0F": "man_in_motorized_wheelchair_facing_right",
+  "1F468-1F3FB-200D-1F9BC-200D-27A1-FE0F": [
+    "man_in_motorized_wheelchair_facing_right_tone1",
+    "man_in_motorized_wheelchair_facing_right_light_skin_tone"
+  ],
+  "1F468-1F3FC-200D-1F9BC-200D-27A1-FE0F": [
+    "man_in_motorized_wheelchair_facing_right_tone2",
+    "man_in_motorized_wheelchair_facing_right_medium_light_skin_tone"
+  ],
+  "1F468-1F3FD-200D-1F9BC-200D-27A1-FE0F": [
+    "man_in_motorized_wheelchair_facing_right_tone3",
+    "man_in_motorized_wheelchair_facing_right_medium_skin_tone"
+  ],
+  "1F468-1F3FE-200D-1F9BC-200D-27A1-FE0F": [
+    "man_in_motorized_wheelchair_facing_right_tone4",
+    "man_in_motorized_wheelchair_facing_right_medium_dark_skin_tone"
+  ],
+  "1F468-1F3FF-200D-1F9BC-200D-27A1-FE0F": [
+    "man_in_motorized_wheelchair_facing_right_tone5",
+    "man_in_motorized_wheelchair_facing_right_dark_skin_tone"
   ],
   "1F6B6": [
     "person_walking",
@@ -5390,27 +5714,6 @@
     "person_with_white_cane_facing_right_tone5",
     "person_with_white_cane_facing_right_dark_skin_tone"
   ],
-  "1F468-200D-1F9AF-200D-27A1-FE0F": "man_with_white_cane_facing_right",
-  "1F468-1F3FB-200D-1F9AF-200D-27A1-FE0F": [
-    "man_with_white_cane_facing_right_tone1",
-    "man_with_white_cane_facing_right_light_skin_tone"
-  ],
-  "1F468-1F3FC-200D-1F9AF-200D-27A1-FE0F": [
-    "man_with_white_cane_facing_right_tone2",
-    "man_with_white_cane_facing_right_medium_light_skin_tone"
-  ],
-  "1F468-1F3FD-200D-1F9AF-200D-27A1-FE0F": [
-    "man_with_white_cane_facing_right_tone3",
-    "man_with_white_cane_facing_right_medium_skin_tone"
-  ],
-  "1F468-1F3FE-200D-1F9AF-200D-27A1-FE0F": [
-    "man_with_white_cane_facing_right_tone4",
-    "man_with_white_cane_facing_right_medium_dark_skin_tone"
-  ],
-  "1F468-1F3FF-200D-1F9AF-200D-27A1-FE0F": [
-    "man_with_white_cane_facing_right_tone5",
-    "man_with_white_cane_facing_right_dark_skin_tone"
-  ],
   "1F469-200D-1F9AF-200D-27A1-FE0F": "woman_with_white_cane_facing_right",
   "1F469-1F3FB-200D-1F9AF-200D-27A1-FE0F": [
     "woman_with_white_cane_facing_right_tone1",
@@ -5431,6 +5734,27 @@
   "1F469-1F3FF-200D-1F9AF-200D-27A1-FE0F": [
     "woman_with_white_cane_facing_right_tone5",
     "woman_with_white_cane_facing_right_dark_skin_tone"
+  ],
+  "1F468-200D-1F9AF-200D-27A1-FE0F": "man_with_white_cane_facing_right",
+  "1F468-1F3FB-200D-1F9AF-200D-27A1-FE0F": [
+    "man_with_white_cane_facing_right_tone1",
+    "man_with_white_cane_facing_right_light_skin_tone"
+  ],
+  "1F468-1F3FC-200D-1F9AF-200D-27A1-FE0F": [
+    "man_with_white_cane_facing_right_tone2",
+    "man_with_white_cane_facing_right_medium_light_skin_tone"
+  ],
+  "1F468-1F3FD-200D-1F9AF-200D-27A1-FE0F": [
+    "man_with_white_cane_facing_right_tone3",
+    "man_with_white_cane_facing_right_medium_skin_tone"
+  ],
+  "1F468-1F3FE-200D-1F9AF-200D-27A1-FE0F": [
+    "man_with_white_cane_facing_right_tone4",
+    "man_with_white_cane_facing_right_medium_dark_skin_tone"
+  ],
+  "1F468-1F3FF-200D-1F9AF-200D-27A1-FE0F": [
+    "man_with_white_cane_facing_right_tone5",
+    "man_with_white_cane_facing_right_dark_skin_tone"
   ],
   "1F9CE": "person_kneeling",
   "1F9CE-1F3FB": [
@@ -6975,8 +7299,8 @@
     "kiss_man_man_tone5",
     "kiss_man_man_dark_skin_tone"
   ],
-  "1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2": "family_adult_adult_child_child",
   "1F9D1-200D-1F9D1-200D-1F9D2": "family_adult_adult_child",
+  "1F9D1-200D-1F9D1-200D-1F9D2-200D-1F9D2": "family_adult_adult_child_child",
   "1F9D1-200D-1F9D2-200D-1F9D2": "family_adult_child_child",
   "1F9D1-200D-1F9D2": "family_adult_child",
   "1F46A": "family",
@@ -7204,6 +7528,7 @@
   "1F42C": "dolphin",
   "1F433": "whale",
   "1F40B": "whale2",
+  "1FACD": "orca",
   "1F988": "shark",
   "1F9AD": "seal",
   "1F40A": "crocodile",
@@ -7212,6 +7537,7 @@
   "1F993": "zebra",
   "1F98D": "gorilla",
   "1F9A7": "orangutan",
+  "1FAC8": "hairy_creature",
   "1F9A3": "mammoth",
   "1F418": "elephant",
   "1F99B": "hippopotamus",
@@ -7280,6 +7606,7 @@
   "1F332": "evergreen_tree",
   "1F333": "deciduous_tree",
   "1F334": "palm_tree",
+  "1FABE": "leafless_tree",
   "1FAB5": "wood",
   "1F331": "seedling",
   "1F33F": "herb",
@@ -7300,6 +7627,7 @@
   ],
   "1FAB8": "coral",
   "1FAA8": "rock",
+  "1F6D8": "landslide",
   "1F33E": [
     "ear_of_rice",
     "sheaf_of_rice"
@@ -7356,6 +7684,7 @@
     "fire",
     "flame"
   ],
+  "1FAEF": "fight_cloud",
   "1F32A": [
     "cloud_tornado",
     "cloud_with_tornado",
@@ -7451,6 +7780,7 @@
   "1F9C4": "garlic",
   "1F9C5": "onion",
   "1F954": "potato",
+  "1FADC": "root_vegetable",
   "1F360": "sweet_potato",
   "1FADA": "ginger_root",
   "1F950": "croissant",
@@ -7783,8 +8113,308 @@
     "wrestlers",
     "wrestling"
   ],
+  "1F93C-1F3FB": [
+    "people_wrestling_tone1",
+    "people_wrestling_light_skin_tone"
+  ],
+  "1F9D1-1F3FB-200D-1FAEF-200D-1F9D1-1F3FC": [
+    "people_wrestling_tone1_tone2",
+    "people_wrestling_light_skin_tone_medium_light_skin_tone"
+  ],
+  "1F9D1-1F3FB-200D-1FAEF-200D-1F9D1-1F3FD": [
+    "people_wrestling_tone1_tone3",
+    "people_wrestling_light_skin_tone_medium_skin_tone"
+  ],
+  "1F9D1-1F3FB-200D-1FAEF-200D-1F9D1-1F3FE": [
+    "people_wrestling_tone1_tone4",
+    "people_wrestling_light_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F9D1-1F3FB-200D-1FAEF-200D-1F9D1-1F3FF": [
+    "people_wrestling_tone1_tone5",
+    "people_wrestling_light_skin_tone_dark_skin_tone"
+  ],
+  "1F9D1-1F3FC-200D-1FAEF-200D-1F9D1-1F3FB": [
+    "people_wrestling_tone2_tone1",
+    "people_wrestling_medium_light_skin_tone_light_skin_tone"
+  ],
+  "1F93C-1F3FC": [
+    "people_wrestling_tone2",
+    "people_wrestling_medium_light_skin_tone"
+  ],
+  "1F9D1-1F3FC-200D-1FAEF-200D-1F9D1-1F3FD": [
+    "people_wrestling_tone2_tone3",
+    "people_wrestling_medium_light_skin_tone_medium_skin_tone"
+  ],
+  "1F9D1-1F3FC-200D-1FAEF-200D-1F9D1-1F3FE": [
+    "people_wrestling_tone2_tone4",
+    "people_wrestling_medium_light_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F9D1-1F3FC-200D-1FAEF-200D-1F9D1-1F3FF": [
+    "people_wrestling_tone2_tone5",
+    "people_wrestling_medium_light_skin_tone_dark_skin_tone"
+  ],
+  "1F9D1-1F3FD-200D-1FAEF-200D-1F9D1-1F3FB": [
+    "people_wrestling_tone3_tone1",
+    "people_wrestling_medium_skin_tone_light_skin_tone"
+  ],
+  "1F9D1-1F3FD-200D-1FAEF-200D-1F9D1-1F3FC": [
+    "people_wrestling_tone3_tone2",
+    "people_wrestling_medium_skin_tone_medium_light_skin_tone"
+  ],
+  "1F93C-1F3FD": [
+    "people_wrestling_tone3",
+    "people_wrestling_medium_skin_tone"
+  ],
+  "1F9D1-1F3FD-200D-1FAEF-200D-1F9D1-1F3FE": [
+    "people_wrestling_tone3_tone4",
+    "people_wrestling_medium_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F9D1-1F3FD-200D-1FAEF-200D-1F9D1-1F3FF": [
+    "people_wrestling_tone3_tone5",
+    "people_wrestling_medium_skin_tone_dark_skin_tone"
+  ],
+  "1F9D1-1F3FE-200D-1FAEF-200D-1F9D1-1F3FB": [
+    "people_wrestling_tone4_tone1",
+    "people_wrestling_medium_dark_skin_tone_light_skin_tone"
+  ],
+  "1F9D1-1F3FE-200D-1FAEF-200D-1F9D1-1F3FC": [
+    "people_wrestling_tone4_tone2",
+    "people_wrestling_medium_dark_skin_tone_medium_light_skin_tone"
+  ],
+  "1F9D1-1F3FE-200D-1FAEF-200D-1F9D1-1F3FD": [
+    "people_wrestling_tone4_tone3",
+    "people_wrestling_medium_dark_skin_tone_medium_skin_tone"
+  ],
+  "1F93C-1F3FE": [
+    "people_wrestling_tone4",
+    "people_wrestling_medium_dark_skin_tone"
+  ],
+  "1F9D1-1F3FE-200D-1FAEF-200D-1F9D1-1F3FF": [
+    "people_wrestling_tone4_tone5",
+    "people_wrestling_medium_dark_skin_tone_dark_skin_tone"
+  ],
+  "1F9D1-1F3FF-200D-1FAEF-200D-1F9D1-1F3FB": [
+    "people_wrestling_tone5_tone1",
+    "people_wrestling_dark_skin_tone_light_skin_tone"
+  ],
+  "1F9D1-1F3FF-200D-1FAEF-200D-1F9D1-1F3FC": [
+    "people_wrestling_tone5_tone2",
+    "people_wrestling_dark_skin_tone_medium_light_skin_tone"
+  ],
+  "1F9D1-1F3FF-200D-1FAEF-200D-1F9D1-1F3FD": [
+    "people_wrestling_tone5_tone3",
+    "people_wrestling_dark_skin_tone_medium_skin_tone"
+  ],
+  "1F9D1-1F3FF-200D-1FAEF-200D-1F9D1-1F3FE": [
+    "people_wrestling_tone5_tone4",
+    "people_wrestling_dark_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F93C-1F3FF": [
+    "people_wrestling_tone5",
+    "people_wrestling_dark_skin_tone"
+  ],
   "1F93C-200D-2640-FE0F": "women_wrestling",
+  "1F93C-1F3FB-200D-2640-FE0F": [
+    "women_wrestling_tone1",
+    "women_wrestling_light_skin_tone"
+  ],
+  "1F469-1F3FB-200D-1FAEF-200D-1F469-1F3FC": [
+    "women_wrestling_tone1_tone2",
+    "women_wrestling_light_skin_tone_medium_light_skin_tone"
+  ],
+  "1F469-1F3FB-200D-1FAEF-200D-1F469-1F3FD": [
+    "women_wrestling_tone1_tone3",
+    "women_wrestling_light_skin_tone_medium_skin_tone"
+  ],
+  "1F469-1F3FB-200D-1FAEF-200D-1F469-1F3FE": [
+    "women_wrestling_tone1_tone4",
+    "women_wrestling_light_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F469-1F3FB-200D-1FAEF-200D-1F469-1F3FF": [
+    "women_wrestling_tone1_tone5",
+    "women_wrestling_light_skin_tone_dark_skin_tone"
+  ],
+  "1F469-1F3FC-200D-1FAEF-200D-1F469-1F3FB": [
+    "women_wrestling_tone2_tone1",
+    "women_wrestling_medium_light_skin_tone_light_skin_tone"
+  ],
+  "1F93C-1F3FC-200D-2640-FE0F": [
+    "women_wrestling_tone2",
+    "women_wrestling_medium_light_skin_tone"
+  ],
+  "1F469-1F3FC-200D-1FAEF-200D-1F469-1F3FD": [
+    "women_wrestling_tone2_tone3",
+    "women_wrestling_medium_light_skin_tone_medium_skin_tone"
+  ],
+  "1F469-1F3FC-200D-1FAEF-200D-1F469-1F3FE": [
+    "women_wrestling_tone2_tone4",
+    "women_wrestling_medium_light_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F469-1F3FC-200D-1FAEF-200D-1F469-1F3FF": [
+    "women_wrestling_tone2_tone5",
+    "women_wrestling_medium_light_skin_tone_dark_skin_tone"
+  ],
+  "1F469-1F3FD-200D-1FAEF-200D-1F469-1F3FB": [
+    "women_wrestling_tone3_tone1",
+    "women_wrestling_medium_skin_tone_light_skin_tone"
+  ],
+  "1F469-1F3FD-200D-1FAEF-200D-1F469-1F3FC": [
+    "women_wrestling_tone3_tone2",
+    "women_wrestling_medium_skin_tone_medium_light_skin_tone"
+  ],
+  "1F93C-1F3FD-200D-2640-FE0F": [
+    "women_wrestling_tone3",
+    "women_wrestling_medium_skin_tone"
+  ],
+  "1F469-1F3FD-200D-1FAEF-200D-1F469-1F3FE": [
+    "women_wrestling_tone3_tone4",
+    "women_wrestling_medium_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F469-1F3FD-200D-1FAEF-200D-1F469-1F3FF": [
+    "women_wrestling_tone3_tone5",
+    "women_wrestling_medium_skin_tone_dark_skin_tone"
+  ],
+  "1F469-1F3FE-200D-1FAEF-200D-1F469-1F3FB": [
+    "women_wrestling_tone4_tone1",
+    "women_wrestling_medium_dark_skin_tone_light_skin_tone"
+  ],
+  "1F469-1F3FE-200D-1FAEF-200D-1F469-1F3FC": [
+    "women_wrestling_tone4_tone2",
+    "women_wrestling_medium_dark_skin_tone_medium_light_skin_tone"
+  ],
+  "1F469-1F3FE-200D-1FAEF-200D-1F469-1F3FD": [
+    "women_wrestling_tone4_tone3",
+    "women_wrestling_medium_dark_skin_tone_medium_skin_tone"
+  ],
+  "1F93C-1F3FE-200D-2640-FE0F": [
+    "women_wrestling_tone4",
+    "women_wrestling_medium_dark_skin_tone"
+  ],
+  "1F469-1F3FE-200D-1FAEF-200D-1F469-1F3FF": [
+    "women_wrestling_tone4_tone5",
+    "women_wrestling_medium_dark_skin_tone_dark_skin_tone"
+  ],
+  "1F469-1F3FF-200D-1FAEF-200D-1F469-1F3FB": [
+    "women_wrestling_tone5_tone1",
+    "women_wrestling_dark_skin_tone_light_skin_tone"
+  ],
+  "1F469-1F3FF-200D-1FAEF-200D-1F469-1F3FC": [
+    "women_wrestling_tone5_tone2",
+    "women_wrestling_dark_skin_tone_medium_light_skin_tone"
+  ],
+  "1F469-1F3FF-200D-1FAEF-200D-1F469-1F3FD": [
+    "women_wrestling_tone5_tone3",
+    "women_wrestling_dark_skin_tone_medium_skin_tone"
+  ],
+  "1F469-1F3FF-200D-1FAEF-200D-1F469-1F3FE": [
+    "women_wrestling_tone5_tone4",
+    "women_wrestling_dark_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F93C-1F3FF-200D-2640-FE0F": [
+    "women_wrestling_tone5",
+    "women_wrestling_dark_skin_tone"
+  ],
   "1F93C-200D-2642-FE0F": "men_wrestling",
+  "1F93C-1F3FB-200D-2642-FE0F": [
+    "men_wrestling_tone1",
+    "men_wrestling_light_skin_tone"
+  ],
+  "1F468-1F3FB-200D-1FAEF-200D-1F468-1F3FC": [
+    "men_wrestling_tone1_tone2",
+    "men_wrestling_light_skin_tone_medium_light_skin_tone"
+  ],
+  "1F468-1F3FB-200D-1FAEF-200D-1F468-1F3FD": [
+    "men_wrestling_tone1_tone3",
+    "men_wrestling_light_skin_tone_medium_skin_tone"
+  ],
+  "1F468-1F3FB-200D-1FAEF-200D-1F468-1F3FE": [
+    "men_wrestling_tone1_tone4",
+    "men_wrestling_light_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F468-1F3FB-200D-1FAEF-200D-1F468-1F3FF": [
+    "men_wrestling_tone1_tone5",
+    "men_wrestling_light_skin_tone_dark_skin_tone"
+  ],
+  "1F468-1F3FC-200D-1FAEF-200D-1F468-1F3FB": [
+    "men_wrestling_tone2_tone1",
+    "men_wrestling_medium_light_skin_tone_light_skin_tone"
+  ],
+  "1F93C-1F3FC-200D-2642-FE0F": [
+    "men_wrestling_tone2",
+    "men_wrestling_medium_light_skin_tone"
+  ],
+  "1F468-1F3FC-200D-1FAEF-200D-1F468-1F3FD": [
+    "men_wrestling_tone2_tone3",
+    "men_wrestling_medium_light_skin_tone_medium_skin_tone"
+  ],
+  "1F468-1F3FC-200D-1FAEF-200D-1F468-1F3FE": [
+    "men_wrestling_tone2_tone4",
+    "men_wrestling_medium_light_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F468-1F3FC-200D-1FAEF-200D-1F468-1F3FF": [
+    "men_wrestling_tone2_tone5",
+    "men_wrestling_medium_light_skin_tone_dark_skin_tone"
+  ],
+  "1F468-1F3FD-200D-1FAEF-200D-1F468-1F3FB": [
+    "men_wrestling_tone3_tone1",
+    "men_wrestling_medium_skin_tone_light_skin_tone"
+  ],
+  "1F468-1F3FD-200D-1FAEF-200D-1F468-1F3FC": [
+    "men_wrestling_tone3_tone2",
+    "men_wrestling_medium_skin_tone_medium_light_skin_tone"
+  ],
+  "1F93C-1F3FD-200D-2642-FE0F": [
+    "men_wrestling_tone3",
+    "men_wrestling_medium_skin_tone"
+  ],
+  "1F468-1F3FD-200D-1FAEF-200D-1F468-1F3FE": [
+    "men_wrestling_tone3_tone4",
+    "men_wrestling_medium_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F468-1F3FD-200D-1FAEF-200D-1F468-1F3FF": [
+    "men_wrestling_tone3_tone5",
+    "men_wrestling_medium_skin_tone_dark_skin_tone"
+  ],
+  "1F468-1F3FE-200D-1FAEF-200D-1F468-1F3FB": [
+    "men_wrestling_tone4_tone1",
+    "men_wrestling_medium_dark_skin_tone_light_skin_tone"
+  ],
+  "1F468-1F3FE-200D-1FAEF-200D-1F468-1F3FC": [
+    "men_wrestling_tone4_tone2",
+    "men_wrestling_medium_dark_skin_tone_medium_light_skin_tone"
+  ],
+  "1F468-1F3FE-200D-1FAEF-200D-1F468-1F3FD": [
+    "men_wrestling_tone4_tone3",
+    "men_wrestling_medium_dark_skin_tone_medium_skin_tone"
+  ],
+  "1F93C-1F3FE-200D-2642-FE0F": [
+    "men_wrestling_tone4",
+    "men_wrestling_medium_dark_skin_tone"
+  ],
+  "1F468-1F3FE-200D-1FAEF-200D-1F468-1F3FF": [
+    "men_wrestling_tone4_tone5",
+    "men_wrestling_medium_dark_skin_tone_dark_skin_tone"
+  ],
+  "1F468-1F3FF-200D-1FAEF-200D-1F468-1F3FB": [
+    "men_wrestling_tone5_tone1",
+    "men_wrestling_dark_skin_tone_light_skin_tone"
+  ],
+  "1F468-1F3FF-200D-1FAEF-200D-1F468-1F3FC": [
+    "men_wrestling_tone5_tone2",
+    "men_wrestling_dark_skin_tone_medium_light_skin_tone"
+  ],
+  "1F468-1F3FF-200D-1FAEF-200D-1F468-1F3FD": [
+    "men_wrestling_tone5_tone3",
+    "men_wrestling_dark_skin_tone_medium_skin_tone"
+  ],
+  "1F468-1F3FF-200D-1FAEF-200D-1F468-1F3FE": [
+    "men_wrestling_tone5_tone4",
+    "men_wrestling_dark_skin_tone_medium_dark_skin_tone"
+  ],
+  "1F93C-1F3FF-200D-2642-FE0F": [
+    "men_wrestling_tone5",
+    "men_wrestling_dark_skin_tone"
+  ],
   "1F938": [
     "person_doing_cartwheel",
     "cartwheel"
@@ -8689,6 +9319,7 @@
   "1F3AD": "performing_arts",
   "1FA70": "ballet_shoes",
   "1F3A8": "art",
+  "1FADF": "splatter",
   "1F3AC": [
     "clapper",
     "clapper_board"
@@ -8708,9 +9339,11 @@
   "1FA98": "long_drum",
   "1F3B7": "saxophone",
   "1F3BA": "trumpet",
+  "1FA8A": "trombone",
   "1FA97": "accordion",
   "1F3B8": "guitar",
   "1FA95": "banjo",
+  "1FA89": "harp",
   "1F3BB": "violin",
   "1FA88": "flute",
   "1F3B2": "game_die",
@@ -9058,6 +9691,7 @@
     "gem",
     "gem_stone"
   ],
+  "1FA8E": "treasure_chest",
   "1FA9C": "ladder",
   "1F9F0": "toolbox",
   "1FA9B": "screwdriver",
@@ -9068,6 +9702,7 @@
     "hammer_and_wrench"
   ],
   "26CF": "pick",
+  "1FA8F": "shovel",
   "1FA9A": "carpentry_saw",
   "1F529": "nut_and_bolt",
   "1FAA4": "mouse_trap",
@@ -9076,7 +9711,6 @@
     "brick"
   ],
   "26D3": "chains",
-  "1F517": "link",
   "26D3-FE0F-200D-1F4A5": "broken_chain",
   "1F9F2": "magnet",
   "1F52B": [
@@ -9302,6 +9936,7 @@
   ],
   "1F516": "bookmark",
   "1F9F7": "safety_pin",
+  "1F517": "link",
   "1F4CE": "paperclip",
   "1F587": [
     "paperclips",
@@ -10556,6 +11191,10 @@
   "1F1F8-1F1F9": [
     "flag_st",
     "st"
+  ],
+  "1F1E8-1F1F6": [
+    "flag_cq",
+    "flag_sark"
   ],
   "1F1F8-1F1E6": [
     "flag_sa",
