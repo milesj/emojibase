@@ -1,11 +1,11 @@
-// An independent reading of the official Unicode Emoji 17.0 files, used as the oracle for
+// An independent reading of the official Unicode Emoji 18.0 files, used as the oracle for
 // UTS #51 conformance tests. Nothing here may import from the generator, as that is the code
 // under test.
 
 import fs from 'node:fs';
 import path from 'node:path';
 
-export const FIXTURES_DIR = path.join(__dirname, '../../../../tests/__fixtures__/v17');
+export const FIXTURES_DIR = path.join(__dirname, '../../../../tests/__fixtures__/v18');
 
 export type TestStatus = 'component' | 'fully-qualified' | 'minimally-qualified' | 'unqualified';
 

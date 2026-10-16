@@ -47,7 +47,9 @@ async function slugify(
 				.replace('営', 'kanri')
 				.replace('々', 'kaku')
 				.replace('妊', 'ninshin')
-				.replace('浮', 'furotingu');
+				.replace('浮', 'furotingu')
+				// 隕石 (meteor) is read "inseki", but only the second kanji converts
+				.replace(/隕 ?/, 'in');
 		} else {
 			slug = transliterate(slug);
 		}

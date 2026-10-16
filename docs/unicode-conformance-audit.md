@@ -61,18 +61,21 @@ incorrect data with narrower impact, or a latent defect one change away from pro
 ## Status
 
 All five steps of the remediation plan below are done, and were merged in
-[#201](https://github.com/milesj/emojibase/pull/201). The conformance baseline went from 3,178 lines
-to 3 entries, and all 3 are deliberate:
+[#201](https://github.com/milesj/emojibase/pull/201). The conformance suite has since been re-run
+against Emoji 18.0 ([UTS #51 rev 31](https://www.unicode.org/reports/tr51/tr51-31.html)) and CLDR
+49, with no new violations. The baseline went from 3,178 lines to 2 entries, which are the same
+documented limitation in two patterns:
 
-- 🎺 `1FA8A` in `hi` uses its English label, because CLDR has not translated it yet (C5, agreed
-  fallback). CLDR 48.2 added the French label.
 - `text-loose` (and its codepoint variant) matches the last character of 56 ZWJ sequences, like the
   🎓 in 🧑‍🎓. Fixing it needs a lookbehind, which older Safari lacks.
+
+The English fallback for 🎺 in `fr` and `hi` (C5) is gone: CLDR 48.2 added the French label and CLDR
+49 the Hindi one.
 
 Deferred, to do when it's needed:
 
 - UTS #35 name synthesis for ZWJ and skin-tone sequences (steps 5–11). No supported locale lacks one
-  in CLDR 48.2, and a missing one now fails the build.
+  in CLDR 49, and a missing one now fails the build.
 - Text patterns can still match the trailing bare ♂/♀ of a sequence that is missing its FE0F, for
   the same lookbehind reason.
 
@@ -441,8 +444,8 @@ version buckets all change.
 
 What was built:
 
-- **Fixtures.** The official Unicode 17.0 `emoji-test.txt` and `emoji-variation-sequences.txt` live
-  unmodified in `tests/__fixtures__/v17/`, because `cache/` is gitignored.
+- **Fixtures.** The official Unicode `emoji-test.txt` and `emoji-variation-sequences.txt` (now 18.0)
+  live unmodified in `tests/__fixtures__/v18/`, because `cache/` is gitignored.
 - **Suite.** [packages/data/tests/conformance.test.ts](../packages/data/tests/conformance.test.ts)
   checks the shipped datasets and regex patterns. Its oracles in `conformance/unicode.ts` and
   `conformance/cldr.ts` share no code with the generator.

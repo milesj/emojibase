@@ -3,7 +3,10 @@ title: Specification alignment
 ---
 
 Emojibase aims to be as specification compliant as possible, but to ensure small datasets, and ease
-of use, some liberties are taken.
+of use, some liberties are taken. It follows
+[UTS #51 revision 31](https://www.unicode.org/reports/tr51/tr51-31.html) (Emoji 18.0), and the
+annotations section of
+[UTS #35](https://www.unicode.org/reports/tr35/tr35-79/tr35-general.html#Annotations) for CLDR 49.
 
 ## Annotations
 

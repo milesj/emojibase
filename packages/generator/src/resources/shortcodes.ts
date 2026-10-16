@@ -2422,7 +2422,7 @@ export const shortcodes = {
   '1F1EC-1F1FE': ['flag_gy', 'guyana'],
   // 🇭🇰 flag: Hong Kong SAR China
   '1F1ED-1F1F0': ['flag_hk', 'hong_kong'],
-  // 🇭🇲 flag: Heard & McDonald Islands
+  // 🇭🇲 flag: Heard Island & McDonald Islands
   '1F1ED-1F1F2': ['flag_hm', 'heard_mcdonald_islands'],
   // 🇭🇳 flag: Honduras
   '1F1ED-1F1F3': ['flag_hn', 'honduras'],
@@ -2622,7 +2622,7 @@ export const shortcodes = {
   '1F1F8-1F1EA': ['flag_se', 'sweden'],
   // 🇸🇬 flag: Singapore
   '1F1F8-1F1EC': ['flag_sg', 'singapore'],
-  // 🇸🇭 flag: St. Helena
+  // 🇸🇭 flag: St. Helena, Ascension & Tristan da Cunha
   '1F1F8-1F1ED': ['flag_sh', 'st_helena'],
   // 🇸🇮 flag: Slovenia
   '1F1F8-1F1EE': ['flag_si', 'slovenia'],
@@ -2658,7 +2658,7 @@ export const shortcodes = {
   '1F1F9-1F1E8': ['flag_tc', 'turks_caicos_islands'],
   // 🇹🇩 flag: Chad
   '1F1F9-1F1E9': ['chad', 'flag_td'],
-  // 🇹🇫 flag: French Southern Territories
+  // 🇹🇫 flag: French Southern and Antarctic Lands
   '1F1F9-1F1EB': ['flag_tf', 'french_southern_territories'],
   // 🇹🇬 flag: Togo
   '1F1F9-1F1EC': ['flag_tg', 'togo'],
@@ -3990,4 +3990,24 @@ export const shortcodes = {
   '1FA8A': ['trombone'],
   // 🪎 treasure chest
   '1FA8E': ['treasure_chest'],
+
+  // VERSION 18
+  // 🫫 cracking face
+  '1FAEB': ['cracking_face'],
+  // 🫹 leftwards thumb sign
+  '1FAF9': ['leftwards_thumb'],
+  // 🫺 rightwards thumb sign
+  '1FAFA': ['rightwards_thumb'],
+  // 🫌 monarch butterfly
+  '1FACC': ['monarch_butterfly'],
+  // 🫝 pickle
+  '1FADD': ['pickle'],
+  // 🛙 lighthouse
+  '1F6D9': ['lighthouse'],
+  // 🪋 meteor
+  '1FA8B': ['meteor'],
+  // 🪌 eraser
+  '1FA8C': ['eraser'],
+  // 🪍 net with handle
+  '1FA8D': ['net_with_handle'],
 };

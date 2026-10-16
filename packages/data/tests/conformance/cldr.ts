@@ -1,4 +1,4 @@
-// An independent CLDR 48.2 annotation resolver, used as the oracle for UTS #35 conformance tests.
+// An independent CLDR 49 annotation resolver, used as the oracle for UTS #35 conformance tests.
 // Nothing here may import from the generator, as that is the code under test.
 
 import {
@@ -21,7 +21,7 @@ export interface ResolvedName {
 	keywords: string[];
 }
 
-// Each emojibase locale's CLDR inheritance chain, from <parentLocales> in CLDR 48.2
+// Each emojibase locale's CLDR inheritance chain, from <parentLocales> in CLDR 49
 // supplementalData.xml, then truncation (UTS #35 Part 1, Parent_Locales). Root is left out
 // on purpose: its annotations are placeholders, and missing names must be synthesized.
 export const LOCALE_CHAINS: Record<Locale, string[]> = {
