@@ -12,10 +12,7 @@ interface CLDRLocaleNamesDisplayNames {
 }
 
 interface CLDRMiscCharacterLabels {
-	main: Record<
-		string,
-		{ characterLabelPatterns?: CLDRDataMap; characterLabels?: CLDRDataMap }
-	>;
+	main: Record<string, { characterLabelPatterns?: CLDRDataMap; characterLabels?: CLDRDataMap }>;
 }
 
 async function tryImport<T>(name: string): Promise<T | undefined> {

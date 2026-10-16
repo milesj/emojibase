@@ -73,7 +73,10 @@ function formatPattern(pattern: string, ...values: (string | undefined)[]): stri
 		return '';
 	}
 
-	return values.reduce<string>((result, value, index) => result.replace(`{${index}}`, value!), pattern);
+	return values.reduce<string>(
+		(result, value, index) => result.replace(`{${index}}`, value!),
+		pattern,
+	);
 }
 
 export async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotationMap> {
@@ -159,8 +162,10 @@ export async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotatio
 		// http://unicode.org/reports/tr51/#Direction
 		if (!annotation && fullHexcode.match(FACING_RIGHT_PATTERN)) {
 			annotation = joinAnnotationWithLabel(
-				extractField(toAnnotationKey(fullHexcode.replace(FACING_RIGHT_PATTERN, '')), 'annotation') ??
-					'',
+				extractField(
+					toAnnotationKey(fullHexcode.replace(FACING_RIGHT_PATTERN, '')),
+					'annotation',
+				) ?? '',
 				localization.labelPatterns['facing-right'],
 			);
 		}
