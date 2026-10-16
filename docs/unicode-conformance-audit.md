@@ -60,18 +60,19 @@ incorrect data with narrower impact, or a latent defect one change away from pro
 
 ## Status
 
-All five steps of the remediation plan below are done on the `claude-audit` branch. Each step is one
-commit. The conformance baseline went from 3,178 lines to 4 entries, and all 4 are deliberate:
+All five steps of the remediation plan below are done, and were merged in
+[#201](https://github.com/milesj/emojibase/pull/201). The conformance baseline went from 3,178 lines
+to 3 entries, and all 3 are deliberate:
 
-- 🎺 `1FA8A` in `fr` and `hi` uses its English label, because CLDR 48 has not translated it yet (C5,
-  agreed fallback).
+- 🎺 `1FA8A` in `hi` uses its English label, because CLDR has not translated it yet (C5, agreed
+  fallback). CLDR 48.2 added the French label.
 - `text-loose` (and its codepoint variant) matches the last character of 56 ZWJ sequences, like the
   🎓 in 🧑‍🎓. Fixing it needs a lookbehind, which older Safari lacks.
 
 Deferred, to do when it's needed:
 
 - UTS #35 name synthesis for ZWJ and skin-tone sequences (steps 5–11). No supported locale lacks one
-  in CLDR 48, and a missing one now fails the build.
+  in CLDR 48.2, and a missing one now fails the build.
 - Text patterns can still match the trailing bare ♂/♀ of a sequence that is missing its FE0F, for
   the same lookbehind reason.
 
