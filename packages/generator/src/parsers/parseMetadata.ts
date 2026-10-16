@@ -98,14 +98,12 @@ export function parseMetadata(content: string): EmojiMetadataMap {
 			group: groupIndex,
 			name,
 			order,
-			qualifiers:
-				// eslint-disable-next-line no-nested-ternary
-				isRoot
-					? { [hexcode]: qualifier }
-					: qualifier === null && (!parentHexcode || !map[parentHexcode])
-						? {}
-						: // Use the same reference so its additive
-							map[parentHexcode].qualifiers,
+			qualifiers: isRoot
+				? { [hexcode]: qualifier }
+				: qualifier === null && (!parentHexcode || !map[parentHexcode])
+					? {}
+					: // Use the same reference so its additive
+						map[parentHexcode].qualifiers,
 			subgroup: subgroupIndex,
 			...OVERRIDES[hexcode],
 		};

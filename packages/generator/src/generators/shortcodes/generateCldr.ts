@@ -1,4 +1,3 @@
-/* eslint-disable no-await-in-loop */
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
@@ -56,7 +55,7 @@ async function slugify(
 	}
 
 	// Replace unnecessary dashes before slugging
-	slug = slug.replace(/-/gu, '_');
+	slug = slug.replaceAll('-', '_');
 
 	slug = Database.slugify(slug);
 
@@ -98,7 +97,6 @@ export async function generateCldr(db: Database) {
 				const row = annotations[toAnnotationKey(emoji.hexcode)];
 
 				if (!row?.annotation || cldr[emoji.hexcode]) {
-					// eslint-disable-next-line no-continue
 					continue;
 				}
 

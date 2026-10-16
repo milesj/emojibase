@@ -32,11 +32,11 @@ export class Database {
 			(transform ? transliterate(value) : value)
 				.toLocaleLowerCase()
 				// Apply separators
-				.replace(/(\s|`|\/|\\|･|（|）|／)+/g, '_')
+				.replaceAll(/(\s|`|\/|\\|･|（|）|／)+/g, '_')
 				// Remove special chars
-				.replace(/([!"&'()[\],.:;<>«»?ʼ’‘“”—–„：])/g, '')
+				.replaceAll(/([!"&'()[\],.:;<>«»?ʼ’‘“”—–„：])/g, '')
 				// Remove multiple underscores
-				.replace(/_{2,}/g, '_')
+				.replaceAll(/_{2,}/g, '_')
 				// Remove leading underscores
 				.replace(/^_+/, '')
 				// Remove trailing underscores

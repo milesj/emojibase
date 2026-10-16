@@ -87,7 +87,8 @@ Each emoji character found within the pre-generated datasets are represented by 
 of the properties listed below. In an effort to reduce the overall dataset filesize, most property
 values have been implemented using integers,
 [with associated constants](https://github.com/milesj/emojibase/blob/master/packages/core/src/constants.ts).
-View the [`Emoji`](/api/emojibase/interface/Emoji) object for a list of all available fields.
+View the [`Emoji`](https://github.com/milesj/emojibase/blob/master/packages/core/src/types.ts)
+object for a list of all available fields.
 
 > Not all properties will be found in the emoji object, as properties without an applicable value
 > are omitted from the emoji object. This helps to reduce the filesize!
@@ -134,8 +135,9 @@ View the [`Emoji`](/api/emojibase/interface/Emoji) object for a list of all avai
 ### Compact format
 
 While the emoji data is pretty thorough, not all of it may be required, and as such, a compact
-dataset is supported. View the [`CompactEmoji`](/api/emojibase/interface/CompactEmoji) object for a
-list of all available fields.
+dataset is supported. View the
+[`CompactEmoji`](https://github.com/milesj/emojibase/blob/master/packages/core/src/types.ts) object
+for a list of all available fields.
 
 To use a compact dataset, replace `data.json` with `compact.json`.
 
@@ -215,9 +217,10 @@ import data from 'emojibase-data/en/messages.json';
 
 If you prefer to not inflate your bundle size with these large JSON datasets, you can fetch them
 from our CDN ([provided by jsdelivr.com](https://cdn.jsdelivr.net/npm/emojibase-data@latest/)) using
-[`fetchFromCDN()`](/api/emojibase/function/fetchFromCDN),
-[`fetchEmojis()`](/api/emojibase/function/fetchEmojis), or
-[`fetchShortcodes()`](/api/emojibase/function/fetchShortcodes).
+[`fetchFromCDN()`](https://github.com/milesj/emojibase/blob/master/packages/core/src/fetchFromCDN.ts),
+[`fetchEmojis()`](https://github.com/milesj/emojibase/blob/master/packages/core/src/fetchEmojis.ts),
+or
+[`fetchShortcodes()`](https://github.com/milesj/emojibase/blob/master/packages/core/src/fetchShortcodes.ts).
 
 ```ts
 import { fetchFromCDN, fetchEmojis, fetchMessages, fetchShortcodes } from 'emojibase';

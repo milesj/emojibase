@@ -268,7 +268,7 @@ export const SHORTCODE_GUIDELINES = `/**
  *    non-country use a suffix "<name>_flag".
  */`;
 
-export const LOCALE_COUNTRIES: { [K in Locale]: string } = {
+export const LOCALE_COUNTRIES: Record<Locale, string> = {
 	hi: 'Hindi',
 	bn: 'Bengali',
 	da: 'Danish',

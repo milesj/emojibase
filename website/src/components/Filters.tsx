@@ -1,5 +1,4 @@
 /* eslint-disable sort-keys */
-/* eslint-disable node/no-unsupported-features/node-builtins */
 
 import 'url-search-params-polyfill';
 import React, { useCallback, useEffect, useState } from 'react';
@@ -20,7 +19,7 @@ import styles from './styles.module.css';
 
 const isBrowser = typeof location !== 'undefined';
 
-export const LOCALES: { [K in Locale]: string } = {
+export const LOCALES: Record<Locale, string> = {
 	bn: 'Bangla',
 	da: 'Danish',
 	de: 'German',
@@ -51,7 +50,7 @@ export const LOCALES: { [K in Locale]: string } = {
 	zh: 'Chinese',
 };
 
-export const PRESETS: { [K in ShortcodePreset]?: string } = {
+export const PRESETS: Partial<Record<ShortcodePreset, string>> = {
 	cldr: 'CLDR',
 	'cldr-native': 'CLDR (native)',
 	emojibase: 'Emojibase',
@@ -98,7 +97,6 @@ export function processEmojis(
 			emoji.shortcodes.forEach((code) => {
 				// @ts-expect-error Debugging
 				if (code instanceof Set || Array.isArray(code)) {
-					// eslint-disable-next-line no-console
 					console.debug('Non-string found', emoji.hexcode, emoji);
 
 					[...code].forEach((sc) => {
@@ -109,7 +107,6 @@ export function processEmojis(
 				}
 			});
 
-			// eslint-disable-next-line no-param-reassign
 			emoji.shortcodes = shortcodes;
 		}
 

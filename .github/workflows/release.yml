@@ -12,12 +12,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           cache: yarn
+          node-version: 24
       - run: yarn install
-      - uses: changesets/action@v1
+      - uses: changesets/action@v2
         with:
-          commit: 'chore: Version packages'
-          title: 'chore: Version packages'
-          publish: yarn release
+          commit-message: 'chore: Version packages'
+          pr-title: 'chore: Version packages'
+          publish-script: yarn release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          YARN_NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

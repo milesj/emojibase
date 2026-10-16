@@ -15,7 +15,7 @@ export async function fetchAndCache<T>(
 	options?: RequestInit,
 ): Promise<T> {
 	// Check the cache first
-	const cache = localCache[name] || readCache(name);
+	const cache = localCache[name] ?? readCache(name);
 
 	if (cache) {
 		localCache[name] = cache;

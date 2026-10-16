@@ -17,7 +17,7 @@ describe('fromUnicodeToHexcode()', () => {
 			const hexcode = fromUnicodeToHexcode(unicode, false);
 
 			if (hexcode.length <= 10 && (hexcode.endsWith('FE0E') || hexcode.endsWith('FE0F'))) {
-				expect(hexcode.replace(SEQUENCE_HEXCODE_PATTERN, '')).toBe(emoji.hexcode);
+				expect(hexcode.replaceAll(SEQUENCE_HEXCODE_PATTERN, '')).toBe(emoji.hexcode);
 			} else {
 				expect(hexcode).toBe(emoji.hexcode);
 			}

@@ -53,6 +53,7 @@ function createRegexPattern(
 }
 
 // The forms of an emoji that a pattern matches
+// eslint-disable-next-line complexity
 function getForms(emoji: Emoji, display: Display, loose: boolean): (Hexcode | undefined)[] {
 	const { hexcode, variations, type } = emoji;
 	const qualified = Object.keys(emoji.qualifiers ?? {});
@@ -75,7 +76,7 @@ function getForms(emoji: Emoji, display: Display, loose: boolean): (Hexcode | un
 				: [];
 
 		// Should contain everything
-		default:
+		case 'both':
 			return [hexcode, variations?.emoji, variations?.text, ...qualified];
 	}
 }

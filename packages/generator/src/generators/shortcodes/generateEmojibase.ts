@@ -165,6 +165,5 @@ export async function generateEmojibase(db: Database) {
 		output.join('\n'),
 	);
 
-	// eslint-disable-next-line no-console
 	console.log(poAdditions.join('\n'));
 }
