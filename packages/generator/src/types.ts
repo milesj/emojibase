@@ -120,6 +120,7 @@ export type EmojiQualifiedMap = HexcodeMap<Qualifier>;
 
 export interface EmojiMetadata {
 	group: Group;
+	name: string;
 	order: number;
 	qualifiers: EmojiQualifiedMap;
 	subgroup: Subgroup;

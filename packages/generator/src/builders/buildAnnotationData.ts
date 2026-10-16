@@ -10,6 +10,7 @@ import {
 	REGIONAL_INDICATORS,
 	TAG_LATIN_SMALL_LETTERS,
 } from '../constants';
+import { getDescription } from '../helpers/getDescription';
 import { hasProperty } from '../helpers/hasProperty';
 import { log } from '../helpers/log';
 import { readCache } from '../helpers/readCache';
@@ -18,6 +19,8 @@ import { writeCache } from '../helpers/writeCache';
 import { loadAnnotations } from '../loaders/loadAnnotations';
 import { loadData } from '../loaders/loadData';
 import { loadLocalization } from '../loaders/loadLocalization';
+import { loadMetadata } from '../loaders/loadMetadata';
+import { loadNames } from '../loaders/loadNames';
 import { loadPoMessages } from '../loaders/loadPoMessages';
 import { loadSequences } from '../loaders/loadSequences';
 import { loadZwjSequences } from '../loaders/loadZwjSequences';
@@ -126,6 +129,8 @@ export async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotatio
 		...(await loadSequences()),
 		...(await loadZwjSequences()),
 	};
+	const names = await loadNames();
+	const metadata = await loadMetadata();
 
 	Object.keys(sequences).forEach((fullHexcode) => {
 		const hexcode = stripHexcode(fullHexcode);
@@ -194,7 +199,7 @@ export async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotatio
 			emoji.hexcode === '1F51F' // Keycap 10
 		) {
 			if (!annotation) {
-				annotation = emoji.description;
+				annotation = getDescription(emoji, names, metadata);
 			}
 
 			tags.push(annotation);

@@ -1,14 +1,11 @@
+// Trailing comments look like "E0.6   [1] (©️)       copyright sign", where the version, the
+// count, and the sample emoji are each optional depending on the file and its version.
 export function extractLineDescription(comment: string): string {
-	let description = comment.trim();
-
-	// Remove unicode version
-	description = description.replace(/^V?([\d.]+)/, '');
-
-	// Remove range
-	description = description.replace(/\[\d+]/, '');
-
-	// Remove example emojis
-	description = description.replace(/\(*.+\)/, '');
-
-	return description.toLowerCase().trim();
+	return comment
+		.trim()
+		.replace(/^[EV]?\d+\.\d+\s*/, '')
+		.replace(/^\[\d+]\s*/, '')
+		.replace(/^\([^)]*\)\s*/, '')
+		.toLowerCase()
+		.trim();
 }

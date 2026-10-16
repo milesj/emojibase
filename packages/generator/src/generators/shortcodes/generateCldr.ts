@@ -8,6 +8,7 @@ import KuroshiroImport from 'kuroshiro';
 import KuromojiAnalyzer from 'kuroshiro-analyzer-kuromoji';
 import { transliterate } from 'transliteration';
 import { buildAnnotationData } from '../../builders/buildAnnotationData';
+import { decodeEscapeSequence } from '../../helpers/decodeEscapeSequence';
 import { writeDataset } from '../../helpers/writeDataset';
 import { loadPoMessages } from '../../loaders/loadPoMessages';
 import { POManager } from '../../parsers/POManager';
@@ -18,15 +19,6 @@ const CUSTOM_SHORTCODES: Record<string, string> = {
 	e_mail: 'email',
 	t_rex: 'trex',
 };
-
-function decodeEscapeSequence(value: string) {
-	const replacer = (all: string, match: string) => String.fromCodePoint(Number.parseInt(match, 16));
-
-	return value
-		.replace(/\\x{([\dA-Fa-f]{2})}/g, replacer)
-		.replace(/\\x([\dA-Fa-f]{2})/g, replacer)
-		.normalize();
-}
 
 // @ts-expect-error CJS compat
 const { default: Kuroshiro } = KuroshiroImport;

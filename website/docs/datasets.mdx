@@ -68,8 +68,9 @@ The third and last group, metadata, provides specialized datasets for unique use
   unqualified.
 - `emojibase-data/meta/unicode.json` - An array of all emoji unicode characters, including text and
   emoji presentation characters.
-- `emojibase-data/meta/unicode-names.json` - A map of hexcodes to official Unicode names for each
-  emoji.
+- `emojibase-data/meta/unicode-names.json` - A map of hexcodes to names for each emoji: the official
+  Unicode name for single characters, and the uppercased CLDR short name for sequences, which have
+  no Unicode name.
 
 ```ts
 import { groups, subgroups, hierarchy } from 'emojibase-data/meta/groups.json';

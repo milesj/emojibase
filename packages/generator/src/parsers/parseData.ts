@@ -52,9 +52,16 @@ export function parseData(version: string, content: string, unicodeVersion?: num
 				// An emoji may belong to multiple properties,
 				// so keep a unique list of all applicable.
 				map[hexcode].property = [...new Set([...map[hexcode].property, ...emoji.property])];
+
+				if (!range && !map[hexcode].description) {
+					map[hexcode].description = emoji.description;
+				}
 			} else {
 				map[hexcode] = {
 					...emoji,
+					// A range shares one description ("watch..hourglass done"),
+					// so each code point's name is filled in from the metadata later
+					description: range ? '' : emoji.description,
 					hexcode,
 				};
 			}

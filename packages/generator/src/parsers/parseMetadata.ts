@@ -73,7 +73,14 @@ export function parseMetadata(content: string): EmojiMetadataMap {
 
 		// Persist order and group
 		const [baseHexcode, trailingLine] = line.split(';');
-		const [baseQualifier] = trailingLine.split('#');
+		const commentIndex = trailingLine.indexOf('#');
+		const baseQualifier = trailingLine.slice(0, commentIndex);
+
+		// The comment holds the emoji, its version, and its CLDR name, e.g. "#️⃣ E0.6 keycap: #"
+		const name = trailingLine
+			.slice(commentIndex + 1)
+			.trim()
+			.replace(/^\S+\s+(?:E\d+\.\d+\s+)?/, '');
 
 		const hexcode = formatHexcode(baseHexcode.trim());
 		const qualifier = extractQualifier(baseQualifier.trim());
@@ -86,6 +93,7 @@ export function parseMetadata(content: string): EmojiMetadataMap {
 
 		map[hexcode] = {
 			group: groupIndex,
+			name,
 			order,
 			qualifiers:
 				// eslint-disable-next-line no-nested-ternary

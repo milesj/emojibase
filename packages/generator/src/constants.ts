@@ -66,11 +66,41 @@ export const WOMAN = '1F469'; // WOMAN
 export const DIR_RIGHT = '27A1'; // BLACK RIGHTWARDS ARROW
 export const DIR_LEFT = '2B05'; // BLACK LEFTWARDS ARROW
 
+// Characters with an explicit gender, which the object format of ZWJ sequences also uses
+// (MAN or WOMAN + ZWJ + object). Gender signs only count when joined to a person.
+// http://unicode.org/reports/tr51/#Gender
+export const FEMALE_HEXCODES = [
+	FEMALE_SIGN,
+	WOMAN,
+	'1F467', // girl
+	'1F475', // old woman
+	'1F46D', // women holding hands
+	'1F936', // Mrs. Claus
+	'1F478', // princess
+	'1F483', // woman dancing
+	'1F930', // pregnant woman
+	'1F931', // breast-feeding
+	'1F9D5', // woman with headscarf
+];
+export const MALE_HEXCODES = [
+	MALE_SIGN,
+	MAN,
+	'1F466', // boy
+	'1F474', // old man
+	'1F46C', // men holding hands
+	'1F385', // Santa Claus
+	'1F934', // prince
+	'1F57A', // man dancing
+	'1FAC3', // pregnant man
+];
+
 // Emoji groups that should be omitted from the final output
 export const HIDDEN_GROUPS: string[] = [];
 export const HIDDEN_SUBGROUPS: string[] = [];
 
-// Emoji property types that should be omitted from the final dataset
+// Emoji property types that should be omitted from the final dataset, unless the character is
+// also a basic emoji: skin tone and hair components display on their own, while keycap bases,
+// joiners and tags do not. http://unicode.org/reports/tr51/#def_basic_emoji_set
 export const HIDDEN_EMOJI_PROPERTIES: Property[] = [
 	'Emoji_Modifier',
 	'Emoji_Component',

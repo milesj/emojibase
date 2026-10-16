@@ -457,7 +457,7 @@ The generator now fails instead of only logging. Validation errors go through `r
 `buildVersionedData`, `buildEmojiData` and `buildAnnotationData` write their caches.
 `bin/generateEmoji.mjs` and `bin/generateRegex.mjs` now exit non-zero on error.
 
-### Step 1 — Fix the core data model (U5, U7, U8, U10)
+### Step 1 — Fix the core data model (U5, U7, U8, U10) ✅ done
 
 1. `joinData`: merge `property` arrays instead of replacing records. Keep `description`, `version`
    and so on from the more specific source.
@@ -476,6 +476,26 @@ The generator now fails instead of only logging. Validation errors go through `r
    rather than only the last.
 6. Gender: also derive it from `1F468`/`1F469` (and `1F474`/`1F475` and similar code points), not
    only ♀/♂.
+
+What changed:
+
+- **Components.** They are kept. `isHidden` now applies `HIDDEN_EMOJI_PROPERTIES` only to characters
+  outside `Basic_Emoji`. Skin tones and hair stay; keycap bases, ZWJ and tags stay hidden.
+- **Skins.** Skin tones come only from RGI sequences, and their tone is read from the modifier in
+  the hexcode rather than from the name.
+- **Gender.** It comes from gendered people (the §2.3 list) and ZWJ-joined ♀/♂. Sequences that
+  combine genders get none. In `en`, gendered entries went from 628 to 1,292.
+- **Names.** 2,291 sequence names in `meta/unicode-names.json` are now CLDR short names.
+  Single-code-point names are unchanged.
+- **Descriptions.** Range lines no longer share one description. `buildAnnotationData` uses the same
+  fallback (`helpers/getDescription.ts`). This fixed the `da`/`sv` labels and `cldr` shortcodes for
+  #️⃣ and 🔟, and removed 4 baseline entries.
+- **Unchanged.** The emoji set, `meta/hexcodes.json`, the versions files, the regex patterns, and
+  all `en` labels and tags.
+- **Unit tests** are in `packages/generator/tests`.
+- **Caches.** Parser output changed, so any
+  `cache/17.0/{data,sequences,zwj-sequences,metadata}.json` made before this step must be deleted
+  before regenerating.
 
 ### Step 2 — Presentation and qualification (U1, U4, U9)
 
@@ -581,7 +601,7 @@ The generator now fails instead of only logging. Validation errors go through `r
 | Order | Step                       | Size | Breaking data change                                                    |
 | ----- | -------------------------- | ---- | ----------------------------------------------------------------------- |
 | 1     | Step 0 tests and hard fail | M    | No (done; known violations are in the baseline)                         |
-| 2     | Step 1 data model          | M    | `meta/unicode-names.json`, `gender` additions                           |
+| 2     | Step 1 data model          | M    | Done: `meta/unicode-names.json`, `gender` additions, `da`/`sv` keycaps  |
 | 3     | Step 2 presentation        | S–M  | `emoji`/`unicode` for 152 entries; `meta/hexcodes.json`                 |
 | 4     | Step 3 CLDR                | M–L  | Labels and tags for `en-gb`, `es-mx`, `da`, `sv`; tag casing everywhere |
 | 5     | Step 4 regex               | S–M  | Pattern semantics for `emoji`, `text`, `*-loose`, `property/*`          |

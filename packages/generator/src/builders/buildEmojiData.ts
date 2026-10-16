@@ -41,7 +41,7 @@ export async function buildEmojiData(): Promise<EmojiMap> {
 	joinMetadataToData(emojis, names, metadata, variations, emoticons);
 
 	// 3) Append skin tone modifications
-	joinModifiersToData(emojis); // Requires names
+	joinModifiersToData(emojis);
 
 	// 4) Merge and remove duplicate variations
 	mergeDuplicateVariations(emojis); // Requires joined variations
