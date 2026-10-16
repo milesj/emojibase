@@ -1,6 +1,6 @@
 import { EMOJI, TEXT } from 'emojibase';
 import { flattenData } from '../helpers/flattenData';
-import { log } from '../helpers/log';
+import { reportFailure } from '../helpers/validation';
 import { loadEmojiList } from '../loaders/loadEmojiList';
 import { loadEmojiStyles } from '../loaders/loadEmojiStyles';
 import type { Emoji, EmojiMap, EmojiSource } from '../types';
@@ -17,7 +17,7 @@ export async function validateDataAgainstOfficialList(data: EmojiMap): Promise<v
 
 		// Start off by checking if the emoji actually exists
 		if (!emojis[hexcode]) {
-			log.error('validate', `Emoji ${hexcode} does not exist.`);
+			reportFailure('validate', `Emoji ${hexcode} does not exist.`);
 
 			return;
 		}
@@ -45,7 +45,7 @@ export async function validateDataAgainstOfficialList(data: EmojiMap): Promise<v
 
 		// Display errors
 		if (errors.length > 0) {
-			log.error(
+			reportFailure(
 				'validate',
 				`Error(s) detected for ${emoji.name} (${hexcode}):\n`,
 				errors.join('\n'),

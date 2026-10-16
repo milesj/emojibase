@@ -419,25 +419,43 @@ alongside the change they protect. Steps 1, 2, 3 and 4 change published data, so
 together in one clearly flagged release. The `emoji` strings, keyword casing, qualifier maps and
 version buckets all change.
 
-### Step 0 — Conformance tests first (guards for everything below)
+### Step 0 — Conformance tests first (guards for everything below) ✅ done
 
-Add `packages/generator/tests/conformance.test.ts`, or a `yarn verify` script that runs in CI. It
-reads the cached `emoji-test.txt`, `emoji-sequences.txt` and CLDR packages and asserts:
+What was built:
 
-1. **Coverage.** Every `fully-qualified` and `component` line in `emoji-test.txt` appears exactly
-   once as an entry or skin. Its `emoji` string must equal the fully-qualified code point string.
-2. **Validity.** Nothing outside `RGI_Emoji` is emitted, apart from an explicit allowlist of the 26
-   regional indicators.
-3. **Version.** Each entry's `version` equals the E-version in `emoji-test.txt`.
-4. **Qualifiers.** Every `meta/hexcodes.json` key appears in `emoji-test.txt` with the same status.
-5. **CLDR resolution.** For each supported locale, `label` and `tags` equal the CLDR-resolved `tts`
-   and keywords along the real parent chain. Use the same resolution logic as
-   `locale_chain`/`fallback` in this audit.
-6. **Regex.** For every `emoji-test.txt` line, the `index` pattern matches it whole. The
-   presentation-specific patterns obey the table in Step 4.
+- **Fixtures.** The official Unicode 17.0 `emoji-test.txt` and `emoji-variation-sequences.txt` live
+  unmodified in `tests/__fixtures__/v17/`, because `cache/` is gitignored.
+- **Suite.** [packages/data/tests/conformance.test.ts](../packages/data/tests/conformance.test.ts)
+  checks the shipped datasets and regex patterns. Its oracles in `conformance/unicode.ts` and
+  `conformance/cldr.ts` share no code with the generator.
 
-Make `log.error` in the validation paths fail the run (for example `process.exitCode = 1`), or
-collect errors and throw at the end of `buildEmojiData`.
+| Check id                      | Covers                                                                                                   |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `uts51/coverage`, `uts51/rgi` | Every RGI emoji appears exactly once; nothing else does (regional indicators exempt)                     |
+| `uts51/emoji-field`           | `emoji` equals the fully-qualified string (U1)                                                           |
+| `uts51/presentation-type`     | `type` matches default presentation                                                                      |
+| `uts51/version`               | `version` equals the `emoji-test.txt` E-version                                                          |
+| `uts51/meta-hexcodes`         | `meta/hexcodes.json` statuses equal `emoji-test.txt` (U4, U9)                                            |
+| `uts51/versions-*`            | `versions/emoji.json` and `versions/unicode.json` buckets (U6)                                           |
+| `uts51/regex`                 | Every pattern against every form, plus non-emoji negatives, per the Step 4 table (U2, U3)                |
+| `uts35/<locale>/labels`       | Labels equal the CLDR name along the real parent chain, or the synthesized flag/keycap name (C1, C3, C5) |
+| `uts35/<locale>/keywords`     | Tags equal CLDR keywords, inherited separately from names (C1, C2, C3)                                   |
+| `uts35/<locale>/keyword-case` | CLDR keyword casing is preserved (C4)                                                                    |
+
+The baseline works like a ratchet:
+
+- **Known violations** are recorded in `tests/conformance-baseline.json`, so the suite passes today.
+- **Any new violation** fails the suite.
+- **A fixed violation still recorded in the baseline** also fails the suite, until it is removed.
+- **Updating the baseline:** each later step runs `yarn test:conformance:update` and commits the
+  smaller baseline. That diff shows exactly what the step fixed.
+
+CLDR checks follow `TEST_LOCALE`, as in CI. The update command covers every locale.
+
+The generator now fails instead of only logging. Validation errors go through `reportFailure`
+(`packages/generator/src/helpers/validation.ts`). `assertNoFailures` then throws before
+`buildVersionedData`, `buildEmojiData` and `buildAnnotationData` write their caches.
+`bin/generateEmoji.mjs` and `bin/generateRegex.mjs` now exit non-zero on error.
 
 ### Step 1 — Fix the core data model (U5, U7, U8, U10)
 
@@ -562,7 +580,7 @@ collect errors and throw at the end of `buildEmojiData`.
 
 | Order | Step                       | Size | Breaking data change                                                    |
 | ----- | -------------------------- | ---- | ----------------------------------------------------------------------- |
-| 1     | Step 0 tests and hard fail | M    | No (fails until fixes land; can start as `test.failing`)                |
+| 1     | Step 0 tests and hard fail | M    | No (done; known violations are in the baseline)                         |
 | 2     | Step 1 data model          | M    | `meta/unicode-names.json`, `gender` additions                           |
 | 3     | Step 2 presentation        | S–M  | `emoji`/`unicode` for 152 entries; `meta/hexcodes.json`                 |
 | 4     | Step 3 CLDR                | M–L  | Labels and tags for `en-gb`, `es-mx`, `da`, `sv`; tag casing everywhere |

@@ -1,5 +1,6 @@
 import { log } from '../helpers/log';
 import { readCache } from '../helpers/readCache';
+import { assertNoFailures } from '../helpers/validation';
 import { writeCache } from '../helpers/writeCache';
 import { loadData } from '../loaders/loadData';
 import { loadEmoticons } from '../loaders/loadEmoticons';
@@ -51,7 +52,10 @@ export async function buildEmojiData(): Promise<EmojiMap> {
 	// 6) Validate the built data against the official unicode emoji list
 	await validateDataAgainstOfficialList(emojis);
 
-	// 7) Save the dataset
+	// 7) Stop before caching if any of the checks above failed
+	assertNoFailures('Building emoji data');
+
+	// 8) Save the dataset
 	await writeCache('final/emoji-data.json', emojis);
 
 	log.success('build', 'Built emoji data');

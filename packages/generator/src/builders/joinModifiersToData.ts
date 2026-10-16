@@ -16,7 +16,7 @@ import {
 	WOMAN,
 } from '../constants';
 import { hasProperty } from '../helpers/hasProperty';
-import { log } from '../helpers/log';
+import { reportFailure } from '../helpers/validation';
 import { extractSkinTone } from '../parsers/extractSkinTone';
 import type { Emoji, EmojiMap, EmojiModification, SkinTone } from '../types';
 
@@ -131,7 +131,7 @@ export function joinModifiersToData(emojis: EmojiMap) {
 					tone,
 				});
 			} else {
-				log.error('error', `No parent emoji found for ${hexcode}`);
+				reportFailure('build', `No parent emoji found for ${hexcode}`);
 			}
 
 			// Remove the modification from the root

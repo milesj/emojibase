@@ -4,6 +4,7 @@ import { generateData, generateRegex, generateVersions } from 'emojibase-generat
 
 function handleError(error) {
 	console.error(error.message, error.stack);
+	process.exitCode = 1;
 }
 
 process.on('unhandledRejection', handleError);

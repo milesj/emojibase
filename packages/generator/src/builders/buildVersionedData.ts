@@ -1,5 +1,6 @@
 import { log } from '../helpers/log';
 import { readCache } from '../helpers/readCache';
+import { assertNoFailures } from '../helpers/validation';
 import { writeCache } from '../helpers/writeCache';
 import { loadData } from '../loaders/loadData';
 import { loadSequences } from '../loaders/loadSequences';
@@ -60,6 +61,9 @@ export async function buildVersionedData(): Promise<VersionDataSet> {
 	partitionVersions(await loadData());
 	partitionVersions(await loadSequences());
 	partitionVersions(await loadZwjSequences());
+
+	// Parsing verifies totals, so stop before caching if that failed
+	assertNoFailures('Building versioned data');
 
 	// Cache the partitioned files
 	await writeCache('final/emoji-unicode-versions.json', {

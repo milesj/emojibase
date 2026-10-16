@@ -1,4 +1,4 @@
-import { log } from '../helpers/log';
+import { reportFailure } from '../helpers/validation';
 import type { ParsedTotals } from '../types';
 
 export function verifyTotals<T extends object>(
@@ -32,7 +32,7 @@ export function verifyTotals<T extends object>(
 			const actual = totalsToCheck[property];
 
 			if (actual !== expected) {
-				log.error(
+				reportFailure(
 					'verify',
 					`Invalid ${version} ${property} count detected. ` +
 						`Expected ${expected}, found ${actual}`,
@@ -45,7 +45,7 @@ export function verifyTotals<T extends object>(
 
 	// Check for unknowns
 	Object.keys(totalsToCheck).forEach((property) => {
-		log.error('verify', `Unknown ${version} ${type} property ${property}`);
+		reportFailure('verify', `Unknown ${version} ${type} property ${property}`);
 	});
 
 	return data;

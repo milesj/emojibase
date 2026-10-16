@@ -13,6 +13,7 @@ import {
 import { hasProperty } from '../helpers/hasProperty';
 import { log } from '../helpers/log';
 import { readCache } from '../helpers/readCache';
+import { assertNoFailures, reportFailure } from '../helpers/validation';
 import { writeCache } from '../helpers/writeCache';
 import { loadAnnotations } from '../loaders/loadAnnotations';
 import { loadData } from '../loaders/loadData';
@@ -211,7 +212,7 @@ export async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotatio
 			// since most (if not all) of our emoji already have annotations. This will catch the
 			// few that were missed and we can fix accordingly.
 			if (!annotation) {
-				log.error(
+				reportFailure(
 					'build',
 					`Missing ${locale} ZWJ annotations for "${emoji.description}" (${emoji.hexcode}) [${hexcode}]`,
 				);
@@ -233,6 +234,8 @@ export async function buildAnnotationData(locale: Locale): Promise<CLDRAnnotatio
 			tags: [...new Set(tags)],
 		};
 	});
+
+	assertNoFailures(`Building ${locale} annotation data`);
 
 	await writeCache(`final/${locale}-annotation-data.json`, data);
 
