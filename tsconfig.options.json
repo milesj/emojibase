@@ -5,6 +5,10 @@
       "esnext",
       "dom"
     ],
-    "moduleResolution": "bundler"
+    "moduleResolution": "bundler",
+    "types": [
+      "jest",
+      "node"
+    ]
   }
 }
