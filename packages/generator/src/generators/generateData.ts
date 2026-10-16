@@ -6,7 +6,6 @@ import {
 	type GroupMessage,
 	type Locale,
 	type SkinToneMessage,
-	stripHexcode,
 	type SubgroupMessage,
 	SUPPORTED_LOCALES,
 } from 'emojibase';
@@ -15,6 +14,7 @@ import { buildEmojiData } from '../builders/buildEmojiData';
 import { filterData } from '../helpers/filterData';
 import { log } from '../helpers/log';
 import { readCache } from '../helpers/readCache';
+import { toAnnotationKey } from '../helpers/toAnnotationKey';
 import { writeDataset } from '../helpers/writeDataset';
 import { loadPoMessages } from '../loaders/loadPoMessages';
 import type {
@@ -90,10 +90,10 @@ function createEmoji(
 	}
 
 	// Annotations
-	const annotation = annotations[stripHexcode(emoji.hexcode)]; // No ZWJ, selectors
+	const annotation = annotations[toAnnotationKey(emoji.hexcode)];
 
 	if (annotation) {
-		emoji.label = annotation.annotation ? annotation.annotation : baseEmoji.description;
+		emoji.label = annotation.annotation;
 
 		if (annotation.tags.length > 0) {
 			emoji.tags = annotation.tags;
@@ -112,8 +112,6 @@ function createEmoji(
 	if ('modifications' in baseEmoji) {
 		emoji.skins = Object.values(baseEmoji.modifications!).map((mod) => {
 			const skin = createEmoji(mod, versions, annotations);
-
-			skin.label = annotations[stripHexcode(skin.hexcode)]?.annotation || emoji.label || '';
 
 			// Remove any tags
 			delete skin.tags;

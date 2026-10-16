@@ -3,12 +3,13 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 
-import { appendSkinToneIndex, type Locale, stripHexcode, SUPPORTED_LOCALES } from 'emojibase';
+import { appendSkinToneIndex, type Locale, SUPPORTED_LOCALES } from 'emojibase';
 import KuroshiroImport from 'kuroshiro';
 import KuromojiAnalyzer from 'kuroshiro-analyzer-kuromoji';
 import { transliterate } from 'transliteration';
 import { buildAnnotationData } from '../../builders/buildAnnotationData';
 import { decodeEscapeSequence } from '../../helpers/decodeEscapeSequence';
+import { toAnnotationKey } from '../../helpers/toAnnotationKey';
 import { writeDataset } from '../../helpers/writeDataset';
 import { loadPoMessages } from '../../loaders/loadPoMessages';
 import { POManager } from '../../parsers/POManager';
@@ -92,7 +93,7 @@ export async function generateCldr(db: Database) {
 			);
 
 			for (const emoji of db.emojiList) {
-				const row = annotations[emoji.hexcode] || annotations[stripHexcode(emoji.hexcode)];
+				const row = annotations[toAnnotationKey(emoji.hexcode)];
 
 				if (!row?.annotation || cldr[emoji.hexcode]) {
 					// eslint-disable-next-line no-continue

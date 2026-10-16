@@ -75,6 +75,7 @@ export type CLDRAnnotationMap = HexcodeMap<CLDRAnnotation>;
 export type CLDRDataMap = Record<string, string>;
 
 export interface CLDRLocaleMap {
+	labelPatterns: CLDRDataMap;
 	labels: CLDRDataMap;
 	subdivisions: CLDRDataMap;
 	territories: CLDRDataMap;

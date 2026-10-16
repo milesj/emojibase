@@ -530,7 +530,7 @@ What changed:
 - **Caches.** `parseMetadata` output changed again, so a `cache/17.0/metadata.json` made before this
   step must be deleted before regenerating.
 
-### Step 3 — CLDR annotation resolution (C1, C2, C3, C4, C5, C6)
+### Step 3 — CLDR annotation resolution (C1, C2, C3, C4, C5, C6) ✅ done
 
 1. Add `cldr-core` (pin 48.x). Resolve each locale's chain from `supplemental/parentLocales.json`,
    including the `nonlikelyScript` rule, and fall back to truncation. Stop _before_ root, whose
@@ -567,6 +567,27 @@ What changed:
 6. Key annotations by the CLDR normalisation (remove `FE0E`/`FE0F`, keep `200D`), not by
    `stripHexcode`.
 7. Fix the Hindi PO string for "regional indicator %s".
+
+What changed:
+
+- **Decisions.**
+  - The chain comes from `cldr-core` (`loaders/loadLocaleChain.ts`).
+  - English is kept only as a logged last resort for single characters CLDR hasn't named.
+  - Synthesis covers flags and keycaps only. With the correct chain, no supported locale is missing
+    a ZWJ or skin-tone name in CLDR 48, so a missing sequence name now fails the build instead. UTS
+    #35 steps 5–11 can be added when CLDR actually has such a gap.
+- **Resolution.**
+  - Labels and keywords are resolved per field along the chain, explicit before derived.
+  - `loadLocalization` merges names, character labels and patterns along the same chain.
+  - Annotations are keyed by `helpers/toAnnotationKey.ts` (variation selectors removed, ZWJ kept).
+    The facing-direction patterns now include the ZWJ.
+- **Outcome.**
+  - Every `uts35` baseline entry is gone except 🎺 in `fr` and `hi`, the agreed English fallback.
+  - Labels changed only for `da` (262 flags), `en-gb` (129), `es-mx` (450) and `hi` (the 26 regional
+    indicators).
+  - Keeping CLDR casing also lets the existing "leave the label out of `tags`" rule match exactly.
+- **Conformance check.** The keyword-case check now ignores the label, because CLDR sometimes lists
+  it beside a lowercase twin (e.g. "Zebra" and "zebra").
 
 ### Step 4 — Regex package (U2, U3)
 
@@ -616,14 +637,14 @@ What changed:
 
 ### Suggested order and sizing
 
-| Order | Step                       | Size | Breaking data change                                                    |
-| ----- | -------------------------- | ---- | ----------------------------------------------------------------------- |
-| 1     | Step 0 tests and hard fail | M    | No (done; known violations are in the baseline)                         |
-| 2     | Step 1 data model          | M    | Done: `meta/unicode-names.json`, `gender` additions, `da`/`sv` keycaps  |
-| 3     | Step 2 presentation        | S–M  | Done: `emoji`/`unicode` for 152 entries; `meta/hexcodes.json`           |
-| 4     | Step 3 CLDR                | M–L  | Labels and tags for `en-gb`, `es-mx`, `da`, `sv`; tag casing everywhere |
-| 5     | Step 4 regex               | S–M  | Pattern semantics for `emoji`, `text`, `*-loose`, `property/*`          |
-| 6     | Step 5 versions            | S    | `versions/unicode.json` buckets                                         |
+| Order | Step                       | Size | Breaking data change                                                      |
+| ----- | -------------------------- | ---- | ------------------------------------------------------------------------- |
+| 1     | Step 0 tests and hard fail | M    | No (done; known violations are in the baseline)                           |
+| 2     | Step 1 data model          | M    | Done: `meta/unicode-names.json`, `gender` additions, `da`/`sv` keycaps    |
+| 3     | Step 2 presentation        | S–M  | Done: `emoji`/`unicode` for 152 entries; `meta/hexcodes.json`             |
+| 4     | Step 3 CLDR                | M–L  | Done: labels/tags for `en-gb`, `es-mx`, `da`, `hi`; tag casing everywhere |
+| 5     | Step 4 regex               | S–M  | Pattern semantics for `emoji`, `text`, `*-loose`, `property/*`            |
+| 6     | Step 5 versions            | S    | `versions/unicode.json` buckets                                           |
 
 Steps 1–3 all touch `generateData.ts` and `buildAnnotationData.ts`, so they should land in sequence.
 Step 4 only depends on Step 2's model, and Step 5 is independent.

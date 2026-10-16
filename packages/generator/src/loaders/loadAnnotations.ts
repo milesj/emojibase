@@ -1,5 +1,6 @@
-import { fromUnicodeToHexcode, LATEST_CLDR_VERSION, stripHexcode } from 'emojibase';
+import { fromUnicodeToHexcode, LATEST_CLDR_VERSION } from 'emojibase';
 import { formatLocaleJson } from '../helpers/formatLocale';
+import { toAnnotationKey } from '../helpers/toAnnotationKey';
 import type { CLDRAnnotationMap } from '../types';
 import { importJsonModule } from './fetchAndCache';
 
@@ -18,50 +19,39 @@ interface CLDRAnnotationsDerived {
 }
 
 export async function loadAnnotations(
-	locale: string,
+	locale: string, // A CLDR locale ID, such as "en-001"
 	derived: boolean = false, // Contains modifiers and sequences
 	version: string = LATEST_CLDR_VERSION,
 ): Promise<CLDRAnnotationMap> {
-	const jsonLocale = formatLocaleJson(locale === 'nb' ? 'no' : locale);
+	const jsonLocale = formatLocaleJson(locale);
 	let cldrData: CLDRAnnotationData = {};
 
-	if (derived) {
-		try {
-			const cldr = await importJsonModule<CLDRAnnotationsDerived>(
-				`cldr-annotations-derived-full/annotationsDerived/${jsonLocale}/annotations.json`,
-			);
-			cldrData = cldr.annotationsDerived.annotations;
-		} catch {
-			// Some annotation files do not exist for specific locales,
-			// so instead of crashing the entire generator process,
-			// just use an empty object and log.
-		}
-	} else {
-		const cldr = await importJsonModule<CLDRAnnotations>(
-			`cldr-annotations-full/annotations/${jsonLocale}/annotations.json`,
-		);
-		cldrData = cldr.annotations.annotations;
+	// Not every locale has both files (e.g. en-GB has no derived annotations),
+	// and the parent locales fill in whatever is missing
+	try {
+		cldrData = derived
+			? (
+					await importJsonModule<CLDRAnnotationsDerived>(
+						`cldr-annotations-derived-full/annotationsDerived/${jsonLocale}/annotations.json`,
+					)
+				).annotationsDerived.annotations
+			: (
+					await importJsonModule<CLDRAnnotations>(
+						`cldr-annotations-full/annotations/${jsonLocale}/annotations.json`,
+					)
+				).annotations.annotations;
+	} catch {
+		// Use an empty object
 	}
 
 	const data: CLDRAnnotationMap = {};
 
+	// Keywords keep their CLDR casing, such as German nouns and acronyms like "OK"
 	Object.entries(cldrData).forEach(([unicode, anno]) => {
-		const hexcode = stripHexcode(fromUnicodeToHexcode(unicode));
-
-		if (!data[hexcode]) {
-			data[hexcode] = {
-				annotation: '',
-				tags: [],
-			};
-		}
-
-		if (anno.tts) {
-			data[hexcode].annotation = anno.tts.join(' ');
-		}
-
-		if (anno.default) {
-			data[hexcode].tags = anno.default.map((tag) => tag.toLocaleLowerCase());
-		}
+		data[toAnnotationKey(fromUnicodeToHexcode(unicode, false))] = {
+			annotation: anno.tts?.join(' ') ?? '',
+			tags: anno.default ?? [],
+		};
 	});
 
 	return data;

@@ -495,6 +495,8 @@ describe.each(locales)('UTS #35 annotations (%s)', (locale) => {
 		expectBaseline(`uts35/${locale}/keywords`, violations);
 	});
 
+	// The name is ignored, as emojibase leaves it out of the tags, and CLDR sometimes lists it
+	// alongside a lowercase twin (e.g. "Zebra" and "zebra")
 	it('keeps the case of CLDR keywords', () => {
 		let changed = 0;
 
@@ -506,6 +508,7 @@ describe.each(locales)('UTS #35 annotations (%s)', (locale) => {
 			if (
 				keywords?.some(
 					(keyword) =>
+						keyword !== emoji.label &&
 						keyword !== keyword.toLowerCase() &&
 						!tags.includes(keyword) &&
 						tags.includes(keyword.toLowerCase()),

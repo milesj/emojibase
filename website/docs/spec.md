@@ -5,6 +5,22 @@ title: Specification alignment
 Emojibase aims to be as specification compliant as possible, but to ensure small datasets, and ease
 of use, some liberties are taken.
 
+## Annotations
+
+Labels (`label`) and keywords (`tags`) come from CLDR annotations, resolved the way
+[UTS #35](https://unicode.org/reports/tr35/tr35-general.html#Annotations) describes:
+
+- Each locale inherits from its CLDR parents, so `en-gb` falls back to `en-001` then `en`, `es-mx`
+  to `es-419` then `es`, and `zh-hant` never falls back to Simplified Chinese. Labels and keywords
+  inherit separately.
+- When CLDR has no label for a flag or keycap, one is built from the locale's own words, like "flag:
+  USA" or "keycap: #". UTS #35 describes bare territory names for flags, but CLDR's own data uses
+  this "flag: …" form, so emojibase matches it.
+- Keywords keep their CLDR casing, such as German nouns and "OK", so fold the case when searching
+  (for example with `toLocaleLowerCase(locale)`). A keyword identical to the label is left out of
+  `tags`, so search both.
+- A character CLDR has not translated yet uses its English label, and the generator lists each one.
+
 ## v12.0
 
 ### Combination skin tones
