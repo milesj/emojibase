@@ -1,5 +1,28 @@
 # Change Log
 
+## 18.0.0
+
+### Major Changes
+
+- 8527c93: Update to Emoji v18 and CLDR 49 (beta 1), following UTS #51 revision 31. Adds 9 emoji (🫫 🫹 🫺 🫌 🫝 🛙 🪋
+  🪌 🪍), with skin tones for the two thumb signs, and their localized labels and keywords.
+- 789b533: Require Node.js 20 or newer. Packages are now built with tsdown instead of Packemon, which targets
+  modern syntax and bundles type declarations into a single `index.d.ts` file. Package entry points
+  are unchanged.
+
+### Patch Changes
+
+- 789b533: Update dependencies to their latest versions, including TypeScript 6.0. The generator now requires
+  Node.js 22 or newer.
+- Updated dependencies [06b8716]
+- Updated dependencies [789b533]
+- Updated dependencies [8527c93]
+- Updated dependencies [06b8716]
+- Updated dependencies [29b2c8a]
+- Updated dependencies [29b2c8a]
+- Updated dependencies [789b533]
+  - emojibase@18.0.0
+
 ## 17.0.0
 
 ### Major Changes
