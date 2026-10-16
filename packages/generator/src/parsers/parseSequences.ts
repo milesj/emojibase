@@ -3,7 +3,6 @@ import { decodeEscapeSequence } from '../helpers/decodeEscapeSequence';
 import type { EmojiDataMap, ParsedLine, Property } from '../types';
 import { extractEmojiVersion } from './extractEmojiVersion';
 import { extractLineDescription } from './extractLineDescription';
-import { extractUnicodeVersion } from './extractUnicodeVersion';
 import { parse } from './parse';
 import { spreadHexcode } from './spreadHexcode';
 import { verifyTotals } from './verifyTotals';
@@ -36,7 +35,6 @@ export function parseSequences(
 				hexcode,
 				property: [(property as Property) || defaultProperty],
 				type: EMOJI,
-				unicodeVersion: extractUnicodeVersion(emojiVersion),
 				version: emojiVersion,
 			};
 		});

@@ -52,8 +52,13 @@ The second group, versioned data, provides datasets for emoji and Unicode releas
 datasets return a map, with the key being the version, and the value being an array of emoji
 hexcodes included in the associated release version.
 
-- `emojibase-data/versions/emoji.json` - Emoji characters grouped by emoji version.
-- `emojibase-data/versions/unicode.json` - Emoji characters grouped by Unicode version.
+- `emojibase-data/versions/emoji.json` - Emoji characters grouped by emoji version, as labeled in
+  Unicode's data files (`0` is used for components that are not emoji on their own).
+- `emojibase-data/versions/unicode.json` - Emoji characters grouped by the Unicode version in which
+  they became emoji, following the
+  [Emoji Versions](https://www.unicode.org/reports/tr51/#EmojiVersions) table. For example, © is
+  under 6.0, and the Emoji 13.1 sequences are under 13.0. Components that are not emoji on their own
+  are left out.
 
 ```ts
 import unicodeVersions from 'emojibase-data/versions/unicode.json';

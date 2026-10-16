@@ -5,6 +5,7 @@ import { writeCache } from '../helpers/writeCache';
 import { loadData } from '../loaders/loadData';
 import { loadSequences } from '../loaders/loadSequences';
 import { loadZwjSequences } from '../loaders/loadZwjSequences';
+import { extractUnicodeVersion } from '../parsers/extractUnicodeVersion';
 import type { EmojiDataMap } from '../types';
 
 export type VersionDataMap = Record<string, EmojiDataMap>;
@@ -31,7 +32,8 @@ export async function buildVersionedData(): Promise<VersionDataSet> {
 	const partitionVersions = (data: EmojiDataMap) => {
 		Object.keys(data).forEach((hexcode) => {
 			const emoji = data[hexcode];
-			const { version, unicodeVersion } = data[hexcode];
+			const { version } = emoji;
+			const unicodeVersion = extractUnicodeVersion(version);
 
 			// Was introduced in a prior version
 			if (used[hexcode]) {

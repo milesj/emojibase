@@ -4,7 +4,6 @@ import { EMOJI, TEXT } from 'emojibase';
 import type { EmojiData, EmojiDataMap, ParsedLine, Property } from '../types';
 import { extractEmojiVersion } from './extractEmojiVersion';
 import { extractLineDescription } from './extractLineDescription';
-import { extractUnicodeVersion } from './extractUnicodeVersion';
 import { parse } from './parse';
 import { spreadHexcode } from './spreadHexcode';
 import { verifyTotals } from './verifyTotals';
@@ -14,7 +13,7 @@ import { verifyTotals } from './verifyTotals';
  *
  * Example: http://unicode.org/Public/emoji/5.0/emoji-data.txt
  */
-export function parseData(version: string, content: string, unicodeVersion?: number): EmojiDataMap {
+export function parseData(version: string, content: string): EmojiDataMap {
 	const { lines, totals } = parse(content);
 	const data = lines.reduce((map: EmojiDataMap, line: ParsedLine) => {
 		const [rawHexcode, property, , modifier] = line.fields;
@@ -31,7 +30,6 @@ export function parseData(version: string, content: string, unicodeVersion?: num
 			hexcode: '',
 			property: [(property as Property) || 'Emoji'],
 			type: EMOJI,
-			unicodeVersion: extractUnicodeVersion(emojiVersion, unicodeVersion),
 			version: emojiVersion,
 		};
 

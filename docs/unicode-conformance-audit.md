@@ -58,6 +58,23 @@ Severity: **High** means consumers receive incorrect data or behavior today. **M
 incorrect data with narrower impact, or a latent defect one change away from producing wrong output.
 **Low** means a fidelity or consistency issue.
 
+## Status
+
+All five steps of the remediation plan below are done on the `claude-audit` branch. Each step is one
+commit. The conformance baseline went from 3,178 lines to 4 entries, and all 4 are deliberate:
+
+- 🎺 `1FA8A` in `fr` and `hi` uses its English label, because CLDR 48 has not translated it yet (C5,
+  agreed fallback).
+- `text-loose` (and its codepoint variant) matches the last character of 56 ZWJ sequences, like the
+  🎓 in 🧑‍🎓. Fixing it needs a lookbehind, which older Safari lacks.
+
+Deferred, to do when it's needed:
+
+- UTS #35 name synthesis for ZWJ and skin-tone sequences (steps 5–11). No supported locale lacks one
+  in CLDR 48, and a missing one now fails the build.
+- Text patterns can still match the trailing bare ♂/♀ of a sequence that is missing its FE0F, for
+  the same lookbehind reason.
+
 ---
 
 ## UTS #51 findings
@@ -634,7 +651,7 @@ What changed:
 - **`regex.test.ts`.** The hand-written ⚠ selector cases were updated to the new semantics.
 - **Item 3** needed no change: `bin/generateEmoji.mjs` already runs `generateRegex`.
 
-### Step 5 — Versions (U6)
+### Step 5 — Versions (U6) ✅ done
 
 1. Replace `extractUnicodeVersion` with the UTS #51 §1.5.2 table:
 
@@ -651,6 +668,18 @@ What changed:
      the comments in `emoji-variation-sequences.txt` carry the base character's Age, e.g. `(1.1)`,
      but only for variation bases.
 
+What changed:
+
+- **Meaning.** `versions/unicode.json` keeps its existing meaning: the Unicode version in which a
+  character became an emoji, per the table above. This works the same for sequences, needs no new
+  data, and leaves © under 6.0. Unicode Age would have moved © to 1.1, and only works for single
+  code points.
+- **One source.** `buildVersionedData` applies `extractUnicodeVersion` to the emoji version. The
+  parse-time `unicodeVersion` field is gone, so the mapping no longer depends on what is cached.
+- **Data.** The "13.1" bucket (217) moved into 13. The 137 E0.0 characters left the Unicode
+  versions. `versions/emoji.json` is unchanged.
+- **Baseline.** `uts51/versions-unicode` (354) is clean.
+
 ### Suggested order and sizing
 
 | Order | Step                       | Size | Breaking data change                                                      |
@@ -660,7 +689,7 @@ What changed:
 | 3     | Step 2 presentation        | S–M  | Done: `emoji`/`unicode` for 152 entries; `meta/hexcodes.json`             |
 | 4     | Step 3 CLDR                | M–L  | Done: labels/tags for `en-gb`, `es-mx`, `da`, `hi`; tag casing everywhere |
 | 5     | Step 4 regex               | S–M  | Done: pattern semantics for `emoji`, `text`, `*-loose`, `property/*`      |
-| 6     | Step 5 versions            | S    | `versions/unicode.json` buckets                                           |
+| 6     | Step 5 versions            | S    | Done: `versions/unicode.json` buckets                                     |
 
 Steps 1–3 all touch `generateData.ts` and `buildAnnotationData.ts`, so they should land in sequence.
 Step 4 only depends on Step 2's model, and Step 5 is independent.

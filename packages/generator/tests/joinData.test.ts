@@ -8,7 +8,7 @@ jest.mock('../src/helpers/log', () => ({
 }));
 
 function createData(hexcode: string, property: Property[], description = ''): EmojiData {
-	return { description, hexcode, property, type: 1, unicodeVersion: 6, version: 0.6 };
+	return { description, hexcode, property, type: 1, version: 0.6 };
 }
 
 function createEmoji(hexcode: string, property: Property[]): Emoji {
@@ -21,7 +21,6 @@ function createEmoji(hexcode: string, property: Property[]): Emoji {
 		property,
 		subgroup: 0,
 		type: 1,
-		unicodeVersion: '6',
 		version: '0.6',
 	};
 }

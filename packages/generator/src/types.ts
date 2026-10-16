@@ -88,7 +88,6 @@ export interface Emoji {
 	hexcode: Hexcode;
 	property: Property[];
 	type: Presentation;
-	unicodeVersion: string;
 	version: string;
 	// Group
 	group: Group;
@@ -111,7 +110,6 @@ export interface EmojiData {
 	hexcode: Hexcode;
 	property: Property[];
 	type: Presentation;
-	unicodeVersion: number | null;
 	version: number;
 }
 

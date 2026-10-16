@@ -35,7 +35,6 @@ describe('parseData()', () => {
 			'1F17E         ; Emoji  # E0.6   [1] (🅾️)       O button (blood type)',
 			'# Total elements: 3',
 		].join('\n'),
-		17,
 	);
 
 	it('does not reuse a range description for each code point', () => {
