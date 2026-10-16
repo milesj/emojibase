@@ -214,8 +214,9 @@ describe('regex', () => {
 		expect('👍🏻'.match(PATTERNS.emojiLoose)).not.toBeNull();
 		// expect('👍🏻'.match(PATTERNS.text)).toBeNull();
 
+		// Default emoji presentation, so it is emoji without FE0F (UTS #51 ED-6)
 		expect('👍'.match(PATTERNS.combo)).not.toBeNull();
-		expect('👍'.match(PATTERNS.emoji)).toBeNull();
+		expect('👍'.match(PATTERNS.emoji)).not.toBeNull();
 		expect('👍'.match(PATTERNS.emojiLoose)).not.toBeNull();
 		// expect('👍'.match(PATTERNS.text)).toBeNull();
 	});

@@ -5,6 +5,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {
+	COMPONENT,
 	EMOJI,
 	type Emoji,
 	flattenEmojiData,
@@ -57,6 +58,7 @@ const QUALIFIER_STATUS: Record<number, TestStatus> = {
 	[FULLY_QUALIFIED]: 'fully-qualified',
 	[MINIMALLY_QUALIFIED]: 'minimally-qualified',
 	[UNQUALIFIED]: 'unqualified',
+	[COMPONENT]: 'component',
 };
 
 const unicode = loadUnicodeOracle();

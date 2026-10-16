@@ -1,4 +1,4 @@
-import { EMOJI, FULLY_QUALIFIED, TEXT } from 'emojibase';
+import { EMOJI, TEXT } from 'emojibase';
 import { getDescription } from '../helpers/getDescription';
 import { extractGender } from '../parsers/extractGender';
 import type {
@@ -48,20 +48,14 @@ export function joinMetadataToData(
 			emoji.qualifiers = metadata[hexcode].qualifiers;
 		}
 
-		// Pull in text and emoji variations
+		// Pull in text and emoji variations. They are not added to the qualifiers, as a text
+		// presentation sequence is not a qualified emoji, and qualifiers mirror emoji-test.txt.
+		// http://unicode.org/reports/tr51/#def_rgi_emoji_qualification
 		if (variations[hexcode]) {
 			emoji.variations = {
 				emoji: variations[hexcode].emoji,
 				text: variations[hexcode].text,
 			};
-
-			if (emoji.variations.emoji) {
-				emoji.qualifiers[emoji.variations.emoji] = FULLY_QUALIFIED;
-			}
-
-			if (emoji.variations.text) {
-				emoji.qualifiers[emoji.variations.text] = FULLY_QUALIFIED;
-			}
 		}
 
 		// Pull in emoticon

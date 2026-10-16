@@ -497,7 +497,7 @@ What changed:
   `cache/17.0/{data,sequences,zwj-sequences,metadata}.json` made before this step must be deleted
   before regenerating.
 
-### Step 2 — Presentation and qualification (U1, U4, U9)
+### Step 2 — Presentation and qualification (U1, U4, U9) ✅ done
 
 1. Compute each entry's `emoji` field from `emoji-test.txt`, not from `variations`:
    - `emoji` = the fully-qualified string: bare `X` for `Emoji_Presentation=Yes`, `X FE0F` for
@@ -511,6 +511,24 @@ What changed:
    flag, to `emojibase` core. Give regional indicators a deliberate, documented home, for example a
    `component` group/subgroup or an explicit flag, so pickers can exclude both.
 4. Update `website/docs/spec.md` ("Merged variation selectors") to describe the corrected behavior.
+
+What changed:
+
+- **`emoji` field.** `createEmoji` now takes it from the fully-qualified entry in `qualifiers`,
+  which mirrors `emoji-test.txt`. 152 entries lost a redundant `FE0F`.
+- **Qualifiers.** `joinMetadataToData` no longer adds the variation sequences to them.
+- **Components.** The new `COMPONENT` qualifier (`3`) puts the 9 components in `meta/hexcodes.json`,
+  which now has 3,953 keys.
+- **Regional indicators** keep their home as uncategorized entries, with no `group`, `subgroup` or
+  `order`. `website/docs/spec.md` documents that a picker of input emoji should skip entries without
+  a group and the `component` group.
+- **Baseline.** The `uts51/emoji-field` (152) and `uts51/meta-hexcodes` (520) checks are now clean.
+- **Pulled forward from Step 4.** The correct `emoji` values made `regex.test.ts` fail (912 cases),
+  because the strict `emoji` pattern never matched bare default-emoji characters. That pattern now
+  includes them. The hand-written test asserting the old behavior was updated, and two `uts51/regex`
+  baseline entries are gone.
+- **Caches.** `parseMetadata` output changed again, so a `cache/17.0/metadata.json` made before this
+  step must be deleted before regenerating.
 
 ### Step 3 — CLDR annotation resolution (C1, C2, C3, C4, C5, C6)
 
@@ -602,7 +620,7 @@ What changed:
 | ----- | -------------------------- | ---- | ----------------------------------------------------------------------- |
 | 1     | Step 0 tests and hard fail | M    | No (done; known violations are in the baseline)                         |
 | 2     | Step 1 data model          | M    | Done: `meta/unicode-names.json`, `gender` additions, `da`/`sv` keycaps  |
-| 3     | Step 2 presentation        | S–M  | `emoji`/`unicode` for 152 entries; `meta/hexcodes.json`                 |
+| 3     | Step 2 presentation        | S–M  | Done: `emoji`/`unicode` for 152 entries; `meta/hexcodes.json`           |
 | 4     | Step 3 CLDR                | M–L  | Labels and tags for `en-gb`, `es-mx`, `da`, `sv`; tag casing everywhere |
 | 5     | Step 4 regex               | S–M  | Pattern semantics for `emoji`, `text`, `*-loose`, `property/*`          |
 | 6     | Step 5 versions            | S    | `versions/unicode.json` buckets                                         |

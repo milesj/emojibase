@@ -1,4 +1,4 @@
-import { FULLY_QUALIFIED } from 'emojibase';
+import { COMPONENT, FULLY_QUALIFIED } from 'emojibase';
 import { HIDDEN_GROUPS, HIDDEN_SUBGROUPS } from '../constants';
 import { formatHexcode } from '../helpers/formatHexcode';
 import { slug } from '../helpers/slug';
@@ -85,7 +85,10 @@ export function parseMetadata(content: string): EmojiMetadataMap {
 		const hexcode = formatHexcode(baseHexcode.trim());
 		const qualifier = extractQualifier(baseQualifier.trim());
 
-		if (qualifier === FULLY_QUALIFIED) {
+		// Minimally-qualified and unqualified forms follow the emoji they belong to
+		const isRoot = qualifier === FULLY_QUALIFIED || qualifier === COMPONENT;
+
+		if (isRoot) {
 			parentHexcode = hexcode;
 		} else if (qualifier !== null) {
 			map[parentHexcode].qualifiers[hexcode] = qualifier;
@@ -97,7 +100,7 @@ export function parseMetadata(content: string): EmojiMetadataMap {
 			order,
 			qualifiers:
 				// eslint-disable-next-line no-nested-ternary
-				qualifier === FULLY_QUALIFIED
+				isRoot
 					? { [hexcode]: qualifier }
 					: qualifier === null && (!parentHexcode || !map[parentHexcode])
 						? {}

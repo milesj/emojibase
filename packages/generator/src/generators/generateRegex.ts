@@ -1,4 +1,4 @@
-import { EMOTICON_OPTIONS, generateEmoticonPermutations } from 'emojibase';
+import { EMOJI, EMOTICON_OPTIONS, generateEmoticonPermutations } from 'emojibase';
 import type { Trie } from 'regexgen';
 import regexgen from 'regexgen';
 import { buildEmojiData } from '../builders/buildEmojiData';
@@ -56,12 +56,13 @@ async function createEmojiRegex(
 	// so include the unicode character that does not include FE0E/FE0F
 	// when in loose mode.
 	Object.keys(data).forEach((hexcode) => {
-		const { variations, qualifiers } = data[hexcode];
+		const { variations, qualifiers, type } = data[hexcode];
 
 		switch (display) {
-			// Should only contain emoji presentation
+			// Should only contain emoji presentation. Default-emoji characters are emoji on their own,
+			// while default-text characters need FE0F. http://unicode.org/reports/tr51/#Emoji_Presentation
 			case 'emoji':
-				if (!variations || loose) {
+				if (!variations || loose || type === EMOJI) {
 					addCodePoint(hexcode);
 				}
 

@@ -22,6 +22,9 @@ export const MALE: Gender = 1;
 export const FULLY_QUALIFIED: Qualifier = 0;
 export const MINIMALLY_QUALIFIED: Qualifier = 1;
 export const UNQUALIFIED: Qualifier = 2;
+// Skin tone and hair components, which display on their own but are not offered for input.
+// http://unicode.org/reports/tr51/#def_rgi_emoji_qualification
+export const COMPONENT: Qualifier = 3;
 
 export const LIGHT_SKIN: SkinTone = 1;
 export const MEDIUM_LIGHT_SKIN: SkinTone = 2;

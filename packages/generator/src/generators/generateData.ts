@@ -2,6 +2,7 @@
 
 import {
 	type Emoji as FinalEmoji,
+	FULLY_QUALIFIED,
 	type GroupMessage,
 	type Locale,
 	type SkinToneMessage,
@@ -30,6 +31,18 @@ import { toUnicode } from './toUnicode';
 
 type HexcodeVersionMap = Record<string, number>;
 
+// The fully-qualified form from emoji-test.txt, which only has FE0F for text-default emoji.
+// Uncategorized emoji, like regional indicators, have none, so use their hexcode.
+// http://unicode.org/reports/tr51/#def_rgi_emoji_qualification
+function getFullyQualifiedHexcode(emoji: Emoji | EmojiModification): Hexcode {
+	const qualifiers = emoji.qualifiers ?? {};
+
+	return (
+		Object.keys(qualifiers).find((hexcode) => qualifiers[hexcode] === FULLY_QUALIFIED) ??
+		emoji.hexcode
+	);
+}
+
 function createEmoji(
 	baseEmoji: Emoji | EmojiModification,
 	versions: HexcodeVersionMap,
@@ -42,7 +55,7 @@ function createEmoji(
 		hexcode: baseEmoji.hexcode,
 		tags: [],
 		// Presentation
-		emoji: toUnicode(baseEmoji.hexcode),
+		emoji: toUnicode(getFullyQualifiedHexcode(baseEmoji)),
 		text: '',
 		type: baseEmoji.type,
 		// Categorization
@@ -67,9 +80,8 @@ function createEmoji(
 		emoji.tone = baseEmoji.tone;
 	}
 
-	// Presentation variations
+	// Text presentation sequence
 	if ('variations' in baseEmoji) {
-		emoji.emoji = toUnicode(baseEmoji.variations!.emoji);
 		emoji.text = toUnicode(baseEmoji.variations!.text);
 	}
 
