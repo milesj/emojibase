@@ -53,9 +53,9 @@ export async function generateEmojibase(db: Database) {
 
 						list.push(code);
 
-						if (codeNative !== code) {
-							listNative.push(codeNative);
-						}
+						// The native preset has every shortcode, even when it is already Latin,
+						// so it can be used on its own instead of alongside `emojibase`
+						listNative.push(codeNative);
 					});
 
 				if (list.length === 0) {
@@ -67,21 +67,15 @@ export async function generateEmojibase(db: Database) {
 
 				count += 1;
 				shortcodes[emoji.hexcode] = db.formatShortcodes(list);
-
-				if (listNative.length > 0) {
-					shortcodesNative[emoji.hexcode] = db.formatShortcodes(listNative);
-				}
+				shortcodesNative[emoji.hexcode] = db.formatShortcodes(listNative);
 
 				Object.values(emoji.modifications ?? {}).forEach((mod) => {
 					shortcodes[mod.hexcode] = db.formatShortcodes(
 						list.map((code) => appendSkinToneIndex(code, mod, skinToneSuffix)),
 					);
-
-					if (listNative.length > 0) {
-						shortcodesNative[mod.hexcode] = db.formatShortcodes(
-							listNative.map((code) => appendSkinToneIndex(code, mod, skinToneSuffixNative)),
-						);
-					}
+					shortcodesNative[mod.hexcode] = db.formatShortcodes(
+						listNative.map((code) => appendSkinToneIndex(code, mod, skinToneSuffixNative)),
+					);
 				});
 			});
 
@@ -98,7 +92,12 @@ export async function generateEmojibase(db: Database) {
 				writeDataset(`${locale}/shortcodes/emojibase.json`, shortcodes, true),
 			];
 
-			if (Object.keys(shortcodesNative).length > 0) {
+			// Skip locales whose shortcodes are all Latin already, as it would equal `emojibase`
+			if (
+				Object.keys(shortcodesNative).some(
+					(hexcode) => String(shortcodesNative[hexcode]) !== String(shortcodes[hexcode]),
+				)
+			) {
 				promises.push(
 					writeDataset(`${locale}/shortcodes/emojibase-native.raw.json`, shortcodesNative),
 					writeDataset(`${locale}/shortcodes/emojibase-native.json`, shortcodesNative, true),

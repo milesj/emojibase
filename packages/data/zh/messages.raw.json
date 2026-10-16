@@ -2,12 +2,12 @@
   "groups": [
     {
       "key": "smileys-emotion",
-      "message": "笑脸",
+      "message": "笑脸与情感",
       "order": 0
     },
     {
       "key": "people-body",
-      "message": "人体",
+      "message": "人与身体",
       "order": 1
     },
     {
@@ -17,32 +17,32 @@
     },
     {
       "key": "animals-nature",
-      "message": "野生动物",
+      "message": "动物与自然",
       "order": 3
     },
     {
       "key": "food-drink",
-      "message": "食物飲料",
+      "message": "食物与饮料",
       "order": 4
     },
     {
       "key": "travel-places",
-      "message": "旅遊地點",
+      "message": "旅行与地点",
       "order": 5
     },
     {
       "key": "activities",
-      "message": "个人活动",
+      "message": "活动",
       "order": 6
     },
     {
       "key": "objects",
-      "message": "物件",
+      "message": "物品",
       "order": 7
     },
     {
       "key": "symbols",
-      "message": "人的符号",
+      "message": "符号",
       "order": 8
     },
     {
@@ -54,11 +54,11 @@
   "skinTones": [
     {
       "key": "dark",
-      "message": "深色肤色"
+      "message": "较深肤色"
     },
     {
       "key": "light",
-      "message": "浅肤色"
+      "message": "较浅肤色"
     },
     {
       "key": "medium",
@@ -66,11 +66,11 @@
     },
     {
       "key": "medium-dark",
-      "message": "中深色肤色"
+      "message": "中等-深肤色"
     },
     {
       "key": "medium-light",
-      "message": "中光肤色"
+      "message": "中等-浅肤色"
     }
   ],
   "subgroups": [
@@ -81,7 +81,7 @@
     },
     {
       "key": "face-affection",
-      "message": "爱你哦",
+      "message": "喜爱",
       "order": 1
     },
     {
@@ -121,7 +121,7 @@
     },
     {
       "key": "face-concerned",
-      "message": "关心",
+      "message": "担忧",
       "order": 9
     },
     {
@@ -131,7 +131,7 @@
     },
     {
       "key": "face-costume",
-      "message": "衣服",
+      "message": "装扮与生物",
       "order": 11
     },
     {
@@ -181,7 +181,7 @@
     },
     {
       "key": "hand-prop",
-      "message": "举手",
+      "message": "手持物品",
       "order": 21
     },
     {
@@ -201,12 +201,12 @@
     },
     {
       "key": "person-role",
-      "message": "演员",
+      "message": "角色与职业",
       "order": 25
     },
     {
       "key": "person-fantasy",
-      "message": "有魅力的人",
+      "message": "奇幻人物",
       "order": 26
     },
     {
@@ -216,7 +216,7 @@
     },
     {
       "key": "person-sport",
-      "message": "競技",
+      "message": "运动员",
       "order": 28
     },
     {
@@ -231,27 +231,27 @@
     },
     {
       "key": "person-symbol",
-      "message": "人符號",
+      "message": "人物符号",
       "order": 31
     },
     {
       "key": "skin-tone",
-      "message": "膚色",
+      "message": "肤色",
       "order": 32
     },
     {
       "key": "hair-style",
-      "message": "髮型",
+      "message": "发型",
       "order": 33
     },
     {
       "key": "animal-mammal",
-      "message": "哺乳類動物",
+      "message": "哺乳类动物",
       "order": 34
     },
     {
       "key": "animal-bird",
-      "message": "鳥類動物",
+      "message": "鸟类动物",
       "order": 35
     },
     {
@@ -261,17 +261,17 @@
     },
     {
       "key": "animal-reptile",
-      "message": "爬蟲類動物",
+      "message": "爬虫类动物",
       "order": 37
     },
     {
       "key": "animal-marine",
-      "message": "水生動物",
+      "message": "水生动物",
       "order": 38
     },
     {
       "key": "animal-bug",
-      "message": "蟲類動物",
+      "message": "虫类动物",
       "order": 39
     },
     {
@@ -286,12 +286,12 @@
     },
     {
       "key": "food-fruit",
-      "message": "水果類食物",
+      "message": "水果类食物",
       "order": 42
     },
     {
       "key": "food-vegetable",
-      "message": "蔬菜類食物",
+      "message": "蔬菜类食物",
       "order": 43
     },
     {
@@ -301,22 +301,22 @@
     },
     {
       "key": "food-asian",
-      "message": "亞洲食物",
+      "message": "亚洲食物",
       "order": 45
     },
     {
       "key": "food-marine",
-      "message": "水產食物",
+      "message": "水产食物",
       "order": 46
     },
     {
       "key": "food-sweet",
-      "message": "甜食物",
+      "message": "甜食",
       "order": 46
     },
     {
       "key": "drink",
-      "message": "飲品",
+      "message": "饮品",
       "order": 47
     },
     {
@@ -336,7 +336,7 @@
     },
     {
       "key": "place-building",
-      "message": "地方建筑",
+      "message": "建筑",
       "order": 51
     },
     {
@@ -346,7 +346,7 @@
     },
     {
       "key": "place-other",
-      "message": "其他地點",
+      "message": "其他地点",
       "order": 53
     },
     {
@@ -381,7 +381,7 @@
     },
     {
       "key": "event",
-      "message": "事件",
+      "message": "活动与节日",
       "order": 60
     },
     {
@@ -436,12 +436,12 @@
     },
     {
       "key": "light-video",
-      "message": "轻视频",
+      "message": "灯光与影像",
       "order": 71
     },
     {
       "key": "book-paper",
-      "message": "印书纸",
+      "message": "书和纸",
       "order": 72
     },
     {
@@ -456,12 +456,12 @@
     },
     {
       "key": "writing",
-      "message": "文章",
+      "message": "书写",
       "order": 75
     },
     {
       "key": "office",
-      "message": "办公室",
+      "message": "办公用品",
       "order": 76
     },
     {
@@ -481,12 +481,12 @@
     },
     {
       "key": "medical",
-      "message": "医疗的",
+      "message": "医疗",
       "order": 80
     },
     {
       "key": "household",
-      "message": "一家人",
+      "message": "家居用品",
       "order": 81
     },
     {
@@ -566,7 +566,7 @@
     },
     {
       "key": "flag",
-      "message": "其他標誌",
+      "message": "其他旗帜",
       "order": 97
     },
     {
@@ -576,7 +576,7 @@
     },
     {
       "key": "subdivision-flag",
-      "message": "细分旗帜",
+      "message": "地区旗帜",
       "order": 99
     }
   ]

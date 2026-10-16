@@ -294,6 +294,14 @@ export interface PermutationOptions {
 
 export type CDNUrlFn = (path: string, version: string) => string;
 
+declare global {
+	// Declared so these types also compile without the DOM library, such as in Node.js. It merges
+	// with the real `RequestInit` when the DOM or Node.js types provide one, which only an
+	// interface can do.
+	// eslint-disable-next-line @typescript-eslint/no-empty-interface
+	interface RequestInit {}
+}
+
 export interface FetchFromCDNOptions extends RequestInit {
 	/** Cache the response in local storage instead of session storage. Defaults to `false`. */
 	local?: boolean;

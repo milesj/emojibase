@@ -108,21 +108,14 @@ export async function generateCldr(db: Database) {
 				// eslint-disable-next-line require-atomic-updates
 				cldr[emoji.hexcode] = code;
 
-				if (codeNative !== code) {
-					cldrNative[emoji.hexcode] = codeNative;
-				}
+				// The native preset has every emoji, even when its shortcode is already Latin,
+				// so it can be used on its own instead of alongside `cldr`
+				cldrNative[emoji.hexcode] = codeNative;
 
 				// Skin tones
 				Object.values(emoji.modifications ?? {}).forEach((mod) => {
-					cldr[mod.hexcode] = appendSkinToneIndex(String(cldr[emoji.hexcode]), mod, skinToneSuffix);
-
-					if (codeNative !== code) {
-						cldrNative[mod.hexcode] = appendSkinToneIndex(
-							String(cldrNative[emoji.hexcode]),
-							mod,
-							skinToneSuffixNative,
-						);
-					}
+					cldr[mod.hexcode] = appendSkinToneIndex(code, mod, skinToneSuffix);
+					cldrNative[mod.hexcode] = appendSkinToneIndex(codeNative, mod, skinToneSuffixNative);
 				});
 			}
 
@@ -131,7 +124,8 @@ export async function generateCldr(db: Database) {
 				writeDataset(`${locale}/shortcodes/cldr.json`, cldr, true),
 			];
 
-			if (Object.keys(cldrNative).length > 0) {
+			// Skip locales whose shortcodes are all Latin already, as it would equal `cldr`
+			if (Object.keys(cldrNative).some((hexcode) => cldrNative[hexcode] !== cldr[hexcode])) {
 				promises.push(
 					writeDataset(`${locale}/shortcodes/cldr-native.raw.json`, cldrNative),
 					writeDataset(`${locale}/shortcodes/cldr-native.json`, cldrNative, true),

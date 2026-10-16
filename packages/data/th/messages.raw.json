@@ -12,12 +12,12 @@
     },
     {
       "key": "component",
-      "message": "คอม โพ เนนต์",
+      "message": "ส่วนประกอบ",
       "order": 2
     },
     {
       "key": "animals-nature",
-      "message": "สัตว์ป่าและธรรมชาติ",
+      "message": "สัตว์และธรรมชาติ",
       "order": 3
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "key": "travel-places",
-      "message": "สถานที่ท่องเที่ยว",
+      "message": "การเดินทางและสถานที่",
       "order": 5
     },
     {
@@ -54,7 +54,7 @@
   "skinTones": [
     {
       "key": "dark",
-      "message": "โทนสีผิวคล้ํา"
+      "message": "โทนสีผิวคล้ำ"
     },
     {
       "key": "light",
@@ -66,17 +66,17 @@
     },
     {
       "key": "medium-dark",
-      "message": "โทนสีผิวคล้ําปานกลาง"
+      "message": "โทนสีผิวคล้ำปานกลาง"
     },
     {
       "key": "medium-light",
-      "message": "โทนสีผิวสีอ่อนปานกลาง"
+      "message": "โทนสีผิวอ่อนปานกลาง"
     }
   ],
   "subgroups": [
     {
       "key": "face-smiling",
-      "message": "รอย ยิ้ม",
+      "message": "รอยยิ้ม",
       "order": 0
     },
     {
@@ -101,7 +101,7 @@
     },
     {
       "key": "face-sleepy",
-      "message": "ง่วง นอน",
+      "message": "ง่วงนอน",
       "order": 5
     },
     {
@@ -126,7 +126,7 @@
     },
     {
       "key": "face-negative",
-      "message": "เนกาทีฟ",
+      "message": "ด้านลบ",
       "order": 10
     },
     {
@@ -196,7 +196,7 @@
     },
     {
       "key": "person-gesture",
-      "message": "รูป แบบ ลาย เส้น",
+      "message": "ท่าทาง",
       "order": 24
     },
     {
@@ -216,7 +216,7 @@
     },
     {
       "key": "person-sport",
-      "message": "กรีฑา",
+      "message": "นักกีฬา",
       "order": 28
     },
     {
@@ -246,7 +246,7 @@
     },
     {
       "key": "animal-mammal",
-      "message": "เลี้ยงลูกด้วยนม",
+      "message": "สัตว์เลี้ยงลูกด้วยนม",
       "order": 34
     },
     {
@@ -256,7 +256,7 @@
     },
     {
       "key": "animal-amphibian",
-      "message": "สะเทินน้ําสะเทินบก",
+      "message": "สัตว์สะเทินน้ำสะเทินบก",
       "order": 36
     },
     {
@@ -271,7 +271,7 @@
     },
     {
       "key": "animal-bug",
-      "message": "ข้อ บกพร่อง",
+      "message": "แมลง",
       "order": 39
     },
     {
@@ -306,7 +306,7 @@
     },
     {
       "key": "food-marine",
-      "message": "อาหาร ทะเล",
+      "message": "อาหารทะเล",
       "order": 46
     },
     {
@@ -316,12 +316,12 @@
     },
     {
       "key": "drink",
-      "message": "เครื่อง ดื่ม",
+      "message": "เครื่องดื่ม",
       "order": 47
     },
     {
       "key": "dishware",
-      "message": "เครื่องล้างจาน",
+      "message": "ภาชนะ",
       "order": 48
     },
     {
@@ -356,7 +356,7 @@
     },
     {
       "key": "transport-water",
-      "message": "การขนส่งทางน้ํา",
+      "message": "การขนส่งทางน้ำ",
       "order": 55
     },
     {
@@ -376,7 +376,7 @@
     },
     {
       "key": "sky-weather",
-      "message": "สภาพ อากาศ",
+      "message": "สภาพอากาศ",
       "order": 59
     },
     {
@@ -406,7 +406,7 @@
     },
     {
       "key": "clothing",
-      "message": "เสื้อ ผ้า",
+      "message": "เสื้อผ้า",
       "order": 65
     },
     {
@@ -421,12 +421,12 @@
     },
     {
       "key": "musical-instrument",
-      "message": "ดนตรี",
+      "message": "เครื่องดนตรี",
       "order": 68
     },
     {
       "key": "phone",
-      "message": "เบอร์โทร",
+      "message": "โทรศัพท์",
       "order": 69
     },
     {
@@ -456,12 +456,12 @@
     },
     {
       "key": "writing",
-      "message": "เขียน",
+      "message": "การเขียน",
       "order": 75
     },
     {
       "key": "office",
-      "message": "เครื่องใช้สํานักงาน",
+      "message": "เครื่องใช้สำนักงาน",
       "order": 76
     },
     {
@@ -481,7 +481,7 @@
     },
     {
       "key": "medical",
-      "message": "แพทย์",
+      "message": "การแพทย์",
       "order": 80
     },
     {
@@ -496,7 +496,7 @@
     },
     {
       "key": "transport-sign",
-      "message": "สัญญาณการขนส่ง",
+      "message": "ป้ายจราจร",
       "order": 83
     },
     {
@@ -516,7 +516,7 @@
     },
     {
       "key": "zodiac",
-      "message": "ราศีกันย์",
+      "message": "จักรราศี",
       "order": 87
     },
     {
@@ -536,12 +536,12 @@
     },
     {
       "key": "punctuation",
-      "message": "เครื่อง หมาย วรรค ตอน",
+      "message": "เครื่องหมายวรรคตอน",
       "order": 91
     },
     {
       "key": "currency",
-      "message": "สกุล เงิน",
+      "message": "สกุลเงิน",
       "order": 92
     },
     {
@@ -566,7 +566,7 @@
     },
     {
       "key": "flag",
-      "message": "ค่าสถานะอื่นๆ",
+      "message": "ธงอื่นๆ",
       "order": 97
     },
     {
@@ -576,7 +576,7 @@
     },
     {
       "key": "subdivision-flag",
-      "message": "แฟล็กการแบ่งย่อย",
+      "message": "ธงภูมิภาค",
       "order": 99
     }
   ]
