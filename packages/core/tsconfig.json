@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
-    "outDir": "lib",
+    "declarationDir": "dts",
+    "outDir": "dts",
     "rootDir": "src",
     "emitDeclarationOnly": true
   },
   "exclude": [
+    "dts",
     "tests"
   ],
   "extends": "../../tsconfig.options.json",
@@ -13,12 +15,5 @@
     "types/**/*",
     "../../types/**/*"
   ],
-  "references": [
-    {
-      "path": "./tsconfig.esm.json"
-    },
-    {
-      "path": "./tsconfig.lib.json"
-    }
-  ]
+  "references": []
 }

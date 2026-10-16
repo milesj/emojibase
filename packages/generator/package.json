@@ -16,7 +16,7 @@
   "type": "module",
   "main": "./mjs/index.mjs",
   "module": "./mjs/index.mjs",
-  "types": "./mjs/index.d.ts",
+  "types": "./mjs/index.d.mts",
   "files": [
     "mjs/**/*",
     "src/**/*"
@@ -34,11 +34,7 @@
     "regexgen": "^1.3.0",
     "transliteration": "^2.6.1"
   },
-  "packemon": {
-    "format": "mjs",
-    "platform": "node"
-  },
   "engines": {
-    "node": ">=18.12.0"
+    "node": ">=22.0.0"
   }
 }

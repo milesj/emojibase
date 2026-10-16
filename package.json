@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "build": "packemon build-workspace --addEngines",
+    "build": "tsdown --workspace",
     "bump": "changeset",
     "bump:status": "changeset status",
-    "pack": "packemon pack-workspace --addEngines --declaration",
+    "pack": "yarn run build",
     "clean:cache": "rm -rf ./cache",
     "check": "yarn run type && yarn run test && yarn run lint",
     "coverage": "yarn run jest --coverage",
@@ -26,7 +26,7 @@
     "type": "tsc --build"
   },
   "engines": {
-    "node": ">=22.0.0"
+    "node": ">=22.18.0"
   },
   "devDependencies": {
     "@changesets/cli": "^3.0.3",
@@ -48,10 +48,10 @@
     "jest": "^30.5.2",
     "jest-preset-moon": "^3.1.2",
     "lerna": "^10.1.1",
-    "packemon": "^4.1.2",
     "prettier": "^3.9.10",
     "prettier-config-moon": "^1.2.2",
     "tsconfig-moon": "^1.4.2",
+    "tsdown": "^0.23.1",
     "typescript": "6.0.3"
   },
   "workspaces": [

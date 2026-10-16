@@ -9,6 +9,14 @@
     "types": [
       "jest",
       "node"
-    ]
+    ],
+    "paths": {
+      "emojibase": [
+        "./packages/core/src/index.ts"
+      ],
+      "emojibase-test-utils": [
+        "./packages/test-utils/src/index.ts"
+      ]
+    }
   }
 }
