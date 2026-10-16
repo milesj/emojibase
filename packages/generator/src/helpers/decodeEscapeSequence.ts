@@ -4,7 +4,7 @@ export function decodeEscapeSequence(value: string): string {
 	const replacer = (all: string, match: string) => String.fromCodePoint(Number.parseInt(match, 16));
 
 	return value
-		.replace(/\\x{([\dA-Fa-f]{2})}/g, replacer)
-		.replace(/\\x([\dA-Fa-f]{2})/g, replacer)
+		.replaceAll(/\\x{([\dA-Fa-f]{2})}/g, replacer)
+		.replaceAll(/\\x([\dA-Fa-f]{2})/g, replacer)
 		.normalize();
 }

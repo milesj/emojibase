@@ -1,3 +1,4 @@
+import fetchMock from '@fetch-mock/jest';
 import type { CompactEmoji, Emoji } from '../src/types';
 
 declare global {
@@ -27,6 +28,11 @@ export function setupStorage() {
 			setItem: jest.fn(),
 		},
 	});
+}
+
+// The arguments of every mocked fetch call, to assert on request options
+export function getFetchArgs(): unknown[][] {
+	return fetchMock.callHistory.calls().map((call) => call.args);
 }
 
 export function getEmojiWithSkins(): Emoji {

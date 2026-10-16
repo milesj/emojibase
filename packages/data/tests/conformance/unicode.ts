@@ -81,7 +81,7 @@ function parseEmojiTest(content: string) {
 		}
 
 		lines.push({
-			hexcode: match[1].replace(/ /g, '-'),
+			hexcode: match[1].replaceAll(' ', '-'),
 			name: match[4].trim(),
 			status: match[2] as TestStatus,
 			version: Number(match[3]),

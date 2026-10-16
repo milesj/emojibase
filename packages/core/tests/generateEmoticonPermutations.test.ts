@@ -59,6 +59,9 @@ describe('generateEmoticonPermutations()', () => {
 	});
 
 	it('doesnt assume a face', () => {
-		expect(generateEmoticonPermutations(String.raw`\m/`, { isFace: false })).toEqual([String.raw`\m/`, String.raw`\M/`]);
+		expect(generateEmoticonPermutations(String.raw`\m/`, { isFace: false })).toEqual([
+			String.raw`\m/`,
+			String.raw`\M/`,
+		]);
 	});
 });

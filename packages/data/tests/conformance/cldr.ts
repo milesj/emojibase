@@ -121,6 +121,7 @@ class LocaleBundle {
 
 	territories: Record<string, string>;
 
+	// eslint-disable-next-line complexity
 	constructor(id: string) {
 		this.annotations = [
 			rekey(

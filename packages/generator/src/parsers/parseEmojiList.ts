@@ -66,7 +66,7 @@ export function parseEmojiList(content: string): EmojiSourceMap {
 			} else {
 				const hexcode = String(tr.find('.code').find('a').attr('name'))
 					.toUpperCase()
-					.replace(/_/g, '-');
+					.replaceAll('_', '-');
 				const name = tr.find('.name').eq(0).text();
 
 				// Recently added, not in an official emoji release

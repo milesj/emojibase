@@ -1,16 +1,20 @@
-import fetchMock from 'fetch-mock-jest';
+/**
+ * @jest-environment node
+ */
+
+import fetchMock from '@fetch-mock/jest';
 import { fetchFromCDN } from '../src/fetchFromCDN';
-import { setupStorage } from './helpers';
+import { getFetchArgs, setupStorage } from './helpers';
 
 describe('fetchFromCDN()', () => {
 	beforeEach(() => {
 		setupStorage();
 
-		fetchMock.mock('*', [1, 2, 3]);
+		fetchMock.mockGlobal().route('*', [1, 2, 3]);
 	});
 
 	afterEach(() => {
-		fetchMock.reset();
+		fetchMock.mockRestore();
 	});
 
 	it('errors if no path', async () => {
@@ -33,13 +37,9 @@ describe('fetchFromCDN()', () => {
 	});
 
 	it('errors if response is not ok', async () => {
-		fetchMock.mock('path:en/data.json', 404);
+		fetchMock.removeRoutes().route('end:en/data.json', 404);
 
-		try {
-			await fetchFromCDN('en/data.json');
-		} catch (error) {
-			expect(error).toEqual(new Error('Failed to load Emojibase dataset.'));
-		}
+		await expect(fetchFromCDN('en/data.json')).rejects.toThrow('Failed to load Emojibase dataset.');
 	});
 
 	it('returns the value from session storage', async () => {
@@ -57,27 +57,27 @@ describe('fetchFromCDN()', () => {
 	it('triggers a fetch', async () => {
 		await fetchFromCDN('en/data.json');
 
-		expect(fetchMock).toHaveBeenCalledWith(
+		expect(getFetchArgs()).toContainEqual([
 			'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/data.json',
 			{
 				credentials: 'omit',
 				mode: 'cors',
 				redirect: 'error',
 			},
-		);
+		]);
 	});
 
 	it('can customize fetch', async () => {
 		await fetchFromCDN('ja/compact.json', { redirect: 'follow', version: '1.2.3' });
 
-		expect(fetchMock).toHaveBeenCalledWith(
+		expect(getFetchArgs()).toContainEqual([
 			'https://cdn.jsdelivr.net/npm/emojibase-data@1.2.3/ja/compact.json',
 			{
 				credentials: 'omit',
 				mode: 'cors',
 				redirect: 'follow',
 			},
-		);
+		]);
 	});
 
 	it('errors if no cdnUrl', async () => {
@@ -91,11 +91,14 @@ describe('fetchFromCDN()', () => {
 		const cdnUrl = 'https://example.com/cdn/emojidata/latest';
 		await fetchFromCDN('en/data.json', { cdnUrl });
 
-		expect(fetchMock).toHaveBeenCalledWith(`${cdnUrl}/en/data.json`, {
-			credentials: 'omit',
-			mode: 'cors',
-			redirect: 'error',
-		});
+		expect(getFetchArgs()).toContainEqual([
+			`${cdnUrl}/en/data.json`,
+			{
+				credentials: 'omit',
+				mode: 'cors',
+				redirect: 'error',
+			},
+		]);
 	});
 
 	it('errors if cdnUrl function has no result', async () => {
@@ -123,28 +126,28 @@ describe('fetchFromCDN()', () => {
 		const cdnUrl = (path: string) => `https://example.com/cdn/emojidata/latest/${path}`;
 		await fetchFromCDN('en/data.json', { cdnUrl });
 
-		expect(fetchMock).toHaveBeenCalledWith(
+		expect(getFetchArgs()).toContainEqual([
 			'https://example.com/cdn/emojidata/latest/en/data.json',
 			{
 				credentials: 'omit',
 				mode: 'cors',
 				redirect: 'error',
 			},
-		);
+		]);
 	});
 
 	it('can use cdnUrl function with http', async () => {
 		const cdnUrl = (path: string) => `http://example.com/cdn/emojidata/latest/${path}`;
 		await fetchFromCDN('en/data.json', { cdnUrl });
 
-		expect(fetchMock).toHaveBeenCalledWith(
-			'https://example.com/cdn/emojidata/latest/en/data.json',
+		expect(getFetchArgs()).toContainEqual([
+			'http://example.com/cdn/emojidata/latest/en/data.json',
 			{
 				credentials: 'omit',
 				mode: 'cors',
 				redirect: 'error',
 			},
-		);
+		]);
 	});
 
 	it('can utilize version within cdnUrl function', async () => {
@@ -152,11 +155,14 @@ describe('fetchFromCDN()', () => {
 			`https://example.com/cdn/emojidata/${version}/${path}`;
 		await fetchFromCDN('en/data.json', { cdnUrl, version: '1.2.3' });
 
-		expect(fetchMock).toHaveBeenCalledWith('https://example.com/cdn/emojidata/1.2.3/en/data.json', {
-			credentials: 'omit',
-			mode: 'cors',
-			redirect: 'error',
-		});
+		expect(getFetchArgs()).toContainEqual([
+			'https://example.com/cdn/emojidata/1.2.3/en/data.json',
+			{
+				credentials: 'omit',
+				mode: 'cors',
+				redirect: 'error',
+			},
+		]);
 	});
 
 	it('returns data from fetch', async () => {

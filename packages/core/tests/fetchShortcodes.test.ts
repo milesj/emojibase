@@ -1,46 +1,47 @@
-import fetchMock from 'fetch-mock-jest';
+/**
+ * @jest-environment node
+ */
+
+import fetchMock from '@fetch-mock/jest';
 import { fetchShortcodes } from '../src/fetchShortcodes';
-import { setupStorage } from './helpers';
+import { getFetchArgs, setupStorage } from './helpers';
 
 describe('fetchShortcodes()', () => {
 	beforeEach(() => {
 		setupStorage();
 
-		fetchMock.mock('*', { '0000': 'shortcode' });
+		fetchMock.mockGlobal().route('*', { '0000': 'shortcode' });
 	});
 
 	afterEach(() => {
-		fetchMock.reset();
+		fetchMock.mockRestore();
 	});
 
 	it('triggers a fetch', async () => {
 		await fetchShortcodes('de', 'cldr');
 
-		expect(fetchMock).toHaveBeenCalledWith(
+		expect(getFetchArgs()).toContainEqual([
 			'https://cdn.jsdelivr.net/npm/emojibase-data@latest/de/shortcodes/cldr.json',
 			{
 				credentials: 'omit',
 				mode: 'cors',
 				redirect: 'error',
 			},
-		);
+		]);
 	});
 
 	it('aliases presets correctly', async () => {
 		await fetchShortcodes('en', 'discord');
 		await fetchShortcodes('en', 'slack');
 
-		expect(fetchMock).toHaveBeenCalledWith(
+		expect(fetchMock).toHaveFetched(
 			'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/shortcodes/iamcal.json',
-			expect.any(Object),
 		);
-		expect(fetchMock).not.toHaveBeenCalledWith(
+		expect(fetchMock).not.toHaveFetched(
 			'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/shortcodes/discord.json',
-			expect.any(Object),
 		);
-		expect(fetchMock).not.toHaveBeenCalledWith(
+		expect(fetchMock).not.toHaveFetched(
 			'https://cdn.jsdelivr.net/npm/emojibase-data@latest/en/shortcodes/slack.json',
-			expect.any(Object),
 		);
 	});
 });

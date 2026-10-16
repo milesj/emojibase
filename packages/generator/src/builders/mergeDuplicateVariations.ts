@@ -14,12 +14,10 @@ export function mergeDuplicateVariations(emojis: EmojiMap) {
 			return;
 		}
 
-		if (!parentEmoji.variations) {
-			parentEmoji.variations = {
-				emoji: '',
-				text: '',
-			};
-		}
+		parentEmoji.variations ??= {
+			emoji: '',
+			text: '',
+		};
 
 		// Inherit emoji hexcode with variation selector
 		if (hexcode.endsWith(EMOJI_VARIATION_SELECTOR)) {

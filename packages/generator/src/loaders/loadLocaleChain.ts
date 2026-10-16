@@ -33,7 +33,6 @@ export async function loadLocaleChain(locale: string): Promise<string[]> {
 		}
 
 		const parts = id.split('-');
-		// eslint-disable-next-line no-underscore-dangle -- The key is named by CLDR
 		const nonlikelyScript = parentLocales._localeRules?.parentLocale?.nonlikelyScript;
 
 		if (

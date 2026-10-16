@@ -1,4 +1,4 @@
-/* eslint-disable sort-keys, no-cond-assign, complexity */
+/* eslint-disable sort-keys, complexity */
 
 import { DARK_SKIN, LIGHT_SKIN, MEDIUM_DARK_SKIN, MEDIUM_LIGHT_SKIN, MEDIUM_SKIN } from 'emojibase';
 import {

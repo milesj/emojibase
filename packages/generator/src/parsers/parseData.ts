@@ -1,5 +1,3 @@
-/* eslint-disable no-nested-ternary */
-
 import { EMOJI, TEXT } from 'emojibase';
 import type { EmojiData, EmojiDataMap, ParsedLine, Property } from '../types';
 import { extractEmojiVersion } from './extractEmojiVersion';

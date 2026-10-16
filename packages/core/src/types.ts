@@ -154,11 +154,10 @@ export type SubgroupKey =
 
 export type Unicode = string;
 
-export interface CompactEmoji
-	extends Pick<
-		Emoji,
-		'emoticon' | 'group' | 'hexcode' | 'label' | 'order' | 'shortcodes' | 'tags'
-	> {
+export interface CompactEmoji extends Pick<
+	Emoji,
+	'emoticon' | 'group' | 'hexcode' | 'label' | 'order' | 'shortcodes' | 'tags'
+> {
 	/** List of skin tones as emoji objects. */
 	skins?: CompactEmoji[];
 	/** Either the emoji or text presentation Unicode character. */

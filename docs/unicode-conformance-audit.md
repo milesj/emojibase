@@ -49,7 +49,7 @@ The problems are in four areas:
 | U7  | Low      | UTS 51 | Description parsing: escapes not decoded, range names reused, greedy regex                |
 | U8  | Low      | UTS 51 | `meta/unicode-names.json` sequence names are synthetic and drop skin tones                |
 | U9  | Low      | UTS 51 | `component` qualification status is discarded; components/RIs are not distinguishable     |
-| U10 | Low      | UTS 51 | Gender is detected only from ♀/♂; 85 man/woman ZWJ sequences have no gender             |
+| U10 | Low      | UTS 51 | Gender is detected only from ♀/♂; 85 man/woman ZWJ sequences have no gender               |
 | C5  | Low      | UTS 35 | Missing values fall back to English rather than ending at root                            |
 | C6  | Low      | UTS 35 | Lookup keys also strip ZWJ (CLDR `cp` omits only VS15/VS16)                               |
 | P1  | Medium   | —      | Validation never fails the build; tests cannot catch U1/U2                                |
@@ -122,7 +122,7 @@ Results, run against the published patterns:
 | ---------------------------- | :-----: | :-----------: | :----: | :----------: | --------------------------- |
 | 👍 `1F44D` (default emoji)   |    ✗    |       ✓       |   ✗    |    **✓**     | emoji ✓; text-loose ✗       |
 | ⌚ `231A` (default emoji)    |    ✗    |       ✓       |   ✗    |    **✓**     | emoji ✓; text-loose ✗       |
-| © `00A9` (default text)     |    ✗    |       ✓       | **✗**  |      ✓       | text ✓ (default text)       |
+| © `00A9` (default text)      |    ✗    |       ✓       | **✗**  |      ✓       | text ✓ (default text)       |
 | 🇺🇸 flag / 🏴󠁧󠁢󠁳󠁣󠁴󠁿 tag / #️⃣ keycap |    ✓    |       ✓       |   ✗    |    **✓**     | text-loose ✗ (no text form) |
 | 🏃‍♀️ ZWJ (fully-qualified)     |    ✓    |       ✓       |   ✗    |    **✓**     | text-loose ✗                |
 | 🏃‍♀ ZWJ (unqualified)         |    ✗    |     **✗**     |   ✗    |      ✗       | emoji-loose ✓               |
@@ -224,8 +224,8 @@ emoji version unchanged for E11 and later, and returns 6 for anything it does no
   🔟 `1F51F`.
 - **The comment regex is greedy.** `/\(*.+\)/` in
   [extractLineDescription.ts:11](packages/generator/src/parsers/extractLineDescription.ts:11)
-  deletes everything up to the _last_ `)`. 🅰 `1F170` and 🅱 `1F171` ("A button (blood type)") end
-  up with an empty description.
+  deletes everything up to the _last_ `)`. 🅰 `1F170` and 🅱 `1F171` ("A button (blood type)") end up
+  with an empty description.
 
 ### U8 — `meta/unicode-names.json` sequence names are synthetic and lossy (Low)
 
