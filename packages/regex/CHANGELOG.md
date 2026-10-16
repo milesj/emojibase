@@ -1,5 +1,32 @@
 # Change Log
 
+## 18.0.0
+
+### Major Changes
+
+- 8527c93: Update to Emoji v18 and CLDR 49 (beta 1), following UTS #51 revision 31. Adds 9 emoji (🫫 🫹 🫺 🫌 🫝 🛙 🪋
+  🪌 🪍), with skin tones for the two thumb signs, and their localized labels and keywords.
+
+### Minor Changes
+
+- 06b8716: Align presentation and qualification with UTS #51:
+  
+  - The `emoji` field is now the fully-qualified form from `emoji-test.txt`. 152 emoji that default to
+    emoji presentation, like 👍 and ⌚, no longer have a redundant `FE0F`.
+  - `meta/hexcodes.json` now lists statuses exactly as `emoji-test.txt` does. Text presentation
+    sequences (`FE0E`) and redundant `FE0F` forms are no longer listed as fully qualified, and the
+    skin tone and hair components are listed with the new `COMPONENT` qualifier.
+  - The `emojibase-regex/emoji` pattern now matches default-emoji characters without `FE0F`.
+- 06b8716: Match emoji by presentation and qualification, as UTS #51 defines them:
+  
+  - `emoji-loose` now matches every minimally-qualified and unqualified form, such as 🕵‍♂.
+  - `text` now matches emoji that default to text presentation without `FE0E`, such as a bare ©.
+  - `text-loose` no longer matches sequences or emoji without a text presentation form, such as 🇺🇸.
+  - The emoji and text patterns no longer match a character that a selector or skin tone puts in the
+    other presentation, such as the ⚠ in ⚠️.
+  - The `property` patterns now define the `u` flag and actually match emoji: possible emoji,
+    fully-qualified emoji, and emoji in text presentation.
+
 ## 17.0.0
 
 ### Major Changes

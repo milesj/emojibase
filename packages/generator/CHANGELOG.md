@@ -1,5 +1,68 @@
 # Change Log
 
+## 18.0.0
+
+### Major Changes
+
+- 8527c93: Update to Emoji v18 and CLDR 49 (beta 1), following UTS #51 revision 31. Adds 9 emoji (🫫 🫹 🫺 🫌 🫝 🛙 🪋
+  🪌 🪍), with skin tones for the two thumb signs, and their localized labels and keywords.
+
+### Patch Changes
+
+- 06b8716: Resolve CLDR annotations as UTS #35 describes:
+  
+  - Locales inherit from their real CLDR parents. `en-gb` now uses `en-001` (129 labels, such as "tick
+    box with tick"), and `es-mx` uses `es-419` (450 labels, such as "lentes de sol").
+  - Labels and keywords inherit separately, so 9 `es-mx` emoji regain their keywords.
+  - Flags and keycaps without a CLDR label are named in the locale's own words, which fixes all 262
+    Danish flags ("flag: USA") and their `cldr` shortcodes.
+  - Keywords keep their CLDR casing in every locale (German nouns, "OK", "DVD"). A keyword identical
+    to the label is now reliably left out of `tags`.
+  - Fix the Hindi label for regional indicators, which was in Bengali.
+- 29b2c8a: The `cldr-native` and `emojibase-native` presets now include every shortcode, even those that are
+  already Latin (such as `cd` and `dvd` in Russian), so they can be used on their own.
+- 789b533: Update dependencies to their latest versions, including TypeScript 6.0. The generator now requires
+  Node.js 22 or newer.
+- 06b8716: Align presentation and qualification with UTS #51:
+  
+  - The `emoji` field is now the fully-qualified form from `emoji-test.txt`. 152 emoji that default to
+    emoji presentation, like 👍 and ⌚, no longer have a redundant `FE0F`.
+  - `meta/hexcodes.json` now lists statuses exactly as `emoji-test.txt` does. Text presentation
+    sequences (`FE0E`) and redundant `FE0F` forms are no longer listed as fully qualified, and the
+    skin tone and hair components are listed with the new `COMPONENT` qualifier.
+  - The `emojibase-regex/emoji` pattern now matches default-emoji characters without `FE0F`.
+- 06b8716: Match emoji by presentation and qualification, as UTS #51 defines them:
+  
+  - `emoji-loose` now matches every minimally-qualified and unqualified form, such as 🕵‍♂.
+  - `text` now matches emoji that default to text presentation without `FE0E`, such as a bare ©.
+  - `text-loose` no longer matches sequences or emoji without a text presentation form, such as 🇺🇸.
+  - The emoji and text patterns no longer match a character that a selector or skin tone puts in the
+    other presentation, such as the ⚠ in ⚠️.
+  - The `property` patterns now define the `u` flag and actually match emoji: possible emoji,
+    fully-qualified emoji, and emoji in text presentation.
+- 06b8716: Fail the generator when its validation checks report errors, instead of only logging them.
+- 789b533: Require Node.js 20 or newer. Packages are now built with tsdown instead of Packemon, which targets
+  modern syntax and bundles type declarations into a single `index.d.ts` file. Package entry points
+  are unchanged.
+- 06b8716: Align the data model with UTS #51:
+  
+  - Add `gender` to emoji whose people are gendered, like "man health worker" and "old woman", not
+    only those with a gender sign.
+  - Use CLDR short names for sequences in `meta/unicode-names.json`, which keeps every skin tone (e.g.
+    "PEOPLE HOLDING HANDS: LIGHT SKIN TONE, MEDIUM-LIGHT SKIN TONE").
+  - Fix the Danish and Swedish labels and CLDR shortcodes for #️⃣ and 🔟.
+- 06b8716: Group `versions/unicode.json` by the Emoji Versions table in UTS #51. The Emoji 13.1 sequences moved
+  from a "13.1" group (there is no Unicode 13.1) to 13, and components that are not emoji on their
+  own, like digits and joiners, are no longer listed.
+- Updated dependencies [06b8716]
+- Updated dependencies [789b533]
+- Updated dependencies [8527c93]
+- Updated dependencies [06b8716]
+- Updated dependencies [29b2c8a]
+- Updated dependencies [29b2c8a]
+- Updated dependencies [789b533]
+  - emojibase@18.0.0
+
 ## 17.0.0
 
 ### Major Changes

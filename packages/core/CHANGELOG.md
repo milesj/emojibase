@@ -1,5 +1,45 @@
 # Change Log
 
+## 18.0.0
+
+### Major Changes
+
+- 8527c93: Update to Emoji v18 and CLDR 49 (beta 1), following UTS #51 revision 31. Adds 9 emoji (🫫 🫹 🫺 🫌 🫝 🛙 🪋
+  🪌 🪍), with skin tones for the two thumb signs, and their localized labels and keywords.
+- 789b533: Require Node.js 20 or newer. Packages are now built with tsdown instead of Packemon, which targets
+  modern syntax and bundles type declarations into a single `index.d.ts` file. Package entry points
+  are unchanged.
+
+### Minor Changes
+
+- 06b8716: Align presentation and qualification with UTS #51:
+  
+  - The `emoji` field is now the fully-qualified form from `emoji-test.txt`. 152 emoji that default to
+    emoji presentation, like 👍 and ⌚, no longer have a redundant `FE0F`.
+  - `meta/hexcodes.json` now lists statuses exactly as `emoji-test.txt` does. Text presentation
+    sequences (`FE0E`) and redundant `FE0F` forms are no longer listed as fully qualified, and the
+    skin tone and hair components are listed with the new `COMPONENT` qualifier.
+  - The `emojibase-regex/emoji` pattern now matches default-emoji characters without `FE0F`.
+- 29b2c8a: Export `SHORTCODE_PRESETS`, the list of every shortcode preset, including the `discord` and `slack`
+  aliases.
+
+### Patch Changes
+
+- 06b8716: Resolve CLDR annotations as UTS #35 describes:
+  
+  - Locales inherit from their real CLDR parents. `en-gb` now uses `en-001` (129 labels, such as "tick
+    box with tick"), and `es-mx` uses `es-419` (450 labels, such as "lentes de sol").
+  - Labels and keywords inherit separately, so 9 `es-mx` emoji regain their keywords.
+  - Flags and keycaps without a CLDR label are named in the locale's own words, which fixes all 262
+    Danish flags ("flag: USA") and their `cldr` shortcodes.
+  - Keywords keep their CLDR casing in every locale (German nouns, "OK", "DVD"). A keyword identical
+    to the label is now reliably left out of `tags`.
+  - Fix the Hindi label for regional indicators, which was in Bengali.
+- 789b533: Update dependencies to their latest versions, including TypeScript 6.0. The generator now requires
+  Node.js 22 or newer.
+- 29b2c8a: Fix the types failing to compile without the DOM library, such as in Node.js, because
+  `FetchFromCDNOptions` extends `RequestInit`.
+
 ## 17.0.0
 
 ### Major Changes
