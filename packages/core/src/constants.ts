@@ -5,6 +5,7 @@ import type {
 	PermutationOptions,
 	Presentation,
 	Qualifier,
+	ShortcodePreset,
 	SkinTone,
 	SkinToneKey,
 } from './types';
@@ -124,6 +125,19 @@ export const SUPPORTED_LOCALES: Locale[] = [
 	'vi', // Vietnamese
 	'zh', // Chinese
 	'zh-hant', // Chinese (Traditional)
+];
+
+export const SHORTCODE_PRESETS: ShortcodePreset[] = [
+	'cldr',
+	'cldr-native',
+	'discord', // Alias for joypixels
+	'emojibase',
+	'emojibase-legacy',
+	'emojibase-native',
+	'github',
+	'iamcal',
+	'joypixels',
+	'slack', // Alias for iamcal
 ];
 
 // Special options for emoticon permutations.

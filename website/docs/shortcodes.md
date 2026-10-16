@@ -31,9 +31,9 @@ basically slugified variations of the `label` field in the Emojibase emoji objec
 
 ### `cldr-native`
 
-Like [`cldr`](#cldr) but shortcodes are not transliterated to Latin characters. Furthermore, this
-preset will only include shortcodes that do not contain shortcodes that already exist in the `cldr`
-preset.
+Like [`cldr`](#cldr) but shortcodes are not transliterated to Latin characters. It includes every
+emoji, so it can be used on its own instead of alongside `cldr`. Locales whose shortcodes are all
+Latin already do not have this preset.
 
 ```
 // 😁 beaming face with smiling eyes
@@ -64,9 +64,9 @@ languages that are localized, all shortcodes are transliterated to Latin charact
 
 ### `emojibase-native`
 
-Like [`emojibase`](#emojibase) but shortcodes are _not_ transliterated to Latin characters.
-Furthermore, this preset will only include shortcodes that do not contain shortcodes that already
-exist in the `emojibase` preset.
+Like [`emojibase`](#emojibase) but shortcodes are _not_ transliterated to Latin characters. It
+includes every shortcode, so it can be used on its own instead of alongside `emojibase`. Locales
+whose shortcodes are all Latin already do not have this preset.
 
 ### `emojibase-legacy`
 

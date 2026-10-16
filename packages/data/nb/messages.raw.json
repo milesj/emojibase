@@ -54,23 +54,23 @@
   "skinTones": [
     {
       "key": "dark",
-      "message": "mørk hudtone"
+      "message": "hudtype 6"
     },
     {
       "key": "light",
-      "message": "lys hudtone"
+      "message": "hudtype 1–2"
     },
     {
       "key": "medium",
-      "message": "middels hudtone"
+      "message": "hudtype 4"
     },
     {
       "key": "medium-dark",
-      "message": "middels mørk hudtone"
+      "message": "hudtype 5"
     },
     {
       "key": "medium-light",
-      "message": "middels lett hudtone"
+      "message": "hudtype 3"
     }
   ],
   "subgroups": [
@@ -131,17 +131,17 @@
     },
     {
       "key": "face-costume",
-      "message": "kostymet og skapninger",
+      "message": "utkledde og skapninger",
       "order": 11
     },
     {
       "key": "cat-face",
-      "message": "katten ansikter",
+      "message": "katteansikter",
       "order": 12
     },
     {
       "key": "monkey-face",
-      "message": "ape ansikter",
+      "message": "apeansikter",
       "order": 13
     },
     {
@@ -161,7 +161,7 @@
     },
     {
       "key": "hand-fingers-partial",
-      "message": "hånd tegn",
+      "message": "håndtegn",
       "order": 17
     },
     {
@@ -181,7 +181,7 @@
     },
     {
       "key": "hand-prop",
-      "message": "hånd rekvisitter",
+      "message": "håndrekvisitter",
       "order": 21
     },
     {
@@ -216,7 +216,7 @@
     },
     {
       "key": "person-sport",
-      "message": "friidrett",
+      "message": "idrettsutøvere",
       "order": 28
     },
     {
@@ -231,7 +231,7 @@
     },
     {
       "key": "person-symbol",
-      "message": "folk symboler",
+      "message": "personsymboler",
       "order": 31
     },
     {
@@ -241,7 +241,7 @@
     },
     {
       "key": "hair-style",
-      "message": "hår stiler",
+      "message": "frisyrer",
       "order": 33
     },
     {
@@ -271,7 +271,7 @@
     },
     {
       "key": "animal-bug",
-      "message": "feil",
+      "message": "insekter",
       "order": 39
     },
     {
@@ -326,7 +326,7 @@
     },
     {
       "key": "place-map",
-      "message": "globes og kart",
+      "message": "jordkloder og kart",
       "order": 49
     },
     {
@@ -356,7 +356,7 @@
     },
     {
       "key": "transport-water",
-      "message": "transport av vann",
+      "message": "sjøtransport",
       "order": 55
     },
     {
@@ -386,12 +386,12 @@
     },
     {
       "key": "award-medal",
-      "message": "tildele medaljer",
+      "message": "priser og medaljer",
       "order": 61
     },
     {
       "key": "sport",
-      "message": "sports",
+      "message": "sport",
       "order": 62
     },
     {
@@ -456,7 +456,7 @@
     },
     {
       "key": "writing",
-      "message": "skriver",
+      "message": "skriving",
       "order": 75
     },
     {
@@ -466,7 +466,7 @@
     },
     {
       "key": "lock",
-      "message": "lås og taster",
+      "message": "lås og nøkler",
       "order": 77
     },
     {
@@ -476,7 +476,7 @@
     },
     {
       "key": "science",
-      "message": "vitenskap utstyr",
+      "message": "vitenskapelig utstyr",
       "order": 79
     },
     {
@@ -501,7 +501,7 @@
     },
     {
       "key": "warning",
-      "message": "advarsel symboler",
+      "message": "advarselssymboler",
       "order": 84
     },
     {
@@ -516,7 +516,7 @@
     },
     {
       "key": "zodiac",
-      "message": "dyrekretsen tegn",
+      "message": "stjernetegn",
       "order": 87
     },
     {
@@ -551,7 +551,7 @@
     },
     {
       "key": "keycap",
-      "message": "tastatur tegn",
+      "message": "tastaturtegn",
       "order": 94
     },
     {
@@ -571,12 +571,12 @@
     },
     {
       "key": "country-flag",
-      "message": "land flagg",
+      "message": "landsflagg",
       "order": 98
     },
     {
       "key": "subdivision-flag",
-      "message": "underinndeling flagg",
+      "message": "regionale flagg",
       "order": 99
     }
   ]

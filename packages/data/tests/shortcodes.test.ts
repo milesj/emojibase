@@ -1,5 +1,5 @@
 import path from 'node:path';
-import type { ShortcodePreset, ShortcodesDataset } from 'emojibase';
+import { SHORTCODE_PRESETS, type ShortcodePreset, type ShortcodesDataset } from 'emojibase';
 import SHORTCODE_PATTERN from 'emojibase-regex/shortcode';
 import SHORTCODE_NATIVE_PATTERN from 'emojibase-regex/shortcode-native';
 
@@ -23,16 +23,8 @@ function loadShortcodesData(preset: ShortcodePreset): ShortcodesDataset {
 }
 
 describe('shortcodes', () => {
-	const presets: ShortcodePreset[] = [
-		'cldr',
-		'cldr-native',
-		'emojibase',
-		'emojibase-native',
-		'emojibase-legacy',
-		'github',
-		'iamcal',
-		'joypixels',
-	];
+	// Aliases load another preset's dataset
+	const presets = SHORTCODE_PRESETS.filter((preset) => preset !== 'discord' && preset !== 'slack');
 
 	presets.forEach((preset) => {
 		const pattern =
