@@ -39,17 +39,26 @@ As stated, there are 7 regex patterns. One for matching emoji presentation chara
 matching text presentation characters, one for matching both types of characters, and the last for
 matching shortcodes or emoticons.
 
-- `emojibase-regex` - Matches both emoji and text presentation characters.
-- `emojibase-regex/emoji` - Matches only emoji presentation characters.
-- `emojibase-regex/emoji-loose` - Like the above but also includes characters without `FE0F`.
-- `emojibase-regex/text` - Matches only text presentation characters.
-- `emojibase-regex/text-loose` - Like the above but also includes characters without `FE0E`.
+- `emojibase-regex` - Matches every emoji, in emoji or text presentation, including forms that are
+  missing an `FE0F`.
+- `emojibase-regex/emoji` - Matches emoji in emoji presentation: emoji that default to emoji
+  presentation (👍), emoji followed by `FE0F` (©️), and every fully-qualified sequence.
+- `emojibase-regex/emoji-loose` - Like the above but also includes forms that are missing an `FE0F`,
+  like a bare © or 🕵‍♂.
+- `emojibase-regex/text` - Matches emoji in text presentation: emoji followed by `FE0E` (👍︎), and
+  emoji that default to text presentation (©).
+- `emojibase-regex/text-loose` - Like the above but also includes emoji that default to emoji
+  presentation and have a text presentation form, like a bare 👍.
 - `emojibase-regex/emoticon` - Matches supported emoticons and their permutations.
 - `emojibase-regex/shortcode` - Matches supported shortcodes.
 - `emojibase-regex/shortcode-native` - Matches supported shortcodes in their native language
   (`cldr-native`).
 
 Each of these imports return a `RegExp` instance with no flags defined.
+
+The emoji and text patterns never match a character that a selector or skin tone puts in the other
+presentation, so the text patterns do not match the ⚠ in ⚠️. The loose text pattern can still match
+the last character of a ZWJ sequence, like the 🎓 in 🧑‍🎓.
 
 ```ts
 import EMOJI_REGEX from 'emojibase-regex';
@@ -82,34 +91,40 @@ import CODEPOINT_EMOJI_REGEX from 'emojibase-regex/codepoint';
 
 ## Unicode property support
 
-An [ECMAScript proposal](https://github.com/tc39/proposal-regexp-unicode-property-escapes) to
-support Unicode property escapes within regex is currently in the works. This proposal, if passed,
-would enable regex patterns like the following: `/\p{Emoji}/`. This feature would greatly reduce the
-filesize of our regex patterns while being more accurate to the Unicode standard.
+Patterns built from Unicode property escapes, like `\p{Emoji}`, can be found in the `property`
+directory. They are much smaller than the other patterns, and follow the definitions in
+[UTS #51](https://www.unicode.org/reports/tr51/) rather than a list of emoji:
 
-These patterns can be found in the `property` directory, but use at your own risk!
+- `emojibase-regex/property` - Possible emoji, after the grammar in UTS #51.
+- `emojibase-regex/property/emoji` - Fully-qualified emoji, in emoji presentation.
+- `emojibase-regex/property/text` - Emoji in text presentation.
 
 ```ts
 import PROPERTY_EMOJI_REGEX from 'emojibase-regex/property';
 ```
+
+> The `u` (unicode) flag is defined on these patterns.
+
+> They also match well-formed sequences that are not recommended for general use, and they rely on
+> the JavaScript engine's own Unicode data, so emoji newer than the engine do not match.
 
 ## Filesizes
 
 | File                     |     Size | Gzipped |
 | ------------------------ | -------: | ------: |
 | shortcode.js             |     34 B |    54 B |
-| property/text.js         |     60 B |    76 B |
-| property/emoji.js        |    103 B |    93 B |
-| property/index.js        |    115 B |   102 B |
+| property/text.js         |    387 B |   283 B |
 | emoticon.js              |    463 B |   244 B |
+| property/index.js        |    525 B |   363 B |
+| property/emoji.js        |    621 B |   366 B |
 | shortcode-native.js      |    692 B |   425 B |
-| text.js                  |  1.55 kB |   627 B |
-| codepoint/text.js        |  1.89 kB |   648 B |
-| emoji.js                 | 11.87 kB | 2.41 kB |
-| emoji-loose.js           | 12.24 kB | 2.21 kB |
-| text-loose.js            | 12.24 kB | 2.21 kB |
-| codepoint/emoji.js       | 12.44 kB | 2.45 kB |
-| codepoint/emoji-loose.js | 12.64 kB | 2.25 kB |
-| codepoint/text-loose.js  | 12.64 kB | 2.25 kB |
-| index.js                 | 16.01 kB | 2.43 kB |
-| codepoint/index.js       |  16.1 kB | 2.46 kB |
+| text.js                  |  2.58 kB |   773 B |
+| codepoint/text.js        |  3.09 kB |   806 B |
+| text-loose.js            |  3.11 kB |   672 B |
+| codepoint/text-loose.js  |   3.8 kB |   708 B |
+| emoji.js                 | 12.86 kB | 2.37 kB |
+| codepoint/emoji.js       | 12.98 kB | 2.42 kB |
+| codepoint/emoji-loose.js | 16.63 kB | 2.52 kB |
+| codepoint/index.js       | 16.63 kB | 2.51 kB |
+| emoji-loose.js           | 16.68 kB | 2.48 kB |
+| index.js                 | 16.68 kB | 2.48 kB |

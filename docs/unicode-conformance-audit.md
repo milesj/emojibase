@@ -589,7 +589,7 @@ What changed:
 - **Conformance check.** The keyword-case check now ignores the label, because CLDR sometimes lists
   it beside a lowercase twin (e.g. "Zebra" and "zebra").
 
-### Step 4 — Regex package (U2, U3)
+### Step 4 — Regex package (U2, U3) ✅ done
 
 1. Regenerate the variant patterns from the corrected model:
 
@@ -618,6 +618,22 @@ What changed:
 
 3. Add `generate:regex` to the `generate` script, so regex files cannot drift from the data.
 
+What changed:
+
+- **Variants.** The generated variants follow the table above. The anchored `uts51/regex` check is
+  now clean: all 24 entries are gone.
+- **Lookaheads.** The emoji patterns never match a single character before `FE0E`. The text patterns
+  never match one before `FE0F`, ZWJ or a skin tone. A new `uts51/regex-partial` check scans for
+  partial matches. Its only entries are `text-loose` matching the last character of 56 ZWJ sequences
+  (🎓 in 🧑‍🎓). Fixing that needs a lookbehind, which older Safari lacks, so it stays a documented
+  limitation.
+- **`property/*`.** These are rewritten with the `u` flag only, not `v`, because CI still runs
+  Node 18. They are a possible-emoji scanner after the §1.4.9 EBNF, a fully-qualified scanner after
+  ED-18, and a text-presentation pattern. Property escapes use the engine's Unicode data, so the
+  conformance check skips characters the running Node.js doesn't know.
+- **`regex.test.ts`.** The hand-written ⚠ selector cases were updated to the new semantics.
+- **Item 3** needed no change: `bin/generateEmoji.mjs` already runs `generateRegex`.
+
 ### Step 5 — Versions (U6)
 
 1. Replace `extractUnicodeVersion` with the UTS #51 §1.5.2 table:
@@ -643,7 +659,7 @@ What changed:
 | 2     | Step 1 data model          | M    | Done: `meta/unicode-names.json`, `gender` additions, `da`/`sv` keycaps    |
 | 3     | Step 2 presentation        | S–M  | Done: `emoji`/`unicode` for 152 entries; `meta/hexcodes.json`             |
 | 4     | Step 3 CLDR                | M–L  | Done: labels/tags for `en-gb`, `es-mx`, `da`, `hi`; tag casing everywhere |
-| 5     | Step 4 regex               | S–M  | Pattern semantics for `emoji`, `text`, `*-loose`, `property/*`            |
+| 5     | Step 4 regex               | S–M  | Done: pattern semantics for `emoji`, `text`, `*-loose`, `property/*`      |
 | 6     | Step 5 versions            | S    | `versions/unicode.json` buckets                                           |
 
 Steps 1–3 all touch `generateData.ts` and `buildAnnotationData.ts`, so they should land in sequence.

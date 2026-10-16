@@ -146,6 +146,8 @@ describe('regex', () => {
 		return fromCodepointToUnicode(fromHexcodeToCodepoint(hexcode));
 	}
 
+	// ⚠ defaults to text presentation (UTS #51 ED-7), so on its own it is text, or an unqualified
+	// emoji. With a selector, it only matches the patterns for that presentation.
 	const variationSelectors: Test[] = [
 		{
 			type: 'none',
@@ -155,10 +157,12 @@ describe('regex', () => {
 				'comboCodepoint',
 				'emojiLoose',
 				'emojiCodepointLoose',
+				'text',
+				'textCodepoint',
 				'textLoose',
 				'textCodepointLoose',
 			],
-			fail: ['emoji', 'emojiCodepoint', 'text', 'textCodepoint'],
+			fail: ['emoji', 'emojiCodepoint'],
 		},
 		{
 			type: 'emoji',
@@ -170,25 +174,14 @@ describe('regex', () => {
 				'emojiLoose',
 				'emojiCodepoint',
 				'emojiCodepointLoose',
-				'textLoose',
-				'textCodepointLoose',
 			],
-			fail: ['text', 'textCodepoint'],
+			fail: ['text', 'textCodepoint', 'textLoose', 'textCodepointLoose'],
 		},
 		{
 			type: 'text',
 			unicode: createEmoji('26A0-FE0E'),
-			pass: [
-				'combo',
-				'comboCodepoint',
-				'text',
-				'textLoose',
-				'textCodepoint',
-				'textCodepointLoose',
-				'emojiLoose',
-				'emojiCodepointLoose',
-			],
-			fail: ['emoji', 'emojiCodepoint'],
+			pass: ['combo', 'comboCodepoint', 'text', 'textLoose', 'textCodepoint', 'textCodepointLoose'],
+			fail: ['emoji', 'emojiCodepoint', 'emojiLoose', 'emojiCodepointLoose'],
 		},
 	];
 

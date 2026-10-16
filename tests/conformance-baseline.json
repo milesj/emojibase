@@ -5,31 +5,9 @@
 	"uts35/hi/labels": [
 		"1FA8A: CLDR has no name, but the label is \"trombone\""
 	],
-	"uts51/regex": [
-		"emojibase-regex/codepoint/emoji-loose: 1029 minimally-qualified forms do not match, e.g. 1F636-200D-1F32B, 1F642-200D-2194, 1F642-200D-2195",
-		"emojibase-regex/codepoint/emoji-loose: 36 unqualified forms do not match, e.g. 2764-200D-1F525, 2764-200D-1FA79, 1F441-200D-1F5E8-FE0F",
-		"emojibase-regex/codepoint/text-loose: 3585 fully-qualified forms match, e.g. 1F600, 1F603, 1F604",
-		"emojibase-regex/codepoint/text-loose: 9 component forms match, e.g. 1F3FB, 1F3FC, 1F3FD",
-		"emojibase-regex/codepoint/text: 207 bare default-text characters do not match, e.g. 263A, 2639, 2620",
-		"emojibase-regex/emoji-loose: 1029 minimally-qualified forms do not match, e.g. 1F636-200D-1F32B, 1F642-200D-2194, 1F642-200D-2195",
-		"emojibase-regex/emoji-loose: 36 unqualified forms do not match, e.g. 2764-200D-1F525, 2764-200D-1FA79, 1F441-200D-1F5E8-FE0F",
-		"emojibase-regex/property/emoji: 152 bare default-emoji characters that have variation sequences do not match, e.g. 1F610, 1F47D, 270B",
-		"emojibase-regex/property/emoji: 152 redundant emoji presentation sequences (default-emoji X FE0F) do not match, e.g. 231A-FE0F, 231B-FE0F, 23E9-FE0F",
-		"emojibase-regex/property/emoji: 3792 fully-qualified forms do not match, e.g. 1F600, 1F603, 1F604",
-		"emojibase-regex/property/emoji: 9 component forms do not match, e.g. 1F3FB, 1F3FC, 1F3FD",
-		"emojibase-regex/property/text: 207 bare default-text characters do not match, e.g. 263A, 2639, 2620",
-		"emojibase-regex/property/text: 359 text presentation sequences (X FE0E) do not match, e.g. 00A9-FE0E, 00AE-FE0E, 203C-FE0E",
-		"emojibase-regex/property: 1029 minimally-qualified forms do not match, e.g. 1F636-200D-1F32B, 1F642-200D-2194, 1F642-200D-2195",
-		"emojibase-regex/property: 152 bare default-emoji characters that have variation sequences do not match, e.g. 1F610, 1F47D, 270B",
-		"emojibase-regex/property: 152 redundant emoji presentation sequences (default-emoji X FE0F) do not match, e.g. 231A-FE0F, 231B-FE0F, 23E9-FE0F",
-		"emojibase-regex/property: 207 bare default-text characters do not match, e.g. 263A, 2639, 2620",
-		"emojibase-regex/property: 359 text presentation sequences (X FE0E) do not match, e.g. 00A9-FE0E, 00AE-FE0E, 203C-FE0E",
-		"emojibase-regex/property: 36 unqualified forms do not match, e.g. 2764-200D-1F525, 2764-200D-1FA79, 1F441-200D-1F5E8-FE0F",
-		"emojibase-regex/property: 3792 fully-qualified forms do not match, e.g. 1F600, 1F603, 1F604",
-		"emojibase-regex/property: 9 component forms do not match, e.g. 1F3FB, 1F3FC, 1F3FD",
-		"emojibase-regex/text-loose: 3585 fully-qualified forms match, e.g. 1F600, 1F603, 1F604",
-		"emojibase-regex/text-loose: 9 component forms match, e.g. 1F3FB, 1F3FC, 1F3FD",
-		"emojibase-regex/text: 207 bare default-text characters do not match, e.g. 263A, 2639, 2620"
+	"uts51/regex-partial": [
+		"emojibase-regex/codepoint/text-loose: matches part of 56 emoji presentation sequences, e.g. 1F9D1-200D-1F393, 1F9D1-1F3FB-200D-1F393, 1F9D1-1F3FC-200D-1F393",
+		"emojibase-regex/text-loose: matches part of 56 emoji presentation sequences, e.g. 1F9D1-200D-1F393, 1F9D1-1F3FB-200D-1F393, 1F9D1-1F3FC-200D-1F393"
 	],
 	"uts51/versions-unicode": [
 		"0023: listed under 6, but is not an emoji-test.txt form",

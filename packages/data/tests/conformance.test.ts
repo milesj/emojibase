@@ -289,12 +289,15 @@ describe('UTS #51 conformance', () => {
 		expectBaseline('uts51/versions-unicode', violations);
 	});
 
-	it('matches regex patterns by presentation and qualification', () => {
+	describe('regex patterns', () => {
 		interface Candidate {
 			hexcode: string;
 			status: TestStatus | 'not-emoji' | 'redundant-emoji-presentation' | 'text-presentation';
 			isBareVariationBase: boolean;
 		}
+
+		const toUnicodeString = (hexcode: string) =>
+			fromCodepointToUnicode(fromHexcodeToCodepoint(hexcode));
 
 		const candidates: Candidate[] = unicode.lines.map((line) => ({
 			hexcode: line.hexcode,
@@ -352,21 +355,69 @@ describe('UTS #51 conformance', () => {
 		const isTextLoose = (c: Candidate) => isText(c) || c.isBareVariationBase;
 		const isAny = (c: Candidate) => c.status !== 'not-emoji';
 
-		const patterns: Record<string, [RegExp, (c: Candidate) => boolean]> = {
-			'emojibase-regex': [INDEX_PATTERN, isAny],
-			'emojibase-regex/codepoint': [CODEPOINT_INDEX_PATTERN, isAny],
-			'emojibase-regex/codepoint/emoji': [CODEPOINT_EMOJI_PATTERN, isEmoji],
-			'emojibase-regex/codepoint/emoji-loose': [CODEPOINT_EMOJI_LOOSE_PATTERN, isEmojiLoose],
-			'emojibase-regex/codepoint/text': [CODEPOINT_TEXT_PATTERN, isText],
-			'emojibase-regex/codepoint/text-loose': [CODEPOINT_TEXT_LOOSE_PATTERN, isTextLoose],
-			'emojibase-regex/emoji': [EMOJI_PATTERN, isEmoji],
-			'emojibase-regex/emoji-loose': [EMOJI_LOOSE_PATTERN, isEmojiLoose],
-			'emojibase-regex/property': [PROPERTY_INDEX_PATTERN, isAny],
-			'emojibase-regex/property/emoji': [PROPERTY_EMOJI_PATTERN, isEmoji],
-			'emojibase-regex/property/text': [PROPERTY_TEXT_PATTERN, isText],
-			'emojibase-regex/text': [TEXT_PATTERN, isText],
-			'emojibase-regex/text-loose': [TEXT_LOOSE_PATTERN, isTextLoose],
+		const patterns: Record<
+			string,
+			{ pattern: RegExp; presentation: 'any' | 'emoji' | 'text'; shouldMatch: typeof isAny }
+		> = {
+			'emojibase-regex': { pattern: INDEX_PATTERN, presentation: 'any', shouldMatch: isAny },
+			'emojibase-regex/codepoint': {
+				pattern: CODEPOINT_INDEX_PATTERN,
+				presentation: 'any',
+				shouldMatch: isAny,
+			},
+			'emojibase-regex/codepoint/emoji': {
+				pattern: CODEPOINT_EMOJI_PATTERN,
+				presentation: 'emoji',
+				shouldMatch: isEmoji,
+			},
+			'emojibase-regex/codepoint/emoji-loose': {
+				pattern: CODEPOINT_EMOJI_LOOSE_PATTERN,
+				presentation: 'emoji',
+				shouldMatch: isEmojiLoose,
+			},
+			'emojibase-regex/codepoint/text': {
+				pattern: CODEPOINT_TEXT_PATTERN,
+				presentation: 'text',
+				shouldMatch: isText,
+			},
+			'emojibase-regex/codepoint/text-loose': {
+				pattern: CODEPOINT_TEXT_LOOSE_PATTERN,
+				presentation: 'text',
+				shouldMatch: isTextLoose,
+			},
+			'emojibase-regex/emoji': { pattern: EMOJI_PATTERN, presentation: 'emoji', shouldMatch: isEmoji },
+			'emojibase-regex/emoji-loose': {
+				pattern: EMOJI_LOOSE_PATTERN,
+				presentation: 'emoji',
+				shouldMatch: isEmojiLoose,
+			},
+			'emojibase-regex/property': {
+				pattern: PROPERTY_INDEX_PATTERN,
+				presentation: 'any',
+				shouldMatch: isAny,
+			},
+			'emojibase-regex/property/emoji': {
+				pattern: PROPERTY_EMOJI_PATTERN,
+				presentation: 'emoji',
+				shouldMatch: isEmoji,
+			},
+			'emojibase-regex/property/text': {
+				pattern: PROPERTY_TEXT_PATTERN,
+				presentation: 'text',
+				shouldMatch: isText,
+			},
+			'emojibase-regex/text': { pattern: TEXT_PATTERN, presentation: 'text', shouldMatch: isText },
+			'emojibase-regex/text-loose': {
+				pattern: TEXT_LOOSE_PATTERN,
+				presentation: 'text',
+				shouldMatch: isTextLoose,
+			},
 		};
+
+		// Property escapes use the JavaScript engine's own Unicode data, so emoji newer than it
+		// cannot match, whatever the pattern. Skip them, as CI runs several Node.js versions.
+		const isTestable = (name: string, value: string) =>
+			!name.includes('/property') || !/\p{Cn}/u.test(value);
 
 		const describeCandidate = (c: Candidate): string => {
 			if (c.status === 'text-presentation') {
@@ -390,31 +441,69 @@ describe('UTS #51 conformance', () => {
 			return `${c.status} forms`;
 		};
 
-		const violations: string[] = [];
+		it('match each form by presentation and qualification', () => {
+			const violations: string[] = [];
 
-		Object.entries(patterns).forEach(([name, [pattern, shouldMatch]]) => {
-			const whole = new RegExp(`^(?:${pattern.source})$`, pattern.flags.replace('g', ''));
-			const groups = new Map<string, string[]>();
+			Object.entries(patterns).forEach(([name, { pattern, shouldMatch }]) => {
+				const whole = new RegExp(`^(?:${pattern.source})$`, pattern.flags.replace('g', ''));
+				const groups = new Map<string, string[]>();
 
-			candidates.forEach((candidate) => {
-				const expected = shouldMatch(candidate);
+				candidates.forEach((candidate) => {
+					const value = toUnicodeString(candidate.hexcode);
+					const expected = shouldMatch(candidate);
 
-				const unicodeString = fromCodepointToUnicode(fromHexcodeToCodepoint(candidate.hexcode));
+					if (isTestable(name, value) && whole.test(value) !== expected) {
+						const key = `${describeCandidate(candidate)} ${expected ? 'do not match' : 'match'}`;
 
-				if (whole.test(unicodeString) !== expected) {
-					const key = `${describeCandidate(candidate)} ${expected ? 'do not match' : 'match'}`;
+						groups.set(key, [...(groups.get(key) ?? []), candidate.hexcode]);
+					}
+				});
 
-					groups.set(key, [...(groups.get(key) ?? []), candidate.hexcode]);
+				groups.forEach((list, key) => {
+					violations.push(`${name}: ${list.length} ${key}, e.g. ${list.slice(0, 3).join(', ')}`);
+				});
+			});
+
+			expectBaseline('uts51/regex', violations);
+		}, 120_000);
+
+		// Searching text, an emoji pattern must not find "👍" in "👍︎", and a text pattern must
+		// not find "⚠" in "⚠️", "☝" in "☝🏻", or any part of another fully-qualified sequence
+		it('do not match part of an emoji in the other presentation', () => {
+			const textInputs = candidates
+				.filter((c) => c.status === 'text-presentation')
+				.map((c) => c.hexcode);
+			const emojiInputs = candidates
+				.filter((c) => isEmoji(c) && c.hexcode.includes('-'))
+				.map((c) => c.hexcode);
+			const violations: string[] = [];
+
+			Object.entries(patterns).forEach(([name, { pattern, presentation }]) => {
+				if (presentation === 'any') {
+					return;
+				}
+
+				const inputs = presentation === 'emoji' ? textInputs : emojiInputs;
+				const matched = inputs.filter((hexcode) => {
+					const value = toUnicodeString(hexcode);
+
+					return isTestable(name, value) && pattern.test(value);
+				});
+
+				if (matched.length > 0) {
+					const kind = presentation === 'emoji' ? 'text presentation' : 'emoji presentation';
+
+					violations.push(
+						`${name}: matches part of ${matched.length} ${kind} sequences, e.g. ${matched
+							.slice(0, 3)
+							.join(', ')}`,
+					);
 				}
 			});
 
-			groups.forEach((list, key) => {
-				violations.push(`${name}: ${list.length} ${key}, e.g. ${list.slice(0, 3).join(', ')}`);
-			});
-		});
-
-		expectBaseline('uts51/regex', violations);
-	}, 120_000);
+			expectBaseline('uts51/regex-partial', violations);
+		}, 120_000);
+	});
 });
 
 // CI runs the suite once per locale through TEST_LOCALE; updating the baseline covers them all.
