@@ -202,7 +202,7 @@ export const shortcodes = {
   '1F47A': ['goblin', 'japanese_goblin'],
   // 👻 ghost
   '1F47B': ['ghost'],
-  // 👽️ alien
+  // 👽 alien
   '1F47D': ['alien'],
   // 👾 alien monster
   '1F47E': ['alien_monster', 'space_invader'],
@@ -280,27 +280,27 @@ export const shortcodes = {
   '1F4A4': ['zzz'],
   // 👋 waving hand
   '1F44B': ['wave', 'waving_hand'],
-  // ✋️ raised hand
+  // ✋ raised hand
   '270B': ['high_five', 'raised_hand'],
   // 👌 OK hand
   '1F44C': ['ok_hand'],
   // ✌︎ victory hand
   '270C': ['v', 'victory'],
-  // 👈️ backhand index pointing left
+  // 👈 backhand index pointing left
   '1F448': ['point_left'],
-  // 👉️ backhand index pointing right
+  // 👉 backhand index pointing right
   '1F449': ['point_right'],
-  // 👆️ backhand index pointing up
+  // 👆 backhand index pointing up
   '1F446': ['point_up'],
-  // 👇️ backhand index pointing down
+  // 👇 backhand index pointing down
   '1F447': ['point_down'],
   // ☝︎ index pointing up
   '261D': ['point_up_2'],
-  // 👍️ thumbs up
+  // 👍 thumbs up
   '1F44D': ['+1', 'thumbsup', 'yes'],
-  // 👎️ thumbs down
+  // 👎 thumbs down
   '1F44E': ['-1', 'no', 'thumbsdown'],
-  // ✊️ raised fist
+  // ✊ raised fist
   '270A': ['fist'],
   // 👊 oncoming fist
   '1F44A': ['punch'],
@@ -316,7 +316,7 @@ export const shortcodes = {
   '1F485': ['nail_care', 'nail_polish'],
   // 💪 flexed biceps
   '1F4AA': ['muscle', 'right_bicep'],
-  // 👂️ ear
+  // 👂 ear
   '1F442': ['ear'],
   // 👃 nose
   '1F443': ['nose'],
@@ -386,11 +386,11 @@ export const shortcodes = {
   '1F483': ['dancer', 'woman_dancing'],
   // 👯 people with bunny ears
   '1F46F': ['dancers', 'people_with_bunny_ears_partying'],
-  // 🏂️ snowboarder
+  // 🏂 snowboarder
   '1F3C2': ['person_snowboarding', 'snowboarder', 'snowboarding'],
-  // 🏄️ person surfing
+  // 🏄 person surfing
   '1F3C4': ['person_surfing', 'surfer', 'surfing'],
-  // 🏊️ person swimming
+  // 🏊 person swimming
   '1F3CA': ['person_swimming', 'swimmer', 'swimming'],
   // 🛀 person taking bath
   '1F6C0': ['bath', 'person_taking_bath'],
@@ -402,7 +402,7 @@ export const shortcodes = {
   '1F491': ['couple_with_heart'],
   // 👤 bust in silhouette
   '1F464': ['bust_in_silhouette'],
-  // 👪️ family
+  // 👪 family
   '1F46A': ['family'],
   // 👣 footprints
   '1F463': ['footprints'],
@@ -460,7 +460,7 @@ export const shortcodes = {
   '1F424': ['baby_chick'],
   // 🐥 front-facing baby chick
   '1F425': ['hatched_chick'],
-  // 🐦️ bird
+  // 🐦 bird
   '1F426': ['bird', 'bird_face'],
   // 🐧 penguin
   '1F427': ['penguin', 'penguin_face'],
@@ -476,7 +476,7 @@ export const shortcodes = {
   '1F433': ['spouting_whale'],
   // 🐬 dolphin
   '1F42C': ['dolphin'],
-  // 🐟️ fish
+  // 🐟 fish
   '1F41F': ['fish'],
   // 🐠 tropical fish
   '1F420': ['tropical_fish'],
@@ -628,7 +628,7 @@ export const shortcodes = {
   '1F36E': ['custard'],
   // 🍯 honey pot
   '1F36F': ['honey_pot'],
-  // ☕️ hot beverage
+  // ☕ hot beverage
   '2615': ['coffee'],
   // 🍵 teacup without handle
   '1F375': ['tea'],
@@ -636,7 +636,7 @@ export const shortcodes = {
   '1F376': ['sake'],
   // 🍷 wine glass
   '1F377': ['wine_glass'],
-  // 🍸️ cocktail glass
+  // 🍸 cocktail glass
   '1F378': ['cocktail'],
   // 🍹 tropical drink
   '1F379': ['tropical_drink'],
@@ -648,7 +648,7 @@ export const shortcodes = {
   '1F374': ['fork_and_knife'],
   // 🔪 kitchen knife
   '1F52A': ['knife'],
-  // 🌏️ globe showing Asia-Australia
+  // 🌏 globe showing Asia-Australia
   '1F30F': ['earth_asia'],
   // 🗾 map of Japan
   '1F5FE': ['japan_map'],
@@ -656,7 +656,7 @@ export const shortcodes = {
   '1F30B': ['volcano'],
   // 🗻 mount fuji
   '1F5FB': ['mount_fuji'],
-  // 🏠️ house
+  // 🏠 house
   '1F3E0': ['house'],
   // 🏡 house with garden
   '1F3E1': ['house_with_garden'],
@@ -678,7 +678,7 @@ export const shortcodes = {
   '1F3EB': ['school'],
   // 🏬 department store
   '1F3EC': ['department_store'],
-  // 🏭️ factory
+  // 🏭 factory
   '1F3ED': ['factory'],
   // 🏯 Japanese castle
   '1F3EF': ['japanese_castle'],
@@ -690,11 +690,11 @@ export const shortcodes = {
   '1F5FC': ['tokyo_tower'],
   // 🗽 Statue of Liberty
   '1F5FD': ['statue_of_liberty'],
-  // ⛪️ church
+  // ⛪ church
   '26EA': ['church'],
-  // ⛲️ fountain
+  // ⛲ fountain
   '26F2': ['fountain'],
-  // ⛺️ tent
+  // ⛺ tent
   '26FA': ['tent'],
   // 🌁 foggy
   '1F301': ['foggy'],
@@ -728,13 +728,13 @@ export const shortcodes = {
   '1F684': ['bullettrain_side'],
   // 🚅 bullet train
   '1F685': ['bullettrain_front'],
-  // 🚇️ metro
+  // 🚇 metro
   '1F687': ['metro'],
   // 🚉 station
   '1F689': ['station'],
   // 🚌 bus
   '1F68C': ['bus'],
-  // 🚑️ ambulance
+  // 🚑 ambulance
   '1F691': ['ambulance'],
   // 🚒 fire engine
   '1F692': ['fire_engine'],
@@ -748,11 +748,11 @@ export const shortcodes = {
   '1F699': ['blue_car', 'suv'],
   // 🚚 delivery truck
   '1F69A': ['delivery_truck', 'truck'],
-  // 🚲️ bicycle
+  // 🚲 bicycle
   '1F6B2': ['bicycle', 'bike'],
   // 🚏 bus stop
   '1F68F': ['busstop'],
-  // ⛽️ fuel pump
+  // ⛽ fuel pump
   '26FD': ['fuelpump'],
   // 🚨 police car light
   '1F6A8': ['rotating_light'],
@@ -760,9 +760,9 @@ export const shortcodes = {
   '1F6A5': ['traffic_light'],
   // 🚧 construction
   '1F6A7': ['construction'],
-  // ⚓️ anchor
+  // ⚓ anchor
   '2693': ['anchor'],
-  // ⛵️ sailboat
+  // ⛵ sailboat
   '26F5': ['sailboat'],
   // 🚤 speedboat
   '1F6A4': ['speedboat'],
@@ -774,37 +774,37 @@ export const shortcodes = {
   '1F4BA': ['seat'],
   // 🚀 rocket
   '1F680': ['rocket'],
-  // ⌛️ hourglass done
+  // ⌛ hourglass done
   '231B': ['hourglass'],
-  // ⏳️ hourglass not done
+  // ⏳ hourglass not done
   '23F3': ['hourglass_flowing_sand'],
-  // ⌚️ watch
+  // ⌚ watch
   '231A': ['watch'],
-  // ⏰️ alarm clock
+  // ⏰ alarm clock
   '23F0': ['alarm_clock'],
-  // 🕛️ twelve o’clock
+  // 🕛 twelve o’clock
   '1F55B': ['clock12'],
-  // 🕐️ one o’clock
+  // 🕐 one o’clock
   '1F550': ['clock1'],
-  // 🕑️ two o’clock
+  // 🕑 two o’clock
   '1F551': ['clock2'],
-  // 🕒️ three o’clock
+  // 🕒 three o’clock
   '1F552': ['clock3'],
-  // 🕓️ four o’clock
+  // 🕓 four o’clock
   '1F553': ['clock4'],
-  // 🕔️ five o’clock
+  // 🕔 five o’clock
   '1F554': ['clock5'],
-  // 🕕️ six o’clock
+  // 🕕 six o’clock
   '1F555': ['clock6'],
-  // 🕖️ seven o’clock
+  // 🕖 seven o’clock
   '1F556': ['clock7'],
-  // 🕗️ eight o’clock
+  // 🕗 eight o’clock
   '1F557': ['clock8'],
-  // 🕘️ nine o’clock
+  // 🕘 nine o’clock
   '1F558': ['clock9'],
-  // 🕙️ ten o’clock
+  // 🕙 ten o’clock
   '1F559': ['clock10'],
-  // 🕚️ eleven o’clock
+  // 🕚 eleven o’clock
   '1F55A': ['clock11'],
   // 🌑 new moon
   '1F311': ['new_moon'],
@@ -812,7 +812,7 @@ export const shortcodes = {
   '1F313': ['first_quarter_moon'],
   // 🌔 waxing gibbous moon
   '1F314': ['waxing_gibbous_moon'],
-  // 🌕️ full moon
+  // 🌕 full moon
   '1F315': ['full_moon'],
   // 🌙 crescent moon
   '1F319': ['crescent_moon'],
@@ -820,7 +820,7 @@ export const shortcodes = {
   '1F31B': ['first_quarter_moon_with_face'],
   // ☀︎ sun
   '2600': ['sun'],
-  // ⭐️ star
+  // ⭐ star
   '2B50': ['star'],
   // 🌟 glowing star
   '1F31F': ['glowing_star', 'star2'],
@@ -830,7 +830,7 @@ export const shortcodes = {
   '1F30C': ['milky_way'],
   // ☁︎ cloud
   '2601': ['cloud'],
-  // ⛅️ sun behind cloud
+  // ⛅ sun behind cloud
   '26C5': ['partly_sunny', 'sun_behind_cloud'],
   // 🌀 cyclone
   '1F300': ['cyclone'],
@@ -838,13 +838,13 @@ export const shortcodes = {
   '1F308': ['rainbow'],
   // 🌂 closed umbrella
   '1F302': ['closed_umbrella'],
-  // ☔️ umbrella with rain drops
+  // ☔ umbrella with rain drops
   '2614': ['umbrella_with_rain'],
-  // ⚡️ high voltage
+  // ⚡ high voltage
   '26A1': ['high_voltage', 'zap'],
   // ❄︎ snowflake
   '2744': ['snowflake'],
-  // ⛄️ snowman without snow
+  // ⛄ snowman without snow
   '26C4': ['snowman'],
   // 🔥 fire
   '1F525': ['fire'],
@@ -860,7 +860,7 @@ export const shortcodes = {
   '1F386': ['fireworks'],
   // 🎇 sparkler
   '1F387': ['sparkler'],
-  // ✨️ sparkles
+  // ✨ sparkles
   '2728': ['sparkles'],
   // 🎈 balloon
   '1F388': ['balloon'],
@@ -886,11 +886,11 @@ export const shortcodes = {
   '1F381': ['gift'],
   // 🎫 ticket
   '1F3AB': ['ticket'],
-  // 🏆️ trophy
+  // 🏆 trophy
   '1F3C6': ['trophy'],
-  // ⚽️ soccer ball
+  // ⚽ soccer ball
   '26BD': ['soccer'],
-  // ⚾️ baseball
+  // ⚾ baseball
   '26BE': ['baseball'],
   // 🏀 basketball
   '1F3C0': ['basketball'],
@@ -900,7 +900,7 @@ export const shortcodes = {
   '1F3BE': ['tennis'],
   // 🎳 bowling
   '1F3B3': ['bowling'],
-  // ⛳️ flag in hole
+  // ⛳ flag in hole
   '26F3': ['golf'],
   // 🎣 fishing pole
   '1F3A3': ['fishing_pole', 'fishing_pole_and_fish'],
@@ -916,7 +916,7 @@ export const shortcodes = {
   '1F3B1': ['8ball', 'billiards'],
   // 🔮 crystal ball
   '1F52E': ['crystal_ball'],
-  // 🎮️ video game
+  // 🎮 video game
   '1F3AE': ['controller', 'video_game'],
   // 🎰 slot machine
   '1F3B0': ['slot_machine'],
@@ -932,15 +932,15 @@ export const shortcodes = {
   '2663': ['clubs'],
   // 🃏 joker
   '1F0CF': ['black_joker'],
-  // 🀄️ mahjong red dragon
+  // 🀄 mahjong red dragon
   '1F004': ['mahjong'],
   // 🎴 flower playing cards
   '1F3B4': ['flower_playing_cards'],
-  // 🎭️ performing arts
+  // 🎭 performing arts
   '1F3AD': ['performing_arts'],
   // 🎨 artist palette
   '1F3A8': ['art', 'palette'],
-  // 👓️ glasses
+  // 👓 glasses
   '1F453': ['eyeglasses', 'glasses'],
   // 👔 necktie
   '1F454': ['necktie'],
@@ -980,7 +980,7 @@ export const shortcodes = {
   '1F452': ['womans_hat'],
   // 🎩 top hat
   '1F3A9': ['top_hat', 'tophat'],
-  // 🎓️ graduation cap
+  // 🎓 graduation cap
   '1F393': ['graduation_cap', 'mortar_board'],
   // 💄 lipstick
   '1F484': ['lipstick'],
@@ -1004,9 +1004,9 @@ export const shortcodes = {
   '1F3B6': ['musical_notes', 'notes'],
   // 🎤 microphone
   '1F3A4': ['microphone'],
-  // 🎧️ headphone
+  // 🎧 headphone
   '1F3A7': ['headphones'],
-  // 📻️ radio
+  // 📻 radio
   '1F4FB': ['radio'],
   // 🎷 saxophone
   '1F3B7': ['saxophone'],
@@ -1026,7 +1026,7 @@ export const shortcodes = {
   '260E': ['telephone'],
   // 📞 telephone receiver
   '1F4DE': ['telephone_receiver'],
-  // 📟️ pager
+  // 📟 pager
   '1F4DF': ['pager'],
   // 📠 fax machine
   '1F4E0': ['fax', 'fax_machine'],
@@ -1034,29 +1034,29 @@ export const shortcodes = {
   '1F50B': ['battery'],
   // 🔌 electric plug
   '1F50C': ['electric_plug'],
-  // 💻️ laptop
+  // 💻 laptop
   '1F4BB': ['laptop'],
   // 💽 computer disk
   '1F4BD': ['computer_disk', 'minidisc'],
   // 💾 floppy disk
   '1F4BE': ['floppy_disk'],
-  // 💿️ optical disk
+  // 💿 optical disk
   '1F4BF': ['cd', 'optical_disk'],
   // 📀 dvd
   '1F4C0': ['dvd'],
   // 🎥 movie camera
   '1F3A5': ['movie_camera'],
-  // 🎬️ clapper board
+  // 🎬 clapper board
   '1F3AC': ['clapper'],
-  // 📺️ television
+  // 📺 television
   '1F4FA': ['tv'],
-  // 📷️ camera
+  // 📷 camera
   '1F4F7': ['camera'],
-  // 📹️ video camera
+  // 📹 video camera
   '1F4F9': ['video_camera'],
   // 📼 videocassette
   '1F4FC': ['vhs', 'videocassette'],
-  // 🔍️ magnifying glass tilted left
+  // 🔍 magnifying glass tilted left
   '1F50D': ['mag'],
   // 🔎 magnifying glass tilted right
   '1F50E': ['mag_right'],
@@ -1078,7 +1078,7 @@ export const shortcodes = {
   '1F4D8': ['blue_book'],
   // 📙 orange book
   '1F4D9': ['orange_book'],
-  // 📚️ books
+  // 📚 books
   '1F4DA': ['books'],
   // 📓 notebook
   '1F4D3': ['notebook'],
@@ -1096,7 +1096,7 @@ export const shortcodes = {
   '1F4D1': ['bookmark_tabs'],
   // 🔖 bookmark
   '1F516': ['bookmark'],
-  // 💰️ money bag
+  // 💰 money bag
   '1F4B0': ['moneybag'],
   // 💴 yen banknote
   '1F4B4': ['yen'],
@@ -1104,7 +1104,7 @@ export const shortcodes = {
   '1F4B5': ['dollar'],
   // 💸 money with wings
   '1F4B8': ['money_with_wings'],
-  // 💳️ credit card
+  // 💳 credit card
   '1F4B3': ['credit_card'],
   // 💹 chart increasing with yen
   '1F4B9': ['chart'],
@@ -1116,15 +1116,15 @@ export const shortcodes = {
   '1F4E8': ['incoming_envelope'],
   // 📩 envelope with arrow
   '1F4E9': ['envelope_with_arrow'],
-  // 📤️ outbox tray
+  // 📤 outbox tray
   '1F4E4': ['outbox_tray'],
-  // 📥️ inbox tray
+  // 📥 inbox tray
   '1F4E5': ['inbox_tray'],
-  // 📦️ package
+  // 📦 package
   '1F4E6': ['package'],
-  // 📫️ closed mailbox with raised flag
+  // 📫 closed mailbox with raised flag
   '1F4EB': ['mailbox'],
-  // 📪️ closed mailbox with lowered flag
+  // 📪 closed mailbox with lowered flag
   '1F4EA': ['mailbox_closed'],
   // 📮 postbox
   '1F4EE': ['postbox'],
@@ -1152,7 +1152,7 @@ export const shortcodes = {
   '1F4C9': ['chart_decreasing', 'chart_with_downwards_trend'],
   // 📊 bar chart
   '1F4CA': ['bar_chart'],
-  // 📋️ clipboard
+  // 📋 clipboard
   '1F4CB': ['clipboard'],
   // 📌 pushpin
   '1F4CC': ['pushpin'],
@@ -1166,9 +1166,9 @@ export const shortcodes = {
   '1F4D0': ['triangular_ruler'],
   // ✂︎ scissors
   '2702': ['scissors'],
-  // 🔒️ locked
+  // 🔒 locked
   '1F512': ['lock', 'locked'],
-  // 🔓️ unlocked
+  // 🔓 unlocked
   '1F513': ['unlock', 'unlocked'],
   // 🔏 locked with pen
   '1F50F': ['lock_with_ink_pen', 'locked_with_pen'],
@@ -1178,7 +1178,7 @@ export const shortcodes = {
   '1F511': ['key'],
   // 🔨 hammer
   '1F528': ['hammer'],
-  // 💣️ bomb
+  // 💣 bomb
   '1F4A3': ['bomb'],
   // 🔧 wrench
   '1F527': ['wrench'],
@@ -1202,25 +1202,25 @@ export const shortcodes = {
   '1F5FF': ['moai', 'moyai'],
   // 🏧 ATM sign
   '1F3E7': ['atm'],
-  // ♿️ wheelchair symbol
+  // ♿ wheelchair symbol
   '267F': ['handicapped', 'wheelchair'],
-  // 🚹️ men’s room
+  // 🚹 men’s room
   '1F6B9': ['mens'],
-  // 🚺️ women’s room
+  // 🚺 women’s room
   '1F6BA': ['womens'],
   // 🚻 restroom
   '1F6BB': ['bathroom', 'restroom'],
-  // 🚼️ baby symbol
+  // 🚼 baby symbol
   '1F6BC': ['baby_symbol'],
   // 🚾 water closet
   '1F6BE': ['water_closet', 'wc'],
   // ⚠︎ warning
   '26A0': ['warning'],
-  // ⛔️ no entry
+  // ⛔ no entry
   '26D4': ['no_entry'],
   // 🚫 prohibited
   '1F6AB': ['no_entry_sign'],
-  // 🚭️ no smoking
+  // 🚭 no smoking
   '1F6AD': ['no_smoking'],
   // 🔞 no one under eighteen
   '1F51E': ['no_one_under_18', 'underage'],
@@ -1266,47 +1266,47 @@ export const shortcodes = {
   '1F51D': ['top'],
   // 🔯 dotted six-pointed star
   '1F52F': ['six_pointed_star'],
-  // ♈️ Aries
+  // ♈ Aries
   '2648': ['aries'],
-  // ♉️ Taurus
+  // ♉ Taurus
   '2649': ['taurus'],
-  // ♊️ Gemini
+  // ♊ Gemini
   '264A': ['gemini'],
-  // ♋️ Cancer
+  // ♋ Cancer
   '264B': ['cancer'],
-  // ♌️ Leo
+  // ♌ Leo
   '264C': ['leo'],
-  // ♍️ Virgo
+  // ♍ Virgo
   '264D': ['virgo'],
-  // ♎️ Libra
+  // ♎ Libra
   '264E': ['libra'],
-  // ♏️ Scorpio
+  // ♏ Scorpio
   '264F': ['scorpius'],
-  // ♐️ Sagittarius
+  // ♐ Sagittarius
   '2650': ['sagittarius'],
-  // ♑️ Capricorn
+  // ♑ Capricorn
   '2651': ['capricorn'],
-  // ♒️ Aquarius
+  // ♒ Aquarius
   '2652': ['aquarius'],
-  // ♓️ Pisces
+  // ♓ Pisces
   '2653': ['pisces'],
-  // ⛎️ Ophiuchus
+  // ⛎ Ophiuchus
   '26CE': ['ophiuchus'],
   // ▶︎ play button
   '25B6': ['arrow_forward', 'play'],
-  // ⏩️ fast-forward button
+  // ⏩ fast-forward button
   '23E9': ['fast_forward'],
   // ◀︎ reverse button
   '25C0': ['arrow_backward', 'reverse'],
-  // ⏪️ fast reverse button
+  // ⏪ fast reverse button
   '23EA': ['fast_reverse', 'rewind'],
   // 🔼 upwards button
   '1F53C': ['arrow_up_small', 'up'],
-  // ⏫️ fast up button
+  // ⏫ fast up button
   '23EB': ['arrow_double_up', 'fast_up'],
   // 🔽 downwards button
   '1F53D': ['arrow_down_small', 'down'],
-  // ⏬️ fast down button
+  // ⏬ fast down button
   '23EC': ['arrow_double_down', 'fast_down'],
   // 🎦 cinema
   '1F3A6': ['cinema'],
@@ -1318,23 +1318,23 @@ export const shortcodes = {
   '1F4F4': ['mobile_phone_off'],
   // ✖︎ multiply
   '2716': ['multiplication', 'multiply'],
-  // ➕️ plus
+  // ➕ plus
   '2795': ['plus'],
-  // ➖️ minus
+  // ➖ minus
   '2796': ['minus'],
-  // ➗️ divide
+  // ➗ divide
   '2797': ['divide', 'division'],
   // ‼︎ double exclamation mark
   '203C': ['bangbang', 'double_exclamation'],
   // ⁉︎ exclamation question mark
   '2049': ['exclamation_question', 'interrobang'],
-  // ❓️ red question mark
+  // ❓ red question mark
   '2753': ['question'],
-  // ❔️ white question mark
+  // ❔ white question mark
   '2754': ['white_question'],
-  // ❕️ white exclamation mark
+  // ❕ white exclamation mark
   '2755': ['white_exclamation'],
-  // ❗️ red exclamation mark
+  // ❗ red exclamation mark
   '2757': ['exclamation'],
   // 〰︎ wavy dash
   '3030': ['wavy_dash'],
@@ -1350,19 +1350,19 @@ export const shortcodes = {
   '1F4DB': ['name_badge'],
   // 🔰 Japanese symbol for beginner
   '1F530': ['beginner'],
-  // ⭕️ hollow red circle
+  // ⭕ hollow red circle
   '2B55': ['hollow_red_circle', 'red_o'],
-  // ✅️ check mark button
+  // ✅ check mark button
   '2705': ['check_mark_button', 'white_check_mark'],
   // ☑︎ check box with check
   '2611': ['ballot_box_with_check'],
   // ✔︎ check mark
   '2714': ['check_mark', 'heavy_check_mark'],
-  // ❌️ cross mark
+  // ❌ cross mark
   '274C': ['cross_mark', 'x'],
-  // ❎️ cross mark button
+  // ❎ cross mark button
   '274E': ['cross_mark_button', 'negative_squared_cross_mark'],
-  // ➰️ curly loop
+  // ➰ curly loop
   '27B0': ['curly_loop'],
   // 〽︎ part alternation mark
   '303D': ['part_alternation_mark'],
@@ -1454,13 +1454,13 @@ export const shortcodes = {
   '1F237': ['ja_monthly_amount'],
   // 🈶 Japanese “not free of charge” button
   '1F236': ['ja_not_free_of_carge'],
-  // 🈯️ Japanese “reserved” button
+  // 🈯 Japanese “reserved” button
   '1F22F': ['ja_reserved'],
   // 🉐 Japanese “bargain” button
   '1F250': ['ideograph_advantage', 'ja_bargain'],
   // 🈹 Japanese “discount” button
   '1F239': ['ja_discount'],
-  // 🈚️ Japanese “free of charge” button
+  // 🈚 Japanese “free of charge” button
   '1F21A': ['ja_free_of_charge'],
   // 🈲 Japanese “prohibited” button
   '1F232': ['ja_prohibited'],
@@ -1484,21 +1484,21 @@ export const shortcodes = {
   '1F534': ['red_circle'],
   // 🔵 blue circle
   '1F535': ['blue_circle'],
-  // ⚫️ black circle
+  // ⚫ black circle
   '26AB': ['black_circle'],
-  // ⚪️ white circle
+  // ⚪ white circle
   '26AA': ['white_circle'],
-  // ⬛️ black large square
+  // ⬛ black large square
   '2B1B': ['black_large_square'],
-  // ⬜️ white large square
+  // ⬜ white large square
   '2B1C': ['white_large_square'],
   // ◼︎ black medium square
   '25FC': ['black_medium_square'],
   // ◻︎ white medium square
   '25FB': ['white_medium_square'],
-  // ◾️ black medium-small square
+  // ◾ black medium-small square
   '25FE': ['black_medium_small_square'],
-  // ◽️ white medium-small square
+  // ◽ white medium-small square
   '25FD': ['white_medium_small_square'],
   // ▪︎ black small square
   '25AA': ['black_small_square'],
@@ -1552,7 +1552,7 @@ export const shortcodes = {
   '1F1FA-1F1F8': ['flag_us', 'united_states', 'usa'],
 
   // VERSION 0.7
-  // 😐️ neutral face
+  // 😐 neutral face
   '1F610': ['neutral', 'neutral_face'],
   // ☹︎ frowning face
   '2639': ['white_frowning_face'],
@@ -1580,9 +1580,9 @@ export const shortcodes = {
   '1F3CB': ['person_lifting_weights', 'weight_lifter', 'weight_lifting'],
   // 🗣︎ speaking head
   '1F5E3': ['speaking_head'],
-  // 🐕️ dog
+  // 🐕 dog
   '1F415': ['dog'],
-  // 🐈️ cat
+  // 🐈 cat
   '1F408': ['cat'],
   // 🐿︎ chipmunk
   '1F43F': ['chipmunk'],
@@ -1598,9 +1598,9 @@ export const shortcodes = {
   '1F336': ['hot_pepper'],
   // 🍽︎ fork and knife with plate
   '1F37D': ['fork_knife_plate'],
-  // 🌍️ globe showing Europe-Africa
+  // 🌍 globe showing Europe-Africa
   '1F30D': ['earth_africa', 'earth_europe'],
-  // 🌎️ globe showing Americas
+  // 🌎 globe showing Americas
   '1F30E': ['earth_americas'],
   // 🗺︎ world map
   '1F5FA': ['world_map'],
@@ -1632,11 +1632,11 @@ export const shortcodes = {
   '26E9': ['shinto_shrine'],
   // 🏙︎ cityscape
   '1F3D9': ['cityscape'],
-  // 🚍️ oncoming bus
+  // 🚍 oncoming bus
   '1F68D': ['oncoming_bus'],
-  // 🚔️ oncoming police car
+  // 🚔 oncoming police car
   '1F694': ['oncoming_police_car'],
-  // 🚘️ oncoming automobile
+  // 🚘 oncoming automobile
   '1F698': ['oncoming_automobile'],
   // 🏎︎ racing car
   '1F3CE': ['racing_car'],
@@ -1662,31 +1662,31 @@ export const shortcodes = {
   '1F6CE': ['bellhop'],
   // 🕰︎ mantelpiece clock
   '1F570': ['clock'],
-  // 🕧️ twelve-thirty
+  // 🕧 twelve-thirty
   '1F567': ['clock1230'],
-  // 🕜️ one-thirty
+  // 🕜 one-thirty
   '1F55C': ['clock130'],
-  // 🕝️ two-thirty
+  // 🕝 two-thirty
   '1F55D': ['clock230'],
-  // 🕞️ three-thirty
+  // 🕞 three-thirty
   '1F55E': ['clock330'],
-  // 🕟️ four-thirty
+  // 🕟 four-thirty
   '1F55F': ['clock430'],
-  // 🕠️ five-thirty
+  // 🕠 five-thirty
   '1F560': ['clock530'],
-  // 🕡️ six-thirty
+  // 🕡 six-thirty
   '1F561': ['clock630'],
-  // 🕢️ seven-thirty
+  // 🕢 seven-thirty
   '1F562': ['clock730'],
-  // 🕣️ eight-thirty
+  // 🕣 eight-thirty
   '1F563': ['clock830'],
-  // 🕤️ nine-thirty
+  // 🕤 nine-thirty
   '1F564': ['clock930'],
-  // 🕥️ ten-thirty
+  // 🕥 ten-thirty
   '1F565': ['clock1030'],
-  // 🕦️ eleven-thirty
+  // 🕦 eleven-thirty
   '1F566': ['clock1130'],
-  // 🌜️ last quarter moon face
+  // 🌜 last quarter moon face
   '1F31C': ['last_quarter_moon_with_face'],
   // 🌡︎ thermometer
   '1F321': ['thermometer'],
@@ -1734,7 +1734,7 @@ export const shortcodes = {
   '1F6CD': ['shopping_bags'],
   // ⛑︎ rescue worker’s helmet
   '26D1': ['helmet_with_cross', 'rescue_worker_helmet'],
-  // 🔈️ speaker low volume
+  // 🔈 speaker low volume
   '1F508': ['low_volume', 'quiet_sound', 'speaker'],
   // 🎙︎ studio microphone
   '1F399': ['studio_microphone'],
@@ -1760,9 +1760,9 @@ export const shortcodes = {
   '1F5DE': ['rolled_up_newspaper'],
   // 🏷︎ label
   '1F3F7': ['label'],
-  // 📬️ open mailbox with raised flag
+  // 📬 open mailbox with raised flag
   '1F4EC': ['mailbox_with_mail'],
-  // 📭️ open mailbox with lowered flag
+  // 📭 open mailbox with lowered flag
   '1F4ED': ['mailbox_with_no_mail'],
   // 🗳︎ ballot box with ballot
   '1F5F3': ['ballot_box'],
@@ -2178,7 +2178,7 @@ export const shortcodes = {
   '1F506': ['bright_button', 'high_brightness'],
   // ⚜︎ fleur-de-lis
   '269C': ['fleur-de-lis'],
-  // ➿️ double curly loop
+  // ➿ double curly loop
   '27BF': ['double_curly_loop', 'loop'],
   // 🏴 black flag
   '1F3F4': ['black_flag'],

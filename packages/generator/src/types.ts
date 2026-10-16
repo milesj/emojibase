@@ -75,6 +75,7 @@ export type CLDRAnnotationMap = HexcodeMap<CLDRAnnotation>;
 export type CLDRDataMap = Record<string, string>;
 
 export interface CLDRLocaleMap {
+	labelPatterns: CLDRDataMap;
 	labels: CLDRDataMap;
 	subdivisions: CLDRDataMap;
 	territories: CLDRDataMap;
@@ -87,7 +88,6 @@ export interface Emoji {
 	hexcode: Hexcode;
 	property: Property[];
 	type: Presentation;
-	unicodeVersion: string;
 	version: string;
 	// Group
 	group: Group;
@@ -110,7 +110,6 @@ export interface EmojiData {
 	hexcode: Hexcode;
 	property: Property[];
 	type: Presentation;
-	unicodeVersion: number | null;
 	version: number;
 }
 
@@ -120,6 +119,7 @@ export type EmojiQualifiedMap = HexcodeMap<Qualifier>;
 
 export interface EmojiMetadata {
 	group: Group;
+	name: string;
 	order: number;
 	qualifiers: EmojiQualifiedMap;
 	subgroup: Subgroup;

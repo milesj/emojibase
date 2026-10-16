@@ -7,8 +7,8 @@ import {
 } from '../constants';
 import { isHidden } from '../helpers/isHidden';
 import { isObject } from '../helpers/isObject';
-import { log } from '../helpers/log';
 import { toArray } from '../helpers/toArray';
+import { reportFailure } from '../helpers/validation';
 import type { EmojiMap, EmojiVariation } from '../types';
 
 export function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
@@ -73,7 +73,11 @@ export function verifyDataIntegrity(emojis: EmojiMap): EmojiMap {
 
 		// Display errors
 		if (errors.length > 0) {
-			log.error('verify', `Error(s) detected for ${emoji.name} (${hexcode}):\n`, errors.join('\n'));
+			reportFailure(
+				'verify',
+				`Error(s) detected for ${emoji.name} (${hexcode}):\n`,
+				errors.join('\n'),
+			);
 		}
 	});
 

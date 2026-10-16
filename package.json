@@ -20,6 +20,7 @@
     "generate:tests": "cp ./packages/data/en/data.json ./packages/test-utils/test-data.json && cp ./packages/data/en/shortcodes/emojibase.json ./packages/test-utils/test-shortcodes.json && cp ./packages/data/en/messages.json ./packages/test-utils/test-messages.json",
     "generate:types": "node ./bin/generateTypes.mjs",
     "test": "jest --colors --logHeapUsage",
+    "test:conformance:update": "UPDATE_CONFORMANCE_BASELINE=1 jest packages/data/tests/conformance.test.ts",
     "format": "prettier --write .",
     "release": "yarn run pack && yarn run generate && changeset publish",
     "type": "tsc --build"
@@ -34,6 +35,7 @@
     "babel-preset-moon": "^3.0.3",
     "cldr-annotations-derived-full": "^48.0.0",
     "cldr-annotations-full": "^48.0.0",
+    "cldr-core": "^48.0.0",
     "cldr-localenames-full": "^48.0.0",
     "cldr-misc-full": "^48.0.0",
     "eslint": "^8.57.1",

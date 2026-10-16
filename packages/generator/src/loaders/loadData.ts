@@ -17,7 +17,7 @@ export async function loadData(
 		return fetchAndCache(
 			`http://unicode.org/Public/${version}.0/ucd/emoji/emoji-data.txt`,
 			`${version}/data.json`,
-			(data) => parseData(emojiVersion, data, Number.parseFloat(unicodeVersion)),
+			(data) => parseData(emojiVersion, data),
 		);
 	}
 

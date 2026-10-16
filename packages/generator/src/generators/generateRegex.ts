@@ -1,4 +1,4 @@
-import { EMOTICON_OPTIONS, generateEmoticonPermutations } from 'emojibase';
+import { EMOJI, EMOTICON_OPTIONS, generateEmoticonPermutations, TEXT } from 'emojibase';
 import type { Trie } from 'regexgen';
 import regexgen from 'regexgen';
 import { buildEmojiData } from '../builders/buildEmojiData';
@@ -7,12 +7,33 @@ import { flattenData } from '../helpers/flattenData';
 import { log } from '../helpers/log';
 import { toArray } from '../helpers/toArray';
 import { writeRegex } from '../helpers/writeRegex';
-import type { EmojiMap, Hexcode } from '../types';
+import type { Emoji, EmojiMap, Hexcode } from '../types';
 import { toUnicode } from './toUnicode';
 
 type TrieMap = Record<string, Trie>;
 
-function createRegexPattern(codePointGroups: TrieMap, unicode: boolean = false): string {
+type Display = 'both' | 'emoji' | 'text';
+
+type Lookahead = Record<'plain' | 'unicode', string>;
+
+// A single character must not be matched when what follows puts it in the other presentation:
+// "👍" in "👍︎" is text, while "⚠" in "⚠️" or "☝" in "☝🏻" is emoji.
+// http://unicode.org/reports/tr51/#Emoji_Variation_Sequences
+const NOT_BEFORE_TEXT_SELECTOR: Lookahead = {
+	plain: String.raw`(?!\uFE0E)`,
+	unicode: String.raw`(?!\uFE0E)`,
+};
+
+const NOT_BEFORE_EMOJI_CONTEXT: Lookahead = {
+	plain: String.raw`(?!\uFE0F|\u200D|\uD83C[\uDFFB-\uDFFF])`,
+	unicode: String.raw`(?![\uFE0F\u200D\u{1F3FB}-\u{1F3FF}])`,
+};
+
+function createRegexPattern(
+	codePointGroups: TrieMap,
+	unicode: boolean = false,
+	lookahead?: Lookahead,
+): string {
 	const flags = unicode ? 'u' : '';
 	const groups = Object.keys(codePointGroups);
 
@@ -20,12 +41,48 @@ function createRegexPattern(codePointGroups: TrieMap, unicode: boolean = false):
 	// combination characters before base or single characters
 	groups.sort((a, b) => Number(b) - Number(a));
 
-	return groups.map((group) => codePointGroups[group].toRegExp(flags).source).join('|');
+	return groups
+		.map((group) => {
+			const { source } = codePointGroups[group].toRegExp(flags);
+
+			return group === '1' && lookahead
+				? `(?:${source})${lookahead[unicode ? 'unicode' : 'plain']}`
+				: source;
+		})
+		.join('|');
+}
+
+// The forms of an emoji that a pattern matches
+function getForms(emoji: Emoji, display: Display, loose: boolean): (Hexcode | undefined)[] {
+	const { hexcode, variations, type } = emoji;
+	const qualified = Object.keys(emoji.qualifiers ?? {});
+
+	switch (display) {
+		// Emoji presentation: the fully-qualified forms, where default-emoji characters are emoji on
+		// their own while default-text characters need FE0F. When loose, also the forms that are
+		// missing FE0F (minimally-qualified and unqualified).
+		// http://unicode.org/reports/tr51/#def_rgi_emoji_qualification
+		case 'emoji':
+			return loose
+				? [hexcode, variations?.emoji, ...qualified]
+				: [type === EMOJI ? hexcode : undefined, variations?.emoji];
+
+		// Text presentation: text presentation sequences, and default-text characters on their own.
+		// When loose, also default-emoji characters that have a text presentation sequence.
+		case 'text':
+			return variations?.text
+				? [variations.text, type === TEXT || loose ? hexcode : undefined]
+				: [];
+
+		// Should contain everything
+		default:
+			return [hexcode, variations?.emoji, variations?.text, ...qualified];
+	}
 }
 
 async function createEmojiRegex(
 	data: EmojiMap,
-	display: 'both' | 'emoji' | 'text' = 'both',
+	display: Display = 'both',
 	loose: boolean = false,
 ): Promise<string[]> {
 	let fileName = display === 'both' ? 'index' : display;
@@ -37,7 +94,7 @@ async function createEmojiRegex(
 
 	// Push the unicode characters into the trie,
 	// grouped by the number of codepoints
-	const addCodePoint = (hexcode: Hexcode) => {
+	const addCodePoint = (hexcode?: Hexcode) => {
 		if (!hexcode) {
 			return;
 		}
@@ -51,58 +108,23 @@ async function createEmojiRegex(
 		codePointGroups[group].add(toUnicode(hexcode));
 	};
 
-	// Note: variation selectors are sometimes added to old emojis,
-	// but we still need to support the old non-variation selector,
-	// so include the unicode character that does not include FE0E/FE0F
-	// when in loose mode.
-	Object.keys(data).forEach((hexcode) => {
-		const { variations, qualifiers } = data[hexcode];
-
-		switch (display) {
-			// Should only contain emoji presentation
-			case 'emoji':
-				if (!variations || loose) {
-					addCodePoint(hexcode);
-				}
-
-				if (variations?.emoji) {
-					addCodePoint(variations.emoji);
-				}
-
-				break;
-
-			// Should only contain text presentation
-			case 'text':
-				if (loose) {
-					addCodePoint(hexcode);
-				}
-
-				if (variations?.text) {
-					addCodePoint(variations.text);
-				}
-
-				break;
-
-			// Should contain everything
-			default:
-				addCodePoint(hexcode);
-
-				if (variations) {
-					addCodePoint(variations.emoji);
-					addCodePoint(variations.text);
-				}
-
-				if (qualifiers) {
-					Object.keys(qualifiers).forEach(addCodePoint);
-				}
-
-				break;
-		}
+	Object.values(data).forEach((emoji) => {
+		getForms(emoji, display, loose).forEach(addCodePoint);
 	});
 
+	const lookahead = {
+		both: undefined,
+		emoji: NOT_BEFORE_TEXT_SELECTOR,
+		text: NOT_BEFORE_EMOJI_CONTEXT,
+	}[display];
+
 	return Promise.all([
-		writeRegex(`${fileName}.js`, createRegexPattern(codePointGroups)),
-		writeRegex(`codepoint/${fileName}.js`, createRegexPattern(codePointGroups, true), 'u'),
+		writeRegex(`${fileName}.js`, createRegexPattern(codePointGroups, false, lookahead)),
+		writeRegex(
+			`codepoint/${fileName}.js`,
+			createRegexPattern(codePointGroups, true, lookahead),
+			'u',
+		),
 	]);
 }
 

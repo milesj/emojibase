@@ -2,10 +2,10 @@
 
 import {
 	type Emoji as FinalEmoji,
+	FULLY_QUALIFIED,
 	type GroupMessage,
 	type Locale,
 	type SkinToneMessage,
-	stripHexcode,
 	type SubgroupMessage,
 	SUPPORTED_LOCALES,
 } from 'emojibase';
@@ -14,6 +14,7 @@ import { buildEmojiData } from '../builders/buildEmojiData';
 import { filterData } from '../helpers/filterData';
 import { log } from '../helpers/log';
 import { readCache } from '../helpers/readCache';
+import { toAnnotationKey } from '../helpers/toAnnotationKey';
 import { writeDataset } from '../helpers/writeDataset';
 import { loadPoMessages } from '../loaders/loadPoMessages';
 import type {
@@ -30,6 +31,18 @@ import { toUnicode } from './toUnicode';
 
 type HexcodeVersionMap = Record<string, number>;
 
+// The fully-qualified form from emoji-test.txt, which only has FE0F for text-default emoji.
+// Uncategorized emoji, like regional indicators, have none, so use their hexcode.
+// http://unicode.org/reports/tr51/#def_rgi_emoji_qualification
+function getFullyQualifiedHexcode(emoji: Emoji | EmojiModification): Hexcode {
+	const qualifiers = emoji.qualifiers ?? {};
+
+	return (
+		Object.keys(qualifiers).find((hexcode) => qualifiers[hexcode] === FULLY_QUALIFIED) ??
+		emoji.hexcode
+	);
+}
+
 function createEmoji(
 	baseEmoji: Emoji | EmojiModification,
 	versions: HexcodeVersionMap,
@@ -42,7 +55,7 @@ function createEmoji(
 		hexcode: baseEmoji.hexcode,
 		tags: [],
 		// Presentation
-		emoji: toUnicode(baseEmoji.hexcode),
+		emoji: toUnicode(getFullyQualifiedHexcode(baseEmoji)),
 		text: '',
 		type: baseEmoji.type,
 		// Categorization
@@ -67,9 +80,8 @@ function createEmoji(
 		emoji.tone = baseEmoji.tone;
 	}
 
-	// Presentation variations
+	// Text presentation sequence
 	if ('variations' in baseEmoji) {
-		emoji.emoji = toUnicode(baseEmoji.variations!.emoji);
 		emoji.text = toUnicode(baseEmoji.variations!.text);
 	}
 
@@ -78,10 +90,10 @@ function createEmoji(
 	}
 
 	// Annotations
-	const annotation = annotations[stripHexcode(emoji.hexcode)]; // No ZWJ, selectors
+	const annotation = annotations[toAnnotationKey(emoji.hexcode)];
 
 	if (annotation) {
-		emoji.label = annotation.annotation ? annotation.annotation : baseEmoji.description;
+		emoji.label = annotation.annotation;
 
 		if (annotation.tags.length > 0) {
 			emoji.tags = annotation.tags;
@@ -100,8 +112,6 @@ function createEmoji(
 	if ('modifications' in baseEmoji) {
 		emoji.skins = Object.values(baseEmoji.modifications!).map((mod) => {
 			const skin = createEmoji(mod, versions, annotations);
-
-			skin.label = annotations[stripHexcode(skin.hexcode)]?.annotation || emoji.label || '';
 
 			// Remove any tags
 			delete skin.tags;

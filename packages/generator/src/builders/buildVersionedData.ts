@@ -1,9 +1,11 @@
 import { log } from '../helpers/log';
 import { readCache } from '../helpers/readCache';
+import { assertNoFailures } from '../helpers/validation';
 import { writeCache } from '../helpers/writeCache';
 import { loadData } from '../loaders/loadData';
 import { loadSequences } from '../loaders/loadSequences';
 import { loadZwjSequences } from '../loaders/loadZwjSequences';
+import { extractUnicodeVersion } from '../parsers/extractUnicodeVersion';
 import type { EmojiDataMap } from '../types';
 
 export type VersionDataMap = Record<string, EmojiDataMap>;
@@ -30,7 +32,8 @@ export async function buildVersionedData(): Promise<VersionDataSet> {
 	const partitionVersions = (data: EmojiDataMap) => {
 		Object.keys(data).forEach((hexcode) => {
 			const emoji = data[hexcode];
-			const { version, unicodeVersion } = data[hexcode];
+			const { version } = emoji;
+			const unicodeVersion = extractUnicodeVersion(version);
 
 			// Was introduced in a prior version
 			if (used[hexcode]) {
@@ -60,6 +63,9 @@ export async function buildVersionedData(): Promise<VersionDataSet> {
 	partitionVersions(await loadData());
 	partitionVersions(await loadSequences());
 	partitionVersions(await loadZwjSequences());
+
+	// Parsing verifies totals, so stop before caching if that failed
+	assertNoFailures('Building versioned data');
 
 	// Cache the partitioned files
 	await writeCache('final/emoji-unicode-versions.json', {

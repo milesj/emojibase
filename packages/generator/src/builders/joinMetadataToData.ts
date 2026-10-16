@@ -1,6 +1,6 @@
-import { EMOJI, FULLY_QUALIFIED, TEXT } from 'emojibase';
-import { SEQUENCE_REMOVAL_PATTERN, SKIN_MODIFIER_PATTERN } from '../constants';
-import { hasProperty } from '../helpers/hasProperty';
+import { EMOJI, TEXT } from 'emojibase';
+import { getDescription } from '../helpers/getDescription';
+import { extractGender } from '../parsers/extractGender';
 import type {
 	EmojiMap,
 	EmojiMetadataMap,
@@ -28,41 +28,16 @@ export function joinMetadataToData(
 			? EMOJI
 			: TEXT;
 
-		// Pull in the official name for each hexcode part
-		const name: string[] = [];
+		emoji.description = getDescription(emoji, names, metadata);
 
-		// Tag and flag sequences don't have meaningful names,
-		// so use the descriptions parsed from the offical data files
-		if (
-			hasProperty(emoji.property, [
-				'Emoji_Flag_Sequence',
-				'RGI_Emoji_Flag_Sequence',
-				'Emoji_Tag_Sequence',
-				'RGI_Emoji_Tag_Sequence',
-			])
-		) {
-			name.push(emoji.description.toUpperCase());
-		} else {
-			let hasSkinTone = '';
+		// Single code points use their Unicode name. Sequences have none, so use the CLDR short
+		// name the data files give them, uppercased to match.
+		// http://unicode.org/reports/tr51/#Data_Files_Table
+		emoji.name = hexcode.includes('-') ? emoji.description.toUpperCase() : (names[hexcode] ?? '');
 
-			hexcode.split('-').forEach((code) => {
-				if (code.match(SEQUENCE_REMOVAL_PATTERN)) {
-					// Skip joiners
-				} else if (code.match(SKIN_MODIFIER_PATTERN)) {
-					hasSkinTone = code;
-				} else if (names[code]) {
-					name.push(names[code]);
-				}
-			});
+		// http://unicode.org/reports/tr51/#Gender
+		emoji.gender = extractGender(hexcode);
 
-			// If an emoji sequence utilizes a skin tone, let's move that part of
-			// the name to the very end, as it's quite jarring otherwise.
-			if (hasSkinTone) {
-				name.push(names[hasSkinTone]);
-			}
-		}
-
-		emoji.name = name.join(', ');
 		emoji.qualifiers = {};
 
 		// Pull in the official group and order
@@ -73,20 +48,14 @@ export function joinMetadataToData(
 			emoji.qualifiers = metadata[hexcode].qualifiers;
 		}
 
-		// Pull in text and emoji variations
+		// Pull in text and emoji variations. They are not added to the qualifiers, as a text
+		// presentation sequence is not a qualified emoji, and qualifiers mirror emoji-test.txt.
+		// http://unicode.org/reports/tr51/#def_rgi_emoji_qualification
 		if (variations[hexcode]) {
 			emoji.variations = {
 				emoji: variations[hexcode].emoji,
 				text: variations[hexcode].text,
 			};
-
-			if (emoji.variations.emoji) {
-				emoji.qualifiers[emoji.variations.emoji] = FULLY_QUALIFIED;
-			}
-
-			if (emoji.variations.text) {
-				emoji.qualifiers[emoji.variations.text] = FULLY_QUALIFIED;
-			}
 		}
 
 		// Pull in emoticon

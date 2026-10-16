@@ -16,8 +16,7 @@ import {
 	WOMAN,
 } from '../constants';
 import { hasProperty } from '../helpers/hasProperty';
-import { log } from '../helpers/log';
-import { extractSkinTone } from '../parsers/extractSkinTone';
+import { reportFailure } from '../helpers/validation';
 import type { Emoji, EmojiMap, EmojiModification, SkinTone } from '../types';
 
 const SKIN_HEXCODE_PATTERN = new RegExp(`-(${SKIN_MODIFIER_PATTERN.source})`, 'g');
@@ -30,20 +29,16 @@ const SKIN_TONES: Record<string, SkinTone> = {
 	[DARK_SKIN_MODIFIER]: DARK_SKIN, // 5
 };
 
+// Skin tones only come from the RGI modifier and ZWJ sequences. They are never synthesized for
+// every Emoji_Modifier_Base, as not all have them (e.g. 1F46A family).
+// http://unicode.org/reports/tr51/#Emoji_Sets
 export function joinModifiersToData(emojis: EmojiMap) {
 	Object.keys(emojis).forEach((hexcode) => {
 		const emoji = emojis[hexcode];
 
 		// Handle appending a skin tone modification
 		const addModification = (parent: Emoji, mod: EmojiModification) => {
-			const modsMap = parent.modifications ?? {};
-
-			modsMap[mod.hexcode] = {
-				...mod,
-				...modsMap[mod.hexcode],
-			};
-
-			parent.modifications = modsMap;
+			parent.modifications = { ...parent.modifications, [mod.hexcode]: mod };
 		};
 
 		// Merge Emoji_ZWJ_Sequence and Emoji_Modifier_Sequence emojis into their parent
@@ -122,7 +117,7 @@ export function joinModifiersToData(emojis: EmojiMap) {
 				);
 
 				parentEmoji = emojis[parentHexcode] || emojis[parentHexcodeWithVariation];
-				tone = extractSkinTone(emoji.name);
+				tone = SKIN_TONES[hexcode.match(SKIN_MODIFIER_PATTERN)![0]];
 			}
 
 			if (parentEmoji && tone) {
@@ -131,24 +126,11 @@ export function joinModifiersToData(emojis: EmojiMap) {
 					tone,
 				});
 			} else {
-				log.error('error', `No parent emoji found for ${hexcode}`);
+				reportFailure('build', `No parent emoji found for ${hexcode}`);
 			}
 
 			// Remove the modification from the root
 			delete emojis[hexcode];
-
-			// Generate Emoji_Modifier_Base modifications manually
-		} else if (hasProperty(emoji.property, ['Emoji_Modifier_Base'])) {
-			Object.keys(SKIN_TONES).forEach((skinHexcode) => {
-				const mod = emojis[skinHexcode];
-
-				// @ts-expect-error Allow partial shape
-				addModification(emoji, {
-					hexcode: `${emoji.hexcode}-${mod.hexcode}`,
-					name: `${emoji.name}, ${mod.name}`,
-					tone: SKIN_TONES[skinHexcode],
-				});
-			});
 		}
 	});
 }

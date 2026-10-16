@@ -1,4 +1,10 @@
-import { FULLY_QUALIFIED, MINIMALLY_QUALIFIED, type Qualifier, UNQUALIFIED } from 'emojibase';
+import {
+	COMPONENT,
+	FULLY_QUALIFIED,
+	MINIMALLY_QUALIFIED,
+	type Qualifier,
+	UNQUALIFIED,
+} from 'emojibase';
 
 export function extractQualifier(type: string): Qualifier | null {
 	if (type === 'fully-qualified') {
@@ -11,6 +17,10 @@ export function extractQualifier(type: string): Qualifier | null {
 
 	if (type === 'unqualified') {
 		return UNQUALIFIED;
+	}
+
+	if (type === 'component') {
+		return COMPONENT;
 	}
 
 	return null;

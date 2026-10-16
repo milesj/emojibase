@@ -1009,7 +1009,7 @@
       "kommentar",
       "neutralt"
     ],
-    "emoji": "😐️",
+    "emoji": "😐",
     "text": "😐︎",
     "type": 1,
     "order": 40,
@@ -2503,7 +2503,7 @@
       "saga",
       "ufo"
     ],
-    "emoji": "👽️",
+    "emoji": "👽",
     "text": "👽︎",
     "type": 1,
     "order": 123,
@@ -3679,7 +3679,7 @@
       "handflata",
       "uppräckt"
     ],
-    "emoji": "✋️",
+    "emoji": "✋",
     "text": "✋︎",
     "type": 1,
     "order": 207,
@@ -3753,9 +3753,9 @@
     "label": "vulcan-hälsning",
     "hexcode": "1F596",
     "tags": [
+      "Star Trek",
       "hand",
       "spock",
-      "star trek",
       "vulcan"
     ],
     "emoji": "🖖",
@@ -4322,11 +4322,11 @@
     "label": "OK-tecken",
     "hexcode": "1F44C",
     "tags": [
+      "Instämmer",
+      "Javisst",
+      "OK",
+      "Ok",
       "hand",
-      "instämmer",
-      "javisst",
-      "ok",
-      "ok-tecken",
       "tecken"
     ],
     "emoji": "👌",
@@ -5039,7 +5039,7 @@
       "peka åt vänster",
       "pekfinger"
     ],
-    "emoji": "👈️",
+    "emoji": "👈",
     "text": "👈︎",
     "type": 1,
     "order": 310,
@@ -5116,7 +5116,7 @@
       "peka åt höger",
       "pekfinger"
     ],
-    "emoji": "👉️",
+    "emoji": "👉",
     "text": "👉︎",
     "type": 1,
     "order": 316,
@@ -5195,7 +5195,7 @@
       "peka uppåt",
       "pekfinger"
     ],
-    "emoji": "👆️",
+    "emoji": "👆",
     "text": "👆︎",
     "type": 1,
     "order": 322,
@@ -5350,7 +5350,7 @@
       "peka nedåt",
       "pekfinger"
     ],
-    "emoji": "👇️",
+    "emoji": "👇",
     "text": "👇︎",
     "type": 1,
     "order": 334,
@@ -5588,7 +5588,7 @@
       "tumme",
       "upp"
     ],
-    "emoji": "👍️",
+    "emoji": "👍",
     "text": "👍︎",
     "type": 1,
     "order": 353,
@@ -5666,7 +5666,7 @@
       "ogilla",
       "tumme"
     ],
-    "emoji": "👎️",
+    "emoji": "👎",
     "text": "👎︎",
     "type": 1,
     "order": 359,
@@ -5743,7 +5743,7 @@
       "hand",
       "knytnäve"
     ],
-    "emoji": "✊️",
+    "emoji": "✊",
     "text": "✊︎",
     "type": 1,
     "order": 365,
@@ -7388,7 +7388,7 @@
     "tags": [
       "kropp"
     ],
-    "emoji": "👂️",
+    "emoji": "👂",
     "text": "👂︎",
     "type": 1,
     "order": 490,
@@ -7931,6 +7931,7 @@
     "group": 1,
     "subgroup": 23,
     "version": 0.6,
+    "gender": 1,
     "skins": [
       {
         "label": "pojke: ljus hy",
@@ -7942,6 +7943,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -7954,6 +7956,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -7966,6 +7969,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -7978,6 +7982,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -7990,6 +7995,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -8010,6 +8016,7 @@
     "group": 1,
     "subgroup": 23,
     "version": 0.6,
+    "gender": 0,
     "skins": [
       {
         "label": "flicka: ljus hy",
@@ -8021,6 +8028,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -8033,6 +8041,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -8045,6 +8054,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -8057,6 +8067,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -8069,6 +8080,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -8241,6 +8253,7 @@
     "group": 1,
     "subgroup": 23,
     "version": 0.6,
+    "gender": 1,
     "skins": [
       {
         "label": "man: ljus hy",
@@ -8252,6 +8265,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -8264,6 +8278,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -8276,6 +8291,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -8288,6 +8304,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -8300,6 +8317,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -8562,6 +8580,7 @@
     "group": 1,
     "subgroup": 23,
     "version": 11,
+    "gender": 1,
     "skins": [
       {
         "label": "man: ljus hy, rödhårig",
@@ -8573,6 +8592,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -8585,6 +8605,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -8597,6 +8618,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -8609,6 +8631,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -8621,6 +8644,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -8640,6 +8664,7 @@
     "group": 1,
     "subgroup": 23,
     "version": 11,
+    "gender": 1,
     "skins": [
       {
         "label": "man: ljus hy, lockigt hår",
@@ -8651,6 +8676,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -8663,6 +8689,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -8675,6 +8702,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -8687,6 +8715,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -8699,6 +8728,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -8718,6 +8748,7 @@
     "group": 1,
     "subgroup": 23,
     "version": 11,
+    "gender": 1,
     "skins": [
       {
         "label": "man: ljus hy, vithårig",
@@ -8729,6 +8760,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -8741,6 +8773,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -8753,6 +8786,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -8765,6 +8799,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -8777,6 +8812,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -8796,6 +8832,7 @@
     "group": 1,
     "subgroup": 23,
     "version": 11,
+    "gender": 1,
     "skins": [
       {
         "label": "man: ljus hy, skallig",
@@ -8807,6 +8844,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -8819,6 +8857,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -8831,6 +8870,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -8843,6 +8883,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -8855,6 +8896,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -8872,6 +8914,7 @@
     "group": 1,
     "subgroup": 23,
     "version": 0.6,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinna: ljus hy",
@@ -8883,6 +8926,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -8895,6 +8939,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -8907,6 +8952,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -8919,6 +8965,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -8931,6 +8978,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -8950,6 +8998,7 @@
     "group": 1,
     "subgroup": 23,
     "version": 11,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinna: ljus hy, rödhårig",
@@ -8961,6 +9010,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -8973,6 +9023,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -8985,6 +9036,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -8997,6 +9049,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -9009,6 +9062,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -9107,6 +9161,7 @@
     "group": 1,
     "subgroup": 23,
     "version": 11,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinna: ljus hy, lockigt hår",
@@ -9118,6 +9173,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -9130,6 +9186,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -9142,6 +9199,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -9154,6 +9212,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -9166,6 +9225,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -9264,6 +9324,7 @@
     "group": 1,
     "subgroup": 23,
     "version": 11,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinna: ljus hy, vithårig",
@@ -9275,6 +9336,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -9287,6 +9349,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -9299,6 +9362,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -9311,6 +9375,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -9323,6 +9388,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -9421,6 +9487,7 @@
     "group": 1,
     "subgroup": 23,
     "version": 11,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinna: ljus hy, skallig",
@@ -9432,6 +9499,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -9444,6 +9512,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -9456,6 +9525,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -9468,6 +9538,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -9480,6 +9551,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 11,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -9825,6 +9897,7 @@
     "group": 1,
     "subgroup": 23,
     "version": 0.6,
+    "gender": 1,
     "skins": [
       {
         "label": "gammal man: ljus hy",
@@ -9836,6 +9909,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -9848,6 +9922,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -9860,6 +9935,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -9872,6 +9948,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -9884,6 +9961,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -9904,6 +9982,7 @@
     "group": 1,
     "subgroup": 23,
     "version": 0.6,
+    "gender": 0,
     "skins": [
       {
         "label": "gammal kvinna: ljus hy",
@@ -9915,6 +9994,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -9927,6 +10007,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -9939,6 +10020,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -9951,6 +10033,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -9963,6 +10046,7 @@
         "group": 1,
         "subgroup": 23,
         "version": 1,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -10468,11 +10552,10 @@
     "tags": [
       "förbjudet",
       "gest",
-      "gest för nej",
+      "gest för NEJ",
       "icke",
-      "kvinna som gestikulerar nej",
-      "nej",
-      "person gestikulerar nej"
+      "kvinna som gestikulerar NEJ",
+      "nej"
     ],
     "emoji": "🙅",
     "text": "",
@@ -10550,8 +10633,7 @@
     "tags": [
       "förbjudet",
       "gest",
-      "man",
-      "man gestikulerar nej"
+      "man"
     ],
     "emoji": "🙅‍♂️",
     "text": "",
@@ -10635,8 +10717,7 @@
     "tags": [
       "förbjudet",
       "gest",
-      "kvinna",
-      "kvinna gestikulerar nej"
+      "kvinna"
     ],
     "emoji": "🙅‍♀️",
     "text": "",
@@ -10719,11 +10800,10 @@
     "hexcode": "1F646",
     "tags": [
       "gest",
-      "gest för ok",
+      "gest för OK",
       "hand",
-      "kvinna som gestikulerar ok",
-      "okej",
-      "person gestikulerar ok"
+      "kvinna som gestikulerar OK",
+      "okej"
     ],
     "emoji": "🙆",
     "text": "",
@@ -10800,9 +10880,8 @@
     "hexcode": "1F646-200D-2642-FE0F",
     "tags": [
       "gest",
-      "gest för ok",
+      "gest för OK",
       "hand",
-      "man gestikulerar ok",
       "okej"
     ],
     "emoji": "🙆‍♂️",
@@ -10886,9 +10965,8 @@
     "hexcode": "1F646-200D-2640-FE0F",
     "tags": [
       "gest",
-      "gest för ok",
+      "gest för OK",
       "hand",
-      "kvinna gestikulerar ok",
       "okej"
     ],
     "emoji": "🙆‍♀️",
@@ -12571,6 +12649,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 1,
     "skins": [
       {
         "label": "manlig läkare: ljus hy",
@@ -12582,6 +12661,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -12594,6 +12674,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -12606,6 +12687,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -12618,6 +12700,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -12630,6 +12713,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -12652,6 +12736,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinnlig läkare: ljus hy",
@@ -12663,6 +12748,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -12675,6 +12761,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -12687,6 +12774,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -12699,6 +12787,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -12711,6 +12800,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -12807,6 +12897,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 1,
     "skins": [
       {
         "label": "manlig student: ljus hy",
@@ -12818,6 +12909,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -12830,6 +12922,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -12842,6 +12935,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -12854,6 +12948,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -12866,6 +12961,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -12886,6 +12982,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinnlig student: ljus hy",
@@ -12897,6 +12994,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -12909,6 +13007,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -12921,6 +13020,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -12933,6 +13033,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -12945,6 +13046,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -13043,6 +13145,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 1,
     "skins": [
       {
         "label": "manlig lärare: ljus hy",
@@ -13054,6 +13157,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -13066,6 +13170,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -13078,6 +13183,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -13090,6 +13196,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -13102,6 +13209,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -13123,6 +13231,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinnlig lärare: ljus hy",
@@ -13134,6 +13243,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -13146,6 +13256,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -13158,6 +13269,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -13170,6 +13282,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -13182,6 +13295,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -13278,6 +13392,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 1,
     "skins": [
       {
         "label": "manlig domare: ljus hy",
@@ -13289,6 +13404,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -13301,6 +13417,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -13313,6 +13430,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -13325,6 +13443,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -13337,6 +13456,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -13357,6 +13477,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinnlig domare: ljus hy",
@@ -13368,6 +13489,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -13380,6 +13502,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -13392,6 +13515,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -13404,6 +13528,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -13416,6 +13541,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -13513,6 +13639,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 1,
     "skins": [
       {
         "label": "manlig bonde: ljus hy",
@@ -13524,6 +13651,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -13536,6 +13664,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -13548,6 +13677,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -13560,6 +13690,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -13572,6 +13703,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -13592,6 +13724,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinnlig bonde: ljus hy",
@@ -13603,6 +13736,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -13615,6 +13749,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -13627,6 +13762,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -13639,6 +13775,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -13651,6 +13788,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -13746,6 +13884,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 1,
     "skins": [
       {
         "label": "manlig kock: ljus hy",
@@ -13757,6 +13896,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -13769,6 +13909,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -13781,6 +13922,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -13793,6 +13935,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -13805,6 +13948,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -13824,6 +13968,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinnlig kock: ljus hy",
@@ -13835,6 +13980,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -13847,6 +13993,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -13859,6 +14006,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -13871,6 +14019,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -13883,6 +14032,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -13982,6 +14132,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 1,
     "skins": [
       {
         "label": "manlig mekaniker: ljus hy",
@@ -13993,6 +14144,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -14005,6 +14157,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -14017,6 +14170,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -14029,6 +14183,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -14041,6 +14196,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -14061,6 +14217,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinnlig mekaniker: ljus hy",
@@ -14072,6 +14229,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -14084,6 +14242,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -14096,6 +14255,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -14108,6 +14268,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -14120,6 +14281,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -14218,6 +14380,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 1,
     "skins": [
       {
         "label": "manlig fabriksarbetare: ljus hy",
@@ -14229,6 +14392,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -14241,6 +14405,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -14253,6 +14418,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -14265,6 +14431,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -14277,6 +14444,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -14297,6 +14465,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinnlig fabriksarbetare: ljus hy",
@@ -14308,6 +14477,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -14320,6 +14490,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -14332,6 +14503,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -14344,6 +14516,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -14356,6 +14529,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -14455,6 +14629,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 1,
     "skins": [
       {
         "label": "kontorstjänsteman: ljus hy",
@@ -14466,6 +14641,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -14478,6 +14654,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -14490,6 +14667,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -14502,6 +14680,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -14514,6 +14693,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -14534,6 +14714,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 0,
     "skins": [
       {
         "label": "kontorstjänstekvinna: ljus hy",
@@ -14545,6 +14726,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -14557,6 +14739,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -14569,6 +14752,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -14581,6 +14765,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -14593,6 +14778,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -14693,6 +14879,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 1,
     "skins": [
       {
         "label": "manlig forskare: ljus hy",
@@ -14704,6 +14891,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -14716,6 +14904,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -14728,6 +14917,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -14740,6 +14930,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -14752,6 +14943,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -14772,6 +14964,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinnlig forskare: ljus hy",
@@ -14783,6 +14976,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -14795,6 +14989,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -14807,6 +15002,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -14819,6 +15015,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -14831,6 +15028,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -14840,7 +15038,6 @@
     "hexcode": "1F9D1-200D-1F4BB",
     "tags": [
       "ingenjör",
-      "it-tekniker",
       "mjukvarutekniker",
       "uppfinnare",
       "utvecklare"
@@ -14919,10 +15116,9 @@
     "label": "manlig IT-expert",
     "hexcode": "1F468-200D-1F4BB",
     "tags": [
+      "IT",
       "data",
-      "it",
       "man",
-      "manlig it-expert",
       "teknologi"
     ],
     "emoji": "👨‍💻",
@@ -14932,6 +15128,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 1,
     "skins": [
       {
         "label": "manlig IT-expert: ljus hy",
@@ -14943,6 +15140,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -14955,6 +15153,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -14967,6 +15166,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -14979,6 +15179,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -14991,6 +15192,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -14999,10 +15201,9 @@
     "label": "kvinnlig IT-expert",
     "hexcode": "1F469-200D-1F4BB",
     "tags": [
+      "IT",
       "data",
-      "it",
       "kvinna",
-      "kvinnlig it-expert",
       "teknologi"
     ],
     "emoji": "👩‍💻",
@@ -15012,6 +15213,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinnlig IT-expert: ljus hy",
@@ -15023,6 +15225,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -15035,6 +15238,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -15047,6 +15251,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -15059,6 +15264,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -15071,6 +15277,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -15171,6 +15378,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 1,
     "skins": [
       {
         "label": "manlig sångare: ljus hy",
@@ -15182,6 +15390,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -15194,6 +15403,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -15206,6 +15416,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -15218,6 +15429,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -15230,6 +15442,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -15251,6 +15464,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinnlig sångare: ljus hy",
@@ -15262,6 +15476,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -15274,6 +15489,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -15286,6 +15502,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -15298,6 +15515,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -15310,6 +15528,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -15405,6 +15624,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 1,
     "skins": [
       {
         "label": "manlig konstnär: ljus hy",
@@ -15416,6 +15636,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -15428,6 +15649,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -15440,6 +15662,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -15452,6 +15675,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -15464,6 +15688,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -15483,6 +15708,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinnlig konstnär: ljus hy",
@@ -15494,6 +15720,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -15506,6 +15733,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -15518,6 +15746,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -15530,6 +15759,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -15542,6 +15772,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -15637,6 +15868,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 1,
     "skins": [
       {
         "label": "manlig pilot: ljus hy",
@@ -15648,6 +15880,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -15660,6 +15893,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -15672,6 +15906,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -15684,6 +15919,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -15696,6 +15932,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -15715,6 +15952,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinnlig pilot: ljus hy",
@@ -15726,6 +15964,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -15738,6 +15977,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -15750,6 +15990,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -15762,6 +16003,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -15774,6 +16016,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -15870,6 +16113,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 1,
     "skins": [
       {
         "label": "manlig astronaut: ljus hy",
@@ -15881,6 +16125,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -15893,6 +16138,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -15905,6 +16151,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -15917,6 +16164,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -15929,6 +16177,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -15949,6 +16198,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinnlig astronaut: ljus hy",
@@ -15960,6 +16210,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -15972,6 +16223,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -15984,6 +16236,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -15996,6 +16249,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -16008,6 +16262,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -16104,6 +16359,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 1,
     "skins": [
       {
         "label": "manlig brandman: ljus hy",
@@ -16115,6 +16371,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -16127,6 +16384,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -16139,6 +16397,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -16151,6 +16410,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -16163,6 +16423,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -16182,6 +16443,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 4,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinnlig brandman: ljus hy",
@@ -16193,6 +16455,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -16205,6 +16468,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -16217,6 +16481,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -16229,6 +16494,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -16241,6 +16507,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 4,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -17415,6 +17682,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 3,
+    "gender": 1,
     "skins": [
       {
         "label": "prins: ljus hy",
@@ -17426,6 +17694,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 3,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -17438,6 +17707,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 3,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -17450,6 +17720,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 3,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -17462,6 +17733,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 3,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -17474,6 +17746,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 3,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -17491,6 +17764,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 0.6,
+    "gender": 0,
     "skins": [
       {
         "label": "prinsessa: ljus hy",
@@ -17502,6 +17776,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 1,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -17514,6 +17789,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 1,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -17526,6 +17802,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 1,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -17538,6 +17815,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 1,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -17550,6 +17828,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 1,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -17891,6 +18170,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 5,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinna i sjal: ljus hy",
@@ -17902,6 +18182,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 5,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -17914,6 +18195,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 5,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -17926,6 +18208,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 5,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -17938,6 +18221,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 5,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -17950,6 +18234,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 5,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -18459,6 +18744,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 3,
+    "gender": 0,
     "skins": [
       {
         "label": "gravid kvinna: ljus hy",
@@ -18470,6 +18756,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 3,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -18482,6 +18769,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 3,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -18494,6 +18782,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 3,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -18506,6 +18795,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 3,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -18518,6 +18808,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 3,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -18538,6 +18829,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 14,
+    "gender": 1,
     "skins": [
       {
         "label": "gravid man: ljus hy",
@@ -18549,6 +18841,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 14,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -18561,6 +18854,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 14,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -18573,6 +18867,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 14,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -18585,6 +18880,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 14,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -18597,6 +18893,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 14,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -18694,6 +18991,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 5,
+    "gender": 0,
     "skins": [
       {
         "label": "amning: ljus hy",
@@ -18705,6 +19003,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 5,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -18717,6 +19016,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 5,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -18729,6 +19029,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 5,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -18741,6 +19042,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 5,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -18753,6 +19055,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 5,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -18773,6 +19076,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 13,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinna matar spädbarn: ljus hy",
@@ -18784,6 +19088,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 13,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -18796,6 +19101,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 13,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -18808,6 +19114,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 13,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -18820,6 +19127,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 13,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -18832,6 +19140,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 13,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -18856,6 +19165,7 @@
     "group": 1,
     "subgroup": 25,
     "version": 13,
+    "gender": 1,
     "skins": [
       {
         "label": "man matar spädbarn: ljus hy",
@@ -18867,6 +19177,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 13,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -18879,6 +19190,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 13,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -18891,6 +19203,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 13,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -18903,6 +19216,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 13,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -18915,6 +19229,7 @@
         "group": 1,
         "subgroup": 25,
         "version": 13,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -19094,6 +19409,7 @@
     "group": 1,
     "subgroup": 26,
     "version": 0.6,
+    "gender": 1,
     "skins": [
       {
         "label": "jultomte: ljus hy",
@@ -19105,6 +19421,7 @@
         "group": 1,
         "subgroup": 26,
         "version": 1,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -19117,6 +19434,7 @@
         "group": 1,
         "subgroup": 26,
         "version": 1,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -19129,6 +19447,7 @@
         "group": 1,
         "subgroup": 26,
         "version": 1,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -19141,6 +19460,7 @@
         "group": 1,
         "subgroup": 26,
         "version": 1,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -19153,6 +19473,7 @@
         "group": 1,
         "subgroup": 26,
         "version": 1,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -19172,6 +19493,7 @@
     "group": 1,
     "subgroup": 26,
     "version": 3,
+    "gender": 0,
     "skins": [
       {
         "label": "tomtemor: ljus hy",
@@ -19183,6 +19505,7 @@
         "group": 1,
         "subgroup": 26,
         "version": 3,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -19195,6 +19518,7 @@
         "group": 1,
         "subgroup": 26,
         "version": 3,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -19207,6 +19531,7 @@
         "group": 1,
         "subgroup": 26,
         "version": 3,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -19219,6 +19544,7 @@
         "group": 1,
         "subgroup": 26,
         "version": 3,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -19231,6 +19557,7 @@
         "group": 1,
         "subgroup": 26,
         "version": 3,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -20064,9 +20391,9 @@
     "label": "fé",
     "hexcode": "1F9DA",
     "tags": [
-      "oberon",
-      "puck",
-      "titania",
+      "Oberon",
+      "Puck",
+      "Titania",
       "vingar",
       "älva"
     ],
@@ -20144,8 +20471,8 @@
     "label": "manlig älva",
     "hexcode": "1F9DA-200D-2642-FE0F",
     "tags": [
-      "oberon",
-      "puck"
+      "Oberon",
+      "Puck"
     ],
     "emoji": "🧚‍♂️",
     "text": "",
@@ -20227,8 +20554,8 @@
     "label": "kvinnlig fé",
     "hexcode": "1F9DA-200D-2640-FE0F",
     "tags": [
-      "kvinnlig älva",
-      "titania"
+      "Titania",
+      "kvinnlig älva"
     ],
     "emoji": "🧚‍♀️",
     "text": "",
@@ -20310,8 +20637,8 @@
     "label": "vampyr",
     "hexcode": "1F9DB",
     "tags": [
+      "Drakula",
       "blod",
-      "drakula",
       "huggtänder",
       "vandöd"
     ],
@@ -20390,7 +20717,7 @@
     "label": "manlig vampyr",
     "hexcode": "1F9DB-200D-2642-FE0F",
     "tags": [
-      "drakula",
+      "Drakula",
       "vandöd"
     ],
     "emoji": "🧛‍♂️",
@@ -20633,7 +20960,7 @@
     "label": "strömkarl",
     "hexcode": "1F9DC-200D-2642-FE0F",
     "tags": [
-      "triton"
+      "Triton"
     ],
     "emoji": "🧜‍♂️",
     "text": "",
@@ -23087,6 +23414,7 @@
     "group": 1,
     "subgroup": 27,
     "version": 12,
+    "gender": 1,
     "skins": [
       {
         "label": "man med vit käpp: ljus hy",
@@ -23098,6 +23426,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -23110,6 +23439,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -23122,6 +23452,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -23134,6 +23465,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -23146,6 +23478,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -23170,6 +23503,7 @@
     "group": 1,
     "subgroup": 27,
     "version": 15.1,
+    "gender": 1,
     "skins": [
       {
         "label": "man med vit käpp: ljus hy, åt höger",
@@ -23181,6 +23515,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -23193,6 +23528,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -23205,6 +23541,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -23217,6 +23554,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -23229,6 +23567,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -23250,6 +23589,7 @@
     "group": 1,
     "subgroup": 27,
     "version": 12,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinna med vit käpp: ljus hy",
@@ -23261,6 +23601,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -23273,6 +23614,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -23285,6 +23627,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -23297,6 +23640,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -23309,6 +23653,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -23333,6 +23678,7 @@
     "group": 1,
     "subgroup": 27,
     "version": 15.1,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinna med vit käpp: ljus hy, åt höger",
@@ -23344,6 +23690,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -23356,6 +23703,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -23368,6 +23716,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -23380,6 +23729,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -23392,6 +23742,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -23570,6 +23921,7 @@
     "group": 1,
     "subgroup": 27,
     "version": 12,
+    "gender": 1,
     "skins": [
       {
         "label": "man i permobil: ljus hy",
@@ -23581,6 +23933,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -23593,6 +23946,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -23605,6 +23959,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -23617,6 +23972,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -23629,6 +23985,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -23651,6 +24008,7 @@
     "group": 1,
     "subgroup": 27,
     "version": 15.1,
+    "gender": 1,
     "skins": [
       {
         "label": "man i permobil: ljus hy, åt höger",
@@ -23662,6 +24020,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -23674,6 +24033,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -23686,6 +24046,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -23698,6 +24059,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -23710,6 +24072,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -23729,6 +24092,7 @@
     "group": 1,
     "subgroup": 27,
     "version": 12,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinna i permobil: ljus hy",
@@ -23740,6 +24104,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -23752,6 +24117,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -23764,6 +24130,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -23776,6 +24143,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -23788,6 +24156,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -23810,6 +24179,7 @@
     "group": 1,
     "subgroup": 27,
     "version": 15.1,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinna i permobil: ljus hy, åt höger",
@@ -23821,6 +24191,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -23833,6 +24204,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -23845,6 +24217,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -23857,6 +24230,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -23869,6 +24243,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -24044,6 +24419,7 @@
     "group": 1,
     "subgroup": 27,
     "version": 12,
+    "gender": 1,
     "skins": [
       {
         "label": "man i manuell rullstol: ljus hy",
@@ -24055,6 +24431,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -24067,6 +24444,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -24079,6 +24457,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -24091,6 +24470,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -24103,6 +24483,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -24124,6 +24505,7 @@
     "group": 1,
     "subgroup": 27,
     "version": 15.1,
+    "gender": 1,
     "skins": [
       {
         "label": "man i manuell rullstol: ljus hy, åt höger",
@@ -24135,6 +24517,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -24147,6 +24530,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -24159,6 +24543,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -24171,6 +24556,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -24183,6 +24569,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -24201,6 +24588,7 @@
     "group": 1,
     "subgroup": 27,
     "version": 12,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinna i manuell rullstol: ljus hy",
@@ -24212,6 +24600,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -24224,6 +24613,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -24236,6 +24626,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -24248,6 +24639,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -24260,6 +24652,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 12,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -24281,6 +24674,7 @@
     "group": 1,
     "subgroup": 27,
     "version": 15.1,
+    "gender": 0,
     "skins": [
       {
         "label": "kvinna i manuell rullstol: ljus hy, åt höger",
@@ -24292,6 +24686,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -24304,6 +24699,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -24316,6 +24712,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -24328,6 +24725,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -24340,6 +24738,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 15.1,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -24943,6 +25342,7 @@
     "group": 1,
     "subgroup": 27,
     "version": 0.6,
+    "gender": 0,
     "skins": [
       {
         "label": "dansande kvinna: ljus hy",
@@ -24954,6 +25354,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 1,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -24966,6 +25367,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 1,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -24978,6 +25380,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 1,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -24990,6 +25393,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 1,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -25002,6 +25406,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 1,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -25020,6 +25425,7 @@
     "group": 1,
     "subgroup": 27,
     "version": 3,
+    "gender": 1,
     "skins": [
       {
         "label": "dansande man: ljus hy",
@@ -25031,6 +25437,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 3,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -25043,6 +25450,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 3,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -25055,6 +25463,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 3,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -25067,6 +25476,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 3,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -25079,6 +25489,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 3,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -25570,6 +25981,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           1,
           2
@@ -25585,6 +25997,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           1,
           3
@@ -25600,6 +26013,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           1,
           4
@@ -25615,6 +26029,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           1,
           5
@@ -25630,6 +26045,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           2,
           1
@@ -25645,6 +26061,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           2,
           3
@@ -25660,6 +26077,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           2,
           4
@@ -25675,6 +26093,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           2,
           5
@@ -25690,6 +26109,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           3,
           1
@@ -25705,6 +26125,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           3,
           2
@@ -25720,6 +26141,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           3,
           4
@@ -25735,6 +26157,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           3,
           5
@@ -25750,6 +26173,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           4,
           1
@@ -25765,6 +26189,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           4,
           2
@@ -25780,6 +26205,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           4,
           3
@@ -25795,6 +26221,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           4,
           5
@@ -25810,6 +26237,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           5,
           1
@@ -25825,6 +26253,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           5,
           2
@@ -25840,6 +26269,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           5,
           3
@@ -25855,6 +26285,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 1,
         "tone": [
           5,
           4
@@ -25956,6 +26387,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           1,
           2
@@ -25971,6 +26403,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           1,
           3
@@ -25986,6 +26419,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           1,
           4
@@ -26001,6 +26435,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           1,
           5
@@ -26016,6 +26451,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           2,
           1
@@ -26031,6 +26467,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           2,
           3
@@ -26046,6 +26483,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           2,
           4
@@ -26061,6 +26499,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           2,
           5
@@ -26076,6 +26515,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           3,
           1
@@ -26091,6 +26531,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           3,
           2
@@ -26106,6 +26547,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           3,
           4
@@ -26121,6 +26563,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           3,
           5
@@ -26136,6 +26579,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           4,
           1
@@ -26151,6 +26595,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           4,
           2
@@ -26166,6 +26611,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           4,
           3
@@ -26181,6 +26627,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           4,
           5
@@ -26196,6 +26643,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           5,
           1
@@ -26211,6 +26659,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           5,
           2
@@ -26226,6 +26675,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           5,
           3
@@ -26241,6 +26691,7 @@
         "group": 1,
         "subgroup": 27,
         "version": 17,
+        "gender": 0,
         "tone": [
           5,
           4
@@ -26922,7 +27373,7 @@
     "tags": [
       "snowboard"
     ],
-    "emoji": "🏂️",
+    "emoji": "🏂",
     "text": "🏂︎",
     "type": 1,
     "order": 2598,
@@ -27253,7 +27704,7 @@
       "surfing",
       "surfning"
     ],
-    "emoji": "🏄️",
+    "emoji": "🏄",
     "text": "🏄︎",
     "type": 1,
     "order": 2639,
@@ -27750,7 +28201,7 @@
       "simmare",
       "simning"
     ],
-    "emoji": "🏊️",
+    "emoji": "🏊",
     "text": "🏊︎",
     "type": 1,
     "order": 2699,
@@ -29641,6 +30092,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           1,
           2
@@ -29656,6 +30108,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           1,
           3
@@ -29671,6 +30124,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           1,
           4
@@ -29686,6 +30140,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           1,
           5
@@ -29701,6 +30156,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           2,
           1
@@ -29716,6 +30172,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           2,
           3
@@ -29731,6 +30188,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           2,
           4
@@ -29746,6 +30204,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           2,
           5
@@ -29761,6 +30220,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           3,
           1
@@ -29776,6 +30236,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           3,
           2
@@ -29791,6 +30252,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           3,
           4
@@ -29806,6 +30268,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           3,
           5
@@ -29821,6 +30284,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           4,
           1
@@ -29836,6 +30300,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           4,
           2
@@ -29851,6 +30316,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           4,
           3
@@ -29866,6 +30332,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           4,
           5
@@ -29881,6 +30348,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           5,
           1
@@ -29896,6 +30364,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           5,
           2
@@ -29911,6 +30380,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           5,
           3
@@ -29926,6 +30396,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 1,
         "tone": [
           5,
           4
@@ -30025,6 +30496,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           1,
           2
@@ -30040,6 +30512,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           1,
           3
@@ -30055,6 +30528,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           1,
           4
@@ -30070,6 +30544,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           1,
           5
@@ -30085,6 +30560,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           2,
           1
@@ -30100,6 +30576,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           2,
           3
@@ -30115,6 +30592,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           2,
           4
@@ -30130,6 +30608,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           2,
           5
@@ -30145,6 +30624,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           3,
           1
@@ -30160,6 +30640,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           3,
           2
@@ -30175,6 +30656,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           3,
           4
@@ -30190,6 +30672,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           3,
           5
@@ -30205,6 +30688,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           4,
           1
@@ -30220,6 +30704,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           4,
           2
@@ -30235,6 +30720,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           4,
           3
@@ -30250,6 +30736,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           4,
           5
@@ -30265,6 +30752,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           5,
           1
@@ -30280,6 +30768,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           5,
           2
@@ -30295,6 +30784,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           5,
           3
@@ -30310,6 +30800,7 @@
         "group": 1,
         "subgroup": 28,
         "version": 17,
+        "gender": 0,
         "tone": [
           5,
           4
@@ -31933,6 +32424,7 @@
     "group": 1,
     "subgroup": 30,
     "version": 1,
+    "gender": 0,
     "skins": [
       {
         "label": "två kvinnor håller hand: ljus hy",
@@ -31944,6 +32436,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -31956,6 +32449,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -31968,6 +32462,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -31980,6 +32475,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -31992,6 +32488,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 0,
         "tone": 5
       },
       {
@@ -32004,6 +32501,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 0,
         "tone": [
           1,
           2
@@ -32019,6 +32517,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 0,
         "tone": [
           1,
           3
@@ -32034,6 +32533,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 0,
         "tone": [
           1,
           4
@@ -32049,6 +32549,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 0,
         "tone": [
           1,
           5
@@ -32064,6 +32565,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 0,
         "tone": [
           2,
           1
@@ -32079,6 +32581,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 0,
         "tone": [
           2,
           3
@@ -32094,6 +32597,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 0,
         "tone": [
           2,
           4
@@ -32109,6 +32613,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 0,
         "tone": [
           2,
           5
@@ -32124,6 +32629,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 0,
         "tone": [
           3,
           1
@@ -32139,6 +32645,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 0,
         "tone": [
           3,
           2
@@ -32154,6 +32661,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 0,
         "tone": [
           3,
           4
@@ -32169,6 +32677,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 0,
         "tone": [
           3,
           5
@@ -32184,6 +32693,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 0,
         "tone": [
           4,
           1
@@ -32199,6 +32709,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 0,
         "tone": [
           4,
           2
@@ -32214,6 +32725,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 0,
         "tone": [
           4,
           3
@@ -32229,6 +32741,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 0,
         "tone": [
           4,
           5
@@ -32244,6 +32757,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 0,
         "tone": [
           5,
           1
@@ -32259,6 +32773,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 0,
         "tone": [
           5,
           2
@@ -32274,6 +32789,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 0,
         "tone": [
           5,
           3
@@ -32289,6 +32805,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 0,
         "tone": [
           5,
           4
@@ -32690,6 +33207,7 @@
     "group": 1,
     "subgroup": 30,
     "version": 1,
+    "gender": 1,
     "skins": [
       {
         "label": "två män håller hand: ljus hy",
@@ -32701,6 +33219,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -32713,6 +33232,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -32725,6 +33245,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -32737,6 +33258,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -32749,6 +33271,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 1,
         "tone": 5
       },
       {
@@ -32761,6 +33284,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 1,
         "tone": [
           1,
           2
@@ -32776,6 +33300,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 1,
         "tone": [
           1,
           3
@@ -32791,6 +33316,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 1,
         "tone": [
           1,
           4
@@ -32806,6 +33332,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 1,
         "tone": [
           1,
           5
@@ -32821,6 +33348,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 1,
         "tone": [
           2,
           1
@@ -32836,6 +33364,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 1,
         "tone": [
           2,
           3
@@ -32851,6 +33380,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 1,
         "tone": [
           2,
           4
@@ -32866,6 +33396,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 1,
         "tone": [
           2,
           5
@@ -32881,6 +33412,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 1,
         "tone": [
           3,
           1
@@ -32896,6 +33428,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 1,
         "tone": [
           3,
           2
@@ -32911,6 +33444,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 1,
         "tone": [
           3,
           4
@@ -32926,6 +33460,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 1,
         "tone": [
           3,
           5
@@ -32941,6 +33476,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 1,
         "tone": [
           4,
           1
@@ -32956,6 +33492,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 1,
         "tone": [
           4,
           2
@@ -32971,6 +33508,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 1,
         "tone": [
           4,
           3
@@ -32986,6 +33524,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12.1,
+        "gender": 1,
         "tone": [
           4,
           5
@@ -33001,6 +33540,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 1,
         "tone": [
           5,
           1
@@ -33016,6 +33556,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 1,
         "tone": [
           5,
           2
@@ -33031,6 +33572,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 1,
         "tone": [
           5,
           3
@@ -33046,6 +33588,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 12,
+        "gender": 1,
         "tone": [
           5,
           4
@@ -33829,6 +34372,7 @@
     "group": 1,
     "subgroup": 30,
     "version": 2,
+    "gender": 1,
     "skins": [
       {
         "label": "puss: man, man, ljus hy",
@@ -33840,6 +34384,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -33852,6 +34397,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           1,
           2
@@ -33867,6 +34413,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           1,
           3
@@ -33882,6 +34429,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           1,
           4
@@ -33897,6 +34445,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           1,
           5
@@ -33912,6 +34461,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           2,
           1
@@ -33927,6 +34477,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -33939,6 +34490,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           2,
           3
@@ -33954,6 +34506,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           2,
           4
@@ -33969,6 +34522,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           2,
           5
@@ -33984,6 +34538,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           3,
           1
@@ -33999,6 +34554,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           3,
           2
@@ -34014,6 +34570,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -34026,6 +34583,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           3,
           4
@@ -34041,6 +34599,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           3,
           5
@@ -34056,6 +34615,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           4,
           1
@@ -34071,6 +34631,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           4,
           2
@@ -34086,6 +34647,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           4,
           3
@@ -34101,6 +34663,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -34113,6 +34676,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           4,
           5
@@ -34128,6 +34692,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           5,
           1
@@ -34143,6 +34708,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           5,
           2
@@ -34158,6 +34724,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           5,
           3
@@ -34173,6 +34740,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           5,
           4
@@ -34188,6 +34756,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -34209,6 +34778,7 @@
     "group": 1,
     "subgroup": 30,
     "version": 2,
+    "gender": 0,
     "skins": [
       {
         "label": "puss: kvinna, kvinna, ljus hy",
@@ -34220,6 +34790,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -34232,6 +34803,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           1,
           2
@@ -34247,6 +34819,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           1,
           3
@@ -34262,6 +34835,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           1,
           4
@@ -34277,6 +34851,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           1,
           5
@@ -34292,6 +34867,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           2,
           1
@@ -34307,6 +34883,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -34319,6 +34896,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           2,
           3
@@ -34334,6 +34912,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           2,
           4
@@ -34349,6 +34928,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           2,
           5
@@ -34364,6 +34944,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           3,
           1
@@ -34379,6 +34960,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           3,
           2
@@ -34394,6 +34976,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -34406,6 +34989,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           3,
           4
@@ -34421,6 +35005,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           3,
           5
@@ -34436,6 +35021,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           4,
           1
@@ -34451,6 +35037,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           4,
           2
@@ -34466,6 +35053,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           4,
           3
@@ -34481,6 +35069,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -34493,6 +35082,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           4,
           5
@@ -34508,6 +35098,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           5,
           1
@@ -34523,6 +35114,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           5,
           2
@@ -34538,6 +35130,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           5,
           3
@@ -34553,6 +35146,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           5,
           4
@@ -34568,6 +35162,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -35348,6 +35943,7 @@
     "group": 1,
     "subgroup": 30,
     "version": 2,
+    "gender": 1,
     "skins": [
       {
         "label": "par med hjärta: man, man, ljus hy",
@@ -35359,6 +35955,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": 1
       },
       {
@@ -35371,6 +35968,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           1,
           2
@@ -35386,6 +35984,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           1,
           3
@@ -35401,6 +36000,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           1,
           4
@@ -35416,6 +36016,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           1,
           5
@@ -35431,6 +36032,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           2,
           1
@@ -35446,6 +36048,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": 2
       },
       {
@@ -35458,6 +36061,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           2,
           3
@@ -35473,6 +36077,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           2,
           4
@@ -35488,6 +36093,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           2,
           5
@@ -35503,6 +36109,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           3,
           1
@@ -35518,6 +36125,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           3,
           2
@@ -35533,6 +36141,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": 3
       },
       {
@@ -35545,6 +36154,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           3,
           4
@@ -35560,6 +36170,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           3,
           5
@@ -35575,6 +36186,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           4,
           1
@@ -35590,6 +36202,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           4,
           2
@@ -35605,6 +36218,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           4,
           3
@@ -35620,6 +36234,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": 4
       },
       {
@@ -35632,6 +36247,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           4,
           5
@@ -35647,6 +36263,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           5,
           1
@@ -35662,6 +36279,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           5,
           2
@@ -35677,6 +36295,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           5,
           3
@@ -35692,6 +36311,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": [
           5,
           4
@@ -35707,6 +36327,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 1,
         "tone": 5
       }
     ]
@@ -35728,6 +36349,7 @@
     "group": 1,
     "subgroup": 30,
     "version": 2,
+    "gender": 0,
     "skins": [
       {
         "label": "par med hjärta: kvinna, kvinna, ljus hy",
@@ -35739,6 +36361,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": 1
       },
       {
@@ -35751,6 +36374,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           1,
           2
@@ -35766,6 +36390,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           1,
           3
@@ -35781,6 +36406,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           1,
           4
@@ -35796,6 +36422,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           1,
           5
@@ -35811,6 +36438,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           2,
           1
@@ -35826,6 +36454,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": 2
       },
       {
@@ -35838,6 +36467,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           2,
           3
@@ -35853,6 +36483,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           2,
           4
@@ -35868,6 +36499,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           2,
           5
@@ -35883,6 +36515,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           3,
           1
@@ -35898,6 +36531,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           3,
           2
@@ -35913,6 +36547,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": 3
       },
       {
@@ -35925,6 +36560,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           3,
           4
@@ -35940,6 +36576,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           3,
           5
@@ -35955,6 +36592,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           4,
           1
@@ -35970,6 +36608,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           4,
           2
@@ -35985,6 +36624,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           4,
           3
@@ -36000,6 +36640,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": 4
       },
       {
@@ -36012,6 +36653,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           4,
           5
@@ -36027,6 +36669,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           5,
           1
@@ -36042,6 +36685,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           5,
           2
@@ -36057,6 +36701,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           5,
           3
@@ -36072,6 +36717,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": [
           5,
           4
@@ -36087,6 +36733,7 @@
         "group": 1,
         "subgroup": 30,
         "version": 13.1,
+        "gender": 0,
         "tone": 5
       }
     ]
@@ -36215,7 +36862,8 @@
     "order": 3624,
     "group": 1,
     "subgroup": 30,
-    "version": 2
+    "version": 2,
+    "gender": 1
   },
   {
     "label": "familj: man, man, flicka",
@@ -36276,7 +36924,8 @@
     "order": 3627,
     "group": 1,
     "subgroup": 30,
-    "version": 2
+    "version": 2,
+    "gender": 1
   },
   {
     "label": "familj: man, man, flicka, flicka",
@@ -36336,7 +36985,8 @@
     "order": 3630,
     "group": 1,
     "subgroup": 30,
-    "version": 2
+    "version": 2,
+    "gender": 0
   },
   {
     "label": "familj: kvinna, kvinna, flicka, pojke",
@@ -36397,7 +37047,8 @@
     "order": 3633,
     "group": 1,
     "subgroup": 30,
-    "version": 2
+    "version": 2,
+    "gender": 0
   },
   {
     "label": "familj: man, pojke",
@@ -36417,7 +37068,8 @@
     "order": 3634,
     "group": 1,
     "subgroup": 30,
-    "version": 4
+    "version": 4,
+    "gender": 1
   },
   {
     "label": "familj: man, pojke, pojke",
@@ -36437,7 +37089,8 @@
     "order": 3635,
     "group": 1,
     "subgroup": 30,
-    "version": 4
+    "version": 4,
+    "gender": 1
   },
   {
     "label": "familj: man, flicka",
@@ -36558,7 +37211,8 @@
     "order": 3641,
     "group": 1,
     "subgroup": 30,
-    "version": 4
+    "version": 4,
+    "gender": 0
   },
   {
     "label": "familj: kvinna, flicka, pojke",
@@ -36599,7 +37253,8 @@
     "order": 3643,
     "group": 1,
     "subgroup": 30,
-    "version": 4
+    "version": 4,
+    "gender": 0
   },
   {
     "label": "silhuett som talar",
@@ -36672,7 +37327,7 @@
       "människor",
       "pappa"
     ],
-    "emoji": "👪️",
+    "emoji": "👪",
     "text": "👪︎",
     "type": 1,
     "order": 3649,
@@ -36997,7 +37652,7 @@
       "djur",
       "valp"
     ],
-    "emoji": "🐕️",
+    "emoji": "🐕",
     "text": "🐕︎",
     "type": 1,
     "order": 3670,
@@ -37121,7 +37776,7 @@
     "tags": [
       "djur"
     ],
-    "emoji": "🐈️",
+    "emoji": "🐈",
     "text": "🐈︎",
     "type": 1,
     "order": 3678,
@@ -37800,7 +38455,7 @@
     "label": "koala",
     "hexcode": "1F428",
     "tags": [
-      "australien",
+      "Australien",
       "djur",
       "koala-ansikte",
       "koalabjörn",
@@ -37877,7 +38532,7 @@
     "label": "känguru",
     "hexcode": "1F998",
     "tags": [
-      "australien",
+      "Australien",
       "hoppa",
       "joey",
       "pungdjur"
@@ -38015,7 +38670,7 @@
       "djur",
       "fågelansikte"
     ],
-    "emoji": "🐦️",
+    "emoji": "🐦",
     "text": "🐦︎",
     "type": 1,
     "order": 3739,
@@ -38116,7 +38771,8 @@
     "label": "dront",
     "hexcode": "1F9A4",
     "tags": [
-      "mauritius",
+      "Dront",
+      "Mauritius",
       "stor",
       "utrotad"
     ],
@@ -38394,8 +39050,7 @@
     "label": "T-rex",
     "hexcode": "1F996",
     "tags": [
-      "t-rex",
-      "tyrannosaurus rex"
+      "Tyrannosaurus Rex"
     ],
     "emoji": "🦖",
     "text": "",
@@ -38486,7 +39141,7 @@
       "fiskarna",
       "stjärntecken"
     ],
-    "emoji": "🐟️",
+    "emoji": "🐟",
     "text": "🐟︎",
     "type": 1,
     "order": 3770,
@@ -39243,7 +39898,7 @@
     "label": "treklöver",
     "hexcode": "2618",
     "tags": [
-      "irland"
+      "Irland"
     ],
     "emoji": "☘️",
     "text": "☘︎",
@@ -39257,7 +39912,7 @@
     "label": "fyrklöver",
     "hexcode": "1F340",
     "tags": [
-      "irland",
+      "Irland",
       "klöver",
       "lycka",
       "tur"
@@ -40846,12 +41501,13 @@
     "label": "födelsedagstårta",
     "hexcode": "1F382",
     "tags": [
+      "Fest",
+      "Grattis",
+      "Tårta med ljus på",
       "fest",
       "födelsedag",
       "fördelsedagstårta",
-      "grattis",
-      "tårta",
-      "tårta med ljus på"
+      "tårta"
     ],
     "emoji": "🎂",
     "text": "",
@@ -41022,7 +41678,7 @@
       "varm",
       "ångande"
     ],
-    "emoji": "☕️",
+    "emoji": "☕",
     "text": "☕︎",
     "type": 1,
     "order": 3939,
@@ -41118,7 +41774,7 @@
       "cocktail",
       "drink"
     ],
-    "emoji": "🍸️",
+    "emoji": "🍸",
     "text": "🍸︎",
     "type": 1,
     "order": 3945,
@@ -41433,15 +42089,15 @@
     "label": "jordglob Europa–Afrika",
     "hexcode": "1F30D",
     "tags": [
-      "afrika",
-      "europa",
-      "europa-afrika",
+      "Afrika",
+      "Europa",
+      "Europa-Afrika",
       "jorden",
       "jordglob",
       "visar",
       "världen"
     ],
-    "emoji": "🌍️",
+    "emoji": "🌍",
     "text": "🌍︎",
     "type": 1,
     "order": 3965,
@@ -41453,15 +42109,15 @@
     "label": "jordglob nord- och sydamerika",
     "hexcode": "1F30E",
     "tags": [
+      "Nordamerika",
+      "Sydamerika",
       "jorden",
       "jordglob",
       "nord- och sydamerika",
-      "nordamerika",
-      "sydamerika",
       "visar",
       "världen"
     ],
-    "emoji": "🌎️",
+    "emoji": "🌎",
     "text": "🌎︎",
     "type": 1,
     "order": 3966,
@@ -41473,15 +42129,15 @@
     "label": "jordglob Asien–Australien",
     "hexcode": "1F30F",
     "tags": [
-      "asien",
-      "asien-australien",
-      "australien",
+      "Asien",
+      "Asien-Australien",
+      "Australien",
       "jorden",
       "jordglob",
       "visar",
       "världen"
     ],
-    "emoji": "🌏️",
+    "emoji": "🌏",
     "text": "🌏︎",
     "type": 1,
     "order": 3967,
@@ -41522,9 +42178,8 @@
     "label": "karta över Japan",
     "hexcode": "1F5FE",
     "tags": [
-      "japan",
-      "karta",
-      "karta över japan"
+      "Japan",
+      "karta"
     ],
     "emoji": "🗾",
     "text": "",
@@ -41617,8 +42272,7 @@
     "label": "Fuji",
     "hexcode": "1F5FB",
     "tags": [
-      "berg",
-      "fuji"
+      "berg"
     ],
     "emoji": "🗻",
     "text": "",
@@ -41850,7 +42504,7 @@
     "tags": [
       "byggnad"
     ],
-    "emoji": "🏠️",
+    "emoji": "🏠",
     "text": "🏠︎",
     "type": 1,
     "order": 4004,
@@ -42029,7 +42683,7 @@
     "tags": [
       "byggnad"
     ],
-    "emoji": "🏭️",
+    "emoji": "🏭",
     "text": "🏭︎",
     "type": 1,
     "order": 4016,
@@ -42085,10 +42739,9 @@
     "label": "Tokyo Tower",
     "hexcode": "1F5FC",
     "tags": [
-      "tokyo",
-      "tokyo tower",
+      "Tokyo",
       "torn",
-      "torn i tokyo"
+      "torn i Tokyo"
     ],
     "emoji": "🗼",
     "text": "",
@@ -42124,7 +42777,7 @@
       "byggnad",
       "kristen"
     ],
-    "emoji": "⛪️",
+    "emoji": "⛪",
     "text": "⛪︎",
     "type": 1,
     "order": 4022,
@@ -42216,7 +42869,7 @@
     "tags": [
       "springbrunn"
     ],
-    "emoji": "⛲️",
+    "emoji": "⛲",
     "text": "⛲︎",
     "type": 1,
     "order": 4029,
@@ -42230,7 +42883,7 @@
     "tags": [
       "camping"
     ],
-    "emoji": "⛺️",
+    "emoji": "⛺",
     "text": "⛺︎",
     "type": 1,
     "order": 4030,
@@ -42523,9 +43176,9 @@
     "label": "höghastighetståg",
     "hexcode": "1F685",
     "tags": [
+      "Shinkansen",
+      "TGV",
       "fordon",
-      "shinkansen",
-      "tgv",
       "tåg"
     ],
     "emoji": "🚅",
@@ -42558,7 +43211,7 @@
       "fordon",
       "metro"
     ],
-    "emoji": "🚇️",
+    "emoji": "🚇",
     "text": "🚇︎",
     "type": 1,
     "order": 4053,
@@ -42684,7 +43337,7 @@
       "fordon",
       "mötande"
     ],
-    "emoji": "🚍️",
+    "emoji": "🚍",
     "text": "🚍︎",
     "type": 1,
     "order": 4061,
@@ -42728,7 +43381,7 @@
     "tags": [
       "fordon"
     ],
-    "emoji": "🚑️",
+    "emoji": "🚑",
     "text": "🚑︎",
     "type": 1,
     "order": 4064,
@@ -42773,7 +43426,7 @@
       "polis",
       "polisbil"
     ],
-    "emoji": "🚔️",
+    "emoji": "🚔",
     "text": "🚔︎",
     "type": 1,
     "order": 4067,
@@ -42835,7 +43488,7 @@
       "körde",
       "mötande"
     ],
-    "emoji": "🚘️",
+    "emoji": "🚘",
     "text": "🚘︎",
     "type": 1,
     "order": 4071,
@@ -42848,8 +43501,7 @@
     "hexcode": "1F699",
     "tags": [
       "bil",
-      "fordon",
-      "suv"
+      "fordon"
     ],
     "emoji": "🚙",
     "text": "",
@@ -43012,7 +43664,7 @@
     "tags": [
       "fordon"
     ],
-    "emoji": "🚲️",
+    "emoji": "🚲",
     "text": "🚲︎",
     "type": 1,
     "order": 4085,
@@ -43131,7 +43783,7 @@
       "bensinstation",
       "bränsle"
     ],
-    "emoji": "⛽️",
+    "emoji": "⛽",
     "text": "⛽︎",
     "type": 1,
     "order": 4096,
@@ -43235,7 +43887,7 @@
     "tags": [
       "hopp"
     ],
-    "emoji": "⚓️",
+    "emoji": "⚓",
     "text": "⚓︎",
     "type": 1,
     "order": 4103,
@@ -43268,7 +43920,7 @@
       "båt",
       "segling"
     ],
-    "emoji": "⛵️",
+    "emoji": "⛵",
     "text": "⛵︎",
     "type": 1,
     "order": 4105,
@@ -43553,7 +44205,7 @@
     "label": "flygande tefat",
     "hexcode": "1F6F8",
     "tags": [
-      "ufo"
+      "UFO"
     ],
     "emoji": "🛸",
     "text": "",
@@ -43603,7 +44255,7 @@
       "sand",
       "timglas"
     ],
-    "emoji": "⌛️",
+    "emoji": "⌛",
     "text": "⌛︎",
     "type": 1,
     "order": 4134,
@@ -43619,7 +44271,7 @@
       "tid",
       "timglas"
     ],
-    "emoji": "⏳️",
+    "emoji": "⏳",
     "text": "⏳︎",
     "type": 1,
     "order": 4135,
@@ -43633,7 +44285,7 @@
     "tags": [
       "klocka"
     ],
-    "emoji": "⌚️",
+    "emoji": "⌚",
     "text": "⌚︎",
     "type": 1,
     "order": 4136,
@@ -43647,7 +44299,7 @@
     "tags": [
       "klocka"
     ],
-    "emoji": "⏰️",
+    "emoji": "⏰",
     "text": "⏰︎",
     "type": 1,
     "order": 4137,
@@ -43709,7 +44361,7 @@
       "klocka som visar tolv",
       "tolv"
     ],
-    "emoji": "🕛️",
+    "emoji": "🕛",
     "text": "🕛︎",
     "type": 1,
     "order": 4144,
@@ -43725,7 +44377,7 @@
       "12.30",
       "klocka som visar halv ett"
     ],
-    "emoji": "🕧️",
+    "emoji": "🕧",
     "text": "🕧︎",
     "type": 1,
     "order": 4145,
@@ -43742,7 +44394,7 @@
       "ett",
       "klocka som visar ett"
     ],
-    "emoji": "🕐️",
+    "emoji": "🕐",
     "text": "🕐︎",
     "type": 1,
     "order": 4146,
@@ -43758,7 +44410,7 @@
       "13.30",
       "klocka som visar halv två"
     ],
-    "emoji": "🕜️",
+    "emoji": "🕜",
     "text": "🕜︎",
     "type": 1,
     "order": 4147,
@@ -43775,7 +44427,7 @@
       "klocka som visar två",
       "två"
     ],
-    "emoji": "🕑️",
+    "emoji": "🕑",
     "text": "🕑︎",
     "type": 1,
     "order": 4148,
@@ -43791,7 +44443,7 @@
       "14.30",
       "klocka som visar halv tre"
     ],
-    "emoji": "🕝️",
+    "emoji": "🕝",
     "text": "🕝︎",
     "type": 1,
     "order": 4149,
@@ -43808,7 +44460,7 @@
       "klocka som visar tre",
       "tre"
     ],
-    "emoji": "🕒️",
+    "emoji": "🕒",
     "text": "🕒︎",
     "type": 1,
     "order": 4150,
@@ -43824,7 +44476,7 @@
       "15.30",
       "klocka som visar halv fyra"
     ],
-    "emoji": "🕞️",
+    "emoji": "🕞",
     "text": "🕞︎",
     "type": 1,
     "order": 4151,
@@ -43841,7 +44493,7 @@
       "fyra",
       "klocka som visar fyra"
     ],
-    "emoji": "🕓️",
+    "emoji": "🕓",
     "text": "🕓︎",
     "type": 1,
     "order": 4152,
@@ -43857,7 +44509,7 @@
       "16.30",
       "klocka som visar halv fem"
     ],
-    "emoji": "🕟️",
+    "emoji": "🕟",
     "text": "🕟︎",
     "type": 1,
     "order": 4153,
@@ -43874,7 +44526,7 @@
       "fem",
       "klocka som visar fem"
     ],
-    "emoji": "🕔️",
+    "emoji": "🕔",
     "text": "🕔︎",
     "type": 1,
     "order": 4154,
@@ -43890,7 +44542,7 @@
       "17.30",
       "klocka som visar halv sex"
     ],
-    "emoji": "🕠️",
+    "emoji": "🕠",
     "text": "🕠︎",
     "type": 1,
     "order": 4155,
@@ -43907,7 +44559,7 @@
       "klocka som visar sex",
       "sex"
     ],
-    "emoji": "🕕️",
+    "emoji": "🕕",
     "text": "🕕︎",
     "type": 1,
     "order": 4156,
@@ -43923,7 +44575,7 @@
       "18.30",
       "klocka som visar halv sju"
     ],
-    "emoji": "🕡️",
+    "emoji": "🕡",
     "text": "🕡︎",
     "type": 1,
     "order": 4157,
@@ -43940,7 +44592,7 @@
       "klocka som visar halv sju",
       "sju"
     ],
-    "emoji": "🕖️",
+    "emoji": "🕖",
     "text": "🕖︎",
     "type": 1,
     "order": 4158,
@@ -43956,7 +44608,7 @@
       "19.30",
       "klocka som visar halv åtta"
     ],
-    "emoji": "🕢️",
+    "emoji": "🕢",
     "text": "🕢︎",
     "type": 1,
     "order": 4159,
@@ -43973,7 +44625,7 @@
       "klocka som visar åtta",
       "åtta"
     ],
-    "emoji": "🕗️",
+    "emoji": "🕗",
     "text": "🕗︎",
     "type": 1,
     "order": 4160,
@@ -43989,7 +44641,7 @@
       "20.30",
       "klocka som visar halv nio"
     ],
-    "emoji": "🕣️",
+    "emoji": "🕣",
     "text": "🕣︎",
     "type": 1,
     "order": 4161,
@@ -44006,7 +44658,7 @@
       "klocka som visar nio",
       "nio"
     ],
-    "emoji": "🕘️",
+    "emoji": "🕘",
     "text": "🕘︎",
     "type": 1,
     "order": 4162,
@@ -44022,7 +44674,7 @@
       "21.30",
       "klocka som visar halv tio"
     ],
-    "emoji": "🕤️",
+    "emoji": "🕤",
     "text": "🕤︎",
     "type": 1,
     "order": 4163,
@@ -44039,7 +44691,7 @@
       "klocka som visar tio",
       "tio"
     ],
-    "emoji": "🕙️",
+    "emoji": "🕙",
     "text": "🕙︎",
     "type": 1,
     "order": 4164,
@@ -44055,7 +44707,7 @@
       "22.30",
       "klocka som visar halv elva"
     ],
-    "emoji": "🕥️",
+    "emoji": "🕥",
     "text": "🕥︎",
     "type": 1,
     "order": 4165,
@@ -44072,7 +44724,7 @@
       "elva",
       "klocka som visar elva"
     ],
-    "emoji": "🕚️",
+    "emoji": "🕚",
     "text": "🕚︎",
     "type": 1,
     "order": 4166,
@@ -44088,7 +44740,7 @@
       "23.30",
       "klocka som visar halv tolv"
     ],
-    "emoji": "🕦️",
+    "emoji": "🕦",
     "text": "🕦︎",
     "type": 1,
     "order": 4167,
@@ -44163,7 +44815,7 @@
     "tags": [
       "måne"
     ],
-    "emoji": "🌕️",
+    "emoji": "🌕",
     "text": "🌕︎",
     "type": 1,
     "order": 4172,
@@ -44280,7 +44932,7 @@
       "månansikte",
       "måne"
     ],
-    "emoji": "🌜️",
+    "emoji": "🌜",
     "text": "🌜︎",
     "type": 1,
     "order": 4179,
@@ -44371,7 +45023,7 @@
     "tags": [
       "vit medelstor stjärna"
     ],
-    "emoji": "⭐️",
+    "emoji": "⭐",
     "text": "⭐︎",
     "type": 1,
     "order": 4187,
@@ -44451,7 +45103,7 @@
       "sol",
       "sol med moln"
     ],
-    "emoji": "⛅️",
+    "emoji": "⛅",
     "text": "⛅︎",
     "type": 1,
     "order": 4193,
@@ -44691,7 +45343,7 @@
       "regn",
       "väder"
     ],
-    "emoji": "☔️",
+    "emoji": "☔",
     "text": "☔︎",
     "type": 1,
     "order": 4219,
@@ -44725,7 +45377,7 @@
       "spänning",
       "varningssymbol"
     ],
-    "emoji": "⚡️",
+    "emoji": "⚡",
     "text": "⚡︎",
     "type": 1,
     "order": 4222,
@@ -44769,7 +45421,7 @@
       "snö",
       "snögubbe"
     ],
-    "emoji": "⛄️",
+    "emoji": "⛄",
     "text": "⛄︎",
     "type": 1,
     "order": 4227,
@@ -44841,8 +45493,8 @@
     "label": "lyktgubbe",
     "hexcode": "1F383",
     "tags": [
+      "Halloween",
       "fest",
-      "halloween",
       "lykta",
       "pumpa",
       "pumplykta"
@@ -44924,7 +45576,7 @@
       "gnistrar",
       "stjärnor"
     ],
-    "emoji": "✨️",
+    "emoji": "✨",
     "text": "✨︎",
     "type": 1,
     "order": 4238,
@@ -45194,7 +45846,7 @@
     "tags": [
       "pris"
     ],
-    "emoji": "🏆️",
+    "emoji": "🏆",
     "text": "🏆︎",
     "type": 1,
     "order": 4258,
@@ -45272,7 +45924,7 @@
       "boll",
       "sport"
     ],
-    "emoji": "⚽️",
+    "emoji": "⚽",
     "text": "⚽︎",
     "type": 1,
     "order": 4263,
@@ -45286,7 +45938,7 @@
     "tags": [
       "sport"
     ],
-    "emoji": "⚾️",
+    "emoji": "⚾",
     "text": "⚾︎",
     "type": 1,
     "order": 4264,
@@ -45572,7 +46224,7 @@
       "golfflagga",
       "hål"
     ],
-    "emoji": "⛳️",
+    "emoji": "⛳",
     "text": "⛳︎",
     "type": 1,
     "order": 4282,
@@ -45811,7 +46463,7 @@
       "spel",
       "tv-spelskontroll"
     ],
-    "emoji": "🎮️",
+    "emoji": "🎮",
     "text": "🎮︎",
     "type": 1,
     "order": 4298,
@@ -46031,7 +46683,8 @@
     "label": "joker",
     "hexcode": "1F0CF",
     "tags": [
-      "joker-kort",
+      "Joker",
+      "Joker-kort",
       "spelkort",
       "spelkort med joker"
     ],
@@ -46047,11 +46700,12 @@
     "label": "mahjong-bricka",
     "hexcode": "1F004",
     "tags": [
+      "Mahjong-bricka",
       "drake",
       "röd drake",
       "spelbricka"
     ],
-    "emoji": "🀄️",
+    "emoji": "🀄",
     "text": "🀄︎",
     "type": 1,
     "order": 4319,
@@ -46085,7 +46739,7 @@
       "masker",
       "teater"
     ],
-    "emoji": "🎭️",
+    "emoji": "🎭",
     "text": "🎭︎",
     "type": 1,
     "order": 4321,
@@ -46198,7 +46852,7 @@
       "brillor",
       "ögon"
     ],
-    "emoji": "👓️",
+    "emoji": "👓",
     "text": "👓︎",
     "type": 1,
     "order": 4329,
@@ -46793,7 +47447,7 @@
       "hatt",
       "högtid"
     ],
-    "emoji": "🎓️",
+    "emoji": "🎓",
     "text": "🎓︎",
     "type": 1,
     "order": 4370,
@@ -46937,7 +47591,7 @@
       "högtalare med låg volym",
       "låg volym"
     ],
-    "emoji": "🔈️",
+    "emoji": "🔈",
     "text": "🔈︎",
     "type": 1,
     "order": 4380,
@@ -47159,7 +47813,7 @@
     "tags": [
       "musik"
     ],
-    "emoji": "🎧️",
+    "emoji": "🎧",
     "text": "🎧︎",
     "type": 1,
     "order": 4398,
@@ -47173,7 +47827,7 @@
     "tags": [
       "video"
     ],
-    "emoji": "📻️",
+    "emoji": "📻",
     "text": "📻︎",
     "type": 1,
     "order": 4399,
@@ -47465,7 +48119,7 @@
     "tags": [
       "kommunikation"
     ],
-    "emoji": "📟️",
+    "emoji": "📟",
     "text": "📟︎",
     "type": 1,
     "order": 4418,
@@ -47540,7 +48194,7 @@
       "laptop",
       "pc"
     ],
-    "emoji": "💻️",
+    "emoji": "💻",
     "text": "💻︎",
     "type": 1,
     "order": 4423,
@@ -47659,7 +48313,7 @@
       "cd-skiva",
       "dvd-skiva"
     ],
-    "emoji": "💿️",
+    "emoji": "💿",
     "text": "💿︎",
     "type": 1,
     "order": 4436,
@@ -47747,7 +48401,7 @@
       "film",
       "klappa"
     ],
-    "emoji": "🎬️",
+    "emoji": "🎬",
     "text": "🎬︎",
     "type": 1,
     "order": 4444,
@@ -47762,7 +48416,7 @@
       "television",
       "video"
     ],
-    "emoji": "📺️",
+    "emoji": "📺",
     "text": "📺︎",
     "type": 1,
     "order": 4445,
@@ -47776,7 +48430,7 @@
     "tags": [
       "video"
     ],
-    "emoji": "📷️",
+    "emoji": "📷",
     "text": "📷︎",
     "type": 1,
     "order": 4446,
@@ -47806,7 +48460,7 @@
       "kamera",
       "video"
     ],
-    "emoji": "📹️",
+    "emoji": "📹",
     "text": "📹︎",
     "type": 1,
     "order": 4448,
@@ -47818,7 +48472,7 @@
     "label": "videokassett",
     "hexcode": "1F4FC",
     "tags": [
-      "vhs",
+      "VHS",
       "video",
       "videoband"
     ],
@@ -47838,7 +48492,7 @@
       "förstoringsglas vänster",
       "vänsterpekande"
     ],
-    "emoji": "🔍️",
+    "emoji": "🔍",
     "text": "🔍︎",
     "type": 1,
     "order": 4450,
@@ -48030,7 +48684,7 @@
     "tags": [
       "bok"
     ],
-    "emoji": "📚️",
+    "emoji": "📚",
     "text": "📚︎",
     "type": 1,
     "order": 4464,
@@ -48209,7 +48863,7 @@
       "pengar",
       "säck"
     ],
-    "emoji": "💰️",
+    "emoji": "💰",
     "text": "💰︎",
     "type": 1,
     "order": 4478,
@@ -48321,7 +48975,7 @@
       "betalkort",
       "kort"
     ],
-    "emoji": "💳️",
+    "emoji": "💳",
     "text": "💳︎",
     "type": 1,
     "order": 4485,
@@ -48442,7 +49096,7 @@
       "kommunikation",
       "skickat"
     ],
-    "emoji": "📤️",
+    "emoji": "📤",
     "text": "📤︎",
     "type": 1,
     "order": 4493,
@@ -48457,7 +49111,7 @@
       "kommunikation",
       "mottaget"
     ],
-    "emoji": "📥️",
+    "emoji": "📥",
     "text": "📥︎",
     "type": 1,
     "order": 4494,
@@ -48471,7 +49125,7 @@
     "tags": [
       "låda"
     ],
-    "emoji": "📦️",
+    "emoji": "📦",
     "text": "📦︎",
     "type": 1,
     "order": 4495,
@@ -48485,7 +49139,7 @@
     "tags": [
       "post"
     ],
-    "emoji": "📫️",
+    "emoji": "📫",
     "text": "📫︎",
     "type": 1,
     "order": 4496,
@@ -48499,7 +49153,7 @@
     "tags": [
       "post"
     ],
-    "emoji": "📪️",
+    "emoji": "📪",
     "text": "📪︎",
     "type": 1,
     "order": 4497,
@@ -48513,7 +49167,7 @@
     "tags": [
       "post"
     ],
-    "emoji": "📬️",
+    "emoji": "📬",
     "text": "📬︎",
     "type": 1,
     "order": 4498,
@@ -48527,7 +49181,7 @@
     "tags": [
       "post"
     ],
-    "emoji": "📭️",
+    "emoji": "📭",
     "text": "📭︎",
     "type": 1,
     "order": 4499,
@@ -48851,7 +49505,7 @@
       "clipboard",
       "urklipp"
     ],
-    "emoji": "📋️",
+    "emoji": "📋",
     "text": "📋︎",
     "type": 1,
     "order": 4531,
@@ -49012,7 +49666,7 @@
       "lås",
       "stängt lås"
     ],
-    "emoji": "🔒️",
+    "emoji": "🔒",
     "text": "🔒︎",
     "type": 1,
     "order": 4547,
@@ -49027,7 +49681,7 @@
       "lås",
       "olåst"
     ],
-    "emoji": "🔓️",
+    "emoji": "🔓",
     "text": "🔓︎",
     "type": 1,
     "order": 4548,
@@ -49207,7 +49861,7 @@
     "tags": [
       "serietidning"
     ],
-    "emoji": "💣️",
+    "emoji": "💣",
     "text": "💣︎",
     "type": 1,
     "order": 4566,
@@ -49567,7 +50221,6 @@
     "hexcode": "1F9EC",
     "tags": [
       "biolog",
-      "dna",
       "evolution",
       "gen",
       "genetik",
@@ -50219,12 +50872,12 @@
     "label": "hamsa",
     "hexcode": "1FAAC",
     "tags": [
+      "Fatima",
+      "Maria",
+      "Miriam",
       "amulett",
-      "fatima",
       "hand",
       "lycka",
-      "maria",
-      "miriam",
       "skydd"
     ],
     "emoji": "🪬",
@@ -50269,8 +50922,7 @@
     "label": "ID-kort",
     "hexcode": "1FAAA",
     "tags": [
-      "id",
-      "id-kort",
+      "ID",
       "legitimation",
       "personuppgifter",
       "säkerhet"
@@ -50337,7 +50989,7 @@
       "symbol",
       "tillgänglighet"
     ],
-    "emoji": "♿️",
+    "emoji": "♿",
     "text": "♿︎",
     "type": 1,
     "order": 4648,
@@ -50353,7 +51005,7 @@
       "symbol för män",
       "toalett"
     ],
-    "emoji": "🚹️",
+    "emoji": "🚹",
     "text": "🚹︎",
     "type": 1,
     "order": 4649,
@@ -50369,7 +51021,7 @@
       "symbol för kvinnor",
       "toalett"
     ],
-    "emoji": "🚺️",
+    "emoji": "🚺",
     "text": "🚺︎",
     "type": 1,
     "order": 4650,
@@ -50399,7 +51051,7 @@
       "bebis",
       "skötrum"
     ],
-    "emoji": "🚼️",
+    "emoji": "🚼",
     "text": "🚼︎",
     "type": 1,
     "order": 4652,
@@ -50412,8 +51064,7 @@
     "hexcode": "1F6BE",
     "tags": [
       "toalett",
-      "uthus",
-      "wc"
+      "uthus"
     ],
     "emoji": "🚾",
     "text": "",
@@ -50521,7 +51172,7 @@
     "tags": [
       "infart förbjuden"
     ],
-    "emoji": "⛔️",
+    "emoji": "⛔",
     "text": "⛔︎",
     "type": 1,
     "order": 4661,
@@ -50567,7 +51218,7 @@
       "rökning förbjudet",
       "symbol"
     ],
-    "emoji": "🚭️",
+    "emoji": "🚭",
     "text": "🚭︎",
     "type": 1,
     "order": 4664,
@@ -50960,9 +51611,8 @@
     "label": "Back med vänsterpil",
     "hexcode": "1F519",
     "tags": [
-      "back med vänsterpil",
+      "TILLBAKA med vänsterpil",
       "bakåt",
-      "tillbaka med vänsterpil",
       "vänsterpil"
     ],
     "emoji": "🔙",
@@ -50977,10 +51627,9 @@
     "label": "End med högerpil",
     "hexcode": "1F51A",
     "tags": [
-      "end med högerpil",
+      "Slut med högerpil",
       "framåt",
-      "högerpil",
-      "slut med högerpil"
+      "högerpil"
     ],
     "emoji": "🔚",
     "text": "",
@@ -50994,10 +51643,10 @@
     "label": "ON! med pil höger och vänster ovanför",
     "hexcode": "1F51B",
     "tags": [
+      "ON!",
+      "PÅ!",
       "höger",
-      "on!",
       "pil",
-      "på!",
       "vänster"
     ],
     "emoji": "🔛",
@@ -51012,11 +51661,11 @@
     "label": "Soon med högerpil ovanför",
     "hexcode": "1F51C",
     "tags": [
+      "SNART",
+      "SOON",
       "höger",
       "omw",
-      "pil",
-      "snart",
-      "soon"
+      "pil"
     ],
     "emoji": "🔜",
     "text": "",
@@ -51030,11 +51679,11 @@
     "label": "Top med uppåtpil",
     "hexcode": "1F51D",
     "tags": [
+      "TOP",
+      "TOPP",
       "homie",
       "kompis",
       "pil",
-      "top",
-      "topp",
       "upp",
       "uppåtpil"
     ],
@@ -51244,9 +51893,9 @@
     "label": "khanda",
     "hexcode": "1FAAF",
     "tags": [
-      "khalsa",
+      "Khalsa",
+      "Sikh",
       "religion",
-      "sikh",
       "sikhism",
       "tro"
     ],
@@ -51262,10 +51911,9 @@
     "label": "Väduren",
     "hexcode": "2648",
     "tags": [
-      "stjärntecken",
-      "väduren"
+      "stjärntecken"
     ],
-    "emoji": "♈️",
+    "emoji": "♈",
     "text": "♈︎",
     "type": 1,
     "order": 4731,
@@ -51277,10 +51925,9 @@
     "label": "Oxen",
     "hexcode": "2649",
     "tags": [
-      "oxen",
       "stjärntecken"
     ],
-    "emoji": "♉️",
+    "emoji": "♉",
     "text": "♉︎",
     "type": 1,
     "order": 4732,
@@ -51292,10 +51939,9 @@
     "label": "Tvillingarna",
     "hexcode": "264A",
     "tags": [
-      "stjärntecken",
-      "tvillingarna"
+      "stjärntecken"
     ],
-    "emoji": "♊️",
+    "emoji": "♊",
     "text": "♊︎",
     "type": 1,
     "order": 4733,
@@ -51307,10 +51953,9 @@
     "label": "Kräftan",
     "hexcode": "264B",
     "tags": [
-      "kräftan",
       "stjärntecken"
     ],
-    "emoji": "♋️",
+    "emoji": "♋",
     "text": "♋︎",
     "type": 1,
     "order": 4734,
@@ -51322,10 +51967,9 @@
     "label": "Lejonet",
     "hexcode": "264C",
     "tags": [
-      "lejonet",
       "stjärntecken"
     ],
-    "emoji": "♌️",
+    "emoji": "♌",
     "text": "♌︎",
     "type": 1,
     "order": 4735,
@@ -51337,10 +51981,9 @@
     "label": "Jungfrun",
     "hexcode": "264D",
     "tags": [
-      "jungfrun",
       "stjärntecken"
     ],
-    "emoji": "♍️",
+    "emoji": "♍",
     "text": "♍︎",
     "type": 1,
     "order": 4736,
@@ -51354,10 +51997,9 @@
     "tags": [
       "balans",
       "rättvisa",
-      "stjärntecken",
-      "vågen"
+      "stjärntecken"
     ],
-    "emoji": "♎️",
+    "emoji": "♎",
     "text": "♎︎",
     "type": 1,
     "order": 4737,
@@ -51369,10 +52011,9 @@
     "label": "Skorpionen",
     "hexcode": "264F",
     "tags": [
-      "skorpionen",
       "stjärntecken"
     ],
-    "emoji": "♏️",
+    "emoji": "♏",
     "text": "♏︎",
     "type": 1,
     "order": 4738,
@@ -51384,10 +52025,9 @@
     "label": "Skytten",
     "hexcode": "2650",
     "tags": [
-      "skytten",
       "stjärntecken"
     ],
-    "emoji": "♐️",
+    "emoji": "♐",
     "text": "♐︎",
     "type": 1,
     "order": 4739,
@@ -51399,10 +52039,9 @@
     "label": "Stenbocken",
     "hexcode": "2651",
     "tags": [
-      "stenbocken",
       "stjärntecken"
     ],
-    "emoji": "♑️",
+    "emoji": "♑",
     "text": "♑︎",
     "type": 1,
     "order": 4740,
@@ -51414,10 +52053,9 @@
     "label": "Vattumannen",
     "hexcode": "2652",
     "tags": [
-      "stjärntecken",
-      "vattumannen"
+      "stjärntecken"
     ],
-    "emoji": "♒️",
+    "emoji": "♒",
     "text": "♒︎",
     "type": 1,
     "order": 4741,
@@ -51429,10 +52067,9 @@
     "label": "Fiskarna",
     "hexcode": "2653",
     "tags": [
-      "fiskarna",
       "stjärntecken"
     ],
-    "emoji": "♓️",
+    "emoji": "♓",
     "text": "♓︎",
     "type": 1,
     "order": 4742,
@@ -51444,10 +52081,9 @@
     "label": "Ormbäraren",
     "hexcode": "26CE",
     "tags": [
-      "ormbäraren",
       "stjärnbild"
     ],
-    "emoji": "⛎️",
+    "emoji": "⛎",
     "text": "⛎︎",
     "type": 1,
     "order": 4743,
@@ -51531,7 +52167,7 @@
       "knapp för snabbspola framåt",
       "snabbspola"
     ],
-    "emoji": "⏩️",
+    "emoji": "⏩",
     "text": "⏩︎",
     "type": 1,
     "order": 4749,
@@ -51594,7 +52230,7 @@
       "dubbla vänsterpilar",
       "pilar"
     ],
-    "emoji": "⏪️",
+    "emoji": "⏪",
     "text": "⏪︎",
     "type": 1,
     "order": 4756,
@@ -51638,7 +52274,7 @@
     "tags": [
       "uppåtpilar"
     ],
-    "emoji": "⏫️",
+    "emoji": "⏫",
     "text": "⏫︎",
     "type": 1,
     "order": 4760,
@@ -51667,7 +52303,7 @@
     "tags": [
       "nedåtpilar"
     ],
-    "emoji": "⏬️",
+    "emoji": "⏬",
     "text": "⏬︎",
     "type": 1,
     "order": 4762,
@@ -51812,6 +52448,7 @@
     "label": "trådlös",
     "hexcode": "1F6DC",
     "tags": [
+      "Wi‑Fi",
       "bredband",
       "hotspot",
       "internet",
@@ -51821,7 +52458,6 @@
       "surfpunkt",
       "surfzon",
       "trådlöst",
-      "wi‑fi",
       "wlan"
     ],
     "emoji": "🛜",
@@ -51937,7 +52573,7 @@
       "plustecken",
       "tecken"
     ],
-    "emoji": "➕️",
+    "emoji": "➕",
     "text": "➕︎",
     "type": 1,
     "order": 4786,
@@ -51956,7 +52592,7 @@
       "tecken",
       "−"
     ],
-    "emoji": "➖️",
+    "emoji": "➖",
     "text": "➖︎",
     "type": 1,
     "order": 4787,
@@ -51974,7 +52610,7 @@
       "tecken",
       "÷"
     ],
-    "emoji": "➗️",
+    "emoji": "➗",
     "text": "➗︎",
     "type": 1,
     "order": 4788,
@@ -52053,7 +52689,7 @@
       "interpunktion",
       "tecken"
     ],
-    "emoji": "❓️",
+    "emoji": "❓",
     "text": "❓︎",
     "type": 1,
     "order": 4796,
@@ -52068,7 +52704,7 @@
       "fråga",
       "frågetecken"
     ],
-    "emoji": "❔️",
+    "emoji": "❔",
     "text": "❔︎",
     "type": 1,
     "order": 4797,
@@ -52084,7 +52720,7 @@
       "utropstecken",
       "vitt"
     ],
-    "emoji": "❕️",
+    "emoji": "❕",
     "text": "❕︎",
     "type": 1,
     "order": 4798,
@@ -52100,7 +52736,7 @@
       "rött",
       "utropstecken"
     ],
-    "emoji": "❗️",
+    "emoji": "❗",
     "text": "❗︎",
     "type": 1,
     "order": 4799,
@@ -52252,7 +52888,7 @@
       "röd",
       "vit cirkel med röd kant"
     ],
-    "emoji": "⭕️",
+    "emoji": "⭕",
     "text": "⭕︎",
     "type": 1,
     "order": 4813,
@@ -52267,7 +52903,7 @@
       "bock",
       "vit fet bockmarkering"
     ],
-    "emoji": "✅️",
+    "emoji": "✅",
     "text": "✅︎",
     "type": 1,
     "order": 4814,
@@ -52311,10 +52947,10 @@
     "label": "rött kryss",
     "hexcode": "274C",
     "tags": [
-      "kryss",
-      "x"
+      "X",
+      "kryss"
     ],
-    "emoji": "❌️",
+    "emoji": "❌",
     "text": "❌︎",
     "type": 1,
     "order": 4819,
@@ -52326,10 +52962,10 @@
     "label": "vitt kryss i ruta",
     "hexcode": "274E",
     "tags": [
-      "kryss",
-      "x i ruta"
+      "X i ruta",
+      "kryss"
     ],
-    "emoji": "❎️",
+    "emoji": "❎",
     "text": "❎︎",
     "type": 1,
     "order": 4820,
@@ -52344,7 +52980,7 @@
       "kurva",
       "slinga"
     ],
-    "emoji": "➰️",
+    "emoji": "➰",
     "text": "➰︎",
     "type": 1,
     "order": 4821,
@@ -52358,7 +52994,7 @@
     "tags": [
       "öglor"
     ],
-    "emoji": "➿️",
+    "emoji": "➿",
     "text": "➿︎",
     "type": 1,
     "order": 4822,
@@ -52488,10 +53124,10 @@
     "version": 16
   },
   {
-    "label": "keycap: \\x{23}",
+    "label": "keycap: #",
     "hexcode": "0023-FE0F-20E3",
     "tags": [
-      "keycap: \\x{23}"
+      "keycap"
     ],
     "emoji": "#️⃣",
     "text": "",
@@ -52505,7 +53141,7 @@
     "label": "keycap: *",
     "hexcode": "002A-FE0F-20E3",
     "tags": [
-      "keycap: *"
+      "keycap"
     ],
     "emoji": "*️⃣",
     "text": "",
@@ -52676,10 +53312,10 @@
     "version": 0.6
   },
   {
-    "label": "bookmark..water pistol",
+    "label": "keycap: 10",
     "hexcode": "1F51F",
     "tags": [
-      "bookmark..water pistol"
+      "keycap"
     ],
     "emoji": "🔟",
     "text": "",
@@ -52693,7 +53329,7 @@
     "label": "versaler",
     "hexcode": "1F520",
     "tags": [
-      "abc",
+      "ABC",
       "alfabet",
       "stora bokstäver"
     ],
@@ -52751,7 +53387,7 @@
     "label": "bokstäver",
     "hexcode": "1F524",
     "tags": [
-      "abc",
+      "ABC",
       "alfabet"
     ],
     "emoji": "🔤",
@@ -52766,8 +53402,7 @@
     "label": "blodgrupp A",
     "hexcode": "1F170",
     "tags": [
-      "blodgrupp a",
-      "typ a"
+      "typ A"
     ],
     "emoji": "🅰️",
     "text": "🅰︎",
@@ -52781,8 +53416,7 @@
     "label": "blodgrupp AB",
     "hexcode": "1F18E",
     "tags": [
-      "blodgrupp ab",
-      "typ ab"
+      "typ AB"
     ],
     "emoji": "🆎",
     "text": "",
@@ -52796,8 +53430,7 @@
     "label": "blodgrupp B",
     "hexcode": "1F171",
     "tags": [
-      "blodgrupp b",
-      "typ b"
+      "typ B"
     ],
     "emoji": "🅱️",
     "text": "🅱︎",
@@ -52811,7 +53444,7 @@
     "label": "rensa-symbol",
     "hexcode": "1F191",
     "tags": [
-      "cl-symbol",
+      "CL-symbol",
       "redo",
       "renssymbol"
     ],
@@ -52827,8 +53460,7 @@
     "label": "COOL-knapp",
     "hexcode": "1F192",
     "tags": [
-      "cool",
-      "cool-knapp"
+      "cool"
     ],
     "emoji": "🆒",
     "text": "",
@@ -52842,8 +53474,7 @@
     "label": "FREE-knapp",
     "hexcode": "1F193",
     "tags": [
-      "free-knapp",
-      "fri-knapp",
+      "FRI-knapp",
       "gratis",
       "gratis-symbol",
       "symbol"
@@ -52875,9 +53506,8 @@
     "label": "ID-knapp",
     "hexcode": "1F194",
     "tags": [
-      "id",
-      "id-knapp",
-      "id-symbol",
+      "ID",
+      "ID-symbol",
       "identitet"
     ],
     "emoji": "🆔",
@@ -52906,9 +53536,8 @@
     "label": "NEW-knapp",
     "hexcode": "1F195",
     "tags": [
-      "new-knapp",
-      "ny-knapp",
-      "nyhet",
+      "NY-knapp",
+      "Nyhet",
       "nyhetssymbol",
       "symbol"
     ],
@@ -52926,7 +53555,6 @@
     "tags": [
       "inte bra",
       "inte bra-symbol",
-      "ng-knapp",
       "symbol"
     ],
     "emoji": "🆖",
@@ -52955,8 +53583,7 @@
     "label": "OK-knapp",
     "hexcode": "1F197",
     "tags": [
-      "ok",
-      "ok-knapp"
+      "OK"
     ],
     "emoji": "🆗",
     "text": "",
@@ -52970,7 +53597,6 @@
     "label": "P-knapp",
     "hexcode": "1F17F",
     "tags": [
-      "p-knapp",
       "parkering",
       "parkeringsplats"
     ],
@@ -52986,10 +53612,9 @@
     "label": "SOS-knapp",
     "hexcode": "1F198",
     "tags": [
+      "SOS",
+      "SOS-symbol",
       "hjälp",
-      "sos",
-      "sos-knapp",
-      "sos-symbol",
       "symbol"
     ],
     "emoji": "🆘",
@@ -53004,9 +53629,8 @@
     "label": "UP!-knapp",
     "hexcode": "1F199",
     "tags": [
-      "up!",
-      "up!-knapp",
-      "upp!-knapp"
+      "UP!",
+      "UPP!-knapp"
     ],
     "emoji": "🆙",
     "text": "",
@@ -53023,8 +53647,7 @@
       "kontra",
       "mot",
       "symbol",
-      "vs",
-      "vs-knapp"
+      "vs"
     ],
     "emoji": "🆚",
     "text": "",
@@ -53109,7 +53732,7 @@
       "japansk",
       "reserverad"
     ],
-    "emoji": "🈯️",
+    "emoji": "🈯",
     "text": "🈯︎",
     "type": 1,
     "order": 4897,
@@ -53160,7 +53783,7 @@
       "ideogram för gratis",
       "japansk"
     ],
-    "emoji": "🈚️",
+    "emoji": "🈚",
     "text": "🈚︎",
     "type": 1,
     "order": 4900,
@@ -53435,7 +54058,7 @@
       "cirkel",
       "geometrisk"
     ],
-    "emoji": "⚫️",
+    "emoji": "⚫",
     "text": "⚫︎",
     "type": 1,
     "order": 4919,
@@ -53450,7 +54073,7 @@
       "cirkel",
       "geometrisk"
     ],
-    "emoji": "⚪️",
+    "emoji": "⚪",
     "text": "⚪︎",
     "type": 1,
     "order": 4920,
@@ -53571,7 +54194,7 @@
       "ruta",
       "svart"
     ],
-    "emoji": "⬛️",
+    "emoji": "⬛",
     "text": "⬛︎",
     "type": 1,
     "order": 4928,
@@ -53586,7 +54209,7 @@
       "geometrisk",
       "ruta"
     ],
-    "emoji": "⬜️",
+    "emoji": "⬜",
     "text": "⬜︎",
     "type": 1,
     "order": 4929,
@@ -53635,7 +54258,7 @@
       "ruta",
       "svart"
     ],
-    "emoji": "◾️",
+    "emoji": "◾",
     "text": "◾︎",
     "type": 1,
     "order": 4934,
@@ -53652,7 +54275,7 @@
       "ruta",
       "vit"
     ],
-    "emoji": "◽️",
+    "emoji": "◽",
     "text": "◽︎",
     "type": 1,
     "order": 4935,

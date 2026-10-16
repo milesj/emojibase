@@ -4,6 +4,10 @@ import { hasProperty } from './hasProperty';
 
 const lettersSet = new Set(Object.keys(REGIONAL_INDICATORS));
 
-export function isHidden(emoji: Emoji): boolean {
-	return hasProperty(emoji.property, HIDDEN_EMOJI_PROPERTIES) && !lettersSet.has(emoji.hexcode);
+export function isHidden(emoji: Pick<Emoji, 'hexcode' | 'property'>): boolean {
+	return (
+		hasProperty(emoji.property, HIDDEN_EMOJI_PROPERTIES) &&
+		!hasProperty(emoji.property, ['Basic_Emoji']) &&
+		!lettersSet.has(emoji.hexcode)
+	);
 }

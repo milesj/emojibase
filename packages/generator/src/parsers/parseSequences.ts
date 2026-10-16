@@ -1,9 +1,8 @@
 import { EMOJI } from 'emojibase';
+import { decodeEscapeSequence } from '../helpers/decodeEscapeSequence';
 import type { EmojiDataMap, ParsedLine, Property } from '../types';
 import { extractEmojiVersion } from './extractEmojiVersion';
-import { extractGender } from './extractGender';
 import { extractLineDescription } from './extractLineDescription';
-import { extractUnicodeVersion } from './extractUnicodeVersion';
 import { parse } from './parse';
 import { spreadHexcode } from './spreadHexcode';
 import { verifyTotals } from './verifyTotals';
@@ -26,14 +25,16 @@ export function parseSequences(
 
 		const emojiVersion = extractEmojiVersion(line.comment) ?? Number.parseFloat(version);
 
-		spreadHexcode(rawHexcode, (hexcode) => {
+		spreadHexcode(rawHexcode, (hexcode, range) => {
 			map[hexcode] = {
-				description: description || extractLineDescription(line.comment),
-				gender: extractGender(hexcode),
+				// A range shares one description ("bookmark..water pistol"),
+				// so each code point's name is filled in from the metadata later
+				description: range
+					? ''
+					: decodeEscapeSequence(description || extractLineDescription(line.comment)),
 				hexcode,
 				property: [(property as Property) || defaultProperty],
 				type: EMOJI,
-				unicodeVersion: extractUnicodeVersion(emojiVersion),
 				version: emojiVersion,
 			};
 		});

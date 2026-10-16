@@ -52,8 +52,13 @@ The second group, versioned data, provides datasets for emoji and Unicode releas
 datasets return a map, with the key being the version, and the value being an array of emoji
 hexcodes included in the associated release version.
 
-- `emojibase-data/versions/emoji.json` - Emoji characters grouped by emoji version.
-- `emojibase-data/versions/unicode.json` - Emoji characters grouped by Unicode version.
+- `emojibase-data/versions/emoji.json` - Emoji characters grouped by emoji version, as labeled in
+  Unicode's data files (`0` is used for components that are not emoji on their own).
+- `emojibase-data/versions/unicode.json` - Emoji characters grouped by the Unicode version in which
+  they became emoji, following the
+  [Emoji Versions](https://www.unicode.org/reports/tr51/#EmojiVersions) table. For example, © is
+  under 6.0, and the Emoji 13.1 sequences are under 13.0. Components that are not emoji on their own
+  are left out.
 
 ```ts
 import unicodeVersions from 'emojibase-data/versions/unicode.json';
@@ -64,12 +69,13 @@ The third and last group, metadata, provides specialized datasets for unique use
 - `emojibase-data/meta/groups.json` - A map of non-localized emoji groups (Smileys & People),
   subgroups (Sky & Weather), and hierarchy, according to the official Unicode data files.
 - `emojibase-data/meta/hexcodes.json` - A map of emoji hexcodes (hexadecimal codepoints) to an
-  object of hexcodes with different qualified status: fully qualified, minimally qualified, and
-  unqualified.
+  object of hexcodes with different qualified status, as listed in Unicode's `emoji-test.txt`: fully
+  qualified, minimally qualified, unqualified, and component.
 - `emojibase-data/meta/unicode.json` - An array of all emoji unicode characters, including text and
   emoji presentation characters.
-- `emojibase-data/meta/unicode-names.json` - A map of hexcodes to official Unicode names for each
-  emoji.
+- `emojibase-data/meta/unicode-names.json` - A map of hexcodes to names for each emoji: the official
+  Unicode name for single characters, and the uppercased CLDR short name for sequences, which have
+  no Unicode name.
 
 ```ts
 import { groups, subgroups, hierarchy } from 'emojibase-data/meta/groups.json';

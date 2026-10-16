@@ -5,6 +5,22 @@ title: Specification alignment
 Emojibase aims to be as specification compliant as possible, but to ensure small datasets, and ease
 of use, some liberties are taken.
 
+## Annotations
+
+Labels (`label`) and keywords (`tags`) come from CLDR annotations, resolved the way
+[UTS #35](https://unicode.org/reports/tr35/tr35-general.html#Annotations) describes:
+
+- Each locale inherits from its CLDR parents, so `en-gb` falls back to `en-001` then `en`, `es-mx`
+  to `es-419` then `es`, and `zh-hant` never falls back to Simplified Chinese. Labels and keywords
+  inherit separately.
+- When CLDR has no label for a flag or keycap, one is built from the locale's own words, like "flag:
+  USA" or "keycap: #". UTS #35 describes bare territory names for flags, but CLDR's own data uses
+  this "flag: …" form, so emojibase matches it.
+- Keywords keep their CLDR casing, such as German nouns and "OK", so fold the case when searching
+  (for example with `toLocaleLowerCase(locale)`). A keyword identical to the label is left out of
+  `tags`, so search both.
+- A character CLDR has not translated yet uses its English label, and the generator lists each one.
+
 ## v12.0
 
 ### Combination skin tones
@@ -153,21 +169,49 @@ dataset looked like the following:
 ```
 
 To avoid duplication across our datasets, the emoji _with_ variation selector (ending in `FE0F`) is
-removed from the final output, and all unique properties are merged into the non-variation selector
-sibling. Don't fret though, as the [`emoji` property](./datasets.mdx#data-structure) _will always_
-include the variation selector, along with the `text` property.
+removed from the final output and merged into the sibling without a variation selector, whose
+`hexcode` stays variationless.
+
+The [`emoji` property](./datasets.mdx#data-structure) is the fully-qualified form from Unicode's
+`emoji-test.txt`. It includes `FE0F` for characters that default to text presentation, like ©, and
+leaves it out for characters that already default to emoji presentation, like 👍. The `text`
+property is the text presentation sequence, ending in `FE0E`.
 
 The resulting dataset would include the following structure:
 
 ```json
-{
-  "label": "copyright",
-  "hexcode": "00A9",
-  "emoji": "©️", // 00A9-FE0F
-  "text": "©︎" // 00A9-FE0E
-  // ...
-}
+[
+  {
+    "label": "copyright",
+    "hexcode": "00A9",
+    "emoji": "©️", // 00A9-FE0F
+    "text": "©︎" // 00A9-FE0E
+    // ...
+  },
+  {
+    "label": "thumbs up",
+    "hexcode": "1F44D",
+    "emoji": "👍", // 1F44D
+    "text": "👍︎" // 1F44D-FE0E
+    // ...
+  }
+]
 ```
+
+`meta/hexcodes.json` lists the qualification status of each form exactly as `emoji-test.txt` does,
+so text presentation sequences are not listed there.
+
+### Components and regional indicators
+
+Skin tone and hair components (🏻 … 🏿, 🦰 … 🦲) are included because they display on their own, but
+like Unicode recommends, they are not meant to be offered for input on their own. They are in the
+`component` group, and are listed with the `COMPONENT` status in `meta/hexcodes.json`.
+
+Regional indicators (🇦 … 🇿) are not emoji on their own, but are included for convenience. They are
+uncategorized, so they have no `group`, `subgroup`, or `order`.
+
+To build a picker of emoji that can be input, skip entries without a group and entries in the
+`component` group.
 
 ## v11.0
 

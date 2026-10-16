@@ -26,7 +26,7 @@ export type Presentation = 0 | 1;
 
 export type PresentationKey = 'emoji' | 'text';
 
-export type Qualifier = 0 | 1 | 2;
+export type Qualifier = 0 | 1 | 2 | 3;
 
 export type Shortcode = string;
 
@@ -193,7 +193,10 @@ export interface Emoji {
 	skins?: Emoji[];
 	/** The categorical subgroup the emoji belongs to. Undefined for uncategorized emojis. */
 	subgroup?: Subgroup;
-	/** An array of localized keywords, provided by CLDR, to use for searching and filtering. */
+	/**
+	 * An array of localized keywords, provided by CLDR, to use for searching and filtering. Keywords
+	 * keep their CLDR casing, so fold the case when searching, and do not repeat the label.
+	 */
 	tags?: string[];
 	/** Text presentation unicode character. */
 	text: Unicode;
