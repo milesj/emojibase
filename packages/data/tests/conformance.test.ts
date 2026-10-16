@@ -1,5 +1,5 @@
-// Conformance of the generated datasets and regex patterns with UTS #51 (Unicode Emoji 17.0)
-// and UTS #35 annotations (CLDR 48). Known violations live in tests/conformance-baseline.json;
+// Conformance of the generated datasets and regex patterns with UTS #51 (Unicode Emoji 18.0)
+// and UTS #35 annotations (CLDR 49). Known violations live in tests/conformance-baseline.json;
 // see ./conformance/baseline.ts for how the baseline works.
 
 import fs from 'node:fs';
@@ -96,7 +96,7 @@ afterAll(() => {
 describe('UTS #51 conformance', () => {
 	const entries = flattenEmojiData(readJson<Emoji[]>('en/data.raw.json'));
 
-	it('parses the Unicode 17.0 fixtures', () => {
+	it('parses the Unicode 18.0 fixtures', () => {
 		const counts: Record<string, number> = {};
 
 		unicode.lines.forEach((line) => {
@@ -385,7 +385,11 @@ describe('UTS #51 conformance', () => {
 				presentation: 'text',
 				shouldMatch: isTextLoose,
 			},
-			'emojibase-regex/emoji': { pattern: EMOJI_PATTERN, presentation: 'emoji', shouldMatch: isEmoji },
+			'emojibase-regex/emoji': {
+				pattern: EMOJI_PATTERN,
+				presentation: 'emoji',
+				shouldMatch: isEmoji,
+			},
 			'emojibase-regex/emoji-loose': {
 				pattern: EMOJI_LOOSE_PATTERN,
 				presentation: 'emoji',
